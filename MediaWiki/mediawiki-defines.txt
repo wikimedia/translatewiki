@@ -56,6 +56,8 @@ ignored = antispoof-conflict-item
 APC
 aliasfile = APC/APC.alias.php
 
+Api Explorer
+
 Api Sandbox
 aliasfile = ApiSandbox/ApiSandbox.alias.php
 descmsg = apisb-desc
