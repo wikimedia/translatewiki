@@ -34,7 +34,7 @@ prefix = tsintuition- |
 file = Tsintuition.i18n.php
 ignored = title
 
-Toolserver Status
+Toolserverstatus
 
 Wlm
 optional = date-format
