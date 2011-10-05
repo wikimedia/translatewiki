@@ -594,8 +594,6 @@ ignored = framedvideo_force_position
 Front Back Matter Forced Wikilinks
 descmsg = frontbackforced-desc
 
-Fundraiser Portal
-
 Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition

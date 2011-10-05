@@ -45,7 +45,6 @@ GROUPS:
   - ext-flaggedrevs-stablepages
   - ext-flaggedrevs-unreviewedpages
   - ext-flaggedrevs-validationstatistics
-  - ext-fundraiserportal # 2009-10-08: test.wikipedia.org
   - ext-googlenewssitemap # r87149 for wikinews
   - ext-labeledsectiontransclusion # Wikisource
   - ext-landingcheck
