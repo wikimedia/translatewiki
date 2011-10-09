@@ -57,6 +57,7 @@ APC
 aliasfile = APC/APC.alias.php
 
 Api Explorer
+aliasfile = ApiExplorer/ApiExplorer.alias.php
 
 Api Sandbox
 aliasfile = ApiSandbox/ApiSandbox.alias.php
