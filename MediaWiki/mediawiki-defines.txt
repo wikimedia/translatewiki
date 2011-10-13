@@ -106,7 +106,7 @@ optional = babel-1-male, babel-2-male, babel-3-male, babel-4-male, babel-5-male
 optional = babel-N-male, babel-0-n-male, babel-1-n-male, babel-2-n-male
 optional = babel-3-n-male, babel-4-n-male, babel-5-n-male, babel-N-n-male
 optional = babel-autocreate-user, babel-template
-ignored = babel-box-cellspacing, babel-cellspacing, babel-portal, 
+ignored = babel-box-cellspacing, babel-cellspacing, babel-portal,
 ignored = babel-box-cellpadding, babel-cellpadding
 
 Back and Forth
@@ -869,7 +869,7 @@ id = ext-mwembedsupport-mwembedsupport
 file = MwEmbedSupport/MwEmbedModules/MwEmbedSupport/MwEmbedSupport.i18n.php
 optional = mwe-size-gigabytes, mwe-size-megabytes, mwe-size-kilobytes, mwe-size-bytes
 
-Namespace Paths 
+Namespace Paths
 
 Narayam
 
@@ -946,7 +946,7 @@ ignored = onlinestatus-levels
 
 OpenID
 aliasfile = OpenID/OpenID.alias.php
-optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time	
+optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
 
 Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
