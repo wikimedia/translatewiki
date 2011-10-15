@@ -1743,11 +1743,11 @@ descmsg = wminc-desc
 Wikimedia Incubator Info Page
 descmsg = wminc-desc
 file = WikimediaIncubator/InfoPage.i18n.php
-optional = wminc-logo-wikipedia, wminc-logo-wiktionary, wminc-logo-wikibooks, wminc-logo-wikinews
-optional = wminc-logo-wikiquote, wminc-logo-wikisource, wminc-logo-wikiversity, wminc-logo-meta-wiki
-optional = wminc-logo-wikimedia-commons, wminc-logo-wikispecies, wminc-logo-mediawiki
-optional = wminc-manual-url, wminc-infopage-title
-ignored = wminc-infopage-prefill
+optional = wminc-infopage-title
+ignored = wminc-logo-wikipedia, wminc-logo-wiktionary, wminc-logo-wikibooks, wminc-logo-wikinews
+ignored = wminc-logo-wikiquote, wminc-logo-wikisource, wminc-logo-wikiversity, wminc-logo-meta-wiki
+ignored = wminc-logo-wikimedia-commons, wminc-logo-wikispecies, wminc-logo-mediawiki
+ignored = wminc-infopage-prefill, wminc-manual-url
 
 Wikimedia Messages
 ignored = sidebar, robots.txt
