@@ -67,6 +67,8 @@ GROUPS:
   - ext-subpagelist3 # r90651
   - ext-syntaxhighlightgeshi
   - ext-titlekey
+  - ext-translate-core # 2011-10-12: Meta
+  - ext-translate-pagetranslation # 2011-10-12: Meta
   - ext-trustedxff
   - ext-uploadblacklist
   - ext-userdailycontribs
