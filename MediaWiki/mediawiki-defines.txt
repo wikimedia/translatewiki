@@ -307,6 +307,9 @@ optional = recaptcha-desc
 Contact Page
 aliasfile = ContactPage/ContactPage.alias.php
 
+Contest
+aliasfile = Contest/Contest.alias.php
+
 Contribution Reporting
 aliasfile = ContributionReporting/ContributionReporting.alias.php
 
