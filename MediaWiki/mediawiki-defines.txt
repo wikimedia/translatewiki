@@ -727,7 +727,7 @@ aliasfile = LandingCheck/LandingCheck.alias.php
 
 Language Selector
 
-LastModified
+Last Modified
 aliasfile = LastModified/LastModified.alias.php
 
 Last User Login
@@ -1267,6 +1267,8 @@ aliasfile = SemanticWatchlist/SemanticWatchlist.i18n.alias.php
 
 Sendmail To Wiki
 ignored = sendmailtowiki
+
+Shared Css Js
 
 Shared User Rights
 aliasfile = SharedUserRights/SharedUserRights.alias.php
