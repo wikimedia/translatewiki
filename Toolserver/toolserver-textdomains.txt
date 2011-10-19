@@ -37,4 +37,4 @@ ignored = title
 Toolserverstatus
 
 Wlm
-optional = date-format
+optional = date-format, province-comarque-joiner
