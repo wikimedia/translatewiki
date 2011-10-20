@@ -405,12 +405,6 @@ descmsg = payflowpro_gateway-desc
 optional = payflow_gateway-card-name-amex, payflow_gateway-card-name-visa, payflow_gateway-card-name-mc, payflow_gateway-card-name-discover
 optional = payflowpro_gateway-month
 
-# tomaszf indicates this is not used, and that it is unlikely it will be used.
-#Donation Interface - PayPal Gateway
-#id = ext-di-ppg
-#file = DonationInterface/paypal_gateway/paypal_gateway.i18n.php
-#descmsg = paypal_gateway-desc
-
 Dont Switch Me Over
 
 Double Wiki
