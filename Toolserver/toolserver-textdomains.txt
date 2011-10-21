@@ -1,3 +1,6 @@
+Catdown
+optional = scaling-none, script-filename, readme-filename
+
 CommonsHelper 2
 ignored = title, tusc
 optional = commonshelper2, standard_project, checkusage
