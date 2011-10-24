@@ -590,7 +590,7 @@ ignored = framedvideo_max_height, framedvideo_allow_full_screen, framedvideo_for
 ignored = framedvideo_force_position
 
 Freq Pattern Tag Cloud
-
+ignored = freqpatterntagcloud, freqpatterntagcloudmaintenance
 Front Back Matter Forced Wikilinks
 descmsg = frontbackforced-desc
 
