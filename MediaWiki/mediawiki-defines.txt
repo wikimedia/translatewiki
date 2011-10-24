@@ -594,6 +594,9 @@ Freq Pattern Tag Cloud
 Front Back Matter Forced Wikilinks
 descmsg = frontbackforced-desc
 
+Fundraiser Landing Page
+# Alias file not added for translation. IIRC this special page is not visible for the user/reader. Raymond 2011-10-24
+
 Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition
