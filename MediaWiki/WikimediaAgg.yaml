@@ -26,7 +26,7 @@ GROUPS:
   - ext-contributionreporting # wikimediafoundation.org
   - ext-contributiontracking # wikimediafoundation.org
   - ext-customusersignup # r86967 
-  - ext-di-di
+  - ext-di-gc
   - ext-di-pfpg # wikimediafoundation.org
   - ext-disableaccount # r86932 for some private wikis
   - ext-doublewiki # Wikisource
