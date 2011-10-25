@@ -390,9 +390,9 @@ Dismissable SiteNotice
 descmsg = sitenotice-desc
 ignored = sitenotice_id
 
-Donation Interface - Donate Interface
-id = ext-di-di
-file = DonationInterface/donate_interface/donate_interface.i18n.php
+Donation Interface - Gateway Commons
+id = ext-di-gc
+file = DonationInterface/gateway_commons/interface.i18n.php
 descmsg = donate_interface-desc
 ignored = donate_interface-big-amount-display, donate_interface-medium-amount-display
 ignored = donate_interface-small-amount-display, donate_interface-big-amount-value
