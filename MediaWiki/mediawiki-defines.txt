@@ -398,6 +398,10 @@ ignored = donate_interface-big-amount-display, donate_interface-medium-amount-di
 ignored = donate_interface-small-amount-display, donate_interface-big-amount-value
 ignored = donate_interface-medium-amount-value, donate_interface-small-amount-value
 
+Donation Interface - Global Collect Gateway
+id = ext-di-gcg
+descmsg = globalcollect_gateway-desc
+
 Donation Interface - Payflow Pro Gateway
 id = ext-di-pfpg
 file = DonationInterface/payflowpro_gateway/payflowpro_gateway.i18n.php
