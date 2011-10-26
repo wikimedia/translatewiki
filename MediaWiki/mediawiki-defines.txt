@@ -401,6 +401,7 @@ ignored = donate_interface-medium-amount-value, donate_interface-small-amount-va
 Donation Interface - Global Collect Gateway
 id = ext-di-gcg
 descmsg = globalcollect_gateway-desc
+file = DonationInterface/globalcollect_gateway/globalcollect_gateway.i18n.php
 
 Donation Interface - Payflow Pro Gateway
 id = ext-di-pfpg
