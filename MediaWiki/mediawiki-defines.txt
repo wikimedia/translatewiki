@@ -959,6 +959,8 @@ Online Status
 magicfile = OnlineStatus/OnlineStatus.i18n.magic.php
 ignored = onlinestatus-levels
 
+Online Status Bar
+
 OpenID
 aliasfile = OpenID/OpenID.alias.php
 optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
