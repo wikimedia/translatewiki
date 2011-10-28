@@ -651,6 +651,8 @@ GraphViz
 
 Groups Sidebar
 
+Hash Tables
+
 Hide Namespace
 descmsg = hidens-desc
 
