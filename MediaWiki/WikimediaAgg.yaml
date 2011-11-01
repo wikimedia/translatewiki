@@ -46,6 +46,7 @@ GROUPS:
   - ext-flaggedrevs-stablepages
   - ext-flaggedrevs-unreviewedpages
   - ext-flaggedrevs-validationstatistics
+  - ext-fundraiserlandingpage # r101409 for donatewiki
   - ext-googlenewssitemap # r87149 for wikinews
   - ext-labeledsectiontransclusion # Wikisource
   - ext-landingcheck
