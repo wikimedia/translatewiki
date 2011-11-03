@@ -1674,6 +1674,7 @@ aliasfile = VariablePage/VariablePage.alias.php
 Vector
 
 Vips Scaler
+aliasfile = VipsScaler/VipsScaler.alias.php
 
 Vote
 aliasfile = Vote/Vote.alias.php
