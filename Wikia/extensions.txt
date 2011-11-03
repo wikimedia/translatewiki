@@ -210,6 +210,8 @@ descmsg = wikiarelatedpages-desc
 Related Video
 file = RelatedVideo/i18n/RelatedVideo.i18n.php
 
+Related Videos
+
 RTE - Base
 file = RTE/i18n/RTE.i18n.php
 ignored = editor-template-list
@@ -315,8 +317,6 @@ file = WhereIsExtension/SpecialWhereIsExtension.i18n.php
 
 Wikia Irc Gateway
 ignored = ircgate-channellist
-
-Wikia Labs
 
 Wikia Mini Upload
 
