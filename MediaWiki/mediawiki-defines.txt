@@ -312,6 +312,7 @@ aliasfile = Contest/Contest.alias.php
 
 Contribution Reporting
 aliasfile = ContributionReporting/ContributionReporting.alias.php
+ignored = contribstats-header, contribstats-footer
 
 Contribution Scores
 aliasfile = ContributionScores/ContributionScores.alias.php
