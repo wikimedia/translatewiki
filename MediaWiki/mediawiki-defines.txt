@@ -394,7 +394,7 @@ Donation Interface - Gateway Common
 id = ext-di-gc
 file = DonationInterface/gateway_common/interface.i18n.php
 descmsg = donate_interface-desc
-optional = donate interface-currency-display
+optional = donate_interface-currency-display
 ignored = donate_interface-big-amount-display, donate_interface-medium-amount-display
 ignored = donate_interface-small-amount-display, donate_interface-big-amount-value
 ignored = donate_interface-medium-amount-value, donate_interface-small-amount-value
