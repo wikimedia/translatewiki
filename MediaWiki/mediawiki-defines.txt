@@ -1181,6 +1181,8 @@ Regex Block
 file = regexBlock/regexBlock.i18n.php
 aliasfile = regexBlock/regexBlock.alias.php
 
+Regex Fun
+
 Regex Functions
 magicfile = RegexFunctions/RegexFunctions.i18n.magic.php
 
