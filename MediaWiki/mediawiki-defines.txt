@@ -1284,6 +1284,9 @@ magicfile = SemanticSignup.i18n.magic.php
 
 Semantic Tasks
 
+Semantic Update On Purge
+descmsg = suop-desc
+
 Semantic Watchlist
 aliasfile = SemanticWatchlist/SemanticWatchlist.i18n.alias.php
 
