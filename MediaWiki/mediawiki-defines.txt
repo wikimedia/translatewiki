@@ -1444,6 +1444,8 @@ magicfile = SubPageList/SubPageList.i18n.magic.php
 Sub Page List 3
 descmsg = spl3-desc
 
+Subpage Fun
+
 Subpage Sortkey
 
 Sudo
