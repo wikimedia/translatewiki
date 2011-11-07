@@ -1426,6 +1426,11 @@ aliasfile = StalePages/StalePages.alias.php
 
 Stalker Log
 
+Sternograph
+ignored = sternograph-speaker-pre, sternograph-speaker-post, sternograph-block-pre
+ignored = sternograph-block-post, sternograph-inline-pre, sternograph-inline-post
+ignored = sternograph-context-pre, sternograph-context-post
+
 Stock Charts
 
 Storyboard
