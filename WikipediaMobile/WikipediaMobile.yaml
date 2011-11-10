@@ -1,0 +1,18 @@
+---
+BASIC:
+  description: "{{int:bw-desc-wikipediamobile}}"
+  namespace: NS_WIKIPEDIAMOBILE
+  id: out-wikipedia-mobile
+  label: Wikipedia Mobile
+  display: out/WikipediaMobile
+  class: FileBasedMessageGroup
+  codeBrowser: https://github.com/nitobi/Wikipedia/blob/master/%FILE%#L%LINE%
+
+FILES:
+  class: JavaFFS
+  sourcePattern: %GROUPROOT%/Wikipedia/assets/www/messages/messages-%CODE%.properties
+  definitionFile: %GROUPROOT%/Wikipedia/assets/www/messages/messages-en.properties
+  targetPattern: Wikipedia/assets/www/messages/messages-%CODE%.properties
+  header: |
+    # This file is distributed under the same license as the Wikipedia Mobile package.
+    #
