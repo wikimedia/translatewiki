@@ -1,9 +1,9 @@
 Check out a copy with github account already set up (read/write if sufficient rights):
-$ git clone git@github.com:nitobi/Wikipedia.git
+$ git clone git@github.com:nitobi/Wikipedia.git wikipedia
 
 
 Check out a read-only copy:
-$ git clone https://github.com/nitobi/Wikipedia.git
+$ git clone https://github.com/nitobi/Wikipedia.git wikipedia
 
 
 Message files are in assets/www/messages/messages-*.properties
@@ -21,7 +21,7 @@ To commit:
   git add assets/www/messages/messages-*.properties
   
   # commit locally
-  git commit -m "Updates from TranslateWiki.net"
+  git commit -m "Updates from translatewiki.net"
   
   # push upstream
   git push origin master
