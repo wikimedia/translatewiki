@@ -279,11 +279,23 @@ descmsg = configure-setting-desc
 optional = configure-setting-desc
 
 Confirm Account
-file = ConfirmAccount/presentation/ConfirmAccount.i18n.php
-aliasfile = ConfirmAccount/presentation/ConfirmAccount.alias.php
+file = ConfirmAccount/frontend/language/ConfirmAccount.i18n.php
+aliasfile = ConfirmAccount/frontend/language/ConfirmAccount.alias.php
 descmsg = confirmedit-desc
+
+Confirm Account - Page
+id = ext-confirmaccount-page
+file = ConfirmAccount/frontend/language/ConfirmAccountPage.i18n.php
+
+Confirm Account - Request Account
+id = ext-confirmaccount-requestaccount
+file = ConfirmAccount/frontend/language/RequestAccountPage.i18n.php
 optional = requestaccount-info, requestaccount-footer
 ignored = requestaccount-areas
+
+Confirm Account - User Credentials
+id = ext-confirmaccount-usercredentials
+file = ConfirmAccount/frontend/language/UserCredentialsPage.i18n.php
 
 Confirm Edit
 aliasfile = ConfirmEdit/ConfirmEdit.alias.php
