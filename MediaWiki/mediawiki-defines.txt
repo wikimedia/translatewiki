@@ -879,8 +879,9 @@ optional = mobile-frontend-feedback-page
 Mood Bar
 aliasfile = MoodBar/MoodBar.alias.php
 ignored = tooltip-p-moodbar-trigger-editing, tooltip-p-moodbar-trigger-feedback, tooltip-p-moodbar-trigger-share, moodbar-what-target
-ignored = moodbar-what-expanded, moodbar-what-collapsed, moodbar-loading-subtitle
+ignored = moodbar-what-expanded, moodbar-loading-subtitle
 ignored = moodbar-hide-intro, moodbar-restore-intro
+optional = moodbar-what-collapsed
 
 Most Revisors
 aliasfile = MostRevisors/MostRevisors.alias.php
