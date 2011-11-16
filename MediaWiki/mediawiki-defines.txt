@@ -806,6 +806,8 @@ Logo Functions
 Lookup User
 aliasfile = LookupUser/LookupUser.alias.php
 
+Loops
+
 Lua
 descmsg = lua_desc
 
