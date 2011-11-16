@@ -1703,6 +1703,8 @@ optional = validator-listerrors-severity-message
 Variable Page
 aliasfile = VariablePage/VariablePage.alias.php
 
+Variables
+
 Vector
 
 Vips Scaler
