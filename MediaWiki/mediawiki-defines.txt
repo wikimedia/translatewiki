@@ -1016,33 +1016,33 @@ descmsg = tiff-desc
 
 Parser Fun
 
-Parser Functions
-descmsg = pfunc_desc
+#Parser Functions
+#descmsg = pfunc_desc
 # Disabled. #language collision.
 #magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
-optional = pfunc-convert-prefix-yotta-abbr
-optional = pfunc-convert-prefix-zetta-abbr
-optional = pfunc-convert-prefix-exa-abbr
-optional = pfunc-convert-prefix-peta-abbr
-optional = pfunc-convert-prefix-tera-abbr
-optional = pfunc-convert-prefix-giga-abbr
-optional = pfunc-convert-prefix-mega-abbr
-optional = pfunc-convert-prefix-kilo-abbr
-optional = pfunc-convert-prefix-hecto-abbr
-optional = pfunc-convert-prefix-deca-abbr
-optional = pfunc-convert-prefix-deci-abbr
-optional = pfunc-convert-prefix-centi-abbr
-optional = pfunc-convert-prefix-mili-abbr
-optional = pfunc-convert-prefix-micro-abbr
-optional = pfunc-convert-prefix-nano-abbr
-optional = pfunc-convert-prefix-pico-abbr
-optional = pfunc-convert-prefix-femto-abbr
-optional = pfunc-convert-prefix-atto-abbr
-optional = pfunc-convert-prefix-zepto-abbr
-optional = pfunc-convert-prefix-yocto-abbr
-optional = pfunc-convert-unit-length-metre-abbr
-optional = pfunc-convert-unit-length-angstrom-abbr
-optional = pfunc-convert-unit-length-mile-abbr
+#optional = pfunc-convert-prefix-yotta-abbr
+#optional = pfunc-convert-prefix-zetta-abbr
+#optional = pfunc-convert-prefix-exa-abbr
+#optional = pfunc-convert-prefix-peta-abbr
+#optional = pfunc-convert-prefix-tera-abbr
+#optional = pfunc-convert-prefix-giga-abbr
+#optional = pfunc-convert-prefix-mega-abbr
+#optional = pfunc-convert-prefix-kilo-abbr
+#optional = pfunc-convert-prefix-hecto-abbr
+#optional = pfunc-convert-prefix-deca-abbr
+#optional = pfunc-convert-prefix-deci-abbr
+#optional = pfunc-convert-prefix-centi-abbr
+#optional = pfunc-convert-prefix-mili-abbr
+#optional = pfunc-convert-prefix-micro-abbr
+#optional = pfunc-convert-prefix-nano-abbr
+#optional = pfunc-convert-prefix-pico-abbr
+#optional = pfunc-convert-prefix-femto-abbr
+#optional = pfunc-convert-prefix-atto-abbr
+#optional = pfunc-convert-prefix-zepto-abbr
+#optional = pfunc-convert-prefix-yocto-abbr
+#optional = pfunc-convert-unit-length-metre-abbr
+#optional = pfunc-convert-unit-length-angstrom-abbr
+#optional = pfunc-convert-unit-length-mile-abbr
 
 Parser Wiki
 
