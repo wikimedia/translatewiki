@@ -1014,6 +1014,8 @@ descmsg = ps-desc
 Paged Tiff Handler
 descmsg = tiff-desc
 
+Parser Fun
+
 Parser Functions
 descmsg = pfunc_desc
 # Disabled. #language collision.
