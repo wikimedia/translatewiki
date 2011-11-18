@@ -723,6 +723,8 @@ aliasfile = InspectCache/InspectCache.alias.php
 #descmsg = config-desc
 #optional = config-type-mysql, config-type-postgres, config-type-sqlite, config-type-oracle
 
+Interactive Block Message
+
 Interlanguage
 magicfile = Interlanguage/Interlanguage.i18n.magic.php
 
