@@ -1,6 +1,6 @@
 ---
 BASIC:
-  description: "{{int:bw-desc-wikipediamobile}}"
+  description: "{{int:translate-group-desc-wikipediamobile}}"
   namespace: NS_WIKIMEDIA
   id: out-wikipedia-mobile
   label: Wikipedia Mobile
