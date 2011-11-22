@@ -68,7 +68,7 @@ Api SVG Proxy
 Approved Revs
 aliasfile = ApprovedRevs/ApprovedRevs.alias.php
 
-Array Extension
+Arrays
 
 Article Comments
 descmsg = article-comments-desc
