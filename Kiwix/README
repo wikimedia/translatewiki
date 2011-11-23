@@ -1,0 +1,29 @@
+== Setup ==
+ cd %GROUPROOT%
+ mkdir kiwix
+ cd kiwix
+ svn co https://kiwix.svn.sourceforge.net/svnroot/kiwix/maintenance_tools/translatewiki .
+
+Add to your LocalSettings.php:
+ wfAddNamespace( 1244, 'Kiwix' );
+ $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Kiwix/Kiwix.yaml"
+
+== Export ==
+Check out writable copy to a suitable place
+ mkdir kiwix
+ cd kiwix
+svn co https://USERNAME@kiwix.svn.sourceforge.net/svnroot/kiwix/maintenance_tools/translatewiki .
+
+Make an export script, like export.sh:
+ EXPORTERPATH=/var/www/w/extensions/Translate/scripts
+ TARGET=/full/path/to/kiwix/checkout
+ 
+ # Only 80% or more complete should be exported.
+ cd $EXPORTERPATH
+ php export.php --target=$TARGET --skip=en --group=out-kiwix --lang=* --threshold=80
+ 
+To export:
+ sh export.sh
+ cd kiwix
+ svn diff
+ svn commit
