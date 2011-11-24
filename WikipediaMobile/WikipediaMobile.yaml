@@ -4,9 +4,7 @@ BASIC:
   namespace: NS_WIKIMEDIA
   id: out-wikipedia-mobile
   label: Wikipedia Mobile
-  display: out/WikipediaMobile
   class: FileBasedMessageGroup
-  codeBrowser: https://github.com/nitobi/Wikipedia/blob/master/%FILE%#L%LINE%
 
 MANGLER:
   class: StringMatcher
