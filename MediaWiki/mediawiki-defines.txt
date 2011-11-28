@@ -27,6 +27,8 @@ Add Media Wizard - Firefogg GUI
 file = AddMediaWizard/MwEmbedModules/FirefoggGUI/FirefoggGUI.i18n.php
 descmsg = addmediawizard-desc
 
+Add This
+
 Admin Links
 aliasfile = AdminLinks/AdminLinks.alias.php
 
