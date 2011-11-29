@@ -1720,6 +1720,8 @@ Vector
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
+Visual Editor 
+
 Vote
 aliasfile = Vote/Vote.alias.php
 
