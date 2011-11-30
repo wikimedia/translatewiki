@@ -886,7 +886,7 @@ optional = mobile-frontend-feedback-page
 Mood Bar
 aliasfile = MoodBar/MoodBar.alias.php
 optional = moodbar-what-collapsed, moodbar-respond-collapsed, moodbar-respond-expanded, moodbar-response-cc
-optional = moodbar-response-gfdl
+optional = moodbar-response-gfdl, moodbar-response-url
 ignored = tooltip-p-moodbar-trigger-editing, tooltip-p-moodbar-trigger-feedback, tooltip-p-moodbar-trigger-share, moodbar-what-target
 ignored = moodbar-what-expanded, moodbar-loading-subtitle, moodbar-response-gfdl-link, moodbar-response-gfdl-link
 ignored = moodbar-hide-intro, moodbar-restore-intro, moodbar-response-cc-link, moodbar-response-terms-of-use-link
