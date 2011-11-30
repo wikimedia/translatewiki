@@ -75,6 +75,7 @@ GROUPS:
   - ext-uploadblacklist
   - ext-userdailycontribs
   - ext-variablepage
+  - ext-vipsscaler # 104390: test2.wikipedia.org
   - ext-wikilove # r90124
   - ext-wikihiero
   - ext-wikimediaincubator # r89556
