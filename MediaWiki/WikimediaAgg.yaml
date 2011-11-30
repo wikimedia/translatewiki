@@ -11,6 +11,7 @@ GROUPS:
   - ext-0-wikimedia-main # See WikimediaMainAgg.yaml. Do not duplicate group names!
   - ext-abusefilter
   - ext-antibot # anti spam and such (usually all wikis)
+  - ext-apisandbox # r104698, enabled on all wikis
   - ext-articlefeedback
   - ext-charinsert
   - ext-checkuser
