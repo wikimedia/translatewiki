@@ -1810,7 +1810,6 @@ descmsg = wminc-desc
 Wikimedia Incubator Info Page
 descmsg = wminc-desc
 file = WikimediaIncubator/InfoPage.i18n.php
-optional = wminc-infopage-title
 ignored = wminc-logo-wikipedia, wminc-logo-wiktionary, wminc-logo-wikibooks, wminc-logo-wikinews
 ignored = wminc-logo-wikiquote, wminc-logo-wikisource, wminc-logo-wikiversity, wminc-logo-meta-wiki
 ignored = wminc-logo-wikimedia-commons, wminc-logo-wikispecies, wminc-logo-mediawiki
