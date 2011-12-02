@@ -672,6 +672,8 @@ Hash Tables
 
 Header Tabs
 
+Help Commons
+
 Hide Namespace
 descmsg = hidens-desc
 
