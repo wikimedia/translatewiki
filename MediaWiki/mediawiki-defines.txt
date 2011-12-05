@@ -1365,6 +1365,8 @@ Signup API
 
 Simple Anti Spam
 
+Simple Farm
+
 Simple Security
 ignored = security-logentry, protect-unchain
 descmsg = security-desc
