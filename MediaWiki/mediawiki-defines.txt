@@ -678,6 +678,7 @@ Groups Sidebar
 Hash Tables
 
 Header Tabs
+ignored = headertabs-edittab-key
 
 Help Commons
 
