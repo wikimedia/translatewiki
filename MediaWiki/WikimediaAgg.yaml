@@ -77,6 +77,7 @@ GROUPS:
   - ext-userdailycontribs
   - ext-variablepage
   - ext-vipsscaler # 104390: test2.wikipedia.org
+  - ext-visualeditor # r106062 for sandbox on mediawiki.org
   - ext-wikilove # r90124
   - ext-wikihiero
   - ext-wikimediaincubator # r89556
