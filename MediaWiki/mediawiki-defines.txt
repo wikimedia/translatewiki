@@ -1816,7 +1816,7 @@ file = Wikilog/WlFeed.i18n.php
 descmsg = wlfeed-desc
 
 Wiki Love
-optional = wikilove-commons-url, wikilove-commons-link
+optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link
 
 Wiki Object Model
 file = WikiObjectModel/languages/Messages.php
