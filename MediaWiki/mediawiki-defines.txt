@@ -1195,6 +1195,9 @@ id = ext-readerfeedback-ratinghistory
 file = ReaderFeedback/language/RatingHistory.i18n.php
 descmsg = ratinghistory
 
+Reassign Edits
+aliasfile = ReassignEdits/ReassignEdits.alias.php
+
 Record Admin
 aliasfile = RecordAdmin/RecordAdmin.alias.php
 ignored = recordadmin-title
