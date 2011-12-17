@@ -44,6 +44,7 @@ GROUPS:
   - ext-torblock
   - ext-uploadwizard
   - ext-vector
+  - ext-webfonts
   - ext-wikieditor
   - ext-wikimedialicensetexts # commons.wikimedia.org
   - ext-wikimediamessages
