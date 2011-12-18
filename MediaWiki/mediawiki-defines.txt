@@ -404,6 +404,7 @@ Description2
 Did You Mean
 
 Disable Account
+aliasfile = DisableAccount/DisableAccount.alias.php
 
 Discussion Threading
 
