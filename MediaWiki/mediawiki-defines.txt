@@ -1251,6 +1251,8 @@ ignored = rss-item
 
 RT
 
+Score
+
 Search Box
 
 See also
