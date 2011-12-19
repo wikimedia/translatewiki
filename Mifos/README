@@ -1,10 +1,19 @@
 == Setup ==
  cd %GROUPROOT%
- git clone git://mifos.git.sourceforge.net/gitroot/mifos/head mifos
+ git clone git://github.com/mifos/head.git mifos
+ git checkout -b g-maint origin/g-maint
 
 Add to your LocalSettings.php:
  wfAddNamespace( 1230, 'Mifos' );
  $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Mifos/Mifos.yaml"
 
 == Export ==
-???
+ git clone git@github.com:mifos/head.git mifos
+ git checkout -b g-maint origin/g-maint
+ export-mifos
+ git add; got commit; git push
+
+== export-mifos ===
+ git pull
+ php /www/w/extensions/Translate/scripts/export.php --grouptrail=out-mifos --target .. --lang=* --skip en --threshold 20
+ php /www/w/extensions/Translate/scripts/export.php --grouptrail=out-mifos --target .. --lang=qqq
