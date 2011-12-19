@@ -63,6 +63,16 @@ FILES:
   targetPattern: pywikipedia/capitalize_redirects.py
 ---
 BASIC:
+  id: out-pywikipedia-catall
+  label: Pywikipedia Catall
+  display: out/pywikipedia/catall
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikipedia/catall.py
+  definitionFile: %GROUPROOT%/pywikipedia/catall.py
+  targetPattern: pywikipedia/catall.py
+---
+BASIC:
   id: out-pywikipedia-category
   label: Pywikipedia Category
   display: out/pywikipedia/category
@@ -123,6 +133,16 @@ FILES:
   targetPattern: pywikipedia/delete.py
 ---
 BASIC:
+  id: out-pywikipedia-djvutext
+  label: Pywikipedia DjVu Text
+  display: out/pywikipedia/djvutext
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikipedia/djvutext.py
+  definitionFile: %GROUPROOT%/pywikipedia/djvutext.py
+  targetPattern: pywikipedia/djvutext.py
+---
+BASIC:
   id: out-pywikipedia-editarticle
   label: Pywikipedia Edit Article
   display: out/pywikipedia/editarticle
@@ -141,6 +161,16 @@ FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/featured.py
   definitionFile: %GROUPROOT%/pywikipedia/featured.py
   targetPattern: pywikipedia/featured.py
+---
+BASIC:
+  id: out-pywikipedia-fixingredirects
+  label: Pywikipedia Fixing Redirects
+  display: out/pywikipedia/fixingredirects
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikipedia/fixing_redirects.py
+  definitionFile: %GROUPROOT%/pywikipedia/fixing_redirects.py
+  targetPattern: pywikipedia/fixing_redirects.py
 ---
 BASIC:
   id: out-pywikipedia-interwiki
@@ -241,6 +271,16 @@ FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/thirdparty.py
   definitionFile: %GROUPROOT%/pywikipedia/thirdparty.py
   targetPattern: pywikipedia/thirdparty.py
+---
+BASIC:
+  id: out-pywikipedia-unlink
+  label: Pywikipedia Unlink 
+  display: out/pywikipedia/unlink
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikipedia/unlink.py
+  definitionFile: %GROUPROOT%/pywikipedia/unlink.py
+  targetPattern: pywikipedia/unlink.py
 ---
 BASIC:
   id: out-pywikipedia-welcome
