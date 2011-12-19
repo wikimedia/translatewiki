@@ -83,6 +83,12 @@ optional = articlefeedback-form-panel-helpimprove-email-placeholder
 optional = articlefeedback-table-noratings
 ignored = articlefeedback-pitch-survey-body, articlefeedback-pitch-edit-body
 
+Article Feedback v5
+aliasfile = ArticleFeedbackv5/ArticleFeedbackv5.alias.php
+optional = articlefeedbackv5-bucket5-form-panel-helpimprove-email-placeholder, articlefeedbackv5-table-noratings, articlefeedbackv5-cta1-learn-how-url, articlefeedbackv5-help-tooltip-linkurl
+optional = articlefeedbackv5-transparency-terms-url, articlefeedbackv5-privacyurl
+ignored = articlefeedbackv5-pitch-survey-body, articlefeedbackv5-pitch-edit-body
+
 Article To Category 2
 
 Asksql

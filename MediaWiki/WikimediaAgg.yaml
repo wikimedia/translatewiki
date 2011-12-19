@@ -13,6 +13,7 @@ GROUPS:
   - ext-antibot # anti spam and such (usually all wikis)
   - ext-apisandbox # r104698, enabled on all wikis
   - ext-articlefeedback
+  - ext-articlefeedbackv5
   - ext-charinsert
   - ext-checkuser
   - ext-cldr # r88299 on all wikis
