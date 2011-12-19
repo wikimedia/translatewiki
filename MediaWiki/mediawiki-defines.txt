@@ -494,7 +494,8 @@ descmsg = ea-desc
 Email Users
 aliasfile = EmailUsers/EmailUsers.alias.php
 
-Embed Video
+# Developed elsewhere
+# Embed Video
 
 Emergency DeSysop
 aliasfile = EmergencyDeSysop/EmergencyDeSysop.alias.php
