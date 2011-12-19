@@ -87,7 +87,7 @@ Article Feedback v5
 aliasfile = ArticleFeedbackv5/ArticleFeedbackv5.alias.php
 optional = articlefeedbackv5-bucket5-form-panel-helpimprove-email-placeholder, articlefeedbackv5-table-noratings, articlefeedbackv5-cta1-learn-how-url, articlefeedbackv5-help-tooltip-linkurl
 optional = articlefeedbackv5-transparency-terms-url, articlefeedbackv5-privacyurl
-ignored = articlefeedbackv5-pitch-survey-body, articlefeedbackv5-pitch-edit-body
+ignored = articlefeedbackv5-pitch-survey-body, articlefeedbackv5-pitch-edit-body, articlefeedbackv5-special-sort-label-after, articlefeedbackv5-special-filter-label-after
 
 Article To Category 2
 
