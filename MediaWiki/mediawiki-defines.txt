@@ -1457,6 +1457,9 @@ id = ext-socialprofile-userwelcome
 file = SocialProfile/UserWelcome/UserWelcome.i18n.php
 descmsg = userwelcome-desc
 
+Solr Store
+aliasfile = SolrStore/SolrStore.alias.php
+
 Sound Manager 2 Button
 
 Spam Blacklist
