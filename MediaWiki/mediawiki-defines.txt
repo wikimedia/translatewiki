@@ -1720,6 +1720,8 @@ User Daily Contribs
 User Debug Info
 aliasfile = UserDebugInfo/UserDebugInfo.alias.php
 
+User Functions
+
 User Images
 
 User Merge
