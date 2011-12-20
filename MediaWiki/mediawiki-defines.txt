@@ -1635,6 +1635,9 @@ file = Translate/PageTranslation.i18n.php
 descmsg = tpt-desc
 optional = tpt-languages-separator
 
+Translate Svg
+aliasfile = TranslateSvg/TranslateSvg.alias.php
+
 Transliterator
 magicfile = Transliterator/Transliterator.i18n.magic.php
 
