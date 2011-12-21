@@ -522,6 +522,11 @@ Favorites
 file = Favorites/favorites.i18n.php
 ignored = accesskey-pt-favoritelist, accesskey-ca-favorite, accesskey-ca-unfavorite, accesskey-favorite
 
+FeaturedFeeds
+descmsg = ffeed-desc
+ignored = ffeed-fa-page, ffeed-onthisday-page, ffeed-dyk-page
+ignored = ffeed-motd-page, ffeed-potd-page, ffeed-motd-page
+
 File Attach
 
 File Page Masking
@@ -975,6 +980,8 @@ New Users List
 Nimbus
 file = skins/Nimbus/Nimbus.i18n.php
 ignored = morewikis, nimbus-advertise-url
+
+No Bogus Userpages
 
 Notificator
 aliasfile = Notificator/Notificator.alias.php
