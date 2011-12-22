@@ -1788,7 +1788,7 @@ Web Chat
 aliasfile = WebChat/WebChat.alias.php
 
 Web Fonts
-optional = webfonts-help-page
+ignored = webfonts-help-page
 
 Web Store
 
