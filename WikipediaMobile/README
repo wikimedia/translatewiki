@@ -1,9 +1,8 @@
-Check out a copy with github account already set up (read/write if sufficient rights):
-$ git clone git@github.com:nitobi/Wikipedia.git wikipedia
-
-
 Check out a read-only copy:
-$ git clone https://github.com/nitobi/Wikipedia.git wikipedia
+$ git clone git://github.com/wikimedia/WikipediaMobile.git wikipedia
+
+Update:
+$ git pull
 
 
 Message files are in assets/www/messages/messages-*.properties
@@ -16,6 +15,9 @@ messages-qqq.properties has message descriptions.
 
 
 To commit:
+
+  Check out a copy with github account already set up (read/write if sufficient rights):
+  $ git clone git@github.com:wikimedia/WikipediaMobile.git wikipedia
 
   # must add any new or changed files!
   git add assets/www/messages/messages-*.properties
