@@ -11,7 +11,7 @@ Add to your LocalSettings.php:
  git clone git@github.com:mifos/head.git mifos
  git checkout -b g-maint origin/g-maint
  export-mifos
- git add; got commit; git push
+ git add; git commit; git push
 
 == export-mifos ===
  git pull
