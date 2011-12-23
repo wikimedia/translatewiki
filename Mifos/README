@@ -15,5 +15,5 @@ Add to your LocalSettings.php:
 
 == export-mifos ===
  git pull
- php /www/w/extensions/Translate/scripts/export.php --grouptrail=out-mifos --target .. --lang=* --skip en --threshold 20
+ php /www/w/extensions/Translate/scripts/export.php --grouptrail=out-mifos --target .. --lang=* --skip==en --threshold 20
  php /www/w/extensions/Translate/scripts/export.php --grouptrail=out-mifos --target .. --lang=qqq
