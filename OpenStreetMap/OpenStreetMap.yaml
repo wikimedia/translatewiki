@@ -8,7 +8,7 @@ TEMPLATE:
     codeAsRoot: 1
     codeMap:
       be-tarask: be-TARASK
-      nb: no
+      nb: "no"
       pt-br: pt-BR
       sr-ec: sr-EC
       sr-el: sr-EL
