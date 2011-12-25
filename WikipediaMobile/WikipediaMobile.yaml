@@ -18,7 +18,7 @@ FILES:
   definitionFile: %GROUPROOT%/wikipedia/assets/www/messages/messages-en.properties
   targetPattern: wikipedia/assets/www/messages/messages-%CODE%.properties
   codeMap:
-    nb: no
+    nb: "no"
   header: |
     # This file is distributed under the same license as the Wikipedia Mobile package.
     #
