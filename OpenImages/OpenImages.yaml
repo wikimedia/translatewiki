@@ -25,6 +25,8 @@ FILES:
   sourcePattern: %GROUPROOT%/openimages/messages_%CODE%.properties
   definitionFile: %GROUPROOT%/openimages/messages.properties
   targetPattern: openimages/messages_%CODE%.properties
+  codeMap:
+    nb: "no"
 
 TAGS:
   ignored:
@@ -45,3 +47,5 @@ FILES:
   sourcePattern: %GROUPROOT%/openimages/verifyemailtemplate_%CODE%.properties
   definitionFile: %GROUPROOT%/openimages/verifyemailtemplate.properties
   targetPattern: openimages/verifyemailtemplate_%CODE%.properties
+  codeMap:
+    nb: "no"
