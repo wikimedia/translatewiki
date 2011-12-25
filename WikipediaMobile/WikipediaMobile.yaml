@@ -17,6 +17,8 @@ FILES:
   sourcePattern: %GROUPROOT%/wikipedia/assets/www/messages/messages-%CODE%.properties
   definitionFile: %GROUPROOT%/wikipedia/assets/www/messages/messages-en.properties
   targetPattern: wikipedia/assets/www/messages/messages-%CODE%.properties
+  codeMap:
+    nb: no
   header: |
     # This file is distributed under the same license as the Wikipedia Mobile package.
     #
@@ -25,3 +27,4 @@ TAGS:
   ignored:
     - mobileapp-settings-checkbox-example-desc
     - mobileapp-settings-checkbox-example-label
+
