@@ -14,6 +14,7 @@ FILES:
   targetPattern: mwlib.rl/mwlib/rl/locale/%CODE%/LC_MESSAGES/mwlib.rl.po
   codeMap:
     pt-br: pt_BR
+    nb: "no"
 
 CHECKER:
   class: MwlibMessageChecker
