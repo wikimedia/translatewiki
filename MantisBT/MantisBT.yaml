@@ -40,8 +40,8 @@ TEMPLATE:
       lv:      latvian
       mk:      macedonian
       nl:      dutch
+      nb:      norwegian_bokmal
       nn:      norwegian_nynorsk
-      no:      norwegian_bokmal
       oc:      occitan
       pl:      polish
       pt-br:   portuguese_brazil

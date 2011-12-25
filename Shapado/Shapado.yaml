@@ -9,7 +9,6 @@ TEMPLATE:
     codeAsRoot: 1
     codeMap:
       be-tarask: be-TARASK
-      no:    nb
       pt:    pt-PT
       pt-br: pt-BR
       sr-ec: sr

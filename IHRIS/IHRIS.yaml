@@ -9,7 +9,6 @@ TEMPLATE:
     codeMap:
       en-gb:   en_GB
       en-us:   en_US
-      no:      nb
       pt-br:   pt_BR
       zh-hans: zh_CN
       zh-hant: zh_TW
