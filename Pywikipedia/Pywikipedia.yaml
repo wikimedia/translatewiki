@@ -6,6 +6,8 @@ TEMPLATE:
 
   FILES:
     class: PythonSingleFFS
+    codeMap:
+      nb: "no"
 
   CHECKER:
     class: MessageChecker
