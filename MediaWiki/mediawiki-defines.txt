@@ -527,9 +527,6 @@ descmsg = ffeed-desc
 ignored = ffeed-fa-page, ffeed-onthisday-page, ffeed-dyk-page
 ignored = ffeed-motd-page, ffeed-potd-page, ffeed-motd-page
 
-Feedback
-file = Feedback/Feedback.i18n.php
-
 File Attach
 
 File Page Masking
