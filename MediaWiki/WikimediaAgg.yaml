@@ -54,6 +54,7 @@ GROUPS:
   - ext-landingcheck
   - ext-ldapauthentication # 2011-12-28: labsconsole.wikimedia.org
   - ext-liquidthreads # 2009-11-11: MediaWiki.org and some *.labs.wikimedia.org
+  - ext-markashelpful # 2011-12-28: r107514 for enwiki
   - ext-moodbar # r93131
   - ext-mwsearch
   - ext-narayam # 2011-03-16: ml-wikis
@@ -73,8 +74,8 @@ GROUPS:
   - ext-subpagelist3 # r90651
   - ext-syntaxhighlightgeshi
   - ext-titlekey
-  - ext-translate-core # 2011-10-12: Meta
-  - ext-translate-pagetranslation # 2011-10-12: Meta
+  - ext-translate-core # 2011-10-12: Meta; 2011-12-19: mediawiki.org
+  - ext-translate-pagetranslation # 2011-10-12: Meta; 2011-12-19: mediawiki.org
   - ext-trustedxff
   - ext-uploadblacklist
   - ext-userdailycontribs
