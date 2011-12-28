@@ -52,6 +52,7 @@ GROUPS:
   - ext-googlenewssitemap # r87149 for wikinews
   - ext-labeledsectiontransclusion # Wikisource
   - ext-landingcheck
+  - ext-ldapauthentication # 2011-12-28: labsconsole.wikimedia.org
   - ext-liquidthreads # 2009-11-11: MediaWiki.org and some *.labs.wikimedia.org
   - ext-moodbar # r93131
   - ext-mwsearch
@@ -59,6 +60,7 @@ GROUPS:
   - ext-nuke
   - ext-oai
   - ext-opensearchxml
+  - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-poem
   - ext-proofreadpage # Wikisource
   - ext-readerfeedback-ratedpages
