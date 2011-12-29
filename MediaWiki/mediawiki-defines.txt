@@ -1659,6 +1659,9 @@ Trusted XFF
 
 TSPoll
 
+Tweet A New
+ignored = tweetanew-accesskey
+
 UK Geocoding For Maps
 descmsg = ukgeocoding_desc
 
