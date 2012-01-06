@@ -1791,6 +1791,7 @@ Web Chat
 aliasfile = WebChat/WebChat.alias.php
 
 Web Fonts
+aliasfile = WebFonts/WebFonts.alias.php
 ignored = webfonts-help-page
 
 Web Store
