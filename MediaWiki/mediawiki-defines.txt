@@ -702,8 +702,7 @@ descmsg = honeypot-desc
 
 HTMLets
 
-Parser i18n tags
-id = ext-i18ntags
+I18n Tags
 file = I18nTags/I18nTags.i18n.php
 magicfile = I18nTags/I18nTags.magic.php
 
