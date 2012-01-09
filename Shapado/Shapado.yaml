@@ -214,6 +214,9 @@ FILES:
 MANGLER:
   prefix: global-
 
+TAGS
+  optional:
+    - global-views.pagination.truncate
 ---
 BASIC:
   id: out-shapado-groups
