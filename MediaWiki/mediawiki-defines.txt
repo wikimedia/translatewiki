@@ -522,8 +522,9 @@ Favorites
 file = Favorites/favorites.i18n.php
 ignored = accesskey-pt-favoritelist, accesskey-ca-favorite, accesskey-ca-unfavorite, accesskey-favorite
 
-FeaturedFeeds
+Featured Feeds
 descmsg = ffeed-desc
+aliasfile = FeaturedFeeds/FeaturedFeeds.alias.php
 ignored = ffeed-fa-page, ffeed-onthisday-page, ffeed-dyk-page
 ignored = ffeed-motd-page, ffeed-potd-page, ffeed-motd-page
 
