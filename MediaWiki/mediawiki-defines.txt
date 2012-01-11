@@ -1898,6 +1898,8 @@ Wiki Text Logged In Out
 Wiki Tweet
 ignored = wikitweet-name
 
+Windows Azure SDK
+
 Woopra
 
 XMLRC
