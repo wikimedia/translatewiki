@@ -12,4 +12,4 @@ BASIC:
   namespace: NS_TRANSLATIONS
 
 GROUPS:
-  - page|*
+  - page-*
