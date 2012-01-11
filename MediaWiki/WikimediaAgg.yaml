@@ -69,6 +69,7 @@ GROUPS:
   - ext-readerfeedback-readerfeedback
   - ext-rss # 2010-11-25: Wikimediafoundation.org
   - ext-scanset
+  - ext-shorturl # r108172
   - ext-skinperpage # Wikimediafoundation.org
   - ext-strategywiki-activestrategy # 2010-05-08: strategywiki.wikimedia.org
   - ext-subpagelist3 # r90651
