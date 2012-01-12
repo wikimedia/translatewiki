@@ -87,6 +87,7 @@ TAGS:
     - user.terms.declined
     - layouts.help_url
     - layouts.wiki_url
+    - javascripts.map.base.mapquest
   ignored:
     - geocoder.search_osm_namefinder.prefix
     - printable_name.with_id
