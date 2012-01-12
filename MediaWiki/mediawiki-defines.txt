@@ -646,6 +646,8 @@ ignored = gadgets-definition
 
 GeeQuBox
 
+Geo Data
+
 GeoLite
 optional = geolite
 
