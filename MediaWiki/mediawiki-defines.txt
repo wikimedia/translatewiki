@@ -1902,6 +1902,8 @@ ignored = wikitweet-name
 
 Windows Azure SDK
 
+Windows Azure Storage
+
 Woopra
 
 XMLRC
