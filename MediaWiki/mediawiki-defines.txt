@@ -941,6 +941,7 @@ optional = mwe-size-gigabytes, mwe-size-megabytes, mwe-size-kilobytes, mwe-size-
 Namespace Paths
 
 Narayam
+optional = Narayam-help-page
 
 Natural Language List
 descmsg = nll-desc
