@@ -46,5 +46,6 @@ GROUPS:
   - ext-vector
   - ext-webfonts
   - ext-wikieditor
-  - ext-wikimedialicensetexts # commons.wikimedia.org
+# On hold until r109005 is reviewed - 2012-01-16 - raymond
+#  - ext-wikimedialicensetexts # commons.wikimedia.org
   - ext-wikimediamessages
