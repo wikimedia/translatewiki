@@ -911,6 +911,7 @@ Mirror Tools
 Mobile Frontend
 descmsg = mobile-frontend-desc
 optional = mobile-frontend-feedback-page
+ignored = mobile-frontend-sopa-notice
 
 Mood Bar
 aliasfile = MoodBar/MoodBar.alias.php
