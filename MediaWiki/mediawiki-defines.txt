@@ -1546,6 +1546,8 @@ SVG Edit
 SVG Zoom
 ignored = svgzoom
 
+Swift Cloud Files
+
 Syntax Highlight GeSHi
 file = SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.i18n.php
 descmsg = syntaxhighlight-desc
