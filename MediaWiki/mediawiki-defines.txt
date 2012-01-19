@@ -526,8 +526,8 @@ ignored = accesskey-pt-favoritelist, accesskey-ca-favorite, accesskey-ca-unfavor
 Featured Feeds
 descmsg = ffeed-desc
 aliasfile = FeaturedFeeds/FeaturedFeeds.alias.php
-ignored = ffeed-fa-page, ffeed-onthisday-page, ffeed-dyk-page
-ignored = ffeed-motd-page, ffeed-potd-page, ffeed-motd-page
+ignored = ffeed-featured-page, ffeed-onthisday-page, ffeed-dyk-page
+ignored = ffeed-qotd-page, ffeed-potd-page, ffeed-motd-page
 
 File Attach
 
