@@ -1,7 +1,7 @@
 == Setup ==
  cd %GROUPROOT%
  git clone git://github.com/mifos/head.git mifos
- git checkout -b g-maint origin/g-maint
+ git checkout -b master origin/master
 
 Add to your LocalSettings.php:
  wfAddNamespace( 1230, 'Mifos' );
@@ -9,7 +9,7 @@ Add to your LocalSettings.php:
 
 == Export ==
  git clone git@github.com:mifos/head.git mifos
- git checkout -b g-maint origin/g-maint
+ git checkout -b master origin/master
  export-mifos
  git add; git commit; git push
 
