@@ -90,7 +90,6 @@ optional = articlefeedbackv5-transparency-terms-url, articlefeedbackv5-privacyur
 ignored = articlefeedbackv5-pitch-survey-body, articlefeedbackv5-pitch-edit-body, articlefeedbackv5-special-sort-label-after, articlefeedbackv5-special-filter-label-after
 ignored = articlefeedbackv5-error-abuse-link
 ignored = articlefeedbackv5-special-sort-asc, articlefeedbackv5-special-sort-desc
-ignored = articlefeedbackv5-table-noratings
 
 Article To Category 2
 
