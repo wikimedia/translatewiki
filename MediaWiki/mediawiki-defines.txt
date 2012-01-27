@@ -1672,7 +1672,7 @@ Tweet A New
 ignored = tweetanew-accesskey
 
 UK Geocoding For Maps
-descmsg = ukgeocoding_desc
+descmsg = ukgeocoding-desc
 
 Upload Blacklist
 
@@ -1865,7 +1865,7 @@ file = Wikilog/WlFeed.i18n.php
 descmsg = wlfeed-desc
 
 Wiki Love
-optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link
+optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
 
 Wiki Object Model
 file = WikiObjectModel/languages/Messages.php
