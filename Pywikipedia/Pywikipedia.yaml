@@ -25,9 +25,9 @@ GROUPS:
   - out-pywikipedia-*
 ---
 BASIC:
-  id: out-pywikipedia-add_text
+  id: out-pywikipedia-addtext
   label: Pywikipedia Add Text
-  display: out/pywikipedia/add_text
+  display: out/pywikipedia/addtext
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/add_text.py
@@ -55,9 +55,9 @@ FILES:
   targetPattern: pywikipedia/basic.py
 ---
 BASIC:
-  id: out-pywikipedia-capitalize_redirects
+  id: out-pywikipedia-capitalizeredirects
   label: Pywikipedia Capitalize Redirects
-  display: out/pywikipedia/capitalize_redirects
+  display: out/pywikipedia/capitalizeredirects
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/capitalize_redirects.py
@@ -85,9 +85,9 @@ FILES:
   targetPattern: pywikipedia/category.py
 ---
 BASIC:
-  id: out-pywikipedia-category_redirect
+  id: out-pywikipedia-categoryredirect
   label: Pywikipedia Category Redirect
-  display: out/pywikipedia/category_redirect
+  display: out/pywikipedia/categoryredirect
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/category_redirect.py
@@ -95,9 +95,9 @@ FILES:
   targetPattern: pywikipedia/category_redirect.py
 ---
 BASIC:
-  id: out-pywikipedia-clean_sandbox
+  id: out-pywikipedia-cleansandbox
   label: Pywikipedia Clean Sandbox
-  display: out/pywikipedia/clean_sandbox
+  display: out/pywikipedia/cleansandbox
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/clean_sandbox.py
@@ -115,9 +115,9 @@ FILES:
   targetPattern: pywikipedia/commons.py
 ---
 BASIC:
-  id: out-pywikipedia-cosmetic_changes
+  id: out-pywikipedia-cosmeticchanges
   label: Pywikipedia Cosmetic Changes
-  display: out/pywikipedia/cosmetic_changes
+  display: out/pywikipedia/cosmeticchanges
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/cosmetic_changes.py
@@ -235,9 +235,9 @@ FILES:
   targetPattern: pywikipedia/replace.py
 ---
 BASIC:
-  id: out-pywikipedia-solve_disambiguation
+  id: out-pywikipedia-solvedisambiguation
   label: Pywikipedia Solve Disambiguation
-  display: out/pywikipedia/solve_disambiguation
+  display: out/pywikipedia/solvedisambiguation
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/solve_disambiguation.py
