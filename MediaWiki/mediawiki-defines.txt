@@ -431,7 +431,7 @@ optional = donate_interface-pm-webmoney, donate_interface-pm-westernunion, donat
 ignored = donate_interface-big-amount-display, donate_interface-medium-amount-display
 ignored = donate_interface-small-amount-display, donate_interface-big-amount-value
 ignored = donate_interface-medium-amount-value, donate_interface-small-amount-value
-ignored = donate_interface-donor-fname-alt, donate_interface-donor-lname-alt
+ignored = donate_interface-donor-fname-alt, donate_interface-donor-lname-alt, donate_interface-donor-postcode
 
 Donation Interface - Global Collect Gateway
 id = ext-di-gcg
