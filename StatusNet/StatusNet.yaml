@@ -33,7 +33,7 @@ BASIC:
 
 GROUPS:
   - out-statusnet-core
-  - out-statusnet-plugin-*
+  - out-statusnet-plugin-0-all
 ---
 BASIC:
   id: out-statusnet-plugin-0-all
