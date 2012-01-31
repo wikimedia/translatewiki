@@ -1147,6 +1147,8 @@ ignored = prefstats-list-elem
 
 Preloader
 
+Preview Functions
+
 Private Domains
 
 Private Page Protection
