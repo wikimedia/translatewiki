@@ -33,7 +33,10 @@ BASIC:
   class: AggregateMessageGroup
 
 GROUPS:
-  - out-ihris-*
+  - out-ihris-common-0-all
+  - out-ihris-i2ce-0-all
+  - out-ihris-manage-0-all
+  - out-ihris-qualify-0-all
 ---
 BASIC:
   id: out-ihris-common-0-all
