@@ -1149,6 +1149,9 @@ Preloader
 
 Private Domains
 
+Private Page Protection
+descmsg = privatepp-desc
+
 Profile Monitor
 aliasfile = ProfileMonitor/ProfileMonitor.alias.php
 descmsg = profiling-desc
