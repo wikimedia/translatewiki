@@ -73,6 +73,7 @@ GROUPS:
   - ext-skinperpage # Wikimediafoundation.org
   - ext-strategywiki-activestrategy # 2010-05-08: strategywiki.wikimedia.org
   - ext-subpagelist3 # r90651
+  - ext-swiftcloudfiles # 110441
   - ext-syntaxhighlightgeshi
   - ext-titlekey
   - ext-translate-core # 2011-10-12: Meta; 2011-12-19: mediawiki.org
