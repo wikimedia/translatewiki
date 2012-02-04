@@ -346,9 +346,6 @@ ignored = awc-metrics-language-top-list
 
 Wiki Features
 
-Wiki Payment
-ignored = wikipayment-click-here
-
 Wiki Stats
 file = WikiStats/SpecialWikiStats.i18n.php
 descmsg = wikistats
