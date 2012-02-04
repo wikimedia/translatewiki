@@ -81,7 +81,7 @@ GROUPS:
   - ext-trustedxff
   - ext-uploadblacklist
   - ext-userdailycontribs
-  - ext-variablepage
+#  - ext-variablepage # Unused per r110627 
   - ext-vipsscaler # 104390: test2.wikipedia.org
   - ext-visualeditor # r106062 for sandbox on mediawiki.org
   - ext-wikilove # r90124
