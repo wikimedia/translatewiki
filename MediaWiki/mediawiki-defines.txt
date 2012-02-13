@@ -508,6 +508,8 @@ aliasfile = EmergencyDeSysop/EmergencyDeSysop.alias.php
 
 Error Handler
 
+Etherpad Lite
+
 Expand Templates
 aliasfile = ExpandTemplates/ExpandTemplates.alias.php
 
