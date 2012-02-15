@@ -90,7 +90,7 @@ optional = articlefeedbackv5-transparency-terms-url, articlefeedbackv5-privacyur
 ignored = articlefeedbackv5-pitch-survey-body, articlefeedbackv5-pitch-edit-body, articlefeedbackv5-special-sort-label-after, articlefeedbackv5-special-filter-label-after
 ignored = articlefeedbackv5-error-abuse-link
 ignored = articlefeedbackv5-noteflyover-hide-help-link, articlefeedbackv5-noteflyover-show-help-link, articlefeedbackv5-noteflyover-requestoversight-help-link
-ignored = articlefeedbackv5-noteflyover-unrequestoversight-help-link, articlefeedbackv5-noteflyover-ovesight-help-link, articlefeedbackv5-noteflyover-ovesight-help-link
+ignored = articlefeedbackv5-noteflyover-unrequestoversight-help-link, articlefeedbackv5-noteflyover-oversight-help-link, articlefeedbackv5-noteflyover-ovesight-help-link
 ignored = articlefeedbackv5-noteflyover-declineoversight-help-link
 ignored = articlefeedbackv5-activity-help-item, articlefeedbackv5-activity-close-item
 
