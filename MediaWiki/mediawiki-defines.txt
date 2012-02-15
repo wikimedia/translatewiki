@@ -130,8 +130,6 @@ aliasfile = BadImage/BadImage.alias.php
 Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
-Blahtex
-
 Block Titles
 
 Book Information
