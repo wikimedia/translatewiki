@@ -47,5 +47,6 @@ GROUPS:
   - ext-vector
   - ext-webfonts
   - ext-wikieditor
+  - ext-wikimediacclicensetexts # commons.wikimedia.org
   - ext-wikimedialicensetexts # commons.wikimedia.org
   - ext-wikimediamessages
