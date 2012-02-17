@@ -40,6 +40,8 @@ aliasfile = AdvancedRandom/AdvancedRandom.alias.php
 
 Ajax Login
 
+AJAX Poll
+
 Ajax Query Pages
 
 Ajax Show Editors
