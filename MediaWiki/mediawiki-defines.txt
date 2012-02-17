@@ -713,6 +713,9 @@ Hash Tables
 Header Tabs
 ignored = headertabs-edittab-key
 
+Hello World
+aliasfile = HelloWorld/HelloWorld.alias.php
+
 Help Commons
 
 Hide Namespace
