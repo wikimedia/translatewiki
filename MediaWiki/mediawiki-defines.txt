@@ -368,6 +368,10 @@ aliasfile = CountEdits/CountEdits.alias.php
 
 Create Box
 
+Create Page
+aliasfile = CreatePage/CreatePage.alias.php
+descmsg = cp-desc
+
 Create Redirect
 aliasfile = CreateRedirect/CreateRedirect.alias.php
 
