@@ -201,9 +201,6 @@ file = RandomWiki/SpecialRandomWiki.i18n.php
 Related Pages
 descmsg = wikiarelatedpages-desc
 
-Related Video
-file = RelatedVideo/i18n/RelatedVideo.i18n.php
-
 Related Videos
 
 RTE - Base
@@ -222,8 +219,6 @@ file = Scribe/SpecialScribeEvents.i18n.php
 Search
 
 Shared Help
-
-Share Feature
 
 Show Performance Stats
 
