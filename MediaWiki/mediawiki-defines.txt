@@ -1904,6 +1904,7 @@ descmsg = wom-desc
 
 Wikimedia Incubator
 descmsg = wminc-desc
+ignored = wminc-searchwiki-goto
 
 Wikimedia Incubator Info Page
 descmsg = wminc-desc
