@@ -1439,6 +1439,8 @@ descmsg = security-desc
 Site Matrix
 aliasfile = SiteMatrix/SiteMatrix.alias.php
 
+Skin Per Namespace
+
 Skin Per Page
 
 Slimbox Thumbs
