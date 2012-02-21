@@ -1675,11 +1675,12 @@ id = ext-translate-firststeps
 file = Translate/FirstSteps.i18n.php
 descmsg = firststeps-desc
 
-Translate - LCADFT
-id = ext-translate-lcadft
-file = Translate/lcadft/LCADFT.i18n.php
-aliasfile = Translate/lcadft/LCADFT.alias.php
-descmsg = lcadft-desc
+# Nikerabbit on IRC: I was planning to get rid of the lcadft prefix with something better
+#Translate - LCADFT
+#id = ext-translate-lcadft
+#file = Translate/lcadft/LCADFT.i18n.php
+#aliasfile = Translate/lcadft/LCADFT.alias.php
+#descmsg = lcadft-desc
 
 Translate - Message Group Descriptions
 id = ext-translate-groupdescs
