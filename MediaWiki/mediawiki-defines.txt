@@ -1675,6 +1675,12 @@ id = ext-translate-firststeps
 file = Translate/FirstSteps.i18n.php
 descmsg = firststeps-desc
 
+Translate - LCADFT
+id = ext-translate-lcadft
+file = Translate/lcadft/LCADFT.i18n.php
+aliasfile = Translate/lcadft/LCADFT.alias.php
+descmsg = lcadft-desc
+
 Translate - Message Group Descriptions
 id = ext-translate-groupdescs
 file = Translate/TranslateGroupDescriptions.i18n.php
