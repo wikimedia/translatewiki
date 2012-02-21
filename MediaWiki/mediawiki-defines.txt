@@ -94,7 +94,6 @@ ignored = articlefeedbackv5-error-abuse-link
 ignored = articlefeedbackv5-noteflyover-hide-help-link, articlefeedbackv5-noteflyover-show-help-link, articlefeedbackv5-noteflyover-requestoversight-help-link
 ignored = articlefeedbackv5-noteflyover-unrequestoversight-help-link, articlefeedbackv5-noteflyover-oversight-help-link, articlefeedbackv5-noteflyover-ovesight-help-link
 ignored = articlefeedbackv5-noteflyover-declineoversight-help-link, articlefeedbackv5-noteflyover-unoversight-help-link
-ignored = articlefeedbackv5-activity-help-item, articlefeedbackv5-activity-close-item
 
 Article To Category 2
 
