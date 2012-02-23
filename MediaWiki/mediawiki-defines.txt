@@ -1718,6 +1718,7 @@ Upload Blacklist
 
 Upload Wizard
 aliasfile = UploadWizard/UploadWizard.alias.php
+ignored = languageHandler.js
 
 Unicode Converter
 
