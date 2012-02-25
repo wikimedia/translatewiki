@@ -52,64 +52,6 @@ MANGLER:
 TAGS:
   optional:
     - website-errors.format
-    - website-taxa.details.index.hierarchy_entry.meta_keywords
-    - website-taxa.details.index.meta_keywords
-    - website-taxa.details.index.meta_keywords_with_common_name
-    - website-taxa.literature.bhl.hierarchy_entry.meta_keywords
-    - website-taxa.literature.bhl.meta_description
-    - website-taxa.literature.bhl.meta_description_with_common_name
-    - website-taxa.literature.bhl.meta_keywords
-    - website-taxa.literature.bhl.meta_keywords_with_common_name
-    - website-taxa.literature.show.hierarchy_entry.meta_description
-    - website-taxa.literature.show.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.literature.show.hierarchy_entry.meta_keywords
-    - website-taxa.maps.show.hierarchy_entry.meta_keywords
-    - website-taxa.names.index.hierarchy_entry.meta_keywords
-    - website-taxa.names.index.hierarchy_entry.meta_title
-    - website-taxa.names.index.hierarchy_entry.meta_title_with_common_name
-    - website-taxa.names.index.meta_keywords
-    - website-taxa.names.index.meta_keywords_with_common_name
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_description
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_keywords
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_title
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_title_with_common_name
-    - website-taxa.resources.biomedical_terms.meta_description
-    - website-taxa.resources.biomedical_terms.meta_description_with_common_name
-    - website-taxa.resources.biomedical_terms.meta_keywords
-    - website-taxa.resources.biomedical_terms.meta_keywords_with_common_name
-    - website-taxa.resources.education.hierarchy_entry.meta_description
-    - website-taxa.resources.education.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.resources.education.hierarchy_entry.meta_keywords
-    - website-taxa.details.index.hierarchy_entry.meta_keywords
-    - website-taxa.details.index.meta_keywords
-    - website-taxa.details.index.meta_keywords_with_common_name
-    - website-taxa.literature.bhl.hierarchy_entry.meta_keywords
-    - website-taxa.literature.bhl.meta_description
-    - website-taxa.literature.bhl.meta_description_with_common_name
-    - website-taxa.literature.bhl.meta_keywords
-    - website-taxa.literature.bhl.meta_keywords_with_common_name
-    - website-taxa.literature.show.hierarchy_entry.meta_description
-    - website-taxa.literature.show.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.literature.show.hierarchy_entry.meta_keywords
-    - website-taxa.maps.show.hierarchy_entry.meta_keywords
-    - website-taxa.names.index.hierarchy_entry.meta_keywords
-    - website-taxa.names.index.hierarchy_entry.meta_title
-    - website-taxa.names.index.hierarchy_entry.meta_title_with_common_name
-    - website-taxa.names.index.meta_keywords
-    - website-taxa.names.index.meta_keywords_with_common_name
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_description
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_keywords
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_title
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_title_with_common_name
-    - website-taxa.resources.biomedical_terms.meta_description
-    - website-taxa.resources.biomedical_terms.meta_description_with_common_name
-    - website-taxa.resources.biomedical_terms.meta_keywords
-    - website-taxa.resources.biomedical_terms.meta_keywords_with_common_name
-    - website-taxa.resources.education.hierarchy_entry.meta_description
-    - website-taxa.resources.education.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.resources.education.hierarchy_entry.meta_keywords
   ignored:
     - website-faker.lorem.*
     - website-date.*
@@ -118,6 +60,54 @@ TAGS:
     - website-number.*
     - website-datetime.*
     - website-support.*
+    - website-taxa.communities.curators.meta_description
+    - website-taxa.details.index.hierarchy_entry.meta_keywords
+    - website-taxa.details.index.meta_keywords
+    - website-taxa.details.index.meta_keywords_with_common_name
+    - website-taxa.literature.bhl.hierarchy_entry.meta_keywords
+    - website-taxa.literature.bhl.meta_description
+    - website-taxa.literature.bhl.meta_description_with_common_name
+    - website-taxa.literature.bhl.meta_keywords
+    - website-taxa.literature.bhl.meta_keywords_with_common_name
+    - website-taxa.literature.show.hierarchy_entry.meta_description
+    - website-taxa.literature.show.hierarchy_entry.meta_description_with_common_name
+    - website-taxa.literature.show.hierarchy_entry.meta_keywords
+    - website-taxa.maps.show.hierarchy_entry.meta_keywords
+    - website-taxa.names.index.hierarchy_entry.meta_keywords
+    - website-taxa.names.index.hierarchy_entry.meta_title
+    - website-taxa.names.index.hierarchy_entry.meta_title_with_common_name
+    - website-taxa.names.index.meta_keywords
+    - website-taxa.names.index.meta_keywords_with_common_name
+    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_description
+    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_description_with_common_name
+    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_keywords
+    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_title
+    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_title_with_common_name
+    - website-taxa.resources.biomedical_terms.meta_description
+    - website-taxa.resources.biomedical_terms.meta_description_with_common_name
+    - website-taxa.resources.biomedical_terms.meta_keywords
+    - website-taxa.resources.biomedical_terms.meta_keywords_with_common_name
+    - website-taxa.resources.education.hierarchy_entry.meta_description
+    - website-taxa.resources.education.hierarchy_entry.meta_description_with_common_name
+    - website-taxa.resources.education.hierarchy_entry.meta_keywords
+    - website-taxa.resources.education.meta_description
+    - website-taxa.resources.education.meta_description_with_common_name
+    - website-taxa.resources.education.meta_keywords
+    - website-taxa.resources.education.meta_keywords_with_common_name
+    - website-taxa.resources.identification_resources.hierarchy_entry.meta_description
+    - website-taxa.resources.identification_resources.hierarchy_entry.meta_description_with_common_name
+    - website-taxa.resources.identification_resources.hierarchy_entry.meta_keywords
+    - website-taxa.resources.identification_resources.hierarchy_entry.meta_title
+    - website-taxa.resources.identification_resources.hierarchy_entry.meta_title_with_common_name
+    - website-taxa.resources.identification_resources.meta_description
+    - website-taxa.resources.identification_resources.meta_description_with_common_name
+    - website-taxa.resources.identification_resources.meta_keywords
+    - website-taxa.resources.identification_resources.meta_keywords_with_common_name
+    - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_description
+    - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_description_with_common_name
+    - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_keywords
+    - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_title
+    - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_title_with_common_name
 
 ---
 BASIC:
