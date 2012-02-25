@@ -52,6 +52,15 @@ MANGLER:
 TAGS:
   optional:
     - website-errors.format
+    - website-collections.show.meta_title
+    - website-collections.show.tweet_text
+    - website-communities.newsfeeds.show.meta_title
+    - website-communities.newsfeeds.show.tweet_text
+    - website-content_partners.show.meta_title
+    - website-content_partners.show.tweet_text
+    - website-taxa.overviews.show.meta_title
+    - website-users.show.meta_title
+    - website-users.show.tweet_text
   ignored:
     - website-faker.lorem.*
     - website-date.*
