@@ -14,9 +14,10 @@ descmsg = comboajaxlogin-desc
 
 Ajax Poll
 
-Answers
-optional = q, ?, header_questionmark_post
-ignored = header_questionmark_pre, badWords, qa-featured-sites
+#Answers
+#disabled as we transition from Answers to a new model
+#optional = q, ?, header_questionmark_post
+#ignored = header_questionmark_pre, badWords, qa-featured-sites
 
 # Disabled. Duplicate key with Answers extension.
 #Answers Namespace
@@ -27,7 +28,7 @@ Auto Create Wiki
 optional = autocreatewiki-reminder-subject, autocreatewiki-language-top-list
 ignored = requestwiki-filter-language, autocreatewiki-tagline, autocreatewiki-language-top-list
 
-Auto Hubs Pages
+#Auto Hubs Pages
 
 Automatic Wiki Adoption
 # Extension is not completely done yet. Ignoring unfinished parts.
@@ -230,7 +231,7 @@ aliasfile = Sitemap/Sitemap.alias.php
 
 Site Wide Messages
 file = SiteWideMessages/SpecialSiteWideMessages.i18n.php
-ignored = swm-expire-options
+ignored = swm-expire-options, swm-days
 
 Skin Chooser
 
@@ -298,6 +299,8 @@ file = UserRenameTool/SpecialRenameuser.i18n.php
 
 Video Embed Tool
 
+Wall
+
 Watch Sub Pages
 descmsg = wikia-watchsubpages-desc
 
@@ -340,6 +343,9 @@ optional = wikifactory-label-eznamespace
 ignored = awc-metrics-language-top-list
 
 Wiki Features
+
+Wiki Payment
+ignored = wikipayment-click-here
 
 Wiki Stats
 file = WikiStats/SpecialWikiStats.i18n.php
