@@ -714,7 +714,7 @@ Header Tabs
 ignored = headertabs-edittab-key
 
 Hello World
-file = examples/HelloWorld/HelloWorld.alias.php
+file = examples/HelloWorld/HelloWorld.i18n.php
 aliasfile = examples/HelloWorld/HelloWorld.alias.php
 
 Help Commons
