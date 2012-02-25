@@ -547,8 +547,8 @@ BASIC:
 
 FILES:
   class: ShapadoJsFFS
-  sourcePattern: %GROUPROOT%/shapado/public/javascripts/i18n/%CODE%.js
-  targetPattern: shapado/public/javascripts/i18n/%CODE%.js
+  sourcePattern: %GROUPROOT%/shapado/apps/assets/javascripts/i18n/%CODE%.js
+  targetPattern: shapado/apps/assets/javascripts/i18n/%CODE%.js
 
 MANGLER:
   prefix: js-
