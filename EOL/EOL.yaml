@@ -108,6 +108,22 @@ TAGS:
     - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_keywords
     - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_title
     - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_title_with_common_name
+    - website-taxa.resources.nucleotide_sequences.meta_description
+    - website-taxa.resources.nucleotide_sequences.meta_description_with_common_name
+    - website-taxa.resources.nucleotide_sequences.meta_keywords
+    - website-taxa.resources.nucleotide_sequences.meta_keywords_with_common_name
+    - website-taxa.updates.show.hierarchy_entry.meta_description
+    - website-taxa.updates.show.hierarchy_entry.meta_description_with_common_name
+    - website-taxa.updates.show.hierarchy_entry.meta_keywords
+    - website-taxa.updates.statistics.hierarchy_entry.meta_description
+    - website-taxa.updates.statistics.hierarchy_entry.meta_description_with_common_name
+    - website-taxa.updates.statistics.hierarchy_entry.meta_keywords
+    - website-users.activities.show.meta_keywords
+    - website-users.collections.index.meta_keywords
+    - website-users.communities.index.meta_keywords
+    - website-users.content_partners.index.meta_keywords
+    - website-users.newsfeeds.show.meta_keywords
+    - website-users.show.meta_keywords
 
 ---
 BASIC:
