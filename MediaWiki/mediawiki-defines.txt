@@ -1683,8 +1683,8 @@ descmsg = firststeps-desc
 #aliasfile = Translate/lcadft/LCADFT.alias.php
 #descmsg = lcadft-desc
 
-Translate - Message Group Descriptions
-id = ext-translate-messagegroupdescriptions
+Translate - Group Descriptions
+id = ext-translate-groupdescriptions
 file = Translate/TranslateGroupDescriptions.i18n.php
 descmsg = translategroupdescriptions-desc
 
