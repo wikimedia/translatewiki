@@ -6,8 +6,23 @@ TEMPLATE:
 
   FILES:
     class: PythonSingleFFS
+    # Pywikipediabot works on language code, so mapping fallbacked to Wikimedia code.
     codeMap:
+      gan-hant: gan
+      hif-latn: hif
+      ike-cans: iu
+      kbd-cyrl: kbd
+      kk-cyrl: kk
+      ks-arab: ks
+      ku-latn: ku
       nb: "no"
+      ruq-latn: ruq
+      sr-ec: sr
+      tg-cyrl: tg
+      tt-cyrl: tt
+      ug-arab: ug
+      vro: fiu-vro
+      zh-hans: zh
 
   CHECKER:
     class: MessageChecker
