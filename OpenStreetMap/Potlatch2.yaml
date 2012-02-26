@@ -1,0 +1,60 @@
+TEMPLATE:
+  BASIC:
+    namespace: NS_OSM
+    description: "{{int:translate-group-desc-potlatch2}}"
+    class: FileBasedMessageGroup
+
+  FILES:
+    class: JavaFFS
+    codeMap:
+      en:    en_US
+      cs:    cs_CZ
+      de:    de_DE
+      en-gb: en_GB
+      es:    es_ES
+      fr:    fr_FR
+      it:    it_IT
+      ja:    ja_JP
+      nb:    nb_NO
+      nl:    nl_NL
+      nl-be: nl_BE
+      nn:    nn_NO
+      pl:    pl_PL
+      sv:    sv_SE
+      pt:    pt_PT
+      pt-br: pt_BR
+      zh-hans: zh_CN
+      zh-hant: zh_TW
+
+  MANGLER:
+    class: StringMatcher
+    patterns:
+      - "*"
+
+---
+BASIC:
+  id: out-potlatch2-help
+  label: Potlatch2 - Help
+  display: out/osm/potlatch2/help
+
+FILES:
+  sourcePattern: %GROUPROOT%/potlatch2/l10n/locale/%CODE%/help_dialog.properties
+  definitionFile: %GROUPROOT%/potlatch2/l10n/locale/%CODE%/help_dialog.properties
+  targetPattern: potlatch2/l10n/locale/%CODE%/help_dialog.properties
+
+MANGLER:
+  prefix: help-
+
+---
+BASIC:
+  id: out-potlatch2-help
+  label: Potlatch2 - Main
+  display: out/osm/potlatch2/main
+
+FILES:
+  sourcePattern: %GROUPROOT%/potlatch2/l10n/locale/%CODE%/p2_main.properties
+  definitionFile: %GROUPROOT%/potlatch2/l10n/locale/%CODE%/p2_main.properties
+  targetPattern: potlatch2/l10n/locale/%CODE%/p2_main.properties
+
+MANGLER:
+  prefix: main-
