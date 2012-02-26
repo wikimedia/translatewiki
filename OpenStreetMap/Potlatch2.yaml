@@ -47,7 +47,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-potlatch2-help
+  id: out-potlatch2-main
   label: Potlatch2 - Main
   display: out/osm/potlatch2/main
 
