@@ -32,18 +32,18 @@ TEMPLATE:
 
 ---
 BASIC:
-  id: out-shapado-0-all
+  id: shapado-0-all
   label: Shapado
   display: out/shapado
   meta: yes
   class: AggregateMessageGroup
 
 GROUPS:
-  - out-shapado-*
+  - shapado-*
 
 ---
 BASIC:
-  id: out-shapado-activities
+  id: shapado-activities
   label: Shapado - Activities
   display: out/shapado/activities
 
@@ -56,7 +56,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-announcements
+  id: shapado-announcements
   label: Shapado - Announcements
   display: out/shapado/announcements
 
@@ -73,7 +73,7 @@ TAGS:
 
 ---
 BASIC:
-  id: out-shapado-answers
+  id: shapado-answers
   label: Shapado - Answers
   display: out/shapado/answers
 
@@ -86,7 +86,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-badges
+  id: shapado-badges
   label: Shapado - Badges
   display: out/shapado/badges
 
@@ -99,7 +99,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-closerequests
+  id: shapado-closerequests
   label: Shapado - Close requests
   display: out/shapado/closerequests
 
@@ -112,7 +112,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-comments
+  id: shapado-comments
   label: Shapado - Comments
   display: out/shapado/comments
 
@@ -125,7 +125,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-constrainsconfig
+  id: shapado-constrainsconfig
   label: Shapado - Constraints Config
   display: out/shapado/constrainsconfig
 
@@ -138,7 +138,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-devise
+  id: shapado-devise
   label: Shapado - Devise
   display: out/shapado/devise
 
@@ -151,7 +151,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-doc
+  id: shapado-doc
   label: Shapado - Doc
   display: out/shapado/doc
 
@@ -164,7 +164,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-errors
+  id: shapado-errors
   label: Shapado - Errors
   display: out/shapado/errors
 
@@ -177,7 +177,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-favorites
+  id: shapado-favorites
   label: Shapado - Favorites
   display: out/shapado/favorites
 
@@ -190,7 +190,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-flags
+  id: shapado-flags
   label: Shapado - Flags
   display: out/shapado/flags
 
@@ -203,7 +203,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-global
+  id: shapado-global
   label: Shapado - Global
   display: out/shapado/global
 
@@ -219,7 +219,7 @@ TAGS
     - global-views.pagination.truncate
 ---
 BASIC:
-  id: out-shapado-groups
+  id: shapado-groups
   label: Shapado - Groups
   display: out/shapado/groups
 
@@ -232,7 +232,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-imports
+  id: shapado-imports
   label: Shapado - Imports
   display: out/shapado/imports
 
@@ -245,7 +245,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-invitations
+  id: shapado-invitations
   label: Shapado - Invitations
   display: out/shapado/invitations
 
@@ -258,7 +258,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-jobs
+  id: shapado-jobs
   label: Shapado - Jobs
   display: out/shapado/jobs
 
@@ -271,7 +271,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-layouts
+  id: shapado-layouts
   label: Shapado - Layouts
   display: out/shapado/layouts
 
@@ -284,7 +284,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-mailers
+  id: shapado-mailers
   label: Shapado - Mailers
   display: out/shapado/mailers
   class: FileBasedMessageGroup
@@ -298,7 +298,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-manage
+  id: shapado-manage
   label: Shapado - Manage
   display: out/shapado/manage
 
@@ -311,7 +311,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-members
+  id: shapado-members
   label: Shapado - Members
   display: out/shapado/members
 
@@ -324,7 +324,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-moderate
+  id: shapado-moderate
   label: Shapado - Moderate
   display: out/shapado/moderate
   class: FileBasedMessageGroup
@@ -338,7 +338,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-notifier
+  id: shapado-notifier
   label: Shapado - Notifier
   display: out/shapado/notifier
   class: FileBasedMessageGroup
@@ -352,7 +352,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-openrequests
+  id: shapado-openrequests
   label: Shapado - Open Requests
   display: out/shapado/openrequests
 
@@ -365,7 +365,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-pages
+  id: shapado-pages
   label: Shapado - Pages
   display: out/shapado/pages
 
@@ -378,7 +378,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-questions
+  id: shapado-questions
   label: Shapado - Questions
   display: out/shapado/questions
 
@@ -391,7 +391,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-rewards
+  id: shapado-rewards
   label: Shapado - Rewards
   display: out/shapado/rewards
 
@@ -404,7 +404,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-searches
+  id: shapado-searches
   label: Shapado - Searches
   display: out/shapado/searches
 
@@ -417,7 +417,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-sessions
+  id: shapado-sessions
   label: Shapado - Sessions
   display: out/shapado/sessions
 
@@ -430,7 +430,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-shared
+  id: shapado-shared
   label: Shapado - Shared
   display: out/shapado/shared
 
@@ -443,7 +443,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-themes
+  id: shapado-themes
   label: Shapado - Themes
   display: out/shapado/themes
 
@@ -456,7 +456,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-unfavorites
+  id: shapado-unfavorites
   label: Shapado - Unfavorites
   display: out/shapado/unfavorites
 
@@ -469,7 +469,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-users
+  id: shapado-users
   label: Shapado - Users
   display: out/shapado/users
 
@@ -482,7 +482,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-votes
+  id: shapado-votes
   label: Shapado - Votes
   display: out/shapado/votes
 
@@ -495,7 +495,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-welcome
+  id: shapado-welcome
   label: Shapado - Welcome
   display: out/shapado/welcome
 
@@ -508,7 +508,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-widgets
+  id: shapado-widgets
   label: Shapado - Widgets
   display: out/shapado/widgets
 
@@ -528,7 +528,7 @@ TAGS:
 
 ---
 BASIC:
-  id: out-shapado-wiki
+  id: shapado-wiki
   label: Shapado - Wiki
   display: out/shapado/wiki
 
@@ -541,7 +541,7 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-shapado-js
+  id: shapado-js
   label: Shapado - JavaScript
   display: out/shapado/js
 
