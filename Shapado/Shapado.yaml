@@ -441,6 +441,10 @@ FILES:
 MANGLER:
   prefix: shared-
 
+TAGS:
+  optional:
+    - shared-shared.empty.filtered_by_language_questions.description.text
+    - shared-shared.empty.filtered_questions.description.text
 ---
 BASIC:
   id: shapado-themes
