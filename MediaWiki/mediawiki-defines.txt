@@ -1676,13 +1676,6 @@ id = ext-translate-firststeps
 file = Translate/FirstSteps.i18n.php
 descmsg = firststeps-desc
 
-# Nikerabbit on IRC: I was planning to get rid of the lcadft prefix with something better
-#Translate - LCADFT
-#id = ext-translate-lcadft
-#file = Translate/lcadft/LCADFT.i18n.php
-#aliasfile = Translate/lcadft/LCADFT.alias.php
-#descmsg = lcadft-desc
-
 Translate - Group Descriptions
 id = ext-translate-groupdescriptions
 file = Translate/TranslateGroupDescriptions.i18n.php
@@ -1697,6 +1690,9 @@ optional = tpt-languages-separator
 Translate Svg
 aliasfile = TranslateSvg/TranslateSvg.alias.php
 ignored = translatesvg
+
+Translation Notifications
+aliasfile = TranslationNotifications/TranslationNotifications.alias.php
 
 Transliterator
 magicfile = Transliterator/Transliterator.i18n.magic.php
