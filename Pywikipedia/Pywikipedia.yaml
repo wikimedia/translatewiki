@@ -8,8 +8,8 @@ TEMPLATE:
     class: PythonSingleFFS
     # Pywikipediabot works on language code, so mapping fallbacked to Wikimedia code.
     codeMap:
-      als: gsw
       gan-hant: gan
+      gsw: als
       hif-latn: hif
       ike-cans: iu
       kbd-cyrl: kbd
