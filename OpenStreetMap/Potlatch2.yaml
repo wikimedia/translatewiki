@@ -23,6 +23,7 @@ TEMPLATE:
       sv:    sv_SE
       pt:    pt_PT
       pt-br: pt_BR
+      vi: vi_VN
       zh-hans: zh_CN
       zh-hant: zh_TW
 
