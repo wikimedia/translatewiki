@@ -34,7 +34,7 @@ TEMPLATE:
 ---
 BASIC:
   id: out-osm-potlatch2-help
-  label: Potlatch2 - Help
+  label: Potlatch 2 - Help
   display: out/osm/potlatch2/help
 
 FILES:
@@ -48,7 +48,7 @@ MANGLER:
 ---
 BASIC:
   id: out-osm-potlatch2-main
-  label: Potlatch2 - Main
+  label: Potlatch 2 - Main
   display: out/osm/potlatch2/main
 
 FILES:
