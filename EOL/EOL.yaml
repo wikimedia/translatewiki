@@ -50,17 +50,6 @@ MANGLER:
   prefix: website-
 
 TAGS:
-  optional:
-    - website-errors.format
-    - website-collections.show.meta_title
-    - website-collections.show.tweet_text
-    - website-communities.newsfeeds.show.meta_title
-    - website-communities.newsfeeds.show.tweet_text
-    - website-content_partners.show.meta_title
-    - website-content_partners.show.tweet_text
-    - website-taxa.overviews.show.meta_title
-    - website-users.show.meta_title
-    - website-users.show.tweet_text
   ignored:
     - website-faker.lorem.*
     - website-date.*
@@ -69,6 +58,14 @@ TAGS:
     - website-number.*
     - website-datetime.*
     - website-support.*
+    - website-collections.show.meta_description
+    - website-collections.show.meta_title
+    - website-collections.show.tweet_text
+    - website-communities.newsfeeds.show.meta_description
+    - website-communities.newsfeeds.show.meta_title
+    - website-communities.newsfeeds.show.tweet_text
+    - website-content_partners.show.meta_title
+    - website-content_partners.show.tweet_text
     - website-taxa.communities.curators.meta_description
     - website-taxa.details.index.hierarchy_entry.meta_keywords
     - website-taxa.details.index.meta_keywords
@@ -87,6 +84,7 @@ TAGS:
     - website-taxa.names.index.hierarchy_entry.meta_title_with_common_name
     - website-taxa.names.index.meta_keywords
     - website-taxa.names.index.meta_keywords_with_common_name
+    - website-taxa.overviews.show.meta_title
     - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_description
     - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_description_with_common_name
     - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_keywords
@@ -133,6 +131,8 @@ TAGS:
     - website-users.content_partners.index.meta_keywords
     - website-users.newsfeeds.show.meta_keywords
     - website-users.show.meta_keywords
+    - website-users.show.meta_title
+    - website-users.show.tweet_text
 
 ---
 BASIC:
