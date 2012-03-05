@@ -664,6 +664,8 @@ ignored = gadgets-definition
 
 GeeQuBox
 
+Genderize
+
 Geo Data
 
 GeoLite
