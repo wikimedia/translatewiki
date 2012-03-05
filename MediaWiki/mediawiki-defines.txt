@@ -1383,6 +1383,8 @@ magicfile = SemanticSignup.i18n.magic.php
 
 Semantic Tasks
 
+Semantic Title
+
 Semantic Update On Purge
 descmsg = suop-desc
 
