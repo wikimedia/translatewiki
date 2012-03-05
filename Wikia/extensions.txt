@@ -300,7 +300,7 @@ file = UserRenameTool/SpecialRenameuser.i18n.php
 Video Embed Tool
 
 Wall
-optional = wall-history-username-full, wall-history-username-short
+optional = wall-history-username-full, wall-history-username-short, mail-notification-subject, mail-notification-html-footer-line3
 
 Watch Sub Pages
 descmsg = wikia-watchsubpages-desc
