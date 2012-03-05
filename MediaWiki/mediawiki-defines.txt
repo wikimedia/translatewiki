@@ -722,6 +722,8 @@ Help Commons
 Hide Namespace
 descmsg = hidens-desc
 
+Hide Prefix
+
 Honeypot Integration
 descmsg = honeypot-desc
 
