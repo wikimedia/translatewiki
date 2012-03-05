@@ -300,6 +300,7 @@ file = UserRenameTool/SpecialRenameuser.i18n.php
 Video Embed Tool
 
 Wall
+optional = wall-history-username-full, wall-history-username-short
 
 Watch Sub Pages
 descmsg = wikia-watchsubpages-desc
