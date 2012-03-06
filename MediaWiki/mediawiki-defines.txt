@@ -89,11 +89,13 @@ Article Feedback v5
 aliasfile = ArticleFeedbackv5/ArticleFeedbackv5.alias.php
 optional = articlefeedbackv5-bucket5-form-panel-helpimprove-email-placeholder, articlefeedbackv5-table-noratings, articlefeedbackv5-cta1-learn-how-url, articlefeedbackv5-help-tooltip-linkurl
 optional = articlefeedbackv5-transparency-terms-url, articlefeedbackv5-privacyurl
+optional = articlefeedbackv5-activity-item-comment
 ignored = articlefeedbackv5-pitch-survey-body, articlefeedbackv5-pitch-edit-body, articlefeedbackv5-special-sort-label-after, articlefeedbackv5-special-filter-label-after
 ignored = articlefeedbackv5-error-abuse-link
 ignored = articlefeedbackv5-noteflyover-hide-help-link, articlefeedbackv5-noteflyover-show-help-link, articlefeedbackv5-noteflyover-requestoversight-help-link
 ignored = articlefeedbackv5-noteflyover-unrequestoversight-help-link, articlefeedbackv5-noteflyover-oversight-help-link, articlefeedbackv5-noteflyover-ovesight-help-link
 ignored = articlefeedbackv5-noteflyover-declineoversight-help-link, articlefeedbackv5-noteflyover-unoversight-help-link
+ignored = articlefeedbackv5-activity-item
 
 Article To Category 2
 
