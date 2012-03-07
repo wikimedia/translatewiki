@@ -1,31 +1,24 @@
+== Add support in Translate ==
 Check out a read-only copy:
-$ git clone git://github.com/wikimedia/WikipediaMobile.git wikipedia
+1. git clone git://github.com/wikimedia/WikipediaMobile.git WikipediaMobile
+2. Add to LocalSettings.php:
+wfAddNamespace( 1206, 'Wikimedia' );
+$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/WikipediaMobile/WikipediaMobile.yaml";
 
-Update:
-$ git pull
+To update:
+1. git pull
+2. Process in Special:ManageMessageGroups
 
-
-Message files are in assets/www/messages/messages-*.properties
-as Java-style properties files, using raw UTF-8.
-
-
-messages-en.properties has master entries.
-messages-qqq.properties has message descriptions.
-
-
-
-To commit:
-
-  Check out a copy with github account already set up (read/write if sufficient rights):
-  $ git clone git@github.com:wikimedia/WikipediaMobile.git wikipedia
-
-  # must add any new or changed files!
-  git add assets/www/messages/messages-*.properties
-  
-  # commit locally
-  git commit -m "Updates from translatewiki.net"
-  
-  # push upstream
-  git push origin master
-
-
+== Commit updates ==
+# Export translations
+php /www/w/extensions/Translate/scripts/export.php --groupprefix=out-wikipedia-mobile --target=$HOME/export --lang=* --skip en,qqq --threshold=35
+php /www/w/extensions/Translate/scripts/export.php --groupprefix=out-wikipedia-mobile --target=$HOME/export --lang=qqq
+# Check out a copy with github account set up (read/write with sufficient rights):
+git clone git@github.com:wikimedia/WikipediaMobile.git $HOME/export/WikipediaMobile
+# must add any new or changed files!
+cd $HOME/export/WikipediaMobile
+git add assets/www/messages/messages-*.properties
+# commit locally
+git commit -m "Localisation updates from http://translatewiki.net."
+# push upstream
+git push origin master

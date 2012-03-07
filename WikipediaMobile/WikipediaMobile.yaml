@@ -14,9 +14,9 @@ MANGLER:
 
 FILES:
   class: JavaFFS
-  sourcePattern: %GROUPROOT%/wikipedia/assets/www/messages/messages-%CODE%.properties
-  definitionFile: %GROUPROOT%/wikipedia/assets/www/messages/messages-en.properties
-  targetPattern: wikipedia/assets/www/messages/messages-%CODE%.properties
+  sourcePattern: %GROUPROOT%/WikipediaMobile/assets/www/messages/messages-%CODE%.properties
+  definitionFile: %GROUPROOT%/WikipediaMobile/assets/www/messages/messages-en.properties
+  targetPattern: WikipediaMobile/assets/www/messages/messages-%CODE%.properties
   codeMap:
     nb: "no"
   header: |
@@ -27,4 +27,3 @@ TAGS:
   ignored:
     - mobileapp-settings-checkbox-example-desc
     - mobileapp-settings-checkbox-example-label
-
