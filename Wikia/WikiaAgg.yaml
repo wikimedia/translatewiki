@@ -1,7 +1,6 @@
 BASIC:
   id: wikia-0-all
   label: Wikia MediaWiki extensions
-  display: wikia
   meta: yes
   class: AggregateMessageGroup
   description: '{{int:translate-group-desc-wikiaextensions}}'

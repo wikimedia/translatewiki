@@ -2,7 +2,6 @@ TEMPLATE:
   BASIC:
     description: "{{int:bw-desc-statusnet}}"
     namespace: NS_STATUSNET
-    display: out/statusnet/
     class: FileBasedMessageGroup
     codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/%FILE%#line%LINE%
 
@@ -27,7 +26,6 @@ TEMPLATE:
 BASIC:
   id: out-statusnet-0-all
   label: StatusNet
-  display: out/statusnet
   meta: yes
   class: AggregateMessageGroup
 
@@ -39,7 +37,6 @@ BASIC:
   id: out-statusnet-plugin-0-all
   label: All StatusNet plugin messages
   description: "{{int:translate-group-desc-statusnet-plugin}}"
-  display: out/statusnet/plugin
   meta: yes
   class: AggregateMessageGroup
 
@@ -49,7 +46,6 @@ GROUPS:
 BASIC:
   id: out-statusnet-core
   label: StatusNet - Core
-  display: out/statusnet/
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/locale/%CODE%/LC_MESSAGES/statusnet.po

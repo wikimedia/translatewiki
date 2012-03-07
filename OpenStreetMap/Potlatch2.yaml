@@ -36,7 +36,6 @@ TEMPLATE:
 BASIC:
   id: out-osm-potlatch2-help
   label: Potlatch 2 - Help
-  display: out/osm/potlatch2/help
 
 FILES:
   sourcePattern: %GROUPROOT%/potlatch2/l10n/locale/%CODE%/help_dialog.properties
@@ -50,7 +49,6 @@ MANGLER:
 BASIC:
   id: out-osm-potlatch2-main
   label: Potlatch 2 - Main
-  display: out/osm/potlatch2/main
 
 FILES:
   sourcePattern: %GROUPROOT%/potlatch2/l10n/locale/%CODE%/p2_main.properties

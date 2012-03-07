@@ -15,7 +15,6 @@ TEMPLATE:
 BASIC:
   id: out-okawix-0-all
   label: Okawix
-  display: out/okawix
   meta: yes
   class: AggregateMessageGroup
 
@@ -26,7 +25,6 @@ GROUPS:
 BASIC:
   id: out-okawix-doc
   label: Okawix - Documentation
-  display: out/okawix/doc
 
 FILES:
   sourcePattern: %GROUPROOT%/okawix/locale/%CODE%/interfacewiki/okawix-doc.properties
@@ -36,7 +34,6 @@ FILES:
 BASIC:
   id: out-okawix-dtd
   label: Okawix - DTD
-  display: out/okawix/dtd
 
 FILES:
   class: DtdFFS
@@ -50,7 +47,6 @@ AUTOLOAD:
 BASIC:
   id: out-okawix-prop
   label: Okawix - Properties
-  display: out/okawix/prop
 
 FILES:
   sourcePattern: %GROUPROOT%/okawix/locale/%CODE%/interfacewiki/okawix.properties
@@ -75,7 +71,6 @@ TAGS:
 BASIC:
   id: out-okawix-site
   label: Okawix - Site
-  display: out/okawix/site
 
 FILES:
   sourcePattern: %GROUPROOT%/okawix/locale/%CODE%/interfacewiki/okawix-site.properties

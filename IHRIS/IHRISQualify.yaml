@@ -2,7 +2,6 @@ TEMPLATE:
   BASIC:
     description: "{{int:translate-group-desc-ihris-qualify}}"
     namespace: NS_IHRIS
-    display: out/ihris/qualify/
     class: FileBasedMessageGroup
 
   FILES:
@@ -34,7 +33,6 @@ TEMPLATE:
 BASIC:
   id: out-ihris-qualify-core
   label: iHRIS Qualify - Core
-  display: out/ihris/qualify/core
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify/ihris-qualify.pot
@@ -48,7 +46,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-crd
   label: iHRIS Qualify - Custom Reports Disruption
-  display: out/ihris/qualify/crd
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-disruption/ihris-qualify-custom-reports-disruption.pot
@@ -62,7 +59,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-cre
   label: iHRIS Qualify - Custom Reports Exam
-  display: out/ihris/qualify/cre
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-exam/ihris-qualify-custom-reports-exam.pot
@@ -76,7 +72,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-cri
   label: iHRIS Qualify - Custom Reports Institution
-  display: out/ihris/qualify/cri
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-institution/ihris-qualify-custom-reports-institution.pot
@@ -90,7 +85,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-crl
   label: iHRIS Qualify - Custom Reports License
-  display: out/ihris/qualify/crl
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-license/ihris-qualify-custom-reports-license.pot
@@ -104,7 +98,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-crp
   label: iHRIS Qualify - Custom Reports Person
-  display: out/ihris/qualify/crp
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-person/ihris-qualify-custom-reports-person.pot
@@ -118,7 +111,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-crr
   label: iHRIS Qualify - Custom Reports Registration
-  display: out/ihris/qualify/crr
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-registration/ihris-qualify-custom-reports-registration.pot
@@ -132,7 +124,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-crsp
   label: iHRIS Qualify - Custom Reports Search People
-  display: out/ihris/qualify/crsp
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-search-people/ihris-qualify-custom-reports-search-people.pot
@@ -146,7 +137,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-crst
   label: iHRIS Qualify - Custom Reports Search Training
-  display: out/ihris/qualify/crst
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-search-training/ihris-qualify-custom-reports-search-training.pot
@@ -160,7 +150,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-crt
   label: iHRIS Qualify - Custom Reports Training
-  display: out/ihris/qualify/crt
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-training/ihris-qualify-custom-reports-training.pot
@@ -174,7 +163,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-pfl
   label: iHRIS Qualify - Printed Forms License
-  display: out/ihris/qualify/pfl
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-printed-forms-license/ihris-qualify-printed-forms-license.pot
@@ -188,7 +176,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-pfr
   label: iHRIS Qualify - Printed Forms Registration
-  display: out/ihris/qualify/pfr
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-printed-forms-registration/ihris-qualify-printed-forms-registration.pot
@@ -202,7 +189,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-site
   label: iHRIS Qualify - Site
-  display: out/ihris/qualify/site
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-site/ihris-qualify-site.pot
@@ -216,7 +202,6 @@ MANGLER:
 #BASIC:
 #  id: out-ihris-qualify-sdi
 #  label: iHRIS Qualify - Site Demo
-#  display: out/ihris/qualify/sdi
 #
 #FILES:
 #  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-site-demo/ihris-qualify-site-demo.pot
@@ -230,7 +215,6 @@ MANGLER:
 BASIC:
   id: out-ihris-qualify-rve
   label: iHRIS Qualify - Record Verify
-  display: out/ihris/qualify/rve
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/record-verify/record-verify.pot

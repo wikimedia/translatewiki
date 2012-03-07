@@ -19,7 +19,6 @@ BASIC:
   id: out-osm-0-all
   label: OpenStreetMap
   description: "{{int:bw-desc-openstreetmap}}"
-  display: out/osm
   meta: yes
   class: AggregateMessageGroup
 
@@ -31,7 +30,6 @@ BASIC:
   id: out-osm-site
   label: OpenStreetMap - Website
   description: "{{int:bw-desc-osm-site}}"
-  display: out/osm/site
 
 FILES:
   sourcePattern: %GROUPROOT%/osm/config/locales/%CODE%.yml

@@ -4,7 +4,6 @@ BASIC:
   label: FreeCol
   description: "{{int:bw-desc-freecol}}"
   namespace: NS_FREECOL
-  display: out/freecol/
   class: FileBasedMessageGroup
 
 FILES:

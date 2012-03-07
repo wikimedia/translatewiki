@@ -2,7 +2,6 @@ TEMPLATE:
   BASIC:
     description: "{{int:translate-group-desc-ihris-i2ce}}"
     namespace: NS_IHRIS
-    display: out/ihris/i2ce/
     class: FileBasedMessageGroup
 
   FILES:
@@ -35,7 +34,6 @@ TEMPLATE:
 BASIC:
   id: out-ihris-i2ce-admin
   label: iHRIS I2CE - Admin
-  display: out/ihris/i2ce/admin
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/admin/admin.pot
@@ -49,7 +47,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-bpr
   label: iHRIS I2CE - Background Process
-  display: out/ihris/i2ce/bpr
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/background-process/background-process.pot
@@ -63,7 +60,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-cfo
   label: iHRIS I2CE - Cached Forms
-  display: out/ihris/i2ce/cfo
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/cached-forms/cached-forms.pot
@@ -77,7 +73,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-cpi
   label: iHRIS I2CE - Color Picker
-  display: out/ihris/i2ce/cpi
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/color-picker/color-picker.pot
@@ -91,7 +86,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-cre
   label: iHRIS I2CE - Custom Reports
-  display: out/ihris/i2ce/cre
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports/custom-reports.pot
@@ -105,7 +99,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-crex
   label: iHRIS I2CE - Custom Reports Export
-  display: out/ihris/i2ce/crex
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-export/custom-reports-export.pot
@@ -119,7 +112,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-crp
   label: iHRIS I2CE - Custom Reports PDF
-  display: out/ihris/i2ce/crp
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-pdf/custom-reports-pdf.pot
@@ -133,7 +125,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-crpc
   label: iHRIS I2CE - Custom Reports Pie Chart
-  display: out/ihris/i2ce/crpc
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-pie-chart/custom-reports-pie-chart.pot
@@ -147,7 +138,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-crs
   label: iHRIS I2CE - Custom Reports Selector
-  display: out/ihris/i2ce/crs
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-selector/custom-reports-selector.pot
@@ -161,7 +151,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-fli
   label: iHRIS I2CE - Field Limits
-  display: out/ihris/i2ce/fli
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/field-limits/field-limits.pot
@@ -175,7 +164,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-fdu
   label: iHRIS I2CE - File Dump
-  display: out/ihris/i2ce/fdu
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/file-dump/file-dump.pot
@@ -189,7 +177,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-fbr
   label: iHRIS I2CE - Form Browser
-  display: out/ihris/i2ce/fbr
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/form-browser/form-browser.pot
@@ -203,7 +190,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-fli
   label: iHRIS I2CE - Form Limits
-  display: out/ihris/i2ce/fli
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/form-limits/form-limits.pot
@@ -217,7 +203,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-fre
   label: iHRIS I2CE - Form Relationships
-  display: out/ihris/i2ce/fre
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/form-relationships/form-relationships.pot
@@ -231,7 +216,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-forms
   label: iHRIS I2CE - Forms
-  display: out/ihris/i2ce/forms
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/forms/forms.pot
@@ -245,7 +229,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-lists
   label: iHRIS I2CE - Lists
-  display: out/ihris/i2ce/lists
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/lists/lists.pot
@@ -259,7 +242,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-llt
   label: iHRIS I2CE - Lists Link To
-  display: out/ihris/i2ce/llt
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to/lists-link-to.pot
@@ -273,7 +255,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-lltl
   label: iHRIS I2CE - Lists Link To List
-  display: out/ihris/i2ce/lltl
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to-list/lists-link-to-list.pot
@@ -287,7 +268,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-llts
   label: iHRIS I2CE - Lists Link To String
-  display: out/ihris/i2ce/llts
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to-string/lists-link-to-string.pot
@@ -301,7 +281,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-lfo
   label: iHRIS I2CE - Locale Form
-  display: out/ihris/i2ce/lfo
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/locale-form/locale-form.pot
@@ -315,7 +294,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-lse
   label: iHRIS I2CE - Locale Selector
-  display: out/ihris/i2ce/lse
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/locale-selector/locale-selector.pot
@@ -329,7 +307,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-lpa
   label: iHRIS I2CE - Login Page
-  display: out/ihris/i2ce/lpa
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/login-page/login-page.pot
@@ -343,7 +320,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-mdb
   label: iHRIS I2CE - Magic Data Browser
-  display: out/ihris/i2ce/mdb
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/magic-data-browser/magic-data-browser.pot
@@ -357,7 +333,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-mty
   label: iHRIS I2CE - MIME Types
-  display: out/ihris/i2ce/mty
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/mime-types/mime-types.pot
@@ -371,7 +346,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-pages
   label: iHRIS I2CE - Pages
-  display: out/ihris/i2ce/pages
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/pages/pages.pot
@@ -385,7 +359,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-pfo
   label: iHRIS I2CE - Printed Forms
-  display: out/ihris/i2ce/pfo
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/printed-forms/printed-forms.pot
@@ -399,7 +372,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-rar
   label: iHRIS I2CE - Report Archiver
-  display: out/ihris/i2ce/rar
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/report-archiver/report-archiver.pot
@@ -413,7 +385,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-stub
   label: iHRIS I2CE - Stub
-  display: out/ihris/i2ce/stub
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/stub/stub.pot
@@ -427,7 +398,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-sco
   label: iHRIS I2CE - Swiss Config
-  display: out/ihris/i2ce/sco
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/swiss-config/swiss-config.pot
@@ -441,7 +411,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-sma
   label: iHRIS I2CE - Swiss Magic
-  display: out/ihris/i2ce/sma
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/swiss-magic/swiss-magic.pot
@@ -455,7 +424,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-sfa
   label: iHRIS I2CE - Swiss Factory
-  display: out/ihris/i2ce/sfa
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/swissfactory/swissfactory.pot
@@ -469,7 +437,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-tro
   label: iHRIS I2CE - Task Roles
-  display: out/ihris/i2ce/tro
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/tasks-roles/tasks-roles.pot
@@ -483,7 +450,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-timer
   label: iHRIS I2CE - Timer
-  display: out/ihris/i2ce/timer
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/timer/timer.pot
@@ -497,7 +463,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-tse
   label: iHRIS I2CE - Tree Selector
-  display: out/ihris/i2ce/tse
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/tree-select/tree-select.pot
@@ -511,7 +476,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-uac
   label: iHRIS I2CE - User Access
-  display: out/ihris/i2ce/uac
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/user-access/user-access.pot
@@ -525,7 +489,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-uad
   label: iHRIS I2CE - User Access DHIS
-  display: out/ihris/i2ce/uad
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/user-access-dhis/user-access-dhis.pot
@@ -539,7 +502,6 @@ MANGLER:
 BASIC:
   id: out-ihris-i2ce-ufo
   label: iHRIS I2CE - User Form
-  display: out/ihris/i2ce/ufo
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/user-form/user-form.pot

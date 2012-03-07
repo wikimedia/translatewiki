@@ -4,7 +4,6 @@ BASIC:
   label: Europeana
   description: "{{int:translate-group-desc-europeana}}"
   namespace: NS_EUROPEANA
-  display: out/europeana/
   class: FileBasedMessageGroup
 
 FILES:

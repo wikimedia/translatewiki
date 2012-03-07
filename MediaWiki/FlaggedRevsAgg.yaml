@@ -1,7 +1,6 @@
 BASIC:
   id: ext-flaggedrevs-0-all
   label: All Flagged Revs messages
-  display: ext/flaggedrevs
   meta: yes
   class: AggregateMessageGroup
   description: '{{int:translate-group-desc-flaggedrevs}}'

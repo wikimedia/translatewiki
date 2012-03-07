@@ -4,7 +4,6 @@ BASIC:
   label: Commonist
   description: "{{int:bw-desc-commonist}}"
   namespace: NS_COMMONIST
-  display: out/commonist/
   class: FileBasedMessageGroup
 
 FILES:

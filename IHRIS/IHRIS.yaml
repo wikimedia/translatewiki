@@ -28,7 +28,6 @@ TEMPLATE:
 BASIC:
   id: out-ihris-0-all
   label: iHRIS
-  display: out/ihris
   meta: yes
   class: AggregateMessageGroup
 
@@ -41,7 +40,6 @@ GROUPS:
 BASIC:
   id: out-ihris-common-0-all
   label: iHRIS Common
-  display: out/ihris/common
   meta: yes
   class: AggregateMessageGroup
 
@@ -51,7 +49,6 @@ GROUPS:
 BASIC:
   id: out-ihris-i2ce-0-all
   label: iHRIS I2CE
-  display: out/ihris/i2ce
   meta: yes
   class: AggregateMessageGroup
 
@@ -61,7 +58,6 @@ GROUPS:
 BASIC:
   id: out-ihris-manage-0-all
   label: iHRIS Manage
-  display: out/ihris/manage
   meta: yes
   class: AggregateMessageGroup
 
@@ -71,7 +67,6 @@ GROUPS:
 BASIC:
   id: out-ihris-qualify-0-all
   label: iHRIS Qualify
-  display: out/ihris/qualify
   meta: yes
   class: AggregateMessageGroup
 

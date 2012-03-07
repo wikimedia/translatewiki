@@ -4,7 +4,6 @@ BASIC:
   label: OpenLayers
   description: "{{int:bw-desc-openlayers}}"
   namespace: NS_OPENLAYERS
-  display: out/openlayers/
   class: FileBasedMessageGroup
 
 FILES:

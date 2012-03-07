@@ -8,7 +8,6 @@ TEMPLATE:
 BASIC:
   id: out-nocc-0-all
   label: NOCC
-  display: out/nocc
   meta: yes
   class: AggregateMessageGroup
 
@@ -19,7 +18,6 @@ GROUPS:
 BASIC:
   id: out-nocc-core
   label: NOCC - Core
-  display: out/nocc/
 
 FILES:
   class: FlatPhpFFS
@@ -62,7 +60,6 @@ CHECKER:
 BASIC:
   id: out-nocc-site
   label: NOCC - Site
-  display: out/nocc/
 
 FILES:
   class: GettextFFS

@@ -4,7 +4,6 @@ BASIC:
   label: Kiwix
   description: "{{int:translate-group-desc-kiwix}}"
   namespace: NS_KIWIX
-  display: out/kiwix/
   class: FileBasedMessageGroup
 
 FILES:

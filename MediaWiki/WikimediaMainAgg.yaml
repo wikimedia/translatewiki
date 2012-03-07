@@ -1,7 +1,6 @@
 BASIC:
   id: ext-0-wikimedia-main
   label: Extensions used by Wikimedia - Main
-  display: ext/wikimedia/main
   meta: yes
   class: AggregateMessageGroup
   description: '{{int:translate-group-desc-wikimediaextensions-main}}'

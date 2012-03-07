@@ -4,7 +4,6 @@ BASIC:
   label: WikiReader
   description: "{{int:bw-desc-wikireader}}"
   namespace: NS_WIKIREADER
-  display: out/wikireader/
   class: FileBasedMessageGroup
 
 FILES:

@@ -54,7 +54,6 @@ TEMPLATE:
   BASIC:
     description: "{{int:translate-group-desc-statusnet-plugin}}"
     namespace: NS_STATUSNET
-    display: out/statusnet/
     class: FileBasedMessageGroup
 
   FILES:
@@ -98,7 +97,6 @@ foreach ( $plugins as $plugin ) {
 	echo "BASIC:\n";
 	echo "  id: out-statusnet-plugin-" . $pluginL . "\n";
 	echo "  label: StatusNet - " . $plugin . "\n";
-	echo "  display: out/statusnet/plugin/" . $pluginL . "\n";
 	echo "  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/" . $plugin . "/%FILE%#line%LINE%\n\n";
 	echo "FILES:\n";
 	echo "  sourcePattern: %GROUPROOT%/" . $basePluginFolder . $plugin . $localeFolder . $plugin . ".po\n";

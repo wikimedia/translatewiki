@@ -2,7 +2,6 @@ TEMPLATE:
   BASIC:
     description: "{{int:translate-group-desc-ihris-common}}"
     namespace: NS_IHRIS
-    display: out/ihris/common/
     class: FileBasedMessageGroup
 
   FILES:
@@ -34,7 +33,6 @@ TEMPLATE:
 BASIC:
   id: out-ihris-common-ceus
   label: iHRIS Common - Ceus
-  display: out/ihris/common/ceus
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ceus/ceus.pot
@@ -48,7 +46,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-contact
   label: iHRIS Common - Contact
-  display: out/ihris/common/contact
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/contact/contact.pot
@@ -62,7 +59,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-currency
   label: iHRIS Common - Currency
-  display: out/ihris/common/currency
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/currency/currency.pot
@@ -76,7 +72,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-depender
   label: iHRIS Common - Depender
-  display: out/ihris/common/depender
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/dependents/dependents.pot
@@ -90,7 +85,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-document
   label: iHRIS Common - Document
-  display: out/ihris/common/document
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/document/document.pot
@@ -104,7 +98,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-establishment
   label: iHRIS Common - Establishment
-  display: out/ihris/common/establishment
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/establishment/establishment.pot
@@ -118,7 +111,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-facility
   label: iHRIS Common - Facility
-  display: out/ihris/common/facility
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/facility/facility.pot
@@ -132,7 +124,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-fco
   label: iHRIS Common - Facility Contact
-  display: out/ihris/common/fco
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/facility-contact/facility-contact.pot
@@ -146,7 +137,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-geography
   label: iHRIS Common - Geography
-  display: out/ihris/common/geography
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/geography/geography.pot
@@ -160,7 +150,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-core
   label: iHRIS Common - Core
-  display: out/ihris/common/core
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common/ihris-common.pot
@@ -174,7 +163,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-cadre
   label: iHRIS Common - Cadre
-  display: out/ihris/common/cadre
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-cadre/ihris-common-cadre.pot
@@ -188,7 +176,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-job
   label: iHRIS Common - Job
-  display: out/ihris/common/job
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-job/ihris-common-job.pot
@@ -202,7 +189,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-rfo
   label: iHRIS Common - Recent Form
-  display: out/ihris/common/rfo
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-recent-form/ihris-common-recent-form.pot
@@ -216,7 +202,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-search
   label: iHRIS Common - Search
-  display: out/ihris/common/search
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-search/ihris-common-search.pot
@@ -230,7 +215,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-nok
   label: iHRIS Common - Next of Kin
-  display: out/ihris/common/nok
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/next-of-kin/next-of-kin.pot
@@ -244,7 +228,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-person
   label: iHRIS Common - Person
-  display: out/ihris/common/person
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person/person.pot
@@ -258,7 +241,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-pas
   label: iHRIS Common - Person Archived Scan
-  display: out/ihris/common/pas
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person-archived-scan/person-archived-scan.pot
@@ -272,7 +254,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-pco
   label: iHRIS Common - Person Contact
-  display: out/ihris/common/pco
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person-contact/person-contact.pot
@@ -286,7 +267,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-pdo
   label: iHRIS Common - Person Demographic
-  display: out/ihris/common/pdo
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person-demographic/person-demographic.pot
@@ -300,7 +280,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-ped
   label: iHRIS Common - Person Education
-  display: out/ihris/common/ped
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person-education/person-education.pot
@@ -314,7 +293,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-pem
   label: iHRIS Common - Person Employment
-  display: out/ihris/common/pem
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person-employment/person-employment.pot
@@ -328,7 +306,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-pid
   label: iHRIS Common - Person ID
-  display: out/ihris/common/pid
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person-id/person-id.pot
@@ -342,7 +319,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-pla
   label: iHRIS Common - Person Language
-  display: out/ihris/common/pla
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person-language/person-language.pot
@@ -356,7 +332,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-pno
   label: iHRIS Common - Person Notes
-  display: out/ihris/common/pno
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person-notes/person-notes.pot
@@ -370,7 +345,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-ppp
   label: iHRIS Common - Person Passport Photo
-  display: out/ihris/common/ppp
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person-passport-photo/person-passport-photo.pot
@@ -384,7 +358,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-pre
   label: iHRIS Common - Person Resume
-  display: out/ihris/common/pre
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person-resume/person-resume.pot
@@ -398,7 +371,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-psc
   label: iHRIS Common - Person Simple Competency
-  display: out/ihris/common/psc
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person-simple-competency/person-simple-competency.pot
@@ -412,7 +384,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-photo
   label: iHRIS Common - Photo
-  display: out/ihris/common/photo
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/photo/photo.pot
@@ -426,7 +397,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-rst
   label: iHRIS Common - Record Status
-  display: out/ihris/common/rst
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/record-status/record-status.pot
@@ -440,7 +410,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-sdco
   label: iHRIS Common - Sample Data Country
-  display: out/ihris/common/sdco
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/sample-data-country/sample-data-country.pot
@@ -454,7 +423,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-sdcu
   label: iHRIS Common - Sample Data Currency
-  display: out/ihris/common/sdcu
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/sample-data-currency/sample-data-currency.pot
@@ -468,7 +436,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-sdd
   label: iHRIS Common - Sample Data Degree
-  display: out/ihris/common/sdd
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/sample-data-degree/sample-data-degree.pot
@@ -482,7 +449,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-sdet
   label: iHRIS Common - Sample Data Education Type
-  display: out/ihris/common/sdet
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/sample-data-edu-type/sample-data-edu-type.pot
@@ -496,7 +462,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-shcl
   label: iHRIS Common - SDMX-HD Code Lists
-  display: out/ihris/common/shcl
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/sdmx-hd-code-lists/sdmx-hd-code-lists.pot
@@ -510,7 +475,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-sco
   label: iHRIS Common - Simple Compentecy
-  display: out/ihris/common/sco
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/simple-competency/simple-competency.pot
@@ -524,7 +488,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-tco
   label: iHRIS Common - Training Course
-  display: out/ihris/common/tco
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/training-course/training-course.pot
@@ -538,7 +501,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-tex
   label: iHRIS Common - Training Exam
-  display: out/ihris/common/tex
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/training-exam/training-exam.pot
@@ -552,7 +514,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-tin
   label: iHRIS Common - Training Institution
-  display: out/ihris/common/tin
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/training-institution/training-institution.pot
@@ -566,7 +527,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-tsc
   label: iHRIS Common - Training Simple Competency
-  display: out/ihris/common/tsc
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/training-simple-competency/training-simple-competency.pot
@@ -580,7 +540,6 @@ MANGLER:
 BASIC:
   id: out-ihris-common-uma
   label: iHRIS Common - UUID Map
-  display: out/ihris/common/uma
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/uuid-map/uuid-map.pot

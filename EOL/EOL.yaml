@@ -26,7 +26,6 @@ TEMPLATE:
 BASIC:
   id: out-eol-0-all
   label: Encyclopedia of Life
-  display: out/eol
   meta: yes
   class: AggregateMessageGroup
 
@@ -37,7 +36,6 @@ GROUPS:
 BASIC:
   id: out-eol-site
   label: Encyclopedia of Life - Website
-  display: out/eol/website
 
 FILES:
   sourcePattern: %GROUPROOT%/eol/config/locales/%CODE%.yml
@@ -138,7 +136,6 @@ TAGS:
 BASIC:
   id: out-eol-database
   label: Encyclopedia of Life - Database
-  display: out/eol/database
 
 FILES:
   sourcePattern: %GROUPROOT%/eol/config/locales/%CODE%-db.yml

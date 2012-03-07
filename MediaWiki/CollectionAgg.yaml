@@ -1,7 +1,6 @@
 BASIC:
   id: ext-collection-0-all
   label: All Collection messages
-  display: ext/collection
   meta: yes
   class: AggregateMessageGroup
   description: '{{int:translate-group-desc-collection}}'

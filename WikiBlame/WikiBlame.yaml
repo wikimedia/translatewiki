@@ -4,7 +4,6 @@ BASIC:
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
   description: "{{int:bw-desc-wikiblame}}"
-  display: out/wikiblame
 
 FILES:
   class: FlatPhpFFS

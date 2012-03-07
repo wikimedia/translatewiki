@@ -34,7 +34,6 @@ TEMPLATE:
 BASIC:
   id: out-pywikipedia-0-all
   label: Pywikipedia
-  display: out/pywikipedia
   meta: yes
   class: AggregateMessageGroup
 
@@ -44,7 +43,6 @@ GROUPS:
 BASIC:
   id: out-pywikipedia-addtext
   label: Pywikipedia Add Text
-  display: out/pywikipedia/addtext
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/add_text.py
@@ -54,7 +52,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-archivebot
   label: Pywikipedia Archive Bot
-  display: out/pywikipedia/archivebot
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/archivebot.py
@@ -64,7 +61,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-basic
   label: Pywikipedia Basic
-  display: out/pywikipedia/basic
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/basic.py
@@ -74,7 +70,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-capitalizeredirects
   label: Pywikipedia Capitalize Redirects
-  display: out/pywikipedia/capitalizeredirects
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/capitalize_redirects.py
@@ -84,7 +79,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-catall
   label: Pywikipedia Catall
-  display: out/pywikipedia/catall
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/catall.py
@@ -94,7 +88,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-category
   label: Pywikipedia Category
-  display: out/pywikipedia/category
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/category.py
@@ -104,7 +97,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-categoryredirect
   label: Pywikipedia Category Redirect
-  display: out/pywikipedia/categoryredirect
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/category_redirect.py
@@ -114,7 +106,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-cleansandbox
   label: Pywikipedia Clean Sandbox
-  display: out/pywikipedia/cleansandbox
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/clean_sandbox.py
@@ -124,7 +115,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-commons
   label: Pywikipedia Commons
-  display: out/pywikipedia/commons
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/commons.py
@@ -134,7 +124,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-cosmeticchanges
   label: Pywikipedia Cosmetic Changes
-  display: out/pywikipedia/cosmeticchanges
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/cosmetic_changes.py
@@ -144,7 +133,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-delete
   label: Pywikipedia Delete
-  display: out/pywikipedia/delete
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/delete.py
@@ -154,7 +142,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-djvutext
   label: Pywikipedia DjVu Text
-  display: out/pywikipedia/djvutext
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/djvutext.py
@@ -164,7 +151,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-editarticle
   label: Pywikipedia Edit Article
-  display: out/pywikipedia/editarticle
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/editarticle.py
@@ -174,7 +160,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-featured
   label: Pywikipedia Featured
-  display: out/pywikipedia/featured
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/featured.py
@@ -184,7 +169,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-fixingredirects
   label: Pywikipedia Fixing Redirects
-  display: out/pywikipedia/fixingredirects
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/fixing_redirects.py
@@ -194,7 +178,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-interwiki
   label: Pywikipedia Interwiki
-  display: out/pywikipedia/interwiki
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/interwiki.py
@@ -204,7 +187,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-isbn
   label: Pywikipedia ISBN
-  display: out/pywikipedia/isbn
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/isbn.py
@@ -214,7 +196,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-movepages
   label: Pywikipedia Move Pages
-  display: out/pywikipedia/movepages
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/movepages.py
@@ -224,7 +205,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-noreferences
   label: Pywikipedia No References
-  display: out/pywikipedia/noreferences
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/noreferences.py
@@ -234,7 +214,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-redirect
   label: Pywikipedia Redirect
-  display: out/pywikipedia/redirect
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/redirect.py
@@ -244,7 +223,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-replace
   label: Pywikipedia Replace
-  display: out/pywikipedia/replace
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/replace.py
@@ -254,7 +232,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-solvedisambiguation
   label: Pywikipedia Solve Disambiguation
-  display: out/pywikipedia/solvedisambiguation
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/solve_disambiguation.py
@@ -264,7 +241,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-table2wiki
   label: Pywikipedia Table2Wiki
-  display: out/pywikipedia/table2wiki
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/table2wiki.py
@@ -274,7 +250,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-template
   label: Pywikipedia Template
-  display: out/pywikipedia/template
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/template.py
@@ -284,7 +259,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-thirdparty
   label: Pywikipedia Third Party
-  display: out/pywikipedia/thirdparty
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/thirdparty.py
@@ -294,7 +268,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-unlink
   label: Pywikipedia Unlink 
-  display: out/pywikipedia/unlink
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/unlink.py
@@ -304,7 +277,6 @@ FILES:
 BASIC:
   id: out-pywikipedia-welcome
   label: Pywikipedia Welcome 
-  display: out/pywikipedia/welcome
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/welcome.py

@@ -4,7 +4,6 @@ BASIC:
   label: FUDforum
   description: "{{int:bw-desc-fudforum}}"
   namespace: NS_FUDFORUM
-  display: out/fudforum/
   class: FileBasedMessageGroup
 
 FILES:

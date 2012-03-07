@@ -5,7 +5,6 @@
 BASIC:
   id: page-0-all
   label: Translatable pages
-  display: page
   meta: yes
   class: AggregateMessageGroup
   description: '{{int:translate-group-desc-translatablepages}}'

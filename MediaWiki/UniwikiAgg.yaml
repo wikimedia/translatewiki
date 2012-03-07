@@ -1,7 +1,6 @@
 BASIC:
   id: ext-uniwiki-0-all
   label: All Uniwiki messages
-  display: ext/uniwiki
   meta: yes
   class: AggregateMessageGroup
   description: '{{int:translate-group-desc-uniwiki}}'

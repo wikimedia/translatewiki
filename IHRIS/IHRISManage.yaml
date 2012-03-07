@@ -2,7 +2,6 @@ TEMPLATE:
   BASIC:
     description: "{{int:translate-group-desc-ihris-manage}}"
     namespace: NS_IHRIS
-    display: out/ihris/manage/
     class: FileBasedMessageGroup
 
   FILES:
@@ -34,7 +33,6 @@ TEMPLATE:
 BASIC:
   id: out-ihris-manage-acci
   label: iHRIS Manage - Accident
-  display: out/ihris/manage/acci
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/accident/accident.pot
@@ -48,7 +46,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-diac
   label: iHRIS Manage - Desciplinary Action
-  display: out/ihris/manage/diac
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/disciplinary-action/disciplinary-action.pot
@@ -62,7 +59,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-appl
   label: iHRIS Manage - Application
-  display: out/ihris/manage/appl
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-application/ihris-manage-application.pot
@@ -76,7 +72,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-appa
   label: iHRIS Manage - Application Attachment
-  display: out/ihris/manage/appa
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-application-attachment/ihris-manage-application-attachment.pot
@@ -90,7 +85,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-bene
   label: iHRIS Manage - Benefit
-  display: out/ihris/manage/bene
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-benefit/ihris-manage-benefit.pot
@@ -104,7 +98,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-conf
   label: iHRIS Manage - Confirmation
-  display: out/ihris/manage/conf
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-confirmation/ihris-manage-confirmation.pot
@@ -118,7 +111,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-cona
   label: iHRIS Manage - Confirmation Attachment
-  display: out/ihris/manage/cona
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-confirmation-attachment/ihris-manage-confirmation-attachment.pot
@@ -132,7 +124,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-cure
   label: iHRIS Manage - Custom Reports
-  display: out/ihris/manage/cure
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports/ihris-manage-custom-reports.pot
@@ -146,7 +137,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-crfr
   label: iHRIS Manage - Custom Reports - Facility Reports
-  display: out/ihris/manage/crfr
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-facility-reports/ihris-manage-custom-reports-facility-reports.pot
@@ -160,7 +150,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-crfp
   label: iHRIS Manage - Custom Reports - Filled Positions
-  display: out/ihris/manage/crfp
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-filled-positions/ihris-manage-custom-reports-filled-positions.pot
@@ -174,7 +163,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-crpr
   label: iHRIS Manage - Custom Reports - Position Reports
-  display: out/ihris/manage/crpr
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-position-reports/ihris-manage-custom-reports-position-reports.pot
@@ -188,7 +176,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-crsp
   label: iHRIS Manage - Custom Reports - Search People
-  display: out/ihris/manage/crsp
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-search-people/ihris-manage-custom-reports-search-people.pot
@@ -202,7 +189,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-crsr
   label: iHRIS Manage - Custom Reports - Staff Reports
-  display: out/ihris/manage/crsr
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-staff-reports/ihris-manage-custom-reports-staff-reports.pot
@@ -216,7 +202,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-manage
   label: iHRIS Manage - Manage
-  display: out/ihris/manage/manage
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage/ihris-manage.pot
@@ -230,7 +215,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-job
   label: iHRIS Manage - Job
-  display: out/ihris/manage/jpb
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-job/ihris-manage-job.pot
@@ -244,7 +228,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-pede
   label: iHRIS Manage - Person Demographic
-  display: out/ihris/manage/pede
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-person-demographic/ihris-manage-person-demographic.pot
@@ -258,7 +241,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-pepo
   label: iHRIS Manage - Person Position
-  display: out/ihris/manage/pepo
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-person-position/ihris-manage-person-position.pot
@@ -272,7 +254,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-sala
   label: iHRIS Manage - Salary
-  display: out/ihris/manage/sala
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-salary/ihris-manage-salary.pot
@@ -286,7 +267,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-masi
   label: iHRIS Manage - Manage Site
-  display: out/ihris/manage/
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-site/ihris-manage-site.pot
@@ -300,7 +280,6 @@ MANGLER:
 BASIC:
   id: out-ihris-manage-regi
   label: iHRIS Manage - Registration
-  display: out/ihris/manage/regi
 
 FILES:
   definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-registration/manage-registration.pot
@@ -315,7 +294,6 @@ MANGLER:
 #BASIC:
 #  id: out-ihris-manage-saes
 #  label: iHRIS Manage - Sample Data Establishment
-#  display: out/ihris/manage/saes
 #
 #FILES:
 #  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/sample-data-establishment/sample-data-establishment.pot
@@ -329,7 +307,6 @@ MANGLER:
 #BASIC:
 #  id: out-ihris-manage-sasl
 #  label: iHRIS Manage - Sample SL
-#  display: out/ihris/manage/sasl
 #
 #FILES:
 #  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-sample-sl/ihris-manage-sample-sl.pot
@@ -343,7 +320,6 @@ MANGLER:
 #BASIC:
 #  id: out-ihris-manage-side
 #  label: iHRIS Manage - Site Demo
-#  display: out/ihris/manage/side
 #
 #FILES:
 #  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-site-demo/ihris-manage-site-demo.pot
