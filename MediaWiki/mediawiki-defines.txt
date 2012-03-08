@@ -1420,6 +1420,8 @@ optional = shoutbox-url, shoutbox-url-with-css
 Show Processlist
 aliasfile = ShowProcesslist/ShowProcesslist.alias.php
 
+Side Bar Menu
+
 Sidebar Donate Box
 
 Sign Document
