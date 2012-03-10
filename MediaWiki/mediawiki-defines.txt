@@ -210,6 +210,7 @@ Checkpoint
 Check User
 aliasfile = CheckUser/CheckUser.alias.php
 ignored = checkuser-toollinks
+optional = group-checkuser.css, group-checkuser.js
 
 Chemistry
 file = Chemistry/ChemFunctions.i18n.php
@@ -253,6 +254,7 @@ Code Review
 aliasfile = CodeReview/CodeReview.alias.php
 ignored = code-rev-comment-preview-accesskey, code-rev-submit-accesskey, code-rev-submit-next-accesskey
 ignored = code-rev-id, code-rev-next-accesskey
+optional = group-svnadmins.css, group-svnadmins.js
 
 Collab Watchlist
 ignored = collabwatchlist-unset-tag
@@ -342,6 +344,9 @@ aliasfile = ContactPage/ContactPage.alias.php
 
 Contest
 aliasfile = Contest/Contest.alias.php
+optional = group-contestadmin.css, group-contestadmin.js
+optional = group-contestant.css, group-contestant.js
+optional = group-contestjudge.css, group-contestjudge.js
 
 Contribution Reporting
 aliasfile = ContributionReporting/ContributionReporting.alias.php
@@ -568,6 +573,9 @@ file = FlaggedRevs/frontend/language/FlaggedRevs.i18n.php
 descmsg = flaggedrevs-desc
 aliasfile = FlaggedRevs/frontend/language/FlaggedRevs.alias.php
 optional = revreview-toggle-show, revreview-toggle-hide
+optional = group-editor.css, group-editor.js
+optional = group-reviewer.css, group-reviewer.js
+optional = group-autoreview.css, group-autoreview.js
 ignored = revreview-ak-review, accesskey-ca-current, accesskey-ca-stable
 ignored = flaggedrevs-stable-categories, flaggedrevs-diffonly
 
@@ -831,6 +839,7 @@ magicfile = Lingo/Lingo.i18n.magic.php
 
 Link Filter
 optional = linkfilter-url
+optional = group-linkadmin.css, group-linkadmin.js
 aliasfile = LinkFilter/Link.alias.php
 
 Link OpenID
@@ -847,6 +856,7 @@ optional = lqt_rc_ellipsis
 ignored = lqt_header_warning_before_big
 
 Live Translate
+optional = group-tmxadmin.css, group-tmxadmin.js
 
 Livelets
 
@@ -934,6 +944,7 @@ descmsg = minnamelength-desc
 Mini Preview
 
 Mirror Tools
+optional = group-MirrorTools.css, group-MirrorTools.js
 
 Mobile Frontend
 descmsg = mobile-frontend-desc
@@ -1116,6 +1127,7 @@ Parser Wiki
 Patroller
 aliasfile = Patroller/Patroller.alias.php
 descmsg = patrol-desc
+optional = group-patroller.css, group-patroller.js
 
 People Categories
 
@@ -1208,6 +1220,9 @@ aliasfile = PurgeCache/PurgeCache.alias.php
 
 Push
 aliasfile = Push/Push.alias.php
+optional = group-pusher.css, group-pusher.js
+optional = group-bulkpusher.css, group-bulkpusher.js
+optional = group-filepusher.css, group-filepusher.js
 
 QPoll
 file = QPoll/i18n/qp.i18n.php
@@ -1396,6 +1411,7 @@ descmsg = suop-desc
 
 Semantic Watchlist
 aliasfile = SemanticWatchlist/SemanticWatchlist.i18n.alias.php
+optional = group-swladmins.css, group-swladmins.js
 
 Semantic Web Browser
 descmsg = swb_desc
@@ -1584,6 +1600,8 @@ Suhosin
 Survey
 ignored = surveys-surveystats-question-nr, surveys-surveystats-question-#
 aliasfile = Survey/Survey.alias.php
+optional = group-surveyadmin.css, group-surveyadmin.js
+optional = group-surveysubmit.css, group-surveysubmit.js
 
 SVG Edit
 
@@ -1679,6 +1697,7 @@ file = Translate/Translate.i18n.php
 aliasfile = Translate/Translate.alias.php
 optional = translate-page-paging-links, supportedlanguages-portallink, supportedlanguages-portallink-nocldr
 optional = translate-edit-tab-next, translate-edit-tab-prev
+optional = group-translate-proofr.css, group-translate-proofr.js
 ignored = translate-edit-tag-warning, supportedlanguages-localsummary
 
 Translate - First Steps
@@ -1726,6 +1745,7 @@ Upload Blacklist
 Upload Wizard
 aliasfile = UploadWizard/UploadWizard.alias.php
 ignored = languageHandler.js
+optional = group-upwizcampeditors.css, group-upwizcampeditors.js
 
 Unicode Converter
 
@@ -1870,6 +1890,7 @@ aliasfile = WhoIsWatching/WhoIsWatching.alias.php
 
 Widgets
 magicfile = Widgets/Widgets.i18n.magic.php
+optional = group-widgeteditor.css, group-widgeteditor.js
 
 Wiki Article Feeds
 magicfile = WikiArticleFeeds/WikiArticleFeeds.i18n.magic.php
@@ -1894,6 +1915,7 @@ ignored = wikieditor-toolbar-help-content-signaturetimestamp-syntax, wikieditor-
 
 Wiki Forum
 ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforum-max-replies-per-page
+optional = group-forumadmin.css, group-forumadmin.js
 
 Wikihiero
 file = wikihiero/wikihiero.i18n.php
@@ -1922,6 +1944,7 @@ descmsg = wom-desc
 Wikimedia Incubator
 descmsg = wminc-desc
 optional = wminc-searchwiki-goto
+optional = group-test-sysop.css, group-test-sysop.js
 
 Wikimedia Incubator Info Page
 descmsg = wminc-desc
