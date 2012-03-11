@@ -1,0 +1,10 @@
+== Setup ==
+ cd %GROUPROOT%
+ git clone git://github.com/EncyclopediaOfLife/eol.git eol
+
+Add to your LocalSettings.php:
+ wfAddNamespace( 1242, 'EOL' );
+ $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/EOL/EOL.yaml"
+
+== Export ===
+ php export.php --target=$EXPORTPATH --no-fuzzy --groupprefix=out-eol- --lang='*' --skip=en --threshold=35

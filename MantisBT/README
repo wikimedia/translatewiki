@@ -1,11 +1,11 @@
 == Setup ==
  cd %GROUPROOT%
  git clone git://git.mantisbt.org/mantisbt mantisbt
+ git checkout --track -b master-1.2.x origin/master-1.2.x
 
 Add to your LocalSettings.php
  wfAddNamespace( 1210, 'Mantis' );
  $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/MantisBT/MantisBT.yaml";
 
 == Export ==
-@todo
-
+ php export.php --target=$EXPORTPATH --groupprefix=out-mantis- --lang='*' --skip=en --threshold=35

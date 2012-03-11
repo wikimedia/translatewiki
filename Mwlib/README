@@ -1,0 +1,11 @@
+== Setup ==
+ cd %GROUPROOT%
+ git clone git://github.com/pediapress/mwlib.rl.git mwlib.rl
+
+Add to your LocalSettings.php:
+ wfAddNamespace( 1212, 'Mwlib' );
+ $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Mwlib/Mwlibrl.yaml";
+
+== Export ===
+ php export.php --target=$EXPORTPATH/ --lang='*' --group=out-mwlibrl --ppgettext=%GROUPROOT% --threshold=10
+ php export.php --target=$EXPORTPATH/ --lang=qqq --group=out-mwlibrl --ppgettext=%GROUPROOT%
