@@ -707,7 +707,6 @@ Google Analytics
 file = googleAnalytics/googleAnalytics.i18n.php
 
 Google Maps
-var = wgGoogleMapsMessages
 
 Google News Sitemap
 ignored = googlenewssitemap_categorymap
