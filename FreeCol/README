@@ -18,10 +18,10 @@ Make an export script, like export.sh:
  EXPORTERPATH=/var/www/w/extensions/Translate/scripts
  TARGET=/full/path/to/freecol/i18n
  TEMP=`mktemp -p freecol` || { echo "could not get temp file"; exit 1 }
- 
+
  cd $EXPORTERPATH
- php autoexport.php --hours="$1" --target="$TARGET" --groups="out-freecol" --threshold=25 --skip="en" > $TEMP
- 
+ php autoexport.php --hours="$1" --target="$TARGET" --group=out-freecol --threshold=25 --skip="en" > $TEMP
+
  cat $TEMP
  sh $TEMP
  rm $TEMP

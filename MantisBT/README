@@ -8,4 +8,4 @@ Add to your LocalSettings.php
  $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/MantisBT/MantisBT.yaml";
 
 == Export ==
- php export.php --target=$EXPORTPATH --groupprefix=out-mantis- --lang='*' --skip=en --threshold=35
+ php export.php --target=$EXPORTPATH --group=out-mantis-* --lang='*' --skip=en --threshold=35

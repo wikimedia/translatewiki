@@ -11,8 +11,8 @@ To update:
 
 == Commit updates ==
 # Export translations
-php /www/w/extensions/Translate/scripts/export.php --groupprefix=out-wikipedia-mobile --target=$HOME/export --lang=* --skip en,qqq --threshold=35
-php /www/w/extensions/Translate/scripts/export.php --groupprefix=out-wikipedia-mobile --target=$HOME/export --lang=qqq
+php /www/w/extensions/Translate/scripts/export.php --group=out-wikipedia-mobile --target=$HOME/export --lang=* --skip en,qqq --threshold=35
+php /www/w/extensions/Translate/scripts/export.php --group=out-wikipedia-mobile --target=$HOME/export --lang=qqq
 # Check out a copy with github account set up (read/write with sufficient rights):
 git clone git@github.com:wikimedia/WikipediaMobile.git $HOME/export/WikipediaMobile
 # must add any new or changed files!

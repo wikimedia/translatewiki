@@ -35,7 +35,7 @@ git pull -q
 echo "Rebuilding POT..."
 $HOME/statusnet/scripts/update_po_templates.php
 echo "Exporting all StatusNet groups in languages over 35%..."
-php $SCRIPTPATH/export.php --target=$EXPORTPATH/ --lang=* --skip=en,qqq --threshold=35 --ppgettext=$HOME --groupprefix=out-statusnet
+php $SCRIPTPATH/export.php --target=$EXPORTPATH/ --lang=* --skip=en,qqq --threshold=35 --ppgettext=$HOME --group=out-statusnet*
 echo "Copying updated POT files into export..."
 cd $HOME
 for i in `find statusnet |grep [.]pot$ |grep locale`

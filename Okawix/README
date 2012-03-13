@@ -22,7 +22,7 @@ TARGET=$HOME/okawix/locale
 TEMP=`mktemp -p $HOME/okawix` || { echo "could not get temp file"; exit 1 }
 
 cd $EXPORTERPATH
-php autoexport.php --hours="$1" --target="$TARGET" --groups="out-okawix-dtd out-okawix-prop" --skip="en" --threshold=40 > $TEMP
+php autoexport.php --hours="$1" --target="$TARGET" --group=out-okawix-* --skip="en" --threshold=40 > $TEMP
 
 cat $TEMP
 sh $TEMP

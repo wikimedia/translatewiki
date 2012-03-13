@@ -9,5 +9,5 @@ Add to your LocalSettings.php:
 == Export ==
 * Required: connect access to the NOCC SourceForge project. Contact:
   Tim Gerundt <tim AT gerundt DOT de>.
-* php export.php --target=$EXPORTPATH --grouptrail=out-nocc- --skip=en --lang=* --threshold=35
+* php export.php --target=$EXPORTPATH --group=out-nocc-* --skip=en --lang=* --threshold=35
 * Download, diff and commit the export to the project.

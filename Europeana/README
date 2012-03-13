@@ -5,3 +5,6 @@
 Add to your LocalSettings.php:
  wfAddNamespace( 1204, 'Europeana' );
  $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Europeana/Europeana.yaml
+
+# Commits
+To do.

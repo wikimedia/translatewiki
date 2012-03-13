@@ -1,4 +1,4 @@
-# Checkout repository to $wgTranslateGroupRoot 
+# Checkout repository to $wgTranslateGroupRoot
 cd %GROUPROOT%
 svn co http://svn.wikimedia.org/svnroot/mediawiki/trunk/tools/ToolserverI18N/ toolserver
 
@@ -12,3 +12,5 @@ function setupToolserverI18N() {
 
 wfAddNamespace( 1240, 'Toolserver' );
 $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Toolserver/ToolserverAgg.yaml";
+
+# @todo Commits

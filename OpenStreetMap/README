@@ -14,6 +14,6 @@ git clone git://github.com/systemed/potlatch2.git potlatch2
 # Export all OpenStreetMap groups in proper structure
 if [ $1 = 'osm' ]; then
         echo "Exporting OpenStreetMap potlatch and site with 35%+"
-        php export.php --target=$EXPORTPATH --groupprefix=out-osm- --lang='*' --skip=en,qqq --threshold=35
+        php export.php --target=$EXPORTPATH --group=out-osm-* --lang='*' --skip=en,qqq --threshold=35
         exit;
 fi

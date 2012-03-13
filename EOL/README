@@ -7,4 +7,4 @@ Add to your LocalSettings.php:
  $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/EOL/EOL.yaml"
 
 == Export ===
- php export.php --target=$EXPORTPATH --no-fuzzy --groupprefix=out-eol- --lang='*' --skip=en --threshold=35
+ php export.php --target=$EXPORTPATH --no-fuzzy --group=out-eol-* --lang='*' --skip=en --threshold=35
