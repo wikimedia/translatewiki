@@ -43,7 +43,7 @@ Batch User Rights
 file = SpecialBatchUserRights/BatchUserRights.i18n.php
 aliasfile = SpecialBatchUserRights/BatchUserRights.alias.php
 
-Campfire 
+Campfire
 
 Category Exhibition
 file = CategoryExhibition/i18n/CategoryExhibition.i18n.php
@@ -168,7 +168,7 @@ ignored = accesskey-pt-myhome
 
 Oasis
 optional = oasis-latest-photos-single, oasis-corporatefooter-hub-Entertainment-link, oasis-corporatefooter-hub-Gaming-link, oasis-corporatefooter-hub-Lifestyle-link
-optional = oasis-corporatefooter-hub-Food and Drink-link
+optional = oasis-corporatefooter-hub-Food_and_Drink-link
 ignored = wiki-navigation, categoryblacklist, photosblacklist, oasis-button-random-page-tooltip
 ignored = oasis-button-wiki-activity-tooltip, wikia-navigation-global
 
