@@ -10,7 +10,8 @@ TEMPLATE:
     codeMap:
       be-tarask: be-TARASK
       pt-br: pt-BR
-      sr-ec: sr-EC
+      sr-el: sr
+      sr-ec: sr_CS
       zh-hans: zh-CN
       zh-hant: zh-TW
 
