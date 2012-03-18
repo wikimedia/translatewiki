@@ -1942,6 +1942,7 @@ descmsg = wom-desc
 
 Wikimedia Incubator
 descmsg = wminc-desc
+ignored = wminc-error-help
 optional = wminc-searchwiki-goto
 optional = group-test-sysop.css, group-test-sysop.js
 
