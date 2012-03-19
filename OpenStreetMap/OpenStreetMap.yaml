@@ -84,6 +84,8 @@ TAGS:
     - layouts.help_url
     - layouts.wiki_url
     - javascripts.map.base.mapquest
+    - layouts.partners_url
+    - layouts.intro_2_use_url
   ignored:
     - geocoder.search_osm_namefinder.prefix
     - printable_name.with_id
