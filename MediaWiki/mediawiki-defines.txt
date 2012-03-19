@@ -55,7 +55,8 @@ ignored = amazonplus-english
 Anti Bot
 
 Anti Spoof
-ignored = antispoof-conflict-item
+ignored = antispoof-conflict-item, antispoof-bad-char-non-printable
+optional = antispoof-bad-char
 
 APC
 aliasfile = APC/APC.alias.php
