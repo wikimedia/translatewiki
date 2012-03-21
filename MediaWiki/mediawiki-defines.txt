@@ -891,7 +891,9 @@ ignored = maintenance-cleanupCaps-error-missingparam, maintenance-cleanupCaps-op
 ignored = maintenance-cleanupCaps-output-finished, maintenance-cleanupCaps-output-moved, maintenance-cleanupCaps-output-processing, maintenance-cleanupCaps-output-progress
 ignored = maintenance-generic-notrans, maintenance-initEditCount, maintenance-runJobs, maintenance-runJobs-output-job
 ignored = maintenance-showJobs, maintenance-showJobs-output-job, maintenance-sql-error-sql, maintenance-sql-output-row
-ignored = maintenance-stats
+ignored = maintenance-stats, maintenance-cleanupSpam-output-done, maintenance-cleanupSpam-output-page, maintenance-clear_interwiki_cache-done
+ignored = maintenance-clear_interwiki_cache-db, maintenance-createAndPromote-option-username, maintenance-createAndPromote-option-password
+ignored = maintenance-createAndPromote-output-done, maintenance-createAndPromote-error-invalid, maintenance-createAndPromote-error-exists
 
 Maps
 magicfile = Maps/Maps.i18n.magic.php
