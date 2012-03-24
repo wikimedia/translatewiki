@@ -2,7 +2,7 @@ TEMPLATE:
   BASIC:
     namespace: NS_OSM
     class: FileBasedMessageGroup
-    codeBrowser: https://github.com/lonvia/waymarked-trails-site/
+    codeBrowser: https://github.com/lonvia/waymarked-trails-site/%FILE%#L%LINE%
 
   FILES:
     class: GettextFFS
@@ -14,12 +14,9 @@ TEMPLATE:
 BASIC:
   description: "{{int:bw-desc-waymarked-trails}}"
   id: out-waymarked-trails
-  label: WaymarkedTrails
-
-GROUPS:
-  - out-waymarked-trails
+  label: Waymarked Trails
 
 FILES:
   sourcePattern: %GROUPROOT%/waymarked-trails-site/django/locale/%CODE%/LC_MESSAGES/django.po
-  definitionFile: %GROUPROOT%/osm/waymarked-trails-site/locale/django.pot
+  definitionFile: %GROUPROOT%/waymarked-trails-site/django/locale/xx/LC_MESSAGES/django.po
   targetPattern: waymarked-trails-site/django/locale/%CODE%/LC_MESSAGES/django.po

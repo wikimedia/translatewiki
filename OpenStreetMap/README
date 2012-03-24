@@ -2,6 +2,7 @@
 cd %GROUPROOT%
 git clone git://git.openstreetmap.org/rails.git osm
 git clone git://github.com/systemed/potlatch2.git potlatch2
+git clone git://github.com/lonvia/waymarked-trails-site.git waymarked-trails-site
 
 # Commits
 * Execute on shell: "bxa osm".
@@ -13,7 +14,7 @@ git clone git://github.com/systemed/potlatch2.git potlatch2
 # Documentation - partial /home/betawiki/bin/bxa:
 # Export all OpenStreetMap groups in proper structure
 if [ $1 = 'osm' ]; then
-        echo "Exporting OpenStreetMap potlatch and site with 35%+"
+        echo "Exporting OpenStreetMap potlatch, site and WaymarkedTrails with 35%+"
         php export.php --target=$EXPORTPATH --group=out-osm-* --lang='*' --skip=en,qqq --threshold=35
         exit;
 fi
