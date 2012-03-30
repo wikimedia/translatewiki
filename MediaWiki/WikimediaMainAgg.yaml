@@ -32,7 +32,6 @@ GROUPS:
   - ext-parserfunctions
   - ext-pdfhandler
   - ext-poolcounter # 2011-03-18 on all projects
-  - ext-prefstats
   - ext-quiz
   - ext-renameuser
   - ext-securepoll
