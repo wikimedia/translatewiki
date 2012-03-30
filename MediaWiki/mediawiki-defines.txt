@@ -950,6 +950,7 @@ optional = group-MirrorTools.css, group-MirrorTools.js
 
 Mobile Frontend
 descmsg = mobile-frontend-desc
+aliasfile = MobileFrontend/MobileFrontend.alias.php
 optional = mobile-frontend-feedback-page
 ignored = mobile-frontend-sopa-notice
 
