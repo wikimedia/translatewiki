@@ -138,8 +138,6 @@ file = Logger/SpecialLogger.i18n.php
 Lookup Contribs
 file = LookupContribs/SpecialLookupContribs.i18n.php
 
-Masthead
-
 Mobile - Game Guides
 file = MobileAppTranslations/GameGuides.i18n.php
 ignored = windowwikicontents-title
@@ -168,7 +166,7 @@ ignored = accesskey-pt-myhome
 
 Oasis
 optional = oasis-latest-photos-single, oasis-corporatefooter-hub-Entertainment-link, oasis-corporatefooter-hub-Gaming-link, oasis-corporatefooter-hub-Lifestyle-link
-optional = oasis-corporatefooter-hub-Food_and_Drink-link, oasis-corporatefooter-hub-Video_Games-link, oasis-corporatefooter-hub-Video_Games-link
+optional = oasis-corporatefooter-hub-Food_and_Drink-link, oasis-corporatefooter-hub-Video_Games-link
 ignored = wiki-navigation, categoryblacklist, photosblacklist, oasis-button-random-page-tooltip
 ignored = oasis-button-wiki-activity-tooltip, wikia-navigation-global
 
