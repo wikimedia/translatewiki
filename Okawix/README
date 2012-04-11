@@ -1,20 +1,13 @@
 Check out writable copy:
-mkdir -p $HOME/okawix
-cd $HOME/okawix/
-svn co https://USERNAME@okawix.svn.sourceforge.net/svnroot/okawix/trunk/okawix/chrome/locale
+svn co https://USERNAME@okawix.svn.sourceforge.net/svnroot/okawix/trunk/okawix/chrome/locale okawix
 
 To check out a read-only copy:
 cd %GROUPROOT%
-mkdir okawix
-cd okawix
-svn co https://okawix.svn.sourceforge.net/svnroot/okawix/trunk/okawix/chrome/locale
+svn co https://okawix.svn.sourceforge.net/svnroot/okawix/trunk/okawix/chrome/locale okawix
 
 Translate configuration:
 wfAddNamespace( ####, 'Okawix' );
-require_once( "$IP/extensions/Translate/groups/Okawix/Okawix.php" );
-$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Okawix/Okawix-doc.yml";
-$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Okawix/Okawix-dtd.yml";
-$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Okawix/Okawix-properties.yml";
+$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Okawix/Okawix.yaml";
 
 Make an export script, like export.sh:
 EXPORTERPATH=/var/www/w/extensions/Translate/scripts

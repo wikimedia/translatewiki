@@ -27,7 +27,7 @@ BASIC:
   label: Okawix - Documentation
 
 FILES:
-  sourcePattern: %GROUPROOT%/okawix/locale/%CODE%/interfacewiki/okawix-doc.properties
+  sourcePattern: %GROUPROOT%/okawix/%CODE%/interfacewiki/okawix-doc.properties
   targetPattern: okawix/%CODE%/interfacewiki/okawix-doc.properties
 
 ---
@@ -37,7 +37,7 @@ BASIC:
 
 FILES:
   class: DtdFFS
-  sourcePattern: %GROUPROOT%/okawix/locale/%CODE%/interfacewiki/okawix.dtd
+  sourcePattern: %GROUPROOT%/okawix/%CODE%/interfacewiki/okawix.dtd
   targetPattern: okawix/%CODE%/interfacewiki/okawix.dtd
 
 AUTOLOAD:
@@ -49,7 +49,7 @@ BASIC:
   label: Okawix - Properties
 
 FILES:
-  sourcePattern: %GROUPROOT%/okawix/locale/%CODE%/interfacewiki/okawix.properties
+  sourcePattern: %GROUPROOT%/okawix/%CODE%/interfacewiki/okawix.properties
   targetPattern: okawix/%CODE%/interfacewiki/okawix.properties
 
 TAGS:
@@ -73,5 +73,5 @@ BASIC:
   label: Okawix - Site
 
 FILES:
-  sourcePattern: %GROUPROOT%/okawix/locale/%CODE%/interfacewiki/okawix-site.properties
+  sourcePattern: %GROUPROOT%/okawix/%CODE%/interfacewiki/okawix-site.properties
   targetPattern: okawix/%CODE%/interfacewiki/okawix-site.properties
