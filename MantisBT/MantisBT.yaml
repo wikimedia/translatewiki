@@ -120,7 +120,7 @@ TAGS:
 
 ---
 BASIC:
-  id: out-mantis-mantiscoreformatting
+  id: out-mantis-plugin-mantiscoreformatting
   label: MantisBT - Mantis Core Formatting
   description: "{{int:translate-group-desc-mantisbt-plugin-core}}"
 
@@ -130,7 +130,7 @@ FILES:
 
 ---
 BASIC:
-  id: out-mantis-mantisgraph
+  id: out-mantis-plugin-mantisgraph
   label: MantisBT - Mantis Graph
   description: "{{int:translate-group-desc-mantisbt-plugin-core}}"
 
@@ -140,7 +140,7 @@ FILES:
 
 ---
 BASIC:
-  id: out-mantis-xmlimportexport
+  id: out-mantis-plugin-xmlimportexport
   label: MantisBT - Xml Import Export
   description: "{{int:translate-group-desc-mantisbt-plugin-core}}"
 
