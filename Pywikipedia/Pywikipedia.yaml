@@ -203,6 +203,15 @@ FILES:
   targetPattern: pywikipedia/movepages.py
 ---
 BASIC:
+  id: out-pywikipedia-ndashredir
+  label: Pywikipedia Ndash Redir
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikipedia/ndashredir.py
+  definitionFile: %GROUPROOT%/pywikipedia/ndashredir.py
+  targetPattern: pywikipedia/ndashredir.py
+---
+BASIC:
   id: out-pywikipedia-noreferences
   label: Pywikipedia No References
 
@@ -267,7 +276,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-unlink
-  label: Pywikipedia Unlink 
+  label: Pywikipedia Unlink
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/unlink.py
@@ -276,7 +285,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-welcome
-  label: Pywikipedia Welcome 
+  label: Pywikipedia Welcome
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/welcome.py
