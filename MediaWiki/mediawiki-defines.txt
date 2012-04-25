@@ -1094,6 +1094,11 @@ Page Object Model
 Page Schemas
 descmsg = ps-desc
 
+Page Triage
+aliasfile = PageTriage/PageTriage.alias.php
+optional = pagetriage-creation-dateformat, pagetriage-user-creation-dateformat
+ignored = pagetriage-special-contributions
+
 Paged Tiff Handler
 descmsg = tiff-desc
 
