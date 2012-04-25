@@ -1,0 +1,24 @@
+== Add support in Translate ==
+Check out a read-only copy:
+1. git clone git://github.com/wikimedia/WiktionaryMobile.git WiktionaryMobile
+2. Add to LocalSettings.php:
+wfAddNamespace( 1206, 'Wikimedia' );
+$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/WiktionaryMobile/WiktionaryMobile.yaml";
+
+To update:
+1. git pull
+2. Process in Special:ManageMessageGroups
+
+== Commit updates ==
+# Export translations
+php /www/w/extensions/Translate/scripts/export.php --group=out-wiktionary-mobile --target=$HOME/export --lang=* --skip en,qqq --threshold=35
+php /www/w/extensions/Translate/scripts/export.php --group=out-wiktionary-mobile --target=$HOME/export --lang=qqq
+# Check out a copy with github account set up (read/write with sufficient rights):
+git clone git@github.com:wikimedia/WiktionaryMobile.git $HOME/export/WiktionaryMobile
+# must add any new or changed files!
+cd $HOME/export/WiktionaryMobile
+git add assets/www/messages/messages-*.properties
+# commit locally
+git commit -m "Localisation updates from http://translatewiki.net."
+# push upstream
+git push origin master

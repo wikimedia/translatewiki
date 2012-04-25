@@ -1487,52 +1487,52 @@ ignored = smoothgallery-pagetext
 
 SNMP query
 
-Social Profile - System Gifts
-aliasfile = SocialProfile/SocialProfile.alias.php
-id = ext-socialprofile-systemgifts
-file = SocialProfile/SystemGifts/SystemGift.i18n.php
-descmsg = systemgiftmanager
+#Social Profile - System Gifts
+#aliasfile = SocialProfile/SocialProfile.alias.php
+#id = ext-socialprofile-systemgifts
+#file = SocialProfile/SystemGifts/SystemGift.i18n.php
+#descmsg = systemgiftmanager
 
-Social Profile - User Activity
-id = ext-socialprofile-useractivity
-file = SocialProfile/UserActivity/UserActivity.i18n.php
-descmsg = useractivity
+#Social Profile - User Activity
+#id = ext-socialprofile-useractivity
+#file = SocialProfile/UserActivity/UserActivity.i18n.php
+#descmsg = useractivity
 
-Social Profile - User Board
-id = ext-socialprofile-userboard
-file = SocialProfile/UserBoard/UserBoard.i18n.php
-descmsg = boardblasttitle
+#Social Profile - User Board
+#id = ext-socialprofile-userboard
+#file = SocialProfile/UserBoard/UserBoard.i18n.php
+#descmsg = boardblasttitle
 
-Social Profile - User Gifts
-id = ext-socialprofile-usergifts
-file = SocialProfile/UserGifts/UserGifts.i18n.php
-descmsg = g-give-no-user-message
+#Social Profile - User Gifts
+#id = ext-socialprofile-usergifts
+#file = SocialProfile/UserGifts/UserGifts.i18n.php
+#descmsg = g-give-no-user-message
 
-Social Profile - User Profile
-id = ext-socialprofile-userprofile
-file = SocialProfile/UserProfile/UserProfile.i18n.php
-descmsg = edit-profile-title
-optional = avatarlogentry, profilelogentry
-ignored = userprofile-country-list
+#Social Profile - User Profile
+#id = ext-socialprofile-userprofile
+#file = SocialProfile/UserProfile/UserProfile.i18n.php
+#descmsg = edit-profile-title
+#optional = avatarlogentry, profilelogentry
+#ignored = userprofile-country-list
 
-Social Profile - User Relationship
-id = ext-socialprofile-userrelationship
-file = SocialProfile/UserRelationship/UserRelationship.i18n.php
-descmsg = ur-requests-title
+#Social Profile - User Relationship
+#id = ext-socialprofile-userrelationship
+#file = SocialProfile/UserRelationship/UserRelationship.i18n.php
+#descmsg = ur-requests-title
 
-Social Profile - User Stats
-id = ext-socialprofile-userstats
-file = SocialProfile/UserStats/UserStats.i18n.php
-descmsg = topusers
+#Social Profile - User Stats
+#id = ext-socialprofile-userstats
+#file = SocialProfile/UserStats/UserStats.i18n.php
+#descmsg = topusers
 
-Social Profile - User Status
-id = ext-socialprofile-userstatus
-file = SocialProfile/UserStatus/UserStatus.i18n.php
+#Social Profile - User Status
+#id = ext-socialprofile-userstatus
+#file = SocialProfile/UserStatus/UserStatus.i18n.php
 
-Social Profile - User Welcome
-id = ext-socialprofile-userwelcome
-file = SocialProfile/UserWelcome/UserWelcome.i18n.php
-descmsg = userwelcome-desc
+#Social Profile - User Welcome
+#id = ext-socialprofile-userwelcome
+#file = SocialProfile/UserWelcome/UserWelcome.i18n.php
+#descmsg = userwelcome-desc
 
 Solr Store
 aliasfile = SolrStore/SolrStore.alias.php
@@ -1977,7 +1977,7 @@ optional = wm-license-cecill-wiki-link, wm-license-cecill-full-link, wm-license-
 optional = wm-license-fsf-wiki-link, wm-license-free-software-wiki-link, wm-license-gfdl-wiki-link, wm-license-gpl-wiki-link
 optional = wm-license-information-permission-reusing-link, wm-license-lgpl-wiki-link, wm-license-licensing-update-wiki-link
 optional = wm-license-pd-usgov-wiki-link, wm-license-pd-usgov-work-wiki-link, wm-license-pd-usgov-fema-wiki-link
-optional = wm-license-pd-usgov-military-armed-forces-wiki-link, wm-license-pd-usgov-military-dod-wiki-link 
+optional = wm-license-pd-usgov-military-armed-forces-wiki-link, wm-license-pd-usgov-military-dod-wiki-link
 optional = wm-license-pd-usgov-military-air-force-wiki-link, wm-license-pd-usgov-military-army-wiki-link
 optional = wm-license-pd-usgov-military-navy-wiki-link, wm-license-pd-usgov-noaa-wiki-link, wm-license-pd-wiki-link
 ignored = wm-license-gfdl-full-1.2-link, wm-license-gfdl-full-1.3-link, wm-license-gpl-2-full-link, wm-license-gpl-3-full-link

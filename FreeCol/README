@@ -6,28 +6,11 @@
 
 Add to your LocalSettings.php:
  wfAddNamespace( 1202, 'FreeCol' );
- $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/FreeCol/FreeCol.yaml"
+ $wgTranslateGroupFiles[] = "$IP/groups/FreeCol/FreeCol.yaml"
 
 == Export ==
-Check out writable copy to suitable place
- mkdir freecol
- cd freecol
- svn co https://USERNAME@svn.freecol.org/svnroot/freecol/freecol/trunk/data/strings
-
-Make an export script, like export.sh:
- EXPORTERPATH=/var/www/w/extensions/Translate/scripts
- TARGET=/full/path/to/freecol/i18n
- TEMP=`mktemp -p freecol` || { echo "could not get temp file"; exit 1 }
-
- cd $EXPORTERPATH
- php autoexport.php --hours="$1" --target="$TARGET" --group=out-freecol --threshold=25 --skip="en" > $TEMP
-
- cat $TEMP
- sh $TEMP
- rm $TEMP
-
-To export:
- sh export.sh N # where N is number of hours to scan for changes
- cd i18n
- svn diff
- svn commit
+REPOCONF:
+ # Read-only
+ REPO_FREECOL=http://svn.freecol.org/svnroot/freecol/freecol/trunk/data/strings
+ # Read-write
+ REPO_FREECOL=https://USERNAME@svn.freecol.org/svnroot/freecol/freecol/trunk/data/strings

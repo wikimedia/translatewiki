@@ -29,7 +29,8 @@ GROUPS:
   - ext-mobilefrontend # r93435
   - ext-newusermessage
   - ext-ogghandler
-  - ext-parserfunctions
+# @todo
+#  - ext-parserfunctions Still needs processing of all unit conversions in translatewiki.net.
   - ext-pdfhandler
   - ext-poolcounter # 2011-03-18 on all projects
   - ext-quiz
