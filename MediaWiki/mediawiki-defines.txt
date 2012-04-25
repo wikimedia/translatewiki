@@ -46,6 +46,8 @@ Ajax Query Pages
 
 Ajax Show Editors
 
+All Time Zones
+
 Amazon Plus
 optional = amazonplus-status, amazonplus-currency
 optional = amazonplus-cp-usd, amazonplus-cp-cad, amazonplus-cp-gbp, amazonplus-cp-eur
