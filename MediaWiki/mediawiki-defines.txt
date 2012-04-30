@@ -1927,7 +1927,7 @@ descmsg = wbc-desc
 Wikidata Repo
 file = WikidataRepo/Wikibase.i18n.php
 descmsg = wikibase-desc
-aliasfile = WikidataRepo/Wikibase.alias.php
+aliasfile = WikidataRepo/Wikibase.i18n.alias.php
 
 WikiEditor
 optional = wikieditor-toolbar-help-content-rereference-syntax, wikieditor-toolbar-help-content-showreferences-syntax
