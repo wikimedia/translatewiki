@@ -1920,6 +1920,15 @@ file = Wikidata/Wikidata.i18n.php
 optional = ow_URL, ow_ID, prefs-omegawiki
 ignored = ow_editing_policy_url
 
+Wikidata Client
+file = WikidataClient/WikibaseClient.i18n.php
+descmsg = wbc-desc
+
+Wikidata Repo
+file = WikidataRepo/Wikibase.i18n.php
+descmsg = wikibase-desc
+aliasfile = WikidataRepo/Wikibase.alias.php
+
 WikiEditor
 optional = wikieditor-toolbar-help-content-rereference-syntax, wikieditor-toolbar-help-content-showreferences-syntax
 optional = wikieditor-toolbar-tool-table-example-text
