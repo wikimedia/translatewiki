@@ -217,6 +217,9 @@ file = Scribe/SpecialScribeEvents.i18n.php
 
 Search
 
+Search V2
+file = SearchV2/WikiaSearch.i18n.php
+
 Shared Help
 
 Show Performance Stats
@@ -284,6 +287,9 @@ ignored = toplists-msg-fb-OnRateArticle-link, toplists-msg-fb-OnRateArticle
 
 Unsubscribe
 file = SpecialUnsubscribe/Unsubscribe.i18n.php
+
+User Login
+ignored=userlogin-password-email-body-HTML
 
 User Profile Page V3
 file = UserProfilePageV3/UserProfilePage.i18n.php
