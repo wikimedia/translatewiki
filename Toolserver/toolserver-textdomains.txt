@@ -20,6 +20,8 @@ optional = alws-label
 Monuments API
 ignored = title
 
+Mwsnapshots
+
 OrphanTalk2
 
 Recent Anonymous Activity
