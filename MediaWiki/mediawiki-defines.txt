@@ -93,6 +93,7 @@ aliasfile = ArticleFeedbackv5/ArticleFeedbackv5.alias.php
 optional = articlefeedbackv5-bucket5-form-panel-helpimprove-email-placeholder, articlefeedbackv5-table-noratings, articlefeedbackv5-cta1-learn-how-url, articlefeedbackv5-help-tooltip-linkurl
 optional = articlefeedbackv5-transparency-terms-url, articlefeedbackv5-privacyurl
 optional = articlefeedbackv5-activity-item-comment
+optional = articlefeedbackv5-help-tooltip-linkurl-editors, articlefeedbackv5-help-tooltip-linkurl-monitors, articlefeedbackv5-help-tooltip-linkurl-oversighters
 ignored = articlefeedbackv5-pitch-survey-body, articlefeedbackv5-pitch-edit-body, articlefeedbackv5-special-sort-label-after, articlefeedbackv5-special-filter-label-after
 ignored = articlefeedbackv5-error-abuse-link
 ignored = articlefeedbackv5-noteflyover-hide-help-link, articlefeedbackv5-noteflyover-show-help-link, articlefeedbackv5-noteflyover-requestoversight-help-link
