@@ -15,7 +15,6 @@ $projectFolder = 'mozilla';
 // Array of supported products. Any of browser, calendar, chat, dom, editor,
 // embedding, extensions, mail, mobile, netwerk, other-licenses, security,
 // services, suite, toolkit.
-$supportedProducts = array( 'browser' );
 // Folder below $projectFolder in which source files are.
 $sourceFolder = 'en';
 // File pattern for gettext template files.
@@ -23,6 +22,10 @@ $fileTypes = array(
 	// 'ID' => array( 'FileExtension', 'FFSPrefix' ),
 	'dtd' => array( 'dtd', 'Dtd' ),
 	'properties' => array( 'properties', 'Java' ),
+);
+// excluded files.
+$excludedFiles = array(
+	'chrome/browser/browser.properties',
 );
 
 $baseFolder = "$projectsFolder/$projectFolder/${sourceFolder}/";
@@ -35,6 +38,7 @@ foreach ( $fileTypes as $fileType ) {
 	$files = shell_exec( "find ${baseFolder} -name '*.${fileExtension}'" );
 	$files = explode( "\n", $files );
 	$files = array_filter( $files );
+
 	foreach ( $files as $index => $file ) {
 		$files[$index] = str_replace( $baseFolder, '', $file );
 	}
@@ -61,7 +65,7 @@ TEMPLATE:
     class: MessageChecker
     checks:
       - printfCheck
----
+
 PHP;
 
 	$output .= $header . "\n";
@@ -72,14 +76,15 @@ PHP;
 
 	// Add config for each file.
 	foreach ( $files as $file ) {
+		// Exclude some files.
+		if( in_array( $file, $excludedFiles ) ) {
+			echo "$file\n";
+			continue;
+		}
+
 		// Strip extension from file name and break into parts for plugin name.
 		// Later on, used to create a group name.
 		$groupName = explode( "/", str_replace( '.' . $fileExtension, '', $file ) );
-
-		// Only process for supported products.
-		if ( !in_array( $groupName[0], $supportedProducts ) ) {
-			continue;
-		}
 
 		// File name in lower case.
 		$fileL = strtolower( $file );
@@ -88,6 +93,7 @@ PHP;
 		// file extension was stripped.
 		$groupId = str_replace( "/", '-', $fileL );
 		$groupId = str_replace( '.' . $fileExtension, '', $groupId );
+		$groupId .= '-' . strtolower( $FFS );
 
 		// Create a group name by concatenating the directory and file name parts
 		// after capitalising them.
@@ -95,8 +101,10 @@ PHP;
 			$groupName[$index] = ucfirst( $groupNamePart );
 		}
 		$groupName = implode( ' - ', $groupName );
+		$groupName .= " - ${FFS}";
 
 		// Actual configuration.
+		$output .= "---\n";
 		$output .= "BASIC:\n";
 		$output .= "  id: mozilla-${groupId}\n";
 		$output .= "  label: Mozilla - ${groupName}\n";
@@ -109,7 +117,6 @@ PHP;
 		$output .= "MANGLER:\n";
 		$output .= "  prefix: ${groupId}-\n";
 		$output .= "\n";
-		$output .= "---\n";
 	}
 
 	// Write a file for each file type to Mozilla<FFSName>.yaml in current
@@ -119,4 +126,4 @@ PHP;
 	fclose( $fp );
 }
 
-echo "Done.";
+echo "Done.\n";
