@@ -25,3 +25,10 @@ FILES:
     # Copyright (C) 2011-2012
     # This file is distributed under the same license as the main package.
     #
+
+TAGS:
+  optional:
+   - wmt-664add438097fbd4307f814de8e62a10f8905588-Wikipedia
+   - wmt-94f96bf4dbc0bf4d2920bb3cb506cacc84fbf7c3-d_km
+   - wmt-fa116350fe099a35d005bb65056d959688ba4b03-WWW
+
