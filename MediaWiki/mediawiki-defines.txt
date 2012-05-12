@@ -1254,7 +1254,8 @@ Random Image
 Random In Category
 aliasfile = RandomInCategory/RandomInCategory.alias.php
 
-Random root page
+Random Root Page
+file = RandomRootPage/Randomrootpage.i18n.php
 
 Random Users With Avatars
 descmsg = random-users-avatars-desc
