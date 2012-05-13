@@ -21,6 +21,7 @@ Monuments API
 ignored = title
 
 Mwsnapshots
+ignored = title-download
 
 OrphanTalk2
 
