@@ -46,6 +46,8 @@ Ajax Query Pages
 
 Ajax Show Editors
 
+Akismet Klik
+
 All Time Zones
 
 Amazon Plus
