@@ -506,6 +506,9 @@ Edit Subpages
 Edit User
 aliasfile = EditUser/EditUser.alias.php
 
+Education Program
+aliasfile = EducationProgram/EducationProgram.i18n.alias.php
+
 Elm Easy Ref
 descmsg = elm-easyref-desc
 
