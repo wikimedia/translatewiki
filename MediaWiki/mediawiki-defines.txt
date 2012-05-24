@@ -474,9 +474,7 @@ Double Wiki
 DPL Forum
 file = DPLforum/DPLforum.i18n.php
 
-# Disabled per Jeroen: Can you remove the DSMW extension from translatewiki? It's broken beyond hope, so no point in translators wasting their time on it. 2010-12-06
-# DSMW
-# aliasfile = DSMW/DSMW.alias.php
+# DSMW: Disabled per Jeroen: Can you remove the DSMW extension from translatewiki? It's broken beyond hope, so no point in translators wasting their time on it. 2010-12-06
 
 Drafts
 aliasfile = Drafts/Drafts.alias.php
@@ -522,8 +520,7 @@ descmsg = ea-desc
 Email Users
 aliasfile = EmailUsers/EmailUsers.alias.php
 
-# Developed elsewhere
-# Embed Video
+# Embed Video: Developed elsewhere
 
 Emergency DeSysop
 aliasfile = EmergencyDeSysop/EmergencyDeSysop.alias.php
@@ -673,7 +670,7 @@ Front Back Matter Forced Wikilinks
 descmsg = frontbackforced-desc
 
 Fundraiser Landing Page
-# Alias file not added for translation. IIRC this special page is not visible for the user/reader. Raymond 2011-10-24
+# Alias file not added for translation. This special page is not visible for the user/reader. Raymond 2011-10-24
 
 Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
@@ -698,8 +695,7 @@ Global Usage
 aliasfile = GlobalUsage/GlobalUsage.alias.php
 
 Global User Groups
-# GlobalUserGroups.i18n.groups.php not added.#
-# Has a lot of user groups which conflicts with WikimediaMessages.i18n.php
+# GlobalUserGroups.i18n.groups.php not added. Has a lot of user groups which conflicts with WikimediaMessages.i18n.php
 
 Global User rights
 aliasfile = GlobalUserrights/GlobalUserrights.alias.php
@@ -775,9 +771,7 @@ aliasfile = IndexFunction/IndexFunction.alias.php
 descmsg = indexfunc-desc
 ignored = index-exclude-categories
 
-# Disable again per http://www.mediawiki.org/wiki/Special:Code/MediaWiki/82789#c14456
-#Inline Editor
-#descmsg = inline-editor-desc
+# Inline Editor: Disabled per https://www.mediawiki.org/wiki/Special:Code/MediaWiki/82789#c14456
 
 Inline Categorizer
 
@@ -1169,8 +1163,7 @@ Poem
 Pool Counter
 file = PoolCounter/PoolCounterClient.i18n.php
 
-# Insufficient escaping and other issues
-# Post comment
+# Post comment: Insufficient escaping and other issues
 
 POV Watch
 file = PovWatch/PovWatch.i18n.php
