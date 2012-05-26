@@ -7,7 +7,7 @@ Abuse Filter
 optional = abusefilter-edit-builder-op-bool-xor
 aliasfile = AbuseFilter/AbuseFilter.alias.php
 
-# Ad Manager - disabled for the moment due to misconfiguration in Git
+Ad Manager
 
 Add Media Wizard
 
