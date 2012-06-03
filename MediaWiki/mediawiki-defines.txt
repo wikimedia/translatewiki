@@ -834,6 +834,9 @@ Language Selector
 Last Modified
 aliasfile = LastModified/LastModified.alias.php
 
+Last Modified - E3Experiments
+file = LastModified/E3Experiments/E3Experiments.i18n.php
+
 Last User Login
 aliasfile = LastUserLogin/LastUserLogin.alias.php
 
