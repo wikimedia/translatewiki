@@ -104,8 +104,6 @@ ignored = welcome-enabled, welcome-user, welcome-bot
 Health Check
 file = SpecialHealthcheck/HealthCheck.i18n.php
 
-Hulu Video Panel
-
 Image Lightbox
 
 Image Placeholder
@@ -216,9 +214,7 @@ Scribe
 file = Scribe/SpecialScribeEvents.i18n.php
 
 Search
-
-Search V2
-file = SearchV2/WikiaSearch.i18n.php
+file = Search/WikiaSearch.i18n.php
 
 Shared Help
 
@@ -248,11 +244,6 @@ Special Interwiki Edit
 Special Multiple Lookup
 
 Special Protect Site
-
-Special Sponsor Page
-descmsg = sponsorpage-desc
-file = SpecialSponsorPage/Sponsor.i18n.php
-optional = sponsor-template
 
 Special User Data
 
