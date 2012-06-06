@@ -1107,7 +1107,7 @@ descmsg = ps-desc
 Page Triage
 aliasfile = PageTriage/PageTriage.alias.php
 optional = pagetriage-creation-dateformat, pagetriage-user-creation-dateformat
-ignored = pagetriage-special-contributions
+ignored = pagetriage-special-contributions, pagetriage-tags-param-date-format
 
 Paged Tiff Handler
 descmsg = tiff-desc
