@@ -26,7 +26,7 @@ GROUPS:
   - ext-contest # MediaWiki.org
   - ext-contributionreporting # wikimediafoundation.org
   - ext-contributiontracking # wikimediafoundation.org
-  - ext-customusersignup # r86967 
+  - ext-customusersignup # r86967
   - ext-di-gc
   - ext-di-pfpg # wikimediafoundation.org
   - ext-disableaccount # r86932 for some private wikis
@@ -78,10 +78,11 @@ GROUPS:
   - ext-titlekey
   - ext-translate-core # 2011-10-12: Meta; 2011-12-19: mediawiki.org
   - ext-translate-pagetranslation # 2011-10-12: Meta; 2011-12-19: mediawiki.org
+  - ext-translationnotifications # 2012-05-??: meta, mediawiki, wikimania, incubator
   - ext-trustedxff
   - ext-uploadblacklist
   - ext-userdailycontribs
-#  - ext-variablepage # Unused per r110627 
+#  - ext-variablepage # Unused per r110627
   - ext-vipsscaler # 104390: test2.wikipedia.org
   - ext-visualeditor # r106062 for sandbox on mediawiki.org
   - ext-wikilove # r90124
