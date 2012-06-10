@@ -50,6 +50,7 @@ TAGS:
     - model.nation.*.region.river.*
     - model.nation.*.ruler
     - model.nation.*.settlementName.*
+    - model.nation.*.ship.*
     - model.nation.Portuguese.Europe
     - model.nation.Swedish.Europe
     - model.region.default
