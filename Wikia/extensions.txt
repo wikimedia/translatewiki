@@ -95,9 +95,6 @@ Global Notification
 
 Global Watchlist
 
-Grace Expired
-file = GraceExpired/SpecialGraceExpired.i18n.php
-
 HA Welcome
 ignored = welcome-enabled, welcome-user, welcome-bot
 
