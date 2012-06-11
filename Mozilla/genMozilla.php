@@ -74,6 +74,11 @@ TEMPLATE:
     checks:
       - printfCheck
 
+  LANGUAGES:
+    whitelist:
+      - gu
+      - he
+
 PHP;
 
 		$output .= $header . "\n";
