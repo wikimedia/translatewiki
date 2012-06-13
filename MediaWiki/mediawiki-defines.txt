@@ -1925,19 +1925,23 @@ aliasfile = WikiAtHome/WikiAtHome.alias.php
 WikiBhasha
 optional = wikibhasha, wikiBhashaLink
 
+Wikibase - Client
+file = Wikibase/client/WikibaseClient.i18n.php
+descmsg = wbc-desc
+
+Wikibase - Lib
+file = Wikibase/lib/WikibaseLib.i18n.php
+descmsg = wikibaselib-desc
+
+Wikibase - Repo
+file = Wikibase/repo/Wikibase.i18n.php
+descmsg = wikibase-desc
+aliasfile = Wikibase/repo/Wikibase.i18n.alias.php
+
 Wikidata
 file = Wikidata/Wikidata.i18n.php
 optional = ow_URL, ow_ID, prefs-omegawiki
 ignored = ow_editing_policy_url
-
-Wikidata Client
-file = WikidataClient/WikibaseClient.i18n.php
-descmsg = wbc-desc
-
-Wikidata Repo
-file = WikidataRepo/Wikibase.i18n.php
-descmsg = wikibase-desc
-aliasfile = WikidataRepo/Wikibase.i18n.alias.php
 
 WikiEditor
 optional = wikieditor-toolbar-help-content-rereference-syntax, wikieditor-toolbar-help-content-showreferences-syntax
