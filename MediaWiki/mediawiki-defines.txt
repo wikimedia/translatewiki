@@ -1927,6 +1927,7 @@ optional = wikibhasha, wikiBhashaLink
 
 Wikibase - Client
 file = Wikibase/client/WikibaseClient.i18n.php
+magicfile = Wikibase/client/WikibaseClient.i18n.magic.php
 descmsg = wbc-desc
 
 Wikibase - Lib
