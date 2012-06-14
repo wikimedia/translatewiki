@@ -7,6 +7,10 @@ Abuse Filter
 optional = abusefilter-edit-builder-op-bool-xor
 aliasfile = AbuseFilter/AbuseFilter.alias.php
 
+Access Control
+ignored=accesscontrol-info-user, accesscontrol-info-anonymous, accesscontrol-info-deny, accesscontrol-edit-anonymous
+ignored=accesscontrol-edit-users
+
 Ad Manager
 
 Add Media Wizard
@@ -430,6 +434,8 @@ optional = deletequeue-prod-reasons, deletequeue-speedy-reasons
 
 Description2
 
+Did You Know
+
 Did You Mean
 
 Disable Account
@@ -485,6 +491,8 @@ Dublin Core Rdf
 Duplicator
 
 Dynamic Sidebar
+
+Echo
 
 Edit count
 aliasfile = Editcount/Editcount.alias.php
@@ -1061,6 +1069,9 @@ id = ext-oai
 file = OAI/OAIRepo.i18n.php
 optional = oairepository
 
+OATH Auth
+aliasfile = OATHAuth/OATHAuth.alias.php
+
 Ogg Handler
 magicfile = OggHandler/OggHandler.i18n.magic.php
 descmsg = ogg-desc
@@ -1096,6 +1107,8 @@ descmsg = pf-desc
 aliasfile = PackageForce/PackageForce.alias.php
 
 Page By
+
+Page Images
 
 Page In Cat
 
@@ -1200,6 +1213,8 @@ ignored = prefstats-list-elem
 #optional = prefswitch-survey-answer-browser-ie9, prefswitch-survey-answer-browser-c5, prefswitch-survey-answer-browser-s5, prefswitch-survey-answer-os-ios
 
 Preloader
+
+Premoderation
 
 Preview Functions
 
@@ -1352,6 +1367,9 @@ See also
 
 Scan Set
 
+Scribunto
+magicfile = Scribunto/Scribunto.magic.php
+
 Secure Passwords
 
 Secure Poll
@@ -1374,6 +1392,9 @@ descmsg = sdt-desc
 Semantic Drilldown
 file = SemanticDrilldown/languages/SD_Messages.php
 aliasfile = SemanticDrilldown/languages/SD_Aliases.php
+
+Semantic Expressiveness
+magicfile = SemanticExpressiveness/SemanticExpressiveness.i18n.magic.php
 
 Semantic Forms
 file = SemanticForms/languages/SF_Messages.php
@@ -1494,7 +1515,6 @@ Skin Per Page
 
 Slimbox Thumbs
 
-# NOT OBSOLETE: Maps does not support OSM in trunk
 Slippy Map
 ignored = slippymap_license, slippymap_osmlink
 descmsg = slippymap_desc
