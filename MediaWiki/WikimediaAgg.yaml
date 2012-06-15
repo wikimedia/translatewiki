@@ -32,7 +32,7 @@ GROUPS:
   - ext-disableaccount # r86932 for some private wikis
   - ext-doublewiki # Wikisource
   - ext-editpagetracking # r93131 in connection with ext-moodbar
-  - ext-educationrpogram # 2012-06-14 change id: Id3ea0259072e3aa7a508e5c61f03a0f23ec5fc2e
+  - ext-educationprogram # 2012-06-14 change id: Id3ea0259072e3aa7a508e5c61f03a0f23ec5fc2e
   - ext-emailcapture # 2011-04-21
   - ext-expandtemplates
   - ext-extensiondistributor # MediaWiki.org
