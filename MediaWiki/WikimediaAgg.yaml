@@ -52,6 +52,8 @@ GROUPS:
   - ext-googlenewssitemap # r87149 for wikinews
   - ext-labeledsectiontransclusion # Wikisource
   - ext-landingcheck
+  - ext-lastmodified # 2012-06-14: enwiki
+  - ext-lastmodified-e3experiments # 2012-06-14: enwiki
   - ext-ldapauthentication # 2011-12-28: labsconsole.wikimedia.org
   - ext-liquidthreads # 2009-11-11: MediaWiki.org and some *.labs.wikimedia.org
   - ext-markashelpful # 2011-12-28: r107514 for enwiki
