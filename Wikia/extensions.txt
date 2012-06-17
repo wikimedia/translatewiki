@@ -219,9 +219,6 @@ file = Scribe/SpecialScribeEvents.i18n.php
 Search
 file = Search/WikiaSearch.i18n.php
 
-Search V2
-file = SearchV2/WikiaSearch.i18n.php
-
 Shared Help
 
 Show Performance Stats
