@@ -56,6 +56,7 @@ Central Help Search
 file = SharedHelp/CentralHelpSearch.i18n.php
 
 Chat
+file = Chat2/Chat.i18n.php
 optional = grouppage-bannedfromchat, grouppage-bannedfromchat, grouppage-chatmoderator
 ignored = emoticons
 
@@ -132,6 +133,11 @@ file = Logger/SpecialLogger.i18n.php
 
 Lookup Contribs
 file = LookupContribs/SpecialLookupContribs.i18n.php
+
+Media Tool
+file = MediaTool/MediaTool.i18n.php
+
+Mini Editor
 
 Mobile - Game Guides
 file = MobileAppTranslations/GameGuides.i18n.php
@@ -213,6 +219,9 @@ file = Scribe/SpecialScribeEvents.i18n.php
 Search
 file = Search/WikiaSearch.i18n.php
 
+Search V2
+file = SearchV2/WikiaSearch.i18n.php
+
 Shared Help
 
 Show Performance Stats
@@ -228,8 +237,6 @@ file = SiteWideMessages/SpecialSiteWideMessages.i18n.php
 ignored = swm-expire-options, swm-days
 
 Skin Chooser
-
-Slider Tag
 
 Special Cache Epoch
 descmsg = cacheepoch-desc
@@ -285,7 +292,13 @@ file = UserProfilePageV3/UserProfilePage.i18n.php
 User Rename Tool
 file = UserRenameTool/SpecialRenameuser.i18n.php
 
+User Signup
+file = UserLogin/UserSignup.i18n.php
+
 Video Embed Tool
+
+Video Handlers
+file = VideoHandlers/VideoHandlers.i18n.php
 
 Wall
 optional = wall-history-username-full, wall-history-username-short, mail-notification-subject, mail-notification-html-footer-line3
@@ -295,6 +308,9 @@ descmsg = wikia-watchsubpages-desc
 
 Where Is Extension
 file = WhereIsExtension/SpecialWhereIsExtension.i18n.php
+
+Wikia Confirm Email
+file = UserLogin/WikiaConfirmEmail.i18n.php
 
 Wikia Irc Gateway
 ignored = ircgate-channellist
