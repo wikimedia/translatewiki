@@ -7,9 +7,10 @@ Abuse Filter
 optional = abusefilter-edit-builder-op-bool-xor
 aliasfile = AbuseFilter/AbuseFilter.alias.php
 
-Access Control
-ignored=accesscontrol-info-user, accesscontrol-info-anonymous, accesscontrol-info-deny, accesscontrol-edit-anonymous
-ignored=accesscontrol-edit-users
+# Siebrand / 2012-06-18: Disabled. Extension owner does not have a bugzilla account.
+#Access Control
+#ignored=accesscontrol-info-user, accesscontrol-info-anonymous, accesscontrol-info-deny, accesscontrol-edit-anonymous
+#ignored=accesscontrol-edit-users
 
 Ad Manager
 
