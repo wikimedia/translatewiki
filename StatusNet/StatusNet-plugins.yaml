@@ -30,7 +30,7 @@ TEMPLATE:
 BASIC:
   id: out-statusnet-plugin-apc
   label: StatusNet - APC
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/APC/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/APC/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/APC/locale/%CODE%/LC_MESSAGES/APC.po
@@ -43,7 +43,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-accountmanager
   label: StatusNet - AccountManager
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/AccountManager/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/AccountManager/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/AccountManager/locale/%CODE%/LC_MESSAGES/AccountManager.po
@@ -56,7 +56,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-activity
   label: StatusNet - Activity
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Activity/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Activity/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Activity/locale/%CODE%/LC_MESSAGES/Activity.po
@@ -69,7 +69,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-adsense
   label: StatusNet - Adsense
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Adsense/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Adsense/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Adsense/locale/%CODE%/LC_MESSAGES/Adsense.po
@@ -82,7 +82,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-aim
   label: StatusNet - Aim
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Aim/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Aim/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Aim/locale/%CODE%/LC_MESSAGES/Aim.po
@@ -95,7 +95,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-anonymousfave
   label: StatusNet - AnonymousFave
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/AnonymousFave/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/AnonymousFave/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/AnonymousFave/locale/%CODE%/LC_MESSAGES/AnonymousFave.po
@@ -108,7 +108,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-apilogger
   label: StatusNet - ApiLogger
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/ApiLogger/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/ApiLogger/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/ApiLogger/locale/%CODE%/LC_MESSAGES/ApiLogger.po
@@ -121,7 +121,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-autosandbox
   label: StatusNet - AutoSandbox
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/AutoSandbox/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/AutoSandbox/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/AutoSandbox/locale/%CODE%/LC_MESSAGES/AutoSandbox.po
@@ -134,7 +134,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-autocomplete
   label: StatusNet - Autocomplete
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Autocomplete/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Autocomplete/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Autocomplete/locale/%CODE%/LC_MESSAGES/Autocomplete.po
@@ -147,7 +147,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-awesomeness
   label: StatusNet - Awesomeness
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Awesomeness/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Awesomeness/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Awesomeness/locale/%CODE%/LC_MESSAGES/Awesomeness.po
@@ -160,7 +160,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-bitlyurl
   label: StatusNet - BitlyUrl
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/BitlyUrl/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/BitlyUrl/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/BitlyUrl/locale/%CODE%/LC_MESSAGES/BitlyUrl.po
@@ -173,7 +173,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-blacklist
   label: StatusNet - Blacklist
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Blacklist/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Blacklist/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Blacklist/locale/%CODE%/LC_MESSAGES/Blacklist.po
@@ -186,7 +186,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-blankad
   label: StatusNet - BlankAd
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/BlankAd/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/BlankAd/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/BlankAd/locale/%CODE%/LC_MESSAGES/BlankAd.po
@@ -199,7 +199,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-blog
   label: StatusNet - Blog
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Blog/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Blog/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Blog/locale/%CODE%/LC_MESSAGES/Blog.po
@@ -212,7 +212,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-blogspamnet
   label: StatusNet - BlogspamNet
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/BlogspamNet/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/BlogspamNet/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/BlogspamNet/locale/%CODE%/LC_MESSAGES/BlogspamNet.po
@@ -225,7 +225,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-bookmark
   label: StatusNet - Bookmark
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Bookmark/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Bookmark/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Bookmark/locale/%CODE%/LC_MESSAGES/Bookmark.po
@@ -238,7 +238,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-cachelog
   label: StatusNet - CacheLog
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/CacheLog/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/CacheLog/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/CacheLog/locale/%CODE%/LC_MESSAGES/CacheLog.po
@@ -251,7 +251,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-casauthentication
   label: StatusNet - CasAuthentication
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/CasAuthentication/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/CasAuthentication/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/CasAuthentication/locale/%CODE%/LC_MESSAGES/CasAuthentication.po
@@ -264,7 +264,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-clientsideshorten
   label: StatusNet - ClientSideShorten
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/ClientSideShorten/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/ClientSideShorten/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/ClientSideShorten/locale/%CODE%/LC_MESSAGES/ClientSideShorten.po
@@ -277,7 +277,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-comet
   label: StatusNet - Comet
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Comet/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Comet/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Comet/locale/%CODE%/LC_MESSAGES/Comet.po
@@ -290,7 +290,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-directiondetector
   label: StatusNet - DirectionDetector
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/DirectionDetector/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/DirectionDetector/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/DirectionDetector/locale/%CODE%/LC_MESSAGES/DirectionDetector.po
@@ -303,7 +303,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-directory
   label: StatusNet - Directory
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Directory/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Directory/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Directory/locale/%CODE%/LC_MESSAGES/Directory.po
@@ -316,7 +316,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-diskcache
   label: StatusNet - DiskCache
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/DiskCache/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/DiskCache/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/DiskCache/locale/%CODE%/LC_MESSAGES/DiskCache.po
@@ -329,7 +329,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-disqus
   label: StatusNet - Disqus
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Disqus/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Disqus/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Disqus/locale/%CODE%/LC_MESSAGES/Disqus.po
@@ -342,7 +342,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-domainstatusnetwork
   label: StatusNet - DomainStatusNetwork
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/DomainStatusNetwork/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/DomainStatusNetwork/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/DomainStatusNetwork/locale/%CODE%/LC_MESSAGES/DomainStatusNetwork.po
@@ -355,7 +355,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-domainwhitelist
   label: StatusNet - DomainWhitelist
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/DomainWhitelist/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/DomainWhitelist/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/DomainWhitelist/locale/%CODE%/LC_MESSAGES/DomainWhitelist.po
@@ -368,7 +368,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-echo
   label: StatusNet - Echo
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Echo/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Echo/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Echo/locale/%CODE%/LC_MESSAGES/Echo.po
@@ -381,7 +381,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-emailauthentication
   label: StatusNet - EmailAuthentication
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/EmailAuthentication/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/EmailAuthentication/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/EmailAuthentication/locale/%CODE%/LC_MESSAGES/EmailAuthentication.po
@@ -394,7 +394,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-emailregistration
   label: StatusNet - EmailRegistration
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/EmailRegistration/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/EmailRegistration/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/EmailRegistration/locale/%CODE%/LC_MESSAGES/EmailRegistration.po
@@ -407,7 +407,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-emailreminder
   label: StatusNet - EmailReminder
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/EmailReminder/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/EmailReminder/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/EmailReminder/locale/%CODE%/LC_MESSAGES/EmailReminder.po
@@ -420,7 +420,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-emailsummary
   label: StatusNet - EmailSummary
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/EmailSummary/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/EmailSummary/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/EmailSummary/locale/%CODE%/LC_MESSAGES/EmailSummary.po
@@ -433,7 +433,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-event
   label: StatusNet - Event
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Event/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Event/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Event/locale/%CODE%/LC_MESSAGES/Event.po
@@ -446,7 +446,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-extendedprofile
   label: StatusNet - ExtendedProfile
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/ExtendedProfile/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/ExtendedProfile/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/ExtendedProfile/locale/%CODE%/LC_MESSAGES/ExtendedProfile.po
@@ -459,7 +459,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-facebookbridge
   label: StatusNet - FacebookBridge
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/FacebookBridge/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/FacebookBridge/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/FacebookBridge/locale/%CODE%/LC_MESSAGES/FacebookBridge.po
@@ -472,7 +472,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-firephp
   label: StatusNet - FirePHP
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/FirePHP/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/FirePHP/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/FirePHP/locale/%CODE%/LC_MESSAGES/FirePHP.po
@@ -485,7 +485,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-followeveryone
   label: StatusNet - FollowEveryone
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/FollowEveryone/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/FollowEveryone/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/FollowEveryone/locale/%CODE%/LC_MESSAGES/FollowEveryone.po
@@ -498,7 +498,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-forcegroup
   label: StatusNet - ForceGroup
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/ForceGroup/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/ForceGroup/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/ForceGroup/locale/%CODE%/LC_MESSAGES/ForceGroup.po
@@ -511,7 +511,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-geourl
   label: StatusNet - GeoURL
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/GeoURL/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/GeoURL/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/GeoURL/locale/%CODE%/LC_MESSAGES/GeoURL.po
@@ -524,7 +524,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-geonames
   label: StatusNet - Geonames
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Geonames/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Geonames/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Geonames/locale/%CODE%/LC_MESSAGES/Geonames.po
@@ -537,7 +537,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-googleanalytics
   label: StatusNet - GoogleAnalytics
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/GoogleAnalytics/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/GoogleAnalytics/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/GoogleAnalytics/locale/%CODE%/LC_MESSAGES/GoogleAnalytics.po
@@ -550,7 +550,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-gravatar
   label: StatusNet - Gravatar
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Gravatar/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Gravatar/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Gravatar/locale/%CODE%/LC_MESSAGES/Gravatar.po
@@ -563,7 +563,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-groupfavorited
   label: StatusNet - GroupFavorited
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/GroupFavorited/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/GroupFavorited/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/GroupFavorited/locale/%CODE%/LC_MESSAGES/GroupFavorited.po
@@ -576,7 +576,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-groupprivatemessage
   label: StatusNet - GroupPrivateMessage
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/GroupPrivateMessage/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/GroupPrivateMessage/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/GroupPrivateMessage/locale/%CODE%/LC_MESSAGES/GroupPrivateMessage.po
@@ -589,7 +589,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-imap
   label: StatusNet - Imap
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Imap/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Imap/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Imap/locale/%CODE%/LC_MESSAGES/Imap.po
@@ -602,7 +602,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-inprocesscache
   label: StatusNet - InProcessCache
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/InProcessCache/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/InProcessCache/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/InProcessCache/locale/%CODE%/LC_MESSAGES/InProcessCache.po
@@ -615,7 +615,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-infinitescroll
   label: StatusNet - InfiniteScroll
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/InfiniteScroll/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/InfiniteScroll/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/InfiniteScroll/locale/%CODE%/LC_MESSAGES/InfiniteScroll.po
@@ -628,7 +628,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-irc
   label: StatusNet - Irc
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Irc/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Irc/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Irc/locale/%CODE%/LC_MESSAGES/Irc.po
@@ -641,7 +641,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-ldapauthentication
   label: StatusNet - LdapAuthentication
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/LdapAuthentication/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/LdapAuthentication/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/LdapAuthentication/locale/%CODE%/LC_MESSAGES/LdapAuthentication.po
@@ -654,7 +654,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-ldapauthorization
   label: StatusNet - LdapAuthorization
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/LdapAuthorization/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/LdapAuthorization/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/LdapAuthorization/locale/%CODE%/LC_MESSAGES/LdapAuthorization.po
@@ -667,7 +667,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-ldapcommon
   label: StatusNet - LdapCommon
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/LdapCommon/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/LdapCommon/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/LdapCommon/locale/%CODE%/LC_MESSAGES/LdapCommon.po
@@ -680,7 +680,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-lilurl
   label: StatusNet - LilUrl
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/LilUrl/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/LilUrl/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/LilUrl/locale/%CODE%/LC_MESSAGES/LilUrl.po
@@ -693,7 +693,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-linkpreview
   label: StatusNet - LinkPreview
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/LinkPreview/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/LinkPreview/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/LinkPreview/locale/%CODE%/LC_MESSAGES/LinkPreview.po
@@ -706,7 +706,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-linkback
   label: StatusNet - Linkback
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Linkback/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Linkback/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Linkback/locale/%CODE%/LC_MESSAGES/Linkback.po
@@ -719,7 +719,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-logfilter
   label: StatusNet - LogFilter
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/LogFilter/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/LogFilter/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/LogFilter/locale/%CODE%/LC_MESSAGES/LogFilter.po
@@ -732,7 +732,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-mapstraction
   label: StatusNet - Mapstraction
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Mapstraction/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Mapstraction/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Mapstraction/locale/%CODE%/LC_MESSAGES/Mapstraction.po
@@ -745,7 +745,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-memcache
   label: StatusNet - Memcache
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Memcache/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Memcache/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Memcache/locale/%CODE%/LC_MESSAGES/Memcache.po
@@ -758,7 +758,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-memcached
   label: StatusNet - Memcached
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Memcached/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Memcached/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Memcached/locale/%CODE%/LC_MESSAGES/Memcached.po
@@ -771,7 +771,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-meteor
   label: StatusNet - Meteor
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Meteor/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Meteor/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Meteor/locale/%CODE%/LC_MESSAGES/Meteor.po
@@ -784,7 +784,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-minify
   label: StatusNet - Minify
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Minify/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Minify/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Minify/locale/%CODE%/LC_MESSAGES/Minify.po
@@ -797,7 +797,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-mobileprofile
   label: StatusNet - MobileProfile
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/MobileProfile/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/MobileProfile/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/MobileProfile/locale/%CODE%/LC_MESSAGES/MobileProfile.po
@@ -810,7 +810,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-modhelper
   label: StatusNet - ModHelper
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/ModHelper/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/ModHelper/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/ModHelper/locale/%CODE%/LC_MESSAGES/ModHelper.po
@@ -823,7 +823,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-modplus
   label: StatusNet - ModPlus
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/ModPlus/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/ModPlus/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/ModPlus/locale/%CODE%/LC_MESSAGES/ModPlus.po
@@ -836,7 +836,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-mollom
   label: StatusNet - Mollom
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Mollom/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Mollom/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Mollom/locale/%CODE%/LC_MESSAGES/Mollom.po
@@ -849,7 +849,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-msn
   label: StatusNet - Msn
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Msn/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Msn/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Msn/locale/%CODE%/LC_MESSAGES/Msn.po
@@ -862,7 +862,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-noticetitle
   label: StatusNet - NoticeTitle
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/NoticeTitle/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/NoticeTitle/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/NoticeTitle/locale/%CODE%/LC_MESSAGES/NoticeTitle.po
@@ -875,7 +875,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-omb
   label: StatusNet - OMB
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/OMB/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/OMB/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/OMB/locale/%CODE%/LC_MESSAGES/OMB.po
@@ -888,7 +888,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-ostatus
   label: StatusNet - OStatus
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/OStatus/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/OStatus/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/OStatus/locale/%CODE%/LC_MESSAGES/OStatus.po
@@ -901,7 +901,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-openexternallinktarget
   label: StatusNet - OpenExternalLinkTarget
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/OpenExternalLinkTarget/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/OpenExternalLinkTarget/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/OpenExternalLinkTarget/locale/%CODE%/LC_MESSAGES/OpenExternalLinkTarget.po
@@ -914,7 +914,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-openid
   label: StatusNet - OpenID
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/OpenID/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/OpenID/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/OpenID/locale/%CODE%/LC_MESSAGES/OpenID.po
@@ -927,7 +927,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-openx
   label: StatusNet - OpenX
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/OpenX/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/OpenX/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/OpenX/locale/%CODE%/LC_MESSAGES/OpenX.po
@@ -940,7 +940,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-orbited
   label: StatusNet - Orbited
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Orbited/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Orbited/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Orbited/locale/%CODE%/LC_MESSAGES/Orbited.po
@@ -953,7 +953,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-piwikanalytics
   label: StatusNet - PiwikAnalytics
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/PiwikAnalytics/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/PiwikAnalytics/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/PiwikAnalytics/locale/%CODE%/LC_MESSAGES/PiwikAnalytics.po
@@ -966,7 +966,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-poll
   label: StatusNet - Poll
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Poll/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Poll/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Poll/locale/%CODE%/LC_MESSAGES/Poll.po
@@ -979,7 +979,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-postdebug
   label: StatusNet - PostDebug
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/PostDebug/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/PostDebug/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/PostDebug/locale/%CODE%/LC_MESSAGES/PostDebug.po
@@ -992,7 +992,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-poweredbystatusnet
   label: StatusNet - PoweredByStatusNet
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/PoweredByStatusNet/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/PoweredByStatusNet/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/PoweredByStatusNet/locale/%CODE%/LC_MESSAGES/PoweredByStatusNet.po
@@ -1005,7 +1005,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-ptiturl
   label: StatusNet - PtitUrl
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/PtitUrl/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/PtitUrl/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/PtitUrl/locale/%CODE%/LC_MESSAGES/PtitUrl.po
@@ -1018,7 +1018,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-qna
   label: StatusNet - QnA
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/QnA/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/QnA/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/QnA/locale/%CODE%/LC_MESSAGES/QnA.po
@@ -1031,7 +1031,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-rsscloud
   label: StatusNet - RSSCloud
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/RSSCloud/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/RSSCloud/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/RSSCloud/locale/%CODE%/LC_MESSAGES/RSSCloud.po
@@ -1044,7 +1044,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-realtime
   label: StatusNet - Realtime
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Realtime/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Realtime/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Realtime/locale/%CODE%/LC_MESSAGES/Realtime.po
@@ -1057,7 +1057,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-recaptcha
   label: StatusNet - Recaptcha
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Recaptcha/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Recaptcha/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Recaptcha/locale/%CODE%/LC_MESSAGES/Recaptcha.po
@@ -1070,7 +1070,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-registerthrottle
   label: StatusNet - RegisterThrottle
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/RegisterThrottle/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/RegisterThrottle/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/RegisterThrottle/locale/%CODE%/LC_MESSAGES/RegisterThrottle.po
@@ -1083,7 +1083,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-requirevalidatedemail
   label: StatusNet - RequireValidatedEmail
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/RequireValidatedEmail/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/RequireValidatedEmail/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/RequireValidatedEmail/locale/%CODE%/LC_MESSAGES/RequireValidatedEmail.po
@@ -1096,7 +1096,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-reverseusernameauthentication
   label: StatusNet - ReverseUsernameAuthentication
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/ReverseUsernameAuthentication/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/ReverseUsernameAuthentication/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/ReverseUsernameAuthentication/locale/%CODE%/LC_MESSAGES/ReverseUsernameAuthentication.po
@@ -1109,7 +1109,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-sqlprofile
   label: StatusNet - SQLProfile
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/SQLProfile/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/SQLProfile/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/SQLProfile/locale/%CODE%/LC_MESSAGES/SQLProfile.po
@@ -1122,7 +1122,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-sqlstats
   label: StatusNet - SQLStats
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/SQLStats/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/SQLStats/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/SQLStats/locale/%CODE%/LC_MESSAGES/SQLStats.po
@@ -1135,7 +1135,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-sample
   label: StatusNet - Sample
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Sample/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Sample/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Sample/locale/%CODE%/LC_MESSAGES/Sample.po
@@ -1148,7 +1148,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-searchsub
   label: StatusNet - SearchSub
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/SearchSub/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/SearchSub/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/SearchSub/locale/%CODE%/LC_MESSAGES/SearchSub.po
@@ -1161,7 +1161,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-sharenotice
   label: StatusNet - ShareNotice
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/ShareNotice/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/ShareNotice/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/ShareNotice/locale/%CODE%/LC_MESSAGES/ShareNotice.po
@@ -1174,7 +1174,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-simpleurl
   label: StatusNet - SimpleUrl
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/SimpleUrl/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/SimpleUrl/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/SimpleUrl/locale/%CODE%/LC_MESSAGES/SimpleUrl.po
@@ -1187,7 +1187,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-sitemap
   label: StatusNet - Sitemap
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Sitemap/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Sitemap/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Sitemap/locale/%CODE%/LC_MESSAGES/Sitemap.po
@@ -1200,7 +1200,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-slicedfavorites
   label: StatusNet - SlicedFavorites
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/SlicedFavorites/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/SlicedFavorites/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/SlicedFavorites/locale/%CODE%/LC_MESSAGES/SlicedFavorites.po
@@ -1213,7 +1213,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-sphinxsearch
   label: StatusNet - SphinxSearch
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/SphinxSearch/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/SphinxSearch/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/SphinxSearch/locale/%CODE%/LC_MESSAGES/SphinxSearch.po
@@ -1226,7 +1226,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-spotify
   label: StatusNet - Spotify
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Spotify/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Spotify/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Spotify/locale/%CODE%/LC_MESSAGES/Spotify.po
@@ -1239,7 +1239,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-stricttransportsecurity
   label: StatusNet - StrictTransportSecurity
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/StrictTransportSecurity/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/StrictTransportSecurity/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/StrictTransportSecurity/locale/%CODE%/LC_MESSAGES/StrictTransportSecurity.po
@@ -1252,7 +1252,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-submirror
   label: StatusNet - SubMirror
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/SubMirror/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/SubMirror/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/SubMirror/locale/%CODE%/LC_MESSAGES/SubMirror.po
@@ -1265,7 +1265,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-subscriptionthrottle
   label: StatusNet - SubscriptionThrottle
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/SubscriptionThrottle/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/SubscriptionThrottle/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/SubscriptionThrottle/locale/%CODE%/LC_MESSAGES/SubscriptionThrottle.po
@@ -1278,7 +1278,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-tabfocus
   label: StatusNet - TabFocus
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/TabFocus/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/TabFocus/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/TabFocus/locale/%CODE%/LC_MESSAGES/TabFocus.po
@@ -1291,7 +1291,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-tagsub
   label: StatusNet - TagSub
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/TagSub/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/TagSub/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/TagSub/locale/%CODE%/LC_MESSAGES/TagSub.po
@@ -1304,7 +1304,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-tighturl
   label: StatusNet - TightUrl
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/TightUrl/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/TightUrl/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/TightUrl/locale/%CODE%/LC_MESSAGES/TightUrl.po
@@ -1317,7 +1317,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-tinymce
   label: StatusNet - TinyMCE
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/TinyMCE/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/TinyMCE/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/TinyMCE/locale/%CODE%/LC_MESSAGES/TinyMCE.po
@@ -1330,7 +1330,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-twitterbridge
   label: StatusNet - TwitterBridge
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/TwitterBridge/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/TwitterBridge/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/TwitterBridge/locale/%CODE%/LC_MESSAGES/TwitterBridge.po
@@ -1343,7 +1343,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-userflag
   label: StatusNet - UserFlag
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/UserFlag/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/UserFlag/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/UserFlag/locale/%CODE%/LC_MESSAGES/UserFlag.po
@@ -1356,7 +1356,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-userlimit
   label: StatusNet - UserLimit
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/UserLimit/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/UserLimit/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/UserLimit/locale/%CODE%/LC_MESSAGES/UserLimit.po
@@ -1369,7 +1369,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-wikihashtags
   label: StatusNet - WikiHashtags
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/WikiHashtags/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/WikiHashtags/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/WikiHashtags/locale/%CODE%/LC_MESSAGES/WikiHashtags.po
@@ -1382,7 +1382,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-wikihowprofile
   label: StatusNet - WikiHowProfile
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/WikiHowProfile/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/WikiHowProfile/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/WikiHowProfile/locale/%CODE%/LC_MESSAGES/WikiHowProfile.po
@@ -1395,7 +1395,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-xcache
   label: StatusNet - XCache
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/XCache/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/XCache/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/XCache/locale/%CODE%/LC_MESSAGES/XCache.po
@@ -1408,7 +1408,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-xmpp
   label: StatusNet - Xmpp
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/Xmpp/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Xmpp/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/Xmpp/locale/%CODE%/LC_MESSAGES/Xmpp.po
@@ -1421,7 +1421,7 @@ MANGLER:
 BASIC:
   id: out-statusnet-plugin-yammerimport
   label: StatusNet - YammerImport
-  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/YammerImport/%FILE%#line%LINE%
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/YammerImport/%FILE%#line%LINE%
 
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/plugins/YammerImport/locale/%CODE%/LC_MESSAGES/YammerImport.po

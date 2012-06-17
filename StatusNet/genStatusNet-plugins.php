@@ -97,7 +97,7 @@ foreach ( $plugins as $plugin ) {
 	echo "BASIC:\n";
 	echo "  id: out-statusnet-plugin-" . $pluginL . "\n";
 	echo "  label: StatusNet - " . $plugin . "\n";
-	echo "  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/plugins/" . $plugin . "/%FILE%#line%LINE%\n\n";
+	echo "  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/" . $plugin . "/%FILE%#line%LINE%\n\n";
 	echo "FILES:\n";
 	echo "  sourcePattern: %GROUPROOT%/" . $basePluginFolder . $plugin . $localeFolder . $plugin . ".po\n";
 	echo "  definitionFile: %GROUPROOT%/" . $basePluginFolder . $plugin . "/locale/" . $plugin . ".pot\n";

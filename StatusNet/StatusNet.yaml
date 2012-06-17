@@ -3,7 +3,7 @@ TEMPLATE:
     description: "{{int:bw-desc-statusnet}}"
     namespace: NS_STATUSNET
     class: FileBasedMessageGroup
-    codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.0.x/%FILE%#line%LINE%
+    codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/%FILE%#line%LINE%
 
   FILES:
     class: GettextFFS
