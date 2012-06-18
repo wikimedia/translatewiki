@@ -291,7 +291,7 @@ file = UserRenameTool/SpecialRenameuser.i18n.php
 
 User Signup
 file = UserLogin/UserSignup.i18n.php
-ignored = usersignup-confirmation-reminder-email body-HTML, usersignup-account-creation-email-body-HTML
+ignored = usersignup-account-creation-email-body-HTML, usersignup-confirmation-reminder-email_body-HTML, usersignup-reconfirmation-email_body-HTML
 
 Video Embed Tool
 
