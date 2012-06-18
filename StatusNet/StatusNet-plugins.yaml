@@ -67,6 +67,19 @@ MANGLER:
   prefix: activity-
 ---
 BASIC:
+  id: out-statusnet-plugin-activityspam
+  label: StatusNet - ActivitySpam
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/ActivitySpam/%FILE%#line%LINE%
+
+FILES:
+  sourcePattern: %GROUPROOT%/statusnet/plugins/ActivitySpam/locale/%CODE%/LC_MESSAGES/ActivitySpam.po
+  definitionFile: %GROUPROOT%/statusnet/plugins/ActivitySpam/locale/ActivitySpam.pot
+  targetPattern: statusnet/plugins/ActivitySpam/locale/%CODE%/LC_MESSAGES/ActivitySpam.po
+
+MANGLER:
+  prefix: activityspam-
+---
+BASIC:
   id: out-statusnet-plugin-adsense
   label: StatusNet - Adsense
   codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/Adsense/%FILE%#line%LINE%
@@ -897,6 +910,19 @@ FILES:
 
 MANGLER:
   prefix: ostatus-
+---
+BASIC:
+  id: out-statusnet-plugin-offlinebackup
+  label: StatusNet - OfflineBackup
+  codeBrowser: http://gitorious.org/statusnet/mainline/blobs/1.1.x/plugins/OfflineBackup/%FILE%#line%LINE%
+
+FILES:
+  sourcePattern: %GROUPROOT%/statusnet/plugins/OfflineBackup/locale/%CODE%/LC_MESSAGES/OfflineBackup.po
+  definitionFile: %GROUPROOT%/statusnet/plugins/OfflineBackup/locale/OfflineBackup.pot
+  targetPattern: statusnet/plugins/OfflineBackup/locale/%CODE%/LC_MESSAGES/OfflineBackup.po
+
+MANGLER:
+  prefix: offlinebackup-
 ---
 BASIC:
   id: out-statusnet-plugin-openexternallinktarget
