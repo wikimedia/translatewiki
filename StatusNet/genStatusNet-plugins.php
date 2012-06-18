@@ -42,7 +42,7 @@ function getPotFiles( $path, $pattern ) {
 }
 
 // translatewiki.net specific base folder.
-$baseFolder = '/home/betawiki/projects/statusnet/plugins/';
+$baseFolder = '/resources/projects/statusnet/plugins/';
 // File pattern for gettext template files.
 $filePattern = '/[.]pot$/';
 
