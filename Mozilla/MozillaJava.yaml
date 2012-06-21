@@ -86,6 +86,18 @@ MANGLER:
 
 ---
 BASIC:
+  id: mozilla-chrome-browser-devtools-responsiveui-java
+  label: Mozilla - Chrome - Browser - Devtools - ResponsiveUI - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/responsiveUI.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/responsiveUI.properties
+
+MANGLER:
+  prefix: chrome-browser-devtools-responsiveui-java-
+
+---
+BASIC:
   id: mozilla-chrome-browser-devtools-scratchpad-java
   label: Mozilla - Chrome - Browser - Devtools - Scratchpad - Java
 
@@ -467,6 +479,42 @@ FILES:
 
 MANGLER:
   prefix: installer-override-java-
+
+---
+BASIC:
+  id: mozilla-pdfviewer-chrome-java
+  label: Mozilla - Pdfviewer - Chrome - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/pdfviewer/chrome.properties
+  targetPattern: mozilla/%CODE%/browser/pdfviewer/chrome.properties
+
+MANGLER:
+  prefix: pdfviewer-chrome-java-
+
+---
+BASIC:
+  id: mozilla-pdfviewer-viewer-java
+  label: Mozilla - Pdfviewer - Viewer - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/pdfviewer/viewer.properties
+  targetPattern: mozilla/%CODE%/browser/pdfviewer/viewer.properties
+
+MANGLER:
+  prefix: pdfviewer-viewer-java-
+
+---
+BASIC:
+  id: mozilla-webapp-uninstaller-webapp-uninstaller-java
+  label: Mozilla - Webapp-uninstaller - Webapp-uninstaller - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/webapp-uninstaller/webapp-uninstaller.properties
+  targetPattern: mozilla/%CODE%/browser/webapp-uninstaller/webapp-uninstaller.properties
+
+MANGLER:
+  prefix: webapp-uninstaller-webapp-uninstaller-java-
 
 ---
 BASIC:
