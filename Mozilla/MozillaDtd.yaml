@@ -1,0 +1,734 @@
+TEMPLATE:
+  BASIC:
+    description: "{{int:translate-group-desc-mozilla-browser}}"
+    namespace: NS_MOZILLA
+    class: FileBasedMessageGroup
+
+  FILES:
+    class: DtdFFS
+    codeMap:
+      gu: gu-IN
+
+  MANGLER:
+    class: StringMatcher
+    patterns:
+      - "*"
+
+  CHECKER:
+    class: MessageChecker
+    checks:
+      - printfCheck
+
+  LANGUAGES:
+    whitelist:
+      - gu
+      - he
+
+---
+BASIC:
+  id: mozilla-chrome-browser-aboutcerterror-dtd
+  label: Mozilla - Chrome - Browser - AboutCertError - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutCertError.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutCertError.dtd
+
+MANGLER:
+  prefix: chrome-browser-aboutcerterror-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-aboutdialog-dtd
+  label: Mozilla - Chrome - Browser - AboutDialog - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutDialog.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutDialog.dtd
+
+MANGLER:
+  prefix: chrome-browser-aboutdialog-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-abouthome-dtd
+  label: Mozilla - Chrome - Browser - AboutHome - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutHome.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutHome.dtd
+
+MANGLER:
+  prefix: chrome-browser-abouthome-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-aboutprivatebrowsing-dtd
+  label: Mozilla - Chrome - Browser - AboutPrivateBrowsing - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutPrivateBrowsing.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutPrivateBrowsing.dtd
+
+MANGLER:
+  prefix: chrome-browser-aboutprivatebrowsing-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-aboutrobots-dtd
+  label: Mozilla - Chrome - Browser - AboutRobots - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutRobots.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutRobots.dtd
+
+MANGLER:
+  prefix: chrome-browser-aboutrobots-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-aboutsessionrestore-dtd
+  label: Mozilla - Chrome - Browser - AboutSessionRestore - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutSessionRestore.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutSessionRestore.dtd
+
+MANGLER:
+  prefix: chrome-browser-aboutsessionrestore-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-aboutsynctabs-dtd
+  label: Mozilla - Chrome - Browser - AboutSyncTabs - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutSyncTabs.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutSyncTabs.dtd
+
+MANGLER:
+  prefix: chrome-browser-aboutsynctabs-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-basemenuoverlay-dtd
+  label: Mozilla - Chrome - Browser - BaseMenuOverlay - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/baseMenuOverlay.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/baseMenuOverlay.dtd
+
+MANGLER:
+  prefix: chrome-browser-basemenuoverlay-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-browser-dtd
+  label: Mozilla - Chrome - Browser - Browser - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/browser.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/browser.dtd
+
+MANGLER:
+  prefix: chrome-browser-browser-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-debugger-dtd
+  label: Mozilla - Chrome - Browser - Devtools - Debugger - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/debugger.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/debugger.dtd
+
+MANGLER:
+  prefix: chrome-browser-devtools-debugger-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-layoutview-dtd
+  label: Mozilla - Chrome - Browser - Devtools - Layoutview - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/layoutview.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/layoutview.dtd
+
+MANGLER:
+  prefix: chrome-browser-devtools-layoutview-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-scratchpad-dtd
+  label: Mozilla - Chrome - Browser - Devtools - Scratchpad - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/scratchpad.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/scratchpad.dtd
+
+MANGLER:
+  prefix: chrome-browser-devtools-scratchpad-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-sourceeditor-dtd
+  label: Mozilla - Chrome - Browser - Devtools - Sourceeditor - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/sourceeditor.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/sourceeditor.dtd
+
+MANGLER:
+  prefix: chrome-browser-devtools-sourceeditor-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-styleeditor-dtd
+  label: Mozilla - Chrome - Browser - Devtools - Styleeditor - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/styleeditor.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/styleeditor.dtd
+
+MANGLER:
+  prefix: chrome-browser-devtools-styleeditor-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-styleinspector-dtd
+  label: Mozilla - Chrome - Browser - Devtools - Styleinspector - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/styleinspector.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/styleinspector.dtd
+
+MANGLER:
+  prefix: chrome-browser-devtools-styleinspector-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-webconsole-dtd
+  label: Mozilla - Chrome - Browser - Devtools - WebConsole - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/webConsole.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/webConsole.dtd
+
+MANGLER:
+  prefix: chrome-browser-devtools-webconsole-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-downloads-downloads-dtd
+  label: Mozilla - Chrome - Browser - Downloads - Downloads - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/downloads/downloads.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/downloads/downloads.dtd
+
+MANGLER:
+  prefix: chrome-browser-downloads-downloads-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-enginemanager-dtd
+  label: Mozilla - Chrome - Browser - EngineManager - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/engineManager.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/engineManager.dtd
+
+MANGLER:
+  prefix: chrome-browser-enginemanager-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-migration-migration-dtd
+  label: Mozilla - Chrome - Browser - Migration - Migration - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/migration/migration.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/migration/migration.dtd
+
+MANGLER:
+  prefix: chrome-browser-migration-migration-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-newtab-dtd
+  label: Mozilla - Chrome - Browser - NewTab - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/newTab.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/newTab.dtd
+
+MANGLER:
+  prefix: chrome-browser-newtab-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-openlocation-dtd
+  label: Mozilla - Chrome - Browser - OpenLocation - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/openLocation.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/openLocation.dtd
+
+MANGLER:
+  prefix: chrome-browser-openlocation-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-pageinfo-dtd
+  label: Mozilla - Chrome - Browser - PageInfo - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/pageInfo.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/pageInfo.dtd
+
+MANGLER:
+  prefix: chrome-browser-pageinfo-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-places-editbookmarkoverlay-dtd
+  label: Mozilla - Chrome - Browser - Places - EditBookmarkOverlay - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/places/editBookmarkOverlay.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/places/editBookmarkOverlay.dtd
+
+MANGLER:
+  prefix: chrome-browser-places-editbookmarkoverlay-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-places-movebookmarks-dtd
+  label: Mozilla - Chrome - Browser - Places - MoveBookmarks - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/places/moveBookmarks.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/places/moveBookmarks.dtd
+
+MANGLER:
+  prefix: chrome-browser-places-movebookmarks-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-places-places-dtd
+  label: Mozilla - Chrome - Browser - Places - Places - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/places/places.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/places/places.dtd
+
+MANGLER:
+  prefix: chrome-browser-places-places-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-aboutpermissions-dtd
+  label: Mozilla - Chrome - Browser - Preferences - AboutPermissions - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/aboutPermissions.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/aboutPermissions.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-aboutpermissions-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-advanced-scripts-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Advanced-scripts - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/advanced-scripts.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/advanced-scripts.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-advanced-scripts-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-advanced-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Advanced - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/advanced.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/advanced.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-advanced-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-applicationmanager-dtd
+  label: Mozilla - Chrome - Browser - Preferences - ApplicationManager - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/applicationManager.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/applicationManager.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-applicationmanager-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-applications-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Applications - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/applications.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/applications.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-applications-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-colors-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Colors - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/colors.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/colors.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-colors-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-connection-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Connection - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/connection.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/connection.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-connection-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-content-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Content - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/content.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/content.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-content-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-cookies-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Cookies - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/cookies.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/cookies.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-cookies-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-fonts-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Fonts - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/fonts.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/fonts.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-fonts-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-languages-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Languages - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/languages.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/languages.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-languages-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-main-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Main - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/main.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/main.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-main-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-permissions-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Permissions - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/permissions.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/permissions.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-permissions-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-preferences-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Preferences - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/preferences.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/preferences.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-preferences-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-privacy-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Privacy - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/privacy.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/privacy.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-privacy-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-security-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Security - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/security.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/security.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-security-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-sync-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Sync - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/sync.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/sync.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-sync-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-tabs-dtd
+  label: Mozilla - Chrome - Browser - Preferences - Tabs - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/tabs.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/tabs.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-tabs-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-safemode-dtd
+  label: Mozilla - Chrome - Browser - SafeMode - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/safeMode.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/safeMode.dtd
+
+MANGLER:
+  prefix: chrome-browser-safemode-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-safebrowsing-phishing-afterload-warning-message-dtd
+  label: Mozilla - Chrome - Browser - Safebrowsing - Phishing-afterload-warning-message - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd
+
+MANGLER:
+  prefix: chrome-browser-safebrowsing-phishing-afterload-warning-message-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-safebrowsing-report-phishing-dtd
+  label: Mozilla - Chrome - Browser - Safebrowsing - Report-phishing - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/safebrowsing/report-phishing.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/safebrowsing/report-phishing.dtd
+
+MANGLER:
+  prefix: chrome-browser-safebrowsing-report-phishing-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-sanitize-dtd
+  label: Mozilla - Chrome - Browser - Sanitize - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/sanitize.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/sanitize.dtd
+
+MANGLER:
+  prefix: chrome-browser-sanitize-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-searchbar-dtd
+  label: Mozilla - Chrome - Browser - Searchbar - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/searchbar.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/searchbar.dtd
+
+MANGLER:
+  prefix: chrome-browser-searchbar-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-setdesktopbackground-dtd
+  label: Mozilla - Chrome - Browser - SetDesktopBackground - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/setDesktopBackground.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/setDesktopBackground.dtd
+
+MANGLER:
+  prefix: chrome-browser-setdesktopbackground-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-syncbrand-dtd
+  label: Mozilla - Chrome - Browser - SyncBrand - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncBrand.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncBrand.dtd
+
+MANGLER:
+  prefix: chrome-browser-syncbrand-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-synckey-dtd
+  label: Mozilla - Chrome - Browser - SyncKey - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncKey.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncKey.dtd
+
+MANGLER:
+  prefix: chrome-browser-synckey-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-syncprogress-dtd
+  label: Mozilla - Chrome - Browser - SyncProgress - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncProgress.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncProgress.dtd
+
+MANGLER:
+  prefix: chrome-browser-syncprogress-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-syncquota-dtd
+  label: Mozilla - Chrome - Browser - SyncQuota - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncQuota.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncQuota.dtd
+
+MANGLER:
+  prefix: chrome-browser-syncquota-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-syncsetup-dtd
+  label: Mozilla - Chrome - Browser - SyncSetup - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncSetup.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncSetup.dtd
+
+MANGLER:
+  prefix: chrome-browser-syncsetup-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-tabbrowser-dtd
+  label: Mozilla - Chrome - Browser - Tabbrowser - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/tabbrowser.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/tabbrowser.dtd
+
+MANGLER:
+  prefix: chrome-browser-tabbrowser-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-overrides-neterror-dtd
+  label: Mozilla - Chrome - Overrides - NetError - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/overrides/netError.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/overrides/netError.dtd
+
+MANGLER:
+  prefix: chrome-overrides-neterror-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-overrides-settingschange-dtd
+  label: Mozilla - Chrome - Overrides - SettingsChange - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/overrides/settingsChange.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/overrides/settingsChange.dtd
+
+MANGLER:
+  prefix: chrome-overrides-settingschange-dtd-
+
+---
+BASIC:
+  id: mozilla-feedback-main-dtd
+  label: Mozilla - Feedback - Main - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/feedback/main.dtd
+  targetPattern: mozilla/%CODE%/browser/feedback/main.dtd
+
+MANGLER:
+  prefix: feedback-main-dtd-
+
+---
+BASIC:
+  id: mozilla-webapprt-webapp-dtd
+  label: Mozilla - Webapprt - Webapp - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/webapprt/webapp.dtd
+  targetPattern: mozilla/%CODE%/browser/webapprt/webapp.dtd
+
+MANGLER:
+  prefix: webapprt-webapp-dtd-
+

@@ -1,0 +1,482 @@
+TEMPLATE:
+  BASIC:
+    description: "{{int:translate-group-desc-mozilla-browser}}"
+    namespace: NS_MOZILLA
+    class: FileBasedMessageGroup
+
+  FILES:
+    class: JavaFFS
+    codeMap:
+      gu: gu-IN
+
+  MANGLER:
+    class: StringMatcher
+    patterns:
+      - "*"
+
+  CHECKER:
+    class: MessageChecker
+    checks:
+      - printfCheck
+
+  LANGUAGES:
+    whitelist:
+      - gu
+      - he
+
+---
+BASIC:
+  id: mozilla-chrome-browser-region-region-java
+  label: Mozilla - Chrome - Browser-region - Region - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser-region/region.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser-region/region.properties
+
+MANGLER:
+  prefix: chrome-browser-region-region-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-debugger-java
+  label: Mozilla - Chrome - Browser - Devtools - Debugger - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/debugger.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/debugger.properties
+
+MANGLER:
+  prefix: chrome-browser-devtools-debugger-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-gcli-java
+  label: Mozilla - Chrome - Browser - Devtools - Gcli - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/gcli.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/gcli.properties
+
+MANGLER:
+  prefix: chrome-browser-devtools-gcli-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-gclicommands-java
+  label: Mozilla - Chrome - Browser - Devtools - Gclicommands - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/gclicommands.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/gclicommands.properties
+
+MANGLER:
+  prefix: chrome-browser-devtools-gclicommands-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-inspector-java
+  label: Mozilla - Chrome - Browser - Devtools - Inspector - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/inspector.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/inspector.properties
+
+MANGLER:
+  prefix: chrome-browser-devtools-inspector-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-scratchpad-java
+  label: Mozilla - Chrome - Browser - Devtools - Scratchpad - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/scratchpad.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/scratchpad.properties
+
+MANGLER:
+  prefix: chrome-browser-devtools-scratchpad-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-sourceeditor-java
+  label: Mozilla - Chrome - Browser - Devtools - Sourceeditor - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/sourceeditor.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/sourceeditor.properties
+
+MANGLER:
+  prefix: chrome-browser-devtools-sourceeditor-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-styleeditor-java
+  label: Mozilla - Chrome - Browser - Devtools - Styleeditor - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/styleeditor.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/styleeditor.properties
+
+MANGLER:
+  prefix: chrome-browser-devtools-styleeditor-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-styleinspector-java
+  label: Mozilla - Chrome - Browser - Devtools - Styleinspector - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/styleinspector.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/styleinspector.properties
+
+MANGLER:
+  prefix: chrome-browser-devtools-styleinspector-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-tilt-java
+  label: Mozilla - Chrome - Browser - Devtools - Tilt - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/tilt.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/tilt.properties
+
+MANGLER:
+  prefix: chrome-browser-devtools-tilt-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-devtools-webconsole-java
+  label: Mozilla - Chrome - Browser - Devtools - Webconsole - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/webconsole.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/webconsole.properties
+
+MANGLER:
+  prefix: chrome-browser-devtools-webconsole-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-downloads-downloads-java
+  label: Mozilla - Chrome - Browser - Downloads - Downloads - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/downloads/downloads.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/downloads/downloads.properties
+
+MANGLER:
+  prefix: chrome-browser-downloads-downloads-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-enginemanager-java
+  label: Mozilla - Chrome - Browser - EngineManager - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/engineManager.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/engineManager.properties
+
+MANGLER:
+  prefix: chrome-browser-enginemanager-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-feeds-subscribe-java
+  label: Mozilla - Chrome - Browser - Feeds - Subscribe - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/feeds/subscribe.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/feeds/subscribe.properties
+
+MANGLER:
+  prefix: chrome-browser-feeds-subscribe-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-migration-migration-java
+  label: Mozilla - Chrome - Browser - Migration - Migration - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/migration/migration.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/migration/migration.properties
+
+MANGLER:
+  prefix: chrome-browser-migration-migration-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-newtab-java
+  label: Mozilla - Chrome - Browser - NewTab - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/newTab.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/newTab.properties
+
+MANGLER:
+  prefix: chrome-browser-newtab-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-openlocation-java
+  label: Mozilla - Chrome - Browser - OpenLocation - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/openLocation.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/openLocation.properties
+
+MANGLER:
+  prefix: chrome-browser-openlocation-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-pageinfo-java
+  label: Mozilla - Chrome - Browser - PageInfo - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/pageInfo.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/pageInfo.properties
+
+MANGLER:
+  prefix: chrome-browser-pageinfo-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-places-bookmarkproperties-java
+  label: Mozilla - Chrome - Browser - Places - BookmarkProperties - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/places/bookmarkProperties.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/places/bookmarkProperties.properties
+
+MANGLER:
+  prefix: chrome-browser-places-bookmarkproperties-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-places-places-java
+  label: Mozilla - Chrome - Browser - Places - Places - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/places/places.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/places/places.properties
+
+MANGLER:
+  prefix: chrome-browser-places-places-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-aboutpermissions-java
+  label: Mozilla - Chrome - Browser - Preferences - AboutPermissions - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/aboutPermissions.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/aboutPermissions.properties
+
+MANGLER:
+  prefix: chrome-browser-preferences-aboutpermissions-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-applicationmanager-java
+  label: Mozilla - Chrome - Browser - Preferences - ApplicationManager - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/applicationManager.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/applicationManager.properties
+
+MANGLER:
+  prefix: chrome-browser-preferences-applicationmanager-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-preferences-java
+  label: Mozilla - Chrome - Browser - Preferences - Preferences - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/preferences.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/preferences.properties
+
+MANGLER:
+  prefix: chrome-browser-preferences-preferences-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-quitdialog-java
+  label: Mozilla - Chrome - Browser - QuitDialog - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/quitDialog.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/quitDialog.properties
+
+MANGLER:
+  prefix: chrome-browser-quitdialog-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-search-java
+  label: Mozilla - Chrome - Browser - Search - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/search.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/search.properties
+
+MANGLER:
+  prefix: chrome-browser-search-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-shellservice-java
+  label: Mozilla - Chrome - Browser - Shellservice - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/shellservice.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/shellservice.properties
+
+MANGLER:
+  prefix: chrome-browser-shellservice-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-syncgenericchange-java
+  label: Mozilla - Chrome - Browser - SyncGenericChange - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncGenericChange.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncGenericChange.properties
+
+MANGLER:
+  prefix: chrome-browser-syncgenericchange-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-syncquota-java
+  label: Mozilla - Chrome - Browser - SyncQuota - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncQuota.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncQuota.properties
+
+MANGLER:
+  prefix: chrome-browser-syncquota-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-syncsetup-java
+  label: Mozilla - Chrome - Browser - SyncSetup - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncSetup.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncSetup.properties
+
+MANGLER:
+  prefix: chrome-browser-syncsetup-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-tabbrowser-java
+  label: Mozilla - Chrome - Browser - Tabbrowser - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/tabbrowser.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/tabbrowser.properties
+
+MANGLER:
+  prefix: chrome-browser-tabbrowser-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-tabview-java
+  label: Mozilla - Chrome - Browser - Tabview - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/tabview.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/tabview.properties
+
+MANGLER:
+  prefix: chrome-browser-tabview-java-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-taskbar-java
+  label: Mozilla - Chrome - Browser - Taskbar - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/taskbar.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/taskbar.properties
+
+MANGLER:
+  prefix: chrome-browser-taskbar-java-
+
+---
+BASIC:
+  id: mozilla-chrome-overrides-appstrings-java
+  label: Mozilla - Chrome - Overrides - Appstrings - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/overrides/appstrings.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/overrides/appstrings.properties
+
+MANGLER:
+  prefix: chrome-overrides-appstrings-java-
+
+---
+BASIC:
+  id: mozilla-feedback-main-java
+  label: Mozilla - Feedback - Main - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/feedback/main.properties
+  targetPattern: mozilla/%CODE%/browser/feedback/main.properties
+
+MANGLER:
+  prefix: feedback-main-java-
+
+---
+BASIC:
+  id: mozilla-installer-custom-java
+  label: Mozilla - Installer - Custom - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/installer/custom.properties
+  targetPattern: mozilla/%CODE%/browser/installer/custom.properties
+
+MANGLER:
+  prefix: installer-custom-java-
+
+---
+BASIC:
+  id: mozilla-installer-mui-java
+  label: Mozilla - Installer - Mui - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/installer/mui.properties
+  targetPattern: mozilla/%CODE%/browser/installer/mui.properties
+
+MANGLER:
+  prefix: installer-mui-java-
+
+---
+BASIC:
+  id: mozilla-installer-override-java
+  label: Mozilla - Installer - Override - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/installer/override.properties
+  targetPattern: mozilla/%CODE%/browser/installer/override.properties
+
+MANGLER:
+  prefix: installer-override-java-
+
+---
+BASIC:
+  id: mozilla-webapprt-webapp-java
+  label: Mozilla - Webapprt - Webapp - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/webapprt/webapp.properties
+  targetPattern: mozilla/%CODE%/browser/webapprt/webapp.properties
+
+MANGLER:
+  prefix: webapprt-webapp-java-
+
