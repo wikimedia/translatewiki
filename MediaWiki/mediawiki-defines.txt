@@ -1126,6 +1126,8 @@ ignored = pagetriage-special-contributions, pagetriage-tags-param-date-format
 Paged Tiff Handler
 descmsg = tiff-desc
 
+Pan Scroll
+
 Parser Fun
 
 #Parser Functions
