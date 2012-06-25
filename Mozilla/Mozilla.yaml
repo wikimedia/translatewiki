@@ -1,0 +1,28 @@
+TEMPLATE:
+  BASIC:
+    description: "{{int:translate-group-desc-mozilla-browser}}"
+    namespace: NS_MOZILLA
+
+  FILES:
+    codeMap:
+      gu: gu-IN
+
+  CHECKER:
+    class: MessageChecker
+    checks:
+      - printfCheck
+
+  LANGUAGES:
+    whitelist:
+      - gu
+      - he
+
+---
+BASIC:
+  id: mozilla-0-all
+  label: Mozilla
+  meta: yes
+  class: AggregateMessageGroup
+
+GROUPS:
+  - mozilla-*
