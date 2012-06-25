@@ -216,8 +216,9 @@ ignored = scavengerhunt-form-error-name, scavengerhunt-editor-tip-article-congra
 Scribe
 file = Scribe/SpecialScribeEvents.i18n.php
 
-Search
-file = Search/WikiaSearch.i18n.php
+# Disabled for unknown reason.
+#Search
+#file = Search/WikiaSearch.i18n.php
 
 Shared Help
 
