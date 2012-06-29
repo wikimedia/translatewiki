@@ -9,9 +9,11 @@ TEMPLATE:
     codeAsRoot: 1
     codeMap:
       be-tarask: be-Tarask
+      ku-latn: ku-Latn
       pt-br: pt-BR
       sr-ec: sr
       sr-el: sr-Latn
+      tt-cyrl: tt
       zh-hans: zh-CN
       zh-hant: zh-TW
 
