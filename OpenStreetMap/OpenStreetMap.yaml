@@ -7,10 +7,10 @@ TEMPLATE:
     class: RubyYamlFFS
     codeAsRoot: 1
     codeMap:
-      be-tarask: be-TARASK
+      be-tarask: be-Tarask
       pt-br: pt-BR
       sr-ec: sr-EC
-      sr-el: sr-EL
+      sr-el: sr-Latn
       zh-hans: zh-CN
       zh-hant: zh-TW
 
