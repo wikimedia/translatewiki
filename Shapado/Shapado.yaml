@@ -8,11 +8,11 @@ TEMPLATE:
     class: RubyYamlFFS
     codeAsRoot: 1
     codeMap:
-      be-tarask: be-TARASK
+      be-tarask: be-Tarask
       pt:    pt-PT
       pt-br: pt-BR
       sr-ec: sr
-      sr-el: sr-LATN
+      sr-el: sr-Latn
       tt-cyrl: tt
       zh-hans: zh-CN
       zh-hant: zh-TW
