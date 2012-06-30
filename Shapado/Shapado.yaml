@@ -131,6 +131,18 @@ MANGLER:
 
 ---
 BASIC:
+  id: shapado-customhtml
+  label: Shapado - Custom HTML
+
+FILES:
+  sourcePattern: %GROUPROOT%/shapado/config/locales/custom_html/%CODE%.yml
+  targetPattern: shapado/config/locales/custom_html/%CODE%.yml
+
+MANGLER:
+  prefix: customhtml-
+
+---
+BASIC:
   id: shapado-devise
   label: Shapado - Devise
 
@@ -415,6 +427,18 @@ TAGS:
   optional:
     - shared-shared.empty.filtered_by_language_questions.description.text
     - shared-shared.empty.filtered_questions.description.text
+---
+BASIC:
+  id: shapado-tags
+  label: Shapado - Tags
+
+FILES:
+  sourcePattern: %GROUPROOT%/shapado/config/locales/tags/%CODE%.yml
+  targetPattern: shapado/config/locales/tags/%CODE%.yml
+
+MANGLER:
+  prefix: tags-
+
 ---
 BASIC:
   id: shapado-themes
