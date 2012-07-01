@@ -19,8 +19,7 @@ GROUPS:
   - ext-clicktracking
   - ext-clientside # usability.wikimedia.org
   - ext-codereview # MediaWiki.org
-  - ext-collection-core
-  - ext-collection-other
+  - ext-collection-0-all
   - ext-communityvoice # usability.wikimedia.org
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-contest # MediaWiki.org
@@ -36,18 +35,7 @@ GROUPS:
   - ext-emailcapture # 2011-04-21
   - ext-expandtemplates
   - ext-extensiondistributor # MediaWiki.org
-  - ext-flaggedrevs-flaggedrevs
-  - ext-flaggedrevs-configuredpages
-  - ext-flaggedrevs-pendingchanges
-  - ext-flaggedrevs-problemchanges
-  - ext-flaggedrevs-qualityoversight
-  - ext-flaggedrevs-reviewedpages
-  - ext-flaggedrevs-reviewedversions
-  - ext-flaggedrevs-revisionreview
-  - ext-flaggedrevs-stabilization
-  - ext-flaggedrevs-stablepages
-  - ext-flaggedrevs-unreviewedpages
-  - ext-flaggedrevs-validationstatistics
+  - ext-flaggedrevs-0-all
   - ext-fundraiserlandingpage # r101409 for donatewiki
   - ext-googlenewssitemap # r87149 for wikinews
   - ext-labeledsectiontransclusion # Wikisource
@@ -67,9 +55,7 @@ GROUPS:
   - ext-poem
   - ext-proofreadpage # Wikisource
   - ext-randomrootpage # 2012-05-16, change-Id: I31e2dc16deb13b3a029656802a69893f36602b98
-  - ext-readerfeedback-ratedpages
-  - ext-readerfeedback-ratinghistory
-  - ext-readerfeedback-readerfeedback
+  - ext-readerfeedback-0-all
   - ext-rss # 2010-11-25: Wikimediafoundation.org
   - ext-scanset
   - ext-shorturl # r108172
@@ -79,13 +65,11 @@ GROUPS:
   - ext-swiftcloudfiles # 110441
   - ext-syntaxhighlightgeshi
   - ext-titlekey
-  - ext-translate-core # 2011-10-12: Meta; 2011-12-19: mediawiki.org
-  - ext-translate-pagetranslation # 2011-10-12: Meta; 2011-12-19: mediawiki.org
+  - ext-translate-0-all
   - ext-translationnotifications # 2012-05-??: meta, mediawiki, wikimania, incubator
   - ext-trustedxff
   - ext-uploadblacklist
   - ext-userdailycontribs
-#  - ext-variablepage # Unused per r110627
   - ext-vipsscaler # 104390: test2.wikipedia.org
   - ext-visualeditor # r106062 for sandbox on mediawiki.org
   - ext-wikilove # r90124
