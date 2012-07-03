@@ -6,7 +6,7 @@ cd %GROUPROOT%
 git clone git://gitorious.org/statusnet/mainline.git statusnet
 </source>
 
-Then check out the current development branch (origin/1.0.x) in the clone.
+Then check out the current development branch (origin/1.2.x) in the clone.
 
 ==Settings==
 <source lang="php">
