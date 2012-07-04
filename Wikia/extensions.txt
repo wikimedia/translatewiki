@@ -1,5 +1,6 @@
-Achievements II
-file = AchievementsII/i18n/AchievementsII.i18n.php
+# Siebrand / 2012-07-04 / Disabled as announced.
+#Achievements II
+#file = AchievementsII/i18n/AchievementsII.i18n.php
 
 Admin Dashboard
 optional = admindashboard-control-help-url
@@ -131,8 +132,9 @@ Link Suggest
 Lookup Contribs
 file = LookupContribs/SpecialLookupContribs.i18n.php
 
-Media Tool
-file = MediaTool/MediaTool.i18n.php
+# Siebrand / 2012-07-04 / Disabled as announced.
+#Media Tool
+#file = MediaTool/MediaTool.i18n.php
 
 Mini Editor
 
@@ -162,11 +164,12 @@ ignored = accesskey-pt-myhome
 #New Wiki Builder
 #aliasfile = NewWikiBuilder/NewWikiBuilder.alias.php
 
-Oasis
-optional = oasis-latest-photos-single, oasis-corporatefooter-hub-Entertainment-link, oasis-corporatefooter-hub-Gaming-link, oasis-corporatefooter-hub-Lifestyle-link
-optional = oasis-corporatefooter-hub-Food_and_Drink-link, oasis-corporatefooter-hub-Video_Games-link
-ignored = wiki-navigation, categoryblacklist, photosblacklist, oasis-button-random-page-tooltip
-ignored = oasis-button-wiki-activity-tooltip, wikia-navigation-global
+# Siebrand / 2012-07-04 / Disabled as announced.
+#Oasis
+#optional = oasis-latest-photos-single, oasis-corporatefooter-hub-Entertainment-link, oasis-corporatefooter-hub-Gaming-link, oasis-corporatefooter-hub-Lifestyle-link
+#optional = oasis-corporatefooter-hub-Food_and_Drink-link, oasis-corporatefooter-hub-Video_Games-link
+#ignored = wiki-navigation, categoryblacklist, photosblacklist, oasis-button-random-page-tooltip
+#ignored = oasis-button-wiki-activity-tooltip, wikia-navigation-global
 
 Our 404 Handler
 file = Our404Handler/SpecialOur404Handler.i18n.php
@@ -238,7 +241,8 @@ Special Interwiki Edit
 
 Special Multiple Lookup
 
-Special Protect Site
+# Siebrand / 2012-07-04 / Disabled as announced.
+#Special Protect Site
 
 Special User Data
 
@@ -287,7 +291,8 @@ User Signup
 file = UserLogin/UserSignup.i18n.php
 ignored = usersignup-account-creation-email-body-HTML, usersignup-confirmation-email_body-HTML, usersignup-confirmation-reminder-email_body-HTML, usersignup-reconfirmation-email_body-HTML
 
-Video Embed Tool
+# Siebrand / 2012-07-04 / Disabled as announced.
+# Video Embed Tool
 
 Video Handlers
 file = VideoHandlers/VideoHandlers.i18n.php
@@ -309,8 +314,9 @@ ignored = ircgate-channellist
 
 Wikia Mini Upload
 
-Wikia Mobile
-ignored = wikiamobile-page-header-title
+# Siebrand / 2012-07-04 / Disabled as announced.
+# Wikia Mobile
+#ignored = wikiamobile-page-header-title
 
 Wikia Poll
 optional = wikiapoll-question-mark-before, wikiapoll-question-mark-after
@@ -335,7 +341,8 @@ file = WikiFactory/SpecialWikiFactory.i18n.php
 optional = wikifactory-label-eznamespace
 ignored = awc-metrics-language-top-list
 
-Wiki Features
+# Siebrand / 2012-07-04 / Disabled as announced.
+# Wiki Features
 
 Wiki Stats
 file = WikiStats/SpecialWikiStats.i18n.php
