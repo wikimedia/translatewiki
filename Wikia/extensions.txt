@@ -128,9 +128,6 @@ ignored = landingpage-sites
 
 Link Suggest
 
-Logger
-file = Logger/SpecialLogger.i18n.php
-
 Lookup Contribs
 file = LookupContribs/SpecialLookupContribs.i18n.php
 
@@ -173,10 +170,6 @@ ignored = oasis-button-wiki-activity-tooltip, wikia-navigation-global
 
 Our 404 Handler
 file = Our404Handler/SpecialOur404Handler.i18n.php
-
-Page Layout Builder
-optional = plb-helpbox-help-link-title
-ignored = plb-special-form-none-value, plb-editor-info
 
 Paginator
 file = Paginator/i18n/Paginator.i18n.php
@@ -326,14 +319,10 @@ Wikia Photo Gallery
 
 Wikia Quiz
 
-Wikia Video
-
 Wikia Video Add
 file = VideoEmbedTool/WikiaVideoAdd.i18n.php
 
 Wikia Widget
-
-Wiki Builder
 
 Wiki Factory Dumps
 file = WikiFactory/Dumps/DumpsOnDemand.i18n.php
