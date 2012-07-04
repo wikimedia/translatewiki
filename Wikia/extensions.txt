@@ -266,9 +266,6 @@ aliasfile = TextRegex/TextRegex.alias.php
 
 Theme Designer
 
-Theory tab
-ignored = theorytab-subpage
-
 Time Ago Messaging
 descmsg = timeago-desc
 
