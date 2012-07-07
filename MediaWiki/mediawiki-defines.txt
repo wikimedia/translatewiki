@@ -1502,7 +1502,8 @@ file = SignDocument/SpecialSignDocument.i18n.php
 descmsg = signdocument
 optional = sign-emailto
 
-Signup API
+# Disabled for the time of review: https://gerrit.wikimedia.org/r/#/c/7999/
+# Signup API
 
 Simple Anti Spam
 
