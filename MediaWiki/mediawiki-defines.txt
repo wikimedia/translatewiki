@@ -146,6 +146,10 @@ aliasfile = BadImage/BadImage.alias.php
 Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
+Boiler Plate
+file = examples/BoilerPlate/BoilerPlate.i18n.php
+aliasfile = examples/BoilerPlate/BoilerPlate.alias.php
+
 Block Titles
 
 Book Information
@@ -744,10 +748,6 @@ Hash Tables
 
 Header Tabs
 ignored = headertabs-edittab-key
-
-Hello World
-file = examples/HelloWorld/HelloWorld.i18n.php
-aliasfile = examples/HelloWorld/HelloWorld.alias.php
 
 Help Commons
 
