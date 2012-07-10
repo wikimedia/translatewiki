@@ -1968,6 +1968,10 @@ descmsg = wikibase-desc
 aliasfile = Wikibase/repo/Wikibase.i18n.alias.php
 optional = wikibase-itemlink, wikibase-itemlink-id-wrapper, wikibase-itemlink-title
 
+Wikibase - StickToThatLanguage
+file = Wikibase/StickToThatLanguage/StickToThatLanguage.i18n.php
+descmsg = sticktothatlanguage-desc
+
 Wikidata
 file = Wikidata/Wikidata.i18n.php
 optional = ow_URL, ow_ID, prefs-omegawiki
