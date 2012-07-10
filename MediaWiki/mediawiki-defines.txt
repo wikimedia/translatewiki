@@ -1765,10 +1765,8 @@ file = Translate/PageTranslation.i18n.php
 descmsg = tpt-desc
 optional = tpt-languages-separator
 
-# Disabled per https://gerrit.wikimedia.org/r/#/c/12390/
-#Translate Svg
+Translate Svg
 #aliasfile = TranslateSvg/TranslateSvg.alias.php
-#ignored = translatesvg
 
 Translation Notifications
 aliasfile = TranslationNotifications/TranslationNotifications.alias.php
