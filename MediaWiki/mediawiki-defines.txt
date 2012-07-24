@@ -2007,7 +2007,7 @@ descmsg = wom-desc
 
 Wikimedia Incubator
 descmsg = wminc-desc
-ignored = wminc-error-help
+ignored = wminc-error-help, wminc-fs-langselect-langs, wminc-fs-settings-image
 optional = wminc-searchwiki-goto
 optional = group-test-sysop.css, group-test-sysop.js
 
