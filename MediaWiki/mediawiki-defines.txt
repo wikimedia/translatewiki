@@ -2017,7 +2017,7 @@ file = WikimediaIncubator/InfoPage.i18n.php
 ignored = wminc-logo-wikipedia, wminc-logo-wiktionary, wminc-logo-wikibooks, wminc-logo-wikinews
 ignored = wminc-logo-wikiquote, wminc-logo-wikisource, wminc-logo-wikiversity, wminc-logo-meta-wiki
 ignored = wminc-logo-wikimedia-commons, wminc-logo-wikispecies, wminc-logo-mediawiki
-ignored = wminc-infopage-prefill, wminc-manual-url
+ignored = wminc-infopage-prefill, wminc-manual-url, wminc-infopage-links
 
 Wikimedia Messages
 ignored = sidebar, robots.txt
