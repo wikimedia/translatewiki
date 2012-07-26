@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQ3//9Rk\u003d",
+        "filename": "MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 971,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-07-26T04:36:56Z",
+      "side": 1,
+      "message": "Addition of this line is not mentioned in the commit message.",
+      "revId": "79f6903db736ba0dc6a7720e920467593d35a996",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
