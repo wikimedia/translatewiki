@@ -402,9 +402,6 @@ aliasfile = CreateRedirect/CreateRedirect.alias.php
 
 Creative Commons Rdf
 
-Credit Tab
-descmsg = credits-desc
-
 Cross Namespace Links
 aliasfile = CrossNamespaceLinks/CrossNamespaceLinks.alias.php
 
@@ -675,8 +672,6 @@ ignored = formtemplatepattern
 Format Email
 descmsg = email-desc
 ignored = email_header
-
-Format Num
 
 Framed Video
 optional = framedvideo_position
@@ -1334,8 +1329,6 @@ Regex Fun
 
 Regex Functions
 magicfile = RegexFunctions/RegexFunctions.i18n.magic.php
-
-Relation Links
 
 Rename user
 aliasfile = Renameuser/Renameuser.alias.php
