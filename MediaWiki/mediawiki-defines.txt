@@ -1892,7 +1892,6 @@ Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
 Visual Editor
-aliasfile = VisualEditor/VisualEditor.alias.php
 
 Vote
 aliasfile = Vote/Vote.alias.php
