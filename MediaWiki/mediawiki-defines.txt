@@ -1610,6 +1610,8 @@ ignored = sternograph-speaker-pre, sternograph-speaker-post, sternograph-block-p
 ignored = sternograph-block-post, sternograph-inline-pre, sternograph-inline-post
 ignored = sternograph-context-pre, sternograph-context-post
 
+Stick To That Language
+
 Stock Charts
 
 Storyboard
@@ -1955,10 +1957,6 @@ file = Wikibase/repo/Wikibase.i18n.php
 descmsg = wikibase-desc
 aliasfile = Wikibase/repo/Wikibase.i18n.alias.php
 optional = wikibase-itemlink, wikibase-itemlink-id-wrapper, wikibase-itemlink-title
-
-Wikibase - StickToThatLanguage
-file = Wikibase/StickToThatLanguage/StickToThatLanguage.i18n.php
-descmsg = sticktothatlanguage-desc
 
 Wikidata
 file = Wikidata/Wikidata.i18n.php
