@@ -1787,6 +1787,7 @@ Upload Wizard
 aliasfile = UploadWizard/UploadWizard.alias.php
 ignored = languageHandler.js
 optional = group-upwizcampeditors.css, group-upwizcampeditors.js
+optional = mwe-upwiz-license-custom-url
 
 Unicode Converter
 
