@@ -440,6 +440,8 @@ Did You Know
 
 Did You Mean
 
+Diff
+
 Disable Account
 aliasfile = DisableAccount/DisableAccount.alias.php
 
