@@ -155,7 +155,7 @@ Block Titles
 Book Information
 
 Book Manager
-descmsg = printversion-desc
+descmsg = bm-printversion-desc
 file = BookManager/language/BookManager.i18n.php
 aliasfile = BookManager/language/BookManager.alias.php
 
