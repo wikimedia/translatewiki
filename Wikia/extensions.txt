@@ -197,7 +197,8 @@ file = RandomWiki/SpecialRandomWiki.i18n.php
 Related Pages
 descmsg = wikiarelatedpages-desc
 
-Related Videos
+# Siebrand / 2012-08-02 / Disabled as announced.
+#Related Videos
 
 RTE - Base
 file = RTE/i18n/RTE.i18n.php
@@ -248,8 +249,9 @@ Special User Data
 
 Spell Checker
 
-Sponsorship Dashboard
-optional = sponsorship-dashboard-empty-description
+# Siebrand / 2012-08-02 / Disabled as announced.
+#Sponsorship Dashboard
+#optional = sponsorship-dashboard-empty-description
 
 Staff Log
 
@@ -300,8 +302,9 @@ optional = wall-history-username-full, wall-history-username-short, mail-notific
 Watch Sub Pages
 descmsg = wikia-watchsubpages-desc
 
-Where Is Extension
-file = WhereIsExtension/SpecialWhereIsExtension.i18n.php
+# Siebrand / 2012-08-02 / Disabled as announced.
+#Where Is Extension
+#file = WhereIsExtension/SpecialWhereIsExtension.i18n.php
 
 Wikia Confirm Email
 file = UserLogin/WikiaConfirmEmail.i18n.php
