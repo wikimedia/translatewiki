@@ -479,6 +479,7 @@ Duplicator
 Dynamic Sidebar
 
 Echo
+ignored = notification-talkpage-content
 
 Edit count
 aliasfile = Editcount/Editcount.alias.php
