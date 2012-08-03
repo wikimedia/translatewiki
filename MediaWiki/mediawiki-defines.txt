@@ -1100,6 +1100,25 @@ descmsg = ps-desc
 Page Triage
 aliasfile = PageTriage/PageTriage.alias.php
 optional = pagetriage-creation-dateformat, pagetriage-user-creation-dateformat
+optional = pagetriage-del-tags-cat-csd-label, pagetriage-del-tags-cat-prod-label
+optional = pagetriage-del-tags-dbg3-label, pagetriage-del-tags-dbg3-desc
+optional = pagetriage-del-tags-dbg10-label, pagetriage-del-tags-dbg10-desc
+optional = pagetriage-del-tags-dbg11-label, pagetriage-del-tags-dbg11-desc
+optional = pagetriage-del-tags-dbg12-label, pagetriage-del-tags-dbg12-desc
+optional = pagetriage-del-tags-dba1-label, pagetriage-del-tags-dba1-desc
+optional = pagetriage-del-tags-dba7-label, pagetriage-del-tags-dba7-desc
+optional = pagetriage-del-tags-dbg1-label, pagetriage-del-tags-dbg1-desc
+optional = pagetriage-del-tags-dba9-label, pagetriage-del-tags-dba9-desc
+optional = pagetriage-del-tags-dbg2-label, pagetriage-del-tags-dbg2-desc
+optional = pagetriage-del-tags-dbg4-label, pagetriage-del-tags-dbg4-desc
+optional = pagetriage-del-tags-dbg5-label, pagetriage-del-tags-dbg5-desc
+optional = pagetriage-del-tags-dbu2-label, pagetriage-del-tags-dbu2-desc
+optional = pagetriage-del-tags-dba10-label, pagetriage-del-tags-dba10-desc
+optional = pagetriage-del-tags-dba2-label, pagetriage-del-tags-dba2-desc
+optional = pagetriage-del-tags-blpprod-label, pagetriage-del-tags-blpprod-desc
+optional = pagetriage-del-tags-prod-label, pagetriage-del-tags-prod-desc
+optional = pagetriage-del-tags-articlefordeletion-label, pagetriage-del-tags-redirectsfordiscussion-label
+optional = pagetriage-del-tags-miscellanyfordeletion-label
 ignored = pagetriage-special-contributions, pagetriage-tags-param-date-format
 
 Paged Tiff Handler
