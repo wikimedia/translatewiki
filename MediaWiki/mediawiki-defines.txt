@@ -967,6 +967,8 @@ Most Revisors
 aliasfile = MostRevisors/MostRevisors.alias.php
 ignored = mostrevisors-limit-few-revisors
 
+Mpdf
+
 Multi Boilerplate
 ignored = multiboilerplate, multiboilerplate-label
 
