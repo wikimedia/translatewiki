@@ -822,7 +822,6 @@ aliasfile = LandingCheck/LandingCheck.alias.php
 Language Selector
 
 Last Modified
-aliasfile = LastModified/LastModified.alias.php
 
 Last User Login
 aliasfile = LastUserLogin/LastUserLogin.alias.php
