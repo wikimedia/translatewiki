@@ -459,7 +459,8 @@ descmsg = payflowpro_gateway-desc
 optional = payflow_gateway-card-name-amex, payflow_gateway-card-name-visa, payflow_gateway-card-name-mc, payflow_gateway-card-name-discover
 optional = payflowpro_gateway-month
 
-Dont Switch Me Over
+# Unused on WMF cluster, part of the early UsabilityInitiative, very unlikely useful for 3rd party installations
+# Dont Switch Me Over
 
 Double Wiki
 
