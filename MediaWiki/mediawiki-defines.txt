@@ -1930,6 +1930,8 @@ aliasfile = WhatIsMyIP/WhatIsMyIP.alias.php
 White List Edit
 aliasfile = WhiteListEdit/WhiteListEdit.alias.php
 
+White Space
+
 Whitelist Pages
 ignored = public_read_whitelist
 
