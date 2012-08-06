@@ -1,6 +1,6 @@
 ---
 BASIC:
-  description: "{{int:translate-group-desc-wiktionarymobile}}"
+  description: "{{int:translate-group-desc-wlmmobile}}"
   namespace: NS_WIKIMEDIA
   id: out-wlm-mobile
   label: WLMMobile
