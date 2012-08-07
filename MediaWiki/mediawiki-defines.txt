@@ -233,8 +233,7 @@ aliasfile = Cite/SpecialCite.alias.php
 descmsg = cite_article_desc
 ignored = cite-summary, accesskey-cite-article
 
-CLDR
-file = cldr/cldr.i18n.php
+cldr
 
 Clean Changes
 
