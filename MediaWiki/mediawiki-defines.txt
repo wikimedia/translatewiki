@@ -393,8 +393,10 @@ Crowd Authentication
 
 CSS
 
-Custom User Signup
-ignored = customusersignup
+# Unused on WMF since 8/2012 and seems unmaintened
+# https://gerrit.wikimedia.org/r/#/c/18201/
+# Custom User Signup
+# ignored = customusersignup
 
 Data Transclusion
 magicfile = DataTransclusion/DataTransclusion.i18n.magic.php
