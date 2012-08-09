@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARX///CQ\u003d",
+        "filename": "PermissionSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2012-08-09T12:03:04Z",
+      "side": 1,
+      "message": "Twice, see below",
+      "revId": "94541c3e7f9c4779ed062fb6067a1acb4802e32e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///CU\u003d",
+        "filename": "PermissionSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2012-08-09T12:03:04Z",
+      "side": 1,
+      "message": "Again",
+      "revId": "94541c3e7f9c4779ed062fb6067a1acb4802e32e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///CM\u003d",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 315,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2012-08-09T12:03:04Z",
+      "side": 1,
+      "message": "Wasn\u0027t tru committed to core?",
+      "revId": "94541c3e7f9c4779ed062fb6067a1acb4802e32e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///CI\u003d",
+        "filename": "nikext.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2012-08-09T12:03:04Z",
+      "side": 1,
+      "message": "Omg it is not secret anymore!",
+      "revId": "94541c3e7f9c4779ed062fb6067a1acb4802e32e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
