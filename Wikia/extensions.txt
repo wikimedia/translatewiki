@@ -82,8 +82,9 @@ file = EditAccount/SpecialEditAccount.i18n.php
 Edit Page Layout
 ignored = anoneditwarning-notice, longpagewarning-notice
 
-Follow
-aliasfile = Follow/Follow.alias.php
+# Siebrand / 2012-08-09 / Disabled as announced.
+#Follow
+#aliasfile = Follow/Follow.alias.php
 
 Founder Emails
 ignored = founderemails-email-footer-line3
@@ -293,8 +294,9 @@ ignored = usersignup-account-creation-email-body-HTML, usersignup-confirmation-e
 # Siebrand / 2012-07-04 / Disabled as announced.
 # Video Embed Tool
 
-Video Handlers
-file = VideoHandlers/VideoHandlers.i18n.php
+# Siebrand / 2012-08-09 / Disabled as announced.
+#Video Handlers
+#file = VideoHandlers/VideoHandlers.i18n.php
 
 Wall
 optional = wall-history-username-full, wall-history-username-short, mail-notification-subject, mail-notification-html-footer-line3
