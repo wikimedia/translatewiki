@@ -1232,6 +1232,11 @@ People Categories
 
 Pdf Book
 
+Pdf Export
+aliasfile = PdfExport/PdfExport.i18n.alias.php
+ignored = pdf_fontface_default, pdf_fontface_options
+ignored = pdf_size_default, pdf_size_options
+
 Pdf Handler
 descmsg = pdf-desc
 
