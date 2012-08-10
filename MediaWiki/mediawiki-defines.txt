@@ -687,6 +687,8 @@ Genderize
 
 Geo Data
 
+Geo Gebra
+
 GeoLite
 optional = geolite
 
