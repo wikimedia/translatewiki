@@ -660,6 +660,8 @@ Format Email
 descmsg = email-desc
 ignored = email_header
 
+Formel Applet
+
 Framed Video
 optional = framedvideo_position
 ignored = framedvideo_default_width, framedvideo_force_default_size, framedvideo_max_width, framedvideo_frames
