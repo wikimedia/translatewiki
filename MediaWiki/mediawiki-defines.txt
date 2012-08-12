@@ -689,7 +689,8 @@ Genderize
 
 Geo Data
 
-Geo Gebra
+# GeoGebra is a product name, therefore no space between the words
+GeoGebra
 
 GeoLite
 optional = geolite
