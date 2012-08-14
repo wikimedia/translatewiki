@@ -2076,6 +2076,8 @@ descmsg = wlfeed-desc
 Wiki Love
 optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
 
+Wiki Loves Monuments
+
 Wiki Object Model
 file = WikiObjectModel/languages/Messages.php
 descmsg = wom-desc
