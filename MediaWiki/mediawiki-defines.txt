@@ -1481,6 +1481,9 @@ ignored = sf_formedit_accesskey_saveandcontinueediting
 Semantic Forms Inputs
 optional = semanticformsinputs-dateformatlong, semanticformsinputs-dateformatshort, semanticformsinputs-firstdayofweek
 
+Semantic Genealogy
+optional = semanticgenealogy-gedcomexport-link
+
 Semantic Glossary
 
 Semantic Image Input
