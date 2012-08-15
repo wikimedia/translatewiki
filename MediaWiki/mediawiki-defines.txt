@@ -83,6 +83,7 @@ optional = articlefeedbackv5-bucket5-form-panel-helpimprove-email-placeholder, a
 optional = articlefeedbackv5-transparency-terms-url, articlefeedbackv5-privacyurl
 optional = articlefeedbackv5-activity-item-comment
 optional = articlefeedbackv5-help-tooltip-linkurl-editors, articlefeedbackv5-help-tooltip-linkurl-monitors, articlefeedbackv5-help-tooltip-linkurl-oversighters
+optional = articlefeedbackv5-permalink-info-subtitle
 ignored = articlefeedbackv5-pitch-survey-body, articlefeedbackv5-pitch-edit-body, articlefeedbackv5-special-sort-label-after, articlefeedbackv5-special-filter-label-after
 ignored = articlefeedbackv5-error-abuse-link
 ignored = articlefeedbackv5-noteflyover-hide-help-link, articlefeedbackv5-noteflyover-show-help-link, articlefeedbackv5-noteflyover-requestoversight-help-link
