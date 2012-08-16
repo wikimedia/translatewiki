@@ -29,7 +29,7 @@ $wgRightsIcon = "";
 
 $wgUseTidy = true;
 $wgSVGConverter = 'rsvg';
-$wgMaxShellMemory = 1024*200;
+$wgMaxShellMemory = 1024 * 200;
 
 ###
 # Names
@@ -84,8 +84,7 @@ $wgAllowUserCss          = true;
 $wgMinimalPasswordLength = 6;
 $wgBlockAllowsUTEdit     = true;
 $wgAutoConfirmAge        = 3600 * 24 * 14;
-require(dirname(__FILE__).'/PermissionSettings.php');
-#include("$IP/extensions/SimpleAntiSpam/SimpleAntiSpam.php");
+require( dirname( __FILE__ ) . '/PermissionSettings.php' );
 $wgAccountCreationThrottle = 1;
 
 ###
@@ -102,11 +101,8 @@ $wgStrictFileExtensions = true;
 # Extensions
 ###
 
-# To test reference tooltips r102160 -- 2011-11-09 Raymond
-#include("$IP/extensions/Cite/Cite.php");
-
-include("$IP/extensions/cldr/cldr.php");
-include("$IP/extensions/CleanChanges/CleanChanges.php");
+include( "$IP/extensions/cldr/cldr.php" );
+include( "$IP/extensions/CleanChanges/CleanChanges.php" );
 $wgCCUserFilter = true;
 $wgCCTrailerFilter = true;
 
@@ -118,10 +114,10 @@ $wgNamespaceAliases['Betawiki'] = NS_PROJECT;
 $wgNamespaceAliases['Betawiki_talk'] = NS_PROJECT_TALK;
 $wgMetaNamespace = 'Project';
 
-define( "NS_PORTAL", 100);
-define( "NS_PORTAL_TALK", 101);
-define( "NS_TRANSLATING", 1102);
-define( "NS_TRANSLATING_TALK", 1103);
+define( "NS_PORTAL", 100 );
+define( "NS_PORTAL_TALK", 101 );
+define( "NS_TRANSLATING", 1102 );
+define( "NS_TRANSLATING_TALK", 1103 );
 
 $wgNamespacesWithSubpages = array(
 	NS_MAIN             => true,
@@ -154,18 +150,18 @@ $wgContentNamespaces[] = NS_TRANSLATING;
 $wgNamespacesToBeSearchedDefault[NS_MAIN] = true;
 $wgNamespacesToBeSearchedDefault[NS_MEDIAWIKI] = true;
 
-include("$IP/extensions/I18nTags/I18nTags.php");
-include("$IP/extensions/Translate/Translate.php");
-require( __DIR__ . "/TranslateSettings.php");
+include( "$IP/extensions/I18nTags/I18nTags.php" );
+include( "$IP/extensions/Translate/Translate.php" );
+require( __DIR__ . "/TranslateSettings.php" );
 
-include( __DIR__ . "/nikext.php");
-include("$IP/extensions/Renameuser/Renameuser.php");
-include("$IP/extensions/ExpandTemplates/ExpandTemplates.php");
-include("$IP/extensions/ParserFunctions/ParserFunctions.php");
+include( __DIR__ . "/nikext.php" );
+include( "$IP/extensions/Renameuser/Renameuser.php" );
+include( "$IP/extensions/ExpandTemplates/ExpandTemplates.php" );
+include( "$IP/extensions/ParserFunctions/ParserFunctions.php" );
 $wgMaxIfExistCount = 300;
 $wgPFEnableStringFunctions = true;
 
-include("$IP/extensions/NewUserMessage/NewUserMessage.php");
+include( "$IP/extensions/NewUserMessage/NewUserMessage.php" );
 $wgNewUserSuppressRC = true;
 $wgNewUserMinorEdit = false;
 
@@ -176,8 +172,8 @@ $wgCaptchaTriggers['addurl']        = true;  // Check on edits that add URLs
 $wgCaptchaTriggers['createaccount'] = true;  // Special:Userlogin&type=signup
 $wgCaptchaTriggers['badlogin']      = true;  // Special:Userlogin after failure
 
-include("$IP/extensions/LanguageSelector/LanguageSelector.php");
-include("$IP/extensions/CharInsert/CharInsert.php");
+include( "$IP/extensions/LanguageSelector/LanguageSelector.php" );
+include( "$IP/extensions/CharInsert/CharInsert.php" );
 $wgLanguageSelectorDetectLanguage = LANGUAGE_SELECTOR_PREFER_CLIENT_LANG;
 $wgLanguageSelectorLocation = LANGUAGE_SELECTOR_MANUAL;
 $wgLanguageSelectorShowCode = true; # Nike 2009-09-01
@@ -187,7 +183,7 @@ $wgLanguageSelectorShowAll = true;
 require( "$IP/extensions/LiquidThreads/LiquidThreads.php" );
 
 # Just for fun
-include( "$IP/extensions/ContributionScores/ContributionScores.php");
+include( "$IP/extensions/ContributionScores/ContributionScores.php" );
 $wgContribScoreIgnoreBots = true;
 include( "$IP/extensions/Gadgets/Gadgets.php" );
 include( "$IP/extensions/UserMerge/UserMerge.php" );
@@ -208,7 +204,7 @@ $wgBabelCategoryNames = array(
 );
 $wgBabelMainCategory = 'User_%code%';
 include( "$IP/extensions/APC/APC.php" );
-include( "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php");
+include( "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php" );
 include( "$IP/extensions/Validator/Validator.php" ); # Added by Siebrand 2009-11-30
 include( "$IP/extensions/Interwiki/Interwiki.php" ); # Added by Raymond 2009-01-07
 include( "$IP/extensions/Nuke/Nuke.php" ); # Nike 2009-01-12
@@ -216,13 +212,13 @@ include( "$IP/extensions/ReplaceText/ReplaceText.php" ); # Added: Siebrand 2009-
 include( "$IP/extensions/WebFonts/WebFonts.php" );
 
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
-include_once("$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php");
-enableSemantics('translatewiki.net');
+include_once( "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php" );
+enableSemantics( 'translatewiki.net' );
 // Threads
 $smwgNamespacesWithSemanticLinks[NS_LQT_THREAD] = true;
 $smwgNamespacesWithSemanticLinks[NS_LQT_SUMMARY] = true;
 
-include_once("$IP/extensions/SemanticForms/SemanticForms.php");
+include_once( "$IP/extensions/SemanticForms/SemanticForms.php" );
 $sfgRedLinksCheckOnlyLocalProps = true;
 
 include( "$IP/extensions/Maps/Maps.php" ); # Added by Siebrand 2009-11-11
@@ -325,9 +321,9 @@ $wgExtraLanguageNames['qqq']       = 'Message documentation'; # No linguistic co
 $wgExtraLanguageNames['ike']       = 'ᐃᓄᒃᑎᑐᑦ/inuktitut'; # Dunny to have portal appear in Special:SupportedLanguages
 
 # Usability Initiative extensions -- 2010-01-21 by Raymond
-include("$IP/extensions/Vector/Vector.php");
+include( "$IP/extensions/Vector/Vector.php" );
 
-include("$IP/extensions/WikiEditor/WikiEditor.php"); # Re-enabled by Siebrand / 2011-08-30
+include( "$IP/extensions/WikiEditor/WikiEditor.php" ); # Re-enabled by Siebrand / 2011-08-30
 $wgWikiEditorModules = array(
 	'toolbar' => array( 'global' => false, 'user' => true ),
 	'highlight' => array( 'global' => false, 'user' => true ),
@@ -341,10 +337,10 @@ $wgWikiEditorModules = array(
 $wgVectorUseIconWatch = true;
 
 # Just for fun, I guess --- 2009-08-13 --Nike
-include("$IP/extensions/UserOptionStats/UserOptionStats.php" );
+include( "$IP/extensions/UserOptionStats/UserOptionStats.php" );
 
 # 2011-02-23 -- Raymond
-require("$IP/extensions/Narayam/Narayam.php");
+require( "$IP/extensions/Narayam/Narayam.php" );
 $wgNarayamEnabledByDefault = false;
 $wgNarayamUseBetaMapping = true;
 
@@ -394,13 +390,13 @@ $wgDeprecationReleaseLimit = '1.17';
 # Dynamic code starts here
 
 if ( $wgArticlePath !== "/wiki/$1" ) {
-	$wgHooks['SiteNoticeAfter'] = array('nbwWarn');
+	$wgHooks['SiteNoticeAfter'] = array( 'nbwWarn' );
 }
 
 function nbwWarn( &$siteNotice ) {
 	$siteNotice = "
-<big align=\"center\" dir='ltr'><b>This is not a production site!
-Go to <a href='http://translatewiki.net'>translatewiki.net</a>!</b></big>";
+<big align=\"center\" dir='ltr'><strong>This is not a production site!
+Go to <a href='http://translatewiki.net'>translatewiki.net</a>!</strong></big>";
         return true;
 }
 

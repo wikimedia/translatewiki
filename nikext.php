@@ -26,9 +26,9 @@ function uiExtraMagicHookRaw( &$raw ) {
 
 function uiExtraMagicHookSwitch( &$parser, &$varCache, &$index, &$ret ) {
 	global $wgLang;
-	if( $index === 'MAG_UILANGCODEx' ) {
+	if ( $index === 'MAG_UILANGCODEx' ) {
 		$ret = $varCache[$index] = $wgLang->getCode();
-	} elseif( $index === 'MAG_UILANGx' ) {
+	} elseif ( $index === 'MAG_UILANGx' ) {
 		$ret = $varCache[$index] = 'puga';
 	}
 	return true;

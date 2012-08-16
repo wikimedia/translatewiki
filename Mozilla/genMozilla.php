@@ -90,7 +90,7 @@ PHP;
 		// Add config for each file.
 		foreach ( $files as $file ) {
 			// Exclude some files.
-			if( in_array( $file, $excludedFiles ) ) {
+			if ( in_array( $file, $excludedFiles ) ) {
 				echo "excluding $file\n";
 				continue;
 			}
