@@ -1883,6 +1883,9 @@ optional = mwe-upwiz-license-custom-url
 
 Unicode Converter
 
+Universal Language Selector
+descmsg = uls-desc
+
 Uniwiki - Authors
 id = ext-uniwiki-authors
 file = uniwiki/Authors/Authors.i18n.php
