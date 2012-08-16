@@ -129,6 +129,8 @@ aliasfile = BadImage/BadImage.alias.php
 Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
+Biblio Plus
+
 Boiler Plate
 file = examples/BoilerPlate/BoilerPlate.i18n.php
 
