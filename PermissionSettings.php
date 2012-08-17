@@ -49,7 +49,6 @@ $wgGroupPermissions['import'       ]['importupload']            = true;
 
 $wgGroupPermissions['sysop'        ]['import']                  = false;
 $wgGroupPermissions['sysop'        ]['importupload']            = false;
-$wgGroupPermissions['sysop'        ]['replacetext']             = false; // Why doesn't this work?
 $wgGroupPermissions['sysop'        ]['suppressredirect']        = true;
 
 $wgGroupPermissions['bureaucrat'   ]['renameuser']              = false;

@@ -86,7 +86,6 @@ $wgAllowUserCss          = true;
 $wgMinimalPasswordLength = 6;
 $wgBlockAllowsUTEdit     = true;
 $wgAutoConfirmAge        = 3600 * 24 * 14;
-require( dirname( __FILE__ ) . '/PermissionSettings.php' );
 $wgAccountCreationThrottle = 1;
 
 ###
@@ -389,6 +388,8 @@ $wgResourceLoaderExperimentalAsyncLoading = true; // Nike 2012-01-11
 # Added 2012-02-13 by Raymond
 $wgDeprecationReleaseLimit = '1.17';
 
+$wgFooterIcons['poweredby']['netcup'] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
+
 # Dynamic code starts here
 
 if ( $wgArticlePath !== "/wiki/$1" ) {
@@ -413,8 +414,6 @@ function cleanUrlExceptions( &$title, &$url, $query ) {
 	}
 	return true;
 }
-
-$wgFooterIcons['poweredby']['netcup'] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
 
 $wgExtensionFunctions[] = 'banAmp';
 function banAmp() {
