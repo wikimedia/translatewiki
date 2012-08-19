@@ -1,0 +1,20 @@
+BASIC:
+  description: "The help pages of the Waymarked Trails web sites: http://waymarkedtrails.org/help/about"
+  id: out-waymarked-trails-help
+  label: Waymarked Trails Help
+  namespace: NS_OSM
+  class: FileBasedMessageGroup
+  codeBrowser: https://github.com/lonvia/waymarked-trails-site/blob/master/django/%FILE%#L%LINE%
+
+MANGLER:
+  class: StringMatcher
+  prefix: wmthelp-
+  patterns:
+    - "*"
+
+FILES:
+  class: YamlFFS
+  sourcePattern: %GROUPROOT%/waymarked-trails-site/django/locale/%CODE%/helppages.yaml
+  definitionFile: %GROUPROOT%/waymarked-trails-site/django/locale/qot/helppages.yaml
+  targetPattern: waymarked-trails-site/django/locale/%CODE%/helppages.yaml
+
