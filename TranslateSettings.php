@@ -91,7 +91,7 @@ function setupMediaWiki( &$cc ) {
 	$changed = array(
 		'1.19' => array(
 			'recentchangestext',
-		), // Checked up to 58852d882752b46a1c2b79d2476489dfbc978f5f
+		), // Checked up to 56bcc643db15a3edfb5d72c284d667e9e2101061
 		'1.18' => array(
 			'editinguser', 'defemailsubject', 'file-nohires', 'show-big-image-preview',
 			'show-big-image-other', 'seconds-abbrev', 'minutes-abbrev', 'hours-abbrev',
@@ -100,7 +100,7 @@ function setupMediaWiki( &$cc ) {
 			'prefs-watchlist-days-max', 'longpageerror',
 			// From 1.19
 			'recentchangestext',
-		), // Checked up to r112918
+		),
 	);
 
 	$branches = array_keys( $changed );
