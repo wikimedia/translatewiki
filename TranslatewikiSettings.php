@@ -380,6 +380,9 @@ $wgAllowPageInfo = true;
 $wgAllowCopyUploads         = true;
 
 $wgDefaultUserOptions['usenewrc'] = 1;
+$wgDefaultUserOptions['lqtnotifytalk'] = true;
+$wgDefaultUserOptions['watchcreations'] = true;
+
 $wgResourceLoaderValidateJS = false;
 #$wgIncludeLegacyJavaScript = false;
 $wgLegacyJavaScriptGlobals = false;
