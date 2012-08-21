@@ -210,7 +210,8 @@ include( "$IP/extensions/Validator/Validator.php" ); # Added by Siebrand 2009-11
 include( "$IP/extensions/Interwiki/Interwiki.php" ); # Added by Raymond 2009-01-07
 include( "$IP/extensions/Nuke/Nuke.php" ); # Nike 2009-01-12
 include( "$IP/extensions/ReplaceText/ReplaceText.php" ); # Added: Siebrand 2009-04-25.
-include( "$IP/extensions/WebFonts/WebFonts.php" );
+# Disabled 2012-08-21 / Siebrand / Included in ULS now.
+#include( "$IP/extensions/WebFonts/WebFonts.php" );
 
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
 include_once( "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php" );
@@ -380,6 +381,8 @@ $wgAllowPageInfo = true;
 $wgAllowCopyUploads         = true;
 
 $wgDefaultUserOptions['usenewrc'] = 1;
+# Disabled 2012-08-20 / Nike / Too spammy/buggy.
+#$wgDefaultUserOptions['lqtnotifytalk'] = true;
 $wgDefaultUserOptions['watchcreations'] = true;
 
 $wgResourceLoaderValidateJS = false;
