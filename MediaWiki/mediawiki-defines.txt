@@ -2057,7 +2057,7 @@ Wikibase - Repo
 file = Wikibase/repo/Wikibase.i18n.php
 descmsg = wikibase-desc
 aliasfile = Wikibase/repo/Wikibase.i18n.alias.php
-optional = wikibase-itemlink, wikibase-itemlink-id-wrapper, wikibase-itemlink-title
+optional = wikibase-itemlink, wikibase-itemlink-id-wrapper, wikibase-itemlink-title, wikibase-propertyedittool-counter-pending-pendingsubpart
 
 Wikidata
 file = Wikidata/Wikidata.i18n.php
