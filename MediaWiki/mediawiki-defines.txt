@@ -1751,6 +1751,8 @@ descmsg = syntaxhighlight-desc
 
 Tab0
 
+Tabber
+
 Talk Here
 ignored = talkhere-title, talkhere-headtext, talkhere-afterinput
 ignored = talkhere-afterform
