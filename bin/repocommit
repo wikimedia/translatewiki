@@ -220,7 +220,7 @@ then
 elif [ "$PROJECT" = "wikiblame" ]
 then
 	cd $PROJECT
-	svn propset -q svn:eol-style native *..php
+	svn propset -q svn:eol-style native *.php
 	svn diff | less
 	svn commit --message "$COMMITMSG"
 	cd ..
