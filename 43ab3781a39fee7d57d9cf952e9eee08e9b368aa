@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARX//0v4\u003d",
+        "filename": "bin/repocommit",
+        "patchSetId": 1
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 27
+      },
+      "writtenOn": "2012-08-23T23:09:33Z",
+      "side": 1,
+      "message": "find . -name *.i18n.php -exec svn propset -q svn:eol-style native \\{\\} \\;",
+      "revId": "43ab3781a39fee7d57d9cf952e9eee08e9b368aa",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//0v0\u003d",
+        "filename": "bin/repocommit",
+        "patchSetId": 1
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 27
+      },
+      "writtenOn": "2012-08-23T23:09:33Z",
+      "side": 1,
+      "message": "Too many dots",
+      "revId": "43ab3781a39fee7d57d9cf952e9eee08e9b368aa",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
