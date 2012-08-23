@@ -1,0 +1,1 @@
+tail -n 1000 /www/sandwiki/logs/error_php | grep -e "^[[]" | cut -d" " -f 3- | sort | uniq -c | sort -n

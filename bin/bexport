@@ -1,0 +1,2 @@
+cd /www/w/extensions/Translate/scripts
+php export.php --target=$HOME/export --group=$1 --lang="$2"

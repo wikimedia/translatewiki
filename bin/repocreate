@@ -1,0 +1,282 @@
+#!/bin/bash
+set -e
+
+PROJECT=$1
+DIR=$2
+: ${DIR:=`pwd`}
+source /home/betawiki/bin/findexportroot
+cd "$DIR"
+
+echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> /home/betawiki/logs/repo
+
+if [ "$PROJECT" = "eol" ]
+then
+	if [ -z "$REPO_EOL" ]
+	then echo "Add REPO_EOL to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_EOL" $PROJECT
+
+elif [ "$PROJECT" = "freecol" ]
+then
+	if [ -z "$REPO_FREECOL" ]
+	then echo "Add REPO_FREECOL to REPOCONF"; exit 1
+	fi
+	svn checkout "$REPO_FREECOL" $PROJECT
+
+elif [ "$PROJECT" = "fudforum" ]
+then
+	if [ -z "$REPO_FUDFORUM" ]
+	then echo "Add REPO_FUDFORUM to REPOCONF"; exit 1
+	fi
+	svn checkout "$REPO_FREECOL" $PROJECT
+
+# Todo: iHRIS
+
+elif [ "$PROJECT" = "kiwix" ]
+then
+	if [ -z "$REPO_KIWIX" ]
+	then echo "Add REPO_KIWIX to REPOCONF"; exit 1
+	fi
+	svn checkout "$REPO_KIWIX" $PROJECT
+
+elif [ "$PROJECT" = "mantis" ]
+then
+	if [ -z "$REPO_MANTIS" ]
+	then echo "Add REPO_MANTIS to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_MANTIS"
+	cd mantisbt
+	git checkout -q --track origin/${REPO_MANTIS_BRANCH}
+	cd ..
+
+elif [ "$PROJECT" = "mediawiki" ]
+then
+	if [ -z "$REPO_MEDIAWIKI" ]
+	then echo "Add REPO_MEDIAWIKI to REPOCONF"; exit 1
+	fi
+
+	if [ -z "$REPO_MEDIAWIKI_BRANCHES" ]
+	then echo "Add REPO_MEDIAWIKI_BRANCHES to REPOCONF"; exit 1
+	fi
+
+	if [ "$REPO_RW" = "yes" ]
+	then ssh-add /home/betawiki/id_rsa
+	fi
+
+
+	mkdir -p $PROJECT
+	cd $PROJECT
+	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
+	do
+		git clone "$REPO_MEDIAWIKI" "$BRANCH" -b "$BRANCH"
+		if [ "$REPO_RW" = "yes" ]
+		then
+			cd "$BRANCH"
+			git config user.name 'Translation updater bot'
+			git config user.email 'l10n-bot@translatewiki.net'
+			git config gitreview.username 'l10n-bot'
+			git review -s
+			cd ..
+		fi
+	done
+
+elif [ "$PROJECT" = "mediawiki-extensions" ]
+then
+	if [ -z "$REPO_MWEXTSVN" ]
+	then echo "Add REPO_MWEXTSVN to REPOCONF"; exit 1
+	fi
+
+	mkdir -p $PROJECT
+	cd $PROJECT
+	svn checkout "$REPO_MWEXTSVN" --depth empty
+
+elif [ "$PROJECT" = "mifos" ]
+then
+	if [ -z "$REPO_MIFOS" ]
+	then echo "Add REPO_MIFOS to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_MIFOS" $PROJECT
+
+elif [ "$PROJECT" = "mozilla" ]
+then
+	PROJECT="${PROJECT}"
+	# Only need source language when not read-write
+	if [ -z "$REPO_RW" ]
+	then
+		if [ -z "$REPO_MOZILLA_SOURCELANG" ]
+		then echo "Add REPO_MOZILLA_SOURCELANG to REPOCONF"; exit 1
+		fi
+
+		# Check out source language and create structure.
+		mkdir $PROJECT
+		cd $PROJECT
+		# Clone mozilla aurora
+		hg clone $REPO_MOZILLA_SOURCELANG
+		# Create source language folder and create symlinked structure for source files.
+		mkdir en
+		cd en
+		ln -s ../mozilla-aurora/browser/locales/en-US/ browser
+		ln -s ..//mozilla-aurora/toolkit/locales/en-US/ toolkit
+		ln -s ..//mozilla-aurora/dom/locales/en-US dom
+		mkdir security
+		cd security
+		ln -s ../../mozilla-aurora/security/manager/locales/en-US manager
+		cd ${DIR}
+	fi
+
+	# Check if REPO_MOZILLA_SUPPORTEDLANG is set. Makes little sense to NOT set it.
+	# Should look like: REPO_MOZILLA_SUPPORTEDLANG="fr he gu-IN", depending on
+	# actually maintained or supported languages. Use actual repo codes, as those
+	#  are mapped to the correct MediaWiki code using codeMap.
+	if [ -z "$REPO_MOZILLA_SUPPORTEDLANG" ]
+		then echo "Add REPO_MOZILLA_SUPPORTEDLANG to REPOCONF as currently no languages are supported"; exit 1
+	fi
+
+	cd ${DIR}/${PROJECT}
+	for LANG in $REPO_MOZILLA_SUPPORTEDLANG
+	do
+		if [ "$REPO_RW" = "yes" ]
+		then
+			if [ -z "$REPO_MOZILLA_RW" ]
+			then echo "Add REPO_MOZILLA_RW to REPOCONF (URL except language code with trailing slash to commit to)"; exit 1
+			fi
+
+			hg clone ${REPO_MOZILLA_RW}${LANG}
+			# Make it possible to use "hg strip".
+			echo -e "\n[extensions]\nmq =" >> ${LANG}/.hg/hgrc
+		else
+			hg clone http://hg.mozilla.org/releases/l10n/mozilla-aurora/${LANG}
+		fi
+	done
+
+elif [ "$PROJECT" = "mwlib" ]
+then
+	if [ "$REPO_RW" = "yes" ]
+	then
+		if [ -z "$REPO_MWLIB" ]
+		then echo "Add REPO_MWLIB to REPOCONF"; exit 1
+		fi
+		git clone "$REPO_MWLIB" $PROJECT
+	fi
+
+	if [ -z "$REPO_MWLIBRL" ]
+	then echo "Add REPO_MWLIBRL to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_MWLIBRL" mwlib.rl
+
+elif [ "$PROJECT" = "okawix" ]
+then
+	if [ -z "$REPO_OKAWIX" ]
+	then echo "Add REPO_OKAWIX to REPOCONF"; exit 1
+	fi
+	svn checkout "$REPO_OKAWIX" $PROJECT
+
+elif [ "$PROJECT" = "openimages" ]
+then
+	if [ -z "$REPO_OPENIMAGES" ]
+	then echo "Add REPO_OPENIMAGES to REPOCONF"; exit 1
+	fi
+	svn checkout "$REPO_OPENIMAGES" $PROJECT
+
+elif [ "$PROJECT" = "osm" ]
+then
+	if [ -z "$REPO_OSM" ]
+	then echo "Add REPO_OSM to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_OSM" $PROJECT
+	if [ -z "$REPO_POTLATCH2" ]
+	then echo "Add REPO_POTLATCH2 to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_POTLATCH2" potlatch2
+
+elif [ "$PROJECT" = "pywikipedia" ]
+then
+	if [ -z "$REPO_PYWIKIPEDIA" ]
+	then echo "Add REPO_PYWIKIPEDIA to REPOCONF"; exit 1
+	fi
+	svn checkout "$REPO_PYWIKIPEDIA" $PROJECT
+
+elif [ "$PROJECT" = "shapado" ]
+then
+	if [ -z "$REPO_SHAPADO" ]
+	then echo "Add REPO_MIFOS to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_SHAPADO" $PROJECT
+
+elif [ "$PROJECT" = "statusnet" ]
+then
+	if [ -z "$REPO_STATUSNET" ]
+	then echo "Add REPO_STATUSNET to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_STATUSNET" $PROJECT
+	cd $PROJECT
+	git checkout -q --track origin/${REPO_STATUSNET_BRANCH}
+	cd ..
+
+elif [ "$PROJECT" = "toolserver" ]
+then
+	if [ -z "$REPO_TOOLSERVER" ]
+	then echo "Add REPO_TOOLSERVER to REPOCONF"; exit 1
+	fi
+	svn checkout "$REPO_TOOLSERVER" $PROJECT
+
+elif [ "$PROJECT" = "waymarked-trails-site" ]
+then
+	if [ -z "$REPO_WAYMARKEDTRAILS" ]
+	then echo "Add REPO_WAYMARKEDTRAILS to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_WAYMARKEDTRAILS" $PROJECT
+
+elif [ "$PROJECT" = "wikia" ]
+then
+	if [ -z "$REPO_WIKIA" ]
+	then echo "Add REPO_WIKIA to REPOCONF"; exit 1
+	fi
+	svn checkout "$REPO_WIKIA" $PROJECT
+
+elif [ "$PROJECT" = "wikiblame" ]
+then
+	if [ -z "$REPO_WIKIBLAME" ]
+	then echo "Add REPO_WIKIBLAME to REPOCONF"; exit 1
+	fi
+	svn checkout "$REPO_WIKIBLAME" $PROJECT
+
+elif [ "$PROJECT" = "WikipediaMobile" ]
+then
+	if [ -z "$REPO_WIKIPEDIAMOBILE" ]
+	then echo "Add REPO_WIKIPEDIAMOBILE to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_WIKIPEDIAMOBILE" $PROJECT
+
+elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
+then
+	if [ -z "$REPO_WIKIPEDIAMOBILE" ]
+	then echo "Add REPO_WIKIPEDIAMOBILEJ2ME to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_WIKIPEDIAMOBILEJ2ME" $PROJECT
+
+elif [ "$PROJECT" = "wikireader" ]
+then
+	if [ -z "$REPO_WIKIREADER" ]
+	then echo "Add REPO_WIKIREADER to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_WIKIREADER" $PROJECT
+
+elif [ "$PROJECT" = "WiktionaryMobile" ]
+then
+	if [ -z "$REPO_WIKTIONARYMOBILE" ]
+	then echo "Add REPO_WIKTIONARYMOBILE to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_WIKTIONARYMOBILE" $PROJECT
+
+elif [ "$PROJECT" = "WLMMobile" ]
+then
+	if [ -z "$REPO_WLMMOBILE" ]
+	then echo "Add REPO_WLMMOBILE to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_WLMMOBILE" $PROJECT
+
+else
+	echo "Unknown project"
+fi
+

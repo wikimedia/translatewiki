@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+umask 0002
+
+# OpenImages always requires manual confirmation of the repo fingerprint, so
+# disabled. Siebrand / 2012-04-11
+
+
+for PROJECT in eol freecol fudforum ihris kiwix mantis mifos mwlib okawix osm pywikipedia shapado statusnet toolserver waymarked-trails-site wikia wikiblame WikipediaMobile WikipediaMobileJ2ME wikireader WiktionaryMobile WLMMobile
+do
+	echo "Updating ${PROJECT}..."
+	/home/betawiki/bin/repo update "$PROJECT" && echo "$PROJECT done!" &
+done
+wait
+echo "All projects updated!"
+/home/betawiki/bin/createmi
+php /www/w/extensions/Translate/scripts/sync-group.php --lang=en,qqq --noask --group=wikia-* &
+php /www/w/extensions/Translate/scripts/sync-group.php --lang=en,qqq --noask --group=tsint-* &
+wait
+echo "Wikia and Toolserver synchronised. Have a look at https://translatewiki.net/wiki/Special:Contributions/FuzzyBot"
+php /www/w/extensions/Translate/scripts/processMessageChanges.php
+echo "Really. Go to https://translatewiki.net/wiki/Special:ManageMessageGroups for the last bits"

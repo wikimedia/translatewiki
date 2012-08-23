@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+umask 0002
+
+COMMAND=$1
+PROJECT=$2
+DIR=/resources/projects
+
+echo "$(date --rfc-3339=seconds --utc) [$(whoami)] $0 $@" >> /home/betawiki/logs/repo
+
+sudo -u betawiki "/home/betawiki/bin/repo$COMMAND" "$PROJECT" "$DIR"

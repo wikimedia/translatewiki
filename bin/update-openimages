@@ -1,0 +1,8 @@
+#!/bin/sh
+# ensure correct permissions
+umask 0002
+
+DIR=/home/betawiki/projects/
+cd $DIR/openimages
+sudo -u betawiki svn up
+

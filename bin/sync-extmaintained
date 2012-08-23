@@ -1,0 +1,4 @@
+# Siebrand / 2008-07-13
+# sync externally maintained languages to local database
+cd /www/w/extensions/Translate/scripts
+php sync-group.php --group=$1 --lang=en,qqq

@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Will exit if anything goes wrong
+set -e
+# ensure correct permissions
+umask 0002
+# Save current directory
+pushd .
+
+DIR="/resources/projects/mediawiki"
+
+if [ ! -d "$DIR/$BRANCH" ]; then
+	mkdir "$DIR/$BRANCH"
+fi
+cd $DIR
+
+# Iterate over all the branches we want to have a copy of
+for BRANCH in master REL1_19 REL1_18 REL1_17
+do
+
+	if [ ! -d "$DIR/$BRANCH" ]; then
+		echo "Missing '$DIR/$BRANCH'. Cloning!"
+		sudo -u betawiki git clone https://gerrit.wikimedia.org/r/p/mediawiki/core.git -d $BRANCH $BRANCH
+	fi
+
+	# Save current directory
+	pushd .
+	echo "Going to update $BRANCH..."
+	cd "$DIR/$BRANCH"
+	sudo -u betawiki git pull --rebase
+
+	# Restore directory
+	popd
+done
+
+# Restore directory
+popd

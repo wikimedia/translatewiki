@@ -1,0 +1,318 @@
+#!/bin/bash
+set -e
+
+PROJECT=$1
+DIR=$2
+: ${DIR:=`pwd`}
+source /home/betawiki/bin/findexportroot
+cd "$DIR"
+
+WIKI=/www/w
+
+echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> /home/betawiki/logs/repo
+
+gitupdate() {
+	local dir=$1
+	cd $dir
+	git fetch -q --all
+	git reset -q --hard
+	git clean -q -f -d
+	git pull -q
+	cd ..
+}
+
+
+if [ "$PROJECT" = "eol" ]
+then
+	cd $PROJECT
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "freecol" ]
+then
+	svn up $PROJECT
+
+elif [ "$PROJECT" = "fudforum" ]
+then
+	svn up $PROJECT
+
+elif [ "$PROJECT" = "ihris" ]
+then
+	MODULES="i2ce ihris-common ihris-manage ihris-qualify"
+	cd $PROJECT
+	for i in $MODULES
+	do
+		cd $i
+		bzr pull
+		bzr update
+		cd ..
+	done
+
+elif [ "$PROJECT" = "kiwix" ]
+then
+	svn up $PROJECT
+
+elif [ "$PROJECT" = "mantis" ]
+then
+	cd mantisbt
+	git checkout -q $REPO_MANTIS_BRANCH
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "mediawiki" ]
+then
+	if [ -z "$REPO_MEDIAWIKI_BRANCHES" ]
+	then echo "Add REPO_MEDIAWIKI_BRANCHES to REPOCONF"; exit 1
+	fi
+
+	cd $PROJECT
+	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
+	do
+		cd "$BRANCH"
+		git fetch -q --all
+		git reset -q --hard "origin/$BRANCH"
+		git clean -q -f -d
+		cd ..
+	done
+	cd ..
+
+	wait
+	if [ "$DIR" = "/resources/projects" ]
+	then
+		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || /home/betawiki/bin/udpcast Message index creation failed &
+	fi
+
+elif [ "$PROJECT" = "mediawiki-extensions" ]
+then
+	if [ -z "$REPO_MWEXTGIT" ]
+	then echo "Add REPO_MWEXTGIT to REPOCONF"; exit 1
+	fi
+
+	cd $PROJECT
+	cd extensions
+
+	echo "Updating git extensions"
+	EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(Gitweb|SelectTag.tag|TranslationNotifcations)")
+	for EXTENSION in $EXTENSIONS
+	do
+		echo "Checking $EXTENSION"
+
+		if [ ! -d "$EXTENSION/.git" ]
+		then
+			if [ -d "$EXTENSION" ]
+			then
+				svn up --set-depth exclude "$EXTENSION"
+				rm -rf "$EXTENSION"
+			fi
+
+			git clone "$REPO_MWEXTGIT/$EXTENSION.git" "$EXTENSION"
+
+			if [ "$REPO_RW" = "yes" ]
+			then
+				cd "$EXTENSION"
+				git config user.name 'Translation updater bot'
+				git config user.email 'l10n-bot@translatewiki.net'
+				git config gitreview.username 'l10n-bot'
+				if [ ! -e ".gitreview" ]
+				then
+					git remote add -f gerrit "$REPO_MWEXTGIT/$EXTENSION.git"
+				fi
+				git review -s
+				cd ..
+			fi
+
+		else
+			cd "$EXTENSION"
+			git fetch -q --all && git reset -q --hard origin/master && git clean -q -f -d &
+			sleep 0.4
+			cd ..
+		fi
+	done
+
+	echo "Updating svn"
+	FILES=$(php "$WIKI/extensions/Translate/scripts/list-mwext-i18n-files.php" --group 'ext-*')
+	for FILE in $FILES
+	do
+		if [ ! -f "$FILE" -a ! -d "$FILE" ]
+		then svn up --depth empty "$FILE"
+		fi
+	done
+	svn up .
+
+	wait
+	if [ "$DIR" = "/resources/projects" ]
+	then
+		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || /home/betawiki/bin/udpcast Message index creation failed &
+	fi
+
+elif [ "$PROJECT" = "mifos" ]
+then
+	cd $PROJECT
+	git fetch -q --all
+	git reset -q --hard
+	git clean -q -f -d
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "mozilla" ]
+then
+	# This does not make sense if there are no supported languages.
+	if [ -z "${REPO_MOZILLA_SUPPORTEDLANG}" ]
+	then echo "Add REPO_MOZILLA_SUPPORTEDLANG to REPOCONF as currently no languages are supported"; exit 1
+	fi
+
+	cd ${PROJECT}
+
+	for LANG in ${REPO_MOZILLA_SUPPORTEDLANG}
+	do
+		# Check if language has already been cloned. If not, do that.
+		if [ ! -d "${LANG}" ]
+		then
+			echo "${LANG} was not yet cloned. Cloning..."
+			if [ "$REPO_RW" = "yes" ]
+			then
+				hg clone ${REPO_MOZILLA_RW}${LANG}
+				# Make it possible to use "hg strip".
+				echo -e "\n[extensions]\nmq =" >> ${LANG}/.hg/hgrc
+			else
+				hg clone http://hg.mozilla.org/releases/l10n/mozilla-aurora/${LANG}
+			fi
+		fi
+
+		cd ${LANG}
+
+		if [ "$REPO_RW" = "yes" ]
+		then
+			# Undo local uncommitted changes.
+			hg update -C
+			# Revert back to latest repo version.
+			while [ `b hg outgoing -l 1 |grep changeset |cut -d: -f2 |tr -d ' '` ]
+			do
+				REV=`b hg outgoing -l 1 |grep changeset |cut -d: -f2 |tr -d ' '`
+				hg strip $REV
+				echo "$REV stripped"
+			done
+		fi
+
+		hg pull -u
+		cd ..
+	done
+
+	# Update the source language.
+	if [ -z "$REPO_RW" ]
+	then
+		cd mozilla-aurora
+		hg update -C
+		hg pull -u
+	fi
+
+elif [ "$PROJECT" = "mwlib" ]
+then
+	if [ "$REPO_RW" = "yes" ]
+	then
+		cd $PROJECT
+		git pull -q
+		cd ..
+	fi
+
+	cd mwlib.rl
+	git fetch -q --all
+	git reset -q --hard
+	git clean -q -f -d
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "okawix" ]
+then
+	svn up $PROJECT
+
+elif [ "$PROJECT" = "openimages" ]
+then
+	svn up $PROJECT
+
+elif [ "$PROJECT" = "osm" ]
+then
+	cd $PROJECT
+	git pull -q
+	cd ..
+	cd potlatch2
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "pywikipedia" ]
+then
+	svn up $PROJECT
+
+elif [ "$PROJECT" = "shapado" ]
+then
+	cd $PROJECT
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "statusnet" ]
+then
+	cd $PROJECT
+	git checkout -q $REPO_STATUSNET_BRANCH
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "toolserver" ]
+then
+	svn up $PROJECT
+
+elif [ "$PROJECT" = "waymarked-trails-site" ]
+then
+	cd $PROJECT
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "wikia" ]
+then
+	svn up $PROJECT
+
+elif [ "$PROJECT" = "wikiblame" ]
+then
+	svn up $PROJECT
+
+elif [ "$PROJECT" = "WikipediaMobile" ]
+then
+	cd $PROJECT
+	git fetch -q --all
+	git reset -q --hard
+	git clean -q -f -d
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
+then
+	cd $PROJECT
+	git fetch -q --all
+	git reset -q --hard
+	git clean -q -f -d
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "wikireader" ]
+then
+	cd $PROJECT
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "WiktionaryMobile" ]
+then
+	cd $PROJECT
+	git fetch -q --all
+	git reset -q --hard
+	git clean -q -f -d
+	git pull -q
+	cd ..
+
+elif [ "$PROJECT" = "WLMMobile" ]
+then
+	gitupdate "$PROJECT"
+
+else
+	echo "Unknown project"
+	exit 1
+fi
+

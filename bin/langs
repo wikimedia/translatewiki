@@ -1,0 +1,3 @@
+# provide a list of languages present in an i18n file, excluding English (en)
+# $1 is a file name
+grep \$messages $1 |cut -d\' -f2 |egrep -v "(mess|^en$)" |sort |tr '\n' ','|sed s/,$//

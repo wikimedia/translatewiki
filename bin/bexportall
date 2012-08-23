@@ -1,0 +1,26 @@
+#!/bin/bash
+
+EXPORTPATH=$HOME/export
+SCRIPTPATH=/www/w/extensions/Translate/scripts
+
+cd $SCRIPTPATH
+
+if [ "$#" -gt "2" ]; then
+	echo "Only two parameters allowed"
+	exit;
+fi
+
+# Export all iHRIS groups
+if [ $1 = 'ihris' ]; then
+	echo "Exporting all iHRIS groups in languages over 35%..."
+	php $SCRIPTPATH/export.php --target=$EXPORTPATH/ --lang='*' --skip=en,qqq --threshold=35 --ppgettext=/home/betawiki/projects --group=out-ihris*
+	echo "Done."
+	exit;
+fi
+
+if [ -z $2 ]; then
+	php export.php --target=$EXPORTPATH --skip=en --group=$1 --lang='*'
+else
+	echo "Only exporting more than $2% translated"
+	php export.php --target=$EXPORTPATH --skip=en --group=$1 --lang='*' --threshold=$2
+fi

@@ -1,0 +1,181 @@
+#!/bin/bash
+set -e
+
+PROJECT=$1
+DIR=$2
+: ${DIR:=`pwd`}
+source /home/betawiki/bin/findexportroot
+cd "$DIR"
+
+echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> /home/betawiki/logs/repo
+
+WIKI=/www/w
+EXPORTER=$WIKI/extensions/Translate/scripts/export.php
+SKIPLANGS="test, be-x-old, crh, de-ch, dk, en, fiu-vro, gan, got, hif, kbd, kk, kk-cn, iu, kk-kz, kk-tr, ko-kp, ku, ku-arab, no, ruq, simple, sr, tg, tp, tt, ug, zh, zh-classical, zh-cn, zh-sg, zh-hk, zh-min-nan, zh-mo, zh-my, zh-tw, zh-yue, bbc, ady"
+THRESHOLD="--threshold 35"
+HOURS="--hours 200" # Somewhat over week
+
+if [ "$PROJECT" = "eol" ]
+then
+	php "$EXPORTER" --target . --group=out-eol* --lang '*' --skip en $THRESHOLD
+
+elif [ "$PROJECT" = "freecol" ]
+then
+	php "$EXPORTER" --target . --group=out-freecol --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-freecol --lang qqq
+
+elif [ "$PROJECT" = "fudforum" ]
+then
+	php "$EXPORTER" --target . --group=out-fudforum --lang '*' --skip en $THRESHOLD
+
+# Todo: iHRIS
+
+elif [ "$PROJECT" = "kiwix" ]
+then
+	php "$EXPORTER" --target . --group=out-kiwix --lang '*' --skip en --threshold 80
+
+elif [ "$PROJECT" = "mantis" ]
+then
+	php "$EXPORTER" --target . --group=out-mantis-core --lang '*' --skip en $THRESHOLD &
+	php "$EXPORTER" --target . --group=out-mantis-plugin-* --lang '*' --skip en $THRESHOLD --codemaponly
+	wait
+
+elif [ "$PROJECT" = "mediawiki" ]
+then
+	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang '*' --skip "$SKIPLANGS" --threshold 18 --hours 168
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" --hours 168
+
+	if [ -d "mediawiki/REL1_19/" ]
+	then php "$EXPORTER" --target mediawiki/REL1_19/languages/messages --group 'core-1.19' --lang '*' --skip "$SKIPLANGS" --threshold 18
+	fi
+	if [ -d "mediawiki/REL1_18/" ]
+	then php "$EXPORTER" --target mediawiki/REL1_18/languages/messages --group 'core-1.18' --lang '*' --skip "$SKIPLANGS" --threshold 18
+	fi
+	if [ -d "mediawiki/REL1_17/" ]
+	then php "$EXPORTER" --target mediawiki/REL1_17/languages/messages --group 'core-1.17' --lang '*' --skip "$SKIPLANGS" --threshold 18
+	fi
+
+elif [ "$PROJECT" = "mediawiki-extensions" ]
+then
+	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=magic --quiet &
+	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=special --quiet &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-a*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-b*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-c*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-d*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-e*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-f*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-g*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-h*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-i*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-j*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-k*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-l*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-m*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-n*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-o*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-p*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-q*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-r*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-s*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-t*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-u*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-v*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-w*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-x*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-y*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-z*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	wait
+
+elif [ "$PROJECT" = "mifos" ]
+then
+	php "$EXPORTER" --target . --group='out-mifos-*' --lang '*' --skip en,qqq --threshold 20
+	php "$EXPORTER" --target . --group='out-mifos-*' --lang qqq
+
+elif [ "$PROJECT" = "mwlib" ]
+then
+	php "$EXPORTER" --target . --group=out-mwlibrl --lang '*' --skip en,qqq --threshold 10 $HOURS
+	php "$EXPORTER" --target . --group=out-mwlibrl --lang qqq
+
+	cd mwlib.rl
+	FILEDIR=`pwd`
+	CODES=$(echo mwlib/rl/locale/* | xargs -n1 basename | cat )
+	export PYTHONPATH=/usr/local/lib/python:$DIR/mwlib/
+	echo $CODES | xargs -n1 python make_messages.py
+
+elif [ "$PROJECT" = "okawix" ]
+then
+	php "$EXPORTER" --target . --group=out-okawix-* --lang '*' --skip en,qqq $THRESHOLD
+
+elif [ "$PROJECT" = "openimages" ]
+then
+	php "$EXPORTER" --target . --group=out-openimages-* --lang '*' --skip en,qqq $THRESHOLD
+
+elif [ "$PROJECT" = "osm" ]
+then
+	php "$EXPORTER" --target . --group=out-osm-* --lang '*' --skip en,qqq $THRESHOLD
+
+elif [ "$PROJECT" = "pywikipedia" ]
+then
+	php "$EXPORTER" --target . --group=out-pywikipedia* --lang '*' --threshold 1
+
+elif [ "$PROJECT" = "shapado" ]
+then
+	php "$EXPORTER" --target . --group=shapado* --lang '*' --skip en --threshold 50
+
+elif [ "$PROJECT" = "statusnet" ]
+then
+	cd $PROJECT
+	git pull -q
+	php scripts/update_po_templates.php
+	cd ..
+	php $EXPORTER --target . --group=out-statusnet-core --lang '*' --skip en,qqq $THRESHOLD --ppgettext ./ --no-location $HOURS &
+	php $EXPORTER --target . --group=out-statusnet-plugin* --lang '*' --skip en,qqq $THRESHOLD --ppgettext ./ --no-location $HOURS &
+	wait
+
+elif [ "$PROJECT" = "toolserver" ]
+then
+	php "$EXPORTER" --target ./toolserver --group=tsint* --lang '*'
+
+elif [ "$PROJECT" = "waymarked-trails-site" ]
+then
+	php "$EXPORTER" --target . --group=out-waymarked-trails --lang '*' --skip en,qqq --threshold 75 $HOURS
+	php "$EXPORTER" --target . --group=out-waymarked-trails --lang qqq $HOURS
+
+elif [ "$PROJECT" = "wikia" ]
+then
+	php "$EXPORTER" --target ./wikia --group=wikia-* --lang '*'
+
+elif [ "$PROJECT" = "wikiblame" ]
+then
+	php "$EXPORTER" --target . --group=out-wikiblame --lang '*' --skip en --threshold 1
+
+elif [ "$PROJECT" = "WikipediaMobile" ]
+then
+	php "$EXPORTER" --target . --group=out-wikipedia-mobile-phonegap --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikipedia-mobile-phonegap --lang qqq
+
+elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
+then
+	php "$EXPORTER" --target . --group=out-wikipedia-mobile-j2me --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikipedia-mobile-j2me --lang qqq
+
+elif [ "$PROJECT" = "wikireader" ]
+then
+	php "$EXPORTER" --target . --group=out-wikireader --lang '*' --skip en --threshold 1
+
+elif [ "$PROJECT" = "WiktionaryMobile" ]
+then
+	php "$EXPORTER" --target . --group=out-wiktionary-mobile --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wiktionary-mobile --lang qqq
+
+elif [ "$PROJECT" = "WLMMobile" ]
+then
+	php "$EXPORTER" --target . --group=out-wlm-mobile --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wlm-mobile --lang qqq
+
+else
+	echo "repoexport: Unknown project"
+	exit 1
+fi
+

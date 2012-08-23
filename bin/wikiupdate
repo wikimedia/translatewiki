@@ -1,0 +1,33 @@
+#!/bin/bash
+WIKINAME=$1
+WIKI=$2
+
+cd $WIKI
+
+echo "*** Updating core ***"
+git fetch --all
+git pull origin master
+
+cd extensions
+
+echo "*** Updating git extensions ***"
+for dir in *; do
+	if [ -d "$dir" ]; then
+		cd $dir
+		if [ -d ".git" ]; then
+			echo -n "$dir.. ";
+			git pull |grep -v Already &
+			sleep 0.4
+		fi
+		cd ..
+	fi
+done;
+
+wait
+echo -e "\n*** Rebuilding caches ***"
+#php $WIKI/extensions/Translate/scripts/createMessageIndex.php --quiet || /home/betawiki/bin/udpcast Message index creation failed &
+php $WIKI/maintenance/rebuildLocalisationCache.php --threads 12 --quiet &
+
+wait
+echo "*** All done ***"
+echo "Consider running git commit -a to commit local changes"

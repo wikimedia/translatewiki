@@ -1,0 +1,22 @@
+#!/bin/sh
+# ensure correct permissions
+umask 0002
+
+DIR=/home/betawiki/projects/ihris
+SUB=i2ce
+cd $DIR/$SUB
+sudo -u betawiki bzr pull
+sudo -u betawiki bzr update
+SUB=ihris-common
+cd $DIR/$SUB
+sudo -u betawiki bzr pull
+sudo -u betawiki bzr update
+SUB=ihris-manage
+cd $DIR/$SUB
+sudo -u betawiki bzr pull
+sudo -u betawiki bzr update
+SUB=ihris-qualify
+cd $DIR/$SUB
+sudo -u betawiki bzr pull
+sudo -u betawiki bzr update
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+# ensure correct permissions
+
+sudo -u betawiki php /www/w/extensions/Translate/scripts/createMessageIndex.php --quiet
+echo "Done."

@@ -1,0 +1,268 @@
+#!/bin/bash
+set -e
+
+PROJECT=$1
+DIR=$2
+: ${DIR:=`pwd`}
+source /home/betawiki/bin/findexportroot
+cd "$DIR"
+
+echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> /home/betawiki/logs/repo
+
+COMMITMSG="Localisation updates from http://translatewiki.net."
+
+gitcommit() {
+	local dir=$1
+	cd "$dir"
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+}
+
+if [ "$PROJECT" = "eol" ]
+then
+	cd $PROJECT
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "freecol" ]
+then
+	cd $PROJECT
+	svn add -q *.properties
+	svn propset -q svn:mime-type text/plain *.properties
+	svn propset -q svn:eol-style native *.properties
+	svn diff | less
+	svn commit --message "$COMMITMSG"
+	cd ..
+
+elif [ "$PROJECT" = "fudforum" ]
+then
+	cd $PROJECT
+	for i in `find . -name msg`
+	do
+		svn add -q $i
+		svn propset -q svn:mime-type text/plain $i
+		svn propset -q svn:eol-style native $i
+	done
+	svn diff | less
+	svn commit --message "$COMMITMSG"
+	cd ..
+
+# Todo: iHRIS
+
+elif [ "$PROJECT" = "kiwix" ]
+then
+	cd $PROJECT
+	svn add -q *
+	svn propset -q svn:mime-type text/plain *
+	svn propset -q svn:eol-style native *
+	svn diff | less
+	svn commit --message "$COMMITMSG"
+	cd ..
+
+elif [ "$PROJECT" = "mantis" ]
+then
+	cd mantisbt
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "mediawiki" ]
+then
+	if [ -z "$REPO_MEDIAWIKI_BRANCHES" ]
+	then echo "Add REPO_MEDIAWIKI_BRANCHES to REPOCONF"; exit 1
+	fi
+
+	cd $PROJECT
+	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
+	do
+		cd "$BRANCH"
+		git commit -a -v -e -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
+		cd ..
+	done
+	cd ..
+
+elif [ "$PROJECT" = "mediawiki-extensions" ]
+then
+	#ssh-add /home/betawiki/id_rsa
+	cd $PROJECT/extensions
+	for i in `ls`
+	do
+		if [ -d $i/.git ]
+		then
+			cd $i
+			git commit -a -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
+			cd ..
+		fi
+	done
+
+	svn diff | less
+	svn commit --message "$COMMITMSG"
+	cd ../..
+	for i in `ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit query --format=TEXT owner:l10n-bot status:open |grep "  url:" |cut -d/ -f5`
+	do
+		echo "Merging ${i}..."
+		ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit review $i,1 --code-review 2 --verified 1 --submit
+	done
+
+elif [ "$PROJECT" = "mifos" ]
+then
+	cd $PROJECT
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "mwlib" ]
+then
+	cd mwlib.rl
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "okawix" ]
+then
+	cd $PROJECT
+	svn add -q *
+	for i in `find . -name *.dtd`
+	do
+		svn propset -q svn:mime-type text/plain $i
+		svn propset -q svn:eol-style native $i
+	done
+	for i in `find . -name *.properties`
+	do
+		svn propset -q svn:mime-type text/plain $i
+		svn propset -q svn:eol-style native $i
+	done
+	svn diff | less
+	svn commit --message "$COMMITMSG"
+	cd ..
+
+elif [ "$PROJECT" = "openimages" ]
+then
+	cd $PROJECT
+	svn add -q *.properties
+	svn propset -q svn:mime-type text/plain *.properties
+	svn propset -q svn:eol-style native *.properties
+	svn diff | less
+	svn commit --message "$COMMITMSG"
+	cd ..
+
+elif [ "$PROJECT" = "osm" ]
+then
+	cd $PROJECT
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git
+	cd ..
+	cd potlatch2
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "pywikipedia" ]
+then
+	cd $PROJECT
+	svn propset -q svn:eol-style native *.py
+	svn diff | less
+	svn commit --message "$COMMITMSG"
+	cd ..
+
+elif [ "$PROJECT" = "shapado" ]
+then
+	cd $PROJECT
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "statusnet" ]
+then
+	cd $PROJECT
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "toolserver" ]
+then
+	cd $PROJECT
+	svn propset -q svn:eol-style native *.i18n.php
+	svn diff | less
+	svn commit --message "$COMMITMSG"
+	cd ..
+
+elif [ "$PROJECT" = "waymarked-trails-site" ]
+then
+	cd $PROJECT
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "wikia" ]
+then
+	cd $PROJECT
+	for i in `find . -name *.i18n.php`
+	do
+		svn propset -q svn:eol-style native $i
+	done
+	svn diff | less
+	svn commit --message "$COMMITMSG"
+	cd ..
+
+elif [ "$PROJECT" = "wikiblame" ]
+then
+	cd $PROJECT
+	svn propset -q svn:eol-style native *..php
+	svn diff | less
+	svn commit --message "$COMMITMSG"
+	cd ..
+
+elif [ "$PROJECT" = "WikipediaMobile" ]
+then
+	cd $PROJECT
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
+then
+	cd $PROJECT
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "wikireader" ]
+then
+	cd $PROJECT
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "WiktionaryMobile" ]
+then
+	cd $PROJECT
+	git add .
+	git commit -v -e -m "$COMMITMSG"
+	git push
+	cd ..
+
+elif [ "$PROJECT" = "WLMMobile" ]
+then
+	gitcommit "$PROJECT"
+
+else
+	echo "Unknown project"
+	exit 1
+fi
+

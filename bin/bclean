@@ -1,0 +1,2 @@
+rm -rf $HOME/export/*
+

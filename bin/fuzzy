@@ -1,0 +1,13 @@
+#!/bin/bash
+# fuzzy dry run
+# $1 message ID
+# $2 reason
+if [ "$#" -gt "2" ]; then
+        echo "Only two parameters allowed for fuzzy dry run:"
+        echo "\$1 is the message key (replace spaces by underscores; use a trailing /)"
+        echo "\$2 is the edit summary"
+	exit
+fi
+
+cd /www/w/extensions/Translate/scripts
+php fuzzy.php --skiplanguages=en,test,qqq $1 --comment="$2"

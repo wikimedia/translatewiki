@@ -1,0 +1,24 @@
+# Siebrand / 2008-02-09
+# should be run as user 'siebrand' because pywikipediabot checks ownership of user-config.py
+
+COMMAND="/usr/bin/php groupStatistics.php --skipzero --groups=out-pywikipedia-0-all --skiplanguages=test,qqq"
+STATSPAGE=$HOME/temp/pywikipedia
+
+# create basic stats file for groups 'most used', 'core', 'Wikimedia extensions', and 'All extensions'
+cd /www/w/extensions/Translate/scripts
+/usr/bin/nice $COMMAND > $STATSPAGE.txt
+
+# compile Wiki statistics page for pywikipedia bot
+/bin/echo "Start" > $STATSPAGE
+/bin/echo "StartTitleTranslating:Pywikipedia/statsStopTitle" >> $STATSPAGE
+/bin/echo "Stats on ~~~~~<br />" >> $STATSPAGE
+/bin/echo "<code>$COMMAND</code><br />" >> $STATSPAGE
+/bin/cat $STATSPAGE.txt >> $STATSPAGE
+/bin/echo "End" >> $STATSPAGE
+
+# upload stats page to translatewiki.net
+/usr/bin/python $HOME/i18n/pagefromfile.py -force -summary:"Updating statistics" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$STATSPAGE -start:Start -end:End
+
+# house keeping
+/bin/rm $STATSPAGE.txt
+/bin/rm $STATSPAGE

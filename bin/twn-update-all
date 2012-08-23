@@ -1,0 +1,17 @@
+#!/bin/bash
+
+WIKINAME="translatewiki.net"
+WIKI=/www/w
+
+cd $WIKI
+REV=`git log --pretty='%h %ci (%cr)' -n 1`
+udpcast "updating $WIKINAME from $REV..."
+
+cd config
+sudo -u betawiki git pull
+cd ..
+sudo -u betawiki /home/betawiki/bin/wikiupdate "$WIKINAME" "$WIKI"
+
+REV=`git log --pretty='%h %ci (%cr)' -n 1`
+udpcast "updated $WIKINAME to $REV"
+

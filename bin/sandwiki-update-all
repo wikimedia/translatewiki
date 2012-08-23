@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Used for updating sandwiki, nikes playground
+# do not touch :)
+
+WIKINAME="sandwiki (nike)"
+WIKI=/www/sandwiki
+
+cd $WIKI
+REV=`git log --pretty='%h %ci (%cr)' -n 1`
+udpcast "updating $WIKINAME from $REV..."
+
+/home/betawiki/bin/wikiupdate "$WIKINAME" "$WIKI"
+
+REV=`git log --pretty='%h %ci (%cr)' -n 1`
+udpcast "updated $WIKINAME to $REV"
