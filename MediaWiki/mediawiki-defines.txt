@@ -131,8 +131,7 @@ aliasfile = BadImage/BadImage.alias.php
 Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
-# Disabled until message file issue is fixed
-# Biblio Plus
+Biblio Plus
 
 Boiler Plate
 file = examples/BoilerPlate/BoilerPlate.i18n.php
