@@ -1,5 +1,5 @@
 BASIC:
-  description: "This group is currently experimental. Translations at your own risk."
+  description: "Waymarked Trails is a service showing routes with route information for hiking, cycling, mountain biking and inline skating around the world"
   id: out-waymarked-trails
   label: Waymarked Trails
   namespace: NS_OSM
@@ -29,5 +29,6 @@ FILES:
 TAGS:
   optional:
    - wmt-664add438097fbd4307f814de8e62a10f8905588-Wikipedia
-   - wmt-94f96bf4dbc0bf4d2920bb3cb506cacc84fbf7c3-d_km
+   - wmt-d39fbf478176b9ed008faf0cf0bfe88a778c7e9c-s_km
+   - wmt-978afcb7a6f02efbc6cf00a0668afa0913891cd3-s_m
 
