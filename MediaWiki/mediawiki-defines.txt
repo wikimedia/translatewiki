@@ -424,6 +424,9 @@ optional = deletequeue-prod-reasons, deletequeue-speedy-reasons
 
 Description2
 
+Diagnosis
+aliasfile = Diagnosis/Diagnosis.i18n.alias.php
+
 Did You Know
 
 Did You Mean
