@@ -2,8 +2,9 @@
 #Achievements II
 #file = AchievementsII/i18n/AchievementsII.i18n.php
 
-Admin Dashboard
-optional = admindashboard-control-help-url
+# Siebrand / 2012-08-25 / Disabled as announced.
+#Admin Dashboard
+#optional = admindashboard-control-help-url
 
 Admin Dashboard - Quick Stats
 file = AdminDashboard/QuickStats.i18n.php
