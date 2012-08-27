@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAARX//zlw\u003d",
+        "filename": "bin/bclean",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-08-27T12:10:23Z",
+      "side": 1,
+      "message": "Yes. For occasional partial exports, and iHRIS.",
+      "parentUuid": "AAAARX//zvg\u003d",
+      "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARX//zvc\u003d",
         "filename": "bin/bexport",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2012-08-27T07:39:01Z",
       "side": 1,
       "message": "Is this file still used?",
+      "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//zls\u003d",
+        "filename": "bin/bexport",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-08-27T12:10:23Z",
+      "side": 1,
+      "message": "Yes.",
+      "parentUuid": "AAAARX//zvc\u003d",
       "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAARX//zlo\u003d",
+        "filename": "bin/bferrors",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-08-27T12:10:23Z",
+      "side": 1,
+      "message": "Deleted.",
+      "parentUuid": "AAAARX//zvY\u003d",
+      "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARX//zvU\u003d",
         "filename": "bin/checkmsg",
         "patchSetId": 2
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "AAAARX//zlc\u003d",
+        "filename": "bin/checkmsg",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-08-27T12:10:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAARX//zvU\u003d",
+      "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARX//zvM\u003d",
         "filename": "bin/fetch-i18n-files.pl",
         "patchSetId": 2
@@ -81,6 +153,24 @@
       "writtenOn": "2012-08-27T07:39:01Z",
       "side": 1,
       "message": "I don\u0027t think we are using this script.",
+      "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//zlY\u003d",
+        "filename": "bin/fetch-i18n-files.pl",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-08-27T12:10:23Z",
+      "side": 1,
+      "message": "deleted.",
+      "parentUuid": "AAAARX//zvM\u003d",
       "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -121,6 +211,24 @@
     },
     {
       "key": {
+        "uuid": "AAAARX//zlQ\u003d",
+        "filename": "bin/fuzzy",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-08-27T12:10:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAARX//zvI\u003d",
+      "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARX//zvE\u003d",
         "filename": "bin/fuzzyr",
         "patchSetId": 2
@@ -132,6 +240,24 @@
       "writtenOn": "2012-08-27T07:39:01Z",
       "side": 1,
       "message": "Mixed indentation",
+      "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//zlI\u003d",
+        "filename": "bin/fuzzyr",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-08-27T12:10:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAARX//zvE\u003d",
       "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -155,6 +281,24 @@
     },
     {
       "key": {
+        "uuid": "AAAARX//zlA\u003d",
+        "filename": "bin/grr",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-08-27T12:10:23Z",
+      "side": 1,
+      "message": "Deleted.",
+      "parentUuid": "AAAARX//zvA\u003d",
+      "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARX//zu8\u003d",
         "filename": "bin/update-ihris",
         "patchSetId": 2
@@ -166,6 +310,24 @@
       "writtenOn": "2012-08-27T07:39:01Z",
       "side": 1,
       "message": "This file is not used anymore, right?",
+      "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//zk4\u003d",
+        "filename": "bin/update-ihris",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-08-27T12:10:23Z",
+      "side": 1,
+      "message": "Actually, it is.",
+      "parentUuid": "AAAARX//zu8\u003d",
       "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -189,6 +351,24 @@
     },
     {
       "key": {
+        "uuid": "AAAARX//zkw\u003d",
+        "filename": "bin/update-mediawiki-core-git",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-08-27T12:10:23Z",
+      "side": 1,
+      "message": "Deleted.",
+      "parentUuid": "AAAARX//zu4\u003d",
+      "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARX//zu0\u003d",
         "filename": "bin/update-openimages",
         "patchSetId": 2
@@ -200,6 +380,24 @@
       "writtenOn": "2012-08-27T07:39:01Z",
       "side": 1,
       "message": "This file is not used anymore",
+      "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//zk0\u003d",
+        "filename": "bin/update-openimages",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-08-27T12:10:23Z",
+      "side": 1,
+      "message": "Deleted.",
+      "parentUuid": "AAAARX//zu0\u003d",
       "revId": "a66708c68351077c68cd201d23f2b172b87b1a4b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
