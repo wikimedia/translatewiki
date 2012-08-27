@@ -1,10 +1,14 @@
+#!/bin/sh
+# Used by repo* scripts to find the repository root
+# similar to how like git tries to find .git
+
 while true
 do
 	if [ ! -f "$DIR/REPOCONF" ]
 	then
 		DIR=`dirname $DIR`
 	else
-		source "$DIR/REPOCONF"
+		. "$DIR/REPOCONF"
 		break
 	fi
 
