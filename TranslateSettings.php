@@ -50,7 +50,7 @@ function efHT( $specs, $group, $code ) {
 	return true;
 }
 
-$GROUPS = '/www/w/config/';
+$GROUPS = '/home/betawiki/config/';
 $wgTranslateExtensionDirectory = '/resources/projects/mediawiki-extensions/extensions';
 
 $wgTranslateCC['wiki-betawiki'] = 'customMessageGroups';
@@ -85,7 +85,7 @@ function setupMediaWiki( &$cc ) {
 	$releaseDir = 'master';
 	$mg->setPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/languages/messages" );
 	$mg->setMetaDataPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/maintenance/language/" );
-	$mg->setListFile( "/www/w/config/MediaWiki/wikimedia-mostused-2011.txt" );
+	$mg->setListFile( "/home/betawiki/config/MediaWiki/wikimedia-mostused-2011.txt" );
 	$cc[$id] = $mg;
 
 	$changed = array(

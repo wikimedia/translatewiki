@@ -25,7 +25,6 @@ done;
 
 wait
 echo -e "\n*** Rebuilding caches ***"
-#php $WIKI/extensions/Translate/scripts/createMessageIndex.php --quiet || /home/betawiki/bin/udpcast Message index creation failed &
 php $WIKI/maintenance/rebuildLocalisationCache.php --threads 12 --quiet &
 
 wait

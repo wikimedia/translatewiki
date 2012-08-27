@@ -4,7 +4,7 @@ set -e
 PROJECT=$1
 DIR=$2
 : ${DIR:=`pwd`}
-source /home/betawiki/bin/findexportroot
+source /home/betawiki/config/bin/findexportroot
 cd "$DIR"
 
 WIKI=/www/w
@@ -79,7 +79,7 @@ then
 	wait
 	if [ "$DIR" = "/resources/projects" ]
 	then
-		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || /home/betawiki/bin/udpcast Message index creation failed &
+		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || /home/betawiki/config/bin/udpcast Message index creation failed &
 	fi
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
@@ -142,7 +142,7 @@ then
 	wait
 	if [ "$DIR" = "/resources/projects" ]
 	then
-		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || /home/betawiki/bin/udpcast Message index creation failed &
+		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || /home/betawiki/config/bin/udpcast Message index creation failed &
 	fi
 
 elif [ "$PROJECT" = "mifos" ]

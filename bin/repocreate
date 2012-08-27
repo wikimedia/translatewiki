@@ -4,7 +4,7 @@ set -e
 PROJECT=$1
 DIR=$2
 : ${DIR:=`pwd`}
-source /home/betawiki/bin/findexportroot
+source /home/betawiki/config/bin/findexportroot
 cd "$DIR"
 
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> /home/betawiki/logs/repo

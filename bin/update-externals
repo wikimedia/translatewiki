@@ -9,11 +9,11 @@ umask 0002
 for PROJECT in eol freecol fudforum ihris kiwix mantis mifos mwlib okawix osm pywikipedia shapado statusnet toolserver waymarked-trails-site wikia wikiblame WikipediaMobile WikipediaMobileJ2ME wikireader WiktionaryMobile WLMMobile
 do
 	echo "Updating ${PROJECT}..."
-	/home/betawiki/bin/repo update "$PROJECT" && echo "$PROJECT done!" &
+	/home/betawiki/config/bin/repo update "$PROJECT" && echo "$PROJECT done!" &
 done
 wait
 echo "All projects updated!"
-/home/betawiki/bin/createmi
+/home/betawiki/config/bin/createmi
 php /www/w/extensions/Translate/scripts/sync-group.php --lang=en,qqq --noask --group=wikia-* &
 php /www/w/extensions/Translate/scripts/sync-group.php --lang=en,qqq --noask --group=tsint-* &
 wait
