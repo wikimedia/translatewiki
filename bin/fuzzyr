@@ -1,9 +1,9 @@
 #!/bin/bash
 # fuzzy dry run
 if [ "$#" -gt "2" ]; then
-        echo "Only two parameters allowed for fuzzy:"
-        echo "\$1 is the message key (replace spaces by underscores; use a trailing /)"
-        echo "\$2 is the edit summary"
+	echo "Only two parameters allowed for fuzzy:"
+	echo "\$1 is the message key (replace spaces by underscores; use a trailing /)"
+	echo "\$2 is the edit summary"
 	exit
 fi
 
