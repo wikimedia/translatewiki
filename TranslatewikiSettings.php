@@ -456,10 +456,11 @@ function sortNamespaces( &$list ) {
 }
 
 $wgResourceModules['twn.jserrorlog'] = array(
-	'localBasePath' => dirname( __FILE__ ),
-	'remoteBasePath' => "$wgScriptPath/config",
+	'localBasePath' => __DIR__ . '/webfiles',
+	'remoteBasePath' => "$wgScriptPath/webfiles",
 	'scripts' => 'twn.jserrorlog.js',
 );
+
 $wgHooks['ResourceLoaderGetStartupModules'][] = 'efJSErrorlog';
 function efJSErrorlog( &$modules ) {
 	$modules[] = 'twn.jserrorlog';

@@ -1,6 +1,6 @@
 window.onerror = function ( errorMsg, fileUrl, lineNumber ) {
 	$.ajax({
-		url: mw.config.get( 'wgScriptPath' ) + '/jserror' + mw.config.get( 'wgScriptExtension' ),
+		url: mw.config.get( 'wgScriptPath' ) + '/webfiles/jserror' + mw.config.get( 'wgScriptExtension' ),
 		type: 'POST',
 		data: {
 			errorMsg: errorMsg,
