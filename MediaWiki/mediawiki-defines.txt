@@ -1878,6 +1878,10 @@ TSPoll
 Tweet A New
 ignored = tweetanew-accesskey
 
+Two Factor Authentication
+file = TwoFactorAuthentication/TwoFactorAuth.i18n.php
+descmsg = twofactorauth-desc
+
 UK Geocoding For Maps
 descmsg = ukgeocoding-desc
 
