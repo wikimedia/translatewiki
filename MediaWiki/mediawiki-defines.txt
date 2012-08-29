@@ -2013,6 +2013,7 @@ Vote
 aliasfile = Vote/Vote.alias.php
 
 Vote NY
+file = VoteNY/Vote.i18n.php
 
 Watchers
 aliasfile = Watchers/Watchers.alias.php
