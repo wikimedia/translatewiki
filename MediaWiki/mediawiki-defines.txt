@@ -1260,6 +1260,8 @@ ignored = pdf_size_default, pdf_size_options
 Pdf Handler
 descmsg = pdf-desc
 
+Phalanx
+
 Pipe Escape
 
 Piwik
@@ -1472,6 +1474,8 @@ Select Tag
 
 Semantic ACL
 descmsg = sacl-desc
+
+Semantic Bundle
 
 Semantic Compound Queries
 magicfile = SemanticCompoundQueries/SemanticCompoundQueries.i18n.magic.php
