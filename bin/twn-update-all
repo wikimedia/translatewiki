@@ -9,7 +9,8 @@ udpcast "updating $WIKINAME from $REV..."
 
 cd /home/betawiki/config
 sudo -u betawiki git pull
-cd ..
+
+cd $WIKI
 sudo -u betawiki /home/betawiki/config/bin/wikiupdate "$WIKINAME" "$WIKI"
 
 REV=`git log --pretty='%h %ci (%cr)' -n 1`
