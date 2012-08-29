@@ -2012,6 +2012,8 @@ Visual Editor
 Vote
 aliasfile = Vote/Vote.alias.php
 
+Vote NY
+
 Watchers
 aliasfile = Watchers/Watchers.alias.php
 
