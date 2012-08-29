@@ -1,0 +1,2 @@
+#!/bin/sh
+php /home/betawiki/bin/scripts/snedUdpMessage.php --host=127.0.0.1 --port=8966 --quiet=1 \[`whoami`\] $@
