@@ -2014,6 +2014,8 @@ aliasfile = Vote/Vote.alias.php
 
 Vote NY
 file = VoteNY/Vote.i18n.php
+# The following ignored can be removed once the older Vote extension (in SVN only) is not longer supported by TWN
+ignored = right-vote
 
 Watchers
 aliasfile = Watchers/Watchers.alias.php
