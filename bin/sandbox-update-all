@@ -1,7 +1,7 @@
 #!/bin/bash
 
 WIKINAME="sandbox.translatewiki.net"
-WIKI=/www/sandbox
+WIKI=/www/$WIKINAME/w/
 
 cd $WIKI
 REV=`git log --pretty='%h %ci (%cr)' -n 1`

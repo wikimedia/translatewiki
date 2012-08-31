@@ -9,5 +9,5 @@ if [ "$#" -gt "2" ]; then
 	exit
 fi
 
-cd /www/w/extensions/Translate/scripts
+cd /www/translatewiki.net/w/extensions/Translate/scripts
 php fuzzy.php --skiplanguages=en,test,qqq $1 --comment="$2"

@@ -3,8 +3,8 @@
 # Used for updating sandwiki, nikes playground
 # do not touch :)
 
-WIKINAME="sandwiki (nike)"
-WIKI=/www/sandwiki
+WIKINAME="dev.translatewiki.net"
+WIKI=/www/$WIKINAME/w
 
 cd $WIKI
 REV=`git log --pretty='%h %ci (%cr)' -n 1`
