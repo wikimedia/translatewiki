@@ -397,14 +397,14 @@ $wgFooterIcons['poweredby']['netcup'] = "<div class='mw_poweredby'><a href=\"htt
 
 # Dynamic code starts here
 
-if ( $wgArticlePath !== "/wiki/$1" ) {
+if ( $wgCanonicalServer !== "https://translatewiki.net" ) {
 	$wgHooks['SiteNoticeAfter'] = array( 'nbwWarn' );
 }
 
 function nbwWarn( &$siteNotice ) {
 	$siteNotice = "
 <big align=\"center\" dir='ltr'><strong>This is not a production site!
-Go to <a href='http://translatewiki.net'>translatewiki.net</a>!</strong></big>";
+Go to <a href='https://translatewiki.net'>translatewiki.net</a>!</strong></big>";
         return true;
 }
 
