@@ -1,2 +1,3 @@
 #!/bin/sh
-php /www/w/extensions/Translate/scripts/logfilter.php /www/w/logs/error_php | nc -u localhost 8966
+WIKI=/www/translatewiki.net/w
+php $WIKI/extensions/Translate/scripts/logfilter.php $WIKI/logs/error_php | nc -u localhost 8966
