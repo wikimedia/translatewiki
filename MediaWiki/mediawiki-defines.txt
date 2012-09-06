@@ -1204,6 +1204,7 @@ optional = pagetriage-del-tags-blpprod-label, pagetriage-del-tags-blpprod-desc
 optional = pagetriage-del-tags-prod-label, pagetriage-del-tags-prod-desc
 optional = pagetriage-del-tags-articlefordeletion-label, pagetriage-del-tags-redirectsfordiscussion-label
 optional = pagetriage-del-tags-miscellanyfordeletion-label
+optional = pagetriage-dot-separator
 ignored = pagetriage-special-contributions, pagetriage-tags-param-date-format
 
 Paged Tiff Handler
