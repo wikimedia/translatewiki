@@ -2191,4 +2191,4 @@ optional = zero-rated-mobile-access-banner-carrier-name-tata, zero-rated-mobile-
 optional = zero-rated-mobile-access-banner-carrier-name-orange-ivory-coast, zero-rated-mobile-access-banner-carrier-name-orange-uganda
 optional = zero-rated-mobile-access-banner-carrier-name-orange-tunisia, zero-rated-mobile-access-banner-carrier-name-orange-niger
 optional = zero-rated-mobile-access-banner-carrier-name-orange-cameroon, zero-rated-mobile-access-banner-carrier-name-orange-kenya
-optional = zero-rated-mobile-access-banner-carrier-name-wikimedia
+optional = zero-rated-mobile-access-banner-carrier-name-wikimedia, zero-rated-mobile-access-banner-carrier-name-dtac
