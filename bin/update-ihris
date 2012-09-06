@@ -2,7 +2,7 @@
 # ensure correct permissions
 umask 0002
 
-DIR=/home/betawiki/projects/ihris
+DIR=/resources/projects/ihris
 SUB=i2ce
 cd $DIR/$SUB
 sudo -u betawiki bzr pull

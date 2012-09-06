@@ -13,7 +13,7 @@ fi
 # Export all iHRIS groups
 if [ $1 = 'ihris' ]; then
 	echo "Exporting all iHRIS groups in languages over 35%..."
-	php $SCRIPTPATH/export.php --target=$EXPORTPATH/ --lang='*' --skip=en,qqq --threshold=35 --ppgettext=/home/betawiki/projects --group=out-ihris*
+	php $SCRIPTPATH/export.php --target=$EXPORTPATH/ --lang='*' --skip=en,qqq --threshold=35 --ppgettext=/resources/projects --group=out-ihris*
 	echo "Done."
 	exit;
 fi
