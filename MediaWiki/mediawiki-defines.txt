@@ -284,6 +284,9 @@ ignored = commenttab-editintro, commenttab-preload
 
 Comment Spammer
 
+Comments
+ignored = commentslogentry, comments-create-text
+
 Community Voice
 aliasfile = CommunityVoice/CommunityVoice.alias.php
 
