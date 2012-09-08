@@ -1214,33 +1214,9 @@ Pan Scroll
 
 Parser Fun
 
-#Parser Functions
-#descmsg = pfunc_desc
-# Disabled. #language collision.
-#magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
-#optional = pfunc-convert-prefix-yotta-abbr
-#optional = pfunc-convert-prefix-zetta-abbr
-#optional = pfunc-convert-prefix-exa-abbr
-#optional = pfunc-convert-prefix-peta-abbr
-#optional = pfunc-convert-prefix-tera-abbr
-#optional = pfunc-convert-prefix-giga-abbr
-#optional = pfunc-convert-prefix-mega-abbr
-#optional = pfunc-convert-prefix-kilo-abbr
-#optional = pfunc-convert-prefix-hecto-abbr
-#optional = pfunc-convert-prefix-deca-abbr
-#optional = pfunc-convert-prefix-deci-abbr
-#optional = pfunc-convert-prefix-centi-abbr
-#optional = pfunc-convert-prefix-mili-abbr
-#optional = pfunc-convert-prefix-micro-abbr
-#optional = pfunc-convert-prefix-nano-abbr
-#optional = pfunc-convert-prefix-pico-abbr
-#optional = pfunc-convert-prefix-femto-abbr
-#optional = pfunc-convert-prefix-atto-abbr
-#optional = pfunc-convert-prefix-zepto-abbr
-#optional = pfunc-convert-prefix-yocto-abbr
-#optional = pfunc-convert-unit-length-metre-abbr
-#optional = pfunc-convert-unit-length-angstrom-abbr
-#optional = pfunc-convert-unit-length-mile-abbr
+Parser Functions
+descmsg = pfunc_desc
+magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
 Parser Wiki
 
@@ -2079,7 +2055,7 @@ descmsg = wikibase-desc
 aliasfile = Wikibase/repo/Wikibase.i18n.alias.php
 optional = wikibase-itemlink, wikibase-itemlink-id-wrapper, wikibase-itemlink-title, wikibase-propertyedittool-counter-pending-pendingsubpart
 ignored = wikibase-api-aliases-invalid-list, wikibase-api-no-token, wikibase-api-no-data, wikibase-api-client-error
-ignored = wikibase-api-no-external-data, wikibase-api-no-external-page, wikibase-api-add-sitelink-failed, wikibase-api-remove-sitelink-failed, 
+ignored = wikibase-api-no-external-data, wikibase-api-no-external-page, wikibase-api-add-sitelink-failed, wikibase-api-remove-sitelink-failed
 ignored = wikibase-api-cant-edit, wikibase-api-json-invalid, wikibase-api-not-recognized, wikibase-api-not-recognized-string
 ignored = wikibase-api-not-recognized-array, wikibase-api-not-recognized-language, wikibase-api-not-recognized-siteid, wikibase-api-no-permissions
 ignored = wikibase-api-no-revision, wikibase-api-patch-empty, wikibase-api-patch-incomplet, wikibase-api-data-or-id-xor-wikititle
