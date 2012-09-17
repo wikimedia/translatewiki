@@ -235,6 +235,7 @@ $wgTitleBlacklistSources = array(
     'src'  => 'MediaWiki:Titleblacklist'
   )
 );
+require( "$IP/extensions/SpamBlacklist/SpamBlacklist.php" );
 
 include( "$IP/extensions/AdminLinks/AdminLinks.php" ); # Added by Siebrand 2012-02-06
 
