@@ -150,9 +150,6 @@ Bread Crumbs
 Call
 aliasfile = Call/Call.alias.php
 
-Carp
-optional = carp-function-msg, carp-template-msg, carp-template
-
 Cassandra
 
 Categorize
