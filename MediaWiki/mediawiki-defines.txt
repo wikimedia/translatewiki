@@ -1425,7 +1425,8 @@ Resumable Upload
 
 Revision Comment Supplement
 descmsg = revcs-desc
-optional = revcs-log-comment
+optional = revcs-log-supplement2
+ignored = revcs-log-supplement1
 
 Right Functions
 optional = rightfunctions-rest1, rightfunctions-rest2, rightfunctions-rest3, rightfunctions-sep
