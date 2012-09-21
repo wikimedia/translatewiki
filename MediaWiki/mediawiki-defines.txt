@@ -1424,6 +1424,7 @@ aliasfile = ResearchTools/ResearchTools.alias.php
 Resumable Upload
 
 Revision Comment Supplement
+aliasfile = RevisionCommentSupplement/RevisionCommentSupplement.alias.php
 descmsg = revcs-desc
 optional = revcs-log-supplement2
 ignored = revcs-log-supplement1
