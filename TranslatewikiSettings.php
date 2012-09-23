@@ -67,7 +67,6 @@ $wgCategoryCollation = 'uca-default';
 $wgLoginLanguageSelector    = true;
 $wgUseCategoryBrowser       = false;
 $wgShowIPinHeader           = false;
-$wgEnableMWSuggest          = true; // Nike 2008-04-23
 $wgUseAutomaticEditSummaries = false;
 $wgLoginLanguageSelector    = false; // Nike 2010-10-01
 
