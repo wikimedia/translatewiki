@@ -53,6 +53,10 @@ then
 
 # Todo: iHRIS
 
+elif [ "$PROJECT" = "jquery.uls" ]
+then
+	gitcommit "$PROJECT"
+
 elif [ "$PROJECT" = "kiwix" ]
 then
 	cd $PROJECT

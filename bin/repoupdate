@@ -48,6 +48,10 @@ then
 		cd ..
 	done
 
+elif [ "$PROJECT" = "jquery.uls" ]
+then
+	gitupdate "$PROJECT"
+
 elif [ "$PROJECT" = "kiwix" ]
 then
 	svn up $PROJECT
