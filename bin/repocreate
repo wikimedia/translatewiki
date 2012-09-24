@@ -32,6 +32,14 @@ then
 
 # Todo: iHRIS
 
+elif [ "$PROJECT" = "jquery.uls" ]
+then
+	if [ -z "$REPO_JQUERY_ULS" ]
+	then echo "Add REPO_JQUERY_ULS to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_JQUERY_ULS" $PROJECT
+
+
 elif [ "$PROJECT" = "kiwix" ]
 then
 	if [ -z "$REPO_KIWIX" ]

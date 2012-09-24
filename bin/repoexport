@@ -30,6 +30,11 @@ then
 
 # Todo: iHRIS
 
+elif [ "$PROJECT" = "jquery.uls" ]
+then
+	php "$EXPORTER" --target . --group=out-jquery-uls --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-jquery-uls --lang qqq
+
 elif [ "$PROJECT" = "kiwix" ]
 then
 	php "$EXPORTER" --target . --group=out-kiwix --lang '*' --skip en --threshold 80
