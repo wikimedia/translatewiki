@@ -1602,7 +1602,9 @@ Skin Per Namespace
 
 Skin Per Page
 
-Slimbox Thumbs
+# Disabled for now per IRC talk with Chad
+# Author will do a complete rewrite in Git -- 2012-09-24 Raymond
+#Slimbox Thumbs
 
 Slippy Map
 ignored = slippymap_license, slippymap_osmlink
