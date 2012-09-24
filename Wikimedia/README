@@ -1,0 +1,11 @@
+== Add support in Translate ==
+1. Check out read-only copies.
+2. Add to LocalSettings.php:
+wfAddNamespace( 1206, 'Wikimedia' );
+$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Wikimedia/jquery-uls.yaml";
+$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Wikimedia/WikiBlame.yaml";
+$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Wikimedia/WikipediaMobile.yaml";
+$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Wikimedia/WiktionaryMobile.yaml";
+$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Wikimedia/WLMMobile.yaml";
+
+See ..\bin\repo* for further details.
