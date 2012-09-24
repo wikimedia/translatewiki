@@ -503,6 +503,13 @@ array(
 	)
 ),
 array(
+	'group' => 'ext-translate-core',
+	'check' => 'plural',
+	'message' => array(
+		'translate-checks-plural-dupe',
+	)
+),
+array(
 	'group' => 'ext-translate-firststeps',
 	'check' => 'links',
 	'message' => array(
