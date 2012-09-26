@@ -1266,6 +1266,8 @@ file = PoolCounter/PoolCounterClient.i18n.php
 
 # Post comment: Insufficient escaping and other issues
 
+Post Edit
+
 POV Watch
 file = PovWatch/PovWatch.i18n.php
 aliasfile = PovWatch/PovWatch.alias.php
