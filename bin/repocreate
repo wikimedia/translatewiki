@@ -67,11 +67,6 @@ then
 	then echo "Add REPO_MEDIAWIKI_BRANCHES to REPOCONF"; exit 1
 	fi
 
-	if [ "$REPO_RW" = "yes" ]
-	then ssh-add /home/betawiki/id_rsa
-	fi
-
-
 	mkdir -p $PROJECT
 	cd $PROJECT
 	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
