@@ -90,7 +90,6 @@ function setupMediaWiki( &$cc ) {
 
 	$changed = array(
 		'1.20' => array(
-			'version-poweredby-others',
 		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
 		'1.19' => array(
 			'recentchangestext',
