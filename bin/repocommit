@@ -20,13 +20,18 @@ gitcommit() {
 	cd ..
 }
 
-if [ "$PROJECT" = "eol" ]
-then
-	cd $PROJECT
+gitcommitNoCheck() {
+	local dir=$1
+	cd "$dir"
 	git add .
-	git commit -v -e -m "$COMMITMSG"
+	git commit -m "$COMMITMSG"
 	git push
 	cd ..
+}
+
+if [ "$PROJECT" = "eol" ]
+then
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "freecol" ]
 then
@@ -34,7 +39,6 @@ then
 	svn add -q *.properties
 	svn propset -q svn:mime-type text/plain *.properties
 	svn propset -q svn:eol-style native *.properties
-	svn diff | less
 	svn commit --message "$COMMITMSG"
 	cd ..
 
@@ -47,7 +51,6 @@ then
 		svn propset -q svn:mime-type text/plain $i
 		svn propset -q svn:eol-style native $i
 	done
-	svn diff | less
 	svn commit --message "$COMMITMSG"
 	cd ..
 
@@ -63,17 +66,12 @@ then
 	svn add -q *
 	svn propset -q svn:mime-type text/plain *
 	svn propset -q svn:eol-style native *
-	svn diff | less
 	svn commit --message "$COMMITMSG"
 	cd ..
 
 elif [ "$PROJECT" = "mantis" ]
 then
-	cd mantisbt
-	git add .
-	git commit -v -e -m "$COMMITMSG"
-	git push
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "mediawiki" ]
 then
@@ -115,19 +113,11 @@ then
 
 elif [ "$PROJECT" = "mifos" ]
 then
-	cd $PROJECT
-	git add .
-	git commit -v -e -m "$COMMITMSG"
-	git push
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "mwlib" ]
 then
-	cd mwlib.rl
-	git add .
-	git commit -v -e -m "$COMMITMSG"
-	git push
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "okawix" ]
 then
@@ -143,7 +133,6 @@ then
 		svn propset -q svn:mime-type text/plain $i
 		svn propset -q svn:eol-style native $i
 	done
-	svn diff | less
 	svn commit --message "$COMMITMSG"
 	cd ..
 
@@ -153,7 +142,6 @@ then
 	svn add -q *.properties
 	svn propset -q svn:mime-type text/plain *.properties
 	svn propset -q svn:eol-style native *.properties
-	svn diff | less
 	svn commit --message "$COMMITMSG"
 	cd ..
 
@@ -161,12 +149,12 @@ elif [ "$PROJECT" = "osm" ]
 then
 	cd $PROJECT
 	git add .
-	git commit -v -e -m "$COMMITMSG"
+	git commit -m "$COMMITMSG"
 	git push ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git
 	cd ..
 	cd potlatch2
 	git add .
-	git commit -v -e -m "$COMMITMSG"
+	git commit -m "$COMMITMSG"
 	git push
 	cd ..
 
@@ -174,41 +162,27 @@ elif [ "$PROJECT" = "pywikipedia" ]
 then
 	cd $PROJECT
 	svn propset -q svn:eol-style native *.py
-	svn diff | less
 	svn commit --message "$COMMITMSG"
 	cd ..
 
 elif [ "$PROJECT" = "shapado" ]
 then
-	cd $PROJECT
-	git add .
-	git commit -v -e -m "$COMMITMSG"
-	git push
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "statusnet" ]
 then
-	cd $PROJECT
-	git add .
-	git commit -v -e -m "$COMMITMSG"
-	git push
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "toolserver" ]
 then
 	cd $PROJECT
 	svn propset -q svn:eol-style native *.i18n.php
-	svn diff | less
 	svn commit --message "$COMMITMSG"
 	cd ..
 
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
-	cd $PROJECT
-	git add .
-	git commit -v -e -m "$COMMITMSG"
-	git push
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "wikia" ]
 then
@@ -217,7 +191,6 @@ then
 	do
 		svn propset -q svn:eol-style native $i
 	done
-	svn diff | less
 	svn commit --message "$COMMITMSG"
 	cd ..
 
@@ -225,48 +198,30 @@ elif [ "$PROJECT" = "wikiblame" ]
 then
 	cd $PROJECT
 	svn propset -q svn:eol-style native *.php
-	svn diff | less
 	svn commit --message "$COMMITMSG"
 	cd ..
 
 elif [ "$PROJECT" = "WikipediaMobile" ]
 then
-	cd $PROJECT
-	git add .
-	git commit -v -e -m "$COMMITMSG"
-	git push
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
 then
-	cd $PROJECT
-	git add .
-	git commit -v -e -m "$COMMITMSG"
-	git push
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "wikireader" ]
 then
-	cd $PROJECT
-	git add .
-	git commit -v -e -m "$COMMITMSG"
-	git push
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "WiktionaryMobile" ]
 then
-	cd $PROJECT
-	git add .
-	git commit -v -e -m "$COMMITMSG"
-	git push
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "WLMMobile" ]
 then
-	gitcommit "$PROJECT"
+	gitcommitNoCheck "$PROJECT"
 
 else
 	echo "Unknown project"
 	exit 1
 fi
-
