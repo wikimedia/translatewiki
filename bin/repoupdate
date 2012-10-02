@@ -72,10 +72,24 @@ then
 	cd $PROJECT
 	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
 	do
-		cd "$BRANCH"
-		git fetch -q --all
-		git reset -q --hard "origin/$BRANCH"
-		git clean -q -f -d
+		if [ ! -d "$BRANCH" ]
+		then
+			echo "$BRANCH not yet present. Cloning..."
+			git clone "$REPO_MEDIAWIKI" "$BRANCH" -b "$BRANCH"
+			if [ "$REPO_RW" = "yes" ]
+			then
+				cd "$BRANCH"
+				git config user.name 'Translation updater bot'
+				git config user.email 'l10n-bot@translatewiki.net'
+				git config gitreview.username 'l10n-bot'
+				git review -s
+			fi
+		else
+			cd "$BRANCH"
+			git fetch -q --all
+			git reset -q --hard "origin/$BRANCH"
+			git clean -q -f -d
+		fi
 		cd ..
 	done
 	cd ..
