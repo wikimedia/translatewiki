@@ -133,16 +133,6 @@ then
 		fi
 	done
 
-	echo "Updating svn"
-	FILES=$(php "$WIKI/extensions/Translate/scripts/list-mwext-i18n-files.php" --group 'ext-*')
-	for FILE in $FILES
-	do
-		if [ ! -f "$FILE" -a ! -d "$FILE" ]
-		then svn up --depth empty "$FILE"
-		fi
-	done
-	svn up .
-
 	wait
 	if [ "$DIR" = "/resources/projects" ]
 	then

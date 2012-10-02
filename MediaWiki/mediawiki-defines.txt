@@ -1,6 +1,3 @@
-ABC
-optional = abcabc, abcpdf, abcps, abcmidi, abcvorbis
-
 Absentee Landlord
 
 Abuse Filter
@@ -19,29 +16,9 @@ Add This
 Admin Links
 aliasfile = AdminLinks/AdminLinks.alias.php
 
-Advanced Meta
-descmsg = ameta-desc
-
-Advanced Random
-aliasfile = AdvancedRandom/AdvancedRandom.alias.php
-
-Ajax Login
-
-AJAX Poll
-
-Ajax Query Pages
-
-Ajax Show Editors
-
 Akismet Klik
 
 All Time Zones
-
-Amazon Plus
-optional = amazonplus-status, amazonplus-currency
-optional = amazonplus-cp-usd, amazonplus-cp-cad, amazonplus-cp-gbp, amazonplus-cp-eur
-optional = amazonplus-cp-jpy
-ignored = amazonplus-english
 
 Anti Bot
 
@@ -52,24 +29,14 @@ optional = antispoof-bad-char
 APC
 aliasfile = APC/APC.alias.php
 
-Api Explorer
-aliasfile = ApiExplorer/ApiExplorer.alias.php
-
 Api Sandbox
 aliasfile = ApiSandbox/ApiSandbox.alias.php
 descmsg = apisb-desc
-
-Api SVG Proxy
 
 Approved Revs
 aliasfile = ApprovedRevs/ApprovedRevs.alias.php
 
 Arrays
-
-Article Comments
-descmsg = article-comments-desc
-ignored = article-comments-prefilled-comment-text, article-comments-new-comment-heading
-ignored = article-comments-comment-contents
 
 Article Feedback
 aliasfile = ArticleFeedback/ArticleFeedback.alias.php
@@ -95,17 +62,9 @@ ignored = articlefeedbackv5-activity-item, articlefeedbackv5-default-user
 ignored = articlefeedbackv5-noteflyover-feature-help-link, articlefeedbackv5-noteflyover-unfeature-help-link
 ignored = articlefeedbackv5-noteflyover-resolve-help-link, articlefeedbackv5-noteflyover-unresolve-help-link
 
-Article To Category 2
-
-Asksql
-aliasfile = Asksql/Asksql.alias.php
-
 Assert Edit
 
 Author Protect
-
-Autoincrement
-magicfile = Autoincrement/Autoincrement.i18n.magic.php
 
 Automatic Board Welcome
 
@@ -122,23 +81,10 @@ optional = babel-autocreate-user, babel-template
 ignored = babel-box-cellspacing, babel-cellspacing, babel-portal,
 ignored = babel-box-cellpadding, babel-cellpadding
 
-Back and Forth
-file = BackAndForth/BackAndForth.i18n.php
-
-Bad Image
-aliasfile = BadImage/BadImage.alias.php
-
-Batch User Rights
-aliasfile = BatchUserRights/BatchUserRights.alias.php
-
 Biblio Plus
 
 Boiler Plate
 file = examples/BoilerPlate/BoilerPlate.i18n.php
-
-Block Titles
-
-Book Information
 
 Book Manager
 descmsg = bm-printversion-desc
@@ -147,39 +93,8 @@ aliasfile = BookManager/language/BookManager.alias.php
 
 Bread Crumbs
 
-Call
-aliasfile = Call/Call.alias.php
-
 Carp
 optional = carp-function-msg, carp-template-msg, carp-template
-
-Cassandra
-
-Categorize
-ignored = categorize-subtitle
-
-Category Browser
-aliasfile = CategoryBrowser/CategoryBrowser.alias.php
-optional = cb_previous_items_stats
-ignored = cb_previous_items_line, cb_next_items_line, cb_op1_template, cb_op2_template
-ignored = cb_lbracket_op, cb_rbracket_op, cb_ge_op, cb_le_op, cb_eq_op
-
-Category Intersection
-aliasfile = CategoryIntersection/CategoryIntersection.alias.php
-
-Category Members On Sidebar
-
-Category Multisort
-
-Category Multisort Chinese
-
-Category On Upload
-optional = categoryonupload-none
-
-Category Sort Headers
-
-Category Stepper
-ignored = categorystepper
 
 Category Tests
 #Gives key conflicts with ParserFunctions. Needs to be fixed first.
@@ -192,8 +107,6 @@ ignored = categorytree-collapse-bullet, categorytree-expand-bullet,
 ignored = categorytree-empty-bullet,categorytree-page-bullet
 ignored = categorytree-member-num
 
-Category Watch
-
 Central Auth
 aliasfile = CentralAuth/CentralAuth.alias.php
 optional = centralauth-editset-grouplink, centralauth-listusers-item
@@ -204,11 +117,6 @@ Central Notice
 aliasfile = CentralNotice/CentralNotice.alias.php
 optional = centralnotice-language-listing, centralnotice-log-label, centralnotice-user-links
 
-Change Author
-aliasfile = ChangeAuthor/ChangeAuthor.alias.php
-optional = changeauthor-rev
-ignored = changeauthor-logpagetext, changeauthor-short
-
 Char Insert
 #magicfile = CharInsert/CharInsert.i18n.magic.php
 
@@ -218,15 +126,6 @@ Check User
 aliasfile = CheckUser/CheckUser.alias.php
 ignored = checkuser-toollinks
 optional = group-checkuser.css, group-checkuser.js
-
-Chemistry
-file = Chemistry/ChemFunctions.i18n.php
-aliasfile = Chemistry/Chemicalsources.alias.php
-descmsg = chemicalsource-desc
-optional = chemFunctions_SearchExplanation
-ignored = chemFunctions_EINECS, chemFunctions_CHEBI, chemFunctions_PubChem,
-ignored = chemFunctions_SMILES, chemFunctions_InChI, chemFunctions_RTECS,
-ignored = chemFunctions_KEGG, chemFunctions_DrugBank
 
 Cite
 optional = cite_reference_link_key_with_num, cite_reference_link_prefix, cite_reference_link_suffix, cite_references_link_prefix
@@ -250,10 +149,6 @@ Click Tracking
 
 Client Side
 
-Close Wikis
-aliasfile = CloseWikis/CloseWikis.alias.php
-optional = closewikis-closed
-
 Code Editor
 
 Code Review
@@ -261,9 +156,6 @@ aliasfile = CodeReview/CodeReview.alias.php
 ignored = code-rev-comment-preview-accesskey, code-rev-submit-accesskey, code-rev-submit-next-accesskey
 ignored = code-rev-id, code-rev-next-accesskey
 optional = group-svnadmins.css, group-svnadmins.js
-
-Collab Watchlist
-ignored = collabwatchlist-unset-tag
 
 Collection - Core
 id = ext-collection-core
@@ -284,8 +176,6 @@ ignored = commentbox-prefill
 
 Comment Pages
 ignored = commenttab-editintro, commenttab-preload
-
-Comment Spammer
 
 Comments
 ignored = commentslogentry, comments-create-text
@@ -367,41 +257,9 @@ aliasfile = ContributionScores/ContributionScores.alias.php
 Contribution Tracking
 aliasfile = ContributionTracking/ContributionTracking.alias.php
 
-Contributions Edit Count
-file = Contributionseditcount/Contributionseditcount.i18n.php
-
-Contributors
-aliasfile = Contributors/Contributors.alias.php
-
-Contributors Add-on
-id = ext-contributorsaddon
-file = ContributorsAddon/ContributorsAddon.i18n.php
-
-Cooperation Statistics
-aliasfile = CooperationStatistics/CooperationStatistics.alias.php
-ignored = cooperationstatistics-users, cooperationstatistics-limit-few-revisors, cooperationstatistics-limit-many-revisors
-
-Count Edits
-aliasfile = CountEdits/CountEdits.alias.php
-
-Create Box
-
 Create Page
 aliasfile = CreatePage/CreatePage.alias.php
 descmsg = cp-desc
-
-Create Redirect
-aliasfile = CreateRedirect/CreateRedirect.alias.php
-
-Creative Commons Rdf
-
-Cross Namespace Links
-aliasfile = CrossNamespaceLinks/CrossNamespaceLinks.alias.php
-
-Crosswiki Block
-file = Crosswiki/Block/CrosswikiBlock.i18n.php
-
-Crowd Authentication
 
 CSS
 
@@ -410,24 +268,12 @@ CSS
 # Custom User Signup
 # ignored = customusersignup
 
-Data Transclusion
-magicfile = DataTransclusion/DataTransclusion.i18n.magic.php
-ignored = datatransclusion-test-wikitext, datatransclusion-test-evil-html, datatransclusion-test-nowiki
-
 Data Transfer
 file = DataTransfer/languages/DT_Messages.php
 aliasfile = DataTransfer/languages/DT_Aliases.php
 
-Date Diff
-
-Delayed Definition
-
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
-
-Delete Queue
-aliasfile = DeleteQueue/DeleteQueue.alias.php
-optional = deletequeue-prod-reasons, deletequeue-speedy-reasons
 
 Description2
 
@@ -435,8 +281,6 @@ Diagnosis
 aliasfile = Diagnosis/Diagnosis.i18n.alias.php
 
 Did You Know
-
-Did You Mean
 
 Diff
 
@@ -480,13 +324,7 @@ descmsg = payflowpro_gateway-desc
 optional = payflow_gateway-card-name-amex, payflow_gateway-card-name-visa, payflow_gateway-card-name-mc, payflow_gateway-card-name-discover
 optional = payflowpro_gateway-month
 
-# Unused on WMF cluster, part of the early UsabilityInitiative, very unlikely useful for 3rd party installations
-# Dont Switch Me Over
-
 Double Wiki
-
-DPL Forum
-file = DPLforum/DPLforum.i18n.php
 
 # DSMW: Disabled per Jeroen: Can you remove the DSMW extension from translatewiki? It's broken beyond hope, so no point in translators wasting their time on it. 2010-12-06
 
@@ -494,34 +332,14 @@ Drafts
 aliasfile = Drafts/Drafts.alias.php
 ignored = accesskey-drafts-save
 
-Dublin Core Rdf
-
-Duplicator
-
 Dynamic Sidebar
 
 Echo
 ignored = notification-talkpage-content
 
-Edit count
-aliasfile = Editcount/Editcount.alias.php
-
-Edit Messages
-
-Edit Own
-
 Edit Page Tracking
 
-Edit Section Clearer Link
-
-Edit Section Hilite Link
-
-Edit Similar
-
 Edit Subpages
-
-Edit User
-aliasfile = EditUser/EditUser.alias.php
 
 Education Program
 aliasfile = EducationProgram/EducationProgram.i18n.alias.php
@@ -529,30 +347,13 @@ optional = ep-course-edit-name-format
 ignored = accesskey-ep-form-save, accesskey-ep-edit-institution, accesskey-ep-edit-course, accesskey-ep-summary
 ignored = accesskey-ep-minor
 
-Elm Easy Ref
-descmsg = elm-easyref-desc
-
-Email Address Image
-
 Email Capture
 
-Email Page
-aliasfile = EmailPage/EmailPage.alias.php
-descmsg = ea-desc
-
-Email Users
-aliasfile = EmailUsers/EmailUsers.alias.php
-
 # Embed Video: Developed elsewhere
-
-Emergency DeSysop
-aliasfile = EmergencyDeSysop/EmergencyDeSysop.alias.php
 
 Error Handler
 
 Ether Editor
-
-Etherpad Lite
 
 Expand Templates
 aliasfile = ExpandTemplates/ExpandTemplates.alias.php
@@ -562,18 +363,6 @@ Extension Distributor
 External Data
 magicfile = ExternalData/ExternalData.i18n.magic.php
 
-External Pages
-aliasfile = ExternalPages/ExternalPages.alias.php
-
-Farmer
-aliasfile = Farmer/Farmer.alias.php
-optional = farmercreateurl
-ignored = farmerwikiurl, farmerinterwikiurl
-
-Favorites
-file = Favorites/favorites.i18n.php
-ignored = accesskey-pt-favoritelist, accesskey-ca-favorite, accesskey-ca-unfavorite, accesskey-favorite
-
 Featured Feeds
 descmsg = ffeed-desc
 aliasfile = FeaturedFeeds/FeaturedFeeds.alias.php
@@ -582,19 +371,7 @@ ignored = ffeed-qotd-page, ffeed-potd-page, ffeed-motd-page
 ignored = ffeed-good-page, ffeed-featuredtexts-page
 ignored = ffeed-enable-sidebar-links
 
-File Attach
-
-File Page Masking
-
 Filter List Users
-
-Find Spam
-aliasfile = FindSpam/FindSpam.alias.php
-
-Fixed Image
-
-Flag Page
-aliasfile = FlagPage/FlagPage.alias.php
 
 Flagged Revisions - Flagged Revs
 id = ext-flaggedrevs-flaggedrevs
@@ -665,34 +442,9 @@ id = ext-flaggedrevs-validationstatistics
 file = FlaggedRevs/frontend/language/ValidationStatistics.i18n.php
 descmsg = flaggedrevs-desc
 
-Flv Handler
-descmsg = flvhandler_desc
-
-Folk Tag Cloud
-
 Force Preview
 
-Form
-aliasfile = Form/Form.alias.php
-ignored = formtemplatepattern
-
-Format Email
-descmsg = email-desc
-ignored = email_header
-
 Formel Applet
-
-Framed Video
-optional = framedvideo_position
-ignored = framedvideo_default_width, framedvideo_force_default_size, framedvideo_max_width, framedvideo_frames
-ignored = framedvideo_max_height, framedvideo_allow_full_screen, framedvideo_force_allow_full_screen, framedvideo_force_frames
-ignored = framedvideo_force_position
-
-Freq Pattern Tag Cloud
-ignored = freqpatterntagcloud, freqpatterntagcloudmaintenance
-
-Front Back Matter Forced Wikilinks
-descmsg = frontbackforced-desc
 
 Fundraiser Landing Page
 # Alias file not added for translation. This special page is not visible for the user/reader. Raymond 2011-10-24
@@ -703,19 +455,12 @@ Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition
 
-GeeQuBox
-
 Genderize
 
 Geo Data
 
 # GeoGebra is a product name, therefore no space between the words
 GeoGebra
-
-GeoLite
-optional = geolite
-
-Get Family
 
 Global Blocking
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
@@ -727,29 +472,14 @@ aliasfile = GlobalUsage/GlobalUsage.alias.php
 Global User Groups
 # GlobalUserGroups.i18n.groups.php not added. Has a lot of user groups which conflicts with WikimediaMessages.i18n.php
 
-Global User rights
-aliasfile = GlobalUserrights/GlobalUserrights.alias.php
-descmsg = gur-desc
-
-Gnuplot
-
 Google AdSense
 ignored = googleadsense
-
-Google Analytics
-file = googleAnalytics/googleAnalytics.i18n.php
-
-Google Maps
 
 Google News Sitemap
 ignored = googlenewssitemap_categorymap
 aliasfile = GoogleNewsSitemap/GoogleNewsSitemap.alias.php
 
-Go To Category
-
 GraphViz
-
-Groups Sidebar
 
 Hash Tables
 
@@ -758,62 +488,24 @@ ignored = headertabs-edittab-key
 
 Help Commons
 
-Hide Namespace
-descmsg = hidens-desc
-
 Hide Prefix
-
-Honeypot Integration
-descmsg = honeypot-desc
-
-HTMLets
 
 I18n Tags
 file = I18nTags/I18nTags.i18n.php
 magicfile = I18nTags/I18nTags.magic.php
 
-Icon
-magicfile = Icon/Icon.i18n.magic.php
-
 Image Map
 descmsg = imagemap_desc
 optional = imagemap_desc_types
 
-Image Tagging
-aliasfile = ImageTagging/ImageTagging.alias.php
-
-Import Free Images
-aliasfile = ImportFreeImages/ImportFreeImages.alias.php
-
-Import Users
-aliasfile = ImportUsers/ImportUsers.alias.php
-
-IM Status
-
-Include WP
-
-Index Function
-aliasfile = IndexFunction/IndexFunction.alias.php
-descmsg = indexfunc-desc
-ignored = index-exclude-categories
-
 # Inline Editor: Disabled per https://www.mediawiki.org/wiki/Special:Code/MediaWiki/82789#c14456
 
-Inline Categorizer
-
 Input Box
-
-Inspect Cache
-aliasfile = InspectCache/InspectCache.alias.php
 
 # Create a symbolic link "Installer" to mediawiki core's includes/installer in extensions/ to make this work.
 Installer
 descmsg = config-desc
 optional = config-type-mysql, config-type-postgres, config-type-sqlite, config-type-oracle
-
-Interactive Block Message
-
-Interface Concurrency
 
 Interlanguage
 magicfile = Interlanguage/Interlanguage.i18n.magic.php
@@ -830,15 +522,8 @@ ignored = interwiki-defaulturl, logentry-interwiki-interwiki
 #Interwiki Integration
 #aliasfile = InterwikiIntegration/InterwikiIntegration.alias.php
 
-Interwiki List
-aliasfile = InterwikiList/InterwikiList.alias.php
-
-IP Auth
-
 JS Bread Crumbs
 optional = jsbreadcrumbs-separator
-
-JS Kit
 
 Labeled Section Transclusion
 file = LabeledSectionTransclusion/lst.i18n.php
@@ -851,11 +536,6 @@ Language Selector
 
 Last Modified
 
-Last User Login
-aliasfile = LastUserLogin/LastUserLogin.alias.php
-
-Latex Doc
-
 Ldap Authentication
 
 Lingo
@@ -865,9 +545,6 @@ Link Filter
 optional = linkfilter-url
 optional = group-linkadmin.css, group-linkadmin.js
 aliasfile = LinkFilter/Link.alias.php
-
-Link OpenID
-optional = linkopenid-prefs, linkopenid-prefstext-xrdsurl
 
 Link Suggest
 
@@ -882,30 +559,13 @@ ignored = lqt_header_warning_before_big
 Live Translate
 optional = group-tmxadmin.css, group-tmxadmin.js
 
-Livelets
-
-Local JQuery
-
 Localisation Update
-
-Lockdown
 
 Log Entry
 aliasfile = LogEntry/LogEntry.alias.php
 descmsg = logentry-parserhook-desc
 
-Logo Functions
-
-Lookup User
-aliasfile = LookupUser/LookupUser.alias.php
-
 Loops
-
-Lua
-descmsg = lua_desc
-
-Magic No Numbered Headings
-magicfile = MagicNoNumberedHeadings/MagicNoNumberedHeadings.i18n.magic.php
 
 Maintenance
 aliasfile = Maintenance/Maintenance.alias.php
@@ -926,52 +586,11 @@ optional = maps_googlemaps2, maps_googlemaps3, maps_yahoomaps, maps_openlayers, 
 
 Mark As Helpful
 
-Mass Blank
-aliasfile = MassBlank/MassBlank.alias.php
-
-Mass Edit Regex
-aliasfile = MassEditRegex/MassEditRegex.alias.php
-
 Math
-
-Math Stat Functions
-descmsg = msfunc_desc
-magicfile = MathStatFunctions/MathStatFunctions.i18n.magic.php
-
-Media Functions
-magicfile = MediaFunctions/MediaFunctions.i18n.magic.php
 
 MediaWiki Search
 id = ext-mwsearch
 file = MWSearch/MWSearch.i18n.php
-
-Metadata Edit
-
-Meta Keywords
-optional = metakeywords, metadescription
-
-Metavid Wiki
-file = MetavidWiki/languages/MV_Messages.php
-aliasfile = MetavidWiki/languages/MV_Aliases.php
-descmsg = mv-desc
-optional = ao_file_64Kb_MPEG4, ao_file_256Kb_MPEG4, ao_file_MPEG1, ao_file_MPEG2
-optional = ao_file_flash_flv, ao_file_512Kb_MPEG4, ao_file_Ogg_Video
-optional = mv_ogg-player-vlc-mozilla, mv_ogg-player-vlc-activex, mv_ogg-player-oggPlay, mv_ogg-player-quicktime-mozilla
-optional = mv_ogg-player-quicktime-activex, mv_ogg-player-cortado, mv_ogg-player-flowplayer
-ignored = mv_welcome_to_sequencer
-
-MicroID
-
-Mini Donation
-descmsg = donationform-desc
-
-Minimum Name Length
-descmsg = minnamelength-desc
-
-Mini Preview
-
-Mirror Tools
-optional = group-MirrorTools.css, group-MirrorTools.js
 
 Mobile Frontend
 descmsg = mobile-frontend-desc
@@ -990,18 +609,7 @@ ignored = moodbar-what-expanded, moodbar-loading-subtitle, moodbar-response-gfdl
 ignored = moodbar-hide-intro, moodbar-restore-intro, moodbar-response-cc-link, moodbar-response-terms-of-use-link
 ignored = moodbar-log-reason
 
-Most Revisors
-aliasfile = MostRevisors/MostRevisors.alias.php
-ignored = mostrevisors-limit-few-revisors
-
 Mpdf
-
-Multi Boilerplate
-ignored = multiboilerplate, multiboilerplate-label
-
-Multi Upload
-aliasfile = MultiUpload/MultiUpload.alias.php
-descmsg = multiupload-desc
 
 MwEmbed Support
 descmsg = mwembed-desc
@@ -1017,33 +625,8 @@ Namespace Paths
 Narayam
 optional = narayam-help-page
 
-Natural Language List
-descmsg = nll-desc
-ignored = nll-itemoutput
-optional = nll-separator
-
-Navigation Popups
-
 Negref
 magicfile = Negref/Negref.i18n.magic.php
-
-Network Auth
-optional = networkauth-name, networkauth-purltext
-
-Newest Pages
-aliasfile = NewestPages/NewestPages.alias.php
-
-News
-optional = newsextension-unknownformat, newsextension-feednotfound
-optional = newsextension-feedrequest, newsextension-checkok
-optional = newsextension-checkok1, newsextension-gotcached, newsextension-purge
-optional = newsextension-loggin, newsextension-outputting, newsextension-stale
-optional = newsextension-nofoundonpage, newsextension-renderedfeed
-optional = newsextension-cachingfeed, newsextension-freshfeed
-descmsg = newsextension-desc
-
-News Channel
-aliasfile = NewsChannel/NewsChannel.alias.php
 
 New User Message
 ignored = newusermessage-editor, newusermessage-substitute
@@ -1059,16 +642,7 @@ Nimbus
 file = skins/Nimbus/Nimbus.i18n.php
 ignored = morewikis, nimbus-advertise-url
 
-No Bogus Userpages
-
-Notificator
-aliasfile = Notificator/Notificator.alias.php
-
 NS File Repo
-
-Nss MySQL Auth
-aliasfile = NssMySQLAuth/NssMySQLAuth.alias.php
-descmsg = nss-desc
 
 Nuke
 aliasfile = Nuke/Nuke.alias.php
@@ -1098,10 +672,6 @@ ignored = onlinestatus-levels
 
 Online Status Bar
 
-OpenID
-aliasfile = OpenID/OpenID.alias.php
-optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
-
 Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
 
@@ -1110,21 +680,7 @@ Open Search Xml
 Open Stack Manager
 aliasfile = OpenStackManager/OpenStackManager.alias.php
 
-Oracle Text Search
-
-Other Sites
-
-Package Force
-descmsg = pf-desc
-aliasfile = PackageForce/PackageForce.alias.php
-
-Page By
-
 Page Images
-
-Page In Cat
-
-Page Object Model
 
 Page Schemas
 descmsg = ps-desc
@@ -1225,17 +781,6 @@ Parser Functions
 descmsg = pfunc_desc
 magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
-Parser Wiki
-
-Patroller
-aliasfile = Patroller/Patroller.alias.php
-descmsg = patrol-desc
-optional = group-patroller.css, group-patroller.js
-
-People Categories
-
-Pdf Book
-
 Pdf Export
 aliasfile = PdfExport/PdfExport.i18n.alias.php
 ignored = pdf_fontface_default, pdf_fontface_options
@@ -1246,20 +791,6 @@ descmsg = pdf-desc
 
 Phalanx
 
-Pipe Escape
-
-Piwik
-aliasfile = Piwik/Piwik.alias.php
-optional = piwik
-
-Player
-aliasfile = Player/Player.alias.php
-ignored = player-pagetext, player-imagepage-header
-
-Plotters
-aliasfile = Plotters/Plotters.alias.php
-magicfile = Plotters/Plotters.i18n.magic.php
-
 Poem
 
 Pool Counter
@@ -1268,11 +799,6 @@ file = PoolCounter/PoolCounterClient.i18n.php
 # Post comment: Insufficient escaping and other issues
 
 Post Edit
-
-POV Watch
-file = PovWatch/PovWatch.i18n.php
-aliasfile = PovWatch/PovWatch.alias.php
-descmsg = povwatch_desc
 
 Pref Stats
 aliasfile = PrefStats/PrefStats.alias.php
@@ -1291,20 +817,9 @@ ignored = prefstats-list-elem
 #optional = prefswitch-survey-answer-os-macos, prefswitch-survey-answer-os-linux, prefswitch-survey-answer-os-windowsmobile, prefswitch-survey-answer-os-iphoneos
 #optional = prefswitch-survey-answer-browser-ie9, prefswitch-survey-answer-browser-c5, prefswitch-survey-answer-browser-s5, prefswitch-survey-answer-os-ios
 
-Preloader
-
 Premoderation
 
-Preview Functions
-
 Private Domains
-
-Private Page Protection
-descmsg = privatepp-desc
-
-Profile Monitor
-aliasfile = ProfileMonitor/ProfileMonitor.alias.php
-descmsg = profiling-desc
 
 Proofread Page
 aliasfile = ProofreadPage/ProofreadPage.alias.php
@@ -1312,24 +827,8 @@ descmsg = proofreadpage_desc
 ignored = proofreadpage_default_header, proofreadpage_default_footer
 ignored = proofreadpage_specialpage_text
 
-Protect Section
-descmsg = protectsection_desc
-
 Protect Site
 aliasfile = ProtectSite/ProtectSite.alias.php
-
-Proxy Connect
-
-PSI NoTocNum
-magicfile = PSINoTocNum/PSINoTocNum.i18n.magic.php
-
-Pure Wiki Deletion
-aliasfile = PureWikiDeletion/PureWikiDeletion.alias.php
-
-Purge
-
-Purge Cache
-aliasfile = PurgeCache/PurgeCache.alias.php
 
 Push
 aliasfile = Push/Push.alias.php
@@ -1337,19 +836,8 @@ optional = group-pusher.css, group-pusher.js
 optional = group-bulkpusher.css, group-bulkpusher.js
 optional = group-filepusher.css, group-filepusher.js
 
-QPoll
-file = QPoll/i18n/qp.i18n.php
-aliasfile = QPoll/i18n/qp.alias.php
-descmsg = qp_desc
-optional = qp_parentheses, qp_full_category_name, qp_results_line_qpul, qp_results_line_qucl
-optional = qp_header_line_qucl
-
-Qr Code
-
 Quiz
 descmsg = quiz_desc
-
-Random Image
 
 Random In Category
 aliasfile = RandomInCategory/RandomInCategory.alias.php
@@ -1361,9 +849,6 @@ Random Users With Avatars
 descmsg = random-users-avatars-desc
 
 Ratings
-
-RDFIO
-aliasfile = RDFIO/RDFIO.alias.php
 
 Reader Feedback
 id = ext-readerfeedback-readerfeedback
@@ -1385,26 +870,11 @@ descmsg = ratinghistory
 Reassign Edits
 aliasfile = ReassignEdits/ReassignEdits.alias.php
 
-Record Admin
-aliasfile = RecordAdmin/RecordAdmin.alias.php
-ignored = recordadmin-title
-optional = recrodadmin-export-csv, recrodadmin-export-pdf
-
-Redirect
-ignored = redirect-addnewaccount, redirect-userlogincomplete, redirect-userlogoutcomplete
-
 Ref Helper
 aliasfile = RefHelper/RefHelper.alias.php
 
-Reflect
-file = Reflect/server/i18n/Reflect.i18n.php
-
 Refresh Special
 aliasfile = RefreshSpecial/RefreshSpecial.alias.php
-
-Regex Block
-file = regexBlock/regexBlock.i18n.php
-aliasfile = regexBlock/regexBlock.alias.php
 
 Regex Fun
 
@@ -1421,11 +891,6 @@ magicfile = ReplaceSet/ReplaceSet.i18n.magic.php
 Replace Text
 aliasfile = ReplaceText/ReplaceText.alias.php
 
-Research Tools
-aliasfile = ResearchTools/ResearchTools.alias.php
-
-Resumable Upload
-
 Revision Comment Supplement
 aliasfile = RevisionCommentSupplement/RevisionCommentSupplement.alias.php
 descmsg = revcs-desc
@@ -1435,18 +900,12 @@ ignored = revcs-log-supplement1
 Right Functions
 optional = rightfunctions-rest1, rightfunctions-rest2, rightfunctions-rest3, rightfunctions-sep
 
-RPED
-
 RSS
 ignored = rss-item
 
 RT
 
 Score
-
-Search Box
-
-See also
 
 Scan Set
 
@@ -1471,9 +930,6 @@ Semantic Bundle
 
 Semantic Compound Queries
 magicfile = SemanticCompoundQueries/SemanticCompoundQueries.i18n.magic.php
-
-Semantic Data Types
-descmsg = sdt-desc
 
 Semantic Drilldown
 file = SemanticDrilldown/languages/SD_Messages.php
@@ -1520,17 +976,13 @@ optional = smw_property_template_notype
 Semantic Page Series
 aliasfile = SemanticPageSeries/SemanticPageSeries.alias.php
 
-Semantic Project Management
-file = SemanticProjectManagement/includes/SPM_Messages.php
-aliasfile = SemanticProjectManagement/includes/SPM_Alias.php
-
 Semantic Result Formats
 file = SemanticResultFormats/SRF_Messages.php
 magicfile = SemanticResultFormats/SRF_Magic.php
 descmsg = srf-desc
 optional = srf_icalendar_link, srf_vcard_link, srf_bibtex_link
 
-SemanticSignup
+Semantic Signup
 aliasfile = SemanticSignup.i18n.aliases.php
 magicfile = SemanticSignup.i18n.magic.php
 
@@ -1545,19 +997,7 @@ Semantic Watchlist
 aliasfile = SemanticWatchlist/SemanticWatchlist.i18n.alias.php
 optional = group-swladmins.css, group-swladmins.js
 
-Semantic Web Browser
-descmsg = swb_desc
-aliasfile = SemanticWebBrowser/SemanticWebBrowser.alias.php
-optional = swb_browse_more
-
-Sendmail To Wiki
-ignored = sendmailtowiki
-
 Shared Css Js
-
-Shared User Rights
-aliasfile = SharedUserRights/SharedUserRights.alias.php
-descmsg = gblrights-desc
 
 Short Url
 aliasfile = ShortUrl/ShortUrl.alias.php
@@ -1565,16 +1005,7 @@ aliasfile = ShortUrl/ShortUrl.alias.php
 Shout Box
 optional = shoutbox-url, shoutbox-url-with-css
 
-Show Processlist
-aliasfile = ShowProcesslist/ShowProcesslist.alias.php
-
 Side Bar Menu
-
-Sidebar Donate Box
-
-Sign Document
-aliasfile = SignDocument/SignDocument.alias.php
-descmsg = signature-desc
 
 Sign Document Special Create
 file = SignDocument/SpecialCreateSignDocument.i18n.php
@@ -1592,10 +1023,6 @@ Simple Anti Spam
 
 Simple Farm
 
-Simple Security
-ignored = security-logentry, protect-unchain
-descmsg = security-desc
-
 Site Matrix
 aliasfile = SiteMatrix/SiteMatrix.alias.php
 
@@ -1607,16 +1034,9 @@ Skin Per Page
 
 Slimbox Thumbs
 
-Slippy Map
-ignored = slippymap_license, slippymap_osmlink
-descmsg = slippymap_desc
-optional = slippymap_tagname, slippymap_extname
-
 Smooth Gallery
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
 ignored = smoothgallery-pagetext
-
-SNMP query
 
 #Social Profile - System Gifts
 #aliasfile = SocialProfile/SocialProfile.alias.php
@@ -1668,54 +1088,20 @@ SNMP query
 Solr Store
 aliasfile = SolrStore/SolrStore.alias.php
 
-Sound Manager 2 Button
-
 Spam Blacklist
 descmsg = spam-blacklist-desc
 
-Spam Diff Tool
-aliasfile = SpamDiffTool/SpamDiffTool.alias.php
-
-Spam Regex
-aliasfile = SpamRegex/SpamRegex.alias.php
-
 Spark
-
-Special 404
-aliasfile = Special404/Special404.alias.php
-
-Special File List
-file = SpecialFileList/SpecialFilelist.i18n.php
-descmsg = filelist-desc
 
 Sphinx Search
 
-Special Talk
-
-SQL2Wiki
-
-Stale Pages
-aliasfile = StalePages/StalePages.alias.php
-
 Stalker Log
 
-Sternograph
-ignored = sternograph-speaker-pre, sternograph-speaker-post, sternograph-block-pre
-ignored = sternograph-block-post, sternograph-inline-pre, sternograph-inline-post
-ignored = sternograph-context-pre, sternograph-context-post
-
 Stick To That Language
-
-Stock Charts
-
-Storyboard
-aliasfile = Storyboard/Storyboard.alias.php
 
 Strategy Wiki - Active Strategy
 descmsg = active-strategy-desc
 file = StrategyWiki/ActiveStrategy/ActiveStrategy.i18n.php
-
-String Functions
 
 Sub Page List
 descmsg = spl-desc
@@ -1728,11 +1114,6 @@ Subpage Fun
 
 Subpage Sortkey
 
-Sudo
-aliasfile = Sudo/Sudo.alias.php
-
-Suhosin
-
 Survey
 ignored = surveys-surveystats-question-nr, surveys-surveystats-question-#
 aliasfile = Survey/Survey.alias.php
@@ -1741,37 +1122,13 @@ optional = group-surveysubmit.css, group-surveysubmit.js
 
 SVG Edit
 
-SVG Zoom
-ignored = svgzoom
-
 Swift Cloud Files
 
 Syntax Highlight GeSHi
 file = SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.i18n.php
 descmsg = syntaxhighlight-desc
 
-Tab0
-
 Tabber
-
-Talk Here
-ignored = talkhere-title, talkhere-headtext, talkhere-afterinput
-ignored = talkhere-afterform
-
-Tasks
-ignored = tasks_search_limit, tasks_help_separator, tasks_creation_tasks, tasks_significance_order
-optional = tasks_help_page_link
-descmsg = tasks_desc
-
-Template Info
-
-Template Link
-aliasfile = TemplateLink/TemplateLink.alias.php
-descmsg = templatelink_desc
-
-TidyTab
-file = TidyTab/Tidy.i18n.php
-descmsg = tidy-desc
 
 Timed Media Handler
 # Siebrand 201005-13: conflicting magic words with Ogghandler
@@ -1800,31 +1157,6 @@ file = timeline/Timeline.i18n.php
 Title Blacklist
 
 Title Key
-
-Todo
-aliasfile = Todo/Todo.alias.php
-
-Todo Tasks
-aliasfile = TodoTasks/TodoTasks.alias.php
-magicfile = TodoTasks/TodoTasks.i18n.magic.php
-descmsg = tasklist-parser-desc
-ignored = todoTasksValidProjects
-
-Tooltip
-
-Toolserver Tools - Holeks Cite book template generator
-file = ToolserverTools/HolekCiteGen/allMessages.php
-id = ext-ts-citegen
-
-Toolserver Tools - Kolossos Kml On Openlayers
-file = ToolserverTools/KolossosKmlOnOpenlayers/kml-on-ol-source.i18n.php
-id = ext-ts-kmlonol
-optional = ts-kml-on-ol-openstreetmap, ts-kml-on-ol-wikipedia
-
-Toolserver Tools - Soxred93
-file = ToolserverTools/Soxred93EditCounter/ToolbaseMessages.i18n.php
-id = ext-ts-soxred-toolbase
-optional = toolbase-header-twitter, toolbase-navigation-api
 
 Tor Block
 
@@ -1862,16 +1194,7 @@ ignored = translate-js-label-font-size, translate-js-label-units
 Translation Notifications
 aliasfile = TranslationNotifications/TranslationNotifications.alias.php
 
-Transliterator
-magicfile = Transliterator/Transliterator.i18n.magic.php
-
-Tree And Menu
-
-Trusted Math
-
 Trusted XFF
-
-TSPoll
 
 Tweet A New
 ignored = tweetanew-accesskey
@@ -1879,9 +1202,6 @@ ignored = tweetanew-accesskey
 Two Factor Authentication
 file = TwoFactorAuthentication/TwoFactorAuth.i18n.php
 descmsg = twofactorauth-desc
-
-UK Geocoding For Maps
-descmsg = ukgeocoding-desc
 
 Upload Blacklist
 
@@ -1895,83 +1215,9 @@ Unicode Converter
 Universal Language Selector
 descmsg = uls-desc
 
-Uniwiki - Authors
-id = ext-uniwiki-authors
-file = uniwiki/Authors/Authors.i18n.php
-descmsg = authors-desc
-
-Uniwiki - Auto Create Category Pages
-id = ext-uniwiki-autocreatecategorypages
-file = uniwiki/AutoCreateCategoryPages/AutoCreateCategoryPages.i18n.php
-descmsg = autocreatecategorypages-desc
-
-Uniwiki - Cat Box At Top
-id = ext-uniwiki-catboxattop
-file = uniwiki/CatBoxAtTop/CatBoxAtTop.i18n.php
-descmsg = catboxattop-desc
-
-Uniwiki - Create Page
-id = ext-uniwiki-createpage
-file = uniwiki/CreatePage/CreatePage.i18n.php
-aliasfile = uniwiki/CreatePage/CreatePage.alias.php
-descmsg = uwcreatepage-desc
-
-Uniwiki - Css Hooks
-id = ext-uniwiki-csshooks
-file = uniwiki/CssHooks/CssHooks.i18n.php
-descmsg = csshooks-desc
-
-Uniwiki - Custom Toolbar
-id = ext-uniwiki-customtoolbar
-file = uniwiki/CustomToolbar/CustomToolbar.i18n.php
-descmsg = ct-desc
-ignored = ct_external_sample
-
-Uniwiki - Format Changes
-id = ext-uniwiki-formatchanges
-file = uniwiki/FormatChanges/FormatChanges.i18n.php
-descmsg = formatchanges-desc
-
-Uniwiki - Format Search
-id = ext-uniwiki-formatsearch
-file = uniwiki/FormatSearch/FormatSearch.i18n.php
-descmsg = formatsearch-desc
-
-Uniwiki - Generic Edit Page
-id = ext-uniwiki-genericeditpage
-file = uniwiki/GenericEditPage/GenericEditPage.i18n.php
-descmsg = gep-desc
-optional = gep-categorypage
-
-Uniwiki - Javascript
-id = ext-uniwiki-javascript
-file = uniwiki/Javascript/Javascript.i18n.php
-descmsg = javascript-desc
-
-Uniwiki - Layouts
-id = ext-uniwiki-layouts
-file = uniwiki/Layouts/Layouts.i18n.php
-descmsg = layouts-desc
-optional = layouts-layoutcategorypage
-
-Uniwiki - Moo Tools 12 core
-id = ext-uniwiki-mootools12core
-file = uniwiki/MooTools12core/MooTools12core.i18n.php
-descmsg = mootools12core-desc
-
-Usage Statistics
-aliasfile = UsageStatistics/UsageStatistics.alias.php
-
-User Contact Links
-
 User Daily Contribs
 
-User Debug Info
-aliasfile = UserDebugInfo/UserDebugInfo.alias.php
-
 User Functions
-
-User Images
 
 User Merge
 aliasfile = UserMerge/UserMerge.alias.php
@@ -1979,17 +1225,10 @@ aliasfile = UserMerge/UserMerge.alias.php
 User Option Stats
 aliasfile = UserOptionStats/UserOptionStats.alias.php
 
-User Page Edit Protection
-
-User Rights Notif
-
 User Throttle
 
 Validator
 optional = validator-listerrors-severity-message
-
-Variable Page
-aliasfile = VariablePage/VariablePage.alias.php
 
 Variables
 
@@ -2000,18 +1239,9 @@ aliasfile = VipsScaler/VipsScaler.alias.php
 
 Visual Editor
 
-Vote
-aliasfile = Vote/Vote.alias.php
-
 Vote NY
 file = VoteNY/Vote.i18n.php
 prefix = voteny- | right-vote
-
-Watchers
-aliasfile = Watchers/Watchers.alias.php
-
-Watch Subpages
-aliasfile = WatchSubpages/WatchSubpages.alias.php
 
 Web Chat
 aliasfile = WebChat/WebChat.alias.php
@@ -2020,39 +1250,14 @@ Web Fonts
 aliasfile = WebFonts/WebFonts.alias.php
 ignored = webfonts-help-page
 
-Web Store
-
-What Is My IP
-aliasfile = WhatIsMyIP/WhatIsMyIP.alias.php
-
-White List Edit
-aliasfile = WhiteListEdit/WhiteListEdit.alias.php
-
 White Space
 
 Whitelist Pages
 ignored = public_read_whitelist
 
-Whos Online
-aliasfile = WhosOnline/WhosOnline.alias.php
-
-Who Is Watching
-aliasfile = WhoIsWatching/WhoIsWatching.alias.php
-
 Widgets
 magicfile = Widgets/Widgets.i18n.magic.php
 optional = group-widgeteditor.css, group-widgeteditor.js
-
-Wiki Article Feeds
-magicfile = WikiArticleFeeds/WikiArticleFeeds.i18n.magic.php
-
-Wiki At Home
-descmsg = wah-desc
-ignored = specialwikiathome
-aliasfile = WikiAtHome/WikiAtHome.alias.php
-
-WikiBhasha
-optional = wikibhasha, wikiBhashaLink
 
 Wikibase - Client
 file = Wikibase/client/WikibaseClient.i18n.php
@@ -2080,11 +1285,6 @@ ignored = wikibase-api-invalid-contentmodel, wikibase-api-alias-incomplete, wiki
 ignored = wikibase-api-label-or-description, wikibase-api-label-not-found, wikibase-api-description-not-found, wikibase-api-wrong-class
 ignored = wikibase-api-session-failure, wikibase-api-illegal-field, wikibase-api-edit-conflict
 
-Wikidata
-file = Wikidata/Wikidata.i18n.php
-optional = ow_URL, ow_ID, prefs-omegawiki
-ignored = ow_editing_policy_url
-
 WikiEditor
 optional = wikieditor-toolbar-help-content-rereference-syntax, wikieditor-toolbar-help-content-showreferences-syntax
 optional = wikieditor-toolbar-tool-table-example-text
@@ -2097,15 +1297,6 @@ optional = group-forumadmin.css, group-forumadmin.js
 Wikihiero
 file = wikihiero/wikihiero.i18n.php
 aliasfile = wikihiero/wikihiero.alias.php
-
-Wikilog
-aliasfile = Wikilog/Wikilog.i18n.alias.php
-magicfile = Wikilog/Wikilog.i18n.magic.php
-optional = wikilog-entry-footer, wikilog-title-item-full, wikilog-feed-title
-optional = wikilog-comment-footer, wikilog-simple-signature
-ignored = wikilog-summary, wikilog-summary-header, wikilog-summary-header-single, wikilog-entry-sub
-ignored = wikilog-entry-header, wikilog-backlink, wikilog-brackets
-ignored = wikilog-comment-header
 
 Wikilog Feed
 file = Wikilog/WlFeed.i18n.php
@@ -2170,25 +1361,13 @@ file = WikimediaMessages/WikimediaTemporaryMessages.i18n.php
 
 Wikimedia Shop Link
 
-Wiki Sync
-aliasfile = WikiSync/WikiSync.alias.php
-
 Wiki Text Logged In Out
-
-Wiki Tweet
-ignored = wikitweet-name
 
 Windows Azure SDK
 
 Windows Azure Storage
 
-Woopra
-
-XMLRC
-
 YouTube
-
-YouTube Auth Sub
 
 Zero Rated Mobile Access
 ignored = zero-rated-mobile-access-carrier-options-wiki-page, zero-rated-mobile-access-language-options-wiki-page

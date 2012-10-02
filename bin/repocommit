@@ -91,20 +91,14 @@ then
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
-	#ssh-add /home/betawiki/id_rsa
 	cd $PROJECT/extensions
 	for i in `ls`
 	do
-		if [ -d $i/.git ]
-		then
-			cd $i
-			git commit -a -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
-			cd ..
-		fi
+		cd $i
+		git commit -a -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
+		cd ..
 	done
 
-	svn diff | less
-	svn commit --message "$COMMITMSG"
 	cd ../..
 	for i in `ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit query --format=TEXT owner:l10n-bot status:open |grep "  url:" |cut -d/ -f5`
 	do
