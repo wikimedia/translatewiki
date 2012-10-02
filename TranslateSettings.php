@@ -90,10 +90,13 @@ function setupMediaWiki( &$cc ) {
 
 	$changed = array(
 		'1.20' => array(
-		), // Checked up to <not yet>
+			'version-poweredby-others',
+		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
 		'1.19' => array(
 			'recentchangestext',
-		), // Checked up to 56bcc643db15a3edfb5d72c284d667e9e2101061
+			// From 1.20
+			'version-poweredby-others',
+		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
 		'1.18' => array(
 			'editinguser', 'defemailsubject', 'file-nohires', 'show-big-image-preview',
 			'show-big-image-other', 'seconds-abbrev', 'minutes-abbrev', 'hours-abbrev',
@@ -102,7 +105,9 @@ function setupMediaWiki( &$cc ) {
 			'prefs-watchlist-days-max', 'longpageerror',
 			// From 1.19
 			'recentchangestext',
-		),
+			// From 1.20
+			'version-poweredby-others',
+		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
 	);
 
 	$branches = array_keys( $changed );
