@@ -38,6 +38,18 @@ MANGLER:
 
 ---
 BASIC:
+  id: mozilla-chrome-browser-browser-java
+  label: Mozilla - Chrome - Browser - Browser - Java
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/browser.properties
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/browser.properties
+
+MANGLER:
+  prefix: chrome-browser-browser-java-
+
+---
+BASIC:
   id: mozilla-chrome-browser-devtools-debugger-java
   label: Mozilla - Chrome - Browser - Devtools - Debugger - Java
 

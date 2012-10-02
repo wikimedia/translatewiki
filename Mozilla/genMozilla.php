@@ -28,11 +28,7 @@ $fileTypes = array(
 	'properties' => array( 'properties', 'Java' ),
 );
 // excluded files.
-$excludedFiles = array(
-	'chrome/browser/browser.properties',
-	'chrome/browser/feeds/subscribe.dtd',
-	'chrome/browser/preferences/selectBookmark.dtd',
-);
+$excludedFiles = array();
 
 foreach ( $products as $product ) {
 	$baseFolder = "$projectsFolder/$projectFolder/${sourceFolder}/$product/";

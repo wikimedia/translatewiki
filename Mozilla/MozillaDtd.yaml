@@ -242,6 +242,18 @@ MANGLER:
 
 ---
 BASIC:
+  id: mozilla-chrome-browser-feeds-subscribe-dtd
+  label: Mozilla - Chrome - Browser - Feeds - Subscribe - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/feeds/subscribe.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/feeds/subscribe.dtd
+
+MANGLER:
+  prefix: chrome-browser-feeds-subscribe-dtd-
+
+---
+BASIC:
   id: mozilla-chrome-browser-migration-migration-dtd
   label: Mozilla - Chrome - Browser - Migration - Migration - Dtd
 
@@ -515,6 +527,18 @@ FILES:
 
 MANGLER:
   prefix: chrome-browser-preferences-security-dtd-
+
+---
+BASIC:
+  id: mozilla-chrome-browser-preferences-selectbookmark-dtd
+  label: Mozilla - Chrome - Browser - Preferences - SelectBookmark - Dtd
+
+FILES:
+  sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/selectBookmark.dtd
+  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/selectBookmark.dtd
+
+MANGLER:
+  prefix: chrome-browser-preferences-selectbookmark-dtd-
 
 ---
 BASIC:
