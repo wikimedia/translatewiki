@@ -89,6 +89,8 @@ function setupMediaWiki( &$cc ) {
 	$cc[$id] = $mg;
 
 	$changed = array(
+		'1.20' => array(
+		), // Checked up to <not yet>
 		'1.19' => array(
 			'recentchangestext',
 		), // Checked up to 56bcc643db15a3edfb5d72c284d667e9e2101061
