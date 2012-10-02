@@ -129,7 +129,6 @@ $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/ReaderFeedbackAgg.yaml";
 # Disabled by Siebrand / 2011-10-23. Maintainer is not willing to stick to conventions.
 #$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/SocialProfileAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/TranslateAgg.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/UniwikiAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaMainAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/ExtensionsAgg.yaml";

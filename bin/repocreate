@@ -90,13 +90,7 @@ then
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
-	if [ -z "$REPO_MWEXTSVN" ]
-	then echo "Add REPO_MWEXTSVN to REPOCONF"; exit 1
-	fi
-
-	mkdir -p $PROJECT
-	cd $PROJECT
-	svn checkout "$REPO_MWEXTSVN" --depth empty
+	mkdir -p $PROJECT/extensions
 
 elif [ "$PROJECT" = "mifos" ]
 then
