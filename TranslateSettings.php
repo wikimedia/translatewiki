@@ -101,6 +101,8 @@ function setupMediaWiki( &$cc ) {
 			'days-abbrev', 'signature', 'delete_and_move_reason', 'specialpages-note',
 			'usercreated', 'wlnote', 'perfcached', 'perfcachedts',
 			'prefs-watchlist-days-max', 'longpageerror',
+			'group-user-member', 'group-autoconfirmed-member', 'group-bot-member', 'group-sysop-member',
+			'group-bureaucrat-member', 'group-suppress-member',
 			// From 1.19
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
 		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
