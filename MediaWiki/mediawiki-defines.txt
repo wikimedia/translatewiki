@@ -1215,6 +1215,8 @@ Unicode Converter
 Universal Language Selector
 descmsg = uls-desc
 
+UR Names
+
 User Daily Contribs
 
 User Functions
