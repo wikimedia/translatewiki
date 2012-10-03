@@ -92,9 +92,7 @@ function setupMediaWiki( &$cc ) {
 		'1.20' => array(
 		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
 		'1.19' => array(
-			'recentchangestext', 'feedback-bugornote',
-			// From 1.20
-			'version-poweredby-others',
+			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
 		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
 		'1.18' => array(
 			'editinguser', 'defemailsubject', 'file-nohires', 'show-big-image-preview',
