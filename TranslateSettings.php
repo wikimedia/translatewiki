@@ -92,7 +92,7 @@ function setupMediaWiki( &$cc ) {
 		'1.20' => array(
 		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
 		'1.19' => array(
-			'recentchangestext',
+			'recentchangestext', 'feedback-bugornote',
 			// From 1.20
 			'version-poweredby-others',
 		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
@@ -103,7 +103,7 @@ function setupMediaWiki( &$cc ) {
 			'usercreated', 'wlnote', 'perfcached', 'perfcachedts',
 			'prefs-watchlist-days-max', 'longpageerror',
 			// From 1.19
-			'recentchangestext',
+			'recentchangestext', 'feedback-bugornote',
 			// From 1.20
 			'version-poweredby-others',
 		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
