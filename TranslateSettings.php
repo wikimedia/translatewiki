@@ -5,7 +5,7 @@ require_once( __DIR__ . '/FallbackSettings.php' );
 $wgSpecialPages['Magic'] = 'SpecialMagic';
 $wgTranslateNewsletterPreference = true;
 $wgTranslateYamlLibrary = 'syck-pecl';
-$wgTranslateCacheDirectory = "/www/w/cache";
+$wgTranslateCacheDirectory = "/www/translatewiki.net/w/cache";
 $wgTranslateEC = array();
 $wgTranslateFuzzyBotName = 'FuzzyBot';
 $wgTranslateDocumentationLanguageCode = 'qqq';
