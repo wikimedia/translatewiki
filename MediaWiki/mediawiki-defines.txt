@@ -273,6 +273,7 @@ file = DataTransfer/languages/DT_Messages.php
 aliasfile = DataTransfer/languages/DT_Aliases.php
 
 Data Values
+file = DataValues/DataValues/DataValues.i18n.php
 
 Data Values - Data Types
 file = DataValues/DataTypes/DataTypes.i18n.php
