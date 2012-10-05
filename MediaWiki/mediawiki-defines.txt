@@ -996,6 +996,11 @@ file = SemanticResultFormats/SRF_Messages.php
 magicfile = SemanticResultFormats/SRF_Magic.php
 descmsg = srf-desc
 optional = srf_icalendar_link, srf_vcard_link, srf_bibtex_link
+optional = srf-ui-eventcalendar-format-time, srf-ui-eventcalendar-format-time-agenda
+optional = srf-ui-eventcalendar-format-axis, srf-ui-eventcalendar-format-title-month
+optional = srf-ui-eventcalendar-format-title-week, srf-ui-eventcalendar-format-title-day
+optional = srf-ui-eventcalendar-format-column-month, srf-ui-eventcalendar-format-column-week
+optional = srf-ui-eventcalendar-format-column-day
 
 Semantic Signup
 aliasfile = SemanticSignup.i18n.aliases.php
