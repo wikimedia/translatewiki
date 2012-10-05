@@ -272,6 +272,20 @@ Data Transfer
 file = DataTransfer/languages/DT_Messages.php
 aliasfile = DataTransfer/languages/DT_Aliases.php
 
+Data Values
+
+Data Values - Data Types
+file = DataValues/DataTypes/DataTypes.i18n.php
+descmsg = datatypes-desc
+
+Data Values - Value Parsers
+file = DataValues/ValueParsers/ValueParsers.i18n.php
+descmsg = valueparsers-desc
+
+Data Values - Value Validators
+file = DataValues/ValueValidators/ValueValidators.i18n.php
+descmsg = valuevalidators-desc
+
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
 
