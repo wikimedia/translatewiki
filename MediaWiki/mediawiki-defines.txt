@@ -1383,8 +1383,9 @@ optional = wm-license-pd-usgov-military-navy-wiki-link, wm-license-pd-usgov-noaa
 ignored = wm-license-gfdl-full-1.2-link, wm-license-gfdl-full-1.3-link, wm-license-gpl-2-full-link, wm-license-gpl-3-full-link
 ignored = wm-license-lgpl-2.1-full-link, wm-license-lgpl-3-full-link
 
-Wikimedia Temporary Messages
-file = WikimediaMessages/WikimediaTemporaryMessages.i18n.php
+# No real content since Gerrit:26907
+# Wikimedia Temporary Messages
+# file = WikimediaMessages/WikimediaTemporaryMessages.i18n.php
 
 Wikimedia Shop Link
 
