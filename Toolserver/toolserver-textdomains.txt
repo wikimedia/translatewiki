@@ -44,3 +44,5 @@ Toolserverstatus
 
 Wlm
 optional = date-format, province-comarque-joiner
+
+Wlmsurvey
