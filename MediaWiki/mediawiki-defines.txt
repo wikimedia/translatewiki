@@ -1385,6 +1385,7 @@ ignored = wm-license-lgpl-2.1-full-link, wm-license-lgpl-3-full-link
 
 Wikimedia Temporary Messages
 file = WikimediaMessages/WikimediaTemporaryMessages.i18n.php
+prefix = temporary- | wikimediamessages-desc
 
 Wikimedia Shop Link
 
