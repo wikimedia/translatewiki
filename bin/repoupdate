@@ -21,7 +21,6 @@ gitupdate() {
 	cd ..
 }
 
-
 if [ "$PROJECT" = "eol" ]
 then
 	cd $PROJECT
@@ -31,6 +30,10 @@ then
 elif [ "$PROJECT" = "freecol" ]
 then
 	svn up $PROJECT
+
+elif [ "$PROJECT" = "frontlinesms" ]
+then
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "fudforum" ]
 then
