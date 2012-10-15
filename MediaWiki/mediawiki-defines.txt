@@ -90,6 +90,8 @@ aliasfile = BookManager/language/BookManager.alias.php
 
 Bread Crumbs
 
+Calendar
+
 Carp
 optional = carp-function-msg, carp-template-msg, carp-template
 
