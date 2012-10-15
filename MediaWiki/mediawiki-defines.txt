@@ -46,13 +46,13 @@ ignored = articlefeedback-pitch-edit-body
 
 Article Feedback v5
 aliasfile = ArticleFeedbackv5/ArticleFeedbackv5.alias.php
-optional = articlefeedbackv5-table-noratings, articlefeedbackv5-cta1-learn-how-url
-optional = articlefeedbackv5-transparency-terms-url, articlefeedbackv5-privacyurl
-optional = articlefeedbackv5-activity-item-comment
-optional = articlefeedbackv5-help-special-linkurl, articlefeedbackv5-help-special-linkurl-editors, articlefeedbackv5-help-special-linkurl-monitors
-optional = articlefeedbackv5-help-special-linkurl-oversighters, articlefeedbackv5-help-form-linkurl, articlefeedbackv5-help-form-linkurl-editors
-optional = articlefeedbackv5-help-form-linkurl-monitors, articlefeedbackv5-help-form-linkurl-oversighters
-optional = articlefeedbackv5-permalink-info-subtitle
+optional = articlefeedbackv5-table-noratings, articlefeedbackv5-cta1-learn-how-url, articlefeedbackv5-transparency-terms-url, articlefeedbackv5-privacyurl
+optional = articlefeedbackv5-activity-item-comment, articlefeedbackv5-help-special-linkurl, articlefeedbackv5-help-special-linkurl-editors, articlefeedbackv5-help-special-linkurl-monitors
+optional = articlefeedbackv5-help-special-linkurl-oversighters, articlefeedbackv5-help-form-linkurl, articlefeedbackv5-help-form-linkurl-editors, articlefeedbackv5-help-form-linkurl-monitors
+optional = articlefeedbackv5-help-form-linkurl-oversighters, articlefeedbackv5-permalink-info-subtitle
+optional = articlefeedbackv5-noteflyover-declineoversight-description, articlefeedbackv5-noteflyover-oversight-description, articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-noteflyover-feature-description
+optional = articlefeedbackv5-noteflyover-unoversight-description, articlefeedbackv5-noteflyover-oversight-description, articlefeedbackv5-noteflyover-resolve-description
+optional = articlefeedbackv5-noteflyover-oversight-description, articlefeedbackv5-noteflyover-hide-description, articlefeedbackv5-noteflyover-unfeature-description
 ignored = articlefeedbackv5-pitch-survey-body, articlefeedbackv5-pitch-edit-body, articlefeedbackv5-special-sort-label-after, articlefeedbackv5-special-filter-label-after
 ignored = articlefeedbackv5-error-abuse-link
 ignored = articlefeedbackv5-noteflyover-hide-help-link, articlefeedbackv5-noteflyover-show-help-link, articlefeedbackv5-noteflyover-requestoversight-help-link
