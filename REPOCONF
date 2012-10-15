@@ -7,6 +7,7 @@ REPO_MWEXTGIT=https://gerrit.wikimedia.org/r/p/mediawiki/extensions
 
 REPO_EOL=git@github.com:EOL/eol.git
 REPO_FREECOL=https://freecol.svn.sourceforge.net/svnroot/freecol/freecol/trunk/data/strings
+REPO_FRONTLINESMS=git://github.com/frontlinesms/frontlinesms.git
 REPO_FUDFORUM=https://fudforum.svn.sourceforge.net/svnroot/fudforum/trunk/install/forum_data/thm/default/i18n
 REPO_JQUERY_ULS=git://github.com/wikimedia/jquery.uls.git
 REPO_KIWIX=https://kiwix.svn.sourceforge.net/svnroot/kiwix/maintenance_tools/translatewiki

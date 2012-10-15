@@ -264,6 +264,9 @@ $wgTranslateBlacklist = array(
 ),
 );
 
+# Namespace 8
+$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/jquery.i18n.yaml";
+
 # No longer in use.
 wfAddNamespace( 1200, 'Voctrain' );
 
@@ -349,3 +352,6 @@ wfAddNamespace( 1246, 'Mozilla' );
 $wgTranslateGroupFiles[] = "$GROUPS/Mozilla/MozillaJava.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Mozilla/MozillaDtd.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Mozilla/Mozilla.yaml";
+
+wfAddNamespace( 1248, 'FrontlineSMS' );
+#$wgTranslateGroupFiles[] = "$GROUPS/FrontlineSMS/FrontlineSMS.yaml";

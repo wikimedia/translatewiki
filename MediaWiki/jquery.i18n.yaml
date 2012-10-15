@@ -1,0 +1,18 @@
+---
+BASIC:
+  description: "jQuery i18n messages for Universal Language Selector"
+  namespace: NS_MEDIAWIKI
+  id: ext-jquery-uls
+  label: jQuery - Universal Language Selector
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: jquery-uls-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/UniversalLanguageSelector/i18n/%CODE%.json
+  targetPattern: mediawiki-extensions/extensions/UniversalLanguageSelector/i18n/%CODE%.json

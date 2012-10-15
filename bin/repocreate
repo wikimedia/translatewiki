@@ -23,6 +23,13 @@ then
 	fi
 	svn checkout "$REPO_FREECOL" $PROJECT
 
+if [ "$PROJECT" = "frontlinesms" ]
+then
+	if [ -z "$REPO_FRONTLINESMS" ]
+	then echo "Add REPO_FRONTLINESMS to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_FRONTLINESMS" $PROJECT
+
 elif [ "$PROJECT" = "fudforum" ]
 then
 	if [ -z "$REPO_FUDFORUM" ]

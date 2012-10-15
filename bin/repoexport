@@ -24,6 +24,11 @@ then
 	php "$EXPORTER" --target . --group=out-freecol --lang '*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-freecol --lang qqq
 
+elif [ "$PROJECT" = "frontlinesms" ]
+then
+	php "$EXPORTER" --target . --group=out-$PROJECT --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-$PROJECT --lang qqq
+
 elif [ "$PROJECT" = "fudforum" ]
 then
 	php "$EXPORTER" --target . --group=out-fudforum --lang '*' --skip en $THRESHOLD
@@ -91,6 +96,7 @@ then
 	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-y*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
 	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-z*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
 	wait
+	php "$EXPORTER" --target . --group 'ext-jquery-*' --lang '*' --skip "$SKIPLANGS" --hours 168
 
 elif [ "$PROJECT" = "mifos" ]
 then
