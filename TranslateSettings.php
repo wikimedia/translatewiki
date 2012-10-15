@@ -264,6 +264,9 @@ $wgTranslateBlacklist = array(
 ),
 );
 
+# Namespace 8
+$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/jquery.i18n.yaml";
+
 # No longer in use.
 wfAddNamespace( 1200, 'Voctrain' );
 
