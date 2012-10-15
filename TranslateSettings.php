@@ -15,6 +15,7 @@ $wgEnablePageTranslation = true;
 $wgTranslateMessageIndex = array( 'CDBMessageIndex' );
 $wgTranslateDelayedMessageIndexRebuild = true;
 $wgTranslateDisablePreSaveTransform = true;
+$wgTranslateCheckBlacklist = '/home/betawiki/config/check-blacklist.php';
 
 $wgTranslatePermissionUrl = 'Special:FirstSteps';
 $wgTranslateSupportUrl = array(
