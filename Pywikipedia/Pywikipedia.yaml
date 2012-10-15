@@ -222,6 +222,15 @@ FILES:
   targetPattern: pywikipedia/noreferences.py
 ---
 BASIC:
+  id: out-pywikipedia-pywikibot
+  label: Pywikipedia Pywikibot
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikipedia/pywikibot.py
+  definitionFile: %GROUPROOT%/pywikipedia/pywikibot.py
+  targetPattern: pywikipedia/pywikibot.py
+---
+BASIC:
   id: out-pywikipedia-redirect
   label: Pywikipedia Redirect
 
@@ -247,6 +256,15 @@ FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/solve_disambiguation.py
   definitionFile: %GROUPROOT%/pywikipedia/solve_disambiguation.py
   targetPattern: pywikipedia/solve_disambiguation.py
+---
+BASIC:
+  id: out-pywikipedia-spellcheck
+  label: Pywikipedia Spellcheck
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikipedia/spellcheck.py
+  definitionFile: %GROUPROOT%/pywikipedia/spellcheck.py
+  targetPattern: pywikipedia/spellcheck.py
 ---
 BASIC:
   id: out-pywikipedia-table2wiki
