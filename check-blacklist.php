@@ -499,7 +499,7 @@ array(
 	'group' => 'ext-translate-core',
 	'check' => 'plural',
 	'message' => array(
-		'translate-checks-plural-dupe',
+		'translate-checks-plural-dupe', // Message explaining the check.
 	)
 ),
 array(
