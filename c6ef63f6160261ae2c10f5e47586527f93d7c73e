@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAABEn//+y4\u003d",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2012-10-15T10:04:04Z",
+      "side": 1,
+      "message": "We should probably define something like $CONFIG in localsettings.php like $GROUPS below.",
+      "revId": "c6ef63f6160261ae2c10f5e47586527f93d7c73e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
