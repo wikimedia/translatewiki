@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAABEn//+HA\u003d",
+        "filename": "MediaWiki/jquery.i18n.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2012-10-16T08:30:48Z",
+      "side": 1,
+      "message": "Why is this file called jquery.i18n? This is jQuery part of ULS and not the jquery.i18n library itself.",
+      "revId": "7f48ada0c436a9d5d661fa2d3272ed200bcc48ff",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAABEn//+HE\u003d",
+        "filename": "MediaWiki/jquery.i18n.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2012-10-16T08:30:48Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this start with Univ... (jQuery) for sorting next to ULS?",
+      "revId": "7f48ada0c436a9d5d661fa2d3272ed200bcc48ff",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
