@@ -1121,6 +1121,10 @@ Spark
 
 Sphinx Search
 
+SSL Client Authentication
+file = SSLClientAuthentication/ClientSSLAuth.i18n.php
+descmsg = sslauth-desc
+
 Stalker Log
 
 Stick To That Language
