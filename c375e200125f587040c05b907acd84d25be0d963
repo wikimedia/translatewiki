@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAABEn//9YE\u003d",
+        "filename": "bin/repocommit",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2012-10-17T13:34:57Z",
+      "side": 1,
+      "message": "The -a is not needed anymore.",
+      "revId": "c375e200125f587040c05b907acd84d25be0d963",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
