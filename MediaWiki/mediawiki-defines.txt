@@ -477,6 +477,8 @@ Genderize
 
 Geo Data
 
+Geo Math
+
 # GeoGebra is a product name, therefore no space between the words
 GeoGebra
 
