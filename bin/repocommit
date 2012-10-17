@@ -100,7 +100,8 @@ then
 	for i in `ls`
 	do
 		cd $i
-		git commit -a -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
+		git add .
+		git commit -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
 		cd ..
 	done
 
