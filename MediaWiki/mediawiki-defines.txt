@@ -901,6 +901,8 @@ Regex Fun
 Regex Functions
 magicfile = RegexFunctions/RegexFunctions.i18n.magic.php
 
+Related Articles
+
 Rename user
 aliasfile = Renameuser/Renameuser.alias.php
 ignored = renameuser-summary
