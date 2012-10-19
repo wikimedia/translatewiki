@@ -56,6 +56,7 @@ GROUPS:
   - ext-opensearchxml
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-poem
+  - ext-postedit # 2012-10-18: enwiki, dewiki, testwiki for now; change-id: f462cfdb6df56cb2e0ab3b5c94cd32073516989e
   - ext-proofreadpage # Wikisource
   - ext-randomrootpage # 2012-05-16, change-Id: I31e2dc16deb13b3a029656802a69893f36602b98
   - ext-readerfeedback-0-all
