@@ -91,13 +91,13 @@ function setupMediaWiki( &$cc ) {
 
 	$changed = array(
 		'1.20' => array(
-			'cannotundelete',
+			'cannotundelete', 'logouttext',
 		), // Checked up to 5abe15bb9daa6197544087688d73ba11eb7fa801 / 2012-10-22
 		'1.19' => array(
 			'version-poweredby-others'/* No need to exclude in 1.18 */,
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
 			// From 1.20.
-			'cannotundelete',
+			'cannotundelete', 'logouttext',
 		), // Checked up to 5abe15bb9daa6197544087688d73ba11eb7fa801 / 2012-10-22
 		'1.18' => array(
 			'editinguser', 'defemailsubject', 'file-nohires', 'show-big-image-preview',
@@ -110,7 +110,7 @@ function setupMediaWiki( &$cc ) {
 			// From 1.19
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
 			// From 1.20.
-			'cannotundelete',
+			'cannotundelete', 'logouttext',
 		), // Checked up to 5abe15bb9daa6197544087688d73ba11eb7fa801 / 2012-10-22
 	);
 
