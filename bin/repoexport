@@ -96,7 +96,7 @@ then
 	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-y*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
 	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-z*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
 	wait
-	php "$EXPORTER" --target . --group 'ext-jquery-*' --lang '*' --skip "$SKIPLANGS" --hours 168
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-jquery-*' --lang '*' --skip "$SKIPLANGS" --hours 168
 
 elif [ "$PROJECT" = "mifos" ]
 then
