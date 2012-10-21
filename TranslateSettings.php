@@ -91,11 +91,14 @@ function setupMediaWiki( &$cc ) {
 
 	$changed = array(
 		'1.20' => array(
-		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
+			'cannotundelete',
+		), // Checked up to 5abe15bb9daa6197544087688d73ba11eb7fa801 / 2012-10-22
 		'1.19' => array(
 			'version-poweredby-others'/* No need to exclude in 1.18 */,
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
-		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
+			// From 1.20.
+			'cannotundelete',
+		), // Checked up to 5abe15bb9daa6197544087688d73ba11eb7fa801 / 2012-10-22
 		'1.18' => array(
 			'editinguser', 'defemailsubject', 'file-nohires', 'show-big-image-preview',
 			'show-big-image-other', 'seconds-abbrev', 'minutes-abbrev', 'hours-abbrev',
@@ -106,7 +109,9 @@ function setupMediaWiki( &$cc ) {
 			'group-bureaucrat-member', 'group-suppress-member',
 			// From 1.19
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
-		), // Checked up to 4a92fe7c8310f92b13c92b58bd41822053e28150 / 2012-10-02
+			// From 1.20.
+			'cannotundelete',
+		), // Checked up to 5abe15bb9daa6197544087688d73ba11eb7fa801 / 2012-10-22
 	);
 
 	$branches = array_keys( $changed );
