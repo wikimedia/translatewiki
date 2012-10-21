@@ -142,14 +142,14 @@ $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/ExtensionsAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/PageTranslationAgg.yaml";
 
 $wgHooks['TranslatePostInitGroups'][] = array( 'setupMediaWikiExtensions' );
-function setupMediaWikiExtensions( &$cc, &$deps ) {
-	global $wgTranslateExtensionDirectory, $GROUPS;
+function setupMediaWikiExtensions( &$list, &$deps, &$autoload ) {
+	global $GROUPS;
+
 	$def = "$GROUPS/MediaWiki/mediawiki-defines.txt";
 
-	$foo = new PremadeMediawikiExtensionGroups( $def, $wgTranslateExtensionDirectory );
-	$foo->addAll();
+	$foo = new PremadeMediawikiExtensionGroups( $def, 'unused' );
+	$foo->register( $list, $deps, $autoload );
 
-	$deps[] = new FileDependency( $def );
 	return true;
 }
 
