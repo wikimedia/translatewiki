@@ -16,7 +16,7 @@ php $HOME/phase3/maintenance/language/checkLanguage.php --all --output=wiki --li
 /bin/echo "End" >> $HOME/temp/warnings_page
 
 # upload warnings page to Mediawiki.org
-/usr/bin/python $HOME/i18n/pagefromfile.py -force -summary:"Updating localisation warnings" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$HOME/temp/warnings_page -start:Start -end:End
+/usr/bin/python /home/betawiki/software/pywikipedia/pagefromfile.py -force -summary:"Updating localisation warnings" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$HOME/temp/warnings_page -start:Start -end:End
 
 # house keeping
 /bin/rm $HOME/temp/warnings.txt

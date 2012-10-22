@@ -16,7 +16,7 @@ SVN_VERSION=`/usr/bin/svn info /www/w |grep "^Revision" |cut -b 11-`
 /bin/echo "End" >> $HOME/temp/stats_page
 
 # upload stats page to Betawiki
-/usr/bin/python $HOME/i18n/pagefromfile.py -force -summary:"Updating statistics (r$SVN_VERSION)" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$HOME/temp/stats_page -start:Start -end:End
+/usr/bin/python /home/betawiki/software/pywikipedia/pagefromfile.py -force -summary:"Updating statistics (r$SVN_VERSION)" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$HOME/temp/stats_page -start:Start -end:End
 
 # house keeping
 /bin/rm $HOME/temp/groupstats.txt
