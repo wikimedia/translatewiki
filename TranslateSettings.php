@@ -160,7 +160,7 @@ function setupMediaWikiExtensions( &$list, &$deps, &$autoload ) {
 }
 
 $wgHooks['TranslatePostInitGroups'][] = array( 'setupWikia' );
-function setupWikia( &$cc, &$deps, &$autoload ) {
+function setupWikia( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
 
 	$def = "$GROUPS/Wikia/extensions.txt";
@@ -176,7 +176,7 @@ function setupWikia( &$cc, &$deps, &$autoload ) {
 }
 
 $wgHooks['TranslatePostInitGroups'][] = array( 'setupToolserver' );
-function setupToolserver( &$cc, &$deps, &$autoload ) {
+function setupToolserver( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
 
 	$def = "$GROUPS/Toolserver/toolserver-textdomains.txt";
