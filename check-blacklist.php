@@ -629,6 +629,13 @@ array(
 	)
 ),
 array(
+	'group' => 'ext-autocreatewiki',
+	'check' => 'balance',
+	'message' => array(
+		'autocreatewiki-welcometalk-wall', // Contains unbalanced {
+	)
+),
+array(
 	'group' => 'wikia-categoryselect',
 	'check' => 'links',
 	'message' => array(
