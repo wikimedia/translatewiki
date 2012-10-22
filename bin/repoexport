@@ -52,18 +52,19 @@ then
 
 elif [ "$PROJECT" = "mediawiki" ]
 then
-	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang '*' --skip "$SKIPLANGS" --threshold 18 --hours 168
-	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" --hours 168
+	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang '*' --skip "$SKIPLANGS" --threshold 18 --hours 168 &
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" --hours 168 &
 
 	if [ -d "mediawiki/REL1_20/" ]
-	then php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --group 'core-1.20' --lang '*' --skip "$SKIPLANGS" --threshold 18
+	then php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --group 'core-1.20' --lang '*' --skip "$SKIPLANGS" --threshold 18 &
 	fi
 	if [ -d "mediawiki/REL1_19/" ]
-	then php "$EXPORTER" --target mediawiki/REL1_19/languages/messages --group 'core-1.19' --lang '*' --skip "$SKIPLANGS" --threshold 18
+	then php "$EXPORTER" --target mediawiki/REL1_19/languages/messages --group 'core-1.19' --lang '*' --skip "$SKIPLANGS" --threshold 18 &
 	fi
 	if [ -d "mediawiki/REL1_18/" ]
-	then php "$EXPORTER" --target mediawiki/REL1_18/languages/messages --group 'core-1.18' --lang '*' --skip "$SKIPLANGS" --threshold 18
+	then php "$EXPORTER" --target mediawiki/REL1_18/languages/messages --group 'core-1.18' --lang '*' --skip "$SKIPLANGS" --threshold 18 &
 	fi
+	wait
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
