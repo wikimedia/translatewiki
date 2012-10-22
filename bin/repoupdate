@@ -151,9 +151,9 @@ then
 	done
 
 	wait
-	if [ "$DIR" = "/resources/projects" ]
+	if [ -z "$REPO_RW" ]
 	then
-		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --groups=ext-jquery-* && echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
+		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --groups=ext-* && echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
 		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || /home/betawiki/config/bin/udpcast Message index creation failed &
 	fi
 
