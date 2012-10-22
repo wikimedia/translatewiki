@@ -629,7 +629,7 @@ array(
 	)
 ),
 array(
-	'group' => 'ext-autocreatewiki',
+	'group' => 'wikia-autocreatewiki',
 	'check' => 'balance',
 	'message' => array(
 		'autocreatewiki-welcometalk-wall', // Contains unbalanced {
