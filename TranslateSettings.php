@@ -151,41 +151,40 @@ function setupMediaWikiExtensions( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
 
 	$def = "$GROUPS/MediaWiki/mediawiki-defines.txt";
+	$path = '%GROUPROOT%/mediawiki-extensions/extensions/';
 
-	$foo = new PremadeMediawikiExtensionGroups( $def, 'unused' );
+	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
 	$foo->register( $list, $deps, $autoload );
 
 	return true;
 }
 
 $wgHooks['TranslatePostInitGroups'][] = array( 'setupWikia' );
-function setupWikia( &$cc, &$deps ) {
-	global $wgTranslateGroupRoot, $GROUPS;
+function setupWikia( &$cc, &$deps, &$autoload ) {
+	global $GROUPS;
 
 	$def = "$GROUPS/Wikia/extensions.txt";
-	$path = "$wgTranslateGroupRoot/wikia/";
+	$path = '%GROUPROOT%/wikia/';
 
 	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
 	$foo->setNamespace( NS_WIKIA );
 	$foo->setGroupPrefix( 'wikia-' );
 	$foo->setUseConfigure( false );
-	$foo->addAll();
+	$foo->register( $list, $deps, $autoload );
 
-	$deps[] = new FileDependency( $def );
 	return true;
 }
 
 $wgHooks['TranslatePostInitGroups'][] = array( 'setupToolserver' );
-function setupToolserver( &$cc, &$deps ) {
-	global $wgTranslateGroupRoot, $GROUPS;
+function setupToolserver( &$cc, &$deps, &$autoload ) {
+	global $GROUPS;
 
 	$def = "$GROUPS/Toolserver/toolserver-textdomains.txt";
-	$path = "$wgTranslateGroupRoot/toolserver/language/messages/";
+	$path = '%GROUPROOT%/toolserver/language/messages/';
 
 	$foo = new PremadeToolserverTextdomains( $def, $path );
-	$foo->addAll();
+	$foo->register( $list, $deps, $autoload );
 
-	$deps[] = new FileDependency( $def );
 	return true;
 }
 
