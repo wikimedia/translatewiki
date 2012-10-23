@@ -85,7 +85,7 @@ optional = babel-autocreate-user, babel-template
 ignored = babel-box-cellspacing, babel-cellspacing, babel-portal,
 ignored = babel-box-cellpadding, babel-cellpadding
 
-BatchUserRights
+Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
 Biblio Plus
@@ -104,6 +104,8 @@ Calendar
 
 Carp
 optional = carp-function-msg, carp-template-msg, carp-template
+
+Category Sort Headers
 
 Category Tests
 #Gives key conflicts with ParserFunctions. Needs to be fixed first.
@@ -270,6 +272,9 @@ Create Page
 aliasfile = CreatePage/CreatePage.alias.php
 descmsg = cp-desc
 
+Create Redirect
+aliasfile = CreateRedirect/CreateRedirect.alias.php
+
 CSS
 
 # Unused on WMF since 8/2012 and seems unmaintened
@@ -309,6 +314,8 @@ Diagnosis
 aliasfile = Diagnosis/Diagnosis.i18n.alias.php
 
 Did You Know
+
+Did You Mean
 
 Diff
 
@@ -360,6 +367,9 @@ Drafts
 aliasfile = Drafts/Drafts.alias.php
 ignored = accesskey-drafts-save
 
+Dynamic Page List
+descmsg = intersection-desc
+
 Dynamic Sidebar
 
 Echo
@@ -382,6 +392,8 @@ Email Capture
 Error Handler
 
 Ether Editor
+
+Etherpad Lite
 
 Expand Templates
 aliasfile = ExpandTemplates/ExpandTemplates.alias.php
@@ -511,6 +523,10 @@ aliasfile = GoogleNewsSitemap/GoogleNewsSitemap.alias.php
 
 GraphViz
 
+Groups Sidebar
+
+Hanp
+
 Hash Tables
 
 Header Tabs
@@ -519,6 +535,8 @@ ignored = headertabs-edittab-key
 Help Commons
 
 Hide Prefix
+
+HTMLets
 
 I18n Tags
 file = I18nTags/I18nTags.i18n.php
@@ -536,6 +554,8 @@ Input Box
 Installer
 descmsg = config-desc
 optional = config-type-mysql, config-type-postgres, config-type-sqlite, config-type-oracle
+
+Interactive Block Message
 
 Interlanguage
 magicfile = Interlanguage/Interlanguage.i18n.magic.php
@@ -591,9 +611,14 @@ optional = group-tmxadmin.css, group-tmxadmin.js
 
 Localisation Update
 
+Lockdown
+
 Log Entry
 aliasfile = LogEntry/LogEntry.alias.php
 descmsg = logentry-parserhook-desc
+
+Lookup User
+aliasfile = LookupUser/LookupUser.alias.php
 
 Loops
 
@@ -617,6 +642,8 @@ optional = maps_googlemaps2, maps_googlemaps3, maps_yahoomaps, maps_openlayers, 
 Mark As Helpful
 
 Math
+
+Media Functions
 
 MediaWiki Search
 id = ext-mwsearch
@@ -654,6 +681,11 @@ Namespace Paths
 
 Narayam
 optional = narayam-help-page
+
+Natural Language List
+descmsg = nll-desc
+ignored = nll-itemoutput
+optional = nll-separator
 
 Negref
 magicfile = Negref/Negref.i18n.magic.php
@@ -702,6 +734,9 @@ ignored = onlinestatus-levels
 
 Online Status Bar
 
+Open ID
+aliasfile = OpenID/OpenID.alias.php
+
 Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
 
@@ -711,6 +746,8 @@ Open Stack Manager
 aliasfile = OpenStackManager/OpenStackManager.alias.php
 
 Page Images
+
+Page In Cat
 
 Page Schemas
 descmsg = ps-desc
@@ -1047,6 +1084,8 @@ optional = shoutbox-url, shoutbox-url-with-css
 
 Side Bar Menu
 
+Sidebar Donate Box
+
 Sign Document Special Create
 file = SignDocument/SpecialCreateSignDocument.i18n.php
 descmsg = createsigndocument
@@ -1063,6 +1102,10 @@ Simple Anti Spam
 
 Simple Farm
 
+Simple Security
+descmsg = security-desc
+ignored = security-logentry
+
 Site Matrix
 aliasfile = SiteMatrix/SiteMatrix.alias.php
 
@@ -1073,6 +1116,9 @@ Skin Per Namespace
 Skin Per Page
 
 Slimbox Thumbs
+
+Slippy Map
+descmsg = slippymap_desc
 
 Smooth Gallery
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
@@ -1128,10 +1174,15 @@ ignored = smoothgallery-pagetext
 Solr Store
 aliasfile = SolrStore/SolrStore.alias.php
 
+Sound Manager 2 Button
+
 Spam Blacklist
 descmsg = spam-blacklist-desc
 
 Spark
+
+Special 404
+aliasfile = Special404/Special404.alias.php
 
 Sphinx Search
 
@@ -1158,6 +1209,11 @@ Subpage Fun
 
 Subpage Sortkey
 
+Sudo
+aliasfile = Sudo/Sudo.alias.php
+
+Suhosin
+
 Survey
 aliasfile = Survey/Survey.alias.php
 optional = group-surveyadmin.css, group-surveyadmin.js, group-surveysubmit.css, group-surveysubmit.js
@@ -1172,6 +1228,8 @@ file = SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.i18n.php
 descmsg = syntaxhighlight-desc
 
 Tabber
+
+Template Info
 
 Timed Media Handler
 # Siebrand 201005-13: conflicting magic words with Ogghandler
@@ -1241,6 +1299,8 @@ ignored = translate-js-label-font-size, translate-js-label-units
 Translation Notifications
 aliasfile = TranslationNotifications/TranslationNotifications.alias.php
 
+Transliterator
+
 Trusted XFF
 
 Tweet A New
@@ -1309,6 +1369,8 @@ ignored = public_read_whitelist
 Widgets
 magicfile = Widgets/Widgets.i18n.magic.php
 optional = group-widgeteditor.css, group-widgeteditor.js
+
+Wiki Article Feeds
 
 Wikibase - Client
 file = Wikibase/client/WikibaseClient.i18n.php
