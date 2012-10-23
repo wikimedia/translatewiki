@@ -1121,6 +1121,7 @@ Slimbox Thumbs
 
 Slippy Map
 descmsg = slippymap_desc
+optional = slippymap_extname, slippymap_tagname
 
 Smooth Gallery
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
