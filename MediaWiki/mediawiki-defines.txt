@@ -1181,6 +1181,8 @@ optional = timedmedia-derivative-160p.ogv, timedmedia-derivative-360p.ogv
 optional = timedmedia-derivative-480p.ogv, timedmedia-derivative-720p.ogv
 optional = timedmedia-derivative-480p.webm, timedmedia-derivative-720p.webm
 optional = timedmedia-derivative-160p.webm, timedmedia-derivative-360p.webm
+optional = timedmedia-derivative-320p.mp4, timedmedia-derivative-480p.mp4
+optional = timedmedia-derivative-720p.mp4
 ignored = timedmedia-time-1-measurements
 descmsg = timedmedia-desc
 
