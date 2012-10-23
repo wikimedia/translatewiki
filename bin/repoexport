@@ -53,7 +53,7 @@ then
 elif [ "$PROJECT" = "mediawiki" ]
 then
 	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang '*' --skip "$SKIPLANGS" --threshold 18 --hours 168 &
-	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target . --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" --hours 168 &
 
 	if [ -d "mediawiki/REL1_20/" ]
 	then php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --group 'core-1.20' --lang '*' --skip "$SKIPLANGS" --threshold 18 &
