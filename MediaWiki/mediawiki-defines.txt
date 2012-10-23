@@ -367,8 +367,9 @@ Drafts
 aliasfile = Drafts/Drafts.alias.php
 ignored = accesskey-drafts-save
 
-Dynamic Page List
-descmsg = intersection-desc
+# Superseeded by intersection extension
+# Dynamic Page List
+# descmsg = intersection-desc
 
 Dynamic Sidebar
 
