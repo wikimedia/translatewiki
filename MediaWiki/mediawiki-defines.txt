@@ -16,6 +16,8 @@ Add This
 Admin Links
 aliasfile = AdminLinks/AdminLinks.alias.php
 
+AJAX Poll
+
 Akismet Klik
 
 All Time Zones
@@ -29,9 +31,14 @@ optional = antispoof-bad-char
 APC
 aliasfile = APC/APC.alias.php
 
+Api Explorer
+aliasfile = ApiExplorer/ApiExplorer.alias.php
+
 Api Sandbox
 aliasfile = ApiSandbox/ApiSandbox.alias.php
 descmsg = apisb-desc
+
+Api SVG Proxy
 
 Approved Revs
 aliasfile = ApprovedRevs/ApprovedRevs.alias.php
@@ -77,6 +84,9 @@ optional = babel-3-n-male, babel-4-n-male, babel-5-n-male, babel-N-n-male
 optional = babel-autocreate-user, babel-template
 ignored = babel-box-cellspacing, babel-cellspacing, babel-portal,
 ignored = babel-box-cellpadding, babel-cellpadding
+
+BatchUserRights
+aliasfile = BatchUserRights/BatchUserRights.alias.php
 
 Biblio Plus
 
