@@ -397,6 +397,8 @@ Ether Editor
 
 Etherpad Lite
 
+Event Logging
+
 Expand Templates
 aliasfile = ExpandTemplates/ExpandTemplates.alias.php
 
