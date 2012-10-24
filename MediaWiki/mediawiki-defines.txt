@@ -16,6 +16,9 @@ Add This
 Admin Links
 aliasfile = AdminLinks/AdminLinks.alias.php
 
+Agora
+file = Agora/modules/Agora.i18n.php
+
 AJAX Poll
 
 Akismet Klik
