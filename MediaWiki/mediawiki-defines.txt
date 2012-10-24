@@ -374,6 +374,7 @@ ignored = accesskey-drafts-save
 Dynamic Sidebar
 
 Echo
+aliasfile = Echo/Echo.alias.php
 ignored = notification-talkpage-content
 
 Edit Page Tracking
