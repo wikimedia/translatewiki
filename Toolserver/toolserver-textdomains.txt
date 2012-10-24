@@ -6,7 +6,7 @@ ignored = title, tusc
 optional = commonshelper2, standard_project, checkusage
 
 General
-optional = colon-separator, dateformat, parentheses
+optional = colon-separator, dateformat, parentheses, comma-separator, word-separator
 
 GetWikiAPI
 ignored = title
