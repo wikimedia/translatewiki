@@ -80,6 +80,7 @@ TAGS:
     - trace.trace_form.visibility_help_url
     - user.account.public_editing.enabled_link
     - user.account.contributor terms.link
+    - user.account.gravatar.link
     - user.new.terms declined url
     - user.terms.consider_pd_why_url
     - user.terms.declined
