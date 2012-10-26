@@ -660,7 +660,7 @@ Mobile Frontend
 descmsg = mobile-frontend-desc
 aliasfile = MobileFrontend/MobileFrontend.alias.php
 optional = mobile-frontend-feedback-page, mobile-frontend-page-menu-language-current
-optional = mobile.js, mobile.css
+optional = mobile.js, mobile.css, mobile-frontend-ajax-random-quote-author
 ignored = mobile-frontend-sopa-notice, mobile-frontend-current-language
 ignored = mobile-frontend-page-menu-language
 
