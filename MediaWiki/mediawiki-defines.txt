@@ -506,7 +506,8 @@ Genderize
 
 Geo Data
 
-Geo Math
+# Deleted with I67f104bc
+#Geo Math
 
 # GeoGebra is a product name, therefore no space between the words
 GeoGebra
@@ -1125,9 +1126,10 @@ Skin Per Page
 
 Slimbox Thumbs
 
-Slippy Map
-descmsg = slippymap_desc
-optional = slippymap_extname, slippymap_tagname
+# Deleted with I67f104bc
+#Slippy Map
+#descmsg = slippymap_desc
+#optional = slippymap_extname, slippymap_tagname
 
 Smooth Gallery
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
