@@ -35,6 +35,7 @@ GROUPS:
   - ext-editpagetracking # r93131 in connection with ext-moodbar
   - ext-educationprogram # 2012-06-14 change id: Id3ea0259072e3aa7a508e5c61f03a0f23ec5fc2e
   - ext-emailcapture # 2011-04-21
+  - ext-eventlogging # Change-Id: 1fc99b92c1692515295e8c7bb7c757112531c330
   - ext-expandtemplates
   - ext-extensiondistributor # MediaWiki.org
   - ext-flaggedrevs-0-all
