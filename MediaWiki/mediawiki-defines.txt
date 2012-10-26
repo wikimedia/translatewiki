@@ -1180,6 +1180,8 @@ ignored = smoothgallery-pagetext
 #file = SocialProfile/UserWelcome/UserWelcome.i18n.php
 #descmsg = userwelcome-desc
 
+Solarium
+
 Solr Store
 aliasfile = SolrStore/SolrStore.alias.php
 
