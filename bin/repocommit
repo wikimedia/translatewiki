@@ -59,7 +59,17 @@ then
 	svn commit --message "$COMMITMSG"
 	cd ..
 
-# Todo: iHRIS
+elif [ "$PROJECT" = "ihris" ]
+then
+	MODULES="i2ce ihris-common ihris-manage ihris-qualify"
+	cd $PROJECT
+	for i in $MODULES
+	do
+		cd $i
+		bzr add .
+		bzr commit -m "$COMMITMSG"
+		cd ..
+	done
 
 elif [ "$PROJECT" = "jquery.uls" ]
 then

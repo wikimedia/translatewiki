@@ -33,7 +33,9 @@ elif [ "$PROJECT" = "fudforum" ]
 then
 	php "$EXPORTER" --target . --group=out-fudforum --lang '*' --skip en $THRESHOLD
 
-# Todo: iHRIS
+elif [ "$PROJECT" = "ihris" ]
+then
+	php "$EXPORTER" --target . --group=out-ihris* --lang='*' --skip en,qqq $THRESHOLD --ppgettext=/resources/projects
 
 elif [ "$PROJECT" = "jquery.uls" ]
 then
