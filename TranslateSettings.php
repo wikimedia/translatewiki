@@ -180,7 +180,7 @@ function setupToolserver( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
 
 	$def = "$GROUPS/Toolserver/toolserver-textdomains.txt";
-	$path = '%GROUPROOT%/toolserver/';
+	$path = '%GROUPROOT%/toolserver/language/messages/';
 
 	$foo = new PremadeToolserverTextdomains( $def, $path );
 	$foo->register( $list, $deps, $autoload );
