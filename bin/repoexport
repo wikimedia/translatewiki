@@ -147,7 +147,7 @@ then
 
 elif [ "$PROJECT" = "toolserver" ]
 then
-	php "$EXPORTER" --target ./toolserver --group=tsint* --lang '*'
+	php "$EXPORTER" --target . --group=tsint* --lang '*'
 
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
@@ -158,7 +158,7 @@ then
 
 elif [ "$PROJECT" = "wikia" ]
 then
-	php "$EXPORTER" --target ./wikia --group=wikia-* --lang '*'
+	php "$EXPORTER" --target . --group=wikia-* --lang '*'
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
