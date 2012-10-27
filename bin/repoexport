@@ -78,7 +78,7 @@ then
 	php "$EXPORTER" --target . --group 'ext-f*' --lang '*' --skip "$SKIPLANGS" --hours 168 &
 	php "$EXPORTER" --target . --group 'ext-g*' --lang '*' --skip "$SKIPLANGS" --hours 168 &
 	php "$EXPORTER" --target . --group 'ext-h*' --lang '*' --skip "$SKIPLANGS" --hours 168 &
-	php "$EXPORTER" --target . --group 'ext-i*' --skipgroup=ext-installer --lang '*' --skip "$SKIPLANGS" --hours 168 &
+	php "$EXPORTER" --target . --group 'ext-i*' --lang '*' --skip "$SKIPLANGS" --hours 168 --skipgroup=ext-installer &
 	php "$EXPORTER" --target . --group 'ext-j*' --lang '*' --skip "$SKIPLANGS" --hours 168 &
 	php "$EXPORTER" --target . --group 'ext-k*' --lang '*' --skip "$SKIPLANGS" --hours 168 &
 	php "$EXPORTER" --target . --group 'ext-l*' --lang '*' --skip "$SKIPLANGS" --hours 168 &
@@ -129,7 +129,7 @@ then
 
 elif [ "$PROJECT" = "pywikipedia" ]
 then
-	php "$EXPORTER" --target . --group=out-pywikipedia* --lang '*' --threshold 1
+	php "$EXPORTER" --target . --group=out-pywikipedia* --lang '*' --skip en --threshold 1
 
 elif [ "$PROJECT" = "shapado" ]
 then
@@ -147,7 +147,7 @@ then
 
 elif [ "$PROJECT" = "toolserver" ]
 then
-	php "$EXPORTER" --target . --group=tsint* --lang '*'
+	php "$EXPORTER" --target . --group=tsint* --lang '*' --skip en
 
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
@@ -158,7 +158,7 @@ then
 
 elif [ "$PROJECT" = "wikia" ]
 then
-	php "$EXPORTER" --target . --group=wikia-* --lang '*'
+	php "$EXPORTER" --target . --group=wikia-* --lang '*' --skip en
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
@@ -192,4 +192,3 @@ else
 	echo "repoexport: Unknown project"
 	exit 1
 fi
-
