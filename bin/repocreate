@@ -43,7 +43,13 @@ then
 		cd $PROJECT
 		for MODULE in $REPO_IHRIS_MODULES
 		do
-		    bzr branch ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/ ${MODULE}
+			if [ "$REPO_RW" = "yes" ]
+			then
+				bzr checkout lp:${MODULE} ${MODULE}
+			else
+				bzr branch ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/ ${MODULE}
+				bzr pull --remember ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/
+			fi
 		done
 
 elif [ "$PROJECT" = "jquery.uls" ]

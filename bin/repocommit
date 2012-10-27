@@ -61,11 +61,10 @@ then
 
 elif [ "$PROJECT" = "ihris" ]
 then
-	MODULES="i2ce ihris-common ihris-manage ihris-qualify"
 	cd $PROJECT
-	for i in $MODULES
+	for MODULE in $REPO_IHRIS_MODULES
 	do
-		cd $i
+		cd $MODULE
 		bzr add .
 		bzr commit -m "$COMMITMSG"
 		cd ..
