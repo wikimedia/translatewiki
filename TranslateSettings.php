@@ -322,11 +322,11 @@ wfAddNamespace( 1226, 'Shapado' );
 $wgTranslateGroupFiles[] = "$GROUPS/Shapado/Shapado.yaml";
 
 wfAddNamespace( 1228, 'iHRIS' );
-#$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISCommon.yaml";
-#$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISI2ce.yaml";
-#$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISManage.yaml";
-#$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISQualify.yaml";
-#$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRIS.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISCommon.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISI2ce.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISManage.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISQualify.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRIS.yaml";
 
 wfAddNamespace( 1230, 'Mifos' );
 $wgTranslateGroupFiles[] = "$GROUPS/Mifos/Mifos.yaml";
