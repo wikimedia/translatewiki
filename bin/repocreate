@@ -37,7 +37,17 @@ then
 	fi
 	svn checkout "$REPO_FREECOL" $PROJECT
 
-# Todo: iHRIS
+elif [ "$PROJECT" = "ihris" ]
+then
+		mkdir $PROJECT
+		cd $PROJECT
+		if [ "$REPO_RW" = "yes" ]
+		then
+			for MODULE in $REPO_IHRIS_MODULES
+			do
+				bzr branch lp:{$MODULE}
+			done
+		fi
 
 elif [ "$PROJECT" = "jquery.uls" ]
 then
