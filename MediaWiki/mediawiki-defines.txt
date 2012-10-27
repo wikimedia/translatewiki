@@ -1502,4 +1502,6 @@ optional = zero-rated-mobile-access-banner-carrier-name-orange-ivory-coast, zero
 optional = zero-rated-mobile-access-banner-carrier-name-orange-tunisia, zero-rated-mobile-access-banner-carrier-name-orange-niger
 optional = zero-rated-mobile-access-banner-carrier-name-orange-cameroon, zero-rated-mobile-access-banner-carrier-name-orange-kenya
 optional = zero-rated-mobile-access-banner-carrier-name-wikimedia, zero-rated-mobile-access-banner-carrier-name-dtac
-optional = zero-rated-mobile-access-banner-carrier-name-dialog-sri-lanka
+optional = zero-rated-mobile-access-banner-carrier-name-dialog-sri-lanka, zero-rated-mobile-access-banner-carrier-name-orange-congo
+optional = zero-rated-mobile-access-banner-carrier-name-orange-botswana, zero-rated-mobile-access-banner-carrier-name-hello-cambodia
+optional = zero-rated-mobile-access-banner-carrier-name-celcom-malaysia
