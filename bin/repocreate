@@ -41,13 +41,10 @@ elif [ "$PROJECT" = "ihris" ]
 then
 		mkdir $PROJECT
 		cd $PROJECT
-		if [ "$REPO_RW" = "yes" ]
-		then
-			for MODULE in $REPO_IHRIS_MODULES
-			do
-				bzr branch lp:{$MODULE}
-			done
-		fi
+		for MODULE in $REPO_IHRIS_MODULES
+		do
+		    bzr branch ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/ ${MODULE}
+		done
 
 elif [ "$PROJECT" = "jquery.uls" ]
 then
