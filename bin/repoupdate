@@ -41,12 +41,11 @@ then
 
 elif [ "$PROJECT" = "ihris" ]
 then
-	MODULES="i2ce ihris-common ihris-manage ihris-qualify"
 	cd $PROJECT
-	for i in $MODULES
+	for MODULE in $REPO_IHRIS_MODULES
 	do
-		cd $i
-		bzr update
+		cd $MODULE
+		bzr pull
 		cd ..
 	done
 

@@ -48,7 +48,9 @@ then
 				bzr checkout lp:${MODULE} ${MODULE}
 			else
 				bzr branch ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/ ${MODULE}
+				cd ${MODULE}
 				bzr pull --remember ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/
+				cd ..
 			fi
 		done
 
