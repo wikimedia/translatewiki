@@ -46,7 +46,6 @@ then
 	for i in $MODULES
 	do
 		cd $i
-		bzr pull
 		bzr update
 		cd ..
 	done
