@@ -948,9 +948,6 @@ descmsg = ratinghistory
 Reassign Edits
 aliasfile = ReassignEdits/ReassignEdits.alias.php
 
-Ref Helper
-aliasfile = RefHelper/RefHelper.alias.php
-
 Refresh Special
 aliasfile = RefreshSpecial/RefreshSpecial.alias.php
 
@@ -1094,15 +1091,6 @@ optional = shoutbox-url, shoutbox-url-with-css
 Side Bar Menu
 
 Sidebar Donate Box
-
-Sign Document Special Create
-file = SignDocument/SpecialCreateSignDocument.i18n.php
-descmsg = createsigndocument
-
-Sign Document Special
-file = SignDocument/SpecialSignDocument.i18n.php
-descmsg = signdocument
-optional = sign-emailto
 
 # Disabled for the time of review: https://gerrit.wikimedia.org/r/#/c/7999/
 # Signup API
@@ -1423,10 +1411,6 @@ optional = group-forumadmin.css, group-forumadmin.js
 Wikihiero
 file = wikihiero/wikihiero.i18n.php
 aliasfile = wikihiero/wikihiero.alias.php
-
-Wikilog Feed
-file = Wikilog/WlFeed.i18n.php
-descmsg = wlfeed-desc
 
 Wiki Love
 optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
