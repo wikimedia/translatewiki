@@ -651,6 +651,9 @@ Mark As Helpful
 
 Math
 
+Math Search
+aliasfile = MathSearch/MathSearch.alias.php
+
 Media Functions
 
 MediaWiki Search
