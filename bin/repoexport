@@ -54,8 +54,8 @@ then
 
 elif [ "$PROJECT" = "mediawiki" ]
 then
-	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang '*' --skip "$SKIPLANGS" --threshold 18 "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
+	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang '*' --skip "$SKIPLANGS" --threshold 18 $HOURS &
+	php "$EXPORTER" --target . --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" $HOURS &
 
 	if [ -d "mediawiki/REL1_20/" ]
 	then php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --group 'core-1.20' --lang '*' --skip "$SKIPLANGS" --threshold 18 &
@@ -72,34 +72,34 @@ elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
 	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=magic --quiet &
 	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=special --quiet &
-	php "$EXPORTER" --target . --group 'ext-a*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-b*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-c*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-d*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-e*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-f*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-g*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-h*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-i*' --lang '*' --skip "$SKIPLANGS" "$HOURS" --skipgroup=ext-installer &
-	php "$EXPORTER" --target . --group 'ext-j*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-k*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-l*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-m*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-n*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-o*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-p*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-q*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-r*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-s*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-t*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-u*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-v*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-w*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-x*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-y*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
-	php "$EXPORTER" --target . --group 'ext-z*' --lang '*' --skip "$SKIPLANGS" "$HOURS" &
+	php "$EXPORTER" --target . --group 'ext-a*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-b*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-c*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-d*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-e*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-f*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-g*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-h*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-i*' --lang '*' --skip "$SKIPLANGS" $HOURS --skipgroup=ext-installer &
+	php "$EXPORTER" --target . --group 'ext-j*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-k*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-l*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-m*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-n*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-o*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-p*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-q*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-r*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-s*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-t*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-u*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-v*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-w*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-x*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-y*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-z*' --lang '*' --skip "$SKIPLANGS" $HOURS &
 	wait
-	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-jquery-*' --lang '*' --skip "$SKIPLANGS" "$HOURS"
+	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-jquery-*' --lang '*' --skip "$SKIPLANGS" $HOURS
 
 elif [ "$PROJECT" = "mifos" ]
 then
