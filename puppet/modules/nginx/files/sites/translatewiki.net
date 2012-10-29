@@ -1,0 +1,34 @@
+# file managed by puppet
+
+server {
+	listen 80 default_server;
+	listen 443 ssl;
+	ssl_certificate     /etc/ssl/private/translatewiki.net.pem;
+	ssl_certificate_key /etc/ssl/private/translatewiki.net.key;
+
+	server_name translatewiki.net dev.translatewiki.net sandbox.translatewiki.net;
+	root /www/$host;
+
+	location = / {
+		rewrite ^ /w/index.php;
+	}
+
+	location ~ ^/wiki/(.*)$ {
+		rewrite ^/wiki/(.*)$ /w/index.php?title=$1&$args;
+	}
+
+	location = /sitemap {
+		 rewrite ^ "/w/index.php?title=Special:RecentChanges&translations=&feed=atom";
+	}
+
+
+	location ~ ^/w/(logs|cache|mw-config|includes|maintenance|languages|tests|docs)/ {
+		deny all;
+	}
+
+	location ~* \.php$ {
+		fastcgi_pass 127.0.0.1:9000;
+		include fastcgi_params;
+		fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+	}
+}
