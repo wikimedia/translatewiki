@@ -734,6 +734,8 @@ OAI-PMH repository
 id = ext-oai
 file = OAI/OAIRepo.i18n.php
 optional = oairepository
+# No need to translate the alias. Unlisted special page, it is used by a machine only.
+# aliasfile = OAI/OAIRepo.alias.php
 
 OATH Auth
 aliasfile = OATHAuth/OATHAuth.alias.php
