@@ -345,11 +345,6 @@ $wgVectorUseIconWatch = true;
 # Just for fun, I guess --- 2009-08-13 --Nike
 include( "$IP/extensions/UserOptionStats/UserOptionStats.php" );
 
-# 2011-02-23 -- Raymond
-require( "$IP/extensions/Narayam/Narayam.php" );
-$wgNarayamEnabledByDefault = false;
-$wgNarayamUseBetaMapping = true;
-
 require( "$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector.php" );
 
 $wgUseExternalEditor = false;
