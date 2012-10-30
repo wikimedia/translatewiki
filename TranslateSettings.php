@@ -91,14 +91,14 @@ function setupMediaWiki( &$cc ) {
 
 	$changed = array(
 		'1.20' => array(
-			'cannotundelete', 'logouttext',
-		), // Checked up to 5abe15bb9daa6197544087688d73ba11eb7fa801 / 2012-10-22
+			'cannotundelete', 'logouttext', 'emailpagetext',
+		), // Checked up to 5c103a3940c5f72e5351bfa25ff74eac7aea6c43 / 2012-10-30
 		'1.19' => array(
 			'version-poweredby-others'/* No need to exclude in 1.18 */,
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
 			// From 1.20.
-			'cannotundelete', 'logouttext',
-		), // Checked up to 5abe15bb9daa6197544087688d73ba11eb7fa801 / 2012-10-22
+			'cannotundelete', 'logouttext', 'emailpagetext',
+		), // Checked up to 5c103a3940c5f72e5351bfa25ff74eac7aea6c43 / 2012-10-30
 		'1.18' => array(
 			'editinguser', 'defemailsubject', 'file-nohires', 'show-big-image-preview',
 			'show-big-image-other', 'seconds-abbrev', 'minutes-abbrev', 'hours-abbrev',
@@ -110,8 +110,8 @@ function setupMediaWiki( &$cc ) {
 			// From 1.19
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
 			// From 1.20.
-			'cannotundelete', 'logouttext',
-		), // Checked up to 5abe15bb9daa6197544087688d73ba11eb7fa801 / 2012-10-22
+			'cannotundelete', 'logouttext', 'emailpagetext',
+		), // Checked up to 5c103a3940c5f72e5351bfa25ff74eac7aea6c43 / 2012-10-30
 	);
 
 	$branches = array_keys( $changed );
