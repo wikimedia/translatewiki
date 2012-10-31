@@ -8,7 +8,7 @@ umask 0002
 WIKI=/www/translatewiki.net/w
 
 
-for PROJECT in eol freecol fudforum ihris jquery.uls kiwix mantis mifos mwlib okawix osm pywikipedia shapado statusnet toolserver waymarked-trails-site wikia wikiblame WikipediaMobile WikipediaMobileJ2ME wikireader WiktionaryMobile WLMMobile
+for PROJECT in eol freecol fudforum ihris jquery.uls kiwix mantis mifos mwlib okawix osm pywikipedia shapado statusnet toolserver waymarked-trails-site wikiblame WikipediaMobile WikipediaMobileJ2ME wikireader WiktionaryMobile WLMMobile
 do
 	echo "Updating ${PROJECT}..."
 	/home/betawiki/config/bin/repo update "$PROJECT" && echo "$PROJECT done!" &
