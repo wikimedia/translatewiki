@@ -23,9 +23,7 @@ gitupdate() {
 
 if [ "$PROJECT" = "eol" ]
 then
-	cd $PROJECT
-	git pull -q
-	cd ..
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "freecol" ]
 then
@@ -157,12 +155,7 @@ then
 
 elif [ "$PROJECT" = "mifos" ]
 then
-	cd $PROJECT
-	git fetch -q --all
-	git reset -q --hard
-	git clean -q -f -d
-	git pull -q
-	cd ..
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "mozilla" ]
 then
@@ -220,17 +213,10 @@ elif [ "$PROJECT" = "mwlib" ]
 then
 	if [ "$REPO_RW" = "yes" ]
 	then
-		cd $PROJECT
-		git pull -q
-		cd ..
+		gitupdate "$PROJECT"
 	fi
 
-	cd mwlib.rl
-	git fetch -q --all
-	git reset -q --hard
-	git clean -q -f -d
-	git pull -q
-	cd ..
+	gitupdate "mwlib.rl"
 
 elif [ "$PROJECT" = "okawix" ]
 then
@@ -242,12 +228,8 @@ then
 
 elif [ "$PROJECT" = "osm" ]
 then
-	cd $PROJECT
-	git pull -q
-	cd ..
-	cd potlatch2
-	git pull -q
-	cd ..
+	gitupdate "$PROJECT"
+	gitupdate "potlatch2"
 
 elif [ "$PROJECT" = "pywikipedia" ]
 then
@@ -255,9 +237,7 @@ then
 
 elif [ "$PROJECT" = "shapado" ]
 then
-	cd $PROJECT
-	git pull -q
-	cd ..
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "statusnet" ]
 then
@@ -272,13 +252,11 @@ then
 
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
-	cd $PROJECT
-	git pull -q
-	cd ..
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "wikia" ]
 then
-	svn up $PROJECT
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
@@ -286,36 +264,19 @@ then
 
 elif [ "$PROJECT" = "WikipediaMobile" ]
 then
-	cd $PROJECT
-	git fetch -q --all
-	git reset -q --hard
-	git clean -q -f -d
-	git pull -q
-	cd ..
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
 then
-	cd $PROJECT
-	git fetch -q --all
-	git reset -q --hard
-	git clean -q -f -d
-	git pull -q
-	cd ..
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "wikireader" ]
 then
-	cd $PROJECT
-	git pull -q
-	cd ..
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "WiktionaryMobile" ]
 then
-	cd $PROJECT
-	git fetch -q --all
-	git reset -q --hard
-	git clean -q -f -d
-	git pull -q
-	cd ..
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "WLMMobile" ]
 then
