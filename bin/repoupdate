@@ -256,7 +256,13 @@ then
 
 elif [ "$PROJECT" = "wikia" ]
 then
-	gitupdate "$PROJECT"
+	cd $PROJECT
+	git checkout -q $REPO_WIKIA_BRANCH
+	git fetch -q --all
+	git reset -q --hard
+	git clean -q -f -d
+	git pull -q
+	cd ..
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
@@ -286,4 +292,3 @@ else
 	echo "Unknown project"
 	exit 1
 fi
-

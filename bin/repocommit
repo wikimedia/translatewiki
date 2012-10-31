@@ -196,13 +196,7 @@ then
 
 elif [ "$PROJECT" = "wikia" ]
 then
-	cd $PROJECT
-	for i in `find . -name *.i18n.php`
-	do
-		svn propset -q svn:eol-style native $i
-	done
-	svn commit --message "$COMMITMSG"
-	cd ..
+	gitcommit "$PROJECT"
 
 elif [ "$PROJECT" = "wikiblame" ]
 then

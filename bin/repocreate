@@ -74,6 +74,11 @@ then
 	if [ -z "$REPO_MANTIS" ]
 	then echo "Add REPO_MANTIS to REPOCONF"; exit 1
 	fi
+
+	if [ -z "$REPO_MANTIS_BRANCH" ]
+	then echo "Add REPO_MANTIS_BRANCH to REPOCONF"; exit 1
+	fi
+
 	git clone "$REPO_MANTIS"
 	cd mantisbt
 	git checkout -q --track origin/${REPO_MANTIS_BRANCH}
@@ -227,6 +232,11 @@ then
 	if [ -z "$REPO_STATUSNET" ]
 	then echo "Add REPO_STATUSNET to REPOCONF"; exit 1
 	fi
+
+	if [ -z "$REPO_STATUSNET_BRANCH" ]
+	then echo "Add REPO_STATUSNET_BRANCH to REPOCONF"; exit 1
+	fi
+
 	git clone "$REPO_STATUSNET" $PROJECT
 	cd $PROJECT
 	git checkout -q --track origin/${REPO_STATUSNET_BRANCH}
@@ -251,7 +261,15 @@ then
 	if [ -z "$REPO_WIKIA" ]
 	then echo "Add REPO_WIKIA to REPOCONF"; exit 1
 	fi
-	svn checkout "$REPO_WIKIA" $PROJECT
+
+	if [ -z "$REPO_WIKIA_BRANCH" ]
+	then echo "Add REPO_WIKIA_BRANCH to REPOCONF"; exit 1
+	fi
+
+	git clone "$REPO_WIKIA" $PROJECT
+	cd $PROJECT
+	git checkout -q --track origin/${REPO_WIKIA_BRANCH}
+	cd ..
 
 elif [ "$PROJECT" = "wikiblame" ]
 then

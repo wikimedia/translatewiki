@@ -164,6 +164,9 @@ function setupWikia( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
 
 	$def = "$GROUPS/Wikia/extensions.txt";
+	# New path
+	# $path = '%GROUPROOT%/wikia/extensions/wikia/';
+	# Old path
 	$path = '%GROUPROOT%/wikia/';
 
 	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
