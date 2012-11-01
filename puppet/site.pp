@@ -7,4 +7,5 @@ node default {
   include nginx
   include php
   include puppet
+  include memcached
 }
