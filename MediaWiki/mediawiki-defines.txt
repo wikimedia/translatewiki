@@ -505,6 +505,9 @@ ignored = gadgets-definition
 
 Genderize
 
+Geo Crumbs
+optional = geocrumbs-delimiter
+
 Geo Data
 
 # Deleted with I67f104bc
