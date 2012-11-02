@@ -545,6 +545,8 @@ Help Commons
 
 Hide Prefix
 
+HTML Tags
+
 HTMLets
 
 I18n Tags
