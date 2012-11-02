@@ -23,7 +23,6 @@ GROUPS:
   - ext-collection-0-all
   - ext-communityvoice # usability.wikimedia.org
   - ext-contactpage # on nl.wp and wikimediafoundation.org
-  - ext-contest # MediaWiki.org
   - ext-contributionreporting # wikimediafoundation.org
   - ext-contributiontracking # wikimediafoundation.org
   - ext-di-gc

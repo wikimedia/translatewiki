@@ -255,11 +255,12 @@ optional = recaptcha-desc
 Contact Page
 aliasfile = ContactPage/ContactPage.alias.php
 
-Contest
-aliasfile = Contest/Contest.alias.php
-optional = group-contestadmin.css, group-contestadmin.js
-optional = group-contestant.css, group-contestant.js
-optional = group-contestjudge.css, group-contestjudge.js
+# Unused per https://bugzilla.wikimedia.org/show_bug.cgi?id=41526#c0
+#Contest
+#aliasfile = Contest/Contest.alias.php
+#optional = group-contestadmin.css, group-contestadmin.js
+#optional = group-contestant.css, group-contestant.js
+#optional = group-contestjudge.css, group-contestjudge.js
 
 Contribution Reporting
 aliasfile = ContributionReporting/ContributionReporting.alias.php
