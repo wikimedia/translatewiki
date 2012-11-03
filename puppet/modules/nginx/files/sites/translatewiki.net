@@ -10,7 +10,7 @@ server {
 	root /www/$host;
 
 	location = / {
-		rewrite ^ /w/index.php;
+		rewrite ^ /wiki/Main_Page;
 	}
 
 	location ~ ^/wiki/(.*)$ {
