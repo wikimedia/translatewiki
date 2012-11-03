@@ -59,6 +59,7 @@ array(
 		'userrights-groupsmember-auto', // Optional PLURAL parameter
 		'userrights-changeable-col', // Optional PLURAL parameter
 		'userrights-unchangeable-col', // Optional PLURAL parameter
+		'userrights-groupsmember-type', // Optional parameter for group name
 		'group-user-member', // Optional GENDER parameter
 		'group-autoconfirmed-member', // Optional GENDER parameter
 		'group-bot-member', // Optional GENDER parameter
