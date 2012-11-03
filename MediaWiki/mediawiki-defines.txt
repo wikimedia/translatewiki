@@ -279,6 +279,8 @@ descmsg = cp-desc
 Create Redirect
 aliasfile = CreateRedirect/CreateRedirect.alias.php
 
+Credits Source
+
 CSS
 
 # Unused on WMF since 8/2012 and seems unmaintened
