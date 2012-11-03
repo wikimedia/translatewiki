@@ -31,4 +31,12 @@ server {
 		include fastcgi_params;
 		fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 	}
+
+	location ~* \.(png|jpg|jpeg|gif|ico)$ {
+		expires 7d;
+	}
+
+	location ~* \.(json)$ {
+		expires 12h;
+	}
 }
