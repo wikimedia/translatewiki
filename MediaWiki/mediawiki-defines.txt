@@ -550,6 +550,9 @@ Help Commons
 
 Hide Prefix
 
+Host Stats
+ignored = hoststats
+
 HTML Tags
 
 HTMLets
