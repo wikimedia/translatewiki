@@ -4,6 +4,7 @@ File {
 }
 
 node default {
+  include base
   include nginx
   include php
   include puppet
