@@ -210,8 +210,7 @@ include( "$IP/extensions/Validator/Validator.php" ); # Added by Siebrand 2009-11
 include( "$IP/extensions/Interwiki/Interwiki.php" ); # Added by Raymond 2009-01-07
 include( "$IP/extensions/Nuke/Nuke.php" ); # Nike 2009-01-12
 include( "$IP/extensions/ReplaceText/ReplaceText.php" ); # Added: Siebrand 2009-04-25.
-# Disabled 2012-08-21 / Siebrand / Included in ULS now.
-#include( "$IP/extensions/WebFonts/WebFonts.php" );
+include( "$IP/extensions/ApiSandbox/ApiSandbox.php" ); # Added: Siebrand 2012-11-05.
 
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
 include_once( "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php" );
