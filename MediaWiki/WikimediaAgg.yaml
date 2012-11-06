@@ -13,6 +13,7 @@ GROUPS:
   - ext-apisandbox # r104698, enabled on all wikis
   - ext-articlefeedback
   - ext-articlefeedbackv5
+  - ext-calendar # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-charinsert
   - ext-checkuser
   - ext-cldr # r88299 on all wikis
@@ -25,6 +26,8 @@ GROUPS:
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-contributionreporting # wikimediafoundation.org
   - ext-contributiontracking # wikimediafoundation.org
+  - ext-creditssource # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
+  - ext-customdata # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-di-gc
   - ext-di-pfpg # wikimediafoundation.org
   - ext-diff # change-id: 5f4c990f3a102f8ae51e4d7bd3f6cf15550a2bf4
@@ -39,14 +42,17 @@ GROUPS:
   - ext-extensiondistributor # MediaWiki.org
   - ext-flaggedrevs-0-all
   - ext-fundraiserlandingpage # r101409 for donatewiki
+  - ext-geocrumbs # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-geodata # Change-Id: I0c9522ab28502a7f8665caa23958222c28007159
   - ext-googlenewssitemap # r87149 for wikinews
+  - ext-insider # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-labeledsectiontransclusion # Wikisource
   - ext-landingcheck
   - ext-lastmodified # 2012-06-14: enwiki
   - ext-lastmodified-e3experiments # 2012-06-14: enwiki
   - ext-ldapauthentication # 2011-12-28: labsconsole.wikimedia.org
   - ext-liquidthreads # 2009-11-11: MediaWiki.org and some *.labs.wikimedia.org
+  - ext-listings # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-markashelpful # 2011-12-28: r107514 for enwiki
   - ext-moodbar # r93131
   - ext-mwembedsupport # Change-Id: Ifbb7c9b7344520f6d9fe1ccfa3f276ec153b9770
@@ -61,6 +67,8 @@ GROUPS:
   - ext-proofreadpage # Wikisource
   - ext-randomrootpage # 2012-05-16, change-Id: I31e2dc16deb13b3a029656802a69893f36602b98
   - ext-readerfeedback-0-all
+  - ext-relatedarticles # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
+  - ext-relatedsites # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-rss # 2010-11-25: Wikimediafoundation.org
   - ext-scanset
   - ext-scribunto # Change-Id: e4e8857a55b0a89707525ecdd9dff54a4cc02f6d
@@ -73,6 +81,7 @@ GROUPS:
   - ext-syntaxhighlightgeshi
   - ext-timedmediahandler # Change-Id: Ifbb7c9b7344520f6d9fe1ccfa3f276ec153b9770
   - ext-titlekey
+  - ext-toctree # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-translate-0-all
   - ext-translationnotifications # 2012-05-??: meta, mediawiki, wikimania, incubator
   - ext-trustedxff
