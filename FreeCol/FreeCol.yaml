@@ -67,3 +67,7 @@ TAGS:
   ignored:
     - font.*
     - cli.arg.font
+    - indianSettlement.capital
+    - indianSettlement.normal
+    - indianSettlement.scouted
+    - indianSettlement.contacted
