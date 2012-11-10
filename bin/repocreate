@@ -247,7 +247,7 @@ then
 	if [ -z "$REPO_TOOLSERVER" ]
 	then echo "Add REPO_TOOLSERVER to REPOCONF"; exit 1
 	fi
-	svn checkout "$REPO_TOOLSERVER" $PROJECT
+	git clone "$REPO_TOOLSERVER" $PROJECT
 
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then

@@ -185,10 +185,7 @@ then
 
 elif [ "$PROJECT" = "toolserver" ]
 then
-	cd $PROJECT
-	svn propset -q svn:eol-style native *.i18n.php
-	svn commit --message "$COMMITMSG"
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then

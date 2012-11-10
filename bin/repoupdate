@@ -248,7 +248,7 @@ then
 
 elif [ "$PROJECT" = "toolserver" ]
 then
-	svn up $PROJECT
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
