@@ -1263,6 +1263,7 @@ Template Info
 Timed Media Handler
 # Siebrand 201005-13: conflicting magic words with Ogghandler
 #magicfile = TimedMediaHandler/TimedMediaHandler.i18n.magic.php
+aliasfile = TimedMediaHandler/TimedMediaHandler.i18n.alias.php
 optional = timedmedia-ogg, timedmedia-webm
 optional = timedmedia-derivative-160p.ogv, timedmedia-derivative-360p.ogv
 optional = timedmedia-derivative-480p.ogv, timedmedia-derivative-720p.ogv
