@@ -286,9 +286,7 @@ wfAddNamespace( 1204, 'Nocc' );
 wfAddNamespace( 1206, 'Wikimedia' );
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikipediaMobile.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WiktionaryMobile.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WLMMobile.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile.yaml";
 
 wfAddNamespace( 1208, 'StatusNet' );
 $wgTranslateGroupFiles[] = "$GROUPS/StatusNet/StatusNet.yaml";

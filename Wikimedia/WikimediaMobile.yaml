@@ -1,0 +1,108 @@
+TEMPLATE:
+  BASIC:
+    description: "{{int:translate-group-desc-wikimedia-mobile}}"
+    namespace: NS_WIKIMEDIA
+    class: FileBasedMessageGroup
+
+  FILES:
+    class: JavaFFS
+    codeMap:
+      nb: "no"
+
+---
+BASIC:
+  id: out-wikimedia-mobile-0-all
+  label: Wikipedia Mobile
+  meta: yes
+  class: AggregateMessageGroup
+
+GROUPS:
+  - out-wikimedia-mobile-*
+
+---
+BASIC:
+  id: out-wikimedia-mobile-wikipedia-phonegap
+  label: Wikipedia Mobile PhoneGap
+  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia}}"
+
+MANGLER:
+  class: StringMatcher
+  prefix: mobileapp-
+  patterns:
+    - "*"
+
+FILES:
+  sourcePattern: %GROUPROOT%/WikipediaMobile/assets/www/messages/messages-%CODE%.properties
+  definitionFile: %GROUPROOT%/WikipediaMobile/assets/www/messages/messages-en.properties
+  targetPattern: WikipediaMobile/assets/www/messages/messages-%CODE%.properties
+  header: |
+    # This file is distributed under the same license as the Wikipedia Mobile PhoneGap package.
+    #
+
+---
+BASIC:
+  id: out-wikimedia-mobile-wikipedia-j2me
+  label: Wikipedia Mobile J2ME
+  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia}}"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wpmobj2me-
+  patterns:
+    - "*"
+
+FILES:
+  sourcePattern: %GROUPROOT%/WikipediaMobileJ2ME/messages/messages-%CODE%.properties
+  definitionFile: %GROUPROOT%/WikipediaMobileJ2ME/messages/messages-en.properties
+  targetPattern: WikipediaMobileJ2ME/messages/messages-%CODE%.properties
+  header: |
+    # This file is distributed under the same license as the Wikipedia Mobile PhoneGap package.
+    #
+
+TAGS:
+  optional:
+    - wpmobj2me-img-name
+  ignored:
+    - wpmobj2me-google-url
+    - wpmobj2me-base-api
+    - wpmobj2me-base-url
+
+---
+BASIC:
+  description: "{{int:translate-group-desc-wikimedia-mobile-wlm}}"
+  id: out-wikimedia-mobile-wlm
+  label: WLMMobile
+
+MANGLER:
+  class: StringMatcher
+  prefix: wlmmobile-
+  patterns:
+    - "*"
+
+FILES:
+  sourcePattern: %GROUPROOT%/WLMMobile/assets/www/messages/messages-%CODE%.properties
+  definitionFile: %GROUPROOT%/WLMMobile/assets/www/messages/messages-en.properties
+  targetPattern: WLMMobile/assets/www/messages/messages-%CODE%.properties
+  header: |
+    # This file is distributed under the same license as the WLMMobile package.
+    #
+
+---
+BASIC:
+  description: "{{int:translate-group-desc-wikimedia-mobile-wiktionary}}"
+  id: out-wikimedia-mobile-wiktionary
+  label: Wiktionary Mobile
+
+MANGLER:
+  class: StringMatcher
+  prefix: wiktionarymobile-
+  patterns:
+    - "*"
+
+FILES:
+  sourcePattern: %GROUPROOT%/WiktionaryMobile/assets/www/messages/messages-%CODE%.properties
+  definitionFile: %GROUPROOT%/WiktionaryMobile/assets/www/messages/messages-en.properties
+  targetPattern: WiktionaryMobile/assets/www/messages/messages-%CODE%.properties
+  header: |
+    # This file is distributed under the same license as the Wiktionary Mobile package.
+    #
