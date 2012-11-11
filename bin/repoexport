@@ -135,7 +135,8 @@ then
 
 elif [ "$PROJECT" = "pywikipedia" ]
 then
-	php "$EXPORTER" --target . --group=out-pywikipedia* --lang '*' --skip en --threshold 1
+	# FFS is a bit wonky. Export 'en', too
+	php "$EXPORTER" --target . --group=out-pywikipedia* --lang '*' --threshold 1
 
 elif [ "$PROJECT" = "shapado" ]
 then
