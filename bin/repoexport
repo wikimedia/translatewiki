@@ -178,6 +178,7 @@ then
 	php "$EXPORTER" --target . --group=wikia-l* --lang '*' --skip en &
 	php "$EXPORTER" --target . --group=wikia-m* --lang '*' --skip en &
 	wait
+	echo "repoexport: Wikia part 2"
 	php "$EXPORTER" --target . --group=wikia-n* --lang '*' --skip en &
 	php "$EXPORTER" --target . --group=wikia-o* --lang '*' --skip en &
 	php "$EXPORTER" --target . --group=wikia-p* --lang '*' --skip en &
@@ -191,6 +192,7 @@ then
 	php "$EXPORTER" --target . --group=wikia-x* --lang '*' --skip en &
 	php "$EXPORTER" --target . --group=wikia-y* --lang '*' --skip en &
 	php "$EXPORTER" --target . --group=wikia-z* --lang '*' --skip en &
+	wait
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
