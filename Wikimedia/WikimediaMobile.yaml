@@ -12,7 +12,7 @@ TEMPLATE:
 ---
 BASIC:
   id: out-wikimedia-mobile-0-all
-  label: Wikipedia Mobile
+  label: Wikimedia Mobile Apps
   meta: yes
   class: AggregateMessageGroup
 
@@ -71,7 +71,7 @@ TAGS:
 BASIC:
   description: "{{int:translate-group-desc-wikimedia-mobile-wlm}}"
   id: out-wikimedia-mobile-wlm
-  label: WLMMobile
+  label: Wiki Loves Monuments Mobile
 
 MANGLER:
   class: StringMatcher
