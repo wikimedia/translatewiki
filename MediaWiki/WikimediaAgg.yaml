@@ -70,7 +70,6 @@ GROUPS:
   - ext-relatedarticles # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-relatedsites # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-rss # 2010-11-25: Wikimediafoundation.org
-  - ext-scanset
   - ext-scribunto # Change-Id: e4e8857a55b0a89707525ecdd9dff54a4cc02f6d
   - ext-shorturl # r108172
   - ext-skinperpage # Wikimediafoundation.org
