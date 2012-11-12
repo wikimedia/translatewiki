@@ -1010,7 +1010,8 @@ RT
 
 Score
 
-Scan Set
+# 2012-11-12: Disabled on WMF, per chat with Sam "It can be treated as abandoned"
+# Scan Set
 
 Scribunto
 magicfile = Scribunto/Scribunto.magic.php
