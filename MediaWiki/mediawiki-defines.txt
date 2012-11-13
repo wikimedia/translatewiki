@@ -520,6 +520,8 @@ Geo Data
 # GeoGebra is a product name, therefore no space between the words
 GeoGebra
 
+Gitweb
+
 Global Blocking
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
 ignored = globalblocking-expiry-options
