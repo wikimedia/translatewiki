@@ -11,7 +11,6 @@ $wgMainCacheType = CACHE_MEMCACHED;
 $wgMemCachedServers = array( "127.0.0.1:11211" );
 $wgMemCachedTimeout = 150000; // Value moved from a live hack to this settings. Raymond 2010-01-21
 $wgEnableSidebarCache = true;
-$wgPerLanguageCaching = true;
 $wgSessionsInMemcached = true;
 $wgDisableCounters = true;
 $wgWellFormedXml = false; # Nike 2009-09-18
@@ -22,7 +21,6 @@ $wgExternalDiffEngine = 'wikidiff2';
 $wgDevelopmentWarnings  = true;
 
 $wgAdvancedSearchHighlighting = true;
-$wgVectorUseSimpleSearch = true;
 
 $wgRightsPage = ""; # Set to the title of a wiki page that describes your license/copyright
 $wgRightsUrl = "";
@@ -58,24 +56,20 @@ $wgRCLinkDays   = array( 1, 7, 30 );
 
 $wgCategoryPagingLimit  = 500;
 $wgMaximumMovedPages = 300;
-$wgHitcounterUpdateFreq = 25;
 $wgCategoryCollation = 'uca-default';
 
 ###
 # Ajax spicy etc
 ###
-$wgLoginLanguageSelector    = true;
-$wgUseCategoryBrowser       = false;
 $wgShowIPinHeader           = false;
 $wgUseAutomaticEditSummaries = false;
-$wgLoginLanguageSelector    = false; // Nike 2010-10-01
+$wgUseInstantCommons = true;
+$wgVectorUseIconWatch = true;
 
 ###
 # Jobs
 ###
 $wgJobRunRate         = 0;
-$wgUpdateRowsPerJob   = 500;
-$wgUpdateRowsPerQuery = 100;
 
 ###
 # User (account) settings
@@ -173,12 +167,7 @@ $wgCaptchaTriggers['addurl']        = true;  // Check on edits that add URLs
 $wgCaptchaTriggers['createaccount'] = true;  // Special:Userlogin&type=signup
 $wgCaptchaTriggers['badlogin']      = true;  // Special:Userlogin after failure
 
-include( "$IP/extensions/LanguageSelector/LanguageSelector.php" );
 include( "$IP/extensions/CharInsert/CharInsert.php" );
-$wgLanguageSelectorDetectLanguage = LANGUAGE_SELECTOR_PREFER_CLIENT_LANG;
-$wgLanguageSelectorLocation = LANGUAGE_SELECTOR_MANUAL;
-$wgLanguageSelectorShowCode = true; # Nike 2009-09-01
-$wgLanguageSelectorShowAll = true;
 
 # LiquidThreads - Siebrand / 2009-11-01
 require( "$IP/extensions/LiquidThreads/LiquidThreads.php" );
@@ -186,6 +175,7 @@ require( "$IP/extensions/LiquidThreads/LiquidThreads.php" );
 # Just for fun
 include( "$IP/extensions/ContributionScores/ContributionScores.php" );
 $wgContribScoreIgnoreBots = true;
+
 include( "$IP/extensions/Gadgets/Gadgets.php" );
 include( "$IP/extensions/UserMerge/UserMerge.php" );
 
@@ -240,7 +230,6 @@ $wgSpamBlacklistFiles = array(
 
 include( "$IP/extensions/AdminLinks/AdminLinks.php" ); # Added by Siebrand 2012-02-06
 
-$wgUseInstantCommons = true;
 
 #$wgExtraLanguageNames = array();
 $wgExtraLanguageNames['sxu']       = 'Säggssch'; # Upper Saxon
@@ -337,9 +326,6 @@ $wgWikiEditorModules = array(
 //	'toc' => array( 'global' => false, 'user' => true ),
 //	'templateEditor' => array( 'global' => false, 'user' => true ),
 );
-
-# 2010-04-22 -- nike
-$wgVectorUseIconWatch = true;
 
 # Just for fun, I guess --- 2009-08-13 --Nike
 include( "$IP/extensions/UserOptionStats/UserOptionStats.php" );
