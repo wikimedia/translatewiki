@@ -308,7 +308,7 @@ $wgExtraLanguageNames['mic'] = 'Mi\'kmaq'; # Micmac / Nikerabbit 2012-02-27
 $wgExtraLanguageNames['mnw'] = 'ဘာသာ မန်'; # Mon / Amir 2012-05-31
 $wgExtraLanguageNames['rut'] = 'мыхIабишды чIел'; # Rutul / Robin 2012-07-24
 $wgExtraLanguageNames['acf'] = 'Saint Lucian Creole French'; # Saint Lucian Creole French / Siebrand 2012-08-05
-
+$wgExtraLanguageNames['azb'] = 'تورکجه'; # South Azerbaijani / Robin 2012-11-14
 
 $wgExtraLanguageNames['nl-be']     = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['qqq']       = 'Message documentation'; # No linguistic content. Used for documenting messages
