@@ -34,6 +34,24 @@
       "revId": "301540708e222d9e78d9541fb9f251759d793528",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAADZH//9k8\u003d",
+        "filename": "MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1089,
+      "author": {
+        "id": 346
+      },
+      "writtenOn": "2012-11-18T15:18:25Z",
+      "side": 1,
+      "message": "Thanks, just wanted to make sure we are not missing something.",
+      "parentUuid": "AAADZH//9lI\u003d",
+      "revId": "301540708e222d9e78d9541fb9f251759d793528",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
