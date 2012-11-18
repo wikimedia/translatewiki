@@ -1086,8 +1086,7 @@ Semantic Page Series
 aliasfile = SemanticPageSeries/SemanticPageSeries.alias.php
 
 Semantic Result Formats
-file = SemanticResultFormats/SRF_Messages.php
-magicfile = SemanticResultFormats/SRF_Magic.php
+magicfile = SemanticResultFormats/SemanticResultFormats.i18n.magic.php
 descmsg = srf-desc
 optional = srf_icalendar_link, srf_vcard_link, srf_bibtex_link
 optional = srf-ui-eventcalendar-format-time, srf-ui-eventcalendar-format-time-agenda
