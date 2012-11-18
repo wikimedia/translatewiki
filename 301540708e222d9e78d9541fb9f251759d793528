@@ -16,6 +16,24 @@
       "revId": "301540708e222d9e78d9541fb9f251759d793528",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAADZH//9lI\u003d",
+        "filename": "MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1089,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2012-11-18T15:14:04Z",
+      "side": 1,
+      "message": "No. Now we have a default file name: \"Extensioname.i18n.php\". No need anymore to set it explicitly.",
+      "parentUuid": "AAADZH//9lQ\u003d",
+      "revId": "301540708e222d9e78d9541fb9f251759d793528",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
