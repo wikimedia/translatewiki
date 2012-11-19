@@ -930,7 +930,7 @@ Proofread Page
 aliasfile = ProofreadPage/ProofreadPage.alias.php
 descmsg = proofreadpage_desc
 ignored = proofreadpage_default_header, proofreadpage_default_footer
-ignored = proofreadpage_specialpage_text
+ignored = proofreadpage_specialpage_text, proofreadpage-indexoai-eprint-content-url
 
 Protect Site
 aliasfile = ProtectSite/ProtectSite.alias.php
