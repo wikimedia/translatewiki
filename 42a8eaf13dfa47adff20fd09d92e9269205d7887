@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAADZH//9G4\u003d",
+        "filename": "melange/BundleCreater.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-11-19T15:04:24Z",
+      "side": 1,
+      "message": "Typo: creates -\u003e create",
+      "revId": "42a8eaf13dfa47adff20fd09d92e9269205d7887",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
