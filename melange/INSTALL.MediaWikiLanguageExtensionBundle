@@ -1,0 +1,41 @@
+1a) If you are using this layout:
+./mediawiki/extensions/{A,B,C}
+
+Go to mediawiki directory and extract the release file:
+tar xjf MediaWikiLanguageExtensionBundle-VERSION.tar.bz2
+
+Your extension variable is
+$EXT = "$IP/extensions";
+
+1b) If you are using this layout:
+./mediawiki/
+./extensions/{A,B,C}
+
+Go to common parent directory and extract the release file:
+tar xjf MediaWikiLanguageExtensionBundle-VERSION.tar.bz2
+
+Your extension variables are:
+$EXT = "$IP/../extensions";
+$wgExtensionAssetsPath = "{$wgScriptPath}/../extensions";
+
+2) Add/update your LocalSettings.php. Near the end, place the config lines
+given above followed by this:
+
+require_once( "$EXT/Babel/Babel.php" );
+require_once( "$EXT/cldr/cldr.php" );
+require_once( "$EXT/Translate/Translate.php" );
+$wgGroupPermissions['user']['translate'] = true;
+$wgGroupPermissions['user']['translate-messagereview'] = true;
+$wgGroupPermissions['user']['translate-groupreview'] = true;
+$wgGroupPermissions['user']['translate-import'] = true;
+$wgGroupPermissions['sysop']['pagetranslation'] = true;
+$wgGroupPermissions['sysop']['translate-manage'] = true;
+$wgTranslateDocumentationLanguageCode = 'qqq';
+require_once( "$EXT/UniversalLanguageSelector/UniversalLanguageSelector.php" );
+
+3a) Update database tables from the command line. In the directory where your
+LocalSettings.php is located, run the following command:
+php maintenance/update.php
+
+3b) Update database tables from the web. Go to example.com/mediawiki/mw-config/
+by using your domain and path and rerun install.

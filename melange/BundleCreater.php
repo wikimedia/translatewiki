@@ -1,8 +1,21 @@
 <?php
+/**
+ * Wizard to create extension bundle releases.
+ * @author Niklas Laxström
+ * @copyright Copyright © 2012, Niklas Laxström
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @file
+ */
+
 class BundleCreater {
 	protected $conf;
 	protected $dir;
 
+	/**
+	 * @param array $conf Array of configuration options. See provided
+	 *   config.ini for list of available options.
+	 * @param string $dir The current working directory.
+	 */
 	public function __construct( $conf, $dir ) {
 		$this->conf = $conf;
 		$this->dir = $dir;
@@ -40,6 +53,8 @@ class BundleCreater {
 	}
 
 	public function install_mediawiki() {
+		$testconf = $this->conf['common']['testconfig'];
+
 		chdir( $this->dir );
 
 		exec( 'rm -rf db/' );
@@ -60,7 +75,7 @@ class BundleCreater {
 
 		$handle = fopen( 'LocalSettings.php', 'a' );
 		fwrite( $handle, <<<PHP
-require_once( "\$IP/../mwtestconf.php" );
+require_once( "\$IP/../$testconf" );
 PHP
 		);
 	}
@@ -70,6 +85,7 @@ PHP
 		chdir( "mediawiki" );
 
 		exec( "git fetch --all --quiet" );
+		exec( "git merge origin" );
 		exec( "php maintenance/update.php --quick --quiet" );
 	}
 
@@ -188,6 +204,7 @@ TEXT;
 			preg_match( '/^#---$(.*)^#---$/msU', $contents, $matches );
 			$notes = trim( $matches[1] );
 			$notes = "== $ext $version ==\nReleased at $date.\n\n$notes\n";
+			$notes = trim( $notes ) . "\n";
 
 			$relnotefile = "{$this->dir}/extensions/$ext/RELEASE-NOTES";
 			file_put_contents( $relnotefile, $notes );
@@ -196,7 +213,7 @@ TEXT;
 			$setupfile = "{$this->dir}/extensions/$ext/$ext.php";
 			$contents = file_get_contents( $setupfile );
 			$contents = preg_replace_callback( "/(^\s*'version'\s*=>\s*)(.*)/m", function ( $matches ) use ( $extra ) {
-				return "{$matches[1]}'$extra ' . {$matches[2]}";
+				return "{$matches[1]}'$extra'";
 			}, $contents );
 
 			file_put_contents( $setupfile, $contents );
@@ -212,12 +229,13 @@ TEXT;
 	}
 
 	public function push_tag() {
+		$version = $this->conf['common']['releasever'];
 		$tag = str_replace( '$1', $version, $this->conf['common']['tagname'] );
 
 		foreach ( $this->conf['extensions'] as $ext => $checkout ) {
 			chdir( "{$this->dir}/extensions/$ext" );
 			$cTag = escapeshellarg( $tag );
-			exec( "git push origin $cTag );
+			exec( "git push origin $cTag" );
 		}
 	}
 
@@ -233,6 +251,7 @@ TEXT;
 	public function create_archive() {
 		chdir( $this->dir );
 
+		$piggyfile = $this->conf['common']['piggyfile'];
 		$hasher = $this->conf['common']['hasher'];
 
 		if ( !file_exists( 'releases' ) ) {
@@ -244,7 +263,8 @@ TEXT;
 		$tarname = escapeshellarg( "releases/$filename" );
 		$hashname = escapeshellarg( "$filename.$hasher" );
 		$hashcommand = escapeshellarg( $hasher );
-		exec( "tar cjf $tarname --exclude-vcs extensions" );
+		$cPiggyfile = escapeshellarg( $piggyfile );
+		exec( "tar cjf $tarname --exclude-vcs extensions $cPiggyfile" );
 		chdir( 'releases' );
 		exec( "$hasher $filename > $hashname" );
 	}
@@ -263,7 +283,7 @@ TEXT;
 
 		$parts = array();
 		$parts[] = "I would like to announce the release of $name $version";
-		$parts[] = "$url/$filename\n$hasher: $hash";
+		$parts[] = "* $url/$filename\n* $hasher: $hash";
 		$parts[] = <<<WIKITEXT
 Quick links:
 * Installation instructions are at https://www.mediawiki.org/wiki/MLEB
@@ -297,7 +317,8 @@ WIKITEXT;
 		passthru( "\$EDITOR $announcement" );
 
 		echo "Please complete the following steps to finish the release process:\n";
-		echo "* Move files $filename* so that they can be downloaded from $url.\n";
+		echo "* Update release pages on mediawiki.org or elsewhere.\n";
+		echo "* Move files releases/$filename* so that they can be downloaded from $url.\n";
 		echo "* Send the release announcement from $announcement to mediawiki-i18n.\n";
 		echo "* Consider also blogging/twitter etc.\n";
 	}
