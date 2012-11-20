@@ -213,7 +213,7 @@ TEXT;
 			$setupfile = "{$this->dir}/extensions/$ext/$ext.php";
 			$contents = file_get_contents( $setupfile );
 			$contents = preg_replace_callback( "/(^\s*'version'\s*=>\s*)(.*)/m", function ( $matches ) use ( $extra ) {
-				return "{$matches[1]}'$extra'";
+				return "{$matches[1]}'$extra',";
 			}, $contents );
 
 			file_put_contents( $setupfile, $contents );
@@ -317,7 +317,7 @@ WIKITEXT;
 		passthru( "\$EDITOR $announcement" );
 
 		echo "Please complete the following steps to finish the release process:\n";
-		echo "* Update release pages on mediawiki.org or elsewhere.\n";
+		echo "* Update release pages on https://www.mediawiki.org/wiki/MLEB and its subpage /latest.\n";
 		echo "* Move files releases/$filename* so that they can be downloaded from $url.\n";
 		echo "* Send the release announcement from $announcement to mediawiki-i18n.\n";
 		echo "* Consider also blogging/twitter etc.\n";
