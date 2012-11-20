@@ -193,7 +193,7 @@ then
 
 elif [ "$PROJECT" = "wikia" ]
 then
-	gitcommit "$PROJECT"
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
