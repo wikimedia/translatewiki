@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAADZH//8Rk\u003d",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 362,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2012-11-20T14:18:34Z",
+      "side": 1,
+      "message": "Should be active immediately or be commented out?",
+      "revId": "a01a9c5c0fe669e0f2af713d74278678387fb32b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
