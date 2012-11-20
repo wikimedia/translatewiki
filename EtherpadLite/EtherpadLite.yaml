@@ -1,0 +1,12 @@
+---
+BASIC:
+  id: out-etherpad-lite
+  label: Etherpad lite
+  description: "<div class=warning>This group is still in beta</div>"
+  namespace: NS_ETHERPADLITE
+  class: FileBasedMessageGroup
+
+FILES:
+  class: IniFFS
+  sourcePattern: %GROUPROOT%/etherpad-lite/src/locales/%CODE%.ini
+  targetPattern: etherpad-lite/src/locales/%CODE%.ini
