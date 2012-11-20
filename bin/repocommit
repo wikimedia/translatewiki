@@ -33,6 +33,10 @@ if [ "$PROJECT" = "eol" ]
 then
 	gitcommitNoCheck "$PROJECT"
 
+elif [ "$PROJECT" = "etherpad-lite" ]
+then
+	gitcommit "$PROJECT"
+
 elif [ "$PROJECT" = "freecol" ]
 then
 	cd $PROJECT

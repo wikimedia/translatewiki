@@ -25,6 +25,10 @@ if [ "$PROJECT" = "eol" ]
 then
 	gitupdate "$PROJECT"
 
+elif [ "$PROJECT" = "etherpad-lite" ]
+then
+	gitupdate "$PROJECT"
+
 elif [ "$PROJECT" = "freecol" ]
 then
 	svn up $PROJECT

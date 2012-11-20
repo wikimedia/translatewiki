@@ -357,3 +357,6 @@ $wgTranslateGroupFiles[] = "$GROUPS/Mozilla/Mozilla.yaml";
 
 wfAddNamespace( 1248, 'FrontlineSMS' );
 #$wgTranslateGroupFiles[] = "$GROUPS/FrontlineSMS/FrontlineSMS.yaml";
+
+wfAddNamespace( 1250, 'EtherpadLite' );
+$wgTranslateGroupFiles[] = "$GROUPS/EtherpadLite/EtherpadLite.yaml";

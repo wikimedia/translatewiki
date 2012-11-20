@@ -16,6 +16,13 @@ then
 	fi
 	git clone "$REPO_EOL" $PROJECT
 
+elif [ "$PROJECT" = "etherpad-lite" ]
+then
+	if [ -z "$REPO_ETHERPADLITE" ]
+	then echo "Add REPO_ETHERPADLITE to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_ETHERPADLITE" $PROJECT --branch develop
+
 elif [ "$PROJECT" = "freecol" ]
 then
 	if [ -z "$REPO_FREECOL" ]
