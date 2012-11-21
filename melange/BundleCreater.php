@@ -38,7 +38,8 @@ class BundleCreater {
 		$this->push_tag();
 		$this->create_archive();
 		$this->prepare_announcement();
-		$this->final_steps();
+		// Needs some refactor
+		//$this->final_steps();
 	}
 
 	public function clone_mediawiki() {
@@ -107,9 +108,8 @@ PHP
 	}
 
 	public function update_extensions() {
-		chdir( $this->dir );
 		foreach ( $this->conf['extensions'] as $ext => $checkout ) {
-			$target = "extensions/$ext";
+			$target = "{$this->dir}/extensions/$ext";
 			chdir( $target );
 			exec( "git fetch --all --quiet" );
 		}
