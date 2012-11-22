@@ -369,6 +369,8 @@ optional = payflowpro_gateway-month
 
 Double Wiki
 
+Download Counter
+
 # DSMW: Disabled per Jeroen: Can you remove the DSMW extension from translatewiki? It's broken beyond hope, so no point in translators wasting their time on it. 2010-12-06
 
 Drafts
