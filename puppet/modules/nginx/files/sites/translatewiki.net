@@ -1,8 +1,10 @@
 # file managed by puppet
 
 server {
-	listen 80 default_server;
+	listen [::]:80 default_server;
 	listen 443 ssl default_server;
+	listen [::]:443 ssl default_server ipv6only=on;
+
 	ssl_certificate     /etc/ssl/private/translatewiki.net.pem;
 	ssl_certificate_key /etc/ssl/private/translatewiki.net.key;
 	ssl_ciphers RC4:HIGH:!aNULL:!MD5;
