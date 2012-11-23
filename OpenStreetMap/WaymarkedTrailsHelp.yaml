@@ -1,5 +1,5 @@
 BASIC:
-  description: "The help pages of the Waymarked Trails web sites: http://waymarkedtrails.org/help/about"
+  description: "{{int:translate-group-desc-waymarked-trails-help}}"
   id: out-waymarked-trails-help
   label: Waymarked Trails Help
   namespace: NS_OSM
