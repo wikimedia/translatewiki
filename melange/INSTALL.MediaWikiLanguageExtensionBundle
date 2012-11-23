@@ -1,28 +1,37 @@
-1a) If you are using this layout:
-./mediawiki/extensions/{A,B,C}
+== Installation ==
+
+=== Layout: ./mediawiki/extensions/{A,B,C} ===
 
 Go to mediawiki directory and extract the release file:
-tar xjf MediaWikiLanguageExtensionBundle-VERSION.tar.bz2
+ tar xjf MediaWikiLanguageExtensionBundle-{{/latest}}.tar.bz2
 
 Your extension variable is
-$EXT = "$IP/extensions";
+ $EXT = "$IP/extensions";
 
-1b) If you are using this layout:
-./mediawiki/
-./extensions/{A,B,C}
+=== Layout: ./mediawiki/ ./extensions/{A,B,C} ===
 
 Go to common parent directory and extract the release file:
-tar xjf MediaWikiLanguageExtensionBundle-VERSION.tar.bz2
+ tar xjf MediaWikiLanguageExtensionBundle-{{/latest}}.tar.bz2
 
 Your extension variables are:
-$EXT = "$IP/../extensions";
-$wgExtensionAssetsPath = "{$wgScriptPath}/../extensions";
+ $EXT = "$IP/../extensions";
+ $wgExtensionAssetsPath = "{$wgScriptPath}/../extensions";
 
-2) Add/update your LocalSettings.php. Near the end, place the config lines
-given above followed by this:
+=== Add/update your LocalSettings.php ===
+Near the end, place the config lines given above followed by this:
 
+<syntaxhighlight lang=php>
 require_once( "$EXT/Babel/Babel.php" );
+
 require_once( "$EXT/cldr/cldr.php" );
+
+require_once( "$EXT/CleanChanges/CleanChanges.php" );
+$wgCCTrailerFilter = true;
+$wgCCUserFilter = false;
+
+require_once( "$EXT/LocalisationUpdate/LocalisationUpdate.php" );
+$wgLocalisationUpdateDirectory = "$IP/cache";
+
 require_once( "$EXT/Translate/Translate.php" );
 $wgGroupPermissions['user']['translate'] = true;
 $wgGroupPermissions['user']['translate-messagereview'] = true;
@@ -31,11 +40,20 @@ $wgGroupPermissions['user']['translate-import'] = true;
 $wgGroupPermissions['sysop']['pagetranslation'] = true;
 $wgGroupPermissions['sysop']['translate-manage'] = true;
 $wgTranslateDocumentationLanguageCode = 'qqq';
+
 require_once( "$EXT/UniversalLanguageSelector/UniversalLanguageSelector.php" );
+</syntaxhighlight>
 
-3a) Update database tables from the command line. In the directory where your
-LocalSettings.php is located, run the following command:
-php maintenance/update.php
+=== Update database tables ===
+==== Commandline ====
+In the directory where your LocalSettings.php is located, run the following command:
+ php maintenance/update.php
 
-3b) Update database tables from the web. Go to example.com/mediawiki/mw-config/
-by using your domain and path and rerun install.
+==== Webbrowser ====
+Go to example.com/mediawiki/mw-config/ by using your domain and path and rerun install.
+
+=== Configuring LocalisationUpdate ===
+If you are on unix like system, you should add LocalisationUpdate to crontab:
+ crontab -e
+ # Add the following line
+ @daily php /path/to/your/wiki/extensions/LocalisationUpdate/update.php --quiet
