@@ -615,6 +615,8 @@ Last Modified
 
 Ldap Authentication
 
+Lightweight RDFa
+
 Lingo
 magicfile = Lingo/Lingo.i18n.magic.php
 
