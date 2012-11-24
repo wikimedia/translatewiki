@@ -272,6 +272,9 @@ aliasfile = ContributionScores/ContributionScores.alias.php
 Contribution Tracking
 aliasfile = ContributionTracking/ContributionTracking.alias.php
 
+Contributors
+aliasfile = Contributors/Contributors.alias.php
+
 Create Page
 aliasfile = CreatePage/CreatePage.alias.php
 descmsg = cp-desc
@@ -371,6 +374,8 @@ Double Wiki
 
 Download Counter
 
+DPL forum
+
 # DSMW: Disabled per Jeroen: Can you remove the DSMW extension from translatewiki? It's broken beyond hope, so no point in translators wasting their time on it. 2010-12-06
 
 Drafts
@@ -390,6 +395,9 @@ ignored = notification-talkpage-content
 Edit Page Tracking
 
 Edit Subpages
+
+Editcount
+aliasfile = Editcount/Editcount.alias.php
 
 Education Program
 aliasfile = EducationProgram/EducationProgram.i18n.alias.php
@@ -651,6 +659,9 @@ Log Entry
 aliasfile = LogEntry/LogEntry.alias.php
 descmsg = logentry-parserhook-desc
 
+Logo Functions
+aliasfile = LogoFunctions/LogoFunctions.alias.php
+
 Lookup User
 aliasfile = LookupUser/LookupUser.alias.php
 
@@ -681,6 +692,9 @@ Math Search
 aliasfile = MathSearch/MathSearch.alias.php
 
 Media Functions
+
+# Wikia centric extension
+# MediaWiki Auth
 
 MediaWiki Search
 id = ext-mwsearch
@@ -736,6 +750,9 @@ file = NewUserNotif/NewUserNotif.i18n.php
 descmsg = newusernotif-desc
 
 New Users List
+
+Newest Pages
+aliasfile = NewestPages/NewestPages.alias.php
 
 Nimbus
 file = skins/Nimbus/Nimbus.i18n.php
@@ -947,6 +964,8 @@ optional = group-filepusher.css, group-filepusher.js
 
 Quiz
 descmsg = quiz_desc
+
+Random Image
 
 Random In Category
 aliasfile = RandomInCategory/RandomInCategory.alias.php
@@ -1405,6 +1424,9 @@ White Space
 
 Whitelist Pages
 ignored = public_read_whitelist
+
+Who Is Watching
+aliasfile = WhoIsWatching/WhoIsWatching.alias.php
 
 Widgets
 magicfile = Widgets/Widgets.i18n.magic.php
