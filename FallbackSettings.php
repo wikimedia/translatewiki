@@ -9,6 +9,7 @@ $wgTranslateLanguageFallbacks['arq'] = 'ar';
 $wgTranslateLanguageFallbacks['ary'] = 'ar';
 $wgTranslateLanguageFallbacks['as'] = 'bn';
 $wgTranslateLanguageFallbacks['ba'] = array( 'tt-cyrl', 'ru' );
+$wgTranslateLanguageFallbacks['ban'] = array( 'id', 'jv' );
 $wgTranslateLanguageFallbacks['bbc-latn'] = array( 'id', 'ms' ); # Robin 2011-20-16
 $wgTranslateLanguageFallbacks['be-tarask'] = array( 'pl', 'ru', 'uk', 'be' );
 $wgTranslateLanguageFallbacks['bew'] = 'id';
