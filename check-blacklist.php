@@ -38,7 +38,14 @@ array(
 		'confirmemail_body_changed', // Optional time parameters
 		'confirmemail_body_set', // Optional time parameters
 		'currentrev-asof', // Optional time parameters
+		'diff-multi-manyusers',
 		'filehist-thumbtext', // Optional time parameters
+		'group-autoconfirmed-member', // Optional GENDER parameter
+		'group-bot-member', // Optional GENDER parameter
+		'group-bureaucrat-member', // Optional GENDER parameter
+		'group-suppress-member', // Optional GENDER parameter
+		'group-sysop-member', // Optional GENDER parameter
+		'group-user-member', // Optional GENDER parameter
 		'history-feed-item-nocomment', // Optional time parameters
 		'lastmodifiedatby', // Optional time parameters
 		'listusers-blocked', // Optional GENDER parameter
@@ -54,20 +61,13 @@ array(
 		'revisionasof', // Optional time parameters
 		'siteuser', // Optional GENDER parameter
 		'sp-contributions-blocked-notice', // Optional GENDER parameter
-		'diff-multi-manyusers',
+		'userrights-changeable-col', // Optional PLURAL parameter
+		'userrights-editusergroup', // Optional GENDER parameter
+		'userrights-groups-help', // Optional GENDER parameter
 		'userrights-groupsmember', // Optional PLURAL parameter
 		'userrights-groupsmember-auto', // Optional PLURAL parameter
-		'userrights-changeable-col', // Optional PLURAL parameter
-		'userrights-unchangeable-col', // Optional PLURAL parameter
 		'userrights-groupsmember-type', // Optional parameter for group name
-		'group-user-member', // Optional GENDER parameter
-		'group-autoconfirmed-member', // Optional GENDER parameter
-		'group-bot-member', // Optional GENDER parameter
-		'group-sysop-member', // Optional GENDER parameter
-		'group-bureaucrat-member', // Optional GENDER parameter
-		'group-suppress-member', // Optional GENDER parameter
-		'userrights-groups-help', // Optional GENDER parameter
-		'userrights-editusergroup', // Optional GENDER parameter
+		'userrights-unchangeable-col', // Optional PLURAL parameter
 	),
 ),
 array(
