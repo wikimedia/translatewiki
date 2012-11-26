@@ -111,12 +111,6 @@ Image Placeholder
 
 Image Serving
 
-Interstitial
-ignored = exitstitial-title
-
-Interstitial - Outbound Screen
-file = Interstitial/OutboundScreen.i18n.php
-
 Interwiki Dispatcher
 file = InterwikiDispatcher/SpecialInterwikiDispatcher.i18n.php
 aliasfile = InterwikiDispatcher/SpecialInterwikiDispatcher.alias.php
