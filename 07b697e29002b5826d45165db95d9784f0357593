@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAADZX//908\u003d",
+        "filename": "check-blacklist.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2012-11-26T14:12:27Z",
+      "side": 1,
+      "message": "Looks like you copied the double space around.",
+      "revId": "07b697e29002b5826d45165db95d9784f0357593",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
