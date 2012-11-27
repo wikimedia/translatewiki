@@ -15,7 +15,7 @@ $wgEnablePageTranslation = true;
 $wgTranslateMessageIndex = array( 'CDBMessageIndex' );
 $wgTranslateDelayedMessageIndexRebuild = true;
 $wgTranslateDisablePreSaveTransform = true;
-$wgTranslateCheckBlacklist = '/home/betawiki/config/check-blacklist.php';
+$wgTranslateCheckBlacklist = '/home/betawiki/config/groups/check-blacklist.php';
 
 $wgTranslatePermissionUrl = 'Special:FirstSteps';
 $wgTranslateSupportUrl = array(
@@ -51,7 +51,7 @@ function efHT( $specs, $group, $code ) {
 	return true;
 }
 
-$GROUPS = '/home/betawiki/config/';
+$GROUPS = '/home/betawiki/config/groups/';
 $wgTranslateExtensionDirectory = '/resources/projects/mediawiki-extensions/extensions';
 
 $wgTranslateCC['wiki-betawiki'] = 'customMessageGroups';
@@ -72,7 +72,7 @@ function customMessageGroupTwnMainpage( $id ) {
 
 $wgHooks['TranslatePostInitGroups'][] = array( 'setupMediaWiki' );
 function setupMediaWiki( &$cc ) {
-	global $wgTranslateGroupRoot;
+	global $wgTranslateGroupRoot, $GROUPS;
 
 	$id = "core";
 	$mg = CoreMessageGroup::factory( "MediaWiki", $id );
@@ -86,7 +86,7 @@ function setupMediaWiki( &$cc ) {
 	$releaseDir = 'master';
 	$mg->setPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/languages/messages" );
 	$mg->setMetaDataPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/maintenance/language/" );
-	$mg->setListFile( "/home/betawiki/config/MediaWiki/wikimedia-mostused-2011.txt" );
+	$mg->setListFile( "$GROUPS/MediaWiki/wikimedia-mostused-2011.txt" );
 	$cc[$id] = $mg;
 
 	$changed = array(
