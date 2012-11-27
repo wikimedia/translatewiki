@@ -208,6 +208,7 @@ enableSemantics( 'translatewiki.net' );
 // Threads
 $smwgNamespacesWithSemanticLinks[NS_LQT_THREAD] = true;
 $smwgNamespacesWithSemanticLinks[NS_LQT_SUMMARY] = true;
+$smwgDefaultStore = 'SMWSQLStore2';
 
 include_once( "$IP/extensions/SemanticForms/SemanticForms.php" );
 $sfgRedLinksCheckOnlyLocalProps = true;
