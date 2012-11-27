@@ -775,6 +775,7 @@ optional = oairepository
 
 OATH Auth
 aliasfile = OATHAuth/OATHAuth.alias.php
+optional = oath
 
 Ogg Handler
 magicfile = OggHandler/OggHandler.i18n.magic.php
