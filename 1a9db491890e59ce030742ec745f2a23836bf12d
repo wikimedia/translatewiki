@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAADbX///20\u003d",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2012-11-28T07:56:32Z",
+      "side": 1,
+      "message": "For future I would replace this with $GROUPS but that can be done in separate commit.",
+      "revId": "1a9db491890e59ce030742ec745f2a23836bf12d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
