@@ -28,6 +28,7 @@ require_once( "$EXT/cldr/cldr.php" );
 require_once( "$EXT/CleanChanges/CleanChanges.php" );
 $wgCCTrailerFilter = true;
 $wgCCUserFilter = false;
+$wgDefaultUserOptions['usenewrc'] = 1;
 
 require_once( "$EXT/LocalisationUpdate/LocalisationUpdate.php" );
 $wgLocalisationUpdateDirectory = "$IP/cache";
