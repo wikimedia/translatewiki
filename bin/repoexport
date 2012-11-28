@@ -67,9 +67,6 @@ then
 	if [ -d "mediawiki/REL1_19/" ]
 	then php "$EXPORTER" --target mediawiki/REL1_19/languages/messages --group 'core-1.19' --lang '*' --skip "$SKIPLANGS" --threshold 18 &
 	fi
-	if [ -d "mediawiki/REL1_18/" ]
-	then php "$EXPORTER" --target mediawiki/REL1_18/languages/messages --group 'core-1.18' --lang '*' --skip "$SKIPLANGS" --threshold 18 &
-	fi
 	wait
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]

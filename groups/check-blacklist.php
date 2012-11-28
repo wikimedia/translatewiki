@@ -91,13 +91,6 @@ array(
 	)
 ),
 array(
-	'group' => 'core-1.18',
-	'check' => 'variable',
-	'message' => array(
-		'mw-core-1.18-perfcachedts', // Optional time parameters
-	),
-),
-array(
 	'group' => 'ext-abusefilter',
 	'check' => 'variable',
 	'message' => array(

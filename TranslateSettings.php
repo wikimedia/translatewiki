@@ -94,20 +94,7 @@ function setupMediaWiki( &$cc ) {
 			'cannotundelete', 'logouttext', 'enotif_body',
 		), // Checked up to 502b0a22ebf969fb897b66045551bd31c499af46 / 2012-11-28
 		'1.19' => array(
-			'version-poweredby-others'/* No need to exclude in 1.18 */,
-			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
-			// From 1.20.
-			'cannotundelete', 'logouttext', 'enotif_body',
-		), // Checked up to 502b0a22ebf969fb897b66045551bd31c499af46 / 2012-11-28
-		'1.18' => array(
-			'editinguser', 'defemailsubject', 'file-nohires', 'show-big-image-preview',
-			'show-big-image-other', 'seconds-abbrev', 'minutes-abbrev', 'hours-abbrev',
-			'days-abbrev', 'signature', 'delete_and_move_reason', 'specialpages-note',
-			'usercreated', 'wlnote', 'perfcached', 'perfcachedts',
-			'prefs-watchlist-days-max', 'longpageerror',
-			'group-user-member', 'group-autoconfirmed-member', 'group-bot-member', 'group-sysop-member',
-			'group-bureaucrat-member', 'group-suppress-member',
-			// From 1.19
+			'version-poweredby-others',
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
 			// From 1.20.
 			'cannotundelete', 'logouttext', 'enotif_body',
