@@ -1409,6 +1409,7 @@ Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
 Visual Editor
+ignored = accesskey-ca-ve-edit
 
 Vote NY
 file = VoteNY/Vote.i18n.php
