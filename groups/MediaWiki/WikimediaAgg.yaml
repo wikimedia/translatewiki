@@ -80,6 +80,7 @@ GROUPS:
   - ext-subpagesortkey # a2b3abe7ebc6aac630e4e309cc17780b28ac4b04 for some wikibooks
   - ext-swiftcloudfiles # 110441
   - ext-syntaxhighlightgeshi
+  - ext-templatesandbox
   - ext-timedmediahandler # Change-Id: Ifbb7c9b7344520f6d9fe1ccfa3f276ec153b9770
   - ext-titlekey
   - ext-toctree # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
