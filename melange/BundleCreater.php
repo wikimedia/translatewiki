@@ -31,6 +31,7 @@ class BundleCreater {
 		$this->clone_extensions();
 		$this->update_extensions();
 		$this->checkout_release();
+		$this->install_mediawiki();
 		// Broken
 		//$this->run_tests();
 		$this->prepare_notes();
@@ -322,5 +323,21 @@ WIKITEXT;
 		echo "* Send the release announcement from $announcement to mediawiki-i18n.\n";
 		echo "* Consider also blogging/twitter etc.\n";
 	}
+
+	// In case you mess up
+	public function undo_tag() {
+		$version = $this->conf['common']['releasever'];
+		$tag = str_replace( '$1', $version, $this->conf['common']['tagname'] );
+
+		foreach ( $this->conf['extensions'] as $ext => $checkout ) {
+			chdir( "{$this->dir}/extensions/$ext" );
+			$cTag = escapeshellarg( $tag );
+			exec( "git checkout master" );
+			exec( "git tag -d $cTag" );
+			$cTag = escapeshellarg( ":refs/tags/$tag" );
+			exec( "git push origin $cTag" );
+		}
+	}
+
 
 }
