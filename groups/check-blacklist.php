@@ -55,6 +55,7 @@ array(
 		'logentry-delete-restore',  // Optional GENDER parameter
 		'logentry-move-move',  // Optional GENDER parameter
 		'logentry-move-move-noredirect',  // Optional GENDER parameter
+		'logentry-move-move redir',  // Optional GENDER parameter
 		'logentry-newusers-create2',  // Optional GENDER parameters
 		'login-userblocked', // Optional GENDER parameter
 		'othercontribs', // Optional count parameter
