@@ -113,6 +113,7 @@ then
 	cd extensions
 
 	echo "Updating git extensions"
+	count=0
 	EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(Gitweb|SelectTag.tag|TranslationNotifcations)")
 	for EXTENSION in $EXTENSIONS
 	do
@@ -141,11 +142,10 @@ then
 				git review -s
 				cd ..
 			fi
-
 		else
 			cd "$EXTENSION"
 			git fetch -q --all && git reset -q --hard origin/master && git clean -q -f -d &
-			sleep 0.4
+			let count+=1; [[ $((count%10)) -eq 0 ]] && wait
 			cd ..
 		fi
 	done
