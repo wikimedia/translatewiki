@@ -2,6 +2,7 @@
 BASIC:
   id: out-frontlinesms
   label: FrontlineSMS
+  icon: wiki://FrontlineSMS-logo.png
   description: "{{int:translate-group-desc-frontlinesms}}"
   namespace: NS_FRONTLINESMS
   class: FileBasedMessageGroup

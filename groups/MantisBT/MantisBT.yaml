@@ -1,7 +1,8 @@
 TEMPLATE:
   BASIC:
-    namespace: NS_MANTIS
+    icon: wiki://MantisBT_logo_square.png
     description: "{{int:bw-desc-mantisbt}}"
+    namespace: NS_MANTIS
     class: FileBasedMessageGroup
 
   FILES:

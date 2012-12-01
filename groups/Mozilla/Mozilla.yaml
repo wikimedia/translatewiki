@@ -1,5 +1,6 @@
 TEMPLATE:
   BASIC:
+    icon: wiki://Firefox-logo.svg
     description: "{{int:translate-group-desc-mozilla-browser}}"
     namespace: NS_MOZILLA
 

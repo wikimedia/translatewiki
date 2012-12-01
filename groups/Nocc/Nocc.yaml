@@ -1,7 +1,8 @@
 TEMPLATE:
   BASIC:
-    namespace: NS_NOCC
+    icon: wiki://Nocc_logo.png
     description: "{{int:bw-desc-nocc}}"
+    namespace: NS_NOCC
     class: FileBasedMessageGroup
 
 ---

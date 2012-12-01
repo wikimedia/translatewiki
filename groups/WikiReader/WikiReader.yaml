@@ -2,6 +2,7 @@
 BASIC:
   id: out-wikireader
   label: WikiReader
+  icon: wiki://WikiReader.png
   description: "{{int:bw-desc-wikireader}}"
   namespace: NS_WIKIREADER
   class: FileBasedMessageGroup

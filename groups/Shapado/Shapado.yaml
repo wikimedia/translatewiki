@@ -1,8 +1,9 @@
 TEMPLATE:
   BASIC:
+    icon: wiki://Shapado-icon.png
+    description: "{{int:bw-desc-shapado}}"
     namespace: NS_SHAPADO
     class: FileBasedMessageGroup
-    description: "{{int:bw-desc-shapado}}"
 
   FILES:
     class: RubyYamlFFS

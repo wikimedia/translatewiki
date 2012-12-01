@@ -1,8 +1,9 @@
 TEMPLATE:
   BASIC:
+    icon: wiki://Okawix_logo.png
+    description: "{{int:translate-group-desc-okawix}}"
     namespace: NS_OKAWIX
     class: FileBasedMessageGroup
-    description: "{{int:translate-group-desc-okawix}}"
 
   FILES:
     class: JavaFFS

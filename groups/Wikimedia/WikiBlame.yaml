@@ -1,9 +1,10 @@
 BASIC:
   id: out-wikiblame
   label: WikiBlame
+  icon: wiki://WikiBlame.png
+  description: "{{int:bw-desc-wikiblame}}"
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
-  description: "{{int:bw-desc-wikiblame}}"
 
 FILES:
   class: FlatPhpFFS

@@ -3,8 +3,9 @@
  * Script to generate YAML configuration for Mozilla projects.
  *
  * @file
+ * @author Amir Aharoni
  * @author Siebrand Mazeland
- * @copyright Copyright © 2012 Siebrand Mazeland
+ * @copyright Copyright © 2012 Siebrand Mazeland, Amir Aharoni
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
@@ -51,6 +52,7 @@ foreach ( $products as $product ) {
 		$header = <<<PHP
 TEMPLATE:
   BASIC:
+    icon: wiki://Firefox-logo.svg
     description: "{{int:translate-group-desc-mozilla-browser}}"
     namespace: NS_MOZILLA
     class: FileBasedMessageGroup

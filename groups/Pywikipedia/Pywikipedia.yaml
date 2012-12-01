@@ -1,8 +1,9 @@
 TEMPLATE:
   BASIC:
+    icon: wiki://Pwb_icon.svg
+    description: "{{int:translate-group-desc-pywikipedia}}"
     namespace: NS_PYWIKIPEDIA
     class: SingleFileBasedMessageGroup
-    description: "{{int:translate-group-desc-pywikipedia}}"
 
   FILES:
     class: PythonSingleFFS

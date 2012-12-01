@@ -1,5 +1,6 @@
 TEMPLATE:
   BASIC:
+    icon: wiki://WikipediaMobile-icon.png
     description: "{{int:translate-group-desc-wikimedia-mobile}}"
     namespace: NS_WIKIMEDIA
     class: FileBasedMessageGroup

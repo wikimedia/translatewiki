@@ -1,7 +1,8 @@
 BASIC:
-  description: "Waymarked Trails is a service showing routes with route information for hiking, cycling, mountain biking and inline skating around the world"
   id: out-waymarked-trails
   label: Waymarked Trails
+  icon: wiki://Waymarked_Trails_logo.svg
+  description: "Waymarked Trails is a service showing routes with route information for hiking, cycling, mountain biking and inline skating around the world"
   namespace: NS_OSM
   class: FileBasedMessageGroup
   codeBrowser: https://github.com/lonvia/waymarked-trails-site/blob/master/django/%FILE%#L%LINE%

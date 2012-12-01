@@ -2,6 +2,7 @@
 BASIC:
   id: out-etherpad-lite
   label: Etherpad lite
+  icon: wiki://Etherpad_lite.svg
   description: "<div class=warning>This group is still in beta</div>"
   namespace: NS_ETHERPADLITE
   class: FileBasedMessageGroup

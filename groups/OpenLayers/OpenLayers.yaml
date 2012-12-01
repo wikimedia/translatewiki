@@ -2,6 +2,7 @@
 BASIC:
   id: out-openlayers
   label: OpenLayers
+  icon: wiki://Logo-OpenLayers.png
   description: "{{int:bw-desc-openlayers}}"
   namespace: NS_OPENLAYERS
   class: FileBasedMessageGroup

@@ -1,6 +1,7 @@
 BASIC:
   id: ext-0-all
   label: MediaWiki extensions
+  icon: wiki://Mediawiki-logo.png
   meta: yes
   class: AggregateMessageGroup
   description: '{{int:translate-group-desc-mediawikiextensions}}'

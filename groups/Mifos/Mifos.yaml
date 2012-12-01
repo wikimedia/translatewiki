@@ -1,8 +1,9 @@
 TEMPLATE:
   BASIC:
+    icon: wiki://Mifos-logo.jpg
+    description: "{{int:translate-group-desc-mifos}}"
     namespace: NS_MIFOS
     class: FileBasedMessageGroup
-    description: "{{int:translate-group-desc-mifos}}"
 
   FILES:
     class: JavaFFS

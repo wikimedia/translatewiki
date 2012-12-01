@@ -1,6 +1,7 @@
 BASIC:
   id: ext-readerfeedback-0-all
   label: All Reader Feedback messages
+  icon: wiki://Mediawiki-logo.png
   meta: yes
   class: AggregateMessageGroup
   description: '{{int:translate-group-desc-readerfeedback}}'

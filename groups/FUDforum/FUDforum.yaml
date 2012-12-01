@@ -2,6 +2,7 @@
 BASIC:
   id: out-fudforum
   label: FUDforum
+  icon: wiki://Fudforum.png
   description: "{{int:bw-desc-fudforum}}"
   namespace: NS_FUDFORUM
   class: FileBasedMessageGroup

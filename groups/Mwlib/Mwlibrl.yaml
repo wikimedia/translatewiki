@@ -2,6 +2,7 @@
 BASIC:
   id: out-mwlibrl
   label: Mwlib.rl
+  icon: wiki://Logo-PediaPress.png
   description: "{{int:bw-desc-mwlibrl}}"
   namespace: NS_MWLIB
   class: FileBasedMessageGroup

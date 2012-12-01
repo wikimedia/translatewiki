@@ -2,6 +2,7 @@
 BASIC:
   id: out-commonist
   label: Commonist
+  icon: wiki://Commonist.svg
   description: "{{int:bw-desc-commonist}}"
   namespace: NS_COMMONIST
   class: FileBasedMessageGroup

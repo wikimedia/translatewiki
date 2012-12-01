@@ -79,6 +79,7 @@ function setupMediaWiki( &$cc ) {
 	$releaseDir = 'master';
 	$mg->setPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/languages/messages" );
 	$mg->setMetaDataPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/maintenance/language/" );
+	//$mg->setIcon( 'wiki://Mediawiki-logo.png' );
 	$cc[$id] = $mg;
 
 	$id = "core-0-mostused";
@@ -86,6 +87,7 @@ function setupMediaWiki( &$cc ) {
 	$releaseDir = 'master';
 	$mg->setPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/languages/messages" );
 	$mg->setMetaDataPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/maintenance/language/" );
+	//$mg->setIcon( 'wiki://Mediawiki-logo.png' );
 	$mg->setListFile( "$GROUPS/MediaWiki/wikimedia-mostused-2011.txt" );
 	$cc[$id] = $mg;
 
@@ -112,6 +114,7 @@ function setupMediaWiki( &$cc ) {
 		$releaseDir = 'REL' . str_replace( '.', '_', $branch );
 		$mg->setPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/languages/messages" );
 		$mg->setMetaDataPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/maintenance/language/" );
+		//$mg->setIcon( 'wiki://Mediawiki-logo.png' );
 		$mg->setMeta( true );
 		$mg->parentId = 'core';
 		$cc[$id] = $mg;
@@ -156,6 +159,7 @@ function setupWikia( &$list, &$deps, &$autoload ) {
 	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
 	$foo->setNamespace( NS_WIKIA );
 	$foo->setGroupPrefix( 'wikia-' );
+	//$mg->setIcon( 'wiki://Wikia_Logo.png' );
 	$foo->setUseConfigure( false );
 	$foo->register( $list, $deps, $autoload );
 

@@ -1,5 +1,6 @@
 TEMPLATE:
   BASIC:
+    icon: wiki://Openstreetmap_logo.svg
     namespace: NS_OSM
     class: FileBasedMessageGroup
 

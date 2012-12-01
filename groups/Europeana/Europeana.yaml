@@ -2,6 +2,7 @@
 BASIC:
   id: out-europeana
   label: Europeana
+  icon: wiki://Europeana.jpg
   description: "{{int:translate-group-desc-europeana}}"
   namespace: NS_EUROPEANA
   class: FileBasedMessageGroup

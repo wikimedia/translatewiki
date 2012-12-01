@@ -2,6 +2,7 @@
 BASIC:
   id: out-openimages-0-all
   label: Open Images
+  icon: wiki://Open_Images.png
   meta: yes
   class: AggregateMessageGroup
   namespace: NS_OPENIMAGES
@@ -14,6 +15,7 @@ GROUPS:
 BASIC:
   id: out-openimages-core
   label: Open Images - Core
+  icon: wiki://Open_Images.png
   description: "{{int:bw-desc-openimages}}"
   namespace: NS_OPENIMAGES
   class: FileBasedMessageGroup
@@ -35,6 +37,7 @@ TAGS:
 BASIC:
   id: out-openimages-verifyemailtemplate
   label: Open Images - Verify Email Template
+  icon: wiki://Open_Images.png
   description: "{{int:translate-group-desc-openimages-verifyemailtemplate}}"
   namespace: NS_OPENIMAGES
   class: FileBasedMessageGroup

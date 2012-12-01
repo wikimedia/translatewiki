@@ -52,6 +52,7 @@ getPotFiles( $baseFolder, $filePattern );
 $header = <<<PHP
 TEMPLATE:
   BASIC:
+    icon: wiki://StatusNet_logo.png
     description: "{{int:translate-group-desc-statusnet-plugin}}"
     namespace: NS_STATUSNET
     class: FileBasedMessageGroup
