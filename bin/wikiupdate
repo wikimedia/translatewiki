@@ -10,14 +10,15 @@ git pull origin master
 
 cd extensions
 
-echo "*** Updating git extensions ***"
+echo "*** Updating extensions ***"
+count=0
 for dir in *; do
 	if [ -d "$dir" ]; then
 		cd $dir
 		if [ -d ".git" ]; then
 			echo -n "$dir.. ";
 			git pull |grep -v Already &
-			sleep 0.4
+			let count+=1; [[ $((count%10)) -eq 0 ]] && wait
 		fi
 		cd ..
 	fi
