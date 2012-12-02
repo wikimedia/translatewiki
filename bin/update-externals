@@ -9,6 +9,7 @@ WIKI=/www/translatewiki.net/w
 
 for PROJECT in \
 eol \
+etherpad-lite \
 freecol \
 fudforum \
 ihris \
