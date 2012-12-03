@@ -2,6 +2,8 @@
 
 require_once( __DIR__ . '/FallbackSettings.php' );
 
+$GROUPS = __DIR__ . '/groups';
+
 $wgSpecialPages['Magic'] = 'SpecialMagic';
 $wgTranslateNewsletterPreference = true;
 $wgTranslateYamlLibrary = 'syck-pecl';
@@ -15,7 +17,7 @@ $wgEnablePageTranslation = true;
 $wgTranslateMessageIndex = array( 'CDBMessageIndex' );
 $wgTranslateDelayedMessageIndexRebuild = true;
 $wgTranslateDisablePreSaveTransform = true;
-$wgTranslateCheckBlacklist = '/home/betawiki/config/groups/check-blacklist.php';
+$wgTranslateCheckBlacklist = "$GROUPS/check-blacklist.php";
 
 $wgTranslatePermissionUrl = 'Special:FirstSteps';
 $wgTranslateSupportUrl = array(
@@ -51,7 +53,6 @@ function efHT( $specs, $group, $code ) {
 	return true;
 }
 
-$GROUPS = '/home/betawiki/config/groups/';
 $wgTranslateExtensionDirectory = '/resources/projects/mediawiki-extensions/extensions';
 
 $wgTranslateCC['wiki-betawiki'] = 'customMessageGroups';
