@@ -391,6 +391,7 @@ Dynamic Sidebar
 Echo
 aliasfile = Echo/Echo.alias.php
 ignored = notification-talkpage-content
+optional = echo-notification-count
 
 Edit Page Tracking
 
