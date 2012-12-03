@@ -1,0 +1,25 @@
+---
+BASIC:
+  id: out-vicuna
+  label: VicuñaUploader
+  icon: wiki://VicunaUploader_logo.png
+  description: "[[Translating:VicuñaUploader|VicuñaUploader]] is a free tool to upload files to Wikimedia Commons and other Wikimedia projects"
+  namespace: NS_VICUNA
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JavaFFS
+  sourcePattern: %GROUPROOT%/src/cuploader/text/messages_%CODE%.properties
+  definitionFile: %GROUPROOT%/src/cuploader/text/messages.properties
+  targetPattern: vicuna/src/cuploader/text/messages_%CODE%.properties
+  codeMap:
+    cs:    cs_CZ
+    es:    es_ES
+    it:    it_IT
+    nb:    nb_NO
+    pl:    pl_PL
+    sv:    sv_SE
+    en-gb: en_GB
+    pt:    pt_PT
+    pt-br: pt_BR
+    zh-hans: zh_CN

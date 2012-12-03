@@ -256,6 +256,13 @@ then
 	fi
 	git clone "$REPO_TOOLSERVER" $PROJECT
 
+elif [ "$PROJECT" = "vicuna" ]
+then
+	if [ -z "$REPO_VICUNA" ]
+	then echo "Add REPO_VICUNA to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_VICUNA" $PROJECT
+
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
 	if [ -z "$REPO_WAYMARKEDTRAILS" ]

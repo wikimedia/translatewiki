@@ -31,6 +31,7 @@ REPO_SHAPADO=git://gitorious.org/shapado/shapado.git
 REPO_STATUSNET=git://gitorious.org/statusnet/mainline.git
 REPO_STATUSNET_BRANCH="1.2.x"
 REPO_TOOLSERVER=git://github.com/Krinkle/TsIntuition.git
+REPO_VICUNA=git://github.com/yarl/vicuna.git
 REPO_WAYMARKEDTRAILS=git://github.com/lonvia/waymarked-trails-site.git
 REPO_WIKIA=git://github.com/Wikia/app.git
 REPO_WIKIA_BRANCH="dev"

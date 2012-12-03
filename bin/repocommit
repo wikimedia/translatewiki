@@ -191,6 +191,10 @@ elif [ "$PROJECT" = "toolserver" ]
 then
 	gitcommitNoCheck "$PROJECT"
 
+elif [ "$PROJECT" = "vicuna" ]
+then
+	gitcommitNoCheck "$PROJECT"
+
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
 	gitcommitNoCheck "$PROJECT"

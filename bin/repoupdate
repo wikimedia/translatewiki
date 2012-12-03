@@ -254,6 +254,10 @@ elif [ "$PROJECT" = "toolserver" ]
 then
 	gitupdate "$PROJECT"
 
+elif [ "$PROJECT" = "vicuna" ]
+then
+	gitupdate "$PROJECT"
+
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
 	gitupdate "$PROJECT"
