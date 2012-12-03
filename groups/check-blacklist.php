@@ -50,13 +50,14 @@ array(
 		'history-feed-item-nocomment', // Optional time parameters
 		'lastmodifiedatby', // Optional time parameters
 		'listusers-blocked', // Optional GENDER parameter
-		'logentry-delete-delete',  // Optional GENDER parameter
-		'logentry-delete-event',  // Optional GENDER parameter
-		'logentry-delete-restore',  // Optional GENDER parameter
-		'logentry-move-move',  // Optional GENDER parameter
-		'logentry-move-move-noredirect',  // Optional GENDER parameter
-		'logentry-move-move redir',  // Optional GENDER parameter
-		'logentry-newusers-create2',  // Optional GENDER parameters
+		'logentry-delete-delete', // Optional GENDER parameter
+		'logentry-delete-event', // Optional GENDER parameter
+		'logentry-delete-restore', // Optional GENDER parameter
+		'logentry-move-move', // Optional GENDER parameter
+		'logentry-move-move-noredirect', // Optional GENDER parameter
+		'logentry-move-move redir', // Optional GENDER parameter
+		'logentry-move-move redir-noredirect', // Optional GENDER parameter
+		'logentry-newusers-create2', // Optional GENDER parameters
 		'login-userblocked', // Optional GENDER parameter
 		'othercontribs', // Optional count parameter
 		'perfcachedts', // Optional time parameters
@@ -353,8 +354,8 @@ array(
 		'lqt-feed-title-all-from', // Optional PLURAL parameter ($2)
 		'lqt-feed-title-new-threads-from', // Optional PLURAL parameter ($2)
 		'lqt-feed-title-replies-from', // Optional PLURAL parameter ($2)
-		'lqt-thread-edited-others',  // Optional date and time parameters ($3/$4)
-		'lqt-thread-edited-author',  // Optional count, date and time parameters ($2/$3/$4)
+		'lqt-thread-edited-others', // Optional date and time parameters ($3/$4)
+		'lqt-thread-edited-author', // Optional count, date and time parameters ($2/$3/$4)
 	)
 ),
 array(
