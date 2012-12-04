@@ -218,6 +218,11 @@ elif [ "$PROJECT" = "wikireader" ]
 then
 	php "$EXPORTER" --target . --group=out-wikireader --lang '*' --skip en --threshold 1
 
+elif [ "$PROJECT" = "WikisourceMobile" ]
+then
+	php "$EXPORTER" --target . --group=out-wikisource-mobile --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikisource-mobile --lang qqq
+
 elif [ "$PROJECT" = "WiktionaryMobile" ]
 then
 	php "$EXPORTER" --target . --group=out-wiktionary-mobile --lang '*' --skip en,qqq $THRESHOLD

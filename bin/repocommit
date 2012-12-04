@@ -222,6 +222,10 @@ elif [ "$PROJECT" = "wikireader" ]
 then
 	gitcommitNoCheck "$PROJECT"
 
+elif [ "$PROJECT" = "WikisourceMobile" ]
+then
+	gitcommitNoCheck "$PROJECT"
+
 elif [ "$PROJECT" = "WiktionaryMobile" ]
 then
 	gitcommitNoCheck "$PROJECT"

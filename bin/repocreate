@@ -313,6 +313,13 @@ then
 	fi
 	git clone "$REPO_WIKIREADER" $PROJECT
 
+elif [ "$PROJECT" = "WikisourceMobile" ]
+then
+	if [ -z "$REPO_WIKISOURCEMOBILE" ]
+	then echo "Add REPO_WIKISOURCEMOBILE to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_WIKISOURCEMOBILE" $PROJECT
+
 elif [ "$PROJECT" = "WiktionaryMobile" ]
 then
 	if [ -z "$REPO_WIKTIONARYMOBILE" ]

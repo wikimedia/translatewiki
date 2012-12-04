@@ -288,6 +288,10 @@ elif [ "$PROJECT" = "wikireader" ]
 then
 	gitupdate "$PROJECT"
 
+elif [ "$PROJECT" = "WikisourceMobile" ]
+then
+	gitupdate "$PROJECT"
+
 elif [ "$PROJECT" = "WiktionaryMobile" ]
 then
 	gitupdate "$PROJECT"
