@@ -375,8 +375,7 @@ $wgResourceLoaderValidateJS = false;
 $wgLegacyJavaScriptGlobals = false;
 $wgResourceLoaderExperimentalAsyncLoading = true; // Nike 2012-01-11
 
-# Added 2012-02-13 by Raymond
-$wgDeprecationReleaseLimit = '1.17';
+$wgDeprecationReleaseLimit = '1.18';
 
 $wgFooterIcons['poweredby']['netcup'] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
 
