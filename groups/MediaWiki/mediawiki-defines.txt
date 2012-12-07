@@ -1437,6 +1437,26 @@ optional = group-widgeteditor.css, group-widgeteditor.js
 
 Wiki Article Feeds
 
+Wiki Editor
+optional = wikieditor-toolbar-help-content-rereference-syntax, wikieditor-toolbar-help-content-showreferences-syntax
+optional = wikieditor-toolbar-tool-table-example-text
+ignored = wikieditor-toolbar-help-content-signaturetimestamp-syntax, wikieditor-toolbar-help-content-signature-syntax
+
+Wiki Forum
+ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforum-max-replies-per-page
+optional = group-forumadmin.css, group-forumadmin.js
+
+Wiki Love
+optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
+
+Wiki Loves Monuments
+
+Wiki Object Model
+file = WikiObjectModel/languages/Messages.php
+descmsg = wom-desc
+
+Wiki Text Logged In Out
+
 Wikibase - Client
 file = Wikibase/client/WikibaseClient.i18n.php
 magicfile = Wikibase/client/WikibaseClient.i18n.magic.php
@@ -1463,27 +1483,9 @@ ignored = wikibase-api-invalid-contentmodel, wikibase-api-alias-incomplete, wiki
 ignored = wikibase-api-label-or-description, wikibase-api-label-not-found, wikibase-api-description-not-found, wikibase-api-wrong-class
 ignored = wikibase-api-session-failure, wikibase-api-illegal-field, wikibase-api-edit-conflict
 
-WikiEditor
-optional = wikieditor-toolbar-help-content-rereference-syntax, wikieditor-toolbar-help-content-showreferences-syntax
-optional = wikieditor-toolbar-tool-table-example-text
-ignored = wikieditor-toolbar-help-content-signaturetimestamp-syntax, wikieditor-toolbar-help-content-signature-syntax
-
-Wiki Forum
-ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforum-max-replies-per-page
-optional = group-forumadmin.css, group-forumadmin.js
-
 Wikihiero
 file = wikihiero/wikihiero.i18n.php
 aliasfile = wikihiero/wikihiero.alias.php
-
-Wiki Love
-optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
-
-Wiki Loves Monuments
-
-Wiki Object Model
-file = WikiObjectModel/languages/Messages.php
-descmsg = wom-desc
 
 Wikimedia Incubator
 descmsg = wminc-desc
@@ -1527,13 +1529,11 @@ optional = wm-license-pd-usgov-military-navy-wiki-link, wm-license-pd-usgov-noaa
 ignored = wm-license-gfdl-full-1.2-link, wm-license-gfdl-full-1.3-link, wm-license-gpl-2-full-link, wm-license-gpl-3-full-link
 ignored = wm-license-lgpl-2.1-full-link, wm-license-lgpl-3-full-link
 
+Wikimedia Shop Link
+
 Wikimedia Temporary Messages
 file = WikimediaMessages/WikimediaTemporaryMessages.i18n.php
 prefix = temporary- | wikimediamessages-desc
-
-Wikimedia Shop Link
-
-Wiki Text Logged In Out
 
 Windows Azure SDK
 
