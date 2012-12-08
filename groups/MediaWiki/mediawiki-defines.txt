@@ -803,6 +803,7 @@ Open Search Xml
 
 Open Stack Manager
 aliasfile = OpenStackManager/OpenStackManager.alias.php
+optional = openstackmanager-puppetdoclink
 
 Page Images
 
