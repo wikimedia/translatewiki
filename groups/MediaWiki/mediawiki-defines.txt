@@ -668,6 +668,8 @@ aliasfile = LookupUser/LookupUser.alias.php
 
 Loops
 
+Magic No Cache
+
 Maintenance
 aliasfile = Maintenance/Maintenance.alias.php
 optional = maintenance-cleanupCaps-output-moved
