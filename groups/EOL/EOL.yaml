@@ -53,19 +53,20 @@ MANGLER:
 
 TAGS:
   ignored:
-    - website-faker.lorem.*
     - website-date.*
-    - website-time.*
-    - website-support.*
-    - website-number.*
     - website-datetime.*
+    - website-faker.lorem.*
+    - website-number.*
     - website-support.*
+    - website-time.*
     - website-collections.show.meta_description
     - website-collections.show.meta_title
     - website-collections.show.tweet_text
     - website-communities.newsfeeds.show.meta_description
     - website-communities.newsfeeds.show.meta_title
     - website-communities.newsfeeds.show.tweet_text
+    - website-content.show.meta_description
+    - website-content.show.meta_keywords
     - website-content_partners.show.meta_title
     - website-content_partners.show.tweet_text
     - website-taxa.communities.curators.meta_description
