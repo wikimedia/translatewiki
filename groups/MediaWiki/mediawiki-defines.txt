@@ -682,6 +682,8 @@ ignored = maintenance-stats, maintenance-cleanupSpam-output-done, maintenance-cl
 ignored = maintenance-clear_interwiki_cache-db, maintenance-createAndPromote-option-username, maintenance-createAndPromote-option-password
 ignored = maintenance-createAndPromote-output-done, maintenance-createAndPromote-error-invalid, maintenance-createAndPromote-error-exists
 
+Map Sources
+
 Maps
 aliasfile = Maps/Maps.i18n.alias.php
 magicfile = Maps/Maps.i18n.magic.php
