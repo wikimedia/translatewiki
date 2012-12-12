@@ -304,6 +304,10 @@ Data Values - Data Types
 file = DataValues/DataTypes/DataTypes.i18n.php
 descmsg = datatypes-desc
 
+Data Values - Value Formatters
+file = DataValues/ValueFormatters/ValueFormatters.i18n.php
+descmsg = valueformatters-desc
+
 Data Values - Value Parsers
 file = DataValues/ValueParsers/ValueParsers.i18n.php
 descmsg = valueparsers-desc
@@ -311,10 +315,6 @@ descmsg = valueparsers-desc
 Data Values - Value Validators
 file = DataValues/ValueValidators/ValueValidators.i18n.php
 descmsg = valuevalidators-desc
-
-Data Values - Value Formatters
-file = DataValues/ValueFormatters/ValueFormatters.i18n.php
-descmsg = valueformatters-desc
 
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
