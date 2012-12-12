@@ -418,6 +418,9 @@ Etherpad Lite
 
 Event Logging
 
+Event Logging - Json Schema
+file = EventLogging/includes/JsonSchema.i18n.php
+
 Expand Templates
 aliasfile = ExpandTemplates/ExpandTemplates.alias.php
 
