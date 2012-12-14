@@ -535,6 +535,9 @@ Geo Data
 # GeoGebra is a product name, therefore no space between the words
 GeoGebra
 
+Getting Started
+aliasfile = GettingStarted/GettingStarted.alias.php
+
 Gitweb
 
 Global Blocking
