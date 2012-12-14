@@ -303,7 +303,6 @@ wfAddNamespace( 1222, 'Osm' );
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/OpenStreetMap.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/Potlatch2.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/WaymarkedTrails.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/WaymarkedTrailsHelp.yaml";
 
 wfAddNamespace( 1224, 'WikiReader' );
 $wgTranslateGroupFiles[] = "$GROUPS/WikiReader/WikiReader.yaml";

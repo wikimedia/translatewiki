@@ -1,8 +1,21 @@
 BASIC:
-  id: out-waymarked-trails
+  id: out-waymarked-trails-0-all
   label: Waymarked Trails
   icon: wiki://Waymarked_Trails_logo.svg
-  description: "Waymarked Trails is a service showing routes with route information for hiking, cycling, mountain biking and inline skating around the world"
+  description: "{{int:translate-group-desc-waymarked-trails}}"
+  namespace: NS_OSM
+  class: AggregateMessageGroup
+
+GROUPS:
+  - out-waymarked-trails
+  - out-waymarked-trails-help
+
+---
+BASIC:
+  id: out-waymarked-trails
+  label: Waymarked Trails Website
+  icon: wiki://Waymarked_Trails_logo.svg
+  description: "{{int:translate-group-desc-waymarked-trails}}"
   namespace: NS_OSM
   class: FileBasedMessageGroup
   codeBrowser: https://github.com/lonvia/waymarked-trails-site/blob/master/django/%FILE%#L%LINE%
@@ -32,4 +45,26 @@ TAGS:
    - wmt-664add438097fbd4307f814de8e62a10f8905588-Wikipedia
    - wmt-d39fbf478176b9ed008faf0cf0bfe88a778c7e9c-s_km
    - wmt-978afcb7a6f02efbc6cf00a0668afa0913891cd3-s_m
+
+---
+BASIC:
+  id: out-waymarked-trails-help
+  label: Waymarked Trails Help
+  icon: wiki://Waymarked_Trails_logo.svg
+  description: "{{int:translate-group-desc-waymarked-trails-help}}"
+  namespace: NS_OSM
+  class: FileBasedMessageGroup
+  codeBrowser: https://github.com/lonvia/waymarked-trails-site/blob/master/django/%FILE%#L%LINE%
+
+MANGLER:
+  class: StringMatcher
+  prefix: wmthelp-
+  patterns:
+    - "*"
+
+FILES:
+  class: YamlFFS
+  sourcePattern: %GROUPROOT%/waymarked-trails-site/django/locale/%CODE%/helppages.yaml
+  definitionFile: %GROUPROOT%/waymarked-trails-site/django/locale/qot/helppages.yaml
+  targetPattern: waymarked-trails-site/django/locale/%CODE%/helppages.yaml
 
