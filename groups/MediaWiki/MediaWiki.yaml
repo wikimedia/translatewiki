@@ -1,0 +1,12 @@
+BASIC:
+  id: mediawiki
+  label: MediaWiki
+  icon: wiki://Mediawiki-logo.png
+  meta: yes
+  class: AggregateMessageGroup
+  namespace: NS_MEDIAWIKI
+
+GROUPS:
+  - core
+  - core-*
+  - ext-0-all

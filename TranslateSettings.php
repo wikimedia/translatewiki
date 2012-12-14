@@ -76,7 +76,7 @@ function setupMediaWiki( &$cc ) {
 	global $wgTranslateGroupRoot, $GROUPS;
 
 	$id = "core";
-	$mg = CoreMessageGroup::factory( "MediaWiki", $id );
+	$mg = CoreMessageGroup::factory( "MediaWiki (latest)", $id );
 	$releaseDir = 'master';
 	$mg->setPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/languages/messages" );
 	$mg->setMetaDataPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/maintenance/language/" );
@@ -125,6 +125,7 @@ function setupMediaWiki( &$cc ) {
 }
 
 # Add aggregate message groups for MediaWiki extensions.
+$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/MediaWiki.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/CollectionAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/FlaggedRevsAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/ReaderFeedbackAgg.yaml";
