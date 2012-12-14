@@ -4,6 +4,7 @@ BASIC:
   icon: wiki://Waymarked_Trails_logo.svg
   description: "{{int:translate-group-desc-waymarked-trails}}"
   namespace: NS_OSM
+  meta: yes
   class: AggregateMessageGroup
 
 GROUPS:
