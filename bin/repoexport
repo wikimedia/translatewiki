@@ -206,13 +206,13 @@ then
 
 elif [ "$PROJECT" = "WikipediaMobile" ]
 then
-	php "$EXPORTER" --target . --group=out-wikipedia-mobile-phonegap --lang '*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-wikipedia-mobile-phonegap --lang qqq
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-phonegap --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-phonegap --lang qqq
 
 elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
 then
-	php "$EXPORTER" --target . --group=out-wikipedia-mobile-j2me --lang '*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-wikipedia-mobile-j2me --lang qqq
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-j2me --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-j2me --lang qqq
 
 elif [ "$PROJECT" = "wikireader" ]
 then
@@ -220,18 +220,18 @@ then
 
 elif [ "$PROJECT" = "WikisourceMobile" ]
 then
-	php "$EXPORTER" --target . --group=out-wikisource-mobile --lang '*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-wikisource-mobile --lang qqq
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikisource --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikisource --lang qqq
 
 elif [ "$PROJECT" = "WiktionaryMobile" ]
 then
-	php "$EXPORTER" --target . --group=out-wiktionary-mobile --lang '*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-wiktionary-mobile --lang qqq
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wiktionary --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wiktionary --lang qqq
 
 elif [ "$PROJECT" = "WLMMobile" ]
 then
-	php "$EXPORTER" --target . --group=out-wlm-mobile --lang '*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-wlm-mobile --lang qqq
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wlm --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wlm --lang qqq
 
 else
 	echo "repoexport: Unknown project"

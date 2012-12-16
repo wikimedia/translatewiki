@@ -70,9 +70,9 @@ TAGS:
 
 ---
 BASIC:
-  description: "{{int:translate-group-desc-wikimedia-mobile-wlm}}"
   id: out-wikimedia-mobile-wlm
   label: Wiki Loves Monuments Mobile
+  description: "{{int:translate-group-desc-wikimedia-mobile-wlm}}"
 
 MANGLER:
   class: StringMatcher
@@ -90,9 +90,9 @@ FILES:
 
 ---
 BASIC:
-  description: "{{int:translate-group-desc-wikimedia-mobile-wikisource}}"
   id: out-wikimedia-mobile-wikisource
   label: Wikisource Mobile
+  description: "{{int:translate-group-desc-wikimedia-mobile-wikisource}}"
 
 MANGLER:
   class: StringMatcher
@@ -110,9 +110,9 @@ FILES:
 
 ---
 BASIC:
-  description: "{{int:translate-group-desc-wikimedia-mobile-wiktionary}}"
   id: out-wikimedia-mobile-wiktionary
   label: Wiktionary Mobile
+  description: "{{int:translate-group-desc-wikimedia-mobile-wiktionary}}"
 
 MANGLER:
   class: StringMatcher
