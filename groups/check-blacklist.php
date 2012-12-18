@@ -380,6 +380,14 @@ array(
 	)
 ),
 array(
+	'group' => 'ext-onlinestatus',
+	'check' => 'variable',
+	'message' => array(
+		'onlinestatus-subtitle-offline', // Optional GENDER parameter
+		'onlinestatus-subtitle-online', // Optional GENDER parameter
+	)
+),
+array(
 	'group' => 'ext-openstackmanager',
 	'check' => 'plural',
 	'code' => array( 'fr' ),
