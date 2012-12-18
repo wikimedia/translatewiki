@@ -438,6 +438,7 @@ array(
 	'check' => 'variable',
 	'message' => array(
 		'renameuser-renamed-notice', // Optional GENDER parameter
+		'logentry-renameuser-renameuser-legacier', // Optional GENDER parameter
 	)
 ),
 array(
