@@ -1,0 +1,16 @@
+#!/bin/sh
+# Clone all extension repos that are not yet present in current directory.
+set -e
+
+. /resources/projects/REPOCONF
+
+EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(Gitweb|SelectTag.tag|TranslationNotifcations)")
+
+for EXTENSION in $EXTENSIONS
+do
+	if [ ! -d "$EXTENSION/.git" ]
+	then
+		echo "Adding $EXTENSION"
+		sudo -u betawiki git clone $REPO_MWEXTGIT/$EXTENSION.git $EXTENSION
+	fi
+done
