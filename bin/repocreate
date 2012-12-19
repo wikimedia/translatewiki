@@ -234,21 +234,6 @@ then
 	fi
 	git clone "$REPO_SHAPADO" $PROJECT
 
-elif [ "$PROJECT" = "statusnet" ]
-then
-	if [ -z "$REPO_STATUSNET" ]
-	then echo "Add REPO_STATUSNET to REPOCONF"; exit 1
-	fi
-
-	if [ -z "$REPO_STATUSNET_BRANCH" ]
-	then echo "Add REPO_STATUSNET_BRANCH to REPOCONF"; exit 1
-	fi
-
-	git clone "$REPO_STATUSNET" $PROJECT
-	cd $PROJECT
-	git checkout -q --track origin/${REPO_STATUSNET_BRANCH}
-	cd ..
-
 elif [ "$PROJECT" = "toolserver" ]
 then
 	if [ -z "$REPO_TOOLSERVER" ]
