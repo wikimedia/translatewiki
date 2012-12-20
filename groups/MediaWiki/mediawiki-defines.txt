@@ -68,6 +68,7 @@ ignored=articlefeedbackv5-noteflyover-feature-help-link, articlefeedbackv5-notef
 ignored=articlefeedbackv5-noteflyover-requestoversight-help-link, articlefeedbackv5-noteflyover-resolve-help-link, articlefeedbackv5-noteflyover-show-help-link, articlefeedbackv5-noteflyover-unfeature-help-link
 ignored=articlefeedbackv5-noteflyover-unoversight-help-link, articlefeedbackv5-noteflyover-unrequestoversight-help-link, articlefeedbackv5-noteflyover-unresolve-help-link, articlefeedbackv5-pitch-edit-body
 ignored=articlefeedbackv5-pitch-survey-body, articlefeedbackv5-special-filter-label-after, articlefeedbackv5-special-sort-label-after
+ignored=articlefeedbackv5-cta6-button-link
 
 Assert Edit
 
