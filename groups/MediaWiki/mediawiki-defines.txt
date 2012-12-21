@@ -1305,7 +1305,6 @@ Template Info
 
 Template Sandbox
 aliasfile = TemplateSandbox/TemplateSandbox.alias.php
-ignored = templatesandbox-text
 
 Timed Media Handler
 # Siebrand 201005-13: conflicting magic words with Ogghandler
