@@ -60,6 +60,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 
 			$allowedGroups = array_flip( $allowedGroups );
 
+			$dbr = wfGetDB( DB_SLAVE );
 			$allowed = $currentUser->isAllowed( 'translate-manage' );
 			if ( $allowed && !$par ) {
 				$products = array(
@@ -89,7 +90,6 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 
 				$data = array();
 				$nonlatest = array();
-				$dbr = wfGetDB( DB_SLAVE );
 				$res = $dbr->select( $tables, $fields, $conds, __METHOD__ );
 				foreach ( $res as $row ) {
 					// Strip language code suffix.
