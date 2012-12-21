@@ -142,16 +142,6 @@ elif [ "$PROJECT" = "shapado" ]
 then
 	php "$EXPORTER" --target . --group=shapado* --lang '*' --skip en --threshold 50
 
-elif [ "$PROJECT" = "statusnet" ]
-then
-	cd $PROJECT
-	git pull -q
-	php scripts/update_po_templates.php
-	cd ..
-	php $EXPORTER --target . --group=out-statusnet-core --lang '*' --skip en,qqq $THRESHOLD --ppgettext ./ --no-location $HOURS &
-	php $EXPORTER --target . --group=out-statusnet-plugin* --lang '*' --skip en,qqq $THRESHOLD --ppgettext ./ --no-location $HOURS &
-	wait
-
 elif [ "$PROJECT" = "toolserver" ]
 then
 	php "$EXPORTER" --target . --group=tsint* --lang '*' --skip en

@@ -243,13 +243,6 @@ elif [ "$PROJECT" = "shapado" ]
 then
 	gitupdate "$PROJECT"
 
-elif [ "$PROJECT" = "statusnet" ]
-then
-	cd $PROJECT
-	git checkout -q $REPO_STATUSNET_BRANCH
-	git pull -q
-	cd ..
-
 elif [ "$PROJECT" = "toolserver" ]
 then
 	gitupdate "$PROJECT"

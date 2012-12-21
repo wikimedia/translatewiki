@@ -270,17 +270,16 @@ wfAddNamespace( 1200, 'Voctrain' );
 wfAddNamespace( 1202, 'FreeCol' );
 $wgTranslateGroupFiles[] = "$GROUPS/FreeCol/FreeCol.yaml";
 
+# No longer in use.
 wfAddNamespace( 1204, 'Nocc' );
-#$wgTranslateGroupFiles[] = "$GROUPS/Nocc/Nocc.yaml";
 
 wfAddNamespace( 1206, 'Wikimedia' );
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile.yaml";
 
+# No longer in use.
 wfAddNamespace( 1208, 'StatusNet' );
-$wgTranslateGroupFiles[] = "$GROUPS/StatusNet/StatusNet.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/StatusNet/StatusNet-plugins.yaml";
 
 wfAddNamespace( 1210, 'Mantis' );
 $wgTranslateGroupFiles[] = "$GROUPS/MantisBT/MantisBT.yaml";
@@ -327,7 +326,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikia/WikiaAgg.yaml";
 wfAddNamespace( 1234, 'OpenImages' );
 $wgTranslateGroupFiles[] = "$GROUPS/OpenImages/OpenImages.yaml";
 
-# Not in use.
+# No longer in use.
 wfAddNamespace( 1236, 'Europeana' );
 
 wfAddNamespace( 1238, 'Pywikipedia' );
@@ -347,11 +346,13 @@ $wgTranslateGroupFiles[] = "$GROUPS/Mozilla/MozillaJava.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Mozilla/MozillaDtd.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Mozilla/Mozilla.yaml";
 
+# Not yet in use.
 wfAddNamespace( 1248, 'FrontlineSMS' );
 #$wgTranslateGroupFiles[] = "$GROUPS/FrontlineSMS/FrontlineSMS.yaml";
 
 wfAddNamespace( 1250, 'EtherpadLite' );
 $wgTranslateGroupFiles[] = "$GROUPS/EtherpadLite/EtherpadLite.yaml";
 
+# Not yet in use.
 wfAddNamespace( 1252, 'Vicuna' );
 #$wgTranslateGroupFiles[] = "$GROUPS/Vicuna/Vicuna.yaml";

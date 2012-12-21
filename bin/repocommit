@@ -183,10 +183,6 @@ elif [ "$PROJECT" = "shapado" ]
 then
 	gitcommitNoCheck "$PROJECT"
 
-elif [ "$PROJECT" = "statusnet" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
 elif [ "$PROJECT" = "toolserver" ]
 then
 	gitcommitNoCheck "$PROJECT"
