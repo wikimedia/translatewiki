@@ -140,8 +140,8 @@ PHP
 		$version = $this->conf['common']['releasever'];
 
 		$old = 'HEAD~100';
-		if ( isset( $this->conf['releasever-prev'] ) ) {
-			$old = $this->conf['releasever-prev'];
+		if ( isset( $this->conf['common']['releasever-prev'] ) ) {
+			$old = $this->conf['common']['releasever-prev'];
 		}
 
 		if ( !file_exists( 'notes' ) ) {
@@ -152,7 +152,7 @@ PHP
 			chdir( $this->dir );
 			chdir( "extensions/$ext" );
 
-			$diff = escapeshellarg( "$old..$checkout" );
+			$diff = escapeshellarg( "$old...$checkout" );
 			$target = "{$this->dir}/notes/$version-$ext";
 			$file = escapeshellarg( $target );
 
