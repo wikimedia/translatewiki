@@ -45,6 +45,3 @@ Toolserverstatus
 Wlm
 optional = date-format, province-comarque-joiner
 
-Wlmsurvey
-ignored = 2012-scale-likely-2-text, 2012-scale-likely-3-text, 2012-scale-likely-4-text
-
