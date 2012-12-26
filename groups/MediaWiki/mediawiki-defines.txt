@@ -823,6 +823,7 @@ aliasfile = OpenStackManager/OpenStackManager.alias.php
 optional = openstackmanager-puppetdoclink
 
 Page Images
+ignored = pageimages-blacklist
 
 Page In Cat
 
