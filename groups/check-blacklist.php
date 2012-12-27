@@ -119,6 +119,13 @@ array(
 	)
 ),
 array(
+	'group' => 'ext-articlefeedbackv5',
+	'check' => 'variable',
+	'message' => array(
+		'articlefeedbackv5-activity-item-request', // Optional GENDER parameter
+	)
+),
+array(
 	'group' => 'ext-babel',
 	'check' => 'variable',
 	'message' => array(
