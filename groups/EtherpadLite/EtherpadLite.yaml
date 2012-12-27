@@ -8,6 +8,6 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: IniFFS
-  sourcePattern: %GROUPROOT%/etherpad-lite/src/locales/%CODE%.ini
-  targetPattern: etherpad-lite/src/locales/%CODE%.ini
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/etherpad-lite/src/locales/%CODE%.json
+  targetPattern: etherpad-lite/src/locales/%CODE%.json
