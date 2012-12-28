@@ -828,6 +828,7 @@ ignored = pageimages-blacklist
 Page In Cat
 
 Page Schemas
+aliasfile = PageSchemas/PageSchemas.i18n.alias.php
 descmsg = ps-desc
 
 Page Triage
