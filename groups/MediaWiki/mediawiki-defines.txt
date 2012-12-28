@@ -563,7 +563,7 @@ GraphViz
 Groups Sidebar
 
 Guided Tour
-ignored = guidedtour-custom.css
+optional = guidedtour-custom.css
 
 Hanp
 
