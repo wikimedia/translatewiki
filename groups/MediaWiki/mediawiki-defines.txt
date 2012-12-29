@@ -822,6 +822,9 @@ Open Stack Manager
 aliasfile = OpenStackManager/OpenStackManager.alias.php
 optional = openstackmanager-puppetdoclink
 
+Page Creation Notif
+descmsg = page-creation-notif-desc
+
 Page Images
 ignored = pageimages-blacklist
 
