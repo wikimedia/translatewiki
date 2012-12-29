@@ -822,8 +822,9 @@ Open Stack Manager
 aliasfile = OpenStackManager/OpenStackManager.alias.php
 optional = openstackmanager-puppetdoclink
 
-Page Creation Notif
-descmsg = page-creation-notif-desc
+# .gitreview is missing 2012-12-29 raymond
+#Page Creation Notif
+#descmsg = page-creation-notif-desc
 
 Page Images
 ignored = pageimages-blacklist
