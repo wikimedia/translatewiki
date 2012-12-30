@@ -185,6 +185,10 @@ FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/interwiki.py
   definitionFile: %GROUPROOT%/pywikipedia/interwiki.py
   targetPattern: pywikipedia/interwiki.py
+
+TAGS:
+  ignored:
+    - comma
 ---
 BASIC:
   id: out-pywikipedia-isbn
@@ -284,6 +288,10 @@ FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/template.py
   definitionFile: %GROUPROOT%/pywikipedia/template.py
   targetPattern: pywikipedia/template.py
+
+TAGS:
+  ignored:
+    - comma
 ---
 BASIC:
   id: out-pywikipedia-thirdparty
