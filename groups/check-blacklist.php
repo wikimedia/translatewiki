@@ -233,6 +233,13 @@ array(
 	)
 ),
 array(
+	'group' => 'ext-configure',
+	'check' => 'links',
+	'message' => array(
+		'configure-setting-wgMaxRedirectLinksRetrieved', // Translatable link
+	)
+),
+array(
 	'group' => 'ext-contest',
 	'check' => 'variable',
 	'message' => array(
