@@ -71,6 +71,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 					'Other' => 0
 				);
 				$languages = array();
+				$userLangs = array();
 				$tables = array( 'recentchanges', 'page' );
 				$fields = array(
 					'rc_title',
@@ -125,10 +126,17 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 						}
 
 						$messageData = TranslateUtils::figureMessage( $row->rc_title );
+						// Language totals
 						if( isset(  $languages[$messageData[1]] ) ) {
 							$languages[$messageData[1]]++;
 						} else {
 							$languages[$messageData[1]] = 1;
+						}
+						// Per user per language totals
+						if( isset(  $userLangs[$row->rc_user_text][$messageData[1]] ) ) {
+							$userLangs[$row->rc_user_text][$messageData[1]]++;
+						} else {
+							$userLangs[$row->rc_user_text][$messageData[1]] = 1;
 						}
 					}
 				}
@@ -140,10 +148,18 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 
 				$out = "Per user statistics:\n";
 				foreach ( $data as $user => $count ) {
-					if ( $count < 0 ) continue;
-					$nonl = $nonlatest[$user];
-					$pro = sprintf( '%2.1f%%', $nonl/$count*200 );
-					$out .= "# [[Special:Rally500/$user|$user]] $count ~ $pro\n";
+					if ( $count < 0 ) {
+						continue;
+					}
+
+					$userCounts = $userLangs[$user];
+					$langCounts = array();
+					foreach ( $userCounts as $langCode => $langCount ) {
+						$langCounts[] = "$langCode:$langCount";
+					}
+					$langCounts = '(' . implode( ',', $langCounts ) . ')';
+
+					$out .= "# [[Special:Rally500/$user|$user]] $count $langCounts\n";
 				}
 
 				$output->addWikitext( $out );
