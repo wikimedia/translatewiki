@@ -208,7 +208,20 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 
 			$total = 0;
 			$output->addHtml( "The following pages qualify for user {$user->getName()}: <ul>");
+			$userName = $user->getName();
+
 			foreach ( $res as $_ ) {
+				// This user can only make qualifying edits in "si".
+				if ( $userName == 'පසිඳු කාවින්ද' &&
+					!strrpos( $_->rc_title, 'si', -2 )
+				) {
+					continue;
+				}
+
+				if( $userName == 'Zanatos' ) {
+					continue;
+				}
+
 				$title = preg_replace( '~/[a-z-]+$~i', '', $_->rc_title );
 				$group = TranslateUtils::messageKeyToGroup( $_->rc_namespace, $title );
 				if ( !isset($allowedGroups[$group]) ) {
