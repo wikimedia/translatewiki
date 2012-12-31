@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAADgX//7rQ\u003d",
+        "filename": "SpecialRally.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2012-12-31T16:36:08Z",
+      "side": 1,
+      "message": "if (, \u003d\u003d\u003d",
+      "revId": "88dfb7f038bdb0bf6d8a3b676c9790062135cc61",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
