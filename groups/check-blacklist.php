@@ -211,7 +211,7 @@ array(
 	)
 ),
 array(
-	'group' => 'ext-configure',
+	'group' => 'ext-configure-settings',
 	'check' => 'links',
 	'message' => array(
 		'configure-setting-wgMaxRedirectLinksRetrieved', // Translatable link
