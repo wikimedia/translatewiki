@@ -104,21 +104,6 @@ array(
 	)
 ),
 array(
-	'group' => 'ext-advancedrandom',
-	'check' => 'links',
-	'message' => array(
-		'advancedrandom-desc', // Contains link parts that may need translation
-	)
-),
-array(
-	'group' => 'ext-articleassessmentpilot',
-	'check' => 'links',
-	'message' => array(
-		'articleassessment-results-show', // Contains incomplete wiki link that get rewritten by JavaScript
-		'articleassessment-results-hide', // Contains incomplete wiki link that get rewritten by JavaScript
-	)
-),
-array(
 	'group' => 'ext-articlefeedbackv5',
 	'check' => 'variable',
 	'message' => array(
@@ -144,15 +129,6 @@ array(
 		'babel-4-n', // Optional GENDER parameter
 		'babel-5-n', // Optional GENDER parameter
 		'babel-N-n', // Optional GENDER parameter
-	)
-),
-array(
-	'group' => 'ext-blahtex',
-	'check' => 'balance',
-	'message' => array(
-		'math_MissingOpenBraceAfter', // Contains unbalanced {
-		'math_MissingOpenBraceAtEnd', // Contains unbalanced {
-		'math_MissingOpenBraceBefore', // Contains unbalanced {
 	)
 ),
 array(
@@ -240,15 +216,6 @@ array(
 	)
 ),
 array(
-	'group' => 'ext-contest',
-	'check' => 'variable',
-	'message' => array(
-		'group-contestadmin-member', // Optional GENDER parameter
-		'group-contestparticipant-member', // Optional GENDER parameter
-		'group-contestjudge-member', // Optional GENDER parameter
-	)
-),
-array(
 	'group' => 'ext-contributionseditcount',
 	'check' => 'variable',
 	'message' => array(
@@ -256,25 +223,10 @@ array(
 	)
 ),
 array(
-	'group' => 'ext-deletequeue',
-	'check' => 'variable',
-	'message' => array(
-		'deletequeue-page-prod', // Optional time parameters
-		'deletequeue-page-deletediscuss', // Optional time parameters
-	)
-),
-array(
 	'group' => 'ext-editsubpages',
 	'check' => 'links',
 	'message' => array(
 		'unlockedpages', // Contains links that are translated
-	)
-),
-array(
-	'group' => 'ext-farmer',
-	'check' => 'links',
-	'message' => array(
-		'farmer-confirmsetting-text', // Contains links that are translated
 	)
 ),
 array(
@@ -466,33 +418,11 @@ array(
 	)
 ),
 array(
-	'group' => 'ext-socialprofile-useractivity',
-	'check' => 'variable',
-	'message' => array(
-		'useractivity-edit', // Optional GENDER parameter
-		'useractivity-foe', // Optional GENDER parameter
-		'useractivity-friend', // Optional GENDER parameter
-		'useractivity-gift', // Optional GENDER parameter
-		'useractivity-group-comment', // Optional GENDER parameter
-		'useractivity-group-edit', // Optional GENDER parameter
-		'useractivity-group-friend', // Optional GENDER parameter
-		'useractivity-group-user_message', // Optional GENDER parameter
-		'useractivity-user_message', // Optional GENDER parameter
-	)
-),
-array(
 	'group' => 'ext-survey',
 	'check' => 'variable',
 	'message' => array(
 		'group-surveyadmin-member', // Optional GENDER parameter
 		'group-surveysubmit-member', // Optional GENDER parameter
-	)
-),
-array(
-	'group' => 'ext-socialprofile-usergifts',
-	'check' => 'variable',
-	'message' => array(
-		'g-created-by', // Optional GENDER parameter
 	)
 ),
 array(
