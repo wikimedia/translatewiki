@@ -108,6 +108,7 @@ array(
 	'check' => 'variable',
 	'message' => array(
 		'articlefeedbackv5-activity-item-request', // Optional GENDER parameter
+		'articlefeedbackv5-activity-item-clear-flags', // Optional GENDER parameter
 	)
 ),
 array(
