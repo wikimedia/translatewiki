@@ -187,8 +187,8 @@ FILES:
   targetPattern: pywikipedia/interwiki.py
 
 TAGS:
-  ignored:
-    - comma
+  optional:
+    - interwiki-comma
 ---
 BASIC:
   id: out-pywikipedia-isbn
@@ -290,8 +290,8 @@ FILES:
   targetPattern: pywikipedia/template.py
 
 TAGS:
-  ignored:
-    - comma
+  optional:
+    - template-comma
 ---
 BASIC:
   id: out-pywikipedia-thirdparty
