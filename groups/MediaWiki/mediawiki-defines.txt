@@ -625,6 +625,7 @@ Insider
 
 Invite Signup
 descmsg = is-desc
+aliasfile = InviteSignup/InviteSignup.alias.php
 
 JS Bread Crumbs
 optional = jsbreadcrumbs-separator
@@ -1478,6 +1479,10 @@ ignored = wikieditor-toolbar-help-content-signaturetimestamp-syntax, wikieditor-
 Wiki Forum
 ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforum-max-replies-per-page
 optional = group-forumadmin.css, group-forumadmin.js
+
+Wiki Lexical Data
+file = WikiLexicalData//Wikidata.i18n.php
+descmsg = wikidata-desc
 
 Wiki Love
 optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
