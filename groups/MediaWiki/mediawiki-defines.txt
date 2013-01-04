@@ -1483,6 +1483,7 @@ optional = group-forumadmin.css, group-forumadmin.js
 Wiki Lexical Data
 file = WikiLexicalData//Wikidata.i18n.php
 descmsg = wikidata-desc
+optional = ow_editing_policy_url, ow_URL, prefs-omegawiki
 
 Wiki Love
 optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
