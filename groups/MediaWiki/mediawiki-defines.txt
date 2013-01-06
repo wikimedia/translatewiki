@@ -276,6 +276,8 @@ aliasfile = ContributionTracking/ContributionTracking.alias.php
 Contributors
 aliasfile = Contributors/Contributors.alias.php
 
+Copy To Clipboard
+
 Create Page
 aliasfile = CreatePage/CreatePage.alias.php
 descmsg = cp-desc
