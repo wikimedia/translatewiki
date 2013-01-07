@@ -196,7 +196,8 @@ $wgBabelCategoryNames = array(
 $wgBabelMainCategory = 'User_%code%';
 include( "$IP/extensions/APC/APC.php" );
 include( "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php" );
-include( "$IP/extensions/Validator/Validator.php" ); # Added by Siebrand 2009-11-30
+include( "$IP/extensions/DataValues/DataValues.php" ); # Added by Siebrand 2013-01-07 / Required by Validator.
+include( "$IP/extensions/Validator/Validator.php" ); # Added by Siebrand 2009-11-30 / Required by Maps.
 include( "$IP/extensions/Interwiki/Interwiki.php" ); # Added by Raymond 2009-01-07
 include( "$IP/extensions/Nuke/Nuke.php" ); # Nike 2009-01-12
 include( "$IP/extensions/ReplaceText/ReplaceText.php" ); # Added: Siebrand 2009-04-25.
