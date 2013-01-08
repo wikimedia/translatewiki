@@ -3,6 +3,7 @@ Absentee Landlord
 Abuse Filter
 optional = abusefilter-edit-builder-op-bool-xor
 aliasfile = AbuseFilter/AbuseFilter.alias.php
+ignored = abusefilter-message
 
 # Siebrand / 2012-06-18: Disabled. Extension owner does not have a bugzilla account.
 #Access Control
