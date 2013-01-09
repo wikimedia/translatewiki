@@ -1527,6 +1527,8 @@ ignored = wikibase-api-invalid-contentmodel, wikibase-api-alias-incomplete, wiki
 ignored = wikibase-api-label-or-description, wikibase-api-label-not-found, wikibase-api-description-not-found, wikibase-api-wrong-class
 ignored = wikibase-api-session-failure, wikibase-api-illegal-field, wikibase-api-edit-conflict
 
+Wikibase Solr
+
 Wikihiero
 file = wikihiero/wikihiero.i18n.php
 aliasfile = wikihiero/wikihiero.alias.php
