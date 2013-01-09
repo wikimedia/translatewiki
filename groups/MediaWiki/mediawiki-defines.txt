@@ -833,9 +833,8 @@ Open Stack Manager
 aliasfile = OpenStackManager/OpenStackManager.alias.php
 optional = openstackmanager-puppetdoclink
 
-# Disabled for now: Ib175498d
-#Page Creation Notif
-#descmsg = page-creation-notif-desc
+Page Creation Notif
+descmsg = page-creation-notif-desc
 
 Page Images
 ignored = pageimages-blacklist
