@@ -800,6 +800,8 @@ aliasfile = Nuke/Nuke.alias.php
 Number Format
 descmsg = numberformat_desc
 
+Numbertext
+
 OAI-PMH repository
 id = ext-oai
 file = OAI/OAIRepo.i18n.php
