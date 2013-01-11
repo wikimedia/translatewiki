@@ -764,6 +764,9 @@ My Variables
 
 Namespace Paths
 
+Namespace Relations
+descmsg = nsrels-desc
+
 Narayam
 optional = narayam-help-page
 
