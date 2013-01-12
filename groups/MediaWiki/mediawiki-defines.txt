@@ -1400,6 +1400,10 @@ file = Translate/PageTranslation.i18n.php
 descmsg = tpt-desc
 optional = tpt-languages-separator
 
+Translate - Search
+id = ext-translate-search
+file = Translate/TranslateSearch.i18n.php
+
 Translate Svg
 aliasfile = TranslateSvg/TranslateSvg.alias.php
 optional = translate-svg-filepage-item
