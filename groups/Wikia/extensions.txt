@@ -73,9 +73,10 @@ Content Feeds
 Create New Wiki
 ignored = cnw-name-wiki-language, cnw-name-wiki-domain
 
-Create Page
-file = CreatePage/CreatePage.i18n.php
-ignored = createpage-newpagelayout
+# Siebrand / 2013-01-13 / Disabled because i18n file is broken a second time by same dev in 20ff78cdbd013fd76f464d92d1e229572639d5ac.
+#Create Page
+#file = CreatePage/CreatePage.i18n.php
+#ignored = createpage-newpagelayout
 
 Edit Account
 file = EditAccount/SpecialEditAccount.i18n.php
