@@ -378,8 +378,6 @@ $wgResourceLoaderExperimentalAsyncLoading = true; // Nike 2012-01-11
 
 $wgDeprecationReleaseLimit = '1.18';
 
-$wgMaxShellWallClockTime = 300; // 5 real time minutes; Raymond 2013-01-14
-
 $wgFooterIcons['poweredby']['netcup'] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
 
 # Dynamic code starts here
