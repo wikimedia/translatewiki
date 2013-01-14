@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAADhH//+aA\u003d",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-01-14T19:48:15Z",
+      "side": 1,
+      "message": "Prefer to do this on à per script basis",
+      "revId": "f7aa823187c1388546ae52ecdd6e363542a7a0ca",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
