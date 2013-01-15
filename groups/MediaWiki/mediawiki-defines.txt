@@ -557,9 +557,13 @@ Global User Groups
 Google AdSense
 ignored = googleadsense
 
+google Analytics
+
 Google Custom Wiki Search
 descmsg = gcws-desc
 aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
+
+Google Maps
 
 Google News Sitemap
 ignored = googlenewssitemap_categorymap
