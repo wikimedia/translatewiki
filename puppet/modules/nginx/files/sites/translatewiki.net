@@ -27,7 +27,7 @@ server {
 	}
 
 
-	location ~ ^/w/(logs|cache|mw-config|includes|maintenance|languages|tests|docs)/ {
+	location ~ ^/w/(logs|cache|mw-config|includes|maintenance|languages|docs)/ {
 		deny all;
 	}
 
