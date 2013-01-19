@@ -1422,6 +1422,8 @@ Trusted XFF
 Tweet A New
 ignored = tweetanew-accesskey
 
+Twitter Cards
+
 Two Factor Authentication
 file = TwoFactorAuthentication/TwoFactorAuth.i18n.php
 descmsg = twofactorauth-desc
