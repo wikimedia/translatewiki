@@ -1610,6 +1610,8 @@ Wikimedia Temporary Messages
 file = WikimediaMessages/WikimediaTemporaryMessages.i18n.php
 prefix = temporary- | wikimediamessages-desc
 
+Wikivote Maps Yandex
+
 Windows Azure SDK
 
 Windows Azure Storage
