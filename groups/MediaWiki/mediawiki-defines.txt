@@ -9,6 +9,8 @@ aliasfile = AbuseFilter/AbuseFilter.alias.php
 #ignored=accesscontrol-info-user, accesscontrol-info-anonymous, accesscontrol-info-deny, accesscontrol-edit-anonymous
 #ignored=accesscontrol-edit-users
 
+# Active Abstract : No real extension. Plugin for dumpBackup.php
+
 Ad Manager
 
 Add This
@@ -324,6 +326,8 @@ aliasfile = DeleteBatch/DeleteBatch.alias.php
 
 Description2
 
+# Device Map Log Capture : Proof of Concept only. Extension page on mw.o does not exist
+
 Diagnosis
 aliasfile = Diagnosis/Diagnosis.i18n.alias.php
 
@@ -379,8 +383,6 @@ Download Counter
 
 DPL forum
 
-# DSMW: Disabled per Jeroen: Can you remove the DSMW extension from translatewiki? It's broken beyond hope, so no point in translators wasting their time on it. 2010-12-06
-
 Drafts
 aliasfile = Drafts/Drafts.alias.php
 ignored = accesskey-drafts-save
@@ -432,6 +434,8 @@ Extension Distributor
 
 External Data
 magicfile = ExternalData/ExternalData.i18n.magic.php
+
+# Facebook Open Graph : Moved to GitHub
 
 Featured Feeds
 descmsg = ffeed-desc
@@ -1343,6 +1347,8 @@ Template Info
 Template Sandbox
 aliasfile = TemplateSandbox/TemplateSandbox.alias.php
 
+# Thumb Parser : Moved to GitHub
+
 Timed Media Handler
 # Siebrand 201005-13: conflicting magic words with Ogghandler
 #magicfile = TimedMediaHandler/TimedMediaHandler.i18n.magic.php
@@ -1595,7 +1601,7 @@ file = WikimediaMessages/WikimediaLabsMessages.i18n.php
 Wikimedia License Texts
 file = WikimediaMessages/WikimediaLicenseTexts.i18n.php
 optional = wm-license-cecill-wiki-link, wm-license-cecill-full-link, wm-license-fal-wiki-link, wm-license-fal-full-link
-optional = wm-license-fsf-wiki-link, wm-license-free-software-wiki-link, wm-license-gfdl-wiki-link, wm-license-gpl-wiki-link
+opmtional = wm-license-fsf-wiki-link, wm-license-free-software-wiki-link, wm-license-gfdl-wiki-link, wm-license-gpl-wiki-link
 optional = wm-license-information-permission-reusing-link, wm-license-lgpl-wiki-link, wm-license-licensing-update-wiki-link
 optional = wm-license-pd-usgov-wiki-link, wm-license-pd-usgov-work-wiki-link, wm-license-pd-usgov-fema-wiki-link
 optional = wm-license-pd-usgov-military-armed-forces-wiki-link, wm-license-pd-usgov-military-dod-wiki-link
