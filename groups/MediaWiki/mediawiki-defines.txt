@@ -346,6 +346,11 @@ Dismissable SiteNotice
 descmsg = sitenotice-desc
 ignored = sitenotice_id
 
+Donation Interface - Adyen Gateway
+id = ext-di-ayden
+file = DonationInterface/adyen_gateway/adyen_gateway.i18n.php
+descmsg = adyen_gateway-desc
+
 Donation Interface - Amazon Gateway
 file = DonationInterface/amazon_gateway/amazon_gateway.i18n.php
 id = ext-di-ag
