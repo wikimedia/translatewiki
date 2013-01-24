@@ -979,6 +979,8 @@ PHP Excel
 
 Poem
 
+Polyglot
+
 Pool Counter
 file = PoolCounter/PoolCounterClient.i18n.php
 
@@ -1101,6 +1103,8 @@ Score
 Scribunto
 magicfile = Scribunto/Scribunto.magic.php
 optional = scribunto-lua-backtrace-line
+
+Search Extra NS
 
 Secure Passwords
 
