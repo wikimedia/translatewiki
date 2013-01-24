@@ -979,7 +979,7 @@ PHP Excel
 
 Poem
 
-Polyglot
+# Polyglot : disable for the moment
 
 Pool Counter
 file = PoolCounter/PoolCounterClient.i18n.php
