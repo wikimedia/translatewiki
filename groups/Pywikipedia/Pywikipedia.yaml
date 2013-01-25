@@ -312,6 +312,15 @@ FILES:
   targetPattern: pywikipedia/unlink.py
 ---
 BASIC:
+  id: out-pywikipedia-weblinkchecker
+  label: Pywikipedia Web Link Checker
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikipedia/weblinkchecker.py
+  definitionFile: %GROUPROOT%/pywikipedia/weblinkchecker.py
+  targetPattern: pywikipedia/weblinkchecker.py
+---
+BASIC:
   id: out-pywikipedia-welcome
   label: Pywikipedia Welcome
 
