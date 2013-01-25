@@ -1201,6 +1201,11 @@ Semantic Watchlist
 aliasfile = SemanticWatchlist/SemanticWatchlist.i18n.alias.php
 optional = group-swladmins.css, group-swladmins.js
 
+Semantic Web Browser
+descmsg = swb_desc
+aliasfile = SemanticWebBrowser/SemanticWebBrowser.alias.php
+optional = swb_browse_more
+
 Shared Css Js
 
 Short Url
