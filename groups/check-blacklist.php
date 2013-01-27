@@ -57,6 +57,7 @@ array(
 		'logentry-move-move-noredirect', // Optional GENDER parameter
 		'logentry-move-move redir', // Optional GENDER parameter
 		'logentry-move-move redir-noredirect', // Optional GENDER parameter
+		'logentry-newusers-byemail', // Optional GENDER parameters
 		'logentry-newusers-create2', // Optional GENDER parameters
 		'logentry-rights-autopromote', // Optional GENDER parameters
 		'logentry-rights-rights', // Optional GENDER parameters
