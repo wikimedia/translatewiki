@@ -582,7 +582,7 @@ GraphViz
 Groups Sidebar
 
 Guided Tour
-optional = guidedtour-custom.css, guidedtour-next
+optional = guidedtour-custom.css
 ignored = guidedtour-tour-gettingstarted-start-title, guidedtour-tour-gettingstarted-start-description
 ignored = guidedtour-tour-gettingstarted-click-edit-title, guidedtour-tour-gettingstarted-click-edit-description
 ignored = guidedtour-tour-gettingstarted-click-preview-title, guidedtour-tour-gettingstarted-click-preview-description
