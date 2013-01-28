@@ -94,14 +94,18 @@ function setupMediaWiki( &$cc ) {
 
 	$changed = array(
 		'1.20' => array(
-			'cannotundelete', 'logouttext', 'enotif_body',
-		), // Checked up to 502b0a22ebf969fb897b66045551bd31c499af46 / 2012-11-28
+			'cannotundelete', 'logouttext', 'enotif_body', 'createaccountmail',
+			'username', 'uid', 'prefs-memberingroups', 'linksearch-text',
+			'contributions',
+		), // Checked up to b65893755f580f8490e77d4ec8206e9e70ad8381 / 2013-01-28
 		'1.19' => array(
 			'version-poweredby-others',
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
 			// From 1.20.
-			'cannotundelete', 'logouttext', 'enotif_body',
-		), // Checked up to 502b0a22ebf969fb897b66045551bd31c499af46 / 2012-11-28
+			'cannotundelete', 'logouttext', 'enotif_body', 'createaccountmail',
+			'username', 'uid', 'prefs-memberingroups', 'linksearch-text',
+			'contributions',
+		), // Checked up to b65893755f580f8490e77d4ec8206e9e70ad8381 / 2013-01-28
 	);
 
 	$branches = array_keys( $changed );
