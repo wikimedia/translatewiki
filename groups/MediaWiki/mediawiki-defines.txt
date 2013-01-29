@@ -1649,4 +1649,4 @@ optional = zero-rated-mobile-access-banner-carrier-name-orange-cameroon, zero-ra
 optional = zero-rated-mobile-access-banner-carrier-name-wikimedia, zero-rated-mobile-access-banner-carrier-name-dtac
 optional = zero-rated-mobile-access-banner-carrier-name-dialog-sri-lanka, zero-rated-mobile-access-banner-carrier-name-orange-congo
 optional = zero-rated-mobile-access-banner-carrier-name-orange-botswana, zero-rated-mobile-access-banner-carrier-name-hello-cambodia
-optional = zero-rated-mobile-access-banner-carrier-name-celcom-malaysia
+optional = zero-rated-mobile-access-banner-carrier-name-celcom-malaysia, zero-rated-mobile-access-banner-carrier-name-xl-axiata
