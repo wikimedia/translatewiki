@@ -758,6 +758,8 @@ ignored = moodbar-log-reason, moodbar-delete-intro
 
 Mpdf
 
+Multi Maps
+
 MwEmbed Support
 descmsg = mwembed-desc
 file = MwEmbedSupport/MwEmbedSupport.i18n.php
