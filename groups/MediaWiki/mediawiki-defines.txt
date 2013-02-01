@@ -1360,22 +1360,21 @@ aliasfile = TemplateSandbox/TemplateSandbox.alias.php
 
 # Thumb Parser : Moved to GitHub
 
-#Timed Media Handler
+Timed Media Handler
 # Siebrand 201005-13: conflicting magic words with Ogghandler
 #magicfile = TimedMediaHandler/TimedMediaHandler.i18n.magic.php
-#aliasfile = TimedMediaHandler/TimedMediaHandler.i18n.alias.php
-#optional = timedmedia-ogg, timedmedia-webm
-#optional = timedmedia-derivative-160p.ogv, timedmedia-derivative-360p.ogv
-#optional = timedmedia-derivative-480p.ogv, timedmedia-derivative-720p.ogv
-#optional = timedmedia-derivative-480p.webm, timedmedia-derivative-720p.webm
-#optional = timedmedia-derivative-160p.webm, timedmedia-derivative-360p.webm
-#optional = timedmedia-derivative-320p.mp4, timedmedia-derivative-480p.mp4
-#optional = timedmedia-derivative-720p.mp4
-#optional = timedmedia-derivative-ogg, timedmedia-derivative-desc-ogg
-#optional = timedmedia-derivative-opus, timedmedia-derivative-desc-opus
-#optional = timedmedia-derivative-mp3, timedmedia-derivative-desc-mp3
-#optional = timedmedia-derivative-m4a, timedmedia-derivative-desc-m4a
-
+aliasfile = TimedMediaHandler/TimedMediaHandler.i18n.alias.php
+optional = timedmedia-ogg, timedmedia-webm
+optional = timedmedia-derivative-160p.ogv, timedmedia-derivative-360p.ogv
+optional = timedmedia-derivative-480p.ogv, timedmedia-derivative-720p.ogv
+optional = timedmedia-derivative-480p.webm, timedmedia-derivative-720p.webm
+optional = timedmedia-derivative-160p.webm, timedmedia-derivative-360p.webm
+optional = timedmedia-derivative-320p.mp4, timedmedia-derivative-480p.mp4
+optional = timedmedia-derivative-720p.mp4
+optional = timedmedia-derivative-ogg, timedmedia-derivative-desc-ogg
+optional = timedmedia-derivative-opus, timedmedia-derivative-desc-opus
+optional = timedmedia-derivative-mp3, timedmedia-derivative-desc-mp3
+optional = timedmedia-derivative-m4a, timedmedia-derivative-desc-m4a
 descmsg = timedmedia-desc
 
 Timed Media Handler - Timed Text
