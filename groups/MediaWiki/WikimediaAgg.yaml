@@ -70,6 +70,7 @@ GROUPS:
   - ext-oai
   - ext-opensearchxml
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
+  - ext-pageimages # 2012 on all wikis
   - ext-poem
   - ext-postedit # change-id: f462cfdb6df56cb2e0ab3b5c94cd32073516989e
   - ext-proofreadpage # Wikisource
