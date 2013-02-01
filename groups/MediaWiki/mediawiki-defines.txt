@@ -1371,6 +1371,11 @@ optional = timedmedia-derivative-480p.webm, timedmedia-derivative-720p.webm
 optional = timedmedia-derivative-160p.webm, timedmedia-derivative-360p.webm
 optional = timedmedia-derivative-320p.mp4, timedmedia-derivative-480p.mp4
 optional = timedmedia-derivative-720p.mp4
+optional = timedmedia-derivative-ogg, timedmedia-derivative-desc-ogg
+optional = timedmedia-derivative-opus, timedmedia-derivative-desc-opus
+optional = timedmedia-derivative-mp3, timedmedia-derivative-desc-mp3
+optional = timedmedia-derivative-m4a, timedmedia-derivative-desc-m4a
+
 descmsg = timedmedia-desc
 
 Timed Media Handler - Timed Text
