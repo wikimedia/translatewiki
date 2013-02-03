@@ -81,6 +81,7 @@ GROUPS:
   - ext-rss # 2010-11-25: Wikimediafoundation.org
   - ext-score # Change id: 1215ffffe5924e93508108d4e7ee0da0347408aa for test2wiki
   - ext-scribunto # Change-Id: e4e8857a55b0a89707525ecdd9dff54a4cc02f6d
+  - ext-searchextrans # Change-ID: f8cd2d6eb9c20db92e39b038cc8476f311daeda5
   - ext-shorturl # r108172
   - ext-solarium # Change id: 1eddeb41816e3e3e3a2edf7fdcaeeeab38d76226
   - ext-skinperpage # Wikimediafoundation.org
