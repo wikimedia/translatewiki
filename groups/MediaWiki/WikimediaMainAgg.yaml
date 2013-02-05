@@ -29,7 +29,6 @@ GROUPS:
   - ext-intersection
   - ext-mobilefrontend # r93435
   - ext-newusermessage
-  - ext-ogghandler
   - ext-parserfunctions
   - ext-pdfhandler
   - ext-poolcounter # 2011-03-18 on all projects
@@ -39,6 +38,7 @@ GROUPS:
   - ext-simpleantispam
   - ext-sitematrix
   - ext-spamblacklist
+  - ext-timedmediahandler
   - ext-timeline
   - ext-titleblacklist
   - ext-torblock
