@@ -9,5 +9,3 @@ BASIC:
 
 GROUPS:
   - ext-semantic*
-  - ext-rdfio
-  - ext-metavidwiki
