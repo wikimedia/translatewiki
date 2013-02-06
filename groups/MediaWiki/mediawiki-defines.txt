@@ -1357,6 +1357,7 @@ Template Info
 
 Template Sandbox
 aliasfile = TemplateSandbox/TemplateSandbox.alias.php
+ignored = templatesandbox-editform-text, templatesandbox-editform-helptext
 
 # Thumb Parser : Moved to GitHub
 
