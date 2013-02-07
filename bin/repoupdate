@@ -21,7 +21,11 @@ gitupdate() {
 	cd ..
 }
 
-if [ "$PROJECT" = "eol" ]
+if [ "$PROJECT" = "commons-android" ]
+then
+	gitupdate "$PROJECT"
+
+elif [ "$PROJECT" = "eol" ]
 then
 	gitupdate "$PROJECT"
 

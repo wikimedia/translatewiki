@@ -127,3 +127,56 @@ FILES:
   header: |
     # This file is distributed under the same license as the Wiktionary Mobile package.
     #
+
+---
+BASIC:
+  icon: wiki://File:Commons-icon.svg
+  id: out-wikimedia-mobile-commons-android-0-all
+  label: Commons Mobile App
+  meta: yes
+  class: AggregateMessageGroup
+
+GROUPS:
+  - out-wikimedia-mobile-commons-android-*
+
+---
+BASIC:
+  icon: wiki://File:Commons-icon.svg
+  id: out-wikimedia-mobile-commons-android-strings
+  label: Commons Android Mobile (main)
+  description: "I'm in beta! <!--{{int:translate-group-desc-wikimedia-mobile-commons}}-->"
+
+MANGLER:
+  class: StringMatcher
+  prefix: commons-android-strings-
+  patterns:
+    - "*"
+
+FILES:
+  class: AndroidXmlFFS
+  sourcePattern: %GROUPROOT%/android-commons/commons/res/values-%CODE%/strings.xml
+  definitionFile: %GROUPROOT%/android-commons/commons/res/values/strings.xml
+  targetPattern: android-commons/commons/res/values-%CODE%/strings.xml
+  codeMap:
+    qqq: qq
+
+---
+BASIC:
+  icon: wiki://File:Commons-icon.svg
+  id: out-wikimedia-mobile-commons-android-errors
+  label: Commons Android Mobile (errors)
+  description: "I'm in beta! <!--{{int:translate-group-desc-wikimedia-mobile-commons}}-->"
+
+MANGLER:
+  class: StringMatcher
+  prefix: commons-android-error-
+  patterns:
+    - "*"
+
+FILES:
+  class: AndroidXmlFFS
+  sourcePattern: %GROUPROOT%/android-commons/commons/res/values-%CODE%/error.xml
+  definitionFile: %GROUPROOT%/android-commons/commons/res/values/error.xml
+  targetPattern: android-commons/commons/res/values-%CODE%/error.xml
+  codeMap:
+    qqq: qq
