@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAADi3//+3Y\u003d",
+        "filename": "REPOCONF",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-02-07T17:43:32Z",
+      "side": 1,
+      "message": "Inconsistent with andoid-commons in repo* script. Please make consistent. I would propose ANDROIDCOMMONS here.",
+      "revId": "64f7f0596782dc9565b3bb0fd4742b22092bb7a9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAADi3//+2k\u003d",
+        "filename": "groups/Wikimedia/WikimediaMobile.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-02-07T17:43:32Z",
+      "side": 1,
+      "message": "Should be Wikimedia ...",
+      "revId": "64f7f0596782dc9565b3bb0fd4742b22092bb7a9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAADi3//+2U\u003d",
+        "filename": "groups/Wikimedia/WikimediaMobile.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-02-07T17:43:32Z",
+      "side": 1,
+      "message": "There will be an iOS app with the same functionality. It is probably best to anticipate that in the group name with something like -android in the group ID. Also needs to be somewhere in the group names. These changes will prevent having to change IDs, labels or descriptions soon.",
+      "revId": "64f7f0596782dc9565b3bb0fd4742b22092bb7a9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
