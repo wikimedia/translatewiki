@@ -500,6 +500,14 @@ array(
 	)
 ),
 array(
+	'group' => 'ext-wikibase-repo',
+	'check' => 'links',
+	'message' => array(
+		'wikibase-newproperty-summary', // Contains links that are translated
+		'wikibase-createitem-summary', // Contains links that are translated
+	)
+),
+array(
 	'group' => 'ext-wikiforum',
 	'check' => 'variable',
 	'message' => array(
