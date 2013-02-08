@@ -174,8 +174,9 @@ PHP
 #---
 # Below are logs and changes from previous release
 # (or latest 100 changes if not available) for help
-TEXT;
 
+
+TEXT;
 
 			$content = $header . $content;
 			file_put_contents( $target, $content );
