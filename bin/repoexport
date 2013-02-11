@@ -15,7 +15,7 @@ SKIPLANGS="test, be-x-old, crh, dk, en, fiu-vro, gan, got, hif, kbd, kk, kk-cn, 
 THRESHOLD="--threshold 35"
 HOURS="--hours 200" # Somewhat over week
 
-if [ "$PROJECT" = "commons-android" ]
+if [ "$PROJECT" = "android-commons" ]
 then
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-android* --lang '*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-android* --lang qqq

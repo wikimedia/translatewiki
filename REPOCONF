@@ -5,7 +5,7 @@ REPO_MEDIAWIKI=https://gerrit.wikimedia.org/r/p//mediawiki/core.git
 REPO_MEDIAWIKI_BRANCHES="master REL1_20 REL1_19"
 REPO_MWEXTGIT=https://gerrit.wikimedia.org/r/p/mediawiki/extensions
 
-REPO_WIKIMEDIACOMMONSANDROID=git://github.com/wikimedia/android-commons.git
+REPO_ANDROIDCOMMONS=git://github.com/wikimedia/android-commons.git
 REPO_EOL=git://github.com/EOL/eol.git
 REPO_ETHERPADLITE=git://github.com/ether/etherpad-lite.git
 REPO_FREECOL=https://freecol.svn.sourceforge.net/svnroot/freecol/freecol/trunk/data/strings

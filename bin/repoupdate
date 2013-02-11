@@ -21,7 +21,7 @@ gitupdate() {
 	cd ..
 }
 
-if [ "$PROJECT" = "commons-android" ]
+if [ "$PROJECT" = "android-commons" ]
 then
 	gitupdate "$PROJECT"
 
