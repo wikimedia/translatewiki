@@ -333,6 +333,11 @@ $wgWikiEditorModules = array(
 include( "$IP/extensions/UserOptionStats/UserOptionStats.php" );
 
 require( "$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector.php" );
+$wgULSGeoService = false;
+$wgHooks['BeforePageDisplay'][] = function( &$out ) {
+	$out->addScript( '<script src="//bits.wikimedia.org/geoiplookup"></script>' );
+	return true;
+};
 
 $wgUseExternalEditor = false;
 $wgHiddenPrefs[] = 'stubthreshold';
