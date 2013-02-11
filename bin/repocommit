@@ -29,7 +29,7 @@ gitcommitNoCheck() {
 	cd ..
 }
 
-if [ "$PROJECT" = "android-common" ]
+if [ "$PROJECT" = "commons-android" ]
 then
 	gitcommitNoCheck "$PROJECT"
 

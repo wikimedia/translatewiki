@@ -154,9 +154,9 @@ MANGLER:
 
 FILES:
   class: AndroidXmlFFS
-  sourcePattern: %GROUPROOT%/android-commons/commons/res/values-%CODE%/strings.xml
-  definitionFile: %GROUPROOT%/android-commons/commons/res/values/strings.xml
-  targetPattern: android-commons/commons/res/values-%CODE%/strings.xml
+  sourcePattern: %GROUPROOT%/commons-android/commons/res/values-%CODE%/strings.xml
+  definitionFile: %GROUPROOT%/commons-android/commons/res/values/strings.xml
+  targetPattern: commons-android/commons/res/values-%CODE%/strings.xml
   codeMap:
     qqq: qq
 
@@ -175,8 +175,8 @@ MANGLER:
 
 FILES:
   class: AndroidXmlFFS
-  sourcePattern: %GROUPROOT%/android-commons/commons/res/values-%CODE%/error.xml
-  definitionFile: %GROUPROOT%/android-commons/commons/res/values/error.xml
-  targetPattern: android-commons/commons/res/values-%CODE%/error.xml
+  sourcePattern: %GROUPROOT%/commons-android/commons/res/values-%CODE%/error.xml
+  definitionFile: %GROUPROOT%/commons-android/commons/res/values/error.xml
+  targetPattern: commons-android/commons/res/values-%CODE%/error.xml
   codeMap:
     qqq: qq

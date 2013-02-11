@@ -8,6 +8,7 @@ umask 0002
 WIKI=/www/translatewiki.net/w
 
 for PROJECT in \
+commons-android \
 eol \
 etherpad-lite \
 freecol \
