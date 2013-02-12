@@ -32,6 +32,7 @@ TEMPLATE:
 BASIC:
   id: out-fuel-0-all
   label: FUEL
+  meta: yes
   class: AggregateMessageGroup
 
 GROUPS:
