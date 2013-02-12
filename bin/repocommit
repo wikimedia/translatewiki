@@ -54,7 +54,6 @@ elif [ "$PROJECT" = "frontlinesms" ]
 then
 	gitcommit "$PROJECT"
 
-
 elif [ "$PROJECT" = "fudforum" ]
 then
 	cd $PROJECT
@@ -66,6 +65,10 @@ then
 	done
 	svn commit --message "$COMMITMSG"
 	cd ..
+
+elif [ "$PROJECT" = "fuel" ]
+then
+	gitcommit "$PROJECT"
 
 elif [ "$PROJECT" = "ihris" ]
 then

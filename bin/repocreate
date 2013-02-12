@@ -51,6 +51,13 @@ then
 	fi
 	svn checkout "$REPO_FREECOL" $PROJECT
 
+elif [ "$PROJECT" = "fuel" ]
+then
+	if [ -z "$REPO_FUEL" ]
+	then echo "Add REPO_FUEL to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_FUEL" $PROJECT
+
 elif [ "$PROJECT" = "ihris" ]
 then
 		mkdir $PROJECT

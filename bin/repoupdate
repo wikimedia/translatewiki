@@ -45,6 +45,10 @@ elif [ "$PROJECT" = "fudforum" ]
 then
 	svn up $PROJECT
 
+elif [ "$PROJECT" = "fuel" ]
+then
+	gitupdate "$PROJECT"
+
 elif [ "$PROJECT" = "ihris" ]
 then
 	cd $PROJECT

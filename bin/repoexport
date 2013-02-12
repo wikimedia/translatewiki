@@ -42,6 +42,10 @@ elif [ "$PROJECT" = "fudforum" ]
 then
 	php "$EXPORTER" --target . --group=out-fudforum --lang '*' --skip en $THRESHOLD
 
+elif [ "$PROJECT" = "fuel" ]
+then
+	php "$EXPORTER" --target . --group=out-fuel* --lang '*' --skip en,qqq $THRESHOLD
+
 elif [ "$PROJECT" = "ihris" ]
 then
 	php "$EXPORTER" --target . --group=out-ihris* --lang='*' --skip en,qqq $THRESHOLD --ppgettext=/resources/projects
