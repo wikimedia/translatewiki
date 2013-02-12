@@ -1,0 +1,71 @@
+---
+TEMPLATE:
+  BASIC:
+    description: "Beta. Unicorns. Bunnies."
+    namespace: NS_FUEL
+    class: FileBasedMessageGroup
+
+  FILES:
+    class: GettextFFS
+    codemap:
+      zh-hant: zh-TW
+      zh-hans: zh-CN
+
+  BLACKLIST:
+    - as
+    - gu
+    - hi
+    - kn
+    - ml
+    - mr
+    - or
+    - pa
+    - ta
+    - te
+    - hne
+    - mai
+    - mag
+    - zh-tw
+    - zh-cn
+
+---
+BASIC:
+  id: out-fuel-0-all
+  label: FUEL
+  class: AggregateMessageGroup
+
+GROUPS:
+  - out-fuel-*
+
+---
+BASIC:
+  id: out-fuel-desktop
+  label: FUEL (desktop)
+
+FILES:
+  class: GettextFFS
+  sourcePattern: %GROUPROOT%/%CODE%/desktop/translatewiki.net.po
+  definitionFile: %GROUPROOT%/en/deskop/desktop.pot
+  targetPattern: %CODE%/deskop/translatewiki.net.po
+
+---
+BASIC:
+  id: out-fuel-mobile
+  label: FUEL (mobile)
+
+FILES:
+  class: GettextFFS
+  sourcePattern: %GROUPROOT%/%CODE%/mobile/translatewiki.net.po
+  definitionFile: %GROUPROOT%/en/mobile/mobile.pot
+  targetPattern: %CODE%/mobile/translatewiki.net.po
+
+---
+BASIC:
+  id: out-fuel-web
+  label: FUEL (web)
+
+FILES:
+  class: GettextFFS
+  sourcePattern: %GROUPROOT%/%CODE%/web/translatewiki.net.po
+  definitionFile: %GROUPROOT%/en/web/web.pot
+  targetPattern: %CODE%/web/translatewiki.net.po
