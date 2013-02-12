@@ -43,8 +43,8 @@ BASIC:
 FILES:
   class: GettextFFS
   sourcePattern: %GROUPROOT%/fuel/%CODE%/desktop/translatewiki.net.po
-  definitionFile: %GROUPROOT%/fuel/en/deskop/desktop.pot
-  targetPattern: fuel/%CODE%/deskop/translatewiki.net.po
+  definitionFile: %GROUPROOT%/fuel/en/desktop/desktop.pot
+  targetPattern: fuel/%CODE%/desktop/translatewiki.net.po
 
 ---
 BASIC:
