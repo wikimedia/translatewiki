@@ -7,24 +7,26 @@ TEMPLATE:
 
   FILES:
     class: GettextFFS
+    keyAlgorithm: simple
     codemap:
       zh-hant: zh-TW
       zh-hans: zh-CN
 
-  BLACKLIST:
-    - as
-    - gu
-    - hi
-    - kn
-    - ml
-    - mr
-    - or
-    - pa
-    - ta
-    - te
-    - hne
-    - mai
-    - mag
+  LANGUAGES:
+    blacklist:
+      - as
+      - gu
+      - hi
+      - kn
+      - ml
+      - mr
+      - or
+      - pa
+      - ta
+      - te
+      - hne
+      - mai
+      - mag
 
 ---
 BASIC:
@@ -46,6 +48,11 @@ FILES:
   definitionFile: %GROUPROOT%/fuel/en/desktop/desktop.pot
   targetPattern: fuel/%CODE%/desktop/translatewiki.net.po
 
+MANGLER:
+  class: StringMatcher
+  patterns: *
+  prefix: desktop-
+
 ---
 BASIC:
   id: out-fuel-mobile
@@ -57,6 +64,11 @@ FILES:
   definitionFile: %GROUPROOT%/fuel/en/mobile/mobile.pot
   targetPattern: fuel/%CODE%/mobile/translatewiki.net.po
 
+MANGLER:
+  class: StringMatcher
+  patterns: *
+  prefix: mobile-
+
 ---
 BASIC:
   id: out-fuel-web
@@ -67,3 +79,8 @@ FILES:
   sourcePattern: %GROUPROOT%/fuel/%CODE%/web/translatewiki.net.po
   definitionFile: %GROUPROOT%/fuel/en/web/web.pot
   targetPattern: %CODE%/fuel/web/translatewiki.net.po
+
+MANGLER:
+  class: StringMatcher
+  patterns: *
+  prefix: web-
