@@ -25,8 +25,6 @@ TEMPLATE:
     - hne
     - mai
     - mag
-    - zh-tw
-    - zh-cn
 
 ---
 BASIC:
@@ -44,9 +42,9 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  sourcePattern: %GROUPROOT%/%CODE%/desktop/translatewiki.net.po
-  definitionFile: %GROUPROOT%/en/deskop/desktop.pot
-  targetPattern: %CODE%/deskop/translatewiki.net.po
+  sourcePattern: %GROUPROOT%/fuel/%CODE%/desktop/translatewiki.net.po
+  definitionFile: %GROUPROOT%/fuel/en/deskop/desktop.pot
+  targetPattern: fuel/%CODE%/deskop/translatewiki.net.po
 
 ---
 BASIC:
@@ -55,9 +53,9 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  sourcePattern: %GROUPROOT%/%CODE%/mobile/translatewiki.net.po
-  definitionFile: %GROUPROOT%/en/mobile/mobile.pot
-  targetPattern: %CODE%/mobile/translatewiki.net.po
+  sourcePattern: %GROUPROOT%/fuel/%CODE%/mobile/translatewiki.net.po
+  definitionFile: %GROUPROOT%/fuel/en/mobile/mobile.pot
+  targetPattern: fuel/%CODE%/mobile/translatewiki.net.po
 
 ---
 BASIC:
@@ -66,6 +64,6 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  sourcePattern: %GROUPROOT%/%CODE%/web/translatewiki.net.po
-  definitionFile: %GROUPROOT%/en/web/web.pot
-  targetPattern: %CODE%/web/translatewiki.net.po
+  sourcePattern: %GROUPROOT%/fuel/%CODE%/web/translatewiki.net.po
+  definitionFile: %GROUPROOT%/fuel/en/web/web.pot
+  targetPattern: %CODE%/fuel/web/translatewiki.net.po
