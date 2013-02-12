@@ -72,6 +72,8 @@ ignored=articlefeedbackv5-noteflyover-unoversight-help-link, articlefeedbackv5-n
 ignored=articlefeedbackv5-pitch-survey-body, articlefeedbackv5-special-filter-label-after, articlefeedbackv5-special-sort-label-after
 ignored=articlefeedbackv5-cta6-button-link
 
+Ask
+
 Assert Edit
 
 Author Protect
