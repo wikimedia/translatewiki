@@ -1,6 +1,5 @@
 TEMPLATE:
   BASIC:
-    icon: wiki://WikipediaMobile-icon.png
     description: "{{int:translate-group-desc-wikimedia-mobile}}"
     namespace: NS_WIKIMEDIA
     class: FileBasedMessageGroup
@@ -18,10 +17,15 @@ BASIC:
   class: AggregateMessageGroup
 
 GROUPS:
-  - out-wikimedia-mobile-*
+  - out-wikimedia-mobile-commons-android-0-all
+  - out-wikimedia-mobile-wikipedia-j2me
+  - out-wikimedia-mobile-wikipedia-phonegap
+  - out-wikimedia-mobile-wikisource
+  - out-wikimedia-mobile-wiktionary
 
 ---
 BASIC:
+  icon: wiki://WikipediaMobile-icon.png
   id: out-wikimedia-mobile-wikipedia-phonegap
   label: Wikipedia Mobile PhoneGap
   description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia}}"
@@ -42,6 +46,7 @@ FILES:
 
 ---
 BASIC:
+  icon: wiki://WikipediaMobile-icon.png
   id: out-wikimedia-mobile-wikipedia-j2me
   label: Wikipedia Mobile J2ME
   description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia}}"
