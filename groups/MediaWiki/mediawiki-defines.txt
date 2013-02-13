@@ -387,7 +387,7 @@ optional = payflowpro_gateway-month
 Donation Interface - Paypal Gateway
 id = ext-di-ppg
 file = DonationInterface/paypal_gateway/paypal_gateway.alias.php
-aliasfile = DonationInterface/paypal_gateway/paypal_gateway.i18n.php
+# aliasfile = DonationInterface/paypal_gateway/paypal_gateway.i18n.php
 descmsg = paypal_gateway-desc
 
 Double Wiki
