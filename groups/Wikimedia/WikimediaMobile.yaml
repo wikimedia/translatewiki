@@ -70,26 +70,6 @@ TAGS:
 
 ---
 BASIC:
-  id: out-wikimedia-mobile-wlm
-  label: Wiki Loves Monuments Mobile
-  description: "{{int:translate-group-desc-wikimedia-mobile-wlm}}"
-
-MANGLER:
-  class: StringMatcher
-  prefix: wlmmobile-
-  patterns:
-    - "*"
-
-FILES:
-  sourcePattern: %GROUPROOT%/WLMMobile/assets/www/messages/messages-%CODE%.properties
-  definitionFile: %GROUPROOT%/WLMMobile/assets/www/messages/messages-en.properties
-  targetPattern: WLMMobile/assets/www/messages/messages-%CODE%.properties
-  header: |
-    # This file is distributed under the same license as the WLMMobile package.
-    #
-
----
-BASIC:
   id: out-wikimedia-mobile-wikisource
   label: Wikisource Mobile
   description: "{{int:translate-group-desc-wikimedia-mobile-wikisource}}"
