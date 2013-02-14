@@ -1370,6 +1370,9 @@ Template Sandbox
 aliasfile = TemplateSandbox/TemplateSandbox.alias.php
 ignored = templatesandbox-editform-text, templatesandbox-editform-helptext
 
+Throttle Override
+aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
+
 # Thumb Parser : Moved to GitHub
 
 Timed Media Handler
