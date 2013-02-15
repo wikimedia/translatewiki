@@ -1321,6 +1321,8 @@ Spark
 Special 404
 aliasfile = Special404/Special404.alias.php
 
+Spelling Api
+
 Sphinx Search
 
 SSL Client Authentication
