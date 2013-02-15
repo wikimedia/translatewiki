@@ -558,6 +558,8 @@ GeoGebra
 Getting Started
 aliasfile = GettingStarted/GettingStarted.alias.php
 
+Git 2 Pages
+
 Gitweb
 
 Global Blocking
