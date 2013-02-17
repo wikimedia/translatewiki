@@ -281,6 +281,7 @@ wfAddNamespace( 1206, 'Wikimedia' );
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-android.yaml";
 
 # No longer in use.
 wfAddNamespace( 1208, 'StatusNet' );
