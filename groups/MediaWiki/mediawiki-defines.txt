@@ -974,6 +974,8 @@ Parser Functions
 descmsg = pfunc_desc
 magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
+Parser Hooks
+
 Pdf Export
 aliasfile = PdfExport/PdfExport.i18n.alias.php
 ignored = pdf_fontface_default, pdf_fontface_options
