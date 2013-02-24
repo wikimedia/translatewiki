@@ -15,6 +15,7 @@ TEMPLATE:
   LANGUAGES:
     blacklist:
       - as
+      - bn
       - gu
       - hi
       - kn
