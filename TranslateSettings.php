@@ -362,6 +362,5 @@ $wgTranslateGroupFiles[] = "$GROUPS/EtherpadLite/EtherpadLite.yaml";
 wfAddNamespace( 1252, 'Vicuna' );
 #$wgTranslateGroupFiles[] = "$GROUPS/Vicuna/Vicuna.yaml";
 
-# Not yet in use.
 wfAddNamespace( 1254, 'FUEL' );
-#$wgTranslateGroupFiles[] = "$GROUPS/FUEL/FUEL.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/FUEL/FUEL.yaml";
