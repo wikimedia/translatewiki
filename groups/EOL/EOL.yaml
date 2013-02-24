@@ -52,6 +52,9 @@ MANGLER:
   prefix: website-
 
 TAGS:
+  optional:
+    - website-forums.buttons.move_up
+    - website-forums.buttons.move_down
   ignored:
     - website-date.*
     - website-datetime.*
