@@ -81,8 +81,9 @@ ignored = cnw-name-wiki-language, cnw-name-wiki-domain
 Edit Account
 file = EditAccount/SpecialEditAccount.i18n.php
 
-Edit Page Layout
-ignored = anoneditwarning-notice, longpagewarning-notice
+# Siebrand / 2013-02-24 / Disabled as announced.
+#Edit Page Layout
+#ignored = anoneditwarning-notice, longpagewarning-notice
 
 # Siebrand / 2012-08-09 / Disabled as announced.
 #Follow
