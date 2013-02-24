@@ -1,4 +1,3 @@
----
 TEMPLATE:
   BASIC:
     description: "Beta. Unicorns. Bunnies."
@@ -9,8 +8,8 @@ TEMPLATE:
     class: GettextFFS
     keyAlgorithm: simple
     codemap:
-      zh-hant: zh-TW
-      zh-hans: zh-CN
+      zh-hans: zh_CN
+      zh-hant: zh_TW
 
   LANGUAGES:
     blacklist:
