@@ -586,6 +586,8 @@ Google News Sitemap
 ignored = googlenewssitemap_categorymap
 aliasfile = GoogleNewsSitemap/GoogleNewsSitemap.alias.php
 
+Google Site Search
+
 GraphViz
 
 Groups Sidebar
