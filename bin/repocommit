@@ -87,12 +87,7 @@ then
 
 elif [ "$PROJECT" = "kiwix" ]
 then
-	cd $PROJECT
-	svn add -q *
-	svn propset -q svn:mime-type text/plain *
-	svn propset -q svn:eol-style native *
-	svn commit --message "$COMMITMSG"
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "mantis" ]
 then

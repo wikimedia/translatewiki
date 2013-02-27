@@ -88,7 +88,7 @@ then
 	if [ -z "$REPO_KIWIX" ]
 	then echo "Add REPO_KIWIX to REPOCONF"; exit 1
 	fi
-	svn checkout "$REPO_KIWIX" $PROJECT
+	git clone "$REPO_KIWIX" $PROJECT
 
 elif [ "$PROJECT" = "mantis" ]
 then
