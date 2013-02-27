@@ -68,7 +68,7 @@ then
 
 elif [ "$PROJECT" = "fuel" ]
 then
-	gitcommit "$PROJECT"
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "ihris" ]
 then
