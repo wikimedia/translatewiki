@@ -9,8 +9,8 @@ BASIC:
 
 FILES:
   class: JavaFFS
-  sourcePattern: %GROUPROOT%/kiwix/%CODE%
-  targetPattern: kiwix/%CODE%
+  sourcePattern: %GROUPROOT%/kiwix/maintenance_tools/translatewiki/%CODE%
+  targetPattern: kiwix/maintenance_tools/translatewiki/%CODE%
 
 TAGS:
   optional:

@@ -65,7 +65,7 @@ then
 
 elif [ "$PROJECT" = "kiwix" ]
 then
-	svn up $PROJECT
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "mantis" ]
 then
