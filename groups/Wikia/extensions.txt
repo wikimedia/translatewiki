@@ -181,9 +181,6 @@ Partner Feed
 Phalanx
 ignored = phalanx-expire-durations
 
-Photo Pop
-optional = photopop-progress-numbers
-
 Piggyback
 
 Places
