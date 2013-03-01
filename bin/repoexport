@@ -199,6 +199,38 @@ then
 	php "$EXPORTER" --target . --group=wikia-z* --lang '*' --skip en &
 	wait
 
+elif [ "$PROJECT" = "wikia-quick" ]
+then
+	php "$EXPORTER" --target . --group=wikia-a* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-b* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-c* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-d* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-e* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-f* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-g* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-h* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-i* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-j* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-k* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-l* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-m* --lang '*' --skip en &
+	wait
+	echo "repoexport: Wikia part 2"
+	php "$EXPORTER" --target . --group=wikia-n* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-o* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-p* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-q* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-r* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-s* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-t* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-u* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-v* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-w* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-x* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-y* --lang '*' --skip en &
+	php "$EXPORTER" --target . --group=wikia-z* --lang '*' --skip en &
+	wait
+
 elif [ "$PROJECT" = "wikiblame" ]
 then
 	php "$EXPORTER" --target . --group=out-wikiblame --lang '*' --skip en --threshold 1
