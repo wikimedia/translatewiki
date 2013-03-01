@@ -1121,6 +1121,8 @@ ignored = scribunto-doc-subpage-show
 
 Search Extra NS
 
+Secure HTML
+
 Secure Passwords
 
 Secure Poll
