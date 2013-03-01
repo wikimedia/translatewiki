@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "DnwnAzSw",
+        "filename": "bin/update-wikia",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-03-01T10:57:57Z",
+      "side": 1,
+      "message": "The two repoupdate commands are bg in the next PS.",
+      "parentUuid": "Dn0mdpVM",
+      "revId": "827234b67fc240be52f4b7fb5740b48ce5edede3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "Dn2nJgVs",
         "filename": "bin/update-wikia",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2013-03-01T10:52:44Z",
       "side": 1,
       "message": "Why not just make \"wikia\" fast?",
+      "revId": "827234b67fc240be52f4b7fb5740b48ce5edede3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "Dn.ndcRI",
+        "filename": "bin/update-wikia",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-03-01T10:57:57Z",
+      "side": 1,
+      "message": "Because that\u0027s the one I still will be using.",
+      "parentUuid": "Dn2nJgVs",
       "revId": "827234b67fc240be52f4b7fb5740b48ce5edede3",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
