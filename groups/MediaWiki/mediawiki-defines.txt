@@ -1132,6 +1132,8 @@ ignored = securepoll-custom-unqualified, securepoll-voter-name-remote, securepol
 Secure Sessions
 aliasfile = SecureSessions/SecureSessions.alias.php
 
+Select Category
+
 Select Tag
 
 Semantic ACL
