@@ -290,7 +290,7 @@ aliasfile = CreateRedirect/CreateRedirect.alias.php
 
 Credits Source
 
-Cryo Key
+CryoKey
 
 CSS
 
