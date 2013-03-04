@@ -197,7 +197,7 @@ TEXT;
 			chdir( "{$this->dir}/extensions/$ext" );
 			$cBranch = escapeshellarg( $branch );
 			$cCheckout = escapeshellarg( $checkout );
-			exec( "git checkout -b $branch $cCheckout --force --quiet" );
+			exec( "git checkout -b $cBranch $cCheckout --force --quiet" );
 			exec( "git reset --hard $cCheckout --quiet" );
 			exec( "git rm .gitreview --quiet --ignore-unmatch" );
 
@@ -226,7 +226,7 @@ TEXT;
 			exec( "git commit -v -m $msg --quiet" );
 
 			$cTag = escapeshellarg( $tag );
-			exec( "git tag -a $tag -m $msg" );
+			exec( "git tag -a $cTag -m $msg" );
 		}
 	}
 
@@ -264,7 +264,6 @@ TEXT;
 
 		$tarname = escapeshellarg( "releases/$filename" );
 		$hashname = escapeshellarg( "$filename.$hasher" );
-		$hashcommand = escapeshellarg( $hasher );
 		$cPiggyfile = escapeshellarg( $piggyfile );
 		exec( "tar cjf $tarname --exclude-vcs extensions $cPiggyfile" );
 		chdir( 'releases' );
