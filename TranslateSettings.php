@@ -43,6 +43,22 @@ $wgTranslateTranslationServices['TTMServer'] = array(
 	'public' => true,
 );
 
+require( "$IP/extensions/Solarium/Solarium.php" );
+$wgTranslateTranslationServices['TTMServer'] = array(
+	'type' => 'ttmserver',
+	'class' => 'SolrTTMServer',
+	'cutoff' => 0.75,
+	'public' => true,
+	'config' => array(
+		'adapteroptions' => array(
+			'host' => 'localhost',
+			'timeout' => 10,
+			'core' => 'production',
+		),
+		'adapter' => 'Solarium_Client_Adapter_Curl'
+	),
+);
+
 $wgHooks['Translate:GettextFFS:headerFields'][] = 'efHT';
 function efHT( $specs, $group, $code ) {
 	global $wgSitename, $wgCanonicalServer;
