@@ -560,6 +560,8 @@ GeoGebra
 
 Getting Started
 aliasfile = GettingStarted/GettingStarted.alias.php
+ignored = gettingstarted-msg
+ignored = gettingstarted-task-1, gettingstarted-task-2, gettingstarted-task-3
 
 Git 2 Pages
 
