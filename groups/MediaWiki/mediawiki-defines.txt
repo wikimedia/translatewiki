@@ -858,7 +858,7 @@ Online Status Bar
 
 Open ID
 aliasfile = OpenID/OpenID.alias.php
-optional = prefs-openid, Openid-urls-url,openid-urls-registration-date-time
+optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
 
 Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
