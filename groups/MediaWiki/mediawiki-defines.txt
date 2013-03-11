@@ -138,6 +138,8 @@ optional = centralnotice-language-listing, centralnotice-log-label, centralnotic
 Char Insert
 #magicfile = CharInsert/CharInsert.i18n.magic.php
 
+Char Range Span
+
 Checkpoint
 
 Check User
