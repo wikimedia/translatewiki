@@ -133,7 +133,7 @@ then
 
 elif [ "$PROJECT" = "mwlib" ]
 then
-	gitcommitNoCheck "$PROJECT"
+	gitcommitNoCheck "$PROJECT.rl"
 
 elif [ "$PROJECT" = "okawix" ]
 then
