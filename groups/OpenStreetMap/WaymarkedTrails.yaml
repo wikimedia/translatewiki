@@ -32,6 +32,8 @@ FILES:
   sourcePattern: %GROUPROOT%/waymarked-trails-site/django/locale/%CODE%/LC_MESSAGES/django.po
   definitionFile: %GROUPROOT%/waymarked-trails-site/django/locale/qot/LC_MESSAGES/django.po
   targetPattern: waymarked-trails-site/django/locale/%CODE%/LC_MESSAGES/django.po
+  codeMap:
+    "no": x-invalidLanguageCode
 
   header: |
     # This file is part of the Waymarked Trails Map Project
