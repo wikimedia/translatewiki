@@ -33,6 +33,7 @@ FILES:
   definitionFile: %GROUPROOT%/waymarked-trails-site/django/locale/qot/LC_MESSAGES/django.po
   targetPattern: waymarked-trails-site/django/locale/%CODE%/LC_MESSAGES/django.po
   codeMap:
+    # This is needed because they have symlinked no to nb to avoid import
     "no": x-invalidLanguageCode
 
   header: |
