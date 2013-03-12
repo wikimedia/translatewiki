@@ -33,6 +33,26 @@ TEMPLATE:
     class: MessageChecker
     checks:
       - pythonInterpolationCheck
+
+  LANGUAGES:
+    blacklist:
+      - be-x-old
+      - gan
+      - als
+      - hif
+      - iu
+      - kbd
+      - kk
+      - ks
+      - ku
+      - "no"
+      - ruq
+      - sr
+      - tg
+      - tt
+      - ug
+      - zh
+
 ---
 BASIC:
   id: out-pywikipedia-0-all
