@@ -59,10 +59,10 @@ Article Feedback v5
 aliasfile = ArticleFeedbackv5/ArticleFeedbackv5.alias.php
 optional=articlefeedbackv5-activity-item-comment, articlefeedbackv5-cta1-learn-how-url, articlefeedbackv5-help-form-linkurl, articlefeedbackv5-help-form-linkurl-editors
 optional=articlefeedbackv5-help-form-linkurl-monitors, articlefeedbackv5-help-form-linkurl-oversighters, articlefeedbackv5-help-special-linkurl, articlefeedbackv5-help-special-linkurl-editors
-optional=articlefeedbackv5-help-special-linkurl-monitors, articlefeedbackv5-help-special-linkurl-oversighters, articlefeedbackv5-noteflyover-declineoversight-description, articlefeedbackv5-noteflyover-feature-description
+optional=articlefeedbackv5-help-special-linkurl-monitors, articlefeedbackv5-help-special-linkurl-oversighters, articlefeedbackv5-noteflyover-decline-description, articlefeedbackv5-noteflyover-feature-description
 optional=articlefeedbackv5-noteflyover-hide-description, articlefeedbackv5-noteflyover-oversight-description, articlefeedbackv5-noteflyover-oversight-description, articlefeedbackv5-noteflyover-oversight-description
-optional=articlefeedbackv5-noteflyover-resolve-description, articlefeedbackv5-noteflyover-show-description, articlefeedbackv5-noteflyover-unfeature-description, articlefeedbackv5-noteflyover-unoversight-description
-optional=articlefeedbackv5-noteflyover-unrequestoversight-description, articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-permalink-info-subtitle, articlefeedbackv5-privacyurl
+optional=articlefeedbackv5-noteflyover-resolve-description, articlefeedbackv5-noteflyover-unhide-description, articlefeedbackv5-noteflyover-noaction-description, articlefeedbackv5-noteflyover-unnoaction-description, articlefeedbackv5-noteflyover-unrequestoversight-descriptionarticlefeedbackv5-noteflyover-unfeature-description, articlefeedbackv5-noteflyover-unoversight-description
+optional=articlefeedbackv5-noteflyover-unrequest-description, articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-permalink-info-subtitle, articlefeedbackv5-privacyurl
 optional=articlefeedbackv5-table-noratings, articlefeedbackv5-transparency-terms-url
 ignored=articlefeedbackv5-activity-item, articlefeedbackv5-default-user, articlefeedbackv5-error-abuse-link, articlefeedbackv5-noteflyover-declineoversight-help-link
 ignored=articlefeedbackv5-noteflyover-feature-help-link, articlefeedbackv5-noteflyover-hide-help-link, articlefeedbackv5-noteflyover-oversight-help-link, articlefeedbackv5-noteflyover-ovesight-help-link
