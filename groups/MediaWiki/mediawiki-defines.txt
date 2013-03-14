@@ -1123,7 +1123,7 @@ Score
 Scribunto
 magicfile = Scribunto/Scribunto.magic.php
 optional = scribunto-lua-backtrace-line
-ignored = scribunto-doc-subpage-show
+ignored = scribunto-doc-page-show
 
 Search Extra NS
 
