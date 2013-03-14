@@ -7,6 +7,7 @@ cd $WIKI
 REV=`git log --pretty='%h %ci (%cr)' -n 1`
 udpcast "updating $WIKINAME from $REV..."
 
+echo "*** Updating config ***"
 cd /home/betawiki/config
 sudo -u betawiki git pull
 
