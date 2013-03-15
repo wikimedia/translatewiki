@@ -1,6 +1,6 @@
 TEMPLATE:
   BASIC:
-    description: "I'm in beta! <!--{{int:translate-group-desc-wikimedia-mobile-commons}}-->"
+    description: "{{int:translate-group-desc-wikimedia-mobile-commons}}"
     icon: wiki://File:Commons-icon.svg
     namespace: NS_WIKIMEDIA
     class: FileBasedMessageGroup

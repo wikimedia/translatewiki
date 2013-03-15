@@ -20,6 +20,11 @@ then
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-android* --lang '*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-android* --lang qqq
 
+elif [ "$PROJECT" = "commons-ios" ]
+then
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-ios* --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-ios* --lang qqq
+
 elif [ "$PROJECT" = "eol" ]
 then
 	php "$EXPORTER" --target . --group=out-eol* --lang '*' --skip en $THRESHOLD

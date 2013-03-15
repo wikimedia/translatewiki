@@ -16,6 +16,13 @@ then
 	fi
 	git clone "$REPO_ANDROIDCOMMONS" $PROJECT
 
+elif [ "$PROJECT" = "commons-ios" ]
+then
+	if [ -z "$REPO_COMMONSIOS" ]
+	then echo "Add REPO_COMMONSIOS to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_COMMONSIOS" $PROJECT
+
 elif [ "$PROJECT" = "eol" ]
 then
 	if [ -z "$REPO_EOL" ]

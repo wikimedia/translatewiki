@@ -33,6 +33,10 @@ if [ "$PROJECT" = "commons-android" ]
 then
 	gitcommitNoCheck "$PROJECT"
 
+elif [ "$PROJECT" = "commons-ios" ]
+then
+	gitcommitNoCheck "$PROJECT"
+
 elif [ "$PROJECT" = "eol" ]
 then
 	gitcommitNoCheck "$PROJECT"

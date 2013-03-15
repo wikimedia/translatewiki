@@ -25,6 +25,10 @@ if [ "$PROJECT" = "commons-android" ]
 then
 	gitupdate "$PROJECT"
 
+elif [ "$PROJECT" = "commons-ios" ]
+then
+	gitupdate "$PROJECT"
+
 elif [ "$PROJECT" = "eol" ]
 then
 	gitupdate "$PROJECT"
