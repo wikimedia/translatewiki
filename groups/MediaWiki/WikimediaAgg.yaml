@@ -66,6 +66,7 @@ GROUPS:
   - ext-mwembedsupport # Change-Id: Ifbb7c9b7344520f6d9fe1ccfa3f276ec153b9770
   - ext-mwsearch
   - ext-narayam # 2011-03-16: ml-wikis
+  - ext-navigationtiming # 2013-03-14: all wikis
   - ext-nuke
   - ext-oai
   - ext-opensearchxml

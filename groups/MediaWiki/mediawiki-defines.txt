@@ -801,6 +801,8 @@ descmsg = nll-desc
 ignored = nll-itemoutput
 optional = nll-separator
 
+Navigation Timing
+
 Negref
 magicfile = Negref/Negref.i18n.magic.php
 
