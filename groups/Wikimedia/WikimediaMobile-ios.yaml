@@ -3,7 +3,7 @@ BASIC:
   description: "{{int:translate-group-desc-wikimedia-mobile-commons}}"
   icon: wiki://File:Commons-icon.svg
   namespace: NS_WIKIMEDIA
-  id: out-wikimedia-commons-mobile-ios
+  id: out-wikimedia-mobile-commons-ios
   label: Commons iOS Mobile
   class: FileBasedMessageGroup
 
