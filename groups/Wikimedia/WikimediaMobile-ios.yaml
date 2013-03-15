@@ -1,0 +1,19 @@
+---
+BASIC:
+  description: "{{int:translate-group-desc-wikimedia-mobile-commons}}"
+  icon: wiki://File:Commons-icon.svg
+  namespace: NS_WIKIMEDIA
+  id: out-wikimedia-commons-mobile-ios
+  label: Commons iOS Mobile
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: commons-ios-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/commons-ios/Commons-iOS/messages/messages-%CODE%.json
+  targetPattern: commons-ios/Commons-iOS/messages/messages-%CODE%.json
