@@ -11,10 +11,10 @@ echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> /home/betaw
 
 if [ "$PROJECT" = "commons-android" ]
 then
-	if [ -z "$REPO_ANDROIDCOMMONS" ]
-	then echo "Add REPO_ANDROIDCOMMONS to REPOCONF"; exit 1
+	if [ -z "$REPO_COMMONSANDROID" ]
+	then echo "Add REPO_COMMONSANDROID to REPOCONF"; exit 1
 	fi
-	git clone "$REPO_ANDROIDCOMMONS" $PROJECT
+	git clone "$REPO_COMMONSANDROID" $PROJECT
 
 elif [ "$PROJECT" = "commons-ios" ]
 then
