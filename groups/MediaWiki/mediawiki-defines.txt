@@ -79,6 +79,8 @@ Author Protect
 
 Automatic Board Welcome
 
+AWS
+
 Babel
 magicfile = Babel/Babel.i18n.magic.php
 optional = babel-0-female, babel-1-female, babel-2-female, babel-3-female
@@ -1045,6 +1047,8 @@ aliasfile = Push/Push.alias.php
 optional = group-pusher.css, group-pusher.js
 optional = group-bulkpusher.css, group-bulkpusher.js
 optional = group-filepusher.css, group-filepusher.js
+
+Quantcast
 
 Quiz
 descmsg = quiz_desc
