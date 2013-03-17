@@ -42,7 +42,7 @@ then
 	if [ -z "$REPO_FREECOL" ]
 	then echo "Add REPO_FREECOL to REPOCONF"; exit 1
 	fi
-	svn checkout "$REPO_FREECOL" $PROJECT
+	git clone "$REPO_FREECOL" $PROJECT
 
 elif [ "$PROJECT" = "frontlinesms" ]
 then

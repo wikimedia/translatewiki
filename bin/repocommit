@@ -47,12 +47,7 @@ then
 
 elif [ "$PROJECT" = "freecol" ]
 then
-	cd $PROJECT
-	svn add -q *.properties
-	svn propset -q svn:mime-type text/plain *.properties
-	svn propset -q svn:eol-style native *.properties
-	svn commit --message "$COMMITMSG"
-	cd ..
+	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "frontlinesms" ]
 then

@@ -39,7 +39,7 @@ then
 
 elif [ "$PROJECT" = "freecol" ]
 then
-	svn up $PROJECT
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "frontlinesms" ]
 then
