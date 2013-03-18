@@ -1390,6 +1390,8 @@ descmsg = syntaxhighlight-desc
 
 Tabber
 
+Template Data
+
 Template Info
 
 Template Sandbox
