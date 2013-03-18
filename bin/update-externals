@@ -9,6 +9,7 @@ WIKI=/www/translatewiki.net/w
 
 for PROJECT in \
 commons-android \
+commons-ios \
 eol \
 etherpad-lite \
 freecol \
