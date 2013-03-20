@@ -57,19 +57,31 @@ ignored = articlefeedback-pitch-edit-body
 
 Article Feedback v5
 aliasfile = ArticleFeedbackv5/ArticleFeedbackv5.alias.php
-optional=articlefeedbackv5-activity-item-comment, articlefeedbackv5-cta1-learn-how-url, articlefeedbackv5-help-form-linkurl, articlefeedbackv5-help-form-linkurl-editors
-optional=articlefeedbackv5-help-form-linkurl-monitors, articlefeedbackv5-help-form-linkurl-oversighters, articlefeedbackv5-help-special-linkurl, articlefeedbackv5-help-special-linkurl-editors
-optional=articlefeedbackv5-help-special-linkurl-monitors, articlefeedbackv5-help-special-linkurl-oversighters, articlefeedbackv5-noteflyover-decline-description, articlefeedbackv5-noteflyover-feature-description
-optional=articlefeedbackv5-noteflyover-hide-description, articlefeedbackv5-noteflyover-oversight-description, articlefeedbackv5-noteflyover-oversight-description, articlefeedbackv5-noteflyover-oversight-description
-optional=articlefeedbackv5-noteflyover-resolve-description, articlefeedbackv5-noteflyover-unhide-description, articlefeedbackv5-noteflyover-noaction-description, articlefeedbackv5-noteflyover-unnoaction-description, articlefeedbackv5-noteflyover-unrequestoversight-descriptionarticlefeedbackv5-noteflyover-unfeature-description, articlefeedbackv5-noteflyover-unoversight-description
-optional=articlefeedbackv5-noteflyover-unrequest-description, articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-permalink-info-subtitle, articlefeedbackv5-privacyurl
-optional=articlefeedbackv5-table-noratings, articlefeedbackv5-transparency-terms-url
-ignored=articlefeedbackv5-activity-item, articlefeedbackv5-default-user, articlefeedbackv5-error-abuse-link, articlefeedbackv5-noteflyover-declineoversight-help-link
-ignored=articlefeedbackv5-noteflyover-feature-help-link, articlefeedbackv5-noteflyover-hide-help-link, articlefeedbackv5-noteflyover-oversight-help-link, articlefeedbackv5-noteflyover-ovesight-help-link
-ignored=articlefeedbackv5-noteflyover-requestoversight-help-link, articlefeedbackv5-noteflyover-resolve-help-link, articlefeedbackv5-noteflyover-show-help-link, articlefeedbackv5-noteflyover-unfeature-help-link
-ignored=articlefeedbackv5-noteflyover-unoversight-help-link, articlefeedbackv5-noteflyover-unrequestoversight-help-link, articlefeedbackv5-noteflyover-unresolve-help-link, articlefeedbackv5-pitch-edit-body
-ignored=articlefeedbackv5-pitch-survey-body, articlefeedbackv5-special-filter-label-after, articlefeedbackv5-special-sort-label-after
-ignored=articlefeedbackv5-cta6-button-link, articlefeedbackv5-noteflyover-inappropriate-description, articlefeedbackv5-noteflyover-uninappropriate-description
+optional=articlefeedbackv5-cta1-learn-how-url, articlefeedbackv5-cta6-button-link, articlefeedbackv5-error-abuse-link
+optional=articlefeedbackv5-permalink-info-subtitle, articlefeedbackv5-help-special-linkurl
+optional=articlefeedbackv5-help-special-linkurl-editors, articlefeedbackv5-help-special-linkurl-monitors
+optional=articlefeedbackv5-help-special-linkurl-oversighter, articlefeedbackv5-help-form-linkurl
+optional=articlefeedbackv5-help-form-linkurl-editors, articlefeedbackv5-help-form-linkurl-editors
+optional=articlefeedbackv5-help-form-linkurl-oversighters
+ignored=articlefeedbackv5-special-sort-label-after, articlefeedbackv5-special-filter-label-after
+ignored=articlefeedbackv5-noteflyover-feature-description, articlefeedbackv5-noteflyover-unfeature-description
+ignored=articlefeedbackv5-noteflyover-resolve-description, articlefeedbackv5-noteflyover-unresolve-description
+ignored=articlefeedbackv5-noteflyover-hide-description, articlefeedbackv5-noteflyover-unhide-description
+ignored=articlefeedbackv5-noteflyover-noaction-description, articlefeedbackv5-noteflyover-unnoaction-description
+ignored=articlefeedbackv5-noteflyover-inappropriate-description, articlefeedbackv5-noteflyover-uninappropriate-description
+ignored=articlefeedbackv5-noteflyover-archive-description, articlefeedbackv5-noteflyover-unarchive-description
+ignored=articlefeedbackv5-noteflyover-unrequest-description, articlefeedbackv5-noteflyover-oversight-description
+ignored=articlefeedbackv5-noteflyover-unoversight-description, articlefeedbackv5-noteflyover-decline-description
+ignored=articlefeedbackv5-default-user
+ignored=articlefeedbackv5-noteflyover-feature-help-link, articlefeedbackv5-noteflyover-unfeature-help-link
+ignored=articlefeedbackv5-noteflyover-resolve-help-link, articlefeedbackv5-noteflyover-unresolve-help-link
+ignored=articlefeedbackv5-noteflyover-hide-help-link, articlefeedbackv5-noteflyover-unhide-help-link
+ignored=articlefeedbackv5-noteflyover-noaction-help-link, articlefeedbackv5-noteflyover-unnoaction-help-link
+ignored=articlefeedbackv5-noteflyover-inappropriate-help-link, articlefeedbackv5-noteflyover-uninappropriate-help-link
+ignored=articlefeedbackv5-noteflyover-archive-help-link, articlefeedbackv5-noteflyover-unarchive-help-link
+ignored=articlefeedbackv5-noteflyover-request-help-link, articlefeedbackv5-noteflyover-unrequest-help-link
+ignored=articlefeedbackv5-noteflyover-oversight-help-link, articlefeedbackv5-noteflyover-unoversight-help-lin
+ignored=articlefeedbackv5-noteflyover-decline-help-link
 
 Ask
 
