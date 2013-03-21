@@ -5,7 +5,7 @@ WIKI=$2
 cd $WIKI
 
 echo "*** Updating core ***"
-git pull --rebase origin master
+git pull --rebase
 
 cd extensions
 
