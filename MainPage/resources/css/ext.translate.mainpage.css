@@ -1,0 +1,151 @@
+body {
+	background-color: #fff;
+}
+
+.twn-mainpage {
+	background-color: #fff;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.twn-mainpage-header .uls-trigger {
+	padding-left: 20px;
+}
+
+.twn-mainpage-title { /* @embed */
+	background: transparent url('//translatewiki.net/static/logo.png')
+		no-repeat scroll left center;
+	/*FIXME: we need svgs too*/
+	background-size: 50px;
+	height: 75px;
+}
+
+.twn-mainpage-title .twn-brand-name,
+.twn-mainpage-title .twn-brand-motto {
+	padding-left: 50px;
+}
+
+.twn-mainpage-header {
+	border-bottom: 2px solid blue;
+	height: 100px;
+}
+
+.twn-mainpage-header .login {
+	float: right;
+}
+
+.twn-mainpage-banner {
+	height: 600px;
+	background: transparent url('../banners/dance.jpg') no-repeat scroll
+		left center;
+	background-size: 100%;
+}
+
+.twn-mainpage-search {
+	padding: 5px;
+	background-color: #000;
+}
+
+.twn-mainpage-loginform {
+	background-color: #fff;
+	height: 580px; padding : 10px;
+	opacity: 0.5;
+	margin: 10px;
+	padding: 10px;
+}
+
+.twn-mainpage-search input,
+.twn-mainpage-search button {
+	padding: 5px;
+	font-size: 16px;
+	height: 32px;
+}
+
+.twn-mainpage-footer {
+	background-color: rgb(190, 181, 181);
+	height: 100px;
+	font-size: 16px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.twn-mainpage-project-tile {
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	height: 200px;
+}
+
+
+button.button {
+	background-color: #E6E6E6;
+	background-image: -webkit-linear-gradient(top, #f0f0f0, #e6e6e6);
+	background-image: -moz-linear-gradient(center top, #F0F0F0, #E6E6E6);
+	background-image: linear-gradient(#F0F0F0, #E6E6E6);
+	border: 1px solid #C9C9C9;
+	border-radius: 3px 3px 3px 3px;
+	color: #252525;
+	cursor: pointer;
+	display: inline-block;
+	font: bold 0.813em/1 Arial, sans-serif;
+	padding: 0.4065em 1.2195em;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+}
+
+button.button:hover {
+	background-color: #F0F0F0;
+	background-image: -webkit-linear-gradient(top, #f8f8f8, #f0f0f0);
+	background-image: -moz-linear-gradient(center top, #F8F8F8, #F0F0F0);
+	background-image: linear-gradient(#F8F8F8, #F0F0F0);
+	border-color: #C9C9C9;
+}
+
+button.button.blue {
+	background-color: #3366BB;
+	background-image: -webkit-linear-gradient(top, #3670c8, #3366bb);
+	background-image: -moz-linear-gradient(center top, #3670C8, #3366BB);
+	background-image: -moz-linear-gradient(#3670C8, #3366BB);
+	border: 1px solid #33589F;
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+button.button.blue:hover {
+	background-color: #3F77D7;
+	background-image: -webkit-linear-gradient(top, #4c84da, #3f77d7);
+	background-image: -moz-linear-gradient(center top, #4C84DA, #3F77D7);
+	background-image: -moz-linear-gradient(#4C84DA, #3F77D7);
+}
+
+button.button.blue:active,
+button.button.blue.down:active {
+	background-color: #2A549C;
+	background-image: -webkit-linear-gradient(top, #2d5ea9, #2a549c);
+	background-image: -moz-linear-gradient(center top, #2D5EA9, #2A549C);
+	background-image: linear-gradient(#2D5EA9, #2A549C);
+}
+
+.searchbox {
+	width : 100%;
+}
+
+.search-label {
+	/* @embed */
+	background: transparent url('../images/search.png') no-repeat scroll right center;
+	background-image: -webkit-linear-gradient(transparent, transparent), url('../images/search.svg');
+	background-image: -moz-linear-gradient(transparent, transparent), url('../images/search.svg');
+	background-image: linear-gradient(transparent, transparent), url('../images/search.svg');
+	background-size: 30px;
+	height: 32px;
+	width: 32px;
+	float: left;
+}
+
+.twn-mainpage-project-selector-title {
+	font-size: 16pt;
+	padding: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
