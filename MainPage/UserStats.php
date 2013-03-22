@@ -109,6 +109,4 @@ class UserStats {
 		return $ret;
 
 	}
-
-
 }
