@@ -92,6 +92,7 @@ GROUPS:
   - ext-swiftcloudfiles # 110441
   - ext-syntaxhighlightgeshi
   - ext-templatesandbox
+  - ext-thanks # Iabaa10c5af3cbb870fad020a40aa28be01f4f297
   - ext-titlekey
   - ext-toctree # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-translate-0-all

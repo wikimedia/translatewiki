@@ -1410,6 +1410,8 @@ Template Sandbox
 aliasfile = TemplateSandbox/TemplateSandbox.alias.php
 ignored = templatesandbox-editform-text, templatesandbox-editform-helptext
 
+Thanks
+
 Throttle Override
 aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
 
