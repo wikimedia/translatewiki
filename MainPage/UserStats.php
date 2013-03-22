@@ -1,4 +1,11 @@
 <?php
+/**
+ * Code for getting user rankings.
+ *
+ * @file
+ * @author Niklas Laxström
+ * @license GPL2+
+ */
 
 class UserStats {
 
