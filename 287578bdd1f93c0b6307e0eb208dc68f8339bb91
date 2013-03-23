@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "DqjORf0Y",
+        "filename": "MainPage/ProjectHandler.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 110
+      },
+      "writtenOn": "2013-03-23T05:41:18Z",
+      "side": 1,
+      "message": "This is duplicate code Translate - ApiQueryMessageGroup. We can avoid duplication if we make getIcon of that API public static.",
+      "revId": "287578bdd1f93c0b6307e0eb208dc68f8339bb91",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
