@@ -423,7 +423,7 @@ ignored = accesskey-drafts-save
 
 Dynamic Sidebar
 
-E3 Experiments
+E3 WikiLexicalDataiments
 
 Echo
 aliasfile = Echo/Echo.alias.php
@@ -1586,9 +1586,14 @@ ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforu
 optional = group-forumadmin.css, group-forumadmin.js
 
 Wiki Lexical Data
-file = WikiLexicalData//Wikidata.i18n.php
+file = WikiLexicalData/Wikidata.i18n.php
 descmsg = wikidata-desc
 optional = ow_editing_policy_url, ow_URL, prefs-omegawiki
+
+Wiki Lexical Data - Omega Wiki
+id = ext-wikilexicaldata-omegawiki
+file = WikiLexicalData/includes/api/OmegaWiki.i18n.php
+descmsg = apiow-desc
 
 Wiki Love
 optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
