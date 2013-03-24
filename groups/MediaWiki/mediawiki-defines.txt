@@ -423,7 +423,7 @@ ignored = accesskey-drafts-save
 
 Dynamic Sidebar
 
-E3 WikiLexicalDataiments
+E3 Experiments
 
 Echo
 aliasfile = Echo/Echo.alias.php
