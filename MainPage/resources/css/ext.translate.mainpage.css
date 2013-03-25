@@ -36,9 +36,9 @@ body {
 }
 
 .twn-mainpage-banner {
-	height: 600px;
+	min-height: 300px;
 	background: transparent url('../banners/dance.jpg') no-repeat scroll
-		left center;
+		left 40%;
 	background-size: 100%;
 }
 
@@ -47,12 +47,57 @@ body {
 	background-color: #000;
 }
 
-.twn-mainpage-loginform {
-	background-color: #fff;
-	height: 580px; padding : 10px;
-	opacity: 0.5;
+.stats-tile-row {
+	height: 140px;
+}
+
+.stats-tile {
+	background-color: blue;
+	color: white;
+	height: 130px;
+	margin: auto;
+	max-width: 130px;
+	padding: 10px;
+}
+
+.unused.stats-tile {
+	opacity: 0.3;
+}
+
+.stats-number {
+	font-size: 50px;
+}
+
+.stats-text {
+	font-size: 18px;
+}
+
+.main-widget {
+	background-color: #EFE;
+	max-height: 580px;
+	padding: 10px;
+	opacity: 0.95;
 	margin: 10px;
 	padding: 10px;
+}
+
+.ranking {
+	background-color: white;
+	padding: 10px;
+}
+
+.ranking .count {
+	font-size: 29px;
+	font-weight: bold;
+}
+
+.ranking .count-description {
+	font-size: 18px;
+}
+
+.ranking .rank-description,
+.ranking .language-description {
+	font-size: 16px;
 }
 
 .twn-mainpage-search input,
