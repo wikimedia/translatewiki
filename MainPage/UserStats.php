@@ -8,12 +8,11 @@
  */
 
 class UserStats {
-
 	public static function getTranslationRankings( $language, $days = 7 ) {
 		global $wgTranslateMessageNamespaces;
 
 		$now = wfTimestamp( TS_UNIX );
-		$weekago = $now - $days * 24 * 60 *60;
+		$weekago = $now - $days * 24 * 60 * 60;
 		$ret = array();
 
 
@@ -75,7 +74,7 @@ class UserStats {
 		global $wgTranslateMessageNamespaces;
 
 		$now = wfTimestamp( TS_UNIX );
-		$weekago = $now - $days * 24 * 60 *60;
+		$weekago = $now - $days * 24 * 60 * 60;
 		$ret = array();
 
 

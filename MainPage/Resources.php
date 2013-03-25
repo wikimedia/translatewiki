@@ -19,5 +19,5 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 		'jquery.uls',
 		'ext.translate.statsbar',
 	),
-	'position' =>'top',
+	'position' => 'top',
 ) + $resourcePaths;

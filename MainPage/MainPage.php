@@ -31,4 +31,3 @@ $wgExtensionMessagesFiles['MainPageAlias'] = "$dir/MainPage.alias.php";
 $wgSpecialPages['TwnMainPage'] = 'SpecialTwnMainPage';
 
 $wgJobClasses['CachedStatJob'] = 'CachedStatJob';
-

@@ -14,7 +14,6 @@
  * @ingroup SpecialPage
  */
 class SpecialTwnMainPage extends SpecialPage {
-
 	function __construct() {
 		parent::__construct( 'TwnMainPage' );
 	}
@@ -31,7 +30,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addModules( 'ext.translate.mainpage' );
 		$out->addHtml( $out->headElement( $this->getSkin() ) );
 		$out->addHTML( Html::openElement( 'div', array(
-				'class' => 'grid twn-mainpage',
+			'class' => 'grid twn-mainpage',
 		) ) );
 		$out->addHTML( $this->header() );
 		$out->addHTML( $this->banner() );
@@ -124,8 +123,8 @@ class SpecialTwnMainPage extends SpecialPage {
 
 			$out .= Html::rawElement( 'div', array( 'class' => 'project-content eight columns' ),
 				Html::element( 'div', array( 'class' => 'row project-name' ), $group->getLabel( $this->getContext() ) ) .
-				Html::rawElement( 'div', array( 'class' => 'row project-stats' ), $statsbar->getHtml( $this->getContext() ) ) .
-				Html::rawElement( 'div', array( 'class' => 'row project-actions' ), "$translated% $proofread%" )
+					Html::rawElement( 'div', array( 'class' => 'row project-stats' ), $statsbar->getHtml( $this->getContext() ) ) .
+					Html::rawElement( 'div', array( 'class' => 'row project-actions' ), "$translated% $proofread%" )
 			);
 			$out .= Html::closeElement( 'div' );
 			$out .= Html::closeElement( 'div' );
@@ -283,7 +282,7 @@ HTML;
 	}
 
 	public function userStats() {
-		$languageCode =  $this->getLanguage()->getCode();
+		$languageCode = $this->getLanguage()->getCode();
 		$languageName = TranslateUtils::getLanguageName( $languageCode );
 
 		$stale = 60 * 5;

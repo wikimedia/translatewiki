@@ -14,8 +14,7 @@ body {
 }
 
 .twn-mainpage-title { /* @embed */
-	background: transparent url('//translatewiki.net/static/logo.png')
-		no-repeat scroll left center;
+	background: transparent url('//translatewiki.net/static/logo.png') no-repeat scroll left center;
 	/*FIXME: we need svgs too*/
 	background-size: 50px;
 	height: 75px;
@@ -37,8 +36,7 @@ body {
 
 .twn-mainpage-banner {
 	min-height: 300px;
-	background: transparent url('../banners/dance.jpg') no-repeat scroll
-		left 40%;
+	background: transparent url('../banners/dance.jpg') no-repeat scroll left 40%;
 	background-size: 100%;
 }
 
@@ -141,7 +139,6 @@ body {
 	padding: 10px;
 }
 
-
 button.button {
 	background-color: #E6E6E6;
 	background-image: -webkit-linear-gradient(top, #f0f0f0, #e6e6e6);
@@ -192,7 +189,7 @@ button.button.blue.down:active {
 }
 
 .searchbox {
-	width : 100%;
+	width: 100%;
 }
 
 .search-label {
