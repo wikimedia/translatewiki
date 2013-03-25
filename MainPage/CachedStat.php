@@ -61,6 +61,7 @@ class CachedStat implements DeferrableUpdate {
 			$value = $this->doUpdate();
 		}
 
+		// @todo FIXME: PHP Notice:  Undefined index: t in CachedStat.php
 		if ( $value['t'] + $this->staleAge < wfTimestamp( TS_UNIX ) ) {
 			// Useless
 			// DeferredUpdates::addUpdate( $this );
@@ -68,6 +69,7 @@ class CachedStat implements DeferrableUpdate {
 			CachedStatJob::newJob( $this )->insert();
 		}
 
+		// @todo FIXME: PHP Notice:  Undefined index: v in CachedStat.php
 		return $value['v'];
 	}
 

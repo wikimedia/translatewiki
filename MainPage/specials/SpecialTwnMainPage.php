@@ -309,6 +309,7 @@ HTML;
 		$stats = $statsArray['translators'];
 		$i = 1;
 		$translators = count( $stats );
+		// @todo FIXME: PHP Warning:  Invalid argument supplied for foreach() in SpecialTwnMainPage.php
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $myuser ) {
 				$out .= Html::element( 'div', array( 'class' => 'count' ), $count );
@@ -330,6 +331,7 @@ HTML;
 		$stats = $statsArray['proofreaders'];
 		$i = 1;
 		$translators = count( $stats );
+		// @todo FIXME: PHP Warning:  Invalid argument supplied for foreach() in SpecialTwnMainPage.php
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $myuser ) {
 				$out .= Html::element( 'div', array( 'class' => 'count' ), $count );
