@@ -25,6 +25,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 	public function execute( $parameters ) {
 		$this->setHeaders();
+
 		$out = $this->getOutput();
 		$out->setArticleBodyOnly( true );
 		$out->addModules( 'ext.translate.mainpage' );
@@ -123,7 +124,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		return $out;
 	}
 
-	public function numberOfLanguages( $period ) {
+	public static function numberOfLanguages( $period ) {
 		global $wgTranslateMessageNamespaces;
 
 		$dbr = wfGetDB( DB_SLAVE );
@@ -149,11 +150,10 @@ class SpecialTwnMainPage extends SpecialPage {
 		return $count;
 	}
 
-	public function twnStats() {
-		$lang = $this->getLanguage();
-
+	// Callback for CachedStat
+	public static function getTwnStats() {
 		$groups = MessageGroups::getGroupStructure();
-		$count = 0;
+		$projects = 0;
 		foreach ( $groups as $mixed ) {
 			if ( is_array( $mixed ) ) {
 				$group = array_shift( $mixed );
@@ -162,26 +162,54 @@ class SpecialTwnMainPage extends SpecialPage {
 			}
 
 			if ( $group->getIcon() !== null ) {
-				$count++;
+				$projects++;
 			}
 		}
+
+		$translators = SiteStats::numberingroup( 'translator' );
+		$messages = count( MessageIndex::singleton()->retrieve() );
+		$languages = self::numberOfLanguages( 30 );
+		return array(
+			'projects' => $projects,
+			'translators' => $translators,
+			'messages' => $messages,
+			'languages' => $languages,
+		);
+	}
+
+	// Callback for CachedStat
+	public static function getUserStats( $code, $period ) {
+		return array(
+			'translators' => UserStats::getTranslationRankings( $code, $period ),
+			'proofreaders' => UserStats::getProofreadRankings( $code, $period ),
+		);
+	}
+
+	public function twnStats() {
+		$stale = 60 * 60 * 6;
+		$expired = 60 * 60 * 24;
+		$cacher = new CachedStat( 'twnstats', $stale, $expired,
+			array( 'SpecialTwnMainPage::getTwnStats' ) );
+		$stats = $cacher->get();
 
 		// Rows x columns
 		$data = array(
 			array(
-				'twnmp-s-projects' => $count,
-				'twnmp-s-translators' => SiteStats::numberingroup( 'translator' ),
-				'twnmp-s-messages' => count( MessageIndex::singleton()->retrieve() ),
+				'twnmp-s-projects' => $stats['projects'],
+				'twnmp-s-translators' => $stats['translators'],
+				'twnmp-s-messages' => $stats['messages'],
 			),
 			array(
 				null,
 				null,
-				'twnmp-s-languages' => $this->numberOfLanguages( 30 ),
+				'twnmp-s-languages' => $stats['languages'],
 			)
 		);
 
 		$out = '';
 		$out .= '<div class="six columns twn-mainpage-stats-tiles">';
+
+		$lang = $this->getLanguage();
 
 		foreach ( $data as $rows ) {
 			$out .= '<div class="row stats-tile-row">';
@@ -242,6 +270,14 @@ HTML;
 		$languageCode =  $this->getLanguage()->getCode();
 		$languageName = TranslateUtils::getLanguageName( $languageCode );
 
+		$stale = 60 * 5;
+		$expired = 60 * 60 * 12;
+		$cacher = new CachedStat( "userstats-$languageCode", $stale, $expired,
+			array( 'SpecialTwnMainPage::getUserStats', $languageCode, 30 )
+		);
+		$statsArray = $cacher->get();
+
+
 		$out = Html::openElement( 'div', array( 'class' => 'five columns main-widget stats-widget' ) );
 
 		$out .= Html::openElement( 'div', array( 'class' => 'row' ) );
@@ -255,7 +291,7 @@ HTML;
 
 		$out .= Html::openElement( 'div', array( 'class' => 'row ranking' ) );
 		$out .= Html::openElement( 'div', array( 'class' => 'row eight columns' ) );
-		$stats = UserStats::getTranslationRankings( $languageCode, 30 );
+		$stats = $statsArray['translators'];
 		$i = 1;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
@@ -276,7 +312,7 @@ HTML;
 
 		$out .= Html::openElement( 'div', array( 'class' => 'row ranking' ) );
 		$out .= Html::openElement( 'div', array( 'class' => 'row eight columns' ) );
-		$stats = UserStats::getProofreadRankings( $languageCode, 30 );
+		$stats = $statsArray['proofreaders'];
 		$i = 1;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
