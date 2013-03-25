@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "DqsTN2zI",
+        "filename": "groups/MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 426,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-03-25T07:19:11Z",
+      "side": 1,
+      "message": "Was fixed in I04ccc1a7",
+      "revId": "2f469420fe530761b6bb818f4925a6720d44cbd6",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
