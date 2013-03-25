@@ -115,11 +115,30 @@ body {
 	margin: 10px;
 }
 
-.twn-mainpage-project-tile {
+.project-tile {
 	border: 1px solid black;
 	margin: 10px;
 	padding: 10px;
 	height: 200px;
+}
+
+.project-icon {
+	width: 100px;
+	height: 100%;
+}
+
+.project-name {
+	font-size: 22px;
+	height: 60px;
+}
+
+.tux-statsbar,
+.tux-statsbar span {
+	height: 7px;
+}
+
+.project-content > div {
+	padding: 10px;
 }
 
 

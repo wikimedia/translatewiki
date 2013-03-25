@@ -94,14 +94,43 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out = Html::element( 'div', array( 'class' => 'row twn-mainpage-project-selector-title' ),
 			'Choose a project to translate' );
 		$out .= Html::openElement( 'div', array( 'class' => 'row twn-mainpage-project-tiles' ) );
-		$out .= Html::openElement( 'div', array( 'class' => 'three columns twn-mainpage-project-tile' ) );
-		$out .= Html::closeElement( 'div' );
-		$out .= Html::openElement( 'div', array( 'class' => 'three columns twn-mainpage-project-tile' ) );
-		$out .= Html::closeElement( 'div' );
-		$out .= Html::openElement( 'div', array( 'class' => 'three columns twn-mainpage-project-tile' ) );
-		$out .= Html::closeElement( 'div' );
-		$out .= Html::openElement( 'div', array( 'class' => 'three columns twn-mainpage-project-tile' ) );
-		$out .= Html::closeElement( 'div' );
+
+		$projects = ProjectHandler::getProjects();
+		foreach ( $projects as $group ) {
+			$urls = ProjectHandler::getIcon( $group, 100 );
+			if ( isset( $urls['vector'] ) ) {
+				$url = $urls['vector'];
+			} elseif ( isset( $urls['raster'] ) ) {
+				$url = $urls['raster'];
+			} else {
+				$url = '';
+			}
+
+			$stats = MessageGroupStats::forItem( $group->getId(), $this->getLanguage()->getCode() );
+			$statsbar = StatsBar::getNew( $group->getId(), $this->getLanguage()->getCode(), $stats );
+
+			$translated = $stats[MessageGroupStats::TRANSLATED];
+			$proofread = $stats[MessageGroupStats::PROOFREAD];
+			if ( $stats[MessageGroupStats::TOTAL] ) {
+				$translated = round( 100 * $translated / $stats[MessageGroupStats::TOTAL] );
+				$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
+			}
+
+			$out .= Html::openElement( 'div', array( 'class' => 'three columns twn-mainpage-project-tile' ) );
+			$out .= Html::openElement( 'div', array( 'class' => 'project-tile' ) );
+			$out .= Html::rawElement( 'div', array( 'class' => 'project-icon four columns' ),
+				Html::element( 'img', array( 'src' => $url, 'width' => '100' ) )
+			);
+
+			$out .= Html::rawElement( 'div', array( 'class' => 'project-content eight columns' ),
+				Html::element( 'div', array( 'class' => 'row project-name' ), $group->getLabel( $this->getContext() ) ) .
+				Html::rawElement( 'div', array( 'class' => 'row project-stats' ), $statsbar->getHtml( $this->getContext() ) ) .
+				Html::rawElement( 'div', array( 'class' => 'row project-actions' ), "$translated% $proofread%" )
+			);
+			$out .= Html::closeElement( 'div' );
+			$out .= Html::closeElement( 'div' );
+		}
+
 		$out .= Html::closeElement( 'div' );
 		return $out;
 	}
@@ -152,20 +181,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 	// Callback for CachedStat
 	public static function getTwnStats() {
-		$groups = MessageGroups::getGroupStructure();
-		$projects = 0;
-		foreach ( $groups as $mixed ) {
-			if ( is_array( $mixed ) ) {
-				$group = array_shift( $mixed );
-			} else {
-				$group = $mixed;
-			}
-
-			if ( $group->getIcon() !== null ) {
-				$projects++;
-			}
-		}
-
+		$projects = count( ProjectHandler::getProjects() );
 		$translators = SiteStats::numberingroup( 'translator' );
 		$messages = count( MessageIndex::singleton()->retrieve() );
 		$languages = self::numberOfLanguages( 30 );
@@ -217,7 +233,7 @@ class SpecialTwnMainPage extends SpecialPage {
 				if ( $value === null ) {
 					$out .= <<<HTML
 <div class="four columns">
-	<div class=stats-tile unused></div>
+	<div class="stats-tile unused"></div>
 </div>
 HTML;
 					continue;
