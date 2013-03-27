@@ -58,7 +58,7 @@ class CachedStat implements DeferrableUpdate {
 		$value = wfGetCache( CACHE_ANYTHING )->get( $this->key );
 
 		if ( !is_array( $value ) ) {
-			$value = $this->doUpdate();
+			return $this->doUpdate();
 		}
 
 		if ( $value['t'] + $this->staleAge < wfTimestamp( TS_UNIX ) ) {
