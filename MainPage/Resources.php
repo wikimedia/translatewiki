@@ -15,7 +15,7 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 	'scripts' => 'resources/js/ext.translate.mainpage.js',
 	'styles' => 'resources/css/ext.translate.mainpage.css',
 	'dependencies' => array(
-		'ext.translate.grid',
+		'jquery.uls.grid',
 		'jquery.uls',
 		'ext.translate.statsbar',
 	),
