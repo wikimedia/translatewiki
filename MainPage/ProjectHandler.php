@@ -8,7 +8,6 @@
  */
 
 class ProjectHandler {
-
 	public static function getProjects() {
 		$projects = array();
 		$groups = MessageGroups::getGroupStructure();
@@ -27,6 +26,8 @@ class ProjectHandler {
 		return $projects;
 	}
 
+	// @todo FIXME: This is duplicate code Translate - ApiQueryMessageGroup. We can avoid
+	// duplication if we make getIcon of that API public static.
 	public static function getIcon( MessageGroup $g, $size ) {
 		global $wgServer;
 		$icon = $g->getIcon();
