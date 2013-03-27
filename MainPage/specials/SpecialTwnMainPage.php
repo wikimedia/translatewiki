@@ -95,6 +95,8 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out .= Html::openElement( 'div', array( 'class' => 'row twn-mainpage-project-tiles' ) );
 
 		$projects = ProjectHandler::getProjects();
+		ProjectHandler::sortByPriority( $projects, $this->getLanguage()->getCode() );
+
 		foreach ( $projects as $group ) {
 			$urls = ProjectHandler::getIcon( $group, 100 );
 			if ( isset( $urls['vector'] ) ) {
