@@ -259,9 +259,6 @@ file = TagsReport/SpecialTagsReport.i18n.php
 Task Manager
 file = TaskManager/SpecialTaskManager.i18n.php
 
-Text Regex
-aliasfile = TextRegex/TextRegex.alias.php
-
 Theme Designer
 
 Time Ago Messaging
