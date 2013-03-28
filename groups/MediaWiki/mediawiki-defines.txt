@@ -1706,4 +1706,4 @@ optional = zero-rated-mobile-access-banner-carrier-name-dialog-sri-lanka, zero-r
 optional = zero-rated-mobile-access-banner-carrier-name-orange-botswana, zero-rated-mobile-access-banner-carrier-name-hello-cambodia
 optional = zero-rated-mobile-access-banner-carrier-name-celcom-malaysia, zero-rated-mobile-access-banner-carrier-name-xl-axiata
 optional = zero-rated-mobile-access-banner-carrier-name-vimpelcom-beeline, zero-rated-mobile-access-banner-carrier-name-orange-meditel-morocco
-optional = zero-rated-mobile-access-banner-carrier-name-orange-central-african-republic
+optional = zero-rated-mobile-access-banner-carrier-name-orange-central-african-republic, zero-rated-mobile-access-banner-carrier-name-vimpelcom-mobilink-pakistan
