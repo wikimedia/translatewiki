@@ -98,7 +98,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		ProjectHandler::sortByPriority( $projects, $this->getLanguage()->getCode() );
 
 		foreach ( $projects as $group ) {
-			$urls = ProjectHandler::getIcon( $group, 100 );
+			$urls = TranslateUtils::getIcon( $group, 100 );
 			if ( isset( $urls['vector'] ) ) {
 				$url = $urls['vector'];
 			} elseif ( isset( $urls['raster'] ) ) {
