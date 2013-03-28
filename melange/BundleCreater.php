@@ -202,7 +202,11 @@ TEXT;
 			exec( "git rm .gitreview --quiet --ignore-unmatch" );
 
 			$notefile = $this->dir . "/notes/$version-$ext";
-			$contents = file_get_contents( $notefile );
+
+			// Sometimes these files pass through other editors,
+			// which save them with wrong file endings.
+			// Convert all endings to \n.
+			$contents = str_replace( array( "\r\n", "\r" ), "\n", file_get_contents( $notefile ) );
 			preg_match( '/^#---$(.*)^#---$/msU', $contents, $matches );
 			$notes = trim( $matches[1] );
 			$notes = "== $ext $version ==\nReleased at $date.\n\n$notes\n";
