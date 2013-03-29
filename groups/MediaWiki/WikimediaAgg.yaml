@@ -39,7 +39,6 @@ GROUPS:
   - ext-diff # change-id: 5f4c990f3a102f8ae51e4d7bd3f6cf15550a2bf4
   - ext-disableaccount # r86932 for some private wikis
   - ext-doublewiki # Wikisource
-  - ext-e3experiments # I9165d3c3d873a3be208908f7c0af930613bec45c
   - ext-echo # Change-Id: Ie22d3148476935b9fb7e294ba41aa53c69ed1c63
   - ext-editpagetracking # r93131 in connection with ext-moodbar
   - ext-educationprogram # 2012-06-14 change id: Id3ea0259072e3aa7a508e5c61f03a0f23ec5fc2e
@@ -57,7 +56,6 @@ GROUPS:
   - ext-insider # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-labeledsectiontransclusion # Wikisource
   - ext-landingcheck
-  - ext-lastmodified # 2012-06-14: enwiki
   - ext-ldapauthentication # 2011-12-28: labsconsole.wikimedia.org
   - ext-liquidthreads # 2009-11-11: MediaWiki.org and some *.labs.wikimedia.org
   - ext-listings # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
