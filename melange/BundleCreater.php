@@ -306,7 +306,7 @@ WIKITEXT;
 
 		foreach ( $this->conf['extensions'] as $ext => $checkout ) {
 			$notefile = $this->dir . "/notes/$version-$ext";
-			$contents = file_get_contents( $notefile );
+			$contents = str_replace( array( "\r\n", "\r" ), "\n", file_get_contents( $notefile ) );
 			preg_match( '/^#---$(.*)^#---$/msU', $contents, $matches );
 			if ( !isset( $matches[1] ) ) {
 				echo "Could not parse notes for extension $ext\n";
