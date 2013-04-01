@@ -49,11 +49,12 @@ aliasfile = ApprovedRevs/ApprovedRevs.alias.php
 
 Arrays
 
-Article Feedback
-aliasfile = ArticleFeedback/ArticleFeedback.alias.php
-optional = articlefeedback-form-panel-helpimprove-email-placeholder
-optional = articlefeedback-table-noratings
-ignored = articlefeedback-pitch-edit-body
+# Unmaintained by Wikimedia, no longer deployed.
+#Article Feedback
+#aliasfile = ArticleFeedback/ArticleFeedback.alias.php
+#optional = articlefeedback-form-panel-helpimprove-email-placeholder
+#optional = articlefeedback-table-noratings
+#ignored = articlefeedback-pitch-edit-body
 
 Article Feedback v5
 aliasfile = ArticleFeedbackv5/ArticleFeedbackv5.alias.php
