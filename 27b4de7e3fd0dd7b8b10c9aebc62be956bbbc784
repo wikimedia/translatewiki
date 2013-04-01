@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "DrADTx2A",
+        "filename": "MainPage/specials/SpecialTwnMainPage.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-04-01T19:05:00Z",
+      "side": 1,
+      "message": "This is a bad way to make links.",
+      "revId": "27b4de7e3fd0dd7b8b10c9aebc62be956bbbc784",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
