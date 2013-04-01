@@ -18,6 +18,8 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 		'jquery.uls.grid',
 		'jquery.uls',
 		'ext.translate.statsbar',
+		'mediawiki.util',
+		'mediawiki.Uri',
 	),
 	'position' => 'top',
 ) + $resourcePaths;
