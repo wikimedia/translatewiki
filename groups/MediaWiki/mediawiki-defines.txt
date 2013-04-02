@@ -541,6 +541,8 @@ Force Preview
 
 Formel Applet
 
+Foxway
+
 Fundraiser Landing Page
 # Alias file not added for translation. This special page is not visible for the user/reader. Raymond 2011-10-24
 ignored = fundraiserlandingpage-wmch-landing-page, fundraiserlandingpage-wmde-landing-page
