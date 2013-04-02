@@ -1,7 +1,7 @@
 ---
 BASIC:
   description: "{{int:translate-group-desc-wikimedia-mobile-commons}}"
-  icon: wiki://File:Commons-icon.svg
+  icon: wiki://Commons-icon.svg
   namespace: NS_WIKIMEDIA
   id: out-wikimedia-mobile-commons-ios
   label: Commons iOS Mobile

@@ -1,7 +1,7 @@
 TEMPLATE:
   BASIC:
     description: "{{int:translate-group-desc-wikimedia-mobile-commons}}"
-    icon: wiki://File:Commons-icon.svg
+    icon: wiki://Commons-icon.svg
     namespace: NS_WIKIMEDIA
     class: FileBasedMessageGroup
 
