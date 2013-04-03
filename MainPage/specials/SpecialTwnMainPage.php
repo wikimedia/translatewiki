@@ -70,7 +70,7 @@ class SpecialTwnMainPage extends SpecialPage {
 			$out .= Html::element( 'a',
 				array(
 					'class' => 'login column text-right',
-					'href' =>  SpecialPage::getTitleFor( 'UserLogin' )
+					'href' => SpecialPage::getTitleFor( 'Userlogin' )
 						->getLocalUrl( array( 'returnto' => 'Special:MainPage' ) ),
 				)
 				, 'Login' );
@@ -169,7 +169,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		), 'Languages supported' );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
-			'href' => SpecialPage::getTitleFor( 'SpecialPages' )->getLocalUrl(),
+			'href' => SpecialPage::getTitleFor( 'Specialpages' )->getLocalUrl(),
 		), 'Special pages' );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
@@ -304,7 +304,62 @@ HTML;
 	}
 
 	public function loginForm() {
-		$out = Html::element( 'div', array( 'class' => 'five columns main-widget login-widget' ) );
+		$languageCode = $this->getLanguage()->getCode();
+		$languageName = TranslateUtils::getLanguageName( $languageCode );
+
+		// Shortcut for creating row elements
+		$row = array( 'class' => 'row' );
+
+		$out = Html::openElement( 'form',
+			array( 'class' => 'five columns offset-by-one main-widget login-widget',
+				'method' => 'post',
+				'action' => SpecialPage::getTitleFor( 'Userlogin' )
+					->getLocalUrl( array(
+						'returnto' => 'Special:MainPage',
+						'type' => 'signup' ) ),
+			) );
+		$out .= Html::element( 'h1', $row, 'Become a translator' );
+		$out .= Html::element( 'h2', $row, 'Choose languages you know' );
+		$out .= Xml::checkLabel( $languageName, 'wpLanguage1','wpLanguage1', true );
+		$out .= Html::openElement( 'div', $row );
+		$out .= Html::element( 'div', array(
+			'class' => 'eight columns offset-by-one signup-language-selector'
+		), 'Choose another language...' );
+		$out .= Html::closeElement( 'div' );
+		$out .= Html::element( 'h2', $row, 'Fill in your account details' );
+		$out .= Html::openElement( 'div', $row );
+		$out .= Html::element( 'input', array(
+			'class' => 'eleven columns',
+			'name' => 'wpName',
+			'placeholder' => 'Username',
+		) );
+		$out .= Html::closeElement( 'div' );
+
+		$out .= Html::openElement( 'div', $row );
+		$out .= Html::element( 'input', array(
+			'class' => 'eleven columns',
+			'name' => 'wpPassword',
+			'type' => 'password',
+			'placeholder' => 'Password',
+		) );
+		$out .= Html::closeElement( 'div' );
+
+		$out .= Html::openElement( 'div', $row );
+		$out .= Html::element( 'input', array(
+			'class' => 'eleven columns',
+			'name' => 'wpEmail',
+			'type' => 'email',
+			'placeholder' => 'Email',
+		) );
+		$out .= Html::closeElement( 'div' );
+
+		$out .= Html::openElement( 'div', $row );
+		$out .= Html::element( 'button', array(
+			'class' => 'six columns green button offset-by-three',
+		), 'Create account' );
+		$out .= Html::closeElement( 'div' );
+
+		$out .= Html::closeElement( 'form' );
 		return $out;
 	}
 
