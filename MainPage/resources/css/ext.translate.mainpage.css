@@ -267,15 +267,15 @@ button.button.green:active {
 	width: 100%;
 }
 
-.search-label {
+.twn-mainpage-search {
 	/* @embed */
-	background: transparent url('../images/search.png') no-repeat scroll right center;
+	background: #000 url('../images/search.png') no-repeat scroll left center;
 	background-image: -webkit-linear-gradient(transparent, transparent), url('../images/search.svg');
 	background-image: -moz-linear-gradient(transparent, transparent), url('../images/search.svg');
 	background-image: linear-gradient(transparent, transparent), url('../images/search.svg');
 	background-size: 30px;
-	height: 32px;
-	width: 32px;
+	height: 50px;
+	padding: 10px 10px 10px 40px;
 	float: left;
 }
 
