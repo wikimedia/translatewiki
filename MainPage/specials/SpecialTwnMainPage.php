@@ -61,12 +61,21 @@ class SpecialTwnMainPage extends SpecialPage {
 				'class' => 'uls-trigger column',
 			)
 			, 'English' );
-		$out .= Html::element( 'a',
-			array(
-				'class' => 'login column text-right',
-				'href' => "$wgScript?title=Special:UserLogin&returnto=Special%3AMainPage",
-			)
-			, 'Login' );
+		if ( $this->getUser()->isLoggedIn() ) {
+			$out .= Html::element( 'a',
+				array(
+					'class' => 'login username column text-right',
+					'href' => Title::makeTitle( NS_USER, $this->getUser()->getName() )->getLocalUrl(),
+				)
+				, $this->getUser()->getName() );
+		} else {
+			$out .= Html::element( 'a',
+				array(
+					'class' => 'login column text-right',
+					'href' => "$wgScript?title=Special:UserLogin&returnto=Special%3AMainPage",
+				)
+				, 'Login' );
+		}
 		$out .= Html::closeElement( 'div' );
 		return $out;
 	}
@@ -155,15 +164,15 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out .= Html::element( 'a', array( 'class' => 'three column' ), 'About' );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
-			'href' => "$wgScript?title=Special:SupportedLanguages",
+			'href' => SpecialPage::getTitleFor( 'SupportedLanguages' )->getLocalUrl(),
 		), 'Languages supported' );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
-			'href' => "$wgScript?title=Special:SpecialPages",
+			'href' => SpecialPage::getTitleFor( 'SpecialPages' )->getLocalUrl(),
 		), 'Special pages' );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
-			'href' => "$wgScript?title=Translating:Index",
+			'href' => Title::newFromText( 'Translating:Index' )->getLocalUrl(),
 		), 'Help' );
 		$out .= Html::closeElement( 'div' );
 		return $out;
@@ -312,7 +321,7 @@ HTML;
 
 		$out = Html::openElement( 'div', array( 'class' => 'five columns main-widget stats-widget' ) );
 
-		$out .= Html::openElement( 'div', array( 'class' => 'row' ) );
+		$out .= Html::openElement( 'div', array( 'class' => 'row user-stats-title' ) );
 		$out .= Html::element( 'h2', array(), 'Your translation statistics' );
 		$out .= Html::element( 'div', array(), $languageName );
 		$out .= Html::closeElement( 'div' );
@@ -363,6 +372,12 @@ HTML;
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'div' );
 
+		$out .= Html::openElement( 'div', array( 'class' => 'row langstats-link-row' ) );
+		$out .= Html::element( 'a', array(
+				'class' => 'twelve columns langstats-link',
+				'href' => SpecialPage::getTitleFor( 'LanguageStats' )->getLocalUrl(),
+			), 'View language statistics' );
+		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'div' );
 		return $out;
 	}
