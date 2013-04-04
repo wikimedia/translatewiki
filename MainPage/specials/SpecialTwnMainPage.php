@@ -88,7 +88,7 @@ class SpecialTwnMainPage extends SpecialPage {
 			) );
 		$out .= Html::element( 'input',
 			array(
-				'class' => 'eleven columns searchbox',
+				'class' => 'ten columns searchbox',
 				'placeholder' => 'Find and fix translations',
 				'type' => 'search',
 				'name' => 'query',
@@ -96,7 +96,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		$out .= Html::element( 'button',
 			array(
-				'class' => 'one column end blue button',
+				'class' => 'columns end blue button',
 				'type' => 'submit',
 			),
 			'Find' );

@@ -4,6 +4,7 @@ body {
 
 .twn-mainpage {
 	background-color: #fff;
+	color: #252525;
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -46,14 +47,18 @@ body {
 }
 
 .twn-mainpage-banner {
-	min-height: 500px;
-	background: transparent url('../banners/dance.jpg') no-repeat scroll left 40%;
+	background: transparent url('../banners/dance.jpg') no-repeat scroll left center;
 	background-size: 100%;
 }
 
 .twn-mainpage-search {
-	padding: 5px;
-	background-color: #000;
+	padding: 7px 5px;
+	background-color: #252525;
+	box-shadow: 0 2px 3px;
+}
+
+.twn-mainpage-stats-tiles {
+	margin: 10px 0 150px 5px;
 }
 
 .stats-tile-row {
@@ -65,7 +70,7 @@ body {
 	color: white;
 	height: 130px;
 	margin: auto;
-	max-width: 130px;
+	width: 80%;
 	padding: 10px;
 	opacity: 0.9;
 }
@@ -76,14 +81,18 @@ body {
 
 .stats-number {
 	font-size: 50px;
+	opacity: 0.9;
 }
 
 .stats-text {
 	font-size: 18px;
+	opacity: 0.85;
+	font-weight:normal;
 }
 
 .main-widget {
-	background-color: #eee;
+	background-color: #F8F8F8;
+	color: #252525;
 	max-height: 580px;
 	opacity: 0.95;
 	margin: 10px;
@@ -104,15 +113,29 @@ body {
 	border-bottom: none;
 }
 
+.main-widget h2 {
+	border: none;
+	color: #252525;
+}
+
+.main-widget > .row {
+	padding: 10px 5px;
+}
+
 .ranking {
 	background-color: white;
 	padding: 10px;
-	border-bottom: 2px solid #eee;
+	border-top: 1px solid #EEEEEE;
 }
 
 .ranking .count {
 	font-size: 29px;
 	font-weight: bold;
+}
+
+.ranking .button {
+	width: 80%;
+	min-height: 30px;
 }
 
 .ranking .count-description {
@@ -121,7 +144,8 @@ body {
 
 .ranking .rank-description,
 .ranking .language-description {
-	font-size: 16px;
+	color: #555555;
+	font-size: 15px;
 }
 
 .row.langstats-link-row {
@@ -140,8 +164,12 @@ a.langstats-link {
 	height: 32px;
 }
 
+.twn-mainpage-search button {
+	width: 12%;
+}
+
 .twn-mainpage-footer {
-	background-color: #bbbbbb;
+	background-color: #E6E6E6;
 	height: 50px;
 	font-size: 16px;
 	padding: 10px;
@@ -264,7 +292,10 @@ button.button.green:active {
 }
 
 .searchbox {
-	width: 100%;
+	border: 1px solid #777777;
+	height: 32px;
+	margin: 0 5px;
+	-webkit-appearance: none;
 }
 
 .twn-mainpage-search {
@@ -277,16 +308,43 @@ button.button.green:active {
 	height: 50px;
 	padding: 10px 10px 10px 40px;
 	float: left;
+	margin-left: -15px;
 }
 
 .twn-mainpage-project-selector-title {
 	font-size: 16pt;
-	padding: 10px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	padding: 25px 10px 15px 10px;
+	border-bottom: 1px solid #DDDDDD;
 }
 
 .twn-mainpage-footer a {
 	text-align: center;
 	color: #3366BB;
+}
+
+
+@media all and (max-width: 1200px) {
+	.stats-tile {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 700px) {
+	.row .six.columns, .row .five.columns {
+		width: 100%;
+		margin: 5px 0;
+	}
+
+	.twn-mainpage-stats-tiles {
+		margin-bottom: 10px;
+	}
+
+	.stats-widget {
+		opacity: 1;
+	}
+
+	.twn-mainpage-banner {
+		background-position: top left;
+	}
+
 }
