@@ -1,9 +1,9 @@
 # Siebrand / 2008-02-09
 # should be run as user 'siebrand' because pywikipediabot checks ownership of user-config.py
 
-# create basic stats file for groups 'most used', 'core', 'Wikimedia extensions', and 'All extensions'
+# create basic stats file for groups 'most used', 'core', 'Main Wikimedia extensions', 'Wikimedia extensions', and 'All extensions'
 cd /www/w/extensions/Translate/scripts
-/usr/bin/php groupStatistics.php --skipzero --groups=core-0-mostused,core,ext-0-wikimedia,ext-0-all,ext-flaggedrevs-0-all --skiplanguages="test, qqq, als, be-x-old, crh, de-at, de-ch, de-formal, dk, en-gb, fiu-vro, gan, got, hif, kbd, kk, kk-cn, iu, kk-kz, kk-tr, ko-kp, ku, ku-arab, no, ruq, simple, sr, tg, tp, tt, ug, zh, zh-classical, zh-cn, zh-sg, zh-hk, zh-min-nan, zh-mo, zh-my, zh-tw, zh-yue, bbc, ady" > $HOME/temp/groupstats.txt
+/usr/bin/php groupStatistics.php --skipzero --groups=core-0-mostused,core,ext-0-wikimedia-main,ext-0-wikimedia,ext-0-all,ext-translate-0-all,ext-flaggedrevs-0-all --skiplanguages="test, qqq, als, be-x-old, crh, de-at, de-ch, de-formal, dk, en-ca, en-gb, es-formal, fiu-vro, gan, got, hif, hu-formal, kbd, kk, kk-cn, iu, kk-kz, kk-tr, ko-kp, ku, ku-arab, nl-informal, no, ruq, simple, sr, tg, tp, tt, ug, zh, zh-classical, zh-cn, zh-sg, zh-hk, zh-min-nan, zh-mo, zh-my, zh-tw, zh-yue, bbc, ady" > $HOME/temp/groupstats.txt
 
 # put SVN version of Betawiki in a variable
 SVN_VERSION=`/usr/bin/svn info /www/w |grep "^Revision" |cut -b 11-`
