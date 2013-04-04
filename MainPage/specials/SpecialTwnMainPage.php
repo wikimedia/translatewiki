@@ -81,24 +81,26 @@ class SpecialTwnMainPage extends SpecialPage {
 	}
 
 	public function searchBar() {
-		$out = Html::openElement( 'div', array( 'class' => 'row twn-mainpage-search' ) );
-		$out .= Html::element( 'span',
+		$out = Html::openElement( 'form',
 			array(
-				'class' => 'one column search-label',
+				'class' => 'row twn-mainpage-search',
+				'action' => SpecialPage::getTitleFor( 'SearchTranslations' )->getLocalUrl(),
 			) );
 		$out .= Html::element( 'input',
 			array(
-				'class' => 'ten columns searchbox',
+				'class' => 'eleven columns searchbox',
 				'placeholder' => 'Find and fix translations',
 				'type' => 'search',
+				'name' => 'query',
 			) );
 
 		$out .= Html::element( 'button',
 			array(
 				'class' => 'one column end blue button',
+				'type' => 'submit',
 			),
 			'Find' );
-		$out .= Html::closeElement( 'div' );
+		$out .= Html::closeElement( 'form' );
 		return $out;
 	}
 
