@@ -10,6 +10,16 @@ body {
 	margin-right: 5%;
 }
 
+.twn-mainpage-header {
+	/* @embed */
+	background: transparent url('//translatewiki.net/static/logo.png') no-repeat scroll left center;
+	/*FIXME: we need svgs too*/
+	background-size: 50px;
+	padding-left: 55px;
+	padding-bottom: 5px;
+	height: 75px;
+}
+
 .twn-mainpage-header .uls-trigger {
 	background-position: bottom left;
 	padding-left: 30px;
@@ -17,23 +27,15 @@ body {
 	padding-top: 50px;
 }
 
-.twn-mainpage-title { /* @embed */
-	background: transparent url('//translatewiki.net/static/logo.png') no-repeat scroll left center;
-	/*FIXME: we need svgs too*/
-	background-size: 50px;
-	height: 75px;
-}
-
 .twn-mainpage-title .twn-brand-name {
-	padding-left: 50px;
-	padding-top: 20px;
+	padding-top: 18px;
 	font-size: 24px;
 }
 
 .twn-mainpage-title .twn-brand-motto {
-	padding-left: 50px;
 	padding-top: 5px;
 	font-size: 16px;
+	color: #555555;
 }
 
 .twn-mainpage-header {
@@ -96,7 +98,6 @@ body {
 	max-height: 580px;
 	opacity: 0.95;
 	margin: 10px;
-	padding: 10px;
 }
 
 .user-stats-title {
@@ -119,7 +120,7 @@ body {
 }
 
 .main-widget > .row {
-	padding: 10px 5px;
+	padding: 10px;
 }
 
 .ranking {
@@ -134,7 +135,7 @@ body {
 }
 
 .ranking .button {
-	width: 80%;
+	min-width: 80%;
 	min-height: 30px;
 }
 
@@ -153,7 +154,7 @@ body {
 }
 
 a.langstats-link {
-	font-size: 16pt;
+	font-size: 14pt;
 	padding: 10px;
 }
 
@@ -299,16 +300,24 @@ button.button.green:active {
 }
 
 .twn-mainpage-search {
+	height: 50px;
+	padding: 10px 10px 10px 60px;
+	position:relative;
+}
+
+.twn-mainpage-search:before {
+	display: inline-block;
+	content: "";
 	/* @embed */
-	background: #000 url('../images/search.png') no-repeat scroll left center;
+	background: #252525 url('../images/search.png') no-repeat scroll left center;
 	background-image: -webkit-linear-gradient(transparent, transparent), url('../images/search.svg');
 	background-image: -moz-linear-gradient(transparent, transparent), url('../images/search.svg');
 	background-image: linear-gradient(transparent, transparent), url('../images/search.svg');
 	background-size: 30px;
-	height: 50px;
-	padding: 10px 10px 10px 40px;
-	float: left;
-	margin-left: -15px;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	left: 25px;
 }
 
 .twn-mainpage-project-selector-title {
