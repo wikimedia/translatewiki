@@ -412,7 +412,9 @@ ignored = accesskey-drafts-save
 
 Dynamic Sidebar
 
-E3 Experiments
+# Removed from WMF cluster: https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commitdiff;h=1d72fba3461ad3e0a94ea5425e6ade65e5a96203
+# Very WMF centric, unlikely to be used by third parties
+# E3 Experiments
 
 Echo
 aliasfile = Echo/Echo.alias.php
