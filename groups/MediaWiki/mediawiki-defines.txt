@@ -329,6 +329,10 @@ Data Values - Value Validators
 file = DataValues/ValueValidators/ValueValidators.i18n.php
 descmsg = valuevalidators-desc
 
+Data Values - Value View
+file = DataValues/ValueView/ValueView.i18n.php
+descmsg = valueview-desc
+
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
 
