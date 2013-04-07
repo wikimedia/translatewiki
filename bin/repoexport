@@ -36,7 +36,7 @@ then
 elif [ "$PROJECT" = "freecol" ]
 then
 	php "$EXPORTER" --target . --group=out-freecol --lang '*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-freecol --lang qqq
+	#php "$EXPORTER" --target . --group=out-freecol --lang qqq
 
 elif [ "$PROJECT" = "frontlinesms" ]
 then
