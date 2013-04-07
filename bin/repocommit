@@ -227,10 +227,6 @@ elif [ "$PROJECT" = "WiktionaryMobile" ]
 then
 	gitcommitNoCheck "$PROJECT"
 
-elif [ "$PROJECT" = "WLMMobile" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
 else
 	echo "Unknown project"
 	exit 1

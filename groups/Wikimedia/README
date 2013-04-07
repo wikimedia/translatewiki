@@ -6,6 +6,5 @@ $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Wikimedia/jquery-uls
 $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Wikimedia/WikiBlame.yaml";
 $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Wikimedia/WikipediaMobile.yaml";
 $wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Wikimedia/WiktionaryMobile.yaml";
-$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Wikimedia/WLMMobile.yaml";
 
 See ..\bin\repo* for further details.

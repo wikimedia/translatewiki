@@ -301,10 +301,6 @@ elif [ "$PROJECT" = "WiktionaryMobile" ]
 then
 	gitupdate "$PROJECT"
 
-elif [ "$PROJECT" = "WLMMobile" ]
-then
-	gitupdate "$PROJECT"
-
 else
 	echo "Unknown project"
 	exit 1

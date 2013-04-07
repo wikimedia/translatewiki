@@ -241,11 +241,6 @@ then
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wiktionary --lang '*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wiktionary --lang qqq
 
-elif [ "$PROJECT" = "WLMMobile" ]
-then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wlm --lang '*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wlm --lang qqq
-
 else
 	echo "repoexport: Unknown project"
 	exit 1
