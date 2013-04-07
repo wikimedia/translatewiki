@@ -26,37 +26,40 @@ gitupdate() {
 	cd ..
 }
 
-if [ "$PROJECT" = "commons-android" ]
-then
-	gitupdate "$PROJECT"
+GITUPDATEPROJECTS="\
+commons-android \
+commons-ios \
+eol \
+freecol \
+frontlinesms \
+fuel \
+jquery.uls \
+kiwix \
+mifos \
+shapado \
+toolserver \
+vicuna \
+waymarked-trails-site \
+WikipediaMobile \
+WikipediaMobileJ2ME \
+wikireader \
+WikisourceMobile \
+WiktionaryMobile"
 
-elif [ "$PROJECT" = "commons-ios" ]
-then
-	gitupdate "$PROJECT"
+for i in $GITUPDATEPROJECTS; do
+	if [ "$i" = "$PROJECT" ]
+	then
+		gitupdate "$PROJECT"
+	fi
+done
 
-elif [ "$PROJECT" = "eol" ]
-then
-	gitupdate "$PROJECT"
-
-elif [ "$PROJECT" = "etherpad-lite" ]
+if [ "$PROJECT" = "etherpad-lite" ]
 then
 	gitupdate "$PROJECT" $REPO_ETHERPADLITE_BRANCH
-
-elif [ "$PROJECT" = "freecol" ]
-then
-	gitupdate "$PROJECT"
-
-elif [ "$PROJECT" = "frontlinesms" ]
-then
-	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "fudforum" ]
 then
 	svn up $PROJECT
-
-elif [ "$PROJECT" = "fuel" ]
-then
-	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "ihris" ]
 then
@@ -67,14 +70,6 @@ then
 		bzr pull
 		cd ..
 	done
-
-elif [ "$PROJECT" = "jquery.uls" ]
-then
-	gitupdate "$PROJECT"
-
-elif [ "$PROJECT" = "kiwix" ]
-then
-	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "mantis" ]
 then
@@ -171,10 +166,6 @@ then
 		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || /home/betawiki/config/bin/udpcast Message index creation failed &
 	fi
 
-elif [ "$PROJECT" = "mifos" ]
-then
-	gitupdate "$PROJECT"
-
 elif [ "$PROJECT" = "mozilla" ]
 then
 	# This does not make sense if there are no supported languages.
@@ -253,22 +244,6 @@ elif [ "$PROJECT" = "pywikipedia" ]
 then
 	svn up $PROJECT
 
-elif [ "$PROJECT" = "shapado" ]
-then
-	gitupdate "$PROJECT"
-
-elif [ "$PROJECT" = "toolserver" ]
-then
-	gitupdate "$PROJECT"
-
-elif [ "$PROJECT" = "vicuna" ]
-then
-	gitupdate "$PROJECT"
-
-elif [ "$PROJECT" = "waymarked-trails-site" ]
-then
-	gitupdate "$PROJECT"
-
 elif [ "$PROJECT" = "wikia" ]
 then
 	gitupdate "$PROJECT" $REPO_WIKIA_BRANCH
@@ -276,26 +251,6 @@ then
 elif [ "$PROJECT" = "wikiblame" ]
 then
 	svn up $PROJECT
-
-elif [ "$PROJECT" = "WikipediaMobile" ]
-then
-	gitupdate "$PROJECT"
-
-elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
-then
-	gitupdate "$PROJECT"
-
-elif [ "$PROJECT" = "wikireader" ]
-then
-	gitupdate "$PROJECT"
-
-elif [ "$PROJECT" = "WikisourceMobile" ]
-then
-	gitupdate "$PROJECT"
-
-elif [ "$PROJECT" = "WiktionaryMobile" ]
-then
-	gitupdate "$PROJECT"
 
 else
 	echo "Unknown project"
