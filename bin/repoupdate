@@ -15,7 +15,12 @@ gitupdate() {
 	local dir=$1
 	cd $dir
 	git fetch -q --all
-	git reset -q --hard
+	if [ -z "$2" ]
+	then
+		git reset -q --hard origin/$2
+	else
+		git reset -q --hard origin/master
+	fi
 	git clean -q -f -d
 	git pull -q
 	cd ..
@@ -35,7 +40,7 @@ then
 
 elif [ "$PROJECT" = "etherpad-lite" ]
 then
-	gitupdate "$PROJECT"
+	gitupdate "$PROJECT" "develop"
 
 elif [ "$PROJECT" = "freecol" ]
 then
@@ -269,13 +274,7 @@ then
 
 elif [ "$PROJECT" = "wikia" ]
 then
-	cd $PROJECT
-	git checkout -q $REPO_WIKIA_BRANCH
-	git fetch -q --all
-	git reset -q --hard
-	git clean -q -f -d
-	git pull -q
-	cd ..
+	gitupdate "$PROJECT" dev
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
