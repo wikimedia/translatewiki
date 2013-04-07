@@ -17,9 +17,9 @@ gitupdate() {
 	git fetch -q --all
 	if [ -z "$2" ]
 	then
-		git reset -q --hard origin/$2
-	else
 		git reset -q --hard origin/master
+	else
+		git reset -q --hard origin/$2
 	fi
 	git clean -q -f -d
 	git pull -q
@@ -40,7 +40,7 @@ then
 
 elif [ "$PROJECT" = "etherpad-lite" ]
 then
-	gitupdate "$PROJECT" "develop"
+	gitupdate "$PROJECT" $REPO_ETHERPADLITE_BRANCH
 
 elif [ "$PROJECT" = "freecol" ]
 then
@@ -78,7 +78,7 @@ then
 
 elif [ "$PROJECT" = "mantis" ]
 then
-	gitupdate "$PROJECT"
+	gitupdate "$PROJECT" $REPO_MANTIS_BRANCH
 
 elif [ "$PROJECT" = "mediawiki" ]
 then
@@ -271,7 +271,7 @@ then
 
 elif [ "$PROJECT" = "wikia" ]
 then
-	gitupdate "$PROJECT" dev
+	gitupdate "$PROJECT" REPO_WIKIA_BRANCH
 
 elif [ "$PROJECT" = "wikiblame" ]
 then

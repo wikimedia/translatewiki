@@ -9,6 +9,7 @@ REPO_COMMONSANDROID=git://github.com/wikimedia/android-commons.git
 REPO_COMMONSIOS=git://github.com/wikimedia/Commons-iOS.git
 REPO_EOL=git://github.com/EOL/eol.git
 REPO_ETHERPADLITE=git://github.com/ether/etherpad-lite.git
+REPO_ETHERPADLITE_BRANCH="develop"
 REPO_FREECOL=git://git.code.sf.net/p/freecol/git
 REPO_FRONTLINESMS=git://github.com/frontlinesms/frontlinesms.git
 REPO_FUDFORUM=https://fudforum.svn.sourceforge.net/svnroot/fudforum/trunk/install/forum_data/thm/default/i18n
