@@ -132,7 +132,7 @@ then
 elif [ "$PROJECT" = "mwlib" ]
 then
 	php "$EXPORTER" --target . --group=out-mwlibrl --lang '*' --skip en,qqq --threshold 10 $HOURS
-	php "$EXPORTER" --target . --group=out-mwlibrl --lang qqq
+	#php "$EXPORTER" --target . --group=out-mwlibrl --lang qqq
 
 	cd mwlib.rl
 	FILEDIR=`pwd`
