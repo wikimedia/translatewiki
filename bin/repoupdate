@@ -271,7 +271,7 @@ then
 
 elif [ "$PROJECT" = "wikia" ]
 then
-	gitupdate "$PROJECT" REPO_WIKIA_BRANCH
+	gitupdate "$PROJECT" $REPO_WIKIA_BRANCH
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
