@@ -107,8 +107,8 @@ then
 	then echo "Add REPO_MANTIS_BRANCH to REPOCONF"; exit 1
 	fi
 
-	git clone "$REPO_MANTIS"
-	cd mantisbt
+	git clone "$REPO_MANTIS" $PROJECT
+	cd $PROJECT
 	git checkout -q --track origin/${REPO_MANTIS_BRANCH}
 	cd ..
 

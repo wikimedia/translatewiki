@@ -90,7 +90,6 @@ then
 
 elif [ "$PROJECT" = "mantis" ]
 then
-	PROJECT=mantisbt
 	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "mediawiki" ]

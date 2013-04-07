@@ -78,10 +78,7 @@ then
 
 elif [ "$PROJECT" = "mantis" ]
 then
-	cd mantisbt
-	git checkout -q $REPO_MANTIS_BRANCH
-	git pull -q
-	cd ..
+	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "mediawiki" ]
 then

@@ -104,8 +104,8 @@ BASIC:
   label: MantisBT - Core
 
 FILES:
-  sourcePattern: %GROUPROOT%/mantisbt/lang/strings_%CODE%.txt
-  targetPattern: mantisbt/lang/strings_%CODE%.txt
+  sourcePattern: %GROUPROOT%/mantis/lang/strings_%CODE%.txt
+  targetPattern: mantis/lang/strings_%CODE%.txt
 
 TAGS:
   optional:
@@ -126,8 +126,8 @@ BASIC:
   description: "{{int:translate-group-desc-mantisbt-plugin-core}}"
 
 FILES:
-  sourcePattern: %GROUPROOT%/mantisbt/plugins/MantisCoreFormatting/lang/strings_%CODE%.txt
-  targetPattern: mantisbt/plugins/MantisCoreFormatting/lang/strings_%CODE%.txt
+  sourcePattern: %GROUPROOT%/mantis/plugins/MantisCoreFormatting/lang/strings_%CODE%.txt
+  targetPattern: mantis/plugins/MantisCoreFormatting/lang/strings_%CODE%.txt
 
 ---
 BASIC:
@@ -136,8 +136,8 @@ BASIC:
   description: "{{int:translate-group-desc-mantisbt-plugin-core}}"
 
 FILES:
-  sourcePattern: %GROUPROOT%/mantisbt/plugins/MantisGraph/lang/strings_%CODE%.txt
-  targetPattern: mantisbt/plugins/MantisGraph/lang/strings_%CODE%.txt
+  sourcePattern: %GROUPROOT%/mantis/plugins/MantisGraph/lang/strings_%CODE%.txt
+  targetPattern: mantis/plugins/MantisGraph/lang/strings_%CODE%.txt
 
 ---
 BASIC:
@@ -146,5 +146,5 @@ BASIC:
   description: "{{int:translate-group-desc-mantisbt-plugin-core}}"
 
 FILES:
-  sourcePattern: %GROUPROOT%/mantisbt/plugins/XmlImportExport/lang/strings_%CODE%.txt
-  targetPattern: mantisbt/plugins/XmlImportExport/lang/strings_%CODE%.txt
+  sourcePattern: %GROUPROOT%/mantis/plugins/XmlImportExport/lang/strings_%CODE%.txt
+  targetPattern: mantis/plugins/XmlImportExport/lang/strings_%CODE%.txt
