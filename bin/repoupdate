@@ -126,7 +126,7 @@ then
 
 	echo "Updating git extensions"
 	count=0
-	EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(Gitweb|SelectTag.tag|TranslationNotifcations)")
+	EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(FundraisingEmailUnsubscribe)")
 	for EXTENSION in $EXTENSIONS
 	do
 		echo "Checking $EXTENSION"
