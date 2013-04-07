@@ -41,8 +41,6 @@ class SpecialTwnMainPage extends SpecialPage {
 	}
 
 	public function header() {
-		global $wgScript;
-
 		$out = Html::openElement( 'div', array( 'class' => 'row twn-mainpage-header' ) );
 		$out .= Html::openElement( 'div', array( 'class' => 'ten columns twn-mainpage-title' ) );
 		$out .= Html::element( 'div',
@@ -60,7 +58,7 @@ class SpecialTwnMainPage extends SpecialPage {
 			array(
 				'class' => 'uls-trigger column',
 			)
-			, 'English' );
+			, Language::fetchLanguageName( $this->getLanguage()->getCode() ) );
 		if ( $this->getUser()->isLoggedIn() ) {
 			$out .= Html::element( 'a',
 				array(
@@ -72,7 +70,8 @@ class SpecialTwnMainPage extends SpecialPage {
 			$out .= Html::element( 'a',
 				array(
 					'class' => 'login column text-right',
-					'href' => "$wgScript?title=Special:UserLogin&returnto=Special%3AMainPage",
+					'href' =>  SpecialPage::getTitleFor( 'UserLogin' )
+						->getLocalUrl( array( 'returnto' => 'Special:MainPage' ) ),
 				)
 				, 'Login' );
 		}
