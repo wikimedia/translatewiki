@@ -75,7 +75,6 @@ GROUPS:
   - ext-postedit # change-id: f462cfdb6df56cb2e0ab3b5c94cd32073516989e
   - ext-proofreadpage # Wikisource
   - ext-randomrootpage # 2012-05-16, change-Id: I31e2dc16deb13b3a029656802a69893f36602b98
-  - ext-readerfeedback-0-all
   - ext-relatedarticles # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-relatedsites # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-rss # 2010-11-25: Wikimediafoundation.org
