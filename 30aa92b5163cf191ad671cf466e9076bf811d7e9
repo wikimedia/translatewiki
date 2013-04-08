@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "DtG7GT04",
+        "filename": "bin/repocommit",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-04-08T10:27:31Z",
+      "side": 1,
+      "message": "I don\u0027t think this needs arrays. \n\nYou can do FOO\u003d\"foo bar bax\" and \"for i in $FOO;\"  works as well.",
+      "revId": "30aa92b5163cf191ad671cf466e9076bf811d7e9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "DtE7JE1s",
+        "filename": "bin/repocommit",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-04-08T10:27:31Z",
+      "side": 1,
+      "message": "spaces",
+      "revId": "30aa92b5163cf191ad671cf466e9076bf811d7e9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
