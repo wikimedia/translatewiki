@@ -438,7 +438,9 @@ $wgAllowCopyUploads         = true;
 
 $wgDefaultUserOptions['usenewrc'] = 1;
 # Disabled 2012-08-20 / Nike / Too spammy/buggy.
-#$wgDefaultUserOptions['lqtnotifytalk'] = true;
+# 2013-02-24 / Should be fixed now, bug 39513.
+# Bug 47000
+$wgDefaultUserOptions['lqtnotifytalk'] = true;
 $wgDefaultUserOptions['watchcreations'] = true;
 
 $wgResourceLoaderValidateJS = false;
