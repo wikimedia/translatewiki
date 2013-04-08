@@ -98,7 +98,39 @@ body {
 	color: #252525;
 	max-height: 580px;
 	opacity: 0.95;
+	padding: 10px;
+	max-width: 500px;
+}
+
+.main-widget label {
+	font-size: 14pt;
+}
+
+.main-widget input {
+	padding: 10px;
+	font-size: 16pt;
+	border: 1px solid #555;
 	margin: 10px;
+}
+
+.main-widget button {
+	height: 32px;
+	padding: 10px;
+	font-size: 20pt;
+	margin: 10px;
+}
+
+.main-widget h1,
+.main-widget h2 {
+	border-bottom: none;
+	padding: 10px;
+}
+
+.signup-language-selector {
+	font-size: 12pt;
+	background-color: #eee;
+	margin: 10px;
+	cursor: pointer;
 }
 
 .user-stats-title {
