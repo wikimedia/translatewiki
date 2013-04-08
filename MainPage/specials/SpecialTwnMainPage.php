@@ -76,6 +76,7 @@ class SpecialTwnMainPage extends SpecialPage {
 				, 'Login' );
 		}
 		$out .= Html::closeElement( 'div' );
+
 		return $out;
 	}
 
@@ -100,6 +101,7 @@ class SpecialTwnMainPage extends SpecialPage {
 			),
 			'Find' );
 		$out .= Html::closeElement( 'form' );
+
 		return $out;
 	}
 
@@ -147,6 +149,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		}
 
 		$out .= Html::closeElement( 'div' );
+
 		return $out;
 	}
 
@@ -155,6 +158,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out .= $this->twnStats();
 		$out .= $this->userWidget();
 		$out .= Html::closeElement( 'div' );
+
 		return $out;
 	}
 
@@ -174,6 +178,7 @@ class SpecialTwnMainPage extends SpecialPage {
 			'href' => Title::newFromText( 'Translating:Index' )->getLocalUrl(),
 		), 'Help' );
 		$out .= Html::closeElement( 'div' );
+
 		return $out;
 	}
 
@@ -209,6 +214,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		$translators = SiteStats::numberingroup( 'translator' );
 		$messages = count( MessageIndex::singleton()->retrieve() );
 		$languages = self::numberOfLanguages( 30 );
+
 		return array(
 			'projects' => $projects,
 			'translators' => $translators,
@@ -282,7 +288,6 @@ HTML;
 	</div>
 </div>
 HTML;
-
 			}
 
 			$out .= '</div>';
@@ -318,7 +323,7 @@ HTML;
 			) );
 		$out .= Html::element( 'h1', $row, 'Become a translator' );
 		$out .= Html::element( 'h2', $row, 'Choose languages you know' );
-		$out .= Xml::checkLabel( $languageName, 'wpLanguage1','wpLanguage1', true );
+		$out .= Xml::checkLabel( $languageName, 'wpLanguage1', 'wpLanguage1', true );
 		$out .= Html::openElement( 'div', $row );
 		$out .= Html::element( 'div', array(
 			'class' => 'eight columns offset-by-one signup-language-selector'
@@ -358,6 +363,7 @@ HTML;
 		$out .= Html::closeElement( 'div' );
 
 		$out .= Html::closeElement( 'form' );
+
 		return $out;
 	}
 
@@ -372,7 +378,6 @@ HTML;
 		);
 		$statsArray = $cacher->get();
 
-
 		$out = Html::openElement( 'div', array( 'class' => 'five columns main-widget stats-widget' ) );
 
 		$out .= Html::openElement( 'div', array( 'class' => 'row user-stats-title' ) );
@@ -380,9 +385,7 @@ HTML;
 		$out .= Html::element( 'div', array(), $languageName );
 		$out .= Html::closeElement( 'div' );
 
-
 		$myuser = $this->getUser()->getName();
-
 
 		$out .= Html::openElement( 'div', array( 'class' => 'row ranking' ) );
 		$out .= Html::openElement( 'div', array( 'class' => 'row eight columns' ) );
@@ -428,11 +431,12 @@ HTML;
 
 		$out .= Html::openElement( 'div', array( 'class' => 'row langstats-link-row' ) );
 		$out .= Html::element( 'a', array(
-				'class' => 'twelve columns langstats-link',
-				'href' => SpecialPage::getTitleFor( 'LanguageStats' )->getLocalUrl(),
-			), 'View language statistics' );
+			'class' => 'twelve columns langstats-link',
+			'href' => SpecialPage::getTitleFor( 'LanguageStats' )->getLocalUrl(),
+		), 'View language statistics' );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'div' );
+
 		return $out;
 	}
 }

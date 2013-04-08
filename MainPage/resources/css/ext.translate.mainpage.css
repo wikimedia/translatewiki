@@ -90,7 +90,7 @@ body {
 .stats-text {
 	font-size: 18px;
 	opacity: 0.85;
-	font-weight:normal;
+	font-weight: normal;
 }
 
 .main-widget {
@@ -300,7 +300,7 @@ button.button.green {
 	background-image: -webkit-linear-gradient(top, #00974b, #008740);
 	border: 1px #0f9b3b solid;
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00974b', endColorstr='#008740', GradientType=0)";
-	filter: progid:dximagetransform.microsoft.gradient(startColorstr = '#00974b', endColorstr = '#008740', GradientType = 0);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#00974b', endColorstr='#008740', GradientType=0);
 }
 
 button.button.green:hover {
@@ -311,7 +311,7 @@ button.button.green:hover {
 	background-image: -webkit-linear-gradient(top, #10a65b, #119750);
 	background-image: linear-gradient(#10a65b, #119750);
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#10a65b', endColorstr='#119750', GradientType=0)";
-	filter: progid:dximagetransform.microsoft.gradient(startColorstr = '#10a65b', endColorstr = '#119750', GradientType = 0);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#10a65b', endColorstr='#119750', GradientType=0);
 }
 
 button.button.green:active {
@@ -322,7 +322,7 @@ button.button.green:active {
 	background-image: -webkit-linear-gradient(top, #007236, #007236);
 	background-image: linear-gradient(#007236, #007236);
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#007236', endColorstr='#007236', GradientType=0)";
-	filter: progid:dximagetransform.microsoft.gradient(startColorstr = '#007236', endColorstr = '#007236', GradientType = 0);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#007236', endColorstr='#007236', GradientType=0);
 }
 
 .searchbox {
@@ -335,7 +335,7 @@ button.button.green:active {
 .twn-mainpage-search {
 	height: 50px;
 	padding: 10px 10px 10px 60px;
-	position:relative;
+	position: relative;
 }
 
 .twn-mainpage-search:before {
@@ -363,7 +363,6 @@ button.button.green:active {
 	text-align: center;
 	color: #3366BB;
 }
-
 
 @media all and (max-width: 1200px) {
 	.stats-tile {
