@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "Dt7.9P2Q",
+        "filename": "bin/repocommit",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-04-09T06:51:43Z",
+      "side": 1,
+      "message": "still spaces",
+      "revId": "464a8a6a35106994a15e6e969e4c3d97c3938b75",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
