@@ -51,6 +51,7 @@ class CachedStat implements DeferrableUpdate {
 		);
 
 		wfGetCache( CACHE_ANYTHING )->set( $this->key, $toStore, $this->expiredAge );
+
 		return $value;
 	}
 
@@ -89,6 +90,7 @@ class CachedStatJob extends Job {
 
 	function run() {
 		$this->params['obj']->doUpdate();
+
 		return true;
 	}
 }

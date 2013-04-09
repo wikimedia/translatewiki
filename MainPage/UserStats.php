@@ -15,7 +15,6 @@ class UserStats {
 		$weekago = $now - $days * 24 * 60 * 60;
 		$ret = array();
 
-
 		$dbr = wfGetDB( DB_SLAVE );
 
 		$fields = array(
@@ -61,13 +60,11 @@ class UserStats {
 			if ( $res->numRows() < 1000 ) {
 				break;
 			}
-
 		}
 
 		arsort( $ret );
 
 		return $ret;
-
 	}
 
 	public static function getProofreadRankings( $language, $days = 7 ) {
@@ -76,7 +73,6 @@ class UserStats {
 		$now = wfTimestamp( TS_UNIX );
 		$weekago = $now - $days * 24 * 60 * 60;
 		$ret = array();
-
 
 		$dbr = wfGetDB( DB_SLAVE );
 
@@ -106,6 +102,5 @@ class UserStats {
 		arsort( $ret );
 
 		return $ret;
-
 	}
 }

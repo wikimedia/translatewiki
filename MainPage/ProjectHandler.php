@@ -23,6 +23,7 @@ class ProjectHandler {
 				$projects[] = $group;
 			}
 		}
+
 		return $projects;
 	}
 
@@ -50,9 +51,8 @@ class ProjectHandler {
 			if ( $aVal === $bVal ) {
 				return 0;
 			} else {
-				return ($aVal > $bVal) ? -1 : 1;
+				return ( $aVal > $bVal ) ? -1 : 1;
 			}
 		} );
 	}
-
 }
