@@ -45,7 +45,7 @@ class ProjectHandler {
 			$bStats = MessageGroupStats::forItem( $b->getId(), $language );
 
 			$aVal = $aStats[MessageGroupStats::PROOFREAD];
-			$bVal = $aStats[MessageGroupStats::PROOFREAD];
+			$bVal = $bStats[MessageGroupStats::PROOFREAD];
 
 			if ( $aVal === $bVal ) {
 				return 0;
