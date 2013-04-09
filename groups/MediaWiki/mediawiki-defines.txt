@@ -1673,9 +1673,6 @@ Wikimedia Creative Commons License Texts
 file = WikimediaMessages/WikimediaCCLicenseTexts.i18n.php
 optional = wm-license-cc-wiki-link, wm-license-cc-pd-mark-link
 
-Wikimedia Labs Messages
-file = WikimediaMessages/WikimediaLabsMessages.i18n.php
-
 Wikimedia License Texts
 file = WikimediaMessages/WikimediaLicenseTexts.i18n.php
 optional = wm-license-cecill-wiki-link, wm-license-cecill-full-link, wm-license-fal-wiki-link, wm-license-fal-full-link
