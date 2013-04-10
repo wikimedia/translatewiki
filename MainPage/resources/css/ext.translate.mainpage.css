@@ -50,8 +50,21 @@ body {
 }
 
 .twn-mainpage-banner {
-	background: transparent url('../banners/dance.jpg') no-repeat scroll left center;
+	/* Actual image is added in php */
+	background: transparent none no-repeat scroll left center;
 	background-size: 100%;
+}
+
+.banner-attribution {
+	color: #FFF;
+	clear: left;
+	font-size: 10px;
+	padding: 10px 10px 20px 10px;
+	position: relative;
+}
+
+.banner-attribution a {
+	color: #FFF;
 }
 
 .twn-mainpage-search {
@@ -61,7 +74,7 @@ body {
 }
 
 .twn-mainpage-stats-tiles {
-	margin: 10px 0 150px 5px;
+	margin: 10px 0 50px 5px;
 }
 
 .stats-tile-row {
