@@ -1,6 +1,6 @@
 TEMPLATE:
   BASIC:
-    description: "Beta. Unicorns. Bunnies."
+    description: "{{int:translate-group-desc-fuel}}"
     namespace: NS_FUEL
     class: FileBasedMessageGroup
 
