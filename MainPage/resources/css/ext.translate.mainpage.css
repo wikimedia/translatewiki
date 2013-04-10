@@ -221,6 +221,11 @@ a.langstats-link {
 	border: 2px solid #3366BB;
 }
 
+.project-tile.more {
+	font-size: 50px;
+	cursor: pointer;
+}
+
 .project-icon {
 	width: 100px;
 	height: 100%;

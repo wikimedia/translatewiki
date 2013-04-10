@@ -16,6 +16,7 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 	'styles' => 'resources/css/ext.translate.mainpage.css',
 	'dependencies' => array(
 		'ext.uls.interface',
+		'ext.translate.groupselector',
 		'ext.translate.statsbar',
 		'mediawiki.util',
 		'mediawiki.Uri',

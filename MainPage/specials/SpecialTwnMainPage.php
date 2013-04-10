@@ -113,42 +113,60 @@ class SpecialTwnMainPage extends SpecialPage {
 		$projects = ProjectHandler::getProjects();
 		ProjectHandler::sortByPriority( $projects, $this->getLanguage()->getCode() );
 
+		$tiles = array();
+
 		foreach ( $projects as $group ) {
-			$urls = TranslateUtils::getIcon( $group, 100 );
-			if ( isset( $urls['vector'] ) ) {
-				$url = $urls['vector'];
-			} elseif ( isset( $urls['raster'] ) ) {
-				$url = $urls['raster'];
-			} else {
-				$url = '';
+			$tiles[] = $this->makeGroupTile( $group );
+			if ( count( $tiles ) === 8 ) {
+				break;
 			}
-
-			$stats = MessageGroupStats::forItem( $group->getId(), $this->getLanguage()->getCode() );
-			$statsbar = StatsBar::getNew( $group->getId(), $this->getLanguage()->getCode(), $stats );
-
-			$translated = $stats[MessageGroupStats::TRANSLATED];
-			$proofread = $stats[MessageGroupStats::PROOFREAD];
-			if ( $stats[MessageGroupStats::TOTAL] ) {
-				$translated = round( 100 * $translated / $stats[MessageGroupStats::TOTAL] );
-				$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
-			}
-
-			$out .= Html::openElement( 'div', array( 'class' => 'three columns twn-mainpage-project-tile' ) );
-			$out .= Html::openElement( 'div', array( 'class' => 'project-tile' ) );
-			$out .= Html::rawElement( 'div', array( 'class' => 'project-icon four columns' ),
-				Html::element( 'img', array( 'src' => $url, 'width' => '100' ) )
-			);
-
-			$out .= Html::rawElement( 'div', array( 'class' => 'project-content eight columns' ),
-				Html::element( 'div', array( 'class' => 'row project-name' ), $group->getLabel( $this->getContext() ) ) .
-					Html::rawElement( 'div', array( 'class' => 'row project-stats' ), $statsbar->getHtml( $this->getContext() ) ) .
-					Html::rawElement( 'div', array( 'class' => 'row project-actions' ), "$translated% $proofread%" )
-			);
-			$out .= Html::closeElement( 'div' );
-			$out .= Html::closeElement( 'div' );
 		}
 
+
+		$out .= implode( "\n\n", $tiles );
 		$out .= Html::closeElement( 'div' );
+
+		return $out;
+	}
+
+	protected function makeGroupTile( MessageGroup $group ) {
+		$urls = TranslateUtils::getIcon( $group, 100 );
+		if ( isset( $urls['vector'] ) ) {
+			$url = $urls['vector'];
+		} elseif ( isset( $urls['raster'] ) ) {
+			$url = $urls['raster'];
+		} else {
+			$url = '';
+		}
+
+		$uiLanguage = $this->getLanguage();
+		$stats = MessageGroupStats::forItem( $group->getId(),$uiLanguage->getCode() );
+		$statsbar = StatsBar::getNew( $group->getId(), $uiLanguage->getCode(), $stats );
+
+		$translated = $stats[MessageGroupStats::TRANSLATED];
+		$proofread = $stats[MessageGroupStats::PROOFREAD];
+		if ( $stats[MessageGroupStats::TOTAL] ) {
+			$translated = round( 100 * $translated / $stats[MessageGroupStats::TOTAL] );
+			$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
+		}
+
+		$image = Html::element( 'img', array( 'src' => $url, 'width' => '100' ) );
+		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
+		$stats = $statsbar->getHtml( $this->getContext() );
+		$acts = "$translated% $proofread%";
+
+		$out = <<<HTML
+<div class="three columns twn-mainpage-project-tile">
+	<div class="project-tile">
+		<div class="project-icon four columns">$image</div>
+		<div class="project-content eight columns">
+			<div class="row project-name">$label</div>
+			<div class="row project-stats">$stats</div>
+			<div class="row project-actions">$acts</div>
+		</div>
+	</div>
+</div>
+HTML;
 
 		return $out;
 	}
