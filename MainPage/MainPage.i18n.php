@@ -47,3 +47,18 @@ $messages['he'] = array(
 
 	'twnmp-bannerwho' => 'תמונה $1',
 );
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'twnmp-desc' => 'Bevat de hoofdpagina van translatewiki.net',
+	'twnmp-mainpage' => 'Startpagina',
+
+	'twnmp-s-translators' => 'Vertalers',
+	'twnmp-s-projects' => 'Projecten',
+	'twnmp-s-languages' => 'Talen',
+	'twnmp-s-messages' => 'Vertaaleenheden',
+
+	'twnmp-bannerwho' => 'Afbeelding: $1',
+);
