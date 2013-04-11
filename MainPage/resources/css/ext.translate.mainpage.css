@@ -224,9 +224,8 @@ a.langstats-link {
 }
 
 .project-tile {
-	border: 1px solid black;
+	border: 2px solid black;
 	margin: 10px;
-	padding: 10px;
 	height: 200px;
 }
 
@@ -234,14 +233,18 @@ a.langstats-link {
 	border: 2px solid #3366BB;
 }
 
-.project-icon {
-	width: 100px;
-	height: 100%;
+.project-tile.more {
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.project-icon img {
+	padding: 10px;
 }
 
 .project-name {
 	font-size: 22px;
-	height: 60px;
+	height: 100px;
 }
 
 .tux-statsbar,
@@ -249,8 +252,33 @@ a.langstats-link {
 	height: 7px;
 }
 
+.project-statsbar {
+	height: 10px;
+}
+
+.project-stats {
+	height: 40px;
+}
+
+.project-content,
+.project-icon {
+	height: 150px;
+}
+
 .project-content > div {
 	padding: 10px;
+}
+
+.project-top {
+	height: 150px;
+}
+
+.project-actions {
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	background-color: black;
+	cursor: pointer;
 }
 
 button.button {
