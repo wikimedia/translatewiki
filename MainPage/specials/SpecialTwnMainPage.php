@@ -155,14 +155,29 @@ class SpecialTwnMainPage extends SpecialPage {
 		$stats = $statsbar->getHtml( $this->getContext() );
 		$acts = "$translated% $proofread%";
 
+		$title = SpecialPage::getTitleFor( 'Translate' );
+		$translate = Html::element( 'a', array(
+				'href' => $title->getLocalUrl( array( 'group' => $group->getId() ) )
+			), 'Translate' );
+
+		$proofread = Html::element( 'a', array(
+				'href' => $title->getLocalUrl( array( 'group' => $group->getId(), 'action' => 'proofread' ) )
+			), 'Proofread' );
+
 		$out = <<<HTML
 <div class="three columns twn-mainpage-project-tile">
 	<div class="project-tile">
-		<div class="project-icon four columns">$image</div>
-		<div class="project-content eight columns">
-			<div class="row project-name">$label</div>
-			<div class="row project-stats">$stats</div>
-			<div class="row project-actions">$acts</div>
+		<div class="row project-top">
+			<div class="project-icon four columns">$image</div>
+			<div class="project-content eight columns">
+				<div class="row project-name">$label</div>
+				<div class="row project-statsbar">$stats</div>
+				<div class="row project-stats">$acts</div>
+			</div>
+		</div>
+		<div class="row project-actions hide">
+			<div class="six columns action">$translate</div>
+			<div class="six columns action">$proofread</div>
 		</div>
 	</div>
 </div>
