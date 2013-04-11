@@ -19,7 +19,7 @@ class SpecialTwnMainPage extends SpecialPage {
 	}
 
 	public function getDescription() {
-		return $this->msg( 'twnmp-mainpage' );
+		return $this->msg( 'twnmp-mainpage' )->text();
 	}
 
 	public function execute( $parameters ) {
