@@ -18,7 +18,6 @@ GROUPS:
   - ext-charinsert
   - ext-checkuser
   - ext-cldr # r88299 on all wikis
-  - ext-clicktracking
   - ext-clientside # usability.wikimedia.org
   - ext-codeeditor # Change-Id: e4e8857a55b0a89707525ecdd9dff54a4cc02f6d
   - ext-codereview # MediaWiki.org
