@@ -1266,6 +1266,10 @@ Sidebar Donate Box
 # Disabled for the time of review: https://gerrit.wikimedia.org/r/#/c/7999/
 # Signup API
 
+Sign Writing MediaWiki Plugin
+file = SignWritingMediaWikiPlugin/swmp.i18n.php
+descmsg = swmp-desc
+
 Simple Anti Spam
 
 Simple Farm
