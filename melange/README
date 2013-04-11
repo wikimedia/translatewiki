@@ -1,3 +1,7 @@
+-1) Update the version number of Translate extension to the current date
+0) Update documentation pages on mediawiki.org
+ - https://www.mediawiki.org/wiki/Help:Extension:Translate/Configuration
+ - https://www.mediawiki.org/wiki/Help:Extension:Translate/Hooks
 1) Update config.ini
 2) Run php melange.php make-release or run php melange.php to see
    what actions are available to run them one by one. Stuff will
