@@ -29,31 +29,36 @@ gitcommitNoCheck() {
 	cd ..
 }
 
-if [ "$PROJECT" = "commons-android" ]
-then
-	gitcommitNoCheck "$PROJECT"
+GITCOMMITNOCHECKPROJECTS="\
+commons-android \
+commons-ios \
+eol \
+etherpad-lite \
+freecol \
+frontlinesms \
+fuel \
+jquery.uls \
+kiwix \
+mantis \
+mifos \
+shapado \
+toolserver \
+vicuna \
+waymarked-trails-site \
+WikipediaMobile \
+WikipediaMobileJ2ME \
+wikireader \
+WikisourceMobile \
+WiktionaryMobile"
 
-elif [ "$PROJECT" = "commons-ios" ]
-then
-	gitcommitNoCheck "$PROJECT"
+for i in $GITCOMMITNOCHECKPROJECTS; do
+	if [ "$i" = "$PROJECT" ]
+	then
+		gitcommitNoCheck "$PROJECT"
+	fi
+done
 
-elif [ "$PROJECT" = "eol" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "etherpad-lite" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "freecol" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "frontlinesms" ]
-then
-	gitcommit "$PROJECT"
-
-elif [ "$PROJECT" = "fudforum" ]
+if [ "$PROJECT" = "fudforum" ]
 then
 	cd $PROJECT
 	for i in `find . -name msg`
@@ -65,10 +70,6 @@ then
 	svn commit --message "$COMMITMSG"
 	cd ..
 
-elif [ "$PROJECT" = "fuel" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
 elif [ "$PROJECT" = "ihris" ]
 then
 	cd $PROJECT
@@ -79,18 +80,6 @@ then
 		bzr commit -m "$COMMITMSG"
 		cd ..
 	done
-
-elif [ "$PROJECT" = "jquery.uls" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "kiwix" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "mantis" ]
-then
-	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "mediawiki" ]
 then
@@ -124,10 +113,6 @@ then
 		echo "Merging ${i}..."
 		ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit review $i,1 --code-review 2 --verified 2 --submit
 	done
-
-elif [ "$PROJECT" = "mifos" ]
-then
-	gitcommitNoCheck "$PROJECT"
 
 elif [ "$PROJECT" = "mwlib" ]
 then
@@ -179,52 +164,12 @@ then
 	svn commit --message "$COMMITMSG"
 	cd ..
 
-elif [ "$PROJECT" = "shapado" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "toolserver" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "vicuna" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "waymarked-trails-site" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "wikia" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
 elif [ "$PROJECT" = "wikiblame" ]
 then
 	cd $PROJECT
 	svn propset -q svn:eol-style native *.php
 	svn commit --message "$COMMITMSG"
 	cd ..
-
-elif [ "$PROJECT" = "WikipediaMobile" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "wikireader" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "WikisourceMobile" ]
-then
-	gitcommitNoCheck "$PROJECT"
-
-elif [ "$PROJECT" = "WiktionaryMobile" ]
-then
-	gitcommitNoCheck "$PROJECT"
 
 else
 	echo "Unknown project"
