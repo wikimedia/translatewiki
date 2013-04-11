@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "DuPDI2CQ",
+        "filename": "bin/repocommit",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-04-11T15:22:51Z",
+      "side": 1,
+      "message": "Like in the other file, I would have the exit here after gitcommitNoCheck (just in case someone tries to do something after calling that function.",
+      "revId": "91a182adba8f3aaa50f25bae8d2fcc5b0044528c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
