@@ -50,6 +50,7 @@ for i in $GITUPDATEPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
 	then
 		gitupdate "$PROJECT"
+		exit 0
 	fi
 done
 
