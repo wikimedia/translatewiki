@@ -31,3 +31,15 @@ $wgExtensionMessagesFiles['MainPageAlias'] = "$dir/MainPage.alias.php";
 $wgSpecialPages['TwnMainPage'] = 'SpecialTwnMainPage';
 
 $wgJobClasses['CachedStatJob'] = 'CachedStatJob';
+
+$wgMainPageImages = array();
+
+// Example
+$wgExtensionFunctions[] = function ()  {
+	global $wgMainPageImages, $wgExtensionAssetsPath;
+	$wgMainPageImages[] = array(
+		'url' => "$wgExtensionAssetsPath/MainPage/resources/banners/dance.jpg",
+		'attribution' => '<a href="http://www.flickr.com/photos/ldhendrix/7389351416/">CC-BY ldhendrix</a>',
+	);
+	return true;
+};

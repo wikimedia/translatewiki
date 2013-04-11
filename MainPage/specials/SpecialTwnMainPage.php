@@ -154,9 +154,31 @@ class SpecialTwnMainPage extends SpecialPage {
 	}
 
 	public function banner() {
-		$out = Html::openElement( 'div', array( 'class' => 'row twn-mainpage-banner' ) );
+		global $wgMainPageImages;
+
+		$image = array();
+		$images = array_values( $wgMainPageImages );
+		$imageIndex = date( 'z' ) % count( $images );
+		if ( isset( $images[$imageIndex] ) ) {
+			$image = $images[$imageIndex];
+		}
+
+		$bannerAttribs = array( 'class' => 'row twn-mainpage-banner' );
+		if ( isset( $image['url'] ) ) {
+			$url = $image['url'];
+			$bannerAttribs['style'] = "background-image: url($url);";
+		}
+
+		$out = Html::openElement( 'div', $bannerAttribs );
 		$out .= $this->twnStats();
 		$out .= $this->userWidget();
+
+		if ( isset( $image['attribution'] ) ) {
+			$out .= Html::rawElement( 'div', array( 'class' => 'banner-attribution' ),
+				$this->msg( 'twnmp-bannerwho', $image['attribution'] )->plain()
+			);
+		}
+
 		$out .= Html::closeElement( 'div' );
 
 		return $out;
