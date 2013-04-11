@@ -338,6 +338,17 @@ $wgHooks['BeforePageDisplay'][] = function( &$out ) {
 	return true;
 };
 
+require_once( "$CONF/MainPage/MainPage.php" );
+$wgMainPageImages[] = array(
+	'url' => "http://upload.wikimedia.org/wikipedia/commons/thumb/6/67/%281%29_Nepean_River.jpg/1024px-%281%29_Nepean_River.jpg",
+	'attribution' => '<a href="http://commons.wikimedia.org/wiki/File:(1)_Nepean_River.jpg">CC-BY Hermione9753</a>',
+);
+
+$wgMainPageImages[] = array(
+	'url' => "http://upload.wikimedia.org/wikipedia/commons/e/ea/Farm-poster.jpg",
+	'attribution' => '<a href="http://commons.wikimedia.org/wiki/File:Farm-poster.jpg">CC-BY-SA Mlane78212</a>',
+);
+
 $wgUseExternalEditor = false;
 $wgHiddenPrefs[] = 'stubthreshold';
 $wgHiddenPrefs[] = 'userid';
