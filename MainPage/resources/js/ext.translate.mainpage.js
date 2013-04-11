@@ -3,7 +3,7 @@
  * @author Niklas Laxström
  * @license GPL2+
  */
-(function ( $, mw ) {
+( function ( $, mw ) {
 	'use strict';
 
 	$( document ).ready( function () {
