@@ -55,6 +55,7 @@ for i in $GITCOMMITNOCHECKPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
 	then
 		gitcommitNoCheck "$PROJECT"
+		exit 0
 	fi
 done
 
