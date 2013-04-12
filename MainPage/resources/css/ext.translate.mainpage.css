@@ -224,13 +224,9 @@ a.langstats-link {
 }
 
 .project-tile {
-	border: 2px solid black;
+	border: 1px solid #252525;
 	margin: 10px;
 	height: 200px;
-}
-
-.project-tile:hover {
-	border: 2px solid #3366BB;
 }
 
 .project-tile.more {
@@ -277,8 +273,50 @@ a.langstats-link {
 	text-align: center;
 	height: 50px;
 	line-height: 50px;
-	background-color: black;
+	background-color: #252525;
+}
+
+.project-actions a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 20px;
 	cursor: pointer;
+}
+
+.project-tile span.translate {
+	padding-left: 20px;
+	padding-right: 20px;
+	background: transparent url(../images/view-list.png) left top no-repeat;
+	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/view-list.svg);
+	background-image: -moz-linear-gradient(transparent, transparent), url(../images/view-list.svg);
+	/* @embed */
+	background-image: linear-gradient(transparent, transparent), url(../images/view-list.svg);
+}
+
+.project-tile span.proofread {
+	padding-left: 20px;
+	padding-right: 20px;
+	background: transparent url(../images/view-proofread.png) left top no-repeat;
+	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/view-proofread.svg);
+	background-image: -moz-linear-gradient(transparent, transparent), url(../images/view-proofread.svg);
+	/* @embed */
+	background-image: linear-gradient(transparent, transparent), url(../images/view-proofread.svg);
+}
+
+.project-actions a.translate {
+	background: transparent url(../images/view-list-hi.png) left top no-repeat;
+	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/view-list-hi.svg);
+	background-image: -moz-linear-gradient(transparent, transparent), url(../images/view-list-hi.svg);
+	/* @embed */
+	background-image: linear-gradient(transparent, transparent), url(../images/view-list-hi.svg);
+}
+
+.project-actions a.proofread {
+	background: transparent url(../images/view-proofread-hi.png) left top no-repeat;
+	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/view-proofread-hi.svg);
+	background-image: -moz-linear-gradient(transparent, transparent), url(../images/view-proofread-hi.svg);
+	/* @embed */
+	background-image: linear-gradient(transparent, transparent), url(../images/view-proofread-hi.svg);
 }
 
 button.button {

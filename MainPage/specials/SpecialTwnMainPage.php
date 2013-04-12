@@ -155,14 +155,18 @@ class SpecialTwnMainPage extends SpecialPage {
 		$image = Html::element( 'img', array( 'src' => $url, 'width' => '100' ) );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 		$stats = $statsbar->getHtml( $this->getContext() );
-		$acts = "$translated% $proofread%";
+		$acts =
+			Html::element( 'span', array( 'class' => 'translate' ), "$translated%" ) .
+			Html::element( 'span', array( 'class' => 'proofread' ), "$proofread%" );
 
 		$title = SpecialPage::getTitleFor( 'Translate' );
 		$translate = Html::element( 'a', array(
+				'class' => 'translate',
 				'href' => $title->getLocalUrl( array( 'group' => $group->getId() ) )
 			), $this->msg( 'twnmp-translate-button' )->text() );
 
 		$proofread = Html::element( 'a', array(
+				'class' => 'proofread',
 				'href' => $title->getLocalUrl( array( 'group' => $group->getId(), 'action' => 'proofread' ) )
 			), $this->msg( 'twnmp-proofread-button' )->text() );
 
