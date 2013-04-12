@@ -176,7 +176,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		<div class="row project-top">
 			<div class="project-icon four columns">$image</div>
 			<div class="project-content eight columns">
-				<div class="row project-name">$label</div>
+				<div class="row project-name" dir="auto">$label</div>
 				<div class="row project-statsbar">$stats</div>
 				<div class="row project-stats">$acts</div>
 			</div>
@@ -228,19 +228,19 @@ HTML;
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
 			'href' =>Title::newFromText( 'Special:MyLanguage/Project:About' )->getLocalUrl(),
-		), 'About' );
+		), $this->msg( 'twnmp-bottom-about' )->text() );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
 			'href' => SpecialPage::getTitleFor( 'SupportedLanguages' )->getLocalUrl(),
-		), 'Languages supported' );
+		), $this->msg( 'twnmp-bottom-languages-supported' )->text() );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
 			'href' => SpecialPage::getTitleFor( 'Specialpages' )->getLocalUrl(),
-		), 'Special pages' );
+		), $this->msg( 'twnmp-bottom-special-pages' )->text() );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
 			'href' => Title::newFromText( 'Translating:Index' )->getLocalUrl(),
-		), 'Help' );
+		), $this->msg( 'twnmp-bottom-help' )->text() );
 		$out .= Html::closeElement( 'div' );
 
 		return $out;
@@ -385,20 +385,20 @@ HTML;
 						'returnto' => 'Special:MainPage',
 						'type' => 'signup' ) ),
 			) );
-		$out .= Html::element( 'h1', $row, 'Become a translator' );
-		$out .= Html::element( 'h2', $row, 'Choose languages you know' );
+		$out .= Html::element( 'h1', $row, $this->msg( 'twnmp-become-translator' )->text() );
+		$out .= Html::element( 'h2', $row, $this->msg( 'twnmp-choose-languages-you-know' )->text() );
 		$out .= Xml::checkLabel( $languageName, 'wpLanguage1', 'wpLanguage1', true );
 		$out .= Html::openElement( 'div', $row );
 		$out .= Html::element( 'div', array(
 			'class' => 'eight columns offset-by-one signup-language-selector'
-		), 'Choose another language...' );
+		), $this->msg( 'twnmp-choose-another-language' )->text() );
 		$out .= Html::closeElement( 'div' );
-		$out .= Html::element( 'h2', $row, 'Fill in your account details' );
+		$out .= Html::element( 'h2', $row, $this->msg( 'twnmp-choose-fill-account-details' )->text() );
 		$out .= Html::openElement( 'div', $row );
 		$out .= Html::element( 'input', array(
 			'class' => 'eleven columns',
 			'name' => 'wpName',
-			'placeholder' => 'Username',
+			'placeholder' => $this->msg( 'twnmp-signup-username-placeholder' )->text(), // @todo IE doesn't support placeholders
 		) );
 		$out .= Html::closeElement( 'div' );
 
@@ -407,7 +407,7 @@ HTML;
 			'class' => 'eleven columns',
 			'name' => 'wpPassword',
 			'type' => 'password',
-			'placeholder' => 'Password',
+			'placeholder' => $this->msg( 'twnmp-signup-password-placeholder' )->text(), // @todo IE doesn't support placeholders
 		) );
 		$out .= Html::closeElement( 'div' );
 
@@ -416,14 +416,14 @@ HTML;
 			'class' => 'eleven columns',
 			'name' => 'wpEmail',
 			'type' => 'email',
-			'placeholder' => 'Email',
+			'placeholder' => $this->msg( 'twnmp-signup-email-placeholder' )->text(), // @todo IE doesn't support placeholders
 		) );
 		$out .= Html::closeElement( 'div' );
 
 		$out .= Html::openElement( 'div', $row );
 		$out .= Html::element( 'button', array(
 			'class' => 'six columns green button offset-by-three',
-		), 'Create account' );
+		), $this->msg( 'twnmp-create-account-button' )->text() );
 		$out .= Html::closeElement( 'div' );
 
 		$out .= Html::closeElement( 'form' );
@@ -445,7 +445,7 @@ HTML;
 		$out = Html::openElement( 'div', array( 'class' => 'five columns main-widget stats-widget' ) );
 
 		$out .= Html::openElement( 'div', array( 'class' => 'row user-stats-title' ) );
-		$out .= Html::element( 'h2', array(), 'Your translation statistics' );
+		$out .= Html::element( 'h2', array(), $this->msg( 'twnmp-your-translations-stats' )->text() );
 		$out .= Html::element( 'div', array(), $languageName );
 		$out .= Html::closeElement( 'div' );
 
@@ -484,7 +484,7 @@ HTML;
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $myuser ) {
 				$out .= Html::element( 'div', array( 'class' => 'count' ), $count );
-				$out .= Html::element( 'div', array( 'class' => 'count-description' ), 'Revisions/month' );
+				$out .= Html::element( 'div', array( 'class' => 'count-description' ), $this->msg( 'twnmp-reviews-per-month' )->text() );
 
 				$msg = $this->msg( 'twnmp-translations-translator-ranking' )
 					->params( $myuser, $i, $translators, $languageName )
@@ -506,7 +506,7 @@ HTML;
 		$out .= Html::element( 'a', array(
 			'class' => 'twelve columns langstats-link',
 			'href' => SpecialPage::getTitleFor( 'LanguageStats' )->getLocalUrl(),
-		), 'View language statistics' );
+		), $this->msg( 'twnmp-your-view-language-stats' )->text() );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'div' );
 

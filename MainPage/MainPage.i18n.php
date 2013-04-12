@@ -27,9 +27,25 @@ $messages['en'] = array(
 	'twnmp-translate-button' => 'Translate',
 	'twnmp-proofread-button' => 'Proofread',
 
+	'twnmp-your-translations-stats' => 'Your translation statistics',
+	'twnmp-your-view-language-stats' => 'View language statistics',
 	'twnmp-translations-per-month' => 'Translations/month',
 	'twnmp-reviews-per-month' => 'Reviews/month',
 	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Ranked}} $2 of $3 translators<br />in $4',
+
+	'twnmp-bottom-help' => 'Help',
+	'twnmp-bottom-special-pages' => 'Special pages',
+	'twnmp-bottom-languages-supported' => 'Supported languages',
+	'twnmp-bottom-about' => 'About',
+	'twnmp-signup-username-placeholder' => 'Username',
+	'twnmp-signup-password-placeholder' => 'Password',
+	'twnmp-signup-email-placeholder' => 'Email',
+	'twnmp-create-account-button' => 'Create account',
+
+	'twnmp-become-translator' => 'Become a translator',
+	'twnmp-choose-languages-you-know' => 'Choose languages you know',
+	'twnmp-choose-another-language' => 'Choose another language...',
+	'twnmp-choose-fill-account-details' => 'Fill in your account details',
 );
 
 /** English
@@ -60,6 +76,8 @@ Pressing the button brings the user to the translation editor. Parallel to {{ms-
 	'twnmp-proofread-button' => 'A label for the button that appears near the user\'s translation statistics.
 Pressing the button brings the user to the translation editor in proofread mode. Parallel to {{ms-msg|twnmp-translate-button}}.',
 
+	'twnmp-your-translations-stats' => "A header for the user's translation statistics.",
+	'twnmp-your-view-language-stats' => "A link that appears under the user's translation statistics.",
 	'twnmp-translations-per-month' => "Appears in the user's statistics box near a number.
 Means that the users performs that number of translations every month.
 Translate it in a way that is natural to your language - you don't have to use the '/' character.",
@@ -73,6 +91,20 @@ Parameters:
 * $2 - the ranking of this user.
 * $3 - the total number of translators into that language.
 * $4 - the language name.',
+
+	'twnmp-bottom-help' => 'A link that appears at the bottom of the main page.',
+	'twnmp-bottom-special-pages' => 'A link that appears at the bottom of the main page. {{Identical|specialpages}}',
+	'twnmp-bottom-languages-supported' => 'A link that appears at the bottom of the main page.',
+	'twnmp-bottom-about' => 'A link that appears at the bottom of the main page. {{Identical|about}}',
+	'twnmp-signup-username-placeholder' => 'A placeholder for the username field in the sign up form.',
+	'twnmp-signup-password-placeholder' => 'A placeholder for the password field in the sign up form.',
+	'twnmp-signup-email-placeholder' => 'A placeholder for the email field in the sign up form.',
+	'twnmp-create-account-button' => 'A label for the button that submits the account creation form. {{Identical|createaccount}}',
+
+	'twnmp-become-translator' => 'The top heading to the sign up form. A call to action to sign up to the site.',
+	'twnmp-choose-languages-you-know' => 'A heading to a list of auto-detected languages.',
+	'twnmp-choose-another-language' => "A link to choose a language that doesn't appear in the list.",
+	'twnmp-choose-fill-account-details' => 'A heading for the personal details form.',
 );
 
 /** Hebrew (עברית)
@@ -100,9 +132,25 @@ $messages['he'] = array(
 	'twnmp-translate-button' => 'תרגום',
 	'twnmp-proofread-button' => 'הגהה',
 
+	'twnmp-your-translations-stats' => 'סטטיסטיקת התרגומים שלך',
+	'twnmp-your-view-language-stats' => 'הצגת הסטטיסטיקה לשפה',
 	'twnmp-translations-per-month' => 'תרגומים לחודש',
 	'twnmp-reviews-per-month' => 'הגהות לחודש',
 	'twnmp-translations-translator-ranking' => '{{GENDER:$1|אתה דורג|את מדורגת}} במקום ה{{GRAMMAR:תחילית|$2}} מתוך $3 מתרגמים<br />ל{{GRAMMAR:תחילית|$4}}',
+
+	'twnmp-bottom-help' => 'עזרה',
+	'twnmp-bottom-special-pages' => 'דפים מיוחדים',
+	'twnmp-bottom-languages-supported' => 'שפות נתמכות',
+	'twnmp-bottom-about' => 'אודות',
+	'twnmp-signup-username-placeholder' => 'שם משתמש',
+	'twnmp-signup-password-placeholder' => 'ססמה',
+	'twnmp-signup-email-placeholder' => 'דואר אלקטרוני',
+	'twnmp-create-account-button' => 'יצירת חשבון',
+
+	'twnmp-become-translator' => 'בואו להיות מתרגמים',
+	'twnmp-choose-languages-you-know' => 'השפה שלך',
+	'twnmp-choose-another-language' => 'בחירת שפה אחרת...',
+	'twnmp-choose-fill-account-details' => 'הפרטים שלך',
 );
 
 /** Dutch (Nederlands)
