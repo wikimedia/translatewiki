@@ -70,7 +70,7 @@ body {
 .twn-mainpage-search {
 	padding: 7px 5px;
 	background-color: #252525;
-	box-shadow: 0 2px 3px;
+	box-shadow: 0 2px 4px;
 }
 
 .twn-mainpage-stats-tiles {
@@ -223,56 +223,66 @@ a.langstats-link {
 }
 
 .project-tile {
-	border: 1px solid #252525;
+	border: 1px solid #AAA;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #FCFCFC;
 	margin: 10px;
-	height: 200px;
+	height: 180px;
+}
+
+.project-tile:hover {
+	border-color: #777;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
 }
 
 .project-tile.more {
-	font-size: 50px;
+	font-size: 30px;
+	padding: 15px;
 	cursor: pointer;
+	color: #555;
 }
 
 .project-icon img {
-	padding: 10px;
+	padding: 10px 15px 10px 5px;
 }
 
 .project-name {
-	font-size: 22px;
+	font-size: 18px;
 	height: 100px;
+	padding: 25px 5px 0 15px;
 }
 
 .tux-statsbar,
 .tux-statsbar span {
-	height: 7px;
+	height: 5px;
 }
 
 .project-statsbar {
-	height: 10px;
+	height: 5px;
+	padding: 0 10px 10px 15px;
 }
 
 .project-stats {
-	height: 40px;
+	height: 25px;
+	opacity: 0.7;
+	padding-left: 15px;
 }
 
 .project-content,
 .project-icon {
-	height: 150px;
-}
-
-.project-content > div {
-	padding: 10px;
+	height: 130px;
 }
 
 .project-top {
-	height: 150px;
+	height: 140px;
 }
 
-.project-actions {
+.twn-mainpage-project-tile .project-tile .project-actions {
 	text-align: center;
-	height: 50px;
-	line-height: 50px;
+	height: 40px;
+	line-height: 40px;
 	background-color: #252525;
+	margin: 0;
 }
 
 .project-actions a {
@@ -434,7 +444,6 @@ button.button.green:active {
 .twn-mainpage-project-selector-title {
 	font-size: 16pt;
 	padding: 25px 10px 15px 10px;
-	border-bottom: 1px solid #DDDDDD;
 }
 
 .twn-mainpage-footer a {
