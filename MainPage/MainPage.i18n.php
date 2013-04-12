@@ -26,6 +26,10 @@ $messages['en'] = array(
 	'twnmp-proofread-link' => 'Proofread',
 	'twnmp-translate-button' => 'Translate',
 	'twnmp-proofread-button' => 'Proofread',
+
+	'twnmp-translations-per-month' => 'Translations/month',
+	'twnmp-reviews-per-month' => 'Reviews/month',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Ranked}} $2 of $3 translators<br />in $4',
 );
 
 /** English
@@ -55,6 +59,20 @@ $messages['qqq'] = array(
 Pressing the button brings the user to the translation editor. Parallel to {{ms-msg|twnmp-proofread-button}}.',
 	'twnmp-proofread-button' => 'A label for the button that appears near the user\'s translation statistics.
 Pressing the button brings the user to the translation editor in proofread mode. Parallel to {{ms-msg|twnmp-translate-button}}.',
+
+	'twnmp-translations-per-month' => "Appears in the user's statistics box near a number.
+Means that the users performs that number of translations every month.
+Translate it in a way that is natural to your language - you don't have to use the '/' character.",
+	'twnmp-reviews-per-month' => "Appears in the user's statistics box near a number.
+Means that the users performs that number of review actions every month.
+Translate it in a way that is natural to your language - you don't have to use the '/' character.",
+	'twnmp-translations-translator-ranking' => 'Shown in the "Translate" and "Proofread" boxes in the center of the main page.
+Can be broken to two lines. &lt;br /> is a line break. Break it in any way that is natural in your language.
+Parameters:
+* $1 - the username, which can be used for GENDER.
+* $2 - the ranking of this user.
+* $3 - the total number of translators into that language.
+* $4 - the language name.',
 );
 
 /** Hebrew (עברית)
@@ -81,6 +99,10 @@ $messages['he'] = array(
 	'twnmp-proofread-link' => 'הגהה',
 	'twnmp-translate-button' => 'תרגום',
 	'twnmp-proofread-button' => 'הגהה',
+
+	'twnmp-translations-per-month' => 'תרגומים לחודש',
+	'twnmp-reviews-per-month' => 'הגהות לחודש',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|אתה דורג|את מדורגת}} במקום ה{{GRAMMAR:תחילית|$2}} מתוך $3 מתרגמים<br />ל{{GRAMMAR:תחילית|$4}}',
 );
 
 /** Dutch (Nederlands)

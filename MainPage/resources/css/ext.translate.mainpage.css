@@ -189,8 +189,7 @@ body {
 	font-size: 18px;
 }
 
-.ranking .rank-description,
-.ranking .language-description {
+.ranking .rank-description {
 	color: #555555;
 	font-size: 15px;
 }

@@ -452,9 +452,13 @@ HTML;
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $myuser ) {
 				$out .= Html::element( 'div', array( 'class' => 'count' ), $count );
-				$out .= Html::element( 'div', array( 'class' => 'count-description' ), 'Translations/month' );
-				$out .= Html::element( 'div', array( 'class' => 'rank-description' ), "Ranked $i of $translators translators" );
-				$out .= Html::element( 'div', array( 'class' => 'language-description' ), "in $languageName" );
+				$out .= Html::element( 'div', array( 'class' => 'count-description' ), $this->msg( 'twnmp-translations-per-month' )->text() );
+
+				$msg = $this->msg( 'twnmp-translations-translator-ranking' )
+					->params( $myuser, $i, $translators, $languageName )
+					->plain();
+				$wrap = new RawMessage( "<div class='rank-description'>$msg</div>" );
+				$out .= $wrap->parse();
 				break;
 			}
 			$i++;
@@ -474,8 +478,13 @@ HTML;
 			if ( $user === $myuser ) {
 				$out .= Html::element( 'div', array( 'class' => 'count' ), $count );
 				$out .= Html::element( 'div', array( 'class' => 'count-description' ), 'Revisions/month' );
-				$out .= Html::element( 'div', array( 'class' => 'rank-description' ), "Ranked $i of $translators translators" );
-				$out .= Html::element( 'div', array( 'class' => 'language-description' ), "in $languageName" );
+
+				$msg = $this->msg( 'twnmp-translations-translator-ranking' )
+					->params( $myuser, $i, $translators, $languageName )
+					->plain();
+				$wrap = new RawMessage( "<div class='rank-description'>$msg</div>" );
+				$out .= $wrap->parse();
+
 				break;
 			}
 			$i++;
