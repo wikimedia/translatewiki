@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "DuB.21z0",
+        "filename": "MainPage/specials/SpecialTwnMainPage.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-04-12T06:05:07Z",
+      "side": 1,
+      "message": "I\u0027d suggest to use Special:MyLanguage/Project:About here.",
+      "revId": "7c340382b670ccd85752f10c9f5094113fe57db5",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
