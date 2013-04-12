@@ -451,7 +451,12 @@ HTML;
 
 		$myuser = $this->getUser()->getName();
 
-		$out .= Html::openElement( 'div', array( 'class' => 'row ranking' ) );
+		$out .= Html::openElement( 'form', array(
+			'class' => 'row ranking',
+			'action' => SpecialPage::getTitleFor( 'Translate' )->getLocalUrl(),
+		) );
+		$out .= Html::hidden( 'action', 'translate' );
+		$out .= Html::hidden( 'group', '!additions' );
 		$out .= Html::openElement( 'div', array( 'class' => 'row eight columns' ) );
 		$stats = $statsArray['translators'];
 		$i = 1;
@@ -468,11 +473,20 @@ HTML;
 		}
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::openElement( 'div', array( 'class' => 'four columns' ) );
-		$out .= Html::element( 'button', array( 'class' => 'button green' ), $this->msg( 'twnmp-translate-button' )->text() );
+		$out .= Html::element( 'button', array(
+			'id' => 'twnmp-translate',
+			'type' => 'submit',
+			'class' => 'button green'
+		), $this->msg( 'twnmp-translate-button' )->text() );
 		$out .= Html::closeElement( 'div' );
-		$out .= Html::closeElement( 'div' );
+		$out .= Html::closeElement( 'form' );
 
-		$out .= Html::openElement( 'div', array( 'class' => 'row ranking' ) );
+		$out .= Html::openElement( 'form', array(
+			'class' => 'row ranking',
+			'action' => SpecialPage::getTitleFor( 'Translate' )->getLocalUrl(),
+		) );
+		$out .= Html::hidden( 'action', 'proofread' );
+		$out .= Html::hidden( 'group', '!recent' );
 		$out .= Html::openElement( 'div', array( 'class' => 'row eight columns' ) );
 		$stats = $statsArray['proofreaders'];
 		$i = 1;
@@ -489,9 +503,13 @@ HTML;
 		}
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::openElement( 'div', array( 'class' => 'four columns' ) );
-		$out .= Html::element( 'button', array( 'class' => 'button green' ), $this->msg( 'twnmp-proofread-button' )->text() );
+		$out .= Html::element( 'button', array(
+			'id' => 'twnmp-proofread',
+			'type' => 'submit',
+			'class' => 'button green'
+		), $this->msg( 'twnmp-proofread-button' )->text() );
 		$out .= Html::closeElement( 'div' );
-		$out .= Html::closeElement( 'div' );
+		$out .= Html::closeElement( 'form' );
 
 		$out .= Html::openElement( 'div', array( 'class' => 'row langstats-link-row' ) );
 		$out .= Html::element( 'a', array(
