@@ -27,7 +27,7 @@
 		$tiles.eq( 7 )
 			.empty()
 			.addClass( 'more' )
-			.text( 'Show more projects...' )
+			.text( mw.msg( 'twnmp-show-more-projects' ) )
 			.one( 'click', function () {
 				$.when(
 					mw.translate.loadMessageGroups()

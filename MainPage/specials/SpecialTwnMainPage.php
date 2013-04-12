@@ -46,13 +46,14 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out .= Html::element( 'div',
 			array(
 				'class' => 'twn-brand-name',
+				'lang' => 'en',
 			)
 			, 'translatewiki.net' );
 		$out .= Html::element( 'div',
 			array(
 				'class' => 'twn-brand-motto',
 			)
-			, 'Opensource translation community' );
+			, $this->msg( 'twnmp-brand-motto' )->text() );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::element( 'span',
 			array(
@@ -73,7 +74,7 @@ class SpecialTwnMainPage extends SpecialPage {
 					'href' => SpecialPage::getTitleFor( 'Userlogin' )
 						->getLocalUrl( array( 'returnto' => 'Special:MainPage' ) ),
 				)
-				, 'Login' );
+				, $this->msg( 'twnmp-login' )->text() );
 		}
 		$out .= Html::closeElement( 'div' );
 
@@ -89,7 +90,8 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out .= Html::element( 'input',
 			array(
 				'class' => 'ten columns searchbox',
-				'placeholder' => 'Find and fix translations',
+				// @todo move to JS, placeholders are not supported in IE
+				'placeholder' => $this->msg( 'twnmp-search-placeholder' )->text(),
 				'type' => 'search',
 				'name' => 'query',
 			) );
@@ -99,7 +101,7 @@ class SpecialTwnMainPage extends SpecialPage {
 				'class' => 'columns end blue button',
 				'type' => 'submit',
 			),
-			'Find' );
+			$this->msg( 'twnmp-search-button' )->text() );
 		$out .= Html::closeElement( 'form' );
 
 		return $out;
@@ -107,7 +109,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 	public function projectSelector() {
 		$out = Html::element( 'div', array( 'class' => 'row twn-mainpage-project-selector-title' ),
-			'Choose a project to translate' );
+			$this->msg( 'twnmp-search-choose-project' )->text() );
 		$out .= Html::openElement( 'div', array( 'class' => 'row twn-mainpage-project-tiles' ) );
 
 		$projects = ProjectHandler::getProjects();
@@ -158,11 +160,11 @@ class SpecialTwnMainPage extends SpecialPage {
 		$title = SpecialPage::getTitleFor( 'Translate' );
 		$translate = Html::element( 'a', array(
 				'href' => $title->getLocalUrl( array( 'group' => $group->getId() ) )
-			), 'Translate' );
+			), $this->msg( 'twnmp-translate-button' )->text() );
 
 		$proofread = Html::element( 'a', array(
 				'href' => $title->getLocalUrl( array( 'group' => $group->getId(), 'action' => 'proofread' ) )
-			), 'Proofread' );
+			), $this->msg( 'twnmp-proofread-button' )->text() );
 
 		$out = <<<HTML
 <div class="three columns twn-mainpage-project-tile">
@@ -327,7 +329,7 @@ HTML;
 				if ( $value > 1000 ) {
 					$digits = 3 - ceil( log( $value, 100 ) );
 					$value = number_format( $value / 1000, $digits );
-					$value = $lang->formatNum( $value ) . 'k';
+					$value = $lang->formatNum( $value ) . 'k'; // @todo needs proper i18n
 				} else {
 					$value = $lang->formatNum( $value );
 				}
@@ -459,7 +461,7 @@ HTML;
 		}
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::openElement( 'div', array( 'class' => 'four columns' ) );
-		$out .= Html::element( 'button', array( 'class' => 'button green' ), 'Translate' );
+		$out .= Html::element( 'button', array( 'class' => 'button green' ), $this->msg( 'twnmp-translate-button' )->text() );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'div' );
 
@@ -480,7 +482,7 @@ HTML;
 		}
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::openElement( 'div', array( 'class' => 'four columns' ) );
-		$out .= Html::element( 'button', array( 'class' => 'button green' ), 'Proofread' );
+		$out .= Html::element( 'button', array( 'class' => 'button green' ), $this->msg( 'twnmp-proofread-button' )->text() );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'div' );
 
