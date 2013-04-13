@@ -554,6 +554,9 @@ Fundraiser Landing Page
 ignored = fundraiserlandingpage-wmch-landing-page, fundraiserlandingpage-wmde-landing-page
 ignored = fundraiserlandingpage-wmfr-landing-page, fundraiserlandingpage-wmuk-landing-page
 
+Fundraiser Unsubscribe
+file = FundraisingEmailUnsubscribe/FundraiserUnsubscribe.i18n.php
+
 Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition
