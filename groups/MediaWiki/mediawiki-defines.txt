@@ -554,7 +554,7 @@ Fundraiser Landing Page
 ignored = fundraiserlandingpage-wmch-landing-page, fundraiserlandingpage-wmde-landing-page
 ignored = fundraiserlandingpage-wmfr-landing-page, fundraiserlandingpage-wmuk-landing-page
 
-Fundraiser Unsubscribe
+Fundraising Email Unsubscribe
 file = FundraisingEmailUnsubscribe/FundraiserUnsubscribe.i18n.php
 
 Gadgets
