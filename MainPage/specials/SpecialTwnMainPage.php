@@ -336,7 +336,7 @@ HTML;
 				if ( $value > 1000 ) {
 					$digits = 3 - ceil( log( $value, 100 ) );
 					$value = number_format( $value / 1000, $digits );
-					$value = $lang->formatNum( $value ) . 'k'; // @todo needs proper i18n
+					$value = $this->msg( 'twnmp-stats-number-k' )->numParams( $value )->plain();
 				} else {
 					$value = $lang->formatNum( $value );
 				}

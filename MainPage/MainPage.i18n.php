@@ -46,6 +46,8 @@ $messages['en'] = array(
 	'twnmp-choose-languages-you-know' => 'Choose languages you know',
 	'twnmp-choose-another-language' => 'Choose another language...',
 	'twnmp-choose-fill-account-details' => 'Fill in your account details',
+
+	'twnmp-stats-number-k' => '$1k',
 );
 
 /** English
@@ -105,6 +107,11 @@ Parameters:
 	'twnmp-choose-languages-you-know' => 'A heading to a list of auto-detected languages.',
 	'twnmp-choose-another-language' => "A link to choose a language that doesn't appear in the list.",
 	'twnmp-choose-fill-account-details' => 'A heading for the personal details form.',
+
+	'twnmp-stats-number-k' => '$1 is the number of the thousands of messages or users on the site.
+It can be a fraction, for example "4.9".
+The message should be short, to fit in the box. If you have to translate it and cannot make it short, notify [[Support]].
+If "k" is a good thousands marker in your language, do not translate this message.',
 );
 
 /** Hebrew (עברית)
@@ -151,6 +158,8 @@ $messages['he'] = array(
 	'twnmp-choose-languages-you-know' => 'השפה שלך',
 	'twnmp-choose-another-language' => 'בחירת שפה אחרת...',
 	'twnmp-choose-fill-account-details' => 'הפרטים שלך',
+
+	'twnmp-stats-number-k' => '$1 אלף',
 );
 
 /** Dutch (Nederlands)
