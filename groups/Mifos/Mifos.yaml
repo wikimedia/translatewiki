@@ -47,6 +47,8 @@ TAGS:
     - thelinkstotheleft
     - thesearchtoolbelow
     - thetabsatthetop
+    - errors.prefix
+    - errors.suffix
 
 ---
 BASIC:
