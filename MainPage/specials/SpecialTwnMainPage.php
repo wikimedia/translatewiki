@@ -385,6 +385,8 @@ HTML;
 						'returnto' => 'Special:MainPage',
 						'type' => 'signup' ) ),
 			) );
+
+		$out .= Html::hidden( 'wpSandboxToken', ApiTranslateSandbox::getToken() );
 		$out .= Html::element( 'h1', $row, $this->msg( 'twnmp-become-translator' )->text() );
 		$out .= Html::element( 'h2', $row, $this->msg( 'twnmp-choose-languages-you-know' )->text() );
 		$out .= Xml::checkLabel( $languageName, 'wpLanguage1', 'wpLanguage1', true );

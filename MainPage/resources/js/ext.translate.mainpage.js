@@ -45,3 +45,56 @@
 			} );
 	} );
 }( jQuery, mediaWiki ) );
+
+// Sign up form
+( function ( $, mw ) {
+	'use strict';
+
+	$( document ).ready( function () {
+		var $form = $( '.login-widget' );
+
+		$form.on( 'submit', function ( e ) {
+			var options, req,
+				api = new mw.Api(),
+				username = $form.find( 'input[name="wpName"]' ).val(),
+				email = $form.find( 'input[name="wpEmail"]' ).val(),
+				password = $form.find( 'input[name="wpPassword"]' ).val();
+
+			e.preventDefault();
+
+			options = {
+				action: 'translatesandbox',
+				'do': 'create',
+				username: username,
+				email: email,
+				password: password,
+				token: $form.find( 'input[name="wpSandboxToken"]' ).val(),
+			};
+
+			req = api.post( options );
+			req.fail( function () { window.alert( 'Failure' ); } )
+			req.done( function () {
+				var options, req,
+					api = new mw.Api();
+
+				options = {
+					action: 'login',
+					lgname: username,
+					lgpassword: password
+				}
+
+				req = api.post( options );
+				req.fail( function () { window.alert( 'Failure2' ); } )
+				req.done( function ( data ) {
+					var req,
+						api = new mw.Api();
+
+					req = api.post( $.extend( {}, { lgtoken: data.login.token }, options ) );
+					req.done( function ( ) {
+						window.location.reload();
+					} );
+				} );
+			} );
+		} );
+	} );
+}( jQuery, mediaWiki ) );
