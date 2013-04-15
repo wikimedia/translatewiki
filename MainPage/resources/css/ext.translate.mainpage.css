@@ -5,19 +5,21 @@ body {
 .twn-mainpage {
 	background-color: #fff;
 	color: #252525;
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
 }
 
 .twn-mainpage-header {
 	/* @embed */
-	background: transparent url('//translatewiki.net/static/logo.png') no-repeat scroll left center;
+	background: transparent url('//translatewiki.net/static/logo.png') no-repeat scroll 10px center;
 	/*FIXME: we need svgs too*/
 	background-size: 50px;
-	padding-left: 55px;
+	padding-left: 65px;
 	padding-bottom: 5px;
 	height: 75px;
+}
+
+.twn-mainpage-header .twn-mainpage-personal-actions {
+	padding-right: 20px;
+	text-align: right;
 }
 
 .twn-mainpage-header .uls-trigger {
@@ -26,6 +28,7 @@ body {
 	color: #3366BB;
 	padding-top: 50px;
 	cursor: pointer;
+	display: inline-block;
 }
 
 .twn-mainpage-title .twn-brand-name {
@@ -44,9 +47,9 @@ body {
 }
 
 .twn-mainpage-header .login {
-	float: right;
 	color: #3366BB;
 	padding-top: 50px;
+	padding-left: 20px;
 }
 
 .twn-mainpage-banner {
@@ -61,6 +64,7 @@ body {
 	font-size: 10px;
 	padding: 10px 10px 20px 10px;
 	position: relative;
+	opacity: 0.8;
 }
 
 .banner-attribution a {
@@ -112,7 +116,7 @@ body {
 	max-height: 580px;
 	opacity: 0.95;
 	padding: 10px;
-	max-width: 500px;
+	margin-left: 4%;
 }
 
 .main-widget label {
@@ -163,10 +167,6 @@ body {
 .main-widget h2 {
 	border: none;
 	color: #252525;
-}
-
-.main-widget > .row {
-	padding: 10px;
 }
 
 .ranking {
@@ -243,13 +243,13 @@ a.langstats-link {
 }
 
 .project-icon img {
-	padding: 10px 15px 10px 5px;
+	padding: 10px 0 0 5px;
 }
 
 .project-name {
 	font-size: 18px;
 	height: 100px;
-	padding: 25px 5px 0 15px;
+	padding: 25px 5px 0 0;
 }
 
 .tux-statsbar,
@@ -294,7 +294,7 @@ a.langstats-link {
 
 .project-tile span.translate {
 	padding-left: 20px;
-	padding-right: 20px;
+	padding-right: 5px;
 	background: transparent url(../images/view-list.png) left top no-repeat;
 	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/view-list.svg);
 	background-image: -moz-linear-gradient(transparent, transparent), url(../images/view-list.svg);
@@ -304,7 +304,6 @@ a.langstats-link {
 
 .project-tile span.proofread {
 	padding-left: 20px;
-	padding-right: 20px;
 	background: transparent url(../images/view-proofread.png) left top no-repeat;
 	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/view-proofread.svg);
 	background-image: -moz-linear-gradient(transparent, transparent), url(../images/view-proofread.svg);
@@ -457,17 +456,21 @@ button.button.green:active {
 	}
 }
 
-@media all and (max-width: 700px) {
-	.row .six.columns, .row .five.columns {
+@media all and (max-width: 800px) {
+	.twn-mainpage-banner.row .six.columns, .twn-mainpage-banner.row .five.columns {
 		width: 100%;
 		margin: 5px 0;
+	}
+
+	.row .three.columns {
+		width: 50%;
 	}
 
 	.twn-mainpage-stats-tiles {
 		margin-bottom: 10px;
 	}
 
-	.stats-widget {
+	.main-widget {
 		opacity: 1;
 	}
 

@@ -42,7 +42,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 	public function header() {
 		$out = Html::openElement( 'div', array( 'class' => 'row twn-mainpage-header' ) );
-		$out .= Html::openElement( 'div', array( 'class' => 'ten columns twn-mainpage-title' ) );
+		$out .= Html::openElement( 'div', array( 'class' => 'eight columns twn-mainpage-title' ) );
 		$out .= Html::element( 'div',
 			array(
 				'class' => 'twn-brand-name',
@@ -55,27 +55,29 @@ class SpecialTwnMainPage extends SpecialPage {
 			)
 			, $this->msg( 'twnmp-brand-motto' )->text() );
 		$out .= Html::closeElement( 'div' );
+		$out .= Html::openElement( 'div', array( 'class' => 'four columns twn-mainpage-personal-actions' ) );
 		$out .= Html::element( 'span',
 			array(
-				'class' => 'uls-trigger column',
+				'class' => 'uls-trigger',
 			)
 			, Language::fetchLanguageName( $this->getLanguage()->getCode() ) );
 		if ( $this->getUser()->isLoggedIn() ) {
 			$out .= Html::element( 'a',
 				array(
-					'class' => 'login username column text-right',
+					'class' => 'login username text-right',
 					'href' => Title::makeTitle( NS_USER, $this->getUser()->getName() )->getLocalUrl(),
 				)
 				, $this->getUser()->getName() );
 		} else {
 			$out .= Html::element( 'a',
 				array(
-					'class' => 'login column text-right',
+					'class' => 'login text-right',
 					'href' => SpecialPage::getTitleFor( 'Userlogin' )
 						->getLocalUrl( array( 'returnto' => 'Special:MainPage' ) ),
 				)
 				, $this->msg( 'twnmp-login' )->text() );
 		}
+		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'div' );
 
 		return $out;
@@ -152,7 +154,7 @@ class SpecialTwnMainPage extends SpecialPage {
 			$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
 		}
 
-		$image = Html::element( 'img', array( 'src' => $url, 'width' => '100' ) );
+		$image = Html::element( 'img', array( 'src' => $url, 'width' => '100%' ) );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 		$stats = $statsbar->getHtml( $this->getContext() );
 		$acts =
@@ -378,7 +380,7 @@ HTML;
 		$row = array( 'class' => 'row' );
 
 		$out = Html::openElement( 'form',
-			array( 'class' => 'five columns offset-by-one main-widget login-widget',
+			array( 'class' => 'five columns main-widget login-widget',
 				'method' => 'post',
 				'action' => SpecialPage::getTitleFor( 'Userlogin' )
 					->getLocalUrl( array(
