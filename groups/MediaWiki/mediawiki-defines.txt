@@ -1489,6 +1489,10 @@ file = Translate/PageTranslation.i18n.php
 descmsg = tpt-desc
 optional = tpt-languages-separator
 
+Translate - Sandbox
+id = ext-translate-sandbox
+file = Translate/TranslateSandbox.i18n.php
+
 Translate - Search
 id = ext-translate-search
 file = Translate/TranslateSearch.i18n.php
