@@ -85,6 +85,8 @@ file = EditAccount/SpecialEditAccount.i18n.php
 #Edit Page Layout
 #ignored = anoneditwarning-notice, longpagewarning-notice
 
+File Page
+
 # Siebrand / 2012-08-09 / Disabled as announced.
 #Follow
 #aliasfile = Follow/Follow.alias.php
