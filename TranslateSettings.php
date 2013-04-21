@@ -381,3 +381,6 @@ wfAddNamespace( 1252, 'Vicuna' );
 
 wfAddNamespace( 1254, 'FUEL' );
 $wgTranslateGroupFiles[] = "$GROUPS/FUEL/FUEL.yaml";
+
+wfAddNamespace( 1256, 'Blockly' );
+$wgTranslateGroupFiles[] = "$GROUPS/Blockly/Blockly.yaml";

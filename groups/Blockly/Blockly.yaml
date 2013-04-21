@@ -1,0 +1,49 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Blockly-square.png
+    namespace: NS_BLOCKLY
+    class: FileBasedMessageGroup
+    description: "{{int:translate-group-desc-blockly}}"
+
+  FILES:
+    class: JsonFFS
+
+---
+BASIC:
+  id: out-blockly-0-all
+  label: Blockly
+  meta: yes
+  class: AggregateMessageGroup
+
+GROUPS:
+  - out-blockly-*
+
+---
+BASIC:
+  id: out-blockly-core
+  label: Blockly - Core
+
+MANGLER:
+  class: StringMatcher
+  prefix: core-
+  patterns:
+    - "*"
+
+FILES:
+  sourcePattern: %GROUPROOT%/blockly/apps/%CODE%.json
+  targetPattern: blockly/apps/%CODE%.json
+
+---
+BASIC:
+  id: out-blockly-maze
+  label: Blockly - Maze
+
+MANGLER:
+  class: StringMatcher
+  prefix: maze-
+  patterns:
+    - "*"
+
+FILES:
+  sourcePattern: %GROUPROOT%/blockly/apps/maze/%CODE%.json
+  targetPattern: blockly/apps/maze/%CODE%.json
