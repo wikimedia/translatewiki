@@ -3,15 +3,15 @@ BASIC:
   id: out-vicuna
   label: VicuñaUploader
   icon: wiki://VicunaUploader_logo.png
-  description: "[[Translating:VicuñaUploader|VicuñaUploader]] is a free tool to upload files to Wikimedia Commons and other Wikimedia projects"
+  description: "{{int:translate-group-desc-vicuna}}"
   namespace: NS_VICUNA
   class: FileBasedMessageGroup
 
 FILES:
   class: JavaFFS
-  sourcePattern: %GROUPROOT%/src/cuploader/text/messages_%CODE%.properties
-  definitionFile: %GROUPROOT%/src/cuploader/text/messages.properties
-  targetPattern: vicuna/src/cuploader/text/messages_%CODE%.properties
+  sourcePattern: %GROUPROOT%/src/cuploader/text_utf8/messages_%CODE%.properties
+  definitionFile: %GROUPROOT%/src/cuploader/text_utf8/messages.properties
+  targetPattern: vicuna/src/cuploader/text_utf8/messages_%CODE%.properties
   codeMap:
     cs:    cs_CZ
     es:    es_ES
