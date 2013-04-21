@@ -9,8 +9,8 @@ BASIC:
 
 FILES:
   class: JavaFFS
-  sourcePattern: %GROUPROOT%/src/cuploader/text_utf8/messages_%CODE%.properties
-  definitionFile: %GROUPROOT%/src/cuploader/text_utf8/messages.properties
+  sourcePattern: %GROUPROOT%/vicuna/src/cuploader/text_utf8/messages_%CODE%.properties
+  definitionFile: %GROUPROOT%/vicuna/src/cuploader/text_utf8/messages.properties
   targetPattern: vicuna/src/cuploader/text_utf8/messages_%CODE%.properties
   codeMap:
     cs:    cs_CZ
