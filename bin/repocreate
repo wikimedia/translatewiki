@@ -23,6 +23,13 @@ then
 	fi
 	git clone "$REPO_COMMONSIOS" $PROJECT
 
+elif [ "$PROJECT" = "blockly" ]
+then
+	if [ -z "$REPO_BLOCKLY" ]
+	then echo "Add REPO_BLOCKLY to REPOCONF"; exit 1
+	fi
+	svn checkout "$REPO_BLOCKLY" $PROJECT
+
 elif [ "$PROJECT" = "eol" ]
 then
 	if [ -z "$REPO_EOL" ]
@@ -56,7 +63,7 @@ then
 	if [ -z "$REPO_FUDFORUM" ]
 	then echo "Add REPO_FUDFORUM to REPOCONF"; exit 1
 	fi
-	svn checkout "$REPO_FREECOL" $PROJECT
+	svn checkout "$REPO_FUDFORUM" $PROJECT
 
 elif [ "$PROJECT" = "fuel" ]
 then

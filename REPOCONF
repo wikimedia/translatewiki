@@ -7,6 +7,7 @@ REPO_MWEXTGIT=https://gerrit.wikimedia.org/r/p/mediawiki/extensions
 
 REPO_COMMONSANDROID=git://github.com/wikimedia/android-commons.git
 REPO_COMMONSIOS=git://github.com/wikimedia/Commons-iOS.git
+REPO_BLOCKLY=http://blockly.googlecode.com/svn/trunk/
 REPO_EOL=git://github.com/EOL/eol.git
 REPO_ETHERPADLITE=git://github.com/ether/etherpad-lite.git
 REPO_ETHERPADLITE_BRANCH="develop"

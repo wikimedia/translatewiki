@@ -54,7 +54,11 @@ for i in $GITUPDATEPROJECTS; do
 	fi
 done
 
-if [ "$PROJECT" = "etherpad-lite" ]
+if [ "$PROJECT" = "blockly" ]
+then
+	svn up $PROJECT
+
+elif [ "$PROJECT" = "etherpad-lite" ]
 then
 	gitupdate "$PROJECT" $REPO_ETHERPADLITE_BRANCH
 

@@ -10,6 +10,7 @@ WIKI=/www/translatewiki.net/w
 for PROJECT in \
 commons-android \
 commons-ios \
+blockly \
 eol \
 etherpad-lite \
 freecol \
