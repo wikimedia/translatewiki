@@ -1,7 +1,7 @@
 ---
 BASIC:
   id: out-vicuna
-  label: VicuñaUploader
+  label: VicuÃ±aUploader
   icon: wiki://VicunaUploader_logo.png
   description: "{{int:translate-group-desc-vicuna}}"
   namespace: NS_VICUNA
