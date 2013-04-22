@@ -5,4 +5,3 @@ STATSFILE="/www/translatewiki.net/static/stats/wmf.csv"
 # create stats file
 cd /www/w/extensions/Translate/scripts
 /usr/bin/php groupStatistics.php --wmfscore > $STATSFILE
-
