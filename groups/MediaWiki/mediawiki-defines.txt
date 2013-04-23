@@ -352,6 +352,10 @@ Diff
 Disable Account
 aliasfile = DisableAccount/DisableAccount.alias.php
 
+Disambiguator
+aliasfile = Disambiguator/Disambiguator.i18n.alias.php
+magicfile = Disambiguator/Disambiguator.i18n.magic.php
+
 Discussion Threading
 
 Dismissable SiteNotice
