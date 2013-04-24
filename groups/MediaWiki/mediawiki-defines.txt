@@ -1563,7 +1563,7 @@ Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
 Visual Editor
-ignored = accesskey-ca-ve-edit
+ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
 optional = visualeditor-report-link
 
 Vote NY
