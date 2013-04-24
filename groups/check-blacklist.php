@@ -60,6 +60,7 @@ array(
 		'logentry-newusers-byemail', // Optional GENDER parameters
 		'logentry-newusers-create', // Optional GENDER parameters
 		'logentry-newusers-create2', // Optional GENDER parameters
+		'logentry-newusers-autocreate', // Optional GENDER parameters
 		'logentry-rights-autopromote', // Optional GENDER parameters
 		'logentry-rights-rights', // Optional GENDER parameters
 		'logentry-rights-rights-legacy', // Optional GENDER parameters
