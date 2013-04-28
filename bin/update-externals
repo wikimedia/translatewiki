@@ -8,9 +8,9 @@ umask 0002
 WIKI=/www/translatewiki.net/w
 
 for PROJECT in \
+blockly \
 commons-android \
 commons-ios \
-blockly \
 eol \
 etherpad-lite \
 freecol \
