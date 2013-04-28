@@ -20,30 +20,15 @@ GROUPS:
 
 ---
 BASIC:
-  id: out-blockly-core
-  label: Blockly - Core
+  id: out-blockly-puzzle
+  label: Blockly - Puzzle
 
 MANGLER:
   class: StringMatcher
-  prefix: core-
+  prefix: puzzle-
   patterns:
     - "*"
 
 FILES:
-  sourcePattern: %GROUPROOT%/blockly/apps/%CODE%.json
-  targetPattern: blockly/apps/%CODE%.json
-
----
-BASIC:
-  id: out-blockly-maze
-  label: Blockly - Maze
-
-MANGLER:
-  class: StringMatcher
-  prefix: maze-
-  patterns:
-    - "*"
-
-FILES:
-  sourcePattern: %GROUPROOT%/blockly/apps/maze/%CODE%.json
-  targetPattern: blockly/apps/maze/%CODE%.json
+  sourcePattern: %GROUPROOT%/blockly/apps/puzzle/%CODE%.json
+  targetPattern: blockly/apps/puzzle/%CODE%.json
