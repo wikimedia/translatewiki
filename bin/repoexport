@@ -79,6 +79,10 @@ then
 	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang '*' --skip "$SKIPLANGS" --threshold 18 $HOURS &
 	php "$EXPORTER" --target . --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" $HOURS &
 
+	if [ -d "mediawiki/REL1_21/" ]
+	then
+		php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --group 'core-1.21' --lang '*' --skip "$SKIPLANGS" --threshold 18 &
+	fi
 	if [ -d "mediawiki/REL1_20/" ]
 	then
 		# Also skip "gd" because plurals are not compatible pre 1.21.
