@@ -81,7 +81,7 @@ then
 
 	if [ -d "mediawiki/REL1_21/" ]
 	then
-		php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --group 'core-1.21' --lang '*' --skip "$SKIPLANGS" --threshold 18 &
+		php "$EXPORTER" --target mediawiki/REL1_21/languages/messages --group 'core-1.21' --lang '*' --skip "$SKIPLANGS" --threshold 18 &
 	fi
 	if [ -d "mediawiki/REL1_20/" ]
 	then
