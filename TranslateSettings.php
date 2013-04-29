@@ -109,19 +109,34 @@ function setupMediaWiki( &$cc ) {
 	$cc[$id] = $mg;
 
 	$changed = array(
+		'1.21' => array(
+			'passwordreset-emailerror-capture',
+		), // Checked up to bda51d3c6e7235d810f7a9d8f47f330ae91a3260 / 2013-04-29
 		'1.20' => array(
 			'cannotundelete', 'logouttext', 'enotif_body', 'createaccountmail',
 			'username', 'uid', 'prefs-memberingroups', 'linksearch-text',
-			'contributions',
-		), // Checked up to b65893755f580f8490e77d4ec8206e9e70ad8381 / 2013-01-28
+			'contributions', 'passwordreset-emailerror-capture',
+			'logentry-delete-delete', 'logentry-delete-event', 'logentry-delete-event-legacy', 'logentry-delete-restore',
+			'logentry-delete-revision', 'logentry-delete-revision-legacy', 'logentry-move-move', 'logentry-move-move-noredirect',
+			'logentry-move-move_redir', 'logentry-move-move_redir-noredirect', 'logentry-newusers-autocreate', 'logentry-newusers-create',
+			'logentry-newusers-create2', 'logentry-newusers-newusers', 'logentry-patrol-patrol', 'logentry-patrol-patrol-auto',
+			'logentry-suppress-delete', 'logentry-suppress-event', 'logentry-suppress-event-legacy', 'logentry-suppress-revision',
+			'logentry-suppress-revision-legacy',
+		), // Checked up to bda51d3c6e7235d810f7a9d8f47f330ae91a3260 / 2013-04-29
 		'1.19' => array(
 			'version-poweredby-others',
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
 			// From 1.20.
 			'cannotundelete', 'logouttext', 'enotif_body', 'createaccountmail',
 			'username', 'uid', 'prefs-memberingroups', 'linksearch-text',
-			'contributions',
-		), // Checked up to b65893755f580f8490e77d4ec8206e9e70ad8381 / 2013-01-28
+			'contributions', 'passwordreset-emailerror-capture',
+			'logentry-delete-delete', 'logentry-delete-event', 'logentry-delete-event-legacy', 'logentry-delete-restore',
+			'logentry-delete-revision', 'logentry-delete-revision-legacy', 'logentry-move-move', 'logentry-move-move-noredirect',
+			'logentry-move-move_redir', 'logentry-move-move_redir-noredirect', 'logentry-newusers-autocreate', 'logentry-newusers-create',
+			'logentry-newusers-create2', 'logentry-newusers-newusers', 'logentry-patrol-patrol', 'logentry-patrol-patrol-auto',
+			'logentry-suppress-delete', 'logentry-suppress-event', 'logentry-suppress-event-legacy', 'logentry-suppress-revision',
+			'logentry-suppress-revision-legacy',
+		), // Checked up to bda51d3c6e7235d810f7a9d8f47f330ae91a3260 / 2013-04-29
 	);
 
 	$branches = array_keys( $changed );
