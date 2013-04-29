@@ -9,6 +9,8 @@ aliasfile = AbuseFilter/AbuseFilter.alias.php
 #ignored=accesscontrol-info-user, accesscontrol-info-anonymous, accesscontrol-info-deny, accesscontrol-edit-anonymous
 #ignored=accesscontrol-edit-users
 
+Account Audit
+
 # Active Abstract : No real extension. Plugin for dumpBackup.php
 
 Ad Manager
