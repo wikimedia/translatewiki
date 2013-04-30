@@ -1374,6 +1374,8 @@ Spelling Api
 
 Sphinx Search
 
+Spreadsheet
+
 SSL Client Authentication
 file = SSLClientAuthentication/ClientSSLAuth.i18n.php
 descmsg = sslauth-desc
