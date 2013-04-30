@@ -51,19 +51,19 @@ GROUPS:
   - ext-geodata # Change-Id: I0c9522ab28502a7f8665caa23958222c28007159
   - ext-gettingstarted # Change-Id: d1aac2d3dc774299c3e61ef8e163b50dfd89d313 for enwiki
   - ext-googlenewssitemap # r87149 for wikinews
-  - ext-guidedtour # 2013-01-31 for enwiki
+  - ext-guidedtour # 2013-01-31 for 15 projects
   - ext-insider # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
-  - ext-labeledsectiontransclusion # Wikisource
+  - ext-labeledsectiontransclusion
   - ext-landingcheck
   - ext-ldapauthentication # 2011-12-28: labsconsole.wikimedia.org
-  - ext-liquidthreads # 2009-11-11: MediaWiki.org and some *.labs.wikimedia.org
+  - ext-liquidthreads # 2009-11-11: MediaWiki.org and some other projects
   - ext-listings # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-mapsources # wikivoyage
   - ext-markashelpful # 2011-12-28: r107514 for enwiki
   - ext-moodbar # r93131
   - ext-mwembedsupport # Change-Id: Ifbb7c9b7344520f6d9fe1ccfa3f276ec153b9770
   - ext-mwsearch
-  - ext-narayam # 2011-03-16: ml-wikis
+  - ext-narayam # 2011-03-16: for a lot of projects with non-latin scripts
   - ext-navigationtiming # 2013-03-14: all wikis
   - ext-nuke
   - ext-oai
@@ -77,7 +77,7 @@ GROUPS:
   - ext-relatedarticles # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-relatedsites # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-rss # 2010-11-25: Wikimediafoundation.org
-  - ext-score # Change id: 1215ffffe5924e93508108d4e7ee0da0347408aa for test2wiki
+  - ext-score # Change id: 1215ffffe5924e93508108d4e7ee0da0347408aa
   - ext-scribunto # Change-Id: e4e8857a55b0a89707525ecdd9dff54a4cc02f6d
   - ext-searchextrans # Change-ID: f8cd2d6eb9c20db92e39b038cc8476f311daeda5
   - ext-shorturl # r108172
@@ -88,19 +88,20 @@ GROUPS:
   - ext-subpagesortkey # a2b3abe7ebc6aac630e4e309cc17780b28ac4b04 for some wikibooks
   - ext-swiftcloudfiles # 110441
   - ext-syntaxhighlightgeshi
+  - ext-templatedata # 7a47cd31e71919c5494aa1dca94f26242764d0a3
   - ext-templatesandbox
   - ext-thanks # Iabaa10c5af3cbb870fad020a40aa28be01f4f297
   - ext-titlekey
   - ext-toctree # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-translate-0-all
-  - ext-translationnotifications # 2012-05-??: meta, mediawiki, wikimania, incubator
+  - ext-translationnotifications # 2012-05-??: meta, mediawiki, wikimania, incubator, and other
   - ext-trustedxff
   - ext-universallanguageselector # change-id: b78d96d69d820c13ed262d5558d8c6e0ba5a6b2a
   - ext-uploadblacklist
   - ext-userdailycontribs
   - ext-usermerge # change-id: dee0a5a3d55dbd9d2daa43c9ea0baa753ee49640 for Wikivoyage
   - ext-vipsscaler # 104390: test2.wikipedia.org
-  - ext-visualeditor # r106062 for sandbox on mediawiki.org
+  - ext-visualeditor # r106062
   - ext-wikilove # r90124
   - ext-wikihiero
   - ext-wikimediaincubator # r89556
