@@ -3,7 +3,8 @@ BASIC:
   description: "Translations of Universal Language Selector library"
   namespace: NS_WIKIMEDIA
   id: out-jquery-uls
-  label: jquery.uls
+  label: jQuery.ULS
+  icon: wiki://JQuery-logo-square.svg
   class: FileBasedMessageGroup
 
 MANGLER:
