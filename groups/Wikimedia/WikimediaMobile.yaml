@@ -1,6 +1,7 @@
 TEMPLATE:
   BASIC:
     description: "{{int:translate-group-desc-wikimedia-mobile}}"
+    icon: wiki://Wikimedia-logo.svg
     namespace: NS_WIKIMEDIA
     class: FileBasedMessageGroup
 
@@ -77,6 +78,7 @@ TAGS:
 BASIC:
   id: out-wikimedia-mobile-wikisource
   label: Wikisource Mobile
+  icon: wiki://Wikisource-logo.svg
   description: "{{int:translate-group-desc-wikimedia-mobile-wikisource}}"
 
 MANGLER:
@@ -97,6 +99,7 @@ FILES:
 BASIC:
   id: out-wikimedia-mobile-wiktionary
   label: Wiktionary Mobile
+  icon: wiki://Wiktionary-logo.svg
   description: "{{int:translate-group-desc-wikimedia-mobile-wiktionary}}"
 
 MANGLER:
