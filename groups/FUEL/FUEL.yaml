@@ -1,6 +1,7 @@
 TEMPLATE:
   BASIC:
     description: "{{int:translate-group-desc-fuel}}"
+    icon: wiki://Fuel-final-logo.png
     namespace: NS_FUEL
     class: FileBasedMessageGroup
 
