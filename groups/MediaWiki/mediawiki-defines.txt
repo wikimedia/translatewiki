@@ -364,6 +364,7 @@ Discussion Threading
 Dismissable SiteNotice
 descmsg = sitenotice-desc
 ignored = sitenotice_id
+optional = sitenotice_close-brackets
 
 Donation Interface - Adyen Gateway
 id = ext-di-adyen
