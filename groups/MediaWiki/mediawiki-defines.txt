@@ -1524,6 +1524,11 @@ ignored = tweetanew-accesskey
 
 Twitter Cards
 
+Twn Main Page
+file = TwnMainPage/MainPage.i18n.php
+aliasfile = TwnMainPage/MainPage.alias.php
+descmsg = twnmp-desc
+
 Two Factor Authentication
 file = TwoFactorAuthentication/TwoFactorAuth.i18n.php
 descmsg = twofactorauth-desc
