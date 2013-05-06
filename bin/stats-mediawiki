@@ -9,7 +9,7 @@ cd /www/w/extensions/Translate/scripts
 /bin/echo "Start" > $HOME/temp/stats_page
 /bin/echo "StartTitleTranslating:Group_statisticsStopTitle" >> $HOME/temp/stats_page
 /bin/echo "{{Translating:Group statistics/Header9}}" >> $HOME/temp/stats_page
-/usr/bin/tail -n +11 $HOME/temp/groupstats.txt >> $HOME/temp/stats_page
+/usr/bin/tail -n +12 $HOME/temp/groupstats.txt >> $HOME/temp/stats_page
 /bin/echo "End" >> $HOME/temp/stats_page
 
 # upload stats page to translatewiki.net
