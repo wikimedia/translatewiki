@@ -1528,6 +1528,7 @@ Twn Main Page
 file = TwnMainPage/MainPage.i18n.php
 aliasfile = TwnMainPage/MainPage.alias.php
 descmsg = twnmp-desc
+optional = twnmp-stats-number-k
 
 Two Factor Authentication
 file = TwoFactorAuthentication/TwoFactorAuth.i18n.php
