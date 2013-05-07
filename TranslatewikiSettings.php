@@ -389,7 +389,6 @@ $wgDefaultUserOptions['watchcreations'] = true;
 $wgResourceLoaderValidateJS = false;
 #$wgIncludeLegacyJavaScript = false;
 $wgLegacyJavaScriptGlobals = false;
-$wgResourceLoaderExperimentalAsyncLoading = true; // Nike 2012-01-11
 
 $wgDeprecationReleaseLimit = '1.18';
 
