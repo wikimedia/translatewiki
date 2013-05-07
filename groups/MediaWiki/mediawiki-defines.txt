@@ -1701,6 +1701,8 @@ optional = grouppage-New_wikis_importer, grouppage-global-ipblock-exempt
 optional = grouppage-recursive-export
 prefix = wmf- | sidebar, grouppage-Staff, group-Staff, group-Staff-member
 prefix = wmf- | group-patroller, group-patroller-member, grouppage-patroller
+prefix = wmf- | createacct-helpusername-url, createacct-helpusername
+prefix = wmf- | createacct-captcha-help-url, createacct-imgcaptcha-help
 
 Wikimedia Creative Commons License Texts
 file = WikimediaMessages/WikimediaCCLicenseTexts.i18n.php
