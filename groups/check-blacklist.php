@@ -86,6 +86,32 @@ array(
 	),
 ),
 array(
+	'group' => 'core-1.19',
+	'check' => 'variable',
+	'message' => array(
+		'mw-core-1.19-logentry-newusers-create2', // Optional GENDER parameter
+		'mw-core-1.19-logentry-move-move redir-noredirect', // Optional GENDER parameter
+		'mw-core-1.19-logentry-move-move redir', // Optional GENDER parameter
+		'mw-core-1.19-logentry-move-move-noredirect', // Optional GENDER parameter
+		'mw-core-1.19-logentry-move-move', // Optional GENDER parameter
+		'mw-core-1.19-logentry-delete-restore', // Optional GENDER parameter
+		'mw-core-1.19-logentry-delete-delete', // Optional GENDER parameter
+	),
+),
+array(
+	'group' => 'core-1.20',
+	'check' => 'variable',
+	'message' => array(
+		'mw-core-1.20-logentry-newusers-create2', // Optional GENDER parameter
+		'mw-core-1.20-logentry-move-move redir-noredirect', // Optional GENDER parameter
+		'mw-core-1.20-logentry-move-move redir', // Optional GENDER parameter
+		'mw-core-1.20-logentry-move-move-noredirect', // Optional GENDER parameter
+		'mw-core-1.20-logentry-move-move', // Optional GENDER parameter
+		'mw-core-1.20-logentry-delete-restore', // Optional GENDER parameter
+		'mw-core-1.20-logentry-delete-delete', // Optional GENDER parameter
+	),
+),
+array(
 	'group' => 'core',
 	'check' => 'plural',
 	'message' => array(
