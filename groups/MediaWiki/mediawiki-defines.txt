@@ -1737,3 +1737,6 @@ YouTube
 Zero Rated Mobile Access
 ignored = zero-rated-mobile-access-carrier-options-wiki-page, zero-rated-mobile-access-language-options-wiki-page-for-carrier
 ignored = zero-rated-mobile-access-carrier-options-supported-wikis-wiki-page
+
+Zero Rated Mobile Access - Zero Config
+file = ZeroRatedMobileAccess/includes/ZeroConfig.i18n.php
