@@ -430,7 +430,6 @@ Dynamic Sidebar
 
 Echo
 aliasfile = Echo/Echo.alias.php
-ignored = notification-talkpage-content
 optional = echo-notification-count, echo-date-header
 optional = echo-email-batch-separator, echo-email-batch-bullet, echo-quotation-marks
 
