@@ -615,6 +615,8 @@ Google News Sitemap
 ignored = googlenewssitemap_categorymap
 aliasfile = GoogleNewsSitemap/GoogleNewsSitemap.alias.php
 
+Google Plus One
+
 Google Site Search
 
 GraphViz
