@@ -110,18 +110,20 @@ function setupMediaWiki( &$cc ) {
 
 	$changed = array(
 		'1.21' => array(
-			'passwordreset-emailerror-capture',
+			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated',
 		), // Checked up to bda51d3c6e7235d810f7a9d8f47f330ae91a3260 / 2013-04-29
 		'1.20' => array(
 			'cannotundelete', 'logouttext', 'enotif_body', 'createaccountmail',
 			'username', 'uid', 'prefs-memberingroups', 'linksearch-text',
-			'contributions', 'passwordreset-emailerror-capture',
+			'contributions',
 			'logentry-delete-delete', 'logentry-delete-event', 'logentry-delete-event-legacy', 'logentry-delete-restore',
 			'logentry-delete-revision', 'logentry-delete-revision-legacy', 'logentry-move-move', 'logentry-move-move-noredirect',
 			'logentry-move-move_redir', 'logentry-move-move_redir-noredirect', 'logentry-newusers-autocreate', 'logentry-newusers-create',
 			'logentry-newusers-create2', 'logentry-newusers-newusers', 'logentry-patrol-patrol', 'logentry-patrol-patrol-auto',
 			'logentry-suppress-delete', 'logentry-suppress-event', 'logentry-suppress-event-legacy', 'logentry-suppress-revision',
 			'logentry-suppress-revision-legacy',
+			// From 1.21
+			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated',
 		), // Checked up to bda51d3c6e7235d810f7a9d8f47f330ae91a3260 / 2013-04-29
 		'1.19' => array(
 			'version-poweredby-others',
@@ -129,13 +131,15 @@ function setupMediaWiki( &$cc ) {
 			// From 1.20.
 			'cannotundelete', 'logouttext', 'enotif_body', 'createaccountmail',
 			'username', 'uid', 'prefs-memberingroups', 'linksearch-text',
-			'contributions', 'passwordreset-emailerror-capture',
+			'contributions',
 			'logentry-delete-delete', 'logentry-delete-event', 'logentry-delete-event-legacy', 'logentry-delete-restore',
 			'logentry-delete-revision', 'logentry-delete-revision-legacy', 'logentry-move-move', 'logentry-move-move-noredirect',
 			'logentry-move-move_redir', 'logentry-move-move_redir-noredirect', 'logentry-newusers-autocreate', 'logentry-newusers-create',
 			'logentry-newusers-create2', 'logentry-newusers-newusers', 'logentry-patrol-patrol', 'logentry-patrol-patrol-auto',
 			'logentry-suppress-delete', 'logentry-suppress-event', 'logentry-suppress-event-legacy', 'logentry-suppress-revision',
 			'logentry-suppress-revision-legacy',
+			// From 1.21
+			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated',
 		), // Checked up to bda51d3c6e7235d810f7a9d8f47f330ae91a3260 / 2013-04-29
 	);
 
