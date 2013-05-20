@@ -1541,7 +1541,7 @@ Upload Wizard
 aliasfile = UploadWizard/UploadWizard.alias.php
 optional = group-upwizcampeditors.css, group-upwizcampeditors.js
 optional = mwe-upwiz-license-custom-url
-ignored = accesskey-save-upload-campaign, accesskey-cancel-upload-campaign
+ignored = accesskey-save-upload-campaign, accesskey-cancel-upload-campaign, mwe-upwiz-flickr-source-template, mwe-upwiz-flickr-author-template
 
 Unicode Converter
 
