@@ -1664,7 +1664,7 @@ ignored = wikibase-api-create-failed, wikibase-api-modify-failed, wikibase-api-d
 ignored = wikibase-api-invalid-contentmodel, wikibase-api-alias-incomplete, wikibase-api-alias-not-found, wikibase-api-alias-found
 ignored = wikibase-api-label-or-description, wikibase-api-label-not-found, wikibase-api-description-not-found, wikibase-api-wrong-class
 ignored = wikibase-api-session-failure, wikibase-api-illegal-field, wikibase-api-edit-conflict
-ignored = wikibase-ui-pendingquantitycounter-nonpending, wikibase-ui-pendingquantitycounter-pending
+ignored = wikibase-ui-pendingquantitycounter-nonpending, wikibase-ui-pendingquantitycounter-pending, wikibase-property-footer
 
 Wikibase Solr
 
