@@ -170,7 +170,7 @@ then
 
 elif [ "$PROJECT" = "toolserver" ]
 then
-	php "$EXPORTER" --target . --group=tsint* --lang '*' --skip en
+	php "$EXPORTER" --target . --group=tsint* --lang '*' --skip en $HOURS
 
 elif [ "$PROJECT" = "vicuna" ]
 then
