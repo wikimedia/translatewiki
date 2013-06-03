@@ -184,14 +184,21 @@ array(
 		'Categorytree-member-counts', // Optional counts: $4, and $5
 	)
 ),
-array(
-	'group' => 'ext-centralauth',
-	'check' => 'links',
-	'message' => array(
-		'centralauth-readmore-text', // Contains link to page that may be available in a translated version
-		'centralauth-finish-problems', // Contains link to page that may be available in a translated version
-	)
-),
+	array(
+		'group' => 'ext-centralauth',
+		'check' => 'links',
+		'message' => array(
+			'centralauth-readmore-text', // Contains link to page that may be available in a translated version
+			'centralauth-finish-problems', // Contains link to page that may be available in a translated version
+		)
+	),
+	array(
+		'group' => 'ext-centralauth',
+		'check' => 'variable',
+		'message' => array(
+			'centralauth-centralautologin-logged-in', // Optional GENDER parameter
+		)
+	),
 array(
 	'group' => 'ext-checkpoint',
 	'check' => 'links',
