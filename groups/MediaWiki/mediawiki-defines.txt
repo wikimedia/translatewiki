@@ -1035,7 +1035,8 @@ file = PoolCounter/PoolCounterClient.i18n.php
 
 # Post comment: Insufficient escaping and other issues
 
-Post Edit
+# Merged into core / 2013-06-01
+#Post Edit
 
 Pref Stats
 aliasfile = PrefStats/PrefStats.alias.php
