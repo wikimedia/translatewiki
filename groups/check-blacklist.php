@@ -27,6 +27,13 @@ array(
 ),
 array(
 	'group' => 'core',
+	'check' => 'plural',
+	'message' => array(
+		'category-file-count', // Work around for http://bugzilla.wikimedia.org/42631
+	),
+),
+array(
+	'group' => 'core',
 	'check' => 'variable',
 	'message' => array(
 		'activeusers-count', // Optional GENDER parameter
@@ -266,6 +273,13 @@ array(
 	'check' => 'links',
 	'message' => array(
 		'unlockedpages', // Contains links that are translated
+	)
+),
+array(
+	'group' => 'ext-educationprogram',
+	'check' => 'plural',
+	'message' => array(
+		'logentry-student-remove', // Work around for http://bugzilla.wikimedia.org/42631
 	)
 ),
 array(
