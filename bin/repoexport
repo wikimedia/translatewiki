@@ -108,7 +108,7 @@ then
 	php "$EXPORTER" --target . --group 'ext-g*' --lang '*' --skip "$SKIPLANGS" $HOURS &
 	php "$EXPORTER" --target . --group 'ext-h*' --lang '*' --skip "$SKIPLANGS" $HOURS &
 	php "$EXPORTER" --target . --group 'ext-i*' --lang '*' --skip "$SKIPLANGS" $HOURS --skipgroup=ext-installer &
-	php "$EXPORTER" --target . --group 'ext-j*' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-j*' --lang '*' --skip "$SKIPLANGS" $HOURS --skipgroup=ext-jquery-uls &
 	php "$EXPORTER" --target . --group 'ext-k*' --lang '*' --skip "$SKIPLANGS" $HOURS &
 	php "$EXPORTER" --target . --group 'ext-l*' --lang '*' --skip "$SKIPLANGS" $HOURS &
 	php "$EXPORTER" --target . --group 'ext-m*' --lang '*' --skip "$SKIPLANGS" $HOURS &
