@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "Dyxc-dLI",
+        "filename": "groups/check-blacklist.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-06-06T14:37:04Z",
+      "side": 1,
+      "message": "If Gerrit is not fooling me, there is extra level of indentation here.",
+      "revId": "4ce9a8a65c3a2b30f60572cbef03dd593728c4b3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
