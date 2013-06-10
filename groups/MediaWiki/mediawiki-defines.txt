@@ -632,7 +632,7 @@ GraphViz
 Groups Sidebar
 
 Guided Tour
-optional = guidedtour-custom.css
+optional = guidedtour-custom.css, guidedtour-tour-test-wikitext-description
 
 Hanp
 
