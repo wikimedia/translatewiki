@@ -27,6 +27,7 @@ GROUPS:
   - ext-imagemap
   - ext-inputbox
   - ext-intersection
+  - ext-jquery-uls
   - ext-mobilefrontend # r93435
   - ext-newusermessage
   - ext-parserfunctions
@@ -42,6 +43,7 @@ GROUPS:
   - ext-timeline
   - ext-titleblacklist
   - ext-torblock
+  - ext-universallanguageselector # change-id: b78d96d69d820c13ed262d5558d8c6e0ba5a6b2a
   - ext-uploadwizard
   - ext-vector
   - ext-webfonts
