@@ -110,6 +110,8 @@ descmsg = bm-printversion-desc
 file = BookManager/language/BookManager.i18n.php
 aliasfile = BookManager/language/BookManager.alias.php
 
+Bootstrap
+
 Bread Crumbs
 
 Calendar
@@ -699,6 +701,8 @@ Language Selector
 Last Modified
 
 Ldap Authentication
+
+Less
 
 Lightweight RDFa
 
