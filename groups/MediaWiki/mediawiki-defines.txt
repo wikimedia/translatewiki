@@ -1087,6 +1087,8 @@ optional = group-filepusher.css, group-filepusher.js
 
 Quantcast
 
+Quick Response
+
 Quiz
 descmsg = quiz_desc
 
