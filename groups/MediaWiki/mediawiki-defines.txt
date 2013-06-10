@@ -80,6 +80,8 @@ Assert Edit
 
 Author Protect
 
+Auto Create Category Pages
+
 Automatic Board Welcome
 
 AWS
@@ -421,6 +423,8 @@ DPL forum
 Drafts
 aliasfile = Drafts/Drafts.alias.php
 ignored = accesskey-drafts-save
+
+Duplicator
 
 # Superseeded by intersection extension
 # Dynamic Page List
@@ -906,6 +910,8 @@ Open Search Xml
 Open Stack Manager
 aliasfile = OpenStackManager/OpenStackManager.alias.php
 optional = openstackmanager-puppetdoclink
+
+Oracle Text Search
 
 Page Creation Notif
 descmsg = page-creation-notif-desc
