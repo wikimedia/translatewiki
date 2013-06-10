@@ -39,6 +39,7 @@ GROUPS:
   - ext-diff # change-id: 5f4c990f3a102f8ae51e4d7bd3f6cf15550a2bf4
   - ext-disableaccount # r86932 for some private wikis
   - ext-doublewiki # Wikisource
+  - ext-disambiguator # change-id: cfb995653b1ae9cbdd410492ee3798e35b32981b
   - ext-echo # Change-Id: Ie22d3148476935b9fb7e294ba41aa53c69ed1c63
   - ext-editpagetracking # r93131 in connection with ext-moodbar
   - ext-educationprogram # 2012-06-14 change id: Id3ea0259072e3aa7a508e5c61f03a0f23ec5fc2e
@@ -72,7 +73,6 @@ GROUPS:
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-pageimages # 2012 on all wikis
   - ext-poem
-  - ext-postedit # change-id: f462cfdb6df56cb2e0ab3b5c94cd32073516989e
   - ext-proofreadpage # Wikisource
   - ext-randomrootpage # 2012-05-16, change-Id: I31e2dc16deb13b3a029656802a69893f36602b98
   - ext-relatedarticles # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
@@ -101,7 +101,6 @@ GROUPS:
   - ext-userdailycontribs
   - ext-usermerge # change-id: dee0a5a3d55dbd9d2daa43c9ea0baa753ee49640 for Wikivoyage
   - ext-vipsscaler # 104390: test2.wikipedia.org
-  - ext-visualeditor # r106062
   - ext-wikilove # r90124
   - ext-wikihiero
   - ext-wikimediaincubator # r89556
