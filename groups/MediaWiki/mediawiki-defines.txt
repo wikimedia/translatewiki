@@ -207,6 +207,8 @@ ignored = commenttab-editintro, commenttab-preload
 Comments
 ignored = commentslogentry, comments-create-text
 
+CommunityTwitter
+
 Community Voice
 aliasfile = CommunityVoice/CommunityVoice.alias.php
 
