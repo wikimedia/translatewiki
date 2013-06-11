@@ -179,9 +179,9 @@ then
 
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
-	php "$EXPORTER" --target . --group=out-waymarked-trails --lang '*' --skip en,qqq --threshold 75 $HOURS
+	php "$EXPORTER" --target . --group=out-waymarked-trails --lang '*' --skip en,qqq,no --threshold 75 $HOURS
 	php "$EXPORTER" --target . --group=out-waymarked-trails --lang qqq $HOURS
-	php "$EXPORTER" --target . --group=out-waymarked-trails-help --lang '*' --skip en,qqq $THRESHOLD $HOURS
+	php "$EXPORTER" --target . --group=out-waymarked-trails-help --lang '*' --skip en,qqq,no $THRESHOLD $HOURS
 	php "$EXPORTER" --target . --group=out-waymarked-trails-help --lang qqq $HOURS
 
 elif [ "$PROJECT" = "wikia" ] || [ "$PROJECT" = "wikia-quick" ]
