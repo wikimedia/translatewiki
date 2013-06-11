@@ -65,7 +65,6 @@ GROUPS:
   - ext-moodbar # r93131
   - ext-mwembedsupport # Change-Id: Ifbb7c9b7344520f6d9fe1ccfa3f276ec153b9770
   - ext-mwsearch
-  - ext-narayam # 2011-03-16: for a lot of projects with non-latin scripts
   - ext-navigationtiming # 2013-03-14: all wikis
   - ext-nuke
   - ext-oai
