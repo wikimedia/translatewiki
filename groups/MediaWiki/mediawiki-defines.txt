@@ -294,6 +294,8 @@ aliasfile = Contributors/Contributors.alias.php
 
 Copy To Clipboard
 
+Core Events
+
 Create Page
 aliasfile = CreatePage/CreatePage.alias.php
 descmsg = cp-desc
