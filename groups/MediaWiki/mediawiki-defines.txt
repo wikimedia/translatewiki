@@ -1682,6 +1682,8 @@ ignored = wikibase-api-label-or-description, wikibase-api-label-not-found, wikib
 ignored = wikibase-api-session-failure, wikibase-api-illegal-field, wikibase-api-edit-conflict
 ignored = wikibase-ui-pendingquantitycounter-nonpending, wikibase-ui-pendingquantitycounter-pending, wikibase-property-footer
 
+Wikibase Data Model
+
 Wikibase Solr
 
 Wikihiero
