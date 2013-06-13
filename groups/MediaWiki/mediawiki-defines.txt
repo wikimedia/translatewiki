@@ -440,7 +440,7 @@ Dynamic Sidebar
 
 Echo
 aliasfile = Echo/Echo.alias.php
-optional = echo-notification-count, echo-date-header
+optional = echo-notification-count
 optional = echo-email-batch-separator, echo-email-batch-bullet, echo-quotation-marks
 
 Edit Page Tracking
