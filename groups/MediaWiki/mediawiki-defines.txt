@@ -118,6 +118,8 @@ Bread Crumbs
 
 Calendar
 
+Campaigns
+
 Carp
 optional = carp-function-msg, carp-template-msg, carp-template
 
