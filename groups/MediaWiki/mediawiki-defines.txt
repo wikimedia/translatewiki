@@ -158,6 +158,8 @@ aliasfile = CheckUser/CheckUser.alias.php
 ignored = checkuser-toollinks
 optional = group-checkuser.css, group-checkuser.js
 
+Cirrus Search
+
 Cite
 optional = cite_reference_link_key_with_num, cite_reference_link_prefix, cite_reference_link_suffix, cite_references_link_prefix
 optional = cite_references_link_suffix, cite_reference_link, cite_references_link_one, cite_references_link_many
@@ -1685,6 +1687,10 @@ ignored = wikibase-api-session-failure, wikibase-api-illegal-field, wikibase-api
 ignored = wikibase-ui-pendingquantitycounter-nonpending, wikibase-ui-pendingquantitycounter-pending, wikibase-property-footer
 
 Wikibase Data Model
+
+Wikibase Database
+
+Wikibase Query Engine
 
 Wikibase Solr
 
