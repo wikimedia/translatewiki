@@ -14,7 +14,13 @@ then
 	if [ -z "$REPO_COMMONSANDROID" ]
 	then echo "Add REPO_COMMONSANDROID to REPOCONF"; exit 1
 	fi
+
 	git clone "$REPO_COMMONSANDROID" $PROJECT
+	cd "$PROJECT"
+	git config user.name 'Translation updater bot'
+	git config user.email 'l10n-bot@translatewiki.net'
+	git config gitreview.username 'l10n-bot'
+	git review -s
 
 elif [ "$PROJECT" = "commons-ios" ]
 then

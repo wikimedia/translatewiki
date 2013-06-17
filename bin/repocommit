@@ -30,7 +30,6 @@ gitcommitNoCheck() {
 }
 
 GITCOMMITNOCHECKPROJECTS="\
-commons-android \
 commons-ios \
 eol \
 etherpad-lite \
@@ -71,6 +70,12 @@ then
 		svn propset -q svn:eol-style native $i
 	done
 	svn commit --message "$COMMITMSG"
+	cd ..
+
+elif [ "$PROJECT" = "commons-android" ]
+then
+	cd $PROJECT
+	git commit -a -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
 	cd ..
 
 elif [ "$PROJECT" = "fudforum" ]

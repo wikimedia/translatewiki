@@ -27,7 +27,6 @@ gitupdate() {
 }
 
 GITUPDATEPROJECTS="\
-commons-android \
 commons-ios \
 eol \
 freecol \
@@ -57,6 +56,13 @@ done
 if [ "$PROJECT" = "blockly" ]
 then
 	svn up $PROJECT
+
+elif [ "$PROJECT" = "commons-android" ]
+then
+	cd $PROJECT
+	git fetch -q --all
+	git reset -q --hard "origin/master"
+	git clean -q -f -d
 
 elif [ "$PROJECT" = "etherpad-lite" ]
 then
