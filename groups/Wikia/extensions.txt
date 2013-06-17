@@ -312,6 +312,7 @@ Wikia Quiz
 
 Wikia Style Guide
 file = WikiaStyleGuide/WikiaStyleGuideElements.i18n.php
+optional = wikiastyleguide-tooltip-icon-question-mark
 
 Wikia Video Add
 file = VideoEmbedTool/WikiaVideoAdd.i18n.php
