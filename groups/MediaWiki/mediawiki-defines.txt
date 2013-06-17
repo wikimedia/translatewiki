@@ -1663,10 +1663,6 @@ Wikibase - Lib
 file = Wikibase/lib/WikibaseLib.i18n.php
 descmsg = wikibaselib-desc
 
-Wikibase - Query
-file = Wikibase/Query/WikibaseQuery.i18n.php
-descmsg = wikibasequery-desc
-
 Wikibase - Repo
 file = Wikibase/repo/Wikibase.i18n.php
 descmsg = wikibase-desc
