@@ -310,6 +310,9 @@ Wikia Photo Gallery
 
 Wikia Quiz
 
+Wikia Style Guide
+file = WikiaStyleGuide/WikiaStyleGuideElements.i18n.php
+
 Wikia Video Add
 file = VideoEmbedTool/WikiaVideoAdd.i18n.php
 
