@@ -123,6 +123,9 @@ Link Suggest
 Lookup Contribs
 file = LookupContribs/SpecialLookupContribs.i18n.php
 
+Manage Wikia Home
+file = SpecialManageWikiaHome/ManageWikiaHome.i18n.php
+
 # Siebrand / 2012-07-04 / Disabled as announced.
 #Media Tool
 #file = MediaTool/MediaTool.i18n.php
