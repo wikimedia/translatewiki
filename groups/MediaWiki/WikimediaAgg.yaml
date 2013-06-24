@@ -23,7 +23,6 @@ GROUPS:
   - ext-codeeditor # Change-Id: e4e8857a55b0a89707525ecdd9dff54a4cc02f6d
   - ext-codereview # MediaWiki.org
   - ext-collection-0-all
-  - ext-communityvoice # usability.wikimedia.org
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-contributionreporting # wikimediafoundation.org
   - ext-contributiontracking # wikimediafoundation.org
