@@ -93,7 +93,7 @@ then
 			else
 				bzr branch ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/ ${MODULE}
 				cd ${MODULE}
-				bzr pull --remember ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/
+				bzr pull --remember `bzr info |grep "checkout of branch" |cut -d" " -f 6`
 				cd ..
 			fi
 		done
