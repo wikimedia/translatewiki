@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "D1iw88yw",
+        "filename": "groups/MediaWiki/WikimediaMainAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2013-06-25T08:19:53Z",
+      "side": 1,
+      "message": "Unused.",
+      "revId": "0afb40013b37027214902a4184afc01b3e266b01",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
