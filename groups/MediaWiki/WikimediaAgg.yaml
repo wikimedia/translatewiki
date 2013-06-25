@@ -13,7 +13,6 @@ GROUPS:
   - ext-accountaudit # cedda98d6dd46cccfb88bdb32597feb0d8a6ca6b
   - ext-antibot # anti spam and such (usually all wikis)
   - ext-apisandbox # r104698, enabled on all wikis
-  - ext-articlefeedback
   - ext-articlefeedbackv5
   - ext-calendar # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-charinsert
