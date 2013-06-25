@@ -18,7 +18,6 @@ GROUPS:
   - ext-charinsert
   - ext-checkuser
   - ext-cldr # r88299 on all wikis
-  - ext-clientside # usability.wikimedia.org
   - ext-codeeditor # Change-Id: e4e8857a55b0a89707525ecdd9dff54a4cc02f6d
   - ext-codereview # MediaWiki.org
   - ext-collection-0-all
@@ -81,7 +80,6 @@ GROUPS:
   - ext-shorturl # r108172
   - ext-solarium # Change id: 1eddeb41816e3e3e3a2edf7fdcaeeeab38d76226
   - ext-skinperpage # Wikimediafoundation.org
-  - ext-strategywiki-activestrategy # 2010-05-08: strategywiki.wikimedia.org
   - ext-subpagelist3 # r90651
   - ext-subpagesortkey # a2b3abe7ebc6aac630e4e309cc17780b28ac4b04 for some wikibooks
   - ext-swiftcloudfiles # 110441
