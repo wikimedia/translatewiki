@@ -21,7 +21,6 @@ GROUPS:
   - ext-confirmeditfancycaptcha
   - ext-coreevents # 2013-06-13: all projects
   - ext-dismissablesitenotice
-  - ext-dontswitchmeover
   - ext-featuredfeeds # r110030 for all projects
   - ext-gadgets
   - ext-globalblocking
