@@ -890,6 +890,9 @@ OATH Auth
 aliasfile = OATHAuth/OATHAuth.alias.php
 optional = oath
 
+OAuth
+file = OAuth/frontend/language/OAuth.i18n.php
+
 Ogg Handler
 magicfile = OggHandler/OggHandler.i18n.magic.php
 descmsg = ogg-desc
