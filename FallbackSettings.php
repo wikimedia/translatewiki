@@ -57,6 +57,7 @@ $wgTranslateLanguageFallbacks['mai'] = 'hi';
 $wgTranslateLanguageFallbacks['mdf'] = array( 'myv' );
 $wgTranslateLanguageFallbacks['mfe'] = array( 'fr' ); # Robin 2011-10-18
 $wgTranslateLanguageFallbacks['mhr'] = array( 'mrj' );
+$wgTranslateLanguageFallbacks['miq'] = array( 'es' );
 $wgTranslateLanguageFallbacks['mnc'] = array( 'zh-hans' );
 $wgTranslateLanguageFallbacks['mrj'] = array( 'mhr' );
 $wgTranslateLanguageFallbacks['mt'] = 'it'; # http://translatewiki.net/w/i.php?title=Support&curid=71166&diff=485516&oldid=485114
