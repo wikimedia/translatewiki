@@ -1032,6 +1032,9 @@ magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
 Parser Hooks
 
+# No real extension, used for VisualEditor
+# Parsoid
+
 Pdf Export
 aliasfile = PdfExport/PdfExport.i18n.alias.php
 ignored = pdf_fontface_default, pdf_fontface_options
@@ -1693,6 +1696,9 @@ Wikibase Database
 Wikibase Query Engine
 
 Wikibase Solr
+
+# No real extension, Java program
+# Wikidata Entity Suggester
 
 Wikihiero
 file = wikihiero/wikihiero.i18n.php
