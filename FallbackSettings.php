@@ -1,5 +1,6 @@
 <?php
 
+$wgTranslateLanguageFallbacks['abs'] = array( 'id' );
 $wgTranslateLanguageFallbacks['acf'] = 'fr';
 $wgTranslateLanguageFallbacks['aeb'] = 'ar';
 $wgTranslateLanguageFallbacks['af'] = 'nl';
