@@ -182,6 +182,10 @@ Click Tracking
 
 Client Side
 
+Close Wikis
+aliasfile = CloseWikis/CloseWikis.alias.php
+ignored = closewikis-closed
+
 Code Editor
 
 Code Review
@@ -665,6 +669,8 @@ magicfile = I18nTags/I18nTags.magic.php
 Image Map
 descmsg = imagemap_desc
 optional = imagemap_desc_types
+
+Inline Categorizer
 
 # Inline Editor: Disabled per https://www.mediawiki.org/wiki/Special:Code/MediaWiki/82789#c14456
 
