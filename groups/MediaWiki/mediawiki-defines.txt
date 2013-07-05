@@ -899,6 +899,7 @@ optional = oath
 OAuth
 file = OAuth/frontend/language/MWOAuth.i18n.php
 aliasfile = OAuth/frontend/language/MWOAuth.alias.php
+descmsg = mwoauth-desc
 
 Ogg Handler
 magicfile = OggHandler/OggHandler.i18n.magic.php
