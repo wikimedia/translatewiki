@@ -1684,6 +1684,7 @@ descmsg = wikibase-desc
 aliasfile = Wikibase/repo/Wikibase.i18n.alias.php
 optional = wikibase-itemlink, wikibase-itemlink-id-wrapper, wikibase-itemlink-title, wikibase-propertyedittool-counter-pending-pendingsubpart
 optional = wikibase-itemlink-userlang-wrapper, wikibase-ui-pendingquantitycounter-pending-pendingsubpart
+optional = wikibase-mylanguagefallbackchain-verbatim-item
 ignored = wikibase-api-aliases-invalid-list, wikibase-api-no-token, wikibase-api-no-data, wikibase-api-client-error
 ignored = wikibase-api-no-external-data, wikibase-api-no-external-page, wikibase-api-add-sitelink-failed, wikibase-api-remove-sitelink-failed
 ignored = wikibase-api-cant-edit, wikibase-api-json-invalid, wikibase-api-not-recognized, wikibase-api-not-recognized-string
