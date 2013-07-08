@@ -17,7 +17,7 @@
 $checkBlacklist = array(
 	array(
 		'check' => 'plural',
-		'code' => array( 'az', 'bo', 'dz', 'id', 'fa', 'gan', 'gan-hans',
+		'code' => array( 'az', 'bo', 'cdo', 'dz', 'id', 'fa', 'gan', 'gan-hans',
 			'gan-hant', 'gn', 'hak', 'hu', 'ja', 'jv', 'ka', 'kk-arab',
 			'kk-cyrl', 'kk-latn', 'km', 'kn', 'ko', 'lzh', 'mn', 'ms',
 			'my', 'sah', 'sq', 'tet', 'th', 'to', 'tr', 'vi', 'wuu', 'xmf',
