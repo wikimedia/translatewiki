@@ -839,8 +839,8 @@ Namespace Paths
 Namespace Relations
 descmsg = nsrels-desc
 
-Narayam
-optional = narayam-help-page
+# Unmaintained / Siebrand 2013-07-09
+#Narayam
 
 Natural Language List
 descmsg = nll-desc
@@ -1620,9 +1620,8 @@ prefix = voteny- | right-vote
 Web Chat
 aliasfile = WebChat/WebChat.alias.php
 
-Web Fonts
-aliasfile = WebFonts/WebFonts.alias.php
-ignored = webfonts-help-page
+# Unmaintained / Siebrand 2013-07-09
+#Web Fonts
 
 White Space
 
