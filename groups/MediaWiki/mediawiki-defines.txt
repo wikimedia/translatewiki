@@ -112,6 +112,10 @@ descmsg = bm-printversion-desc
 file = BookManager/language/BookManager.i18n.php
 aliasfile = BookManager/language/BookManager.alias.php
 
+Book Manager v2
+
+# Book Manager v2 - Json Schema: dupe of "Event Logging - Json Schema"
+
 Bootstrap
 
 Bread Crumbs
