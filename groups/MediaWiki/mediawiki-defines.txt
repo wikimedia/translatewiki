@@ -1677,25 +1677,27 @@ Wikibase - Lib
 file = Wikibase/lib/WikibaseLib.i18n.php
 descmsg = wikibaselib-desc
 
-#Wikibase - Repo
-#file = Wikibase/repo/Wikibase.i18n.php
-#descmsg = wikibase-desc
-#aliasfile = Wikibase/repo/Wikibase.i18n.alias.php
-#optional = wikibase-itemlink, wikibase-itemlink-id-wrapper, wikibase-itemlink-title, wikibase-propertyedittool-counter-pending-pendingsubpart
-#optional = wikibase-itemlink-userlang-wrapper, wikibase-ui-pendingquantitycounter-pending-pendingsubpart
-#optional = wikibase-mylanguagefallbackchain-verbatim-item
-#ignored = wikibase-api-aliases-invalid-list, wikibase-api-no-token, wikibase-api-no-data, wikibase-api-client-error
-#ignored = wikibase-api-no-external-data, wikibase-api-no-external-page, wikibase-api-add-sitelink-failed, wikibase-api-remove-sitelink-failed
-#ignored = wikibase-api-cant-edit, wikibase-api-json-invalid, wikibase-api-not-recognized, wikibase-api-not-recognized-string
-#ignored = wikibase-api-not-recognized-array, wikibase-api-not-recognized-language, wikibase-api-not-recognized-siteid, wikibase-api-no-permissions
-#ignored = wikibase-api-no-revision, wikibase-api-patch-empty, wikibase-api-patch-incomplet, wikibase-api-data-or-id-xor-wikititle
-#ignored = wikibase-api-id-xor-wikititle, wikibase-api-ids-xor-wikititles, wikibase-api-no-such-entity, wikibase-api-link-exists
-#ignored = wikibase-api-add-with-id, wikibase-api-add-exists, wikibase-api-update-without-id, wikibase-api-no-such-item-link
-#ignored = wikibase-api-create-failed, wikibase-api-modify-failed, wikibase-api-delete-failed, wikibase-api-save-failed
-#ignored = wikibase-api-invalid-contentmodel, wikibase-api-alias-incomplete, wikibase-api-alias-not-found, wikibase-api-alias-found
-#ignored = wikibase-api-label-or-description, wikibase-api-label-not-found, wikibase-api-description-not-found, wikibase-api-wrong-class
-#ignored = wikibase-api-session-failure, wikibase-api-illegal-field, wikibase-api-edit-conflict
-#ignored = wikibase-ui-pendingquantitycounter-nonpending, wikibase-ui-pendingquantitycounter-pending, wikibase-property-footer
+Wikibase - Repo
+file = Wikibase/repo/Wikibase.i18n.php
+descmsg = wikibase-desc
+aliasfile = Wikibase/repo/Wikibase.i18n.alias.php
+optional = wikibase-itemlink, wikibase-itemlink-id-wrapper, wikibase-itemlink-title, wikibase-propertyedittool-counter-pending-pendingsubpart
+optional = wikibase-itemlink-userlang-wrapper, wikibase-ui-pendingquantitycounter-pending-pendingsubpart
+optional = wikibase-mylanguagefallbackchain-verbatim-item
+ignored = wikibase-api-common-item, wikibase-api-badtoken, wikibase-api-cant-load-entity-content
+ignored = wikibase-api-editconflict, wikibase-api-failed-add-sitelink, wikibase-api-failed-modify
+ignored = wikibase-api-failed-save, wikibase-api-inconsistent-language, wikibase-api-inconsistent-site
+ignored = wikibase-api-invalid-guid, wikibase-api-invalid-json, wikibase-api-invalid-snak
+ignored = wikibase-api-invalid-list, wikibase-api-invalid-property-id, wikibase-api-invalid-snak
+ignored = wikibase-api-no-common-iten, wikibase-api-no-data, wikibase-api-no-external-page
+ignored = wikibase-api-nosuchrevid, wikibase-api-no-such-claim, wikibase-api-no-such-entity
+ignored = wikibase-api-no-such-entity-id, wikibase-api-no-such-entity-link, wikibase-api-no-such-qualifier
+ignored = wikibase-api-no-such-reference, wikibase-api-no-such-site, wikibase-api-no-such-statement
+ignored = wikibase-api-not-a-statement, wikibase-api-not-an-item, wikibase-api-not-recognized-siteid
+ignored = wikibase-api-not-recognized, wikibase-api-not-recognized-array, wikibase-api-not-recognized-language
+ignored = wikibase-api-not-recognized-string, wikibase-api-param-missing, wikibase-api-param-illegal
+ignored = wikibase-api-permissiondenied, wikibase-api-wrong-class
+ignored = wikibase-ui-pendingquantitycounter-nonpending, wikibase-ui-pendingquantitycounter-pending, wikibase-property-footer
 
 Wikibase Data Model
 
