@@ -54,6 +54,7 @@ TAGS:
     - model.nation.*.ship.*
     - model.nation.Portuguese.Europe
     - model.nation.Swedish.Europe
+    - model.other.region.river.*
     - model.region.default
     - model.unit.nationUnit
     - model.unit.occupation.active
