@@ -792,6 +792,9 @@ optional = maps_googlemaps2, maps_googlemaps3, maps_yahoomaps, maps_openlayers, 
 
 Mark As Helpful
 
+Mass Edit Regex
+aliasfile = MassEditRegex/MassEditRegex.alias.php
+
 Math
 
 Math Search
@@ -1300,6 +1303,9 @@ Semantic Web Browser
 descmsg = swb_desc
 aliasfile = SemanticWebBrowser/SemanticWebBrowser.alias.php
 optional = swb_browse_more
+
+# Not a real extension
+# Serialization
 
 Shared Css Js
 
