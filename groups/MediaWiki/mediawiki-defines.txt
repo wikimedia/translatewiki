@@ -1592,6 +1592,7 @@ Unicode Converter
 
 Universal Language Selector
 descmsg = uls-desc
+ignored = uls-ime-helppage
 
 UR Names
 
