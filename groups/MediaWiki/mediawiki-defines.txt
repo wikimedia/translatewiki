@@ -113,6 +113,7 @@ file = BookManager/language/BookManager.i18n.php
 aliasfile = BookManager/language/BookManager.alias.php
 
 Book Manager v2
+optional = bookmanagerv2-isbn, bookmanagerv2-lccn, bookmanagerv2-oclc
 
 # Book Manager v2 - Json Schema: dupe of "Event Logging - Json Schema"
 
