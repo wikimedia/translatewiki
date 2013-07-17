@@ -800,6 +800,8 @@ Math
 
 Math Search
 aliasfile = MathSearch/MathSearch.alias.php
+ignored = mathmode_0, mathmode_1, mathmode_2, mathmode_3, mathmode_4
+ignored = mathmode_5, mathmode_6, mathmode_7, mathmode_7+
 
 Media Functions
 
