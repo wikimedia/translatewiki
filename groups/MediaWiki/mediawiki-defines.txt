@@ -573,6 +573,9 @@ id = ext-flaggedrevs-validationstatistics
 file = FlaggedRevs/frontend/language/ValidationStatistics.i18n.php
 descmsg = flaggedrevs-desc
 
+Flv Handler
+descmsg = flvhandler_desc
+
 Force Preview
 
 Formel Applet
