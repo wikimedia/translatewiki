@@ -667,7 +667,7 @@ Host Stats
 ignored = hoststats
 
 Hovergallery
-file = HoverGallery/HoverGallery.i18n.php
+file = Hovergallery/HoverGallery.i18n.php
 
 HTML Tags
 
