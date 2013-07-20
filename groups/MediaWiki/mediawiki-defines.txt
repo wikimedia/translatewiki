@@ -20,6 +20,9 @@ Add This
 Admin Links
 aliasfile = AdminLinks/AdminLinks.alias.php
 
+Ads
+file = Ads/ads.i18n.php
+
 Agora
 
 AJAX Poll
