@@ -805,6 +805,8 @@ Mark As Helpful
 Mass Edit Regex
 aliasfile = MassEditRegex/MassEditRegex.alias.php
 
+Mass Message
+
 Math
 
 Math Search
