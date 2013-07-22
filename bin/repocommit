@@ -54,6 +54,11 @@ WiktionaryMobile"
 for i in $GITCOMMITNOCHECKPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
 	then
+		if [ "$PROJECT" = "wikia-quick" ]
+		then
+			PROJECT="wikia"
+		fi
+
 		gitcommitNoCheck "$PROJECT"
 		exit 0
 	fi
