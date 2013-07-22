@@ -71,7 +71,7 @@ then
 	for i in `find . -name *.json`
 	do
 		svn add -q $i
-		svn propset -q svn:mime-type text/plain $i
+		svn propset -q svn:mime-type application/json $i
 		svn propset -q svn:eol-style native $i
 	done
 	svn commit --message "$COMMITMSG"
@@ -90,18 +90,6 @@ then
 	do
 		svn add -q $i
 		svn propset -q svn:mime-type text/plain $i
-		svn propset -q svn:eol-style native $i
-	done
-	svn commit --message "$COMMITMSG"
-	cd ..
-
-elif [ "$PROJECT" = "fudforum" ]
-then
-	cd $PROJECT
-	for i in `find . -name msg`
-	do
-		svn add -q $i
-		svn propset -q svn:mime-type application/json $i
 		svn propset -q svn:eol-style native $i
 	done
 	svn commit --message "$COMMITMSG"
