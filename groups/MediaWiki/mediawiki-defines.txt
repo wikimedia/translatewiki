@@ -31,6 +31,8 @@ Akismet Klik
 
 All Time Zones
 
+Annotator
+
 Anti Bot
 
 Anti Spoof
