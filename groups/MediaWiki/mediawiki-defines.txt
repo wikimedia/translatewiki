@@ -1763,6 +1763,7 @@ ignored = wminc-infopage-prefill, wminc-manual-url, wminc-infopage-links
 
 Wikimedia Messages
 ignored = sidebar, robots.txt, extdist-branch-REL1_19, extdist-branch-REL1_20
+optional = sitesupport-url
 optional = grouppage-steward, grouppage-sysadmin, grouppage-Global_bot
 optional = grouppage-Global_rollback, grouppage-Ombudsmen, grouppage-coder
 optional = grouppage-Staff, shared-repo-name-shared
