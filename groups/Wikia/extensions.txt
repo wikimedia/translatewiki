@@ -304,9 +304,7 @@ ignored = ircgate-channellist
 
 Wikia Mini Upload
 
-# Siebrand / 2012-07-04 / Disabled as announced.
-# Wikia Mobile
-#ignored = wikiamobile-page-header-title
+Wikia Mobile
 
 Wikia Poll
 optional = wikiapoll-question-mark-before, wikiapoll-question-mark-after
