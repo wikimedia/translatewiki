@@ -1085,6 +1085,14 @@ Poem
 
 Polyglot
 
+# Per mw.o: This extension has been removed.
+# Poll
+
+Poll NY
+file = PollNY/Poll.i18n.php
+aliasfile = PollNY/Poll.alias.php
+descmsg = poll-desc
+
 Pool Counter
 file = PoolCounter/PoolCounterClient.i18n.php
 
@@ -1331,6 +1339,9 @@ aliasfile = ShortUrl/ShortUrl.alias.php
 
 Shout Box
 optional = shoutbox-url, shoutbox-url-with-css
+
+# This extension is currently very ShoutWiki-specific
+# Shout Wiki Ads
 
 Side Bar Menu
 
