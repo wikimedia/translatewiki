@@ -71,7 +71,7 @@ then
 	for i in `find . -name *.json`
 	do
 		svn add -q $i
-		svn propset -q svn:mime-type application/json $i
+		svn propset -q svn:mime-type text/plain $i
 	done
 	svn commit --message "$COMMITMSG"
 	cd ..
