@@ -640,7 +640,8 @@ Google Custom Wiki Search
 descmsg = gcws-desc
 aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
 
-Google Maps
+# Google Maps
+# Archived in June 2013
 
 Google News Sitemap
 ignored = googlenewssitemap_categorymap
