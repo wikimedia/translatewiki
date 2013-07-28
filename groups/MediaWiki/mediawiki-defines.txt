@@ -809,6 +809,7 @@ Mass Edit Regex
 aliasfile = MassEditRegex/MassEditRegex.alias.php
 
 Mass Message
+aliasfile = MassMessage/MassMessage.alias.php
 
 Math
 
@@ -888,6 +889,9 @@ New Users List
 
 Newest Pages
 aliasfile = NewestPages/NewestPages.alias.php
+
+News
+descmsg = newsextension-desc
 
 Nimbus
 file = skins/Nimbus/Nimbus.i18n.php
