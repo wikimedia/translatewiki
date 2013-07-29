@@ -225,7 +225,6 @@ Comment Pages
 ignored = commenttab-editintro, commenttab-preload
 
 Comments
-ignored = commentslogentry, comments-create-text
 
 CommunityTwitter
 
