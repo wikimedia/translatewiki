@@ -1667,6 +1667,10 @@ aliasfile = WebChat/WebChat.alias.php
 # Unmaintained / Siebrand 2013-07-09
 #Web Fonts
 
+Web Platform Auth
+
+Web Platform Search Autocomplete
+
 White Space
 
 Whitelist Pages
