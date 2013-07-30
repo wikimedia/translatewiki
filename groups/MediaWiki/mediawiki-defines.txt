@@ -809,6 +809,7 @@ aliasfile = MassEditRegex/MassEditRegex.alias.php
 
 Mass Message
 aliasfile = MassMessage/MassMessage.alias.php
+ignored = massmessage-target
 
 Math
 
