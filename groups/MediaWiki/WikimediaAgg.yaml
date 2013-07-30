@@ -93,7 +93,6 @@ GROUPS:
   - ext-translate-0-all
   - ext-translationnotifications # 2012-05-??: meta, mediawiki, wikimania, incubator, and other
   - ext-trustedxff
-  - ext-uploadblacklist
   - ext-userdailycontribs
   - ext-usermerge # change-id: dee0a5a3d55dbd9d2daa43c9ea0baa753ee49640 for Wikivoyage
   - ext-vipsscaler # 104390: test2.wikipedia.org
