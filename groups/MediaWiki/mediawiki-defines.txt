@@ -1159,6 +1159,7 @@ Random Image
 
 Random In Category
 aliasfile = RandomInCategory/RandomInCategory.alias.php
+prefix = extension- | randomincategory
 
 Random Root Page
 file = RandomRootPage/Randomrootpage.i18n.php
