@@ -20,6 +20,10 @@ class nginx {
     source  => 'puppet:///modules/nginx/nginx.conf',
   }
 
+  file { '/etc/nginx/mime.types':
+    source  => 'puppet:///modules/nginx/mime.types',
+  }
+
   file { '/etc/nginx/sites-available/translatewiki.net':
     source  => 'puppet:///modules/nginx/sites/translatewiki.net',
   }
