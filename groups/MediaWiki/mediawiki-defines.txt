@@ -91,6 +91,8 @@ Automatic Board Welcome
 
 AWS
 
+AWS SDK
+
 Babel
 magicfile = Babel/Babel.i18n.magic.php
 optional = babel-0-female, babel-1-female, babel-2-female, babel-3-female
@@ -106,6 +108,8 @@ ignored = babel-box-cellpadding, babel-cellpadding
 
 Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
+
+Beta Features
 
 Biblio Plus
 
@@ -492,6 +496,8 @@ Expand Templates
 aliasfile = ExpandTemplates/ExpandTemplates.alias.php
 
 Extension Distributor
+
+External Articles
 
 External Data
 magicfile = ExternalData/ExternalData.i18n.magic.php
