@@ -40,6 +40,7 @@ jquery.uls \
 kiwix \
 mantis \
 mifos \
+pywikipedia \
 shapado \
 toolserver \
 vicuna \
@@ -179,13 +180,6 @@ then
 	git add .
 	git commit -m "$COMMITMSG"
 	git push
-	cd ..
-
-elif [ "$PROJECT" = "pywikipedia" ]
-then
-	cd $PROJECT
-	svn propset -q svn:eol-style native *.py
-	svn commit --message "$COMMITMSG"
 	cd ..
 
 elif [ "$PROJECT" = "wikiblame" ]

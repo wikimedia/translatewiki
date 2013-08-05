@@ -262,7 +262,7 @@ then
 	if [ -z "$REPO_PYWIKIPEDIA" ]
 	then echo "Add REPO_PYWIKIPEDIA to REPOCONF"; exit 1
 	fi
-	svn checkout "$REPO_PYWIKIPEDIA" $PROJECT
+	git clone "$REPO_PYWIKIPEDIA" $PROJECT
 
 elif [ "$PROJECT" = "shapado" ]
 then
