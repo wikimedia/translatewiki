@@ -583,6 +583,8 @@ id = ext-flaggedrevs-validationstatistics
 file = FlaggedRevs/frontend/language/ValidationStatistics.i18n.php
 descmsg = flaggedrevs-desc
 
+Flow
+
 Flv Handler
 descmsg = flvhandler_desc
 
