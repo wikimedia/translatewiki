@@ -310,6 +310,7 @@ $wgExtraLanguageNames['izh'] = 'ižoran keel'; # Ingrian / Robin 2012-11-17
 $wgExtraLanguageNames['ban'] = 'ᬩᬲᬩᬮᬶ'; # Balinese / Siebrand 2012-11-25
 $wgExtraLanguageNames['miq'] = 'Mískitu'; # Miskito / Siebrand 2013-07-02
 $wgExtraLanguageNames['abs'] = 'Bahasa Ambon'; # Ambonese Malay / Siebrand 2013-07-05
+$wgExtraLanguageNames['pbb'] = 'Nasa Yuwe'; # Páez / Siebrand 2013-08-08
 
 $wgExtraLanguageNames['nl-be']     = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['qqq']       = 'Message documentation'; # No linguistic content. Used for documenting messages
