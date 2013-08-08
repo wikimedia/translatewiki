@@ -20,6 +20,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: out-blockly-apps
+  label: Blockly - Apps
+
+FILES:
+  sourcePattern: %GROUPROOT%/blockly/apps/%CODE%.json
+  targetPattern: blockly/apps/%CODE%.json
+
+---
+BASIC:
   id: out-blockly-maze
   label: Blockly - Maze
 
