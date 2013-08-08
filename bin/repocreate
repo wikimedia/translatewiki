@@ -195,7 +195,7 @@ then
 	# Check if REPO_MOZILLA_SUPPORTEDLANG is set. Makes little sense to NOT set it.
 	# Should look like: REPO_MOZILLA_SUPPORTEDLANG="fr he gu-IN", depending on
 	# actually maintained or supported languages. Use actual repo codes, as those
-	#  are mapped to the correct MediaWiki code using codeMap.
+	# are mapped to the correct MediaWiki code using codeMap.
 	if [ -z "$REPO_MOZILLA_SUPPORTEDLANG" ]
 		then echo "Add REPO_MOZILLA_SUPPORTEDLANG to REPOCONF as currently no languages are supported"; exit 1
 	fi
