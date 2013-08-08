@@ -265,6 +265,7 @@ then
 	git clone "$REPO_PYWIKIPEDIA" $PROJECT
 	if [ "$REPO_RW" = "yes" ]
 	then
+		cd $PROJECT
 		git config user.name 'Translation updater bot'
 		git config user.email 'l10n-bot@translatewiki.net'
 		git config gitreview.username 'l10n-bot'
@@ -359,4 +360,3 @@ then
 else
 	echo "Unknown project"
 fi
-
