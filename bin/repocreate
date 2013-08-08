@@ -263,6 +263,13 @@ then
 	then echo "Add REPO_PYWIKIPEDIA to REPOCONF"; exit 1
 	fi
 	git clone "$REPO_PYWIKIPEDIA" $PROJECT
+	if [ "$REPO_RW" = "yes" ]
+	then
+		git config user.name 'Translation updater bot'
+		git config user.email 'l10n-bot@translatewiki.net'
+		git config gitreview.username 'l10n-bot'
+		git review -s
+	fi
 
 elif [ "$PROJECT" = "shapado" ]
 then
