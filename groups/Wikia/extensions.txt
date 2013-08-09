@@ -118,6 +118,8 @@ Interwiki Dispatcher
 file = InterwikiDispatcher/SpecialInterwikiDispatcher.i18n.php
 aliasfile = InterwikiDispatcher/SpecialInterwikiDispatcher.alias.php
 
+Licensed Video Swap
+
 Link Suggest
 
 Lookup Contribs
