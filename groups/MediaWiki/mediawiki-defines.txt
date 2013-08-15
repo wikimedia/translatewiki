@@ -952,6 +952,8 @@ ignored = onlinestatus-levels
 
 Online Status Bar
 
+Only Recent Recent Changes
+
 Open ID
 aliasfile = OpenID/OpenID.alias.php
 optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
