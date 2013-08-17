@@ -1,7 +1,7 @@
 # Siebrand / 2008-02-09
 # should be run as user 'siebrand' because pywikipediabot checks ownership of user-config.py
 
-COMMAND="/usr/bin/php groupStatistics.php --skipzero --groups=ext-di-di,ext-di-pfpg"
+COMMAND="/usr/bin/php groupStatistics.php --skipzero --groups=ext-di-gc,ext-di-pfpg"
 
 # create basic stats file for groups 'most used', 'core', 'Wikimedia extensions', and 'All extensions'
 cd /www/w/extensions/Translate/scripts
