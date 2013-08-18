@@ -91,6 +91,15 @@ FILES:
   targetPattern: pywikipedia/basic.py
 ---
 BASIC:
+  id: out-pywikipedia-blockpageschecker
+  label: Pywikipedia Blockpages Checker
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikipedia/blockpageschecker.py
+  definitionFile: %GROUPROOT%/pywikipedia/blockpageschecker.py
+  targetPattern: pywikipedia/blockpageschecker.py
+---
+BASIC:
   id: out-pywikipedia-capitalizeredirects
   label: Pywikipedia Capitalize Redirects
 
