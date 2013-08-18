@@ -1166,7 +1166,8 @@ descmsg = quiz_desc
 Random Image
 
 Random In Category
-aliasfile = RandomInCategory/RandomInCategory.alias.php
+# Conflicts with core 2013-08-18
+# aliasfile = RandomInCategory/RandomInCategory.alias.php
 prefix = extension- | randomincategory
 
 Random Root Page
