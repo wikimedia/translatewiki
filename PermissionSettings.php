@@ -54,6 +54,7 @@ $wgGroupPermissions['sysop'        ]['suppressredirect']        = true;
 $wgGroupPermissions['bureaucrat'   ]['renameuser']              = false;
 $wgGroupPermissions['bureaucrat'   ]['userrights']              = false;
 $wgGroupPermissions['bureaucrat'   ]['deleterevision']          = true;
+$wgGroupPermissions['bureaucrat'   ]['deletelogentry']          = true;
 $wgGroupPermissions['bureaucrat'   ]['suppressionlog']          = true;
 $wgGroupPermissions['bureaucrat'   ]['nuke']                    = true;
 $wgGroupPermissions['bureaucrat'   ]['interwiki']               = true;
@@ -68,6 +69,7 @@ $wgGroupPermissions['staff'        ]['translate-manage']        = true;
 $wgGroupPermissions['staff'        ]['nuke']                    = true;
 $wgGroupPermissions['staff'        ]['replacetext']             = true;
 $wgGroupPermissions['sysop'        ]['replacetext']             = false;
+$wgGroupPermissions['staff'        ]['suppressrevision']        = true;
 
 $wgGroupPermissions['offline'      ]['translate-import']        = true;
 
