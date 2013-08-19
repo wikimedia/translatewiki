@@ -66,6 +66,7 @@ GROUPS:
   - ext-navigationtiming # 2013-03-14: all wikis
   - ext-nuke
   - ext-oai
+  - ext-oauth # 2013-08-19
   - ext-opensearchxml
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-pageimages # 2012 on all wikis
