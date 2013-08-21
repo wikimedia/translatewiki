@@ -1762,6 +1762,7 @@ ignored = wikibase-api-not-recognized, wikibase-api-not-recognized-array, wikiba
 ignored = wikibase-api-not-recognized-string, wikibase-api-param-missing, wikibase-api-param-illegal
 ignored = wikibase-api-permissiondenied, wikibase-api-wrong-class
 ignored = wikibase-ui-pendingquantitycounter-nonpending, wikibase-ui-pendingquantitycounter-pending, wikibase-property-footer
+ignored = wikibase-shortcopyrightwarning-version
 
 Wikibase Data Model
 
