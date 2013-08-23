@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2995f1bc_3b6b5721",
+        "filename": "groups/MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2013-08-23T07:15:13Z",
+      "side": 1,
+      "message": "Code convention for this file is: \"Whitespace before a new Upper letter\". Without further explanation I see no reason why to change this\narbitrarily for some extensions.",
+      "revId": "7a436bbb112bf6a34576414e82fdd8354d2efb55",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2995f1bc_9b62ab40",
+        "filename": "groups/MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1777,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2013-08-23T07:15:13Z",
+      "side": 1,
+      "message": "The name of the extension is \"Wikihiero\", not \"WikiHiero\". The keywords here are the same as the Git repo name.",
+      "revId": "7a436bbb112bf6a34576414e82fdd8354d2efb55",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
