@@ -1,31 +1,16 @@
-#!/bin/bash
-WIKINAME=$1
-WIKI=$2
+#!/bin/sh
 
-cd $WIKI
+set -e
 
-echo "*** Updating core ***"
-git pull --rebase
+WIKI=$1
+BASEDIR=$(dirname $0)
 
-cd extensions
+echo "*** Updating core and extensions ***"
+find $WIKI $WIKI/extensions/* -maxdepth 1 -type d -name .git |
+	xargs -n1 dirname |
+	xargs -n1 -P5 "$BASEDIR/wikiupdate-repo"
 
-echo "*** Updating extensions ***"
-count=0
-for dir in *; do
-	if [ -d "$dir" ]; then
-		cd $dir
-		if [ -d ".git" ]; then
-			echo -n "$dir.. ";
-			git pull --rebase |egrep -v "(Already|rewinding|up to date)" &
-			let count+=1; [[ $((count%10)) -eq 0 ]] && wait
-		fi
-		cd ..
-	fi
-done;
+echo "*** Rebuilding caches ***"
+php $WIKI/maintenance/rebuildLocalisationCache.php --threads 12 --quiet
 
-wait
-echo -e "\n*** Rebuilding caches ***"
-php $WIKI/maintenance/rebuildLocalisationCache.php --threads 12 --quiet &
-
-wait
 echo "*** All done ***"

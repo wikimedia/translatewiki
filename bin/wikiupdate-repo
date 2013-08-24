@@ -1,0 +1,9 @@
+#!/bin/sh
+
+cd $1
+OUTPUT=$(git pull --quiet --rebase 2>&1 >&-)
+
+if [ "$OUTPUT" != "" ]; then
+	printf "\033[31m%s failed to update\033[0m\n" "$1";
+	echo $OUTPUT;
+fi

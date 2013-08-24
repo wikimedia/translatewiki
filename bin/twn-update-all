@@ -1,19 +1,19 @@
-#!/bin/bash
+#!/bin/sh
 
+set -e
+
+BASEDIR=$(dirname $0)
 WIKINAME="translatewiki.net"
 WIKI=/www/$WIKINAME/w
 
 cd $WIKI
 REV=`git log --pretty='%h %ci (%cr)' -n 1`
-udpcast "updating $WIKINAME from $REV..."
+"$BASEDIR/udpcast" "updating $WIKINAME from $REV..."
 
 echo "*** Updating config ***"
-cd /home/betawiki/config
-sudo -u betawiki git pull
+sudo -u betawiki "$BASEDIR/wikiupdate-repo" /home/betawiki/config
 
-cd $WIKI
-sudo -u betawiki /home/betawiki/config/bin/wikiupdate "$WIKINAME" "$WIKI"
+sudo -u betawiki "$BASEDIR/wikiupdate" "$WIKI"
 
 REV=`git log --pretty='%h %ci (%cr)' -n 1`
-udpcast "updated $WIKINAME to $REV"
-
+"$BASEDIR/udpcast" "updated $WIKINAME to $REV"

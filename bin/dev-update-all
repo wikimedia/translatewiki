@@ -1,16 +1,19 @@
-#!/bin/bash
+#!/bin/sh
 
 # Used for updating sandwiki, nikes playground
 # do not touch :)
 
+set -e
+
+BASEDIR=$(dirname $0)
 WIKINAME="dev.translatewiki.net"
 WIKI=/www/$WIKINAME/w
 
 cd $WIKI
 REV=`git log --pretty='%h %ci (%cr)' -n 1`
-udpcast "updating $WIKINAME from $REV..."
+"$BASEDIR/udpcast" "updating $WIKINAME from $REV..."
 
-/home/betawiki/config/bin/wikiupdate "$WIKINAME" "$WIKI"
+"$BASEDIR/wikiupdate" "$WIKI"
 
 REV=`git log --pretty='%h %ci (%cr)' -n 1`
-udpcast "updated $WIKINAME to $REV"
+"$BASEDIR/udpcast" "updated $WIKINAME to $REV"
