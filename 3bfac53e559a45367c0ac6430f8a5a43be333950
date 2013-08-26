@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2995f1bc_93f52783",
+        "filename": "bin/wikiupdate",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 221
+      },
+      "writtenOn": "2013-08-26T16:33:52Z",
+      "side": 1,
+      "message": "Personally I\u0027d use indention on these two lines to make it a little clearer what\u0027s going on.",
+      "revId": "3bfac53e559a45367c0ac6430f8a5a43be333950",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2995f1bc_934607c2",
+        "filename": "bin/wikiupdate-repo",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 221
+      },
+      "writtenOn": "2013-08-26T16:33:52Z",
+      "side": 1,
+      "message": "Backslash escapes in echo are not portable. You\u0027ll get different behavior depending on which POSIX shell is being used as /bin/sh.\n\nbash will output them literally (i.e. you\u0027ll see \"\\033[31m\" in the output, and no red color) unless the non-standard -e option is given to echo, dash will interpret them without any extra options (i.e. you get red text, and you\u0027d get \"-e\" in your output if you do supply -e), and it\u0027s possible there are shells that would output both the \"-e\" and the escapes literally.",
+      "revId": "3bfac53e559a45367c0ac6430f8a5a43be333950",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
