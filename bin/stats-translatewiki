@@ -1,7 +1,7 @@
 # Siebrand / 2008-02-09
 # should be run as user 'siebrand' because pywikipediabot checks ownership of user-config.py
 
-COMMAND="/usr/bin/php groupStatistics.php --skipzero --groups=wiki-twn-mainpage,ext-translate-0-all,wiki-betawiki,page|Project_list,page|User:FuzzyBot,page|Translating:How_to_start,page|Translating:Intro --skiplanguages=test,qqq,als,be-x-old,crh,de-at,de-ch,de-formal,dk,en-gb,fiu-vro,gan,got,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,nl-informal,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-hk,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,ady,bbc"
+COMMAND="/usr/bin/php groupStatistics.php --skipzero --groups=wiki-twn-mainpage,ext-translate-0-all,wiki-betawiki,page-Project_list,page-User:FuzzyBot,page-Translating:How_to_start,page-Translating:Intro --skiplanguages=test,qqq,als,be-x-old,crh,de-at,de-ch,de-formal,dk,en-gb,fiu-vro,gan,got,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,nl-informal,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-hk,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,ady,bbc"
 STATSPAGE=$HOME/temp/twn
 
 # create basic stats file for groups 'most used', 'core', 'Wikimedia extensions', and 'All extensions'

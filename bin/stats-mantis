@@ -5,7 +5,7 @@ STATSFILE="$HOME/temp/stats-mantis.txt"
 
 # create basic stats file for group 'out-mantis'
 cd /www/w/extensions/Translate/scripts
-/usr/bin/php groupStatistics.php --skipzero --groups=out-mantis-core,out-mantis-mantiscoreformatting,out-mantis-mantisgraph,out-mantis-xmlimportexport --skiplanguages=test,qqq > $STATSFILE
+/usr/bin/php groupStatistics.php --skipzero --groups=out-mantis-core,out-mantis-plugin-mantiscoreformatting,out-mantis-plugin-mantisgraph,out-mantis-plugin-xmlimportexport --skiplanguages=test,qqq > $STATSFILE
 
 STATSPAGE="$HOME/temp/stats-mantis_page"
 
