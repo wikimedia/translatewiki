@@ -342,6 +342,11 @@ Data Transfer
 file = DataTransfer/languages/DT_Messages.php
 aliasfile = DataTransfer/languages/DT_Aliases.php
 
+# Shadow file of DataValues/DataTypes/DataTypes.i18n.php per Aude
+# https://gerrit.wikimedia.org/r/#/c/76481/
+# Data Types
+# file = DataTypes/DataTypes.i18n.php
+
 Data Values
 file = DataValues/DataValues/DataValues.i18n.php
 
@@ -1508,6 +1513,9 @@ optional = group-surveyadmin.css, group-surveyadmin.js, group-surveysubmit.css, 
 ignored = surveys-surveystats-question-nr, surveys-surveystats-question-=23
 
 SVG Edit
+
+# Maintenance script, not a real extension
+# Swarm Export
 
 Swift Cloud Files
 
