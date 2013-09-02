@@ -44,3 +44,4 @@ REPO_WIKIPEDIAMOBILEJ2ME=git://github.com/wikimedia/WikipediaMobileJ2ME.git
 REPO_WIKIREADER=git://github.com/wikireader/wikireader.git
 REPO_WIKISOURCEMOBILE=git://github.com/wikimedia/WikisourceMobile.git
 REPO_WIKTIONARYMOBILE=git://github.com/wikimedia/WiktionaryMobile.git
+REPO_WLMMOBILE=git://github.com/wikimedia/WLMMobile.git

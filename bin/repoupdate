@@ -44,7 +44,8 @@ WikipediaMobile \
 WikipediaMobileJ2ME \
 wikireader \
 WikisourceMobile \
-WiktionaryMobile"
+WiktionaryMobile \
+WLMMobile"
 
 for i in $GITUPDATEPROJECTS; do
 	if [ "$i" = "$PROJECT" ]

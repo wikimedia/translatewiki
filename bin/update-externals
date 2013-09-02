@@ -35,7 +35,8 @@ WikipediaMobile \
 WikipediaMobileJ2ME \
 wikireader \
 WikisourceMobile \
-WiktionaryMobile
+WiktionaryMobile \
+WLMMobile
 do
 	echo "Updating ${PROJECT}..."
 	/home/betawiki/config/bin/repo update "$PROJECT" && echo "$PROJECT done!" &
