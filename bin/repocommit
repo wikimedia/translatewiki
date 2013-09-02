@@ -59,7 +59,8 @@ WikipediaMobile \
 WikipediaMobileJ2ME \
 wikireader \
 WikisourceMobile \
-WiktionaryMobile"
+WiktionaryMobile \
+WLMMobile"
 
 for i in $GITCOMMITNOCHECKPROJECTS; do
 	if [ "$i" = "$PROJECT" ]

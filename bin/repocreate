@@ -357,6 +357,13 @@ then
 	fi
 	git clone "$REPO_WIKTIONARYMOBILE" $PROJECT
 
+elif [ "$PROJECT" = "WLMMobile" ]
+then
+	if [ -z "$REPO_WLMMOBILE" ]
+	then echo "Add REPO_WLMMOBILE to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_WLMMOBILE" $PROJECT
+
 else
 	echo "Unknown project"
 fi
