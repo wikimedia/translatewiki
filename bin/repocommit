@@ -29,6 +29,14 @@ gitcommitNoCheck() {
 	cd ..
 }
 
+mergeL10n-bot() {
+	for i in `ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit query --format=TEXT owner:l10n-bot status:open |grep "  url:" |cut -d/ -f5`
+	do
+		echo "Merging ${i}..."
+		ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit review $i,1 --code-review 2 --verified 2 --submit
+	done
+}
+
 GITCOMMITNOCHECKPROJECTS="\
 commons-ios \
 eol \
@@ -62,6 +70,12 @@ for i in $GITCOMMITNOCHECKPROJECTS; do
 		fi
 
 		gitcommitNoCheck "$PROJECT"
+
+		if [ "$PROJECT" = "pywikipedia" ]
+		then
+			mergeL10n-bot
+		fi
+
 		exit 0
 	fi
 done
@@ -134,11 +148,8 @@ then
 	done
 
 	cd ../..
-	for i in `ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit query --format=TEXT owner:l10n-bot status:open |grep "  url:" |cut -d/ -f5`
-	do
-		echo "Merging ${i}..."
-		ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit review $i,1 --code-review 2 --verified 2 --submit
-	done
+
+	mergeL10n-bot
 
 elif [ "$PROJECT" = "mwlib" ]
 then
