@@ -23,6 +23,7 @@ GROUPS:
   - out-wikimedia-mobile-wikipedia-phonegap
   - out-wikimedia-mobile-wikisource
   - out-wikimedia-mobile-wiktionary
+  - out-wikimedia-mobile-wlm
 
 ---
 BASIC:
@@ -93,6 +94,27 @@ FILES:
   targetPattern: WikisourceMobile/assets/www/messages/messages-%CODE%.properties
   header: |
     # This file is distributed under the same license as the Wikisource Mobile package.
+    #
+
+---
+BASIC:
+  id: out-wikimedia-mobile-wlm
+  label: Wiki Loves Monuments Mobile
+  icon: Wiki_Loves_Monuments_Logo_notext.svg
+  description: "{{int:translate-group-desc-wikimedia-mobile-wlm}}"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wlmmobile-
+  patterns:
+    - "*"
+
+FILES:
+  sourcePattern: %GROUPROOT%/WLMMobile/assets/www/messages/messages-%CODE%.properties
+  definitionFile: %GROUPROOT%/WLMMobile/assets/www/messages/messages-en.properties
+  targetPattern: WLMMobile/assets/www/messages/messages-%CODE%.properties
+  header: |
+    # This file is distributed under the same license as the WLMMobile package.
     #
 
 ---
