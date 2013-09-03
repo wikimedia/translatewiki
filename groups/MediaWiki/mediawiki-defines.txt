@@ -850,6 +850,8 @@ optional = mobile.js, mobile.css, mobile-frontend-ajax-random-quote-author
 ignored = mobile-frontend-sopa-notice, mobile-frontend-current-language
 ignored = mobile-frontend-page-menu-language
 
+Model
+
 Mood Bar
 aliasfile = MoodBar/MoodBar.alias.php
 optional = moodbar-what-collapsed, moodbar-respond-collapsed, moodbar-respond-expanded, moodbar-response-cc
@@ -1253,6 +1255,8 @@ ignored = scribunto-doc-page-show
 
 Search Extra NS
 
+Section Disqus
+
 Secure HTML
 
 Secure Passwords
@@ -1485,6 +1489,8 @@ descmsg = sslauth-desc
 
 Stalker Log
 
+Starter Wiki
+
 Stick To That Language
 
 Strategy Wiki - Active Strategy
@@ -1569,6 +1575,10 @@ optional = mwe-embedplayer-ogg-player-cortado
 
 Timeline
 file = timeline/Timeline.i18n.php
+
+Timezone Selector
+optional = timezoneselector-message-long, timezoneselector-message-verbose
+ignored = timezoneselector-message-short
 
 Title Blacklist
 
@@ -1711,6 +1721,8 @@ magicfile = Widgets/Widgets.i18n.magic.php
 optional = group-widgeteditor.css, group-widgeteditor.js
 
 Wiki Article Feeds
+
+Wiki Category Tag Cloud
 
 Wiki Editor
 optional = wikieditor-toolbar-help-content-rereference-syntax, wikieditor-toolbar-help-content-showreferences-syntax
