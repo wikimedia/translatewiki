@@ -706,8 +706,6 @@ ignored = index-exclude-categories
 
 Inline Categorizer
 
-# Inline Editor: Disabled per https://www.mediawiki.org/wiki/Special:Code/MediaWiki/82789#c14456
-
 Input Box
 
 # Create a symbolic link "Installer" to mediawiki core's includes/installer in extensions/ to make this work.
@@ -727,10 +725,6 @@ Interwiki
 aliasfile = Interwiki/Interwiki.alias.php
 optional = interwiki_url, interwiki-url-label
 ignored = interwiki-defaulturl, logentry-interwiki-interwiki
-
-# 2010-06-22: Disabled for the moment. Under heavy construction
-#Interwiki Integration
-#aliasfile = InterwikiIntegration/InterwikiIntegration.alias.php
 
 Insider
 
