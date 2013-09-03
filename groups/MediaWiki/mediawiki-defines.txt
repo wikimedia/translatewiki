@@ -700,6 +700,10 @@ Image Map
 descmsg = imagemap_desc
 optional = imagemap_desc_types
 
+Index Function
+aliasfile = IndexFunction/IndexFunction.alias.php
+ignored = index-exclude-categories
+
 Inline Categorizer
 
 # Inline Editor: Disabled per https://www.mediawiki.org/wiki/Special:Code/MediaWiki/82789#c14456
