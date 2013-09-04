@@ -332,12 +332,11 @@ $wgWikiEditorModules = array(
 # Just for fun, I guess --- 2009-08-13 --Nike
 include( "$IP/extensions/UserOptionStats/UserOptionStats.php" );
 
+require_once "$IP/extensions/EventLogging/EventLogging.php";
+$wgEventLoggingBaseUri = 'http://bits.wikimedia.org/event.gif';
+
 require( "$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector.php" );
-$wgULSGeoService = false;
-$wgHooks['BeforePageDisplay'][] = function( &$out ) {
-	$out->addScript( '<script src="//bits.wikimedia.org/geoiplookup"></script>' );
-	return true;
-};
+$wgULSEventLogging = true;
 
 require_once( "$IP/extensions/TwnMainPage/MainPage.php" );
 $wgMainPageImages[] = array(
