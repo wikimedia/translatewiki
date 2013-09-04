@@ -9,4 +9,11 @@ node default {
   include php
   include puppet
   include memcached
+
+  package { 'elasticsearch':
+    provider => dpkg,
+    ensure => latest,
+    source => '/root/packages/elasticsearch-0.90.3.deb'
+  }
+
 }
