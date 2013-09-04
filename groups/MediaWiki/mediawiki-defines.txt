@@ -342,29 +342,11 @@ Data Transfer
 file = DataTransfer/languages/DT_Messages.php
 aliasfile = DataTransfer/languages/DT_Aliases.php
 
-# Shadow file of DataValues/DataTypes/DataTypes.i18n.php per Aude
-# https://gerrit.wikimedia.org/r/#/c/76481/
-# Data Types
-# file = DataTypes/DataTypes.i18n.php
+Data Types
+file = DataTypes/DataTypes.i18n.php
 
 Data Values
 file = DataValues/DataValues/DataValues.i18n.php
-
-Data Values - Data Types
-file = DataValues/DataTypes/DataTypes.i18n.php
-descmsg = datatypes-desc
-
-Data Values - Value Formatters
-file = DataValues/ValueFormatters/ValueFormatters.i18n.php
-descmsg = valueformatters-desc
-
-Data Values - Value Parsers
-file = DataValues/ValueParsers/ValueParsers.i18n.php
-descmsg = valueparsers-desc
-
-Data Values - Value Validators
-file = DataValues/ValueValidators/ValueValidators.i18n.php
-descmsg = valuevalidators-desc
 
 Data Values - Value View
 file = DataValues/ValueView/ValueView.i18n.php
