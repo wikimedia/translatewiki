@@ -157,6 +157,8 @@ optional = centralauth-editset-grouplink, centralauth-listusers-item
 optional = centralauth-merge-method-questionmark
 ignored = centralauth-editset-item-ro, centralauth-admin-notblocked
 
+Central Logging
+
 Central Notice
 aliasfile = CentralNotice/CentralNotice.alias.php
 optional = centralnotice-language-listing, centralnotice-log-label, centralnotice-user-links
@@ -669,6 +671,8 @@ ignored = hoststats
 
 Hovergallery
 file = Hovergallery/HoverGallery.i18n.php
+
+HSTS
 
 HTML Tags
 
