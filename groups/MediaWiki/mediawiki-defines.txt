@@ -451,6 +451,7 @@ Echo
 aliasfile = Echo/Echo.alias.php
 optional = echo-notification-count
 optional = echo-email-batch-separator, echo-email-batch-bullet, echo-quotation-marks
+ignored = echo-email-batch-separator
 
 Edit Page Tracking
 
@@ -808,7 +809,7 @@ aliasfile = MassEditRegex/MassEditRegex.alias.php
 Mass Message
 aliasfile = MassMessage/MassMessage.alias.php
 magicfile = MassMessage/MassMessage.i18n.magic.php
-ignored = massmessage-target
+ignored = massmessage-target, massmessage-message-footer
 
 Math
 
