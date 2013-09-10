@@ -1228,6 +1228,8 @@ ignored = rss-item
 
 RT
 
+Sarcasm
+
 Score
 
 # 2012-11-12: Disabled on WMF, per chat with Sam "It can be treated as abandoned"
