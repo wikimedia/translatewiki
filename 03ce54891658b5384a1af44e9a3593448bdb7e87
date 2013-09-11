@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4946a543_db7b2aba",
+        "filename": "puppet/site.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-09-11T20:54:00Z",
+      "side": 1,
+      "message": "I\u0027d like to not have /root polluted with packages. Create a sub folder /root/packages?",
+      "revId": "03ce54891658b5384a1af44e9a3593448bdb7e87",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
