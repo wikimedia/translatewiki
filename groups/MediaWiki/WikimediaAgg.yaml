@@ -18,6 +18,7 @@ GROUPS:
   - ext-charinsert
   - ext-checkuser
   - ext-cirrussearch # Change id 500b9c9d66fa7f410394d5665ea3abc3a184bf50
+  - ext-cleanchanges # 2013-09-12: Meta
   - ext-cldr # r88299 on all wikis
   - ext-codeeditor # Change-Id: e4e8857a55b0a89707525ecdd9dff54a4cc02f6d
   - ext-codereview # MediaWiki.org
