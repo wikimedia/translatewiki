@@ -573,6 +573,7 @@ file = FlaggedRevs/frontend/language/ValidationStatistics.i18n.php
 descmsg = flaggedrevs-desc
 
 Flow
+aliasfile = Flow/Flow.alias.php
 
 Flv Handler
 descmsg = flvhandler_desc
