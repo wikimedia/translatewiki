@@ -110,6 +110,7 @@ Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
 Beta Features
+ignored = betafeatures-test-check-field, betafeatures-test-feature-field
 
 Biblio Plus
 
