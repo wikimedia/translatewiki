@@ -74,6 +74,11 @@ then
 	php "$EXPORTER" --target . --group=out-mantis-plugin-* --lang '*' --skip en $THRESHOLD --codemaponly
 	wait
 
+elif [ "$PROJECT" = "mathjax" ]
+then
+	php "$EXPORTER" --target . --group='out-mathjax-*' --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group='out-mathjax-*' --lang qqq
+
 elif [ "$PROJECT" = "mediawiki" ]
 then
 	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang '*' --skip "$SKIPLANGS" --threshold 18 $HOURS &

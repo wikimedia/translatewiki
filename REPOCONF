@@ -22,6 +22,7 @@ REPO_JQUERY_ULS=git://github.com/wikimedia/jquery.uls.git
 REPO_KIWIX=git://git.code.sf.net/p/kiwix/maintenance
 REPO_MANTIS=git://github.com/mantisbt/mantisbt.git
 REPO_MANTIS_BRANCH="master-1.2.x"
+REPO_MATHJAX=git@github.com:mathjax/MathJax-i18n.git
 REPO_MIFOS=git://github.com/mifos/head.git
 REPO_MOZILLA_SOURCELANG=http://hg.mozilla.org/releases/mozilla-aurora/
 REPO_MOZILLA_SUPPORTEDLANG="he gu-IN"

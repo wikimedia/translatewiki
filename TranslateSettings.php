@@ -403,3 +403,6 @@ $wgTranslateGroupFiles[] = "$GROUPS/FUEL/FUEL.yaml";
 
 wfAddNamespace( 1256, 'Blockly' );
 $wgTranslateGroupFiles[] = "$GROUPS/Blockly/Blockly.yaml";
+
+wfAddNamespace( 1258, 'MathJax' );
+$wgTranslateGroupFiles[] = "$GROUPS/MathJax/MathJax.yaml";

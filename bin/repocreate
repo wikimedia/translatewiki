@@ -128,6 +128,13 @@ then
 	git checkout -q --track origin/${REPO_MANTIS_BRANCH}
 	cd ..
 
+elif [ "$PROJECT" = "mathjax" ]
+then
+	if [ -z "$REPO_MATHJAX" ]
+	then echo "Add REPO_MATHJAX to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_MATHJAX" $PROJECT
+
 elif [ "$PROJECT" = "mediawiki" ]
 then
 	if [ -z "$REPO_MEDIAWIKI" ]
