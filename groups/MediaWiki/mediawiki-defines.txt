@@ -384,6 +384,8 @@ descmsg = sitenotice-desc
 ignored = sitenotice_id
 optional = sitenotice_close-brackets
 
+Disqus Tag
+
 Donation Interface - Adyen Gateway
 id = ext-di-adyen
 file = DonationInterface/adyen_gateway/adyen_gateway.i18n.php
