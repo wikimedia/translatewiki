@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4946a543_2e5e8074",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-09-21T19:30:54Z",
+      "side": 1,
+      "message": "can you remove the year... git keeps track of this",
+      "revId": "ad8ae045f44bda97a7bf3585d51ce53a495e039f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
