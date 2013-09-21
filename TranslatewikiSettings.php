@@ -228,6 +228,7 @@ require( "$IP/extensions/SpamBlacklist/SpamBlacklist.php" );
 $wgSpamBlacklistFiles = array(
 	"http://meta.wikimedia.org/w/index.php?title=Spam_blacklist&action=raw&sb_ver=1",
 );
+$wgLogSpamBlacklistHits = true;
 
 include( "$IP/extensions/AdminLinks/AdminLinks.php" ); # Added by Siebrand 2012-02-06
 
