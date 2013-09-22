@@ -1,0 +1,156 @@
+TEMPLATE:
+  CHECKER:
+    class: MathJaxMessageChecker
+    checks:
+      - variablesCheck
+
+  INSERTABLES:
+    class: MathJaxInsertablesSuggester
+
+  AUTOLOAD:
+    MathJaxMessageChecker: Checker.php
+    MathJaxInsertablesSuggester: Suggester.php
+
+---
+BASIC:
+  id: out-mathjax-0-all
+  label: MathJax
+  namespace: NS_MATHJAX
+  class: AggregateMessageGroup
+  meta: 1
+
+GROUPS:
+  - out-mathjax-*
+
+---
+BASIC:
+  id: out-mathjax-core
+  label: MathJax core
+  namespace: NS_MATHJAX
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/%CODE%.json
+  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/%CODE%.json
+  targetPattern: mathjax/JSON/%CODE%/%CODE%.json
+
+MANGLER:
+  class: StringMatcher
+  prefix: core-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: out-mathjax-tex
+  label: MathJax TeX
+  namespace: NS_MATHJAX
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/TeX.json
+  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/TeX.json
+  targetPattern: mathjax/JSON/%CODE%/TeX.json
+
+MANGLER:
+  class: StringMatcher
+  prefix: tex-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: out-mathjax-mathmenu
+  label: MathJax MathMenu
+  namespace: NS_MATHJAX
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/MathMenu.json
+  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/MathMenu.json
+  targetPattern: mathjax/JSON/%CODE%/MathMenu.json
+
+MANGLER:
+  class: StringMatcher
+  prefix: mathmenu-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: out-mathjax-mathml
+  label: MathJax MathML
+  namespace: NS_MATHJAX
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/MathML.json
+  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/MathML.json
+  targetPattern: mathjax/JSON/%CODE%/MathML.json
+
+MANGLER:
+  class: StringMatcher
+  prefix: mathml-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: out-mathjax-helpdialog
+  label: MathJax Help Dialog
+  namespace: NS_MATHJAX
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/HelpDialog.json
+  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/HelpDialog.json
+  targetPattern: mathjax/JSON/%CODE%/HelpDialog.json
+
+MANGLER:
+  class: StringMatcher
+  prefix: helpdialog-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: out-mathjax-htmlccs
+  label: MathJax HTML-CSS
+  namespace: NS_MATHJAX
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/HTML-CSS.json
+  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/HTML-CSS.json
+  targetPattern: mathjax/JSON/%CODE%/HTML-CSS.json
+
+MANGLER:
+  class: StringMatcher
+  prefix: htmlcss-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: out-mathjax-fontwarnings
+  label: MathJax Font Warnings
+  namespace: NS_MATHJAX
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/FontWarnings.json
+  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/FontWarnings.json
+  targetPattern: mathjax/JSON/%CODE%/FontWarnings.json
+
+MANGLER:
+  class: StringMatcher
+  prefix: fontwarnings-
+  patterns:
+    - "*"
