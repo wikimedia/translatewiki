@@ -14,6 +14,7 @@ TEMPLATE:
 ---
 BASIC:
   id: out-mathjax-0-all
+  icon: wiki://MathJax-Badge.svg
   label: MathJax
   namespace: NS_MATHJAX
   class: AggregateMessageGroup
