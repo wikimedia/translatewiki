@@ -356,6 +356,8 @@ descmsg = valueview-desc
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
 
+Delete Own
+
 Description2
 
 # Device Map Log Capture : Proof of Concept only. Extension page on mw.o does not exist
@@ -468,6 +470,8 @@ aliasfile = EducationProgram/EducationProgram.i18n.alias.php
 optional = ep-course-edit-name-format
 ignored = accesskey-ep-form-save, accesskey-ep-edit-institution, accesskey-ep-edit-course, accesskey-ep-summary
 ignored = accesskey-ep-minor
+
+Elastica
 
 Email Capture
 
@@ -851,6 +855,8 @@ ignored = moodbar-hide-intro, moodbar-restore-intro, moodbar-response-cc-link, m
 ignored = moodbar-log-reason, moodbar-delete-intro
 
 Mpdf
+
+MSSQL Back Compat
 
 Multi Maps
 
