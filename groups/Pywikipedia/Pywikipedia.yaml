@@ -56,7 +56,7 @@ TEMPLATE:
 ---
 BASIC:
   id: out-pywikipedia-0-all
-  label: Pywikipedia
+  label: Pywikibot
   meta: yes
   class: AggregateMessageGroup
 
@@ -65,7 +65,7 @@ GROUPS:
 ---
 BASIC:
   id: out-pywikipedia-addtext
-  label: Pywikipedia Add Text
+  label: Pywikibot Add Text
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/add_text.py
@@ -74,7 +74,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-archivebot
-  label: Pywikipedia Archive Bot
+  label: Pywikibot Archive Bot
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/archivebot.py
@@ -83,7 +83,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-basic
-  label: Pywikipedia Basic
+  label: Pywikibot Basic
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/basic.py
@@ -92,7 +92,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-blockpageschecker
-  label: Pywikipedia Blockpages Checker
+  label: Pywikibot Blockpages Checker
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/blockpageschecker.py
@@ -101,7 +101,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-capitalizeredirects
-  label: Pywikipedia Capitalize Redirects
+  label: Pywikibot Capitalize Redirects
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/capitalize_redirects.py
@@ -110,7 +110,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-catall
-  label: Pywikipedia Catall
+  label: Pywikibot Catall
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/catall.py
@@ -119,7 +119,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-category
-  label: Pywikipedia Category
+  label: Pywikibot Category
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/category.py
@@ -128,7 +128,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-categoryredirect
-  label: Pywikipedia Category Redirect
+  label: Pywikibot Category Redirect
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/category_redirect.py
@@ -137,7 +137,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-cleansandbox
-  label: Pywikipedia Clean Sandbox
+  label: Pywikibot Clean Sandbox
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/clean_sandbox.py
@@ -146,7 +146,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-commons
-  label: Pywikipedia Commons
+  label: Pywikibot Commons
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/commons.py
@@ -155,7 +155,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-cosmeticchanges
-  label: Pywikipedia Cosmetic Changes
+  label: Pywikibot Cosmetic Changes
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/cosmetic_changes.py
@@ -164,7 +164,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-delete
-  label: Pywikipedia Delete
+  label: Pywikibot Delete
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/delete.py
@@ -173,7 +173,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-djvutext
-  label: Pywikipedia DjVu Text
+  label: Pywikibot DjVu Text
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/djvutext.py
@@ -182,7 +182,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-editarticle
-  label: Pywikipedia Edit Article
+  label: Pywikibot Edit Article
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/editarticle.py
@@ -191,7 +191,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-featured
-  label: Pywikipedia Featured
+  label: Pywikibot Featured
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/featured.py
@@ -200,7 +200,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-fixingredirects
-  label: Pywikipedia Fixing Redirects
+  label: Pywikibot Fixing Redirects
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/fixing_redirects.py
@@ -209,7 +209,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-interwiki
-  label: Pywikipedia Interwiki
+  label: Pywikibot Interwiki
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/interwiki.py
@@ -222,7 +222,7 @@ TAGS:
 ---
 BASIC:
   id: out-pywikipedia-isbn
-  label: Pywikipedia ISBN
+  label: Pywikibot ISBN
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/isbn.py
@@ -231,7 +231,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-movepages
-  label: Pywikipedia Move Pages
+  label: Pywikibot Move Pages
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/movepages.py
@@ -240,7 +240,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-ndashredir
-  label: Pywikipedia Ndash Redir
+  label: Pywikibot Ndash Redir
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/ndashredir.py
@@ -249,7 +249,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-noreferences
-  label: Pywikipedia No References
+  label: Pywikibot No References
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/noreferences.py
@@ -258,7 +258,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-pywikibot
-  label: Pywikipedia Pywikibot
+  label: Pywikibot Pywikibot
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/pywikibot.py
@@ -267,7 +267,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-redirect
-  label: Pywikipedia Redirect
+  label: Pywikibot Redirect
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/redirect.py
@@ -276,7 +276,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-replace
-  label: Pywikipedia Replace
+  label: Pywikibot Replace
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/replace.py
@@ -285,7 +285,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-solvedisambiguation
-  label: Pywikipedia Solve Disambiguation
+  label: Pywikibot Solve Disambiguation
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/solve_disambiguation.py
@@ -294,7 +294,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-spellcheck
-  label: Pywikipedia Spellcheck
+  label: Pywikibot Spellcheck
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/spellcheck.py
@@ -303,7 +303,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-table2wiki
-  label: Pywikipedia Table2Wiki
+  label: Pywikibot Table2Wiki
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/table2wiki.py
@@ -312,7 +312,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-template
-  label: Pywikipedia Template
+  label: Pywikibot Template
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/template.py
@@ -325,7 +325,7 @@ TAGS:
 ---
 BASIC:
   id: out-pywikipedia-thirdparty
-  label: Pywikipedia Third Party
+  label: Pywikibot Third Party
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/thirdparty.py
@@ -334,7 +334,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-unlink
-  label: Pywikipedia Unlink
+  label: Pywikibot Unlink
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/unlink.py
@@ -343,7 +343,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-weblinkchecker
-  label: Pywikipedia Web Link Checker
+  label: Pywikibot Web Link Checker
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/weblinkchecker.py
@@ -352,7 +352,7 @@ FILES:
 ---
 BASIC:
   id: out-pywikipedia-welcome
-  label: Pywikipedia Welcome
+  label: Pywikibot Welcome
 
 FILES:
   sourcePattern: %GROUPROOT%/pywikipedia/welcome.py
