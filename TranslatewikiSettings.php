@@ -341,13 +341,53 @@ $wgULSEventLogging = true;
 
 require_once( "$IP/extensions/TwnMainPage/MainPage.php" );
 $wgMainPageImages[] = array(
-	'url' => '//translatewiki.net/static/mainpage/nepean-river.jpg',
-	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:(1)_Nepean_River.jpg">CC-BY Hermione9753</a>',
+	'url' => '//translatewiki.net/static/mainpage/gorges-du-tarn.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:01_Gorges_du_Tarn_Roc_des_Hourtous.jpg">CC-BY Myrabella</a>',
 );
 
 $wgMainPageImages[] = array(
-	'url' => '//translatewiki.net/static/mainpage/farm-poster.jpg',
-	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Farm-poster.jpg">CC-BY-SA Mlane78212</a>',
+	'url' => '//translatewiki.net/static/mainpage/mabodalen.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:M%C3%A5b%C3%B8dalen,_2011_August.jpg">CC-BY-SA Simo Räsänen</a>',
+);
+
+$wgMainPageImages[] = array(
+	'url' => '//translatewiki.net/static/mainpage/ferronor.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Ferronor_GR12U_412_Montadon_-_Potrerillos.jpg">CC-BY-SA Kabelleger / David Gubler</a>',
+);
+
+$wgMainPageImages[] = array(
+	'url' => '//translatewiki.net/static/mainpage/alpamayo.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Alpamayo.jpg">CC-0</a>',
+);
+
+$wgMainPageImages[] = array(
+	'url' => '//translatewiki.net/static/mainpage/kasumi.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:File:Imagoura_Kasumi_Coast04bs4440.jpg">CC-BY 663highland</a>',
+);
+
+$wgMainPageImages[] = array(
+	'url' => '//translatewiki.net/static/mainpage/aaretal.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Fr%C3%BChlingslandschft_Aaretal_Schweiz.jpg">CC-BY-SA Benjamin Gimmel</a>',
+);
+
+$wgMainPageImages[] = array(
+	'url' => '//translatewiki.net/static/mainpage/taburiente.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Caldera_de_Taburiente_La_Palma.jpg">CC-BY-SA Luc Viatour</a>',
+);
+
+$wgMainPageImages[] = array(
+	'url' => '//translatewiki.net/static/mainpage/concert-hall.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Image-Disney_Concert_Hall_by_Carol_Highsmith_edit.jpg">CC-0 Carol M. Highsmith</a>',
+);
+
+$wgMainPageImages[] = array(
+	'url' => '//translatewiki.net/static/mainpage/golden-gate.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:GoldenGateBridge_BakerBeach_MC.jpg">CC-BY Christian Mehlführer</a>',
+);
+
+$wgMainPageImages[] = array(
+	'url' => '//translatewiki.net/static/mainpage/ruhrtalbruecke.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Ruhrtalbruecke-Sonnenuntergang.jpg">CC-BY-SA Tuxyso</a>',
 );
 
 $wgUseExternalEditor = false;
