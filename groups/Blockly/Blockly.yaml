@@ -10,47 +10,9 @@ TEMPLATE:
 
 ---
 BASIC:
-  id: out-blockly-0-all
+  id: out-blockly
   label: Blockly
-  meta: yes
-  class: AggregateMessageGroup
-
-GROUPS:
-  - out-blockly-*
-
----
-BASIC:
-  id: out-blockly-apps
-  label: Blockly - Apps
 
 FILES:
-  sourcePattern: %GROUPROOT%/blockly/apps/%CODE%.json
-  targetPattern: blockly/apps/%CODE%.json
-
-#---
-#BASIC:
-#  id: out-blockly-maze
-#  label: Blockly - Maze
-#
-#FILES:
-#  sourcePattern: %GROUPROOT%/blockly/apps/maze/%CODE%.json
-#  targetPattern: blockly/apps/maze/%CODE%.json
-#
-# ---
-# BASIC:
-#   id: out-blockly-puzzle
-#   label: Blockly - Puzzle
-#
-# MANGLER:
-#   class: StringMatcher
-#   prefix: puzzle-
-#   patterns:
-#     - "*"
-#
-# FILES:
-#   sourcePattern: %GROUPROOT%/blockly/apps/puzzle/%CODE%.json
-#   targetPattern: blockly/apps/puzzle/%CODE%.json
-#
-# TAGS:
-#   optional:
-#     - puzzle-Puzzle.helpImage
+  sourcePattern: %GROUPROOT%/blockly/apps/json/%CODE%.json
+  targetPattern: blockly/apps/json/%CODE%.json
