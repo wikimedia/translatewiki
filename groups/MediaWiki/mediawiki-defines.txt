@@ -109,6 +109,8 @@ ignored = babel-box-cellpadding, babel-cellpadding
 Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
+Bayesian Filter
+
 Beta Features
 ignored = betafeatures-test-check-field, betafeatures-test-feature-field
 
@@ -151,6 +153,7 @@ magicfile = CategoryTree/CategoryTree.i18n.magic.php
 ignored = categorytree-collapse-bullet, categorytree-expand-bullet,
 ignored = categorytree-empty-bullet,categorytree-page-bullet
 ignored = categorytree-member-num
+optional = categorytree-expand-bullet, categorytree-empty-bullet
 
 Central Auth
 aliasfile = CentralAuth/CentralAuth.alias.php
@@ -1352,7 +1355,6 @@ descmsg = suop-desc
 
 Semantic Watchlist
 aliasfile = SemanticWatchlist/SemanticWatchlist.i18n.alias.php
-optional = group-swladmins.css, group-swladmins.js
 
 Semantic Web Browser
 descmsg = swb_desc
