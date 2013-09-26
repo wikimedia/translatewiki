@@ -1,5 +1,5 @@
 # Siebrand / 2008-02-09
-# should be run as user 'siebrand' because pywikipediabot checks ownership of user-config.py
+# should be run as user 'siebrand' because pywikibot checks ownership of user-config.py
 
 COMMAND="/usr/bin/php groupStatistics.php --skipzero --groups=out-pywikipedia-0-all --skiplanguages=test,qqq"
 STATSPAGE=$HOME/temp/pywikipedia
@@ -10,7 +10,7 @@ cd /www/w/extensions/Translate/scripts
 
 # compile Wiki statistics page for pywikipedia bot
 /bin/echo "Start" > $STATSPAGE
-/bin/echo "StartTitleTranslating:Pywikipedia/statsStopTitle" >> $STATSPAGE
+/bin/echo "StartTitleTranslating:Pywikibot/statsStopTitle" >> $STATSPAGE
 /bin/echo "Stats on ~~~~~<br />" >> $STATSPAGE
 /bin/echo "<code>$COMMAND</code><br />" >> $STATSPAGE
 /bin/cat $STATSPAGE.txt >> $STATSPAGE
