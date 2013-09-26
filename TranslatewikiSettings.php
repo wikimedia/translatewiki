@@ -362,7 +362,7 @@ $wgMainPageImages[] = array(
 
 $wgMainPageImages[] = array(
 	'url' => '//translatewiki.net/static/mainpage/kasumi.jpg',
-	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:File:Imagoura_Kasumi_Coast04bs4440.jpg">CC-BY 663highland</a>',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Imagoura_Kasumi_Coast04bs4440.jpg">CC-BY 663highland</a>',
 );
 
 $wgMainPageImages[] = array(
