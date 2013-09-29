@@ -144,12 +144,6 @@ then
 
 		if [ ! -d "$EXTENSION/.git" ]
 		then
-			if [ -d "$EXTENSION" ]
-			then
-				svn up --set-depth exclude "$EXTENSION"
-				rm -rf "$EXTENSION"
-			fi
-
 			git clone "$REPO_MWEXTGIT/$EXTENSION.git" "$EXTENSION"
 
 			if [ "$REPO_RW" = "yes" ]
