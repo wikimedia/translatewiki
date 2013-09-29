@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4946a543_a5b7cdf2",
+        "filename": "bin/repoupdate",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-09-29T15:54:44Z",
+      "side": 1,
+      "message": "I think $1 is incorrect here. Should be a full path to the extension repo.",
+      "revId": "c3a14c4bd25ee5ae8eb4887b26e22e034af0406f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
