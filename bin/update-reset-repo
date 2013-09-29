@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cd $1
+OUTPUT=$(git fetch -q --all && git reset -q --hard origin/master && git clean -q -f -d 2>&1 >&-)
+CODE=$?
+
+if [ $CODE -ne 0 ]; then
+	printf "\033[31m%s failed to update\033[0m\n" "$1";
+	echo $OUTPUT;
+fi

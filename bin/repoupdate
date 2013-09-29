@@ -135,15 +135,14 @@ then
 	cd $PROJECT
 	cd extensions
 
-	echo "Updating git extensions"
+	echo "Updating MediaWiki extensions"
 	count=0
 	EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(FundraisingEmailUnsubscribe)")
 	for EXTENSION in $EXTENSIONS
 	do
-		echo "Checking $EXTENSION"
-
 		if [ ! -d "$EXTENSION/.git" ]
 		then
+			echo "Cloning $EXTENSION"
 			git clone "$REPO_MWEXTGIT/$EXTENSION.git" "$EXTENSION"
 
 			if [ "$REPO_RW" = "yes" ]
@@ -160,10 +159,8 @@ then
 				cd ..
 			fi
 		else
-			cd "$EXTENSION"
-			git fetch -q --all && git reset -q --hard origin/master && git clean -q -f -d &
+			update-reset-repo "$DIR/$PROJECT/extensions/$EXTENSION" &
 			let count+=1; [[ $((count%10)) -eq 0 ]] && wait
-			cd ..
 		fi
 	done
 
