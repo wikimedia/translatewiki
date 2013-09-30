@@ -390,6 +390,21 @@ $wgMainPageImages[] = array(
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Ruhrtalbruecke-Sonnenuntergang.jpg">CC-BY-SA Tuxyso</a>',
 );
 
+$wgMainPageImages[] = array(
+	'url' => '//translatewiki.net/static/mainpage/holzbrucke.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Holzbr%C3%BCcke_2011-02-10_15-15-08.JPG">CC-BY-SA Roland zh</a>',
+);
+
+$wgMainPageImages[] = array(
+	'url' => '//translatewiki.net/static/mainpage/acueducto.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:AcueductoSegovia04.JPG">CC-BY-SA Manuel González Olaechea y Franco</a>',
+);
+
+$wgMainPageImages[] = array(
+	'url' => '//translatewiki.net/static/mainpage/turtle.jpg',
+	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:El_Gouna_Turtle_House_R01.jpg">CC-BY Marc Ryckaert</a>',
+);
+
 $wgUseExternalEditor = false;
 $wgHiddenPrefs[] = 'stubthreshold';
 $wgHiddenPrefs[] = 'userid';
