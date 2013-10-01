@@ -1678,8 +1678,6 @@ optional = validator-listerrors-severity-message
 
 Variables
 
-Vector
-
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
