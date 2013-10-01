@@ -46,7 +46,6 @@ GROUPS:
   - ext-torblock
   - ext-universallanguageselector # change-id: b78d96d69d820c13ed262d5558d8c6e0ba5a6b2a
   - ext-uploadwizard
-  - ext-vector
   - ext-visualeditor # r106062
   - ext-wikibase-client # change-id: 5f4c990f3a102f8ae51e4d7bd3f6cf15550a2bf4
   - ext-wikibase-lib # change-id: 5f4c990f3a102f8ae51e4d7bd3f6cf15550a2bf4
