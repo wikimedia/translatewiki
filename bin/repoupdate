@@ -159,7 +159,7 @@ then
 				cd ..
 			fi
 		else
-			update-reset-repo "$DIR/$PROJECT/extensions/$EXTENSION" &
+			/home/betawiki/config/bin/update-reset-repo "$DIR/$PROJECT/extensions/$EXTENSION" &
 			let count+=1; [[ $((count%10)) -eq 0 ]] && wait
 		fi
 	done
