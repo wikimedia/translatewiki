@@ -317,9 +317,6 @@ $wgExtraLanguageNames['nl-be']     = 'nl-be'; # Nikerabbit 2008-xx-xx - For Free
 $wgExtraLanguageNames['qqq']       = 'Message documentation'; # No linguistic content. Used for documenting messages
 $wgExtraLanguageNames['ike']       = 'ᐃᓄᒃᑎᑐᑦ/inuktitut'; # Dunny to have portal appear in Special:SupportedLanguages
 
-# Usability Initiative extensions -- 2010-01-21 by Raymond
-include( "$IP/extensions/Vector/Vector.php" );
-
 include( "$IP/extensions/WikiEditor/WikiEditor.php" ); # Re-enabled by Siebrand / 2011-08-30
 $wgWikiEditorModules = array(
 	'toolbar' => array( 'global' => false, 'user' => true ),
