@@ -160,7 +160,7 @@ Central Auth
 aliasfile = CentralAuth/CentralAuth.alias.php
 optional = centralauth-editset-grouplink, centralauth-listusers-item
 optional = centralauth-merge-method-questionmark
-ignored = centralauth-editset-item-ro, centralauth-admin-notblocked
+ignored = centralauth-editset-item-ro, centralauth-admin-notblocked, centralauth-welcomecreation-msg
 
 Central Notice
 aliasfile = CentralNotice/CentralNotice.alias.php
