@@ -1683,6 +1683,9 @@ optional = validator-listerrors-severity-message
 
 Variables
 
+# 2013-10-01: Not longer used, no i18n file
+# Vector
+
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 

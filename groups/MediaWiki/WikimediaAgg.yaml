@@ -62,6 +62,7 @@ GROUPS:
   - ext-listings # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-mapsources # wikivoyage
   - ext-markashelpful # 2011-12-28: r107514 for enwiki
+  - ext-massmessage # 2013-10-01: change id: Ie6c91318d0e420bbe41fab48f03bbf44022d78cb for test
   - ext-moodbar # r93131
   - ext-mwembedsupport # Change-Id: Ifbb7c9b7344520f6d9fe1ccfa3f276ec153b9770
   - ext-mwsearch
