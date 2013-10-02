@@ -27,6 +27,8 @@ OrphanTalk2
 
 Recent Anonymous Activity
 
+Rtrc
+
 SVG Translate
 optional = title
 ignored = format-filename-example, format-fullurl-example
