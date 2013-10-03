@@ -36,7 +36,7 @@ ignored = format-filename-example, format-fullurl-example
 Templatecount
 optional = title
 
-Toolserver Intuition - Core
+Intuition - Core
 id = tsint-core
 prefix = tsintuition- | 
 file = Tsintuition.i18n.php

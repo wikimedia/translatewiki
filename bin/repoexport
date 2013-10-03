@@ -59,6 +59,10 @@ elif [ "$PROJECT" = "ihris" ]
 then
 	php "$EXPORTER" --target . --group=out-ihris* --lang='*' --skip en,qqq $THRESHOLD --ppgettext=/resources/projects
 
+elif [ "$PROJECT" = "intuition" ]
+then
+	php "$EXPORTER" --target . --group=tsint* --lang '*' --skip en $HOURS
+
 elif [ "$PROJECT" = "jquery.uls" ]
 then
 	php "$EXPORTER" --target . --group=out-jquery-uls --lang '*' --skip en,qqq $THRESHOLD
@@ -172,10 +176,6 @@ then
 elif [ "$PROJECT" = "shapado" ]
 then
 	php "$EXPORTER" --target . --group=shapado* --lang '*' --skip en --threshold 50
-
-elif [ "$PROJECT" = "toolserver" ]
-then
-	php "$EXPORTER" --target . --group=tsint* --lang '*' --skip en $HOURS
 
 elif [ "$PROJECT" = "vicuna" ]
 then

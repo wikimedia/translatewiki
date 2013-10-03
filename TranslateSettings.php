@@ -207,14 +207,14 @@ function setupWikia( &$list, &$deps, &$autoload ) {
 	return true;
 }
 
-$wgHooks['TranslatePostInitGroups'][] = array( 'setupToolserver' );
-function setupToolserver( &$list, &$deps, &$autoload ) {
+$wgHooks['TranslatePostInitGroups'][] = array( 'setupIntuition' );
+function setupIntuition( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
 
-	$def = "$GROUPS/Toolserver/toolserver-textdomains.txt";
-	$path = '%GROUPROOT%/toolserver/language/messages/';
+	$def = "$GROUPS/Intuition/intuition-textdomains.txt";
+	$path = '%GROUPROOT%/intuition/language/messages/';
 
-	$foo = new PremadeToolserverTextdomains( $def, $path );
+	$foo = new PremadeIntuitionTextdomains( $def, $path );
 	$foo->register( $list, $deps, $autoload );
 
 	return true;
@@ -373,8 +373,8 @@ wfAddNamespace( 1236, 'Europeana' );
 wfAddNamespace( 1238, 'Pywikipedia' );
 $wgTranslateGroupFiles[] = "$GROUPS/Pywikipedia/Pywikipedia.yaml";
 
-wfAddNamespace( 1240, 'Toolserver' );
-$wgTranslateGroupFiles[] = "$GROUPS/Toolserver/ToolserverAgg.yaml";
+wfAddNamespace( 1240, 'Intuition' );
+$wgTranslateGroupFiles[] = "$GROUPS/Intuition/IntuitionAgg.yaml";
 
 wfAddNamespace( 1242, 'EOL' );
 $wgTranslateGroupFiles[] = "$GROUPS/EOL/EOL.yaml";

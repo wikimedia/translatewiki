@@ -2,7 +2,7 @@
 # should be run as user 'siebrand' because pywikipediabot checks ownership of user-config.py
 
 COMMAND="/usr/bin/php groupStatistics.php --skipzero --groups=tsint-0-all --skiplanguages=test,qqq,als,be-x-old,crh,de-at,de-ch,de-formal,dk,en-gb,fiu-vro,gan,got,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-hk,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,ady,bbc"
-STATSPAGE=$HOME/temp/toolserver
+STATSPAGE=$HOME/temp/intuition
 
 # create basic stats file for groups 'most used', 'core', 'Wikimedia extensions', and 'All extensions'
 cd /www/w/extensions/Translate/scripts
@@ -10,7 +10,7 @@ cd /www/w/extensions/Translate/scripts
 
 # compile Wiki statistics page for pywikipedia bot
 /bin/echo "Start" > $STATSPAGE
-/bin/echo "StartTitleTranslating:Toolserver/statsStopTitle" >> $STATSPAGE
+/bin/echo "StartTitleTranslating:Intuition/statsStopTitle" >> $STATSPAGE
 /bin/echo "Stats on ~~~~~<br />" >> $STATSPAGE
 /bin/echo "<code>$COMMAND</code><br />" >> $STATSPAGE
 /bin/cat $STATSPAGE.txt >> $STATSPAGE

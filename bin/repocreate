@@ -98,6 +98,13 @@ then
 			fi
 		done
 
+elif [ "$PROJECT" = "intuition" ]
+then
+	if [ -z "$REPO_INTUITION" ]
+	then echo "Add REPO_INTUITION to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_INTUITION" $PROJECT
+
 elif [ "$PROJECT" = "jquery.uls" ]
 then
 	if [ -z "$REPO_JQUERY_ULS" ]
@@ -191,8 +198,8 @@ then
 		mkdir en
 		cd en
 		ln -s ../mozilla-aurora/browser/locales/en-US/ browser
-		ln -s ..//mozilla-aurora/toolkit/locales/en-US/ toolkit
-		ln -s ..//mozilla-aurora/dom/locales/en-US dom
+		ln -s ../mozilla-aurora/toolkit/locales/en-US/ toolkit
+		ln -s ../mozilla-aurora/dom/locales/en-US dom
 		mkdir security
 		cd security
 		ln -s ../../mozilla-aurora/security/manager/locales/en-US manager
@@ -285,13 +292,6 @@ then
 	then echo "Add REPO_MIFOS to REPOCONF"; exit 1
 	fi
 	git clone "$REPO_SHAPADO" $PROJECT
-
-elif [ "$PROJECT" = "toolserver" ]
-then
-	if [ -z "$REPO_TOOLSERVER" ]
-	then echo "Add REPO_TOOLSERVER to REPOCONF"; exit 1
-	fi
-	git clone "$REPO_TOOLSERVER" $PROJECT
 
 elif [ "$PROJECT" = "vicuna" ]
 then

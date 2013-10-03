@@ -1,11 +1,10 @@
 BASIC:
   id: tsint-0-all
-  label: Toolserver Intuition
-  icon: wiki://Wikimedia_Community_Logo-Toolserver.svg
+  label: Intuition
   description: "{{int:translate-group-desc-tsint}}"
   meta: yes
   class: AggregateMessageGroup
-  namespace: NS_TOOLSERVER
+  namespace: NS_INTUITION
 
 GROUPS:
   - tsint-*

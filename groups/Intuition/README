@@ -1,0 +1,14 @@
+# Checkout repository to $wgTranslateGroupRoot
+cd %GROUPROOT%
+git clone git://github.com/Krinkle/TsIntuition.git
+
+# Add following code to LocalSettings.php or a file included by it:
+$wgHooks['TranslatePostInitGroups'][] = array( 'setupIntuitionI18N' );
+function setupIntuitionI18N() {
+	$foo = new PremadeIntuitionTextdomains();
+	$foo->addAll();
+	return true;
+}
+
+wfAddNamespace( 1240, 'Intuition' );
+$wgTranslateGroupFiles[] = "$IP/extensions/Translate/groups/Intuition/IntuitionAgg.yaml";
