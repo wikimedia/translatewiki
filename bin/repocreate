@@ -271,12 +271,12 @@ then
 	fi
 	git clone "$REPO_POTLATCH2" potlatch2
 
-elif [ "$PROJECT" = "pywikipedia" ]
+elif [ "$PROJECT" = "pywikibot" ]
 then
-	if [ -z "$REPO_PYWIKIPEDIA" ]
-	then echo "Add REPO_PYWIKIPEDIA to REPOCONF"; exit 1
+	if [ -z "$REPO_PYWIKIBOT" ]
+	then echo "Add REPO_PYWIKIBOT to REPOCONF"; exit 1
 	fi
-	git clone "$REPO_PYWIKIPEDIA" $PROJECT
+	git clone "$REPO_PYWIKIBOT" $PROJECT
 	if [ "$REPO_RW" = "yes" ]
 	then
 		cd $PROJECT

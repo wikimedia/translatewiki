@@ -370,11 +370,15 @@ $wgTranslateGroupFiles[] = "$GROUPS/OpenImages/OpenImages.yaml";
 # No longer in use.
 wfAddNamespace( 1236, 'Europeana' );
 
-wfAddNamespace( 1238, 'Pywikipedia' );
-$wgTranslateGroupFiles[] = "$GROUPS/Pywikipedia/Pywikipedia.yaml";
+wfAddNamespace( 1238, 'Pywikibot' );
+$wgTranslateGroupFiles[] = "$GROUPS/Pywikibot/Pywikibot.yaml";
+$wgNamespaceAliases['Pywikipedia'] = 1238;
+$wgNamespaceAliases['Pywikipedia_talk'] = 1238;
 
 wfAddNamespace( 1240, 'Intuition' );
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/IntuitionAgg.yaml";
+$wgNamespaceAliases['Toolserver'] = 1240;
+$wgNamespaceAliases['Toolserver_talk'] = 1240;
 
 wfAddNamespace( 1242, 'EOL' );
 $wgTranslateGroupFiles[] = "$GROUPS/EOL/EOL.yaml";

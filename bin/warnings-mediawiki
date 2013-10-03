@@ -1,5 +1,4 @@
 # Siebrand / 2008-02-09
-# should be run as user 'siebrand' because pywikipediabot checks ownership of user-config.py
 
 # update svn
 /usr/bin/svn up $HOME/phase3
@@ -8,7 +7,7 @@
 cd $HOME/phase3/maintenance/language
 php $HOME/phase3/maintenance/language/checkLanguage.php --all --output=wiki --links --blacklist=duplicate,untranslated,obsolete,empty,chars > $HOME/temp/warnings.txt
 
-# compile Wiki statistics page for pywikipedia bot
+# compile Wiki statistics page
 /bin/echo "Start" > $HOME/temp/warnings_page
 /bin/echo "StartTitleTranslating:Localization_checksStopTitle" >> $HOME/temp/warnings_page
 /bin/echo "{{/header}}" >> $HOME/temp/warnings_page
@@ -16,7 +15,7 @@ php $HOME/phase3/maintenance/language/checkLanguage.php --all --output=wiki --li
 /bin/echo "End" >> $HOME/temp/warnings_page
 
 # upload warnings page to Mediawiki.org
-/usr/bin/python /home/betawiki/software/pywikipedia/pagefromfile.py -force -summary:"Updating localisation warnings" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$HOME/temp/warnings_page -start:Start -end:End
+/usr/bin/python /home/betawiki/software/pywikibot/pagefromfile.py -force -summary:"Updating localisation warnings" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$HOME/temp/warnings_page -start:Start -end:End
 
 # house keeping
 /bin/rm $HOME/temp/warnings.txt

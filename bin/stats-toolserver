@@ -1,5 +1,4 @@
 # Siebrand / 2008-02-09
-# should be run as user 'siebrand' because pywikipediabot checks ownership of user-config.py
 
 COMMAND="/usr/bin/php groupStatistics.php --skipzero --groups=tsint-0-all --skiplanguages=test,qqq,als,be-x-old,crh,de-at,de-ch,de-formal,dk,en-gb,fiu-vro,gan,got,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-hk,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,ady,bbc"
 STATSPAGE=$HOME/temp/intuition
@@ -8,7 +7,7 @@ STATSPAGE=$HOME/temp/intuition
 cd /www/w/extensions/Translate/scripts
 /usr/bin/nice $COMMAND > $STATSPAGE.txt
 
-# compile Wiki statistics page for pywikipedia bot
+# compile Wiki statistics page
 /bin/echo "Start" > $STATSPAGE
 /bin/echo "StartTitleTranslating:Intuition/statsStopTitle" >> $STATSPAGE
 /bin/echo "Stats on ~~~~~<br />" >> $STATSPAGE
@@ -17,7 +16,7 @@ cd /www/w/extensions/Translate/scripts
 /bin/echo "End" >> $STATSPAGE
 
 # upload stats page to translatewiki.net
-/usr/bin/python /home/betawiki/software/pywikipedia/pagefromfile.py -force -summary:"Updating statistics" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$STATSPAGE -start:Start -end:End
+/usr/bin/python /home/betawiki/software/pywikibot/pagefromfile.py -force -summary:"Updating statistics" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$STATSPAGE -start:Start -end:End
 
 # house keeping
 /bin/rm $STATSPAGE.txt

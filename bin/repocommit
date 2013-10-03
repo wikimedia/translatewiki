@@ -50,7 +50,7 @@ kiwix \
 mantis \
 mathjax \
 mifos \
-pywikipedia \
+pywikibot \
 shapado \
 vicuna \
 waymarked-trails-site \
@@ -73,7 +73,7 @@ for i in $GITCOMMITNOCHECKPROJECTS; do
 
 		gitcommitNoCheck "$PROJECT"
 
-		if [ "$PROJECT" = "pywikipedia" ]
+		if [ "$PROJECT" = "pywikibot" ]
 		then
 			mergeL10n-bot
 		fi

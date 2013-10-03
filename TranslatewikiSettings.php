@@ -107,8 +107,6 @@ $wgCCTrailerFilter = true;
 
 $wgNamespaceAliases['Betawiki'] = NS_PROJECT;
 $wgNamespaceAliases['Betawiki_talk'] = NS_PROJECT_TALK;
-$wgNamespaceAliases['Toolserver'] = NS_INTUITION;
-$wgNamespaceAliases['Toolserver_talk'] = NS_INTUITION_TALK;
 $wgMetaNamespace = 'Project';
 
 define( "NS_PORTAL", 100 );

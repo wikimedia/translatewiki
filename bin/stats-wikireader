@@ -1,5 +1,4 @@
 # Siebrand / 2008-07-13
-# should be run as user 'siebrand' because pywikipediabot checks ownership of user-config.py
 
 STATSFILE="$HOME/temp/stats-wikireader.txt"
 
@@ -9,7 +8,7 @@ cd /www/w/extensions/Translate/scripts
 
 STATSPAGE="$HOME/temp/stats-wikireader_page"
 
-# compile Wiki statistics page for pywikipedia bot
+# compile Wiki statistics page
 /bin/echo "Start" > $STATSPAGE
 /bin/echo "StartTitleTranslating:WikiReader/stats/trunkStopTitle" >> $STATSPAGE
 /bin/date >> $STATSPAGE
@@ -17,7 +16,7 @@ STATSPAGE="$HOME/temp/stats-wikireader_page"
 /bin/echo "End" >> $STATSPAGE
 
 # upload stats page to Betawiki
-/usr/bin/python /home/betawiki/software/pywikipedia/pagefromfile.py -force -summary:"Updating statistics" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$STATSPAGE -start:Start -end:End
+/usr/bin/python /home/betawiki/software/pywikibot/pagefromfile.py -force -summary:"Updating statistics" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$STATSPAGE -start:Start -end:End
 
 # house keeping
 /bin/rm $STATSFILE

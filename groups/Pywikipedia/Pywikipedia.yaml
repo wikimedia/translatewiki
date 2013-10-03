@@ -2,12 +2,12 @@ TEMPLATE:
   BASIC:
     icon: wiki://Pwb_icon.svg
     description: "{{int:translate-group-desc-pywikipedia}}"
-    namespace: NS_PYWIKIPEDIA
+    namespace: NS_PYWIKIBOT
     class: SingleFileBasedMessageGroup
 
   FILES:
     class: PythonSingleFFS
-    # Pywikipediabot works on language code, so mapping fallbacked to Wikimedia code.
+    # Pywikibot works on language code, so mapping fallbacked to Wikimedia code.
     codeMap:
       be-tarask: be-x-old
       gan-hant: gan
@@ -68,8 +68,8 @@ BASIC:
   label: Pywikibot Add Text
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/add_text.py
-  definitionFile: %GROUPROOT%/pywikipedia/add_text.py
+  sourcePattern: %GROUPROOT%/pywikibot/add_text.py
+  definitionFile: %GROUPROOT%/pywikibot/add_text.py
   targetPattern: pywikipedia/add_text.py
 ---
 BASIC:
@@ -77,8 +77,8 @@ BASIC:
   label: Pywikibot Archive Bot
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/archivebot.py
-  definitionFile: %GROUPROOT%/pywikipedia/archivebot.py
+  sourcePattern: %GROUPROOT%/pywikibot/archivebot.py
+  definitionFile: %GROUPROOT%/pywikibot/archivebot.py
   targetPattern: pywikipedia/archivebot.py
 ---
 BASIC:
@@ -86,8 +86,8 @@ BASIC:
   label: Pywikibot Basic
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/basic.py
-  definitionFile: %GROUPROOT%/pywikipedia/basic.py
+  sourcePattern: %GROUPROOT%/pywikibot/basic.py
+  definitionFile: %GROUPROOT%/pywikibot/basic.py
   targetPattern: pywikipedia/basic.py
 ---
 BASIC:
@@ -95,8 +95,8 @@ BASIC:
   label: Pywikibot Blockpages Checker
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/blockpageschecker.py
-  definitionFile: %GROUPROOT%/pywikipedia/blockpageschecker.py
+  sourcePattern: %GROUPROOT%/pywikibot/blockpageschecker.py
+  definitionFile: %GROUPROOT%/pywikibot/blockpageschecker.py
   targetPattern: pywikipedia/blockpageschecker.py
 ---
 BASIC:
@@ -104,8 +104,8 @@ BASIC:
   label: Pywikibot Capitalize Redirects
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/capitalize_redirects.py
-  definitionFile: %GROUPROOT%/pywikipedia/capitalize_redirects.py
+  sourcePattern: %GROUPROOT%/pywikibot/capitalize_redirects.py
+  definitionFile: %GROUPROOT%/pywikibot/capitalize_redirects.py
   targetPattern: pywikipedia/capitalize_redirects.py
 ---
 BASIC:
@@ -113,8 +113,8 @@ BASIC:
   label: Pywikibot Catall
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/catall.py
-  definitionFile: %GROUPROOT%/pywikipedia/catall.py
+  sourcePattern: %GROUPROOT%/pywikibot/catall.py
+  definitionFile: %GROUPROOT%/pywikibot/catall.py
   targetPattern: pywikipedia/catall.py
 ---
 BASIC:
@@ -122,8 +122,8 @@ BASIC:
   label: Pywikibot Category
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/category.py
-  definitionFile: %GROUPROOT%/pywikipedia/category.py
+  sourcePattern: %GROUPROOT%/pywikibot/category.py
+  definitionFile: %GROUPROOT%/pywikibot/category.py
   targetPattern: pywikipedia/category.py
 ---
 BASIC:
@@ -131,8 +131,8 @@ BASIC:
   label: Pywikibot Category Redirect
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/category_redirect.py
-  definitionFile: %GROUPROOT%/pywikipedia/category_redirect.py
+  sourcePattern: %GROUPROOT%/pywikibot/category_redirect.py
+  definitionFile: %GROUPROOT%/pywikibot/category_redirect.py
   targetPattern: pywikipedia/category_redirect.py
 ---
 BASIC:
@@ -140,8 +140,8 @@ BASIC:
   label: Pywikibot Clean Sandbox
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/clean_sandbox.py
-  definitionFile: %GROUPROOT%/pywikipedia/clean_sandbox.py
+  sourcePattern: %GROUPROOT%/pywikibot/clean_sandbox.py
+  definitionFile: %GROUPROOT%/pywikibot/clean_sandbox.py
   targetPattern: pywikipedia/clean_sandbox.py
 ---
 BASIC:
@@ -149,8 +149,8 @@ BASIC:
   label: Pywikibot Commons
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/commons.py
-  definitionFile: %GROUPROOT%/pywikipedia/commons.py
+  sourcePattern: %GROUPROOT%/pywikibot/commons.py
+  definitionFile: %GROUPROOT%/pywikibot/commons.py
   targetPattern: pywikipedia/commons.py
 ---
 BASIC:
@@ -158,8 +158,8 @@ BASIC:
   label: Pywikibot Cosmetic Changes
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/cosmetic_changes.py
-  definitionFile: %GROUPROOT%/pywikipedia/cosmetic_changes.py
+  sourcePattern: %GROUPROOT%/pywikibot/cosmetic_changes.py
+  definitionFile: %GROUPROOT%/pywikibot/cosmetic_changes.py
   targetPattern: pywikipedia/cosmetic_changes.py
 ---
 BASIC:
@@ -167,8 +167,8 @@ BASIC:
   label: Pywikibot Delete
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/delete.py
-  definitionFile: %GROUPROOT%/pywikipedia/delete.py
+  sourcePattern: %GROUPROOT%/pywikibot/delete.py
+  definitionFile: %GROUPROOT%/pywikibot/delete.py
   targetPattern: pywikipedia/delete.py
 ---
 BASIC:
@@ -176,8 +176,8 @@ BASIC:
   label: Pywikibot DjVu Text
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/djvutext.py
-  definitionFile: %GROUPROOT%/pywikipedia/djvutext.py
+  sourcePattern: %GROUPROOT%/pywikibot/djvutext.py
+  definitionFile: %GROUPROOT%/pywikibot/djvutext.py
   targetPattern: pywikipedia/djvutext.py
 ---
 BASIC:
@@ -185,8 +185,8 @@ BASIC:
   label: Pywikibot Edit Article
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/editarticle.py
-  definitionFile: %GROUPROOT%/pywikipedia/editarticle.py
+  sourcePattern: %GROUPROOT%/pywikibot/editarticle.py
+  definitionFile: %GROUPROOT%/pywikibot/editarticle.py
   targetPattern: pywikipedia/editarticle.py
 ---
 BASIC:
@@ -194,8 +194,8 @@ BASIC:
   label: Pywikibot Featured
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/featured.py
-  definitionFile: %GROUPROOT%/pywikipedia/featured.py
+  sourcePattern: %GROUPROOT%/pywikibot/featured.py
+  definitionFile: %GROUPROOT%/pywikibot/featured.py
   targetPattern: pywikipedia/featured.py
 ---
 BASIC:
@@ -203,8 +203,8 @@ BASIC:
   label: Pywikibot Fixing Redirects
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/fixing_redirects.py
-  definitionFile: %GROUPROOT%/pywikipedia/fixing_redirects.py
+  sourcePattern: %GROUPROOT%/pywikibot/fixing_redirects.py
+  definitionFile: %GROUPROOT%/pywikibot/fixing_redirects.py
   targetPattern: pywikipedia/fixing_redirects.py
 ---
 BASIC:
@@ -212,8 +212,8 @@ BASIC:
   label: Pywikibot Interwiki
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/interwiki.py
-  definitionFile: %GROUPROOT%/pywikipedia/interwiki.py
+  sourcePattern: %GROUPROOT%/pywikibot/interwiki.py
+  definitionFile: %GROUPROOT%/pywikibot/interwiki.py
   targetPattern: pywikipedia/interwiki.py
 
 TAGS:
@@ -225,8 +225,8 @@ BASIC:
   label: Pywikibot ISBN
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/isbn.py
-  definitionFile: %GROUPROOT%/pywikipedia/isbn.py
+  sourcePattern: %GROUPROOT%/pywikibot/isbn.py
+  definitionFile: %GROUPROOT%/pywikibot/isbn.py
   targetPattern: pywikipedia/isbn.py
 ---
 BASIC:
@@ -234,8 +234,8 @@ BASIC:
   label: Pywikibot Move Pages
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/movepages.py
-  definitionFile: %GROUPROOT%/pywikipedia/movepages.py
+  sourcePattern: %GROUPROOT%/pywikibot/movepages.py
+  definitionFile: %GROUPROOT%/pywikibot/movepages.py
   targetPattern: pywikipedia/movepages.py
 ---
 BASIC:
@@ -243,8 +243,8 @@ BASIC:
   label: Pywikibot Ndash Redir
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/ndashredir.py
-  definitionFile: %GROUPROOT%/pywikipedia/ndashredir.py
+  sourcePattern: %GROUPROOT%/pywikibot/ndashredir.py
+  definitionFile: %GROUPROOT%/pywikibot/ndashredir.py
   targetPattern: pywikipedia/ndashredir.py
 ---
 BASIC:
@@ -252,8 +252,8 @@ BASIC:
   label: Pywikibot No References
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/noreferences.py
-  definitionFile: %GROUPROOT%/pywikipedia/noreferences.py
+  sourcePattern: %GROUPROOT%/pywikibot/noreferences.py
+  definitionFile: %GROUPROOT%/pywikibot/noreferences.py
   targetPattern: pywikipedia/noreferences.py
 ---
 BASIC:
@@ -261,8 +261,8 @@ BASIC:
   label: Pywikibot Pywikibot
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/pywikibot.py
-  definitionFile: %GROUPROOT%/pywikipedia/pywikibot.py
+  sourcePattern: %GROUPROOT%/pywikibot/pywikibot.py
+  definitionFile: %GROUPROOT%/pywikibot/pywikibot.py
   targetPattern: pywikipedia/pywikibot.py
 ---
 BASIC:
@@ -270,8 +270,8 @@ BASIC:
   label: Pywikibot Redirect
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/redirect.py
-  definitionFile: %GROUPROOT%/pywikipedia/redirect.py
+  sourcePattern: %GROUPROOT%/pywikibot/redirect.py
+  definitionFile: %GROUPROOT%/pywikibot/redirect.py
   targetPattern: pywikipedia/redirect.py
 ---
 BASIC:
@@ -279,8 +279,8 @@ BASIC:
   label: Pywikibot Replace
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/replace.py
-  definitionFile: %GROUPROOT%/pywikipedia/replace.py
+  sourcePattern: %GROUPROOT%/pywikibot/replace.py
+  definitionFile: %GROUPROOT%/pywikibot/replace.py
   targetPattern: pywikipedia/replace.py
 ---
 BASIC:
@@ -288,8 +288,8 @@ BASIC:
   label: Pywikibot Solve Disambiguation
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/solve_disambiguation.py
-  definitionFile: %GROUPROOT%/pywikipedia/solve_disambiguation.py
+  sourcePattern: %GROUPROOT%/pywikibot/solve_disambiguation.py
+  definitionFile: %GROUPROOT%/pywikibot/solve_disambiguation.py
   targetPattern: pywikipedia/solve_disambiguation.py
 ---
 BASIC:
@@ -297,8 +297,8 @@ BASIC:
   label: Pywikibot Spellcheck
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/spellcheck.py
-  definitionFile: %GROUPROOT%/pywikipedia/spellcheck.py
+  sourcePattern: %GROUPROOT%/pywikibot/spellcheck.py
+  definitionFile: %GROUPROOT%/pywikibot/spellcheck.py
   targetPattern: pywikipedia/spellcheck.py
 ---
 BASIC:
@@ -306,8 +306,8 @@ BASIC:
   label: Pywikibot Table2Wiki
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/table2wiki.py
-  definitionFile: %GROUPROOT%/pywikipedia/table2wiki.py
+  sourcePattern: %GROUPROOT%/pywikibot/table2wiki.py
+  definitionFile: %GROUPROOT%/pywikibot/table2wiki.py
   targetPattern: pywikipedia/table2wiki.py
 ---
 BASIC:
@@ -315,8 +315,8 @@ BASIC:
   label: Pywikibot Template
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/template.py
-  definitionFile: %GROUPROOT%/pywikipedia/template.py
+  sourcePattern: %GROUPROOT%/pywikibot/template.py
+  definitionFile: %GROUPROOT%/pywikibot/template.py
   targetPattern: pywikipedia/template.py
 
 TAGS:
@@ -328,8 +328,8 @@ BASIC:
   label: Pywikibot Third Party
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/thirdparty.py
-  definitionFile: %GROUPROOT%/pywikipedia/thirdparty.py
+  sourcePattern: %GROUPROOT%/pywikibot/thirdparty.py
+  definitionFile: %GROUPROOT%/pywikibot/thirdparty.py
   targetPattern: pywikipedia/thirdparty.py
 ---
 BASIC:
@@ -337,8 +337,8 @@ BASIC:
   label: Pywikibot Unlink
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/unlink.py
-  definitionFile: %GROUPROOT%/pywikipedia/unlink.py
+  sourcePattern: %GROUPROOT%/pywikibot/unlink.py
+  definitionFile: %GROUPROOT%/pywikibot/unlink.py
   targetPattern: pywikipedia/unlink.py
 ---
 BASIC:
@@ -346,8 +346,8 @@ BASIC:
   label: Pywikibot Web Link Checker
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/weblinkchecker.py
-  definitionFile: %GROUPROOT%/pywikipedia/weblinkchecker.py
+  sourcePattern: %GROUPROOT%/pywikibot/weblinkchecker.py
+  definitionFile: %GROUPROOT%/pywikibot/weblinkchecker.py
   targetPattern: pywikipedia/weblinkchecker.py
 ---
 BASIC:
@@ -355,6 +355,6 @@ BASIC:
   label: Pywikibot Welcome
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikipedia/welcome.py
-  definitionFile: %GROUPROOT%/pywikipedia/welcome.py
+  sourcePattern: %GROUPROOT%/pywikibot/welcome.py
+  definitionFile: %GROUPROOT%/pywikibot/welcome.py
   targetPattern: pywikipedia/welcome.py

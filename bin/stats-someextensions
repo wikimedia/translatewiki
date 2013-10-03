@@ -1,5 +1,4 @@
 # Siebrand / 2008-02-09
-# should be run as user 'siebrand' because pywikipediabot checks ownership of user-config.py
 
 COMMAND="/usr/bin/php groupStatistics.php --skipzero --groups=ext-babel,ext-uploadwizard,ext-liquidthreads,ext-wikimedialicensetexts,ext-di-gc,ext-di-pfpg"
 
@@ -7,7 +6,7 @@ COMMAND="/usr/bin/php groupStatistics.php --skipzero --groups=ext-babel,ext-uplo
 cd /www/w/extensions/Translate/scripts
 /usr/bin/nice $COMMAND > $HOME/temp/someextensions.txt
 
-# compile Wiki statistics page for pywikipedia bot
+# compile Wiki statistics page
 /bin/echo "Start" > $HOME/temp/someextensions
 /bin/echo "StartTitleExtension localisation statisticsStopTitle" >> $HOME/temp/someextensions
 /bin/echo "Stats on ~~~~~<br />" >> $HOME/temp/someextensions
@@ -16,7 +15,7 @@ cd /www/w/extensions/Translate/scripts
 /bin/echo "End" >> $HOME/temp/someextensions
 
 # upload stats page to Betawiki
-/usr/bin/python /home/betawiki/software/pywikipedia/pagefromfile.py -force -summary:"Updating statistics" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$HOME/temp/someextensions -start:Start -end:End
+/usr/bin/python /home/betawiki/software/pywikibot/pagefromfile.py -force -summary:"Updating statistics" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$HOME/temp/someextensions -start:Start -end:End
 
 # house keeping
 /bin/rm $HOME/temp/someextensions.txt

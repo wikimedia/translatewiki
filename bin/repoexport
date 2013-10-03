@@ -169,7 +169,7 @@ elif [ "$PROJECT" = "osm" ]
 then
 	php "$EXPORTER" --target . --group=out-osm-* --lang '*' --skip en,qqq $THRESHOLD
 
-elif [ "$PROJECT" = "pywikipedia" ]
+elif [ "$PROJECT" = "pywikibot" ]
 then
 	php "$EXPORTER" --target . --group=out-pywikipedia* --lang '*' --skip en --threshold 1
 

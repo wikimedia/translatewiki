@@ -1,11 +1,10 @@
 # Siebrand / 2008-02-09
-# should be run as user 'siebrand' because pywikipediabot checks ownership of user-config.py
 
 # create basic stats file for groups 'most used', 'core', 'Main Wikimedia extensions', 'Wikimedia extensions', and 'All extensions'
 cd /www/w/extensions/Translate/scripts
 /usr/bin/php groupStatistics.php --skipzero --groups=core-0-mostused,core,ext-0-wikimedia-main,ext-0-wikimedia,ext-0-all,ext-translate-0-all,ext-flaggedrevs-0-all --skiplanguages="test, qqq, als, be-x-old, crh, de-at, de-ch, de-formal, dk, en-ca, en-gb, es-formal, fiu-vro, gan, got, hif, hu-formal, kbd, kk, kk-cn, iu, kk-kz, kk-tr, ko-kp, ku, ku-arab, nl-informal, no, ruq, simple, sr, tg, tp, tt, ug, zh, zh-classical, zh-cn, zh-sg, zh-hk, zh-min-nan, zh-mo, zh-my, zh-tw, zh-yue, bbc, ady" > $HOME/temp/groupstats.txt
 
-# compile Wiki statistics page for pywikipedia bot
+# compile Wiki statistics page
 /bin/echo "Start" > $HOME/temp/stats_page
 /bin/echo "StartTitleTranslating:Group_statisticsStopTitle" >> $HOME/temp/stats_page
 /bin/echo "{{Translating:Group statistics/Header9}}" >> $HOME/temp/stats_page
@@ -13,7 +12,7 @@ cd /www/w/extensions/Translate/scripts
 /bin/echo "End" >> $HOME/temp/stats_page
 
 # upload stats page to translatewiki.net
-/usr/bin/python /home/betawiki/software/pywikipedia/pagefromfile.py -force -summary:"Updating statistics" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$HOME/temp/stats_page -start:Start -end:End
+/usr/bin/python /home/betawiki/software/pywikibot/pagefromfile.py -force -summary:"Updating statistics" -notitle -titlestart:StartTitle -titleend:StopTitle -file:$HOME/temp/stats_page -start:Start -end:End
 
 # house keeping
 /bin/rm $HOME/temp/groupstats.txt
