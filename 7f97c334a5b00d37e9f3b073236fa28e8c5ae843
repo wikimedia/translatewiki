@@ -52,6 +52,24 @@
       "revId": "7f97c334a5b00d37e9f3b073236fa28e8c5ae843",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_79f2539a",
+        "filename": "bin/repoupdate",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-10-04T09:10:50Z",
+      "side": 1,
+      "message": "So is the assumption that there must be a command \"update-reset-repo\" in the folder where repoupdate is being executed?\n\nI regularly copy one of the repo* commands to /resources/siebrand to do what I please with them for a single run, and this would require me to have that be more work (I think).",
+      "parentUuid": "0932edd2_b90beb8e",
+      "revId": "7f97c334a5b00d37e9f3b073236fa28e8c5ae843",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
