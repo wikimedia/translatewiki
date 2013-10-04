@@ -1,10 +1,20 @@
 #!/bin/sh
 
-cd $1
+# Allow for passing a base path and repo folder name in two parameters
+# or a single full path as parameter.
+if [ $# -eq 2 ]
+then
+    # Concatenate base path and folder name
+	DIR=$1/$2
+else
+	DIR=$1
+fi
+
+cd $DIR
 OUTPUT=$(git fetch -q --all && git reset -q --hard origin/master && git clean -q -f -d 2>&1 >&-)
 CODE=$?
 
 if [ $CODE -ne 0 ]; then
-	printf "\033[31m%s failed to update\033[0m\n" "$1";
+	printf "\033[31m%s failed to update\033[0m\n" "$DIR";
 	echo $OUTPUT;
 fi

@@ -141,6 +141,8 @@ then
 	echo "Updating MediaWiki extensions"
 	count=0
 	EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(FundraisingEmailUnsubscribe)")
+
+	# Clone extension repos that do not exist yet.
 	for EXTENSION in $EXTENSIONS
 	do
 		if [ ! -d "$EXTENSION/.git" ]
@@ -161,13 +163,13 @@ then
 				git review -s
 				cd ..
 			fi
-		else
-			${DIRSCRIPT}/update-reset-repo "$DIR/$PROJECT/extensions/$EXTENSION" &
-			let count+=1; [[ $((count%10)) -eq 0 ]] && wait
 		fi
 	done
 
-	wait
+	# Update all repos (yes, there is duplication for repos that were just cloned)
+	echo $EXTENSIONS |
+		xargs -n1 -P7 ${DIRSCRIPT}/update-reset-repo "$DIR/$PROJECT/extensions"
+
 	if [ -z "$REPO_RW" ]
 	then
 		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --groups=ext-* && echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
