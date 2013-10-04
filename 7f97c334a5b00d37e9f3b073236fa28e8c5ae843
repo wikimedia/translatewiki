@@ -34,6 +34,24 @@
       "revId": "7f97c334a5b00d37e9f3b073236fa28e8c5ae843",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_b90beb8e",
+        "filename": "bin/repoupdate",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-04T09:06:33Z",
+      "side": 1,
+      "message": "Are you arguing that because other places have not yet been changed it is okay to introduce new problematic code? I don\u0027t agree with that.\n\nHere is what I wrote in the referenced commit:\n\"Also made it to call subscripts from the same dir to avoid failures\nif PATH is not set up correctly and so that correct scripts are run\nwhen I developed this patchset in my own checkout.\"\n\nIt is both a maintenance issue and practical problem for developing.\n\nDoes that convince for the \"should\" part? ;)",
+      "parentUuid": "29433135_603378f6",
+      "revId": "7f97c334a5b00d37e9f3b073236fa28e8c5ae843",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
