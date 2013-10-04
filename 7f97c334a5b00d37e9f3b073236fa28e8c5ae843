@@ -70,6 +70,24 @@
       "revId": "7f97c334a5b00d37e9f3b073236fa28e8c5ae843",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_f936434f",
+        "filename": "bin/repoupdate",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-04T09:18:37Z",
+      "side": 1,
+      "message": "Yes it would mean copying more files. Or you could just copy the whole repository as I have done on /resources/nike/translatewiki where I can make changes (temporarily or not).",
+      "parentUuid": "0932edd2_79f2539a",
+      "revId": "7f97c334a5b00d37e9f3b073236fa28e8c5ae843",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
