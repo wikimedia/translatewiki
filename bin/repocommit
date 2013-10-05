@@ -1,13 +1,17 @@
 #!/bin/bash
 set -e
 
+DIRSCRIPT="`dirname \"$0\"`"
+DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
+DIRLOG=/home/betawiki/logs/repo
+
 PROJECT=$1
 DIR=$2
 : ${DIR:=`pwd`}
-source /home/betawiki/config/bin/findexportroot
+source ${DIRSCRIPT}/findexportroot
 cd "$DIR"
 
-echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> /home/betawiki/logs/repo
+echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
 COMMITMSG="Localisation updates from http://translatewiki.net."
 
@@ -196,6 +200,6 @@ then
 	cd ..
 
 else
-	echo "Unknown project"
+	echo "`basename $0`: Unknown project"
 	exit 1
 fi

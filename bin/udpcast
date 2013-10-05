@@ -1,2 +1,7 @@
 #!/bin/sh
-php /home/betawiki/config/bin/scripts/snedUdpMessage.php --host=127.0.0.1 --port=8966 --quiet=1 \[`whoami`\] $@
+set -e
+
+DIRSCRIPT="`dirname \"$0\"`"
+DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
+
+php ${DIRSCRIPT}/scripts/snedUdpMessage.php --host=127.0.0.1 --port=8966 --quiet=1 \[`whoami`\] $@

@@ -2,10 +2,14 @@
 set -e
 umask 0002
 
+DIRSCRIPT="`dirname \"$0\"`"
+DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
+DIRLOG=/home/betawiki/logs/repo
+
 COMMAND=$1
 PROJECT=$2
 DIR=/resources/projects
 
-echo "$(date --rfc-3339=seconds --utc) [$(whoami)] $0 $@" >> /home/betawiki/logs/repo
+echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
-sudo -u betawiki "/home/betawiki/config/bin/repo$COMMAND" "$PROJECT" "$DIR"
+sudo -u betawiki "${DIRSCRIPT}/repo$COMMAND" "$PROJECT" "$DIR"

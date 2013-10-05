@@ -259,6 +259,6 @@ then
 	svn up $PROJECT
 
 else
-	echo "Unknown project"
+	echo "`basename $0`: Unknown project"
 	exit 1
 fi

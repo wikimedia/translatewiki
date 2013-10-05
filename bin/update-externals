@@ -2,6 +2,9 @@
 set -e
 umask 0002
 
+DIRSCRIPT="`dirname \"$0\"`"
+DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
+
 WIKI=/www/translatewiki.net/w
 
 for PROJECT in \
@@ -37,11 +40,11 @@ WiktionaryMobile \
 WLMMobile
 do
 	echo "Updating ${PROJECT}..."
-	/home/betawiki/config/bin/repo update "$PROJECT" && echo "$PROJECT done!" &
+	${DIRSCRIPT}/repo update "$PROJECT" && echo "$PROJECT done!" &
 done
 wait
 echo "All projects updated!"
-/home/betawiki/config/bin/createmi
+${DIRSCRIPT}/createmi
 wait
 php $WIKI/extensions/Translate/scripts/processMessageChanges.php
 echo "Really. Go to https://translatewiki.net/wiki/Special:ManageMessageGroups for the last bits"
