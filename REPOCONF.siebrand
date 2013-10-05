@@ -1,0 +1,44 @@
+# If not set, will not setup l10n-bot commit stuff for MediaWiki git extensions
+REPO_RW=yes
+
+REPO_MEDIAWIKI=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/core.git
+REPO_MEDIAWIKI_BRANCHES="master REL1_21 REL1_20 REL1_19"
+REPO_MWEXTGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/extensions
+
+REPO_COMMONSANDROID=ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/commons.git
+REPO_COMMONSIOS=git@github.com:wikimedia/Commons-iOS.git
+REPO_BLOCKLY=https://blockly.googlecode.com/svn/trunk/
+REPO_EOL=git@github.com:EOL/eol.git
+REPO_ETHERPADLITE=git@github.com:ether/etherpad-lite.git
+REPO_ETHERPADLITE_BRANCH="develop"
+REPO_FREECOL=ssh://siebrand@git.code.sf.net/p/freecol/git
+REPO_FUDFORUM=svn+ssh://siebrand@svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
+REPO_FUEL=ssh://siebrand@git.fedorahosted.org/git/fuel.git
+REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics
+REPO_IHRIS_BRANCH="4.1-dev"
+REPO_IHRIS_MODULES="i2ce ihris-common ihris-manage ihris-qualify"
+REPO_INTUITION=git@github.com:Krinkle/TsIntuition.git
+REPO_JQUERY_ULS=git@github.com:wikimedia/jquery.uls.git
+REPO_KIWIX=ssh://siebrand@git.code.sf.net/p/kiwix/maintenance
+REPO_MANTIS=git@github.com:mantisbt/mantisbt.git
+REPO_MANTIS_BRANCH="master-1.2.x"
+REPO_MATHJAX=git@github.com:mathjax/MathJax-i18n.git
+REPO_MIFOS=git@github.com:mifos/head.git
+REPO_MWLIB=git@github.com:pediapress/mwlib.git
+REPO_MWLIBRL=git@github.com:pediapress/mwlib.rl.git
+REPO_OKAWIX=svn+ssh://siebrand@svn.code.sf.net/p/okawix/code/trunk/okawix/chrome/locale
+REPO_OSM=ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git
+REPO_POTLATCH2=git@github.com:systemed/potlatch2.git
+REPO_PYWIKIBOT=ssh://l10n-bot@gerrit.wikimedia.org:29418/pywikibot/i18n
+REPO_SHAPADO=git@gitorious.org:shapado/shapado.git
+REPO_VICUNA=git@github.com:yarl/vicuna.git
+REPO_WAYMARKEDTRAILS=git@github.com:lonvia/waymarked-trails-site.git
+REPO_WIKIA=git@github.com:Wikia/app.git
+REPO_WIKIA_BRANCH="dev"
+REPO_WIKIBLAME=svn://svn.code.sf.net/p/wikiblame/code/wikiblame_inc
+REPO_WIKIPEDIAMOBILE=git@github.com:wikimedia/WikipediaMobile.git
+REPO_WIKIPEDIAMOBILEJ2ME=git@github.com:wikimedia/WikipediaMobileJ2ME.git
+REPO_WIKIREADER=git@github.com:wikireader/wikireader.git
+REPO_WIKISOURCEMOBILE=git@github.com:wikimedia/WikisourceMobile.git
+REPO_WIKTIONARYMOBILE=git@github.com:wikimedia/WiktionaryMobile.git
+REPO_WLMMOBILE=git@github.com:wikimedia/WLMMobile.git
