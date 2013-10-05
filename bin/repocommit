@@ -185,16 +185,8 @@ then
 
 elif [ "$PROJECT" = "osm" ]
 then
-	cd $PROJECT
-	git add .
-	git commit -m "$COMMITMSG"
-	git push ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git
-	cd ..
-	cd potlatch2
-	git add .
-	git commit -m "$COMMITMSG"
-	git push
-	cd ..
+	gitcommitNoCheck $PROJECT
+	gitcommitNoCheck potlatch2
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
