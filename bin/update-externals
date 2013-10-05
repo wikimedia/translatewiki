@@ -2,9 +2,6 @@
 set -e
 umask 0002
 
-# OpenImages always requires manual confirmation of the repo fingerprint, so
-# disabled. Siebrand / 2012-04-11
-
 WIKI=/www/translatewiki.net/w
 
 for PROJECT in \
@@ -21,6 +18,7 @@ intuition \
 jquery.uls \
 kiwix \
 mantis \
+mathjax \
 mifos \
 mwlib \
 okawix \
