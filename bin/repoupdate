@@ -1,15 +1,18 @@
 #!/bin/bash
 set -e
 
+DIRSCRIPT="`dirname \"$0\"`"
+DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
+DIRLOG=/home/betawiki/logs/repo
 PROJECT=$1
-DIR=$2
-: ${DIR:=`pwd`}
-source /home/betawiki/config/bin/findexportroot
-cd "$DIR"
-
 WIKI=/www/translatewiki.net/w
 
-echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> /home/betawiki/logs/repo
+DIR=$2
+: ${DIR:=`pwd`}
+source $DIRSCRIPT/findexportroot
+cd "$DIR"
+
+echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> $DIRLOG
 
 gitupdate() {
 	local dir=$1
@@ -123,7 +126,7 @@ then
 	wait
 	if [ "$DIR" = "/resources/projects" ]
 	then
-		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || /home/betawiki/config/bin/udpcast Message index creation failed &
+		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || ${DIRSCRIPT}/udpcast Message index creation failed &
 	fi
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
@@ -159,7 +162,7 @@ then
 				cd ..
 			fi
 		else
-			/home/betawiki/config/bin/update-reset-repo "$DIR/$PROJECT/extensions/$EXTENSION" &
+			${DIRSCRIPT}/update-reset-repo "$DIR/$PROJECT/extensions/$EXTENSION" &
 			let count+=1; [[ $((count%10)) -eq 0 ]] && wait
 		fi
 	done
@@ -168,7 +171,7 @@ then
 	if [ -z "$REPO_RW" ]
 	then
 		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --groups=ext-* && echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
-		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || /home/betawiki/config/bin/udpcast Message index creation failed &
+		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || ${DIRSCRIPT}/udpcast Message index creation failed &
 	fi
 
 elif [ "$PROJECT" = "mozilla" ]
