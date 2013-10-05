@@ -164,13 +164,8 @@ then
 elif [ "$PROJECT" = "okawix" ]
 then
 	cd $PROJECT
-	svn add -q *
-	for i in `find . -name *.dtd`
-	do
-		svn propset -q svn:mime-type text/plain $i
-		svn propset -q svn:eol-style native $i
-	done
-	for i in `find . -name *.properties`
+	svn add -q --force *
+	for i in `find . -name *.dtd -o -name *.properties`
 	do
 		svn propset -q svn:mime-type text/plain $i
 		svn propset -q svn:eol-style native $i
@@ -195,6 +190,7 @@ then
 elif [ "$PROJECT" = "wikiblame" ]
 then
 	cd $PROJECT
+	svn add -q *.php
 	svn propset -q svn:eol-style native *.php
 	svn commit --message "$COMMITMSG"
 	cd ..
