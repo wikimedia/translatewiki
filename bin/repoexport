@@ -112,34 +112,12 @@ elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
 	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=magic --quiet &
 	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=special --quiet &
-	php "$EXPORTER" --target . --group 'ext-a*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-b*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-c*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-d*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-e*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-f*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-g*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-h*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-i*' --lang '*' --skip "$SKIPLANGS" $HOURS --skipgroup=ext-installer &
-	php "$EXPORTER" --target . --group 'ext-j*' --lang '*' --skip "$SKIPLANGS" $HOURS --skipgroup=ext-jquery-uls &
-	php "$EXPORTER" --target . --group 'ext-k*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-l*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-m*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-n*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-o*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-p*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-q*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-r*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-s*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-t*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-u*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-v*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-w*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-x*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-y*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-z*' --lang '*' --skip "$SKIPLANGS" $HOURS &
-	wait
-	php "$EXPORTER" --target mediawiki-extensions/extensions --group 'ext-jquery-*' --lang '*' --skip "$SKIPLANGS" $HOURS
+
+	PREFIXES="ext-a ext-b ext-c ext-d ext-e ext-f ext-g ext-h ext-i ext-j ext-k ext-l \
+		ext-m ext-n ext-o ext-p ext-q ext-r ext-s ext-t ext-u ext-v ext-w ext-x ext-y \
+		ext-z ext-jquery-"
+
+	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
 
 elif [ "$PROJECT" = "mifos" ]
 then
@@ -195,40 +173,11 @@ then
 
 elif [ "$PROJECT" = "wikia" ] || [ "$PROJECT" = "wikia-quick" ]
 then
-	if [ "$PROJECT" = "wikia" ]
-	then
-		HOURS=""
-	fi
+	PREFIXES="wikia-a wikia-b wikia-c wikia-d wikia-e wikia-f wikia-g wikia-h \
+		wikia-i wikia-j wikia-k wikia-l wikia-m wikia-n wikia-o wikia-p wikia-q \
+		wikia-r wikia-s wikia-t wikia-u wikia-v wikia-w wikia-x wikia-y wikia-z"
 
-	php "$EXPORTER" --target . --group=wikia-a* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-b* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-c* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-d* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-e* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-f* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-g* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-h* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-i* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-j* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-k* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-l* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-m* --lang '*' --skip en $HOURS &
-	wait
-	echo "repoexport: Wikia part 2"
-	php "$EXPORTER" --target . --group=wikia-n* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-o* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-p* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-q* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-r* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-s* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-t* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-u* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-v* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-w* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-x* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-y* --lang '*' --skip en $HOURS &
-	php "$EXPORTER" --target . --group=wikia-z* --lang '*' --skip en $HOURS &
-	wait
+	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
 
 elif [ "$PROJECT" = "wikiblame" ]
 then

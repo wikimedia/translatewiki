@@ -1,0 +1,52 @@
+#!/bin/bash
+set -e
+
+# Script requires 4 parameters.
+if [ $# -ne 4 ]
+then
+	echo "This script requires 4 parameters: resource dir, project, target folder, group."
+	exit 1
+fi
+
+# Parameters and locations.
+WIKI=/www/translatewiki.net/w
+DIR="$1"
+EXPORTER=$WIKI/extensions/Translate/scripts/export.php
+GROUP="$4"
+HOURS="--hours=200" # Somewhat over week
+PROJECT="$2"
+SKIPGROUPS=""
+SKIPLANGS="--skip=test, be-x-old, crh, dk, en, fiu-vro, gan, got, hif, kbd, kk, \
+	kk-cn, iu, kk-k, kk-tr, ko-kp, ku, ku-arab, no, ruq, simple, sr, tg, tp, tt, \
+	ug, zh, zh-classical, zh-cn, zh-sg, zh-hk, zh-min-nan, zh-mo, zh-my, zh-tw, \
+	zh-yue, bbc, ady"
+TARGET="$3"
+
+cd $DIR
+
+# Special cases.
+if [ "$GROUP" = "ext-jquery-" ]
+then
+	TARGET="./mediawiki-extesions/extensions"
+fi
+
+if [ "$GROUP" = "ext-jquery-" ]
+then
+	TARGET="./mediawiki-extesions/extensions"
+fi
+
+if [ "$GROUP" = "ext-i" ]
+then
+	SKIPGROUPS="--skipgroup=ext-installer"
+elif [ "$GROUP" = "ext-j" ]
+then
+	SKIPGROUPS="--skipgroup=ext-jquery-*"
+fi
+
+if [ "$PROJECT" = "wikia" ]
+then
+	HOURS=""
+fi
+
+# Ready for prime time.
+php "$EXPORTER" --target="$TARGET" --lang="*" --skip="$SKIPLANGS" $HOURS --group="$GROUP4*" $SKIPGROUPS
