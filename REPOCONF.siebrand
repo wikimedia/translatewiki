@@ -5,9 +5,9 @@ REPO_MEDIAWIKI=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/core.git
 REPO_MEDIAWIKI_BRANCHES="master REL1_21 REL1_20 REL1_19"
 REPO_MWEXTGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/extensions
 
+REPO_BLOCKLY=https://blockly.googlecode.com/svn/trunk/
 REPO_COMMONSANDROID=ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/commons.git
 REPO_COMMONSIOS=git@github.com:wikimedia/Commons-iOS.git
-REPO_BLOCKLY=https://blockly.googlecode.com/svn/trunk/
 REPO_EOL=git@github.com:EOL/eol.git
 REPO_ETHERPADLITE=git@github.com:ether/etherpad-lite.git
 REPO_ETHERPADLITE_BRANCH="develop"
