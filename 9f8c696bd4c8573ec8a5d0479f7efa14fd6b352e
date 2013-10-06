@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0932edd2_05b9e177",
+        "filename": "puppet/modules/base/manifests/init.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-06T15:36:31Z",
+      "side": 1,
+      "message": "Is this needed when configuring repos via puppet?",
+      "revId": "9f8c696bd4c8573ec8a5d0479f7efa14fd6b352e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_25bee55f",
+        "filename": "puppet/modules/mariadb/manifests/init.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-06T15:36:31Z",
+      "side": 1,
+      "message": "incorrect line endings",
+      "revId": "9f8c696bd4c8573ec8a5d0479f7efa14fd6b352e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_45b3d997",
+        "filename": "puppet/modules/php/manifests/init.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-06T15:36:31Z",
+      "side": 1,
+      "message": "I\u0027m not sure that we even need that repo on the new LTS.",
+      "revId": "9f8c696bd4c8573ec8a5d0479f7efa14fd6b352e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_65b0dd8a",
+        "filename": "puppet/site.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-06T15:36:31Z",
+      "side": 1,
+      "message": "Why?",
+      "revId": "9f8c696bd4c8573ec8a5d0479f7efa14fd6b352e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
