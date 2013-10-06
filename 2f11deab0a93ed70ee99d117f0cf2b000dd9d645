@@ -16,6 +16,24 @@
       "revId": "2f11deab0a93ed70ee99d117f0cf2b000dd9d645",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_e09cbbbe",
+        "filename": "bin/update-reset-repo",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-10-06T17:07:35Z",
+      "side": 1,
+      "message": "Fixed in Change-Id: Ia97f904fcd129a24a61a37ab50fe21fb9d53976a",
+      "parentUuid": "0932edd2_65ca9d71",
+      "revId": "2f11deab0a93ed70ee99d117f0cf2b000dd9d645",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
