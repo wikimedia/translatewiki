@@ -9,7 +9,7 @@ WIKI=/www/translatewiki.net/w
 
 echo "Update repositories..."
 cat ${DIRSCRIPT}/EXTERNAL-PROJECTS |
-	xargs -n1 -P4 -I % bash -c 'echo "Update %"; ${DIRSCRIPT}/repo update %; echo "Updated %"'
+	xargs -n1 -P4 -I % bash -c "echo \"Update %\"; ${DIRSCRIPT}/repo update %; echo \"Updated %\""
 
 echo "All repositories updated"
 echo "Create message index..."
