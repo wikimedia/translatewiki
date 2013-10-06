@@ -62,7 +62,7 @@ done
 
 if [ "$PROJECT" = "blockly" ]
 then
-	svn up $PROJECT
+	svn up -q $PROJECT
 
 elif [ "$PROJECT" = "etherpad-lite" ]
 then
@@ -70,7 +70,7 @@ then
 
 elif [ "$PROJECT" = "fudforum" ]
 then
-	svn up $PROJECT
+	svn up -q $PROJECT
 
 elif [ "$PROJECT" = "ihris" ]
 then
@@ -78,7 +78,7 @@ then
 	for MODULE in $REPO_IHRIS_MODULES
 	do
 		cd $MODULE
-		bzr pull
+		bzr pull -q
 		cd ..
 	done
 
@@ -132,7 +132,6 @@ then
 	cd $PROJECT
 	cd extensions
 
-	echo "Updating MediaWiki extensions"
 	count=0
 	EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(FundraisingEmailUnsubscribe)")
 
@@ -200,7 +199,7 @@ then
 		if [ "$REPO_RW" = "yes" ]
 		then
 			# Undo local uncommitted changes.
-			hg update -C
+			hg update -q -C
 			# Revert back to latest repo version.
 			while [ `b hg outgoing -l 1 |grep changeset |cut -d: -f2 |tr -d ' '` ]
 			do
@@ -210,7 +209,7 @@ then
 			done
 		fi
 
-		hg pull -u
+		hg pull -q -u
 		cd ..
 	done
 
@@ -218,8 +217,8 @@ then
 	if [ -z "$REPO_RW" ]
 	then
 		cd mozilla-aurora
-		hg update -C
-		hg pull -u
+		hg update -q -C
+		hg pull -q -u
 	fi
 
 elif [ "$PROJECT" = "mwlib" ]
@@ -233,11 +232,11 @@ then
 
 elif [ "$PROJECT" = "okawix" ]
 then
-	svn up $PROJECT
+	svn up -q $PROJECT
 
 elif [ "$PROJECT" = "openimages" ]
 then
-	svn up $PROJECT
+	svn up -q $PROJECT
 
 elif [ "$PROJECT" = "osm" ]
 then
@@ -250,7 +249,7 @@ then
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
-	svn up $PROJECT
+	svn up -q $PROJECT
 
 else
 	echo "`basename $0`: Unknown project"
