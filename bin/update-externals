@@ -7,41 +7,9 @@ DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
 
 WIKI=/www/translatewiki.net/w
 
-PROJECTS="\
-wikia \
-blockly \
-commons-android \
-commons-ios \
-eol \
-etherpad-lite \
-freecol \
-fudforum \
-fuel \
-ihris \
-intuition \
-jquery.uls \
-kiwix \
-mantis \
-mathjax \
-mifos \
-mwlib \
-okawix \
-osm \
-pywikibot \
-shapado \
-vicuna \
-waymarked-trails-site \
-wikiblame \
-WikipediaMobile \
-WikipediaMobileJ2ME \
-wikireader \
-WikisourceMobile \
-WiktionaryMobile \
-WLMMobile"
-
 echo "Update repositories..."
-echo $PROJECTS |
-	xargs -n1 -P4 -d ' ' -I % bash -c 'echo "Update %"; ${DIRSCRIPT}/repo update %; echo "Updated %"' bash
+cat ${DIRSCRIPT}/EXTERNAL-PROJECTS |
+	xargs -n1 -P4 -I % bash -c 'echo "Update %"; ${DIRSCRIPT}/repo update %; echo "Updated %"'
 
 echo "All repositories updated"
 echo "Create message index..."
