@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "0932edd2_056ac1ee",
+        "filename": "puppet/modules/base/manifests/init.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-10-06T16:00:05Z",
+      "side": 1,
+      "message": "It\u0027s a prerequisite for adding the PHP 5.4 repo with \"add-apt-repository\". Don\u0027t know if that\u0027s an answer to your question.",
+      "revId": "9f8c696bd4c8573ec8a5d0479f7efa14fd6b352e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0932edd2_25bee55f",
         "filename": "puppet/modules/mariadb/manifests/init.pp",
         "patchSetId": 2
@@ -30,6 +47,24 @@
       "writtenOn": "2013-10-06T15:36:31Z",
       "side": 1,
       "message": "incorrect line endings",
+      "revId": "9f8c696bd4c8573ec8a5d0479f7efa14fd6b352e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_857eb1aa",
+        "filename": "puppet/modules/mariadb/manifests/init.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-10-06T16:00:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0932edd2_25bee55f",
       "revId": "9f8c696bd4c8573ec8a5d0479f7efa14fd6b352e",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -53,6 +88,24 @@
     },
     {
       "key": {
+        "uuid": "0932edd2_256fc5fe",
+        "filename": "puppet/modules/php/manifests/init.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-10-06T16:00:05Z",
+      "side": 1,
+      "message": "AFAIK the default PHP5 is 5.3.10. I haven\u0027t found any information that states we can install PHP 5.4.x from the default repos.",
+      "parentUuid": "0932edd2_45b3d997",
+      "revId": "9f8c696bd4c8573ec8a5d0479f7efa14fd6b352e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0932edd2_65b0dd8a",
         "filename": "puppet/site.pp",
         "patchSetId": 2
@@ -64,6 +117,24 @@
       "writtenOn": "2013-10-06T15:36:31Z",
       "side": 1,
       "message": "Why?",
+      "revId": "9f8c696bd4c8573ec8a5d0479f7efa14fd6b352e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_6571bddd",
+        "filename": "puppet/site.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-10-06T16:00:05Z",
+      "side": 1,
+      "message": "Probably because the IDE made changes... Will revert, of course.",
+      "parentUuid": "0932edd2_65b0dd8a",
       "revId": "9f8c696bd4c8573ec8a5d0479f7efa14fd6b352e",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
