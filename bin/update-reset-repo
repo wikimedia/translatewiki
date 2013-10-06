@@ -4,7 +4,7 @@
 # or a single full path as parameter.
 if [ $# -eq 2 ]
 then
-    # Concatenate base path and folder name
+	# Concatenate base path and folder name
 	DIR=$1/$2
 else
 	DIR=$1
