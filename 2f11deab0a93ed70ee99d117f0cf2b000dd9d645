@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0932edd2_65ca9d71",
+        "filename": "bin/update-reset-repo",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-06T07:02:22Z",
+      "side": 1,
+      "message": "Spaces -\u003e tabs",
+      "revId": "2f11deab0a93ed70ee99d117f0cf2b000dd9d645",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
