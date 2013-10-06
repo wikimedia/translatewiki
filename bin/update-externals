@@ -7,7 +7,8 @@ DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
 
 WIKI=/www/translatewiki.net/w
 
-for PROJECT in \
+PROJECTS="\
+wikia \
 blockly \
 commons-android \
 commons-ios \
@@ -30,21 +31,25 @@ pywikibot \
 shapado \
 vicuna \
 waymarked-trails-site \
-wikia \
 wikiblame \
 WikipediaMobile \
 WikipediaMobileJ2ME \
 wikireader \
 WikisourceMobile \
 WiktionaryMobile \
-WLMMobile
-do
-	echo "Updating ${PROJECT}..."
-	${DIRSCRIPT}/repo update "$PROJECT" && echo "$PROJECT done!" &
-done
-wait
-echo "All projects updated!"
+WLMMobile"
+
+echo "Update repositories..."
+echo $PROJECTS |
+	xargs -n1 -P4 -d ' ' -I % bash -c 'echo "Update %"; ${DIRSCRIPT}/repo update %; echo "Updated %"' bash
+
+echo "All repositories updated"
+echo "Create message index..."
 ${DIRSCRIPT}/createmi
-wait
-php $WIKI/extensions/Translate/scripts/processMessageChanges.php
-echo "Really. Go to https://translatewiki.net/wiki/Special:ManageMessageGroups for the last bits"
+echo "Created message index"
+
+echo "Process message changes..."
+php $WIKI/extensions/Translate/scripts/processMessageChanges.php --quiet
+echo "Processed message changes"
+
+echo "Go to https://translatewiki.net/wiki/Special:ManageMessageGroups for the last bits"
