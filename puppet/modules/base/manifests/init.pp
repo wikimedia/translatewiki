@@ -7,7 +7,11 @@ class base {
     'duplicity',
     'fontconfig',
     'htop',
+    'iotop', # IO view
+    'iperf', # Network performance
+    'jnettop', # Network view
     'make',
+    'mytop', # MySQL view
     'nano',
     'netcat-openbsd',
     'screen',
@@ -23,7 +27,6 @@ class base {
 
     # Development extras
     'git-review',
-
     ]: ensure => present,
   }
 }
