@@ -314,6 +314,7 @@ $wgExtraLanguageNames['abs'] = 'Bahasa Ambon'; # Ambonese Malay / Siebrand 2013-
 $wgExtraLanguageNames['pbb'] = 'Nasa Yuwe'; # Páez / Siebrand 2013-08-08
 $wgExtraLanguageNames['ses'] = 'Koyraboro Senni'; # Koyraboro Senni Songhay / Siebrand 2013-10-07
 $wgExtraLanguageNames['lrc'] = 'لوری'; # Northern Luri / Siebrand 2013-10-07
+$wgExtraLanguageNames['sdh'] = 'کوردی خوارگ'; # Southern Kurdish / Siebrand 2013-10-07
 
 $wgExtraLanguageNames['nl-be']     = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['qqq']       = 'Message documentation'; # No linguistic content. Used for documenting messages
