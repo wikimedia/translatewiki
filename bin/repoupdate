@@ -132,7 +132,7 @@ then
 	cd extensions
 
 	count=0
-	EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(FundraisingEmailUnsubscribe)")
+	EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(FundraisingEmailUnsubscribe|DataValueImplementations|DataValuesInterfaces|^Wikidata$)")
 
 	# Clone extension repos that do not exist yet.
 	for EXTENSION in $EXTENSIONS
