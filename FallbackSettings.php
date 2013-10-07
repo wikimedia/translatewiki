@@ -89,6 +89,7 @@ $wgTranslateLanguageFallbacks['ryu'] = array( 'ja' );
 $wgTranslateLanguageFallbacks['saz'] = array( 'gu' );
 $wgTranslateLanguageFallbacks['sdc'] = array( 'it' );
 $wgTranslateLanguageFallbacks['se'] = array( 'fi', 'sv', 'nb', 'sma' );
+$wgTranslateLanguageFallbacks['ses'] = array( 'fr' );
 $wgTranslateLanguageFallbacks['shi'] = array( 'ar', 'fr' ); # Robin 2011-09-27
 $wgTranslateLanguageFallbacks['sli'] = array( 'pl', 'szl' );
 $wgTranslateLanguageFallbacks['sly'] = array( 'id' );
