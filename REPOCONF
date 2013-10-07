@@ -12,7 +12,6 @@ REPO_EOL=git://github.com/EOL/eol.git
 REPO_ETHERPADLITE=git://github.com/ether/etherpad-lite.git
 REPO_ETHERPADLITE_BRANCH="develop"
 REPO_FREECOL=git://git.code.sf.net/p/freecol/git
-REPO_FRONTLINESMS=git://github.com/frontlinesms/frontlinesms.git
 REPO_FUDFORUM=svn://svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
 REPO_FUEL=git://git.fedorahosted.org/fuel.git
 REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics

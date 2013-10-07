@@ -391,9 +391,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Mozilla/MozillaJava.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Mozilla/MozillaDtd.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Mozilla/Mozilla.yaml";
 
-# Not yet in use.
-wfAddNamespace( 1248, 'FrontlineSMS' );
-#$wgTranslateGroupFiles[] = "$GROUPS/FrontlineSMS/FrontlineSMS.yaml";
+# 1248 is not in use. Can be used for a product.
 
 wfAddNamespace( 1250, 'EtherpadLite' );
 $wgTranslateGroupFiles[] = "$GROUPS/EtherpadLite/EtherpadLite.yaml";

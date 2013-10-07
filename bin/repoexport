@@ -46,11 +46,6 @@ then
 	php "$EXPORTER" --target . --group=out-freecol --lang '*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-freecol --lang qqq
 
-elif [ "$PROJECT" = "frontlinesms" ]
-then
-	php "$EXPORTER" --target . --group=out-$PROJECT --lang '*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-$PROJECT --lang qqq
-
 elif [ "$PROJECT" = "fudforum" ]
 then
 	php "$EXPORTER" --target . --group=out-fudforum --lang '*' --skip en $THRESHOLD
