@@ -863,6 +863,8 @@ MSSQL Back Compat
 
 Multi Maps
 
+Multimedia Viewer
+
 MwEmbed Support
 descmsg = mwembed-desc
 file = MwEmbedSupport/MwEmbedSupport.i18n.php
