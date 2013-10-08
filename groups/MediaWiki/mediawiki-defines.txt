@@ -320,7 +320,8 @@ aliasfile = Contributors/Contributors.alias.php
 
 Copy To Clipboard
 
-Core Events
+# 2013-10-07: Renamed to Wikimedia Events
+# Core Events
 
 Create Page
 aliasfile = CreatePage/CreatePage.alias.php
@@ -1816,6 +1817,8 @@ ignored = wikilog-summary-header, wikilog-summary-header-single, wikilog-entry-s
 ignored = wikilog-comment-header, wikilog-newtalk-text, wikilog-summary
 optional = wikilog-entry-footer, wikilog-simple-signature, wikilog-comment-footer
 optional = wikilog-feed-title, wikilog-title-item-full, wikilog-backlink, wikilog-brackets
+
+Wikimedia Events
 
 Wikimedia Incubator
 descmsg = wminc-desc
