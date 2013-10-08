@@ -987,6 +987,8 @@ ignored = pageimages-blacklist
 
 Page In Cat
 
+Page Language
+
 Page Schemas
 aliasfile = PageSchemas/PageSchemas.i18n.alias.php
 descmsg = ps-desc
