@@ -675,6 +675,8 @@ ignored = headertabs-edittab-key
 
 Help Commons
 
+Help Pages
+
 Hide Prefix
 
 Host Stats
@@ -930,6 +932,8 @@ Number Format
 descmsg = numberformat_desc
 
 Numbertext
+
+Numer Alpha
 
 OAI-PMH repository
 id = ext-oai
