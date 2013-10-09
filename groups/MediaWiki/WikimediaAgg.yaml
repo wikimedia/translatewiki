@@ -102,6 +102,7 @@ GROUPS:
   - ext-wikibasedatamodel
   - ext-wikilove # r90124
   - ext-wikihiero
+  - ext-wikimediaevents # change-Id: If573f4be6f709433c270eeed0dbe94077f877b91
   - ext-wikimediaincubator # r89556
   - ext-wikimediaincubatorinfopage
   - ext-wikimediashoplink # 2012-06-27, change-Id 1a0c3707bd6603b27d80c997968b24231eea2b04
