@@ -143,6 +143,8 @@ optional = carp-function-msg, carp-template-msg, carp-template
 
 Category Sort Headers
 
+Category Tag Sorter
+
 Category Tests
 #Gives key conflicts with ParserFunctions. Needs to be fixed first.
 #magicfile = CategoryTests/CategoryTests.i18n.magic.php
