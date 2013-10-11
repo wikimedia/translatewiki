@@ -648,6 +648,8 @@ Google Custom Wiki Search
 descmsg = gcws-desc
 aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
 
+Google Doc Tag
+
 # Google Maps
 # Archived in June 2013
 
