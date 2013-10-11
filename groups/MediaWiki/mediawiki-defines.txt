@@ -991,6 +991,8 @@ Oracle Text Search
 Page Creation Notif
 descmsg = page-creation-notif-desc
 
+Page Disqus
+
 Page Images
 ignored = pageimages-blacklist
 
