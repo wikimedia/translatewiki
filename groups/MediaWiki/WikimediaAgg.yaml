@@ -42,7 +42,6 @@ GROUPS:
   - ext-echo # Change-Id: Ie22d3148476935b9fb7e294ba41aa53c69ed1c63
   - ext-educationprogram # 2012-06-14 change id: Id3ea0259072e3aa7a508e5c61f03a0f23ec5fc2e
   - ext-elastica # 2013-09-20 for CirrusSearch, change id: 7acdc7e8c346f00dcce1412f057ea38ad3d3e649
-  - ext-emailcapture # 2011-04-21
   - ext-eventlogging # Change-Id: 1fc99b92c1692515295e8c7bb7c757112531c330
   - ext-expandtemplates
   - ext-extensiondistributor # MediaWiki.org
