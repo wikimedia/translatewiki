@@ -1,4 +1,7 @@
 class nginx {
+  include apt
+  apt::ppa { 'ppa:nginx/stable': }
+
   package { 'nginx':
     ensure => present,
   }
