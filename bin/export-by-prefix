@@ -40,10 +40,5 @@ then
 	SKIPGROUPS="--skipgroup=ext-jquery-*"
 fi
 
-if [ "$PROJECT" = "wikia" ]
-then
-	HOURS=""
-fi
-
 # Ready for prime time.
 php "$EXPORTER" --target="$TARGET" --lang="*" $SKIPLANGS $HOURS --group="$GROUP*" $SKIPGROUPS

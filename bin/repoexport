@@ -166,7 +166,7 @@ then
 	php "$EXPORTER" --target . --group=out-waymarked-trails-help --lang '*' --skip en,qqq,no $THRESHOLD $HOURS
 	php "$EXPORTER" --target . --group=out-waymarked-trails-help --lang qqq $HOURS
 
-elif [ "$PROJECT" = "wikia" ] || [ "$PROJECT" = "wikia-quick" ]
+elif [ "$PROJECT" = "wikia" ]
 then
 	PREFIXES="wikia-a wikia-b wikia-c wikia-d wikia-e wikia-f wikia-g wikia-h \
 		wikia-i wikia-j wikia-k wikia-l wikia-m wikia-n wikia-o wikia-p wikia-q \

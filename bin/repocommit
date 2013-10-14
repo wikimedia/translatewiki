@@ -57,7 +57,6 @@ shapado \
 vicuna \
 waymarked-trails-site \
 wikia \
-wikia-quick \
 WikipediaMobile \
 WikipediaMobileJ2ME \
 wikireader \
@@ -68,11 +67,6 @@ WLMMobile"
 for i in $GITCOMMITNOCHECKPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
 	then
-		if [ "$PROJECT" = "wikia-quick" ]
-		then
-			PROJECT="wikia"
-		fi
-
 		gitcommitNoCheck "$PROJECT"
 
 		if [ "$PROJECT" = "pywikibot" ]

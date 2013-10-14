@@ -26,7 +26,7 @@ then
 fi
 
 # Export
-repoexport wikia-quick "$MYDIR"
+repoexport wikia "$MYDIR"
 # Commit
 repocommit wikia "$MYDIR"
 # Update production data again
