@@ -6,7 +6,7 @@ REPO_MEDIAWIKI_BRANCHES="master REL1_21 REL1_20 REL1_19"
 REPO_MWEXTGIT=https://gerrit.wikimedia.org/r/p/mediawiki/extensions
 
 REPO_COMMONSANDROID=https://gerrit.wikimedia.org/r/p/apps/android/commons.git
-REPO_COMMONSIOS=git://github.com/wikimedia/Commons-iOS.git
+REPO_COMMONSANDROID=https://gerrit.wikimedia.org/r/p/apps/ios/commons.git
 REPO_BLOCKLY=http://blockly.googlecode.com/svn/trunk/
 REPO_EOL=git://github.com/EOL/eol.git
 REPO_ETHERPADLITE=git://github.com/ether/etherpad-lite.git

@@ -42,7 +42,6 @@ mergeL10n-bot() {
 }
 
 GITCOMMITNOCHECKPROJECTS="\
-commons-ios \
 eol \
 etherpad-lite \
 freecol \
@@ -98,6 +97,13 @@ then
 	cd ..
 
 elif [ "$PROJECT" = "commons-android" ]
+then
+	cd $PROJECT
+	git add .
+	git commit -a -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
+	cd ..
+
+elif [ "$PROJECT" = "commons-ios" ]
 then
 	cd $PROJECT
 	git add .

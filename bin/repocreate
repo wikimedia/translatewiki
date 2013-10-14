@@ -34,7 +34,16 @@ then
 	if [ -z "$REPO_COMMONSIOS" ]
 	then echo "Add REPO_COMMONSIOS to REPOCONF"; exit 1
 	fi
+
 	git clone "$REPO_COMMONSIOS" $PROJECT
+	if [ "$REPO_RW" = "yes" ]
+	then
+		cd "$PROJECT"
+		git config user.name 'Translation updater bot'
+		git config user.email 'l10n-bot@translatewiki.net'
+		git config gitreview.username 'l10n-bot'
+		git review -s
+	fi
 
 elif [ "$PROJECT" = "blockly" ]
 then
