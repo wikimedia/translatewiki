@@ -152,9 +152,7 @@ Category Tests
 Category Tree
 aliasfile = CategoryTree/CategoryTree.alias.php
 magicfile = CategoryTree/CategoryTree.i18n.magic.php
-ignored = categorytree-collapse-bullet, categorytree-expand-bullet,
-ignored = categorytree-empty-bullet,categorytree-page-bullet
-ignored = categorytree-member-num
+ignored = categorytree-collapse-bullet, categorytree-page-bullet, categorytree-member-num
 optional = categorytree-expand-bullet, categorytree-empty-bullet
 
 Central Auth
