@@ -17,7 +17,7 @@ ${DIRSCRIPT}/createmi
 echo "Created message index"
 
 echo "Process message changes..."
-php $WIKI/extensions/Translate/scripts/processMessageChanges.php --quiet
+php $WIKI/extensions/Translate/scripts/processMessageChanges.php --quiet --skipgroup=ext-*
 echo "Processed message changes"
 
 echo "Go to https://translatewiki.net/wiki/Special:ManageMessageGroups for the last bits"
