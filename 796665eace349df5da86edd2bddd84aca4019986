@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0932edd2_2c7cd76e",
+        "filename": "puppet/modules/base/manifests/init.pp",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-15T08:13:31Z",
+      "side": 1,
+      "message": "This is probably not needed anymore",
+      "revId": "796665eace349df5da86edd2bddd84aca4019986",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_0c85535b",
+        "filename": "puppet/modules/mariadb/manifests/init.pp",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-15T08:13:31Z",
+      "side": 1,
+      "message": "It should be possible to replace most of this with\n\napt::ppa or apt::repository after rebasing",
+      "revId": "796665eace349df5da86edd2bddd84aca4019986",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_ccb25b48",
+        "filename": "puppet/modules/php/manifests/init.pp",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-15T08:13:31Z",
+      "side": 1,
+      "message": "Not needed after rebase",
+      "revId": "796665eace349df5da86edd2bddd84aca4019986",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_6cadefea",
+        "filename": "puppet/modules/users/manifests/init.pp",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-15T08:13:31Z",
+      "side": 1,
+      "message": "What do you mean switched?",
+      "revId": "796665eace349df5da86edd2bddd84aca4019986",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0932edd2_acb7e737",
+        "filename": "puppet/modules/users/manifests/init.pp",
+        "patchSetId": 4
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-15T08:13:31Z",
+      "side": 1,
+      "message": "Why not remove it now?",
+      "revId": "796665eace349df5da86edd2bddd84aca4019986",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
