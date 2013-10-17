@@ -10,9 +10,28 @@ TEMPLATE:
 
 ---
 BASIC:
-  id: out-blockly
+  id: out-blockly-0-all
   label: Blockly
+  meta: yes
+  class: AggregateMessageGroup
+
+GROUPS:
+  - out-blockly-*
+
+---
+BASIC:
+  id: out-blockly-apps
+  label: Blockly Apps
 
 FILES:
   sourcePattern: %GROUPROOT%/blockly/apps/json/%CODE%.json
   targetPattern: blockly/apps/json/%CODE%.json
+
+---
+BASIC:
+  id: out-blockly-core
+  label: Blockly Core
+
+FILES:
+  sourcePattern: %GROUPROOT%/blockly/msg/json/%CODE%.json
+  targetPattern: blockly/apps/msg/%CODE%.json
