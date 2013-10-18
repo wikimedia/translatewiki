@@ -270,6 +270,8 @@ file = SpecialUnsubscribe/Unsubscribe.i18n.php
 User Login
 ignored=userlogin-password-email-body-HTML, userlogin-email-footer-line3
 
+User Preferences V2
+
 # Siebrand / 2013-02-10 / Disabled as announced.
 #User Profile Page V3
 #file = UserProfilePageV3/UserProfilePage.i18n.php
