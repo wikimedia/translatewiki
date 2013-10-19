@@ -98,10 +98,11 @@ then
 				bzr checkout lp:${MODULE} ${MODULE}
 			else
 				bzr branch ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/ ${MODULE}
-				cd ${MODULE}
-				bzr pull --remember `bzr info |grep "checkout of branch" |cut -d" " -f 6`
-				cd ..
 			fi
+
+			cd ${MODULE}
+			bzr pull --remember `bzr info |grep "checkout of branch" |cut -d" " -f 6`
+			cd ..
 		done
 
 elif [ "$PROJECT" = "intuition" ]
