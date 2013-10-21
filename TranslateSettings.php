@@ -110,8 +110,11 @@ function setupMediaWiki( &$cc ) {
 
 	$changed = array(
 		'1.21' => array(
-			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated',
-		), // Checked up to bda51d3c6e7235d810f7a9d8f47f330ae91a3260 / 2013-04-29
+			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated', 'edithelppage',
+			'createacct-imgcaptcha-help', 'createacct-benefit-body1', 'createacct-benefit-body2', 'createacct-benefit-body3',
+			'login-throttled', 'right-editprotected', 'uploadnologintext', 'contribsub2',
+			'autocomment-prefix',
+		), // Checked up to b67c7bc0d275bfb9ff6efa6af98a1d5dfca50a72 / 2013-10-21
 		'1.20' => array(
 			'cannotundelete', 'logouttext', 'enotif_body', 'createaccountmail',
 			'username', 'uid', 'prefs-memberingroups', 'linksearch-text',
@@ -123,8 +126,11 @@ function setupMediaWiki( &$cc ) {
 			'logentry-suppress-delete', 'logentry-suppress-event', 'logentry-suppress-event-legacy', 'logentry-suppress-revision',
 			'logentry-suppress-revision-legacy',
 			// From 1.21
-			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated',
-		), // Checked up to bda51d3c6e7235d810f7a9d8f47f330ae91a3260 / 2013-04-29
+			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated', 'edithelppage',
+			'createacct-imgcaptcha-help', 'createacct-benefit-body1', 'createacct-benefit-body2', 'createacct-benefit-body3',
+			'login-throttled', 'right-editprotected', 'uploadnologintext', 'contribsub2',
+			'autocomment-prefix',
+		), // Checked up to b67c7bc0d275bfb9ff6efa6af98a1d5dfca50a72 / 2013-10-21
 		'1.19' => array(
 			'version-poweredby-others',
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
@@ -139,8 +145,11 @@ function setupMediaWiki( &$cc ) {
 			'logentry-suppress-delete', 'logentry-suppress-event', 'logentry-suppress-event-legacy', 'logentry-suppress-revision',
 			'logentry-suppress-revision-legacy',
 			// From 1.21
-			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated',
-		), // Checked up to bda51d3c6e7235d810f7a9d8f47f330ae91a3260 / 2013-04-29
+			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated', 'edithelppage',
+			'createacct-imgcaptcha-help', 'createacct-benefit-body1', 'createacct-benefit-body2', 'createacct-benefit-body3',
+			'login-throttled', 'right-editprotected', 'uploadnologintext', 'contribsub2',
+			'autocomment-prefix',
+		), // Checked up to b67c7bc0d275bfb9ff6efa6af98a1d5dfca50a72 / 2013-10-21
 	);
 
 	$branches = array_keys( $changed );
