@@ -1343,6 +1343,8 @@ optional = smw_property_template_notype
 Semantic Page Series
 aliasfile = SemanticPageSeries/SemanticPageSeries.alias.php
 
+Semantic Rating
+
 # Disabled per https://gerrit.wikimedia.org/r/#/c/41939/
 #Semantic Result Formats
 #magicfile = SemanticResultFormats/SemanticResultFormats.i18n.magic.php
