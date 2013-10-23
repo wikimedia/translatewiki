@@ -502,6 +502,9 @@ External Articles
 External Data
 magicfile = ExternalData/ExternalData.i18n.magic.php
 
+Ext Tab
+file = ExtTab/languages/ExtTab.i18n.php
+
 # Facebook Open Graph : Moved to GitHub
 
 Featured Feeds
