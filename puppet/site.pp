@@ -4,6 +4,7 @@ File {
 }
 
 node default {
+  include users
   include base
   include nginx
   include php
