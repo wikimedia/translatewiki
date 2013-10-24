@@ -20,6 +20,10 @@ class base {
     'git-core',
     'mercurial',
     'subversion',
+
+    # Development extras
+    'git-review',
+
     ]: ensure => present,
   }
 }
