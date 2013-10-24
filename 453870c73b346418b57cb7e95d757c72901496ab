@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "291c1151_0d2ade7f",
+        "filename": "puppet/modules/mariadb/manifests/init.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-10-24T23:03:55Z",
+      "side": 1,
+      "message": "Doesn\u0027t appear to work.",
+      "revId": "453870c73b346418b57cb7e95d757c72901496ab",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
