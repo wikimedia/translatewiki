@@ -8,6 +8,7 @@ node default {
   include nginx
   include php
   include puppet
+  include sudo
   include memcached
 
   package { 'elasticsearch':
