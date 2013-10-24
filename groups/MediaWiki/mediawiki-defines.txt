@@ -1404,7 +1404,8 @@ Sign Writing MediaWiki Plugin
 file = SignWritingMediaWikiPlugin/swmp.i18n.php
 descmsg = swmp-desc
 
-Simple Anti Spam
+# Moved into core 2013-10-24 https://gerrit.wikimedia.org/r/#/c/90291/
+# Simple Anti Spam
 
 Simple Farm
 
