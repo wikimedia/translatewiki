@@ -10,6 +10,7 @@ class mariadb {
   class { '::mysql::server':
     package_name => 'mariadb-server',
     require => Apt::Source['mariadb'],
+    restart => false,
     override_options => {
       mysqld => {
         character-set-server            => 'utf8',
