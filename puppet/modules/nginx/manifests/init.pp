@@ -45,15 +45,6 @@ class nginx {
     target => '../sites-available/stats.translatewiki.net',
   }
 
-  file { '/etc/nginx/sites-available/lists.translatewiki.net':
-    source  => 'puppet:///modules/nginx/sites/lists.translatewiki.net',
-  }
-
-  file { '/etc/nginx/sites-enabled/lists.translatewiki.net':
-    ensure => 'link',
-    target => '../sites-available/lists.translatewiki.net',
-  }
-
   file { '/etc/nginx/sites-enabled/default':
     ensure => 'absent',
   }
