@@ -1,0 +1,11 @@
+# Managed by puppet.
+/home/betawiki/twn-db-backup.sql {
+ rotate 1
+ daily
+ compress
+ compresscmd /bin/bzip2
+ compressext .bz2
+ dateext
+ notifempty
+ nocreate
+}
