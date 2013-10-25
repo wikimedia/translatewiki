@@ -872,6 +872,7 @@ MSSQL Back Compat
 Multi Maps
 
 Multimedia Viewer
+optional = multimediaviewer-credit
 
 MwEmbed Support
 descmsg = mwembed-desc
