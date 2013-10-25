@@ -13,6 +13,7 @@ node default {
   include memcached
   include mariadb
   include exim-conf
+  include logrotate
 
   package { 'elasticsearch':
     provider => dpkg,
