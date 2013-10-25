@@ -1,0 +1,29 @@
+# /etc/aliases
+
+mailer-daemon: postmaster
+postmaster: root
+nobody: root
+hostmaster: root
+usenet: root
+news: root
+webmaster: root
+www: root
+www-data: root
+ftp: root
+abuse: root
+noc: root
+security: root
+l10n-bot: root
+
+root: smazeland@wikimedia.org, niklas.laxstrom@gmail.com
+
+amir: amir.aharoni@mail.huji.ac.il
+lcawte: lewis@lewiscawte.info
+mah: mah@everybody.org
+nike: niklas.laxstrom@gmail.com
+raymond: raimond.spekking@gmail.com
+siebrand: s.mazeland@xs4all.nl
+translatewiki: translatewiki@xs4all.nl
+federico: federicoleva@tiscali.it
+
+blockly: smazeland@wikimedia.org
