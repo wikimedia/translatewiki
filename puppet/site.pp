@@ -12,6 +12,7 @@ node default {
   include sudo
   include memcached
   include mariadb
+  include exim-conf
 
   package { 'elasticsearch':
     provider => dpkg,
