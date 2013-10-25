@@ -27,6 +27,9 @@ class base {
 
     # Development extras
     'git-review',
+
+    # Other
+    'mysqltuner',
     ]: ensure => present,
   }
 }
