@@ -13,3 +13,6 @@
 [submodule "puppet/modules/puppi"]
 	path = puppet/modules/puppi
 	url = https://github.com/example42/puppi.git
+[submodule "puppet/modules/exim"]
+	path = puppet/modules/exim
+	url = https://github.com/example42/puppet-exim.git
