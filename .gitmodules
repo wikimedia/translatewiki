@@ -10,3 +10,6 @@
 [submodule "puppet/modules/mysql"]
 	path = puppet/modules/mysql
 	url = https://github.com/puppetlabs/puppetlabs-mysql.git
+[submodule "puppet/modules/puppi"]
+	path = puppet/modules/puppi
+	url = https://github.com/example42/puppi.git
