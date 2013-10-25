@@ -147,6 +147,7 @@ then
 	cd $PROJECT/extensions
 	for i in `ls |grep -v Installer`
 	do
+		echo "--> $i"
 		cd $i
 		git add .
 		git commit -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
