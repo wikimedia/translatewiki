@@ -1,3 +1,4 @@
+# file managed by puppet
 nike            ALL = NOPASSWD: ALL
 siebrand        ALL = NOPASSWD: ALL
 mah             ALL = NOPASSWD: ALL
