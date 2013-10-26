@@ -1,4 +1,4 @@
-# Managed by puppet.
+# file managed by puppet
 /home/betawiki/twn-db-backup.sql {
  rotate 1
  daily

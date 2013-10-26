@@ -1,6 +1,6 @@
 class exim-conf {
   file { '/etc/mailname':
-    source  => 'puppet:///modules/exim-conf/mailname'
+    content  => 'translatewiki.net'
   }
 
   class { 'exim':

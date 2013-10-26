@@ -1,4 +1,4 @@
-# Managed by puppet.
+# file managed by puppet
 /www/translatewiki.net/w/logs/error_php /www/translatewiki.net/w/logs/error_js /www/translatewiki.net/w/logs/jobqueue {
   copytruncate
   rotate 4

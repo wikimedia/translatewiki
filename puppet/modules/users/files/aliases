@@ -1,4 +1,4 @@
-# /etc/aliases
+# file managed by puppet
 
 mailer-daemon: postmaster
 postmaster: root
