@@ -5,7 +5,7 @@ class users {
   }
 
   # Rebuild the database, but only when the file changes
-  exec { newaliases:
+  exec { 'newaliases':
     path        => ["/usr/bin", "/usr/sbin"],
     subscribe   => File["/etc/aliases"],
     refreshonly => true
