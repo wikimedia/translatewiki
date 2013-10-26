@@ -1,0 +1,3 @@
+# file managed by puppet
+* * * * * <%= @user %> nice php /www/translatewiki.net/w/maintenance/runJobs.php --exclusive --maxtime=50 --procs=1 --memory-limit=250M >> /www/translatewiki.net/w/logs/jobqueue 2> /dev/null
+*/5 * * * * <%= @user %> nice php /www/sandbox.translatewiki.net/w/maintenance/runJobs.php --exclusive --maxtime=50 --procs=1 --memory-limit=250M >> /www/sandbox.translatewiki.net/w/logs/jobqueue 2> /dev/null
