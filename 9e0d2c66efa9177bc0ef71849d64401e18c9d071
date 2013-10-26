@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "291c1151_9bd35fd4",
+        "filename": "puppet/modules/users/manifests/init.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-26T10:22:21Z",
+      "side": 1,
+      "message": "The puppet style [1] guide recommends (should) quoting resource titles.\n\nexec { \u0027newaliases\u0027:\n\n[1] http://docs.puppetlabs.com/guides/style_guide.html",
+      "revId": "9e0d2c66efa9177bc0ef71849d64401e18c9d071",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
