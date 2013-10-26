@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "291c1151_fb78d3f1",
+        "filename": "puppet/modules/exim-conf/files/mailname",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-26T09:48:08Z",
+      "side": 1,
+      "message": "According to man page this while doesn\u0027t support comments :(\n\nSince this file is so short, we could instead use the content \u003d\u003e \"translatewiki.net\" in the manifest.",
+      "revId": "61908dd1edd5ce6f6cbb67ab86cd6a707ed6a6b6",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
