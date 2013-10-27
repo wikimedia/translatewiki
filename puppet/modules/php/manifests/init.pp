@@ -11,6 +11,7 @@ class php {
     'php5-gd',
     'php5-intl',
     'php5-mysql',
+    'php-apc',
     'php-pear',
     ]:
     ensure => present,
