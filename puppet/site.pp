@@ -4,6 +4,7 @@ File {
 }
 
 node default {
+  include awstats
   include base
   include exim-conf
   include logrotate

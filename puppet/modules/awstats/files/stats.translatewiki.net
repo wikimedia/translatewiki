@@ -1,0 +1,28 @@
+# file managed by puppet
+
+server {
+	listen 443 ssl;
+	ssl_certificate     /etc/ssl/private/translatewiki.net.pem;
+	ssl_certificate_key /etc/ssl/private/translatewiki.net.key;
+
+	server_name stats.translatewiki.net;
+	root /www/stats.translatewiki.net;
+
+	location / {
+		auth_basic            "Restricted";
+		auth_basic_user_file  /etc/webauth;
+		rewrite ^ /awstats.pl;
+	}
+
+	location = /awstats.pl {
+		gzip off;
+		root /usr/lib/cgi-bin;
+		include /etc/nginx/fastcgi_params;
+		fastcgi_param SCRIPT_FILENAME /usr/lib/cgi-bin/awstats.pl;
+		fastcgi_pass unix:/var/run/fcgiwrap.socket;
+	}
+
+	location ~ ^/awstats-icon/(.*)$ {
+		alias /usr/share/awstats/icon/$1;
+	}
+}
