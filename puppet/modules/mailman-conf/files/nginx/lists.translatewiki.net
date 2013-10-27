@@ -1,0 +1,26 @@
+# file managed by puppet
+
+# Per http://wiki.nginx.org/Mailman and
+# http://people.adams.edu/~cdmiller/posts/Ubuntu-Mailman-Nginx-Fcgipass/
+
+server {
+	listen 443 ssl;
+	server_name lists.translatewiki.net;
+
+	ssl_certificate     /etc/ssl/private/translatewiki.net.pem;
+	ssl_certificate_key /etc/ssl/private/translatewiki.net.key;
+
+		root /usr/lib/cgi-bin;
+
+		location = / {
+			rewrite ^ /mailman/listinfo permanent;
+		}
+
+		location = /mailman {
+			fastcgi_split_path_info (^/mailman/[^/]*)(.*)$;
+			fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+			fastcgi_param PATH_INFO $fastcgi_path_info;
+			include /etc/nginx/fastcgi_params;
+			fastcgi_pass  unix:/var/run/fcgiwrap.socket;
+		}
+}

@@ -1,0 +1,21 @@
+# file managed by puppet
+# Mailman macro definitions
+
+# Home dir for the Mailman installation
+MM_HOME=/var/lib/mailman
+
+# User and group for Mailman
+MM_UID=list
+MM_GID=list
+
+#
+# Domains that your lists are in - colon separated list
+# you may wish to add these into local_domains as well
+domainlist mm_domains=lists.translatewiki.net
+
+# The path of the Mailman mail wrapper script
+MM_WRAP=MM_HOME/mail/mailman
+#
+# The path of the list config file (used as a required file when
+# verifying list addresses)
+MM_LISTCHK=MM_HOME/lists/${lc::$local_part}/config.pck

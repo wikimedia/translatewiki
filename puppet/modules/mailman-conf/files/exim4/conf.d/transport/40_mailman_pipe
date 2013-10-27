@@ -1,0 +1,13 @@
+# file managed by puppet
+mailman_transport:
+  driver = pipe
+  command = MM_WRAP \
+    '${if def:local_part_suffix \
+    {${sg{$local_part_suffix}{-(\\w+)(\\+.*)?}{\$1}}} \
+    {post}}' \
+    $local_part
+  current_directory = MM_HOME
+  home_directory = MM_HOME
+  user = MM_UID
+  group = MM_GID
+

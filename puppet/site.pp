@@ -14,6 +14,7 @@ node default {
   include mariadb
   include exim-conf
   include logrotate
+  include mailman-conf
 
   class { 'backup':
     databases => ['mediawiki'],
