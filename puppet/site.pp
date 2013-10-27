@@ -1,6 +1,6 @@
 File {
-  owner   => 'root',
-  group   => 'root',
+  owner => 'root',
+  group => 'root',
 }
 
 node default {
@@ -14,6 +14,10 @@ node default {
   include mariadb
   include exim-conf
   include logrotate
+
+  class { 'backup':
+    databases => ['mediawiki'],
+  }
 
   class { 'wiki':
     config => '/home/betawiki/config',

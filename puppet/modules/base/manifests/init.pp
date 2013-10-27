@@ -4,7 +4,6 @@ class base {
     'ack-grep',
     'bash-completion',
     'doxygen',
-    'duplicity',
     'fontconfig',
     'htop',
     'iotop', # IO view

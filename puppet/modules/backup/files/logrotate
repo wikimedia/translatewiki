@@ -1,5 +1,5 @@
 # file managed by puppet
-/home/betawiki/twn-db-backup.sql {
+/root/db-backup-*.sql {
  rotate 1
  daily
  compress

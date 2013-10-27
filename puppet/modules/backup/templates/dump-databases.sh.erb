@@ -1,0 +1,7 @@
+#!/bin/sh
+
+<% @databases.each do |db| -%>
+nice mysqldump --opt --single-transaction \
+	--user=root --password="" <%= db %> \
+	> /root/db-backup-<%= db %>.sql
+<% end -%>
