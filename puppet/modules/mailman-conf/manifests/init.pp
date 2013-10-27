@@ -42,9 +42,7 @@ class mailman-conf {
     'POSTFIX_STYLE_VIRTUAL_DOMAINS' => "'False'",
     'DEFAULT_SUBJECT_PREFIX' => "''",
     'DEFAULT_REPLY_GOES_TO_LIST' => '1',
-    'MAILMAN_UID' => "pwd.getpwnam('list')[2]",
-    'MAILMAN_GID' => "grp.getgrnam('list')[2]",
-    'SMTPHOST' => 'translatewiki.net',
+    'SMTPHOST' => "'translatewiki.net'",
     },
   }
 }
