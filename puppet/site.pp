@@ -4,17 +4,17 @@ File {
 }
 
 node default {
-  include users
   include base
+  include exim-conf
+  include logrotate
+  include mailman-conf
+  include mariadb
+  include memcached
   include nginx
   include php
   include puppet
   include sudo
-  include memcached
-  include mariadb
-  include exim-conf
-  include logrotate
-  include mailman-conf
+  include users
 
   class { 'backup':
     databases => ['mediawiki'],
