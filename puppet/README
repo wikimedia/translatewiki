@@ -1,0 +1,13 @@
+== Manual steps ==
+
+Create /etc/webauth
+
+------------------
+
+Install syck_load
+
+Follow instructions at https://github.com/example42/puppet-php
+Create /etc/php5/conf.d/20-syck.ini:
+  extension=syck.so
+
+And restart php5-fpm
