@@ -19,3 +19,6 @@
 [submodule "puppet/modules/mailman"]
 	path = puppet/modules/mailman
 	url = https://github.com/cjsoftuk/puppet-mailman.git
+[submodule "puppet/modules/ssh"]
+	path = puppet/modules/ssh
+	url = https://github.com/attachmentgenie/puppet-module-ssh.git

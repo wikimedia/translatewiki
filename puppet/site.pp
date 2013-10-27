@@ -14,6 +14,7 @@ node default {
   include nginx
   include php
   include puppet
+  include ssh-conf
   include sudo
   include users
 
