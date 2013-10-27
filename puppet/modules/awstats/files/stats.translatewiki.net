@@ -8,9 +8,10 @@ server {
 	server_name stats.translatewiki.net;
 	root /www/stats.translatewiki.net;
 
+	auth_basic            "Restricted";
+	auth_basic_user_file  /etc/webauth;
+
 	location / {
-		auth_basic            "Restricted";
-		auth_basic_user_file  /etc/webauth;
 		rewrite ^ /awstats.pl;
 	}
 
@@ -22,7 +23,7 @@ server {
 		fastcgi_pass unix:/var/run/fcgiwrap.socket;
 	}
 
-	location ~ ^/awstats-icon/(.*)$ {
+	location ~ ^/awstatsicons/(.*)$ {
 		alias /usr/share/awstats/icon/$1;
 	}
 }
