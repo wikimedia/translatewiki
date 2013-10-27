@@ -18,4 +18,4 @@
 	url = https://github.com/example42/puppet-exim.git
 [submodule "puppet/modules/mailman"]
 	path = puppet/modules/mailman
-	url = https://github.com/thias/puppet-mailman.git
+	url = https://github.com/cjsoftuk/puppet-mailman.git
