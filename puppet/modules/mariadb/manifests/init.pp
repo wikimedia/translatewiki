@@ -7,6 +7,12 @@ class mariadb {
     key_server      => 'keyserver.ubuntu.com',
   }
 
+  # Per https://mariadb.com/kb/en/installing-mariadb-deb-files/
+  apt::pin { 'mariadb':
+    priority => 1000,
+    origin   => 'mirror3.layerjet.com'
+  }
+
   class { '::mysql::server':
     package_name => 'mariadb-server',
     require => Apt::Source['mariadb'],
