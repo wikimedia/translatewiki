@@ -15,6 +15,11 @@ node default {
   include exim-conf
   include logrotate
 
+  class { 'wiki':
+    config => '/home/betawiki/config',
+    user   => 'betawiki',
+  }
+
   package { 'elasticsearch':
     provider => dpkg,
     ensure => latest,
