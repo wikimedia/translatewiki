@@ -16,6 +16,7 @@ node default {
   include puppet
   include ssh-conf
   include sudo
+  include translationmemory
   include users
 
   class { 'backup':
