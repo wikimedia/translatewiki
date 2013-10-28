@@ -9,6 +9,7 @@ class mailman-conf {
     shell      => '/bin/sh',
     password   => '',
     home       => '/var/list',
+    managehome => true,
     comment    => 'Mailing List Manager'
   }
 
@@ -58,6 +59,6 @@ class mailman-conf {
     'DEFAULT_SUBJECT_PREFIX' => "''",
     'DEFAULT_REPLY_GOES_TO_LIST' => '1',
     'SMTPHOST' => "'translatewiki.net'",
-    },
+    }
   }
 }
