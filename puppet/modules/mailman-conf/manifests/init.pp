@@ -26,10 +26,25 @@ class mailman-conf {
   file { '/etc/nginx/sites-enabled/lists.translatewiki.net':
     ensure => 'link',
     target => '../sites-available/lists.translatewiki.net',
-    notify  => Service['nginx'],
+    notify => Service['nginx'],
   }
 
-  # Actual installation using submodule
+  file { '/etc/exim4/conf.d/main/04_mailman_options':
+    source => 'puppet:///modules/mailman-conf/exim4/conf.d/main/04_mailman_options',
+    notify => Service['exim4'],
+  }
+
+  file { '/etc/exim4/conf.d/router/450_mailman_aliases':
+    source => 'puppet:///modules/mailman-conf/exim4/conf.d/router/450_mailman_aliases',
+    notify => Service['exim4'],
+  }
+
+  file { '/etc/exim4/conf.d/transport/40_mailman_pipe':
+    source => 'puppet:///modules/mailman-conf/exim4/conf.d/transport/40_mailman_pipe',
+    notify => Service['exim4'],
+  }
+
+# Actual installation using submodule
   class { 'mailman':
     default_url_host    => 'lists.translatewiki.net',
     default_email_host  => 'lists.translatewiki.net',
