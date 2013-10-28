@@ -15,21 +15,21 @@ echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
 COMMITMSG="Localisation updates from http://translatewiki.net."
 
-gitcommit() {
-	local dir=$1
-	cd "$dir"
-	git add .
-	git commit -v -e -m "$COMMITMSG"
-	git push
-	cd ..
-}
-
-gitcommitNoCheck() {
+gitCommit() {
 	local dir=$1
 	cd "$dir"
 	git add .
 	git commit -m "$COMMITMSG"
 	git push
+	cd ..
+}
+
+gitCommitGerrit() {
+	local dir=$1
+	cd $PROJECT
+	git add .
+	git commit -q -m "$COMMITMSG" && git fetch -q gerrit && git review -t l10n || :
+	mergeL10n-bot
 	cd ..
 }
 
@@ -41,7 +41,8 @@ mergeL10n-bot() {
 	done
 }
 
-GITCOMMITNOCHECKPROJECTS="\
+# TODO: Move to separate file?
+GITPROJECTS="\
 eol \
 etherpad-lite \
 freecol \
@@ -52,6 +53,7 @@ kiwix \
 mantis \
 mathjax \
 mifos \
+osm \
 pywikibot \
 shapado \
 vicuna \
@@ -64,21 +66,34 @@ WikisourceMobile \
 WiktionaryMobile \
 WLMMobile"
 
-for i in $GITCOMMITNOCHECKPROJECTS; do
+for i in $GITPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
 	then
-		gitcommitNoCheck "$PROJECT"
+		gitCommit "$PROJECT"
 
-		if [ "$PROJECT" = "pywikibot" ]
+		if [ "$PROJECT" = "osm" ]
 		then
-			mergeL10n-bot
+			gitCommit potlatch2
 		fi
 
 		exit 0
 	fi
 done
 
-# This needs more work.
+# TODO: Move to separate file?
+GERRITPROJECTS="\
+commons-android \
+commons-ios \
+pywikibot"
+
+for i in $GERRITPROJECTS; do
+	if [ "$i" = "$PROJECT" ]
+	then
+		gitCommitGerrit "$PROJECT"
+		exit 0
+	fi
+done
+
 if [ "$PROJECT" = "blockly" ]
 then
 	cd $PROJECT
@@ -88,20 +103,6 @@ then
 		svn propset -q svn:mime-type text/plain $i
 	done
 	svn commit --message "$COMMITMSG"
-	cd ..
-
-elif [ "$PROJECT" = "commons-android" ]
-then
-	cd $PROJECT
-	git add .
-	git commit -a -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
-	cd ..
-
-elif [ "$PROJECT" = "commons-ios" ]
-then
-	cd $PROJECT
-	git add .
-	git commit -a -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
 	cd ..
 
 elif [ "$PROJECT" = "fudforum" ]
@@ -160,7 +161,7 @@ then
 
 elif [ "$PROJECT" = "mwlib" ]
 then
-	gitcommitNoCheck "$PROJECT.rl"
+	gitCommit "$PROJECT.rl"
 
 elif [ "$PROJECT" = "okawix" ]
 then
@@ -182,11 +183,6 @@ then
 	svn propset -q svn:eol-style native *.properties
 	svn commit --message "$COMMITMSG"
 	cd ..
-
-elif [ "$PROJECT" = "osm" ]
-then
-	gitcommitNoCheck $PROJECT
-	gitcommitNoCheck potlatch2
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
