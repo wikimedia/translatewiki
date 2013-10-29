@@ -31,4 +31,8 @@ class base {
     'mysqltuner',
     ]: ensure => present,
   }
+
+  file { '/etc/environment':
+    content => 'PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/betawiki/config/bin"',
+  }
 }
