@@ -29,6 +29,11 @@ class base {
 
     # Other
     'mysqltuner',
+
+    # Dependencies for compiling wikidiff2
+    'g++',
+    'pkg-config',
+    'libthai-dev',
     ]: ensure => present,
   }
 
