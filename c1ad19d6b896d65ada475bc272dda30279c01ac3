@@ -16,6 +16,24 @@
       "revId": "c1ad19d6b896d65ada475bc272dda30279c01ac3",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "291c1151_d8dea669",
+        "filename": "puppet/modules/nginx/files/translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-10-30T19:46:17Z",
+      "side": 1,
+      "message": "It does work, but means that it binds to all IPv6, and here I\u0027m trying to bind it to a single IPv6.",
+      "parentUuid": "291c1151_a596273b",
+      "revId": "c1ad19d6b896d65ada475bc272dda30279c01ac3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
