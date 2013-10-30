@@ -26,6 +26,8 @@ class base {
 
     # Development extras
     'git-review',
+    'optipng',
+    'jpegoptim',
 
     # Other
     'mysqltuner',
