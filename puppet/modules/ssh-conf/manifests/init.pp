@@ -4,6 +4,6 @@ class ssh-conf {
   # @todo Remove root login after migrating
   class { "ssh::server":
     port => 22,
-    permit_root_login => 'yes'
+    permit_root_login => 'no'
   }
 }
