@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "291c1151_a596273b",
+        "filename": "puppet/modules/nginx/files/translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-30T19:39:10Z",
+      "side": 1,
+      "message": "Hmm [::] doesn\u0027t work? I\u0027d little bit icky to hardcode the ip here.",
+      "revId": "c1ad19d6b896d65ada475bc272dda30279c01ac3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
