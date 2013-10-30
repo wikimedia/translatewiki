@@ -34,6 +34,24 @@
       "revId": "c1ad19d6b896d65ada475bc272dda30279c01ac3",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "291c1151_b862ca3c",
+        "filename": "puppet/modules/nginx/files/translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-10-30T20:03:58Z",
+      "side": 1,
+      "message": "Difference should be minimal. We only serve stuff if we get a known host in server_name, and only one ipv6 ip has that reverse, unless I\u0027m mistaken.",
+      "parentUuid": "291c1151_d8dea669",
+      "revId": "c1ad19d6b896d65ada475bc272dda30279c01ac3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
