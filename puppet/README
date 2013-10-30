@@ -26,3 +26,20 @@ Create /etc/php5/conf.d/20-wikidiff2.ini:
   extension=wikidiff2.so
 
 And restart php5-fpm if needed.
+
+------------------
+
+Add to /etc/network/interfaces:
+---
+iface eth0 inet6 static
+ address 2a03:4000:6:55::1
+ netmask 64
+
+ up ip -6 ro add 2a03:4000:6:55::2 dev eth0
+ up ip -6 ro add default via 2a03:4000:6:55::1 dev eth0
+ up ip -6 addr add 2a03:4000:6:55::2/64 dev eth0
+---
+Restart enable the IPv6 addresses:
+/etc/init.d/networking restart
+
+------------------
