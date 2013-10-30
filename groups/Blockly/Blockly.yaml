@@ -7,6 +7,12 @@ TEMPLATE:
 
   FILES:
     class: JsonFFS
+    codeMap:
+      pt-br: pt_br
+      sr-ec: sr
+      sr-el: sr_latn
+      zh-hans: zh_cn
+      zh-hant: zh_tw
 
 ---
 BASIC:
