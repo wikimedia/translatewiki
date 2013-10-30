@@ -28,7 +28,7 @@ class nginx {
   }
 
   file { '/etc/nginx/sites-available/translatewiki.net':
-    source  => 'puppet:///modules/nginx/sites/translatewiki.net',
+    source  => 'puppet:///modules/nginx/translatewiki.net',
   }
 
   file { '/etc/nginx/sites-enabled/translatewiki.net':

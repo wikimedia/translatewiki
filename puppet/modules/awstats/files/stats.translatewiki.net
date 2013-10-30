@@ -1,7 +1,8 @@
 # file managed by puppet
 
 server {
-	listen 443 ssl;
+	listen *:443 ssl;
+	listen [2a03:4000:6:55::1]:443 ssl;
 	ssl_certificate     /etc/ssl/private/translatewiki.net.pem;
 	ssl_certificate_key /etc/ssl/private/translatewiki.net.key;
 
