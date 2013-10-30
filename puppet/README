@@ -11,3 +11,18 @@ Create /etc/php5/conf.d/20-syck.ini:
   extension=syck.so
 
 And restart php5-fpm
+
+------------------
+
+Install wikidiff
+
+cd /www/translatewiki.net/w/extensions/wikidiff2
+b phpize
+b ./configure
+b make
+sudo make install
+
+Create /etc/php5/conf.d/20-wikidiff2.ini:
+  extension=wikidiff2.so
+
+And restart php5-fpm if needed.
