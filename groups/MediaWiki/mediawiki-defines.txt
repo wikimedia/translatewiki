@@ -603,8 +603,9 @@ Fundraiser Landing Page
 ignored = fundraiserlandingpage-wmch-landing-page, fundraiserlandingpage-wmde-landing-page
 ignored = fundraiserlandingpage-wmfr-landing-page, fundraiserlandingpage-wmuk-landing-page
 
-Fundraising Email Unsubscribe
-file = FundraisingEmailUnsubscribe/FundraiserUnsubscribe.i18n.php
+# Git repo somehow broken: fatal: Not a git repository (or any of the parent directories): .git
+# Fundraising Email Unsubscribe
+# file = FundraisingEmailUnsubscribe/FundraiserUnsubscribe.i18n.php
 
 Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
