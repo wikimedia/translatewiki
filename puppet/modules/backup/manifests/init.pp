@@ -14,7 +14,7 @@ class backup ($databases) {
 
   file { "/etc/cron.d/backup":
     # Enable when new server is primary
-    ensure  => absent,
+    ensure  => present,
     content => template("backup/backup.erb"),
   }
 
