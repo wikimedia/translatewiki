@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "291c1151_1a72e9ad",
+        "filename": "groups/Intuition/intuition-textdomains.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-11-01T15:01:51Z",
+      "side": 1,
+      "message": "WLM is over. Should that be disabled again?",
+      "revId": "c6bb14968375653201c603b0915d3f7bd5169de3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
