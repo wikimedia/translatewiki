@@ -14,6 +14,7 @@ GROUPS:
   - ext-antibot # anti spam and such (usually all wikis)
   - ext-apisandbox # r104698, enabled on all wikis
   - ext-articlefeedbackv5
+  - ext-betafeatures # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
   - ext-calendar # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-charinsert
   - ext-checkuser
@@ -23,6 +24,7 @@ GROUPS:
   - ext-codeeditor # Change-Id: e4e8857a55b0a89707525ecdd9dff54a4cc02f6d
   - ext-codereview # MediaWiki.org
   - ext-collection-0-all
+  - ext-commonsmetadata # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-contributionreporting # wikimediafoundation.org
   - ext-contributiontracking # wikimediafoundation.org
@@ -62,6 +64,7 @@ GROUPS:
   - ext-markashelpful # 2011-12-28: r107514 for enwiki
   - ext-massmessage # 2013-10-01: change id: Ie6c91318d0e420bbe41fab48f03bbf44022d78cb for test
   - ext-moodbar # r93131
+  - ext-multimediaviewer # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
   - ext-mwembedsupport # Change-Id: Ifbb7c9b7344520f6d9fe1ccfa3f276ec153b9770
   - ext-mwsearch
   - ext-navigationtiming # 2013-03-14: all wikis
