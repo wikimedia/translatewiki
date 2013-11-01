@@ -235,6 +235,8 @@ ignored = commenttab-editintro, commenttab-preload
 
 Comments
 
+Commons Metadata
+
 CommunityTwitter
 
 Community Voice
