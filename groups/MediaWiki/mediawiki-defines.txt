@@ -1707,6 +1707,9 @@ aliasfile = UserMerge/UserMerge.alias.php
 User Option Stats
 aliasfile = UserOptionStats/UserOptionStats.alias.php
 
+User Page View Tracker
+aliasfile = UserPageViewTracker/UserPageViewTracker.alias.php
+
 User Throttle
 
 Validator
