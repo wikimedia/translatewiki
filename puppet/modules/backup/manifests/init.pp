@@ -19,18 +19,20 @@ class backup ($databases) {
   }
 
   file { "/root/backup.sh":
-    source  => 'puppet:///modules/backup/backup.sh',
+    source => 'puppet:///modules/backup/backup.sh',
+    mode   => '0744',
   }
 
   file { "/root/.duplicity.conf":
-    source  => 'puppet:///modules/backup/duplicity.conf',
+    source => 'puppet:///modules/backup/duplicity.conf',
   }
 
   file { "/root/dump-databases.sh":
     content => template("backup/dump-databases.sh.erb"),
+    mode    => '0744',
   }
 
   file { '/etc/logrotate.d/twn-database-backup':
-    source  => 'puppet:///modules/backup/logrotate'
+    source => 'puppet:///modules/backup/logrotate'
   }
 }
