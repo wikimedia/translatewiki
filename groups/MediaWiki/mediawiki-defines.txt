@@ -1825,7 +1825,8 @@ ignored = wikibase-shortcopyrightwarning-version
 
 Wikibase Data Model
 
-Wikibase Database
+# Deleted 2013-11-01 https://gerrit.wikimedia.org/r/#/c/93149/1/.gitmodules,unified
+# Wikibase Database
 
 Wikibase Query
 aliasfile = WikibaseQuery.i18n.aliases.php
