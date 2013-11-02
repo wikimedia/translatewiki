@@ -18,6 +18,12 @@ class php {
     require => Package['php5-fpm'],
   }
 
+  file { '/etc/php5/mods-available/apc.ini':
+    content => "extension=apc.so\napc.shm_size=384M",
+    require => Package['php-apc'],
+    notify  => Service['php5-fpm'],
+  }
+
   service { 'php5-fpm':
     ensure     => running,
     enable     => true,
