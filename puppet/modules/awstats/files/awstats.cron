@@ -1,2 +1,2 @@
 # file managed by puppet
-0,10,20,30,40,50 * * * * root /usr/lib/cgi-bin/awstats.pl -update >/dev/null
+0,10,20,30,40,50 * * * * root /usr/lib/cgi-bin/awstats.pl -update -config=translatewiki.net >/dev/null
