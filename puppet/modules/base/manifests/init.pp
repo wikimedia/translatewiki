@@ -10,6 +10,7 @@ class base {
     'iperf', # Network performance
     'jnettop', # Network view
     'make',
+    'mosh', # ssh for bad connections
     'mytop', # MySQL view
     'nano',
     'netcat-openbsd',
