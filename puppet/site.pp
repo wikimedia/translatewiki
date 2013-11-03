@@ -20,7 +20,7 @@ node default {
   include users
 
   class { 'backup':
-    databases => ['mediawiki'],
+    databases => ['translatewiki_net'],
   }
 
   class { 'wiki':
