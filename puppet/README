@@ -27,6 +27,11 @@ Create /etc/php5/conf.d/20-syck.ini:
 
 And restart php5-fpm
 
+
+------------------
+
+for module in 'YAML::Syck' 'PHP::Serialization' 'File::Slurp'; do cpanp -i $module; done
+
 ------------------
 
 Install wikidiff
