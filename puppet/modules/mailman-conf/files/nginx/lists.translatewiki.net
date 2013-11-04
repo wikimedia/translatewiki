@@ -4,7 +4,8 @@
 # http://people.adams.edu/~cdmiller/posts/Ubuntu-Mailman-Nginx-Fcgipass/
 
 server {
-	listen 443 ssl;
+	listen *:443 ssl;
+	listen [2a03:4000:6:55::2]:443 ssl;
 	server_name lists.translatewiki.net;
 
 	ssl_certificate     /etc/ssl/private/translatewiki.net.pem;
