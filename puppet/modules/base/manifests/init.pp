@@ -26,9 +26,9 @@ class base {
     'subversion',
 
     # Development extras
-    'git-review',
-    'optipng',
     'jpegoptim',
+    'optipng',
+    'python-pip',
 
     # Other
     'mysqltuner',
@@ -38,6 +38,12 @@ class base {
     'pkg-config',
     'libthai-dev',
     ]: ensure => present,
+  }
+
+  # Download git-review from pip, the version in current LTS has annoying bugs
+  package { 'git-review':
+    ensure   => present,
+    provider => pip,
   }
 
   file { '/etc/environment':
