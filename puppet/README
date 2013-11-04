@@ -1,5 +1,20 @@
 == Manual steps ==
 
+* From a clean server, do this:
+apt-get update
+apt-get dist-upgrade
+apt-get install -y git puppet make
+cd root
+git clone https://gerrit.wikimedia.org/r/translatewiki
+* Create a user and an authorized_keys file for that user
+* User must have sudo rights (see sudo module)
+* Execute:
+cd /root/translatewiki/puppet
+make test
+make noop
+make apply
+
+------------------
 Create /etc/webauth
 
 ------------------
