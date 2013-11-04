@@ -19,3 +19,9 @@ MANGLER:
   prefix: x-
   patterns:
     - "*"
+
+TAGS:
+  ignored:
+    - x-=23*
+    - x-* end
+    - x-* start
