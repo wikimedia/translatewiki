@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "291c1151_5eec4cc8",
+        "filename": "puppet/modules/awstats/files/stats.translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-11-04T11:44:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "291c1151_dea67cad",
+      "revId": "c1ad19d6b896d65ada475bc272dda30279c01ac3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "291c1151_feb5f8ce",
         "filename": "puppet/modules/mailman-conf/files/nginx/lists.translatewiki.net",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-11-04T11:28:59Z",
       "side": 1,
       "message": "So only lists is on separate IP from the other sites?",
+      "revId": "c1ad19d6b896d65ada475bc272dda30279c01ac3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "291c1151_7ed3c803",
+        "filename": "puppet/modules/mailman-conf/files/nginx/lists.translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-11-04T11:44:54Z",
+      "side": 1,
+      "message": "Yes, for now. We could put the others on their own IPv6 address later.",
+      "parentUuid": "291c1151_feb5f8ce",
       "revId": "c1ad19d6b896d65ada475bc272dda30279c01ac3",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
