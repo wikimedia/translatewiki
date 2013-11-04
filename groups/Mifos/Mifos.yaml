@@ -9,6 +9,10 @@ FILES:
   sourcePattern: %GROUPROOT%/mifos/app/global-translations/%CODE%.json
   definitionFile: %GROUPROOT%/mifos/app/global-translations/%CODE%.json
   targetPattern: mifos/app/global-translations/%CODE%.json
+  codeMap:
+    pt-br:   pt_BR
+    zh-hans: zh_CN
+    zh-hant: zh_TW
 
 MANGLER:
   class: StringMatcher
