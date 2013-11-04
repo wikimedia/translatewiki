@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "291c1151_dea67cad",
+        "filename": "puppet/modules/awstats/files/stats.translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-11-04T11:28:59Z",
+      "side": 1,
+      "message": "I would swap the order of these two lines for consistency with the other files.",
+      "revId": "c1ad19d6b896d65ada475bc272dda30279c01ac3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "291c1151_feb5f8ce",
+        "filename": "puppet/modules/mailman-conf/files/nginx/lists.translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-11-04T11:28:59Z",
+      "side": 1,
+      "message": "So only lists is on separate IP from the other sites?",
+      "revId": "c1ad19d6b896d65ada475bc272dda30279c01ac3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "291c1151_a596273b",
         "filename": "puppet/modules/nginx/files/translatewiki.net",
         "patchSetId": 1
