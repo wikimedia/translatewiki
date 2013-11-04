@@ -3,14 +3,15 @@
 server {
 	listen 80 default_server;
 	listen [2a03:4000:6:55::1]:80;
-	listen 443 ssl default_server;
-	listen [2a03:4000:6:55::1]:443 ssl;
+	listen 443 ssl default_server spdy;
+	listen [2a03:4000:6:55::1]:443 ssl spdy;
 
 	ssl_certificate     /etc/ssl/private/translatewiki.net.pem;
 	ssl_certificate_key /etc/ssl/private/translatewiki.net.key;
 	ssl_ciphers RC4:HIGH:!aNULL:!MD5;
 	ssl_prefer_server_ciphers on;
 	ssl_session_cache shared:SSL:1m;
+	spdy_headers_comp 7;
 
 	server_name translatewiki.net dev.translatewiki.net sandbox.translatewiki.net;
 	root /www/$host;

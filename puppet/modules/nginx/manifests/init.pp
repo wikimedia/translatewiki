@@ -3,6 +3,7 @@ class nginx {
   apt::ppa { 'ppa:nginx/stable': }
 
   package { 'nginx':
+    name   => 'nginx-extras',
     ensure => present,
   }
 
