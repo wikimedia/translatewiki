@@ -368,7 +368,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISQualify.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRIS.yaml";
 
 wfAddNamespace( 1230, 'Mifos' );
-# $wgTranslateGroupFiles[] = "$GROUPS/Mifos/Mifos.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Mifos/Mifos.yaml";
 
 wfAddNamespace( 1232, 'Wikia' );
 $wgTranslateGroupFiles[] = "$GROUPS/Wikia/WikiaAgg.yaml";
