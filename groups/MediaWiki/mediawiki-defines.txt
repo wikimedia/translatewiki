@@ -1719,6 +1719,8 @@ Variables
 # 2013-10-01: Not longer used, no i18n file
 # Vector
 
+Vector Beta
+
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
