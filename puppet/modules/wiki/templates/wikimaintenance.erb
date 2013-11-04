@@ -2,4 +2,4 @@
 * * * * * <%= @user %> nice php /www/translatewiki.net/w/maintenance/runJobs.php --exclusive --maxtime=50 --procs=1 --memory-limit=250M >> /www/translatewiki.net/w/logs/jobqueue 2> /dev/null
 */5 * * * * <%= @user %> nice php /www/sandbox.translatewiki.net/w/maintenance/runJobs.php --exclusive --maxtime=50 --procs=1 --memory-limit=250M >> /www/sandbox.translatewiki.net/w/logs/jobqueue 2> /dev/null
 @weekly www-data find /www/translatewiki.net/w/images/thumb/ -name "*.png" -type f -print0 | nice xargs -0 -P4 -I{} optipng -o7 {} 1> /dev/null
-@weekly <%= @user => nice php /www/translatewiki.net/w/maintenance/generateSitemap.php --fspath /www/translatewiki.net/sitemap/ --skip-redirects --urlpath https://translatewiki.net/sitemap/
+@weekly <%= @user %> nice php /www/translatewiki.net/w/maintenance/generateSitemap.php --fspath /www/translatewiki.net/sitemap/ --skip-redirects --urlpath https://translatewiki.net/sitemap/
