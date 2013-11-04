@@ -39,11 +39,8 @@ server {
 		fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 	}
 
-	location ~* \.(png|jpg|jpeg|gif|ico)$ {
-		expires 7d;
+	location ~* \.(png|jpg|jpeg|gif|ico|svg|woff|eot|ttf)$ {
+		expires 2M;
 	}
 
-	location ~* \.(json)$ {
-		expires 12h;
-	}
 }
