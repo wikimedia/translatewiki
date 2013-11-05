@@ -855,7 +855,7 @@ aliasfile = MobileFrontend/MobileFrontend.alias.php
 optional = mobile-frontend-feedback-page, mobile-frontend-page-menu-language-current
 optional = mobile.js, mobile.css, mobile-frontend-ajax-random-quote-author
 ignored = mobile-frontend-sopa-notice, mobile-frontend-current-language
-ignored = mobile-frontend-page-menu-language
+ignored = mobile-frontend-page-menu-language, mobile-frontend-terms-url
 
 Model
 
@@ -1877,7 +1877,7 @@ optional = grouppage-Staff, shared-repo-name-shared
 optional = grouppage-Global_sysops, grouppage-editinterface
 optional = grouppage-API_High_Limit_Requestor, grouppage-Indic_Bots
 optional = grouppage-New_wikis_importer, grouppage-global-ipblock-exempt
-optional = grouppage-recursive-export
+optional = grouppage-recursive-export, wikimedia-mobile-terms-url
 prefix = wmf- | sidebar, grouppage-Staff, group-Staff, group-Staff-member
 prefix = wmf- | group-patroller, group-patroller-member, grouppage-patroller
 prefix = wmf- | createacct-helpusername-url, createacct-helpusername
