@@ -116,8 +116,8 @@ then
 
 elif [ "$PROJECT" = "mifos" ]
 then
-	php "$EXPORTER" --target . --group='out-mifos-*' --lang '*' --skip en,qqq --threshold 20
-	php "$EXPORTER" --target . --group='out-mifos-*' --lang qqq
+	php "$EXPORTER" --target . --group='out-mifos' --lang '*' --skip en,qqq --threshold 20
+	php "$EXPORTER" --target . --group='out-mifos' --lang qqq
 
 elif [ "$PROJECT" = "mozilla" ]
 then
