@@ -256,7 +256,6 @@ $wgExtraLanguageNames['slr']       = 'Salırça'; # Salar / Siebrand 2008-08-18
 $wgExtraLanguageNames['ryu']       = 'ʔucināguci'; # Central Okinawan / Siebrand 2008-08-28
 $wgExtraLanguageNames['gom']       = 'कोंकणी/Konknni '; # Konkani (falls back to gom-deva) / Siebrand 2008-09-02
 $wgExtraLanguageNames['gom-deva']  = 'कोंकणी'; # Konkani (Devanagari script) / Siebrand 2008-09-02
-$wgExtraLanguageNames['gom-latn']  = 'Konknni'; # Konkani (Latin script) / Siebrand 2008-09-02
 $wgExtraLanguageNames['akz']       = 'Albaamo innaaɬiilka'; # Alabama / Siebrand 2008-09-15
 $wgExtraLanguageNames['kgp']       = 'Kaingáng'; # Siebrand 2008-12-05
 $wgExtraLanguageNames['hu-formal'] = 'Magyar (magázó)'; # Siebrand 2009-01-01
