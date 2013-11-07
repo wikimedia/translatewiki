@@ -42,8 +42,8 @@ BASIC:
   label: Encyclopedia of Life - Website
 
 FILES:
-  sourcePattern: %GROUPROOT%/eol/config/locales/%CODE%.yml
-  targetPattern: eol/config/locales/%CODE%.yml
+  sourcePattern: %GROUPROOT%/eol/config/translations/%CODE%.yml
+  targetPattern: eol/config/translations/%CODE%.yml
 
 MANGLER:
   class: StringMatcher
@@ -146,8 +146,8 @@ BASIC:
   label: Encyclopedia of Life - Database
 
 FILES:
-  sourcePattern: %GROUPROOT%/eol/config/locales/%CODE%-db.yml
-  targetPattern: eol/config/locales/%CODE%-db.yml
+  sourcePattern: %GROUPROOT%/eol/config/translations/%CODE%-db.yml
+  targetPattern: eol/config/translations/%CODE%-db.yml
 
 MANGLER:
   class: StringMatcher
