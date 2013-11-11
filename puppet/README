@@ -63,3 +63,8 @@ Restart enable the IPv6 addresses:
 /etc/init.d/networking restart
 
 ------------------
+
+Install phpunit (distro version too old)
+
+Go to mediawiki/tests/phpunit
+ sudo sh install-phpunit.sh
