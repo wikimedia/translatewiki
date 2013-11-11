@@ -89,6 +89,8 @@ File Page
 #Follow
 #aliasfile = Follow/Follow.alias.php
 
+Forum
+
 Founder Emails
 ignored = founderemails-email-footer-line3
 
