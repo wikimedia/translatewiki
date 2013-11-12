@@ -590,6 +590,7 @@ file = FlaggedRevs/frontend/language/ValidationStatistics.i18n.php
 descmsg = flaggedrevs-desc
 
 Flow
+ignored = flow-hide-usertext, flow-delete-usertext
 
 Flv Handler
 descmsg = flvhandler_desc
