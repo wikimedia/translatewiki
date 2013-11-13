@@ -1803,6 +1803,7 @@ file = Wikibase/client/WikibaseClient.i18n.php
 aliasfile = Wikibase/client/WikibaseClient.i18n.alias.php
 magicfile = Wikibase/client/WikibaseClient.i18n.magic.php
 descmsg = wbc-desc
+ignored = accesskey-t-wikibase
 
 Wikibase - Lib
 file = Wikibase/lib/WikibaseLib.i18n.php
