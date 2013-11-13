@@ -36,7 +36,6 @@ GROUPS:
   - ext-quiz
   - ext-renameuser
   - ext-securepoll
-  - ext-simpleantispam
   - ext-sitematrix
   - ext-spamblacklist
   - ext-timedmediahandler
