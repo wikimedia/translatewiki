@@ -752,6 +752,8 @@ aliasfile = LandingCheck/LandingCheck.alias.php
 
 Language Selector
 
+Language Tag
+
 Last Modified
 
 Ldap Authentication
