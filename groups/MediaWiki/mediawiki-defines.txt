@@ -640,6 +640,8 @@ Global Blocking
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
 ignored = globalblocking-expiry-options
 
+Global Css Js
+
 Global Usage
 aliasfile = GlobalUsage/GlobalUsage.alias.php
 
