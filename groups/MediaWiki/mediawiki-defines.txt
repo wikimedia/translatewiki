@@ -217,7 +217,7 @@ optional = group-svnadmins.css, group-svnadmins.js
 Collection
 aliasfile = Collection/Collection.alias.php
 descmsg = coll-desc
-ignored = coll-template_blacklist_title, coll-license_url
+ignored = coll-license_url
 ignored = coll-suggest_enabled
 ignored = coll-user_book_prefix, coll-community_book_prefix
 
