@@ -214,19 +214,12 @@ ignored = code-rev-comment-preview-accesskey, code-rev-submit-accesskey, code-re
 ignored = code-rev-id, code-rev-next-accesskey
 optional = group-svnadmins.css, group-svnadmins.js
 
-Collection - Core
-id = ext-collection-core
-file = Collection/CollectionCore.i18n.php
+Collection
 aliasfile = Collection/Collection.alias.php
-descmsg = coll-create_a_book
-ignored = coll-suggest_enabled
-ignored = coll-user_book_prefix, coll-community_book_prefix
-
-Collection - Other
-id = ext-collection-other
-file = Collection/Collection.i18n.php
 descmsg = coll-desc
 ignored = coll-template_blacklist_title, coll-license_url
+ignored = coll-suggest_enabled
+ignored = coll-user_book_prefix, coll-community_book_prefix
 
 Commentbox
 ignored = commentbox-prefill
