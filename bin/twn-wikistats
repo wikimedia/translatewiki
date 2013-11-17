@@ -1,0 +1,26 @@
+#!/bin/bash
+
+set -e
+
+BASEDIR=$(dirname $0)
+WIKI=/www/translatewiki.net/w
+USER=MaintenanceBot
+PARAMS="--skipzero --skiplanguages=qqq --fuzzy"
+
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Encyclopedia of Life/stats" "$PARAMS --groups=out-eol-0-all"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:FreeCol/stats/trunk" "$PARAMS --groups=out-freecol"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:FUDforum/stats/trunk" "$PARAMS --groups=out-fudforum"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:iHRIS/stats" "$PARAMS --groups=out-ihris-0-all"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Kiwix/stats" "$PARAMS --groups=out-kiwix"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:MantisBT/stats/trunk" "$PARAMS --groups=out-mantis-0-all"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Mifos/stats" "$PARAMS --groups=out-mifos"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Mwlib.rl/stats/trunk" "$PARAMS --groups=out-mwlibrl"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Okawix/stats/trunk" "$PARAMS --groups=out-okawix-0-all"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Open Images/stats/trunk" "$PARAMS --groups=out-openimages-0-all"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:OpenStreetMap/stats/trunk" "$PARAMS --groups=out-osm-0-all"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Pywikibot/stats" "$PARAMS --groups=out-pywikipedia-0-all"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Shapado/stats" "$PARAMS --groups=shapado-0-all"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Intuition/stats" "$PARAMS --groups=tsint-0-all"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Wikia/stats" "$PARAMS --groups=wikia-0-all"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:WikiBlame/stats/trunk" "$PARAMS --groups=out-wikiblame"
+$BASEDIR/wikistats "$WIKI" "$USER" "Translating:WikiReader/stats/trunk" "$PARAMS --groups=out-wikireader"
