@@ -7,9 +7,7 @@
 source /root/.duplicity.conf
 
 # duplicity command
-SSHOPTS="--ssh-options \"-oIdentityFile=/root/.ssh/id_dsa_duplicity_backup\""
-
-DUPEXEC="--encrypt-key $ENCRKEY --sign-key $SIGNKEY $SSHOPTS $DUPOPTS $*"
+DUPEXEC="--encrypt-key $ENCRKEY --sign-key $SIGNKEY $DUPOPTS $*"
 # loop on directories
 echo -n "---- Incremental backup of $HOSTNAME ---- "; date
 for i in $BACKDIRS
