@@ -394,16 +394,6 @@ $checkBlacklist = array(
 		)
 	),
 	array(
-		'group' => 'ext-mobilefrontend',
-		'check' => 'plural',
-		'message' => array(
-			// All work arounds for http://bugzilla.wikimedia.org/42631
-			'mobile-frontend-profile-footer-days',
-			'mobile-frontend-profile-footer-months',
-			'mobile-frontend-profile-footer-years',
-		)
-	),
-	array(
 		'group' => 'ext-newusernotification',
 		'check' => 'variable',
 		'message' => array(
