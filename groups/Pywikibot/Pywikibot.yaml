@@ -275,6 +275,15 @@ FILES:
   targetPattern: pywikibot/redirect.py
 ---
 BASIC:
+  id: out-pywikipedia-reflinks
+  label: Pywikibot Reflinks
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/reflinks.py
+  definitionFile: %GROUPROOT%/pywikibot/reflinks.py
+  targetPattern: pywikibot/reflinks.py
+---
+BASIC:
   id: out-pywikipedia-replace
   label: Pywikibot Replace
 
