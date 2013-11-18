@@ -1,0 +1,13 @@
+#!/bin/bash
+
+WIKI="$1"
+USER="$2"
+TITLE="$3"
+PARAMS="$4"
+
+TEMP=`tempfile`
+echo 'Stats on ~~~~~' >> $TEMP
+php "$WIKI/extensions/Translate/scripts/groupStatistics.php" $PARAMS >> $TEMP
+
+cat $TEMP | php "$WIKI"/maintenance/edit.php -u "$USER" -b -s "Updating statistics" "$TITLE"
+rm $TEMP
