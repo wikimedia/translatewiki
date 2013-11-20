@@ -100,6 +100,7 @@ GROUPS:
   - ext-trustedxff
   - ext-userdailycontribs
   - ext-usermerge # change-id: dee0a5a3d55dbd9d2daa43c9ea0baa753ee49640 for Wikivoyage
+  - ext-vectorbeta # change-id: 5ab746e86cddaa09fec195f9670a5767025106c7
   - ext-vipsscaler # 104390: test2.wikipedia.org
   - ext-wikibasedatamodel
   - ext-wikilove # r90124
