@@ -164,7 +164,7 @@ then
 
 	if [ -z "$REPO_RW" ]
 	then
-		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --groups=ext-* && echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
+		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --group=ext-* && echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
 		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || ${DIRSCRIPT}/udpcast Message index creation failed &
 	fi
 
