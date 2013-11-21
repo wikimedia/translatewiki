@@ -27,6 +27,13 @@ $checkBlacklist = array(
 	),
 	array(
 		'group' => 'core',
+		'check' => 'links',
+		'message' => array(
+			'redirect-summary', // Has images names that can be translated
+		),
+	),
+	array(
+		'group' => 'core',
 		'check' => 'plural',
 		'message' => array(
 			'category-file-count', // Work around for http://bugzilla.wikimedia.org/42631
