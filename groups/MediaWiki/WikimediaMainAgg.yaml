@@ -20,6 +20,7 @@ GROUPS:
   - ext-confirmedit
   - ext-confirmeditfancycaptcha
   - ext-dismissablesitenotice
+  - ext-echo
   - ext-featuredfeeds # r110030 for all projects
   - ext-gadgets
   - ext-globalblocking
@@ -38,6 +39,7 @@ GROUPS:
   - ext-securepoll
   - ext-sitematrix
   - ext-spamblacklist
+  - ext-thanks
   - ext-timedmediahandler
   - ext-timeline
   - ext-titleblacklist
