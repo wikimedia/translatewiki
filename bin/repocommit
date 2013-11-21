@@ -13,7 +13,7 @@ cd "$DIR"
 
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
-COMMITMSG="Localisation updates from http://translatewiki.net."
+COMMITMSG="Localisation updates from https://translatewiki.net."
 
 gitCommit() {
 	local dir=$1
