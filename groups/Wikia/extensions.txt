@@ -292,6 +292,9 @@ ignored = usersignup-account-creation-email-body-HTML, usersignup-confirmation-e
 #Video Handlers
 #file = VideoHandlers/VideoHandlers.i18n.php
 
+Visual Editor
+file = ../VisualEditor/wikia/VisualEditor.i18n.php
+
 Wall
 optional = wall-history-username-full, wall-history-username-short, mail-notification-subject, mail-notification-html-footer-line3
 
