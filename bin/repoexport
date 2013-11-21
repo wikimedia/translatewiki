@@ -87,6 +87,10 @@ then
 	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang '*' --skip "$SKIPLANGS" --threshold 18 $HOURS &
 	php "$EXPORTER" --target . --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" $HOURS &
 
+	if [ -d "mediawiki/REL1_22/" ]
+	then
+		php "$EXPORTER" --target mediawiki/REL1_21/languages/messages --core-meta --group 'core-1.22' --lang '*' --skip="$SKIPLANGS" --threshold 15 &
+	fi
 	if [ -d "mediawiki/REL1_21/" ]
 	then
 		php "$EXPORTER" --target mediawiki/REL1_21/languages/messages --core-meta --group 'core-1.21' --lang '*' --skip="$SKIPLANGS" --threshold 15 &
@@ -95,11 +99,6 @@ then
 	then
 		# Also skip "gd" because plurals are not compatible pre 1.21.
 		php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --core-meta --group 'core-1.20' --lang '*' --skip="gd,$SKIPLANGS" --threshold 15 &
-	fi
-	if [ -d "mediawiki/REL1_19/" ]
-	then
-		# Also skip "gd" because plurals are not compatible pre 1.21.
-		php "$EXPORTER" --target mediawiki/REL1_19/languages/messages --core-meta --group 'core-1.19' --lang '*' --skip="gd,$SKIPLANGS" --threshold 15 &
 	fi
 	wait
 

@@ -33,6 +33,13 @@ $checkBlacklist = array(
 		),
 	),
 	array(
+		'group' => 'core-1.22',
+		'check' => 'links',
+		'message' => array(
+			'mw-core-1.22-redirect-summary', // Has images names that can be translated
+		),
+	),
+	array(
 		'group' => 'core',
 		'check' => 'plural',
 		'message' => array(
@@ -97,19 +104,6 @@ $checkBlacklist = array(
 			'userrights-groupsmember-auto', // Optional PLURAL parameter
 			'userrights-groupsmember-type', // Optional parameter for group name
 			'userrights-unchangeable-col', // Optional PLURAL parameter
-		),
-	),
-	array(
-		'group' => 'core-1.19',
-		'check' => 'variable',
-		'message' => array(
-			'mw-core-1.19-logentry-newusers-create2', // Optional GENDER parameter
-			'mw-core-1.19-logentry-move-move redir-noredirect', // Optional GENDER parameter
-			'mw-core-1.19-logentry-move-move redir', // Optional GENDER parameter
-			'mw-core-1.19-logentry-move-move-noredirect', // Optional GENDER parameter
-			'mw-core-1.19-logentry-move-move', // Optional GENDER parameter
-			'mw-core-1.19-logentry-delete-restore', // Optional GENDER parameter
-			'mw-core-1.19-logentry-delete-delete', // Optional GENDER parameter
 		),
 	),
 	array(
