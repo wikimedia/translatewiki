@@ -109,12 +109,17 @@ function setupMediaWiki( &$cc ) {
 	$cc[$id] = $mg;
 
 	$changed = array(
+		'1.22' => array(
+			'specialpages-note',
+		), // Checked up to 972865c51c9e54ac76f3941f6cfa59db5326c52e / 2013-11-21
 		'1.21' => array(
 			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated', 'edithelppage',
 			'createacct-imgcaptcha-help', 'createacct-benefit-body1', 'createacct-benefit-body2', 'createacct-benefit-body3',
 			'login-throttled', 'right-editprotected', 'uploadnologintext', 'contribsub2',
 			'autocomment-prefix',
-		), // Checked up to b67c7bc0d275bfb9ff6efa6af98a1d5dfca50a72 / 2013-10-21
+			// From 1.22
+			'specialpages-note',
+		), // Checked up to 972865c51c9e54ac76f3941f6cfa59db5326c52e / 2013-11-21
 		'1.20' => array(
 			'cannotundelete', 'logouttext', 'enotif_body', 'createaccountmail',
 			'username', 'uid', 'prefs-memberingroups', 'linksearch-text',
@@ -130,7 +135,9 @@ function setupMediaWiki( &$cc ) {
 			'createacct-imgcaptcha-help', 'createacct-benefit-body1', 'createacct-benefit-body2', 'createacct-benefit-body3',
 			'login-throttled', 'right-editprotected', 'uploadnologintext', 'contribsub2',
 			'autocomment-prefix',
-		), // Checked up to b67c7bc0d275bfb9ff6efa6af98a1d5dfca50a72 / 2013-10-21
+			// From 1.22
+			'specialpages-note',
+		), // Checked up to 972865c51c9e54ac76f3941f6cfa59db5326c52e / 2013-11-21
 		'1.19' => array(
 			'version-poweredby-others',
 			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
@@ -149,7 +156,9 @@ function setupMediaWiki( &$cc ) {
 			'createacct-imgcaptcha-help', 'createacct-benefit-body1', 'createacct-benefit-body2', 'createacct-benefit-body3',
 			'login-throttled', 'right-editprotected', 'uploadnologintext', 'contribsub2',
 			'autocomment-prefix',
-		), // Checked up to b67c7bc0d275bfb9ff6efa6af98a1d5dfca50a72 / 2013-10-21
+			// From 1.22
+			'specialpages-note',
+		), // Checked up to 972865c51c9e54ac76f3941f6cfa59db5326c52e / 2013-11-21
 	);
 
 	$branches = array_keys( $changed );
