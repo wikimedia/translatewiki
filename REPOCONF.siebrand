@@ -2,7 +2,7 @@
 REPO_RW=yes
 
 REPO_MEDIAWIKI=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/core.git
-#REPO_MEDIAWIKI_BRANCHES="master REL1_21 REL1_20 REL1_19"
+#REPO_MEDIAWIKI_BRANCHES="master REL1_22 REL1_21 REL1_20"
 REPO_MEDIAWIKI_BRANCHES="master"
 REPO_MWEXTGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/extensions
 

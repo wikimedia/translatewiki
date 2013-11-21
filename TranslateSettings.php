@@ -116,7 +116,7 @@ function setupMediaWiki( &$cc ) {
 			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated', 'edithelppage',
 			'createacct-imgcaptcha-help', 'createacct-benefit-body1', 'createacct-benefit-body2', 'createacct-benefit-body3',
 			'login-throttled', 'right-editprotected', 'uploadnologintext', 'contribsub2',
-			'autocomment-prefix',
+			'autocomment-prefix', 'prefs-help-watchlist-token', 'right-editprotected',
 			// From 1.22
 			'specialpages-note',
 		), // Checked up to 972865c51c9e54ac76f3941f6cfa59db5326c52e / 2013-11-21
@@ -134,28 +134,7 @@ function setupMediaWiki( &$cc ) {
 			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated', 'edithelppage',
 			'createacct-imgcaptcha-help', 'createacct-benefit-body1', 'createacct-benefit-body2', 'createacct-benefit-body3',
 			'login-throttled', 'right-editprotected', 'uploadnologintext', 'contribsub2',
-			'autocomment-prefix',
-			// From 1.22
-			'specialpages-note',
-		), // Checked up to 972865c51c9e54ac76f3941f6cfa59db5326c52e / 2013-11-21
-		'1.19' => array(
-			'version-poweredby-others',
-			'recentchangestext', 'feedback-bugornote', 'noarticletext-nopermission', 'pageinfo-edits',
-			// From 1.20.
-			'cannotundelete', 'logouttext', 'enotif_body', 'createaccountmail',
-			'username', 'uid', 'prefs-memberingroups', 'linksearch-text',
-			'contributions',
-			'logentry-delete-delete', 'logentry-delete-event', 'logentry-delete-event-legacy', 'logentry-delete-restore',
-			'logentry-delete-revision', 'logentry-delete-revision-legacy', 'logentry-move-move', 'logentry-move-move-noredirect',
-			'logentry-move-move_redir', 'logentry-move-move_redir-noredirect', 'logentry-newusers-autocreate', 'logentry-newusers-create',
-			'logentry-newusers-create2', 'logentry-newusers-newusers', 'logentry-patrol-patrol', 'logentry-patrol-patrol-auto',
-			'logentry-suppress-delete', 'logentry-suppress-event', 'logentry-suppress-event-legacy', 'logentry-suppress-revision',
-			'logentry-suppress-revision-legacy',
-			// From 1.21
-			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated', 'edithelppage',
-			'createacct-imgcaptcha-help', 'createacct-benefit-body1', 'createacct-benefit-body2', 'createacct-benefit-body3',
-			'login-throttled', 'right-editprotected', 'uploadnologintext', 'contribsub2',
-			'autocomment-prefix',
+			'autocomment-prefix', 'prefs-help-watchlist-token', 'right-editprotected',
 			// From 1.22
 			'specialpages-note',
 		), // Checked up to 972865c51c9e54ac76f3941f6cfa59db5326c52e / 2013-11-21
