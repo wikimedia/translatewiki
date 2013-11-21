@@ -15,6 +15,7 @@ class base {
     'nano',
     'netcat-openbsd',
     'screen',
+    'unzip',
     'wget',
 
     # Tools related to supporting all our products
