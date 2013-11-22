@@ -12,23 +12,6 @@ TEMPLATE:
       zh-hans: zh_CN
       zh-hant: zh_TW
 
-  LANGUAGES:
-    blacklist:
-      - as
-      - bn
-      - gu
-      - hi
-      - kn
-      - ml
-      - mr
-      - or
-      - pa
-      - ta
-      - te
-      - hne
-      - mai
-      - mag
-
 ---
 BASIC:
   id: out-fuel-0-all
@@ -56,6 +39,21 @@ MANGLER:
     - *
   prefix: desktop-
 
+LANGUAGES:
+  blacklist:
+    - as
+    - bn
+    - gu
+    - hi
+    - kn
+    - mai
+    - ml
+    - mr
+    - or
+    - pa
+    - ta
+    - te
+
 ---
 BASIC:
   id: out-fuel-mobile
@@ -72,6 +70,10 @@ MANGLER:
   patterns:
     - *
   prefix: mobile-
+
+LANGUAGES:
+  blacklist:
+    - mr
 
 ---
 BASIC:
