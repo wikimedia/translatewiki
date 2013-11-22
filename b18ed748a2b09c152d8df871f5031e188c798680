@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0ee75395_b81626ab",
+        "filename": "groups/FUEL/FUEL.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-11-22T10:47:23Z",
+      "side": 1,
+      "message": "One level of indentation was accidentally removed",
+      "revId": "b18ed748a2b09c152d8df871f5031e188c798680",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
