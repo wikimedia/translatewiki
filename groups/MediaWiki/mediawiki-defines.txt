@@ -489,8 +489,9 @@ Event Logging
 Event Logging - Json Schema
 file = EventLogging/includes/JsonSchema.i18n.php
 
-Expand Templates
-aliasfile = ExpandTemplates/ExpandTemplates.alias.php
+# 2013-11-23 Added to core
+#Expand Templates
+#aliasfile = ExpandTemplates/ExpandTemplates.alias.php
 
 Extension Distributor
 
