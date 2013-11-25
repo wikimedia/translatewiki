@@ -22,3 +22,6 @@
 [submodule "puppet/modules/ssh"]
 	path = puppet/modules/ssh
 	url = https://github.com/attachmentgenie/puppet-module-ssh.git
+[submodule "puppet/modules/composer"]
+	path = puppet/modules/composer
+	url = git://github.com/tPl0ch/puppet-composer.git

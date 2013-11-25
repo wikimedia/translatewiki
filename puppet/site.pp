@@ -18,6 +18,7 @@ node default {
   include sudo
   include translationmemory
   include users
+  include composer
 
   class { 'backup':
     databases => ['translatewiki_net'],
