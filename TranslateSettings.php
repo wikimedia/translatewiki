@@ -385,9 +385,9 @@ wfAddNamespace( 1244, 'Kiwix' );
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/Kiwix.yaml";
 
 wfAddNamespace( 1246, 'Mozilla' );
-$wgTranslateGroupFiles[] = "$GROUPS/Mozilla/MozillaJava.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Mozilla/MozillaDtd.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Mozilla/Mozilla.yaml";
+#$wgTranslateGroupFiles[] = "$GROUPS/Mozilla/MozillaJava.yaml";
+#$wgTranslateGroupFiles[] = "$GROUPS/Mozilla/MozillaDtd.yaml";
+#$wgTranslateGroupFiles[] = "$GROUPS/Mozilla/Mozilla.yaml";
 
 # 1248 is not in use. Can be used for a product.
 
