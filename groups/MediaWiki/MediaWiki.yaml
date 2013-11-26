@@ -10,3 +10,4 @@ GROUPS:
   - core
   - core-*
   - ext-0-all
+  - ext-installer
