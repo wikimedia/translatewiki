@@ -298,6 +298,7 @@ $wgTranslateBlacklist = array(
 );
 
 # Namespace 8
+$wgTranslateMessageNamespaces[] = NS_MEDIAWIKI;
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/jquery.i18n.yaml";
 
 # No longer in use.
