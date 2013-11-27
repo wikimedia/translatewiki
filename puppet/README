@@ -34,7 +34,7 @@ for module in 'YAML::Syck' 'PHP::Serialization' 'File::Slurp'; do cpanp -i $modu
 
 ------------------
 
-Install wikidiff
+Install wikidiff and FastStringSearch
 
 cd /www/translatewiki.net/w/extensions/wikidiff2
 b phpize
@@ -44,6 +44,9 @@ sudo make install
 
 Create /etc/php5/conf.d/20-wikidiff2.ini:
   extension=wikidiff2.so
+
+Adapt the same for FastStringSearch which is located at
+https://gerrit.wikimedia.org/r/mediawiki/php/FastStringSearch
 
 And restart php5-fpm if needed.
 
