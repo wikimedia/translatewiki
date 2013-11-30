@@ -8,14 +8,21 @@
 # $databases:: What databases to dump and backup.
 #
 class backup ($databases) {
+  apt::ppa { 'ppa:duplicity-team/ppa': }
+
   package { 'duplicity':
     ensure => present,
+    require => Apt::Ppa['ppa:duplicity-team/ppa'],
   }
 
   file { "/etc/cron.d/backup":
     # Enable when new server is primary
     ensure  => present,
     content => template("backup/backup.erb"),
+  }
+
+  file { "/root/.ssh/config":
+    source => 'puppet:///modules/backup/ssh-config',
   }
 
   file { "/root/backup.sh":
