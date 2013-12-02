@@ -63,8 +63,7 @@ WikipediaMobile \
 WikipediaMobileJ2ME \
 wikireader \
 WikisourceMobile \
-WiktionaryMobile \
-WLMMobile"
+WiktionaryMobile"
 
 for i in $GITPROJECTS; do
 	if [ "$i" = "$PROJECT" ]

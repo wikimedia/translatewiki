@@ -43,9 +43,3 @@ file = Tsintuition.i18n.php
 ignored = title
 
 Toolserverstatus
-
-Wlm
-optional = date-format, province-comarque-joiner
-
-Wlmsurvey
-optional = 2012*
