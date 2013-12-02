@@ -43,8 +43,12 @@ CHECKER:
   checks:
     - OSMVariablesCheck
 
+INSERTABLES:
+  class: OSMInsertablesSuggester
+
 AUTOLOAD:
   OSMMessageChecker: Checker.php
+  OSMInsertablesSuggester: Insertables.php
 
 TAGS:
   optional:
