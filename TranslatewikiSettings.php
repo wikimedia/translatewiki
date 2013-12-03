@@ -151,7 +151,6 @@ require( __DIR__ . "/TranslateSettings.php" );
 
 include( __DIR__ . "/nikext.php" );
 include( "$IP/extensions/Renameuser/Renameuser.php" );
-include( "$IP/extensions/ExpandTemplates/ExpandTemplates.php" );
 include( "$IP/extensions/ParserFunctions/ParserFunctions.php" );
 $wgMaxIfExistCount = 300;
 $wgPFEnableStringFunctions = true;
