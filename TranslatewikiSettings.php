@@ -151,7 +151,6 @@ require( __DIR__ . "/TranslateSettings.php" );
 
 include( __DIR__ . "/nikext.php" );
 include( "$IP/extensions/Renameuser/Renameuser.php" );
-include( "$IP/extensions/ExpandTemplates/ExpandTemplates.php" );
 include( "$IP/extensions/ParserFunctions/ParserFunctions.php" );
 $wgMaxIfExistCount = 300;
 $wgPFEnableStringFunctions = true;
@@ -313,6 +312,7 @@ $wgExtraLanguageNames['abs'] = 'Bahasa Ambon'; # Ambonese Malay / Siebrand 2013-
 $wgExtraLanguageNames['pbb'] = 'Nasa Yuwe'; # Páez / Siebrand 2013-08-08
 $wgExtraLanguageNames['ses'] = 'Koyraboro Senni'; # Koyraboro Senni Songhay / Siebrand 2013-10-07
 $wgExtraLanguageNames['sdh'] = 'کوردی خوارگ'; # Southern Kurdish / Siebrand 2013-10-07
+$wgExtraLanguageNames['mww-latn'] = 'Hmoob Dawb'; # Hmong Daw / Siebrand 2013-12-02
 
 $wgExtraLanguageNames['nl-be']     = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['qqq']       = 'Message documentation'; # No linguistic content. Used for documenting messages
