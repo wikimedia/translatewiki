@@ -28,6 +28,7 @@ OrphanTalk2
 Recent Anonymous Activity
 
 Rtrc
+ignored = rtrc-months
 
 SVG Translate
 optional = title
