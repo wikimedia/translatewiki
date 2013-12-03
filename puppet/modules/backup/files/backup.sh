@@ -20,8 +20,6 @@ do
 	duplicity clean --force $DUPEXEC $RPATH/$i
 	echo
 done
-#  if local, fix permissions
-if [ -z $HOST ]; then chown -R $NAME.$NAME $LPATH; fi
 echo -n "---- Finished backup on $HOSTNAME ---- "; date
 echo
 echo
