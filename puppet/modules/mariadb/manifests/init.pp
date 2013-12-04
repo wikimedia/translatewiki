@@ -1,6 +1,6 @@
 class mariadb {
   apt::source { 'mariadb':
-    location        => 'http://mirror3.layerjet.com/mariadb/repo/5.5/ubuntu',
+    location        => 'http://mirrors.n-ix.net/mariadb/repo/5.5/ubuntu',
     release         => "${::lsbdistcodename}",
     repos           => 'main',
     key             => 'cbcb082a1bb943db',
@@ -10,7 +10,7 @@ class mariadb {
   # Per https://mariadb.com/kb/en/installing-mariadb-deb-files/
   apt::pin { 'mariadb':
     priority => 1000,
-    origin   => 'mirror3.layerjet.com'
+    origin   => 'mirrors.n-ix.net'
   }
 
   class { '::mysql::server':
