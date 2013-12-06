@@ -22,22 +22,9 @@ TARGET="$3"
 cd $DIR
 
 # Special cases.
-if [ "$GROUP" = "ext-jquery-" ]
-then
-	TARGET="./mediawiki-extesions/extensions"
-fi
-
-if [ "$GROUP" = "ext-jquery-" ]
-then
-	TARGET="./mediawiki-extesions/extensions"
-fi
-
 if [ "$GROUP" = "ext-i" ]
 then
 	SKIPGROUPS="--skipgroup=ext-installer"
-elif [ "$GROUP" = "ext-j" ]
-then
-	SKIPGROUPS="--skipgroup=ext-jquery-*"
 fi
 
 # Ready for prime time.

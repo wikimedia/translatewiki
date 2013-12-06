@@ -109,7 +109,7 @@ then
 
 	PREFIXES="ext-a ext-b ext-c ext-d ext-e ext-f ext-g ext-h ext-i ext-j ext-k ext-l \
 		ext-m ext-n ext-o ext-p ext-q ext-r ext-s ext-t ext-u ext-v ext-w ext-x ext-y \
-		ext-z ext-jquery-"
+		ext-z"
 
 	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
 
