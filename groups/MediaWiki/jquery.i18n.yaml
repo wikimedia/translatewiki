@@ -16,4 +16,4 @@ MANGLER:
 FILES:
   class: JsonFFS
   sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/UniversalLanguageSelector/i18n/%CODE%.json
-  targetPattern: UniversalLanguageSelector/i18n/%CODE%.json
+  targetPattern: mediawiki-extensions/extensions/UniversalLanguageSelector/i18n/%CODE%.json
