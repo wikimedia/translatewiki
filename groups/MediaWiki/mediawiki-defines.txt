@@ -1731,7 +1731,8 @@ optional = visualeditor-preference-language-discussion-link, visualeditor-prefer
 optional = visualeditor-preference-mwalienextension-discussion-link, visualeditor-preference-mwalienextension-info-link
 optional = visualeditor-preference-mwhiero-discussion-link, visualeditor-preference-mwhiero-info-link
 optional = visualeditor-preference-mwmath-discussion-link, visualeditor-preference-mwmath-info-link
-ignored = visualeditor-help-link, visualeditor-specialcharinspector-characterlist-insert
+optional = visualeditor-specialcharinspector-characterlist-insert
+ignored = visualeditor-help-link
 
 Vote NY
 file = VoteNY/Vote.i18n.php
