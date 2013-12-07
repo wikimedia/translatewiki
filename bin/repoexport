@@ -107,9 +107,9 @@ then
 	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=magic --quiet &
 	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=special --quiet &
 
-	PREFIXES="ext-a ext-b ext-c ext-d ext-e ext-f ext-g ext-h ext-i ext-j ext-k ext-l \
-		ext-m ext-n ext-o ext-p ext-q ext-r ext-s ext-t ext-u ext-v ext-w ext-x ext-y \
-		ext-z"
+	PREFIXES="ext-c ext-s ext-m ext-p ext-t ext-w ext-a ext-b ext-d ext-e ext-f \
+		ext-g ext-h ext-i ext-j ext-k ext-l ext-n ext-o ext-q ext-r ext-u ext-v \
+		ext-x ext-y ext-z"
 
 	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
 
@@ -167,9 +167,9 @@ then
 
 elif [ "$PROJECT" = "wikia" ]
 then
-	PREFIXES="wikia-a wikia-b wikia-c wikia-d wikia-e wikia-f wikia-g wikia-h \
+	PREFIXES="wikia-w wikia-a wikia-b wikia-c wikia-d wikia-e wikia-f wikia-g wikia-h \
 		wikia-i wikia-j wikia-k wikia-l wikia-m wikia-n wikia-o wikia-p wikia-q \
-		wikia-r wikia-s wikia-t wikia-u wikia-v wikia-w wikia-x wikia-y wikia-z"
+		wikia-r wikia-s wikia-t wikia-u wikia-v wikia-x wikia-y wikia-z"
 
 	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
 
