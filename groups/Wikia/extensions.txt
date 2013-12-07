@@ -90,6 +90,7 @@ File Page
 #aliasfile = Follow/Follow.alias.php
 
 Forum
+ignored = forum-specialpage-blurb
 
 Founder Emails
 ignored = founderemails-email-footer-line3
