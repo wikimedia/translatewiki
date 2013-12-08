@@ -195,25 +195,22 @@ $wgBabelCategoryNames = array(
 $wgBabelMainCategory = 'User_%code%';
 include( "$IP/extensions/APC/APC.php" );
 include( "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php" );
-include( "$IP/extensions/DataValues/DataValues.php" ); # Added by Siebrand 2013-01-07 / Required by Validator.
-include( "$IP/extensions/Validator/Validator.php" ); # Added by Siebrand 2009-11-30 / Required by Maps.
 include( "$IP/extensions/Interwiki/Interwiki.php" ); # Added by Raymond 2009-01-07
 include( "$IP/extensions/Nuke/Nuke.php" ); # Nike 2009-01-12
 include( "$IP/extensions/ReplaceText/ReplaceText.php" ); # Added: Siebrand 2009-04-25.
 include( "$IP/extensions/ApiSandbox/ApiSandbox.php" ); # Added: Siebrand 2012-11-05.
 
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
-include_once( "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php" );
 enableSemantics( 'translatewiki.net' );
 // Threads
-$smwgNamespacesWithSemanticLinks[NS_LQT_THREAD] = true;
-$smwgNamespacesWithSemanticLinks[NS_LQT_SUMMARY] = true;
+$wgExtensionFunctions[] = function () {
+	global $smwgNamespacesWithSemanticLinks;
+	$smwgNamespacesWithSemanticLinks[NS_LQT_THREAD] = true;
+	$smwgNamespacesWithSemanticLinks[NS_LQT_SUMMARY] = true;
+};
 
 include_once( "$IP/extensions/SemanticForms/SemanticForms.php" );
 $sfgRedLinksCheckOnlyLocalProps = true;
-
-include( "$IP/extensions/Maps/Maps.php" ); # Added by Siebrand 2009-11-11
-require( "$IP/extensions/SemanticMaps/SemanticMaps.php" );
 
 # Niklas 2011-11-12
 require( "$IP/extensions/TitleBlacklist/TitleBlacklist.php" );
