@@ -1,11 +1,17 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Mediawiki-logo.png
+    namespace: NS_MEDIAWIKI
+    class: FileBasedMessageGroup
+
+  FILES:
+    class: JsonFFS
+
 ---
 BASIC:
   id: ext-jquery-uls
   label: jQuery - Universal Language Selector
-  icon: wiki://Mediawiki-logo.png
   description: "jQuery i18n messages for Universal Language Selector"
-  namespace: NS_MEDIAWIKI
-  class: FileBasedMessageGroup
 
 MANGLER:
   class: StringMatcher
@@ -14,6 +20,64 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
   sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/UniversalLanguageSelector/i18n/%CODE%.json
   targetPattern: mediawiki-extensions/extensions/UniversalLanguageSelector/i18n/%CODE%.json
+
+---
+BASIC:
+  id: ext-visualeditor-oojs-ui
+  label: Visual Editor OOJS UI
+  description: "Messages for Visual Editor"
+
+FILES:
+  sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/VisualEditor/modules/oojs-ui/i18n/%CODE%.json
+  targetPattern: mediawiki-extensions/extensions/VisualEditor/modules/oojs-ui/i18n/%CODE%.json
+
+---
+BASIC:
+  id: ext-visualeditor-ve-wmf
+  label: Visual Editor WMF
+  description: "Messages for Visual Editor"
+
+FILES:
+  sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/VisualEditor/modules/ve-wmf/i18n/%CODE%.json
+  targetPattern: mediawiki-extensions/extensions/VisualEditor/modules/ve-wmf/i18n/%CODE%.json
+
+TAGS:
+  optional:
+    - visualeditor-help-link
+
+---
+BASIC:
+  id: ext-visualeditor-ve-mw
+  label: Visual Editor MediaWiki
+  description: "Messages for Visual Editor"
+
+FILES:
+  sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/VisualEditor/modules/ve-mw/i18n/%CODE%.json
+  targetPattern: mediawiki-extensions/extensions/VisualEditor/modules/ve-mw/i18n/%CODE%.json
+
+TAGS:
+  optional:
+    - visualeditor-preference-core-discussion-link
+    - visualeditor-preference-core-info-link
+    - visualeditor-preference-language-discussion-link
+    - visualeditor-preference-language-info-link
+    - visualeditor-preference-mwalienextension-discussion-link
+    - visualeditor-preference-mwalienextension-info-link
+    - visualeditor-preference-mwhiero-discussion-link
+    - visualeditor-preference-mwhiero-info-link
+    - visualeditor-preference-mwmath-discussion-link
+    - visualeditor-preference-mwmath-info-link
+  ignored:
+    - accesskey-ca-ve-edit
+    - accesskey-ca-editsource
+---
+BASIC:
+  id: ext-visualeditor-ve
+  label: Visual Editor Core
+  description: "Messages for Visual Editor"
+
+FILES:
+  sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/VisualEditor/modules/ve/i18n/%CODE%.json
+  targetPattern: mediawiki-extensions/extensions/VisualEditor/modules/ve/i18n/%CODE%.json

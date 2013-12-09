@@ -1723,16 +1723,17 @@ Vector Beta
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
-Visual Editor
-ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
-optional = visualeditor-report-link
-optional = visualeditor-preference-core-discussion-link, visualeditor-preference-core-info-link
-optional = visualeditor-preference-language-discussion-link, visualeditor-preference-language-info-link
-optional = visualeditor-preference-mwalienextension-discussion-link, visualeditor-preference-mwalienextension-info-link
-optional = visualeditor-preference-mwhiero-discussion-link, visualeditor-preference-mwhiero-info-link
-optional = visualeditor-preference-mwmath-discussion-link, visualeditor-preference-mwmath-info-link
-optional = visualeditor-specialcharinspector-characterlist-insert
-ignored = visualeditor-help-link
+# SM: Temporarily moved to jquery.i18n.yaml
+#Visual Editor
+#ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
+#optional = visualeditor-report-link
+#optional = visualeditor-preference-core-discussion-link, visualeditor-preference-core-info-link
+#optional = visualeditor-preference-language-discussion-link, visualeditor-preference-language-info-link
+#optional = visualeditor-preference-mwalienextension-discussion-link, visualeditor-preference-mwalienextension-info-link
+#optional = visualeditor-preference-mwhiero-discussion-link, visualeditor-preference-mwhiero-info-link
+#optional = visualeditor-preference-mwmath-discussion-link, visualeditor-preference-mwmath-info-link
+#optional = visualeditor-specialcharinspector-characterlist-insert
+#ignored = visualeditor-help-link
 
 Vote NY
 file = VoteNY/Vote.i18n.php
