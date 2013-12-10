@@ -1128,6 +1128,8 @@ ignored = pdf_size_default, pdf_size_options
 Pdf Handler
 descmsg = pdf-desc
 
+Per Page License
+
 Persona
 
 Phalanx
