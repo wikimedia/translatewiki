@@ -13,7 +13,7 @@ REV=`git log --pretty='%h %ci (%cr)' -n 1`
 echo "*** Updating config ***"
 sudo -u betawiki "$BASEDIR/wikiupdate-repo" /home/betawiki/config
 
-sudo -u betawiki "$BASEDIR/wikiupdate" "$WIKI"
+sudo -H -u betawiki "$BASEDIR/wikiupdate" "$WIKI"
 
 REV=`git log --pretty='%h %ci (%cr)' -n 1`
 "$BASEDIR/udpcast" "updated $WIKINAME to $REV"
