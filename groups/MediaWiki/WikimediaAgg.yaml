@@ -46,6 +46,7 @@ GROUPS:
   - ext-eventlogging # Change-Id: 1fc99b92c1692515295e8c7bb7c757112531c330
   - ext-extensiondistributor # MediaWiki.org
   - ext-flaggedrevs-0-all
+  - ext-flow # 2013-12-11: testwiki, test2wiki and mediawikiwiki
   - ext-fundraiserlandingpage # r101409 for donatewiki
   - ext-geocrumbs # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-geodata # Change-Id: I0c9522ab28502a7f8665caa23958222c28007159
