@@ -32,20 +32,19 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/VisualEditor/modules/oojs-ui/i18n/%CODE%.json
   targetPattern: mediawiki-extensions/extensions/VisualEditor/modules/oojs-ui/i18n/%CODE%.json
-
 ---
 BASIC:
-  id: ext-visualeditor-ve-wmf
-  label: VisualEditor (WMF)
+  id: ext-visualeditor-ve
+  label: VisualEditor Core
   description: "Messages for VisualEditor"
 
 FILES:
-  sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/VisualEditor/modules/ve-wmf/i18n/%CODE%.json
-  targetPattern: mediawiki-extensions/extensions/VisualEditor/modules/ve-wmf/i18n/%CODE%.json
+  sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/VisualEditor/modules/ve/i18n/%CODE%.json
+  targetPattern: mediawiki-extensions/extensions/VisualEditor/modules/ve/i18n/%CODE%.json
 
 TAGS:
   optional:
-    - visualeditor-help-link
+    - visualeditor-specialcharinspector-characterlist-insert
 
 ---
 BASIC:
@@ -72,16 +71,17 @@ TAGS:
   ignored:
     - accesskey-ca-ve-edit
     - accesskey-ca-editsource
+
 ---
 BASIC:
-  id: ext-visualeditor-ve
-  label: VisualEditor Core
+  id: ext-visualeditor-ve-wmf
+  label: VisualEditor (WMF)
   description: "Messages for VisualEditor"
 
 FILES:
-  sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/VisualEditor/modules/ve/i18n/%CODE%.json
-  targetPattern: mediawiki-extensions/extensions/VisualEditor/modules/ve/i18n/%CODE%.json
+  sourcePattern: %GROUPROOT%/mediawiki-extensions/extensions/VisualEditor/modules/ve-wmf/i18n/%CODE%.json
+  targetPattern: mediawiki-extensions/extensions/VisualEditor/modules/ve-wmf/i18n/%CODE%.json
 
 TAGS:
   optional:
-    - visualeditor-specialcharinspector-characterlist-insert
+    - visualeditor-help-link
