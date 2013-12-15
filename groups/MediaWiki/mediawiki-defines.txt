@@ -1530,6 +1530,8 @@ Starter Wiki
 
 Stick To That Language
 
+Stop Forum Spam
+
 Strategy Wiki - Active Strategy
 descmsg = active-strategy-desc
 file = StrategyWiki/ActiveStrategy/ActiveStrategy.i18n.php
