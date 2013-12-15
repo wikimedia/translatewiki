@@ -637,6 +637,9 @@ ignored = globalblocking-expiry-options
 
 Global Css Js
 
+Global Preferences
+descmsg = globalprefs-desc
+
 Global Usage
 aliasfile = GlobalUsage/GlobalUsage.alias.php
 
