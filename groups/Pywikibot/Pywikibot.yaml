@@ -109,6 +109,15 @@ FILES:
   targetPattern: pywikibot/capitalize_redirects.py
 ---
 BASIC:
+  id: out-pywikipedia-casechecker
+  label: Pywikibot Casechecker
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/casechecker.py
+  definitionFile: %GROUPROOT%/pywikibot/casechecker.py
+  targetPattern: pywikibot/casechecker.py
+---
+BASIC:
   id: out-pywikipedia-catall
   label: Pywikibot Catall
 
@@ -152,6 +161,15 @@ FILES:
   sourcePattern: %GROUPROOT%/pywikibot/commons.py
   definitionFile: %GROUPROOT%/pywikibot/commons.py
   targetPattern: pywikibot/commons.py
+---
+BASIC:
+  id: out-pywikipedia-commonslink
+  label: Pywikibot Commons Link
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/commons_link.py
+  definitionFile: %GROUPROOT%/pywikibot/commons_link.py
+  targetPattern: pywikibot/commons_link.py
 ---
 BASIC:
   id: out-pywikipedia-cosmeticchanges
