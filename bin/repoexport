@@ -93,12 +93,14 @@ then
 	fi
 	if [ -d "mediawiki/REL1_21/" ]
 	then
-		php "$EXPORTER" --target mediawiki/REL1_21/languages/messages --core-meta --group 'core-1.21' --lang '*' --skip="$SKIPLANGS" --threshold 15 &
+		# Skip "gv" because plurals are not compatible pre 1.22.
+		php "$EXPORTER" --target mediawiki/REL1_21/languages/messages --core-meta --group 'core-1.21' --lang '*' --skip="gv,$SKIPLANGS" --threshold 15 &
 	fi
 	if [ -d "mediawiki/REL1_20/" ]
 	then
-		# Also skip "gd" because plurals are not compatible pre 1.21.
-		php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --core-meta --group 'core-1.20' --lang '*' --skip="gd,$SKIPLANGS" --threshold 15 &
+		# Skip "gd" because plurals are not compatible pre 1.21.
+		# Skip "gv" because plurals are not compatible pre 1.22.
+		php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --core-meta --group 'core-1.20' --lang '*' --skip="gd,gv,$SKIPLANGS" --threshold 15 &
 	fi
 	wait
 
