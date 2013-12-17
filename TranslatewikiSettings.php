@@ -27,7 +27,7 @@ $wgRightsUrl = "";
 $wgRightsText = "";
 $wgRightsIcon = "";
 
-$wgUseTidy = true;
+$wgUseTidy = false;
 $wgSVGConverter = 'rsvg';
 $wgMaxShellMemory = 1024 * 200;
 
