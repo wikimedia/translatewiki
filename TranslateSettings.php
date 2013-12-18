@@ -20,6 +20,9 @@ $wgTranslateDisablePreSaveTransform = true;
 $wgTranslateCheckBlacklist = "$GROUPS/check-blacklist.php";
 
 $wgTranslatePermissionUrl = 'Special:FirstSteps';
+$wgTranslateUseSandbox = true;
+$wgTranslateSandboxPromotedGroup = 'translator';
+
 $wgTranslateSupportUrl = array(
 	'page' => 'Support',
 	'params' => array(

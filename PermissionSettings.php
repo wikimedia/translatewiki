@@ -66,6 +66,7 @@ $wgGroupPermissions['staff'        ]['apc']                     = true;
 $wgGroupPermissions['staff'        ]['reset-passwords']         = true;
 $wgGroupPermissions['staff'        ]['translate-import']        = true;
 $wgGroupPermissions['staff'        ]['translate-manage']        = true;
+$wgGroupPermissions['staff'        ]['translate-sandboxmanage'] = true;
 $wgGroupPermissions['staff'        ]['nuke']                    = true;
 $wgGroupPermissions['staff'        ]['replacetext']             = true;
 $wgGroupPermissions['sysop'        ]['replacetext']             = false;
