@@ -1701,6 +1701,7 @@ Unicode Converter
 
 Universal Language Selector - MediaWiki
 id = ext-universallanguageselector
+file = UniversalLanguageSelector/UniversalLanguageSelector.i18n.php
 descmsg = uls-desc
 ignored = uls-ime-helppage
 
