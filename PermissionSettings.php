@@ -51,26 +51,26 @@ $wgGroupPermissions['sysop'        ]['import']                  = false;
 $wgGroupPermissions['sysop'        ]['importupload']            = false;
 $wgGroupPermissions['sysop'        ]['suppressredirect']        = true;
 
-$wgGroupPermissions['bureaucrat'   ]['renameuser']              = false;
-$wgGroupPermissions['bureaucrat'   ]['userrights']              = false;
-$wgGroupPermissions['bureaucrat'   ]['deleterevision']          = true;
 $wgGroupPermissions['bureaucrat'   ]['deletelogentry']          = true;
-$wgGroupPermissions['bureaucrat'   ]['suppressionlog']          = true;
-$wgGroupPermissions['bureaucrat'   ]['nuke']                    = true;
+$wgGroupPermissions['bureaucrat'   ]['deleterevision']          = true;
 $wgGroupPermissions['bureaucrat'   ]['interwiki']               = true;
+$wgGroupPermissions['bureaucrat'   ]['nuke']                    = true;
 $wgGroupPermissions['bureaucrat'   ]['pagetranslation']         = true;
+$wgGroupPermissions['bureaucrat'   ]['renameuser']              = false;
+$wgGroupPermissions['bureaucrat'   ]['suppressionlog']          = true;
 $wgGroupPermissions['bureaucrat'   ]['translate-sandboxmanage'] = true;
+$wgGroupPermissions['bureaucrat'   ]['userrights']              = false;
 
-$wgGroupPermissions['staff'        ]['usermerge']               = true;
-$wgGroupPermissions['staff'        ]['renameuser']              = true;
 $wgGroupPermissions['staff'        ]['apc']                     = true;
+$wgGroupPermissions['staff'        ]['nuke']                    = true;
+$wgGroupPermissions['staff'        ]['renameuser']              = true;
 $wgGroupPermissions['staff'        ]['reset-passwords']         = true;
+$wgGroupPermissions['staff'        ]['suppressrevision']        = true;
 $wgGroupPermissions['staff'        ]['translate-import']        = true;
 $wgGroupPermissions['staff'        ]['translate-manage']        = true;
-$wgGroupPermissions['staff'        ]['nuke']                    = true;
+$wgGroupPermissions['staff'        ]['usermerge']               = true;
 $wgGroupPermissions['staff'        ]['replacetext']             = true;
 $wgGroupPermissions['sysop'        ]['replacetext']             = false;
-$wgGroupPermissions['staff'        ]['suppressrevision']        = true;
 
 $wgGroupPermissions['offline'      ]['translate-import']        = true;
 
