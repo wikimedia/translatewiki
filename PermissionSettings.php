@@ -59,6 +59,7 @@ $wgGroupPermissions['bureaucrat'   ]['suppressionlog']          = true;
 $wgGroupPermissions['bureaucrat'   ]['nuke']                    = true;
 $wgGroupPermissions['bureaucrat'   ]['interwiki']               = true;
 $wgGroupPermissions['bureaucrat'   ]['pagetranslation']         = true;
+$wgGroupPermissions['bureaucrat'   ]['translate-sandboxmanage'] = true;
 
 $wgGroupPermissions['staff'        ]['usermerge']               = true;
 $wgGroupPermissions['staff'        ]['renameuser']              = true;
@@ -66,7 +67,6 @@ $wgGroupPermissions['staff'        ]['apc']                     = true;
 $wgGroupPermissions['staff'        ]['reset-passwords']         = true;
 $wgGroupPermissions['staff'        ]['translate-import']        = true;
 $wgGroupPermissions['staff'        ]['translate-manage']        = true;
-$wgGroupPermissions['staff'        ]['translate-sandboxmanage'] = true;
 $wgGroupPermissions['staff'        ]['nuke']                    = true;
 $wgGroupPermissions['staff'        ]['replacetext']             = true;
 $wgGroupPermissions['sysop'        ]['replacetext']             = false;
