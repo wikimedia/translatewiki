@@ -34,6 +34,24 @@
       "revId": "03140bb81844c745d46ba610c8066e88ecc3ec90",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_19975695",
+        "filename": "groups/MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1712,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-12-19T22:01:45Z",
+      "side": 1,
+      "message": "fsck it, shipped it. It worked :).",
+      "parentUuid": "eeebdf60_3efe8036",
+      "revId": "03140bb81844c745d46ba610c8066e88ecc3ec90",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
