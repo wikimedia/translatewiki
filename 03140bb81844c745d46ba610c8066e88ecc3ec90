@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eeebdf60_3e58c08b",
+        "filename": "groups/MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1712,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-12-19T21:24:40Z",
+      "side": 1,
+      "message": "This is the one I\u0027m in doubt about. It is possible to easily add a mangler for all messages like this? It\u0027s not been used before for this type of group.",
+      "revId": "03140bb81844c745d46ba610c8066e88ecc3ec90",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
