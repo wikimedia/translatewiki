@@ -1748,7 +1748,7 @@ OOjs UI (via VisualEditor)
 id = ext-visualeditor-oojs-ui
 descmsg = visualeditor-desc
 format = json
-file = VisualEditor/modules/oojs-ui/i18n/%CODE%.json
+file = VisualEditor/lib/oojs-ui/i18n/%CODE%.json
 
 VisualEditor Core
 id = ext-visualeditor-ve
