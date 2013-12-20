@@ -336,6 +336,21 @@ then
 	fi
 	svn checkout "$REPO_WIKIBLAME" $PROJECT
 
+elif [ "$PROJECT" = "wikimania" ]
+then
+	if [ -z "$REPO_WIKIMANIA" ]
+	then echo "Add REPO_WIKIMANIA to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_WIKIMANIA" $PROJECT
+	if [ "$REPO_RW" = "yes" ]
+	then
+		cd $PROJECT
+		git config user.name 'Translation updater bot'
+		git config user.email 'l10n-bot@translatewiki.net'
+		git config gitreview.username 'l10n-bot'
+		git review -s
+	fi
+
 elif [ "$PROJECT" = "WikipediaMobile" ]
 then
 	if [ -z "$REPO_WIKIPEDIAMOBILE" ]
