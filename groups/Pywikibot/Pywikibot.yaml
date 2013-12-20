@@ -284,6 +284,14 @@ FILES:
   definitionFile: %GROUPROOT%/pywikibot/replace.py
 ---
 BASIC:
+  id: out-pywikipedia-revert
+  label: Pywikibot Revert
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/revertbot.py
+  definitionFile: %GROUPROOT%/pywikibot/revertbot.py
+---
+BASIC:
   id: out-pywikipedia-solvedisambiguation
   label: Pywikibot Solve Disambiguation
 
