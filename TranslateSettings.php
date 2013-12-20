@@ -165,7 +165,6 @@ function setupMediaWiki( &$cc ) {
 
 # Add aggregate message groups for MediaWiki extensions.
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/MediaWiki.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/CollectionAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/FlaggedRevsAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/ReaderFeedbackAgg.yaml";
 # Disabled by Siebrand / 2011-10-23. Maintainer is not willing to stick to conventions.
