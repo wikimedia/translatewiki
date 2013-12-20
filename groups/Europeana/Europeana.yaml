@@ -11,7 +11,6 @@ FILES:
   class: JavaFFS
   sourcePattern: %GROUPROOT%/europeana/messages_%CODE%.properties
   definitionFile: %GROUPROOT%/europeana/messages_en.properties
-  targetPattern: europeana/messages_%CODE%.properties
 
 TAGS:
   ignored:

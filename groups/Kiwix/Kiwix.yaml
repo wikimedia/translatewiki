@@ -10,7 +10,6 @@ BASIC:
 FILES:
   class: JavaFFS
   sourcePattern: %GROUPROOT%/kiwix/maintenance_tools/translatewiki/%CODE%
-  targetPattern: kiwix/maintenance_tools/translatewiki/%CODE%
 
 TAGS:
   optional:

@@ -10,7 +10,6 @@ BASIC:
 FILES:
   class: OpenLayersFFS
   sourcePattern: %GROUPROOT%/openlayers/%CODE%.js
-  targetPattern: openlayers/%CODE%.js
   codeMap:
     cs:      cs-CZ
     da:      da-DK

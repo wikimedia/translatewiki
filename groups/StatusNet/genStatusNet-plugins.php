@@ -102,7 +102,6 @@ foreach ( $plugins as $plugin ) {
 	echo "FILES:\n";
 	echo "  sourcePattern: %GROUPROOT%/" . $basePluginFolder . $plugin . $localeFolder . $plugin . ".po\n";
 	echo "  definitionFile: %GROUPROOT%/" . $basePluginFolder . $plugin . "/locale/" . $plugin . ".pot\n";
-	echo "  targetPattern: " . $basePluginFolder . $plugin . $localeFolder . $plugin . ".po\n\n";
 	echo "MANGLER:\n";
 	echo "  prefix: " . $pluginL . "-\n";
 

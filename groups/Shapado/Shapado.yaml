@@ -49,7 +49,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/activities/%CODE%.yml
-  targetPattern: shapado/config/locales/activities/%CODE%.yml
 
 MANGLER:
   prefix: activities-
@@ -61,7 +60,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/announcements/%CODE%.yml
-  targetPattern: shapado/config/locales/announcements/%CODE%.yml
 
 MANGLER:
   prefix: announcements-
@@ -77,7 +75,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/answers/%CODE%.yml
-  targetPattern: shapado/config/locales/answers/%CODE%.yml
 
 MANGLER:
   prefix: answers-
@@ -89,7 +86,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/badges/%CODE%.yml
-  targetPattern: shapado/config/locales/badges/%CODE%.yml
 
 MANGLER:
   prefix: badges-
@@ -101,7 +97,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/close_requests/%CODE%.yml
-  targetPattern: shapado/config/locales/close_requests/%CODE%.yml
 
 MANGLER:
   prefix: closereq-
@@ -113,7 +108,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/comments/%CODE%.yml
-  targetPattern: shapado/config/locales/comments/%CODE%.yml
 
 MANGLER:
   prefix: comments-
@@ -125,7 +119,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/constrains_config/%CODE%.yml
-  targetPattern: shapado/config/locales/constrains_config/%CODE%.yml
 
 MANGLER:
   prefix: constrainsconfig-
@@ -137,7 +130,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/custom_html/%CODE%.yml
-  targetPattern: shapado/config/locales/custom_html/%CODE%.yml
 
 MANGLER:
   prefix: customhtml-
@@ -149,7 +141,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/devise/devise.%CODE%.yml
-  targetPattern: shapado/config/locales/devise/devise.%CODE%.yml
 
 MANGLER:
   prefix: devise-
@@ -161,7 +152,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/doc/%CODE%.yml
-  targetPattern: shapado/config/locales/doc/%CODE%.yml
 
 MANGLER:
   prefix: doc-
@@ -173,7 +163,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/errors/%CODE%.yml
-  targetPattern: shapado/config/locales/errors/%CODE%.yml
 
 MANGLER:
   prefix: errors-
@@ -185,7 +174,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/favorites/%CODE%.yml
-  targetPattern: shapado/config/locales/favorites/%CODE%.yml
 
 MANGLER:
   prefix: favs-
@@ -197,7 +185,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/flags/%CODE%.yml
-  targetPattern: shapado/config/locales/flags/%CODE%.yml
 
 MANGLER:
   prefix: flags-
@@ -209,7 +196,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/global/%CODE%.yml
-  targetPattern: shapado/config/locales/global/%CODE%.yml
 
 MANGLER:
   prefix: global-
@@ -224,7 +210,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/groups/%CODE%.yml
-  targetPattern: shapado/config/locales/groups/%CODE%.yml
 
 MANGLER:
   prefix: groups-
@@ -236,7 +221,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/imports/%CODE%.yml
-  targetPattern: shapado/config/locales/imports/%CODE%.yml
 
 MANGLER:
   prefix: imports-
@@ -248,7 +232,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/invitations/%CODE%.yml
-  targetPattern: shapado/config/locales/invitations/%CODE%.yml
 
 MANGLER:
   prefix: invitations-
@@ -260,7 +243,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/jobs/%CODE%.yml
-  targetPattern: shapado/config/locales/jobs/%CODE%.yml
 
 MANGLER:
   prefix: jobs-
@@ -272,7 +254,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/layouts/%CODE%.yml
-  targetPattern: shapado/config/locales/layouts/%CODE%.yml
 
 MANGLER:
   prefix: layouts-
@@ -285,7 +266,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/mailers/%CODE%.yml
-  targetPattern: shapado/config/locales/mailers/%CODE%.yml
 
 MANGLER:
   prefix: mailers-
@@ -297,7 +277,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/manage/%CODE%.yml
-  targetPattern: shapado/config/locales/manage/%CODE%.yml
 
 MANGLER:
   prefix: manage-
@@ -309,7 +288,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/members/%CODE%.yml
-  targetPattern: shapado/config/locales/members/%CODE%.yml
 
 MANGLER:
   prefix: members-
@@ -322,7 +300,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/moderate/%CODE%.yml
-  targetPattern: shapado/config/locales/moderate/%CODE%.yml
 
 MANGLER:
   prefix: moderate-
@@ -335,7 +312,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/notifier/%CODE%.yml
-  targetPattern: shapado/config/locales/notifier/%CODE%.yml
 
 MANGLER:
   prefix: notifier-
@@ -347,7 +323,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/open_requests/%CODE%.yml
-  targetPattern: shapado/config/locales/open_requests/%CODE%.yml
 
 MANGLER:
   prefix: openrequests-
@@ -359,7 +334,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/pages/%CODE%.yml
-  targetPattern: shapado/config/locales/pages/%CODE%.yml
 
 MANGLER:
   prefix: pages-
@@ -371,7 +345,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/questions/%CODE%.yml
-  targetPattern: shapado/config/locales/questions/%CODE%.yml
 
 MANGLER:
   prefix: questions-
@@ -383,7 +356,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/rewards/%CODE%.yml
-  targetPattern: shapado/config/locales/rewards/%CODE%.yml
 
 MANGLER:
   prefix: rewards-
@@ -395,7 +367,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/searches/%CODE%.yml
-  targetPattern: shapado/config/locales/searches/%CODE%.yml
 
 MANGLER:
   prefix: searches-
@@ -407,7 +378,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/sessions/%CODE%.yml
-  targetPattern: shapado/config/locales/sessions/%CODE%.yml
 
 MANGLER:
   prefix: sessions-
@@ -419,7 +389,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/shared/%CODE%.yml
-  targetPattern: shapado/config/locales/shared/%CODE%.yml
 
 MANGLER:
   prefix: shared-
@@ -435,7 +404,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/tags/%CODE%.yml
-  targetPattern: shapado/config/locales/tags/%CODE%.yml
 
 MANGLER:
   prefix: tags-
@@ -447,7 +415,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/themes/%CODE%.yml
-  targetPattern: shapado/config/locales/themes/%CODE%.yml
 
 MANGLER:
   prefix: themes-
@@ -459,7 +426,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/unfavorites/%CODE%.yml
-  targetPattern: shapado/config/locales/unfavorites/%CODE%.yml
 
 MANGLER:
   prefix: unfav-
@@ -471,7 +437,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/users/%CODE%.yml
-  targetPattern: shapado/config/locales/users/%CODE%.yml
 
 MANGLER:
   prefix: users-
@@ -483,7 +448,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/votes/%CODE%.yml
-  targetPattern: shapado/config/locales/votes/%CODE%.yml
 
 MANGLER:
   prefix: votes-
@@ -495,7 +459,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/welcome/%CODE%.yml
-  targetPattern: shapado/config/locales/welcome/%CODE%.yml
 
 MANGLER:
   prefix: welcome-
@@ -507,7 +470,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/widgets/%CODE%.yml
-  targetPattern: shapado/config/locales/widgets/%CODE%.yml
 
 MANGLER:
   prefix: widgets-
@@ -526,7 +488,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/shapado/config/locales/wiki/%CODE%.yml
-  targetPattern: shapado/config/locales/wiki/%CODE%.yml
 
 MANGLER:
   prefix: wiki-
@@ -539,7 +500,6 @@ BASIC:
 FILES:
   class: ShapadoJsFFS
   sourcePattern: %GROUPROOT%/shapado/app/assets/javascripts/i18n/%CODE%.js
-  targetPattern: shapado/app/assets/javascripts/i18n/%CODE%.js
 
 MANGLER:
   prefix: js-

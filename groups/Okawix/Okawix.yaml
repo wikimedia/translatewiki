@@ -29,7 +29,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/okawix/%CODE%/interfacewiki/okawix-doc.properties
-  targetPattern: okawix/%CODE%/interfacewiki/okawix-doc.properties
 
 ---
 BASIC:
@@ -39,7 +38,6 @@ BASIC:
 FILES:
   class: DtdFFS
   sourcePattern: %GROUPROOT%/okawix/%CODE%/interfacewiki/okawix.dtd
-  targetPattern: okawix/%CODE%/interfacewiki/okawix.dtd
 
 AUTOLOAD:
   OkawixDtdFFS: Okawix-dtd.php
@@ -51,7 +49,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/okawix/%CODE%/interfacewiki/okawix.properties
-  targetPattern: okawix/%CODE%/interfacewiki/okawix.properties
 
 TAGS:
   ignored:
@@ -75,4 +72,3 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/okawix/%CODE%/interfacewiki/okawix-site.properties
-  targetPattern: okawix/%CODE%/interfacewiki/okawix-site.properties

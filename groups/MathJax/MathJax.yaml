@@ -34,7 +34,6 @@ FILES:
   class: JsonFFS
   sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/%CODE%.json
   definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/%CODE%.json
-  targetPattern: mathjax/JSON/%CODE%/%CODE%.json
 
 MANGLER:
   class: StringMatcher
@@ -53,7 +52,6 @@ FILES:
   class: JsonFFS
   sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/TeX.json
   definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/TeX.json
-  targetPattern: mathjax/JSON/%CODE%/TeX.json
 
 MANGLER:
   class: StringMatcher
@@ -72,7 +70,6 @@ FILES:
   class: JsonFFS
   sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/MathMenu.json
   definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/MathMenu.json
-  targetPattern: mathjax/JSON/%CODE%/MathMenu.json
 
 MANGLER:
   class: StringMatcher
@@ -91,7 +88,6 @@ FILES:
   class: JsonFFS
   sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/MathML.json
   definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/MathML.json
-  targetPattern: mathjax/JSON/%CODE%/MathML.json
 
 MANGLER:
   class: StringMatcher
@@ -110,7 +106,6 @@ FILES:
   class: JsonFFS
   sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/HelpDialog.json
   definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/HelpDialog.json
-  targetPattern: mathjax/JSON/%CODE%/HelpDialog.json
 
 MANGLER:
   class: StringMatcher
@@ -129,7 +124,6 @@ FILES:
   class: JsonFFS
   sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/HTML-CSS.json
   definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/HTML-CSS.json
-  targetPattern: mathjax/JSON/%CODE%/HTML-CSS.json
 
 MANGLER:
   class: StringMatcher
@@ -148,7 +142,6 @@ FILES:
   class: JsonFFS
   sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/FontWarnings.json
   definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/FontWarnings.json
-  targetPattern: mathjax/JSON/%CODE%/FontWarnings.json
 
 MANGLER:
   class: StringMatcher

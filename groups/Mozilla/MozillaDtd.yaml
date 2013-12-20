@@ -32,7 +32,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutCertError.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutCertError.dtd
 
 MANGLER:
   prefix: chrome-browser-aboutcerterror-dtd-
@@ -44,7 +43,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutDialog.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutDialog.dtd
 
 MANGLER:
   prefix: chrome-browser-aboutdialog-dtd-
@@ -56,7 +54,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutHome.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutHome.dtd
 
 MANGLER:
   prefix: chrome-browser-abouthome-dtd-
@@ -68,7 +65,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutPrivateBrowsing.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutPrivateBrowsing.dtd
 
 MANGLER:
   prefix: chrome-browser-aboutprivatebrowsing-dtd-
@@ -80,7 +76,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutRobots.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutRobots.dtd
 
 MANGLER:
   prefix: chrome-browser-aboutrobots-dtd-
@@ -92,7 +87,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutSessionRestore.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutSessionRestore.dtd
 
 MANGLER:
   prefix: chrome-browser-aboutsessionrestore-dtd-
@@ -104,7 +98,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/aboutSyncTabs.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/aboutSyncTabs.dtd
 
 MANGLER:
   prefix: chrome-browser-aboutsynctabs-dtd-
@@ -116,7 +109,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/baseMenuOverlay.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/baseMenuOverlay.dtd
 
 MANGLER:
   prefix: chrome-browser-basemenuoverlay-dtd-
@@ -128,7 +120,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/browser.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/browser.dtd
 
 MANGLER:
   prefix: chrome-browser-browser-dtd-
@@ -140,7 +131,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/debugger.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/debugger.dtd
 
 MANGLER:
   prefix: chrome-browser-devtools-debugger-dtd-
@@ -152,7 +142,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/layoutview.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/layoutview.dtd
 
 MANGLER:
   prefix: chrome-browser-devtools-layoutview-dtd-
@@ -164,7 +153,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/scratchpad.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/scratchpad.dtd
 
 MANGLER:
   prefix: chrome-browser-devtools-scratchpad-dtd-
@@ -176,7 +164,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/sourceeditor.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/sourceeditor.dtd
 
 MANGLER:
   prefix: chrome-browser-devtools-sourceeditor-dtd-
@@ -188,7 +175,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/styleeditor.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/styleeditor.dtd
 
 MANGLER:
   prefix: chrome-browser-devtools-styleeditor-dtd-
@@ -200,7 +186,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/styleinspector.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/styleinspector.dtd
 
 MANGLER:
   prefix: chrome-browser-devtools-styleinspector-dtd-
@@ -212,7 +197,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/webConsole.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/webConsole.dtd
 
 MANGLER:
   prefix: chrome-browser-devtools-webconsole-dtd-
@@ -224,7 +208,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/downloads/downloads.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/downloads/downloads.dtd
 
 MANGLER:
   prefix: chrome-browser-downloads-downloads-dtd-
@@ -236,7 +219,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/engineManager.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/engineManager.dtd
 
 MANGLER:
   prefix: chrome-browser-enginemanager-dtd-
@@ -248,7 +230,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/feeds/subscribe.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/feeds/subscribe.dtd
 
 MANGLER:
   prefix: chrome-browser-feeds-subscribe-dtd-
@@ -260,7 +241,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/migration/migration.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/migration/migration.dtd
 
 MANGLER:
   prefix: chrome-browser-migration-migration-dtd-
@@ -272,7 +252,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/newTab.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/newTab.dtd
 
 MANGLER:
   prefix: chrome-browser-newtab-dtd-
@@ -284,7 +263,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/openLocation.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/openLocation.dtd
 
 MANGLER:
   prefix: chrome-browser-openlocation-dtd-
@@ -296,7 +274,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/pageInfo.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/pageInfo.dtd
 
 MANGLER:
   prefix: chrome-browser-pageinfo-dtd-
@@ -308,7 +285,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/places/editBookmarkOverlay.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/places/editBookmarkOverlay.dtd
 
 MANGLER:
   prefix: chrome-browser-places-editbookmarkoverlay-dtd-
@@ -320,7 +296,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/places/moveBookmarks.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/places/moveBookmarks.dtd
 
 MANGLER:
   prefix: chrome-browser-places-movebookmarks-dtd-
@@ -332,7 +307,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/places/places.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/places/places.dtd
 
 MANGLER:
   prefix: chrome-browser-places-places-dtd-
@@ -344,7 +318,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/aboutPermissions.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/aboutPermissions.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-aboutpermissions-dtd-
@@ -356,7 +329,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/advanced-scripts.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/advanced-scripts.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-advanced-scripts-dtd-
@@ -368,7 +340,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/advanced.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/advanced.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-advanced-dtd-
@@ -380,7 +351,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/applicationManager.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/applicationManager.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-applicationmanager-dtd-
@@ -392,7 +362,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/applications.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/applications.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-applications-dtd-
@@ -404,7 +373,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/colors.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/colors.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-colors-dtd-
@@ -416,7 +384,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/connection.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/connection.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-connection-dtd-
@@ -428,7 +395,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/content.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/content.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-content-dtd-
@@ -440,7 +406,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/cookies.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/cookies.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-cookies-dtd-
@@ -452,7 +417,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/fonts.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/fonts.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-fonts-dtd-
@@ -464,7 +428,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/languages.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/languages.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-languages-dtd-
@@ -476,7 +439,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/main.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/main.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-main-dtd-
@@ -488,7 +450,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/permissions.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/permissions.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-permissions-dtd-
@@ -500,7 +461,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/preferences.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/preferences.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-preferences-dtd-
@@ -512,7 +472,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/privacy.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/privacy.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-privacy-dtd-
@@ -524,7 +483,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/security.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/security.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-security-dtd-
@@ -536,7 +494,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/selectBookmark.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/selectBookmark.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-selectbookmark-dtd-
@@ -548,7 +505,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/sync.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/sync.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-sync-dtd-
@@ -560,7 +516,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/tabs.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/tabs.dtd
 
 MANGLER:
   prefix: chrome-browser-preferences-tabs-dtd-
@@ -572,7 +527,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/safeMode.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/safeMode.dtd
 
 MANGLER:
   prefix: chrome-browser-safemode-dtd-
@@ -584,7 +538,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd
 
 MANGLER:
   prefix: chrome-browser-safebrowsing-phishing-afterload-warning-message-dtd-
@@ -596,7 +549,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/safebrowsing/report-phishing.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/safebrowsing/report-phishing.dtd
 
 MANGLER:
   prefix: chrome-browser-safebrowsing-report-phishing-dtd-
@@ -608,7 +560,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/sanitize.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/sanitize.dtd
 
 MANGLER:
   prefix: chrome-browser-sanitize-dtd-
@@ -620,7 +571,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/searchbar.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/searchbar.dtd
 
 MANGLER:
   prefix: chrome-browser-searchbar-dtd-
@@ -632,7 +582,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/setDesktopBackground.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/setDesktopBackground.dtd
 
 MANGLER:
   prefix: chrome-browser-setdesktopbackground-dtd-
@@ -644,7 +593,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncBrand.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncBrand.dtd
 
 MANGLER:
   prefix: chrome-browser-syncbrand-dtd-
@@ -656,7 +604,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncKey.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncKey.dtd
 
 MANGLER:
   prefix: chrome-browser-synckey-dtd-
@@ -668,7 +615,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncProgress.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncProgress.dtd
 
 MANGLER:
   prefix: chrome-browser-syncprogress-dtd-
@@ -680,7 +626,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncQuota.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncQuota.dtd
 
 MANGLER:
   prefix: chrome-browser-syncquota-dtd-
@@ -692,7 +637,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncSetup.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncSetup.dtd
 
 MANGLER:
   prefix: chrome-browser-syncsetup-dtd-
@@ -704,7 +648,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/tabbrowser.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/tabbrowser.dtd
 
 MANGLER:
   prefix: chrome-browser-tabbrowser-dtd-
@@ -716,7 +659,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/overrides/netError.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/overrides/netError.dtd
 
 MANGLER:
   prefix: chrome-overrides-neterror-dtd-
@@ -728,7 +670,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/overrides/settingsChange.dtd
-  targetPattern: mozilla/%CODE%/browser/chrome/overrides/settingsChange.dtd
 
 MANGLER:
   prefix: chrome-overrides-settingschange-dtd-
@@ -740,7 +681,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/feedback/main.dtd
-  targetPattern: mozilla/%CODE%/browser/feedback/main.dtd
 
 MANGLER:
   prefix: feedback-main-dtd-
@@ -752,7 +692,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/webapprt/webapp.dtd
-  targetPattern: mozilla/%CODE%/browser/webapprt/webapp.dtd
 
 MANGLER:
   prefix: webapprt-webapp-dtd-

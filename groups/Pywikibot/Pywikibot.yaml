@@ -70,7 +70,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/add_text.py
   definitionFile: %GROUPROOT%/pywikibot/add_text.py
-  targetPattern: pywikibot/add_text.py
 ---
 BASIC:
   id: out-pywikipedia-archivebot
@@ -79,7 +78,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/archivebot.py
   definitionFile: %GROUPROOT%/pywikibot/archivebot.py
-  targetPattern: pywikibot/archivebot.py
 ---
 BASIC:
   id: out-pywikipedia-basic
@@ -88,7 +86,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/basic.py
   definitionFile: %GROUPROOT%/pywikibot/basic.py
-  targetPattern: pywikibot/basic.py
 ---
 BASIC:
   id: out-pywikipedia-blockpageschecker
@@ -97,7 +94,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/blockpageschecker.py
   definitionFile: %GROUPROOT%/pywikibot/blockpageschecker.py
-  targetPattern: pywikibot/blockpageschecker.py
 ---
 BASIC:
   id: out-pywikipedia-capitalizeredirects
@@ -106,7 +102,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/capitalize_redirects.py
   definitionFile: %GROUPROOT%/pywikibot/capitalize_redirects.py
-  targetPattern: pywikibot/capitalize_redirects.py
 ---
 BASIC:
   id: out-pywikipedia-casechecker
@@ -115,7 +110,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/casechecker.py
   definitionFile: %GROUPROOT%/pywikibot/casechecker.py
-  targetPattern: pywikibot/casechecker.py
 ---
 BASIC:
   id: out-pywikipedia-catall
@@ -124,7 +118,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/catall.py
   definitionFile: %GROUPROOT%/pywikibot/catall.py
-  targetPattern: pywikibot/catall.py
 ---
 BASIC:
   id: out-pywikipedia-category
@@ -133,7 +126,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/category.py
   definitionFile: %GROUPROOT%/pywikibot/category.py
-  targetPattern: pywikibot/category.py
 ---
 BASIC:
   id: out-pywikipedia-categoryredirect
@@ -142,7 +134,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/category_redirect.py
   definitionFile: %GROUPROOT%/pywikibot/category_redirect.py
-  targetPattern: pywikibot/category_redirect.py
 ---
 BASIC:
   id: out-pywikipedia-cleansandbox
@@ -151,7 +142,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/clean_sandbox.py
   definitionFile: %GROUPROOT%/pywikibot/clean_sandbox.py
-  targetPattern: pywikibot/clean_sandbox.py
 ---
 BASIC:
   id: out-pywikipedia-commons
@@ -160,7 +150,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/commons.py
   definitionFile: %GROUPROOT%/pywikibot/commons.py
-  targetPattern: pywikibot/commons.py
 ---
 BASIC:
   id: out-pywikipedia-commonslink
@@ -169,7 +158,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/commons_link.py
   definitionFile: %GROUPROOT%/pywikibot/commons_link.py
-  targetPattern: pywikibot/commons_link.py
 ---
 BASIC:
   id: out-pywikipedia-cosmeticchanges
@@ -178,7 +166,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/cosmetic_changes.py
   definitionFile: %GROUPROOT%/pywikibot/cosmetic_changes.py
-  targetPattern: pywikibot/cosmetic_changes.py
 ---
 BASIC:
   id: out-pywikipedia-delete
@@ -187,7 +174,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/delete.py
   definitionFile: %GROUPROOT%/pywikibot/delete.py
-  targetPattern: pywikibot/delete.py
 ---
 BASIC:
   id: out-pywikipedia-djvutext
@@ -196,7 +182,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/djvutext.py
   definitionFile: %GROUPROOT%/pywikibot/djvutext.py
-  targetPattern: pywikibot/djvutext.py
 ---
 BASIC:
   id: out-pywikipedia-editarticle
@@ -205,7 +190,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/editarticle.py
   definitionFile: %GROUPROOT%/pywikibot/editarticle.py
-  targetPattern: pywikibot/editarticle.py
 ---
 BASIC:
   id: out-pywikipedia-featured
@@ -214,7 +198,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/featured.py
   definitionFile: %GROUPROOT%/pywikibot/featured.py
-  targetPattern: pywikibot/featured.py
 ---
 BASIC:
   id: out-pywikipedia-fixingredirects
@@ -223,7 +206,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/fixing_redirects.py
   definitionFile: %GROUPROOT%/pywikibot/fixing_redirects.py
-  targetPattern: pywikibot/fixing_redirects.py
 ---
 BASIC:
   id: out-pywikipedia-interwiki
@@ -232,7 +214,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/interwiki.py
   definitionFile: %GROUPROOT%/pywikibot/interwiki.py
-  targetPattern: pywikibot/interwiki.py
 
 TAGS:
   optional:
@@ -245,7 +226,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/isbn.py
   definitionFile: %GROUPROOT%/pywikibot/isbn.py
-  targetPattern: pywikibot/isbn.py
 ---
 BASIC:
   id: out-pywikipedia-movepages
@@ -254,7 +234,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/movepages.py
   definitionFile: %GROUPROOT%/pywikibot/movepages.py
-  targetPattern: pywikibot/movepages.py
 ---
 BASIC:
   id: out-pywikipedia-ndashredir
@@ -263,7 +242,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/ndashredir.py
   definitionFile: %GROUPROOT%/pywikibot/ndashredir.py
-  targetPattern: pywikibot/ndashredir.py
 ---
 BASIC:
   id: out-pywikipedia-noreferences
@@ -272,7 +250,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/noreferences.py
   definitionFile: %GROUPROOT%/pywikibot/noreferences.py
-  targetPattern: pywikibot/noreferences.py
 ---
 BASIC:
   id: out-pywikipedia-pywikibot
@@ -281,7 +258,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/pywikibot.py
   definitionFile: %GROUPROOT%/pywikibot/pywikibot.py
-  targetPattern: pywikibot/pywikibot.py
 ---
 BASIC:
   id: out-pywikipedia-redirect
@@ -290,7 +266,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/redirect.py
   definitionFile: %GROUPROOT%/pywikibot/redirect.py
-  targetPattern: pywikibot/redirect.py
 ---
 BASIC:
   id: out-pywikipedia-reflinks
@@ -299,7 +274,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/reflinks.py
   definitionFile: %GROUPROOT%/pywikibot/reflinks.py
-  targetPattern: pywikibot/reflinks.py
 ---
 BASIC:
   id: out-pywikipedia-replace
@@ -308,7 +282,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/replace.py
   definitionFile: %GROUPROOT%/pywikibot/replace.py
-  targetPattern: pywikibot/replace.py
 ---
 BASIC:
   id: out-pywikipedia-solvedisambiguation
@@ -317,7 +290,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/solve_disambiguation.py
   definitionFile: %GROUPROOT%/pywikibot/solve_disambiguation.py
-  targetPattern: pywikibot/solve_disambiguation.py
 ---
 BASIC:
   id: out-pywikipedia-spellcheck
@@ -326,7 +298,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/spellcheck.py
   definitionFile: %GROUPROOT%/pywikibot/spellcheck.py
-  targetPattern: pywikibot/spellcheck.py
 ---
 BASIC:
   id: out-pywikipedia-table2wiki
@@ -335,7 +306,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/table2wiki.py
   definitionFile: %GROUPROOT%/pywikibot/table2wiki.py
-  targetPattern: pywikibot/table2wiki.py
 ---
 BASIC:
   id: out-pywikipedia-template
@@ -344,7 +314,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/template.py
   definitionFile: %GROUPROOT%/pywikibot/template.py
-  targetPattern: pywikibot/template.py
 
 TAGS:
   optional:
@@ -357,7 +326,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/thirdparty.py
   definitionFile: %GROUPROOT%/pywikibot/thirdparty.py
-  targetPattern: pywikibot/thirdparty.py
 ---
 BASIC:
   id: out-pywikipedia-unlink
@@ -366,7 +334,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/unlink.py
   definitionFile: %GROUPROOT%/pywikibot/unlink.py
-  targetPattern: pywikibot/unlink.py
 ---
 BASIC:
   id: out-pywikipedia-weblinkchecker
@@ -375,7 +342,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/weblinkchecker.py
   definitionFile: %GROUPROOT%/pywikibot/weblinkchecker.py
-  targetPattern: pywikibot/weblinkchecker.py
 ---
 BASIC:
   id: out-pywikipedia-welcome
@@ -384,4 +350,3 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/welcome.py
   definitionFile: %GROUPROOT%/pywikibot/welcome.py
-  targetPattern: pywikibot/welcome.py

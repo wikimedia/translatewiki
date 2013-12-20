@@ -36,7 +36,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/osm/config/locales/%CODE%.yml
-  targetPattern: osm/config/locales/%CODE%.yml
 
 CHECKER:
   class: OSMMessageChecker

@@ -105,7 +105,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mantis/lang/strings_%CODE%.txt
-  targetPattern: mantis/lang/strings_%CODE%.txt
 
 TAGS:
   optional:
@@ -127,7 +126,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mantis/plugins/MantisCoreFormatting/lang/strings_%CODE%.txt
-  targetPattern: mantis/plugins/MantisCoreFormatting/lang/strings_%CODE%.txt
 
 ---
 BASIC:
@@ -137,7 +135,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mantis/plugins/MantisGraph/lang/strings_%CODE%.txt
-  targetPattern: mantis/plugins/MantisGraph/lang/strings_%CODE%.txt
 
 ---
 BASIC:
@@ -147,4 +144,3 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mantis/plugins/XmlImportExport/lang/strings_%CODE%.txt
-  targetPattern: mantis/plugins/XmlImportExport/lang/strings_%CODE%.txt

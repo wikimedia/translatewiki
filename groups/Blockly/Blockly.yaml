@@ -28,7 +28,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/blockly/apps/json/%CODE%.json
-  targetPattern: blockly/apps/json/%CODE%.json
 
 ---
 BASIC:
@@ -37,7 +36,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/blockly/msg/json/%CODE%.json
-  targetPattern: blockly/msg/json/%CODE%.json
 
 TAGS:
   optional:

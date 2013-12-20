@@ -43,7 +43,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/eol/config/translations/%CODE%.yml
-  targetPattern: eol/config/translations/%CODE%.yml
 
 MANGLER:
   class: StringMatcher
@@ -148,7 +147,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/eol/config/translations/%CODE%-db.yml
-  targetPattern: eol/config/translations/%CODE%-db.yml
 
 MANGLER:
   class: StringMatcher

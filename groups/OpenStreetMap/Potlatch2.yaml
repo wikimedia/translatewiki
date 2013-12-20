@@ -41,7 +41,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/potlatch2/l10n/locale/%CODE%/help_dialog.properties
   definitionFile: %GROUPROOT%/potlatch2/l10n/locale/%CODE%/help_dialog.properties
-  targetPattern: potlatch2/l10n/locale/%CODE%/help_dialog.properties
 
 MANGLER:
   prefix: help-
@@ -54,7 +53,6 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/potlatch2/l10n/locale/%CODE%/p2_main.properties
   definitionFile: %GROUPROOT%/potlatch2/l10n/locale/%CODE%/p2_main.properties
-  targetPattern: potlatch2/l10n/locale/%CODE%/p2_main.properties
 
 MANGLER:
   prefix: main-

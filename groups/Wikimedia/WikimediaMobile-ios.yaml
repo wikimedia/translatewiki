@@ -16,4 +16,3 @@ MANGLER:
 FILES:
   class: JsonFFS
   sourcePattern: %GROUPROOT%/commons-ios/Commons-iOS/messages/messages-%CODE%.json
-  targetPattern: commons-ios/Commons-iOS/messages/messages-%CODE%.json

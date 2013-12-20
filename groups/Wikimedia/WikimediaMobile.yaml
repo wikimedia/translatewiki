@@ -40,7 +40,6 @@ MANGLER:
 FILES:
   sourcePattern: %GROUPROOT%/WikipediaMobile/assets/www/messages/messages-%CODE%.properties
   definitionFile: %GROUPROOT%/WikipediaMobile/assets/www/messages/messages-en.properties
-  targetPattern: WikipediaMobile/assets/www/messages/messages-%CODE%.properties
   header: |
     # This file is distributed under the same license as the Wikipedia Mobile PhoneGap package.
     #
@@ -61,7 +60,6 @@ MANGLER:
 FILES:
   sourcePattern: %GROUPROOT%/WikipediaMobileJ2ME/messages/messages-%CODE%.properties
   definitionFile: %GROUPROOT%/WikipediaMobileJ2ME/messages/messages-en.properties
-  targetPattern: WikipediaMobileJ2ME/messages/messages-%CODE%.properties
   header: |
     # This file is distributed under the same license as the Wikipedia Mobile PhoneGap package.
     #
@@ -90,7 +88,6 @@ MANGLER:
 FILES:
   sourcePattern: %GROUPROOT%/WikisourceMobile/assets/www/messages/messages-%CODE%.properties
   definitionFile: %GROUPROOT%/WikisourceMobile/assets/www/messages/messages-en.properties
-  targetPattern: WikisourceMobile/assets/www/messages/messages-%CODE%.properties
   header: |
     # This file is distributed under the same license as the Wikisource Mobile package.
     #
@@ -111,7 +108,6 @@ MANGLER:
 FILES:
   sourcePattern: %GROUPROOT%/WiktionaryMobile/assets/www/messages/messages-%CODE%.properties
   definitionFile: %GROUPROOT%/WiktionaryMobile/assets/www/messages/messages-en.properties
-  targetPattern: WiktionaryMobile/assets/www/messages/messages-%CODE%.properties
   header: |
     # This file is distributed under the same license as the Wiktionary Mobile package.
     #

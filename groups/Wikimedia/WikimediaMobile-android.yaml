@@ -217,7 +217,6 @@ MANGLER:
 FILES:
   sourcePattern: %GROUPROOT%/commons-android/commons/res/values-%CODE%/strings.xml
   definitionFile: %GROUPROOT%/commons-android/commons/res/values/strings.xml
-  targetPattern: commons-android/commons/res/values-%CODE%/strings.xml
 
 ---
 BASIC:
@@ -230,4 +229,3 @@ MANGLER:
 FILES:
   sourcePattern: %GROUPROOT%/commons-android/commons/res/values-%CODE%/error.xml
   definitionFile: %GROUPROOT%/commons-android/commons/res/values/error.xml
-  targetPattern: commons-android/commons/res/values-%CODE%/error.xml

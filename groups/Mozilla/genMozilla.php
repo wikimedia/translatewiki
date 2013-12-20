@@ -123,7 +123,6 @@ PHP;
 			$output .= "\n";
 			$output .= "FILES:\n";
 			$output .= "  sourcePattern: %GROUPROOT%/${localeFolder}/${file}\n";
-			$output .= "  targetPattern: ${localeFolder}/${file}\n";
 			$output .= "\n";
 			// Mangler prefix based on group ID.
 			$output .= "MANGLER:\n";

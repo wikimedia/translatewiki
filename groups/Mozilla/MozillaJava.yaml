@@ -32,7 +32,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser-region/region.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser-region/region.properties
 
 MANGLER:
   prefix: chrome-browser-region-region-java-
@@ -44,7 +43,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/browser.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/browser.properties
 
 MANGLER:
   prefix: chrome-browser-browser-java-
@@ -56,7 +54,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/debugger.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/debugger.properties
 
 MANGLER:
   prefix: chrome-browser-devtools-debugger-java-
@@ -68,7 +65,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/gcli.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/gcli.properties
 
 MANGLER:
   prefix: chrome-browser-devtools-gcli-java-
@@ -80,7 +76,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/gclicommands.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/gclicommands.properties
 
 MANGLER:
   prefix: chrome-browser-devtools-gclicommands-java-
@@ -92,7 +87,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/inspector.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/inspector.properties
 
 MANGLER:
   prefix: chrome-browser-devtools-inspector-java-
@@ -104,7 +98,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/responsiveUI.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/responsiveUI.properties
 
 MANGLER:
   prefix: chrome-browser-devtools-responsiveui-java-
@@ -116,7 +109,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/scratchpad.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/scratchpad.properties
 
 MANGLER:
   prefix: chrome-browser-devtools-scratchpad-java-
@@ -128,7 +120,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/sourceeditor.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/sourceeditor.properties
 
 MANGLER:
   prefix: chrome-browser-devtools-sourceeditor-java-
@@ -140,7 +131,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/styleeditor.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/styleeditor.properties
 
 MANGLER:
   prefix: chrome-browser-devtools-styleeditor-java-
@@ -152,7 +142,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/styleinspector.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/styleinspector.properties
 
 MANGLER:
   prefix: chrome-browser-devtools-styleinspector-java-
@@ -164,7 +153,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/tilt.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/tilt.properties
 
 MANGLER:
   prefix: chrome-browser-devtools-tilt-java-
@@ -176,7 +164,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/devtools/webconsole.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/devtools/webconsole.properties
 
 MANGLER:
   prefix: chrome-browser-devtools-webconsole-java-
@@ -188,7 +175,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/downloads/downloads.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/downloads/downloads.properties
 
 MANGLER:
   prefix: chrome-browser-downloads-downloads-java-
@@ -200,7 +186,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/engineManager.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/engineManager.properties
 
 MANGLER:
   prefix: chrome-browser-enginemanager-java-
@@ -212,7 +197,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/feeds/subscribe.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/feeds/subscribe.properties
 
 MANGLER:
   prefix: chrome-browser-feeds-subscribe-java-
@@ -224,7 +208,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/migration/migration.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/migration/migration.properties
 
 MANGLER:
   prefix: chrome-browser-migration-migration-java-
@@ -236,7 +219,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/newTab.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/newTab.properties
 
 MANGLER:
   prefix: chrome-browser-newtab-java-
@@ -248,7 +230,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/openLocation.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/openLocation.properties
 
 MANGLER:
   prefix: chrome-browser-openlocation-java-
@@ -260,7 +241,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/pageInfo.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/pageInfo.properties
 
 MANGLER:
   prefix: chrome-browser-pageinfo-java-
@@ -272,7 +252,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/places/bookmarkProperties.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/places/bookmarkProperties.properties
 
 MANGLER:
   prefix: chrome-browser-places-bookmarkproperties-java-
@@ -284,7 +263,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/places/places.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/places/places.properties
 
 MANGLER:
   prefix: chrome-browser-places-places-java-
@@ -296,7 +274,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/aboutPermissions.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/aboutPermissions.properties
 
 MANGLER:
   prefix: chrome-browser-preferences-aboutpermissions-java-
@@ -308,7 +285,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/applicationManager.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/applicationManager.properties
 
 MANGLER:
   prefix: chrome-browser-preferences-applicationmanager-java-
@@ -320,7 +296,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/preferences/preferences.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/preferences/preferences.properties
 
 MANGLER:
   prefix: chrome-browser-preferences-preferences-java-
@@ -332,7 +307,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/quitDialog.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/quitDialog.properties
 
 MANGLER:
   prefix: chrome-browser-quitdialog-java-
@@ -344,7 +318,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/search.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/search.properties
 
 MANGLER:
   prefix: chrome-browser-search-java-
@@ -356,7 +329,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/shellservice.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/shellservice.properties
 
 MANGLER:
   prefix: chrome-browser-shellservice-java-
@@ -368,7 +340,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncGenericChange.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncGenericChange.properties
 
 MANGLER:
   prefix: chrome-browser-syncgenericchange-java-
@@ -380,7 +351,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncQuota.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncQuota.properties
 
 MANGLER:
   prefix: chrome-browser-syncquota-java-
@@ -392,7 +362,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/syncSetup.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/syncSetup.properties
 
 MANGLER:
   prefix: chrome-browser-syncsetup-java-
@@ -404,7 +373,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/tabbrowser.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/tabbrowser.properties
 
 MANGLER:
   prefix: chrome-browser-tabbrowser-java-
@@ -416,7 +384,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/tabview.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/tabview.properties
 
 MANGLER:
   prefix: chrome-browser-tabview-java-
@@ -428,7 +395,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/browser/taskbar.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/browser/taskbar.properties
 
 MANGLER:
   prefix: chrome-browser-taskbar-java-
@@ -440,7 +406,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/chrome/overrides/appstrings.properties
-  targetPattern: mozilla/%CODE%/browser/chrome/overrides/appstrings.properties
 
 MANGLER:
   prefix: chrome-overrides-appstrings-java-
@@ -452,7 +417,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/feedback/main.properties
-  targetPattern: mozilla/%CODE%/browser/feedback/main.properties
 
 MANGLER:
   prefix: feedback-main-java-
@@ -464,7 +428,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/installer/custom.properties
-  targetPattern: mozilla/%CODE%/browser/installer/custom.properties
 
 MANGLER:
   prefix: installer-custom-java-
@@ -476,7 +439,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/installer/mui.properties
-  targetPattern: mozilla/%CODE%/browser/installer/mui.properties
 
 MANGLER:
   prefix: installer-mui-java-
@@ -488,7 +450,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/installer/override.properties
-  targetPattern: mozilla/%CODE%/browser/installer/override.properties
 
 MANGLER:
   prefix: installer-override-java-
@@ -500,7 +461,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/pdfviewer/chrome.properties
-  targetPattern: mozilla/%CODE%/browser/pdfviewer/chrome.properties
 
 MANGLER:
   prefix: pdfviewer-chrome-java-
@@ -512,7 +472,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/pdfviewer/viewer.properties
-  targetPattern: mozilla/%CODE%/browser/pdfviewer/viewer.properties
 
 MANGLER:
   prefix: pdfviewer-viewer-java-
@@ -524,7 +483,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/webapp-uninstaller/webapp-uninstaller.properties
-  targetPattern: mozilla/%CODE%/browser/webapp-uninstaller/webapp-uninstaller.properties
 
 MANGLER:
   prefix: webapp-uninstaller-webapp-uninstaller-java-
@@ -536,7 +494,6 @@ BASIC:
 
 FILES:
   sourcePattern: %GROUPROOT%/mozilla/%CODE%/browser/webapprt/webapp.properties
-  targetPattern: mozilla/%CODE%/browser/webapprt/webapp.properties
 
 MANGLER:
   prefix: webapprt-webapp-java-

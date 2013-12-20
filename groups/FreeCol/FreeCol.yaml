@@ -11,7 +11,6 @@ FILES:
   class: JavaFFS
   sourcePattern: %GROUPROOT%/freecol/data/strings/FreeColMessages_%CODE%.properties
   definitionFile: %GROUPROOT%/freecol/data/strings/FreeColMessages.properties
-  targetPattern: freecol/data/strings/FreeColMessages_%CODE%.properties
   codeMap:
     cs:    cs_CZ
     es:    es_ES

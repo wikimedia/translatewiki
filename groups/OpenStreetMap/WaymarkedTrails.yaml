@@ -31,7 +31,6 @@ FILES:
   class: GettextFFS
   sourcePattern: %GROUPROOT%/waymarked-trails-site/django/locale/%CODE%/LC_MESSAGES/django.po
   definitionFile: %GROUPROOT%/waymarked-trails-site/django/locale/qot/LC_MESSAGES/django.po
-  targetPattern: waymarked-trails-site/django/locale/%CODE%/LC_MESSAGES/django.po
   codeMap:
     # This is needed because they have symlinked no to nb to avoid import
     "no": x-invalidLanguageCode
@@ -68,5 +67,4 @@ FILES:
   class: YamlFFS
   sourcePattern: %GROUPROOT%/waymarked-trails-site/django/locale/%CODE%/helppages.yaml
   definitionFile: %GROUPROOT%/waymarked-trails-site/django/locale/qot/helppages.yaml
-  targetPattern: waymarked-trails-site/django/locale/%CODE%/helppages.yaml
 

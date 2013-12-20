@@ -51,4 +51,3 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/statusnet/locale/%CODE%/LC_MESSAGES/statusnet.po
   definitionFile: %GROUPROOT%/statusnet/locale/statusnet.pot
-  targetPattern: statusnet/locale/%CODE%/LC_MESSAGES/statusnet.po

@@ -9,7 +9,6 @@ BASIC:
 FILES:
   class: FlatPhpFFS
   sourcePattern: %GROUPROOT%/wikiblame/%CODE%.php
-  targetPattern: wikiblame/%CODE%.php
   header: |
     <?php
     /** WikiBlame

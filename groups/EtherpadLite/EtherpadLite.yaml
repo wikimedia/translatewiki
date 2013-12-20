@@ -10,4 +10,3 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: %GROUPROOT%/etherpad-lite/src/locales/%CODE%.json
-  targetPattern: etherpad-lite/src/locales/%CODE%.json

@@ -23,7 +23,6 @@ BASIC:
 FILES:
   class: FlatPhpFFS
   sourcePattern: %GROUPROOT%/nocc/webmail/lang/%CODE%.php
-  targetPattern: nocc/webmail/lang/%CODE%.php
   codeMap:
     sr-el: sr
   header: |
@@ -66,7 +65,6 @@ FILES:
   class: GettextFFS
   definitionFile: %GROUPROOT%/nocc/htdocs/engine/languages/en.pot
   sourcePattern: %GROUPROOT%/nocc/htdocs/engine/languages/%CODE%.po
-  targetPattern: nocc/htdocs/engine/languages/%CODE%.po
   codeMap:
     en-gb:   en_GB
     en-us:   en_US
