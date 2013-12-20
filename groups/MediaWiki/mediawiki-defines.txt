@@ -1744,6 +1744,12 @@ Vector Beta
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
+OOjs UI (via VisualEditor)
+id = ext-visualeditor-oojs-ui
+descmsg = visualeditor-desc
+format = json
+file = VisualEditor/lib/oojs-ui/i18n/%CODE%.json
+
 VisualEditor Core
 id = ext-visualeditor-ve
 descmsg = visualeditor-desc
