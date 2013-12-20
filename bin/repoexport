@@ -179,7 +179,7 @@ elif [ "$PROJECT" = "wikiblame" ]
 then
 	php "$EXPORTER" --target . --group=out-wikiblame --lang '*' --skip en --threshold 1
 
-elif [ "$PROJECT" = "wikiamania" ]
+elif [ "$PROJECT" = "wikimania" ]
 then
 	php "$EXPORTER" --target . --group=out-wikimania-scholarships-app --lang '*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimania-scholarships-app --lang qqq
