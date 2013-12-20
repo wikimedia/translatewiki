@@ -1680,7 +1680,7 @@ ignored = tweetanew-accesskey
 Twitter Cards
 
 Twn Main Page
-file = TwnMainPage/MainPage.i18n.php
+format = json
 aliasfile = TwnMainPage/MainPage.alias.php
 descmsg = twnmp-desc
 optional = twnmp-stats-number-k
