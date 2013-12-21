@@ -1577,6 +1577,8 @@ Template Sandbox
 aliasfile = TemplateSandbox/TemplateSandbox.alias.php
 ignored = templatesandbox-editform-text, templatesandbox-editform-helptext
 
+Text Extracts
+
 Thanks
 
 Throttle Override
