@@ -1589,6 +1589,7 @@ Timed Media Handler
 #magicfile = TimedMediaHandler/TimedMediaHandler.i18n.magic.php
 aliasfile = TimedMediaHandler/TimedMediaHandler.i18n.alias.php
 optional = timedmedia-ogg, timedmedia-webm
+optional = timedmedia-mp4, timedmedia-flac
 optional = timedmedia-derivative-160p.ogv, timedmedia-derivative-360p.ogv
 optional = timedmedia-derivative-480p.ogv, timedmedia-derivative-720p.ogv
 optional = timedmedia-derivative-480p.webm, timedmedia-derivative-720p.webm
