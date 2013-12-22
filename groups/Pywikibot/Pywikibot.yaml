@@ -236,6 +236,14 @@ FILES:
   definitionFile: %GROUPROOT%/pywikibot/lonelypages.py
 ---
 BASIC:
+  id: out-pywikipedia-makecat
+  label: Pywikibot Make Cat
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/makecat.py
+  definitionFile: %GROUPROOT%/pywikibot/makecat.py
+---
+BASIC:
   id: out-pywikipedia-movepages
   label: Pywikibot Move Pages
 
