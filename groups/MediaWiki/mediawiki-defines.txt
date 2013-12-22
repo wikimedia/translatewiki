@@ -315,6 +315,10 @@ aliasfile = ContributionTracking/ContributionTracking.alias.php
 Contributors
 aliasfile = Contributors/Contributors.alias.php
 
+Convert 2 Wiki
+aliasfile = Convert2Wiki/Convert2Wiki.alias.php
+optional = convert2wiki-format-csv
+
 Copy To Clipboard
 
 # 2013-10-07: Renamed to Wikimedia Events
