@@ -25,7 +25,7 @@ server {
 	}
 
 	location = /sitemap {
-		 rewrite ^ "/w/index.php?title=Special:RecentChanges&translations=&feed=atom";
+		rewrite ^ "/w/index.php?title=Special:RecentChanges&translations=&feed=atom";
 	}
 
 
@@ -40,8 +40,14 @@ server {
 		fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 	}
 
-	location ~* \.(png|jpg|jpeg|gif|ico|svg|woff|eot|ttf)$ {
-		expires 2M;
+	location ~* ^/static/mainpage/.*\.jpg$ {
+		if ($http_accept ~ "image/webp") {
+			add_header Vary Accept;
+			rewrite ^ $uri.webp;
+		}
 	}
 
+	location ~* \.(png|jpg|jpeg|gif|ico|svg|woff|eot|ttf|webp)$ {
+		expires 2M;
+	}
 }
