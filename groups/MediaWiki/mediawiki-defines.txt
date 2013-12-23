@@ -1637,8 +1637,9 @@ Tor Block
 
 Translate - Core
 id = ext-translate-core
+format = json
+file = Translate/i18n/core/%CODE%.json
 descmsg = translate-desc
-file = Translate/Translate.i18n.php
 aliasfile = Translate/Translate.alias.php
 optional = translate-page-paging-links, supportedlanguages-portallink, supportedlanguages-portallink-nocldr
 optional = group-translate-proofr.css, group-translate-proofr.js
@@ -1646,27 +1647,32 @@ ignored = translate-edit-tag-warning, supportedlanguages-localsummary
 
 Translate - First Steps
 id = ext-translate-firststeps
-file = Translate/FirstSteps.i18n.php
+format = json
+file = Translate/i18n/firststeps/%CODE%.json
 descmsg = firststeps-desc
 
 Translate - Group Descriptions
 id = ext-translate-groupdescriptions
-file = Translate/TranslateGroupDescriptions.i18n.php
+format = json
+file = Translate/i18n/groupdescriptions/%CODE%.json
 descmsg = translategroupdescriptions-desc
 
 Translate - Page Translation
 id = ext-translate-pagetranslation
-file = Translate/PageTranslation.i18n.php
+format = json
+file = Translate/i18n/pagetranslation/%CODE%.json
 descmsg = tpt-desc
 optional = tpt-languages-separator
 
 Translate - Sandbox
 id = ext-translate-sandbox
-file = Translate/TranslateSandbox.i18n.php
+format = json
+file = Translate/i18n/sandbox/%CODE%.json
 
 Translate - Search
 id = ext-translate-search
-file = Translate/TranslateSearch.i18n.php
+format = json
+file = Translate/i18n/search/%CODE%.json
 
 Translate Svg
 aliasfile = TranslateSvg/TranslateSvg.alias.php
