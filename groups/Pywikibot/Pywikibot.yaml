@@ -358,3 +358,11 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/welcome.py
   definitionFile: %GROUPROOT%/pywikibot/welcome.py
+---
+BASIC:
+  id: out-pywikipedia-lonelypages
+  label: Pywikibot Lonely Pages Checker
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/lonelypages.py
+  definitionFile: %GROUPROOT%/pywikibot/lonelypages.py
