@@ -33,11 +33,17 @@ server {
 		deny all;
 	}
 
-	location ~* \.php$ {
+	# Allowed php files, case sensitive
+	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php$ {
 		fastcgi_pass unix:/var/run/php5-fpm.sock;
 		fastcgi_buffers 16 4k;
 		include fastcgi_params;
 		fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+	}
+
+	# Deny access to all php files except those above
+	location ~* \.php$ {
+		deny all;
 	}
 
 	location ~* ^/static/mainpage/.*\.jpg$ {
