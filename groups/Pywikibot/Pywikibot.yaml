@@ -228,6 +228,14 @@ FILES:
   definitionFile: %GROUPROOT%/pywikibot/isbn.py
 ---
 BASIC:
+  id: out-pywikipedia-lonelypages
+  label: Pywikibot Lonely Pages Checker
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/lonelypages.py
+  definitionFile: %GROUPROOT%/pywikibot/lonelypages.py
+---
+BASIC:
   id: out-pywikipedia-movepages
   label: Pywikibot Move Pages
 
@@ -258,6 +266,14 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/pywikibot.py
   definitionFile: %GROUPROOT%/pywikibot/pywikibot.py
+---
+BASIC:
+  id: out-pywikipedia-protect
+  label: Pywikibot Protect
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/protect.py
+  definitionFile: %GROUPROOT%/pywikibot/protect.py
 ---
 BASIC:
   id: out-pywikipedia-redirect
@@ -358,11 +374,3 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/welcome.py
   definitionFile: %GROUPROOT%/pywikibot/welcome.py
----
-BASIC:
-  id: out-pywikipedia-lonelypages
-  label: Pywikibot Lonely Pages Checker
-
-FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/lonelypages.py
-  definitionFile: %GROUPROOT%/pywikibot/lonelypages.py
