@@ -1,0 +1,6 @@
+# file managed by puppet
+
+server {
+	server_name .translatewiki.org;
+	rewrite ^ https://translatewiki.net$request_uri? permanent;
+}
