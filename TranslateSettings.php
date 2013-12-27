@@ -19,7 +19,7 @@ $wgTranslateDelayedMessageIndexRebuild = true;
 $wgTranslateDisablePreSaveTransform = true;
 $wgTranslateCheckBlacklist = "$GROUPS/check-blacklist.php";
 
-$wgTranslatePermissionUrl = 'Special:FirstSteps';
+$wgTranslatePermissionUrl = 'Special:MainPage';
 $wgTranslateUseSandbox = true;
 $wgTranslateSandboxPromotedGroup = 'translator';
 
