@@ -16,6 +16,91 @@
       "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_54dd8046",
+        "filename": "puppet/modules/nginx/files/nginx.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-12-28T18:57:24Z",
+      "side": 1,
+      "message": "If I\u0027m reading correctly [1] point 2, this would mean it is no longer possible to access stats.translatewiki.net or lists.translatewiki.net.",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_1428182e",
+        "filename": "puppet/modules/nginx/files/nginx.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-12-28T18:57:24Z",
+      "side": 1,
+      "message": "MediaWiki already sends this.",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_d4199028",
+        "filename": "puppet/modules/nginx/files/nginx.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-12-28T18:57:24Z",
+      "side": 1,
+      "message": "long lines",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_f41c941a",
+        "filename": "puppet/modules/nginx/files/nginx.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-12-28T18:57:24Z",
+      "side": 1,
+      "message": "typo",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_14e7f810",
+        "filename": "puppet/modules/nginx/files/translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2013-12-28T18:57:24Z",
+      "side": 1,
+      "message": "According to ssllabs test we already have good results. I would avoid doing further tweaking unless we have good understanding what these do. Might accidentally make the security worse.",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
