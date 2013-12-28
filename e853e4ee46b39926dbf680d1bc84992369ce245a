@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eeebdf60_7429a435",
+        "filename": "puppet/modules/nginx/files/nginx.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2013-12-28T18:45:14Z",
+      "side": 1,
+      "message": "isn\u0027t old line 17 enough?",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
