@@ -101,6 +101,41 @@
       "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_d4e870df",
+        "filename": "puppet/modules/nginx/files/translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-12-28T19:00:15Z",
+      "side": 1,
+      "message": "We especially need secure renegotiation. See https://www.ssllabs.com/ssltest/analyze.html?d\u003dtranslatewiki.net",
+      "parentUuid": "eeebdf60_14e7f810",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_b4f5ecb7",
+        "filename": "puppet/modules/nginx/files/translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2013-12-28T19:00:15Z",
+      "side": 1,
+      "message": "This is obviously wrong.",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
