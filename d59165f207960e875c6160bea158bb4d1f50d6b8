@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eeebdf60_d359812e",
+        "filename": "groups/MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 749,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-01-05T18:32:40Z",
+      "side": 1,
+      "message": "FYI: this is the default value for \u0027file\u0027 when format is \u0027jso\u0027n so it would also worked without.",
+      "revId": "d59165f207960e875c6160bea158bb4d1f50d6b8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
