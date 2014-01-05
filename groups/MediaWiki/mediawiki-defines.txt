@@ -745,6 +745,8 @@ Insider
 
 Invite Signup
 descmsg = is-desc
+format = json
+file = InviteSignup/i18n/%CODE%.json
 aliasfile = InviteSignup/InviteSignup.alias.php
 
 JS Bread Crumbs
