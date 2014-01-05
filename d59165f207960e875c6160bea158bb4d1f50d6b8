@@ -16,6 +16,24 @@
       "revId": "d59165f207960e875c6160bea158bb4d1f50d6b8",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_13afe9df",
+        "filename": "groups/MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 749,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2014-01-05T18:40:21Z",
+      "side": 1,
+      "message": "Ah ok. thanks for the info. I will remove it with the next bigger commit.",
+      "parentUuid": "eeebdf60_d359812e",
+      "revId": "d59165f207960e875c6160bea158bb4d1f50d6b8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
