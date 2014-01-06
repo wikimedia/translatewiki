@@ -93,14 +93,15 @@ then
 	fi
 	if [ -d "mediawiki/REL1_21/" ]
 	then
-		# Skip "gv" because plurals are not compatible pre 1.22.
-		php "$EXPORTER" --target mediawiki/REL1_21/languages/messages --core-meta --group 'core-1.21' --lang '*' --skip="gv,$SKIPLANGS" --threshold 15 &
+		# Skips because plural rules are not backward compatible.
+		SKIPLOCAL="gv,ab,av,ba,bxr,ce,crh_cyrl,cv,inh,koi,krc,kv,lbe,lez,mhr,mrj,myv,ru,tt_cyrl,tyv,udm,xal"
+		php "$EXPORTER" --target mediawiki/REL1_21/languages/messages --core-meta --group 'core-1.21' --lang '*' --skip="$SKIPLOCAL,$SKIPLANGS" --threshold 15 &
 	fi
 	if [ -d "mediawiki/REL1_20/" ]
 	then
-		# Skip "gd" because plurals are not compatible pre 1.21.
-		# Skip "gv" because plurals are not compatible pre 1.22.
-		php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --core-meta --group 'core-1.20' --lang '*' --skip="gd,gv,$SKIPLANGS" --threshold 15 &
+		# Skips because plural rules are not backward compatible.
+		SKIPLOCAL="gd,gv,ab,av,ba,bxr,ce,crh_cyrl,cv,inh,koi,krc,kv,lbe,lez,mhr,mrj,myv,ru,tt_cyrl,tyv,udm,xal"
+		php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --core-meta --group 'core-1.20' --lang '*' --skip="$SKIPLOCAL,$SKIPLANGS" --threshold 15 &
 	fi
 	wait
 
