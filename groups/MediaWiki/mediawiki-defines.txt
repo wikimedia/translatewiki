@@ -829,6 +829,7 @@ ignored = maintenance-createAndPromote-option-username, maintenance-createAndPro
 ignored = maintenance-createAndPromote-output-done, maintenance-createAndPromote-error-invalid, maintenance-createAndPromote-error-exists
 
 Map Sources
+aliasfile = MapSources/MapSources.i18n.alias.php
 
 Maps
 aliasfile = Maps/Maps.i18n.alias.php
@@ -1221,6 +1222,7 @@ prefix = extension- | randomincategory
 
 Random Root Page
 file = RandomRootPage/Randomrootpage.i18n.php
+aliasfile = RandomRootPage/Randomrootpage.i18n.alias.php
 
 Random Users With Avatars
 descmsg = random-users-avatars-desc
