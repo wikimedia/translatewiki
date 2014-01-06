@@ -24,7 +24,7 @@ class mariadb {
         innodb_buffer_pool_size         => '8G',
         innodb_file_per_table           => 'true',
         innodb_log_file_size            => '500M',
-        key_buffer                      => '64M',
+        key_buffer_size                 => '64M',
         log_slow_queries                => '/var/log/mysql/mysql-slow.log',
         long_query_time                 => '1',
         query_cache_size                => '0',
