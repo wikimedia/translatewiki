@@ -20,6 +20,7 @@ node default {
   include translationmemory
   include users
   include composer
+  include hhvm
 
   class { 'backup':
     databases => ['translatewiki_net'],
