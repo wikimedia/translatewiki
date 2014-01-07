@@ -519,6 +519,10 @@ ignored = ffeed-enable-sidebar-links
 
 Filter List Users
 
+First Steps
+format = json
+aliasfile = FirstSteps/FirstSteps.alias.php
+
 Flagged Revisions - Flagged Revs
 id = ext-flaggedrevs-flaggedrevs
 file = FlaggedRevs/frontend/language/FlaggedRevs.i18n.php
