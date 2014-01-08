@@ -700,6 +700,7 @@ Help Pages
 Hide Prefix
 
 Host Stats
+format = json
 ignored = hoststats
 
 Hovergallery
