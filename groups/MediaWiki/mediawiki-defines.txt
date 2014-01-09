@@ -82,7 +82,8 @@ ignored=articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-n
 # Moved to GitHub
 # Ask
 
-Assert Edit
+# Moved into core (deployed 1.23wmf10)
+# Assert Edit
 
 Author Protect
 
