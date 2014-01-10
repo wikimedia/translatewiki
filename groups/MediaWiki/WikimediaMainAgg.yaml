@@ -9,7 +9,6 @@ BASIC:
 
 GROUPS:
   - ext-antispoof
-  - ext-assertedit # bots
   - ext-babel
   - ext-campaigns # 2013-06-13: all projects
   - ext-categorytree
