@@ -296,6 +296,11 @@ optional = recaptcha-desc
 Contact Page
 aliasfile = ContactPage/ContactPage.alias.php
 
+Content Translation
+format = json
+descmsg = cx-desc
+aliasfile = ContentTranslation/ContentTranslation.alias.php
+
 # Unused per https://bugzilla.wikimedia.org/show_bug.cgi?id=41526#c0
 #Contest
 #aliasfile = Contest/Contest.alias.php
