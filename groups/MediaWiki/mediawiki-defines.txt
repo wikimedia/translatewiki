@@ -737,7 +737,7 @@ Input Box
 # Create a symbolic link "Installer" to mediawiki core's includes/installer in extensions/ to make this work.
 Installer
 descmsg = config-desc
-optional = config-type-mysql, config-type-postgres, config-type-sqlite, config-type-oracle
+optional = config-type-postgres, config-type-sqlite, config-type-oracle
 
 Interactive Block Message
 
