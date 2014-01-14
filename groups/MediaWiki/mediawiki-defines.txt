@@ -870,6 +870,11 @@ Media Functions
 # Wikia centric extension
 # MediaWiki Auth
 
+MediaWiki Chat
+descmsg = chat-desc
+ignored = chat-smileys
+optional = logentry-chat-send
+
 MediaWiki Search
 id = ext-mwsearch
 file = MWSearch/MWSearch.i18n.php
