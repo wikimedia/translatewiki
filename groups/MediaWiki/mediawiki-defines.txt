@@ -1147,6 +1147,8 @@ Parser Hooks
 # No real extension, used for VisualEditor
 # Parsoid
 
+Pdf Book
+
 Pdf Export
 aliasfile = PdfExport/PdfExport.i18n.alias.php
 ignored = pdf_fontface_default, pdf_fontface_options
