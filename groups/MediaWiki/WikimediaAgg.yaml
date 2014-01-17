@@ -92,6 +92,7 @@ GROUPS:
   - ext-syntaxhighlightgeshi
   - ext-templatedata # 7a47cd31e71919c5494aa1dca94f26242764d0a3
   - ext-templatesandbox
+  - ext-textextracts # I9677837faa0f89734922f61a1430e718c55f85c3 for all wikis
   - ext-titlekey
   - ext-toctree # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-translate-0-all
