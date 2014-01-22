@@ -1,8 +1,8 @@
 {
 	"require": {
 		"php": ">=5.3.2",
-		"mediawiki/semantic-media-wiki": "dev-master",
-		"mediawiki/semantic-maps": "dev-master"
+		"mediawiki/semantic-media-wiki": "@dev",
+		"mediawiki/semantic-maps": "@dev"
 	},
 	"minimum-stability": "dev",
 	"suggest": {
