@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "eeebdf60_3a8c2389",
+        "filename": "puppet/modules/nginx/files/nginx.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-01-22T17:22:09Z",
+      "side": 1,
+      "message": "I\u0027ve removed that.",
+      "parentUuid": "eeebdf60_7429a435",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eeebdf60_54dd8046",
         "filename": "puppet/modules/nginx/files/nginx.conf",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-12-28T18:57:24Z",
       "side": 1,
       "message": "If I\u0027m reading correctly [1] point 2, this would mean it is no longer possible to access stats.translatewiki.net or lists.translatewiki.net.",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_1a815f4f",
+        "filename": "puppet/modules/nginx/files/nginx.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-01-22T17:22:09Z",
+      "side": 1,
+      "message": "Will comment this out, so we know we\u0027re choosing not to use this yet, because we don\u0027t have the correct config, yet.",
+      "parentUuid": "eeebdf60_54dd8046",
       "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "eeebdf60_fa859b5b",
+        "filename": "puppet/modules/nginx/files/nginx.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-01-22T17:22:09Z",
+      "side": 1,
+      "message": "Do awstats and mailman also send this? Should that config have this?",
+      "parentUuid": "eeebdf60_1428182e",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eeebdf60_d4199028",
         "filename": "puppet/modules/nginx/files/nginx.conf",
         "patchSetId": 1
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "eeebdf60_da9ad7bc",
+        "filename": "puppet/modules/nginx/files/nginx.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-01-22T17:22:09Z",
+      "side": 1,
+      "message": "I copied from the sample config. Do you really want me to break the lines? What\u0027s the convention for nginx configuration files?",
+      "parentUuid": "eeebdf60_d4199028",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eeebdf60_f41c941a",
         "filename": "puppet/modules/nginx/files/nginx.conf",
         "patchSetId": 1
@@ -81,6 +153,24 @@
       "writtenOn": "2013-12-28T18:57:24Z",
       "side": 1,
       "message": "typo",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_ba971393",
+        "filename": "puppet/modules/nginx/files/nginx.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-01-22T17:22:09Z",
+      "side": 1,
+      "message": "The typo is from the sample configuration. Do you really want me to resolve it?",
+      "parentUuid": "eeebdf60_f41c941a",
       "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -133,6 +223,24 @@
       "writtenOn": "2013-12-28T19:00:15Z",
       "side": 1,
       "message": "This is obviously wrong.",
+      "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeebdf60_9a944f8f",
+        "filename": "puppet/modules/nginx/files/translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-01-22T17:22:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eeebdf60_b4f5ecb7",
       "revId": "e853e4ee46b39926dbf680d1bc84992369ce245a",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
