@@ -1911,7 +1911,8 @@ Wikibase Data Model
 Wikibase Query
 aliasfile = WikibaseQuery.i18n.aliases.php
 
-Wikibase Query Engine
+# Repo deleted 2014-01-22
+#Wikibase Query Engine
 
 Wikibase Solr
 
