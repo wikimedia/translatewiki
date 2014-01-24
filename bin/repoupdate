@@ -29,6 +29,31 @@ gitupdate() {
 	cd ..
 }
 
+cloneGerritRepo() {
+	local url=$1
+	local name=$2
+
+	git clone "$url" "$name"
+
+	if [ "$REPO_RW" = "yes" ]
+	then
+		cd "$name"
+
+		git config user.name 'Translation updater bot'
+		git config user.email 'l10n-bot@translatewiki.net'
+		git config gitreview.username 'l10n-bot'
+
+		if [ ! -e ".gitreview" ]
+		then
+			git remote add -f gerrit "$url"
+		fi
+
+		git review -s
+
+		cd ..
+	fi
+}
+
 GITUPDATEPROJECTS="\
 commons-android \
 commons-ios \
@@ -140,21 +165,7 @@ then
 		if [ ! -d "$EXTENSION/.git" ]
 		then
 			echo "Cloning $EXTENSION"
-			git clone "$REPO_MWEXTGIT/$EXTENSION.git" "$EXTENSION"
-
-			if [ "$REPO_RW" = "yes" ]
-			then
-				cd "$EXTENSION"
-				git config user.name 'Translation updater bot'
-				git config user.email 'l10n-bot@translatewiki.net'
-				git config gitreview.username 'l10n-bot'
-				if [ ! -e ".gitreview" ]
-				then
-					git remote add -f gerrit "$REPO_MWEXTGIT/$EXTENSION.git"
-				fi
-				git review -s
-				cd ..
-			fi
+			cloneGerritRepo "$REPO_MWEXTGIT/$EXTENSION.git" "$EXTENSION"
 		fi
 	done
 
