@@ -54,6 +54,23 @@ cloneGerritRepo() {
 	fi
 }
 
+# Ugly. Eventually, I think we should end up with a file similar to
+# mediawiki-defines.txt where we can simply add a line like this:
+#   repo=https://gerrit.wikimedia.org/r/p/oojs/ui.git
+# and then things magically happen based on the other configuration
+# settings.
+processHacks() {
+	if [ ! -d "oojs-ui/.git" ]
+	then
+		cloneGerritRepo "https://gerrit.wikimedia.org/r/p/oojs/ui.git" "oojs-ui"
+	fi
+
+	if [ ! -d "VisualEditorVisualEditor/.git" ]
+	then
+		cloneGerritRepo "https://gerrit.wikimedia.org/r/p/VisualEditor/VisualEditor.git" "VisualEditorVisualEditor"
+	fi
+}
+
 GITUPDATEPROJECTS="\
 commons-android \
 commons-ios \
@@ -168,6 +185,11 @@ then
 			cloneGerritRepo "$REPO_MWEXTGIT/$EXTENSION.git" "$EXTENSION"
 		fi
 	done
+
+
+	# This is where I disappoint Niklas a bit more...
+	processHacks
+	EXTENSIONS="$EXTENSIONS VisualEditorVisualEditor oojs-ui"
 
 	# Update all repos (yes, there is duplication for repos that were just cloned)
 	echo $EXTENSIONS |
