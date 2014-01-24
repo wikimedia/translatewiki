@@ -1948,7 +1948,8 @@ file = WikimediaIncubator/InfoPage.i18n.php
 ignored = wminc-infopage-prefill, wminc-manual-url, wminc-infopage-links
 
 Wikimedia Messages
-ignored = sidebar, robots.txt, extdist-branch-REL1_19, extdist-branch-REL1_20
+ignored = sidebar, robots.txt
+ignored = extdist-branch-REL1_19, extdist-branch-REL1_20, extdist-branch-REL1_21
 ignored = wikimedia-developers-url
 optional = sitesupport-url
 optional = grouppage-steward, grouppage-sysadmin, grouppage-Global_bot
