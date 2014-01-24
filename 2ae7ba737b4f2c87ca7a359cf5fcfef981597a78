@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8efa632e_aa3364bf",
+        "filename": "bin/repoupdate",
+        "patchSetId": 3
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-01-24T23:58:43Z",
+      "side": 1,
+      "message": "Just wondering why you have quotes on the urls but not on other params.",
+      "revId": "2ae7ba737b4f2c87ca7a359cf5fcfef981597a78",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8efa632e_8a38a89c",
+        "filename": "bin/repoupdate",
+        "patchSetId": 3
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-01-24T23:58:43Z",
+      "side": 1,
+      "message": "I pretend I didn\u0027t see this.",
+      "revId": "2ae7ba737b4f2c87ca7a359cf5fcfef981597a78",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
