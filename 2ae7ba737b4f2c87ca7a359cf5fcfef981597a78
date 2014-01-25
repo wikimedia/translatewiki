@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "8efa632e_2a475424",
+        "filename": "bin/repoupdate",
+        "patchSetId": 3
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-01-25T00:03:04Z",
+      "side": 1,
+      "message": "No particular reason, really. The other ones should probably also be in quotes, if only for consistency.",
+      "parentUuid": "8efa632e_aa3364bf",
+      "revId": "2ae7ba737b4f2c87ca7a359cf5fcfef981597a78",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8efa632e_8a38a89c",
         "filename": "bin/repoupdate",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2014-01-24T23:58:43Z",
       "side": 1,
       "message": "I pretend I didn\u0027t see this.",
+      "revId": "2ae7ba737b4f2c87ca7a359cf5fcfef981597a78",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8efa632e_0a44981b",
+        "filename": "bin/repoupdate",
+        "patchSetId": 3
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-01-25T00:03:04Z",
+      "side": 1,
+      "message": "Hmm? ;)\n\nI think that this confirms how appropriate the comment two lines earlier is... Haha.",
+      "parentUuid": "8efa632e_8a38a89c",
       "revId": "2ae7ba737b4f2c87ca7a359cf5fcfef981597a78",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
