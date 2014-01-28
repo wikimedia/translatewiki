@@ -118,6 +118,9 @@ ignored = betafeatures-test-check-field, betafeatures-test-feature-field
 
 Biblio Plus
 
+# Missing message documentation - 2014-01-28 RS
+# Blog Page
+
 Boiler Plate
 file = examples/BoilerPlate/BoilerPlate.i18n.php
 
@@ -515,6 +518,9 @@ Ext Tab
 file = ExtTab/languages/ExtTab.i18n.php
 
 # Facebook Open Graph : Moved to GitHub
+
+# Missing message documentation, incosistent prefixed - 2014-01-28 RS
+# Fan Box
 
 Featured Feeds
 descmsg = ffeed-desc
