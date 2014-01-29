@@ -40,6 +40,7 @@ REPO_WIKIA=git://github.com/Wikia/app.git
 REPO_WIKIA_BRANCH="dev"
 REPO_WIKIBLAME=svn://svn.code.sf.net/p/wikiblame/code/wikiblame_inc
 REPO_WIKIMANIA=https://gerrit.wikimedia.org/r/wikimedia/wikimania-scholarships
+REPO_WIKIPEDIAIOS=git://github.com/wikimedia/apps-ios-wikipedia.git
 REPO_WIKIPEDIAMOBILE=git://github.com/wikimedia/WikipediaMobile.git
 REPO_WIKIPEDIAMOBILEJ2ME=git://github.com/wikimedia/WikipediaMobileJ2ME.git
 REPO_WIKIREADER=git://github.com/wikireader/wikireader.git

@@ -13,6 +13,13 @@ cd "$DIR"
 
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
+gitCreateGerrit() {
+	git config user.name 'Translation updater bot'
+	git config user.email 'l10n-bot@translatewiki.net'
+	git config gitreview.username 'l10n-bot'
+	git review -s
+}
+
 if [ "$PROJECT" = "commons-android" ]
 then
 	if [ -z "$REPO_COMMONSANDROID" ]
@@ -23,10 +30,7 @@ then
 	if [ "$REPO_RW" = "yes" ]
 	then
 		cd "$PROJECT"
-		git config user.name 'Translation updater bot'
-		git config user.email 'l10n-bot@translatewiki.net'
-		git config gitreview.username 'l10n-bot'
-		git review -s
+		gitCreateGerrit
 	fi
 
 elif [ "$PROJECT" = "commons-ios" ]
@@ -39,10 +43,7 @@ then
 	if [ "$REPO_RW" = "yes" ]
 	then
 		cd "$PROJECT"
-		git config user.name 'Translation updater bot'
-		git config user.email 'l10n-bot@translatewiki.net'
-		git config gitreview.username 'l10n-bot'
-		git review -s
+		gitCreateGerrit
 	fi
 
 elif [ "$PROJECT" = "blockly" ]
@@ -167,10 +168,7 @@ then
 		if [ "$REPO_RW" = "yes" ]
 		then
 			cd "$BRANCH"
-			git config user.name 'Translation updater bot'
-			git config user.email 'l10n-bot@translatewiki.net'
-			git config gitreview.username 'l10n-bot'
-			git review -s
+			gitCreateGerrit
 			cd ..
 		fi
 	done
@@ -287,10 +285,7 @@ then
 	if [ "$REPO_RW" = "yes" ]
 	then
 		cd $PROJECT
-		git config user.name 'Translation updater bot'
-		git config user.email 'l10n-bot@translatewiki.net'
-		git config gitreview.username 'l10n-bot'
-		git review -s
+		gitCreateGerrit
 	fi
 
 elif [ "$PROJECT" = "shapado" ]
@@ -345,10 +340,20 @@ then
 	if [ "$REPO_RW" = "yes" ]
 	then
 		cd $PROJECT
-		git config user.name 'Translation updater bot'
-		git config user.email 'l10n-bot@translatewiki.net'
-		git config gitreview.username 'l10n-bot'
-		git review -s
+		gitCreateGerrit
+	fi
+
+elif [ "$PROJECT" = "wikipedia-ios" ]
+then
+	if [ -z "$REPO_WIKIPEDIAIOS" ]
+	then echo "Add REPO_WIKIPEDIAIOS to REPOCONF"; exit 1
+	fi
+
+	git clone "$REPO_WIKIPEDIAIOS" $PROJECT
+	if [ "$REPO_RW" = "yes" ]
+	then
+		cd "$PROJECT"
+		gitCreateGerrit
 	fi
 
 elif [ "$PROJECT" = "WikipediaMobile" ]

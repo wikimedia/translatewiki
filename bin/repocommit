@@ -83,7 +83,8 @@ GERRITPROJECTS="\
 commons-android \
 commons-ios \
 pywikibot \
-wikimania"
+wikimania \
+wikipedia-ios"
 
 for i in $GERRITPROJECTS; do
 	if [ "$i" = "$PROJECT" ]

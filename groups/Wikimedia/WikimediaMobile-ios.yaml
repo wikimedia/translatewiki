@@ -16,3 +16,80 @@ MANGLER:
 FILES:
   class: JsonFFS
   sourcePattern: %GROUPROOT%/commons-ios/Commons-iOS/messages/messages-%CODE%.json
+
+---
+BASIC:
+  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios}}"
+  icon: wiki://Wikipedia-logo-v2.svg
+  namespace: NS_WIKIMEDIA
+  id: out-wikimedia-mobile-wikipedia-ios
+  label: Wikipedia iOS Mobile main
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikipedia-ios-
+  patterns:
+    - "*"
+
+FILES:
+  class: AppleFFS
+  sourcePattern: %GROUPROOT%/wikipedia-ios/Wikipedia-iOS/%CODE%.lproj/Localizable.strings
+
+---
+BASIC:
+  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios-meta}}"
+  icon: wiki://Wikipedia-logo-v2.svg
+  namespace: NS_WIKIMEDIA
+  id: out-wikimedia-mobile-wikipedia-ios-meta
+  label: Wikipedia iOS Mobile metadata
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikipedia-ios-meta-
+  patterns:
+    - "*"
+
+FILES:
+  class: AppleFFS
+  sourcePattern: %GROUPROOT%/wikipedia-ios/Wikipedia-iOS/%CODE%.lproj/InfoPlist.strings
+
+---
+BASIC:
+  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios-ui}}"
+  icon: wiki://Wikipedia-logo-v2.svg
+  namespace: NS_WIKIMEDIA
+  id: out-wikimedia-mobile-wikipedia-ios-ui
+  label: Wikipedia iOS Mobile UI strings
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikipedia-ios-ui-
+  patterns:
+    - "*"
+
+FILES:
+  class: AppleFFS
+  sourcePattern: %GROUPROOT%/wikipedia-ios/Wikipedia-iOS/%CODE%.lproj/Main_iPhone.strings
+
+TAGS:
+  ignored:
+    - "wikipedia-ios-ui-8HR-Gs-iaC.normalTitle"
+    - "wikipedia-ios-ui-UVB-P9-soS.normalTitle"
+    - "wikipedia-ios-ui-atP-34-Uka.normalTitle"
+    - "wikipedia-ios-ui-cq9-Zs-YsN.normalTitle"
+
+---
+BASIC:
+  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios}}"
+  icon: wiki://Wikipedia-logo-v2.svg
+  namespace: NS_WIKIMEDIA
+  id: out-wikimedia-mobile-wikipedia-ios-0-all
+  label: Wikipedia iOS Mobile
+  class: AggregateMessageGroup
+
+GROUPS:
+  - out-wikimedia-mobile-wikipedia-ios
+  - out-wikimedia-mobile-wikipedia-ios-*
