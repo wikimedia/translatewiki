@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6ef7ef47_9f4ea571",
+        "filename": "bin/repocreate",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-01-30T11:38:27Z",
+      "side": 1,
+      "message": "Tangential: This somehow connects with the word conquistadors in my mind.",
+      "revId": "0dc18ce04e7547cee1001ef79e9f6afca6fe19dc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ef7ef47_1f3a95c0",
+        "filename": "bin/repocreate",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-01-30T11:38:27Z",
+      "side": 1,
+      "message": "This could be split into separate function, if you feel like refactoring.",
+      "revId": "0dc18ce04e7547cee1001ef79e9f6afca6fe19dc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ef7ef47_df430d42",
+        "filename": "groups/Wikimedia/WikimediaMobile-ios.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-01-30T11:38:27Z",
+      "side": 1,
+      "message": "We usually add empty line before ---",
+      "revId": "0dc18ce04e7547cee1001ef79e9f6afca6fe19dc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
