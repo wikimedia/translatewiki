@@ -442,7 +442,7 @@ $wgResourceLoaderValidateJS = false;
 #$wgIncludeLegacyJavaScript = false;
 $wgLegacyJavaScriptGlobals = false;
 
-$wgDeprecationReleaseLimit = '1.18';
+$wgDeprecationReleaseLimit = '1.19';
 
 $wgFooterIcons['poweredby']['netcup'] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
 
