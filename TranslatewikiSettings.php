@@ -333,6 +333,7 @@ $wgEventLoggingBaseUri = 'http://bits.wikimedia.org/event.gif';
 
 require( "$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector.php" );
 $wgULSEventLogging = true;
+$wgDefaultUserOptions['uls-enable'] = true; # Remove when the option is no longer needed.
 
 require_once( "$IP/extensions/TwnMainPage/MainPage.php" );
 $wgMainPageImages[] = array(
