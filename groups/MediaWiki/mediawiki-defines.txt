@@ -885,6 +885,9 @@ MediaWiki Search
 id = ext-mwsearch
 file = MWSearch/MWSearch.i18n.php
 
+Mobile App
+format = json
+
 Mobile Frontend
 descmsg = mobile-frontend-desc
 aliasfile = MobileFrontend/MobileFrontend.alias.php
