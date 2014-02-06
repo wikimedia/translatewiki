@@ -655,6 +655,10 @@ Global Blocking
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
 ignored = globalblocking-expiry-options
 
+Global Contributions
+aliasfile = GlobalContributions/GlobalContributions.alias.php
+descmsg = guc-desc
+
 Global Css Js
 
 Global Preferences
