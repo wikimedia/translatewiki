@@ -972,9 +972,11 @@ aliasfile = NewestPages/NewestPages.alias.php
 News
 descmsg = newsextension-desc
 
-Nimbus
-file = skins/Nimbus/Nimbus.i18n.php
-ignored = morewikis, nimbus-advertise-url
+# Moved outside of extensions folder to repo /mediawiki/skins
+# https://translatewiki.net/wiki/Thread:Support/Nimbus_skin_i18n_is_going_to_the_wrong_place
+# Nimbus
+# file = skins/Nimbus/Nimbus.i18n.php
+# ignored = morewikis, nimbus-advertise-url
 
 No Title
 
