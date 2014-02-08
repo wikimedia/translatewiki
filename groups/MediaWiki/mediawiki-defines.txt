@@ -359,15 +359,18 @@ Data Transfer
 file = DataTransfer/languages/DT_Messages.php
 aliasfile = DataTransfer/languages/DT_Aliases.php
 
-Data Types
-file = DataTypes/DataTypes.i18n.php
+# Repo is read only
+# Data Types
+# file = DataTypes/DataTypes.i18n.php
 
-Data Values
-file = DataValues/DataValues/DataValues.i18n.php
+# Repo is read only
+# Data Values
+# file = DataValues/DataValues/DataValues.i18n.php
 
-Data Values - Value View
-file = DataValues/ValueView/ValueView.i18n.php
-descmsg = valueview-desc
+# Repo is read only
+# Data Values - Value View
+# file = DataValues/ValueView/ValueView.i18n.php
+# descmsg = valueview-desc
 
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
