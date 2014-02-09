@@ -139,6 +139,10 @@ then
 	php "$EXPORTER" --target . --group=out-nocc-* --lang '*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-nocc-* --lang qqq
 
+elif [ "$PROJECT" = "nfcring-control" ]
+then
+	php "$EXPORTER" --target . --group=out-$PROJECT --lang '*' --skip en,qqq $THRESHOLD
+
 elif [ "$PROJECT" = "okawix" ]
 then
 	php "$EXPORTER" --target . --group=out-okawix-* --lang '*' --skip en,qqq $THRESHOLD

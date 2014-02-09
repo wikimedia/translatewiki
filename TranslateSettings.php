@@ -405,3 +405,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Blockly/Blockly.yaml";
 
 wfAddNamespace( 1258, 'MathJax' );
 $wgTranslateGroupFiles[] = "$GROUPS/MathJax/MathJax.yaml";
+
+wfAddNamespace( 1260, 'NFCRingControl' );
+$wgTranslateGroupFiles[] = "$GROUPS/NFCRingControl/NFCRingControl.yaml";
+

@@ -1,0 +1,12 @@
+---
+BASIC:
+  id: out-nfcring-control
+  label: NFC Ring Control
+  icon: wiki://McLear_Crest_Cropped.svg
+  description: "{{int:translate-group-desc-nfcring-control}}"
+  namespace: NS_NFCRINGCONTROL
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/nfcring-control/www/locales/%CODE%.json

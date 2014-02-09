@@ -206,6 +206,13 @@ then
 	fi
 	svn checkout "$REPO_NOCC" $PROJECT
 
+elif [ "$PROJECT" = "nfcring-control" ]
+then
+	if [ -z "$REPO_NFCRINGCONTROL" ]
+	then echo "Add REPO_NFCRINGCONTROL to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_NFCRINGCONTROL" $PROJECT
+
 elif [ "$PROJECT" = "okawix" ]
 then
 	if [ -z "$REPO_OKAWIX" ]

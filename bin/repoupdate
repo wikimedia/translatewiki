@@ -214,6 +214,10 @@ elif [ "$PROJECT" = "nocc" ]
 then
 	svn up -q $PROJECT
 
+elif [ "$PROJECT" = "nfcring-control" ]
+then
+	gitupdate "$PROJECT"
+
 elif [ "$PROJECT" = "okawix" ]
 then
 	svn up -q $PROJECT
