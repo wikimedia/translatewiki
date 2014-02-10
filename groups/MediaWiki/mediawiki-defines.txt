@@ -1342,7 +1342,8 @@ Score
 Scribunto
 magicfile = Scribunto/Scribunto.magic.php
 optional = scribunto-lua-backtrace-line
-ignored = scribunto-doc-page-show
+optional = scribunto-limitreport-virtmemusage-value, scribunto-limitreport-memusage-value, scribunto-limitreport-profile-percent
+ignored = scribunto-doc-page-show, scribunto-limitreport-estmemusage-value
 
 Search Extra NS
 
