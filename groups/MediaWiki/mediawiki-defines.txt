@@ -1207,6 +1207,8 @@ descmsg = poll-desc
 Pool Counter
 file = PoolCounter/PoolCounterClient.i18n.php
 
+Popups
+
 # Post comment: Insufficient escaping and other issues
 
 # Merged into core / 2013-06-01
