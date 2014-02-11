@@ -202,12 +202,8 @@ include( "$IP/extensions/ApiSandbox/ApiSandbox.php" ); # Added: Siebrand 2012-11
 
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
 enableSemantics( 'translatewiki.net' );
-// Threads
-$wgExtensionFunctions[] = function () {
-	global $smwgNamespacesWithSemanticLinks;
-	$smwgNamespacesWithSemanticLinks[NS_LQT_THREAD] = true;
-	$smwgNamespacesWithSemanticLinks[NS_LQT_SUMMARY] = true;
-};
+$smwgNamespacesWithSemanticLinks[NS_LQT_THREAD] = true;
+$smwgNamespacesWithSemanticLinks[NS_LQT_SUMMARY] = true;
 
 include_once( "$IP/extensions/SemanticForms/SemanticForms.php" );
 $sfgRedLinksCheckOnlyLocalProps = true;
