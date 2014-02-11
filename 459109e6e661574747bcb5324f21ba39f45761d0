@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e04eb01_5fdeef15",
+        "filename": "groups/MediaWiki/WikimediaMainAgg.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-02-11T09:51:24Z",
+      "side": 1,
+      "message": "Why not have aggregate group for visual editor?",
+      "revId": "459109e6e661574747bcb5324f21ba39f45761d0",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e04eb01_3fe323d6",
+        "filename": "groups/Wikia/extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-02-11T09:51:24Z",
+      "side": 1,
+      "message": "This changes the message group id, that is not nice.\nYou can override it with id \u003d x",
+      "revId": "459109e6e661574747bcb5324f21ba39f45761d0",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
