@@ -1,0 +1,12 @@
+BASIC:
+  id: ext-universallanguageselector-0-all
+  label: All UniversalLanguageSelector messages
+  icon: wiki://Mediawiki-logo.png
+  meta: yes
+  class: AggregateMessageGroup
+  description: '{{int:translate-group-desc-universallanguageselector}}'
+  namespace: NS_MEDIAWIKI
+
+GROUPS:
+  - ext-universallanguageselector
+  - out-jquery-uls

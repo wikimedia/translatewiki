@@ -1783,17 +1783,9 @@ ignored = accesskey-save-upload-campaign, accesskey-cancel-upload-campaign, mwe-
 
 Unicode Converter
 
-Universal Language Selector - MediaWiki
-id = ext-universallanguageselector
-file = UniversalLanguageSelector/UniversalLanguageSelector.i18n.php
-descmsg = uls-desc
-ignored = uls-ime-helppage
-
-Universal Language Selector - jQuery
-id = ext-jquery-uls
+Universal Language Selector
 descmsg = uls-desc
 format = json
-file = UniversalLanguageSelector/i18n/%CODE%.json
 prefix = jquery-uls- | *
 
 UR Names
