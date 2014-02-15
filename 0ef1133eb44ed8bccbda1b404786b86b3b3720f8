@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e04eb01_2029a636",
+        "filename": "puppet/modules/nginx/files/translatewiki.net",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-02-15T17:33:47Z",
+      "side": 1,
+      "message": "365 days. Needs to be more than 18 weeks to work on Firefox, see https://www.eff.org/deeplinks/2013/11/encrypt-web-report-whos-doing-what",
+      "revId": "0ef1133eb44ed8bccbda1b404786b86b3b3720f8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
