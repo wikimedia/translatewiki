@@ -121,10 +121,6 @@ then
 	php "$EXPORTER" --target . --group='out-mifos' --lang '*' --skip en,qqq --threshold 20
 	php "$EXPORTER" --target . --group='out-mifos' --lang qqq
 
-elif [ "$PROJECT" = "mozilla" ]
-then
-	php "$EXPORTER" --target . --group='mozilla-*' --lang '*' --skip en,qqq --threshold 20
-
 elif [ "$PROJECT" = "mwlib" ]
 then
 	php "$EXPORTER" --target . --group=out-mwlibrl --lang '*' --skip en,qqq --threshold 10 $HOURS
