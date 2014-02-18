@@ -184,58 +184,6 @@ then
 	fi
 	git clone "$REPO_MIFOS" $PROJECT
 
-elif [ "$PROJECT" = "mozilla" ]
-then
-	PROJECT="${PROJECT}"
-	# Only need source language when not read-write
-	if [ -z "$REPO_RW" ]
-	then
-		if [ -z "$REPO_MOZILLA_SOURCELANG" ]
-		then echo "Add REPO_MOZILLA_SOURCELANG to REPOCONF"; exit 1
-		fi
-
-		# Check out source language and create structure.
-		mkdir $PROJECT
-		cd $PROJECT
-		# Clone mozilla aurora
-		hg clone $REPO_MOZILLA_SOURCELANG
-		# Create source language folder and create symlinked structure for source files.
-		mkdir en
-		cd en
-		ln -s ../mozilla-aurora/browser/locales/en-US/ browser
-		ln -s ../mozilla-aurora/toolkit/locales/en-US/ toolkit
-		ln -s ../mozilla-aurora/dom/locales/en-US dom
-		mkdir security
-		cd security
-		ln -s ../../mozilla-aurora/security/manager/locales/en-US manager
-		cd ${DIR}
-	fi
-
-	# Check if REPO_MOZILLA_SUPPORTEDLANG is set. Makes little sense to NOT set it.
-	# Should look like: REPO_MOZILLA_SUPPORTEDLANG="fr he gu-IN", depending on
-	# actually maintained or supported languages. Use actual repo codes, as those
-	# are mapped to the correct MediaWiki code using codeMap.
-	if [ -z "$REPO_MOZILLA_SUPPORTEDLANG" ]
-		then echo "Add REPO_MOZILLA_SUPPORTEDLANG to REPOCONF as currently no languages are supported"; exit 1
-	fi
-
-	cd ${DIR}/${PROJECT}
-	for LANG in $REPO_MOZILLA_SUPPORTEDLANG
-	do
-		if [ "$REPO_RW" = "yes" ]
-		then
-			if [ -z "$REPO_MOZILLA_RW" ]
-			then echo "Add REPO_MOZILLA_RW to REPOCONF (URL except language code with trailing slash to commit to)"; exit 1
-			fi
-
-			hg clone ${REPO_MOZILLA_RW}${LANG}
-			# Make it possible to use "hg strip".
-			echo -e "\n[extensions]\nmq =" >> ${LANG}/.hg/hgrc
-		else
-			hg clone http://hg.mozilla.org/releases/l10n/mozilla-aurora/${LANG}
-		fi
-	done
-
 elif [ "$PROJECT" = "mwlib" ]
 then
 	if [ "$REPO_RW" = "yes" ]
