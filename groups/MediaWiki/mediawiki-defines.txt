@@ -1365,7 +1365,7 @@ optional = securepoll-header-url, securepoll-header-id, securepoll-header-trans-
 ignored = securepoll-custom-unqualified, securepoll-voter-name-remote, securepoll-voter-name-local
 
 Secure Sessions
-aliasfile = SecureSessions/SecureSessions.alias.php
+aliasfile = SecureSessions/SpecialSessions.alias.php
 
 Select Category
 
@@ -1945,7 +1945,7 @@ Wikibase Data Model
 # Wikibase Database
 
 Wikibase Query
-aliasfile = WikibaseQuery.i18n.aliases.php
+aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 
 # Repo deleted 2014-01-22
 #Wikibase Query Engine
