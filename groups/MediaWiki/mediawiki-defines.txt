@@ -836,7 +836,6 @@ aliasfile = LogEntry/LogEntry.alias.php
 descmsg = logentry-parserhook-desc
 
 Logo Functions
-aliasfile = LogoFunctions/LogoFunctions.alias.php
 
 Lookup User
 aliasfile = LookupUser/LookupUser.alias.php
@@ -1443,8 +1442,8 @@ Semantic Rating
 #ignoried = srf-ui-datatables-label-sInfoPostFix
 
 Semantic Signup
-aliasfile = SemanticSignup.i18n.aliases.php
-magicfile = SemanticSignup.i18n.magic.php
+aliasfile = SemanticSignup/SemanticSignup.i18n.aliases.php
+magicfile = SemanticSignup/SemanticSignup.i18n.magic.php
 
 Semantic Tasks
 
