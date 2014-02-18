@@ -5,9 +5,9 @@ REPO_MEDIAWIKI=https://gerrit.wikimedia.org/r/p//mediawiki/core.git
 REPO_MEDIAWIKI_BRANCHES="master REL1_22 REL1_21 REL1_20"
 REPO_MWEXTGIT=https://gerrit.wikimedia.org/r/p/mediawiki/extensions
 
+REPO_BLOCKLY=http://blockly.googlecode.com/svn/trunk/
 REPO_COMMONSANDROID=https://gerrit.wikimedia.org/r/p/apps/android/commons.git
 REPO_COMMONSIOS=https://gerrit.wikimedia.org/r/p/apps/ios/commons.git
-REPO_BLOCKLY=http://blockly.googlecode.com/svn/trunk/
 REPO_EOL=git://github.com/EOL/eol.git
 REPO_ETHERPADLITE=git://github.com/ether/etherpad-lite.git
 REPO_ETHERPADLITE_BRANCH="develop"
@@ -38,6 +38,7 @@ REPO_WIKIA=git://github.com/Wikia/app.git
 REPO_WIKIA_BRANCH="dev"
 REPO_WIKIBLAME=svn://svn.code.sf.net/p/wikiblame/code/wikiblame_inc
 REPO_WIKIMANIA=https://gerrit.wikimedia.org/r/wikimedia/wikimania-scholarships
+# This should be a gerrit repo...
 REPO_WIKIPEDIAIOS=git://github.com/wikimedia/apps-ios-wikipedia.git
 REPO_WIKIPEDIAMOBILE=git://github.com/wikimedia/WikipediaMobile.git
 REPO_WIKIPEDIAMOBILEJ2ME=git://github.com/wikimedia/WikipediaMobileJ2ME.git
