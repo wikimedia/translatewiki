@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e04eb01_f210225d",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 399,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-02-19T17:05:55Z",
+      "side": 1,
+      "message": "You can\u0027t use the same namespace number with different names. Either you share the namespace or take the next free namespace number.",
+      "revId": "f4e792f75a0723fd133b32d8b568e4a3359ddf8c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e04eb01_35067421",
+        "filename": "bin/repocreate",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-02-19T17:05:55Z",
+      "side": 1,
+      "message": "Could you move this to keep the alphabetical order of projects",
+      "revId": "f4e792f75a0723fd133b32d8b568e4a3359ddf8c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
