@@ -21,19 +21,24 @@ Your extension variables are:
 Near the end, place the config lines given above followed by this:
 
 <syntaxhighlight lang=php>
-require_once( "$EXT/Babel/Babel.php" );
+# Babel
+require_once "$EXT/Babel/Babel.php";
 
-require_once( "$EXT/cldr/cldr.php" );
+# CLDR
+require_once "$EXT/cldr/cldr.php";
 
-require_once( "$EXT/CleanChanges/CleanChanges.php" );
+# CleanChanges
+require_once "$EXT/CleanChanges/CleanChanges.php";
 $wgCCTrailerFilter = true;
 $wgCCUserFilter = false;
 $wgDefaultUserOptions['usenewrc'] = 1;
 
-require_once( "$EXT/LocalisationUpdate/LocalisationUpdate.php" );
+# LocalisationUpdate
+require_once "$EXT/LocalisationUpdate/LocalisationUpdate.php";
 $wgLocalisationUpdateDirectory = "$IP/cache";
 
-require_once( "$EXT/Translate/Translate.php" );
+# Translate
+require_once "$EXT/Translate/Translate.php";
 $wgGroupPermissions['user']['translate'] = true;
 $wgGroupPermissions['user']['translate-messagereview'] = true;
 $wgGroupPermissions['user']['translate-groupreview'] = true;
@@ -42,19 +47,33 @@ $wgGroupPermissions['sysop']['pagetranslation'] = true;
 $wgGroupPermissions['sysop']['translate-manage'] = true;
 $wgTranslateDocumentationLanguageCode = 'qqq';
 
-require_once( "$EXT/UniversalLanguageSelector/UniversalLanguageSelector.php" );
+# UniversalLanguageSelector
+require_once "$EXT/UniversalLanguageSelector/UniversalLanguageSelector.php";
 </syntaxhighlight>
 
 === Update database tables ===
 ==== Commandline ====
-In the directory where your LocalSettings.php is located, run the following command:
+In the directory where your LocalSettings.php is located, run the following
+command:
  php maintenance/update.php
 
 ==== Webbrowser ====
-Go to example.com/mediawiki/mw-config/ by using your domain and path and rerun install.
+Go to example.com/mediawiki/mw-config/ by using your domain and path and rerun
+install.
 
 === Configuring LocalisationUpdate ===
-If you are on unix like system, you should add LocalisationUpdate to crontab:
+1. Create a cache folder in the installation directory, and be sure the server
+has permissions to write on it.
+
+2. If localization updates don't seem to come through, you may need to run,
+ php maintenance/rebuildLocalisationCache.php --force
+
+3. Whenever you want to run an update, run,
+ php extensions/LocalisationUpdate/update.php
+
+4. If you are on Unix like system, you should add LocalisationUpdate to
+crontab:
+
  crontab -e
  # Add the following line
  @daily php /path/to/your/wiki/extensions/LocalisationUpdate/update.php --quiet
