@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e04eb01_bc5f0844",
+        "filename": "melange/INSTALL.MediaWikiLanguageExtensionBundle",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-02-20T15:50:38Z",
+      "side": 1,
+      "message": "I would prefer a space after #.",
+      "revId": "37e83e46bcbcd53fb2caefe3405a6ad9205e9a74",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
