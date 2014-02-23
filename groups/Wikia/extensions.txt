@@ -137,15 +137,16 @@ file = SpecialManageWikiaHome/ManageWikiaHome.i18n.php
 
 Mini Editor
 
-Mobile - Game Guides
-file = MobileAppTranslations/GameGuides.i18n.php
-ignored = windowwikicontents-title
+#Disabled since 2014 until open sourced, spotted in 2013
+#Mobile - Game Guides
+#file = MobileAppTranslations/GameGuides.i18n.php
+#ignored = windowwikicontents-title
 
-Mobile - Lyric Wiki
-file = MobileAppTranslations/lyricwiki.i18n.php
+#Mobile - Lyric Wiki
+#file = MobileAppTranslations/lyricwiki.i18n.php
 
-Mobile - Wikia Pad
-file = MobileAppTranslations/WikiaPad.i18n.php
+#Mobile - Wikia Pad
+#file = MobileAppTranslations/WikiaPad.i18n.php
 
 Most Popular Categories
 file = MostPopularCategories/SpecialMostPopularCategories.i18n.php
