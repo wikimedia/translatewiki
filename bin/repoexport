@@ -16,8 +16,9 @@ echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
 EXPORTER=$WIKI/extensions/Translate/scripts/export.php
 SKIPLANGS="test,be-x-old,crh,dk,en,fiu-vro,gan,got,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-hk,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady"
+FORCELANGS="chy,cr,ki,nrm,rn,roa-rup,rw,tum,tw" # Must not contain any of those above
 THRESHOLD="--threshold 35"
-HOURS="--hours 200" # Somewhat over week
+HOURS="--hours 200" # Somewhat over a week
 
 if [ "$PROJECT" = "commons-android" ]
 then
@@ -85,6 +86,7 @@ then
 elif [ "$PROJECT" = "mediawiki" ]
 then
 	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang '*' --skip "$SKIPLANGS" --threshold 18 $HOURS &
+	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang "$FORCELANGS" $HOURS &
 	php "$EXPORTER" --target . --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" $HOURS &
 
 	if [ -d "mediawiki/REL1_22/" ]
