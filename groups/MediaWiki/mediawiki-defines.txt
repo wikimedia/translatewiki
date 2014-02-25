@@ -11,6 +11,10 @@ aliasfile = AbuseFilter/AbuseFilter.alias.php
 
 Account Audit
 
+Account Info
+aliasfile = AccountInfo/AccountInfo.alias.php
+ignored=accountinfo-none
+
 # Active Abstract : No real extension. Plugin for dumpBackup.php
 
 Ad Manager
@@ -663,6 +667,11 @@ aliasfile = GlobalContributions/GlobalContributions.alias.php
 descmsg = guc-desc
 
 Global Css Js
+
+Global Css Js - central wiki
+id = ext-globalcssjs-centralwiki
+file = GlobalCssJs/GlobalCssJs.central.i18n.php
+optional = global.css, global.js
 
 Global Preferences
 descmsg = globalprefs-desc
