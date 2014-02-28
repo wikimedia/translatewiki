@@ -16,6 +16,24 @@
       "revId": "80b82a02e492efec8b457c5fc365683b4af0a43c",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e04eb01_09556afd",
+        "filename": "groups/Wikimedia/WikimediaMobile-android.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 25
+      },
+      "writtenOn": "2014-02-28T20:46:52Z",
+      "side": 1,
+      "message": "There might be a second, our other app had a separate error.xml. Double-checking with Yuvi....",
+      "parentUuid": "4e04eb01_c910a255",
+      "revId": "80b82a02e492efec8b457c5fc365683b4af0a43c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
