@@ -84,6 +84,7 @@ commons-android \
 commons-ios \
 pywikibot \
 wikimania \
+wikipedia-android \
 wikipedia-ios"
 
 for i in $GERRITPROJECTS; do

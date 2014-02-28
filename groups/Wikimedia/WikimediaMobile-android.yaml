@@ -229,3 +229,17 @@ MANGLER:
 FILES:
   sourcePattern: %GROUPROOT%/commons-android/commons/res/values-%CODE%/error.xml
   definitionFile: %GROUPROOT%/commons-android/commons/res/values/error.xml
+
+---
+BASIC:
+  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-android}}"
+  icon: wiki://Wikipedia-logo-v2.svg
+  id: out-wikimedia-mobile-wikipedia-android-strings
+  label: Wikipedia Android Mobile
+
+MANGLER:
+  prefix: wikipedia-android-strings-
+
+FILES:
+  sourcePattern: %GROUPROOT%/wikipedia-android/commons/res/values-%CODE%/strings.xml
+  definitionFile: %GROUPROOT%/wikipedia-android/commons/res/values/strings.xml
