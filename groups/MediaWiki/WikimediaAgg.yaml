@@ -89,7 +89,6 @@ GROUPS:
   - ext-skinperpage # Wikimediafoundation.org
   - ext-subpagelist3 # r90651
   - ext-subpagesortkey # a2b3abe7ebc6aac630e4e309cc17780b28ac4b04 for some wikibooks
-  - ext-swiftcloudfiles # 110441
   - ext-syntaxhighlightgeshi
   - ext-templatedata # 7a47cd31e71919c5494aa1dca94f26242764d0a3
   - ext-templatesandbox
