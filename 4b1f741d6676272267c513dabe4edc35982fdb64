@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e04eb01_d9b3c994",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-03-03T13:31:19Z",
+      "side": 1,
+      "message": "We do not do those anymore.",
+      "revId": "4b1f741d6676272267c513dabe4edc35982fdb64",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e04eb01_19ba516d",
+        "filename": "bin/repoexport",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-03-03T13:31:19Z",
+      "side": 1,
+      "message": "Perhaps you don\u0027t need threshold or hours at all?",
+      "revId": "4b1f741d6676272267c513dabe4edc35982fdb64",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
