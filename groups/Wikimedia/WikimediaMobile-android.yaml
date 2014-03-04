@@ -241,5 +241,5 @@ MANGLER:
   prefix: wikipedia-android-strings-
 
 FILES:
-  sourcePattern: %GROUPROOT%/wikipedia-android/commons/res/values-%CODE%/strings.xml
-  definitionFile: %GROUPROOT%/wikipedia-android/commons/res/values/strings.xml
+  sourcePattern: %GROUPROOT%/wikipedia-android/wikipedia/res/values-%CODE%/strings.xml
+  definitionFile: %GROUPROOT%/wikipedia-android/wikipedia/res/values/strings.xml
