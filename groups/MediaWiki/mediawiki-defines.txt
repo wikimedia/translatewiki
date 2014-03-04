@@ -11,6 +11,10 @@ aliasfile = AbuseFilter/AbuseFilter.alias.php
 
 Account Audit
 
+Account Info
+aliasfile = AccountInfo/AccountInfo.alias.php
+ignored=accountinfo-none
+
 # Active Abstract : No real extension. Plugin for dumpBackup.php
 
 Ad Manager
