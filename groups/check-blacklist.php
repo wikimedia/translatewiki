@@ -92,6 +92,7 @@ $checkBlacklist = array(
 			'prefs-memberingroups-type', // Optional parameter for group name
 			'prefs-registration-date-time', // Optional time parameters
 			'protect-expiring', // Optional time parameters
+			'rclistfrom', // Optional time parameter
 			'rcnotefrom', // Optional time parameters
 			'revision-info', // Optional time parameters
 			'revisionasof', // Optional time parameters
