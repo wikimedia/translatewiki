@@ -291,6 +291,19 @@ then
 		gitCreateGerrit
 	fi
 
+elif [ "$PROJECT" = "wikipedia-android" ]
+then
+	if [ -z "$REPO_WIKIPEDIAANDROID" ]
+	then echo "Add REPO_WIKIPEDIAANDROID to REPOCONF"; exit 1
+	fi
+
+	git clone "$REPO_WIKIPEDIAANDROID" $PROJECT
+	if [ "$REPO_RW" = "yes" ]
+	then
+		cd "$PROJECT"
+		gitCreateGerrit
+	fi
+
 elif [ "$PROJECT" = "wikipedia-ios" ]
 then
 	if [ -z "$REPO_WIKIPEDIAIOS" ]

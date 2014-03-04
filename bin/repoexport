@@ -183,6 +183,11 @@ then
 	php "$EXPORTER" --target . --group=out-wikimania-scholarships-app --lang '*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimania-scholarships-app --lang qqq
 
+elif [ "$PROJECT" = "wikipedia-android" ]
+then
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-android* --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-android* --lang qqq
+
 elif [ "$PROJECT" = "wikipedia-ios" ]
 then
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-ios* --lang '*' --skip en,qqq $THRESHOLD
