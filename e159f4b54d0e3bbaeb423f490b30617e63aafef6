@@ -34,6 +34,24 @@
       "revId": "e159f4b54d0e3bbaeb423f490b30617e63aafef6",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e04eb01_a6256a58",
+        "filename": "puppet/modules/awstats/files/awstats.cron",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-03-05T17:58:39Z",
+      "side": 1,
+      "message": "Doesn\u0027t sound safe to assume",
+      "parentUuid": "4e04eb01_86702e70",
+      "revId": "e159f4b54d0e3bbaeb423f490b30617e63aafef6",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
