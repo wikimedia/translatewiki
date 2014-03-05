@@ -16,6 +16,24 @@
       "revId": "e159f4b54d0e3bbaeb423f490b30617e63aafef6",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e04eb01_86702e70",
+        "filename": "puppet/modules/awstats/files/awstats.cron",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-03-05T17:55:16Z",
+      "side": 1,
+      "message": "I assume the list admins will take care.",
+      "parentUuid": "4e04eb01_8666eee8",
+      "revId": "e159f4b54d0e3bbaeb423f490b30617e63aafef6",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
