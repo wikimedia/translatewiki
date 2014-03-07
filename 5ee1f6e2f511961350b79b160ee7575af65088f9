@@ -34,6 +34,24 @@
       "revId": "5ee1f6e2f511961350b79b160ee7575af65088f9",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e04eb01_1308cc93",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-03-07T18:57:27Z",
+      "side": 1,
+      "message": "Finnish makes most sense. Is it okay to add it when this language exceeds the export threshold?",
+      "parentUuid": "4e04eb01_f8f53fea",
+      "revId": "5ee1f6e2f511961350b79b160ee7575af65088f9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
