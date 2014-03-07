@@ -16,6 +16,24 @@
       "revId": "5ee1f6e2f511961350b79b160ee7575af65088f9",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e04eb01_f8f53fea",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-03-07T15:06:10Z",
+      "side": 1,
+      "message": "I expect that to be a bit tricky, regional fallback (Finnish) vs. linguistic fallback to another dialect though \"Not inherently intelligible of Tavringer Romani [rmu], Traveller Norwegian [rmg], Traveller Danish [rmd], or Angloromani [rme].\"",
+      "parentUuid": "4e04eb01_f87e5f66",
+      "revId": "5ee1f6e2f511961350b79b160ee7575af65088f9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
