@@ -1920,6 +1920,10 @@ ignored = accesskey-t-wikibase
 Wikibase - Lib
 file = Wikibase/lib/WikibaseLib.i18n.php
 descmsg = wikibaselib-desc
+ignored = wikibase-time-precision-Gannum, wikibase-time-precision-Mannum, wikibase-time-precision-annum
+ignored = wikibase-time-precision-millennium, wikibase-time-precision-century, wikibase-time-precision-10annum
+ignored = wikibase-time-precision-BCE-Gannum, wikibase-time-precision-BCE-Mannum, wikibase-time-precision-BCE-annum
+ignored = wikibase-time-precision-BCE-millennium, wikibase-time-precision-BCE-century, wikibase-time-precision-BCE-10annum
 
 Wikibase - Repo
 file = Wikibase/repo/Wikibase.i18n.php
