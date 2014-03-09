@@ -52,6 +52,24 @@
       "revId": "5ee1f6e2f511961350b79b160ee7575af65088f9",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e04eb01_0f865ce0",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-03-09T13:11:24Z",
+      "side": 1,
+      "message": "I always think it makes sense to add one or more fallbacks (/helper langugages), as it makes things easier for translators even in the incubator stage. It also makes things easier to decide on the fallback language when the export threshold is reached, because no additional round trip is needed with the person that requested the language code to be added.",
+      "parentUuid": "4e04eb01_1308cc93",
+      "revId": "5ee1f6e2f511961350b79b160ee7575af65088f9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
