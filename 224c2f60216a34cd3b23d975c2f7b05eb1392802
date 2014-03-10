@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e04eb01_f69d445c",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-03-10T12:50:38Z",
+      "side": 0,
+      "message": "Did you forget to move this language code to the general blacklist?",
+      "revId": "224c2f60216a34cd3b23d975c2f7b05eb1392802",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
