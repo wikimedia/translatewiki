@@ -16,6 +16,24 @@
       "revId": "224c2f60216a34cd3b23d975c2f7b05eb1392802",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e04eb01_5fe2cb98",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-03-10T18:54:38Z",
+      "side": 0,
+      "message": "Yeah, I thought I\u0027d have to double check and then forgot about it...",
+      "parentUuid": "4e04eb01_f69d445c",
+      "revId": "224c2f60216a34cd3b23d975c2f7b05eb1392802",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
