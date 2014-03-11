@@ -41,7 +41,8 @@ ignored = create-blog-empty-article, blog-listing-zero-self, blogs-recent-url, b
 
 Batch User Rights
 file = SpecialBatchUserRights/BatchUserRights.i18n.php
-aliasfile = SpecialBatchUserRights/BatchUserRights.alias.php
+# Clash with a Gerrit repo on Special:AdvancedTranslate
+#aliasfile = SpecialBatchUserRights/BatchUserRights.alias.php
 
 Campfire
 
