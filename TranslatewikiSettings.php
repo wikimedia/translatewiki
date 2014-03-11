@@ -307,6 +307,7 @@ $wgExtraLanguageNames['sdh'] = 'کوردی خوارگ'; # Southern Kurdish / Sie
 $wgExtraLanguageNames['mww-latn'] = 'Hmoob Dawb'; # Hmong Daw / Siebrand 2013-12-02
 $wgExtraLanguageNames['rmf'] = 'kaalengo tšimb'; # Romani language spoken in Finland / Nike 2014-03-05
 $wgExtraLanguageNames['zgh'] = 'ⵜⴰⵎⴰⵣⵉⵖⵜ'; # Standard Moroccan Tamazight / Siebrand 2014-03-11
+$wgExtraLanguageNames['hrx'] = 'Hunsrik'; # Riograndenser Hunsrückisch / Siebrand 2014-03-11
 
 $wgExtraLanguageNames['nl-be']     = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['qqq']       = 'Message documentation'; # No linguistic content. Used for documenting messages
