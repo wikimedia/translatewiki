@@ -25,6 +25,9 @@ ignored = title-download
 
 OrphanTalk2
 
+Pb
+optional = labs-name
+
 Recent Anonymous Activity
 
 Rtrc
