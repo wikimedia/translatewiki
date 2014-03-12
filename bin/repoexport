@@ -150,10 +150,6 @@ elif [ "$PROJECT" = "pywikibot" ]
 then
 	php "$EXPORTER" --target . --group=out-pywikipedia* --lang '*' --skip en --threshold 1
 
-elif [ "$PROJECT" = "shapado" ]
-then
-	php "$EXPORTER" --target . --group=shapado* --lang '*' --skip en --threshold 50
-
 elif [ "$PROJECT" = "vicuna" ]
 then
 	php "$EXPORTER" --target . --group=out-vicuna --lang '*' --skip en,qqq $THRESHOLD

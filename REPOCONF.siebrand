@@ -31,7 +31,6 @@ REPO_OKAWIX=svn+ssh://siebrand@svn.code.sf.net/p/okawix/code/trunk/okawix/chrome
 REPO_OSM=ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git
 REPO_POTLATCH2=git@github.com:systemed/potlatch2.git
 REPO_PYWIKIBOT=ssh://l10n-bot@gerrit.wikimedia.org:29418/pywikibot/i18n
-REPO_SHAPADO=git@gitorious.org:shapado/shapado.git
 REPO_VICUNA=git@github.com:yarl/vicuna.git
 REPO_WAYMARKEDTRAILS=git@github.com:lonvia/waymarked-trails-site.git
 REPO_WIKIA=git@github.com:Wikia/app.git

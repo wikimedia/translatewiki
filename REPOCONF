@@ -31,7 +31,6 @@ REPO_OPENIMAGES=https://scm.mmbase.org/openimages/trunk/src/main/native2ascii/eu
 REPO_OSM=git://git.openstreetmap.org/rails.git
 REPO_POTLATCH2=git://github.com/systemed/potlatch2.git
 REPO_PYWIKIBOT=https://gerrit.wikimedia.org/r/pywikibot/i18n
-REPO_SHAPADO=git://gitorious.org/shapado/shapado.git
 REPO_VICUNA=git://github.com/yarl/vicuna.git
 REPO_WAYMARKEDTRAILS=git://github.com/lonvia/waymarked-trails-site.git
 REPO_WIKIA=git://github.com/Wikia/app.git

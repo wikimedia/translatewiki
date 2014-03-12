@@ -287,19 +287,15 @@ $wgTranslateBlacklist = array(
 	'zh-yue' => 'This language code should remain unused. Localise in yue please.',
 ),
 'core' => array(
-	'es-419' => 'This code is only supported for Shapado. Use \'es\'.',
 	'nl-be' => 'This code is not used in MediaWiki. Use \'nl\' or \'vls\'.',
 ),
 'ext' => array(
-	'es-419' => 'This code is only supported for Shapado. Use \'es\'.',
 	'nl-be' => 'This code is not used in MediaWiki. Use \'nl\' or \'vls\'.',
 ),
 'out' => array(
-	'es-419' => 'This code is not available for this software.',
 	'roa-tara' => 'This code is not available for this software.',
 ),
 'wikia' => array(
-	'es-419' => 'This code is not available for this software.',
 	'nl-be' => 'This code is not used in MediaWiki. Use \'nl\' or \'vls\'.',
 ),
 );
@@ -353,8 +349,8 @@ $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/WaymarkedTrails.yaml";
 wfAddNamespace( 1224, 'WikiReader' );
 $wgTranslateGroupFiles[] = "$GROUPS/WikiReader/WikiReader.yaml";
 
+# No longer in use.
 wfAddNamespace( 1226, 'Shapado' );
-$wgTranslateGroupFiles[] = "$GROUPS/Shapado/Shapado.yaml";
 
 wfAddNamespace( 1228, 'iHRIS' );
 $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISCommon.yaml";

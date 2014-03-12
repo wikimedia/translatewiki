@@ -236,13 +236,6 @@ then
 		gitCreateGerrit
 	fi
 
-elif [ "$PROJECT" = "shapado" ]
-then
-	if [ -z "$REPO_SHAPADO" ]
-	then echo "Add REPO_MIFOS to REPOCONF"; exit 1
-	fi
-	git clone "$REPO_SHAPADO" $PROJECT
-
 elif [ "$PROJECT" = "vicuna" ]
 then
 	if [ -z "$REPO_VICUNA" ]

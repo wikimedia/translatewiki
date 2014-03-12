@@ -19,7 +19,6 @@ $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Okawix/stats/trunk" "$PARAMS --g
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Open Images/stats/trunk" "$PARAMS --groups=out-openimages-0-all"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:OpenStreetMap/stats/trunk" "$PARAMS --groups=out-osm-0-all"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Pywikibot/stats" "$PARAMS --groups=out-pywikipedia-0-all"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Shapado/stats" "$PARAMS --groups=shapado-0-all"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Intuition/stats" "$PARAMS --groups=tsint-0-all"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Wikia/stats" "$PARAMS --groups=wikia-0-all"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:WikiBlame/stats/trunk" "$PARAMS --groups=out-wikiblame"
