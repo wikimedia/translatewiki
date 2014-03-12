@@ -1,4 +1,6 @@
 wikia
+ihris
+pywikibot
 blockly
 commons-android
 commons-ios
@@ -7,7 +9,6 @@ etherpad-lite
 freecol
 fudforum
 fuel
-ihris
 intuition
 jquery.uls
 kiwix
@@ -17,7 +18,6 @@ mifos
 mwlib
 okawix
 osm
-pywikibot
 vicuna
 waymarked-trails-site
 wikiblame
