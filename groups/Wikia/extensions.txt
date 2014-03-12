@@ -319,6 +319,9 @@ Wikia Mini Upload
 
 Wikia Mobile
 
+Wikia New Files
+file = WikiaNewFiles/SpecialNewFiles.i18n.php
+
 Wikia Poll
 optional = wikiapoll-question-mark-before, wikiapoll-question-mark-after
 
