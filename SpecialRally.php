@@ -42,7 +42,6 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 				'out-pywikipedia-0-all', // 1238
 				'out-wikiblame', // 1206
 				'out-wikimedia-mobile-0-all', // 1206
-				'out-wikireader', // 1224
 				'tsint-0-all' // 1240
 			);
 

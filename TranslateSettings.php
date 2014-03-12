@@ -346,8 +346,8 @@ $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/OpenStreetMap.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/Potlatch2.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/WaymarkedTrails.yaml";
 
+# No longer in use.
 wfAddNamespace( 1224, 'WikiReader' );
-$wgTranslateGroupFiles[] = "$GROUPS/WikiReader/WikiReader.yaml";
 
 # No longer in use.
 wfAddNamespace( 1226, 'Shapado' );

@@ -199,10 +199,6 @@ then
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-j2me --lang '*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-j2me --lang qqq
 
-elif [ "$PROJECT" = "wikireader" ]
-then
-	php "$EXPORTER" --target . --group=out-wikireader --lang '*' --skip en --threshold 1
-
 elif [ "$PROJECT" = "WikisourceMobile" ]
 then
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikisource --lang '*' --skip en,qqq $THRESHOLD
