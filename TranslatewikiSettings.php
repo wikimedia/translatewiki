@@ -268,7 +268,6 @@ $wgExtraLanguageNames['guc'] = 'Wayúu'; # Wayuu / Siebrand 2009-12-12
 $wgExtraLanguageNames['mui'] = 'Musi'; # Musi / Siebrand 2010-02-11
 $wgExtraLanguageNames['kbd-latn'] = 'Qabardjajəbza'; # Kabardian (Latin script) / Siebrand 2010-02-21
 $wgExtraLanguageNames['ase'] = 'American sign language'; # Siebrand 2010-03-13
-$wgExtraLanguageNames['es-419'] = 'español de America Latina'; # Latin American Spanish / Siebrand 2010-06-15
 $wgExtraLanguageNames['mnc'] = 'ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ'; # Manchu / Siebrand 2010-08-11
 $wgExtraLanguageNames['aro'] = 'Araona'; # Araona / Siebrand 2010-08-25
 $wgExtraLanguageNames['hif-deva'] = 'फ़ीजी हिन्दी'; # Fiji Hindi (Devangari script) / Siebrand 2010-08-26

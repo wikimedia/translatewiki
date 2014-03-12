@@ -21,7 +21,6 @@ $wgTranslateLanguageFallbacks['cps'] = array( 'tl' );
 $wgTranslateLanguageFallbacks['cs'] = array( 'sk', 'de', 'fr', 'ru', 'pl' );
 $wgTranslateLanguageFallbacks['da'] = array( 'nn', 'nb', 'sv' ); # Siebrand 2008-03-23
 $wgTranslateLanguageFallbacks['egl'] = array( 'it', 'rgn' );
-$wgTranslateLanguageFallbacks['es-419'] = 'es';
 $wgTranslateLanguageFallbacks['es-formal'] = 'es';
 $wgTranslateLanguageFallbacks['et'] = 'fi';
 $wgTranslateLanguageFallbacks['fi'] = array( 'de', 'sv', 'et', 'vro' );
