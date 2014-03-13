@@ -2009,6 +2009,14 @@ prefix = wmf- | group-patroller, group-patroller-member, grouppage-patroller
 prefix = wmf- | createacct-helpusername-url, createacct-helpusername
 prefix = wmf- | createacct-captcha-help-url, createacct-imgcaptcha-help
 
+Wikimedia Contact Page Messages
+file = WikimediaMessages/WikimediaContactPageMessages.i18n.php
+optional = contactpage-wikimedia-trademark-foundation, contactpage-wikimedia-trademark-commons, contactpage-wikimedia-trademark-incubator
+optional = contactpage-wikimedia-trademark-mediawiki, contactpage-wikimedia-trademark-wikiquote, contactpage-wikimedia-trademark-wikibooks
+optional = contactpage-wikimedia-trademark-wikimania, contactpage-wikimedia-trademark-wikinews, contactpage-wikimedia-trademark-wikisource
+optional = contactpage-wikimedia-trademark-wikispecies, contactpage-wikimedia-trademark-wikiversity, contactpage-wikimedia-trademark-wiktionary
+optional = contactpage-wikimedia-trademark-wikivoyage
+
 Wikimedia Creative Commons License Texts
 file = WikimediaMessages/WikimediaCCLicenseTexts.i18n.php
 optional = wm-license-cc-wiki-link, wm-license-cc-pd-mark-link
