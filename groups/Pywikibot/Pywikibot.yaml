@@ -244,6 +244,14 @@ FILES:
   definitionFile: %GROUPROOT%/pywikibot/makecat.py
 ---
 BASIC:
+  id: out-pywikipedia-misspelling
+  label: Pywikibot Misspelling
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/misspelling.py
+  definitionFile: %GROUPROOT%/pywikibot/misspelling.py
+---
+BASIC:
   id: out-pywikipedia-movepages
   label: Pywikibot Move Pages
 
