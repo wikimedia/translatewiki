@@ -2023,7 +2023,7 @@ optional = wm-license-cc-wiki-link, wm-license-cc-pd-mark-link
 
 Wikimedia License Texts
 file = WikimediaMessages/WikimediaLicenseTexts.i18n.php
-optional = wm-license-cecill-wiki-link, wm-license-cecill-full-link, wm-license-fal-wiki-link, wm-license-fal-full-link
+optional = wm-license-cecill-wiki-link, wm-license-cecill-full-link, wm-license-fal-wiki-link, wm-license-fal-full-link, wm-license-fal-full-link-commons
 optional = wm-license-fsf-wiki-link, wm-license-free-software-wiki-link, wm-license-gfdl-wiki-link, wm-license-gpl-wiki-link
 optional = wm-license-information-permission-reusing-link, wm-license-lgpl-wiki-link, wm-license-licensing-update-wiki-link
 optional = wm-license-pd-usgov-wiki-link, wm-license-pd-usgov-work-wiki-link, wm-license-pd-usgov-fema-wiki-link
