@@ -904,6 +904,7 @@ Mobile App
 format = json
 
 Mobile Frontend
+format = json
 descmsg = mobile-frontend-desc
 aliasfile = MobileFrontend/MobileFrontend.alias.php
 optional = mobile-frontend-page-menu-language-current
