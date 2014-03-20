@@ -880,6 +880,7 @@ magicfile = MassMessage/MassMessage.i18n.magic.php
 ignored = massmessage-target, massmessage-message-footer, massmessage-target-local
 
 Math
+ignored = math-preference-mwmathinspector-discussion-link, math-preference-mwmathinspector-info-link
 
 Math Search
 aliasfile = MathSearch/MathSearch.alias.php
@@ -1845,7 +1846,6 @@ format = json
 file = VisualEditor/modules/ve-mw/i18n/%CODE%.json
 optional = visualeditor-preference-core-discussion-link, visualeditor-preference-core-info-link, visualeditor-preference-language-discussion-link, visualeditor-preference-language-info-link
 optional = visualeditor-preference-mwalienextension-discussion-link, visualeditor-preference-mwalienextension-info-link, visualeditor-preference-mwhiero-discussion-link, visualeditor-preference-mwhiero-info-link
-optional = visualeditor-preference-mwmath-discussion-link, visualeditor-preference-mwmath-info-link
 ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
 
 VisualEditor (WMF)
