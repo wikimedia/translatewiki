@@ -31,9 +31,13 @@ node default {
     user   => 'betawiki',
   }
 
-  package { 'elasticsearch':
-    provider => dpkg,
-    ensure => latest,
-    source => '/root/packages/elasticsearch-0.90.3.deb'
+  class { 'elasticsearch':
+    manage_repo  => true,
+    repo_version => '1.0',
+    config       => {},
+  }
+
+  elasticsearch::plugin { 'mobz/elasticsearch-head':
+    module_dir => 'head'
   }
 }
