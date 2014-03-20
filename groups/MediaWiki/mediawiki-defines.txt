@@ -1997,6 +1997,7 @@ file = WikimediaIncubator/InfoPage.i18n.php
 ignored = wminc-infopage-prefill, wminc-manual-url, wminc-infopage-links
 
 Wikimedia Messages
+format = json
 ignored = sidebar, robots.txt
 ignored = extdist-branch-REL1_19, extdist-branch-REL1_20, extdist-branch-REL1_21
 ignored = wikimedia-developers-url
@@ -2017,6 +2018,7 @@ prefix = wmf- | createacct-helpusername-url, createacct-helpusername
 prefix = wmf- | createacct-captcha-help-url, createacct-imgcaptcha-help
 
 Wikimedia Contact Page Messages
+format = json
 file = WikimediaMessages/WikimediaContactPageMessages.i18n.php
 optional = contactpage-wikimedia-trademark-foundation, contactpage-wikimedia-trademark-commons, contactpage-wikimedia-trademark-incubator
 optional = contactpage-wikimedia-trademark-mediawiki, contactpage-wikimedia-trademark-wikiquote, contactpage-wikimedia-trademark-wikibooks
@@ -2025,10 +2027,12 @@ optional = contactpage-wikimedia-trademark-wikispecies, contactpage-wikimedia-tr
 optional = contactpage-wikimedia-trademark-wikivoyage
 
 Wikimedia Creative Commons License Texts
+format = json
 file = WikimediaMessages/WikimediaCCLicenseTexts.i18n.php
 optional = wm-license-cc-wiki-link, wm-license-cc-pd-mark-link
 
 Wikimedia License Texts
+format = json
 file = WikimediaMessages/WikimediaLicenseTexts.i18n.php
 optional = wm-license-cecill-wiki-link, wm-license-cecill-full-link, wm-license-fal-wiki-link, wm-license-fal-full-link, wm-license-fal-full-link-commons
 optional = wm-license-fsf-wiki-link, wm-license-free-software-wiki-link, wm-license-gfdl-wiki-link, wm-license-gpl-wiki-link
@@ -2043,6 +2047,7 @@ ignored = wm-license-lgpl-2.1-full-link, wm-license-lgpl-3-full-link
 Wikimedia Shop Link
 
 Wikimedia Temporary Messages
+format = json
 file = WikimediaMessages/WikimediaTemporaryMessages.i18n.php
 prefix = temporary- | wikimediamessages-desc
 
