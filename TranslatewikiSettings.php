@@ -309,6 +309,7 @@ $wgExtraLanguageNames['rmf'] = 'kaalengo tšimb'; # Romani language spoken in Fi
 $wgExtraLanguageNames['zgh'] = 'ⵜⴰⵎⴰⵣⵉⵖⵜ'; # Standard Moroccan Tamazight / Siebrand 2014-03-11
 $wgExtraLanguageNames['hrx'] = 'Hunsrik'; # Riograndenser Hunsrückisch / Siebrand 2014-03-11
 $wgExtraLanguageNames['luz'] = 'لری جنووی '; # Southern Luri / Siebrand 2014-03-12
+$wgExtraLanguageNames['ciw'] = 'Ojibwemowin'; # Chippewa / Siebrand 2014-03-21
 
 $wgExtraLanguageNames['nl-be']     = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['qqq']       = 'Message documentation'; # No linguistic content. Used for documenting messages
