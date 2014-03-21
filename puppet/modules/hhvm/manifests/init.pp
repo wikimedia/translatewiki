@@ -9,6 +9,8 @@ class hhvm {
     include_src => false,
   }
 
+  apt::ppa { 'ppa:mapnik/boost': }
+
   package { 'hhvm-fastcgi':
     ensure => present,
     require => Apt::Source['hhvm'],
