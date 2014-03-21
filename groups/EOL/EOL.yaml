@@ -72,6 +72,7 @@ TAGS:
     - website-content_partners.show.meta_title
     - website-content_partners.show.tweet_text
     - website-taxa.communities.curators.meta_description
+    - website-taxa.data.index.hierarchy_entry.meta_keywords
     - website-taxa.details.index.hierarchy_entry.meta_keywords
     - website-taxa.details.index.meta_keywords
     - website-taxa.details.index.meta_keywords_with_common_name
