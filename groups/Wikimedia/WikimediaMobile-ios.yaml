@@ -38,7 +38,7 @@ FILES:
 
 ---
 BASIC:
-  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios-meta}}"
+  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios}}"
   icon: wiki://Wikipedia-logo-v2.svg
   namespace: NS_WIKIMEDIA
   id: out-wikimedia-mobile-wikipedia-ios-meta
@@ -57,7 +57,7 @@ FILES:
 
 ---
 BASIC:
-  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios-ui}}"
+  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios}}"
   icon: wiki://Wikipedia-logo-v2.svg
   namespace: NS_WIKIMEDIA
   id: out-wikimedia-mobile-wikipedia-ios-ui
