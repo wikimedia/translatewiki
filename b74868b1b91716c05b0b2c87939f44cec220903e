@@ -69,6 +69,24 @@
       "revId": "b74868b1b91716c05b0b2c87939f44cec220903e",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee14bf34_5d7eb9e2",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 479,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-03-21T15:10:10Z",
+      "side": 1,
+      "message": "Where? Did I suggest uppercase?",
+      "parentUuid": "ee14bf34_fd158d9d",
+      "revId": "b74868b1b91716c05b0b2c87939f44cec220903e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
