@@ -292,6 +292,14 @@ FILES:
   definitionFile: %GROUPROOT%/pywikibot/protect.py
 ---
 BASIC:
+  id: out-pywikipedia-spamremove
+  label: Pywikibot Spam Remove
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/spamremove.py
+  definitionFile: %GROUPROOT%/pywikibot/spamremove.py
+---
+BASIC:
   id: out-pywikipedia-redirect
   label: Pywikibot Redirect
 
