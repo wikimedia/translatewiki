@@ -16,7 +16,6 @@ TEMPLATE:
 
     header: |
       # Copyright (c) 2011-2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
-      # Copyright (c) 2011-2014 Rosetta Contributors and Canonical Ltd
       # Copyright (c) 2011-2014 translatewiki.net contributors
       # This file is distributed under the same license as the iHRIS package.
       #
