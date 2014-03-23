@@ -186,18 +186,6 @@ FILES:
 MANGLER:
   prefix: qua-site-
 
-#---
-#BASIC:
-#  id: out-ihris-qualify-sdi
-#  label: iHRIS Qualify - Site Demo
-#
-#FILES:
-#  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-site-demo/ihris-qualify-site-demo.pot
-#  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-site-demo/%CODE%.po
-#
-#MANGLER:
-#  prefix: qua-sdi-
-#
 ---
 BASIC:
   id: out-ihris-qualify-rve
