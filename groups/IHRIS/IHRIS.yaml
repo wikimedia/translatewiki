@@ -82,4 +82,4 @@ BASIC:
   class: AggregateMessageGroup
 
 GROUPS:
-  - out-ihris-train-*
+  - out-ihris-tra-*
