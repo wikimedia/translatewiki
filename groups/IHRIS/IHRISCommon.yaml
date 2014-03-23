@@ -32,6 +32,30 @@ TEMPLATE:
       - printfCheck
 ---
 BASIC:
+  id: out-ihris-common-cadre
+  label: iHRIS Common - Cadre
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-cadre/ihris-common-cadre.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-cadre/%CODE%.po
+
+MANGLER:
+  prefix: com-cadre-
+
+---
+BASIC:
+  id: out-ihris-common-cal
+  label: iHRIS Common - Calendar
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/calendar/calendar.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/calendar/%CODE%.po
+
+MANGLER:
+  prefix: com-cal-
+
+---
+BASIC:
   id: out-ihris-common-ceus
   label: iHRIS Common - Ceus
 
@@ -56,6 +80,18 @@ MANGLER:
 
 ---
 BASIC:
+  id: out-ihris-common-core
+  label: iHRIS Common - Core
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common/ihris-common.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common/%CODE%.po
+
+MANGLER:
+  prefix: com-core-
+
+---
+BASIC:
   id: out-ihris-common-currency
   label: iHRIS Common - Currency
 
@@ -68,6 +104,18 @@ MANGLER:
 
 ---
 BASIC:
+  id: out-ihris-common-dda
+  label: iHRIS Common - DHIS Dashboard
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/dhis-dashboard/dhis-dashboard.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/dhis-dashboard/%CODE%.po
+
+MANGLER:
+  prefix: com-dda-
+
+---
+BASIC:
   id: out-ihris-common-depender
   label: iHRIS Common - Depender
 
@@ -77,6 +125,30 @@ FILES:
 
 MANGLER:
   prefix: com-depender-
+
+---
+BASIC:
+  id: out-ihris-common-dfm
+  label: iHRIS Common - DHIS Facility Map
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/dhis-facility-map/dhis-facility-map.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/dhis-facility-map/%CODE%.po
+
+MANGLER:
+  prefix: com-dfm-
+
+---
+BASIC:
+  id: out-ihris-common-dme
+  label: iHRIS Common - DHIS Metadata
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/dhis-metadata/dhis-metadata.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/dhis-metadata/%CODE%.po
+
+MANGLER:
+  prefix: com-dme-
 
 ---
 BASIC:
@@ -140,30 +212,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-ihris-common-core
-  label: iHRIS Common - Core
-
-FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common/ihris-common.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common/%CODE%.po
-
-MANGLER:
-  prefix: com-core-
-
----
-BASIC:
-  id: out-ihris-common-cadre
-  label: iHRIS Common - Cadre
-
-FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-cadre/ihris-common-cadre.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-cadre/%CODE%.po
-
-MANGLER:
-  prefix: com-cadre-
-
----
-BASIC:
   id: out-ihris-common-job
   label: iHRIS Common - Job
 
@@ -173,6 +221,30 @@ FILES:
 
 MANGLER:
   prefix: com-job-
+
+---
+BASIC:
+  id: out-ihris-common-mdp
+  label: iHRIS Common - Mass Delete Person
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-mass-delete-person/ihris-common-mass-delete-person.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-mass-delete-person/%CODE%.po
+
+MANGLER:
+  prefix: com-mdp-
+
+---
+BASIC:
+  id: out-ihris-common-preg
+  label: iHRIS Common - Professional Registration
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-professional-registration/ihris-common-professional-registration.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-professional-registration/%CODE%.po
+
+MANGLER:
+  prefix: com-preg-
 
 ---
 BASIC:
@@ -188,18 +260,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-ihris-common-search
-  label: iHRIS Common - Search
-
-FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-search/ihris-common-search.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-search/%CODE%.po
-
-MANGLER:
-  prefix: com-search-
-
----
-BASIC:
   id: out-ihris-common-nok
   label: iHRIS Common - Next of Kin
 
@@ -209,18 +269,6 @@ FILES:
 
 MANGLER:
   prefix: com-nok-
-
----
-BASIC:
-  id: out-ihris-common-person
-  label: iHRIS Common - Person
-
-FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person/person.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/person/%CODE%.po
-
-MANGLER:
-  prefix: com-person-
 
 ---
 BASIC:
@@ -281,6 +329,30 @@ FILES:
 
 MANGLER:
   prefix: com-pem-
+
+---
+BASIC:
+  id: out-ihris-common-person
+  label: iHRIS Common - Person
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/person/person.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/person/%CODE%.po
+
+MANGLER:
+  prefix: com-person-
+
+---
+BASIC:
+  id: out-ihris-common-photo
+  label: iHRIS Common - Photo
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/photo/photo.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/photo/%CODE%.po
+
+MANGLER:
+  prefix: com-photo-
 
 ---
 BASIC:
@@ -356,18 +428,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-ihris-common-photo
-  label: iHRIS Common - Photo
-
-FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/photo/photo.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/photo/%CODE%.po
-
-MANGLER:
-  prefix: com-photo-
-
----
-BASIC:
   id: out-ihris-common-rst
   label: iHRIS Common - Record Status
 
@@ -377,6 +437,18 @@ FILES:
 
 MANGLER:
   prefix: com-rst-
+
+---
+BASIC:
+  id: out-ihris-common-sco
+  label: iHRIS Common - Simple Compentecy
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/simple-competency/simple-competency.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/simple-competency/%CODE%.po
+
+MANGLER:
+  prefix: com-sco-
 
 ---
 BASIC:
@@ -428,6 +500,18 @@ MANGLER:
 
 ---
 BASIC:
+  id: out-ihris-common-search
+  label: iHRIS Common - Search
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-search/ihris-common-search.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/ihris-common-search/%CODE%.po
+
+MANGLER:
+  prefix: com-search-
+
+---
+BASIC:
   id: out-ihris-common-shcl
   label: iHRIS Common - SDMX-HD Code Lists
 
@@ -440,15 +524,15 @@ MANGLER:
 
 ---
 BASIC:
-  id: out-ihris-common-sco
-  label: iHRIS Common - Simple Compentecy
+  id: out-ihris-common-sse
+  label: iHRIS Common - Self Service
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/simple-competency/simple-competency.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/simple-competency/%CODE%.po
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/self-service/self-service.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/self-service/%CODE%.po
 
 MANGLER:
-  prefix: com-sco-
+  prefix: com-sse-
 
 ---
 BASIC:
@@ -488,6 +572,30 @@ MANGLER:
 
 ---
 BASIC:
+  id: out-ihris-common-tins
+  label: iHRIS Common - Training Instructor
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/training-instructor/training-instructor.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/training-instructor/%CODE%.po
+
+MANGLER:
+  prefix: com-tins-
+
+---
+BASIC:
+  id: out-ihris-common-tpr
+  label: iHRIS Common - Training Participation Report
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/training-participation-report/training-participation-report.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/training-participation-report/%CODE%.po
+
+MANGLER:
+  prefix: com-tpr-
+
+---
+BASIC:
   id: out-ihris-common-tsc
   label: iHRIS Common - Training Simple Competency
 
@@ -500,6 +608,18 @@ MANGLER:
 
 ---
 BASIC:
+  id: out-ihris-common-ucr
+  label: iHRIS Common - User Cron Reports
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/user-cron-reports/user-cron-reports.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/user-cron-reports/%CODE%.po
+
+MANGLER:
+  prefix: com-ucr-
+
+---
+BASIC:
   id: out-ihris-common-uma
   label: iHRIS Common - UUID Map
 
@@ -509,3 +629,28 @@ FILES:
 
 MANGLER:
   prefix: com-uma-
+
+---
+BASIC:
+  id: out-ihris-common-ust
+  label: iHRIS Common - User Statistics
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/user-statistics/user-statistics.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/user-statistics/%CODE%.po
+
+MANGLER:
+  prefix: com-ust-
+
+---
+BASIC:
+  id: out-ihris-common-wca
+  label: iHRIS Common - Who Cadre
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-common/translations/templates/who-cadre/who-cadre.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-common/translations/templates/who-cadre/%CODE%.po
+
+MANGLER:
+  prefix: com-wca-
+
