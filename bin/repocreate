@@ -96,7 +96,7 @@ then
 		do
 			if [ "$REPO_RW" = "yes" ]
 			then
-				bzr checkout lp:${MODULE} ${MODULE}
+				bzr checkout lp:${MODULE}/${REPO_IHRIS_BRANCH} ${MODULE}
 			else
 				bzr branch ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/ ${MODULE}
 			fi
