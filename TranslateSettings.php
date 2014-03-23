@@ -357,6 +357,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISCommon.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISI2ce.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISManage.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISQualify.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISTrain.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRIS.yaml";
 
 wfAddNamespace( 1230, 'Mifos' );
