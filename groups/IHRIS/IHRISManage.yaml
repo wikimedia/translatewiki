@@ -30,6 +30,7 @@ TEMPLATE:
     class: MessageChecker
     checks:
       - printfCheck
+
 ---
 BASIC:
   id: out-ihris-manage-acci
@@ -41,6 +42,66 @@ FILES:
 
 MANGLER:
   prefix: man-acci-
+
+---
+BASIC:
+  id: out-ihris-manage-afa
+  label: iHRIS Manage - Access Facility
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-access-facility/manage-access-facility.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-access-facility/%CODE%.po
+
+MANGLER:
+  prefix: man-afa-
+
+---
+BASIC:
+  id: out-ihris-manage-ali
+  label: iHRIS Manage - Auto List
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-auto-list/ihris-manage-auto-list.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-auto-list/%CODE%.po
+
+MANGLER:
+  prefix: man-ali-
+
+---
+BASIC:
+  id: out-ihris-manage-apa
+  label: iHRIS Manage - Auto Page
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-auto-page/manage-auto-page.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-auto-page/%CODE%.po
+
+MANGLER:
+  prefix: man-apa-
+
+---
+BASIC:
+  id: out-ihris-manage-cpo
+  label: iHRIS Manage - Change Position
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/change-position/change-position.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/change-position/%CODE%.po
+
+MANGLER:
+  prefix: man-cpo-
+
+---
+BASIC:
+  id: out-ihris-manage-cqu
+  label: iHRIS Manage - CSD Queues
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-csd-qus/ihris-manage-csd-qus.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-csd-qus/%CODE%.po
+
+MANGLER:
+  prefix: man-cqu-
 
 ---
 BASIC:
@@ -188,6 +249,18 @@ MANGLER:
 
 ---
 BASIC:
+  id: out-ihris-manage-ftr
+  label: iHRIS Manage - Facility Tree
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-facility-tree/ihris-manage-facility-tree.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-facility-tree/%CODE%.po
+
+MANGLER:
+  prefix: man-ftr-
+
+---
+BASIC:
   id: out-ihris-manage-manage
   label: iHRIS Manage - Manage
 
@@ -209,6 +282,30 @@ FILES:
 
 MANGLER:
   prefix: man-job-
+
+---
+BASIC:
+  id: out-ihris-manage-mdf
+  label: iHRIS Manage - Mass Delete Facility
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-mass-delete-facility/ihris-manage-mass-delete-facility.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-mass-delete-facility/%CODE%.po
+
+MANGLER:
+  prefix: man-mdf-
+
+---
+BASIC:
+  id: out-ihris-manage-mpo
+  label: iHRIS Manage - Multi Position
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-multi-position/ihris-manage-multi-position.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-multi-position/%CODE%.po
+
+MANGLER:
+  prefix: man-mpo-
 
 ---
 BASIC:
@@ -236,6 +333,18 @@ MANGLER:
 
 ---
 BASIC:
+  id: out-ihris-manage-ptr
+  label: iHRIS Manage - Position Tree
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-position-tree/ihris-manage-position-tree.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-position-tree/%CODE%.po
+
+MANGLER:
+  prefix: man-ptr-
+
+---
+BASIC:
   id: out-ihris-manage-sala
   label: iHRIS Manage - Salary
 
@@ -245,6 +354,30 @@ FILES:
 
 MANGLER:
   prefix: man-sala-
+
+---
+BASIC:
+  id: out-ihris-manage-ssa
+  label: iHRIS Manage - Self Service Application
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service-application/manage-self-service-application.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service-application/%CODE%.po
+
+MANGLER:
+  prefix: man-ssa-
+
+---
+BASIC:
+  id: out-ihris-manage-sse
+  label: iHRIS Manage - Self Service
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service/manage-self-service.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service/%CODE%.po
+
+MANGLER:
+  prefix: man-sse-
 
 ---
 BASIC:
@@ -269,40 +402,3 @@ FILES:
 
 MANGLER:
   prefix: man-regi-
-
-## These groups are for demo purposes and should probably not be active.
-#---
-#BASIC:
-#  id: out-ihris-manage-saes
-#  label: iHRIS Manage - Sample Data Establishment
-#
-#FILES:
-#  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/sample-data-establishment/sample-data-establishment.pot
-#  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/sample-data-establishment/%CODE%.po
-#
-#MANGLER:
-#  prefix: man-saes-
-#
-#---
-#BASIC:
-#  id: out-ihris-manage-sasl
-#  label: iHRIS Manage - Sample SL
-#
-#FILES:
-#  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-sample-sl/ihris-manage-sample-sl.pot
-#  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-sample-sl/%CODE%.po
-#
-#MANGLER:
-#  prefix: man-sasl-
-#
-#---
-#BASIC:
-#  id: out-ihris-manage-side
-#  label: iHRIS Manage - Site Demo
-#
-#FILES:
-#  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-site-demo/ihris-manage-site-demo.pot
-#  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-site-demo/%CODE%.po
-#
-#MANGLER:
-#  prefix: man-side-
