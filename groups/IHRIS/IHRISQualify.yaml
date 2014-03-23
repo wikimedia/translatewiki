@@ -176,6 +176,30 @@ MANGLER:
 
 ---
 BASIC:
+  id: out-ihris-qualify-ptr
+  label: iHRIS Qualify - Person Training
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-person-training/ihris-qualify-person-training.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-person-training/%CODE%.po
+
+MANGLER:
+  prefix: qua-ptr-
+
+---
+BASIC:
+  id: out-ihris-qualify-ptu
+  label: iHRIS Qualify - Person Training Upload
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-person-training-upload/ihris-qualify-person-training-upload.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/%CODE%.po
+
+MANGLER:
+  prefix: qua-ptu-
+
+---
+BASIC:
   id: out-ihris-qualify-site
   label: iHRIS Qualify - Site
 
@@ -185,6 +209,30 @@ FILES:
 
 MANGLER:
   prefix: qua-site-
+
+---
+BASIC:
+  id: out-ihris-qualify-sse
+  label: iHRIS Qualify - Self Service
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service/qualify-self-service.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service/%CODE%.po
+
+MANGLER:
+  prefix: qua-sse-
+
+---
+BASIC:
+  id: out-ihris-qualify-ssr
+  label: iHRIS Qualify - Self Service Register
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service-register/qualify-self-service-register.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service-register/%CODE%.po
+
+MANGLER:
+  prefix: qua-ssr-
 
 ---
 BASIC:
