@@ -1,0 +1,318 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://IHRIS_suite_logo_square.png
+    description: "{{int:translate-group-desc-ihris}}"
+    namespace: NS_IHRIS
+    class: FileBasedMessageGroup
+
+  FILES:
+    class: GettextFFS
+    codeMap:
+      en-gb:   en_GB
+      en-us:   en_US
+      pt-br:   pt_BR
+      zh-hans: zh_CN
+      zh-hant: zh_TW
+
+    header: |
+      # Copyright (c) 2011-2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+      # Copyright (c) 2011-2014 Rosetta Contributors and Canonical Ltd
+      # Copyright (c) 2011-2014 translatewiki.net contributors
+      # This file is distributed under the same license as the iHRIS package.
+      #
+
+  MANGLER:
+    class: StringMatcher
+    patterns:
+      - "*"
+
+  CHECKER:
+    class: MessageChecker
+    checks:
+      - printfCheck
+---
+BASIC:
+  id: out-ihris-tra-ali
+  label: iHRIS Train - Auto List
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-auto-list/ihris-train-auto-list.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-auto-list/%CODE%.po
+
+MANGLER:
+  prefix: tra-apr-
+---
+BASIC:
+  id: out-ihris-tra-ali
+  label: iHRIS Train - Access Provider
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/train-access-provider/train-access-provider.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/train-access-provider/%CODE%.po
+
+MANGLER:
+  prefix: tra-apr-
+---
+BASIC:
+  id: out-ihris-tra-cat
+  label: iHRIS Train - Category
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/training-category/training-category.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/training-category/%CODE%.po
+
+MANGLER:
+  prefix: tra-cat-
+---
+BASIC:
+  id: out-ihris-tra-cla
+  label: iHRIS Train - Classification
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/training-classification/training-classification.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/training-classification/%CODE%.po
+
+MANGLER:
+  prefix: tra-cla-
+---
+BASIC:
+  id: out-ihris-tra-com
+  label: iHRIS Train - Competency
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/training-competency/training-competency.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/training-competency/%CODE%.po
+
+MANGLER:
+  prefix: tra-com-
+---
+BASIC:
+  id: out-ihris-tra-cre
+  label: iHRIS Train - Custom Reports
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-custom-reports/ihris-train-custom-reports.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-custom-reports/%CODE%.po
+
+MANGLER:
+  prefix: tra-cre-
+---
+BASIC:
+  id: out-ihris-tra-crfspe
+  label: iHRIS Train - Custom Report Full Search Person
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/custom-reports-full-search-person/custom-reports-full-search-person.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/custom-reports-full-search-person/%CODE%.po
+
+MANGLER:
+  prefix: tra-crfspe-
+---
+BASIC:
+  id: out-ihris-tra-crfspr
+  label: iHRIS Train - Custom Reports Full Seach Provider
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/custom-reports-full-search-provider/custom-reports-full-search-provider.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/custom-reports-full-search-provider/%CODE%.po
+
+MANGLER:
+  prefix: tra-crfspr-
+---
+BASIC:
+  id: out-ihris-tra-crst
+  label: iHRIS Train - Custom Reports Scheduled Training
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-custom-reports-scheduled-training/ihris-train-custom-reports-scheduled-training.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-custom-reports-scheduled-training/%CODE%.po
+
+MANGLER:
+  prefix: tra-crst-
+---
+BASIC:
+  id: out-ihris-tra-crtp
+  label: iHRIS Train - Custom Reports Training Participant
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-custom-reports-training-participant/ihris-train-custom-reports-training-participant.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-custom-reports-training-participant/%CODE%.po
+
+MANGLER:
+  prefix: tra-crtp-
+---
+BASIC:
+  id: out-ihris-tra-edu
+  label: iHRIS Train - Education
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/education/education.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/education/%CODE%.po
+
+MANGLER:
+  prefix: tra-edu-
+---
+BASIC:
+  id: out-ihris-tra-epa
+  label: iHRIS Train - Exam Paper
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/exam-paper/exam-paper.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/exam-paper/%CODE%.po
+
+MANGLER:
+  prefix: tra-epa-
+---
+BASIC:
+  id: out-ihris-tra-fac
+  label: iHRIS Train - Facility
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/train-facility/train-facility.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/train-facility/%CODE%.po
+
+MANGLER:
+  prefix: tra-fac-
+---
+BASIC:
+  id: out-ihris-tra-fty
+  label: iHRIS Train - Fee Type
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/fee-type/fee-type.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/fee-type/%CODE%.po
+
+MANGLER:
+  prefix: tra-fty-
+---
+BASIC:
+  id: out-ihris-tra-ica
+  label: iHRIS Train - Instance Calendar
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/instance-calendar/instance-calendar.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/instance-calendar/%CODE%.po
+
+MANGLER:
+  prefix: tra-ica-
+---
+BASIC:
+  id: out-ihris-tra-core
+  label: iHRIS Train - Core
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train/ihris-train.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train/%CODE%.po
+
+MANGLER:
+  prefix: tra-core-
+---
+BASIC:
+  id: out-ihris-tra-pin
+  label: iHRIS Train - Person Instance
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/person-instance/person-instance.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/person-instance/%CODE%.po
+
+MANGLER:
+  prefix: tra-pin
+---
+BASIC:
+  id: out-ihris-tra-pex
+  label: iHRIS Train - Person Exam
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/person-exam/person-exam.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/person-exam/%CODE%.po
+
+MANGLER:
+  prefix: tra-pex-
+---
+BASIC:
+  id: out-ihris-tra-pos
+  label: iHRIS Train - Position
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/train-position/train-position.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/train-position/%CODE%.po
+
+MANGLER:
+  prefix: tra-pos-
+---
+BASIC:
+  id: out-ihris-tra-pri
+  label: iHRIS Train - Provider Instance
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/provider-instance/provider-instance.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/provider-instance/%CODE%.po
+
+MANGLER:
+  prefix: tra-pri-
+---
+BASIC:
+  id: out-ihris-tra-pro
+  label: iHRIS Train - Provider
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/training-provider/training-provider.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/training-provider/%CODE%.po
+
+MANGLER:
+  prefix: tra-pro-
+---
+BASIC:
+  id: out-ihris-tra-ptr
+  label: iHRIS Train - Provider Training
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/provider-training/provider-training.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/provider-training/%CODE%.po
+
+MANGLER:
+  prefix: tra-ptr-
+---
+BASIC:
+  id: out-ihris-tra-reg
+  label: iHRIS Train - Registration
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/registration/registration.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/registration/%CODE%.po
+
+MANGLER:
+  prefix: tra-reg-
+---
+BASIC:
+  id: out-ihris-tra-sde
+  label: iHRIS Train - Site Demo
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-site-demo/ihris-train-site-demo.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-site-demo/%CODE%.po
+
+MANGLER:
+  prefix: tra-sde-
+---
+BASIC:
+  id: out-ihris-tra-sit
+  label: iHRIS Train - Site
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-site/ihris-train-site.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/ihris-train-site/%CODE%.po
+
+MANGLER:
+  prefix: tra-sit-
+---
+BASIC:
+  id: out-ihris-tra-tra
+  label: iHRIS Train - Training
+
+FILES:
+  definitionFile: %GROUPROOT%/ihris/ihris-train/translations/templates/training/training.pot
+  sourcePattern: %GROUPROOT%/ihris/ihris-train/translations/templates/training/%CODE%.po
+
+MANGLER:
+  prefix: tra-tra-
