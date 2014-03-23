@@ -31,7 +31,7 @@ TEMPLATE:
       - printfCheck
 ---
 BASIC:
-  id: out-ihris-tra-ali
+  id: out-ihris-train-ali
   label: iHRIS Train - Auto List
 
 FILES:
@@ -42,7 +42,7 @@ MANGLER:
   prefix: tra-apr-
 ---
 BASIC:
-  id: out-ihris-tra-ali
+  id: out-ihris-train-ali
   label: iHRIS Train - Access Provider
 
 FILES:
@@ -53,7 +53,7 @@ MANGLER:
   prefix: tra-apr-
 ---
 BASIC:
-  id: out-ihris-tra-cat
+  id: out-ihris-train-cat
   label: iHRIS Train - Category
 
 FILES:
@@ -64,7 +64,7 @@ MANGLER:
   prefix: tra-cat-
 ---
 BASIC:
-  id: out-ihris-tra-cla
+  id: out-ihris-train-cla
   label: iHRIS Train - Classification
 
 FILES:
@@ -75,7 +75,7 @@ MANGLER:
   prefix: tra-cla-
 ---
 BASIC:
-  id: out-ihris-tra-com
+  id: out-ihris-train-com
   label: iHRIS Train - Competency
 
 FILES:
@@ -86,7 +86,7 @@ MANGLER:
   prefix: tra-com-
 ---
 BASIC:
-  id: out-ihris-tra-cre
+  id: out-ihris-train-cre
   label: iHRIS Train - Custom Reports
 
 FILES:
@@ -97,7 +97,7 @@ MANGLER:
   prefix: tra-cre-
 ---
 BASIC:
-  id: out-ihris-tra-crfspe
+  id: out-ihris-train-crfspe
   label: iHRIS Train - Custom Report Full Search Person
 
 FILES:
@@ -108,7 +108,7 @@ MANGLER:
   prefix: tra-crfspe-
 ---
 BASIC:
-  id: out-ihris-tra-crfspr
+  id: out-ihris-train-crfspr
   label: iHRIS Train - Custom Reports Full Seach Provider
 
 FILES:
@@ -119,7 +119,7 @@ MANGLER:
   prefix: tra-crfspr-
 ---
 BASIC:
-  id: out-ihris-tra-crst
+  id: out-ihris-train-crst
   label: iHRIS Train - Custom Reports Scheduled Training
 
 FILES:
@@ -130,7 +130,7 @@ MANGLER:
   prefix: tra-crst-
 ---
 BASIC:
-  id: out-ihris-tra-crtp
+  id: out-ihris-train-crtp
   label: iHRIS Train - Custom Reports Training Participant
 
 FILES:
@@ -141,7 +141,7 @@ MANGLER:
   prefix: tra-crtp-
 ---
 BASIC:
-  id: out-ihris-tra-edu
+  id: out-ihris-train-edu
   label: iHRIS Train - Education
 
 FILES:
@@ -152,7 +152,7 @@ MANGLER:
   prefix: tra-edu-
 ---
 BASIC:
-  id: out-ihris-tra-epa
+  id: out-ihris-train-epa
   label: iHRIS Train - Exam Paper
 
 FILES:
@@ -163,7 +163,7 @@ MANGLER:
   prefix: tra-epa-
 ---
 BASIC:
-  id: out-ihris-tra-fac
+  id: out-ihris-train-fac
   label: iHRIS Train - Facility
 
 FILES:
@@ -174,7 +174,7 @@ MANGLER:
   prefix: tra-fac-
 ---
 BASIC:
-  id: out-ihris-tra-fty
+  id: out-ihris-train-fty
   label: iHRIS Train - Fee Type
 
 FILES:
@@ -185,7 +185,7 @@ MANGLER:
   prefix: tra-fty-
 ---
 BASIC:
-  id: out-ihris-tra-ica
+  id: out-ihris-train-ica
   label: iHRIS Train - Instance Calendar
 
 FILES:
@@ -196,7 +196,7 @@ MANGLER:
   prefix: tra-ica-
 ---
 BASIC:
-  id: out-ihris-tra-core
+  id: out-ihris-train-core
   label: iHRIS Train - Core
 
 FILES:
@@ -207,7 +207,7 @@ MANGLER:
   prefix: tra-core-
 ---
 BASIC:
-  id: out-ihris-tra-pin
+  id: out-ihris-train-pin
   label: iHRIS Train - Person Instance
 
 FILES:
@@ -218,7 +218,7 @@ MANGLER:
   prefix: tra-pin
 ---
 BASIC:
-  id: out-ihris-tra-pex
+  id: out-ihris-train-pex
   label: iHRIS Train - Person Exam
 
 FILES:
@@ -229,7 +229,7 @@ MANGLER:
   prefix: tra-pex-
 ---
 BASIC:
-  id: out-ihris-tra-pos
+  id: out-ihris-train-pos
   label: iHRIS Train - Position
 
 FILES:
@@ -240,7 +240,7 @@ MANGLER:
   prefix: tra-pos-
 ---
 BASIC:
-  id: out-ihris-tra-pri
+  id: out-ihris-train-pri
   label: iHRIS Train - Provider Instance
 
 FILES:
@@ -251,7 +251,7 @@ MANGLER:
   prefix: tra-pri-
 ---
 BASIC:
-  id: out-ihris-tra-pro
+  id: out-ihris-train-pro
   label: iHRIS Train - Provider
 
 FILES:
@@ -262,7 +262,7 @@ MANGLER:
   prefix: tra-pro-
 ---
 BASIC:
-  id: out-ihris-tra-ptr
+  id: out-ihris-train-ptr
   label: iHRIS Train - Provider Training
 
 FILES:
@@ -273,7 +273,7 @@ MANGLER:
   prefix: tra-ptr-
 ---
 BASIC:
-  id: out-ihris-tra-reg
+  id: out-ihris-train-reg
   label: iHRIS Train - Registration
 
 FILES:
@@ -284,7 +284,7 @@ MANGLER:
   prefix: tra-reg-
 ---
 BASIC:
-  id: out-ihris-tra-sde
+  id: out-ihris-train-sde
   label: iHRIS Train - Site Demo
 
 FILES:
@@ -295,7 +295,7 @@ MANGLER:
   prefix: tra-sde-
 ---
 BASIC:
-  id: out-ihris-tra-sit
+  id: out-ihris-train-sit
   label: iHRIS Train - Site
 
 FILES:
@@ -306,7 +306,7 @@ MANGLER:
   prefix: tra-sit-
 ---
 BASIC:
-  id: out-ihris-tra-tra
+  id: out-ihris-train-tra
   label: iHRIS Train - Training
 
 FILES:
