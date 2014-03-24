@@ -944,6 +944,7 @@ optional = multimediaviewer-license-cc-zero
 optional = multimediaviewer-geoloc-north, multimediaviewer-geoloc-east
 optional = multimediaviewer-geoloc-south, multimediaviewer-geoloc-west
 optional = multimediaviewer-geoloc-coord, multimediaviewer-geoloc-coords
+optional = multimediaviewer-html-embed-credit-text-t
 
 MwEmbed Support
 descmsg = mwembed-desc
