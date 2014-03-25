@@ -1786,7 +1786,7 @@ Unicode Converter
 Universal Language Selector
 descmsg = uls-desc
 format = json
-prefix = jquery-uls- | *
+ignored = uls-ime-helppage
 
 UR Names
 
