@@ -199,6 +199,13 @@ then
 	fi
 	git clone "$REPO_MWLIBRL" mwlib.rl
 
+elif [ "$PROJECT" = "nocc" ]
+then
+	if [ -z "$REPO_NOCC" ]
+	then echo "Add $REPO_NOCC to REPOCONF"; exit 1
+	fi
+	svn checkout "$REPO_NOCC" $PROJECT
+
 elif [ "$PROJECT" = "okawix" ]
 then
 	if [ -z "$REPO_OKAWIX" ]

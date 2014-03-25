@@ -210,6 +210,10 @@ then
 
 	gitupdate "mwlib.rl"
 
+elif [ "$PROJECT" = "nocc" ]
+then
+	svn up -q $PROJECT
+
 elif [ "$PROJECT" = "okawix" ]
 then
 	svn up -q $PROJECT

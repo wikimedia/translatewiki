@@ -134,6 +134,11 @@ then
 	export PYTHONPATH=/usr/local/lib/python:$DIR/mwlib/
 	echo $CODES | xargs -n1 python make_messages.py
 
+elif [ "$PROJECT" = "nocc" ]
+then
+	php "$EXPORTER" --target . --group=out-nocc-* --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-nocc-* --lang qqq
+
 elif [ "$PROJECT" = "okawix" ]
 then
 	php "$EXPORTER" --target . --group=out-okawix-* --lang '*' --skip en,qqq $THRESHOLD
