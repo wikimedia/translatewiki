@@ -310,8 +310,8 @@ wfAddNamespace( 1200, 'Voctrain' );
 wfAddNamespace( 1202, 'FreeCol' );
 $wgTranslateGroupFiles[] = "$GROUPS/FreeCol/FreeCol.yaml";
 
-# No longer in use.
 wfAddNamespace( 1204, 'Nocc' );
+$wgTranslateGroupFiles[] = "$GROUPS/Nocc/Nocc.yaml";
 
 wfAddNamespace( 1206, 'Wikimedia' );
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
