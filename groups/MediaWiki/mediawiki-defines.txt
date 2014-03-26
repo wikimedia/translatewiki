@@ -306,30 +306,30 @@ file = ConfirmAccount/frontend/language/UserCredentialsPage.i18n.php
 
 Confirm Edit
 format = json
-file ConfirmEdit/i18n/core/%CODE%.json
+file = ConfirmEdit/i18n/core/%CODE%.json
 aliasfile = ConfirmEdit/ConfirmEdit.alias.php
 descmsg = captcha-desc
 
 ConfirmEdit Asirra
 format = json
-file ConfirmEdit/i18n/asirra/%CODE%.json
+file = ConfirmEdit/i18n/asirra/%CODE%.json
 descmsg = asirra-desc
 
 ConfirmEdit Fancy Captcha
 format = json
-file ConfirmEdit/i18n/fancy/%CODE%.json
+file = ConfirmEdit/i18n/fancy/%CODE%.json
 descmsg = fancycaptcha-desc
 optional = fancycaptcha-desc
 
 ConfirmEdit Questy Captcha
 format = json
-file ConfirmEdit/i18n/questy/%CODE%.json
+file = ConfirmEdit/i18n/questy/%CODE%.json
 descmsg = questycaptcha-desc
 optional = questycaptcha-desc
 
 ConfirmEdit ReCaptcha
 format = json
-file ConfirmEdit/i18n/re/%CODE%.json
+file = ConfirmEdit/i18n/re/%CODE%.json
 descmsg = recaptcha-desc
 optional = recaptcha-desc
 
