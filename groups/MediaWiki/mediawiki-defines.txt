@@ -1544,52 +1544,6 @@ ignored = smoothgallery-pagetext
 Social Profile
 aliasfile = SocialProfile/SocialProfile.alias.php
 
-#Social Profile - System Gifts
-#id = ext-socialprofile-systemgifts
-#file = SocialProfile/SystemGifts/SystemGift.i18n.php
-#descmsg = systemgiftmanager
-
-#Social Profile - User Activity
-#id = ext-socialprofile-useractivity
-#file = SocialProfile/UserActivity/UserActivity.i18n.php
-#descmsg = useractivity
-
-#Social Profile - User Board
-#id = ext-socialprofile-userboard
-#file = SocialProfile/UserBoard/UserBoard.i18n.php
-#descmsg = boardblasttitle
-
-#Social Profile - User Gifts
-#id = ext-socialprofile-usergifts
-#file = SocialProfile/UserGifts/UserGifts.i18n.php
-#descmsg = g-give-no-user-message
-
-#Social Profile - User Profile
-#id = ext-socialprofile-userprofile
-#file = SocialProfile/UserProfile/UserProfile.i18n.php
-#descmsg = edit-profile-title
-#optional = avatarlogentry, profilelogentry
-#ignored = userprofile-country-list
-
-#Social Profile - User Relationship
-#id = ext-socialprofile-userrelationship
-#file = SocialProfile/UserRelationship/UserRelationship.i18n.php
-#descmsg = ur-requests-title
-
-#Social Profile - User Stats
-#id = ext-socialprofile-userstats
-#file = SocialProfile/UserStats/UserStats.i18n.php
-#descmsg = topusers
-
-#Social Profile - User Status
-#id = ext-socialprofile-userstatus
-#file = SocialProfile/UserStatus/UserStatus.i18n.php
-
-#Social Profile - User Welcome
-#id = ext-socialprofile-userwelcome
-#file = SocialProfile/UserWelcome/UserWelcome.i18n.php
-#descmsg = userwelcome-desc
-
 Solarium
 
 Solr Store

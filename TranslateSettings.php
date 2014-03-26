@@ -171,8 +171,6 @@ function setupMediaWiki( &$cc ) {
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/MediaWiki.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/FlaggedRevsAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/ReaderFeedbackAgg.yaml";
-# Disabled by Siebrand / 2011-10-23. Maintainer is not willing to stick to conventions.
-#$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/SocialProfileAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/TranslateAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/VisualEditorAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaMainAgg.yaml";
