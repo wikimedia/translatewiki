@@ -175,6 +175,7 @@ ignored = categorytree-collapse-bullet, categorytree-page-bullet, categorytree-m
 optional = categorytree-expand-bullet, categorytree-empty-bullet
 
 Central Auth
+format = json
 aliasfile = CentralAuth/CentralAuth.alias.php
 optional = centralauth-editset-grouplink, centralauth-listusers-item
 optional = centralauth-merge-method-questionmark
@@ -185,6 +186,7 @@ aliasfile = CentralNotice/CentralNotice.alias.php
 optional = centralnotice-language-listing, centralnotice-log-label, centralnotice-user-links
 
 Char Insert
+format = json
 #magicfile = CharInsert/CharInsert.i18n.magic.php
 
 Char Range Span
@@ -192,41 +194,51 @@ Char Range Span
 Checkpoint
 
 Check User
+format = json
 aliasfile = CheckUser/CheckUser.alias.php
 ignored = checkuser-toollinks
 optional = group-checkuser.css, group-checkuser.js
 
 Cirrus Search
+format = json
 
 Cite
+format = json
+file = Cite/i18n/core/%CODE%.json
 optional = cite_reference_link_key_with_num, cite_reference_link_prefix, cite_reference_link_suffix, cite_references_link_prefix
 optional = cite_references_link_suffix, cite_reference_link, cite_references_link_one, cite_references_link_many
 optional = cite_references_link_many_format, cite_references_link_many_format_backlink_labels, cite_references_link_many_sep, cite_references_link_many_and
 ignored = cite_references_prefix, cite_references_suffix, cite_references_no_link
 
 Special Cite
+format = json
 id = ext-citespecial
-file = Cite/SpecialCite.i18n.php
+file = Cite/i18n/special/%CODE%.json
 aliasfile = Cite/SpecialCite.alias.php
 descmsg = cite_article_desc
 ignored = cite-summary, accesskey-cite-article
 
 cldr
+format = json
 
 Clean Changes
+format = json
 optional = cleanchanges-rcinfo-2, cleanchanges-rcinfo-3
 
 Click Tracking
 
 Client Side
+format = json
 
 Close Wikis
 aliasfile = CloseWikis/CloseWikis.alias.php
 ignored = closewikis-closed
 
 Code Editor
+format = json
 
 Code Review
+format = json
 aliasfile = CodeReview/CodeReview.alias.php
 ignored = code-rev-comment-preview-accesskey, code-rev-submit-accesskey, code-rev-submit-next-accesskey
 ignored = code-rev-id, code-rev-next-accesskey
