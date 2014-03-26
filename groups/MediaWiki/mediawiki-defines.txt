@@ -245,6 +245,7 @@ ignored = code-rev-id, code-rev-next-accesskey
 optional = group-svnadmins.css, group-svnadmins.js
 
 Collection
+format = json
 aliasfile = Collection/Collection.alias.php
 descmsg = coll-desc
 ignored = coll-license_url
@@ -262,10 +263,12 @@ ignored = commenttab-editintro, commenttab-preload
 Comments
 
 Commons Metadata
+format = json
 
 CommunityTwitter
 
 Community Voice
+format = json
 aliasfile = CommunityVoice/CommunityVoice.alias.php
 
 Conditional Show Section
@@ -302,29 +305,36 @@ id = ext-confirmaccount-usercredentials
 file = ConfirmAccount/frontend/language/UserCredentialsPage.i18n.php
 
 Confirm Edit
+format = json
+file ConfirmEdit/i18n/core/%CODE%.json
 aliasfile = ConfirmEdit/ConfirmEdit.alias.php
 descmsg = captcha-desc
 
 ConfirmEdit Asirra
-file = ConfirmEdit/Asirra.i18n.php
+format = json
+file ConfirmEdit/i18n/asirra/%CODE%.json
 descmsg = asirra-desc
 
 ConfirmEdit Fancy Captcha
-file = ConfirmEdit/FancyCaptcha.i18n.php
+format = json
+file ConfirmEdit/i18n/fancy/%CODE%.json
 descmsg = fancycaptcha-desc
 optional = fancycaptcha-desc
 
 ConfirmEdit Questy Captcha
-file = ConfirmEdit/QuestyCaptcha.i18n.php
+format = json
+file ConfirmEdit/i18n/questy/%CODE%.json
 descmsg = questycaptcha-desc
 optional = questycaptcha-desc
 
 ConfirmEdit ReCaptcha
-file = ConfirmEdit/ReCaptcha.i18n.php
+format = json
+file ConfirmEdit/i18n/re/%CODE%.json
 descmsg = recaptcha-desc
 optional = recaptcha-desc
 
 Contact Page
+format = json
 aliasfile = ContactPage/ContactPage.alias.php
 
 Content Translation
@@ -334,10 +344,6 @@ aliasfile = ContentTranslation/ContentTranslation.alias.php
 
 # Unused per https://bugzilla.wikimedia.org/show_bug.cgi?id=41526#c0
 #Contest
-#aliasfile = Contest/Contest.alias.php
-#optional = group-contestadmin.css, group-contestadmin.js
-#optional = group-contestant.css, group-contestant.js
-#optional = group-contestjudge.css, group-contestjudge.js
 
 Contribution Reporting
 aliasfile = ContributionReporting/ContributionReporting.alias.php
@@ -347,6 +353,7 @@ Contribution Scores
 aliasfile = ContributionScores/ContributionScores.alias.php
 
 Contribution Tracking
+format = json
 aliasfile = ContributionTracking/ContributionTracking.alias.php
 
 Contributors
@@ -369,17 +376,17 @@ Create Redirect
 aliasfile = CreateRedirect/CreateRedirect.alias.php
 
 Credits Source
+format = json
 
 CryoKey
 
 CSS
 
 Custom Data
+format = json
 
-# Unused on WMF since 8/2012 and seems unmaintened
-# https://gerrit.wikimedia.org/r/#/c/18201/
+# Unused on WMF since 8/2012 and seems unmaintened. https://gerrit.wikimedia.org/r/#/c/18201/
 # Custom User Signup
-# ignored = customusersignup
 
 Data Transfer
 file = DataTransfer/languages/DT_Messages.php
@@ -387,16 +394,7 @@ aliasfile = DataTransfer/languages/DT_Aliases.php
 
 # Repo is read only
 # Data Types
-# file = DataTypes/DataTypes.i18n.php
-
-# Repo is read only
 # Data Values
-# file = DataValues/DataValues/DataValues.i18n.php
-
-# Repo is read only
-# Data Values - Value View
-# file = DataValues/ValueView/ValueView.i18n.php
-# descmsg = valueview-desc
 
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
@@ -417,9 +415,11 @@ Did You Mean
 Diff
 
 Disable Account
+format = json
 aliasfile = DisableAccount/DisableAccount.alias.php
 
 Disambiguator
+format = json
 descmsg = disambig-desc
 aliasfile = Disambiguator/Disambiguator.i18n.alias.php
 magicfile = Disambiguator/Disambiguator.i18n.magic.php
