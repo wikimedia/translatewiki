@@ -1,5 +1,7 @@
 <?php
 
+date_default_timezone_set( 'UTC' );
+
 $stamp = strftime( '%FT%T%Z' );
 $name = @$_REQUEST['fileUrl'];
 $line = @$_REQUEST['lineNumber'];
