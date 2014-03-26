@@ -463,6 +463,10 @@ id = ext-di-ppg
 file = DonationInterface/paypal_gateway/paypal_gateway.i18n.php
 descmsg = paypal_gateway-desc
 
+Donation Interface - WorldPay Gateway
+id = ext-di-wpg
+file = DonationInterface/worldpay_gateway/worldpay_gateway.i18n.php
+
 Double Wiki
 
 Download Counter
