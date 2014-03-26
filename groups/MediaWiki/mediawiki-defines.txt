@@ -119,6 +119,7 @@ ignored = babel-box-cellspacing, babel-cellspacing, babel-portal,
 ignored = babel-box-cellpadding, babel-cellpadding
 
 Batch User Rights
+format = json
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
 Bayesian Filter
