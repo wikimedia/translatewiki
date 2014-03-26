@@ -427,6 +427,7 @@ magicfile = Disambiguator/Disambiguator.i18n.magic.php
 Discussion Threading
 
 Dismissable SiteNotice
+format = json
 descmsg = sitenotice-desc
 ignored = sitenotice_id
 optional = sitenotice_close-brackets
@@ -480,6 +481,7 @@ id = ext-di-wpg
 file = DonationInterface/worldpay_gateway/worldpay_gateway.i18n.php
 
 Double Wiki
+format = json
 
 Download Counter
 
@@ -493,15 +495,15 @@ Duplicator
 
 # Superseeded by intersection extension
 # Dynamic Page List
-# descmsg = intersection-desc
 
 Dynamic Sidebar
+format = json
 
-# Removed from WMF cluster: https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commitdiff;h=1d72fba3461ad3e0a94ea5425e6ade65e5a96203
 # Very WMF centric, unlikely to be used by third parties
 # E3 Experiments
 
 Echo
+format = json
 aliasfile = Echo/Echo.alias.php
 optional = echo-notification-count
 optional = echo-email-batch-separator, echo-email-batch-bullet, echo-quotation-marks
@@ -521,6 +523,7 @@ ignored = accesskey-ep-form-save, accesskey-ep-edit-institution, accesskey-ep-ed
 ignored = accesskey-ep-minor
 
 Elastica
+format = json
 
 Email Capture
 
@@ -533,15 +536,18 @@ Ether Editor
 Etherpad Lite
 
 Event Logging
+format = json
+file = EventLogging/i18n/core/%CODE%.json
 
 Event Logging - Json Schema
-file = EventLogging/includes/JsonSchema.i18n.php
+format = json
+file = EventLogging/i18n/jsonschema/%CODE%.json
 
 # 2013-11-23 Added to core
 #Expand Templates
-#aliasfile = ExpandTemplates/ExpandTemplates.alias.php
 
 Extension Distributor
+format = json
 
 External Articles
 
@@ -557,6 +563,7 @@ file = ExtTab/languages/ExtTab.i18n.php
 # Fan Box
 
 Featured Feeds
+format = json
 descmsg = ffeed-desc
 aliasfile = FeaturedFeeds/FeaturedFeeds.alias.php
 ignored = ffeed-featured-page, ffeed-onthisday-page, ffeed-dyk-page
@@ -571,8 +578,9 @@ format = json
 aliasfile = FirstSteps/FirstSteps.alias.php
 
 Flagged Revisions - Flagged Revs
+format = json
 id = ext-flaggedrevs-flaggedrevs
-file = FlaggedRevs/frontend/language/FlaggedRevs.i18n.php
+file = FlaggedRevs/i18n/flaggedrevs/%CODE%.json
 descmsg = flaggedrevs-desc
 aliasfile = FlaggedRevs/frontend/language/FlaggedRevs.alias.php
 optional = revreview-toggle-show, revreview-toggle-hide
@@ -583,60 +591,71 @@ ignored = revreview-ak-review, accesskey-ca-current, accesskey-ca-stable
 ignored = flaggedrevs-stable-categories, flaggedrevs-diffonly
 
 Flagged Revisions - Configured Pages
+format = json
 id = ext-flaggedrevs-configuredpages
-file = FlaggedRevs/frontend/language/ConfiguredPages.i18n.php
+file = FlaggedRevs/i18n/configuredpages/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flagged Revisions - Pending Changes
+format = json
 id = ext-flaggedrevs-pendingchanges
-file = FlaggedRevs/frontend/language/PendingChanges.i18n.php
+file = FlaggedRevs/i18n/pendingchanges/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flagged Revisions - Problem Changes
+format = json
 id = ext-flaggedrevs-problemchanges
-file = FlaggedRevs/frontend/language/ProblemChanges.i18n.php
+file = FlaggedRevs/i18n/problemchanges/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flagged Revisions - Quality Oversight
+format = json
 id = ext-flaggedrevs-qualityoversight
-file = FlaggedRevs/frontend/language/QualityOversight.i18n.php
+file = FlaggedRevs/i18n/qualityoversight/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flagged Revisions - Reviewed Pages
+format = json
 id = ext-flaggedrevs-reviewedpages
-file = FlaggedRevs/frontend/language/ReviewedPages.i18n.php
+file = FlaggedRevs/i18n/reviewedpages/%CODE%.json
 descmsg = flaggedrevs-desc
 optional = reviewedpages-lev-0, reviewedpages-lev-1, reviewedpages-lev-2
 
 Flagged Revisions - Reviewed Versions
+format = json
 id = ext-flaggedrevs-reviewedversions
-file = FlaggedRevs/frontend/language/ReviewedVersions.i18n.php
+file = FlaggedRevs/i18n/reviewedversions/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flagged Revisions - Revision Review
+format = json
 id = ext-flaggedrevs-revisionreview
-file = FlaggedRevs/frontend/language/RevisionReview.i18n.php
+file = FlaggedRevs/i18n/revisionreview/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flagged Revisions - Stabilization
+format = json
 id = ext-flaggedrevs-stabilization
-file = FlaggedRevs/frontend/language/Stabilization.i18n.php
+file = FlaggedRevs/i18n/stabilization/%CODE%.json
 descmsg = flaggedrevs-desc
 ignored = stabilize_protect_quota
 
 Flagged Revisions - Stable Pages
+format = json
 id = ext-flaggedrevs-stablepages
-file = FlaggedRevs/frontend/language/StablePages.i18n.php
+file = FlaggedRevs/i18n/stablepages/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flagged Revisions - Unreviewed Pages
+format = json
 id = ext-flaggedrevs-unreviewedpages
-file = FlaggedRevs/frontend/language/UnreviewedPages.i18n.php
+file = FlaggedRevs/i18n/unreviewedpages/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flagged Revisions - Validation Statistics
+format = json
 id = ext-flaggedrevs-validationstatistics
-file = FlaggedRevs/frontend/language/ValidationStatistics.i18n.php
+file = FlaggedRevs/i18n/validationstatistics/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flow
