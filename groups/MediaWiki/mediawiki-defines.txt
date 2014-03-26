@@ -1867,6 +1867,10 @@ Vote NY
 file = VoteNY/Vote.i18n.php
 prefix = voteny- | right-vote
 
+Watch Subpages
+aliasfile = WatchSubpages/WatchSubpages.alias.php
+ignored = accesskey-watchsubpages-submit
+
 Web Chat
 aliasfile = WebChat/WebChat.alias.php
 
