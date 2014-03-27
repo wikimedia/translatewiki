@@ -456,7 +456,7 @@ $wgHooks['GetBetaFeaturePreferences'][] = function ( $user, &$prefs ) {
 		'desc-message' => 'hhvm-beta-desc',
 		'screenshot' => 'https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-prn2/1393601_10151895286787200_231799865_a.jpg',
 		'info-link' => 'http://www.hhvm.com/blog/',
-		'discussion-link' => '/wiki/Support',
+		'discussion-link' => '/wiki/Thread:Support/HHVM',
 	);
 };
 $wgHooks['BeforePageDisplay'][] = function ( OutputPage $out ) {
