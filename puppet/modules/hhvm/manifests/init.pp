@@ -11,16 +11,17 @@ class hhvm {
 
   apt::ppa { 'ppa:mapnik/boost': }
 
-  package { 'hhvm-fastcgi':
+  package { 'hhvm-nightly':
     ensure => present,
     require => Apt::Source['hhvm'],
   }
 
-  service { 'hhvm-fastcgi':
-    ensure     => running,
-    enable     => true,
-    hasstatus  => true,
-    hasrestart => true,
-    require    => [ Package['hhvm-fastcgi'] ],
+  # Upstart configuration
+  file { '/etc/init/hhvm-fastcgi.conf':
+    source  => 'puppet:///modules/hhvm/upstart',
+  }
+
+  file { '/etc/hhvm/server.ini':
+    source  => 'puppet:///modules/hhvm/server.ini',
   }
 }
