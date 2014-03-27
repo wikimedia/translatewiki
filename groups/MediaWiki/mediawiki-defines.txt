@@ -24,6 +24,7 @@ Ad Manager
 Add This
 
 Admin Links
+format = json
 aliasfile = AdminLinks/AdminLinks.alias.php
 
 Ads
@@ -48,6 +49,7 @@ ignored = antispoof-conflict-item, antispoof-bad-char-non-printable
 optional = antispoof-bad-char
 
 APC
+format = json
 aliasfile = APC/APC.alias.php
 
 Api Explorer
@@ -351,6 +353,7 @@ aliasfile = ContributionReporting/ContributionReporting.alias.php
 ignored = contribstats-header, contribstats-footer
 
 Contribution Scores
+format = json
 aliasfile = ContributionScores/ContributionScores.alias.php
 
 Contribution Tracking
@@ -828,6 +831,7 @@ Intersection
 file = intersection/DynamicPageList.i18n.php
 
 Interwiki
+format = json
 aliasfile = Interwiki/Interwiki.alias.php
 optional = interwiki_url, interwiki-url-label
 ignored = interwiki-defaulturl, logentry-interwiki-interwiki
@@ -1062,6 +1066,7 @@ Nostalgia
 NS File Repo
 
 Nuke
+format = json
 aliasfile = Nuke/Nuke.alias.php
 
 Number Format
@@ -1380,6 +1385,7 @@ Related Articles
 Related Sites
 
 Rename user
+format = json
 aliasfile = Renameuser/Renameuser.alias.php
 ignored = renameuser-summary, logentry-renameuser-renameuser-legaciest
 
@@ -1387,6 +1393,7 @@ Replace Set
 magicfile = ReplaceSet/ReplaceSet.i18n.magic.php
 
 Replace Text
+format = json
 aliasfile = ReplaceText/ReplaceText.alias.php
 
 Revision Comment Supplement
@@ -1455,7 +1462,7 @@ Semantic Extra Special Properties
 descmsg = sesp-desc
 
 Semantic Forms
-file = SemanticForms/languages/SF_Messages.php
+format = json
 aliasfile = SemanticForms/languages/SF_Aliases.php
 magicfile = SemanticForms/languages/SF_Magic.php
 ignored = sf_formedit_accesskey_saveandcontinueediting
