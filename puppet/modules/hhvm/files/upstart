@@ -1,0 +1,19 @@
+# hhvm - HipHop VM
+# file managed by puppet
+
+description     "HHVM-fastcgi server"
+
+start on filesystem or runlevel [2345]
+stop on runlevel [!2345]
+
+respawn
+respawn limit 10 5
+umask 022
+
+# Location of config and executable
+
+env SERVER=/usr/bin/hhvm
+env CONFIG_FILE=/etc/hhvm/server.ini
+env RUN_AS=www-data
+
+exec $SERVER -m daemon -vServer.IP=127.0.0.1 --config $CONFIG_FILE --user $RUN_AS
