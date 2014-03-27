@@ -313,7 +313,8 @@ $wgTranslateGroupFiles[] = "$GROUPS/Nocc/Nocc.yaml";
 wfAddNamespace( 1206, 'Wikimedia' );
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Wikimania.yaml";
+# Keep disabled until the 2015 cycle.
+#$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Wikimania.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-android.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-ios.yaml";
