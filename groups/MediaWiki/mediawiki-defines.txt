@@ -660,6 +660,7 @@ file = FlaggedRevs/i18n/validationstatistics/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flow
+format = json
 ignored = flow-hide-usertext, flow-delete-usertext, flow-system-usertext
 ignored = flow-error-invalid-action
 optional = flow-post-interaction-separator
@@ -674,6 +675,7 @@ Formel Applet
 Foxway
 
 Fundraiser Landing Page
+format = json
 # Alias file not added for translation. This special page is not visible for the user/reader. Raymond 2011-10-24
 ignored = fundraiserlandingpage-wmch-landing-page, fundraiserlandingpage-wmde-landing-page
 ignored = fundraiserlandingpage-wmfr-landing-page, fundraiserlandingpage-wmuk-landing-page
@@ -683,15 +685,18 @@ ignored = fundraiserlandingpage-wmfr-landing-page, fundraiserlandingpage-wmuk-la
 # file = FundraisingEmailUnsubscribe/FundraiserUnsubscribe.i18n.php
 
 Gadgets
+format = json
 aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition
 
 Genderize
 
 Geo Crumbs
+format = json
 optional = geocrumbs-delimiter
 
 Geo Data
+format = json
 
 # Deleted with I67f104bc
 #Geo Math
@@ -700,12 +705,14 @@ Geo Data
 GeoGebra
 
 Getting Started
+format = json
 
 Git 2 Pages
 
 Gitweb
 
 Global Blocking
+format = json
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
 ignored = globalblocking-expiry-options
 
@@ -719,6 +726,7 @@ Global Preferences
 descmsg = globalprefs-desc
 
 Global Usage
+format = json
 aliasfile = GlobalUsage/GlobalUsage.alias.php
 
 Global User Groups
@@ -743,6 +751,7 @@ Google Doc Tag
 # Archived in June 2013
 
 Google News Sitemap
+format = json
 ignored = googlenewssitemap_categorymap
 aliasfile = GoogleNewsSitemap/GoogleNewsSitemap.alias.php
 
@@ -755,6 +764,7 @@ GraphViz
 Groups Sidebar
 
 Guided Tour
+format = json
 optional = guidedtour-custom.css, guidedtour-tour-test-wikitext-description
 
 GW Toolset
