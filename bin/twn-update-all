@@ -10,7 +10,8 @@ cd $WIKI
 REV=`git log --pretty='%h %ci (%cr)' -n 1`
 "$BASEDIR/udpcast" "updating $WIKINAME from $REV..."
 
-echo "*** Updating config ***"
+CURRENTTIME=`date +"%T"`
+echo "*** $CURRENTTIME: Updating config ***"
 sudo -u betawiki "$BASEDIR/wikiupdate-repo" /home/betawiki/config
 
 sudo -H -u betawiki "$BASEDIR/wikiupdate" "$WIKI"
