@@ -771,6 +771,7 @@ format = json
 optional = guidedtour-custom.css, guidedtour-tour-test-wikitext-description
 
 GW Toolset
+format = json
 aliasfile = GWToolset/GWToolset.alias.php
 ignored = gwtoolset-menu
 
@@ -805,6 +806,7 @@ file = I18nTags/I18nTags.i18n.php
 magicfile = I18nTags/I18nTags.magic.php
 
 Image Map
+format = json
 descmsg = imagemap_desc
 optional = imagemap_desc_types
 
@@ -815,6 +817,7 @@ ignored = index-exclude-categories
 Inline Categorizer
 
 Input Box
+format = json
 
 # Create a symbolic link "Installer" to mediawiki core's includes/installer in extensions/ to make this work.
 Installer
@@ -828,7 +831,7 @@ Interlanguage
 magicfile = Interlanguage/Interlanguage.i18n.magic.php
 
 Intersection
-file = intersection/DynamicPageList.i18n.php
+format = json
 
 Interwiki
 format = json
@@ -837,6 +840,7 @@ optional = interwiki_url, interwiki-url-label
 ignored = interwiki-defaulturl, logentry-interwiki-interwiki
 
 Insider
+format = json
 
 Invite Signup
 descmsg = is-desc
@@ -848,10 +852,11 @@ JS Bread Crumbs
 optional = jsbreadcrumbs-separator
 
 Labeled Section Transclusion
-file = LabeledSectionTransclusion/lst.i18n.php
+format = json
 descmsg = lst-desc
 
 Landing Check
+format = json
 aliasfile = LandingCheck/LandingCheck.alias.php
 
 Language Selector
@@ -861,6 +866,7 @@ Language Tag
 Last Modified
 
 Ldap Authentication
+format = json
 
 Less
 
@@ -879,13 +885,14 @@ aliasfile = LinkFilter/Link.alias.php
 Link Suggest
 
 Liquid Threads
-file = LiquidThreads/i18n/Lqt.i18n.php
+format = json
 aliasfile = LiquidThreads/i18n/Lqt.alias.php
 magicfile = LiquidThreads/i18n/LiquidThreads.magic.php
 descmsg = lqt-desc
 ignored = lqt_header_warning_before_big
 
 Listings
+format = json
 ignored = listings-fax-symbol, listings-email-symbol
 ignored = listings-tollfree-symbol, listings-position-template
 optional = listings-phone-symbol
@@ -894,6 +901,7 @@ Live Translate
 optional = group-tmxadmin.css, group-tmxadmin.js
 
 Localisation Update
+format = json
 
 Lockdown
 
@@ -923,6 +931,7 @@ ignored = maintenance-createAndPromote-option-username, maintenance-createAndPro
 ignored = maintenance-createAndPromote-output-done, maintenance-createAndPromote-error-invalid, maintenance-createAndPromote-error-exists
 
 Map Sources
+format = json
 aliasfile = MapSources/MapSources.i18n.alias.php
 
 Maps
