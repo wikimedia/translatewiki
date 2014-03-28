@@ -940,16 +940,19 @@ magicfile = Maps/Maps.i18n.magic.php
 optional = maps_googlemaps2, maps_googlemaps3, maps_yahoomaps, maps_openlayers, maps_osm
 
 Mark As Helpful
+format = json
 
 Mass Edit Regex
 aliasfile = MassEditRegex/MassEditRegex.alias.php
 
 Mass Message
+format = json
 aliasfile = MassMessage/MassMessage.alias.php
 magicfile = MassMessage/MassMessage.i18n.magic.php
 ignored = massmessage-target, massmessage-message-footer, massmessage-target-local
 
 Math
+format = json
 ignored = math-preference-mwmathinspector-discussion-link, math-preference-mwmathinspector-info-link
 
 Math Search
@@ -968,8 +971,8 @@ ignored = chat-smileys
 optional = logentry-chat-send
 
 MediaWiki Search
+format = json
 id = ext-mwsearch
-file = MWSearch/MWSearch.i18n.php
 
 Mobile App
 format = json
@@ -987,6 +990,7 @@ ignored = mobilefrontend-keepgoing-wikify-category
 Model
 
 Mood Bar
+format = json
 aliasfile = MoodBar/MoodBar.alias.php
 optional = moodbar-what-collapsed, moodbar-respond-collapsed, moodbar-respond-expanded, moodbar-response-cc
 optional = moodbar-response-gfdl, moodbar-response-url
@@ -1002,6 +1006,7 @@ MSSQL Back Compat
 Multi Maps
 
 Multimedia Viewer
+format = json
 optional = multimediaviewer-credit
 optional = multimediaviewer-license-cc-by-1.0, multimediaviewer-license-cc-sa-1.0, multimediaviewer-license-cc-by-sa-1.0
 optional = multimediaviewer-license-cc-by-2.0, multimediaviewer-license-cc-by-sa-2.0,
@@ -1016,12 +1021,14 @@ optional = multimediaviewer-geoloc-coord, multimediaviewer-geoloc-coords
 optional = multimediaviewer-html-embed-credit-text-t, multimediaviewer-embed-dimensions
 
 MwEmbed Support
+format = json
 descmsg = mwembed-desc
 file = MwEmbedSupport/MwEmbedSupport.i18n.php
 
 MwEmbed Support - MwEmbed Support
+format = json
 id = ext-mwembedsupport-mwembedsupport
-file = MwEmbedSupport/MwEmbedModules/MwEmbedSupport/MwEmbedSupport.i18n.php
+file = MwEmbedSupport/MwEmbedModules/MwEmbedSupport/i18n/%CODE%.json
 optional = mwe-size-gigabytes, mwe-size-megabytes, mwe-size-kilobytes, mwe-size-bytes
 
 My Variables
@@ -1040,11 +1047,13 @@ ignored = nll-itemoutput
 optional = nll-separator
 
 Navigation Timing
+format = json
 
 Negref
 magicfile = Negref/Negref.i18n.magic.php
 
 New User Message
+format = json
 ignored = newusermessage-editor, newusermessage-substitute
 ignored = newusermessage-template
 
@@ -1071,6 +1080,7 @@ No Title
 Nonlinear
 
 Nostalgia
+format = json
 
 NS File Repo
 
