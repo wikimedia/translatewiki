@@ -832,6 +832,7 @@ magicfile = Interlanguage/Interlanguage.i18n.magic.php
 
 Intersection
 format = json
+file = intersection/i18n/%CODE%.json
 
 Interwiki
 format = json
