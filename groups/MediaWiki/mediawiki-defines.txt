@@ -1301,6 +1301,7 @@ PHP Excel
 Php Tags Functions
 
 Poem
+format = json
 
 Polyglot
 
@@ -1313,9 +1314,10 @@ aliasfile = PollNY/Poll.alias.php
 descmsg = poll-desc
 
 Pool Counter
-file = PoolCounter/PoolCounterClient.i18n.php
+format = json
 
 Popups
+format = json
 
 # Post comment: Insufficient escaping and other issues
 
@@ -1346,6 +1348,7 @@ Private Domains
 Pronunciation Recording
 
 Proofread Page
+format = json
 aliasfile = ProofreadPage/ProofreadPage.alias.php
 descmsg = proofreadpage_desc
 ignored = proofreadpage_default_header, proofreadpage_default_footer
@@ -1370,6 +1373,7 @@ Quantcast
 Quick Response
 
 Quiz
+format = json
 descmsg = quiz_desc
 
 Random Image
@@ -1379,7 +1383,7 @@ aliasfile = RandomInCategory/RandomInCategory.alias.php
 prefix = extension- | randomincategory
 
 Random Root Page
-file = RandomRootPage/Randomrootpage.i18n.php
+format = json
 aliasfile = RandomRootPage/Randomrootpage.i18n.alias.php
 
 Random Users With Avatars
@@ -1416,8 +1420,10 @@ Regex Functions
 magicfile = RegexFunctions/RegexFunctions.i18n.magic.php
 
 Related Articles
+format = json
 
 Related Sites
+format = json
 
 Rename user
 format = json
@@ -1440,6 +1446,7 @@ Right Functions
 optional = rightfunctions-rest1, rightfunctions-rest2, rightfunctions-rest3, rightfunctions-sep
 
 RSS
+format = json
 ignored = rss-item
 
 RT
@@ -1447,11 +1454,13 @@ RT
 Sarcasm
 
 Score
+format = json
 
 # 2012-11-12: Disabled on WMF, per chat with Sam "It can be treated as abandoned"
 # Scan Set
 
 Scribunto
+format = json
 magicfile = Scribunto/Scribunto.magic.php
 optional = scribunto-lua-backtrace-line
 optional = scribunto-limitreport-virtmemusage-value, scribunto-limitreport-memusage-value, scribunto-limitreport-profile-percent
