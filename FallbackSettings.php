@@ -32,7 +32,6 @@ $wgTranslateLanguageFallbacks['gom-deva'] = 'hi';
 $wgTranslateLanguageFallbacks['guc'] = 'es';
 $wgTranslateLanguageFallbacks['hi'] = 'mr'; # Siebrand 2008-03-25
 $wgTranslateLanguageFallbacks['hif-deva'] = 'hi'; # Siebrand 2008-02-12
-$wgTranslateLanguageFallbacks['hrx'] = array( 'de' );
 $wgTranslateLanguageFallbacks['hsn'] = 'zh-hans';
 $wgTranslateLanguageFallbacks['hu-formal'] = 'hu';
 $wgTranslateLanguageFallbacks['hy'] = 'ru';

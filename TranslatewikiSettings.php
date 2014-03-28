@@ -307,7 +307,6 @@ $wgExtraLanguageNames['sdh'] = 'کوردی خوارگ'; # Southern Kurdish / Sie
 $wgExtraLanguageNames['mww-latn'] = 'Hmoob Dawb'; # Hmong Daw / Siebrand 2013-12-02
 $wgExtraLanguageNames['rmf'] = 'kaalengo tšimb'; # Romani language spoken in Finland / Nike 2014-03-05
 $wgExtraLanguageNames['zgh'] = 'ⵜⴰⵎⴰⵣⵉⵖⵜ'; # Standard Moroccan Tamazight / Siebrand 2014-03-11
-$wgExtraLanguageNames['hrx'] = 'Hunsrik'; # Riograndenser Hunsrückisch / Siebrand 2014-03-11
 $wgExtraLanguageNames['luz'] = 'لری جنووی '; # Southern Luri / Siebrand 2014-03-12
 $wgExtraLanguageNames['ciw'] = 'Ojibwemowin'; # Chippewa / Siebrand 2014-03-21
 
