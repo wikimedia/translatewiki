@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Allow for passing a base path and repo folder name in two parameters
 # or a single full path as parameter.
