@@ -10,15 +10,22 @@ else
 	DIR=$1
 fi
 
+# Updates the repository in the current directory and resets it.
+# Does not retry in case of errors.
+# Sets OUTPUT to the output of the git operations
+# Sets CODE to the return value of the pipeline.
+update_reset() {
+    OUTPUT=$(git fetch -q --all && git reset -q --hard origin/master && git clean -q -f -d 2>&1 >&-)
+    CODE=$?
+}
+
 cd $DIR
-OUTPUT=$(git fetch -q --all && git reset -q --hard origin/master && git clean -q -f -d 2>&1 >&-)
-CODE=$?
+update_reset
 
 if [ $CODE -ne 0 ]; then
     cd $DIR
     echo "Retry $DIR"
-    OUTPUT=$(git fetch -q --all && git reset -q --hard origin/master && git clean -q -f -d 2>&1 >&-)
-    CODE=$?
+    update_reset
     if [ $CODE -ne 0 ]; then
         printf "\033[31m%s failed to update\033[0m\n" "$DIR";
         echo $OUTPUT;
