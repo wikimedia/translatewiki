@@ -35,7 +35,7 @@ Automatic Wiki Adoption
 ignored = automaticwikiadoption-desc, automaticwikiadoption-description, automaticwikiadoption-mail-first-content
 
 Blogs
-aliasfile = Blogs/Blogs.alias.php
+#aliasfile = Blogs/Blogs.alias.php
 optional = blug-cut-sign
 ignored = create-blog-empty-article, blog-listing-zero-self, blogs-recent-url, blog-avatar-defaults
 
@@ -120,7 +120,7 @@ Image Serving
 
 Interwiki Dispatcher
 file = InterwikiDispatcher/SpecialInterwikiDispatcher.i18n.php
-aliasfile = InterwikiDispatcher/SpecialInterwikiDispatcher.alias.php
+#aliasfile = InterwikiDispatcher/SpecialInterwikiDispatcher.alias.php
 
 Licensed Video Swap
 
@@ -223,7 +223,7 @@ Signup
 file = SpecialSignup/Signup.i18n.php
 
 Sitemap
-aliasfile = Sitemap/Sitemap.alias.php
+#aliasfile = Sitemap/Sitemap.alias.php
 
 Site Wide Messages
 file = SiteWideMessages/SpecialSiteWideMessages.i18n.php
