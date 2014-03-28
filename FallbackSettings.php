@@ -6,7 +6,6 @@ $wgTranslateLanguageFallbacks['aeb'] = 'ar';
 $wgTranslateLanguageFallbacks['af'] = 'nl';
 $wgTranslateLanguageFallbacks['ady-cyrl'] = 'ru';
 $wgTranslateLanguageFallbacks['aro'] = 'es';
-$wgTranslateLanguageFallbacks['arq'] = 'ar';
 $wgTranslateLanguageFallbacks['ary'] = 'ar';
 $wgTranslateLanguageFallbacks['as'] = 'bn';
 $wgTranslateLanguageFallbacks['ba'] = array( 'tt-cyrl', 'ru' );
