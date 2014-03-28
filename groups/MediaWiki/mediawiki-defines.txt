@@ -1273,8 +1273,7 @@ ignored = pdf_size_default, pdf_size_options
 Pdf Handler
 descmsg = pdf-desc
 
-# Something wrong this the i18n file. Disable it for now - RS 2013-12-10
-# Per Page License
+Per Page License
 
 Persona
 
