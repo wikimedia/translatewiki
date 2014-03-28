@@ -971,10 +971,6 @@ descmsg = chat-desc
 ignored = chat-smileys
 optional = logentry-chat-send
 
-MediaWiki Search
-format = json
-id = ext-mwsearch
-
 Mobile App
 format = json
 
@@ -1020,6 +1016,9 @@ optional = multimediaviewer-geoloc-north, multimediaviewer-geoloc-east
 optional = multimediaviewer-geoloc-south, multimediaviewer-geoloc-west
 optional = multimediaviewer-geoloc-coord, multimediaviewer-geoloc-coords
 optional = multimediaviewer-html-embed-credit-text-t, multimediaviewer-embed-dimensions
+
+MW Search
+format = json
 
 MwEmbed Support
 format = json
