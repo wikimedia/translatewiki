@@ -1097,17 +1097,19 @@ Numer Alpha
 
 OAI-PMH repository
 id = ext-oai
-file = OAI/OAIRepo.i18n.php
+format = json
+file = OAI/i18n/%CODE%.json
 optional = oairepository
 # No need to translate the alias. Unlisted special page, it is used by a machine only.
 # aliasfile = OAI/OAIRepo.alias.php
 
 OATH Auth
+format = json
 aliasfile = OATHAuth/OATHAuth.alias.php
 optional = oath
 
 OAuth
-file = OAuth/frontend/language/MWOAuth.i18n.php
+format = json
 aliasfile = OAuth/frontend/language/MWOAuth.alias.php
 descmsg = mwoauth-desc
 ignored = mwoauth-form-legal
@@ -1137,8 +1139,10 @@ Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
 
 Open Search Xml
+format = json
 
 Open Stack Manager
+format = json
 aliasfile = OpenStackManager/OpenStackManager.alias.php
 optional = openstackmanager-puppetdoclink, prefs-openstack
 
@@ -1150,6 +1154,7 @@ descmsg = page-creation-notif-desc
 Page Disqus
 
 Page Images
+format = json
 ignored = pageimages-blacklist
 
 Page In Cat
@@ -1163,6 +1168,7 @@ descmsg = ps-desc
 Page Tools
 
 Page Triage
+format = json
 aliasfile = PageTriage/PageTriage.alias.php
 optional = pagetriage-creation-dateformat, pagetriage-user-creation-dateformat
 optional = pagetriage-tags-linkrot-label, pagetriage-tags-linkrot-desc
@@ -1248,6 +1254,7 @@ optional = pagetriage-dot-separator
 ignored = pagetriage-special-contributions, pagetriage-tags-param-date-format
 
 Paged Tiff Handler
+format = json
 descmsg = tiff-desc
 
 Pan Scroll
@@ -1255,13 +1262,15 @@ Pan Scroll
 Parser Fun
 
 Parser Functions
+format = json
 descmsg = pfunc_desc
 magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
 Parser Hooks
 
-# No real extension, used for VisualEditor
-# Parsoid
+Parsoid
+format = json
+file = Parsoid/php/i18n/%CODE%.json
 
 Pdf Book
 
@@ -1271,6 +1280,7 @@ ignored = pdf_fontface_default, pdf_fontface_options
 ignored = pdf_size_default, pdf_size_options
 
 Pdf Handler
+format = json
 descmsg = pdf-desc
 
 # Something wrong this the i18n file. Disable it for now - RS 2013-12-10
