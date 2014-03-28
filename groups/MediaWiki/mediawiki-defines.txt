@@ -439,18 +439,21 @@ optional = sitenotice_close-brackets
 Disqus Tag
 
 Donation Interface - Adyen Gateway
+format = json
 id = ext-di-adyen
-file = DonationInterface/adyen_gateway/adyen_gateway.i18n.php
+file = DonationInterface/adyen_gateway/i18n/%CODE%.json
 descmsg = adyen_gateway-desc
 
 Donation Interface - Amazon Gateway
-file = DonationInterface/amazon_gateway/amazon_gateway.i18n.php
+format = json
+file = DonationInterface/amazon_gateway/i18n/%CODE%.json
 id = ext-di-ag
 descmsg = amazon_gateway-desc
 
 Donation Interface - Gateway Common
+format = json
 id = ext-di-gc
-file = DonationInterface/gateway_common/interface.i18n.php
+file = DonationInterface/gateway_common/i18n/interface/%CODE%.json
 descmsg = donate_interface-desc
 optional = donate_interface-currency-display, donate_interface-pm-alipay, donate_interface-pm-bpay
 optional = donate_interface-pm-boletus, donate_interface-pm-directebanking, donate_interface-pm-eps
@@ -463,26 +466,29 @@ ignored = donate_interface-medium-amount-value, donate_interface-small-amount-va
 optional = donate_interface-donor-fname-alt, donate_interface-donor-lname-alt, donate_interface-donor-postcode
 
 Donation Interface - Global Collect Gateway
+format = json
+file = DonationInterface/globalcollect_gateway/i18n/%CODE%.json
 id = ext-di-gcg
 descmsg = globalcollect_gateway-desc
-file = DonationInterface/globalcollect_gateway/globalcollect_gateway.i18n.php
 
 Donation Interface - Payflow Pro Gateway
+format = json
 id = ext-di-pfpg
-file = DonationInterface/payflowpro_gateway/payflowpro_gateway.i18n.php
 descmsg = payflowpro_gateway-desc
 optional = payflow_gateway-card-name-amex, payflow_gateway-card-name-visa, payflow_gateway-card-name-mc, payflow_gateway-card-name-discover
 optional = payflowpro_gateway-month
 
 Donation Interface - Paypal Gateway
+format = json
 id = ext-di-ppg
+file = DonationInterface/paypal_gateway/i18n/%CODE%.json
 # aliasfile = DonationInterface/paypal_gateway/paypal_gateway.alias.php
-file = DonationInterface/paypal_gateway/paypal_gateway.i18n.php
 descmsg = paypal_gateway-desc
 
 Donation Interface - WorldPay Gateway
+format = json
 id = ext-di-wpg
-file = DonationInterface/worldpay_gateway/worldpay_gateway.i18n.php
+file = DonationInterface/worldpay_gateway/i18n/%CODE%.json
 
 Double Wiki
 format = json
