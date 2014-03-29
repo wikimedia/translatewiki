@@ -1467,6 +1467,7 @@ optional = scribunto-limitreport-virtmemusage-value, scribunto-limitreport-memus
 ignored = scribunto-doc-page-show, scribunto-limitreport-estmemusage-value
 
 Search Extra NS
+format = json
 
 Section Disqus
 
@@ -1475,6 +1476,7 @@ Secure HTML
 Secure Passwords
 
 Secure Poll
+format = json
 aliasfile = SecurePoll/SecurePoll.alias.php
 optional = securepoll-header-ip, securepoll-header-xff, securepoll-header-token-match
 optional = securepoll-header-url, securepoll-header-id, securepoll-header-trans-id
@@ -1587,6 +1589,7 @@ optional = swb_browse_more
 Shared Css Js
 
 Short Url
+format = json
 aliasfile = ShortUrl/ShortUrl.alias.php
 
 Shout Box
@@ -1616,6 +1619,7 @@ descmsg = security-desc
 ignored = security-logentry
 
 Site Matrix
+format = json
 aliasfile = SiteMatrix/SiteMatrix.alias.php
 
 Site Metrics
@@ -1639,6 +1643,7 @@ Social Profile
 aliasfile = SocialProfile/SocialProfile.alias.php
 
 Solarium
+format = json
 
 Solr Store
 aliasfile = SolrStore/SolrStore.alias.php
@@ -1646,6 +1651,7 @@ aliasfile = SolrStore/SolrStore.alias.php
 Sound Manager 2 Button
 
 Spam Blacklist
+format = json
 descmsg = spam-blacklist-desc
 
 Spark
@@ -1672,19 +1678,22 @@ Stick To That Language
 Stop Forum Spam
 
 Strategy Wiki - Active Strategy
+format = json
+file = StrategyWiki/ActiveStrategy/i18n/%CODE%.json
 descmsg = active-strategy-desc
-file = StrategyWiki/ActiveStrategy/ActiveStrategy.i18n.php
 
 Sub Page List
 descmsg = spl-desc
 magicfile = SubPageList/SubPageList.i18n.magic.php
 
 Sub Page List 3
+format = json
 descmsg = spl3-desc
 
 Subpage Fun
 
 Subpage Sortkey
+format = json
 
 Sudo
 aliasfile = Sudo/Sudo.alias.php
@@ -1702,9 +1711,10 @@ SVG Edit
 # Swarm Export
 
 Swift Cloud Files
+format = json
 
 Syntax Highlight GeSHi
-file = SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.i18n.php
+format = json
 descmsg = syntaxhighlight-desc
 
 # Missing message documentation
@@ -1713,6 +1723,7 @@ descmsg = syntaxhighlight-desc
 Tabber
 
 Template Data
+format = json
 
 Template Info
 
