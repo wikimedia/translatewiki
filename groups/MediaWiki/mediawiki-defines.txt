@@ -1713,6 +1713,7 @@ format = json
 
 Syntax Highlight GeSHi
 format = json
+file = SyntaxHighlight_GeSHi/i18n/%CODE%.json
 descmsg = syntaxhighlight-desc
 
 # Missing message documentation
