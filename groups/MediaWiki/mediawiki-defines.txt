@@ -1028,14 +1028,12 @@ MW Search
 format = json
 
 MwEmbed Support
-format = json
 descmsg = mwembed-desc
+file = MwEmbedSupport/MwEmbedSupport.i18n.php
 
 MwEmbed Support - MwEmbed Support
-format = json
 id = ext-mwembedsupport-mwembedsupport
-descmsg = mwembed-desc
-file = MwEmbedSupport/MwEmbedModules/MwEmbedSupport/i18n/%CODE%.json
+file = MwEmbedSupport/MwEmbedModules/MwEmbedSupport/MwEmbedSupport.i18n.php
 optional = mwe-size-gigabytes, mwe-size-megabytes, mwe-size-kilobytes, mwe-size-bytes
 
 My Variables
