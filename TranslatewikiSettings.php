@@ -17,10 +17,12 @@ $wgWellFormedXml = false; # Nike 2009-09-18
 $wgExperimentalHtmlIds = true; # Nike 2010-01-30
 $wgAllUnicodeFixes = true;
 $wgAdaptiveMessageCache = true; # Nike 2010-08-08
-$wgExternalDiffEngine = 'wikidiff2';
 $wgDevelopmentWarnings  = true;
-
 $wgAdvancedSearchHighlighting = true;
+
+if ( !defined( 'HHVM_VERSION' ) ) {
+	$wgExternalDiffEngine = 'wikidiff2';
+}
 
 $wgRightsPage = ""; # Set to the title of a wiki page that describes your license/copyright
 $wgRightsUrl = "";
