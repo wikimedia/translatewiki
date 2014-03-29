@@ -2086,6 +2086,7 @@ prefix = wmf- | sidebar, grouppage-Staff, group-Staff, group-Staff-member
 prefix = wmf- | group-patroller, group-patroller-member, grouppage-patroller
 prefix = wmf- | createacct-helpusername-url, createacct-helpusername
 prefix = wmf- | createacct-captcha-help-url, createacct-imgcaptcha-help
+prefix = wmf- | search-interwiki-custom
 
 Wikimedia Contact Page Messages
 format = json
