@@ -15,19 +15,32 @@ fi
 # Sets OUTPUT to the output of the git operations
 # Sets CODE to the return value of the pipeline.
 update_reset() {
-    OUTPUT=$(git fetch -q --all && git reset -q --hard origin/master && git clean -q -f -d 2>&1 >&-)
-    CODE=$?
+	OUTPUT="$(git ls-remote --exit-code origin refs/heads/master)"
+	CODE=$?
+
+	case "$CODE" in
+	0)
+		# Actual fetching, resetting, ...
+		OUTPUT=$(git fetch -q --all && git reset -q --hard origin/master && git clean -q -f -d 2>&1 >&-)
+		CODE=$?
+		;;
+	2)
+		# remote does not have refs/heads/master
+		# No need to try fetching, resetting, ...
+		CODE=0
+		;;
+	esac
 }
 
 cd $DIR
 update_reset
 
 if [ $CODE -ne 0 ]; then
-    cd $DIR
-    echo "Retry $DIR"
-    update_reset
-    if [ $CODE -ne 0 ]; then
-        printf "\033[31m%s failed to update\033[0m\n" "$DIR";
-        echo $OUTPUT;
-    fi
+	cd $DIR
+	echo "Retry $DIR"
+	update_reset
+	if [ $CODE -ne 0 ]; then
+		printf "\033[31m%s failed to update\033[0m\n" "$DIR";
+		echo $OUTPUT;
+	fi
 fi
