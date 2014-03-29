@@ -1727,12 +1727,15 @@ format = json
 Template Info
 
 Template Sandbox
+format = json
 aliasfile = TemplateSandbox/TemplateSandbox.alias.php
 ignored = templatesandbox-editform-text, templatesandbox-editform-helptext
 
 Text Extracts
+format = json
 
 Thanks
+format = json
 aliasfile = Thanks/Thanks.alias.php
 
 Throttle Override
@@ -1769,21 +1772,26 @@ descmsg = timedmedia-desc
 optional = mwe-embedplayer-ogg-player-cortado
 
 Timeline
-file = timeline/Timeline.i18n.php
+format = json
+file = timeline/i18n/%CODE%.json
 
 Timezone Selector
 optional = timezoneselector-message-long, timezoneselector-message-verbose
 ignored = timezoneselector-message-short
 
 Title Blacklist
+format = json
 
 Title Icon
 
 Title Key
+format = json
 
 Toc Tree
+format = json
 
 Tor Block
+format = json
 
 Translate - Core
 id = ext-translate-core
@@ -1824,11 +1832,13 @@ optional = translate-svg-filepage-item
 ignored = translate-js-label-font-size, translate-js-label-units
 
 Translation Notifications
+format = json
 aliasfile = TranslationNotifications/TranslationNotifications.alias.php
 
 Transliterator
 
 Trusted XFF
+format = json
 
 Tweet A New
 ignored = tweetanew-accesskey
@@ -1854,6 +1864,7 @@ optional = mwe-upwiz-license-custom-url
 ignored = accesskey-save-upload-campaign, accesskey-cancel-upload-campaign, mwe-upwiz-flickr-source-template, mwe-upwiz-flickr-author-template
 
 Unicode Converter
+format = json
 
 Universal Language Selector
 format = json
