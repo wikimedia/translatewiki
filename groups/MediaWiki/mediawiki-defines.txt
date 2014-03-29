@@ -1858,6 +1858,7 @@ descmsg = twofactorauth-desc
 Upload Blacklist
 
 Upload Wizard
+format = json
 aliasfile = UploadWizard/UploadWizard.alias.php
 optional = group-upwizcampeditors.css, group-upwizcampeditors.js
 optional = mwe-upwiz-license-custom-url
@@ -1876,10 +1877,12 @@ UR Names
 Url Get Parameters
 
 User Daily Contribs
+format = json
 
 User Functions
 
 User Merge
+format = json
 aliasfile = UserMerge/UserMerge.alias.php
 
 User Option Stats
@@ -1899,8 +1902,10 @@ Variables
 # Vector
 
 Vector Beta
+format = json
 
 Vips Scaler
+format = json
 aliasfile = VipsScaler/VipsScaler.alias.php
 
 OOjs UI (via VisualEditor)
@@ -1967,6 +1972,7 @@ Wiki Article Feeds
 Wiki Category Tag Cloud
 
 Wiki Editor
+format = json
 optional = wikieditor-toolbar-help-content-rereference-syntax, wikieditor-toolbar-help-content-showreferences-syntax
 optional = wikieditor-toolbar-tool-table-example-text
 ignored = wikieditor-toolbar-help-content-signaturetimestamp-syntax, wikieditor-toolbar-help-content-signature-syntax
@@ -1986,6 +1992,7 @@ file = WikiLexicalData/includes/api/OmegaWiki.i18n.php
 descmsg = apiow-desc
 
 Wiki Love
+format = json
 optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
 
 Wiki Loves Monuments
@@ -2052,7 +2059,8 @@ Wikibase Solr
 # Wikidata Entity Suggester
 
 Wikihiero
-file = wikihiero/wikihiero.i18n.php
+format = json
+file = wikihiero/i18n/%CODE%.json
 aliasfile = wikihiero/wikihiero.alias.php
 
 Wikilog
@@ -2064,8 +2072,10 @@ optional = wikilog-entry-footer, wikilog-simple-signature, wikilog-comment-foote
 optional = wikilog-feed-title, wikilog-title-item-full, wikilog-backlink, wikilog-brackets
 
 Wikimedia Events
+format = json
 
 Wikimedia Incubator
+format = json
 descmsg = wminc-desc
 ignored = wminc-error-help, wminc-fs-langselect-langs, wminc-fs-settings-image
 optional = wminc-searchwiki-goto
