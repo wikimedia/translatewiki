@@ -1027,14 +1027,14 @@ optional = multimediaviewer-html-embed-credit-text-t, multimediaviewer-embed-dim
 MW Search
 format = json
 
-MwEmbed Support
-descmsg = mwembed-desc
-file = MwEmbedSupport/MwEmbedSupport.i18n.php
+#MwEmbed Support
+#descmsg = mwembed-desc
+#file = MwEmbedSupport/MwEmbedSupport.i18n.php
 
-MwEmbed Support - MwEmbed Support
-id = ext-mwembedsupport-mwembedsupport
-file = MwEmbedSupport/MwEmbedModules/MwEmbedSupport/MwEmbedSupport.i18n.php
-optional = mwe-size-gigabytes, mwe-size-megabytes, mwe-size-kilobytes, mwe-size-bytes
+#MwEmbed Support - MwEmbed Support
+#id = ext-mwembedsupport-mwembedsupport
+#file = MwEmbedSupport/MwEmbedModules/MwEmbedSupport/MwEmbedSupport.i18n.php
+#optional = mwe-size-gigabytes, mwe-size-megabytes, mwe-size-kilobytes, mwe-size-bytes
 
 My Variables
 
@@ -1743,33 +1743,33 @@ aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
 
 # Thumb Parser : Moved to GitHub
 
-Timed Media Handler
+#Timed Media Handler
 # Siebrand 201005-13: conflicting magic words with Ogghandler
 #magicfile = TimedMediaHandler/TimedMediaHandler.i18n.magic.php
-aliasfile = TimedMediaHandler/TimedMediaHandler.i18n.alias.php
-optional = timedmedia-ogg, timedmedia-webm, timedmedia-wav
-optional = timedmedia-mp4, timedmedia-flac
-optional = timedmedia-derivative-160p.ogv, timedmedia-derivative-360p.ogv
-optional = timedmedia-derivative-480p.ogv, timedmedia-derivative-720p.ogv
-optional = timedmedia-derivative-480p.webm, timedmedia-derivative-720p.webm
-optional = timedmedia-derivative-160p.webm, timedmedia-derivative-360p.webm
-optional = timedmedia-derivative-320p.mp4, timedmedia-derivative-480p.mp4
-optional = timedmedia-derivative-720p.mp4
-optional = timedmedia-derivative-ogg, timedmedia-derivative-desc-ogg
-optional = timedmedia-derivative-opus, timedmedia-derivative-desc-opus
-optional = timedmedia-derivative-mp3, timedmedia-derivative-desc-mp3
-optional = timedmedia-derivative-m4a, timedmedia-derivative-desc-m4a
-descmsg = timedmedia-desc
+#aliasfile = TimedMediaHandler/TimedMediaHandler.i18n.alias.php
+#optional = timedmedia-ogg, timedmedia-webm, timedmedia-wav
+#optional = timedmedia-mp4, timedmedia-flac
+#optional = timedmedia-derivative-160p.ogv, timedmedia-derivative-360p.ogv
+#optional = timedmedia-derivative-480p.ogv, timedmedia-derivative-720p.ogv
+#optional = timedmedia-derivative-480p.webm, timedmedia-derivative-720p.webm
+#optional = timedmedia-derivative-160p.webm, timedmedia-derivative-360p.webm
+#optional = timedmedia-derivative-320p.mp4, timedmedia-derivative-480p.mp4
+#optional = timedmedia-derivative-720p.mp4
+#optional = timedmedia-derivative-ogg, timedmedia-derivative-desc-ogg
+#optional = timedmedia-derivative-opus, timedmedia-derivative-desc-opus
+#optional = timedmedia-derivative-mp3, timedmedia-derivative-desc-mp3
+#optional = timedmedia-derivative-m4a, timedmedia-derivative-desc-m4a
+#descmsg = timedmedia-desc
 
-Timed Media Handler - Timed Text
-file = TimedMediaHandler/MwEmbedModules/TimedText/TimedText.i18n.php
-descmsg = timedmedia-desc
-optional = mwe-timedtext-key-language
+#Timed Media Handler - Timed Text
+#file = TimedMediaHandler/MwEmbedModules/TimedText/TimedText.i18n.php
+#descmsg = timedmedia-desc
+#optional = mwe-timedtext-key-language
 
-Timed Media Handler - Embed Player
-file = TimedMediaHandler/MwEmbedModules/EmbedPlayer/EmbedPlayer.i18n.php
-descmsg = timedmedia-desc
-optional = mwe-embedplayer-ogg-player-cortado
+#Timed Media Handler - Embed Player
+#file = TimedMediaHandler/MwEmbedModules/EmbedPlayer/EmbedPlayer.i18n.php
+#descmsg = timedmedia-desc
+#optional = mwe-embedplayer-ogg-player-cortado
 
 Timeline
 format = json
