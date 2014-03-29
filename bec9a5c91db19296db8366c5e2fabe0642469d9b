@@ -16,6 +16,24 @@
       "revId": "bec9a5c91db19296db8366c5e2fabe0642469d9b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae0e4726_f764a1b0",
+        "filename": "bin/update-reset-repo",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-03-29T15:34:57Z",
+      "side": 1,
+      "message": "See documentation:\n\n       --exit-code\n           Exit with status \"2\" when no matching refs are found in the remote repository. Usually the command exits with\n           status \"0\" to indicate it successfully talked with the remote repository, whether it found any matching refs.",
+      "parentUuid": "ae0e4726_3c9c3e5f",
+      "revId": "bec9a5c91db19296db8366c5e2fabe0642469d9b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
