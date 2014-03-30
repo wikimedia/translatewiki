@@ -2136,6 +2136,7 @@ ignored = wm-license-gfdl-full-1.2-link, wm-license-gfdl-full-1.3-link, wm-licen
 ignored = wm-license-lgpl-2.1-full-link, wm-license-lgpl-3-full-link
 
 Wikimedia Shop Link
+format = json
 
 Wikimedia Temporary Messages
 format = json
