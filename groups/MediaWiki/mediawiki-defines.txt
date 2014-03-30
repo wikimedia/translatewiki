@@ -1,4 +1,5 @@
 Absentee Landlord
+format = json
 
 Abuse Filter
 format = json
@@ -14,31 +15,39 @@ Account Audit
 format = json
 
 Account Info
+format = json
 aliasfile = AccountInfo/AccountInfo.alias.php
 ignored=accountinfo-none
 
 # Active Abstract : No real extension. Plugin for dumpBackup.php
 
 Ad Manager
+format = json
 
 Add This
+format = json
 
 Admin Links
 format = json
 aliasfile = AdminLinks/AdminLinks.alias.php
 
 Ads
-file = Ads/ads.i18n.php
+format = json
 
 Agora
+format = json
 
 AJAX Poll
+format = json
 
 Akismet Klik
+format = json
 
 All Time Zones
+format = json
 
 Annotator
+format = json
 
 Anti Bot
 format = json
@@ -53,6 +62,7 @@ format = json
 aliasfile = APC/APC.alias.php
 
 Api Explorer
+format = json
 aliasfile = ApiExplorer/ApiExplorer.alias.php
 
 Api Sandbox
@@ -61,20 +71,25 @@ aliasfile = ApiSandbox/ApiSandbox.alias.php
 descmsg = apisb-desc
 
 Api SVG Proxy
+format = json
 
 Approved Revs
+format = json
 aliasfile = ApprovedRevs/ApprovedRevs.alias.php
 
 Arrays
+format = json
 
 # Unmaintained by Wikimedia, no longer deployed.
 #Article Feedback
+#format = json
 #aliasfile = ArticleFeedback/ArticleFeedback.alias.php
 #optional = articlefeedback-form-panel-helpimprove-email-placeholder
 #optional = articlefeedback-table-noratings
 #ignored = articlefeedback-pitch-edit-body
 
 Article Feedback v5
+format = json
 aliasfile = ArticleFeedbackv5/ArticleFeedbackv5.alias.php
 optional=articlefeedbackv5-cta1-learn-how-url, articlefeedbackv5-cta6-button-link, articlefeedbackv5-error-abuse-link, articlefeedbackv5-help-form-linkurl
 optional=articlefeedbackv5-help-form-linkurl-editors, articlefeedbackv5-help-form-linkurl-monitors, articlefeedbackv5-help-form-linkurl-oversighters, articlefeedbackv5-help-special-linkurl
@@ -97,14 +112,19 @@ ignored=articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-n
 # Assert Edit
 
 Author Protect
+format = json
 
 Auto Create Category Pages
+format = json
 
 Automatic Board Welcome
+format = json
 
 AWS
+format = json
 
 AWS SDK
+format = json
 
 Babel
 format = json
@@ -125,15 +145,18 @@ format = json
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
 Bayesian Filter
+format = json
 
 Beta Features
 format = json
 ignored = betafeatures-test-check-field, betafeatures-test-feature-field
 
 Biblio Plus
+format = json
 
 # Missing message documentation - 2014-01-28 RS
-# Blog Page
+#format = json
+#Blog Page
 
 Boiler Plate
 file = examples/BoilerPlate/BoilerPlate.i18n.php
@@ -144,14 +167,17 @@ file = BookManager/language/BookManager.i18n.php
 aliasfile = BookManager/language/BookManager.alias.php
 
 Book Manager v2
+format = json
 optional = bookmanagerv2-isbn, bookmanagerv2-lccn, bookmanagerv2-oclc
 optional = bookmanagerv2-isbn-field, bookmanagerv2-lccn-field, bookmanagerv2-oclc-field
 
 # Book Manager v2 - Json Schema: dupe of "Event Logging - Json Schema"
 
 Bootstrap
+format = json
 
 Bread Crumbs
+format = json
 
 Calendar
 format = json
@@ -160,13 +186,17 @@ Campaigns
 format = json
 
 Carp
+format = json
 optional = carp-function-msg, carp-template-msg, carp-template
 
 Category Sort Headers
+format = json
 
 Category Tag Sorter
+format = json
 
 Category Tests
+format = json
 #Gives key conflicts with ParserFunctions. Needs to be fixed first.
 #magicfile = CategoryTests/CategoryTests.i18n.magic.php
 
@@ -194,8 +224,10 @@ format = json
 #magicfile = CharInsert/CharInsert.i18n.magic.php
 
 Char Range Span
+format = json
 
 Checkpoint
+format = json
 
 Check User
 format = json
