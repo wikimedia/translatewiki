@@ -588,13 +588,17 @@ optional = echo-email-batch-separator, echo-email-batch-bullet, echo-quotation-m
 ignored = echo-email-batch-separator
 
 Edit Page Tracking
+format = json
 
 Edit Subpages
+format = json
 
 Editcount
+format = json
 aliasfile = Editcount/Editcount.alias.php
 
 Education Program
+format = json
 aliasfile = EducationProgram/EducationProgram.i18n.alias.php
 optional = ep-course-edit-name-format
 ignored = accesskey-ep-form-save, accesskey-ep-edit-institution, accesskey-ep-edit-course, accesskey-ep-summary
@@ -604,14 +608,18 @@ Elastica
 format = json
 
 Email Capture
+format = json
 
 # Embed Video: Developed elsewhere
 
 Error Handler
+format = json
 
 Ether Editor
+format = json
 
 Etherpad Lite
+format = json
 
 Event Logging
 format = json
@@ -622,14 +630,17 @@ format = json
 file = EventLogging/i18n/jsonschema/%CODE%.json
 
 # 2013-11-23 Added to core
+#format = json
 #Expand Templates
 
 Extension Distributor
 format = json
 
 External Articles
+format = json
 
 External Data
+format = json
 magicfile = ExternalData/ExternalData.i18n.magic.php
 
 Ext Tab
@@ -637,8 +648,9 @@ file = ExtTab/languages/ExtTab.i18n.php
 
 # Facebook Open Graph : Moved to GitHub
 
-# Missing message documentation, incosistent prefixed - 2014-01-28 RS
-# Fan Box
+# Missing message documentation, inconsistently prefixed - 2014-01-28 RS
+#format = json
+# Fan Boxes
 
 Featured Feeds
 format = json
@@ -650,6 +662,7 @@ ignored = ffeed-good-page, ffeed-featuredtexts-page
 ignored = ffeed-enable-sidebar-links
 
 Filter List Users
+format = json
 
 First Steps
 format = json
@@ -743,13 +756,17 @@ ignored = flow-error-invalid-action
 optional = flow-post-interaction-separator
 
 Flv Handler
+format = json
 descmsg = flvhandler_desc
 
 Force Preview
+format = json
 
 Formel Applet
+format = json
 
 Foxway
+format = json
 
 Fundraiser Landing Page
 format = json
@@ -767,6 +784,7 @@ aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition
 
 Genderize
+format = json
 
 Geo Crumbs
 format = json
@@ -775,18 +793,18 @@ optional = geocrumbs-delimiter
 Geo Data
 format = json
 
-# Deleted with I67f104bc
-#Geo Math
-
 # GeoGebra is a product name, therefore no space between the words
+format = json
 GeoGebra
 
 Getting Started
 format = json
 
 Git 2 Pages
+format = json
 
 Gitweb
+format = json
 
 Global Blocking
 format = json
@@ -794,12 +812,15 @@ aliasfile = GlobalBlocking/GlobalBlocking.alias.php
 ignored = globalblocking-expiry-options
 
 Global Contributions
+format = json
 aliasfile = GlobalContributions/GlobalContributions.alias.php
 descmsg = guc-desc
 
 Global Css Js
+format = json
 
 Global Preferences
+format = json
 descmsg = globalprefs-desc
 
 Global Usage
@@ -807,24 +828,31 @@ format = json
 aliasfile = GlobalUsage/GlobalUsage.alias.php
 
 Global User Groups
+format = json
 # GlobalUserGroups.i18n.groups.php not added. Has a lot of user groups which conflicts with WikimediaMessages.i18n.php
 
 Global Userrights
+format = json
 aliasfile = GlobalUserrights/GlobalUserrights.alias.php
 descmsg = gur-desc
 
 Google AdSense
+format = json
 ignored = googleadsense
 
 google Analytics
+format = json
 
 Google Custom Wiki Search
+format = json
 descmsg = gcws-desc
 aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
 
 Google Doc Tag
+format = json
 
 # Google Maps
+#format = json
 # Archived in June 2013
 
 Google News Sitemap
@@ -833,12 +861,16 @@ ignored = googlenewssitemap_categorymap
 aliasfile = GoogleNewsSitemap/GoogleNewsSitemap.alias.php
 
 Google Plus One
+format = json
 
 Google Site Search
+format = json
 
 GraphViz
+format = json
 
 Groups Sidebar
+format = json
 
 Guided Tour
 format = json
@@ -850,10 +882,13 @@ aliasfile = GWToolset/GWToolset.alias.php
 ignored = gwtoolset-menu
 
 Hanp
+format = json
 
 Hash Tables
+format = json
 
 Header Tabs
+format = json
 ignored = headertabs-edittab-key
 
 Help Commons
