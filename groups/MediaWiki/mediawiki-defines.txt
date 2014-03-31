@@ -1668,7 +1668,7 @@ optional = srf-ui-eventcalendar-format-axis, srf-ui-eventcalendar-format-title-m
 optional = srf-ui-eventcalendar-format-title-week, srf-ui-eventcalendar-format-title-day
 optional = srf-ui-eventcalendar-format-column-month, srf-ui-eventcalendar-format-column-week
 optional = srf-ui-eventcalendar-format-column-day, srf-filtered-firstdayofweek
-ignoried = srf-ui-datatables-label-sInfoPostFix
+ignored = srf-ui-datatables-label-sInfoPostFix
 
 Semantic Sifter
 
