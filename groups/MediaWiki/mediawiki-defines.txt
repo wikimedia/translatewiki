@@ -159,11 +159,12 @@ format = json
 #Blog Page
 
 Boiler Plate
-file = examples/BoilerPlate/BoilerPlate.i18n.php
+format = json
+file = examples/BoilerPlate/i18n/%CODE%.json
 
 Book Manager
+format = json
 descmsg = bm-printversion-desc
-file = BookManager/language/BookManager.i18n.php
 aliasfile = BookManager/language/BookManager.alias.php
 
 Book Manager v2
@@ -171,7 +172,10 @@ format = json
 optional = bookmanagerv2-isbn, bookmanagerv2-lccn, bookmanagerv2-oclc
 optional = bookmanagerv2-isbn-field, bookmanagerv2-lccn-field, bookmanagerv2-oclc-field
 
-# Book Manager v2 - Json Schema: dupe of "Event Logging - Json Schema"
+#Book Manager v2 - Json Schema: dupe of "Event Logging - Json Schema"
+#format = json
+#file = BookManagerv2/includes/i18n/%CODE%.json
+#id = ext-bookmanagerv2-jsonschema
 
 Bootstrap
 format = json
@@ -324,29 +328,34 @@ optional = configure-section-interwiki, configure-section-memcached, configure-s
 optional = configure-section-squid, configure-section-svg, configure-section-tex
 
 # Disable until it gets a maintainer (bug 52224) or the translations can be used (bug 43380)
-# Configure - Settings
-# file = Configure/settings/Settings.i18n.php
-# descmsg = configure-setting-desc
-# optional = configure-setting-desc
+#Configure - Settings
+#format = json
+#file = Configure/settings/i18n/%CODE%.json
+#descmsg = configure-setting-desc
+#optional = configure-setting-desc
 
 Confirm Account
-file = ConfirmAccount/frontend/language/ConfirmAccount.i18n.php
+format = json
+file = ConfirmAccount/i18n/core/%CODE%.json
 aliasfile = ConfirmAccount/frontend/language/ConfirmAccount.alias.php
 descmsg = confirmedit-desc
 
 Confirm Account - Page
+format = json
+file = ConfirmAccount/i18n/confirmaccount/%CODE%.json
 id = ext-confirmaccount-page
-file = ConfirmAccount/frontend/language/ConfirmAccountPage.i18n.php
 
 Confirm Account - Request Account
+format = json
+file = ConfirmAccount/i18n/requestaccount/%CODE%.json
 id = ext-confirmaccount-requestaccount
-file = ConfirmAccount/frontend/language/RequestAccountPage.i18n.php
 optional = requestaccount-info, requestaccount-footer
 ignored = requestaccount-areas
 
 Confirm Account - User Credentials
+format = json
+file = ConfirmAccount/i18n/usercredentials/%CODE%.json
 id = ext-confirmaccount-usercredentials
-file = ConfirmAccount/frontend/language/UserCredentialsPage.i18n.php
 
 Confirm Edit
 format = json
@@ -644,7 +653,8 @@ format = json
 magicfile = ExternalData/ExternalData.i18n.magic.php
 
 Ext Tab
-file = ExtTab/languages/ExtTab.i18n.php
+format = json
+file = ExtTab/languages/i18n/%CODE%.json
 
 # Facebook Open Graph : Moved to GitHub
 
