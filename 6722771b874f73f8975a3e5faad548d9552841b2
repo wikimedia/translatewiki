@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae0e4726_62a68c52",
+        "filename": "groups/MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2014-03-31T07:28:15Z",
+      "side": 1,
+      "message": "Hmmm. I know this extension is used by 3rd part wikis....",
+      "revId": "6722771b874f73f8975a3e5faad548d9552841b2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
