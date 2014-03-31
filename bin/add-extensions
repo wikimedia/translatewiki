@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 # Clone all extension repos that are not yet present in current directory.
 set -e
 
 . /resources/projects/REPOCONF
 
-EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(Gitweb|SelectTag.tag|TranslationNotifcations)")
+EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(FundraisingEmailUnsubscribe|DataValuesCommon|ShortUrlApi)")
 
 for EXTENSION in $EXTENSIONS
 do

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Used by repo* scripts to find the repository root
 # similar to how like git tries to find .git
 
