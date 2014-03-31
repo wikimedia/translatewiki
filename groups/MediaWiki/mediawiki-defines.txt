@@ -816,8 +816,13 @@ format = json
 aliasfile = GlobalContributions/GlobalContributions.alias.php
 descmsg = guc-desc
 
-Global Css Js
+Global Css Js - Core
 format = json
+file = GlobalCssJs/i18n/core/%CODE%.json
+
+Global Css Js - Central
+format = json
+file = GlobalCssJs/i18n/central/%CODE%.json
 
 Global Preferences
 format = json
