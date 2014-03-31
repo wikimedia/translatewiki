@@ -262,11 +262,13 @@ format = json
 optional = cleanchanges-rcinfo-2, cleanchanges-rcinfo-3
 
 Click Tracking
+format = json
 
 Client Side
 format = json
 
 Close Wikis
+format = json
 aliasfile = CloseWikis/CloseWikis.alias.php
 ignored = closewikis-closed
 
@@ -291,25 +293,31 @@ optional = coll-setting-papersize-a4
 optional = coll-setting-columns-1, coll-setting-columns-2
 
 Commentbox
+format = json
 ignored = commentbox-prefill
 
 Comment Pages
+format = json
 ignored = commenttab-editintro, commenttab-preload
 
 Comments
+format = json
 
 Commons Metadata
 format = json
 
-CommunityTwitter
+Community Twitter
+format = json
 
 Community Voice
 format = json
 aliasfile = CommunityVoice/CommunityVoice.alias.php
 
 Conditional Show Section
+format = json
 
 Configure
+format = json
 aliasfile = Configure/Configure.alias.php
 optional = configure-section-html, configure-section-ajax,configure-section-djvu, configure-section-imagemagick
 optional = configure-section-interwiki, configure-section-memcached, configure-section-tidy, configure-old-summary-datetime
@@ -379,9 +387,11 @@ descmsg = cx-desc
 aliasfile = ContentTranslation/ContentTranslation.alias.php
 
 # Unused per https://bugzilla.wikimedia.org/show_bug.cgi?id=41526#c0
+#format = json
 #Contest
 
 Contribution Reporting
+format = json
 aliasfile = ContributionReporting/ContributionReporting.alias.php
 ignored = contribstats-header, contribstats-footer
 
@@ -394,36 +404,45 @@ format = json
 aliasfile = ContributionTracking/ContributionTracking.alias.php
 
 Contributors
+format = json
 aliasfile = Contributors/Contributors.alias.php
 
 Convert 2 Wiki
+format = json
 aliasfile = Convert2Wiki/Convert2Wiki.alias.php
 optional = convert2wiki-format-csv
 
 Copy To Clipboard
+format = json
 
 # 2013-10-07: Renamed to Wikimedia Events
-# Core Events
+#format = json
+#Core Events
 
 Create Page
+format = json
 aliasfile = CreatePage/CreatePage.alias.php
 descmsg = cp-desc
 
 Create Redirect
+format = json
 aliasfile = CreateRedirect/CreateRedirect.alias.php
 
 Credits Source
 format = json
 
 CryoKey
+format = json
 
 CSS
+format = json
 
 Custom Data
 format = json
 
 # Unused on WMF since 8/2012 and seems unmaintened. https://gerrit.wikimedia.org/r/#/c/18201/
-# Custom User Signup
+#format = json
+#Custom User Signup
 
 Data Transfer
 file = DataTransfer/languages/DT_Messages.php
@@ -434,22 +453,29 @@ aliasfile = DataTransfer/languages/DT_Aliases.php
 # Data Values
 
 Delete Batch
+format = json
 aliasfile = DeleteBatch/DeleteBatch.alias.php
 
 Delete Own
+format = json
 
 Description2
+format = json
 
 # Device Map Log Capture : Proof of Concept only. Extension page on mw.o does not exist
 
 Diagnosis
+format = json
 aliasfile = Diagnosis/Diagnosis.i18n.alias.php
 
 Did You Know
+format = json
 
 Did You Mean
+format = json
 
 Diff
+format = json
 
 Disable Account
 format = json
@@ -462,6 +488,7 @@ aliasfile = Disambiguator/Disambiguator.i18n.alias.php
 magicfile = Disambiguator/Disambiguator.i18n.magic.php
 
 Discussion Threading
+format = json
 
 Dismissable SiteNotice
 format = json
@@ -470,6 +497,7 @@ ignored = sitenotice_id
 optional = sitenotice_close-brackets
 
 Disqus Tag
+format = json
 
 Donation Interface - Adyen Gateway
 format = json
@@ -528,23 +556,29 @@ Double Wiki
 format = json
 
 Download Counter
+format = json
 
 DPL forum
+format = json
 
 Drafts
+format = json
 aliasfile = Drafts/Drafts.alias.php
 ignored = accesskey-drafts-save
 
 Duplicator
+format = json
 
 # Superseeded by intersection extension
-# Dynamic Page List
+#format = json
+#Dynamic Page List
 
 Dynamic Sidebar
 format = json
 
 # Very WMF centric, unlikely to be used by third parties
-# E3 Experiments
+#format = json
+#E3 Experiments
 
 Echo
 format = json
