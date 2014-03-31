@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # ensure correct permissions
 
 sudo -u betawiki php /www/translatewiki.net/w/extensions/Translate/scripts/createMessageIndex.php --quiet

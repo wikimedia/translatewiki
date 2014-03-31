@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Quick script for updating, processing and exporting Wikia MediaWiki extensions.
 set -e
 MYDIR="/resources/`whoami`"
