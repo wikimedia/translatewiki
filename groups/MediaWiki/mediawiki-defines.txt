@@ -820,9 +820,10 @@ Global Css Js - Core
 format = json
 file = GlobalCssJs/i18n/core/%CODE%.json
 
-Global Css Js - Central
-format = json
-file = GlobalCssJs/i18n/central/%CODE%.json
+# Key conflicts with SharedCssJs
+#Global Css Js - Central
+#format = json
+#file = GlobalCssJs/i18n/central/%CODE%.json
 
 Global Preferences
 format = json
