@@ -1126,6 +1126,9 @@ Nuke
 format = json
 aliasfile = Nuke/Nuke.alias.php
 
+Nuke DPL
+aliasfile = NukeDPL/NukeDPL.alias.php
+
 Number Format
 descmsg = numberformat_desc
 
