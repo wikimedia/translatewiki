@@ -169,6 +169,7 @@ function setupMediaWiki( &$cc ) {
 
 # Add aggregate message groups for MediaWiki extensions.
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/MediaWiki.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/BlueSpice.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/FlaggedRevsAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/ReaderFeedbackAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/TranslateAgg.yaml";

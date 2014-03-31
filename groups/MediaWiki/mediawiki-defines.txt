@@ -158,6 +158,10 @@ format = json
 #format = json
 #Blog Page
 
+Blue Spice - ExtJS - Portal
+file = BlueSpiceFoundation/languages/BlueSpice.ExtJS.Portal.i18n.php
+id = ext-bs-extjs-portal
+
 Boiler Plate
 format = json
 file = examples/BoilerPlate/i18n/%CODE%.json
