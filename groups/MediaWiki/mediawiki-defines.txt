@@ -428,10 +428,6 @@ optional = convert2wiki-format-csv
 Copy To Clipboard
 format = json
 
-# 2013-10-07: Renamed to Wikimedia Events
-#format = json
-#Core Events
-
 Create Page
 format = json
 aliasfile = CreatePage/CreatePage.alias.php
@@ -463,7 +459,6 @@ aliasfile = DataTransfer/languages/DT_Aliases.php
 
 # Repo is read only
 # Data Types
-# Data Values
 
 Delete Batch
 format = json
@@ -485,9 +480,6 @@ Did You Know
 format = json
 
 Did You Mean
-format = json
-
-Diff
 format = json
 
 Disable Account
@@ -2169,9 +2161,6 @@ ignored = wikibase-api-not-recognized-string, wikibase-api-param-missing, wikiba
 ignored = wikibase-api-permissiondenied, wikibase-api-wrong-class
 ignored = wikibase-ui-pendingquantitycounter-nonpending, wikibase-ui-pendingquantitycounter-pending, wikibase-property-footer
 ignored = wikibase-shortcopyrightwarning-version
-
-# Repo read only 2014-03-07
-# Wikibase Data Model
 
 Wikibase Query
 aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
