@@ -625,8 +625,6 @@ format = json
 Email Capture
 format = json
 
-# Embed Video: Developed elsewhere
-
 Error Handler
 format = json
 
@@ -662,11 +660,9 @@ Ext Tab
 format = json
 file = ExtTab/languages/i18n/%CODE%.json
 
-# Facebook Open Graph : Moved to GitHub
-
 # Missing message documentation, inconsistently prefixed - 2014-01-28 RS
 #format = json
-# Fan Boxes
+#Fan Boxes
 
 Featured Feeds
 format = json
@@ -810,8 +806,8 @@ Geo Data
 format = json
 
 # GeoGebra is a product name, therefore no space between the words
-format = json
 GeoGebra
+format = json
 
 Getting Started
 format = json
@@ -873,9 +869,7 @@ aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
 Google Doc Tag
 format = json
 
-# Google Maps
-#format = json
-# Archived in June 2013
+#Google Maps / Archived in June 2013
 
 Google News Sitemap
 format = json
@@ -1125,9 +1119,7 @@ ignored = mathmode_5, mathmode_6, mathmode_7, mathmode_7+
 Media Functions
 format = json
 
-# Wikia centric extension
-#format = json
-#MediaWiki Auth
+#MediaWiki Auth / Wikia centric extension
 
 MediaWiki Chat
 format = json
@@ -1207,8 +1199,7 @@ Namespace Relations
 format = json
 descmsg = nsrels-desc
 
-# Unmaintained / Siebrand 2013-07-09
-#Narayam
+#Narayam / Unmaintained / Siebrand 2013-07-09
 
 Natural Language List
 format = json
@@ -1278,8 +1269,7 @@ id = ext-oai
 format = json
 file = OAI/i18n/%CODE%.json
 optional = oairepository
-# No need to translate the alias. Unlisted special page, it is used by a machine only.
-# aliasfile = OAI/OAIRepo.alias.php
+# aliasfile = OAI/OAIRepo.alias.php  / Unlisted special page, it is used by a machine only.
 
 OATH Auth
 format = json
@@ -1494,9 +1484,6 @@ format = json
 
 Polyglot
 
-# Per mw.o: This extension has been removed.
-# Poll
-
 Poll NY
 file = PollNY/Poll.i18n.php
 aliasfile = PollNY/Poll.alias.php
@@ -1508,27 +1495,13 @@ format = json
 Popups
 format = json
 
-# Post comment: Insufficient escaping and other issues
-
-# Merged into core / 2013-06-01
-#Post Edit
+#Post Edit / Merged into core / 2013-06-01
 
 Pref Stats
 aliasfile = PrefStats/PrefStats.alias.php
 ignored = prefstats-list-elem
 
-# Disabled after a short discussion with Roan. "Take me back" link disabled a few days ago,
-# the whole extension will be disabled on WMF in the near future. 2010-11-23 Raymond.
-#Pref Switch
-#aliasfile = PrefSwitch/PrefSwitch.alias.php
-#optional = prefswitch-survey-answer-browser-ie5, prefswitch-survey-answer-browser-ie6, prefswitch-survey-answer-browser-ie7, prefswitch-survey-answer-browser-ie8
-#optional = prefswitch-survey-answer-browser-ff1, prefswitch-survey-answer-browser-ff2, prefswitch-survey-answer-browser-ff3, prefswitch-survey-answer-browser-ff4
-#optional = prefswitch-survey-answer-browser-cb
-#optional = prefswitch-survey-answer-browser-c1, prefswitch-survey-answer-browser-c2, prefswitch-survey-answer-browser-c3, prefswitch-survey-answer-browser-c4
-#optional = prefswitch-survey-answer-browser-s3, prefswitch-survey-answer-browser-s4, prefswitch-survey-answer-browser-ffb, prefswitch-survey-answer-browser-cd
-#optional = prefswitch-survey-answer-browser-o9, prefswitch-survey-answer-browser-o9.5, prefswitch-survey-answer-browser-o10, prefswitch-survey-answer-os-windows
-#optional = prefswitch-survey-answer-os-macos, prefswitch-survey-answer-os-linux, prefswitch-survey-answer-os-windowsmobile, prefswitch-survey-answer-os-iphoneos
-#optional = prefswitch-survey-answer-browser-ie9, prefswitch-survey-answer-browser-c5, prefswitch-survey-answer-browser-s5, prefswitch-survey-answer-os-ios
+#Pref Switch / No longer used at WMF / 2010-11-23 Raymond.
 
 Premoderation
 
@@ -1645,8 +1618,7 @@ Sarcasm
 Score
 format = json
 
-# 2012-11-12: Disabled on WMF, per chat with Sam "It can be treated as abandoned"
-# Scan Set
+#Scan Set / 2012-11-12: Disabled on WMF / Abandoned.
 
 Scribunto
 format = json
@@ -1772,9 +1744,6 @@ descmsg = swb_desc
 aliasfile = SemanticWebBrowser/SemanticWebBrowser.alias.php
 optional = swb_browse_more
 
-# Not a real extension
-# Serialization
-
 Shared Css Js
 
 Short Url
@@ -1784,22 +1753,19 @@ aliasfile = ShortUrl/ShortUrl.alias.php
 Shout Box
 optional = shoutbox-url, shoutbox-url-with-css
 
-# This extension is currently very ShoutWiki-specific
-# Shout Wiki Ads
+#Shout Wiki Ads / very ShoutWiki-specific
 
 Side Bar Menu
 
 Sidebar Donate Box
 
-# Disabled for the time of review: https://gerrit.wikimedia.org/r/#/c/7999/
-# Signup API
+#Signup API / Disabled for the time of review: https://gerrit.wikimedia.org/r/#/c/7999/
 
 Sign Writing MediaWiki Plugin
 file = SignWritingMediaWikiPlugin/swmp.i18n.php
 descmsg = swmp-desc
 
-# Moved into core 2013-10-24 https://gerrit.wikimedia.org/r/#/c/90291/
-# Simple Anti Spam
+#Simple Anti Spam / Moved into core 2013-10-24
 
 Simple Farm
 
@@ -1891,8 +1857,7 @@ ignored = surveys-surveystats-question-nr, surveys-surveystats-question-=23
 
 SVG Edit
 
-# Maintenance script, not a real extension
-# Swarm Export
+#Swarm Export / Maintenance script, not a real extension
 
 Swift Cloud Files
 format = json
@@ -1902,8 +1867,7 @@ format = json
 file = SyntaxHighlight_GeSHi/i18n/%CODE%.json
 descmsg = syntaxhighlight-desc
 
-# Missing message documentation
-# Tabs
+#Tabs / Missing message documentation
 
 Tabber
 
@@ -1926,8 +1890,6 @@ aliasfile = Thanks/Thanks.alias.php
 
 Throttle Override
 aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
-
-# Thumb Parser : Moved to GitHub
 
 #Timed Media Handler
 # Siebrand 201005-13: conflicting magic words with Ogghandler
@@ -2095,9 +2057,6 @@ optional = validator-listerrors-severity-message
 Variables
 format = json
 
-# 2013-10-01: Not longer used, no i18n file
-# Vector
-
 Vector Beta
 format = json
 
@@ -2147,8 +2106,7 @@ Web Chat
 format = json
 aliasfile = WebChat/WebChat.alias.php
 
-# Unmaintained / Siebrand 2013-07-09
-#Web Fonts
+#Web Fonts / Unmaintained / Siebrand 2013-07-09
 
 Web Platform Auth
 format = json
@@ -2258,11 +2216,9 @@ Wikibase Query
 format = json
 aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 
-# Disabled. No longer used or developed.
-#Wikibase Solr
+#Wikibase Solr / Disabled. No longer used or developed.
 
-# No real extension, Java program
-# Wikidata Entity Suggester
+#Wikidata Entity Suggester / No real extension, Java program
 
 Wikihiero
 format = json
