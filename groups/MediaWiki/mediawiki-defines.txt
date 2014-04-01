@@ -470,9 +470,6 @@ Data Transfer
 file = DataTransfer/languages/DT_Messages.php
 aliasfile = DataTransfer/languages/DT_Aliases.php
 
-# Repo is read only
-# Data Types
-
 Delete Batch
 format = json
 aliasfile = DeleteBatch/DeleteBatch.alias.php
@@ -2261,7 +2258,7 @@ Wikibase Query
 format = json
 aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 
-# Disabled. Repo is read-only SM 2014-04-01
+# Disabled. No longer used or developed.
 #Wikibase Solr
 
 # No real extension, Java program
