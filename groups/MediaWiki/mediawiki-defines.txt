@@ -909,26 +909,32 @@ format = json
 ignored = headertabs-edittab-key
 
 Help Commons
+format = json
 
 Help Pages
+format = json
 
 Hide Prefix
+format = json
 
 Host Stats
 format = json
 ignored = hoststats
 
 Hovergallery
-file = Hovergallery/HoverGallery.i18n.php
+format = json
 
 HSTS
+format = json
 
 HTML Tags
+format = json
 
 HTMLets
+format = json
 
 I18n Tags
-file = I18nTags/I18nTags.i18n.php
+format = json
 magicfile = I18nTags/I18nTags.magic.php
 
 Image Map
@@ -937,10 +943,12 @@ descmsg = imagemap_desc
 optional = imagemap_desc_types
 
 Index Function
+format = json
 aliasfile = IndexFunction/IndexFunction.alias.php
 ignored = index-exclude-categories
 
 Inline Categorizer
+format = json
 
 Input Box
 format = json
@@ -952,8 +960,10 @@ descmsg = config-desc
 optional = config-type-postgres, config-type-sqlite, config-type-oracle
 
 Interactive Block Message
+format = json
 
 Interlanguage
+format = json
 magicfile = Interlanguage/Interlanguage.i18n.magic.php
 
 Intersection
@@ -976,6 +986,7 @@ file = InviteSignup/i18n/%CODE%.json
 aliasfile = InviteSignup/InviteSignup.alias.php
 
 JS Bread Crumbs
+format = json
 optional = jsbreadcrumbs-separator
 
 Labeled Section Transclusion
@@ -987,29 +998,38 @@ format = json
 aliasfile = LandingCheck/LandingCheck.alias.php
 
 Language Selector
+format = json
 
 Language Tag
+format = json
 
 Last Modified
+format = json
 
 Ldap Authentication
 format = json
 
 Less
+format = json
 
 Life Web
+format = json
 
 Lightweight RDFa
+format = json
 
 Lingo
+format = json
 magicfile = Lingo/Lingo.i18n.magic.php
 
 Link Filter
+format = json
 optional = linkfilter-url
 optional = group-linkadmin.css, group-linkadmin.js
 aliasfile = LinkFilter/Link.alias.php
 
 Link Suggest
+format = json
 
 Liquid Threads
 format = json
@@ -1031,21 +1051,28 @@ Localisation Update
 format = json
 
 Lockdown
+format = json
 
 Log Entry
+format = json
 aliasfile = LogEntry/LogEntry.alias.php
 descmsg = logentry-parserhook-desc
 
 Logo Functions
+format = json
 
 Lookup User
+format = json
 aliasfile = LookupUser/LookupUser.alias.php
 
 Loops
+format = json
 
 Magic No Cache
+format = json
 
 Maintenance
+format = json
 aliasfile = Maintenance/Maintenance.alias.php
 optional = maintenance-cleanupCaps-output-moved, maintenance-clearInterwikiCache-db
 ignored = maintenance-changePassword-option-password, maintenance-changePassword-option-user, maintenance-checkAutoLoader-output-list1, maintenance-checkSyntax-output-done
@@ -1062,6 +1089,7 @@ format = json
 aliasfile = MapSources/MapSources.i18n.alias.php
 
 Maps
+format = json
 aliasfile = Maps/Maps.i18n.alias.php
 magicfile = Maps/Maps.i18n.magic.php
 optional = maps_googlemaps2, maps_googlemaps3, maps_yahoomaps, maps_openlayers, maps_osm
@@ -1070,6 +1098,7 @@ Mark As Helpful
 format = json
 
 Mass Edit Regex
+format = json
 aliasfile = MassEditRegex/MassEditRegex.alias.php
 
 Mass Message
@@ -1083,16 +1112,20 @@ format = json
 ignored = math-preference-mwmathinspector-discussion-link, math-preference-mwmathinspector-info-link
 
 Math Search
+format = json
 aliasfile = MathSearch/MathSearch.alias.php
 ignored = mathmode_0, mathmode_1, mathmode_2, mathmode_3, mathmode_4
 ignored = mathmode_5, mathmode_6, mathmode_7, mathmode_7+
 
 Media Functions
+format = json
 
 # Wikia centric extension
-# MediaWiki Auth
+#format = json
+#MediaWiki Auth
 
 MediaWiki Chat
+format = json
 descmsg = chat-desc
 ignored = chat-smileys
 optional = logentry-chat-send
@@ -1111,6 +1144,7 @@ ignored = mobile-frontend-page-menu-language, mobile-frontend-terms-url
 ignored = mobilefrontend-keepgoing-wikify-category
 
 Model
+format = json
 
 Mood Bar
 format = json
@@ -1123,10 +1157,13 @@ ignored = moodbar-hide-intro, moodbar-restore-intro, moodbar-response-cc-link, m
 ignored = moodbar-log-reason, moodbar-delete-intro
 
 Mpdf
+format = json
 
 MSSQL Back Compat
+format = json
 
 Multi Maps
+format = json
 
 Multimedia Viewer
 format = json
