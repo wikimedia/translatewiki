@@ -1614,6 +1614,7 @@ ignored = rss-item
 RT
 
 Sarcasm
+format = json
 
 Score
 format = json
@@ -1631,10 +1632,13 @@ Search Extra NS
 format = json
 
 Section Disqus
+format = json
 
 Secure HTML
+format = json
 
 Secure Passwords
+format = json
 
 Secure Poll
 format = json
@@ -1644,18 +1648,24 @@ optional = securepoll-header-url, securepoll-header-id, securepoll-header-trans-
 ignored = securepoll-custom-unqualified, securepoll-voter-name-remote, securepoll-voter-name-local
 
 Secure Sessions
+format = json
 aliasfile = SecureSessions/SpecialSessions.alias.php
 
 Select Category
+format = json
 
 Select Tag
+format = json
 
 Semantic ACL
+format = json
 descmsg = sacl-desc
 
 Semantic Bundle
+format = json
 
 Semantic Compound Queries
+format = json
 magicfile = SemanticCompoundQueries/SemanticCompoundQueries.i18n.magic.php
 
 Semantic Drilldown
@@ -1663,9 +1673,11 @@ file = SemanticDrilldown/languages/SD_Messages.php
 aliasfile = SemanticDrilldown/languages/SD_Aliases.php
 
 Semantic Expressiveness
+format = json
 magicfile = SemanticExpressiveness/SemanticExpressiveness.i18n.magic.php
 
 Semantic Extra Special Properties
+format = json
 descmsg = sesp-desc
 
 Semantic Forms
@@ -1675,19 +1687,25 @@ magicfile = SemanticForms/languages/SF_Magic.php
 ignored = sf_formedit_accesskey_saveandcontinueediting
 
 Semantic Forms Inputs
+format = json
 optional = semanticformsinputs-dateformatlong, semanticformsinputs-dateformatshort, semanticformsinputs-firstdayofweek
 
 Semantic Genealogy
+format = json
 optional = semanticgenealogy-gedcomexport-link
 
 Semantic Glossary
+format = json
 
 Semantic Highcharts
+format = json
 
 Semantic Image Input
+format = json
 descmsg = sii-desc
 
 Semantic Internal Objects
+format = json
 magicfile = SemanticInternalObjects/SemanticInternalObjects.i18n.magic.php
 
 Semantic Maps
@@ -1707,9 +1725,11 @@ optional = smw_csv_link, smw_dsv_link, smw_json_link, smw_rdf_link
 optional = smw_property_template_notype
 
 Semantic Page Series
+format = json
 aliasfile = SemanticPageSeries/SemanticPageSeries.alias.php
 
 Semantic Rating
+format = json
 
 Semantic Result Formats
 format = json
@@ -1724,50 +1744,62 @@ optional = srf-ui-eventcalendar-format-column-day, srf-filtered-firstdayofweek
 ignored = srf-ui-datatables-label-sInfoPostFix
 
 Semantic Sifter
+format = json
 
 Semantic Signup
+format = json
 aliasfile = SemanticSignup/SemanticSignup.i18n.aliases.php
 magicfile = SemanticSignup/SemanticSignup.i18n.magic.php
 
 Semantic Tasks
+format = json
 
 Semantic Title
+format = json
 
 Semantic Update On Purge
+format = json
 descmsg = suop-desc
 
 Semantic Watchlist
+format = json
 aliasfile = SemanticWatchlist/SemanticWatchlist.i18n.alias.php
 
 Semantic Web Browser
+format = json
 descmsg = swb_desc
 aliasfile = SemanticWebBrowser/SemanticWebBrowser.alias.php
 optional = swb_browse_more
 
 Shared Css Js
+format = json
 
 Short Url
 format = json
 aliasfile = ShortUrl/ShortUrl.alias.php
 
 Shout Box
+format = json
 optional = shoutbox-url, shoutbox-url-with-css
 
 #Shout Wiki Ads / very ShoutWiki-specific
 
 Side Bar Menu
+format = json
 
 Sidebar Donate Box
+format = json
 
 #Signup API / Disabled for the time of review: https://gerrit.wikimedia.org/r/#/c/7999/
 
 Sign Writing MediaWiki Plugin
-file = SignWritingMediaWikiPlugin/swmp.i18n.php
+format = json
 descmsg = swmp-desc
 
 #Simple Anti Spam / Moved into core 2013-10-24
 
 Simple Farm
+format = json
 
 Simple Security
 descmsg = security-desc
@@ -1778,12 +1810,16 @@ format = json
 aliasfile = SiteMatrix/SiteMatrix.alias.php
 
 Site Metrics
+format = json
 
 Skin Per Namespace
+format = json
 
 Skin Per Page
+format = json
 
 Slimbox Thumbs
+format = json
 
 Smooth Gallery
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
