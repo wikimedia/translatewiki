@@ -2030,9 +2030,11 @@ Trusted XFF
 format = json
 
 Tweet A New
+format = json
 ignored = tweetanew-accesskey
 
 Twitter Cards
+format = json
 
 Twn Main Page
 format = json
@@ -2041,10 +2043,11 @@ descmsg = twnmp-desc
 optional = twnmp-stats-number-k
 
 Two Factor Authentication
-file = TwoFactorAuthentication/TwoFactorAuth.i18n.php
+format = json
 descmsg = twofactorauth-desc
 
 Upload Blacklist
+format = json
 
 Upload Wizard
 format = json
@@ -2062,31 +2065,38 @@ descmsg = uls-desc
 ignored = uls-ime-helppage
 
 UR Names
+format = json
 
 Url Get Parameters
+format = json
 
 User Daily Contribs
 format = json
 
 User Functions
+format = json
 
 User Merge
 format = json
 aliasfile = UserMerge/UserMerge.alias.php
 
 User Option Stats
+format = json
 aliasfile = UserOptionStats/UserOptionStats.alias.php
 
 User Page View Tracker
+format = json
 aliasfile = UserPageViewTracker/UserPageViewTracker.alias.php
 
 User Throttle
+format = json
 
 Validator
 format = json
 optional = validator-listerrors-severity-message
 
 Variables
+format = json
 
 # 2013-10-01: Not longer used, no i18n file
 # Vector
@@ -2128,38 +2138,48 @@ file = VisualEditor/modules/ve-wmf/i18n/%CODE%.json
 optional = visualeditor-help-link
 
 Vote NY
-file = VoteNY/Vote.i18n.php
+format = json
 prefix = voteny- | right-vote
 
 Watch Subpages
+format = json
 aliasfile = WatchSubpages/WatchSubpages.alias.php
 ignored = accesskey-watchsubpages-submit
 
 Web Chat
+format = json
 aliasfile = WebChat/WebChat.alias.php
 
 # Unmaintained / Siebrand 2013-07-09
 #Web Fonts
 
 Web Platform Auth
+format = json
 
 Web Platform Search Autocomplete
+format = json
 
 White Space
+format = json
 
 Whitelist Pages
+format = json
 ignored = public_read_whitelist
 
 Who Is Watching
+format = json
 aliasfile = WhoIsWatching/WhoIsWatching.alias.php
 
 Widgets
+format = json
 magicfile = Widgets/Widgets.i18n.magic.php
 optional = group-widgeteditor.css, group-widgeteditor.js
 
 Wiki Article Feeds
+format = json
 
 Wiki Category Tag Cloud
+format = json
 
 Wiki Editor
 format = json
@@ -2168,6 +2188,7 @@ optional = wikieditor-toolbar-tool-table-example-text
 ignored = wikieditor-toolbar-help-content-signaturetimestamp-syntax, wikieditor-toolbar-help-content-signature-syntax
 
 Wiki Forum
+format = json
 ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforum-max-replies-per-page
 optional = group-forumadmin.css, group-forumadmin.js
 
@@ -2186,12 +2207,14 @@ format = json
 optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
 
 Wiki Loves Monuments
+format = json
 
 Wiki Object Model
 file = WikiObjectModel/languages/Messages.php
 descmsg = wom-desc
 
 Wiki Text Logged In Out
+format = json
 
 Wikibase - Client
 format = json
@@ -2235,9 +2258,11 @@ ignored = wikibase-ui-pendingquantitycounter-nonpending, wikibase-ui-pendingquan
 ignored = wikibase-shortcopyrightwarning-version
 
 Wikibase Query
+format = json
 aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 
-Wikibase Solr
+# Disabled. Repo is read-only SM 2014-04-01
+#Wikibase Solr
 
 # No real extension, Java program
 # Wikidata Entity Suggester
@@ -2329,16 +2354,22 @@ file = WikimediaMessages/i18n/temporary/%CODE%.json
 prefix = temporary- | wikimediamessages-desc
 
 Wikivote Maps Yandex
+format = json
 
 Windows Azure SDK
+format = json
 
 Windows Azure Storage
+format = json
 
 Yet Another Keywords
+format = json
 
 Yotpo Reviews
+format = json
 
 YouTube
+format = json
 
 Zero Rated Mobile Access
 ignored = zero-rated-mobile-access-carrier-options-wiki-page, zero-rated-mobile-access-language-options-wiki-page-for-carrier
