@@ -1201,16 +1201,20 @@ format = json
 #optional = mwe-size-gigabytes, mwe-size-megabytes, mwe-size-kilobytes, mwe-size-bytes
 
 My Variables
+format = json
 
 Namespace Paths
+format = json
 
 Namespace Relations
+format = json
 descmsg = nsrels-desc
 
 # Unmaintained / Siebrand 2013-07-09
 #Narayam
 
 Natural Language List
+format = json
 descmsg = nll-desc
 ignored = nll-itemoutput
 optional = nll-separator
@@ -1219,6 +1223,7 @@ Navigation Timing
 format = json
 
 Negref
+format = json
 magicfile = Negref/Negref.i18n.magic.php
 
 New User Message
@@ -1227,26 +1232,26 @@ ignored = newusermessage-editor, newusermessage-substitute
 ignored = newusermessage-template
 
 New User Notification
-file = NewUserNotif/NewUserNotif.i18n.php
+format = json
+file = NewUserNotif/i18n/%CODE%.json
 descmsg = newusernotif-desc
 
 New Users List
+format = json
 
 Newest Pages
+format = json
 aliasfile = NewestPages/NewestPages.alias.php
 
 News
+format = json
 descmsg = newsextension-desc
 
-# Moved outside of extensions folder to repo /mediawiki/skins
-# https://translatewiki.net/wiki/Thread:Support/Nimbus_skin_i18n_is_going_to_the_wrong_place
-# Nimbus
-# file = skins/Nimbus/Nimbus.i18n.php
-# ignored = morewikis, nimbus-advertise-url
-
 No Title
+format = json
 
 Nonlinear
+format = json
 
 Nostalgia
 format = json
@@ -1258,14 +1263,18 @@ format = json
 aliasfile = Nuke/Nuke.alias.php
 
 Nuke DPL
+format = json
 aliasfile = NukeDPL/NukeDPL.alias.php
 
 Number Format
+format = json
 descmsg = numberformat_desc
 
 Numbertext
+format = json
 
 Numer Alpha
+format = json
 
 OAI-PMH repository
 id = ext-oai
@@ -1288,6 +1297,7 @@ ignored = mwoauth-form-legal
 optional = oauth, mwoauth-listgrantrights-right-display
 
 Ogg Handler
+format = json
 magicfile = OggHandler/OggHandler.i18n.magic.php
 descmsg = ogg-desc
 optional = ogg-player-cortado, ogg-player-vlc-mozilla, ogg-player-vlc-activex
@@ -1296,18 +1306,23 @@ optional = ogg-player-totem, ogg-player-kmplayer, ogg-player-kaffeine
 optional = ogg-player-mplayerplug-in
 
 Online Status
+format = json
 magicfile = OnlineStatus/OnlineStatus.i18n.magic.php
 ignored = onlinestatus-levels
 
 Online Status Bar
+format = json
 
 Only Recent Recent Changes
+format = json
 
 Open ID
+format = json
 aliasfile = OpenID/OpenID.alias.php
 optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
 
 Open Graph Meta
+format = json
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
 
 Open Search Xml
@@ -1319,25 +1334,32 @@ aliasfile = OpenStackManager/OpenStackManager.alias.php
 optional = openstackmanager-puppetdoclink, prefs-openstack
 
 Oracle Text Search
+format = json
 
 Page Creation Notif
+format = json
 descmsg = page-creation-notif-desc
 
 Page Disqus
+format = json
 
 Page Images
 format = json
 ignored = pageimages-blacklist
 
 Page In Cat
+format = json
 
 Page Language
+format = json
 
 Page Schemas
+format = json
 aliasfile = PageSchemas/PageSchemas.i18n.alias.php
 descmsg = ps-desc
 
 Page Tools
+format = json
 
 Page Triage
 format = json
@@ -1430,8 +1452,10 @@ format = json
 descmsg = tiff-desc
 
 Pan Scroll
+format = json
 
 Parser Fun
+format = json
 
 Parser Functions
 format = json
@@ -1439,14 +1463,17 @@ descmsg = pfunc_desc
 magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
 Parser Hooks
+format = json
 
 Parsoid
 format = json
 file = Parsoid/php/i18n/%CODE%.json
 
 Pdf Book
+format = json
 
 Pdf Export
+format = json
 aliasfile = PdfExport/PdfExport.i18n.alias.php
 ignored = pdf_fontface_default, pdf_fontface_options
 ignored = pdf_size_default, pdf_size_options
@@ -1794,11 +1821,6 @@ Skin Per Namespace
 Skin Per Page
 
 Slimbox Thumbs
-
-# Deleted with I67f104bc
-#Slippy Map
-#descmsg = slippymap_desc
-#optional = slippymap_extname, slippymap_tagname
 
 Smooth Gallery
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
