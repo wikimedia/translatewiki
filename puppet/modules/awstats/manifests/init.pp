@@ -13,11 +13,11 @@ class awstats {
     require => Package['awstats']
   }
 
-  file { "/etc/cron.d/awstats":
+  file { '/etc/cron.d/awstats':
     source  => 'puppet:///modules/awstats/awstats.cron',
   }
 
-  file { "/etc/awstats/awstats.conf":
+  file { '/etc/awstats/awstats.conf':
     source  => 'puppet:///modules/awstats/awstats.conf',
   }
 

@@ -12,7 +12,7 @@ class hhvm {
   apt::ppa { 'ppa:mapnik/boost': }
 
   package { 'hhvm-nightly':
-    ensure => present,
+    ensure  => present,
     require => Apt::Source['hhvm'],
   }
 

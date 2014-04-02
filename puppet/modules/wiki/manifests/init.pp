@@ -31,6 +31,6 @@ class wiki ($config, $user) {
 
   # This one is needed for the irc bots
   package { 'libpoe-component-irc-perl':
-   ensure => present,
+    ensure => present,
   }
 }
