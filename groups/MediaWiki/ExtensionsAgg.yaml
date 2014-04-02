@@ -1,11 +1,69 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Mediawiki-logo.png
+    meta: yes
+    namespace: NS_MEDIAWIKI
+    class: AggregateMessageGroup
+
+---
 BASIC:
   id: ext-0-all
   label: MediaWiki extensions
-  icon: wiki://Mediawiki-logo.png
-  meta: yes
-  class: AggregateMessageGroup
   description: '{{int:translate-group-desc-mediawikiextensions}}'
-  namespace: NS_MEDIAWIKI
 
 GROUPS:
   - ext-*
+
+---
+BASIC:
+  id: ext-bs-0-all
+  label: All Blue Spice messages
+  description: '{{int:translate-group-desc-bluespice}}'
+
+GROUPS:
+  - ext-bs-*
+
+---
+BASIC:
+  id: ext-flaggedrevs-0-all
+  label: All Flagged Revs messages
+  description: '{{int:translate-group-desc-flaggedrevs}}'
+
+GROUPS:
+  - ext-flaggedrevs-*
+
+---
+BASIC:
+  id: ext-readerfeedback-0-all
+  label: All Reader Feedback messages
+  description: '{{int:translate-group-desc-readerfeedback}}'
+
+GROUPS:
+  - ext-readerfeedback-*
+
+#---
+#BASIC:
+#  id: ext-semantic-0-all
+#  label: All Semantic MediaWiki extensions' messages
+#  description: '{{int:translate-group-desc-semantic}}'
+#
+#GROUPS:
+#  - ext-semantic*
+
+---
+BASIC:
+  id: ext-translate-0-all
+  label: All Translate messages
+  description: '{{int:translate-group-desc-translate}}'
+
+GROUPS:
+  - ext-translate-*
+
+---
+BASIC:
+  id: ext-visualeditor-0-all
+  label: All VisualEditor messages
+  description: '{{int:translate-group-desc-visualeditor}}'
+
+GROUPS:
+  - ext-visualeditor-*
