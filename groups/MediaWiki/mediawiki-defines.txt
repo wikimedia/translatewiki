@@ -1568,7 +1568,7 @@ format = json
 Reader Feedback
 format = json
 id = ext-readerfeedback-readerfeedback
-file = i18n/readerfeedback/%CODE%.json
+file = ReaderFeedback/i18n/readerfeedback/%CODE%.json
 aliasfile = ReaderFeedback/language/ReaderFeedback.alias.php
 descmsg = readerfeedback-desc
 ignored = readerfeedback-ak-review
@@ -1576,13 +1576,13 @@ ignored = readerfeedback-ak-review
 Reader Feedback - Rated Pages
 format = json
 id = ext-readerfeedback-ratedpages
-file = i18n/ratedpages/%CODE%.json
+file = ReaderFeedback/i18n/ratedpages/%CODE%.json
 descmsg = ratedpages
 
 Reader Feedback - Rating History
 format = json
 id = ext-readerfeedback-ratinghistory
-file = i18n/ratinghistory/%CODE%.json
+file = ReaderFeedback/i18n/ratinghistory/%CODE%.json
 descmsg = ratinghistory
 
 Reassign Edits
