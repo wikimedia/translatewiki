@@ -115,55 +115,6 @@ function setupMediaWiki( &$cc ) {
 	$mg->setListFile( "$GROUPS/MediaWiki/wikimedia-mostused-2011.txt" );
 	$cc[$id] = $mg;
 
-	$changed = array(
-		'1.22' => array(
-			'specialpages-note',
-		), // Checked up to 972865c51c9e54ac76f3941f6cfa59db5326c52e / 2013-11-21
-		'1.21' => array(
-			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated', 'edithelppage',
-			'createacct-imgcaptcha-help', 'createacct-benefit-body1', 'createacct-benefit-body2', 'createacct-benefit-body3',
-			'login-throttled', 'right-editprotected', 'uploadnologintext', 'contribsub2',
-			'autocomment-prefix', 'prefs-help-watchlist-token', 'right-editprotected',
-			// From 1.22
-			'specialpages-note',
-		), // Checked up to 972865c51c9e54ac76f3941f6cfa59db5326c52e / 2013-11-21
-		'1.20' => array(
-			'cannotundelete', 'logouttext', 'enotif_body', 'createaccountmail',
-			'username', 'uid', 'prefs-memberingroups', 'linksearch-text',
-			'contributions',
-			'logentry-delete-delete', 'logentry-delete-event', 'logentry-delete-event-legacy', 'logentry-delete-restore',
-			'logentry-delete-revision', 'logentry-delete-revision-legacy', 'logentry-move-move', 'logentry-move-move-noredirect',
-			'logentry-move-move_redir', 'logentry-move-move_redir-noredirect', 'logentry-newusers-autocreate', 'logentry-newusers-create',
-			'logentry-newusers-create2', 'logentry-newusers-newusers', 'logentry-patrol-patrol', 'logentry-patrol-patrol-auto',
-			'logentry-suppress-delete', 'logentry-suppress-event', 'logentry-suppress-event-legacy', 'logentry-suppress-revision',
-			'logentry-suppress-revision-legacy',
-			// From 1.21
-			'passwordreset-emailerror-capture', 'wlheader-enotif', 'wlheader-showupdated', 'edithelppage',
-			'createacct-imgcaptcha-help', 'createacct-benefit-body1', 'createacct-benefit-body2', 'createacct-benefit-body3',
-			'login-throttled', 'right-editprotected', 'uploadnologintext', 'contribsub2',
-			'autocomment-prefix', 'prefs-help-watchlist-token', 'right-editprotected',
-			// From 1.22
-			'specialpages-note',
-		), // Checked up to 972865c51c9e54ac76f3941f6cfa59db5326c52e / 2013-11-21
-	);
-
-	$branches = array_keys( $changed );
-
-	foreach ( $branches as $branch ) {
-		$id = "core-$branch";
-		$mangle = new StringMatcher( "mw-core-$branch-", $changed[$branch] );
-		$mg = CoreMessageGroup::factory( "MediaWiki $branch", $id );
-		$mg->setDescription( "{{int:translate-group-desc-mediawiki-core-branch}}" );
-		$mg->setMangler( $mangle );
-		$releaseDir = 'REL' . str_replace( '.', '_', $branch );
-		$mg->setPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/languages/messages" );
-		$mg->setMetaDataPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/maintenance/language/" );
-		$mg->setIcon( 'wiki://Mediawiki-logo.png' );
-		$mg->setMeta( true );
-		$mg->parentId = 'core';
-		$cc[$id] = $mg;
-	}
-
 	return true;
 }
 

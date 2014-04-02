@@ -89,22 +89,6 @@ then
 	php "$EXPORTER" --target mediawiki/master/languages/messages --group 'core' --lang "$FORCELANGS" $HOURS &
 	php "$EXPORTER" --target . --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" $HOURS &
 
-	if [ -d "mediawiki/REL1_22/" ]
-	then
-		php "$EXPORTER" --target mediawiki/REL1_21/languages/messages --core-meta --group 'core-1.22' --lang '*' --skip="$SKIPLANGS" --threshold 15 &
-	fi
-	if [ -d "mediawiki/REL1_21/" ]
-	then
-		# Skips because plural rules are not backward compatible.
-		SKIPLOCAL="gv,ab,av,ba,bxr,ce,crh_cyrl,cv,inh,koi,krc,kv,lbe,lez,mhr,mrj,myv,ru,tt_cyrl,tyv,udm,xal"
-		php "$EXPORTER" --target mediawiki/REL1_21/languages/messages --core-meta --group 'core-1.21' --lang '*' --skip="$SKIPLOCAL,$SKIPLANGS" --threshold 15 &
-	fi
-	if [ -d "mediawiki/REL1_20/" ]
-	then
-		# Skips because plural rules are not backward compatible.
-		SKIPLOCAL="gd,gv,ab,av,ba,bxr,ce,crh_cyrl,cv,inh,koi,krc,kv,lbe,lez,mhr,mrj,myv,ru,tt_cyrl,tyv,udm,xal"
-		php "$EXPORTER" --target mediawiki/REL1_20/languages/messages --core-meta --group 'core-1.20' --lang '*' --skip="$SKIPLOCAL,$SKIPLANGS" --threshold 15 &
-	fi
 	wait
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
