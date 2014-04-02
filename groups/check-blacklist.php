@@ -33,13 +33,6 @@ $checkBlacklist = array(
 		),
 	),
 	array(
-		'group' => 'core-1.22',
-		'check' => 'links',
-		'message' => array(
-			'mw-core-1.22-redirect-summary', // Has images names that can be translated
-		),
-	),
-	array(
 		'group' => 'core',
 		'check' => 'plural',
 		'message' => array(
