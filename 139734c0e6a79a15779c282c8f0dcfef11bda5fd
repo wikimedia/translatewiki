@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae0e4726_3f6f6f91",
+        "filename": "groups/MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1034,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-04-02T13:36:51Z",
+      "side": 1,
+      "message": "Wana remove the comment sign here too?",
+      "revId": "139734c0e6a79a15779c282c8f0dcfef11bda5fd",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
