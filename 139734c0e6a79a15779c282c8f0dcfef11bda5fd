@@ -16,6 +16,24 @@
       "revId": "139734c0e6a79a15779c282c8f0dcfef11bda5fd",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae0e4726_9f2c3b47",
+        "filename": "groups/MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1034,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-04-02T13:40:51Z",
+      "side": 1,
+      "message": "Nope, it should extend to the lines below, because of key conflicts (IIRC).",
+      "parentUuid": "ae0e4726_3f6f6f91",
+      "revId": "139734c0e6a79a15779c282c8f0dcfef11bda5fd",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
