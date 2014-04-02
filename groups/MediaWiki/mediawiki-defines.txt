@@ -1466,6 +1466,7 @@ format = json
 
 Persona
 format = json
+aliasfile = Persona/Persona.i18n.alias.php
 
 Phalanx
 format = json
