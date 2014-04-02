@@ -2316,19 +2316,19 @@ format = json
 file = wikihiero/i18n/%CODE%.json
 aliasfile = wikihiero/wikihiero.alias.php
 
-Wikilog
-format = json
-file = WikiLog/i18n/wikilog/%CODE%.json
-aliasfile = Wikilog/Wikilog.i18n.alias.php
-magicfile = Wikilog/Wikilog.i18n.magic.php
-ignored = wikilog-summary-header, wikilog-summary-header-single, wikilog-entry-sub, wikilog-entry-header
-ignored = wikilog-comment-header, wikilog-newtalk-text, wikilog-summary
-optional = wikilog-entry-footer, wikilog-simple-signature, wikilog-comment-footer
-optional = wikilog-feed-title, wikilog-title-item-full, wikilog-backlink, wikilog-brackets
+#Wikilog
+#format = json
+#file = WikiLog/i18n/wikilog/%CODE%.json
+#aliasfile = Wikilog/Wikilog.i18n.alias.php
+#magicfile = Wikilog/Wikilog.i18n.magic.php
+#ignored = wikilog-summary-header, wikilog-summary-header-single, wikilog-entry-sub, wikilog-entry-header
+#ignored = wikilog-comment-header, wikilog-newtalk-text, wikilog-summary
+#optional = wikilog-entry-footer, wikilog-simple-signature, wikilog-comment-footer
+#optional = wikilog-feed-title, wikilog-title-item-full, wikilog-backlink, wikilog-brackets
 
-Wikilog Feed
-format = json
-file = WikiLog/i18n/wlfeed/%CODE%.json
+#Wikilog Feed
+#format = json
+#file = WikiLog/i18n/wlfeed/%CODE%.json
 
 Wikimedia Events
 format = json
