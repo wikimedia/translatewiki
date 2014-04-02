@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae0e4726_13ddc947",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-04-02T11:34:40Z",
+      "side": 1,
+      "message": "You can shorten this file by adding TEMPLATE for the repetitive parts.",
+      "revId": "2076b09b7cfff6fbf7a50137138807e094acae8d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
