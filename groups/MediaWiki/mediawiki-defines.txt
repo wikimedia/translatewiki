@@ -105,11 +105,8 @@ ignored=articlefeedbackv5-noteflyover-uninappropriate-description, articlefeedba
 ignored=articlefeedbackv5-noteflyover-unoversight-description, articlefeedbackv5-noteflyover-unoversight-help-link, articlefeedbackv5-noteflyover-unrequest-description, articlefeedbackv5-noteflyover-unrequest-help-link
 ignored=articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-noteflyover-unresolve-help-link, articlefeedbackv5-special-filter-label-after, articlefeedbackv5-special-sort-label-after
 
-# Moved to GitHub
-# Ask
-
-# Moved into core (deployed 1.23wmf10)
-# Assert Edit
+# Ask / Moved to GitHub
+# Assert Edit / Moved into core (deployed 1.23wmf10)
 
 Author Protect
 format = json
@@ -158,19 +155,23 @@ format = json
 #format = json
 #Blog Page
 
+# JSON TODO
 Blue Spice
 id = ext-bs
 file = BlueSpiceFoundation/languages/BlueSpice.i18n.php
 
+# JSON TODO
 Blue Spice - Credits
 file = BlueSpiceFoundation/languages/BlueSpice.Credits.i18n.php
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
 id = ext-bs-credits
 
+# JSON TODO
 Blue Spice - ExtJS
 file = BlueSpiceFoundation/languages/BlueSpice.ExtJS.i18n.php
 id = ext-bs-extjs
 
+# JSON TODO
 Blue Spice - ExtJS - Portal
 file = BlueSpiceFoundation/languages/BlueSpice.ExtJS.Portal.i18n.php
 id = ext-bs-extjs-portal
@@ -412,9 +413,7 @@ format = json
 descmsg = cx-desc
 aliasfile = ContentTranslation/ContentTranslation.alias.php
 
-# Unused per https://bugzilla.wikimedia.org/show_bug.cgi?id=41526#c0
-#format = json
-#Contest
+#Contest / Unused per https://bugzilla.wikimedia.org/show_bug.cgi?id=41526#c0
 
 Contribution Reporting
 format = json
@@ -467,7 +466,7 @@ format = json
 #Custom User Signup
 
 Data Transfer
-file = DataTransfer/languages/DT_Messages.php
+format = json
 aliasfile = DataTransfer/languages/DT_Aliases.php
 
 Delete Batch
@@ -584,16 +583,12 @@ ignored = accesskey-drafts-save
 Duplicator
 format = json
 
-# Superseeded by intersection extension
-#format = json
-#Dynamic Page List
+#Dynamic Page List / Superseeded by intersection
 
 Dynamic Sidebar
 format = json
 
-# Very WMF centric, unlikely to be used by third parties
-#format = json
-#E3 Experiments
+#E3 Experiments / No longer used, WMF centric
 
 Echo
 format = json
@@ -642,9 +637,7 @@ Event Logging - Json Schema
 format = json
 file = EventLogging/i18n/jsonschema/%CODE%.json
 
-# 2013-11-23 Added to core
-#format = json
-#Expand Templates
+#Expand Templates / Added to core
 
 Extension Distributor
 format = json
@@ -660,9 +653,7 @@ Ext Tab
 format = json
 file = ExtTab/languages/i18n/%CODE%.json
 
-# Missing message documentation, inconsistently prefixed - 2014-01-28 RS
-#format = json
-#Fan Boxes
+#Fan Boxes / Missing message documentation, inconsistently prefixed - 2014-01-28 RS
 
 Featured Feeds
 format = json
@@ -786,9 +777,7 @@ format = json
 ignored = fundraiserlandingpage-wmch-landing-page, fundraiserlandingpage-wmde-landing-page
 ignored = fundraiserlandingpage-wmfr-landing-page, fundraiserlandingpage-wmuk-landing-page
 
-# Git repo somehow broken: fatal: Not a git repository (or any of the parent directories): .git
-# Fundraising Email Unsubscribe
-# file = FundraisingEmailUnsubscribe/FundraiserUnsubscribe.i18n.php
+# Fundraising Email Unsubscribe / Git repo somehow broken: fatal: Not a git repository (or any of the parent directories): .git
 
 Gadgets
 format = json
@@ -1044,6 +1033,7 @@ ignored = listings-tollfree-symbol, listings-position-template
 optional = listings-phone-symbol
 
 Live Translate
+format = json
 optional = group-tmxadmin.css, group-tmxadmin.js
 
 Localisation Update
@@ -1246,6 +1236,7 @@ Nostalgia
 format = json
 
 NS File Repo
+format = json
 
 Nuke
 format = json
@@ -1471,22 +1462,28 @@ format = json
 descmsg = pdf-desc
 
 Per Page License
+format = json
 
 Persona
+format = json
 
 Phalanx
+format = json
 
 PHP Excel
+format = json
 
 Php Tags Functions
+format = json
 
 Poem
 format = json
 
 Polyglot
+format = json
 
 Poll NY
-file = PollNY/Poll.i18n.php
+format = json
 aliasfile = PollNY/Poll.alias.php
 descmsg = poll-desc
 
@@ -1499,16 +1496,20 @@ format = json
 #Post Edit / Merged into core / 2013-06-01
 
 Pref Stats
+format = json
 aliasfile = PrefStats/PrefStats.alias.php
 ignored = prefstats-list-elem
 
 #Pref Switch / No longer used at WMF / 2010-11-23 Raymond.
 
 Premoderation
+format = json
 
 Private Domains
+format = json
 
 Pronunciation Recording
+format = json
 
 Proofread Page
 format = json
@@ -1518,30 +1519,38 @@ ignored = proofreadpage_default_header, proofreadpage_default_footer
 ignored = proofreadpage_specialpage_text, proofreadpage-indexoai-eprint-content-url
 
 Protect Site
+format = json
 aliasfile = ProtectSite/ProtectSite.alias.php
 
 # No spaces because it is proper noun
 PubSubHubbub
+format = json
 
 Push
+format = json
 aliasfile = Push/Push.alias.php
 optional = group-pusher.css, group-pusher.js
 optional = group-bulkpusher.css, group-bulkpusher.js
 optional = group-filepusher.css, group-filepusher.js
 
 Push To Watch
+format = json
 
 Quantcast
+format = json
 
 Quick Response
+format = json
 
 Quiz
 format = json
 descmsg = quiz_desc
 
 Random Image
+format = json
 
 Random In Category
+format = json
 aliasfile = RandomInCategory/RandomInCategory.alias.php
 prefix = extension- | randomincategory
 
@@ -1550,36 +1559,45 @@ format = json
 aliasfile = RandomRootPage/Randomrootpage.i18n.alias.php
 
 Random Users With Avatars
+format = json
 descmsg = random-users-avatars-desc
 
 Ratings
+format = json
 
 Reader Feedback
+format = json
 id = ext-readerfeedback-readerfeedback
-file = ReaderFeedback/language/ReaderFeedback.i18n.php
+file = i18n/readerfeedback/%CODE%.json
 aliasfile = ReaderFeedback/language/ReaderFeedback.alias.php
 descmsg = readerfeedback-desc
 ignored = readerfeedback-ak-review
 
 Reader Feedback - Rated Pages
+format = json
 id = ext-readerfeedback-ratedpages
-file = ReaderFeedback/language/RatedPages.i18n.php
+file = i18n/ratedpages/%CODE%.json
 descmsg = ratedpages
 
 Reader Feedback - Rating History
+format = json
 id = ext-readerfeedback-ratinghistory
-file = ReaderFeedback/language/RatingHistory.i18n.php
+file = i18n/ratinghistory/%CODE%.json
 descmsg = ratinghistory
 
 Reassign Edits
+format = json
 aliasfile = ReassignEdits/ReassignEdits.alias.php
 
 Refresh Special
+format = json
 aliasfile = RefreshSpecial/RefreshSpecial.alias.php
 
 Regex Fun
+format = json
 
 Regex Functions
+format = json
 magicfile = RegexFunctions/RegexFunctions.i18n.magic.php
 
 Related Articles
@@ -1594,6 +1612,7 @@ aliasfile = Renameuser/Renameuser.alias.php
 ignored = renameuser-summary, logentry-renameuser-renameuser-legaciest
 
 Replace Set
+format = json
 magicfile = ReplaceSet/ReplaceSet.i18n.magic.php
 
 Replace Text
@@ -1601,11 +1620,13 @@ format = json
 aliasfile = ReplaceText/ReplaceText.alias.php
 
 Revision Comment Supplement
+format = json
 aliasfile = RevisionCommentSupplement/RevisionCommentSupplement.alias.php
 descmsg = revcs-desc
 optional = revcs-log-supplement
 
 Right Functions
+format = json
 optional = rightfunctions-rest1, rightfunctions-rest2, rightfunctions-rest3, rightfunctions-sep
 
 RSS
@@ -1613,6 +1634,7 @@ format = json
 ignored = rss-item
 
 RT
+format = json
 
 Sarcasm
 format = json
@@ -1670,7 +1692,7 @@ format = json
 magicfile = SemanticCompoundQueries/SemanticCompoundQueries.i18n.magic.php
 
 Semantic Drilldown
-file = SemanticDrilldown/languages/SD_Messages.php
+format = json
 aliasfile = SemanticDrilldown/languages/SD_Aliases.php
 
 Semantic Expressiveness
@@ -1803,6 +1825,7 @@ Simple Farm
 format = json
 
 Simple Security
+format = json
 descmsg = security-desc
 ignored = security-logentry
 
@@ -1823,46 +1846,59 @@ Slimbox Thumbs
 format = json
 
 Smooth Gallery
+format = json
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
 ignored = smoothgallery-pagetext
 
 Social Profile
+format = json
 aliasfile = SocialProfile/SocialProfile.alias.php
 
 Solarium
 format = json
 
 Solr Store
+format = json
 aliasfile = SolrStore/SolrStore.alias.php
 
 Sound Manager 2 Button
+format = json
 
 Spam Blacklist
 format = json
 descmsg = spam-blacklist-desc
 
 Spark
+format = json
 
 Special 404
+format = json
 aliasfile = Special404/Special404.alias.php
 
 Spelling Api
+format = json
 
 Sphinx Search
+format = json
 
 Spreadsheet
+format = json
 
 SSL Client Authentication
-file = SSLClientAuthentication/ClientSSLAuth.i18n.php
+format = json
 descmsg = sslauth-desc
 
 Stalker Log
+format = json
 
 Starter Wiki
+format = json
 
 Stick To That Language
+format = json
 
 Stop Forum Spam
+format = json
 
 Strategy Wiki - Active Strategy
 format = json
@@ -1870,6 +1906,7 @@ file = StrategyWiki/ActiveStrategy/i18n/%CODE%.json
 descmsg = active-strategy-desc
 
 Sub Page List
+format = json
 descmsg = spl-desc
 magicfile = SubPageList/SubPageList.i18n.magic.php
 
@@ -1878,21 +1915,26 @@ format = json
 descmsg = spl3-desc
 
 Subpage Fun
+format = json
 
 Subpage Sortkey
 format = json
 
 Sudo
+format = json
 aliasfile = Sudo/Sudo.alias.php
 
 Suhosin
+format = json
 
 Survey
+format = json
 aliasfile = Survey/Survey.alias.php
 optional = group-surveyadmin.css, group-surveyadmin.js, group-surveysubmit.css, group-surveysubmit.js
 ignored = surveys-surveystats-question-nr, surveys-surveystats-question-=23
 
 SVG Edit
+format = json
 
 #Swarm Export / Maintenance script, not a real extension
 
@@ -1907,11 +1949,13 @@ descmsg = syntaxhighlight-desc
 #Tabs / Missing message documentation
 
 Tabber
+format = json
 
 Template Data
 format = json
 
 Template Info
+format = json
 
 Template Sandbox
 format = json
@@ -1927,6 +1971,7 @@ aliasfile = Thanks/Thanks.alias.php
 
 Throttle Override
 aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
+format = json
 
 Timed Media Handler
 format = json
@@ -1964,6 +2009,7 @@ format = json
 file = timeline/i18n/%CODE%.json
 
 Timezone Selector
+format = json
 optional = timezoneselector-message-long, timezoneselector-message-verbose
 ignored = timezoneselector-message-short
 
@@ -2015,6 +2061,7 @@ format = json
 file = Translate/i18n/search/%CODE%.json
 
 Translate Svg
+format = json
 aliasfile = TranslateSvg/TranslateSvg.alias.php
 optional = translate-svg-filepage-item
 ignored = translate-js-label-font-size, translate-js-label-units
@@ -2024,6 +2071,7 @@ format = json
 aliasfile = TranslationNotifications/TranslationNotifications.alias.php
 
 Transliterator
+format = json
 
 Trusted XFF
 format = json
@@ -2187,11 +2235,13 @@ format = json
 ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforum-max-replies-per-page
 optional = group-forumadmin.css, group-forumadmin.js
 
+# JSON TODO
 Wiki Lexical Data
 file = WikiLexicalData/Wikidata.i18n.php
 descmsg = wikidata-desc
 optional = ow_editing_policy_url, ow_URL, prefs-omegawiki
 
+# JSON TODO
 Wiki Lexical Data - Omega Wiki
 id = ext-wikilexicaldata-omegawiki
 file = WikiLexicalData/includes/api/OmegaWiki.i18n.php
@@ -2204,6 +2254,7 @@ optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-li
 Wiki Loves Monuments
 format = json
 
+# JSON TODO
 Wiki Object Model
 file = WikiObjectModel/languages/Messages.php
 descmsg = wom-desc
@@ -2266,6 +2317,8 @@ file = wikihiero/i18n/%CODE%.json
 aliasfile = wikihiero/wikihiero.alias.php
 
 Wikilog
+format = json
+file = WikiLog/i18n/wikilog/%CODE%.json
 aliasfile = Wikilog/Wikilog.i18n.alias.php
 magicfile = Wikilog/Wikilog.i18n.magic.php
 ignored = wikilog-summary-header, wikilog-summary-header-single, wikilog-entry-sub, wikilog-entry-header
@@ -2273,19 +2326,25 @@ ignored = wikilog-comment-header, wikilog-newtalk-text, wikilog-summary
 optional = wikilog-entry-footer, wikilog-simple-signature, wikilog-comment-footer
 optional = wikilog-feed-title, wikilog-title-item-full, wikilog-backlink, wikilog-brackets
 
+Wikilog Feed
+format = json
+file = WikiLog/i18n/wlfeed/%CODE%.json
+
 Wikimedia Events
 format = json
 
 Wikimedia Incubator
 format = json
+file = WikimediaIncubator/i18n/incubator/%CODE%.json
 descmsg = wminc-desc
 ignored = wminc-error-help, wminc-fs-langselect-langs, wminc-fs-settings-image
 optional = wminc-searchwiki-goto
 optional = group-test-sysop.css, group-test-sysop.js
 
 Wikimedia Incubator - Info Page
+format = json
+file = WikimediaIncubator/i18n/infopage/%CODE%.json
 descmsg = wminc-desc
-file = WikimediaIncubator/InfoPage.i18n.php
 ignored = wminc-infopage-prefill, wminc-manual-url, wminc-infopage-links
 
 Wikimedia Messages
@@ -2364,9 +2423,11 @@ format = json
 YouTube
 format = json
 
+# JSON TODO
 Zero Rated Mobile Access
 ignored = zero-rated-mobile-access-carrier-options-wiki-page, zero-rated-mobile-access-language-options-wiki-page-for-carrier
 ignored = zero-rated-mobile-access-carrier-options-supported-wikis-wiki-page
 
+# JSON TODO
 Zero Rated Mobile Access - Zero Config
 file = ZeroRatedMobileAccess/includes/ZeroConfig.i18n.php
