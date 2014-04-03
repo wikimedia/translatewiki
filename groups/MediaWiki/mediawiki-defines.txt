@@ -2254,11 +2254,13 @@ optional = group-forumadmin.css, group-forumadmin.js
 
 Wiki Lexical Data
 file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
+format = json
 descmsg = wikidata-desc
 optional = ow_editing_policy_url, ow_URL, prefs-omegawiki
 
 Wiki Lexical Data - Omega Wiki
 file = WikiLexicalData/i18n/omegawiki/%CODE%.json
+format = json
 id = ext-wikilexicaldata-omegawiki
 descmsg = apiow-desc
 
