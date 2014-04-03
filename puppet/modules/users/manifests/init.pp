@@ -6,14 +6,14 @@ class users {
 
   # Rebuild the database, but only when the file changes
   exec { 'newaliases':
-    path        => ["/usr/bin", "/usr/sbin"],
-    subscribe   => File["/etc/aliases"],
+    path        => ['/usr/bin', '/usr/sbin'],
+    subscribe   => File['/etc/aliases'],
     refreshonly => true
   }
 
-  group { "betawiki":
+  group { 'betawiki':
     ensure => present,
-    gid => 1002
+    gid    => 1002
   }
 
   user {

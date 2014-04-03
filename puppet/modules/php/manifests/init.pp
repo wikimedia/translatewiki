@@ -14,7 +14,7 @@ class php {
     'php-apc',
     'php-pear',
     ]:
-    ensure => present,
+    ensure  => present,
     require => Package['php5-fpm'],
   }
 

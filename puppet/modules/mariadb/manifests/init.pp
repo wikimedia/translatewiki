@@ -1,7 +1,7 @@
 class mariadb {
   apt::source { 'mariadb':
     location        => 'http://mirrors.n-ix.net/mariadb/repo/5.5/ubuntu',
-    release         => "${::lsbdistcodename}",
+    release         => $::lsbdistcodename,
     repos           => 'main',
     key             => 'cbcb082a1bb943db',
     key_server      => 'keyserver.ubuntu.com',
@@ -14,9 +14,9 @@ class mariadb {
   }
 
   class { '::mysql::server':
-    package_name => 'mariadb-server',
-    require => Apt::Source['mariadb'],
-    restart => false,
+    package_name     => 'mariadb-server',
+    require          => Apt::Source['mariadb'],
+    restart          => false,
     override_options => {
       mysqld => {
         character-set-server            => 'utf8',

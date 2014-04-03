@@ -11,31 +11,31 @@ class backup ($databases) {
   apt::ppa { 'ppa:duplicity-team/ppa': }
 
   package { 'duplicity':
-    ensure => present,
+    ensure  => present,
     require => Apt::Ppa['ppa:duplicity-team/ppa'],
   }
 
-  file { "/etc/cron.d/backup":
+  file { '/etc/cron.d/backup':
     # Enable when new server is primary
     ensure  => present,
-    content => template("backup/backup.erb"),
+    content => template('backup/backup.erb'),
   }
 
-  file { "/root/.ssh/config":
+  file { '/root/.ssh/config':
     source => 'puppet:///modules/backup/ssh-config',
   }
 
-  file { "/root/backup.sh":
+  file { '/root/backup.sh':
     source => 'puppet:///modules/backup/backup.sh',
     mode   => '0744',
   }
 
-  file { "/root/.duplicity.conf":
+  file { '/root/.duplicity.conf':
     source => 'puppet:///modules/backup/duplicity.conf',
   }
 
-  file { "/root/dump-databases.sh":
-    content => template("backup/dump-databases.sh.erb"),
+  file { '/root/dump-databases.sh':
+    content => template('backup/dump-databases.sh.erb'),
     mode    => '0744',
   }
 
