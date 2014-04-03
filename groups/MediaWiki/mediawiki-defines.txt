@@ -167,7 +167,7 @@ aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
 id = ext-bs-credits
 
 Blue Spice - Diagnostics
-,format = json
+format = json
 file = BlueSpiceFoundation/i18n/diagnostics/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Diagnostics.alias.php
 id = ext-bs-diagnostics
