@@ -1119,7 +1119,7 @@ format = json
 MediaWiki Chat
 format = json
 descmsg = chat-desc
-ignored = chat-smileys
+ignored = chat-smileys, chat-mod-image
 optional = logentry-chat-send
 
 Mobile App
