@@ -16,6 +16,24 @@
       "revId": "d483ecec0c65b2f461d871a93e22f647c2aeb065",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e23439c_ff57f35a",
+        "filename": "groups/MediaWiki/mediawiki-defines.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 2254,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-04-03T08:38:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8e23439c_9f20fff3",
+      "revId": "d483ecec0c65b2f461d871a93e22f647c2aeb065",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
