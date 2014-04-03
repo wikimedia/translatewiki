@@ -2271,7 +2271,9 @@ optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-li
 Wiki Loves Monuments
 format = json
 
+# JSON TODO
 Wiki Object Model
+file = WikiObjectModel/languages/Messages.php
 descmsg = wom-desc
 
 Wiki Text Logged In Out
