@@ -16,7 +16,6 @@ BASIC:
   id: core
   label: MediaWiki (core)
   icon: wiki://Mediawiki-logo.png
-  meta: yes
   class: FileBasedMessageGroup
   namespace: NS_MEDIAWIKI
   description: "{{int:translate-group-desc-mediawikicore}}"
