@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e23439c_8a167bab",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-04-03T12:01:16Z",
+      "side": 1,
+      "message": "Ah we can also remove this (but in separate patch)",
+      "revId": "ea35f76c112af234c4008134cb6734b97e2ffe22",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e23439c_ea260f11",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-04-03T12:01:16Z",
+      "side": 1,
+      "message": "Should this be named just MediaWiki core for now?",
+      "revId": "ea35f76c112af234c4008134cb6734b97e2ffe22",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e23439c_ea54cf58",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-04-03T12:01:16Z",
+      "side": 1,
+      "message": "Indent",
+      "revId": "ea35f76c112af234c4008134cb6734b97e2ffe22",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
