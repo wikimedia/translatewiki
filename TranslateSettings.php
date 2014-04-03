@@ -94,30 +94,6 @@ function customMessageGroupTwnMainpage( $id ) {
 	return $mg;
 }
 
-$wgHooks['TranslatePostInitGroups'][] = array( 'setupMediaWiki' );
-function setupMediaWiki( &$cc ) {
-	global $wgTranslateGroupRoot, $GROUPS;
-
-	$id = "core";
-	$mg = CoreMessageGroup::factory( "MediaWiki (latest)", $id );
-	$releaseDir = 'master';
-	$mg->setPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/languages/messages" );
-	$mg->setMetaDataPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/maintenance/language/" );
-	$mg->setIcon( 'wiki://Mediawiki-logo.png' );
-	$cc[$id] = $mg;
-
-	$id = "core-0-mostused";
-	$mg = new CoreMostUsedMessageGroup;
-	$releaseDir = 'master';
-	$mg->setPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/languages/messages" );
-	$mg->setMetaDataPrefix( "$wgTranslateGroupRoot/mediawiki/$releaseDir/maintenance/language/" );
-	$mg->setIcon( 'wiki://Mediawiki-logo.png' );
-	$mg->setListFile( "$GROUPS/MediaWiki/wikimedia-mostused-2011.txt" );
-	$cc[$id] = $mg;
-
-	return true;
-}
-
 # Add aggregate message groups for MediaWiki extensions.
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/MediaWiki.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaMainAgg.yaml";
