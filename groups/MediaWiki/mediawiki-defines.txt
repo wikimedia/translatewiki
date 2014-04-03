@@ -156,28 +156,34 @@ format = json
 #Blog Page
 
 Blue Spice
+format = json
 id = ext-bs
 file = BlueSpiceFoundation/i18n/core/%CODE%.json
 
 Blue Spice - Credits
+format = json
 file = BlueSpiceFoundation/i18n/credits/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
 id = ext-bs-credits
 
 Blue Spice - Diagnostics
+,format = json
 file = BlueSpiceFoundation/i18n/diagnostics/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Diagnostics.alias.php
 id = ext-bs-diagnostics
 
 Blue Spice - ExtJS
+format = json
 file = BlueSpiceFoundation/i18n/extjs/%CODE%.json
 id = ext-bs-extjs
 
 Blue Spice - ExtJS - Portal
+format = json
 file = BlueSpiceFoundation/i18n/extjs-portal/%CODE%.json
 id = ext-bs-extjs-portal
 
 Blue Spice - Validator
+format = json
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
 
