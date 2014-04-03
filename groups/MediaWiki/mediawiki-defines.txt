@@ -964,6 +964,7 @@ format = json
 
 Interlanguage
 format = json
+file = Interlanguage/i18n/interlanguage/%CODE%.json
 magicfile = Interlanguage/Interlanguage.i18n.magic.php
 
 Intersection
