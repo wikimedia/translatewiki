@@ -847,6 +847,7 @@ aliasfile = GlobalUsage/GlobalUsage.alias.php
 
 Global User Groups
 format = json
+file = GlobalUserGroups/i18n/core/%CODE%.json
 # GlobalUserGroups.i18n.groups.php not added. Has a lot of user groups which conflicts with WikimediaMessages.i18n.php
 
 Global Userrights
