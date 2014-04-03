@@ -167,6 +167,12 @@ aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
 id = ext-bs-credits
 
 # JSON TODO
+Blue Spice - Diagnostics
+file = BlueSpiceFoundation/languages/BlueSpice.Diagnostics.i18n.php
+aliasfile = BlueSpiceFoundation/languages/BlueSpice.Diagnostics.alias.php
+id = ext-bs-diagnostics
+
+# JSON TODO
 Blue Spice - ExtJS
 file = BlueSpiceFoundation/languages/BlueSpice.ExtJS.i18n.php
 id = ext-bs-extjs
