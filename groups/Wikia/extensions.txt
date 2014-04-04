@@ -1,358 +1,474 @@
 # Siebrand / 2012-07-04 / Disabled as announced.
 #Achievements II
+#format = php
 #file = AchievementsII/i18n/AchievementsII.i18n.php
 
 Ad Engine
+format = php
 
 # Siebrand / 2012-08-25 / Disabled as announced.
 #Admin Dashboard
+#format = php
 #optional = admindashboard-control-help-url
 
 Admin Dashboard - Quick Stats
+format = php
 file = AdminDashboard/QuickStats.i18n.php
 optional = quickstats-date-format
 
 Combo Ajax Login
+format = php
 file = AjaxLogin/ComboAjaxLogin.i18n.php
 descmsg = comboajaxlogin-desc
 
 Ajax Poll
+format = php
 
-#Answers
 #disabled as we transition from Answers to a new model
+#Answers
+#format = php
 #optional = q, ?, header_questionmark_post
 #ignored = header_questionmark_pre, badWords, qa-featured-sites
 
-# Disabled. Duplicate key with Answers extension.
-#Answers Namespace
-
 Article Comments
+format = php
 
 #Auto Hubs Pages
+#format = php
 
 Automatic Wiki Adoption
+format = php
 # Extension is not completely done yet. Ignoring unfinished parts.
 ignored = automaticwikiadoption-desc, automaticwikiadoption-description, automaticwikiadoption-mail-first-content
 
 Blogs
+format = php
 #aliasfile = Blogs/Blogs.alias.php
 optional = blug-cut-sign
 ignored = create-blog-empty-article, blog-listing-zero-self, blogs-recent-url, blog-avatar-defaults
 
 Batch User Rights
+format = php
 file = SpecialBatchUserRights/BatchUserRights.i18n.php
 # Clash with a Gerrit repo on Special:AdvancedTranslate
 #aliasfile = SpecialBatchUserRights/BatchUserRights.alias.php
 
 Campfire
+format = php
 
 Category Exhibition
+format = php
 file = CategoryExhibition/i18n/CategoryExhibition.i18n.php
 
 Category Galleries
+format = php
 
 Category Select
+format = php
 
 Central Help Search
+format = php
 file = SharedHelp/CentralHelpSearch.i18n.php
 
 Chat
+format = php
 file = Chat2/Chat.i18n.php
 optional = grouppage-bannedfromchat, grouppage-bannedfromchat, grouppage-chatmoderator
 ignored = emoticons
 
 Cloak Check
+format = php
 
 Community Messages
+format = php
 
 Confirm Email Prompt
+format = php
 
 Content Feeds
+format = php
 
 Create New Wiki
+format = php
 ignored = cnw-name-wiki-language, cnw-name-wiki-domain
 
 # Siebrand / 2013-01-13 / Disabled because i18n file is broken a second time by same dev in 20ff78cdbd013fd76f464d92d1e229572639d5ac.
 #Create Page
+#format = php
 #file = CreatePage/CreatePage.i18n.php
 #ignored = createpage-newpagelayout
 
 Edit Account
+format = php
 file = EditAccount/SpecialEditAccount.i18n.php
 
 # Siebrand / 2013-02-24 / Disabled as announced.
 #Edit Page Layout
+#format = php
 #ignored = anoneditwarning-notice, longpagewarning-notice
 
 File Page
+format = php
 
 # Siebrand / 2012-08-09 / Disabled as announced.
 #Follow
+#format = php
 #aliasfile = Follow/Follow.alias.php
 
 Forum
+format = php
 ignored = forum-specialpage-blurb
 
 Founder Emails
+format = php
 ignored = founderemails-email-footer-line3
 
 Founder Progress Bar
+format = php
 optional = founderprogressbar-commcentral-visit-url, founderprogressbar-user-add5-url, founderprogressbar-gallery-add-url
 
 # Siebrand / 2013-02-10 / Disabled as announced.
 #Game Guides
+#format = php
 
 Global Notification
+format = php
 
 Global Watchlist
+format = php
 
 HA Welcome
+format = php
 ignored = welcome-enabled, welcome-user, welcome-bot
 
 Health Check
+format = php
 file = SpecialHealthcheck/HealthCheck.i18n.php
 
 Image Lightbox
+format = php
 
 Image Placeholder
+format = php
 
 Image Serving
+format = php
 
 Interwiki Dispatcher
+format = php
 file = InterwikiDispatcher/SpecialInterwikiDispatcher.i18n.php
 #aliasfile = InterwikiDispatcher/SpecialInterwikiDispatcher.alias.php
 
 Licensed Video Swap
+format = php
 
 Link Suggest
+format = php
 
 Lookup Contribs
+format = php
 file = LookupContribs/SpecialLookupContribs.i18n.php
 
 Manage Wikia Home
+format = php
 file = SpecialManageWikiaHome/ManageWikiaHome.i18n.php
 
 # Siebrand / 2012-07-04 / Disabled as announced.
 #Media Tool
+#format = php
 #file = MediaTool/MediaTool.i18n.php
 
 Mini Editor
+format = php
 
 #Disabled since 2014 until open sourced, spotted in 2013
 #Mobile - Game Guides
+#format = php
 #file = MobileAppTranslations/GameGuides.i18n.php
 #ignored = windowwikicontents-title
 
 #Mobile - Lyric Wiki
+#format = php
 #file = MobileAppTranslations/lyricwiki.i18n.php
 
 #Mobile - Wikia Pad
+#format = php
 #file = MobileAppTranslations/WikiaPad.i18n.php
 
 Most Popular Categories
+format = php
 file = MostPopularCategories/SpecialMostPopularCategories.i18n.php
 
 Most Visited Pages
+format = php
 file = MostVisitedPages/SpecialMostVisitedPages.i18n.php
 
 Multi Tasks
+format = php
 
 My Home
+format = php
 ignored = accesskey-pt-myhome
 
 # Do not enable. Uses globals in messages and elsewhere in the file
 # and is moved to JS unparsed.
 #New Wiki Builder
+#format = php
 #aliasfile = NewWikiBuilder/NewWikiBuilder.alias.php
 
 # Siebrand / 2012-07-04 / Disabled as announced.
 #Oasis
+#format = php
 #optional = oasis-latest-photos-single, oasis-corporatefooter-hub-Entertainment-link, oasis-corporatefooter-hub-Gaming-link, oasis-corporatefooter-hub-Lifestyle-link
 #optional = oasis-corporatefooter-hub-Food_and_Drink-link, oasis-corporatefooter-hub-Video_Games-link
 #ignored = wiki-navigation, categoryblacklist, photosblacklist, oasis-button-random-page-tooltip
 #ignored = oasis-button-wiki-activity-tooltip, wikia-navigation-global
 
 Our 404 Handler
+format = php
 file = Our404Handler/SpecialOur404Handler.i18n.php
 
 Paginator
+format = php
 file = Paginator/i18n/Paginator.i18n.php
 
 Partner Feed
+format = php
 
 Phalanx
+format = php
 ignored = phalanx-expire-durations
 
 Piggyback
+format = php
 
 Places
+format = php
 
 Quick Create
+format = php
 
 Random Wiki
+format = php
 file = RandomWiki/SpecialRandomWiki.i18n.php
 
 Related Pages
+format = php
 descmsg = wikiarelatedpages-desc
 
 # Siebrand / 2012-08-02 / Disabled as announced.
 #Related Videos
+#format = php
 
 RTE - Base
+format = php
 file = RTE/i18n/RTE.i18n.php
 ignored = editor-template-list
 
 RTE - CK Wikia
+format = php
 file = RTE/i18n/CK.wikia.i18n.php
 
 Scavenger Hunt
+format = php
 ignored = scavengerhunt-form-error-name, scavengerhunt-editor-tip-article-congrats, scavengerhunt-editor-tip-progressBarHintLabel, scavengerhunt-editor-tip-article-clue-text
 
 Scribe
+format = php
 file = Scribe/SpecialScribeEvents.i18n.php
 
 # Disabled for unknown reason.
 #Search
+#format = php
 #file = Search/WikiaSearch.i18n.php
 
 Shared Help
+format = php
 
 Show Performance Stats
+format = php
 
 Signup
+format = php
 file = SpecialSignup/Signup.i18n.php
 
 Sitemap
+format = php
 #aliasfile = Sitemap/Sitemap.alias.php
 
 Site Wide Messages
+format = php
 file = SiteWideMessages/SpecialSiteWideMessages.i18n.php
 ignored = swm-expire-options, swm-days
 
 Skin Chooser
+format = php
 
 Special Cache Epoch
+format = php
 descmsg = cacheepoch-desc
 
 Special Contact
+format = php
 
 Special Interwiki Edit
+format = php
 
 Special Multiple Lookup
+format = php
 
 # Siebrand / 2012-07-04 / Disabled as announced.
 #Special Protect Site
+#format = php
 
 Special User Data
+format = php
 
 Spell Checker
+format = php
 
 # Siebrand / 2012-08-02 / Disabled as announced.
 #Sponsorship Dashboard
+#format = php
 #optional = sponsorship-dashboard-empty-description
 
 Staff Log
+format = php
 
 Staff Powers
+format = php
 
 Tags Report
+format = php
 file = TagsReport/SpecialTagsReport.i18n.php
 
 Task Manager
+format = php
 file = TaskManager/SpecialTaskManager.i18n.php
 
 Theme Designer
+format = php
 
 Time Ago Messaging
+format = php
 descmsg = timeago-desc
 
 Top Lists
+format = php
 ignored = toplists-msg-fb-OnRateArticle-link, toplists-msg-fb-OnRateArticle
 
 Unsubscribe
+format = php
 file = SpecialUnsubscribe/Unsubscribe.i18n.php
 
 User Login
+format = php
 ignored=userlogin-password-email-body-HTML, userlogin-email-footer-line3
 
 User Preferences V2
+format = php
 
 # Siebrand / 2013-02-10 / Disabled as announced.
 #User Profile Page V3
+#format = php
 #file = UserProfilePageV3/UserProfilePage.i18n.php
 
 User Rename Tool
+format = php
 file = UserRenameTool/SpecialRenameuser.i18n.php
 
 User Signup
+format = php
 file = UserLogin/UserSignup.i18n.php
 ignored = usersignup-account-creation-email-body-HTML, usersignup-confirmation-email_body-HTML, usersignup-confirmation-reminder-email_body-HTML, usersignup-reconfirmation-email_body-HTML
 
 # Siebrand / 2012-07-04 / Disabled as announced.
 # Video Embed Tool
+#format = php
 
 # Siebrand / 2012-08-09 / Disabled as announced.
 #Video Handlers
+#format = php
 #file = VideoHandlers/VideoHandlers.i18n.php
 
 Visual Editor (Wikia)
+format = php
 file = ../VisualEditor/wikia/VisualEditor.i18n.php
 id = wikia-visualeditor
 
 Wall
+format = php
 optional = wall-history-username-full, wall-history-username-short, mail-notification-subject, mail-notification-html-footer-line3
 
 Watch Sub Pages
+format = php
 descmsg = wikia-watchsubpages-desc
 
 # Siebrand / 2012-08-02 / Disabled as announced.
 #Where Is Extension
+#format = php
 #file = WhereIsExtension/SpecialWhereIsExtension.i18n.php
 
 Wikia Confirm Email
+format = php
 file = UserLogin/WikiaConfirmEmail.i18n.php
 
 Wikia Irc Gateway
+format = php
 ignored = ircgate-channellist
 
 Wikia Mini Upload
+format = php
 
 Wikia Mobile
+format = php
 
 Wikia New Files
+format = php
 file = WikiaNewFiles/SpecialNewFiles.i18n.php
 
 Wikia Poll
+format = php
 optional = wikiapoll-question-mark-before, wikiapoll-question-mark-after
 
 Wikia Photo Gallery
+format = php
 
 Wikia Quiz
+format = php
 
 Wikia Style Guide
+format = php
 file = WikiaStyleGuide/WikiaStyleGuideElements.i18n.php
 optional = wikiastyleguide-tooltip-icon-question-mark
 
 Wikia Video Add
+format = php
 file = VideoEmbedTool/WikiaVideoAdd.i18n.php
 
 Wikia Widget
+format = php
 
 Wiki Factory Dumps
+format = php
 file = WikiFactory/Dumps/DumpsOnDemand.i18n.php
 
 Wiki Factory Reporter
+format = php
 file = WikiFactory/Reporter/SpecialWikiFactoryReporter.i18n.php
 
 Wiki Factory
+format = php
 file = WikiFactory/SpecialWikiFactory.i18n.php
 optional = wikifactory-label-eznamespace
 ignored = awc-metrics-language-top-list
 
 # Siebrand / 2012-07-04 / Disabled as announced.
 # Wiki Features
+#format = php
 
 Wiki Stats
+format = php
 file = WikiStats/SpecialWikiStats.i18n.php
 descmsg = wikistats
 optional = wikistats_help_stats, wikistats_prev_rank_xls, wikistats_prev_rank, wikistats_distrib_article_counting
