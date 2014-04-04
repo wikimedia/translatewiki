@@ -16,6 +16,24 @@
       "revId": "47a8433e2673206c4652e19dce5dfaae5f699054",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e23439c_f184bfa5",
+        "filename": "groups/Wikia/extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-04-04T10:30:44Z",
+      "side": 0,
+      "message": "Will remove it, thanks for letting me know.",
+      "parentUuid": "8e23439c_317b57bf",
+      "revId": "47a8433e2673206c4652e19dce5dfaae5f699054",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
