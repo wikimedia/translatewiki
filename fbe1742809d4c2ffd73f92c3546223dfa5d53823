@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e23439c_383693e5",
+        "filename": "puppet/modules/kitano-nl/files/kitano.nl",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-04-05T11:18:56Z",
+      "side": 1,
+      "message": "You can likely drop the location block altogether, and have index inside the server block.",
+      "revId": "fbe1742809d4c2ffd73f92c3546223dfa5d53823",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
