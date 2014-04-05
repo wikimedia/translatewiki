@@ -3,3 +3,4 @@ nike            ALL = NOPASSWD: ALL
 siebrand        ALL = NOPASSWD: ALL
 mah             ALL = NOPASSWD: ALL
 %betawiki       ALL = (betawiki) NOPASSWD: ALL
+%betawiki       ALL = NOPASSWD: /sbin/restart hhvm-fastcgi
