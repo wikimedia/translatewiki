@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e23439c_1ede1f71",
+        "filename": "puppet/modules/kitano-nl/files/kitano.nl",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-04-05T21:57:51Z",
+      "side": 1,
+      "message": "The names (example.com and *.example.com) can be combined into one:\n\nserver {\n  server_name  .example.com;\n}",
+      "revId": "f97542efc9fe83a10b707805cd36b63760677726",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
