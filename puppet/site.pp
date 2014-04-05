@@ -21,6 +21,7 @@ node default {
   include users
   include composer
   include hhvm
+  include kitano-nl
 
   class { 'backup':
     databases => ['translatewiki_net'],
