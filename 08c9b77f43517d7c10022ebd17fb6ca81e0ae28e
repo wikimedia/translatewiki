@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e23439c_78a9abdb",
+        "filename": "puppet/modules/kitano-nl/files/kitano.nl",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-04-05T11:41:08Z",
+      "side": 1,
+      "message": "Hmm now that I think about it, this should be .kitano.nl without star.\n\nhttp://wiki.nginx.org/HttpCoreModule#server",
+      "revId": "08c9b77f43517d7c10022ebd17fb6ca81e0ae28e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
