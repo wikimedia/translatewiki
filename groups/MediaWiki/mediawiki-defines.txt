@@ -1694,6 +1694,9 @@ Variables
 
 Vector Beta
 
+View Files
+aliasfile = ViewFiles/ViewFiles.alias.php
+
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
