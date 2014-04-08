@@ -10,6 +10,11 @@ respawn
 respawn limit 10 5
 umask 022
 
+pre-start script
+	mkdir -p /run/hhvm
+	chown www-data:www-data /run/hhvm
+end script
+
 # Location of config and executable
 
 env SERVER=/usr/bin/hhvm
