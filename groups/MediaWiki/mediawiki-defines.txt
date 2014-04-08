@@ -56,6 +56,7 @@ Api SVG Proxy
 
 Approved Revs
 aliasfile = ApprovedRevs/ApprovedRevs.alias.php
+optional = approvedrevs-revision-nav
 
 Arrays
 
