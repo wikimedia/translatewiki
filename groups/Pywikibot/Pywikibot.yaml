@@ -3,7 +3,7 @@ TEMPLATE:
     icon: wiki://Pwb_icon.svg
     description: "{{int:translate-group-desc-pywikipedia}}"
     namespace: NS_PYWIKIBOT
-    class: SingleFileBasedMessageGroup
+    class: FileBasedMessageGroup
 
   FILES:
     class: PythonSingleFFS
