@@ -50,6 +50,7 @@ $wgTranslateLanguageFallbacks['kv'] = 'ru';
 $wgTranslateLanguageFallbacks['kw'] = array( 'br', 'cy' );
 $wgTranslateLanguageFallbacks['lb'] = array( 'fr' );
 $wgTranslateLanguageFallbacks['lez'] = array( 'ru', 'az' ); # Robin 2011-09-27
+$wgTranslateLanguageFallbacks['lki'] = array( 'fa', 'lrc' );
 $wgTranslateLanguageFallbacks['lld'] = array( 'it', 'rm', 'fur' ); # Robin 2011-12-04
 $wgTranslateLanguageFallbacks['lmo'] = array( 'pms', 'eml', 'lij', 'vec' );
 $wgTranslateLanguageFallbacks['lrc'] = array( 'bqi', 'luz' );
