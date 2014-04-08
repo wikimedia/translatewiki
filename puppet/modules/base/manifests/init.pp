@@ -2,6 +2,7 @@ class base {
   package { [
     # Basic packages
     'ack-grep',
+    'apticron', # Daily message about available updates to root
     'bash-completion',
     'doxygen',
     'fontconfig',
