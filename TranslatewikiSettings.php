@@ -311,6 +311,7 @@ $wgExtraLanguageNames['zgh'] = 'ⵜⴰⵎⴰⵣⵉⵖⵜ'; # Standard Moroccan T
 $wgExtraLanguageNames['luz'] = 'لری جنووی '; # Southern Luri / Siebrand 2014-03-12
 $wgExtraLanguageNames['ciw'] = 'Ojibwemowin'; # Chippewa / Siebrand 2014-03-21
 $wgExtraLanguageNames['lki'] = 'لەکی‎'; # Laki / Siebrand 2014-04-08
+$wgExtraLanguageNames['kac'] = 'Jinghpaw'; # Chippewa / Jingpho 2014-04-08
 
 $wgExtraLanguageNames['nl-be']     = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['qqq']       = 'Message documentation'; # No linguistic content. Used for documenting messages
