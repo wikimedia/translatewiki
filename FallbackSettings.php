@@ -83,6 +83,7 @@ $wgTranslateLanguageFallbacks['pt-br'] = array( 'es', 'gl' );
 $wgTranslateLanguageFallbacks['prg'] = array( 'lv', 'lt' );
 $wgTranslateLanguageFallbacks['qu'] = array( 'es', 'qug' );
 $wgTranslateLanguageFallbacks['qug'] = array( 'es', 'qu' );
+$wgTranslateLanguageFallbacks['rcf'] = array( 'fr' );
 $wgTranslateLanguageFallbacks['rgn'] = array( 'it', 'egl' );
 $wgTranslateLanguageFallbacks['rif'] = array( 'ar', 'fr' ); # Robin 2011-09-30
 $wgTranslateLanguageFallbacks['rki'] = array( 'my' );
