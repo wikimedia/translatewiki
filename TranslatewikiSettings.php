@@ -1,7 +1,7 @@
 <?php
 
-$wgEnableEmail      = true;
-$wgEnableUserEmail  = true;
+$wgEnableEmail = true;
+$wgEnableUserEmail = true;
 
 $wgEnotifUserTalk = true; # UPO
 $wgEnotifWatchlist = true; # UPO
@@ -17,7 +17,7 @@ $wgWellFormedXml = false; # Nike 2009-09-18
 $wgExperimentalHtmlIds = true; # Nike 2010-01-30
 $wgAllUnicodeFixes = true;
 $wgAdaptiveMessageCache = true; # Nike 2010-08-08
-$wgDevelopmentWarnings  = true;
+$wgDevelopmentWarnings = true;
 $wgAdvancedSearchHighlighting = true;
 
 if ( !defined( 'HHVM_VERSION' ) ) {
@@ -36,34 +36,34 @@ $wgMaxShellMemory = 1024 * 200;
 ###
 # Names
 ###
-$wgSitename         = 'translatewiki.net';
-$wgServerName       = 'translatewiki.net';
-$wgLogo             = "//translatewiki.net/static/logo.png";
+$wgSitename = 'translatewiki.net';
+$wgServerName = 'translatewiki.net';
+$wgLogo = "//translatewiki.net/static/logo.png";
 
-$wgGrammarForms['fi']['genitive']['translatewiki.net']  = 'translatewiki.netin';
-$wgGrammarForms['fi']['inessive']['translatewiki.net']  = 'translatewiki.netissä';
-$wgGrammarForms['fi']['illative']['translatewiki.net']  = 'translatewiki.netiin';
-$wgGrammarForms['fi']['elative']['translatewiki.net']  = 'translatewiki.netistä';
-$wgGrammarForms['fi']['partitive']['translatewiki.net']  = 'translatewiki.netiä';
+$wgGrammarForms['fi']['genitive']['translatewiki.net'] = 'translatewiki.netin';
+$wgGrammarForms['fi']['inessive']['translatewiki.net'] = 'translatewiki.netissä';
+$wgGrammarForms['fi']['illative']['translatewiki.net'] = 'translatewiki.netiin';
+$wgGrammarForms['fi']['elative']['translatewiki.net'] = 'translatewiki.netistä';
+$wgGrammarForms['fi']['partitive']['translatewiki.net'] = 'translatewiki.netiä';
 
 ###
 # Changes list
 ###
 $wgRCMaxAge = 5 * 365 * 24 * 3600; // 5 years
-$wgShowUpdatedMarker    = true;
-$wgUseRCPatrol          = false;
-$wgUseNPPatrol          = false;
+$wgShowUpdatedMarker = true;
+$wgUseRCPatrol = false;
+$wgUseNPPatrol = false;
 $wgRCLinkLimits = array( 100, 500 );
-$wgRCLinkDays   = array( 1, 7, 30 );
+$wgRCLinkDays = array( 1, 7, 30 );
 
-$wgCategoryPagingLimit  = 500;
+$wgCategoryPagingLimit = 500;
 $wgMaximumMovedPages = 300;
 $wgCategoryCollation = 'uca-default';
 
 ###
 # Ajax spicy etc
 ###
-$wgShowIPinHeader           = false;
+$wgShowIPinHeader = false;
 $wgUseAutomaticEditSummaries = false;
 $wgUseInstantCommons = true;
 $wgVectorUseIconWatch = true;
@@ -71,27 +71,27 @@ $wgVectorUseIconWatch = true;
 ###
 # Jobs
 ###
-$wgJobRunRate         = 0;
+$wgJobRunRate = 0;
 
 ###
 # User (account) settings
 ###
-$wgAllowUserJs           = true;
-$wgAllowUserCss          = true;
+$wgAllowUserJs = true;
+$wgAllowUserCss = true;
 $wgMinimalPasswordLength = 6;
-$wgBlockAllowsUTEdit     = true;
-$wgAutoConfirmAge        = 3600 * 24 * 14;
+$wgBlockAllowsUTEdit = true;
+$wgAutoConfirmAge = 3600 * 24 * 14;
 $wgAccountCreationThrottle = 1;
 $wgAutoblockExpiry = 3600 * 24 * 14; // 2 weeks of rest from vandals reusing IPs
 
 ###
 # Upload
 ###
-$wgEnableUploads    = true;
-$wgUseImageResize   = true;
-$wgUseImageMagick   = false;
-$wgUseTeX           = true;
-$wgFileExtensions   = array( 'png', 'gif', 'jpg', 'jpeg', 'ogg', 'pdf', 'svg' );
+$wgEnableUploads = true;
+$wgUseImageResize = true;
+$wgUseImageMagick = false;
+$wgUseTeX = true;
+$wgFileExtensions = array( 'png', 'gif', 'jpg', 'jpeg', 'ogg', 'pdf', 'svg' );
 $wgStrictFileExtensions = true;
 
 ###
@@ -117,28 +117,28 @@ define( "NS_TRANSLATING", 1102 );
 define( "NS_TRANSLATING_TALK", 1103 );
 
 $wgNamespacesWithSubpages = array(
-	NS_MAIN             => true,
-	NS_TALK             => true,
-	NS_USER             => true,
-	NS_USER_TALK        => true,
-	NS_PROJECT          => true,
-	NS_PROJECT_TALK     => true,
-	NS_IMAGE_TALK       => true,
-	NS_MEDIAWIKI        => true,
-	NS_MEDIAWIKI_TALK   => true,
-	NS_TEMPLATE         => true,
-	NS_TEMPLATE_TALK    => true,
-	NS_HELP_TALK        => true,
-	NS_CATEGORY         => true,
-	NS_CATEGORY_TALK    => true,
-	NS_TRANSLATING      => true,
+	NS_MAIN => true,
+	NS_TALK => true,
+	NS_USER => true,
+	NS_USER_TALK => true,
+	NS_PROJECT => true,
+	NS_PROJECT_TALK => true,
+	NS_IMAGE_TALK => true,
+	NS_MEDIAWIKI => true,
+	NS_MEDIAWIKI_TALK => true,
+	NS_TEMPLATE => true,
+	NS_TEMPLATE_TALK => true,
+	NS_HELP_TALK => true,
+	NS_CATEGORY => true,
+	NS_CATEGORY_TALK => true,
+	NS_TRANSLATING => true,
 	NS_TRANSLATING_TALK => true,
-	NS_PORTAL           => true,
+	NS_PORTAL => true,
 );
 
-$wgExtraNamespaces[NS_PORTAL]           = 'Portal';
-$wgExtraNamespaces[NS_PORTAL_TALK]      = 'Portal_talk';
-$wgExtraNamespaces[NS_TRANSLATING]      = 'Translating';
+$wgExtraNamespaces[NS_PORTAL] = 'Portal';
+$wgExtraNamespaces[NS_PORTAL_TALK] = 'Portal_talk';
+$wgExtraNamespaces[NS_TRANSLATING] = 'Translating';
 $wgExtraNamespaces[NS_TRANSLATING_TALK] = 'Translating_talk';
 
 $wgContentNamespaces[] = NS_MEDIAWIKI;
@@ -162,11 +162,11 @@ $wgNewUserSuppressRC = true;
 $wgNewUserMinorEdit = false;
 
 $wgCaptchaRegexes[] = '/viagra|cialis/sDu';
-$wgCaptchaTriggers['edit']          = true;  // Would check on every edit
-$wgCaptchaTriggers['create']        = true;  // Check on page creation.
-$wgCaptchaTriggers['addurl']        = true;  // Check on edits that add URLs
-$wgCaptchaTriggers['createaccount'] = true;  // Special:Userlogin&type=signup
-$wgCaptchaTriggers['badlogin']      = true;  // Special:Userlogin after failure
+$wgCaptchaTriggers['edit'] = true; // Would check on every edit
+$wgCaptchaTriggers['create'] = true; // Check on page creation.
+$wgCaptchaTriggers['addurl'] = true; // Check on edits that add URLs
+$wgCaptchaTriggers['createaccount'] = true; // Special:Userlogin&type=signup
+$wgCaptchaTriggers['badlogin'] = true; // Special:Userlogin after failure
 
 include( "$IP/extensions/CharInsert/CharInsert.php" );
 
@@ -213,10 +213,10 @@ $sfgRedLinksCheckOnlyLocalProps = true;
 # Niklas 2011-11-12
 require( "$IP/extensions/TitleBlacklist/TitleBlacklist.php" );
 $wgTitleBlacklistSources = array(
-  array(
-    'type' => TBLSRC_LOCALPAGE,
-    'src'  => 'MediaWiki:Titleblacklist'
-  )
+ array(
+ 'type' => TBLSRC_LOCALPAGE,
+ 'src' => 'MediaWiki:Titleblacklist'
+ )
 );
 require( "$IP/extensions/SpamBlacklist/SpamBlacklist.php" );
 $wgSpamBlacklistFiles = array(
@@ -228,30 +228,30 @@ include( "$IP/extensions/AdminLinks/AdminLinks.php" ); # Added by Siebrand 2012-
 
 
 #$wgExtraLanguageNames = array();
-$wgExtraLanguageNames['sxu']       = 'Säggssch'; # Upper Saxon
-$wgExtraLanguageNames['rtm']       = 'Faeag Rotuma'; # Rotuman
-$wgExtraLanguageNames['wls']       = 'Faka\'uvea'; # Fakauvea
-$wgExtraLanguageNames['twd']       = 'Tweants'; # Twents
-$wgExtraLanguageNames['trp']       = 'Kokborok (Tripuri)'; # Kokborok
-$wgExtraLanguageNames['pko']       = 'Pökoot'; # Pökoot
-$wgExtraLanguageNames['pru']       = 'Prūsiskan'; # Prussian
-$wgExtraLanguageNames['test']      = 'Test (site admin only)'; # Test
-$wgExtraLanguageNames['swb']       = 'Shikomoro'; # Comorian
-$wgExtraLanguageNames['njo']       = 'Ao'; # Ao Naga
-$wgExtraLanguageNames['mni']       = 'মেইতেই লোন্'; # Meitei / Siebrand 2008-02-11
-$wgExtraLanguageNames['ttt']       = 'Tati'; # Tat / Siebrand 2008-04-04
-$wgExtraLanguageNames['yrl']       = 'ñe\'engatú'; # Nheengatu / Siebrand 2008-04-06
-$wgExtraLanguageNames['krl']       = 'Karjala'; # Karelian / Siebrand 2008-04-12
-$wgExtraLanguageNames['mwv']       = 'Behase Mentawei'; # Mentawai / Siebrand 2008-05-07
-$wgExtraLanguageNames['niu']       = 'ko e vagahau Niuē'; # Niue / Nike 2008-06-29
-$wgExtraLanguageNames['bew']       = 'Bahasa Betawi'; # Betawi / Siebrand 2008-07-13
-$wgExtraLanguageNames['rw']        = 'Kinyarwanda'; # Kinyarwanda / Siebrand 2008-07-23
-$wgExtraLanguageNames['slr']       = 'Salırça'; # Salar / Siebrand 2008-08-18
-$wgExtraLanguageNames['ryu']       = 'ʔucināguci'; # Central Okinawan / Siebrand 2008-08-28
-$wgExtraLanguageNames['gom']       = 'कोंकणी/Konknni '; # Konkani (falls back to gom-deva) / Siebrand 2008-09-02
-$wgExtraLanguageNames['gom-deva']  = 'कोंकणी'; # Konkani (Devanagari script) / Siebrand 2008-09-02
-$wgExtraLanguageNames['akz']       = 'Albaamo innaaɬiilka'; # Alabama / Siebrand 2008-09-15
-$wgExtraLanguageNames['kgp']       = 'Kaingáng'; # Siebrand 2008-12-05
+$wgExtraLanguageNames['sxu'] = 'Säggssch'; # Upper Saxon
+$wgExtraLanguageNames['rtm'] = 'Faeag Rotuma'; # Rotuman
+$wgExtraLanguageNames['wls'] = 'Faka\'uvea'; # Fakauvea
+$wgExtraLanguageNames['twd'] = 'Tweants'; # Twents
+$wgExtraLanguageNames['trp'] = 'Kokborok (Tripuri)'; # Kokborok
+$wgExtraLanguageNames['pko'] = 'Pökoot'; # Pökoot
+$wgExtraLanguageNames['pru'] = 'Prūsiskan'; # Prussian
+$wgExtraLanguageNames['test'] = 'Test (site admin only)'; # Test
+$wgExtraLanguageNames['swb'] = 'Shikomoro'; # Comorian
+$wgExtraLanguageNames['njo'] = 'Ao'; # Ao Naga
+$wgExtraLanguageNames['mni'] = 'মেইতেই লোন্'; # Meitei / Siebrand 2008-02-11
+$wgExtraLanguageNames['ttt'] = 'Tati'; # Tat / Siebrand 2008-04-04
+$wgExtraLanguageNames['yrl'] = 'ñe\'engatú'; # Nheengatu / Siebrand 2008-04-06
+$wgExtraLanguageNames['krl'] = 'Karjala'; # Karelian / Siebrand 2008-04-12
+$wgExtraLanguageNames['mwv'] = 'Behase Mentawei'; # Mentawai / Siebrand 2008-05-07
+$wgExtraLanguageNames['niu'] = 'ko e vagahau Niuē'; # Niue / Nike 2008-06-29
+$wgExtraLanguageNames['bew'] = 'Bahasa Betawi'; # Betawi / Siebrand 2008-07-13
+$wgExtraLanguageNames['rw'] = 'Kinyarwanda'; # Kinyarwanda / Siebrand 2008-07-23
+$wgExtraLanguageNames['slr'] = 'Salırça'; # Salar / Siebrand 2008-08-18
+$wgExtraLanguageNames['ryu'] = 'ʔucināguci'; # Central Okinawan / Siebrand 2008-08-28
+$wgExtraLanguageNames['gom'] = 'कोंकणी/Konknni '; # Konkani (falls back to gom-deva) / Siebrand 2008-09-02
+$wgExtraLanguageNames['gom-deva'] = 'कोंकणी'; # Konkani (Devanagari script) / Siebrand 2008-09-02
+$wgExtraLanguageNames['akz'] = 'Albaamo innaaɬiilka'; # Alabama / Siebrand 2008-09-15
+$wgExtraLanguageNames['kgp'] = 'Kaingáng'; # Siebrand 2008-12-05
 $wgExtraLanguageNames['hu-formal'] = 'Magyar (magázó)'; # Siebrand 2009-01-01
 $wgExtraLanguageNames['kea'] = 'Kabuverdianu'; # Kabuverdianu / Siebrand 2009-01-07
 $wgExtraLanguageNames['ady'] = 'Адыгэбзэ / Adygabze'; # Adyghe / Siebrand 2009-07-02
@@ -284,7 +284,7 @@ $wgExtraLanguageNames['saz'] = 'ꢱꣃꢬꢵꢯ꣄ꢡ꣄ꢬꢵ'; # Saurashtra / 
 $wgExtraLanguageNames['hsn'] = '湘语'; # Xiang Chinese / Siebrand 2011-04-06
 $wgExtraLanguageNames['yua'] = 'Maaya T\'aan'; # Yucatán Maya / Siebrand 2011-04-09
 $wgExtraLanguageNames['tkr'] = 'ЦӀаьхна миз'; # Tsakhur / Siebrand 2011-04-26
-$wgExtraLanguageNames['aeb'] = '   زَوُن'; # Tunisian Arabic / Siebrand 2011-08-15
+$wgExtraLanguageNames['aeb'] = ' زَوُن'; # Tunisian Arabic / Siebrand 2011-08-15
 $wgExtraLanguageNames['pis'] = 'Pijin'; # Pijin / Siebrand 2011-08-25
 $wgExtraLanguageNames['ppl'] = 'Nawat'; # Pipil / Siebrand 2011-08-30
 $wgExtraLanguageNames['shn'] = 'လိၵ်ႈတႆး'; # Shan / Siebrand 2011-09-06
@@ -313,10 +313,11 @@ $wgExtraLanguageNames['ciw'] = 'Ojibwemowin'; # Chippewa / Siebrand 2014-03-21
 $wgExtraLanguageNames['lki'] = 'لەکی‎'; # Laki / Siebrand 2014-04-08
 $wgExtraLanguageNames['kac'] = 'Jinghpaw'; # Jingpho / Siebrand 2014-04-08
 $wgExtraLanguageNames['rcf'] = 'Kreol Réyoné'; # Réunion Creole French / 2014-04-08
+$wgExtraLanguageNames['lkt'] = 'Lakȟótiyapi'; # Lakota / 2014-04-08
 
-$wgExtraLanguageNames['nl-be']     = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
-$wgExtraLanguageNames['qqq']       = 'Message documentation'; # No linguistic content. Used for documenting messages
-$wgExtraLanguageNames['ike']       = 'ᐃᓄᒃᑎᑐᑦ/inuktitut'; # Dunny to have portal appear in Special:SupportedLanguages
+$wgExtraLanguageNames['nl-be'] = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
+$wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages
+$wgExtraLanguageNames['ike'] = 'ᐃᓄᒃᑎᑐᑦ/inuktitut'; # Dunny to have portal appear in Special:SupportedLanguages
 
 include( "$IP/extensions/WikiEditor/WikiEditor.php" ); # Re-enabled by Siebrand / 2011-08-30
 $wgWikiEditorModules = array(
@@ -434,7 +435,7 @@ $wgSkipSkins[] = 'nostalgia';
 $wgSkipSkins[] = 'cologneblue';
 
 $wgAllowPageInfo = true;
-$wgAllowCopyUploads         = true;
+$wgAllowCopyUploads = true;
 
 $wgDefaultUserOptions['usenewrc'] = 1;
 # Disabled 2012-08-20 / Nike / Too spammy/buggy.
@@ -492,7 +493,7 @@ function nbwWarn( &$siteNotice ) {
 	$siteNotice = "
 <big align=\"center\" dir='ltr'><strong>This is not a production site!
 Go to <a href='https://translatewiki.net'>translatewiki.net</a>!</strong></big>";
-        return true;
+	return true;
 }
 
 $wgHooks['GetLocalURL'][] = 'cleanUrlExceptions';
@@ -529,7 +530,7 @@ function sortNamespaces( &$list ) {
 	global $wgTranslateMessageNamespaces;
 	$msgs = array_flip( $wgTranslateMessageNamespaces );
 	natcasesort( $list );
-	$basic =  $extra = array();
+	$basic = $extra = array();
 	foreach ( $list as $key => $text ) {
 		if ( !isset( $msgs[$key - $key%2] ) ) {
 			$basic[$key] = $text;
