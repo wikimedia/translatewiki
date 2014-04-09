@@ -640,7 +640,8 @@ Geo Data
 # GeoGebra is a product name, therefore no space between the words
 GeoGebra
 
-Getting Started
+# Disabled
+#Getting Started
 
 Git 2 Pages
 
