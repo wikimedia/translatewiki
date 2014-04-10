@@ -1712,6 +1712,7 @@ id = ext-visualeditor-ve
 descmsg = visualeditor-desc
 file = VisualEditorVisualEditor/modules/ve/i18n/%CODE%.json
 optional = visualeditor-specialcharinspector-characterlist-insert
+optional = visualeditor-dimensionswidget-px, visualeditor-dimensionswidget-times
 
 VisualEditor (MediaWiki extension)
 id = ext-visualeditor-ve-mw
