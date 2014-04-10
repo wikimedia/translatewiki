@@ -776,6 +776,8 @@ aliasfile = InviteSignup/InviteSignup.alias.php
 JS Bread Crumbs
 optional = jsbreadcrumbs-separator
 
+Json Config
+
 Labeled Section Transclusion
 descmsg = lst-desc
 
