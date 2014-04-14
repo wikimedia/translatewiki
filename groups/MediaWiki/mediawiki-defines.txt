@@ -607,7 +607,7 @@ descmsg = flaggedrevs-desc
 
 Flow
 ignored = flow-hide-usertext, flow-delete-usertext, flow-system-usertext
-ignored = flow-error-invalid-action
+ignored = flow-error-invalid-action, flow-link-board
 optional = flow-post-interaction-separator
 
 Flv Handler
