@@ -60,6 +60,8 @@ $wgGroupPermissions['bureaucrat'   ]['renameuser']              = false;
 $wgGroupPermissions['bureaucrat'   ]['suppressionlog']          = true;
 $wgGroupPermissions['bureaucrat'   ]['translate-sandboxmanage'] = true;
 $wgGroupPermissions['bureaucrat'   ]['userrights']              = false;
+$wgGroupPermissions['bureaucrat'   ]['invitesignup']            = true;
+
 
 $wgGroupPermissions['staff'        ]['apc']                     = true;
 $wgGroupPermissions['staff'        ]['nuke']                    = true;

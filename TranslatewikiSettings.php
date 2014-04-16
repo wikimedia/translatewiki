@@ -405,6 +405,9 @@ $wgMainPageImages[] = array(
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:El_Gouna_Turtle_House_R01.jpg">CC BY Marc Ryckaert</a>',
 );
 
+require "$IP/extensions/InviteSignup/InviteSignup.php";
+$wgISGroups = array( 'translator' );
+
 $wgUseExternalEditor = false;
 $wgHiddenPrefs[] = 'stubthreshold';
 $wgHiddenPrefs[] = 'userid';
