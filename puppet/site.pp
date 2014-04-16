@@ -34,7 +34,7 @@ node default {
 
   class { 'elasticsearch':
     manage_repo  => true,
-    repo_version => '1.0',
+    repo_version => '1.1',
     config       => {},
   }
 
