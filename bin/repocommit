@@ -146,7 +146,7 @@ then
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
 	cd $PROJECT/extensions
-	for i in `ls |grep -v Installer`
+	for i in `ls`
 	do
 		echo "--> $i"
 		cd $i

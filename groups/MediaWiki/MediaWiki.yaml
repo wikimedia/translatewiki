@@ -500,3 +500,22 @@ TAGS:
     - wantedtemplates-summary
     - watchlist-summary
     - whatlinkshere-summary
+
+---
+BASIC:
+  id: ext-installer
+  label: Installer
+  icon: wiki://Mediawiki-logo.png
+  class: FileBasedMessageGroup
+  namespace: NS_MEDIAWIKI
+  description: "{{int:config-desc}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/mediawiki/master/includes/installer/%CODE%.json
+
+TAGS:
+  optional:
+    - config-type-postgres
+    - config-type-sqlite
+    - config-type-oracle
