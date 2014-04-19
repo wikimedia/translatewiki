@@ -512,7 +512,7 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mediawiki/master/includes/installer/%CODE%.json
+  sourcePattern: %GROUPROOT%/mediawiki/master/includes/installer/i18n/%CODE%.json
 
 TAGS:
   optional:
