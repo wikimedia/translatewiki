@@ -223,6 +223,7 @@ $wgTranslateBlacklist = array(
 
 # Namespace 8
 $wgTranslateMessageNamespaces[] = NS_MEDIAWIKI;
+$wgMessagesDirs['MediawikiInstaller'] = "$IP/includes/installer/i18n";
 
 # No longer in use.
 wfAddNamespace( 1200, 'Voctrain' );
