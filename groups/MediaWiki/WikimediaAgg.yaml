@@ -49,6 +49,7 @@ GROUPS:
   - ext-geocrumbs # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-geodata # Change-Id: I0c9522ab28502a7f8665caa23958222c28007159
   - ext-gettingstarted # Change-Id: d1aac2d3dc774299c3e61ef8e163b50dfd89d313 for enwiki
+  - ext-globalcssjs # 2014-04-18 on testwiki and test2wiki
   - ext-googlenewssitemap # r87149 for wikinews
   - ext-guidedtour # 2013-01-31 for 15 projects
   - ext-gwtoolset # 2013-12-17 for Wikimedia Commons
@@ -73,6 +74,7 @@ GROUPS:
   - ext-opensearchxml
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-pageimages # 2012 on all wikis
+  - ext-parsoid # All wikis
   - ext-poem
   - ext-popups # 2014-03-19
   - ext-proofreadpage # Wikisource
