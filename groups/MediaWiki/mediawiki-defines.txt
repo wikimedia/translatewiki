@@ -128,6 +128,10 @@ Blue Spice
 id = ext-bs
 file = BlueSpiceFoundation/i18n/core/%CODE%.json
 
+Blue Spice - Authors
+id = ext-bs-authors
+file = BlueSpiceExtensions/Authors/i18n/%CODE%.json
+
 Blue Spice - Credits
 file = BlueSpiceFoundation/i18n/credits/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
