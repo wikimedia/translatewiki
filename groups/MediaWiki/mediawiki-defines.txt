@@ -86,6 +86,8 @@ ignored=articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-n
 # Ask / Moved to GitHub
 # Assert Edit / Moved into core (deployed 1.23wmf10)
 
+Auth_remoteuser
+
 Author Protect
 
 Auto Create Category Pages
