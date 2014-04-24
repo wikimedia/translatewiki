@@ -11,6 +11,14 @@ optional = colon-separator, dateformat, parentheses, comma-separator, word-separ
 GetWikiAPI
 ignored = title
 
+Grep
+
+Intuition - Core
+id = tsint-core
+prefix = tsintuition- |
+file = Tsintuition.i18n.php
+ignored = title
+
 Jarry
 ignored = title
 
@@ -30,6 +38,11 @@ optional = labs-name
 
 Recent Anonymous Activity
 
+Raun
+ignored = ns, ns0, ns1, ns10, ns100, ns101
+ignored = ns11, ns12, ns13, ns14, ns15, ns2
+ignored = ns3, ns4, ns5, ns6, ns7, ns8, ns9
+
 Rtrc
 ignored = rtrc-months
 
@@ -40,10 +53,9 @@ ignored = format-filename-example, format-fullurl-example
 Templatecount
 optional = title
 
-Intuition - Core
-id = tsint-core
-prefix = tsintuition- | 
-file = Tsintuition.i18n.php
-ignored = title
-
 Toolserverstatus
+
+Voiceintro
+ignored = voiceintro-title
+
+Wikiviewstats
