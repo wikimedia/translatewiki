@@ -128,6 +128,11 @@ Blue Spice
 id = ext-bs
 file = BlueSpiceFoundation/i18n/core/%CODE%.json
 
+Blue Spice - Article Info
+id = ext-bs-articleinfo
+descmsg = bs-articleinfo-desc
+file = BlueSpiceExtensions/ArticleInfo/i18n/%CODE%.json
+
 Blue Spice - Authors
 id = ext-bs-authors
 descmsg = bs-authors-desc
@@ -161,7 +166,7 @@ Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
 
-Blue Spice - WidgetBar
+Blue Spice - Widget Bar
 id = ext-bs-widgetbar
 descmsg = bs-widgetbar-desc
 file = BlueSpiceExtensions/WidgetBar/i18n/%CODE%.json
