@@ -306,6 +306,10 @@ BASIC:
 FILES:
   sourcePattern: %GROUPROOT%/pywikibot/redirect.py
   definitionFile: %GROUPROOT%/pywikibot/redirect.py
+
+TAGS:
+  optional:
+    - redirect-broken-redirect-template
 ---
 BASIC:
   id: out-pywikipedia-reflinks
