@@ -151,6 +151,12 @@ Blue Spice - ExtJS - Portal
 file = BlueSpiceFoundation/i18n/extjs-portal/%CODE%.json
 id = ext-bs-extjs-portal
 
+Blue Spice - State Bar
+id = ext-bs-statebar
+descmsg = bs-statebar-desc
+file = BlueSpiceExtensions/StateBar/i18n/%CODE%.json
+optional = bs-statebar-viewtoggler
+
 Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
