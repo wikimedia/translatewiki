@@ -102,6 +102,7 @@ include( "$IP/extensions/cldr/cldr.php" );
 include( "$IP/extensions/CleanChanges/CleanChanges.php" );
 $wgCCUserFilter = true;
 $wgCCTrailerFilter = true;
+include( "$IP/extensions/UserDailyContribs/UserDailyContribs.php" );
 
 ###
 # Namespaces
