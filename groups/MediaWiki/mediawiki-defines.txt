@@ -117,6 +117,7 @@ aliasfile = BatchUserRights/BatchUserRights.alias.php
 Bayesian Filter
 
 Beta Features
+aliasfile = BetaFeatures/BetaFeatures.alias.php
 ignored = betafeatures-test-check-field, betafeatures-test-feature-field
 
 Biblio Plus
@@ -629,6 +630,7 @@ file = FlaggedRevs/i18n/validationstatistics/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flow
+aliasfile = Flow/Flow.alias.php
 ignored = flow-hide-usertext, flow-delete-usertext, flow-system-usertext
 ignored = flow-error-invalid-action, flow-link-board
 optional = flow-post-interaction-separator
