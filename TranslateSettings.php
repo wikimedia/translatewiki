@@ -293,7 +293,7 @@ wfAddNamespace( 1234, 'OpenImages' );
 $wgTranslateGroupFiles[] = "$GROUPS/OpenImages/OpenImages.yaml";
 
 wfAddNamespace( 1236, 'Europeana' );
-#$wgTranslateGroupFiles[] = "$GROUPS/Europeana/Europeana.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Europeana/Europeana.yaml";
 
 wfAddNamespace( 1238, 'Pywikibot' );
 $wgTranslateGroupFiles[] = "$GROUPS/Pywikibot/Pywikibot.yaml";
