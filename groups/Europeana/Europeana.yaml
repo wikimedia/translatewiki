@@ -22,7 +22,16 @@ FILES:
 
 TAGS:
   optional:
-    - dummy
+    - date.abbr_month_names.0
+    - date.month_names.0
+    - number.currency.format.significant
+    - number.currency.format.strip_insignificant_zeros
+    - number.format.significant
+    - number.format.strip_insignificant_zeros
+    - number.human.decimal_units.units.unit
+    - number.human.format.delimiter
+    - number.percentage.format.delimiter
+    - number.precision.format.delimiter
   ignored:
     - dummy
 
