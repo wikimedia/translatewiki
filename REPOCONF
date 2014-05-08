@@ -11,6 +11,7 @@ REPO_COMMONSIOS=https://gerrit.wikimedia.org/r/p/apps/ios/commons.git
 REPO_EOL=git://github.com/EOL/eol.git
 REPO_ETHERPADLITE=git://github.com/ether/etherpad-lite.git
 REPO_ETHERPADLITE_BRANCH="develop"
+REPO_EUROPEANA=git://github.com/europeana/Europeana1914-1918.git
 REPO_FREECOL=git://git.code.sf.net/p/freecol/git
 REPO_FUDFORUM=svn://svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
 REPO_FUEL=git://git.fedorahosted.org/fuel.git

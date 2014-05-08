@@ -44,6 +44,7 @@ mergeL10n-bot() {
 # TODO: Move to separate file?
 GITPROJECTS="\
 eol \
+europeana \
 etherpad-lite \
 freecol \
 fuel \

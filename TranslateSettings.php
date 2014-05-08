@@ -292,8 +292,8 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikia/WikiaAgg.yaml";
 wfAddNamespace( 1234, 'OpenImages' );
 $wgTranslateGroupFiles[] = "$GROUPS/OpenImages/OpenImages.yaml";
 
-# No longer in use.
 wfAddNamespace( 1236, 'Europeana' );
+#$wgTranslateGroupFiles[] = "$GROUPS/Europeana/Europeana.yaml";
 
 wfAddNamespace( 1238, 'Pywikibot' );
 $wgTranslateGroupFiles[] = "$GROUPS/Pywikibot/Pywikibot.yaml";

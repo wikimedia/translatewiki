@@ -22,38 +22,43 @@ HOURS="--hours 200" # Somewhat over a week
 
 if [ "$PROJECT" = "commons-android" ]
 then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-android* --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-android* --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-android* --lang qqq
 
 elif [ "$PROJECT" = "commons-ios" ]
 then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-ios* --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-ios* --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-ios* --lang qqq
 
 elif [ "$PROJECT" = "blockly" ]
 then
-	php "$EXPORTER" --target . --group=out-blockly* --lang '*' --skip en $THRESHOLD
+	php "$EXPORTER" --target . --group=out-blockly* --lang='*' --skip en $THRESHOLD
 
 elif [ "$PROJECT" = "eol" ]
 then
-	php "$EXPORTER" --target . --group=out-eol* --lang '*' --skip en $THRESHOLD
+	php "$EXPORTER" --target . --group=out-eol* --lang='*' --skip en $THRESHOLD
 
 elif [ "$PROJECT" = "etherpad-lite" ]
 then
-	php "$EXPORTER" --target . --group=out-$PROJECT --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-$PROJECT --lang='*' --skip en,qqq $THRESHOLD
+
+elif [ "$PROJECT" = "europeana" ]
+then
+	php "$EXPORTER" --target . --group=out-europeana --lang='*' --skip en $THRESHOLD
+	php "$EXPORTER" --target . --group=out-europeana --lang qqq
 
 elif [ "$PROJECT" = "freecol" ]
 then
-	php "$EXPORTER" --target . --group=out-freecol --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-freecol --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-freecol --lang qqq
 
 elif [ "$PROJECT" = "fudforum" ]
 then
-	php "$EXPORTER" --target . --group=out-fudforum --lang '*' --skip en $THRESHOLD
+	php "$EXPORTER" --target . --group=out-fudforum --lang='*' --skip en $THRESHOLD
 
 elif [ "$PROJECT" = "fuel" ]
 then
-	php "$EXPORTER" --target . --group=out-fuel* --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-fuel* --lang='*' --skip en,qqq $THRESHOLD
 
 elif [ "$PROJECT" = "ihris" ]
 then
@@ -61,33 +66,33 @@ then
 
 elif [ "$PROJECT" = "intuition" ]
 then
-	php "$EXPORTER" --target . --group=tsint* --lang '*' --skip en $HOURS
+	php "$EXPORTER" --target . --group=tsint* --lang='*' --skip en $HOURS
 
 elif [ "$PROJECT" = "jquery.uls" ]
 then
-	php "$EXPORTER" --target . --group=out-jquery-uls --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-jquery-uls --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-jquery-uls --lang qqq
 
 elif [ "$PROJECT" = "kiwix" ]
 then
-	php "$EXPORTER" --target . --group=out-kiwix --lang '*' --skip en --threshold 80
+	php "$EXPORTER" --target . --group=out-kiwix --lang='*' --skip en --threshold 80
 
 elif [ "$PROJECT" = "mantis" ]
 then
-	php "$EXPORTER" --target . --group=out-mantis-core --lang '*' --skip en $THRESHOLD &
-	php "$EXPORTER" --target . --group=out-mantis-plugin-* --lang '*' --skip en $THRESHOLD --codemaponly
+	php "$EXPORTER" --target . --group=out-mantis-core --lang='*' --skip en $THRESHOLD &
+	php "$EXPORTER" --target . --group=out-mantis-plugin-* --lang='*' --skip en $THRESHOLD --codemaponly
 	wait
 
 elif [ "$PROJECT" = "mathjax" ]
 then
-	php "$EXPORTER" --target . --group='out-mathjax-*' --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group='out-mathjax-*' --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group='out-mathjax-*' --lang qqq
 
 elif [ "$PROJECT" = "mediawiki" ]
 then
-	php "$EXPORTER" --target . --group 'core' --lang '*' --skip "$SKIPLANGS" --threshold 18 $HOURS &
+	php "$EXPORTER" --target . --group 'core' --lang='*' --skip "$SKIPLANGS" --threshold 18 $HOURS &
 	php "$EXPORTER" --target . --group 'core' --lang "$FORCELANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-installer' --lang '*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-installer' --lang='*' --skip "$SKIPLANGS" $HOURS &
 
 	wait
 
@@ -104,12 +109,12 @@ then
 
 elif [ "$PROJECT" = "mifos" ]
 then
-	php "$EXPORTER" --target . --group='out-mifos' --lang '*' --skip en,qqq --threshold 20
+	php "$EXPORTER" --target . --group='out-mifos' --lang='*' --skip en,qqq --threshold 20
 	php "$EXPORTER" --target . --group='out-mifos' --lang qqq
 
 elif [ "$PROJECT" = "mwlib" ]
 then
-	php "$EXPORTER" --target . --group=out-mwlibrl --lang '*' --skip en,qqq --threshold 10 $HOURS
+	php "$EXPORTER" --target . --group=out-mwlibrl --lang='*' --skip en,qqq --threshold 10 $HOURS
 	php "$EXPORTER" --target . --group=out-mwlibrl --lang qqq
 
 	cd mwlib.rl
@@ -120,35 +125,39 @@ then
 
 elif [ "$PROJECT" = "nocc" ]
 then
-	php "$EXPORTER" --target . --group=out-nocc-* --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-nocc-* --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-nocc-* --lang qqq
 
 elif [ "$PROJECT" = "nfcring-control" ]
 then
-	php "$EXPORTER" --target . --group=out-$PROJECT --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-$PROJECT --lang='*' --skip en,qqq $THRESHOLD
+
+elif [ "$PROJECT" = "okawix" ]
+then
+	php "$EXPORTER" --target . --group=out-okawix-* --lang='*' --skip en,qqq $THRESHOLD
 
 elif [ "$PROJECT" = "openimages" ]
 then
-	php "$EXPORTER" --target . --group=out-openimages-* --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-openimages-* --lang='*' --skip en,qqq $THRESHOLD
 
 elif [ "$PROJECT" = "osm" ]
 then
-	php "$EXPORTER" --target . --group=out-osm-* --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-osm-* --lang='*' --skip en,qqq $THRESHOLD
 
 elif [ "$PROJECT" = "pywikibot" ]
 then
-	php "$EXPORTER" --target . --group=out-pywikipedia* --lang '*' --skip en --threshold 1
+	php "$EXPORTER" --target . --group=out-pywikipedia* --lang='*' --skip en --threshold 1
 
 elif [ "$PROJECT" = "vicuna" ]
 then
-	php "$EXPORTER" --target . --group=out-vicuna --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-vicuna --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-vicuna --lang qqq --skip en
 
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
-	php "$EXPORTER" --target . --group=out-waymarked-trails --lang '*' --skip en,qqq,no --threshold 75 $HOURS
+	php "$EXPORTER" --target . --group=out-waymarked-trails --lang='*' --skip en,qqq,no --threshold 75 $HOURS
 	php "$EXPORTER" --target . --group=out-waymarked-trails --lang qqq $HOURS
-	php "$EXPORTER" --target . --group=out-waymarked-trails-help --lang '*' --skip en,qqq,no $THRESHOLD $HOURS
+	php "$EXPORTER" --target . --group=out-waymarked-trails-help --lang='*' --skip en,qqq,no $THRESHOLD $HOURS
 	php "$EXPORTER" --target . --group=out-waymarked-trails-help --lang qqq $HOURS
 
 elif [ "$PROJECT" = "wikia" ]
@@ -161,41 +170,41 @@ then
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
-	php "$EXPORTER" --target . --group=out-wikiblame --lang '*' --skip en --threshold 1
+	php "$EXPORTER" --target . --group=out-wikiblame --lang='*' --skip en --threshold 1
 
 elif [ "$PROJECT" = "wikimania" ]
 then
-	php "$EXPORTER" --target . --group=out-wikimania-scholarships-app --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimania-scholarships-app --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimania-scholarships-app --lang qqq
 
 elif [ "$PROJECT" = "wikipedia-android" ]
 then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-android* --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-android* --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-android* --lang qqq
 
 elif [ "$PROJECT" = "wikipedia-ios" ]
 then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-ios* --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-ios* --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-ios* --lang qqq
 
 elif [ "$PROJECT" = "WikipediaMobile" ]
 then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-phonegap --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-phonegap --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-phonegap --lang qqq
 
 elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
 then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-j2me --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-j2me --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-j2me --lang qqq
 
 elif [ "$PROJECT" = "WikisourceMobile" ]
 then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikisource --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikisource --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikisource --lang qqq
 
 elif [ "$PROJECT" = "WiktionaryMobile" ]
 then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wiktionary --lang '*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wiktionary --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wiktionary --lang qqq
 
 else

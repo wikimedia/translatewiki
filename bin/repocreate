@@ -67,6 +67,13 @@ then
 	fi
 	git clone "$REPO_ETHERPADLITE" $PROJECT --branch develop
 
+elif [ "$PROJECT" = "europeana" ]
+then
+	if [ -z "$REPO_EUROPEANA" ]
+	then echo "Add REPO_EUROPEANA to REPOCONF"; exit 1
+	fi
+	git clone "$REPO_EUROPEANA" $PROJECT
+
 elif [ "$PROJECT" = "freecol" ]
 then
 	if [ -z "$REPO_FREECOL" ]

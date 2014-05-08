@@ -1,0 +1,35 @@
+BASIC:
+  id: out-europeana
+  label: Europeana 1914-1918
+  icon: wiki://Europeana.jpg
+  namespace: NS_EUROPEANA
+  class: FileBasedMessageGroup
+  description: "{{int:translate-group-desc-europeana}}"
+
+FILES:
+  sourcePattern: %GROUPROOT%/europeana/config/locales/%CODE%.yml
+  class: RubyYamlFFS
+  codeAsRoot: 1
+  codeMap:
+    be-tarask: be-Tarask
+    ku-latn: ku-Latn
+    pt-br: pt-BR
+    sr-ec: sr
+    sr-el: sr-Latn
+    tt-cyrl: tt
+    zh-hans: zh-CN
+    zh-hant: zh-TW
+
+TAGS:
+  optional:
+    - dummy
+  ignored:
+    - dummy
+
+CHECKER:
+  class: EuropeanaMessageChecker
+  checks:
+    - EuropeanaVariablesCheck
+
+AUTOLOAD:
+  EuropeanaMessageChecker: Checker.php
