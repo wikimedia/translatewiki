@@ -28,7 +28,6 @@ REPO_MWLIB=git@github.com:pediapress/mwlib.git
 REPO_MWLIBRL=git@github.com:pediapress/mwlib.rl.git
 REPO_NFCRINGCONTROL=git@github.com:mclear/NFC_Ring_Control.git
 REPO_NOCC=svn+ssh://siebrand@svn.code.sf.net/p/nocc/code/trunk
-REPO_OKAWIX=svn+ssh://siebrand@svn.code.sf.net/p/okawix/code/trunk/okawix/chrome/locale
 REPO_OSM=ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git
 REPO_POTLATCH2=git@github.com:systemed/potlatch2.git
 REPO_PYWIKIBOT=ssh://l10n-bot@gerrit.wikimedia.org:29418/pywikibot/i18n

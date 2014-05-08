@@ -261,8 +261,8 @@ wfAddNamespace( 1216, 'OpenLayers' );
 wfAddNamespace( 1218, 'FUDforum' );
 $wgTranslateGroupFiles[] = "$GROUPS/FUDforum/FUDforum.yaml";
 
+# No longer in use.
 wfAddNamespace( 1220, 'Okawix' );
-$wgTranslateGroupFiles[] = "$GROUPS/Okawix/Okawix.yaml";
 
 wfAddNamespace( 1222, 'Osm' );
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/OpenStreetMap.yaml";

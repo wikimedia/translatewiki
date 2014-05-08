@@ -213,13 +213,6 @@ then
 	fi
 	git clone "$REPO_NFCRINGCONTROL" $PROJECT
 
-elif [ "$PROJECT" = "okawix" ]
-then
-	if [ -z "$REPO_OKAWIX" ]
-	then echo "Add REPO_OKAWIX to REPOCONF"; exit 1
-	fi
-	svn checkout "$REPO_OKAWIX" $PROJECT
-
 elif [ "$PROJECT" = "openimages" ]
 then
 	if [ -z "$REPO_OPENIMAGES" ]

@@ -163,18 +163,6 @@ elif [ "$PROJECT" = "mwlib" ]
 then
 	gitCommit "$PROJECT.rl"
 
-elif [ "$PROJECT" = "okawix" ]
-then
-	cd $PROJECT
-	svn add -q --force *
-	for i in `find . -name *.dtd -o -name *.properties`
-	do
-		svn propset -q svn:mime-type text/plain $i
-		svn propset -q svn:eol-style native $i
-	done
-	svn commit --message "$COMMITMSG"
-	cd ..
-
 elif [ "$PROJECT" = "nocc" ]
 then
 	cd $PROJECT

@@ -127,10 +127,6 @@ elif [ "$PROJECT" = "nfcring-control" ]
 then
 	php "$EXPORTER" --target . --group=out-$PROJECT --lang '*' --skip en,qqq $THRESHOLD
 
-elif [ "$PROJECT" = "okawix" ]
-then
-	php "$EXPORTER" --target . --group=out-okawix-* --lang '*' --skip en,qqq $THRESHOLD
-
 elif [ "$PROJECT" = "openimages" ]
 then
 	php "$EXPORTER" --target . --group=out-openimages-* --lang '*' --skip en,qqq $THRESHOLD

@@ -217,10 +217,6 @@ elif [ "$PROJECT" = "nfcring-control" ]
 then
 	gitupdate "$PROJECT"
 
-elif [ "$PROJECT" = "okawix" ]
-then
-	svn up -q $PROJECT
-
 elif [ "$PROJECT" = "openimages" ]
 then
 	svn up -q $PROJECT
