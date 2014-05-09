@@ -14,137 +14,108 @@ cd "$DIR"
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
 gitCreateGerrit() {
-	git config user.name 'Translation updater bot'
-	git config user.email 'l10n-bot@translatewiki.net'
-	git config gitreview.username 'l10n-bot'
-	git review -s
+	if [ "$REPO_RW" = "yes" ]
+	then
+		pushd "$1"
+		git config user.name 'Translation updater bot'
+		git config user.email 'l10n-bot@translatewiki.net'
+		git config gitreview.username 'l10n-bot'
+		git review -s
+		popd
+	fi
+}
+
+checkVar() {
+	if [ -z "${!1}" ]
+		then echo "Add ${1} to REPOCONF"; exit 1
+	fi
 }
 
 if [ "$PROJECT" = "commons-android" ]
 then
-	if [ -z "$REPO_COMMONSANDROID" ]
-	then echo "Add REPO_COMMONSANDROID to REPOCONF"; exit 1
-	fi
-
+	checkVar 'REPO_COMMONSANDROID'
 	git clone "$REPO_COMMONSANDROID" $PROJECT
-	if [ "$REPO_RW" = "yes" ]
-	then
-		cd "$PROJECT"
-		gitCreateGerrit
-	fi
+	gitCreateGerrit $PROJECT
 
 elif [ "$PROJECT" = "commons-ios" ]
 then
-	if [ -z "$REPO_COMMONSIOS" ]
-	then echo "Add REPO_COMMONSIOS to REPOCONF"; exit 1
-	fi
-
+	checkVar 'REPO_COMMONSIOS'
 	git clone "$REPO_COMMONSIOS" $PROJECT
-	if [ "$REPO_RW" = "yes" ]
-	then
-		cd "$PROJECT"
-		gitCreateGerrit
-	fi
+	gitCreateGerrit $PROJECT
 
 elif [ "$PROJECT" = "blockly" ]
 then
-	if [ -z "$REPO_BLOCKLY" ]
-	then echo "Add REPO_BLOCKLY to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_BLOCKLY'
 	svn checkout "$REPO_BLOCKLY" $PROJECT
 
 elif [ "$PROJECT" = "eol" ]
 then
-	if [ -z "$REPO_EOL" ]
-	then echo "Add REPO_EOL to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_EOL'
 	git clone "$REPO_EOL" $PROJECT
 
 elif [ "$PROJECT" = "etherpad-lite" ]
 then
-	if [ -z "$REPO_ETHERPADLITE" ]
-	then echo "Add REPO_ETHERPADLITE to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_ETHERPADLITE'
 	git clone "$REPO_ETHERPADLITE" $PROJECT --branch develop
 
 elif [ "$PROJECT" = "europeana" ]
 then
-	if [ -z "$REPO_EUROPEANA" ]
-	then echo "Add REPO_EUROPEANA to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_EUROPEANA'
 	git clone "$REPO_EUROPEANA" $PROJECT
 
 elif [ "$PROJECT" = "freecol" ]
 then
-	if [ -z "$REPO_FREECOL" ]
-	then echo "Add REPO_FREECOL to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_FREECOL'
 	git clone "$REPO_FREECOL" $PROJECT
 
 elif [ "$PROJECT" = "fudforum" ]
 then
-	if [ -z "$REPO_FUDFORUM" ]
-	then echo "Add REPO_FUDFORUM to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_FUDFORUM'
 	svn checkout "$REPO_FUDFORUM" $PROJECT
 
 elif [ "$PROJECT" = "fuel" ]
 then
-	if [ -z "$REPO_FUEL" ]
-	then echo "Add REPO_FUEL to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_FUEL'
 	git clone "$REPO_FUEL" $PROJECT
 
 elif [ "$PROJECT" = "ihris" ]
 then
-		mkdir $PROJECT
-		cd $PROJECT
-		for MODULE in $REPO_IHRIS_MODULES
-		do
-			if [ "$REPO_RW" = "yes" ]
-			then
-				bzr checkout lp:${MODULE}/${REPO_IHRIS_BRANCH} ${MODULE}
-			else
-				bzr branch ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/ ${MODULE}
-			fi
+	checkVar 'REPO_IHRIS_MODULES'
+	mkdir $PROJECT
+	cd $PROJECT
+	for MODULE in $REPO_IHRIS_MODULES
+	do
+		if [ "$REPO_RW" = "yes" ]
+		then
+			bzr checkout lp:${MODULE}/${REPO_IHRIS_BRANCH} ${MODULE}
+		else
+			bzr branch ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/ ${MODULE}
+		fi
 
-			cd ${MODULE}
-			bzr pull --remember `bzr info |grep "checkout of branch" |cut -d" " -f 6`
-			cd ..
-		done
+		cd ${MODULE}
+		bzr pull --remember `bzr info |grep "checkout of branch" |cut -d" " -f 6`
+		cd ..
+	done
 
 elif [ "$PROJECT" = "intuition" ]
 then
-	if [ -z "$REPO_INTUITION" ]
-	then echo "Add REPO_INTUITION to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_INTUITION'
 	git clone "$REPO_INTUITION" $PROJECT
 
 elif [ "$PROJECT" = "jquery.uls" ]
 then
-	if [ -z "$REPO_JQUERY_ULS" ]
-	then echo "Add REPO_JQUERY_ULS to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_JQUERY_ULS'
 	git clone "$REPO_JQUERY_ULS" $PROJECT
-
 
 elif [ "$PROJECT" = "kiwix" ]
 then
-	if [ -z "$REPO_KIWIX" ]
-	then echo "Add REPO_KIWIX to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_KIWIX'
 	git clone "$REPO_KIWIX" $PROJECT
 
 elif [ "$PROJECT" = "mantis" ]
 then
-	if [ -z "$REPO_MANTIS" ]
-	then echo "Add REPO_MANTIS to REPOCONF"; exit 1
-	fi
-
-	if [ -z "$REPO_MANTIS_BRANCH" ]
-	then echo "Add REPO_MANTIS_BRANCH to REPOCONF"; exit 1
-	fi
-
+	checkVar 'REPO_MANTIS'
+	checkVar 'REPO_MANTIS_BRANCH'
 	git clone "$REPO_MANTIS" $PROJECT
 	cd $PROJECT
 	git checkout -q --track origin/${REPO_MANTIS_BRANCH}
@@ -152,32 +123,19 @@ then
 
 elif [ "$PROJECT" = "mathjax" ]
 then
-	if [ -z "$REPO_MATHJAX" ]
-	then echo "Add REPO_MATHJAX to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_MATHJAX'
 	git clone "$REPO_MATHJAX" $PROJECT
 
 elif [ "$PROJECT" = "mediawiki" ]
 then
-	if [ -z "$REPO_MEDIAWIKI" ]
-	then echo "Add REPO_MEDIAWIKI to REPOCONF"; exit 1
-	fi
-
-	if [ -z "$REPO_MEDIAWIKI_BRANCHES" ]
-	then echo "Add REPO_MEDIAWIKI_BRANCHES to REPOCONF"; exit 1
-	fi
-
+	checkVar 'REPO_MEDIAWIKI'
+	checkVar '$REPO_MEDIAWIKI_BRANCHES'
 	mkdir -p $PROJECT
 	cd $PROJECT
 	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
 	do
 		git clone "$REPO_MEDIAWIKI" "$BRANCH" -b "$BRANCH"
-		if [ "$REPO_RW" = "yes" ]
-		then
-			cd "$BRANCH"
-			gitCreateGerrit
-			cd ..
-		fi
+		gitCreateGerrit $BRANCH
 	done
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
@@ -186,94 +144,62 @@ then
 
 elif [ "$PROJECT" = "mifos" ]
 then
-	if [ -z "$REPO_MIFOS" ]
-	then echo "Add REPO_MIFOS to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_MIFOS'
 	git clone "$REPO_MIFOS" $PROJECT
 
 elif [ "$PROJECT" = "mwlib" ]
 then
 	if [ "$REPO_RW" = "yes" ]
 	then
-		if [ -z "$REPO_MWLIB" ]
-		then echo "Add REPO_MWLIB to REPOCONF"; exit 1
-		fi
+		checkVar 'REPO_MWLIB'
 		git clone "$REPO_MWLIB" $PROJECT
 	fi
 
-	if [ -z "$REPO_MWLIBRL" ]
-	then echo "Add REPO_MWLIBRL to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_MWLIBRL'
 	git clone "$REPO_MWLIBRL" mwlib.rl
 
 elif [ "$PROJECT" = "nocc" ]
 then
-	if [ -z "$REPO_NOCC" ]
-	then echo "Add $REPO_NOCC to REPOCONF"; exit 1
-	fi
+	checkVar '$REPO_NOCC'
 	svn checkout "$REPO_NOCC" $PROJECT
 
 elif [ "$PROJECT" = "nfcring-control" ]
 then
-	if [ -z "$REPO_NFCRINGCONTROL" ]
-	then echo "Add REPO_NFCRINGCONTROL to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_NFCRINGCONTROL'
 	git clone "$REPO_NFCRINGCONTROL" $PROJECT
 
 elif [ "$PROJECT" = "openimages" ]
 then
-	if [ -z "$REPO_OPENIMAGES" ]
-	then echo "Add REPO_OPENIMAGES to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_OPENIMAGES'
 	svn checkout "$REPO_OPENIMAGES" $PROJECT
 
 elif [ "$PROJECT" = "osm" ]
 then
-	if [ -z "$REPO_OSM" ]
-	then echo "Add REPO_OSM to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_OSM'
+	checkVar 'REPO_POTLATCH2'
 	git clone "$REPO_OSM" $PROJECT
-	if [ -z "$REPO_POTLATCH2" ]
-	then echo "Add REPO_POTLATCH2 to REPOCONF"; exit 1
-	fi
 	git clone "$REPO_POTLATCH2" potlatch2
 
 elif [ "$PROJECT" = "pywikibot" ]
 then
-	if [ -z "$REPO_PYWIKIBOT" ]
-	then echo "Add REPO_PYWIKIBOT to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_PYWIKIBOT'
 	git clone "$REPO_PYWIKIBOT" $PROJECT
-	if [ "$REPO_RW" = "yes" ]
-	then
-		cd $PROJECT
-		gitCreateGerrit
-	fi
+	gitCreateGerrit $PROJECT
 
 elif [ "$PROJECT" = "vicuna" ]
 then
-	if [ -z "$REPO_VICUNA" ]
-	then echo "Add REPO_VICUNA to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_VICUNA'
 	git clone "$REPO_VICUNA" $PROJECT
 
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
-	if [ -z "$REPO_WAYMARKEDTRAILS" ]
-	then echo "Add REPO_WAYMARKEDTRAILS to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_WAYMARKEDTRAILS'
 	git clone "$REPO_WAYMARKEDTRAILS" $PROJECT
 
 elif [ "$PROJECT" = "wikia" ]
 then
-	if [ -z "$REPO_WIKIA" ]
-	then echo "Add REPO_WIKIA to REPOCONF"; exit 1
-	fi
-
-	if [ -z "$REPO_WIKIA_BRANCH" ]
-	then echo "Add REPO_WIKIA_BRANCH to REPOCONF"; exit 1
-	fi
-
+	checkVar 'REPO_WIKIA'
+	checkVar 'REPO_WIKIA_BRANCH'
 	git clone "$REPO_WIKIA" $PROJECT
 	cd $PROJECT
 	git checkout -q --track origin/${REPO_WIKIA_BRANCH}
@@ -281,75 +207,45 @@ then
 
 elif [ "$PROJECT" = "wikiblame" ]
 then
-	if [ -z "$REPO_WIKIBLAME" ]
-	then echo "Add REPO_WIKIBLAME to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_WIKIBLAME'
 	svn checkout "$REPO_WIKIBLAME" $PROJECT
 
 elif [ "$PROJECT" = "wikimania" ]
 then
-	if [ -z "$REPO_WIKIMANIA" ]
-	then echo "Add REPO_WIKIMANIA to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_WIKIMANIA'
 	git clone "$REPO_WIKIMANIA" $PROJECT
-	if [ "$REPO_RW" = "yes" ]
-	then
-		cd $PROJECT
-		gitCreateGerrit
-	fi
+	gitCreateGerrit $PROJECT
 
 elif [ "$PROJECT" = "wikipedia-android" ]
 then
-	if [ -z "$REPO_WIKIPEDIAANDROID" ]
-	then echo "Add REPO_WIKIPEDIAANDROID to REPOCONF"; exit 1
-	fi
-
+	checkVar 'REPO_WIKIPEDIAANDROID'
 	git clone "$REPO_WIKIPEDIAANDROID" $PROJECT
-	if [ "$REPO_RW" = "yes" ]
-	then
-		cd "$PROJECT"
-		gitCreateGerrit
-	fi
+	gitCreateGerrit $PROJECT
 
 elif [ "$PROJECT" = "wikipedia-ios" ]
 then
-	if [ -z "$REPO_WIKIPEDIAIOS" ]
-	then echo "Add REPO_WIKIPEDIAIOS to REPOCONF"; exit 1
-	fi
-
+	checkVar 'REPO_WIKIPEDIAIOS'
 	git clone "$REPO_WIKIPEDIAIOS" $PROJECT
-	if [ "$REPO_RW" = "yes" ]
-	then
-		cd "$PROJECT"
-		gitCreateGerrit
-	fi
+	gitCreateGerrit $PROJECT
 
 elif [ "$PROJECT" = "WikipediaMobile" ]
 then
-	if [ -z "$REPO_WIKIPEDIAMOBILE" ]
-	then echo "Add REPO_WIKIPEDIAMOBILE to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_WIKIPEDIAMOBILE'
 	git clone "$REPO_WIKIPEDIAMOBILE" $PROJECT
 
 elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
 then
-	if [ -z "$REPO_WIKIPEDIAMOBILE" ]
-	then echo "Add REPO_WIKIPEDIAMOBILEJ2ME to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_WIKIPEDIAMOBILEJ2ME'
 	git clone "$REPO_WIKIPEDIAMOBILEJ2ME" $PROJECT
 
 elif [ "$PROJECT" = "WikisourceMobile" ]
 then
-	if [ -z "$REPO_WIKISOURCEMOBILE" ]
-	then echo "Add REPO_WIKISOURCEMOBILE to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_WIKISOURCEMOBILE'
 	git clone "$REPO_WIKISOURCEMOBILE" $PROJECT
 
 elif [ "$PROJECT" = "WiktionaryMobile" ]
 then
-	if [ -z "$REPO_WIKTIONARYMOBILE" ]
-	then echo "Add REPO_WIKTIONARYMOBILE to REPOCONF"; exit 1
-	fi
+	checkVar 'REPO_WIKTIONARYMOBILE'
 	git clone "$REPO_WIKTIONARYMOBILE" $PROJECT
 
 else
