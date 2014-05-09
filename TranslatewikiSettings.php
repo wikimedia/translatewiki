@@ -37,7 +37,6 @@ $wgMaxShellMemory = 1024 * 200;
 # Names
 ###
 $wgSitename = 'translatewiki.net';
-$wgServerName = 'translatewiki.net';
 $wgLogo = "//translatewiki.net/static/logo.png";
 
 $wgGrammarForms['fi']['genitive']['translatewiki.net'] = 'translatewiki.netin';
