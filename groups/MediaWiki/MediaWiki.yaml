@@ -232,6 +232,9 @@ TAGS:
     - variantname-tg
     - variantname-tg-cyrl
     - variantname-tg-latn
+    - variantname-uz
+    - variantname-uz-latn
+    - variantname-uz-cyrl
     - variantname-zh
     - variantname-zh-cn
     - variantname-zh-hans
@@ -334,6 +337,7 @@ TAGS:
     - booksources-summary
     - brokenredirects-summary
     - categories-summary
+    - category-move-redirect-override
     - changeemail-summary
     - changepassword-summary
     - comparepages-summary
