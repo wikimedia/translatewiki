@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e23439c_aca4acb6",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 338,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-05-09T14:15:07Z",
+      "side": 1,
+      "message": "Please put this at the spot of 1248.",
+      "revId": "abdcc4348a60b951664471f4fdff35fc96cb4eb8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e23439c_8ca9f08f",
+        "filename": "bin/repocreate",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-05-09T14:15:07Z",
+      "side": 1,
+      "message": "Use checkVar",
+      "revId": "abdcc4348a60b951664471f4fdff35fc96cb4eb8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e23439c_eca184a0",
+        "filename": "bin/repoupdate",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-05-09T14:15:07Z",
+      "side": 1,
+      "message": "Add \"huggle \\\" below this line.",
+      "revId": "abdcc4348a60b951664471f4fdff35fc96cb4eb8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e23439c_2c989c7b",
+        "filename": "bin/repoupdate",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-05-09T14:15:07Z",
+      "side": 1,
+      "message": "Not needed. Add above.",
+      "revId": "abdcc4348a60b951664471f4fdff35fc96cb4eb8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e23439c_cc9ec866",
+        "filename": "bin/repoupdate",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-05-09T14:15:07Z",
+      "side": 1,
+      "message": "This one, too.",
+      "revId": "abdcc4348a60b951664471f4fdff35fc96cb4eb8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
