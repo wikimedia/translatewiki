@@ -15,6 +15,7 @@ REPO_EUROPEANA=git@github.com:europeana/Europeana1914-1918.git
 REPO_FREECOL=ssh://siebrand@git.code.sf.net/p/freecol/git
 REPO_FUDFORUM=svn+ssh://siebrand@svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
 REPO_FUEL=ssh://siebrand@git.fedorahosted.org/git/fuel.git
+REPO_HUGGLE=git@github.com:huggle/huggle3-qt-lx.git
 REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics
 REPO_IHRIS_BRANCH="4.2"
 REPO_IHRIS_MODULES="i2ce ihris-common ihris-manage ihris-qualify ihris-train"

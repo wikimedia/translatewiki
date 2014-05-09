@@ -60,6 +60,11 @@ elif [ "$PROJECT" = "fuel" ]
 then
 	php "$EXPORTER" --target . --group=out-fuel* --lang='*' --skip en,qqq $THRESHOLD
 
+elif [ "$PROJECT" = "huggle" ]
+then
+	php "$EXPORTER" --target . --group=out-huggle --lang='*' --skip en,qqq $THRESHOLD
+	php "$EXPORTER" --target . --group=out-hugle --lang qqq
+
 elif [ "$PROJECT" = "ihris" ]
 then
 	php "$EXPORTER" --target . --group=out-ihris* --lang='*' --skip en,qqq $THRESHOLD --ppgettext=/resources/projects

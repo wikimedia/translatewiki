@@ -314,7 +314,8 @@ $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/Kiwix.yaml";
 # No longer in use.
 wfAddNamespace( 1246, 'Mozilla' );
 
-# 1248 is not in use. Can be used for a product.
+wfAddNamespace( 1248, 'Huggle' );
+#$wgTranslateGroupFiles[] = "$GROUPS/Huggle/Huggle.yaml";
 
 wfAddNamespace( 1250, 'EtherpadLite' );
 $wgTranslateGroupFiles[] = "$GROUPS/EtherpadLite/EtherpadLite.yaml";
@@ -333,4 +334,3 @@ $wgTranslateGroupFiles[] = "$GROUPS/MathJax/MathJax.yaml";
 
 wfAddNamespace( 1260, 'NFCRingControl' );
 $wgTranslateGroupFiles[] = "$GROUPS/NFCRingControl/NFCRingControl.yaml";
-

@@ -1,0 +1,17 @@
+---
+BASIC:
+  id: out-huggle
+  label: Huggle
+  icon: wiki://Huggle_icon_mini.svg
+  description: "{{int:translate-group-desc-huggle}}"
+  namespace: NS_HUGGLE
+  class: FileBasedMessageGroup
+
+FILES:
+  class: AndroidXmlFFS
+  sourcePattern: %GROUPROOT%/huggle/huggle/Localization/%CODE%.xml
+  codeMap:
+    nb: "no"
+    pt-br: pt-BR
+    zh-hans: zh
+    cs: cz

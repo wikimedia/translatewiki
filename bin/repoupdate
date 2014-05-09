@@ -78,11 +78,13 @@ eol \
 europeana \
 freecol \
 fuel \
+huggle \
 intuition \
 jquery.uls \
 kiwix \
 mathjax
 mifos \
+nfcring-control \
 pywikibot \
 vicuna \
 waymarked-trails-site \
@@ -213,10 +215,6 @@ then
 elif [ "$PROJECT" = "nocc" ]
 then
 	svn up -q $PROJECT
-
-elif [ "$PROJECT" = "nfcring-control" ]
-then
-	gitupdate "$PROJECT"
 
 elif [ "$PROJECT" = "openimages" ]
 then
