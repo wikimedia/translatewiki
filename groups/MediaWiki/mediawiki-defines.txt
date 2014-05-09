@@ -1718,6 +1718,9 @@ Variables
 
 Vector Beta
 
+# Missing message documentation
+# Video
+
 View Files
 aliasfile = ViewFiles/ViewFiles.alias.php
 
