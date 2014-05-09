@@ -108,15 +108,16 @@ FILES:
 
 TAGS:
   optional:
-    - s_sponsorship_process_url
-    - s_charset
-    - s_p
-    - s_priority_abbreviation
     - s_attachment_alt
-    - s_phpmailer_language
-    - s_word_separator
+    - s_charset
     - s_directionality
+    - s_file_size_info
     - s_label
+    - s_p
+    - s_phpmailer_language
+    - s_priority_abbreviation
+    - s_sponsorship_process_url
+    - s_word_separator
 
 ---
 BASIC:
