@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e23439c_9e90ef4f",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-05-10T15:19:56Z",
+      "side": 1,
+      "message": "I prefer to have this line commented out in \"add new project\" patch sets. This allows everything to be merged, and repos to be cloned, without immediately enabling the project. When it\u0027s proven to work by manually enabling this line, a follow-up patch can remove the comment and enable it for real.",
+      "revId": "1781fb6d56b33b74baad11fd7faf983727fb911f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e23439c_9eb6afd6",
+        "filename": "bin/repoexport",
+        "patchSetId": 2
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-05-10T15:19:56Z",
+      "side": 1,
+      "message": "This will cause qqq to never be exported, even though it\u0027s already present. Also add this:\n\n php \"$EXPORTER\" --target . --group\u003dout-sharelatex* --lang\u003dqqq",
+      "revId": "1781fb6d56b33b74baad11fd7faf983727fb911f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e23439c_3ec55b42",
+        "filename": "groups/ShareLaTeX/ShareLaTeX.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-05-10T15:19:56Z",
+      "side": 1,
+      "message": "Have a look at https://github.com/sharelatex/translations-sharelatex/tree/master/locales\n\nThe file containing the source messages is en-US.json. This will not work. Should be:\n\n sourcePattern: %GROUPROOT%/sharelatex/locales/.json\n\nAlso, I see a file fr-FR.json. As \"fr-FR\" is not a code in twn, you need to add a codeMap in FILES:. See for example Blockly.yaml:\n\n  FILES:\n    codeMap:\n      sr-ec: sr\n      sr-el: sr-latn\n\nThis maps sr.json to the language code sr-ec in Translate and sr-latn.json to code sr-el.",
+      "revId": "1781fb6d56b33b74baad11fd7faf983727fb911f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
