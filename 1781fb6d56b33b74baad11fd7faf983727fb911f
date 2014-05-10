@@ -68,6 +68,24 @@
       "revId": "1781fb6d56b33b74baad11fd7faf983727fb911f",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e23439c_99748998",
+        "filename": "groups/ShareLaTeX/ShareLaTeX.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-05-10T16:42:01Z",
+      "side": 1,
+      "message": "What Niklas says. Then we also don\u0027t need destinationPattern.",
+      "parentUuid": "8e23439c_9e68ef1a",
+      "revId": "1781fb6d56b33b74baad11fd7faf983727fb911f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
