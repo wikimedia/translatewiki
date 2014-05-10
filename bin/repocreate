@@ -134,7 +134,7 @@ then
 elif [ "$PROJECT" = "mediawiki" ]
 then
 	checkVar 'REPO_MEDIAWIKI'
-	checkVar '$REPO_MEDIAWIKI_BRANCHES'
+	checkVar 'REPO_MEDIAWIKI_BRANCHES'
 	mkdir -p $PROJECT
 	cd $PROJECT
 	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
@@ -165,7 +165,7 @@ then
 
 elif [ "$PROJECT" = "nocc" ]
 then
-	checkVar '$REPO_NOCC'
+	checkVar 'REPO_NOCC'
 	svn checkout "$REPO_NOCC" $PROJECT
 
 elif [ "$PROJECT" = "nfcring-control" ]
