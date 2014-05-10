@@ -88,7 +88,7 @@ class users {
       home       => '/home/mah',
       comment    => 'Mark Hershberger';
     'ialex':
-      ensure     => present,
+      ensure     => absent,
       uid        => 1007,
       gid        => 'users',
       groups     => ['betawiki'],
@@ -98,7 +98,7 @@ class users {
       home       => '/home/ialex',
       comment    => 'Alexandre Emsenhuber';
     'robin': # Last login 2012-11-12
-      ensure     => absent,
+      ensure     => present,
       uid        => 1008,
       gid        => 'users',
       groups     => ['betawiki'],
@@ -188,7 +188,7 @@ class users {
       home       => '/home/rbot',
       comment    => 'Reviewer Bot';
     'tor':
-      ensure     => present,
+      ensure     => absent,
       uid        => 1017,
       gid        => 'users',
       groups     => ['betawiki'],
