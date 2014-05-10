@@ -63,7 +63,7 @@ then
 elif [ "$PROJECT" = "huggle" ]
 then
 	php "$EXPORTER" --target . --group=out-huggle --lang='*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-hugle --lang qqq
+	php "$EXPORTER" --target . --group=out-huggle --lang qqq
 
 elif [ "$PROJECT" = "ihris" ]
 then
