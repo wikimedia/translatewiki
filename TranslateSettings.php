@@ -315,7 +315,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/Kiwix.yaml";
 wfAddNamespace( 1246, 'Mozilla' );
 
 wfAddNamespace( 1248, 'Huggle' );
-#$wgTranslateGroupFiles[] = "$GROUPS/Huggle/Huggle.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Huggle/Huggle.yaml";
 
 wfAddNamespace( 1250, 'EtherpadLite' );
 $wgTranslateGroupFiles[] = "$GROUPS/EtherpadLite/EtherpadLite.yaml";
