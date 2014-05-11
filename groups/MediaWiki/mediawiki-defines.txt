@@ -535,6 +535,9 @@ file = EventLogging/i18n/jsonschema/%CODE%.json
 
 #Expand Templates / Added to core
 
+Ext Tab
+file = ExtTab/languages/i18n/%CODE%.json
+
 Extension Distributor
 
 External Articles
@@ -542,8 +545,7 @@ External Articles
 External Data
 magicfile = ExternalData/ExternalData.i18n.magic.php
 
-Ext Tab
-file = ExtTab/languages/i18n/%CODE%.json
+Extra Language Link
 
 #Fan Boxes / Missing message documentation, inconsistently prefixed - 2014-01-28 RS
 
