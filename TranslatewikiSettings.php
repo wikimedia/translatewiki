@@ -202,12 +202,13 @@ include( "$IP/extensions/Nuke/Nuke.php" ); # Nike 2009-01-12
 include( "$IP/extensions/ReplaceText/ReplaceText.php" ); # Added: Siebrand 2009-04-25.
 include( "$IP/extensions/ApiSandbox/ApiSandbox.php" ); # Added: Siebrand 2012-11-05.
 
+# Semantic MediaWiki (installed using composer)
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
 enableSemantics( 'translatewiki.net' );
 $smwgNamespacesWithSemanticLinks[NS_LQT_THREAD] = true;
 $smwgNamespacesWithSemanticLinks[NS_LQT_SUMMARY] = true;
 
-include_once( "$IP/extensions/SemanticForms/SemanticForms.php" );
+# Semantic Forms (installed using composer)
 $sfgRedLinksCheckOnlyLocalProps = true;
 
 # Niklas 2011-11-12
