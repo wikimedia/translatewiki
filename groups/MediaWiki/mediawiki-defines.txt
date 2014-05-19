@@ -1481,6 +1481,8 @@ aliasfile = SiteMatrix/SiteMatrix.alias.php
 
 Site Metrics
 
+Site Settings
+
 Skin Per Namespace
 
 Skin Per Page
