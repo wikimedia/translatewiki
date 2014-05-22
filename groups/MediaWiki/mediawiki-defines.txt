@@ -1470,6 +1470,9 @@ descmsg = swmp-desc
 
 #Simple Anti Spam / Moved into core 2013-10-24
 
+Simple Changes
+aliasfile = SpecialSimple/SpecialSimpleChanges.alias.php
+
 Simple Farm
 
 Simple Security
