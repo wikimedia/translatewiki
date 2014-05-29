@@ -1,14 +1,10 @@
 {
 	"require": {
 		"php": ">=5.3.2",
+		"psr/log": "1.0.0",
 		"mediawiki/semantic-media-wiki": "@dev",
-		"mediawiki/semantic-maps": "@dev"
+		"mediawiki/semantic-maps": "@dev",
+		"ruflin/elastica": "*"
 	},
-	"minimum-stability": "dev",
-	"suggest": {
-		"ext-fileinfo": "*",
-		"ext-mbstring": "*",
-		"ext-wikidiff2": "*",
-		"ext-apc": "*"
-	}
+	"minimum-stability": "dev"
 }
