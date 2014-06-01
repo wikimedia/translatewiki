@@ -761,6 +761,10 @@ HTMLets
 I18n Tags
 magicfile = I18nTags/I18nTags.magic.php
 
+If Templates
+
+Iframe Page
+
 Image Map
 descmsg = imagemap_desc
 optional = imagemap_desc_types
