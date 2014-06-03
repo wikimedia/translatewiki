@@ -137,6 +137,11 @@ id = ext-bs-articleinfo
 descmsg = bs-articleinfo-desc
 file = BlueSpiceExtensions/ArticleInfo/i18n/%CODE%.json
 
+Blue Spice - Avatars
+id = ext-bs-avatars
+descmsg = bs-avatars-desc
+file = BlueSpiceExtensions/Avatars/i18n/%CODE%.json
+
 Blue Spice - Authors
 id = ext-bs-authors
 descmsg = bs-authors-desc
