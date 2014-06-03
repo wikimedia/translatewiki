@@ -1975,6 +1975,8 @@ YouTube
 Zero Banner
 descmsg = zero-desc
 
+Zero Portal
+
 Zero Rated Mobile Access
 file = ZeroRatedMobileAccess/i18n/core/%CODE%.json
 # Do not add the alias file for translation per Adam Baso, 2014-05-28
