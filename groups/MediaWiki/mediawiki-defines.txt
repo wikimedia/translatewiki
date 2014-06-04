@@ -165,6 +165,11 @@ Blue Spice - ExtJS - Portal
 file = BlueSpiceFoundation/i18n/extjs-portal/%CODE%.json
 id = ext-bs-extjs-portal
 
+Blue Spice - Hide Title
+id = ext-bs-hidetitle
+descmsg = bs-hidetitle-desc
+file = BlueSpiceExtensions/HideTitle/i18n/%CODE%.json
+
 Blue Spice - State Bar
 id = ext-bs-statebar
 descmsg = bs-statebar-desc
