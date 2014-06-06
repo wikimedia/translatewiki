@@ -711,6 +711,8 @@ Global User Groups
 file = GlobalUserGroups/i18n/core/%CODE%.json
 # GlobalUserGroups.i18n.groups.php not added. Has a lot of user groups which conflicts with WikimediaMessages.i18n.php
 
+Global User Page
+
 Global Userrights
 aliasfile = GlobalUserrights/GlobalUserrights.alias.php
 descmsg = gur-desc
