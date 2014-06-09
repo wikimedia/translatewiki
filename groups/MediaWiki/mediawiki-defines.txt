@@ -648,6 +648,12 @@ Flow
 aliasfile = Flow/Flow.alias.php
 ignored = flow-hide-usertext, flow-delete-usertext, flow-system-usertext
 ignored = flow-error-invalid-action, flow-link-board
+ignored = flow-rev-message-edit-post-irc, flow-rev-message-reply-irc, flow-rev-message-new-post-irc
+ignored = flow-rev-message-edit-title-irc, flow-rev-message-create-header-irc, flow-rev-message-edit-header-irc
+ignored = flow-rev-message-create-topic-summary-irc, flow-rev-message-edit-topic-summary-irc, flow-rev-message-hid-post-irc
+ignored = flow-rev-message-deleted-post-irc, flow-rev-message-suppressed-post-irc, flow-rev-message-restored-post-irc
+ignored = flow-rev-message-hid-topic-irc, flow-rev-message-deleted-topic-irc, flow-rev-message-suppressed-topic-irc
+ignored = flow-rev-message-closed-topic-irc, flow-rev-message-restored-topic-irc
 optional = flow-post-interaction-separator
 
 Flv Handler
