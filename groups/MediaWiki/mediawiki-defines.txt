@@ -1005,6 +1005,8 @@ descmsg = mwembed-desc
 
 My Variables
 
+Namespace HTML
+
 Namespace Paths
 
 Namespace Relations
