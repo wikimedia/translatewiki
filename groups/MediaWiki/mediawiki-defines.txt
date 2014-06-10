@@ -1769,8 +1769,10 @@ VisualEditor Core
 id = ext-visualeditor-ve
 descmsg = visualeditor-desc
 file = VisualEditorVisualEditor/modules/ve/i18n/%CODE%.json
+ignored = visualeditor-languageannotation-description
 optional = visualeditor-specialcharinspector-characterlist-insert
 optional = visualeditor-dimensionswidget-px, visualeditor-dimensionswidget-times
+optional = visualeditor-languageannotation-description-with-dir
 
 VisualEditor (MediaWiki extension)
 id = ext-visualeditor-ve-mw
