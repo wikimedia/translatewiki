@@ -157,6 +157,11 @@ file = BlueSpiceFoundation/i18n/diagnostics/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Diagnostics.alias.php
 id = ext-bs-diagnostics
 
+Blue Spice - Extended Edit Bar
+id = ext-bs-extendededitbar
+descmsg = bs-extendededitbar-desc
+file = BlueSpiceExtensions/ExtendedEditBar/i18n/%CODE%.json
+
 Blue Spice - ExtJS
 file = BlueSpiceFoundation/i18n/extjs/%CODE%.json
 id = ext-bs-extjs
@@ -169,6 +174,16 @@ Blue Spice - Hide Title
 id = ext-bs-hidetitle
 descmsg = bs-hidetitle-desc
 file = BlueSpiceExtensions/HideTitle/i18n/%CODE%.json
+
+Blue Spice - Insert Category
+id = ext-bs-insertcategory
+descmsg = bs-insertcategory-desc
+file = BlueSpiceExtensions/InsertCategory/i18n/%CODE%.json
+
+Blue Spice - Page Access
+id = ext-bs-pageaccess
+descmsg = bs-pageaccess-desc
+file = BlueSpiceExtensions/PageAccess/i18n/%CODE%.json
 
 Blue Spice - State Bar
 id = ext-bs-statebar
