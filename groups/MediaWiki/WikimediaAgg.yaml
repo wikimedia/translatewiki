@@ -54,6 +54,7 @@ GROUPS:
   - ext-guidedtour # 2013-01-31 for 15 projects
   - ext-gwtoolset # 2013-12-17 for Wikimedia Commons
   - ext-insider # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
+  - ext-jsonconfig # 2014-06. Helper for new Zero extension
   - ext-labeledsectiontransclusion
   - ext-landingcheck
   - ext-ldapauthentication # 2011-12-28: labsconsole.wikimedia.org
@@ -109,4 +110,6 @@ GROUPS:
   - ext-wikimediaincubator # r89556
   - ext-wikimediaincubatorinfopage
   - ext-wikimediashoplink # 2012-06-27, change-Id 1a0c3707bd6603b27d80c997968b24231eea2b04
+  - ext-zerobanner # 2014-06
+  - ext-zeroportal # 2014-06
   - ext-zeroratedmobileaccess # r108587
