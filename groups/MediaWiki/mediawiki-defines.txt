@@ -1755,6 +1755,8 @@ User Daily Contribs
 
 User Functions
 
+User Groups
+
 User Merge
 aliasfile = UserMerge/UserMerge.alias.php
 
