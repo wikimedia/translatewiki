@@ -29,6 +29,7 @@ GROUPS:
   - ext-inputbox
   - ext-intersection
   - ext-jquery-uls
+  - ext-math
   - ext-mobilefrontend # r93435
   - ext-newusermessage
   - ext-parserfunctions
