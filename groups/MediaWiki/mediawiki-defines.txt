@@ -1751,11 +1751,15 @@ UR Names
 
 Url Get Parameters
 
+Url Shortener
+aliasfile = UrlShortener/UrlShortener.alias.php
+
 User Daily Contribs
 
 User Functions
 
 User Groups
+aliasfile = UserGroups/UserGroups.alias.php
 
 User Merge
 aliasfile = UserMerge/UserMerge.alias.php
