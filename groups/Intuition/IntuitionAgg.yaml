@@ -1,6 +1,7 @@
 BASIC:
   id: tsint-0-all
   label: Intuition
+  icon: wiki://Collaboration_logo_V2.svg
   description: "{{int:translate-group-desc-tsint}}"
   meta: yes
   class: AggregateMessageGroup

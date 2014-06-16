@@ -16,6 +16,7 @@ BASIC:
   id: out-mathjax-0-all
   icon: wiki://MathJax-Badge.svg
   label: MathJax
+  description: "{{int:translate-group-desc-mathjax}}"
   namespace: NS_MATHJAX
   class: AggregateMessageGroup
   meta: 1
