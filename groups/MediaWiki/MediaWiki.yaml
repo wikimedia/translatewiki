@@ -432,6 +432,9 @@ TAGS:
     - pubmedurl
     - randompage-url
     - recentchanges-url
+    - recentchanges-legend-minor
+    - recentchanges-legend-bot
+    - recentchanges-legend-unpatrolled
     - recentchangestext
     - redirect-text
     - resettokens-summary
