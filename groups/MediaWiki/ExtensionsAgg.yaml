@@ -17,6 +17,7 @@ GROUPS:
 ---
 BASIC:
   id: ext-bs-0-all
+  icon: wiki://Bluespice icon.svg
   label: All Blue Spice messages
   description: '{{int:translate-group-desc-bluespice}}'
 
