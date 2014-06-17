@@ -1962,6 +1962,7 @@ Wikimedia Messages
 file = WikimediaMessages/i18n/wikimedia/%CODE%.json
 ignored = sidebar, robots.txt
 ignored = extdist-branch-REL1_19, extdist-branch-REL1_20, extdist-branch-REL1_21
+ignores = extdist-branch-REL1_22
 ignored = wikimedia-developers-url
 optional = sitesupport-url
 optional = grouppage-steward, grouppage-sysadmin, grouppage-Global_bot
