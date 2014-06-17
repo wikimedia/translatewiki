@@ -35,6 +35,7 @@ $wgTranslateLanguageFallbacks['hsn'] = 'zh-hans';
 $wgTranslateLanguageFallbacks['hu-formal'] = 'hu';
 $wgTranslateLanguageFallbacks['hy'] = 'ru';
 $wgTranslateLanguageFallbacks['ia'] = array( 'fr', 'it', 'es', 'pt' );
+$wgTranslateLanguageFallbacks['jdt-cyrl'] = 'ru';
 $wgTranslateLanguageFallbacks['ka'] = 'de';
 $wgTranslateLanguageFallbacks['kab'] = 'fr';
 $wgTranslateLanguageFallbacks['kac'] = array( 'my' );
