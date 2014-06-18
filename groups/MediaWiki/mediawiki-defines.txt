@@ -227,6 +227,8 @@ optional = bookmanagerv2-isbn-field, bookmanagerv2-lccn-field, bookmanagerv2-ocl
 
 Bootstrap
 
+Bounce Handler
+
 Bread Crumbs
 
 Calendar
