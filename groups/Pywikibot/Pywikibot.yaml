@@ -336,6 +336,14 @@ FILES:
   definitionFile: %GROUPROOT%/pywikibot/revertbot.py
 ---
 BASIC:
+  id: out-pywikipedia-selflink
+  label: Pywikibot Selflink
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/selflink.py
+  definitionFile: %GROUPROOT%/pywikibot/selflink.py
+---
+BASIC:
   id: out-pywikipedia-solvedisambiguation
   label: Pywikibot Solve Disambiguation
 
