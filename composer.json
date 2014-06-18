@@ -4,6 +4,7 @@
 		"psr/log": "1.0.0",
 		"mediawiki/semantic-media-wiki": "@dev",
 		"mediawiki/semantic-maps": "@dev",
+		"mediawiki/semantic-forms": "@dev",
 		"ruflin/elastica": "*"
 	},
 	"minimum-stability": "dev"
