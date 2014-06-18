@@ -326,6 +326,8 @@ ignored = commenttab-editintro, commenttab-preload
 
 Comments
 
+Common Messages
+
 Commons Metadata
 
 Community Twitter
