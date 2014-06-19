@@ -207,5 +207,15 @@ class users {
       managehome => true,
       home       => '/home/kartik',
       comment    => 'Kartik Mistry';
+    'yuvipanda':
+      ensure     => present,
+      uid        => 1019,
+      gid        => 'users',
+      groups     => ['betawiki'],
+      shell      => '/bin/bash',
+      password   => '',
+      managehome => true,
+      home       => '/home/yuvipanda',
+      comment    => 'Yuvi Panda';
   }
 }
