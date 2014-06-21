@@ -41,4 +41,6 @@ node default {
   elasticsearch::plugin { 'mobz/elasticsearch-head':
     module_dir => 'head'
   }
+
+  sysctl { 'net.ipv4.tcp_window_scaling': value => '1' }
 }

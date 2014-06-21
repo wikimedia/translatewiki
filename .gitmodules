@@ -25,3 +25,6 @@
 [submodule "puppet/modules/composer"]
 	path = puppet/modules/composer
 	url = git://github.com/tPl0ch/puppet-composer.git
+[submodule "puppet/modules/sysctl"]
+	path = puppet/modules/sysctl
+	url = https://github.com/thias/puppet-sysctl
