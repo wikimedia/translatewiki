@@ -461,7 +461,7 @@ require "$IP/extensions/BetaFeatures/BetaFeatures.php";
 
 # Dynamic code starts here
 
-/*$wgHooks['GetBetaFeaturePreferences'][] = function ( $user, &$prefs ) {
+$wgHooks['GetBetaFeaturePreferences'][] = function ( $user, &$prefs ) {
 	$prefs['hhvm-beta'] = array(
 		'label-message' => 'hhvm-beta-label',
 		'desc-message' => 'hhvm-beta-desc',
@@ -469,7 +469,7 @@ require "$IP/extensions/BetaFeatures/BetaFeatures.php";
 		'info-link' => 'http://www.hhvm.com/blog/',
 		'discussion-link' => '/wiki/Thread:Support/HHVM',
 	);
-};*/
+};
 $wgHooks['BeforePageDisplay'][] = function ( OutputPage $out ) {
 	$req = $out->getRequest();
 	$user = $out->getUser();
