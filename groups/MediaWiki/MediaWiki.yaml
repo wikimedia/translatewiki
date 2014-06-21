@@ -140,6 +140,7 @@ TAGS:
     - image_sample
     - img-lang-opt
     - interlanguage-link-title
+    - interlanguage-link-title-nonlang
     - iranian-calendar-m1
     - iranian-calendar-m10
     - iranian-calendar-m11
@@ -376,6 +377,7 @@ TAGS:
     - history_copyright
     - import-summary
     - interlanguage-link-title-langonly
+    - interlanguage-link-title-nonlangonly
     - ipb-default-expiry
     - javascripttest-backlink
     - javascripttest-qunit-name
