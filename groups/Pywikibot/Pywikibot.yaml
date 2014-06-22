@@ -276,6 +276,14 @@ FILES:
   definitionFile: %GROUPROOT%/pywikibot/noreferences.py
 ---
 BASIC:
+  id: out-pywikipedia-pagefromfile
+  label: Pywikibot Page from File
+
+FILES:
+  sourcePattern: %GROUPROOT%/pywikibot/pagefromfile.py
+  definitionFile: %GROUPROOT%/pywikibot/pagefromfile.py
+---
+BASIC:
   id: out-pywikipedia-pywikibot
   label: Pywikibot Pywikibot
 
