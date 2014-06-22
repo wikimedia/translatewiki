@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee391fd1_283a7fe4",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 532,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-06-22T17:03:49Z",
+      "side": 1,
+      "message": "perhaps: MonoBook Skin",
+      "revId": "8a5fdddc2faa6bc534d17fb84d8bc599f3d3d25f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee391fd1_483703fd",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 536,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-06-22T17:03:49Z",
+      "side": 1,
+      "message": "I would leave descriptions off for now. I expect the skins will get a description message, not unlike extensions, in near future which we can reuse.",
+      "revId": "8a5fdddc2faa6bc534d17fb84d8bc599f3d3d25f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
