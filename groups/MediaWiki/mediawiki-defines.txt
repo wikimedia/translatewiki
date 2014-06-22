@@ -737,6 +737,7 @@ file = GlobalCssJs/i18n/core/%CODE%.json
 #file = GlobalCssJs/i18n/central/%CODE%.json
 
 Global Preferences
+aliasfile = GlobalPreferences/GlobalPreferences.alias.php
 descmsg = globalprefs-desc
 
 Global Usage
