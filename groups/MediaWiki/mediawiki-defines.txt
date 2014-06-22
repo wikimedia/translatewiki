@@ -703,6 +703,8 @@ Fundraiser Landing Page
 ignored = fundraiserlandingpage-wmch-landing-page, fundraiserlandingpage-wmde-landing-page
 ignored = fundraiserlandingpage-wmfr-landing-page, fundraiserlandingpage-wmuk-landing-page
 
+Fundraising Chart
+
 # Fundraising Email Unsubscribe / Git repo somehow broken: fatal: Not a git repository (or any of the parent directories): .git
 
 Gadgets
