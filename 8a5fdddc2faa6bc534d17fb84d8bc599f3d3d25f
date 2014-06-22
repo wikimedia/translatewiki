@@ -33,6 +33,24 @@
       "revId": "8a5fdddc2faa6bc534d17fb84d8bc599f3d3d25f",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee391fd1_2ef28703",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 536,
+      "author": {
+        "id": 417
+      },
+      "writtenOn": "2014-06-22T23:39:58Z",
+      "side": 1,
+      "message": "They already do, exactly like extensions, and this was always supported for skins. I\u0027m adding the messages for core skins in https://gerrit.wikimedia.org/r/#/c/141127/ (pending review, feel free to merge :) ).",
+      "parentUuid": "ee391fd1_483703fd",
+      "revId": "8a5fdddc2faa6bc534d17fb84d8bc599f3d3d25f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
