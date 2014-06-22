@@ -26,6 +26,10 @@ aliasfile = AdminLinks/AdminLinks.alias.php
 
 Ads
 
+# Missing message documentation qqq
+# Advanced Meta
+# descmsg = ameta-desc
+
 Agora
 
 # Missing message documentatin
