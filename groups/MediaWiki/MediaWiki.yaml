@@ -10,6 +10,8 @@ GROUPS:
   - core
   - ext-0-all
   - ext-installer
+  - mediawiki-skins-monobook
+  - mediawiki-skins-vector
 
 ---
 BASIC:
@@ -166,8 +168,6 @@ TAGS:
     - minutes-abbrev
     - modern.css
     - modern.js
-    - monobook.css
-    - monobook.js
     - nocookiesforlogin
     - noscript.css
     - pageinfo-redirects-value
@@ -197,8 +197,6 @@ TAGS:
     - size-zetabytes
     - skinname-cologneblue
     - skinname-modern
-    - skinname-monobook
-    - skinname-vector
     - sorbs
     - sp-contributions-explain
     - timezone-utc
@@ -245,8 +243,6 @@ TAGS:
     - variantname-zh-my
     - variantname-zh-sg
     - variantname-zh-tw
-    - vector.css
-    - vector.js
     - version-api
     - version-entrypoints-articlepath
     - version-entrypoints-scriptpath
@@ -529,3 +525,41 @@ TAGS:
     - config-type-postgres
     - config-type-sqlite
     - config-type-oracle
+
+---
+BASIC:
+  id: mediawiki-skins-monobook
+  label: MonoBook Skin
+  icon: wiki://Mediawiki-logo.png
+  class: FileBasedMessageGroup
+  namespace: NS_MEDIAWIKI
+  description: "{{int:monobook-desc}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/mediawiki/master/skins/MonoBook/i18n/%CODE%.json
+
+TAGS:
+  optional:
+    - monobook.css
+    - monobook.js
+    - skinname-monobook
+
+---
+BASIC:
+  id: mediawiki-skins-vector
+  label: Vector Skin
+  icon: wiki://Mediawiki-logo.png
+  class: FileBasedMessageGroup
+  namespace: NS_MEDIAWIKI
+  description: "{{int:vector-desc}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: %GROUPROOT%/mediawiki/master/skins/Vector/i18n/%CODE%.json
+
+TAGS:
+  optional:
+    - skinname-vector
+    - vector.css
+    - vector.js
