@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "ee391fd1_d9ad0730",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-06-23T11:42:08Z",
+      "side": 1,
+      "message": "Please add these as comments instead.",
+      "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ee391fd1_d98627be",
         "filename": "groups/MediaWiki/MediaWiki.yaml",
         "patchSetId": 4
@@ -13,6 +30,23 @@
       "writtenOn": "2014-06-23T11:39:28Z",
       "side": 1,
       "message": "This group hasn\u0027t yet been defined. You should add it. It should contain mediawiki-core*, same as this aggregate group.",
+      "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee391fd1_39bd3364",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-06-23T11:42:08Z",
+      "side": 1,
+      "message": "Please do not change this, it will break existing links.",
       "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
