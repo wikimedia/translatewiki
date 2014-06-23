@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee391fd1_d98627be",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-06-23T11:39:28Z",
+      "side": 1,
+      "message": "This group hasn\u0027t yet been defined. You should add it. It should contain mediawiki-core*, same as this aggregate group.",
+      "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
