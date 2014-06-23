@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "ee391fd1_f409f22f",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2014-06-23T11:49:40Z",
+      "side": 1,
+      "message": "That means creating a file MediaWikiAgg.yaml? Similar like ExtensionsAgg.yaml?",
+      "parentUuid": "ee391fd1_d98627be",
+      "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ee391fd1_39bd3364",
         "filename": "groups/MediaWiki/MediaWiki.yaml",
         "patchSetId": 4
@@ -47,6 +65,24 @@
       "writtenOn": "2014-06-23T11:42:08Z",
       "side": 1,
       "message": "Please do not change this, it will break existing links.",
+      "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee391fd1_792f3b9d",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2014-06-23T11:49:40Z",
+      "side": 1,
+      "message": "Hmm. Same for the change below \"ext-installer\" -\u003e \"mediawiki-core-installer\"?",
+      "parentUuid": "ee391fd1_39bd3364",
       "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
