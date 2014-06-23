@@ -122,6 +122,24 @@
       "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee391fd1_67ec2d21",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-06-23T22:13:30Z",
+      "side": 1,
+      "message": "From a quick count, at least 5 % of all links from Wikimedia projects to twn include the string \"core\". That\u0027s where a good chunk of our prospective translators land and we should not disappoint them by making them miss what they\u0027re looking for.",
+      "parentUuid": "ee391fd1_f457b203",
+      "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
