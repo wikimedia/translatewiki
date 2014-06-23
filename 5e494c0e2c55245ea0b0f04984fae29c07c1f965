@@ -54,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "ee391fd1_145596fd",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-06-23T11:57:48Z",
+      "side": 1,
+      "message": "Possible, but you can also add something like this in this file.\n\n BASIC:\n   id: mediawiki-core-0-all\n   label: MediaWiki core\n   icon: wiki://Mediawiki-logo.png\n   meta: yes\n   class: AggregateMessageGroup\n   namespace: NS_MEDIAWIKI\n\n  GROUPS:\n   - mediawiki-core*\n\nDont\u0027 forget to add a separator \"---\" in the right place.",
+      "parentUuid": "ee391fd1_f409f22f",
+      "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ee391fd1_39bd3364",
         "filename": "groups/MediaWiki/MediaWiki.yaml",
         "patchSetId": 4
@@ -83,6 +101,24 @@
       "side": 1,
       "message": "Hmm. Same for the change below \"ext-installer\" -\u003e \"mediawiki-core-installer\"?",
       "parentUuid": "ee391fd1_39bd3364",
+      "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee391fd1_f457b203",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-06-23T11:57:48Z",
+      "side": 1,
+      "message": "Shit happens... Sometimes we break things. I think it\u0027s about time \"core\" was changed to something more descriptive.",
+      "parentUuid": "ee391fd1_792f3b9d",
       "revId": "5e494c0e2c55245ea0b0f04984fae29c07c1f965",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
