@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee391fd1_5918f7d7",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-06-23T11:22:34Z",
+      "side": 1,
+      "message": "I think we should introduce a mediawiki-core-0-all aggregate group that contains mediawiki-core-*. See more below.",
+      "revId": "f67a1e9762b6e5273365c5b946814a8a906839bf",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee391fd1_79205bf2",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-06-23T11:22:34Z",
+      "side": 1,
+      "message": "rename to mediawiki-core",
+      "revId": "f67a1e9762b6e5273365c5b946814a8a906839bf",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee391fd1_f9144ba2",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 511,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-06-23T11:22:34Z",
+      "side": 1,
+      "message": "mediawiki-core-installer",
+      "revId": "f67a1e9762b6e5273365c5b946814a8a906839bf",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee391fd1_391bf3d5",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 531,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-06-23T11:22:34Z",
+      "side": 1,
+      "message": "mediawiki-core-skins-monobook",
+      "revId": "f67a1e9762b6e5273365c5b946814a8a906839bf",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee391fd1_19126fb6",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 550,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-06-23T11:22:34Z",
+      "side": 1,
+      "message": "mediawiki-core-skins-vector",
+      "revId": "f67a1e9762b6e5273365c5b946814a8a906839bf",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
