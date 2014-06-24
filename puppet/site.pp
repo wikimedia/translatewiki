@@ -33,9 +33,15 @@ node default {
   }
 
   class { 'elasticsearch':
-    manage_repo  => true,
-    repo_version => '1.1',
-    config       => {},
+    manage_repo   => true,
+    repo_version  => '1.2',
+    config        => {
+        'script.disable_dynamic' => false,
+    },
+    java_install  => true,
+    init_defaults => {
+        'ES_HEAP_SIZE' => '3g',
+    },
   }
 
   elasticsearch::plugin { 'mobz/elasticsearch-head':
