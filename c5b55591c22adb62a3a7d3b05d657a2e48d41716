@@ -16,6 +16,23 @@
       "revId": "c5b55591c22adb62a3a7d3b05d657a2e48d41716",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae43a74e_6f00f16d",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 540,
+      "author": {
+        "id": 417
+      },
+      "writtenOn": "2014-06-24T14:02:46Z",
+      "side": 1,
+      "message": "I\u0027m not sure what the \u0027id\u0027 does, but it doesn\u0027t seem appropriate to put the skins under \u0027core\u0027, especially since I will be moving them out to separate repositories in a month or so.",
+      "revId": "c5b55591c22adb62a3a7d3b05d657a2e48d41716",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
