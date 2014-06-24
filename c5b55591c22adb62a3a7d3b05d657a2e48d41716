@@ -33,6 +33,24 @@
       "revId": "c5b55591c22adb62a3a7d3b05d657a2e48d41716",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae43a74e_55a49c04",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 540,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2014-06-24T17:06:35Z",
+      "side": 1,
+      "message": "Personally I do not care about the \"core\" here. But please consider 2 important points before moving them to separate repos:\n\n1. Bug 65040 - [twn] Support gerrit repos in mediawiki/skins\n\nMust be fixed first otherwise no translations will be exported and all wikis will show the English fallback messges (more important for Vector than for MonoBook)\n\n2. $wgLocalisationUpdateRepositories needs updated in CommonsSettings.php",
+      "parentUuid": "ae43a74e_6f00f16d",
+      "revId": "c5b55591c22adb62a3a7d3b05d657a2e48d41716",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
