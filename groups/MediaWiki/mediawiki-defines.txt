@@ -205,6 +205,11 @@ descmsg = bs-statebar-desc
 file = BlueSpiceExtensions/StateBar/i18n/%CODE%.json
 optional = bs-statebar-viewtoggler
 
+Blue Spice - Universal Export
+id = ext-bs-universalexport
+descmsg = bs-universalexport-desc
+file = BlueSpiceExtensions/UniversalExport/i18n/%CODE%.json
+
 Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
