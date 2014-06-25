@@ -1111,6 +1111,9 @@ descmsg = mwoauth-desc
 ignored = mwoauth-form-legal
 optional = oauth, mwoauth-listgrantrights-right-display
 
+OdbcDatabase
+aliasfile = OdbcDatabase/OdbcDatabase.alias.php
+
 Ogg Handler
 magicfile = OggHandler/OggHandler.i18n.magic.php
 descmsg = ogg-desc
