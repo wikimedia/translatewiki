@@ -17,6 +17,9 @@ ignored=accountinfo-none
 
 # Active Abstract : No real extension. Plugin for dumpBackup.php
 
+Activity Monitor
+aliasfile = ActivityMonitor/ActivityMonitor.i18n.alias.php
+
 Ad Manager
 
 Add This
