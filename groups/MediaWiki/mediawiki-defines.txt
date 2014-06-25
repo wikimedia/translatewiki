@@ -814,6 +814,7 @@ Help Pages
 Hide Prefix
 
 Host Stats
+aliasfile = HostStats/HostStats.alias.php
 ignored = hoststats
 
 Hovergallery
