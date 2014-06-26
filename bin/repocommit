@@ -140,7 +140,8 @@ then
 	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
 	do
 		cd "$BRANCH"
-		git commit -a -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
+		git add .
+		git commit -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
 		cd ..
 	done
 	cd ..
