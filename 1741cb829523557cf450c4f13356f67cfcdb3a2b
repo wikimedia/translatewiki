@@ -16,6 +16,23 @@
       "revId": "1741cb829523557cf450c4f13356f67cfcdb3a2b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae43a74e_4a550452",
+        "filename": "puppet/modules/users/manifests/init.pp",
+        "patchSetId": 4
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 730
+      },
+      "writtenOn": "2014-06-26T19:28:38Z",
+      "side": 1,
+      "message": "my user name is mhurd",
+      "revId": "1741cb829523557cf450c4f13356f67cfcdb3a2b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
