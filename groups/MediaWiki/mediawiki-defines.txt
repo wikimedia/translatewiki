@@ -784,6 +784,9 @@ aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
 
 Google Doc Tag
 
+Google Login
+aliasfile = GoogleLogin/GoogleLogin.alias.php
+
 #Google Maps / Archived in June 2013
 
 Google News Sitemap
