@@ -72,6 +72,7 @@ GROUPS:
   - ext-nuke
   - ext-oai
   - ext-oauth # 2013-08-19
+  - ext-oathauth # 2014-06-28 Used on https://wikitech.wikimedia.org
   - ext-opensearchxml
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-pageimages # 2012 on all wikis
