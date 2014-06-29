@@ -94,6 +94,9 @@ $wgUseTeX = true;
 $wgFileExtensions = array( 'png', 'gif', 'jpg', 'jpeg', 'ogg', 'pdf', 'svg' );
 $wgStrictFileExtensions = true;
 
+# Temporary till enabled by default in core, bug 9360
+$wgPageLanguageUseDB = true;
+
 ###
 # Extensions
 ###
