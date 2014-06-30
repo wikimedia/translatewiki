@@ -22,6 +22,8 @@ aliasfile = ActivityMonitor/ActivityMonitor.i18n.alias.php
 
 Ad Manager
 
+Add Messages
+
 Add This
 
 Admin Links
