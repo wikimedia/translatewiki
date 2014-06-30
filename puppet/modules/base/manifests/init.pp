@@ -1,6 +1,7 @@
 class base {
   package { [
     # Basic packages
+    'acl',
     'ack-grep',
     'apticron', # Daily message about available updates to root
     'bash-completion',
