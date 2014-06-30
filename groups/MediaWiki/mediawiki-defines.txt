@@ -1034,6 +1034,7 @@ optional = multimediaviewer-geoloc-south, multimediaviewer-geoloc-west
 optional = multimediaviewer-geoloc-coord, multimediaviewer-geoloc-coords
 optional = multimediaviewer-html-embed-credit-text-t, multimediaviewer-embed-dimensions
 optional = multimediaviewer-embed-dimensions-separated
+optional = multimediaviewer-text-embed-credit-text-t, multimediaviewer-attr-html
 ignored = multimediaviewer-embed-dimensions-with-file-format
 
 MW Search
