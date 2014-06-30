@@ -61,3 +61,7 @@ ignored = voiceintro-title
 What leaves here
 
 Wikiviewstats
+
+X's Tools
+id = tsint-xtools
+file = Xtools.i18n.php
