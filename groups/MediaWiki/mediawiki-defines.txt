@@ -224,6 +224,11 @@ Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
 
+Blue Spice - Watch List
+id = ext-bs-watchlist
+descmsg = bs-watchlist-desc
+file = BlueSpiceExtensions/WatchList/i18n/%CODE%.json
+
 Blue Spice - Widget Bar
 id = ext-bs-widgetbar
 descmsg = bs-widgetbar-desc
