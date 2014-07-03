@@ -50,6 +50,8 @@ $wgGroupPermissions['import'       ]['importupload']            = true;
 $wgGroupPermissions['sysop'        ]['import']                  = false;
 $wgGroupPermissions['sysop'        ]['importupload']            = false;
 $wgGroupPermissions['sysop'        ]['suppressredirect']        = true;
+# Temporary until core extends it, bug 9360
+$wgGroupPermissions['sysop'        ]['pagelang']                = true;
 
 $wgGroupPermissions['bureaucrat'   ]['deletelogentry']          = true;
 $wgGroupPermissions['bureaucrat'   ]['deleterevision']          = true;
@@ -61,7 +63,6 @@ $wgGroupPermissions['bureaucrat'   ]['suppressionlog']          = true;
 $wgGroupPermissions['bureaucrat'   ]['translate-sandboxmanage'] = true;
 $wgGroupPermissions['bureaucrat'   ]['userrights']              = false;
 $wgGroupPermissions['bureaucrat'   ]['invitesignup']            = true;
-
 
 $wgGroupPermissions['staff'        ]['apc']                     = true;
 $wgGroupPermissions['staff'        ]['nuke']                    = true;
