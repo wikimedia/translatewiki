@@ -215,6 +215,11 @@ descmsg = bs-statebar-desc
 file = BlueSpiceExtensions/StateBar/i18n/%CODE%.json
 optional = bs-statebar-viewtoggler
 
+Blue Spice - Top Menu Bar Customizer
+id = ext-bs-topmenubarcustomizer
+descmsg = bs-topmenubarcustomizer-desc
+file = BlueSpiceExtensions/TopMenuBarCustomizer/i18n/%CODE%.json
+
 Blue Spice - Universal Export
 id = ext-bs-universalexport
 descmsg = bs-universalexport-desc
@@ -233,6 +238,11 @@ Blue Spice - Widget Bar
 id = ext-bs-widgetbar
 descmsg = bs-widgetbar-desc
 file = BlueSpiceExtensions/WidgetBar/i18n/%CODE%.json
+
+Blue Spice - Wiki Admin
+id = ext-bs-wikiadmin
+descmsg = bs-wikiadmin-desc
+file = BlueSpiceExtensions/WikiAdmin/i18n/%CODE%.json
 
 Boiler Plate
 file = examples/BoilerPlate/i18n/%CODE%.json
