@@ -204,10 +204,21 @@ id = ext-bs-insertlink
 descmsg = bs-insertlink-desc
 file = BlueSpiceExtensions/InsertLink/i18n/%CODE%.json
 
+Blue Spice - Inter Wiki Links
+id = ext-bs-interwikilinks
+descmsg = bs-interwikilinks-desc
+file = BlueSpiceExtensions/InterWikiLinks/i18n/%CODE%.json
+optional = bs-interwikilinks-headerurl, bs-interwikilinks-labelurl
+
 Blue Spice - Page Access
 id = ext-bs-pageaccess
 descmsg = bs-pageaccess-desc
 file = BlueSpiceExtensions/PageAccess/i18n/%CODE%.json
+
+Blue Spice - Shout Box
+id = ext-bs-shoutbox
+descmsg = bs-shoutbox-desc
+file = BlueSpiceExtensions/ShoutBox/i18n/%CODE%.json
 
 Blue Spice - State Bar
 id = ext-bs-statebar
