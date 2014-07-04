@@ -18,7 +18,6 @@ $wgExperimentalHtmlIds = true; # Nike 2010-01-30
 $wgAllUnicodeFixes = true;
 $wgAdaptiveMessageCache = true; # Nike 2010-08-08
 $wgDevelopmentWarnings = true;
-$wgAdvancedSearchHighlighting = true;
 
 if ( !defined( 'HHVM_VERSION' ) ) {
 	$wgExternalDiffEngine = 'wikidiff2';
@@ -148,8 +147,15 @@ $wgExtraNamespaces[NS_TRANSLATING_TALK] = 'Translating_talk';
 $wgContentNamespaces[] = NS_MEDIAWIKI;
 $wgContentNamespaces[] = NS_TRANSLATING;
 
+###
+# Search
+###
 $wgNamespacesToBeSearchedDefault[NS_MAIN] = true;
 $wgNamespacesToBeSearchedDefault[NS_MEDIAWIKI] = true;
+require_once "$IP/extensions/Elastica/Elastica.php";
+require_once "$IP/extensions/CirrusSearch/CirrusSearch.php";
+$wgSearchType = 'CirrusSearch';
+$wgAdvancedSearchHighlighting = true;
 
 include( "$IP/extensions/I18nTags/I18nTags.php" );
 include( "$IP/extensions/Translate/Translate.php" );
