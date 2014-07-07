@@ -2024,7 +2024,7 @@ ignored = wminc-infopage-prefill, wminc-manual-url, wminc-infopage-links
 
 Wikimedia Messages
 file = WikimediaMessages/i18n/wikimedia/%CODE%.json
-ignored = sidebar, robots.txt
+ignored = robots.txt
 ignored = extdist-branch-REL1_19, extdist-branch-REL1_20, extdist-branch-REL1_21
 ignored = extdist-branch-REL1_22
 ignored = wikimedia-developers-url
@@ -2039,10 +2039,10 @@ optional = grouppage-recursive-export, wikimedia-mobile-terms-url
 optional = wikibase-repo-name, wikibase-otherprojects-commons
 optional = wikibase-otherprojects-wikiquote, wikibase-otherprojects-wikipedia
 optional = wikibase-otherprojects-wikisource, wikibase-otherprojects-wikivoyage
-prefix = wmf- | sidebar, grouppage-Staff, group-Staff, group-Staff-member
+prefix = wmf- | grouppage-Staff, group-Staff, group-Staff-member
 prefix = wmf- | group-patroller, group-patroller-member, grouppage-patroller
-prefix = wmf- | createacct-helpusername-url, createacct-helpusername
-prefix = wmf- | createacct-captcha-help-url, createacct-imgcaptcha-help
+prefix = wmf- | createacct-helpusername-url
+prefix = wmf- | createacct-captcha-help-url
 prefix = wmf- | search-interwiki-custom
 
 Wikimedia Contact Page Messages
@@ -2068,6 +2068,10 @@ optional = wm-license-pd-usgov-military-air-force-wiki-link, wm-license-pd-usgov
 optional = wm-license-pd-usgov-military-navy-wiki-link, wm-license-pd-usgov-noaa-wiki-link, wm-license-pd-wiki-link
 ignored = wm-license-gfdl-full-1.2-link, wm-license-gfdl-full-1.3-link, wm-license-gpl-2-full-link, wm-license-gpl-3-full-link
 ignored = wm-license-lgpl-2.1-full-link, wm-license-lgpl-3-full-link
+
+Wikimedia Overrides
+file = WikimediaMessages/i18n/wikimediaoverrides/%CODE%.json
+ignored = wikimedia-sidebar
 
 Wikimedia Shop Link
 
