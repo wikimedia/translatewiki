@@ -20,7 +20,7 @@ node default {
   include translationmemory
   include users
   include composer
-#  include hhvm
+  include hhvm
   include kitano-nl
 
   class { 'backup':
