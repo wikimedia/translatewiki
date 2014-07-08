@@ -167,6 +167,11 @@ file = BlueSpiceFoundation/i18n/credits/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
 id = ext-bs-credits
 
+Blue Spice - Dashboards
+id = ext-bs-dashboards
+descmsg = bs-dashboards-desc
+file = BlueSpiceExtensions/Dashboards/i18n/%CODE%.json
+
 Blue Spice - Diagnostics
 file = BlueSpiceFoundation/i18n/diagnostics/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Diagnostics.alias.php
@@ -215,6 +220,11 @@ Blue Spice - Page Access
 id = ext-bs-pageaccess
 descmsg = bs-pageaccess-desc
 file = BlueSpiceExtensions/PageAccess/i18n/%CODE%.json
+
+Blue Spice - Pages Visited
+id = ext-bs-pagesvisited
+descmsg = bs-pagesvisited-desc
+file = BlueSpiceExtensions/PagesVisited/i18n/%CODE%.json
 
 Blue Spice - Secure File Store
 id = ext-bs-securefilestore
