@@ -216,6 +216,11 @@ id = ext-bs-pageaccess
 descmsg = bs-pageaccess-desc
 file = BlueSpiceExtensions/PageAccess/i18n/%CODE%.json
 
+Blue Spice - Secure File Store
+id = ext-bs-securefilestore
+descmsg = bs-securefilestore-desc
+file = BlueSpiceExtensions/SecureFileStore/i18n/%CODE%.json
+
 Blue Spice - Shout Box
 id = ext-bs-shoutbox
 descmsg = bs-shoutbox-desc
@@ -240,6 +245,11 @@ file = BlueSpiceExtensions/UniversalExport/i18n/%CODE%.json
 Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
+
+Blue Spice - Wanted Article
+id = ext-bs-wantedarticle
+descmsg = bs-wantedarticle-desc
+file = BlueSpiceExtensions/WantedArticle/i18n/%CODE%.json
 
 Blue Spice - Watch List
 id = ext-bs-watchlist
