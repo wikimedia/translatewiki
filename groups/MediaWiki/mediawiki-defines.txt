@@ -237,6 +237,11 @@ id = ext-bs-topmenubarcustomizer
 descmsg = bs-topmenubarcustomizer-desc
 file = BlueSpiceExtensions/TopMenuBarCustomizer/i18n/%CODE%.json
 
+Blue Spice - UE Module PDF
+id = ext-bs-uemodulepdf
+descmsg = bs-uemodulepdf-desc
+file = BlueSpiceExtensions/UEModulePDF/i18n/%CODE%.json
+
 Blue Spice - Universal Export
 id = ext-bs-universalexport
 descmsg = bs-universalexport-desc
@@ -255,6 +260,11 @@ Blue Spice - Watch List
 id = ext-bs-watchlist
 descmsg = bs-watchlist-desc
 file = BlueSpiceExtensions/WatchList/i18n/%CODE%.json
+
+Blue Spice - Who Is Online
+id = ext-bs-whoisonline
+descmsg = bs-whoisonline-desc
+file = BlueSpiceExtensions/WhoIsOnline/i18n/%CODE%.json
 
 Blue Spice - Widget Bar
 id = ext-bs-widgetbar
