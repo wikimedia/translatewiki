@@ -1,13 +1,6 @@
 class mariadb {
-  # Per https://mariadb.com/kb/en/installing-mariadb-deb-files/
-  apt::pin { 'mariadb':
-    priority => 1000,
-    origin   => 'mirrors.n-ix.net'
-  }
-
   class { '::mysql::server':
     package_name     => 'mariadb-server',
-    require          => Apt::Source['mariadb'],
     restart          => false,
     override_options => {
       mysqld => {
@@ -32,6 +25,5 @@ class mariadb {
 
   class { '::mysql::client':
     package_name => 'mariadb-client',
-    require      => Apt::Source['mariadb']
   }
 }

@@ -7,10 +7,6 @@ $GROUPS = __DIR__ . '/groups';
 $wgSpecialPages['Magic'] = 'SpecialMagic';
 $wgTranslateNewsletterPreference = true;
 
-if ( !defined( 'HHVM_VERSION' ) ) {
-	$wgTranslateYamlLibrary = 'syck-pecl';
-}
-
 $wgTranslateCacheDirectory = "/www/translatewiki.net/w/cache";
 $wgTranslateEC = array();
 $wgTranslateFuzzyBotName = 'FuzzyBot';

@@ -5,7 +5,6 @@ class nginx {
   package { 'nginx':
     ensure  => present,
     name    => 'nginx-extras',
-    require => Apt::Ppa['ppa:nginx/stable'],
   }
 
   service { 'nginx':

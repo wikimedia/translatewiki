@@ -205,7 +205,6 @@ $wgBabelCategoryNames = array(
 	'N' => 'User_%code%-N'
 );
 $wgBabelMainCategory = 'User_%code%';
-include( "$IP/extensions/APC/APC.php" );
 include( "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php" );
 include( "$IP/extensions/Interwiki/Interwiki.php" ); # Added by Raymond 2009-01-07
 include( "$IP/extensions/Nuke/Nuke.php" ); # Nike 2009-01-12
