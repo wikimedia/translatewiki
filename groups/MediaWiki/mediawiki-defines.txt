@@ -135,6 +135,9 @@ ignored = betafeatures-test-check-field, betafeatures-test-feature-field
 
 Biblio Plus
 
+# Missing message documentation - 2014-07-08 RS
+#Block And Nuke
+
 # Missing message documentation - 2014-01-28 RS
 #Blog Page
 
@@ -898,6 +901,9 @@ magicfile = I18nTags/I18nTags.magic.php
 If Templates
 
 Iframe Page
+
+# Incompatible i18n file - 2014-07-09 RS
+#Image Link
 
 Image Map
 descmsg = imagemap_desc
