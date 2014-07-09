@@ -19,17 +19,6 @@ Create /etc/webauth
 
 ------------------
 
-Install syck_load
-
-Follow instructions at https://github.com/example42/puppet-php
-Create /etc/php5/conf.d/20-syck.ini:
-  extension=syck.so
-
-And restart php5-fpm
-
-
-------------------
-
 for module in 'YAML::Syck' 'PHP::Serialization' 'File::Slurp'; do cpanp -i $module; done
 
 ------------------
@@ -58,12 +47,12 @@ iface eth0 inet6 static
  address 2a03:4000:6:55::1
  netmask 64
 
- up ip -6 ro add 2a03:4000:6:55::2 dev eth0
- up ip -6 ro add default via 2a03:4000:6:55::1 dev eth0
- up ip -6 addr add 2a03:4000:6:55::2/64 dev eth0
+auto eth0:1
+iface eth0:1 inet6 static
+ address 2a03:4000:6:55::2
+ netmask 64
 ---
-Restart enable the IPv6 addresses:
-/etc/init.d/networking restart
+Reboot the machine enabled the IP configuration.
 
 ------------------
 
