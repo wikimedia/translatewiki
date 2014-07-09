@@ -1151,7 +1151,8 @@ No Title
 
 Nonlinear
 
-Nostalgia
+# moved to mediawiki/skins/Nostalgia
+#Nostalgia
 
 NS File Repo
 file = NSFileRepo/i18n/nsfilerepo/%CODE%.json
