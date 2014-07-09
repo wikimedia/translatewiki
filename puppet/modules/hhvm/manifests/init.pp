@@ -1,27 +1,51 @@
+# == Class: hhvm
+#
+# Configures hhvm for MediaWiki to run in fastcgi mode.
+#
 class hhvm {
-  include apt
-
-  apt::source { 'hhvm':
-    location    => 'http://dl.hhvm.com/ubuntu',
-    repos       => 'main',
-    key         => '1BE7A449',
-    key_server  => 'pgp.mit.edu',
-    include_src => false,
+  file { '/tmp/wikimedia.key':
+    source => 'puppet:///modules/hhvm/wikimedia.key',
   }
 
-  apt::ppa { 'ppa:mapnik/boost': }
-
-  package { 'hhvm-nightly':
-    ensure  => present,
-    require => Apt::Source['hhvm'],
+  apt::key { 'wikimedia':
+    key        => '09DBD9F93F6CD44A',
+    key_source => '/tmp/wikimedia.key',
+    require    => File['/tmp/wikimedia.key'],
   }
 
-  # Upstart configuration
-  file { '/etc/init/hhvm-fastcgi.conf':
+  apt::source { 'wikimedia':
+    location => 'http://apt.wikimedia.org/wikimedia',
+    release  => "${::lsbdistcodename}-wikimedia",
+    repos    => 'main universe',
+    require  => Apt::Key['wikimedia'],
+  }
+
+  package { [ 'hhvm', 'hhvm-dev', 'hhvm-fss', 'hhvm-luasandbox', 'hhvm-wikidiff2' ]:
+    before  => Service['hhvm'],
+    require => Apt::Source['wikimedia'],
+  }
+
+  package { 'hhvm-nightly': ensure => absent, }
+
+  file { '/etc/hhvm':
+    ensure => directory,
+  }
+
+  file { '/etc/init/hhvm.conf':
     source  => 'puppet:///modules/hhvm/upstart',
+    require => Package['hhvm'],
+    notify  => Service['hhvm'],
   }
 
-  file { '/etc/hhvm/server.ini':
-    source  => 'puppet:///modules/hhvm/server.ini',
+  file { '/etc/hhvm/config.hdf':
+    source  => 'puppet:///modules/hhvm/config.hdf',
+    require => Package['hhvm'],
+    notify  => Service['hhvm'],
+  }
+
+  service { 'hhvm':
+    ensure   => running,
+    provider => upstart,
+    require  => File['/etc/init/hhvm.conf'],
   }
 }
