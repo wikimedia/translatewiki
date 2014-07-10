@@ -61,7 +61,7 @@ class base {
     content => 'translatewiki.net',
   }
 
-  file { '/etc/networking/interfaces':
+  file { '/etc/network/interfaces':
     source => 'puppet:///modules/base/interfaces'
   }
 }
