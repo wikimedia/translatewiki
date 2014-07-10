@@ -6,20 +6,34 @@ apt-get dist-upgrade
 apt-get install -y git puppet make
 cd root
 git clone https://gerrit.wikimedia.org/r/translatewiki
-* Create a user and an authorized_keys file for that user
-* User must have sudo rights (see sudo module)
-* Execute:
-cd /root/translatewiki/puppet
-make test
-make noop
+cd /root/translatewiki
+git submodule init
+git submodule update
+cd puppet
 make apply
-
 ------------------
-Create /etc/webauth
-
+mkdir /etc/webauth
 ------------------
 
+Add to /etc/network/interfaces:
+---
+iface eth0 inet6 static
+ address 2a03:4000:6:55::1
+ netmask 64
+
+auto eth0:1
+iface eth0:1 inet6 static
+ address 2a03:4000:6:55::2
+ netmask 64
+---
+Reboot the machine enabled the IP configuration.
+------------------
 for module in 'YAML::Syck' 'PHP::Serialization' 'File::Slurp'; do cpanp -i $module; done
+------------------
+Install phpunit
+
+Go to mediawiki/tests/phpunit
+ sudo sh install-phpunit.sh
 
 ------------------
 
@@ -38,25 +52,9 @@ Adapt the same for FastStringSearch which is located at
 https://gerrit.wikimedia.org/r/mediawiki/php/FastStringSearch
 
 And restart php5-fpm if needed.
+-----------------------
+Put backup keys in /root/.ssh/
+-----------------------
 
-------------------
-
-Add to /etc/network/interfaces:
----
-iface eth0 inet6 static
- address 2a03:4000:6:55::1
- netmask 64
-
-auto eth0:1
-iface eth0:1 inet6 static
- address 2a03:4000:6:55::2
- netmask 64
----
-Reboot the machine enabled the IP configuration.
-
-------------------
-
-Install phpunit (distro version too old)
-
-Go to mediawiki/tests/phpunit
- sudo sh install-phpunit.sh
+TODO:
+* Fix Wikimedia key import (add to puppet and process correctly)
