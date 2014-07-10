@@ -83,7 +83,6 @@ intuition \
 jquery.uls \
 kiwix \
 mathjax
-mifos \
 nfcring-control \
 pywikibot \
 vicuna \
@@ -129,6 +128,10 @@ then
 elif [ "$PROJECT" = "mantis" ]
 then
 	gitupdate "$PROJECT" $REPO_MANTIS_BRANCH
+
+elif [ "$PROJECT" = "mifos" ]
+then
+	gitupdate "$PROJECT" develop
 
 elif [ "$PROJECT" = "mediawiki" ]
 then
