@@ -4,7 +4,7 @@
 apt-get update
 apt-get dist-upgrade
 apt-get install -y git puppet make
-cd root
+cd /root
 git clone https://gerrit.wikimedia.org/r/translatewiki
 cd /root/translatewiki
 git submodule init
