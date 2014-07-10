@@ -1,19 +1,6 @@
 == Manual steps ==
 
 * From a clean server, do this:
-apt-get update
-apt-get dist-upgrade
-apt-get install -y git puppet make
-cd /root
-git clone https://gerrit.wikimedia.org/r/translatewiki
-cd /root/translatewiki
-git submodule init
-git submodule update
-cd puppet
-make apply
-------------------
-mkdir /etc/webauth
-------------------
 
 Add to /etc/network/interfaces:
 ---
@@ -27,6 +14,24 @@ iface eth0:1 inet6 static
  netmask 64
 ---
 Reboot the machine enabled the IP configuration.
+------------------
+
+apt-get update
+apt-get dist-upgrade
+apt-get install -y git puppet make
+cd /root
+git clone https://gerrit.wikimedia.org/r/translatewiki
+cd /root/translatewiki
+git submodule init
+git submodule update
+cd puppet
+make apply
+# Run puppet again to fix some execution order/dependency issues
+make apply
+# Run puppet a third time to fix some execution order/dependency issues
+make apply
+------------------
+mkdir /etc/webauth
 ------------------
 for module in 'YAML::Syck' 'PHP::Serialization' 'File::Slurp'; do cpanp -i $module; done
 ------------------
@@ -57,4 +62,7 @@ Put backup keys in /root/.ssh/
 -----------------------
 
 TODO:
-* Fix Wikimedia key import (add to puppet and process correctly)
+* puppet: add IPv6 config changes to /etc/network/interfaces
+* puppet: Warning: Config file /etc/puppet/hiera.yaml not found, using Hiera defaults
+* puppet: Update /etc/default/locale to LANG="en_US.UTF-8"
+* puppet: Install nginx before lists
