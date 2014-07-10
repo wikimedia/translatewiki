@@ -7,17 +7,16 @@ class hhvm {
     source => 'puppet:///modules/hhvm/wikimedia.key',
   }
 
-  apt::key { 'wikimedia':
-    key        => '09DBD9F93F6CD44A',
-    key_source => '/tmp/wikimedia.key',
-    require    => File['/tmp/wikimedia.key'],
+  exec { 'apt-key-wikimedia':
+    command => '/usr/bin/apt-key add /tmp/wikimedia.key',
+    require => File['/tmp/wikimedia.key'],
   }
 
   apt::source { 'wikimedia':
     location => 'http://apt.wikimedia.org/wikimedia',
     release  => "${::lsbdistcodename}-wikimedia",
     repos    => 'main universe',
-    require  => Apt::Key['wikimedia'],
+    require  => Exec['apt-key-wikimedia'],
   }
 
   package { [ 'hhvm', 'hhvm-dev', 'hhvm-fss', 'hhvm-luasandbox', 'hhvm-wikidiff2' ]:
