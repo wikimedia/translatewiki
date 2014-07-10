@@ -271,6 +271,16 @@ id = ext-bs-universalexport
 descmsg = bs-universalexport-desc
 file = BlueSpiceExtensions/UniversalExport/i18n/%CODE%.json
 
+Blue Spice - User Manager
+id = ext-bs-usermanager
+descmsg = bs-usermanager-desc
+file = BlueSpiceExtensions/UserManager/i18n/%CODE%.json
+
+Blue Spice - User Sidebar
+id = ext-bs-usersidebar
+descmsg = bs-usersidebar-desc
+file = BlueSpiceExtensions/UserSidebar/i18n/%CODE%.json
+
 Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
