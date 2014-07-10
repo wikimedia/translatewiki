@@ -37,6 +37,7 @@ node default {
     repo_version  => '1.2',
     config        => {
         'script.disable_dynamic' => false,
+        'network.bind_host' => "::1",
     },
     java_install  => true,
     init_defaults => {
