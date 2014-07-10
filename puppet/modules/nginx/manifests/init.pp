@@ -49,4 +49,9 @@ class nginx {
   file { '/etc/nginx/sites-enabled/default':
     ensure => 'absent',
   }
+
+  file { '/etc/nginx/sites-available/offline':
+    source  => 'puppet:///modules/nginx/offline',
+  }
+
 }
