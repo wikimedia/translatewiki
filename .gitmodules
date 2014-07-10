@@ -28,3 +28,6 @@
 [submodule "puppet/modules/sysctl"]
 	path = puppet/modules/sysctl
 	url = https://github.com/thias/puppet-sysctl
+[submodule "puppet/modules/git"]
+	path = puppet/modules/git
+	url = https://github.com/puppetlabs/puppetlabs-git.git
