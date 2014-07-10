@@ -52,4 +52,8 @@ class base {
   file { '/etc/environment':
     content => 'PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/betawiki/config/bin"',
   }
+
+  file { '/etc/default/locale':
+    content => 'LANG="en_US.UTF-8"',
+  }
 }

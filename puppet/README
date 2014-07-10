@@ -64,5 +64,4 @@ Put backup keys in /root/.ssh/
 TODO:
 * puppet: add IPv6 config changes to /etc/network/interfaces
 * puppet: Warning: Config file /etc/puppet/hiera.yaml not found, using Hiera defaults
-* puppet: Update /etc/default/locale to LANG="en_US.UTF-8"
 * puppet: Install nginx before lists
