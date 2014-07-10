@@ -2,20 +2,6 @@
 
 * From a clean server, do this:
 
-Add to /etc/network/interfaces:
----
-iface eth0 inet6 static
- address 2a03:4000:6:55::1
- netmask 64
-
-auto eth0:1
-iface eth0:1 inet6 static
- address 2a03:4000:6:55::2
- netmask 64
----
-Reboot the machine enabled the IP configuration.
-------------------
-
 apt-get update
 apt-get dist-upgrade
 apt-get install -y git puppet make
@@ -30,6 +16,9 @@ make apply
 make apply
 # Run puppet a third time to fix some execution order/dependency issues
 make apply
+
+------------------
+Reboot the machine enabled the IP configuration.
 ------------------
 mkdir /etc/webauth
 ------------------
@@ -62,6 +51,5 @@ Put backup keys in /root/.ssh/
 -----------------------
 
 TODO:
-* puppet: add IPv6 config changes to /etc/network/interfaces
 * puppet: Warning: Config file /etc/puppet/hiera.yaml not found, using Hiera defaults
 * puppet: Install nginx before lists

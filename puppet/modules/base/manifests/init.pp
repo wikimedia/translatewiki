@@ -56,4 +56,8 @@ class base {
   file { '/etc/default/locale':
     content => 'LANG="en_US.UTF-8"',
   }
+
+  file { '/etc/networking/interfaces':
+    source => 'puppet:///modules/base/interfaces'
+  }
 }
