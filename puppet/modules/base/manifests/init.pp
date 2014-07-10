@@ -57,6 +57,10 @@ class base {
     content => 'LANG="en_US.UTF-8"',
   }
 
+  file { '/etc/hostname':
+    content => 'translatewiki.net',
+  }
+
   file { '/etc/networking/interfaces':
     source => 'puppet:///modules/base/interfaces'
   }
