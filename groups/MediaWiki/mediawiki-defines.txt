@@ -1429,6 +1429,8 @@ Php Tags
 
 Php Tags Functions
 
+Php Tags Wiki
+
 Poem
 
 Polyglot
