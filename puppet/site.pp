@@ -50,4 +50,6 @@ node default {
   }
 
   sysctl { 'net.ipv4.tcp_window_scaling': value => '1' }
+  sysctl { 'net.ipv4.tcp_slow_start_after_idle': value => '0' }
+  sysctl { 'net.ipv4.tcp_fastopen': value => '3' }
 }
