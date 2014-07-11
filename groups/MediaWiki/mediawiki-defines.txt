@@ -190,6 +190,11 @@ id = ext-bs-extendededitbar
 descmsg = bs-extendededitbar-desc
 file = BlueSpiceExtensions/ExtendedEditBar/i18n/%CODE%.json
 
+Blue Spice - Extended Search
+id = ext-bs-extendedsearch
+descmsg = bs-extendedsearch-desc
+file = BlueSpiceExtensions/ExtendedSearch/i18n/%CODE%.json
+
 Blue Spice - Extension Info
 id = ext-bs-extensioninfo
 descmsg = bs-extensioninfo-desc
@@ -285,6 +290,11 @@ Blue Spice - User Manager
 id = ext-bs-usermanager
 descmsg = bs-usermanager-desc
 file = BlueSpiceExtensions/UserManager/i18n/%CODE%.json
+
+Blue Spice - User Preferences
+id = ext-bs-userpreferences
+descmsg = bs-userpreferences-desc
+file = BlueSpiceExtensions/UserPreferences/i18n/%CODE%.json
 
 Blue Spice - User Sidebar
 id = ext-bs-usersidebar
