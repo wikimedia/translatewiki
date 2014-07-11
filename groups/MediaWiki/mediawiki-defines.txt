@@ -180,6 +180,11 @@ file = BlueSpiceFoundation/i18n/diagnostics/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Diagnostics.alias.php
 id = ext-bs-diagnostics
 
+Blue Spice - Emoticons
+id = ext-bs-emoticons
+descmsg = bs-emoticons-desc
+file = BlueSpiceExtensions/Emoticons/i18n/%CODE%.json
+
 Blue Spice - Extended Edit Bar
 id = ext-bs-extendededitbar
 descmsg = bs-extendededitbar-desc
@@ -228,6 +233,11 @@ Blue Spice - Pages Visited
 id = ext-bs-pagesvisited
 descmsg = bs-pagesvisited-desc
 file = BlueSpiceExtensions/PagesVisited/i18n/%CODE%.json
+
+Blue Spice - Permission Manager
+id = ext-bs-permissionmanager
+descmsg = bs-permissionmanager-desc
+file = BlueSpiceExtensions/PermissionManager/i18n/%CODE%.json
 
 Blue Spice - Preferences
 id = ext-bs-preferences
