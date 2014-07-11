@@ -325,6 +325,11 @@ Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
 
+Blue Spice - Visual Editor
+id = ext-bs-visualeditor
+descmsg = bs-visualeditor-desc
+file = BlueSpiceExtensions/VisualEditor/i18n/%CODE%.json
+
 Blue Spice - Wanted Article
 id = ext-bs-wantedarticle
 descmsg = bs-wantedarticle-desc
