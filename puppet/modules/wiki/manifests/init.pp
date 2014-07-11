@@ -29,8 +29,12 @@ class wiki ($config, $user) {
     content => template('wiki/wikistats.erb'),
   }
 
-  # This one is needed for the irc bots
-  package { 'libpoe-component-irc-perl':
+  package { [
+    # irc bots
+    'libpoe-component-irc-perl',
+    # needed for svg images
+    'librsvg2-bin'
+  ]:
     ensure => present,
   }
 }
