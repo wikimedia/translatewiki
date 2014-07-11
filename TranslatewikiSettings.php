@@ -564,8 +564,6 @@ $wgResourceModules['twn.jserrorlog'] = array(
 	'scripts' => 'twn.jserrorlog.js',
 );
 
-$wgHooks['ResourceLoaderGetStartupModules'][] = 'efJSErrorlog';
-function efJSErrorlog( &$modules ) {
-	$modules[] = 'twn.jserrorlog';
-	return true;
-}
+$wgHooks['BeforePageDisplay'][] = function ( $out ) {
+	$out->addModules( 'twn.jserrorlog' );
+};
