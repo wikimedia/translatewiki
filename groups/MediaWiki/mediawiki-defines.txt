@@ -218,6 +218,11 @@ id = ext-bs-insertcategory
 descmsg = bs-insertcategory-desc
 file = BlueSpiceExtensions/InsertCategory/i18n/%CODE%.json
 
+Blue Spice - Insert Magic
+id = ext-bs-insertmagic
+descmsg = bs-insertmagic-desc
+file = BlueSpiceExtensions/InsertMagic/i18n/%CODE%.json
+
 Blue Spice - Insert File
 id = ext-bs-insertfile
 descmsg = bs-insertfile-desc
@@ -259,6 +264,11 @@ id = ext-bs-preferences
 descmsg = bs-preferences-desc
 file = BlueSpiceExtensions/Preferences/i18n/%CODE%.json
 optional = prefs-bluespice
+
+Blue Spice - Responsible Editors
+id = ext-bs-responsibleeditors
+descmsg = bs-responsibleeditors-desc
+file = BlueSpiceExtensions/ResponsibleEditors/i18n/%CODE%.json
 
 Blue Spice - Safer Edit
 id = ext-bs-saferedit
