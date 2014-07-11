@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e28a382_f9c36408",
+        "filename": "bin/stats-newcorelangs",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-07-11T17:02:37Z",
+      "side": 1,
+      "message": "We also have /resources/projects/mediawiki/master but I do not know which one is more suitable.",
+      "revId": "3c48dcea010ce64fcf75c0257de907f591d5218a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e28a382_9963403b",
+        "filename": "bin/stats-newcorelangs",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-07-11T17:02:37Z",
+      "side": 1,
+      "message": "I18n too?",
+      "revId": "3c48dcea010ce64fcf75c0257de907f591d5218a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
