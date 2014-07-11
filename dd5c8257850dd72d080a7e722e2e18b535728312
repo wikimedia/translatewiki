@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e28a382_f97da4e5",
+        "filename": "puppet/modules/nginx/files/offline",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-07-11T16:59:53Z",
+      "side": 1,
+      "message": "TABS",
+      "revId": "dd5c8257850dd72d080a7e722e2e18b535728312",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
