@@ -30,7 +30,7 @@ $wgRightsIcon = "";
 
 $wgUseTidy = false;
 $wgSVGConverter = 'rsvg';
-$wgSVGConverters['rsvg'] = '$path/rsvg-convert -w $width -h $height $input $output';
+$wgSVGConverters['rsvg'] = '$path/rsvg-convert -w $width -h $height $input -o $output';
 $wgMaxShellMemory = 1024 * 200;
 
 ###
