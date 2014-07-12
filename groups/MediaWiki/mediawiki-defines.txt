@@ -1124,6 +1124,9 @@ descmsg = chat-desc
 ignored = chat-smileys, chat-mod-image
 optional = logentry-chat-send
 
+Mixed Namespace Search Suggestions
+descmsg = mnss-desc
+
 Mobile App
 
 Mobile Frontend
