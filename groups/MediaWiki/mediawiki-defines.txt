@@ -47,6 +47,8 @@ Akismet Klik
 
 All Time Zones
 
+Anchor Handler
+
 Annotator
 
 Anti Bot
