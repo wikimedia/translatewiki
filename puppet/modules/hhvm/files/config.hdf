@@ -6,6 +6,7 @@ Server {
   Type = fastcgi
   Port = 9000
   IP = 127.0.0.1
+  GzipCompressionLevel = 0
 }
 
 Eval {
