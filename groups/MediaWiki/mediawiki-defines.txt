@@ -901,7 +901,8 @@ file = GlobalUserGroups/i18n/core/%CODE%.json
 # Global User Page
 
 Global Userrights
-aliasfile = GlobalUserrights/GlobalUserrights.alias.php
+# Aliases conflict with CentralAuth's
+#aliasfile = GlobalUserrights/GlobalUserrights.alias.php
 descmsg = gur-desc
 
 Google AdSense
