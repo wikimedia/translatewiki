@@ -851,6 +851,9 @@ Fundraising Chart
 
 # Fundraising Email Unsubscribe / Git repo somehow broken: fatal: Not a git repository (or any of the parent directories): .git
 
+Fundraising Translate Workflow
+descmsg = fundraising-translate-workflow-desc
+
 Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition
