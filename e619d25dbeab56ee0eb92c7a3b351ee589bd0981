@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e28a382_bd8016fa",
+        "filename": "nikext.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-07-14T17:20:32Z",
+      "side": 1,
+      "message": "bump?",
+      "revId": "e619d25dbeab56ee0eb92c7a3b351ee589bd0981",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
