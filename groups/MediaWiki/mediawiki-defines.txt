@@ -2117,6 +2117,7 @@ aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 Wikihiero
 file = wikihiero/i18n/%CODE%.json
 aliasfile = wikihiero/wikihiero.alias.php
+optional = wikihiero-help-link
 
 #Wikilog
 #file = WikiLog/i18n/wikilog/%CODE%.json
