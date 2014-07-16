@@ -832,6 +832,9 @@ ignored = flow-rev-message-create-topic-summary-irc, flow-rev-message-edit-topic
 ignored = flow-rev-message-deleted-post-irc, flow-rev-message-suppressed-post-irc, flow-rev-message-restored-post-irc
 ignored = flow-rev-message-hid-topic-irc, flow-rev-message-deleted-topic-irc, flow-rev-message-suppressed-topic-irc
 ignored = flow-rev-message-closed-topic-irc, flow-rev-message-restored-topic-irc
+ignored = flow-rev-message-edit-post-recentchanges, flow-rev-message-edit-post-contributions
+ignored = flow-rev-message-reply-recentchanges, flow-rev-message-reply-contributions
+ignored = flow-rev-message-new-post-recentchanges, flow-rev-message-new-post-contributions
 optional = flow-post-interaction-separator
 
 Flv Handler
