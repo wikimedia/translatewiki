@@ -19,7 +19,7 @@ BASIC:
   description: "{{int:translate-group-desc-waymarked-trails}}"
   namespace: NS_OSM
   class: FileBasedMessageGroup
-  codeBrowser: https://github.com/lonvia/waymarked-trails-site/blob/master/django/%FILE%#L%LINE%
+  codeBrowser: "https://github.com/lonvia/waymarked-trails-site/blob/master/django/%FILE%#L%LINE%"
 
 MANGLER:
   class: StringMatcher
@@ -55,7 +55,7 @@ BASIC:
   description: "{{int:translate-group-desc-waymarked-trails-help}}"
   namespace: NS_OSM
   class: FileBasedMessageGroup
-  codeBrowser: https://github.com/lonvia/waymarked-trails-site/blob/master/django/%FILE%#L%LINE%
+  codeBrowser: "https://github.com/lonvia/waymarked-trails-site/blob/master/django/%FILE%#L%LINE%"
 
 MANGLER:
   class: StringMatcher

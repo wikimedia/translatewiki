@@ -6,7 +6,7 @@ BASIC:
   description: "{{int:bw-desc-mwlibrl}}"
   namespace: NS_MWLIB
   class: FileBasedMessageGroup
-  codeBrowser: https://github.com/pediapress/mwlib.rl/blob/master/%FILE%#L%LINE%
+  codeBrowser: "https://github.com/pediapress/mwlib.rl/blob/master/%FILE%#L%LINE%"
 
 FILES:
   class: GettextFFS

@@ -90,7 +90,7 @@ BASIC:
   namespace: NS_WIKIMEDIA
   id: out-wikimedia-mobile-wikipedia-ios-0-all
   label: Wikipedia iOS Mobile
-  meta: true
+  meta: yes
   class: AggregateMessageGroup
 
 GROUPS:
