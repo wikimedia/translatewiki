@@ -1,6 +1,0 @@
-#!/bin/bash
-
-cd /resources/solr/solr
-screen -dmS solr
-screen -S solr -p0 -X title "Solr"
-screen -S solr -p0 -X exec java -Djava.net.preferIPv4Stack=true -Dsolr.solr.home=/resources/solr/cores/ -Djetty.host=localhost -jar start.jar
