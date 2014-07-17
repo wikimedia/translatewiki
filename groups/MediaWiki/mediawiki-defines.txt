@@ -167,6 +167,12 @@ id = ext-bs-blog
 descmsg = bs-blog-desc
 file = BlueSpiceExtensions/Blog/i18n/%CODE%.json
 
+Blue Spice - Checklist
+id = ext-bs-checklist
+descmsg = bs-checklist-desc
+file = BlueSpiceExtensions/Checklist/i18n/%CODE%.json
+ignored = bs-checklist-dlg-insert-list-title
+
 Blue Spice - Credits
 file = BlueSpiceFoundation/i18n/credits/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
