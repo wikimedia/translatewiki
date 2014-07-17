@@ -219,6 +219,10 @@ FILES:
   sourcePattern: %GROUPROOT%/commons-android/commons/res/values-%CODE%/strings.xml
   definitionFile: %GROUPROOT%/commons-android/commons/res/values/strings.xml
 
+TAGS:
+  optional:
+    - commons-android-strings-hello world
+
 ---
 BASIC:
   id: out-wikimedia-mobile-commons-android-errors
