@@ -805,7 +805,7 @@ Flagged Revisions - Stabilization
 id = ext-flaggedrevs-stabilization
 file = FlaggedRevs/i18n/stabilization/%CODE%.json
 descmsg = flaggedrevs-desc
-ignored = stabilize_protect_quota
+ignored = stabilize_protect_quota, stabilization-dropdown
 
 Flagged Revisions - Stable Pages
 id = ext-flaggedrevs-stablepages
