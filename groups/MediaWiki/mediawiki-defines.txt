@@ -1766,6 +1766,9 @@ Spreadsheet
 SSL Client Authentication
 descmsg = sslauth-desc
 
+# Shoutwiki specific extesion
+#Staff Edits
+
 Stalker Log
 
 Starter Wiki
