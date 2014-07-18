@@ -247,6 +247,11 @@ descmsg = bs-interwikilinks-desc
 file = BlueSpiceExtensions/InterWikiLinks/i18n/%CODE%.json
 optional = bs-interwikilinks-headerurl, bs-interwikilinks-labelurl
 
+Blue Spice - Namespace Css
+id = ext-bs-namespacecss
+descmsg = bs-namespacecss-desc
+file = BlueSpiceExtensions/NamespaceCss/i18n/%CODE%.json
+
 Blue Spice - Page Access
 id = ext-bs-pageaccess
 descmsg = bs-pageaccess-desc
@@ -277,6 +282,11 @@ Blue Spice - Responsible Editors
 id = ext-bs-responsibleeditors
 descmsg = bs-responsibleeditors-desc
 file = BlueSpiceExtensions/ResponsibleEditors/i18n/%CODE%.json
+
+Blue Spice - RSS Standards
+id = ext-bs-rssstandards
+descmsg = bs-rssstandards-desc
+file = BlueSpiceExtensions/RSSStandards/i18n/%CODE%.json
 
 Blue Spice - Safer Edit
 id = ext-bs-saferedit
