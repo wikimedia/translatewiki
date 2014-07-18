@@ -40,6 +40,9 @@ class base {
     'g++',
     'pkg-config',
     'libthai-dev',
+
+    # fonts for phplot
+    'fonts-dejavu',
     ]: ensure => present,
   }
 
