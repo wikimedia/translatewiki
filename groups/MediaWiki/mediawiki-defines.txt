@@ -1160,7 +1160,6 @@ optional = mobile-frontend-page-menu-language-current
 optional = mobile.js, mobile.css, mobile-frontend-diffview-comma
 ignored = mobile-frontend-current-language
 ignored = mobile-frontend-page-menu-language, mobile-frontend-terms-url
-ignored = mobilefrontend-keepgoing-wikify-category
 
 Model
 
