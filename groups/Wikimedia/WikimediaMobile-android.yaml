@@ -248,3 +248,7 @@ MANGLER:
 FILES:
   sourcePattern: %GROUPROOT%/wikipedia-android/wikipedia/res/values-%CODE%/strings.xml
   definitionFile: %GROUPROOT%/wikipedia-android/wikipedia/res/values/strings.xml
+
+TAGS:
+  ignored:
+    - wikipedia-android-strings-zero_webpage_url
