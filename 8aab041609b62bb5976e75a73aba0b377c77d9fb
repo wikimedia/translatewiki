@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e28a382_ec6b55ec",
+        "filename": "groups/Wikimedia/WikimediaMobile-android.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-07-20T18:06:32Z",
+      "side": 1,
+      "message": "spaces should be underscores.",
+      "revId": "8aab041609b62bb5976e75a73aba0b377c77d9fb",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
