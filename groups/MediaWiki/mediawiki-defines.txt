@@ -627,6 +627,7 @@ Custom Data
 
 Data Transfer
 aliasfile = DataTransfer/languages/DT_Aliases.php
+optional = dt_filetype_xml, dt_filetype_csv
 
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
