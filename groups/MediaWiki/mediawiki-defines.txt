@@ -178,6 +178,11 @@ file = BlueSpiceFoundation/i18n/credits/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
 id = ext-bs-credits
 
+Blue Spice - C Syntax Highlight
+id = ext-bs-csyntaxhighlight
+descmsg = bs-csyntaxhighlight-desc
+file = BlueSpiceExtensions/CSyntaxHighlight/i18n/%CODE%.json
+
 Blue Spice - Dashboards
 id = ext-bs-dashboards
 descmsg = bs-dashboards-desc
@@ -277,6 +282,11 @@ id = ext-bs-preferences
 descmsg = bs-preferences-desc
 file = BlueSpiceExtensions/Preferences/i18n/%CODE%.json
 optional = prefs-bluespice
+
+Blue Spice - Readers
+id = ext-bs-readers
+descmsg = bs-readers-desc
+file = BlueSpiceExtensions/Readers/i18n/%CODE%.json
 
 Blue Spice - Responsible Editors
 id = ext-bs-responsibleeditors
