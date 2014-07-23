@@ -303,6 +303,11 @@ id = ext-bs-responsibleeditors
 descmsg = bs-responsibleeditors-desc
 file = BlueSpiceExtensions/ResponsibleEditors/i18n/%CODE%.json
 
+Blue Spice - Review
+id = ext-bs-review
+descmsg = bs-review-desc
+file = BlueSpiceExtensions/Review/i18n/%CODE%.json
+
 Blue Spice - RSS Standards
 id = ext-bs-rssstandards
 descmsg = bs-rssstandards-desc
@@ -322,6 +327,11 @@ Blue Spice - Shout Box
 id = ext-bs-shoutbox
 descmsg = bs-shoutbox-desc
 file = BlueSpiceExtensions/ShoutBox/i18n/%CODE%.json
+
+Blue Spice - Smart List
+id = ext-bs-smartlist
+descmsg = bs-smartlist-desc
+file = BlueSpiceExtensions/SmartList/i18n/%CODE%.json
 
 Blue Spice - State Bar
 id = ext-bs-statebar
