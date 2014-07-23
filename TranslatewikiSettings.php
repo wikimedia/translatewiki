@@ -65,7 +65,6 @@ $wgCategoryCollation = 'uca-default';
 $wgShowIPinHeader = false;
 $wgUseAutomaticEditSummaries = false;
 $wgUseInstantCommons = true;
-$wgVectorUseIconWatch = true;
 
 ###
 # Jobs
