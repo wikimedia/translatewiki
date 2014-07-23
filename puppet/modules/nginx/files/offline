@@ -1,0 +1,35 @@
+# file managed by puppet
+
+server {
+	listen 80 default_server;
+	listen [2a03:4000:6:55::1]:80;
+	listen 443 ssl default_server spdy;
+	listen [2a03:4000:6:55::1]:443 ssl spdy;
+
+	ssl_certificate     /etc/ssl/private/translatewiki.net.pem;
+	ssl_certificate_key /etc/ssl/private/translatewiki.net.key;
+
+	ssl_session_cache shared:SSL:1m;
+	ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+	ssl_prefer_server_ciphers on;
+	ssl_ciphers "EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS";
+
+	add_header Strict-Transport-Security "max-age=31536000";
+
+	spdy_headers_comp 7;
+
+	server_name translatewiki.net dev.translatewiki.net sandbox.translatewiki.net;
+	root /www/offline;
+
+	location /index.php {
+		set $fastcgi_pass_value unix:/var/run/php5-fpm.sock;
+
+		fastcgi_pass $fastcgi_pass_value;
+		fastcgi_buffers 16 4k;
+		include fastcgi_params;
+		fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+	}
+
+	# there is probably better way to do this
+	rewrite ^(/|/[^i].+)$ /index.php last;
+}
