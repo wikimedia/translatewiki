@@ -595,6 +595,7 @@ Content Translation
 descmsg = cx-desc
 aliasfile = ContentTranslation/ContentTranslation.alias.php
 optional = cx-tools-mt-use-other-language
+ignored = cx-tools-view-guidelines-link
 
 #Contest / Unused per https://bugzilla.wikimedia.org/show_bug.cgi?id=41526#c0
 
