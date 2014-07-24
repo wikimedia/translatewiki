@@ -1189,6 +1189,7 @@ descmsg = mobile-frontend-desc
 aliasfile = MobileFrontend/MobileFrontend.alias.php
 optional = mobile-frontend-page-menu-language-current
 optional = mobile.js, mobile.css, mobile-frontend-diffview-comma
+optional = skinname-minerva
 ignored = mobile-frontend-current-language
 ignored = mobile-frontend-page-menu-language, mobile-frontend-terms-url
 
