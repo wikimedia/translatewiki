@@ -40,11 +40,11 @@ server {
 
 	# Allowed php files, case sensitive
 	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php$ {
-		set $fastcgi_pass_value unix:/var/run/php5-fpm.sock;
+		set $fastcgi_pass_value unix:/run/php5-fpm.sock;
 
-		if ($cookie_hhvm = "1") {
-			set $fastcgi_pass_value 127.0.0.1:9000;
-		}
+#		if ($cookie_hhvm = "1") {
+#			set $fastcgi_pass_value unix:/run/hhvm/hhvm.sock;
+#		}
 
 		fastcgi_pass $fastcgi_pass_value;
 		fastcgi_buffers 16 4k;

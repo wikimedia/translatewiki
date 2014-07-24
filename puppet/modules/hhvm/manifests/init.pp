@@ -20,11 +20,10 @@ class hhvm {
   }
 
   package { [ 'hhvm', 'hhvm-dev', 'hhvm-fss', 'hhvm-luasandbox', 'hhvm-wikidiff2' ]:
+    ensure  => latest,
     before  => Service['hhvm'],
     require => Apt::Source['wikimedia'],
   }
-
-  package { 'hhvm-nightly': ensure => absent, }
 
   file { '/etc/hhvm':
     ensure => directory,
@@ -38,6 +37,12 @@ class hhvm {
 
   file { '/etc/hhvm/config.hdf':
     source  => 'puppet:///modules/hhvm/config.hdf',
+    require => Package['hhvm'],
+    notify  => Service['hhvm'],
+  }
+
+  file { '/etc/hhvm/php.ini':
+    source  => 'puppet:///modules/hhvm/php.ini',
     require => Package['hhvm'],
     notify  => Service['hhvm'],
   }
