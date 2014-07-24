@@ -222,5 +222,15 @@ class users {
       managehome => true,
       home       => '/home/yuvipanda',
       comment    => 'Yuvi Panda';
+    'bsitzmann':
+      ensure     => present,
+      uid        => 1020,
+      gid        => 'users',
+      groups     => ['betawiki', 'www-shared'],
+      shell      => '/bin/bash',
+      password   => '',
+      managehome => true,
+      home       => '/home/bsitzmann',
+      comment    => 'Bernd Sitzmann';
   }
 }
