@@ -213,7 +213,7 @@ class users {
       home       => '/home/kartik',
       comment    => 'Kartik Mistry';
     'yuvipanda':
-      ensure     => present,
+      ensure     => absent,
       uid        => 1019,
       gid        => 'users',
       groups     => ['betawiki', 'www-shared'],
