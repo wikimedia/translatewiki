@@ -221,6 +221,11 @@ Blue Spice - ExtJS - Portal
 file = BlueSpiceFoundation/i18n/extjs-portal/%CODE%.json
 id = ext-bs-extjs-portal
 
+Blue Spice - Flexiskin
+id = ext-bs-flexiskin
+descmsg = bs-flexiskin-desc
+file = BlueSpiceExtensions/Flexiskin/i18n/%CODE%.json
+
 Blue Spice - GroupManager
 id = ext-bs-groupmanager
 descmsg = bs-groupmanager-desc
@@ -261,6 +266,11 @@ Blue Spice - Namespace Css
 id = ext-bs-namespacecss
 descmsg = bs-namespacecss-desc
 file = BlueSpiceExtensions/NamespaceCss/i18n/%CODE%.json
+
+Blue Spice - Namespace Manager
+id = ext-bs-namespacemanager
+descmsg = bs-namespacemanager-desc
+file = BlueSpiceExtensions/Namespace Manager/i18n/%CODE%.json
 
 Blue Spice - Notifications
 id = ext-bs-notifications
