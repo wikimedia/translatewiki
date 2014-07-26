@@ -270,7 +270,7 @@ file = BlueSpiceExtensions/NamespaceCss/i18n/%CODE%.json
 Blue Spice - Namespace Manager
 id = ext-bs-namespacemanager
 descmsg = bs-namespacemanager-desc
-file = BlueSpiceExtensions/Namespace Manager/i18n/%CODE%.json
+file = BlueSpiceExtensions/NamespaceManager/i18n/%CODE%.json
 
 Blue Spice - Notifications
 id = ext-bs-notifications
