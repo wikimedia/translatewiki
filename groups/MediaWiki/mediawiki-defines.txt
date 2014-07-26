@@ -2049,6 +2049,8 @@ id = ext-visualeditor-oojs-ui
 descmsg = visualeditor-desc
 file = oojs-ui/i18n/%CODE%.json
 
+Vine
+
 VisualEditor Core
 id = ext-visualeditor-ve
 descmsg = visualeditor-desc
