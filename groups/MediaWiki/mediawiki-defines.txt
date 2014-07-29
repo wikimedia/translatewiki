@@ -1917,6 +1917,7 @@ Timeline
 file = timeline/i18n/%CODE%.json
 
 Timezone Selector
+aliasfile = TimezoneSelector/TimezoneSelector.alias.php
 optional = timezoneselector-message-long, timezoneselector-message-verbose
 ignored = timezoneselector-message-short
 
