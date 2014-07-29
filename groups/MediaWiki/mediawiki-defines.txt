@@ -1329,13 +1329,7 @@ optional = oauth, mwoauth-listgrantrights-right-display
 OdbcDatabase
 aliasfile = OdbcDatabase/OdbcDatabase.alias.php
 
-Ogg Handler
-magicfile = OggHandler/OggHandler.i18n.magic.php
-descmsg = ogg-desc
-optional = ogg-player-cortado, ogg-player-vlc-mozilla, ogg-player-vlc-activex
-optional = ogg-player-quicktime-mozilla, ogg-player-quicktime-activex
-optional = ogg-player-totem, ogg-player-kmplayer, ogg-player-kaffeine
-optional = ogg-player-mplayerplug-in
+# Ogg Handler # Deleted on Git. TimedMediaHandler as replacement. I6ad2538fda15d29d780a22796e7c980e94901729
 
 Online Status
 magicfile = OnlineStatus/OnlineStatus.i18n.magic.php
