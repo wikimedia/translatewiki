@@ -1780,6 +1780,8 @@ Site Metrics
 
 Site Settings
 
+# Skel JS # No i18n file
+
 Skin Per Namespace
 
 Skin Per Page
