@@ -20,7 +20,7 @@ fi
 
 CURRENTTIME=`date +"%T"`
 echo "*** $CURRENTTIME: Rebuilding caches ***"
-php $WIKI/maintenance/rebuildLocalisationCache.php --threads 12 --quiet
+php $WIKI/maintenance/rebuildLocalisationCache.php --threads 4 --quiet
 
 CURRENTTIME=`date +"%T"`
 echo "*** $CURRENTTIME: All done ***"
