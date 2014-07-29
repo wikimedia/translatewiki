@@ -1982,6 +1982,7 @@ descmsg = twnmp-desc
 optional = twnmp-stats-number-k
 
 Two Factor Authentication
+aliasfile = TwoFactorAuthentication/TwoFactorAuth.alias.php
 descmsg = twofactorauth-desc
 
 Upload Blacklist
