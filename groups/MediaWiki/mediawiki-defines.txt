@@ -173,6 +173,11 @@ descmsg = bs-checklist-desc
 file = BlueSpiceExtensions/Checklist/i18n/%CODE%.json
 ignored = bs-checklist-dlg-insert-list-title
 
+Blue Spice - Count Things
+id = ext-bs-countthings
+descmsg = bs-countthings-desc
+file = BlueSpiceExtensions/CountThings/i18n/%CODE%.json
+
 Blue Spice - Credits
 file = BlueSpiceFoundation/i18n/credits/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
@@ -348,6 +353,11 @@ id = ext-bs-statebar
 descmsg = bs-statebar-desc
 file = BlueSpiceExtensions/StateBar/i18n/%CODE%.json
 optional = bs-statebar-viewtoggler
+
+Blue Spice - Statistics
+id = ext-bs-statistics
+descmsg = bs-statistics-desc
+file = BlueSpiceExtensions/Statistics/i18n/%CODE%.json
 
 Blue Spice - Top Menu Bar Customizer
 id = ext-bs-topmenubarcustomizer
