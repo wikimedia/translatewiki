@@ -323,6 +323,11 @@ id = ext-bs-review
 descmsg = bs-review-desc
 file = BlueSpiceExtensions/Review/i18n/%CODE%.json
 
+Blue Spice - RSS Feeder
+id = ext-bs-rssfeeder
+descmsg = bs-rssfeeder-desc
+file = BlueSpiceExtensions/RSSFeeder/i18n/%CODE%.json
+
 Blue Spice - RSS Standards
 id = ext-bs-rssstandards
 descmsg = bs-rssstandards-desc
