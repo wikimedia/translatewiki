@@ -167,6 +167,8 @@ id = ext-bs-blog
 descmsg = bs-blog-desc
 file = BlueSpiceExtensions/Blog/i18n/%CODE%.json
 
+# Blue Spice - BlueSpiceProjectFeedbackHelper # per https://gerrit.wikimedia.org/r/#/c/150779/
+
 Blue Spice - Checklist
 id = ext-bs-checklist
 descmsg = bs-checklist-desc
