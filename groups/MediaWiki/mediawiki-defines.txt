@@ -359,7 +359,6 @@ Blue Spice - State Bar
 id = ext-bs-statebar
 descmsg = bs-statebar-desc
 file = BlueSpiceExtensions/StateBar/i18n/%CODE%.json
-optional = bs-statebar-viewtoggler
 
 Blue Spice - Statistics
 id = ext-bs-statistics
