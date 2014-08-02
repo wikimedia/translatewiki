@@ -1833,6 +1833,7 @@ Sphinx Search
 Spreadsheet
 
 SSL Client Authentication
+aliasfile = SSLClientAuthentication/ClientSSLAuth.alias.php
 descmsg = sslauth-desc
 
 # Shoutwiki specific extesion
