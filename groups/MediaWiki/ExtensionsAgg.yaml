@@ -18,7 +18,7 @@ GROUPS:
 BASIC:
   id: ext-bs-0-all
   icon: wiki://Bluespice icon.svg
-  label: All Blue Spice messages
+  label: Blue Spice messages - all
   description: '{{int:translate-group-desc-bluespice}}'
 
 GROUPS:
@@ -27,7 +27,7 @@ GROUPS:
 ---
 BASIC:
   id: ext-flaggedrevs-0-all
-  label: All Flagged Revs messages
+  label: Flagged Revs messages - all
   description: '{{int:translate-group-desc-flaggedrevs}}'
 
 GROUPS:
@@ -36,7 +36,7 @@ GROUPS:
 ---
 BASIC:
   id: ext-readerfeedback-0-all
-  label: All Reader Feedback messages
+  label: Reader Feedback messages - all
   description: '{{int:translate-group-desc-readerfeedback}}'
 
 GROUPS:
@@ -54,7 +54,7 @@ GROUPS:
 ---
 BASIC:
   id: ext-translate-0-all
-  label: All Translate messages
+  label: Translate messages - all
   description: '{{int:translate-group-desc-translate}}'
 
 GROUPS:
@@ -63,7 +63,7 @@ GROUPS:
 ---
 BASIC:
   id: ext-visualeditor-0-all
-  label: All VisualEditor messages
+  label: VisualEditor messages - all
   description: '{{int:translate-group-desc-visualeditor}}'
 
 GROUPS:
