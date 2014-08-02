@@ -218,3 +218,6 @@ FILES:
 TAGS:
   ignored:
     - wikipedia-android-strings-zero_webpage_url
+  optional:
+    - wikipedia-android-strings-privacy_policy_url
+    - wikipedia-android-strings-terms_of_use_url
