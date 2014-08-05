@@ -415,6 +415,7 @@ TAGS:
     - noarticletextanon
     - number_of_watching_users_RCview
     - opensearch-desc
+    - overwroteimage
     - pagecategorieslink
     - pageinfo-footer
     - pageinfo-header
@@ -487,6 +488,7 @@ TAGS:
     - unwatchedpages-summary
     - upload-default-description
     - upload-summary
+    - uploadedimage
     - uploadfooter
     - userlogout-summary
     - userrights-summary
