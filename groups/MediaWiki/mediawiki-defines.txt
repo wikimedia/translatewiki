@@ -146,6 +146,7 @@ Biblio Plus
 Blue Spice
 id = ext-bs
 file = BlueSpiceFoundation/i18n/core/%CODE%.json
+optional = prefs-base
 
 Blue Spice - Article Info
 id = ext-bs-articleinfo
