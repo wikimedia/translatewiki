@@ -263,6 +263,10 @@ id = ext-bs-insertlink
 descmsg = bs-insertlink-desc
 file = BlueSpiceExtensions/InsertLink/i18n/%CODE%.json
 
+Blue Spice - Installer
+id = ext-bs-installer
+file = BlueSpiceFoundation/i18n/installer/%CODE%.json
+
 Blue Spice - Inter Wiki Links
 id = ext-bs-interwikilinks
 descmsg = bs-interwikilinks-desc
