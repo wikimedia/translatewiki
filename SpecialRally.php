@@ -45,6 +45,8 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 				'tsint-0-all' // 1240
 			);
 
+			$allowedGroups = MessageGroups::expandWildcards( '*' );
+
 			$allGroups = MessageGroups::singleton()->getGroups();
 			foreach ( $allGroups as $groupId => $messageGroup ) {
 				if ( in_array( $groupId, $allowedGroups )  ) {
@@ -80,8 +82,8 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 					'page_latest'
 				);
 				$conds = array(
-					"rc_timestamp >= 20121221220000",
-					"rc_timestamp <= 20121231235959",
+					"rc_timestamp >= 20140806100000",
+					"rc_timestamp <= 20140810235959",
 					'rc_new' => 1,
 					'rc_bot' => 0,
 					'rc_namespace IN (8, 1206, 1212, 1220, 1224, 1238, 1240, 1244)',
