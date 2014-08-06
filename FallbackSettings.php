@@ -16,6 +16,7 @@ $wgTranslateLanguageFallbacks['bew'] = 'id';
 $wgTranslateLanguageFallbacks['bfq'] = array( 'kn', 'ta' );
 $wgTranslateLanguageFallbacks['bjn'] = 'id';
 $wgTranslateLanguageFallbacks['br'] = array( 'roa-rup', 'pms', 'fr', 'it' );
+$wgTranslateLanguageFallbacks['cnh'] = array( 'my' );
 $wgTranslateLanguageFallbacks['cps'] = array( 'tl' );
 $wgTranslateLanguageFallbacks['cs'] = array( 'sk', 'de', 'fr', 'ru', 'pl' );
 $wgTranslateLanguageFallbacks['da'] = array( 'nn', 'nb', 'sv' ); # Siebrand 2008-03-23

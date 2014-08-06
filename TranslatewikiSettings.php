@@ -325,6 +325,7 @@ $wgExtraLanguageNames['rcf'] = 'Kreol Réyoné'; # Réunion Creole French / 2014
 $wgExtraLanguageNames['lkt'] = 'Lakȟótiyapi'; # Lakota / 2014-04-08
 $wgExtraLanguageNames['jdt-cyrl'] = 'жугьури'; # Judeo-Tat / Siebrand 2014-06-17
 $wgExtraLanguageNames['kjh'] = 'хакас'; # Khakas / Amire80 2014-06-17
+$wgExtraLanguageNames['cnh'] = 'Lai holh'; # Haka Chin / Siebrand 2014-08-06
 
 $wgExtraLanguageNames['nl-be'] = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages
