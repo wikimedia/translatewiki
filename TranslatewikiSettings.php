@@ -146,6 +146,9 @@ $wgExtraNamespaces[NS_TRANSLATING_TALK] = 'Translating_talk';
 $wgContentNamespaces[] = NS_MEDIAWIKI;
 $wgContentNamespaces[] = NS_TRANSLATING;
 
+// Skins
+require_once "$IP/skins/Vector/Vector.php";
+
 ###
 # Search
 ###
