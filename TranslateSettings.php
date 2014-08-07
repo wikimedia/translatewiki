@@ -93,6 +93,22 @@ function setupMediaWikiExtensions( &$list, &$deps, &$autoload ) {
 	return true;
 }
 
+$wgHooks['TranslatePostInitGroups'][] = array( 'setupMediaWikiSkins' );
+function setupMediaWikiSkins( &$list, &$deps, &$autoload ) {
+	global $GROUPS;
+
+	$def = "$GROUPS/MediaWiki/mediawiki-skins.txt";
+	$path = '%GROUPROOT%/mediawiki-skins/';
+
+	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
+	$foo->setNamespace( NS_MEDIAWIKI );
+	$foo->setGroupPrefix( 'mediawiki-skin-' );
+	$foo->setUseConfigure( false );
+	$foo->register( $list, $deps, $autoload );
+
+	return true;
+}
+
 $wgHooks['TranslatePostInitGroups'][] = array( 'setupWikia' );
 function setupWikia( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
@@ -103,7 +119,6 @@ function setupWikia( &$list, &$deps, &$autoload ) {
 	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
 	$foo->setNamespace( NS_WIKIA );
 	$foo->setGroupPrefix( 'wikia-' );
-	//$mg->setIcon( 'wiki://Wikia_Logo.png' );
 	$foo->setUseConfigure( false );
 	$foo->register( $list, $deps, $autoload );
 
