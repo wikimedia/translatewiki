@@ -213,7 +213,7 @@ then
 
 	cd $PROJECT
 
-	SKINS=$(curl https://gerrit.wikimedia.org/r/projects/?p=mediawiki/skins/ |grep 'mediawiki/skins/' |cut -d '"' -f 2 |cut -d '/' -f3 |sort)
+	SKINS=$(curl -s https://gerrit.wikimedia.org/r/projects/?p=mediawiki/skins/ |grep 'mediawiki/skins/' |cut -d '"' -f 2 |cut -d '/' -f3 |sort)
 
 	# Clone skin repos that do not exist yet.
 	for SKIN in $SKINS
