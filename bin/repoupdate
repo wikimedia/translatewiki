@@ -179,7 +179,6 @@ then
 	cd $PROJECT
 	cd extensions
 
-	count=0
 	EXTENSIONS=$(curl -s "https://gerrit.wikimedia.org/mediawiki-extensions.txt"|egrep -v "(FundraisingEmailUnsubscribe|DataValuesCommon|ShortUrlApi)")
 
 	# Clone extension repos that do not exist yet.
