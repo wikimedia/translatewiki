@@ -57,5 +57,3 @@ GROUPS:
   - ext-wikimediaevents # 2013-10-07: Renamed from CoreEvents
   - ext-wikimedialicensetexts # commons.wikimedia.org
   - ext-wikimediamessages
-  - mediawiki-skins-monobook
-  - mediawiki-skins-vector
