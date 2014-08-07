@@ -16,6 +16,24 @@
       "revId": "16a3092f89039bee8129c620e06782dedfedc494",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e28a382_7c941b3a",
+        "filename": "groups/MediaWiki/WikimediaMainAgg.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-08-07T15:32:46Z",
+      "side": 1,
+      "message": "Yes. MonoBook should die. It\u0027s not been the default skin for very long, so it\u0027s no longer of critical importance.",
+      "parentUuid": "8e28a382_1c7cf71a",
+      "revId": "16a3092f89039bee8129c620e06782dedfedc494",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
