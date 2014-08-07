@@ -8,8 +8,9 @@ file = chameleon/i18n/%CODE%.json
 
 Cologne Blue
 
-Erudite
-file = erudite/i18n/%CODE%.json
+# No JSON i18n
+#Erudite
+#file = erudite/i18n/%CODE%.json
 
 # No JSON i18n
 #Grey Stuff
