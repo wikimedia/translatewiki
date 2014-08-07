@@ -55,7 +55,7 @@ cloneGerritRepo() {
 }
 
 # Ugly. Eventually, I think we should end up with a file similar to
-# mediawiki-defines.txt where we can simply add a line like this:
+# mediawiki-extensions.txt where we can simply add a line like this:
 #   repo=https://gerrit.wikimedia.org/r/p/oojs/ui.git
 # and then things magically happen based on the other configuration
 # settings.
