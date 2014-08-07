@@ -36,8 +36,8 @@ BASIC:
   label: iHRIS Qualify - Core
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify/ihris-qualify.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify/ihris-qualify.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify/%CODE%.po"
 
 MANGLER:
   prefix: qua-core-
@@ -48,8 +48,8 @@ BASIC:
   label: iHRIS Qualify - Custom Reports Disruption
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-disruption/ihris-qualify-custom-reports-disruption.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-disruption/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-disruption/ihris-qualify-custom-reports-disruption.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-disruption/%CODE%.po"
 
 MANGLER:
   prefix: qua-crd-
@@ -60,8 +60,8 @@ BASIC:
   label: iHRIS Qualify - Custom Reports Exam
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-exam/ihris-qualify-custom-reports-exam.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-exam/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-exam/ihris-qualify-custom-reports-exam.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-exam/%CODE%.po"
 
 MANGLER:
   prefix: qua-cre-
@@ -72,8 +72,8 @@ BASIC:
   label: iHRIS Qualify - Custom Reports Institution
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-institution/ihris-qualify-custom-reports-institution.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-institution/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-institution/ihris-qualify-custom-reports-institution.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-institution/%CODE%.po"
 
 MANGLER:
   prefix: qua-cri-
@@ -84,8 +84,8 @@ BASIC:
   label: iHRIS Qualify - Custom Reports License
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-license/ihris-qualify-custom-reports-license.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-license/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-license/ihris-qualify-custom-reports-license.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-license/%CODE%.po"
 
 MANGLER:
   prefix: qua-crl-
@@ -96,8 +96,8 @@ BASIC:
   label: iHRIS Qualify - Custom Reports Person
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-person/ihris-qualify-custom-reports-person.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-person/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-person/ihris-qualify-custom-reports-person.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-person/%CODE%.po"
 
 MANGLER:
   prefix: qua-crp-
@@ -108,8 +108,8 @@ BASIC:
   label: iHRIS Qualify - Custom Reports Registration
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-registration/ihris-qualify-custom-reports-registration.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-registration/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-registration/ihris-qualify-custom-reports-registration.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-registration/%CODE%.po"
 
 MANGLER:
   prefix: qua-crr-
@@ -120,8 +120,8 @@ BASIC:
   label: iHRIS Qualify - Custom Reports Search People
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-search-people/ihris-qualify-custom-reports-search-people.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-search-people/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-search-people/ihris-qualify-custom-reports-search-people.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-search-people/%CODE%.po"
 
 MANGLER:
   prefix: qua-crsp-
@@ -132,8 +132,8 @@ BASIC:
   label: iHRIS Qualify - Custom Reports Search Training
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-search-training/ihris-qualify-custom-reports-search-training.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-search-training/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-search-training/ihris-qualify-custom-reports-search-training.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-search-training/%CODE%.po"
 
 MANGLER:
   prefix: qua-crst-
@@ -144,8 +144,8 @@ BASIC:
   label: iHRIS Qualify - Custom Reports Training
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-training/ihris-qualify-custom-reports-training.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-training/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-training/ihris-qualify-custom-reports-training.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-custom-reports-training/%CODE%.po"
 
 MANGLER:
   prefix: qua-crt-
@@ -156,8 +156,8 @@ BASIC:
   label: iHRIS Qualify - Printed Forms License
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-printed-forms-license/ihris-qualify-printed-forms-license.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-printed-forms-license/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-printed-forms-license/ihris-qualify-printed-forms-license.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-printed-forms-license/%CODE%.po"
 
 MANGLER:
   prefix: qua-pfl-
@@ -168,8 +168,8 @@ BASIC:
   label: iHRIS Qualify - Printed Forms Registration
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-printed-forms-registration/ihris-qualify-printed-forms-registration.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-printed-forms-registration/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-printed-forms-registration/ihris-qualify-printed-forms-registration.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-printed-forms-registration/%CODE%.po"
 
 MANGLER:
   prefix: qua-pfr-
@@ -180,8 +180,8 @@ BASIC:
   label: iHRIS Qualify - Person Training
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-person-training/ihris-qualify-person-training.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-person-training/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-person-training/ihris-qualify-person-training.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-person-training/%CODE%.po"
 
 MANGLER:
   prefix: qua-ptr-
@@ -192,8 +192,8 @@ BASIC:
   label: iHRIS Qualify - Person Training Upload
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-person-training-upload/ihris-qualify-person-training-upload.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-person-training-upload/ihris-qualify-person-training-upload.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/%CODE%.po"
 
 MANGLER:
   prefix: qua-ptu-
@@ -204,8 +204,8 @@ BASIC:
   label: iHRIS Qualify - Site
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-site/ihris-qualify-site.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-site/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-site/ihris-qualify-site.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/ihris-qualify-site/%CODE%.po"
 
 MANGLER:
   prefix: qua-site-
@@ -216,8 +216,8 @@ BASIC:
   label: iHRIS Qualify - Self Service
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service/qualify-self-service.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service/qualify-self-service.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service/%CODE%.po"
 
 MANGLER:
   prefix: qua-sse-
@@ -228,8 +228,8 @@ BASIC:
   label: iHRIS Qualify - Self Service Register
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service-register/qualify-self-service-register.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service-register/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service-register/qualify-self-service-register.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/qualify-self-service-register/%CODE%.po"
 
 MANGLER:
   prefix: qua-ssr-
@@ -240,8 +240,8 @@ BASIC:
   label: iHRIS Qualify - Record Verify
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-qualify/translations/templates/record-verify/record-verify.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-qualify/translations/templates/record-verify/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/record-verify/record-verify.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-qualify/translations/templates/record-verify/%CODE%.po"
 
 MANGLER:
   prefix: qua-rve-

@@ -8,7 +8,7 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/wikimania/data/i18n/%CODE%.json
+  sourcePattern: "%GROUPROOT%/wikimania/data/i18n/%CODE%.json"
 
 MANGLER:
   class: StringMatcher

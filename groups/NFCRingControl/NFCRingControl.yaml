@@ -9,4 +9,4 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/nfcring-control/www/locales/%CODE%.json
+  sourcePattern: "%GROUPROOT%/nfcring-control/www/locales/%CODE%.json"

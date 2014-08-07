@@ -9,4 +9,4 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/etherpad-lite/src/locales/%CODE%.json
+  sourcePattern: "%GROUPROOT%/etherpad-lite/src/locales/%CODE%.json"

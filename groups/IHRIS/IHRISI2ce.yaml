@@ -37,8 +37,8 @@ BASIC:
   label: iHRIS I2CE - Admin
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/admin/admin.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/admin/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/admin/admin.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/admin/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-admin-
@@ -49,8 +49,8 @@ BASIC:
   label: iHRIS I2CE - Bin Field
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/bin-field/bin-field.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/bin-field/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/bin-field/bin-field.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/bin-field/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-bfi-
@@ -61,8 +61,8 @@ BASIC:
   label: iHRIS I2CE - Background Process
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/background-process/background-process.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/background-process/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/background-process/background-process.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/background-process/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-bpr-
@@ -73,8 +73,8 @@ BASIC:
   label: iHRIS I2CE - Cached Forms
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/cached-forms/cached-forms.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/cached-forms/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/cached-forms/cached-forms.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/cached-forms/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-cfo-
@@ -85,8 +85,8 @@ BASIC:
   label: iHRIS I2CE - Color Picker
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/color-picker/color-picker.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/color-picker/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/color-picker/color-picker.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/color-picker/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-cpi-
@@ -97,8 +97,8 @@ BASIC:
   label: iHRIS I2CE - Custom Reports Cross Tab
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-cross-tab/custom-reports-cross-tab.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-cross-tab/custom-reports-cross-tab.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-crct-
@@ -109,8 +109,8 @@ BASIC:
   label: iHRIS I2CE - Custom Reports
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports/custom-reports.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports/custom-reports.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-cre-
@@ -121,8 +121,8 @@ BASIC:
   label: iHRIS I2CE - Custom Reports Export
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-export/custom-reports-export.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-export/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-export/custom-reports-export.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-export/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-crex-
@@ -133,8 +133,8 @@ BASIC:
   label: iHRIS I2CE - Custom Reports PDF
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-pdf/custom-reports-pdf.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-pdf/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-pdf/custom-reports-pdf.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-pdf/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-crp-
@@ -145,8 +145,8 @@ BASIC:
   label: iHRIS I2CE - Custom Reports Pie Chart
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-pie-chart/custom-reports-pie-chart.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-pie-chart/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-pie-chart/custom-reports-pie-chart.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-pie-chart/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-crpc-
@@ -157,8 +157,8 @@ BASIC:
   label: iHRIS I2CE - Custom Printed Reports ODT
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-printed-reports-odt/custom-reports-printed-reports-odt.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-printed-reports-odt/custom-reports-printed-reports-odt.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-crpto-
@@ -169,8 +169,8 @@ BASIC:
   label: iHRIS I2CE - Custom Reports Selector
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-selector/custom-reports-selector.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-selector/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-selector/custom-reports-selector.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/custom-reports-selector/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-crs-
@@ -181,8 +181,8 @@ BASIC:
   label: iHRIS I2CE - Date Picket
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/date-picker/date-picker.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/date-picker/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/date-picker/date-picker.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/date-picker/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-dpi-
@@ -193,8 +193,8 @@ BASIC:
   label: iHRIS I2CE - Form Builder
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/form-builder/form-builder.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/form-builder/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/form-builder/form-builder.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/form-builder/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-fbu-
@@ -205,8 +205,8 @@ BASIC:
   label: iHRIS I2CE - Fields
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/fields/fields.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/fields/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/fields/fields.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/fields/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-fie-
@@ -217,8 +217,8 @@ BASIC:
   label: iHRIS I2CE - Field Limits
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/field-limits/field-limits.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/field-limits/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/field-limits/field-limits.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/field-limits/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-fli-
@@ -229,8 +229,8 @@ BASIC:
   label: iHRIS I2CE - File Dump
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/file-dump/file-dump.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/file-dump/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/file-dump/file-dump.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/file-dump/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-fdu-
@@ -241,8 +241,8 @@ BASIC:
   label: iHRIS I2CE - Form Browser
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/form-browser/form-browser.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/form-browser/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/form-browser/form-browser.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/form-browser/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-fbr-
@@ -253,8 +253,8 @@ BASIC:
   label: iHRIS I2CE - Form Limits
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/form-limits/form-limits.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/form-limits/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/form-limits/form-limits.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/form-limits/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-fli-
@@ -265,8 +265,8 @@ BASIC:
   label: iHRIS I2CE - Form Relationships
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/form-relationships/form-relationships.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/form-relationships/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/form-relationships/form-relationships.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/form-relationships/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-fre-
@@ -277,8 +277,8 @@ BASIC:
   label: iHRIS I2CE - Form Relationship Viewer
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/form-relationship-viewer/form-relationship-viewer.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/form-relationship-viewer/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/form-relationship-viewer/form-relationship-viewer.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/form-relationship-viewer/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-frv-
@@ -289,8 +289,8 @@ BASIC:
   label: iHRIS I2CE - Forms
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/forms/forms.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/forms/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/forms/forms.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/forms/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-forms-
@@ -301,8 +301,8 @@ BASIC:
   label: iHRIS I2CE - Lists
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/lists/lists.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/lists/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/lists/lists.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/lists/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-lists-
@@ -313,8 +313,8 @@ BASIC:
   label: iHRIS I2CE - Lists Link To
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to/lists-link-to.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to/lists-link-to.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-llt-
@@ -325,8 +325,8 @@ BASIC:
   label: iHRIS I2CE - Lists Link To List
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to-list/lists-link-to-list.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to-list/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to-list/lists-link-to-list.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to-list/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-lltl-
@@ -337,8 +337,8 @@ BASIC:
   label: iHRIS I2CE - Lists Link To String
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to-string/lists-link-to-string.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to-string/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to-string/lists-link-to-string.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/lists-link-to-string/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-llts-
@@ -349,8 +349,8 @@ BASIC:
   label: iHRIS I2CE - Locale Form
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/locale-form/locale-form.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/locale-form/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/locale-form/locale-form.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/locale-form/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-lfo-
@@ -361,8 +361,8 @@ BASIC:
   label: iHRIS I2CE - Locale Selector
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/locale-selector/locale-selector.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/locale-selector/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/locale-selector/locale-selector.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/locale-selector/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-lse-
@@ -373,8 +373,8 @@ BASIC:
   label: iHRIS I2CE - Login Page
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/login-page/login-page.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/login-page/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/login-page/login-page.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/login-page/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-lpa-
@@ -385,8 +385,8 @@ BASIC:
   label: iHRIS I2CE - Magic Data Browser
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/magic-data-browser/magic-data-browser.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/magic-data-browser/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/magic-data-browser/magic-data-browser.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/magic-data-browser/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-mdb-
@@ -397,8 +397,8 @@ BASIC:
   label: iHRIS I2CE - Message Notice
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/message-notice/message-notice.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/message-notice/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/message-notice/message-notice.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/message-notice/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-mno-
@@ -409,8 +409,8 @@ BASIC:
   label: iHRIS I2CE - MIME Types
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/mime-types/mime-types.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/mime-types/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/mime-types/mime-types.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/mime-types/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-mty-
@@ -421,8 +421,8 @@ BASIC:
   label: iHRIS I2CE - Pages
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/pages/pages.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/pages/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/pages/pages.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/pages/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-pages-
@@ -433,8 +433,8 @@ BASIC:
   label: iHRIS I2CE - Page Builder
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/page-builder/page-builder.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/page-builder/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/page-builder/page-builder.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/page-builder/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-pbu-
@@ -445,8 +445,8 @@ BASIC:
   label: iHRIS I2CE - P Chart
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/p-chart/p-chart.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/p-chart/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/p-chart/p-chart.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/p-chart/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-pch-
@@ -457,8 +457,8 @@ BASIC:
   label: iHRIS I2CE - Page Form Autoview Builder
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/page-formautoview-builder/page-formautoview-builder.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/page-formautoview-builder/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/page-formautoview-builder/page-formautoview-builder.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/page-formautoview-builder/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-pfb-
@@ -469,8 +469,8 @@ BASIC:
   label: iHRIS I2CE - Printed Forms
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/printed-forms/printed-forms.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/printed-forms/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/printed-forms/printed-forms.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/printed-forms/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-pfo-
@@ -481,8 +481,8 @@ BASIC:
   label: iHRIS I2CE - Page Relationship Builder
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/page-relationship-builder/page-relationship-builder.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/page-relationship-builder/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/page-relationship-builder/page-relationship-builder.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/page-relationship-builder/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-pre-
@@ -493,8 +493,8 @@ BASIC:
   label: iHRIS I2CE - Report Archiver
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/report-archiver/report-archiver.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/report-archiver/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/report-archiver/report-archiver.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/report-archiver/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-rar-
@@ -505,8 +505,8 @@ BASIC:
   label: iHRIS I2CE - Request Account Verify Email
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/request-account-verify-email/request-account-verify-email.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/request-account-verify-email/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/request-account-verify-email/request-account-verify-email.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/request-account-verify-email/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-rave-
@@ -517,8 +517,8 @@ BASIC:
   label: iHRIS I2CE - Stub
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/stub/stub.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/stub/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/stub/stub.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/stub/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-stub-
@@ -529,8 +529,8 @@ BASIC:
   label: iHRIS I2CE - Swiss Config
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/swiss-config/swiss-config.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/swiss-config/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/swiss-config/swiss-config.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/swiss-config/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-sco-
@@ -541,8 +541,8 @@ BASIC:
   label: iHRIS I2CE - Swiss Magic
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/swiss-magic/swiss-magic.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/swiss-magic/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/swiss-magic/swiss-magic.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/swiss-magic/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-sma-
@@ -553,8 +553,8 @@ BASIC:
   label: iHRIS I2CE - Swiss Factory
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/swissfactory/swissfactory.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/swissfactory/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/swissfactory/swissfactory.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/swissfactory/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-sfa-
@@ -565,8 +565,8 @@ BASIC:
   label: iHRIS I2CE - Task Roles
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/tasks-roles/tasks-roles.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/tasks-roles/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/tasks-roles/tasks-roles.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/tasks-roles/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-tro-
@@ -577,8 +577,8 @@ BASIC:
   label: iHRIS I2CE - Timer
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/timer/timer.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/timer/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/timer/timer.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/timer/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-timer-
@@ -589,8 +589,8 @@ BASIC:
   label: iHRIS I2CE - Tree Selector
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/tree-select/tree-select.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/tree-select/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/tree-select/tree-select.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/tree-select/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-tse-
@@ -601,8 +601,8 @@ BASIC:
   label: iHRIS I2CE - User Access
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/user-access/user-access.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/user-access/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/user-access/user-access.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/user-access/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-uac-
@@ -613,8 +613,8 @@ BASIC:
   label: iHRIS I2CE - User Access DHIS
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/user-access-dhis/user-access-dhis.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/user-access-dhis/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/user-access-dhis/user-access-dhis.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/user-access-dhis/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-uad-
@@ -625,8 +625,8 @@ BASIC:
   label: iHRIS I2CE - User Access LDAP
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/user-access-ldap/user-access-ldap.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/user-access-ldap/%CODE%.pot
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/user-access-ldap/user-access-ldap.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/user-access-ldap/%CODE%.pot"
 
 MANGLER:
   prefix: i2ce-ual-
@@ -637,8 +637,8 @@ BASIC:
   label: iHRIS I2CE - User Access LDAP Hybrid
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/user-access-ldap-hybrid/user-access-ldap-hybrid.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/user-access-ldap-hybrid/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/user-access-ldap-hybrid/user-access-ldap-hybrid.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/user-access-ldap-hybrid/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-ualh-
@@ -649,8 +649,8 @@ BASIC:
   label: iHRIS I2CE - User Access Single
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/user-access-single/user-access-single.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/user-access-single/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/user-access-single/user-access-single.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/user-access-single/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-uas-
@@ -661,8 +661,8 @@ BASIC:
   label: iHRIS I2CE - User Form
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/user-form/user-form.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/user-form/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/user-form/user-form.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/user-form/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-ufo-
@@ -673,8 +673,8 @@ BASIC:
   label: iHRIS I2CE - Web Services
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/web-services/web-services.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/web-services/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/web-services/web-services.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/web-services/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-wse-
@@ -685,8 +685,8 @@ BASIC:
   label: iHRIS I2CE - Web Services Lists
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/i2ce/translations/templates/web-services-lists/web-services-lists.pot
-  sourcePattern: %GROUPROOT%/ihris/i2ce/translations/templates/web-services-lists/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/i2ce/translations/templates/web-services-lists/web-services-lists.pot"
+  sourcePattern: "%GROUPROOT%/ihris/i2ce/translations/templates/web-services-lists/%CODE%.po"
 
 MANGLER:
   prefix: i2ce-wsl-

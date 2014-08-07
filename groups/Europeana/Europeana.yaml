@@ -7,7 +7,7 @@ BASIC:
   description: "{{int:translate-group-desc-europeana}}"
 
 FILES:
-  sourcePattern: %GROUPROOT%/europeana/config/locales/%CODE%.yml
+  sourcePattern: "%GROUPROOT%/europeana/config/locales/%CODE%.yml"
   class: RubyYamlFFS
   codeAsRoot: 1
   codeMap:

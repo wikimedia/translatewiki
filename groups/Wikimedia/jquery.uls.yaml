@@ -15,4 +15,4 @@ MANGLER:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/jquery.uls/i18n/%CODE%.json
+  sourcePattern: "%GROUPROOT%/jquery.uls/i18n/%CODE%.json"

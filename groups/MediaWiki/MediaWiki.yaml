@@ -24,7 +24,7 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mediawiki/master/languages/i18n/%CODE%.json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/%CODE%.json"
 
 TAGS:
   optional:
@@ -521,7 +521,7 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mediawiki/master/includes/installer/i18n/%CODE%.json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/includes/installer/i18n/%CODE%.json"
 
 TAGS:
   optional:
@@ -540,7 +540,7 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mediawiki/master/skins/MonoBook/i18n/%CODE%.json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/skins/MonoBook/i18n/%CODE%.json"
 
 TAGS:
   optional:
@@ -559,7 +559,7 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mediawiki/master/skins/Vector/i18n/%CODE%.json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/skins/Vector/i18n/%CODE%.json"
 
 TAGS:
   optional:

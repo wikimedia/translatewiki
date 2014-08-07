@@ -9,9 +9,9 @@ BASIC:
 
 FILES:
   class: JavaFFS
-  sourcePattern: %GROUPROOT%/kiwix/maintenance_tools/translatewiki/%CODE%
+  sourcePattern: "%GROUPROOT%/kiwix/maintenance_tools/translatewiki/%CODE%"
 
 TAGS:
   optional:
-    - *.accesskey
+    - "*.accesskey"
     - ui.main.cssdirection

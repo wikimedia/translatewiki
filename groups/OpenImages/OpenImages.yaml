@@ -22,8 +22,8 @@ BASIC:
 
 FILES:
   class: JavaFFS
-  sourcePattern: %GROUPROOT%/openimages/messages_%CODE%.properties
-  definitionFile: %GROUPROOT%/openimages/messages.properties
+  sourcePattern: "%GROUPROOT%/openimages/messages_%CODE%.properties"
+  definitionFile: "%GROUPROOT%/openimages/messages.properties"
   codeMap:
     nb: "no"
 
@@ -43,7 +43,7 @@ BASIC:
 
 FILES:
   class: JavaFFS
-  sourcePattern: %GROUPROOT%/openimages/verifyemailtemplate_%CODE%.properties
-  definitionFile: %GROUPROOT%/openimages/verifyemailtemplate.properties
+  sourcePattern: "%GROUPROOT%/openimages/verifyemailtemplate_%CODE%.properties"
+  definitionFile: "%GROUPROOT%/openimages/verifyemailtemplate.properties"
   codeMap:
     nb: "no"

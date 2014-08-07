@@ -68,152 +68,152 @@ BASIC:
   label: Pywikibot Add Text
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/add_text.py
-  definitionFile: %GROUPROOT%/pywikibot/add_text.py
+  sourcePattern: "%GROUPROOT%/pywikibot/add_text.py"
+  definitionFile: "%GROUPROOT%/pywikibot/add_text.py"
 ---
 BASIC:
   id: out-pywikipedia-archivebot
   label: Pywikibot Archive Bot
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/archivebot.py
-  definitionFile: %GROUPROOT%/pywikibot/archivebot.py
+  sourcePattern: "%GROUPROOT%/pywikibot/archivebot.py"
+  definitionFile: "%GROUPROOT%/pywikibot/archivebot.py"
 ---
 BASIC:
   id: out-pywikipedia-basic
   label: Pywikibot Basic
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/basic.py
-  definitionFile: %GROUPROOT%/pywikibot/basic.py
+  sourcePattern: "%GROUPROOT%/pywikibot/basic.py"
+  definitionFile: "%GROUPROOT%/pywikibot/basic.py"
 ---
 BASIC:
   id: out-pywikipedia-blockpageschecker
   label: Pywikibot Blockpages Checker
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/blockpageschecker.py
-  definitionFile: %GROUPROOT%/pywikibot/blockpageschecker.py
+  sourcePattern: "%GROUPROOT%/pywikibot/blockpageschecker.py"
+  definitionFile: "%GROUPROOT%/pywikibot/blockpageschecker.py"
 ---
 BASIC:
   id: out-pywikipedia-capitalizeredirects
   label: Pywikibot Capitalize Redirects
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/capitalize_redirects.py
-  definitionFile: %GROUPROOT%/pywikibot/capitalize_redirects.py
+  sourcePattern: "%GROUPROOT%/pywikibot/capitalize_redirects.py"
+  definitionFile: "%GROUPROOT%/pywikibot/capitalize_redirects.py"
 ---
 BASIC:
   id: out-pywikipedia-casechecker
   label: Pywikibot Casechecker
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/casechecker.py
-  definitionFile: %GROUPROOT%/pywikibot/casechecker.py
+  sourcePattern: "%GROUPROOT%/pywikibot/casechecker.py"
+  definitionFile: "%GROUPROOT%/pywikibot/casechecker.py"
 ---
 BASIC:
   id: out-pywikipedia-catall
   label: Pywikibot Catall
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/catall.py
-  definitionFile: %GROUPROOT%/pywikibot/catall.py
+  sourcePattern: "%GROUPROOT%/pywikibot/catall.py"
+  definitionFile: "%GROUPROOT%/pywikibot/catall.py"
 ---
 BASIC:
   id: out-pywikipedia-category
   label: Pywikibot Category
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/category.py
-  definitionFile: %GROUPROOT%/pywikibot/category.py
+  sourcePattern: "%GROUPROOT%/pywikibot/category.py"
+  definitionFile: "%GROUPROOT%/pywikibot/category.py"
 ---
 BASIC:
   id: out-pywikipedia-categoryredirect
   label: Pywikibot Category Redirect
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/category_redirect.py
-  definitionFile: %GROUPROOT%/pywikibot/category_redirect.py
+  sourcePattern: "%GROUPROOT%/pywikibot/category_redirect.py"
+  definitionFile: "%GROUPROOT%/pywikibot/category_redirect.py"
 ---
 BASIC:
   id: out-pywikipedia-cleansandbox
   label: Pywikibot Clean Sandbox
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/clean_sandbox.py
-  definitionFile: %GROUPROOT%/pywikibot/clean_sandbox.py
+  sourcePattern: "%GROUPROOT%/pywikibot/clean_sandbox.py"
+  definitionFile: "%GROUPROOT%/pywikibot/clean_sandbox.py"
 ---
 BASIC:
   id: out-pywikipedia-commons
   label: Pywikibot Commons
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/commons.py
-  definitionFile: %GROUPROOT%/pywikibot/commons.py
+  sourcePattern: "%GROUPROOT%/pywikibot/commons.py"
+  definitionFile: "%GROUPROOT%/pywikibot/commons.py"
 ---
 BASIC:
   id: out-pywikipedia-commonslink
   label: Pywikibot Commons Link
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/commons_link.py
-  definitionFile: %GROUPROOT%/pywikibot/commons_link.py
+  sourcePattern: "%GROUPROOT%/pywikibot/commons_link.py"
+  definitionFile: "%GROUPROOT%/pywikibot/commons_link.py"
 ---
 BASIC:
   id: out-pywikipedia-cosmeticchanges
   label: Pywikibot Cosmetic Changes
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/cosmetic_changes.py
-  definitionFile: %GROUPROOT%/pywikibot/cosmetic_changes.py
+  sourcePattern: "%GROUPROOT%/pywikibot/cosmetic_changes.py"
+  definitionFile: "%GROUPROOT%/pywikibot/cosmetic_changes.py"
 ---
 BASIC:
   id: out-pywikipedia-delete
   label: Pywikibot Delete
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/delete.py
-  definitionFile: %GROUPROOT%/pywikibot/delete.py
+  sourcePattern: "%GROUPROOT%/pywikibot/delete.py"
+  definitionFile: "%GROUPROOT%/pywikibot/delete.py"
 ---
 BASIC:
   id: out-pywikipedia-djvutext
   label: Pywikibot DjVu Text
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/djvutext.py
-  definitionFile: %GROUPROOT%/pywikibot/djvutext.py
+  sourcePattern: "%GROUPROOT%/pywikibot/djvutext.py"
+  definitionFile: "%GROUPROOT%/pywikibot/djvutext.py"
 ---
 BASIC:
   id: out-pywikipedia-editarticle
   label: Pywikibot Edit Article
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/editarticle.py
-  definitionFile: %GROUPROOT%/pywikibot/editarticle.py
+  sourcePattern: "%GROUPROOT%/pywikibot/editarticle.py"
+  definitionFile: "%GROUPROOT%/pywikibot/editarticle.py"
 ---
 BASIC:
   id: out-pywikipedia-featured
   label: Pywikibot Featured
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/featured.py
-  definitionFile: %GROUPROOT%/pywikibot/featured.py
+  sourcePattern: "%GROUPROOT%/pywikibot/featured.py"
+  definitionFile: "%GROUPROOT%/pywikibot/featured.py"
 ---
 BASIC:
   id: out-pywikipedia-fixingredirects
   label: Pywikibot Fixing Redirects
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/fixing_redirects.py
-  definitionFile: %GROUPROOT%/pywikibot/fixing_redirects.py
+  sourcePattern: "%GROUPROOT%/pywikibot/fixing_redirects.py"
+  definitionFile: "%GROUPROOT%/pywikibot/fixing_redirects.py"
 ---
 BASIC:
   id: out-pywikipedia-interwiki
   label: Pywikibot Interwiki
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/interwiki.py
-  definitionFile: %GROUPROOT%/pywikibot/interwiki.py
+  sourcePattern: "%GROUPROOT%/pywikibot/interwiki.py"
+  definitionFile: "%GROUPROOT%/pywikibot/interwiki.py"
 
 TAGS:
   optional:
@@ -224,96 +224,96 @@ BASIC:
   label: Pywikibot ISBN
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/isbn.py
-  definitionFile: %GROUPROOT%/pywikibot/isbn.py
+  sourcePattern: "%GROUPROOT%/pywikibot/isbn.py"
+  definitionFile: "%GROUPROOT%/pywikibot/isbn.py"
 ---
 BASIC:
   id: out-pywikipedia-lonelypages
   label: Pywikibot Lonely Pages Checker
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/lonelypages.py
-  definitionFile: %GROUPROOT%/pywikibot/lonelypages.py
+  sourcePattern: "%GROUPROOT%/pywikibot/lonelypages.py"
+  definitionFile: "%GROUPROOT%/pywikibot/lonelypages.py"
 ---
 BASIC:
   id: out-pywikipedia-makecat
   label: Pywikibot Make Cat
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/makecat.py
-  definitionFile: %GROUPROOT%/pywikibot/makecat.py
+  sourcePattern: "%GROUPROOT%/pywikibot/makecat.py"
+  definitionFile: "%GROUPROOT%/pywikibot/makecat.py"
 ---
 BASIC:
   id: out-pywikipedia-misspelling
   label: Pywikibot Misspelling
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/misspelling.py
-  definitionFile: %GROUPROOT%/pywikibot/misspelling.py
+  sourcePattern: "%GROUPROOT%/pywikibot/misspelling.py"
+  definitionFile: "%GROUPROOT%/pywikibot/misspelling.py"
 ---
 BASIC:
   id: out-pywikipedia-movepages
   label: Pywikibot Move Pages
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/movepages.py
-  definitionFile: %GROUPROOT%/pywikibot/movepages.py
+  sourcePattern: "%GROUPROOT%/pywikibot/movepages.py"
+  definitionFile: "%GROUPROOT%/pywikibot/movepages.py"
 ---
 BASIC:
   id: out-pywikipedia-ndashredir
   label: Pywikibot Ndash Redir
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/ndashredir.py
-  definitionFile: %GROUPROOT%/pywikibot/ndashredir.py
+  sourcePattern: "%GROUPROOT%/pywikibot/ndashredir.py"
+  definitionFile: "%GROUPROOT%/pywikibot/ndashredir.py"
 ---
 BASIC:
   id: out-pywikipedia-noreferences
   label: Pywikibot No References
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/noreferences.py
-  definitionFile: %GROUPROOT%/pywikibot/noreferences.py
+  sourcePattern: "%GROUPROOT%/pywikibot/noreferences.py"
+  definitionFile: "%GROUPROOT%/pywikibot/noreferences.py"
 ---
 BASIC:
   id: out-pywikipedia-pagefromfile
   label: Pywikibot Page from File
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/pagefromfile.py
-  definitionFile: %GROUPROOT%/pywikibot/pagefromfile.py
+  sourcePattern: "%GROUPROOT%/pywikibot/pagefromfile.py"
+  definitionFile: "%GROUPROOT%/pywikibot/pagefromfile.py"
 ---
 BASIC:
   id: out-pywikipedia-pywikibot
   label: Pywikibot Pywikibot
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/pywikibot.py
-  definitionFile: %GROUPROOT%/pywikibot/pywikibot.py
+  sourcePattern: "%GROUPROOT%/pywikibot/pywikibot.py"
+  definitionFile: "%GROUPROOT%/pywikibot/pywikibot.py"
 ---
 BASIC:
   id: out-pywikipedia-protect
   label: Pywikibot Protect
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/protect.py
-  definitionFile: %GROUPROOT%/pywikibot/protect.py
+  sourcePattern: "%GROUPROOT%/pywikibot/protect.py"
+  definitionFile: "%GROUPROOT%/pywikibot/protect.py"
 ---
 BASIC:
   id: out-pywikipedia-spamremove
   label: Pywikibot Spam Remove
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/spamremove.py
-  definitionFile: %GROUPROOT%/pywikibot/spamremove.py
+  sourcePattern: "%GROUPROOT%/pywikibot/spamremove.py"
+  definitionFile: "%GROUPROOT%/pywikibot/spamremove.py"
 ---
 BASIC:
   id: out-pywikipedia-redirect
   label: Pywikibot Redirect
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/redirect.py
-  definitionFile: %GROUPROOT%/pywikibot/redirect.py
+  sourcePattern: "%GROUPROOT%/pywikibot/redirect.py"
+  definitionFile: "%GROUPROOT%/pywikibot/redirect.py"
 
 TAGS:
   optional:
@@ -324,64 +324,64 @@ BASIC:
   label: Pywikibot Reflinks
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/reflinks.py
-  definitionFile: %GROUPROOT%/pywikibot/reflinks.py
+  sourcePattern: "%GROUPROOT%/pywikibot/reflinks.py"
+  definitionFile: "%GROUPROOT%/pywikibot/reflinks.py"
 ---
 BASIC:
   id: out-pywikipedia-replace
   label: Pywikibot Replace
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/replace.py
-  definitionFile: %GROUPROOT%/pywikibot/replace.py
+  sourcePattern: "%GROUPROOT%/pywikibot/replace.py"
+  definitionFile: "%GROUPROOT%/pywikibot/replace.py"
 ---
 BASIC:
   id: out-pywikipedia-revert
   label: Pywikibot Revert
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/revertbot.py
-  definitionFile: %GROUPROOT%/pywikibot/revertbot.py
+  sourcePattern: "%GROUPROOT%/pywikibot/revertbot.py"
+  definitionFile: "%GROUPROOT%/pywikibot/revertbot.py"
 ---
 BASIC:
   id: out-pywikipedia-selflink
   label: Pywikibot Selflink
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/selflink.py
-  definitionFile: %GROUPROOT%/pywikibot/selflink.py
+  sourcePattern: "%GROUPROOT%/pywikibot/selflink.py"
+  definitionFile: "%GROUPROOT%/pywikibot/selflink.py"
 ---
 BASIC:
   id: out-pywikipedia-solvedisambiguation
   label: Pywikibot Solve Disambiguation
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/solve_disambiguation.py
-  definitionFile: %GROUPROOT%/pywikibot/solve_disambiguation.py
+  sourcePattern: "%GROUPROOT%/pywikibot/solve_disambiguation.py"
+  definitionFile: "%GROUPROOT%/pywikibot/solve_disambiguation.py"
 ---
 BASIC:
   id: out-pywikipedia-spellcheck
   label: Pywikibot Spellcheck
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/spellcheck.py
-  definitionFile: %GROUPROOT%/pywikibot/spellcheck.py
+  sourcePattern: "%GROUPROOT%/pywikibot/spellcheck.py"
+  definitionFile: "%GROUPROOT%/pywikibot/spellcheck.py"
 ---
 BASIC:
   id: out-pywikipedia-table2wiki
   label: Pywikibot Table2Wiki
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/table2wiki.py
-  definitionFile: %GROUPROOT%/pywikibot/table2wiki.py
+  sourcePattern: "%GROUPROOT%/pywikibot/table2wiki.py"
+  definitionFile: "%GROUPROOT%/pywikibot/table2wiki.py"
 ---
 BASIC:
   id: out-pywikipedia-template
   label: Pywikibot Template
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/template.py
-  definitionFile: %GROUPROOT%/pywikibot/template.py
+  sourcePattern: "%GROUPROOT%/pywikibot/template.py"
+  definitionFile: "%GROUPROOT%/pywikibot/template.py"
 
 TAGS:
   optional:
@@ -392,29 +392,29 @@ BASIC:
   label: Pywikibot Third Party
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/thirdparty.py
-  definitionFile: %GROUPROOT%/pywikibot/thirdparty.py
+  sourcePattern: "%GROUPROOT%/pywikibot/thirdparty.py"
+  definitionFile: "%GROUPROOT%/pywikibot/thirdparty.py"
 ---
 BASIC:
   id: out-pywikipedia-unlink
   label: Pywikibot Unlink
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/unlink.py
-  definitionFile: %GROUPROOT%/pywikibot/unlink.py
+  sourcePattern: "%GROUPROOT%/pywikibot/unlink.py"
+  definitionFile: "%GROUPROOT%/pywikibot/unlink.py"
 ---
 BASIC:
   id: out-pywikipedia-weblinkchecker
   label: Pywikibot Web Link Checker
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/weblinkchecker.py
-  definitionFile: %GROUPROOT%/pywikibot/weblinkchecker.py
+  sourcePattern: "%GROUPROOT%/pywikibot/weblinkchecker.py"
+  definitionFile: "%GROUPROOT%/pywikibot/weblinkchecker.py"
 ---
 BASIC:
   id: out-pywikipedia-welcome
   label: Pywikibot Welcome
 
 FILES:
-  sourcePattern: %GROUPROOT%/pywikibot/welcome.py
-  definitionFile: %GROUPROOT%/pywikibot/welcome.py
+  sourcePattern: "%GROUPROOT%/pywikibot/welcome.py"
+  definitionFile: "%GROUPROOT%/pywikibot/welcome.py"

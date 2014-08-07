@@ -216,8 +216,8 @@ MANGLER:
   prefix: commons-android-strings-
 
 FILES:
-  sourcePattern: %GROUPROOT%/commons-android/commons/res/values-%CODE%/strings.xml
-  definitionFile: %GROUPROOT%/commons-android/commons/res/values/strings.xml
+  sourcePattern: "%GROUPROOT%/commons-android/commons/res/values-%CODE%/strings.xml"
+  definitionFile: "%GROUPROOT%/commons-android/commons/res/values/strings.xml"
 
 TAGS:
   optional:
@@ -232,8 +232,8 @@ MANGLER:
   prefix: commons-android-error-
 
 FILES:
-  sourcePattern: %GROUPROOT%/commons-android/commons/res/values-%CODE%/error.xml
-  definitionFile: %GROUPROOT%/commons-android/commons/res/values/error.xml
+  sourcePattern: "%GROUPROOT%/commons-android/commons/res/values-%CODE%/error.xml"
+  definitionFile: "%GROUPROOT%/commons-android/commons/res/values/error.xml"
 
 ---
 BASIC:
@@ -246,8 +246,8 @@ MANGLER:
   prefix: wikipedia-android-strings-
 
 FILES:
-  sourcePattern: %GROUPROOT%/wikipedia-android/wikipedia/res/values-%CODE%/strings.xml
-  definitionFile: %GROUPROOT%/wikipedia-android/wikipedia/res/values/strings.xml
+  sourcePattern: "%GROUPROOT%/wikipedia-android/wikipedia/res/values-%CODE%/strings.xml"
+  definitionFile: "%GROUPROOT%/wikipedia-android/wikipedia/res/values/strings.xml"
 
 TAGS:
   ignored:

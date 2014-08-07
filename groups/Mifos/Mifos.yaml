@@ -8,8 +8,8 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mifos/app/global-translations/locale-%CODE%.json
-  definitionFile: %GROUPROOT%/mifos/app/global-translations/locale-%CODE%.json
+  sourcePattern: "%GROUPROOT%/mifos/app/global-translations/locale-%CODE%.json"
+  definitionFile: "%GROUPROOT%/mifos/app/global-translations/locale-%CODE%.json"
   codeMap:
     pt-br:   pt_BR
     zh-hans: zh_CN

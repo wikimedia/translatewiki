@@ -9,7 +9,7 @@ BASIC:
 
 FILES:
   class: AndroidXmlFFS
-  sourcePattern: %GROUPROOT%/huggle/huggle/Localization/%CODE%.xml
+  sourcePattern: "%GROUPROOT%/huggle/huggle/Localization/%CODE%.xml"
   codeMap:
     nb: "no"
     pt-br: pt-BR

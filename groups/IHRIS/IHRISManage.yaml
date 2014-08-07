@@ -37,8 +37,8 @@ BASIC:
   label: iHRIS Manage - Accident
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/accident/accident.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/accident/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/accident/accident.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/accident/%CODE%.po"
 
 MANGLER:
   prefix: man-acci-
@@ -49,8 +49,8 @@ BASIC:
   label: iHRIS Manage - Access Facility
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-access-facility/manage-access-facility.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-access-facility/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/manage-access-facility/manage-access-facility.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/manage-access-facility/%CODE%.po"
 
 MANGLER:
   prefix: man-afa-
@@ -61,8 +61,8 @@ BASIC:
   label: iHRIS Manage - Auto List
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-auto-list/ihris-manage-auto-list.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-auto-list/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-auto-list/ihris-manage-auto-list.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-auto-list/%CODE%.po"
 
 MANGLER:
   prefix: man-ali-
@@ -73,8 +73,8 @@ BASIC:
   label: iHRIS Manage - Auto Page
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-auto-page/manage-auto-page.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-auto-page/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/manage-auto-page/manage-auto-page.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/manage-auto-page/%CODE%.po"
 
 MANGLER:
   prefix: man-apa-
@@ -85,8 +85,8 @@ BASIC:
   label: iHRIS Manage - Change Position
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/change-position/change-position.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/change-position/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/change-position/change-position.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/change-position/%CODE%.po"
 
 MANGLER:
   prefix: man-cpo-
@@ -97,8 +97,8 @@ BASIC:
   label: iHRIS Manage - CSD Queues
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-csd-qus/ihris-manage-csd-qus.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-csd-qus/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-csd-qus/ihris-manage-csd-qus.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-csd-qus/%CODE%.po"
 
 MANGLER:
   prefix: man-cqu-
@@ -109,8 +109,8 @@ BASIC:
   label: iHRIS Manage - Desciplinary Action
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/disciplinary-action/disciplinary-action.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/disciplinary-action/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/disciplinary-action/disciplinary-action.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/disciplinary-action/%CODE%.po"
 
 MANGLER:
   prefix: man-diac-
@@ -121,8 +121,8 @@ BASIC:
   label: iHRIS Manage - Application
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-application/ihris-manage-application.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-application/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-application/ihris-manage-application.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-application/%CODE%.po"
 
 MANGLER:
   prefix: man-appl-
@@ -133,8 +133,8 @@ BASIC:
   label: iHRIS Manage - Application Attachment
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-application-attachment/ihris-manage-application-attachment.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-application-attachment/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-application-attachment/ihris-manage-application-attachment.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-application-attachment/%CODE%.po"
 
 MANGLER:
   prefix: man-appa-
@@ -145,8 +145,8 @@ BASIC:
   label: iHRIS Manage - Benefit
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-benefit/ihris-manage-benefit.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-benefit/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-benefit/ihris-manage-benefit.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-benefit/%CODE%.po"
 
 MANGLER:
   prefix: man-bene-
@@ -157,8 +157,8 @@ BASIC:
   label: iHRIS Manage - Confirmation
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-confirmation/ihris-manage-confirmation.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-confirmation/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-confirmation/ihris-manage-confirmation.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-confirmation/%CODE%.po"
 
 MANGLER:
   prefix: man-conf-
@@ -169,8 +169,8 @@ BASIC:
   label: iHRIS Manage - Confirmation Attachment
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-confirmation-attachment/ihris-manage-confirmation-attachment.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-confirmation-attachment/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-confirmation-attachment/ihris-manage-confirmation-attachment.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-confirmation-attachment/%CODE%.po"
 
 MANGLER:
   prefix: man-cona-
@@ -181,8 +181,8 @@ BASIC:
   label: iHRIS Manage - Custom Reports
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports/ihris-manage-custom-reports.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports/ihris-manage-custom-reports.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports/%CODE%.po"
 
 MANGLER:
   prefix: man-cure-
@@ -193,8 +193,8 @@ BASIC:
   label: iHRIS Manage - Custom Reports - Facility Reports
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-facility-reports/ihris-manage-custom-reports-facility-reports.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-facility-reports/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-facility-reports/ihris-manage-custom-reports-facility-reports.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-facility-reports/%CODE%.po"
 
 MANGLER:
   prefix: man-crfr-
@@ -205,8 +205,8 @@ BASIC:
   label: iHRIS Manage - Custom Reports - Filled Positions
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-filled-positions/ihris-manage-custom-reports-filled-positions.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-filled-positions/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-filled-positions/ihris-manage-custom-reports-filled-positions.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-filled-positions/%CODE%.po"
 
 MANGLER:
   prefix: man-crfp-
@@ -217,8 +217,8 @@ BASIC:
   label: iHRIS Manage - Custom Reports - Position Reports
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-position-reports/ihris-manage-custom-reports-position-reports.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-position-reports/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-position-reports/ihris-manage-custom-reports-position-reports.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-position-reports/%CODE%.po"
 
 MANGLER:
   prefix: man-crpr-
@@ -229,8 +229,8 @@ BASIC:
   label: iHRIS Manage - Custom Reports - Search People
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-search-people/ihris-manage-custom-reports-search-people.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-search-people/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-search-people/ihris-manage-custom-reports-search-people.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-search-people/%CODE%.po"
 
 MANGLER:
   prefix: man-crsp-
@@ -241,8 +241,8 @@ BASIC:
   label: iHRIS Manage - Custom Reports - Staff Reports
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-staff-reports/ihris-manage-custom-reports-staff-reports.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-staff-reports/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-staff-reports/ihris-manage-custom-reports-staff-reports.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-custom-reports-staff-reports/%CODE%.po"
 
 MANGLER:
   prefix: man-crsr-
@@ -253,8 +253,8 @@ BASIC:
   label: iHRIS Manage - Facility Tree
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-facility-tree/ihris-manage-facility-tree.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-facility-tree/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-facility-tree/ihris-manage-facility-tree.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-facility-tree/%CODE%.po"
 
 MANGLER:
   prefix: man-ftr-
@@ -265,8 +265,8 @@ BASIC:
   label: iHRIS Manage - Manage
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage/ihris-manage.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage/ihris-manage.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage/%CODE%.po"
 
 MANGLER:
   prefix: man-mana-
@@ -277,8 +277,8 @@ BASIC:
   label: iHRIS Manage - Job
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-job/ihris-manage-job.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-job/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-job/ihris-manage-job.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-job/%CODE%.po"
 
 MANGLER:
   prefix: man-job-
@@ -289,8 +289,8 @@ BASIC:
   label: iHRIS Manage - Mass Delete Facility
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-mass-delete-facility/ihris-manage-mass-delete-facility.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-mass-delete-facility/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-mass-delete-facility/ihris-manage-mass-delete-facility.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-mass-delete-facility/%CODE%.po"
 
 MANGLER:
   prefix: man-mdf-
@@ -301,8 +301,8 @@ BASIC:
   label: iHRIS Manage - Multi Position
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-multi-position/ihris-manage-multi-position.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-multi-position/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-multi-position/ihris-manage-multi-position.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-multi-position/%CODE%.po"
 
 MANGLER:
   prefix: man-mpo-
@@ -313,8 +313,8 @@ BASIC:
   label: iHRIS Manage - Person Demographic
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-person-demographic/ihris-manage-person-demographic.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-person-demographic/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-person-demographic/ihris-manage-person-demographic.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-person-demographic/%CODE%.po"
 
 MANGLER:
   prefix: man-pede-
@@ -325,8 +325,8 @@ BASIC:
   label: iHRIS Manage - Person Position
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-person-position/ihris-manage-person-position.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-person-position/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-person-position/ihris-manage-person-position.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-person-position/%CODE%.po"
 
 MANGLER:
   prefix: man-pepo-
@@ -337,8 +337,8 @@ BASIC:
   label: iHRIS Manage - Position Tree
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-position-tree/ihris-manage-position-tree.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-position-tree/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-position-tree/ihris-manage-position-tree.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-position-tree/%CODE%.po"
 
 MANGLER:
   prefix: man-ptr-
@@ -349,8 +349,8 @@ BASIC:
   label: iHRIS Manage - Salary
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-salary/ihris-manage-salary.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-salary/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-salary/ihris-manage-salary.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-salary/%CODE%.po"
 
 MANGLER:
   prefix: man-sala-
@@ -361,8 +361,8 @@ BASIC:
   label: iHRIS Manage - Self Service Application
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service-application/manage-self-service-application.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service-application/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service-application/manage-self-service-application.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service-application/%CODE%.po"
 
 MANGLER:
   prefix: man-ssa-
@@ -373,8 +373,8 @@ BASIC:
   label: iHRIS Manage - Self Service
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service/manage-self-service.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service/manage-self-service.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/manage-self-service/%CODE%.po"
 
 MANGLER:
   prefix: man-sse-
@@ -385,8 +385,8 @@ BASIC:
   label: iHRIS Manage - Manage Site
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-site/ihris-manage-site.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-site/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-site/ihris-manage-site.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/ihris-manage-site/%CODE%.po"
 
 MANGLER:
   prefix: man-masi-
@@ -397,8 +397,8 @@ BASIC:
   label: iHRIS Manage - Registration
 
 FILES:
-  definitionFile: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-registration/manage-registration.pot
-  sourcePattern: %GROUPROOT%/ihris/ihris-manage/translations/templates/manage-registration/%CODE%.po
+  definitionFile: "%GROUPROOT%/ihris/ihris-manage/translations/templates/manage-registration/manage-registration.pot"
+  sourcePattern: "%GROUPROOT%/ihris/ihris-manage/translations/templates/manage-registration/%CODE%.po"
 
 MANGLER:
   prefix: man-regi-

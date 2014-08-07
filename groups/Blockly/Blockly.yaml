@@ -27,7 +27,7 @@ BASIC:
   label: Blockly Apps
 
 FILES:
-  sourcePattern: %GROUPROOT%/blockly/apps/json/%CODE%.json
+  sourcePattern: "%GROUPROOT%/blockly/apps/json/%CODE%.json"
 
 ---
 BASIC:
@@ -35,7 +35,7 @@ BASIC:
   label: Blockly Core
 
 FILES:
-  sourcePattern: %GROUPROOT%/blockly/msg/json/%CODE%.json
+  sourcePattern: "%GROUPROOT%/blockly/msg/json/%CODE%.json"
 
 TAGS:
   optional:

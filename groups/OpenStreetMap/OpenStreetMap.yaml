@@ -35,7 +35,7 @@ BASIC:
   description: "{{int:bw-desc-osm-site}}"
 
 FILES:
-  sourcePattern: %GROUPROOT%/osm/config/locales/%CODE%.yml
+  sourcePattern: "%GROUPROOT%/osm/config/locales/%CODE%.yml"
 
 CHECKER:
   class: OSMMessageChecker

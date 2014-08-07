@@ -33,8 +33,8 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/%CODE%.json
-  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/%CODE%.json
+  sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/%CODE%.json"
+  definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/%CODE%.json"
 
 MANGLER:
   class: StringMatcher
@@ -51,8 +51,8 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/TeX.json
-  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/TeX.json
+  sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/TeX.json"
+  definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/TeX.json"
 
 MANGLER:
   class: StringMatcher
@@ -69,8 +69,8 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/MathMenu.json
-  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/MathMenu.json
+  sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/MathMenu.json"
+  definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/MathMenu.json"
 
 MANGLER:
   class: StringMatcher
@@ -87,8 +87,8 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/MathML.json
-  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/MathML.json
+  sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/MathML.json"
+  definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/MathML.json"
 
 MANGLER:
   class: StringMatcher
@@ -105,8 +105,8 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/HelpDialog.json
-  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/HelpDialog.json
+  sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/HelpDialog.json"
+  definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/HelpDialog.json"
 
 MANGLER:
   class: StringMatcher
@@ -123,8 +123,8 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/HTML-CSS.json
-  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/HTML-CSS.json
+  sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/HTML-CSS.json"
+  definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/HTML-CSS.json"
 
 MANGLER:
   class: StringMatcher
@@ -141,8 +141,8 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: %GROUPROOT%/mathjax/JSON/%CODE%/FontWarnings.json
-  definitionFile: %GROUPROOT%/mathjax/JSON/%CODE%/FontWarnings.json
+  sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/FontWarnings.json"
+  definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/FontWarnings.json"
 
 MANGLER:
   class: StringMatcher

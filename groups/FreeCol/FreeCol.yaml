@@ -9,8 +9,8 @@ BASIC:
 
 FILES:
   class: JavaFFS
-  sourcePattern: %GROUPROOT%/freecol/data/strings/FreeColMessages_%CODE%.properties
-  definitionFile: %GROUPROOT%/freecol/data/strings/FreeColMessages.properties
+  sourcePattern: "%GROUPROOT%/freecol/data/strings/FreeColMessages_%CODE%.properties"
+  definitionFile: "%GROUPROOT%/freecol/data/strings/FreeColMessages.properties"
   codeMap:
     cs:    cs_CZ
     es:    es_ES
@@ -60,7 +60,7 @@ TAGS:
     - model.unit.occupation.activeNoMovesLeft
     - model.unit.occupation.improving
     - model.unit.occupation.unknown
-    - *.accelerator
+    - "*.accelerator"
     - selectDestination.destinationTurns
     - shipName.3.0
     - transaction.tax

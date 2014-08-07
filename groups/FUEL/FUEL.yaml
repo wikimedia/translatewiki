@@ -29,13 +29,13 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  sourcePattern: %GROUPROOT%/fuel/language/%CODE%/terminology/desktop/fuel-desktop-%CODE%_translatewiki.net.po
-  definitionFile: %GROUPROOT%/fuel/language/en/terminology/desktop/fuel-desktop-en.pot
+  sourcePattern: "%GROUPROOT%/fuel/language/%CODE%/terminology/desktop/fuel-desktop-%CODE%_translatewiki.net.po"
+  definitionFile: "%GROUPROOT%/fuel/language/en/terminology/desktop/fuel-desktop-en.pot"
 
 MANGLER:
   class: StringMatcher
   patterns:
-    - *
+    - "*"
   prefix: desktop-
 
 LANGUAGES:
@@ -60,13 +60,13 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  sourcePattern: %GROUPROOT%/fuel/language/%CODE%/terminology/mobile/fuel-mobile-%CODE%_translatewiki.net.po
-  definitionFile: %GROUPROOT%/fuel/language/en/terminology/mobile/fuel-mobile-en.pot
+  sourcePattern: "%GROUPROOT%/fuel/language/%CODE%/terminology/mobile/fuel-mobile-%CODE%_translatewiki.net.po"
+  definitionFile: "%GROUPROOT%/fuel/language/en/terminology/mobile/fuel-mobile-en.pot"
 
 MANGLER:
   class: StringMatcher
   patterns:
-    - *
+    - "*"
   prefix: mobile-
 
 LANGUAGES:
@@ -80,11 +80,11 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  sourcePattern: %GROUPROOT%/fuel/language/%CODE%/terminology/web/fuel-web-%CODE%_translatewiki.net.po
-  definitionFile: %GROUPROOT%/fuel/language/en/terminology/web/fuel-web-en.pot
+  sourcePattern: "%GROUPROOT%/fuel/language/%CODE%/terminology/web/fuel-web-%CODE%_translatewiki.net.po"
+  definitionFile: "%GROUPROOT%/fuel/language/en/terminology/web/fuel-web-en.pot"
 
 MANGLER:
   class: StringMatcher
   patterns:
-    - *
+    - "*"
   prefix: web-
