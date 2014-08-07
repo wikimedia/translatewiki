@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e28a382_1aabda1c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-08-07T14:53:33Z",
+      "side": 1,
+      "message": "I assume there\u0027s a request on support connected to this. Please link it as done in https://gerrit.wikimedia.org/r/#/c/152130/",
+      "revId": "ddc78e96f50e1416514da648af2c4fe0cb77cecc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e28a382_9ab7ca84",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-08-07T14:53:33Z",
+      "side": 1,
+      "message": "easstern cham autonym is probably not the correct autonym. Please fix :).",
+      "revId": "ddc78e96f50e1416514da648af2c4fe0cb77cecc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
