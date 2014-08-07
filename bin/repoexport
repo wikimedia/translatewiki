@@ -115,6 +115,14 @@ then
 
 	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
 
+elif [ "$PROJECT" = "mediawiki-skins" ]
+then
+	PREFIXES="skin-c skin-s skin-m skin-p skin-t skin-w skin-a skin-b skin-d skin-e skin-f \
+		skin-g skin-h skin-i skin-j skin-k skin-l skin-n skin-o skin-q skin-r skin-u skin-v \
+		skin-x skin-y skin-z"
+
+	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
+
 elif [ "$PROJECT" = "mifos" ]
 then
 	php "$EXPORTER" --target . --group='out-mifos' --lang='*' --skip en,qqq --threshold 20

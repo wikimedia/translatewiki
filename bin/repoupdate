@@ -186,7 +186,7 @@ then
 	do
 		if [ ! -d "$EXTENSION/.git" ]
 		then
-			echo "Cloning $EXTENSION"
+			echo "Cloning extension $EXTENSION"
 			cloneGerritRepo "$REPO_MWEXTGIT/$EXTENSION.git" "$EXTENSION"
 		fi
 	done
@@ -202,6 +202,36 @@ then
 	if [ -z "$REPO_RW" ]
 	then
 		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --group=ext-* && echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
+		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || ${DIRSCRIPT}/udpcast Message index creation failed &
+	fi
+
+elif [ "$PROJECT" = "mediawiki-skins" ]
+then
+	if [ -z "$REPO_MWSKINGIT" ]
+	then echo "Add REPO_MWSKINGIT to REPOCONF"; exit 1
+	fi
+
+	cd $PROJECT
+
+	SKINS=$(ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit ls-projects |grep 'mediawiki/skins/' |cut -d'/' -f3 |sort)
+
+	# Clone skin repos that do not exist yet.
+	for SKIN in $SKINS
+	do
+		if [ ! -d "$SKIN/.git" ]
+		then
+			echo "Cloning skin $SKIN"
+			cloneGerritRepo "$REPO_MWSKINGIT/$SKIN.git" "$SKIN"
+		fi
+	done
+
+	# Update all repos (yes, there is duplication for repos that were just cloned)
+	echo $SKINS |
+		xargs -n1 -P7 ${DIRSCRIPT}/update-reset-repo "$DIR/$PROJECT"
+
+	if [ -z "$REPO_RW" ]
+	then
+		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --group=skins-* && echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
 		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || ${DIRSCRIPT}/udpcast Message index creation failed &
 	fi
 
