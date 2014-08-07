@@ -147,6 +147,10 @@ elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
 	mkdir -p $PROJECT/extensions
 
+elif [ "$PROJECT" = "mediawiki-skins" ]
+then
+	mkdir -p $PROJECT
+
 elif [ "$PROJECT" = "mifos" ]
 then
 	checkVar 'REPO_MIFOS'

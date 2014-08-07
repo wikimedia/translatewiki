@@ -4,6 +4,7 @@
 REPO_MEDIAWIKI=https://gerrit.wikimedia.org/r/p//mediawiki/core.git
 REPO_MEDIAWIKI_BRANCHES="master"
 REPO_MWEXTGIT=https://gerrit.wikimedia.org/r/p/mediawiki/extensions
+REPO_MWSKINGIT=https://gerrit.wikimedia.org/r/p/mediawiki/skins
 
 REPO_BLOCKLY=http://blockly.googlecode.com/svn/trunk/
 REPO_COMMONSANDROID=https://gerrit.wikimedia.org/r/p/apps/android/commons.git

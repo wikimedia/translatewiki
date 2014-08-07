@@ -4,6 +4,7 @@ REPO_RW=yes
 REPO_MEDIAWIKI=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/core.git
 REPO_MEDIAWIKI_BRANCHES="master"
 REPO_MWEXTGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/extensions
+REPO_MWSKINGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/skins
 
 REPO_BLOCKLY=https://blockly.googlecode.com/svn/trunk/
 REPO_COMMONSANDROID=ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/commons.git

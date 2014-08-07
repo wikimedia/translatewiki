@@ -162,6 +162,22 @@ then
 
 	mergeL10n-bot
 
+elif [ "$PROJECT" = "mediawiki-skins" ]
+then
+	cd $PROJECT
+	for i in `ls`
+	do
+		echo "--> $i"
+		cd $i
+		git add .
+		git commit -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
+		cd ..
+	done
+
+	cd ..
+
+	mergeL10n-bot
+
 elif [ "$PROJECT" = "mwlib" ]
 then
 	gitCommit "$PROJECT.rl"
