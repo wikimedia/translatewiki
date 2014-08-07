@@ -84,7 +84,7 @@ $wgHooks['TranslatePostInitGroups'][] = array( 'setupMediaWikiExtensions' );
 function setupMediaWikiExtensions( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
 
-	$def = "$GROUPS/MediaWiki/mediawiki-defines.txt";
+	$def = "$GROUPS/MediaWiki/mediawiki-extensions.txt";
 	$path = '%GROUPROOT%/mediawiki-extensions/extensions/';
 
 	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
