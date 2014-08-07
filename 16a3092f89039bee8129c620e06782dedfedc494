@@ -52,6 +52,24 @@
       "revId": "16a3092f89039bee8129c620e06782dedfedc494",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e28a382_7ce3fb9c",
+        "filename": "groups/MediaWiki/WikimediaMainAgg.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-08-07T15:46:31Z",
+      "side": 1,
+      "message": "Yes, and localisation of their aged and non-default skin is not of critical importance to Wikimedia, and because of that it\u0027s not part of the Wikimedia Main aggregate group. It\u0027s still part of the MediaWiki product.",
+      "parentUuid": "8e28a382_bcc28304",
+      "revId": "16a3092f89039bee8129c620e06782dedfedc494",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
