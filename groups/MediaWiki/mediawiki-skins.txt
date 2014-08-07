@@ -19,7 +19,7 @@ file = erudite/i18n/%CODE%.json
 
 # No JSON i18n
 #MediaWiki Strapping
-file = mediawiki-strapping/i18n/%CODE%.json
+#file = mediawiki-strapping/i18n/%CODE%.json
 
 Modern
 
