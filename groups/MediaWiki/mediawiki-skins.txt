@@ -1,0 +1,37 @@
+# qqq missing
+#Blue Sky
+
+Blue Spice Skin
+
+Chameleon
+file = chameleon/i18n/%CODE%.json
+
+Cologne Blue
+
+Erudite
+file = erudite/i18n/%CODE%.json
+
+# No JSON i18n
+#Grey Stuff
+
+# No JSON i18n
+#Mask
+
+# No JSON i18n
+#MediaWiki Strapping
+file = mediawiki-strapping/i18n/%CODE%.json
+
+Modern
+
+MonoBook
+
+# No JSON i18n
+#Nimbus
+
+# No JSON i18n
+#Nostalgia
+
+# No JSON i18n
+#Splash
+
+Vector
