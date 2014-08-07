@@ -1,0 +1,15 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Mediawiki-logo.png
+    meta: yes
+    namespace: NS_MEDIAWIKI
+    class: AggregateMessageGroup
+
+---
+BASIC:
+  id: mediawiki-skin-0-all
+  label: MediaWiki skins
+  description: '{{int:translate-group-desc-mediawikiskins}}'
+
+GROUPS:
+  - mediawiki-skin-*

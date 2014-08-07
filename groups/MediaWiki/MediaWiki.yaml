@@ -10,6 +10,7 @@ GROUPS:
   - core
   - ext-0-all
   - ext-installer
+  - mediawiki-skin-0-all
 
 ---
 BASIC:
