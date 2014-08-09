@@ -18,6 +18,7 @@ $wgTranslateMessageIndex = array( 'CDBMessageIndex' );
 $wgTranslateDelayedMessageIndexRebuild = true;
 $wgTranslateDisablePreSaveTransform = true;
 $wgTranslateCheckBlacklist = "$GROUPS/check-blacklist.php";
+$wgTranslateYamlLibrary = 'phpyaml';
 
 $wgTranslatePermissionUrl = 'Special:MainPage';
 $wgTranslateUseSandbox = true;
