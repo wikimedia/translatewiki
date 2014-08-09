@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e28a382_a8058ec6",
+        "filename": "groups/Wikimedia/WikimediaMobile-android.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-08-09T10:59:55Z",
+      "side": 1,
+      "message": "This will get you zh-rCN and zh-rTW files. If your app will work with that, you will have accomplished your goal. I\u0027ll merge this, as from an L10n perspective it\u0027s correctly configured. Let\u0027s hope it also gives us the correct result in the app :).",
+      "revId": "7696980cd4caba9c5147a1e42915b17f463e9dfe",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
