@@ -16,6 +16,24 @@
       "revId": "7696980cd4caba9c5147a1e42915b17f463e9dfe",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e28a382_28187e22",
+        "filename": "groups/Wikimedia/WikimediaMobile-android.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 25
+      },
+      "writtenOn": "2014-08-09T11:04:10Z",
+      "side": 1,
+      "message": "We\u0027ll have to test the betas! :D Thanks!",
+      "parentUuid": "8e28a382_a8058ec6",
+      "revId": "7696980cd4caba9c5147a1e42915b17f463e9dfe",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
