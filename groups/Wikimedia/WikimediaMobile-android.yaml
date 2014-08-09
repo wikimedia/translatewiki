@@ -8,6 +8,8 @@ TEMPLATE:
   FILES:
     class: AndroidXmlFFS
     codeMap:
+      zh-hans: zh-rCN
+      zh-hant: zh-rTW
       qqq: qq
 
   MANGLER:
@@ -195,7 +197,8 @@ TEMPLATE:
       - yi
       - yo
       - za
-      - zh
+      - zh-hans
+      - zh-hant
       - zu
 ---
 BASIC:
