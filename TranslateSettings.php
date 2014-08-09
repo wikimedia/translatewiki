@@ -7,7 +7,7 @@ $GROUPS = __DIR__ . '/groups';
 $wgSpecialPages['Magic'] = 'SpecialMagic';
 $wgTranslateNewsletterPreference = true;
 
-$wgTranslateCacheDirectory = "/www/translatewiki.net/w/cache";
+$wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
 $wgTranslateEC = array();
 $wgTranslateFuzzyBotName = 'FuzzyBot';
 $wgTranslateDocumentationLanguageCode = 'qqq';
