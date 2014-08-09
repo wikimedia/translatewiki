@@ -2096,7 +2096,6 @@ file = VisualEditor/modules/ve-wmf/i18n/%CODE%.json
 optional = visualeditor-help-link
 
 Vote NY
-prefix = voteny- | right-vote
 
 Watch Subpages
 aliasfile = WatchSubpages/WatchSubpages.alias.php
