@@ -7,7 +7,7 @@ BASEDIR=$(dirname $0)
 
 CURRENTTIME=`date +"%T"`
 echo "*** $CURRENTTIME: Updating core and extensions ***"
-find $WIKI $WIKI/extensions/* -maxdepth 1 -type d -name .git |
+find $WIKI $WIKI/extensions/* $WIKI/skins/* -maxdepth 1 -type d -name .git |
 	xargs -n1 dirname |
 	xargs -n1 -P5 "$BASEDIR/wikiupdate-repo"
 
