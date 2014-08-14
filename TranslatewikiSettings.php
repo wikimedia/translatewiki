@@ -148,7 +148,7 @@ $wgContentNamespaces[] = NS_TRANSLATING;
 
 // Skins
 require_once "$IP/skins/Vector/Vector.php";
-require_once "$IP/skins/Monobook/Monobook.php";
+require_once "$IP/skins/MonoBook/MonoBook.php";
 
 ###
 # Search
