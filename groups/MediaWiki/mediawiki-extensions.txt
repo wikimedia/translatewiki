@@ -2280,7 +2280,8 @@ Wikimedia Overrides
 file = WikimediaMessages/i18n/wikimediaoverrides/%CODE%.json
 ignored = wikimedia-sidebar
 
-Wikimedia Shop Link
+# Undeployed on WMF per https://gerrit.wikimedia.org/r/#/c/149785/
+# Wikimedia Shop Link
 
 Wikimedia Temporary Messages
 file = WikimediaMessages/i18n/temporary/%CODE%.json
