@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e28a382_4f3f14d4",
+        "filename": "groups/Wikimedia/WikimediaMobile-android.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-08-18T10:34:45Z",
+      "side": 1,
+      "message": "This doesn\u0027t work. A single code in translatewiki.net can only be mapped to a single code in the resulting product.",
+      "revId": "90291bc555457868e61c196be8d289abc8b036f8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e28a382_2f428863",
+        "filename": "groups/Wikimedia/WikimediaMobile-android.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-08-18T10:34:45Z",
+      "side": 1,
+      "message": "This doesn\u0027t work. A single code in translatewiki.net can only be mapped to a single code in the resulting product.",
+      "revId": "90291bc555457868e61c196be8d289abc8b036f8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
