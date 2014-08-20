@@ -2076,7 +2076,7 @@ Vine
 VisualEditor Core
 id = ext-visualeditor-ve
 descmsg = visualeditor-desc
-file = VisualEditorVisualEditor/modules/ve/i18n/%CODE%.json
+file = VisualEditorVisualEditor/i18n/%CODE%.json
 ignored = visualeditor-languageannotation-description
 optional = visualeditor-specialcharinspector-characterlist-insert
 optional = visualeditor-dimensionswidget-px, visualeditor-dimensionswidget-times
