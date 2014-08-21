@@ -26,8 +26,7 @@ Modern
 
 MonoBook
 
-# No JSON i18n
-#Nimbus
+Nimbus
 
 # No JSON i18n
 #Nostalgia
