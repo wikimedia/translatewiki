@@ -177,6 +177,11 @@ descmsg = bs-checklist-desc
 file = BlueSpiceExtensions/Checklist/i18n/%CODE%.json
 ignored = bs-checklist-dlg-insert-list-title
 
+Blue Spice - Context Menu
+id = ext-bs-contextmenu
+descmsg = bs-contextmenu-desc
+file = BlueSpiceExtensions/ContextMenu/i18n/%CODE%.json
+
 Blue Spice - Count Things
 id = ext-bs-countthings
 descmsg = bs-countthings-desc
@@ -234,6 +239,11 @@ Blue Spice - Flexiskin
 id = ext-bs-flexiskin
 descmsg = bs-flexiskin-desc
 file = BlueSpiceExtensions/Flexiskin/i18n/%CODE%.json
+
+Blue Spice - Formatting Help
+id = ext-bs-formattinghelp
+descmsg = bs-formattinghelp-desc
+file = BlueSpiceExtensions/FormattingHelp/i18n/%CODE%.json
 
 Blue Spice - GroupManager
 id = ext-bs-groupmanager
