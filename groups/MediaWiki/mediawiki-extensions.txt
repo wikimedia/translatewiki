@@ -1528,6 +1528,8 @@ Php Tags
 
 Php Tags Functions
 
+Php Tags SMW
+
 Php Tags Wiki
 
 Poem
