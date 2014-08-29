@@ -1665,6 +1665,8 @@ Score
 
 #Scan Set / 2012-11-12: Disabled on WMF / Abandoned.
 
+Screenplay
+
 Scribunto
 magicfile = Scribunto/Scribunto.magic.php
 optional = scribunto-lua-backtrace-line
