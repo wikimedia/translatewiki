@@ -31,6 +31,7 @@ MonoBook
 optional = skinname-monobook, monobook.css, monobook.js
 
 Nimbus
+ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 
 # No JSON i18n
 #Nostalgia
