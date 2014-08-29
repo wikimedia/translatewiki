@@ -5,8 +5,10 @@ Blue Spice Skin
 
 Chameleon
 file = chameleon/i18n/%CODE%.json
+optional = skinname-chameleon
 
 Cologne Blue
+optional = skinname-cologneblue, cologneblue.css, cologneblue.js
 
 # No JSON i18n
 #Erudite
@@ -23,8 +25,10 @@ Cologne Blue
 #file = mediawiki-strapping/i18n/%CODE%.json
 
 Modern
+optional = skinname-modern, modern.css, modern.js
 
 MonoBook
+optional = skinname-monobook, monobook.css, monobook.js
 
 Nimbus
 
@@ -35,3 +39,4 @@ Nimbus
 #Splash
 
 Vector
+optional = skinname-vector, vector.css, vector.js
