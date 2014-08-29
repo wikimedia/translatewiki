@@ -36,7 +36,7 @@ Ads
 # Advanced Meta
 # descmsg = ameta-desc
 
-Agora
+# Agora // Discontinued, Change-Id: Iab62e90011c4e685b1c480cc051676d9fa1b2897
 
 # Missing message documentatin
 # Ajax Login
@@ -525,6 +525,9 @@ file = Cite/i18n/special/%CODE%.json
 aliasfile = Cite/SpecialCite.alias.php
 descmsg = cite_article_desc
 ignored = cite-summary, accesskey-cite-article
+
+# 2014-08-27: Currently a clone of Cite extension
+#Cite This Page
 
 cldr
 
