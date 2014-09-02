@@ -2,7 +2,7 @@
 
 TAGFILE="/home/betawiki/doxygen-tagfile.xml"
 
-wget -nv -O "$TAGFILE" http://svn.wikimedia.org/doc/tagfile.xml
+wget -nv -O "$TAGFILE" https://doc.wikimedia.org/mediawiki-core/master/php/html/tagfile.xml
 sudo -u betawiki doxygen /home/betawiki/config/doxygen.conf
 
 rm "$TAGFILE"
