@@ -1080,6 +1080,8 @@ Image Map
 descmsg = imagemap_desc
 optional = imagemap_desc_types
 
+Image Metrics
+
 Index Function
 aliasfile = IndexFunction/IndexFunction.alias.php
 ignored = index-exclude-categories
@@ -1256,6 +1258,8 @@ Mpdf
 MSSQL Back Compat
 
 Multi Maps
+
+# Multi Upload // Missing qqq
 
 Multimedia Viewer
 optional = multimediaviewer-credit
