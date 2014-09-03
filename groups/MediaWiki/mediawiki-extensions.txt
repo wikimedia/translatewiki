@@ -516,7 +516,7 @@ optional = group-checkuser.css, group-checkuser.js
 Cirrus Search
 
 Cite
-file = Cite/i18n/core/%CODE%.json
+file = Cite/i18n/%CODE%.json
 optional = cite_reference_link_key_with_num, cite_reference_link_prefix, cite_reference_link_suffix, cite_references_link_prefix
 optional = cite_references_link_suffix, cite_reference_link, cite_references_link_one, cite_references_link_many
 optional = cite_references_link_many_format, cite_references_link_many_format_backlink_labels, cite_references_link_many_sep, cite_references_link_many_and
