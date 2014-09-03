@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2e2fb78d_ec903e48",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 523,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2014-09-03T16:20:39Z",
+      "side": 1,
+      "message": "Line not necessary. translatewiki.net uses this as default based on the extension name",
+      "revId": "a8057d1ba3dcd7e04f2e0ae1e114875254ce833a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2e2fb78d_cc958237",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 524,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2014-09-03T16:20:39Z",
+      "side": 1,
+      "message": "See above",
+      "revId": "a8057d1ba3dcd7e04f2e0ae1e114875254ce833a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2e2fb78d_ac9a3664",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 526,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2014-09-03T16:20:39Z",
+      "side": 1,
+      "message": "See above",
+      "revId": "a8057d1ba3dcd7e04f2e0ae1e114875254ce833a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
