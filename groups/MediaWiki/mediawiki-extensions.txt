@@ -2237,6 +2237,7 @@ optional = wikihiero-help-link
 #file = WikiLog/i18n/wlfeed/%CODE%.json
 
 Wikimedia Events
+ignored = tag-HHVM
 
 Wikimedia Incubator
 descmsg = wminc-desc
