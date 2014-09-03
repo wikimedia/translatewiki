@@ -519,15 +519,9 @@ optional = cite_references_link_many_format, cite_references_link_many_format_ba
 ignored = cite_references_prefix, cite_references_suffix, cite_references_no_link
 ignored = cite_error_refs_without_references_category
 
-Special Cite
-id = ext-citespecial
-file = Cite/i18n/special/%CODE%.json
-aliasfile = Cite/SpecialCite.alias.php
-descmsg = cite_article_desc
-ignored = cite-summary, accesskey-cite-article
-
-# 2014-08-27: Currently a clone of Cite extension
-#Cite This Page
+Cite This Page
+aliasfile = CiteThisPage/CiteThisPage.alias.php
+ignored = citethispage-summary, accesskey-citethispage
 
 cldr
 
