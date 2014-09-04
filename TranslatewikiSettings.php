@@ -1,5 +1,7 @@
 <?php
 
+$wgEnableCanonicalServerLink = true;
+
 $wgEnableEmail = true;
 $wgEnableUserEmail = true;
 

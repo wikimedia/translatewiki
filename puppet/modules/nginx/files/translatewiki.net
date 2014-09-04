@@ -3,6 +3,10 @@
 server {
 	listen 80 default_server;
 	listen [2a03:4000:6:55::1]:80;
+	return 301 https://$host$request_uri;
+}
+
+server {
 	listen 443 ssl default_server spdy;
 	listen [2a03:4000:6:55::1]:443 ssl spdy;
 
