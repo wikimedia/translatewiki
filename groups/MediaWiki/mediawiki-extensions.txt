@@ -2325,6 +2325,7 @@ Zero Banner
 descmsg = zero-desc
 
 Zero Portal
+aliasfile = ZeroPortal/ZeroPortal.alias.php
 
 # Outdated, replaced by JsonConfig, ZeroBanner & ZeroPortal per Yuri
 #Zero Rated Mobile Access
