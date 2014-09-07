@@ -1657,6 +1657,9 @@ ignored = rss-item
 
 RT
 
+Sandbox Link
+ignored = sandboxlink-editintro-pagename, sandboxlink-preload-pagename
+
 Sarcasm
 
 Score
