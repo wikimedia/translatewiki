@@ -1033,7 +1033,7 @@ optional = guidedtour-custom.css, guidedtour-tour-test-wikitext-description
 
 GW Toolset
 aliasfile = GWToolset/GWToolset.alias.php
-ignored = gwtoolset-menu
+ignored = gwtoolset-menu, gwtoolset-painted-by
 
 Hanp
 
