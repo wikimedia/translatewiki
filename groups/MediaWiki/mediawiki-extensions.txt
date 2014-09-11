@@ -175,7 +175,6 @@ Blue Spice - Checklist
 id = ext-bs-checklist
 descmsg = bs-checklist-desc
 file = BlueSpiceExtensions/Checklist/i18n/%CODE%.json
-ignored = bs-checklist-dlg-insert-list-title
 
 Blue Spice - Context Menu
 id = ext-bs-contextmenu
