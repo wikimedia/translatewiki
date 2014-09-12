@@ -1095,6 +1095,7 @@ Interwiki
 aliasfile = Interwiki/Interwiki.alias.php
 optional = interwiki_url, interwiki-url-label
 ignored = interwiki-defaulturl, logentry-interwiki-interwiki, interwiki_legend
+ignored = interwiki-description
 
 Insider
 
