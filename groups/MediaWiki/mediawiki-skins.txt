@@ -10,6 +10,8 @@ optional = skinname-chameleon
 Cologne Blue
 optional = skinname-cologneblue, cologneblue.css, cologneblue.js
 
+Daddio
+
 # No JSON i18n
 #Erudite
 #file = erudite/i18n/%CODE%.json
