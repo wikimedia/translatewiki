@@ -1,7 +1,7 @@
 # file managed by puppet
 
-# Taken in 2013-12-22 from Github:
-# https://raw.github.com/h5bp/server-configs-nginx/master/mime.types
+# Taken in 2014-09-15 from Github:
+# https://github.com/h5bp/server-configs-nginx/blob/master/mime.types
 
 types {
 
@@ -58,6 +58,7 @@ types {
 
 # Web fonts
   application/font-woff                 woff;
+  application/font-woff2                woff2;
   application/vnd.ms-fontobject         eot;
   application/x-font-ttf                ttc ttf;
   font/opentype                         otf;
