@@ -1,7 +1,7 @@
 TEMPLATE:
   BASIC:
-    description: "{{int:translate-group-desc-wikimedia-mobile-commons}}"
-    icon: wiki://Commons-icon.svg
+    description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-android}}"
+    icon: wiki://Wikimedia-logo.svg
     namespace: NS_WIKIMEDIA
     class: FileBasedMessageGroup
 
@@ -204,45 +204,6 @@ TEMPLATE:
       - zu
 ---
 BASIC:
-  id: out-wikimedia-mobile-commons-android-0-all
-  label: Commons Mobile App
-  meta: yes
-  class: AggregateMessageGroup
-
-GROUPS:
-  - out-wikimedia-mobile-commons-*
-
----
-BASIC:
-  id: out-wikimedia-mobile-commons-android-strings
-  label: Commons Android Mobile (main)
-
-MANGLER:
-  prefix: commons-android-strings-
-
-FILES:
-  sourcePattern: "%GROUPROOT%/commons-android/commons/res/values-%CODE%/strings.xml"
-  definitionFile: "%GROUPROOT%/commons-android/commons/res/values/strings.xml"
-
-TAGS:
-  optional:
-    - commons-android-strings-hello_world
-
----
-BASIC:
-  id: out-wikimedia-mobile-commons-android-errors
-  label: Commons Android Mobile (errors)
-
-MANGLER:
-  prefix: commons-android-error-
-
-FILES:
-  sourcePattern: "%GROUPROOT%/commons-android/commons/res/values-%CODE%/error.xml"
-  definitionFile: "%GROUPROOT%/commons-android/commons/res/values/error.xml"
-
----
-BASIC:
-  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-android}}"
   icon: wiki://Wikipedia-logo-v2.svg
   id: out-wikimedia-mobile-wikipedia-android-strings
   label: Wikipedia Android Mobile

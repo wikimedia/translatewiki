@@ -1,36 +1,21 @@
----
-BASIC:
-  description: "{{int:translate-group-desc-wikimedia-mobile-commons}}"
-  icon: wiki://Commons-icon.svg
-  namespace: NS_WIKIMEDIA
-  id: out-wikimedia-mobile-commons-ios
-  label: Commons iOS Mobile
-  class: FileBasedMessageGroup
+TEMPLATE:
+  BASIC:
+    description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios}}"
+    icon: wiki://Wikimedia-logo.svg
+    namespace: NS_WIKIMEDIA
+    class: FileBasedMessageGroup
 
-MANGLER:
-  class: StringMatcher
-  prefix: commons-ios-
-  patterns:
-    - "*"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/commons-ios/Commons-iOS/messages/messages-%CODE%.json"
+  MANGLER:
+    class: StringMatcher
 
 ---
 BASIC:
-  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios}}"
   icon: wiki://Wikipedia-logo-v2.svg
-  namespace: NS_WIKIMEDIA
   id: out-wikimedia-mobile-wikipedia-ios
   label: Wikipedia iOS Mobile main
-  class: FileBasedMessageGroup
 
 MANGLER:
-  class: StringMatcher
   prefix: wikipedia-ios-
-  patterns:
-    - "*"
 
 FILES:
   class: AppleFFS
@@ -38,18 +23,12 @@ FILES:
 
 ---
 BASIC:
-  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios}}"
   icon: wiki://Wikipedia-logo-v2.svg
-  namespace: NS_WIKIMEDIA
   id: out-wikimedia-mobile-wikipedia-ios-meta
   label: Wikipedia iOS Mobile metadata
-  class: FileBasedMessageGroup
 
 MANGLER:
-  class: StringMatcher
   prefix: wikipedia-ios-meta-
-  patterns:
-    - "*"
 
 FILES:
   class: AppleFFS
@@ -57,18 +36,12 @@ FILES:
 
 ---
 BASIC:
-  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios}}"
   icon: wiki://Wikipedia-logo-v2.svg
-  namespace: NS_WIKIMEDIA
   id: out-wikimedia-mobile-wikipedia-ios-ui
   label: Wikipedia iOS Mobile UI strings
-  class: FileBasedMessageGroup
 
 MANGLER:
-  class: StringMatcher
   prefix: wikipedia-ios-ui-
-  patterns:
-    - "*"
 
 FILES:
   class: AppleFFS
@@ -91,9 +64,7 @@ TAGS:
 
 ---
 BASIC:
-  description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios}}"
   icon: wiki://Wikipedia-logo-v2.svg
-  namespace: NS_WIKIMEDIA
   id: out-wikimedia-mobile-wikipedia-ios-0-all
   label: Wikipedia iOS Mobile
   meta: yes

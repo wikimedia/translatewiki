@@ -18,7 +18,6 @@ BASIC:
   class: AggregateMessageGroup
 
 GROUPS:
-  - out-wikimedia-mobile-commons-android-0-all
   - out-wikimedia-mobile-wikipedia-android-strings
   - out-wikimedia-mobile-wikipedia-ios-0-all
   - out-wikimedia-mobile-wikipedia-j2me

@@ -20,17 +20,7 @@ FORCELANGS="chy,cr,ki,nrm,rn,rup,rw,tum,tw" # Must not contain any of those abov
 THRESHOLD="--threshold 35"
 HOURS="--hours 200" # Somewhat over a week
 
-if [ "$PROJECT" = "commons-android" ]
-then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-android* --lang='*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-android* --lang qqq
-
-elif [ "$PROJECT" = "commons-ios" ]
-then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-ios* --lang='*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-commons-ios* --lang qqq
-
-elif [ "$PROJECT" = "blockly" ]
+if [ "$PROJECT" = "blockly" ]
 then
 	php "$EXPORTER" --target . --group=out-blockly* --lang='*' --skip en $THRESHOLD
 
