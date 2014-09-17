@@ -1659,6 +1659,8 @@ ignored = rss-item
 
 RT
 
+Sacred Text
+
 Sandbox Link
 ignored = sandboxlink-editintro-pagename, sandboxlink-preload-pagename
 
