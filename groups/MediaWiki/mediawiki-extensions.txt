@@ -1977,6 +1977,8 @@ Title Key
 
 Toc Tree
 
+Tooltip
+
 Tor Block
 
 Translate - Core
