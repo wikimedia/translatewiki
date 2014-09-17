@@ -1624,6 +1624,9 @@ descmsg = ratinghistory
 Reassign Edits
 aliasfile = ReassignEdits/ReassignEdits.alias.php
 
+Recent Activity Feed
+aliasfile = RecentActivityFeed/RecentActivityFeed.alias.php
+
 Refresh Special
 aliasfile = RefreshSpecial/RefreshSpecial.alias.php
 
