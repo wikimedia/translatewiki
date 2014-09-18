@@ -44,9 +44,6 @@ $wgGroupPermissions['translator'   ]['translate']               = true;
 $wgGroupPermissions['sysop'        ]['delete']                  = true;
 $wgGroupPermissions['translator'   ]['deletedhistory']          = true;
 
-$wgGroupPermissions['import'       ]['import']                  = true;
-$wgGroupPermissions['import'       ]['importupload']            = true;
-
 $wgGroupPermissions['sysop'        ]['import']                  = false;
 $wgGroupPermissions['sysop'        ]['importupload']            = false;
 $wgGroupPermissions['sysop'        ]['suppressredirect']        = true;
