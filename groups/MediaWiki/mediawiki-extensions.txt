@@ -1022,6 +1022,8 @@ Google Plus One
 
 Google Site Search
 
+Graph
+
 GraphViz
 
 Groups Sidebar
@@ -1589,6 +1591,8 @@ Quick Response
 
 Quiz
 descmsg = quiz_desc
+
+# Quiz Tabulate // Missing message documentation
 
 Random Image
 
