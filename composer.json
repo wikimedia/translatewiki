@@ -3,8 +3,7 @@
 		"php": ">=5.3.2",
 		"psr/log": "1.0.0",
 		"mediawiki/semantic-media-wiki": "@dev",
-		"mediawiki/semantic-maps": "@dev",
-		"mediawiki/semantic-forms": "@dev"
+		"mediawiki/semantic-maps": "@dev"
 	},
 	"minimum-stability": "dev"
 }
