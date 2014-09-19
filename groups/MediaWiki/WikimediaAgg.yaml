@@ -11,15 +11,14 @@ GROUPS:
   - ext-0-wikimedia-main # See WikimediaMainAgg.yaml. Do not duplicate group names!
   - ext-abusefilter
   - ext-accountaudit # cedda98d6dd46cccfb88bdb32597feb0d8a6ca6b
-  - ext-antibot # anti spam and such (usually all wikis)
-  - ext-apisandbox # r104698, enabled on all wikis
-  - ext-betafeatures # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
+  - ext-antibot
+  - ext-apisandbox
+  - ext-betafeatures
   - ext-calendar # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-charinsert
   - ext-checkuser
-  - ext-cleanchanges # 2013-09-12: Meta
-  - ext-cldr # r88299 on all wikis
-  - ext-codeeditor # Change-Id: e4e8857a55b0a89707525ecdd9dff54a4cc02f6d
+  - ext-cldr
+  - ext-codeeditor
   - ext-codereview # MediaWiki.org
   - ext-commonsmetadata # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
   - ext-contactpage # on nl.wp and wikimediafoundation.org
@@ -34,10 +33,10 @@ GROUPS:
   - ext-datavalues-valuevalidators # Needed for Wikibase
   - ext-di-gc
   - ext-di-pfpg # wikimediafoundation.org
-  - ext-diff # change-id: 5f4c990f3a102f8ae51e4d7bd3f6cf15550a2bf4
+  - ext-diff
   - ext-disableaccount # r86932 for some private wikis
   - ext-doublewiki # Wikisource
-  - ext-disambiguator # change-id: cfb995653b1ae9cbdd410492ee3798e35b32981b
+  - ext-disambiguator
   - ext-educationprogram # 2012-06-14 change id: Id3ea0259072e3aa7a508e5c61f03a0f23ec5fc2e
   - ext-elastica # 2013-09-20 for CirrusSearch, change id: 7acdc7e8c346f00dcce1412f057ea38ad3d3e649
   - ext-eventlogging # Change-Id: 1fc99b92c1692515295e8c7bb7c757112531c330
@@ -47,14 +46,14 @@ GROUPS:
   - ext-fundraiserlandingpage # r101409 for donatewiki
   - ext-fundraisingtranslateworkflow # 2014-07-14 for Meta
   - ext-geocrumbs # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
-  - ext-geodata # Change-Id: I0c9522ab28502a7f8665caa23958222c28007159
-  - ext-gettingstarted # Change-Id: d1aac2d3dc774299c3e61ef8e163b50dfd89d313 for enwiki
-  - ext-globalcssjs # 2014-04-18 on testwiki and test2wiki
+  - ext-geodata
+  - ext-gettingstarted # Change-Id: d1aac2d3dc774299c3e61ef8e163b50dfd89d313 for a bunch of wikis
+  - ext-globalcssjs
   - ext-googlenewssitemap # r87149 for wikinews
   - ext-guidedtour # 2013-01-31 for 15 projects
   - ext-gwtoolset # 2013-12-17 for Wikimedia Commons
   - ext-insider # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
-  - ext-jsonconfig # 2014-06. Helper for new Zero extension
+  - ext-jsonconfig
   - ext-labeledsectiontransclusion
   - ext-landingcheck
   - ext-ldapauthentication # 2011-12-28: labsconsole.wikimedia.org
@@ -62,20 +61,20 @@ GROUPS:
   - ext-listings # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-mapsources # wikivoyage
   - ext-markashelpful # 2011-12-28: r107514 for enwiki
-  - ext-massmessage # 2013-10-01: change id: Ie6c91318d0e420bbe41fab48f03bbf44022d78cb for test
-  - ext-mobileapp # 2014-02-12 Deployed on all projects
+  - ext-massmessage
+  - ext-mobileapp
   - ext-moodbar # r93131
   - ext-multimediaviewer # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
-  - ext-mwembedsupport # Change-Id: Ifbb7c9b7344520f6d9fe1ccfa3f276ec153b9770
+  - ext-mwembedsupport
   - ext-mwsearch
   - ext-navigationtiming # 2013-03-14: all wikis
   - ext-nuke
   - ext-oai
-  - ext-oauth # 2013-08-19
+  - ext-oauth
   - ext-oathauth # 2014-06-28 Used on https://wikitech.wikimedia.org
   - ext-opensearchxml
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
-  - ext-pageimages # 2012 on all wikis
+  - ext-pageimages
   - ext-parsoid # All wikis
   - ext-petition # 2014-04-22: Foundationwiki
   - ext-poem
@@ -85,17 +84,16 @@ GROUPS:
   - ext-relatedarticles # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-relatedsites # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-rss # 2010-11-25: Wikimediafoundation.org
-  - ext-score # Change id: 1215ffffe5924e93508108d4e7ee0da0347408aa
-  - ext-scribunto # Change-Id: e4e8857a55b0a89707525ecdd9dff54a4cc02f6d
-  - ext-searchextrans # Change-ID: f8cd2d6eb9c20db92e39b038cc8476f311daeda5
+  - ext-score
+  - ext-scribunto
+  - ext-searchextrans # Change-ID: f8cd2d6eb9c20db92e39b038cc8476f311daeda5, Commonswiki
   - ext-shorturl # r108172
-  - ext-solarium # Change id: 1eddeb41816e3e3e3a2edf7fdcaeeeab38d76226
   - ext-subpagelist3 # r90651
   - ext-subpagesortkey # a2b3abe7ebc6aac630e4e309cc17780b28ac4b04 for some wikibooks
   - ext-syntaxhighlightgeshi
-  - ext-templatedata # 7a47cd31e71919c5494aa1dca94f26242764d0a3
+  - ext-templatedata
   - ext-templatesandbox
-  - ext-textextracts # I9677837faa0f89734922f61a1430e718c55f85c3 for all wikis
+  - ext-textextracts
   - ext-titlekey
   - ext-toctree # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-translate-0-all
@@ -104,11 +102,11 @@ GROUPS:
   - ext-userdailycontribs
   - ext-usermerge # change-id: dee0a5a3d55dbd9d2daa43c9ea0baa753ee49640 for Wikivoyage
   - ext-vectorbeta # change-id: 5ab746e86cddaa09fec195f9670a5767025106c7
-  - ext-vipsscaler # 104390: test2.wikipedia.org
+  - ext-vipsscaler 
   - ext-wikibasedatamodel
-  - ext-wikilove # r90124
+  - ext-wikilove
   - ext-wikihiero
-  - ext-wikimediaevents # change-Id: If573f4be6f709433c270eeed0dbe94077f877b91
+  - ext-wikimediaevents
   - ext-wikimediaincubator # r89556
   - ext-wikimediaincubatorinfopage
   - ext-wikimediashoplink # 2012-06-27, change-Id 1a0c3707bd6603b27d80c997968b24231eea2b04
