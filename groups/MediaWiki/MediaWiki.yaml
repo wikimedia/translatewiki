@@ -367,7 +367,6 @@ TAGS:
     - exif-software-version-value
     - export-summary
     - fewestrevisions-summary
-    - globallywantedfiles-summary
     - googlesearch
     - helplogin-url
     - helppage
@@ -396,7 +395,6 @@ TAGS:
     - mainpage-nstab
     - markaspatrolledlink
     - mostcategories-summary
-    - mostgloballylinkedfiles-summary
     - mostimages-summary
     - mostinterwikis-summary
     - mostlinked-summary
@@ -444,7 +442,6 @@ TAGS:
     - revdelete-hid
     - revdelete-log-message
     - revdelete-logentry
-    - revdelete-summary
     - revdelete-uname
     - revdelete-unhid
     - revision-info-current
