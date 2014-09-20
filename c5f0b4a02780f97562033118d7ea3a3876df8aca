@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee62ffec_060ca23c",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2014-09-20T12:58:55Z",
+      "side": 1,
+      "message": "Hmmm.... Per Wikidata https://www.wikidata.org/wiki/Q8799 the word \"Byte\" has a lot of different translations. IMO enough to make it not optional",
+      "revId": "c5f0b4a02780f97562033118d7ea3a3876df8aca",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee62ffec_260fa635",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 399,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2014-09-20T12:58:55Z",
+      "side": 1,
+      "message": "Why? The message has complete sentences as translatable content.",
+      "revId": "c5f0b4a02780f97562033118d7ea3a3876df8aca",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
