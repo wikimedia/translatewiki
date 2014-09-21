@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee62ffec_e0d9712d",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 541,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-09-21T09:34:35Z",
+      "side": 1,
+      "message": "This needs to be added in separate patch to Translate extension (yeah I know it\u0027s bit weird).",
+      "revId": "e96e7de5e6a403fbf822bfd93f4a2b04b0765b7c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
