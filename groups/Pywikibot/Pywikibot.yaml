@@ -284,14 +284,6 @@ FILES:
   definitionFile: "%GROUPROOT%/pywikibot/pagefromfile.py"
 ---
 BASIC:
-  id: out-pywikipedia-pywikibot
-  label: Pywikibot Pywikibot
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/pywikibot.py"
-  definitionFile: "%GROUPROOT%/pywikibot/pywikibot.py"
----
-BASIC:
   id: out-pywikipedia-protect
   label: Pywikibot Protect
 
@@ -300,12 +292,12 @@ FILES:
   definitionFile: "%GROUPROOT%/pywikibot/protect.py"
 ---
 BASIC:
-  id: out-pywikipedia-spamremove
-  label: Pywikibot Spam Remove
+  id: out-pywikipedia-pywikibot
+  label: Pywikibot Pywikibot
 
 FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/spamremove.py"
-  definitionFile: "%GROUPROOT%/pywikibot/spamremove.py"
+  sourcePattern: "%GROUPROOT%/pywikibot/pywikibot.py"
+  definitionFile: "%GROUPROOT%/pywikibot/pywikibot.py"
 ---
 BASIC:
   id: out-pywikipedia-redirect
@@ -358,6 +350,14 @@ BASIC:
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/solve_disambiguation.py"
   definitionFile: "%GROUPROOT%/pywikibot/solve_disambiguation.py"
+---
+BASIC:
+  id: out-pywikipedia-spamremove
+  label: Pywikibot Spam Remove
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/spamremove.py"
+  definitionFile: "%GROUPROOT%/pywikibot/spamremove.py"
 ---
 BASIC:
   id: out-pywikipedia-spellcheck
