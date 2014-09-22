@@ -50,6 +50,7 @@ GROUPS:
   - ext-gettingstarted # Change-Id: d1aac2d3dc774299c3e61ef8e163b50dfd89d313 for a bunch of wikis
   - ext-globalcssjs
   - ext-googlenewssitemap # r87149 for wikinews
+  - ext-graph # Deployed 9/2014 to Meta, MediaWiki, Zero, and some more
   - ext-guidedtour # 2013-01-31 for 15 projects
   - ext-gwtoolset # 2013-12-17 for Wikimedia Commons
   - ext-insider # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
