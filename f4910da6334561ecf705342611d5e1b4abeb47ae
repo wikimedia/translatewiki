@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ee62ffec_4426ffca",
+        "filename": "groups/Wikimedia/WikimediaMobile-android.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-09-23T19:43:37Z",
+      "side": 1,
+      "message": "An icon which actually matches the group name seems a saner default to  me, but doesn\u0027t matter much.",
+      "parentUuid": "ee62ffec_64f46384",
+      "revId": "f4910da6334561ecf705342611d5e1b4abeb47ae",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ee62ffec_24ee6bb2",
         "filename": "groups/Wikimedia/WikimediaMobile-ios.yaml",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2014-09-23T19:35:08Z",
       "side": 1,
       "message": "This looks wrong. Each group must have an id. Please note that this is not a TEMPLATE section unless you make it one (see the previous file).",
+      "revId": "f4910da6334561ecf705342611d5e1b4abeb47ae",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee62ffec_24330b0c",
+        "filename": "groups/Wikimedia/WikimediaMobile-ios.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-09-23T19:43:37Z",
+      "side": 1,
+      "message": "Sorry, should be done",
+      "parentUuid": "ee62ffec_24ee6bb2",
       "revId": "f4910da6334561ecf705342611d5e1b4abeb47ae",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
