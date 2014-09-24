@@ -1996,6 +1996,7 @@ id = ext-translate-core
 file = Translate/i18n/core/%CODE%.json
 descmsg = translate-desc
 aliasfile = Translate/Translate.alias.php
+# aliasfile = Translate/Translate.MyLanguage.alias.php // Disabled due to a conflict with core
 optional = translate-page-paging-links, supportedlanguages-portallink, supportedlanguages-portallink-nocldr
 optional = group-translate-proofr.css, group-translate-proofr.js
 ignored = translate-edit-tag-warning, supportedlanguages-localsummary
