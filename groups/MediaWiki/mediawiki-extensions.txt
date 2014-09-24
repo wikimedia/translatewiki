@@ -1509,7 +1509,6 @@ magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 Parser Hooks
 
 Parsoid
-file = Parsoid/php/i18n/%CODE%.json
 
 Pdf Book
 
