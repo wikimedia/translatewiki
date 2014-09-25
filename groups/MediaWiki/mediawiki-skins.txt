@@ -38,8 +38,7 @@ ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 # No JSON i18n
 #Nostalgia
 
-# No JSON i18n
-#Splash
+Splash
 
 Vector
 optional = skinname-vector, vector.css, vector.js
