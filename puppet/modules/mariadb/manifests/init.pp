@@ -6,7 +6,7 @@ class mariadb {
       mysqld => {
         character-set-server            => 'utf8',
         innodb_additional_mem_pool_size => '400M',
-        innodb_buffer_pool_size         => '8G',
+        innodb_buffer_pool_size         => '6G',
         innodb_file_per_table           => 'true',
         innodb_log_file_size            => '500M',
         key_buffer_size                 => '64M',
