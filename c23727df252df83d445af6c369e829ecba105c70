@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee62ffec_724d37e0",
+        "filename": "groups/Wikimedia/WikimediaMobile-ios.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-09-25T07:03:45Z",
+      "side": 1,
+      "message": "These need to be indented one level more.",
+      "revId": "c23727df252df83d445af6c369e829ecba105c70",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee62ffec_524a33c9",
+        "filename": "groups/Wikimedia/WikimediaMobile-ios.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-09-25T07:03:45Z",
+      "side": 1,
+      "message": "Now that this is here, should we remove the duplicate entries below or is that too much for this patch? Same can be done for \"namespace\"",
+      "revId": "c23727df252df83d445af6c369e829ecba105c70",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
