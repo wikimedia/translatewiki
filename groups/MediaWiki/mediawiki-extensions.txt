@@ -469,6 +469,8 @@ Calendar
 
 Campaigns
 
+Capiunto
+
 Carp
 optional = carp-function-msg, carp-template-msg, carp-template
 
