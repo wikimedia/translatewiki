@@ -2256,7 +2256,6 @@ optional = wikihiero-help-link
 
 Wikimedia Events
 ignored = tag-HHVM
-optional = hhvm-label
 
 Wikimedia Incubator
 descmsg = wminc-desc
