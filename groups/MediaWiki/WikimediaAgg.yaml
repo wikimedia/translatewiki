@@ -53,6 +53,7 @@ GROUPS:
   - ext-graph # Deployed 9/2014 to Meta, MediaWiki, Zero, and some more
   - ext-guidedtour # 2013-01-31 for 15 projects
   - ext-gwtoolset # 2013-12-17 for Wikimedia Commons
+  - ext-imagemetrics # 2014-09-23 I92887158fbfb161299a2f45b6b66bc8c35c246b5
   - ext-insider # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-jsonconfig
   - ext-labeledsectiontransclusion
