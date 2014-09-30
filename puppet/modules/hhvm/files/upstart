@@ -12,9 +12,12 @@ pre-start script
 end script
 
 exec /sbin/start-stop-daemon --quiet --start \
-         --chuid www-data:www-data \
-         --pidfile /var/run/hhvm/hhvm.pid \
-         --startas /usr/bin/hhvm \
-         -- --mode server
+  --chuid www-data:www-data \
+  --pidfile /run/hhvm/hhvm.pid \
+  --startas /usr/bin/hhvm \
+  -- \
+    --config /etc/hhvm/config.hdf \
+    --config /etc/hhvm/php.ini \
+    --mode server
 
 respawn
