@@ -98,16 +98,6 @@ $wgStrictFileExtensions = true;
 $wgPageLanguageUseDB = true;
 
 ###
-# Extensions
-###
-
-include( "$IP/extensions/cldr/cldr.php" );
-include( "$IP/extensions/CleanChanges/CleanChanges.php" );
-$wgCCUserFilter = true;
-$wgCCTrailerFilter = true;
-include( "$IP/extensions/UserDailyContribs/UserDailyContribs.php" );
-
-###
 # Namespaces
 ###
 
@@ -148,31 +138,45 @@ $wgExtraNamespaces[NS_TRANSLATING_TALK] = 'Translating_talk';
 $wgContentNamespaces[] = NS_MEDIAWIKI;
 $wgContentNamespaces[] = NS_TRANSLATING;
 
-// Skins
+###
+# Skins
+###
 require_once "$IP/skins/Vector/Vector.php";
 require_once "$IP/skins/MonoBook/MonoBook.php";
+
+###
+# Extensions
+###
+$EXT = "$IP/extensions";
+
+require_once "$EXT/cldr/cldr.php";
+require_once "$EXT/CleanChanges/CleanChanges.php";
+$wgCCUserFilter = true;
+$wgCCTrailerFilter = true;
+require_once "$EXT/UserDailyContribs/UserDailyContribs.php";
+
 
 ###
 # Search
 ###
 $wgNamespacesToBeSearchedDefault[NS_MAIN] = true;
 $wgNamespacesToBeSearchedDefault[NS_MEDIAWIKI] = true;
-require_once "$IP/extensions/Elastica/Elastica.php";
-require_once "$IP/extensions/CirrusSearch/CirrusSearch.php";
+require_once "$EXT/Elastica/Elastica.php";
+require_once "$EXT/CirrusSearch/CirrusSearch.php";
 $wgSearchType = 'CirrusSearch';
 $wgAdvancedSearchHighlighting = true;
 
-include( "$IP/extensions/I18nTags/I18nTags.php" );
-include( "$IP/extensions/Translate/Translate.php" );
-require( __DIR__ . "/TranslateSettings.php" );
+require_once "$EXT/I18nTags/I18nTags.php";
+require_once "$EXT/Translate/Translate.php";
+require_once __DIR__ . "/TranslateSettings.php";
 
-include( __DIR__ . "/nikext.php" );
-include( "$IP/extensions/Renameuser/Renameuser.php" );
-include( "$IP/extensions/ParserFunctions/ParserFunctions.php" );
+require_once __DIR__ . "/nikext.php";
+require_once "$EXT/Renameuser/Renameuser.php";
+require_once "$EXT/ParserFunctions/ParserFunctions.php";
 $wgMaxIfExistCount = 300;
 $wgPFEnableStringFunctions = true;
 
-include( "$IP/extensions/NewUserMessage/NewUserMessage.php" );
+require_once "$EXT/NewUserMessage/NewUserMessage.php";
 $wgNewUserSuppressRC = true;
 $wgNewUserMinorEdit = false;
 
@@ -183,23 +187,18 @@ $wgCaptchaTriggers['addurl'] = true; // Check on edits that add URLs
 $wgCaptchaTriggers['createaccount'] = true; // Special:Userlogin&type=signup
 $wgCaptchaTriggers['badlogin'] = true; // Special:Userlogin after failure
 
-include( "$IP/extensions/CharInsert/CharInsert.php" );
-
-# LiquidThreads - Siebrand / 2009-11-01
-require( "$IP/extensions/LiquidThreads/LiquidThreads.php" );
-
-# Just for fun
-include( "$IP/extensions/ContributionScores/ContributionScores.php" );
+require_once "$EXT/CharInsert/CharInsert.php";
+require_once "$EXT/LiquidThreads/LiquidThreads.php";
+require_once "$EXT/ContributionScores/ContributionScores.php";
 $wgContribScoreIgnoreBots = true;
 
-include( "$IP/extensions/Gadgets/Gadgets.php" );
-include( "$IP/extensions/UserMerge/UserMerge.php" );
-
-require( "$IP/extensions/WebChat/WebChat.php" );
+require_once "$EXT/Gadgets/Gadgets.php";
+require_once "$EXT/UserMerge/UserMerge.php";
+require_once "$EXT/WebChat/WebChat.php";
 $wgWebChatChannel = '#mediawiki-i18n';
 $wgWebChatClient = 'freenodeChat';
 
-require( "$IP/extensions/Babel/Babel.php" );
+require_once "$EXT/Babel/Babel.php";
 $wgBabelCategoryNames = array(
 	'0' => 'User_%code%-0',
 	'1' => 'User_%code%-1',
@@ -210,11 +209,12 @@ $wgBabelCategoryNames = array(
 	'N' => 'User_%code%-N'
 );
 $wgBabelMainCategory = 'User_%code%';
-include( "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php" );
-include( "$IP/extensions/Interwiki/Interwiki.php" ); # Added by Raymond 2009-01-07
-include( "$IP/extensions/Nuke/Nuke.php" ); # Nike 2009-01-12
-include( "$IP/extensions/ReplaceText/ReplaceText.php" ); # Added: Siebrand 2009-04-25.
-include( "$IP/extensions/ApiSandbox/ApiSandbox.php" ); # Added: Siebrand 2012-11-05.
+
+require_once "$EXT/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php";
+require_once "$EXT/Interwiki/Interwiki.php";
+require_once "$EXT/Nuke/Nuke.php";
+require_once "$EXT/ReplaceText/ReplaceText.php";
+require_once "$EXT/ApiSandbox/ApiSandbox.php";
 
 # Semantic MediaWiki (installed using composer)
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
@@ -222,24 +222,24 @@ enableSemantics( 'translatewiki.net' );
 $smwgNamespacesWithSemanticLinks[NS_LQT_THREAD] = true;
 $smwgNamespacesWithSemanticLinks[NS_LQT_SUMMARY] = true;
 
-# Semantic Forms (installed using composer)
+require_once "$EXT/SemanticForms/SemanticForms.php";
 $sfgRedLinksCheckOnlyLocalProps = true;
 
-# Niklas 2011-11-12
-require( "$IP/extensions/TitleBlacklist/TitleBlacklist.php" );
+
+require_once "$EXT/TitleBlacklist/TitleBlacklist.php";
 $wgTitleBlacklistSources = array(
  array(
  'type' => TBLSRC_LOCALPAGE,
  'src' => 'MediaWiki:Titleblacklist'
  )
 );
-require( "$IP/extensions/SpamBlacklist/SpamBlacklist.php" );
+require_once "$EXT/SpamBlacklist/SpamBlacklist.php";
 $wgSpamBlacklistFiles = array(
 	"http://meta.wikimedia.org/w/index.php?title=Spam_blacklist&action=raw&sb_ver=1",
 );
 $wgLogSpamBlacklistHits = true;
 
-include( "$IP/extensions/AdminLinks/AdminLinks.php" ); # Added by Siebrand 2012-02-06
+require_once "$EXT/AdminLinks/AdminLinks.php";
 
 
 #$wgExtraLanguageNames = array();
@@ -338,7 +338,7 @@ $wgExtraLanguageNames['nl-be'] = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages
 $wgExtraLanguageNames['ike'] = 'ᐃᓄᒃᑎᑐᑦ/inuktitut'; # Dunny to have portal appear in Special:SupportedLanguages
 
-include( "$IP/extensions/WikiEditor/WikiEditor.php" ); # Re-enabled by Siebrand / 2011-08-30
+require_once "$EXT/WikiEditor/WikiEditor.php";
 $wgWikiEditorModules = array(
 	'toolbar' => array( 'global' => false, 'user' => true ),
 	'highlight' => array( 'global' => false, 'user' => true ),
@@ -348,17 +348,15 @@ $wgWikiEditorModules = array(
 //	'templateEditor' => array( 'global' => false, 'user' => true ),
 );
 
-# Just for fun, I guess --- 2009-08-13 --Nike
-include( "$IP/extensions/UserOptionStats/UserOptionStats.php" );
-
-require_once "$IP/extensions/EventLogging/EventLogging.php";
+require_once "$EXT/UserOptionStats/UserOptionStats.php";
+require_once "$EXT/EventLogging/EventLogging.php";
 $wgEventLoggingBaseUri = 'http://bits.wikimedia.org/event.gif';
 
-require( "$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector.php" );
+require_once "$EXT/UniversalLanguageSelector/UniversalLanguageSelector.php";
 $wgULSEventLogging = true;
 $wgDefaultUserOptions['uls-enable'] = true; # Remove when the option is no longer needed.
 
-require_once( "$IP/extensions/TwnMainPage/MainPage.php" );
+require_once "$EXT/TwnMainPage/MainPage.php";
 $wgMainPageImages[] = array(
 	'url' => '//translatewiki.net/static/mainpage/gorges-du-tarn.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:01_Gorges_du_Tarn_Roc_des_Hourtous.jpg">CC BY Myrabella</a>',
@@ -424,7 +422,7 @@ $wgMainPageImages[] = array(
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:El_Gouna_Turtle_House_R01.jpg">CC BY Marc Ryckaert</a>',
 );
 
-require "$IP/extensions/InviteSignup/InviteSignup.php";
+require_once "$EXT/InviteSignup/InviteSignup.php";
 $wgISGroups = array( 'translator' );
 
 $wgUseExternalEditor = false;
@@ -472,7 +470,7 @@ $wgDeprecationReleaseLimit = '1.19';
 
 $wgFooterIcons['poweredby']['netcup'] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
 
-require "$IP/extensions/BetaFeatures/BetaFeatures.php";
+require_once "$EXT/BetaFeatures/BetaFeatures.php";
 
 # Dynamic code starts here
 
