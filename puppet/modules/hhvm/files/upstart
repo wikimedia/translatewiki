@@ -16,8 +16,10 @@ exec /sbin/start-stop-daemon --quiet --start \
   --pidfile /run/hhvm/hhvm.pid \
   --startas /usr/bin/hhvm \
   -- \
-    --config /etc/hhvm/config.hdf \
     --config /etc/hhvm/php.ini \
     --mode server
+
+limit nofile 65536 65536
+limit stack 33554432 unlimited
 
 respawn

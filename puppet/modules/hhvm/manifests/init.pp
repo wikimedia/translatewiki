@@ -35,12 +35,6 @@ class hhvm {
     notify  => Service['hhvm'],
   }
 
-  file { '/etc/hhvm/config.hdf':
-    source  => 'puppet:///modules/hhvm/config.hdf',
-    require => Package['hhvm'],
-    notify  => Service['hhvm'],
-  }
-
   file { '/etc/hhvm/php.ini':
     source  => 'puppet:///modules/hhvm/php.ini',
     require => Package['hhvm'],
