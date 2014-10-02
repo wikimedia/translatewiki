@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce8c5bf9_f11b6e80",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-10-02T20:06:34Z",
+      "side": 0,
+      "message": "Not in repo history",
+      "revId": "237d276713dbf5e802ff52b90560baa9ccc62ba7",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce8c5bf9_510a5a2a",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-10-02T20:06:34Z",
+      "side": 0,
+      "message": "Not in repo history",
+      "revId": "237d276713dbf5e802ff52b90560baa9ccc62ba7",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce8c5bf9_71075e20",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-10-02T20:06:34Z",
+      "side": 0,
+      "message": "Not in repo history",
+      "range": {
+        "startLine": 242,
+        "startChar": 72,
+        "endLine": 242,
+        "endChar": 78
+      },
+      "revId": "237d276713dbf5e802ff52b90560baa9ccc62ba7",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce8c5bf9_e3fba50f",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-10-02T20:06:34Z",
+      "side": 0,
+      "message": "Not in repo history",
+      "range": {
+        "startLine": 340,
+        "startChar": 14,
+        "endLine": 340,
+        "endChar": 24
+      },
+      "revId": "237d276713dbf5e802ff52b90560baa9ccc62ba7",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce8c5bf9_0301e907",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 350,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-10-02T20:06:34Z",
+      "side": 0,
+      "message": "Not in repo history",
+      "range": {
+        "startLine": 350,
+        "startChar": 11,
+        "endLine": 350,
+        "endChar": 14
+      },
+      "revId": "237d276713dbf5e802ff52b90560baa9ccc62ba7",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}

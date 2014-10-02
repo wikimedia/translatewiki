@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce8c5bf9_b10de643",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-10-02T20:06:34Z",
+      "side": 1,
+      "message": "Why not mentioned in commit message?",
+      "range": {
+        "startLine": 225,
+        "startChar": 18,
+        "endLine": 225,
+        "endChar": 19
+      },
+      "revId": "7503a3960c70cf439a94199ceacdfc059d52a8c8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
