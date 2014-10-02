@@ -1,6 +1,6 @@
 <?php
 
-require_once( __DIR__ . '/FallbackSettings.php' );
+require_once __DIR__ . '/FallbackSettings.php';
 
 $GROUPS = __DIR__ . '/groups';
 
@@ -8,12 +8,9 @@ $wgSpecialPages['Magic'] = 'SpecialMagic';
 $wgTranslateNewsletterPreference = true;
 
 $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
-$wgTranslateEC = array();
-$wgTranslateFuzzyBotName = 'FuzzyBot';
 $wgTranslateDocumentationLanguageCode = 'qqq';
 $wgTranslatePHPlot = '/home/betawiki/software/phplot/phplot.php';
 $wgTranslateGroupRoot = '/resources/projects';
-$wgEnablePageTranslation = true;
 $wgTranslateMessageIndex = array( 'CDBMessageIndex' );
 $wgTranslateDelayedMessageIndexRebuild = true;
 $wgTranslateDisablePreSaveTransform = true;
