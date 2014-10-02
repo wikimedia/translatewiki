@@ -476,18 +476,15 @@ require "$IP/extensions/BetaFeatures/BetaFeatures.php";
 # Dynamic code starts here
 
 if ( $wgCanonicalServer !== "https://translatewiki.net" ) {
-	$wgHooks['SiteNoticeAfter'] = array( 'nbwWarn' );
+	$wgHooks['SiteNoticeAfter'][] = function ( &$siteNotice ) {
+		$siteNotice = "
+	<big align=\"center\" dir='ltr'><strong>This is not a production site!
+	Go to <a href='https://translatewiki.net'>translatewiki.net</a>!</strong></big>";
+		return true;
+	};
 }
 
-function nbwWarn( &$siteNotice ) {
-	$siteNotice = "
-<big align=\"center\" dir='ltr'><strong>This is not a production site!
-Go to <a href='https://translatewiki.net'>translatewiki.net</a>!</strong></big>";
-	return true;
-}
-
-$wgHooks['GetLocalURL'][] = 'cleanUrlExceptions';
-function cleanUrlExceptions( &$title, &$url, $query ) {
+$wgHooks['GetLocalURL'][] = function ( &$title, &$url, $query ) {
 	if ( !$title->isExternal() && $query == '' ) {
 		$dbkey = wfUrlencode( $title->getPrefixedDBkey() );
 		if ( strpos( $dbkey, '%3F' ) !== false || strpos( $dbkey, '%26' ) !== false || strpos( $dbkey, '//' ) !== false ) {
@@ -496,10 +493,9 @@ function cleanUrlExceptions( &$title, &$url, $query ) {
 		}
 	}
 	return true;
-}
+};
 
-$wgExtensionFunctions[] = 'banAmp';
-function banAmp() {
+$wgExtensionFunctions[] = function () {
 	global $wgRequest;
 	try {
 		$url = $wgRequest->getRequestURL();
@@ -509,10 +505,9 @@ function banAmp() {
 			exit();
 		}
 	} catch ( MWException $e ) {}
-}
+};
 
-$wgHooks['LanguageGetNamespaces'][] = 'sortNamespaces';
-function sortNamespaces( &$list ) {
+$wgHooks['LanguageGetNamespaces'][] = function ( &$list ) {
 	// help
 	unset( $list[12] );
 	unset( $list[13] );
@@ -531,7 +526,7 @@ function sortNamespaces( &$list ) {
 
 	$list = $basic + $extra;
 	return true;
-}
+};
 
 $wgResourceModules['twn.jserrorlog'] = array(
 	'localBasePath' => __DIR__ . '/webfiles',
