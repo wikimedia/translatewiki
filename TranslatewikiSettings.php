@@ -1,44 +1,53 @@
 <?php
 
-$wgEnableCanonicalServerLink = true;
-
-$wgEnableEmail = true;
-$wgEnableUserEmail = true;
-
-$wgEnotifUserTalk = true; # UPO
-$wgEnotifWatchlist = true; # UPO
-$wgEnotifMinorEdits = false;
-
+###
+# Performance etc.
+###
 $wgMainCacheType = CACHE_MEMCACHED;
 $wgMemCachedServers = array( "127.0.0.1:11211" );
-$wgMemCachedTimeout = 150000; // Value moved from a live hack to this settings. Raymond 2010-01-21
+$wgMemCachedTimeout = 150000;
 $wgEnableSidebarCache = true;
 $wgSessionsInMemcached = true;
 $wgDisableCounters = true;
-$wgWellFormedXml = false; # Nike 2009-09-18
-$wgExperimentalHtmlIds = true; # Nike 2010-01-30
+$wgShowIPinHeader = false;
+$wgAdaptiveMessageCache = true;
+$wgJobRunRate = 0;
+
+###
+# Experimentalism
+###
+$wgWellFormedXml = false;
+$wgExperimentalHtmlIds = true;
 $wgAllUnicodeFixes = true;
-$wgAdaptiveMessageCache = true; # Nike 2010-08-08
 $wgDevelopmentWarnings = true;
 
-if ( !defined( 'HHVM_VERSION' ) ) {
-	$wgExternalDiffEngine = 'wikidiff2';
-}
+# Temporary till enabled by default in core, bug 9360
+$wgPageLanguageUseDB = true;
 
+$wgResourceLoaderValidateJS = false;
+#$wgIncludeLegacyJavaScript = false;
+$wgLegacyJavaScriptGlobals = false;
+
+$wgDeprecationReleaseLimit = '1.21';
+
+
+###
+# Unsorted
+###
 $wgRightsPage = ""; # Set to the title of a wiki page that describes your license/copyright
 $wgRightsUrl = "";
 $wgRightsText = "";
 $wgRightsIcon = "";
 
 $wgUseTidy = false;
-$wgSVGConverter = 'rsvg';
-$wgSVGConverters['rsvg'] = '$path/rsvg-convert -w $width -h $height $input -o $output';
 $wgMaxShellMemory = 1024 * 200;
 
 ###
 # Names
 ###
 $wgSitename = 'translatewiki.net';
+$wgEnableCanonicalServerLink = true;
+
 $wgLogo = "//translatewiki.net/static/logo.png";
 
 $wgGrammarForms['fi']['genitive']['translatewiki.net'] = 'translatewiki.netin';
@@ -46,6 +55,8 @@ $wgGrammarForms['fi']['inessive']['translatewiki.net'] = 'translatewiki.netissä
 $wgGrammarForms['fi']['illative']['translatewiki.net'] = 'translatewiki.netiin';
 $wgGrammarForms['fi']['elative']['translatewiki.net'] = 'translatewiki.netistä';
 $wgGrammarForms['fi']['partitive']['translatewiki.net'] = 'translatewiki.netiä';
+
+$wgFooterIcons['poweredby']['netcup'] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
 
 ###
 # Changes list
@@ -64,14 +75,8 @@ $wgCategoryCollation = 'uca-default';
 ###
 # Ajax spicy etc
 ###
-$wgShowIPinHeader = false;
 $wgUseAutomaticEditSummaries = false;
 $wgUseInstantCommons = true;
-
-###
-# Jobs
-###
-$wgJobRunRate = 0;
 
 ###
 # User (account) settings
@@ -84,23 +89,62 @@ $wgAutoConfirmAge = 3600 * 24 * 14;
 $wgAccountCreationThrottle = 1;
 $wgAutoblockExpiry = 3600 * 24 * 14; // 2 weeks of rest from vandals reusing IPs
 
+$wgEnableEmail = true;
+$wgEnableUserEmail = true;
+
+$wgEnotifUserTalk = true;
+$wgEnotifWatchlist = true;
+$wgEnotifMinorEdits = false;
+
+$wgHiddenPrefs[] = 'stubthreshold';
+$wgHiddenPrefs[] = 'userid';
+$wgHiddenPrefs[] = 'math';
+$wgHiddenPrefs[] = 'imagesize';
+$wgHiddenPrefs[] = 'thumbsize';
+$wgHiddenPrefs[] = 'highlightbroken';
+$wgHiddenPrefs[] = 'nocache';
+$wgHiddenPrefs[] = 'showtoc';
+$wgHiddenPrefs[] = 'showjumplinks';
+$wgHiddenPrefs[] = 'justify';
+$wgHiddenPrefs[] = 'numberheadings';
+$wgHiddenPrefs[] = 'livepreview';
+$wgHiddenPrefs[] = 'watchmoves';
+$wgHiddenPrefs[] = 'watchdeletion';
+$wgHiddenPrefs[] = 'disablesuggest';
+$wgHiddenPrefs[] = 'searchlimit';
+$wgHiddenPrefs[] = 'contextlines';
+$wgHiddenPrefs[] = 'contextchars';
+$wgHiddenPrefs[] = 'diffonly';
+$wgHiddenPrefs[] = 'norollbackdiff';
+$wgHiddenPrefs[] = 'cols';
+
+$wgDefaultUserOptions['usenewrc'] = 1;
+# Disabled 2012-08-20 / Nike / Too spammy/buggy.
+#$wgDefaultUserOptions['lqtnotifytalk'] = true;
+$wgDefaultUserOptions['watchcreations'] = true;
+
+$wgCaptchaTriggers['createaccount'] = true; // Special:Userlogin&type=signup
+$wgCaptchaRegexes[] = '/viagra|cialis/sDu';
+$wgCaptchaTriggers['edit'] = true; // Would check on every edit
+$wgCaptchaTriggers['create'] = true; // Check on page creation.
+$wgCaptchaTriggers['addurl'] = true; // Check on edits that add URLs
+$wgCaptchaTriggers['badlogin'] = true; // Special:Userlogin after failure
+
 ###
 # Upload
 ###
 $wgEnableUploads = true;
-$wgUseImageResize = true;
+$wgAllowCopyUploads = true;
 $wgUseImageMagick = false;
 $wgUseTeX = true;
 $wgFileExtensions = array( 'png', 'gif', 'jpg', 'jpeg', 'ogg', 'pdf', 'svg' );
-$wgStrictFileExtensions = true;
 
-# Temporary till enabled by default in core, bug 9360
-$wgPageLanguageUseDB = true;
+$wgSVGConverter = 'rsvg';
+$wgSVGConverters['rsvg'] = '$path/rsvg-convert -w $width -h $height $input -o $output';
 
 ###
 # Namespaces
 ###
-
 $wgNamespaceAliases['Betawiki'] = NS_PROJECT;
 $wgNamespaceAliases['Betawiki_talk'] = NS_PROJECT_TALK;
 $wgMetaNamespace = 'Project';
@@ -155,10 +199,6 @@ $wgCCUserFilter = true;
 $wgCCTrailerFilter = true;
 require_once "$EXT/UserDailyContribs/UserDailyContribs.php";
 
-
-###
-# Search
-###
 $wgNamespacesToBeSearchedDefault[NS_MAIN] = true;
 $wgNamespacesToBeSearchedDefault[NS_MEDIAWIKI] = true;
 require_once "$EXT/Elastica/Elastica.php";
@@ -179,13 +219,6 @@ $wgPFEnableStringFunctions = true;
 require_once "$EXT/NewUserMessage/NewUserMessage.php";
 $wgNewUserSuppressRC = true;
 $wgNewUserMinorEdit = false;
-
-$wgCaptchaRegexes[] = '/viagra|cialis/sDu';
-$wgCaptchaTriggers['edit'] = true; // Would check on every edit
-$wgCaptchaTriggers['create'] = true; // Check on page creation.
-$wgCaptchaTriggers['addurl'] = true; // Check on edits that add URLs
-$wgCaptchaTriggers['createaccount'] = true; // Special:Userlogin&type=signup
-$wgCaptchaTriggers['badlogin'] = true; // Special:Userlogin after failure
 
 require_once "$EXT/CharInsert/CharInsert.php";
 require_once "$EXT/LiquidThreads/LiquidThreads.php";
@@ -225,13 +258,12 @@ $smwgNamespacesWithSemanticLinks[NS_LQT_SUMMARY] = true;
 require_once "$EXT/SemanticForms/SemanticForms.php";
 $sfgRedLinksCheckOnlyLocalProps = true;
 
-
 require_once "$EXT/TitleBlacklist/TitleBlacklist.php";
 $wgTitleBlacklistSources = array(
- array(
- 'type' => TBLSRC_LOCALPAGE,
- 'src' => 'MediaWiki:Titleblacklist'
- )
+	array(
+		'type' => TBLSRC_LOCALPAGE,
+		'src' => 'MediaWiki:Titleblacklist'
+	)
 );
 require_once "$EXT/SpamBlacklist/SpamBlacklist.php";
 $wgSpamBlacklistFiles = array(
@@ -336,25 +368,15 @@ $wgExtraLanguageNames['smn'] = 'Anarâškielâ'; # Inari Saami / Siebrand 2014-1
 
 $wgExtraLanguageNames['nl-be'] = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages
-$wgExtraLanguageNames['ike'] = 'ᐃᓄᒃᑎᑐᑦ/inuktitut'; # Dunny to have portal appear in Special:SupportedLanguages
+$wgExtraLanguageNames['ike'] = 'ᐃᓄᒃᑎᑐᑦ/inuktitut'; # Dummy to have portal appear in Special:SupportedLanguages
 
 require_once "$EXT/WikiEditor/WikiEditor.php";
-$wgWikiEditorModules = array(
-	'toolbar' => array( 'global' => false, 'user' => true ),
-	'highlight' => array( 'global' => false, 'user' => true ),
-	'preview' => array( 'global' => false, 'user' => true ),
-	'publish' => array( 'global' => false, 'user' => true ),
-//	'toc' => array( 'global' => false, 'user' => true ),
-//	'templateEditor' => array( 'global' => false, 'user' => true ),
-);
-
 require_once "$EXT/UserOptionStats/UserOptionStats.php";
 require_once "$EXT/EventLogging/EventLogging.php";
 $wgEventLoggingBaseUri = 'http://bits.wikimedia.org/event.gif';
 
 require_once "$EXT/UniversalLanguageSelector/UniversalLanguageSelector.php";
 $wgULSEventLogging = true;
-$wgDefaultUserOptions['uls-enable'] = true; # Remove when the option is no longer needed.
 
 require_once "$EXT/TwnMainPage/MainPage.php";
 $wgMainPageImages[] = array(
@@ -425,55 +447,11 @@ $wgMainPageImages[] = array(
 require_once "$EXT/InviteSignup/InviteSignup.php";
 $wgISGroups = array( 'translator' );
 
-$wgUseExternalEditor = false;
-$wgHiddenPrefs[] = 'stubthreshold';
-$wgHiddenPrefs[] = 'userid';
-$wgHiddenPrefs[] = 'math';
-$wgHiddenPrefs[] = 'imagesize';
-$wgHiddenPrefs[] = 'thumbsize';
-$wgHiddenPrefs[] = 'highlightbroken';
-$wgHiddenPrefs[] = 'nocache';
-$wgHiddenPrefs[] = 'showtoc';
-$wgHiddenPrefs[] = 'showjumplinks';
-$wgHiddenPrefs[] = 'justify';
-$wgHiddenPrefs[] = 'numberheadings';
-$wgHiddenPrefs[] = 'livepreview';
-//$wgHiddenPrefs[] = 'editondblclick';
-$wgHiddenPrefs[] = 'watchmoves';
-$wgHiddenPrefs[] = 'watchdeletion';
-$wgHiddenPrefs[] = 'disablesuggest';
-$wgHiddenPrefs[] = 'searchlimit';
-$wgHiddenPrefs[] = 'contextlines';
-$wgHiddenPrefs[] = 'contextchars';
-$wgHiddenPrefs[] = 'diffonly';
-$wgHiddenPrefs[] = 'norollbackdiff';
-$wgHiddenPrefs[] = 'cols';
-$wgSkipSkins[] = 'chick';
-$wgSkipSkins[] = 'simple';
-$wgSkipSkins[] = 'standard';
-$wgSkipSkins[] = 'nostalgia';
-$wgSkipSkins[] = 'cologneblue';
-
-$wgAllowPageInfo = true;
-$wgAllowCopyUploads = true;
-
-$wgDefaultUserOptions['usenewrc'] = 1;
-# Disabled 2012-08-20 / Nike / Too spammy/buggy.
-#$wgDefaultUserOptions['lqtnotifytalk'] = true;
-$wgDefaultUserOptions['watchcreations'] = true;
-
-$wgResourceLoaderValidateJS = false;
-#$wgIncludeLegacyJavaScript = false;
-$wgLegacyJavaScriptGlobals = false;
-
-$wgDeprecationReleaseLimit = '1.19';
-
-$wgFooterIcons['poweredby']['netcup'] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
-
 require_once "$EXT/BetaFeatures/BetaFeatures.php";
 
+###
 # Dynamic code starts here
-
+###
 if ( $wgCanonicalServer !== "https://translatewiki.net" ) {
 	$wgHooks['SiteNoticeAfter'][] = function ( &$siteNotice ) {
 		$siteNotice = "
