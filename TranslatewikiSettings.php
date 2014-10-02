@@ -475,37 +475,6 @@ require "$IP/extensions/BetaFeatures/BetaFeatures.php";
 
 # Dynamic code starts here
 
-$wgHooks['GetBetaFeaturePreferences'][] = function ( $user, &$prefs ) {
-	$prefs['hhvm-beta'] = array(
-		'label-message' => 'hhvm-beta-label',
-		'desc-message' => 'hhvm-beta-desc',
-		'screenshot' => 'https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-prn2/1393601_10151895286787200_231799865_a.jpg',
-		'info-link' => 'http://www.hhvm.com/blog/',
-		'discussion-link' => '/wiki/Thread:Support/HHVM',
-	);
-};
-$wgHooks['BeforePageDisplay'][] = function ( OutputPage $out ) {
-	$req = $out->getRequest();
-	$user = $out->getUser();
-
-	$hasCookie = $req->getCookie( 'hhvm', '' );
-	$wantsCookie = BetaFeatures::isFeatureEnabled( $user, 'hhvm-beta' );
-
-	if ( !$hasCookie && $wantsCookie ) {
-		$req->response()->setcookie( 'hhvm', '1', 0, array( 'prefix' => '' ) );
-	}
-
-	if ( $hasCookie && !$wantsCookie ) {
-		$req->response()->setcookie( 'hhvm', '0', -1, array( 'prefix' => '' ) );
-	}
-};
-$wgHooks['LocalisationCacheRecache'][] = function ( $cache, $code, &$cachedData ) {
-	if ( $code === 'en' ) {
-		$cachedData['messages']['hhvm-beta-label'] = 'HHVM';
-		$cachedData['messages']['hhvm-beta-desc'] = 'HHVM is A new, supposedly faster, PHP runtime.';
-	}
-};
-
 if ( $wgCanonicalServer !== "https://translatewiki.net" ) {
 	$wgHooks['SiteNoticeAfter'] = array( 'nbwWarn' );
 }
