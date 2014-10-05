@@ -498,6 +498,9 @@ Central Notice
 aliasfile = CentralNotice/CentralNotice.alias.php
 optional = centralnotice-language-listing, centralnotice-log-label, centralnotice-user-links
 
+# No message documentation - 2014-10-05
+# Challenge
+
 Char Insert
 #magicfile = CharInsert/CharInsert.i18n.magic.php
 
@@ -785,6 +788,9 @@ optional = echo-email-batch-separator, echo-email-batch-bullet, echo-quotation-m
 ignored = echo-email-batch-separator
 
 Edit Page Tracking
+
+# Incomplete message documentation file - 2014-10-05
+# Edit Similar
 
 Edit Subpages
 
@@ -1081,6 +1087,9 @@ optional = imagemap_desc_types
 
 Image Metrics
 
+# Incomplete message documentation file - 2014-10-05
+# Image Tagging
+
 Index Function
 aliasfile = IndexFunction/IndexFunction.alias.php
 ignored = index-exclude-categories
@@ -1232,6 +1241,8 @@ Mixed Namespace Search Suggestions
 descmsg = mnss-desc
 
 Mobile App
+
+Mobile Detect
 
 Mobile Frontend
 descmsg = mobile-frontend-desc
