@@ -39,7 +39,7 @@ ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 #Nostalgia
 
 Splash
-ignored = site-banner
+ignored = site-banner, global-links-menu, content-footer
 
 Vector
 optional = skinname-vector, vector.css, vector.js
