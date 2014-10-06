@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "ce8c5bf9_381768aa",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 518,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-10-06T15:25:54Z",
+      "side": 1,
+      "message": "Yes, we have technical debt, too :).\n\nWe do accept patches!",
+      "revId": "7616ab35e80a25af9c85b263bc1864259a0b6e18",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ce8c5bf9_b89ff854",
         "filename": "groups/MediaWiki/MediaWiki.yaml",
         "patchSetId": 2
