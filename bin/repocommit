@@ -101,7 +101,7 @@ then
 	cd $PROJECT
 	for i in `find . -name *.json`
 	do
-		svn status |grep [?] |  tr -s ' ' | cut -d ' ' -f 2 | xargs svn add -q
+		svn add -q $i
 		svn propset -q svn:mime-type text/plain $i
 	done
 	svn commit --message "$COMMITMSG"
