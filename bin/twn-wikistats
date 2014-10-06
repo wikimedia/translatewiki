@@ -14,7 +14,6 @@ $BASEDIR/wikistats "$WIKI" "$USER" "Translating:iHRIS/stats" "$PARAMS --groups=o
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Kiwix/stats" "$PARAMS --groups=out-kiwix"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:MantisBT/stats/trunk" "$PARAMS --groups=out-mantis-0-all"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Mifos/stats" "$PARAMS --groups=out-mifos"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Mwlib.rl/stats/trunk" "$PARAMS --groups=out-mwlibrl"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Open Images/stats/trunk" "$PARAMS --groups=out-openimages-0-all"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:OpenStreetMap/stats/trunk" "$PARAMS --groups=out-osm-0-all"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Pywikibot/stats" "$PARAMS --groups=out-pywikipedia-0-all"

@@ -128,17 +128,6 @@ then
 	php "$EXPORTER" --target . --group='out-mifos' --lang='*' --skip en,qqq --threshold 20
 	php "$EXPORTER" --target . --group='out-mifos' --lang qqq
 
-elif [ "$PROJECT" = "mwlib" ]
-then
-	php "$EXPORTER" --target . --group=out-mwlibrl --lang='*' --skip en,qqq --threshold 10 $HOURS
-	php "$EXPORTER" --target . --group=out-mwlibrl --lang qqq
-
-	cd mwlib.rl
-	FILEDIR=`pwd`
-	CODES=$(echo mwlib/rl/locale/* | xargs -n1 basename | cat )
-	export PYTHONPATH=/usr/local/lib/python:$DIR/mwlib/
-	echo $CODES | xargs -n1 python make_messages.py
-
 elif [ "$PROJECT" = "nocc" ]
 then
 	php "$EXPORTER" --target . --group=out-nocc-* --lang='*' --skip en,qqq $THRESHOLD

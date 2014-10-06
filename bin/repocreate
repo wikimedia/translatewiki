@@ -156,17 +156,6 @@ then
 	checkVar 'REPO_MIFOS'
 	git clone "$REPO_MIFOS" $PROJECT
 
-elif [ "$PROJECT" = "mwlib" ]
-then
-	if [ "$REPO_RW" = "yes" ]
-	then
-		checkVar 'REPO_MWLIB'
-		git clone "$REPO_MWLIB" $PROJECT
-	fi
-
-	checkVar 'REPO_MWLIBRL'
-	git clone "$REPO_MWLIBRL" mwlib.rl
-
 elif [ "$PROJECT" = "nocc" ]
 then
 	checkVar 'REPO_NOCC'

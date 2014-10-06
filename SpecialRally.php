@@ -37,7 +37,6 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 				'ext-0-all', // 8
 				'out-jquery-uls', // 1206
 				'out-kiwix', // 1244
-				'out-mwlibrl', // 1212
 				'out-okawix-0-all', // 1220
 				'out-pywikipedia-0-all', // 1238
 				'out-wikiblame', // 1206

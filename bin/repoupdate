@@ -235,15 +235,6 @@ then
 		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || ${DIRSCRIPT}/udpcast Message index creation failed &
 	fi
 
-elif [ "$PROJECT" = "mwlib" ]
-then
-	if [ "$REPO_RW" = "yes" ]
-	then
-		gitupdate "$PROJECT"
-	fi
-
-	gitupdate "mwlib.rl"
-
 elif [ "$PROJECT" = "nocc" ]
 then
 	svn up -q $PROJECT

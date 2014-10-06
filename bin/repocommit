@@ -178,10 +178,6 @@ then
 
 	mergeL10n-bot
 
-elif [ "$PROJECT" = "mwlib" ]
-then
-	gitCommit "$PROJECT.rl"
-
 elif [ "$PROJECT" = "nocc" ]
 then
 	cd $PROJECT

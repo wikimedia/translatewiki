@@ -244,8 +244,8 @@ wfAddNamespace( 1208, 'StatusNet' );
 wfAddNamespace( 1210, 'Mantis' );
 $wgTranslateGroupFiles[] = "$GROUPS/MantisBT/MantisBT.yaml";
 
+# No longer in use.
 wfAddNamespace( 1212, 'Mwlib' );
-$wgTranslateGroupFiles[] = "$GROUPS/Mwlib/Mwlibrl.yaml";
 
 # No longer in use.
 wfAddNamespace( 1214, 'Commonist' );
