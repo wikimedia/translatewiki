@@ -1843,6 +1843,9 @@ Simple Security
 descmsg = security-desc
 ignored = security-logentry
 
+# No message documentation - 2014-10-06
+#Site Scout
+
 Site Matrix
 aliasfile = SiteMatrix/SiteMatrix.alias.php
 
