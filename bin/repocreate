@@ -31,19 +31,7 @@ checkVar() {
 	fi
 }
 
-if [ "$PROJECT" = "commons-android" ]
-then
-	checkVar 'REPO_COMMONSANDROID'
-	git clone "$REPO_COMMONSANDROID" $PROJECT
-	gitCreateGerrit $PROJECT
-
-elif [ "$PROJECT" = "commons-ios" ]
-then
-	checkVar 'REPO_COMMONSIOS'
-	git clone "$REPO_COMMONSIOS" $PROJECT
-	gitCreateGerrit $PROJECT
-
-elif [ "$PROJECT" = "blockly" ]
+if [ "$PROJECT" = "blockly" ]
 then
 	checkVar 'REPO_BLOCKLY'
 	svn checkout "$REPO_BLOCKLY" $PROJECT
