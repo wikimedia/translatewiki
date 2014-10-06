@@ -103,6 +103,7 @@ $wgTranslateLanguageFallbacks['shi'] = array( 'ar', 'fr' ); # Robin 2011-09-27
 $wgTranslateLanguageFallbacks['sli'] = array( 'pl', 'szl' );
 $wgTranslateLanguageFallbacks['sly'] = array( 'id' );
 $wgTranslateLanguageFallbacks['sma'] = array( 'sv', 'nb', 'se' );
+$wgTranslateLanguageFallbacks['smn'] = array( 'fi', 'sma' );
 $wgTranslateLanguageFallbacks['sv'] = array( 'da', 'nb', 'nn' ); # Siebrand 2008-03-23
 $wgTranslateLanguageFallbacks['swb'] = 'sw';
 $wgTranslateLanguageFallbacks['tet'] = 'pt';
