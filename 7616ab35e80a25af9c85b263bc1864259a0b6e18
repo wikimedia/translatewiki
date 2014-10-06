@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce8c5bf9_b89ff854",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 537,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-10-06T15:20:46Z",
+      "side": 1,
+      "message": "Given that labels are global, just \"API\" is potentially confusing. I would name this \"MediaWiki API\" or whatever name was chosen for it recently.",
+      "revId": "7616ab35e80a25af9c85b263bc1864259a0b6e18",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
