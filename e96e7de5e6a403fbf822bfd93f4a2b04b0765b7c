@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "ce8c5bf9_c310d25d",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 536,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2014-10-06T11:39:38Z",
+      "side": 1,
+      "message": "Group ID should be mediawiki-api. \"ext-...\" is something we had to use a while ago for technical reasons, but that\u0027s no longer needed.",
+      "revId": "e96e7de5e6a403fbf822bfd93f4a2b04b0765b7c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ee62ffec_e0d9712d",
         "filename": "groups/MediaWiki/MediaWiki.yaml",
         "patchSetId": 1
