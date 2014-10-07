@@ -5,5 +5,14 @@
 		"mediawiki/semantic-media-wiki": "@dev",
 		"mediawiki/semantic-maps": "@dev"
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-0": {
+			"ComposerHookHandler": "includes/composer"
+		}
+	},
+	"scripts": {
+		"pre-update-cmd": "ComposerHookHandler::onPreUpdate",
+		"pre-install-cmd": "ComposerHookHandler::onPreInstall"
+	}
 }
