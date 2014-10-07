@@ -614,10 +614,6 @@ file = ConfirmEdit/i18n/core/%CODE%.json
 aliasfile = ConfirmEdit/ConfirmEdit.alias.php
 descmsg = captcha-desc
 
-ConfirmEdit Asirra
-file = ConfirmEdit/i18n/asirra/%CODE%.json
-descmsg = asirra-desc
-
 ConfirmEdit Fancy Captcha
 file = ConfirmEdit/i18n/fancy/%CODE%.json
 descmsg = fancycaptcha-desc
