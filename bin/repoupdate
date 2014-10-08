@@ -177,7 +177,7 @@ then
 	cd $PROJECT
 	cd extensions
 
-	EXTENSIONS=$(curl -s https://gerrit.wikimedia.org/r/projects/?p=mediawiki/extensions/ |grep 'mediawiki/extensions/' |cut -d '"' -f 2 |cut -d '/' -f3 | sort| egrep -v "(FundraisingEmailUnsubscribe|DataValuesCommon|ShortUrlApi)")
+	EXTENSIONS=$(curl -s https://gerrit.wikimedia.org/r/projects/?p=mediawiki/extensions/ |grep 'mediawiki/extensions/' |cut -d '"' -f 2 |cut -d '/' -f3 | sort| egrep -v "(FundraisingEmailUnsubscribe)")
 
 	# Clone extension repos that do not exist yet.
 	for EXTENSION in $EXTENSIONS
