@@ -1197,6 +1197,8 @@ ignored = maintenance-showCacheStats, maintenance-cleanupSpam-output-done, maint
 ignored = maintenance-createAndPromote-option-username, maintenance-createAndPromote-option-password
 ignored = maintenance-createAndPromote-output-done, maintenance-createAndPromote-error-invalid, maintenance-createAndPromote-error-exists
 
+Mantle
+
 Map Sources
 aliasfile = MapSources/MapSources.i18n.alias.php
 

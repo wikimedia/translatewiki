@@ -3,6 +3,9 @@
 
 Blue Spice Skin
 
+# qqq missing
+#Bouquet
+
 Chameleon
 file = chameleon/i18n/%CODE%.json
 optional = skinname-chameleon
