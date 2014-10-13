@@ -101,7 +101,6 @@ $wgHiddenPrefs[] = 'userid';
 $wgHiddenPrefs[] = 'math';
 $wgHiddenPrefs[] = 'imagesize';
 $wgHiddenPrefs[] = 'thumbsize';
-$wgHiddenPrefs[] = 'highlightbroken';
 $wgHiddenPrefs[] = 'nocache';
 $wgHiddenPrefs[] = 'showtoc';
 $wgHiddenPrefs[] = 'showjumplinks';
@@ -214,7 +213,6 @@ require_once __DIR__ . "/LanguageSettings.php";
 require_once __DIR__ . "/nikext.php";
 require_once "$EXT/Renameuser/Renameuser.php";
 require_once "$EXT/ParserFunctions/ParserFunctions.php";
-$wgMaxIfExistCount = 300;
 $wgPFEnableStringFunctions = true;
 
 require_once "$EXT/NewUserMessage/NewUserMessage.php";
