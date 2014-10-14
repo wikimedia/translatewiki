@@ -2180,6 +2180,7 @@ WikEd Diff
 descmsg = wiked-diff-desc
 optional = wiked-diff-ins, wiked-diff-del, wiked-diff-block-left, wiked-diff-block-right
 optional = wiked-diff-block-left-nounicode, wiked-diff-block-right-nounicode
+ignored = wiked-diff-same
 
 Wiki Article Feeds
 
