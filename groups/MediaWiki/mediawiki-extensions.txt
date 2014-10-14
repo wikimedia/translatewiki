@@ -2176,6 +2176,11 @@ Widgets
 magicfile = Widgets/Widgets.i18n.magic.php
 optional = group-widgeteditor.css, group-widgeteditor.js
 
+WikEd Diff
+descmsg = wiked-diff-desc
+optional = wiked-diff-ins, wiked-diff-del, wiked-diff-block-left, wiked-diff-block-right
+optional = wiked-diff-block-left-nounicode, wiked-diff-block-right-nounicode
+
 Wiki Article Feeds
 
 Wiki Category Tag Cloud
