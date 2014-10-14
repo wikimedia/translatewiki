@@ -11,6 +11,7 @@ GROUPS:
   - ext-0-all
   - ext-installer
   - mediawiki-skin-0-all
+  - mediawiki-api
 
 ---
 BASIC:
@@ -328,6 +329,8 @@ TAGS:
     - allpages-summary
     - ancientpages-summary
     - anonnotice
+    - apihelp-link
+    - apihelp-summary
     - autoblock_whitelist
     - autocomment-prefix
     - blocklist-summary
@@ -524,3 +527,25 @@ TAGS:
     - config-type-postgres
     - config-type-sqlite
     - config-type-oracle
+
+---
+BASIC:
+  id: mediawiki-api
+  label: MediaWiki Action API
+  icon: wiki://Mediawiki-logo.png
+  class: FileBasedMessageGroup
+  namespace: NS_MEDIAWIKI
+  description: "{{int:translate-group-desc-mediawikiapi}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mediawiki/master/includes/api/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - api-help-flags
+    - api-help-help-urls
+  ignored:
+    - api-help-fallback-description
+    - api-help-fallback-parameter
+    - api-help-fallback-example
