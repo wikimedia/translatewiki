@@ -75,7 +75,6 @@ $wgExtraLanguageNames['ban'] = 'ᬩᬲᬩᬮᬶ'; # Balinese / Siebrand 2012-11-
 $wgExtraLanguageNames['miq'] = 'Mískitu'; # Miskito / Siebrand 2013-07-02
 $wgExtraLanguageNames['abs'] = 'Bahasa Ambon'; # Ambonese Malay / Siebrand 2013-07-05
 $wgExtraLanguageNames['pbb'] = 'Nasa Yuwe'; # Páez / Siebrand 2013-08-08
-$wgExtraLanguageNames['ses'] = 'Koyraboro Senni'; # Koyraboro Senni Songhay / Siebrand 2013-10-07
 $wgExtraLanguageNames['sdh'] = 'کوردی خوارگ'; # Southern Kurdish / Siebrand 2013-10-07
 $wgExtraLanguageNames['mww-latn'] = 'Hmoob Dawb'; # Hmong Daw / Siebrand 2013-12-02
 $wgExtraLanguageNames['rmf'] = 'kaalengo tšimb'; # Romani language spoken in Finland / Nike 2014-03-05
