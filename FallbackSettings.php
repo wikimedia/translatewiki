@@ -2,7 +2,6 @@
 
 $wgTranslateLanguageFallbacks['abs'] = array( 'id' );
 $wgTranslateLanguageFallbacks['acf'] = 'fr';
-$wgTranslateLanguageFallbacks['aeb'] = 'ar';
 $wgTranslateLanguageFallbacks['af'] = 'nl';
 $wgTranslateLanguageFallbacks['ady-cyrl'] = 'ru';
 $wgTranslateLanguageFallbacks['aro'] = 'es';
