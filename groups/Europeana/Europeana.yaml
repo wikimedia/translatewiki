@@ -32,6 +32,7 @@ TAGS:
     - number.human.format.delimiter
     - number.percentage.format.delimiter
     - number.precision.format.delimiter
+    - formtastic.labels.taxonomy_term.collection day.*
   ignored:
     - dummy
 
