@@ -97,9 +97,9 @@ done
 if [ "$PROJECT" = "blockly" ]
 then
 	cd $PROJECT
+	svn add -q --force *
 	for i in `find . -name *.json`
 	do
-		svn add -q $i
 		svn propset -q svn:mime-type text/plain $i
 	done
 	svn commit --message "$COMMITMSG"
@@ -108,9 +108,9 @@ then
 elif [ "$PROJECT" = "fudforum" ]
 then
 	cd $PROJECT
+	svn add -q --force *
 	for i in `find . -name msg`
 	do
-		svn add -q $i
 		svn propset -q svn:mime-type text/plain $i
 		svn propset -q svn:eol-style native $i
 	done
@@ -186,7 +186,7 @@ then
 elif [ "$PROJECT" = "openimages" ]
 then
 	cd $PROJECT
-	svn add -q *.properties
+	svn add -q --force *.properties
 	svn propset -q svn:mime-type text/plain *.properties
 	svn propset -q svn:eol-style native *.properties
 	svn commit --message "$COMMITMSG"
@@ -195,7 +195,7 @@ then
 elif [ "$PROJECT" = "wikiblame" ]
 then
 	cd $PROJECT
-	svn add -q *.php
+	svn add -q --force *.php
 	svn propset -q svn:eol-style native *.php
 	svn commit --message "$COMMITMSG"
 	cd ..
