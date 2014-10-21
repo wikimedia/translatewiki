@@ -1235,6 +1235,9 @@ descmsg = chat-desc
 ignored = chat-smileys, chat-mod-image
 optional = logentry-chat-send
 
+# Missing qqq
+#Mini Invite
+
 Mixed Namespace Search Suggestions
 descmsg = mnss-desc
 
