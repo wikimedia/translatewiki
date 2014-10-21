@@ -570,6 +570,7 @@ Comments
 Common Messages
 
 Commons Metadata
+ignored = commonsmetadata-doc-url
 
 Community Twitter
 
