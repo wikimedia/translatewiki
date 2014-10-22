@@ -2287,7 +2287,7 @@ Wikimedia Incubator
 descmsg = wminc-desc
 ignored = wminc-error-help, wminc-fs-langselect-langs, wminc-fs-settings-image
 ignored = wminc-infopage-prefill, wminc-manual-url, wminc-infopage-links
-optional = wminc-searchwiki-goto
+optional = wminc-searchwiki-goto, wminc-languagecode
 optional = group-test-sysop.css, group-test-sysop.js
 
 Wikimedia Messages
