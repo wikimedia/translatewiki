@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e936f18_b1eada71",
+        "filename": "groups/Wikimedia/WikimediaMobile-ios.yaml",
+        "patchSetId": 9
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-10-23T17:16:30Z",
+      "side": 0,
+      "message": "here",
+      "revId": "1ff03de523af4b7e55f9a9983d3afcba297b5d2b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
