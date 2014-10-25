@@ -203,10 +203,10 @@ $checkBlacklist = array(
 		)
 	),
 	array(
-		'group' => 'ext-citespecial',
+		'group' => 'ext-citethispage',
 		'check' => 'links',
 		'message' => array(
-			'cite_text', // Contains link parts that may need translation
+			'citethispage-content', // Contains link parts that may need translation
 		)
 	),
 	array(
