@@ -1006,6 +1006,9 @@ Global Userrights
 #aliasfile = GlobalUserrights/GlobalUserrights.alias.php
 descmsg = gur-desc
 
+# Missing message documenation
+#Go To Shell
+
 Google AdSense
 ignored = googleadsense
 
@@ -1109,6 +1112,9 @@ aliasfile = Interwiki/Interwiki.alias.php
 optional = interwiki_url, interwiki-url-label
 ignored = interwiki-defaulturl, logentry-interwiki-interwiki, interwiki-legend
 ignored = interwiki-description
+
+# Incomplete message documenation / inconsistent message prefix
+#Interwiki Integration
 
 Insider
 
@@ -2196,6 +2202,8 @@ ignored = wikieditor-toolbar-help-content-signaturetimestamp-syntax, wikieditor-
 Wiki Forum
 ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforum-max-replies-per-page
 optional = group-forumadmin.css, group-forumadmin.js
+
+Wiki Grok
 
 Wiki Lexical Data
 file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
