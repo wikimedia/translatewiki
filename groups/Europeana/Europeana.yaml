@@ -24,6 +24,7 @@ TAGS:
   optional:
     - date.abbr_month_names.0
     - date.month_names.0
+    - formtastic.labels.taxonomy_term.collection_day.*
     - number.currency.format.significant
     - number.currency.format.strip_insignificant_zeros
     - number.format.significant
@@ -32,7 +33,6 @@ TAGS:
     - number.human.format.delimiter
     - number.percentage.format.delimiter
     - number.precision.format.delimiter
-    - formtastic.labels.taxonomy_term.collection day.*
   ignored:
     - dummy
 
