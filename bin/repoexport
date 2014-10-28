@@ -88,7 +88,7 @@ elif [ "$PROJECT" = "mediawiki" ]
 then
 	php "$EXPORTER" --target . --group 'core' --lang='*' --skip "$SKIPLANGS" --threshold 18 $HOURS &
 	php "$EXPORTER" --target . --group 'core' --lang "$FORCELANGS" $HOURS &
-	php "$EXPORTER" --target . --group 'ext-installer' --lang='*' --skip "$SKIPLANGS" $HOURS &
+	php "$EXPORTER" --target . --group 'ext-installer,mediawiki-api' --lang='*' --skip "$SKIPLANGS" $HOURS &
 	wait
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
