@@ -650,6 +650,8 @@ aliasfile = ContributionScores/ContributionScores.alias.php
 Contribution Tracking
 aliasfile = ContributionTracking/ContributionTracking.alias.php
 
+Contributions List
+
 Contributors
 aliasfile = Contributors/Contributors.alias.php
 
@@ -680,6 +682,8 @@ Custom Data
 Data Transfer
 aliasfile = DataTransfer/languages/DT_Aliases.php
 optional = dt_filetype_xml, dt_filetype_csv
+
+Debug Mode
 
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
@@ -831,6 +835,9 @@ magicfile = ExternalData/ExternalData.i18n.magic.php
 Extra Language Link
 
 #Fan Boxes / Missing message documentation, inconsistently prefixed - 2014-01-28 RS
+
+# Incomplete message documentation file - 2014-10-25
+# Farmer
 
 Featured Feeds
 descmsg = ffeed-desc
@@ -1273,6 +1280,8 @@ ignored = moodbar-hide-intro, moodbar-restore-intro, moodbar-response-cc-link, m
 ignored = moodbar-log-reason, moodbar-delete-intro
 
 Mpdf
+
+#Ms Cat Select // Missing qqq
 
 MSSQL Back Compat
 
