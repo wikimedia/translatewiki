@@ -763,6 +763,16 @@ descmsg = paypal_gateway-desc
 Donation Interface - WorldPay Gateway
 id = ext-di-wpg
 file = DonationInterface/worldpay_gateway/i18n/%CODE%.json
+ignored = apihelp-di_wp_validate-description, apihelp-di_wp_validate-param-fname
+ignored = apihelp-di_wp_validate-param-lname, apihelp-di_wp_validate-param-emailAdd
+ignored = apihelp-di_wp_validate-param-email-opt, apihelp-di_wp_validate-param-utm_source
+ignored = apihelp-di_wp_validate-param-utm_medium, apihelp-di_wp_validate-param-utm_campaign
+ignored = apihelp-di_wp_validate-param-referrer, apihelp-di_wp_validate-param-gateway
+ignored = apihelp-di_wp_validate-param-payment_method, apihelp-di_wp_validate-param-language
+ignored = apihelp-di_wp_validate-param-order_id, apihelp-di_wp_validate-param-contribution_tracking_id
+ignored = apihelp-di_wp_validate-param-street, apihelp-di_wp_validate-param-state
+ignored = apihelp-di_wp_validate-param-zip, apihelp-di_wp_validate-param-country
+ignored = apihelp-di_wp_validate-param-city, apihelp-di_wp_validate-param-cvc
 
 Double Wiki
 
@@ -2162,6 +2172,7 @@ file = VisualEditor/modules/ve-mw/i18n/%CODE%.json
 optional = visualeditor-preference-core-discussion-link, visualeditor-preference-core-info-link, visualeditor-preference-language-discussion-link, visualeditor-preference-language-info-link
 optional = visualeditor-preference-mwalienextension-discussion-link, visualeditor-preference-mwalienextension-info-link
 ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
+ignored = apihelp-visualeditor-param-format, apihelp-visualeditoredit-param-watch, apihelp-visualeditoredit-param-wikitext
 
 VisualEditor (WMF)
 id = ext-visualeditor-ve-wmf
