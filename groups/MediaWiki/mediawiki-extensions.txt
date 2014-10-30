@@ -862,6 +862,8 @@ Filter List Users
 First Steps
 aliasfile = FirstSteps/FirstSteps.alias.php
 
+Fixed Header Table
+
 Flagged Revisions - Flagged Revs
 id = ext-flaggedrevs-flaggedrevs
 file = FlaggedRevs/i18n/flaggedrevs/%CODE%.json
