@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e936f18_f45ed916",
+        "filename": "melange/config.ini",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-10-30T12:49:10Z",
+      "side": 1,
+      "message": "This is current origin/master",
+      "revId": "bd8b70a7b8a69e8f0465fc30bf4ce79b020cedba",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
