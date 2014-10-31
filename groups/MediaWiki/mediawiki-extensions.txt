@@ -550,6 +550,8 @@ ignored = code-rev-comment-preview-accesskey, code-rev-submit-accesskey, code-re
 ignored = code-rev-id, code-rev-next-accesskey
 optional = group-svnadmins.css, group-svnadmins.js
 
+# Collapsible Vector // Inconsistent message keys
+
 Collection
 aliasfile = Collection/Collection.alias.php
 descmsg = coll-desc
@@ -2204,6 +2206,9 @@ ignored = public_read_whitelist
 
 Who Is Watching
 aliasfile = WhoIsWatching/WhoIsWatching.alias.php
+
+Whos Online
+aliasfile = WhosOnline/WhosOnline.alias.php
 
 Widgets
 magicfile = Widgets/Widgets.i18n.magic.php
