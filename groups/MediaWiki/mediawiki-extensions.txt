@@ -550,7 +550,7 @@ ignored = code-rev-comment-preview-accesskey, code-rev-submit-accesskey, code-re
 ignored = code-rev-id, code-rev-next-accesskey
 optional = group-svnadmins.css, group-svnadmins.js
 
-# Collapsible Vector // Inconsistent message keys
+Collapsible Vector
 
 Collection
 aliasfile = Collection/Collection.alias.php
