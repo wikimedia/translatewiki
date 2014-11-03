@@ -878,6 +878,10 @@ optional = group-autoreview.css, group-autoreview.js
 ignored = revreview-ak-review, accesskey-ca-current, accesskey-ca-stable
 ignored = flaggedrevs-stable-categories, flaggedrevs-diffonly
 
+Flagged Revisions - API
+id = ext-flaggedrevs-api
+file = FlaggedRevs/i18n/api/%CODE%.json
+
 Flagged Revisions - Configured Pages
 id = ext-flaggedrevs-configuredpages
 file = FlaggedRevs/i18n/configuredpages/%CODE%.json
