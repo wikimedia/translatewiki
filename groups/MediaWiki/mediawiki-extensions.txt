@@ -651,6 +651,9 @@ aliasfile = ContributionScores/ContributionScores.alias.php
 
 Contribution Tracking
 aliasfile = ContributionTracking/ContributionTracking.alias.php
+ignored = apihelp-contributiontracking-param-utm_source, apihelp-contributiontracking-param-utm_medium
+ignored = apihelp-contributiontracking-param-utm_campaign, apihelp-contributiontracking-param-utm_key
+ignored = apihelp-contributiontracking-param-owa_session, apihelp-contributiontracking-param-owa_ref
 
 Contributions List
 
