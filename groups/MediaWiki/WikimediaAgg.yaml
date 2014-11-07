@@ -14,6 +14,7 @@ GROUPS:
   - ext-antibot
   - ext-apisandbox
   - ext-betafeatures
+  - ext-bouncehandler # 2014-11-05 Change-Id: I64c09d17146bf9a3cee582fcea0e19aed6f4ce3d
   - ext-calendar # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-charinsert
   - ext-checkuser
