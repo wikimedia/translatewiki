@@ -34,7 +34,9 @@ checkVar() {
 if [ "$PROJECT" = "blockly" ]
 then
 	checkVar 'REPO_BLOCKLY'
-	svn checkout "$REPO_BLOCKLY" $PROJECT
+	git clone "$REPO_BLOCKLY" $PROJECT
+	checkVar 'REPO_BLOCKLYGAMES'
+	git clone "$REPO_BLOCKLYGAMES" blockly-games
 
 elif [ "$PROJECT" = "eol" ]
 then

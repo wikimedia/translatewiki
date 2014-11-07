@@ -23,14 +23,6 @@ GROUPS:
 
 ---
 BASIC:
-  id: out-blockly-apps
-  label: Blockly Apps
-
-FILES:
-  sourcePattern: "%GROUPROOT%/blockly/apps/json/%CODE%.json"
-
----
-BASIC:
   id: out-blockly-core
   label: Blockly Core
 
@@ -102,3 +94,11 @@ TAGS:
     - VARIABLES_SET_HELPURL
   ignored:
     - COLOUR_RANDOM_HELPURL
+
+---
+BASIC:
+  id: out-blockly-games
+  label: Blockly Games
+
+FILES:
+  sourcePattern: "%GROUPROOT%/blockly-games/json/%CODE%.json"

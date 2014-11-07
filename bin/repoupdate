@@ -103,7 +103,8 @@ done
 
 if [ "$PROJECT" = "blockly" ]
 then
-	svn up -q $PROJECT
+	gitupdate "$PROJECT"
+	gitupdate "blockly-games"
 
 elif [ "$PROJECT" = "etherpad-lite" ]
 then

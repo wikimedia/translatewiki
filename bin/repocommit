@@ -52,6 +52,7 @@ mergeL10n-bot() {
 
 # TODO: Move to separate file?
 GITPROJECTS="\
+blockly \
 eol \
 europeana \
 freecol \
@@ -75,6 +76,11 @@ for i in $GITPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
 	then
 		gitCommit "$PROJECT"
+
+		if [ "$PROJECT" = "blockly" ]
+		then
+			gitCommit blockly-games
+		fi
 
 		if [ "$PROJECT" = "osm" ]
 		then
@@ -100,18 +106,7 @@ for i in $GERRITPROJECTS; do
 	fi
 done
 
-if [ "$PROJECT" = "blockly" ]
-then
-	cd $PROJECT
-	svn add -q --force *
-	for i in `find . -name *.json`
-	do
-		svn propset -q svn:mime-type text/plain $i
-	done
-	svn commit --message "$COMMITMSG"
-	cd ..
-
-elif [ "$PROJECT" = "etherpad-lite" ]
+if [ "$PROJECT" = "etherpad-lite" ]
 then
     gitCommit "$PROJECT" develop
 
