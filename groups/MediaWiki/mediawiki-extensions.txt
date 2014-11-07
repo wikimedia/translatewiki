@@ -1772,6 +1772,8 @@ Semantic Bundle
 Semantic Compound Queries
 magicfile = SemanticCompoundQueries/SemanticCompoundQueries.i18n.magic.php
 
+Semantic Dependency
+
 Semantic Drilldown
 aliasfile = SemanticDrilldown/languages/SD_Aliases.php
 

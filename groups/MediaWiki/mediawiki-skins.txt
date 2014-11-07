@@ -43,5 +43,8 @@ ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 Splash
 ignored = site-banner, global-links-menu, content-footer
 
+# No message documentation
+# Truglass
+
 Vector
 optional = skinname-vector, vector.css, vector.js
