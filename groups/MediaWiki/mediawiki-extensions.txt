@@ -1087,6 +1087,8 @@ Help Pages
 
 Hide Prefix
 
+Hierarchy Builder
+
 Host Stats
 aliasfile = HostStats/HostStats.alias.php
 ignored = hoststats
