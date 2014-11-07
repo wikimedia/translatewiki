@@ -15,12 +15,21 @@ echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
 COMMITMSG="Localisation updates from https://translatewiki.net."
 
+
 gitCommit() {
 	local dir=$1
 	cd "$dir"
 	git add .
 	git commit -m "$COMMITMSG"
-	git push
+
+    # Check if $2 is set. If not, push to origin master
+	if [[ -z "$2" ]]
+	then
+	    git push origin master
+	else
+	    git push origin $2
+    fi
+
 	cd ..
 }
 
@@ -45,7 +54,6 @@ mergeL10n-bot() {
 GITPROJECTS="\
 eol \
 europeana \
-etherpad-lite \
 freecol \
 fuel \
 huggle \
@@ -54,12 +62,10 @@ jquery.uls \
 kiwix \
 mantis \
 mathjax \
-mifos \
 nfcring-control \
 osm \
 vicuna \
 waymarked-trails-site \
-wikia \
 WikipediaMobile \
 WikipediaMobileJ2ME \
 WikisourceMobile \
@@ -104,6 +110,10 @@ then
 	done
 	svn commit --message "$COMMITMSG"
 	cd ..
+
+elif [ "$PROJECT" = "etherpad-lite" ]
+then
+    gitCommit "$PROJECT" develop
 
 elif [ "$PROJECT" = "fudforum" ]
 then
@@ -176,6 +186,10 @@ then
 
 	mergeL10n-bot
 
+elif [ "$PROJECT" = "mifos" ]
+then
+    gitCommit "$PROJECT" develop
+
 elif [ "$PROJECT" = "nocc" ]
 then
 	cd $PROJECT
@@ -199,6 +213,10 @@ then
 	svn propset -q svn:eol-style native *.php
 	svn commit --message "$COMMITMSG"
 	cd ..
+
+elif [ "$PROJECT" = "wikiblame" ]
+then
+    gitCommit "$PROJECT" dev
 
 else
 	echo "`basename $0`: Unknown project"
