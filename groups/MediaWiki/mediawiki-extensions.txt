@@ -1193,6 +1193,7 @@ aliasfile = LiquidThreads/i18n/Lqt.alias.php
 magicfile = LiquidThreads/i18n/LiquidThreads.magic.php
 descmsg = lqt-desc
 ignored = lqt_header_warning_before_big
+ignored = apihelp-threadaction-param-operand
 
 List Signup
 aliasfile = ListSignup/ListSignup.alias.php
@@ -2255,6 +2256,7 @@ descmsg = apiow-desc
 
 Wiki Love
 optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
+ignored = apihelp-wikiloveimagelog-param-image, apihelp-wikiloveimagelog-param-success
 
 Wiki Loves Monuments
 
