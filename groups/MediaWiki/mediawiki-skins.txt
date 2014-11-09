@@ -7,7 +7,7 @@ Blue Spice Skin
 #Bouquet
 
 Chameleon
-file = chameleon/i18n/%CODE%.json
+file = chameleon/resources/i18n/%CODE%.json
 optional = skinname-chameleon
 
 Cologne Blue
