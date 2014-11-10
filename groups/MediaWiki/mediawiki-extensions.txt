@@ -2162,6 +2162,10 @@ Vector Beta
 View Files
 aliasfile = ViewFiles/ViewFiles.alias.php
 
+VIKI
+
+Viki Semantic Title
+
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
