@@ -1885,6 +1885,8 @@ aliasfile = SimpleChanges/SimpleChanges.alias.php
 
 Simple Farm
 
+Simple SAML php
+
 Simple Security
 descmsg = security-desc
 ignored = security-logentry
