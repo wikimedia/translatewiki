@@ -1438,6 +1438,9 @@ Open ID
 aliasfile = OpenID/OpenID.alias.php
 optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
 
+Open ID Connect
+aliasfile = OpenIDConnect/SelectOpenIDConnectIssuer.alias.php
+
 Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
 
