@@ -1595,6 +1595,8 @@ Php Tags Functions
 
 Php Tags SMW
 
+Php Tags Widgets
+
 Php Tags Wiki
 
 Poem
