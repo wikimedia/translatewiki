@@ -1599,6 +1599,8 @@ Php Tags Widgets
 
 Php Tags Wiki
 
+Pluggable Auth
+
 Poem
 
 Polyglot
