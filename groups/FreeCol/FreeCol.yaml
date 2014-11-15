@@ -36,6 +36,7 @@ AUTOLOAD:
 
 TAGS:
   optional:
+    - "*.accelerator"
     - colopedia.abilityGrantedBy
     - indianCapitalOwner
     - indianSettlementOwner
@@ -60,11 +61,17 @@ TAGS:
     - model.unit.occupation.activeNoMovesLeft
     - model.unit.occupation.improving
     - model.unit.occupation.unknown
-    - "*.accelerator"
     - selectDestination.destinationTurns
     - shipName.3.0
     - transaction.tax
+    - unitFormat.name.nation.null.null
+    - unitFormat.name.nation.role.null
+    - unitFormat.null.nation.null.null
+    - unitFormat.null.nation.role.equip
+    - unitFormat.null.nation.role.null
+    - unitFormat.null.null.role.null
     - year.YEAR
+
   ignored:
     - font.*
     - cli.arg.font
