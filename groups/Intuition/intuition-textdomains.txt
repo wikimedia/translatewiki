@@ -58,7 +58,7 @@ optional = title
 Toolserver status
 
 Ts Reports
-optional = tsreports-base_links, tsreports-report_variable, tsreports-report_changelinks
+optional = base_links, report_variable, report_changelinks
 
 Voiceintro
 ignored = voiceintro-title
