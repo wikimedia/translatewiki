@@ -37,6 +37,7 @@ AUTOLOAD:
 TAGS:
   optional:
     - "*.accelerator"
+    - UnitFormat.null.null.null.null
     - colopedia.abilityGrantedBy
     - indianCapitalOwner
     - indianSettlementOwner
@@ -45,6 +46,7 @@ TAGS:
     - model.foundingFather.*.birthAndDeath
     - model.foundingFather.*.name
     - model.goods.goodsAmount
+    - model.modifier.unknown
     - model.nation.*.europe
     - model.nation.*.region.land.*
     - model.nation.*.region.mountain.*
@@ -64,14 +66,22 @@ TAGS:
     - selectDestination.destinationTurns
     - shipName.3.0
     - transaction.tax
+    - unitFormat.name.nation.null.equip
     - unitFormat.name.nation.null.null
+    - unitFormat.name.nation.role.equip
     - unitFormat.name.nation.role.null
+    - unitFormat.name.null.null.equip
+    - unitFormat.name.null.null.null
+    - unitFormat.name.null.role.equip
+    - unitFormat.name.null.role.null
+    - unitFormat.null.nation.null.equip
     - unitFormat.null.nation.null.null
     - unitFormat.null.nation.role.equip
     - unitFormat.null.nation.role.null
+    - unitFormat.null.null.null.equip
+    - unitFormat.null.null.role.equip
     - unitFormat.null.null.role.null
     - year.YEAR
-
   ignored:
     - font.*
     - cli.arg.font
