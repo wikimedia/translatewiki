@@ -84,6 +84,7 @@ $wgExtraLanguageNames['kjh'] = 'хакас'; # Khakas / Amire80 2014-06-17
 $wgExtraLanguageNames['cnh'] = 'Lai holh'; # Haka Chin / Siebrand 2014-08-06
 $wgExtraLanguageNames['smn'] = 'Anarâškielâ'; # Inari Saami / Siebrand 2014-10-06
 $wgExtraLanguageNames['bgn'] = 'بلوچی رخشانی'; # Western Balochi / Siebrand 2014-11-15
+$wgExtraLanguageNames['dty'] = 'डोटेली'; # Dotyali / Siebrand 2014-11-16
 
 $wgExtraLanguageNames['nl-be'] = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages

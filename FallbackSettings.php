@@ -20,6 +20,7 @@ $wgTranslateLanguageFallbacks['cnh'] = array( 'my' );
 $wgTranslateLanguageFallbacks['cps'] = array( 'tl' );
 $wgTranslateLanguageFallbacks['cs'] = array( 'sk', 'de', 'fr', 'ru', 'pl' );
 $wgTranslateLanguageFallbacks['da'] = array( 'nn', 'nb', 'sv' ); # Siebrand 2008-03-23
+$wgTranslateLanguageFallbacks['dty'] = array( 'ne' );
 $wgTranslateLanguageFallbacks['egl'] = array( 'it', 'rgn' );
 $wgTranslateLanguageFallbacks['es-formal'] = 'es';
 $wgTranslateLanguageFallbacks['et'] = 'fi';
