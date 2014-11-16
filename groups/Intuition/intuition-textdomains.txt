@@ -5,6 +5,8 @@ CommonsHelper 2
 ignored = title, tusc
 optional = commonshelper2, standard_project, checkusage
 
+Cvn Overlay
+
 General
 optional = colon-separator, dateformat, parentheses, comma-separator, word-separator
 
@@ -53,7 +55,9 @@ ignored = format-filename-example, format-fullurl-example
 Templatecount
 optional = title
 
-Toolserverstatus
+Toolserver status
+
+Ts Reports
 
 Voiceintro
 ignored = voiceintro-title
