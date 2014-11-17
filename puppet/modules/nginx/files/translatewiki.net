@@ -67,7 +67,7 @@ server {
 		}
 	}
 
-	location ~* \.(png|jpg|jpeg|gif|ico|svg|woff|eot|ttf|webp)$ {
+	location ~* \.(png|jpg|jpeg|gif|ico|svg|woff|woff2|eot|ttf|webp)$ {
 		expires 2M;
 	}
 }
