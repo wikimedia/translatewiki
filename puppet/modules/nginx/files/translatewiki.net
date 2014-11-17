@@ -37,21 +37,16 @@ server {
 		rewrite ^ "/w/index.php?title=Special:RecentChanges&translations=&feed=atom";
 	}
 
-
 	location ~ ^/w/(logs|cache|mw-config|includes|maintenance|languages|docs)/ {
 		deny all;
 	}
 
 	# Allowed php files, case sensitive
 	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php$ {
-		set $fastcgi_pass_value unix:/run/php5-fpm.sock;
-
-#		if ($cookie_hhvm = "1") {
-#			set $fastcgi_pass_value unix:/run/hhvm/hhvm.sock;
-#		}
-
-		fastcgi_pass $fastcgi_pass_value;
+		fastcgi_pass php;
 		fastcgi_buffers 16 4k;
+		fastcgi_send_timeout 5s;
+		fastcgi_read_timeout 15s;
 		include fastcgi.conf;
 	}
 
