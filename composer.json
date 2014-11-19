@@ -1,5 +1,6 @@
 {
 	"require": {
+		"cdb/cdb": "1.0.0",
 		"cssjanus/cssjanus": "1.1.0",
 		"psr/log": "1.0.0",
 		"mediawiki/semantic-media-wiki": "@dev",
