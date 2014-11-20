@@ -1,7 +1,7 @@
 {
 	"require": {
-		"cdb/cdb": "1.0.0",
-		"cssjanus/cssjanus": "1.1.0",
+		"cdb/cdb": "~1.0",
+		"cssjanus/cssjanus": "~1.1",
 		"psr/log": "1.0.0",
 		"mediawiki/semantic-media-wiki": "@dev",
 		"mediawiki/semantic-maps": "@dev"
