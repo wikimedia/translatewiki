@@ -803,6 +803,9 @@ optional = echo-notification-count
 optional = echo-email-batch-separator, echo-email-batch-bullet, echo-quotation-marks
 ignored = echo-email-batch-separator
 
+# Incomplete message documentation file - 2014-11-20
+#Edit Account
+
 Edit Page Tracking
 
 # Incomplete message documentation file - 2014-10-05
@@ -2063,6 +2066,10 @@ Toc Tree
 Tooltip
 
 Tor Block
+
+Translate - API
+id = ext-translate-api
+file = Translate/i18n/api/%CODE%.json
 
 Translate - Core
 id = ext-translate-core
