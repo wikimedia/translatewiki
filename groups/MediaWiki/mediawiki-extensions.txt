@@ -1313,6 +1313,9 @@ Mpdf
 Ms Links
 descmsg = msl-desc
 
+Ms Wiki Editor
+descmsg = mswe-desc
+
 MSSQL Back Compat
 
 Multi Maps
