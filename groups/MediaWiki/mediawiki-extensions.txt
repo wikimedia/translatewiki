@@ -1310,6 +1310,9 @@ Mpdf
 
 #Ms Cat Select // Missing qqq
 
+Ms Insert
+descmsg = msi-desc
+
 Ms Links
 descmsg = msl-desc
 
