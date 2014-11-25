@@ -1175,6 +1175,8 @@ Last Modified
 
 Ldap Authentication
 
+LDAP Authorization
+
 Less
 
 Life Web
