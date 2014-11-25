@@ -1310,6 +1310,9 @@ Mpdf
 
 #Ms Cat Select // Missing qqq
 
+Ms Links
+descmsg = msl-desc
+
 MSSQL Back Compat
 
 Multi Maps
