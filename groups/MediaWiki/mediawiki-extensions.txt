@@ -2220,6 +2220,7 @@ optional = visualeditor-preference-core-discussion-link, visualeditor-preference
 optional = visualeditor-preference-mwalienextension-discussion-link, visualeditor-preference-mwalienextension-info-link
 ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
 ignored = apihelp-visualeditor-param-format, apihelp-visualeditoredit-param-watch, apihelp-visualeditoredit-param-wikitext
+ignored = visualeditor-wikitext-warning-link
 
 VisualEditor (WMF)
 id = ext-visualeditor-ve-wmf
