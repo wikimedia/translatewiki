@@ -2374,7 +2374,7 @@ Wikimedia Messages
 file = WikimediaMessages/i18n/wikimedia/%CODE%.json
 ignored = robots.txt
 ignored = extdist-branch-REL1_19, extdist-branch-REL1_20, extdist-branch-REL1_21
-ignored = extdist-branch-REL1_22
+ignored = extdist-branch-REL1_22, extdist-branch-REL1_23
 ignored = wikimedia-developers-url
 ignored = grouppage-staff
 optional = sitesupport-url
