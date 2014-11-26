@@ -2,6 +2,7 @@
 	"require": {
 		"cdb/cdb": "~1.0",
 		"cssjanus/cssjanus": "~1.1",
+		"leafo/lessphp": "~0.5",
 		"psr/log": "1.0.0",
 		"mediawiki/semantic-media-wiki": "@dev",
 		"mediawiki/semantic-maps": "@dev"
