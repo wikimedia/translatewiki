@@ -1343,6 +1343,8 @@ optional = multimediaviewer-geoloc-coord, multimediaviewer-geoloc-coords
 optional = multimediaviewer-html-embed-credit-text-t, multimediaviewer-embed-dimensions
 optional = multimediaviewer-embed-dimensions-separated
 optional = multimediaviewer-text-embed-credit-text-t, multimediaviewer-attr-html
+optional = multimediaviewer-text-embed-credit-text-tl-nonfree, multimediaviewer-html-embed-credit-text-tl-nonfree
+optional = multimediaviewer-embed-license-nonfree
 ignored = multimediaviewer-embed-dimensions-with-file-format
 
 MW Search
