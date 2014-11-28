@@ -1460,7 +1460,7 @@ aliasfile = OpenIDConnect/SelectOpenIDConnectIssuer.alias.php
 Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
 
-Open Search Xml
+# Open Search Xml # Moved into core, Ie0ab90902ede9499879402290006466efba479e9 2014-11-27
 
 Open Stack Manager
 aliasfile = OpenStackManager/OpenStackManager.alias.php

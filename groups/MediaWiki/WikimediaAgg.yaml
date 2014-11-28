@@ -75,7 +75,6 @@ GROUPS:
   - ext-oai
   - ext-oauth
   - ext-oathauth # 2014-06-28 Used on https://wikitech.wikimedia.org
-  - ext-opensearchxml
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-pageimages
   - ext-parsoid # All wikis
