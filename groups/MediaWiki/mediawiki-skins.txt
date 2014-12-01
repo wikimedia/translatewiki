@@ -29,6 +29,7 @@ Grey Stuff
 #file = mediawiki-strapping/i18n/%CODE%.json
 
 Metrolook
+optional = skinname-metrolook
 
 Modern
 optional = skinname-modern, modern.css, modern.js
