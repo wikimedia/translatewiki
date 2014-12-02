@@ -1465,6 +1465,7 @@ magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
 Open Stack Manager
 aliasfile = OpenStackManager/OpenStackManager.alias.php
 optional = openstackmanager-puppetdoclink, prefs-openstack
+ignored = apihelp-novaaddress-param-id
 
 Oracle Text Search
 
