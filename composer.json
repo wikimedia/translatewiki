@@ -17,5 +17,9 @@
 	"scripts": {
 		"pre-update-cmd": "ComposerHookHandler::onPreUpdate",
 		"pre-install-cmd": "ComposerHookHandler::onPreInstall"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"prepend-autoloader": false
 	}
 }

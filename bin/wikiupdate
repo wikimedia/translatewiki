@@ -13,7 +13,7 @@ find $WIKI $WIKI/extensions/* $WIKI/skins/* -maxdepth 1 -type d -name .git |
 
 if [ -f "$WIKI/composer.json" ]
 then
-	composer -n -d="$WIKI" update -o
+	composer -n -d="$WIKI" update
 else
 	echo "Skipping composer update"
 fi
