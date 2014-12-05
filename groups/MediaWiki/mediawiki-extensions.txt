@@ -1042,6 +1042,8 @@ ignored = googleadsense
 
 google Analytics
 
+Google Analytics Top Pages
+
 Google Custom Wiki Search
 descmsg = gcws-desc
 aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
