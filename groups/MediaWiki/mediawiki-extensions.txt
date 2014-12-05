@@ -1247,6 +1247,9 @@ ignored = maintenance-showCacheStats, maintenance-cleanupSpam-output-done, maint
 ignored = maintenance-createAndPromote-option-username, maintenance-createAndPromote-option-password
 ignored = maintenance-createAndPromote-output-done, maintenance-createAndPromote-error-invalid, maintenance-createAndPromote-error-exists
 
+MaintenanceShell
+aliasfile = MaintenanceShell/MaintenanceShell.alias.php
+
 Mantle
 
 Map Sources
