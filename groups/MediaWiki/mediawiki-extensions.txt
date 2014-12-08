@@ -1575,6 +1575,9 @@ ignored = pagetriage-special-contributions, pagetriage-tags-param-date-format
 Paged Tiff Handler
 descmsg = tiff-desc
 
+Pages List
+aliasfile = PagesList/PagesList.i18n.alias.php
+
 Pan Scroll
 
 Parser Fun
