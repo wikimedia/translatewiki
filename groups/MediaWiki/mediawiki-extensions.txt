@@ -1327,6 +1327,8 @@ Multi Maps
 
 # Multi Upload // Missing qqq
 
+Multimedia Player
+
 Multimedia Viewer
 optional = multimediaviewer-credit
 optional = multimediaviewer-license-cc-by-1.0, multimediaviewer-license-cc-sa-1.0, multimediaviewer-license-cc-by-sa-1.0
