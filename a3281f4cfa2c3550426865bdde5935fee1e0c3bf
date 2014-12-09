@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2e9df725_bb1628ab",
+        "filename": "puppet/modules/nginx/manifests/init.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2014-12-09T15:00:54Z",
+      "side": 1,
+      "message": "Why /private",
+      "revId": "a3281f4cfa2c3550426865bdde5935fee1e0c3bf",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
