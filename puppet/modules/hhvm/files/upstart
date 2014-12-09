@@ -20,6 +20,6 @@ exec /sbin/start-stop-daemon --quiet --start \
     --mode server
 
 limit nofile 65536 65536
-limit stack 33554432 unlimited
+limit stack 67108864 unlimited
 
 respawn
