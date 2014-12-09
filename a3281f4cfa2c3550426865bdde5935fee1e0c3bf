@@ -16,6 +16,24 @@
       "revId": "a3281f4cfa2c3550426865bdde5935fee1e0c3bf",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2e9df725_db8214cd",
+        "filename": "puppet/modules/nginx/manifests/init.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2014-12-09T15:04:13Z",
+      "side": 1,
+      "message": "To have related files in one place.",
+      "parentUuid": "2e9df725_bb1628ab",
+      "revId": "a3281f4cfa2c3550426865bdde5935fee1e0c3bf",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
