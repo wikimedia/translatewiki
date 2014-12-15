@@ -76,6 +76,9 @@ optional = approvedrevs-revision-nav
 
 Arrays
 
+# SVN import, incomplete message documenation
+#Article Comments
+
 # Unmaintained by Wikimedia, no longer deployed.
 #Article Feedback
 #aliasfile = ArticleFeedback/ArticleFeedback.alias.php
@@ -1740,6 +1743,8 @@ magicfile = ReplaceSet/ReplaceSet.i18n.magic.php
 Replace Text
 aliasfile = ReplaceText/ReplaceText.alias.php
 
+Reveal Email
+
 Revision Comment Supplement
 aliasfile = RevisionCommentSupplement/RevisionCommentSupplement.alias.php
 descmsg = revcs-desc
@@ -2446,6 +2451,8 @@ Wikivote Maps Yandex
 Windows Azure SDK
 
 Windows Azure Storage
+
+XML Content Extension
 
 Yet Another Keywords
 
