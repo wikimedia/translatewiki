@@ -189,13 +189,22 @@ TAGS:
     - shared-repo-name-wikimediacommons
     - size-bytes
     - size-exabytes
+    - size-exapixel
     - size-gigabytes
+    - size-gigapixel
     - size-kilobytes
+    - size-kilopixel
     - size-megabytes
+    - size-megapixel
     - size-petabytes
+    - size-petapixel
+    - size-pixel
     - size-terabytes
+    - size-terapixel
     - size-yottabytes
+    - size-yottapixel
     - size-zetabytes
+    - size-zetapixel
     - skinname-cologneblue
     - skinname-modern
     - sorbs
