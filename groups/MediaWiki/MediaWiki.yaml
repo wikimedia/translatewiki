@@ -50,6 +50,8 @@ TAGS:
     - common.css
     - common.js
     # @deprecated. Remove in MediaWiki 1.23.
+    - content-model-css
+    - content-model-json
     - created
     - days-abbrev
     - diff-with-additional
