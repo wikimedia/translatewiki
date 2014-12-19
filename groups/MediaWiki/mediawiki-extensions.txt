@@ -1486,6 +1486,8 @@ Page In Cat
 
 Page Language
 
+Page Notice
+
 Page Schemas
 aliasfile = PageSchemas/PageSchemas.i18n.alias.php
 descmsg = ps-desc
@@ -1889,6 +1891,8 @@ Semantic Web Browser
 descmsg = swb_desc
 aliasfile = SemanticWebBrowser/SemanticWebBrowser.alias.php
 optional = swb_browse_more
+
+Sentry
 
 Shared Css Js
 
