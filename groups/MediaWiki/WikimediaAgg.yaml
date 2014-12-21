@@ -22,6 +22,7 @@ GROUPS:
   - ext-codereview # MediaWiki.org
   - ext-commonsmetadata # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
   - ext-contactpage # on nl.wp and wikimediafoundation.org
+  - ext-contenttranslation
   - ext-contributionreporting # wikimediafoundation.org
   - ext-contributiontracking # wikimediafoundation.org
   - ext-creditssource # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
