@@ -104,7 +104,7 @@ GROUPS:
   - ext-userdailycontribs
   - ext-usermerge # change-id: dee0a5a3d55dbd9d2daa43c9ea0baa753ee49640 for Wikivoyage
   - ext-vectorbeta # change-id: 5ab746e86cddaa09fec195f9670a5767025106c7
-  - ext-vipsscaler 
+  - ext-vipsscaler
   - ext-wikibasedatamodel
   - ext-wikigrok # 2014-10-24, change id: I49a08c9f025a6258bd3a6d8f531d9b2a9c48968a
   - ext-wikilove
