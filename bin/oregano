@@ -18,7 +18,7 @@ deploy)
 	mkdir -p targets tags
 
 	# Default to newest tag
-	TAG=${2:-$(ls -1t tags | tail -n1)}
+	TAG=${2:-$(ls -1t tags | head -n1)}
 	ENV=${3:-production}
 	OLD=$(readlink "targets/$ENV" || :)
 
