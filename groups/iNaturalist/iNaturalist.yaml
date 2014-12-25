@@ -1,0 +1,12 @@
+BASIC:
+  id: out-inaturalist
+  label: iNaturalist
+  icon: wiki://INaturalist logo.svg
+  description: "{{int:translate-group-desc-inaturalist}}"
+  namespace: NS_INATURALIST
+  class: FileBasedMessageGroup
+
+FILES:
+  class: RubyYamlFFS
+  sourcePattern: "%GROUPROOT%/inaturalist/config/locales/%CODE%.yml"
+  codeAsRoot: true

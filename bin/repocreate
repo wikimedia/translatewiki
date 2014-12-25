@@ -92,6 +92,11 @@ then
 		cd ..
 	done
 
+elif [ "$PROJECT" = "inaturalist" ]
+then
+	checkVar 'REPO_INATURALIST'
+	git clone -b i18n "$REPO_INATURALIST" $PROJECT
+
 elif [ "$PROJECT" = "intuition" ]
 then
 	checkVar 'REPO_INTUITION'

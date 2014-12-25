@@ -326,3 +326,6 @@ $wgTranslateGroupFiles[] = "$GROUPS/MathJax/MathJax.yaml";
 
 wfAddNamespace( 1260, 'NFCRingControl' );
 $wgTranslateGroupFiles[] = "$GROUPS/NFCRingControl/NFCRingControl.yaml";
+
+wfAddNamespace( 1262, 'iNaturalist' );
+$wgTranslateGroupFiles[] = "$GROUPS/iNaturalist/iNaturalist.yaml";

@@ -133,6 +133,10 @@ then
 		cd ..
 	done
 
+elif [ "$PROJECT" = "inaturalist" ]
+then
+	gitCommit "$PROJECT" i18n
+
 elif [ "$PROJECT" = "mediawiki" ]
 then
 	if [ -z "$REPO_MEDIAWIKI_BRANCHES" ]

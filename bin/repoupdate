@@ -124,6 +124,10 @@ then
 		cd ..
 	done
 
+elif [ "$PROJECT" = "inaturalist" ]
+then
+	gitupdate "$PROJECT" i18n
+
 elif [ "$PROJECT" = "mantis" ]
 then
 	gitupdate "$PROJECT" $REPO_MANTIS_BRANCH
