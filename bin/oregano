@@ -1,0 +1,87 @@
+#!/bin/sh
+
+# Author: Niklas Laxström
+# License: MIT
+set -e
+
+COMMAND=$1
+
+if [ ! -d workdir ]; then
+	echo "This is not a valid oregano environment."
+	echo "Please create a directory named workdir."
+	COMMAND=""
+fi
+
+case $1 in
+
+deploy)
+	mkdir -p targets tags
+
+	# Default to newest tag
+	TAG=${2:-$(ls -1t tags | tail -n1)}
+	ENV=${3:-production}
+	OLD=$(readlink "targets/$ENV" || :)
+
+	if [ -z "$TAG" ]; then
+		echo "Unable to find any tags"
+		exit 1
+	fi
+
+	if [ ! -d "tags/$TAG" ]; then
+		echo "Tag '$TAG' does not exist"
+		exit 1
+	fi
+
+	echo "Updating targets/$ENV to '$TAG'"
+
+	# Update pointer
+	rm -f "targets/$ENV"
+	ln -s "../tags/$TAG" "targets/$ENV"
+
+	# Update pointer to previous version for rollback
+	if [ -n "$OLD" ]; then
+		rm -f "targets/${ENV}_previous"
+		ln -s "$OLD" "targets/${ENV}_previous"
+	fi
+	;;
+
+rollback)
+	mkdir -p targets
+
+	ENV=${2:-production}
+	TAG=$(readlink "targets/${ENV}_previous" || :)
+
+	if [ -n "$TAG" ]; then
+		echo "Updating targets/$ENV to previously deployed '$(basename "$TAG")'"
+		rm -f "targets/${ENV}_previous"
+		rm -f "targets/$ENV"
+		ln -s "$TAG" "targets/$ENV"
+	else
+		echo "Unable to rollback. Either already rollbacked or first deployment"
+	fi
+	;;
+
+tag)
+	mkdir -p tags
+
+	MAX=4
+	TAG=$(date --rfc-3339=ns)
+
+	rsync -a --info=progress2 --cvs-exclude workdir/ --chmod=a-w "tags/$TAG"
+	echo "Created tag $TAG"
+
+	cd tags/
+	ls -1 | head -n-$MAX | xargs --no-run-if-empty -d"\n" echo "Pruning"
+	ls -1 | head -n-$MAX | xargs --no-run-if-empty -d"\n" rm -r
+	;;
+
+*)
+	echo "
+Usage:
+$0 tag [name]            - creates new tag
+$0 deploy [tag] [target] - deploys tag (default latest) to the target (default production)
+$0 rollback [target]     - rollbacks to previously deployed tag in the target (default production)
+"
+	;;
+
+esac
