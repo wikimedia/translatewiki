@@ -5,8 +5,7 @@
 		"leafo/lessphp": "~0.5",
 		"psr/log": "1.0.0",
 		"ruflin/elastica": "1.3.0.0",
-		"mediawiki/semantic-media-wiki": "@dev",
-		"mediawiki/semantic-maps": "@dev"
+		"mediawiki/semantic-maps": "~3.1"
 	},
 	"minimum-stability": "dev",
 	"autoload": {
