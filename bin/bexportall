@@ -1,7 +1,7 @@
 #!/bin/bash
 
 EXPORTPATH=$HOME/export
-SCRIPTPATH=/www/translatewiki.net/w/extensions/Translate/scripts
+SCRIPTPATH=/srv/mediawiki/targets/production/extensions/Translate/scripts
 
 cd $SCRIPTPATH
 

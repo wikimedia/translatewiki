@@ -33,7 +33,7 @@ server {
 	spdy_headers_comp 7;
 
 	server_name translatewiki.net dev.translatewiki.net sandbox.translatewiki.net;
-	root /www/$host;
+	root /www/$host/docroot;
 
 	location = / {
 		rewrite ^ /wiki/Special:MainPage;

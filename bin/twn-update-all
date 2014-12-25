@@ -4,7 +4,7 @@ set -e
 
 BASEDIR=$(dirname $0)
 WIKINAME="translatewiki.net"
-WIKI=/www/$WIKINAME/w
+WIKI=/srv/mediawiki/workdir
 
 cd $WIKI
 REV=`git log --pretty='%h %ci (%cr)' -n 1`

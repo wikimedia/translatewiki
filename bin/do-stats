@@ -25,7 +25,7 @@ STATSFILE="$HOME/temp/stats.txt"
 SKIPLANGS="test, be-x-old, crh, de-ch, dk, en, fiu-vro, gan, got, hif, kbd, kk, kk-cn, iu, kk-kz, kk-tr, ko-kp, ku, ku-arab, no, ruq, simple, sr, tg, tp, tt, ug, zh, zh-classical, zh-cn, zh-sg, zh-hk, zh-min-nan, zh-mo, zh-my, zh-tw, zh-yue, bbc, ady"
 
 # create basic stats file for $GROUPS
-/usr/bin/php /www/w/extensions/Translate/scripts/groupStatistics.php --fuzzy --skipzero --groups="${GROUPS}" --skiplanguages="${SKIPLANGS}" > ${STATSFILE}
+/usr/bin/php /srv/mediawiki/targets/production/extensions/Translate/scripts/groupStatistics.php --fuzzy --skipzero --groups="${GROUPS}" --skiplanguages="${SKIPLANGS}" > ${STATSFILE}
 
 STATSPAGE="${HOME}/temp/stats_page"
 

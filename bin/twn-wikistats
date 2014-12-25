@@ -3,7 +3,7 @@
 set -e
 
 BASEDIR=$(dirname $0)
-WIKI=/www/translatewiki.net/w
+WIKI=/srv/mediawiki/targets/production
 USER=MaintenanceBot
 PARAMS="--skipzero --skiplanguages=qqq --fuzzy"
 

@@ -1,5 +1,5 @@
 #!/bin/bash
 # ensure correct permissions
 
-sudo -u betawiki php /www/translatewiki.net/w/extensions/Translate/scripts/createMessageIndex.php --quiet
+sudo -u betawiki php /srv/mediawiki/targets/production/extensions/Translate/scripts/createMessageIndex.php --quiet
 echo "Done."
