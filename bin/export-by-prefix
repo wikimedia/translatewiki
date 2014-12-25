@@ -9,7 +9,7 @@ then
 fi
 
 # Parameters and locations.
-WIKI=/www/translatewiki.net/w
+WIKI=/srv/mediawiki/targets/production
 DIR="$1"
 EXPORTER=$WIKI/extensions/Translate/scripts/export.php
 GROUP="$4"

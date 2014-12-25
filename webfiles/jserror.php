@@ -12,7 +12,7 @@ $ip = @$_SERVER['REMOTE_ADDR'];
 $agent = @$_SERVER['HTTP_USER_AGENT'];
 $host = $_SERVER['HTTP_HOST'];
 
-$file = "/www/$host/w/logs/error_js";
+$file = "/www/$host/logs/error_js";
 if ( file_exists( $file ) ) {
 	$file = fopen( $file, 'a' );
 	fwrite( $file, "$stamp\t$message\t$name:$line\n>$ip\t$agent\n>URL: $url\n>STACK: $stack\n" );

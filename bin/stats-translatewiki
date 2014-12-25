@@ -4,7 +4,7 @@ COMMAND="/usr/bin/php groupStatistics.php --skipzero --groups=wiki-twn-mainpage,
 STATSPAGE=$HOME/temp/twn
 
 # create basic stats file for groups 'most used', 'core', 'Wikimedia extensions', and 'All extensions'
-cd /www/w/extensions/Translate/scripts
+cd /srv/mediawiki/targets/production/extensions/Translate/scripts
 /usr/bin/nice $COMMAND > $STATSPAGE.txt
 
 # compile Wiki statistics page

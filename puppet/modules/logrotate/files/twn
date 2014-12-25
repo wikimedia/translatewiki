@@ -1,5 +1,5 @@
 # file managed by puppet
-/www/translatewiki.net/w/logs/error_php /www/translatewiki.net/w/logs/error_js /www/translatewiki.net/w/logs/jobqueue {
+/www/translatewiki.net/logs/error_php /www/translatewiki.net/logs/error_js /www/translatewiki.net/logs/jobqueue {
   copytruncate
   rotate 4
   weekly

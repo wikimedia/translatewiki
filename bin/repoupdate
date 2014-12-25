@@ -5,7 +5,7 @@ DIRSCRIPT="`dirname \"$0\"`"
 DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
 DIRLOG=/home/betawiki/logs/repo
 PROJECT=$1
-WIKI=/www/translatewiki.net/w
+WIKI=/srv/mediawiki/targets/production
 
 DIR=$2
 : ${DIR:=`pwd`}

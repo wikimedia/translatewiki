@@ -10,7 +10,7 @@ repoupdate wikia "$MYDIR" &
 wait
 
 # Process changes in the backend.
-sudo -u betawiki php /www/translatewiki.net/w/extensions/Translate/scripts/processMessageChanges.php --group=wikia-*
+sudo -u betawiki php /srv/mediawiki/targets/production/extensions/Translate/scripts/processMessageChanges.php --group=wikia-*
 
 # Tell user to manually review changes.
 echo "You should probably visit https://translatewiki.net/wiki/SpecialManageMessageGroups now! Really!"
@@ -32,4 +32,4 @@ repocommit wikia "$MYDIR"
 # Update production data again
 repo update wikia
 # Process changes (no changes expected)
-sudo -u betawiki php /www/translatewiki.net/w/extensions/Translate/scripts/processMessageChanges.php --group=wikia-*
+sudo -u betawiki php /srv/mediawiki/targets/production/extensions/Translate/scripts/processMessageChanges.php --group=wikia-*
