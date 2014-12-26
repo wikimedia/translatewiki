@@ -65,7 +65,7 @@ tag)
 	mkdir -p tags
 
 	MAX=4
-	TAG=$(date --rfc-3339=ns)
+	TAG=$(date --utc +%F_%T)
 
 	rsync -a --info=progress2 --cvs-exclude workdir/ --chmod=a-w "tags/$TAG"
 	echo "Created tag $TAG"
