@@ -34,7 +34,6 @@ then
 
 elif [ "$PROJECT" = "europeana" ]
 then
-	exit
 	php "$EXPORTER" --target . --group=out-europeana --lang='*' --skip en,qqq --threshold 75
 	php "$EXPORTER" --target . --group=out-europeana --lang qqq
 
