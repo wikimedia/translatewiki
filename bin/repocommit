@@ -201,6 +201,10 @@ then
 	svn commit --message "$COMMITMSG"
 	cd ..
 
+elif [ "$PROJECT" = "wikia" ]
+then
+    gitCommit "$PROJECT" dev
+
 elif [ "$PROJECT" = "wikiblame" ]
 then
 	cd $PROJECT
@@ -208,10 +212,6 @@ then
 	svn propset -q svn:eol-style native *.php
 	svn commit --message "$COMMITMSG"
 	cd ..
-
-elif [ "$PROJECT" = "wikiblame" ]
-then
-    gitCommit "$PROJECT" dev
 
 else
 	echo "`basename $0`: Unknown project"
