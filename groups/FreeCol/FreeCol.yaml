@@ -37,8 +37,8 @@ AUTOLOAD:
 TAGS:
   optional:
     - "*.accelerator"
-    - UnitFormat.null.null.null.null
     - colopedia.abilityGrantedBy
+    - findSettlementPanel.settlement
     - indianCapitalOwner
     - indianSettlementOwner
     - installer.FreeCol
@@ -63,6 +63,8 @@ TAGS:
     - model.unit.occupation.activeNoMovesLeft
     - model.unit.occupation.improving
     - model.unit.occupation.unknown
+    - report.indian.tensionStance
+    - report.unit.goingTo
     - selectDestination.destinationTurns
     - shipName.3.0
     - transaction.tax
@@ -81,6 +83,7 @@ TAGS:
     - unitFormat.null.null.null.equip
     - unitFormat.null.null.role.equip
     - unitFormat.null.null.role.null
+    - unitFormat.null.null.null.null
     - year.YEAR
   ignored:
     - font.*
