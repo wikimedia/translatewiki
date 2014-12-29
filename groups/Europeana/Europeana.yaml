@@ -34,6 +34,7 @@ TAGS:
     - number.percentage.format.delimiter
     - number.precision.format.delimiter
   ignored:
+    - Polish
     - activerecord.attributes.annotation.text
     - activerecord.options.user.role_name.institutional_provider
     - attributes.username
@@ -71,16 +72,68 @@ TAGS:
     - formtastic.hints.collection_day.contact.edit.street_address
     - formtastic.hints.collection_day.contact.update.country
     - formtastic.hints.collection_day.contact.update.locality
-    - formtastic.hints.collection_day.contact.update.locality
     - formtastic.hints.collection_day.contact.update.postal_code
     - formtastic.hints.collection_day.contact.update.region
     - formtastic.hints.collection_day.contact.update.street_address
     - formtastic.hints.contribution.contribution.edit.catalogued_by
+    - formtastic.hints.contribution.contribution.new.catalogued_by
     - formtastic.hints.contribution.metadata.alternative
     - formtastic.hints.contribution.metadata.character1_dob
     - formtastic.hints.contribution.metadata.character1_dod
     - formtastic.hints.contribution.metadata.character1_family_name
-    - polish
+    - formtastic.hints.contribution.metadata.character1_given_name
+    - formtastic.hints.contribution.metadata.character1_pob
+    - formtastic.hints.contribution.metadata.character2_dob
+    - formtastic.hints.contribution.metadata.character2_dod
+    - formtastic.hints.contribution.metadata.character2_family_name
+    - formtastic.hints.contribution.metadata.character2_given_name
+    - formtastic.hints.contribution.metadata.character2_pob
+    - formtastic.hints.contribution.metadata.character2_pod
+    - formtastic.hints.contribution.metadata.collection_day
+    - formtastic.hints.contribution.metadata.editor_pick
+    - formtastic.hints.contribution.metadata.editor_pick_sig
+    - formtastic.hints.contribution.metadata.editor_pick_text
+    - formtastic.hints.contribution.metadata.lang_other
+    - formtastic.hints.contribution.metadata.location_map
+    - formtastic.hints.contribution.metadata.location_zoom
+    - formtastic.hints.contribution.metadata.notes
+    - formtastic.hints.contribution.metadata.summary
+    - formtastic.hints.contribution.metadata.ticket
+    - formtastic.hints.options.admin/contributions_controller/options.index.fields
+    - formtastic.hints.settings.admin/contributions_controller/export_settings.export.exclude
+    - formtastic.hints.settings.admin/contributions_controller/export_settings.export.format
+    - formtastic.hints.settings.admin/contributions_controller/export_settings.export.institution_id
+    - formtastic.hints.settings.admin/contributions_controller/export_settings.export.set
+    - formtastic.hints.settings.admin/contributions_controller/export_settings.export.start_date
+    - formtastic.hints.settings.run_co_co/configuration.edit.search_engine
+    - formtastic.hints.user.contact.create.age
+    - formtastic.hints.user.contact.create.country
+    - formtastic.hints.user.contact.create.gender
+    - formtastic.hints.user.contact.create.locality
+    - formtastic.hints.user.contact.create.postal_code
+    - formtastic.hints.user.contact.create.region
+    - formtastic.hints.user.contact.create.street_address
+    - formtastic.hints.user.contact.edit.age
+    - formtastic.hints.user.contact.edit.country
+    - formtastic.hints.user.contact.edit.gender
+    - formtastic.hints.user.contact.edit.locality
+    - formtastic.hints.user.contact.edit.postal_code
+    - formtastic.hints.user.contact.edit.region
+    - formtastic.hints.user.contact.edit.street_address
+    - formtastic.hints.user.contact.edit.tel
+    - formtastic.hints.user.contact.new.age
+    - formtastic.hints.user.contact.new.country
+    - formtastic.hints.user.contact.new.gender
+    - formtastic.hints.user.contact.new.locality
+    - formtastic.hints.user.contact.new.postal_code
+    - formtastic.hints.user.contact.new.region
+    - formtastic.hints.user.contact.new.street_address
+    - formtastic.hints.user.user.create.password_confirmation
+    - formtastic.hints.user.user.create.terms
+    - formtastic.hints.user.user.edit.institution
+    - formtastic.hints.user.user.edit.password_confirmation
+    - formtastic.hints.user.user.edit.role_name
+    - formtastic.hints.user.user.edit.terms
 
 CHECKER:
   class: EuropeanaMessageChecker
