@@ -34,7 +34,53 @@ TAGS:
     - number.percentage.format.delimiter
     - number.precision.format.delimiter
   ignored:
-    - dummy
+    - activerecord.attributes.annotation.text
+    - activerecord.options.user.role_name.institutional_provider
+    - attributes.username
+    - formtastic.hints.annotation.annotation.edit.text
+    - formtastic.hints.attachment.metadata.creator_family_name
+    - formtastic.hints.attachment.metadata.file_type
+    - formtastic.hints.attachment.metadata.lang_other
+    - formtastic.hints.attachment.metadata.license
+    - formtastic.hints.attachment.metadata.location_map
+    - formtastic.hints.attachment.metadata.location_zoom
+    - formtastic.hints.attachment.metadata.notes
+    - formtastic.hints.attachment.metadata.page_total
+    - formtastic.hints.collection_day.collection_day.edit.description
+    - formtastic.hints.collection_day.collection_day.edit.end_date
+    - formtastic.hints.collection_day.collection_day.edit.image
+    - formtastic.hints.collection_day.collection_day.edit.map_latlng
+    - formtastic.hints.collection_day.collection_day.edit.map_zoom
+    - formtastic.hints.collection_day.collection_day.edit.name
+    - formtastic.hints.collection_day.collection_day.edit.start_date
+    - formtastic.hints.collection_day.collection_day.edit.taxonomy_term_id
+    - formtastic.hints.collection_day.collection_day.edit.url
+    - formtastic.hints.collection_day.collection_day.update.description
+    - formtastic.hints.collection_day.collection_day.update.end_date
+    - formtastic.hints.collection_day.collection_day.update.image
+    - formtastic.hints.collection_day.collection_day.update.map_latlng
+    - formtastic.hints.collection_day.collection_day.update.map_zoom
+    - formtastic.hints.collection_day.collection_day.update.name
+    - formtastic.hints.collection_day.collection_day.update.start_date
+    - formtastic.hints.collection_day.collection_day.update.taxonomy_term_id
+    - formtastic.hints.collection_day.collection_day.update.url
+    - formtastic.hints.collection_day.contact.edit.country
+    - formtastic.hints.collection_day.contact.edit.locality
+    - formtastic.hints.collection_day.contact.edit.postal_code
+    - formtastic.hints.collection_day.contact.edit.region
+    - formtastic.hints.collection_day.contact.edit.street_address
+    - formtastic.hints.collection_day.contact.update.country
+    - formtastic.hints.collection_day.contact.update.locality
+    - formtastic.hints.collection_day.contact.update.locality
+    - formtastic.hints.collection_day.contact.update.postal_code
+    - formtastic.hints.collection_day.contact.update.region
+    - formtastic.hints.collection_day.contact.update.street_address
+    - formtastic.hints.contribution.contribution.edit.catalogued_by
+    - formtastic.hints.contribution.metadata.alternative
+    - formtastic.hints.contribution.metadata.character1_dob
+    - formtastic.hints.contribution.metadata.character1_dod
+    - formtastic.hints.contribution.metadata.character1_family_name
+    - polish
 
 CHECKER:
   class: EuropeanaMessageChecker
