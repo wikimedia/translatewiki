@@ -83,6 +83,7 @@ TAGS:
     - formtastic.hints.contribution.metadata.character1_family_name
     - formtastic.hints.contribution.metadata.character1_given_name
     - formtastic.hints.contribution.metadata.character1_pob
+    - formtastic.hints.contribution.metadata.character1_pod
     - formtastic.hints.contribution.metadata.character2_dob
     - formtastic.hints.contribution.metadata.character2_dod
     - formtastic.hints.contribution.metadata.character2_family_name
@@ -100,6 +101,7 @@ TAGS:
     - formtastic.hints.contribution.metadata.summary
     - formtastic.hints.contribution.metadata.ticket
     - formtastic.hints.options.admin/contributions_controller/options.index.fields
+    - formtastic.hints.settings.admin/contributions_controller/export_settings.export.end_date
     - formtastic.hints.settings.admin/contributions_controller/export_settings.export.exclude
     - formtastic.hints.settings.admin/contributions_controller/export_settings.export.format
     - formtastic.hints.settings.admin/contributions_controller/export_settings.export.institution_id
@@ -134,6 +136,79 @@ TAGS:
     - formtastic.hints.user.user.edit.password_confirmation
     - formtastic.hints.user.user.edit.role_name
     - formtastic.hints.user.user.edit.terms
+    - formtastic.hints.user.user.new.password_confirmation
+    - formtastic.hints.user.user.new.terms
+    - formtastic.labels.annotation.annotation.edit.text
+    - formtastic.labels.attachment.attachment.edit.title
+    - formtastic.labels.attachment.attachment.new.title
+    - formtastic.labels.attachment.attachment.update.title
+    - formtastic.labels.collection_day.collection_day.edit.description
+    - formtastic.labels.collection_day.collection_day.edit.end_date
+    - formtastic.labels.collection_day.collection_day.edit.image
+    - formtastic.labels.collection_day.collection_day.edit.name
+    - formtastic.labels.collection_day.collection_day.edit.start_date
+    - formtastic.labels.collection_day.collection_day.edit.taxonomy_term_id
+    - formtastic.labels.collection_day.collection_day.edit.url
+    - formtastic.labels.collection_day.collection_day.update.description
+    - formtastic.labels.collection_day.collection_day.update.end_date
+    - formtastic.labels.collection_day.collection_day.update.image
+    - formtastic.labels.collection_day.collection_day.update.name
+    - formtastic.labels.collection_day.collection_day.update.start_date
+    - formtastic.labels.collection_day.collection_day.update.taxonomy_term_id
+    - formtastic.labels.collection_day.collection_day.update.url
+    - formtastic.labels.collection_day.contact.edit.locality
+    - formtastic.labels.collection_day.contact.edit.postal_code
+    - formtastic.labels.collection_day.contact.edit.region
+    - formtastic.labels.collection_day.contact.edit.street_address
+    - formtastic.labels.collection_day.contact.update.locality
+    - formtastic.labels.collection_day.contact.update.postal_code
+    - formtastic.labels.collection_day.contact.update.region
+    - formtastic.labels.collection_day.contact.update.street_address
+    - formtastic.labels.content.metadata.dcterms.medium
+    - formtastic.labels.contribution.metadata.date
+    - formtastic.labels.settings.admin/contributions_controller/export_settings.export.end_date
+    - formtastic.labels.settings.admin/contributions_controller/export_settings.export.exclude
+    - formtastic.labels.settings.admin/contributions_controller/export_settings.export.format
+    - formtastic.labels.settings.admin/contributions_controller/export_settings.export.institution_id
+    - formtastic.labels.settings.admin/contributions_controller/export_settings.export.set
+    - formtastic.labels.settings.admin/contributions_controller/export_settings.export.start_date
+    - formtastic.labels.taxonomy_term.taxonomy_term.create.term
+    - formtastic.labels.taxonomy_term.taxonomy_term.edit.term
+    - formtastic.labels.taxonomy_term.taxonomy_term.new.term
+    - formtastic.labels.user.contact.create.age
+    - formtastic.labels.user.contact.create.country
+    - formtastic.labels.user.contact.create.full_name
+    - formtastic.labels.user.contact.create.gender
+    - formtastic.labels.user.contact.create.locality
+    - formtastic.labels.user.contact.create.postal_code
+    - formtastic.labels.user.contact.create.region
+    - formtastic.labels.user.contact.create.street_address
+    - formtastic.labels.user.contact.edit.age
+    - formtastic.labels.user.contact.edit.country
+    - formtastic.labels.user.contact.edit.full_name
+    - formtastic.labels.user.contact.edit.gender
+    - formtastic.labels.user.contact.edit.locality
+    - formtastic.labels.user.contact.edit.postal_code
+    - formtastic.labels.user.contact.edit.region
+    - formtastic.labels.user.contact.edit.street_address
+    - formtastic.labels.user.contact.edit.tel
+    - formtastic.labels.user.contact.new.age
+    - formtastic.labels.user.contact.new.country
+    - formtastic.labels.user.contact.new.full_name
+    - formtastic.labels.user.contact.new.gender
+    - formtastic.labels.user.contact.new.postal_code
+    - formtastic.labels.user.contact.new.region
+    - formtastic.labels.user.contact.new.street_address
+    - formtastic.labels.user.user.create.email
+    - formtastic.labels.user.user.create.password
+    - formtastic.labels.user.user.create.password_confirmation
+    - formtastic.labels.user.user.create.username
+    - formtastic.labels.user.user.edit.email
+    - formtastic.labels.user.user.edit.institution
+    - formtastic.labels.user.user.edit.password
+    - formtastic.labels.user.user.edit.password_confirmation
+    - formtastic.labels.user.user.edit.role_name
+    - formtastic.labels.user.user.edit.username
 
 CHECKER:
   class: EuropeanaMessageChecker
