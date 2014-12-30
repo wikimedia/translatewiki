@@ -412,6 +412,7 @@ TAGS:
     - helpers.label.user.user.new.password
     - helpers.label.user.user.new.password_confirmation
     - helpers.label.user.user.new.username
+    - views.admin.taggings.table.header.text
     - views.test-key
 
 CHECKER:
