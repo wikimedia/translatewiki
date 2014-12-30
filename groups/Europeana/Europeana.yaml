@@ -196,6 +196,7 @@ TAGS:
     - formtastic.labels.user.contact.new.country
     - formtastic.labels.user.contact.new.full_name
     - formtastic.labels.user.contact.new.gender
+    - formtastic.labels.user.contact.new.locality
     - formtastic.labels.user.contact.new.postal_code
     - formtastic.labels.user.contact.new.region
     - formtastic.labels.user.contact.new.street_address
@@ -209,6 +210,82 @@ TAGS:
     - formtastic.labels.user.user.edit.password_confirmation
     - formtastic.labels.user.user.edit.role_name
     - formtastic.labels.user.user.edit.username
+    - formtastic.labels.user.user.new.email
+    - formtastic.labels.user.user.new.password
+    - formtastic.labels.user.user.new.password_confirmation
+    - formtastic.labels.user.user.new.username
+    - formtastic.placeholders.attachment.attachment.edit.title
+    - formtastic.placeholders.attachment.attachment.new.title
+    - formtastic.placeholders.attachment.attachment.update.title
+    - formtastic.placeholders.attachment.metadata_record.edit.field_creator_family_name
+    - formtastic.placeholders.attachment.metadata_record.edit.field_creator_given_name
+    - formtastic.placeholders.attachment.metadata_record.edit.field_lang_other
+    - formtastic.placeholders.attachment.metadata_record.edit.field_location_placename
+    - formtastic.placeholders.attachment.metadata_record.edit.field_page_number
+    - formtastic.placeholders.attachment.metadata_record.edit.field_page_total
+    - formtastic.placeholders.attachment.metadata_record.edit.field_subject
+    - formtastic.placeholders.attachment.metadata_record.new.field_creator_family_name
+    - formtastic.placeholders.attachment.metadata_record.new.field_creator_given_name
+    - formtastic.placeholders.attachment.metadata_record.new.field_lang_other
+    - formtastic.placeholders.attachment.metadata_record.new.field_location_placename
+    - formtastic.placeholders.attachment.metadata_record.new.field_page_number
+    - formtastic.placeholders.attachment.metadata_record.new.field_page_total
+    - formtastic.placeholders.attachment.metadata_record.new.field_subject
+    - formtastic.placeholders.attachment.metadata_record.update.field_creator_family_name
+    - formtastic.placeholders.attachment.metadata_record.update.field_creator_given_name
+    - formtastic.placeholders.attachment.metadata_record.update.field_lang_other
+    - formtastic.placeholders.attachment.metadata_record.update.field_location_placename
+    - formtastic.placeholders.attachment.metadata_record.update.field_page_number
+    - formtastic.placeholders.attachment.metadata_record.update.field_page_total
+    - formtastic.placeholders.attachment.metadata_record.update.field_subject
+    - formtastic.placeholders.collection_day.collection_day.edit.map_latlng
+    - formtastic.placeholders.collection_day.collection_day.edit.map_zoom
+    - formtastic.placeholders.collection_day.collection_day.edit.name
+    - formtastic.placeholders.collection_day.collection_day.edit.url
+    - formtastic.placeholders.collection_day.collection_day.update.map_latlng
+    - formtastic.placeholders.collection_day.collection_day.update.map_zoom
+    - formtastic.placeholders.collection_day.collection_day.update.name
+    - formtastic.placeholders.collection_day.collection_day.update.url
+    - formtastic.placeholders.collection_day.contact.edit.full_name
+    - formtastic.placeholders.collection_day.contact.edit.locality
+    - formtastic.placeholders.collection_day.contact.edit.postal_code
+    - formtastic.placeholders.collection_day.contact.edit.region
+    - formtastic.placeholders.collection_day.contact.update.full_name
+    - formtastic.placeholders.collection_day.contact.update.locality
+    - formtastic.placeholders.collection_day.contact.update.postal_code
+    - formtastic.placeholders.collection_day.contact.update.region
+    - formtastic.placeholders.contribution.contribution.edit.title
+    - formtastic.placeholders.contribution.contribution.new.title
+    - formtastic.placeholders.contribution.metadata_record.edit.field_alternative
+    - formtastic.placeholders.contribution.metadata_record.edit.field_character1_family_name
+    - formtastic.placeholders.contribution.metadata_record.edit.field_character1_given_name
+    - formtastic.placeholders.contribution.metadata_record.edit.field_character1_pob
+    - formtastic.placeholders.contribution.metadata_record.edit.field_character1_pod
+    - formtastic.placeholders.contribution.metadata_record.edit.field_character2_family_name
+    - formtastic.placeholders.contribution.metadata_record.edit.field_character2_given_name
+    - formtastic.placeholders.contribution.metadata_record.edit.field_character2_pob
+    - formtastic.placeholders.contribution.metadata_record.edit.field_character2_pod
+    - formtastic.placeholders.contribution.metadata_record.edit.field_contributor_behalf
+    - formtastic.placeholders.contribution.metadata_record.edit.field_editor_pick_sig
+    - formtastic.placeholders.contribution.metadata_record.edit.field_lang_other
+    - formtastic.placeholders.contribution.metadata_record.edit.field_location_placename
+    - formtastic.placeholders.contribution.metadata_record.edit.field_ticket
+    - formtastic.placeholders.contribution.metadata_record.new.field_alternative
+    - formtastic.placeholders.contribution.metadata_record.new.field_character1_family_name
+    - formtastic.placeholders.contribution.metadata_record.new.field_character1_given_name
+    - formtastic.placeholders.contribution.metadata_record.new.field_character1_pob
+    - formtastic.placeholders.contribution.metadata_record.new.field_character1_pod
+    - formtastic.placeholders.contribution.metadata_record.new.field_character2_family_name
+    - formtastic.placeholders.contribution.metadata_record.new.field_character2_given_name
+    - formtastic.placeholders.contribution.metadata_record.new.field_character2_pob
+    - formtastic.placeholders.contribution.metadata_record.new.field_character2_pod
+    - formtastic.placeholders.contribution.metadata_record.new.field_contributor_behalf
+    - formtastic.placeholders.contribution.metadata_record.new.field_editor_pick_sig
+    - formtastic.placeholders.contribution.metadata_record.new.field_lang_other
+    - formtastic.placeholders.contribution.metadata_record.new.field_location_placename
+    - formtastic.placeholders.contribution.metadata_record.new.field_ticket
+    - formtastic.placeholders.settings.admin/contributions_controller/export_settings.export.exclude
+    - formtastic.placeholders.settings.run_co_co/configuration.edit.allowed_upload_extensions
 
 CHECKER:
   class: EuropeanaMessageChecker
