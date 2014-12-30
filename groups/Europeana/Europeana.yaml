@@ -362,11 +362,33 @@ TAGS:
     - helpers.label.collection_day.contact.edit.street_address
     - helpers.label.collection_day.contact.update.locality
     - helpers.label.collection_day.contact.update.postal_code
+    - helpers.label.collection_day.contact.update.region
+    - helpers.label.collection_day.contact.update.street_address
+    - helpers.label.settings.admin/contributions_controller/export_settings.export.end_date
+    - helpers.label.settings.admin/contributions_controller/export_settings.export.exclude
+    - helpers.label.settings.admin/contributions_controller/export_settings.export.format
+    - helpers.label.settings.admin/contributions_controller/export_settings.export.institution_id
+    - helpers.label.settings.admin/contributions_controller/export_settings.export.set
+    - helpers.label.settings.admin/contributions_controller/export_settings.export.start_date
+    - helpers.label.taxonomy_term.taxonomy_term.create.term
+    - helpers.label.taxonomy_term.taxonomy_term.edit.term
+    - helpers.label.taxonomy_term.taxonomy_term.new.term
+    - helpers.label.user.contact.create.age
+    - helpers.label.user.contact.create.country
+    - helpers.label.user.contact.create.full_name
+    - helpers.label.user.contact.create.gender
     - helpers.label.user.contact.create.locality
     - helpers.label.user.contact.create.postal_code
     - helpers.label.user.contact.create.region
     - helpers.label.user.contact.create.street_address
     - helpers.label.user.contact.edit.age
+    - helpers.label.user.contact.edit.country
+    - helpers.label.user.contact.edit.full_name
+    - helpers.label.user.contact.edit.gender
+    - helpers.label.user.contact.edit.locality
+    - helpers.label.user.contact.edit.postal_code
+    - helpers.label.user.contact.edit.region
+    - helpers.label.user.contact.edit.street_address
     - helpers.label.user.contact.edit.tel
     - helpers.label.user.contact.new.age
     - helpers.label.user.contact.new.country
@@ -387,6 +409,9 @@ TAGS:
     - helpers.label.user.user.edit.role_name
     - helpers.label.user.user.edit.username
     - helpers.label.user.user.new.email
+    - helpers.label.user.user.new.password
+    - helpers.label.user.user.new.password_confirmation
+    - helpers.label.user.user.new.username
     - views.test-key
 
 CHECKER:
