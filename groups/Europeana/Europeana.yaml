@@ -359,6 +359,35 @@ TAGS:
     - helpers.label.collection_day.contact.edit.locality
     - helpers.label.collection_day.contact.edit.postal_code
     - helpers.label.collection_day.contact.edit.region
+    - helpers.label.collection_day.contact.edit.street_address
+    - helpers.label.collection_day.contact.update.locality
+    - helpers.label.collection_day.contact.update.postal_code
+    - helpers.label.user.contact.create.locality
+    - helpers.label.user.contact.create.postal_code
+    - helpers.label.user.contact.create.region
+    - helpers.label.user.contact.create.street_address
+    - helpers.label.user.contact.edit.age
+    - helpers.label.user.contact.edit.tel
+    - helpers.label.user.contact.new.age
+    - helpers.label.user.contact.new.country
+    - helpers.label.user.contact.new.full_name
+    - helpers.label.user.contact.new.gender
+    - helpers.label.user.contact.new.locality
+    - helpers.label.user.contact.new.postal_code
+    - helpers.label.user.contact.new.region
+    - helpers.label.user.contact.new.street_address
+    - helpers.label.user.user.create.email
+    - helpers.label.user.user.create.password
+    - helpers.label.user.user.create.password_confirmation
+    - helpers.label.user.user.create.username
+    - helpers.label.user.user.edit.email
+    - helpers.label.user.user.edit.institution
+    - helpers.label.user.user.edit.password
+    - helpers.label.user.user.edit.password_confirmation
+    - helpers.label.user.user.edit.role_name
+    - helpers.label.user.user.edit.username
+    - helpers.label.user.user.new.email
+    - views.test-key
 
 CHECKER:
   class: EuropeanaMessageChecker
