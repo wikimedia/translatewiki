@@ -93,7 +93,7 @@ f. Prepare announcement to sent to mailing list:
 5. Upload release to translatewiki.net
 
 scp tarball and sha256sums files to your home directory on translatewiki.net
-and with sudo permission copy it to /www/mleb folder.
+and with sudo permission copy it to /www/translatewiki.net/docroot/mleb folder.
 
 6. Update relavant pages:
 
