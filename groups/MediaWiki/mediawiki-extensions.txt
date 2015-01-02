@@ -1970,6 +1970,9 @@ Spelling Api
 
 Sphinx Search
 
+# Incomplete message documentation - 2014-12-23
+# Sports Teams
+
 Spreadsheet
 
 SSL Client Authentication
@@ -2305,7 +2308,6 @@ descmsg = apiow-desc
 
 Wiki Love
 optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
-ignored = apihelp-wikiloveimagelog-param-image, apihelp-wikiloveimagelog-param-success
 
 Wiki Loves Monuments
 
