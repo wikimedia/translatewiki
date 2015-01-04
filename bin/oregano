@@ -74,10 +74,10 @@ tag)
 	echo "Created tag $TAG"
 
 	cd tags/
-	ls -1t | head -n-$MAX | xargs --no-run-if-empty -d"\n" echo "Pruning"
+	ls -1tr | head -n-$MAX | xargs --no-run-if-empty -d"\n" echo "Pruning"
 	# Need to restore the write permissions we removed
-	ls -1t | head -n-$MAX | xargs --no-run-if-empty -d"\n" chmod -R ug+w
-	ls -1t | head -n-$MAX | xargs --no-run-if-empty -d"\n" rm -r
+	ls -1tr | head -n-$MAX | xargs --no-run-if-empty -d"\n" chmod -R ug+w
+	ls -1tr | head -n-$MAX | xargs --no-run-if-empty -d"\n" rm -r
 	;;
 
 *)
