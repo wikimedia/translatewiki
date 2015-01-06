@@ -1585,6 +1585,8 @@ descmsg = tiff-desc
 Pages List
 aliasfile = PagesList/PagesList.i18n.alias.php
 
+Paginate Text
+
 Pan Scroll
 
 Parser Fun
