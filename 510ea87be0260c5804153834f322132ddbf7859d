@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee703fc5_cd77c9fc",
+        "filename": "groups/iNaturalist/iNaturalist.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2015-01-06T19:18:13Z",
+      "side": 1,
+      "message": "We have https://translatewiki.net/wiki/File:INaturalist_logo.svg",
+      "range": {
+        "startLine": 4,
+        "startChar": 8,
+        "endLine": 4,
+        "endChar": 12
+      },
+      "revId": "510ea87be0260c5804153834f322132ddbf7859d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
