@@ -63,6 +63,11 @@ aliasfile = APC/APC.alias.php
 Api Explorer
 aliasfile = ApiExplorer/ApiExplorer.alias.php
 
+Api Feature Usage
+aliasfile = ApiFeatureUsage/ApiFeatureUsage.alias.php
+ignored = apifeatureusage-text
+optional = apifeatureusage-dates-layout
+
 Api Sandbox
 aliasfile = ApiSandbox/ApiSandbox.alias.php
 descmsg = apisb-desc
