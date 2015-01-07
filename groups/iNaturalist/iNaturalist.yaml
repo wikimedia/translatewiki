@@ -9,4 +9,6 @@ BASIC:
 FILES:
   class: RubyYamlFFS
   sourcePattern: "%GROUPROOT%/inaturalist/config/locales/%CODE%.yml"
+  codeMap:
+    es-mx: es-MX
   codeAsRoot: true

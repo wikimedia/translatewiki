@@ -89,5 +89,6 @@ $wgExtraLanguageNames['awa'] = 'अवधी'; # Awadhi / Siebrand 2014-12-28
 $wgExtraLanguageNames['gor'] = 'Hulontalo'; # Gorontalo / Siebrand 2014-12-28
 
 $wgExtraLanguageNames['nl-be'] = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
+$wgExtraLanguageNames['es-mx'] = 'español de México'; # Mexico; for iNaturalist
 $wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages
 $wgExtraLanguageNames['ike'] = 'ᐃᓄᒃᑎᑐᑦ/inuktitut'; # Dummy to have portal appear in Special:SupportedLanguages
