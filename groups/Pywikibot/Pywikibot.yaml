@@ -18,7 +18,9 @@ TEMPLATE:
       kk-cyrl: kk
       ks-arab: ks
       ku-latn: ku
+      lzh: zh-classical
       nb: "no"
+      nan: zh-min-nan
       rup: roa-rup
       ruq-latn: ruq
       sgs: bat-smg
@@ -27,6 +29,7 @@ TEMPLATE:
       tt-cyrl: tt
       ug-arab: ug
       vro: fiu-vro
+      yue: zh-yue
       zh-hans: zh
 
   CHECKER:
@@ -37,9 +40,10 @@ TEMPLATE:
 
   LANGUAGES:
     blacklist:
-      - be-x-old
-      - gan
       - als
+      - be-x-old
+      - de-ch
+      - gan
       - hif
       - iu
       - kbd
@@ -47,12 +51,19 @@ TEMPLATE:
       - ks
       - ku
       - "no"
+      - pt-br
       - ruq
       - sr
+      - sr-el
       - tg
       - tt
       - ug
       - zh
+      - zh-cn
+      - zh-hant
+      - zh-hk
+      - zh-sg
+      - zh-tw
 
 ---
 BASIC:
