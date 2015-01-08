@@ -67,7 +67,6 @@ Api Feature Usage
 aliasfile = ApiFeatureUsage/ApiFeatureUsage.alias.php
 ignored = apifeatureusage-text
 optional = apifeatureusage-dates-layout
-prefix = extension- | apihelp-query+userinfo-example-simple
 
 Api Sandbox
 aliasfile = ApiSandbox/ApiSandbox.alias.php
