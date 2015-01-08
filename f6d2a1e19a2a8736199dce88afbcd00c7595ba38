@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee703fc5_f6813093",
+        "filename": "LanguageSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-01-08T15:52:25Z",
+      "side": 1,
+      "message": "Don\u0027t we want to use better name? Not sure why the above one doesn\u0027t have proper name.",
+      "revId": "f6d2a1e19a2a8736199dce88afbcd00c7595ba38",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
