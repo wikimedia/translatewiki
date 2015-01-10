@@ -9,7 +9,7 @@ BASIC:
 FILES:
   sourcePattern: "%GROUPROOT%/europeana/config/locales/%CODE%.yml"
   class: RubyYamlFFS
-  codeAsRoot: 1
+  codeAsRoot: true
   codeMap:
     be-tarask: be-Tarask
     ku-latn: ku-Latn

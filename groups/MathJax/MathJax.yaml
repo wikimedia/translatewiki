@@ -19,7 +19,7 @@ BASIC:
   description: "{{int:translate-group-desc-mathjax}}"
   namespace: NS_MATHJAX
   class: AggregateMessageGroup
-  meta: 1
+  meta: true
 
 GROUPS:
   - out-mathjax-*

@@ -8,7 +8,7 @@ TEMPLATE:
   FILES:
     class: GettextFFS
     keyAlgorithm: simple
-    codemap:
+    codeMap:
       zh-hans: zh_CN
       zh-hant: zh_TW
 
