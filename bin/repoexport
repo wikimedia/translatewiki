@@ -61,7 +61,7 @@ then
 
 elif [ "$PROJECT" = "inaturalist" ]
 then
-	php "$EXPORTER" --target . --group=out-inaturalist --lang='*' --skip en $HOURS
+	php "$EXPORTER" --target . --group=out-inaturalist --lang='*' --skip en $THRESHOLD
 
 elif [ "$PROJECT" = "intuition" ]
 then
