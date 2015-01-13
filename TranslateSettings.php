@@ -201,15 +201,18 @@ $wgTranslateBlacklist = array(
 ),
 'core' => array(
 	'nl-be' => 'This code is not used in MediaWiki. Use \'nl\' or \'vls\'.',
+	'es-mx' => 'This code is not used in MediaWiki. Use \'es\'.',
 ),
 'ext' => array(
 	'nl-be' => 'This code is not used in MediaWiki. Use \'nl\' or \'vls\'.',
+	'es-mx' => 'This code is not used in MediaWiki. Use \'es\'.',
 ),
 'out' => array(
 	'roa-tara' => 'This code is not available for this software.',
 ),
 'wikia' => array(
 	'nl-be' => 'This code is not used in MediaWiki. Use \'nl\' or \'vls\'.',
+	'es-mx' => 'This code is not used in MediaWiki. Use \'es\'.',
 ),
 );
 
