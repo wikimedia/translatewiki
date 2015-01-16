@@ -2240,6 +2240,8 @@ ignored = visualeditor-languageannotation-description
 optional = visualeditor-specialcharinspector-characterlist-insert
 optional = visualeditor-dimensionswidget-px, visualeditor-dimensionswidget-times
 optional = visualeditor-languageannotation-description-with-dir
+optional = visualeditor-dialog-media-dimensionseparator, visualeditor-dialog-media-info-dateformat
+optional = visualeditor-dialog-media-info-ellipsis, visualeditor-dialog-media-info-separator
 
 VisualEditor (MediaWiki extension)
 id = ext-visualeditor-ve-mw
