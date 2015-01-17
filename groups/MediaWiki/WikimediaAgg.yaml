@@ -64,7 +64,6 @@ GROUPS:
   - ext-listings # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-mantle
   - ext-mapsources # wikivoyage
-  - ext-markashelpful # 2011-12-28: r107514 for enwiki
   - ext-massmessage
   - ext-mobileapp
   - ext-moodbar # r93131
@@ -96,7 +95,6 @@ GROUPS:
   - ext-templatedata
   - ext-templatesandbox
   - ext-textextracts
-  - ext-titlekey
   - ext-toctree # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-translate-0-all
   - ext-translationnotifications # 2012-05-??: meta, mediawiki, wikimania, incubator, and other
