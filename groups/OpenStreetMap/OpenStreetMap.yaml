@@ -6,7 +6,7 @@ TEMPLATE:
 
   FILES:
     class: RubyYamlFFS
-    codeAsRoot: 1
+    codeAsRoot: true
     codeMap:
       be-tarask: be-Tarask
       ku-latn: ku-Latn
