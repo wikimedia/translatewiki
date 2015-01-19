@@ -83,7 +83,6 @@ $wgExtraLanguageNames['jdt-cyrl'] = 'жугьури'; # Judeo-Tat / Siebrand 201
 $wgExtraLanguageNames['kjh'] = 'хакас'; # Khakas / Amire80 2014-06-17
 $wgExtraLanguageNames['cnh'] = 'Lai holh'; # Haka Chin / Siebrand 2014-08-06
 $wgExtraLanguageNames['smn'] = 'anarâškielâ'; # Inari Saami / Siebrand 2014-10-06
-$wgExtraLanguageNames['bgn'] = 'بلوچی رخشانی'; # Western Balochi / Siebrand 2014-11-15
 $wgExtraLanguageNames['dty'] = 'डोटेली'; # Dotyali / Siebrand 2014-11-16
 $wgExtraLanguageNames['awa'] = 'अवधी'; # Awadhi / Siebrand 2014-12-28
 $wgExtraLanguageNames['gor'] = 'Hulontalo'; # Gorontalo / Siebrand 2014-12-28
