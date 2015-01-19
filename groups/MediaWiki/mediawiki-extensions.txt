@@ -538,6 +538,8 @@ Cite This Page
 aliasfile = CiteThisPage/CiteThisPage.alias.php
 ignored = citethispage-summary, accesskey-citethispage
 
+Citoid
+
 cldr
 
 Clean Changes
