@@ -24,6 +24,22 @@ GROUPS:
 
 ---
 BASIC:
+  id: out-fuel-cloud
+  label: FUEL (cloud)
+
+FILES:
+  class: GettextFFS
+  sourcePattern: "%GROUPROOT%/fuel/language/%CODE%/terminology/cloud/fuel-cloud-%CODE%_translatewiki.net.po"
+  definitionFile: "%GROUPROOT%/fuel/language/en/terminology/cloud/fuel-cloud-en.pot"
+
+MANGLER:
+  class: StringMatcher
+  patterns:
+    - "*"
+  prefix: cloud-
+
+---
+BASIC:
   id: out-fuel-desktop
   label: FUEL (desktop)
 
