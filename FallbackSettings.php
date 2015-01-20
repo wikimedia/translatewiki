@@ -14,7 +14,6 @@ $wgTranslateLanguageFallbacks['bbc-latn'] = array( 'id', 'ms' ); # Robin 2011-20
 $wgTranslateLanguageFallbacks['be-tarask'] = array( 'pl', 'ru', 'uk', 'be' );
 $wgTranslateLanguageFallbacks['bew'] = 'id';
 $wgTranslateLanguageFallbacks['bfq'] = array( 'kn', 'ta' );
-$wgTranslateLanguageFallbacks['bgn'] = array( 'fa' );
 $wgTranslateLanguageFallbacks['bjn'] = 'id';
 $wgTranslateLanguageFallbacks['br'] = array( 'roa-rup', 'pms', 'fr', 'it' );
 $wgTranslateLanguageFallbacks['cnh'] = array( 'my' );
