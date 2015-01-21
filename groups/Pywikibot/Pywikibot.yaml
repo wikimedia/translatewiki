@@ -88,6 +88,10 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/archivebot/%CODE%.json"
+
+TAGS:
+  optional:
+    - archivebot-archiveheader
 ---
 BASIC:
   id: out-pywikipedia-basic
