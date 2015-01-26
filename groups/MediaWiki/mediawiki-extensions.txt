@@ -1052,6 +1052,8 @@ google Analytics
 
 Google Analytics Top Pages
 
+Google API Client
+
 Google Custom Wiki Search
 descmsg = gcws-desc
 aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
@@ -1247,7 +1249,7 @@ ignored = maintenance-showCacheStats, maintenance-cleanupSpam-output-done, maint
 ignored = maintenance-createAndPromote-option-username, maintenance-createAndPromote-option-password
 ignored = maintenance-createAndPromote-output-done, maintenance-createAndPromote-error-invalid, maintenance-createAndPromote-error-exists
 
-MaintenanceShell
+Maintenance Shell
 aliasfile = MaintenanceShell/MaintenanceShell.alias.php
 
 Mantle
