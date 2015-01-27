@@ -153,6 +153,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/commons/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-commonscat
+  label: Pywikibot Commons Cat
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/commonscat/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-commonslink
   label: Pywikibot Commons Link
 
