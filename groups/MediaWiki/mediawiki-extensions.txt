@@ -982,7 +982,7 @@ ignored = fundraiserlandingpage-wmfr-landing-page, fundraiserlandingpage-wmuk-la
 
 Fundraising Chart
 
-# Fundraising Email Unsubscribe / Git repo somehow broken: fatal: Not a git repository (or any of the parent directories): .git
+Fundraising Email Unsubscribe
 
 Fundraising Translate Workflow
 descmsg = fundraising-translate-workflow-desc
