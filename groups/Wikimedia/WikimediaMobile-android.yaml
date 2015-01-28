@@ -9,6 +9,7 @@ TEMPLATE:
     class: AndroidXmlFFS
     codeMap:
       pt-br: pt-rBR
+      sr-ec: sr
       zh-hans: zh
       zh-hant: zh-rTW
       qqq: qq
@@ -166,7 +167,7 @@ TEMPLATE:
       - sn
       - so
       - sq
-      - sr
+      - sr-ec
       - ss
       - st
       - su
