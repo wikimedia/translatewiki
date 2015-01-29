@@ -1165,6 +1165,8 @@ descmsg = is-desc
 file = InviteSignup/i18n/%CODE%.json
 aliasfile = InviteSignup/InviteSignup.alias.php
 
+Josa
+
 JS Bread Crumbs
 optional = jsbreadcrumbs-separator
 
