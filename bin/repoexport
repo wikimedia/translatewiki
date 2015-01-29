@@ -185,16 +185,6 @@ then
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-ios* --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-ios* --lang qqq
 
-elif [ "$PROJECT" = "WikipediaMobile" ]
-then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-phonegap --lang='*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-phonegap --lang qqq
-
-elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
-then
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-j2me --lang='*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikipedia-j2me --lang qqq
-
 elif [ "$PROJECT" = "WikisourceMobile" ]
 then
 	php "$EXPORTER" --target . --group=out-wikimedia-mobile-wikisource --lang='*' --skip en,qqq $THRESHOLD

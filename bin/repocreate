@@ -221,16 +221,6 @@ then
 	git clone "$REPO_WIKIPEDIAIOS" $PROJECT
 	gitCreateGerrit $PROJECT
 
-elif [ "$PROJECT" = "WikipediaMobile" ]
-then
-	checkVar 'REPO_WIKIPEDIAMOBILE'
-	git clone "$REPO_WIKIPEDIAMOBILE" $PROJECT
-
-elif [ "$PROJECT" = "WikipediaMobileJ2ME" ]
-then
-	checkVar 'REPO_WIKIPEDIAMOBILEJ2ME'
-	git clone "$REPO_WIKIPEDIAMOBILEJ2ME" $PROJECT
-
 elif [ "$PROJECT" = "WikisourceMobile" ]
 then
 	checkVar 'REPO_WIKISOURCEMOBILE'

@@ -39,7 +39,5 @@ REPO_WIKIBLAME=svn://svn.code.sf.net/p/wikiblame/code/wikiblame_inc
 REPO_WIKIMANIA=ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/wikimania-scholarships
 REPO_WIKIPEDIAANDROID=ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/wikipedia
 REPO_WIKIPEDIAIOS=ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/ios/wikipedia
-REPO_WIKIPEDIAMOBILE=git@github.com:wikimedia/WikipediaMobile.git
-REPO_WIKIPEDIAMOBILEJ2ME=git@github.com:wikimedia/WikipediaMobileJ2ME.git
 REPO_WIKISOURCEMOBILE=git@github.com:wikimedia/WikisourceMobile.git
 REPO_WIKTIONARYMOBILE=git@github.com:wikimedia/WiktionaryMobile.git
