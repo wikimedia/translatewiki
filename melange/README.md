@@ -2,7 +2,7 @@ MLEB Release Process
 --------------------
 
 Steps
-====
+=====
 
 1. Clone translatewiki repository:
 
@@ -19,7 +19,12 @@ To see all options available run,
 
     php melange.php
 
-3. Config/Version changes:
+3. If needed update documentation pages on mediawiki.org:
+
+    https://www.mediawiki.org/wiki/Help:Extension:Translate/Configuration
+    https://www.mediawiki.org/wiki/Help:Extension:Translate/Hooks
+
+4. Config/Version changes:
 
 a. Submit config.ini changes:
 
@@ -45,22 +50,22 @@ else, it can be particular commit, for example,
 
 and submit it for review.
 
-b. Update Translate and ULS extension versions. See: https://gerrit.wikimedia.org/r/#/c/88213/
-and submit it for review.
+b. Update Translate and ULS extension versions. See https://gerrit.wikimedia.org/r/#/c/88213/
+for example and submit it for review.
 
-4. Release steps:
+5. Release steps:
 
-a. Clone the extentions:
+a. Clone the extensions:
 
     php melange.php clone-extensions
 
-This is required only the first time or if you deleted extentions folder.
+This is required only the first time or if you deleted extensions folder.
 
-b. Update the extentions:
+b. Update the extensions:
 
     php melange.php update-extensions
 
-c. Chekout release:
+c. Checkout release:
 
     php melange.php checkout-release
 
@@ -70,9 +75,9 @@ d. Prepare release notes:
 
 Now, edit the text files with the release notes generated in notes/ folder.
 
-e. Create tag for extentions:
+e. Create tag for extensions:
 
-Make sure you've permission to create tag on all extentions repository.
+Make sure you've permission to create tag on all extensions repository.
 
     php melange.php create-tag
 
@@ -90,14 +95,14 @@ f. Prepare announcement to sent to mailing list:
 
     php melange.php prepare-announcement
 
-5. Upload release to translatewiki.net
+6. Upload release to translatewiki.net
 
 scp tarball and sha256sums files to your home directory on translatewiki.net
 and with sudo permission copy it to /www/translatewiki.net/docroot/mleb folder.
 
-6. Update relavant pages:
+7. Update relevant pages:
 
 [1] MLEB Mediawiki page: https://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle
 [2] Latest MLEB release: https://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle/latest
 
-7. Blog post/Twitter/Facebook etc.
+8. Blog post/Twitter/Facebook etc.
