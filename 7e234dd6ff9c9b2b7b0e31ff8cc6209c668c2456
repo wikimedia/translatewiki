@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e7fc396_6a6a11b3",
+        "filename": "melange/config.ini",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-01-29T19:31:06Z",
+      "side": 1,
+      "message": "Why don\u0027t you just keep Translate at origin/master?",
+      "revId": "7e234dd6ff9c9b2b7b0e31ff8cc6209c668c2456",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
