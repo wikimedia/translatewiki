@@ -111,5 +111,6 @@ GROUPS:
   - ext-wikimediaincubator # r89556
   - ext-wikimediaincubatorinfopage
   - ext-wikimediashoplink # 2012-06-27, change-Id 1a0c3707bd6603b27d80c997968b24231eea2b04
+  - ext-xanalytics # 2015-02-02 on all wikis
   - ext-zerobanner # 2014-06
   - ext-zeroportal # 2014-06
