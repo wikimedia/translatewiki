@@ -116,6 +116,9 @@ Author Protect
 
 Auto Create Category Pages
 
+# Missing message documentation - 2015-02-04
+# Auto Proxy Block
+
 Automatic Board Welcome
 
 AWS
