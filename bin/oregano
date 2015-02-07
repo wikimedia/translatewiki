@@ -43,6 +43,10 @@ deploy)
 		rm -f "targets/${ENV}_previous"
 		ln -s "$OLD" "targets/${ENV}_previous"
 	fi
+
+	if [ -x "hooks/deploy" ]; then
+		./hooks/deploy "$TAG" "$ENV"
+	fi
 	;;
 
 rollback)
@@ -50,12 +54,17 @@ rollback)
 
 	ENV=${2:-production}
 	TAG=$(readlink "targets/${ENV}_previous" || :)
+	TAG_NAME=$(basename "$TAG")
 
 	if [ -n "$TAG" ]; then
-		echo "Updating targets/$ENV to previously deployed '$(basename "$TAG")'"
+		echo "Updating targets/$ENV to previously deployed '$TAG_NAME'"
 		rm -f "targets/${ENV}_previous"
 		rm -f "targets/$ENV"
 		ln -s "$TAG" "targets/$ENV"
+
+		if [ -x "./hooks/deploy" ]; then
+		./hooks/deploy "$TAG_NAME" "$ENV"
+		fi
 	else
 		echo "Unable to rollback. Either already rollbacked or first deployment"
 	fi
@@ -78,6 +87,11 @@ tag)
 	# Need to restore the write permissions we removed
 	ls -1tr | head -n-$MAX | xargs --no-run-if-empty -d"\n" chmod -R ug+w
 	ls -1tr | head -n-$MAX | xargs --no-run-if-empty -d"\n" rm -r
+	cd ..
+
+	if [ -x "hooks/tag" ]; then
+		./hooks/tag "$TAG"
+	fi
 	;;
 
 *)
