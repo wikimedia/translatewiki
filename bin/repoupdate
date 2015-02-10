@@ -75,16 +75,24 @@ for i in $GITUPDATEPROJECTS; do
 	fi
 done
 
+GITCLUPDATE="\
+entryscape \
+wikiedudashboard"
+
+for i in $GITCLUPDATE; do
+	if [ "$i" = "$PROJECT" ]
+	then
+		VAR="REPO_${PROJECT^^}"
+		checkVar "$VAR"
+		"$CLUPDATE" "${!VAR}" "$DIR/$PROJECT"
+		exit 0
+	fi
+done
+
 if [ "$PROJECT" = "blockly" ]
 then
 	gitupdate "$PROJECT"
 	gitupdate "blockly-games"
-
-elif [ "$PROJECT" = "entryscape" ]
-then
-	VAR="REPO_${PROJECT^^}"
-	checkVar "$VAR"
-	"$CLUPDATE" "${!VAR}" "$DIR/$PROJECT"
 
 elif [ "$PROJECT" = "etherpad-lite" ]
 then

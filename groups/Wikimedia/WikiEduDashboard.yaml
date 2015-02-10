@@ -1,0 +1,33 @@
+BASIC:
+  id: wikiedudashboard
+  label: Wiki Ed Dashboard
+  icon: wiki://Wikipedia_Education_Program_logo_square.png
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikiedudashboard/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+FILES:
+  class: RubyYamlFFS
+  sourcePattern: "%GROUPROOT%/wikiedudashboard/config/locales/%CODE%.yml"
+  codeAsRoot: true
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikiedudashboard-
+  patterns:
+    - "*"
+
+CHECKER:
+  class: MessageChecker
+  checks:
+    - rubyVariableCheck
+
+INSERTABLES:
+  class: WikiEduDashboardInsertablesSuggester
+
+AUTOLOAD:
+  WikiEduDashboardInsertablesSuggester: WikiEduDashboardSuggester.php
+
+TAGS:
+  ignored:
+    - wikiedudashboard-number.*
