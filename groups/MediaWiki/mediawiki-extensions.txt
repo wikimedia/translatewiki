@@ -990,6 +990,9 @@ Fundraising Email Unsubscribe
 Fundraising Translate Workflow
 descmsg = fundraising-translate-workflow-desc
 
+Gather
+aliasfile = Gather/Gather.alias.php
+
 Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition
