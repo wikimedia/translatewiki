@@ -34,6 +34,24 @@
       "revId": "04cb165930cb1734b2679278bcb5c82756ceb21c",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e7c4fa4_d752a969",
+        "filename": "groups/Wikimedia/WikiEduDashboard.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 143
+      },
+      "writtenOn": "2015-02-11T20:18:47Z",
+      "side": 1,
+      "message": "That makes sense!",
+      "parentUuid": "6e7c4fa4_7714f5a0",
+      "revId": "04cb165930cb1734b2679278bcb5c82756ceb21c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
