@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e7c4fa4_6ec7139a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2015-02-17T17:05:13Z",
+      "side": 1,
+      "message": "Error in the old list?",
+      "range": {
+        "startLine": 576,
+        "startChar": 11,
+        "endLine": 576,
+        "endChar": 24
+      },
+      "revId": "9cf54630638e0daa4e9cb311c12cd7f0a26f3e5f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
