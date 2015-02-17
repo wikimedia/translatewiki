@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e7c4fa4_f423f6b2",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2015-02-17T20:41:23Z",
+      "side": 1,
+      "message": "Actually, can we reused \"core-0-mostused\"? If not, links are broken and a followup needs to change bin/stats-mediawiki . Let me know which way you prefer, I\u0027ll submit the followup.",
+      "revId": "42fc9c87b056b54a6ca1bc81ba38aad7946f50c8",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
