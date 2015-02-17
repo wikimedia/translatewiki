@@ -1,10 +1,29 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Mediawiki-logo.png
+    namespace: NS_MEDIAWIKI
+
+  CHECKER:
+    class: MediaWikiMessageChecker
+    checks:
+      - pluralCheck
+      - pluralFormsCheck
+      - wikiParameterCheck
+      - wikiLinksCheck
+      - XhtmlCheck
+      - braceBalanceCheck
+      - pagenameMessagesCheck
+      - miscMWChecks
+
+  INSERTABLES:
+    class: MediaWikiInsertablesSuggester
+
+---
 BASIC:
   id: mediawiki
   label: MediaWiki
-  icon: wiki://Mediawiki-logo.png
   meta: yes
   class: AggregateMessageGroup
-  namespace: NS_MEDIAWIKI
 
 GROUPS:
   - core
@@ -18,9 +37,7 @@ GROUPS:
 BASIC:
   id: core
   label: MediaWiki (core)
-  icon: wiki://Mediawiki-logo.png
   class: FileBasedMessageGroup
-  namespace: NS_MEDIAWIKI
   description: "{{int:translate-group-desc-mediawikicore}}"
 
 FILES:
@@ -528,9 +545,7 @@ TAGS:
 BASIC:
   id: ext-installer
   label: Installer
-  icon: wiki://Mediawiki-logo.png
   class: FileBasedMessageGroup
-  namespace: NS_MEDIAWIKI
   description: "{{int:config-desc}}"
 
 FILES:
@@ -547,9 +562,7 @@ TAGS:
 BASIC:
   id: mediawiki-api
   label: MediaWiki Action API
-  icon: wiki://Mediawiki-logo.png
   class: FileBasedMessageGroup
-  namespace: NS_MEDIAWIKI
   description: "{{int:translate-group-desc-mediawikiapi}}"
 
 FILES:
