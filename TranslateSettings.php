@@ -79,6 +79,18 @@ $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/SkinsAgg.yaml";
 
 $wgTranslateGroupFiles[] = "$GROUPS/PageTranslationAgg.yaml";
 
+require_once "$GROUPS/MediaWiki/MediaWikiTopMessageGroup.php";
+
+$wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
+	$id = 'mediawiki-top';
+	$msgs = "$GROUPS/MediaWiki/wikimedia-mostused-2015.txt";
+	$code = "$GROUPS/MediaWiki/MediaWikiTopMessageGroup.php";
+
+	$list[$id] = new MediaWikiTopMessageGroup( $id, $msgs );
+	$deps[] = new FileDependency( realpath( $msgs ) );
+	$deps[] = new FileDependency( realpath( $code ) );
+};
+
 $wgHooks['TranslatePostInitGroups'][] = array( 'setupMediaWikiExtensions' );
 function setupMediaWikiExtensions( &$list, &$deps, &$autoload ) {
 	global $GROUPS;

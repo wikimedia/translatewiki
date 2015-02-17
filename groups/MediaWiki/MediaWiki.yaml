@@ -12,6 +12,7 @@ GROUPS:
   - ext-installer
   - mediawiki-skin-0-all
   - mediawiki-api
+# Do not add mediawiki-top group here, or we have infinite recursion issues
 
 ---
 BASIC:
