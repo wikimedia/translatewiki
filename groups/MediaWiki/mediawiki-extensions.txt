@@ -1194,7 +1194,8 @@ Ldap Authentication
 
 LDAP Authorization
 
-Less
+# Empty, now in core, see I27a36734433a84d37ab66fcbd87b65284432a140
+# Less
 
 Life Web
 
@@ -2014,9 +2015,10 @@ Stick To That Language
 
 Stop Forum Spam
 
-Strategy Wiki - Active Strategy
-file = StrategyWiki/ActiveStrategy/i18n/%CODE%.json
-descmsg = active-strategy-desc
+# Was used by WMF in the StrategyWiki which is closed (96707efd6f9069ff2710ec1786f4d4e62ed5d38c)
+#Strategy Wiki - Active Strategy
+#file = StrategyWiki/ActiveStrategy/i18n/%CODE%.json
+#descmsg = active-strategy-desc
 
 Sub Page List
 descmsg = spl-desc
