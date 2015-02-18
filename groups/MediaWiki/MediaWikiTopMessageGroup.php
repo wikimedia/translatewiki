@@ -10,6 +10,7 @@ class MediaWikiTopMessageGroup extends MessageGroupOld {
 
 	private $parentGroup;
 	private $file;
+	private $keys;
 
 	public function __construct( $id, $file ) {
 		$this->id = $id;
@@ -37,15 +38,19 @@ class MediaWikiTopMessageGroup extends MessageGroupOld {
 	}
 
 	public function getKeys() {
-		$few = explode( "\n", file_get_contents( $this->file ) );
-		$lots = $this->getParentGroup()->getKeys();
+		if ( $this->keys === null ) {
+			$few = explode( "\n", file_get_contents( $this->file ) );
+			$lots = $this->getParentGroup()->getKeys();
 
-		$fewer = array_intersect( $few, $lots );
-		if ( count ( $fewer ) < count( $few ) ) {
-			error_log( 'Invalid top messages: ' . implode( ', ', array_diff( $few, $fewer ) ) );
+			$fewer = array_intersect( $few, $lots );
+			if ( count ( $fewer ) < count( $few ) ) {
+				error_log( 'Invalid top messages: ' . implode( ', ', array_diff( $few, $fewer ) ) );
+			}
+
+			$this->keys = array_values( $fewer );
 		}
 
-		return array_values( $fewer );
+		return $this->keys;
 	}
 
 	public function getDefinitions() {
