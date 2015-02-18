@@ -1901,8 +1901,8 @@ ignored = srf-ui-datatables-label-sInfoPostFix
 Semantic Sifter
 
 Semantic Signup
-aliasfile = SemanticSignup/SemanticSignup.i18n.aliases.php
-magicfile = SemanticSignup/SemanticSignup.i18n.magic.php
+aliasfile = SemanticSignup/i18n/SemanticSignup.i18n.aliases.php
+magicfile = SemanticSignup/i18n/SemanticSignup.i18n.magic.php
 
 Semantic Tasks
 
