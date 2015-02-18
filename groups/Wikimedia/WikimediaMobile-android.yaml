@@ -8,6 +8,9 @@ TEMPLATE:
   FILES:
     class: AndroidXmlFFS
     codeMap:
+      he: iw
+      id: in
+      yi: ji
       pt-br: pt-rBR
       sr-ec: sr
       zh-hans: zh
