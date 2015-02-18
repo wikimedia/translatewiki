@@ -82,7 +82,8 @@ $wgTranslateGroupFiles[] = "$GROUPS/PageTranslationAgg.yaml";
 require_once "$GROUPS/MediaWiki/MediaWikiTopMessageGroup.php";
 
 $wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
-	$id = 'mediawiki-top';
+	# TODO: rename when possible
+	$id = 'core-0-mostused';
 	$msgs = "$GROUPS/MediaWiki/wikimedia-mostused-2015.txt";
 	$code = "$GROUPS/MediaWiki/MediaWikiTopMessageGroup.php";
 
