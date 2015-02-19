@@ -16,11 +16,6 @@ format = php
 file = AdminDashboard/QuickStats.i18n.php
 optional = quickstats-date-format
 
-Combo Ajax Login
-format = php
-file = AjaxLogin/ComboAjaxLogin.i18n.php
-descmsg = comboajaxlogin-desc
-
 Ajax Poll
 format = php
 
