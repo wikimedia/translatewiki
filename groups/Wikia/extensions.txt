@@ -283,10 +283,6 @@ format = php
 Show Performance Stats
 format = php
 
-Signup
-format = php
-file = SpecialSignup/Signup.i18n.php
-
 Sitemap
 format = php
 #aliasfile = Sitemap/Sitemap.alias.php
