@@ -12,8 +12,11 @@ FILES:
   codeAsRoot: true
   codeMap:
     be-tarask: be-Tarask
+    en-gb: en-GB
+    es-mx: es-MX
     ku-latn: ku-Latn
     pt-br: pt-BR
+    pt: pt-PT
     sr-ec: sr
     sr-el: sr-Latn
     tt-cyrl: tt

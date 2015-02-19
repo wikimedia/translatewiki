@@ -10,5 +10,15 @@ FILES:
   class: RubyYamlFFS
   sourcePattern: "%GROUPROOT%/inaturalist/config/locales/%CODE%.yml"
   codeMap:
+    be-tarask: be-Tarask
+    en-gb: en-GB
     es-mx: es-MX
+    ku-latn: ku-Latn
+    pt-br: pt-BR
+    pt: pt-PT
+    sr-ec: sr
+    sr-el: sr-Latn
+    tt-cyrl: tt
+    zh-hans: zh-CN
+    zh-hant: zh-TW
   codeAsRoot: true
