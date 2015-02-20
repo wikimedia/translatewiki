@@ -1868,6 +1868,9 @@ Semantic Highcharts
 Semantic Image Input
 descmsg = sii-desc
 
+Semantic Interlanguage Links
+descmsg = sil-desc
+
 Semantic Internal Objects
 magicfile = SemanticInternalObjects/SemanticInternalObjects.i18n.magic.php
 
