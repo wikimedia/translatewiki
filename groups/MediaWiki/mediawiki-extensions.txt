@@ -1831,6 +1831,9 @@ Select Tag
 Semantic ACL
 descmsg = sacl-desc
 
+Semantic Breadcrumb Links
+descmsg = sbl-desc
+
 Semantic Bundle
 
 Semantic Compound Queries
