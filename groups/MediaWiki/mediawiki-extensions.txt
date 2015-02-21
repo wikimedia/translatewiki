@@ -1463,6 +1463,9 @@ descmsg = mwoauth-desc
 ignored = mwoauth-form-legal
 optional = oauth, mwoauth-listgrantrights-right-display
 
+OAuth Authentication
+descmsg = oauthauth-desc
+
 OdbcDatabase
 aliasfile = OdbcDatabase/OdbcDatabase.alias.php
 
