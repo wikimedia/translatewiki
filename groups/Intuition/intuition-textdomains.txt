@@ -18,7 +18,7 @@ Grep
 Intuition - Core
 id = tsint-core
 prefix = tsintuition- |
-file = Tsintuition/%code%.json
+file = tsintuition/%code%.json
 ignored = title
 
 Jarry
@@ -72,4 +72,4 @@ Wikiviewstats
 
 X's Tools
 id = tsint-xtools
-file = Xtools/%CODE%.json
+file = xtools/%CODE%.json
