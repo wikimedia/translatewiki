@@ -2451,6 +2451,7 @@ optional = wikibase-otherprojects-commons, wikibase-otherprojects-wikinews
 optional = wikibase-otherprojects-wikidata, wikibase-otherprojects-testwikidata
 optional = wikibase-otherprojects-wikiquote, wikibase-otherprojects-wikipedia
 optional = wikibase-otherprojects-wikisource, wikibase-otherprojects-wikivoyage
+optional = wikibase-otherprojects-wikibooks
 optional = interlanguage-link-wikipedia, interlanguage-link-commons
 optional = interlanguage-link-dmoz, interlanguage-link-citizendium, interlanguage-link-sitename-citizendium
 prefix = wmf- | grouppage-staff, group-staff, group-staff-member
