@@ -1891,6 +1891,9 @@ optional = smw_rss_description, smw_browse_more, specialpages-group-smw_group
 optional = smw_csv_link, smw_dsv_link, smw_json_link, smw_rdf_link
 optional = smw_property_template_notype
 
+Semantic Meta Tags
+descmsg = smt-desc
+
 Semantic Page Series
 aliasfile = SemanticPageSeries/SemanticPageSeries.alias.php
 
