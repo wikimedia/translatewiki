@@ -269,6 +269,10 @@ $wgSpamBlacklistFiles = array(
 	"http://meta.wikimedia.org/w/index.php?title=Spam_blacklist&action=raw&sb_ver=1",
 );
 $wgLogSpamBlacklistHits = true;
+$wgNoFollowDomainExceptions = array(
+	'laxstrom.name',
+	'ultimategerardm.blogspot.com',
+);
 
 require_once "$EXT/AdminLinks/AdminLinks.php";
 require_once "$EXT/WikiEditor/WikiEditor.php";
