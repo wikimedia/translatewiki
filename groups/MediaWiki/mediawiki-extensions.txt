@@ -2280,7 +2280,7 @@ VisualEditor (MediaWiki extension)
 id = ext-visualeditor-ve-mw
 descmsg = visualeditor-desc
 file = VisualEditor/modules/ve-mw/i18n/%CODE%.json
-optional = visualeditor-preference-core-discussion-link, visualeditor-preference-core-info-link, visualeditor-preference-language-discussion-link, visualeditor-preference-language-info-link
+optional = visualeditor-preference-core-discussion-link, visualeditor-preference-core-info-link
 optional = visualeditor-preference-mwalienextension-discussion-link, visualeditor-preference-mwalienextension-info-link
 ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
 ignored = apihelp-visualeditor-param-format, apihelp-visualeditoredit-param-watch, apihelp-visualeditoredit-param-wikitext
