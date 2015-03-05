@@ -24,8 +24,8 @@ Daddio
 
 Grey Stuff
 
-# No JSON i18n
-#Mask
+Mask
+ignored = mask-menu-left, mask-menu-right, mask-index-url
 
 # No JSON i18n
 #MediaWiki Strapping
