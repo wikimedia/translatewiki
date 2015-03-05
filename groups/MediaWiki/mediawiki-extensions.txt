@@ -477,6 +477,9 @@ Bounce Handler
 
 Bread Crumbs
 
+# Debugging extension
+# Buggy
+
 Calendar
 
 Campaigns
@@ -2407,6 +2410,10 @@ aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 #Wikibase Solr / Disabled. No longer used or developed.
 
 #Wikidata Entity Suggester / No real extension, Java program
+
+Wikidata Quality
+ignored = wikidataquality-crosscheck-form-itemid-placeholder
+aliasfile = WikidataQuality/WikidataQuality.alias.php
 
 Wikihiero
 file = wikihiero/i18n/%CODE%.json
