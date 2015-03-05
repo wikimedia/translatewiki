@@ -2265,6 +2265,8 @@ file = oojs-ui/i18n/%CODE%.json
 
 Vine
 
+Virtual Keyboard
+
 VisualEditor Core
 id = ext-visualeditor-ve
 descmsg = visualeditor-desc
