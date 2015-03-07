@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e7c4fa4_4995e341",
+        "filename": "bin/repocommit",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 417
+      },
+      "writtenOn": "2015-03-07T01:06:21Z",
+      "side": 1,
+      "message": "That\u0027s a lie now. \"Approving\"?",
+      "revId": "f1e7edb18aaf1c431106c657eef697fcd855610a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
