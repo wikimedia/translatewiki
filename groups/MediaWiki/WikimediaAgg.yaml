@@ -84,6 +84,7 @@ GROUPS:
   - ext-randomrootpage # 2012-05-16, change-Id: I31e2dc16deb13b3a029656802a69893f36602b98
   - ext-relatedarticles # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-relatedsites # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
+  - ext-restbaseupdatejobs # 2015-03-09
   - ext-rss # 2010-11-25: Wikimediafoundation.org
   - ext-score
   - ext-scribunto
