@@ -8,7 +8,6 @@ $wgMemCachedServers = array( "127.0.0.1:11211" );
 $wgMemCachedTimeout = 150000;
 $wgEnableSidebarCache = true;
 $wgSessionsInMemcached = true;
-$wgDisableCounters = true;
 $wgShowIPinHeader = false;
 $wgAdaptiveMessageCache = true;
 $wgJobRunRate = 0;
