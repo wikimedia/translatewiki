@@ -17,6 +17,7 @@ GROUPS:
   - ext-cirrussearch # Change id 500b9c9d66fa7f410394d5665ea3abc3a184bf50
   - ext-cite
   - ext-citespecial
+  - ext-citoid # 2015-03-16
   - ext-collection
   - ext-confirmedit
   - ext-confirmeditfancycaptcha
