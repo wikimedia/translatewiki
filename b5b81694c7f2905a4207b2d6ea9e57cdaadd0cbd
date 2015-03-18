@@ -16,6 +16,24 @@
       "revId": "b5b81694c7f2905a4207b2d6ea9e57cdaadd0cbd",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e7c4fa4_b9582e8d",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 366
+      },
+      "writtenOn": "2015-03-18T16:53:08Z",
+      "side": 1,
+      "message": "Meh. Sure. :-)",
+      "parentUuid": "6e7c4fa4_59331a5f",
+      "revId": "b5b81694c7f2905a4207b2d6ea9e57cdaadd0cbd",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
