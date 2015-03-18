@@ -405,6 +405,8 @@ TAGS:
     - helplogin-url
     - helppage
     - history_copyright
+    - import-logentry-interwiki
+    - import-logentry-upload
     - import-summary
     - interlanguage-link-title-langonly
     - interlanguage-link-title-nonlangonly
