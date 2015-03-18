@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "6e7c4fa4_f9fa2672",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 548,
+      "author": {
+        "id": 366
+      },
+      "writtenOn": "2015-03-18T16:46:59Z",
+      "side": 1,
+      "message": "Aha, awesome.",
+      "parentUuid": "6e7c4fa4_19b362fe",
+      "revId": "4c8280465d34d3019ca1fd1bd20edfe8d1fe85e2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6e7c4fa4_b9990e82",
         "filename": "groups/MediaWiki/mediawiki-extensions.txt",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "6e7c4fa4_79a93677",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 549,
+      "author": {
+        "id": 366
+      },
+      "writtenOn": "2015-03-18T16:46:59Z",
+      "side": 1,
+      "message": "So this isn\u0027t needed to group them together?",
+      "parentUuid": "6e7c4fa4_b9990e82",
+      "revId": "4c8280465d34d3019ca1fd1bd20edfe8d1fe85e2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6e7c4fa4_39a65ebf",
         "filename": "groups/MediaWiki/mediawiki-extensions.txt",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2015-03-18T16:41:04Z",
       "side": 1,
       "message": "Not needed.",
+      "revId": "4c8280465d34d3019ca1fd1bd20edfe8d1fe85e2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e7c4fa4_99a452a0",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 550,
+      "author": {
+        "id": 366
+      },
+      "writtenOn": "2015-03-18T16:46:59Z",
+      "side": 1,
+      "message": "OK.",
+      "parentUuid": "6e7c4fa4_39a65ebf",
       "revId": "4c8280465d34d3019ca1fd1bd20edfe8d1fe85e2",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
