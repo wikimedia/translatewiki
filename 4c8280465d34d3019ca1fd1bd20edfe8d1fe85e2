@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e7c4fa4_19b362fe",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 548,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-03-18T16:41:04Z",
+      "side": 1,
+      "message": "Not needed either if you add ext-citoid to https://github.com/wikimedia/translatewiki/blob/master/groups/MediaWiki/ExtensionsAgg.yaml#L69",
+      "revId": "4c8280465d34d3019ca1fd1bd20edfe8d1fe85e2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e7c4fa4_b9990e82",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 549,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-03-18T16:41:04Z",
+      "side": 1,
+      "message": "Doesn\u0027t citoid have it\u0027s own desc message?",
+      "revId": "4c8280465d34d3019ca1fd1bd20edfe8d1fe85e2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e7c4fa4_39a65ebf",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 550,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-03-18T16:41:04Z",
+      "side": 1,
+      "message": "Not needed.",
+      "revId": "4c8280465d34d3019ca1fd1bd20edfe8d1fe85e2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
