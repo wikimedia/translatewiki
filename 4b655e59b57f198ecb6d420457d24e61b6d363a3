@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e7c4fa4_d9808aa2",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2015-03-18T17:00:00Z",
+      "side": 1,
+      "message": "I am not sure that this works. because there are no other -* extensions.\n\nUse ext-citoid only",
+      "revId": "4b655e59b57f198ecb6d420457d24e61b6d363a3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
