@@ -871,6 +871,9 @@ Extra Language Link
 # Incomplete message documentation file - 2014-10-25
 # Farmer
 
+# Missing message documentation file - 2015-03-20
+# Favorites
+
 Featured Feeds
 descmsg = ffeed-desc
 aliasfile = FeaturedFeeds/FeaturedFeeds.alias.php
@@ -1216,6 +1219,9 @@ aliasfile = LinkFilter/Link.alias.php
 
 Link Suggest
 
+# Fork of Link Suggest, message keys unchanged
+# Link Suggest 2
+
 Liquid Threads
 aliasfile = LiquidThreads/i18n/Lqt.alias.php
 magicfile = LiquidThreads/i18n/LiquidThreads.magic.php
@@ -1336,6 +1342,8 @@ ignored = moodbar-hide-intro, moodbar-restore-intro, moodbar-response-cc-link, m
 ignored = moodbar-log-reason, moodbar-delete-intro
 
 Mpdf
+
+#Ms Calendar // Missing qqq
 
 #Ms Cat Select // Missing qqq
 
