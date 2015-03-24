@@ -45,8 +45,8 @@ gitCommitGerrit() {
 mergeL10n-bot() {
 	for i in `ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit query --format=TEXT owner:l10n-bot status:open |grep "  url:" |cut -d/ -f5`
 	do
-		echo "Approving ${i}..."
-		ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit review $i,1 --code-review 2
+		echo "Merging ${i}..."
+		ssh l10n-bot@gerrit.wikimedia.org -p 29418 gerrit review $i,1 --code-review 2 --verified 2 --submit
 	done
 }
 
