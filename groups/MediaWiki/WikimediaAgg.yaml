@@ -46,6 +46,7 @@ GROUPS:
   - ext-flow # 2013-12-11: testwiki, test2wiki and mediawikiwiki
   - ext-fundraiserlandingpage # r101409 for donatewiki
   - ext-fundraisingtranslateworkflow # 2014-07-14 for Meta
+  - ext-gather
   - ext-geocrumbs # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-geodata
   - ext-gettingstarted # Change-Id: d1aac2d3dc774299c3e61ef8e163b50dfd89d313 for a bunch of wikis
