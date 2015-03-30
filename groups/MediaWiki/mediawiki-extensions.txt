@@ -1293,7 +1293,7 @@ magicfile = MassMessage/MassMessage.i18n.magic.php
 ignored = massmessage-target, massmessage-message-footer, massmessage-target-local
 
 Math
-# aliasfile = Math/Math.alias.php // No need to translate! The PageTitle does not appear.
+aliasfile = Math/Math.alias.php
 ignored = math-preference-mwmathinspector-discussion-link, math-preference-mwmathinspector-info-link
 
 Math Search
