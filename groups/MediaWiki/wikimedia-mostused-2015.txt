@@ -247,7 +247,6 @@ tooltip-ca-nstab-category
 linkstoimage
 tooltip-ca-addsection
 vector-action-addsection
-index
 translate-documentation-language
 globalusage-of-file
 noarticletext
