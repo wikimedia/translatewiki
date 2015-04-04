@@ -28,7 +28,7 @@ class profile::mwelasticsearch {
         'java.util.Locale',
         'org.apache.lucene.util.automaton.RegExp',
         'org.apache.lucene.util.automaton.CharacterRunAutomaton',
-         # Added for Translate
+        # Added for Translate
         'org.apache.lucene.search.spell.LevensteinDistance',
       ],
       'script.groovy.sandbox.package_whitelist' => [
