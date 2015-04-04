@@ -21,6 +21,7 @@ GROUPS:
   - ext-collection
   - ext-confirmedit
   - ext-confirmeditfancycaptcha
+  - ext-disambiguator
   - ext-dismissablesitenotice
   - ext-echo
   - ext-featuredfeeds # r110030 for all projects
