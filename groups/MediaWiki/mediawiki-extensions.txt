@@ -2352,6 +2352,7 @@ ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforu
 optional = group-forumadmin.css, group-forumadmin.js
 
 Wiki Grok
+ignored = wikigrok-submission-summary
 
 Wiki Lexical Data
 file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
