@@ -4,11 +4,11 @@ class profile::mwelasticsearch {
     manage_repo   => true,
     repo_version  => '1.3',
     config        => {
-      'script.disable_dynamic' => false,
-      'network.host' => "::1",
+      'script.disable_dynamic'                   => false,
+      'network.host'                             => "::1",
       # The default sandbox for Groovy is too restrictive for Cirrus.
       # This adds a few more allowed invocations.
-      'script.groovy.sandbox.class_whitelist' => [
+      'script.groovy.sandbox.class_whitelist'    => [
         # Defaults
         'java.util.Date',
         'java.util.Map',
@@ -31,7 +31,7 @@ class profile::mwelasticsearch {
         # Added for Translate
         'org.apache.lucene.search.spell.LevensteinDistance',
       ],
-      'script.groovy.sandbox.package_whitelist' => [
+      'script.groovy.sandbox.package_whitelist'  => [
         # Defaults
         'java.util',
         'java.lang',

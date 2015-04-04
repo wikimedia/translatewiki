@@ -17,9 +17,9 @@ class mailman-conf {
   # Would prefer to just use "list" but the module does not support this, so
   # make an alias
   group { 'mailman':
-    ensure     => present,
-    gid        => 38,
-    allowdupe  => true,
+    ensure    => present,
+    gid       => 38,
+    allowdupe => true,
   }
 
   file { '/etc/nginx/sites-available/lists.translatewiki.net':
@@ -49,11 +49,11 @@ class mailman-conf {
 
 # Actual installation using submodule
   class { 'mailman':
-    default_url_host                => 'lists.translatewiki.net',
-    default_email_host              => 'lists.translatewiki.net',
-    default_url_pattern             => 'https://%s/',
-    mailman_site_list               => 'mailman',
-    mm_cfg_settings                 => {
+    default_url_host    => 'lists.translatewiki.net',
+    default_email_host  => 'lists.translatewiki.net',
+    default_url_pattern => 'https://%s/',
+    mailman_site_list   => 'mailman',
+    mm_cfg_settings     => {
     'ALLOW_SITE_ADMIN_COOKIES'      => 'Yes',
     'PUBLIC_ARCHIVE_URL'            => "'https://%(hostname)s/pipermail/%(listname)s'",
     'MTA'                           => "'None'",
