@@ -5,7 +5,7 @@ class profile::mwelasticsearch {
     repo_version  => '1.3',
     config        => {
       'script.disable_dynamic'                   => false,
-      'network.host'                             => "::1",
+      'network.host'                             => '::1',
       # The default sandbox for Groovy is too restrictive for Cirrus.
       # This adds a few more allowed invocations.
       'script.groovy.sandbox.class_whitelist'    => [
