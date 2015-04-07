@@ -1203,6 +1203,9 @@ Language Tag
 
 Last Modified
 
+Last User Login
+aliasfile = LastUserLogin/LastUserLogin.alias.php
+
 Ldap Authentication
 
 LDAP Authorization
