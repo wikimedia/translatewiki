@@ -86,6 +86,7 @@ GROUPS:
   - ext-relatedsites # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-restbaseupdatejobs # 2015-03-09
   - ext-rss # 2010-11-25: Wikimediafoundation.org
+  - ext-sandboxlink
   - ext-score
   - ext-scribunto
   - ext-searchextrans # Change-ID: f8cd2d6eb9c20db92e39b038cc8476f311daeda5, Commonswiki
