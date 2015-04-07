@@ -754,6 +754,11 @@ file = DonationInterface/amazon_gateway/i18n/%CODE%.json
 id = ext-di-ag
 descmsg = amazon_gateway-desc
 
+Donation Interface - Astro Gateway
+file = DonationInterface/astro_gateway/i18n/%CODE%.json
+id = ext-di-astro
+descmsg = astropay_gateway-desc
+
 Donation Interface - Gateway Common
 id = ext-di-gc
 file = DonationInterface/gateway_common/i18n/interface/%CODE%.json
