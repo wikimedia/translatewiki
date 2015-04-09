@@ -54,7 +54,8 @@ server {
 	# Allowed php files, case sensitive
 	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php$ {
 		fastcgi_pass php;
-		fastcgi_buffers 16 4k;
+		fastcgi_buffering off;
+		fastcgi_buffers 16 16k;
 		fastcgi_send_timeout 5s;
 		fastcgi_read_timeout 15s;
 		include fastcgi.conf;

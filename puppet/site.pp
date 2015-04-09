@@ -18,7 +18,8 @@ node default {
   include sshd
   include sudo
   include users
-  include composer
+# Always fails currently
+#  include composer
   include hhvm
   include kitano-nl
   include profile::mwelasticsearch
