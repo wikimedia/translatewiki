@@ -2425,7 +2425,7 @@ aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 #Wikidata Entity Suggester / No real extension, Java program
 
 Wikidata Quality
-ignored = wikidataquality-crosscheck-form-itemid-placeholder
+ignored = wikidataquality-checkresult-form-entityid-placeholder
 aliasfile = WikidataQuality/WikidataQuality.alias.php
 
 Wikihiero
