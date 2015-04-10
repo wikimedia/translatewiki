@@ -1,4 +1,6 @@
 class php {
+  apt::ppa { 'ppa:ondrej/php5-5.6': }
+
   package { ['php5-fpm', 'php5-cli']:
     ensure => present,
   }
