@@ -21,7 +21,7 @@ MANGLER:
 
 FILES:
   class: AppleFFS
-  sourcePattern: "%GROUPROOT%/wikipedia-ios/wikipedia/%CODE%.lproj/Localizable.strings"
+  sourcePattern: "%GROUPROOT%/wikipedia-ios/Wikipedia/%CODE%.lproj/Localizable.strings"
 
 ---
 BASIC:
@@ -34,7 +34,7 @@ MANGLER:
 
 FILES:
   class: AppleFFS
-  sourcePattern: "%GROUPROOT%/wikipedia-ios/wikipedia/%CODE%.lproj/InfoPlist.strings"
+  sourcePattern: "%GROUPROOT%/wikipedia-ios/Wikipedia/%CODE%.lproj/InfoPlist.strings"
 
 ---
 BASIC:
@@ -47,7 +47,7 @@ MANGLER:
 
 FILES:
   class: AppleFFS
-  sourcePattern: "%GROUPROOT%/wikipedia-ios/wikipedia/%CODE%.lproj/Main_iPhone.strings"
+  sourcePattern: "%GROUPROOT%/wikipedia-ios/Wikipedia/%CODE%.lproj/Main_iPhone.strings"
 
 TAGS:
   ignored:
