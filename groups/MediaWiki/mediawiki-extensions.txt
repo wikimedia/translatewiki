@@ -2417,6 +2417,9 @@ ignored = wikibase-api-permissiondenied, wikibase-api-wrong-class
 ignored = wikibase-ui-pendingquantitycounter-nonpending, wikibase-ui-pendingquantitycounter-pending, wikibase-property-footer
 ignored = wikibase-shortcopyrightwarning-version, wikibase-entitytermsview-entitytermsforlanguagelistview-configure-link
 
+# Real extension?
+# Wikibase JavaScript Api
+
 Wikibase Query
 aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 
