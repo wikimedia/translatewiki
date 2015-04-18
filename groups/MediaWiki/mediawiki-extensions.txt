@@ -1151,6 +1151,8 @@ Image Metrics
 # Incomplete message documentation file - 2014-10-05
 # Image Tagging
 
+Import Free Images
+
 Index Function
 aliasfile = IndexFunction/IndexFunction.alias.php
 ignored = index-exclude-categories
@@ -2018,6 +2020,9 @@ Sound Manager 2 Button
 
 Spam Blacklist
 descmsg = spam-blacklist-desc
+
+# Incomplete message documentation - 2015-04-17
+#Spam Diff Tool
 
 Spark
 
