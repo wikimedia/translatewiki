@@ -2434,7 +2434,12 @@ aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 
 Wikidata Quality
 ignored = wikidataquality-checkresult-form-entityid-placeholder
-aliasfile = WikidataQuality/WikidataQuality.alias.php
+
+Wikidata Quality Constraints
+aliasfile = WikidataQualityConstraints/WikidataQualityConstraints.alias.php
+
+Wikidata Quality External Validation
+aliasfile = WikidataQualityExternalValidation/WikidataQualityExternalValidation.alias.php
 
 Wikihiero
 file = wikihiero/i18n/%CODE%.json
