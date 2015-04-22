@@ -1005,6 +1005,7 @@ descmsg = fundraising-translate-workflow-desc
 
 Gather
 aliasfile = Gather/Gather.alias.php
+ignored = gather-lists-hide-protocol
 
 Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
