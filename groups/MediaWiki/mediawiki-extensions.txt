@@ -1817,6 +1817,9 @@ RT
 
 Sacred Text
 
+Safe Delete
+aliasfile = SafeDelete/SafeDelete.alias.php
+
 Sandbox Link
 ignored = sandboxlink-editintro-pagename, sandboxlink-preload-pagename
 
