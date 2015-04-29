@@ -970,6 +970,8 @@ id = ext-flaggedrevs-validationstatistics
 file = FlaggedRevs/i18n/validationstatistics/%CODE%.json
 descmsg = flaggedrevs-desc
 
+Flickr API
+
 Flow
 aliasfile = Flow/Flow.alias.php
 ignored = flow-hide-usertext, flow-delete-usertext, flow-system-usertext
