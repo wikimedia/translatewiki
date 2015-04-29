@@ -112,7 +112,7 @@ PHP
 		foreach ( $this->conf['extensions'] as $ext => $checkout ) {
 			$target = "{$this->dir}/extensions/$ext";
 			chdir( $target );
-			exec( "git fetch --all --quiet" );
+			exec( "git fetch --all --quiet --tags" );
 		}
 	}
 
