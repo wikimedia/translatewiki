@@ -1269,6 +1269,8 @@ aliasfile = LookupUser/LookupUser.alias.php
 
 Loops
 
+Mad Lib
+
 Magic No Cache
 
 Maintenance
@@ -2438,6 +2440,9 @@ aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 #Wikibase Solr / Disabled. No longer used or developed.
 
 #Wikidata Entity Suggester / No real extension, Java program
+
+# Only with boilerplate messages - 2015-04-27
+# Wikidata Page Banner
 
 Wikidata Quality
 ignored = wikidataquality-checkresult-form-entityid-placeholder
