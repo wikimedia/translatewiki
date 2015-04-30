@@ -1305,6 +1305,8 @@ Mark As Helpful
 Mass Edit Regex
 aliasfile = MassEditRegex/MassEditRegex.alias.php
 
+Mass Action
+
 Mass Message
 aliasfile = MassMessage/MassMessage.alias.php
 magicfile = MassMessage/MassMessage.i18n.magic.php
