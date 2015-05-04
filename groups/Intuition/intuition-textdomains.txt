@@ -45,6 +45,8 @@ ignored = ns, ns0, ns1, ns10, ns100, ns101
 ignored = ns11, ns12, ns13, ns14, ns15, ns2
 ignored = ns3, ns4, ns5, ns6, ns7, ns8, ns9
 
+Reflinks
+
 Rtrc
 ignored = rtrc-months
 
