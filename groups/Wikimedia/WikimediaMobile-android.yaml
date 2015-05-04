@@ -10,12 +10,13 @@ TEMPLATE:
     codeMap:
       he: iw
       id: in
-      yi: ji
+      ku-latn: ku
       pt-br: pt-rBR
+      qqq: qq
       sr-ec: sr
+      yi: ji
       zh-hans: zh
       zh-hant: zh-rTW
-      qqq: qq
 
   MANGLER:
     class: StringMatcher
@@ -109,7 +110,7 @@ TEMPLATE:
       - ko
       - kr
       - ks
-      - ku
+      - ku-latn
       - kv
       - kw
       - ky
