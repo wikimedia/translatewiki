@@ -48,9 +48,6 @@ file = SpecialBatchUserRights/BatchUserRights.i18n.php
 # Clash with a Gerrit repo on Special:AdvancedTranslate
 #aliasfile = SpecialBatchUserRights/BatchUserRights.alias.php
 
-Campfire
-format = php
-
 Category Exhibition
 format = php
 file = CategoryExhibition/i18n/CategoryExhibition.i18n.php
@@ -70,9 +67,6 @@ format = php
 file = Chat2/Chat.i18n.php
 optional = grouppage-bannedfromchat, grouppage-bannedfromchat, grouppage-chatmoderator
 ignored = emoticons
-
-Cloak Check
-format = php
 
 Community Messages
 format = php
@@ -126,9 +120,6 @@ optional = founderprogressbar-commcentral-visit-url, founderprogressbar-user-add
 #Game Guides
 #format = php
 
-Global Notification
-format = php
-
 Global Watchlist
 format = php
 
@@ -139,9 +130,6 @@ ignored = welcome-enabled, welcome-user, welcome-bot
 Health Check
 format = php
 file = SpecialHealthcheck/HealthCheck.i18n.php
-
-Image Lightbox
-format = php
 
 Image Placeholder
 format = php
@@ -313,9 +301,6 @@ format = php
 #format = php
 
 Special User Data
-format = php
-
-Spell Checker
 format = php
 
 # Siebrand / 2012-08-02 / Disabled as announced.
