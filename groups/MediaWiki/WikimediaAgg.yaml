@@ -66,7 +66,6 @@ GROUPS:
   - ext-mapsources # wikivoyage
   - ext-massmessage
   - ext-mobileapp
-  - ext-moodbar # r93131
   - ext-multimediaviewer # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
   - ext-mwembedsupport
   - ext-navigationtiming # 2013-03-14: all wikis
