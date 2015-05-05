@@ -21,6 +21,7 @@ GROUPS:
   - ext-collection
   - ext-confirmedit
   - ext-confirmeditfancycaptcha
+  - ext-contenttranslation
   - ext-disambiguator
   - ext-dismissablesitenotice
   - ext-echo
