@@ -107,6 +107,7 @@ GROUPS:
   - ext-wikigrok # 2014-10-24, change id: I49a08c9f025a6258bd3a6d8f531d9b2a9c48968a
   - ext-wikilove
   - ext-wikihiero
+  - ext-wikimediacontactpagemessages
   - ext-wikimediaevents
   - ext-wikimediaincubator # r89556
   - ext-wikimediaincubatorinfopage
