@@ -1238,6 +1238,8 @@ Link Suggest
 # Fork of Link Suggest, message keys unchanged
 # Link Suggest 2
 
+Link Target
+
 Liquid Threads
 aliasfile = LiquidThreads/i18n/Lqt.alias.php
 magicfile = LiquidThreads/i18n/LiquidThreads.magic.php
