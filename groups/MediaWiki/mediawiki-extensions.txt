@@ -1711,6 +1711,8 @@ ignored = prefstats-list-elem
 
 Premoderation
 
+Prezi
+
 Private Domains
 
 Pronunciation Recording
