@@ -15,11 +15,12 @@ GROUPS:
   - ext-betafeatures
   - ext-bouncehandler # 2014-11-05 Change-Id: I64c09d17146bf9a3cee582fcea0e19aed6f4ce3d
   - ext-calendar # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
+  - ext-centralauth
+  - ext-centralnotice
   - ext-charinsert
-  - ext-checkuser
+  - ext-checkuser # Only advanced users
   - ext-cldr
   - ext-codeeditor
-  - ext-codereview # MediaWiki.org
   - ext-commonsmetadata # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-contributionreporting # wikimediafoundation.org
@@ -48,6 +49,7 @@ GROUPS:
   - ext-geocrumbs # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-geodata
   - ext-gettingstarted # Change-Id: d1aac2d3dc774299c3e61ef8e163b50dfd89d313 for a bunch of wikis
+  - ext-globalblocking # Only advanced users except globalblocking-ipblocked*
   - ext-globalcssjs
   - ext-googlenewssitemap # r87149 for wikinews
   - ext-graph # Deployed 9/2014 to Meta, MediaWiki, Zero, and some more
@@ -79,15 +81,18 @@ GROUPS:
   - ext-poem
   - ext-popups # 2014-03-19
   - ext-proofreadpage # Wikisource
+  - ext-quiz
   - ext-randomrootpage # 2012-05-16, change-Id: I31e2dc16deb13b3a029656802a69893f36602b98
   - ext-relatedarticles # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-relatedsites # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
+  - ext-renameuser # Being phased out, 2015
   - ext-restbaseupdatejobs # 2015-03-09
   - ext-rss # 2010-11-25: Wikimediafoundation.org
   - ext-sandboxlink
   - ext-score
   - ext-scribunto
   - ext-searchextrans # Change-ID: f8cd2d6eb9c20db92e39b038cc8476f311daeda5, Commonswiki
+  - ext-securepoll
   - ext-shorturl # r108172
   - ext-subpagelist3 # r90651
   - ext-subpagesortkey # a2b3abe7ebc6aac630e4e309cc17780b28ac4b04 for some wikibooks
@@ -111,6 +116,7 @@ GROUPS:
   - ext-wikimediaevents
   - ext-wikimediaincubator # r89556
   - ext-wikimediaincubatorinfopage
+  - ext-wikimediamessages
   - ext-wikimediashoplink # 2012-06-27, change-Id 1a0c3707bd6603b27d80c997968b24231eea2b04
   - ext-xanalytics # 2015-02-02 on all wikis
   - ext-zerobanner # 2014-06

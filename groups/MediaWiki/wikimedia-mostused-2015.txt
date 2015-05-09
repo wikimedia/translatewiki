@@ -589,6 +589,7 @@ pager-older-n
 rcshowhideanons-show
 inputbox-tryexact
 wikimedia-globalblocking-ipblocked
+wikimedia-globalblocking-ipblocked-xff
 timedmedia-source-audio-file-desc
 coll-attribution-anons
 wikibase-label-empty
