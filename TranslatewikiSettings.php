@@ -189,6 +189,19 @@ require_once "$IP/skins/MonoBook/MonoBook.php";
 ###
 # Extensions
 ###
+wfLoadExtensions( array(
+	'ApiSandbox',
+	'BetaFeatures',
+	'CharInsert',
+	'Elastica',
+	'Gadgets',
+	'Interwiki',
+	'Nuke',
+	'ParserFunctions',
+	'Renameuser',
+	'WikiEditor',
+) );
+
 $EXT = "$IP/extensions";
 
 require_once "$EXT/cldr/cldr.php";
@@ -199,7 +212,6 @@ require_once "$EXT/UserDailyContribs/UserDailyContribs.php";
 
 $wgNamespacesToBeSearchedDefault[NS_MAIN] = true;
 $wgNamespacesToBeSearchedDefault[NS_MEDIAWIKI] = true;
-require_once "$EXT/Elastica/Elastica.php";
 require_once "$EXT/CirrusSearch/CirrusSearch.php";
 $wgSearchType = 'CirrusSearch';
 $wgAdvancedSearchHighlighting = true;
@@ -210,8 +222,7 @@ require_once __DIR__ . "/TranslateSettings.php";
 require_once __DIR__ . "/LanguageSettings.php";
 
 require_once __DIR__ . "/nikext.php";
-require_once "$EXT/Renameuser/Renameuser.php";
-require_once "$EXT/ParserFunctions/ParserFunctions.php";
+
 $wgPFEnableStringFunctions = true;
 
 require_once "$EXT/NewUserMessage/NewUserMessage.php";
@@ -223,7 +234,6 @@ require_once "$EXT/LiquidThreads/LiquidThreads.php";
 require_once "$EXT/ContributionScores/ContributionScores.php";
 $wgContribScoreIgnoreBots = true;
 
-require_once "$EXT/Gadgets/Gadgets.php";
 require_once "$EXT/UserMerge/UserMerge.php";
 require_once "$EXT/WebChat/WebChat.php";
 $wgWebChatChannel = '#mediawiki-i18n';
@@ -242,10 +252,7 @@ $wgBabelCategoryNames = array(
 $wgBabelMainCategory = 'User_%code%';
 
 require_once "$EXT/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php";
-require_once "$EXT/Interwiki/Interwiki.php";
-require_once "$EXT/Nuke/Nuke.php";
 require_once "$EXT/ReplaceText/ReplaceText.php";
-require_once "$EXT/ApiSandbox/ApiSandbox.php";
 
 # Semantic MediaWiki (installed using composer)
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
@@ -274,7 +281,6 @@ $wgNoFollowDomainExceptions = array(
 );
 
 require_once "$EXT/AdminLinks/AdminLinks.php";
-require_once "$EXT/WikiEditor/WikiEditor.php";
 require_once "$EXT/UserOptionStats/UserOptionStats.php";
 require_once "$EXT/EventLogging/EventLogging.php";
 $wgEventLoggingBaseUri = 'http://bits.wikimedia.org/event.gif';
@@ -350,8 +356,6 @@ $wgMainPageImages[] = array(
 
 require_once "$EXT/InviteSignup/InviteSignup.php";
 $wgISGroups = array( 'translator' );
-
-require_once "$EXT/BetaFeatures/BetaFeatures.php";
 
 ###
 # Dynamic code starts here
