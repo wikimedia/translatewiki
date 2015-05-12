@@ -194,7 +194,7 @@ wfLoadExtensions( array(
 	'BetaFeatures',
 	'CharInsert',
 	'Elastica',
-	'Gadgets',
+	#'Gadgets',
 	'Interwiki',
 	'Nuke',
 	'ParserFunctions',
