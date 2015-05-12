@@ -618,7 +618,6 @@ optional = configure-section-squid, configure-section-svg, configure-section-tex
 Confirm Account
 file = ConfirmAccount/i18n/core/%CODE%.json
 aliasfile = ConfirmAccount/frontend/language/ConfirmAccount.alias.php
-descmsg = confirmedit-desc
 
 Confirm Account - Page
 file = ConfirmAccount/i18n/confirmaccount/%CODE%.json
