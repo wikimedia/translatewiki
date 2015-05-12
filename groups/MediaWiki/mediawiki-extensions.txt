@@ -2456,10 +2456,10 @@ Wikidata Quality
 ignored = wikidataquality-checkresult-form-entityid-placeholder
 
 Wikidata Quality Constraints
-aliasfile = WikidataQualityConstraints/WikidataQualityConstraints.alias.php
+aliasfile = WikidataQualityConstraints/WikibaseQualityConstraints.alias.php
 
 Wikidata Quality External Validation
-aliasfile = WikidataQualityExternalValidation/WikidataQualityExternalValidation.alias.php
+aliasfile = WikidataQualityExternalValidation/WikibaseQualityExternalValidation.alias.php
 
 Wikihiero
 file = wikihiero/i18n/%CODE%.json
