@@ -57,6 +57,8 @@ ignored = format-filename-example, format-fullurl-example
 Templatecount
 optional = title
 
+Template transclusion check
+
 Toolserver status
 
 Ts Reports
