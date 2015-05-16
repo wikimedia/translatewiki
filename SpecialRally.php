@@ -96,7 +96,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 					'page_latest'
 				);
 				$conds = array(
-					"rc_timestamp >= 20150517000000",
+					"rc_timestamp >= 20150516200000",
 					"rc_timestamp <= 20150525235959",
 					'rc_new' => 1,
 					'rc_bot' => 0,
@@ -223,7 +223,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$tables = array( 'recentchanges', 'page' );
 			$fields = array( 'rc_title', 'rc_namespace', 'rc_this_oldid', 'page_latest' );
 			$conds = array(
-				"rc_timestamp >= 20150517000000",
+				"rc_timestamp >= 20150516200000",
 				"rc_timestamp <= 20150525235959",
 				'rc_new' => 1,
 				'rc_bot' => 0,
