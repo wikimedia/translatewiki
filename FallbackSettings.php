@@ -50,6 +50,7 @@ $wgTranslateLanguageFallbacks['kea'] = 'pt';
 $wgTranslateLanguageFallbacks['kgp'] = array( 'pt', 'pt-br' );
 $wgTranslateLanguageFallbacks['ki'] = 'sw';
 $wgTranslateLanguageFallbacks['kjh'] = 'ru';
+$wgTranslateLanguageFallbacks['knn'] = 'hi';
 $wgTranslateLanguageFallbacks['krl'] = 'fi';
 $wgTranslateLanguageFallbacks['ks-arab'] = 'ur'; # Robin
 $wgTranslateLanguageFallbacks['ks-deva'] = 'hi'; # Robin
