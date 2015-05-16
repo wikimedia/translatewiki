@@ -52,7 +52,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 
 			$allGroups = MessageGroups::singleton()->getGroups();
 			foreach ( $allGroups as $groupId => $messageGroup ) {
-				if ( in_array( $groupId, $allowedGroups )  ) {
+				if ( in_array( $groupId, $allowedGroups ) ) {
 					if( $messageGroup->isMeta() ) {
 						// @todo Ugly work around for MediaWikiTopMessageGroup::getGroups()
 						//       not existing.
@@ -125,7 +125,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 							$nonlatest[$row->rc_user_text]++;
 						}
 
-						if ( $row->rc_namespace == 8 ) {
+						if ( in_array( $row->rc_namespace, array( 8 ) ) ) {
 							if ( in_array( $group, array( 'core' ) ) ) {
 								$products['MediaWiki core']++;
 							} elseif ( !in_array( $group, array( 'wiki-twn-mainpage', 'wiki-betawiki' ) ) ) {
@@ -135,17 +135,17 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 							} else {
 								$products['translatewiki.net']++;
 							}
-						} elseif ( $row->rc_namespace = 1198 ) {
+						} elseif ( in_array( $row->rc_namespace, array( 1198 ) ) ) {
 							$products['translatewiki.net']++;
-						} elseif ( $row->rc_namespace = 1238 ) {
+						} elseif ( in_array( $row->rc_namespace, array( 1238 ) ) ) {
 							$products['Pywikibot']++;
-						} elseif ( $row->rc_namespace = 1240 ) {
+						} elseif ( in_array( $row->rc_namespace, array( 1240 ) ) ) {
 							$products['Intuition']++;
-						} elseif ( $row->rc_namespace = 1244 ) {
+						} elseif ( in_array( $row->rc_namespace, array( 1244 ) ) ) {
 							$products['Kiwix']++;
-						} elseif ( $row->rc_namespace = 1248 ) {
+						} elseif ( in_array( $row->rc_namespace, array( 1248 ) ) ) {
 							$products['Huggle']++;
-						} elseif ( $row->rc_namespace = 1252 ) {
+						} elseif ( in_array( $row->rc_namespace, array( 1252 ) ) ) {
 							$products['VicuñaUploader']++;
 						} elseif ( $group === 'out-wikiblame' ) {
 								$products['WikiBlame']++;
@@ -155,13 +155,13 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 
 						$messageData = TranslateUtils::figureMessage( $row->rc_title );
 						// Language totals
-						if( isset(  $languages[$messageData[1]] ) ) {
+						if( isset( $languages[$messageData[1]] ) ) {
 							$languages[$messageData[1]]++;
 						} else {
 							$languages[$messageData[1]] = 1;
 						}
 						// Per user per language totals
-						if( isset(  $userLangs[$row->rc_user_text][$messageData[1]] ) ) {
+						if( isset( $userLangs[$row->rc_user_text][$messageData[1]] ) ) {
 							$userLangs[$row->rc_user_text][$messageData[1]]++;
 						} else {
 							$userLangs[$row->rc_user_text][$messageData[1]] = 1;
