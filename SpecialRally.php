@@ -33,15 +33,18 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$this->outputHeader();
 
 			$allowedGroups = array(
-				'core', // 8
-				'ext-0-all', // 8
-				'out-jquery-uls', // 1206
-				'out-kiwix', // 1244
-				'out-okawix-0-all', // 1220
-				'out-pywikipedia-0-all', // 1238
-				'out-wikiblame', // 1206
-				'out-wikimedia-mobile-0-all', // 1206
-				'tsint-0-all' // 1240
+				'core',
+				'ext-0-wikimedia',
+				'out-wikimedia-mobile-0-all',
+				'wiki-betawiki',
+				'out-kiwix',
+				'out-huggle',
+				'tsint-0-all',
+				'out-jquery-uls',
+				'wiki-twn-mainpage',
+				'out-pywikipedia-0-all',
+				'out-vicuna',
+				'out-wikiblame',
 			);
 
 			$allowedGroups = MessageGroups::expandWildcards( '*' );
@@ -50,6 +53,11 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			foreach ( $allGroups as $groupId => $messageGroup ) {
 				if ( in_array( $groupId, $allowedGroups )  ) {
 					if( $messageGroup->isMeta() ) {
+						// @todo Ugly work around for MediaWikiTopMessageGroup::getGroups()
+						//       not existing.
+						if( $messageGroup->getId() === 'core-0-mostused' )
+							continue;
+
 						$groups = $messageGroup->getGroups();
 						foreach ( $groups as $gid => $groupDetails ) {
 							$allowedGroups[] = $gid;
@@ -64,11 +72,17 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$allowed = $currentUser->isAllowed( 'translate-manage' );
 			if ( $allowed && !$par ) {
 				$products = array(
-					'MediaWiki' => 0,
-					'MediaWiki extensions' => 0,
-					'Mobile' => 0,
-					'Offline' => 0,
-					'Other' => 0
+					'MediaWiki core' => 0,
+					'MediaWiki extensions used by Wikimedia' => 0,
+					'Wikimedia Mobile apps' => 0,
+					'translatewiki.net' => 0,
+					'jQuery.ULS' => 0,
+					'Kiwix' => 0,
+					'Huggle' => 0,
+					'Intuition' => 0,
+					'Pywikibot' => 0,
+					'VicuñaUploader' => 0,
+					'WikiBlame' => 0,
 				);
 				$languages = array();
 				$userLangs = array();
@@ -81,11 +95,11 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 					'page_latest'
 				);
 				$conds = array(
-					"rc_timestamp >= 20140806100000",
-					"rc_timestamp <= 20140810235959",
+					"rc_timestamp >= 20150517000000",
+					"rc_timestamp <= 20150525235959",
 					'rc_new' => 1,
 					'rc_bot' => 0,
-					'rc_namespace IN (8, 1206, 1212, 1220, 1224, 1238, 1240, 1244)',
+					'rc_namespace IN ( 8, 1198, 1206, 1238, 1240, 1244, 1248, 1252 )',
 					'rc_cur_id = page_id'
 				);
 
@@ -195,11 +209,11 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$tables = array( 'recentchanges', 'page' );
 			$fields = array( 'rc_title', 'rc_namespace', 'rc_this_oldid', 'page_latest' );
 			$conds = array(
-				"rc_timestamp >= 20121221220000",
-				"rc_timestamp <= 20121231235959",
+				"rc_timestamp >= 20150517000000",
+				"rc_timestamp <= 20150525235959",
 				'rc_new' => 1,
 				'rc_bot' => 0,
-				'rc_namespace IN (8, 1206, 1212, 1220, 1224, 1238, 1240, 1244)',
+				'rc_namespace IN ( 8, 1198, 1206, 1238, 1240, 1244, 1248, 1252 )',
 				'rc_user' => $user->getId(),
 				'rc_cur_id = page_id',
 			);
@@ -211,16 +225,19 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$userName = $user->getName();
 
 			foreach ( $res as $_ ) {
+				/*
 				// This user can only make qualifying edits in "si".
-				if ( $userName == 'පසිඳු කාවින්ද' &&
+				if ( $userName == 'Blah' &&
 					!strrpos( $_->rc_title, 'si', -2 )
 				) {
 					continue;
 				}
 
-				if( $userName == 'Zanatos' ) {
+				// Disqualify a user.
+				if( $userName == 'Blah' ) {
 					continue;
 				}
+				*/
 
 				$title = preg_replace( '~/[a-z-]+$~i', '', $_->rc_title );
 				$group = TranslateUtils::messageKeyToGroup( $_->rc_namespace, $title );
