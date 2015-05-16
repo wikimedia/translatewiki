@@ -33,18 +33,19 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$this->outputHeader();
 
 			$allowedGroups = array(
-				'core',
-				'ext-0-wikimedia',
-				'out-wikimedia-mobile-0-all',
-				'wiki-betawiki',
-				'out-kiwix',
-				'out-huggle',
-				'tsint-0-all',
-				'out-jquery-uls',
-				'wiki-twn-mainpage',
-				'out-pywikipedia-0-all',
-				'out-vicuna',
-				'out-wikiblame',
+				'core', // core
+				'ext-0-wikimedia', // Wikimedia extensions
+				'out-wikimedia-mobile-0-all', // Wikimedia mobile apps
+				'wiki-betawiki', // translatewiki.net UI
+				'page-0-all', // translatewiki.net translatable pages
+				'out-kiwix', // Kiwix
+				'out-huggle', // Huggle
+				'tsint-0-all', // Intuition
+				'out-jquery-uls', // jQuery ULS
+				'wiki-twn-mainpage', // translatewiki.net main page
+				'out-pywikipedia-0-all', // Pywikibot
+				'out-vicuna', // Vicona uploader
+				'out-wikiblame', // WikiBlame
 			);
 
 			$allowedGroups = MessageGroups::expandWildcards( '*' );
@@ -72,10 +73,10 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$allowed = $currentUser->isAllowed( 'translate-manage' );
 			if ( $allowed && !$par ) {
 				$products = array(
-					'MediaWiki core' => 0,
-					'MediaWiki extensions used by Wikimedia' => 0,
-					'Wikimedia Mobile apps' => 0,
-					'translatewiki.net' => 0,
+					'MediaWiki core' => 0, // 8
+					'MediaWiki extensions used by Wikimedia' => 0, // 8
+					'Wikimedia Mobile apps' => 0, //
+					'translatewiki.net' => 0, // 1198, 8,
 					'jQuery.ULS' => 0,
 					'Kiwix' => 0,
 					'Huggle' => 0,
@@ -125,18 +126,31 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 						}
 
 						if ( $row->rc_namespace == 8 ) {
-							if( in_array( $group, array( 'core' ) ) ) {
-								$products['MediaWiki']++;
+							if ( in_array( $group, array( 'core' ) ) ) {
+								$products['MediaWiki core']++;
+							} elseif ( !in_array( $group, array( 'wiki-twn-mainpage', 'wiki-betawiki' ) ) ) {
+								$products['MediaWiki extensions used by Wikimedia']++;
+							} elseif ( $group === 'out-jquery-uls' ) {
+								$products['jQuery.ULS']++;
 							} else {
-								$products['MediaWiki extensions']++;
+								$products['translatewiki.net']++;
 							}
-						} elseif ( in_array( $row->rc_namespace, array( 1212, 1220, 1224, 1244 ) ) ) {
-							$products['Offline']++;
-						} elseif ( in_array( $row->rc_namespace, array( 1206 ) ) &&
-							!in_array( $group, array( 'out-jquery-uls' ) ) ) {
-								$products['Mobile']++;
+						} elseif ( $row->rc_namespace = 1198 ) {
+							$products['translatewiki.net']++;
+						} elseif ( $row->rc_namespace = 1238 ) {
+							$products['Pywikibot']++;
+						} elseif ( $row->rc_namespace = 1240 ) {
+							$products['Intuition']++;
+						} elseif ( $row->rc_namespace = 1244 ) {
+							$products['Kiwix']++;
+						} elseif ( $row->rc_namespace = 1248 ) {
+							$products['Huggle']++;
+						} elseif ( $row->rc_namespace = 1252 ) {
+							$products['VicuñaUploader']++;
+						} elseif ( $group === 'out-wikiblame' ) {
+								$products['WikiBlame']++;
 						} else {
-							$products['Other']++;
+							$products['Wikimedia Mobile apps']++;
 						}
 
 						$messageData = TranslateUtils::figureMessage( $row->rc_title );
