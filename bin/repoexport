@@ -65,7 +65,7 @@ then
 
 elif [ "$PROJECT" = "intuition" ]
 then
-	php "$EXPORTER" --target . --group=tsint* --lang='*' --skip en $HOURS
+	php "$EXPORTER" --target . --group=tsint* --lang='*' --skip "$SKIPLANGS" $HOURS
 
 elif [ "$PROJECT" = "jquery.uls" ]
 then
