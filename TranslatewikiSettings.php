@@ -191,7 +191,6 @@ require_once "$IP/skins/MonoBook/MonoBook.php";
 ###
 wfLoadExtensions( array(
 	'ApiSandbox',
-	'BetaFeatures',
 	'CharInsert',
 	'Elastica',
 	'Gadgets',
