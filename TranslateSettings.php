@@ -4,7 +4,8 @@ require_once __DIR__ . '/FallbackSettings.php';
 
 $GROUPS = __DIR__ . '/groups';
 
-$wgSpecialPages['Magic'] = 'SpecialMagic';
+// 2015-05-18 Really broken now. Disabled.
+//$wgSpecialPages['Magic'] = 'SpecialMagic';
 $wgTranslateNewsletterPreference = true;
 
 $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
