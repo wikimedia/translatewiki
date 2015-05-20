@@ -1379,6 +1379,8 @@ descmsg = mswe-desc
 
 MSSQL Back Compat
 
+# Multi Boilerplate // incomplete qqq
+
 Multi Maps
 
 # Multi Upload // Missing qqq
@@ -2335,6 +2337,7 @@ file = VisualEditor/modules/ve-wmf/i18n/%CODE%.json
 optional = visualeditor-help-link
 
 Vote NY
+aliasfile = VoteNY/VoteNY.alias.php
 
 Watch Subpages
 aliasfile = WatchSubpages/WatchSubpages.alias.php
