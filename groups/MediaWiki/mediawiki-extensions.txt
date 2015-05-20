@@ -213,6 +213,10 @@ id = ext-bs-dashboards
 descmsg = bs-dashboards-desc
 file = BlueSpiceExtensions/Dashboards/i18n/%CODE%.json
 
+Blue Spice - Deferred
+id = ext-bs-deferred
+file = BlueSpiceFoundation/i18n/deferred/%CODE%.json
+
 Blue Spice - Diagnostics
 file = BlueSpiceFoundation/i18n/diagnostics/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Diagnostics.alias.php
