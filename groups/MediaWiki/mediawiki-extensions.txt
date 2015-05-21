@@ -638,22 +638,22 @@ file = ConfirmAccount/i18n/usercredentials/%CODE%.json
 id = ext-confirmaccount-usercredentials
 
 Confirm Edit
-file = ConfirmEdit/i18n/core/%CODE%.json
+file = ConfirmEdit/i18n/%CODE%.json
 aliasfile = ConfirmEdit/ConfirmEdit.alias.php
 descmsg = captcha-desc
 
 ConfirmEdit Fancy Captcha
-file = ConfirmEdit/i18n/fancy/%CODE%.json
+file = ConfirmEdit/FancyCaptcha/i18n/%CODE%.json
 descmsg = fancycaptcha-desc
 optional = fancycaptcha-desc
 
 ConfirmEdit Questy Captcha
-file = ConfirmEdit/i18n/questy/%CODE%.json
+file = ConfirmEdit/QuestyCaptcha/i18n/%CODE%.json
 descmsg = questycaptcha-desc
 optional = questycaptcha-desc
 
 ConfirmEdit ReCaptcha
-file = ConfirmEdit/i18n/re/%CODE%.json
+file = ConfirmEdit/ReCaptcha/%CODE%.json
 descmsg = recaptcha-desc
 optional = recaptcha-desc
 
