@@ -3,6 +3,7 @@
 server {
 	listen 80 default_server;
 	listen [2a03:4000:6:55::1]:80;
+	server_name translatewiki.net dev.translatewiki.net;
 	return 301 https://$host$request_uri;
 }
 
@@ -32,7 +33,7 @@ server {
 
 	spdy_headers_comp 7;
 
-	server_name translatewiki.net dev.translatewiki.net sandbox.translatewiki.net;
+	server_name translatewiki.net dev.translatewiki.net;
 	root /www/$host/docroot;
 
 	location = / {
