@@ -2028,6 +2028,9 @@ Skin Per Page
 
 Slimbox Thumbs
 
+Smite Spam
+aliasfile = SmiteSpam/SmiteSpam.alias.php
+
 Smooth Gallery
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
 ignored = smoothgallery-pagetext
