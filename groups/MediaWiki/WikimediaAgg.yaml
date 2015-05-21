@@ -110,7 +110,6 @@ GROUPS:
   - ext-vectorbeta # change-id: 5ab746e86cddaa09fec195f9670a5767025106c7
   - ext-vipsscaler
   - ext-wikibasedatamodel
-  - ext-wikigrok # 2014-10-24, change id: I49a08c9f025a6258bd3a6d8f531d9b2a9c48968a
   - ext-wikilove
   - ext-wikihiero
   - ext-wikimediacontactpagemessages
