@@ -558,8 +558,6 @@ cldr
 Clean Changes
 optional = cleanchanges-rcinfo-2, cleanchanges-rcinfo-3
 
-Click Tracking
-
 Client Side
 
 Close Wikis
