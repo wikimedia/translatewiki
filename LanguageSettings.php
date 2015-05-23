@@ -86,6 +86,7 @@ $wgExtraLanguageNames['smn'] = 'anarâškielâ'; # Inari Saami / Siebrand 2014-1
 $wgExtraLanguageNames['dty'] = 'डोटेली'; # Dotyali / Siebrand 2014-11-16
 $wgExtraLanguageNames['awa'] = 'अवधी'; # Awadhi / Siebrand 2014-12-28
 $wgExtraLanguageNames['gor'] = 'Hulontalo'; # Gorontalo / Siebrand 2014-12-28
+$wgExtraLanguageNames['knn'] = 'महाराष्ट्रीय कोंकणी'; # Maharashtrian Konkani
 
 $wgExtraLanguageNames['nl-be'] = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['es-mx'] = 'español de México'; # Mexico; for iNaturalist
