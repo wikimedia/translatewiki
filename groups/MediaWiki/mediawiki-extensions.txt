@@ -2191,11 +2191,6 @@ optional = translate-page-paging-links, supportedlanguages-portallink, supported
 optional = group-translate-proofr.css, group-translate-proofr.js
 ignored = translate-edit-tag-warning, supportedlanguages-localsummary
 
-Translate - Group Descriptions
-id = ext-translate-groupdescriptions
-file = Translate/i18n/groupdescriptions/%CODE%.json
-descmsg = translategroupdescriptions-desc
-
 Translate - Page Translation
 id = ext-translate-pagetranslation
 file = Translate/i18n/pagetranslation/%CODE%.json
