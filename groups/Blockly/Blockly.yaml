@@ -3,7 +3,7 @@ TEMPLATE:
     icon: wiki://Blockly-square.png
     namespace: NS_BLOCKLY
     class: FileBasedMessageGroup
-    description: "{{int:translate-group-desc-blockly}}"
+    description: "{{Special:MyLanguage/Translations:Group descriptions/blockly/en}}"
 
   FILES:
     class: JsonFFS

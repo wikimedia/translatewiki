@@ -9,7 +9,7 @@ TEMPLATE:
 BASIC:
   id: mediawiki-skin-0-all
   label: MediaWiki skins
-  description: '{{int:translate-group-desc-mediawikiskins}}'
+  description: '{{Special:MyLanguage/Translations:Group descriptions/mediawikiskins/en}}'
 
 GROUPS:
   - mediawiki-skin-*

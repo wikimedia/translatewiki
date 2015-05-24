@@ -3,7 +3,7 @@ BASIC:
   id: out-freecol
   label: FreeCol
   icon: wiki://Freecol.png
-  description: "{{int:bw-desc-freecol}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/freecol/en}}"
   namespace: NS_FREECOL
   class: FileBasedMessageGroup
 

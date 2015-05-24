@@ -4,7 +4,7 @@ BASIC:
   icon: wiki://Wikimania_2014_logo.svg
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
-  description: "{{int:translate-group-desc-wikimania-scholarships-app}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimania-scholarships-app/en}}"
 
 FILES:
   class: JsonFFS

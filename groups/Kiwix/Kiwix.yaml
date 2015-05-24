@@ -3,7 +3,7 @@ BASIC:
   id: out-kiwix
   label: Kiwix
   icon: wiki://Kiwix_icon.svg
-  description: "{{int:translate-group-desc-kiwix}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/kiwix/en}}"
   namespace: NS_KIWIX
   class: FileBasedMessageGroup
 

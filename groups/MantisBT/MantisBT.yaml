@@ -1,7 +1,7 @@
 TEMPLATE:
   BASIC:
     icon: wiki://MantisBT_logo_square.png
-    description: "{{int:bw-desc-mantisbt}}"
+    description: "{{Special:MyLanguage/Translations:Group descriptions/mantisbt/en}}"
     namespace: NS_MANTIS
     class: FileBasedMessageGroup
 
@@ -137,7 +137,7 @@ TAGS:
 BASIC:
   id: out-mantis-plugin-mantiscoreformatting
   label: MantisBT - Mantis Core Formatting
-  description: "{{int:translate-group-desc-mantisbt-plugin-core}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mantisbt-plugin-core/en}}"
 
 FILES:
   sourcePattern: "%GROUPROOT%/mantis/plugins/MantisCoreFormatting/lang/strings_%CODE%.txt"
@@ -146,7 +146,7 @@ FILES:
 BASIC:
   id: out-mantis-plugin-mantisgraph
   label: MantisBT - Mantis Graph
-  description: "{{int:translate-group-desc-mantisbt-plugin-core}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mantisbt-plugin-core/en}}"
 
 FILES:
   sourcePattern: "%GROUPROOT%/mantis/plugins/MantisGraph/lang/strings_%CODE%.txt"
@@ -155,7 +155,7 @@ FILES:
 BASIC:
   id: out-mantis-plugin-xmlimportexport
   label: MantisBT - Xml Import Export
-  description: "{{int:translate-group-desc-mantisbt-plugin-core}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mantisbt-plugin-core/en}}"
 
 FILES:
   sourcePattern: "%GROUPROOT%/mantis/plugins/XmlImportExport/lang/strings_%CODE%.txt"

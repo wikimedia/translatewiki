@@ -4,7 +4,7 @@ BASIC:
   icon: wiki://Wikia_Logo.png
   meta: yes
   class: AggregateMessageGroup
-  description: '{{int:translate-group-desc-wikiaextensions}}'
+  description: '{{Special:MyLanguage/Translations:Group descriptions/wikiaextensions/en}}'
   namespace: NS_WIKIA
 
 GROUPS:

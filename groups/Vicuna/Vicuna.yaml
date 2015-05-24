@@ -3,7 +3,7 @@ BASIC:
   id: out-vicuna
   label: VicuñaUploader
   icon: wiki://VicunaUploader_logo.png
-  description: "{{int:translate-group-desc-vicuna}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/vicuna/en}}"
   namespace: NS_VICUNA
   class: FileBasedMessageGroup
 

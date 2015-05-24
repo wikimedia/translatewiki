@@ -3,7 +3,7 @@ BASIC:
   id: out-etherpad-lite
   label: Etherpad lite
   icon: wiki://Etherpad_lite.svg
-  description: "{{int:translate-group-desc-etherpad-lite}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/etherpad-lite/en}}"
   namespace: NS_ETHERPADLITE
   class: FileBasedMessageGroup
 

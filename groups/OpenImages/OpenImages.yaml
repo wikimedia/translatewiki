@@ -6,7 +6,7 @@ BASIC:
   meta: yes
   class: AggregateMessageGroup
   namespace: NS_OPENIMAGES
-  description: "{{int:translate-group-desc-openimages-all}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/openimages-all/en}}"
 
 GROUPS:
   - out-openimages-*
@@ -16,7 +16,7 @@ BASIC:
   id: out-openimages-core
   label: Open Images - Core
   icon: wiki://Open_Images.png
-  description: "{{int:translate-group-desc-openimages-all}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/openimages-all/en}}"
   namespace: NS_OPENIMAGES
   class: FileBasedMessageGroup
 
@@ -37,7 +37,7 @@ BASIC:
   id: out-openimages-verifyemailtemplate
   label: Open Images - Verify Email Template
   icon: wiki://Open_Images.png
-  description: "{{int:translate-group-desc-openimages-all}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/openimages-all/en}}"
   namespace: NS_OPENIMAGES
   class: FileBasedMessageGroup
 

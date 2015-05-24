@@ -1,6 +1,6 @@
 TEMPLATE:
   BASIC:
-    description: "{{int:translate-group-desc-fuel}}"
+    description: "{{Special:MyLanguage/Translations:Group descriptions/fuel/en}}"
     icon: wiki://Fuel-final-logo.png
     namespace: NS_FUEL
     class: FileBasedMessageGroup

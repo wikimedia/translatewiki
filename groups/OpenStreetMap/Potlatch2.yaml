@@ -1,7 +1,7 @@
 TEMPLATE:
   BASIC:
     icon: wiki://Openstreetmap_logo.svg
-    description: "{{int:translate-group-desc-potlatch2}}"
+    description: "{{Special:MyLanguage/Translations:Group descriptions/potlatch2/en}}"
     namespace: NS_OSM
     class: FileBasedMessageGroup
 

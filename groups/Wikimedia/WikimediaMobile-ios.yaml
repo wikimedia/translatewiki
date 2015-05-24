@@ -1,6 +1,6 @@
 TEMPLATE:
   BASIC:
-    description: "{{int:translate-group-desc-wikimedia-mobile-wikipedia-ios}}"
+    description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-mobile-wikipedia-ios/en}}"
     icon: wiki://Wikimedia-logo.svg
     namespace: NS_WIKIMEDIA
     class: FileBasedMessageGroup

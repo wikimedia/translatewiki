@@ -3,7 +3,7 @@ BASIC:
   id: out-nfcring-control
   label: NFC Ring Control
   icon: wiki://McLear_Crest_Cropped.svg
-  description: "{{int:translate-group-desc-nfcring-control}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/nfcring-control/en}}"
   namespace: NS_NFCRINGCONTROL
   class: FileBasedMessageGroup
 

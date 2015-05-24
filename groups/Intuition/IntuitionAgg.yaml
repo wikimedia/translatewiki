@@ -2,7 +2,7 @@ BASIC:
   id: tsint-0-all
   label: Intuition
   icon: wiki://Collaboration_logo_V2.svg
-  description: "{{int:translate-group-desc-tsint}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/tsint/en}}"
   meta: yes
   class: AggregateMessageGroup
   namespace: NS_INTUITION

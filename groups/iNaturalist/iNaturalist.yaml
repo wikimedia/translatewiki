@@ -2,7 +2,7 @@ BASIC:
   id: out-inaturalist
   label: iNaturalist
   icon: wiki://INaturalist logo.svg
-  description: "{{int:translate-group-desc-inaturalist}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/inaturalist/en}}"
   namespace: NS_INATURALIST
   class: FileBasedMessageGroup
 

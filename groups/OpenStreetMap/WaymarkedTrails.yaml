@@ -2,7 +2,7 @@ BASIC:
   id: out-waymarked-trails-0-all
   label: Waymarked Trails
   icon: wiki://Waymarked_Trails_logo.svg
-  description: "{{int:translate-group-desc-waymarked-trails}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/waymarked-trails/en}}"
   namespace: NS_OSM
   meta: yes
   class: AggregateMessageGroup
@@ -16,7 +16,7 @@ BASIC:
   id: out-waymarked-trails
   label: Waymarked Trails Website
   icon: wiki://Waymarked_Trails_logo.svg
-  description: "{{int:translate-group-desc-waymarked-trails}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/waymarked-trails/en}}"
   namespace: NS_OSM
   class: FileBasedMessageGroup
   codeBrowser: "https://github.com/lonvia/waymarked-trails-site/blob/master/django/%FILE%#L%LINE%"
@@ -52,7 +52,7 @@ BASIC:
   id: out-waymarked-trails-help
   label: Waymarked Trails Help
   icon: wiki://Waymarked_Trails_logo.svg
-  description: "{{int:translate-group-desc-waymarked-trails-help}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/waymarked-trails-help/en}}"
   namespace: NS_OSM
   class: FileBasedMessageGroup
   codeBrowser: "https://github.com/lonvia/waymarked-trails-site/blob/master/django/%FILE%#L%LINE%"

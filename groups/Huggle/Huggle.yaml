@@ -3,7 +3,7 @@ BASIC:
   id: out-huggle
   label: Huggle
   icon: wiki://Huggle_icon_mini.svg
-  description: "{{int:translate-group-desc-huggle}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/huggle/en}}"
   namespace: NS_HUGGLE
   class: FileBasedMessageGroup
 

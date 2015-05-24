@@ -2,7 +2,7 @@ BASIC:
   id: out-mifos
   label: Mifos - X
   icon: wiki://Mifos-logo.png
-  description: "{{int:translate-group-desc-mifos}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mifos/en}}"
   namespace: NS_MIFOS
   class: FileBasedMessageGroup
 

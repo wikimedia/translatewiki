@@ -24,7 +24,7 @@ TEMPLATE:
 BASIC:
   id: out-osm-0-all
   label: OpenStreetMap
-  description: "{{int:bw-desc-openstreetmap}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/openstreetmap/en}}"
   meta: yes
   class: AggregateMessageGroup
 
@@ -35,7 +35,7 @@ GROUPS:
 BASIC:
   id: out-osm-site
   label: OpenStreetMap - Website
-  description: "{{int:bw-desc-osm-site}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/osm-site/en}}"
 
 FILES:
   sourcePattern: "%GROUPROOT%/osm/config/locales/%CODE%.yml"

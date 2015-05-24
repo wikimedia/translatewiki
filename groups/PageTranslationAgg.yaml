@@ -7,7 +7,7 @@ BASIC:
   label: Translatable pages
   meta: yes
   class: AggregateMessageGroup
-  description: '{{int:translate-group-desc-translatablepages}}'
+  description: "{{Special:MyLanguage/Translations:Group descriptions/translatablepages/en}}"
   namespace: NS_TRANSLATIONS
 
 GROUPS:

@@ -1,7 +1,7 @@
 TEMPLATE:
   BASIC:
     icon: wiki://IHRIS_suite_logo_square.png
-    description: "{{int:translate-group-desc-ihris}}"
+    description: "{{Special:MyLanguage/Translations:Group descriptions/ihris/en}}"
     namespace: NS_IHRIS
     class: FileBasedMessageGroup
 

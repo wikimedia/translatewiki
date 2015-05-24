@@ -1,7 +1,7 @@
 TEMPLATE:
   BASIC:
     icon: wiki://Pwb_icon.svg
-    description: "{{int:translate-group-desc-pywikipedia}}"
+    description: "{{Special:MyLanguage/Translations:Group descriptions/pywikipedia/en}}"
     namespace: NS_PYWIKIBOT
     class: FileBasedMessageGroup
 

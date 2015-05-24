@@ -38,7 +38,7 @@ BASIC:
   id: core
   label: MediaWiki (core)
   class: FileBasedMessageGroup
-  description: "{{int:translate-group-desc-mediawikicore}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikicore/en}}"
 
 FILES:
   class: JsonFFS
@@ -568,7 +568,7 @@ BASIC:
   id: mediawiki-api
   label: MediaWiki Action API
   class: FileBasedMessageGroup
-  description: "{{int:translate-group-desc-mediawikiapi}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikiapi/en}}"
 
 FILES:
   class: JsonFFS

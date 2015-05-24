@@ -3,7 +3,7 @@ TEMPLATE:
     icon: wiki://EOL_logo.jpg
     namespace: NS_EOL
     class: FileBasedMessageGroup
-    description: "{{int:translate-group-desc-eol}}"
+    description: "{{Special:MyLanguage/Translations:Group descriptions/eol/en}}"
 
   FILES:
     class: RubyYamlFFS

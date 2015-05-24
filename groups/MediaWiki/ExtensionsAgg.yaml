@@ -9,7 +9,7 @@ TEMPLATE:
 BASIC:
   id: ext-0-all
   label: MediaWiki extensions
-  description: '{{int:translate-group-desc-mediawikiextensions}}'
+  description: '{{Special:MyLanguage/Translations:Group descriptions/mediawikiextensions/en}}'
 
 GROUPS:
   - ext-*
@@ -19,7 +19,7 @@ BASIC:
   id: ext-bs-0-all
   icon: wiki://Bluespice icon.svg
   label: Blue Spice messages - all
-  description: '{{int:translate-group-desc-bluespice}}'
+  description: '{{Special:MyLanguage/Translations:Group descriptions/bluespice/en}}'
 
 GROUPS:
   - ext-bs-*
@@ -28,7 +28,7 @@ GROUPS:
 BASIC:
   id: ext-flaggedrevs-0-all
   label: Flagged Revs messages - all
-  description: '{{int:translate-group-desc-flaggedrevs}}'
+  description: '{{Special:MyLanguage/Translations:Group descriptions/flaggedrevs/en}}'
 
 GROUPS:
   - ext-flaggedrevs-*
@@ -37,7 +37,7 @@ GROUPS:
 BASIC:
   id: ext-readerfeedback-0-all
   label: Reader Feedback messages - all
-  description: '{{int:translate-group-desc-readerfeedback}}'
+  description: '{{Special:MyLanguage/Translations:Group descriptions/readerfeedback/en}}'
 
 GROUPS:
   - ext-readerfeedback-*
@@ -46,7 +46,7 @@ GROUPS:
 #BASIC:
 #  id: ext-semantic-0-all
 #  label: All Semantic MediaWiki extensions' messages
-#  description: '{{int:translate-group-desc-semantic}}'
+#  description: '{{Special:MyLanguage/Translations:Group descriptions/semantic/en}}'
 #
 #GROUPS:
 #  - ext-semantic*
@@ -55,7 +55,7 @@ GROUPS:
 BASIC:
   id: ext-translate-0-all
   label: Translate messages - all
-  description: '{{int:translate-group-desc-translate}}'
+  description: '{{Special:MyLanguage/Translations:Group descriptions/translate/en}}'
 
 GROUPS:
   - ext-translate-*
@@ -64,7 +64,7 @@ GROUPS:
 BASIC:
   id: ext-visualeditor-0-all
   label: VisualEditor messages - all
-  description: '{{int:translate-group-desc-visualeditor}}'
+  description: '{{Special:MyLanguage/Translations:Group descriptions/visualeditor/en}}'
 
 GROUPS:
   - ext-visualeditor-*

@@ -2,7 +2,7 @@ BASIC:
   id: out-wikiblame
   label: WikiBlame
   icon: wiki://WikiBlame.png
-  description: "{{int:bw-desc-wikiblame}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikiblame/en}}"
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
 
