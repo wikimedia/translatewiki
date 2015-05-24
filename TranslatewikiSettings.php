@@ -55,7 +55,14 @@ $wgGrammarForms['fi']['illative']['translatewiki.net'] = 'translatewiki.netiin';
 $wgGrammarForms['fi']['elative']['translatewiki.net'] = 'translatewiki.netistä';
 $wgGrammarForms['fi']['partitive']['translatewiki.net'] = 'translatewiki.netiä';
 
-$wgFooterIcons['poweredby']['netcup'] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
+// For TwnMainPage
+array_unshift( $wgFooterIcons['poweredby'], array(
+	'url' => 'http://www.netcup.de/',
+	'alt' => 'Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement',
+) );
+
+// For Vector skin which does not support imageless icons except in the deprecated way.
+$wgFooterIcons['netcup'][] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
 
 ###
 # Changes list
