@@ -36,6 +36,9 @@ TAGS:
     - number.human.format.delimiter
     - number.percentage.format.delimiter
     - number.precision.format.delimiter
+    - views.collection days.what-do-you-get-content
+    - views.collection days.what-do-you-get-content
+    - views.collection days.who-is-it-for-content
   ignored:
     - Polish
     - activerecord.attributes.annotation.text
