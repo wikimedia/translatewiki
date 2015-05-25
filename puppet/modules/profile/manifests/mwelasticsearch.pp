@@ -2,7 +2,7 @@ class profile::mwelasticsearch {
 
   class { 'elasticsearch':
     manage_repo   => true,
-    repo_version  => '1.3',
+    repo_version  => '1.5',
     config        => {
       'script.disable_dynamic'                   => false,
       'network.host'                             => '::1',

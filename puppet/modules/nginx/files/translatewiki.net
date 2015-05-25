@@ -56,7 +56,8 @@ server {
 		fastcgi_pass php;
 		fastcgi_buffering off;
 		fastcgi_buffers 16 16k;
-		fastcgi_send_timeout 5s;
+		fastcgi_connect_timeout 1s;
+		fastcgi_send_timeout 2s;
 		fastcgi_read_timeout 15s;
 		include fastcgi.conf;
 	}
