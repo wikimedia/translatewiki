@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+set -u
 
 DIRSCRIPT="`dirname \"$0\"`"
 DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
@@ -7,15 +8,20 @@ DIRLOG=/home/betawiki/logs/repo
 PROJECT=$1
 WIKI=/srv/mediawiki/targets/production
 
-DIR=$2
-: ${DIR:=`pwd`}
+DIR="${2:-`pwd`}"
 source $DIRSCRIPT/findexportroot
 cd "$DIR"
 
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> $DIRLOG
 
+checkVar() {
+	if [ -z "${!1:-}" ]
+		then echo "Add ${1} to REPOCONF"; exit 1
+	fi
+}
+
 gitupdate() {
-	"$DIRSCRIPT/update-reset-repo" "$DIR" "$1" "$2"
+	"$DIRSCRIPT/update-reset-repo" "$DIR" "$1" "${2:-master}"
 }
 
 processGroups() {
@@ -34,6 +40,7 @@ fetchReposFromGerrit() {
 	sort
 }
 
+CLUPDATE="$DIRSCRIPT/clupdate-git-repo";
 if [ "${REPO_RW:-no}" = "yes" ]
 then CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-gerrit-repo";
 else CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-git-repo";
@@ -72,6 +79,12 @@ if [ "$PROJECT" = "blockly" ]
 then
 	gitupdate "$PROJECT"
 	gitupdate "blockly-games"
+
+elif [ "$PROJECT" = "entryscape" ]
+then
+	VAR="REPO_${PROJECT^^}"
+	checkVar "$VAR"
+	"$CLUPDATE" "${!VAR}" "$DIR/$PROJECT"
 
 elif [ "$PROJECT" = "etherpad-lite" ]
 then

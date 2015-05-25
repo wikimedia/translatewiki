@@ -38,6 +38,7 @@ mergeL10n-bot() {
 # TODO: Move to separate file?
 GITPROJECTS="\
 blockly \
+entryscape \
 eol \
 europeana \
 freecol \

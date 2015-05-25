@@ -328,3 +328,8 @@ $wgTranslateGroupFiles[] = "$GROUPS/NFCRingControl/NFCRingControl.yaml";
 
 wfAddNamespace( 1262, 'iNaturalist' );
 $wgTranslateGroupFiles[] = "$GROUPS/iNaturalist/iNaturalist.yaml";
+
+wfAddNamespace( 1264, 'EntryScape' );
+$wgCapitalLinkOverrides[NS_ENTRYSCAPE] = false;
+$wgCapitalLinkOverrides[NS_ENTRYSCAPE_TALK] = false;
+$wgTranslateGroupFiles[] = "$GROUPS/EntryScape/EntryScape.yaml";
