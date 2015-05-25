@@ -201,7 +201,7 @@ then
 elif [ "$PROJECT" = "wikiblame" ]
 then
 	checkVar 'REPO_WIKIBLAME'
-	svn checkout "$REPO_WIKIBLAME" $PROJECT
+	git clone "$REPO_WIKIBLAME" $PROJECT
 
 elif [ "$PROJECT" = "wikimania" ]
 then

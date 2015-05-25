@@ -8,7 +8,7 @@ BASIC:
 
 FILES:
   class: FlatPhpFFS
-  sourcePattern: "%GROUPROOT%/wikiblame/%CODE%.php"
+  sourcePattern: "%GROUPROOT%/wikiblame/wikiblame_inc/%CODE%.php"
   header: |
     <?php
     /** WikiBlame

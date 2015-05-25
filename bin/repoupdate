@@ -85,6 +85,7 @@ nfcring-control \
 pywikibot \
 vicuna \
 waymarked-trails-site \
+wikiblame \
 wikimania \
 wikipedia-android \
 wikipedia-ios \
@@ -252,10 +253,6 @@ then
 elif [ "$PROJECT" = "wikia" ]
 then
 	gitupdate "$PROJECT" $REPO_WIKIA_BRANCH
-
-elif [ "$PROJECT" = "wikiblame" ]
-then
-	svn up -q $PROJECT
 
 else
 	echo "`basename $0`: Unknown project"
