@@ -67,6 +67,7 @@ nfcring-control \
 osm \
 vicuna \
 waymarked-trails-site \
+wikiblame \
 WikisourceMobile \
 WiktionaryMobile"
 
@@ -206,14 +207,6 @@ then
 elif [ "$PROJECT" = "wikia" ]
 then
     gitCommit "$PROJECT" dev
-
-elif [ "$PROJECT" = "wikiblame" ]
-then
-	cd $PROJECT
-	svn add -q --force *.php
-	svn propset -q svn:eol-style native *.php
-	svn commit --message "$COMMITMSG"
-	cd ..
 
 else
 	echo "`basename $0`: Unknown project"
