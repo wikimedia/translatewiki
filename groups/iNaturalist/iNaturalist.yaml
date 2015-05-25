@@ -22,3 +22,11 @@ FILES:
     zh-hans: zh-CN
     zh-hant: zh-TW
   codeAsRoot: true
+
+CHECKER:
+  class: INaturalistMessageChecker
+  checks:
+    - INaturalistVariablesCheck
+
+AUTOLOAD:
+  EOLMessageChecker: Checker.php
