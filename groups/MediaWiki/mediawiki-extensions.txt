@@ -1309,6 +1309,7 @@ Mass Edit Regex
 aliasfile = MassEditRegex/MassEditRegex.alias.php
 
 Mass Action
+aliasfile = MassAction/MassAction.alias.php
 
 Mass Message
 aliasfile = MassMessage/MassMessage.alias.php
