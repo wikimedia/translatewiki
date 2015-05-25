@@ -122,22 +122,6 @@ function setupMediaWikiSkins( &$list, &$deps, &$autoload ) {
 	return true;
 }
 
-$wgHooks['TranslatePostInitGroups'][] = array( 'setupWikia' );
-function setupWikia( &$list, &$deps, &$autoload ) {
-	global $GROUPS;
-
-	$def = "$GROUPS/Wikia/extensions.txt";
-	$path = '%GROUPROOT%/wikia/extensions/wikia/';
-
-	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
-	$foo->setNamespace( NS_WIKIA );
-	$foo->setGroupPrefix( 'wikia-' );
-	$foo->setUseConfigure( false );
-	$foo->register( $list, $deps, $autoload );
-
-	return true;
-}
-
 $wgHooks['TranslatePostInitGroups'][] = array( 'setupIntuition' );
 function setupIntuition( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
@@ -225,10 +209,6 @@ $wgTranslateBlacklist = array(
 'out' => array(
 	'roa-tara' => 'This code is not available for this software.',
 ),
-'wikia' => array(
-	'nl-be' => 'This code is not used in MediaWiki. Use \'nl\' or \'vls\'.',
-	'es-mx' => 'This code is not used in MediaWiki. Use \'es\'.',
-),
 );
 
 # Namespace 8
@@ -297,8 +277,8 @@ $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRIS.yaml";
 wfAddNamespace( 1230, 'Mifos' );
 $wgTranslateGroupFiles[] = "$GROUPS/Mifos/Mifos.yaml";
 
+# No longer in use.
 wfAddNamespace( 1232, 'Wikia' );
-$wgTranslateGroupFiles[] = "$GROUPS/Wikia/WikiaAgg.yaml";
 
 wfAddNamespace( 1234, 'OpenImages' );
 $wgTranslateGroupFiles[] = "$GROUPS/OpenImages/OpenImages.yaml";

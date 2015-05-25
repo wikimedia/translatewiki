@@ -250,10 +250,6 @@ then
 	gitupdate "$PROJECT"
 	gitupdate "potlatch2"
 
-elif [ "$PROJECT" = "wikia" ]
-then
-	gitupdate "$PROJECT" $REPO_WIKIA_BRANCH
-
 else
 	echo "`basename $0`: Unknown project"
 	exit 1

@@ -18,7 +18,6 @@ $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Open Images/stats/trunk" "$PARAM
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:OpenStreetMap/stats/trunk" "$PARAMS --groups=out-osm-0-all"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Pywikibot/stats" "$PARAMS --groups=out-pywikipedia-0-all"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:Intuition/stats" "$PARAMS --groups=tsint-0-all"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Wikia/stats" "$PARAMS --groups=wikia-0-all"
 $BASEDIR/wikistats "$WIKI" "$USER" "Translating:WikiBlame/stats/trunk" "$PARAMS --groups=out-wikiblame"
 $BASEDIR/wikistats "$WIKI" "$USER" "Project:MediaWiki_localisation_in_the_50_most_spoken_languages" "--most=wikimedia --speakers --continent --summary --legenddetail=Stats-legend-detail --legendsummary=Stats-legend-summary"
 $BASEDIR/wikistats "$WIKI" "$USER" "User:Jdforrester/VEstats" "$PARAMS --groups=ext-visualeditor-0-all"

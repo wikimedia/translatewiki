@@ -189,15 +189,6 @@ then
 	checkVar 'REPO_WAYMARKEDTRAILS'
 	git clone "$REPO_WAYMARKEDTRAILS" $PROJECT
 
-elif [ "$PROJECT" = "wikia" ]
-then
-	checkVar 'REPO_WIKIA'
-	checkVar 'REPO_WIKIA_BRANCH'
-	git clone "$REPO_WIKIA" $PROJECT
-	cd $PROJECT
-	git checkout -q --track origin/${REPO_WIKIA_BRANCH}
-	cd ..
-
 elif [ "$PROJECT" = "wikiblame" ]
 then
 	checkVar 'REPO_WIKIBLAME'

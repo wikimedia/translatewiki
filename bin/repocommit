@@ -204,10 +204,6 @@ then
 	svn commit --message "$COMMITMSG"
 	cd ..
 
-elif [ "$PROJECT" = "wikia" ]
-then
-    gitCommit "$PROJECT" dev
-
 else
 	echo "`basename $0`: Unknown project"
 	exit 1
