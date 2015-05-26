@@ -61,6 +61,7 @@ $wgExtraLanguageNames['pbb'] = 'Nasa Yuwe'; # Páez / Siebrand 2013-08-08
 $wgExtraLanguageNames['pis'] = 'Pijin'; # Pijin / Siebrand 2011-08-25
 $wgExtraLanguageNames['pko'] = 'Pökoot'; # Pökoot
 $wgExtraLanguageNames['ppl'] = 'Nawat'; # Pipil / Siebrand 2011-08-30
+$wgExtraLanguageNames['prs'] = 'دری'; # Dari
 $wgExtraLanguageNames['pru'] = 'Prūsiskan'; # Prussian
 $wgExtraLanguageNames['rap'] = 'arero rapa nui'; # Rapa Nui / Siebrand 2009-11-13
 $wgExtraLanguageNames['rcf'] = 'Kreol Réyoné'; # Réunion Creole French / 2014-04-08

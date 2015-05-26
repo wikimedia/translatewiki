@@ -90,6 +90,7 @@ $wgTranslateLanguageFallbacks['ppl'] = array( 'es' );
 $wgTranslateLanguageFallbacks['pt'] = array( 'pt-br', 'es', 'gl' ); # [[Thread:Support/wgTranslateLanguageFallbacks for Portuguese]]
 $wgTranslateLanguageFallbacks['pt-br'] = array( 'es', 'gl' );
 $wgTranslateLanguageFallbacks['prg'] = array( 'lv', 'lt' );
+$wgTranslateLanguageFallbacks['prs'] = array( 'fa', 'ps' );
 $wgTranslateLanguageFallbacks['qu'] = array( 'es', 'qug' );
 $wgTranslateLanguageFallbacks['qug'] = array( 'es', 'qu' );
 $wgTranslateLanguageFallbacks['rcf'] = array( 'fr' );
