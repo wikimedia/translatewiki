@@ -16,6 +16,7 @@ $wgTranslateLanguageFallbacks['bew'] = 'id';
 $wgTranslateLanguageFallbacks['bfq'] = array( 'kn', 'ta' );
 $wgTranslateLanguageFallbacks['bjn'] = 'id';
 $wgTranslateLanguageFallbacks['br'] = array( 'roa-rup', 'pms', 'fr', 'it' );
+$wgTranslateLanguageFallbacks['cja-latn'] = array( 'km' );
 $wgTranslateLanguageFallbacks['cjm-latn'] = array( 'vi' );
 $wgTranslateLanguageFallbacks['cjy-hans'] = array( 'zh-hans' );
 $wgTranslateLanguageFallbacks['cjy-hant'] = array( 'zh-hant' );
