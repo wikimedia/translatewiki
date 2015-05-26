@@ -2448,13 +2448,16 @@ aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 # Wikidata Page Banner
 
 Wikidata Quality
-ignored = wikidataquality-checkresult-form-entityid-placeholder
+aliasfile = WikidataQuality/WikibaseQuality.alias.php
+ignored = wbq-violations-entity-id-placeholder, wbq-violations-property-id-placeholder
 
 Wikidata Quality Constraints
 aliasfile = WikidataQualityConstraints/WikibaseQualityConstraints.alias.php
+ignored = wbqc-constraintreport-form-entityid-placeholder
 
 Wikidata Quality External Validation
 aliasfile = WikidataQualityExternalValidation/WikibaseQualityExternalValidation.alias.php
+ignored = wbqev-crosscheck-form-entityid-placeholder
 
 Wikihiero
 file = wikihiero/i18n/%CODE%.json
