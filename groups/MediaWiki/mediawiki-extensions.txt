@@ -651,7 +651,7 @@ descmsg = questycaptcha-desc
 optional = questycaptcha-desc
 
 ConfirmEdit ReCaptcha
-file = ConfirmEdit/ReCaptcha/%CODE%.json
+file = ConfirmEdit/ReCaptcha/i18n/%CODE%.json
 descmsg = recaptcha-desc
 optional = recaptcha-desc
 
