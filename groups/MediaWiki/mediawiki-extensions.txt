@@ -2457,7 +2457,7 @@ ignored = wbqc-constraintreport-form-entityid-placeholder
 
 Wikidata Quality External Validation
 aliasfile = WikidataQualityExternalValidation/WikibaseQualityExternalValidation.alias.php
-ignored = wbqev-crosscheck-form-entityid-placeholder
+ignored = wbqev-crosscheck-form-entityid-placeholder, wbqev-violation-long-message-headline
 
 Wikihiero
 file = wikihiero/i18n/%CODE%.json
