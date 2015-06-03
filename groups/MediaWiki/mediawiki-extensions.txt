@@ -1293,7 +1293,8 @@ ignored = maintenance-createAndPromote-output-done, maintenance-createAndPromote
 Maintenance Shell
 aliasfile = MaintenanceShell/MaintenanceShell.alias.php
 
-Mantle
+# Deleted Ib081c4e66e372a7f3a110e4e7299eb6d8634b282
+# Mantle
 
 Map Sources
 aliasfile = MapSources/MapSources.i18n.alias.php
