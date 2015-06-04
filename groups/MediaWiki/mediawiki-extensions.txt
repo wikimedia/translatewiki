@@ -2298,6 +2298,7 @@ OOjs UI (via VisualEditor)
 id = ext-visualeditor-oojs-ui
 descmsg = visualeditor-desc
 file = oojs-ui/i18n/%CODE%.json
+optional = ooui-semicolon-separator
 
 Vine
 
