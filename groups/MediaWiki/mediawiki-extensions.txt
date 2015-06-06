@@ -80,8 +80,9 @@ optional = approvedrevs-revision-nav
 
 Arrays
 
-# SVN import, incomplete message documenation
-#Article Comments
+Article Comments
+aliasfile = ArticleComments/ArticleComments.alias.php
+descmsg = article-comments-desc
 
 # Unmaintained by Wikimedia, no longer deployed.
 #Article Feedback
