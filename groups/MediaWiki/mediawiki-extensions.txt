@@ -116,6 +116,7 @@ Author Protect
 Auto Create Category Pages
 
 Auto Proxy Block
+ignored = proxyblock-logentry
 
 Automatic Board Welcome
 
