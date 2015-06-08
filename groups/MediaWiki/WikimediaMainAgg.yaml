@@ -10,6 +10,7 @@ BASIC:
 GROUPS:
   - ext-antispoof
   - ext-babel
+  - ext-betafeatures
   - ext-campaigns # 2013-06-13: all projects
   - ext-categorytree
   - ext-cirrussearch # Change id 500b9c9d66fa7f410394d5665ea3abc3a184bf50
