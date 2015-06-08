@@ -41,6 +41,7 @@ GROUPS:
   - ext-sitematrix
   - ext-spamblacklist
   - ext-thanks
+  - ext-templatedata
   - ext-timedmediahandler
   - ext-timeline
   - ext-titleblacklist
