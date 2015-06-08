@@ -38,8 +38,7 @@ Ads
 
 # Agora // Discontinued, Change-Id: Iab62e90011c4e685b1c480cc051676d9fa1b2897
 
-# Missing message documentatin
-# Ajax Login
+Ajax Login
 
 AJAX Poll
 
