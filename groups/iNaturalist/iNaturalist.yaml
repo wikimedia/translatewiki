@@ -29,4 +29,4 @@ CHECKER:
     - INaturalistVariablesCheck
 
 AUTOLOAD:
-  EOLMessageChecker: Checker.php
+  INaturalistMessageChecker: Checker.php
