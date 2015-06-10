@@ -83,6 +83,7 @@ Arrays
 Article Comments
 aliasfile = ArticleComments/ArticleComments.alias.php
 descmsg = article-comments-desc
+ignored = article-comments-prefilled-comment-text, article-comments-new-comment-heading, article-comments-comment-contents
 
 # Unmaintained by Wikimedia, no longer deployed.
 #Article Feedback
