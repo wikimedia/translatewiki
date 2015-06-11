@@ -105,3 +105,7 @@ TAGS:
     - site.edit.anon_edits_link
     - site.index.license.license_url
     - site.index.license.project_url
+    - help_page.mailing_lists.url
+    - help_page.forums.url
+    - help_page.irc.url
+    - help_page.switch2osm.url
