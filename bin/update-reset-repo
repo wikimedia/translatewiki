@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # Allow for passing a base path and repo folder name in two parameters
 # or a single full path as parameter.
@@ -10,26 +11,14 @@ else
 	DIR=$1
 fi
 
+BRANCH=${3:-master}
+
 # Updates the repository in the current directory and resets it.
-# Does not retry in case of errors.
 # Sets OUTPUT to the output of the git operations
 # Sets CODE to the return value of the pipeline.
 update_reset() {
-	OUTPUT="$(git ls-remote --exit-code origin refs/heads/master)"
+	OUTPUT=$(git fetch -q && git reset -q --hard origin/$BRANCH && git clean -q -f -d 2>&1 >&-)
 	CODE=$?
-
-	case "$CODE" in
-	0)
-		# Actual fetching, resetting, ...
-		OUTPUT=$(git fetch -q --all && git reset -q --hard origin/master && git clean -q -f -d 2>&1 >&-)
-		CODE=$?
-		;;
-	2)
-		# remote does not have refs/heads/master
-		# No need to try fetching, resetting, ...
-		CODE=0
-		;;
-	esac
 }
 
 cd $DIR

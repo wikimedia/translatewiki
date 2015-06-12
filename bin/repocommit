@@ -9,37 +9,22 @@ PROJECT=$1
 DIR=$2
 : ${DIR:=`pwd`}
 source ${DIRSCRIPT}/findexportroot
-cd "$DIR"
 
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
 COMMITMSG="Localisation updates from https://translatewiki.net."
 
-
 gitCommit() {
-	local dir=$1
-	cd "$dir"
+	cd "$1"
 	git add .
 	git commit -m "$COMMITMSG"
-
-    # Check if $2 is set. If not, push to origin master
-	if [[ -z "$2" ]]
-	then
-	    git push origin master
-	else
-	    git push origin $2
-    fi
-
-	cd ..
+	git push origin "${2:-master}"
 }
 
 gitCommitGerrit() {
-	local dir=$1
-	cd $PROJECT
+	cd $1
 	git add .
-	git commit -q -m "$COMMITMSG" && git fetch -q gerrit && git review -t l10n || :
-	mergeL10n-bot
-	cd ..
+	git commit -q -m "$COMMITMSG" && git review -r origin -t l10n || :
 }
 
 mergeL10n-bot() {
@@ -74,16 +59,16 @@ WiktionaryMobile"
 for i in $GITPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
 	then
-		gitCommit "$PROJECT"
+		gitCommit "$DIR/$PROJECT"
 
 		if [ "$PROJECT" = "blockly" ]
 		then
-			gitCommit blockly-games
+			gitCommit "$DIR/blockly-games"
 		fi
 
 		if [ "$PROJECT" = "osm" ]
 		then
-			gitCommit potlatch2
+			gitCommit "$DIR/potlatch2"
 		fi
 
 		exit 0
@@ -100,18 +85,19 @@ wikipedia-ios"
 for i in $GERRITPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
 	then
-		gitCommitGerrit "$PROJECT"
+		gitCommitGerrit "$DIR/$PROJECT"
+		mergeL10n-bot
 		exit 0
 	fi
 done
 
 if [ "$PROJECT" = "etherpad-lite" ]
 then
-    gitCommit "$PROJECT" develop
+    gitCommit "$DIR/$PROJECT" develop
 
 elif [ "$PROJECT" = "fudforum" ]
 then
-	cd $PROJECT
+	cd "$DIR/$PROJECT"
 	svn add -q --force *
 	for i in `find . -name msg`
 	do
@@ -119,22 +105,19 @@ then
 		svn propset -q svn:eol-style native $i
 	done
 	svn commit --message "$COMMITMSG"
-	cd ..
 
 elif [ "$PROJECT" = "ihris" ]
 then
-	cd $PROJECT
 	for MODULE in $REPO_IHRIS_MODULES
 	do
-		cd $MODULE
+		cd "$DIR/$PROJECT/$MODULE"
 		bzr add .
 		bzr commit -m "$COMMITMSG"
-		cd ..
 	done
 
 elif [ "$PROJECT" = "inaturalist" ]
 then
-	gitCommit "$PROJECT" i18n
+	gitCommit "$DIR/$PROJECT" i18n
 
 elif [ "$PROJECT" = "mediawiki" ]
 then
@@ -142,67 +125,48 @@ then
 	then echo "Add REPO_MEDIAWIKI_BRANCHES to REPOCONF"; exit 1
 	fi
 
-	cd $PROJECT
 	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
 	do
-		cd "$BRANCH"
-		git add .
-		git commit -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
-		cd ..
+		gitCommitGerrit "$DIR/$PROJECT/$BRANCH"
 	done
-	cd ..
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
-	cd $PROJECT/extensions
-	for i in `ls`
+	for i in `ls "$DIR/$PROJECT/extensions"`
 	do
 		echo "--> $i"
-		cd $i
-		git add .
-		git commit -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
-		cd ..
+		gitCommitGerrit "$DIR/$PROJECT/extensions/$i"
 	done
-
-	cd ../..
 
 	mergeL10n-bot
 
 elif [ "$PROJECT" = "mediawiki-skins" ]
 then
-	cd $PROJECT
-	for i in `ls`
+	for i in `ls $DIR/$PROJECT`
 	do
 		echo "--> $i"
-		cd $i
-		git add .
-		git commit -m "$COMMITMSG" && git fetch gerrit && git review -t l10n || :
-		cd ..
+		gitCommitGerrit "$DIR/$PROJECT/$i"
 	done
-
-	cd ..
 
 	mergeL10n-bot
 
 elif [ "$PROJECT" = "mifos" ]
 then
-    gitCommit "$PROJECT" develop
+    gitCommit "$DIR/$PROJECT" develop
 
 elif [ "$PROJECT" = "nocc" ]
 then
-	cd $PROJECT
+	cd "$DIR/$PROJECT"
 	svn add --force * --auto-props --parents --depth infinity -q
 	svn commit --message "$COMMITMSG"
-	cd ..
 
 elif [ "$PROJECT" = "openimages" ]
 then
-	cd $PROJECT
+	cd "$DIR/$PROJECT"
 	svn add -q --force *.properties
 	svn propset -q svn:mime-type text/plain *.properties
 	svn propset -q svn:eol-style native *.properties
 	svn commit --message "$COMMITMSG"
-	cd ..
 
 else
 	echo "`basename $0`: Unknown project"
