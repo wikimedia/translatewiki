@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "8ec42329_0ff6e5d4",
+        "filename": "groups/Wikimedia/WikiEduDashboard.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2015-06-14T13:01:27Z",
+      "side": 1,
+      "message": "Typos maybe? They have a \"Wiki Edu\" logo in that page.",
+      "parentUuid": "8ec42329_cf68dd86",
+      "revId": "d6363e310167ae7a3609f94a36d33bf76139572b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8ec42329_2f43a116",
         "filename": "groups/Wikimedia/WikiEduDashboard.yaml",
         "patchSetId": 4
