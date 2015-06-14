@@ -22,6 +22,24 @@
       "revId": "09cdf420fb1b058029e88fb7a1bfa550fa74bc2c",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ec42329_eff039c6",
+        "filename": "groups/Wikimedia/WikiEduDashboard.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-06-14T13:28:44Z",
+      "side": 1,
+      "message": "We have labels so that they can change more easily than ids. I would need to change  many many lines and even the repo name itself is not renamed.",
+      "parentUuid": "8ec42329_4f238d54",
+      "revId": "09cdf420fb1b058029e88fb7a1bfa550fa74bc2c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
