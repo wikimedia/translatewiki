@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "8ec42329_effa79b5",
+        "filename": "groups/Wikimedia/WikiEduDashboard.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-06-14T13:02:44Z",
+      "side": 1,
+      "message": "https://github.com/WikiEducationFoundation/WikiEduDashboard/commit/6f6425084181177ae43e4a2d7c8c1fc9b97c52be is not a typoe",
+      "parentUuid": "8ec42329_0ff6e5d4",
+      "revId": "d6363e310167ae7a3609f94a36d33bf76139572b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8ec42329_2f43a116",
         "filename": "groups/Wikimedia/WikiEduDashboard.yaml",
         "patchSetId": 4
