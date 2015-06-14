@@ -40,6 +40,24 @@
       "revId": "09cdf420fb1b058029e88fb7a1bfa550fa74bc2c",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ec42329_2fce4187",
+        "filename": "groups/Wikimedia/WikiEduDashboard.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2015-06-14T13:33:04Z",
+      "side": 1,
+      "message": "Ok. So I\u0027ll create all pages with the \"WikiEdu\" name as well.",
+      "parentUuid": "8ec42329_eff039c6",
+      "revId": "09cdf420fb1b058029e88fb7a1bfa550fa74bc2c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
