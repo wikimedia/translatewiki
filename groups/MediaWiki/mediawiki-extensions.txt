@@ -2234,6 +2234,9 @@ ignored = tweetanew-accesskey
 
 Twitter Cards
 
+Twitter Login
+aliasfile = TwitterLogin/TwitterLogin.alias.php
+
 Twn Main Page
 aliasfile = TwnMainPage/MainPage.alias.php
 descmsg = twnmp-desc
