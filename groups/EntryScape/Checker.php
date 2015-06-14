@@ -7,6 +7,6 @@
 
 class EntryScapeMessageChecker extends MessageChecker {
 	protected function EntryScapeVariablesCheck( $messages, $code, &$warnings ) {
-		return parent::parameterCheck( $messages, $code, $warnings, '/\$?{[^}]+}|%s/' );
+		return parent::parameterCheck( $messages, $code, $warnings, '/\$?{[a-z]+}|%s/' );
 	}
 }
