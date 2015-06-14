@@ -1077,6 +1077,7 @@ descmsg = gur-desc
 
 Google AdSense
 ignored = googleadsense
+optional = googleadsense-name
 
 google Analytics
 
