@@ -13,17 +13,11 @@ cd "$DIR"
 
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
-gitCreateGerrit() {
-	if [ "$REPO_RW" = "yes" ]
-	then
-		pushd "$1"
-		git config user.name 'Translation updater bot'
-		git config user.email 'l10n-bot@translatewiki.net'
-		git config gitreview.username 'l10n-bot'
-		git review -s
-		popd
-	fi
-}
+
+if [ "${REPO_RW:-no}" = "yes" ]
+then CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-gerrit-repo";
+else CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-git-repo";
+fi
 
 checkVar() {
 	if [ -z "${!1}" ]
@@ -131,11 +125,9 @@ then
 	checkVar 'REPO_MEDIAWIKI'
 	checkVar 'REPO_MEDIAWIKI_BRANCHES'
 	mkdir -p $PROJECT
-	cd $PROJECT
 	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
 	do
-		git clone "$REPO_MEDIAWIKI" "$BRANCH" -b "$BRANCH"
-		gitCreateGerrit $BRANCH
+		"$CLUPDATE_GERRIT" "$REPO_MEDIAWIKI" "$DIR/$PROJECT/$BRANCH" $BRANCH
 	done
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
@@ -176,8 +168,7 @@ then
 elif [ "$PROJECT" = "pywikibot" ]
 then
 	checkVar 'REPO_PYWIKIBOT'
-	git clone "$REPO_PYWIKIBOT" $PROJECT
-	gitCreateGerrit $PROJECT
+	"$CLUPDATE_GERRIT" "$REPO_PYWIKIBOT" "$DIR/$PROJECT"
 
 elif [ "$PROJECT" = "vicuna" ]
 then
@@ -197,20 +188,17 @@ then
 elif [ "$PROJECT" = "wikimania" ]
 then
 	checkVar 'REPO_WIKIMANIA'
-	git clone "$REPO_WIKIMANIA" $PROJECT
-	gitCreateGerrit $PROJECT
+	"$CLUPDATE_GERRIT" "$REPO_WIKIMANIA" "$DIR/$PROJECT"
 
 elif [ "$PROJECT" = "wikipedia-android" ]
 then
 	checkVar 'REPO_WIKIPEDIAANDROID'
-	git clone "$REPO_WIKIPEDIAANDROID" $PROJECT
-	gitCreateGerrit $PROJECT
+	"$CLUPDATE_GERRIT" "$REPO_WIKIPEDIAANDROID" "$DIR/$PROJECT"
 
 elif [ "$PROJECT" = "wikipedia-ios" ]
 then
 	checkVar 'REPO_WIKIPEDIAIOS'
-	git clone "$REPO_WIKIPEDIAIOS" $PROJECT
-	gitCreateGerrit $PROJECT
+	"$CLUPDATE_GERRIT" "$REPO_WIKIPEDIAIOS" "$DIR/$PROJECT"
 
 elif [ "$PROJECT" = "WikisourceMobile" ]
 then

@@ -15,61 +15,29 @@ cd "$DIR"
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> $DIRLOG
 
 gitupdate() {
-	local dir=$1
-	cd $dir
-	git fetch -q --all
-	if [ -z "$2" ]
-	then
-		git reset -q --hard origin/master
-	else
-		git reset -q --hard origin/$2
-	fi
-	git clean -q -f -d
-	git pull -q
-	cd ..
+	"$DIRSCRIPT/update-reset-repo" "$DIR" "$1" "$2"
 }
 
-cloneGerritRepo() {
-	local url=$1
-	local name=$2
-
-	git clone "$url" "$name"
-
-	if [ "$REPO_RW" = "yes" ]
+processGroups() {
+	if [ -z "$REPO_RW" ]
 	then
-		cd "$name"
-
-		git config user.name 'Translation updater bot'
-		git config user.email 'l10n-bot@translatewiki.net'
-		git config gitreview.username 'l10n-bot'
-
-		if [ ! -e ".gitreview" ]
-		then
-			git remote add -f gerrit "$url"
-		fi
-
-		git review -s
-
-		cd ..
+		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --group="$1" &&
+		echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
 	fi
 }
 
-# Ugly. Eventually, I think we should end up with a file similar to
-# mediawiki-extensions.txt where we can simply add a line like this:
-#   repo=https://gerrit.wikimedia.org/r/p/oojs/ui.git
-# and then things magically happen based on the other configuration
-# settings.
-processHacks() {
-	if [ ! -d "oojs-ui/.git" ]
-	then
-		cloneGerritRepo "https://gerrit.wikimedia.org/r/p/oojs/ui.git" "oojs-ui"
-	fi
-
-	if [ ! -d "VisualEditorVisualEditor/.git" ]
-	then
-		cloneGerritRepo "https://gerrit.wikimedia.org/r/p/VisualEditor/VisualEditor.git" "VisualEditorVisualEditor"
-	fi
+fetchReposFromGerrit() {
+	curl -s "https://gerrit.wikimedia.org/r/projects/?p=$1" |
+	grep "$1" |
+	cut -d '"' -f2 |
+	cut -d '/' -f3 |
+	sort
 }
+
+if [ "${REPO_RW:-no}" = "yes" ]
+then CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-gerrit-repo";
+else CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-git-repo";
+fi
 
 GITUPDATEPROJECTS="\
 eol \
@@ -141,36 +109,8 @@ then
 	then echo "Add REPO_MEDIAWIKI_BRANCHES to REPOCONF"; exit 1
 	fi
 
-	cd $PROJECT
-	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
-	do
-		if [ ! -d "$BRANCH" ]
-		then
-			echo "$BRANCH not yet present. Cloning..."
-			git clone "$REPO_MEDIAWIKI" "$BRANCH" -b "$BRANCH"
-			if [ "$REPO_RW" = "yes" ]
-			then
-				cd "$BRANCH"
-				git config user.name 'Translation updater bot'
-				git config user.email 'l10n-bot@translatewiki.net'
-				git config gitreview.username 'l10n-bot'
-				git review -s
-			fi
-		else
-			cd "$BRANCH"
-			git fetch -q --all
-			git reset -q --hard "origin/$BRANCH"
-			git clean -q -f -d
-		fi
-		cd ..
-	done
-	cd ..
-
-	wait
-	if [ "$DIR" = "/resources/projects" ]
-	then
-		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || ${DIRSCRIPT}/udpcast Message index creation failed &
-	fi
+	echo "$REPO_MEDIAWIKI_BRANCHES" | tr ' ' '\n' |
+		xargs -P4 I___ "$CLUPDATE_GERRIT" "$REPO_MEDIAWIKI" "$DIR/$PROJECT/___" "___"
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
@@ -178,34 +118,14 @@ then
 	then echo "Add REPO_MWEXTGIT to REPOCONF"; exit 1
 	fi
 
-	cd $PROJECT
-	cd extensions
+	echo "$(fetchReposFromGerrit mediawiki/extensions/)" |
+		xargs -P4 -I___ "$CLUPDATE_GERRIT" "$REPO_MWEXTGIT/___.git" "$DIR/$PROJECT/extensions/___"
 
-	EXTENSIONS=$(curl -s https://gerrit.wikimedia.org/r/projects/?p=mediawiki/extensions/ |grep 'mediawiki/extensions/' |cut -d '"' -f 2 |cut -d '/' -f3 | sort)
+	"$CLUPDATE_GERRIT" "https://gerrit.wikimedia.org/r/p/oojs/ui.git" "$DIR/$PROJECT/extensions/oojs-ui" &
+	"$CLUPDATE_GERRIT" "https://gerrit.wikimedia.org/r/p/VisualEditor/VisualEditor.git" "$DIR/$PROJECT/extensions/VisualEditorVisualEditor" &
+	wait
 
-	# Clone extension repos that do not exist yet.
-	for EXTENSION in $EXTENSIONS
-	do
-		if [ ! -d "$EXTENSION/.git" ]
-		then
-			echo "Cloning extension $EXTENSION"
-			cloneGerritRepo "$REPO_MWEXTGIT/$EXTENSION.git" "$EXTENSION"
-		fi
-	done
-
-	# This is where I disappoint Niklas a bit more...
-	processHacks
-	EXTENSIONS="$EXTENSIONS VisualEditorVisualEditor oojs-ui"
-
-	# Update all repos (yes, there is duplication for repos that were just cloned)
-	echo $EXTENSIONS |
-		xargs -n1 -P7 ${DIRSCRIPT}/update-reset-repo "$DIR/$PROJECT/extensions"
-
-	if [ -z "$REPO_RW" ]
-	then
-		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --group=ext-* && echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
-		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || ${DIRSCRIPT}/udpcast Message index creation failed &
-	fi
+	processGroups "ext-*"
 
 elif [ "$PROJECT" = "mediawiki-skins" ]
 then
@@ -213,29 +133,10 @@ then
 	then echo "Add REPO_MWSKINGIT to REPOCONF"; exit 1
 	fi
 
-	cd $PROJECT
+	echo "$(fetchReposFromGerrit mediawiki/skins/)" |
+		xargs -P4 -I___ "$CLUPDATE_GERRIT" "$REPO_MWSKINGIT/___.git" "$DIR/$PROJECT/___"
 
-	SKINS=$(curl -s https://gerrit.wikimedia.org/r/projects/?p=mediawiki/skins/ |grep 'mediawiki/skins/' |cut -d '"' -f 2 |cut -d '/' -f3 |sort)
-
-	# Clone skin repos that do not exist yet.
-	for SKIN in $SKINS
-	do
-		if [ ! -d "$SKIN/.git" ]
-		then
-			echo "Cloning skin $SKIN"
-			cloneGerritRepo "$REPO_MWSKINGIT/$SKIN.git" "$SKIN"
-		fi
-	done
-
-	# Update all repos (yes, there is duplication for repos that were just cloned)
-	echo $SKINS |
-		xargs -n1 -P7 ${DIRSCRIPT}/update-reset-repo "$DIR/$PROJECT"
-
-	if [ -z "$REPO_RW" ]
-	then
-		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --group=mediawiki-skin-* && echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
-		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/createMessageIndex.php" --quiet || ${DIRSCRIPT}/udpcast Message index creation failed &
-	fi
+	processGroups "mediawiki-skin-*"
 
 elif [ "$PROJECT" = "nocc" ]
 then

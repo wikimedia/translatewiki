@@ -1,0 +1,29 @@
+#!/bin/bash
+set -e
+set -u
+
+DIRSCRIPT="`dirname \"$0\"`"
+DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
+
+ME=`basename "$0"`
+
+URL=$1
+DIR=$2
+BRANCH=${3:-master}
+
+if [ -d "$DIR/.git" ]
+then
+	"$DIRSCRIPT/update-reset-repo" "$DIR" "" "$BRANCH"
+else
+	git clone "$URL" "$DIR" -b "$BRANCH"
+
+	if [ "$ME" = 'clupdate-gerrit-repo' ]
+	then
+		cd "$DIR"
+		git config user.name 'Translation updater bot'
+		git config user.email 'l10n-bot@translatewiki.net'
+		git config gitreview.username 'l10n-bot'
+
+		git review -r origin -s
+	fi
+fi
