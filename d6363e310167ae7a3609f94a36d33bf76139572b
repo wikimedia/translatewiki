@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ec42329_8f5bb5fc",
+        "filename": "groups/Wikimedia/WikiEduDashboard.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2015-06-14T12:52:02Z",
+      "side": 1,
+      "message": "The README still says \"WikiEdu Dashboard\" https://github.com/WikiEducationFoundation/WikiEduDashboard . What\u0027s the canonical description you\u0027re referring to?",
+      "revId": "d6363e310167ae7a3609f94a36d33bf76139572b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ec42329_2f43a116",
+        "filename": "groups/Wikimedia/WikiEduDashboard.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2015-06-14T12:52:02Z",
+      "side": 1,
+      "message": "Wikipedia_Education_Program_logo_square.png",
+      "revId": "d6363e310167ae7a3609f94a36d33bf76139572b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
