@@ -13,6 +13,7 @@ BRANCH=${3:-master}
 
 if [ -d "$DIR/.git" ]
 then
+	echo "$DIR" "$BRANCH"
 	"$DIRSCRIPT/update-reset-repo" "$DIR" "" "$BRANCH"
 else
 	git clone "$URL" "$DIR" -b "$BRANCH"

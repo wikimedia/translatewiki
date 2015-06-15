@@ -25,7 +25,7 @@ gitupdate() {
 }
 
 processGroups() {
-	if [ "${REPO_RW:-no}" = "yes" ]
+	if [ "${REPO_RW:-no}" = "no" ]
 	then
 		sudo -u betawiki php "$WIKI/extensions/Translate/scripts/processMessageChanges.php" --quiet --group="$1" &&
 		echo "Please check https://translatewiki.net/wiki/Special:ManageMessageGroups"
