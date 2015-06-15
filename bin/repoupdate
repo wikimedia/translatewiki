@@ -32,11 +32,14 @@ processGroups() {
 	fi
 }
 
+# Ignore subrepos like Collection/OfflineContentGenerator
 fetchReposFromGerrit() {
 	curl -s "https://gerrit.wikimedia.org/r/projects/?p=$1" |
 	grep "$1" |
 	cut -d '"' -f2 |
-	cut -d '/' -f3 |
+	cut -d '/' -f3- |
+	grep -v '/' |
+	grep -v 'WikibaseRepository' | # T102453
 	sort
 }
 
@@ -131,7 +134,7 @@ then
 	fi
 
 	echo "$REPO_MEDIAWIKI_BRANCHES" | tr ' ' '\n' |
-		xargs -P4 I___ "$CLUPDATE_GERRIT" "$REPO_MEDIAWIKI" "$DIR/$PROJECT/___" "___"
+		xargs -P4 -I___ "$CLUPDATE_GERRIT" "$REPO_MEDIAWIKI" "$DIR/$PROJECT/___" "___"
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
@@ -142,9 +145,9 @@ then
 	echo "$(fetchReposFromGerrit mediawiki/extensions/)" |
 		xargs -P4 -I___ "$CLUPDATE_GERRIT" "$REPO_MWEXTGIT/___.git" "$DIR/$PROJECT/extensions/___"
 
-	"$CLUPDATE_GERRIT" "https://gerrit.wikimedia.org/r/p/oojs/ui.git" "$DIR/$PROJECT/extensions/oojs-ui" &
-	"$CLUPDATE_GERRIT" "https://gerrit.wikimedia.org/r/p/VisualEditor/VisualEditor.git" "$DIR/$PROJECT/extensions/VisualEditorVisualEditor" &
-	wait
+	REPOPREFIX="${REPO_MWEXTGIT%/mediawiki/extensions}"
+	"$CLUPDATE_GERRIT" "$REPOPREFIX/oojs/ui.git" "$DIR/$PROJECT/extensions/oojs-ui"
+	"$CLUPDATE_GERRIT" "$REPOPREFIX/VisualEditor/VisualEditor.git" "$DIR/$PROJECT/extensions/VisualEditorVisualEditor"
 
 	processGroups "ext-*"
 
