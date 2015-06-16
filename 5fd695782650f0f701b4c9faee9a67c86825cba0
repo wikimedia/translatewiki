@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ec42329_28bce9d4",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 1133,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2015-06-16T09:41:14Z",
+      "side": 1,
+      "message": "missing ignored entry for the empty message \"hitcounters-popularpages-summary\"",
+      "revId": "5fd695782650f0f701b4c9faee9a67c86825cba0",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
