@@ -190,26 +190,6 @@ then
 	checkVar 'REPO_WIKIMANIA'
 	"$CLUPDATE_GERRIT" "$REPO_WIKIMANIA" "$DIR/$PROJECT"
 
-elif [ "$PROJECT" = "wikipedia-android" ]
-then
-	checkVar 'REPO_WIKIPEDIAANDROID'
-	"$CLUPDATE_GERRIT" "$REPO_WIKIPEDIAANDROID" "$DIR/$PROJECT"
-
-elif [ "$PROJECT" = "wikipedia-ios" ]
-then
-	checkVar 'REPO_WIKIPEDIAIOS'
-	"$CLUPDATE_GERRIT" "$REPO_WIKIPEDIAIOS" "$DIR/$PROJECT"
-
-elif [ "$PROJECT" = "WikisourceMobile" ]
-then
-	checkVar 'REPO_WIKISOURCEMOBILE'
-	git clone "$REPO_WIKISOURCEMOBILE" $PROJECT
-
-elif [ "$PROJECT" = "WiktionaryMobile" ]
-then
-	checkVar 'REPO_WIKTIONARYMOBILE'
-	git clone "$REPO_WIKTIONARYMOBILE" $PROJECT
-
 else
 	echo "`basename $0`: Unknown project"
 	exit 1

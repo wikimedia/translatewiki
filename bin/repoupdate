@@ -64,11 +64,7 @@ pywikibot \
 vicuna \
 waymarked-trails-site \
 wikiblame \
-wikimania \
-wikipedia-android \
-wikipedia-ios \
-WikisourceMobile \
-WiktionaryMobile"
+wikimania"
 
 for i in $GITUPDATEPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
@@ -80,12 +76,18 @@ done
 
 GITCLUPDATE="\
 entryscape \
-wikiedudashboard"
+wikiedudashboard \
+wikipedia-android \
+wikipedia-ios \
+WikisourceMobile \
+WiktionaryMobile"
 
 for i in $GITCLUPDATE; do
 	if [ "$i" = "$PROJECT" ]
 	then
-		VAR="REPO_${PROJECT^^}"
+		VAR="${PROJECT^^}"
+		VAR="${VAR//-}"
+		VAR="REPO_$VAR"
 		checkVar "$VAR"
 		"$CLUPDATE" "${!VAR}" "$DIR/$PROJECT"
 		exit 0
