@@ -9,6 +9,7 @@ REPO_MWSKINGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/skins
 REPO_BLOCKLY=git@github.com:google/blockly.git
 REPO_BLOCKLYGAMES=git@github.com:google/blockly-games.git
 REPO_EOL=git@github.com:EOL/eol.git
+REPO_ENTRYSCAPE=git@bitbucket.org:metasolutions/entryscape-nls.git
 REPO_ETHERPADLITE=git@github.com:ether/etherpad-lite.git
 REPO_ETHERPADLITE_BRANCH="develop"
 REPO_EUROPEANA=git@github.com:europeana/Europeana1914-1918.git
