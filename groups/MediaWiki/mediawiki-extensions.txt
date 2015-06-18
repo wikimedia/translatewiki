@@ -716,6 +716,9 @@ optional = dt_filetype_xml, dt_filetype_csv
 
 Debug Mode
 
+Debug Templates
+aliasfile = DebugTemplates/DebugTemplates.alias.php
+
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
 
