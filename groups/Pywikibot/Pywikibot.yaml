@@ -213,6 +213,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/fixing_redirects/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-followlive
+  label: Pywikibot Follow Live
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/followlive/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-interwiki
   label: Pywikibot Interwiki
 
@@ -278,6 +285,13 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/pagefromfile/%CODE%.json"
+---
+BASIC:
+  id: out-pywikipedia-piper
+  label: Pywikibot Piper
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/piper/%CODE%.json"
 ---
 BASIC:
   id: out-pywikipedia-protect
