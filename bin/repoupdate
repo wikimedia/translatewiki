@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 set -u
 
 DIRSCRIPT="`dirname \"$0\"`"
@@ -39,7 +38,6 @@ fetchReposFromGerrit() {
 	cut -d '"' -f2 |
 	cut -d '/' -f3- |
 	grep -v '/' |
-	grep -v 'WikibaseRepository' | # T102453
 	sort
 }
 
