@@ -21,7 +21,7 @@ checkVar() {
 }
 
 gitupdate() {
-	"$DIRSCRIPT/update-reset-repo" "$DIR" "$1" "${2:-master}"
+	"$DIRSCRIPT/update-reset-repo" "$DIR/$1" "" "${2:-master}"
 }
 
 processGroups() {
