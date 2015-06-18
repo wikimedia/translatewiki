@@ -326,6 +326,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/reflinks/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-removeedpimages
+  label: Pywikibot Remove edp Images
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/remove_edp_images/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-replace
   label: Pywikibot Replace
 
