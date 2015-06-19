@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ec42329_ad9c4713",
+        "filename": "FallbackSettings.php",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2015-06-19T09:28:55Z",
+      "side": 1,
+      "message": "This should be removed, as the code is blacklisted.",
+      "revId": "ea43a1d5a85721c1d3e99f5043c2fe7b683989ed",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
