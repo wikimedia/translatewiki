@@ -161,6 +161,7 @@ $wgTranslateBlacklist = array(
 	'bbc' => 'This language code should remain unused. Localise in bbc-latn please.',
 	'bh' => 'This code is for compatibility purposes only. Localise in \'bho\'',
 	'be-x-old' => 'This code is for compatibility purposes only. Localise in \'be-tarask\'',
+	'cjy' => 'This language code should remain unused. Localise in cjy-hant please.',
 	'crh' => 'This language code should remain unused. Localise in crh-latn or crh-cyrl please.',
 	'dk' => 'This language code should remain unused. Localise in da please.',
 	'fiu-vro' => 'This language code should remain unused. Localise in vro please.',

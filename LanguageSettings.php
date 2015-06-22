@@ -87,6 +87,9 @@ $wgExtraLanguageNames['gor'] = 'Hulontalo'; # Gorontalo / Siebrand 2014-12-28
 $wgExtraLanguageNames['knn'] = 'महाराष्ट्रीय कोंकणी'; # Maharashtrian Konkani
 $wgExtraLanguageNames['cjm-latn'] = 'Cham'; # Eastern Cham (Latin script) / Siebrand 2015-05-25
 $wgExtraLanguageNames['shy-latn'] = 'Tacawit'; # Tacawit (Latin script) / Siebrand 2015-05-25
+$wgExtraLanguageNames['cjy'] = '晉語'; # Jin Chinese (Jinnish)
+$wgExtraLanguageNames['cjy-hans'] = '晋语（简化字)'; # Jin Chinese (hans script)
+$wgExtraLanguageNames['cjy-hant'] = '晉語（正字)'; # Jin Chinese (hant script)
 
 $wgExtraLanguageNames['nl-be'] = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['es-mx'] = 'español de México'; # Mexico; for iNaturalist
