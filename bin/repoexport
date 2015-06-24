@@ -100,8 +100,8 @@ then
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
-	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=magic --quiet &
-	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=special --quiet &
+#	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=magic --quiet &
+#	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=special --quiet &
 
 	PREFIXES="ext-c ext-s ext-m ext-p ext-t ext-w ext-a ext-b ext-d ext-e ext-f \
 		ext-g ext-h ext-i ext-j ext-k ext-l ext-n ext-o ext-q ext-r ext-u ext-v \
