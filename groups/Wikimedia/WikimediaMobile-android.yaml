@@ -23,6 +23,17 @@ TEMPLATE:
     patterns:
       - "*"
 
+  CHECKER:
+    class: MessageChecker
+    checks:
+      - printfCheck
+
+  INSERTABLES:
+    class: WikimediaMobileAndroidInsertablesSuggester
+
+  AUTOLOAD:
+    WikimediaMobileAndroidInsertablesSuggester: WikimediaMobileAndroidSuggester.php
+
   LANGUAGES:
     whitelist:
       - aa
