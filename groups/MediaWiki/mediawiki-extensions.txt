@@ -2465,16 +2465,16 @@ aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 # Only with boilerplate messages - 2015-04-27
 # Wikidata Page Banner
 
-Wikidata Quality
-aliasfile = WikidataQuality/WikibaseQuality.alias.php
+Wikibase Quality
+aliasfile = WikibaseQuality/WikibaseQuality.alias.php
 ignored = wbq-violations-entity-id-placeholder, wbq-violations-property-id-placeholder
 
-Wikidata Quality Constraints
-aliasfile = WikidataQualityConstraints/WikibaseQualityConstraints.alias.php
+Wikibase Quality Constraints
+aliasfile = WikibaseQualityConstraints/WikibaseQualityConstraints.alias.php
 ignored = wbqc-constraintreport-form-entityid-placeholder
 
-Wikidata Quality External Validation
-aliasfile = WikidataQualityExternalValidation/WikibaseQualityExternalValidation.alias.php
+Wikibase Quality External Validation
+aliasfile = WikibaseQualityExternalValidation/WikibaseQualityExternalValidation.alias.php
 ignored = wbqev-crosscheck-form-entityid-placeholder, wbqev-violation-long-message-headline
 
 Wikihiero
