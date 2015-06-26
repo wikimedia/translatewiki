@@ -1133,8 +1133,9 @@ Hide Prefix
 Hierarchy Builder
 
 Hit Counters
+aliasfile = HitCounters/HitCounters.i18n.alias.php
 magicfile = HitCounters/HitCounters.i18n.magic.php
-ignored = hitcounters-page-label, hitcounters-popularpages-summary
+ignored = hitcounters-page-label, popularpages-summary
 optional = hitcounters-name
 
 Host Stats
