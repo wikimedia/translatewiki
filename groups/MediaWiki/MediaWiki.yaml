@@ -575,10 +575,10 @@ FILES:
   sourcePattern: "%GROUPROOT%/mediawiki/master/includes/api/i18n/%CODE%.json"
 
 TAGS:
-  optional:
-    - api-help-flags
-    - api-help-help-urls
   ignored:
+    - api-help-help-urls
     - api-help-fallback-description
     - api-help-fallback-parameter
     - api-help-fallback-example
+    - api-help-flags
+    - api-help-param-type-password
