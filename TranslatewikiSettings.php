@@ -363,6 +363,11 @@ $wgMainPageImages[] = array(
 require_once "$EXT/InviteSignup/InviteSignup.php";
 $wgISGroups = array( 'translator' );
 
+require_once "$EXT/Echo/Echo.php";
+$wgEchoBundleEmailInterval = 14400;
+
+require_once "$EXT/Thanks/Thanks.php";
+
 ###
 # Dynamic code starts here
 ###
