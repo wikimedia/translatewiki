@@ -35,8 +35,14 @@ TEMPLATE:
   CHECKER:
     class: MessageChecker
     checks:
-      # This check should be renamed when we use JSON for everything
       - pythonInterpolationCheck
+      - braceBalanceCheck
+
+  INSERTABLES:
+    class: PywikibotInsertablesSuggester
+
+  AUTOLOAD:
+    PywikibotInsertablesSuggester: Suggester.php
 
   LANGUAGES:
     blacklist:
