@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ec42329_b00af7d2",
+        "filename": "groups/Pywikibot/Suggester.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1838
+      },
+      "writtenOn": "2015-07-01T10:02:14Z",
+      "side": 1,
+      "message": "this should be “+?” as “%()” doesn\u0027t make sense.",
+      "revId": "604e6f72f6d791487a292669a323ee3862f59c0c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
