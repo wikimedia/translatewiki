@@ -62,4 +62,8 @@ class nginx {
     command => '/usr/bin/openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048',
     creates => '/etc/ssl/certs/dhparam.pem'
   }
+
+  file { '/etc/logrotate.d/nginx':
+    source  => 'puppet:///modules/nginx/logrotate'
+  }
 }
