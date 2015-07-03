@@ -2341,7 +2341,7 @@ optional = visualeditor-dialog-media-info-ellipsis, visualeditor-dialog-media-in
 ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
 ignored = apihelp-visualeditor-param-format, apihelp-visualeditoredit-param-watch, apihelp-visualeditoredit-param-wikitext
 ignored = visualeditor-wikitext-warning-link
-prefix = visualeditor- | tooltip-ca-edit
+prefix = visualeditor-override- | tooltip-ca-edit
 
 VisualEditor (WMF)
 id = ext-visualeditor-ve-wmf
