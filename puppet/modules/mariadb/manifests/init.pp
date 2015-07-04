@@ -26,4 +26,10 @@ class mariadb {
   class { '::mysql::client':
     package_name => 'mariadb-client',
   }
+
+  package { [
+    'mytop',
+    'mysqltuner',
+    ]: ensure => present,
+  }
 }

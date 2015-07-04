@@ -13,7 +13,6 @@ class base {
     'jnettop', # Network view
     'make',
     'mosh', # ssh for bad connections
-    'mytop', # MySQL view
     'nano',
     'netcat-openbsd',
     'screen',
@@ -32,9 +31,6 @@ class base {
     'jpegoptim',
     'optipng',
     'python-pip',
-
-    # Other
-    'mysqltuner',
 
     # Dependencies for compiling wikidiff2
     'g++',
