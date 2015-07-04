@@ -16,6 +16,23 @@
       "revId": "de3e99ddb9afeb6ab92255306a10554aa6099427",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ec42329_d2ee8fe7",
+        "filename": "groups/Pywikibot/Pywikibot.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1718
+      },
+      "writtenOn": "2015-07-04T12:16:48Z",
+      "side": 1,
+      "message": "Should we list every single valid region subtag for every language where the subtag is not needed for a wiki?\n\nOr, umm, why are people even adding these silly translations...\nhttps://translatewiki.net/wiki/Thread:Support/Copying_primary_language_translations_to_region_subtag",
+      "revId": "de3e99ddb9afeb6ab92255306a10554aa6099427",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
