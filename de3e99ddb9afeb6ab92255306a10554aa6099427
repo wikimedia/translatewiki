@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "8ec42329_d29c4f6f",
+        "filename": "groups/Pywikibot/Pywikibot.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 989
+      },
+      "writtenOn": "2015-07-04T12:41:44Z",
+      "side": 1,
+      "message": "Ah, no longer valid.",
+      "parentUuid": "8ec42329_d20f6fd6",
+      "revId": "de3e99ddb9afeb6ab92255306a10554aa6099427",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8ec42329_d2ee8fe7",
         "filename": "groups/Pywikibot/Pywikibot.yaml",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2015-07-04T12:16:48Z",
       "side": 1,
       "message": "Should we list every single valid region subtag for every language where the subtag is not needed for a wiki?\n\nOr, umm, why are people even adding these silly translations...\nhttps://translatewiki.net/wiki/Thread:Support/Copying_primary_language_translations_to_region_subtag",
+      "revId": "de3e99ddb9afeb6ab92255306a10554aa6099427",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ec42329_b2a183a0",
+        "filename": "groups/Pywikibot/Pywikibot.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 989
+      },
+      "writtenOn": "2015-07-04T12:41:44Z",
+      "side": 1,
+      "message": "I guess no. On some Translation Portals it is noted that only differences hat to be placed. See [1] for example.\n\nI guess we could add codes to the blacklist when needed.\n\n[1] https://translatewiki.net/wiki/Portal:De",
+      "parentUuid": "8ec42329_d2ee8fe7",
       "revId": "de3e99ddb9afeb6ab92255306a10554aa6099427",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
