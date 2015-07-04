@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ec42329_d20f6fd6",
+        "filename": "groups/Pywikibot/Pywikibot.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1838
+      },
+      "writtenOn": "2015-07-04T11:55:12Z",
+      "side": 1,
+      "message": "Is this comment valid?",
+      "revId": "de3e99ddb9afeb6ab92255306a10554aa6099427",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
