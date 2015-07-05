@@ -656,6 +656,9 @@ file = ConfirmEdit/ReCaptcha/i18n/%CODE%.json
 descmsg = recaptcha-desc
 optional = recaptcha-desc
 
+ConfirmEdit ReCaptcha NoCaptcha
+file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/%CODE%.json
+
 Contact Page
 aliasfile = ContactPage/ContactPage.alias.php
 
