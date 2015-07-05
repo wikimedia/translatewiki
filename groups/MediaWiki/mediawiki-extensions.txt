@@ -1520,6 +1520,9 @@ descmsg = oauthauth-desc
 OdbcDatabase
 aliasfile = OdbcDatabase/OdbcDatabase.alias.php
 
+# Missing message doc, message prefixes needed - 2015-05-07 - RS
+# Offline Import Lexicon
+
 # Ogg Handler # Deleted on Git. TimedMediaHandler as replacement. I6ad2538fda15d29d780a22796e7c980e94901729
 
 Online Status
@@ -2179,6 +2182,8 @@ optional = timedmedia-derivative-m4a, timedmedia-derivative-desc-m4a
 Timeline
 file = timeline/i18n/%CODE%.json
 
+Timeline Table
+
 Timezone Selector
 aliasfile = TimezoneSelector/TimezoneSelector.alias.php
 optional = timezoneselector-message-long, timezoneselector-message-verbose
@@ -2193,6 +2198,9 @@ Title Key
 Toc Tree
 
 Tooltip
+
+# Missing message doc - 2015-07-05
+# Top Ten Pages
 
 Tor Block
 
@@ -2574,6 +2582,9 @@ ignored = wikimedia-sidebar
 Wikimedia Temporary Messages
 file = WikimediaMessages/i18n/temporary/%CODE%.json
 prefix = temporary- | wikimediamessages-desc
+
+# Missing message doc
+# Wiki Share
 
 Wikivote Maps Yandex
 
