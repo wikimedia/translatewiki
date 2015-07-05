@@ -12,7 +12,7 @@ class nginx {
     enable     => true,
     hasstatus  => true,
     hasrestart => true,
-    require    => [ Package['nginx'], Service['php5-fpm'] ],
+    require    => Package['nginx'],
   }
 
   File {
@@ -28,42 +28,29 @@ class nginx {
     source  => 'puppet:///modules/nginx/mime.types',
   }
 
-  file { '/etc/nginx/sites-available/translatewiki.net':
-    source  => 'puppet:///modules/nginx/translatewiki.net',
-  }
-
-  file { '/etc/nginx/sites-enabled/translatewiki.net':
-    ensure => 'link',
-    target => '../sites-available/translatewiki.net',
-  }
-
-  file { '/etc/nginx/sites-available/translatewiki.org':
-    source  => 'puppet:///modules/nginx/translatewiki.org',
-  }
-
-  file { '/etc/nginx/sites-enabled/translatewiki.org':
-    ensure => 'link',
-    target => '../sites-available/translatewiki.org',
-  }
-
-  file { '/etc/nginx/sites-enabled/default':
-    ensure => 'absent',
-  }
-
-  file { '/etc/nginx/sites-available/offline':
-    source  => 'puppet:///modules/nginx/offline',
-  }
-
-  file { '/etc/ssl/private/rapidssl.pem':
-    source  => 'puppet:///modules/nginx/rapidssl.pem',
-  }
-
-  exec { 'dhparam':
-    command => '/usr/bin/openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048',
-    creates => '/etc/ssl/certs/dhparam.pem'
+  file { '/etc/nginx/sites':
+    ensure => 'directory',
   }
 
   file { '/etc/logrotate.d/nginx':
     source  => 'puppet:///modules/nginx/logrotate'
   }
+
+#   file { '/etc/nginx/sites-available/translatewiki.net':
+#     source  => 'puppet:///modules/nginx/translatewiki.net',
+#   }
+#
+#
+#   file { '/etc/nginx/sites-available/offline':
+#     source  => 'puppet:///modules/nginx/offline',
+#   }
+#
+#   file { '/etc/ssl/private/rapidssl.pem':
+#     source  => 'puppet:///modules/nginx/rapidssl.pem',
+#   }
+#
+#   exec { 'dhparam':
+#     command => '/usr/bin/openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048',
+#     creates => '/etc/ssl/certs/dhparam.pem'
+#   }
 }
