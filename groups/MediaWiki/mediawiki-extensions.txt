@@ -1330,7 +1330,6 @@ ignored = massmessage-target, massmessage-message-footer, massmessage-target-loc
 
 Math
 aliasfile = Math/Math.alias.php
-ignored = math-preference-mwmathinspector-discussion-link, math-preference-mwmathinspector-info-link
 
 Math Search
 aliasfile = MathSearch/MathSearch.alias.php
