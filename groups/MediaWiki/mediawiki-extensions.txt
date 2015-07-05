@@ -2336,7 +2336,6 @@ id = ext-visualeditor-ve-mw
 descmsg = visualeditor-desc
 file = VisualEditor/modules/ve-mw/i18n/%CODE%.json
 optional = visualeditor-preference-core-discussion-link, visualeditor-preference-core-info-link
-optional = visualeditor-preference-mwalienextension-discussion-link, visualeditor-preference-mwalienextension-info-link
 optional = visualeditor-dialog-media-dimensionseparator, visualeditor-dialog-media-info-dateformat
 optional = visualeditor-dialog-media-info-ellipsis, visualeditor-dialog-media-info-separator
 ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
