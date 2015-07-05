@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ec42329_b9ee46e6",
+        "filename": "puppet/modules/base/manifests/vcs.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2015-07-05T19:07:25Z",
+      "side": 1,
+      "message": "Having this one in base would be a good thing, given that we do config in it.",
+      "revId": "dee46ff60177e6dbaaf34a6304f584bf8e2679a4",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
