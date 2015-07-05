@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ec42329_d9cf9259",
+        "filename": "puppet/modules/base/manifests/init.pp",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2015-07-05T19:20:20Z",
+      "side": 1,
+      "message": "How will we make this machine dependent? (Same for below)",
+      "revId": "5164b7bce10bd37809480589e7e649bf7d310029",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ec42329_19e2facf",
+        "filename": "puppet/modules/base/manifests/mediawiki.pp",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2015-07-05T19:20:20Z",
+      "side": 1,
+      "message": "Please remove trailing whitespace.",
+      "revId": "5164b7bce10bd37809480589e7e649bf7d310029",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
