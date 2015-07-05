@@ -5,8 +5,7 @@ class base {
     'ack-grep',
     'apticron', # Daily message about available updates to root
     'bash-completion',
-    'doxygen',
-    'fontconfig',
+    'git-core',
     'htop',
     'iotop', # IO view
     'iperf', # Network performance
@@ -18,27 +17,6 @@ class base {
     'screen',
     'unzip',
     'wget',
-
-    # Tools related to supporting all our products
-    'bzr',
-    'cvs',
-    'gettext',
-    'git-core',
-    'mercurial',
-    'subversion',
-
-    # Development extras
-    'jpegoptim',
-    'optipng',
-    'python-pip',
-
-    # Dependencies for compiling wikidiff2
-    'g++',
-    'pkg-config',
-    'libthai-dev',
-
-    # fonts for phplot
-    'fonts-dejavu',
     ]: ensure => present,
   }
 
@@ -56,16 +34,16 @@ class base {
     content => 'LANG="en_US.UTF-8"',
   }
 
-  file { '/etc/hostname':
-    content => 'translatewiki.net',
-  }
+#  file { '/etc/hostname':
+#    content => 'translatewiki.net',
+#  }
 
   # Puppet, please stfu
   file { '/etc/puppet/hiera.yaml':
     content => '',
   }
 
-  file { '/etc/network/interfaces':
-    source => 'puppet:///modules/base/interfaces'
-  }
+#  file { '/etc/network/interfaces':
+#    source => 'puppet:///modules/base/interfaces'
+#  }
 }
