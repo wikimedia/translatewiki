@@ -1,8 +1,15 @@
 class profile::mwelasticsearch {
+  include ::nginx
+
+  file { '/etc/nginx/sites/es.translatewiki.net':
+    source  => 'puppet:///modules/profile/es.translatewiki.net',
+    require => Package['nginx'],
+    notify  => Service['nginx'],
+  }
 
   class { 'elasticsearch':
     manage_repo   => true,
-    repo_version  => '1.5',
+    repo_version  => '1.6',
     config        => {
       'script.disable_dynamic'                   => false,
       'network.host'                             => '::1',
@@ -101,7 +108,7 @@ class profile::mwelasticsearch {
     },
     java_install  => true,
     init_defaults => {
-        'ES_HEAP_SIZE' => '3g',
+        'ES_HEAP_SIZE' => '12g',
     },
   }
 
