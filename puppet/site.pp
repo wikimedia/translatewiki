@@ -37,3 +37,12 @@ node default {
   sysctl { 'net.ipv4.tcp_slow_start_after_idle': value => '0' }
   sysctl { 'net.ipv4.tcp_fastopen': value => '3' }
 }
+
+node 'v220150764426371.yourvserver.net' {
+  include base
+  include sshd
+  include sudo
+  include users
+  include puppet
+  include profile::mwelasticsearch
+}
