@@ -191,6 +191,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/delete/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-disambredir
+  label: Pywikibot Disambig Redirects
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/disambredir/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-djvutext
   label: Pywikibot DjVu Text
 
