@@ -1696,6 +1696,8 @@ Per Page License
 Persona
 aliasfile = Persona/Persona.i18n.alias.php
 
+PGF TikZ
+
 Phalanx
 
 PHP Excel
