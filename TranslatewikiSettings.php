@@ -386,9 +386,10 @@ $wgHooks['GetLocalURL'][] = function ( &$title, &$url, $query ) {
 		if ( strpos( $dbkey, '%3F' ) !== false || strpos( $dbkey, '%26' ) !== false || strpos( $dbkey, '//' ) !== false ) {
 			global $wgScript;
 			$url = "$wgScript?title=$dbkey";
+		} elseif ( $title->isMainPage() ) {
+			$url = '/';
 		}
 	}
-	return true;
 };
 
 $wgExtensionFunctions[] = function () {
