@@ -1391,6 +1391,9 @@ descmsg = msi-desc
 Ms Links
 descmsg = msl-desc
 
+Ms Upload
+descmsg = msu-desc
+
 Ms Wiki Editor
 descmsg = mswe-desc
 
