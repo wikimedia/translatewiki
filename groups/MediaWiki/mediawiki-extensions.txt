@@ -1225,6 +1225,8 @@ Language Selector
 
 Language Tag
 
+LanguageTool
+
 Last Modified
 
 Last User Login
