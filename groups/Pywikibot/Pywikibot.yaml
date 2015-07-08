@@ -7,29 +7,22 @@ TEMPLATE:
 
   FILES:
     class: JsonFFS
-    # Pywikibot works on wiki domain code, so mapping fallbacked to Wikimedia code.
+    # Pywikibot works on siteinfo lang property, so mapping fallbacked this language code.
     codeMap:
-      be-tarask: be-x-old
+      bbc-latn: bbc
       gan-hant: gan
-      gsw: als
+      gom-latn: gom
       hif-latn: hif
       ike-cans: iu
       kbd-cyrl: kbd
       kk-cyrl: kk
       ks-arab: ks
       ku-latn: ku
-      lzh: zh-classical
-      nb: "no"
-      nan: zh-min-nan
-      rup: roa-rup
       ruq-latn: ruq
-      sgs: bat-smg
       sr-ec: sr
       tg-cyrl: tg
       tt-cyrl: tt
       ug-arab: ug
-      vro: fiu-vro
-      yue: zh-yue
       zh-hans: zh
 
   CHECKER:
@@ -49,7 +42,9 @@ TEMPLATE:
       - als
       - be-x-old
       - de-ch
+      - en-gb
       - gan
+      - gom-deva
       - hif
       - iu
       - kbd
