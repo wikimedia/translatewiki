@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ec42329_b03722ab",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1229,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2015-07-08T09:16:21Z",
+      "side": 1,
+      "message": "This line is superflous.",
+      "revId": "d0df141074bf568461767a64af655114e4173f0f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
