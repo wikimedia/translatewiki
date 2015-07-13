@@ -33,6 +33,7 @@ ignored = mask-menu-left, mask-menu-right, mask-index-url
 #file = mediawiki-strapping/i18n/%CODE%.json
 
 Metrolook
+ignored = metrolook-tiles, metrolook-tiles-second
 optional = skinname-metrolook
 
 Modern
