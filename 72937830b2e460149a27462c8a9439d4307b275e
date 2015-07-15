@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ec42329_c0dc2a1e",
+        "filename": "puppet/modules/base/manifests/web1.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2015-07-15T18:21:57Z",
+      "side": 1,
+      "message": "wrong class name. \"base::es\" is in another file. this is web1",
+      "revId": "72937830b2e460149a27462c8a9439d4307b275e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
