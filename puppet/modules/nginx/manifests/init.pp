@@ -35,22 +35,4 @@ class nginx {
   file { '/etc/logrotate.d/nginx':
     source  => 'puppet:///modules/nginx/logrotate'
   }
-
-#   file { '/etc/nginx/sites-available/translatewiki.net':
-#     source  => 'puppet:///modules/nginx/translatewiki.net',
-#   }
-#
-#
-#   file { '/etc/nginx/sites-available/offline':
-#     source  => 'puppet:///modules/nginx/offline',
-#   }
-#
-#   file { '/etc/ssl/private/rapidssl.pem':
-#     source  => 'puppet:///modules/nginx/rapidssl.pem',
-#   }
-#
-#   exec { 'dhparam':
-#     command => '/usr/bin/openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048',
-#     creates => '/etc/ssl/certs/dhparam.pem'
-#   }
 }

@@ -17,6 +17,7 @@ exec /sbin/start-stop-daemon --quiet --start \
   --startas /usr/bin/hhvm \
   -- \
     --config /etc/hhvm/php.ini \
+    --config /etc/hhvm/server.ini \
     --mode server
 
 limit nofile 65536 65536

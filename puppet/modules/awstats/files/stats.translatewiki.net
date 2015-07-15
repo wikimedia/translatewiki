@@ -2,7 +2,7 @@
 
 server {
 	listen 443 ssl spdy;
-	listen [2a03:4000:6:55::1]:443 ssl spdy;
+	listen [2a03:4000:6:b01e::1]:443 ssl spdy;
 
 	ssl_certificate     /etc/ssl/private/translatewiki.net.pem;
 	ssl_certificate_key /etc/ssl/private/translatewiki.net.key;

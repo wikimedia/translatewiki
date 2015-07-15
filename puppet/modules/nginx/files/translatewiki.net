@@ -2,14 +2,14 @@
 
 server {
 	listen 80 default_server;
-	listen [2a03:4000:6:55::1]:80;
+	listen [2a03:4000:6:b01e::1]:80;
 	server_name translatewiki.net dev.translatewiki.net;
 	return 301 https://$host$request_uri;
 }
 
 server {
 	listen 443 ssl default_server spdy;
-	listen [2a03:4000:6:55::1]:443 ssl spdy;
+	listen [2a03:4000:6:b01e::1]:443 ssl spdy;
 
 	# https://wiki.mozilla.org/Security/Server_Side_TLS#Nginx
 	ssl_certificate     /etc/ssl/private/translatewiki.net.pem;

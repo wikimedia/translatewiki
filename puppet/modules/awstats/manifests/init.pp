@@ -21,14 +21,9 @@ class awstats {
     source  => 'puppet:///modules/awstats/awstats.conf',
   }
 
-  file { '/etc/nginx/sites-available/stats.translatewiki.net':
+  file { '/etc/nginx/sites/stats.translatewiki.net':
     source  => 'puppet:///modules/awstats/stats.translatewiki.net',
     require => [Package['nginx'], Service['fcgiwrap']],
     notify  => Service['nginx'],
-  }
-
-  file { '/etc/nginx/sites-enabled/stats.translatewiki.net':
-    ensure => 'link',
-    target => '../sites-available/stats.translatewiki.net',
   }
 }

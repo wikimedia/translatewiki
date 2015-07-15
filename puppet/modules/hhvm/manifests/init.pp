@@ -3,6 +3,8 @@
 # Configures hhvm for MediaWiki to run in fastcgi mode.
 #
 class hhvm {
+  include apt
+
   file { '/tmp/wikimedia.key':
     source => 'puppet:///modules/hhvm/wikimedia.key',
   }
@@ -37,6 +39,12 @@ class hhvm {
 
   file { '/etc/hhvm/php.ini':
     source  => 'puppet:///modules/hhvm/php.ini',
+    require => Package['hhvm'],
+    notify  => Service['hhvm'],
+  }
+
+  file { '/etc/hhvm/server.ini':
+    source  => 'puppet:///modules/hhvm/server.ini',
     require => Package['hhvm'],
     notify  => Service['hhvm'],
   }
