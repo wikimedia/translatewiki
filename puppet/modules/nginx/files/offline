@@ -18,7 +18,7 @@ server {
 
 	spdy_headers_comp 7;
 
-	server_name translatewiki.net dev.translatewiki.net sandbox.translatewiki.net;
+	server_name translatewiki.net dev.translatewiki.net;
 	root /www/offline;
 
 	location /index.php {
