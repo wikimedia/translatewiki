@@ -34,16 +34,8 @@ class base {
     content => 'LANG="en_US.UTF-8"',
   }
 
-#  file { '/etc/hostname':
-#    content => 'translatewiki.net',
-#  }
-
   # Puppet, please stfu
   file { '/etc/puppet/hiera.yaml':
     content => '',
   }
-
-#  file { '/etc/network/interfaces':
-#    source => 'puppet:///modules/base/interfaces'
-#  }
 }

@@ -38,8 +38,20 @@ node default {
   sysctl { 'net.ipv4.tcp_fastopen': value => '3' }
 }
 
+# web1 / Primary web server
+node 'v220150764426369.yourvserver.net' {
+  include base
+  include base::web1
+  include sshd
+  include sudo
+  include users
+  include puppet
+}
+
+# es / Elastic Search
 node 'v220150764426371.yourvserver.net' {
   include base
+  include base::es
   include sshd
   include sudo
   include users
