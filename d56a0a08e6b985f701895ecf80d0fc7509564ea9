@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ec42329_a5a237a2",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-07-18T16:52:21Z",
+      "side": 1,
+      "message": "Why not have this with email settings above?",
+      "revId": "d56a0a08e6b985f701895ecf80d0fc7509564ea9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
