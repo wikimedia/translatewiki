@@ -97,6 +97,7 @@ $wgAutoblockExpiry = 3600 * 24 * 14; // 2 weeks of rest from vandals reusing IPs
 
 $wgEnableEmail = true;
 $wgEnableUserEmail = true;
+$wgPasswordResetRoutes['email'] = true;
 
 $wgEnotifUserTalk = true;
 $wgEnotifWatchlist = true;
