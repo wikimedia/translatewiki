@@ -2168,6 +2168,9 @@ Text Extracts
 Thanks
 aliasfile = Thanks/Thanks.alias.php
 
+Theme
+optional = extensionname-theme
+
 Throttle Override
 aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
 
