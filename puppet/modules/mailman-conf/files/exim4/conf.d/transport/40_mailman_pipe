@@ -10,4 +10,3 @@ mailman_transport:
   home_directory = MM_HOME
   user = MM_UID
   group = MM_GID
-

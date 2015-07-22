@@ -5,8 +5,6 @@ File {
 }
 
 node default {
-  include exim-conf
-  include mailman-conf
   include kitano-nl
 
   class { 'backup':
@@ -35,6 +33,10 @@ node 'translatewiki.net' {
   include memcached
   include nginx::sites
 
+  include exim-conf
+  include exim-conf::web1
+  include mailman-conf
+
   sysctl { 'net.ipv4.tcp_window_scaling': value => '1' }
   sysctl { 'net.ipv4.tcp_slow_start_after_idle': value => '0' }
   sysctl { 'net.ipv4.tcp_fastopen': value => '3' }
@@ -49,5 +51,7 @@ node 'v220150764426371.yourvserver.net' {
   include users
 
   include base::es
+  include exim-conf
+  include exim-conf::web1
   include profile::mwelasticsearch
 }
