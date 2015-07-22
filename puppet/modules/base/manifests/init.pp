@@ -16,6 +16,7 @@ class base {
     'netcat-openbsd',
     'screen',
     'unzip',
+    'unattended-upgrades',
     'wget',
     ]: ensure => present,
   }
