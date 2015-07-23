@@ -5,8 +5,6 @@ File {
 }
 
 node default {
-  include kitano-nl
-
   class { 'backup':
     databases => ['translatewiki_net'],
   }
@@ -36,6 +34,8 @@ node 'translatewiki.net' {
   include exim-conf
   include exim-conf::web1
   include mailman-conf
+
+  include kitano-nl
 
   sysctl { 'net.ipv4.tcp_window_scaling': value => '1' }
   sysctl { 'net.ipv4.tcp_slow_start_after_idle': value => '0' }
