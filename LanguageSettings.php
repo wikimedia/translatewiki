@@ -45,7 +45,6 @@ $wgExtraLanguageNames['ksf'] = 'Bafia'; # Robin 2011-10-21
 $wgExtraLanguageNames['lki'] = 'لەکی‎'; # Laki / Siebrand 2014-04-08
 $wgExtraLanguageNames['lkt'] = 'Lakȟótiyapi'; # Lakota / 2014-04-08
 $wgExtraLanguageNames['lld'] = 'Ladin'; # Ladin / Siebrand 2009-09-23
-$wgExtraLanguageNames['luz'] = 'لئری جئنوٙڤی'; # Southern Luri / Ebe123  2014-07-29
 $wgExtraLanguageNames['mfe'] = 'Morisyen'; # Robin 2011-10-18
 $wgExtraLanguageNames['mic'] = 'Mi\'kmaq'; # Micmac / Nikerabbit 2012-02-27
 $wgExtraLanguageNames['miq'] = 'Mískitu'; # Miskito / Siebrand 2013-07-02
