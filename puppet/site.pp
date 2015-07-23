@@ -4,17 +4,6 @@ File {
   mode  => '0644',
 }
 
-node default {
-  class { 'backup':
-    databases => ['translatewiki_net'],
-  }
-
-  class { 'wiki':
-    config => '/home/betawiki/config',
-    user   => 'betawiki',
-  }
-}
-
 # web1 / Primary web server
 node 'translatewiki.net' {
   include base
@@ -36,6 +25,15 @@ node 'translatewiki.net' {
   include mailman-conf
 
   include kitano-nl
+
+  class { 'backup':
+    databases => ['translatewiki_net'],
+  }
+
+  class { 'wiki':
+    config => '/home/betawiki/config',
+    user   => 'betawiki',
+  }
 
   sysctl { 'net.ipv4.tcp_window_scaling': value => '1' }
   sysctl { 'net.ipv4.tcp_slow_start_after_idle': value => '0' }

@@ -35,8 +35,4 @@ class backup ($databases) {
     content => template('backup/dump-databases.sh.erb'),
     mode    => '0744',
   }
-
-  file { '/etc/logrotate.d/twn-database-backup':
-    source => 'puppet:///modules/backup/logrotate'
-  }
 }
