@@ -52,6 +52,6 @@ node 'v220150764426371.yourvserver.net' {
 
   include base::es
   include exim-conf
-  include exim-conf::web1
+  include exim-conf::es
   include profile::mwelasticsearch
 }
