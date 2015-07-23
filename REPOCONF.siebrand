@@ -38,6 +38,7 @@ REPO_WAYMARKEDTRAILS=git@github.com:lonvia/waymarked-trails-site.git
 REPO_WIKIA=git@github.com:Wikia/app.git
 REPO_WIKIA_BRANCH="dev"
 REPO_WIKIBLAME=git@github.com:FlominatorTM/wikiblame.git
+REPO_WIKIEDUDASHBOARD=git@github.com:WikiEducationFoundation/WikiEduDashboard.git
 REPO_WIKIMANIA=ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/wikimania-scholarships
 REPO_WIKIPEDIAANDROID=ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/wikipedia
 REPO_WIKIPEDIAIOS=ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/ios/wikipedia
