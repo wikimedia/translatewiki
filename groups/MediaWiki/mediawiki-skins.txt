@@ -1,4 +1,5 @@
 apex
+optional = skinname-apex, apex.css, apex.js
 
 # qqq missing
 #Blue Sky
