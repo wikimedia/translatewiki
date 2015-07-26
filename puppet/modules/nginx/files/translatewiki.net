@@ -69,6 +69,7 @@ server {
 	}
 
 	location ~* ^/static/mainpage/.*\.jpg$ {
+		expires 2M;
 		if ($http_accept ~ "image/webp") {
 			add_header Vary Accept;
 			rewrite ^ $uri.webp;
