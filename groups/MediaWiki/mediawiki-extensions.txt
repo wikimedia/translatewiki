@@ -776,15 +776,21 @@ Donation Interface - Gateway Common
 id = ext-di-gc
 file = DonationInterface/gateway_common/i18n/interface/%CODE%.json
 descmsg = donate_interface-desc
+ignored = donate_interface-big-amount-display, donate_interface-medium-amount-display
+ignored = donate_interface-small-amount-display, donate_interface-big-amount-value
+ignored = donate_interface-medium-amount-value, donate_interface-small-amount-value
 optional = donate_interface-currency-display, donate_interface-pm-alipay, donate_interface-pm-bpay
 optional = donate_interface-pm-boletus, donate_interface-pm-directebanking, donate_interface-pm-eps
 optional = donate_interface-pm-enets, donate_interface-pm-giropay, donate_interface-pm-ideal
 optional = donate_interface-pm-nordea, donate_interface-pm-skrill, donate_interface-pm-sofort
 optional = donate_interface-pm-webmoney, donate_interface-pm-westernunion, donate_interface-pm-yandex
-ignored = donate_interface-big-amount-display, donate_interface-medium-amount-display
-ignored = donate_interface-small-amount-display, donate_interface-big-amount-value
-ignored = donate_interface-medium-amount-value, donate_interface-small-amount-value
 optional = donate_interface-donor-fname-alt, donate_interface-donor-lname-alt, donate_interface-donor-postcode
+optional = donate_interface-donor-fiscal_number-ar, donate_interface-donor-fiscal_number-bo, donate_interface-donor-fiscal_number-br
+optional = donate_interface-donor-fiscal_number-cl, donate_interface-donor-fiscal_number-co, donate_interface-donor-fiscal_number-mx
+optional = donate_interface-donor-fiscal_number-pe, donate_interface-donor-fiscal_number-uy
+optional = donate_interface-error-msg-fiscal_number-ar, donate_interface-error-msg-fiscal_number-bo, donate_interface-error-msg-fiscal_number-br
+optional = donate_interface-error-msg-fiscal_number-cl, donate_interface-error-msg-fiscal_number-co, donate_interface-error-msg-fiscal_number-mx
+optional = donate_interface-error-msg-fiscal_number-pe, donate_interface-error-msg-fiscal_number-uy
 
 Donation Interface - Global Collect Gateway
 file = DonationInterface/globalcollect_gateway/i18n/%CODE%.json
@@ -1721,6 +1727,9 @@ Php Tags SMW
 Php Tags Widgets
 
 Php Tags Wiki
+
+# Missing qqq
+# Picture Game
 
 Pluggable Auth
 
