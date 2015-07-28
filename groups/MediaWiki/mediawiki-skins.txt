@@ -34,7 +34,7 @@ ignored = mask-menu-left, mask-menu-right, mask-index-url
 
 Metrolook
 ignored = metrolook-tiles, metrolook-tiles-second
-optional = skinname-metrolook
+optional = skinname-metrolook, metrolook.css, metrolook.js
 
 Modern
 optional = skinname-modern, modern.css, modern.js
