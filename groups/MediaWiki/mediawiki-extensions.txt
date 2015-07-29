@@ -1788,6 +1788,8 @@ Quantcast
 
 Quick Response
 
+Quick Search Lookup
+
 Quiz
 descmsg = quiz_desc
 
