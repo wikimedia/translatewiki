@@ -45,8 +45,8 @@ optional = skinname-monobook, monobook.css, monobook.js
 Nimbus
 ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 
-# No JSON i18n
-#Nostalgia
+Nostalgia
+optional = skinname-nostalgia, nostalgia.css, nostalgia.js
 
 Splash
 ignored = site-banner, global-links-menu, content-footer
