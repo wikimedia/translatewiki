@@ -1019,7 +1019,8 @@ ignored = fundraiserlandingpage-wmfr-landing-page, fundraiserlandingpage-wmuk-la
 
 Fundraising Chart
 
-Fundraising Email Unsubscribe
+# Unused per T75286
+# Fundraising Email Unsubscribe
 
 Fundraising Translate Workflow
 descmsg = fundraising-translate-workflow-desc
