@@ -2097,8 +2097,9 @@ Sound Manager 2 Button
 Spam Blacklist
 descmsg = spam-blacklist-desc
 
-# Incomplete message documentation - 2015-04-17
-#Spam Diff Tool
+Spam Diff Tool
+aliasfile = SpamDiffTool/SpamDiffTool.alias.php
+ignored = spamdifftool-top-level-domains
 
 Spark
 
