@@ -854,6 +854,9 @@ Edit Subpages
 Editcount
 aliasfile = Editcount/Editcount.alias.php
 
+Edit User
+aliasfile = EditUser/EditUser.alias.php
+
 Education Program
 aliasfile = EducationProgram/EducationProgram.i18n.alias.php
 optional = ep-course-edit-name-format
