@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ec42329_023cef8c",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 2095,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2015-08-02T17:02:29Z",
+      "side": 1,
+      "message": "* Add \"spamdifftool-top-level-domains\" to ignore\n* Add alias file path",
+      "revId": "5ec18ec8e7f1eed500154213e38c0b2cdcd06c06",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
