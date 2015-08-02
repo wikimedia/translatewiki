@@ -1696,7 +1696,8 @@ magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
 Parser Hooks
 
-Parsoid
+# Deleted 2015-08-02
+# Parsoid
 
 Pdf Book
 
