@@ -2183,6 +2183,8 @@ ignored = templatesandbox-editform-text, templatesandbox-editform-helptext
 
 Text Extracts
 
+Text Scroller
+
 Thanks
 aliasfile = Thanks/Thanks.alias.php
 
