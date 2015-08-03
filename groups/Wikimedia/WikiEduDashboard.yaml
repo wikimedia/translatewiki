@@ -31,3 +31,6 @@ AUTOLOAD:
 TAGS:
   ignored:
     - wikiedudashboard-number.*
+    - wikiedudashboard-article.views_added
+    - wikiedudasbhoard-tasks.*
+    - wikiedudashboard-timeout
