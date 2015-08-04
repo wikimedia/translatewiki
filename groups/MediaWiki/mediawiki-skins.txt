@@ -51,6 +51,9 @@ ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 Nostalgia
 optional = skinname-nostalgia, nostalgia.css, nostalgia.js
 
+Slate
+optional = skinname-slate, slate.css, slate.js
+
 Splash
 ignored = site-banner, global-links-menu, content-footer
 
