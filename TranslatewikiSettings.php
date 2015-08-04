@@ -361,7 +361,7 @@ $wgMainPageImages[] = array(
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:El_Gouna_Turtle_House_R01.jpg">CC BY Marc Ryckaert</a>',
 );
 
-require_once "$EXT/InviteSignup/InviteSignup.php";
+wfLoadExtension( 'InviteSignup' );
 $wgISGroups = array( 'translator' );
 
 require_once "$EXT/Echo/Echo.php";
