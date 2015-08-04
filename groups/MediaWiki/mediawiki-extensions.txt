@@ -1159,6 +1159,9 @@ ignored = hoststats
 
 Hovergallery
 
+# No i18n files. Unsure if needed because config is enwiki centric.
+# Hreflang
+
 HSTS
 
 HTML Tags
@@ -1931,6 +1934,9 @@ descmsg = sbl-desc
 
 Semantic Bundle
 
+# Incomplete qqq
+# Semantic Cite
+
 Semantic Compound Queries
 magicfile = SemanticCompoundQueries/SemanticCompoundQueries.i18n.magic.php
 
@@ -2180,6 +2186,9 @@ Template Info
 Template Sandbox
 aliasfile = TemplateSandbox/TemplateSandbox.alias.php
 ignored = templatesandbox-editform-text, templatesandbox-editform-helptext
+
+Test Language Name Grammar
+aliasfile = TestLanguageNameGrammar/TestLanguageNameGrammar.alias.php
 
 Text Extracts
 
