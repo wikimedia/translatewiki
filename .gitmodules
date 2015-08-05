@@ -25,3 +25,6 @@
 [submodule "puppet/modules/git"]
 	path = puppet/modules/git
 	url = https://github.com/puppetlabs/puppetlabs-git.git
+[submodule "puppet/modules/java"]
+	path = puppet/modules/java
+	url = https://github.com/puppetlabs/puppetlabs-java.git
