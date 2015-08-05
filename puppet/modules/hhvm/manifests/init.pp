@@ -50,8 +50,29 @@ class hhvm {
   }
 
   service { 'hhvm':
+    enable   => true,
     ensure   => running,
     provider => upstart,
     require  => File['/etc/init/hhvm.conf'],
+  }
+
+  # Second HHVM instance for development
+  file { '/etc/init/hhvm-development.conf':
+    source  => 'puppet:///modules/hhvm/upstart-development',
+    require => Package['hhvm'],
+    notify  => Service['hhvm-development'],
+  }
+
+  file { '/etc/hhvm/development.ini':
+    source  => 'puppet:///modules/hhvm/development.ini',
+    require => Package['hhvm'],
+    notify  => Service['hhvm-development'],
+  }
+
+  service { 'hhvm-development':
+    enable   => true,
+    ensure   => running,
+    provider => upstart,
+    require  => File['/etc/init/hhvm-development.conf'],
   }
 }
