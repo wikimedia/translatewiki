@@ -54,7 +54,12 @@ server {
 
 	# Allowed php files, case sensitive
 	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php$ {
-		fastcgi_pass php;
+		set $upstream hhvm-dev;
+		if ($host = 'translatewiki.net') {
+			set $upstream hhvm;
+		}
+
+		fastcgi_pass $upstream;
 		fastcgi_buffering off;
 		fastcgi_buffers 16 16k;
 		fastcgi_connect_timeout 1s;
