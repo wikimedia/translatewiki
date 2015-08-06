@@ -24,6 +24,11 @@ if [ "$PROJECT" = "blockly" ]
 then
 	php "$EXPORTER" --target . --group=out-blockly* --lang='*' --skip en $THRESHOLD
 
+
+elif [ "$PROJECT" = "crosswatch" ]
+then
+	php "$EXPORTER" --target . --group=out-crosswatch --lang='*' --skip en $THRESHOLD
+
 elif [ "$PROJECT" = "entryscape" ]
 then
 	php "$EXPORTER" --target . --group=entryscape-* --lang='*' --skip en $THRESHOLD

@@ -235,6 +235,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Wikimania.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-android.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-ios.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/crosswatch.yaml";
 
 # No longer in use.
 wfAddNamespace( 1208, 'StatusNet' );

@@ -8,6 +8,7 @@ REPO_MWSKINGIT=https://gerrit.wikimedia.org/r/p/mediawiki/skins
 
 REPO_BLOCKLY=git://github.com/google/blockly.git
 REPO_BLOCKLYGAMES=git://github.com/google/blockly-games.git
+REPO_CROSSWATCH=https://gerrit.wikimedia.org/r/labs/tools/crosswatch
 REPO_ENTRYSCAPE=https://bitbucket.org/metasolutions/entryscape.git
 REPO_EOL=git://github.com/EOL/eol.git
 REPO_ETHERPADLITE=git://github.com/ether/etherpad-lite.git

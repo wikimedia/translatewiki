@@ -79,6 +79,7 @@ done
 
 # TODO: Move to separate file?
 GERRITPROJECTS="\
+crosswatch \
 pywikibot \
 wikimania \
 wikipedia-android \

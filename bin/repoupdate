@@ -73,6 +73,7 @@ for i in $GITUPDATEPROJECTS; do
 done
 
 GITCLUPDATE="\
+crosswatch \
 entryscape \
 wikiedudashboard \
 wikipedia-android \
