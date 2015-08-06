@@ -232,5 +232,15 @@ class users {
       managehome => true,
       home       => '/home/bsitzmann',
       comment    => 'Bernd Sitzmann';
+    'niedzielski':
+      ensure     => present,
+      uid        => 1021,
+      gid        => 'users',
+      groups     => ['betawiki', 'www-shared'],
+      shell      => '/bin/bash',
+      password   => '',
+      managehome => true,
+      home       => '/home/niedzielski',
+      comment    => 'Stephen Niedzielski';
   }
 }
