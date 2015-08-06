@@ -228,8 +228,8 @@ MANGLER:
   prefix: wikipedia-android-strings-
 
 FILES:
-  sourcePattern: "%GROUPROOT%/wikipedia-android/wikipedia/res/values-%CODE%/strings.xml"
-  definitionFile: "%GROUPROOT%/wikipedia-android/wikipedia/res/values/strings.xml"
+  sourcePattern: "%GROUPROOT%/wikipedia-android/app/src/main/res/values-%CODE%/strings.xml"
+  definitionFile: "%GROUPROOT%/wikipedia-android/app/src/main/res/values/strings.xml"
 
 TAGS:
   ignored:
