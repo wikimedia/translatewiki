@@ -466,7 +466,6 @@ descmsg = bs-wikiadmin-desc
 file = BlueSpiceExtensions/WikiAdmin/i18n/%CODE%.json
 
 Boiler Plate
-file = examples/BoilerPlate/i18n/%CODE%.json
 
 Book Manager
 descmsg = bm-printversion-desc
