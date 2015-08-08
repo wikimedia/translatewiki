@@ -8,7 +8,7 @@ testpp:
 	find . -name \*.pp | xargs -r puppet parser validate
 
 noop:
-	puppet apply --noop --verbose --modulepath ./modules site.pp
+	puppet apply --noop --verbose --show_diff --modulepath ./modules site.pp
 
 apply: site.pp
 	puppet apply --modulepath ./modules site.pp
