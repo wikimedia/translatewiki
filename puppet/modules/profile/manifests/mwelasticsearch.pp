@@ -15,7 +15,8 @@ class profile::mwelasticsearch {
 
   elasticsearch::instance { 'es-01':
     config => {
-      'network.host' => '::1',
+      'network.host'           => '::1',
+      'script.disable_dynamic' => false,
     },
     init_defaults => {
       'ES_HEAP_SIZE' => '12g',
