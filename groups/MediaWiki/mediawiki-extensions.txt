@@ -2218,6 +2218,9 @@ optional = timedmedia-derivative-mp3, timedmedia-derivative-desc-mp3
 optional = timedmedia-derivative-m4a, timedmedia-derivative-desc-m4a
 optional = extensionname-timedmedia
 
+Timed Media Handler - Embed Player
+file = TimedMediaHandler/MwEmbedModules/EmbedPlayer/i18n/%CODE%.json
+
 Timeline
 file = timeline/i18n/%CODE%.json
 
