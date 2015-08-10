@@ -34,6 +34,24 @@
       "revId": "22433f6a7ed338b049847ea457e08bc417fc8dea",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_caea4205",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-08-10T09:52:34Z",
+      "side": 1,
+      "message": "Had tab open, didn\u0027t notice it was merged.",
+      "parentUuid": "6ec1af18_ea905e9a",
+      "revId": "22433f6a7ed338b049847ea457e08bc417fc8dea",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
