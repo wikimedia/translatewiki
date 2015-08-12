@@ -72,7 +72,6 @@ $wgExtraLanguageNames['ruq-grek'] = 'Megleno-Romanian (Greek script)'; # Megleno
 $wgExtraLanguageNames['rut'] = 'мыхӀабишды'; # Rutul / Robin 2012-07-24
 $wgExtraLanguageNames['ryu'] = 'ʔucināguci'; # Central Okinawan / Siebrand 2008-08-28
 $wgExtraLanguageNames['saz'] = 'ꢱꣃꢬꢵꢯ꣄ꢡ꣄ꢬꢵ'; # Saurashtra / Siebrand 2011-03-17
-$wgExtraLanguageNames['sdh'] = 'کوردی خوارگ'; # Southern Kurdish / Siebrand 2013-10-07
 $wgExtraLanguageNames['shn'] = 'လိၵ်ႈတႆး'; # Shan / Siebrand 2011-09-06
 $wgExtraLanguageNames['shy-latn'] = 'Tacawit'; # Tacawit (Latin script) / Siebrand 2015-05-25
 $wgExtraLanguageNames['slr'] = 'Salırça'; # Salar / Siebrand 2008-08-18
