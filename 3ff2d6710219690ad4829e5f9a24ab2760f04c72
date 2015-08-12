@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6ec1af18_c92d5e43",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-08-12T11:24:58Z",
+      "side": 1,
+      "message": "If you don\u0027t mind, you could use the Wikimedia namespace to avoid explosion of namespaces.",
+      "revId": "3ff2d6710219690ad4829e5f9a24ab2760f04c72",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_49196e26",
+        "filename": "bin/repocreate",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-08-12T11:24:58Z",
+      "side": 1,
+      "message": "You don\u0027t really need this, if you add an entry to repoupdate using $CLUPDATE_GERRIT, which you do need.",
+      "revId": "3ff2d6710219690ad4829e5f9a24ab2760f04c72",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_8927565f",
+        "filename": "groups/crosswatch/Checker.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-08-12T11:24:58Z",
+      "side": 1,
+      "message": "Looks very complicated, maybe you could split to a few separate patterns?",
+      "revId": "3ff2d6710219690ad4829e5f9a24ab2760f04c72",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_291c2218",
+        "filename": "groups/crosswatch/crosswatch.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-08-12T11:24:58Z",
+      "side": 1,
+      "message": "You do not have a project icon?",
+      "revId": "3ff2d6710219690ad4829e5f9a24ab2760f04c72",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
