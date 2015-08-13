@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "6ec1af18_53cd9361",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 2538
+      },
+      "writtenOn": "2015-08-13T14:56:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ec1af18_c92d5e43",
+      "revId": "3ff2d6710219690ad4829e5f9a24ab2760f04c72",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6ec1af18_49196e26",
         "filename": "bin/repocreate",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-08-12T11:24:58Z",
       "side": 1,
       "message": "You don\u0027t really need this, if you add an entry to repoupdate using $CLUPDATE_GERRIT, which you do need.",
+      "revId": "3ff2d6710219690ad4829e5f9a24ab2760f04c72",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_b3e877b0",
+        "filename": "bin/repocreate",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 2538
+      },
+      "writtenOn": "2015-08-13T14:56:43Z",
+      "side": 1,
+      "message": "I\u0027ve removed this and added crosswatch to GITUPDATEPROJECTS in repoupdate (not sure if this was the correct thing to do)",
+      "parentUuid": "6ec1af18_49196e26",
       "revId": "3ff2d6710219690ad4829e5f9a24ab2760f04c72",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "6ec1af18_f3deff13",
+        "filename": "groups/crosswatch/Checker.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 2538
+      },
+      "writtenOn": "2015-08-13T14:56:43Z",
+      "side": 1,
+      "message": "Sadly, I can\u0027t. I have to use lookaround so that I don\u0027t match {{title}} if it is inside \u003cuser name\u003d{{title}}\u003e. Because parameterCheck uses preg_match_all I can\u0027t make a non-capturing group for a lookahead/behind if I split them up.",
+      "parentUuid": "6ec1af18_8927565f",
+      "revId": "3ff2d6710219690ad4829e5f9a24ab2760f04c72",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6ec1af18_291c2218",
         "filename": "groups/crosswatch/crosswatch.yaml",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2015-08-12T11:24:58Z",
       "side": 1,
       "message": "You do not have a project icon?",
+      "revId": "3ff2d6710219690ad4829e5f9a24ab2760f04c72",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_93e3fbd3",
+        "filename": "groups/crosswatch/crosswatch.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2538
+      },
+      "writtenOn": "2015-08-13T14:56:43Z",
+      "side": 1,
+      "message": "Not a official one, I\u0027ll upload https://commons.wikimedia.org/wiki/File:Eye-Black.png to use that as a icon if wished.",
+      "parentUuid": "6ec1af18_291c2218",
       "revId": "3ff2d6710219690ad4829e5f9a24ab2760f04c72",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
