@@ -1796,6 +1796,8 @@ Quick Search Lookup
 Quiz
 descmsg = quiz_desc
 
+Quick Surveys
+
 # Quiz Tabulate // Missing message documentation
 
 Random Image
