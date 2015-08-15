@@ -266,6 +266,7 @@ $smwgNamespaceIndex = 200; # Nike 2010-06-15
 enableSemantics( 'translatewiki.net' );
 $smwgNamespacesWithSemanticLinks[NS_LQT_THREAD] = true;
 $smwgNamespacesWithSemanticLinks[NS_LQT_SUMMARY] = true;
+$smwgEnabledEditPageHelp = false;
 
 require_once "$EXT/SemanticForms/SemanticForms.php";
 $sfgRedLinksCheckOnlyLocalProps = true;
