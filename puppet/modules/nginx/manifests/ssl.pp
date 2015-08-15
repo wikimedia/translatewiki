@@ -9,4 +9,12 @@ class nginx::ssl {
     command => '/usr/bin/openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048',
     creates => '/etc/ssl/certs/dhparam.pem'
   }
+
+  file { '/etc/nginx/includes':
+    ensure => 'directory',
+  }
+
+  file { '/etc/nginx/includes/ssl.conf':
+    source  => 'puppet:///modules/nginx/ssl.conf',
+  }
 }
