@@ -27,7 +27,6 @@ Jarry
 ignored = title
 
 Krinkle
-optional = alws-label
 
 Monuments API
 ignored = title
