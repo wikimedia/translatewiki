@@ -1493,6 +1493,9 @@ descmsg = newsextension-desc
 
 # News Box // New import from Shoutwiki, messages need rewording
 
+Newsletter
+aliasfile = Newsletter/Newsletter.alias.php
+
 No Title
 
 Nonlinear
