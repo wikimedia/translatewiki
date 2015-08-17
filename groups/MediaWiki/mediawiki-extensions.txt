@@ -1188,6 +1188,9 @@ Image Metrics
 
 Import Free Images
 
+Import Users
+aliasfile = ImportUsers/ImportUsers.alias.php
+
 Index Function
 aliasfile = IndexFunction/IndexFunction.alias.php
 ignored = index-exclude-categories
