@@ -1,6 +1,9 @@
 apex
 optional = skinname-apex, apex.css, apex.js
 
+Blue print
+optional = skinname-blueprint
+
 # qqq missing
 #Blue Sky
 
