@@ -84,6 +84,7 @@ $wgTranslateLanguageFallbacks['nl-be'] = array( 'nl' );
 $wgTranslateLanguageFallbacks['nl-informal'] = array( 'nl' );
 $wgTranslateLanguageFallbacks['nn'] = array( 'nb', 'sv', 'da' ); # Siebrand 2008-02-18
 $wgTranslateLanguageFallbacks['nb'] = array( 'nn', 'da', 'sv' ); # Siebrand 2008-02-18
+$wgTranslateLanguageFallbacks['olo'] = array( 'ru' ); # Mjbmr 2015-08-06
 $wgTranslateLanguageFallbacks['pbb'] = array( 'es' );
 $wgTranslateLanguageFallbacks['pdt'] = array( 'de' );
 $wgTranslateLanguageFallbacks['ppl'] = array( 'es' );
