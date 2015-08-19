@@ -7,7 +7,6 @@ $wgExtraLanguageNames['ady-cyrl'] = 'Адыгабзэ'; # Adyghe / Siebrand 2009
 $wgExtraLanguageNames['ahr'] = 'अहिराणी'; # # Ahirani / Amir 2012-02-25
 $wgExtraLanguageNames['akz'] = 'Albaamo innaaɬiilka'; # Alabama / Siebrand 2008-09-15
 $wgExtraLanguageNames['aro'] = 'Araona'; # Araona / Siebrand 2010-08-25
-$wgExtraLanguageNames['ase'] = 'American sign language'; # Siebrand 2010-03-13
 $wgExtraLanguageNames['awa'] = 'अवधी'; # Awadhi / Siebrand 2014-12-28
 $wgExtraLanguageNames['ban'] = 'ᬩᬲᬩᬮᬶ'; # Balinese / Siebrand 2012-11-25
 $wgExtraLanguageNames['bew'] = 'Bahasa Betawi'; # Betawi / Siebrand 2008-07-13
