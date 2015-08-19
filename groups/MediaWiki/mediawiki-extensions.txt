@@ -496,6 +496,7 @@ Capiunto
 
 Cargo
 magicfile = Cargo/Cargo.i18n.magic.php
+optional = extensionname-cargo
 
 Carp
 optional = carp-function-msg, carp-template-msg, carp-template
