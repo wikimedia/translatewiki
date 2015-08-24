@@ -53,6 +53,16 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-contenttranslation-0-all
+  label: Content Translation messages - all
+  description: '{{Special:MyLanguage/Translations:Group descriptions/contenttranslation/en}}'
+
+GROUPS:
+  - ext-contenttranslation
+  - ext-contenttranslation-api
+
+---
+BASIC:
   id: ext-translate-0-all
   label: Translate messages - all
   description: '{{Special:MyLanguage/Translations:Group descriptions/translate/en}}'
