@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6ec1af18_f1922eff",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-08-24T11:13:24Z",
+      "side": 1,
+      "message": "I would just call this \"Content Translation\"",
+      "revId": "65b42adaa12569cd47f9766ce492ded9ea6dff4a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_1196daf3",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-08-24T11:13:24Z",
+      "side": 1,
+      "message": "You could call this ext-contenttranslation-ui and use \"ext-contenttranslation\" for the aggregate.",
+      "revId": "65b42adaa12569cd47f9766ce492ded9ea6dff4a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_3190b6f0",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 667,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-08-24T11:13:24Z",
+      "side": 1,
+      "message": "You could name this Content Translation - UI and use \"file\" to override the file location.",
+      "revId": "65b42adaa12569cd47f9766ce492ded9ea6dff4a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
