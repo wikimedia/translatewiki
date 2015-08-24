@@ -670,7 +670,7 @@ aliasfile = ContentTranslation/ContentTranslation.alias.php
 ignored = cx-tools-view-guidelines-link, cx-descriptionpagelink
 
 Content Translation - API
-id = ext-contentranslation-api
+id = ext-contenttranslation-api
 file = ContentTranslation/i18n/api/%CODE%.json
 
 #Contest / Unused per https://bugzilla.wikimedia.org/show_bug.cgi?id=41526#c0
