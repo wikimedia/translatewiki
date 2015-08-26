@@ -294,7 +294,7 @@ Quick links:
 * Installation instructions are at https://www.mediawiki.org/wiki/MLEB
 * Announcements of new releases will be posted to a mailing list:
   https://lists.wikimedia.org/mailman/listinfo/mediawiki-i18n
-* Report bugs to https://bugzilla.wikimedia.org
+* Report bugs to https://phabricator.wikimedia.org
 * Talk with us at #mediawiki-i18n @ freenode
 WIKITEXT;
 		$parts[] = 'Release notes for each extension are below.';
