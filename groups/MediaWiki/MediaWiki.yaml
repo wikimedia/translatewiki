@@ -36,7 +36,7 @@ GROUPS:
 ---
 BASIC:
   id: core
-  label: MediaWiki (core)
+  label: MediaWiki core
   class: FileBasedMessageGroup
   description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikicore/en}}"
 
