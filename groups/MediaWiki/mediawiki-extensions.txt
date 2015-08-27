@@ -1500,6 +1500,7 @@ descmsg = newsextension-desc
 
 Newsletter
 aliasfile = Newsletter/Newsletter.alias.php
+descmsg = newsletter-extension-desc
 
 No Title
 
