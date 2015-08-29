@@ -2,8 +2,6 @@
 
 $wgExtraLanguageNames['abs'] = 'Bahasa Ambon'; # Ambonese Malay / Siebrand 2013-07-05
 $wgExtraLanguageNames['acf'] = 'kwéyòl'; # Saint Lucian Creole French / Siebrand 2012-08-05
-$wgExtraLanguageNames['ady'] = 'Адыгабзэ / Adygabze'; # Adyghe / Siebrand 2009-07-02
-$wgExtraLanguageNames['ady-cyrl'] = 'Адыгабзэ'; # Adyghe / Siebrand 2009-07-02
 $wgExtraLanguageNames['ahr'] = 'अहिराणी'; # # Ahirani / Amir 2012-02-25
 $wgExtraLanguageNames['akz'] = 'Albaamo innaaɬiilka'; # Alabama / Siebrand 2008-09-15
 $wgExtraLanguageNames['aro'] = 'Araona'; # Araona / Siebrand 2010-08-25
