@@ -1809,7 +1809,8 @@ Quick Search Lookup
 Quiz
 descmsg = quiz_desc
 
-Quick Surveys
+# Something wrong. "error: The change could not be merged due to a path conflict." since a few days
+#Quick Surveys
 
 # Quiz Tabulate // Missing message documentation
 
