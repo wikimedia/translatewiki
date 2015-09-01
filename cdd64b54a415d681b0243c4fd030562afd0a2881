@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6ec1af18_f8bace1d",
+        "filename": "groups/MediaWiki/mediawiki-skins.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2604
+      },
+      "writtenOn": "2015-09-01T00:47:22Z",
+      "side": 1,
+      "message": "Why is it called \u0027Blue print\u0027 here with a space? It should be \u0027Blueprint\u0027.",
+      "revId": "cdd64b54a415d681b0243c4fd030562afd0a2881",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
