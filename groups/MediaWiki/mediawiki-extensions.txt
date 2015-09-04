@@ -1713,6 +1713,8 @@ Parser Hooks
 # Deleted 2015-08-02
 # Parsoid
 
+Parsoid Batch API
+
 Pdf Book
 
 Pdf Export
