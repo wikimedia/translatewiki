@@ -22,12 +22,18 @@ $wgTranslatePermissionUrl = 'Special:MainPage';
 $wgTranslateUseSandbox = true;
 $wgTranslateSandboxPromotedGroup = 'translator';
 
+$lqtParams = array(
+	'lqt_method' => 'talkpage_new_thread',
+	'lqt_subject_field' => 'About [[%MESSAGE%]]',
+);
+$phabParams = array(
+	'title' => '[[%MESSAGE%]] i18n issue',
+	'description' => "\n\n**URL**: https://translatewiki.net/wiki/%MESSAGE%",
+);
+$phabUrl = 'https://phabricator.wikimedia.org/maniphest/task/create/';
 $wgTranslateSupportUrl = array(
 	'page' => 'Support',
-	'params' => array(
-		'lqt_method' => 'talkpage_new_thread',
-		'lqt_subject_field' => 'About [[%MESSAGE%]]',
-	)
+	'params' => $lqtParams,
 );
 
 $wgTranslateStaticTags = array(
@@ -215,6 +221,10 @@ $wgTranslateBlacklist = array(
 # Namespace 8
 $wgTranslateMessageNamespaces[] = NS_MEDIAWIKI;
 $wgMessagesDirs['MediawikiInstaller'] = "$IP/includes/installer/i18n";
+$wgTranslateSupportUrlNamespace[NS_MEDIAWIKI] = array(
+	'page' => 'Translating_talk:MediaWiki',
+	'params' => $lqtParams,
+);
 
 # No longer in use.
 wfAddNamespace( 1200, 'Voctrain' );
@@ -236,6 +246,10 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-android.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-ios.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/crosswatch.yaml";
+$wgTranslateSupportUrlNamespace[NS_WIKIMEDIA] = array(
+	'url' => "$phabUrl?projects=i18n,Wikimedia-General-or-Unknown",
+	'params' => $phabParams,
+);
 
 # No longer in use.
 wfAddNamespace( 1208, 'StatusNet' );
@@ -293,11 +307,19 @@ wfAddNamespace( 1238, 'Pywikibot' );
 $wgTranslateGroupFiles[] = "$GROUPS/Pywikibot/Pywikibot.yaml";
 $wgNamespaceAliases['Pywikipedia'] = 1238;
 $wgNamespaceAliases['Pywikipedia_talk'] = 1238;
+$wgTranslateSupportUrlNamespace[NS_PYWIKIBOT] = array(
+	'page' => 'Translating_talk:Pywikibot',
+	'params' => $lqtParams,
+);
 
 wfAddNamespace( 1240, 'Intuition' );
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/IntuitionAgg.yaml";
 $wgNamespaceAliases['Toolserver'] = 1240;
 $wgNamespaceAliases['Toolserver_talk'] = 1240;
+$wgTranslateSupportUrlNamespace[NS_INTUITION] = array(
+	'url' => "$phabUrl?projects=i18n,Tool-Labs-tools-Other",
+	'params' => $phabParams,
+);
 
 wfAddNamespace( 1242, 'EOL' );
 $wgTranslateGroupFiles[] = "$GROUPS/EOL/EOL.yaml";
@@ -325,6 +347,10 @@ $wgTranslateGroupFiles[] = "$GROUPS/Blockly/Blockly.yaml";
 
 wfAddNamespace( 1258, 'MathJax' );
 $wgTranslateGroupFiles[] = "$GROUPS/MathJax/MathJax.yaml";
+$wgTranslateSupportUrlNamespace[NS_MATHJAX] = array(
+	'page' => 'Translating_talk:MathJax',
+	'params' => $lqtParams,
+);
 
 wfAddNamespace( 1260, 'NFCRingControl' );
 $wgTranslateGroupFiles[] = "$GROUPS/NFCRingControl/NFCRingControl.yaml";
