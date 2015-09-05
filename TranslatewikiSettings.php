@@ -4,13 +4,18 @@
 # Performance etc.
 ###
 $wgMainCacheType = CACHE_MEMCACHED;
+$wgMessageCacheType = 'apc';
+
 $wgMemCachedServers = array( "127.0.0.1:11211" );
-$wgMemCachedTimeout = 150000;
+$wgMemCachedPersistent = true;
+
 $wgEnableSidebarCache = true;
 $wgSessionsInObjectCache = true;
 $wgShowIPinHeader = false;
 $wgAdaptiveMessageCache = true;
+
 $wgJobRunRate = 0;
+$wgJobTypeConf['default'] = array( 'class' => 'JobQueueDB', 'order' => 'random', 'claimTTL' => 60 );
 
 ###
 # Experimentalism
@@ -19,6 +24,7 @@ $wgWellFormedXml = false;
 $wgExperimentalHtmlIds = true;
 $wgAllUnicodeFixes = true;
 $wgDevelopmentWarnings = true;
+$wgResourceLoaderStorageEnabled = true;
 
 # Temporary till enabled by default in core, bug 9360
 $wgPageLanguageUseDB = true;
@@ -27,8 +33,7 @@ $wgResourceLoaderValidateJS = false;
 #$wgIncludeLegacyJavaScript = false;
 $wgLegacyJavaScriptGlobals = false;
 
-$wgDeprecationReleaseLimit = '1.21';
-
+$wgDeprecationReleaseLimit = '1.24';
 
 ###
 # Unsorted

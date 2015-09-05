@@ -1,6 +1,7 @@
 <?php
 
 $wgGroupPermissions['*'            ]['edit'] = false;
+$wgGroupPermissions['*'            ]['createaccount'] = false;
 
 $wgGroupPermissions['user'         ]['skipcaptcha'] = false;
 $wgGroupPermissions['autoconfirmed']['skipcaptcha'] = true;
