@@ -388,15 +388,13 @@ if ( $wgCanonicalServer !== "https://translatewiki.net" ) {
 }
 
 $wgHooks['GetLocalURL'][] = function ( &$title, &$url, $query ) {
-	if ( !$title->isExternal() && $query == '' ) {
-		$dbkey = wfUrlencode( $title->getPrefixedDBkey() );
-		if ( strpos( $dbkey, '%3F' ) !== false || strpos( $dbkey, '%26' ) !== false || strpos( $dbkey, '//' ) !== false ) {
-			global $wgScript;
-			$url = "$wgScript?title=$dbkey";
-		} elseif ( $title->isMainPage() ) {
-			$url = '/';
-		}
+	if ( !$title->isExternal() && $query == '' && $title->isMainPage() ) {
+		$url = '/';
 	}
+};
+
+$wgHooks['TestCanonicalRedirect'][] = function ( $request ) {
+	return $request->getRequestURL() !== '/';
 };
 
 $wgExtensionFunctions[] = function () {

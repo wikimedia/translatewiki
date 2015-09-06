@@ -17,11 +17,11 @@ server {
 	root /www/$host/docroot;
 
 	location = / {
-		rewrite ^ /wiki/Special:MainPage;
+		rewrite ^ /w/index.php;
 	}
 
 	location ~ ^/wiki/(.*)$ {
-		rewrite ^/wiki/(.*)$ /w/index.php?title=$1&$args;
+		rewrite ^/wiki/(.*)$ /w/index.php/$1;
 	}
 
 	location = /sitemap {
@@ -33,7 +33,7 @@ server {
 	}
 
 	# Allowed php files, case sensitive
-	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php$ {
+	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php {
 		set $upstream hhvm-dev;
 		if ($host = 'translatewiki.net') {
 			set $upstream hhvm;
