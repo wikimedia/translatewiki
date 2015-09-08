@@ -1947,8 +1947,11 @@ descmsg = sbl-desc
 
 Semantic Bundle
 
-# Incomplete qqq
-# Semantic Cite
+Semantic Cite
+descmsg = sci-desc
+ignored = sci-referencelist-text
+optional = sci-property-alias-doi, sci-property-alias-viaf, sci-property-alias-oclc
+optional = sci-property-alias-olid, sci-property-alias-pmcid, sci-property-alias-pmid
 
 Semantic Compound Queries
 magicfile = SemanticCompoundQueries/SemanticCompoundQueries.i18n.magic.php
