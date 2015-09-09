@@ -1745,6 +1745,8 @@ Php Tags Functions
 
 Php Tags SMW
 
+Php Tags Storage
+
 Php Tags Widgets
 
 Php Tags Wiki
