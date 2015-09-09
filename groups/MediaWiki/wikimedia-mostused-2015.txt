@@ -437,7 +437,8 @@ mobile-frontend-changeslist-nocomment
 tooltip-pt-watchlist
 tooltip-pt-userpage
 tooltip-pt-preferences
-tooltip-pt-notifications
+tooltip-pt-notifications-alert
+tooltip-pt-notifications-messages
 tooltip-pt-mytalk
 tooltip-pt-mycontris
 tooltip-pt-logout
