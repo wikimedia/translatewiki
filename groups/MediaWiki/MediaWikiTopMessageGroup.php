@@ -39,7 +39,7 @@ class MediaWikiTopMessageGroup extends MessageGroupOld {
 
 	public function getKeys() {
 		if ( $this->keys === null ) {
-			$few = explode( "\n", file_get_contents( $this->file ) );
+			$few = explode( "\n", trim( file_get_contents( $this->file ) ) );
 			$lots = $this->getParentGroup()->getKeys();
 
 			$fewer = array_intersect( $few, $lots );
