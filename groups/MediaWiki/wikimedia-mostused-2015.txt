@@ -438,7 +438,7 @@ tooltip-pt-watchlist
 tooltip-pt-userpage
 tooltip-pt-preferences
 tooltip-pt-notifications-alert
-tooltip-pt-notifications-messages
+tooltip-pt-notifications-message
 tooltip-pt-mytalk
 tooltip-pt-mycontris
 tooltip-pt-logout
