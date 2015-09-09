@@ -1100,6 +1100,8 @@ optional = googleadsense-name
 
 google Analytics
 
+Google Analytics Metrics
+
 Google Analytics Top Pages
 
 Google API Client
