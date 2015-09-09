@@ -9,3 +9,4 @@ BASIC:
 
 GROUPS:
   - tsint-*
+  - int-*

@@ -75,6 +75,7 @@ done
 GITCLUPDATE="\
 crosswatch \
 entryscape \
+int-orphantalk \
 wikiedudashboard \
 wikipedia-android \
 wikipedia-ios \

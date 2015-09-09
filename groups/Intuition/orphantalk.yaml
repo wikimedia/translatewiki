@@ -1,0 +1,16 @@
+---
+BASIC:
+  id: int-orphantalk
+  label: OrphanTalk
+  namespace: NS_INTUITION
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: orphantalk2-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/int-orphantalk/messages/%CODE%.json"

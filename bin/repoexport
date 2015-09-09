@@ -76,6 +76,10 @@ elif [ "$PROJECT" = "intuition" ]
 then
 	php "$EXPORTER" --target . --group=tsint* --lang='*' --skip "$SKIPLANGS" $HOURS
 
+elif [ "$PROJECT" = "int-orphantalk" ]
+then
+	php "$EXPORTER" --target . --group=int-orphantalk --lang='*' --skip "$SKIPLANGS" $HOURS
+
 elif [ "$PROJECT" = "jquery.uls" ]
 then
 	php "$EXPORTER" --target . --group=out-jquery-uls --lang='*' --skip en,qqq $THRESHOLD

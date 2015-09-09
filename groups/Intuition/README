@@ -1,6 +1,6 @@
 # Checkout repository to $wgTranslateGroupRoot
 cd %GROUPROOT%
-git clone git://github.com/Krinkle/TsIntuition.git
+git clone git://github.com/Krinkle/intuition.git
 
 # Add following code to LocalSettings.php or a file included by it:
 $wgHooks['TranslatePostInitGroups'][] = array( 'setupIntuitionI18N' );

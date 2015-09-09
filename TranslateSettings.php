@@ -314,6 +314,7 @@ $wgTranslateSupportUrlNamespace[NS_PYWIKIBOT] = array(
 
 wfAddNamespace( 1240, 'Intuition' );
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/IntuitionAgg.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Intuition/orphantalk.yaml";
 $wgNamespaceAliases['Toolserver'] = 1240;
 $wgNamespaceAliases['Toolserver_talk'] = 1240;
 $wgTranslateSupportUrlNamespace[NS_INTUITION] = array(
