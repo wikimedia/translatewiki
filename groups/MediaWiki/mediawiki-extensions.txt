@@ -734,6 +734,9 @@ aliasfile = DeleteBatch/DeleteBatch.alias.php
 
 Delete Own
 
+Delete Pages For Good
+optional = extensionname-deletepagesforgood
+
 Description2
 
 # Device Map Log Capture : Proof of Concept only. Extension page on mw.o does not exist
