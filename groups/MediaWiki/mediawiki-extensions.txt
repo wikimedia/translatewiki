@@ -1090,8 +1090,7 @@ file = GlobalUserGroups/i18n/core/%CODE%.json
 Global User Page
 
 Global Userrights
-# Aliases conflict with CentralAuth's
-#aliasfile = GlobalUserrights/GlobalUserrights.alias.php
+aliasfile = GlobalUserrights/GlobalUserrights.alias.php
 descmsg = gur-desc
 
 # Missing message documenation
