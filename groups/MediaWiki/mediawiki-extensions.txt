@@ -2273,8 +2273,8 @@ Toc Tree
 
 Tooltip
 
-# Missing message doc - 2015-07-05
-# Top Ten Pages
+Top Ten Pages
+aliasfile = TopTenPages/TopTenPages.alias.php
 
 Tor Block
 
