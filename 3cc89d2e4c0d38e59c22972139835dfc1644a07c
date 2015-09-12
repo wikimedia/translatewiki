@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6ec1af18_7369bdbb",
+        "filename": "bin/repoupdate",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-09-12T17:03:03Z",
+      "side": 1,
+      "message": "If you add it here, CLUPDATE will create the repo if missing and no need to add it to repocreate.",
+      "revId": "3cc89d2e4c0d38e59c22972139835dfc1644a07c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_936ea9c3",
+        "filename": "groups/Intuition/IntuitionAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-09-12T17:03:03Z",
+      "side": 1,
+      "message": "For future, int-* will need less maintenance when new projects are added.",
+      "revId": "3cc89d2e4c0d38e59c22972139835dfc1644a07c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
