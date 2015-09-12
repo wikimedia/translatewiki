@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "6ec1af18_f3bb6d21",
+        "filename": "bin/repoupdate",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 34
+      },
+      "writtenOn": "2015-09-12T17:26:37Z",
+      "side": 1,
+      "message": "Ah, I understand what this does now. I was about to suggest creating something like this. It produces the REPOCONF variable name and uses it.\n\nI guess we can use that for some of the others still in bin/repocreate as well? (Such as intuition)",
+      "parentUuid": "6ec1af18_7369bdbb",
+      "revId": "3cc89d2e4c0d38e59c22972139835dfc1644a07c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6ec1af18_936ea9c3",
         "filename": "groups/Intuition/IntuitionAgg.yaml",
         "patchSetId": 3
