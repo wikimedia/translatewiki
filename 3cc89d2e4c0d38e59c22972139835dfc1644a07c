@@ -51,6 +51,24 @@
       "revId": "3cc89d2e4c0d38e59c22972139835dfc1644a07c",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_b385e55f",
+        "filename": "groups/Intuition/IntuitionAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 34
+      },
+      "writtenOn": "2015-09-12T17:27:18Z",
+      "side": 1,
+      "message": "Okay :) It seems like other yaml files were avoiding wildcards so just copied that convention.",
+      "parentUuid": "6ec1af18_936ea9c3",
+      "revId": "3cc89d2e4c0d38e59c22972139835dfc1644a07c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
