@@ -145,6 +145,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/category_redirect/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-checkimages
+  label: Pywikibot Check Images
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/checkimages/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-cleansandbox
   label: Pywikibot Clean Sandbox
 
@@ -227,6 +234,20 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/followlive/%CODE%.json"
+---
+BASIC:
+  id: out-pywikipedia-image
+  label: Pywikibot Image
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/image/%CODE%.json"
+---
+BASIC:
+  id: out-pywikipedia-imagetransfer
+  label: Pywikibot Image Transfer
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/imagetransfer/%CODE%.json"
 ---
 BASIC:
   id: out-pywikipedia-interwiki
@@ -384,6 +405,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/spellcheck/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-statesredirect
+  label: Pywikibot States Redirect
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/states_redirect/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-table2wiki
   label: Pywikibot Table2Wiki
 
@@ -428,6 +456,13 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/unprotect/%CODE%.json"
+---
+BASIC:
+  id: out-pywikipedia-unusedfiles
+  label: Pywikibot Unused Files
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/unusedfiles/%CODE%.json"
 ---
 BASIC:
   id: out-pywikipedia-weblinkchecker
