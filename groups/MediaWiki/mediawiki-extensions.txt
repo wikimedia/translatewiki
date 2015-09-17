@@ -1822,8 +1822,9 @@ Quick Search Lookup
 Quiz
 descmsg = quiz_desc
 
-Quick Surveys
-ignored = ext-quicksurveys-example-external-survey-link
+# dev branch
+# Quick Surveys
+# ignored = ext-quicksurveys-example-external-survey-link
 
 # Quiz Tabulate // Missing message documentation
 
