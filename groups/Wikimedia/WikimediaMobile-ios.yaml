@@ -39,34 +39,6 @@ FILES:
 ---
 BASIC:
   icon: wiki://Wikipedia-logo-v2.svg
-  id: out-wikimedia-mobile-wikipedia-ios-ui
-  label: Wikipedia iOS Mobile UI strings
-
-MANGLER:
-  prefix: wikipedia-ios-ui-
-
-FILES:
-  class: AppleFFS
-  sourcePattern: "%GROUPROOT%/wikipedia-ios/Wikipedia/%CODE%.lproj/Main_iPhone.strings"
-
-TAGS:
-  ignored:
-    - "wikipedia-ios-ui-8HR-Gs-iaC.normalTitle"
-    - "wikipedia-ios-ui-UVB-P9-soS.normalTitle"
-    - "wikipedia-ios-ui-atP-34-Uka.normalTitle"
-    - "wikipedia-ios-ui-cq9-Zs-YsN.normalTitle"
-    - "wikipedia-ios-ui-aCV-ih-PXn.text"
-    - "wikipedia-ios-ui-cbH-8H-z54.text"
-    - "wikipedia-ios-ui-djd-0J-VZY.text"
-    - "wikipedia-ios-ui-jxY-ej-I9e.text"
-    - "wikipedia-ios-ui-nI1-bn-0Ii.text"
-    - "wikipedia-ios-ui-SER-n4-DZC.text"
-    - "wikipedia-ios-ui-Vkd-3W-cSt.text"
-    - "wikipedia-ios-ui-XkB-Xo-Xq0.text"
-
----
-BASIC:
-  icon: wiki://Wikipedia-logo-v2.svg
   id: out-wikimedia-mobile-wikipedia-ios-0-all
   label: Wikipedia iOS Mobile
   meta: yes
