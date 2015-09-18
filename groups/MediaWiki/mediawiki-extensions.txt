@@ -1908,6 +1908,7 @@ ignored = rss-item
 RT
 
 Sacred Text
+magicfile = SacredText/SacredText.i18n.magic.php
 
 Safe Delete
 aliasfile = SafeDelete/SafeDelete.alias.php
