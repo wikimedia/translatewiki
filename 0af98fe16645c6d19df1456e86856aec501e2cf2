@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "6ec1af18_59702da3",
+        "filename": "bin/repocommit",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 2230
+      },
+      "writtenOn": "2015-09-18T16:56:14Z",
+      "side": 1,
+      "message": "sorry, didn\u0027t realize it was in alphabetical order, i\u0027ll move it and add a comment",
+      "parentUuid": "6ec1af18_3908c12a",
+      "revId": "0af98fe16645c6d19df1456e86856aec501e2cf2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6ec1af18_b92a7172",
         "filename": "bin/repoupdate",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "6ec1af18_196aa5b1",
+        "filename": "bin/repoupdate",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 2230
+      },
+      "writtenOn": "2015-09-18T16:56:14Z",
+      "side": 1,
+      "message": "what\u0027s the difference? i only moved it because it seemed like where al the other \"GIT\" projects were kept, separate from \"GERRIT\" projects.",
+      "parentUuid": "6ec1af18_b92a7172",
+      "revId": "0af98fe16645c6d19df1456e86856aec501e2cf2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6ec1af18_d93c1dbf",
         "filename": "groups/Wikimedia/WikimediaMobile-ios.yaml",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2015-09-18T16:53:40Z",
       "side": 1,
       "message": "You have to remove (or comment out if you plan to restore it) the whole thing.",
+      "revId": "0af98fe16645c6d19df1456e86856aec501e2cf2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_995d351d",
+        "filename": "groups/Wikimedia/WikimediaMobile-ios.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 2230
+      },
+      "writtenOn": "2015-09-18T16:56:14Z",
+      "side": 1,
+      "message": "oh i see, i need to remove the whole YAML \"dictionary.\" will do",
+      "parentUuid": "6ec1af18_d93c1dbf",
       "revId": "0af98fe16645c6d19df1456e86856aec501e2cf2",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
