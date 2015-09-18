@@ -122,3 +122,5 @@ GROUPS:
   - ext-xanalytics # 2015-02-02 on all wikis
   - ext-zerobanner # 2014-06
   - ext-zeroportal # 2014-06
+  - mediawiki-skin-cologneblue
+  - mediawiki-skin-modern
