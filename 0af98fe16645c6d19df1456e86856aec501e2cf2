@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6ec1af18_3908c12a",
+        "filename": "bin/repocommit",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-09-18T16:53:40Z",
+      "side": 1,
+      "message": "It would be nice if you cold place this in the alphabetical order.",
+      "revId": "0af98fe16645c6d19df1456e86856aec501e2cf2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_b92a7172",
+        "filename": "bin/repoupdate",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-09-18T16:53:40Z",
+      "side": 1,
+      "message": "Just keep this in the original place actually. CLUPDATE is better than UPDATE ;)",
+      "revId": "0af98fe16645c6d19df1456e86856aec501e2cf2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec1af18_d93c1dbf",
+        "filename": "groups/Wikimedia/WikimediaMobile-ios.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-09-18T16:53:40Z",
+      "side": 1,
+      "message": "You have to remove (or comment out if you plan to restore it) the whole thing.",
+      "revId": "0af98fe16645c6d19df1456e86856aec501e2cf2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
