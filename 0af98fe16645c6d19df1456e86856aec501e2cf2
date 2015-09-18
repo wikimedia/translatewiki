@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "6ec1af18_3983e158",
+        "filename": "bin/repoupdate",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-09-18T17:01:13Z",
+      "side": 1,
+      "message": "CLUPDATE is short for clone-update. If you use CLUPDATE you do not need to have wikipedia-ios listed in repocreate.\n\nIt\u0027s a bit of mess currently, but all git projects should be migrated to CLUPDATE.\n\nGerrit projects are handled separately below with CLUPDATE_GERRIT.",
+      "parentUuid": "6ec1af18_196aa5b1",
+      "revId": "0af98fe16645c6d19df1456e86856aec501e2cf2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6ec1af18_d93c1dbf",
         "filename": "groups/Wikimedia/WikimediaMobile-ios.yaml",
         "patchSetId": 1
