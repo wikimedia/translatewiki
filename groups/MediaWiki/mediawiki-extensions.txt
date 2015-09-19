@@ -2275,8 +2275,9 @@ Toc Tree
 
 Tooltip
 
-Top Ten Pages
-aliasfile = TopTenPages/TopTenPages.alias.php
+# Missing userrights for l10n-bot. Task T113158
+#Top Ten Pages
+#aliasfile = TopTenPages/TopTenPages.alias.php
 
 Tor Block
 
