@@ -1919,6 +1919,7 @@ ignored = sandboxlink-editintro-pagename, sandboxlink-preload-pagename
 Sarcasm
 
 Score
+optional = score-visualeditor-mwscoreinspector-lang-abc, score-visualeditor-mwscoreinspector-lang-lilypond
 
 #Scan Set / 2012-11-12: Disabled on WMF / Abandoned.
 
