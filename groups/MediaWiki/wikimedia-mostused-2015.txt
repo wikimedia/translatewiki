@@ -1,4 +1,5 @@
 mainpage
+mainpage-nstab
 editsectionhint
 editsection
 red-link-title
