@@ -16,6 +16,24 @@
       "revId": "cdd64b54a415d681b0243c4fd030562afd0a2881",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ecb373e_adfef4a9",
+        "filename": "groups/MediaWiki/mediawiki-skins.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-09-23T13:05:44Z",
+      "side": 1,
+      "message": "Sometimes it is not clear when an extension or skin name is written in together just because spaces are not good idea in folder names. You can submit a fix in another patch.",
+      "parentUuid": "6ec1af18_f8bace1d",
+      "revId": "cdd64b54a415d681b0243c4fd030562afd0a2881",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
