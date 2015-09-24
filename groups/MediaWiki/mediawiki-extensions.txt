@@ -602,6 +602,7 @@ Commons Metadata
 ignored = commonsmetadata-doc-url
 
 Community Twitter
+aliasfile = CommunityTwitter/CommunityTwitter.alias.php
 
 Community Voice
 aliasfile = CommunityVoice/CommunityVoice.alias.php
