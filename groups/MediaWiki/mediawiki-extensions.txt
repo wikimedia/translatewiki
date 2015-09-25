@@ -1742,6 +1742,7 @@ aliasfile = Persona/Persona.i18n.alias.php
 PGF TikZ
 
 Phalanx
+aliasfile = Phalanx/Phalanx.alias.php
 
 PHP Excel
 
