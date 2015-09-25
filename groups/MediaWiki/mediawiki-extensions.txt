@@ -2105,6 +2105,7 @@ aliasfile = SiteMatrix/SiteMatrix.alias.php
 Site Metrics
 
 Site Settings
+aliasfile = SiteSettings/SiteSettings.alias.php
 
 # Skel JS # No i18n file
 
