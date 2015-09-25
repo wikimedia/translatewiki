@@ -2256,7 +2256,7 @@ optional = timedmedia-derivative-ogg, timedmedia-derivative-desc-ogg
 optional = timedmedia-derivative-opus, timedmedia-derivative-desc-opus
 optional = timedmedia-derivative-mp3, timedmedia-derivative-desc-mp3
 optional = timedmedia-derivative-m4a, timedmedia-derivative-desc-m4a
-optional = extensionname-timedmedia
+optional = timedmediahandler-extensionname
 
 Timed Media Handler - Embed Player
 file = TimedMediaHandler/MwEmbedModules/EmbedPlayer/i18n/%CODE%.json
