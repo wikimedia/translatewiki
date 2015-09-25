@@ -127,6 +127,9 @@ AWS
 
 AWS SDK
 
+Azhar Auth
+aliasfile = AzharAuth/AzharAuth.alias.php
+
 Babel
 magicfile = Babel/Babel.i18n.magic.php
 optional = babel-0-female, babel-1-female, babel-2-female, babel-3-female
@@ -1554,6 +1557,9 @@ descmsg = oauthauth-desc
 
 OdbcDatabase
 aliasfile = OdbcDatabase/OdbcDatabase.alias.php
+
+# Missing message doc 2015-09-25
+# Offline
 
 # Missing message doc, message prefixes needed - 2015-05-07 - RS
 # Offline Import Lexicon
