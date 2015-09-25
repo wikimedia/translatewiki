@@ -499,7 +499,6 @@ Capiunto
 
 Cargo
 magicfile = Cargo/Cargo.i18n.magic.php
-optional = extensionname-cargo
 
 Carp
 optional = carp-function-msg, carp-template-msg, carp-template
@@ -739,7 +738,6 @@ aliasfile = DeleteBatch/DeleteBatch.alias.php
 Delete Own
 
 Delete Pages For Good
-optional = extensionname-deletepagesforgood
 
 Description2
 
@@ -1102,7 +1100,6 @@ descmsg = gur-desc
 
 Google AdSense
 ignored = googleadsense
-optional = googleadsense-name
 
 google Analytics
 
@@ -1165,7 +1162,6 @@ Hit Counters
 aliasfile = HitCounters/HitCounters.i18n.alias.php
 magicfile = HitCounters/HitCounters.i18n.magic.php
 ignored = hitcounters-page-label, popularpages-summary
-optional = hitcounters-name
 
 Host Stats
 aliasfile = HostStats/HostStats.alias.php
@@ -1530,7 +1526,6 @@ aliasfile = NukeDPL/NukeDPL.alias.php
 
 Number Format
 descmsg = numberformat_desc
-optional = numberformat_name
 
 Numbertext
 
@@ -2235,7 +2230,6 @@ Thanks
 aliasfile = Thanks/Thanks.alias.php
 
 Theme
-optional = extensionname-theme
 
 Throttle Override
 aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
@@ -2262,7 +2256,6 @@ optional = timedmedia-derivative-ogg, timedmedia-derivative-desc-ogg
 optional = timedmedia-derivative-opus, timedmedia-derivative-desc-opus
 optional = timedmedia-derivative-mp3, timedmedia-derivative-desc-mp3
 optional = timedmedia-derivative-m4a, timedmedia-derivative-desc-m4a
-optional = timedmediahandler-extensionname
 
 Timed Media Handler - Embed Player
 file = TimedMediaHandler/MwEmbedModules/EmbedPlayer/i18n/%CODE%.json
@@ -2304,7 +2297,6 @@ aliasfile = Translate/Translate.alias.php
 # aliasfile = Translate/Translate.MyLanguage.alias.php // Disabled due to a conflict with core
 optional = translate-page-paging-links, supportedlanguages-portallink, supportedlanguages-portallink-nocldr
 optional = group-translate-proofr.css, group-translate-proofr.js
-optional = extensionname-translate
 ignored = translate-edit-tag-warning, supportedlanguages-localsummary
 
 Translate - Page Translation
