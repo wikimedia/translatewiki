@@ -1227,8 +1227,8 @@ optional = interwiki_url, interwiki-url-label
 ignored = interwiki-defaulturl, logentry-interwiki-interwiki, interwiki-legend
 ignored = interwiki-description
 
-# Incomplete message documenation / inconsistent message prefix
-#Interwiki Integration
+Interwiki Integration
+aliasfile = InterwikiIntegration/InterwikiIntegration.alias.php
 
 Insider
 
