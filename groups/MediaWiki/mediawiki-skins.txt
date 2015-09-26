@@ -1,8 +1,7 @@
 apex
-optional = skinname-apex, apex.css, apex.js
+optional = apex.css, apex.js
 
 Blue print
-optional = skinname-blueprint
 
 # qqq missing
 #Blue Sky
@@ -14,16 +13,14 @@ Blue Spice Skin
 
 Chameleon
 file = chameleon/resources/i18n/%CODE%.json
-optional = skinname-chameleon
 
 Cologne Blue
-optional = skinname-cologneblue, cologneblue.css, cologneblue.js
+optional = cologneblue.css, cologneblue.js
 
 Daddio
 
 erudite
 file = erudite/i18n/%CODE%.json
-optional = skinname-erudite
 ignored = erudite-extracontent-column1, erudite-extracontent-column2, erudite-extracontent-column3
 
 Grey Stuff
@@ -37,22 +34,22 @@ ignored = mask-menu-left, mask-menu-right, mask-index-url
 
 Metrolook
 ignored = metrolook-tiles, metrolook-tiles-second
-optional = skinname-metrolook, metrolook.css, metrolook.js
+optional = metrolook.css, metrolook.js
 
 Modern
-optional = skinname-modern, modern.css, modern.js
+optional = modern.css, modern.js
 
 MonoBook
-optional = skinname-monobook, monobook.css, monobook.js
+optional = monobook.css, monobook.js
 
 Nimbus
 ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 
 Nostalgia
-optional = skinname-nostalgia, nostalgia.css, nostalgia.js
+optional = nostalgia.css, nostalgia.js
 
 Slate
-optional = skinname-slate, slate.css, slate.js
+optional = slate.css, slate.js
 
 Splash
 ignored = site-banner, global-links-menu, content-footer
@@ -63,4 +60,4 @@ Tempo
 # Truglass
 
 Vector
-optional = skinname-vector, vector.css, vector.js
+optional = vector.css, vector.js
