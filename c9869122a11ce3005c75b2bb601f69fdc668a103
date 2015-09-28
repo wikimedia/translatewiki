@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ecb373e_746503aa",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2015-09-28T12:21:36Z",
+      "side": 0,
+      "message": "These ignored keys are still relevant.",
+      "revId": "c9869122a11ce3005c75b2bb601f69fdc668a103",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
