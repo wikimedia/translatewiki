@@ -2243,7 +2243,6 @@ Throttle Override
 aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
 
 Timed Media Handler
-descmsg = timedmedia-desc
 magicfile = TimedMediaHandler/TimedMediaHandler.i18n.magic.php
 aliasfile = TimedMediaHandler/TimedMediaHandler.i18n.alias.php
 optional = timedmedia-ogg, timedmedia-webm, timedmedia-wav
