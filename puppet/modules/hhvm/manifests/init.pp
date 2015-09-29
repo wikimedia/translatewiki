@@ -21,7 +21,7 @@ class hhvm {
     require  => Exec['apt-key-wikimedia'],
   }
 
-  package { [ 'hhvm', 'hhvm-dev', 'hhvm-fss', 'hhvm-luasandbox', 'hhvm-wikidiff2' ]:
+  package { [ 'hhvm', 'hhvm-dev' ]:
     ensure  => latest,
     before  => Service['hhvm'],
     require => Apt::Source['wikimedia'],
