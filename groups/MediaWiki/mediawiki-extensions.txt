@@ -9,8 +9,6 @@ aliasfile = AbuseFilter/AbuseFilter.alias.php
 #ignored=accesscontrol-info-user, accesscontrol-info-anonymous, accesscontrol-info-deny, accesscontrol-edit-anonymous
 #ignored=accesscontrol-edit-users
 
-Accessibility Simulation
-
 # Disabled 2015-07-21 afters SULF finished
 # Account Audit
 
