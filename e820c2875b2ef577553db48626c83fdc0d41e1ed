@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ecb373e_9be76edf",
+        "filename": "groups/MediaWiki/mediawiki-skins.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2015-09-29T10:09:12Z",
+      "side": 0,
+      "message": "definition for descmsg is missing. It differs from skin name",
+      "revId": "e820c2875b2ef577553db48626c83fdc0d41e1ed",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
