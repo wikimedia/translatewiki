@@ -706,6 +706,10 @@ Convert 2 Wiki
 aliasfile = Convert2Wiki/Convert2Wiki.alias.php
 optional = convert2wiki-format-csv
 
+Cookie Policy
+descmsg = cookie-policy-description
+ignored = cookie-policy-link, cookie-policy-site-name
+
 Copy To Clipboard
 
 Create Page
