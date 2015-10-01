@@ -9,6 +9,7 @@ TEMPLATE:
     class: JsonFFS
     # Pywikibot works on siteinfo lang property, so mapping fallbacked this language code.
     codeMap:
+      aeb-latn: aeb
       bbc-latn: bbc
       gan-hant: gan
       gom-latn: gom
@@ -39,6 +40,8 @@ TEMPLATE:
 
   LANGUAGES:
     blacklist:
+      - aeb
+      - aeb-arab
       - als
       - be-x-old
       - de-ch
