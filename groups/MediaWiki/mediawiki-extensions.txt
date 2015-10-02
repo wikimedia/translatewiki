@@ -1541,6 +1541,7 @@ descmsg = numberformat_desc
 Numbertext
 
 Numer Alpha
+ignored = ext-numeralpha-list-format-outline-glue
 
 OAI-PMH repository
 id = ext-oai
