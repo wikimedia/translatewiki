@@ -689,6 +689,7 @@ ignored = contribstats-header, contribstats-footer
 
 Contribution Scores
 aliasfile = ContributionScores/ContributionScores.alias.php
+optional = score-visualeditor-mwscoreinspector-card-midi
 
 Contribution Tracking
 aliasfile = ContributionTracking/ContributionTracking.alias.php
