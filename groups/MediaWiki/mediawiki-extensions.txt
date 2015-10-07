@@ -1333,6 +1333,8 @@ Mad Lib
 
 Magic No Cache
 
+Mailgun
+
 Maintenance
 aliasfile = Maintenance/Maintenance.alias.php
 optional = maintenance-cleanupCaps-output-moved, maintenance-clearInterwikiCache-db
