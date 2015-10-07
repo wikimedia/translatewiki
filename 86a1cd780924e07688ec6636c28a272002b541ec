@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ecb373e_99788c27",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2015-10-07T15:23:41Z",
+      "side": 1,
+      "message": "Please keep code standards. Add spaces before and behind \u003d",
+      "revId": "86a1cd780924e07688ec6636c28a272002b541ec",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
