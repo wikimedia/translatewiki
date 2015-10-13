@@ -1256,6 +1256,8 @@ optional = jsbreadcrumbs-separator
 
 Json Config
 
+Kartographer
+
 Labeled Section Transclusion
 descmsg = lst-desc
 
