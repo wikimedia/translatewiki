@@ -1740,6 +1740,9 @@ Parser Hooks
 
 Parsoid Batch API
 
+# Incomplete message doc
+# Patroller
+
 Pdf Book
 
 Pdf Export
@@ -2185,6 +2188,9 @@ descmsg = sslauth-desc
 Stalker Log
 
 Starter Wiki
+
+Stat Counter
+ignored = statcounter-project-id, statcounter-security
 
 Stick To That Language
 
