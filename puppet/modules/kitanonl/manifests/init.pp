@@ -1,12 +1,12 @@
-# = Class: kitano-nl
+# = Class: kitanonl
 #
 # Provides kitano.nl website
 #
-class kitano-nl {
+class kitanonl {
   include fcgiwrap
 
   file { '/etc/nginx/sites/kitano.nl':
-    source  => 'puppet:///modules/kitano-nl/kitano.nl',
+    source  => 'puppet:///modules/kitanonl/kitano.nl',
     require => [Package['nginx'], Service['fcgiwrap']],
     notify  => Service['nginx'],
   }

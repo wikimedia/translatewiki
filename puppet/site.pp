@@ -24,7 +24,7 @@ node 'translatewiki.net' {
   include eximconf::web1
   include mailman-conf
 
-  include kitano-nl
+  include kitanonl
 
   class { 'backup':
     databases => ['translatewiki_net'],
