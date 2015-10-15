@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0ebaf39b_fcc22e87",
+        "filename": "puppet/modules/base/manifests/init.pp",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2015-10-15T08:25:45Z",
+      "side": 1,
+      "message": "Only remaining warning. How to fix?\n\n 08:24:28 ./puppet/modules/base/manifests/init.pp:35 WARNING line has more than 80 characters (80chars)",
+      "revId": "60e177c3ae603afd80dcd24e745de58ab1777812",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
