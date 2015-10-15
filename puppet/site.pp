@@ -20,8 +20,8 @@ node 'translatewiki.net' {
   include memcached
   include nginx::sites
 
-  include exim-conf
-  include exim-conf::web1
+  include eximconf
+  include eximconf::web1
   include mailman-conf
 
   include kitano-nl
@@ -49,7 +49,7 @@ node 'v220150764426371.yourvserver.net' {
   include users
 
   include base::es
-  include exim-conf
-  include exim-conf::es
+  include eximconf
+  include eximconf::es
   include profile::mwelasticsearch
 }
