@@ -1,3 +1,7 @@
+# = Class: nginx
+#
+# Provides installation and configuration information for the nginx package.
+#
 class nginx {
   include apt
   apt::ppa { 'ppa:nginx/stable': }

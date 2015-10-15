@@ -1,3 +1,7 @@
+# = Class: base
+#
+# Provides base configuration for servers.
+#
 class base {
   package { [
     # Basic packages

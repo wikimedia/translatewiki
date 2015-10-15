@@ -1,3 +1,7 @@
+# = Class: base::web1
+#
+# Provides base configuration for server web1.
+#
 class base::web1 {
   file { '/etc/hostname':
     content => 'translatewiki.net',

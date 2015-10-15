@@ -1,3 +1,7 @@
+# = Class: memcached
+#
+# Provides memcached installation and configuration.
+#
 class memcached {
   package { 'memcached':
     ensure => present,

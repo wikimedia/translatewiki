@@ -1,3 +1,7 @@
+# = Class: fcgiwrap
+#
+# Provides installation and configuration for the fcgiwrap package.
+#
 class fcgiwrap {
   package { 'fcgiwrap':
     ensure => present,

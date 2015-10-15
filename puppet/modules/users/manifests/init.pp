@@ -1,3 +1,7 @@
+# = Class: users
+#
+# Provides user configuration for servers.
+#
 class users {
   # Pull down the main aliases file
   file { '/etc/aliases':

@@ -1,3 +1,7 @@
+# = Class: nginx::ssl
+#
+# Provides SSL configuration for nginx sites.
+#
 class nginx::ssl {
   include nginx
 

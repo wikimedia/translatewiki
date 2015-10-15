@@ -1,3 +1,7 @@
+# = Class: base::mediawiki
+#
+# Provides base configuration for MediaWiki.
+#
 class base::mediawiki {
   package { [
     'doxygen',

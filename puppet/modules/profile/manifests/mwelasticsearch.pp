@@ -1,3 +1,7 @@
+# = Class: mwelasticsearch
+#
+# Provides elasticsearch configuration for MediaWiki.
+#
 class profile::mwelasticsearch {
   include ::nginx
 
@@ -14,7 +18,7 @@ class profile::mwelasticsearch {
   }
 
   elasticsearch::instance { 'es-01':
-    config => {
+    config        => {
       'network.host'           => '::1',
       'script.disable_dynamic' => false,
     },

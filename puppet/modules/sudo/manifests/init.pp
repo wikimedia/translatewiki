@@ -1,3 +1,7 @@
+# = Class: sudo
+#
+# Provides sudoers file.
+#
 class sudo {
   package { 'sudo':
     ensure => present,

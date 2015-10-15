@@ -1,3 +1,7 @@
+# = Class: mariadb
+#
+# Provides mariadb installation and configuration for translatewiki.net.
+#
 class mariadb {
   class { '::mysql::server':
     package_name     => 'mariadb-server',
@@ -7,7 +11,7 @@ class mariadb {
         character-set-server            => 'utf8',
         innodb_additional_mem_pool_size => '400M',
         innodb_buffer_pool_size         => '12G',
-        innodb_file_per_table           => 'true',
+        innodb_file_per_table           => true,
         innodb_log_file_size            => '500M',
         key_buffer_size                 => '64M',
         log_slow_queries                => '/var/log/mysql/mysql-slow.log',

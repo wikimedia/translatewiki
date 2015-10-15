@@ -1,3 +1,7 @@
+# = Class: mailmanconf
+#
+# Provides mailman configuration.
+#
 class mailmanconf {
   # Would prefer to just use "list" but the module does not support this, so
   # make an alias
