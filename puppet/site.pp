@@ -22,7 +22,7 @@ node 'translatewiki.net' {
 
   include eximconf
   include eximconf::web1
-  include mailman-conf
+  include mailmanconf
 
   include kitanonl
 
