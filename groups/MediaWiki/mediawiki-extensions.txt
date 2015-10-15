@@ -1614,6 +1614,8 @@ ignored = apihelp-novaaddress-param-id
 
 Oracle Text Search
 
+ORES
+
 Page Creation Notif
 descmsg = page-creation-notif-desc
 
