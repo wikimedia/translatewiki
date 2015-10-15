@@ -30,6 +30,7 @@ REPO_MATHJAX=git@github.com:mathjax/MathJax-i18n.git
 REPO_MIFOS=git@github.com:openMF/community-app.git
 REPO_NFCRINGCONTROL=git@github.com:mclear/NFC_Ring_Control.git
 REPO_NOCC=svn+ssh://siebrand@svn.code.sf.net/p/nocc/code/trunk
+REPO_INTORPHANTALK=git@github.com:Krinkle/mw-tool-orphantalk.git
 REPO_OSM=ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git
 REPO_POTLATCH2=git@github.com:systemed/potlatch2.git
 REPO_PYWIKIBOT=ssh://l10n-bot@gerrit.wikimedia.org:29418/pywikibot/i18n
