@@ -49,6 +49,7 @@ TAGS:
     - model.foundingFather.*.name
     - model.goods.goodsAmount
     - model.modifier.unknown
+    - nameCache.lostCityRumour.cityName.*
     - model.nation.*.europe
     - model.nation.*.region.land.*
     - model.nation.*.region.mountain.*
