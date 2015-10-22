@@ -69,6 +69,7 @@ TAGS:
     - report.indian.tensionStance
     - report.unit.goingTo
     - selectDestination.destinationTurns
+    - selectDestinationDialog.destinationTurns
     - shipName.3.0
     - transaction.tax
     - unitFormat.name.nation.null.equip
