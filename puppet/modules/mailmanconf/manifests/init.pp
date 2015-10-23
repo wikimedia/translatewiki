@@ -1,4 +1,4 @@
-class mailman-conf {
+class mailmanconf {
   # Would prefer to just use "list" but the module does not support this, so
   # make an alias
   user {
@@ -23,7 +23,7 @@ class mailman-conf {
   }
 
   file { '/etc/nginx/sites-available/lists.translatewiki.net':
-    source  => 'puppet:///modules/mailman-conf/nginx/lists.translatewiki.net',
+    source  => 'puppet:///modules/mailmanconf/nginx/lists.translatewiki.net',
   }
 
   file { '/etc/nginx/sites-enabled/lists.translatewiki.net':
@@ -33,17 +33,17 @@ class mailman-conf {
   }
 
   file { '/etc/exim4/conf.d/main/04_mailman_options':
-    source => 'puppet:///modules/mailman-conf/exim4/conf.d/main/04_mailman_options',
+    source => 'puppet:///modules/mailmanconf/exim4/conf.d/main/04_mailman_options',
     notify => Service['exim4'],
   }
 
   file { '/etc/exim4/conf.d/router/450_mailman_aliases':
-    source => 'puppet:///modules/mailman-conf/exim4/conf.d/router/450_mailman_aliases',
+    source => 'puppet:///modules/mailmanconf/exim4/conf.d/router/450_mailman_aliases',
     notify => Service['exim4'],
   }
 
   file { '/etc/exim4/conf.d/transport/40_mailman_pipe':
-    source => 'puppet:///modules/mailman-conf/exim4/conf.d/transport/40_mailman_pipe',
+    source => 'puppet:///modules/mailmanconf/exim4/conf.d/transport/40_mailman_pipe',
     notify => Service['exim4'],
   }
 
