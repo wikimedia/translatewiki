@@ -271,6 +271,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/isbn/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-listpages
+  label: Pywikibot List Pages
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/listpages/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-lonelypages
   label: Pywikibot Lonely Pages Checker
 
