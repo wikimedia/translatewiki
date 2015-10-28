@@ -480,8 +480,8 @@ centralauth-admin-blocklog
 centralauth-merge-method-login
 svg-long-desc
 coll-n_pages
-createacct-imgcaptcha-ph
-createacct-captcha
+fancycaptcha-imgcaptcha-ph
+fancycaptcha-captcha
 coll-show_collection
 coll-make_suggestions
 proofreadpage_quality0_category
