@@ -638,8 +638,8 @@ id = ext-confirmaccount-page
 Confirm Account - Request Account
 file = ConfirmAccount/i18n/requestaccount/%CODE%.json
 id = ext-confirmaccount-requestaccount
-optional = requestaccount-info, requestaccount-footer
-ignored = requestaccount-areas
+optional = requestaccount-info
+ignored = requestaccount-footer, requestaccount-areas
 
 Confirm Account - User Credentials
 file = ConfirmAccount/i18n/usercredentials/%CODE%.json
