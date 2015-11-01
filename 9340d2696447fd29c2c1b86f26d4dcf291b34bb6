@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0ebaf39b_0c10b0ab",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2015-11-01T11:29:52Z",
+      "side": 1,
+      "message": "\"requestaccount-info\" has to stay optional.",
+      "revId": "9340d2696447fd29c2c1b86f26d4dcf291b34bb6",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
