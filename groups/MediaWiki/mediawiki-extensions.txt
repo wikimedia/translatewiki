@@ -173,6 +173,12 @@ file = BlueSpiceFoundation/i18n/core/%CODE%.json
 optional = prefs-base
 ignored = specialpages-group-bluespice
 
+Blue Spice - About Blue Spice
+id = ext-bs-aboutbluespice
+descmsg = bs-aboutbluespice-desc
+file = BlueSpiceExtensions/AboutBlueSpice/i18n/%CODE%.json
+aliasfile = BlueSpiceExtensions/AboutBlueSpice/includes/specials/SpecialAboutBlueSpice.alias.php
+
 Blue Spice - Article Info
 id = ext-bs-articleinfo
 descmsg = bs-articleinfo-desc
