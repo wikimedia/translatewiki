@@ -530,7 +530,6 @@ search-suggest
 imgfile
 april-gen
 wm-license-cc-by-sa-3.0-text
-mobile-frontend-username-placeholder
 mobile-frontend-password-placeholder
 june-gen
 july-gen
@@ -538,7 +537,6 @@ wikibase-otherprojects
 nextrevision
 currentrevisionlink
 vector-action-move
-mobile-frontend-generic-login
 currentrev-asof
 dellogpage
 userlogin-yourpassword-ph
@@ -555,13 +553,11 @@ wikibase-statementview-rank-normal
 templatesused
 passwordreset
 mobile-frontend-main-menu-account-create
-mobile-frontend-login
 timedmedia-source-file
 logentry-move-move
 timedmedia-no-player-js
 allarticles
 wikibase-description-empty
-mobile-frontend-generic-login-action
 categories
 hiddencategories
 wm-license-gfdl-1.2-and-later
