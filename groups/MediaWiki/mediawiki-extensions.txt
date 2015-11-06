@@ -1865,6 +1865,8 @@ descmsg = quiz_desc
 
 # Quiz Tabulate // Missing message documentation
 
+# Random Featured User // Missing message documentation
+
 Random Image
 
 Random In Category
@@ -2539,7 +2541,7 @@ optional = group-forumadmin.css, group-forumadmin.js
 Wiki Lexical Data
 file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
 descmsg = wikidata-desc
-optional = ow_editing_policy_url, ow_URL, prefs-omegawiki
+optional = ow_editing_policy_url, ow_URL, prefs-omegawiki, ow-stat-percent
 
 Wiki Lexical Data - Omega Wiki
 file = WikiLexicalData/i18n/omegawiki/%CODE%.json
