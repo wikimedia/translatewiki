@@ -869,7 +869,7 @@ Echo
 aliasfile = Echo/Echo.alias.php
 optional = echo-notification-count
 optional = echo-email-batch-separator, echo-email-batch-bullet, echo-quotation-marks
-ignored = echo-email-batch-separator
+ignored = echo-email-batch-separator, notification-welcome-link
 
 # Incomplete message documentation file - 2014-11-20
 #Edit Account
