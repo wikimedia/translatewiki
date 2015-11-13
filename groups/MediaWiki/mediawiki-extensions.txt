@@ -333,8 +333,7 @@ file = BlueSpiceExtensions/NamespaceManager/i18n/%CODE%.json
 
 Blue Spice - Notifications
 id = ext-bs-notifications
-descmsg = bs-notifications-desc
-file = BlueSpiceExtensions/Notifications/i18n/%CODE%.json
+file = BlueSpiceFoundation/i18n/notifications/%CODE%.json
 
 Blue Spice - Page Access
 id = ext-bs-pageaccess
