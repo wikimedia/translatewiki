@@ -62,11 +62,6 @@ then
 	checkVar 'REPO_FUEL'
 	git clone "$REPO_FUEL" $PROJECT
 
-elif [ "$PROJECT" = "huggle" ]
-then
-	checkVar 'REPO_HUGGLE'
-	git clone "$REPO_HUGGLE" $PROJECT
-
 elif [ "$PROJECT" = "ihris" ]
 then
 	checkVar 'REPO_IHRIS_MODULES'
