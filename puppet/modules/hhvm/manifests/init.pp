@@ -50,8 +50,8 @@ class hhvm {
   }
 
   service { 'hhvm':
-    enable   => true,
     ensure   => running,
+    enable   => true,
     provider => upstart,
     require  => File['/etc/init/hhvm.conf'],
   }
@@ -70,8 +70,8 @@ class hhvm {
   }
 
   service { 'hhvm-development':
-    enable   => true,
     ensure   => running,
+    enable   => true,
     provider => upstart,
     require  => File['/etc/init/hhvm-development.conf'],
   }

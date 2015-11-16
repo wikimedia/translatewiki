@@ -5,7 +5,7 @@ class puppet {
 
   # We are applying manually via CLI
   service { 'puppet':
-    enable => false,
     ensure => stopped,
+    enable => false,
   }
 }

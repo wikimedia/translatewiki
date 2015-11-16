@@ -8,9 +8,9 @@ class profile::mwelasticsearch {
   }
 
   class { 'elasticsearch':
-    manage_repo   => true,
-    repo_version  => '1.7',
-    java_install  => true,
+    manage_repo  => true,
+    repo_version => '1.7',
+    java_install => true,
   }
 
   elasticsearch::instance { 'es-01':
