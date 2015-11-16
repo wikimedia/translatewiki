@@ -1403,6 +1403,8 @@ optional = logentry-chat-send
 # Missing qqq
 #Mini Invite
 
+Minimum Name Length
+
 Mixed Namespace Search Suggestions
 descmsg = mnss-desc
 
