@@ -1535,6 +1535,8 @@ Newsletter
 aliasfile = Newsletter/Newsletter.alias.php
 descmsg = newsletter-extension-desc
 
+No Bogus Userpages
+
 No Title
 
 Nonlinear
