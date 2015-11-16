@@ -264,6 +264,13 @@ TAGS:
     - interwiki-comma
 ---
 BASIC:
+  id: out-pywikipedia-interwikidata
+  label: Pywikibot Interwikidata
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/interwikidata/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-isbn
   label: Pywikibot ISBN
 
