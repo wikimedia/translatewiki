@@ -1,19 +1,18 @@
+/*global mw */
 window.onerror = function ( errorMsg, fileUrl, lineNumber ) {
 	$.ajax({
-		url: mw.config.get( 'wgScriptPath' ) + '/webfiles/jserror' + mw.config.get( 'wgScriptExtension' ),
+		url: mw.config.get( 'wgScriptPath' ) + '/webfiles/jserror.php',
 		type: 'POST',
 		data: {
 			errorMsg: errorMsg,
 			fileUrl: fileUrl,
 			lineNumber: lineNumber,
-			windowLocation: window.location.href,
+			windowLocation: location.href,
 			errorStackTrace: new Error().stack // non-standard property, not in all browsers
-		},
-		success: function () {
-			mw.log('window.onerror> Logged error successfully', arguments);
-		},
-		error: function ()  {
-			mw.log('window.onerror> Logging error failed', arguments);
 		}
+	}).done( function () {
+		mw.log('window.onerror> Logged error successfully', arguments);
+	}).fail( function ()  {
+		mw.log('window.onerror> Logging error failed', arguments);
 	});
 };
