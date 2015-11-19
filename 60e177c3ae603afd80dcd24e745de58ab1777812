@@ -16,6 +16,24 @@
       "revId": "60e177c3ae603afd80dcd24e745de58ab1777812",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0ebaf39b_83faa971",
+        "filename": "puppet/modules/base/manifests/init.pp",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-11-19T12:15:02Z",
+      "side": 1,
+      "message": "If we think it is worth fixing (as opposed to excluding the rule from check), we could move the contents to a file as in other modules.\n\nThere are probably way to do multiline strings in puppet, but they might not be the prettiest thing on earth: https://docs.puppetlabs.com/puppet/latest/reference/lang_data_string.html#heredocs",
+      "parentUuid": "0ebaf39b_fcc22e87",
+      "revId": "60e177c3ae603afd80dcd24e745de58ab1777812",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
