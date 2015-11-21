@@ -1,0 +1,16 @@
+---
+BASIC:
+  id: int-refill
+  label: reFill
+  namespace: NS_INTUITION
+  class: FileBasedMessageGroup
+
+MANAGER:
+  class: StringMatcher
+  prefix: refill-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/int-refill/messages/%CODE%.json"
