@@ -2025,6 +2025,9 @@ aliasfile = SemanticDrilldown/languages/SD_Aliases.php
 Semantic Expressiveness
 magicfile = SemanticExpressiveness/SemanticExpressiveness.i18n.magic.php
 
+Semantic External Query Lookup
+descmsg = seql-desc
+
 Semantic Extra Special Properties
 descmsg = sesp-desc
 
