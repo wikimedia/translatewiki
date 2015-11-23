@@ -58,6 +58,7 @@ Tempo
 
 Timeless
 optional = skinname-timeless
+ignored = timeless-sitetitle
 
 # No message documentation
 # Truglass
