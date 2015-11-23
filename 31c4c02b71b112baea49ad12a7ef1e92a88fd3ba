@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0ebaf39b_026bfeb5",
+        "filename": "groups/Intuition/refill.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2015-11-23T15:22:15Z",
+      "side": 1,
+      "message": "int-orphantalk should be int-refill",
+      "revId": "31c4c02b71b112baea49ad12a7ef1e92a88fd3ba",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
