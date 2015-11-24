@@ -2010,7 +2010,7 @@ Semantic Bundle
 
 Semantic Cite
 descmsg = sci-desc
-ignored = sci-referencelist-text
+ignored = sci-referencelist-text, sci-specials-citablemetadata-helplink
 optional = sci-property-alias-doi, sci-property-alias-viaf, sci-property-alias-oclc
 optional = sci-property-alias-olid, sci-property-alias-pmcid, sci-property-alias-pmid
 
