@@ -2712,7 +2712,8 @@ ignored = wm-license-lgpl-2.1-full-link, wm-license-lgpl-3-full-link
 Wikimedia Overrides
 file = WikimediaMessages/i18n/wikimediaoverrides/%CODE%.json
 ignored = wikimedia-sidebar
-ignored = wikimedia-privacypage, wikimedia-privacypage-labs
+
+# Wikimedia Overrides No Translate // Per name: no translate
 
 # Undeployed on WMF per https://gerrit.wikimedia.org/r/#/c/149785/
 # Wikimedia Shop Link
