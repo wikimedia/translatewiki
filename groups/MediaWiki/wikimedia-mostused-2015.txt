@@ -399,7 +399,6 @@ wm-license-cc-conditions-attribution-text
 wm-license-cc-conditions
 show
 nstab-user
-wikibase-statements
 wikibase-sitelinks-wikivoyage
 wikibase-sitelinks-wikisource
 wikibase-sitelinks-wikiquote
