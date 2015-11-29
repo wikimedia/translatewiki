@@ -28,7 +28,7 @@ $lqtParams = array(
 );
 $phabParams = array(
 	'title' => '[[%MESSAGE%]] i18n issue',
-	'description' => "\n\n**URL**: [[https://translatewiki.net/wiki/%MESSAGE%]]",
+	'description' => "\n----\n\n**URL**: [[https://translatewiki.net/wiki/%MESSAGE%]]",
 );
 $phabUrl = 'https://phabricator.wikimedia.org/maniphest/task/create/';
 $wgTranslateSupportUrl = array(
