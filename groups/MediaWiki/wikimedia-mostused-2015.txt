@@ -428,6 +428,7 @@ pt-userlogout
 mywatchlist
 mytalk
 mycontris
+anoncontribs
 betafeatures-toplink
 nextn-title
 wm-license-cc-conditions-share_alike-text
