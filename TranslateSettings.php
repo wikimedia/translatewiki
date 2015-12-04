@@ -222,8 +222,8 @@ $wgTranslateBlacklist = array(
 $wgTranslateMessageNamespaces[] = NS_MEDIAWIKI;
 $wgMessagesDirs['MediawikiInstaller'] = "$IP/includes/installer/i18n";
 $wgTranslateSupportUrlNamespace[NS_MEDIAWIKI] = array(
-	'page' => 'Translating_talk:MediaWiki',
-	'params' => $lqtParams,
+	'url' => "$phabUrl?projects=i18n,MediaWiki-General-or-Unknown",
+	'params' => $phabParams,
 );
 
 # No longer in use.
