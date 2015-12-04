@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ceb37bc7_de4d1a41",
+        "filename": "groups/Intuition/raun.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-12-04T16:17:18Z",
+      "side": 1,
+      "message": "wrong prefix",
+      "revId": "3d69a1864cdbb91fab3ca70ac9a55303a9062d8e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
