@@ -1763,6 +1763,8 @@ Parsoid Batch API
 # Incomplete message doc
 # Patroller
 
+PCR GUI Inserts
+
 Pdf Book
 
 Pdf Export
