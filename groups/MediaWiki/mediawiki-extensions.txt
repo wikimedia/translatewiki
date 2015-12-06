@@ -1927,7 +1927,7 @@ Regex Fun
 Regex Functions
 magicfile = RegexFunctions/RegexFunctions.i18n.magic.php
 
-Related Articles
+# Related Articles // defaultbranch=dev
 
 Related Sites
 
