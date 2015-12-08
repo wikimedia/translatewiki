@@ -242,5 +242,15 @@ class users {
       managehome => true,
       home       => '/home/niedzielski',
       comment    => 'Stephen Niedzielski';
+    'bgerstle':
+      ensure     => present,
+      uid        => 1022,
+      gid        => 'users',
+      groups     => ['betawiki', 'www-shared'],
+      shell      => '/bin/bash',
+      password   => '',
+      managehome => true,
+      home       => '/home/bgerstle',
+      comment    => 'Brian Gerstle (WMF)';
   }
 }
