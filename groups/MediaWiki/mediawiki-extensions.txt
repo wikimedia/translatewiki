@@ -906,6 +906,8 @@ Ether Editor
 
 Etherpad Lite
 
+Event Bus
+
 Event Logging
 file = EventLogging/i18n/core/%CODE%.json
 
