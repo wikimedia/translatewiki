@@ -17,22 +17,4 @@ FILES:
 
 TAGS:
   ignored:
-    - ns
-    - ns0
-    - ns1
-    - ns10
-    - ns100
-    - ns101
-    - ns11
-    - ns12
-    - ns13
-    - ns14
-    - ns15
-    - ns2
-    - ns3
-    - ns4
-    - ns5
-    - ns6
-    - ns7
-    - ns8
-    - ns9
+    - raun-ns*
