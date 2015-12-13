@@ -99,8 +99,17 @@ TAGS:
     - exif-lightsource-22
     - exif-lightsource-23
     - exif-maxaperturevalue-value
+    - exif-photometricinterpretation-0
     - exif-photometricinterpretation-2
+    - exif-photometricinterpretation-3
+    - exif-photometricinterpretation-4
+    - exif-photometricinterpretation-5
     - exif-photometricinterpretation-6
+    - exif-photometricinterpretation-8
+    - exif-photometricinterpretation-9
+    - exif-photometricinterpretation-10
+    - exif-photometricinterpretation-32803
+    - exif-photometricinterpretation-34892
     - exif-subjectnewscode-value
     - exif-xyresolution-c
     - exif-xyresolution-i
