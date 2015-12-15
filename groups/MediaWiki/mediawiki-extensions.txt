@@ -2579,6 +2579,8 @@ descmsg = wom-desc
 
 Wiki Text Logged In Out
 
+# Wiki Twidget // No message doc
+
 Wikibase - Client
 file = Wikibase/client/i18n/%CODE%.json
 aliasfile = Wikibase/client/WikibaseClient.i18n.alias.php
@@ -2657,6 +2659,7 @@ optional = wikihiero-help-link
 
 Wikimedia Events
 ignored = tag-HHVM
+ignored = tag-cross-wiki-upload-1, tag-cross-wiki-upload-2, tag-cross-wiki-upload-3, tag-cross-wiki-upload-4
 
 Wikimedia Incubator
 descmsg = wminc-desc
