@@ -1559,6 +1559,8 @@ Nonlinear
 # moved to mediawiki/skins/Nostalgia
 #Nostalgia
 
+Notebook Viewer
+
 NS File Repo
 file = NSFileRepo/i18n/nsfilerepo/%CODE%.json
 
