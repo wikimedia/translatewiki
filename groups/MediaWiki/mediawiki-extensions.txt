@@ -28,6 +28,8 @@ aliasfile = ActivityMonitor/ActivityMonitor.i18n.alias.php
 Ad Manager
 aliasfile = AdManager/AdManager.alias.php
 
+Add HTML Meta And Title
+
 Add Messages
 
 Add This
