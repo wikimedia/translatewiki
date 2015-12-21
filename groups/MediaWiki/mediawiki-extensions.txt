@@ -1777,6 +1777,7 @@ Parser Hooks
 # Parsoid
 
 Parsoid Batch API
+ignored = apihelp-parsoid-batch-description, apihelp-parsoid-batch-param-batch
 
 # Incomplete message doc
 # Patroller
