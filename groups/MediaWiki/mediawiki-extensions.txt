@@ -2145,6 +2145,8 @@ optional = shoutbox-url, shoutbox-url-with-css
 
 #Shout Wiki Ads / very ShoutWiki-specific
 
+#Shout Wiki API / very ShoutWiki-specific
+
 Side Bar Menu
 
 Sidebar Donate Box
@@ -2437,7 +2439,7 @@ Url Get Parameters
 Url Shortener
 aliasfile = UrlShortener/UrlShortener.alias.php
 
-User Daily Contribs
+# User Daily Contribs // 2015-12-23: Archived
 
 # User Export // Missing message documentation
 
