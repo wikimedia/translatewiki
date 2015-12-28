@@ -220,7 +220,6 @@ require_once "$EXT/cldr/cldr.php";
 require_once "$EXT/CleanChanges/CleanChanges.php";
 $wgCCUserFilter = true;
 $wgCCTrailerFilter = true;
-require_once "$EXT/UserDailyContribs/UserDailyContribs.php";
 
 $wgNamespacesToBeSearchedDefault[NS_MAIN] = true;
 $wgNamespacesToBeSearchedDefault[NS_MEDIAWIKI] = true;
