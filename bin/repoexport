@@ -74,15 +74,15 @@ then
 
 elif [ "$PROJECT" = "intuition" ]
 then
-	php "$EXPORTER" --target . --group=tsint* --lang='*' --skip "$SKIPLANGS" $HOURS
+	php "$EXPORTER" --target . --group=tsint* --lang='*' --skip "$SKIPLANGS"
 
 elif [ "$PROJECT" = "int-orphantalk" ]
 then
-	php "$EXPORTER" --target . --group=int-orphantalk --lang='*' --skip "$SKIPLANGS" $HOURS
+	php "$EXPORTER" --target . --group=int-orphantalk --lang='*' --skip "$SKIPLANGS"
 
 elif [ "$PROJECT" = "int-raun" ]
 then
-	php "$EXPORTER" --target . --group=int-raun --lang='*' --skip "$SKIPLANGS" $HOURS
+	php "$EXPORTER" --target . --group=int-raun --lang='*' --skip "$SKIPLANGS"
 
 elif [ "$PROJECT" = "jquery.uls" ]
 then
@@ -138,14 +138,14 @@ then
 	php "$EXPORTER" --target . --group='out-mifos' --lang='*' --skip en,qqq --threshold 20
 	php "$EXPORTER" --target . --group='out-mifos' --lang qqq
 
+elif [ "$PROJECT" = "nfcring-control" ]
+then
+	php "$EXPORTER" --target . --group=out-$PROJECT --lang='*' --skip en,qqq $THRESHOLD
+
 elif [ "$PROJECT" = "nocc" ]
 then
 	php "$EXPORTER" --target . --group=out-nocc-* --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-nocc-* --lang qqq
-
-elif [ "$PROJECT" = "nfcring-control" ]
-then
-	php "$EXPORTER" --target . --group=out-$PROJECT --lang='*' --skip en,qqq $THRESHOLD
 
 elif [ "$PROJECT" = "okawix" ]
 then

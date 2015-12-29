@@ -25,42 +25,10 @@ checkVar() {
 	fi
 }
 
-if [ "$PROJECT" = "blockly" ]
-then
-	checkVar 'REPO_BLOCKLY'
-	git clone "$REPO_BLOCKLY" $PROJECT
-	checkVar 'REPO_BLOCKLYGAMES'
-	git clone "$REPO_BLOCKLYGAMES" blockly-games
-
-elif [ "$PROJECT" = "eol" ]
-then
-	checkVar 'REPO_EOL'
-	git clone "$REPO_EOL" $PROJECT
-
-elif [ "$PROJECT" = "etherpad-lite" ]
-then
-	checkVar 'REPO_ETHERPADLITE'
-	git clone "$REPO_ETHERPADLITE" $PROJECT --branch develop
-
-elif [ "$PROJECT" = "europeana" ]
-then
-	checkVar 'REPO_EUROPEANA'
-	git clone "$REPO_EUROPEANA" $PROJECT
-
-elif [ "$PROJECT" = "freecol" ]
-then
-	checkVar 'REPO_FREECOL'
-	git clone "$REPO_FREECOL" $PROJECT
-
-elif [ "$PROJECT" = "fudforum" ]
+if [ "$PROJECT" = "fudforum" ]
 then
 	checkVar 'REPO_FUDFORUM'
 	svn checkout "$REPO_FUDFORUM" $PROJECT
-
-elif [ "$PROJECT" = "fuel" ]
-then
-	checkVar 'REPO_FUEL'
-	git clone "$REPO_FUEL" $PROJECT
 
 elif [ "$PROJECT" = "ihris" ]
 then
@@ -81,40 +49,6 @@ then
 		cd ..
 	done
 
-elif [ "$PROJECT" = "inaturalist" ]
-then
-	checkVar 'REPO_INATURALIST'
-	git clone -b i18n "$REPO_INATURALIST" $PROJECT
-
-elif [ "$PROJECT" = "intuition" ]
-then
-	checkVar 'REPO_INTUITION'
-	git clone "$REPO_INTUITION" $PROJECT
-
-elif [ "$PROJECT" = "jquery.uls" ]
-then
-	checkVar 'REPO_JQUERY_ULS'
-	git clone "$REPO_JQUERY_ULS" $PROJECT
-
-elif [ "$PROJECT" = "kiwix" ]
-then
-	checkVar 'REPO_KIWIX'
-	git clone "$REPO_KIWIX" $PROJECT
-
-elif [ "$PROJECT" = "mantis" ]
-then
-	checkVar 'REPO_MANTIS'
-	checkVar 'REPO_MANTIS_BRANCH'
-	git clone "$REPO_MANTIS" $PROJECT
-	cd $PROJECT
-	git checkout -q --track origin/${REPO_MANTIS_BRANCH}
-	cd ..
-
-elif [ "$PROJECT" = "mathjax" ]
-then
-	checkVar 'REPO_MATHJAX'
-	git clone "$REPO_MATHJAX" $PROJECT
-
 elif [ "$PROJECT" = "mediawiki" ]
 then
 	checkVar 'REPO_MEDIAWIKI'
@@ -133,57 +67,15 @@ elif [ "$PROJECT" = "mediawiki-skins" ]
 then
 	mkdir -p $PROJECT
 
-elif [ "$PROJECT" = "mifos" ]
-then
-	checkVar 'REPO_MIFOS'
-	git clone "$REPO_MIFOS" $PROJECT
-
 elif [ "$PROJECT" = "nocc" ]
 then
 	checkVar 'REPO_NOCC'
 	svn checkout "$REPO_NOCC" $PROJECT
 
-elif [ "$PROJECT" = "nfcring-control" ]
-then
-	checkVar 'REPO_NFCRINGCONTROL'
-	git clone "$REPO_NFCRINGCONTROL" $PROJECT
-
 elif [ "$PROJECT" = "openimages" ]
 then
 	checkVar 'REPO_OPENIMAGES'
 	svn checkout "$REPO_OPENIMAGES" $PROJECT
-
-elif [ "$PROJECT" = "osm" ]
-then
-	checkVar 'REPO_OSM'
-	checkVar 'REPO_POTLATCH2'
-	git clone "$REPO_OSM" $PROJECT
-	git clone "$REPO_POTLATCH2" potlatch2
-
-elif [ "$PROJECT" = "pywikibot" ]
-then
-	checkVar 'REPO_PYWIKIBOT'
-	"$CLUPDATE_GERRIT" "$REPO_PYWIKIBOT" "$DIR/$PROJECT"
-
-elif [ "$PROJECT" = "vicuna" ]
-then
-	checkVar 'REPO_VICUNA'
-	git clone "$REPO_VICUNA" $PROJECT
-
-elif [ "$PROJECT" = "waymarked-trails-site" ]
-then
-	checkVar 'REPO_WAYMARKEDTRAILS'
-	git clone "$REPO_WAYMARKEDTRAILS" $PROJECT
-
-elif [ "$PROJECT" = "wikiblame" ]
-then
-	checkVar 'REPO_WIKIBLAME'
-	git clone "$REPO_WIKIBLAME" $PROJECT
-
-elif [ "$PROJECT" = "wikimania" ]
-then
-	checkVar 'REPO_WIKIMANIA'
-	"$CLUPDATE_GERRIT" "$REPO_WIKIMANIA" "$DIR/$PROJECT"
 
 else
 	echo "`basename $0`: Unknown project"

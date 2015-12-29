@@ -19,8 +19,14 @@ checkVar() {
 	fi
 }
 
-gitupdate() {
-	"$DIRSCRIPT/update-reset-repo" "$DIR/$1" "" "${2:-master}"
+doUpdate() {
+	VAR="${1^^}"
+	VAR="${VAR//-}"
+	VAR="${VAR//./_}"
+	VAR="REPO_$VAR"
+	checkVar "$VAR"
+	"$2" "${!VAR}" "$DIR/$1" "${3:-}"
+	exit 0
 }
 
 processGroups() {
@@ -47,36 +53,25 @@ then CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-gerrit-repo";
 else CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-git-repo";
 fi
 
-GITUPDATEPROJECTS="\
+GITCLUPDATE="\
+crosswatch \
+entryscape \
 eol \
 europeana \
 freecol \
 fuel \
+huggle \
 intuition \
+int-orphantalk \
+int-raun \
 jquery.uls \
 kiwix \
-mathjax
+mantis \
+mathjax \
 nfcring-control \
-pywikibot \
 vicuna \
 waymarked-trails-site \
 wikiblame \
-wikimania"
-
-for i in $GITUPDATEPROJECTS; do
-	if [ "$i" = "$PROJECT" ]
-	then
-		gitupdate "$PROJECT"
-		exit 0
-	fi
-done
-
-GITCLUPDATE="\
-crosswatch \
-entryscape \
-huggle \
-int-orphantalk \
-int-raun \
 wikiedudashboard \
 wikipedia-android \
 wikipedia-ios \
@@ -86,23 +81,29 @@ WiktionaryMobile"
 for i in $GITCLUPDATE; do
 	if [ "$i" = "$PROJECT" ]
 	then
-		VAR="${PROJECT^^}"
-		VAR="${VAR//-}"
-		VAR="REPO_$VAR"
-		checkVar "$VAR"
-		"$CLUPDATE" "${!VAR}" "$DIR/$PROJECT"
-		exit 0
+		doUpdate "$PROJECT" "$CLUPDATE"
+	fi
+done
+
+GITCLUPDATE_GERRIT="\
+pywikibot \
+wikimania"
+
+for i in $GITCLUPDATE_GERRIT; do
+	if [ "$i" = "$PROJECT" ]
+	then
+		doUpdate "$PROJECT" "$CLUPDATE_GERRIT"
 	fi
 done
 
 if [ "$PROJECT" = "blockly" ]
 then
-	gitupdate "$PROJECT"
-	gitupdate "blockly-games"
+	doUpdate "blockly" "$CLUPDATE"
+	doUpdate "blockly-games" "$CLUPDATE"
 
 elif [ "$PROJECT" = "etherpad-lite" ]
 then
-	gitupdate "$PROJECT" $REPO_ETHERPADLITE_BRANCH
+	doUpdate "$PROJECT" "$CLUPDATE" $REPO_ETHERPADLITE_BRANCH
 
 elif [ "$PROJECT" = "fudforum" ]
 then
@@ -120,15 +121,11 @@ then
 
 elif [ "$PROJECT" = "inaturalist" ]
 then
-	gitupdate "$PROJECT" i18n
-
-elif [ "$PROJECT" = "mantis" ]
-then
-	gitupdate "$PROJECT" $REPO_MANTIS_BRANCH
+	doUpdate "$PROJECT" "$CLUPDATE" i18n
 
 elif [ "$PROJECT" = "mifos" ]
 then
-	gitupdate "$PROJECT" develop
+	doUpdate "$PROJECT" "$CLUPDATE" develop
 
 elif [ "$PROJECT" = "mediawiki" ]
 then
@@ -175,8 +172,8 @@ then
 
 elif [ "$PROJECT" = "osm" ]
 then
-	gitupdate "$PROJECT"
-	gitupdate "potlatch2"
+	doUpdate "$PROJECT" "$CLUPDATE"
+	doUpdate "potlatch2" "$CLUPDATE"
 
 else
 	echo "`basename $0`: Unknown project"
