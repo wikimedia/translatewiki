@@ -12,9 +12,6 @@ cat ${DIRSCRIPT}/EXTERNAL-PROJECTS |
 	xargs -n1 -P4 -I % bash -c "echo \"Update %\"; ${DIRSCRIPT}/repo update %; echo \"Updated %\""
 
 echo "All repositories updated"
-echo "Create message index..."
-${DIRSCRIPT}/createmi
-echo "Created message index"
 
 echo "Process message changes..."
 php $WIKI/extensions/Translate/scripts/processMessageChanges.php --quiet --skipgroup=ext-*
