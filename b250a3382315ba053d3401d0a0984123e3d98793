@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "6eaa8f54_80a7ec4b",
+        "filename": "REPOCONF",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2015-12-29T13:15:05Z",
+      "side": 0,
+      "message": "Not by us: https://github.com/wikimedia/translatewiki/commit/1553408146c6ac344e3b417a832e170659c76559",
+      "parentUuid": "6eaa8f54_00ae9c7d",
+      "revId": "b250a3382315ba053d3401d0a0984123e3d98793",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6eaa8f54_60b750d4",
         "filename": "REPOCONF.siebrand",
         "patchSetId": 1
