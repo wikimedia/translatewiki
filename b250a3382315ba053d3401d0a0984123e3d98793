@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6eaa8f54_00ae9c7d",
+        "filename": "REPOCONF",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1665
+      },
+      "writtenOn": "2015-12-29T11:28:33Z",
+      "side": 0,
+      "message": "This isen\u0027t obsolete since this project is still being updated.",
+      "revId": "b250a3382315ba053d3401d0a0984123e3d98793",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6eaa8f54_60b750d4",
+        "filename": "REPOCONF.siebrand",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1665
+      },
+      "writtenOn": "2015-12-29T11:28:33Z",
+      "side": 0,
+      "message": "This isen\u0027t obsolete since this project is still being updated.",
+      "revId": "b250a3382315ba053d3401d0a0984123e3d98793",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
