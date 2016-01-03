@@ -1556,6 +1556,7 @@ descmsg = newsextension-desc
 Newsletter
 aliasfile = Newsletter/Newsletter.alias.php
 descmsg = newsletter-extension-desc
+ignored = notification-body-newsletter-announce
 
 No Bogus Userpages
 
