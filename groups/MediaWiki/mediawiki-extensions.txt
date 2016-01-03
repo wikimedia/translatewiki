@@ -1092,6 +1092,7 @@ Geo Data
 GeoGebra
 
 Getting Started
+ignored = apihelp-query+gettingstartedgetpages-example-1
 
 Git 2 Pages
 
