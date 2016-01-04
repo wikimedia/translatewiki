@@ -72,11 +72,6 @@ then
 	checkVar 'REPO_NOCC'
 	svn checkout "$REPO_NOCC" $PROJECT
 
-elif [ "$PROJECT" = "openimages" ]
-then
-	checkVar 'REPO_OPENIMAGES'
-	svn checkout "$REPO_OPENIMAGES" $PROJECT
-
 else
 	echo "`basename $0`: Unknown project"
 	exit 1
