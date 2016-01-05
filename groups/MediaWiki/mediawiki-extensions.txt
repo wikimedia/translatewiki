@@ -1170,6 +1170,7 @@ Google Site Search
 GPG Mail
 
 Graph
+aliasfile = Graph/Graph.alias.php
 
 GraphViz
 
