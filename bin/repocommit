@@ -165,14 +165,6 @@ then
 	svn add --force * --auto-props --parents --depth infinity -q
 	svn commit --message "$COMMITMSG"
 
-elif [ "$PROJECT" = "openimages" ]
-then
-	cd "$DIR/$PROJECT"
-	svn add -q --force *.properties
-	svn propset -q svn:mime-type text/plain *.properties
-	svn propset -q svn:eol-style native *.properties
-	svn commit --message "$COMMITMSG"
-
 else
 	echo "`basename $0`: Unknown project"
 	exit 1

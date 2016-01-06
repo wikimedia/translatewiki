@@ -297,8 +297,8 @@ $wgTranslateGroupFiles[] = "$GROUPS/Mifos/Mifos.yaml";
 # No longer in use.
 wfAddNamespace( 1232, 'Wikia' );
 
+# No longer in use.
 wfAddNamespace( 1234, 'OpenImages' );
-$wgTranslateGroupFiles[] = "$GROUPS/OpenImages/OpenImages.yaml";
 
 wfAddNamespace( 1236, 'Europeana' );
 $wgTranslateGroupFiles[] = "$GROUPS/Europeana/Europeana.yaml";

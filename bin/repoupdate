@@ -166,10 +166,6 @@ elif [ "$PROJECT" = "nocc" ]
 then
 	svn up -q $PROJECT
 
-elif [ "$PROJECT" = "openimages" ]
-then
-	svn up -q $PROJECT
-
 elif [ "$PROJECT" = "osm" ]
 then
 	doUpdate "$PROJECT" "$CLUPDATE"
