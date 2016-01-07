@@ -7,8 +7,6 @@ optional = commonshelper2, standard_project, checkusage
 
 Cvn Overlay
 
-Dcatap
-
 General
 optional = colon-separator, dateformat, parentheses, comma-separator, word-separator
 

@@ -1,0 +1,16 @@
+---
+BASIC:
+  id: int-dcatap
+  label: DCAT-AP
+  namespace: NS_INTUITION
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: dcatap-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/int-dcatap/i18n/%CODE%.json"

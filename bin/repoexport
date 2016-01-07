@@ -76,6 +76,10 @@ elif [ "$PROJECT" = "intuition" ]
 then
 	php "$EXPORTER" --target . --group=tsint* --lang='*' --skip "$SKIPLANGS"
 
+elif [ "$PROJECT" = "int-dcatap" ]
+then
+	php "$EXPORTER" --target . --group=int-dcatap --lang='*' --skip "$SKIPLANGS"
+
 elif [ "$PROJECT" = "int-orphantalk" ]
 then
 	php "$EXPORTER" --target . --group=int-orphantalk --lang='*' --skip "$SKIPLANGS"
