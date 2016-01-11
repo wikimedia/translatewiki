@@ -74,9 +74,7 @@ waymarked-trails-site \
 wikiblame \
 wikiedudashboard \
 wikipedia-android \
-wikipedia-ios \
-WikisourceMobile \
-WiktionaryMobile"
+wikipedia-ios"
 
 for i in $GITCLUPDATE; do
 	if [ "$i" = "$PROJECT" ]

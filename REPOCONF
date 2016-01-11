@@ -42,5 +42,3 @@ REPO_WIKIEDUDASHBOARD=git://github.com/WikiEducationFoundation/WikiEduDashboard.
 REPO_WIKIMANIA=https://gerrit.wikimedia.org/r/wikimedia/wikimania-scholarships
 REPO_WIKIPEDIAANDROID=https://gerrit.wikimedia.org/r/apps/android/wikipedia
 REPO_WIKIPEDIAIOS=git://github.com/wikimedia/wikipedia-ios.git
-REPO_WIKISOURCEMOBILE=git://github.com/wikimedia/WikisourceMobile.git
-REPO_WIKTIONARYMOBILE=git://github.com/wikimedia/WiktionaryMobile.git
