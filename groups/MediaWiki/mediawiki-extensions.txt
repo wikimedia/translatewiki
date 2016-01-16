@@ -129,7 +129,6 @@ Auto Create Category Pages
 
 Auto Proxy Block
 ignored = proxyblock-logentry
-prefix = extension- | right-proxyunbannable
 
 Automatic Board Welcome
 
