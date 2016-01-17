@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "6eaa8f54_05771c9c",
+        "filename": "bin/clupdate-git-repo",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-01-17T18:53:50Z",
+      "side": 1,
+      "message": "Current working directory seems incorrect here.",
+      "revId": "606fe0b1b699f04fc9299e06f1e25a1ca148d962",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6eaa8f54_ff54d12b",
         "filename": "bin/clupdate-git-repo",
         "patchSetId": 1
