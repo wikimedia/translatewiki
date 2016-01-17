@@ -2095,7 +2095,7 @@ ignored = smw_ask_doculink, smw_uri_blacklist, smw-specials-browse-helplink
 optional = smw-label-feed-link, smw_decseparator, smw_kiloseparator
 optional = smw_rss_description, smw_browse_more, specialpages-group-smw_group
 optional = smw_csv_link, smw_dsv_link, smw_json_link, smw_rdf_link
-optional = smw_property_template_notype
+optional = smw_property_template_notype, smw-datavalue-monolingual-lcode-parenthesis
 
 Semantic Meta Tags
 descmsg = smt-desc
