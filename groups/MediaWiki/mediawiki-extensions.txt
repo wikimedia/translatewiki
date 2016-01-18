@@ -881,7 +881,7 @@ Echo
 aliasfile = Echo/Echo.alias.php
 optional = echo-notification-count
 optional = echo-email-batch-separator, echo-email-batch-bullet, echo-quotation-marks
-optional = notification-body-edit-user-talk-with-section
+optional = notification-body-edit-user-talk-with-section, notification-body-reverted
 ignored = echo-email-batch-separator, notification-welcome-link
 
 # Incomplete message documentation file - 2014-11-20
