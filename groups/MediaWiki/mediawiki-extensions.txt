@@ -1906,8 +1906,7 @@ Random In Category
 aliasfile = RandomInCategory/RandomInCategory.alias.php
 prefix = extension- | randomincategory, randomincategory-submit
 
-Random Root Page
-aliasfile = RandomRootPage/Randomrootpage.i18n.alias.php
+# Random Root Page // Moved into Core:w
 
 Random Users With Avatars
 descmsg = random-users-avatars-desc
