@@ -19,6 +19,40 @@
     },
     {
       "key": {
+        "uuid": "6eaa8f54_bf7cd4e9",
+        "filename": "bin/clupdate-git-repo",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-01-26T20:32:13Z",
+      "side": 1,
+      "message": "So this should be:\n \n if [ \"$BRANCH\" -eq \"master\" \u0026\u0026 test -f \"$DIR/.gitreview\" ]",
+      "revId": "606fe0b1b699f04fc9299e06f1e25a1ca148d962",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6eaa8f54_7f865ce2",
+        "filename": "bin/clupdate-git-repo",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-01-26T20:32:13Z",
+      "side": 1,
+      "message": "This should be:\n \n BRANCH\u003d\"`grep defaultbranch $DIR/.gitreview |cut -d\u003d -f2`\"",
+      "revId": "606fe0b1b699f04fc9299e06f1e25a1ca148d962",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6eaa8f54_ff54d12b",
         "filename": "bin/clupdate-git-repo",
         "patchSetId": 1
@@ -30,6 +64,24 @@
       "writtenOn": "2016-01-17T10:36:52Z",
       "side": 1,
       "message": "Why not call update-reset-repo here?",
+      "revId": "606fe0b1b699f04fc9299e06f1e25a1ca148d962",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6eaa8f54_ff79ecf2",
+        "filename": "bin/clupdate-git-repo",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-01-26T20:32:13Z",
+      "side": 1,
+      "message": "So this should be?\n\n \"$DIRSCRIPT/update-reset-repo\" \"$DIR\" \"\" \"$BRANCH\"",
+      "parentUuid": "6eaa8f54_ff54d12b",
       "revId": "606fe0b1b699f04fc9299e06f1e25a1ca148d962",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
