@@ -1288,7 +1288,7 @@ optional = jsbreadcrumbs-separator
 Json Config
 
 Kartographer
-optinal = visualeditor-mwmapsdialog-geojson
+optional = visualeditor-mwmapsdialog-geojson
 
 Labeled Section Transclusion
 descmsg = lst-desc
