@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6eaa8f54_868bcde7",
+        "filename": "bin/clupdate-git-repo",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-01-27T12:33:07Z",
+      "side": 1,
+      "message": "For ./mediawiki-extensions/extensions/Favorites/.gitreview BRANCH would be empty string. I did not test what happens with empty string.",
+      "revId": "f0f61856be9b0ab29f774c80b75b0d1a3beeec9c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
