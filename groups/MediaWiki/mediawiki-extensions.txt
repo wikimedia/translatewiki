@@ -1074,9 +1074,9 @@ Fundraising Chart
 Fundraising Translate Workflow
 descmsg = fundraising-translate-workflow-desc
 
-# Gather // defaultbranch=dev
-#aliasfile = Gather/Gather.alias.php
-#ignored = gather-lists-hide-protocol
+Gather
+aliasfile = Gather/Gather.alias.php
+ignored = gather-lists-hide-protocol
 
 Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
@@ -1893,9 +1893,8 @@ Quick Search Lookup
 Quiz
 descmsg = quiz_desc
 
-# dev branch
-# Quick Surveys
-# ignored = ext-quicksurveys-example-external-survey-link
+Quick Surveys
+ignored = ext-quicksurveys-example-external-survey-link
 
 # Quiz Tabulate // Missing message documentation
 
@@ -1948,7 +1947,7 @@ Regex Fun
 Regex Functions
 magicfile = RegexFunctions/RegexFunctions.i18n.magic.php
 
-# Related Articles // defaultbranch=dev
+Related Articles
 
 Related Sites
 
@@ -2421,6 +2420,10 @@ optional = twnmp-stats-number-k
 Two Factor Authentication
 aliasfile = TwoFactorAuthentication/TwoFactorAuth.alias.php
 descmsg = twofactorauth-desc
+
+# UI Feedback # incomplete qqq
+
+# Update MediaWiki # Missing qqq
 
 Upload Blacklist
 
