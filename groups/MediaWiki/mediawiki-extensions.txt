@@ -1657,6 +1657,7 @@ Oracle Text Search
 
 ORES
 ignored = ores-reverted-letter
+optional = prefs-ores
 
 Page Creation Notif
 descmsg = page-creation-notif-desc
