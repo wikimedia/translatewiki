@@ -1050,6 +1050,8 @@ ignored = flow-rev-message-reply-recentchanges, flow-rev-message-reply-contribut
 ignored = flow-rev-message-new-post-recentchanges, flow-rev-message-new-post-contributions
 ignored = notification-body-flow-new-topic-v2, notification-body-flow-post-reply-v2, notification-body-flow-post-edited-v2
 ignored = notification-body-flow-mention
+ignored = notification-body-flow-new-topic-user-talk, notification-body-flow-post-reply-user-talk
+ignored = notification-body-flow-post-edited-user-talk
 optional = flow-post-interaction-separator
 
 Flv Handler
