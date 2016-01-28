@@ -257,4 +257,12 @@ class users {
       home       => '/home/bgerstle',
       comment    => 'Brian Gerstle (WMF)';
   }
+
+  ssh_authorized_key {
+    'siebrand_ssh':
+      user => 'siebrand',
+      ensure => present,
+      type => 'rsa',
+      key  => 'AAAAB3NzaC1yc2EAAAABJQAAAgEAvpLAvxAgixbCY9IglNmaPjvXeIRoZkVfMUWz3SEgCw4r/4HmjQz77AnmtSv7meql1o3UedB27UeupUx0dytigHdtes9FJIIELjG0iYo77IHlfhKSUqAe+kkHHuQ1lgpwSbaWooUPcuKy7VFMyAZLTA9gTjIBe7oHUEB5IfIgWoyj7dSlSmF8oSB1+/MdsgLQTBql4gsPH2WznwUWHbUot6OhGLRuLbEuG4aiMVmZ1/I73aOEfVA9Zw1PspaHjzQkKuGHsgBZ9lGwkPIRxbvBZAYGW+WYS2QCPhfJlOYvAXB5VFbohpTqhxerP14r/B/KJsKEaGVKpZY5+YWXtc1ITwtd+DwaFfuacuvGVmOl5SkLXYusVndlv+ZOf5NTFxeqI9Z66ApeqsDCBBQtLbIt80vHr/ZFdR7DEvDMQSLkLttjV3IOrdoZd0Hodqb9b6HEswrFyNx0ywVER6d41M1cBZafBA/04ui2Yu/0ocKU8ecI+NvzUU3DOjidgADDGbhBh/deUreW60FjE1pzaTwhP2pscjiZmLvOpKbRWrmmktc3PGi/fnoq9MJJ2w7rLXtBOlUqDOprgdpqp1rJI2OHj398xBkpIAQasdNbYsxhxic3Md/y9d+Y8sN3VPI0l6tM5H1YitFQ2CcIm6RcRmyHrJRq/85uINFM9l76wtT+87k=';
+  }
 }
