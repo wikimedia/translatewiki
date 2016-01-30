@@ -287,7 +287,6 @@ TAGS:
     - version-api
     - version-entrypoints-articlepath
     - version-entrypoints-scriptpath
-    - version-svn-revision
     - version-version
     - video-dims
     - widthheight
