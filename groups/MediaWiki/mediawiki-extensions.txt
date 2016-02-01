@@ -2069,7 +2069,7 @@ descmsg = sesp-desc
 Semantic Forms
 aliasfile = SemanticForms/languages/SF_Aliases.php
 magicfile = SemanticForms/languages/SF_Magic.php
-ignored = sf_formedit_accesskey_saveandcontinueediting
+ignored = sf_formedit_accesskey_saveandcontinueediting, accesskey-ca-formedit
 
 Semantic Forms Inputs
 optional = semanticformsinputs-dateformatlong, semanticformsinputs-dateformatshort, semanticformsinputs-firstdayofweek
