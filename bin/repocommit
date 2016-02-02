@@ -57,9 +57,7 @@ vicuna \
 waymarked-trails-site \
 wikiblame \
 wikiedudashboard \
-wikipedia-ios \
-WikisourceMobile \
-WiktionaryMobile"
+wikipedia-ios"
 
 for i in $GITPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
