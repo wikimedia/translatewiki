@@ -202,22 +202,32 @@ require_once "$IP/skins/MonoBook/MonoBook.php";
 ###
 # Extensions
 ###
+
+// Extensions which we don't specify any configuration
 wfLoadExtensions( array(
 	'ApiSandbox',
 	'CharInsert',
+	'cldr',
 	'Elastica',
 	'Gadgets',
 	'Interwiki',
 	'Nuke',
-	'ParserFunctions',
+	'SyntaxHighlight_GeSHi',
+	'Thanks',
 	'Renameuser',
+	'ReplaceText',
+	'UniversalLanguageSelector',
+	'UserMerge',
+	'UserOptionStats',
 	'WikiEditor',
 ) );
 
 $EXT = "$IP/extensions";
+require_once "$EXT/AdminLinks/AdminLinks.php";
+require_once "$EXT/LiquidThreads/LiquidThreads.php";
 
-require_once "$EXT/cldr/cldr.php";
-require_once "$EXT/CleanChanges/CleanChanges.php";
+
+wfLoadExtension( 'CleanChanges' );
 $wgCCUserFilter = true;
 $wgCCTrailerFilter = true;
 
@@ -234,23 +244,21 @@ require_once __DIR__ . "/LanguageSettings.php";
 
 require_once __DIR__ . "/nikext.php";
 
+wfLoadExtension( 'ParserFunctions' );
 $wgPFEnableStringFunctions = true;
 
-require_once "$EXT/NewUserMessage/NewUserMessage.php";
+wfLoadExtension( 'NewUserMessage' );
 $wgNewUserSuppressRC = true;
 $wgNewUserMinorEdit = false;
 
-require_once "$EXT/CharInsert/CharInsert.php";
-require_once "$EXT/LiquidThreads/LiquidThreads.php";
 require_once "$EXT/ContributionScores/ContributionScores.php";
 $wgContribScoreIgnoreBots = true;
 
-require_once "$EXT/UserMerge/UserMerge.php";
 require_once "$EXT/WebChat/WebChat.php";
 $wgWebChatChannel = '#mediawiki-i18n';
 $wgWebChatClient = 'freenodeChat';
 
-require_once "$EXT/Babel/Babel.php";
+wfLoadExtension( 'Babel' );
 $wgBabelCategoryNames = array(
 	'0' => 'User_%code%-0',
 	'1' => 'User_%code%-1',
@@ -262,9 +270,6 @@ $wgBabelCategoryNames = array(
 );
 $wgBabelMainCategory = 'User_%code%';
 
-require_once "$EXT/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php";
-require_once "$EXT/ReplaceText/ReplaceText.php";
-
 # Semantic MediaWiki (installed using composer)
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
 enableSemantics( 'translatewiki.net' );
@@ -275,30 +280,23 @@ $smwgEnabledEditPageHelp = false;
 require_once "$EXT/SemanticForms/SemanticForms.php";
 $sfgRedLinksCheckOnlyLocalProps = true;
 
-require_once "$EXT/TitleBlacklist/TitleBlacklist.php";
+wfLoadExtension( 'TitleBlacklist' );
 $wgTitleBlacklistSources = array(
 	array(
-		'type' => TBLSRC_LOCALPAGE,
+		'type' => 'localpage',
 		'src' => 'MediaWiki:Titleblacklist'
 	)
 );
-require_once "$EXT/SpamBlacklist/SpamBlacklist.php";
+
+wfLoadExtension( 'SpamBlacklist' );
 $wgSpamBlacklistFiles = array(
-	"http://meta.wikimedia.org/w/index.php?title=Spam_blacklist&action=raw&sb_ver=1",
+	"https://meta.wikimedia.org/w/index.php?title=Spam_blacklist&action=raw&sb_ver=1",
 );
 $wgLogSpamBlacklistHits = true;
 $wgNoFollowDomainExceptions = array(
 	'laxstrom.name',
 	'ultimategerardm.blogspot.com',
 );
-
-require_once "$EXT/AdminLinks/AdminLinks.php";
-require_once "$EXT/UserOptionStats/UserOptionStats.php";
-require_once "$EXT/EventLogging/EventLogging.php";
-$wgEventLoggingBaseUri = 'http://bits.wikimedia.org/event.gif';
-
-require_once "$EXT/UniversalLanguageSelector/UniversalLanguageSelector.php";
-$wgULSEventLogging = true;
 
 require_once "$EXT/TwnMainPage/MainPage.php";
 $wgMainPageImages[] = array(
@@ -371,8 +369,6 @@ $wgISGroups = array( 'translator' );
 
 require_once "$EXT/Echo/Echo.php";
 $wgEchoBundleEmailInterval = 14400;
-
-require_once "$EXT/Thanks/Thanks.php";
 
 ###
 # Dynamic code starts here
