@@ -20,9 +20,7 @@ FORCELANGS="chy,cr,ki,nrm,rn,rup,rw,tum,tw" # Must not contain any of those abov
 THRESHOLD="--threshold 35"
 HOURS="--hours 200" # Somewhat over a week
 
-REPONG="
-hivejs"
-
+REPONG=$(cat "$DIRSCRIPT/REPONG-PROJECTS");
 for i in $REPONG; do
 	if [ "$i" = "$PROJECT" ]
 	then
@@ -34,7 +32,6 @@ done
 if [ "$PROJECT" = "blockly" ]
 then
 	php "$EXPORTER" --target . --group=out-blockly* --lang='*' --skip en $THRESHOLD
-
 
 elif [ "$PROJECT" = "crosswatch" ]
 then

@@ -96,9 +96,7 @@ for i in $GITCLUPDATE_GERRIT; do
 	fi
 done
 
-REPONG="
-hivejs"
-
+REPONG=$(cat "$DIRSCRIPT/REPONG-PROJECTS");
 for i in $REPONG; do
 	if [ "$i" = "$PROJECT" ]
 	then

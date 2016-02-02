@@ -1,0 +1,24 @@
+BASIC:
+  id: codev
+  label: CodevTT
+  icon: wiki://CodevTT_logo.png
+  description: "{{Special:MyLanguage/Translations:Group descriptions/codev/en}}"
+  namespace: NS_MANTIS
+  class: FileBasedMessageGroup
+
+FILES:
+  class: GettextFFS
+  keyAlgorithm: simple
+  sourcePattern: "%GROUPROOT%/codev/i18n/locale/%CODE%/LC_MESSAGES/codev.po"
+  definitionFile: "%GROUPROOT%/codev/i18n/locale/codevtt.pot"
+  codeMap:
+    de:    de_DE
+    es:    es_ES
+    it:    it_IT
+    pt-br: pt_BR
+
+MANGLER:
+  class: StringMatcher
+  prefix: codev-
+  patterns:
+    - "*"

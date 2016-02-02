@@ -2,6 +2,15 @@
 	"@meta": {
 		"export": "php /srv/mediawiki/targets/production/extensions/Translate/scripts/export.php"
 	},
+	"codev": {
+		"group": "codev",
+		"repos": {
+			"codev": {
+				"type": "git",
+				"url": "git@github.com/lbayle/codev.git"
+			}
+		}
+	},
 	"hivejs": {
 		"group": "hivejs*",
 		"repos": {

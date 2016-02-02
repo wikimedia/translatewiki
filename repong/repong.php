@@ -21,7 +21,7 @@ class RepoNg {
 			if ( $repo['type'] === 'git' ) {
 				$command = "$bindir/clupdate-git-repo '{$repo['url']}' '$base/$name'";
 			} else {
-				throw new RuntimeException( "Unknown repo rype" );
+				throw new RuntimeException( 'Unknown repo rype' );
 			}
 			echo "$command\n";
 
