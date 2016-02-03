@@ -74,9 +74,7 @@ aliasfile = ApiFeatureUsage/ApiFeatureUsage.alias.php
 ignored = apifeatureusage-text
 optional = apifeatureusage-dates-layout
 
-Api Sandbox
-aliasfile = ApiSandbox/ApiSandbox.alias.php
-descmsg = apisb-desc
+# Api Sandbox # Moved into Core - https://gerrit.wikimedia.org/r/#/c/262977/5
 
 # Empty repository 2014-12-05 I2b4ba8fdb058009fc18fa80b12f345ee77da3e7c
 # Api SVG Proxy
