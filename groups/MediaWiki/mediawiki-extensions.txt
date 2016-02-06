@@ -573,7 +573,7 @@ ignored = cite_error_refs_without_references_category
 
 Cite - VisualEditor
 id = ext-cite-visualeditor
-file = modules/ve-cite/i18n/%CODE%.json
+file = Cite/modules/ve-cite/i18n/%CODE%.json
 
 Cite This Page
 aliasfile = CiteThisPage/CiteThisPage.alias.php
