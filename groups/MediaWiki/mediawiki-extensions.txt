@@ -571,6 +571,10 @@ optional = cite_references_link_many_format, cite_references_link_many_format_ba
 ignored = cite_references_prefix, cite_references_suffix, cite_references_no_link
 ignored = cite_error_refs_without_references_category
 
+Cite - VisualEditor
+id = ext-cite-visualeditor
+file = modules/ve-cite/i18n/%CODE%.json
+
 Cite This Page
 aliasfile = CiteThisPage/CiteThisPage.alias.php
 ignored = citethispage-summary, accesskey-citethispage
