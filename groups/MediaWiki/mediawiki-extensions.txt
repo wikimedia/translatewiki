@@ -2072,6 +2072,7 @@ Semantic Forms
 aliasfile = SemanticForms/languages/SF_Aliases.php
 magicfile = SemanticForms/languages/SF_Magic.php
 ignored = sf_formedit_accesskey_saveandcontinueediting, accesskey-ca-formedit
+optional = sf-datepicker-dateformatlong, sf-datepicker-dateformatshort, sf-datepicker-firstdayofweek
 
 Semantic Forms Inputs
 
