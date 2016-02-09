@@ -74,6 +74,8 @@ $wgGroupPermissions['sysop'        ]['replacetext']             = false;
 
 $wgGroupPermissions['offline'      ]['translate-import']        = true;
 
+$wgGroupPermissions['transadmin'   ]['translate-manage']        = true;
+
 $wgAddGroups['staff'] = $wgRemoveGroups['staff'] = true;
 $wgRemoveGroups['bureaucrat'] = $wgAddGroups['bureaucrat'   ] = array( 'sysop', 'translator', 'bot', 'offline' );
 $wgGroupsRemoveFromSelf['translator'] = array( 'translator' );
