@@ -241,7 +241,7 @@ TAGS:
     - sorbs
     - sp-contributions-explain
     - timezone-utc
-    - undelete-revision-row
+    - undelete-revision-row2
     - unit-pixel
     - unpatrolledletter
     - usermessage-template
@@ -440,6 +440,8 @@ TAGS:
     - longpage-hint
     - longpages-summary
     - markaspatrolledlink
+    - mergehistory-redirect-text
+    - mergehistory-warning-redirect-not-created
     - mostcategories-summary
     - mostimages-summary
     - mostinterwikis-summary
