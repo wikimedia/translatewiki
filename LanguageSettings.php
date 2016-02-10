@@ -40,7 +40,6 @@ $wgExtraLanguageNames['kjh'] = 'хакас'; # Khakas / Amire80 2014-06-17
 $wgExtraLanguageNames['knn'] = 'महाराष्ट्रीय कोंकणी'; # Maharashtrian Konkani / 2015-XX-XX
 $wgExtraLanguageNames['krl'] = 'Karjala'; # Karelian / Siebrand 2008-04-12
 $wgExtraLanguageNames['ksf'] = 'Bafia'; # Robin 2011-10-21
-$wgExtraLanguageNames['lki'] = 'لەکی‎'; # Laki / Siebrand 2014-04-08
 $wgExtraLanguageNames['lkt'] = 'Lakȟótiyapi'; # Lakota / 2014-04-08
 $wgExtraLanguageNames['lld'] = 'Ladin'; # Ladin / Siebrand 2009-09-23
 $wgExtraLanguageNames['mfe'] = 'Morisyen'; # Robin 2011-10-18
