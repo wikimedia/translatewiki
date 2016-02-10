@@ -26,6 +26,7 @@ REPO_INTUITION=git://github.com/Krinkle/intuition.git
 REPO_INTDCATAP=https://gerrit.wikimedia.org/r/operations/dumps/dcat
 REPO_INTORPHANTALK=git://github.com/Krinkle/mw-tool-orphantalk.git
 REPO_INTRAUN=git://github.com/kenrick95/Raun.git
+REPO_INTREFILL=git://github.com/zhaofengli/refill.git
 REPO_JQUERY_ULS=git://github.com/wikimedia/jquery.uls.git
 REPO_KIWIX=git://github.com/kiwix/maintenance.git
 REPO_MANTIS=git://github.com/mantisbt/mantisbt.git
