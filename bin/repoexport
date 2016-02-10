@@ -71,6 +71,7 @@ then
 elif [ "$PROJECT" = "inaturalist" ]
 then
 	php "$EXPORTER" --target . --group=out-inaturalist --lang='*' --skip en $THRESHOLD
+	php "$EXPORTER" --target . --group=out-inaturalist --lang qqq
 
 elif [ "$PROJECT" = "intuition" ]
 then
