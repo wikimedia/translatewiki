@@ -205,7 +205,6 @@ require_once "$IP/skins/MonoBook/MonoBook.php";
 
 // Extensions which we don't specify any configuration
 wfLoadExtensions( array(
-	'ApiSandbox',
 	'CharInsert',
 	'cldr',
 	'Elastica',
