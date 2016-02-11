@@ -15,3 +15,9 @@ MANGLER:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/int-refill/messages/%CODE%.json"
+
+TAGS:
+  optional:
+    - refill-support-parameter-*
+    - refill-wikitext-parameter-*
+    - refill-wikitext-template-*
