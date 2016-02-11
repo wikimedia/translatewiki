@@ -18,6 +18,7 @@ FILES:
 
 TAGS:
   optional:
+    - refill-appname
     - refill-wikitext-support-parameter-*
     - refill-wikitext-parameter-*
     - refill-wikitext-template-*
