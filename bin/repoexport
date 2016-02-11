@@ -89,6 +89,11 @@ elif [ "$PROJECT" = "int-raun" ]
 then
 	php "$EXPORTER" --target . --group=int-raun --lang='*' --skip "$SKIPLANGS"
 
+elif [ "$PROJECT" = "int-refill" ]
+then
+	php "$EXPORTER" --target . --group=int-refill --lang='*' --skip en $HOURS
+	php "$EXPORTER" --target . --group=int-refill --lang qqq
+
 elif [ "$PROJECT" = "jquery.uls" ]
 then
 	php "$EXPORTER" --target . --group=out-jquery-uls --lang='*' --skip en,qqq $THRESHOLD
@@ -163,10 +168,6 @@ then
 elif [ "$PROJECT" = "pywikibot" ]
 then
 	php "$EXPORTER" --target . --group=out-pywikipedia* --lang='*' --skip en --threshold 1
-
-elif [ "$PROJECT" = "refill" ]
-then
-	php "$EXPORTER" --target . --group=out-refill --lang='*' --skip en,qqq $HOURS
 
 elif [ "$PROJECT" = "vicuna" ]
 then

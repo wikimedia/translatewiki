@@ -1,6 +1,6 @@
 ---
 BASIC:
-  id: out-refill
+  id: int-refill
   label: reFill
   description: "{{Special:MyLanguage/Translations:Group descriptions/Refill/en}}"
   namespace: NS_INTUITION
@@ -14,4 +14,4 @@ MANGLER:
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/refill/messages/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/int-refill/messages/%CODE%.json"
