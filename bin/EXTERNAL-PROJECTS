@@ -12,7 +12,6 @@ inaturalist
 int-dcatap
 int-orphantalk
 int-raun
-int-refill
 intuition
 jquery.uls
 kiwix
@@ -23,6 +22,7 @@ nfcring-control
 nocc
 osm
 pywikibot
+refill
 vicuna
 waymarked-trails-site
 wikiblame
