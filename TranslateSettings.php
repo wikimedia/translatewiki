@@ -236,7 +236,6 @@ wfAddNamespace( 1204, 'Nocc' );
 $wgTranslateGroupFiles[] = "$GROUPS/Nocc/Nocc.yaml";
 
 wfAddNamespace( 1206, 'Wikimedia' );
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/refill.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiEduDashboard.yaml";
@@ -317,6 +316,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Intuition/IntuitionAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/dcatap.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/orphantalk.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/raun.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Intuition/refill.yaml";
 $wgNamespaceAliases['Toolserver'] = 1240;
 $wgNamespaceAliases['Toolserver_talk'] = 1240;
 $wgTranslateSupportUrlNamespace[NS_INTUITION] = array(
