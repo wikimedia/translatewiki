@@ -2,6 +2,7 @@
 BASIC:
   id: int-refill
   label: reFill
+  description: "{{Special:MyLanguage/Translations:Group descriptions/Refill/en}}"
   namespace: NS_INTUITION
   class: FileBasedMessageGroup
 
