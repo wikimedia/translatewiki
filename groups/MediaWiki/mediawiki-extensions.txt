@@ -1466,6 +1466,8 @@ ignored = moodbar-what-expanded, moodbar-loading-subtitle, moodbar-response-gfdl
 ignored = moodbar-hide-intro, moodbar-restore-intro, moodbar-response-cc-link, moodbar-response-terms-of-use-link
 ignored = moodbar-log-reason, moodbar-delete-intro
 
+MP3 Media Handler
+
 Mpdf
 
 #Ms Calendar // Missing qqq
