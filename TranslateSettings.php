@@ -5,7 +5,7 @@ require_once __DIR__ . '/FallbackSettings.php';
 $GROUPS = __DIR__ . '/groups';
 
 // 2015-05-18 Really broken now. Disabled.
-//$wgSpecialPages['Magic'] = 'SpecialMagic';
+// $wgSpecialPages['Magic'] = 'SpecialMagic';
 $wgTranslateNewsletterPreference = true;
 
 $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
@@ -173,7 +173,7 @@ $wgTranslateBlacklist = array(
 	'fiu-vro' => 'This language code should remain unused. Localise in vro please.',
 	'gan' => 'This language code should remain unused. Localise in gan-hant or gan-hans please.',
 	'gom' => 'This language code should remain unused. Localise in gom-deva please.',
-	#'got' => 'This is an [http://www.sil.org/iso639-3/documentation.asp?id=got ancient language] without enough information to create a localisation. It cannot be localised in translatewiki.net.',
+	# 'got' => 'This is an [http://www.sil.org/iso639-3/documentation.asp?id=got ancient language] without enough information to create a localisation. It cannot be localised in translatewiki.net.',
 	'hif' => 'This language code should remain unused. Localise in hif-latn please.',
 	'ike' => 'This language code should remain unused. Localise in ike-cans or ike-latn please.',
 	'iu' => 'This language code should remain unused. Localise in ike-cans or ike-latn please.',

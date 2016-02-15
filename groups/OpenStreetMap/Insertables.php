@@ -24,7 +24,6 @@ class OSMInsertablesSuggester implements InsertablesSuggester {
 		}, $matches );
 		$insertables = array_merge( $insertables, $new );
 
-
 		return $insertables;
 	}
 }

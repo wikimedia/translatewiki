@@ -14,6 +14,6 @@ class CrosswatchMessageChecker extends MessageChecker {
 	 * @param $warnings \array Array where warnings are appended to.
 	 */
 	protected function CrosswatchVariablesCheck( $messages, $code, &$warnings ) {
-		return parent::parameterCheck( $messages, $code, $warnings, '/<[a-zA-Z\=\{\}\s_\|]{2,}>|{{[a-zA-Z_\|]+}}/');
+		return parent::parameterCheck( $messages, $code, $warnings, '/<[a-zA-Z\=\{\}\s_\|]{2,}>|{{[a-zA-Z_\|]+}}/' );
 	}
 }

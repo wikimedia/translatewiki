@@ -43,7 +43,7 @@ class MediaWikiTopMessageGroup extends MessageGroupOld {
 			$lots = $this->getParentGroup()->getKeys();
 
 			$fewer = array_intersect( $few, $lots );
-			if ( count ( $fewer ) < count( $few ) ) {
+			if ( count( $fewer ) < count( $few ) ) {
 				error_log( 'Invalid top messages: ' . implode( ', ', array_diff( $few, $fewer ) ) );
 			}
 

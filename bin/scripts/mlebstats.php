@@ -22,7 +22,6 @@ function endsWith( $haystack, $needle ) {
 	return substr( $haystack, -strlen( $needle ) ) === $needle;
 }
 
-
 function getStatsFromFile( $path ) {
 	$offsetToDownloads = 0;
 	$stats = array(
@@ -107,7 +106,6 @@ function printAllTime( $stats ) {
 	ksort( $combined );
 	$sorted = arrayToList( $combined );
 
-
 	printf( "%-13s   |   %-13s\n", 'Most popular', 'In order' );
 	echo "---------------------------------\n";
 	$len = count( $combined );
@@ -157,7 +155,6 @@ foreach ( getFiles( $awstatsDir ) as $path ) {
 	}
 }
 
-
 $lastmonth = mktime( 0, 0, 0, date( 'm' ) - 1, 1, date( 'Y' ) );
 $index = date( 'Y-n', $lastmonth );
 $pretty = date( 'Y-m', $lastmonth );
@@ -169,7 +166,6 @@ if ( isset( $stats[$index] ) ) {
 } else {
 	echo "Unable to print stats for $pretty\n\n";
 }
-
 
 echo "All time statistics since 2013-10\n\n";
 
@@ -184,7 +180,7 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 if ( $emails ) {
-	mail( implode( ', ', $emails ) , 'MLEB download statistics', $buffer );
+	mail( implode( ', ', $emails ), 'MLEB download statistics', $buffer );
 } else {
 	echo $buffer;
 }

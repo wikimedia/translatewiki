@@ -1,8 +1,8 @@
 <?php
 
-###
-# Performance etc.
-###
+/**
+ * Performance etc.
+ */
 $wgMainCacheType = CACHE_MEMCACHED;
 $wgMessageCacheType = 'apc';
 
@@ -17,9 +17,9 @@ $wgAdaptiveMessageCache = true;
 $wgJobRunRate = 0;
 $wgJobTypeConf['default'] = array( 'class' => 'JobQueueDB', 'order' => 'random', 'claimTTL' => 60 );
 
-###
-# Experimentalism
-###
+/**
+ * Experimentalism
+ */
 $wgWellFormedXml = false;
 $wgExperimentalHtmlIds = true;
 $wgAllUnicodeFixes = true;
@@ -30,14 +30,14 @@ $wgResourceLoaderStorageEnabled = true;
 $wgPageLanguageUseDB = true;
 
 $wgResourceLoaderValidateJS = false;
-#$wgIncludeLegacyJavaScript = false;
+# $wgIncludeLegacyJavaScript = false;
 $wgLegacyJavaScriptGlobals = false;
 
 $wgDeprecationReleaseLimit = '1.24';
 
-###
-# Unsorted
-###
+/**
+ * Unsorted
+ */
 $wgRightsPage = ""; # Set to the title of a wiki page that describes your license/copyright
 $wgRightsUrl = "";
 $wgRightsText = "";
@@ -46,9 +46,9 @@ $wgRightsIcon = "";
 $wgUseTidy = false;
 $wgMaxShellMemory = 1024 * 200;
 
-###
-# Names
-###
+/**
+ * Names
+ */
 $wgSitename = 'translatewiki.net';
 $wgEnableCanonicalServerLink = true;
 
@@ -69,9 +69,9 @@ array_unshift( $wgFooterIcons['poweredby'], array(
 // For Vector skin which does not support imageless icons except in the deprecated way.
 $wgFooterIcons['netcup'][] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
 
-###
-# Changes list
-###
+/**
+ * Changes list
+ */
 $wgRCMaxAge = 5 * 365 * 24 * 3600; // 5 years
 $wgShowUpdatedMarker = true;
 $wgUseRCPatrol = false;
@@ -83,15 +83,15 @@ $wgCategoryPagingLimit = 500;
 $wgMaximumMovedPages = 300;
 $wgCategoryCollation = 'uca-default';
 
-###
-# Ajax spicy etc
-###
+/**
+ * Ajax spicy etc
+ */
 $wgUseAutomaticEditSummaries = false;
 $wgUseInstantCommons = true;
 
-###
-# User (account) settings
-###
+/**
+ * User (account) settings
+ */
 $wgAllowUserJs = true;
 $wgAllowUserCss = true;
 $wgMinimalPasswordLength = 6;
@@ -131,7 +131,7 @@ $wgHiddenPrefs[] = 'cols';
 
 $wgDefaultUserOptions['usenewrc'] = 1;
 # Disabled 2012-08-20 / Nike / Too spammy/buggy.
-#$wgDefaultUserOptions['lqtnotifytalk'] = true;
+# $wgDefaultUserOptions['lqtnotifytalk'] = true;
 $wgDefaultUserOptions['watchcreations'] = true;
 
 $wgCaptchaTriggers['createaccount'] = true; // Special:Userlogin&type=signup
@@ -141,9 +141,9 @@ $wgCaptchaTriggers['create'] = true; // Check on page creation.
 $wgCaptchaTriggers['addurl'] = true; // Check on edits that add URLs
 $wgCaptchaTriggers['badlogin'] = true; // Special:Userlogin after failure
 
-###
-# Upload
-###
+/**
+ * Upload
+ */
 $wgEnableUploads = true;
 $wgAllowCopyUploads = true;
 $wgUseImageMagick = false;
@@ -153,9 +153,9 @@ $wgFileExtensions = array( 'png', 'gif', 'jpg', 'jpeg', 'ogg', 'pdf', 'svg' );
 $wgSVGConverter = 'rsvg';
 $wgSVGConverters['rsvg'] = '$path/rsvg-convert -w $width -h $height $input -o $output';
 
-###
-# Namespaces
-###
+/**
+ * Namespaces
+ */
 $wgNamespaceAliases['Betawiki'] = NS_PROJECT;
 $wgNamespaceAliases['Betawiki_talk'] = NS_PROJECT_TALK;
 $wgMetaNamespace = 'Project';
@@ -193,15 +193,15 @@ $wgExtraNamespaces[NS_TRANSLATING_TALK] = 'Translating_talk';
 $wgContentNamespaces[] = NS_MEDIAWIKI;
 $wgContentNamespaces[] = NS_TRANSLATING;
 
-###
-# Skins
-###
+/**
+ * Skins
+ */
 require_once "$IP/skins/Vector/Vector.php";
 require_once "$IP/skins/MonoBook/MonoBook.php";
 
-###
-# Extensions
-###
+/**
+ * Extensions
+ */
 
 // Extensions which we don't specify any configuration
 wfLoadExtensions( array(
@@ -224,7 +224,6 @@ wfLoadExtensions( array(
 $EXT = "$IP/extensions";
 require_once "$EXT/AdminLinks/AdminLinks.php";
 require_once "$EXT/LiquidThreads/LiquidThreads.php";
-
 
 wfLoadExtension( 'CleanChanges' );
 $wgCCUserFilter = true;
@@ -369,9 +368,9 @@ $wgISGroups = array( 'translator' );
 require_once "$EXT/Echo/Echo.php";
 $wgEchoBundleEmailInterval = 14400;
 
-###
-# Dynamic code starts here
-###
+/**
+ * Dynamic code starts here
+ */
 if ( $wgCanonicalServer !== "https://translatewiki.net" ) {
 	$wgHooks['SiteNoticeAfter'][] = function ( &$siteNotice ) {
 		$siteNotice = "
@@ -400,7 +399,8 @@ $wgExtensionFunctions[] = function () {
 			header( "HTTP/1.1 403 Forbidden" );
 			exit();
 		}
-	} catch ( MWException $e ) {}
+	} catch ( MWException $e ) {
+	}
 };
 
 $wgHooks['LanguageGetNamespaces'][] = function ( &$list ) {

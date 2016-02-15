@@ -33,14 +33,14 @@ class BundleCreater {
 		$this->checkout_release();
 		$this->install_mediawiki();
 		// Broken
-		//$this->run_tests();
+		// $this->run_tests();
 		$this->prepare_notes();
 		$this->create_tag();
 		$this->push_tag();
 		$this->create_archive();
 		$this->prepare_announcement();
 		// Needs some refactor
-		//$this->final_steps();
+		// $this->final_steps();
 	}
 
 	public function clone_mediawiki() {
@@ -342,6 +342,4 @@ WIKITEXT;
 			exec( "git push origin $cTag" );
 		}
 	}
-
-
 }

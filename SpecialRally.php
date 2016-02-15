@@ -53,11 +53,12 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$allGroups = MessageGroups::singleton()->getGroups();
 			foreach ( $allGroups as $groupId => $messageGroup ) {
 				if ( in_array( $groupId, $allowedGroups ) ) {
-					if( $messageGroup->isMeta() ) {
+					if ( $messageGroup->isMeta() ) {
 						// @todo Ugly work around for MediaWikiTopMessageGroup::getGroups()
 						//       not existing.
-						if( $messageGroup->getId() === 'core-0-mostused' )
+						if ( $messageGroup->getId() === 'core-0-mostused' ) {
 							continue;
+						}
 
 						$groups = $messageGroup->getGroups();
 						foreach ( $groups as $gid => $groupDetails ) {
@@ -155,13 +156,13 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 
 						$messageData = TranslateUtils::figureMessage( $row->rc_title );
 						// Language totals
-						if( isset( $languages[$messageData[1]] ) ) {
+						if ( isset( $languages[$messageData[1]] ) ) {
 							$languages[$messageData[1]]++;
 						} else {
 							$languages[$messageData[1]] = 1;
 						}
 						// Per user per language totals
-						if( isset( $userLangs[$row->rc_user_text][$messageData[1]] ) ) {
+						if ( isset( $userLangs[$row->rc_user_text][$messageData[1]] ) ) {
 							$userLangs[$row->rc_user_text][$messageData[1]]++;
 						} else {
 							$userLangs[$row->rc_user_text][$messageData[1]] = 1;
@@ -235,7 +236,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$res = $dbr->select( $tables, $fields, $conds, __METHOD__ );
 
 			$total = 0;
-			$output->addHtml( "The following pages qualify for user {$user->getName()}: <ul>");
+			$output->addHtml( "The following pages qualify for user {$user->getName()}: <ul>" );
 			$userName = $user->getName();
 
 			foreach ( $res as $_ ) {
@@ -255,7 +256,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 
 				$title = preg_replace( '~/[a-z-]+$~i', '', $_->rc_title );
 				$group = TranslateUtils::messageKeyToGroup( $_->rc_namespace, $title );
-				if ( !isset($allowedGroups[$group]) ) {
+				if ( !isset( $allowedGroups[$group] ) ) {
 					$output->addHtml(
 						'<li><s>' .
 							Linker::linkKnown( Title::makeTitle( $_->rc_namespace, $_->rc_title ) ) .
@@ -272,7 +273,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 				}
 				if ( $total == 501 ) {
 					$output->addHtml(
-						"<li>Translations over 500 are omitted.</li>");
+						"<li>Translations over 500 are omitted.</li>" );
 					continue;
 				}
 
