@@ -107,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "4ea78b8a_4121f1aa",
+        "filename": "bin/repocommit",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-15T21:15:38Z",
+      "side": 1,
+      "message": "Fine. I guess PHP deals differently with the input compared to bash.",
+      "parentUuid": "4ea78b8a_81812994",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4ea78b8a_81f4c951",
         "filename": "repoconfig.json",
         "patchSetId": 2
@@ -136,6 +154,24 @@
       "side": 1,
       "message": "Well, repoexport has:\nWIKI\u003d/srv/mediawiki/targets/production\nEXPORTER\u003d$WIKI/extensions/Translate/scripts/export.php\n\nAnd this is per repoconfig.json file, so it is even more customisable ;)",
       "parentUuid": "4ea78b8a_81f4c951",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_c10c0148",
+        "filename": "repoconfig.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-15T21:15:38Z",
+      "side": 1,
+      "message": "k.",
+      "parentUuid": "4ea78b8a_014d399b",
       "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -206,6 +242,24 @@
       "side": 1,
       "message": "I don\u0027t care either way.",
       "parentUuid": "4ea78b8a_818b69c3",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_1cfd9e04",
+        "filename": "repong/repong.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-15T21:15:38Z",
+      "side": 1,
+      "message": "Not sure if any code checks will puke over this class name. Best change it, I think.",
+      "parentUuid": "4ea78b8a_8158495a",
       "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
