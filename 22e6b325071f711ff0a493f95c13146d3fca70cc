@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4ea78b8a_a159c591",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-15T21:04:16Z",
+      "side": 1,
+      "message": "Duplicate line.",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_814e09c3",
+        "filename": "bin/repocommit",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-15T21:04:16Z",
+      "side": 1,
+      "message": "Needs trailing backslash like other arrays (GITPROJECTS/GERRITPROJECTS)?",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_81dda9e3",
+        "filename": "bin/repocommit",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-15T21:04:16Z",
+      "side": 1,
+      "message": "Given this list is also present in repoexport, should we put it in an external file?",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_81f4c951",
+        "filename": "repoconfig.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-15T21:04:16Z",
+      "side": 1,
+      "message": "That\u0027s pretty hard coded... Any more relative options here?",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_01a0d93c",
+        "filename": "repoconfig.json.nike",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-15T21:04:16Z",
+      "side": 1,
+      "message": "With a \"whoami\", we can probably share REPOCONF.siebrand and this one, right?",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_818b69c3",
+        "filename": "repong/repong.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-15T21:04:16Z",
+      "side": 1,
+      "message": "Shouldb e RepoNg for name consistency reasons?",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_a186a5bc",
+        "filename": "repong/repong.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-15T21:04:16Z",
+      "side": 1,
+      "message": "Bla bla long line.",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_41bd7162",
+        "filename": "repong/repong.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-15T21:04:16Z",
+      "side": 1,
+      "message": "Heh :-).",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
