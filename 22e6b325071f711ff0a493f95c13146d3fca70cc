@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "4ea78b8a_017699d5",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-15T21:10:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4ea78b8a_a159c591",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4ea78b8a_814e09c3",
         "filename": "bin/repocommit",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2016-02-15T21:04:16Z",
       "side": 1,
       "message": "Needs trailing backslash like other arrays (GITPROJECTS/GERRITPROJECTS)?",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_c17721ce",
+        "filename": "bin/repocommit",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-15T21:10:59Z",
+      "side": 1,
+      "message": "Based on my testing the backslash isn\u0027t needed, it seems.",
+      "parentUuid": "4ea78b8a_814e09c3",
       "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "4ea78b8a_81812994",
+        "filename": "bin/repocommit",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-15T21:10:59Z",
+      "side": 1,
+      "message": "I can do that in follow-up when I add/convert next thing to repong, okay?",
+      "parentUuid": "4ea78b8a_81dda9e3",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4ea78b8a_81f4c951",
         "filename": "repoconfig.json",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2016-02-15T21:04:16Z",
       "side": 1,
       "message": "That\u0027s pretty hard coded... Any more relative options here?",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_014d399b",
+        "filename": "repoconfig.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-15T21:10:59Z",
+      "side": 1,
+      "message": "Well, repoexport has:\nWIKI\u003d/srv/mediawiki/targets/production\nEXPORTER\u003d$WIKI/extensions/Translate/scripts/export.php\n\nAnd this is per repoconfig.json file, so it is even more customisable ;)",
+      "parentUuid": "4ea78b8a_81f4c951",
       "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "4ea78b8a_c15e4148",
+        "filename": "repoconfig.json.nike",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-15T21:10:59Z",
+      "side": 1,
+      "message": "We could, expect for svn which requires the real username. That could be dealth with some post-processing if wanted.\n\nBigger problem is that we do not currently share access to all repositories.\n\nAnyway, nothing stops you from doing symbolic link to this file right now, as I am doing.\n\nOTOH, you probably don\u0027t want to export with dev.transatewiki.net..., but I will need to change that anyway for myself :D",
+      "parentUuid": "4ea78b8a_01a0d93c",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4ea78b8a_818b69c3",
         "filename": "repong/repong.php",
         "patchSetId": 2
@@ -104,6 +194,24 @@
     },
     {
       "key": {
+        "uuid": "4ea78b8a_8158495a",
+        "filename": "repong/repong.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-15T21:10:59Z",
+      "side": 1,
+      "message": "I don\u0027t care either way.",
+      "parentUuid": "4ea78b8a_818b69c3",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4ea78b8a_a186a5bc",
         "filename": "repong/repong.php",
         "patchSetId": 2
@@ -115,6 +223,24 @@
       "writtenOn": "2016-02-15T21:04:16Z",
       "side": 1,
       "message": "Bla bla long line.",
+      "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_413a51e5",
+        "filename": "repong/repong.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-15T21:10:59Z",
+      "side": 1,
+      "message": "Fortunately we do not have linters yet on this repo... except the shellint which forced me to move this to another directory.\n\nI\u0027ll fix.",
+      "parentUuid": "4ea78b8a_a186a5bc",
       "revId": "22e6b325071f711ff0a493f95c13146d3fca70cc",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
