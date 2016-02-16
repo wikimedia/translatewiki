@@ -26,8 +26,12 @@ TEMPLATE:
     checks:
       - EOLVariablesCheck
 
+  INSERTABLES:
+    class: EolSuggester
+
   AUTOLOAD:
     EOLMessageChecker: Checker.php
+    EolSuggester: Suggester.php
 
 ---
 BASIC:
