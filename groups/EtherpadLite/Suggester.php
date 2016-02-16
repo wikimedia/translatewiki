@@ -10,7 +10,7 @@ class EtherpadLiteSuggester implements InsertablesSuggester {
 
 		// Variables like {{variable}}
 		$matches = array();
-		preg_match_all( '/{{[a-z_]+}}/', $text, $matches, PREG_SET_ORDER );
+		preg_match_all( '/{{[a-zA-Z_]+}}/', $text, $matches, PREG_SET_ORDER );
 		$new = array_map( function( $match ) {
 			return new Insertable( $match[0], $match[0] );
 		}, $matches );
