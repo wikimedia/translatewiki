@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "4ea78b8a_71c954ad",
+        "filename": "REPOCONF.nike",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-16T15:41:25Z",
+      "side": 1,
+      "message": "kwak kwak",
+      "parentUuid": "4ea78b8a_31951c8a",
+      "revId": "5df0071502eeb3a2be6f5dd8706125d746bc4b90",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4ea78b8a_b1810c51",
         "filename": "REPOCONF.nike",
         "patchSetId": 1
@@ -81,6 +99,24 @@
       "writtenOn": "2016-02-16T15:36:20Z",
       "side": 1,
       "message": "This should fix your OSM funkyness.",
+      "revId": "5df0071502eeb3a2be6f5dd8706125d746bc4b90",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_f13464a9",
+        "filename": "REPOCONF.nike",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-16T15:41:25Z",
+      "side": 1,
+      "message": "thanks",
+      "parentUuid": "4ea78b8a_f1878464",
       "revId": "5df0071502eeb3a2be6f5dd8706125d746bc4b90",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
