@@ -2,12 +2,21 @@
 	"@meta": {
 		"export": "php /srv/mediawiki/targets/production/extensions/Translate/scripts/export.php"
 	},
+	"citationhunt": {
+		"group": "citationhunt",
+		"repos": {
+			"citationhunt": {
+				"type": "git",
+				"url": "https://github.com/eggpi/citationhunt.git"
+			}
+		}
+	},
 	"codev": {
 		"group": "codev",
 		"repos": {
 			"codev": {
 				"type": "git",
-				"url": "git://github.com/lbayle/codev.git"
+				"url": "https://github.com/lbayle/codev.git"
 			}
 		}
 	},
