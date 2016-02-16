@@ -64,6 +64,16 @@ BASIC:
 FILES:
   sourcePattern: "%GROUPROOT%/hivejs/hive-plugin-export/locales/%CODE%.json"
 
+TAGS:
+  optional:
+    - plugin-export/format-application-docbook+xml
+    - plugin-export/format-application-epub+zip
+    - plugin-export/format-application-x-latex
+    - plugin-export/format-image-png
+    - plugin-export/format-image-svg+xml
+    - plugin-export/format-text-html
+    - plugin-export/format-text-markdown
+
 ---
 BASIC:
   id: hivejs-plugin-import
