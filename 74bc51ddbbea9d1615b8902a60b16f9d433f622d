@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4ea78b8a_d726f862",
+        "filename": "groups/Blockly/Checker.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-16T18:27:06Z",
+      "side": 1,
+      "message": "Nothing here I would claim my own :D",
+      "revId": "74bc51ddbbea9d1615b8902a60b16f9d433f622d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_77f624d6",
+        "filename": "groups/Blockly/Checker.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-16T18:27:06Z",
+      "side": 1,
+      "message": "does not match BlocklyVariablesCheck",
+      "revId": "74bc51ddbbea9d1615b8902a60b16f9d433f622d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_172d7041",
+        "filename": "groups/Blockly/Checker.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-16T18:27:06Z",
+      "side": 1,
+      "message": "% is not special as far as I know and thus no escaping needed.\n\nNow I wonder why I did not use parameterCheck my self...",
+      "revId": "74bc51ddbbea9d1615b8902a60b16f9d433f622d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_771dc413",
+        "filename": "groups/Blockly/Suggester.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-02-16T18:27:06Z",
+      "side": 1,
+      "message": "Ditto",
+      "revId": "74bc51ddbbea9d1615b8902a60b16f9d433f622d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
