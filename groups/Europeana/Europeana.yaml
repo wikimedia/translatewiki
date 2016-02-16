@@ -426,5 +426,9 @@ CHECKER:
   checks:
     - EuropeanaVariablesCheck
 
+INSERTABLES:
+  class: EuropeanaSuggester
+
 AUTOLOAD:
   EuropeanaMessageChecker: Checker.php
+  EuropeanaSuggester: Suggester.php
