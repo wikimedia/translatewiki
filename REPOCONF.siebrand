@@ -1,11 +1,24 @@
-# If not set, will not setup l10n-bot commit stuff for MediaWiki git extensions
+# If REPO_RW=yes, will set up commit stuff
 REPO_RW=yes
 
+# Fix Niklas's internal to external username
+if [ "$USER" -eq "nike" ]; then
+	THISUSER="nikerabbit"
+else
+	THISUSER="$USER"
+fi
+
+# MediaWiki
 REPO_MEDIAWIKI=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/core.git
 REPO_MEDIAWIKI_BRANCHES="master"
 REPO_MWEXTGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/extensions
 REPO_MWSKINGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/skins
 
+# mobile stuffs
+REPO_WIKIPEDIAANDROID=ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/wikipedia
+REPO_WIKIPEDIAIOS=git@github.com:wikimedia/wikipedia-ios.git
+
+# other
 REPO_BLOCKLY=git@github.com:google/blockly.git
 REPO_BLOCKLYGAMES=git@github.com:google/blockly-games.git
 REPO_EOL=git@github.com:EOL/eol.git
@@ -13,9 +26,9 @@ REPO_ENTRYSCAPE=git@bitbucket.org:metasolutions/entryscape-nls.git
 REPO_ETHERPADLITE=git@github.com:ether/etherpad-lite.git
 REPO_ETHERPADLITE_BRANCH="develop"
 REPO_EUROPEANA=git@github.com:europeana/Europeana1914-1918.git
-REPO_FREECOL=ssh://siebrand@git.code.sf.net/p/freecol/git
-REPO_FUDFORUM=svn+ssh://siebrand@svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
-REPO_FUEL=ssh://siebrand@git.fedorahosted.org/git/fuel.git
+REPO_FREECOL=ssh://${THISUSER}@git.code.sf.net/p/freecol/git
+REPO_FUDFORUM=svn+ssh://${THISUSER}@svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
+REPO_FUEL=ssh://${THISUSER}@git.fedorahosted.org/git/fuel.git
 REPO_HUGGLE=git@github.com:huggle/huggle3-qt-lx.git
 REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics
 REPO_IHRIS_BRANCH="4.2"
@@ -32,8 +45,7 @@ REPO_MANTIS=git@github.com:mantisbt/mantisbt.git
 REPO_MATHJAX=git@github.com:mathjax/MathJax-i18n.git
 REPO_MIFOS=git@github.com:openMF/community-app.git
 REPO_NFCRINGCONTROL=git@github.com:mclear/NFC_Ring_Control.git
-REPO_NOCC=svn+ssh://siebrand@svn.code.sf.net/p/nocc/code/trunk
-REPO_INTORPHANTALK=git@github.com:Krinkle/mw-tool-orphantalk.git
+REPO_NOCC=svn+ssh://${THISUSER}@svn.code.sf.net/p/nocc/code/trunk
 REPO_OSM=ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git
 REPO_POTLATCH2=git@github.com:systemed/potlatch2.git
 REPO_PYWIKIBOT=ssh://l10n-bot@gerrit.wikimedia.org:29418/pywikibot/i18n
@@ -42,5 +54,3 @@ REPO_WAYMARKEDTRAILSSITE=git@github.com:lonvia/waymarked-trails-site.git
 REPO_WIKIBLAME=git@github.com:FlominatorTM/wikiblame.git
 REPO_WIKIEDUDASHBOARD=git@github.com:WikiEducationFoundation/WikiEduDashboard.git
 REPO_WIKIMANIA=ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/wikimania-scholarships
-REPO_WIKIPEDIAANDROID=ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/wikipedia
-REPO_WIKIPEDIAIOS=git@github.com:wikimedia/wikipedia-ios.git
