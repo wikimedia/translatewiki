@@ -206,7 +206,7 @@ TEXT;
 			// Sometimes these files pass through other editors,
 			// which save them with wrong file endings.
 			// Convert all endings to \n.
-			$contents = str_replace( array( "\r\n", "\r" ), "\n", file_get_contents( $notefile ) );
+			$contents = str_replace( [ "\r\n", "\r" ], "\n", file_get_contents( $notefile ) );
 			preg_match( '/^#---$(.*)^#---$/msU', $contents, $matches );
 			$notes = trim( $matches[1] );
 			$notes = "== $ext $version ==\nReleased at $date.\n\n$notes\n";
@@ -286,7 +286,7 @@ TEXT;
 		$contents = file_get_contents( "releases/$filename.$hasher" );
 		list( $hash, /*unused*/ ) = explode( ' ', $contents, 2 );
 
-		$parts = array();
+		$parts = [];
 		$parts[] = "I would like to announce the release of $name $version";
 		$parts[] = "* $url/$filename\n* $hasher: $hash";
 		$parts[] = <<<WIKITEXT
@@ -306,7 +306,7 @@ WIKITEXT;
 
 		foreach ( $this->conf['extensions'] as $ext => $checkout ) {
 			$notefile = $this->dir . "/notes/$version-$ext";
-			$contents = str_replace( array( "\r\n", "\r" ), "\n", file_get_contents( $notefile ) );
+			$contents = str_replace( [ "\r\n", "\r" ], "\n", file_get_contents( $notefile ) );
 			preg_match( '/^#---$(.*)^#---$/msU', $contents, $matches );
 			if ( !isset( $matches[1] ) ) {
 				echo "Could not parse notes for extension $ext\n";

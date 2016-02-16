@@ -3,3 +3,7 @@
 *.kate-swp
 .*.swp
 .idea
+extensions/
+node_modules/
+vendor/
+composer.lock

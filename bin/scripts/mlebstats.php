@@ -24,9 +24,9 @@ function endsWith( $haystack, $needle ) {
 
 function getStatsFromFile( $path ) {
 	$offsetToDownloads = 0;
-	$stats = array(
+	$stats = [
 		// filename => downloads
-	);
+	];
 
 	$file = new SplFileObject( $path );
 	$file->setFlags(
@@ -84,13 +84,13 @@ function getCuteName( $filename ) {
 
 function arrayToList( $array ) {
 	array_walk( $array, function( &$value, $key ) {
-		$value = array( $key, $value );
+		$value = [ $key, $value ];
 	} );
 	return array_values( $array );
 }
 
 function printAllTime( $stats ) {
-	$combined = array();
+	$combined = [];
 	foreach ( $stats as $month ) {
 		foreach ( $month as $file => $downloads ) {
 			if ( !isset( $combined[$file] ) ) {
@@ -135,8 +135,8 @@ function printMonth( $stats ) {
 
 ob_start();
 
-$skipped = array();
-$stats = array();
+$skipped = [];
+$stats = [];
 
 foreach ( getFiles( $awstatsDir ) as $path ) {
 	$file = basename( $path );

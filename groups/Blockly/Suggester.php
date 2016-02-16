@@ -8,9 +8,9 @@
 
 class BlocklySuggester {
 	public function getInsertables( $text ) {
-		$insertables = array();
+		$insertables = [];
 
-		$matches = array();
+		$matches = [];
 		// %1, %2, .., %9
 		preg_match_all( '/%[1-9]+/', $text, $matches, PREG_SET_ORDER );
 		$new = array_map( function( $match ) {

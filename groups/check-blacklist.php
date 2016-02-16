@@ -14,35 +14,35 @@
  * those constrains are skipped. Possible constrains are <tt>group</tt>,
  * <tt>check</tt>, <tt>code</tt> and <tt>message</tt>.
  */
-$checkBlacklist = array(
-	array(
+$checkBlacklist = [
+	[
 		'check' => 'plural',
-		'code' => array( 'az', 'bo', 'cdo', 'dz', 'id', 'fa', 'gan', 'gan-hans',
+		'code' => [ 'az', 'bo', 'cdo', 'dz', 'id', 'fa', 'gan', 'gan-hans',
 			'gan-hant', 'gn', 'hak', 'hu', 'ja', 'jv', 'ka', 'kk-arab',
 			'kk-cyrl', 'kk-latn', 'km', 'kn', 'ko', 'lzh', 'mn', 'ms',
 			'my', 'sah', 'sq', 'tet', 'th', 'to', 'tr', 'vi', 'wuu', 'xmf',
 			'yo', 'yue', 'zh', 'zh-classical', 'zh-cn', 'zh-hans',
 			'zh-hant', 'zh-hk', 'zh-sg', 'zh-tw', 'zh-yue'
-		),
-	),
-	array(
+		],
+	],
+	[
 		'group' => 'core',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'redirect-summary', // Has images names that can be translated
-		),
-	),
-	array(
+		],
+	],
+	[
 		'group' => 'core',
 		'check' => 'plural',
-		'message' => array(
+		'message' => [
 			'category-file-count', // Work around for http://bugzilla.wikimedia.org/42631
-		),
-	),
-	array(
+		],
+	],
+	[
 		'group' => 'core',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'activeusers-count', // Optional GENDER parameter
 			'autoblockedtext', // Optional GENDER parameter
 			'blocked-notice-logextract', // Optional GENDER parameter
@@ -99,43 +99,43 @@ $checkBlacklist = array(
 			'userrights-groupsmember-auto', // Optional PLURAL parameter
 			'userrights-groupsmember-type', // Optional parameter for group name
 			'userrights-unchangeable-col', // Optional PLURAL parameter
-		),
-	),
-	array(
+		],
+	],
+	[
 		'group' => 'core',
 		'check' => 'plural',
-		'message' => array(
+		'message' => [
 			'diff-multi-manyusers', // Likely to not be needed in languages with same plural as English (many)
-		),
-	),
-	array(
+		],
+	],
+	[
 		'group' => 'core',
 		'check' => 'plural',
-		'code' => array( 'fr' ),
-		'message' => array(
+		'code' => [ 'fr' ],
+		'message' => [
 			'viewcount', // PLURAL not needed in French
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-abusefilter',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'abusefilter-edit-lastmod-text', // Optional username parameter for GENDER, optional time parameters
 			'abusefilter-reautoconfirm-none', // Optional username parameter for GENDER
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-articlefeedbackv5',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'articlefeedbackv5-activity-item-request', // Optional GENDER parameter
 			'articlefeedbackv5-activity-item-clear-flags', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-babel',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'babel', // Optional GENDER parameter
 			'babel-0', // Optional GENDER parameter
 			'babel-1', // Optional GENDER parameter
@@ -151,447 +151,447 @@ $checkBlacklist = array(
 			'babel-4-n', // Optional GENDER parameter
 			'babel-5-n', // Optional GENDER parameter
 			'babel-N-n', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-call',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'call-text', // Contains links that are translated
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-categorysortheaders',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'categorysortheaders-desc', // Contains links that are translated
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-categorytree',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'Categorytree-member-counts', // Optional counts: $4, and $5
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-centralauth',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'centralauth-readmore-text', // Contains link to page that may be available in a translated version
 			'centralauth-finish-problems', // Contains link to page that may be available in a translated version
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-centralauth',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'centralauth-centralautologin-logged-in', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-checkpoint',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'checkpoint-notice', // Contains link parts that may need translation
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-checkuser',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-checkuser-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-citethispage',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'citethispage-content', // Contains link parts that may need translation
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-codereview',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'code-stats-main', // Optional time parameters
 			'group-svnadmins-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-confirmaccount',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'requestaccount-email-body', // Optional time parameters
 			'confirmaccount-reject', // Optional time parameters
 			'confirmaccount-held', // Optional time parameters
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-configure',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'configure-condition-description-4', // Optional parameter for PLURAL
 			'configure-edit-old', // Optional time parameters
 			'configure-old-summary-datetime', // Optional time parameters
 			'configure-viewconfig-line', // Optional time parameters
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-configure-settings',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'configure-setting-wgMaxRedirectLinksRetrieved', // Translatable link
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-contributionseditcount',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'contributionseditcount', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-editsubpages',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'unlockedpages', // Contains links that are translated
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-educationprogram',
 		'check' => 'plural',
-		'message' => array(
+		'message' => [
 			'logentry-student-remove', // Work around for http://bugzilla.wikimedia.org/42631
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-flagpage',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'flagpage-templatelist', // Contains link in HTML comment
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-flaggedrevs-flaggedrevs',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-editor-member', // Optional GENDER parameter
 			'group-reviewer-member', // Optional GENDER parameter
 			'group-autoreview-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-flaggedrevs-configuredpages',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'configuredpages-list', // Parameter $1 only used when required for plural
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-flaggedrevs-pendingchanges',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'pendingchanges-list', // Parameter $1 only used when required for plural
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-flaggedrevs-problemchanges',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'problemchanges-list', // Parameter $1 only used when required for plural
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-flaggedrevs-qualityoversight',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'qualityoversight-list', // Parameter $1 only used when required for plural
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-flaggedrevs-reviewedpages',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'reviewedpages-list', // Parameter $1 only used when required for plural
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-flaggedrevs-reviewedversions',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'reviewedversions-review', // Optional time parameters, and name for GENDER
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-flaggedrevs-stabilization',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'stabilize-expiring', // Optional time parameters
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-flaggedrevs-stablepages',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'stablepages-list', // Parameter $1 only used when required for plural
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-flaggedrevs-unreviewedpages',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'unreviewedpages-list', // Parameter $1 only used when required for plural
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-linkfilter',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-linkadmin-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-liquidthreads',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'lqt-feed-title-all-from', // Optional PLURAL parameter ($2)
 			'lqt-feed-title-new-threads-from', // Optional PLURAL parameter ($2)
 			'lqt-feed-title-replies-from', // Optional PLURAL parameter ($2)
 			'lqt-thread-edited-others', // Optional date and time parameters ($3/$4)
 			'lqt-thread-edited-author', // Optional count, date and time parameters ($2/$3/$4)
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-livetranslate',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-tmxadmin-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-mirrortools',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-MirrorTools-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-newusernotification',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'newusernotifbody', // Optional time parameters
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-onlinestatus',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'onlinestatus-subtitle-offline', // Optional GENDER parameter
 			'onlinestatus-subtitle-online', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-openstackmanager',
 		'check' => 'plural',
-		'code' => array( 'fr' ),
-		'message' => array(
+		'code' => [ 'fr' ],
+		'message' => [
 			'openstackmanager-instancetypelabel', // PLURAL not needed in French
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-patroller',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-patroller-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-push',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-pusher-member', // Optional GENDER parameter
 			'group-bulkpusher-member', // Optional GENDER parameter
 			'group-filepusher-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-semanticmediawiki',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'smw_qc_query_help', // Contains links that are translated
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-semanticwatchlist',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-swladmins-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-qpoll',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'qp_user_polls_link', // Optional GENDER parameter
 			'qp_user_missing_polls_link', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-regexblock',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'regexblock-match-stats-record', // Optional time parameters
 			'regexblock-view-time', // Optional time parameters
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-renameuser',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'renameuser-renamed-notice', // Optional GENDER parameter
 			'logentry-renameuser-renameuser-legacier', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-survey',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-surveyadmin-member', // Optional GENDER parameter
 			'group-surveysubmit-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-timedmediahandler',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'timedmedia-subtitle-new-desc', // Contains links that are translated
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-titleblacklist',
 		'check' => 'variable',
-		'code' => array(
+		'code' => [
 			'gan', 'gan-hans', 'gan-hant', 'gn', 'hak', 'hu', 'ja',
 			'ka', 'kk-arab', 'kk-cyrl', 'kk-latn', 'ko', 'lzh', 'mn', 'ms', 'sah', 'sq',
 			'tet', 'th', 'wuu', 'xmf', 'yue', 'zh', 'zh-classical', 'zh-cn', 'zh-hans',
 			'zh-hant', 'zh-hk', 'zh-sg', 'zh-tw', 'zh-yue'
-		),
-		'message' => array(
+		],
+		'message' => [
 			'titleblacklist-invalid', // Param only used in plural
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-translate-core',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'supportedlanguages-summary', // Contains links that are translated
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-translate-core',
 		'check' => 'plural',
-		'message' => array(
+		'message' => [
 			'translate-checks-plural-dupe', // Message explaining the check.
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-uploadwizard',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-upwizcampeditors-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-whitelistedit',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-restricted-member', // Optional GENDER parameter
 			'group-manager-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-widgets',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-widgeteditor-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-wikieditor',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'wikieditor-toolbar-help-content-ilink-syntax', // Contains links that are translated
 			'wikieditor-toolbar-help-content-file-syntax', // Contains links that are translated
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-wikibase-repo',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'wikibase-newproperty-summary', // Contains links that are translated
 			'wikibase-createitem-summary', // Contains links that are translated
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-wikiforum',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-forumadmin-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-wikilog',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'wikilog-comment-note-edited', // Optional parameter $3
 			'wikilog-summary-categories', // Optional PLURAL parameter ($1)
 			'wikilog-summary-footer', // Optional parameters $3, $4, $5, $6
 			'wikilog-summary-footer-single', // Optional parameters $1, $2, $3, $4, $5, $6
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-wikimediaincubator',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'wminc-code-macrolanguage', // Contains link that can be translated
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'ext-wikimediaincubator',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'group-test-sysop-member', // Optional GENDER parameter
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'out-fudforum',
 		'check' => 'variable',
-		'message' => array(
+		'message' => [
 			'page_timings', // Optional parameter for PLURAL
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'out-fudforum',
 		'check' => 'parameters',
-		'message' => array(
+		'message' => [
 			'page_timings', // Optional parameter for PLURAL
-		)
-	),
-	array(
+		]
+	],
+	[
 		'group' => 'out-osm-site',
 		'check' => 'parameters',
-		'message' => array(
+		'message' => [
 			'notifier.signup_confirm_html.user_wiki_page', // Contains links that are translated
 			'notifier.signup_confirm_plain.user_wiki_2', // Contains links that are translated
-		)
-	),
+		]
+	],
 // translatewiki.net specific
-	array(
+	[
 		'group' => 'page-Translating:Intro',
 		'check' => 'links',
-		'message' => array(
+		'message' => [
 			'Translating:Intro/intro', // Contains links that are translated
-		)
-	),
-);
+		]
+	],
+];

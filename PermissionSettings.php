@@ -49,7 +49,7 @@ $wgGroupPermissions['sysop'        ]['import']                  = false;
 $wgGroupPermissions['sysop'        ]['importupload']            = false;
 $wgGroupPermissions['sysop'        ]['suppressredirect']        = true;
 # Temporary until core extends it, bug 9360
-$wgGroupPermissions['sysop'        ]['pagelang']                = true;
+$wgGroupPermissions['sysop'        ]['pagelang'] = true;
 
 $wgGroupPermissions['bureaucrat'   ]['deletelogentry']          = true;
 $wgGroupPermissions['bureaucrat'   ]['deleterevision']          = true;
@@ -72,19 +72,19 @@ $wgGroupPermissions['staff'        ]['usermerge']               = true;
 $wgGroupPermissions['staff'        ]['replacetext']             = true;
 $wgGroupPermissions['sysop'        ]['replacetext']             = false;
 
-$wgGroupPermissions['offline'      ]['translate-import']        = true;
+$wgGroupPermissions['offline'      ]['translate-import'] = true;
 
-$wgGroupPermissions['transadmin'   ]['translate-manage']        = true;
+$wgGroupPermissions['transadmin'   ]['translate-manage'] = true;
 
 $wgAddGroups['staff'] = $wgRemoveGroups['staff'] = true;
-$wgRemoveGroups['bureaucrat'] = $wgAddGroups['bureaucrat'   ] = array( 'sysop', 'translator', 'bot', 'offline' );
-$wgGroupsRemoveFromSelf['translator'] = array( 'translator' );
+$wgRemoveGroups['bureaucrat'] = $wgAddGroups['bureaucrat'   ] = [ 'sysop', 'translator', 'bot', 'offline' ];
+$wgGroupsRemoveFromSelf['translator'] = [ 'translator' ];
 
 $wgSysopUserBans  = true;
 $wgSysopRangeBans = true;
 
-$wgNamespaceProtection[NS_FILE] = array( 'translate' );
-$wgNamespaceProtection[NS_TEMPLATE] = array( 'translate' );
+$wgNamespaceProtection[NS_FILE] = [ 'translate' ];
+$wgNamespaceProtection[NS_TEMPLATE] = [ 'translate' ];
 
 # Patrolling
 $wgGroupPermissions['translator']['autopatrol'] = true;

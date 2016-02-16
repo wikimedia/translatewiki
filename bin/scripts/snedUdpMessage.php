@@ -69,7 +69,7 @@
 
 // If this is CLI mode then it should accept arguments and send data, otherwise
 // only the UdpSend function need be defined.
-if( php_sapi_name() === 'cli' && !defined( 'DISABLE_SNEDUDP_CLI' ) ) {
+if ( php_sapi_name() === 'cli' && !defined( 'DISABLE_SNEDUDP_CLI' ) ) {
 
 	/**
 	 * Take arguments from the command line and use them to send data or
@@ -115,7 +115,7 @@ To report bugs and for support please send an e-mail to:
 EOT;
 
 		// Check if the user is asking for help, trying to make a request, or doing something wrong.
-		if( array_key_exists( 'help', $arguments ) ) {
+		if ( array_key_exists( 'help', $arguments ) ) {
 
 			// User request help, return help message.
 			echo $help;
@@ -131,7 +131,7 @@ EOT;
 			$result = UdpSend( $host, $port, $data );
 
 			// Check if the quiet switch was given.
-			if( array_key_exists( 'quiet', $arguments ) ) {
+			if ( array_key_exists( 'quiet', $arguments ) ) {
 
 				// Skip past output, not wanted.
 				return;
@@ -139,7 +139,7 @@ EOT;
 			}
 
 			// Output message based upon success or failiure.
-			if( $result ) {
+			if ( $result ) {
 
 				echo 'Sent message to ';
 
@@ -174,15 +174,15 @@ EOT;
 
 		// Initialize array for holding the parsed array of arguments, with a blank
 		// first index for concatenating to.
-		$parsed = array( '' );
+		$parsed = [ '' ];
 
 		// Forget first parameter (the name of the script).
 		unset( $arguments[ 0 ] );
 
 		// Loop through the original array of arguments.
-		foreach( $arguments as $argument ) {
+		foreach ( $arguments as $argument ) {
 
-			if( strpos( $argument, '--' ) === 0 ) {
+			if ( strpos( $argument, '--' ) === 0 ) {
 
 				// The argument is a named parameter.
 
@@ -244,13 +244,13 @@ function UdpSend( $host, $port, $data ) {
 
 	// Test if the host contains a letter, to check if it is an IP address or an
 	// hostname (it is a hostname if the last character is an alphabetic one.
-	if( ctype_alpha( $host[ strlen( $host ) - 1 ] ) ) {
+	if ( ctype_alpha( $host[ strlen( $host ) - 1 ] ) ) {
 
 		// Translate the hostname into an IP address.
 		$ip = gethostbyname( $host );
 
 		// Check if an IP address was returned.
-		if( $ip === $host ) {
+		if ( $ip === $host ) {
 
 			// Unable to resolve hostname, trigger a warning.
 			trigger_error( 'Unable to resolve hostname to an IP address', E_USER_WARNING );
@@ -270,7 +270,7 @@ function UdpSend( $host, $port, $data ) {
 	// Select what domain to use, either AF_INET or AF_INET6 depending on if the
 	// IP address contains colons or periods.  Should the IP address contain
 	// neither of these then a user warning will be triggered.
-	if( strpos( $ip, ':' ) !== false ) {
+	if ( strpos( $ip, ':' ) !== false ) {
 
 		// IP address contains a colon, use ipv6.
 		$domain = AF_INET6;

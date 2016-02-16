@@ -30,12 +30,12 @@ class FUDforumMessageChecker extends MessageChecker {
 			$error = strpos( $translation, '{{PLURAL' ) !== false;
 
 			if ( $error ) {
-				$warnings[$key][] = array(
-					array( 'syntax', 'plural', $key, $code ),
+				$warnings[$key][] = [
+					[ 'syntax', 'plural', $key, $code ],
 					'translate-checks-fudforum-syntax',
 					'{PLURAL:',
 					'{{PLURAL:',
-				);
+				];
 			}
 		}
 	}

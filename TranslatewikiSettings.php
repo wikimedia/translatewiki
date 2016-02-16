@@ -6,7 +6,7 @@
 $wgMainCacheType = CACHE_MEMCACHED;
 $wgMessageCacheType = 'apc';
 
-$wgMemCachedServers = array( "127.0.0.1:11211" );
+$wgMemCachedServers = [ "127.0.0.1:11211" ];
 $wgMemCachedPersistent = true;
 
 $wgEnableSidebarCache = true;
@@ -15,7 +15,7 @@ $wgShowIPinHeader = false;
 $wgAdaptiveMessageCache = true;
 
 $wgJobRunRate = 0;
-$wgJobTypeConf['default'] = array( 'class' => 'JobQueueDB', 'order' => 'random', 'claimTTL' => 60 );
+$wgJobTypeConf['default'] = [ 'class' => 'JobQueueDB', 'order' => 'random', 'claimTTL' => 60 ];
 
 /**
  * Experimentalism
@@ -61,10 +61,10 @@ $wgGrammarForms['fi']['elative']['translatewiki.net'] = 'translatewiki.netistä'
 $wgGrammarForms['fi']['partitive']['translatewiki.net'] = 'translatewiki.netiä';
 
 // For TwnMainPage
-array_unshift( $wgFooterIcons['poweredby'], array(
+array_unshift( $wgFooterIcons['poweredby'], [
 	'url' => 'http://www.netcup.de/',
 	'alt' => 'Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement',
-) );
+] );
 
 // For Vector skin which does not support imageless icons except in the deprecated way.
 $wgFooterIcons['netcup'][] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
@@ -76,8 +76,8 @@ $wgRCMaxAge = 5 * 365 * 24 * 3600; // 5 years
 $wgShowUpdatedMarker = true;
 $wgUseRCPatrol = false;
 $wgUseNPPatrol = false;
-$wgRCLinkLimits = array( 100, 500 );
-$wgRCLinkDays = array( 1, 7, 30 );
+$wgRCLinkLimits = [ 100, 500 ];
+$wgRCLinkDays = [ 1, 7, 30 ];
 
 $wgCategoryPagingLimit = 500;
 $wgMaximumMovedPages = 300;
@@ -148,7 +148,7 @@ $wgEnableUploads = true;
 $wgAllowCopyUploads = true;
 $wgUseImageMagick = false;
 $wgUseTeX = true;
-$wgFileExtensions = array( 'png', 'gif', 'jpg', 'jpeg', 'ogg', 'pdf', 'svg' );
+$wgFileExtensions = [ 'png', 'gif', 'jpg', 'jpeg', 'ogg', 'pdf', 'svg' ];
 
 $wgSVGConverter = 'rsvg';
 $wgSVGConverters['rsvg'] = '$path/rsvg-convert -w $width -h $height $input -o $output';
@@ -165,7 +165,7 @@ define( "NS_PORTAL_TALK", 101 );
 define( "NS_TRANSLATING", 1102 );
 define( "NS_TRANSLATING_TALK", 1103 );
 
-$wgNamespacesWithSubpages = array(
+$wgNamespacesWithSubpages = [
 	NS_MAIN => true,
 	NS_TALK => true,
 	NS_USER => true,
@@ -183,7 +183,7 @@ $wgNamespacesWithSubpages = array(
 	NS_TRANSLATING => true,
 	NS_TRANSLATING_TALK => true,
 	NS_PORTAL => true,
-);
+];
 
 $wgExtraNamespaces[NS_PORTAL] = 'Portal';
 $wgExtraNamespaces[NS_PORTAL_TALK] = 'Portal_talk';
@@ -204,7 +204,7 @@ require_once "$IP/skins/MonoBook/MonoBook.php";
  */
 
 // Extensions which we don't specify any configuration
-wfLoadExtensions( array(
+wfLoadExtensions( [
 	'CharInsert',
 	'cldr',
 	'Elastica',
@@ -219,7 +219,7 @@ wfLoadExtensions( array(
 	'UserMerge',
 	'UserOptionStats',
 	'WikiEditor',
-) );
+] );
 
 $EXT = "$IP/extensions";
 require_once "$EXT/AdminLinks/AdminLinks.php";
@@ -257,7 +257,7 @@ $wgWebChatChannel = '#mediawiki-i18n';
 $wgWebChatClient = 'freenodeChat';
 
 wfLoadExtension( 'Babel' );
-$wgBabelCategoryNames = array(
+$wgBabelCategoryNames = [
 	'0' => 'User_%code%-0',
 	'1' => 'User_%code%-1',
 	'2' => 'User_%code%-2',
@@ -265,7 +265,7 @@ $wgBabelCategoryNames = array(
 	'4' => 'User_%code%-4',
 	'5' => 'User_%code%-5',
 	'N' => 'User_%code%-N'
-);
+];
 $wgBabelMainCategory = 'User_%code%';
 
 # Semantic MediaWiki (installed using composer)
@@ -279,91 +279,91 @@ require_once "$EXT/SemanticForms/SemanticForms.php";
 $sfgRedLinksCheckOnlyLocalProps = true;
 
 wfLoadExtension( 'TitleBlacklist' );
-$wgTitleBlacklistSources = array(
-	array(
+$wgTitleBlacklistSources = [
+	[
 		'type' => 'localpage',
 		'src' => 'MediaWiki:Titleblacklist'
-	)
-);
+	]
+];
 
 wfLoadExtension( 'SpamBlacklist' );
-$wgSpamBlacklistFiles = array(
+$wgSpamBlacklistFiles = [
 	"https://meta.wikimedia.org/w/index.php?title=Spam_blacklist&action=raw&sb_ver=1",
-);
+];
 $wgLogSpamBlacklistHits = true;
-$wgNoFollowDomainExceptions = array(
+$wgNoFollowDomainExceptions = [
 	'laxstrom.name',
 	'ultimategerardm.blogspot.com',
-);
+];
 
 require_once "$EXT/TwnMainPage/MainPage.php";
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/gorges-du-tarn.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:01_Gorges_du_Tarn_Roc_des_Hourtous.jpg">CC BY Myrabella</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/mabodalen.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:M%C3%A5b%C3%B8dalen,_2011_August.jpg">CC BY-SA Simo Räsänen</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/ferronor.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Ferronor_GR12U_412_Montadon_-_Potrerillos.jpg">CC BY-SA Kabelleger / David Gubler</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/alpamayo.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Alpamayo.jpg">CC-0</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/kasumi.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Imagoura_Kasumi_Coast04bs4440.jpg">CC BY 663highland</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/aaretal.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Fr%C3%BChlingslandschft_Aaretal_Schweiz.jpg">CC BY-SA Benjamin Gimmel</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/taburiente.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Caldera_de_Taburiente_La_Palma.jpg">CC BY-SA Luc Viatour</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/concert-hall.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Image-Disney_Concert_Hall_by_Carol_Highsmith_edit.jpg">CC-0 Carol M. Highsmith</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/golden-gate.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:GoldenGateBridge_BakerBeach_MC.jpg">CC BY Christian Mehlführer</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/ruhrtalbruecke.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Ruhrtalbruecke-Sonnenuntergang.jpg">CC BY-SA Tuxyso</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/holzbrucke.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:Holzbr%C3%BCcke_2011-02-10_15-15-08.JPG">CC BY-SA Roland zh</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/acueducto.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:AcueductoSegovia04.JPG">CC BY-SA Manuel González Olaechea y Franco</a>',
-);
+];
 
-$wgMainPageImages[] = array(
+$wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/turtle.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:El_Gouna_Turtle_House_R01.jpg">CC BY Marc Ryckaert</a>',
-);
+];
 
 wfLoadExtension( 'InviteSignup' );
-$wgISGroups = array( 'translator' );
+$wgISGroups = [ 'translator' ];
 
 require_once "$EXT/Echo/Echo.php";
 $wgEchoBundleEmailInterval = 14400;
@@ -411,7 +411,7 @@ $wgHooks['LanguageGetNamespaces'][] = function ( &$list ) {
 	global $wgTranslateMessageNamespaces;
 	$msgs = array_flip( $wgTranslateMessageNamespaces );
 	natcasesort( $list );
-	$basic = $extra = array();
+	$basic = $extra = [];
 	foreach ( $list as $key => $text ) {
 		if ( !isset( $msgs[$key - $key%2] ) ) {
 			$basic[$key] = $text;
@@ -424,11 +424,11 @@ $wgHooks['LanguageGetNamespaces'][] = function ( &$list ) {
 	return true;
 };
 
-$wgResourceModules['twn.jserrorlog'] = array(
+$wgResourceModules['twn.jserrorlog'] = [
 	'localBasePath' => __DIR__ . '/webfiles',
 	'remoteBasePath' => "$wgScriptPath/webfiles",
 	'scripts' => 'twn.jserrorlog.js',
-);
+];
 
 $wgHooks['BeforePageDisplay'][] = function ( $out ) {
 	$out->addModules( 'twn.jserrorlog' );

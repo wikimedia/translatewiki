@@ -7,10 +7,10 @@
 
 class WikiEduDashboardInsertablesSuggester {
 	public function getInsertables( $text ) {
-		$insertables = array();
+		$insertables = [];
 
 		// %{title}
-		$matches = array();
+		$matches = [];
 		preg_match_all( '/\%{[^}]+}|%s/', $text, $matches, PREG_SET_ORDER );
 		$new = array_map( function( $match ) {
 			return new Insertable( $match[0], $match[0] );
@@ -18,7 +18,7 @@ class WikiEduDashboardInsertablesSuggester {
 		$insertables = array_merge( $insertables, $new );
 
 		// &nbsp;
-		$matches = array();
+		$matches = [];
 		preg_match_all( '/&(?:[a-z]+|#\d+);/', $text, $matches, PREG_SET_ORDER );
 		$new = array_map( function( $match ) {
 			return new Insertable( $match[0], $match[0] );
