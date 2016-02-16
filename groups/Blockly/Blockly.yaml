@@ -11,6 +11,18 @@ TEMPLATE:
       sr-ec: sr
       sr-el: sr-latn
 
+  CHECKER:
+    class: BlocklyMessageChecker
+    checks:
+      - variablesCheck
+
+  INSERTABLES:
+    class: BlocklySuggester
+
+  AUTOLOAD:
+    BlocklyMessageChecker: Checker.php
+    BlocklySuggester: Suggester.php
+
 ---
 BASIC:
   id: out-blockly-0-all
