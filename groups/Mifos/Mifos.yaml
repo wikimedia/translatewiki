@@ -21,6 +21,18 @@ MANGLER:
   patterns:
     - "*"
 
+CHECKER:
+  class: MifosMessageChecker
+  checks:
+    - variablesCheck
+
+INSERTABLES:
+  class: MifosSuggester
+
+AUTOLOAD:
+  MifosMessageChecker: Checker.php
+  MifosSuggester: Suggester.php
+
 TAGS:
   ignored:
     - x-=23*
