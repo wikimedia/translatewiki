@@ -1,0 +1,45 @@
+# If not set, will not setup l10n-bot commit stuff for MediaWiki git extensions
+REPO_RW=yes
+
+# core
+REPO_MEDIAWIKI=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/core.git
+REPO_MEDIAWIKI_BRANCHES="master"
+REPO_MWEXTGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/extensions
+REPO_MWSKINGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/skins
+
+# mobile stuffs
+REPO_WIKIPEDIAANDROID=https://gerrit.wikimedia.org/r/apps/android/wikipedia
+REPO_WIKIPEDIAIOS=git@github.com:wikimedia/wikipedia-ios.git
+
+# other
+REPO_BLOCKLY=git@github.com:google/blockly.git #funky
+REPO_BLOCKLYGAMES=git@github.com:google/blockly-games.git #funky
+REPO_EOL=git@github.com:EOL/eol.git
+REPO_ENTRYSCAPE=git@bitbucket.org:metasolutions/entryscape-nls.git
+REPO_ETHERPADLITE=git@github.com:ether/etherpad-lite.git
+REPO_ETHERPADLITE_BRANCH="develop"
+REPO_EUROPEANA=git@github.com:europeana/Europeana1914-1918.git
+REPO_FREECOL=ssh://nikerabbit@git.code.sf.net/p/freecol/git
+REPO_FUDFORUM=svn+ssh://nikerabbit@svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
+REPO_FUEL=ssh://nikerabbit@git.fedorahosted.org/git/fuel.git #noaccess
+REPO_HUGGLE=git@github.com:huggle/huggle3-qt-lx.git
+REPO_INATURALIST=git@github.com:inaturalist/inaturalist.git
+REPO_INTDCATAP=ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/dumps/dcat
+REPO_INTUITION=git@github.com:Krinkle/intuition.git
+REPO_INTORPHANTALK=git@github.com:Krinkle/mw-tool-orphantalk.git
+REPO_INTRAUN=git@github.com:kenrick95/Raun.git
+REPO_JQUERY_ULS=git@github.com:wikimedia/jquery.uls.git
+REPO_KIWIX=git@github.com:kiwix/maintenance.git
+REPO_MANTIS=git@github.com:mantisbt/mantisbt.git #noaccess
+REPO_MATHJAX=git@github.com:mathjax/MathJax-i18n.git
+REPO_MIFOS=git@github.com:openMF/community-app.git #noaccess
+REPO_NFCRINGCONTROL=git@github.com:mclear/NFC_Ring_Control.git
+REPO_NOCC=svn+ssh://nikerabbit@svn.code.sf.net/p/nocc/code/trunk #noaccess
+REPO_OSM=ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git #funky
+REPO_PYWIKIBOT=ssh://l10n-bot@gerrit.wikimedia.org:29418/pywikibot/i18n
+REPO_VICUNA=git@github.com:yarl/vicuna.git
+REPO_WAYMARKEDTRAILSSITE=git@github.com:lonvia/waymarked-trails-site.git
+REPO_WIKIBLAME=git@github.com:FlominatorTM/wikiblame.git
+REPO_WIKIEDUDASHBOARD=git@github.com:WikiEducationFoundation/WikiEduDashboard.git
+REPO_WIKIMANIA=ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/wikimania-scholarships
+
