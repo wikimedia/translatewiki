@@ -28,8 +28,12 @@ CHECKER:
   checks:
     - INaturalistVariablesCheck
 
+INSERTABLES:
+  class: InaturalistSuggester
+
 AUTOLOAD:
   INaturalistMessageChecker: Checker.php
+  INaturalistSuggester: Suggester.php
 
 TAGS:
   optional:
