@@ -31,8 +31,12 @@ CHECKER:
     - FreeColEscapesCheck
     - FreeColVariablesCheck
 
+INSERTABLES:
+  class: FreeColSuggester
+
 AUTOLOAD:
   FreeColMessageChecker: Checker.php
+  FreeColSuggester: Suggester.php
 
 TAGS:
   optional:
