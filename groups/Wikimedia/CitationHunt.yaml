@@ -1,0 +1,28 @@
+---
+BASIC:
+  id: citationhunt
+  label: CitationHunt
+  description: "{{Special:MyLanguage/Translations:Group descriptions/citationhunt/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: citationhunt-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/citationhunt/chstrings/%CODE%.json"
+
+CHECKER:
+  class: MessageChecker
+  checks:
+    - printfCheck
+
+INSERTABLES:
+  class: CitationHuntInsertablesSuggester
+
+AUTOLOAD:
+  CitationHuntInsertablesSuggester: CitationHuntInsertablesSuggester.php
