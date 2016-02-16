@@ -2,7 +2,7 @@
 REPO_RW=yes
 
 # Fix Niklas's internal to external username
-if [ "$USER" -eq "nike" ]; then
+if [ "$USER" == "nike" ]; then
 	THISUSER="nikerabbit"
 else
 	THISUSER="$USER"
