@@ -29,7 +29,7 @@ CHECKER:
     - INaturalistVariablesCheck
 
 INSERTABLES:
-  class: InaturalistSuggester
+  class: INaturalistSuggester
 
 AUTOLOAD:
   INaturalistMessageChecker: Checker.php
