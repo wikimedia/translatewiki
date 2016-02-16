@@ -4,7 +4,7 @@
  * @author Niklas Laxström
  * @license GPL-2.0+
  */
-class INaturalistSuggester implements InsertablesSuggester {
+class MifosSuggester implements InsertablesSuggester {
 	public function getInsertables( $text ) {
 		$insertables = array();
 

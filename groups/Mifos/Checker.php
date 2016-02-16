@@ -12,7 +12,7 @@
  *
  * @ingroup MessageCheckers
  */
-class INaturalistMessageChecker extends MessageChecker {
+class MifosMessageChecker extends MessageChecker {
 	/**
 	 * Checks for missing and unknown variables in translations.
 	 *
