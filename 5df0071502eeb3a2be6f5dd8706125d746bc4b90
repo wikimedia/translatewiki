@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4ea78b8a_719b94c1",
+        "filename": "REPOCONF.nike",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-16T15:36:20Z",
+      "side": 1,
+      "message": "Updated comment.",
+      "revId": "5df0071502eeb3a2be6f5dd8706125d746bc4b90",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_31951c8a",
+        "filename": "REPOCONF.nike",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-16T15:36:20Z",
+      "side": 1,
+      "message": "Let\u0027s call a duck a duck ;).",
+      "revId": "5df0071502eeb3a2be6f5dd8706125d746bc4b90",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_b1810c51",
+        "filename": "REPOCONF.nike",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-16T15:36:20Z",
+      "side": 1,
+      "message": "Best be consistent.",
+      "revId": "5df0071502eeb3a2be6f5dd8706125d746bc4b90",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_d184c860",
+        "filename": "REPOCONF.nike",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-16T15:36:20Z",
+      "side": 1,
+      "message": "You cloned the repo, but didn\u0027t have it configured.",
+      "revId": "5df0071502eeb3a2be6f5dd8706125d746bc4b90",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_f1878464",
+        "filename": "REPOCONF.nike",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-16T15:36:20Z",
+      "side": 1,
+      "message": "This should fix your OSM funkyness.",
+      "revId": "5df0071502eeb3a2be6f5dd8706125d746bc4b90",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
