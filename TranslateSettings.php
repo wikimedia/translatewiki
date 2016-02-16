@@ -365,3 +365,8 @@ wfAddNamespace( 1264, 'EntryScape' );
 $wgCapitalLinkOverrides[NS_ENTRYSCAPE] = false;
 $wgCapitalLinkOverrides[NS_ENTRYSCAPE_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/EntryScape/EntryScape.yaml";
+
+wfAddNamespace( 1266, 'Hivejs' );
+$wgCapitalLinkOverrides[NS_HIVEJS] = false;
+$wgCapitalLinkOverrides[NS_HIVEJS_TALK] = false;
+$wgTranslateGroupFiles[] = "$GROUPS/hivejs/hivejs.yaml";

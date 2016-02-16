@@ -1,0 +1,34 @@
+{
+	"@meta": {
+		"export": "php /srv/mediawiki/targets/production/extensions/Translate/scripts/export.php"
+	},
+	"hivejs": {
+		"group": "hive*",
+		"repos": {
+			"hivejs/hive-editor-text-codemirror": {
+				"type": "git",
+				"url": "https://github.com/hivejs/hive-editor-text-codemirror.git"
+			},
+			"hivejs/hive-plugin-chat": {
+				"type": "git",
+				"url": "https://github.com/hivejs/hive-plugin-chat.git"
+			},
+			"hivejs/hive-plugin-export": {
+				"type": "git",
+				"url": "https://github.com/hivejs/hive-plugin-export.git"
+			},
+			"hivejs/hive-plugin-import": {
+				"type": "git",
+				"url": "https://github.com/hivejs/hive-plugin-import.git"
+			},
+			"hivejs/hive-plugin-presence": {
+				"type": "git",
+				"url": "https://github.com/hivejs/hive-plugin-presence.git"
+			},
+			"hivejs/hive-ui": {
+				"type": "git",
+				"url": "https://github.com/hivejs/hive-ui.git"
+			}
+		}
+	}
+}

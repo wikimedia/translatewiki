@@ -20,6 +20,17 @@ FORCELANGS="chy,cr,ki,nrm,rn,rup,rw,tum,tw" # Must not contain any of those abov
 THRESHOLD="--threshold 35"
 HOURS="--hours 200" # Somewhat over a week
 
+REPONG="
+hivejs"
+
+for i in $REPONG; do
+	if [ "$i" = "$PROJECT" ]
+	then
+		php "$DIRSCRIPT/../repong/repong.php" export "$PROJECT"
+		exit 0;
+	fi
+done
+
 if [ "$PROJECT" = "blockly" ]
 then
 	php "$EXPORTER" --target . --group=out-blockly* --lang='*' --skip en $THRESHOLD

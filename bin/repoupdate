@@ -96,6 +96,17 @@ for i in $GITCLUPDATE_GERRIT; do
 	fi
 done
 
+REPONG="
+hivejs"
+
+for i in $REPONG; do
+	if [ "$i" = "$PROJECT" ]
+	then
+		php "$DIRSCRIPT/../repong/repong.php" update "$PROJECT"
+		exit 0
+	fi
+done
+
 if [ "$PROJECT" = "blockly" ]
 then
 	doUpdate "blockly" "$CLUPDATE"
