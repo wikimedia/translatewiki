@@ -13,7 +13,6 @@ FILES:
   definitionFile: "%GROUPROOT%/codev/i18n/locale/codevtt.pot"
   codeMap:
     de:    de_DE
-    es:    es_ES
     it:    it_IT
     pt-br: pt_BR
 
