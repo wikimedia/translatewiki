@@ -20,7 +20,7 @@ class MifosMessageChecker extends MessageChecker {
 	 * @param $code \string Language code of the translations.
 	 * @param $warnings \array Array where warnings are appended to.
 	 */
-	protected function INaturalistVariablesCheck( $messages, $code, &$warnings ) {
+	protected function variablesCheck( $messages, $code, &$warnings ) {
 		return parent::parameterCheck( $messages, $code, $warnings, '/{{params\[[0-9]\]\.value}}/' );
 	}
 }
