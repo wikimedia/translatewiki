@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "4ea78b8a_3c0bb32e",
+        "filename": "groups/iNaturalist/Suggester.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-16T18:06:12Z",
+      "side": 1,
+      "message": "I followed the \"convention\" for the checker.",
+      "parentUuid": "4ea78b8a_3c53b36f",
+      "revId": "945bb1b73a2991788b4cc8164830ea97a6708542",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4ea78b8a_1cc83724",
         "filename": "groups/iNaturalist/iNaturalist.yaml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2016-02-16T17:50:22Z",
       "side": 1,
       "message": "casing",
+      "revId": "945bb1b73a2991788b4cc8164830ea97a6708542",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_f7fc540a",
+        "filename": "groups/iNaturalist/iNaturalist.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-16T18:06:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4ea78b8a_1cc83724",
       "revId": "945bb1b73a2991788b4cc8164830ea97a6708542",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
