@@ -7,6 +7,6 @@
 
 class HivejsMessageChecker extends MessageChecker {
 	protected function HivejsVariablesCheck( $messages, $code, &$warnings ) {
-		return parent::parameterCheck( $messages, $code, $warnings, '/{[a-z]+}/' );
+		return parent::parameterCheck( $messages, $code, $warnings, '/{[a-z_]+}/' );
 	}
 }
