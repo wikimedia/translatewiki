@@ -16,6 +16,24 @@
       "revId": "f53403dc2547b177f752d288ba91ec6ce9208ddc",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ea78b8a_082467bb",
+        "filename": "package.json",
+        "patchSetId": 8
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-17T20:55:40Z",
+      "side": 1,
+      "message": "Submitted as https://gerrit.wikimedia.org/r/271346",
+      "parentUuid": "4ea78b8a_fdf42bf0",
+      "revId": "f53403dc2547b177f752d288ba91ec6ce9208ddc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
