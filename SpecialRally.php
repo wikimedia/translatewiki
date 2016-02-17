@@ -5,15 +5,15 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 $wgExtensionMessagesFiles['Rally'] = __FILE__;
 
-$messages = array();
-$messages['en'] = array(
+$messages = [];
+$messages['en'] = [
 	'rally500' => '500 new messages rally',
-);
+];
 
-$aliases = array();
-$specialPageAliases['en'] = array(
-	'Rally500' => array( 'Rally500' ),
-);
+$aliases = [];
+$specialPageAliases['en'] = [
+	'Rally500' => [ 'Rally500' ],
+];
 
 $wgSpecialPages['Rally500'] = 'SpecialRally500';
 
@@ -32,7 +32,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$this->setHeaders();
 			$this->outputHeader();
 
-			$allowedGroups = array(
+			$allowedGroups = [
 				'core', // core
 				'ext-0-wikimedia', // Wikimedia extensions
 				'out-wikimedia-mobile-0-all', // Wikimedia mobile apps
@@ -46,7 +46,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 				'out-pywikipedia-0-all', // Pywikibot
 				'out-vicuna', // Vicona uploader
 				'out-wikiblame', // WikiBlame
-			);
+			];
 
 			$allowedGroups = MessageGroups::expandWildcards( '*' );
 
@@ -73,10 +73,10 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$dbr = wfGetDB( DB_SLAVE );
 			$allowed = $currentUser->isAllowed( 'translate-manage' );
 			if ( $allowed && !$par ) {
-				$products = array(
+				$products = [
 					'MediaWiki core' => 0, // 8
 					'MediaWiki extensions used by Wikimedia' => 0, // 8
-					'Wikimedia Mobile apps' => 0, //
+					'Wikimedia Mobile apps' => 0,
 					'translatewiki.net' => 0, // 1198, 8,
 					'jQuery.ULS' => 0,
 					'Kiwix' => 0,
@@ -85,28 +85,28 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 					'Pywikibot' => 0,
 					'VicuñaUploader' => 0,
 					'WikiBlame' => 0,
-				);
-				$languages = array();
-				$userLangs = array();
-				$tables = array( 'recentchanges', 'page' );
-				$fields = array(
+				];
+				$languages = [];
+				$userLangs = [];
+				$tables = [ 'recentchanges', 'page' ];
+				$fields = [
 					'rc_title',
 					'rc_namespace',
 					'rc_user_text',
 					'rc_this_oldid',
 					'page_latest'
-				);
-				$conds = array(
+				];
+				$conds = [
 					"rc_timestamp >= 20150516200000",
 					"rc_timestamp <= 20150525235959",
 					'rc_new' => 1,
 					'rc_bot' => 0,
 					'rc_namespace IN ( 8, 1198, 1206, 1238, 1240, 1244, 1248, 1252 )',
 					'rc_cur_id = page_id'
-				);
+				];
 
-				$data = array();
-				$nonlatest = array();
+				$data = [];
+				$nonlatest = [];
 				$res = $dbr->select( $tables, $fields, $conds, __METHOD__ );
 				foreach ( $res as $row ) {
 					// Strip language code suffix.
@@ -126,27 +126,27 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 							$nonlatest[$row->rc_user_text]++;
 						}
 
-						if ( in_array( $row->rc_namespace, array( 8 ) ) ) {
-							if ( in_array( $group, array( 'core' ) ) ) {
+						if ( in_array( $row->rc_namespace, [ 8 ] ) ) {
+							if ( in_array( $group, [ 'core' ] ) ) {
 								$products['MediaWiki core']++;
-							} elseif ( !in_array( $group, array( 'wiki-twn-mainpage', 'wiki-betawiki' ) ) ) {
+							} elseif ( !in_array( $group, [ 'wiki-twn-mainpage', 'wiki-betawiki' ] ) ) {
 								$products['MediaWiki extensions used by Wikimedia']++;
 							} elseif ( $group === 'out-jquery-uls' ) {
 								$products['jQuery.ULS']++;
 							} else {
 								$products['translatewiki.net']++;
 							}
-						} elseif ( in_array( $row->rc_namespace, array( 1198 ) ) ) {
+						} elseif ( in_array( $row->rc_namespace, [ 1198 ] ) ) {
 							$products['translatewiki.net']++;
-						} elseif ( in_array( $row->rc_namespace, array( 1238 ) ) ) {
+						} elseif ( in_array( $row->rc_namespace, [ 1238 ] ) ) {
 							$products['Pywikibot']++;
-						} elseif ( in_array( $row->rc_namespace, array( 1240 ) ) ) {
+						} elseif ( in_array( $row->rc_namespace, [ 1240 ] ) ) {
 							$products['Intuition']++;
-						} elseif ( in_array( $row->rc_namespace, array( 1244 ) ) ) {
+						} elseif ( in_array( $row->rc_namespace, [ 1244 ] ) ) {
 							$products['Kiwix']++;
-						} elseif ( in_array( $row->rc_namespace, array( 1248 ) ) ) {
+						} elseif ( in_array( $row->rc_namespace, [ 1248 ] ) ) {
 							$products['Huggle']++;
-						} elseif ( in_array( $row->rc_namespace, array( 1252 ) ) ) {
+						} elseif ( in_array( $row->rc_namespace, [ 1252 ] ) ) {
 							$products['VicuñaUploader']++;
 						} elseif ( $group === 'out-wikiblame' ) {
 								$products['WikiBlame']++;
@@ -182,7 +182,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 					}
 
 					$userCounts = $userLangs[$user];
-					$langCounts = array();
+					$langCounts = [];
 					foreach ( $userCounts as $langCode => $langCount ) {
 						$langCounts[] = "$langCode:$langCount";
 					}
@@ -221,9 +221,9 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 				$user = $currentUser;
 			}
 
-			$tables = array( 'recentchanges', 'page' );
-			$fields = array( 'rc_title', 'rc_namespace', 'rc_this_oldid', 'page_latest' );
-			$conds = array(
+			$tables = [ 'recentchanges', 'page' ];
+			$fields = [ 'rc_title', 'rc_namespace', 'rc_this_oldid', 'page_latest' ];
+			$conds = [
 				"rc_timestamp >= 20150516200000",
 				"rc_timestamp <= 20150525235959",
 				'rc_new' => 1,
@@ -231,7 +231,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 				'rc_namespace IN ( 8, 1198, 1206, 1238, 1240, 1244, 1248, 1252 )',
 				'rc_user' => $user->getId(),
 				'rc_cur_id = page_id',
-			);
+			];
 
 			$res = $dbr->select( $tables, $fields, $conds, __METHOD__ );
 

@@ -1,11 +1,11 @@
 <?php
 
-$wgExtensionCredits['parserhook'][] = array(
+$wgExtensionCredits['parserhook'][] = [
 	'name' => 'Translatewiki.net Magic',
 	'version' => '2014-07-14',
 	'description' => 'Implements some translatewiki.net specific magic',
 	'author' => 'Niklas Laxström',
-);
+];
 
 global $wgHooks;
 $wgHooks['MagicWordwgVariableIDs'][] = function ( &$vars ) {
@@ -14,7 +14,7 @@ $wgHooks['MagicWordwgVariableIDs'][] = function ( &$vars ) {
 };
 
 $wgHooks['LanguageGetMagic'][] = function ( &$raw ) {
-	$raw['MAG_UILANGCODEx'] = array( 1, 'UILANGCODE' );
+	$raw['MAG_UILANGCODEx'] = [ 1, 'UILANGCODE' ];
 	return true;
 };
 

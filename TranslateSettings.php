@@ -12,7 +12,7 @@ $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
 $wgTranslateDocumentationLanguageCode = 'qqq';
 $wgTranslatePHPlot = '/home/betawiki/software/phplot/phplot.php';
 $wgTranslateGroupRoot = '/resources/projects';
-$wgTranslateMessageIndex = array( 'CDBMessageIndex' );
+$wgTranslateMessageIndex = [ 'CDBMessageIndex' ];
 $wgTranslateDelayedMessageIndexRebuild = true;
 $wgTranslateDisablePreSaveTransform = true;
 $wgTranslateCheckBlacklist = "$GROUPS/check-blacklist.php";
@@ -22,32 +22,32 @@ $wgTranslatePermissionUrl = 'Special:MainPage';
 $wgTranslateUseSandbox = true;
 $wgTranslateSandboxPromotedGroup = 'translator';
 
-$lqtParams = array(
+$lqtParams = [
 	'lqt_method' => 'talkpage_new_thread',
 	'lqt_subject_field' => 'About [[%MESSAGE%]]',
-);
-$phabParams = array(
+];
+$phabParams = [
 	'title' => '[[%MESSAGE%]] i18n issue',
 	'description' => "\n----\n\n**URL**: [[https://translatewiki.net/wiki/%MESSAGE%]]",
-);
+];
 $phabUrl = 'https://phabricator.wikimedia.org/maniphest/task/create/';
-$wgTranslateSupportUrl = array(
+$wgTranslateSupportUrl = [
 	'page' => 'Support',
 	'params' => $lqtParams,
-);
+];
 
-$wgTranslateStaticTags = array(
+$wgTranslateStaticTags = [
 	"tp:mark" => 3,
 	"tp:tag" => 4,
 	"tp:transver" => 5
-);
+];
 
-$wgTranslateTranslationServices['TTMServer'] = array(
+$wgTranslateTranslationServices['TTMServer'] = [
 	'type' => 'ttmserver',
 	'class' => 'ElasticSearchTTMServer',
 	'cutoff' => 0.75,
 	'public' => true,
-);
+];
 
 $wgHooks['Translate:GettextFFS:headerFields'][] = 'efHT';
 function efHT( $specs, $group, $code ) {
@@ -99,7 +99,7 @@ $wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) 
 	$deps[] = new FileDependency( realpath( $code ) );
 };
 
-$wgHooks['TranslatePostInitGroups'][] = array( 'setupMediaWikiExtensions' );
+$wgHooks['TranslatePostInitGroups'][] = [ 'setupMediaWikiExtensions' ];
 function setupMediaWikiExtensions( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
 
@@ -112,7 +112,7 @@ function setupMediaWikiExtensions( &$list, &$deps, &$autoload ) {
 	return true;
 }
 
-$wgHooks['TranslatePostInitGroups'][] = array( 'setupMediaWikiSkins' );
+$wgHooks['TranslatePostInitGroups'][] = [ 'setupMediaWikiSkins' ];
 function setupMediaWikiSkins( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
 
@@ -128,7 +128,7 @@ function setupMediaWikiSkins( &$list, &$deps, &$autoload ) {
 	return true;
 }
 
-$wgHooks['TranslatePostInitGroups'][] = array( 'setupIntuition' );
+$wgHooks['TranslatePostInitGroups'][] = [ 'setupIntuition' ];
 function setupIntuition( &$list, &$deps, &$autoload ) {
 	global $GROUPS;
 
@@ -141,24 +141,24 @@ function setupIntuition( &$list, &$deps, &$autoload ) {
 	return true;
 }
 
-$wgTranslateAuthorBlacklist[] = array( 'black', '/^.*;.*;(Andre Engels|Gangleri|Jon Harald Søby|IAlex|M.M.S.|BotMultichill|Nike|Piivaat|Raymond|RobertL|SieBot|Siebrand|SPQRobin|Suradnik13|Verdy p)$/Ui' );
-$wgTranslateAuthorBlacklist[] = array( 'black', '/^.*;da;(Wegge|Morten)$/Ui' ); # are both credited under other names
-$wgTranslateAuthorBlacklist[] = array( 'black', '/^out-mantis.*;nl;Siebrand$/Ui' ); # credited under other name
+$wgTranslateAuthorBlacklist[] = [ 'black', '/^.*;.*;(Andre Engels|Gangleri|Jon Harald Søby|IAlex|M.M.S.|BotMultichill|Nike|Piivaat|Raymond|RobertL|SieBot|Siebrand|SPQRobin|Suradnik13|Verdy p)$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'black', '/^.*;da;(Wegge|Morten)$/Ui' ]; # are both credited under other names
+$wgTranslateAuthorBlacklist[] = [ 'black', '/^out-mantis.*;nl;Siebrand$/Ui' ]; # credited under other name
 
-$wgTranslateAuthorBlacklist[] = array( 'white', '/^.*;(qqq|fr);IAlex$/Ui' );
-$wgTranslateAuthorBlacklist[] = array( 'white', '/^.*;(qqq|sma|sv);M.M.S.$/Ui' );
-$wgTranslateAuthorBlacklist[] = array( 'white', '/^.*;(qqq|fi);Nike$/Ui' );
-$wgTranslateAuthorBlacklist[] = array( 'white', '/^.*;.*;Paucabot$/Ui' );
-$wgTranslateAuthorBlacklist[] = array( 'white', '/^.*;qqq;Raymond$/Ui' );
-$wgTranslateAuthorBlacklist[] = array( 'white', '/^out-osm.*;(qqq|de);Raymond$/Ui' );
-$wgTranslateAuthorBlacklist[] = array( 'white', '/^.*;qqq;RobertL$/Ui' );
-$wgTranslateAuthorBlacklist[] = array( 'white', '/^.*;(qqq|nl|nl-informal);Siebrand$/Ui' );
-$wgTranslateAuthorBlacklist[] = array( 'white', '/^.*;(qqq|nl|nl-informal|af|la|grc);SPQRobin$/Ui' );
-$wgTranslateAuthorBlacklist[] = array( 'white', '/^.*;(qqq|no|nn|da|sv|en-gb);Jon Harald Søby$/Ui' );
-$wgTranslateAuthorBlacklist[] = array( 'white', '/^.*;(qqq|fr);Verdy p$/Ui' );
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|fr);IAlex$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|sma|sv);M.M.S.$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|fi);Nike$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;.*;Paucabot$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;qqq;Raymond$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^out-osm.*;(qqq|de);Raymond$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;qqq;RobertL$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|nl|nl-informal);Siebrand$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|nl|nl-informal|af|la|grc);SPQRobin$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|no|nn|da|sv|en-gb);Jon Harald Søby$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|fr);Verdy p$/Ui' ];
 
-$wgTranslateBlacklist = array(
-'*' => array(
+$wgTranslateBlacklist = [
+'*' => [
 	'en' => 'English is the source language. Suggest improvements at [[Support]].',
 	'ady' => 'This language code should remain unused. Localise in ady-cyrl please.',
 	'aeb' => 'This language code should remain unused. Localise in aeb-arab please.',
@@ -204,27 +204,27 @@ $wgTranslateBlacklist = array(
 	'zh-my' => 'This language code should remain unused. Localise in zh-sg please.',
 	'zh-sg' => 'This language code should remain unused. Localise in zh-hans please.',
 	'zh-yue' => 'This language code should remain unused. Localise in yue please.',
-),
-'core' => array(
+],
+'core' => [
 	'nl-be' => 'This code is not used in MediaWiki. Use \'nl\' or \'vls\'.',
 	'es-mx' => 'This code is not used in MediaWiki. Use \'es\'.',
-),
-'ext' => array(
+],
+'ext' => [
 	'nl-be' => 'This code is not used in MediaWiki. Use \'nl\' or \'vls\'.',
 	'es-mx' => 'This code is not used in MediaWiki. Use \'es\'.',
-),
-'out' => array(
+],
+'out' => [
 	'roa-tara' => 'This code is not available for this software.',
-),
-);
+],
+];
 
 # Namespace 8
 $wgTranslateMessageNamespaces[] = NS_MEDIAWIKI;
 $wgMessagesDirs['MediawikiInstaller'] = "$IP/includes/installer/i18n";
-$wgTranslateSupportUrlNamespace[NS_MEDIAWIKI] = array(
+$wgTranslateSupportUrlNamespace[NS_MEDIAWIKI] = [
 	'url' => "$phabUrl?projects=i18n,MediaWiki-General-or-Unknown",
 	'params' => $phabParams,
-);
+];
 
 # No longer in use.
 wfAddNamespace( 1200, 'Voctrain' );
@@ -246,10 +246,10 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-ios.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/crosswatch.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CitationHunt.yaml";
 
-$wgTranslateSupportUrlNamespace[NS_WIKIMEDIA] = array(
+$wgTranslateSupportUrlNamespace[NS_WIKIMEDIA] = [
 	'url' => "$phabUrl?projects=i18n,Wikimedia-General-or-Unknown",
 	'params' => $phabParams,
-);
+];
 
 # No longer in use.
 wfAddNamespace( 1208, 'StatusNet' );
@@ -308,10 +308,10 @@ wfAddNamespace( 1238, 'Pywikibot' );
 $wgTranslateGroupFiles[] = "$GROUPS/Pywikibot/Pywikibot.yaml";
 $wgNamespaceAliases['Pywikipedia'] = 1238;
 $wgNamespaceAliases['Pywikipedia_talk'] = 1238;
-$wgTranslateSupportUrlNamespace[NS_PYWIKIBOT] = array(
+$wgTranslateSupportUrlNamespace[NS_PYWIKIBOT] = [
 	'page' => 'Translating_talk:Pywikibot',
 	'params' => $lqtParams,
-);
+];
 
 wfAddNamespace( 1240, 'Intuition' );
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/IntuitionAgg.yaml";
@@ -321,10 +321,10 @@ $wgTranslateGroupFiles[] = "$GROUPS/Intuition/raun.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/refill.yaml";
 $wgNamespaceAliases['Toolserver'] = 1240;
 $wgNamespaceAliases['Toolserver_talk'] = 1240;
-$wgTranslateSupportUrlNamespace[NS_INTUITION] = array(
+$wgTranslateSupportUrlNamespace[NS_INTUITION] = [
 	'url' => "$phabUrl?projects=i18n,Tool-Labs-tools-Other",
 	'params' => $phabParams,
-);
+];
 
 wfAddNamespace( 1242, 'EOL' );
 $wgTranslateGroupFiles[] = "$GROUPS/EOL/EOL.yaml";
@@ -352,10 +352,10 @@ $wgTranslateGroupFiles[] = "$GROUPS/Blockly/Blockly.yaml";
 
 wfAddNamespace( 1258, 'MathJax' );
 $wgTranslateGroupFiles[] = "$GROUPS/MathJax/MathJax.yaml";
-$wgTranslateSupportUrlNamespace[NS_MATHJAX] = array(
+$wgTranslateSupportUrlNamespace[NS_MATHJAX] = [
 	'page' => 'Translating_talk:MathJax',
 	'params' => $lqtParams,
-);
+];
 
 wfAddNamespace( 1260, 'NFCRingControl' );
 $wgTranslateGroupFiles[] = "$GROUPS/NFCRingControl/NFCRingControl.yaml";

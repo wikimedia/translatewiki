@@ -26,7 +26,7 @@ class MediaWikiTopMessageGroup extends MessageGroupOld {
 	}
 
 	public function load( $code ) {
-		return array();
+		return [];
 	}
 
 	public function getParentGroup() {
@@ -57,7 +57,7 @@ class MediaWikiTopMessageGroup extends MessageGroupOld {
 		$parent = $this->getParentGroup();
 		$sourceLanguage = $parent->getSourceLanguage();
 
-		$defs = array();
+		$defs = [];
 		foreach ( $this->getKeys() as $key ) {
 			$defs[$key] = $parent->getMessage( $key, $sourceLanguage );
 		}

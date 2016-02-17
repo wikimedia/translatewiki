@@ -4,7 +4,7 @@
  */
 class CrosswatchInsertablesSuggester {
 	public function getInsertables( $text ) {
-		$matches = array();
+		$matches = [];
 		// <user name={{title}}>, <user>, </a>, {{number}}
 		preg_match_all( '/<\/?[a-zA-Z\=\{\}\s_\|]+>|{{[a-zA-Z_\|]+}}/', $text, $matches, PREG_SET_ORDER );
 		$insertables = array_map( function( $match ) {

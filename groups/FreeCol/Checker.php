@@ -44,12 +44,12 @@ class FreeColMessageChecker extends MessageChecker {
 			$subcheck = 'invalid';
 			$params = $transVars[0];
 			if ( count( $params ) ) {
-				$warnings[$key][] = array(
-					array( 'escape', $subcheck, $key, $code ),
+				$warnings[$key][] = [
+					[ 'escape', $subcheck, $key, $code ],
 					'translate-checks-escape',
-					array( 'PARAMS', $params ),
-					array( 'COUNT', count( $params ) ),
-				);
+					[ 'PARAMS', $params ],
+					[ 'COUNT', count( $params ) ],
+				];
 			}
 		}
 	}

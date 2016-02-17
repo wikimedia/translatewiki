@@ -6,10 +6,10 @@
  */
 class MifosSuggester implements InsertablesSuggester {
 	public function getInsertables( $text ) {
-		$insertables = array();
+		$insertables = [];
 
 		// Variables of type {{params[0].value}}
-		$matches = array();
+		$matches = [];
 		preg_match_all( '/{{params\[[0-9]\]\.value}}/', $text, $matches, PREG_SET_ORDER );
 		$new = array_map( function( $match ) {
 			return new Insertable( $match[0], $match[0] );
