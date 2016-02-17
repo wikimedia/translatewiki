@@ -2763,6 +2763,9 @@ ignored = wikimedia-sidebar
 
 # Wikimedia Overrides No Translate // Per name: no translate
 
+Wikimedia Page View Info
+descmsg = wmpvi-desc
+
 # Undeployed on WMF per https://gerrit.wikimedia.org/r/#/c/149785/
 # Wikimedia Shop Link
 
