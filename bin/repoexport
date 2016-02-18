@@ -35,7 +35,7 @@ then
 
 elif [ "$PROJECT" = "crosswatch" ]
 then
-	php "$EXPORTER" --target . --group=out-crosswatch --lang='*' --skip en $THRESHOLD
+	php "$EXPORTER" --target . --group=crosswatch --lang='*' --skip en $THRESHOLD
 
 elif [ "$PROJECT" = "entryscape" ]
 then
