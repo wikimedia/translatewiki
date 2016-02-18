@@ -48,8 +48,9 @@ ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 Nostalgia
 optional = nostalgia.css, nostalgia.js
 
-Slate
-optional = slate.css, slate.js
+# Repo is read only
+# Slate
+# optional = slate.css, slate.js
 
 Splash
 ignored = site-banner, global-links-menu, content-footer
