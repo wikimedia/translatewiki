@@ -54,7 +54,6 @@ else CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-git-repo";
 fi
 
 GITCLUPDATE="\
-crosswatch \
 entryscape \
 eol \
 europeana \
@@ -74,7 +73,6 @@ vicuna \
 waymarked-trails-site \
 wikiblame \
 wikiedudashboard \
-wikipedia-android \
 wikipedia-ios"
 
 for i in $GITCLUPDATE; do
@@ -85,9 +83,11 @@ for i in $GITCLUPDATE; do
 done
 
 GITCLUPDATE_GERRIT="\
+crosswatch \
 int-dcatap \
 pywikibot \
-wikimania"
+wikimania \
+wikipedia-android"
 
 for i in $GITCLUPDATE_GERRIT; do
 	if [ "$i" = "$PROJECT" ]
