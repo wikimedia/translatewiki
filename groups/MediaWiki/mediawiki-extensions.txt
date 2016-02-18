@@ -687,6 +687,8 @@ optional = recaptcha-desc
 ConfirmEdit ReCaptcha NoCaptcha
 file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/%CODE%.json
 
+# Congress Lookup # US centric
+
 Contact Page
 aliasfile = ContactPage/ContactPage.alias.php
 
