@@ -21,6 +21,7 @@ REPO_WIKIPEDIAIOS=git@github.com:wikimedia/wikipedia-ios.git
 # other
 REPO_BLOCKLY=git@github.com:google/blockly.git
 REPO_BLOCKLYGAMES=git@github.com:google/blockly-games.git
+REPO_CROSSWATCH=ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/crosswatch
 REPO_EOL=git@github.com:EOL/eol.git
 REPO_ENTRYSCAPE=git@bitbucket.org:metasolutions/entryscape-nls.git
 REPO_ETHERPADLITE=git@github.com:ether/etherpad-lite.git
