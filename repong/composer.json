@@ -1,5 +1,5 @@
 {
-    "require": {
-        "symfony/process": "^3.0"
-    }
+	"require": {
+		"symfony/process": "^3.0"
+	}
 }
