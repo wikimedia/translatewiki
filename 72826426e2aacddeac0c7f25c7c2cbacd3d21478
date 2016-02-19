@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ea41786_37b4a0e4",
+        "filename": "bin/autosync.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-02-19T21:04:11Z",
+      "side": 1,
+      "message": "Use something like this instead?\n\n echo \"freecol hivejs\" |\n   xargs -n1 -P2 repo update\n\nThis will run two simultaneous \"repo updates\", and no wait needed.",
+      "revId": "72826426e2aacddeac0c7f25c7c2cbacd3d21478",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
