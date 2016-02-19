@@ -20,8 +20,12 @@ CHECKER:
     - FUDforumLongVariablesCheck
     - braceBalanceCheck
 
+INSERTABLES:
+  class: HuggleSuggester
+
 AUTOLOAD:
   FUDforumMessageChecker: Checker.php
+  FudForumSuggester: Suggester.php
 
 TAGS:
   optional:
