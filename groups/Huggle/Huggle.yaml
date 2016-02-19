@@ -15,3 +15,14 @@ FILES:
     pt-br: pt-BR
     zh-hans: zh
     cs: cz
+
+  CHECKER:
+    class: MediaWikiMessageChecker
+    checks:
+      - wikiParameterCheck
+
+INSERTABLES:
+  class: HuggleSuggester
+
+AUTOLOAD:
+  HuggleSuggester: Suggester.php
