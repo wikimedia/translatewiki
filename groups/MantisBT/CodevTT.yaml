@@ -12,9 +12,23 @@ FILES:
   sourcePattern: "%GROUPROOT%/codev/i18n/locale/%CODE%/LC_MESSAGES/codev.po"
   definitionFile: "%GROUPROOT%/codev/i18n/locale/codevtt.pot"
   codeMap:
-    de:    de_DE
-    it:    it_IT
+    cs: cs_CZ
+    de: de_DE
+    en-gb: en_GB
+    es: es_ES
+    fr: fr_FR
+    it: it_IT
+    ja: ja_JP
+    nb: nb_NO
+    nl: nl_NL
+    nn: nn_NO
+    pl: pl_PL
     pt-br: pt_BR
+    pt: pt_PT
+    sv: sv_SE
+    vi: vi_VN
+    zh-hans: zh_CN
+    zh-hant: zh_TW
 
 MANGLER:
   class: StringMatcher
