@@ -31,6 +31,12 @@ TEMPLATE:
     checks:
       - printfCheck
 
+  INSERTABLES:
+    class: IhrisSuggester
+
+  AUTOLOAD:
+    IhrisSuggester: Suggester.php
+
 ---
 BASIC:
   id: out-ihris-manage-acci

@@ -29,6 +29,13 @@ TEMPLATE:
     class: MessageChecker
     checks:
       - printfCheck
+
+  INSERTABLES:
+    class: IhrisSuggester
+
+  AUTOLOAD:
+    IhrisSuggester: Suggester.php
+
 ---
 BASIC:
   id: out-ihris-train-ali
