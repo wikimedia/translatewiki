@@ -2,3 +2,4 @@
 * * * * * <%= @user %> nice php /srv/mediawiki/targets/production/maintenance/runJobs.php --maxtime=50 --procs=1 --memory-limit=250M >> /www/translatewiki.net/logs/jobqueue 2> /dev/null
 @weekly www-data find /www/translatewiki.net/docroot/images/thumb/ -name "*.png" -type f -print0 | nice xargs -0 -P4 -I{} optipng -o7 {} 1> /dev/null
 @weekly <%= @user %> nice php /srv/mediawiki/targets/production/maintenance/generateSitemap.php --fspath /www/translatewiki.net/docroot/sitemap/ --skip-redirects --urlpath https://translatewiki.net/sitemap/
+48 6,10,16,20 * * * <%= @user %> /home/betawiki/config/bin/autosync.sh > /dev/null
