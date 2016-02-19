@@ -16,7 +16,7 @@
 		"repos": {
 			"codev": {
 				"type": "git",
-				"url": "git@github.com:lbayle/codev.git"
+				"url": "git@github.com:mantisbt-plugins/codev.git"
 			}
 		}
 	},
