@@ -2768,6 +2768,9 @@ ignored = wikimedia-sidebar
 
 # Wikimedia Overrides No Translate // Per name: no translate
 
+Wikimedia Project Names
+file = WikimediaMessages/i18n/wikimediaprojectnames/%CODE%.json
+
 Wikimedia Page View Info
 descmsg = wmpvi-desc
 optional = wmpvi-range
