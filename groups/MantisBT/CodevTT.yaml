@@ -5,6 +5,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/codev/en}}"
   namespace: NS_MANTIS
   class: FileBasedMessageGroup
+  codeBrowser: "https://github.com/mantisbt-plugins/codev/blob/master/%FILE%#L%LINE%"
 
 FILES:
   class: GettextFFS
