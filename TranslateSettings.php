@@ -30,7 +30,7 @@ $phabParams = [
 	'title' => '[[%MESSAGE%]] i18n issue',
 	'description' => "\n----\n\n**URL**: [[https://translatewiki.net/wiki/%MESSAGE%]]",
 ];
-$phabUrl = 'https://phabricator.wikimedia.org/maniphest/task/create/';
+$phabUrl = 'https://phabricator.wikimedia.org/maniphest/task/edit/form/1/';
 $wgTranslateSupportUrl = [
 	'page' => 'Support',
 	'params' => $lqtParams,
