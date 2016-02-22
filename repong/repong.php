@@ -27,6 +27,7 @@ class RepoNg {
 
 			$process = new Process( $command );
 			$process->mustRun();
+			$process->setTimeout( 300 );
 			print $process->getOutput();
 		}
 	}
@@ -46,6 +47,7 @@ class RepoNg {
 
 		$process = new Process( $command );
 		$process->mustRun();
+		$process->setTimeout( 120 );
 		print $process->getOutput();
 	}
 
@@ -64,6 +66,7 @@ class RepoNg {
 
 			$process = new Process( $command );
 			$process->mustRun();
+			$process->setTimeout( 120 );
 			print $process->getOutput();
 		}
 	}
