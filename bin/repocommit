@@ -37,7 +37,6 @@ mergeL10n-bot() {
 
 # TODO: Move to separate file?
 GITPROJECTS="\
-blockly \
 entryscape \
 eol \
 europeana \
@@ -64,11 +63,6 @@ for i in $GITPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
 	then
 		gitCommit "$DIR/$PROJECT"
-
-		if [ "$PROJECT" = "blockly" ]
-		then
-			gitCommit "$DIR/blockly-games"
-		fi
 
 		if [ "$PROJECT" = "osm" ]
 		then

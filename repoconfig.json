@@ -2,6 +2,19 @@
 	"@meta": {
 		"export": "php /srv/mediawiki/targets/production/extensions/Translate/scripts/export.php"
 	},
+	"blockly": {
+		"groups": "out-blockly*",
+		"repos": {
+			"blockly": {
+				"type": "git",
+				"url": "git://github.com/google/blockly.git"
+			},
+			"blockly-games": {
+				"type": "git",
+				"url": "git://github.com/google/blockly-games.git"
+			}
+		}
+	},
 	"citationhunt": {
 		"group": "citationhunt",
 		"repos": {
