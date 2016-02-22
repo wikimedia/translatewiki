@@ -196,8 +196,7 @@ $wgContentNamespaces[] = NS_TRANSLATING;
 /**
  * Skins
  */
-require_once "$IP/skins/Vector/Vector.php";
-require_once "$IP/skins/MonoBook/MonoBook.php";
+wfLoadSkins( [ 'Vector', 'MonoBook' ] );
 
 /**
  * Extensions
@@ -209,12 +208,13 @@ wfLoadExtensions( [
 	'cldr',
 	'Elastica',
 	'Gadgets',
+	'I18nTags',
 	'Interwiki',
 	'Nuke',
-	'SyntaxHighlight_GeSHi',
-	'Thanks',
 	'Renameuser',
 	'ReplaceText',
+	'SyntaxHighlight_GeSHi',
+	'Thanks',
 	'UniversalLanguageSelector',
 	'UserMerge',
 	'UserOptionStats',
@@ -235,7 +235,6 @@ require_once "$EXT/CirrusSearch/CirrusSearch.php";
 $wgSearchType = 'CirrusSearch';
 $wgAdvancedSearchHighlighting = true;
 
-require_once "$EXT/I18nTags/I18nTags.php";
 require_once "$EXT/Translate/Translate.php";
 require_once __DIR__ . "/TranslateSettings.php";
 require_once __DIR__ . "/LanguageSettings.php";
@@ -296,7 +295,7 @@ $wgNoFollowDomainExceptions = [
 	'ultimategerardm.blogspot.com',
 ];
 
-require_once "$EXT/TwnMainPage/MainPage.php";
+wfLoadExtension( 'TwnMainPage' );
 $wgMainPageImages[] = [
 	'url' => '//translatewiki.net/static/mainpage/gorges-du-tarn.jpg',
 	'attribution' => '<a href="//commons.wikimedia.org/wiki/File:01_Gorges_du_Tarn_Roc_des_Hourtous.jpg">CC BY Myrabella</a>',
