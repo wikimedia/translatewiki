@@ -33,6 +33,15 @@
 			}
 		}
 	},
+	"entryscape": {
+		"group": "entryscape-*",
+		"repos": {
+			"entryscape": {
+				"type": "git",
+				"url": "https://bitbucket.org/metasolutions/entryscape.git"
+			}
+		}
+	},
 	"hivejs": {
 		"group": "hive*",
 		"repos": {
