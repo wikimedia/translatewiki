@@ -37,7 +37,6 @@ mergeL10n-bot() {
 
 # TODO: Move to separate file?
 GITPROJECTS="\
-entryscape \
 eol \
 europeana \
 freecol \
