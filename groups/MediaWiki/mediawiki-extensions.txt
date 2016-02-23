@@ -1828,8 +1828,9 @@ aliasfile = Persona/Persona.i18n.alias.php
 
 PGF TikZ
 
-Phalanx
-aliasfile = Phalanx/Phalanx.alias.php
+# Abandoned: https://phabricator.wikimedia.org/T70974#2055323
+#Phalanx
+#aliasfile = Phalanx/Phalanx.alias.php
 
 PHP Excel
 
