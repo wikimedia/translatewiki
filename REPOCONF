@@ -18,7 +18,6 @@ REPO_HUGGLE=https://github.com/huggle/huggle3-qt-lx.git
 REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics
 REPO_IHRIS_BRANCH="4.2-dev"
 REPO_IHRIS_MODULES="i2ce ihris-common ihris-manage ihris-qualify ihris-train"
-REPO_INATURALIST=git://github.com/inaturalist/inaturalist.git
 REPO_INTUITION=git://github.com/Krinkle/intuition.git
 REPO_INTDCATAP=https://gerrit.wikimedia.org/r/operations/dumps/dcat
 REPO_INTORPHANTALK=git://github.com/Krinkle/mw-tool-orphantalk.git

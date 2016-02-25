@@ -70,5 +70,15 @@
 				"url": "https://github.com/hivejs/hive-ui.git"
 			}
 		}
+	},
+	"inaturalist": {
+		"group": "out-inaturalist",
+		"repos": {
+			"inaturalist": {
+				"type": "git",
+				"branch": "i18n",
+				"url": "git://github.com/inaturalist/inaturalist.git"
+			}
+		}
 	}
 }
