@@ -29,6 +29,17 @@ class wiki ($config, $user) {
     content => template('wiki/wikistats.erb'),
   }
 
+  file { '/etc/init/mw-jobrunner.conf':
+    source  => 'puppet:///modules/wiki/upstart',
+  }
+
+  service { 'mw-jobrunner':
+    ensure   => running,
+    enable   => true,
+    provider => upstart,
+    require  => File['/etc/init/mw-jobrunner.conf'],
+  }
+
   package { [
     # irc bots
     'libpoe-component-irc-perl',
