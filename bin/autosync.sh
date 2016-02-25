@@ -1,7 +1,10 @@
 #!/bin/sh
 
-echo blockly citationhunt codev freecol hivejs | \
-	xargs -n1 -P2 /home/betawiki/config/bin/repo update
+DIRSCRIPT="`dirname \"$0\"`"
+DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
+
+cat "$DIRSCRIPT/EXTERNAL-PROJECTS" | xargs -n1 -P2 "$DIRSCRIPT/repo" update
+
 php /srv/mediawiki/targets/production/extensions/Translate/scripts/processMessageChanges.php \
-	--safe-import --group=out-blockly*,citationhunt,codev,out-freecol,hivejs* \
-	| xargs -l /home/betawiki/config/bin/udpcast
+	--safe-import --group=* --skipgroup=ext-*,core,mediawiki* \
+	| xargs -l "$DIRSCRIPT/udpcast"
