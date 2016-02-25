@@ -3,7 +3,7 @@
 		"export": "php /srv/mediawiki/targets/production/extensions/Translate/scripts/export.php"
 	},
 	"blockly": {
-		"groups": "out-blockly*",
+		"group": "out-blockly*",
 		"repos": {
 			"blockly": {
 				"type": "git",
