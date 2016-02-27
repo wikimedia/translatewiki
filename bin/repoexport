@@ -68,11 +68,6 @@ elif [ "$PROJECT" = "ihris" ]
 then
 	php "$EXPORTER" --target . --group=out-ihris* --lang='*' --skip en,qqq $THRESHOLD --ppgettext=/resources/projects
 
-elif [ "$PROJECT" = "inaturalist" ]
-then
-	php "$EXPORTER" --target . --group=out-inaturalist --lang='*' --skip en $THRESHOLD
-	php "$EXPORTER" --target . --group=out-inaturalist --lang qqq
-
 elif [ "$PROJECT" = "intuition" ]
 then
 	php "$EXPORTER" --target . --group=tsint* --lang='*' --skip "$SKIPLANGS"

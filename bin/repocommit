@@ -122,10 +122,6 @@ then
 		bzr commit -m "$COMMITMSG"
 	done
 
-elif [ "$PROJECT" = "inaturalist" ]
-then
-	gitCommit "$DIR/$PROJECT" i18n
-
 elif [ "$PROJECT" = "mediawiki" ]
 then
 	if [ -z "$REPO_MEDIAWIKI_BRANCHES" ]

@@ -122,10 +122,6 @@ then
 		cd ..
 	done
 
-elif [ "$PROJECT" = "inaturalist" ]
-then
-	doUpdate "$PROJECT" "$CLUPDATE" i18n
-
 elif [ "$PROJECT" = "mifos" ]
 then
 	doUpdate "$PROJECT" "$CLUPDATE" develop

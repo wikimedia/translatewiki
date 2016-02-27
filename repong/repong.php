@@ -19,7 +19,8 @@ class RepoNg {
 
 		foreach ( $this->config['repos'] as $name => $repo ) {
 			if ( $repo['type'] === 'git' ) {
-				$command = "$bindir/clupdate-git-repo '{$repo['url']}' '$base/$name'";
+				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
+				$command = "$bindir/clupdate-git-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} else {
 				throw new RuntimeException( 'Unknown repo rype' );
 			}
@@ -37,10 +38,12 @@ class RepoNg {
 		$exporter = $this->meta['export'];
 
 		$group = $this->config['group'];
+
 		$lang = '*';
-		$skip = 'en';
+		$skip = 'en,qqq';
 		$threshold = '35';
 
+		// First normal export
 		$command = "$exporter --group='$group' --lang='$lang' --skip='$skip' " .
 			"--threshold='$threshold' --target='$base'";
 		echo "$command\n";
@@ -48,6 +51,15 @@ class RepoNg {
 		$process = new Process( $command );
 		$process->mustRun();
 		$process->setTimeout( 120 );
+		print $process->getOutput();
+
+		// Then message documentation
+		$command = "$exporter --group='$group' --lang=qqq --target='$base'";
+		echo "$command\n";
+
+		$process = new Process( $command );
+		$process->mustRun();
+		$process->setTimeout( 30 );
 		print $process->getOutput();
 	}
 
@@ -58,7 +70,10 @@ class RepoNg {
 		foreach ( $this->config['repos'] as $name => $repo ) {
 			if ( $repo['type'] === 'git' ) {
 				$dir = "$base/$name";
-				$command = "cd $dir; git add .; git commit -m '$message' || :; git push origin master";
+				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
+				$command = "cd $dir; git add .; " .
+					"git commit -m '$message' || :; " .
+					"git push origin '$branch'";
 			} else {
 				throw new RuntimeException( "Unknown repo type" );
 			}
