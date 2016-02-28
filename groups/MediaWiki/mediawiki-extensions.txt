@@ -1331,7 +1331,7 @@ Life Web
 Lightweight RDFa
 
 Lingo
-magicfile = Lingo/Lingo.i18n.magic.php
+magicfile = Lingo/src/Lingo.i18n.magic.php
 
 Link Filter
 optional = linkfilter-url
