@@ -893,6 +893,7 @@ optional = notification-body-edit-user-talk-with-section, notification-body-reve
 optional = echo-foreign-wiki-lang
 ignored = echo-email-batch-separator, notification-welcome-link, notification-body-mention
 ignored = notification-body-emailuser, notification-body-user-rights
+ignored = notification-body-foreign
 
 # Incomplete message documentation file - 2014-11-20
 #Edit Account
