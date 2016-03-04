@@ -80,5 +80,14 @@
 				"url": "git@github.com:inaturalist/inaturalist.git"
 			}
 		}
+	},
+	"pageviews": {
+		"group": "pageviews",
+		"repos": {
+			"pageviews": {
+				"type": "git",
+				"url": "git@github.com:MusikAnimal/pageviews.git"
+			}
+		}
 	}
 }
