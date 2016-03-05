@@ -20,7 +20,7 @@ ignored=accountinfo-none
 
 Action Edit Submit
 
-# Active Abstract : No real extension. Plugin for dumpBackup.php
+Active Abstract
 
 Activity Monitor
 aliasfile = ActivityMonitor/ActivityMonitor.i18n.alias.php
