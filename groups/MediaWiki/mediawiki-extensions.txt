@@ -2605,6 +2605,8 @@ optional = group-forumadmin.css, group-forumadmin.js
 # Wiki Grok
 # ignored = wikigrok-submission-summary
 
+# Wiki Labels // 2016-03-06: Stil extension boilerplate
+
 Wiki Lexical Data
 file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
 aliasfile = WikiLexicalData/WikiLexicalData.i18n.alias.php
@@ -2665,6 +2667,8 @@ ignored = wikibase-shortcopyrightwarning-version, wikibase-entitytermsview-entit
 
 # Real extension?
 # Wikibase JavaScript Api
+
+Wikibase Media Info
 
 Wikibase Query
 aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
