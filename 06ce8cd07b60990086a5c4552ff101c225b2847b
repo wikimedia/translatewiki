@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0e2f53b6_b6e8b2b0",
+        "filename": "groups/Wikimedia/Pageviews.yaml",
+        "patchSetId": 6
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-03-07T15:56:01Z",
+      "side": 1,
+      "message": "Thanks :).",
+      "revId": "06ce8cd07b60990086a5c4552ff101c225b2847b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
