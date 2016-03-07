@@ -1676,6 +1676,8 @@ ORES
 ignored = ores-reverted-letter
 optional = prefs-ores, ores-beta-feature-message
 
+Page Assessments
+
 Page Creation Notif
 descmsg = page-creation-notif-desc
 
