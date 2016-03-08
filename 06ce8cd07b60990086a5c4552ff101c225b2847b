@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "0e2f53b6_fe104506",
+        "filename": "groups/Wikimedia/Pageviews.yaml",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2016-03-08T16:27:51Z",
+      "side": 1,
+      "message": "Yes, Niklas said it should be in the Wilimedia namespace since it\u0027s related to Wikimedia projects.",
+      "parentUuid": "0e2f53b6_6694ad8e",
+      "revId": "06ce8cd07b60990086a5c4552ff101c225b2847b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0e2f53b6_b6e8b2b0",
         "filename": "groups/Wikimedia/Pageviews.yaml",
         "patchSetId": 6
@@ -53,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "0e2f53b6_7efc35b2",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 6
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2016-03-08T16:27:51Z",
+      "side": 1,
+      "message": "That\u0027s what I thought too, but Niklas says he\u0027s trying to deprecate that convention.",
+      "parentUuid": "0e2f53b6_4691a99b",
+      "revId": "06ce8cd07b60990086a5c4552ff101c225b2847b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0e2f53b6_a6ed1525",
         "filename": "repoconfig.json",
         "patchSetId": 6
@@ -64,6 +100,24 @@
       "writtenOn": "2016-03-08T12:01:12Z",
       "side": 1,
       "message": "I am pretty sure this should be \"out-pageviews\"",
+      "revId": "06ce8cd07b60990086a5c4552ff101c225b2847b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e2f53b6_ded74127",
+        "filename": "repoconfig.json",
+        "patchSetId": 6
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2016-03-08T16:27:51Z",
+      "side": 1,
+      "message": "See previous comment.",
+      "parentUuid": "0e2f53b6_a6ed1525",
       "revId": "06ce8cd07b60990086a5c4552ff101c225b2847b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
