@@ -1,0 +1,26 @@
+BASIC:
+  id: out-pageviews
+  label: Pageviews Analysis
+  icon: wiki://Pageviews Analysis.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/pageviews/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: pageviews-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/pageviews/messages/%CODE%.json"
+
+CHECKER:
+  class: MediaWikiMessageChecker
+  checks:
+    - wikiParameterCheck
+    - braceBalanceCheck
+
+INSERTABLES:
+  class: MediaWikiInsertablesSuggester
