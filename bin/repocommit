@@ -55,8 +55,7 @@ osm \
 vicuna \
 waymarked-trails-site \
 wikiblame \
-wikiedudashboard \
-wikipedia-ios"
+wikiedudashboard"
 
 for i in $GITPROJECTS; do
 	if [ "$i" = "$PROJECT" ]
@@ -77,8 +76,7 @@ GERRITPROJECTS="\
 crosswatch \
 int-dcatap \
 pywikibot \
-wikimania \
-wikipedia-android"
+wikimania"
 
 for i in $GERRITPROJECTS; do
 	if [ "$i" = "$PROJECT" ]

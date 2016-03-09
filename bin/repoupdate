@@ -63,8 +63,7 @@ nfcring-control \
 vicuna \
 waymarked-trails-site \
 wikiblame \
-wikiedudashboard \
-wikipedia-ios"
+wikiedudashboard"
 
 for i in $GITCLUPDATE; do
 	if [ "$i" = "$PROJECT" ]
@@ -77,8 +76,7 @@ GITCLUPDATE_GERRIT="\
 crosswatch \
 int-dcatap \
 pywikibot \
-wikimania \
-wikipedia-android"
+wikimania"
 
 for i in $GITCLUPDATE_GERRIT; do
 	if [ "$i" = "$PROJECT" ]

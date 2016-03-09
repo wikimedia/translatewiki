@@ -102,5 +102,24 @@
 				"url": "git@github.com:wiki-ai/wikilabels-wikimedia-config.git"
 			}
 		}
+	},
+	"wikipedia-android": {
+		"group": "out-wikimedia-mobile-wikipedia-android-*",
+		"repos": {
+			"wikipedia-android": {
+				"type": "git",
+				"url": "https://phabricator.wikimedia.org/diffusion/APAW"
+			}
+		}
+	},
+	"wikipedia-ios": {
+		"group": "out-wikimedia-mobile-wikipedia-ios",
+		"repos": {
+			"wikipedia-ios": {
+				"type": "git",
+				"branch": "develop",
+				"url": "git://github.com/wikimedia/wikipedia-ios.git"
+			}
+		}
 	}
 }

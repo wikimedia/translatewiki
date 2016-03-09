@@ -38,5 +38,3 @@ REPO_WAYMARKEDTRAILSSITE=git://github.com/lonvia/waymarked-trails-site.git
 REPO_WIKIBLAME=git://github.com/FlominatorTM/wikiblame.git
 REPO_WIKIEDUDASHBOARD=git://github.com/WikiEducationFoundation/WikiEduDashboard.git
 REPO_WIKIMANIA=https://gerrit.wikimedia.org/r/wikimedia/wikimania-scholarships
-REPO_WIKIPEDIAANDROID=https://gerrit.wikimedia.org/r/apps/android/wikipedia
-REPO_WIKIPEDIAIOS=git://github.com/wikimedia/wikipedia-ios.git

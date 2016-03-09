@@ -14,10 +14,6 @@ REPO_MEDIAWIKI_BRANCHES="master"
 REPO_MWEXTGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/extensions
 REPO_MWSKINGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/skins
 
-# mobile stuffs
-REPO_WIKIPEDIAANDROID=ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/wikipedia
-REPO_WIKIPEDIAIOS=git@github.com:wikimedia/wikipedia-ios.git
-
 # other
 REPO_CROSSWATCH=ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/crosswatch
 REPO_EOL=git@github.com:EOL/eol.git
