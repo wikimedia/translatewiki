@@ -603,6 +603,8 @@ ignored = code-rev-comment-preview-accesskey, code-rev-submit-accesskey, code-re
 ignored = code-rev-id, code-rev-next-accesskey
 optional = group-svnadmins.css, group-svnadmins.js
 
+# Collaboration Kit // 2016-03-08: Boilerplate only
+
 Collapsible Vector
 
 Collection
@@ -1072,6 +1074,8 @@ descmsg = flvhandler_desc
 
 Force Preview
 
+# Form Preload Post Cache // no i18n file
+
 Formel Applet
 
 Foxway
@@ -1303,7 +1307,9 @@ optional = jsbreadcrumbs-separator
 Json Config
 
 Kartographer
-optional = visualeditor-mwmapsdialog-geojson
+optional = visualeditor-mwmapsdialog-geojson, kartographer-coord-combined, kartographer-coord-dms
+optional = kartographer-coord-lat-positive, kartographer-coord-lat-negative
+optional = kartographer-coord-lon-positive, kartographer-coord-lon-negative
 
 Labeled Section Transclusion
 descmsg = lst-desc
@@ -1823,6 +1829,8 @@ ignored = pdf_size_default, pdf_size_options
 Pdf Handler
 descmsg = pdf-desc
 
+# Performance Inspector // 2016-03-08: Boilerplate only
+
 Petition
 aliasfile = Petition/Petition.alias.php
 
@@ -2246,6 +2254,8 @@ Special 404
 aliasfile = Special404/Special404.alias.php
 
 Spelling Api
+
+# Spelling Dictionary // 2016-03-08: Inconsistent/no message prefix
 
 Sphinx Search
 
