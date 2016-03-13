@@ -671,6 +671,7 @@ Confirm Edit
 file = ConfirmEdit/i18n/%CODE%.json
 aliasfile = ConfirmEdit/ConfirmEdit.alias.php
 descmsg = captcha-desc
+ignored = captcha-ip-whitelist
 
 ConfirmEdit Fancy Captcha
 file = ConfirmEdit/FancyCaptcha/i18n/%CODE%.json
@@ -2252,6 +2253,8 @@ Spark
 
 Special 404
 aliasfile = Special404/Special404.alias.php
+
+# Special Namespaces // No i18n in JSON format, unmaintained code
 
 Spelling Api
 
