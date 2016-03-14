@@ -1614,11 +1614,8 @@ Numbertext
 Numer Alpha
 ignored = ext-numeralpha-list-format-outline-glue
 
-OAI-PMH repository
-id = ext-oai
-file = OAI/i18n/%CODE%.json
-optional = oairepository
-# aliasfile = OAI/OAIRepo.alias.php  / Unlisted special page, it is used by a machine only.
+# Disabled on WMF in T70867
+# OAI-PMH repository
 
 OATH Auth
 aliasfile = OATHAuth/OATHAuth.alias.php
