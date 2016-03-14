@@ -2773,6 +2773,9 @@ Wikimedia Creative Commons License Texts
 file = WikimediaMessages/i18n/cclicensetexts/%CODE%.json
 optional = wm-license-cc-wiki-link, wm-license-cc-pd-mark-link
 
+Wikimedia Interwiki Search Results
+file = WikimediaMessages/i18n/wikimediainterwikisearchresults/%CODE%.json
+
 Wikimedia License Texts
 file = WikimediaMessages/i18n/licensetexts/%CODE%.json
 optional = wm-license-cecill-wiki-link, wm-license-cecill-full-link, wm-license-fal-wiki-link, wm-license-fal-full-link, wm-license-fal-full-link-commons
