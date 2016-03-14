@@ -82,7 +82,7 @@
 		}
 	},
 	"pageviews": {
-		"group": "pageviews",
+		"group": "out-pageviews",
 		"repos": {
 			"pageviews": {
 				"type": "git",
