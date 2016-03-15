@@ -32,6 +32,7 @@ GROUPS:
   - ext-inputbox
   - ext-intersection
   - ext-jquery-uls
+  - ext-kartographer
   - ext-math
   - ext-mobilefrontend # r93435
   - ext-newusermessage
