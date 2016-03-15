@@ -89,5 +89,18 @@
 				"url": "git@github.com:MusikAnimal/pageviews.git"
 			}
 		}
+	},
+	"wiki-ai": {
+		"group": "wiki-ai-*",
+		"repos": {
+			"wiki-ai/wikilabels": {
+				"type": "git",
+				"url": "git@github.com:wiki-ai/wikilabels.git"
+			},
+			"wiki-ai/wikilabels-wikimedia-config": {
+				"type": "git",
+				"url": "git@github.com:wiki-ai/wikilabels-wikimedia-config.git"
+			}
+		}
 	}
 }
