@@ -247,15 +247,25 @@ class users {
       home       => '/home/niedzielski',
       comment    => 'Stephen Niedzielski';
     'bgerstle':
-      ensure     => present,
+      ensure     => absent,
       uid        => 1022,
+      gid        => 'users',
+      groups     => ['betawiki', 'www-shared'],
+      shell      => '/usr/sbin/nologin',
+      password   => '',
+      managehome => true,
+      home       => '/home/bgerstle',
+      comment    => 'Brian Gerstle (WMF)';
+    'fjalapeno':
+      ensure     => present,
+      uid        => 1023,
       gid        => 'users',
       groups     => ['betawiki', 'www-shared'],
       shell      => '/bin/bash',
       password   => '',
       managehome => true,
-      home       => '/home/bgerstle',
-      comment    => 'Brian Gerstle (WMF)';
+      home       => '/home/fjalapeno',
+      comment    => 'Corey Floyd (WMF)';
   }
 
   ssh_authorized_key {
@@ -264,5 +274,10 @@ class users {
       user => 'siebrand',
       type => 'rsa',
       key  => 'AAAAB3NzaC1yc2EAAAABJQAAAgEAvpLAvxAgixbCY9IglNmaPjvXeIRoZkVfMUWz3SEgCw4r/4HmjQz77AnmtSv7meql1o3UedB27UeupUx0dytigHdtes9FJIIELjG0iYo77IHlfhKSUqAe+kkHHuQ1lgpwSbaWooUPcuKy7VFMyAZLTA9gTjIBe7oHUEB5IfIgWoyj7dSlSmF8oSB1+/MdsgLQTBql4gsPH2WznwUWHbUot6OhGLRuLbEuG4aiMVmZ1/I73aOEfVA9Zw1PspaHjzQkKuGHsgBZ9lGwkPIRxbvBZAYGW+WYS2QCPhfJlOYvAXB5VFbohpTqhxerP14r/B/KJsKEaGVKpZY5+YWXtc1ITwtd+DwaFfuacuvGVmOl5SkLXYusVndlv+ZOf5NTFxeqI9Z66ApeqsDCBBQtLbIt80vHr/ZFdR7DEvDMQSLkLttjV3IOrdoZd0Hodqb9b6HEswrFyNx0ywVER6d41M1cBZafBA/04ui2Yu/0ocKU8ecI+NvzUU3DOjidgADDGbhBh/deUreW60FjE1pzaTwhP2pscjiZmLvOpKbRWrmmktc3PGi/fnoq9MJJ2w7rLXtBOlUqDOprgdpqp1rJI2OHj398xBkpIAQasdNbYsxhxic3Md/y9d+Y8sN3VPI0l6tM5H1YitFQ2CcIm6RcRmyHrJRq/85uINFM9l76wtT+87k=';
+    'fjalapeno_ssh':
+      ensure => present,
+      user => 'fjalapeno',
+      type => 'rsa',
+      key  => 'AAAAB3NzaC1yc2EAAAABIwAAAQEA0FskuPOIjhNL4BGfI9p9FyWLt6DM5hjVMqPSz/puQ96Q1/Q92CTHT5gfthLVla/J/j14wW8G2vvz4ZBC1j123xNM4jbLo2jtbKitSTjr4vVf+Q4KPZ3R2ow/dOoWutKuoNwBBRSBBjjPv/F38aQRba4GRBflKhdOCmn6tUeE/Sk8U7WC7oSIfv2cZ1OC+PP9xFuG7a3FgWflzS+hwDyL3LGRlGlK6k3kI2IyOEwYlaZe/BTGZpC7Af+B1ad7z6PlzpKGDIomvMr8Q6r7GjEnAQnVJtXkMxsT0j4gSbcyUQMoBCzRDe7BR4CkiZXljxrvCGkhATav5gGI2DKT/uijlw==';
   }
 }
