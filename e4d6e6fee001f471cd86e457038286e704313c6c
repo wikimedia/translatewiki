@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee33df1d_2c555fc6",
+        "filename": "puppet/modules/users/manifests/init.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 2426
+      },
+      "writtenOn": "2016-03-16T14:29:40Z",
+      "side": 1,
+      "message": "Should this be 23 or at least unique?",
+      "revId": "e4d6e6fee001f471cd86e457038286e704313c6c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
