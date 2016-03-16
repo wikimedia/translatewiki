@@ -1311,6 +1311,7 @@ Kartographer
 optional = visualeditor-mwmapsdialog-geojson, kartographer-coord-combined, kartographer-coord-dms
 optional = kartographer-coord-lat-positive, kartographer-coord-lat-negative
 optional = kartographer-coord-lon-positive, kartographer-coord-lon-negative
+optional = kartographer-error-context
 
 Labeled Section Transclusion
 descmsg = lst-desc
