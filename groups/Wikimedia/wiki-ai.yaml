@@ -4,6 +4,7 @@ BASIC:
   label: Revision scoring
   icon: wiki://Revision_Scoring_as_a_Service_logo.svg
   description: "{{Special:MyLanguage/Translations:Group descriptions/revscoring/en}}"
+  meta: yes
   class: AggregateMessageGroup
   namespace: NS_WIKIMEDIA
 
