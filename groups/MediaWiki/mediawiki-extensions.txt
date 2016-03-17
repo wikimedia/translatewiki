@@ -891,7 +891,7 @@ Dynamic Sidebar
 
 Echo
 aliasfile = Echo/Echo.alias.php
-optional = echo-notification-count
+optional = echo-badge-count
 optional = echo-email-batch-separator, echo-email-batch-bullet, echo-quotation-marks
 optional = notification-body-edit-user-talk-with-section, notification-body-reverted
 optional = echo-foreign-wiki-lang
