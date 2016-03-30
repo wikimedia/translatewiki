@@ -10,16 +10,18 @@ class mariadb {
       mysqld => {
         character-set-server            => 'utf8',
         innodb_additional_mem_pool_size => '400M',
+        innodb_buffer_pool_instances    => '12',
         innodb_buffer_pool_size         => '12G',
         innodb_file_per_table           => '1',
         innodb_log_file_size            => '500M',
-        key_buffer_size                 => '64M',
+        thread_pool_size                => '16',
+        key_buffer_size                 => '16M',
         log_slow_queries                => '/var/log/mysql/mysql-slow.log',
-        long_query_time                 => '1',
+        long_query_time                 => '60',
         query_cache_size                => '0',
         query_cache_type                => '0',
         ssl                             => '0',
-        table_cache                     => '750'
+        table_cache                     => '1500'
       },
       client => {
         default-character-set => 'utf8'
