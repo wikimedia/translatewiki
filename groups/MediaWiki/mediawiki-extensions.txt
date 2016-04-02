@@ -1118,7 +1118,7 @@ ignored = apihelp-query+gettingstartedgetpages-example-1
 
 Git 2 Pages
 
-Git Hub
+# Git Hub # Maintained through repong
 
 Gitweb
 
@@ -1418,10 +1418,7 @@ aliasfile = MaintenanceShell/MaintenanceShell.alias.php
 Map Sources
 aliasfile = MapSources/MapSources.i18n.alias.php
 
-Maps
-aliasfile = Maps/Maps.i18n.alias.php
-magicfile = Maps/Maps.i18n.magic.php
-optional = maps_googlemaps2, maps_googlemaps3, maps_yahoomaps, maps_openlayers, maps_osm
+# Maps # Maintained through repong
 
 Mark As Helpful
 
@@ -1808,7 +1805,7 @@ Parser Functions
 descmsg = pfunc_desc
 magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
-Parser Hooks
+# Parser Hooks # Maintained through repong
 
 # Deleted 2015-08-02
 # Parsoid
@@ -2065,8 +2062,7 @@ Select Tag
 Semantic ACL
 descmsg = sacl-desc
 
-Semantic Breadcrumb Links
-descmsg = sbl-desc
+# Semantic Breadcrumb Links # Maintained through repong
 
 Semantic Bundle
 
@@ -2090,8 +2086,7 @@ magicfile = SemanticExpressiveness/SemanticExpressiveness.i18n.magic.php
 Semantic External Query Lookup
 descmsg = seql-desc
 
-Semantic Extra Special Properties
-descmsg = sesp-desc
+# Semantic Extra Special Properties # # Maintained through repong
 
 Semantic Forms
 aliasfile = SemanticForms/languages/SF_Aliases.php
@@ -2104,58 +2099,34 @@ Semantic Forms Inputs
 Semantic Genealogy
 optional = semanticgenealogy-gedcomexport-link
 
-Semantic Glossary
+# Semantic Glossary # Maintained trough repong
 
 Semantic Highcharts
 
 Semantic Image Input
 descmsg = sii-desc
 
-Semantic Interlanguage Links
-descmsg = sil-desc
+# Semantic Interlanguage Links # Maintained through repong
 
 Semantic Internal Objects
 magicfile = SemanticInternalObjects/SemanticInternalObjects.i18n.magic.php
 
-Semantic Maps
-optional = sm_googlemaps_printername, sm_yahoomaps_printername, sm_openlayers_printername
-optional = semanticmaps-kml
 
-Semantic MediaWiki
-aliasfile = SemanticMediaWiki/languages/SMW_Aliases.php
-magicfile = SemanticMediaWiki/languages/SMW_Magic.php
-descmsg = smw-desc
-ignored = smw_ask_doculink, smw_uri_blacklist, smw-specials-browse-helplink
-optional = smw-label-feed-link, smw_decseparator, smw_kiloseparator
-optional = smw_rss_description, smw_browse_more, specialpages-group-smw_group
-optional = smw_csv_link, smw_dsv_link, smw_json_link, smw_rdf_link
-optional = smw_property_template_notype, smw-datavalue-monolingual-lcode-parenthesis
+# Semantic Maps # Maintained through repong
 
-Semantic Meta Tags
-descmsg = smt-desc
+# Semantic MediaWiki # Maintained through repong
+# Semantic Meta Tags # Maintained through repong
 
 Semantic Page Series
 aliasfile = SemanticPageSeries/SemanticPageSeries.alias.php
 
 Semantic Rating
 
-Semantic Result Formats
-magicfile = SemanticResultFormats/SemanticResultFormats.i18n.magic.php
-descmsg = srf-desc
-optional = srf_icalendar_link, srf_vcard_link, srf_bibtex_link
-optional = srf-ui-eventcalendar-format-time, srf-ui-eventcalendar-format-time-agenda
-optional = srf-ui-eventcalendar-format-axis, srf-ui-eventcalendar-format-title-month
-optional = srf-ui-eventcalendar-format-title-week, srf-ui-eventcalendar-format-title-day
-optional = srf-ui-eventcalendar-format-column-month, srf-ui-eventcalendar-format-column-week
-optional = srf-ui-eventcalendar-format-column-day, srf-filtered-firstdayofweek
-ignored = srf-ui-datatables-label-sInfoPostFix
+# Semantic Result Formats Maintained through repong
 
 Semantic Sifter
 
-Semantic Signup
-aliasfile = SemanticSignup/i18n/SemanticSignup.i18n.aliases.php
-magicfile = SemanticSignup/i18n/SemanticSignup.i18n.magic.php
-
+# Semantic Signup Maintained through repong
 Semantic Tasks
 
 Semantic Title
@@ -2163,8 +2134,7 @@ Semantic Title
 Semantic Update On Purge
 descmsg = suop-desc
 
-Semantic Watchlist
-aliasfile = SemanticWatchlist/SemanticWatchlist.i18n.alias.php
+# Semantic Watchlist Maintained through repong
 
 Semantic Web Browser
 descmsg = swb_desc
@@ -2291,10 +2261,7 @@ Stop Forum Spam
 #file = StrategyWiki/ActiveStrategy/i18n/%CODE%.json
 #descmsg = active-strategy-desc
 
-Sub Page List
-descmsg = spl-desc
-magicfile = SubPageList/SubPageList.i18n.magic.php
-
+# Sub Page List Maintained through repong 
 Sub Page List 3
 descmsg = spl3-desc
 
@@ -2508,8 +2475,7 @@ aliasfile = UserPageViewTracker/UserPageViewTracker.alias.php
 
 User Throttle
 
-Validator
-optional = validator-listerrors-severity-message
+# Validator # Maintained through repong
 
 Variables
 
