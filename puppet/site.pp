@@ -52,4 +52,6 @@ node 'v220150764426371.yourvserver.net' {
   include eximconf
   include eximconf::es
   include profile::mwelasticsearch
+
+  include mariadb
 }
