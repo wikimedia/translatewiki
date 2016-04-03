@@ -93,6 +93,30 @@
 	"mwgithub": {
 		"group": "mwgithub-*",
 		"repos": {
+			"mwgithub/DataValues/DataValues": {
+				"type": "git",
+				"url": "https://github.com/DataValues/DataValues.git"
+			},
+			"mwgithub/JeroenDeDauw/GitHub": {
+				"type": "git",
+				"url": "https://github.com/JeroenDeDauw/GitHub.git"
+			},
+			"mwgithub/JeroenDeDauw/Maps": {
+				"type": "git",
+				"url": "https://github.com/JeroenDeDauw/Maps.git"
+			},
+			"mwgithub/JeroenDeDauw/ParserHooks": {
+				"type": "git",
+				"url": "https://github.com/JeroenDeDauw/ParserHooks.git"
+			},
+			"mwgithub/JeroenDeDauw/SubPageList": {
+				"type": "git",
+				"url": "https://github.com/JeroenDeDauw/SubPageList.git"
+			},
+			"mwgithub/JeroenDeDauw/Validator": {
+				"type": "git",
+				"url": "https://github.com/JeroenDeDauw/Validator.git"
+			},
 			"mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks": {
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticBreadcrumbLinks.git"
@@ -141,25 +165,13 @@
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticWatchlist.git"
 			},
-			"mwgithub/JeroenDeDauw/GitHub": {
+			"mwgithub/Wikidata-lib/PropertySuggester": {
 				"type": "git",
-				"url": "https://github.com/JeroenDeDauw/GitHub.git"
+				"url": "https://github.com/Wikidata-lib/PropertySuggester.git"
 			},
-			"mwgithub/JeroenDeDauw/Maps": {
+			"mwgithub/wmde/DataTypes": {
 				"type": "git",
-				"url": "https://github.com/JeroenDeDauw/Maps.git"
-			},
-			"mwgithub/JeroenDeDauw/ParserHooks": {
-				"type": "git",
-				"url": "https://github.com/JeroenDeDauw/ParserHooks.git"
-			},
-			"mwgithub/JeroenDeDauw/SubPageList": {
-				"type": "git",
-				"url": "https://github.com/JeroenDeDauw/SubPageList.git"
-			},
-			"mwgithub/JeroenDeDauw/Validator": {
-				"type": "git",
-				"url": "https://github.com/JeroenDeDauw/Validator.git"
+				"url": "https://github.com/wmde/DataTypes.git"
 			}
 		}
 	},
