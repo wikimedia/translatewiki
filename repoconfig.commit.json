@@ -90,6 +90,71 @@
 			}
 		}
 	},
+	"mwgithub": {
+		"group": "mwgithub-*",
+		"repos": {
+			"mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks": {
+				"type": "git",
+				"url": "git@github.com:SemanticMediaWiki/SemanticBreadcrumbLinks.git"
+			},
+			"mwgithub/SemanticMediaWiki/SemanticExtraSpecialProperties": {
+				"type": "git",
+				"url": "git@github.com:SemanticMediaWiki/SemanticExtraSpecialProperties.git"
+			},
+			"mwgithub/SemanticMediaWiki/SemanticGlossary": {
+				"type": "git",
+				"url": "git@github.com:SemanticMediaWiki/SemanticGlossary.git"
+			},
+			"mwgithub/SemanticMediaWiki/SemanticInterlanguageLinks": {
+				"type": "git",
+				"url": "git@github.com:SemanticMediaWiki/SemanticInterlanguageLinks.git"
+			},
+			"mwgithub/SemanticMediaWiki/SemanticMaps": {
+				"type": "git",
+				"url": "git@github.com:SemanticMediaWiki/SemanticMaps.git"
+			},
+			"mwgithub/SemanticMediaWiki/SemanticMediaWiki": {
+				"type": "git",
+				"url": "git@github.com:SemanticMediaWiki/SemanticMediaWiki.git"
+			},
+			"mwgithub/SemanticMediaWiki/SemanticResultFormats": {
+				"type": "git",
+				"url": "git@github.com:SemanticMediaWiki/SemanticResultFormats.git"
+			},
+			"mwgithub/SemanticMediaWiki/SemanticMetaTags": {
+				"type": "git",
+				"url": "git@github.com:SemanticMediaWiki/SemanticMetaTags.git"
+			},
+			"mwgithub/SemanticMediaWiki/SemanticSignup": {
+				"type": "git",
+				"url": "git@github.com:SemanticMediaWiki/SemanticSignup.git"
+			},
+			"mwgithub/SemanticMediaWiki/SemanticWatchlist": {
+				"type": "git",
+				"url": "git@github.com:SemanticMediaWiki/SemanticWatchlist.git"
+			},
+			"mwgithub/JeroenDeDauw/GitHub": {
+				"type": "git",
+				"url": "git@github.com:JeroenDeDauw/GitHub.git"
+			},
+			"mwgithub/JeroenDeDauw/Maps": {
+				"type": "git",
+				"url": "git@github.com:JeroenDeDauw/Maps.git"
+			},
+			"mwgithub/JeroenDeDauw/ParserHooks": {
+				"type": "git",
+				"url": "git@github.com:JeroenDeDauw/ParserHooks.git"
+			},
+			"mwgithub/JeroenDeDauw/SubPageList": {
+				"type": "git",
+				"url": "git@github.com:JeroenDeDauw/SubPageList.git"
+			},
+			"mwgithub/JeroenDeDauw/Validator": {
+				"type": "git",
+				"url": "git@github.com:JeroenDeDauw/Validator.git"
+			}
+		}
+	},
 	"wiki-ai": {
 		"group": "wiki-ai-*",
 		"repos": {

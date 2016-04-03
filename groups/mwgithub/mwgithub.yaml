@@ -1,0 +1,214 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Mediawiki-logo.png
+    class: FileBasedMessageGroup
+    namespace: NS_MEDIAWIKI
+
+  FILES:
+    class: JsonFFS
+
+  CHECKER:
+    class: MediaWikiMessageChecker
+    checks:
+      - pluralCheck
+      - pluralFormsCheck
+      - wikiParameterCheck
+      - wikiLinksCheck
+      - XhtmlCheck
+      - braceBalanceCheck
+      - pagenameMessagesCheck
+      - miscMWChecks
+
+  INSERTABLES:
+    class: MediaWikiInsertablesSuggester
+---
+BASIC:
+  id: mwgithub-semanticbreadcrumblinks
+  label: Semantic Breadcrumb Links
+  description: "{{Special:MyLanguage/MediaWiki:Sbl-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-semanticextraspecialproperties
+  label: Semantic Extra Special Properties
+  description: "{{Special:MyLanguage/MediaWiki:Sesp-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticExtraSpecialProperties/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-semanticglossary
+  label: Semantic Glossary
+  description: "{{Special:MyLanguage/MediaWiki:Semanticglossary-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticGlossary/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-semanticinterlanguagelinks
+  label: Semantic Interlanguage Links
+  description: "{{Special:MyLanguage/MediaWiki:Sil-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticInterlanguageLinks/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-semanticmaps
+  label: Semantic Maps
+  description: "{{Special:MyLanguage/MediaWiki:Semanticmaps-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticMaps/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - sm_googlemaps_printername
+    - sm_yahoomaps_printername
+    - sm_openlayers_printername
+    - semanticmaps-kml
+---
+BASIC:
+  id: mwgithub-semanticmediawiki
+  label: Semantic MediaWiki
+  description: "{{Special:MyLanguage/MediaWiki:Smw-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticMediaWiki/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - smw-label-feed-link
+    - smw_decseparator
+    - smw_kiloseparator
+    - smw_rss_description
+    - smw_browse_more
+    - specialpages-group-smw_group
+    - smw_csv_link
+    - smw_dsv_link
+    - smw_json_link
+    - smw_rdf_link
+    - smw_property_template_notype
+    - smw-datavalue-monolingual-lcode-parenthesis
+  ignored:
+    - smw_ask_doculink
+    - smw_uri_blacklist
+    - smw-specials-browse-helplink
+---
+BASIC:
+  id: mwgithub-semanticmetatags
+  label: Semantic Meta Tags
+  description: "{{Special:MyLanguage/MediaWiki:Smt-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticMetaTags/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-semanticresultformats
+  label: Semantic Result Formats
+  description: "{{Special:MyLanguage/MediaWiki:Srf-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticResultFormats/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - srf_icalendar_link
+    - srf_vcard_link
+    - srf_bibtex_link
+    - srf-ui-eventcalendar-format-time
+    - srf-ui-eventcalendar-format-time-agenda
+    - srf-ui-eventcalendar-format-axis
+    - srf-ui-eventcalendar-format-title-month
+    - srf-ui-eventcalendar-format-title-week
+    - srf-ui-eventcalendar-format-title-day
+    - srf-ui-eventcalendar-format-column-month
+    - srf-ui-eventcalendar-format-column-week
+    - srf-ui-eventcalendar-format-column-day
+    - srf-filtered-firstdayofweek
+  ignored:
+    - srf-ui-datatables-label-sInfoPostFix
+---
+BASIC:
+  id: mwgithub-semanticsignup
+  label: Semantic Signup
+  description: "{{Special:MyLanguage/MediaWiki:Ses-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticSignup/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-semanticwatchlist
+  label: Semantic Watchlist
+  description: "{{Special:MyLanguage/MediaWiki:Semanticwatchlist-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticWatchlist/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-github
+  label: GitHub
+  description: "{{Special:MyLanguage/MediaWiki:Github-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/JeroenDeDauw/GitHub/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-maps
+  label: Maps
+  description: "{{Special:MyLanguage/MediaWiki:Maps-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/JeroenDeDauw/Maps/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - maps_googlemaps2
+    - maps_googlemaps3
+    - maps_yahoomaps
+    - maps_openlayers
+    - maps_osm
+---
+BASIC:
+  id: mwgithub-parserhooks
+  label: Parser Hooks
+  description: "{{Special:MyLanguage/MediaWiki:Parserhooks-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/JeroenDeDauw/ParserHooks/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-subpagelist
+  label: Sub Page List
+  description: "{{Special:MyLanguage/MediaWiki:Subpagelist-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/JeroenDeDauw/SubPageList/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-validator
+  label: Validator
+  description: "{{Special:MyLanguage/MediaWiki:Validator-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/JeroenDeDauw/Validator/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - validator-listerrors-severity-message
