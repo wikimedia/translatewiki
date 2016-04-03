@@ -175,6 +175,15 @@
 			}
 		}
 	},
+	"mwgerrit": {
+		"group": "mwgerrit-*",
+		"repos": {
+			"mwgerrit/data-values/value-view": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/data-values/value-view"
+			}
+		}
+	},
 	"wiki-ai": {
 		"group": "wiki-ai-*",
 		"repos": {
