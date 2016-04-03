@@ -21,6 +21,9 @@ class RepoNg {
 			if ( $repo['type'] === 'git' ) {
 				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
 				$command = "$bindir/clupdate-git-repo '{$repo['url']}' '$base/$name' '$branch'";
+			} elseif ( $repo['type'] === 'wmgerrit' ) {
+				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
+				$command = "$bindir/clupdate-gerrit-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} else {
 				throw new RuntimeException( 'Unknown repo rype' );
 			}
@@ -74,6 +77,11 @@ class RepoNg {
 				$command = "cd $dir; git add .; " .
 					"git commit -m '$message' || :; " .
 					"git push origin '$branch'";
+			} elseif ( $repo['type'] === 'wmgerrit' ) {
+				$dir = "$base/$name";
+				$command = "cd $dir; git add .; " .
+					"git commit -m '$message' || :; " .
+					'git review -r origin -t L10n';
 			} else {
 				throw new RuntimeException( "Unknown repo type" );
 			}
