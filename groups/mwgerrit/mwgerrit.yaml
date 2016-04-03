@@ -30,3 +30,34 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgerrit/data-values/value-view/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgerrit-oojs-ui
+  label: OOjs UI (via VisualEditor)
+  description: "{{Special:MyLanguage/MediaWiki:Visualeditor-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgerrit/oojs/ui/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - ooui-semicolon-separator
+---
+BASIC:
+  id: mwgerrit-visualeditor-ve
+  label: VisualEditor Core
+  description: "{{Special:MyLanguage/MediaWiki:Visualeditor-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgerrit/VisualEditor/VisualEditor/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - visualeditor-specialcharinspector-characterlist-insert
+    - visualeditor-dimensionswidget-px
+    - visualeditor-dimensionswidget-times
+    - visualeditor-languageannotation-description-with-dir
+  ignored:
+    - visualeditor-languageannotation-description

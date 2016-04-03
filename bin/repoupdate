@@ -134,10 +134,6 @@ then
 	echo "$(fetchReposFromGerrit mediawiki/extensions/)" |
 		xargs -P4 -I___ "$CLUPDATE_GERRIT" "$REPO_MWEXTGIT/___.git" "$DIR/$PROJECT/extensions/___"
 
-	REPOPREFIX="${REPO_MWEXTGIT%/mediawiki/extensions}"
-	"$CLUPDATE_GERRIT" "$REPOPREFIX/oojs/ui.git" "$DIR/$PROJECT/extensions/oojs-ui"
-	"$CLUPDATE_GERRIT" "$REPOPREFIX/VisualEditor/VisualEditor.git" "$DIR/$PROJECT/extensions/VisualEditorVisualEditor"
-
 elif [ "$PROJECT" = "mediawiki-skins" ]
 then
 	if [ -z "$REPO_MWSKINGIT" ]
