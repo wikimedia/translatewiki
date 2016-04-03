@@ -2061,15 +2061,21 @@ Select Tag
 Semantic ACL
 descmsg = sacl-desc
 
-# Semantic Breadcrumb Links # Maintained through repong
-
 Semantic Bundle
 
-Semantic Cite
-descmsg = sci-desc
-ignored = sci-referencelist-text, sci-specials-citablemetadata-helplink
-optional = sci-property-alias-doi, sci-property-alias-viaf, sci-property-alias-oclc
-optional = sci-property-alias-olid, sci-property-alias-pmcid, sci-property-alias-pmid
+# Maintained through repong
+# Semantic Breadcrumb Links
+# Semantic Cite
+# Semantic External Query Lookup
+# Semantic Extra Special Properties
+# Semantic Glossary
+# Semantic Interlanguage Links
+# Semantic Maps
+# Semantic MediaWiki
+# Semantic Meta Tags
+# Semantic Result Formats
+# Semantic Signup
+# Semantic Watchlist
 
 Semantic Compound Queries
 magicfile = SemanticCompoundQueries/SemanticCompoundQueries.i18n.magic.php
@@ -2082,11 +2088,6 @@ aliasfile = SemanticDrilldown/languages/SD_Aliases.php
 Semantic Expressiveness
 magicfile = SemanticExpressiveness/SemanticExpressiveness.i18n.magic.php
 
-Semantic External Query Lookup
-descmsg = seql-desc
-
-# Semantic Extra Special Properties # # Maintained through repong
-
 Semantic Forms
 aliasfile = SemanticForms/languages/SF_Aliases.php
 magicfile = SemanticForms/languages/SF_Magic.php
@@ -2098,42 +2099,27 @@ Semantic Forms Inputs
 Semantic Genealogy
 optional = semanticgenealogy-gedcomexport-link
 
-# Semantic Glossary # Maintained trough repong
-
 Semantic Highcharts
 
 Semantic Image Input
 descmsg = sii-desc
 
-# Semantic Interlanguage Links # Maintained through repong
-
 Semantic Internal Objects
 magicfile = SemanticInternalObjects/SemanticInternalObjects.i18n.magic.php
-
-
-# Semantic Maps # Maintained through repong
-
-# Semantic MediaWiki # Maintained through repong
-# Semantic Meta Tags # Maintained through repong
 
 Semantic Page Series
 aliasfile = SemanticPageSeries/SemanticPageSeries.alias.php
 
 Semantic Rating
 
-# Semantic Result Formats Maintained through repong
-
 Semantic Sifter
 
-# Semantic Signup Maintained through repong
 Semantic Tasks
 
 Semantic Title
 
 Semantic Update On Purge
 descmsg = suop-desc
-
-# Semantic Watchlist Maintained through repong
 
 Semantic Web Browser
 descmsg = swb_desc
@@ -2260,7 +2246,7 @@ Stop Forum Spam
 #file = StrategyWiki/ActiveStrategy/i18n/%CODE%.json
 #descmsg = active-strategy-desc
 
-# Sub Page List Maintained through repong 
+# Sub Page List # Maintained through repong
 Sub Page List 3
 descmsg = spl3-desc
 

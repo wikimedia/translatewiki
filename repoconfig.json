@@ -97,6 +97,14 @@
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticBreadcrumbLinks.git"
 			},
+			"mwgithub/SemanticMediaWiki/SemanticCite": {
+				"type": "git",
+				"url": "https://github.com/SemanticMediaWiki/SemanticCite.git"
+			},
+			"mwgithub/SemanticMediaWiki/SemanticExternalQueryLookup": {
+				"type": "git",
+				"url": "https://github.com/SemanticMediaWiki/SemanticExternalQueryLookup.git"
+			},
 			"mwgithub/SemanticMediaWiki/SemanticExtraSpecialProperties": {
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticExtraSpecialProperties.git"

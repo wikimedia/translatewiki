@@ -32,6 +32,36 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks/i18n/%CODE%.json"
 ---
 BASIC:
+  id: mwgithub-semanticcite
+  label: Semantic Cite
+  description: "{{Special:MyLanguage/MediaWiki:Sci-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticCite/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - sci-property-alias-doi
+    - sci-property-alias-viaf
+    - sci-property-alias-oclc
+    - sci-property-alias-olid
+    - sci-property-alias-pmcid
+    - sci-property-alias-pmid
+  ignored:
+    - sci-referencelist-text
+    - sci-specials-citablemetadata-helplink
+---
+BASIC:
+  id: mwgithub-semanticexternalquerylookup
+  label: Semantic External Query Lookup
+  description: "{{Special:MyLanguage/MediaWiki:Seql-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticExternalQueryLookup/i18n/%CODE%.json"
+---
+BASIC:
   id: mwgithub-semanticextraspecialproperties
   label: Semantic Extra Special Properties
   description: "{{Special:MyLanguage/MediaWiki:Sesp-desc/en}}"
