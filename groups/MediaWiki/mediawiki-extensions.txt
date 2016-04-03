@@ -2639,15 +2639,6 @@ ignored = wikibase-shortcopyrightwarning-version, wikibase-entitytermsview-entit
 
 Wikibase Media Info
 
-Wikibase Query
-aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
-
-#Wikibase Solr / Disabled. No longer used or developed.
-
-#Wikidata Entity Suggester / No real extension, Java program
-
-Wikidata Page Banner
-
 Wikibase Quality
 aliasfile = WikibaseQuality/WikibaseQuality.alias.php
 ignored = wbq-violations-entity-id-placeholder, wbq-violations-property-id-placeholder
@@ -2659,6 +2650,15 @@ ignored = wbqc-constraintreport-form-entityid-placeholder
 Wikibase Quality External Validation
 aliasfile = WikibaseQualityExternalValidation/WikibaseQualityExternalValidation.alias.php
 ignored = wbqev-crosscheck-form-entityid-placeholder, wbqev-violation-long-message-headline
+
+Wikibase Query
+aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
+
+#Wikibase Solr / Disabled. No longer used or developed.
+
+#Wikidata Entity Suggester / No real extension, Java program
+
+Wikidata Page Banner
 
 Wikihiero
 file = wikihiero/i18n/%CODE%.json
