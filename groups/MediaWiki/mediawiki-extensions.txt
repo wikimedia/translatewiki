@@ -2660,6 +2660,9 @@ aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
 
 Wikidata Page Banner
 
+Wikidata.org
+descmsg=wikidata-org-desc
+
 Wikihiero
 file = wikihiero/i18n/%CODE%.json
 aliasfile = wikihiero/wikihiero.alias.php
