@@ -1173,6 +1173,8 @@ aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
 
 Google Doc Tag
 
+Google Geocode
+
 Google Login
 aliasfile = GoogleLogin/GoogleLogin.alias.php
 
@@ -2303,6 +2305,8 @@ Thanks
 aliasfile = Thanks/Thanks.alias.php
 
 Theme
+
+# Theme Designer // Missing message doc
 
 Throttle Override
 aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
