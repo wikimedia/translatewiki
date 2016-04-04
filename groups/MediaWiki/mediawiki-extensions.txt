@@ -1635,7 +1635,7 @@ descmsg = oauthauth-desc
 OdbcDatabase
 aliasfile = OdbcDatabase/OdbcDatabase.alias.php
 
-# Missing message doc 2015-09-25
+# Extension blanked - 2016-04-01
 # Offline
 
 # Missing message doc, message prefixes needed - 2015-05-07 - RS

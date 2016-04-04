@@ -73,6 +73,7 @@ GROUPS:
   - ext-multimediaviewer # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
   - ext-mwembedsupport
   - ext-navigationtiming # 2013-03-14: all wikis
+  - ext-newsletter # 2016-04-03: Beta cluster
   - ext-nuke
   - ext-oauth
   - ext-oathauth # 2014-06-28 Used on https://wikitech.wikimedia.org
