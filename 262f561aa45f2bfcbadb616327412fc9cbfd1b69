@@ -16,6 +16,23 @@
       "revId": "262f561aa45f2bfcbadb616327412fc9cbfd1b69",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce38dbff_0bfde5d1",
+        "filename": "groups/mwgithub/mwgithub.yaml",
+        "patchSetId": 10
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-04-04T06:36:17Z",
+      "side": 1,
+      "message": "You might want to replicate this behavior from the MediaWikiExtensionGroups:\n\n// Mark extension name and skin names optional.\n$newgroup[\u0027optional\u0027][] \u003d \u0027*-extensionname\u0027;\n$newgroup[\u0027optional\u0027][] \u003d \u0027skinname-*\u0027;",
+      "revId": "262f561aa45f2bfcbadb616327412fc9cbfd1b69",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
