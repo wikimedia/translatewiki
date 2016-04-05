@@ -78,8 +78,8 @@ function customMessageGroupTwnMainpage( $id ) {
 }
 
 # Add aggregate message groups for MediaWiki extensions.
-$wgTranslateGroupFiles[] = "$GROUPS/mwgithub/mwgerrit.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/mwgithub/mwgithub.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwgerrit.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwgithub.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/MediaWiki.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaMainAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaAgg.yaml";
