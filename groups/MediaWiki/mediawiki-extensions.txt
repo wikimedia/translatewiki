@@ -1,3 +1,21 @@
+# Maintained through repong
+# Maps
+# Parser Hooks
+# Semantic Breadcrumb Links
+# Semantic Cite
+# Semantic External Query Lookup
+# Semantic Extra Special Properties
+# Semantic Glossary
+# Semantic Interlanguage Links
+# Semantic Maps
+# Semantic MediaWiki
+# Semantic Meta Tags
+# Semantic Result Formats
+# Semantic Signup
+# Semantic Watchlist
+# Sub Page List
+# Validator
+
 Absentee Landlord
 
 Abuse Filter
@@ -11,7 +29,7 @@ ignored = accesscontrol-redirect-users, accesscontrol-actions-deny
 # Repo is archived
 # Accessibility Simulation
 
-# Disabled 2015-07-21 afters SULF finished
+# Disabled 2015-07-21 afters SUL finished
 # Account Audit
 
 Account Info
@@ -1419,8 +1437,6 @@ aliasfile = MaintenanceShell/MaintenanceShell.alias.php
 Map Sources
 aliasfile = MapSources/MapSources.i18n.alias.php
 
-# Maps # Maintained through repong
-
 Mark As Helpful
 
 Mass Edit Regex
@@ -1808,8 +1824,6 @@ Parser Functions
 descmsg = pfunc_desc
 magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
-# Parser Hooks # Maintained through repong
-
 # Deleted 2015-08-02
 # Parsoid
 
@@ -2067,20 +2081,6 @@ descmsg = sacl-desc
 
 Semantic Bundle
 
-# Maintained through repong
-# Semantic Breadcrumb Links
-# Semantic Cite
-# Semantic External Query Lookup
-# Semantic Extra Special Properties
-# Semantic Glossary
-# Semantic Interlanguage Links
-# Semantic Maps
-# Semantic MediaWiki
-# Semantic Meta Tags
-# Semantic Result Formats
-# Semantic Signup
-# Semantic Watchlist
-
 Semantic Compound Queries
 magicfile = SemanticCompoundQueries/SemanticCompoundQueries.i18n.magic.php
 
@@ -2250,7 +2250,6 @@ Stop Forum Spam
 #file = StrategyWiki/ActiveStrategy/i18n/%CODE%.json
 #descmsg = active-strategy-desc
 
-# Sub Page List # Maintained through repong
 Sub Page List 3
 descmsg = spl3-desc
 
@@ -2465,8 +2464,6 @@ User Page View Tracker
 aliasfile = UserPageViewTracker/UserPageViewTracker.alias.php
 
 User Throttle
-
-# Validator # Maintained through repong
 
 Variables
 
