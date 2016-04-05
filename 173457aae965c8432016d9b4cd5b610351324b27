@@ -16,6 +16,24 @@
       "revId": "173457aae965c8432016d9b4cd5b610351324b27",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce38dbff_48c888aa",
+        "filename": "repong/repong.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-04-05T15:33:28Z",
+      "side": 1,
+      "message": "I didn\u0027t find an option in git-review to submit to a branch. According to the documentation, git-review will take the branch to submit to from .gitreview.",
+      "parentUuid": "ce38dbff_4b97ed93",
+      "revId": "173457aae965c8432016d9b4cd5b610351324b27",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
