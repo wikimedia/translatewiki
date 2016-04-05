@@ -185,6 +185,14 @@
 			"mwgerrit/data-values/value-view": {
 				"type": "wmgerrit",
 				"url": "https://gerrit.wikimedia.org/r/data-values/value-view"
+			},
+			"mwgerrit/oojs/ui": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/oojs/ui"
+			},
+			"mwgerrit/VisualEditor/VisualEditor": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/VisualEditor/VisualEditor"
 			}
 		}
 	},
