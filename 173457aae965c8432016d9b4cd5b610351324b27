@@ -34,6 +34,24 @@
       "revId": "173457aae965c8432016d9b4cd5b610351324b27",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce38dbff_088840eb",
+        "filename": "repong/repong.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-04-05T16:30:05Z",
+      "side": 1,
+      "message": "For me it says:\n\n     git-review [-fnuvDRT] [-r remote] [-t topic] [--reviewers reviewer ...] [branch]\n\nBut I think it is at least for now safe to rely on the .gitreview file and not make this code more complex.",
+      "parentUuid": "ce38dbff_48c888aa",
+      "revId": "173457aae965c8432016d9b4cd5b610351324b27",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
