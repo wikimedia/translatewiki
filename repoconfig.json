@@ -165,6 +165,10 @@
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticWatchlist.git"
 			},
+			"mwgithub/SemanticMediaWiki/WhatsNearby": {
+				"type": "git",
+				"url": "https://github.com/SemanticMediaWiki/WhatsNearby.git"
+			},
 			"mwgithub/Wikidata-lib/PropertySuggester": {
 				"type": "git",
 				"url": "https://github.com/Wikidata-lib/PropertySuggester.git"

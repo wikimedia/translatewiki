@@ -269,3 +269,12 @@ FILES:
 TAGS:
   optional:
     - validator-listerrors-severity-message
+---
+BASIC:
+  id: mwgithub-whatsnearby
+  label: What's Nearby
+  description: "{{Special:MyLanguage/MediaWiki:Wnby-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/WhatsNearby/i18n/%CODE%.json"
