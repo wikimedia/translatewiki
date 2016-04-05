@@ -224,7 +224,7 @@
 			"wikipedia-ios": {
 				"type": "git",
 				"branch": "develop",
-				"url": "git://github.com/wikimedia/wikipedia-ios.git"
+				"url": "git@github.com:wikimedia/wikipedia-ios.git"
 			}
 		}
 	}
