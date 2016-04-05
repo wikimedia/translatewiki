@@ -16,6 +16,24 @@
       "revId": "fbd8e39802ed54a9ffdacabf5004b04d1bbb7e21",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce38dbff_4e11b107",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-04-05T17:35:05Z",
+      "side": 1,
+      "message": "This was just a re-order.",
+      "parentUuid": "ce38dbff_cb8bfd70",
+      "revId": "fbd8e39802ed54a9ffdacabf5004b04d1bbb7e21",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
