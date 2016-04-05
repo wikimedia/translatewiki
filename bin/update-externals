@@ -14,7 +14,7 @@ cat ${DIRSCRIPT}/EXTERNAL-PROJECTS |
 echo "All repositories updated"
 
 echo "Process message changes..."
-php $WIKI/extensions/Translate/scripts/processMessageChanges.php --quiet --skipgroup=ext-*
+php $WIKI/extensions/Translate/scripts/processMessageChanges.php --quiet --name=externals --skipgroup=ext-*
 echo "Processed message changes"
 
-echo "Go to https://translatewiki.net/wiki/Special:ManageMessageGroups for the last bits"
+echo "Go to https://translatewiki.net/wiki/Special:ManageMessageGroups/externals for the last bits"
