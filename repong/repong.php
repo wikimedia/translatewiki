@@ -27,7 +27,6 @@ class RepoNg {
 			} else {
 				throw new RuntimeException( 'Unknown repo rype' );
 			}
-			echo "$command\n";
 
 			$process = new Process( $command );
 			$process->mustRun();
