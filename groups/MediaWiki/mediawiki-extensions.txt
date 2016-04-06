@@ -1262,7 +1262,8 @@ Image Metrics
 # Incomplete message documentation file - 2014-10-05
 # Image Tagging
 
-# Image Tweaks // incomplete message documentation
+Image Tweaks
+ignored = imagetweaks-beta-preference-info-link, imagetweaks-beta-preference-disc-link
 
 Import Free Images
 
