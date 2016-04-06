@@ -33,6 +33,7 @@ $wgExtraLanguageNames['hu-formal'] = 'Magyar (magázó)'; # Siebrand 2009-01-01
 $wgExtraLanguageNames['izh'] = 'ižoran keel'; # Ingrian / Robin 2012-11-17 / Language classified as not written in Ethnologue. Should be removed.
 $wgExtraLanguageNames['jdt-cyrl'] = 'жугьури'; # Judeo-Tat / Siebrand 2014-06-17
 $wgExtraLanguageNames['kac'] = 'Jinghpaw'; # Jingpho / Siebrand 2014-04-08
+$wgExtraLanguageNames['kbp'] = 'Kabɩyɛ'; # Kabiye / Niklas 2016-04-06
 $wgExtraLanguageNames['kbd-latn'] = 'Qabardjajəbza'; # Kabardian (Latin script) / Siebrand 2010-02-21
 $wgExtraLanguageNames['kea'] = 'Kabuverdianu'; # Kabuverdianu / Siebrand 2009-01-07
 $wgExtraLanguageNames['kgp'] = 'Kaingáng'; # Siebrand 2008-12-05
