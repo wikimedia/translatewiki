@@ -5,25 +5,31 @@ use Symfony\Component\Process\Process;
 require_once __DIR__ . '/vendor/autoload.php';
 
 class RepoNg {
+	protected $bindir;
 	protected $meta;
 	protected $config;
 
 	public function __construct( array $meta, array $config ) {
+		$this->bindir = realpath( __DIR__ . '/../bin' );
+
+		if ( $this->bindir === false ) {
+			throw new RuntimeException( __DIR__ . '/../bin/ does not exist' );
+		}
+
 		$this->meta = $meta;
 		$this->config = $config;
 	}
 
 	public function update() {
-		$bindir = realpath( __DIR__ . '/../bin' );
 		$base = $this->meta['basepath'];
 
 		foreach ( $this->config['repos'] as $name => $repo ) {
 			if ( $repo['type'] === 'git' ) {
 				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
-				$command = "$bindir/clupdate-git-repo '{$repo['url']}' '$base/$name' '$branch'";
+				$command = $this->bindir . "/clupdate-git-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} elseif ( $repo['type'] === 'wmgerrit' ) {
 				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
-				$command = "$bindir/clupdate-gerrit-repo '{$repo['url']}' '$base/$name' '$branch'";
+				$command = $this->bindir . "/clupdate-gerrit-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} else {
 				throw new RuntimeException( 'Unknown repo rype' );
 			}
@@ -68,6 +74,7 @@ class RepoNg {
 	public function commit() {
 		$message = 'Localisation updates from https://translatewiki.net.';
 		$base = $this->meta['basepath'];
+		$gerritCommitted = false;
 
 		foreach ( $this->config['repos'] as $name => $repo ) {
 			if ( $repo['type'] === 'git' ) {
@@ -81,12 +88,22 @@ class RepoNg {
 				$command = "cd $dir; git add .; " .
 					"git commit -m '$message' || :; " .
 					'git review -r origin -t L10n';
+
+				$gerritCommitted = true;
 			} else {
 				throw new RuntimeException( "Unknown repo type" );
 			}
 			echo "$command\n";
 
 			$process = new Process( $command );
+			$process->mustRun();
+			$process->setTimeout( 120 );
+			print $process->getOutput();
+		}
+
+		// Merge patch sets submitted to Wikimedia's Gerrit.
+		if ( $gerritCommitted ) {
+			$process = new Process( $this->bindir . '/merge-wmgerrit-patches' );
 			$process->mustRun();
 			$process->setTimeout( 120 );
 			print $process->getOutput();
