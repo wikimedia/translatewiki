@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce38dbff_729560e6",
+        "filename": "repong/repong.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-04-08T14:01:04Z",
+      "side": 1,
+      "message": "trailing stuff etc.",
+      "revId": "079a6675e2bb02d438ede131b6f9d0a3e02bb265",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce38dbff_9292a4fe",
+        "filename": "repong/repong.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-04-08T14:01:04Z",
+      "side": 1,
+      "message": "I would keep this as separate bash script (akin to clupdate-*-repo) and just call that script from here.",
+      "revId": "079a6675e2bb02d438ede131b6f9d0a3e02bb265",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
