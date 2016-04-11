@@ -48,6 +48,7 @@ $wgTranslateLanguageFallbacks['kab'] = 'fr';
 $wgTranslateLanguageFallbacks['kac'] = [ 'my' ];
 $wgTranslateLanguageFallbacks['kbd-cyrl'] = [ 'kbd-latn', 'ru' ];
 $wgTranslateLanguageFallbacks['kbd-latn'] = [ 'kbd-cyrl', 'tr' ];
+$wgTranslateLanguageFallbacks['kbp'] = 'fr';
 $wgTranslateLanguageFallbacks['kea'] = 'pt';
 $wgTranslateLanguageFallbacks['kgp'] = [ 'pt', 'pt-br' ];
 $wgTranslateLanguageFallbacks['ki'] = 'sw';
