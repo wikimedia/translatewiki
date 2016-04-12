@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce38dbff_91e731df",
+        "filename": "melange/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-04-12T08:30:02Z",
+      "side": 1,
+      "message": "specific, EXTENSION",
+      "revId": "0af961134cb51c77c0aee3e4cf656ccc433d5378",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce38dbff_f1cddd63",
+        "filename": "melange/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-04-12T08:30:02Z",
+      "side": 1,
+      "message": "hash",
+      "revId": "0af961134cb51c77c0aee3e4cf656ccc433d5378",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
