@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce38dbff_913d712c",
+        "filename": "melange/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-04-12T08:36:34Z",
+      "side": 1,
+      "message": "specific, EXTENSION",
+      "revId": "e549f9be64167d7f8f84ac206e76ce353b6b2540",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
