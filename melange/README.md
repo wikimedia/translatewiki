@@ -50,6 +50,14 @@ else, it can be particular commit, for example,
 
 and submit it for review.
 
+To cherry-pick specific commit, go to specific EXTENSION directory inside
+extensions/ and,
+
+    git co -b formleb <hash from current config>
+    git cherry-pick <cherry-pick URL for commit>
+
+Update config to new hash and recreate tarball to test.
+
 b. Update Translate and ULS extension versions. See https://gerrit.wikimedia.org/r/#/c/88213/
 for example and submit it for review.
 
