@@ -2612,7 +2612,7 @@ file = Wikibase/repo/i18n/%CODE%.json
 descmsg = wikibase-desc
 aliasfile = Wikibase/repo/Wikibase.i18n.alias.php
 optional = wikibase-itemlink, wikibase-itemlink-id-wrapper, wikibase-itemlink-title, wikibase-propertyedittool-counter-pending-pendingsubpart
-optional = wikibase-itemlink-userlang-wrapper, wikibase-ui-pendingquantitycounter-pending-pendingsubpart
+optional = wikibase-itemlink-userlang-wrapper
 optional = wikibase-mylanguagefallbackchain-verbatim-item
 ignored = wikibase-api-common-item, wikibase-api-badtoken, wikibase-api-cant-load-entity-content
 ignored = wikibase-api-editconflict, wikibase-api-failed-add-sitelink, wikibase-api-failed-modify
@@ -2627,7 +2627,7 @@ ignored = wikibase-api-not-statement, wikibase-api-not-item, wikibase-api-not-re
 ignored = wikibase-api-not-recognized, wikibase-api-not-recognized-array, wikibase-api-not-recognized-language
 ignored = wikibase-api-not-recognized-string, wikibase-api-param-missing, wikibase-api-param-illegal
 ignored = wikibase-api-permissiondenied, wikibase-api-wrong-class
-ignored = wikibase-ui-pendingquantitycounter-nonpending, wikibase-ui-pendingquantitycounter-pending, wikibase-property-footer
+ignored = wikibase-property-footer
 ignored = wikibase-shortcopyrightwarning-version, wikibase-entitytermsview-entitytermsforlanguagelistview-configure-link
 
 # Real extension?
