@@ -471,7 +471,6 @@ pfunc_expr_unexpected_operator
 coll-book_creator
 september-gen
 badtitletext
-wikibase-statementview-referencesheading-pendingcountersubject
 tooltip-ca-nstab-template
 centralauth-foreign-link
 centralauth-foreign-contributions
