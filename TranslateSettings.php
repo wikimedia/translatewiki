@@ -69,14 +69,6 @@ function customMessageGroups( $id ) {
 	return $mg;
 }
 
-$wgTranslateCC['wiki-twn-mainpage'] = 'customMessageGroupTwnMainpage';
-function customMessageGroupTwnMainpage( $id ) {
-	$mg = new WikiMessageGroup( 'wiki-twn-mainpage', 'twn-mainpage' );
-	$mg->setLabel( 'Translatewiki.net main page' );
-	$mg->setDescription( '{{int:twn-mainpage-desc}}' );
-	return $mg;
-}
-
 # Add aggregate message groups for MediaWiki extensions.
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwgerrit.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwgithub.yaml";
