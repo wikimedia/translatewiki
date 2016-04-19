@@ -1327,6 +1327,8 @@ JS Bread Crumbs
 optional = jsbreadcrumbs-separator
 
 Json Config
+optional = jsonconfig-type-abbr-invalid, jsonconfig-type-abbr-string, jsonconfig-type-abbr-localized
+optional = jsonconfig-type-abbr-number, jsonconfig-type-abbr-boolean
 
 Kartographer
 optional = visualeditor-mwmapsdialog-geojson, kartographer-coord-combined, kartographer-coord-dms
