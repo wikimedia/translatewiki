@@ -209,6 +209,15 @@
 			}
 		}
 	},
+	"wikidata": {
+		"group": "wikidata-*",
+		"repos": {
+			"mwgerrit/wikidata/query/gui": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/wikidata/query/gui"
+			}
+		}
+	},
 	"wikipedia-android": {
 		"group": "out-wikimedia-mobile-wikipedia-android-*",
 		"repos": {
