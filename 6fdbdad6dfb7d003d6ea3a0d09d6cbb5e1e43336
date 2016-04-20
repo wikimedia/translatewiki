@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae564743_63c30d0b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-04-20T17:46:52Z",
+      "side": 1,
+      "message": "I have hard time parsing this. I guess it means \"Merge (all) gerrit patches if any gerrit repos were involved\"",
+      "revId": "6fdbdad6dfb7d003d6ea3a0d09d6cbb5e1e43336",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae564743_e3571d5b",
+        "filename": "repong/repong.php",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-04-20T17:46:52Z",
+      "side": 1,
+      "message": "I\u0027d copy \"$bindir \u003d realpath( __DIR__ . \u0027/../bin\u0027 );\" here for consistency. Or if you want to refactor, set it in constructor.",
+      "revId": "6fdbdad6dfb7d003d6ea3a0d09d6cbb5e1e43336",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
