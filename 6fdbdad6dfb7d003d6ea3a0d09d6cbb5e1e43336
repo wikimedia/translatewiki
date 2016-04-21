@@ -51,6 +51,24 @@
       "revId": "6fdbdad6dfb7d003d6ea3a0d09d6cbb5e1e43336",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae564743_85e8e1b0",
+        "filename": "repong/repong.php",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-04-21T12:40:28Z",
+      "side": 1,
+      "message": "Fixed in PS7.",
+      "parentUuid": "ae564743_e3571d5b",
+      "revId": "6fdbdad6dfb7d003d6ea3a0d09d6cbb5e1e43336",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
