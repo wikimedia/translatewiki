@@ -13,4 +13,6 @@ php /srv/mediawiki/targets/production/extensions/Translate/scripts/processMessag
 if [ -f "/resources/caches/translatewiki.net/messagechanges.$NAME.cdb" ]
 then
 	"$DIRSCRIPT/udpcast" "Raymond: https://translatewiki.net/wiki/Special:ManageMessageGroups/$NAME"
+else
+	"$DIRSCRIPT/udpcast" "Raymond: No updates"
 fi
