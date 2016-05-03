@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae564743_20c25e5d",
+        "filename": "melange/BundleCreater.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-05-03T07:25:32Z",
+      "side": 1,
+      "message": "Surely you need a loop over extensions like in create_tag? Is it possibly to sign a tag after it is created?",
+      "revId": "fead29ac0073bc6598be1e708d7f35cb80922a30",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
