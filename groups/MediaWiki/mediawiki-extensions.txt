@@ -1335,6 +1335,7 @@ optional = visualeditor-mwmapsdialog-geojson, kartographer-coord-combined, karto
 optional = kartographer-coord-lat-positive, kartographer-coord-lat-negative
 optional = kartographer-coord-lon-positive, kartographer-coord-lon-negative
 optional = kartographer-error-context
+optional = kartographer.css, kartographer.js
 
 Labeled Section Transclusion
 descmsg = lst-desc
