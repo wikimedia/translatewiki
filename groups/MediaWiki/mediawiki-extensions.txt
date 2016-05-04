@@ -2024,6 +2024,8 @@ aliasfile = RevisionCommentSupplement/RevisionCommentSupplement.alias.php
 descmsg = revcs-desc
 optional = revcs-log-supplement
 
+Revision Slider
+
 Right Functions
 optional = rightfunctions-rest1, rightfunctions-rest2, rightfunctions-rest3, rightfunctions-sep
 
