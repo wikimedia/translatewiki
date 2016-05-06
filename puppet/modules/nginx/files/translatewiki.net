@@ -8,8 +8,8 @@ server {
 }
 
 server {
-	listen 443 ssl default_server deferred spdy;
-	listen [2a03:4000:6:b01e::1]:443 default_server deferred ssl spdy;
+	listen 443 ssl default_server deferred http2;
+	listen [2a03:4000:6:b01e::1]:443 default_server deferred ssl http2;
 
 	include includes/ssl.conf;
 
