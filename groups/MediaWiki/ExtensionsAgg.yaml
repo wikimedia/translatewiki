@@ -82,4 +82,5 @@ BASIC:
 GROUPS:
   - ext-visualeditor-*
   - ext-citoid
+  - mwgerrit-oojs-ui
   - mwgerrit-visualeditor-ve
