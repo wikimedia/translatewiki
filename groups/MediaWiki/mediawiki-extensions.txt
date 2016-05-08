@@ -1828,8 +1828,6 @@ aliasfile = Petition/Petition.alias.php
 
 Per Page License
 
-Performance Inspector
-
 Persona
 aliasfile = Persona/Persona.i18n.alias.php
 
