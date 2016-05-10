@@ -504,7 +504,6 @@ coll-add_page_tooltip
 tpt-languages-nonzero
 may-gen
 tooltip-ca-move
-wikibase-aliases-empty
 createacct-yourpassword-ph
 createacct-yourpasswordagain-ph
 createacct-yourpasswordagain
