@@ -34,6 +34,24 @@
       "revId": "fead29ac0073bc6598be1e708d7f35cb80922a30",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae564743_1ae30c9d",
+        "filename": "melange/BundleCreater.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-05-11T06:17:16Z",
+      "side": 1,
+      "message": "Ok. But how about the loop over all extensions? Did you test this?",
+      "parentUuid": "ae564743_60b3b6fd",
+      "revId": "fead29ac0073bc6598be1e708d7f35cb80922a30",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
