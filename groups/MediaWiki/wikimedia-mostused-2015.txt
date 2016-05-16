@@ -553,7 +553,6 @@ passwordreset
 mobile-frontend-main-menu-account-create
 timedmedia-source-file
 logentry-move-move
-timedmedia-no-player-js
 allarticles
 wikibase-description-empty
 categories
