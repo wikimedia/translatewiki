@@ -46,6 +46,8 @@ FILES:
 
 TAGS:
   optional:
+    - authprovider-confirmlink-failed-line
+    - authprovider-confirmlink-option
     - backlinksubtitle
     - bitrate-bits
     - bitrate-exabits
@@ -375,6 +377,8 @@ TAGS:
     - apihelp-link
     - apihelp-summary
     - apisandbox-summary
+    - authmanager-account-password-domain
+    - authprovider-confirmlink-request-help
     - autoblock_whitelist
     - autocomment-prefix
     - blocklist-summary
