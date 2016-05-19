@@ -611,6 +611,8 @@ ignored = code-rev-comment-preview-accesskey, code-rev-submit-accesskey, code-re
 ignored = code-rev-id, code-rev-next-accesskey
 optional = group-svnadmins.css, group-svnadmins.js
 
+Cognate
+
 # Collaboration Kit // 2016-03-08: Boilerplate only
 
 Collapsible Vector
