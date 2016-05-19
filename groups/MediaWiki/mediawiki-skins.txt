@@ -17,6 +17,10 @@ file = chameleon/resources/i18n/%CODE%.json
 Cologne Blue
 optional = cologneblue.css, cologneblue.js
 
+Custom Page
+descmsg = custompage-skin-desc
+optional = skinname-custompage, custompage.css, custompage.js
+
 Daddio
 
 erudite
