@@ -230,6 +230,7 @@ wfAddNamespace( 1204, 'Nocc' );
 $wgTranslateGroupFiles[] = "$GROUPS/Nocc/Nocc.yaml";
 
 wfAddNamespace( 1206, 'Wikimedia' );
+$wgTranslateGroupFiles[] = "$GROUPS/wikidata/wikidata.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiEduDashboard.yaml";
