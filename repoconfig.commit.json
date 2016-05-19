@@ -212,7 +212,7 @@
 	"wikidata": {
 		"group": "wikidata-*",
 		"repos": {
-			"mwgerrit/wikidata/query/gui": {
+			"wikidata/query/gui": {
 				"type": "wmgerrit",
 				"url": "ssh://l10n-bot@gerrit.wikimedia.org:29418/wikidata/query/gui"
 			}
