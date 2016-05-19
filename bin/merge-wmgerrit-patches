@@ -5,5 +5,5 @@ GERRIT="$U@gerrit.wikimedia.org -p 29418 gerrit"
 
 for i in `ssh $GERRIT query --format=TEXT owner:$U status:open | grep '  url:' |cut -d/ -f5 |sort`
 do
-    ssh $GERRIT gerrit review $i,1 --code-review 2 --verified 2 --submit
+    ssh $GERRIT review $i,1 --code-review 2 --verified 2 --submit
 done
