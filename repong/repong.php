@@ -42,22 +42,20 @@ class RepoNg {
 	}
 
 	public function export() {
-		$base = $this->meta['basepath'];
 		$exporter = $this->meta['export'];
-
-		$group = $this->config['group'];
-
-		$lang = '*';
-		$skip = 'en,qqq';
-		$threshold = '35';
+		$group = " --group='" . $this->config['group'] . "'";
+		$lang = " --lang='*'";
+		$skip = " --skip='en,qqq'";
+		$threshold = ' --threshold=35';
+		$base = " --target='" . $this->meta['basepath'] . "'";
 
 		if ( isset( $this->config['export-threshold'] ) ) {
 			$threshold = (int)$this->config['export-threshold'];
+			$threshold = " --threshold='$threshold'";
 		}
 
 		// First normal export
-		$command = "$exporter --group='$group' --lang='$lang' --skip='$skip' " .
-			"--threshold='$threshold' --target='$base'";
+		$command = "$exporter$group$lang$skip$threshold$base";
 		echo "$command\n";
 
 		$process = new Process( $command );
@@ -66,7 +64,8 @@ class RepoNg {
 		print $process->getOutput();
 
 		// Then message documentation
-		$command = "$exporter --group='$group' --lang=qqq --target='$base'";
+		$lang = " --lang='qqq'";
+		$command = "$exporter$group$lang$base";
 		echo "$command\n";
 
 		$process = new Process( $command );
