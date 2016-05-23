@@ -33,6 +33,15 @@
 			}
 		}
 	},
+	"crosswatch": {
+		"group": "crosswatch",
+		"repos": {
+			"crosswatch": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/labs/tools/crosswatch"
+			}
+		}
+	},
 	"entryscape": {
 		"group": "entryscape-*",
 		"repos": {

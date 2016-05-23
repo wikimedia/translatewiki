@@ -29,11 +29,7 @@ for i in $REPONG; do
 	fi
 done
 
-if [ "$PROJECT" = "crosswatch" ]
-then
-	php "$EXPORTER" --target . --group=crosswatch --lang='*' --skip en $THRESHOLD
-
-elif [ "$PROJECT" = "eol" ]
+if [ "$PROJECT" = "eol" ]
 then
 	php "$EXPORTER" --target . --group=out-eol* --lang='*' --skip en $THRESHOLD
 

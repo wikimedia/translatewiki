@@ -15,7 +15,6 @@ REPO_MWEXTGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/extensions
 REPO_MWSKINGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/skins
 
 # other
-REPO_CROSSWATCH=ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/crosswatch
 REPO_EOL=git@github.com:EOL/eol.git
 REPO_ETHERPADLITE=git@github.com:ether/etherpad-lite.git
 REPO_ETHERPADLITE_BRANCH="develop"

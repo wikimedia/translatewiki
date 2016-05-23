@@ -6,7 +6,6 @@ REPO_MEDIAWIKI_BRANCHES="master"
 REPO_MWEXTGIT=https://gerrit.wikimedia.org/r/p/mediawiki/extensions
 REPO_MWSKINGIT=https://gerrit.wikimedia.org/r/p/mediawiki/skins
 
-REPO_CROSSWATCH=https://gerrit.wikimedia.org/r/labs/tools/crosswatch
 REPO_EOL=git://github.com/EOL/eol.git
 REPO_ETHERPADLITE=git://github.com/ether/etherpad-lite.git
 REPO_ETHERPADLITE_BRANCH="develop"

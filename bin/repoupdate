@@ -73,7 +73,6 @@ for i in $GITCLUPDATE; do
 done
 
 GITCLUPDATE_GERRIT="\
-crosswatch \
 int-dcatap \
 pywikibot \
 wikimania"

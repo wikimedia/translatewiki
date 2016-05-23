@@ -73,7 +73,6 @@ done
 
 # TODO: Move to separate file?
 GERRITPROJECTS="\
-crosswatch \
 int-dcatap \
 pywikibot \
 wikimania"
