@@ -8,6 +8,9 @@ class RepoNg {
 	protected $bindir;
 	protected $meta;
 	protected $config;
+	protected $usernameConversion = [
+		'nike' => 'nikerabbit',
+	];
 
 	public function __construct( array $meta, array $config ) {
 		$this->bindir = realpath( __DIR__ . '/../bin' );
@@ -26,7 +29,16 @@ class RepoNg {
 		foreach ( $this->config['repos'] as $name => $repo ) {
 			if ( $repo['type'] === 'git' ) {
 				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
-				$command = $this->bindir . "/clupdate-git-repo '{$repo['url']}' '$base/$name' '$branch'";
+
+				$userName = get_current_user();
+				if ( isset( $this->usernameConversion[$userName] ) ) {
+					$userName = $this->usernameConversion[$userName];
+				}
+
+				$repoUrl = $repo['url'];
+				$repoUrl = str_replace( 'USERNAME', $userName, $repoUrl );
+
+				$command = $this->bindir . "/clupdate-git-repo '$repoUrl' '$base/$name' '$branch'";
 			} elseif ( $repo['type'] === 'wmgerrit' ) {
 				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
 				$command = $this->bindir . "/clupdate-gerrit-repo '{$repo['url']}' '$base/$name' '$branch'";
