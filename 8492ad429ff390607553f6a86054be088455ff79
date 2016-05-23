@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae564743_7eef4ee4",
+        "filename": "repong/repong.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-05-23T08:22:10Z",
+      "side": 1,
+      "message": "I would add (int) here just to be safe.",
+      "revId": "8492ad429ff390607553f6a86054be088455ff79",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
