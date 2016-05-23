@@ -72,7 +72,7 @@
 		}
 	},
 	"hivejs": {
-		"group": "hive*",
+		"group": "hivejs-*",
 		"repos": {
 			"hivejs/hive-editor-text-codemirror": {
 				"type": "git",
