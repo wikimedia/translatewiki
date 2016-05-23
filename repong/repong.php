@@ -43,11 +43,22 @@ class RepoNg {
 
 	public function export() {
 		$exporter = $this->meta['export'];
+		$hours = '';
 		$group = " --group='" . $this->config['group'] . "'";
 		$lang = " --lang='*'";
 		$skip = " --skip='en,qqq'";
 		$threshold = ' --threshold=35';
 		$base = " --target='" . $this->meta['basepath'] . "'";
+
+		if ( isset( $this->config['export-hours'] ) ) {
+			$hours = (int)$this->config['export-hours'];
+			$hours = " --hours='$hours'";
+		}
+
+		if ( isset( $this->config['no-export-languages'] ) ) {
+			$skip = $this->config['no-export-languages'];
+			$skip = " --skip='$skip'";
+		}
 
 		if ( isset( $this->config['export-threshold'] ) ) {
 			$threshold = (int)$this->config['export-threshold'];
@@ -55,7 +66,7 @@ class RepoNg {
 		}
 
 		// First normal export
-		$command = "$exporter$group$lang$skip$threshold$base";
+		$command = "$exporter$hours$group$lang$skip$threshold$base";
 		echo "$command\n";
 
 		$process = new Process( $command );
@@ -72,6 +83,19 @@ class RepoNg {
 		$process->mustRun();
 		$process->setTimeout( 30 );
 		print $process->getOutput();
+
+		// Last languages that have a forced export
+		if ( isset( $this->config['always-export-languages'] ) ) {
+			$lang = $this->config['always-export-languages'];
+			$lang = " --lang='$lang'";
+			$command = "$exporter$hours$group$lang$base";
+			echo "$command\n";
+
+			$process = new Process( $command );
+			$process->mustRun();
+			$process->setTimeout( 120 );
+			print $process->getOutput();
+		}
 	}
 
 	public function commit() {
