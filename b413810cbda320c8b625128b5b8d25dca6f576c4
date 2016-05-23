@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ae564743_94c16385",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-05-23T14:01:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae564743_7956482e",
+      "revId": "b413810cbda320c8b625128b5b8d25dca6f576c4",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ae564743_d93834ee",
         "filename": "repoconfig.commit.json",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2016-05-23T13:11:55Z",
       "side": 1,
       "message": "Is there any particular reason to use non-standard threshold here?",
+      "revId": "b413810cbda320c8b625128b5b8d25dca6f576c4",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae564743_74bc8f01",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-05-23T14:01:14Z",
+      "side": 1,
+      "message": "There shouldn\u0027t be a threshold, but if it\u0027s absent, the FFS behaves badly, so it\u0027s 1.",
+      "parentUuid": "ae564743_d93834ee",
       "revId": "b413810cbda320c8b625128b5b8d25dca6f576c4",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -64,6 +100,24 @@
       "writtenOn": "2016-05-23T13:11:55Z",
       "side": 1,
       "message": "Dubious whether this is needed here as this file cannot be used for exporting.",
+      "revId": "b413810cbda320c8b625128b5b8d25dca6f576c4",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae564743_f43fff7f",
+        "filename": "repoconfig.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-05-23T14:01:14Z",
+      "side": 1,
+      "message": "Leaving it in for consistency with the commit version.",
+      "parentUuid": "ae564743_b93bc0e6",
       "revId": "b413810cbda320c8b625128b5b8d25dca6f576c4",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
