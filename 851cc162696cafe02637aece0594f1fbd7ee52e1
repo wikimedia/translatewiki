@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae564743_99f7dc55",
+        "filename": "repong/repong.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-05-23T12:55:15Z",
+      "side": 1,
+      "message": "Personally I would use an array with implode( \" \", $tokens );",
+      "revId": "851cc162696cafe02637aece0594f1fbd7ee52e1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
