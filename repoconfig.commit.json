@@ -51,6 +51,16 @@
 			}
 		}
 	},
+	"etherpad-lite": {
+		"group": "out-etherpad-lite",
+		"repos": {
+			"etherpad-lite": {
+				"type": "git",
+				"branch": "develop",
+				"url": "git@github.com:ether/etherpad-lite.git"
+			}
+		}
+	},
 	"europeana": {
 		"group": "out-europeana",
 		"export-threshold": 75,

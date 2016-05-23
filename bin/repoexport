@@ -33,10 +33,6 @@ if [ "$PROJECT" = "eol" ]
 then
 	php "$EXPORTER" --target . --group=out-eol* --lang='*' --skip en $THRESHOLD
 
-elif [ "$PROJECT" = "etherpad-lite" ]
-then
-	php "$EXPORTER" --target . --group=out-$PROJECT --lang='*' --skip en,qqq $THRESHOLD
-
 elif [ "$PROJECT" = "freecol" ]
 then
 	php "$EXPORTER" --target . --group=out-freecol --lang='*' --skip en,qqq $THRESHOLD

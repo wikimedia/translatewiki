@@ -94,11 +94,7 @@ for i in $REPONG; do
 	fi
 done
 
-if [ "$PROJECT" = "etherpad-lite" ]
-then
-    gitCommit "$DIR/$PROJECT" develop
-
-elif [ "$PROJECT" = "fudforum" ]
+if [ "$PROJECT" = "fudforum" ]
 then
 	cd "$DIR/$PROJECT"
 	svn add -q --force *

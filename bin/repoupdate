@@ -92,11 +92,7 @@ for i in $REPONG; do
 	fi
 done
 
-if [ "$PROJECT" = "etherpad-lite" ]
-then
-	doUpdate "$PROJECT" "$CLUPDATE" $REPO_ETHERPADLITE_BRANCH
-
-elif [ "$PROJECT" = "fudforum" ]
+if [ "$PROJECT" = "fudforum" ]
 then
 	svn up -q $PROJECT
 
