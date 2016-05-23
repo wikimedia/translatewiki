@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ae564743_54718b71",
+        "filename": "repong/repong.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-05-23T14:08:39Z",
+      "side": 1,
+      "message": "I hope the same...",
+      "parentUuid": "ae564743_d96af4e9",
+      "revId": "dc13d498a3ea803513da838d518c0822cc2bf441",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ae564743_b96d8003",
         "filename": "repong/repong.php",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2016-05-23T13:05:34Z",
       "side": 1,
       "message": "Is there really need to hind this behind a separate type? What are the downsides of doing it unconditionally?",
+      "revId": "dc13d498a3ea803513da838d518c0822cc2bf441",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae564743_34f337e4",
+        "filename": "repong/repong.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-05-23T14:08:39Z",
+      "side": 1,
+      "message": "I don\u0027t really see any downsides, so will do it conditionally in a follow-up.",
+      "parentUuid": "ae564743_b96d8003",
       "revId": "dc13d498a3ea803513da838d518c0822cc2bf441",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "ae564743_d4047bcb",
+        "filename": "repong/repong.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-05-23T14:08:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae564743_597ee4ad",
+      "revId": "dc13d498a3ea803513da838d518c0822cc2bf441",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ae564743_397970c3",
         "filename": "repong/repong.php",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2016-05-23T13:05:34Z",
       "side": 1,
       "message": "Ideally in separate patch but okay.",
+      "revId": "dc13d498a3ea803513da838d518c0822cc2bf441",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae564743_d42bdb2c",
+        "filename": "repong/repong.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-05-23T14:08:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae564743_397970c3",
       "revId": "dc13d498a3ea803513da838d518c0822cc2bf441",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
