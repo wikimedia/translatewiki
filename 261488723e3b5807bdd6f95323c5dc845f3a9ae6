@@ -16,6 +16,24 @@
       "revId": "261488723e3b5807bdd6f95323c5dc845f3a9ae6",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae564743_2b58f527",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-05-23T16:22:17Z",
+      "side": 1,
+      "message": "Initially no, later yes, and then I added more features to repong. It will be added in this patch set.",
+      "parentUuid": "ae564743_afc9b22a",
+      "revId": "261488723e3b5807bdd6f95323c5dc845f3a9ae6",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
