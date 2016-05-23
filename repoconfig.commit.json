@@ -71,6 +71,24 @@
 			}
 		}
 	},
+	"freecol": {
+		"group": "out-freecol",
+		"repos": {
+			"fuel": {
+				"type": "gitwithusername",
+				"url": "ssh://USERNAME@git.code.sf.net/p/freecol/git"
+			}
+		}
+	},
+	"fuel": {
+		"group": "out-fuel-*",
+		"repos": {
+			"fuel": {
+				"type": "gitwithusername",
+				"url": "ssh://USERNAME@git.fedorahosted.org/git/fuel.git"
+			}
+		}
+	},
 	"hivejs": {
 		"group": "hivejs-*",
 		"repos": {
