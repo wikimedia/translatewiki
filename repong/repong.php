@@ -107,7 +107,7 @@ class RepoNg {
 
 				$gerritCommitted = true;
 			} else {
-				throw new RuntimeException( "Unknown repo type" );
+				throw new RuntimeException( 'Unknown repo type' );
 			}
 			echo "$command\n";
 
