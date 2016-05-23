@@ -68,18 +68,6 @@ for i in $GITCLUPDATE; do
 	fi
 done
 
-GITCLUPDATE_GERRIT="\
-int-dcatap \
-pywikibot \
-wikimania"
-
-for i in $GITCLUPDATE_GERRIT; do
-	if [ "$i" = "$PROJECT" ]
-	then
-		doUpdate "$PROJECT" "$CLUPDATE_GERRIT"
-	fi
-done
-
 REPONG=$(cat "$DIRSCRIPT/REPONG-PROJECTS");
 for i in $REPONG; do
 	if [ "$i" = "$PROJECT" ]

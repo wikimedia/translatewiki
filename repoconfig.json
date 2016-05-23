@@ -42,6 +42,15 @@
 			}
 		}
 	},
+	"int-dcatap": {
+		"group": "int-dcatap",
+		"repos": {
+			"int-dcatap": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/operations/dumps/dcat"
+			}
+		}
+	},
 	"entryscape": {
 		"group": "entryscape-*",
 		"repos": {
@@ -143,6 +152,16 @@
 			"pageviews": {
 				"type": "git",
 				"url": "https://github.com/MusikAnimal/pageviews.git"
+			}
+		}
+	},
+	"pywikibot": {
+		"group": "out-pywikipedia-*",
+		"export-threshold": 1,
+		"repos": {
+			"pywikibot": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/pywikibot/i18n"
 			}
 		}
 	},
@@ -280,6 +299,15 @@
 			"wikipedia-android": {
 				"type": "git",
 				"url": "https://phabricator.wikimedia.org/diffusion/APAW"
+			}
+		}
+	},
+	"wikimania": {
+		"group": "out-wikimania-scholarships-app",
+		"repos": {
+			"wikimania": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/wikimedia/wikimania-scholarships"
 			}
 		}
 	},

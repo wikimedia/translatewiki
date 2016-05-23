@@ -67,21 +67,6 @@ for i in $GITPROJECTS; do
 	fi
 done
 
-# TODO: Move to separate file?
-GERRITPROJECTS="\
-int-dcatap \
-pywikibot \
-wikimania"
-
-for i in $GERRITPROJECTS; do
-	if [ "$i" = "$PROJECT" ]
-	then
-		gitCommitGerrit "$DIR/$PROJECT"
-		mergeL10n-bot
-		exit 0
-	fi
-done
-
 REPONG=$(cat "$DIRSCRIPT/REPONG-PROJECTS");
 for i in $REPONG; do
 	if [ "$i" = "$PROJECT" ]

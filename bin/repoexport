@@ -45,10 +45,6 @@ elif [ "$PROJECT" = "intuition" ]
 then
 	php "$EXPORTER" --target . --group=tsint* --lang='*' --skip "$SKIPLANGS"
 
-elif [ "$PROJECT" = "int-dcatap" ]
-then
-	php "$EXPORTER" --target . --group=int-dcatap --lang='*' --skip "$SKIPLANGS"
-
 elif [ "$PROJECT" = "int-orphantalk" ]
 then
 	php "$EXPORTER" --target . --group=int-orphantalk --lang='*' --skip "$SKIPLANGS"
@@ -133,10 +129,6 @@ elif [ "$PROJECT" = "osm" ]
 then
 	php "$EXPORTER" --target . --group=out-osm-* --lang='*' --skip en,qqq $THRESHOLD
 
-elif [ "$PROJECT" = "pywikibot" ]
-then
-	php "$EXPORTER" --target . --group=out-pywikipedia* --lang='*' --skip en --threshold 1
-
 elif [ "$PROJECT" = "vicuna" ]
 then
 	php "$EXPORTER" --target . --group=out-vicuna --lang='*' --skip en,qqq $THRESHOLD
@@ -156,11 +148,6 @@ then
 elif [ "$PROJECT" = "wikiedudashboard" ]
 then
 	php "$EXPORTER" --target . --group=wikiedudashboard --lang='*' --skip en
-
-elif [ "$PROJECT" = "wikimania" ]
-then
-	php "$EXPORTER" --target . --group=out-wikimania-scholarships-app --lang='*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-wikimania-scholarships-app --lang qqq
 
 else
 	echo "`basename $0`: Unknown project"

@@ -2,6 +2,7 @@ blockly
 citationhunt
 codev
 crosswatch
+int-dcatap
 entryscape
 etherpad-lite
 europeana
@@ -13,7 +14,9 @@ inaturalist
 mwgerrit
 mwgithub
 pageviews
+pywikibot
 wiki-ai
 wikidata
+wikimania
 wikipedia-android
 wikipedia-ios
