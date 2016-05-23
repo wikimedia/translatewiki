@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae564743_be1c46cc",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-05-23T08:46:23Z",
+      "side": 1,
+      "message": "Right, now you need to update this :)O",
+      "revId": "788b70db5bbbf4f91a6f5f32a51e61106b963d6e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
