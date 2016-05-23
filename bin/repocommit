@@ -38,7 +38,6 @@ mergeL10n-bot() {
 # TODO: Move to separate file?
 GITPROJECTS="\
 eol \
-europeana \
 freecol \
 fuel \
 huggle \

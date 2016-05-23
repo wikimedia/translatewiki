@@ -51,6 +51,16 @@
 			}
 		}
 	},
+	"europeana": {
+		"group": "out-europeana",
+		"export-threshold": 75,
+		"repos": {
+			"europeana": {
+				"type": "git",
+				"url": "git@github.com:europeana/Europeana1914-1918.git"
+			}
+		}
+	},
 	"hivejs": {
 		"group": "hivejs*",
 		"repos": {

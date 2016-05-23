@@ -47,7 +47,6 @@ fi
 
 GITCLUPDATE="\
 eol \
-europeana \
 freecol \
 fuel \
 huggle \

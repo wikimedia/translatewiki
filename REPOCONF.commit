@@ -18,7 +18,6 @@ REPO_MWSKINGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/skins
 REPO_EOL=git@github.com:EOL/eol.git
 REPO_ETHERPADLITE=git@github.com:ether/etherpad-lite.git
 REPO_ETHERPADLITE_BRANCH="develop"
-REPO_EUROPEANA=git@github.com:europeana/Europeana1914-1918.git
 REPO_FREECOL=ssh://${THISUSER}@git.code.sf.net/p/freecol/git
 REPO_FUDFORUM=svn+ssh://${THISUSER}@svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
 REPO_FUEL=ssh://${THISUSER}@git.fedorahosted.org/git/fuel.git
