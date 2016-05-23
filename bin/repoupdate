@@ -47,8 +47,6 @@ fi
 
 GITCLUPDATE="\
 eol \
-freecol \
-fuel \
 intuition \
 int-orphantalk \
 int-raun \

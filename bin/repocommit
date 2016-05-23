@@ -38,8 +38,6 @@ mergeL10n-bot() {
 # TODO: Move to separate file?
 GITPROJECTS="\
 eol \
-freecol \
-fuel \
 intuition \
 int-orphantalk \
 int-raun \

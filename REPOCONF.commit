@@ -16,9 +16,7 @@ REPO_MWSKINGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/skins
 
 # other
 REPO_EOL=git@github.com:EOL/eol.git
-REPO_FREECOL=ssh://${THISUSER}@git.code.sf.net/p/freecol/git
 REPO_FUDFORUM=svn+ssh://${THISUSER}@svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
-REPO_FUEL=ssh://${THISUSER}@git.fedorahosted.org/git/fuel.git
 REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics
 REPO_IHRIS_BRANCH="4.2"
 REPO_IHRIS_MODULES="i2ce ihris-common ihris-manage ihris-qualify ihris-train"
