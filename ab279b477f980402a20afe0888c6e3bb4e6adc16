@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae564743_3ef2f696",
+        "filename": "bin/repocommit",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-05-23T08:42:32Z",
+      "side": 1,
+      "message": "if",
+      "revId": "ab279b477f980402a20afe0888c6e3bb4e6adc16",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae564743_9eed02b7",
+        "filename": "bin/repoupdate",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-05-23T08:42:32Z",
+      "side": 1,
+      "message": "if",
+      "revId": "ab279b477f980402a20afe0888c6e3bb4e6adc16",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
