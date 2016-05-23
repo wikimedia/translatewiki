@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae564743_5ed52a12",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-05-23T08:24:01Z",
+      "side": 1,
+      "message": "Europeana",
+      "revId": "37725609571c1f8708014693a1fbec50018b7540",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae564743_3ed03621",
+        "filename": "repoconfig.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-05-23T08:24:01Z",
+      "side": 1,
+      "message": "It seems most of this file is using https:// for github. But I believe both works as blockly is using git:// as well.",
+      "revId": "37725609571c1f8708014693a1fbec50018b7540",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
