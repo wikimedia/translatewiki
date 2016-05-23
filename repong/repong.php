@@ -51,6 +51,10 @@ class RepoNg {
 		$skip = 'en,qqq';
 		$threshold = '35';
 
+		if ( isset( $this->config['export-threshold'] ) ) {
+			$threshold = (int)$this->config['export-threshold'];
+		}
+
 		// First normal export
 		$command = "$exporter --group='$group' --lang='$lang' --skip='$skip' " .
 			"--threshold='$threshold' --target='$base'";
