@@ -21,23 +21,18 @@ Your extension variables are:
 Near the end, place the config lines given above followed by this:
 
 <syntaxhighlight lang=php>
-# Babel
-require_once "$EXT/Babel/Babel.php";
+wfLoadExtension( 'Babel' );
 
-# CLDR
-require_once "$EXT/cldr/cldr.php";
+wfLoadExtension( 'cldr' );
 
-# CleanChanges
-require_once "$EXT/CleanChanges/CleanChanges.php";
+wfLoadExtension( 'CleanChanges' );
 $wgCCTrailerFilter = true;
 $wgCCUserFilter = false;
 $wgDefaultUserOptions['usenewrc'] = 1;
 
-# LocalisationUpdate
-require_once "$EXT/LocalisationUpdate/LocalisationUpdate.php";
+wfLoadExtensions( 'LocalisationUpdate' );
 $wgLocalisationUpdateDirectory = "$IP/cache";
 
-# Translate
 require_once "$EXT/Translate/Translate.php";
 $wgGroupPermissions['user']['translate'] = true;
 $wgGroupPermissions['user']['translate-messagereview'] = true;
@@ -46,9 +41,9 @@ $wgGroupPermissions['user']['translate-import'] = true;
 $wgGroupPermissions['sysop']['pagetranslation'] = true;
 $wgGroupPermissions['sysop']['translate-manage'] = true;
 $wgTranslateDocumentationLanguageCode = 'qqq';
+$wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages
 
-# UniversalLanguageSelector
-require_once "$EXT/UniversalLanguageSelector/UniversalLanguageSelector.php";
+wfLoadExtension( 'UniversalLanguageSelector' );
 </syntaxhighlight>
 
 === Update database tables ===
