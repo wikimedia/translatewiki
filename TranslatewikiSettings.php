@@ -403,10 +403,6 @@ $wgExtensionFunctions[] = function () {
 };
 
 $wgHooks['LanguageGetNamespaces'][] = function ( &$list ) {
-	// help
-	unset( $list[12] );
-	unset( $list[13] );
-
 	global $wgTranslateMessageNamespaces;
 	$msgs = array_flip( $wgTranslateMessageNamespaces );
 	natcasesort( $list );
