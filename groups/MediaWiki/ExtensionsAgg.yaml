@@ -66,6 +66,16 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-flow-0-all
+  label: Flow messages - all
+  description: '{{Special:MyLanguage/Translations:Group descriptions/flow/en}}'
+
+GROUPS:
+  - ext-flow
+  - ext-flow-api
+
+---
+BASIC:
   id: ext-translate-0-all
   label: Translate messages - all
   description: '{{Special:MyLanguage/Translations:Group descriptions/translate/en}}'

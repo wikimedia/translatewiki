@@ -1075,6 +1075,10 @@ ignored = notification-body-flow-post-edited-user-talk, notification-body-flow-d
 ignored = notification-body-flow-summary-edited, notification-body-flow-summary-edited-user-talk
 optional = flow-post-interaction-separator
 
+Flow - API
+id = ext-flow-api
+file = Flow/i18n/api/%CODE%.json
+
 Flv Handler
 descmsg = flvhandler_desc
 
