@@ -825,7 +825,7 @@ id = ext-di-ag
 descmsg = amazon_gateway-desc
 ignored = apihelp-di_amazon_bill-description, apihelp-di_amazon_bill-param-amount, apihelp-di_amazon_bill-param-billingAgreementId
 ignored = apihelp-di_amazon_bill-param-currency_code, apihelp-di_amazon_bill-param-orderReferenceId, apihelp-di_amazon_bill-param-recurring
-ignored = apihelp-di_amazon_bill-param-token
+ignored = apihelp-di_amazon_bill-param-wmf_token
 
 Donation Interface - Astro Gateway
 file = DonationInterface/astropay_gateway/i18n/%CODE%.json
@@ -877,7 +877,7 @@ ignored = apihelp-di_wp_validate-param-street, apihelp-di_wp_validate-param-stat
 ignored = apihelp-di_wp_validate-param-zip, apihelp-di_wp_validate-param-country
 ignored = apihelp-di_wp_validate-param-city, apihelp-di_wp_validate-param-cvc
 ignored = apihelp-di_wp_validate-param-email, apihelp-di_wp_validate-param-payment_submethod
-ignored = apihelp-di_wp_validate-param-token, apihelp-di_wp_validate-param-amount
+ignored = apihelp-di_wp_validate-param-wmf_token, apihelp-di_wp_validate-param-amount
 ignored = apihelp-di_wp_validate-param-ffname
 
 Double Wiki
