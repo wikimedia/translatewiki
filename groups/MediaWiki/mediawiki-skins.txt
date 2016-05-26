@@ -23,6 +23,8 @@ optional = skinname-custompage, custompage.css, custompage.js
 
 Daddio
 
+# Deep Sea // Missing qqq
+
 erudite
 file = erudite/i18n/%CODE%.json
 ignored = erudite-extracontent-column1, erudite-extracontent-column2, erudite-extracontent-column3
@@ -52,6 +54,9 @@ ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 Nostalgia
 optional = nostalgia.css, nostalgia.js
 
+Refreshed
+ignored = refreshed-navigation
+
 # Repo is read only
 # Slate
 # optional = slate.css, slate.js
@@ -70,3 +75,6 @@ ignored = timeless-sitetitle
 
 Vector
 optional = vector.css, vector.js
+
+Vector V2
+optional = vectorv2.css, vectorv2.js, skinname-vectorv2
