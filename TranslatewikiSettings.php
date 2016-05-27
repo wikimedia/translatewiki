@@ -20,7 +20,6 @@ $wgJobTypeConf['default'] = [ 'class' => 'JobQueueDB', 'order' => 'random', 'cla
 /**
  * Experimentalism
  */
-$wgWellFormedXml = false;
 $wgExperimentalHtmlIds = true;
 $wgAllUnicodeFixes = true;
 $wgDevelopmentWarnings = true;
