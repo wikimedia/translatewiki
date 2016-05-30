@@ -83,7 +83,7 @@
 	"freecol": {
 		"group": "out-freecol",
 		"repos": {
-			"fuel": {
+			"freecol": {
 				"type": "git",
 				"url": "git://git.code.sf.net/p/freecol/git"
 			}

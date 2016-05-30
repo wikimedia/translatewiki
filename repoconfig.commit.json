@@ -84,8 +84,8 @@
 	"freecol": {
 		"group": "out-freecol",
 		"repos": {
-			"fuel": {
-				"type": "gitwithusername",
+			"freecol": {
+				"type": "git",
 				"url": "ssh://USERNAME@git.code.sf.net/p/freecol/git"
 			}
 		}
@@ -94,7 +94,7 @@
 		"group": "out-fuel-*",
 		"repos": {
 			"fuel": {
-				"type": "gitwithusername",
+				"type": "git",
 				"url": "ssh://USERNAME@git.fedorahosted.org/git/fuel.git"
 			}
 		}
