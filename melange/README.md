@@ -89,17 +89,27 @@ Make sure you've permission to create tag on all extensions repository.
 
     php melange.php create-tag
 
-f. Push tags to repository:
+f. Sign tag (optional):
+
+    php melange.php sign-tag
+
+This will sign tags and will use GPG key of person who is releasing MLEB.
+
+Make sure, git config has 'user.signingkey' set. This can be done by,
+
+    git config --global user.signingkey KEYID
+
+g. Push tags to repository:
 
     php melange.php push-tag
 
-g. Create archive:
+h. Create archive:
 
     php melange.php create-archive
 
 This will create .bz2 tarball and .sha256sum files in releases/ folder.
 
-f. Prepare announcement to sent to mailing list:
+i. Prepare announcement to sent to mailing list:
 
     php melange.php prepare-announcement
 

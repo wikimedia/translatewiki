@@ -234,6 +234,19 @@ TEXT;
 		}
 	}
 
+	public function sign_tag() {
+		$version = $this->conf['common']['releasever'];
+		$tag = str_replace( '$1', $version, $this->conf['common']['tagname'] );
+		$name = $this->conf['common']['bundlename'];
+
+		foreach ( $this->conf['extensions'] as $ext => $checkout ) {
+			chdir( "{$this->dir}/extensions/$ext" );
+			$msg = escapeshellarg( "$name $version" );
+			$cTag = escapeshellarg( $tag );
+			exec( "git tag -s $cTag -m $msg -f" );
+		}
+	}
+
 	public function push_tag() {
 		$version = $this->conf['common']['releasever'];
 		$tag = str_replace( '$1', $version, $this->conf['common']['tagname'] );
