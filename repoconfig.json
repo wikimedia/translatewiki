@@ -240,6 +240,10 @@
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticWatchlist.git"
 			},
+			"mwgithub/SemanticMediaWiki/SummaryCards": {
+				"type": "git",
+				"url": "https://github.com/SemanticMediaWiki/SummaryCards.git"
+			},
 			"mwgithub/SemanticMediaWiki/WhatsNearby": {
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/WhatsNearby.git"

@@ -278,3 +278,12 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/WhatsNearby/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-summarycards
+  label: Summary Cards
+  description: "{{Special:MyLanguage/MediaWiki:suc-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SummaryCards/i18n/%CODE%.json"
