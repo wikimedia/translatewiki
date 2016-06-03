@@ -76,6 +76,5 @@ ignored = timeless-sitetitle
 Vector
 optional = vector.css, vector.js
 
-# Uses "vector-" as message prefix. This conflicts with the Vector skin
-# Vector V2
-# optional = vectorv2.css, vectorv2.js, skinname-vectorv2
+Vector V2
+optional = vectorv2.css, vectorv2.js, skinname-vectorv2
