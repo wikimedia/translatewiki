@@ -1,6 +1,6 @@
 [submodule "puppet/modules/elasticsearch"]
 	path = puppet/modules/elasticsearch
-	url = https://github.com/electrical/puppet-elasticsearch.git
+	url = https://github.com/elastic/puppet-elasticsearch.git
 [submodule "puppet/modules/stdlib"]
 	path = puppet/modules/stdlib
 	url = https://github.com/puppetlabs/puppetlabs-stdlib
@@ -28,3 +28,6 @@
 [submodule "puppet/modules/java"]
 	path = puppet/modules/java
 	url = https://github.com/puppetlabs/puppetlabs-java.git
+[submodule "puppet/modules/datacat"]
+	path = puppet/modules/datacat
+	url = https://github.com/richardc/puppet-datacat.git
