@@ -120,13 +120,11 @@ class RepoNg {
 				$dir = "$base/$name";
 				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
 				$command = "cd $dir; git add .; " .
-					"git commit -m '$message' || :; " .
-					"git push origin '$branch'";
+					"if git commit -m '$message'; then git push origin '$branch'; fi";
 			} elseif ( $repo['type'] === 'wmgerrit' ) {
 				$dir = "$base/$name";
 				$command = "cd $dir; git add .; " .
-					"git commit -m '$message' || :; " .
-					'git review -r origin -t L10n';
+					"if git commit -m '$message'; then git review -r origin -t L10n; fi";
 
 				$gerritCommitted = true;
 			} else {
