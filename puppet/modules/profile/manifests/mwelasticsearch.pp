@@ -13,21 +13,24 @@ class profile::mwelasticsearch {
 
   class { 'elasticsearch':
     manage_repo  => true,
-    repo_version => '1.7',
+    repo_version => '2.x',
     java_install => true,
   }
 
   elasticsearch::instance { 'es-01':
     config        => {
-      'network.host'           => '::1',
-      'script.disable_dynamic' => false,
+      'network.host' => '::1',
     },
     init_defaults => {
       'ES_HEAP_SIZE' => '12g',
     },
   }
 
-  elasticsearch::plugin { 'mobz/elasticsearch-head':
+  elasticsearch::plugin { 'mobz/elasticsearch-head/latest':
+    instances => 'es-01',
+  }
+
+  elasticsearch::plugin { 'org.wikimedia.search/extra/2.3.3':
     instances => 'es-01',
   }
 }
