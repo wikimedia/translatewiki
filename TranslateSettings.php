@@ -77,6 +77,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaMainAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/ExtensionsAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/SkinsAgg.yaml";
+$wgTranslateGroupAliases['ext-installer'] = 'mediawiki-installer';
 
 $wgTranslateGroupFiles[] = "$GROUPS/PageTranslationAgg.yaml";
 
