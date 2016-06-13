@@ -236,6 +236,10 @@
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticSignup.git"
 			},
+			"mwgithub/SemanticMediaWiki/SemanticScribunto": {
+				"type": "git",
+				"url": "https://github.com/SemanticMediaWiki/SemanticScribunto.git"
+			},
 			"mwgithub/SemanticMediaWiki/SemanticWatchlist": {
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticWatchlist.git"

@@ -233,6 +233,10 @@
 				"type": "git",
 				"url": "git@github.com:SemanticMediaWiki/SemanticMetaTags.git"
 			},
+			"mwgithub/SemanticMediaWiki/SemanticScribunto": {
+				"type": "git",
+				"url": "git@github.com:SemanticMediaWiki/SemanticScribunto.git"
+			},
 			"mwgithub/SemanticMediaWiki/SemanticSignup": {
 				"type": "git",
 				"url": "git@github.com:SemanticMediaWiki/SemanticSignup.git"
