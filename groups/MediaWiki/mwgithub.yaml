@@ -287,3 +287,12 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SummaryCards/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-semanticscribunto
+  label: Semantic Scribunto
+  description: "{{Special:MyLanguage/MediaWiki:smw-scribunto-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticScribunto/i18n/%CODE%.json"
