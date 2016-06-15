@@ -1,0 +1,26 @@
+---
+BASIC:
+  id: gapfinder
+  label: GapFinder
+  description: "{{Special:MyLanguage/Translations:Group descriptions/gapfinder/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: gapfinder-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/translation-recs-app/api/static/i18n/%CODE%.json"
+
+CHECKER:
+  class: MediaWikiMessageChecker
+  checks:
+    - wikiParameterCheck
+    - pluralCheck
+
+INSERTABLES:
+  class: MediaWikiInsertablesSuggester

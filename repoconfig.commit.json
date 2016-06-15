@@ -99,6 +99,15 @@
 			}
 		}
 	},
+	"gapfinder": {
+		"group": "gapfinder",
+		"repos": {
+			"translation-recs-app": {
+				"type": "git",
+				"url": "git@github.com:wikimedia-research/translation-recs-app.git"
+			}
+		}
+	},
 	"hivejs": {
 		"group": "hivejs-*",
 		"repos": {
