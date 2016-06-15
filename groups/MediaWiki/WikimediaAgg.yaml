@@ -78,6 +78,7 @@ GROUPS:
   - ext-oauth
   - ext-oathauth # 2014-06-28 Used on https://wikitech.wikimedia.org
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
+  - ext-ores # 2016-06-13: 46b33671bbb46eb2aa826ef7b7399cded72e50d2
   - ext-pageimages
   - ext-parsoid # All wikis
   - ext-parsoidbatchapi # All wikis
