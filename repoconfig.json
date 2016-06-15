@@ -51,6 +51,15 @@
 			}
 		}
 	},
+	"int-heritage": {
+		"group": "int-heritage",
+		"repos": {
+			"int-heritage": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/labs/tools/heritage"
+			}
+		}
+	},
 	"entryscape": {
 		"group": "entryscape-*",
 		"repos": {

@@ -315,6 +315,7 @@ $wgTranslateSupportUrlNamespace[NS_PYWIKIBOT] = [
 wfAddNamespace( 1240, 'Intuition' );
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/IntuitionAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/dcatap.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Intuition/heritage.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/orphantalk.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/raun.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/refill.yaml";

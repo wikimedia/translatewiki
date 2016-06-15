@@ -26,9 +26,6 @@ ignored = title
 
 Krinkle
 
-Monuments API
-ignored = title
-
 Mwsnapshots
 ignored = title-download
 
