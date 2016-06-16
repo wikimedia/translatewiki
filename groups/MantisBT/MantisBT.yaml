@@ -133,6 +133,9 @@ TAGS:
     - s_priority_abbreviation
     - s_sponsorship_process_url
     - s_word_separator
+  ignored:
+    - s_dropzone_fallback_text
+    - s_dropzone_remove_file_confirmation
 
 ---
 BASIC:
