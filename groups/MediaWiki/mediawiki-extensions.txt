@@ -1186,6 +1186,7 @@ Google Geocode
 
 Google Login
 aliasfile = GoogleLogin/GoogleLogin.alias.php
+optional = googlelogin-auth-service-name
 
 #Google Maps / Archived in June 2013
 
