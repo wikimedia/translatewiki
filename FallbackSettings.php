@@ -118,6 +118,7 @@ $wgTranslateLanguageFallbacks['smn'] = [ 'fi', 'sma' ];
 $wgTranslateLanguageFallbacks['sv'] = [ 'da', 'nb', 'nn' ]; # Siebrand 2008-03-23
 $wgTranslateLanguageFallbacks['swb'] = 'sw';
 $wgTranslateLanguageFallbacks['tet'] = 'pt';
+$wgTranslateLanguageFallbacks['tji'] = 'zh';
 $wgTranslateLanguageFallbacks['tkr'] = 'ru';
 $wgTranslateLanguageFallbacks['tly'] = 'ru';
 $wgTranslateLanguageFallbacks['tru'] = 'arc'; # Robin 2012-02-18
