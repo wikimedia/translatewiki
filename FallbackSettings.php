@@ -13,6 +13,7 @@ $wgTranslateLanguageFallbacks['ban'] = [ 'id', 'jv' ];
 $wgTranslateLanguageFallbacks['bbc-latn'] = [ 'id', 'ms' ]; # Robin 2011-20-16
 $wgTranslateLanguageFallbacks['be-tarask'] = [ 'pl', 'ru', 'uk', 'be' ];
 $wgTranslateLanguageFallbacks['bew'] = 'id';
+$wgTranslateLanguageFallbacks['bft'] = 'ur';
 $wgTranslateLanguageFallbacks['bfq'] = [ 'kn', 'ta' ];
 $wgTranslateLanguageFallbacks['bjn'] = 'id';
 $wgTranslateLanguageFallbacks['br'] = [ 'roa-rup', 'pms', 'fr', 'it' ];

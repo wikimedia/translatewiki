@@ -9,6 +9,7 @@ $wgExtraLanguageNames['atj'] = 'Atikamekw'; # Atikamekw / Nikerabbit 2016-06-09
 $wgExtraLanguageNames['awa'] = 'अवधी'; # Awadhi / Siebrand 2014-12-28
 $wgExtraLanguageNames['ban'] = 'ᬩᬲᬩᬮᬶ'; # Balinese / Siebrand 2012-11-25
 $wgExtraLanguageNames['bew'] = 'Bahasa Betawi'; # Betawi / Siebrand 2008-07-13
+$wgExtraLanguageNames['bft'] = 'بلتی'; # Balti / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['bfq'] = 'படகா'; # UBadaga / Siebrand 2009-11-19
 $wgExtraLanguageNames['ciw'] = 'Ojibwemowin'; # Chippewa / Siebrand 2014-03-21
 $wgExtraLanguageNames['cja-latn'] = 'Cham Gah Pai'; # Western Cham (Latin script) / 2015-06-XX
