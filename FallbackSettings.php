@@ -111,6 +111,7 @@ $wgTranslateLanguageFallbacks['shy-latn'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['sli'] = [ 'pl', 'szl' ];
 $wgTranslateLanguageFallbacks['sly'] = [ 'id' ];
 $wgTranslateLanguageFallbacks['sma'] = [ 'sv', 'nb', 'se' ];
+$wgTranslateLanguageFallbacks['smj'] = [ 'nb' ];
 $wgTranslateLanguageFallbacks['smn'] = [ 'fi', 'sma' ];
 $wgTranslateLanguageFallbacks['sv'] = [ 'da', 'nb', 'nn' ]; # Siebrand 2008-03-23
 $wgTranslateLanguageFallbacks['swb'] = 'sw';
