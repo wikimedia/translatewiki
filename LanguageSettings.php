@@ -21,6 +21,7 @@ $wgExtraLanguageNames['din'] = 'Thuɔŋjäŋ'; # Dinka / Amir 2015-08-09
 $wgExtraLanguageNames['dty'] = 'डोटेली'; # Dotyali / Siebrand 2014-11-16
 $wgExtraLanguageNames['es-formal'] = 'español (formal)'; # Spanish (formal address) / Siebrand 2010-11-22
 $wgExtraLanguageNames['esu'] = 'Yup\'ik'; # Central Alaskan Yupik / Siebrand 2011-02-14
+$wgExtraLanguageNames['fax'] = 'Fala'; # Fala / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['gah'] = 'Alekano'; # Alekano / Siebrand 2010-10-08
 $wgExtraLanguageNames['gbz'] = 'Dari-e Mazdeyasnā'; # Zoroastrian Dari / Siebrand 2011-01-20
 $wgExtraLanguageNames['gcf'] = 'Guadeloupean Creole French'; # Guadeloupean Creole French / Siebrand 2009-09-21
