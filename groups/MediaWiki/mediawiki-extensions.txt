@@ -1103,9 +1103,7 @@ Fundraising Chart
 Fundraising Translate Workflow
 descmsg = fundraising-translate-workflow-desc
 
-Gather
-aliasfile = Gather/Gather.alias.php
-ignored = gather-lists-hide-protocol
+# Gather // Archived: https://gerrit.wikimedia.org/r/#/c/290379/
 
 Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
