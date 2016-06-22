@@ -370,7 +370,7 @@ license-header
 hide
 exif-orientation
 wikilove-err-invalid-username
-fancycaptcha-createaccount
+fancycaptcha-accountcreate
 tooltip-t-contributions
 exif-datetimedigitized
 exif-orientation-1
