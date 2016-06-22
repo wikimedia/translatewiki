@@ -10,6 +10,9 @@ FILES:
   class: RubyYamlFFS
   sourcePattern: "%GROUPROOT%/wikiedudashboard/config/locales/%CODE%.yml"
   codeAsRoot: true
+  codeMap:
+    zh-hans: zh-CN
+    zh-hant: zh-TW
 
 MANGLER:
   class: StringMatcher
