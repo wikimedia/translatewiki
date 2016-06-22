@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0efd9372_cd529e3e",
+        "filename": "FallbackSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2016-06-22T14:10:14Z",
+      "side": 1,
+      "message": "No Swedish?",
+      "revId": "4b4cf6773d9bacd8f09ccae94de4145b3187d5fc",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
