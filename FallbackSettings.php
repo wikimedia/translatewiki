@@ -29,6 +29,7 @@ $wgTranslateLanguageFallbacks['egl'] = [ 'it', 'rgn' ];
 $wgTranslateLanguageFallbacks['es-formal'] = 'es';
 $wgTranslateLanguageFallbacks['es-mx'] = 'es';
 $wgTranslateLanguageFallbacks['et'] = 'fi';
+$wgTranslateLanguageFallbacks['fax'] = 'es';
 $wgTranslateLanguageFallbacks['fi'] = [ 'de', 'sv', 'et', 'vro' ];
 $wgTranslateLanguageFallbacks['fit'] = [ 'fi', 'sv' ]; # Robin 2011-09-27
 $wgTranslateLanguageFallbacks['frc'] = 'fr'; # Ebe123 2014-08-25 ('lou' is not implemented)
