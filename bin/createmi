@@ -1,5 +1,5 @@
 #!/bin/bash
 # ensure correct permissions
 
-sudo -u betawiki php /srv/mediawiki/targets/production/extensions/Translate/scripts/createMessageIndex.php --quiet
+sudo -u betawiki hhvm -vEval.Jit=false /srv/mediawiki/targets/production/extensions/Translate/scripts/createMessageIndex.php --quiet
 echo "Done."
