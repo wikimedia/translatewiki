@@ -23,6 +23,7 @@ $wgTranslateLanguageFallbacks['cjy-hans'] = [ 'zh-hans' ];
 $wgTranslateLanguageFallbacks['cjy-hant'] = [ 'zh-hant' ];
 $wgTranslateLanguageFallbacks['cnh'] = [ 'my' ];
 $wgTranslateLanguageFallbacks['cps'] = [ 'tl' ];
+$wgTranslateLanguageFallbacks['cpx'] = [ 'cdo' ];
 $wgTranslateLanguageFallbacks['cs'] = [ 'sk', 'de', 'fr', 'ru', 'pl' ];
 $wgTranslateLanguageFallbacks['da'] = [ 'nn', 'nb', 'sv' ]; # Siebrand 2008-03-23
 $wgTranslateLanguageFallbacks['dty'] = [ 'ne' ];
