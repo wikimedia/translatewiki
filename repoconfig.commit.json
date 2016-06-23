@@ -184,6 +184,15 @@
 			}
 		}
 	},
+	"video2commons": {
+		"group": "video2commons",
+		"repos": {
+			"video2commons": {
+				"type": "git",
+				"url": "git@github.com:Toollabs/video2commons.git"
+			}
+		}
+	},
 	"mwgithub": {
 		"group": "mwgithub-*",
 		"repos": {

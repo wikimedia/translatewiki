@@ -1,0 +1,29 @@
+---
+BASIC:
+  id: video2commons
+  label: video2commons
+  description: "{{Special:MyLanguage/Translations:Group descriptions/video2commons/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: video2commons-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/video2commons/video2commons/frontend/i18n/%CODE%.json"
+
+CHECKER:
+  class: Video2commonsMessageChecker
+  checks:
+    - Video2commonsVariablesCheck
+
+INSERTABLES:
+  class: Video2commonsInsertablesSuggester
+
+AUTOLOAD:
+  Video2commonsInsertablesSuggester: Video2commonsInsertablesChecker.php
+  Video2commonsMessageChecker: Video2commonsMessageChecker.php
