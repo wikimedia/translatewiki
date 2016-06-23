@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0efd9372_bc34aaf2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-06-23T09:01:48Z",
+      "side": 1,
+      "message": "It\u0027s not ideal to have cross-script fallback, but fallback should go to the most likely understood language. Depending on if that is complete, there may also be English in the mix, which could lead to 3 scripts being used in UI messages. Hence our urge to complete localisations :).",
+      "revId": "9845941c3292c83e66d0f6113362041f6863bfd1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0efd9372_9c2f269c",
+        "filename": "FallbackSettings.php",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-06-23T09:01:48Z",
+      "side": 1,
+      "message": "This should probably be zh-hans, used in mainland China .",
+      "revId": "9845941c3292c83e66d0f6113362041f6863bfd1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
