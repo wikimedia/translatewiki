@@ -2482,7 +2482,7 @@ optional = visualeditor-dialog-media-dimensionseparator, visualeditor-dialog-med
 optional = visualeditor-dialog-media-info-ellipsis, visualeditor-dialog-media-info-separator
 ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
 ignored = apihelp-visualeditor-param-format, apihelp-visualeditoredit-param-watch, apihelp-visualeditoredit-param-wikitext
-ignored = visualeditor-wikitext-warning-link
+ignored = visualeditor-wikitext-warning-link, visualeditor-quick-access-characters.json
 prefix = visualeditor-override- | tooltip-ca-edit
 
 VisualEditor user guide screenshots
