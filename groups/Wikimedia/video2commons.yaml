@@ -25,5 +25,5 @@ INSERTABLES:
   class: Video2commonsInsertablesSuggester
 
 AUTOLOAD:
-  Video2commonsInsertablesSuggester: Video2commonsInsertablesChecker.php
+  Video2commonsInsertablesSuggester: Video2commonsInsertablesSuggester.php
   Video2commonsMessageChecker: Video2commonsMessageChecker.php
