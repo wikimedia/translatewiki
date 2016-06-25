@@ -237,6 +237,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/crosswatch.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/GapFinder.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Pageviews.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/video2commons.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/wiki-ai.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiEduDashboard.yaml";
