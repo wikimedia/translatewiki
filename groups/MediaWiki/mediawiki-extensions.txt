@@ -2002,6 +2002,7 @@ descmsg = revcs-desc
 optional = revcs-log-supplement
 
 Revision Slider
+optional = revisionslider-show-help
 
 Right Functions
 optional = rightfunctions-rest1, rightfunctions-rest2, rightfunctions-rest3, rightfunctions-sep
