@@ -578,7 +578,7 @@ optional = cite_reference_link_key_with_num, cite_reference_link_prefix, cite_re
 optional = cite_references_link_suffix, cite_reference_link, cite_references_link_one, cite_references_link_many
 optional = cite_references_link_many_format, cite_references_link_many_format_backlink_labels, cite_references_link_many_sep, cite_references_link_many_and
 ignored = cite_references_prefix, cite_references_suffix, cite_references_no_link
-ignored = cite_error_refs_without_references_category
+ignored = cite_error_refs_without_references_category, visualeditor-cite-tool-definition.json, cite-tool-definition.json
 
 Cite - VisualEditor
 id = ext-cite-visualeditor
@@ -589,6 +589,7 @@ aliasfile = CiteThisPage/CiteThisPage.alias.php
 ignored = citethispage-summary, accesskey-citethispage
 
 Citoid
+ignored = citoid-template-type-map.json
 
 cldr
 
