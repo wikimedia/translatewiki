@@ -16,6 +16,11 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/pageviews/messages/%CODE%.json"
 
+TAGS:
+  optional:
+    - pageviews-csv
+    - pageviews-json
+
 CHECKER:
   class: MediaWikiMessageChecker
   checks:
