@@ -1150,6 +1150,7 @@ descmsg = globalprefs-desc
 
 Global Usage
 aliasfile = GlobalUsage/GlobalUsage.alias.php
+ignored = globalusage-header-image
 
 Global User Groups
 file = GlobalUserGroups/i18n/core/%CODE%.json
