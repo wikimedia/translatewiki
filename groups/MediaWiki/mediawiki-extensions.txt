@@ -2066,8 +2066,7 @@ descmsg = sacl-desc
 
 Semantic Bundle
 
-Semantic Compound Queries
-magicfile = SemanticCompoundQueries/SemanticCompoundQueries.i18n.magic.php
+# Semantic Compound Queries // Moved to GitHub
 
 Semantic Dependency
 
