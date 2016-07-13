@@ -1814,6 +1814,8 @@ Parser Functions
 descmsg = pfunc_desc
 magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
+Parser Migration
+
 # Deleted 2015-08-02
 # Parsoid
 
