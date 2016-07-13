@@ -765,6 +765,8 @@ CSS
 
 Custom Data
 
+Custom Page
+
 # Unused on WMF since 8/2012 and seems unmaintened. https://gerrit.wikimedia.org/r/#/c/18201/
 #Custom User Signup
 
@@ -973,6 +975,8 @@ ignored = ffeed-featured-page, ffeed-onthisday-page, ffeed-dyk-page
 ignored = ffeed-qotd-page, ffeed-potd-page, ffeed-motd-page
 ignored = ffeed-good-page, ffeed-featuredtexts-page, ffeed-wotd-page
 ignored = ffeed-enable-sidebar-links
+
+# File Annotations // No i18n file
 
 Filter List Users
 
@@ -2577,9 +2581,11 @@ Wiki Loves Monuments
 Wiki Object Model
 descmsg = wom-desc
 
+# Wiki Share // No message doc
+
 Wiki Text Logged In Out
 
-# Wiki Twidget // No message doc
+# Wiki Twidget 
 
 Wikibase - Client
 file = Wikibase/client/i18n/%CODE%.json
@@ -2744,8 +2750,7 @@ Wikimedia Temporary Messages
 file = WikimediaMessages/i18n/temporary/%CODE%.json
 prefix = temporary- | wikimediamessages-desc
 
-# Missing message doc
-# Wiki Share
+# Wikispeech // 2016-07-13: very early stage
 
 Wikivote Maps Yandex
 
