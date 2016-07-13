@@ -1329,6 +1329,10 @@ optional = kartographer-coord-lon-positive, kartographer-coord-lon-negative
 optional = kartographer-error-context
 optional = kartographer.css, kartographer.js
 
+Kartographer - WV
+file = Kartographer/modules/wikivoyage/i18n/%CODE%.json
+optional = kartographer-wv-layer-wikimedia
+
 Labeled Section Transclusion
 descmsg = lst-desc
 
