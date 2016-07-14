@@ -227,6 +227,10 @@
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticCite.git"
 			},
+			"mwgithub/SemanticMediaWiki/SemanticCompoundQueries": {
+				"type": "git",
+				"url": "https://github.com/SemanticMediaWiki/SemanticCompoundQueries.git"
+			},
 			"mwgithub/SemanticMediaWiki/SemanticExternalQueryLookup": {
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticExternalQueryLookup.git"

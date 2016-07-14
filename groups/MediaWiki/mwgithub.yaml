@@ -80,6 +80,16 @@ TAGS:
     - sci-specials-citablemetadata-helplink
 ---
 BASIC:
+  id: mwgithub-semanticcompoundqueries
+  label: Semantic Compound Queries
+  description: "{{Special:MyLanguage/MediaWiki:Semanticcompoundqueries-desc/en}}"
+  # Has magic file
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticCompoundQueries/i18n/%CODE%.json"
+---
+BASIC:
   id: mwgithub-semanticexternalquerylookup
   label: Semantic External Query Lookup
   description: "{{Special:MyLanguage/MediaWiki:Seql-desc/en}}"
