@@ -351,6 +351,15 @@
 			}
 		}
 	},
+	"wikimedia-portals": {
+		"group": "wikimedia-portals",
+		"repos": {
+			"wikimedia-portals": {
+				"type": "wmgerrit",
+				"url": "ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/portals"
+			}
+		}
+	},
 	"wikipedia-ios": {
 		"group": "out-wikimedia-mobile-wikipedia-ios",
 		"repos": {

@@ -350,6 +350,15 @@
 			}
 		}
 	},
+	"wikimedia-portals": {
+		"group": "wikimedia-portals",
+		"repos": {
+			"wikimedia-portals": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/wikimedia/portals"
+			}
+		}
+	},
 	"wikipedia-ios": {
 		"group": "out-wikimedia-mobile-wikipedia-ios",
 		"repos": {

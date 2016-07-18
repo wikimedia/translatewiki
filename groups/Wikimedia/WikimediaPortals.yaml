@@ -1,0 +1,18 @@
+---
+BASIC:
+  id: wikimedia-portals
+  label: Wikimedia Portals
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-portals/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: portals-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  nestingSeparator: .
+  sourcePattern: "%GROUPROOT%/wikimedia-portals/l10n/%CODE%.json"
