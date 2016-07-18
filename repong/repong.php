@@ -43,7 +43,7 @@ class RepoNg {
 				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
 				$command = $this->bindir . "/clupdate-gerrit-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} else {
-				throw new RuntimeException( 'Unknown repo rype' );
+				throw new RuntimeException( 'Unknown repo type' );
 			}
 
 			$process = new Process( $command );
