@@ -514,6 +514,10 @@ Bounce Handler
 
 Bread Crumbs
 
+BS SMW Connector
+descmsg = bs-bssmwconnector-desc
+optional = bs-bssmwconnector-nmmngr-label-smw
+
 # Debugging extension
 # Buggy
 
