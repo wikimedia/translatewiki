@@ -2172,6 +2172,7 @@ ignored = security-logentry
 
 Site Matrix
 aliasfile = SiteMatrix/SiteMatrix.alias.php
+magicfile = SiteMatrix/SiteMatrix.i18n.magic.php
 
 Site Metrics
 
