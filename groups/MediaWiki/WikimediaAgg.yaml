@@ -93,6 +93,7 @@ GROUPS:
   - ext-relatedsites # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-renameuser # Being phased out, 2015
   - ext-restbaseupdatejobs # 2015-03-09
+  - ext-revisionslider
   - ext-rss # 2010-11-25: Wikimediafoundation.org
   - ext-sandboxlink
   - ext-score
