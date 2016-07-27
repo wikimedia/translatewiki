@@ -60,6 +60,7 @@ TAGS:
     - bitrate-zetabits
     - booksources-isbn
     - brackets
+    - category-header-numerals
     - categoryviewer-pagedlinks
     # @deprecated. Remove in MediaWiki 1.23.
     - changed
