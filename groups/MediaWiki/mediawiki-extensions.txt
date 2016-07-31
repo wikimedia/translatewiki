@@ -212,6 +212,7 @@ Blue Spice - Blog
 id = ext-bs-blog
 descmsg = bs-blog-desc
 file = BlueSpiceExtensions/Blog/i18n/%CODE%.json
+aliasfile = BlueSpiceExtensions/Blog/includes/specials/SpecialBlog.alias.php
 
 # Blue Spice - BlueSpiceProjectFeedbackHelper # per https://gerrit.wikimedia.org/r/#/c/150779/
 
