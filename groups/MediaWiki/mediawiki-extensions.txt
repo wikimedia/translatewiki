@@ -2596,7 +2596,7 @@ file = Wikibase/client/i18n/%CODE%.json
 aliasfile = Wikibase/client/WikibaseClient.i18n.alias.php
 magicfile = Wikibase/client/WikibaseClient.i18n.magic.php
 descmsg = wbc-desc
-ignored = accesskey-t-wikibase
+ignored = accesskey-t-wikibase, notification-page-connection-link
 
 Wikibase - Lib
 file = Wikibase/lib/i18n/%CODE%.json
