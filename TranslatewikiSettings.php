@@ -96,7 +96,6 @@ $wgAllowUserCss = true;
 $wgMinimalPasswordLength = 6;
 $wgBlockAllowsUTEdit = true;
 $wgAutoConfirmAge = 3600 * 24 * 14;
-$wgAccountCreationThrottle = 1;
 $wgAutoblockExpiry = 3600 * 24 * 14; // 2 weeks of rest from vandals reusing IPs
 
 $wgEnableEmail = true;
