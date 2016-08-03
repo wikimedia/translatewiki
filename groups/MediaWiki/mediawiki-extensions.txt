@@ -769,7 +769,8 @@ CryoKey
 
 CSS
 
-Custom Data
+# Unused, functionality moved to core: https://gerrit.wikimedia.org/r/#/c/302639/
+# Custom Data
 
 Custom Page
 
