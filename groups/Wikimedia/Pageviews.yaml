@@ -20,6 +20,7 @@ TAGS:
   optional:
     - pageviews-csv
     - pageviews-json
+    - pageviews-png
 
 CHECKER:
   class: MediaWikiMessageChecker
