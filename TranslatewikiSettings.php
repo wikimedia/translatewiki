@@ -208,6 +208,7 @@ wfLoadExtensions( [
 	'Gadgets',
 	'I18nTags',
 	'Interwiki',
+	'LiquidThreads',
 	'Nuke',
 	'Renameuser',
 	'ReplaceText',
@@ -221,7 +222,6 @@ wfLoadExtensions( [
 
 $EXT = "$IP/extensions";
 require_once "$EXT/AdminLinks/AdminLinks.php";
-require_once "$EXT/LiquidThreads/LiquidThreads.php";
 
 wfLoadExtension( 'CleanChanges' );
 $wgCCUserFilter = true;
@@ -268,11 +268,11 @@ $wgBabelMainCategory = 'User_%code%';
 # Semantic MediaWiki (installed using composer)
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
 enableSemantics( 'translatewiki.net' );
-$smwgNamespacesWithSemanticLinks[NS_LQT_THREAD] = true;
-$smwgNamespacesWithSemanticLinks[NS_LQT_SUMMARY] = true;
+$smwgNamespacesWithSemanticLinks[90/*NS_LQT_THREAD*/] = true;
+$smwgNamespacesWithSemanticLinks[92/*NS_LQT_SUMMARY*/] = true;
 $smwgEnabledEditPageHelp = false;
 
-require_once "$EXT/SemanticForms/SemanticForms.php";
+wfLoadExtension( "SemanticForms.php" );
 $sfgRedLinksCheckOnlyLocalProps = true;
 
 wfLoadExtension( 'TitleBlacklist' );
