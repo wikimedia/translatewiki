@@ -272,7 +272,7 @@ $smwgNamespacesWithSemanticLinks[90/*NS_LQT_THREAD*/] = true;
 $smwgNamespacesWithSemanticLinks[92/*NS_LQT_SUMMARY*/] = true;
 $smwgEnabledEditPageHelp = false;
 
-wfLoadExtension( "SemanticForms.php" );
+wfLoadExtension( 'SemanticForms' );
 $sfgRedLinksCheckOnlyLocalProps = true;
 
 wfLoadExtension( 'TitleBlacklist' );
