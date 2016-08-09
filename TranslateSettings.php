@@ -245,6 +245,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Wikimania.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-android.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-ios.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaPortals.yaml";
 
 $wgTranslateSupportUrlNamespace[NS_WIKIMEDIA] = [
 	'url' => "$phabUrl?projects=i18n,Wikimedia-General-or-Unknown",
