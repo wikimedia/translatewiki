@@ -16,3 +16,9 @@ FILES:
   class: JsonFFS
   nestingSeparator: .
   sourcePattern: "%GROUPROOT%/wikimedia-portals/l10n/%CODE%.json"
+
+TAGS:
+  optional:
+    - portals-language-name
+    - portals-language-name-romanized
+    - portals-language-name-romanized-sorted
