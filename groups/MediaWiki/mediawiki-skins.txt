@@ -56,6 +56,7 @@ optional = nostalgia.css, nostalgia.js
 
 Refreshed
 ignored = refreshed-navigation, refreshed-this-wiki-mobile-logo, refreshed-this-wiki-url
+ignored = refreshed-this-wiki-wordmark, refreshed-wiki-dropdown
 
 # Repo is read only
 # Slate
