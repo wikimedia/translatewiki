@@ -14,7 +14,7 @@ MANGLER:
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/translation-recs-app/api/static/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/translation-recs-app/recommendation/web/static/i18n/%CODE%.json"
 
 CHECKER:
   class: MediaWikiMessageChecker
