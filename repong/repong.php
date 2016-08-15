@@ -83,7 +83,7 @@ class RepoNg {
 
 		$process = new Process( $command );
 		$process->mustRun();
-		$process->setTimeout( 120 );
+		$process->setTimeout( 180 );
 		print $process->getOutput();
 
 		// Then message documentation
