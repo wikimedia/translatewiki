@@ -1155,6 +1155,8 @@ file = GlobalCssJs/i18n/core/%CODE%.json
 #Global Css Js - Central
 #file = GlobalCssJs/i18n/central/%CODE%.json
 
+Global Notice
+
 Global Preferences
 aliasfile = GlobalPreferences/GlobalPreferences.alias.php
 descmsg = globalprefs-desc
