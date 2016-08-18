@@ -1193,6 +1193,8 @@ aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
 
 Google Doc Tag
 
+Google Docs 4 MW
+
 Google Geocode
 
 Google Login
@@ -1271,7 +1273,7 @@ If Templates
 
 Iframe Page
 
-# Incompatible i18n file - 2014-07-09 RS
+# Archived extension
 #Image Link
 
 Image Map
