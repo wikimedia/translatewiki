@@ -2693,7 +2693,7 @@ optional = group-test-sysop.css, group-test-sysop.js
 Wikimedia Messages
 file = WikimediaMessages/i18n/wikimedia/%CODE%.json
 ignored = robots.txt
-ignored = wikimedia-developers-url
+ignored = wikimedia-developers-url, search-helppage
 ignored = grouppage-staff, grouppage-wmf-officeit, grouppage-global-flow-create
 optional = sitesupport-url
 optional = grouppage-steward, grouppage-sysadmin, grouppage-global-bot
