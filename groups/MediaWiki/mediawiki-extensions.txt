@@ -1844,7 +1844,7 @@ ignored = apihelp-parsoid-batch-description, apihelp-parsoid-batch-param-batch
 
 PCR GUI Inserts
 
-Pdf Book
+# Pdf Book // Removal per Task 143684
 
 Pdf Export
 aliasfile = PdfExport/PdfExport.i18n.alias.php
