@@ -2384,13 +2384,14 @@ descmsg = translate-desc
 aliasfile = Translate/Translate.alias.php
 # aliasfile = Translate/Translate.MyLanguage.alias.php // Disabled due to a conflict with core
 optional = translate-page-paging-links, supportedlanguages-portallink, supportedlanguages-portallink-nocldr
-ignored = translate-edit-tag-warning, supportedlanguages-localsummary
+ignored = supportedlanguages-localsummary
 
 Translate - Page Translation
 id = ext-translate-pagetranslation
 file = Translate/i18n/pagetranslation/%CODE%.json
 descmsg = tpt-desc
 optional = tpt-languages-separator
+ignored = translate-edit-tag-warning
 
 Translate - Sandbox
 id = ext-translate-sandbox
