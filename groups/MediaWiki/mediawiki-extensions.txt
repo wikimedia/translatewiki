@@ -1705,7 +1705,7 @@ Oracle Text Search
 
 ORES
 ignored = ores-reverted-letter
-optional = prefs-ores, ores-beta-feature-message
+optional = ores-beta-feature-message
 
 Page Assessments
 
