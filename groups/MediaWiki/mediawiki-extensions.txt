@@ -451,6 +451,11 @@ id = ext-bs-universalexport
 descmsg = bs-universalexport-desc
 file = BlueSpiceExtensions/UniversalExport/i18n/%CODE%.json
 
+Blue Spice - Usage Tracker
+id = ext-bs-usagetracker
+descmsg = bs-usagetracker-desc
+file = BlueSpiceExtensions/UsageTracker/i18n/%CODE%.json
+
 Blue Spice - User Manager
 id = ext-bs-usermanager
 descmsg = bs-usermanager-desc
