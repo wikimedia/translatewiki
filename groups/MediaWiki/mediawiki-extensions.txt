@@ -2505,11 +2505,6 @@ ignored = apihelp-visualeditor-param-format, apihelp-visualeditoredit-param-watc
 ignored = visualeditor-wikitext-warning-link, visualeditor-quick-access-characters.json
 prefix = visualeditor-override- | tooltip-ca-edit
 
-VisualEditor user guide screenshots
-id = ext-visualeditor-ve-mw-screenshots
-descmsg = visualeditor-languagescreenshot-desc
-file = VisualEditor/modules/ve-mw/tests/browser/i18n/%CODE%.json
-
 VisualEditor (WMF)
 id = ext-visualeditor-ve-wmf
 descmsg = visualeditor-desc
