@@ -386,11 +386,6 @@ id = ext-bs-readers
 descmsg = bs-readers-desc
 file = BlueSpiceExtensions/Readers/i18n/%CODE%.json
 
-Blue Spice - Responsible Editors
-id = ext-bs-responsibleeditors
-descmsg = bs-responsibleeditors-desc
-file = BlueSpiceExtensions/ResponsibleEditors/i18n/%CODE%.json
-
 Blue Spice - Review
 id = ext-bs-review
 descmsg = bs-review-desc
