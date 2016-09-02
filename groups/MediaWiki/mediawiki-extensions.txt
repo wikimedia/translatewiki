@@ -346,10 +346,6 @@ id = ext-bs-namespacemanager
 descmsg = bs-namespacemanager-desc
 file = BlueSpiceExtensions/NamespaceManager/i18n/%CODE%.json
 
-Blue Spice - Notifications
-id = ext-bs-notifications
-file = BlueSpiceFoundation/i18n/notifications/%CODE%.json
-
 Blue Spice - Page Access
 id = ext-bs-pageaccess
 descmsg = bs-pageaccess-desc
