@@ -272,6 +272,7 @@ Blue Spice - Extended Search
 id = ext-bs-extendedsearch
 descmsg = bs-extendedsearch-desc
 file = BlueSpiceExtensions/ExtendedSearch/i18n/%CODE%.json
+aliasfile = BlueSpiceFoundation/ExtendedSearch/includes/specials/SpecialExtendedSearchAdmin.alias.php
 
 Blue Spice - Extension Info
 id = ext-bs-extensioninfo
@@ -290,6 +291,7 @@ Blue Spice - Flexiskin
 id = ext-bs-flexiskin
 descmsg = bs-flexiskin-desc
 file = BlueSpiceExtensions/Flexiskin/i18n/%CODE%.json
+aliasfile = BlueSpiceFoundation/NamespaceManager/includes/specials/SpecialNamespaceManager.alias.php
 
 Blue Spice - Formatting Help
 id = ext-bs-formattinghelp
@@ -334,6 +336,7 @@ Blue Spice - Inter Wiki Links
 id = ext-bs-interwikilinks
 descmsg = bs-interwikilinks-desc
 file = BlueSpiceExtensions/InterWikiLinks/i18n/%CODE%.json
+aliasfile = BlueSpiceFoundation/InterWikiLinks/includes/specials/SpecialInterWikiLinks.alias.php
 optional = bs-interwikilinks-headerurl, bs-interwikilinks-labelurl
 
 Blue Spice - Namespace Css
@@ -345,6 +348,7 @@ Blue Spice - Namespace Manager
 id = ext-bs-namespacemanager
 descmsg = bs-namespacemanager-desc
 file = BlueSpiceExtensions/NamespaceManager/i18n/%CODE%.json
+aliasfile = BlueSpiceFoundation/NamespaceManager/includes/specials/SpecialNamespaceManager.alias.php
 
 Blue Spice - Page Access
 id = ext-bs-pageaccess
@@ -360,6 +364,7 @@ Blue Spice - Page Templates
 id = ext-bs-pagetemplates
 descmsg = bs-pagetemplates-desc
 file = BlueSpiceExtensions/PageTemplates/i18n/%CODE%.json
+aliasfile = BlueSpiceFoundation/PageTemplates/includes/specials/SpecialPageTemplatesAdmin.alias.php
 
 Blue Spice - Pages Visited
 id = ext-bs-pagesvisited
@@ -375,6 +380,7 @@ Blue Spice - Preferences
 id = ext-bs-preferences
 descmsg = bs-preferences-desc
 file = BlueSpiceExtensions/Preferences/i18n/%CODE%.json
+aliasfile = BlueSpiceFoundation/Preferences/includes/specials/SpecialBlueSpicePreferences.alias.php
 optional = prefs-bluespice
 
 Blue Spice - Readers
