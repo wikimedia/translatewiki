@@ -571,6 +571,8 @@ optional = centralnotice-language-listing, centralnotice-log-label, centralnotic
 # No message documentation - 2014-10-05
 # Challenge
 
+# Change Author // 2016-09-02 imported from SVN, still old i18n
+
 Char Insert
 #magicfile = CharInsert/CharInsert.i18n.magic.php
 
@@ -908,6 +910,8 @@ ignored = notification-body-foreign
 
 # Incomplete message documentation file - 2014-11-20
 #Edit Account
+
+# Edit Own // 2016-09-02 imported from SVN, still old i18n
 
 Edit Page Tracking
 
@@ -2439,6 +2443,8 @@ Unicode Converter
 Universal Language Selector
 descmsg = uls-desc
 ignored = uls-ime-helppage
+
+# Unused Redirects // Missing message documentation
 
 UR Names
 
