@@ -763,6 +763,9 @@ Cookie Policy
 descmsg = cookie-policy-description
 ignored = cookie-policy-link, cookie-policy-site-name
 
+Cookie Warning
+descmsg = cookiewarning-desc
+
 Copy To Clipboard
 
 Create Page
