@@ -981,7 +981,7 @@ ignored = ffeed-qotd-page, ffeed-potd-page, ffeed-motd-page
 ignored = ffeed-good-page, ffeed-featuredtexts-page, ffeed-wotd-page
 ignored = ffeed-enable-sidebar-links
 
-# File Annotations // No i18n file
+File Annotations
 
 Filter List Users
 
