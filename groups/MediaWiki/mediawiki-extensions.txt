@@ -129,6 +129,8 @@ ignored=articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-n
 Article Placeholder
 aliasfile = ArticlePlaceholder/ArticlePlaceholder.alias.php
 
+# Article Ratings // 2016-09-19: no qqq, inconsistent message keys
+
 Auth_remoteuser
 
 Author Protect
@@ -1384,6 +1386,8 @@ Link Suggest
 Link Suggest 2
 
 Link Target
+
+# Linked Wiki // 2016-09-19 Missing qqq
 
 Liquid Threads
 aliasfile = LiquidThreads/i18n/Lqt.alias.php
