@@ -149,7 +149,7 @@ $wgTranslateAuthorBlacklist[] = [ 'white', '/^out-osm.*;(qqq|de);Raymond$/Ui' ];
 $wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;qqq;RobertL$/Ui' ];
 $wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|nl|nl-informal);Siebrand$/Ui' ];
 $wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|nl|nl-informal|af|la|grc);SPQRobin$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|no|nn|da|sv|en-gb);Jon Harald Søby$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|nb|no|nn|da|sv|en-gb);Jon Harald Søby$/Ui' ];
 $wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|fr);Verdy p$/Ui' ];
 
 $wgTranslateBlacklist = [
