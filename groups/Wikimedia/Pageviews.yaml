@@ -21,6 +21,7 @@ TAGS:
     - pageviews-csv
     - pageviews-json
     - pageviews-png
+    - pageviews-comma-character
 
 CHECKER:
   class: MediaWikiMessageChecker
