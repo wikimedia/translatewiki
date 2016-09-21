@@ -1351,7 +1351,7 @@ optional = kartographer-link-mapquest, kartographer-link-maptech, kartographer-l
 optional = kartographer-link-norkart-virtual-globe, kartographer-link-open-street-map, kartographer-link-shaded-relief
 optional = kartographer-link-skyvector, kartographer-link-terraserver, kartographer-link-topomapper
 optional = kartographer-link-vpike-com, kartographer-link-waze, kartographer-link-wikimapia
-optional = kartographer-link-wikiminiatlas, kartographer-link-yandex-maps
+optional = kartographer-link-wikiminiatlas, kartographer-link-yandex-maps, kartographer-link-geonames
 
 Kartographer - WV
 file = Kartographer/modules/wikivoyage/i18n/%CODE%.json
