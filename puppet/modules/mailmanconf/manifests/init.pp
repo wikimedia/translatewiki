@@ -26,14 +26,8 @@ class mailmanconf {
     allowdupe => true,
   }
 
-  file { '/etc/nginx/sites-available/lists.translatewiki.net':
+  file { '/etc/nginx/sites/lists.translatewiki.net':
     source  => 'puppet:///modules/mailmanconf/nginx/lists.translatewiki.net',
-  }
-
-  file { '/etc/nginx/sites-enabled/lists.translatewiki.net':
-    ensure => 'link',
-    target => '../sites-available/lists.translatewiki.net',
-    notify => Service['nginx'],
   }
 
   file { '/etc/exim4/conf.d/main/04_mailman_options':

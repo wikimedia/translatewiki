@@ -7,7 +7,7 @@ server {
 	listen 443 ssl http2;
 	listen [2a03:4000:6:b01e::2]:443 ssl http2;
 
-	include includes/ssl.conf;
+	include includes/ssl-certbot.conf;
 
 	server_name lists.translatewiki.net;
 	root /usr/lib/cgi-bin/mailman;
@@ -27,4 +27,7 @@ server {
 		include fastcgi_params;
 		fastcgi_pass unix:/var/run/fcgiwrap.socket;
 	}
+
+	# Exclude let's encrypt
+	location /.well-known {}
 }

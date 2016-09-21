@@ -1,19 +1,19 @@
 # file managed by puppet
 
 server {
-	listen 80 default_server;
+	listen 80;
 	listen [2a03:4000:6:b01e::1]:80;
-	server_name translatewiki.net;
+	server_name dev.translatewiki.net;
 	return 301 https://$host$request_uri;
 }
 
 server {
-	listen 443 ssl default_server deferred http2;
-	listen [2a03:4000:6:b01e::1]:443 default_server deferred ssl http2;
+	listen 443 ssl http2;
+	listen [2a03:4000:6:b01e::1]:443 ssl http2;
 
-	include includes/ssl.conf;
+	include includes/ssl-certbot.conf;
 
-	server_name translatewiki.net;
+	server_name dev.translatewiki.net;
 	root /www/$host/docroot;
 
 	location = / {
@@ -34,7 +34,7 @@ server {
 
 	# Allowed php files, case sensitive
 	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php {
-		fastcgi_pass hhvm;
+		fastcgi_pass hhvm-dev;
 		fastcgi_buffering off;
 		fastcgi_buffers 16 16k;
 		fastcgi_connect_timeout 1s;

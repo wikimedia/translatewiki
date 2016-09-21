@@ -4,7 +4,7 @@ server {
 	listen 443 ssl http2;
 	listen [2a03:4000:6:b01e::1]:443 ssl http2;
 
-	include includes/ssl.conf;
+	include includes/ssl-certbot.conf;
 
 	server_name stats.translatewiki.net;
 	root /www/stats.translatewiki.net;
@@ -26,5 +26,10 @@ server {
 
 	location ~ ^/awstatsicons/(.*)$ {
 		alias /usr/share/awstats/icon/$1;
+	}
+
+	# Exclude let's encrypt
+	location /.well-known {
+		auth_basic off;
 	}
 }
