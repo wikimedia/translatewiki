@@ -164,6 +164,16 @@
 			}
 		}
 	},
+	"mantis": {
+		"group": "out-mantis*",
+		"repos": {
+			"mantis": {
+				"type": "git",
+				"branch": "master-1.3.x",
+				"url": "https://github.com/mantisbt/mantisbt.git"
+			}
+		}
+	},
 	"pageviews": {
 		"group": "out-pageviews",
 		"repos": {

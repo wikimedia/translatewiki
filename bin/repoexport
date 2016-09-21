@@ -67,12 +67,6 @@ elif [ "$PROJECT" = "kiwix" ]
 then
 	php "$EXPORTER" --target . --group=out-kiwix --lang='*' --skip en --threshold 80
 
-elif [ "$PROJECT" = "mantis" ]
-then
-	php "$EXPORTER" --target . --group=out-mantis-core --lang='*' --skip en $THRESHOLD &
-	php "$EXPORTER" --target . --group=out-mantis-plugin-* --lang='*' --skip en $THRESHOLD --codemaponly
-	wait
-
 elif [ "$PROJECT" = "mathjax" ]
 then
 	php "$EXPORTER" --target . --group='out-mathjax-*' --lang='*' --skip en,qqq $THRESHOLD
