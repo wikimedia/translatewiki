@@ -126,22 +126,6 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticInterlanguageLinks/i18n/%CODE%.json"
 ---
 BASIC:
-  id: mwgithub-semanticmaps
-  label: Semantic Maps
-  description: "{{Special:MyLanguage/MediaWiki:Semanticmaps-desc/en}}"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticMaps/i18n/%CODE%.json"
-
-TAGS:
-  optional:
-    - sm_googlemaps_printername
-    - sm_yahoomaps_printername
-    - sm_openlayers_printername
-    - semanticmaps-kml
----
-BASIC:
   id: mwgithub-semanticmediawiki
   label: Semantic MediaWiki
   description: "{{Special:MyLanguage/MediaWiki:Smw-desc/en}}"
@@ -248,6 +232,11 @@ TAGS:
     - maps_yahoomaps
     - maps_openlayers
     - maps_osm
+    - sm_googlemaps_printername
+    - sm_yahoomaps_printername
+    - sm_openlayers_printername
+    - semanticmaps-kml
+
 ---
 BASIC:
   id: mwgithub-parserhooks

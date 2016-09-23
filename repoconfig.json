@@ -257,10 +257,6 @@
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticInterlanguageLinks.git"
 			},
-			"mwgithub/SemanticMediaWiki/SemanticMaps": {
-				"type": "git",
-				"url": "https://github.com/SemanticMediaWiki/SemanticMaps.git"
-			},
 			"mwgithub/SemanticMediaWiki/SemanticMediaWiki": {
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticMediaWiki.git"
