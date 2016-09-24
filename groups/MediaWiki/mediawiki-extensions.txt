@@ -1343,15 +1343,7 @@ optional = kartographer-coord-lat-positive, kartographer-coord-lat-negative
 optional = kartographer-coord-lon-positive, kartographer-coord-lon-negative
 optional = kartographer-error-context
 optional = kartographer.css, kartographer.js
-optional = kartographer-link-acme-mapper, kartographer-link-apple-maps, kartographer-link-arctic-io
-optional = kartographer-link-bing-maps, kartographer-link-blue-marble-navigator, kartographer-link-flash-earth
-optional = kartographer-link-geabios, artographer-link-geonames, kartographer-link-google-earth
-optional = kartographer-link-google-maps, kartographer-link-gps-visualizer, kartographer-link-here
-optional = kartographer-link-mapquest, kartographer-link-maptech, kartographer-link-nasa-world-wind
-optional = kartographer-link-norkart-virtual-globe, kartographer-link-open-street-map, kartographer-link-shaded-relief
-optional = kartographer-link-skyvector, kartographer-link-terraserver, kartographer-link-topomapper
-optional = kartographer-link-vpike-com, kartographer-link-waze, kartographer-link-wikimapia
-optional = kartographer-link-wikiminiatlas, kartographer-link-yandex-maps, kartographer-link-geonames
+optional = kartographer-link-openstreetmap
 
 Kartographer - WV
 file = Kartographer/modules/wikivoyage/i18n/%CODE%.json
