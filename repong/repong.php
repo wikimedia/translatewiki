@@ -84,6 +84,8 @@ class RepoNg {
 		$process = new Process( $command );
 		$process->mustRun();
 		$process->setTimeout( 180 );
+		// Exporters do not output progress
+		$process->setIdleTimeout( 180 );
 		print $process->getOutput();
 
 		// Then message documentation
