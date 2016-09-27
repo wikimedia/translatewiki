@@ -110,9 +110,9 @@
 	"gapfinder": {
 		"group": "gapfinder",
 		"repos": {
-			"translation-recs-app": {
-				"type": "git",
-				"url": "https://github.com/wikimedia-research/translation-recs-app.git"
+			"recommendation-api": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/research/recommendation-api"
 			}
 		}
 	},
