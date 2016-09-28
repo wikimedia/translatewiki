@@ -289,6 +289,10 @@ Blue Spice - ExtJS - Portal
 file = BlueSpiceFoundation/i18n/extjs-portal/%CODE%.json
 id = ext-bs-extjs-portal
 
+Blue Spice - Filerepo
+file = BlueSpiceFoundation/i18n/filerepo/%CODE%.json
+id = ext-bs-filerepo
+
 Blue Spice - Flexiskin
 id = ext-bs-flexiskin
 descmsg = bs-flexiskin-desc
@@ -448,7 +452,11 @@ file = BlueSpiceExtensions/UEModulePDF/i18n/%CODE%.json
 Blue Spice - Universal Export
 id = ext-bs-universalexport
 descmsg = bs-universalexport-desc
-file = BlueSpiceExtensions/UniversalExport/i18n/%CODE%.json
+file = BlueSpiceExt
+
+Blue Spice - Upload
+file = BlueSpiceFoundation/i18n/upload/%CODE%.json
+id = ext-bs-upload
 
 Blue Spice - Usage Tracker
 id = ext-bs-usagetracker
@@ -2069,6 +2077,8 @@ optional = scribunto-limitreport-virtmemusage-value, scribunto-limitreport-memus
 ignored = scribunto-doc-page-show, scribunto-limitreport-estmemusage-value
 
 Search Extra NS
+
+# Search Stats // old i18n file
 
 Section Disqus
 
