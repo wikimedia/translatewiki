@@ -512,6 +512,8 @@ id = ext-bs-wikiadmin
 descmsg = bs-wikiadmin-desc
 file = BlueSpiceExtensions/WikiAdmin/i18n/%CODE%.json
 
+Blue Spice Edit Notify Connector
+
 Boiler Plate
 
 Book Manager
@@ -2154,6 +2156,8 @@ optional = swb_browse_more
 Sentry
 
 Shared Css Js
+
+# Shared Help Pages / very ShoutWiki-specific
 
 Short Url
 aliasfile = ShortUrl/ShortUrl.alias.php
