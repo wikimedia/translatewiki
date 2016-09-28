@@ -17,6 +17,9 @@
 # Sub Page List
 # Validator
 
+2 Col Conflict
+descmsg = twoColConflict-desc
+
 Absentee Landlord
 
 Abuse Filter
