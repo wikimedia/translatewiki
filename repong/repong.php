@@ -47,8 +47,8 @@ class RepoNg {
 			}
 
 			$process = new Process( $command );
-			$process->mustRun();
 			$process->setTimeout( 300 );
+			$process->mustRun();
 			print $process->getOutput();
 		}
 	}
@@ -82,10 +82,8 @@ class RepoNg {
 		echo "$command\n";
 
 		$process = new Process( $command );
-		$process->mustRun();
 		$process->setTimeout( 180 );
-		// Exporters do not output progress
-		$process->setIdleTimeout( 180 );
+		$process->mustRun();
 		print $process->getOutput();
 
 		// Then message documentation
@@ -95,7 +93,6 @@ class RepoNg {
 
 		$process = new Process( $command );
 		$process->mustRun();
-		$process->setTimeout( 30 );
 		print $process->getOutput();
 
 		// Last languages that have a forced export
@@ -106,8 +103,8 @@ class RepoNg {
 			echo "$command\n";
 
 			$process = new Process( $command );
-			$process->mustRun();
 			$process->setTimeout( 120 );
+			$process->mustRun();
 			print $process->getOutput();
 		}
 	}
@@ -135,16 +132,16 @@ class RepoNg {
 			echo "$command\n";
 
 			$process = new Process( $command );
-			$process->mustRun();
 			$process->setTimeout( 120 );
+			$process->mustRun();
 			print $process->getOutput();
 		}
 
 		// Merge patch sets submitted to Wikimedia's Gerrit.
 		if ( $gerritCommitted ) {
 			$process = new Process( $this->bindir . '/merge-wmgerrit-patches' );
-			$process->mustRun();
 			$process->setTimeout( 120 );
+			$process->mustRun();
 			print $process->getOutput();
 		}
 	}
