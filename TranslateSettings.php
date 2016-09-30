@@ -374,3 +374,8 @@ wfAddNamespace( 1266, 'Hivejs' );
 $wgCapitalLinkOverrides[NS_HIVEJS] = false;
 $wgCapitalLinkOverrides[NS_HIVEJS_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/hivejs/hivejs.yaml";
+
+wfAddNamespace( 1268, 'lib.reviews', 'NS_LIBREVIEWS' );
+$wgCapitalLinkOverrides[NS_LIBREVIEWS] = false;
+$wgCapitalLinkOverrides[NS_LIBREVIEWS_TALK] = false;
+$wgTranslateGroupFiles[] = "$GROUPS/lib.reviews/lib.reviews.yaml";
