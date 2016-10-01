@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0e82f318_1fa06d3d",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-10-01T11:01:20Z",
+      "side": 1,
+      "message": "Dot is not problematic in namespaces, but they cannot be used in the PHP constants and wfAddNamespace isn\u0027t currently stripping them.",
+      "range": {
+        "startLine": 378,
+        "startChar": 23,
+        "endLine": 378,
+        "endChar": 33
+      },
+      "revId": "002134541f4c05247cb609a53af9dff3c7ac5769",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e82f318_7f9089f1",
+        "filename": "groups/lib.reviews/lib.reviews.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-10-01T11:01:20Z",
+      "side": 1,
+      "message": "Dot should be okay in group ids. I updated the setup page with some details.",
+      "range": {
+        "startLine": 3,
+        "startChar": 6,
+        "endLine": 3,
+        "endChar": 16
+      },
+      "revId": "002134541f4c05247cb609a53af9dff3c7ac5769",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e82f318_3f8611bf",
+        "filename": "groups/lib.reviews/lib.reviews.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-10-01T11:01:20Z",
+      "side": 1,
+      "message": "Prefixing is needed only if multiple message groups are going to share the namespace. Prefixes should be short but unique, just to avoid name conflicts from different message groups.",
+      "range": {
+        "startLine": 13,
+        "startChar": 6,
+        "endLine": 13,
+        "endChar": 9
+      },
+      "revId": "002134541f4c05247cb609a53af9dff3c7ac5769",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
