@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "0e82f318_df6b35ec",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2016-10-01T12:09:13Z",
+      "side": 1,
+      "message": "Okay! I\u0027ll make a patch for wfAddNamespace so we can use a consistent name everywhere.",
+      "parentUuid": "0e82f318_1fa06d3d",
+      "range": {
+        "startLine": 378,
+        "startChar": 23,
+        "endLine": 378,
+        "endChar": 33
+      },
+      "revId": "002134541f4c05247cb609a53af9dff3c7ac5769",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0e82f318_7f9089f1",
         "filename": "groups/lib.reviews/lib.reviews.yaml",
         "patchSetId": 1
