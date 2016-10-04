@@ -22,6 +22,30 @@
       "revId": "b504f785b92c96084e70c61f1c31cb9689fdd478",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e82f318_921d277b",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 2811,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2016-10-04T10:40:41Z",
+      "side": 1,
+      "message": "Not necessary. The sprinkled spaces are removed during parsing this file. Only the exact upper and lower case is important here.",
+      "parentUuid": "0e82f318_325e3b49",
+      "range": {
+        "startLine": 2811,
+        "startChar": 0,
+        "endLine": 2811,
+        "endChar": 12
+      },
+      "revId": "b504f785b92c96084e70c61f1c31cb9689fdd478",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
