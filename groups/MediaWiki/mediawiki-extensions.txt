@@ -455,7 +455,7 @@ file = BlueSpiceExtensions/UEModulePDF/i18n/%CODE%.json
 Blue Spice - Universal Export
 id = ext-bs-universalexport
 descmsg = bs-universalexport-desc
-file = BlueSpiceExt
+file = BlueSpiceExtensions/UniversalExport/i18n/%CODE%.json
 
 Blue Spice - Upload
 file = BlueSpiceFoundation/i18n/upload/%CODE%.json
