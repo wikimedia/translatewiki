@@ -93,7 +93,6 @@ aliasfile = ApiExplorer/ApiExplorer.alias.php
 Api Feature Usage
 aliasfile = ApiFeatureUsage/ApiFeatureUsage.alias.php
 ignored = apifeatureusage-text
-optional = apifeatureusage-dates-layout
 
 Approved Revs
 aliasfile = ApprovedRevs/ApprovedRevs.alias.php
@@ -1628,6 +1627,8 @@ magicfile = Negref/Negref.i18n.magic.php
 Network Auth
 optional = networkauth-name, networkauth-purltext
 
+# New Talk Global // Archived per T146242
+
 # ShoutWiki specific
 #New Signup Page
 
@@ -2238,6 +2239,8 @@ aliasfile = SmiteSpam/SmiteSpam.alias.php
 Smooth Gallery
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
 ignored = smoothgallery-pagetext
+
+# Snippet // No message documentation
 
 Social Profile
 aliasfile = SocialProfile/SocialProfile.alias.php
