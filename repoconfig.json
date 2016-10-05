@@ -203,8 +203,12 @@
 		}
 	},
 	"mwgithub": {
-		"group": "mwgithub-*",
+		"group": "mwgithub-*,mediawiki-skingithub-*",
 		"repos": {
+			"mwgithub/cmln/Chameleon": {
+				"type": "git",
+				"url": "https://github.com/cmln/chameleon.git"
+			},
 			"mwgithub/DataValues/DataValues": {
 				"type": "git",
 				"url": "https://github.com/DataValues/DataValues.git"

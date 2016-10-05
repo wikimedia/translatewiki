@@ -13,3 +13,4 @@ BASIC:
 
 GROUPS:
   - mediawiki-skin-*
+  - mediawiki-skingithub-*

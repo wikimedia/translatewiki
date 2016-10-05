@@ -295,3 +295,13 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticScribunto/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mediawiki-skingithub-chameleon
+  label: Chameleon
+  description: "{{Special:MyLanguage/MediaWiki:Chameleon-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/cmln/Chameleon/resources/i18n/%CODE%.json"
