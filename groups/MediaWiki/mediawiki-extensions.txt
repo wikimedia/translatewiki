@@ -2385,6 +2385,7 @@ optional = timedmedia-derivative-desc-360p.webm, timedmedia-derivative-desc-360p
 optional = timedmedia-derivative-desc-320p.mp4, timedmedia-derivative-1440p.webm,
 optional = timedmedia-derivative-1440p.vp9.webm, timedmedia-derivative-360p.mp4
 optional = timedmedia-derivative-desc-360p.mp4, timedmedia-derivative-1440p.mp4
+optional = beta-feature-timedmediahandler-message-videojs
 
 Timed Media Handler - Embed Player
 file = TimedMediaHandler/MwEmbedModules/EmbedPlayer/i18n/%CODE%.json
