@@ -1374,6 +1374,7 @@ optional = kartographer-link-waze
 optional = kartographer-link-wikimapia
 optional = kartographer-link-wikiminiatlas
 optional = kartographer-link-yandex-maps
+optional = kartographer-attribution-externaldata
 
 Kartographer - WV
 file = Kartographer/modules/wikivoyage/i18n/%CODE%.json
