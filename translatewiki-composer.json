@@ -1,6 +1,8 @@
 {
 	"require": {
-		"mediawiki/semantic-maps": "~3.3.0",
+		"mediawiki/semantic-maps": "~3.4",
+                "mediawiki/maps": "~3.8",
+                "mediawiki/semantic-media-wiki": "~2.4",
 		"romaricdrigon/metayaml": "~1.0"
 	},
 	"extra": {
