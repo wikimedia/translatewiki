@@ -275,19 +275,6 @@ $smwgEnabledEditPageHelp = false;
 wfLoadExtension( 'SemanticForms' );
 $sfgRedLinksCheckOnlyLocalProps = true;
 
-wfLoadExtension( 'TitleBlacklist' );
-$wgTitleBlacklistSources = [
-	[
-		'type' => 'localpage',
-		'src' => 'MediaWiki:Titleblacklist'
-	]
-];
-
-wfLoadExtension( 'SpamBlacklist' );
-$wgSpamBlacklistFiles = [
-	"https://meta.wikimedia.org/w/index.php?title=Spam_blacklist&action=raw&sb_ver=1",
-];
-$wgLogSpamBlacklistHits = true;
 $wgNoFollowDomainExceptions = [
 	'laxstrom.name',
 	'ultimategerardm.blogspot.com',
