@@ -165,6 +165,15 @@
 			}
 		}
 	},
+	"lib.reviews": {
+		"group": "lib.reviews",
+		"repos": {
+			"lib.reviews": {
+				"type": "git",
+				"url": "git@github.com:eloquence/lib.reviews.git"
+			}
+		}
+	},
 	"mantis": {
 		"group": "out-mantis*",
 		"repos": {

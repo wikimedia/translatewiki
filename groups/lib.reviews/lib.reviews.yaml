@@ -1,0 +1,13 @@
+---
+BASIC:
+  id: lib.reviews
+  label: lib.reviews
+  description: "{{Special:MyLanguage/Translations:Group descriptions/lib.reviews/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_LIBREVIEWS
+
+FILES:
+  class: JsonFFS
+  nestingSeparator: /
+  parseCLDRPlurals: yes
+  sourcePattern: "%GROUPROOT%/lib.reviews/locales/%CODE%.json"
