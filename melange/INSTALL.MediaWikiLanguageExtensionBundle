@@ -1,26 +1,30 @@
 == Installation ==
 
-=== Layout: ./mediawiki/extensions/{A,B,C} ===
+=== extensions in subdirectory ===
 
-Go to mediawiki directory and extract the release file:
+If your directory layout looks like this:
+ ./mediawiki/extensions/{A,B,C}
+go to mediawiki directory and extract the release file:
  tar xjf MediaWikiLanguageExtensionBundle-{{/latest}}.tar.bz2
 
-Your extension variable is
+The variable you have to add to your LocalSettings.php before the configuration below is:
  $EXT = "$IP/extensions";
 
-=== Layout: ./mediawiki/ ./extensions/{A,B,C} ===
+=== extensions in top-level directory ===
 
-Go to common parent directory and extract the release file:
+If your directory layout looks like this:
+ ./mediawiki/
+ ./extensions/{A,B,C}
+go to common parent directory and extract the release file:
  tar xjf MediaWikiLanguageExtensionBundle-{{/latest}}.tar.bz2
 
-Your extension variables are:
+The variables you have to add to your LocalSettings.php before the configuration below is:
  $EXT = "$IP/../extensions";
  $wgExtensionAssetsPath = "{$wgScriptPath}/../extensions";
 
 === Add/update your LocalSettings.php ===
-Near the end, place the config lines given above followed by this:
+Near the end, you have to place the configuration lines given above (pick from one of the two sections) followed by this:
 
-<syntaxhighlight lang=php>
 wfLoadExtension( 'Babel' );
 
 wfLoadExtension( 'cldr' );
@@ -30,7 +34,7 @@ $wgCCTrailerFilter = true;
 $wgCCUserFilter = false;
 $wgDefaultUserOptions['usenewrc'] = 1;
 
-wfLoadExtensions( 'LocalisationUpdate' );
+wfLoadExtension( 'LocalisationUpdate' );
 $wgLocalisationUpdateDirectory = "$IP/cache";
 
 require_once "$EXT/Translate/Translate.php";
@@ -44,31 +48,22 @@ $wgTranslateDocumentationLanguageCode = 'qqq';
 $wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages
 
 wfLoadExtension( 'UniversalLanguageSelector' );
-</syntaxhighlight>
 
 === Update database tables ===
-==== Commandline ====
-In the directory where your LocalSettings.php is located, run the following
-command:
+==== Command line ====
+In the directory where your LocalSettings.php is located, run the following command:
  php maintenance/update.php
 
-==== Webbrowser ====
-Go to example.com/mediawiki/mw-config/ by using your domain and path and rerun
-install.
+==== Web browser ====
+Go to example.com/mediawiki/mw-config/ by using your domain and path and rerun install.
 
-=== Configuring LocalisationUpdate ===
-1. Create a cache folder in the installation directory, and be sure the server
-has permissions to write on it.
+=== Configuring and using extensions ===
+See the respective extension documentation pages. Do note that LocalisationUpdate does nothing by
+default and needs additional configuration to be run periodically.
 
-2. If localization updates don't seem to come through, you may need to run,
- php maintenance/rebuildLocalisationCache.php --force
-
-3. Whenever you want to run an update, run,
- php extensions/LocalisationUpdate/update.php
-
-4. If you are on Unix like system, you should add LocalisationUpdate to
-crontab:
-
- crontab -e
- # Add the following line
- @daily php /path/to/your/wiki/extensions/LocalisationUpdate/update.php --quiet
+* https://www.mediawiki.org/wiki/Extension:Babel
+* https://www.mediawiki.org/wiki/Extension:CLDR
+* https://www.mediawiki.org/wiki/Extension:CleanChanges
+* https://www.mediawiki.org/wiki/Extension:LocalisationUpdate
+* https://www.mediawiki.org/wiki/Extension:UniversalLanguageSelector
+* https://www.mediawiki.org/wiki/Help:Extension:Translate
