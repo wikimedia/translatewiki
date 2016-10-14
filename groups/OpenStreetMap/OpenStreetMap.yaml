@@ -5,7 +5,8 @@ TEMPLATE:
     class: FileBasedMessageGroup
 
   FILES:
-    class: RubyYamlFFS
+    class: YamlFFS
+    parseCLDRPlurals: true
     codeAsRoot: true
     codeMap:
       be-tarask: be-Tarask
