@@ -2222,6 +2222,7 @@ aliasfile = SiteMatrix/SiteMatrix.alias.php
 magicfile = SiteMatrix/SiteMatrix.i18n.magic.php
 
 Site Metrics
+aliasfile = SiteMetrics/SiteMetrics.alias.php
 
 Site Settings
 aliasfile = SiteSettings/SiteSettings.alias.php
