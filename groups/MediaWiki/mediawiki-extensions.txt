@@ -796,9 +796,6 @@ CryoKey
 
 CSS
 
-# Unused, functionality moved to core: https://gerrit.wikimedia.org/r/#/c/302639/
-# Custom Data
-
 Custom Page
 
 # Unused on WMF since 8/2012 and seems unmaintened. https://gerrit.wikimedia.org/r/#/c/18201/
@@ -1159,6 +1156,8 @@ Gitweb
 Global Blocking
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
 ignored = globalblocking-expiry-options
+
+# Global Contribs // no qqq, inconsistent prefix keys, partly identical with Global Contributions
 
 Global Contributions
 aliasfile = GlobalContributions/GlobalContributions.alias.php
@@ -1880,8 +1879,6 @@ ignored = apihelp-parsoid-batch-description, apihelp-parsoid-batch-param-batch
 
 PCR GUI Inserts
 
-# Pdf Book // Removal per Task 143684
-
 Pdf Export
 aliasfile = PdfExport/PdfExport.i18n.alias.php
 ignored = pdf_fontface_default, pdf_fontface_options
@@ -2068,9 +2065,6 @@ Revision Slider
 
 Right Functions
 optional = rightfunctions-rest1, rightfunctions-rest2, rightfunctions-rest3, rightfunctions-sep
-
-RPED
-ignored = rped-wikipedia-url
 
 RSS
 ignored = rss-item
