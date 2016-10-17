@@ -1,0 +1,59 @@
+#!/bin/bash
+
+DIRSCRIPT="`dirname \"$0\"`"
+DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
+
+if [ $(ssh-add -l | wc -l) != 2 ]
+then
+	echo "Some SSH keys are missing"
+	exit
+fi
+
+PROJECTS="
+int-dcatap
+blockly
+citationhunt
+codev
+crosswatch
+entryscape
+eol
+etherpad-lite
+europeana
+freecol
+fudforum
+gapfinder
+hivejs
+huggle
+inaturalist
+intuition
+int-heritage
+int-orphantalk
+int-raun
+int-refill
+jquery.uls
+kiwix
+lib.reviews
+mathjax
+mwgerrit
+mwgithub
+nfcring-control
+osm
+pageviews
+pywikibot
+vicuna
+video2commons
+waymarked-trails-site
+wiki-ai
+wikiblame
+wikidata
+wikiedudashboard
+wikimania
+wikimedia-portals
+"
+
+for i in $PROJECTS; do
+	echo $i
+	"$DIRSCRIPT/repoupdate" $i
+	"$DIRSCRIPT/repoexport" $i
+	"$DIRSCRIPT/repocommit" $i
+done
