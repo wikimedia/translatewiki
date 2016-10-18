@@ -8,12 +8,15 @@ TEMPLATE:
   FILES:
     class: AndroidXmlFFS
     codeMap:
+      be-tarask: b+be+tarask
       he: iw
       id: in
+      kk-cyrl: b+kk+Cyrl
       ku-latn: ku
       pt-br: pt-rBR
       qqq: qq
       sr-ec: sr
+      tg-cyrl: b+tg+Cyrl
       yi: ji
       zh-hans: zh
       zh-hant: zh-rTW
