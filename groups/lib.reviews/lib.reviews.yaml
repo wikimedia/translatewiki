@@ -11,3 +11,7 @@ FILES:
   nestingSeparator: /
   parseCLDRPlurals: yes
   sourcePattern: "%GROUPROOT%/lib.reviews/locales/%CODE%.json"
+  codeMap:
+    pt: pt-PT
+    pt-br: pt
+    zh-hans: zh
