@@ -1749,6 +1749,13 @@ descmsg = page-creation-notif-desc
 
 Page Disqus
 
+# Renamed from SemanticForms to PageForms
+Page Forms
+aliasfile = PageForms/languages/PF_Aliases.php
+magicfile = PageForms/languages/PF_Magic.php
+ignored = pf_formedit_accesskey_saveandcontinueediting, accesskey-ca-formedit
+optional = pf-datepicker-dateformatlong, pf-datepicker-dateformatshort, pf-datepicker-firstdayofweek
+
 Page Images
 ignored = pageimages-blacklist
 
@@ -2132,11 +2139,12 @@ aliasfile = SemanticDrilldown/languages/SD_Aliases.php
 Semantic Expressiveness
 magicfile = SemanticExpressiveness/SemanticExpressiveness.i18n.magic.php
 
-Semantic Forms
-aliasfile = SemanticForms/languages/SF_Aliases.php
-magicfile = SemanticForms/languages/SF_Magic.php
-ignored = sf_formedit_accesskey_saveandcontinueediting, accesskey-ca-formedit
-optional = sf-datepicker-dateformatlong, sf-datepicker-dateformatshort, sf-datepicker-firstdayofweek
+# Renamed to PageForms - T147582
+# Semantic Forms
+# aliasfile = SemanticForms/languages/SF_Aliases.php
+# magicfile = SemanticForms/languages/SF_Magic.php
+# ignored = sf_formedit_accesskey_saveandcontinueediting, accesskey-ca-formedit
+# optional = sf-datepicker-dateformatlong, sf-datepicker-dateformatshort, sf-datepicker-firstdayofweek
 
 Semantic Forms Inputs
 
