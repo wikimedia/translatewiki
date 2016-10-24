@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "aea567c8_ee68ef1b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2016-10-24T20:10:59Z",
+      "side": 1,
+      "message": "Needs a better commit summary.",
+      "revId": "b1469966d5af11ae5346295c2b4d1ff91ac60e4f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aea567c8_0e643344",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2016-10-24T20:10:59Z",
+      "side": 1,
+      "message": "T146867 is the more relevant bug.",
+      "revId": "b1469966d5af11ae5346295c2b4d1ff91ac60e4f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aea567c8_ae8b07e8",
+        "filename": "groups/Wikimedia/CopyPatrol.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 78
+      },
+      "writtenOn": "2016-10-24T20:10:59Z",
+      "side": 1,
+      "message": "Translatewiki\u0027s interface generally wants square icons, so we should probably change this to Dialog-error-copyright.svg.",
+      "revId": "b1469966d5af11ae5346295c2b4d1ff91ac60e4f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
