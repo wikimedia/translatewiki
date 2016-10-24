@@ -1,0 +1,18 @@
+---
+BASIC:
+  id: copypatrol
+  label: CopyPatrol
+  icon: wiki://Dialog-error-copyright.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/copypatrol/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: copypatrol-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/copypatrol/public_html/i18n/%CODE%.json"

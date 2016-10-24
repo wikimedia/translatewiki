@@ -33,6 +33,15 @@
 			}
 		}
 	},
+	"copypatrol": {
+		"group": "copypatrol",
+		"repos": {
+			"copypatrol": {
+				"type": "git",
+				"url": "https://github.com/wikimedia/CopyPatrol.git"
+			}
+		}
+	},
 	"crosswatch": {
 		"group": "crosswatch",
 		"repos": {
