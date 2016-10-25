@@ -8,7 +8,7 @@ class nginx {
 
   package { 'nginx':
     ensure => present,
-    name   => 'nginx-extras',
+    name   => 'nginx-light',
   }
 
   service { 'nginx':
