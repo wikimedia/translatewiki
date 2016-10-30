@@ -1421,6 +1421,9 @@ Link Target
 
 # Linked Wiki // 2016-09-19 Missing qqq
 
+Linter
+optional = linker-page-title-edit
+
 Liquid Threads
 aliasfile = LiquidThreads/i18n/Lqt.alias.php
 magicfile = LiquidThreads/i18n/LiquidThreads.magic.php
