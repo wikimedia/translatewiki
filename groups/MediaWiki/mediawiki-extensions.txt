@@ -1246,8 +1246,6 @@ GW Toolset
 aliasfile = GWToolset/GWToolset.alias.php
 ignored = gwtoolset-menu, gwtoolset-painted-by, tag-gwtoolset
 
-Hanp
-
 Hash Tables
 
 Header Tabs
