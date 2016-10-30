@@ -514,6 +514,9 @@ id = ext-bs-wikiadmin
 descmsg = bs-wikiadmin-desc
 file = BlueSpiceExtensions/WikiAdmin/i18n/%CODE%.json
 
+Blue Spice Category Manager
+aliasfile = includes/specials/SpecialBlueSpiceCategoryManager.alias.php
+
 Blue Spice Edit Notify Connector
 
 Boiler Plate
