@@ -3,8 +3,9 @@ optional = apex.css, apex.js
 
 Blue print
 
-# qqq missing
-#Blue Sky
+Blue Sky
+optional = bluesky-breadcrumb-pointer
+ignored = bluesky-breadcrumbs-nsmain
 
 Blue Spice Skin
 
