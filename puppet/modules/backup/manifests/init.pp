@@ -9,7 +9,11 @@
 #
 class backup ($databases) {
   package { 'duplicity':
-    ensure  => present,
+    ensure => present,
+  }
+
+  package { 'pbzip2':
+    ensure => present,
   }
 
   file { '/etc/cron.d/backup':
