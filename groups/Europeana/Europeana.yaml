@@ -8,7 +8,8 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/europeana/config/locales/%CODE%.yml"
-  class: RubyYamlFFS
+  class: YamlFFS
+  parseCLDRPlurals: true
   codeAsRoot: true
   codeMap:
     be-tarask: be-Tarask
