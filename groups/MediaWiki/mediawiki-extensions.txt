@@ -1867,6 +1867,10 @@ descmsg = tiff-desc
 Pages List
 aliasfile = PagesList/PagesList.i18n.alias.php
 
+Page View Info
+descmsg = pvi-desc
+optional = pvi-range
+
 Paginate Text
 
 Pan Scroll
@@ -2800,10 +2804,6 @@ ignored = wikimedia-sidebar
 
 Wikimedia Project Names
 file = WikimediaMessages/i18n/wikimediaprojectnames/%CODE%.json
-
-Wikimedia Page View Info
-descmsg = wmpvi-desc
-optional = wmpvi-range
 
 # Undeployed on WMF per https://gerrit.wikimedia.org/r/#/c/149785/
 # Wikimedia Shop Link
