@@ -16,6 +16,24 @@
       "revId": "821ef5ccc1398d31954decaf9f9f2f33d2037bc1",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4eb4ebfb_beaf6edd",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2016-11-07T16:37:21Z",
+      "side": 1,
+      "message": "Because then I have to type the namespace number twice",
+      "parentUuid": "4eb4ebfb_1e6b02b7",
+      "revId": "821ef5ccc1398d31954decaf9f9f2f33d2037bc1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
