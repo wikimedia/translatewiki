@@ -52,6 +52,24 @@
       "revId": "821ef5ccc1398d31954decaf9f9f2f33d2037bc1",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4eb4ebfb_fe74d6cd",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2016-11-07T18:15:47Z",
+      "side": 1,
+      "message": "My objective is to reduce the number of steps required to add a project, not to increase it. If you don\u0027t share this goal, feel free to abandon the change.",
+      "parentUuid": "4eb4ebfb_7e8b26c5",
+      "revId": "821ef5ccc1398d31954decaf9f9f2f33d2037bc1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
