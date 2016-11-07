@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4eb4ebfb_fe1f365c",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-11-07T16:30:11Z",
+      "side": 1,
+      "message": "Why did you use the numbers instead of the namespace constants?",
+      "revId": "93c78fa6dc751fb1b71a668cb522682bbf02c82b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
