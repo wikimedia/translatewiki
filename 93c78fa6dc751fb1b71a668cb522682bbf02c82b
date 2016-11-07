@@ -16,6 +16,24 @@
       "revId": "93c78fa6dc751fb1b71a668cb522682bbf02c82b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4eb4ebfb_7e5a0624",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2016-11-07T16:36:12Z",
+      "side": 1,
+      "message": "1) I don\u0027t remember whether they\u0027re set and how, 2) typing the number is faster, 3) the followup patch removes them anyway.",
+      "parentUuid": "4eb4ebfb_fe1f365c",
+      "revId": "93c78fa6dc751fb1b71a668cb522682bbf02c82b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
