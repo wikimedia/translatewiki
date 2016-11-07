@@ -70,6 +70,24 @@
       "revId": "821ef5ccc1398d31954decaf9f9f2f33d2037bc1",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4eb4ebfb_be5e4e46",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-11-07T18:24:21Z",
+      "side": 1,
+      "message": "Surely copy-pasting few lines of code and changing one thing is easier than trying to figure out the complex parameters.",
+      "parentUuid": "4eb4ebfb_fe74d6cd",
+      "revId": "821ef5ccc1398d31954decaf9f9f2f33d2037bc1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
