@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4eb4ebfb_7e6446ae",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1871,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2016-11-07T16:50:49Z",
+      "side": 1,
+      "message": "Current message prefix is \"wpvi-\"",
+      "range": {
+        "startLine": 1871,
+        "startChar": 14,
+        "endLine": 1871,
+        "endChar": 18
+      },
+      "revId": "4b5062db3c4e287af23e929705228a804d501e5d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4eb4ebfb_5e02aabf",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1872,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2016-11-07T16:50:49Z",
+      "side": 1,
+      "message": "Current message prefix is \"wpvi-\"",
+      "range": {
+        "startLine": 1872,
+        "startChar": 0,
+        "endLine": 1872,
+        "endChar": 8
+      },
+      "revId": "4b5062db3c4e287af23e929705228a804d501e5d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
