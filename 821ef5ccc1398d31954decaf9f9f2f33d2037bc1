@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4eb4ebfb_1e6b02b7",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-11-07T16:34:30Z",
+      "side": 1,
+      "message": "Instead of wrapping wfAddNamespace, why don\u0027t you just create\nfunction wfAddWikiSupport( $namespace, $pagename \u003d null );?",
+      "revId": "821ef5ccc1398d31954decaf9f9f2f33d2037bc1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
