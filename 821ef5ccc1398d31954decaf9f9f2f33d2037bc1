@@ -34,6 +34,24 @@
       "revId": "821ef5ccc1398d31954decaf9f9f2f33d2037bc1",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4eb4ebfb_7e8b26c5",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-11-07T18:12:36Z",
+      "side": 1,
+      "message": "You write it once, read many times. This change would make the unnecessarily complex and magical.",
+      "parentUuid": "4eb4ebfb_beaf6edd",
+      "revId": "821ef5ccc1398d31954decaf9f9f2f33d2037bc1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
