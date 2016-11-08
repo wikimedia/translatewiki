@@ -34,6 +34,24 @@
       "revId": "93c78fa6dc751fb1b71a668cb522682bbf02c82b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4eb4ebfb_26159040",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-11-08T13:34:18Z",
+      "side": 1,
+      "message": "About (2): They are set by wfAddNamespace and you can see those used in the other variables for some groups.\n\nAbout (3): There is no follow-up patch currently.\n\nFor now, please use the namespace constants to unblock this patch. We can have a separate discussion whether to consistently use numbers in this file and/or the yaml files.",
+      "parentUuid": "4eb4ebfb_7e5a0624",
+      "revId": "93c78fa6dc751fb1b71a668cb522682bbf02c82b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
