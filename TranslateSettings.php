@@ -226,6 +226,10 @@ wfAddNamespace( 1200, 'Voctrain' );
 
 wfAddNamespace( 1202, 'FreeCol' );
 $wgTranslateGroupFiles[] = "$GROUPS/FreeCol/FreeCol.yaml";
+$wgTranslateSupportUrlNamespace[NS_FREECOL] = [
+	'page' => 'Translating_talk:FreeCol',
+	'params' => $lqtParams,
+];
 
 wfAddNamespace( 1204, 'Nocc' );
 $wgTranslateGroupFiles[] = "$GROUPS/Nocc/Nocc.yaml";
@@ -259,6 +263,10 @@ wfAddNamespace( 1208, 'StatusNet' );
 wfAddNamespace( 1210, 'Mantis' );
 $wgTranslateGroupFiles[] = "$GROUPS/MantisBT/MantisBT.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MantisBT/CodevTT.yaml";
+$wgTranslateSupportUrlNamespace[NS_MANTIS] = [
+	'page' => 'Translating_talk:MantisBT',
+	'params' => $lqtParams,
+];
 
 # No longer in use.
 wfAddNamespace( 1212, 'Mwlib' );
@@ -279,6 +287,10 @@ wfAddNamespace( 1222, 'Osm' );
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/OpenStreetMap.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/Potlatch2.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/WaymarkedTrails.yaml";
+$wgTranslateSupportUrlNamespace[NS_OSM] = [
+	'page' => 'Translating_talk:OpenStreetMap',
+	'params' => $lqtParams,
+];
 
 # No longer in use.
 wfAddNamespace( 1224, 'WikiReader' );
@@ -293,9 +305,17 @@ $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISManage.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISQualify.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISTrain.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRIS.yaml";
+$wgTranslateSupportUrlNamespace[NS_IHRIS] = [
+	'page' => 'Translating_talk:iHRIS',
+	'params' => $lqtParams,
+];
 
 wfAddNamespace( 1230, 'Mifos' );
 $wgTranslateGroupFiles[] = "$GROUPS/Mifos/Mifos.yaml";
+$wgTranslateSupportUrlNamespace[NS_MIFOS] = [
+	'page' => 'Translating_talk:Mifos',
+	'params' => $lqtParams,
+];
 
 # No longer in use.
 wfAddNamespace( 1232, 'Wikia' );
@@ -305,6 +325,10 @@ wfAddNamespace( 1234, 'OpenImages' );
 
 wfAddNamespace( 1236, 'Europeana' );
 $wgTranslateGroupFiles[] = "$GROUPS/Europeana/Europeana.yaml";
+$wgTranslateSupportUrlNamespace[NS_EUROPEANA] = [
+	'page' => 'Translating_talk:Europeana',
+	'params' => $lqtParams,
+];
 
 wfAddNamespace( 1238, 'Pywikibot' );
 $wgTranslateGroupFiles[] = "$GROUPS/Pywikibot/Pywikibot.yaml";
@@ -331,21 +355,37 @@ $wgTranslateSupportUrlNamespace[NS_INTUITION] = [
 
 wfAddNamespace( 1242, 'EOL' );
 $wgTranslateGroupFiles[] = "$GROUPS/EOL/EOL.yaml";
+$wgTranslateSupportUrlNamespace[NS_EOL] = [
+	'page' => 'Translating_talk:Encyclopedia_of_Life',
+	'params' => $lqtParams,
+];
 
 wfAddNamespace( 1244, 'Kiwix' );
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/Kiwix.yaml";
+$wgTranslateSupportUrlNamespace[NS_KIWIX] = [
+	'page' => 'Translating_talk:Kiwix',
+	'params' => $lqtParams,
+];
 
 # No longer in use.
 wfAddNamespace( 1246, 'Mozilla' );
 
 wfAddNamespace( 1248, 'Huggle' );
 $wgTranslateGroupFiles[] = "$GROUPS/Huggle/Huggle.yaml";
+$wgTranslateSupportUrlNamespace[NS_HUGGLE] = [
+	'page' => 'Translating_talk:Huggle',
+	'params' => $lqtParams,
+];
 
 wfAddNamespace( 1250, 'EtherpadLite' );
 $wgTranslateGroupFiles[] = "$GROUPS/EtherpadLite/EtherpadLite.yaml";
 
 wfAddNamespace( 1252, 'Vicuna' );
 $wgTranslateGroupFiles[] = "$GROUPS/Vicuna/Vicuna.yaml";
+$wgTranslateSupportUrlNamespace[NS_VICUNA] = [
+	'page' => 'Translating_talk:Vicuña_Uploader',
+	'params' => $lqtParams,
+];
 
 wfAddNamespace( 1254, 'FUEL' );
 $wgTranslateGroupFiles[] = "$GROUPS/FUEL/FUEL.yaml";
@@ -365,18 +405,34 @@ $wgTranslateGroupFiles[] = "$GROUPS/NFCRingControl/NFCRingControl.yaml";
 
 wfAddNamespace( 1262, 'iNaturalist' );
 $wgTranslateGroupFiles[] = "$GROUPS/iNaturalist/iNaturalist.yaml";
+$wgTranslateSupportUrlNamespace[NS_INATURALIST] = [
+	'page' => 'Translating_talk:iNaturalist',
+	'params' => $lqtParams,
+];
 
 wfAddNamespace( 1264, 'EntryScape' );
 $wgCapitalLinkOverrides[NS_ENTRYSCAPE] = false;
 $wgCapitalLinkOverrides[NS_ENTRYSCAPE_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/EntryScape/EntryScape.yaml";
+$wgTranslateSupportUrlNamespace[NS_ENTRYSCAPE] = [
+	'page' => 'Translating_talk:EntryScape',
+	'params' => $lqtParams,
+];
 
 wfAddNamespace( 1266, 'Hivejs' );
 $wgCapitalLinkOverrides[NS_HIVEJS] = false;
 $wgCapitalLinkOverrides[NS_HIVEJS_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/hivejs/hivejs.yaml";
+$wgTranslateSupportUrlNamespace[NS_HIVEJS] = [
+	'page' => 'Translating_talk:Hive.js',
+	'params' => $lqtParams,
+];
 
 wfAddNamespace( 1268, 'lib.reviews', 'NS_LIBREVIEWS' );
 $wgCapitalLinkOverrides[NS_LIBREVIEWS] = false;
 $wgCapitalLinkOverrides[NS_LIBREVIEWS_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/lib.reviews/lib.reviews.yaml";
+$wgTranslateSupportUrlNamespace[NS_LIBREVIEWS] = [
+	'page' => 'Translating_talk:lib.reviews',
+	'params' => $lqtParams,
+];
