@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2eb1770d_f6d2f45c",
+        "filename": "groups/EntryScape/Suggester.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-11-15T15:23:54Z",
+      "side": 1,
+      "message": "You should to plural separately.\n\nThe syntax is {{PLURAL:$n|foo|bar|baz}}\n\nThis should be split to:\n- pre: {{PLURAL:$n|\n- post: }}\n- display: {{PLURAL:$n}}\n\nThe code in core that does this is:\n\n                $matches \u003d array();\n                preg_match_all(\n                        \u0027/({{((?:PLURAL|GENDER|GRAMMAR):[^|]*)\\|).*?(}})/i\u0027,\n                        $text,\n                        $matches,\n                        PREG_SET_ORDER\n                );\n                $new \u003d array_map( function( $match ) {\n                        return new Insertable( $match[2], $match[1], $match[3] );\n                }, $matches );\n                $insertables \u003d array_merge( $insertables, $new );",
+      "revId": "746f97ebd38ec18096fcd1ccfc486fc788e5903e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
