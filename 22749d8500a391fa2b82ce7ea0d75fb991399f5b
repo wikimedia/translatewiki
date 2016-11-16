@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eec4bf7e_1c91199d",
+        "filename": "groups/EntryScape/Suggester.php",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 3033
+      },
+      "writtenOn": "2016-11-16T01:55:33Z",
+      "side": 1,
+      "message": "Not sure if it\u0027s necessary to emphasize that it\u0027s case insensitive.",
+      "range": {
+        "startLine": 25,
+        "startChar": 17,
+        "endLine": 25,
+        "endChar": 27
+      },
+      "revId": "22749d8500a391fa2b82ce7ea0d75fb991399f5b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
