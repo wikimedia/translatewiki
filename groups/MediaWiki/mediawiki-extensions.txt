@@ -655,11 +655,11 @@ ignored = coll-user_book_prefix, coll-community_book_prefix
 optional = coll-setting-papersize-a4
 optional = coll-setting-columns-1, coll-setting-columns-2
 
-Commentbox
-ignored = commentbox-prefill
-
 Comment Pages
 ignored = commenttab-editintro, commenttab-preload
+
+Commentbox
+ignored = commentbox-prefill
 
 Comments
 aliasfile = Comments/Comments.alias.php
@@ -1136,6 +1136,8 @@ aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition
 
 Genderize
+
+# Genealogy // 2016-11-17: old 18n file
 
 Geo Crumbs
 optional = geocrumbs-delimiter
@@ -2218,6 +2220,8 @@ Simple SAML php
 Simple Security
 descmsg = security-desc
 ignored = security-logentry
+
+Simple Sort
 
 # No message documentation - 2014-10-06
 #Site Scout
