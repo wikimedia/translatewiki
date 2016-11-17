@@ -79,7 +79,8 @@ tag)
 	# Multple tags created from unchanged workdir would have same date
 	# and sort in incorrect order
 	touch workdir
-	if [ -z `rsync --version | grep 'version 3\.1\.'`]; then
+	SUPPORTSINFO=`rsync --version | grep 'version 3\.1\.'`
+	if [ -z "$SUPPORTSINFO" ]; then
 		rsync -a --cvs-exclude workdir/ --chmod=a-w "tags/$TAG"
 	else
 		rsync -a --info=progress2 --cvs-exclude workdir/ --chmod=a-w "tags/$TAG"
