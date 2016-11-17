@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "eec4bf7e_382180f7",
+        "filename": "groups/EntryScape/Suggester.php",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-11-17T08:54:18Z",
+      "side": 1,
+      "message": "Sure, go ahead.",
+      "parentUuid": "eec4bf7e_5cc5518f",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 26
+      },
+      "revId": "f0c03eb8d9a8b4ca56794a0f8407d41d4fb3c06e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eec4bf7e_1cbfd9f7",
         "filename": "groups/EntryScape/Suggester.php",
         "patchSetId": 4
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "eec4bf7e_187d9ce4",
+        "filename": "groups/EntryScape/Suggester.php",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-11-17T08:54:18Z",
+      "side": 1,
+      "message": "This is fine.",
+      "parentUuid": "eec4bf7e_1cbfd9f7",
+      "range": {
+        "startLine": 14,
+        "startChar": 2,
+        "endLine": 19,
+        "endChar": 4
+      },
+      "revId": "f0c03eb8d9a8b4ca56794a0f8407d41d4fb3c06e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eec4bf7e_3cc29d89",
         "filename": "groups/EntryScape/Suggester.php",
         "patchSetId": 4
@@ -59,6 +107,30 @@
       "writtenOn": "2016-11-16T02:17:43Z",
       "side": 1,
       "message": "Not sure if this is necessary to indicate that this is case insensitive.",
+      "range": {
+        "startLine": 25,
+        "startChar": 17,
+        "endLine": 25,
+        "endChar": 27
+      },
+      "revId": "f0c03eb8d9a8b4ca56794a0f8407d41d4fb3c06e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eec4bf7e_9871ac0e",
+        "filename": "groups/EntryScape/Suggester.php",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-11-17T08:54:18Z",
+      "side": 1,
+      "message": "It\u0027s a comment. Do what you think conveys your message best. You could also add \" (case insensitive)\" instead of \", {{plural}}\".",
+      "parentUuid": "eec4bf7e_3cc29d89",
       "range": {
         "startLine": 25,
         "startChar": 17,
