@@ -951,6 +951,8 @@ Electron Pdf Service
 aliasfile = ElectronPdfService/ElectronPdfService.i18n.alias.php
 descmsg = electronPdfService-desc
 
+Email Auth
+
 Email Capture
 
 Error Handler
