@@ -1444,9 +1444,9 @@ optional = group-tmxadmin.css, group-tmxadmin.js
 
 Localisation Update
 
-Lockdown
+Lock Down English Pages
 
-Lockdown English Pages
+Lockdown
 
 Log Entry
 aliasfile = LogEntry/LogEntry.alias.php
