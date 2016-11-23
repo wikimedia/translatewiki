@@ -2433,6 +2433,7 @@ Tor Block
 Translate - API
 id = ext-translate-api
 file = Translate/i18n/api/%CODE%.json
+ignored = apierror-translate-invalidfilter, apierror-translate-sandbox-invalidparam
 
 Translate - Core
 id = ext-translate-core
