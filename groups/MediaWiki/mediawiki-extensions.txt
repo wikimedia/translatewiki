@@ -2689,6 +2689,9 @@ ignored = wikibase-shortcopyrightwarning-version, wikibase-entitytermsview-entit
 # Real extension?
 # Wikibase JavaScript Api
 
+Wikibase Lexeme
+aliasfile = WikibaseLexeme/WikibaseLexeme.i18n.alias.php
+
 Wikibase Media Info
 
 Wikibase Quality
