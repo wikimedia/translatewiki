@@ -17,9 +17,6 @@
 # Sub Page List
 # Validator
 
-2 Col Conflict
-descmsg = twoColConflict-desc
-
 Absentee Landlord
 
 Abuse Filter
@@ -2483,6 +2480,9 @@ Twn Main Page
 aliasfile = TwnMainPage/MainPage.alias.php
 descmsg = twnmp-desc
 optional = twnmp-stats-number-k
+
+Two Col Conflict
+descmsg = twoColConflict-desc
 
 Two Factor Authentication
 aliasfile = TwoFactorAuthentication/TwoFactorAuth.alias.php
