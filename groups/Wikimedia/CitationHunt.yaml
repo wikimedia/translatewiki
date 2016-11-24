@@ -21,6 +21,10 @@ CHECKER:
   checks:
     - printfCheck
 
+TAGS:
+  optional:
+    - citationhunt-tooltitle
+
 INSERTABLES:
   class: CitationHuntInsertablesSuggester
 
