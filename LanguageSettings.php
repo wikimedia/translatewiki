@@ -80,6 +80,7 @@ $wgExtraLanguageNames['slr'] = 'Salırça'; # Salar / Siebrand 2008-08-18
 $wgExtraLanguageNames['sly'] = 'Bahasa Selayar'; # A Selayar / Siebrand 2012-01-09
 $wgExtraLanguageNames['smj'] = 'julevsámegiella'; # Lule Saami / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['smn'] = 'anarâškielâ'; # Inari Saami / Siebrand 2014-10-06
+$wgExtraLanguageNames['sty'] = 'Себертатар'; # Siberian Tatar / Amir 2016-11-26
 $wgExtraLanguageNames['swb'] = 'Shikomoro'; # Comorian
 $wgExtraLanguageNames['sxu'] = 'Säggssch'; # Upper Saxon
 $wgExtraLanguageNames['test'] = 'Test (site admin only)'; # Test
