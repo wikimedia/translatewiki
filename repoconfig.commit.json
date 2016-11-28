@@ -196,6 +196,15 @@
 			}
 		}
 	},
+	"oppia": {
+		"group": "oppia",
+		"repos": {
+			"oppia": {
+				"type": "git",
+				"url": "git@github.com:oppia/oppia.git"
+			}
+		}
+	},
 	"pageviews": {
 		"group": "out-pageviews",
 		"repos": {

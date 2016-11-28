@@ -1,0 +1,13 @@
+---
+BASIC:
+  id: oppia
+  label: Oppia
+  icon: wiki://Oppia_logo.png
+  description: "{{Special:MyLanguage/Translations:Group descriptions/oppia/en}}"
+  namespace: NS_OPPIA
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/oppia/assets/i18n/%CODE%.json"
+  definitionFile: "%GROUPROOT%/oppia/assets/i18n/en.json"
