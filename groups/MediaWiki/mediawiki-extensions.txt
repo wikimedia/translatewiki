@@ -1336,6 +1336,8 @@ ignored = interwiki-description
 Interwiki Integration
 aliasfile = InterwikiIntegration/InterwikiIntegration.alias.php
 
+Interwiki Sorting
+
 Insider
 
 Invite Signup
