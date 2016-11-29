@@ -837,6 +837,8 @@ magicfile = Disambiguator/Disambiguator.i18n.magic.php
 
 Discussion Threading
 
+Display Title
+
 Dismissable SiteNotice
 descmsg = sitenotice-desc
 ignored = sitenotice_id
