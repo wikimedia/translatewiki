@@ -197,6 +197,7 @@
 		"repos": {
 			"oppia": {
 				"type": "git",
+				"branch": "develop",
 				"url": "https://github.com/oppia/oppia.git"
 			}
 		}
