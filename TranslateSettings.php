@@ -436,3 +436,12 @@ $wgTranslateSupportUrlNamespace[NS_LIBREVIEWS] = [
 	'page' => 'Translating_talk:lib.reviews',
 	'params' => $lqtParams,
 ];
+
+wfAddNamespace( 1270, 'Oppia' );
+$wgCapitalLinkOverrides[NS_OPPIA] = false;
+$wgCapitalLinkOverrides[NS_OPPIA_TALK] = false;
+$wgTranslateGroupFiles[] = "$GROUPS/Oppia/Oppia.yaml";
+$wgTranslateSupportUrlNamespace[NS_OPPIA] = [
+	'page' => 'Translating_talk:Oppia',
+	'params' => $lqtParams,
+];
