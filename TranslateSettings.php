@@ -373,8 +373,8 @@ wfAddNamespace( 1246, 'Mozilla' );
 wfAddNamespace( 1248, 'Huggle' );
 $wgTranslateGroupFiles[] = "$GROUPS/Huggle/Huggle.yaml";
 $wgTranslateSupportUrlNamespace[NS_HUGGLE] = [
-	'page' => 'Translating_talk:Huggle',
-	'params' => $lqtParams,
+	'url' => "$phabUrl?projects=i18n,Huggle",
+	'params' => $phabParams,
 ];
 
 wfAddNamespace( 1250, 'EtherpadLite' );
