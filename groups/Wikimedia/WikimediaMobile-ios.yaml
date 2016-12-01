@@ -10,6 +10,9 @@ TEMPLATE:
     patterns:
       - "*"
 
+  INSERTABLES:
+    class: MediaWikiInsertablesSuggester
+
 ---
 BASIC:
   icon: wiki://Wikipedia-logo-v2.svg
