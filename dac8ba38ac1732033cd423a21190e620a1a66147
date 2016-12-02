@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ed34346_07a9b6dc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1718
+      },
+      "writtenOn": "2016-12-02T11:03:55Z",
+      "side": 1,
+      "message": "remove this blank line.\nsee https://www.mediawiki.org/wiki/Gerrit/Commit_message_guidelines#Example",
+      "revId": "dac8ba38ac1732033cd423a21190e620a1a66147",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
