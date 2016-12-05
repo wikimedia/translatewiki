@@ -108,6 +108,15 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticExtraSpecialProperties/i18n/%CODE%.json"
 ---
 BASIC:
+  id: mwgithub-semanticformsselect
+  label: Semantic Forms Select
+  description: "{{Special:MyLanguage/MediaWiki:sfs-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticFormsSelect/i18n/%CODE%.json"
+---
+BASIC:
   id: mwgithub-semanticglossary
   label: Semantic Glossary
   description: "{{Special:MyLanguage/MediaWiki:Semanticglossary-desc/en}}"
