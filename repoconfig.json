@@ -281,6 +281,10 @@
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticExtraSpecialProperties.git"
 			},
+			"mwgithub/SemanticMediaWiki/SemanticFormsSelect": {
+				"type": "git",
+				"url": "https://github.com/SemanticMediaWiki/SemanticFormsSelect.git"
+			},
 			"mwgithub/SemanticMediaWiki/SemanticGlossary": {
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticGlossary.git"
