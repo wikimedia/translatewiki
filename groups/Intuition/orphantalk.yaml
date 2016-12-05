@@ -14,3 +14,9 @@ MANGLER:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/int-orphantalk/messages/%CODE%.json"
+
+INSERTABLES:
+  class: IntuitionInsertablesSuggester
+
+AUTOLOAD:
+  IntuitionInsertablesSuggester: IntuitionInsertablesSuggester.php

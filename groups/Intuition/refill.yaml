@@ -22,3 +22,9 @@ TAGS:
     - refill-wikitext-support-parameter-*
     - refill-wikitext-parameter-*
     - refill-wikitext-template-*
+
+INSERTABLES:
+  class: IntuitionInsertablesSuggester
+
+AUTOLOAD:
+  IntuitionInsertablesSuggester: IntuitionInsertablesSuggester.php

@@ -10,3 +10,9 @@ BASIC:
 GROUPS:
   - tsint-*
   - int-*
+
+INSERTABLES:
+  class: IntuitionInsertablesSuggester
+
+AUTOLOAD:
+  IntuitionInsertablesSuggester: IntuitionInsertablesSuggester.php

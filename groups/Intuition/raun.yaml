@@ -18,3 +18,9 @@ FILES:
 TAGS:
   ignored:
     - raun-ns*
+
+INSERTABLES:
+  class: IntuitionInsertablesSuggester
+
+AUTOLOAD:
+  IntuitionInsertablesSuggester: IntuitionInsertablesSuggester.php
