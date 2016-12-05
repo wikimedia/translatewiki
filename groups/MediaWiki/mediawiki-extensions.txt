@@ -1423,6 +1423,7 @@ Link Target
 # Linked Wiki // 2016-09-19 Missing qqq
 
 Linter
+aliasfile = Linter/Linter.alias.php
 optional = linker-page-title-edit
 
 Liquid Threads
