@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ed34346_01ecedf0",
+        "filename": "groups/Intuition/dcatap.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-12-06T09:55:58Z",
+      "side": 1,
+      "message": "There is a Copy-paste error here.",
+      "revId": "c557b46ccd63d9622d81b70dce7b1a4b16156821",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ed34346_e1e8d1df",
+        "filename": "groups/Intuition/heritage.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-12-06T09:55:58Z",
+      "side": 1,
+      "message": "There is a Copy-paste error here.",
+      "revId": "c557b46ccd63d9622d81b70dce7b1a4b16156821",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ed34346_c1f5d5b6",
+        "filename": "groups/Intuition/orphantalk.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-12-06T09:55:58Z",
+      "side": 1,
+      "message": "There is a Copy-paste error here.",
+      "revId": "c557b46ccd63d9622d81b70dce7b1a4b16156821",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ed34346_a1f2d9cb",
+        "filename": "groups/Intuition/raun.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-12-06T09:55:58Z",
+      "side": 1,
+      "message": "There is a Copy-paste error here.",
+      "revId": "c557b46ccd63d9622d81b70dce7b1a4b16156821",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ed34346_81bebdcf",
+        "filename": "groups/Intuition/refill.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2016-12-06T09:55:58Z",
+      "side": 1,
+      "message": "There is a Copy-paste error here.",
+      "revId": "c557b46ccd63d9622d81b70dce7b1a4b16156821",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
