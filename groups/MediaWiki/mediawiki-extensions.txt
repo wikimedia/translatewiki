@@ -1136,7 +1136,8 @@ ignored = gadgets-definition
 
 Genderize
 
-# Genealogy // 2016-11-24: Missing message doc
+Genealogy
+optional = genealogy-born-and-died
 
 Geo Crumbs
 optional = geocrumbs-delimiter
@@ -2049,6 +2050,8 @@ aliasfile = RecentActivityFeed/RecentActivityFeed.alias.php
 Refresh Special
 aliasfile = RefreshSpecial/RefreshSpecial.alias.php
 
+# Regex Block // 2016-12-06: Incomplete message documenation
+
 Regex Fun
 
 Regex Functions
@@ -2273,6 +2276,8 @@ descmsg = spam-blacklist-desc
 Spam Diff Tool
 aliasfile = SpamDiffTool/SpamDiffTool.alias.php
 ignored = spamdifftool-top-level-domains
+
+# Spam Regex // 2016-12-06: Incomplete message documentation
 
 Spark
 
