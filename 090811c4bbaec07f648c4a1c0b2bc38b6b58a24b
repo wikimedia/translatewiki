@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ed34346_3745e018",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-12-07T16:10:34Z",
+      "side": 1,
+      "message": "Could you move this to near the place where Wikimedia namespace is defined?",
+      "revId": "090811c4bbaec07f648c4a1c0b2bc38b6b58a24b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ed34346_1752e4e2",
+        "filename": "bin/EXTERNAL-PROJECTS",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-12-07T16:10:34Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be after codev?",
+      "revId": "090811c4bbaec07f648c4a1c0b2bc38b6b58a24b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ed34346_f74e483b",
+        "filename": "groups/Wikimedia/CommonsAndroid.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-12-07T16:10:34Z",
+      "side": 1,
+      "message": "Wikipedia app no longer needs this whitelist. Would be nice to check with the developers if it can be removed for this app too.",
+      "revId": "090811c4bbaec07f648c4a1c0b2bc38b6b58a24b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ed34346_d75a2cf9",
+        "filename": "repoconfig.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-12-07T16:10:34Z",
+      "side": 1,
+      "message": "needs updating",
+      "revId": "090811c4bbaec07f648c4a1c0b2bc38b6b58a24b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
