@@ -66,6 +66,16 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-echo
+  label: Echo
+  description: '{{Special:MyLanguage/Translations:Group descriptions/echo/en}}'
+
+GROUPS:
+  - ext-echo-interface
+  - ext-echo-api
+
+---
+BASIC:
   id: ext-flow-0-all
   label: Flow messages - all
   description: '{{Special:MyLanguage/Translations:Group descriptions/flow/en}}'

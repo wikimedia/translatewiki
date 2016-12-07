@@ -911,7 +911,8 @@ Duplicator
 
 Dynamic Sidebar
 
-Echo
+Echo - Interface
+id = ext-echo-interface
 aliasfile = Echo/Echo.alias.php
 optional = echo-badge-count
 optional = echo-email-batch-separator, echo-email-batch-bullet, echo-quotation-marks
@@ -920,6 +921,10 @@ optional = echo-foreign-wiki-lang, echo-specialpage-pagination-range
 ignored = echo-email-batch-separator, notification-welcome-link, notification-body-mention
 ignored = notification-body-emailuser, notification-body-user-rights
 ignored = notification-body-foreign
+
+Echo - API
+id = ext-echo-api
+file = Echo/i18n/api/%CODE%.json
 
 # Incomplete message documentation file - 2014-11-20
 #Edit Account
