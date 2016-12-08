@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6ed52f32_d395cce7",
+        "filename": "groups/Wikimedia/CommonsAndroid.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 2426
+      },
+      "writtenOn": "2016-12-08T17:19:40Z",
+      "side": 1,
+      "message": "The Commons app supports much older devices than the Wikipedia app, back to Android Honeycomb[0]. I don\u0027t know if Honeycomb supports[1] this format. You might want to verify these translations will work first or use a whitelist like the Wikipedia app used to have[2] or bump the minimum platform version.\n\n[0] https://github.com/commons-app/apps-android-commons/blob/master/app/build.gradle#L32\n\n[1] https://code.google.com/p/android/issues/detail?id\u003d49120\n\n[2] https://gerrit.wikimedia.org/r/#/c/314232/1/groups/Wikimedia/WikimediaMobile-android.yaml",
+      "range": {
+        "startLine": 11,
+        "startChar": 17,
+        "endLine": 11,
+        "endChar": 28
+      },
+      "revId": "8aa26c319d3695cebabde900c14ad99a164f96f1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
