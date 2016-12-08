@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6ed52f32_30c2c689",
+        "filename": "groups/Kiwix/KiwixInsertablesSuggester.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2016-12-08T12:01:40Z",
+      "side": 1,
+      "message": "Is this copied fully or partially from another Insertable class? If it is, can you please write in the comment here that it is based on that class? If it is completely new, then disregard this comment.",
+      "revId": "f9260fc2afa929862d935950966e0e86560d959a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
