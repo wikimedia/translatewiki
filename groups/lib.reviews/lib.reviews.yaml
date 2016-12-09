@@ -16,3 +16,9 @@ FILES:
     pt-br: pt
     zh-hans: zh
     zh-hant: zh-Hant
+
+INSERTABLES:
+  class: LibReviewsInsertablesSuggester
+
+AUTOLOAD:
+  LibReviewsInsertablesSuggester: LibReviewsInsertablesSuggester.php
