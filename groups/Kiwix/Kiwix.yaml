@@ -15,3 +15,9 @@ TAGS:
   optional:
     - "*.accesskey"
     - ui.main.cssdirection
+
+INSERTABLES:
+  class: KiwixInsertablesSuggester
+
+AUTOLOAD:
+  KiwixInsertablesSuggester: KiwixInsertablesSuggester.php
