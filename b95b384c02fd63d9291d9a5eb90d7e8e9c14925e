@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6ed52f32_793a72c2",
+        "filename": "groups/wikidata/wikidata.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2016-12-09T17:23:05Z",
+      "side": 1,
+      "message": "The first letter W here is capital, but in the actual file name it is small.",
+      "range": {
+        "startLine": 34,
+        "startChar": 32,
+        "endLine": 34,
+        "endChar": 60
+      },
+      "revId": "b95b384c02fd63d9291d9a5eb90d7e8e9c14925e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
