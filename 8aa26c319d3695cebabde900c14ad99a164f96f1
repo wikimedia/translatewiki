@@ -22,6 +22,30 @@
       "revId": "8aa26c319d3695cebabde900c14ad99a164f96f1",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ed52f32_077d4ae4",
+        "filename": "groups/Wikimedia/CommonsAndroid.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 3244
+      },
+      "writtenOn": "2016-12-09T05:10:58Z",
+      "side": 1,
+      "message": "Would bumping the minimum to Ice cream sandwich (api 14) solve the problem? Sorry, I read the thread linked but could not find specific information about which version would work with it.",
+      "parentUuid": "6ed52f32_d395cce7",
+      "range": {
+        "startLine": 11,
+        "startChar": 17,
+        "endLine": 11,
+        "endChar": 28
+      },
+      "revId": "8aa26c319d3695cebabde900c14ad99a164f96f1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
