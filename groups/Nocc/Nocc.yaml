@@ -83,3 +83,9 @@ CHECKER:
   class: MessageChecker
   checks:
     - printfCheck
+
+INSERTABLES:
+  class: NoccInsertablesSuggester
+
+AUTOLOAD:
+  NoccInsertablesSuggester: NoccInsertablesSuggester.php
