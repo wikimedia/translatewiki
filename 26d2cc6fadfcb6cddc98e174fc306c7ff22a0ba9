@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "2edfb757_717bb0be",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2016-12-10T15:24:17Z",
+      "side": 1,
+      "message": "But this is how it\u0027s done for the other similar extensions—Flow, ContentTranslation, Translate. Should they be changed, too? (Same reply to the other comments.)",
+      "parentUuid": "8ed34346_7c8c5fff",
+      "range": {
+        "startLine": 69,
+        "startChar": 6,
+        "endLine": 69,
+        "endChar": 9
+      },
+      "revId": "26d2cc6fadfcb6cddc98e174fc306c7ff22a0ba9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8ed34346_5c72c311",
         "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
         "patchSetId": 2
