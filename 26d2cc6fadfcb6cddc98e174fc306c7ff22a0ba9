@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "2edfb757_a58af21a",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-12-12T07:20:21Z",
+      "side": 1,
+      "message": "I was not clear: I have made an unilateral decision to deprecate this kind of naming, in favor of what I suggested.\n\nOld ones have not been changed yet, because only recently I added support for redirecting from old message group ids (and that does not solve the case where a new group takes the old id).",
+      "parentUuid": "2edfb757_717bb0be",
+      "range": {
+        "startLine": 69,
+        "startChar": 6,
+        "endLine": 69,
+        "endChar": 9
+      },
+      "revId": "26d2cc6fadfcb6cddc98e174fc306c7ff22a0ba9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8ed34346_5c72c311",
         "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
         "patchSetId": 2
