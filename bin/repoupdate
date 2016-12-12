@@ -33,6 +33,7 @@ doUpdate() {
 fetchReposFromGerrit() {
 	curl -s "https://gerrit.wikimedia.org/r/projects/?p=$1" |
 	grep "$1" |
+	grep '": {' |
 	cut -d '"' -f2 |
 	cut -d '/' -f3- |
 	grep -v '/' |
