@@ -33,6 +33,15 @@
 			}
 		}
 	},
+	"commons-android": {
+		"group": "commons-android-*",
+		"repos": {
+			"commons-android": {
+				"type": "git",
+				"url": "git@github.com:commons-app/apps-android-commons.git"
+			}
+		}
+	},
 	"copypatrol": {
 		"group": "copypatrol",
 		"repos": {
