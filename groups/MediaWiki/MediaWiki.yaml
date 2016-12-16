@@ -602,3 +602,4 @@ TAGS:
     - api-help-fallback-example
     - api-help-flags
     - api-help-param-type-password
+    - apierror-stashexception
