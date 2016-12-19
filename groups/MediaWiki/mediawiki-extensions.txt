@@ -1596,7 +1596,7 @@ optional = multimediaviewer-embed-license-nonfree
 optional = multimediaviewer-text-embed-credit-text-l, multimediaviewer-html-embed-credit-text-l
 ignored = multimediaviewer-embed-dimensions-with-file-format, multimediaviewer-report-issue-url
 
-MW Search
+# MW Search // This extension has been archived
 
 MwEmbed Support
 descmsg = mwembed-desc
