@@ -114,7 +114,6 @@ class RepoNg {
 	public function commit() {
 		$message = 'Localisation updates from https://translatewiki.net.';
 		$base = $this->meta['basepath'];
-		$gerritCommitted = false;
 
 		foreach ( $this->config['repos'] as $name => $repo ) {
 			if ( $repo['type'] === 'git' || $repo['type'] === 'github' ) {
@@ -126,8 +125,6 @@ class RepoNg {
 				$dir = "$base/$name";
 				$command = "cd $dir; git add .; " .
 					"if git commit -m '$message'; then git review -r origin -t L10n; fi";
-
-				$gerritCommitted = true;
 			} else {
 				throw new RuntimeException( 'Unknown repo type' );
 			}
@@ -137,14 +134,17 @@ class RepoNg {
 			$process->setTimeout( 120 );
 			$process->mustRun();
 			print $process->getOutput();
-		}
 
-		// Merge patch sets submitted to Wikimedia's Gerrit.
-		if ( $gerritCommitted ) {
-			$process = new Process( $this->bindir . '/merge-wmgerrit-patches' );
-			$process->setTimeout( 120 );
-			$process->mustRun();
-			print $process->getOutput();
+			$autoMerge = isset( $repo['auto-merge'] ) ? $repo['auto-merge'] : true;
+
+			// Merge patch sets submitted to Wikimedia's Gerrit.
+			if ( $repo['type'] === 'wmgerrit' && $autoMerge ) {
+				$project = str_replace( 'https://gerrit.wikimedia.org/r/', '', $repo['url'] );
+				$process = new Process( $this->bindir . "/merge-wmgerrit-patches '$project'" );
+				$process->setTimeout( 120 );
+				$process->mustRun();
+				print $process->getOutput();
+			}
 		}
 	}
 }

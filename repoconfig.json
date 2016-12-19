@@ -470,8 +470,18 @@
 		"group": "out-wikimedia-mobile-wikipedia-android-*",
 		"repos": {
 			"wikipedia-android": {
-				"type": "git",
-				"url": "https://phabricator.wikimedia.org/diffusion/APAW"
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/apps/android/wikipedia"
+			}
+		}
+	},
+	"wikipedia-ios": {
+		"group": "out-wikimedia-mobile-wikipedia-ios",
+		"repos": {
+			"wikipedia-ios": {
+				"type": "github",
+				"branch": "develop",
+				"url": "https://github.com/wikimedia/wikipedia-ios.git"
 			}
 		}
 	},
@@ -490,16 +500,6 @@
 			"wikimedia-portals": {
 				"type": "wmgerrit",
 				"url": "https://gerrit.wikimedia.org/r/wikimedia/portals"
-			}
-		}
-	},
-	"wikipedia-ios": {
-		"group": "out-wikimedia-mobile-wikipedia-ios",
-		"repos": {
-			"wikipedia-ios": {
-				"type": "git",
-				"branch": "develop",
-				"url": "https://github.com/wikimedia/wikipedia-ios.git"
 			}
 		}
 	}

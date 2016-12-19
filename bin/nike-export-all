@@ -53,6 +53,8 @@ wikidata
 wikiedudashboard
 wikimania
 wikimedia-portals
+wikipedia-android
+wikipedia-ios
 "
 
 for i in $PROJECTS; do
