@@ -11,3 +11,4 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/oppia/assets/i18n/%CODE%.json"
   definitionFile: "%GROUPROOT%/oppia/assets/i18n/en.json"
+  includeMetadata: false
