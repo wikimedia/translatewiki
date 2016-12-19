@@ -2629,7 +2629,7 @@ Wiki Forum
 ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforum-max-replies-per-page
 optional = group-forumadmin.css, group-forumadmin.js
 
-# Wiki Labels // 2016-03-06: Stil extension boilerplate
+Wiki Labels
 
 Wiki Lexical Data
 file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
