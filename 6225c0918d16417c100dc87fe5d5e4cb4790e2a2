@@ -51,6 +51,24 @@
       "revId": "6225c0918d16417c100dc87fe5d5e4cb4790e2a2",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e0e73b5_a6ee5faf",
+        "filename": "groups/Wikimedia/CommonsAndroid.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-12-20T10:59:18Z",
+      "side": 1,
+      "message": "ug-Latn does exist in translatewiki.net, but it has almost no translations to any product.",
+      "parentUuid": "0e0e73b5_260b8fdb",
+      "revId": "6225c0918d16417c100dc87fe5d5e4cb4790e2a2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
