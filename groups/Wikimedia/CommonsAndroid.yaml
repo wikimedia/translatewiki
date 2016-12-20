@@ -13,10 +13,12 @@ TEMPLATE:
       id: in
       kk-cyrl: b+kk+Cyrl
       ku-latn: ku
+      nds-nl: b+nds+NL
       pt-br: pt-rBR
       qqq: qq
       sr-ec: sr
       tg-cyrl: b+tg+Cyrl
+      ug-arab: ug
       yi: ji
       zh-hans: zh
       zh-hant: zh-rTW
