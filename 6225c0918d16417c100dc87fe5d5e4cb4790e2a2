@@ -69,6 +69,24 @@
       "revId": "6225c0918d16417c100dc87fe5d5e4cb4790e2a2",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e0e73b5_8630fbfd",
+        "filename": "groups/Wikimedia/CommonsAndroid.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 45
+      },
+      "writtenOn": "2016-12-20T12:20:24Z",
+      "side": 1,
+      "message": "I think I\u0027ll leave it, then. It seems consistent with the treatment for \u0027zh\u0027, too.",
+      "parentUuid": "0e0e73b5_a6ee5faf",
+      "revId": "6225c0918d16417c100dc87fe5d5e4cb4790e2a2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
