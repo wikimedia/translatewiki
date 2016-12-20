@@ -16,6 +16,41 @@
       "revId": "6225c0918d16417c100dc87fe5d5e4cb4790e2a2",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e0e73b5_86659bac",
+        "filename": "groups/Wikimedia/CommonsAndroid.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 45
+      },
+      "writtenOn": "2016-12-20T09:39:46Z",
+      "side": 1,
+      "message": "Thanks and you are right. I have now read documents linked from https://gerrit.wikimedia.org/r/#/c/316587/ - using the syntax \u0027b+nds+NL\u0027 appears to allow avoiding the conflict.",
+      "parentUuid": "0e0e73b5_26538f1c",
+      "revId": "6225c0918d16417c100dc87fe5d5e4cb4790e2a2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e0e73b5_260b8fdb",
+        "filename": "groups/Wikimedia/CommonsAndroid.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 45
+      },
+      "writtenOn": "2016-12-20T09:39:46Z",
+      "side": 1,
+      "message": "Now I am less sure about this. Would \u0027b+ug+Arab\u0027 be better? Or is there no ambiguity with \u0027ug\u0027 in this case?",
+      "revId": "6225c0918d16417c100dc87fe5d5e4cb4790e2a2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
