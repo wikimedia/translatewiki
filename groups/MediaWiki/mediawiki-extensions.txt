@@ -912,6 +912,7 @@ Duplicator
 Dynamic Sidebar
 
 Echo - Interface
+file = Echo/i18n/%CODE%.json
 id = ext-echo-interface
 aliasfile = Echo/Echo.alias.php
 optional = echo-badge-count
