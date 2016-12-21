@@ -38,6 +38,7 @@ GROUPS:
   - ext-diff
   - ext-disableaccount # r86932 for some private wikis
   - ext-doublewiki # Wikisource
+  - ext-echo-api
   - ext-educationprogram # 2012-06-14 change id: Id3ea0259072e3aa7a508e5c61f03a0f23ec5fc2e
   - ext-elastica # 2013-09-20 for CirrusSearch, change id: 7acdc7e8c346f00dcce1412f057ea38ad3d3e649
   - ext-electronpdfservice # https://phabricator.wikimedia.org/rOMWC59b7e9756ad81509deb492dc4ae24f59c3267307

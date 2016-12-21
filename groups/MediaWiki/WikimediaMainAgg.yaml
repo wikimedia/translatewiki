@@ -23,7 +23,7 @@ GROUPS:
   - ext-contenttranslation
   - ext-disambiguator
   - ext-dismissablesitenotice
-  - ext-echo
+  - ext-echo-interface
   - ext-featuredfeeds # r110030 for all projects
   - ext-flow
   - ext-gadgets
