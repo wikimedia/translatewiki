@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0e0e73b5_da1c837e",
+        "filename": "repong/repong.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2016-12-21T08:04:21Z",
+      "side": 1,
+      "message": "Effectively, when I export all groups, some other group would cause also the android patch be merged, because merge-wmgerrit-patches just merges all open patches by L10n-bot.",
+      "revId": "81c2fe781a40d06a939e77c1d3329f4609058026",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
