@@ -63,6 +63,7 @@ for i in $GITCLUPDATE; do
 	if [ "$i" = "$PROJECT" ]
 	then
 		doUpdate "$PROJECT" "$CLUPDATE"
+		exit 0
 	fi
 done
 
