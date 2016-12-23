@@ -512,6 +512,9 @@ aliasfile = includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
 Blue Spice Edit Notify Connector
 
+Blue Spice Page Version
+descmsg = bs-pageversion-desc
+
 Boiler Plate
 
 Book Manager
