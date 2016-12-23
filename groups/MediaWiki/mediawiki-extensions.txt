@@ -2673,6 +2673,7 @@ Wikibase - Lib
 file = Wikibase/lib/i18n/%CODE%.json
 descmsg = wikibaselib-desc
 optional = wikibase-monolingualtext
+ignored = wikibase-SortedProperties
 
 Wikibase - Repo
 file = Wikibase/repo/i18n/%CODE%.json
