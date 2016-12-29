@@ -26,5 +26,10 @@ else
 		git config gitreview.username 'l10n-bot'
 
 		git review -r origin -s
+	elif [ "$ME" = 'clupdate-github-repo' ]
+	then
+		cd "$DIR"
+		git config user.name 'translatewiki.net'
+		git config user.email 'l10n-bot@translatewiki.net'
 	fi
 fi
