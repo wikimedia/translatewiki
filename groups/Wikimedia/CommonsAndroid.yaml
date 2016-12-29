@@ -10,6 +10,7 @@ TEMPLATE:
     codeMap:
       be-tarask: b+be+tarask
       he: iw
+      hif-latn: b+hif+Latn
       id: in
       kk-cyrl: b+kk+Cyrl
       ku-latn: ku
