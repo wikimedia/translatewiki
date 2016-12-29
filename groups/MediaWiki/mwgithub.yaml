@@ -319,7 +319,7 @@ FILES:
 BASIC:
   id: mwgithub-finnframenet
   label: FinnFrameNet
-  description: "{{INT:ffn-desc}}"
+  description: "{{Special:MyLanguage/MediaWiki:Ffn-desc/en}}"
 
 FILES:
   class: JsonFFS
