@@ -27,9 +27,10 @@ class RepoNg {
 		$base = $this->meta['basepath'];
 
 		foreach ( $this->config['repos'] as $name => $repo ) {
-			if ( $repo['type'] === 'git' ) {
-				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
+			$type = $repo['type'];
+			$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
 
+			if ( $type === 'git' ) {
 				$userName = get_current_user();
 				if ( isset( $this->usernameConversion[$userName] ) ) {
 					$userName = $this->usernameConversion[$userName];
@@ -39,8 +40,9 @@ class RepoNg {
 				$repoUrl = str_replace( 'USERNAME', $userName, $repoUrl );
 
 				$command = $this->bindir . "/clupdate-git-repo '$repoUrl' '$base/$name' '$branch'";
-			} elseif ( $repo['type'] === 'wmgerrit' ) {
-				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
+			} elseif ( $type === 'github' ) {
+				$command = $this->bindir . "/clupdate-github-repo '{$repo['url']}' '$base/$name' '$branch'";
+			} elseif ( $type === 'wmgerrit' ) {
 				$command = $this->bindir . "/clupdate-gerrit-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} else {
 				throw new RuntimeException( 'Unknown repo type' );
@@ -115,7 +117,7 @@ class RepoNg {
 		$gerritCommitted = false;
 
 		foreach ( $this->config['repos'] as $name => $repo ) {
-			if ( $repo['type'] === 'git' ) {
+			if ( $repo['type'] === 'git' || $repo['type'] === 'github' ) {
 				$dir = "$base/$name";
 				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
 				$command = "cd $dir; git add .; " .

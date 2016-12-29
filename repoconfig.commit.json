@@ -275,6 +275,10 @@
 				"type": "git",
 				"url": "git@github.com:JeroenDeDauw/Validator.git"
 			},
+			"mwgithub/Nikerabbit/mediawiki-extensions-FinnFrameNet": {
+				"type": "github",
+				"url": "git@github.com:Nikerabbit/mediawiki-extensions-FinnFrameNet.git"
+			},
 			"mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks": {
 				"type": "git",
 				"url": "git@github.com:SemanticMediaWiki/SemanticBreadcrumbLinks.git"

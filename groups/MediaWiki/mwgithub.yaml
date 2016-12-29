@@ -314,3 +314,13 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/cmln/Chameleon/resources/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-finnframenet
+  label: FinnFrameNet
+  description: "{{INT:ffn-desc}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Nikerabbit/mediawiki-extensions-FinnFrameNet/i18n/%CODE%.json"
