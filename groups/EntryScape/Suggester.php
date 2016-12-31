@@ -6,14 +6,14 @@
  * @license GPL-2.0+
  */
 
-class EntryScapeInsertablesSuggester {
+class EntryScapeInsertablesSuggester implements InsertablesSuggester {
 	public function getInsertables( $text ) {
 		$insertables = [];
 
-		// ${app}, {user}, %s, $1
+		// ${app}, {user}, %s
 		$matches = [];
 		preg_match_all(
-			'/\$?{[a-z]+}|\$\d|%s/',
+			'/\$?{[a-z]+}|%s/',
 			$text,
 			$matches,
 			PREG_SET_ORDER

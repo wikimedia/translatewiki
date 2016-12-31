@@ -11,7 +11,9 @@ TEMPLATE:
       - EntryScapeVariablesCheck
 
   INSERTABLES:
-    class: EntryScapeInsertablesSuggester
+    classes:
+     - NumericalParameterInsertablesSuggester
+     - EntryScapeInsertablesSuggester
 
   AUTOLOAD:
     EntryScapeMessageChecker: Checker.php

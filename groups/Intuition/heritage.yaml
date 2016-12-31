@@ -20,7 +20,4 @@ TAGS:
     - monumentsapi-title
 
 INSERTABLES:
-  class: IntuitionInsertablesSuggester
-
-AUTOLOAD:
-  IntuitionInsertablesSuggester: IntuitionInsertablesSuggester.php
+  class: NumericalParameterInsertablesSuggester

@@ -20,7 +20,4 @@ TAGS:
     - raun-ns*
 
 INSERTABLES:
-  class: IntuitionInsertablesSuggester
-
-AUTOLOAD:
-  IntuitionInsertablesSuggester: IntuitionInsertablesSuggester.php
+  class: NumericalParameterInsertablesSuggester

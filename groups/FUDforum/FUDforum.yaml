@@ -21,7 +21,9 @@ CHECKER:
     - braceBalanceCheck
 
 INSERTABLES:
-  class: FudForumSuggester
+  classes:
+    - NumericalParameterInsertablesSuggester
+    - FudForumSuggester
 
 AUTOLOAD:
   FUDforumMessageChecker: Checker.php

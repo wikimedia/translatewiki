@@ -12,7 +12,4 @@ GROUPS:
   - int-*
 
 INSERTABLES:
-  class: IntuitionInsertablesSuggester
-
-AUTOLOAD:
-  IntuitionInsertablesSuggester: IntuitionInsertablesSuggester.php
+  class: NumericalParameterInsertablesSuggester

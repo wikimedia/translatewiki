@@ -22,7 +22,4 @@ CHECKER:
     - wikiParameterCheck
 
 INSERTABLES:
-  class: HuggleSuggester
-
-AUTOLOAD:
-  HuggleSuggester: Suggester.php
+  class: NumericalParameterInsertablesSuggester
