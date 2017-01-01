@@ -32,6 +32,9 @@ Grey Stuff
 Mask
 ignored = mask-menu-left, mask-menu-right, mask-index-url
 
+Material
+optional = material.css, material.js
+
 MediaWiki Strapping
 file = mediawiki-strapping/i18n/%CODE%.json
 descmsg = strapping-desc
