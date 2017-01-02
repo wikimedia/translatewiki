@@ -4,8 +4,6 @@ codev
 commons-android
 copypatrol
 crosswatch
-int-dcatap
-int-heritage
 entryscape
 etherpad-lite
 europeana
@@ -15,6 +13,9 @@ gapfinder
 hivejs
 huggle
 inaturalist
+int-dcatap
+int-heritage
+jquery.uls
 lib.reviews
 mantis
 mwgerrit
