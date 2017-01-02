@@ -1554,8 +1554,6 @@ Model
 
 Mol Handler
 
-# Mood Bar // Archived 2016-12-13
-
 MP3 Media Handler
 
 Mpdf
@@ -1959,10 +1957,6 @@ Popups
 
 #Post Edit / Merged into core / 2013-06-01
 
-Pref Stats
-aliasfile = PrefStats/PrefStats.alias.php
-ignored = prefstats-list-elem
-
 #Pref Switch / No longer used at WMF / 2010-11-23 Raymond.
 
 Premoderation
@@ -2154,13 +2148,6 @@ aliasfile = SemanticDrilldown/languages/SD_Aliases.php
 
 Semantic Expressiveness
 magicfile = SemanticExpressiveness/SemanticExpressiveness.i18n.magic.php
-
-# Renamed to PageForms - T147582
-# Semantic Forms
-# aliasfile = SemanticForms/languages/SF_Aliases.php
-# magicfile = SemanticForms/languages/SF_Magic.php
-# ignored = sf_formedit_accesskey_saveandcontinueediting, accesskey-ca-formedit
-# optional = sf-datepicker-dateformatlong, sf-datepicker-dateformatshort, sf-datepicker-firstdayofweek
 
 Semantic Forms Inputs
 
