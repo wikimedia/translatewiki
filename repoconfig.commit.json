@@ -193,6 +193,15 @@
 			}
 		}
 	},
+	"kiwix": {
+		"group": "out-kiwix",
+		"repos": {
+			"kiwix": {
+				"type": "github",
+				"url": "git@github.com:kiwix/maintenance.git"
+			}
+		}
+	},
 	"lib.reviews": {
 		"group": "lib.reviews",
 		"repos": {

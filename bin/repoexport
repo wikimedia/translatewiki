@@ -58,10 +58,6 @@ then
 	php "$EXPORTER" --target . --group=int-refill --lang='*' --skip en $HOURS
 	php "$EXPORTER" --target . --group=int-refill --lang qqq
 
-elif [ "$PROJECT" = "kiwix" ]
-then
-	php "$EXPORTER" --target . --group=out-kiwix --lang='*' --skip en --threshold 80
-
 elif [ "$PROJECT" = "mathjax" ]
 then
 	php "$EXPORTER" --target . --group='out-mathjax-*' --lang='*' --skip en,qqq $THRESHOLD
