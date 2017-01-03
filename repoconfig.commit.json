@@ -81,7 +81,7 @@
 		}
 	},
 	"jquery.uls": {
-		"group": "out-jquery-uls",
+		"group": "jquery-uls",
 		"repos": {
 			"jquery.uls": {
 				"type": "github",
@@ -194,7 +194,7 @@
 		}
 	},
 	"kiwix": {
-		"group": "out-kiwix",
+		"group": "kiwix",
 		"repos": {
 			"kiwix": {
 				"type": "github",

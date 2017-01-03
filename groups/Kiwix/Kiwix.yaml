@@ -1,6 +1,6 @@
 ---
 BASIC:
-  id: out-kiwix
+  id: kiwix
   label: Kiwix
   icon: wiki://Kiwix_icon.svg
   description: "{{Special:MyLanguage/Translations:Group descriptions/kiwix/en}}"
