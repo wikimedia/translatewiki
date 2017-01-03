@@ -283,6 +283,10 @@
 				"type": "github",
 				"url": "https://github.com/Nikerabbit/mediawiki-extensions-FinnFrameNet.git"
 			},
+			"mwgithub/OrganicDesign/extensions": {
+				"type": "github",
+				"url": "https://github.com/OrganicDesign/extensions"
+			},
 			"mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks": {
 				"type": "git",
 				"url": "https://github.com/SemanticMediaWiki/SemanticBreadcrumbLinks.git"
