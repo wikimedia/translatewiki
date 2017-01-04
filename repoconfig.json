@@ -204,7 +204,7 @@
 		"group": "lib.reviews",
 		"repos": {
 			"lib.reviews": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/eloquence/lib.reviews.git"
 			}
 		}
