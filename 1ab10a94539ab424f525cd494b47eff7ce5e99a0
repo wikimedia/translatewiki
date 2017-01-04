@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee12ffd6_124eb23c",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 431,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-04T12:39:37Z",
+      "side": 1,
+      "message": "Relatedly, I just recently intorduce new type: github.\n\nIf you give @translatewiki access, there is less hassle with permissions.",
+      "revId": "1ab10a94539ab424f525cd494b47eff7ce5e99a0",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee12ffd6_925862ff",
+        "filename": "repong/repong.php",
+        "patchSetId": 5
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-04T12:39:37Z",
+      "side": 1,
+      "message": "No need to separately declare this.",
+      "revId": "1ab10a94539ab424f525cd494b47eff7ce5e99a0",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee12ffd6_d25edaeb",
+        "filename": "repong/repong.php",
+        "patchSetId": 5
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-04T12:39:37Z",
+      "side": 1,
+      "message": "gerritCommitted is no longer very useful. You could just (re-)check the type again.",
+      "range": {
+        "startLine": 144,
+        "startChar": 9,
+        "endLine": 144,
+        "endChar": 24
+      },
+      "revId": "1ab10a94539ab424f525cd494b47eff7ce5e99a0",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
