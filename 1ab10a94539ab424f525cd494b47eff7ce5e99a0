@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ee12ffd6_182131f7",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 431,
+      "author": {
+        "id": 3515
+      },
+      "writtenOn": "2017-01-04T17:35:50Z",
+      "side": 1,
+      "message": "I granted @translatewiki access to the wikipedia-ios repo. Should this be changed from \"git\" to \"github\" now?",
+      "parentUuid": "ee12ffd6_124eb23c",
+      "revId": "1ab10a94539ab424f525cd494b47eff7ce5e99a0",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ee12ffd6_925862ff",
         "filename": "repong/repong.php",
         "patchSetId": 5
