@@ -213,8 +213,7 @@
 		"group": "out-mantis*",
 		"repos": {
 			"mantis": {
-				"type": "git",
-				"branch": "master-1.3.x",
+				"type": "github",
 				"url": "https://github.com/mantisbt/mantisbt.git"
 			}
 		}
@@ -223,7 +222,7 @@
 		"group": "oppia",
 		"repos": {
 			"oppia": {
-				"type": "git",
+				"type": "github",
 				"branch": "develop",
 				"url": "https://github.com/oppia/oppia.git"
 			}

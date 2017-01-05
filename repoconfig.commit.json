@@ -215,8 +215,7 @@
 		"group": "out-mantis*",
 		"repos": {
 			"mantis": {
-				"type": "git",
-				"branch": "master-1.3.x",
+				"type": "github",
 				"options": [
 					"codemaponly"
 				],
@@ -228,7 +227,7 @@
 		"group": "oppia",
 		"repos": {
 			"oppia": {
-				"type": "git",
+				"type": "github",
 				"branch": "translatewiki",
 				"url": "git@github.com:oppia/oppia.git"
 			}
