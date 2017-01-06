@@ -98,13 +98,6 @@ aliasfile = ArticleComments/ArticleComments.alias.php
 descmsg = article-comments-desc
 ignored = article-comments-prefilled-comment-text, article-comments-new-comment-heading, article-comments-comment-contents
 
-# Unmaintained by Wikimedia, no longer deployed.
-#Article Feedback
-#aliasfile = ArticleFeedback/ArticleFeedback.alias.php
-#optional = articlefeedback-form-panel-helpimprove-email-placeholder
-#optional = articlefeedback-table-noratings
-#ignored = articlefeedback-pitch-edit-body
-
 Article Feedback v5
 aliasfile = ArticleFeedbackv5/ArticleFeedbackv5.alias.php
 optional=articlefeedbackv5-cta1-learn-how-url, articlefeedbackv5-cta6-button-link, articlefeedbackv5-error-abuse-link, articlefeedbackv5-help-form-linkurl
@@ -772,10 +765,6 @@ Convert 2 Wiki
 aliasfile = Convert2Wiki/Convert2Wiki.alias.php
 optional = convert2wiki-format-csv
 
-Cookie Policy
-descmsg = cookie-policy-description
-ignored = cookie-policy-link, cookie-policy-site-name
-
 Cookie Warning
 descmsg = cookiewarning-desc
 ignored = cookiewarning-more-link
@@ -1230,8 +1219,6 @@ Google Login
 aliasfile = GoogleLogin/GoogleLogin.alias.php
 optional = googlelogin-auth-service-name
 
-#Google Maps / Archived in June 2013
-
 Google News Sitemap
 ignored = googlenewssitemap_categorymap
 aliasfile = GoogleNewsSitemap/GoogleNewsSitemap.alias.php
@@ -1602,8 +1589,6 @@ optional = multimediaviewer-attr-html
 optional = multimediaviewer-embed-license-nonfree
 optional = multimediaviewer-text-embed-credit-text-l, multimediaviewer-html-embed-credit-text-l
 ignored = multimediaviewer-embed-dimensions-with-file-format, multimediaviewer-report-issue-url
-
-# MW Search // This extension has been archived
 
 MwEmbed Support
 descmsg = mwembed-desc
