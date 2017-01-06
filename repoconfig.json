@@ -37,7 +37,7 @@
 		"group": "commons-android-*",
 		"repos": {
 			"commons-android": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/commons-app/apps-android-commons.git"
 			}
 		}
