@@ -2557,6 +2557,7 @@ ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
 ignored = apihelp-visualeditor-param-format, apihelp-visualeditoredit-param-watch, apihelp-visualeditoredit-param-wikitext
 ignored = visualeditor-wikitext-warning-link, visualeditor-quick-access-characters.json
 ignored = visualeditor-preference-newwikitexteditor-discussion-link, visualeditor-preference-newwikitexteditor-info-link
+ignored = apierror-visualeditor-docserver-http, apierror-visualeditor-docserver-http-error
 prefix = visualeditor-override- | tooltip-ca-edit
 
 VisualEditor (WMF)
