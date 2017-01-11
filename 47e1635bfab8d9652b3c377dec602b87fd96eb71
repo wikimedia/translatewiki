@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4efb0bce_9843e567",
+        "filename": "bin/repocommit",
+        "patchSetId": 8
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-11T19:25:31Z",
+      "side": 1,
+      "message": "${DIRSCRIPT} is already defined and should be used instead of a dot.\n\nI am also worried about the impact on running time. There are hundreds of extensions and if the merging is not fast it will add up.",
+      "revId": "47e1635bfab8d9652b3c377dec602b87fd96eb71",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
