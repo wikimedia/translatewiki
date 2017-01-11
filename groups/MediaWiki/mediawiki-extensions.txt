@@ -508,6 +508,8 @@ Blue Spice Edit Notify Connector
 Blue Spice Page Version
 descmsg = bs-pageversion-desc
 
+# Blue Spice Sub Page Tree // no i18n
+
 Boiler Plate
 
 Book Manager
@@ -774,6 +776,8 @@ Copy To Clipboard
 Create Page
 aliasfile = CreatePage/CreatePage.alias.php
 descmsg = cp-desc
+
+# Create Page Uw // incomplete i18n, message key dupe with CreatePage extension
 
 Create Redirect
 aliasfile = CreateRedirect/CreateRedirect.alias.php
@@ -1604,6 +1608,8 @@ Namespace HTML
 
 Namespace Paths
 
+# Namespace Popups // No i18n
+
 Namespace Relations
 descmsg = nsrels-desc
 
@@ -1857,6 +1863,8 @@ descmsg = tiff-desc
 
 Pages List
 aliasfile = PagesList/PagesList.i18n.alias.php
+
+# Page Popups // No i18n
 
 Page View Info
 descmsg = pvi-desc
@@ -2489,6 +2497,8 @@ optional = mwe-upwiz-license-custom-url
 ignored = accesskey-save-upload-campaign, accesskey-cancel-upload-campaign, mwe-upwiz-flickr-source-template, mwe-upwiz-flickr-author-template, mwe-upwiz-config-allowed-templates
 
 Uploads Link
+
+Un Captcha
 
 Unicode Converter
 
