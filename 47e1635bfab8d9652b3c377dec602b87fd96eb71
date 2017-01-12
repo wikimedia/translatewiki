@@ -16,6 +16,24 @@
       "revId": "47e1635bfab8d9652b3c377dec602b87fd96eb71",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4efb0bce_a13d492b",
+        "filename": "bin/repocommit",
+        "patchSetId": 8
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 2426
+      },
+      "writtenOn": "2017-01-12T00:30:04Z",
+      "side": 1,
+      "message": "Hm, I\u0027m not sure in what context or how regularly this script is run. If it\u0027s just a bot running once a day, it\u0027s probably ok but if a person is doing it manually, maybe not. Is this a blocker?",
+      "parentUuid": "4efb0bce_9843e567",
+      "revId": "47e1635bfab8d9652b3c377dec602b87fd96eb71",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
