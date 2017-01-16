@@ -1626,8 +1626,6 @@ magicfile = Negref/Negref.i18n.magic.php
 Network Auth
 optional = networkauth-name, networkauth-purltext
 
-# New Talk Global // Archived per T146242
-
 # ShoutWiki specific
 #New Signup Page
 
@@ -1908,9 +1906,6 @@ aliasfile = Petition/Petition.alias.php
 
 Per Page License
 
-Persona
-aliasfile = Persona/Persona.i18n.alias.php
-
 PGF TikZ
 
 # Abandoned: https://phabricator.wikimedia.org/T70974#2055323
@@ -2113,8 +2108,6 @@ Search Extra NS
 
 Section Disqus
 
-Secure HTML
-
 Secure Passwords
 
 Secure Poll
@@ -2184,9 +2177,6 @@ Shared Css Js
 
 Short Url
 aliasfile = ShortUrl/ShortUrl.alias.php
-
-Shout Box
-optional = shoutbox-url, shoutbox-url-with-css
 
 #Shout Wiki Ads / very ShoutWiki-specific
 
@@ -2302,6 +2292,8 @@ Stick To That Language
 # Stl Handler //  2016-10-23: no i18n file
 
 Stop Forum Spam
+
+# String Functions Escaped // No i18n file
 
 Sub Page List 3
 descmsg = spl3-desc
