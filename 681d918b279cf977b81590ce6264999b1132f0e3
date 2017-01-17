@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4efb0bce_2fb24693",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-17T22:26:20Z",
+      "side": 1,
+      "message": "pywikibot?",
+      "revId": "681d918b279cf977b81590ce6264999b1132f0e3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4efb0bce_efac2e34",
+        "filename": "repoconfig.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-17T22:26:20Z",
+      "side": 1,
+      "message": "pywikibot?",
+      "revId": "681d918b279cf977b81590ce6264999b1132f0e3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
