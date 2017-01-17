@@ -60,6 +60,16 @@
 			}
 		}
 	},
+	"intuition": {
+		"group": "tsint-*",
+		"export-threshold": 1,
+		"repos": {
+			"intuition": {
+				"type": "github",
+				"url": "https://github.com/Krinkle/intuition.git"
+			}
+		}
+	},
 	"int-dcatap": {
 		"group": "int-dcatap",
 		"repos": {

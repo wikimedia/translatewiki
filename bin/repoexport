@@ -41,10 +41,6 @@ elif [ "$PROJECT" = "ihris" ]
 then
 	php "$EXPORTER" --target . --group=out-ihris* --lang='*' --skip en,qqq $THRESHOLD --ppgettext=/resources/projects
 
-elif [ "$PROJECT" = "intuition" ]
-then
-	php "$EXPORTER" --target . --group=tsint* --lang='*' --skip "$SKIPLANGS"
-
 elif [ "$PROJECT" = "int-refill" ]
 then
 	php "$EXPORTER" --target . --group=int-refill --lang='*' --skip en $HOURS
