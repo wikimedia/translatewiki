@@ -296,67 +296,67 @@
 				"url": "https://github.com/OrganicDesign/extensions"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticBreadcrumbLinks.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticCite": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticCite.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticCompoundQueries": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticCompoundQueries.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticExternalQueryLookup": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticExternalQueryLookup.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticExtraSpecialProperties": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticExtraSpecialProperties.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticFormsSelect": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticFormsSelect.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticGlossary": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticGlossary.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticInterlanguageLinks": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticInterlanguageLinks.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticMediaWiki": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticMediaWiki.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticResultFormats": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticResultFormats.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticMetaTags": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticMetaTags.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticSignup": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticSignup.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticScribunto": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticScribunto.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticWatchlist": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticWatchlist.git"
 			},
 			"mwgithub/SemanticMediaWiki/SummaryCards": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SummaryCards.git"
 			},
 			"mwgithub/SemanticMediaWiki/WhatsNearby": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/WhatsNearby.git"
 			},
 			"mwgithub/Wikidata-lib/PropertySuggester": {
