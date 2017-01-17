@@ -53,8 +53,7 @@ int-refill \
 mathjax \
 nfcring-control \
 vicuna \
-waymarked-trails-site \
-wikiedudashboard"
+waymarked-trails-site"
 
 for i in $GITCLUPDATE; do
 	if [ "$i" = "$PROJECT" ]

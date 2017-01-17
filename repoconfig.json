@@ -256,6 +256,16 @@
 			}
 		}
 	},
+	"wikiedudashboard": {
+		"group": "wikiedudashboard",
+		"export-threshold": 1,
+		"repos": {
+			"wikiedudashboard": {
+				"type": "github",
+				"url": "https://github.com/WikiEducationFoundation/WikiEduDashboard.git"
+			}
+		}
+	},
 	"mwgithub": {
 		"group": "mwgithub-*,mediawiki-skingithub-*",
 		"repos": {
