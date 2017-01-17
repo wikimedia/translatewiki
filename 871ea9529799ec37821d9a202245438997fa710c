@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4efb0bce_d26b5581",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-17T23:13:27Z",
+      "side": 1,
+      "message": "Should not be in this patch, right?",
+      "revId": "871ea9529799ec37821d9a202245438997fa710c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
