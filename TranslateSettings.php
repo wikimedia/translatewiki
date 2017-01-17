@@ -406,6 +406,7 @@ $wgTranslateSupportUrlNamespace[NS_MATHJAX] = [
 
 wfAddNamespace( 1260, 'NFCRingControl' );
 $wgTranslateGroupFiles[] = "$GROUPS/NFCRingControl/NFCRingControl.yaml";
+$wgTranslateGroupAliases['out-nfcring-control'] = 'nfcring-control';
 
 wfAddNamespace( 1262, 'iNaturalist' );
 $wgTranslateGroupFiles[] = "$GROUPS/iNaturalist/iNaturalist.yaml";

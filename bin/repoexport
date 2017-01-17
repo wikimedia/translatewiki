@@ -97,10 +97,6 @@ then
 	php "$EXPORTER" --target . --group='out-mifos' --lang='*' --skip en,qqq --threshold 20
 	php "$EXPORTER" --target . --group='out-mifos' --lang qqq
 
-elif [ "$PROJECT" = "nfcring-control" ]
-then
-	php "$EXPORTER" --target . --group=out-$PROJECT --lang='*' --skip en,qqq $THRESHOLD
-
 elif [ "$PROJECT" = "nocc" ]
 then
 	php "$EXPORTER" --target . --group=out-nocc-* --lang='*' --skip en,qqq $THRESHOLD

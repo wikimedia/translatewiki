@@ -218,6 +218,15 @@
 			}
 		}
 	},
+	"nfcring-control": {
+		"group": "nfcring-control",
+		"repos": {
+			"nfcring-control": {
+				"type": "github",
+				"url": "https://github.com/mclear/NFC_Ring_Control.git"
+			}
+		}
+	},
 	"oppia": {
 		"group": "oppia",
 		"repos": {

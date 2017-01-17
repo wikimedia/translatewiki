@@ -1,6 +1,6 @@
 ---
 BASIC:
-  id: out-nfcring-control
+  id: nfcring-control
   label: NFC Ring Control
   icon: wiki://McLear_Crest_Cropped.svg
   description: "{{Special:MyLanguage/Translations:Group descriptions/nfcring-control/en}}"

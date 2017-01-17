@@ -17,7 +17,6 @@ REPO_INTRAUN=https://github.com/kenrick95/Raun.git
 REPO_INTREFILL=https://github.com/zhaofengli/refill.git
 REPO_MATHJAX=https://github.com/mathjax/MathJax-i18n.git
 REPO_MIFOS=https://github.com/openMF/community-app.git
-REPO_NFCRINGCONTROL=https://github.com/mclear/NFC_Ring_Control.git
 REPO_NOCC=https://svn.code.sf.net/p/nocc/code/trunk
 REPO_OSM=git://git.openstreetmap.org/rails.git
 REPO_POTLATCH2=https://github.com/systemed/potlatch2.git
