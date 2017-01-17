@@ -390,11 +390,11 @@
 		"group": "wiki-ai-*",
 		"repos": {
 			"wiki-ai/wikilabels": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/wiki-ai/wikilabels.git"
 			},
 			"wiki-ai/wikilabels-wikimedia-config": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/wiki-ai/wikilabels-wikimedia-config.git"
 			}
 		}
