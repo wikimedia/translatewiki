@@ -80,6 +80,16 @@
 			}
 		}
 	},
+	"int-orphantalk": {
+		"group": "int-orphantalk",
+		"export-threshold": 18,
+		"repos": {
+			"int-orphantalk": {
+				"type": "github",
+				"url": "git@github.com:Krinkle/mw-tool-orphantalk.git"
+			}
+		}
+	},
 	"jquery.uls": {
 		"group": "jquery-uls",
 		"repos": {
