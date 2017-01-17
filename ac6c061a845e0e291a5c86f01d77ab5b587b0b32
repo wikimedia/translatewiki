@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4efb0bce_af8516a1",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-17T22:30:42Z",
+      "side": 1,
+      "message": "You need to update groups/Intuition/raun.yaml to match this, or call it \"int-raun\" as it used to.",
+      "revId": "ac6c061a845e0e291a5c86f01d77ab5b587b0b32",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
