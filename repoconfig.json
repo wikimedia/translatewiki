@@ -173,10 +173,10 @@
 		}
 	},
 	"huggle": {
-		"group": "out-huggle",
+		"group": "huggle",
 		"repos": {
 			"huggle": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/huggle/huggle3-qt-lx.git"
 			}
 		}
