@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4efb0bce_cf2612c9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-17T22:38:31Z",
+      "side": 1,
+      "message": "The group id is out-huggle. The prefix is \"out-\".",
+      "revId": "2ec4ee99f9f966db707041062052a5a6a752af5a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
