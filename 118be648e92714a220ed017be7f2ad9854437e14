@@ -16,6 +16,24 @@
       "revId": "118be648e92714a220ed017be7f2ad9854437e14",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4efb0bce_d2b0f540",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 364,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2017-01-17T23:02:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4efb0bce_8f07fa1e",
+      "revId": "118be648e92714a220ed017be7f2ad9854437e14",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
