@@ -47,7 +47,6 @@ nfcring-control \
 osm \
 vicuna \
 waymarked-trails-site \
-wikiblame \
 wikiedudashboard"
 
 for i in $GITPROJECTS; do

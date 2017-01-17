@@ -126,10 +126,6 @@ then
 	php "$EXPORTER" --target . --group=out-waymarked-trails-help --lang='*' --skip en,qqq,no $THRESHOLD $HOURS
 	php "$EXPORTER" --target . --group=out-waymarked-trails-help --lang qqq $HOURS
 
-elif [ "$PROJECT" = "wikiblame" ]
-then
-	php "$EXPORTER" --target . --group=out-wikiblame --lang='*' --skip en --threshold 1
-
 elif [ "$PROJECT" = "wikiedudashboard" ]
 then
 	php "$EXPORTER" --target . --group=wikiedudashboard --lang='*' --skip en

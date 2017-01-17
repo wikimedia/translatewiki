@@ -247,6 +247,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Pageviews.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/video2commons.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/wiki-ai.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";
+$wgTranslateGroupAliases['out-wikiblame'] = 'wikiblame';
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiEduDashboard.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Wikimania.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-android.yaml";

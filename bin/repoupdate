@@ -54,7 +54,6 @@ mathjax \
 nfcring-control \
 vicuna \
 waymarked-trails-site \
-wikiblame \
 wikiedudashboard"
 
 for i in $GITCLUPDATE; do

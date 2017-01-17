@@ -404,6 +404,16 @@
 			}
 		}
 	},
+	"wikiblame": {
+		"group": "wikiblame",
+		"export-threshold": 1,
+		"repos": {
+			"wikiblame": {
+				"type": "github",
+				"url": "git@github.com:FlominatorTM/wikiblame.git"
+			 }
+		}
+	},
 	"wikidata": {
 		"group": "wikidata-*",
 		"repos": {

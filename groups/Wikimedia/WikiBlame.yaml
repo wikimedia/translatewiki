@@ -1,5 +1,5 @@
 BASIC:
-  id: out-wikiblame
+  id: wikiblame
   label: WikiBlame
   icon: wiki://WikiBlame.png
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikiblame/en}}"

@@ -32,5 +32,4 @@ REPO_OSM=ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git
 REPO_POTLATCH2=git@github.com:systemed/potlatch2.git
 REPO_VICUNA=git@github.com:yarl/vicuna.git
 REPO_WAYMARKEDTRAILSSITE=git@github.com:lonvia/waymarked-trails-site.git
-REPO_WIKIBLAME=git@github.com:FlominatorTM/wikiblame.git
 REPO_WIKIEDUDASHBOARD=git@github.com:WikiEducationFoundation/WikiEduDashboard.git
