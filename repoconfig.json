@@ -97,10 +97,10 @@
 		}
 	},
 	"etherpad-lite": {
-		"group": "out-etherpad-lite",
+		"group": "etherpad-lite",
 		"repos": {
 			"etherpad-lite": {
-				"type": "git",
+				"type": "github",
 				"branch": "develop",
 				"url": "git://github.com/ether/etherpad-lite.git"
 			}

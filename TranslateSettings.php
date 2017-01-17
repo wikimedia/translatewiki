@@ -383,6 +383,7 @@ $wgTranslateSupportUrlNamespace[NS_HUGGLE] = [
 
 wfAddNamespace( 1250, 'EtherpadLite' );
 $wgTranslateGroupFiles[] = "$GROUPS/EtherpadLite/EtherpadLite.yaml";
+$wgTranslateGroupAliases['out-etherpad-lite'] = 'etherpad-lite';
 
 wfAddNamespace( 1252, 'Vicuna' );
 $wgTranslateGroupFiles[] = "$GROUPS/Vicuna/Vicuna.yaml";

@@ -1,6 +1,6 @@
 ---
 BASIC:
-  id: out-etherpad-lite
+  id: etherpad-lite
   label: Etherpad lite
   icon: wiki://Etherpad_lite.svg
   description: "{{Special:MyLanguage/Translations:Group descriptions/etherpad-lite/en}}"
