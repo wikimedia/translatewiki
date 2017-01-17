@@ -2007,8 +2007,6 @@ prefix = extension- | randomincategory, randomincategory-submit
 Random Users With Avatars
 descmsg = random-users-avatars-desc
 
-Ratings
-
 Reader Feedback
 id = ext-readerfeedback-readerfeedback
 file = ReaderFeedback/i18n/readerfeedback/%CODE%.json
