@@ -2476,6 +2476,9 @@ descmsg = twofactorauth-desc
 
 # UI Feedback # incomplete qqq
 
+Unused Redirects
+aliasfile = UnusedRedirects/UnusedRedirects.alias.php
+
 # Update MediaWiki # Missing qqq
 
 Upload Blacklist
