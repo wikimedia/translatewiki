@@ -1,5 +1,5 @@
 BASIC:
-  id: out-pageviews
+  id: pageviews
   label: Pageviews Analysis
   icon: wiki://Pageviews Analysis.svg
   description: "{{Special:MyLanguage/Translations:Group descriptions/pageviews/en}}"
