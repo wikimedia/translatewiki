@@ -88,6 +88,15 @@
 			}
 		}
 	},
+	"int-raun": {
+		"group": "int-raun",
+		"repos": {
+			"int-raun": {
+				"type": "github",
+				"url": "https://github.com/kenrick95/Raun.git"
+			}
+		}
+	},
 	"jquery.uls": {
 		"group": "jquery-uls",
 		"repos": {

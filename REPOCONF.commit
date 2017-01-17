@@ -21,7 +21,6 @@ REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics
 REPO_IHRIS_BRANCH="4.2"
 REPO_IHRIS_MODULES="i2ce ihris-common ihris-manage ihris-qualify ihris-train"
 REPO_INTUITION=git@github.com:Krinkle/intuition.git
-REPO_INTRAUN=git@github.com:kenrick95/Raun.git
 REPO_INTREFILL=git@github.com:zhaofengli/refill.git
 REPO_MATHJAX=git@github.com:mathjax/MathJax-i18n.git
 REPO_MIFOS=git@github.com:openMF/community-app.git

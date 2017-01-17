@@ -47,7 +47,6 @@ fi
 GITCLUPDATE="\
 eol \
 intuition \
-int-raun \
 int-refill \
 mathjax \
 vicuna \

@@ -45,10 +45,6 @@ elif [ "$PROJECT" = "intuition" ]
 then
 	php "$EXPORTER" --target . --group=tsint* --lang='*' --skip "$SKIPLANGS"
 
-elif [ "$PROJECT" = "int-raun" ]
-then
-	php "$EXPORTER" --target . --group=int-raun --lang='*' --skip "$SKIPLANGS"
-
 elif [ "$PROJECT" = "int-refill" ]
 then
 	php "$EXPORTER" --target . --group=int-refill --lang='*' --skip en $HOURS

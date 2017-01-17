@@ -39,7 +39,6 @@ mergeL10n-bot() {
 GITPROJECTS="\
 eol \
 intuition \
-int-raun \
 int-refill \
 mathjax \
 osm \
