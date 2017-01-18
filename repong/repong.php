@@ -139,7 +139,7 @@ class RepoNg {
 
 			// Merge patch sets submitted to Wikimedia's Gerrit.
 			if ( $repo['type'] === 'wmgerrit' && $autoMerge ) {
-				$project = str_replace( 'https://gerrit.wikimedia.org/r/', '', $repo['url'] );
+				$project = str_replace( 'ssh://l10n-bot@gerrit.wikimedia.org:29418/', '', $repo['url'] );
 				$process = new Process( $this->bindir . "/merge-wmgerrit-patches '$project'" );
 				$process->setTimeout( 120 );
 				$process->mustRun();

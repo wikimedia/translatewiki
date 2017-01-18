@@ -489,7 +489,7 @@
 		"repos": {
 			"wikipedia-android": {
 				"type": "wmgerrit",
-				"url": "https://gerrit.wikimedia.org/r/apps/android/wikipedia",
+				"url": "ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/wikipedia",
 				"auto-merge": false
 			}
 		}
