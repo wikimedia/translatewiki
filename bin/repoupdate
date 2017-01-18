@@ -50,8 +50,7 @@ intuition \
 int-refill \
 mathjax \
 vicuna \
-waymarked-trails-site \
-wikiedudashboard"
+waymarked-trails-site"
 
 for i in $GITCLUPDATE; do
 	if [ "$i" = "$PROJECT" ]
