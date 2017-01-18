@@ -262,10 +262,10 @@
 		}
 	},
 	"pageviews": {
-		"group": "out-pageviews",
+		"group": "pageviews",
 		"repos": {
 			"pageviews": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:MusikAnimal/pageviews.git"
 			}
 		}
