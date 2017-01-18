@@ -47,7 +47,7 @@
 		"group": "copypatrol",
 		"repos": {
 			"copypatrol": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:wikimedia/CopyPatrol.git"
 			}
 		}
