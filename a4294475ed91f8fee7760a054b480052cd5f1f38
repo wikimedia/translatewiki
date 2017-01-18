@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4efb0bce_94a3853f",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 4
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-18T20:58:42Z",
+      "side": 1,
+      "message": "int-* does not make sense here as they already have separate entries. Only if you move these all under same top level project.\n\nAlso, \"intuition\" is an aggregate group for which no import/export can be done.",
+      "revId": "a4294475ed91f8fee7760a054b480052cd5f1f38",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
