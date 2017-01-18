@@ -82,12 +82,6 @@ elif [ "$PROJECT" = "mifos" ]
 then
 	doUpdate "$PROJECT" "$CLUPDATE" develop
 
-elif [ "$PROJECT" = "mediawiki" ]
-then
-	checkVar 'REPO_MEDIAWIKI_BRANCHES'
-	echo "$REPO_MEDIAWIKI_BRANCHES" | tr ' ' '\n' |
-		xargs -P4 -I___ "$CLUPDATE_GERRIT" "$REPO_MEDIAWIKI" "$DIR/$PROJECT/___" "___"
-
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
 	checkVar 'REPO_MWEXTGIT'

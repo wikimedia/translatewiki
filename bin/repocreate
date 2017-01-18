@@ -13,12 +13,6 @@ cd "$DIR"
 
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
-
-if [ "${REPO_RW:-no}" = "yes" ]
-then CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-gerrit-repo";
-else CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-git-repo";
-fi
-
 checkVar() {
 	if [ -z "${!1}" ]
 		then echo "Add ${1} to REPOCONF"; exit 1
@@ -47,16 +41,6 @@ then
 		cd ${MODULE}
 		bzr pull --remember `bzr info |grep "checkout of branch" |cut -d" " -f 6`
 		cd ..
-	done
-
-elif [ "$PROJECT" = "mediawiki" ]
-then
-	checkVar 'REPO_MEDIAWIKI'
-	checkVar 'REPO_MEDIAWIKI_BRANCHES'
-	mkdir -p $PROJECT
-	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
-	do
-		"$CLUPDATE_GERRIT" "$REPO_MEDIAWIKI" "$DIR/$PROJECT/$BRANCH" $BRANCH
 	done
 
 elif [ "$PROJECT" = "mediawiki-extensions" ]

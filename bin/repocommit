@@ -79,18 +79,6 @@ then
 		bzr commit -m "$COMMITMSG"
 	done
 
-elif [ "$PROJECT" = "mediawiki" ]
-then
-	if [ -z "$REPO_MEDIAWIKI_BRANCHES" ]
-	then echo "Add REPO_MEDIAWIKI_BRANCHES to REPOCONF"; exit 1
-	fi
-
-	for BRANCH in $REPO_MEDIAWIKI_BRANCHES
-	do
-		gitCommitGerrit "$DIR/$PROJECT/$BRANCH"
-	done
-	"$DIRSCRIPT/merge-wmgerrit-patches" "mediawiki/core"
-
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
 	for i in `ls "$DIR/$PROJECT/extensions"`
