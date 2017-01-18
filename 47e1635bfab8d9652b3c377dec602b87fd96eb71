@@ -34,6 +34,24 @@
       "revId": "47e1635bfab8d9652b3c377dec602b87fd96eb71",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4efb0bce_85fc79b2",
+        "filename": "bin/repocommit",
+        "patchSetId": 8
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2017-01-18T00:30:42Z",
+      "side": 1,
+      "message": "The commands are executed manually. For non-MediaWiki repositories, it\u0027s not daily but often 2 times a week. Increasing the running time means that a human has to allocate more time to the task, I guess.",
+      "parentUuid": "4efb0bce_a13d492b",
+      "revId": "47e1635bfab8d9652b3c377dec602b87fd96eb71",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
