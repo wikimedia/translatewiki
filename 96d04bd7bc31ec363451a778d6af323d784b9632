@@ -16,6 +16,24 @@
       "revId": "96d04bd7bc31ec363451a778d6af323d784b9632",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4efb0bce_54218dab",
+        "filename": "bin/repocommit",
+        "patchSetId": 10
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-18T21:06:05Z",
+      "side": 1,
+      "message": "Actually it would be mediawiki-extensions/extensions/$i. You probably want to hardcode the prefix to \"mediawiki/extensions/$i\" here and similarly below.",
+      "parentUuid": "4efb0bce_543aade5",
+      "revId": "96d04bd7bc31ec363451a778d6af323d784b9632",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
