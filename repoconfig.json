@@ -19,7 +19,7 @@
 		"group": "citationhunt",
 		"repos": {
 			"citationhunt": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/eggpi/citationhunt.git"
 			}
 		}
