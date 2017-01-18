@@ -52,6 +52,42 @@
       "revId": "04fe69f586bdbb4ab3fb0808e02719188a232ba2",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4efb0bce_4500c104",
+        "filename": "repoconfig.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2017-01-18T00:15:27Z",
+      "side": 1,
+      "message": "Nevermind, understood now. Yes, the other projects have the threshold in both repoconfig* files",
+      "parentUuid": "4efb0bce_f210915d",
+      "revId": "04fe69f586bdbb4ab3fb0808e02719188a232ba2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4efb0bce_256a65b2",
+        "filename": "repoconfig.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2017-01-18T00:15:27Z",
+      "side": 1,
+      "message": "Thanks, that\u0027s the piece I was missing. Also tsint-*, no? What would happen if we wrote the aggregate group ID \"tsint-0-all\" here?",
+      "parentUuid": "4efb0bce_2505c513",
+      "revId": "04fe69f586bdbb4ab3fb0808e02719188a232ba2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
