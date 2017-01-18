@@ -260,7 +260,7 @@
 		"group": "video2commons",
 		"repos": {
 			"video2commons": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/Toollabs/video2commons.git"
 			}
 		}
