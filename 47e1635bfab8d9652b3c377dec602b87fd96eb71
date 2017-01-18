@@ -52,6 +52,24 @@
       "revId": "47e1635bfab8d9652b3c377dec602b87fd96eb71",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4efb0bce_7e28ea32",
+        "filename": "bin/repocommit",
+        "patchSetId": 8
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 2426
+      },
+      "writtenOn": "2017-01-18T15:50:38Z",
+      "side": 1,
+      "message": "What\u0027s most important to me is that this patch works and either improves the code or at least doesn\u0027t deteriorate it in the eyes of the maintainers. As it\u0027s written, my opinion is that separating commands to execute per project is an improvement in structure at the expense of performance. If the performance isn\u0027t acceptable or this isn\u0027t an improvement, let me know. I can either revert all this auto-merge functionality or investigate batching the projects as able via Gerrit\u0027s `(project:ABC OR project:DEF OR ...)` syntax but I don\u0027t have much ability to test this code.",
+      "parentUuid": "4efb0bce_85fc79b2",
+      "revId": "47e1635bfab8d9652b3c377dec602b87fd96eb71",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
