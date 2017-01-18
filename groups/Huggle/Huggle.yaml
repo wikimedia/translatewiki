@@ -1,6 +1,6 @@
 ---
 BASIC:
-  id: out-huggle
+  id: huggle
   label: Huggle
   icon: wiki://Huggle_icon_mini.svg
   description: "{{Special:MyLanguage/Translations:Group descriptions/huggle/en}}"
