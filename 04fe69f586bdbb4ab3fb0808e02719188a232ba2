@@ -34,6 +34,24 @@
       "revId": "04fe69f586bdbb4ab3fb0808e02719188a232ba2",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4efb0bce_2505c513",
+        "filename": "repoconfig.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-18T00:10:14Z",
+      "side": 1,
+      "message": "what is specified in \"group\" above.\n\nAlso, all the message groups that are exported are called int-*, so that\u0027s what should go into \"group\".",
+      "parentUuid": "4efb0bce_f210915d",
+      "revId": "04fe69f586bdbb4ab3fb0808e02719188a232ba2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
