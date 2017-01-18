@@ -16,6 +16,24 @@
       "revId": "04fe69f586bdbb4ab3fb0808e02719188a232ba2",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4efb0bce_f210915d",
+        "filename": "repoconfig.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2017-01-18T00:08:07Z",
+      "side": 1,
+      "message": "To what message groups exactly would it apply, if put here?",
+      "parentUuid": "4efb0bce_5253e543",
+      "revId": "04fe69f586bdbb4ab3fb0808e02719188a232ba2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
