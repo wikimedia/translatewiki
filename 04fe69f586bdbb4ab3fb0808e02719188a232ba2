@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4efb0bce_5253e543",
+        "filename": "repoconfig.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-18T00:02:32Z",
+      "side": 1,
+      "message": "Not including the threshold here? Don\u0027t other projects have it?",
+      "revId": "04fe69f586bdbb4ab3fb0808e02719188a232ba2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
