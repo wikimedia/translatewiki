@@ -637,7 +637,8 @@ optional = group-svnadmins.css, group-svnadmins.js
 
 Cognate
 
-# Collaboration Kit // 2016-03-08: Boilerplate only
+Collaboration Kit
+aliasfile = CollaborationKit/CollaborationKit.alias.php
 
 Collapsible Vector
 
