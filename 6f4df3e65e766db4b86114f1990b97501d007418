@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4efb0bce_64b73182",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 294,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-19T21:01:40Z",
+      "side": 1,
+      "message": "makes no sense.",
+      "revId": "6f4df3e65e766db4b86114f1990b97501d007418",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4efb0bce_44ad552d",
+        "filename": "bin/REPONG-PROJECTS",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-19T21:01:40Z",
+      "side": 1,
+      "message": "Why not just create one \"osm\" project?",
+      "revId": "6f4df3e65e766db4b86114f1990b97501d007418",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
