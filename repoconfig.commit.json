@@ -330,7 +330,7 @@
 				"url": "git@github.com:cmln/chameleon.git"
 			},
 			"mwgithub/DataValues/DataValues": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:DataValues/DataValues.git"
 			},
 			"mwgithub/JeroenDeDauw/GitHub": {
@@ -430,7 +430,7 @@
 				"url": "git@github.com:Wikidata-lib/PropertySuggester.git"
 			},
 			"mwgithub/wmde/DataTypes": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:wmde/DataTypes.git"
 			}
 		}
