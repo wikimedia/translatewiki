@@ -18,4 +18,3 @@ REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics
 REPO_IHRIS_BRANCH="4.2"
 REPO_IHRIS_MODULES="i2ce ihris-common ihris-manage ihris-qualify ihris-train"
 REPO_NOCC=svn+ssh://${THISUSER}@svn.code.sf.net/p/nocc/code/trunk
-

@@ -291,6 +291,8 @@ wfAddNamespace( 1222, 'Osm' );
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/OpenStreetMap.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/Potlatch2.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/OpenStreetMap/WaymarkedTrails.yaml";
+$wgTranslateGroupAliases['out-osm-potlatch2-main'] = 'osm-potlatch2-main';
+$wgTranslateGroupAliases['out-osm-potlatch2-help'] = 'osm-potlatch2-help';
 $wgTranslateSupportUrlNamespace[NS_OSM] = [
 	'page' => 'Translating_talk:OpenStreetMap',
 	'params' => $lqtParams,

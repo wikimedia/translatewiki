@@ -324,7 +324,7 @@
 	},
 	"osm": {
 		"no-export-languages": "en,qqq",
-		"group": "out-osm-*",
+		"group": "out-osm-*,osm-*",
 		"repos": {
 			"osm": {
 				"type": "git",
