@@ -1992,6 +1992,10 @@ Quick Search Lookup
 Quiz
 descmsg = quiz_desc
 
+Quiz Game
+aliasfile = QuizGame/QuestionGame.alias.php
+optional = quizgame-leaderboard-desc-pct
+
 Quick Surveys
 ignored = ext-quicksurveys-example-external-survey-link
 
