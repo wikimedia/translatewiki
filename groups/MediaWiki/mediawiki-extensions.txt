@@ -150,6 +150,8 @@ optional = babel-autocreate-user, babel-template
 ignored = babel-box-cellspacing, babel-cellspacing, babel-portal,
 ignored = babel-box-cellpadding, babel-cellpadding
 
+# Base Hooks // pending consisteny patch set
+
 Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
@@ -1114,6 +1116,8 @@ Force Preview
 
 # Form Preload Post Cache // no i18n file
 
+# Format Dates // pending consisteny patch set
+
 Formel Applet
 
 Foxway
@@ -1309,6 +1313,8 @@ Image Metrics
 
 Image Tweaks
 ignored = imagetweaks-beta-preference-info-link, imagetweaks-beta-preference-disc-link
+
+Import Articles
 
 Import Free Images
 
