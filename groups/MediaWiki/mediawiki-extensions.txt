@@ -1210,6 +1210,9 @@ Google Analytics Top Pages
 
 # Google API Client # T119905
 
+Google App Engine
+descmsg = gae-desc
+
 Google Custom Wiki Search
 descmsg = gcws-desc
 aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
@@ -1919,6 +1922,8 @@ Php Tags
 
 Php Tags Functions
 
+# Php Tags Maps // Message keys prefixed with "multimaps-..."????
+
 Php Tags SMW
 
 Php Tags Storage
@@ -2280,8 +2285,9 @@ SSL Client Authentication
 aliasfile = SSLClientAuthentication/ClientSSLAuth.alias.php
 descmsg = sslauth-desc
 
-# Shoutwiki specific extesion
-#Staff Edits
+# Staff Edits // Shoutwiki specific extesion
+
+# Staff Powers // Shoutwiki specific extesion
 
 Stalker Log
 
