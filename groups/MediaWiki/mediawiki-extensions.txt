@@ -1120,7 +1120,7 @@ Force Preview
 
 # Form Preload Post Cache // no i18n file
 
-# Format Dates // pending consisteny patch set
+Format Dates
 
 Formel Applet
 
