@@ -1478,6 +1478,9 @@ Logo Functions
 Lookup User
 aliasfile = LookupUser/LookupUser.alias.php
 
+Loop Functions
+descmsg = loopfunc-desc
+
 Loops
 
 Mad Lib
