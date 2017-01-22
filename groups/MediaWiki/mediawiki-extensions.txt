@@ -507,6 +507,8 @@ aliasfile = includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
 Blue Spice Edit Notify Connector
 
+# Blue Spice Extended Search // Dupe keys with above "Blue Spice - Extended Search"
+
 Blue Spice Page Version
 descmsg = bs-pageversion-desc
 
@@ -1557,6 +1559,8 @@ Model
 
 Mol Handler
 
+# MOOC // Some real weird message keys like "_mooc-comment-section-<section>-empty-..."
+
 MP3 Media Handler
 
 Mpdf
@@ -2497,6 +2501,7 @@ descmsg = twofactorauth-desc
 
 Unused Redirects
 aliasfile = UnusedRedirects/UnusedRedirects.alias.php
+ignored = unusedredirects-text
 
 # Update MediaWiki # Missing qqq
 
