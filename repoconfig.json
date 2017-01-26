@@ -35,6 +35,7 @@
 	},
 	"commons-android": {
 		"group": "commons-android-*",
+		"no-export-languages": "ksh,zh",
 		"repos": {
 			"commons-android": {
 				"type": "github",
@@ -81,6 +82,7 @@
 	},
 	"int-dcatap": {
 		"group": "int-dcatap",
+		"no-export-languages": "ady,aeb,bbc,be-x-old,crh,dk,en,fiu-vro,gan,gom,got,hif,iu,kbd,kk,kk-cn,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,ruq,simple,sr,test,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-hk,zh-min-nan,zh-mo,zh-my,zh-sg,zh-tw,zh-yue",
 		"repos": {
 			"int-dcatap": {
 				"type": "wmgerrit",
@@ -261,6 +263,9 @@
 		"repos": {
 			"mantis": {
 				"type": "github",
+				"options": [
+					"codemaponly"
+				],
 				"url": "https://github.com/mantisbt/mantisbt.git"
 			}
 		}
@@ -461,13 +466,13 @@
 				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticMetaTags.git"
 			},
-			"mwgithub/SemanticMediaWiki/SemanticSignup": {
-				"type": "github",
-				"url": "https://github.com/SemanticMediaWiki/SemanticSignup.git"
-			},
 			"mwgithub/SemanticMediaWiki/SemanticScribunto": {
 				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/SemanticScribunto.git"
+			},
+			"mwgithub/SemanticMediaWiki/SemanticSignup": {
+				"type": "github",
+				"url": "https://github.com/SemanticMediaWiki/SemanticSignup.git"
 			},
 			"mwgithub/SemanticMediaWiki/SemanticWatchlist": {
 				"type": "github",
@@ -555,6 +560,7 @@
 			"wikipedia-android": {
 				"type": "wmgerrit",
 				"url": "https://gerrit.wikimedia.org/r/apps/android/wikipedia"
+				"auto-merge": false
 			}
 		}
 	},
