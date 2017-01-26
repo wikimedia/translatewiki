@@ -96,10 +96,6 @@ then
 		"$DIRSCRIPT/merge-wmgerrit-patches" "mediawiki/skins/$i"
 	done
 
-elif [ "$PROJECT" = "mifos" ]
-then
-    gitCommit "$DIR/$PROJECT" develop
-
 elif [ "$PROJECT" = "nocc" ]
 then
 	cd "$DIR/$PROJECT"

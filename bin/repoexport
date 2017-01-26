@@ -67,11 +67,6 @@ then
 
 	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
 
-elif [ "$PROJECT" = "mifos" ]
-then
-	php "$EXPORTER" --target . --group='out-mifos' --lang='*' --skip en,qqq --threshold 20
-	php "$EXPORTER" --target . --group='out-mifos' --lang qqq
-
 elif [ "$PROJECT" = "nocc" ]
 then
 	php "$EXPORTER" --target . --group=out-nocc-* --lang='*' --skip en,qqq $THRESHOLD

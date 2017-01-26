@@ -269,6 +269,17 @@
 			}
 		}
 	},
+	"mifos": {
+		"group": "out-mifos",
+		"export-threshold": 20,
+		"repos": {
+			"etherpad-lite": {
+				"type": "github",
+				"branch": "develop",
+				"url": "git@github.com:openMF/community-app.git"
+			}
+		}
+	},
 	"nfcring-control": {
 		"group": "nfcring-control",
 		"repos": {

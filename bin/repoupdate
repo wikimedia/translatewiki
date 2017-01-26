@@ -77,10 +77,6 @@ then
 	for MODULE in $REPO_IHRIS_MODULES
 	do ( cd "$MODULE" && bzr pull -q ) done
 
-elif [ "$PROJECT" = "mifos" ]
-then
-	doUpdate "$PROJECT" "$CLUPDATE" develop
-
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
 	checkVar 'REPO_MWEXTGIT'
