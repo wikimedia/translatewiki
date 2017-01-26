@@ -28,7 +28,7 @@
 		"group": "codev",
 		"repos": {
 			"codev": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/mantisbt-plugins/codev.git"
 			}
 		}
