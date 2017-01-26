@@ -30,7 +30,6 @@ gitCommitGerrit() {
 # TODO: Move to separate file?
 GITPROJECTS="\
 int-refill \
-mathjax \
 osm \
 waymarked-trails-site"
 

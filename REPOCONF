@@ -9,7 +9,6 @@ REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics
 REPO_IHRIS_BRANCH="4.2-dev"
 REPO_IHRIS_MODULES="i2ce ihris-common ihris-manage ihris-qualify ihris-train"
 REPO_INTREFILL=https://github.com/zhaofengli/refill.git
-REPO_MATHJAX=https://github.com/mathjax/MathJax-i18n.git
 REPO_NOCC=https://svn.code.sf.net/p/nocc/code/trunk
 REPO_OSM=git://git.openstreetmap.org/rails.git
 REPO_POTLATCH2=https://github.com/systemed/potlatch2.git

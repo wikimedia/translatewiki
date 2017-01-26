@@ -40,11 +40,6 @@ then
 	php "$EXPORTER" --target . --group=int-refill --lang='*' --skip en $HOURS
 	php "$EXPORTER" --target . --group=int-refill --lang qqq
 
-elif [ "$PROJECT" = "mathjax" ]
-then
-	php "$EXPORTER" --target . --group='out-mathjax-*' --lang='*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group='out-mathjax-*' --lang qqq
-
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
 #	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=magic --quiet &

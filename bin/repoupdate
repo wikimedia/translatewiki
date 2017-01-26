@@ -46,7 +46,6 @@ fi
 
 GITCLUPDATE="\
 int-refill \
-mathjax \
 waymarked-trails-site"
 
 for i in $GITCLUPDATE; do
