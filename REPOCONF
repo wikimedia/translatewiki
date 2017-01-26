@@ -13,5 +13,4 @@ REPO_MATHJAX=https://github.com/mathjax/MathJax-i18n.git
 REPO_NOCC=https://svn.code.sf.net/p/nocc/code/trunk
 REPO_OSM=git://git.openstreetmap.org/rails.git
 REPO_POTLATCH2=https://github.com/systemed/potlatch2.git
-REPO_VICUNA=https://github.com/yarl/vicuna.git
 REPO_WAYMARKEDTRAILSSITE=https://github.com/lonvia/waymarked-trails-site.git

@@ -32,7 +32,6 @@ GITPROJECTS="\
 int-refill \
 mathjax \
 osm \
-vicuna \
 waymarked-trails-site"
 
 for i in $GITPROJECTS; do

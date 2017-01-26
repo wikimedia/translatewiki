@@ -318,6 +318,15 @@
 			}
 		}
 	},
+	"vicuna": {
+		"group": "out-vicuna",
+		"repos": {
+			"vicuna": {
+				"type": "github",
+				"url": "https://github.com/yarl/vicuna.git"
+			}
+		}
+	},
 	"video2commons": {
 		"group": "video2commons",
 		"repos": {

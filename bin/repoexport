@@ -76,11 +76,6 @@ elif [ "$PROJECT" = "osm" ]
 then
 	php "$EXPORTER" --target . --group=out-osm-* --lang='*' --skip en,qqq $THRESHOLD
 
-elif [ "$PROJECT" = "vicuna" ]
-then
-	php "$EXPORTER" --target . --group=out-vicuna --lang='*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-vicuna --lang qqq --skip en
-
 elif [ "$PROJECT" = "waymarked-trails-site" ]
 then
 	php "$EXPORTER" --target . --group=out-waymarked-trails --lang='*' --skip en,qqq,no --threshold 75 $HOURS
