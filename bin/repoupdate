@@ -45,7 +45,6 @@ else CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-git-repo";
 fi
 
 GITCLUPDATE="\
-int-refill \
 waymarked-trails-site"
 
 for i in $GITCLUPDATE; do
