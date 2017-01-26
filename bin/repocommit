@@ -29,7 +29,6 @@ gitCommitGerrit() {
 
 # TODO: Move to separate file?
 GITPROJECTS="\
-eol \
 int-refill \
 mathjax \
 osm \

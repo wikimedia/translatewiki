@@ -27,11 +27,7 @@ for i in $REPONG; do
 	fi
 done
 
-if [ "$PROJECT" = "eol" ]
-then
-	php "$EXPORTER" --target . --group=out-eol* --lang='*' --skip en $THRESHOLD
-
-elif [ "$PROJECT" = "fudforum" ]
+if [ "$PROJECT" = "fudforum" ]
 then
 	php "$EXPORTER" --target . --group=out-fudforum --lang='*' --skip en $THRESHOLD
 

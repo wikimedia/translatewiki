@@ -61,6 +61,15 @@
 			}
 		}
 	},
+	"eol": {
+		"group": "out-eol-*",
+		"repos": {
+			"codev": {
+				"type": "git",
+				"url": "git@github.com:EOL/eol.git"
+			}
+		}
+	},
 	"intuition": {
 		"group": "tsint-*",
 		"export-threshold": 1,

@@ -60,6 +60,15 @@
 			}
 		}
 	},
+	"eol": {
+		"group": "out-eol-*",
+		"repos": {
+			"codev": {
+				"type": "git",
+				"url": "https://github.com/EOL/eol.git"
+			}
+		}
+	},
 	"intuition": {
 		"group": "tsint-*",
 		"export-threshold": 1,
