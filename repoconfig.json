@@ -116,6 +116,15 @@
 			}
 		}
 	},
+	"int-refill": {
+		"group": "int-refill",
+		"repos": {
+			"int-refill": {
+				"type": "github",
+				"url": "https://github.com/zhaofengli/refill.git"
+			}
+		}
+	},
 	"jquery.uls": {
 		"group": "jquery-uls",
 		"repos": {

@@ -17,7 +17,6 @@ REPO_FUDFORUM=svn+ssh://${THISUSER}@svn.code.sf.net/p/fudforum/code/trunk/instal
 REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics
 REPO_IHRIS_BRANCH="4.2"
 REPO_IHRIS_MODULES="i2ce ihris-common ihris-manage ihris-qualify ihris-train"
-REPO_INTREFILL=git@github.com:zhaofengli/refill.git
 REPO_NOCC=svn+ssh://${THISUSER}@svn.code.sf.net/p/nocc/code/trunk
 REPO_OSM=ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git
 REPO_POTLATCH2=git@github.com:systemed/potlatch2.git

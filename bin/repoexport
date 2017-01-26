@@ -35,11 +35,6 @@ elif [ "$PROJECT" = "ihris" ]
 then
 	php "$EXPORTER" --target . --group=out-ihris* --lang='*' --skip en,qqq $THRESHOLD --ppgettext=/resources/projects
 
-elif [ "$PROJECT" = "int-refill" ]
-then
-	php "$EXPORTER" --target . --group=int-refill --lang='*' --skip en $HOURS
-	php "$EXPORTER" --target . --group=int-refill --lang qqq
-
 elif [ "$PROJECT" = "mediawiki-extensions" ]
 then
 #	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=magic --quiet &
