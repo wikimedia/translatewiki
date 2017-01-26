@@ -64,7 +64,7 @@
 	"eol": {
 		"group": "out-eol-*",
 		"repos": {
-			"codev": {
+			"eol": {
 				"type": "git",
 				"url": "git@github.com:EOL/eol.git"
 			}
@@ -287,7 +287,7 @@
 		"group": "out-mifos",
 		"export-threshold": 20,
 		"repos": {
-			"etherpad-lite": {
+			"mifos": {
 				"type": "github",
 				"branch": "develop",
 				"url": "https://github.com/openMF/community-app.git"
