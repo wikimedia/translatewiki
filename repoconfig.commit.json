@@ -322,6 +322,20 @@
 			}
 		}
 	},
+	"osm": {
+		"no-export-languages": "en,qqq",
+		"group": "out-osm-*",
+		"repos": {
+			"osm": {
+				"type": "git",
+				"url": "ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git"
+			},
+			"potlatch2": {
+				"type": "github",
+				"url": "git@github.com:systemed/potlatch2.git"
+			}
+		}
+	},
 	"pageviews": {
 		"group": "pageviews",
 		"repos": {

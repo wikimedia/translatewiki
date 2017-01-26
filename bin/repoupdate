@@ -79,11 +79,6 @@ elif [ "$PROJECT" = "nocc" ]
 then
 	svn up -q "$PROJECT"
 
-elif [ "$PROJECT" = "osm" ]
-then
-	doUpdate "$PROJECT" "$CLUPDATE"
-	doUpdate "potlatch2" "$CLUPDATE"
-
 else
 	echo "$(basename "$0"): Unknown project"
 	exit 1

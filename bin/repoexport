@@ -62,10 +62,6 @@ then
 	php "$EXPORTER" --target . --group=out-nocc-* --lang='*' --skip en,qqq $THRESHOLD
 	php "$EXPORTER" --target . --group=out-nocc-* --lang qqq
 
-elif [ "$PROJECT" = "osm" ]
-then
-	php "$EXPORTER" --target . --group=out-osm-* --lang='*' --skip en,qqq $THRESHOLD
-
 else
 	echo "`basename $0`: Unknown project"
 	exit 1

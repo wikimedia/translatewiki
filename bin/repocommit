@@ -27,24 +27,6 @@ gitCommitGerrit() {
 	git commit -q -m "$COMMITMSG" && git review -r origin -t l10n || :
 }
 
-# TODO: Move to separate file?
-GITPROJECTS="\
-osm"
-
-for i in $GITPROJECTS; do
-	if [ "$i" = "$PROJECT" ]
-	then
-		gitCommit "$DIR/$PROJECT"
-
-		if [ "$PROJECT" = "osm" ]
-		then
-			gitCommit "$DIR/potlatch2"
-		fi
-
-		exit 0
-	fi
-done
-
 REPONG=$(cat "$DIRSCRIPT/REPONG-PROJECTS");
 for i in $REPONG; do
 	if [ "$i" = "$PROJECT" ]
