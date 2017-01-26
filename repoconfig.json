@@ -120,7 +120,7 @@
 		"group": "int-refill",
 		"repos": {
 			"int-refill": {
-				"type": "github",
+				"type": "git",
 				"url": "https://github.com/zhaofengli/refill.git"
 			}
 		}
@@ -269,7 +269,7 @@
 		"group": "out-mathjax-*",
 		"repos": {
 			"mathjax": {
-				"type": "github",
+				"type": "git",
 				"url": "https://github.com/mathjax/MathJax-i18n.git"
 			}
 		}
@@ -292,7 +292,7 @@
 		"export-threshold": 20,
 		"repos": {
 			"mifos": {
-				"type": "github",
+				"type": "git",
 				"branch": "develop",
 				"url": "git@github.com:openMF/community-app.git"
 			}
@@ -354,7 +354,7 @@
 		"group": "out-vicuna",
 		"repos": {
 			"vicuna": {
-				"type": "github",
+				"type": "git",
 				"url": "https://github.com/yarl/vicuna.git"
 			}
 		}
