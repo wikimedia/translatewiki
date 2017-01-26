@@ -29,8 +29,7 @@ gitCommitGerrit() {
 
 # TODO: Move to separate file?
 GITPROJECTS="\
-osm \
-waymarked-trails-site"
+osm"
 
 for i in $GITPROJECTS; do
 	if [ "$i" = "$PROJECT" ]

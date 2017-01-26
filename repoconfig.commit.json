@@ -499,6 +499,15 @@
 			}
 		}
 	},
+	"waymarked-trails-site": {
+		"group": "out-waymarked-trails*",
+		"repos": {
+			"waymarked-trails-site": {
+				"type": "github",
+				"url": "git@github.com:lonvia/waymarked-trails-site.git"
+			}
+		}
+	},
 	"wiki-ai": {
 		"group": "wiki-ai-*",
 		"repos": {

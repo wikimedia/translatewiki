@@ -67,4 +67,3 @@ FILES:
   class: YamlFFS
   sourcePattern: "%GROUPROOT%/waymarked-trails-site/django/locale/%CODE%/helppages.yaml"
   definitionFile: "%GROUPROOT%/waymarked-trails-site/django/locale/qot/helppages.yaml"
-

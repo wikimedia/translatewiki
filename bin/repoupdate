@@ -44,17 +44,6 @@ then CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-gerrit-repo";
 else CLUPDATE_GERRIT="$DIRSCRIPT/clupdate-git-repo";
 fi
 
-GITCLUPDATE="\
-waymarked-trails-site"
-
-for i in $GITCLUPDATE; do
-	if [ "$i" = "$PROJECT" ]
-	then
-		doUpdate "$PROJECT" "$CLUPDATE"
-		exit 0
-	fi
-done
-
 REPONG=$(cat "$DIRSCRIPT/REPONG-PROJECTS");
 for i in $REPONG; do
 	if [ "$i" = "$PROJECT" ]
