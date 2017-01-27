@@ -2414,6 +2414,10 @@ optional = beta-feature-timedmediahandler-message-videojs
 Timed Media Handler - Embed Player
 file = TimedMediaHandler/MwEmbedModules/EmbedPlayer/i18n/%CODE%.json
 
+Timed Media Handler - Timed Text
+file = TimedMediaHandler/MwEmbedModules/TimedText/i18n/%CODE%.json
+optional = mwe-timedtext-key-language
+
 Timeline
 file = timeline/i18n/%CODE%.json
 
