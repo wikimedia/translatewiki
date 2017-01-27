@@ -46,6 +46,7 @@ FILES:
 
 TAGS:
   optional:
+    - apisandbox-request-format-json-label
     - authprovider-confirmlink-failed-line
     - authprovider-confirmlink-option
     - backlinksubtitle

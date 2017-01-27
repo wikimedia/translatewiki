@@ -2257,7 +2257,7 @@ Smooth Gallery
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
 ignored = smoothgallery-pagetext
 
-# Snippet // No message documentation
+# Snippet // No message documentation, inactive per T154220
 
 Social Profile
 aliasfile = SocialProfile/SocialProfile.alias.php
