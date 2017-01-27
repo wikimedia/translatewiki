@@ -84,7 +84,7 @@ class RepoNg {
 		echo "$command\n";
 
 		$process = new Process( $command );
-		$process->setTimeout( 180 );
+		$process->setTimeout( 300 );
 		$process->mustRun();
 		print $process->getOutput();
 
