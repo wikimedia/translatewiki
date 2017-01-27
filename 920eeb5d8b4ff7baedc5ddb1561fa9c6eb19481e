@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ef897d1_a971a70d",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-27T22:00:24Z",
+      "side": 1,
+      "message": "This is because qqq is not to be export, right?",
+      "revId": "920eeb5d8b4ff7baedc5ddb1561fa9c6eb19481e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
