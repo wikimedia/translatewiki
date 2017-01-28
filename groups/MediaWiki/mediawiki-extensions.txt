@@ -1896,6 +1896,8 @@ Paginate Text
 
 Pan Scroll
 
+Parent Page
+
 Parser Fun
 
 Parser Functions
