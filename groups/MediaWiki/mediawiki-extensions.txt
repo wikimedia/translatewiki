@@ -1531,6 +1531,7 @@ Media Functions
 #MediaWiki Auth / Wikia centric extension
 
 MediaWiki Chat
+aliasfile = MediaWikiChat/MediaWikiChat.alias.php
 descmsg = chat-desc
 ignored = chat-smileys, chat-mod-image
 optional = logentry-chat-send
