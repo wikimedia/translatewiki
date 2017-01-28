@@ -1565,6 +1565,10 @@ Mol Handler
 
 # MOOC // Some real weird message keys like "_mooc-comment-section-<section>-empty-..."
 
+Move To Commons
+
+Move To Commons Client
+
 MP3 Media Handler
 
 Mpdf
