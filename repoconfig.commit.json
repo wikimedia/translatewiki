@@ -395,23 +395,23 @@
 				"url": "git@github.com:DataValues/DataValues.git"
 			},
 			"mwgithub/JeroenDeDauw/GitHub": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:JeroenDeDauw/GitHub.git"
 			},
 			"mwgithub/JeroenDeDauw/Maps": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:JeroenDeDauw/Maps.git"
 			},
 			"mwgithub/JeroenDeDauw/ParserHooks": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:JeroenDeDauw/ParserHooks.git"
 			},
 			"mwgithub/JeroenDeDauw/SubPageList": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:JeroenDeDauw/SubPageList.git"
 			},
 			"mwgithub/JeroenDeDauw/Validator": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:JeroenDeDauw/Validator.git"
 			},
 			"mwgithub/Nikerabbit/mediawiki-extensions-FinnFrameNet": {
