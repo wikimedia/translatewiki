@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ef897d1_5c6addb2",
+        "filename": "bin/REPONG-PROJECTS",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-31T14:59:41Z",
+      "side": 1,
+      "message": "Remove this line. \"osm\" is name of the project and contains both repositories.",
+      "revId": "6f53464d51be669683be366e8740414270e056c4",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ef897d1_3c6f21c2",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 3
+      },
+      "lineNbr": 333,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-31T14:59:41Z",
+      "side": 1,
+      "message": "This would check out this repository inside the above repository. Either both should be subdirectories or neither. Latter seems earlier.",
+      "revId": "6f53464d51be669683be366e8740414270e056c4",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
