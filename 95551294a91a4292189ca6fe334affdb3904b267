@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ef897d1_9c861569",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-31T15:09:14Z",
+      "side": 1,
+      "message": "what remains equals to dropping the prefix",
+      "revId": "95551294a91a4292189ca6fe334affdb3904b267",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ef897d1_bcbaf11c",
+        "filename": "repoconfig.json",
+        "patchSetId": 4
+      },
+      "lineNbr": 333,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-01-31T15:09:14Z",
+      "side": 1,
+      "message": "Here too.",
+      "range": {
+        "startLine": 333,
+        "startChar": 5,
+        "endLine": 333,
+        "endChar": 6
+      },
+      "revId": "95551294a91a4292189ca6fe334affdb3904b267",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
