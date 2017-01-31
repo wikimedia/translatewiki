@@ -1971,6 +1971,8 @@ descmsg = poll-desc
 
 Pool Counter
 
+# Popup Pages // old i18n file only
+
 Popups
 
 #Post Edit / Merged into core / 2013-06-01
