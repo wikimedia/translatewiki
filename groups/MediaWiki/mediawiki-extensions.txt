@@ -1757,6 +1757,8 @@ aliasfile = OpenStackManager/OpenStackManager.alias.php
 optional = prefs-openstack
 ignored = apihelp-novaaddress-param-id
 
+# Open Street Map Slippy Map // message prefix "slippymap-"
+
 Oracle Text Search
 
 ORES
@@ -2034,6 +2036,8 @@ ignored = ext-quicksurveys-example-external-survey-link
 
 Random Image
 
+Random Image By Category
+
 Random In Category
 aliasfile = RandomInCategory/RandomInCategory.alias.php
 prefix = extension- | randomincategory, randomincategory-submit
@@ -2272,6 +2276,8 @@ ignored = smoothgallery-pagetext
 
 Social Profile
 aliasfile = SocialProfile/SocialProfile.alias.php
+
+# Software Version // ShoutWiki centric
 
 Solarium
 
