@@ -1698,6 +1698,8 @@ aliasfile = NukeDPL/NukeDPL.alias.php
 Number Format
 descmsg = numberformat_desc
 
+# Number Of Wikis // Shoutwiki centric
+
 Numbertext
 
 Numer Alpha
