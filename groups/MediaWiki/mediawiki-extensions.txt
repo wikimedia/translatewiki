@@ -800,6 +800,8 @@ Custom Page
 # Unused on WMF since 8/2012 and seems unmaintened. https://gerrit.wikimedia.org/r/#/c/18201/
 #Custom User Signup
 
+D3 Loader
+
 Data Transfer
 aliasfile = DataTransfer/languages/DT_Aliases.php
 optional = dt_filetype_xml, dt_filetype_csv
