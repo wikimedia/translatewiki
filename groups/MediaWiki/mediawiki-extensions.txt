@@ -1565,6 +1565,8 @@ Mol Handler
 
 # MOOC // Some real weird message keys like "_mooc-comment-section-<section>-empty-..."
 
+Moodle
+
 Move To Commons
 
 Move To Commons Client
