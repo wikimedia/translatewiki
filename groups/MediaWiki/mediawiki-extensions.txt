@@ -1942,6 +1942,8 @@ PGF TikZ
 
 PHP Excel
 
+Php Highlight
+
 Php Tags
 
 Php Tags Functions
