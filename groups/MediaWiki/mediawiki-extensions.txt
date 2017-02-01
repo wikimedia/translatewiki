@@ -2008,6 +2008,8 @@ PubSubHubbub
 Pure Wiki Deletion
 aliasfile = PureWikiDeletion/PureWikiDeletion.alias.php
 
+Purge Click Through
+
 Push
 aliasfile = Push/Push.alias.php
 optional = group-pusher.css, group-pusher.js
