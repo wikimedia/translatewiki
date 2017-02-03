@@ -559,7 +559,7 @@
 		"repos": {
 			"wikipedia-android": {
 				"type": "wmgerrit",
-				"url": "https://gerrit.wikimedia.org/r/apps/android/wikipedia"
+				"url": "https://gerrit.wikimedia.org/r/apps/android/wikipedia",
 				"auto-merge": false
 			}
 		}
