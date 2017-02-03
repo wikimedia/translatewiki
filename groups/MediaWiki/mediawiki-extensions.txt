@@ -2093,6 +2093,8 @@ magicfile = RegexFunctions/RegexFunctions.i18n.magic.php
 
 Related Articles
 
+# Related Links // No qqq, no message prefix
+
 Related Sites
 
 Rename user

@@ -252,6 +252,7 @@ TAGS:
     - usermessage-template
     - userrights-groupsmember-type
     - userrights-irreversible-marker
+    - userrights-no-shorten-expiry-marker
     - variantname-gan
     - variantname-gan-hans
     - variantname-gan-hant
