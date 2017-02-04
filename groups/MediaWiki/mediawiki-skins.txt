@@ -9,8 +9,8 @@ ignored = bluesky-breadcrumbs-nsmain
 
 Blue Spice Skin
 
-# qqq missing
-#Bouquet
+Bouquet
+ignored = bouquet-navigation
 
 Cologne Blue
 optional = cologneblue.css, cologneblue.js
