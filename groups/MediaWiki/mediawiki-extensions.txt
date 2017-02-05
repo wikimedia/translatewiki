@@ -1568,6 +1568,7 @@ Mol Handler
 # MOOC // Some real weird message keys like "_mooc-comment-section-<section>-empty-..."
 
 Moodle
+aliasfile = Moodle/MoodleWS.alias.php
 
 Move To Commons
 
