@@ -320,6 +320,7 @@ descmsg = bs-insertfile-desc
 file = BlueSpiceExtensions/InsertFile/i18n/%CODE%.json
 
 Blue Spice - Insert Link
+aliasfile = BlueSpiceExtensions/InsertLink/InsertLink.alias.php
 id = ext-bs-insertlink
 descmsg = bs-insertlink-desc
 file = BlueSpiceExtensions/InsertLink/i18n/%CODE%.json
@@ -987,6 +988,7 @@ Extension Distributor
 External Articles
 
 External Data
+aliasfile = ExternalData/ExternalData.i18n.alias.php
 magicfile = ExternalData/ExternalData.i18n.magic.php
 
 Extra Language Link
@@ -1995,6 +1997,7 @@ Premoderation
 Prezi
 
 Private Domains
+aliasfile = PrivateDomains/PrivateDomains.alias.php
 
 Pronunciation Recording
 
@@ -2200,6 +2203,9 @@ Semantic Internal Objects
 magicfile = SemanticInternalObjects/SemanticInternalObjects.i18n.magic.php
 
 Semantic Links
+
+Semantic Page Maker
+aliasfile = SemanticPageMaker/SemanticPageMaker.alias.php
 
 Semantic Page Series
 aliasfile = SemanticPageSeries/SemanticPageSeries.alias.php
