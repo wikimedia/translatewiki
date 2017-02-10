@@ -2614,7 +2614,7 @@ Viki Title Icon
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
-Vine
+# Vine // Archived: https://gerrit.wikimedia.org/r/#/c/336246/
 
 Virtual Keyboard
 
