@@ -1011,6 +1011,10 @@ ignored = ffeed-enable-sidebar-links
 
 File Annotations
 
+File Exporter
+
+File Importer
+
 Filter List Users
 
 First Steps
@@ -1571,10 +1575,6 @@ Mol Handler
 
 Moodle
 aliasfile = Moodle/MoodleWS.alias.php
-
-Move To Commons
-
-Move To Commons Client
 
 MP3 Media Handler
 
