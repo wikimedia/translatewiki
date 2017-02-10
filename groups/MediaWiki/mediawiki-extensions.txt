@@ -662,6 +662,7 @@ Comment Pages
 ignored = commenttab-editintro, commenttab-preload
 
 Commentbox
+aliasfile = Commentbox/Commentbox.alias.php
 ignored = commentbox-prefill
 
 Comments
@@ -969,6 +970,7 @@ Email Capture
 Error Handler
 
 Ether Editor
+aliasfile = EtherEditor/EtherEditor.alias.php
 
 Etherpad Lite
 
@@ -1223,6 +1225,7 @@ google Analytics
 Google Analytics Metrics
 
 Google Analytics Top Pages
+aliasfile = GoogleAnalyticsTopPages/GoogleAnalyticsTopPages.alias.php
 
 # Google API Client # T119905
 
@@ -1775,6 +1778,7 @@ ignored = ores-reverted-letter
 optional = ores-beta-feature-message
 
 Page Assessments
+aliasfile = PageAssessments/PageAssessments.i18n.alias.php
 
 Page Creation Notif
 descmsg = page-creation-notif-desc
@@ -1973,6 +1977,7 @@ Php Tags Wiki
 Pipe Escape
 
 Pluggable Auth
+aliasfile = PluggableAuth/PluggableAuth.alias.php
 
 Poem
 
