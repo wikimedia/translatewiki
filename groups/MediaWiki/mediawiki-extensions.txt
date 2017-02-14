@@ -515,7 +515,7 @@ descmsg = bs-pageversion-desc
 
 # Blue Spice Sub Page Tree // no i18n
 
-Boiler Plate
+# Boiler Plate excluded per T156569
 
 Book Manager
 descmsg = bm-printversion-desc
