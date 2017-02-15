@@ -1788,6 +1788,9 @@ optional = ores-beta-feature-message
 Page Assessments
 aliasfile = PageAssessments/PageAssessments.i18n.alias.php
 
+Page Block
+aliasfile = PageBlock/PageBlock.alias.php
+
 Page Creation Notif
 descmsg = page-creation-notif-desc
 
