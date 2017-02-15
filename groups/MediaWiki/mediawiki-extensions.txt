@@ -673,6 +673,10 @@ Common Messages
 Commons Metadata
 ignored = commonsmetadata-doc-url
 
+# Community Applications // missing qqq
+
+# Community Hiring // missing qqq
+
 Community Twitter
 aliasfile = CommunityTwitter/CommunityTwitter.alias.php
 
@@ -852,6 +856,8 @@ ignored = sitenotice_id
 optional = sitenotice_close-brackets
 
 Disqus Tag
+
+# Django Analytics // Not an extension
 
 Donation Interface - Adyen Gateway
 id = ext-di-adyen
@@ -1549,6 +1555,8 @@ optional = logentry-chat-send
 
 MediaWiki Farm
 
+# Memento // No qqq, "timegate-..." message prefix
+
 # Missing qqq
 #Mini Invite
 
@@ -2162,6 +2170,7 @@ ignored = scribunto-doc-page-show, scribunto-limitreport-estmemusage-value
 Search Extra NS
 
 # Search Stats // old i18n file
+# aliasfile = SearchStats/SearchStats.alias.php
 
 Section Disqus
 
@@ -2354,7 +2363,7 @@ ignored = statcounter-project-id, statcounter-security
 
 Stick To That Language
 
-# Stl Handler //  2016-10-23: no i18n file
+Stl Handler
 
 Stop Forum Spam
 
