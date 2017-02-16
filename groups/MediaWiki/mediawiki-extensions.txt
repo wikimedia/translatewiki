@@ -1383,9 +1383,9 @@ JS Bread Crumbs
 optional = jsbreadcrumbs-separator
 
 Json Config
-ignored = jsonconfig-license-notice-box-CC0-1.0+
+ignored = jsonconfig-license-notice-box-CC0-1.0
 optional = jsonconfig-type-abbr-invalid, jsonconfig-type-abbr-string, jsonconfig-type-abbr-localized
-optional = jsonconfig-type-abbr-number, jsonconfig-type-abbr-boolean, jsonconfig-license-url-CC0-1.0+
+optional = jsonconfig-type-abbr-number, jsonconfig-type-abbr-boolean, jsonconfig-license-url-CC0-1.0
 
 Kartographer
 optional = visualeditor-mwmapsdialog-geojson, kartographer-coord-combined, kartographer-coord-dms
