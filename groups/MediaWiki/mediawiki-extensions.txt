@@ -2174,8 +2174,8 @@ ignored = scribunto-doc-page-show, scribunto-limitreport-estmemusage-value
 
 Search Extra NS
 
-# Search Stats // old i18n file
-# aliasfile = SearchStats/SearchStats.alias.php
+Search Stats
+aliasfile = SearchStats/SearchStats.alias.php
 
 Section Disqus
 
