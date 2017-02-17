@@ -586,7 +586,9 @@ optional = centralnotice-language-listing, centralnotice-log-label, centralnotic
 # No message documentation - 2014-10-05
 # Challenge
 
-# Change Author // 2016-09-02 imported from SVN, still old i18n
+Change Author
+aliasfile = ChangeAuthor/ChangeAuthor.alias.php
+optional = changeauthor-rev
 
 Char Insert
 #magicfile = CharInsert/CharInsert.i18n.magic.php
