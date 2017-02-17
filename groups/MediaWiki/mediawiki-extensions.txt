@@ -508,6 +508,10 @@ aliasfile = includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
 Blue Spice Edit Notify Connector
 
+Blue Spice Extended Filelist
+descmsg = bs-extendedfilelist-desc
+aliasfile = BlueSpiceExtendedFilelist.alias.php
+
 # Blue Spice Extended Search // Dupe keys with above "Blue Spice - Extended Search"
 
 Blue Spice Page Version
