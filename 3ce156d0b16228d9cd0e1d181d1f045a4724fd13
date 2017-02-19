@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce3c5b53_029baac2",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1988,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2017-02-19T21:11:39Z",
+      "side": 1,
+      "message": "-\u003e Pickle",
+      "revId": "3ce156d0b16228d9cd0e1d181d1f045a4724fd13",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce3c5b53_22982ec3",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1989,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2017-02-19T21:11:39Z",
+      "side": 1,
+      "message": "Not necessary as the path is extension default",
+      "revId": "3ce156d0b16228d9cd0e1d181d1f045a4724fd13",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
