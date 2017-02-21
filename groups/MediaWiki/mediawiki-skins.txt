@@ -21,7 +21,7 @@ optional = skinname-custompage, custompage.css, custompage.js
 
 Daddio
 
-# Deep Sea // Missing qqq
+Deep Sea
 
 erudite
 file = erudite/i18n/%CODE%.json
