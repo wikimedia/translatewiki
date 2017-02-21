@@ -1441,6 +1441,7 @@ Ldap Authentication
 LDAP Authorization
 
 Life Web
+aliasfile = LifeWeb/LifeWeb.alias.php
 
 # Lightweight RDFa // Archived per https://phabricator.wikimedia.org/T93727#2806421
 
@@ -2032,6 +2033,7 @@ aliasfile = ProtectSite/ProtectSite.alias.php
 
 # No spaces because it is proper noun
 PubSubHubbub
+aliasfile = PubSubHubbub/PubSubHubbub.alias.php
 
 Pure Wiki Deletion
 aliasfile = PureWikiDeletion/PureWikiDeletion.alias.php
@@ -2707,6 +2709,7 @@ ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforu
 optional = group-forumadmin.css, group-forumadmin.js
 
 Wiki Labels
+aliasfile = WikiLabels/WikiLabels.i18n.alias.php
 
 Wiki Lexical Data
 file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
