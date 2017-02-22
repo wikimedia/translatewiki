@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce3c5b53_82a9e8de",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1991,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2017-02-22T12:48:42Z",
+      "side": 1,
+      "message": "The message keys of \n\n\"pickle-frame-full-header\": \"# $1\"\n\"pickle-frame-vivid-header\": \"$1\",\n\"pickle-report-result-compact-wrap-description\": \"$1\",\n\"pickle-report-result-compact-wrap-line\": \"\\t$1\",\n\"pickle-report-result-vivid-wrap-line\": \"$1\",\n\n\nshould be added to ignored due to no translatable content",
+      "revId": "188453ca76c453fed2850e5ef11cb290aecdd746",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
