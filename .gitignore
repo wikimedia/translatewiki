@@ -7,3 +7,4 @@ extensions/
 node_modules/
 vendor/
 composer.lock
+Gemfile.lock
