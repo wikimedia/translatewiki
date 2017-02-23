@@ -11,6 +11,7 @@ node 'translatewiki.net' {
   include sshd
   include sudo
   include users
+  include hostname
 
   include awstats
   include base::web1
