@@ -74,8 +74,8 @@ Timeless
 optional = skinname-timeless
 ignored = timeless-sitetitle
 
-# No message documentation
-# Truglass
+Truglass
+ignored = truglass-footertext
 
 Vector
 optional = vector.css, vector.js
