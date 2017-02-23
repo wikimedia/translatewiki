@@ -7,7 +7,7 @@ class mariadb {
     package_name     => 'mariadb-server',
     restart          => false,
     override_options => {
-      mysqld => {
+      mysqld      => {
         character-set-server            => 'utf8',
         innodb_additional_mem_pool_size => '400M',
         innodb_buffer_pool_instances    => '12',
@@ -19,9 +19,13 @@ class mariadb {
         query_cache_size                => '0',
         query_cache_type                => '0',
         ssl                             => '0',
-        table_cache                     => '1500'
+        table_cache                     => '1500',
+        log-error                       => undef
       },
-      client => {
+      mysqld_safe => {
+        log-error => undef
+      },
+      client      => {
         default-character-set => 'utf8'
       }
     }
