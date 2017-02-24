@@ -1,2 +1,5 @@
+--fail-on-warnings
+--log-format='%{path}:%{line} %{KIND} %{message} (%{check})'
+
 # Long lines are fine...
 --no-80chars-check
