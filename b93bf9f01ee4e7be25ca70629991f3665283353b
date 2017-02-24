@@ -110,6 +110,30 @@
     },
     {
       "key": {
+        "uuid": "ce3c5b53_47f1a0fd",
+        "filename": "puppet/modules/nginx/manifests/init.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-02-24T11:13:22Z",
+      "side": 1,
+      "message": "Defaults for all following file {} declarations",
+      "parentUuid": "ce3c5b53_675f0414",
+      "range": {
+        "startLine": 23,
+        "startChar": 2,
+        "endLine": 26,
+        "endChar": 3
+      },
+      "revId": "b93bf9f01ee4e7be25ca70629991f3665283353b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ce3c5b53_07add8e6",
         "filename": "puppet/modules/wiki/manifests/init.pp",
         "patchSetId": 2
