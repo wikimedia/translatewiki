@@ -5,7 +5,7 @@ File {
 }
 
 # web1 / Primary web server
-node 'translatewiki.net' {
+node 'web1.translatewiki.net' {
   include base
   include puppet
   include sshd
@@ -42,7 +42,7 @@ node 'translatewiki.net' {
 }
 
 # es / Elastic Search
-node 'v220150764426371.yourvserver.net' {
+node 'es.translatewiki.net' {
   include base
   include puppet
   include sshd
