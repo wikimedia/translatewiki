@@ -134,6 +134,30 @@
     },
     {
       "key": {
+        "uuid": "ce3c5b53_0741580e",
+        "filename": "puppet/modules/nginx/manifests/init.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 92
+      },
+      "writtenOn": "2017-02-24T12:12:51Z",
+      "side": 1,
+      "message": "Nice! Didn\u0027t know that.",
+      "parentUuid": "ce3c5b53_47f1a0fd",
+      "range": {
+        "startLine": 23,
+        "startChar": 2,
+        "endLine": 26,
+        "endChar": 3
+      },
+      "revId": "b93bf9f01ee4e7be25ca70629991f3665283353b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ce3c5b53_07add8e6",
         "filename": "puppet/modules/wiki/manifests/init.pp",
         "patchSetId": 2
