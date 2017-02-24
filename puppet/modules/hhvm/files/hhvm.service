@@ -1,0 +1,14 @@
+[Unit]
+Description=HHVM for production site
+
+[Service]
+User=www-data
+Group=www-data
+ExecStartPre=/bin/mkdir -p /run/hhvm
+ExecStartPre=/bin/chown -R www-data:www-data /run/hhvm
+ExecStart=/usr/bin/hhvm -m daemon -c /etc/hhvm/php.ini -c /etc/hhvm/server.ini
+ExecStop=/bin/rm /run/hhvm/hhvm.pid
+PIDFile=/run/hhvm/hhvm.pid
+PrivateDevices=true
+ProtectHome=read-only
+ProtectSystem=full

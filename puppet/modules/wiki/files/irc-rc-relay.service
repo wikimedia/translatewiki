@@ -1,0 +1,14 @@
+[Unit]
+Description=IRC relay for MediaWiki recent changes
+After=network.target
+
+[Service]
+User=betawiki
+Group=betawiki
+ExecStart=/usr/bin/perl /home/betawiki/config/irc-relay/rc-relay.pl
+Restart=always
+RestartSec=60
+PrivateDevices=true
+PrivateTmp=true
+ProtectHome=read-only
+ProtectSystem=full

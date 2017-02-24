@@ -12,8 +12,8 @@ class hhvm {
     ensure => directory,
   }
 
-  file { '/etc/init/hhvm.conf':
-    source  => 'puppet:///modules/hhvm/upstart',
+  file { '/etc/systemd/system/hhvm.service':
+    source  => 'puppet:///modules/hhvm/hhvm.service',
     require => Package['hhvm'],
     notify  => Service['hhvm'],
   }
@@ -33,13 +33,13 @@ class hhvm {
   service { 'hhvm':
     ensure   => running,
     enable   => true,
-    provider => upstart,
-    require  => File['/etc/init/hhvm.conf'],
+    provider => 'systemd',
+    require  => File['/etc/systemd/system/hhvm.service'],
   }
 
   # Second HHVM instance for development
-  file { '/etc/init/hhvm-development.conf':
-    source  => 'puppet:///modules/hhvm/upstart-development',
+  file { '/etc/systemd/system/hhvm-development.service':
+    source  => 'puppet:///modules/hhvm/hhvm-development.service',
     require => Package['hhvm'],
     notify  => Service['hhvm-development'],
   }
@@ -53,7 +53,7 @@ class hhvm {
   service { 'hhvm-development':
     ensure   => running,
     enable   => true,
-    provider => upstart,
-    require  => File['/etc/init/hhvm-development.conf'],
+    provider => 'systemd',
+    require  => File['/etc/systemd/system/hhvm-development.service'],
   }
 }

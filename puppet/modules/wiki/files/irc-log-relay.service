@@ -1,0 +1,14 @@
+[Unit]
+Description=IRC relay for PHP error log
+After=network.target
+
+[Service]
+User=betawiki
+Group=betawiki
+ExecStart=/usr/bin/perl /home/betawiki/config/irc-relay/error-relay.pl
+Restart=always
+RestartSec=60
+PrivateDevices=true
+PrivateTmp=true
+ProtectHome=read-only
+ProtectSystem=full

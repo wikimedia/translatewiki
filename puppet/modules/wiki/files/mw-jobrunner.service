@@ -1,0 +1,14 @@
+[Unit]
+Description=Processes MediaWiki jobs for production site
+Requires=mysql.service
+
+[Service]
+User=www-data
+Group=www-data
+Environment=HHVM_REPO_CENTRAL_PATH=/run/hhvm/hhvm.hhbc
+ExecStart=/usr/bin/php /srv/mediawiki/targets/production/maintenance/runJobs.php --wait --maxjobs=1000
+Restart=always
+RestartSec=15
+PrivateDevices=true
+ProtectHome=read-only
+ProtectSystem=full
