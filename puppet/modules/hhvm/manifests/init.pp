@@ -3,28 +3,9 @@
 # Configures hhvm for MediaWiki to run in fastcgi mode.
 #
 class hhvm {
-  include apt
-
-  file { '/tmp/wikimedia.key':
-    source => 'puppet:///modules/hhvm/wikimedia.key',
-  }
-
-  exec { 'apt-key-wikimedia':
-    command => '/usr/bin/apt-key add /tmp/wikimedia.key',
-    require => File['/tmp/wikimedia.key'],
-  }
-
-  apt::source { 'wikimedia':
-    location => 'http://apt.wikimedia.org/wikimedia',
-    release  => "${::lsbdistcodename}-wikimedia",
-    repos    => 'main universe',
-    require  => Exec['apt-key-wikimedia'],
-  }
-
-  package { [ 'hhvm', 'hhvm-dev' ]:
-    ensure  => latest,
-    before  => Service['hhvm'],
-    require => Apt::Source['wikimedia'],
+  package { [ 'hhvm' ]:
+    ensure => present,
+    before => Service['hhvm'],
   }
 
   file { '/etc/hhvm':
