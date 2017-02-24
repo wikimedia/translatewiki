@@ -565,6 +565,14 @@ $checkBlacklist = [
 		]
 	],
 	[
+		'group' => 'out-blockly-core',
+		'check' => 'variable',
+		'message' => [
+			'PROCEDURES_CALLNORETURN_HELPURL', // Has URL encoded %2 in message
+			'PROCEDURES_CALLRETURN_HELPURL', // Has URL encoded %2 in message
+		]
+	],
+	[
 		'group' => 'out-fudforum',
 		'check' => 'variable',
 		'message' => [
