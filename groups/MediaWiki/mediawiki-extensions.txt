@@ -2738,7 +2738,7 @@ Wiki Loves Monuments
 Wiki Object Model
 descmsg = wom-desc
 
-# Wiki Share // No message doc
+Wiki Share
 
 Wiki Text Logged In Out
 
