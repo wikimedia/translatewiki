@@ -533,7 +533,7 @@ optional = bookmanagerv2-isbn-field, bookmanagerv2-lccn-field, bookmanagerv2-ocl
 #file = BookManagerv2/includes/i18n/%CODE%.json
 #id = ext-bookmanagerv2-jsonschema
 
-Bootstrap
+# Bootstrap //  Read only
 
 Bounce Handler
 
