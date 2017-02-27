@@ -1,0 +1,20 @@
+---
+BASIC:
+  id: ia-upload
+  label: ia-upload
+  description: "{{Special:MyLanguage/Translations:Group descriptions/ia-upload/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: ia-upload-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/ia-upload/i18n/%CODE%.json"
+
+INSERTABLES:
+  class: MediaWikiInsertablesSuggester

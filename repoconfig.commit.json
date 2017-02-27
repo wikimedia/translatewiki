@@ -70,6 +70,15 @@
 			}
 		}
 	},
+	"ia-upload": {
+		"group": "ia-upload",
+		"repos": {
+			"ia-upload": {
+				"type": "github",
+				"url": "git@github.com:wikisource/ia-upload.git"
+			}
+		}
+	},
 	"intuition": {
 		"group": "tsint-*",
 		"export-threshold": 1,
