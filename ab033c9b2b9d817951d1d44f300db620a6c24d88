@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce3c5b53_f4408b0c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-02-28T08:14:07Z",
+      "side": 1,
+      "message": "Does this contain the list of messages that need to be renamed?\n\nhttps://github.com/Krinkle/intuition/commit/795cc5ce52e65c9d5e18825029e4ca1031d91382",
+      "revId": "ab033c9b2b9d817951d1d44f300db620a6c24d88",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce3c5b53_3437d3ac",
+        "filename": "groups/Intuition/web.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-02-28T08:14:07Z",
+      "side": 1,
+      "message": "Is this the human readable name you want to use?",
+      "revId": "ab033c9b2b9d817951d1d44f300db620a6c24d88",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
