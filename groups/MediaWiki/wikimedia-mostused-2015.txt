@@ -148,7 +148,6 @@ searchresults-title
 searchresults
 hist
 visualeditor-ca-editsource
-mobile-frontend-view-mobile
 mobile-frontend-view-desktop
 mobile-frontend-random-button
 mobile-frontend-main-menu-watchlist
