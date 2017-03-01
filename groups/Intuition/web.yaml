@@ -1,0 +1,22 @@
+---
+BASIC:
+  id: int-web
+  label: Intuition - User Dashboard
+  namespace: NS_INTUITION
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: web-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/int-web/messages/%CODE%.json"
+
+INSERTABLES:
+  class: IntuitionInsertablesSuggester
+
+AUTOLOAD:
+  IntuitionInsertablesSuggester: IntuitionInsertablesSuggester.php

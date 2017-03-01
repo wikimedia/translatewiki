@@ -136,6 +136,15 @@
 			}
 		}
 	},
+	"int-web": {
+		"group": "int-web",
+		"repos": {
+			"int-web": {
+				"type": "github",
+				"url": "git@github.com:Krinkle/intuition-web.git"
+			}
+		}
+	},
 	"jquery.uls": {
 		"group": "jquery-uls",
 		"repos": {
