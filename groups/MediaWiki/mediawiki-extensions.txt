@@ -2202,6 +2202,9 @@ aliasfile = SearchStats/SearchStats.alias.php
 
 Section Disqus
 
+Secure HTML
+aliasfile = SecureHTML/SecureHTML.alias.php
+
 Secure Passwords
 
 Secure Poll
@@ -2642,6 +2645,8 @@ aliasfile = UserPageViewTracker/UserPageViewTracker.alias.php
 # User Status // incomplete qqq
 
 User Throttle
+
+# USERNAME // No i18n file
 
 Variables
 
