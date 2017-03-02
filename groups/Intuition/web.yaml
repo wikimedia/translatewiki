@@ -15,6 +15,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/int-web/messages/%CODE%.json"
 
+TAGS:
+  optional:
+    - web-title
+
 INSERTABLES:
   class: IntuitionInsertablesSuggester
 
