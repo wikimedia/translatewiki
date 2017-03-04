@@ -6,11 +6,11 @@
 		"group": "out-blockly*",
 		"repos": {
 			"blockly": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/google/blockly.git"
 			},
 			"blockly-games": {
-				"type": "git",
+				"type": "github",
 				"url": "https://github.com/google/blockly-games.git"
 			}
 		}
