@@ -214,27 +214,27 @@
 		"group": "hivejs-*",
 		"repos": {
 			"hivejs/hive-editor-text-codemirror": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:hivejs/hive-editor-text-codemirror.git"
 			},
 			"hivejs/hive-plugin-chat": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:hivejs/hive-plugin-chat.git"
 			},
 			"hivejs/hive-plugin-export": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:hivejs/hive-plugin-export.git"
 			},
 			"hivejs/hive-plugin-import": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:hivejs/hive-plugin-import.git"
 			},
 			"hivejs/hive-plugin-presence": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:hivejs/hive-plugin-presence.git"
 			},
 			"hivejs/hive-ui": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:hivejs/hive-ui.git"
 			}
 		}
