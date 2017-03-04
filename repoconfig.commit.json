@@ -65,7 +65,7 @@
 		"group": "out-eol-*",
 		"repos": {
 			"eol": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:EOL/eol.git"
 			}
 		}
