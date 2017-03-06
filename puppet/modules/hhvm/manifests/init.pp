@@ -31,10 +31,9 @@ class hhvm {
   }
 
   service { 'hhvm':
-    ensure   => running,
-    enable   => true,
-    provider => 'systemd',
-    require  => File['/etc/systemd/system/hhvm.service'],
+    ensure  => running,
+    enable  => true,
+    require => File['/etc/systemd/system/hhvm.service'],
   }
 
   # Second HHVM instance for development
@@ -51,9 +50,8 @@ class hhvm {
   }
 
   service { 'hhvm-development':
-    ensure   => running,
-    enable   => true,
-    provider => 'systemd',
-    require  => File['/etc/systemd/system/hhvm-development.service'],
+    ensure  => running,
+    enable  => true,
+    require => File['/etc/systemd/system/hhvm-development.service'],
   }
 }
