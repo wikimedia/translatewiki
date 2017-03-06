@@ -1343,8 +1343,9 @@ optional = imagemap_desc_types
 
 Image Metrics
 
-# Incomplete message documentation file - 2014-10-05
-# Image Tagging
+# Image Rating // No qqq
+
+# Image Tagging // Incomplete message documentation file - 2014-10-05
 
 Image Tweaks
 ignored = imagetweaks-beta-preference-info-link, imagetweaks-beta-preference-disc-link
@@ -1572,8 +1573,9 @@ MediaWiki Farm
 
 # Memento // No qqq, "timegate-..." message prefix
 
-# Missing qqq
-#Mini Invite
+# Message Commons // no i18n file
+
+# Mini Invite //  Missing qqq
 
 Minimum Name Length
 
@@ -2736,8 +2738,7 @@ Wiki Forum
 ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforum-max-replies-per-page
 optional = group-forumadmin.css, group-forumadmin.js
 
-Wiki Labels
-aliasfile = WikiLabels/WikiLabels.i18n.alias.php
+# Wiki Labels // Archived
 
 Wiki Lexical Data
 file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
