@@ -315,7 +315,7 @@
 		"export-threshold": 20,
 		"repos": {
 			"mifos": {
-				"type": "git",
+				"type": "github",
 				"branch": "develop",
 				"url": "https://github.com/openMF/community-app.git"
 			}
