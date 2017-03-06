@@ -30,10 +30,9 @@ class wiki ($config, $user) {
   }
 
   service { 'mw-jobrunner':
-    ensure   => running,
-    enable   => true,
-    provider => systemd,
-    require  => File['/etc/systemd/system/mw-jobrunner.service'],
+    ensure  => running,
+    enable  => true,
+    require => File['/etc/systemd/system/mw-jobrunner.service'],
   }
 
 
@@ -42,10 +41,9 @@ class wiki ($config, $user) {
   }
 
   service { 'irc-log-relay':
-    ensure   => running,
-    enable   => true,
-    provider => systemd,
-    require  => File['/etc/systemd/system/irc-log-relay.service'],
+    ensure  => running,
+    enable  => true,
+    require => File['/etc/systemd/system/irc-log-relay.service'],
   }
 
 
@@ -54,10 +52,9 @@ class wiki ($config, $user) {
   }
 
   service { 'irc-rc-relay':
-    ensure   => running,
-    enable   => true,
-    provider => systemd,
-    require  => File['/etc/systemd/system/irc-rc-relay.service'],
+    ensure  => running,
+    enable  => true,
+    require => File['/etc/systemd/system/irc-rc-relay.service'],
   }
 
 
@@ -66,10 +63,9 @@ class wiki ($config, $user) {
   }
 
   service { 'phplog2irc':
-    ensure   => running,
-    enable   => true,
-    provider => systemd,
-    require  => File['/etc/systemd/system/phplog2irc.service'],
+    ensure  => running,
+    enable  => true,
+    require => File['/etc/systemd/system/phplog2irc.service'],
   }
 
   package { [

@@ -12,10 +12,9 @@ class nginx {
   }
 
   service { 'nginx':
-    ensure   => running,
-    enable   => true,
-    provider => 'systemd',
-    require  => Package['nginx'],
+    ensure  => running,
+    enable  => true,
+    require => Package['nginx'],
   }
 
   File {
