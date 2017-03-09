@@ -57,30 +57,27 @@ class RepoNg {
 
 	public function export() {
 		$exporter = $this->meta['export'];
-		$hours = '';
-		$group = " --group='" . $this->config['group'] . "'";
-		$lang = " --lang='*'";
-		$skip = " --skip='en,qqq'";
-		$threshold = ' --threshold=35';
-		$base = " --target='" . $this->meta['basepath'] . "'";
+
+		$defaultOptions = [
+			'group' => $this->config['group'],
+			'threshold' => 35,
+			'target' => $this->meta['basepath'],
+		];
 
 		if ( isset( $this->config['export-hours'] ) ) {
-			$hours = (int)$this->config['export-hours'];
-			$hours = " --hours='$hours'";
+			$defaultOptions['hours'] = (int)$this->config['export-hours'];
 		}
 
 		if ( isset( $this->config['no-export-languages'] ) ) {
-			$skip = $this->config['no-export-languages'];
-			$skip = " --skip='$skip'";
+			$defaultOptions['skip'] = $this->config['no-export-languages'];
 		}
 
 		if ( isset( $this->config['export-threshold'] ) ) {
-			$threshold = (int)$this->config['export-threshold'];
-			$threshold = " --threshold='$threshold'";
+			$defaultOptions['threshold'] = (int)$this->config['export-threshold'];
 		}
 
-		// First normal export
-		$command = "$exporter$hours$group$lang$skip$threshold$base";
+		$jobOptions = [ 'lang' => '*' ] + $defaultOptions + [ 'skip' => 'en,qqq' ];
+		$command = $this->buildCommandline( $exporter, $jobOptions );
 		echo "$command\n";
 
 		$process = new Process( $command );
@@ -89,8 +86,8 @@ class RepoNg {
 		print $process->getOutput();
 
 		// Then message documentation
-		$lang = " --lang='qqq'";
-		$command = "$exporter$group$lang$base";
+		$jobOptions = [ 'lang' => 'qqq', 'threshold' => null ] + $defaultOptions;
+		$command = $this->buildCommandline( $exporter, $jobOptions );
 		echo "$command\n";
 
 		$process = new Process( $command );
@@ -100,8 +97,8 @@ class RepoNg {
 		// Last languages that have a forced export
 		if ( isset( $this->config['always-export-languages'] ) ) {
 			$lang = $this->config['always-export-languages'];
-			$lang = " --lang='$lang'";
-			$command = "$exporter$hours$group$lang$base";
+			$jobOptions = [ 'lang' => $lang, 'threshold' => null ] + $defaultOptions;
+			$command = $this->buildCommandline( $exporter, $jobOptions );
 			echo "$command\n";
 
 			$process = new Process( $command );
@@ -146,6 +143,17 @@ class RepoNg {
 				print $process->getOutput();
 			}
 		}
+	}
+
+	private function buildCommandline( $command, $options ) {
+		$str = $command;
+		foreach ( $options as $key => $value ) {
+			if ( $value !== null ) {
+				$str .= " --$key='$value'";
+			}
+		}
+
+		return $str;
 	}
 }
 
