@@ -12,8 +12,8 @@ Blue Spice Skin
 Bouquet
 ignored = bouquet-navigation
 
-Cologne Blue
-optional = cologneblue.css, cologneblue.js
+#Cologne Blue // Disable until https://gerrit.wikimedia.org/r/#/c/341858/ is merged
+#optional = cologneblue.css, cologneblue.js
 
 Custom Page
 descmsg = custompage-skin-desc
