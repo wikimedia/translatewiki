@@ -145,6 +145,15 @@
 			}
 		}
 	},
+	"int-guc": {
+		"group": "int-guc",
+		"repos": {
+			"int-guc": {
+				"type": "wmgerrit",
+				"url": "https://gerrit.wikimedia.org/r/labs/tools/guc"
+			}
+		}
+	},
 	"jquery.uls": {
 		"group": "jquery-uls",
 		"repos": {
