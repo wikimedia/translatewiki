@@ -53,6 +53,8 @@ FILES:
 TAGS:
   optional:
     - commons-android-strings-hello_world
+  ignored:
+    - commons-android-strings-beta_opt_in_link
 
 ---
 BASIC:
