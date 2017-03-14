@@ -2822,8 +2822,7 @@ Wikibase Quality External Validation
 aliasfile = WikibaseQualityExternalValidation/WikibaseQualityExternalValidation.alias.php
 ignored = wbqev-crosscheck-form-entityid-placeholder, wbqev-violation-long-message-headline
 
-Wikibase Query
-aliasfile = WikibaseQuery/WikibaseQuery.i18n.aliases.php
+# Wikibase Query // Archived
 
 #Wikidata Entity Suggester / No real extension, Java program
 
