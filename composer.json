@@ -6,7 +6,8 @@
 	"scripts": {
 		"fix": "phpcbf",
 		"test": [
-			"parallel-lint . --exclude vendor",
+			"parallel-lint . bin/lint-bash --exclude vendor",
+			"bin/lint-bash",
 			"phpcs -p -s"
 		]
 	}
