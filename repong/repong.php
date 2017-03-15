@@ -59,6 +59,7 @@ class RepoNg {
 		$exporter = $this->meta['export'];
 
 		$defaultOptions = [
+			'quiet' => true,
 			'group' => $this->config['group'],
 			'threshold' => 35,
 			'target' => $this->meta['basepath'],
