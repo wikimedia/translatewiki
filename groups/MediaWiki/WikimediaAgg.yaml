@@ -84,6 +84,7 @@ GROUPS:
   - ext-ores # 2016-06-13: 46b33671bbb46eb2aa826ef7b7399cded72e50d2
   - ext-pageassessments
   - ext-pageimages
+  - ext-pageviewinfo # https://phabricator.wikimedia.org/rOMWC295d9c12dacc1310557945ef00f2a50859ed1fcb
   - ext-parsoid # All wikis
   - ext-parsoidbatchapi # All wikis
   - ext-petition # 2014-04-22: Foundationwiki
