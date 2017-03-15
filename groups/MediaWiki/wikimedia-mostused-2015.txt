@@ -526,7 +526,6 @@ search-suggest
 imgfile
 april-gen
 wm-license-cc-by-sa-3.0-text
-mobile-frontend-password-placeholder
 june-gen
 july-gen
 wikibase-otherprojects
@@ -548,7 +547,6 @@ booksources-search
 wikibase-statementview-rank-normal
 templatesused
 passwordreset
-mobile-frontend-main-menu-account-create
 timedmedia-source-file
 logentry-move-move
 allarticles
