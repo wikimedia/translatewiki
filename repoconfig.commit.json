@@ -35,7 +35,7 @@
 	},
 	"commons-android": {
 		"group": "commons-android-*",
-		"no-export-languages": "ksh,zh,en,qqq",
+		"no-export-languages": "ksh,zh,en",
 		"repos": {
 			"commons-android": {
 				"type": "github",
