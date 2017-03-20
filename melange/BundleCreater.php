@@ -270,11 +270,26 @@ TEXT;
 	public function create_archive() {
 		chdir( $this->dir );
 
+		$piggyurl = $this->conf['common']['piggyurl'];
 		$piggyfile = $this->conf['common']['piggyfile'];
 		$hasher = $this->conf['common']['hasher'];
 
 		if ( !file_exists( 'releases' ) ) {
 			mkdir( 'releases' );
+		}
+
+		// XXX: generalize
+		if ( $piggyurl ) {
+			$json = file_get_contents( $piggyurl );
+			$data = json_decode( $json, true );
+			$data = $data['query']['pages'][0]['revisions'][0]['content'];
+			$data = preg_replace( '~<noinclude>.*?</noinclude>\s*~s', '', $data );
+			$data = str_replace(
+				'{{:MediaWiki Language Extension Bundle/latest}}',
+				$this->conf['common']['releasever'],
+				$data
+			);
+			file_put_contents( $piggyfile, $data );
 		}
 
 		$filename = $this->getReleaseFileName();
