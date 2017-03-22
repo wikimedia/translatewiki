@@ -2459,6 +2459,9 @@ Theme
 
 # Theme Designer // Missing message doc
 
+The Wikipedia Library
+descmsg = theWikipediaLibary-desc
+
 Throttle Override
 aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
 
