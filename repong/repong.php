@@ -117,12 +117,14 @@ class RepoNg {
 			if ( $repo['type'] === 'git' || $repo['type'] === 'github' ) {
 				$dir = "$base/$name";
 				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
-				$command = "cd $dir; git add .; " .
-					"if git commit -m '$message'; then git push origin '$branch'; fi";
+				$command =
+					"cd $dir; git add .; if ! git diff --cached --quiet; " .
+					"then git commit -m '$message'; git push origin '$branch'; fi";
 			} elseif ( $repo['type'] === 'wmgerrit' ) {
 				$dir = "$base/$name";
-				$command = "cd $dir; git add .; " .
-					"if git commit -m '$message'; then git review -r origin -t L10n; fi";
+				$command =
+					"cd $dir; git add .; if ! git diff --cached --quiet; " .
+					"then git commit -m '$message'; git review -r origin -t L10n; fi";
 			} else {
 				throw new RuntimeException( 'Unknown repo type' );
 			}
