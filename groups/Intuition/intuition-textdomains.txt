@@ -32,8 +32,6 @@ ignored = title-download
 Pb
 optional = labs-name
 
-Recent Anonymous Activity
-
 Rtrc
 ignored = rtrc-months
 
