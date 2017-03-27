@@ -59,8 +59,11 @@ wikipedia-android
 wikipedia-ios
 "
 
+_b=$(tput bold)
+b_=$(tput sgr0)
+
 for i in $PROJECTS; do
-	echo $i
+	echo "${_b}$i${b_}"
 	"$DIRSCRIPT/repoupdate" $i
 	"$DIRSCRIPT/repoexport" $i
 	"$DIRSCRIPT/repocommit" $i
