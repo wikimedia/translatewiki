@@ -29,6 +29,7 @@ $wgExtraLanguageNames['gbz'] = 'Dari-e Mazdeyasnā'; # Zoroastrian Dari / Siebra
 $wgExtraLanguageNames['gcf'] = 'Guadeloupean Creole French'; # Guadeloupean Creole French / Siebrand 2009-09-21
 $wgExtraLanguageNames['gor'] = 'Hulontalo'; # Gorontalo / Siebrand 2014-12-28
 $wgExtraLanguageNames['guc'] = 'Wayúu'; # Wayuu / Siebrand 2009-12-12
+$wgExtraLanguageNames['gum'] = 'Namtrik'; # Guambiano / Amir 2017-03-27
 $wgExtraLanguageNames['gur'] = 'Gurenɛ'; # Farefare / Siebrand 2011-01-27
 $wgExtraLanguageNames['hif-deva'] = 'फ़ीजी हिन्दी'; # Fiji Hindi (Devangari script) / Siebrand 2010-08-26
 $wgExtraLanguageNames['hne'] = 'छत्तीसगढ़ी'; # Amir 2011-12-01
