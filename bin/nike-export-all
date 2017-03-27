@@ -10,7 +10,6 @@ then
 fi
 
 PROJECTS="
-int-dcatap
 blockly
 citationhunt
 codev

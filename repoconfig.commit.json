@@ -99,7 +99,7 @@
 			"int-guc": {
 				"type": "wmgerrit",
 				"url": "ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/guc"
-			}
+			},
 			"int-heritage": {
 				"type": "wmgerrit",
 				"url": "ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/heritage"
