@@ -13,26 +13,19 @@ class profile::mwelasticsearch {
 
   class { 'elasticsearch':
     manage_repo  => true,
-    repo_version => '2.x',
+    repo_version => '5.x',
     java_install => true,
-    version      => '2.3.4',
+    version      => '5.1.2',
+    jvm_options  => [
+      '-Xms8g',
+      '-Xmx10g'
+    ],
   }
 
-  elasticsearch::instance { 'es-01':
-    config        => {
-      'network.host'            => '::1',
-      'index.max_result_window' => '20000',
-    },
-    init_defaults => {
-      'ES_HEAP_SIZE' => '12g',
-    },
-  }
+  elasticsearch::instance { 'es-01': }
 
-  elasticsearch::plugin { 'mobz/elasticsearch-head/latest':
-    instances => 'es-01',
-  }
-
-  elasticsearch::plugin { 'org.wikimedia.search/extra/2.3.4':
-    instances => 'es-01',
+  elasticsearch::plugin { 'org.wikimedia.search:extra:5.1.2':
+    instances  => 'es-01',
+    module_dir => 'extra'
   }
 }
