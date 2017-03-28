@@ -5,7 +5,6 @@ $wgExtraLanguageNames['acf'] = 'kwéyòl'; # Saint Lucian Creole French / Siebra
 $wgExtraLanguageNames['ahr'] = 'अहिराणी'; # # Ahirani / Amir 2012-02-25
 $wgExtraLanguageNames['akz'] = 'Albaamo innaaɬiilka'; # Alabama / Siebrand 2008-09-15
 $wgExtraLanguageNames['aro'] = 'Araona'; # Araona / Siebrand 2010-08-25
-$wgExtraLanguageNames['atj'] = 'Atikamekw'; # Atikamekw / Nikerabbit 2016-06-09
 $wgExtraLanguageNames['awa'] = 'अवधी'; # Awadhi / Siebrand 2014-12-28
 $wgExtraLanguageNames['ban'] = 'ᬩᬲᬩᬮᬶ'; # Balinese / Siebrand 2012-11-25
 $wgExtraLanguageNames['bew'] = 'Bahasa Betawi'; # Betawi / Siebrand 2008-07-13
