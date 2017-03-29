@@ -14,7 +14,6 @@ TEMPLATE:
       - pluralFormsCheck
       - wikiParameterCheck
       - wikiLinksCheck
-      - XhtmlCheck
       - braceBalanceCheck
       - pagenameMessagesCheck
       - miscMWChecks
