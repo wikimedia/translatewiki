@@ -59,8 +59,6 @@ GROUPS:
   - ext-wikieditor
   - ext-wikimediacclicensetexts # commons.wikimedia.org
   - ext-wikimediaevents # 2013-10-07: Renamed from CoreEvents
-  - ext-wikimediainterwikisearchresults
   - ext-wikimedialicensetexts # commons.wikimedia.org
-  - ext-wikimediaprojectnames # Used in Echo (Notifications)
   - mediawiki-skin-vector
   - mediawiki-skin-monobook
