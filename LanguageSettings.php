@@ -58,6 +58,7 @@ $wgExtraLanguageNames['mwv'] = 'Behase Mentawei'; # Mentawai / Siebrand 2008-05-
 $wgExtraLanguageNames['mww-latn'] = 'Hmoob Dawb'; # Hmong Daw / Siebrand 2013-12-02
 $wgExtraLanguageNames['njo'] = 'Ao'; # Ao Naga
 $wgExtraLanguageNames['nqo'] = 'ߒߞߏ'; # N'Ko / Siebrand 2011-01-11
+$wgExtraLanguageNames['nys'] = 'Nyungar'; # Nyungar / Amir 2017-03-31
 $wgExtraLanguageNames['olo'] = 'Livvin-Karjalan'; # Livvi-Karelian / Mjbmr 2015-08-06
 $wgExtraLanguageNames['pbb'] = 'Nasa Yuwe'; # Páez / Siebrand 2013-08-08
 $wgExtraLanguageNames['pis'] = 'Pijin'; # Pijin / Siebrand 2011-08-25
