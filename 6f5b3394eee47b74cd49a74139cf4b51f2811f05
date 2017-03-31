@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e436fe2_98215a9d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-03-31T11:53:40Z",
+      "side": 1,
+      "message": "What does this mean? I only see you removing the prefixes from tags.",
+      "revId": "6f5b3394eee47b74cd49a74139cf4b51f2811f05",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
