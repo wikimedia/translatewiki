@@ -2007,9 +2007,9 @@ Pickle
 optional = pickle-testspec-subpage, pickle-testcase-subpage, pickle-default-subpage
 ignored = pickle-testspec-invoke, pickle-testcase-invoke, pickle-default-invoke
 ignored = pickle-frame-full-header, pickle-frame-vivid-header
-ignored = pickle-report-frame-wrap-description
-ignored = pickle-report-adapt-wrap-line
-ignored = Pickle-report-adapt-wrap-description, pickle-report-adapt-full-wrap-line
+ignored = pickle-report-frame-wrap-description, pickle-report-adapt-wrap-line
+ignored = pickle-report-adapt-todo-no-description, pickle-report-adapt-skip-no-description
+ignored = pickle-report-adapt-wrap-description
 
 Pipe Escape
 
