@@ -16,6 +16,24 @@
       "revId": "6f5b3394eee47b74cd49a74139cf4b51f2811f05",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e436fe2_c90ce947",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 2426
+      },
+      "writtenOn": "2017-04-04T00:24:46Z",
+      "side": 1,
+      "message": "Sorry, the MANGLER prefix is \"wikipedia-android-strings-\" which I\u0027ve removed from the start of the preexisting tags. I thought that\u0027s what Siebrand was hinting at in the ticket but maybe I misunderstood.",
+      "parentUuid": "6e436fe2_98215a9d",
+      "revId": "6f5b3394eee47b74cd49a74139cf4b51f2811f05",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
