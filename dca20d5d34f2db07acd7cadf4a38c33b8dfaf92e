@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e506ba4_628092fa",
+        "filename": "groups/EntryScape/EntryScape.yaml",
+        "patchSetId": 6
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-04-06T13:08:27Z",
+      "side": 1,
+      "message": "This should be classes",
+      "revId": "dca20d5d34f2db07acd7cadf4a38c33b8dfaf92e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e506ba4_c28ac61c",
+        "filename": "groups/FUDforum/FUDforum.yaml",
+        "patchSetId": 6
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-04-06T13:08:27Z",
+      "side": 1,
+      "message": "This should be classes",
+      "revId": "dca20d5d34f2db07acd7cadf4a38c33b8dfaf92e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
