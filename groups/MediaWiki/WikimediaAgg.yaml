@@ -85,6 +85,7 @@ GROUPS:
   - ext-pageassessments
   - ext-pageimages
   - ext-pageviewinfo # https://phabricator.wikimedia.org/rOMWC295d9c12dacc1310557945ef00f2a50859ed1fcb
+  - ext-parsermigration # All wikis https://phabricator.wikimedia.org/rOMWCc5875c90fdd32f4c6773cb07e89804b633a2000f
   - ext-parsoid # All wikis
   - ext-parsoidbatchapi # All wikis
   - ext-petition # 2014-04-22: Foundationwiki
