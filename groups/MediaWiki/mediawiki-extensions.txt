@@ -519,6 +519,9 @@ aliasfile = BlueSpiceExtendedFilelist.alias.php
 
 # Blue Spice Extended Search // Dupe keys with above "Blue Spice - Extended Search"
 
+Blue Spice Insert Template
+descmsg = bs-insertTemplate-desc
+
 Blue Spice Multi Upload
 descmsg = bs-multiupload-desc
 
