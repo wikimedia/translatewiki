@@ -20,7 +20,4 @@ TAGS:
     - guc-title
 
 INSERTABLES:
-  class: IntuitionInsertablesSuggester
-
-AUTOLOAD:
-  IntuitionInsertablesSuggester: IntuitionInsertablesSuggester.php
+  class: NumericalParameterInsertablesSuggester
