@@ -340,6 +340,15 @@
 			}
 		}
 	},
+	"proveit": {
+		"group": "proveit",
+		"repos": {
+			"proveit": {
+				"type": "wmgerrit",
+				"url": "ssh://l10n-bot@gerrit.wikimedia.org:29418/wikipedia/gadgets/ProveIt"
+			}
+		}
+	},
 	"pywikibot": {
 		"group": "out-pywikipedia-*",
 		"export-threshold": 1,

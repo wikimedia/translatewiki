@@ -245,6 +245,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ia-upload.yaml";
 $wgTranslateGroupAliases['out-jquery-uls'] = 'jquery-uls';
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Pageviews.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ProveIt.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/video2commons.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/wiki-ai.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";

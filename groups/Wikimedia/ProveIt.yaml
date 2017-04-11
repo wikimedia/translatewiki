@@ -1,0 +1,26 @@
+BASIC:
+  id: proveit
+  label: ProveIt
+  icon: wiki://ProveIt logo for user boxes.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/proveit/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: proveit-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/proveit/i18n/%CODE%.json"
+
+CHECKER:
+  class: MediaWikiMessageChecker
+  checks:
+    - wikiParameterCheck
+    - pluralCheck
+
+INSERTABLES:
+  class: MediaWikiInsertablesSuggester
