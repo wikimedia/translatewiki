@@ -33,7 +33,7 @@ server {
 	}
 
 	# Allowed php files, case sensitive
-	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php {
+	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror|tests/qunit/data/(styleTest.css|load.mock))\.php {
 		fastcgi_pass hhvm-dev;
 		fastcgi_buffering off;
 		fastcgi_buffers 16 16k;
