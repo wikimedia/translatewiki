@@ -2812,7 +2812,6 @@ ignored = wikibase-shortcopyrightwarning-version, wikibase-entitytermsview-entit
 
 Wikibase Lexeme
 aliasfile = WikibaseLexeme/WikibaseLexeme.i18n.alias.php
-ignored = wikibase-lexeme-view-lexical-category
 
 Wikibase Media Info
 
