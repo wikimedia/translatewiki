@@ -1630,7 +1630,9 @@ descmsg = mswe-desc
 
 MSSQL Back Compat
 
-# Multi Boilerplate // incomplete qqq
+Multi Boilerplate
+aliasfile = MultiBoilerplate/MultiBoilerplate.alias.php
+ignored = multiboilerplate, multiboilerplate-label
 
 Multi Maps
 
