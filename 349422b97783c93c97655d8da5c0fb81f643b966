@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e506ba4_8d9243ff",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 2965,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2017-04-24T11:33:25Z",
+      "side": 1,
+      "message": "Please sort it by alphabet.",
+      "revId": "349422b97783c93c97655d8da5c0fb81f643b966",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
