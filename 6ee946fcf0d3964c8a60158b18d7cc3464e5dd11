@@ -16,6 +16,24 @@
       "revId": "6ee946fcf0d3964c8a60158b18d7cc3464e5dd11",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e506ba4_736eb4c5",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1633,
+      "author": {
+        "id": 291
+      },
+      "writtenOn": "2017-04-24T14:31:42Z",
+      "side": 1,
+      "message": "Sure, although that\u0027s a naming mistake to begin with. Whatever works for TranslateWiki :-)",
+      "parentUuid": "4e506ba4_133f30b2",
+      "revId": "6ee946fcf0d3964c8a60158b18d7cc3464e5dd11",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
