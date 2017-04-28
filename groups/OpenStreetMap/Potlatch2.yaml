@@ -42,6 +42,10 @@ FILES:
   sourcePattern: "%GROUPROOT%/potlatch2/l10n/locale/%CODE%/help_dialog.properties"
   definitionFile: "%GROUPROOT%/potlatch2/l10n/locale/%CODE%/help_dialog.properties"
 
+LANGUAGES:
+  blacklist:
+    - en-gb
+
 MANGLER:
   prefix: help-
 
@@ -53,6 +57,10 @@ BASIC:
 FILES:
   sourcePattern: "%GROUPROOT%/potlatch2/l10n/locale/%CODE%/p2_main.properties"
   definitionFile: "%GROUPROOT%/potlatch2/l10n/locale/%CODE%/p2_main.properties"
+
+LANGUAGES:
+  blacklist:
+    - en-gb
 
 MANGLER:
   prefix: main-
