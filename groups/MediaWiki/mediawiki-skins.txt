@@ -62,6 +62,8 @@ ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 Nostalgia
 optional = nostalgia.css, nostalgia.js
 
+Poncho
+
 Refreshed
 ignored = refreshed-navigation, refreshed-this-wiki-mobile-logo, refreshed-this-wiki-url
 ignored = refreshed-this-wiki-wordmark, refreshed-wiki-dropdown
