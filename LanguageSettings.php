@@ -20,7 +20,6 @@ $wgExtraLanguageNames['cjy-hans'] = '晋语（简化字）'; # Jin Chinese (hans
 $wgExtraLanguageNames['cjy-hant'] = '晉語（正字）'; # Jin Chinese (hant script) / 2015-06-XX
 $wgExtraLanguageNames['cnh'] = 'Lai holh'; # Haka Chin / Siebrand 2014-08-06
 $wgExtraLanguageNames['cpx'] = 'Pó-sing-gṳ̂'; # Pu-Xian Min (莆仙語) / 2016-06-22
-$wgExtraLanguageNames['dty'] = 'डोटेली'; # Dotyali / Siebrand 2014-11-16
 $wgExtraLanguageNames['es-formal'] = 'español (formal)'; # Spanish (formal address) / Siebrand 2010-11-22
 $wgExtraLanguageNames['esu'] = 'Yup\'ik'; # Central Alaskan Yupik / Siebrand 2011-02-14
 $wgExtraLanguageNames['fax'] = 'Fala'; # Fala / Nikerabbit 2016-06-22
