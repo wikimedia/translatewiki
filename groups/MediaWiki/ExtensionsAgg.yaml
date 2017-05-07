@@ -102,5 +102,6 @@ BASIC:
 GROUPS:
   - ext-visualeditor-*
   - ext-citoid
+  - ext-cite-visualeditor
   - mwgerrit-oojs-ui
   - mwgerrit-visualeditor-ve
