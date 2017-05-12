@@ -35,6 +35,7 @@ GROUPS:
   - ext-intersection
   - ext-jquery-uls
   - ext-kartographer
+  - ext-loginnotify
   - ext-math
   - ext-mobilefrontend # r93435
   - ext-newusermessage
