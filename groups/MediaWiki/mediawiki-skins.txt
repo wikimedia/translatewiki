@@ -69,6 +69,7 @@ Poncho
 Refreshed
 ignored = refreshed-navigation, refreshed-this-wiki-mobile-logo, refreshed-this-wiki-url
 ignored = refreshed-this-wiki-wordmark, refreshed-wiki-dropdown
+ignored = refreshed-icon-logged-in, refreshed-icon-logged-out
 
 # Repo is read only
 # Slate
