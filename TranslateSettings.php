@@ -331,12 +331,8 @@ wfAddNamespace( 1232, 'Wikia' );
 # No longer in use.
 wfAddNamespace( 1234, 'OpenImages' );
 
+# No longer in use.
 wfAddNamespace( 1236, 'Europeana' );
-$wgTranslateGroupFiles[] = "$GROUPS/Europeana/Europeana.yaml";
-$wgTranslateSupportUrlNamespace[NS_EUROPEANA] = [
-	'page' => 'Translating_talk:Europeana',
-	'params' => $lqtParams,
-];
 
 wfAddNamespace( 1238, 'Pywikibot' );
 $wgTranslateGroupFiles[] = "$GROUPS/Pywikibot/Pywikibot.yaml";
