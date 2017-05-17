@@ -4,11 +4,10 @@ Description=HHVM for development site
 [Service]
 User=www-data
 Group=www-data
-ExecStartPre=/bin/mkdir -p /run/hhvm
-ExecStartPre=/bin/chown -R www-data:www-data /run/hhvm
+RuntimeDirectory=hhvm-development
 ExecStart=/usr/bin/hhvm -m daemon -c /etc/hhvm/php.ini -c /etc/hhvm/development.ini
-ExecStop=/bin/rm -f /run/hhvm/hhvm-development.sock
-PIDFile=/run/hhvm/hhvm-development.pid
+ExecStop=/bin/rm -f /run/hhvm-development/hhvm.sock
+PIDFile=/run/hhvm-development/hhvm.pid
 PrivateDevices=true
 ProtectHome=read-only
 ProtectSystem=full

@@ -1,6 +1,6 @@
 [Unit]
 Description=Processes MediaWiki jobs for production site
-Requires=mysql.service
+After=mysql.service hhvm.service network.target
 
 [Service]
 User=www-data

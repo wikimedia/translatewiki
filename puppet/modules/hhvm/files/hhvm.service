@@ -4,8 +4,7 @@ Description=HHVM for production site
 [Service]
 User=www-data
 Group=www-data
-ExecStartPre=/bin/mkdir -p /run/hhvm
-ExecStartPre=/bin/chown -R www-data:www-data /run/hhvm
+RuntimeDirectory=hhvm
 ExecStart=/usr/bin/hhvm -m daemon -c /etc/hhvm/php.ini -c /etc/hhvm/server.ini
 ExecStop=/bin/rm -f /run/hhvm/hhvm.sock
 PIDFile=/run/hhvm/hhvm.pid
