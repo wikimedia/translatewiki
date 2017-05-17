@@ -12,3 +12,5 @@ PIDFile=/run/hhvm/hhvm-development.pid
 PrivateDevices=true
 ProtectHome=read-only
 ProtectSystem=full
+Restart=always
+RestartSec=5
