@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0e1cb3f9_b718d124",
+        "filename": "groups/Wikimedia/CommonsAndroid.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-05-19T05:44:09Z",
+      "side": 1,
+      "message": "They were supposed to remove this, have they not done it yet?",
+      "revId": "b9fc7cc4f9d96c037c31fbc5b8dabb46365ea604",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
