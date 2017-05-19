@@ -352,6 +352,15 @@ $wgISGroups = [ 'translator' ];
 require_once "$EXT/Echo/Echo.php";
 $wgEchoBundleEmailInterval = 14400;
 
+wfLoadExtension( 'OAuth' );
+$wgMWOAuthSecureTokenTransfer = true;
+$wgGroupPermissions['sysop']['mwoauthproposeconsumer'] = true;
+$wgGroupPermissions['sysop']['mwoauthupdateownconsumer'] = true;
+$wgGroupPermissions['staff']['mwoauthmanageconsumer'] = true;
+$wgGroupPermissions['staff']['mwoauthsuppress'] = true;
+$wgGroupPermissions['staff']['mwoauthviewsuppressed'] = true;
+$wgGroupPermissions['staff']['mwoauthviewprivate'] = true;
+
 /**
  * Dynamic code starts here
  */
