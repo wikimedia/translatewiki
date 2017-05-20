@@ -93,6 +93,7 @@ $wgTranslateLanguageFallbacks['nl-informal'] = [ 'nl' ];
 $wgTranslateLanguageFallbacks['nn'] = [ 'nb', 'sv', 'da' ]; # Siebrand 2008-02-18
 $wgTranslateLanguageFallbacks['nb'] = [ 'nn', 'da', 'sv' ]; # Siebrand 2008-02-18
 $wgTranslateLanguageFallbacks['olo'] = [ 'ru' ]; # Mjbmr 2015-08-06
+$wgTranslateLanguageFallbacks['ovd'] = [ 'se' ]; # Mjbmr 2017-05-20
 $wgTranslateLanguageFallbacks['pbb'] = [ 'es' ];
 $wgTranslateLanguageFallbacks['pdt'] = [ 'de' ];
 $wgTranslateLanguageFallbacks['ppl'] = [ 'es' ];
