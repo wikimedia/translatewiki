@@ -59,6 +59,7 @@ $wgExtraLanguageNames['mui'] = 'Musi'; # Musi / Siebrand 2010-02-11
 $wgExtraLanguageNames['mwv'] = 'Behase Mentawei'; # Mentawai / Siebrand 2008-05-07
 $wgExtraLanguageNames['mww-latn'] = 'Hmoob Dawb'; # Hmong Daw / Siebrand 2013-12-02
 $wgExtraLanguageNames['njo'] = 'Ao'; # Ao Naga
+$wgExtraLanguageNames['nod'] = 'คำเมือง'; # Northern Thai / Siebrand 2017-05-20
 $wgExtraLanguageNames['nqo'] = 'ߒߞߏ'; # N'Ko / Siebrand 2011-01-11
 $wgExtraLanguageNames['nys'] = 'Nyungar'; # Nyungar / Amir 2017-03-31
 $wgExtraLanguageNames['ovd'] = 'övdalsk'; # Övdalian / Siebrand 2017-05-20

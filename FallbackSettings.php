@@ -88,6 +88,7 @@ $wgTranslateLanguageFallbacks['myv'] = [ 'mdf' ];
 $wgTranslateLanguageFallbacks['nds'] = [ 'da', 'nl', 'nds-nl', 'pdt' ];
 $wgTranslateLanguageFallbacks['nds-nl'] = [ 'nds', 'pdt' ];
 $wgTranslateLanguageFallbacks['njo'] = [ 'as', 'hi' ];
+$wgTranslateLanguageFallbacks['nod'] = 'th'; # Siebrand 2017-05-20
 $wgTranslateLanguageFallbacks['nl-be'] = [ 'nl' ];
 $wgTranslateLanguageFallbacks['nl-informal'] = [ 'nl' ];
 $wgTranslateLanguageFallbacks['nn'] = [ 'nb', 'sv', 'da' ]; # Siebrand 2008-02-18
