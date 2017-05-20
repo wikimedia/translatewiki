@@ -252,6 +252,13 @@ $checkBlacklist = [
 		]
 	],
 	[
+		'group' => 'ext-echo-interface',
+		'check' => 'variable',
+		'message' => [
+			'notification-header-mention-failure-too-many', // GENDER parameter not needed e.g. in uk
+		]
+	],
+	[
 		'group' => 'ext-editsubpages',
 		'check' => 'links',
 		'message' => [
