@@ -106,5 +106,6 @@ $wgExtraLanguageNames['yua'] = 'Maaya T\'aan'; # Yucatán Maya / Siebrand 2011-0
 $wgExtraLanguageNames['zgh'] = 'ⵜⴰⵎⴰⵣⵉⵖⵜ'; # Standard Moroccan Tamazight / Siebrand 2014-03-11
 $wgExtraLanguageNames['nl-be'] = 'nl-be'; # Nikerabbit 2008-xx-xx - For FreeCol
 $wgExtraLanguageNames['es-mx'] = 'español de México'; # Mexico; for iNaturalist
+$wgExtraLanguageNames['es-ni'] = 'español nicaragüense'; # Nicaraguan Spanish
 $wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages
 $wgExtraLanguageNames['ike'] = 'ᐃᓄᒃᑎᑐᑦ/inuktitut'; # Dummy to have portal appear in Special:SupportedLanguages
