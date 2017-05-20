@@ -59,4 +59,10 @@ server {
 	location ~* \.(png|jpg|jpeg|gif|ico|svg|woff|woff2|eot|ttf|webp)$ {
 		expires 2M;
 	}
+
+	error_page 500 502 503 504 /error.html;
+	location = /error.html {
+		root /www/translatewiki.net/error;
+		internal;
+	}
 }
