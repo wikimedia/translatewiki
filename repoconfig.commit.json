@@ -344,7 +344,7 @@
 		"group": "out-vicuna",
 		"repos": {
 			"vicuna": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:yarl/vicuna.git"
 			}
 		}
@@ -472,7 +472,7 @@
 				"url": "git@github.com:SemanticMediaWiki/WhatsNearby.git"
 			},
 			"mwgithub/Wikidata-lib/PropertySuggester": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:Wikidata-lib/PropertySuggester.git"
 			},
 			"mwgithub/wmde/DataTypes": {
