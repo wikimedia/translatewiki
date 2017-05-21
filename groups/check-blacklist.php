@@ -30,6 +30,7 @@ $checkBlacklist = [
 		'check' => 'links',
 		'message' => [
 			'redirect-summary', // Has images names that can be translated
+			'edittools', // Local translatewiki.net version has brackets
 		],
 	],
 	[
@@ -423,10 +424,23 @@ $checkBlacklist = [
 		]
 	],
 	[
-		'group' => 'ext-semanticmediawiki',
+		'group' => 'mwgithub-semanticmediawiki',
 		'check' => 'links',
 		'message' => [
 			'smw_qc_query_help', // Contains links that are translated
+			'smw-statistics-error-count', // Contains Property links
+			'smw-statistics-query-inline', // Contains Property links
+		]
+	],
+	[
+		'group' => 'mwgithub-semanticcite',
+		'check' => 'links',
+		'message' => [
+			'sci-metadata-search-intro-doi', // Contains Property links
+			'sci-metadata-search-intro-pubmed', // Contains Property links
+			'sci-metadata-search-intro-oclc', // Contains Property links
+			'sci-metadata-search-intro-ol', // Contains Property links
+			'sci-metadata-search-intro-viaf', // Contains Property links
 		]
 	],
 	[
@@ -599,6 +613,13 @@ $checkBlacklist = [
 		'message' => [
 			'notifier.signup_confirm_html.user_wiki_page', // Contains links that are translated
 			'notifier.signup_confirm_plain.user_wiki_2', // Contains links that are translated
+		]
+	],
+	[
+		'group' => 'tsint-pb',
+		'check' => 'links',
+		'message' => [
+			'pb-pb-footer', // Acceptable links
 		]
 	],
 // translatewiki.net specific
