@@ -159,15 +159,6 @@
 			}
 		}
 	},
-	"fuel": {
-		"group": "out-fuel-*",
-		"repos": {
-			"fuel": {
-				"type": "git",
-				"url": "ssh://USERNAME@git.fedorahosted.org/git/fuel.git"
-			}
-		}
-	},
 	"gapfinder": {
 		"group": "gapfinder",
 		"repos": {
