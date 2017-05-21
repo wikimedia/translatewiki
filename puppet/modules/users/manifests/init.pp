@@ -227,7 +227,7 @@ class users {
       home       => '/home/yuvipanda',
       comment    => 'Yuvi Panda';
     'bsitzmann':
-      ensure     => present,
+      ensure     => absent,
       uid        => 1020,
       gid        => 'users',
       groups     => ['betawiki', 'www-shared'],
