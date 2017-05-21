@@ -18,12 +18,10 @@ l10n-bot: root
 root: siebrand@kitano.nl, niklas.laxstrom@gmail.com
 
 amir: amir.aharoni@mail.huji.ac.il
-lcawte: lewis@lewiscawte.info
-mah: mah@everybody.org
 nike: niklas.laxstrom@gmail.com
 raymond: raimond.spekking@gmail.com
 siebrand: siebrand@kitano.nl
-translatewiki: siebrand@kitano.nl
+translatewiki: siebrand@kitano.nl, niklas.laxstrom@gmail.com
 federico: federicoleva@tiscali.it
 
 blockly: siebrand@kitano.nl
