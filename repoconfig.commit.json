@@ -210,7 +210,7 @@
 		"group": "out-inaturalist",
 		"repos": {
 			"inaturalist": {
-				"type": "git",
+				"type": "github",
 				"branch": "i18n",
 				"url": "git@github.com:inaturalist/inaturalist.git"
 			}
@@ -250,7 +250,7 @@
 		"group": "out-mathjax-*",
 		"repos": {
 			"mathjax": {
-				"type": "git",
+				"type": "github",
 				"url": "git@github.com:mathjax/MathJax-i18n.git"
 			}
 		}
