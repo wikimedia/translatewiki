@@ -2060,6 +2060,9 @@ descmsg = proofreadpage_desc
 ignored = proofreadpage_default_header, proofreadpage_default_footer
 ignored = proofreadpage_specialpage_text, proofreadpage-indexoai-eprint-content-url
 
+Property Suggester
+aliasfile = PropertySuggester/PropertySuggester.alias.php
+
 Protect Site
 aliasfile = ProtectSite/ProtectSite.alias.php
 
