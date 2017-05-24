@@ -1528,6 +1528,8 @@ Mad Lib
 
 Magic No Cache
 
+Magic Numbered Headings
+
 Mailgun
 
 Maintenance
