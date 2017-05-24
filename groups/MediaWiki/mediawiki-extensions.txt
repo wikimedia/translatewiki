@@ -33,9 +33,6 @@ ignored = accesscontrol-redirect-users, accesscontrol-actions-deny
 # Repo is archived
 # Accessibility Simulation
 
-# Disabled 2015-07-21 afters SUL finished
-# Account Audit
-
 Account Info
 aliasfile = AccountInfo/AccountInfo.alias.php
 ignored=accountinfo-none
@@ -1836,8 +1833,6 @@ ignored = pageimages-blacklist
 Page In Cat
 
 Page Language
-
-Page Language Api
 
 Page Name Formula
 
