@@ -3,7 +3,8 @@ optional = apex.css, apex.js
 
 Athena
 
-Blue print
+# Abandoned: T110835
+# Blue print
 
 Blue Sky
 optional = bluesky-breadcrumb-pointer
