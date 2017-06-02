@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce153bd1_d35363e1",
+        "filename": "groups/MediaWiki/mediawiki-skins.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2017-06-02T12:32:55Z",
+      "side": 1,
+      "message": "MinervaNeue -\u003e Minerva Neue\nFor consistency",
+      "revId": "3eee3f42ce452950cbb68c107eb8ab1985a28339",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce153bd1_335f3fea",
+        "filename": "groups/MediaWiki/mediawiki-skins.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2017-06-02T12:32:55Z",
+      "side": 1,
+      "message": "both message keys are not part of en.json. Are the used?",
+      "range": {
+        "startLine": 57,
+        "startChar": 12,
+        "endLine": 57,
+        "endChar": 13
+      },
+      "revId": "3eee3f42ce452950cbb68c107eb8ab1985a28339",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
