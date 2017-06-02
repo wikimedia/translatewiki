@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ce153bd1_ae96884d",
+        "filename": "groups/MediaWiki/mediawiki-skins.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 94
+      },
+      "writtenOn": "2017-06-02T16:05:34Z",
+      "side": 1,
+      "message": "I thought this was the repo name? e.g. MonoBook\n\nApologies I\u0027ve not had experience of setting up translations so I\u0027m new to this.",
+      "parentUuid": "ce153bd1_d35363e1",
+      "revId": "3eee3f42ce452950cbb68c107eb8ab1985a28339",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ce153bd1_335f3fea",
         "filename": "groups/MediaWiki/mediawiki-skins.txt",
         "patchSetId": 1
@@ -30,6 +48,30 @@
       "writtenOn": "2017-06-02T12:32:55Z",
       "side": 1,
       "message": "both message keys are not part of en.json. Are the used?",
+      "range": {
+        "startLine": 57,
+        "startChar": 12,
+        "endLine": 57,
+        "endChar": 13
+      },
+      "revId": "3eee3f42ce452950cbb68c107eb8ab1985a28339",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce153bd1_4ea32ca9",
+        "filename": "groups/MediaWiki/mediawiki-skins.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 94
+      },
+      "writtenOn": "2017-06-02T16:05:34Z",
+      "side": 1,
+      "message": "They are not at the moment, but will be. I can remove these and add them later though if that\u0027s less confusing.\n\nTBH I was cargo culting Metrolook in doing this so I can happily remove.\n\nLet me know either way!",
+      "parentUuid": "ce153bd1_335f3fea",
       "range": {
         "startLine": 57,
         "startChar": 12,
