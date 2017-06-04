@@ -79,6 +79,15 @@
 			}
 		}
 	},
+	"internetarchivebot": {
+		"group": "internetarchivebot",
+		"repos": {
+			"internetarchivebot": {
+				"type": "github",
+				"url": "https://github.com/cyberpower678/Cyberbot_II.git"
+			}
+		}
+	},
 	"intuition": {
 		"group": "tsint-*",
 		"export-threshold": 1,

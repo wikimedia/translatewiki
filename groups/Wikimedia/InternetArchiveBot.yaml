@@ -1,0 +1,30 @@
+---
+BASIC:
+  id: internetarchivebot
+  label: Internet Archive Bot
+  icon: wiki://Internet_Archive_logo_and_wordmark.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/internetarchivebot/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: iabot-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/internetarchivebot/IABot/www/i18n/%CODE%.json"
+
+AUTOLOAD:
+  InternetArchiveBotChecker: InternetArchiveBotChecker.php
+  InternetArchiveBotSuggester: InternetArchiveBotSuggester.php
+
+CHECKER:
+  class: InternetArchiveBotChecker
+  checks:
+    - variablesCheck
+
+INSERTABLES:
+  class: InternetArchiveBotSuggester
