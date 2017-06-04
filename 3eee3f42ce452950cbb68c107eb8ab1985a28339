@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "ae1ac700_00de6c14",
+        "filename": "groups/MediaWiki/mediawiki-skins.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2017-06-04T15:55:05Z",
+      "side": 1,
+      "message": "Not your fault. Normally we (at translatewiki) add spaces between for better readability. Take it as suggestion only not worth for -1",
+      "parentUuid": "ce153bd1_ae96884d",
+      "revId": "3eee3f42ce452950cbb68c107eb8ab1985a28339",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ce153bd1_335f3fea",
         "filename": "groups/MediaWiki/mediawiki-skins.txt",
         "patchSetId": 1
@@ -72,6 +90,30 @@
       "side": 1,
       "message": "They are not at the moment, but will be. I can remove these and add them later though if that\u0027s less confusing.\n\nTBH I was cargo culting Metrolook in doing this so I can happily remove.\n\nLet me know either way!",
       "parentUuid": "ce153bd1_335f3fea",
+      "range": {
+        "startLine": 57,
+        "startChar": 12,
+        "endLine": 57,
+        "endChar": 13
+      },
+      "revId": "3eee3f42ce452950cbb68c107eb8ab1985a28339",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae1ac700_a0e220cf",
+        "filename": "groups/MediaWiki/mediawiki-skins.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2017-06-04T15:55:05Z",
+      "side": 1,
+      "message": "Please remove them until they are really used in code.",
+      "parentUuid": "ce153bd1_4ea32ca9",
       "range": {
         "startLine": 57,
         "startChar": 12,
