@@ -53,6 +53,8 @@ Metrolook
 ignored = metrolook-tiles, metrolook-tiles-second
 optional = metrolook.css, metrolook.js
 
+MinervaNeue
+
 Modern
 optional = modern.css, modern.js
 
