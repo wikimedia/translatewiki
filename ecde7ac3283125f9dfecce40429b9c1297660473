@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae1ac700_6610a05c",
+        "filename": "bin/nike-export-all",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-06-05T13:31:42Z",
+      "side": 1,
+      "message": "Might conflict with my other patch, but that\u0027s okay.",
+      "revId": "ecde7ac3283125f9dfecce40429b9c1297660473",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae1ac700_46079c1f",
+        "filename": "groups/Wikimedia/InternetArchiveBot.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-06-05T13:31:42Z",
+      "side": 1,
+      "message": "Better with spaces Internet Archive Bot unless someone objects strongly.",
+      "range": {
+        "startLine": 4,
+        "startChar": 9,
+        "endLine": 4,
+        "endChar": 27
+      },
+      "revId": "ecde7ac3283125f9dfecce40429b9c1297660473",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae1ac700_d1092431",
+        "filename": "groups/Wikimedia/InternetArchiveBot.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-06-05T13:31:42Z",
+      "side": 1,
+      "message": "ok",
+      "range": {
+        "startLine": 8,
+        "startChar": 13,
+        "endLine": 8,
+        "endChar": 25
+      },
+      "revId": "ecde7ac3283125f9dfecce40429b9c1297660473",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae1ac700_710ff833",
+        "filename": "groups/Wikimedia/InternetArchiveBot.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-06-05T13:31:42Z",
+      "side": 1,
+      "message": "This is the name of the repository, which you have defined to be \"internetarchivebot\". This part should be dropped.",
+      "range": {
+        "startLine": 18,
+        "startChar": 49,
+        "endLine": 18,
+        "endChar": 60
+      },
+      "revId": "ecde7ac3283125f9dfecce40429b9c1297660473",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae1ac700_f121c89e",
+        "filename": "groups/Wikimedia/InternetArchiveBot.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-06-05T13:31:42Z",
+      "side": 1,
+      "message": "I did not see any of these, only {{foo}} (for which we have code somewhere already)",
+      "range": {
+        "startLine": 21,
+        "startChar": 9,
+        "endLine": 21,
+        "endChar": 47
+      },
+      "revId": "ecde7ac3283125f9dfecce40429b9c1297660473",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae1ac700_11279cb2",
+        "filename": "repoconfig.commit.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-06-05T13:31:42Z",
+      "side": 1,
+      "message": "this is the directory name (see previous file)",
+      "range": {
+        "startLine": 85,
+        "startChar": 4,
+        "endLine": 85,
+        "endChar": 22
+      },
+      "revId": "ecde7ac3283125f9dfecce40429b9c1297660473",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
