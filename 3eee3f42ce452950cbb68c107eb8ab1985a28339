@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "ae1ac700_318500a0",
+        "filename": "groups/MediaWiki/mediawiki-skins.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 94
+      },
+      "writtenOn": "2017-06-05T16:21:21Z",
+      "side": 1,
+      "message": "For consistency with MonoBook I kept this as camel case.",
+      "parentUuid": "ae1ac700_00de6c14",
+      "revId": "3eee3f42ce452950cbb68c107eb8ab1985a28339",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ce153bd1_335f3fea",
         "filename": "groups/MediaWiki/mediawiki-skins.txt",
         "patchSetId": 1
@@ -114,6 +132,30 @@
       "side": 1,
       "message": "Please remove them until they are really used in code.",
       "parentUuid": "ce153bd1_4ea32ca9",
+      "range": {
+        "startLine": 57,
+        "startChar": 12,
+        "endLine": 57,
+        "endChar": 13
+      },
+      "revId": "3eee3f42ce452950cbb68c107eb8ab1985a28339",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae1ac700_f14d489f",
+        "filename": "groups/MediaWiki/mediawiki-skins.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 94
+      },
+      "writtenOn": "2017-06-05T16:21:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae1ac700_a0e220cf",
       "range": {
         "startLine": 57,
         "startChar": 12,
