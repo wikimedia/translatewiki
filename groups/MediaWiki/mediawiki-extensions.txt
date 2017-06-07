@@ -1779,8 +1779,6 @@ Only Recent Recent Changes
 
 OO Js UI Ajax Login
 
-# OOUI Playground # Missing message doc 2015-01-15
-
 Open Badges
 aliasfile = OpenBadges/OpenBadges.alias.php
 
