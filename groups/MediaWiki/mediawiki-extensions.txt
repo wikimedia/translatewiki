@@ -560,7 +560,7 @@ Campaigns
 
 Capiunto
 
-Cards
+# Cards // Empty https://gerrit.wikimedia.org/r/#/c/357519/
 
 Cargo
 magicfile = Cargo/Cargo.i18n.magic.php
