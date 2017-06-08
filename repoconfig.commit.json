@@ -480,10 +480,6 @@
 				"type": "github",
 				"url": "git@github.com:SemanticMediaWiki/WhatsNearby.git"
 			},
-			"mwgithub/Wikidata-lib/PropertySuggester": {
-				"type": "github",
-				"url": "git@github.com:Wikidata-lib/PropertySuggester.git"
-			},
 			"mwgithub/wmde/DataTypes": {
 				"type": "github",
 				"url": "git@github.com:wmde/DataTypes.git"
