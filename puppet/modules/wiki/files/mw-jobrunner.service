@@ -12,3 +12,6 @@ RestartSec=15
 PrivateDevices=true
 ProtectHome=read-only
 ProtectSystem=full
+
+[Install]
+WantedBy=multi-user.target

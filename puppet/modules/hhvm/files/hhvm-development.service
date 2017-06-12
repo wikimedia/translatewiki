@@ -13,3 +13,6 @@ ProtectHome=read-only
 ProtectSystem=full
 Restart=always
 RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

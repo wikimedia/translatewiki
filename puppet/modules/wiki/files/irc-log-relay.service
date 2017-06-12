@@ -12,3 +12,6 @@ PrivateDevices=true
 PrivateTmp=true
 ProtectHome=read-only
 ProtectSystem=full
+
+[Install]
+WantedBy=multi-user.target
