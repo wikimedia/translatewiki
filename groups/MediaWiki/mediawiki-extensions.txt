@@ -560,7 +560,7 @@ Campaigns
 
 Capiunto
 
-# Cards // Empty https://gerrit.wikimedia.org/r/#/c/357519/
+# Cards // Disable per T167452
 
 Cargo
 magicfile = Cargo/Cargo.i18n.magic.php
