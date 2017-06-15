@@ -134,7 +134,7 @@ Automatic Board Welcome
 
 AWS
 
-AWS SDK
+# AWS SDK // 2017-06-15: Archived
 
 Azhar Auth
 aliasfile = AzharAuth/AzharAuth.alias.php
@@ -2950,7 +2950,7 @@ Wikipedia Extracts
 
 Wikivote Maps Yandex
 
-Windows Azure SDK
+# Windows Azure SDK // 2017-06-15: Archived
 
 Windows Azure Storage
 
