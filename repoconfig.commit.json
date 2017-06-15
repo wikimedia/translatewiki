@@ -284,7 +284,7 @@
 			"mifos": {
 				"type": "github",
 				"branch": "develop",
-				"url": "https://github.com/openMF/community-app.git"
+				"url": "git@github.com:openMF/community-app.git"
 			}
 		}
 	},
