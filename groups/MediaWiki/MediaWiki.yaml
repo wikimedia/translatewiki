@@ -502,6 +502,7 @@ TAGS:
     - revision-info-current
     - revision-nav
     - rfcurl
+    - rcfilters-tag-prefix-namespace
     - rightslogentry
     - rightslogentry-autopromote
     - search-interwiki-custom
