@@ -421,14 +421,8 @@ $wgTranslateSupportUrlNamespace[NS_INATURALIST] = [
 	'params' => $lqtParams,
 ];
 
+# No longer un use
 wfAddNamespace( 1264, 'EntryScape' );
-$wgCapitalLinkOverrides[NS_ENTRYSCAPE] = false;
-$wgCapitalLinkOverrides[NS_ENTRYSCAPE_TALK] = false;
-$wgTranslateGroupFiles[] = "$GROUPS/EntryScape/EntryScape.yaml";
-$wgTranslateSupportUrlNamespace[NS_ENTRYSCAPE] = [
-	'page' => 'Translating_talk:EntryScape',
-	'params' => $lqtParams,
-];
 
 wfAddNamespace( 1266, 'Hivejs' );
 $wgCapitalLinkOverrides[NS_HIVEJS] = false;

@@ -140,15 +140,6 @@
 			}
 		}
 	},
-	"entryscape": {
-		"group": "entryscape-*",
-		"repos": {
-			"entryscape": {
-				"type": "git",
-				"url": "git@bitbucket.org:metasolutions/entryscape-nls.git"
-			}
-		}
-	},
 	"etherpad-lite": {
 		"group": "etherpad-lite",
 		"repos": {
