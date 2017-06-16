@@ -503,6 +503,7 @@ TAGS:
     - revision-nav
     - rfcurl
     - rcfilters-tag-prefix-namespace
+    - rcfilters-tag-prefix-tags
     - rightslogentry
     - rightslogentry-autopromote
     - search-interwiki-custom
