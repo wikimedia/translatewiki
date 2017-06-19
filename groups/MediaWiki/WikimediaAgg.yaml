@@ -24,6 +24,7 @@ GROUPS:
   - ext-cldr
   - ext-codeeditor
   - ext-cognate # https://phabricator.wikimedia.org/rOMWC20ffc2b65e603e7f533de1aae608704efc413d0d
+  - ext-collaborationkit # https://phabricator.wikimedia.org/rOMWC54f5e751579cf7f715851bb89de538a28134668e
   - ext-commonsmetadata # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-contenttranslation-api
