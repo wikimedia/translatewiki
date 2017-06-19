@@ -271,7 +271,7 @@ Blue Spice - Extended Search
 id = ext-bs-extendedsearch
 descmsg = bs-extendedsearch-desc
 file = BlueSpiceExtensions/ExtendedSearch/i18n/%CODE%.json
-aliasfile = BlueSpiceFoundation/ExtendedSearch/includes/specials/SpecialExtendedSearchAdmin.alias.php
+aliasfile = BlueSpiceExtensions/ExtendedSearch/includes/specials/SpecialExtendedSearchAdmin.alias.php
 
 Blue Spice - Extension Info
 id = ext-bs-extensioninfo
@@ -294,7 +294,7 @@ Blue Spice - Flexiskin
 id = ext-bs-flexiskin
 descmsg = bs-flexiskin-desc
 file = BlueSpiceExtensions/Flexiskin/i18n/%CODE%.json
-aliasfile = BlueSpiceFoundation/NamespaceManager/includes/specials/SpecialNamespaceManager.alias.php
+aliasfile = BlueSpiceExtensions/Flexiskin/includes/specials/SpecialFlexiskin.alias.php
 
 Blue Spice - Formatting Help
 id = ext-bs-formattinghelp
@@ -340,7 +340,7 @@ Blue Spice - Inter Wiki Links
 id = ext-bs-interwikilinks
 descmsg = bs-interwikilinks-desc
 file = BlueSpiceExtensions/InterWikiLinks/i18n/%CODE%.json
-aliasfile = BlueSpiceFoundation/InterWikiLinks/includes/specials/SpecialInterWikiLinks.alias.php
+aliasfile = BlueSpiceExtensions/InterWikiLinks/includes/specials/SpecialInterWikiLinks.alias.php
 optional = bs-interwikilinks-headerurl, bs-interwikilinks-labelurl
 
 Blue Spice - Namespace Css
@@ -352,7 +352,7 @@ Blue Spice - Namespace Manager
 id = ext-bs-namespacemanager
 descmsg = bs-namespacemanager-desc
 file = BlueSpiceExtensions/NamespaceManager/i18n/%CODE%.json
-aliasfile = BlueSpiceFoundation/NamespaceManager/includes/specials/SpecialNamespaceManager.alias.php
+aliasfile = BlueSpiceExtensions/NamespaceManager/includes/specials/SpecialNamespaceManager.alias.php
 
 Blue Spice - Page Access
 id = ext-bs-pageaccess
@@ -368,7 +368,7 @@ Blue Spice - Page Templates
 id = ext-bs-pagetemplates
 descmsg = bs-pagetemplates-desc
 file = BlueSpiceExtensions/PageTemplates/i18n/%CODE%.json
-aliasfile = BlueSpiceFoundation/PageTemplates/includes/specials/SpecialPageTemplatesAdmin.alias.php
+aliasfile = BlueSpiceExtensions/PageTemplates/includes/specials/SpecialPageTemplatesAdmin.alias.php
 
 Blue Spice - Pages Visited
 id = ext-bs-pagesvisited
@@ -384,7 +384,7 @@ Blue Spice - Preferences
 id = ext-bs-preferences
 descmsg = bs-preferences-desc
 file = BlueSpiceExtensions/Preferences/i18n/%CODE%.json
-aliasfile = BlueSpiceFoundation/Preferences/includes/specials/SpecialBlueSpicePreferences.alias.php
+aliasfile = BlueSpiceExtensions/Preferences/includes/specials/SpecialBlueSpicePreferences.alias.php
 optional = prefs-bluespice
 
 Blue Spice - Readers
@@ -511,13 +511,13 @@ descmsg = bs-wikiadmin-desc
 file = BlueSpiceExtensions/WikiAdmin/i18n/%CODE%.json
 
 Blue Spice Category Manager
-aliasfile = includes/specials/SpecialBlueSpiceCategoryManager.alias.php
+aliasfile = BlueSpiceCategoryManager/includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
 Blue Spice Edit Notify Connector
 
 Blue Spice Extended Filelist
 descmsg = bs-extendedfilelist-desc
-aliasfile = BlueSpiceExtendedFilelist.alias.php
+aliasfile = BlueSpiceExtendedFilelist/BlueSpiceExtendedFilelist.alias.php
 
 # Blue Spice Extended Search // Dupe keys with above "Blue Spice - Extended Search"
 
@@ -1785,7 +1785,7 @@ Only Recent Recent Changes
 OO Js UI Ajax Login
 
 Open Badges
-aliasfile = OpenBadges/OpenBadges.alias.php
+aliasfile = OpenBadges/OpenBadges.i18n.alias.php
 
 Open ID
 aliasfile = OpenID/OpenID.alias.php
@@ -2093,7 +2093,7 @@ Quiz
 descmsg = quiz_desc
 
 Quiz Game
-aliasfile = QuizGame/QuestionGame.alias.php
+aliasfile = QuizGame/QuizGame.alias.php
 optional = quizgame-leaderboard-desc-pct
 
 Quick Surveys
@@ -2731,7 +2731,7 @@ Whitelist Pages
 ignored = public_read_whitelist
 
 Who Is Watching
-aliasfile = WhoIsWatching/WhoIsWatching.alias.php
+aliasfile = WhoIsWatching/src/i18n/Alias.php
 
 Whos Online
 aliasfile = WhosOnline/WhosOnline.alias.php
