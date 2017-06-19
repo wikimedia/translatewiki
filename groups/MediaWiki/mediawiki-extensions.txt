@@ -1812,6 +1812,9 @@ ignored = apihelp-novaaddress-param-id
 
 Oracle Text Search
 
+Orphaned Talk Pages
+aliasfile = OrphanedTalkPages/OrphanedTalkPages.alias.php
+
 ORES
 ignored = ores-reverted-letter
 optional = ores-beta-feature-message
@@ -2736,6 +2739,8 @@ ignored = public_read_whitelist
 
 Who Is Watching
 aliasfile = WhoIsWatching/WhoIsWatching.alias.php
+
+# Whoops // 2017-06-19: Empty repo
 
 Whos Online
 aliasfile = WhosOnline/WhosOnline.alias.php
