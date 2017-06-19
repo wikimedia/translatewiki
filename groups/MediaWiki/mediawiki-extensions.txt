@@ -814,6 +814,8 @@ descmsg = cp-desc
 Create Redirect
 aliasfile = CreateRedirect/CreateRedirect.alias.php
 
+Create User Page
+
 Credits Source
 
 CryoKey
@@ -991,6 +993,8 @@ aliasfile = ElectronPdfService/ElectronPdfService.i18n.alias.php
 descmsg = electronPdfService-desc
 
 Email Auth
+
+# Email Authorization // 2017-06-19: inconsistent prefix
 
 Email Capture
 
