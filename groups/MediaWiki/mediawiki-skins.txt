@@ -96,4 +96,6 @@ optional = vector.css, vector.js
 Vector V2
 optional = vectorv2.css, vectorv2.js, skinname-vectorv2
 
+webplatform
+
 WPtouch
