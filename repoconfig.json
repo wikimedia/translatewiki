@@ -379,6 +379,10 @@
 				"type": "github",
 				"url": "https://github.com/DataValues/DataValues.git"
 			},
+			"mwgithub/jeblad/Pickle": {
+				"type": "github",
+				"url": "https://github.com/jeblad/Pickle.git"
+			},
 			"mwgithub/JeroenDeDauw/GitHub": {
 				"type": "github",
 				"url": "https://github.com/JeroenDeDauw/GitHub.git"
