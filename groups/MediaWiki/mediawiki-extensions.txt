@@ -994,7 +994,8 @@ descmsg = electronPdfService-desc
 
 Email Auth
 
-# Email Authorization // 2017-06-19: inconsistent prefix
+Email Authorization
+aliasfile = EmailAuthorization/includes/EmailAuthorizationConfig.alias.php
 
 Email Capture
 
