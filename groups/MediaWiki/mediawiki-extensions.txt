@@ -2363,7 +2363,8 @@ ignored = smoothgallery-pagetext
 Social Profile
 aliasfile = SocialProfile/SocialProfile.alias.php
 
-# Software Version // ShoutWiki centric
+Software Version
+ignored = softwareversion-wiki-link
 
 Solarium
 
