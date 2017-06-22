@@ -337,9 +337,10 @@ FILES:
 
 TAGS:
   optional:
-    - pickle-testspec-subpage
     - pickle-testcase-subpage
+    - pickle-testcase-invoke
     - pickle-default-subpage
+    - pickle-default-invoke
     - pickle-report-adapt-wrap-translated
     - pickle-report-adapt-wrap-untranslated
     - pickle-report-frame-wrap-translated
@@ -357,9 +358,8 @@ TAGS:
     - pickle-report-frame-is-skip-translated
 
   ignored:
+    - pickle-testspec-subpage
     - pickle-testspec-invoke
-    - pickle-testcase-invoke
-    - pickle-default-invoke
     - pickle-frame-full-header
     - pickle-frame-vivid-header
     - pickle-report-frame-wrap-description
