@@ -393,11 +393,6 @@ id = ext-bs-readers
 descmsg = bs-readers-desc
 file = BlueSpiceExtensions/Readers/i18n/%CODE%.json
 
-Blue Spice - Review
-id = ext-bs-review
-descmsg = bs-review-desc
-file = BlueSpiceExtensions/Review/i18n/%CODE%.json
-
 Blue Spice - RSS Feeder
 id = ext-bs-rssfeeder
 descmsg = bs-rssfeeder-desc
@@ -486,11 +481,6 @@ id = ext-bs-visualeditor
 descmsg = bs-visualeditor-desc
 file = BlueSpiceExtensions/VisualEditor/i18n/%CODE%.json
 
-Blue Spice - Wanted Article
-id = ext-bs-wantedarticle
-descmsg = bs-wantedarticle-desc
-file = BlueSpiceExtensions/WantedArticle/i18n/%CODE%.json
-
 Blue Spice - Watch List
 id = ext-bs-watchlist
 descmsg = bs-watchlist-desc
@@ -500,11 +490,6 @@ Blue Spice - Who Is Online
 id = ext-bs-whoisonline
 descmsg = bs-whoisonline-desc
 file = BlueSpiceExtensions/WhoIsOnline/i18n/%CODE%.json
-
-Blue Spice - Widget Bar
-id = ext-bs-widgetbar
-descmsg = bs-widgetbar-desc
-file = BlueSpiceExtensions/WidgetBar/i18n/%CODE%.json
 
 Blue Spice - Wiki Admin
 id = ext-bs-wikiadmin
