@@ -1957,7 +1957,7 @@ Parser Migration
 # Parsoid
 
 Parsoid Batch API
-ignored = apihelp-parsoid-batch-description, apihelp-parsoid-batch-param-batch
+ignored = apihelp-parsoid-batch-description, apihelp-parsoid-batch-param-batch, apihelp-parsoid-batch-summary
 
 # Incomplete message doc
 # Patroller
