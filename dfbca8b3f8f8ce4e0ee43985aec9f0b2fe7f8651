@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e742343_f5d16a59",
+        "filename": "groups/MediaWiki/mwgithub.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 341,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-07-04T06:03:16Z",
+      "side": 1,
+      "message": "I think you want to return these to full form to not match pickle-testspec-subpage and invoke.",
+      "range": {
+        "startLine": 340,
+        "startChar": 0,
+        "endLine": 341,
+        "endChar": 21
+      },
+      "revId": "dfbca8b3f8f8ce4e0ee43985aec9f0b2fe7f8651",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
