@@ -12,3 +12,15 @@ FILES:
   sourcePattern: "%GROUPROOT%/oppia/assets/i18n/%CODE%.json"
   definitionFile: "%GROUPROOT%/oppia/assets/i18n/en.json"
   includeMetadata: false
+
+CHECKER:
+  class: OppiaMessageChecker
+  checks:
+    - OppiaVariablesCheck
+
+INSERTABLES:
+  class: OppiaInsertablesSuggester
+
+AUTOLOAD:
+  OppiaMessageChecker: Checker.php
+  OppiaInsertablesSuggester: OppiaInsertablesSuggester.php
