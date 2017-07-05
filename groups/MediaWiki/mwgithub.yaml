@@ -341,34 +341,12 @@ TAGS:
     - pickle-testcase-invoke
     - pickle-default-subpage
     - pickle-default-invoke
-    - pickle-report-adapt-wrap-translated
-    - pickle-report-adapt-wrap-untranslated
-    - pickle-report-frame-wrap-translated
-    - pickle-report-frame-wrap-untranslated
-    - pickle-report-adapt-is-ok-translated
-    - pickle-report-adapt-is-not-ok-translated
-    - pickle-report-frame-is-ok-translated
-    - pickle-report-frame-is-not-ok-translated
-    - pickle-report-adapt-todo-no-description
-    - pickle-report-adapt-skip-no-description
-    - pickle-report-frame-todo-no-description
-    - pickle-report-frame-skip-no-description
-    - pickle-report-frame-wrap-description
-    - pickle-report-frame-wrap-no-description
-    - pickle-report-frame-is-skip-translated
+    - pickle-report-*-wrap-*
+    - pickle-report-*-translated
+    - pickle-report-*-no-description
 
   ignored:
     - pickle-testspec-subpage
     - pickle-testspec-invoke
-    - pickle-frame-full-header
-    - pickle-frame-vivid-header
-    - pickle-report-frame-wrap-description
-    - pickle-report-adapt-wrap-line
-    - pickle-report-adapt-todo-no-description
-    - pickle-report-adapt-skip-no-description
-    - pickle-report-adapt-wrap-description
-    - pickle-report-adapt-is-ok-original
-    - pickle-report-adapt-is-not-ok-original
-    - pickle-report-frame-is-ok-original
-    - pickle-report-frame-is-not-ok-original
-    - pickle-report-frame-is-skip-original
+    - pickle-report-*-original
+    - pickle-report-*-original-num
