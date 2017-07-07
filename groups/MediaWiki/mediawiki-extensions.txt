@@ -68,8 +68,6 @@ optional = advancedsearch-filetype-bitmap-jpeg, advancedsearch-filetype-bitmap-t
 optional = advancedsearch-filetype-audio-midi, advancedsearch-filetype-audio-wav, advancedsearch-filetype-audio-flac
 optional = advancedsearch-filetype-document-pdf
 
-Ajax Login
-
 AJAX Poll
 
 Akismet Klik
