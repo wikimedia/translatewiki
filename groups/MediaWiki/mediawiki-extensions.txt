@@ -270,7 +270,7 @@ Blue Spice - Extended Search
 id = ext-bs-extendedsearch
 descmsg = bs-extendedsearch-desc
 file = BlueSpiceExtensions/ExtendedSearch/i18n/%CODE%.json
-aliasfile = BlueSpiceExtensions/ExtendedSearch/includes/specials/SpecialExtendedSearchAdmin.alias.php
+aliasfile = BlueSpiceExtensions/ExtendedSearch/languages/SpecialExtendedSearch.alias.php
 
 Blue Spice - Extension Info
 id = ext-bs-extensioninfo
@@ -669,7 +669,7 @@ aliasfile = Commentbox/Commentbox.alias.php
 ignored = commentbox-prefill
 
 Comments
-aliasfile = Comments/Comments.alias.php
+aliasfile = Comments/includes/Comments.alias.php
 
 Common Messages
 
@@ -1461,7 +1461,7 @@ magicfile = Lingo/src/Lingo.i18n.magic.php
 Link Filter
 optional = linkfilter-url
 optional = group-linkadmin.css, group-linkadmin.js
-aliasfile = LinkFilter/Link.alias.php
+aliasfile = LinkFilter/includes/LinkFilter.alias.php
 
 Link Suggest
 
@@ -2011,7 +2011,7 @@ Poem
 Polyglot
 
 Poll NY
-aliasfile = PollNY/Poll.alias.php
+aliasfile = PollNY/includes/PollNY.alias.php
 descmsg = poll-desc
 
 Pool Counter
@@ -2074,7 +2074,7 @@ Quiz
 descmsg = quiz_desc
 
 Quiz Game
-aliasfile = QuizGame/QuizGame.alias.php
+aliasfile = QuizGame/includes/QuizGame.alias.php
 optional = quizgame-leaderboard-desc-pct
 
 Quick Surveys
@@ -2311,7 +2311,7 @@ aliasfile = SiteMatrix/SiteMatrix.alias.php
 magicfile = SiteMatrix/SiteMatrix.i18n.magic.php
 
 Site Metrics
-aliasfile = SiteMetrics/SiteMetrics.alias.php
+aliasfile = SiteMetrics/includes/SiteMetrics.alias.php
 
 Site Settings
 aliasfile = SiteSettings/SiteSettings.alias.php
@@ -2694,7 +2694,7 @@ file = VisualEditor/modules/ve-wmf/i18n/%CODE%.json
 optional = visualeditor-help-link
 
 Vote NY
-aliasfile = VoteNY/VoteNY.alias.php
+aliasfile = VoteNY/includes/VoteNY.alias.php
 
 Watch Subpages
 aliasfile = WatchSubpages/WatchSubpages.alias.php
