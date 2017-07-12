@@ -2624,7 +2624,8 @@ Url Get Parameters
 Url Shortener
 aliasfile = UrlShortener/UrlShortener.alias.php
 
-# User Export // Missing message documentation
+User Export
+aliasfile = UserExport/UserExport.alias.php
 
 User Functions
 
