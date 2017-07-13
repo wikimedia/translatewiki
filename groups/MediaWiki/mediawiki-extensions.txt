@@ -1591,7 +1591,6 @@ Mobile Frontend
 descmsg = mobile-frontend-desc
 aliasfile = MobileFrontend/MobileFrontend.alias.php
 optional = mobile.js, mobile.css, mobile-frontend-diffview-comma
-optional = mobile-frontend-footer-sitename
 ignored = mobile-frontend-page-menu-language, mobile-frontend-terms-url
 
 Model
