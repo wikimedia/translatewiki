@@ -10,7 +10,6 @@ february
 disclaimers
 privacy
 contribslink
-mobile-frontend-editor-edit
 printableversion
 feb
 january
@@ -43,7 +42,6 @@ may
 searchbutton
 wikimedia-developers
 retrievedfrom
-mobile-frontend-view
 site-atom-feed
 tooltip-search-fulltext
 tooltip-search
@@ -127,11 +125,8 @@ tooltip-citethispage
 citethispage-link
 coll-print_export
 contactpage
-mobile-frontend-privacy-link-text
-mobile-frontend-main-menu-button-tooltip
 monday
 scribunto-lua-error
-mobile-frontend-terms-text
 revisionasof
 previousrevision
 show-big-image-size
@@ -148,15 +143,6 @@ searchresults-title
 searchresults
 hist
 visualeditor-ca-editsource
-mobile-frontend-view-desktop
-mobile-frontend-random-button
-mobile-frontend-main-menu-watchlist
-mobile-frontend-main-menu-settings
-mobile-frontend-main-menu-nearby
-mobile-frontend-home-button
-mobile-frontend-copyright
-mobile-frontend-placeholder
-mobile-frontend-main-menu-login
 tooltip-ca-ve-edit
 tooltip-n-mainpage
 diff
@@ -165,16 +151,13 @@ tooltip-ca-watch
 view
 history_short
 imagelinks
-mobile-frontend-pageaction-edit-tooltip
 filehist
-mobile-frontend-last-modified-date
 categorytree-num-pages
 tooltip-ca-nstab-special
 wikibase-edit
 february-gen
 categorytree-expand
 filehist-thumbtext
-mobile-frontend-language-article-heading
 categorytree-num-categories
 toc
 friday
@@ -433,7 +416,6 @@ nextn-title
 wm-license-cc-conditions-share_alike-text
 december-gen
 minoredit
-mobile-frontend-changeslist-nocomment
 tooltip-pt-watchlist
 tooltip-pt-userpage
 tooltip-pt-preferences
@@ -454,8 +436,6 @@ isimage
 whatlinkshere-prev
 whatlinkshere-next
 linkshere
-mobile-frontend-news-items
-mobile-frontend-featured-article
 rev-delundel
 file-nohires
 august-gen
