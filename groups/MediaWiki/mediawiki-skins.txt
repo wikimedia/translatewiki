@@ -53,7 +53,9 @@ Metrolook
 ignored = metrolook-tiles, metrolook-tiles-second
 optional = metrolook.css, metrolook.js
 
-# MinervaNeue // 2017-07-12 temp disabling due to key conflicts https://gerrit.wikimedia.org/r/#/c/358141/
+MinervaNeue
+ignored = mobile-frontend-footer-sitename
+optional = skinname-minerva
 
 Modern
 optional = modern.css, modern.js
