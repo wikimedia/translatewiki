@@ -341,12 +341,9 @@ TAGS:
     - pickle-testcase-invoke
     - pickle-default-subpage
     - pickle-default-invoke
-    - pickle-report-*-wrap-*
-    - pickle-report-*-translated
+    - pickle-report-*-keyword
     - pickle-report-*-no-description
 
   ignored:
     - pickle-testspec-subpage
     - pickle-testspec-invoke
-    - pickle-report-*-original
-    - pickle-report-*-original-num
