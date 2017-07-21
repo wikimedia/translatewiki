@@ -576,5 +576,14 @@
 				"url": "https://gerrit.wikimedia.org/r/wikimedia/portals"
 			}
 		}
+	},
+	"xtools": {
+		"group": "xtools",
+		"repos": {
+			"xtools": {
+				"type": "github",
+				"url": "https://github.com/x-tools/xtools.git"
+			}
+		}
 	}
 }

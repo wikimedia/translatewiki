@@ -577,5 +577,14 @@
 				"url": "ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/portals"
 			}
 		}
+	},
+	"xtools": {
+		"group": "xtools",
+		"repos": {
+			"xtools": {
+				"type": "github",
+				"url": "git@github.com:x-tools/xtools.git"
+			}
+		}
 	}
 }
