@@ -95,6 +95,16 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-universallanguageselector-0-all
+  label: Universal Language Selector messages - all
+  description: '{{Special:MyLanguage/Translations:Group descriptions/universallanguageselector/en}}'
+
+GROUPS:
+  - ext-universallanguageselector
+  - ext-universallanguageselector-api
+
+---
+BASIC:
   id: ext-visualeditor-0-all
   label: VisualEditor messages - all
   description: '{{Special:MyLanguage/Translations:Group descriptions/visualeditor/en}}'

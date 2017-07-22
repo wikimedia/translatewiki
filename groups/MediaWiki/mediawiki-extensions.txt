@@ -2630,6 +2630,10 @@ Universal Language Selector
 descmsg = uls-desc
 ignored = uls-ime-helppage
 
+Universal Language Selector - API
+id = ext-universallanguageselector-api
+file = UniversalLanguageSelector/i18n/api/%CODE%.json
+
 # Unused Redirects // Missing message documentation
 
 # Upload Logo // no message prefix
