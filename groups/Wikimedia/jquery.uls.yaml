@@ -1,6 +1,6 @@
 ---
 BASIC:
-  description: "Translations of Universal Language Selector library"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/universallanguageselectorlib/en}}"
   namespace: NS_WIKIMEDIA
   id: jquery-uls
   label: jQuery.ULS
