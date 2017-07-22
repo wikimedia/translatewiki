@@ -24,8 +24,6 @@ optional = skinname-custompage, custompage.css, custompage.js
 
 Daddio
 
-Deep Sea
-
 Desk Mess Mirrored
 
 Dusk To Dawn
