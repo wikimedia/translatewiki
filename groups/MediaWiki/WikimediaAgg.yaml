@@ -113,6 +113,7 @@ GROUPS:
   - ext-subpagesortkey # a2b3abe7ebc6aac630e4e309cc17780b28ac4b04 for some wikibooks
   - ext-syntaxhighlightgeshi
   - ext-templatesandbox
+  - ext-templatestyles
   - ext-textextracts
   - ext-toctree # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-translate-0-all
