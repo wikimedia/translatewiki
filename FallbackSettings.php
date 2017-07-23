@@ -120,7 +120,6 @@ $wgTranslateLanguageFallbacks['sdh'] = [ 'cbk' ];
 $wgTranslateLanguageFallbacks['se'] = [ 'fi', 'sv', 'nb', 'sma' ];
 $wgTranslateLanguageFallbacks['shi'] = [ 'ar', 'fr' ]; # Robin 2011-09-27
 $wgTranslateLanguageFallbacks['shy-latn'] = [ 'fr' ];
-$wgTranslateLanguageFallbacks['skr-arab'] = [ 'ur', 'pnb' ]; # Siebrand 2017-05-20
 $wgTranslateLanguageFallbacks['sli'] = [ 'pl', 'szl' ];
 $wgTranslateLanguageFallbacks['sly'] = [ 'id' ];
 $wgTranslateLanguageFallbacks['sma'] = [ 'sv', 'nb', 'se' ];

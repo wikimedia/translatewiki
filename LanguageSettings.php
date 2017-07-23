@@ -85,7 +85,6 @@ $wgExtraLanguageNames['saz'] = 'ꢱꣃꢬꢵꢯ꣄ꢡ꣄ꢬꢵ'; # Saurashtra / 
 $wgExtraLanguageNames['shn'] = 'လိၵ်ႈတႆး'; # Shan / Siebrand 2011-09-06
 $wgExtraLanguageNames['shy-latn'] = 'Tacawit'; # Tacawit (Latin script) / Siebrand 2015-05-25
 $wgExtraLanguageNames['slr'] = 'Salırça'; # Salar / Siebrand 2008-08-18
-$wgExtraLanguageNames['skr-arab'] = 'سرائیکی'; # Saraiki / Siebrand 2017-05-20
 $wgExtraLanguageNames['sly'] = 'Bahasa Selayar'; # A Selayar / Siebrand 2012-01-09
 $wgExtraLanguageNames['smj'] = 'julevsámegiella'; # Lule Saami / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['smn'] = 'anarâškielâ'; # Inari Saami / Siebrand 2014-10-06
