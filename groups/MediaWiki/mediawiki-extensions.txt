@@ -2004,6 +2004,7 @@ Pluggable Auth
 aliasfile = PluggableAuth/PluggableAuth.alias.php
 
 Pluggable SSO
+optional = pluggablesso-extensionname
 
 Poem
 
