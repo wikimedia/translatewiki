@@ -549,8 +549,6 @@ Campaigns
 
 Capiunto
 
-# Cards // Disable per T167452
-
 Cargo
 magicfile = Cargo/Cargo.i18n.magic.php
 aliasfile = Cargo/Cargo.alias.php
@@ -2091,6 +2089,8 @@ Random In Category
 aliasfile = RandomInCategory/RandomInCategory.alias.php
 prefix = extension- | randomincategory, randomincategory-submit
 
+Random Selection
+
 Random Users With Avatars
 descmsg = random-users-avatars-desc
 
@@ -2793,7 +2793,7 @@ ignored = wikibase-api-failed-save, wikibase-api-inconsistent-language, wikibase
 ignored = wikibase-api-invalid-guid, wikibase-api-invalid-json, wikibase-api-invalid-snak
 ignored = wikibase-api-invalid-list, wikibase-api-invalid-property-id, wikibase-api-invalid-entity-id
 ignored = wikibase-api-no-common-item, wikibase-api-no-data, wikibase-api-no-external-page
-ignored = wikibase-api-nosuchrevid, wikibase-api-no-such-claim, wikibase-api-no-such-entity
+ignored = wikibase-api-nosuchrevid, wikibase-api-no-such-claim
 ignored = wikibase-api-no-such-entity-link
 ignored = wikibase-api-no-such-reference, wikibase-api-no-such-site, wikibase-api-no-such-statement, wikibase-api-not-supported
 ignored = wikibase-api-not-statement, wikibase-api-not-item, wikibase-api-not-recognized-siteid
