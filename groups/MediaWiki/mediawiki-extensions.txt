@@ -2003,6 +2003,8 @@ Pipe Escape
 Pluggable Auth
 aliasfile = PluggableAuth/PluggableAuth.alias.php
 
+Pluggable SSO
+
 Poem
 
 Polyglot
