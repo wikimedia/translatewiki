@@ -873,9 +873,9 @@ Donation Interface - Amazon Gateway
 file = DonationInterface/amazon_gateway/i18n/%CODE%.json
 id = ext-di-ag
 descmsg = amazon_gateway-desc
-ignored = apihelp-di_amazon_bill-description, apihelp-di_amazon_bill-param-amount, apihelp-di_amazon_bill-param-billingAgreementId
-ignored = apihelp-di_amazon_bill-param-currency_code, apihelp-di_amazon_bill-param-orderReferenceId, apihelp-di_amazon_bill-param-recurring
-ignored = apihelp-di_amazon_bill-param-wmf_token
+ignored = apihelp-di_amazon_bill-description, apihelp-di_amazon_bill-summary, apihelp-di_amazon_bill-param-amount
+ignored = apihelp-di_amazon_bill-param-billingAgreementId, apihelp-di_amazon_bill-param-currency, apihelp-di_amazon_bill-param-orderReferenceId
+ignored = apihelp-di_amazon_bill-param-recurring, apihelp-di_amazon_bill-param-wmf_token
 
 Donation Interface - Astro Gateway
 file = DonationInterface/astropay_gateway/i18n/%CODE%.json
@@ -2727,6 +2727,8 @@ Widgets
 magicfile = Widgets/Widgets.i18n.magic.php
 optional = group-widgeteditor.css, group-widgeteditor.js
 
+# Wigo3 // 2017-07-19: Import, still old i18n style
+c
 WikEd Diff
 descmsg = wiked-diff-desc
 
