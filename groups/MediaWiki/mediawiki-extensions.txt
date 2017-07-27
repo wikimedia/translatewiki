@@ -2728,7 +2728,7 @@ magicfile = Widgets/Widgets.i18n.magic.php
 optional = group-widgeteditor.css, group-widgeteditor.js
 
 # Wigo3 // 2017-07-19: Import, still old i18n style
-c
+
 WikEd Diff
 descmsg = wiked-diff-desc
 
