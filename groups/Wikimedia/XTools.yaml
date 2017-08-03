@@ -1,0 +1,30 @@
+BASIC:
+  id: xtools
+  label: XTools
+  icon: wiki://XTools logo.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/xtools/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: xtools-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/xtools/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - xtools-comma-character
+
+CHECKER:
+  class: MediaWikiMessageChecker
+  checks:
+    - wikiParameterCheck
+    - braceBalanceCheck
+
+INSERTABLES:
+  class: MediaWikiInsertablesSuggester

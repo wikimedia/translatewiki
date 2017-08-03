@@ -257,6 +257,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-android.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-ios.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaPortals.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/XTools.yaml";
 $wgTranslateGroupAliases['out-pageviews'] = 'pageviews';
 
 $wgTranslateSupportUrlNamespace[NS_WIKIMEDIA] = [

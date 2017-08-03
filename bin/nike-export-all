@@ -46,6 +46,7 @@ wikimania
 wikimedia-portals
 wikipedia-android
 wikipedia-ios
+xtools
 "
 
 _b=$(tput bold)
