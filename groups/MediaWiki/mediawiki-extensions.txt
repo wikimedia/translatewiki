@@ -570,6 +570,8 @@ magicfile = CategoryTree/CategoryTree.i18n.magic.php
 ignored = categorytree-collapse-bullet, categorytree-page-bullet, categorytree-member-num
 optional = categorytree-expand-bullet, categorytree-empty-bullet
 
+Category Watch
+
 Central Auth
 aliasfile = CentralAuth/CentralAuth.alias.php
 optional = centralauth-editset-grouplink, centralauth-listusers-item
