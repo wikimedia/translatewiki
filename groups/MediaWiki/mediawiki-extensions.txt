@@ -2116,6 +2116,8 @@ id = ext-readerfeedback-ratinghistory
 file = ReaderFeedback/i18n/ratinghistory/%CODE%.json
 descmsg = ratinghistory
 
+Reading Lists
+
 Reassign Edits
 aliasfile = ReassignEdits/ReassignEdits.alias.php
 
