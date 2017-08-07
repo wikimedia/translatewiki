@@ -58,8 +58,8 @@ b_=$(tput sgr0)
 
 	for i in $PROJECTS; do
 		echo "${_b}$i${b_}"
-		"$DIRSCRIPT/repoupdate" $i
-		"$DIRSCRIPT/repoexport" $i
+		"$DIRSCRIPT/repoupdate" $i &&
+		"$DIRSCRIPT/repoexport" $i &&
 		"$DIRSCRIPT/repocommit" $i
 	done
 
