@@ -822,7 +822,6 @@ Debug Mode
 
 Debug Templates
 aliasfile = DebugTemplates/DebugTemplates.alias.php
-optional = apihelp-expandframe-example-1
 
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
