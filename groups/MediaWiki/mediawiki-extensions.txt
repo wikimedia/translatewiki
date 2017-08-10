@@ -1784,7 +1784,6 @@ Open Layers
 Open Stack Manager
 aliasfile = OpenStackManager/OpenStackManager.alias.php
 optional = prefs-openstack
-ignored = apihelp-novaaddress-param-id
 
 # Open Street Map Slippy Map // message prefix "slippymap-"
 
@@ -2682,7 +2681,6 @@ optional = visualeditor-preference-core-discussion-link, visualeditor-preference
 optional = visualeditor-dialog-media-dimensionseparator, visualeditor-dialog-media-info-dateformat
 optional = visualeditor-dialog-media-info-ellipsis, visualeditor-dialog-media-info-separator
 ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
-ignored = apihelp-visualeditor-param-format, apihelp-visualeditoredit-param-watch, apihelp-visualeditoredit-param-wikitext
 ignored = visualeditor-wikitext-warning-link, visualeditor-quick-access-characters.json
 ignored = visualeditor-preference-newwikitexteditor-discussion-link, visualeditor-preference-newwikitexteditor-info-link
 ignored = apierror-visualeditor-docserver-http, apierror-visualeditor-docserver-http-error
