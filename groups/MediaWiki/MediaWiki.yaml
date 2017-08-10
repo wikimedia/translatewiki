@@ -410,6 +410,7 @@ TAGS:
     - deletedarticle
     - deletedarticle
     - deletedcontributions-summary
+    - diff-form-summary
     - disambiguations-summary
     - doubleredirects-summary
     - edithelppage
@@ -481,6 +482,7 @@ TAGS:
     - patrol-log-diff
     - patrol-log-line
     - pear-mail-error
+    - permanentlink-summary
     - php-mail-error
     - preferences-summary
     - prefixindex-summary
