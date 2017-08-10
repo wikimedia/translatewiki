@@ -586,6 +586,7 @@ FILES:
 
 TAGS:
   optional:
+    - config-skins-screenshot
     - config-type-postgres
     - config-type-sqlite
     - config-type-oracle
