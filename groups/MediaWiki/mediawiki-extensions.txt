@@ -59,10 +59,6 @@ aliasfile = AdminLinks/AdminLinks.alias.php
 
 Ads
 
-# Missing message documentation qqq
-# Advanced Meta
-# descmsg = ameta-desc
-
 Advanced Search
 optional = advancedsearch-filetype-bitmap-jpeg, advancedsearch-filetype-bitmap-tiff, advancedsearch-filetype-vector-svg
 optional = advancedsearch-filetype-audio-midi, advancedsearch-filetype-audio-wav, advancedsearch-filetype-audio-flac
