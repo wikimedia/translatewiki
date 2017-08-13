@@ -47,6 +47,7 @@ $wgExtraLanguageNames['kbp'] = 'Kabɩyɛ'; # Kabiye / Niklas 2016-04-06
 $wgExtraLanguageNames['kbd-latn'] = 'Qabardjajəbza'; # Kabardian (Latin script) / Siebrand 2010-02-21
 $wgExtraLanguageNames['kea'] = 'Kabuverdianu'; # Kabuverdianu / Siebrand 2009-01-07
 $wgExtraLanguageNames['kgp'] = 'Kaingáng'; # Siebrand 2008-12-05
+$wgExtraLanguageNames['kip'] = 'शेषी पाङ'; # Amir 2017-08-13
 $wgExtraLanguageNames['kjh'] = 'хакас'; # Khakas / Amire80 2014-06-17
 $wgExtraLanguageNames['knn'] = 'महाराष्ट्रीय कोंकणी'; # Maharashtrian Konkani / 2015-XX-XX
 $wgExtraLanguageNames['krl'] = 'Karjala'; # Karelian / Siebrand 2008-04-12
