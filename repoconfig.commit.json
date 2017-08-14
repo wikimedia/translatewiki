@@ -376,10 +376,6 @@
 				"type": "github",
 				"url": "git@github.com:cmln/chameleon.git"
 			},
-			"mwgithub/DataValues/DataValues": {
-				"type": "github",
-				"url": "git@github.com:DataValues/DataValues.git"
-			},
 			"mwgithub/jeblad/Pickle": {
 				"type": "github",
 				"url": "git@github.com:jeblad/Pickle.git"

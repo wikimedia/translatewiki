@@ -31,15 +31,6 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/wmde/DataTypes/i18n/%CODE%.json"
 ---
 BASIC:
-  id: mwgithub-datavalues
-  label: Data Values
-  description: "{{Special:MyLanguage/MediaWiki:Datavalues-desc/en}}"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/DataValues/DataValues/i18n/%CODE%.json"
----
-BASIC:
   id: mwgithub-semanticbreadcrumblinks
   label: Semantic Breadcrumb Links
   description: "{{Special:MyLanguage/MediaWiki:Sbl-desc/en}}"
