@@ -569,6 +569,8 @@ TAGS:
     - version-entrypoints-index-php
     - version-entrypoints-load-php
     - version-summary
+    - watchlist-unwatch
+    - watchlist-unwatch-undo
     - wantedcategories-summary
     - wantedfiles-summary
     - wantedtemplates-summary
