@@ -2255,8 +2255,7 @@ Semantic Tasks
 
 Semantic Title
 
-Semantic Update On Purge
-descmsg = suop-desc
+# Semantic Update On Purge // 2015-08-15: Obsolete
 
 Semantic Web Browser
 descmsg = swb_desc
