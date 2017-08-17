@@ -93,7 +93,6 @@ $wgExtraLanguageNames['smn'] = 'anarâškielâ'; # Inari Saami / Siebrand 2014-1
 $wgExtraLanguageNames['sty'] = 'Себертатар'; # Siberian Tatar / Amir 2016-11-26
 $wgExtraLanguageNames['swb'] = 'Shikomoro'; # Comorian
 $wgExtraLanguageNames['sxu'] = 'Säggssch'; # Upper Saxon
-$wgExtraLanguageNames['tay'] = 'Tayal'; # Atayal / Amir 2017-05-02
 $wgExtraLanguageNames['test'] = 'Test (site admin only)'; # Test
 $wgExtraLanguageNames['tji'] = 'pi tsi kha'; # Northern Tujia / 2016-06-22
 $wgExtraLanguageNames['tkr'] = 'ЦӀаӀхна миз'; # Tsakhur / Siebrand 2011-04-26

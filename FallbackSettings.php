@@ -127,7 +127,6 @@ $wgTranslateLanguageFallbacks['smj'] = [ 'nb' ];
 $wgTranslateLanguageFallbacks['smn'] = [ 'fi', 'sma' ];
 $wgTranslateLanguageFallbacks['sv'] = [ 'da', 'nb', 'nn' ]; # Siebrand 2008-03-23
 $wgTranslateLanguageFallbacks['swb'] = 'sw';
-$wgTranslateLanguageFallbacks['tay'] = [ 'zh-hant' ]; # Amir 2017-05-03
 $wgTranslateLanguageFallbacks['tet'] = 'pt';
 $wgTranslateLanguageFallbacks['tji'] = 'zh-hans';
 $wgTranslateLanguageFallbacks['tkr'] = 'ru';
