@@ -55,7 +55,3 @@ ignored = voiceintro-title
 What leaves here
 
 Wikiviewstats
-
-X's Tools
-id = tsint-xtools
-file = xtools/%CODE%.json
