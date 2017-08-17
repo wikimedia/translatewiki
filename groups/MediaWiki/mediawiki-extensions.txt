@@ -60,6 +60,7 @@ aliasfile = AdminLinks/AdminLinks.alias.php
 Ads
 
 Advanced Search
+ignored = advancedSearch-filesize-equals-symbol, advancedSearch-filesize-greater-than-symbol, advancedSearch-filesize-smaller-than-symbol
 optional = advancedsearch-filetype-bitmap-jpeg, advancedsearch-filetype-bitmap-tiff, advancedsearch-filetype-vector-svg
 optional = advancedsearch-filetype-audio-midi, advancedsearch-filetype-audio-wav, advancedsearch-filetype-audio-flac
 optional = advancedsearch-filetype-document-pdf
