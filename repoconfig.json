@@ -512,7 +512,7 @@
 			},
 			"wiki-ai/wikilabels-wikimedia-config": {
 				"type": "github",
-				"url": "https://github.com/wiki-ai/wikilabels-wikimedia-config.git"
+				"url": "https://github.com/wiki-ai/wikilabels-wmflabs-deploy.git"
 			}
 		}
 	},
