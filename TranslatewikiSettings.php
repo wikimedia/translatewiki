@@ -249,7 +249,7 @@ $wgNewUserMinorEdit = false;
 require_once "$EXT/ContributionScores/ContributionScores.php";
 $wgContribScoreIgnoreBots = true;
 
-require_once "$EXT/WebChat/WebChat.php";
+wfLoadExtension( 'WebChat' );
 $wgWebChatChannel = '#mediawiki-i18n';
 $wgWebChatClient = 'freenodeChat';
 
