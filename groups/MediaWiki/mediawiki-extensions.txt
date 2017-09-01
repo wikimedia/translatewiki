@@ -972,7 +972,7 @@ descmsg = electronPdfService-desc
 Email Auth
 
 Email Authorization
-aliasfile = EmailAuthorization/includes/EmailAuthorizationConfig.alias.php
+aliasfile = EmailAuthorization/includes/EmailAuthorization.alias.php
 
 Email Capture
 
