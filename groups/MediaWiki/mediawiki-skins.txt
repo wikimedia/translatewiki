@@ -79,7 +79,7 @@ ignored = refreshed-icon-logged-in, refreshed-icon-logged-out
 # optional = slate.css, slate.js
 
 Splash
-ignored = site-banner, global-links-menu, content-footer
+ignored = site-banner, global-links-menu, content-footer, splash-personaltools
 
 Tempo
 
