@@ -2709,8 +2709,6 @@ aliasfile = WebChat/WebChat.alias.php
 
 Web Platform Auth
 
-Web Platform Search Autocomplete
-
 White Space
 
 Whitelist Pages
