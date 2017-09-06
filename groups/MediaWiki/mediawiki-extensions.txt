@@ -985,6 +985,8 @@ aliasfile = EmailAuthorization/includes/EmailAuthorization.alias.php
 
 Email Capture
 
+Email Diff
+
 Error Handler
 
 Ether Editor
