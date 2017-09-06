@@ -1693,6 +1693,8 @@ optional = networkauth-name, networkauth-purltext
 # ShoutWiki specific
 #New Signup Page
 
+New User Actions
+
 New User Message
 ignored = newusermessage-editor, newusermessage-substitute
 ignored = newusermessage-template
