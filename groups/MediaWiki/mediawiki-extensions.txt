@@ -136,7 +136,7 @@ ignored = proxyblock-logentry
 
 Automatic Board Welcome
 
-AWS
+# AWS // 2017-09-05: Archived (T174864)
 
 # AWS SDK // 2017-06-15: Archived
 
