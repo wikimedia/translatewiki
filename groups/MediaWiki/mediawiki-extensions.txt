@@ -99,6 +99,9 @@ aliasfile = ArticleComments/ArticleComments.alias.php
 descmsg = article-comments-desc
 ignored = article-comments-prefilled-comment-text, article-comments-new-comment-heading, article-comments-comment-contents
 
+Article Creation Workflow
+descmsg = acw-desc
+
 Article Feedback v5
 aliasfile = ArticleFeedbackv5/ArticleFeedbackv5.alias.php
 optional=articlefeedbackv5-cta1-learn-how-url, articlefeedbackv5-cta6-button-link, articlefeedbackv5-error-abuse-link, articlefeedbackv5-help-form-linkurl
