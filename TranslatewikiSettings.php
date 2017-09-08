@@ -271,6 +271,8 @@ enableSemantics( 'translatewiki.net' );
 $smwgNamespacesWithSemanticLinks[90/*NS_LQT_THREAD*/] = true;
 $smwgNamespacesWithSemanticLinks[92/*NS_LQT_SUMMARY*/] = true;
 $smwgEnabledEditPageHelp = false;
+$smwgQMaxInlineLimit = 2000;
+$smwgQUpperbound = 2000;
 
 wfLoadExtension( 'PageForms' );
 $sfgRedLinksCheckOnlyLocalProps = true;
