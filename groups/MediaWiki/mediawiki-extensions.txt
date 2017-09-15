@@ -531,6 +531,8 @@ Bounce Handler
 
 Bread Crumbs
 
+# Brickipedia Extra // no message prefix, Brickipedia-specific
+
 BS SMW Connector
 descmsg = bs-bssmwconnector-desc
 optional = bs-bssmwconnector-nmmngr-label-smw
@@ -1993,6 +1995,8 @@ Php Tags Functions
 # Php Tags Maps // Message keys prefixed with "multimaps-..."????
 
 Php Tags SMW
+
+Php Tags SPARQL
 
 Php Tags Storage
 
