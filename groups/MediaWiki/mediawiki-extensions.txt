@@ -2317,8 +2317,7 @@ ignored = security-logentry
 
 Simple Sort
 
-# No message documentation - 2014-10-06
-#Site Scout
+Site Scout
 
 Site Matrix
 aliasfile = SiteMatrix/SiteMatrix.alias.php
@@ -2628,7 +2627,7 @@ ignored = uls-ime-helppage
 
 # Unused Redirects // Missing message documentation
 
-# Upload Logo // No qqq, no message prefix
+# Upload Logo // no message prefix
 
 UR Names
 
