@@ -164,6 +164,8 @@ ignored = betafeatures-test-check-field, betafeatures-test-feature-field
 
 Biblio Plus
 
+# Blackout // Historic for protest to SOPA/PIPA and Internet censorship
+
 # Missing message documentation - 2014-07-08 RS
 #Block And Nuke
 
@@ -959,6 +961,8 @@ Edit Subpages
 
 Editcount
 aliasfile = Editcount/Editcount.alias.php
+
+Editcount Additions
 
 Edit User
 aliasfile = EditUser/EditUser.alias.php
