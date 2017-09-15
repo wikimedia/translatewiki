@@ -2135,8 +2135,7 @@ aliasfile = ReassignEdits/ReassignEdits.alias.php
 Recent Activity Feed
 aliasfile = RecentActivityFeed/RecentActivityFeed.alias.php
 
-# Incomplete message documenation
-# Reflect
+Reflect
 
 Refresh Special
 aliasfile = RefreshSpecial/RefreshSpecial.alias.php
