@@ -1637,7 +1637,8 @@ ignored = multiboilerplate, multiboilerplate-label
 
 Multi Maps
 
-# Multi Upload // Missing qqq
+Multi Upload
+aliasfile = MultiBoilerplate/MultiBoilerplate.alias.php
 
 Multimedia Player
 
