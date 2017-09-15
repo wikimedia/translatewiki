@@ -2137,7 +2137,8 @@ aliasfile = RecentActivityFeed/RecentActivityFeed.alias.php
 Refresh Special
 aliasfile = RefreshSpecial/RefreshSpecial.alias.php
 
-# Regex Block // 2016-12-06: Incomplete message documenation
+Regex Block
+aliasfile = RegexBlock/RegexBlock.alias.php
 
 Regex Fun
 
