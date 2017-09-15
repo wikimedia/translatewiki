@@ -2365,7 +2365,8 @@ Spam Diff Tool
 aliasfile = SpamDiffTool/SpamDiffTool.alias.php
 ignored = spamdifftool-top-level-domains
 
-# Spam Regex // 2016-12-06: Incomplete message documentation
+Spam Regex
+aliasfile = SpamRegex/SpamRegex.alias.php
 
 Spark
 
