@@ -2299,6 +2299,8 @@ aliasfile = ShortUrl/ShortUrl.alias.php
 
 #Shout Wiki API / very ShoutWiki-specific
 
+Show Me
+
 Side Bar Menu
 
 Sidebar Donate Box
