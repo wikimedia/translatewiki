@@ -1559,6 +1559,8 @@ aliasfile = MassMessage/MassMessage.alias.php
 magicfile = MassMessage/MassMessage.i18n.magic.php
 ignored = massmessage-target, massmessage-message-footer, massmessage-target-local
 
+Mass Message Email
+
 Math
 aliasfile = Math/Math.alias.php
 
