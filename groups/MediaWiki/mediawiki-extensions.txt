@@ -2278,6 +2278,8 @@ descmsg = swb_desc
 aliasfile = SemanticWebBrowser/SemanticWebBrowser.alias.php
 optional = swb_browse_more
 
+Send Grid
+
 Sentry
 
 Shared Css Js
