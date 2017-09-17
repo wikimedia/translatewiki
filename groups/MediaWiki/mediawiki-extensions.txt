@@ -799,8 +799,7 @@ CSS
 
 Custom Page
 
-# Unused on WMF since 8/2012 and seems unmaintened. https://gerrit.wikimedia.org/r/#/c/18201/
-#Custom User Signup
+# Custom User Signup // archived with T176083
 
 D3 Loader
 
