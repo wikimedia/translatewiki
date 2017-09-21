@@ -193,11 +193,6 @@ id = ext-bs-avatars
 descmsg = bs-avatars-desc
 file = BlueSpiceExtensions/Avatars/i18n/%CODE%.json
 
-Blue Spice - Authors
-id = ext-bs-authors
-descmsg = bs-authors-desc
-file = BlueSpiceExtensions/Authors/i18n/%CODE%.json
-
 Blue Spice - Blog
 id = ext-bs-blog
 descmsg = bs-blog-desc
@@ -355,12 +350,6 @@ id = ext-bs-pageassignments
 descmsg = bs-pageassignments-desc
 file = BlueSpiceExtensions/PageAssignments/i18n/%CODE%.json
 
-Blue Spice - Page Templates
-id = ext-bs-pagetemplates
-descmsg = bs-pagetemplates-desc
-file = BlueSpiceExtensions/PageTemplates/i18n/%CODE%.json
-aliasfile = BlueSpiceExtensions/PageTemplates/includes/specials/SpecialPageTemplatesAdmin.alias.php
-
 Blue Spice - Pages Visited
 id = ext-bs-pagesvisited
 descmsg = bs-pagesvisited-desc
@@ -408,20 +397,10 @@ id = ext-bs-shoutbox
 descmsg = bs-shoutbox-desc
 file = BlueSpiceExtensions/ShoutBox/i18n/%CODE%.json
 
-Blue Spice - Smart List
-id = ext-bs-smartlist
-descmsg = bs-smartlist-desc
-file = BlueSpiceExtensions/SmartList/i18n/%CODE%.json
-
 Blue Spice - State Bar
 id = ext-bs-statebar
 descmsg = bs-statebar-desc
 file = BlueSpiceExtensions/StateBar/i18n/%CODE%.json
-
-Blue Spice - Statistics
-id = ext-bs-statistics
-descmsg = bs-statistics-desc
-file = BlueSpiceExtensions/Statistics/i18n/%CODE%.json
 
 Blue Spice - Top Menu Bar Customizer
 id = ext-bs-topmenubarcustomizer
