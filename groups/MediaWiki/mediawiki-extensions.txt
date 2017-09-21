@@ -799,8 +799,6 @@ CSS
 
 Custom Page
 
-# Custom User Signup // archived with T176083
-
 D3 Loader
 
 Dashiki
@@ -1956,9 +1954,6 @@ magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
 Parser Migration
 
-# Deleted 2015-08-02
-# Parsoid
-
 Parsoid Batch API
 
 # Incomplete message doc
@@ -2033,8 +2028,6 @@ Pool Counter
 Popups
 
 #Post Edit / Merged into core / 2013-06-01
-
-#Pref Switch / No longer used at WMF / 2010-11-23 Raymond.
 
 Premoderation
 
@@ -2687,8 +2680,6 @@ Viki Title Icon
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
-# Vine // Archived: https://gerrit.wikimedia.org/r/#/c/336246/
-
 Virtual Keyboard
 
 VisualEditor (MediaWiki extension)
@@ -2935,9 +2926,6 @@ ignored = wikimedia-sidebar
 
 Wikimedia Project Names
 file = WikimediaMessages/i18n/wikimediaprojectnames/%CODE%.json
-
-# Undeployed on WMF per https://gerrit.wikimedia.org/r/#/c/149785/
-# Wikimedia Shop Link
 
 Wikimedia Temporary Messages
 file = WikimediaMessages/i18n/temporary/%CODE%.json
