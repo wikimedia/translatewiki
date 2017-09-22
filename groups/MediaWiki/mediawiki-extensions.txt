@@ -345,11 +345,6 @@ id = ext-bs-pageaccess
 descmsg = bs-pageaccess-desc
 file = BlueSpiceExtensions/PageAccess/i18n/%CODE%.json
 
-Blue Spice - Page Assignments
-id = ext-bs-pageassignments
-descmsg = bs-pageassignments-desc
-file = BlueSpiceExtensions/PageAssignments/i18n/%CODE%.json
-
 Blue Spice - Pages Visited
 id = ext-bs-pagesvisited
 descmsg = bs-pagesvisited-desc
@@ -387,10 +382,7 @@ id = ext-bs-saferedit
 descmsg = bs-saferedit-desc
 file = BlueSpiceExtensions/SaferEdit/i18n/%CODE%.json
 
-Blue Spice - Secure File Store
-id = ext-bs-securefilestore
-descmsg = bs-securefilestore-desc
-file = BlueSpiceExtensions/SecureFileStore/i18n/%CODE%.json
+# Blue Spice - Secure File Store // Removed due to end of development
 
 Blue Spice - Shout Box
 id = ext-bs-shoutbox
@@ -425,11 +417,6 @@ Blue Spice - Usage Tracker
 id = ext-bs-usagetracker
 descmsg = bs-usagetracker-desc
 file = BlueSpiceExtensions/UsageTracker/i18n/%CODE%.json
-
-Blue Spice - User Manager
-id = ext-bs-usermanager
-descmsg = bs-usermanager-desc
-file = BlueSpiceExtensions/UserManager/i18n/%CODE%.json
 
 Blue Spice - User Preferences
 id = ext-bs-userpreferences
