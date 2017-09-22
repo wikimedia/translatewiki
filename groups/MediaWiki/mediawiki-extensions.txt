@@ -2747,8 +2747,6 @@ Wiki Share
 
 Wiki Text Logged In Out
 
-# Wiki Twidget
-
 Wikibase - Client
 file = Wikibase/client/i18n/%CODE%.json
 aliasfile = Wikibase/client/WikibaseClient.i18n.alias.php
