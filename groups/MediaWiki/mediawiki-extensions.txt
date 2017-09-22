@@ -469,6 +469,10 @@ descmsg = bs-insertTemplate-desc
 Blue Spice Multi Upload
 descmsg = bs-multiupload-desc
 
+Blue Spice Page Assignments
+descmsg = bs-pageassignments-desc
+aliasfile = BlueSpicePageAssignments/BlueSpicePageAssignments.alias.php
+
 Blue Spice Page Version
 descmsg = bs-pageversion-desc
 
