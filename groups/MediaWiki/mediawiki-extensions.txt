@@ -479,7 +479,7 @@ descmsg = bs-multiupload-desc
 
 Blue Spice Page Assignments
 descmsg = bs-pageassignments-desc
-aliasfile = BlueSpicePageAssignments/BlueSpicePageAssignments.alias.php
+aliasfile = BlueSpicePageAssignments/PageAssignments.alias.php
 
 Blue Spice Page Templates
 descmsg = bs-pagetemplates-desc
