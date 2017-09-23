@@ -481,6 +481,10 @@ Blue Spice Page Assignments
 descmsg = bs-pageassignments-desc
 aliasfile = BlueSpicePageAssignments/BlueSpicePageAssignments.alias.php
 
+Blue Spice Page Templates
+descmsg = bs-pagetemplates-desc
+aliasfile = BlueSpicePageTemplates/includes/specials/SpecialPageTemplatesAdmin.alias.php
+
 Blue Spice Page Version
 descmsg = bs-pageversion-desc
 
