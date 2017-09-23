@@ -452,6 +452,10 @@ id = ext-bs-wikiadmin
 descmsg = bs-wikiadmin-desc
 file = BlueSpiceExtensions/WikiAdmin/i18n/%CODE%.json
 
+Blue Spice Authors
+descmsg = bs-authors-desc
+magicfile = BlueSpiceAuthors/languages/Authors.i18n.magic.php
+
 Blue Spice Category Manager
 aliasfile = BlueSpiceCategoryManager/includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
