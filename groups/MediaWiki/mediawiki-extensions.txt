@@ -478,6 +478,10 @@ descmsg = bs-pageversion-desc
 
 # Blue Spice Sub Page Tree // no i18n
 
+Blue Spice User Manager
+descmsg = bs-usermanager-desc
+aliasfile = BlueSpiceUserManager/includes/specials/BlueSpiceUserManager.alias.php
+
 # Boiler Plate excluded per T156569
 
 Book Manager
