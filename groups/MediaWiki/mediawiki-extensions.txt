@@ -488,6 +488,9 @@ aliasfile = BlueSpicePageTemplates/includes/specials/SpecialPageTemplatesAdmin.a
 Blue Spice Page Version
 descmsg = bs-pageversion-desc
 
+Blue Spice Smartlist
+descmsg = bs-smartlist-desc
+
 # Blue Spice Sub Page Tree // no i18n
 
 Blue Spice User Manager
