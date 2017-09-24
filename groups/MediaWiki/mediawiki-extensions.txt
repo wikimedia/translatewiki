@@ -1648,6 +1648,7 @@ optional = multimediaviewer-text-embed-credit-text-l, multimediaviewer-html-embe
 ignored = multimediaviewer-embed-dimensions-with-file-format, multimediaviewer-report-issue-url
 
 Multi Language Manager
+aliasfile = MultiLanguageManager/MultiLanguageManager.alias.php
 descmsg = mlm-desc
 
 MwEmbed Support
