@@ -647,6 +647,9 @@ optional = coll-setting-columns-1, coll-setting-columns-2
 Comment Pages
 ignored = commenttab-editintro, commenttab-preload
 
+Comment Streams
+aliasfile = CommentStreams/includes/CommentStreamsAllComments.alias.php
+
 Commentbox
 aliasfile = Commentbox/Commentbox.alias.php
 ignored = commentbox-prefill
