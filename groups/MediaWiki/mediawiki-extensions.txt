@@ -1971,10 +1971,6 @@ Per Page License
 
 PGF TikZ
 
-# Abandoned: https://phabricator.wikimedia.org/T70974#2055323
-#Phalanx
-#aliasfile = Phalanx/Phalanx.alias.php
-
 PHP Excel
 
 Php Highlight
