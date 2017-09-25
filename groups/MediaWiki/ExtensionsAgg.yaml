@@ -25,6 +25,7 @@ BASIC:
 
 GROUPS:
   - ext-bs-*
+  - ext-bluespice*
 
 ---
 BASIC:
