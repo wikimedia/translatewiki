@@ -20,7 +20,9 @@ $wgJobTypeConf['default'] = [ 'class' => 'JobQueueDB', 'order' => 'random', 'cla
 /**
  * Experimentalism
  */
-$wgExperimentalHtmlIds = true;
+// Migrate off $wgExperimentalHtmlIds
+$wgFragmentMode = [ 'html5-legacy', 'html5' ];
+
 $wgAllUnicodeFixes = true;
 $wgDevelopmentWarnings = true;
 $wgResourceLoaderStorageEnabled = true;
