@@ -22,15 +22,6 @@ TEMPLATE:
     class: MediaWikiInsertablesSuggester
 ---
 BASIC:
-  id: mwgithub-datatypes
-  label: Data Types
-  description: "{{Special:MyLanguage/MediaWiki:Datatypes-desc/en}}"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/wmde/DataTypes/i18n/%CODE%.json"
----
-BASIC:
   id: mwgithub-semanticbreadcrumblinks
   label: Semantic Breadcrumb Links
   description: "{{Special:MyLanguage/MediaWiki:Sbl-desc/en}}"

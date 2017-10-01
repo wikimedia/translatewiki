@@ -470,10 +470,6 @@
 			"mwgithub/SemanticMediaWiki/WhatsNearby": {
 				"type": "github",
 				"url": "https://github.com/SemanticMediaWiki/WhatsNearby.git"
-			},
-			"mwgithub/wmde/DataTypes": {
-				"type": "github",
-				"url": "https://github.com/wmde/DataTypes.git"
 			}
 		}
 	},
