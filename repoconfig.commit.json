@@ -303,7 +303,7 @@
 		"group": "out-osm-*,osm-*",
 		"repos": {
 			"osm": {
-				"type": "git",
+				"type": "github",
 				"url": "ssh://translatewiki@git.openstreetmap.org/var/lib/git/rails.git"
 			},
 			"potlatch2": {
