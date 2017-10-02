@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0e6af365_ae2ae6d5",
+        "filename": "groups/Wikimedia/Wikinity.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-10-02T10:03:55Z",
+      "side": 1,
+      "message": "Forgot to update the label?",
+      "revId": "ca0e29d7d4644c75c88beb19526a6c95381ef76e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e6af365_4e824acf",
+        "filename": "groups/Wikimedia/Wikinity.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-10-02T10:03:55Z",
+      "side": 1,
+      "message": "This also looks wrong",
+      "revId": "ca0e29d7d4644c75c88beb19526a6c95381ef76e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e6af365_ee869edf",
+        "filename": "groups/Wikimedia/Wikinity.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-10-02T10:03:55Z",
+      "side": 1,
+      "message": "You don\u0027t have plural or variables, right? These are not useful if you don\u0027t.",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 38
+      },
+      "revId": "ca0e29d7d4644c75c88beb19526a6c95381ef76e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
