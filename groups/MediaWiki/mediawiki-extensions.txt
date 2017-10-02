@@ -799,6 +799,8 @@ Data Transfer
 aliasfile = DataTransfer/languages/DT_Aliases.php
 optional = dt_filetype_xml, dt_filetype_csv
 
+Data Types
+
 Date Diff
 
 Debug Mode
