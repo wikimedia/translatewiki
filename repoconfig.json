@@ -569,6 +569,15 @@
 			}
 		}
 	},
+	"wikinity": {
+		"group": "wikinity",
+		"repos": {
+			"wikinity": {
+				"type": "github",
+				"url": "https://github.com/urbanecm/wikinity.git"
+			}
+		}
+	},
 	"xtools": {
 		"group": "xtools",
 		"repos": {
