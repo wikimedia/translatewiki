@@ -19,12 +19,7 @@ checkVar() {
 	fi
 }
 
-if [ "$PROJECT" = "fudforum" ]
-then
-	checkVar 'REPO_FUDFORUM'
-	svn checkout "$REPO_FUDFORUM" $PROJECT
-
-elif [ "$PROJECT" = "ihris" ]
+if [ "$PROJECT" = "ihris" ]
 then
 	checkVar 'REPO_IHRIS_MODULES'
 	mkdir $PROJECT
@@ -50,11 +45,6 @@ then
 elif [ "$PROJECT" = "mediawiki-skins" ]
 then
 	mkdir -p $PROJECT
-
-elif [ "$PROJECT" = "nocc" ]
-then
-	checkVar 'REPO_NOCC'
-	svn checkout "$REPO_NOCC" $PROJECT
 
 else
 	echo "`basename $0`: Unknown project"

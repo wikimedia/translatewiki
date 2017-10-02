@@ -53,11 +53,7 @@ for i in $REPONG; do
 	fi
 done
 
-if [ "$PROJECT" = "fudforum" ]
-then
-	svn up -q "$PROJECT"
-
-elif [ "$PROJECT" = "ihris" ]
+if [ "$PROJECT" = "ihris" ]
 then
 	cd "$PROJECT" || exit
 	for MODULE in $REPO_IHRIS_MODULES
@@ -74,10 +70,6 @@ then
 	checkVar 'REPO_MWSKINGIT'
 	fetchReposFromGerrit mediawiki/skins/ |
 		xargs -P4 -I___ "$CLUPDATE_GERRIT" "$REPO_MWSKINGIT/___.git" "$DIR/$PROJECT/___"
-
-elif [ "$PROJECT" = "nocc" ]
-then
-	svn up -q "$PROJECT"
 
 else
 	echo "$(basename "$0"): Unknown project"

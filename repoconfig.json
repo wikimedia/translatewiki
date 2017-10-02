@@ -159,6 +159,15 @@
 			}
 		}
 	},
+	"fudforum": {
+		"group": "out-fudforum",
+		"repos": {
+			"fudforum": {
+				"type": "svn",
+				"url": "svn://svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n"
+			}
+		}
+	},
 	"gapfinder": {
 		"group": "gapfinder",
 		"repos": {
@@ -285,6 +294,15 @@
 			"nfcring-control": {
 				"type": "github",
 				"url": "https://github.com/mclear/NFC_Ring_Control.git"
+			}
+		}
+	},
+	"nocc": {
+		"group": "out-nocc-*",
+		"repos": {
+			"nocc": {
+				"type": "svn",
+				"url": "https://svn.code.sf.net/p/nocc/code/trunk"
 			}
 		}
 	},
