@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0e6af365_09152c9c",
+        "filename": "groups/Wikimedia/Wikinity.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-10-02T13:14:05Z",
+      "side": 1,
+      "message": "This part should be wikinity",
+      "range": {
+        "startLine": 17,
+        "startChar": 30,
+        "endLine": 17,
+        "endChar": 48
+      },
+      "revId": "872c63b3facdff41fa5feef31623bff90d90e217",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e6af365_a92ae0d5",
+        "filename": "groups/Wikimedia/Wikinity.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-10-02T13:14:05Z",
+      "side": 1,
+      "message": "This part should be messages",
+      "range": {
+        "startLine": 17,
+        "startChar": 49,
+        "endLine": 17,
+        "endChar": 79
+      },
+      "revId": "872c63b3facdff41fa5feef31623bff90d90e217",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
