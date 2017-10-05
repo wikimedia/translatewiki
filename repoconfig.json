@@ -321,7 +321,7 @@
 		"group": "out-osm-*,osm-*",
 		"repos": {
 			"osm": {
-				"type": "git",
+				"type": "github",
 				"url": "git://git.openstreetmap.org/rails.git"
 			},
 			"potlatch2": {
