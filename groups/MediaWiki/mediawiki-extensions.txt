@@ -70,8 +70,6 @@ Anchor Handler
 
 Annotator
 
-Anti Bot
-
 Anti Spoof
 ignored = antispoof-conflict-item, antispoof-bad-char-non-printable
 optional = antispoof-bad-char
