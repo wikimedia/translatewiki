@@ -36,18 +36,7 @@ for i in $REPONG; do
 	fi
 done
 
-if [ "$PROJECT" = "fudforum" ]
-then
-	cd "$DIR/$PROJECT"
-	svn add -q --force *
-	for i in `find . -name msg`
-	do
-		svn propset -q svn:mime-type text/plain $i
-		svn propset -q svn:eol-style native $i
-	done
-	svn commit --message "$COMMITMSG"
-
-elif [ "$PROJECT" = "ihris" ]
+if [ "$PROJECT" = "ihris" ]
 then
 	for MODULE in $REPO_IHRIS_MODULES
 	do
@@ -73,12 +62,6 @@ then
 		gitCommitGerrit "$DIR/$PROJECT/$i"
 		"$DIRSCRIPT/merge-wmgerrit-patches" "mediawiki/skins/$i"
 	done
-
-elif [ "$PROJECT" = "nocc" ]
-then
-	cd "$DIR/$PROJECT"
-	svn add --force * --auto-props --parents --depth infinity -q
-	svn commit --message "$COMMITMSG"
 
 else
 	echo "`basename $0`: Unknown project"

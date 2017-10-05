@@ -27,11 +27,7 @@ for i in $REPONG; do
 	fi
 done
 
-if [ "$PROJECT" = "fudforum" ]
-then
-	php "$EXPORTER" --target . --group=out-fudforum --lang='*' --skip en $THRESHOLD
-
-elif [ "$PROJECT" = "ihris" ]
+if [ "$PROJECT" = "ihris" ]
 then
 	php "$EXPORTER" --target . --group=out-ihris* --lang='*' --skip en,qqq $THRESHOLD --ppgettext=/resources/projects
 
@@ -56,11 +52,6 @@ then
 	    mediawiki-skin-y mediawiki-skin-z"
 
 	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
-
-elif [ "$PROJECT" = "nocc" ]
-then
-	php "$EXPORTER" --target . --group=out-nocc-* --lang='*' --skip en,qqq $THRESHOLD
-	php "$EXPORTER" --target . --group=out-nocc-* --lang qqq
 
 else
 	echo "`basename $0`: Unknown project"
