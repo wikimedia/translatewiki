@@ -428,19 +428,20 @@ $checkBlacklist = [
 		'check' => 'links',
 		'message' => [
 			'smw_qc_query_help', // Contains links that are translated
-			'smw-statistics-error-count', // Contains Property links
-			'smw-statistics-query-inline', // Contains Property links
+			'smw-search-syntax-support', // Contains property links
+			'smw-statistics-error-count', // Contains property links
+			'smw-statistics-query-inline', // Contains property links
 		]
 	],
 	[
 		'group' => 'mwgithub-semanticcite',
 		'check' => 'links',
 		'message' => [
-			'sci-metadata-search-intro-doi', // Contains Property links
-			'sci-metadata-search-intro-pubmed', // Contains Property links
-			'sci-metadata-search-intro-oclc', // Contains Property links
-			'sci-metadata-search-intro-ol', // Contains Property links
-			'sci-metadata-search-intro-viaf', // Contains Property links
+			'sci-metadata-search-intro-doi', // Contains property links
+			'sci-metadata-search-intro-pubmed', // Contains property links
+			'sci-metadata-search-intro-oclc', // Contains property links
+			'sci-metadata-search-intro-ol', // Contains property links
+			'sci-metadata-search-intro-viaf', // Contains property links
 		]
 	],
 	[
