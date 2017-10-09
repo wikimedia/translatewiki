@@ -581,7 +581,7 @@ Checkpoint
 
 Check User
 aliasfile = CheckUser/CheckUser.alias.php
-ignored = checkuser-toollinks
+ignored = checkuser-toollinks, checkuser-userlinks-ip
 optional = group-checkuser.css, group-checkuser.js
 
 Cirrus Search
