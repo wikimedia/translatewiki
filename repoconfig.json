@@ -322,7 +322,7 @@
 		"repos": {
 			"osm": {
 				"type": "github",
-				"url": "git://git.openstreetmap.org/rails.git"
+				"url": "https://github.com/openstreetmap/openstreetmap-website.git"
 			},
 			"potlatch2": {
 				"type": "github",
