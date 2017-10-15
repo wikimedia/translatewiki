@@ -353,7 +353,7 @@ $wgMainPageImages[] = [
 wfLoadExtension( 'InviteSignup' );
 $wgISGroups = [ 'translator' ];
 
-require_once "$EXT/Echo/Echo.php";
+wfLoadExtension( 'Echo' );
 $wgEchoBundleEmailInterval = 14400;
 
 wfLoadExtension( 'OAuth' );
