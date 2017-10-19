@@ -251,12 +251,6 @@ id = ext-bs-extendededitbar
 descmsg = bs-extendededitbar-desc
 file = BlueSpiceExtensions/ExtendedEditBar/i18n/%CODE%.json
 
-Blue Spice - Extended Search
-id = ext-bs-extendedsearch
-descmsg = bs-extendedsearch-desc
-file = BlueSpiceExtensions/ExtendedSearch/i18n/%CODE%.json
-aliasfile = BlueSpiceExtensions/ExtendedSearch/languages/SpecialExtendedSearch.alias.php
-
 Blue Spice - Extension Info
 id = ext-bs-extensioninfo
 descmsg = bs-extensioninfo-desc
