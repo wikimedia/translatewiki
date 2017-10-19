@@ -1989,7 +1989,7 @@ Php Tags Wiki
 Pipe Escape
 
 Pluggable Auth
-aliasfile = PluggableAuth/PluggableAuth.alias.php
+aliasfile = PluggableAuth/includes/PluggableAuth.alias.php
 
 Pluggable SSO
 optional = pluggablesso-extensionname
