@@ -1,0 +1,55 @@
+BASIC:
+  id: dissemin
+  label: Dissemin
+  icon: wiki://Dissemin_blue_logo.png
+  description: "{{Special:MyLanguage/Translations:Group descriptions/dissemin/en}}"
+  namespace: NS_DISSEMIN
+  meta: yes
+  class: AggregateMessageGroup
+
+GROUPS:
+  - dissemin-website
+  - dissemin-papers
+
+---
+BASIC:
+  id: dissemin-website
+  label: Dissemin website
+  icon: wiki://Dissemin_blue_logo.png
+  description: "{{Special:MyLanguage/Translations:Group descriptions/dissemin/en}}"
+  namespace: NS_DISSEMIN
+  class: FileBasedMessageGroup
+  codeBrowser: "https://github.com/dissemin/dissemin/blob/master/locale/%FILE%#L%LINE%"
+
+FILES:
+  class: GettextFFS
+  keyAlgorithm: simple
+  sourcePattern: "%GROUPROOT%/dissemin/locale/%CODE%/LC_MESSAGES/django.po"
+  definitionFile: "%GROUPROOT%/dissemin/locale/django.pot"
+
+  header: |
+    # This file is part of the Dissemin Project
+    # This file is distributed under the same license as the Dissemin package.
+    #
+
+---
+BASIC:
+  id: dissemin-papers
+  label: Dissemin papers
+  icon: wiki://Dissemin_blue_logo.png
+  description: "{{Special:MyLanguage/Translations:Group descriptions/dissemin/en}}"
+  namespace: NS_DISSEMIN
+  class: FileBasedMessageGroup
+  codeBrowser: "https://github.com/dissemin/dissemin/blob/master/locale/%FILE%#L%LINE%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: papers-
+  patterns:
+    - "*"
+
+FILES:
+  class: GettextFFS
+  keyAlgorithm: simple
+  sourcePattern: "%GROUPROOT%/dissemin/locale/%CODE%/LC_MESSAGES/djangojs.po"
+  definitionFile: "%GROUPROOT%/dissemin/locale/djangojs.pot"

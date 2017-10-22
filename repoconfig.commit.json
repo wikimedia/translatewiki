@@ -61,6 +61,15 @@
 			}
 		}
 	},
+	"dissemin": {
+		"group": "dissemin",
+		"repos": {
+			"dissemin": {
+				"type": "github",
+				"url": "git@github.com:dissemin/dissemin.git"
+			}
+		}
+	},
 	"eol": {
 		"group": "out-eol-*",
 		"repos": {
