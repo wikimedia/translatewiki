@@ -2639,8 +2639,6 @@ User Page Edit Protection
 User Page View Tracker
 aliasfile = UserPageViewTracker/UserPageViewTracker.alias.php
 
-# User Snoop // no qqq
-
 # User Status // incomplete qqq
 
 User Throttle
