@@ -631,9 +631,6 @@ ignored = coll-user_book_prefix, coll-community_book_prefix
 optional = coll-setting-papersize-a4
 optional = coll-setting-columns-1, coll-setting-columns-2
 
-Comment Pages
-ignored = commenttab-editintro, commenttab-preload
-
 Comment Streams
 aliasfile = CommentStreams/includes/CommentStreamsAllComments.alias.php
 
@@ -1131,17 +1128,10 @@ Format Dates
 
 Formel Applet
 
-Foxway
-
 Fundraiser Landing Page
 # Alias file not added for translation. This special page is not visible for the user/reader. Raymond 2011-10-24
 ignored = fundraiserlandingpage-wmch-landing-page, fundraiserlandingpage-wmde-landing-page
 ignored = fundraiserlandingpage-wmfr-landing-page, fundraiserlandingpage-wmuk-landing-page
-
-Fundraising Chart
-
-# Unused per T75286
-# Fundraising Email Unsubscribe
 
 Fundraising Translate Workflow
 descmsg = fundraising-translate-workflow-desc
@@ -1310,9 +1300,6 @@ magicfile = I18nTags/I18nTags.magic.php
 If Templates
 
 Iframe Page
-
-# Archived extension
-#Image Link
 
 Image Map
 descmsg = imagemap_desc
@@ -1580,9 +1567,6 @@ Model
 Mol Handler
 
 # MOOC // Some real weird message keys like "_mooc-comment-section-<section>-empty-..."
-
-Moodle
-aliasfile = Moodle/MoodleWS.alias.php
 
 MP3 Media Handler
 
@@ -2083,23 +2067,6 @@ Random Selection
 Random Users With Avatars
 descmsg = random-users-avatars-desc
 
-Reader Feedback
-id = ext-readerfeedback-readerfeedback
-file = ReaderFeedback/i18n/readerfeedback/%CODE%.json
-aliasfile = ReaderFeedback/language/ReaderFeedback.alias.php
-descmsg = readerfeedback-desc
-ignored = readerfeedback-ak-review
-
-Reader Feedback - Rated Pages
-id = ext-readerfeedback-ratedpages
-file = ReaderFeedback/i18n/ratedpages/%CODE%.json
-descmsg = ratedpages
-
-Reader Feedback - Rating History
-id = ext-readerfeedback-ratinghistory
-file = ReaderFeedback/i18n/ratinghistory/%CODE%.json
-descmsg = ratinghistory
-
 Reading Lists
 
 Reassign Edits
@@ -2138,8 +2105,6 @@ Replace Text
 aliasfile = ReplaceText/ReplaceText.alias.php
 
 Rest Base Update Jobs
-
-Reveal Email
 
 Revision Comment Supplement
 aliasfile = RevisionCommentSupplement/RevisionCommentSupplement.alias.php
@@ -2189,8 +2154,6 @@ Section Disqus
 
 Secure HTML
 aliasfile = SecureHTML/SecureHTML.alias.php
-
-Secure Passwords
 
 Secure Poll
 aliasfile = SecurePoll/SecurePoll.alias.php
@@ -2259,8 +2222,6 @@ Send Grid
 
 Sentry
 
-Shared Css Js
-
 # Shared Help Pages / very ShoutWiki-specific
 
 Short Url
@@ -2280,8 +2241,6 @@ Sidebar Donate Box
 
 Sign Writing MediaWiki Plugin
 descmsg = swmp-desc
-
-#Simple Anti Spam / Moved into core 2013-10-24
 
 Simple Changes
 aliasfile = SimpleChanges/SimpleChanges.alias.php
@@ -2444,8 +2403,6 @@ aliasfile = Thanks/Thanks.alias.php
 
 Theme
 
-# Theme Designer // Missing message doc
-
 The Wikipedia Library
 descmsg = theWikipediaLibary-desc
 
@@ -2573,10 +2530,6 @@ optional = twnmp-stats-number-k
 Two Col Conflict
 aliasfile = TwoColConflict/TwoColConflict.alias.php
 descmsg = twoColConflict-desc
-
-Two Factor Authentication
-aliasfile = TwoFactorAuthentication/TwoFactorAuth.alias.php
-descmsg = twofactorauth-desc
 
 # UI Feedback # incomplete qqq
 
@@ -2752,8 +2705,6 @@ Wiki Loves Monuments
 
 Wiki Object Model
 descmsg = wom-desc
-
-Wiki Share
 
 Wiki Text Logged In Out
 
