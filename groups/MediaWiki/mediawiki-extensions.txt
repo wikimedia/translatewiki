@@ -181,16 +181,6 @@ Blue Spice - API
 id = ext-bs-api
 file = BlueSpiceFoundation/i18n/api/%CODE%.json
 
-Blue Spice - Article Info
-id = ext-bs-articleinfo
-descmsg = bs-articleinfo-desc
-file = BlueSpiceExtensions/ArticleInfo/i18n/%CODE%.json
-
-Blue Spice - Avatars
-id = ext-bs-avatars
-descmsg = bs-avatars-desc
-file = BlueSpiceExtensions/Avatars/i18n/%CODE%.json
-
 Blue Spice - Blog
 id = ext-bs-blog
 descmsg = bs-blog-desc
