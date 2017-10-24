@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce637b91_479a2c68",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 10
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-10-24T06:08:24Z",
+      "side": 1,
+      "message": "This doesn\u0027t work outside Wikimedia. You need to load the extension with wfLoadExtension.",
+      "revId": "139d66457fcdf95bb45ed4c24665cea2feb5bf4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
