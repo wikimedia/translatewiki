@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce637b91_eaac4734",
+        "filename": "TranslateSettings.php",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-10-24T11:08:02Z",
+      "side": 1,
+      "message": "Missing semicolon.",
+      "revId": "4e07b1f83a549961198b753b0afafd9793c29b44",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce637b91_aaa64f4e",
+        "filename": "groups/Dissemin/Dissemin.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-10-24T11:08:02Z",
+      "side": 1,
+      "message": "This seems useless without prefix and can likely be removed.",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 9
+      },
+      "revId": "4e07b1f83a549961198b753b0afafd9793c29b44",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce637b91_0a799bc3",
+        "filename": "groups/Dissemin/Dissemin.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2017-10-24T11:08:02Z",
+      "side": 1,
+      "message": "For GettextFFS I recommend setting keyAlgorithm to simple: https://www.mediawiki.org/wiki/Help:Extension:Translate/Group_configuration#FILES",
+      "revId": "4e07b1f83a549961198b753b0afafd9793c29b44",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
