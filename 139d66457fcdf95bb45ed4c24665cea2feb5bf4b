@@ -16,6 +16,24 @@
       "revId": "139d66457fcdf95bb45ed4c24665cea2feb5bf4b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce637b91_98f2c102",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 10
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 4879
+      },
+      "writtenOn": "2017-10-24T14:24:41Z",
+      "side": 1,
+      "message": "Fixed",
+      "parentUuid": "ce637b91_479a2c68",
+      "revId": "139d66457fcdf95bb45ed4c24665cea2feb5bf4b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
