@@ -30,6 +30,10 @@ $phabParams = [
 	'title' => '[[%MESSAGE%]] i18n issue',
 	'description' => "\n----\n\n**URL**: [[https://translatewiki.net/wiki/%MESSAGE%]]",
 ];
+$githubParams = [
+	'title' => '[[%MESSAGE%]] i18n issue',
+	'body' => "[**URL**](https://translatewiki.net/wiki/%MESSAGE%)",
+];
 $phabUrl = 'https://phabricator.wikimedia.org/maniphest/task/edit/form/1/';
 $wgTranslateSupportUrl = [
 	'page' => 'Support',
@@ -451,4 +455,13 @@ $wgTranslateGroupFiles[] = "$GROUPS/Oppia/Oppia.yaml";
 $wgTranslateSupportUrlNamespace[NS_OPPIA] = [
 	'page' => 'Translating_talk:Oppia',
 	'params' => $lqtParams,
+];
+
+wfAddNamespace( 1272, 'Dissemin' );
+$wgCapitalLinkOverrides[NS_DISSEMIN] = false;
+$wgCapitalLinkOverrides[NS_DISSEMIN_TALK] = false;
+$wgTranslateGroupFiles[] = "$GROUPS/Dissemin/Dissemin.yaml";
+$wgTranslateSupportUrlNamespace[NS_DISSEMIN] = [
+	'url' => 'https://github.com/dissemin/dissemin/issues/new',
+	'params' => $githubParams,
 ];
