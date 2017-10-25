@@ -62,7 +62,7 @@
 		}
 	},
 	"dissemin": {
-		"group": "dissemin",
+		"group": "dissemin-*",
 		"repos": {
 			"dissemin": {
 				"type": "github",
