@@ -269,11 +269,6 @@ id = ext-bs-formattinghelp
 descmsg = bs-formattinghelp-desc
 file = BlueSpiceExtensions/FormattingHelp/i18n/%CODE%.json
 
-Blue Spice - GroupManager
-id = ext-bs-groupmanager
-descmsg = bs-groupmanager-desc
-file = BlueSpiceExtensions/GroupManager/i18n/%CODE%.json
-
 Blue Spice - Hide Title
 id = ext-bs-hidetitle
 descmsg = bs-hidetitle-desc
@@ -339,11 +334,6 @@ file = BlueSpiceExtensions/Preferences/i18n/%CODE%.json
 aliasfile = BlueSpiceExtensions/Preferences/includes/specials/SpecialBlueSpicePreferences.alias.php
 optional = prefs-bluespice
 
-Blue Spice - Readers
-id = ext-bs-readers
-descmsg = bs-readers-desc
-file = BlueSpiceExtensions/Readers/i18n/%CODE%.json
-
 Blue Spice - RSS Feeder
 id = ext-bs-rssfeeder
 descmsg = bs-rssfeeder-desc
@@ -395,11 +385,6 @@ id = ext-bs-usagetracker
 descmsg = bs-usagetracker-desc
 file = BlueSpiceExtensions/UsageTracker/i18n/%CODE%.json
 
-Blue Spice - User Preferences
-id = ext-bs-userpreferences
-descmsg = bs-userpreferences-desc
-file = BlueSpiceExtensions/UserPreferences/i18n/%CODE%.json
-
 Blue Spice - User Sidebar
 id = ext-bs-usersidebar
 descmsg = bs-usersidebar-desc
@@ -448,6 +433,9 @@ Blue Spice Extended Statistics
 descmsg = bs-statistics-desc
 aliasfile = BlueSpiceExtendedStatistics/includes/specials/SpecialExtendedStatistics.alias.php
 
+Blue Spice Group Manager
+descmsg = bs-groupmanager-desc
+
 Blue Spice Insert Template
 descmsg = bs-insertTemplate-desc
 
@@ -465,6 +453,12 @@ aliasfile = BlueSpicePageTemplates/includes/specials/SpecialPageTemplatesAdmin.a
 Blue Spice Page Version
 descmsg = bs-pageversion-desc
 
+Blue Spice Permission Manager
+descmsg = bs-permissionmanager-desc
+
+Blue Spice Readers
+descmsg = bs-readers-desc
+
 Blue Spice Smartlist
 descmsg = bs-smartlist-desc
 
@@ -473,6 +467,9 @@ descmsg = bs-smartlist-desc
 Blue Spice User Manager
 descmsg = bs-usermanager-desc
 aliasfile = BlueSpiceUserManager/includes/specials/SpecialUserManager.alias.php
+
+Blue Spice User Preferences
+descmsg = bs-userpreferences-desc
 
 # Boiler Plate excluded per T156569
 
