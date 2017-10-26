@@ -322,13 +322,6 @@ id = ext-bs-pagesvisited
 descmsg = bs-pagesvisited-desc
 file = BlueSpiceExtensions/PagesVisited/i18n/%CODE%.json
 
-Blue Spice - Preferences
-id = ext-bs-preferences
-descmsg = bs-preferences-desc
-file = BlueSpiceExtensions/Preferences/i18n/%CODE%.json
-aliasfile = BlueSpiceExtensions/Preferences/includes/specials/SpecialBlueSpicePreferences.alias.php
-optional = prefs-bluespice
-
 Blue Spice - RSS Feeder
 id = ext-bs-rssfeeder
 descmsg = bs-rssfeeder-desc
