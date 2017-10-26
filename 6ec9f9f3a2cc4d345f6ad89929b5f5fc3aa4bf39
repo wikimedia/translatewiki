@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e5d03d5_32a3c5aa",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 161
+      },
+      "writtenOn": "2017-10-26T18:59:30Z",
+      "side": 1,
+      "message": "This was removed in I34a28ef0c2ccaebeb96d9638c21942ca4447c66c and needs adjustment.",
+      "range": {
+        "startLine": 340,
+        "startChar": 0,
+        "endLine": 340,
+        "endChar": 24
+      },
+      "revId": "6ec9f9f3a2cc4d345f6ad89929b5f5fc3aa4bf39",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
