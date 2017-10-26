@@ -236,11 +236,6 @@ file = BlueSpiceExtensions/Emoticons/i18n/%CODE%.json
 # Not added per request of maintainer, change-Id: Ie0eee3b702e8632d3edab1831985ff07f9df94bd
 # Blue Spice - examples - BoilerPlate
 
-Blue Spice - Extended Edit Bar
-id = ext-bs-extendededitbar
-descmsg = bs-extendededitbar-desc
-file = BlueSpiceExtensions/ExtendedEditBar/i18n/%CODE%.json
-
 Blue Spice - Extension Info
 id = ext-bs-extensioninfo
 descmsg = bs-extensioninfo-desc
