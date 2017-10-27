@@ -194,16 +194,6 @@ id = ext-bs-checklist
 descmsg = bs-checklist-desc
 file = BlueSpiceExtensions/Checklist/i18n/%CODE%.json
 
-Blue Spice - Context Menu
-id = ext-bs-contextmenu
-descmsg = bs-contextmenu-desc
-file = BlueSpiceExtensions/ContextMenu/i18n/%CODE%.json
-
-Blue Spice - Count Things
-id = ext-bs-countthings
-descmsg = bs-countthings-desc
-file = BlueSpiceExtensions/CountThings/i18n/%CODE%.json
-
 Blue Spice - Credits
 file = BlueSpiceFoundation/i18n/credits/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
