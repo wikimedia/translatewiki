@@ -440,7 +440,8 @@ descmsg = bs-readers-desc
 Blue Spice Smartlist
 descmsg = bs-smartlist-desc
 
-# Blue Spice Sub Page Tree // no i18n
+Blue Spice Sub Page Tree
+descmsg = bs-subpagetree-desc
 
 Blue Spice User Manager
 descmsg = bs-usermanager-desc
