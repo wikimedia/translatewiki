@@ -122,7 +122,7 @@ Auto Create Category Pages
 Auto Proxy Block
 ignored = proxyblock-logentry
 
-Automatic Board Welcome
+# Automatic Board Welcome // 2017-10-27: Archived (T179196)
 
 # AWS // 2017-09-05: Archived (T174864)
 
