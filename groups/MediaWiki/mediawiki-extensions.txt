@@ -1505,7 +1505,8 @@ aliasfile = MathSearch/MathSearch.alias.php
 
 Media Functions
 
-#MediaWiki Auth / Wikia centric extension
+MediaWiki Auth
+descmsg = mwa-desc
 
 MediaWiki Chat
 aliasfile = MediaWikiChat/MediaWikiChat.alias.php
