@@ -32,7 +32,7 @@ GROUPS:
   - ext-globaluserpage # 2015-02-05: Testwikis
   - ext-imagemap
   - ext-inputbox
-  - ext-intersection
+  - ext-intersection # aka DPL aka DynamicPageList
   - ext-jquery-uls
   - ext-kartographer
   - ext-loginnotify

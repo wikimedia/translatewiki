@@ -94,6 +94,7 @@ GROUPS:
   - ext-proofreadpage # Wikisource
   - ext-quicksurveys # 2016, some wiki
   - ext-quiz
+  - ext-readinglists # https://phabricator.wikimedia.org/rOMWCf9582378355829349affb468ee8dbef77dbeffe9
   - ext-relatedarticles # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-relatedsites # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-renameuser # Being phased out, 2015
