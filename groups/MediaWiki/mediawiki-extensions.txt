@@ -399,6 +399,9 @@ magicfile = BlueSpiceAuthors/languages/Authors.i18n.magic.php
 Blue Spice Category Manager
 aliasfile = BlueSpiceCategoryManager/includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
+Blue Spice Config Manager
+aliasfile = BlueSpiceCategoryManager/includes/specials/SpecialBlueSpicePreferences.alias.php
+
 Blue Spice Edit Notify Connector
 
 Blue Spice Extended Filelist
@@ -2584,6 +2587,8 @@ Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
 Virtual Keyboard
+
+# Visual Chat // no i18n
 
 VisualEditor (MediaWiki extension)
 id = ext-visualeditor-ve-mw
