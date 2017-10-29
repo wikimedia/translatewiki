@@ -392,6 +392,10 @@ id = ext-bs-wikiadmin
 descmsg = bs-wikiadmin-desc
 file = BlueSpiceExtensions/WikiAdmin/i18n/%CODE%.json
 
+Blue Spice Article Info
+descmsg = bs-articleinfo-desc
+magicfile = BlueSpiceArticleInfo/languages/ArticleInfo.i18n.magic.php
+
 Blue Spice Authors
 descmsg = bs-authors-desc
 magicfile = BlueSpiceAuthors/languages/Authors.i18n.magic.php
@@ -400,7 +404,8 @@ Blue Spice Category Manager
 aliasfile = BlueSpiceCategoryManager/includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
 Blue Spice Config Manager
-aliasfile = BlueSpiceCategoryManager/includes/specials/SpecialBlueSpicePreferences.alias.php
+descmsg = bs-preferences-desc
+aliasfile = BlueSpiceConfigManager/includes/specials/SpecialBlueSpicePreferences.alias.php
 
 Blue Spice Edit Notify Connector
 
