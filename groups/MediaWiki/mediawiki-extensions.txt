@@ -1520,6 +1520,9 @@ MediaWiki Farm
 
 # Message Commons // no i18n file
 
+Meta Master
+magicfile = MetaMaster/MetaMaster.i18n.magic.php
+
 # Mini Invite //  Missing qqq
 
 Minimum Name Length
