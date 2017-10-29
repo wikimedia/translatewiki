@@ -19,7 +19,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/dissemin/en}}"
   namespace: NS_DISSEMIN
   class: FileBasedMessageGroup
-  codeBrowser: "https://github.com/dissemin/dissemin/blob/master/locale/%FILE%#L%LINE%"
+  codeBrowser: "https://github.com/dissemin/dissemin/blob/master/%FILE%#L%LINE%"
 
 FILES:
   class: GettextFFS
@@ -40,7 +40,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/dissemin/en}}"
   namespace: NS_DISSEMIN
   class: FileBasedMessageGroup
-  codeBrowser: "https://github.com/dissemin/dissemin/blob/master/locale/%FILE%#L%LINE%"
+  codeBrowser: "https://github.com/dissemin/dissemin/blob/master/%FILE%#L%LINE%"
 
 MANGLER:
   class: StringMatcher
