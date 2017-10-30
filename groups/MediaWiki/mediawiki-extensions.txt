@@ -300,11 +300,6 @@ id = ext-bs-pageaccess
 descmsg = bs-pageaccess-desc
 file = BlueSpiceExtensions/PageAccess/i18n/%CODE%.json
 
-Blue Spice - Pages Visited
-id = ext-bs-pagesvisited
-descmsg = bs-pagesvisited-desc
-file = BlueSpiceExtensions/PagesVisited/i18n/%CODE%.json
-
 Blue Spice - RSS Feeder
 id = ext-bs-rssfeeder
 descmsg = bs-rssfeeder-desc
