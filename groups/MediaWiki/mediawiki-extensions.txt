@@ -1271,7 +1271,7 @@ Image Metrics
 
 # Image Rating // No qqq
 
-# Image Tagging // Incomplete message documentation file - 2014-10-05
+# Image Tagging // Archived, https://gerrit.wikimedia.org/r/#/c/387107/
 
 Image Tweaks
 ignored = imagetweaks-beta-preference-info-link, imagetweaks-beta-preference-disc-link
@@ -2783,7 +2783,6 @@ optional = interlanguage-link-dmoz, interlanguage-link-citizendium, interlanguag
 optional = wikimedia-centralauth-uwbr-registration-nodate
 prefix = wmf- | grouppage-staff, group-staff, group-staff-member
 prefix = wmf- | group-patroller, group-patroller-member, grouppage-patroller
-prefix = wmf- | createacct-helpusername-url
 prefix = wmf- | createacct-captcha-help-url
 prefix = wmf- | search-interwiki-custom
 
@@ -2822,6 +2821,7 @@ ignored = wm-license-lgpl-2.1-full-link, wm-license-lgpl-3-full-link
 Wikimedia Overrides
 file = WikimediaMessages/i18n/wikimediaoverrides/%CODE%.json
 ignored = wikimedia-sidebar
+prefix = wmf- | createacct-helpusername-url
 
 # Wikimedia Overrides No Translate // Per name: no translate
 
