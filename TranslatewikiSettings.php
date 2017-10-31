@@ -426,3 +426,5 @@ $wgResourceModules['twn.jserrorlog'] = [
 $wgHooks['BeforePageDisplay'][] = function ( $out ) {
 	$out->addModules( 'twn.jserrorlog' );
 };
+
+wfLoadExtension( 'TemplateSandbox' );
