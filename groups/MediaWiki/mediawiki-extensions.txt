@@ -2571,8 +2571,9 @@ Variables
 
 Vector Beta
 
-# Missing message documentation
-# Video
+Video
+ignored = video-provider-list
+
 
 View Files
 aliasfile = ViewFiles/ViewFiles.alias.php
