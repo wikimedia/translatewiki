@@ -1901,7 +1901,10 @@ ignored = pdf_size_default, pdf_size_options
 Pdf Handler
 descmsg = pdf-desc
 
-# Performance Inspector // 2016-03-08: Boilerplate only
+Performance Inspector
+optional = performanceinspector-modules-css-name, performanceinspector-modules-css-label
+optional = performanceinspector-modules-css-column-url, performanceinspector-newpp-value-and-limit
+optional = performanceinspector-newpp-template-time-report-column-percentreal, performanceinspector-newpp-scribunto
 
 Petition
 aliasfile = Petition/Petition.alias.php
