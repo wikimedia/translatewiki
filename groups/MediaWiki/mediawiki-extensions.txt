@@ -1540,7 +1540,8 @@ Mpdf
 
 #Ms Calendar // Missing qqq
 
-#Ms Cat Select // Missing qqq
+Ms Cat Select
+descmsg = mscs-desc
 
 Ms Insert
 descmsg = msi-desc
