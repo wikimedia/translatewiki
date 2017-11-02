@@ -413,6 +413,11 @@ descmsg = bs-groupmanager-desc
 Blue Spice Insert Template
 descmsg = bs-insertTemplate-desc
 
+Blue Spice Inter Wiki Links
+descmsg = bs-interwikilinks-desc
+aliasfile = BlueSpiceInterWikiLinks/includes/specials/SpecialInterWikiLinks.alias.php
+optional = bs-interwikilinks-headerurl, bs-interwikilinks-labelurl
+
 Blue Spice Multi Upload
 descmsg = bs-multiupload-desc
 
@@ -426,6 +431,9 @@ aliasfile = BlueSpicePageTemplates/includes/specials/SpecialPageTemplatesAdmin.a
 
 Blue Spice Page Version
 descmsg = bs-pageversion-desc
+
+Blue Spice Pages Visited
+descmsg = bs-pagesvisited-desc
 
 Blue Spice Permission Manager
 descmsg = bs-permissionmanager-desc
