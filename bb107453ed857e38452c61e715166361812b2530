@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e5a8fde_03ad062e",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 418,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2017-11-02T10:50:09Z",
+      "side": 1,
+      "message": "Please add alias file and optional elements as in the old repo: https://gerrit.wikimedia.org/r/#/c/387249/1/groups/MediaWiki/mediawiki-extensions.txt",
+      "revId": "bb107453ed857e38452c61e715166361812b2530",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
