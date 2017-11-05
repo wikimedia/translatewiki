@@ -109,7 +109,7 @@ ignored=articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-n
 Article Placeholder
 aliasfile = ArticlePlaceholder/ArticlePlaceholder.alias.php
 
-# Article Ratings // 2016-09-19: no qqq, inconsistent message keys
+# Article Ratings // incosistent prefix 2017-11-05
 
 Auth_remoteuser
 
@@ -155,6 +155,8 @@ Beta Features
 aliasfile = BetaFeatures/BetaFeatures.alias.php
 ignored = betafeatures-test-check-field, betafeatures-test-feature-field
 
+# Bib Manager // incosistent prefix 2017-11-05
+
 Biblio Plus
 
 # Blackout // Historic for protest to SOPA/PIPA and Internet censorship
@@ -162,8 +164,7 @@ Biblio Plus
 Block And Nuke
 aliasfile = BlockAndNuke/BlockAndNuke.alias.php
 
-# Missing message documentation - 2014-01-28 RS
-#Blog Page
+# Blog Page // incosistent prefix 2017-11-05
 
 Blue Spice
 id = ext-bs
@@ -908,7 +909,7 @@ file = Echo/i18n/api/%CODE%.json
 # Incomplete message documentation file - 2014-11-20
 #Edit Account
 
-# Edit Own // 2016-09-02 imported from SVN, still old i18n
+Edit Own
 
 Edit Page Tracking
 
@@ -1530,7 +1531,7 @@ optional = logentry-chat-send
 
 MediaWiki Farm
 
-# Memento // No qqq, "timegate-..." message prefix
+# Memento // "timegate-..." message prefix
 
 # Message Commons // no i18n file
 
