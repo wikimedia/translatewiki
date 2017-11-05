@@ -1191,8 +1191,8 @@ Global Userrights
 aliasfile = GlobalUserrights/GlobalUserrights.alias.php
 descmsg = gur-desc
 
-# Missing message documenation
-#Go To Shell
+Go To Shell
+aliasfile = GoToShell/GoToShell.alias.php
 
 Google AdSense
 ignored = googleadsense
