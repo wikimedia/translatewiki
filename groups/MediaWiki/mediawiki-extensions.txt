@@ -908,8 +908,8 @@ Echo - API
 id = ext-echo-api
 file = Echo/i18n/api/%CODE%.json
 
-# Incomplete message documentation file - 2014-11-20
-#Edit Account
+Edit Account
+aliasfile = EditAccount/EditAccount.alias.php
 
 Edit Own
 
