@@ -1987,7 +1987,8 @@ descmsg = poll-desc
 
 Pool Counter
 
-# Popup Pages // old i18n file only
+Popup Pages
+magicfile = PopupPages/PopupPages.i18n.magic.php
 
 Popups
 
