@@ -2313,10 +2313,7 @@ Spark
 Special 404
 aliasfile = Special404/Special404.alias.php
 
-Special Namespaces
-descmsg = namespaces-desc
-aliasfile = SpecialNamespaces/SpecialNamespaces.alias.php
-ignored = namespaces_defaultreason, namespaces_defaultname, namespaces_logentry
+# Special Namespaces // No i18n in JSON format, unmaintained code
 
 Spelling Api
 
