@@ -159,8 +159,8 @@ Biblio Plus
 
 # Blackout // Historic for protest to SOPA/PIPA and Internet censorship
 
-# Missing message documentation - 2014-07-08 RS
-#Block And Nuke
+Block And Nuke
+aliasfile = BlockAndNuke/BlockAndNuke.alias.php
 
 # Missing message documentation - 2014-01-28 RS
 #Blog Page
