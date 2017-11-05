@@ -1567,7 +1567,8 @@ MP3 Media Handler
 
 Mpdf
 
-#Ms Calendar // Missing qqq
+Ms Calendar
+descmsg = msc-desc
 
 Ms Cat Select
 descmsg = mscs-desc
