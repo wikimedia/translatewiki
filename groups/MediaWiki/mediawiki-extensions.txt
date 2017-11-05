@@ -635,7 +635,7 @@ ignored = commonsmetadata-doc-url
 
 # Community Applications // missing qqq
 
-# Community Hiring // missing qqq
+# Community Hiring // No need to translate I think. Hiring by the WMF needs English language skills
 
 Community Twitter
 aliasfile = CommunityTwitter/CommunityTwitter.alias.php
@@ -2029,7 +2029,7 @@ Push To Watch
 
 Quantcast
 
-# Quick GV // Missing qqq
+# Quick GV // inconsistent prefixes
 
 Quick Response
 
@@ -2531,23 +2531,6 @@ descmsg = twoColConflict-desc
 
 # UI Feedback # incomplete qqq
 
-Unused Redirects
-aliasfile = UnusedRedirects/UnusedRedirects.alias.php
-ignored = unusedredirects-text
-
-# Update MediaWiki # Missing qqq
-
-Upload Blacklist
-
-Upload Wizard
-aliasfile = UploadWizard/UploadWizard.alias.php
-optional = group-upwizcampeditors.css, group-upwizcampeditors.js
-optional = mwe-upwiz-license-custom-url
-optional = tag-uploadwizard-flickr
-ignored = accesskey-save-upload-campaign, accesskey-cancel-upload-campaign, mwe-upwiz-flickr-source-template, mwe-upwiz-flickr-author-template, mwe-upwiz-config-allowed-templates
-
-Uploads Link
-
 Un Captcha
 
 Unicode Converter
@@ -2560,9 +2543,27 @@ Universal Language Selector - API
 id = ext-universallanguageselector-api
 file = UniversalLanguageSelector/i18n/api/%CODE%.json
 
-# Unused Redirects // Missing message documentation
+Unused Redirects
+aliasfile = UnusedRedirects/UnusedRedirects.alias.php
+ignored = unusedredirects-text
+
+# Update MediaWiki # Missing qqq
+
+Upload Blacklist
+
+Upload Local
+aliasfile = UploadLocal/UploadLocal.alias.php
 
 # Upload Logo // no message prefix
+
+Upload Wizard
+aliasfile = UploadWizard/UploadWizard.alias.php
+optional = group-upwizcampeditors.css, group-upwizcampeditors.js
+optional = mwe-upwiz-license-custom-url
+optional = tag-uploadwizard-flickr
+ignored = accesskey-save-upload-campaign, accesskey-cancel-upload-campaign, mwe-upwiz-flickr-source-template, mwe-upwiz-flickr-author-template, mwe-upwiz-config-allowed-templates
+
+Uploads Link
 
 UR Names
 
