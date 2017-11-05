@@ -2047,7 +2047,7 @@ ignored = ext-quicksurveys-example-external-survey-link
 
 # Quiz Tabulate // Missing message documentation
 
-# Random Featured User // Missing message documentation
+Random Featured User
 
 Random Image
 
