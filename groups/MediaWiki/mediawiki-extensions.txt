@@ -111,6 +111,8 @@ aliasfile = ArticlePlaceholder/ArticlePlaceholder.alias.php
 
 # Article Ratings // incosistent prefix 2017-11-05
 
+Article To Category 2
+
 Auth_remoteuser
 
 Author Protect
