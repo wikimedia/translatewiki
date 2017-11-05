@@ -402,6 +402,9 @@ aliasfile = BlueSpiceConfigManager/includes/specials/SpecialBlueSpicePreferences
 Blue Spice Context Menu
 descmsg = bs-contextmenu-desc
 
+Blue Spice Count Things
+descmsg = bs-countthings-desc
+
 Blue Spice Edit Notify Connector
 
 Blue Spice Extended Filelist
