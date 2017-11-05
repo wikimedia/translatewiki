@@ -1249,6 +1249,10 @@ GW Toolset
 aliasfile = GWToolset/GWToolset.alias.php
 ignored = gwtoolset-menu, gwtoolset-painted-by, tag-gwtoolset
 
+HA Welcome
+ignored = welcome-user, welcome-enabled
+descmsg = welcome-user-desc
+
 Hash Tables
 
 Header Tabs
@@ -1355,6 +1359,8 @@ Json Config
 ignored = jsonconfig-license-notice-box-CC0-1.0
 optional = jsonconfig-type-abbr-invalid, jsonconfig-type-abbr-string, jsonconfig-type-abbr-localized
 optional = jsonconfig-type-abbr-number, jsonconfig-type-abbr-boolean, jsonconfig-license-url-CC0-1.0
+
+# Json Data // Inconsistent prefix
 
 Kartographer
 optional = visualeditor-mwmapsdialog-geojson, kartographer-coord-combined, kartographer-coord-dms
