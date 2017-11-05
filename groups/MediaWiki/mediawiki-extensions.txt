@@ -388,6 +388,10 @@ Blue Spice Authors
 descmsg = bs-authors-desc
 magicfile = BlueSpiceAuthors/languages/Authors.i18n.magic.php
 
+Blue Spice Avatars
+descmsg = bs-avatars-desc
+aliasfile = BlueSpiceAvatars/languages/SpecialAvatars.alias.php
+
 Blue Spice Category Manager
 aliasfile = BlueSpiceCategoryManager/includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
@@ -2727,9 +2731,6 @@ ignored = wikibase-api-not-recognized-string, wikibase-api-param-missing, wikiba
 ignored = wikibase-api-permissiondenied, wikibase-api-wrong-class
 ignored = wikibase-property-footer
 ignored = wikibase-shortcopyrightwarning-version, wikibase-entitytermsview-entitytermsforlanguagelistview-configure-link
-
-# Real extension?
-# Wikibase JavaScript Api
 
 Wikibase Lexeme
 aliasfile = WikibaseLexeme/WikibaseLexeme.i18n.alias.php
