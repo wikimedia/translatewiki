@@ -399,6 +399,9 @@ Blue Spice Config Manager
 descmsg = bs-preferences-desc
 aliasfile = BlueSpiceConfigManager/includes/specials/SpecialBlueSpicePreferences.alias.php
 
+Blue Spice Context Menu
+descmsg = bs-contextmenu-desc
+
 Blue Spice Edit Notify Connector
 
 Blue Spice Extended Filelist
