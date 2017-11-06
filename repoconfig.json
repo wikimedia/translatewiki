@@ -402,6 +402,10 @@
 				"type": "github",
 				"url": "https://github.com/cmln/chameleon.git"
 			},
+			"mwgithub/Hutchy68/Purge": {
+				"type": "github",
+				"url": "https://github.com/Hutchy68/Purge.git"
+			},
 			"mwgithub/jeblad/Pickle": {
 				"type": "github",
 				"url": "https://github.com/jeblad/Pickle.git"

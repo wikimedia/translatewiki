@@ -329,3 +329,19 @@ TAGS:
   ignored:
     - pickle-testspec-subpage
     - pickle-testspec-invoke
+
+---
+BASIC:
+  id: mwgithub-purge
+  label: Purge
+  description: "{{Special:MyLanguage/MediaWiki:purge-descriptionmsg/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Hutchy68/Purge/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: purge-
+  patterns:
+    - "*"
