@@ -151,8 +151,6 @@ Base Hooks
 Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
-Bayesian Filter
-
 Beta Features
 aliasfile = BetaFeatures/BetaFeatures.alias.php
 ignored = betafeatures-test-check-field, betafeatures-test-feature-field
