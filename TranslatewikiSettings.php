@@ -3,38 +3,42 @@
 /**
  * Performance etc.
  */
-$wgMainCacheType = CACHE_MEMCACHED;
-$wgMessageCacheType = 'apc';
+$wgMiserMode = true;
+$wgShowIPinHeader = false;
 
+$wgMainCacheType = 'memcached-pecl';
+$wgMessageCacheType = 'apc';
 $wgMemCachedServers = [ "127.0.0.1:11211" ];
 $wgMemCachedPersistent = true;
 
 $wgEnableSidebarCache = true;
-$wgSessionsInObjectCache = true;
-$wgShowIPinHeader = false;
 $wgAdaptiveMessageCache = true;
 
 $wgJobRunRate = 0;
 $wgJobTypeConf['default'] = [ 'class' => 'JobQueueDB', 'order' => 'random', 'claimTTL' => 60 ];
+
+$wgLocalisationCacheConf['store'] = 'files';
+$wgLocalisationCacheConf['manualRecache'] = true;
+
+$wgInvalidateCacheOnLocalSettingsChange = false;
+
+$wgResourceLoaderValidateJS = false;
+
+$wgHooks['SpecialPage_initList'][] = function ( &$list ) {
+	unset( $list['Allmessages'] );
+};
 
 /**
  * Experimentalism
  */
 // Migrate off $wgExperimentalHtmlIds
 $wgFragmentMode = [ 'html5-legacy', 'html5' ];
-
 $wgAllUnicodeFixes = true;
 $wgDevelopmentWarnings = true;
-$wgResourceLoaderStorageEnabled = true;
-
-# Temporary till enabled by default in core, bug 9360
 $wgPageLanguageUseDB = true;
-
-$wgResourceLoaderValidateJS = false;
-# $wgIncludeLegacyJavaScript = false;
 $wgLegacyJavaScriptGlobals = false;
 
-$wgDeprecationReleaseLimit = '1.24';
+$wgDeprecationReleaseLimit = '1.26';
 
 /**
  * Unsorted
@@ -215,6 +219,7 @@ wfLoadExtensions( [
 	'Renameuser',
 	'ReplaceText',
 	'SyntaxHighlight_GeSHi',
+	'TemplateSandbox',
 	'Thanks',
 	'UniversalLanguageSelector',
 	'UserMerge',
@@ -426,5 +431,3 @@ $wgResourceModules['twn.jserrorlog'] = [
 $wgHooks['BeforePageDisplay'][] = function ( $out ) {
 	$out->addModules( 'twn.jserrorlog' );
 };
-
-wfLoadExtension( 'TemplateSandbox' );
