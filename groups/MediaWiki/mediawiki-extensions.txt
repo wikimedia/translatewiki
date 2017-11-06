@@ -2612,8 +2612,6 @@ User Throttle
 
 Variables
 
-Vector Beta
-
 Video
 ignored = video-provider-list
 
