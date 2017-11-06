@@ -290,12 +290,6 @@ id = ext-bs-namespacecss
 descmsg = bs-namespacecss-desc
 file = BlueSpiceExtensions/NamespaceCss/i18n/%CODE%.json
 
-Blue Spice - Namespace Manager
-id = ext-bs-namespacemanager
-descmsg = bs-namespacemanager-desc
-file = BlueSpiceExtensions/NamespaceManager/i18n/%CODE%.json
-aliasfile = BlueSpiceExtensions/NamespaceManager/includes/specials/SpecialNamespaceManager.alias.php
-
 Blue Spice - Page Access
 id = ext-bs-pageaccess
 descmsg = bs-pageaccess-desc
