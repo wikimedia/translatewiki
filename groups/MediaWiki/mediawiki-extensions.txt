@@ -213,11 +213,6 @@ file = BlueSpiceFoundation/i18n/diagnostics/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Diagnostics.alias.php
 id = ext-bs-diagnostics
 
-Blue Spice - Emoticons
-id = ext-bs-emoticons
-descmsg = bs-emoticons-desc
-file = BlueSpiceExtensions/Emoticons/i18n/%CODE%.json
-
 # Not added per request of maintainer, change-Id: Ie0eee3b702e8632d3edab1831985ff07f9df94bd
 # Blue Spice - examples - BoilerPlate
 
@@ -311,16 +306,6 @@ id = ext-bs-shoutbox
 descmsg = bs-shoutbox-desc
 file = BlueSpiceExtensions/ShoutBox/i18n/%CODE%.json
 
-Blue Spice - State Bar
-id = ext-bs-statebar
-descmsg = bs-statebar-desc
-file = BlueSpiceExtensions/StateBar/i18n/%CODE%.json
-
-Blue Spice - Top Menu Bar Customizer
-id = ext-bs-topmenubarcustomizer
-descmsg = bs-topmenubarcustomizer-desc
-file = BlueSpiceExtensions/TopMenuBarCustomizer/i18n/%CODE%.json
-
 Blue Spice - UE Module PDF
 id = ext-bs-uemodulepdf
 descmsg = bs-uemodulepdf-desc
@@ -348,11 +333,6 @@ file = BlueSpiceExtensions/UserSidebar/i18n/%CODE%.json
 Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
-
-Blue Spice - Visual Editor
-id = ext-bs-visualeditor
-descmsg = bs-visualeditor-desc
-file = BlueSpiceExtensions/VisualEditor/i18n/%CODE%.json
 
 Blue Spice - Watch List
 id = ext-bs-watchlist
