@@ -1283,7 +1283,7 @@ optional = imagemap_desc_types
 
 Image Metrics
 
-# Image Rating // No qqq
+Image Rating
 
 # Image Tagging // Archived, https://gerrit.wikimedia.org/r/#/c/387107/
 
