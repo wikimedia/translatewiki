@@ -427,6 +427,10 @@ optional = bs-interwikilinks-headerurl, bs-interwikilinks-labelurl
 Blue Spice Multi Upload
 descmsg = bs-multiupload-desc
 
+Blue Spice Namespace Manager
+descmsg = bs-namespacemanager-desc
+aliasfile = BlueSpiceNamespaceManager/includes/specials/SpecialNamespaceManager.alias.php
+
 Blue Spice Page Assignments
 descmsg = bs-pageassignments-desc
 aliasfile = BlueSpicePageAssignments/PageAssignments.alias.php
