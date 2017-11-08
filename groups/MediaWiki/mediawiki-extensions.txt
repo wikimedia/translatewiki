@@ -19,6 +19,7 @@
 # Validator
 
 3D
+id = ext-3d
 optional = 3d, 3d-badge-text
 
 Absentee Landlord
