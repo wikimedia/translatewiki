@@ -446,10 +446,6 @@ descmsg = bs-userpreferences-desc
 
 # Boiler Plate excluded per T156569
 
-Book Manager
-descmsg = bm-printversion-desc
-aliasfile = BookManager/language/BookManager.alias.php
-
 # Bootstrap //  Read only
 
 Bounce Handler
