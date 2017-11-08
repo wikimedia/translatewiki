@@ -1961,8 +1961,6 @@ magicfile = PopupPages/PopupPages.i18n.magic.php
 
 Popups
 
-#Post Edit / Merged into core / 2013-06-01
-
 Premoderation
 
 Prezi
