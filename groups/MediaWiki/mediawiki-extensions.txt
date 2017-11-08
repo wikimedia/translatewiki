@@ -1693,8 +1693,8 @@ descmsg = oauthauth-desc
 OdbcDatabase
 aliasfile = OdbcDatabase/OdbcDatabase.alias.php
 
-# Missing message doc, message prefixes needed - 2015-05-07 - RS
-# Offline Import Lexicon
+Offline Import Lexicon
+aliasfile = OfflineImportLexicon/OfflineImportLexicon.alias.php
 
 # Ogg Handler # Deleted on Git. TimedMediaHandler as replacement. I6ad2538fda15d29d780a22796e7c980e94901729
 
