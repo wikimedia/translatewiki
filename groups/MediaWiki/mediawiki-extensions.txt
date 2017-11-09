@@ -361,6 +361,10 @@ Blue Spice Avatars
 descmsg = bs-avatars-desc
 aliasfile = BlueSpiceAvatars/languages/SpecialAvatars.alias.php
 
+Blue Spice Blog
+descmsg = bs-blog-desc
+aliasfile = BlueSpiceBlog/includes/specials/SpecialBlog.alias.php
+
 Blue Spice Category Manager
 aliasfile = BlueSpiceCategoryManager/includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
