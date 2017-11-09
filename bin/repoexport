@@ -38,7 +38,7 @@ then
 
 	PREFIXES="ext-c ext-s ext-m ext-p ext-t ext-w ext-a ext-b ext-d ext-e ext-f \
 		ext-g ext-h ext-i ext-j ext-k ext-l ext-n ext-o ext-q ext-r ext-u ext-v \
-		ext-x ext-y ext-z"
+		ext-x ext-y ext-z ext-3"
 
 	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
 
