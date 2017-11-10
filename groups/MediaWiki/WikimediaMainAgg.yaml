@@ -8,6 +8,7 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
+  - ext-advancedsearch # https://phabricator.wikimedia.org/rOMWC1547ba4dd4bb15e399aed7b405ff9178d347a17e
   - ext-antispoof
   - ext-babel
   - ext-betafeatures
