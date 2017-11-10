@@ -184,11 +184,6 @@ file = BlueSpiceFoundation/i18n/api/%CODE%.json
 
 # Blue Spice - BlueSpiceProjectFeedbackHelper # per https://gerrit.wikimedia.org/r/#/c/150779/
 
-Blue Spice - Checklist
-id = ext-bs-checklist
-descmsg = bs-checklist-desc
-file = BlueSpiceExtensions/Checklist/i18n/%CODE%.json
-
 Blue Spice - Credits
 file = BlueSpiceFoundation/i18n/credits/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
