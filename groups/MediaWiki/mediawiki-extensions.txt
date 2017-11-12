@@ -363,6 +363,9 @@ aliasfile = BlueSpiceBlog/includes/specials/SpecialBlog.alias.php
 Blue Spice Category Manager
 aliasfile = BlueSpiceCategoryManager/includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
+Blue Spice Checklist
+descmsg = bs-checklist-desc
+
 Blue Spice Config Manager
 descmsg = bs-preferences-desc
 aliasfile = BlueSpiceConfigManager/includes/specials/SpecialBlueSpicePreferences.alias.php
