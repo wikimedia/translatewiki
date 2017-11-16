@@ -376,8 +376,8 @@ $wgGroupPermissions['staff']['mwoauthviewprivate'] = true;
 if ( $wgCanonicalServer !== "https://translatewiki.net" ) {
 	$wgHooks['SiteNoticeAfter'][] = function ( &$siteNotice ) {
 		$siteNotice = "
-	<big align=\"center\" dir='ltr'><strong>This is not a production site!
-	Go to <a href='https://translatewiki.net'>translatewiki.net</a>!</strong></big>";
+	<div style='text-align: center; font-size: larger' dir='ltr'><strong>This is not a production site!
+	Go to <a href='https://translatewiki.net'>translatewiki.net</a>!</strong></div>";
 		return true;
 	};
 }
