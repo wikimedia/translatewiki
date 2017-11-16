@@ -42,9 +42,6 @@ Action Edit Submit
 
 Active Abstract
 
-Activity Monitor
-aliasfile = ActivityMonitor/ActivityMonitor.i18n.alias.php
-
 Ad Manager
 aliasfile = AdManager/AdManager.alias.php
 
