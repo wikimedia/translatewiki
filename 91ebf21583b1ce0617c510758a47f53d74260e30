@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2e5417b0_6c6baf83",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 379,
+      "author": {
+        "id": 1453
+      },
+      "writtenOn": "2017-11-16T09:17:50Z",
+      "side": 1,
+      "message": "I know this is heavily subjective, but I prefer the more generic keyword \"larger\".",
+      "range": {
+        "startLine": 379,
+        "startChar": 44,
+        "endLine": 379,
+        "endChar": 48
+      },
+      "revId": "91ebf21583b1ce0617c510758a47f53d74260e30",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
