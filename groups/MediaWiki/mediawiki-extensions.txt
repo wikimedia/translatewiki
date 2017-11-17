@@ -31,9 +31,6 @@ Access Control
 ignored = accesscontrol-move-anonymous, accesscontrol-move-users, accesscontrol-redirect-anonymous
 ignored = accesscontrol-redirect-users, accesscontrol-actions-deny
 
-# Repo is archived
-# Accessibility Simulation
-
 Account Info
 aliasfile = AccountInfo/AccountInfo.alias.php
 ignored=accountinfo-none
