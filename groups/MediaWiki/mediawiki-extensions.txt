@@ -1075,6 +1075,9 @@ Fundraiser Landing Page
 ignored = fundraiserlandingpage-wmch-landing-page, fundraiserlandingpage-wmde-landing-page
 ignored = fundraiserlandingpage-wmfr-landing-page, fundraiserlandingpage-wmuk-landing-page
 
+Fundraising Email Unsubscribe
+descmsg = fundraiserunsubscribe-desc
+
 Fundraising Translate Workflow
 descmsg = fundraising-translate-workflow-desc
 
