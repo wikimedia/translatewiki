@@ -94,5 +94,6 @@ Vector V2
 optional = vectorv2.css, vectorv2.js, skinname-vectorv2
 
 webplatform
+ignored = webplatform-bottom-footer
 
 WPtouch
