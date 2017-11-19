@@ -233,6 +233,8 @@ require_once "$EXT/AdminLinks/AdminLinks.php";
 wfLoadExtension( 'CleanChanges' );
 $wgCCUserFilter = true;
 $wgCCTrailerFilter = true;
+$wgStructuredChangeFiltersShowPreference = true;
+$wgCCFiltersOnly = true;
 
 $wgNamespacesToBeSearchedDefault[NS_MAIN] = true;
 $wgNamespacesToBeSearchedDefault[NS_MEDIAWIKI] = true;
