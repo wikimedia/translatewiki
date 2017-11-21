@@ -254,6 +254,9 @@ TAGS:
     - userrights-groupsmember-type
     - userrights-irreversible-marker
     - userrights-no-shorten-expiry-marker
+    - variantname-crh
+    - variantname-crh-cyrl
+    - variantname-crh-latn
     - variantname-gan
     - variantname-gan-hans
     - variantname-gan-hant
