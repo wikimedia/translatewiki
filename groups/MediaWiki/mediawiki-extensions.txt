@@ -1392,7 +1392,7 @@ Link Target
 
 Linter
 aliasfile = Linter/Linter.alias.php
-optional = linker-page-title-edit
+optional = linter-page-title-edit
 
 Liquid Threads
 aliasfile = LiquidThreads/i18n/Lqt.alias.php
