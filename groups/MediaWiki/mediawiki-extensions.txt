@@ -182,11 +182,6 @@ file = BlueSpiceFoundation/i18n/credits/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
 id = ext-bs-credits
 
-Blue Spice - C Syntax Highlight
-id = ext-bs-csyntaxhighlight
-descmsg = bs-csyntaxhighlight-desc
-file = BlueSpiceExtensions/CSyntaxHighlight/i18n/%CODE%.json
-
 Blue Spice - Dashboards
 id = ext-bs-dashboards
 descmsg = bs-dashboards-desc
@@ -203,11 +198,6 @@ id = ext-bs-diagnostics
 
 # Not added per request of maintainer, change-Id: Ie0eee3b702e8632d3edab1831985ff07f9df94bd
 # Blue Spice - examples - BoilerPlate
-
-Blue Spice - Extension Info
-id = ext-bs-extensioninfo
-descmsg = bs-extensioninfo-desc
-file = BlueSpiceExtensions/ExtensionInfo/i18n/%CODE%.json
 
 Blue Spice - ExtJS
 file = BlueSpiceFoundation/i18n/extjs/%CODE%.json
@@ -226,11 +216,6 @@ id = ext-bs-flexiskin
 descmsg = bs-flexiskin-desc
 file = BlueSpiceExtensions/Flexiskin/i18n/%CODE%.json
 aliasfile = BlueSpiceExtensions/Flexiskin/includes/specials/SpecialFlexiskin.alias.php
-
-Blue Spice - Formatting Help
-id = ext-bs-formattinghelp
-descmsg = bs-formattinghelp-desc
-file = BlueSpiceExtensions/FormattingHelp/i18n/%CODE%.json
 
 Blue Spice - Hide Title
 id = ext-bs-hidetitle
@@ -287,13 +272,6 @@ id = ext-bs-saferedit
 descmsg = bs-saferedit-desc
 file = BlueSpiceExtensions/SaferEdit/i18n/%CODE%.json
 
-# Blue Spice - Secure File Store // Removed due to end of development
-
-Blue Spice - Shout Box
-id = ext-bs-shoutbox
-descmsg = bs-shoutbox-desc
-file = BlueSpiceExtensions/ShoutBox/i18n/%CODE%.json
-
 Blue Spice - UE Module PDF
 id = ext-bs-uemodulepdf
 descmsg = bs-uemodulepdf-desc
@@ -313,11 +291,6 @@ id = ext-bs-usagetracker
 descmsg = bs-usagetracker-desc
 file = BlueSpiceExtensions/UsageTracker/i18n/%CODE%.json
 
-Blue Spice - User Sidebar
-id = ext-bs-usersidebar
-descmsg = bs-usersidebar-desc
-file = BlueSpiceExtensions/UserSidebar/i18n/%CODE%.json
-
 Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
@@ -331,11 +304,6 @@ Blue Spice - Who Is Online
 id = ext-bs-whoisonline
 descmsg = bs-whoisonline-desc
 file = BlueSpiceExtensions/WhoIsOnline/i18n/%CODE%.json
-
-Blue Spice - Wiki Admin
-id = ext-bs-wikiadmin
-descmsg = bs-wikiadmin-desc
-file = BlueSpiceExtensions/WikiAdmin/i18n/%CODE%.json
 
 Blue Spice Article Info
 descmsg = bs-articleinfo-desc
