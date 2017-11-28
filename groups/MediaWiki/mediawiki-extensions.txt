@@ -290,16 +290,6 @@ Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
 
-Blue Spice - Watch List
-id = ext-bs-watchlist
-descmsg = bs-watchlist-desc
-file = BlueSpiceExtensions/WatchList/i18n/%CODE%.json
-
-Blue Spice - Who Is Online
-id = ext-bs-whoisonline
-descmsg = bs-whoisonline-desc
-file = BlueSpiceExtensions/WhoIsOnline/i18n/%CODE%.json
-
 Blue Spice Article Info
 descmsg = bs-articleinfo-desc
 magicfile = BlueSpiceArticleInfo/languages/ArticleInfo.i18n.magic.php
