@@ -46,6 +46,8 @@ GROUPS:
   - ext-eventbus # 2016-01-21 for MediaWiki.org, change id: 603461016bd9a4cc862f4713fd57358b0cd38f2d
   - ext-eventlogging # Change-Id: 1fc99b92c1692515295e8c7bb7c757112531c330
   - ext-extensiondistributor # MediaWiki.org
+  - ext-fileexporter # https://phabricator.wikimedia.org/rOMWCed0953cf03e16621029ba7b21b716d448e387de0
+  - ext-fileimporter # https://phabricator.wikimedia.org/rOMWCed0953cf03e16621029ba7b21b716d448e387de0
   - ext-flaggedrevs-0-all
   - ext-flow-api
   - ext-fundraiserlandingpage # r101409 for donatewiki
