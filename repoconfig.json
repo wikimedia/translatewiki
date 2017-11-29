@@ -1,6 +1,7 @@
 {
 	"@meta": {
-		"export": "php /srv/mediawiki/targets/production/extensions/Translate/scripts/export.php"
+		"export": "php /srv/mediawiki/targets/production/extensions/Translate/scripts/export.php",
+                "expand": "php /srv/mediawiki/targets/production/extensions/Translate/scripts/expand-groupspec.php --exportable"
 	},
 	"blockly": {
 		"group": "out-blockly*",
