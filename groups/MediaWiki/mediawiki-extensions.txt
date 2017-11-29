@@ -35,8 +35,6 @@ Account Info
 aliasfile = AccountInfo/AccountInfo.alias.php
 ignored=accountinfo-none
 
-Action Edit Submit
-
 Active Abstract
 
 Ad Manager
