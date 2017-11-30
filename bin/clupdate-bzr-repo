@@ -1,0 +1,16 @@
+#!/bin/bash
+set -e
+set -u
+
+URL=$1
+DIR=$2
+BRANCH=${3:-master}
+
+if [ -d "$DIR/.bzr" ]
+then
+	cd "$DIR"
+	bzr revert --quiet
+	bzr pull "$BRANCH" --quiet --overwrite
+else
+	bzr checkout ${URL}/${BRANCH} "$DIR"
+fi

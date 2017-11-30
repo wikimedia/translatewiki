@@ -241,6 +241,8 @@ class UpdateCommand extends RepoNgCommand {
 				$command = "$bindir/clupdate-gerrit-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} elseif ( $type === 'svn' ) {
 				$command = "$bindir/clupdate-svn-repo  '{$repo['url']}' '$base/$name'";
+			} elseif ( $type === 'bzr' ) {
+				$command = "$bindir/clupdate-bzr-repo  '{$repo['url']}' '$base/$name' '$branch'";
 			} else {
 				throw new RuntimeException( 'Unknown repo type' );
 			}
@@ -373,6 +375,10 @@ class CommitCommand extends RepoNgCommand {
 					"cd '$dir'; " .
 					"svn add --force * --auto-props --parents --depth infinity -q$extra; " .
 					"svn commit --message '$message'";
+			} elseif ( $repo['type'] === 'bzr' ) {
+				$dir = "$base/$name";
+				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
+				$command = "cd '$dir'; bzr add .;bzr commit -m '$message'";
 			} else {
 				throw new RuntimeException( 'Unknown repo type' );
 			}
