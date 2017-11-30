@@ -4,8 +4,3 @@ REPO_RW=yes
 # MediaWiki
 REPO_MWEXTGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/extensions
 REPO_MWSKINGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/skins
-
-# other
-REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics
-REPO_IHRIS_BRANCH="4.2"
-REPO_IHRIS_MODULES="i2ce ihris-common ihris-manage ihris-qualify ihris-train"

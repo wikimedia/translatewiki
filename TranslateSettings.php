@@ -313,17 +313,8 @@ wfAddNamespace( 1224, 'WikiReader' );
 # No longer in use.
 wfAddNamespace( 1226, 'Shapado' );
 
+# No longer in use.
 wfAddNamespace( 1228, 'iHRIS' );
-$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISCommon.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISI2ce.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISManage.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISQualify.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRISTrain.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/IHRIS/IHRIS.yaml";
-$wgTranslateSupportUrlNamespace[NS_IHRIS] = [
-	'page' => 'Translating_talk:iHRIS',
-	'params' => $lqtParams,
-];
 
 wfAddNamespace( 1230, 'Mifos' );
 $wgTranslateGroupFiles[] = "$GROUPS/Mifos/Mifos.yaml";

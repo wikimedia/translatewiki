@@ -18,15 +18,6 @@ checkVar() {
 	fi
 }
 
-doUpdate() {
-	VAR="${1^^}"
-	VAR="${VAR//-}"
-	VAR="${VAR//./_}"
-	VAR="REPO_$VAR"
-	checkVar "$VAR"
-	"$2" "${!VAR}" "$DIR/$1" "${3:-}"
-}
-
 # Ignore subrepos like Collection/OfflineContentGenerator
 fetchReposFromGerrit() {
 	curl -s "https://gerrit.wikimedia.org/r/projects/?p=$1" |
@@ -53,13 +44,7 @@ for i in $REPONG; do
 	fi
 done
 
-if [ "$PROJECT" = "ihris" ]
-then
-	cd "$PROJECT" || exit
-	for MODULE in $REPO_IHRIS_MODULES
-	do ( cd "$MODULE" && bzr pull -q ) done
-
-elif [ "$PROJECT" = "mediawiki-extensions" ]
+if [ "$PROJECT" = "mediawiki-extensions" ]
 then
 	checkVar 'REPO_MWEXTGIT'
 	fetchReposFromGerrit mediawiki/extensions/ |

@@ -5,7 +5,6 @@ DIRSCRIPT="`dirname \"$0\"`"
 DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
 DIRLOG=/home/betawiki/logs/repo
 PROJECT=$1
-WIKI=/srv/mediawiki/targets/production
 
 DIR=$2
 : ${DIR:=`pwd`}
@@ -13,10 +12,6 @@ source ${DIRSCRIPT}/findexportroot
 cd "$DIR"
 
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
-
-EXPORTER=$WIKI/extensions/Translate/scripts/export.php
-THRESHOLD="--threshold 35"
-HOURS="--hours 200" # Somewhat over a week
 
 REPONG=$(cat "$DIRSCRIPT/REPONG-PROJECTS");
 for i in $REPONG; do
@@ -27,15 +22,8 @@ for i in $REPONG; do
 	fi
 done
 
-if [ "$PROJECT" = "ihris" ]
+if [ "$PROJECT" = "mediawiki-extensions" ]
 then
-	php "$EXPORTER" --target . --group=out-ihris* --lang='*' --skip en,qqq $THRESHOLD --ppgettext=/resources/projects
-
-elif [ "$PROJECT" = "mediawiki-extensions" ]
-then
-#	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=magic --quiet &
-#	php "$WIKI/extensions/Translate/scripts/magic-export.php" --target mediawiki-extensions/extensions/ --type=special --quiet &
-
 	PREFIXES="ext-c ext-s ext-m ext-p ext-t ext-w ext-a ext-b ext-d ext-e ext-f \
 		ext-g ext-h ext-i ext-j ext-k ext-l ext-n ext-o ext-q ext-r ext-u ext-v \
 		ext-x ext-y ext-z ext-3"

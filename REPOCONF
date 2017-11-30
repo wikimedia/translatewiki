@@ -3,7 +3,3 @@
 
 REPO_MWEXTGIT=https://gerrit.wikimedia.org/r/p/mediawiki/extensions
 REPO_MWSKINGIT=https://gerrit.wikimedia.org/r/p/mediawiki/skins
-
-REPO_IHRIS=http://bazaar.launchpad.net/~intrahealth%2Binformatics
-REPO_IHRIS_BRANCH="4.2-dev"
-REPO_IHRIS_MODULES="i2ce ihris-common ihris-manage ihris-qualify ihris-train"

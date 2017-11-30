@@ -13,32 +13,7 @@ cd "$DIR"
 
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
-checkVar() {
-	if [ -z "${!1}" ]
-		then echo "Add ${1} to REPOCONF"; exit 1
-	fi
-}
-
-if [ "$PROJECT" = "ihris" ]
-then
-	checkVar 'REPO_IHRIS_MODULES'
-	mkdir $PROJECT
-	cd $PROJECT
-	for MODULE in $REPO_IHRIS_MODULES
-	do
-		if [ "$REPO_RW" = "yes" ]
-		then
-			bzr checkout lp:${MODULE}/${REPO_IHRIS_BRANCH} ${MODULE}
-		else
-			bzr branch ${REPO_IHRIS}/${MODULE}/${REPO_IHRIS_BRANCH}/ ${MODULE}
-		fi
-
-		cd ${MODULE}
-		bzr pull --remember `bzr info |grep "checkout of branch" |cut -d" " -f 6`
-		cd ..
-	done
-
-elif [ "$PROJECT" = "mediawiki-extensions" ]
+if [ "$PROJECT" = "mediawiki-extensions" ]
 then
 	mkdir -p $PROJECT/extensions
 

@@ -14,13 +14,6 @@ echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
 COMMITMSG="Localisation updates from https://translatewiki.net."
 
-gitCommit() {
-	cd "$1"
-	git add .
-	git commit -m "$COMMITMSG"
-	git push origin "${2:-master}"
-}
-
 gitCommitGerrit() {
 	cd $1
 	git add .
@@ -36,16 +29,7 @@ for i in $REPONG; do
 	fi
 done
 
-if [ "$PROJECT" = "ihris" ]
-then
-	for MODULE in $REPO_IHRIS_MODULES
-	do
-		cd "$DIR/$PROJECT/$MODULE"
-		bzr add .
-		bzr commit -m "$COMMITMSG"
-	done
-
-elif [ "$PROJECT" = "mediawiki-extensions" ]
+if [ "$PROJECT" = "mediawiki-extensions" ]
 then
 	for i in `ls "$DIR/$PROJECT/extensions"`
 	do
