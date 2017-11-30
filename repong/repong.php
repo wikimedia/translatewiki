@@ -19,11 +19,14 @@ abstract class RepoNgCommand extends Command {
 		'nike' => 'nikerabbit',
 	];
 	protected $parallelism = 1;
+	protected $base;
 
 	public function initialize() {
-		$base = $this->getBase();
+		$configName = 'repoconfig.yaml';
+		$this->base = $base = $this->findBase( $configName );
+		$configFile = "$base/$configName";
 
-		if ( !file_exists( "$base/repoconfig.json" ) ) {
+		if ( !file_exists( $configFile ) ) {
 			throw new RuntimeException( 'Cannot find configuration' );
 		}
 
@@ -32,8 +35,8 @@ abstract class RepoNgCommand extends Command {
 			throw new RuntimeException( __DIR__ . '/../bin/ does not exist' );
 		}
 
-		$json = file_get_contents( "$base/repoconfig.json" );
-		$this->config = json_decode( $json, true );
+		$yaml = file_get_contents( $configFile );
+		$this->config = yaml_parse( $yaml );
 
 		$cores = preg_match_all( '/^processor/m', file_get_contents( '/proc/cpuinfo' ) );
 		if ( $cores ) {
@@ -42,13 +45,17 @@ abstract class RepoNgCommand extends Command {
 	}
 
 	protected function getBase() {
+		return $this->base;
+	}
+
+	protected function findBase( $configName ) {
 		$path = getcwd();
 		if ( $path === false ) {
 			return null;
 		}
 
 		while ( true ) {
-			if ( file_exists( "$path/repoconfig.json" ) ) {
+			if ( file_exists( "$path/$configName" ) ) {
 				return $path;
 			}
 
