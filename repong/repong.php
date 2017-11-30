@@ -5,6 +5,7 @@ use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 use Symfony\Component\Process\Exception\ProcessTimedOutException;
@@ -20,6 +21,7 @@ abstract class RepoNgCommand extends Command {
 	];
 	protected $parallelism = 1;
 	protected $base;
+	protected $defaultVariant;
 
 	public function initialize() {
 		$configName = 'repoconfig.yaml';
@@ -41,6 +43,11 @@ abstract class RepoNgCommand extends Command {
 		$cores = preg_match_all( '/^processor/m', file_get_contents( '/proc/cpuinfo' ) );
 		if ( $cores ) {
 			$this->parallelism = (int)$cores;
+		}
+
+		$variantFile = "$base/REPONG-VARIANT";
+		if ( file_exists( $variantFile ) ) {
+			$this->defaultVariant = trim( file_get_contents( $variantFile ) );
 		}
 	}
 
@@ -67,13 +74,39 @@ abstract class RepoNgCommand extends Command {
 		}
 	}
 
-	protected function getConfig( $project ) {
-		if ( !isset( $this->config[$project] ) ) {
+	protected function getConfig( $project, $targetVariant = null ) {
+		if ( !isset( $this->config[ $project ] ) ) {
 			echo "Unknown project $project\n";
-			die();
+			exit( 1 );
 		}
 
-		return $this->config[$project];
+		// Reference is needed for recursive closure to work
+		$replacer = function ( $array ) use ( &$replacer, $targetVariant ) {
+			$new = [];
+			foreach ( $array as $key => $value ) {
+				$split = strpos( $key, '|' );
+				if ( $split !== false ) {
+					$variant = substr( $key, $split + 1 );
+					if ( $variant === $targetVariant ) {
+						$key = substr( $key, 0, $split );
+					} else {
+						// Some other variant, drop it
+						continue;
+					}
+				}
+
+				if ( is_array( $value ) ) {
+					$value = $replacer( $value );
+				}
+
+				// Assumption: custom variants always come after default variant.
+				// Otherwise the default would override the custom one.
+				$new[$key] = $value;
+			}
+			return $new;
+		};
+
+		return $replacer( $this->config[ $project ] );
 	}
 
 	protected function buildCommandline( $command, $options ) {
@@ -173,15 +206,16 @@ abstract class RepoNgCommand extends Command {
 
 class UpdateCommand extends RepoNgCommand {
 	protected function configure() {
+		parent::configure();
 		$this->setName( 'update' );
-		$this->setDefinition( [
-			new InputArgument( 'project', InputArgument::REQUIRED ),
-		] );
+		$this->addArgument( 'project', InputArgument::REQUIRED );
+		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
 		$project = $input->getArgument( 'project' );
-		$config = $this->getConfig( $project );
+		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
+		$config = $this->getConfig( $project, $variant );
 		$base = $this->getBase();
 		$bindir = $this->bindir;
 
@@ -222,15 +256,16 @@ class UpdateCommand extends RepoNgCommand {
 
 class ExportCommand extends RepoNgCommand {
 	protected function configure() {
+		parent::configure();
 		$this->setName( 'export' );
-		$this->setDefinition( [
-			new InputArgument( 'project', InputArgument::REQUIRED ),
-		] );
+		$this->addArgument( 'project', InputArgument::REQUIRED );
+		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
 		$project = $input->getArgument( 'project' );
-		$config = $this->getConfig( $project );
+		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
+		$config = $this->getConfig( $project, $variant );
 		$exporter = $this->config['@meta']['export'];
 		$expander = $this->config['@meta']['expand'];
 
@@ -298,15 +333,16 @@ class ExportCommand extends RepoNgCommand {
 
 class CommitCommand extends RepoNgCommand {
 	protected function configure() {
+		parent::configure();
 		$this->setName( 'commit' );
-		$this->setDefinition( [
-			new InputArgument( 'project', InputArgument::REQUIRED ),
-		] );
+		$this->addArgument( 'project', InputArgument::REQUIRED );
+		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
 		$project = $input->getArgument( 'project' );
-		$config = $this->getConfig( $project );
+		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
+		$config = $this->getConfig( $project, $variant );
 		$message = 'Localisation updates from https://translatewiki.net.';
 		$base = $this->getBase();
 

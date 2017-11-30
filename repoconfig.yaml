@@ -9,9 +9,11 @@ blockly:
     blockly:
       type: github
       url: https://github.com/google/blockly.git
+      url|export: git@github.com:google/blockly.git
     blockly-games:
       type: github
       url: https://github.com/google/blockly-games.git
+      url|export: git@github.com:google/blockly-games.git
 
 citationhunt:
   group: citationhunt
@@ -19,6 +21,7 @@ citationhunt:
     citationhunt:
       type: github
       url: https://github.com/eggpi/citationhunt.git
+      url|export: git@github.com:eggpi/citationhunt.git
 
 codev:
   group: codev
@@ -26,6 +29,7 @@ codev:
     codev:
       type: github
       url: https://github.com/mantisbt-plugins/codev.git
+      url|export: git@github.com:mantisbt-plugins/codev.git
 
 commons-android:
   group: commons-android-*
@@ -34,6 +38,7 @@ commons-android:
     commons-android:
       type: github
       url: https://github.com/commons-app/apps-android-commons.git
+      url|export: git@github.com:commons-app/apps-android-commons.git
 
 copypatrol:
   group: copypatrol
@@ -41,6 +46,7 @@ copypatrol:
     copypatrol:
       type: github
       url: https://github.com/wikimedia/CopyPatrol.git
+      url|export: git@github.com:wikimedia/CopyPatrol.git
 
 crosswatch:
   group: crosswatch
@@ -48,6 +54,7 @@ crosswatch:
     crosswatch:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/crosswatch
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/crosswatch
 
 dissemin:
   group: dissemin-*
@@ -55,6 +62,7 @@ dissemin:
     dissemin:
       type: github
       url: https://github.com/dissemin/dissemin.git
+      url|export: git@github.com:dissemin/dissemin.git
 
 eol:
   group: out-eol-*
@@ -62,6 +70,7 @@ eol:
     eol:
       type: github
       url: https://github.com/EOL/eol.git
+      url|export: git@github.com:EOL/eol.git
 
 etherpad-lite:
   group: etherpad-lite
@@ -70,6 +79,7 @@ etherpad-lite:
       type: github
       branch: develop
       url: git://github.com/ether/etherpad-lite.git
+      url|export: git@github.com:ether/etherpad-lite.git
 
 freecol:
   group: out-freecol
@@ -77,6 +87,7 @@ freecol:
     freecol:
       type: git
       url: git://git.code.sf.net/p/freecol/git
+      url|export: ssh://USERNAME@git.code.sf.net/p/freecol/git
 
 fudforum:
   group: out-fudforum
@@ -84,6 +95,8 @@ fudforum:
     fudforum:
       type: svn
       url: svn://svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
+      svn-add-options: config:auto-props:msg=svn:mime-type=text/plain;svn:eol-style=native
+      url|export: svn+ssh://translatewiki@svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
 
 gapfinder:
   group: gapfinder
@@ -91,6 +104,7 @@ gapfinder:
     recommendation-api:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/research/recommendation-api
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/research/recommendation-api
 
 hivejs:
   group: hivejs-*
@@ -98,21 +112,27 @@ hivejs:
     hivejs/hive-editor-text-codemirror:
       type: github
       url: https://github.com/hivejs/hive-editor-text-codemirror.git
+      url|export: git@github.com:hivejs/hive-editor-text-codemirror.git
     hivejs/hive-plugin-chat:
       type: github
       url: https://github.com/hivejs/hive-plugin-chat.git
+      url|export: git@github.com:hivejs/hive-plugin-chat.git
     hivejs/hive-plugin-export:
       type: github
       url: https://github.com/hivejs/hive-plugin-export.git
+      url|export: git@github.com:hivejs/hive-plugin-export.git
     hivejs/hive-plugin-import:
       type: github
       url: https://github.com/hivejs/hive-plugin-import.git
+      url|export: git@github.com:hivejs/hive-plugin-import.git
     hivejs/hive-plugin-presence:
       type: github
       url: https://github.com/hivejs/hive-plugin-presence.git
+      url|export: git@github.com:hivejs/hive-plugin-presence.git
     hivejs/hive-ui:
       type: github
       url: https://github.com/hivejs/hive-ui.git
+      url|export: git@github.com:hivejs/hive-ui.git
 
 huggle:
   group: huggle
@@ -120,6 +140,7 @@ huggle:
     huggle:
       type: github
       url: https://github.com/huggle/huggle3-qt-lx.git
+      url|export: git@github.com:huggle/huggle3-qt-lx.git
 
 ia-upload:
   group: ia-upload
@@ -127,6 +148,7 @@ ia-upload:
     ia-upload:
       type: github
       url: https://github.com/wikisource/ia-upload.git
+      url|export: git@github.com:wikisource/ia-upload.git
 
 inaturalist:
   group: out-inaturalist
@@ -135,6 +157,7 @@ inaturalist:
       type: github
       branch: i18n
       url: https://github.com/inaturalist/inaturalist.git
+      url|export: git@github.com:inaturalist/inaturalist.git
 
 internetarchivebot:
   group: internetarchivebot
@@ -142,6 +165,7 @@ internetarchivebot:
     internetarchivebot:
       type: github
       url: https://github.com/cyberpower678/Cyberbot_II.git
+      url|export: git@github.com:cyberpower678/Cyberbot_II.git
 
 intuition:
   group: tsint-*
@@ -150,6 +174,7 @@ intuition:
     intuition:
       type: github
       url: https://github.com/Krinkle/intuition.git
+      url|export: git@github.com:Krinkle/intuition.git
 
 intuition-tools:
   group: int-*
@@ -157,24 +182,31 @@ intuition-tools:
     int-dcatap:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/operations/dumps/dcat
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/dumps/dcat
     int-guc:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/guc
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/guc
     int-heritage:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/heritage
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/heritage
     int-orphantalk:
       type: github
       url: https://github.com/Krinkle/mw-tool-orphantalk.git
+      url|export: git@github.com:Krinkle/mw-tool-orphantalk.git
     int-raun:
       type: github
       url: https://github.com/kenrick95/Raun.git
+      url|export: git@github.com:kenrick95/Raun.git
     int-refill:
       type: git
       url: https://github.com/zhaofengli/refill.git
+      url|export: git@github.com:zhaofengli/refill.git
     int-web:
       type: github
       url: https://github.com/Krinkle/intuition-web.git
+      url|export: git@github.com:Krinkle/intuition-web.git
 
 jquery.uls:
   group: jquery-uls
@@ -182,6 +214,7 @@ jquery.uls:
     jquery.uls:
       type: github
       url: https://github.com/wikimedia/jquery.uls.git
+      url|export: git@github.com:wikimedia/jquery.uls.git
 
 kiwix:
   group: kiwix
@@ -189,6 +222,7 @@ kiwix:
     kiwix:
       type: github
       url: https://github.com/kiwix/maintenance.git
+      url|export: git@github.com:kiwix/maintenance.git
 
 lib.reviews:
   group: lib.reviews
@@ -196,6 +230,7 @@ lib.reviews:
     lib.reviews:
       type: github
       url: https://github.com/eloquence/lib.reviews.git
+      url|export: git@github.com:eloquence/lib.reviews.git
 
 mantis:
   group: out-mantis*
@@ -205,6 +240,7 @@ mantis:
       options:
       - codemaponly
       url: https://github.com/mantisbt/mantisbt.git
+      url|export: git@github.com:mantisbt/mantisbt.git
 
 mathjax:
   group: out-mathjax-*
@@ -212,9 +248,10 @@ mathjax:
     mathjax:
       type: github
       url: https://github.com/mathjax/MathJax-i18n.git
+      url|export: git@github.com:mathjax/MathJax-i18n.git
 
 mediawiki:
-  always-export-languages: en-gb,es-formal,de-formal,hu-formal,nl-informal
+  always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal
   no-export-languages: test,aeb,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-hk,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   export-hours: 200
   export-threshold: 13
@@ -223,6 +260,7 @@ mediawiki:
     mediawiki/master:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/mediawiki/core
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/core
 
 mifos:
   group: out-mifos
@@ -232,6 +270,7 @@ mifos:
       type: github
       branch: develop
       url: https://github.com/openMF/community-app.git
+      url|export: git@github.com:openMF/community-app.git
 
 mwgerrit:
   group: mwgerrit-*
@@ -239,94 +278,124 @@ mwgerrit:
     mwgerrit/data-values/value-view:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/data-values/value-view
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/data-values/value-view
     mwgerrit/oojs/ui:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/oojs/ui
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/oojs/ui
     mwgerrit/VisualEditor/VisualEditor:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/VisualEditor/VisualEditor
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/VisualEditor/VisualEditor
 
 mwgithub:
+  always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal
   group: mwgithub-*,mediawiki-skingithub-*
   repos:
     mwgithub/cmln/Chameleon:
       type: github
       url: https://github.com/cmln/chameleon.git
+      url|export: git@github.com:cmln/chameleon.git
     mwgithub/Hutchy68/Purge:
       type: github
       url: https://github.com/Hutchy68/Purge.git
+      url|export: git@github.com:Hutchy68/Purge.git
     mwgithub/jeblad/Pickle:
       type: github
       url: https://github.com/jeblad/Pickle.git
+      url|export: git@github.com:jeblad/Pickle.git
     mwgithub/JeroenDeDauw/GitHub:
       type: github
       url: https://github.com/JeroenDeDauw/GitHub.git
+      url|export: git@github.com:JeroenDeDauw/GitHub.git
     mwgithub/JeroenDeDauw/Maps:
       type: github
       url: https://github.com/JeroenDeDauw/Maps.git
+      url|export: git@github.com:JeroenDeDauw/Maps.git
     mwgithub/JeroenDeDauw/ParserHooks:
       type: github
       url: https://github.com/JeroenDeDauw/ParserHooks.git
+      url|export: git@github.com:JeroenDeDauw/ParserHooks.git
     mwgithub/JeroenDeDauw/SubPageList:
       type: github
       url: https://github.com/JeroenDeDauw/SubPageList.git
+      url|export: git@github.com:JeroenDeDauw/SubPageList.git
     mwgithub/JeroenDeDauw/Validator:
       type: github
       url: https://github.com/JeroenDeDauw/Validator.git
+      url|export: git@github.com:JeroenDeDauw/Validator.git
     mwgithub/Nikerabbit/mediawiki-extensions-FinnFrameNet:
       type: github
       url: https://github.com/Nikerabbit/mediawiki-extensions-FinnFrameNet.git
+      url|export: git@github.com:Nikerabbit/mediawiki-extensions-FinnFrameNet.git
     mwgithub/OrganicDesign/extensions:
       type: github
       url: https://github.com/OrganicDesign/extensions
+      url|export: git@github.com:OrganicDesign/extensions
     mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticBreadcrumbLinks.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticBreadcrumbLinks.git
     mwgithub/SemanticMediaWiki/SemanticCite:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticCite.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticCite.git
     mwgithub/SemanticMediaWiki/SemanticCompoundQueries:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticCompoundQueries.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticCompoundQueries.git
     mwgithub/SemanticMediaWiki/SemanticExternalQueryLookup:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticExternalQueryLookup.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticExternalQueryLookup.git
     mwgithub/SemanticMediaWiki/SemanticExtraSpecialProperties:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticExtraSpecialProperties.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticExtraSpecialProperties.git
     mwgithub/SemanticMediaWiki/SemanticFormsSelect:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticFormsSelect.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticFormsSelect.git
     mwgithub/SemanticMediaWiki/SemanticGlossary:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticGlossary.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticGlossary.git
     mwgithub/SemanticMediaWiki/SemanticInterlanguageLinks:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticInterlanguageLinks.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticInterlanguageLinks.git
     mwgithub/SemanticMediaWiki/SemanticMediaWiki:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticMediaWiki.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticMediaWiki.git
     mwgithub/SemanticMediaWiki/SemanticResultFormats:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticResultFormats.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticResultFormats.git
     mwgithub/SemanticMediaWiki/SemanticMetaTags:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticMetaTags.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticMetaTags.git
     mwgithub/SemanticMediaWiki/SemanticScribunto:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticScribunto.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticScribunto.git
     mwgithub/SemanticMediaWiki/SemanticSignup:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticSignup.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticSignup.git
     mwgithub/SemanticMediaWiki/SemanticWatchlist:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticWatchlist.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticWatchlist.git
     mwgithub/SemanticMediaWiki/SummaryCards:
       type: github
       url: https://github.com/SemanticMediaWiki/SummaryCards.git
+      url|export: git@github.com:SemanticMediaWiki/SummaryCards.git
     mwgithub/SemanticMediaWiki/WhatsNearby:
       type: github
       url: https://github.com/SemanticMediaWiki/WhatsNearby.git
+      url|export: git@github.com:SemanticMediaWiki/WhatsNearby.git
 
 nfcring-control:
   group: nfcring-control
@@ -334,6 +403,7 @@ nfcring-control:
     nfcring-control:
       type: github
       url: https://github.com/mclear/NFC_Ring_Control.git
+      url|export: git@github.com:mclear/NFC_Ring_Control.git
 
 nocc:
   group: out-nocc-*
@@ -341,6 +411,7 @@ nocc:
     nocc:
       type: svn
       url: https://svn.code.sf.net/p/nocc/code/trunk
+      url|export: svn+ssh://translatewiki@svn.code.sf.net/p/nocc/code/trunk
 
 oppia:
   group: oppia
@@ -349,6 +420,8 @@ oppia:
       type: github
       branch: develop
       url: https://github.com/oppia/oppia.git
+      branch|export: translatewiki
+      url|export: git@github.com:oppia/oppia.git
 
 osm:
   no-export-languages: en,qqq
@@ -357,9 +430,11 @@ osm:
     osm:
       type: github
       url: https://github.com/openstreetmap/openstreetmap-website.git
+      url|export: git@github.com:openstreetmap/openstreetmap-website.git
     potlatch2:
       type: github
       url: https://github.com/systemed/potlatch2.git
+      url|export: git@github.com:systemed/potlatch2.git
 
 pageviews:
   group: pageviews
@@ -367,6 +442,7 @@ pageviews:
     pageviews:
       type: github
       url: https://github.com/MusikAnimal/pageviews.git
+      url|export: git@github.com:MusikAnimal/pageviews.git
 
 proveit:
   group: proveit
@@ -374,6 +450,7 @@ proveit:
     proveit:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/wikipedia/gadgets/ProveIt
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikipedia/gadgets/ProveIt
 
 pywikibot:
   group: out-pywikipedia-*
@@ -382,6 +459,7 @@ pywikibot:
     pywikibot:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/pywikibot/i18n
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/pywikibot/i18n
 
 vicuna:
   group: out-vicuna
@@ -389,6 +467,7 @@ vicuna:
     vicuna:
       type: github
       url: https://github.com/yarl/vicuna.git
+      url|export: git@github.com:yarl/vicuna.git
 
 video2commons:
   group: video2commons
@@ -396,6 +475,7 @@ video2commons:
     video2commons:
       type: github
       url: https://github.com/Toollabs/video2commons.git
+      url|export: git@github.com:Toollabs/video2commons.git
 
 waymarked-trails-site:
   group: out-waymarked-trails*
@@ -403,6 +483,7 @@ waymarked-trails-site:
     waymarked-trails-site:
       type: github
       url: https://github.com/lonvia/waymarked-trails-site.git
+      url|export: git@github.com:lonvia/waymarked-trails-site.git
 
 wiki-ai:
   group: wiki-ai-*
@@ -410,9 +491,11 @@ wiki-ai:
     wiki-ai/wikilabels:
       type: github
       url: https://github.com/wiki-ai/wikilabels.git
+      url|export: git@github.com:wiki-ai/wikilabels.git
     wiki-ai/wikilabels-wikimedia-config:
       type: github
       url: https://github.com/wiki-ai/wikilabels-wmflabs-deploy.git
+      url|export: git@github.com:wiki-ai/wikilabels-wmflabs-deploy.git
 
 wikiblame:
   group: wikiblame
@@ -421,6 +504,7 @@ wikiblame:
     wikiblame:
       type: github
       url: https://github.com/FlominatorTM/wikiblame.git
+      url|export: git@github.com:FlominatorTM/wikiblame.git
 
 wikidata:
   group: wikidata-*
@@ -428,6 +512,7 @@ wikidata:
     wikidata/query/gui:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/wikidata/query/gui
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikidata/query/gui
 
 wikiedudashboard:
   group: wikiedudashboard
@@ -436,6 +521,7 @@ wikiedudashboard:
     wikiedudashboard:
       type: github
       url: https://github.com/WikiEducationFoundation/WikiEduDashboard.git
+      url|export: git@github.com:WikiEducationFoundation/WikiEduDashboard.git
 
 wikimania:
   group: out-wikimania-scholarships-app
@@ -443,6 +529,7 @@ wikimania:
     wikimania:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/wikimedia/wikimania-scholarships
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/wikimania-scholarships
 
 wikimedia-portals:
   group: wikimedia-portals
@@ -450,6 +537,7 @@ wikimedia-portals:
     wikimedia-portals:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/wikimedia/portals
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/portals
 
 wikinity:
   group: wikinity
@@ -457,6 +545,7 @@ wikinity:
     wikinity:
       type: github
       url: https://github.com/urbanecm/wikinity.git
+      url|export: git@github.com:urbanecm/wikinity.git
 
 wikipedia-android:
   group: out-wikimedia-mobile-wikipedia-android-*
@@ -465,6 +554,7 @@ wikipedia-android:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/apps/android/wikipedia
       auto-merge: false
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/wikipedia
 
 wikipedia-ios:
   group: out-wikimedia-mobile-wikipedia-ios
@@ -473,6 +563,8 @@ wikipedia-ios:
       type: github
       branch: develop
       url: https://github.com/wikimedia/wikipedia-ios.git
+      branch|export: twn
+      url|export: git@github.com:wikimedia/wikipedia-ios.git
 
 xtools:
   group: xtools
@@ -480,3 +572,4 @@ xtools:
     xtools:
       type: github
       url: https://github.com/x-tools/xtools.git
+      url|export: git@github.com:x-tools/xtools.git
