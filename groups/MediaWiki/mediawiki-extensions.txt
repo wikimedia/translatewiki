@@ -1260,7 +1260,7 @@ aliasfile = InviteSignup/InviteSignup.alias.php
 Josa
 
 JS Bread Crumbs
-optional = jsbreadcrumbs-separator
+optional = jsbreadcrumbs-horizontal-separator
 
 Json Config
 ignored = jsonconfig-license-notice-box-CC0-1.0
