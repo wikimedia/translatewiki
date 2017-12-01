@@ -390,6 +390,9 @@ aliasfile = BlueSpiceUserManager/includes/specials/SpecialUserManager.alias.php
 Blue Spice User Preferences
 descmsg = bs-userpreferences-desc
 
+Blue Spice Who Is Online
+descmsg = bs-whoisonline-desc
+
 # Boiler Plate excluded per T156569
 
 # Bootstrap //  Read only
