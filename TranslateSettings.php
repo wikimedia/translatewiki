@@ -98,47 +98,31 @@ $wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) 
 	$deps[] = new FileDependency( realpath( $code ) );
 };
 
-$wgHooks['TranslatePostInitGroups'][] = [ 'setupMediaWikiExtensions' ];
-function setupMediaWikiExtensions( &$list, &$deps, &$autoload ) {
-	global $GROUPS;
-
+$wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
 	$def = "$GROUPS/MediaWiki/mediawiki-extensions.txt";
-	$path = '%GROUPROOT%/mediawiki-extensions/extensions/';
+	$path = '%GROUPROOT%/mediawiki-extensions/';
 
 	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
 	$foo->register( $list, $deps, $autoload );
+};
 
-	return true;
-}
-
-$wgHooks['TranslatePostInitGroups'][] = [ 'setupMediaWikiSkins' ];
-function setupMediaWikiSkins( &$list, &$deps, &$autoload ) {
-	global $GROUPS;
-
+$wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
 	$def = "$GROUPS/MediaWiki/mediawiki-skins.txt";
 	$path = '%GROUPROOT%/mediawiki-skins/';
 
 	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
-	$foo->setNamespace( NS_MEDIAWIKI );
 	$foo->setGroupPrefix( 'mediawiki-skin-' );
 	$foo->setUseConfigure( false );
 	$foo->register( $list, $deps, $autoload );
+};
 
-	return true;
-}
-
-$wgHooks['TranslatePostInitGroups'][] = [ 'setupIntuition' ];
-function setupIntuition( &$list, &$deps, &$autoload ) {
-	global $GROUPS;
-
+$wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
 	$def = "$GROUPS/Intuition/intuition-textdomains.txt";
 	$path = '%GROUPROOT%/intuition/language/messages/';
 
 	$foo = new PremadeIntuitionTextdomains( $def, $path );
 	$foo->register( $list, $deps, $autoload );
-
-	return true;
-}
+};
 
 $wgTranslateAuthorBlacklist[] = [ 'black', '/^.*;.*;(Andre Engels|Gangleri|Jon Harald Søby|IAlex|M.M.S.|BotMultichill|Nike|Piivaat|Raymond|RobertL|SieBot|Siebrand|SPQRobin|Suradnik13|Verdy p)$/Ui' ];
 $wgTranslateAuthorBlacklist[] = [ 'black', '/^.*;da;(Wegge|Morten)$/Ui' ]; # are both credited under other names

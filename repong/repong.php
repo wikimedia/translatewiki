@@ -80,6 +80,26 @@ abstract class RepoNgCommand extends Command {
 			exit( 1 );
 		}
 
+		$config = $this->config[ $project ];
+
+		// Step 1: Handle repo generator
+		if ( isset( $config[ 'repos' ][ '@generator' ] ) ) {
+			$generator = $config[ 'repos' ][ '@generator' ];
+			$process = new Process( $generator );
+			$process->setWorkingDirectory( $this->bindir );
+			$process->setTimeout( 15 );
+			$process->mustRun();
+
+			$output = json_decode( $process->getOutput(), true );
+			if ( !$output ) {
+				echo "Repo generator for $project failed\n";
+				exit( 1 );
+			}
+
+			$config[ 'repos' ] = $output;
+		}
+
+		// Step 2: Handle variants
 		// Reference is needed for recursive closure to work
 		$replacer = function ( $array ) use ( &$replacer, $targetVariant ) {
 			$new = [];
@@ -106,7 +126,7 @@ abstract class RepoNgCommand extends Command {
 			return $new;
 		};
 
-		return $replacer( $this->config[ $project ] );
+		return $replacer( $config );
 	}
 
 	protected function buildCommandline( $command, $options ) {
@@ -244,7 +264,8 @@ class UpdateCommand extends RepoNgCommand {
 			} elseif ( $type === 'bzr' ) {
 				$command = "$bindir/clupdate-bzr-repo  '{$repo['url']}' '$base/$name' '$branch'";
 			} else {
-				throw new RuntimeException( 'Unknown repo type' );
+				$config = yaml_emit( [ $name => $repo ] );
+				throw new RuntimeException( "Unknown repo type:\n$config" );
 			}
 
 			$process = new Process( $command );
@@ -308,25 +329,18 @@ class ExportCommand extends RepoNgCommand {
 
 			$processes->attach( $process1 );
 
-			// Then message documentation
-			$jobOptions = [ 'lang' => 'qqq', 'threshold' => null ] + $defaultOptions;
+			// Then message documentation (unless in no-export-languages) and always-export-languages
+			$lang = [ 'qqq' ];
+			if ( isset( $config['always-export-languages'] ) ) {
+				$extra = explode( ',', $config['always-export-languages'] );
+				$lang = array_unique( array_merge( $lang, $extra ) );
+			}
+
+			$jobOptions = [ 'lang' => implode( ',', $lang ), 'threshold' => null ] + $defaultOptions;
 			$command = $this->buildCommandline( $exporter, $jobOptions );
 			$process2 = new Process( $command );
 			$process2->setTimeout( 30 );
 			$processes->attach( $process2, $process1 );
-
-			// Last languages that have a forced export
-			if ( !isset( $config['always-export-languages'] ) ) {
-				continue;
-			}
-
-			$lang = $config['always-export-languages'];
-			$jobOptions = [ 'lang' => $lang, 'threshold' => null ] + $defaultOptions;
-			$command = $this->buildCommandline( $exporter, $jobOptions );
-
-			$process3 = new Process( $command );
-			$process3->setTimeout( 120 );
-			$processes->attach( $process3, $process2 );
 		}
 
 		$this->runParallelWithOutput( $processes, $output );
@@ -404,8 +418,21 @@ class CommitCommand extends RepoNgCommand {
 	}
 }
 
+class ListCommand extends RepoNgCommand {
+	protected function configure() {
+		parent::configure();
+		$this->setName( 'list' );
+	}
+
+	protected function execute( InputInterface $input, OutputInterface $output ) {
+		unset( $this->config[ '@meta' ] );
+		echo implode( "\n", array_keys( $this->config ) ) . "\n";
+	}
+}
+
 $application = new Application();
 $application->add( new UpdateCommand() );
 $application->add( new ExportCommand() );
 $application->add( new CommitCommand() );
+$application->add( new ListCommand() );
 $application->run();

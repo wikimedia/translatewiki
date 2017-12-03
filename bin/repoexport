@@ -13,35 +13,4 @@ cd "$DIR"
 
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
-REPONG=$(cat "$DIRSCRIPT/REPONG-PROJECTS");
-for i in $REPONG; do
-	if [ "$i" = "$PROJECT" ]
-	then
-		php "$DIRSCRIPT/../repong/repong.php" export "$PROJECT"
-		exit 0
-	fi
-done
-
-if [ "$PROJECT" = "mediawiki-extensions" ]
-then
-	PREFIXES="ext-c ext-s ext-m ext-p ext-t ext-w ext-a ext-b ext-d ext-e ext-f \
-		ext-g ext-h ext-i ext-j ext-k ext-l ext-n ext-o ext-q ext-r ext-u ext-v \
-		ext-x ext-y ext-z ext-3"
-
-	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
-
-elif [ "$PROJECT" = "mediawiki-skins" ]
-then
-	PREFIXES="mediawiki-skin-c mediawiki-skin-s mediawiki-skin-m mediawiki-skin-p \
-	    mediawiki-skin-t mediawiki-skin-w mediawiki-skin-a mediawiki-skin-b mediawiki-skin-d \
-	    mediawiki-skin-e mediawiki-skin-f mediawiki-skin-g mediawiki-skin-h mediawiki-skin-i \
-	    mediawiki-skin-j mediawiki-skin-k mediawiki-skin-l mediawiki-skin-n mediawiki-skin-o \
-	    mediawiki-skin-q mediawiki-skin-r mediawiki-skin-u mediawiki-skin-v mediawiki-skin-x \
-	    mediawiki-skin-y mediawiki-skin-z"
-
-	echo $PREFIXES | xargs -n1 -P4 ${DIRSCRIPT}/export-by-prefix $DIR $PROJECT .
-
-else
-	echo "`basename $0`: Unknown project"
-	exit 1
-fi
+php "$DIRSCRIPT/../repong/repong.php" export "$PROJECT"

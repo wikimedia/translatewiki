@@ -12,42 +12,4 @@ source ${DIRSCRIPT}/findexportroot
 
 echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
 
-COMMITMSG="Localisation updates from https://translatewiki.net."
-
-gitCommitGerrit() {
-	cd $1
-	git add .
-	git commit -q -m "$COMMITMSG" && git review -r origin -t l10n || :
-}
-
-REPONG=$(cat "$DIRSCRIPT/REPONG-PROJECTS");
-for i in $REPONG; do
-	if [ "$i" = "$PROJECT" ]
-	then
-		php "$DIRSCRIPT/../repong/repong.php" commit "$PROJECT"
-		exit 0
-	fi
-done
-
-if [ "$PROJECT" = "mediawiki-extensions" ]
-then
-	for i in `ls "$DIR/$PROJECT/extensions"`
-	do
-		echo "--> $i"
-		gitCommitGerrit "$DIR/$PROJECT/extensions/$i"
-		"$DIRSCRIPT/merge-wmgerrit-patches" "mediawiki/extensions/$i"
-	done
-
-elif [ "$PROJECT" = "mediawiki-skins" ]
-then
-	for i in `ls $DIR/$PROJECT`
-	do
-		echo "--> $i"
-		gitCommitGerrit "$DIR/$PROJECT/$i"
-		"$DIRSCRIPT/merge-wmgerrit-patches" "mediawiki/skins/$i"
-	done
-
-else
-	echo "`basename $0`: Unknown project"
-	exit 1
-fi
+php "$DIRSCRIPT/../repong/repong.php" commit "$PROJECT"
