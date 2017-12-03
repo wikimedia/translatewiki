@@ -235,15 +235,41 @@ class UpdateCommand extends RepoNgCommand {
 	protected function execute( InputInterface $input, OutputInterface $output ) {
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
+		$defaultConfig = $this->getConfig( $project, null );
 		$config = $this->getConfig( $project, $variant );
+		$meta = $this->getConfig( '@meta', $variant );
 		$base = $this->getBase();
 		$bindir = $this->bindir;
+		// Without state synchronization, the repository we make commits
+		// could be ahead of the state that has been processed in the wiki.
+		// With state synchronization we ensure we do not overwrite any
+		// changes that have been made in the between.
+		$stateDir = isset( $meta[ 'state-directory' ] ) ? $meta[ 'state-directory' ] : false;
 
 		$processes = new SplObjectStorage();
 
 		foreach ( $config['repos'] as $name => $repo ) {
 			$type = $repo['type'];
-			$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
+			$branch = $repo['branch'] ?? 'master';
+
+			// Check if we can use state synchronization for this repo
+			$defaultConfigBranch = $defaultConfig[ 'repos' ][ $name ][ 'branch' ] ?? 'master';
+			$branchCompatible = $branch === $defaultConfigBranch;
+			$syncState = $stateDir && $branchCompatible && !isset( $repo[ 'no-state-sync' ] );
+
+			// Determine the state to use, if possible
+			$state = null;
+			if ( $syncState && in_array( $type, [ 'git', 'github', 'wmgerrit' ] ) ) {
+				$process = new Process( 'git log --pretty="%H" -n 1' );
+				$process->setWorkingDirectory( "$stateDir/$name" );
+				$process->setTimeout( 5 );
+				$process->run();
+				if ( $process->isSuccessful() ) {
+					$state = trim( $process->getOutput() );
+				} else {
+					throw new ProcessFailedException( $process );
+				}
+			}
 
 			if ( $type === 'git' ) {
 				$userName = get_current_user();
@@ -260,12 +286,16 @@ class UpdateCommand extends RepoNgCommand {
 			} elseif ( $type === 'wmgerrit' ) {
 				$command = "$bindir/clupdate-gerrit-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} elseif ( $type === 'svn' ) {
-				$command = "$bindir/clupdate-svn-repo  '{$repo['url']}' '$base/$name'";
+				$command = "$bindir/clupdate-svn-repo '{$repo['url']}' '$base/$name'";
 			} elseif ( $type === 'bzr' ) {
-				$command = "$bindir/clupdate-bzr-repo  '{$repo['url']}' '$base/$name' '$branch'";
+				$command = "$bindir/clupdate-bzr-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} else {
 				$config = yaml_emit( [ $name => $repo ] );
 				throw new RuntimeException( "Unknown repo type:\n$config" );
+			}
+
+			if ( $state ) {
+				$command .= " '$state'";
 			}
 
 			$process = new Process( $command );
@@ -366,18 +396,18 @@ class CommitCommand extends RepoNgCommand {
 
 		foreach ( $config['repos'] as $name => $repo ) {
 			if ( $repo['type'] === 'git' || $repo['type'] === 'github' ) {
-				$dir = "$base/$name";
-				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
+				$branch = $repo['branch'] ?? 'master';
 				$command =
-					"cd '$dir'; git add .; if ! git diff --cached --quiet; " .
-					"then git commit -m '$message'; git push origin '$branch'; fi";
+					"cd '$name'; git add .; if ! git diff --cached --quiet; " .
+					"then git commit -m '$message'; " .
+					"git rebase 'origin/$branch' && git push origin '$branch'; fi";
 			} elseif ( $repo['type'] === 'wmgerrit' ) {
-				$dir = "$base/$name";
+				$branch = $repo['branch'] ?? 'master';
 				$command =
-					"cd '$dir'; git add .; if ! git diff --cached --quiet; " .
-					"then git commit -m '$message'; git review -r origin -t L10n; fi";
+					"cd '$name'; git add .; if ! git diff --cached --quiet; " .
+					"then git commit -m '$message'; " .
+					"git rebase 'origin/$branch' && git review -r origin -t L10n; fi";
 			} elseif ( $repo['type'] === 'svn' ) {
-				$dir = "$base/$name";
 				$extra = '';
 				if ( isset( $repo['svn-add-options'] ) ) {
 					foreach ( (array)$repo['svn-add-options'] as $option ) {
@@ -386,19 +416,19 @@ class CommitCommand extends RepoNgCommand {
 				}
 
 				$command =
-					"cd '$dir'; " .
+					"cd '$name'; " .
 					"svn add --force * --auto-props --parents --depth infinity -q$extra; " .
 					"svn commit --message '$message'";
 			} elseif ( $repo['type'] === 'bzr' ) {
-				$dir = "$base/$name";
-				$branch = isset( $repo['branch'] ) ? $repo['branch'] : 'master';
-				$command = "cd '$dir'; bzr add .;bzr commit -m '$message'";
+				$branch = $repo['branch'] ?? 'master';
+				$command = "cd '$name'; bzr add .;bzr commit -m '$message'";
 			} else {
 				throw new RuntimeException( 'Unknown repo type' );
 			}
 
 			$process = new Process( $command );
 			$process->setTimeout( 120 );
+			$process->setWorkingDirectory( $base );
 			$processes->attach( $process );
 
 			$autoMerge = isset( $repo['auto-merge'] ) ? $repo['auto-merge'] : true;

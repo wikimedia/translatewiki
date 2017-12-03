@@ -10,11 +10,17 @@ ME=`basename "$0"`
 URL=$1
 DIR=$2
 BRANCH=${3:-master}
+COMMIT=${4:-origin/$BRANCH}
 
 if [ -d "$DIR/.git" ]
-then
-	"$DIRSCRIPT/update-reset-repo" "$DIR" "" "$BRANCH"
-else
+then (
+	cd $DIR
+	git rebase --abort &>/dev/null || :
+	git checkout -qf "$BRANCH"
+	git fetch -q
+	git reset -q --hard "$COMMIT"
+	git clean -q -f -d &>/dev/null
+) else
 	git clone "$URL" "$DIR" -b "$BRANCH"
 
 	if [ "$ME" = 'clupdate-gerrit-repo' ]
