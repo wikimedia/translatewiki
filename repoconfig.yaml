@@ -340,6 +340,14 @@ mwgithub:
       type: github
       url: https://github.com/JeroenDeDauw/Validator.git
       url|export: git@github.com:JeroenDeDauw/Validator.git
+    mwgithub/miraheze/CreateWiki:
+      type: github
+      url: https://github.com/miraheze/CreateWiki.git
+      url|export: git@github.com:miraheze/CreateWiki.git
+    mwgithub/miraheze/ManageWiki:
+      type: github
+      url: https://github.com/miraheze/ManageWiki.git
+      url|export: git@github.com:miraheze/ManageWiki.git
     mwgithub/Nikerabbit/mediawiki-extensions-FinnFrameNet:
       type: github
       url: https://github.com/Nikerabbit/mediawiki-extensions-FinnFrameNet.git
