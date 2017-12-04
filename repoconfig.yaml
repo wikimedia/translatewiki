@@ -420,6 +420,10 @@ mwgithub:
       type: github
       url: https://github.com/SemanticMediaWiki/WhatsNearby.git
       url|export: git@github.com:SemanticMediaWiki/WhatsNearby.git
+    mwgithub/thingles/foreground:
+      type: github
+      url: https://github.com/thingles/foreground.git
+      url|export: git@github.com:thingles/foreground.git
 
 nfcring-control:
   group: nfcring-control
