@@ -354,8 +354,8 @@ mwgithub:
       url|export: git@github.com:Nikerabbit/mediawiki-extensions-FinnFrameNet.git
     mwgithub/OrganicDesign/extensions:
       type: github
-      url: https://github.com/OrganicDesign/extensions
-      url|export: git@github.com:OrganicDesign/extensions
+      url: https://github.com/OrganicDesign/extensions.git
+      url|export: git@github.com:OrganicDesign/extensions.git
     mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticBreadcrumbLinks.git
