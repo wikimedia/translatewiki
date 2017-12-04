@@ -368,7 +368,7 @@ FILES:
 
 ---
 BASIC:
-  id: mediawiki-skingithub
+  id: mediawiki-skingithub-foreground
   label: Foreground
   description: "{{Special:MyLanguage/MediaWiki:foreground-desc/en}}"
 
