@@ -23,7 +23,7 @@ for i in $REPONG; do
 	if [ "$i" = "$PROJECT" ]
 	then
 		php "$DIRSCRIPT/../repong/repong.php" export "$PROJECT"
-		exit 0;
+		exit 0
 	fi
 done
 
