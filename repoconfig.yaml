@@ -306,7 +306,7 @@ mwgerrit:
 
 mwgithub:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal
-  group: mwgithub-*,mediawiki-skingithub-*
+  group: mwgithub-*,mwgithubskin-*
   repos:
     mwgithub/cmln/Chameleon:
       type: github

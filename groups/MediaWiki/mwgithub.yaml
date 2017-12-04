@@ -279,7 +279,7 @@ FILES:
 
 ---
 BASIC:
-  id: mediawiki-skingithub-chameleon
+  id: mwgithubskin-chameleon
   label: Chameleon
   description: "{{Special:MyLanguage/MediaWiki:Chameleon-desc/en}}"
 
@@ -368,7 +368,7 @@ FILES:
 
 ---
 BASIC:
-  id: mediawiki-skingithub-foreground
+  id: mwgithubskin-foreground
   label: Foreground
   description: "{{Special:MyLanguage/MediaWiki:foreground-desc/en}}"
 
