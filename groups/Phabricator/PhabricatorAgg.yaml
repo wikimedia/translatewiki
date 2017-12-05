@@ -1,0 +1,11 @@
+BASIC:
+  id: phabricator
+  label: Phabricator
+  icon: wiki://Phacility_phabricator_logo.svg
+  meta: yes
+  namespace: NS_PHABRICATOR
+  class: AggregateMessageGroup
+  description: This is an experimental project. Translations are not yet being integrated.
+
+GROUPS:
+  - phabricator-*
