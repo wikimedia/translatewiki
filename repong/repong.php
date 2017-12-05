@@ -427,21 +427,18 @@ class CommitCommand extends RepoNgCommand {
 			$process->setTimeout( 120 );
 			$process->setWorkingDirectory( $base );
 			$processes->attach( $process );
-
-			$autoMerge = $repo['auto-merge'] ?? true;
-
-			// Merge patch sets submitted to Wikimedia's Gerrit.
-			if ( $repo['type'] === 'wmgerrit' && $autoMerge ) {
-				$project = str_replace( 'ssh://l10n-bot@gerrit.wikimedia.org:29418/', '', $repo['url'] );
-				$command = $this->bindir . "/merge-wmgerrit-patches '$project'";
-
-				$mergeProcess = new Process( $command );
-				$mergeProcess->setTimeout( 120 );
-				$processes->attach( $mergeProcess, $process );
-			}
 		}
 
 		$this->runParallelWithOutput( $processes, $output );
+
+		// Merge patch sets submitted to Wikimedia's Gerrit.
+		$mergePattern = $config[ 'auto-merge' ] ?? false;
+		if ( $repo['type'] === 'wmgerrit' && $mergePattern ) {
+			$command = $this->bindir . "/merge-wmgerrit-patches '$mergePattern'";
+			$mergeProcess = new Process( $command );
+			$mergeProcess->setTimeout( 600 );
+			$mergeProcess->mustRun();
+		}
 	}
 }
 

@@ -51,6 +51,7 @@ copypatrol:
 
 crosswatch:
   group: crosswatch
+  auto-merge: labs/tools/crosswatch
   repos:
     crosswatch:
       type: wmgerrit
@@ -101,6 +102,7 @@ fudforum:
 
 gapfinder:
   group: gapfinder
+  auto-merge: research/recommendation-api
   repos:
     recommendation-api:
       type: wmgerrit
@@ -179,6 +181,7 @@ intuition:
 
 intuition-tools:
   group: int-*
+  auto-merge: ^research/recommendation-api|labs/tools/guc|tools/heritage
   repos:
     int-dcatap:
       type: wmgerrit
@@ -256,6 +259,7 @@ mediawiki:
   no-export-languages: test,aeb,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-hk,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   export-threshold: 13
   group: core,ext-installer,mediawiki-api
+  auto-merge: mediawiki/core
   repos:
     mediawiki/master:
       type: wmgerrit
@@ -267,6 +271,7 @@ mediawiki-extensions:
   no-export-languages: test,aeb,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-hk,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   export-threshold: 0
   group: ext-*
+  auto-merge: ^mediawiki/extensions/.*
   repos:
     '@generator': php ../groups/MediaWiki/repong-generator.php extensions
 
@@ -275,6 +280,7 @@ mediawiki-skins:
   no-export-languages: test,aeb,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-hk,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   export-threshold: 0
   group: mediawiki-skin-*
+  auto-merge: ^mediawiki/skins/.*
   repos:
     '@generator': php ../groups/MediaWiki/repong-generator.php skins
 
@@ -290,6 +296,7 @@ mifos:
 
 mwgerrit:
   group: mwgerrit-*
+  auto-merge: ^data-values/value-view|oojs/ui|VisualEditor/VisualEditor
   repos:
     mwgerrit/data-values/value-view:
       type: wmgerrit
@@ -474,6 +481,7 @@ pageviews:
 
 proveit:
   group: proveit
+  auto-merge: wikipedia/gadgets/ProveIt
   repos:
     proveit:
       type: wmgerrit
@@ -483,6 +491,7 @@ proveit:
 pywikibot:
   group: out-pywikipedia-*
   export-threshold: 1
+  auto-merge: pywikibot/i18n
   repos:
     pywikibot:
       type: wmgerrit
@@ -536,6 +545,7 @@ wikiblame:
 
 wikidata:
   group: wikidata-*
+  auto-merge: wikidata/query/gui
   repos:
     wikidata/query/gui:
       type: wmgerrit
@@ -553,6 +563,7 @@ wikiedudashboard:
 
 wikimania:
   group: out-wikimania-scholarships-app
+  auto-merge: wikimedia/wikimania-scholarships
   repos:
     wikimania:
       type: wmgerrit
@@ -561,6 +572,7 @@ wikimania:
 
 wikimedia-portals:
   group: wikimedia-portals
+  auto-merge: wikimedia/portals
   repos:
     wikimedia-portals:
       type: wmgerrit
@@ -581,7 +593,6 @@ wikipedia-android:
     wikipedia-android:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/apps/android/wikipedia
-      auto-merge: false
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/wikipedia
 
 wikipedia-ios:
