@@ -189,9 +189,6 @@ file = BlueSpiceFoundation/i18n/diagnostics/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Diagnostics.alias.php
 id = ext-bs-diagnostics
 
-# Not added per request of maintainer, change-Id: Ie0eee3b702e8632d3edab1831985ff07f9df94bd
-# Blue Spice - examples - BoilerPlate
-
 Blue Spice - ExtJS
 file = BlueSpiceFoundation/i18n/extjs/%CODE%.json
 id = ext-bs-extjs
@@ -203,12 +200,6 @@ id = ext-bs-extjs-portal
 Blue Spice - Filerepo
 file = BlueSpiceFoundation/i18n/filerepo/%CODE%.json
 id = ext-bs-filerepo
-
-Blue Spice - Flexiskin
-id = ext-bs-flexiskin
-descmsg = bs-flexiskin-desc
-file = BlueSpiceExtensions/Flexiskin/i18n/%CODE%.json
-aliasfile = BlueSpiceExtensions/Flexiskin/includes/specials/SpecialFlexiskin.alias.php
 
 Blue Spice - Hide Title
 id = ext-bs-hidetitle
