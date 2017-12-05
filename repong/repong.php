@@ -244,7 +244,7 @@ class UpdateCommand extends RepoNgCommand {
 		// could be ahead of the state that has been processed in the wiki.
 		// With state synchronization we ensure we do not overwrite any
 		// changes that have been made in the between.
-		$stateDir = isset( $meta[ 'state-directory' ] ) ? $meta[ 'state-directory' ] : false;
+		$stateDir = $meta[ 'state-directory' ] ?? false;
 
 		$processes = new SplObjectStorage();
 
@@ -272,10 +272,7 @@ class UpdateCommand extends RepoNgCommand {
 			}
 
 			if ( $type === 'git' ) {
-				$userName = get_current_user();
-				if ( isset( $this->usernameConversion[$userName] ) ) {
-					$userName = $this->usernameConversion[$userName];
-				}
+				$userName = $this->usernameConversion[ $userName ] ?? get_current_user();
 
 				$repoUrl = $repo['url'];
 				$repoUrl = str_replace( 'USERNAME', $userName, $repoUrl );
@@ -431,7 +428,7 @@ class CommitCommand extends RepoNgCommand {
 			$process->setWorkingDirectory( $base );
 			$processes->attach( $process );
 
-			$autoMerge = isset( $repo['auto-merge'] ) ? $repo['auto-merge'] : true;
+			$autoMerge = $repo['auto-merge'] ?? true;
 
 			// Merge patch sets submitted to Wikimedia's Gerrit.
 			if ( $repo['type'] === 'wmgerrit' && $autoMerge ) {
