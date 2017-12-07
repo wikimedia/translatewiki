@@ -211,11 +211,6 @@ id = ext-bs-insertcategory
 descmsg = bs-insertcategory-desc
 file = BlueSpiceExtensions/InsertCategory/i18n/%CODE%.json
 
-Blue Spice - Insert Magic
-id = ext-bs-insertmagic
-descmsg = bs-insertmagic-desc
-file = BlueSpiceExtensions/InsertMagic/i18n/%CODE%.json
-
 Blue Spice - Installer
 id = ext-bs-installer
 file = BlueSpiceFoundation/i18n/installer/%CODE%.json
