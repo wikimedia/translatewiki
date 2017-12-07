@@ -264,7 +264,7 @@ class UpdateCommand extends RepoNgCommand {
 				if ( $process->isSuccessful() ) {
 					$state = trim( $process->getOutput() );
 				} else {
-					throw new ProcessFailedException( $process );
+					$output->writeln( "Unable to synchronize the state for repository $name" );
 				}
 			}
 
