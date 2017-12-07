@@ -220,16 +220,6 @@ id = ext-bs-namespacecss
 descmsg = bs-namespacecss-desc
 file = BlueSpiceExtensions/NamespaceCss/i18n/%CODE%.json
 
-Blue Spice - UE Module PDF
-id = ext-bs-uemodulepdf
-descmsg = bs-uemodulepdf-desc
-file = BlueSpiceExtensions/UEModulePDF/i18n/%CODE%.json
-
-Blue Spice - Universal Export
-id = ext-bs-universalexport
-descmsg = bs-universalexport-desc
-file = BlueSpiceExtensions/UniversalExport/i18n/%CODE%.json
-
 Blue Spice - Upload
 file = BlueSpiceFoundation/i18n/upload/%CODE%.json
 id = ext-bs-upload
