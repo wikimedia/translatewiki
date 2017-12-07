@@ -16,9 +16,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 abstract class RepoNgCommand extends Command {
 	protected $bindir;
 	protected $config;
-	protected $usernameConversion = [
-		'nike' => 'nikerabbit',
-	];
 	protected $parallelism = 1;
 	protected $base;
 	protected $defaultVariant;
@@ -272,12 +269,7 @@ class UpdateCommand extends RepoNgCommand {
 			}
 
 			if ( $type === 'git' ) {
-				$userName = $this->usernameConversion[ $userName ] ?? get_current_user();
-
-				$repoUrl = $repo['url'];
-				$repoUrl = str_replace( 'USERNAME', $userName, $repoUrl );
-
-				$command = "$bindir/clupdate-git-repo '$repoUrl' '$base/$name' '$branch'";
+				$command = "$bindir/clupdate-git-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} elseif ( $type === 'github' ) {
 				$command = "$bindir/clupdate-github-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} elseif ( $type === 'wmgerrit' ) {
