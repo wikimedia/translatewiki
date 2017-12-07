@@ -216,12 +216,6 @@ id = ext-bs-insertmagic
 descmsg = bs-insertmagic-desc
 file = BlueSpiceExtensions/InsertMagic/i18n/%CODE%.json
 
-Blue Spice - Insert Link
-aliasfile = BlueSpiceExtensions/InsertLink/InsertLink.alias.php
-id = ext-bs-insertlink
-descmsg = bs-insertlink-desc
-file = BlueSpiceExtensions/InsertLink/i18n/%CODE%.json
-
 Blue Spice - Installer
 id = ext-bs-installer
 file = BlueSpiceFoundation/i18n/installer/%CODE%.json
