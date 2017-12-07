@@ -89,7 +89,7 @@ freecol:
     freecol:
       type: git
       url: git://git.code.sf.net/p/freecol/git
-      url|export: ssh://USERNAME@git.code.sf.net/p/freecol/git
+      url|export: ssh://translatewiki@git.code.sf.net/p/freecol/git
 
 fudforum:
   group: out-fudforum
