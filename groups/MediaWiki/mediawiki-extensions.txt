@@ -236,26 +236,6 @@ id = ext-bs-namespacecss
 descmsg = bs-namespacecss-desc
 file = BlueSpiceExtensions/NamespaceCss/i18n/%CODE%.json
 
-Blue Spice - Page Access
-id = ext-bs-pageaccess
-descmsg = bs-pageaccess-desc
-file = BlueSpiceExtensions/PageAccess/i18n/%CODE%.json
-
-Blue Spice - RSS Feeder
-id = ext-bs-rssfeeder
-descmsg = bs-rssfeeder-desc
-file = BlueSpiceExtensions/RSSFeeder/i18n/%CODE%.json
-
-Blue Spice - RSS Standards
-id = ext-bs-rssstandards
-descmsg = bs-rssstandards-desc
-file = BlueSpiceExtensions/RSSStandards/i18n/%CODE%.json
-
-Blue Spice - Safer Edit
-id = ext-bs-saferedit
-descmsg = bs-saferedit-desc
-file = BlueSpiceExtensions/SaferEdit/i18n/%CODE%.json
-
 Blue Spice - UE Module PDF
 id = ext-bs-uemodulepdf
 descmsg = bs-uemodulepdf-desc
@@ -269,11 +249,6 @@ file = BlueSpiceExtensions/UniversalExport/i18n/%CODE%.json
 Blue Spice - Upload
 file = BlueSpiceFoundation/i18n/upload/%CODE%.json
 id = ext-bs-upload
-
-Blue Spice - Usage Tracker
-id = ext-bs-usagetracker
-descmsg = bs-usagetracker-desc
-file = BlueSpiceExtensions/UsageTracker/i18n/%CODE%.json
 
 Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
