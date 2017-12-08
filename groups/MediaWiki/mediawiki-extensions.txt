@@ -2228,8 +2228,6 @@ SVG Edit
 
 #Swarm Export / Maintenance script, not a real extension
 
-Swift Cloud Files
-
 Swift Mailer
 
 Syntax Highlight GeSHi
