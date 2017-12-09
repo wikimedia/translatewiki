@@ -1,2 +1,0 @@
-cd /srv/mediawiki/targets/production/extensions/Translate/scripts
-php export.php --target=$HOME/export --group=$1 --lang="$2"
