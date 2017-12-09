@@ -1,0 +1,37 @@
+#!/bin/sh
+
+set -e
+set -u
+
+DIRSCRIPT=$(dirname "$0")
+DIRSCRIPT=$(cd "$DIRSCRIPT" && pwd)
+
+case "$(basename "$0")" in
+autoexport)
+	PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list | grep -v ^mediawiki)
+	;;
+autoexport-mediawiki)
+	PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list | grep ^mediawiki)
+	;;
+*)
+	echo "I don't know what to export"
+	exit 1
+	;;
+esac
+
+_b=$(tput bold)
+b_=$(tput sgr0)
+
+(
+	eval "$(ssh-agent -s)"
+	ssh-add /home/betawiki/id_rsa
+
+	for i in $PROJECTS; do
+		echo "${_b}$i${b_}"
+		"$DIRSCRIPT/repoupdate" "$i" &&
+		"$DIRSCRIPT/repoexport" "$i" &&
+		"$DIRSCRIPT/repocommit" "$i"
+	done
+
+	ssh-agent -k
+)

@@ -1,20 +1,19 @@
-#!/bin/bash
+#!/bin/sh
 # Used by repo* scripts to find the repository root
 # similar to how like git tries to find .git
 
 while true
 do
-	if [ ! -f "$DIR/REPOCONF" ]
+	if [ ! -f "$DIR/repoconfig.yaml" ]
 	then
-		DIR=`dirname $DIR`
+		DIR=$(dirname "$DIR")
 	else
-		. "$DIR/REPOCONF"
 		break
 	fi
 
 	if [ "$DIR" = "/" ]
 	then
-		echo "Fatal: Could not find REPOCONF file"
-		exit 1;
+		echo "Fatal: Could not find repoconfig.yaml"
+		exit 1
 	fi
 done
