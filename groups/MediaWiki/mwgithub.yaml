@@ -349,7 +349,7 @@ MANGLER:
 ---
 BASIC:
   id: mwgithub-createwiki
-  label: Create Wiki
+  label: CreateWiki
   description: "{{Special:MyLanguage/MediaWiki:createwiki-desc/en}}"
 
 FILES:
@@ -359,7 +359,7 @@ FILES:
 ---
 BASIC:
   id: mwgithub-managewiki
-  label: Manage Wiki
+  label: ManageWiki
   description: "{{Special:MyLanguage/MediaWiki:managewiki-desc/en}}"
 
 FILES:
