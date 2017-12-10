@@ -282,6 +282,10 @@ aliasfile = BlueSpiceExtendedStatistics/includes/specials/SpecialExtendedStatist
 Blue Spice Group Manager
 descmsg = bs-groupmanager-desc
 
+Blue Spice Insert Link
+descmsg = bs-insertlink-desc
+aliasfile = BlueSpiceInsertLink/InsertLink.alias.php
+
 Blue Spice Insert Template
 descmsg = bs-insertTemplate-desc
 
