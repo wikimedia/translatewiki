@@ -335,6 +335,9 @@ optional = bs-bssmwconnector-nmmngr-label-smw
 Blue Spice Sub Page Tree
 descmsg = bs-subpagetree-desc
 
+Blue Spice UE Module PDF
+descmsg = bs-uemodulepdf-desc
+
 Blue Spice User Manager
 descmsg = bs-usermanager-desc
 aliasfile = BlueSpiceUserManager/includes/specials/SpecialUserManager.alias.php
