@@ -245,7 +245,6 @@ TAGS:
     - skinname-cologneblue
     - skinname-modern
     - sorbs
-    - sp-contributions-explain
     - timezone-utc
     - undelete-revision-row2
     - unit-pixel
@@ -528,6 +527,7 @@ TAGS:
     - sitenotice
     - sitesubtitle
     - sitetitle
+    - sp-contributions-explain
     - sp-contributions-footer
     - sp-contributions-footer-anon
     - sp-contributions-footer-anon-range

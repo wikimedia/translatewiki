@@ -1003,8 +1003,6 @@ ignored = apihelp-query+gettingstartedgetpages-example-1
 
 Git 2 Pages
 
-# Git Hub # Maintained through repong
-
 Gitweb
 
 Global Blocking
