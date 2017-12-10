@@ -289,6 +289,9 @@ Blue Spice Insert Link
 descmsg = bs-insertlink-desc
 aliasfile = BlueSpiceInsertLink/InsertLink.alias.php
 
+Blue Spice Insert Magic
+descmsg = bs-insertmagic-desc
+
 Blue Spice Insert Template
 descmsg = bs-insertTemplate-desc
 
