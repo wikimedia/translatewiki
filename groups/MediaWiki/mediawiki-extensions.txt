@@ -338,6 +338,10 @@ descmsg = bs-subpagetree-desc
 Blue Spice UE Module PDF
 descmsg = bs-uemodulepdf-desc
 
+Blue Spice Universal Export
+descmsg = bs-universalexport-desc
+aliasfile = BlueSpiceUniversalExport/languages/SpecialUniversalExport.alias.php
+
 Blue Spice User Manager
 descmsg = bs-usermanager-desc
 aliasfile = BlueSpiceUserManager/includes/specials/SpecialUserManager.alias.php
