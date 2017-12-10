@@ -301,6 +301,10 @@ Blue Spice Namespace Manager
 descmsg = bs-namespacemanager-desc
 aliasfile = BlueSpiceNamespaceManager/includes/specials/SpecialNamespaceManager.alias.php
 
+Blue Spice Page Access
+descmsg = bs-pageaccess-desc
+aliasfile = /BlueSpicePageAccess/includes/specials/SpecialPageAccess.alias.php
+
 Blue Spice Page Assignments
 descmsg = bs-pageassignments-desc
 aliasfile = BlueSpicePageAssignments/PageAssignments.alias.php
