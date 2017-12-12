@@ -440,3 +440,9 @@ $wgTranslateSupportUrlNamespace[NS_DISSEMIN] = [
 	'url' => 'https://github.com/dissemin/dissemin/issues/new',
 	'params' => $githubParams,
 ];
+
+wfAddNamespace( 1274, 'Phabricator' );
+$wgCapitalLinkOverrides[NS_PHABRICATOR] = false;
+$wgCapitalLinkOverrides[NS_PHABRICATOR_TALK] = false;
+$wgTranslateGroupFiles[] = "$GROUPS/Phabricator/PhabricatorAgg.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Phabricator/Phabricator.yaml";

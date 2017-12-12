@@ -479,6 +479,15 @@ pageviews:
       url: https://github.com/MusikAnimal/pageviews.git
       url|export: git@github.com:MusikAnimal/pageviews.git
 
+phabricator:
+  group: phabricator-*
+  repos:
+    phabricator:
+      type: git
+      branch: wmf/stable
+      url: https://phabricator.wikimedia.org/source/phabricator-translations.git
+      url|export: ssh://vcs@git-ssh.wikimedia.org/source/phabricator-translations.git
+
 proveit:
   group: proveit
   auto-merge: wikipedia/gadgets/ProveIt

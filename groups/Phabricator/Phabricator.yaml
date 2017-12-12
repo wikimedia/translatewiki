@@ -1,0 +1,743 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Phacility_phabricator_logo.svg
+    class: FileBasedMessageGroup
+    namespace: NS_PHABRICATOR
+    description: This is an experimental project. Translations are not yet being integrated.
+
+  FILES:
+    class: JsonFFS
+
+  CHECKER:
+    class: MediaWikiMessageChecker
+    checks:
+      - wikiParameterCheck
+      - braceBalanceCheck
+
+  MANGLER:
+    class: StringMatcher
+    patterns:
+       - "*"
+
+  INSERTABLES:
+    class: MediaWikiInsertablesSuggester
+
+---
+BASIC:
+  id: phabricator-arcanist-core
+  label: Phabricator (arcanist > core)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/arcanist/core/%CODE%.json'
+MANGLER:
+  prefix: arcanist-core-
+
+---
+BASIC:
+  id: phabricator-libphutil-core
+  label: Phabricator (libphutil > core)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/libphutil/core/%CODE%.json'
+MANGLER:
+  prefix: libphutil-core-
+
+---
+BASIC:
+  id: phabricator-phabricator-almanac
+  label: Phabricator (phabricator > almanac)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/almanac/%CODE%.json'
+MANGLER:
+  prefix: phabricator-almanac-
+
+---
+BASIC:
+  id: phabricator-phabricator-aphlict
+  label: Phabricator (phabricator > aphlict)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/aphlict/%CODE%.json'
+MANGLER:
+  prefix: phabricator-aphlict-
+
+---
+BASIC:
+  id: phabricator-phabricator-audit
+  label: Phabricator (phabricator > audit)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/audit/%CODE%.json'
+MANGLER:
+  prefix: phabricator-audit-
+
+---
+BASIC:
+  id: phabricator-phabricator-auth
+  label: Phabricator (phabricator > auth)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/auth/%CODE%.json'
+MANGLER:
+  prefix: phabricator-auth-
+
+---
+BASIC:
+  id: phabricator-phabricator-badges
+  label: Phabricator (phabricator > badges)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/badges/%CODE%.json'
+MANGLER:
+  prefix: phabricator-badges-
+
+---
+BASIC:
+  id: phabricator-phabricator-base
+  label: Phabricator (phabricator > base)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/base/%CODE%.json'
+MANGLER:
+  prefix: phabricator-base-
+
+---
+BASIC:
+  id: phabricator-phabricator-cache
+  label: Phabricator (phabricator > cache)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/cache/%CODE%.json'
+MANGLER:
+  prefix: phabricator-cache-
+
+---
+BASIC:
+  id: phabricator-phabricator-calendar
+  label: Phabricator (phabricator > calendar)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/calendar/%CODE%.json'
+MANGLER:
+  prefix: phabricator-calendar-
+
+---
+BASIC:
+  id: phabricator-phabricator-celerity
+  label: Phabricator (phabricator > celerity)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/celerity/%CODE%.json'
+MANGLER:
+  prefix: phabricator-celerity-
+
+---
+BASIC:
+  id: phabricator-phabricator-chatlog
+  label: Phabricator (phabricator > chatlog)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/chatlog/%CODE%.json'
+MANGLER:
+  prefix: phabricator-chatlog-
+
+---
+BASIC:
+  id: phabricator-phabricator-conduit
+  label: Phabricator (phabricator > conduit)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/conduit/%CODE%.json'
+MANGLER:
+  prefix: phabricator-conduit-
+
+---
+BASIC:
+  id: phabricator-phabricator-config
+  label: Phabricator (phabricator > config)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/config/%CODE%.json'
+MANGLER:
+  prefix: phabricator-config-
+
+---
+BASIC:
+  id: phabricator-phabricator-conpherence
+  label: Phabricator (phabricator > conpherence)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/conpherence/%CODE%.json'
+MANGLER:
+  prefix: phabricator-conpherence-
+
+---
+BASIC:
+  id: phabricator-phabricator-console
+  label: Phabricator (phabricator > console)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/console/%CODE%.json'
+MANGLER:
+  prefix: phabricator-console-
+
+---
+BASIC:
+  id: phabricator-phabricator-core
+  label: Phabricator (phabricator > core)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/core/%CODE%.json'
+MANGLER:
+  prefix: phabricator-core-
+
+---
+BASIC:
+  id: phabricator-phabricator-countdown
+  label: Phabricator (phabricator > countdown)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/countdown/%CODE%.json'
+MANGLER:
+  prefix: phabricator-countdown-
+
+---
+BASIC:
+  id: phabricator-phabricator-daemon
+  label: Phabricator (phabricator > daemon)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/daemon/%CODE%.json'
+MANGLER:
+  prefix: phabricator-daemon-
+
+---
+BASIC:
+  id: phabricator-phabricator-dashboard
+  label: Phabricator (phabricator > dashboard)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/dashboard/%CODE%.json'
+MANGLER:
+  prefix: phabricator-dashboard-
+
+---
+BASIC:
+  id: phabricator-phabricator-differential
+  label: Phabricator (phabricator > differential)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/differential/%CODE%.json'
+MANGLER:
+  prefix: phabricator-differential-
+
+---
+BASIC:
+  id: phabricator-phabricator-diffusion
+  label: Phabricator (phabricator > diffusion)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/diffusion/%CODE%.json'
+MANGLER:
+  prefix: phabricator-diffusion-
+
+---
+BASIC:
+  id: phabricator-phabricator-diviner
+  label: Phabricator (phabricator > diviner)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/diviner/%CODE%.json'
+MANGLER:
+  prefix: phabricator-diviner-
+
+---
+BASIC:
+  id: phabricator-phabricator-doorkeeper
+  label: Phabricator (phabricator > doorkeeper)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/doorkeeper/%CODE%.json'
+MANGLER:
+  prefix: phabricator-doorkeeper-
+
+---
+BASIC:
+  id: phabricator-phabricator-drydock
+  label: Phabricator (phabricator > drydock)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/drydock/%CODE%.json'
+MANGLER:
+  prefix: phabricator-drydock-
+
+---
+BASIC:
+  id: phabricator-phabricator-fact
+  label: Phabricator (phabricator > fact)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/fact/%CODE%.json'
+MANGLER:
+  prefix: phabricator-fact-
+
+---
+BASIC:
+  id: phabricator-phabricator-favorites
+  label: Phabricator (phabricator > favorites)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/favorites/%CODE%.json'
+MANGLER:
+  prefix: phabricator-favorites-
+
+---
+BASIC:
+  id: phabricator-phabricator-feed
+  label: Phabricator (phabricator > feed)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/feed/%CODE%.json'
+MANGLER:
+  prefix: phabricator-feed-
+
+---
+BASIC:
+  id: phabricator-phabricator-files
+  label: Phabricator (phabricator > files)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/files/%CODE%.json'
+MANGLER:
+  prefix: phabricator-files-
+
+---
+BASIC:
+  id: phabricator-phabricator-flag
+  label: Phabricator (phabricator > flag)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/flag/%CODE%.json'
+MANGLER:
+  prefix: phabricator-flag-
+
+---
+BASIC:
+  id: phabricator-phabricator-fund
+  label: Phabricator (phabricator > fund)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/fund/%CODE%.json'
+MANGLER:
+  prefix: phabricator-fund-
+
+---
+BASIC:
+  id: phabricator-phabricator-guides
+  label: Phabricator (phabricator > guides)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/guides/%CODE%.json'
+MANGLER:
+  prefix: phabricator-guides-
+
+---
+BASIC:
+  id: phabricator-phabricator-harbormaster
+  label: Phabricator (phabricator > harbormaster)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/harbormaster/%CODE%.json'
+MANGLER:
+  prefix: phabricator-harbormaster-
+
+---
+BASIC:
+  id: phabricator-phabricator-help
+  label: Phabricator (phabricator > help)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/help/%CODE%.json'
+MANGLER:
+  prefix: phabricator-help-
+
+---
+BASIC:
+  id: phabricator-phabricator-herald
+  label: Phabricator (phabricator > herald)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/herald/%CODE%.json'
+MANGLER:
+  prefix: phabricator-herald-
+
+---
+BASIC:
+  id: phabricator-phabricator-home
+  label: Phabricator (phabricator > home)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/home/%CODE%.json'
+MANGLER:
+  prefix: phabricator-home-
+
+---
+BASIC:
+  id: phabricator-phabricator-legalpad
+  label: Phabricator (phabricator > legalpad)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/legalpad/%CODE%.json'
+MANGLER:
+  prefix: phabricator-legalpad-
+
+---
+BASIC:
+  id: phabricator-phabricator-lipsum
+  label: Phabricator (phabricator > lipsum)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/lipsum/%CODE%.json'
+MANGLER:
+  prefix: phabricator-lipsum-
+
+---
+BASIC:
+  id: phabricator-phabricator-macro
+  label: Phabricator (phabricator > macro)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/macro/%CODE%.json'
+MANGLER:
+  prefix: phabricator-macro-
+
+---
+BASIC:
+  id: phabricator-phabricator-maniphest
+  label: Phabricator (phabricator > maniphest)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/maniphest/%CODE%.json'
+MANGLER:
+  prefix: phabricator-maniphest-
+
+---
+BASIC:
+  id: phabricator-phabricator-meta
+  label: Phabricator (phabricator > meta)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/meta/%CODE%.json'
+MANGLER:
+  prefix: phabricator-meta-
+
+---
+BASIC:
+  id: phabricator-phabricator-metamta
+  label: Phabricator (phabricator > metamta)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/metamta/%CODE%.json'
+MANGLER:
+  prefix: phabricator-metamta-
+
+---
+BASIC:
+  id: phabricator-phabricator-multimeter
+  label: Phabricator (phabricator > multimeter)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/multimeter/%CODE%.json'
+MANGLER:
+  prefix: phabricator-multimeter-
+
+---
+BASIC:
+  id: phabricator-phabricator-notification
+  label: Phabricator (phabricator > notification)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/notification/%CODE%.json'
+MANGLER:
+  prefix: phabricator-notification-
+
+---
+BASIC:
+  id: phabricator-phabricator-nuance
+  label: Phabricator (phabricator > nuance)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/nuance/%CODE%.json'
+MANGLER:
+  prefix: phabricator-nuance-
+
+---
+BASIC:
+  id: phabricator-phabricator-oauthserver
+  label: Phabricator (phabricator > oauthserver)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/oauthserver/%CODE%.json'
+MANGLER:
+  prefix: phabricator-oauthserver-
+
+---
+BASIC:
+  id: phabricator-phabricator-owners
+  label: Phabricator (phabricator > owners)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/owners/%CODE%.json'
+MANGLER:
+  prefix: phabricator-owners-
+
+---
+BASIC:
+  id: phabricator-phabricator-packages
+  label: Phabricator (phabricator > packages)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/packages/%CODE%.json'
+MANGLER:
+  prefix: phabricator-packages-
+
+---
+BASIC:
+  id: phabricator-phabricator-passphrase
+  label: Phabricator (phabricator > passphrase)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/passphrase/%CODE%.json'
+MANGLER:
+  prefix: phabricator-passphrase-
+
+---
+BASIC:
+  id: phabricator-phabricator-paste
+  label: Phabricator (phabricator > paste)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/paste/%CODE%.json'
+MANGLER:
+  prefix: phabricator-paste-
+
+---
+BASIC:
+  id: phabricator-phabricator-people
+  label: Phabricator (phabricator > people)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/people/%CODE%.json'
+MANGLER:
+  prefix: phabricator-people-
+
+---
+BASIC:
+  id: phabricator-phabricator-phame
+  label: Phabricator (phabricator > phame)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phame/%CODE%.json'
+MANGLER:
+  prefix: phabricator-phame-
+
+---
+BASIC:
+  id: phabricator-phabricator-phid
+  label: Phabricator (phabricator > phid)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phid/%CODE%.json'
+MANGLER:
+  prefix: phabricator-phid-
+
+---
+BASIC:
+  id: phabricator-phabricator-phlux
+  label: Phabricator (phabricator > phlux)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phlux/%CODE%.json'
+MANGLER:
+  prefix: phabricator-phlux-
+
+---
+BASIC:
+  id: phabricator-phabricator-pholio
+  label: Phabricator (phabricator > pholio)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/pholio/%CODE%.json'
+MANGLER:
+  prefix: phabricator-pholio-
+
+---
+BASIC:
+  id: phabricator-phabricator-phortune
+  label: Phabricator (phabricator > phortune)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phortune/%CODE%.json'
+MANGLER:
+  prefix: phabricator-phortune-
+
+---
+BASIC:
+  id: phabricator-phabricator-phpast
+  label: Phabricator (phabricator > phpast)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phpast/%CODE%.json'
+MANGLER:
+  prefix: phabricator-phpast-
+
+---
+BASIC:
+  id: phabricator-phabricator-phragment
+  label: Phabricator (phabricator > phragment)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phragment/%CODE%.json'
+MANGLER:
+  prefix: phabricator-phragment-
+
+---
+BASIC:
+  id: phabricator-phabricator-phrequent
+  label: Phabricator (phabricator > phrequent)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phrequent/%CODE%.json'
+MANGLER:
+  prefix: phabricator-phrequent-
+
+---
+BASIC:
+  id: phabricator-phabricator-phriction
+  label: Phabricator (phabricator > phriction)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phriction/%CODE%.json'
+MANGLER:
+  prefix: phabricator-phriction-
+
+---
+BASIC:
+  id: phabricator-phabricator-phurl
+  label: Phabricator (phabricator > phurl)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phurl/%CODE%.json'
+MANGLER:
+  prefix: phabricator-phurl-
+
+---
+BASIC:
+  id: phabricator-phabricator-policy
+  label: Phabricator (phabricator > policy)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/policy/%CODE%.json'
+MANGLER:
+  prefix: phabricator-policy-
+
+---
+BASIC:
+  id: phabricator-phabricator-ponder
+  label: Phabricator (phabricator > ponder)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/ponder/%CODE%.json'
+MANGLER:
+  prefix: phabricator-ponder-
+
+---
+BASIC:
+  id: phabricator-phabricator-project
+  label: Phabricator (phabricator > project)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/project/%CODE%.json'
+MANGLER:
+  prefix: phabricator-project-
+
+---
+BASIC:
+  id: phabricator-phabricator-releeph
+  label: Phabricator (phabricator > releeph)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/releeph/%CODE%.json'
+MANGLER:
+  prefix: phabricator-releeph-
+
+---
+BASIC:
+  id: phabricator-phabricator-remarkup
+  label: Phabricator (phabricator > remarkup)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/remarkup/%CODE%.json'
+MANGLER:
+  prefix: phabricator-remarkup-
+
+---
+BASIC:
+  id: phabricator-phabricator-repository
+  label: Phabricator (phabricator > repository)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/repository/%CODE%.json'
+MANGLER:
+  prefix: phabricator-repository-
+
+---
+BASIC:
+  id: phabricator-phabricator-search
+  label: Phabricator (phabricator > search)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/search/%CODE%.json'
+MANGLER:
+  prefix: phabricator-search-
+
+---
+BASIC:
+  id: phabricator-phabricator-settings
+  label: Phabricator (phabricator > settings)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/settings/%CODE%.json'
+MANGLER:
+  prefix: phabricator-settings-
+
+---
+BASIC:
+  id: phabricator-phabricator-slowvote
+  label: Phabricator (phabricator > slowvote)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/slowvote/%CODE%.json'
+MANGLER:
+  prefix: phabricator-slowvote-
+
+---
+BASIC:
+  id: phabricator-phabricator-spaces
+  label: Phabricator (phabricator > spaces)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/spaces/%CODE%.json'
+MANGLER:
+  prefix: phabricator-spaces-
+
+---
+BASIC:
+  id: phabricator-phabricator-subscriptions
+  label: Phabricator (phabricator > subscriptions)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/subscriptions/%CODE%.json'
+MANGLER:
+  prefix: phabricator-subscriptions-
+
+---
+BASIC:
+  id: phabricator-phabricator-support
+  label: Phabricator (phabricator > support)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/support/%CODE%.json'
+MANGLER:
+  prefix: phabricator-support-
+
+---
+BASIC:
+  id: phabricator-phabricator-system
+  label: Phabricator (phabricator > system)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/system/%CODE%.json'
+MANGLER:
+  prefix: phabricator-system-
+
+---
+BASIC:
+  id: phabricator-phabricator-tokens
+  label: Phabricator (phabricator > tokens)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/tokens/%CODE%.json'
+MANGLER:
+  prefix: phabricator-tokens-
+
+---
+BASIC:
+  id: phabricator-phabricator-transactions
+  label: Phabricator (phabricator > transactions)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/transactions/%CODE%.json'
+MANGLER:
+  prefix: phabricator-transactions-
+
+---
+BASIC:
+  id: phabricator-phabricator-typeahead
+  label: Phabricator (phabricator > typeahead)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/typeahead/%CODE%.json'
+MANGLER:
+  prefix: phabricator-typeahead-
+
+---
+BASIC:
+  id: phabricator-phabricator-uiexample
+  label: Phabricator (phabricator > uiexample)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/uiexample/%CODE%.json'
+MANGLER:
+  prefix: phabricator-uiexample-
+
+---
+BASIC:
+  id: phabricator-phabricator-xhprof
+  label: Phabricator (phabricator > xhprof)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/xhprof/%CODE%.json'
+MANGLER:
+  prefix: phabricator-xhprof-
+
+---
+BASIC:
+  id: phabricator-translatewiki-core
+  label: Phabricator (translatewiki > core)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/translatewiki/core/%CODE%.json'
+MANGLER:
+  prefix: translatewiki-core-
