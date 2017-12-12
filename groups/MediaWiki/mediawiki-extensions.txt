@@ -163,12 +163,6 @@ file = BlueSpiceFoundation/i18n/core/%CODE%.json
 optional = prefs-base
 ignored = specialpages-group-bluespice, bs-navigation-contact-url, bs-navigation-instructions-url, bs-navigation-support-url
 
-Blue Spice - About Blue Spice
-id = ext-bs-aboutbluespice
-descmsg = bs-aboutbluespice-desc
-file = BlueSpiceExtensions/AboutBlueSpice/i18n/%CODE%.json
-aliasfile = BlueSpiceExtensions/AboutBlueSpice/includes/specials/SpecialAboutBlueSpice.alias.php
-
 Blue Spice - API
 id = ext-bs-api
 file = BlueSpiceFoundation/i18n/api/%CODE%.json
@@ -201,24 +195,9 @@ Blue Spice - Filerepo
 file = BlueSpiceFoundation/i18n/filerepo/%CODE%.json
 id = ext-bs-filerepo
 
-Blue Spice - Hide Title
-id = ext-bs-hidetitle
-descmsg = bs-hidetitle-desc
-file = BlueSpiceExtensions/HideTitle/i18n/%CODE%.json
-
-Blue Spice - Insert Category
-id = ext-bs-insertcategory
-descmsg = bs-insertcategory-desc
-file = BlueSpiceExtensions/InsertCategory/i18n/%CODE%.json
-
 Blue Spice - Installer
 id = ext-bs-installer
 file = BlueSpiceFoundation/i18n/installer/%CODE%.json
-
-Blue Spice - Namespace Css
-id = ext-bs-namespacecss
-descmsg = bs-namespacecss-desc
-file = BlueSpiceExtensions/NamespaceCss/i18n/%CODE%.json
 
 Blue Spice - Upload
 file = BlueSpiceFoundation/i18n/upload/%CODE%.json
