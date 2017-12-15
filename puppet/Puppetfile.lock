@@ -1,22 +1,20 @@
 FORGE
   remote: https://forgeapi.puppetlabs.com
   specs:
-    elastic-elasticsearch (5.1.1)
-      puppet-yum (>= 0.9.6)
-      puppetlabs-apt (< 3.0.0, >= 2.0.0)
-      puppetlabs-java (< 2.0.0, >= 1.0.0)
+    elastic-elasticsearch (6.0.0)
+      puppet-tea (< 1.0.0, >= 0.2.0)
+      puppetlabs-apt (< 5.0.0, >= 2.0.0)
       puppetlabs-stdlib (< 5.0.0, >= 4.6.0)
       richardc-datacat (< 1.0.0, >= 0.6.2)
-    puppet-staging (2.2.0)
-    puppet-yum (2.1.0)
-      puppetlabs-concat (< 5.0.0, >= 1.2.5)
-      puppetlabs-stdlib (< 5.0.0, >= 4.10.0)
-    puppetlabs-apt (2.4.0)
-      puppetlabs-stdlib (< 5.0.0, >= 4.13.0)
-    puppetlabs-concat (4.1.1)
+    puppet-archive (2.2.0)
       puppetlabs-stdlib (< 5.0.0, >= 4.13.1)
-    puppetlabs-java (1.6.0)
-      puppetlabs-stdlib (< 5.0.0, >= 2.4.0)
+    puppet-staging (2.2.0)
+    puppet-tea (0.2.0)
+    puppetlabs-apt (4.4.1)
+      puppetlabs-stdlib (< 5.0.0, >= 4.16.0)
+    puppetlabs-java (2.3.0)
+      puppet-archive (< 3.0.0, >= 1.1.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.13.1)
     puppetlabs-mysql (5.1.0)
       puppet-staging (< 3.0.0, >= 1.0.1)
       puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
@@ -27,7 +25,8 @@ FORGE
     thias-sysctl (1.0.6)
 
 DEPENDENCIES
-  elastic-elasticsearch (= 5.1.1)
+  elastic-elasticsearch (= 6.0.0)
+  puppetlabs-java (= 2.3.0)
   puppetlabs-mysql (= 5.1.0)
   thias-sysctl (= 1.0.6)
 

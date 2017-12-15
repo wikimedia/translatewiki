@@ -11,11 +11,11 @@ class profile::mwelasticsearch {
     notify  => Service['nginx'],
   }
 
+  class { 'java': distribution => 'jre' }
+
   class { 'elasticsearch':
-    manage_repo  => true,
     repo_version => '5.x',
-    java_install => true,
-    version      => '5.1.2',
+    version      => '5.5.2',
     jvm_options  => [
       '-Xms8g',
       '-Xmx10g'
@@ -24,7 +24,7 @@ class profile::mwelasticsearch {
 
   elasticsearch::instance { 'es-01': }
 
-  elasticsearch::plugin { 'org.wikimedia.search:extra:5.1.2':
+  elasticsearch::plugin { 'org.wikimedia.search:extra:5.5.2.3':
     instances  => 'es-01',
     module_dir => 'extra'
   }
