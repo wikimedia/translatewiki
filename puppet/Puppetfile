@@ -1,0 +1,5 @@
+forge "https://forgeapi.puppetlabs.com"
+
+mod 'puppetlabs-mysql', '5.1.0'
+mod 'elastic-elasticsearch', '5.1.1'
+mod 'thias-sysctl', '1.0.6'

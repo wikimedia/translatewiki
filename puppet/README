@@ -4,7 +4,11 @@
 
 apt-get update
 apt-get dist-upgrade
-apt-get install -y git puppet make
+wget https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb
+dpkg -i puppetlabs-release-pc1-xenial.deb
+apt-get update
+apt-get install -y git puppet-agent make
+gem install librarian-puppet
 cd /root
 git clone https://gerrit.wikimedia.org/r/translatewiki
 cd /root/translatewiki

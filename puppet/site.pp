@@ -7,7 +7,6 @@ File {
 # web1 / Primary web server
 node 'web1.translatewiki.net' {
   include base
-  include puppet
   include sshd
   include sudo
   include users
@@ -44,7 +43,6 @@ node 'web1.translatewiki.net' {
 # es / Elastic Search
 node 'es.translatewiki.net' {
   include base
-  include puppet
   include sshd
   include sudo
   include users
