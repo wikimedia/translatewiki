@@ -16,6 +16,9 @@ server {
 	server_name translatewiki.net;
 	root /www/$host/docroot;
 
+	add_header Referrer-Policy no-referrer-when-downgrade;
+	add_header X-Xss-Protection "1; mode=block" always;
+
 	location = / {
 		rewrite ^ /w/index.php;
 	}
