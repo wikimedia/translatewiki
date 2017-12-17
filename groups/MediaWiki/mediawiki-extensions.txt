@@ -310,6 +310,9 @@ descmsg = bs-permissionmanager-desc
 Blue Spice Readers
 descmsg = bs-readers-desc
 
+Blue Spice Smartlist
+descmsg = bs-smartlist-desc
+
 Blue Spice SMW Connector
 descmsg = bs-bssmwconnector-desc
 optional = bs-bssmwconnector-nmmngr-label-smw
