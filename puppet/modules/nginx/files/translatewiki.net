@@ -11,7 +11,7 @@ server {
 	listen 443 ssl default_server deferred http2;
 	listen [2a03:4000:6:b01e::1]:443 default_server deferred ssl http2;
 
-	include includes/ssl.conf;
+	include includes/ssl-certbot.conf;
 
 	server_name translatewiki.net;
 	root /www/$host/docroot;
