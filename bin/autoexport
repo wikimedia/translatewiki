@@ -30,7 +30,7 @@ b_=$(tput sgr0)
 		echo "${_b}$i${b_}"
 		"$DIRSCRIPT/repoupdate" "$i" &&
 		"$DIRSCRIPT/repoexport" "$i" &&
-		"$DIRSCRIPT/repocommit" "$i"
+		"$DIRSCRIPT/repocommit" "$i" || :
 	done
 
 	ssh-agent -k
