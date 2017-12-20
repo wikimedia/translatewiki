@@ -57,7 +57,10 @@ $wgMaxShellMemory = 1024 * 200;
 $wgSitename = 'translatewiki.net';
 $wgEnableCanonicalServerLink = true;
 
-$wgLogo = "//translatewiki.net/static/logo.png";
+$wgLogo = "https://translatewiki.net/static/logo.png";
+$wgLogoHD = [
+	'svg' => 'https://translatewiki.net/static/logo.svg',
+];
 
 $wgGrammarForms['fi']['genitive']['translatewiki.net'] = 'translatewiki.netin';
 $wgGrammarForms['fi']['inessive']['translatewiki.net'] = 'translatewiki.netissä';
