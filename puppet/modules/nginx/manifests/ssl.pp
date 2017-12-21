@@ -38,7 +38,7 @@ class nginx::ssl {
       '/www/translatewiki.net/docroot',
       '/usr/lib/cgi-bin/mailman',
       '/www/stats.translatewiki.net',
-      '/www/translatewiki.net/docroot',
+      '/www/dev.translatewiki.net/docroot',
     ],
   }
 }
