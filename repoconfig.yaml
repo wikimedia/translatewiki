@@ -531,6 +531,8 @@ waymarked-trails-site:
       url: https://github.com/lonvia/waymarked-trails-site.git
       url|export: git@github.com:lonvia/waymarked-trails-site.git
 
+# Note that this group is called "Revision Scoring" in the English web
+# interface.
 wiki-ai:
   group: wiki-ai-*
   repos:
