@@ -207,6 +207,10 @@ Blue Spice - Validator
 file = BlueSpiceFoundation/i18n/validator/%CODE%.json
 id = ext-bs-validator
 
+Blue Spice About
+descmsg = bs-bluespiceabout-desc
+aliasfile = BlueSpiceAbout/includes/specials/SpecialBlueSpiceAbout.alias.php
+
 Blue Spice Article Info
 descmsg = bs-articleinfo-desc
 magicfile = BlueSpiceArticleInfo/languages/ArticleInfo.i18n.magic.php
@@ -261,6 +265,12 @@ aliasfile = BlueSpiceExtendedStatistics/includes/specials/SpecialExtendedStatist
 Blue Spice Group Manager
 descmsg = bs-groupmanager-desc
 
+Blue Spice Hide Title
+descmsg = bs-hidetitle-desc
+
+Blue Spice Insert Category
+descmsg = bs-insertcategory-desc
+
 Blue Spice Insert File
 descmsg = bs-insertfile-desc
 
@@ -281,6 +291,9 @@ optional = bs-interwikilinks-headerurl, bs-interwikilinks-labelurl
 
 Blue Spice Multi Upload
 descmsg = bs-multiupload-desc
+
+Blue Spice Namespace CSS
+descmsg = bs-namespacecss-desc
 
 Blue Spice Namespace Manager
 descmsg = bs-namespacemanager-desc
@@ -310,6 +323,9 @@ descmsg = bs-permissionmanager-desc
 Blue Spice Readers
 descmsg = bs-readers-desc
 
+Blue Spice Safer Edit
+descmsg = bs-saferedit-desc
+
 Blue Spice Smartlist
 descmsg = bs-smartlist-desc
 
@@ -326,6 +342,10 @@ descmsg = bs-uemodulepdf-desc
 Blue Spice Universal Export
 descmsg = bs-universalexport-desc
 aliasfile = BlueSpiceUniversalExport/languages/SpecialUniversalExport.alias.php
+
+Blue Spice Usage Tracker
+descmsg = bs-usagetracker-desc
+aliasfile = BlueSpiceUsageTracker/src/specials/SpecialUsageTracker.alias.php
 
 Blue Spice User Manager
 descmsg = bs-usermanager-desc
