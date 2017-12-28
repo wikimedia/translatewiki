@@ -1,3 +1,4 @@
+# This file is managed by puppet
 [Unit]
 Description=Processes MediaWiki jobs for production site
 After=mysql.service hhvm.service network.target

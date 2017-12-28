@@ -1,11 +1,14 @@
 .PHONY: test testpp checkheaders apply
-test: testpp checkheaders
+test: testpp checkheaders lint
 
 checkheaders:
-	for files in modules/*/files; do find $$files -type f |xargs -r grep -L 'file managed by puppet'; done
+	for files in modules/*/files; do find $$files -type f |xargs -r grep -L 'managed by puppet'; done
 
 testpp:
 	git ls-files | grep "\.pp$$" | xargs -r /opt/puppetlabs/bin/puppet parser validate
+
+lint:
+	puppet-lint modules
 
 noop:
 	librarian-puppet install --path ./vendor

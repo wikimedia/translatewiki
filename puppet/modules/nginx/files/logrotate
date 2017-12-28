@@ -1,3 +1,4 @@
+# This file is managed by puppet
 /var/log/nginx/*.log {
 	weekly
 	missingok

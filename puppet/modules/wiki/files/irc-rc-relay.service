@@ -1,3 +1,4 @@
+# This file is managed by puppet
 [Unit]
 Description=IRC relay for MediaWiki recent changes
 After=network.target
