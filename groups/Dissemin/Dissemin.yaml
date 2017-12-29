@@ -23,7 +23,6 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  keyAlgorithm: simple
   sourcePattern: "%GROUPROOT%/dissemin/locale/%CODE%/LC_MESSAGES/django.po"
   definitionFile: "%GROUPROOT%/dissemin/locale/django.pot"
 
@@ -50,6 +49,5 @@ MANGLER:
 
 FILES:
   class: GettextFFS
-  keyAlgorithm: simple
   sourcePattern: "%GROUPROOT%/dissemin/locale/%CODE%/LC_MESSAGES/djangojs.po"
   definitionFile: "%GROUPROOT%/dissemin/locale/djangojs.pot"

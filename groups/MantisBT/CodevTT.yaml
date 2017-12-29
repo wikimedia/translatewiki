@@ -9,7 +9,6 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  keyAlgorithm: simple
   sourcePattern: "%GROUPROOT%/codev/i18n/locale/%CODE%/LC_MESSAGES/codev.po"
   definitionFile: "%GROUPROOT%/codev/i18n/locale/codevtt.pot"
   codeMap:
