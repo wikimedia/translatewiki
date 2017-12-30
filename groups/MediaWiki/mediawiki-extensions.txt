@@ -1980,8 +1980,6 @@ magicfile = ReplaceSet/ReplaceSet.i18n.magic.php
 Replace Text
 aliasfile = ReplaceText/ReplaceText.alias.php
 
-Rest Base Update Jobs
-
 Revision Comment Supplement
 aliasfile = RevisionCommentSupplement/RevisionCommentSupplement.alias.php
 descmsg = revcs-desc
