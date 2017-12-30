@@ -425,8 +425,9 @@ class CommitCommand extends RepoNgCommand {
 
 		// Merge patch sets submitted to Wikimedia's Gerrit.
 		$mergePattern = $config[ 'auto-merge' ] ?? false;
-		if ( $repo['type'] === 'wmgerrit' && $mergePattern ) {
+		if ( $mergePattern ) {
 			$command = $this->bindir . "/merge-wmgerrit-patches '$mergePattern'";
+			echo $command . "\n";
 			$mergeProcess = new Process( $command );
 			$mergeProcess->setTimeout( 600 );
 			$mergeProcess->mustRun();
