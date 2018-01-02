@@ -20,6 +20,17 @@ TEMPLATE:
 
   INSERTABLES:
     class: MediaWikiInsertablesSuggester
+
+---
+BASIC:
+  id: mwgithub-mermaid
+  label: Mermaid
+  description: "{{Special:MyLanguage/MediaWiki:Mermaid-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/Mermaid/i18n/%CODE%.json"
+
 ---
 BASIC:
   id: mwgithub-semanticbreadcrumblinks
@@ -29,6 +40,7 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks/i18n/%CODE%.json"
+
 ---
 BASIC:
   id: mwgithub-semanticcite
