@@ -1,5 +1,0 @@
-# If not set, will not setup l10n-bot commit stuff for MediaWiki git extensions
-#REPO_RW=yes
-
-REPO_MWEXTGIT=https://gerrit.wikimedia.org/r/p/mediawiki/extensions
-REPO_MWSKINGIT=https://gerrit.wikimedia.org/r/p/mediawiki/skins

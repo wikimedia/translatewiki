@@ -1,6 +1,0 @@
-# If REPO_RW=yes, will set up commit stuff
-REPO_RW=yes
-
-# MediaWiki
-REPO_MWEXTGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/extensions
-REPO_MWSKINGIT=ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/skins
