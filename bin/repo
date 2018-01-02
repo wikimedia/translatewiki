@@ -1,15 +1,14 @@
 #!/bin/bash
-set -e
+set -o errexit -o nounset -o pipefail
+
 umask 0002
 
-DIRSCRIPT="`dirname \"$0\"`"
-DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
-DIRLOG=/home/betawiki/logs/repo
-
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
+LOG=/home/betawiki/logs/repo
+DIR=/resources/projects
 COMMAND=$1
 PROJECT=$2
-DIR=/resources/projects
 
-echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
-
-sudo -u betawiki "${DIRSCRIPT}/repo$COMMAND" "$PROJECT" "$DIR"
+cd "$DIR"
+echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $*" >> "$LOG"
+sudo -u betawiki "$DIRSCRIPT/repo$COMMAND" "$PROJECT"

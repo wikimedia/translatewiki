@@ -1,16 +1,1 @@
-#!/bin/bash
-set -e
-
-DIRSCRIPT="`dirname \"$0\"`"
-DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
-DIRLOG=/home/betawiki/logs/repo
-PROJECT=$1
-
-DIR=$2
-: ${DIR:=`pwd`}
-source ${DIRSCRIPT}/findexportroot
-cd "$DIR"
-
-echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $@" >> ${DIRLOG}
-
-php "$DIRSCRIPT/../repong/repong.php" export "$PROJECT"
+repocommit
