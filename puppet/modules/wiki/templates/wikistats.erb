@@ -3,6 +3,3 @@
 18 22 * * * <%= @user %> <%= @config %>/bin/stats-newcorelangs >> /dev/null 2>&1
 31 22 * * * <%= @user %> <%= @config %>/bin/twn-wikistats >> /dev/null 2>&1
 54 23 * * * <%= @user %> <%= @config %>/bin/stats-translatewiki >> /dev/null 2>&1
-
-# Creation of https://translatewiki.net/static/stats/wmf.csv
-34  4 * * 4 <%= @user %> <%= @config %>/bin/stats-wmf >> /dev/null 2>&1
