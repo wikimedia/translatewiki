@@ -2500,7 +2500,7 @@ Virtual Keyboard
 VisualEditor (MediaWiki extension)
 id = ext-visualeditor-ve-mw
 descmsg = visualeditor-desc
-file = VisualEditor/modules/ve-mw/i18n/%CODE%.json
+file = VisualEditor/i18n/ve-mw/%CODE%.json
 optional = visualeditor-preference-core-discussion-link, visualeditor-preference-core-info-link
 optional = visualeditor-dialog-media-dimensionseparator, visualeditor-dialog-media-info-dateformat
 optional = visualeditor-dialog-media-info-ellipsis, visualeditor-dialog-media-info-separator
