@@ -1,8 +1,8 @@
 #!/bin/sh
+set -o nounset -o errexit
 
 # Author: Niklas Laxström
 # License: MIT
-set -e
 
 COMMAND=$1
 
