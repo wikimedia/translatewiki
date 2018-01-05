@@ -17,6 +17,9 @@
 require 'puppet-lint/tasks/puppet-lint'
 require 'puppet-syntax/tasks/puppet-syntax'
 
+PuppetSyntax.exclude_paths = ["puppet/vendor/**/*"]
+PuppetLint.configuration.pattern = "puppet/modules/**/*.pp"
+
 task :default => [:help]
 
 desc 'Show the help'

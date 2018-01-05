@@ -269,6 +269,7 @@ class users {
       comment    => 'Corey Floyd (WMF)';
   }
 
+  # lint:ignore:140chars
   ssh_authorized_key {
     'siebrand_ssh':
       ensure => present,
@@ -278,8 +279,9 @@ class users {
       key    => 'AAAAC3NzaC1lZDI1NTE5AAAAIHxdP9KdKSwuVpRaaevBbuCgPTV+2rvIe6Y57iOP57I6';
     'fjalapeno_ssh':
       ensure => present,
-      user => 'fjalapeno',
-      type => 'rsa',
-      key  => 'AAAAB3NzaC1yc2EAAAABIwAAAQEA0FskuPOIjhNL4BGfI9p9FyWLt6DM5hjVMqPSz/puQ96Q1/Q92CTHT5gfthLVla/J/j14wW8G2vvz4ZBC1j123xNM4jbLo2jtbKitSTjr4vVf+Q4KPZ3R2ow/dOoWutKuoNwBBRSBBjjPv/F38aQRba4GRBflKhdOCmn6tUeE/Sk8U7WC7oSIfv2cZ1OC+PP9xFuG7a3FgWflzS+hwDyL3LGRlGlK6k3kI2IyOEwYlaZe/BTGZpC7Af+B1ad7z6PlzpKGDIomvMr8Q6r7GjEnAQnVJtXkMxsT0j4gSbcyUQMoBCzRDe7BR4CkiZXljxrvCGkhATav5gGI2DKT/uijlw==';
+      user   => 'fjalapeno',
+      type   => 'rsa',
+      key    => 'AAAAB3NzaC1yc2EAAAABIwAAAQEA0FskuPOIjhNL4BGfI9p9FyWLt6DM5hjVMqPSz/puQ96Q1/Q92CTHT5gfthLVla/J/j14wW8G2vvz4ZBC1j123xNM4jbLo2jtbKitSTjr4vVf+Q4KPZ3R2ow/dOoWutKuoNwBBRSBBjjPv/F38aQRba4GRBflKhdOCmn6tUeE/Sk8U7WC7oSIfv2cZ1OC+PP9xFuG7a3FgWflzS+hwDyL3LGRlGlK6k3kI2IyOEwYlaZe/BTGZpC7Af+B1ad7z6PlzpKGDIomvMr8Q6r7GjEnAQnVJtXkMxsT0j4gSbcyUQMoBCzRDe7BR4CkiZXljxrvCGkhATav5gGI2DKT/uijlw==';
   }
+  # lint:endignore
 }
