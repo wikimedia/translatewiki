@@ -1,5 +1,6 @@
 #!/bin/bash
-# fuzzy dry run
+set -o nounset -o pipefail -o errexit
+
 if [ "$#" -gt "2" ]; then
 	echo "Only two parameters allowed for fuzzy:"
 	echo "\$1 is the message key (replace spaces by underscores; use a trailing /)"
@@ -8,4 +9,4 @@ if [ "$#" -gt "2" ]; then
 fi
 
 cd /srv/mediawiki/targets/production/extensions/Translate/scripts
-php fuzzy.php --skiplanguages=en,test,qqq $1 --really --comment="$2"
+php fuzzy.php --skiplanguages=en,test,qqq "$1" --really --comment="$2"

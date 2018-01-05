@@ -1,14 +1,13 @@
 #!/bin/bash
-set -e
-set -u
+set -o nounset -o pipefail -o errexit
 
 URL=$1
 DIR=$2
 
 if [ -d "$DIR/.svn" ]
-then
+then (
 	cd "$DIR"
 	svn up -q "$DIR"
-else
+) else
 	svn checkout -q "$URL" "$DIR"
 fi

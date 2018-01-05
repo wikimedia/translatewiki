@@ -1,6 +1,5 @@
 #!/bin/bash
-set -e
-set -u
+set -o nounset -o pipefail -o errexit
 
 URL=$1
 DIR=$2
@@ -12,5 +11,5 @@ then
 	bzr revert --quiet
 	bzr pull "$BRANCH" --quiet --overwrite
 else
-	bzr checkout ${URL}/${BRANCH} "$DIR"
+	bzr checkout "${URL}/${BRANCH}" "$DIR"
 fi

@@ -1,12 +1,7 @@
 #!/bin/bash
-set -e
-set -u
+set -o nounset -o pipefail -o errexit
 
-DIRSCRIPT="`dirname \"$0\"`"
-DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
-
-ME=`basename "$0"`
-
+ME=$(basename "$0")
 URL=$1
 DIR=$2
 BRANCH=${3:-master}
@@ -14,7 +9,7 @@ COMMIT=${4:-origin/$BRANCH}
 
 if [ -d "$DIR/.git" ]
 then (
-	cd $DIR
+	cd "$DIR"
 	git rebase --abort &>/dev/null || :
 	git checkout -qf "$BRANCH"
 	git fetch -q

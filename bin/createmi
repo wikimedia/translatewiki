@@ -1,4 +1,5 @@
 #!/bin/bash
+set -o nounset -o pipefail -o errexit
 # ensure correct permissions
 
 sudo -u betawiki hhvm -vEval.Jit=false /srv/mediawiki/targets/production/extensions/Translate/scripts/createMessageIndex.php --quiet
