@@ -1,9 +1,7 @@
-#!/bin/bash
-set -e
+#!/bin/sh
+set -o nounset -o errexit
 
-DIRSCRIPT="`dirname \"$0\"`"
-DIRSCRIPT="`( cd \"$DIRSCRIPT\" && pwd )`"
-
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 WHO=${SUDO_USER-$USER}
 
-php ${DIRSCRIPT}/scripts/snedUdpMessage.php --host=127.0.0.1 --port=8966 --quiet=1 \[$WHO\] $@
+php "${DIRSCRIPT}/scripts/snedUdpMessage.php" --host=127.0.0.1 --port=8966 --quiet=1 "[$WHO]" "$@"

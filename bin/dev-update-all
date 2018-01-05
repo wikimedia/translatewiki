@@ -1,20 +1,18 @@
 #!/bin/bash
+set -o nounset -o pipefail -o errexit
 
 # Used for updating sandwiki, nikes playground
 # do not touch :)
 
-set -e
-
-BASEDIR=$(dirname "$0")
-BASEDIR=$(cd "$BASEDIR" && pwd)
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 WIKINAME="dev.translatewiki.net"
 WIKI="/www/$WIKINAME/docroot/w"
 
 cd "$WIKI"
 REV=$(git log --pretty="%h %ci (%cr)" -n 1)
-"$BASEDIR/udpcast" "updating $WIKINAME from $REV..."
+"$DIRSCRIPT/udpcast" "updating $WIKINAME from $REV..."
 
-"$BASEDIR/wikiupdate" "$WIKI"
+"$DIRSCRIPT/wikiupdate" "$WIKI"
 
 REV=$(git log --pretty="%h %ci (%cr)" -n 1)
-"$BASEDIR/udpcast" "updated $WIKINAME to $REV"
+"$DIRSCRIPT/udpcast" "updated $WIKINAME to $REV"

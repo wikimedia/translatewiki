@@ -1,21 +1,19 @@
 #!/bin/bash
+set -o nounset -o pipefail -o errexit
 
-set -e
-
-BASEDIR=$(dirname "$0")
-BASEDIR=$(cd "$BASEDIR" && pwd)
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 WIKINAME="translatewiki.net"
 WIKI="/srv/mediawiki/workdir"
 
 cd "$WIKI"
 REV=$(git log --pretty="%h %ci (%cr)" -n 1)
-"$BASEDIR/udpcast" "updating $WIKINAME from $REV..."
+"$DIRSCRIPT/udpcast" "updating $WIKINAME from $REV..."
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Updating config ***"
-sudo -u betawiki "$BASEDIR/wikiupdate-repo" /home/betawiki/config
+sudo -u betawiki "$DIRSCRIPT/wikiupdate-repo" /home/betawiki/config
 
-sudo -H -u betawiki "$BASEDIR/wikiupdate" "$WIKI"
+sudo -H -u betawiki "$DIRSCRIPT/wikiupdate" "$WIKI"
 
 REV=$(git log --pretty="%h %ci (%cr)" -n 1)
-"$BASEDIR/udpcast" "updated $WIKINAME to $REV"
+"$DIRSCRIPT/udpcast" "updated $WIKINAME to $REV"

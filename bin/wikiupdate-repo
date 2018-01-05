@@ -1,12 +1,10 @@
 #!/bin/bash
-
-set -e
+set -o nounset -o pipefail -o errexit
 
 cd "$1"
-OUTPUT=$(git pull --quiet --rebase 2>&1 >&-; git submodule update --init)
-CODE=$?
-
-if [ $CODE -ne 0 ]; then
-	printf "\033[31m%s failed to update\033[0m\n" "$1"
+if ! OUTPUT=$(git pull --quiet --rebase 2>&1 >&- && git submodule update --init); then
+	CODE=$?
+	printf "\\033[31m%s failed to update\\033[0m\\n" "$1"
 	echo "$OUTPUT"
+	exit "$CODE"
 fi

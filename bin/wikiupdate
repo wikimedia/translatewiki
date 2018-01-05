@@ -1,23 +1,16 @@
 #!/bin/bash
+set -o nounset -o pipefail -o errexit
 
-set -e
-
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 WIKI=$1
-BASEDIR=$(dirname "$0")
-BASEDIR=$(cd "$BASEDIR" && pwd)
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Updating core and extensions ***"
-find "$WIKI" "$WIKI"/extensions/* "$WIKI"/skins/* -maxdepth 1 -type d -name .git |
-	xargs -n1 dirname |
-	xargs -n1 -P5 "$BASEDIR/wikiupdate-repo"
+find "$WIKI" "$WIKI"/extensions/* "$WIKI"/skins/* -maxdepth 1 -type d -name .git -print0 |
+	xargs -0 -n1 dirname |
+	xargs -n1 -P5 "$DIRSCRIPT/wikiupdate-repo"
 
-if [ -f "$WIKI/composer.json" ]
-then
-	composer -n -d="$WIKI" update
-else
-	echo "Skipping composer update"
-fi
+composer -n -d="$WIKI" update
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Rebuilding caches ***"
