@@ -1,21 +1,29 @@
 #!/bin/bash
+set -o nounset -o pipefail -o errexit
 
-set -e
-
-BASEDIR=$(dirname $0)
 WIKI=/srv/mediawiki/targets/production
-USER=MaintenanceBot
-PARAMS="--skipzero --skiplanguages=qqq --fuzzy"
 
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Encyclopedia of Life/stats" "$PARAMS --groups=out-eol-0-all"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:FreeCol/stats/trunk" "$PARAMS --groups=out-freecol"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:FUDforum/stats/trunk" "$PARAMS --groups=out-fudforum"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Kiwix/stats" "$PARAMS --groups=kiwix"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:MantisBT/stats/trunk" "$PARAMS --groups=out-mantis-0-all"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Mifos/stats" "$PARAMS --groups=out-mifos"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:OpenStreetMap/stats/trunk" "$PARAMS --groups=out-osm-0-all"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Pywikibot/stats" "$PARAMS --groups=out-pywikipedia-0-all"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:Intuition/stats" "$PARAMS --groups=tsint-0-all"
-$BASEDIR/wikistats "$WIKI" "$USER" "Translating:WikiBlame/stats/trunk" "$PARAMS --groups=wikiblame"
-$BASEDIR/wikistats "$WIKI" "$USER" "Project:MediaWiki_localisation_in_the_50_most_spoken_languages" "--most=wikimedia --speakers --continent --summary --legenddetail=Stats-legend-detail --legendsummary=Stats-legend-summary"
-$BASEDIR/wikistats "$WIKI" "$USER" "User:Jdforrester/VEstats" "$PARAMS --groups=ext-visualeditor-0-all"
+edit_wiki () {
+	{
+		echo "Stats on ~~~~~"
+		echo "$2"
+	} | php "$WIKI/maintenance/edit.php" -u MaintenanceBot -b -s "Updating statistics" "$1"
+}
+
+get_group_stats () {
+	php "$WIKI/extensions/Translate/scripts/groupStatistics.php" --skipzero --skiplanguages=qqq --fuzzy --groups="$1"
+}
+
+edit_wiki "Translating:Encyclopedia of Life/stats" "$(get_group_stats out-eol-0-all)"
+edit_wiki "Translating:FreeCol/stats/trunk" "$(get_group_stats out-freecol)"
+edit_wiki "Translating:FUDforum/stats/trunk" "$(get_group_stats out-fudforum)"
+edit_wiki "Translating:Kiwix/stats" "$(get_group_stats kiwix)"
+edit_wiki "Translating:MantisBT/stats/trunk" "$(get_group_stats out-mantis-0-all)"
+edit_wiki "Translating:Mifos/stats" "$(get_group_stats out-mifos)"
+edit_wiki "Translating:OpenStreetMap/stats/trunk" "$(get_group_stats out-osm-0-all)"
+edit_wiki "Translating:Pywikibot/stats" "$(get_group_stats out-pywikipedia-0-all)"
+edit_wiki "Translating:Intuition/stats" "$(get_group_stats tsint-0-all)"
+edit_wiki "Translating:WikiBlame/stats/trunk" "$(get_group_stats wikiblame)"
+edit_wiki "User:Jdforrester/VEstats" "$(get_group_stats ext-visualeditor-0-all)"
+
+edit_wiki "Project:MediaWiki_localisation_in_the_50_most_spoken_languages" "$(php "$WIKI/extensions/Translate/scripts/groupStatistics.php" --most=wikimedia --speakers --continent --summary --legenddetail=Stats-legend-detail --legendsummary=Stats-legend-summary)"
