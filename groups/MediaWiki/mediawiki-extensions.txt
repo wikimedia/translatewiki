@@ -640,7 +640,7 @@ D3 Loader
 Dashiki
 
 Data Transfer
-aliasfile = DataTransfer/languages/DT_Aliases.php
+aliasfile = DataTransfer/DataTransfer.i18n.alias.php
 optional = dt_filetype_xml, dt_filetype_csv
 
 Date Diff
