@@ -2,6 +2,6 @@
 set -o nounset -o errexit
 
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
-WHO=${SUDO_USER-$USER}
+WHO=${SUDO_USER-${USER-}}
 
 php "${DIRSCRIPT}/scripts/snedUdpMessage.php" --host=127.0.0.1 --port=8966 --quiet=1 "[$WHO]" "$@"
