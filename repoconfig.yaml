@@ -181,7 +181,7 @@ intuition:
 
 intuition-tools:
   group: int-*
-  auto-merge: ^research/recommendation-api|labs/tools/guc|labs/tools/heritage
+  auto-merge: ^operations/dumps/dcat|labs/tools/guc|labs/tools/heritage
   repos:
     int-dcatap:
       type: wmgerrit
