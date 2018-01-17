@@ -314,7 +314,7 @@ class ExportCommand extends RepoNgCommand {
 		$defaultOptions = [
 			'group' => null,
 			'quiet' => true,
-			'threshold' => 35,
+			'threshold' => 25,
 			'target' => $this->getBase(),
 		];
 
