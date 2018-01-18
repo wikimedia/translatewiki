@@ -1645,7 +1645,6 @@ aliasfile = OrphanedTalkPages/OrphanedTalkPages.alias.php
 
 ORES
 ignored = ores-reverted-letter
-optional = ores-beta-feature-message
 
 Page Assessments
 aliasfile = PageAssessments/PageAssessments.i18n.alias.php
