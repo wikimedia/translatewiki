@@ -81,7 +81,7 @@ ignored = site-banner, global-links-menu, content-footer, splash-personaltools
 Tempo
 
 Timeless
-optional = skinname-timeless
+optional = skinname-timeless, timeless.css, timeless.jsn
 ignored = timeless-sitetitle
 
 Truglass
