@@ -506,8 +506,6 @@ Common Messages
 Commons Metadata
 ignored = commonsmetadata-doc-url
 
-# Community Applications // missing qqq
-
 Community Twitter
 aliasfile = CommunityTwitter/CommunityTwitter.alias.php
 
