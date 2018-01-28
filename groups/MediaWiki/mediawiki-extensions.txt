@@ -508,8 +508,6 @@ ignored = commonsmetadata-doc-url
 
 # Community Applications // missing qqq
 
-# Community Hiring // No need to translate I think. Hiring by the WMF needs English language skills
-
 Community Twitter
 aliasfile = CommunityTwitter/CommunityTwitter.alias.php
 
