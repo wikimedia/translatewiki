@@ -644,6 +644,7 @@ aliasfile = DebugTemplates/DebugTemplates.alias.php
 
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
+optional = deletebatch-extensionname
 
 Delete Own
 
