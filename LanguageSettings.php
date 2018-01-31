@@ -40,6 +40,7 @@ $wgExtraLanguageNames['hne'] = 'छत्तीसगढ़ी'; # Amir 2011-12-
 $wgExtraLanguageNames['hoc'] = '𑢹𑣉𑣉'; # Ho language. Amir 2017-07-09
 $wgExtraLanguageNames['hsn'] = '湘语'; # Xiang Chinese / Siebrand 2011-04-06
 $wgExtraLanguageNames['hu-formal'] = 'Magyar (magázó)'; # Siebrand 2009-01-01
+$wgExtraLanguageNames['hyw'] = 'արեւմտահայերէն'; # Amir 2018-01-31
 $wgExtraLanguageNames['izh'] = 'ižoran keel'; # Ingrian / Robin 2012-11-17 / Language classified as not written in Ethnologue. Should be removed.
 $wgExtraLanguageNames['jdt-cyrl'] = 'жугьури'; # Judeo-Tat / Siebrand 2014-06-17
 $wgExtraLanguageNames['kac'] = 'Jinghpaw'; # Jingpho / Siebrand 2014-04-08
