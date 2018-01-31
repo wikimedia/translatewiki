@@ -20,6 +20,7 @@
 
 3D
 optional = 3d, 3d-badge-text
+ignored = 3d-patents
 
 Absentee Landlord
 
