@@ -29,6 +29,7 @@ $wgExtraLanguageNames['fax'] = 'Fala'; # Fala / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['gah'] = 'Alekano'; # Alekano / Siebrand 2010-10-08
 $wgExtraLanguageNames['gbz'] = 'Dari-e Mazdeyasnā'; # Zoroastrian Dari / Siebrand 2011-01-20
 $wgExtraLanguageNames['gcf'] = 'Guadeloupean Creole French'; # Guadeloupean Creole French / Siebrand 2009-09-21
+$wgExtraLanguageNames['gcr'] = 'kréyòl gwiyanè'; # Guianan Creole French / Amir 2018-02-03
 $wgExtraLanguageNames['gor'] = 'Hulontalo'; # Gorontalo / Siebrand 2014-12-28
 $wgExtraLanguageNames['guc'] = 'Wayúu'; # Wayuu / Siebrand 2009-12-12
 $wgExtraLanguageNames['gum'] = 'Namtrik'; # Guambiano / Amir 2017-03-27
