@@ -51,6 +51,7 @@ $wgTranslateLanguageFallbacks['hif-deva'] = 'hi'; # Siebrand 2008-02-12
 $wgTranslateLanguageFallbacks['hsn'] = 'zh-hans';
 $wgTranslateLanguageFallbacks['hu-formal'] = 'hu';
 $wgTranslateLanguageFallbacks['hy'] = 'ru';
+$wgTranslateLanguageFallbacks['hyw'] = 'hy';
 $wgTranslateLanguageFallbacks['ia'] = [ 'fr', 'it', 'es', 'pt' ];
 $wgTranslateLanguageFallbacks['jdt-cyrl'] = 'ru';
 $wgTranslateLanguageFallbacks['ka'] = 'de';
