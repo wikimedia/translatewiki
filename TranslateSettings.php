@@ -404,6 +404,8 @@ $wgTranslateSupportUrlNamespace[NS_INATURALIST] = [
 
 # No longer un use
 wfAddNamespace( 1264, 'EntryScape' );
+$wgCapitalLinkOverrides[NS_ENTRYSCAPE] = false;
+$wgCapitalLinkOverrides[NS_ENTRYSCAPE_TALK] = false;
 
 wfAddNamespace( 1266, 'Hivejs' );
 $wgCapitalLinkOverrides[NS_HIVEJS] = false;
