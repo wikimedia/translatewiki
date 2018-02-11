@@ -1566,6 +1566,7 @@ aliasfile = Nuke/Nuke.alias.php
 
 Nuke DPL
 aliasfile = NukeDPL/NukeDPL.alias.php
+ignored = nukedpl-defaulttext
 
 Number Format
 descmsg = numberformat_desc
