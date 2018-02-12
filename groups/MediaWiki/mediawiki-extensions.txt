@@ -2576,9 +2576,6 @@ optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-li
 
 Wiki Loves Monuments
 
-Wiki Object Model
-descmsg = wom-desc
-
 Wiki Text Logged In Out
 
 Wikibase - Client
