@@ -522,6 +522,25 @@ $checkBlacklist = [
 		'check' => 'variable',
 		'message' => [
 			'group-upwizcampeditors-member', // Optional GENDER parameter
+			'mwe-upwiz-license-cc-by-3.0', // $2 is supposed to be replaced with localised URL
+			'mwe-upwiz-license-cc-by-sa-3.0-es',
+			'mwe-upwiz-license-cc-by-sa-3.0-at',
+			'mwe-upwiz-license-cc-by-sa-3.0-de',
+			'mwe-upwiz-license-cc-by-sa-3.0',
+			'mwe-upwiz-license-cc-by-sa-3.0-ee',
+			'mwe-upwiz-license-cc-by-sa-3.0-hr',
+			'mwe-upwiz-license-cc-by-sa-3.0-lu',
+			'mwe-upwiz-license-cc-by-sa-3.0-nl',
+			'mwe-upwiz-license-cc-by-sa-3.0-no',
+			'mwe-upwiz-license-cc-by-sa-3.0-pl',
+			'mwe-upwiz-license-cc-by-sa-3.0-ro',
+			'mwe-upwiz-license-cc-by-sa-2.5',
+			'mwe-upwiz-license-cc-by-2.5',
+			'mwe-upwiz-license-cc-by-sa-2.0',
+			'mwe-upwiz-license-cc-by-2.0',
+			'mwe-upwiz-license-cc-zero',
+			'mwe-upwiz-license-cc-by-sa-4.0',
+			'mwe-upwiz-license-cc-by-4.0',
 		]
 	],
 	[
