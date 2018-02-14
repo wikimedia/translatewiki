@@ -107,6 +107,7 @@ GROUPS:
   - ext-scribunto
   - ext-searchextrans # Change-ID: f8cd2d6eb9c20db92e39b038cc8476f311daeda5, Commonswiki
   - ext-securepoll
+  - ext-sentry # https://phabricator.wikimedia.org/rOMWCa2001d32f15b6eb5be5937ce563e1e60d4efcddc
   - ext-shorturl # r108172
   - ext-subpagelist3 # r90651
   - ext-subpagesortkey # a2b3abe7ebc6aac630e4e309cc17780b28ac4b04 for some wikibooks
