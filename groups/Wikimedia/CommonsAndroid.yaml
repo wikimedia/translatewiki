@@ -13,6 +13,7 @@ TEMPLATE:
       hif-latn: b+hif+Latn
       id: in
       kk-cyrl: b+kk+Cyrl
+      ko-kp: ko-rKP
       ku-latn: ku
       nds-nl: b+nds+NL
       pt-br: pt-rBR
