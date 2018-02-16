@@ -2250,7 +2250,7 @@ ignored = tabs-dropdown-bgcolor
 Tabber
 
 Template Data
-ignored = templatedata-helplink-target
+ignored = templatedata-helplink-target, templatedata-doc-subpage
 
 Template Info
 
