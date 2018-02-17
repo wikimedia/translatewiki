@@ -327,7 +327,7 @@ descmsg = bs-readers-desc
 Blue Spice Safer Edit
 descmsg = bs-saferedit-desc
 
-Blue Spice Smartlist
+Blue Spice Smart List
 descmsg = bs-smartlist-desc
 
 Blue Spice SMW Connector
