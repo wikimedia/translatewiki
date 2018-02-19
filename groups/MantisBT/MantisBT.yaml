@@ -8,6 +8,7 @@ TEMPLATE:
   FILES:
     class: FlatPhpFFS
     codeMap:
+      aeb:     tunisian_arabic
       af:      afrikaans
       am:      amharic
       ar:      arabic
@@ -15,46 +16,63 @@ TEMPLATE:
       ast:     asturian
       be-tarask: belarusian_tarask
       bg:      bulgarian
+      bn:      bengali
+      bs:      bosnian
       br:      breton
       ca:      catalan
       cs:      czech
       da:      danish
       de:      german
+      diq:     zazaki
+      dsb:     lower_sorbian
       el:      greek
       en:      english
       es:      spanish
       et:      estonian
       eu:      basque
+      fa:      persian
       fi:      finnish
       fr:      french
       gl:      galician
       gsw:     swissgerman
       he:      hebrew
       hr:      croatian
+      hsb:     upper_sorbian
       hu:      hungarian
       ia:      interlingua
+      id:      indonesian
       is:      icelandic
       it:      italian
       ja:      japanese
+      ka:      georgian
       ko:      korean
       ksh:     ripoarisch
+      lb:      luxembourgish
+      lez:     lezgi
+      lki:     laki
       lt:      lithuanian
       lv:      latvian
       mk:      macedonian
+      ml:      malayalam
+      ms:      malay
+      mwl:     mirandese
       nl:      dutch
       nb:      norwegian_bokmal
       nn:      norwegian_nynorsk
       oc:      occitan
       pl:      polish
+      pms:     piedmontese
       pt-br:   portuguese_brazil
       pt:      portuguese_standard
       ro:      romanian
       ru:      russian
+      shi:     tachelhit
       sk:      slovak
       sl:      slovene
       sr-ec:   serbian
       sr-el:   serbian_latin
       sv:      swedish
+      te:      telugu
       tl:      tagalog
       tr:      turkish
       uk:      ukrainian
