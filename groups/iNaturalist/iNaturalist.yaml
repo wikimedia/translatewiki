@@ -46,6 +46,7 @@ TAGS:
     - number.human.format.delimiter
     - number.percentage.format.delimiter
     - number.precision.format.delimiter
+    - i18n.inflections.*
   ignored:
     - maptype_for_places
     - main_content_description
