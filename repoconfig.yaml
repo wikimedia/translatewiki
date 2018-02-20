@@ -359,6 +359,10 @@ mwgithub:
       type: github
       url: https://github.com/Nikerabbit/mediawiki-extensions-FinnFrameNet.git
       url|export: git@github.com:Nikerabbit/mediawiki-extensions-FinnFrameNet.git
+    mwgithub/oetterer/BootstrapComponents:
+      type: github
+      url: https://github.com/oetterer/BootstrapComponents.git
+      url|export: git@github.com:oetterer/BootstrapComponents.git
     mwgithub/OrganicDesign/extensions:
       type: github
       url: https://github.com/OrganicDesign/extensions.git

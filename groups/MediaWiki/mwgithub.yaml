@@ -23,6 +23,16 @@ TEMPLATE:
 
 ---
 BASIC:
+  id: mwgithub-bootstrap-components
+  label: BootstrapComponents
+  description: "{{Special:MyLanguage/MediaWiki:Bootstrap-components-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/oetterer/BootstrapComponents/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-mermaid
   label: Mermaid
   description: "{{Special:MyLanguage/MediaWiki:Mermaid-desc/en}}"
