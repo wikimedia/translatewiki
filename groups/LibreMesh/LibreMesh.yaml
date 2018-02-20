@@ -1,0 +1,63 @@
+---
+BASIC:
+  id: libremesh
+  label: LibreMesh
+  meta: yes
+  namespace: NS_LIBREMESH
+  class: AggregateMessageGroup
+  description: "[[Translating:LibreMesh]] is an experimental project."
+
+GROUPS:
+  - libremesh-*
+
+---
+BASIC:
+  id: libremesh-limeapp
+  label: LibreMesh - Lime App
+  namespace: NS_LIBREMESH
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/libremesh/lime-app/i18n/translations/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: limeapp-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: libremesh-chef
+  label: LibreMesh - Chef
+  namespace: NS_LIBREMESH
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/libremesh/chef/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: chef-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: libremesh-webui
+  label: LibreMesh - Web UI
+  namespace: NS_LIBREMESH
+  class: FileBasedMessageGroup
+
+FILES:
+  class: GettextFFS
+  definitionFile: "%GROUPROOT%/libremesh/lime-packages/packages/lime-webui/po/lime-webui.pot"
+  sourcePattern: "%GROUPROOT%/libremesh/lime-packages/packages/lime-webui/po/%CODE%/lime-webui.po"
+
+MANGLER:
+  class: StringMatcher
+  prefix: webui-
+  patterns:
+    - "*"

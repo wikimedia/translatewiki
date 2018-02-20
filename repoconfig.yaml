@@ -253,6 +253,24 @@ lib.reviews:
       url: https://github.com/eloquence/lib.reviews.git
       url|export: git@github.com:eloquence/lib.reviews.git
 
+libremesh:
+  group: libremesh-*
+  repos:
+    libremesh/lime-packages:
+      type: github
+      branch: feature/tw-translations
+      url: https://github.com/translation-bridge/lime-packages.git
+      url|export: git@github.com:translation-bridge/lime-packages.git
+    libremesh/lime-app:
+      type: github
+      branch: issue-119
+      url: https://github.com/translation-bridge/lime-app.git
+      url|export: git@github.com:translation-bridge/lime-app.git
+    libremesh/chef:
+      type: github
+      url: https://github.com/translation-bridge/chef.git
+      url|export: git@github.com:translation-bridge/chef.git
+
 mantis:
   group: out-mantis*
   repos:

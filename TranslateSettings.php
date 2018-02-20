@@ -454,3 +454,8 @@ wfAddNamespace( 1276, 'Ajapaik' );
 $wgCapitalLinkOverrides[NS_AJAPAIK] = false;
 $wgCapitalLinkOverrides[NS_AJAPAIK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/Ajapaik/Ajapaik.yaml";
+
+wfAddNamespace( 1278, 'LibreMesh' );
+$wgCapitalLinkOverrides[NS_LIBREMESH] = false;
+$wgCapitalLinkOverrides[NS_LIBREMESH_TALK] = false;
+$wgTranslateGroupFiles[] = "$GROUPS/LibreMesh/LibreMesh.yaml";
