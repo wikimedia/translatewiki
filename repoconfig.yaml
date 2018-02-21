@@ -9,6 +9,7 @@ blockly:
   repos:
     blockly:
       type: github
+      branch: develop
       url: https://github.com/google/blockly.git
       url|export: git@github.com:google/blockly.git
     blockly-games:
