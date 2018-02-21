@@ -441,10 +441,10 @@ $checkBlacklist = [
 			'smw-property-predefined-num', // Contains namespace links
 			'smw-property-predefined-qty', // Contains namespace links
 			'smw-property-predefined-uri', // Contains namespace links
-			'smw-sp-types_anu', // Contains namespace links
-			'smw-sp-types_cod', // Contains namespace links
-			'smw-sp-types_eid', // Contains property links
-			'smw-sp-types_mlt_rec', // Contains property links
+			'smw-type-anu', // Contains namespace links
+			'smw-type-cod', // Contains namespace links
+			'smw-type-eid', // Contains property links
+			'smw-type-mlt-rec', // Contains property links
 			'smw-statistics-query-inline', // Contains property links
 			'smw-statistics-subobject-count', // Contains property links
 		]
