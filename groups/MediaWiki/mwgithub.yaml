@@ -31,6 +31,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/oetterer/BootstrapComponents/i18n/%CODE%.json"
 
+TAGS:
+  ignored:
+    - bootstrap-components-tracking-category
+
 ---
 BASIC:
   id: mwgithub-mermaid
