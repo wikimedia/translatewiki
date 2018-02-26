@@ -435,6 +435,7 @@ $checkBlacklist = [
 			'smw-property-predefined-boo', // Contains namespace links
 			'smw-property-predefined-dat', // Contains namespace links
 			'smw-property-predefined-eid', // Contains namespace links
+			'smw-property-predefined-keyw', // Contains namespace links
 			'smw-property-predefined-list', // Contains namespace links
 			'smw-property-predefined-long-errp', // Contains property links
 			'smw-property-predefined-long-pefu', // Contains namespace links
@@ -444,6 +445,7 @@ $checkBlacklist = [
 			'smw-type-anu', // Contains namespace links
 			'smw-type-cod', // Contains namespace links
 			'smw-type-eid', // Contains property links
+			'smw-type-keyw', // Contains namespace links
 			'smw-type-mlt-rec', // Contains property links
 			'smw-statistics-query-inline', // Contains property links
 			'smw-statistics-subobject-count', // Contains property links
