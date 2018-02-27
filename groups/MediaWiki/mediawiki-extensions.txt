@@ -324,6 +324,9 @@ descmsg = bs-permissionmanager-desc
 Blue Spice Readers
 descmsg = bs-readers-desc
 
+Blue Spice RSS Feeder
+descmsg = bs-rssfeeder-desc
+
 Blue Spice Safer Edit
 descmsg = bs-saferedit-desc
 
@@ -650,6 +653,8 @@ optional = deletebatch-extensionname
 Delete Own
 
 Delete Pages For Good
+
+Delete User Pages
 
 Description2
 
@@ -2469,6 +2474,10 @@ User Throttle
 # USERNAME // No i18n file
 
 Variables
+
+Version Compare
+descmsg = version-compare-desc
+optional = version-compare-url-field-label-1, version-compare-url-field-label-2
 
 Video
 ignored = video-provider-list
