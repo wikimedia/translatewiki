@@ -465,6 +465,8 @@ optional = cleanchanges-rcinfo-2, cleanchanges-rcinfo-3
 
 Client Side
 
+# Clone Diff // 2018-02-28: Missing qqq
+
 Close Wikis
 aliasfile = CloseWikis/CloseWikis.alias.php
 ignored = closewikis-closed
@@ -2281,6 +2283,9 @@ descmsg = theWikipediaLibary-desc
 
 Throttle Override
 aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
+
+Time Machine
+aliasfile = TimeMachine/TimeMachine.alias.php
 
 Timed Media Handler
 magicfile = TimedMediaHandler/TimedMediaHandler.i18n.magic.php
