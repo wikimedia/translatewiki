@@ -981,7 +981,8 @@ descmsg = flvhandler_desc
 
 Force Preview
 
-# Form // 2017-11-22: Incomplete qqq
+Form
+ignored = form-template-pattern
 
 # Form Preload Post Cache // no i18n file
 
