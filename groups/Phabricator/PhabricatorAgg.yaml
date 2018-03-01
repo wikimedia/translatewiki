@@ -5,7 +5,11 @@ BASIC:
   meta: yes
   namespace: NS_PHABRICATOR
   class: AggregateMessageGroup
-  description: This is an experimental project. Translations are not yet being integrated.
+  description: >
+    Phabricator is a complete set of tools for developing software. For now these
+    translations are only applied to the Wikimedia installation of Phabricator. The goal
+    is to promote these translations to be the "official" ones for Phabricator.
+
 
 GROUPS:
   - phabricator-*
