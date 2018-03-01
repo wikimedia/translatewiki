@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d821f39d_38650277",
+        "filename": "groups/Phabricator/PhabricatorAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-03-01T09:02:20Z",
+      "side": 1,
+      "message": "the",
+      "range": {
+        "startLine": 10,
+        "startChar": 36,
+        "endLine": 10,
+        "endChar": 38
+      },
+      "revId": "226bd66a13d7ab8b4aa45022504c0a1e1d731799",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
