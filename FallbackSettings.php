@@ -110,6 +110,7 @@ $wgTranslateLanguageFallbacks['prg'] = [ 'lv', 'lt' ];
 $wgTranslateLanguageFallbacks['prs'] = [ 'fa', 'ps' ];
 $wgTranslateLanguageFallbacks['qu'] = [ 'es', 'qug' ];
 $wgTranslateLanguageFallbacks['qug'] = [ 'es', 'qu' ];
+$wgTranslateLanguageFallbacks['qwh'] = [ 'qu', 'es' ];
 $wgTranslateLanguageFallbacks['rcf'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['rgn'] = [ 'it', 'egl' ];
 $wgTranslateLanguageFallbacks['rif'] = [ 'ar', 'fr' ]; # Robin 2011-09-30
