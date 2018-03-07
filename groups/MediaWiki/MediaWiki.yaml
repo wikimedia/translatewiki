@@ -191,6 +191,7 @@ TAGS:
     - limitreport-expensivefunctioncount-value
     - limitreport-ppgeneratednodes-value
     - limitreport-ppvisitednodes-value
+    - limitreport-unstrip-depth-value
     - listgrants-grant-display
     - listgrouprights-right-display
     - listgrouprights-right-revoked
