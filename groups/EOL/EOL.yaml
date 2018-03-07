@@ -1,6 +1,6 @@
 TEMPLATE:
   BASIC:
-    icon: wiki://EOL_logo.jpg
+    icon: wiki://EOL_logo.svg
     namespace: NS_EOL
     class: FileBasedMessageGroup
     description: "{{Special:MyLanguage/Translations:Group descriptions/eol/en}}"
