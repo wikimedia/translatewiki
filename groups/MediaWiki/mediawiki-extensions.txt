@@ -1828,8 +1828,6 @@ PGF TikZ
 Phab Task Graph
 aliasfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.alias.php
 
-PHP Excel
-
 Php Highlight
 
 Php Tags
