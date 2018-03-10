@@ -200,6 +200,10 @@ Blue Spice - Installer
 id = ext-bs-installer
 file = BlueSpiceFoundation/i18n/installer/%CODE%.json
 
+Blue Spice - Settings
+id = ext-bs-settings
+file = BlueSpiceFoundation/i18n/settings/%CODE%.json
+
 Blue Spice - Upload
 file = BlueSpiceFoundation/i18n/upload/%CODE%.json
 id = ext-bs-upload
