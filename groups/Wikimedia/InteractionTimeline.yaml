@@ -1,0 +1,26 @@
+BASIC:
+  id: interaction-timeline
+  label: Interaction Timeline
+  icon: wiki://Interaction Timeline Logo.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/interaction-timeline/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: interaction-timeline-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/interaction-timeline/i18n/%CODE%.json"
+
+CHECKER:
+  class: MediaWikiMessageChecker
+  checks:
+    - wikiParameterCheck
+    - braceBalanceCheck
+
+INSERTABLES:
+  class: MediaWikiInsertablesSuggester

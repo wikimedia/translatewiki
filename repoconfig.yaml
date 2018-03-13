@@ -163,6 +163,14 @@ inaturalist:
       url: https://github.com/inaturalist/inaturalist.git
       url|export: git@github.com:inaturalist/inaturalist.git
 
+interaction-timeline:
+  group: interaction-timeline
+  repos:
+    interaction-timeline:
+      type: github
+      url: https://github.com/wikimedia/interactiontimeline.git
+      url|export: git@github.com:wikimedia/InteractionTimeline.git
+
 internetarchivebot:
   group: internetarchivebot
   repos:
