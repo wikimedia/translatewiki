@@ -51,7 +51,7 @@ Admin Links
 aliasfile = AdminLinks/AdminLinks.alias.php
 
 Advanced Search
-ignored = advancedSearch-filesize-equals-symbol, advancedSearch-filesize-greater-than-symbol, advancedSearch-filesize-smaller-than-symbol
+ignored = advancedsearch-filesize-equals-symbol, advancedsearch-filesize-greater-than-symbol, advancedsearch-filesize-smaller-than-symbol
 
 AJAX Poll
 
