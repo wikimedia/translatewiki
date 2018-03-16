@@ -13,7 +13,6 @@ GROUPS:
   - ext-abusefilter
   - ext-apifeatureusage # 2015-05-19 6251bf51beb00a6bfd57a46eb485d5c5eef188a7
   - ext-apisandbox
-  - ext-articlecreationworkflow # 2017-09-06 Beta Cluster
   - ext-articleplaceholder # 2016-02-09
   - ext-bouncehandler # 2014-11-05 Change-Id: I64c09d17146bf9a3cee582fcea0e19aed6f4ce3d
   - ext-calendar # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
