@@ -63,6 +63,7 @@ GROUPS:
   - ext-insider # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-interwiki
   - ext-interwikisorting # https://phabricator.wikimedia.org/rOMWCdd2a7f08ba44692418fc4b13a467f574f46e2396
+  - ext-jade # https://phabricator.wikimedia.org/rOMWC6bc21f7994d5d818b2ffecb2606af14589a65c31
   - ext-josa
   - ext-jsonconfig
   - ext-labeledsectiontransclusion
