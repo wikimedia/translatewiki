@@ -353,7 +353,7 @@ aliasfile = BlueSpiceUniversalExport/languages/SpecialUniversalExport.alias.php
 
 Blue Spice Usage Tracker
 descmsg = bs-usagetracker-desc
-aliasfile = BlueSpiceUsageTracker/src/specials/SpecialUsageTracker.alias.php
+aliasfile = BlueSpiceUsageTracker/languages/SpecialUsageTracker.alias.php
 
 Blue Spice User Manager
 descmsg = bs-usermanager-desc
