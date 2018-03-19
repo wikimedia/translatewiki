@@ -1,0 +1,18 @@
+BASIC:
+  id: wikimedia-technical
+  label: Extensions used by Wikimedia - Technical
+  icon: wiki://Mediawiki-logo.png
+  meta: yes
+  class: AggregateMessageGroup
+  description: '{{Special:MyLanguage/Translations:Group descriptions/wikimediaextensions-technical/en}}'
+  namespace: NS_MEDIAWIKI
+
+GROUPS:
+  - ext-apifeatureusage # 2015-05-19 6251bf51beb00a6bfd57a46eb485d5c5eef188a7
+  - ext-contenttranslation-api
+  - ext-echo-api
+  - ext-flaggedrevs-api
+  - ext-flow-api
+  - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
+  - ext-translate-api
+  - ext-universallanguageselector-api
