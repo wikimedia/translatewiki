@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e15bbef7_c6e82f91",
+        "filename": "TranslatewikiSettings.php",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-03-19T09:56:41Z",
+      "side": 1,
+      "message": "Site was basically broken until I changed this setting.",
+      "revId": "1bf4b0829bbcfc7f963ccbaa0c3ee583c3d26b0f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "13e1f691_3cf141a2",
+        "filename": "repong/repong.php",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-03-19T09:56:41Z",
+      "side": 1,
+      "message": "I got spammy PHP warnings about this I had not seen earlier.",
+      "revId": "1bf4b0829bbcfc7f963ccbaa0c3ee583c3d26b0f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
