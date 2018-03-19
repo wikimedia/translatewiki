@@ -1,13 +1,12 @@
 # This file is managed by puppet
 [Unit]
 Description=Processes MediaWiki jobs for production site
-After=mysql.service hhvm.service network.target
+After=mysql.service network.target
 
 [Service]
 User=www-data
 Group=www-data
-Environment=HHVM_REPO_CENTRAL_PATH=/run/hhvm/hhvm.hhbc
-ExecStart=/usr/bin/php /srv/mediawiki/targets/production/maintenance/runJobs.php --wait --maxjobs=1000
+ExecStart=/usr/bin/php /srv/mediawiki/targets/production/maintenance/runJobs.php --wait --maxjobs=1000 --memory-limit=1G
 Restart=always
 RestartSec=15
 PrivateDevices=true

@@ -6,8 +6,8 @@
 $wgMiserMode = true;
 $wgShowIPinHeader = false;
 
-$wgMainCacheType = 'memcached-pecl';
-$wgMessageCacheType = 'apc';
+$wgMainCacheType = CACHE_MEMCACHED;
+$wgMessageCacheType = CACHE_ACCEL;
 $wgMemCachedServers = [ "127.0.0.1:11211" ];
 $wgMemCachedPersistent = true;
 

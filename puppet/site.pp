@@ -14,7 +14,7 @@ node 'web1.translatewiki.net' {
 
   include awstats
   include base::web1
-  include hhvm
+  include php
   include logrotate
   include mariadb
   include memcached

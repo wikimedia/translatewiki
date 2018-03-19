@@ -6,7 +6,6 @@ After=network.target
 [Service]
 User=betawiki
 Group=betawiki
-Environment=HHVM_REPO_CENTRAL_PATH=/tmp/hhvm.hhbc
 ExecStart=/bin/sh /home/betawiki/config/irc-relay/rakkauspipe.sh
 Restart=always
 RestartSec=60

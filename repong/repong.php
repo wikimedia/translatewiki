@@ -20,7 +20,7 @@ abstract class RepoNgCommand extends Command {
 	protected $base;
 	protected $defaultVariant;
 
-	public function initialize() {
+	public function initialize( InputInterface $input, OutputInterface $output ) {
 		$configName = 'repoconfig.yaml';
 		$this->base = $base = $this->findBase( $configName );
 		$configFile = "$base/$configName";
