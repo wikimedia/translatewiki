@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "84485550_7b0dc531",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-03-20T08:22:17Z",
+      "side": 1,
+      "message": "OK, first I have to apologize about the mess!\n\nAccording to Niklas\u0027s comment at https://phabricator.wikimedia.org/T189982#4063891 , \"-0-all\" is deprecated.\n\nSo let\u0027s do it like this:\n* The top group is ext-abusefilter\n* ext-abusefilter-ui\n* ext-abusefilter-api",
+      "range": {
+        "startLine": 21,
+        "startChar": 24,
+        "endLine": 21,
+        "endChar": 27
+      },
+      "revId": "3de203bd649e0a9b7cb02881e070789e33bb3f9d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f86c2032_50861abf",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-03-20T08:22:17Z",
+      "side": 1,
+      "message": "... and here we will probably have ext-abusefilter-*, but Niklas should confirm.",
+      "range": {
+        "startLine": 25,
+        "startChar": 8,
+        "endLine": 25,
+        "endChar": 19
+      },
+      "revId": "3de203bd649e0a9b7cb02881e070789e33bb3f9d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
