@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "e09e9b47_ad78000b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-03-20T08:40:17Z",
+      "side": 1,
+      "message": "A very minor nitpick: it should be \"merged\", not \"merge.",
+      "range": {
+        "startLine": 9,
+        "startChar": 10,
+        "endLine": 9,
+        "endChar": 15
+      },
+      "revId": "3de203bd649e0a9b7cb02881e070789e33bb3f9d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "84485550_7b0dc531",
         "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
         "patchSetId": 2
