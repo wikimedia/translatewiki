@@ -18,6 +18,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-abusefilter
+  label: Abuse Filter messages - all
+
+GROUPS:
+  - ext-abusefilter-user
+  - ext-abusefilter-api
+
+---
+BASIC:
   id: ext-bs-0-all
   icon: wiki://Bluespice icon.svg
   label: Blue Spice messages - all

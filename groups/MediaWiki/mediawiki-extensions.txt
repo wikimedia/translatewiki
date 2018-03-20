@@ -25,8 +25,13 @@ ignored = 3d-patents
 Absentee Landlord
 
 Abuse Filter
+id = ext-abusefilter-user
 optional = abusefilter-edit-builder-op-bool-xor
 aliasfile = AbuseFilter/AbuseFilter.alias.php
+
+Abuse Filter - API
+id = ext-abusefilter-api
+file = AbuseFilter/i18n/api/%CODE%.json
 
 Access Control
 ignored = accesscontrol-move-anonymous, accesscontrol-move-users, accesscontrol-redirect-anonymous

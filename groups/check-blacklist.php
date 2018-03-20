@@ -117,7 +117,7 @@ $checkBlacklist = [
 		]
 	],
 	[
-		'group' => 'ext-abusefilter',
+		'group' => 'ext-abusefilter-user',
 		'check' => 'variable',
 		'message' => [
 			'abusefilter-edit-lastmod-text', // Optional username parameter for GENDER, optional time parameters
