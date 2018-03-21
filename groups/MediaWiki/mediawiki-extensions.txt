@@ -61,8 +61,6 @@ All Time Zones
 
 Anchor Handler
 
-Annotator
-
 Anti Spoof
 ignored = antispoof-conflict-item, antispoof-bad-char-non-printable
 optional = antispoof-bad-char
