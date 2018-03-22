@@ -468,7 +468,8 @@ optional = cleanchanges-rcinfo-2, cleanchanges-rcinfo-3
 
 Client Side
 
-# Clone Diff // 2018-02-28: Missing qqq
+Clone Diff
+aliasfile = CloneDiff/CloneDiff.alias.php
 
 Close Wikis
 aliasfile = CloseWikis/CloseWikis.alias.php
@@ -692,6 +693,8 @@ optional = sitenotice_close-brackets
 Disqus Tag
 
 # Django Analytics // Not an extension
+
+# Doc Book Export // 2018-03-22: No i18n files
 
 Donation Interface - Adyen Gateway
 id = ext-di-adyen
@@ -1524,6 +1527,8 @@ Namespace Paths
 Namespace Relations
 descmsg = nsrels-desc
 
+# Namespace Sidebar // 2018-03-22: Still empty repo
+
 Natural Language List
 descmsg = nll-desc
 ignored = nll-itemoutput
@@ -2335,6 +2340,8 @@ Timezone Selector
 aliasfile = TimezoneSelector/TimezoneSelector.alias.php
 optional = timezoneselector-message-long, timezoneselector-message-verbose
 ignored = timezoneselector-message-short
+
+# Tiny MCE // 2018-03-22: Still empty repo
 
 Title Blacklist
 
