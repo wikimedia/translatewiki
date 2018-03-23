@@ -1,0 +1,46 @@
+BASIC:
+  id: ajapaik
+  label: Ajapaik Android app
+  description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
+  icon: wiki://Ajapaik_short_logo.png
+  namespace: NS_AJAPAIK
+  class: FileBasedMessageGroup
+
+FILES:
+  class: AndroidXmlFFS
+  sourcePattern: "%GROUPROOT%/ajapaik/app/src/main/res/values-%CODE%/strings.xml"
+  definitionFile: "%GROUPROOT%/ajapaik/app/src/main/res/values/strings.xml"
+  codeMap:
+    be-tarask: b+be+tarask
+    he: iw
+    hif-latn: b+hif+Latn
+    id: in
+    kk-cyrl: b+kk+Cyrl
+    ko-kp: ko-rKP
+    ku-latn: ku
+    nds-nl: b+nds+NL
+    pt-br: pt-rBR
+    qqq: qq
+    roa-tara: b+roa+tara
+    skr-arab: skr
+    sr-ec: sr
+    sr-el: b+sr+Latn
+    tg-cyrl: b+tg+Cyrl
+    ug-arab: ug
+    yi: ji
+    zh-hans: zh
+    zh-hant: zh-rTW
+
+MANGLER:
+  class: StringMatcher
+  prefix: strings-
+  patterns:
+    - "*"
+
+TAGS:
+  optional:
+    - strings-unit_km
+    - strings-unit_m
+  ignored:
+    - strings-none
+    - strings-facebook_app_id

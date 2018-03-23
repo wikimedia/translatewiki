@@ -449,3 +449,8 @@ $wgCapitalLinkOverrides[NS_PHABRICATOR] = false;
 $wgCapitalLinkOverrides[NS_PHABRICATOR_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/Phabricator/PhabricatorAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Phabricator/Phabricator.yaml";
+
+wfAddNamespace( 1276, 'Ajapaik' );
+$wgCapitalLinkOverrides[NS_AJAPAIK] = false;
+$wgCapitalLinkOverrides[NS_AJAPAIK] = false;
+$wgTranslateGroupFiles[] = "$GROUPS/Ajapaik/Ajapaik.yaml";
