@@ -10,14 +10,20 @@ TEMPLATE:
     codeMap:
       be-tarask: b+be+tarask
       he: iw
+      hif-latn: b+hif+Latn
       id: in
       kk-cyrl: b+kk+Cyrl
+      ko-kp: ko-rKP
       ku-latn: ku
+      nds-nl: b+nds+NL
       pt-br: pt-rBR
       qqq: qq
+      roa-tara: b+roa+tara
       skr-arab: skr
       sr-ec: sr
+      sr-el: b+sr+Latn
       tg-cyrl: b+tg+Cyrl
+      ug-arab: ug
       yi: ji
       zh-hans: zh
       zh-hant: zh-rTW
