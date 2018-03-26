@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "44d33f66_44ad19fc",
+        "filename": "groups/MediaWiki/WikimediaAdvancedAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-03-26T13:45:44Z",
+      "side": 1,
+      "message": "I would prefer if we didn\u0027t add new instances of deprecated patterns.\n\nThis would be something like mediawiki-wikimedia-advanced (or drop mediawiki- if you want to include things like jquery.uls in the future)",
+      "revId": "ccccb3cf3f885d976acb728fd18959fd184a6e97",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
