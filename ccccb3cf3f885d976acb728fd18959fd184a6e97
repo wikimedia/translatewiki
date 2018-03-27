@@ -16,6 +16,24 @@
       "revId": "ccccb3cf3f885d976acb728fd18959fd184a6e97",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aae7ae79_83196e98",
+        "filename": "groups/MediaWiki/WikimediaAdvancedAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-03-27T12:09:31Z",
+      "side": 1,
+      "message": "Ooops. I started this a while ago before you made a similar comment at https://phabricator.wikimedia.org/T189982#4063891 .\n\nI\u0027ll fix it.",
+      "parentUuid": "44d33f66_44ad19fc",
+      "revId": "ccccb3cf3f885d976acb728fd18959fd184a6e97",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
     }
   ]
 }
