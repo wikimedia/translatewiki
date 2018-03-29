@@ -612,8 +612,8 @@ wikinity:
   repos:
     wikinity:
       type: github
-      url: https://github.com/urbanecm/wikinity.git
-      url|export: git@github.com:urbanecm/wikinity.git
+      url: https://phabricator.wikimedia.org/source/tool-wikinity.git
+      url|export: ssh://vcs@git-ssh.wikimedia.org/source/tool-wikinity.git
 
 wikipedia-android:
   group: out-wikimedia-mobile-wikipedia-android-*
