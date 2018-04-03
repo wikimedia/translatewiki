@@ -410,4 +410,4 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/wikidiscover/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/WikiDiscover/i18n/%CODE%.json"
