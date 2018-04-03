@@ -402,3 +402,12 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/thingles/foreground/i18n/%CODE%.json"
 
+---
+BASIC:
+  id: mwgithub-wikidiscover
+  label: WikiDiscover
+  description: "{{Special:MyLanguage/MediaWiki:Wikidiscover-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/wikidiscover/i18n/%CODE%.json"
