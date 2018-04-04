@@ -20,8 +20,8 @@ server {
 		rewrite ^ /w/index.php;
 	}
 
-	location ~ ^/wiki/(.*)$ {
-		rewrite ^/wiki/(.*)$ /w/index.php/$1;
+	location ~ ^/wiki {
+		rewrite ^ /w/index.php;
 	}
 
 	location = /sitemap {
