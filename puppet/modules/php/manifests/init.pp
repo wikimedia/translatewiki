@@ -10,6 +10,7 @@ class php {
   package { [
     'php7.1-cli',
     'php7.1-curl',
+    'php7.1-dba',
     'php7.1-fpm',
     'php7.1-gd',
     'php7.1-intl',
