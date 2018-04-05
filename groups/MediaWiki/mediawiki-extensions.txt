@@ -2192,7 +2192,7 @@ Spark
 Special 404
 aliasfile = Special404/Special404.alias.php
 
-# Special Namespaces // No i18n in JSON format, unmaintained code
+# Special Namespaces // 2018-03-22: Code maintainace unclear
 
 Spelling Api
 
@@ -2532,6 +2532,7 @@ id = ext-visualeditor-ve-wmf
 descmsg = visualeditor-desc
 file = VisualEditor/i18n/ve-wmf/%CODE%.json
 optional = visualeditor-help-link
+ignored = visualeditor-feedback-source-link
 
 Vote NY
 aliasfile = VoteNY/includes/VoteNY.alias.php
