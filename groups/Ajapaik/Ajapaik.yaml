@@ -1,5 +1,18 @@
 BASIC:
   id: ajapaik
+  label: Ajapaik
+  meta: yes
+  description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
+  icon: wiki://Ajapaik_short_logo.png
+  namespace: NS_AJAPAIK
+  class: AggregateMessageGroup
+
+GROUPS:
+  - ajapaik-*
+
+---
+BASIC:
+  id: ajapaik-app
   label: Ajapaik Android app
   description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
   icon: wiki://Ajapaik_short_logo.png
@@ -44,3 +57,123 @@ TAGS:
   ignored:
     - strings-none
     - strings-facebook_app_id
+
+---
+BASIC:
+  id: ajapaik-playstore
+  label: Ajapaik Android App – Play store descriptions
+  description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
+  icon: wiki://Ajapaik_short_logo.png
+  namespace: NS_AJAPAIK
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JavaFFS
+  sourcePattern: "%GROUPROOT%/ajapaik/playstore/listings/%CODE%.txt"
+  codeMap:
+# Not yet supported in translatewiki.net
+#    en-au en-AU
+#    en-in en-IN
+#    en-sg: en-SG
+#    es-419: es-419
+#    es-us: es-US
+#    fr-ca: fr-CA
+# Mappings such as fi-FI are not listed (aka when there is single obvious country)
+    en-ca: en-CA
+    en-gb: en-GB
+    he: iw
+    pt-br: pt-BR
+    pt: pt-PT
+    sr-cyrl: sr
+    tg: fil
+    zh-hans: zh-CN
+    zh-hant: zh-TW
+    zh-hk: zh-HK
+
+MANGLER:
+  class: StringMatcher
+  prefix: playstore-
+  patterns:
+    - "*"
+
+# https://support.google.com/googleplay/android-developer/answer/3125566?hl=en
+LANGUAGES:
+  whitelist:
+# Not yet supported in translatewiki.net
+#    - en-au
+#    - en-in
+#    - en-sg
+#    - es-419
+#    - es-us
+#    - fr-ca
+    - af
+    - am
+    - ar
+    - az
+    - be
+    - bg
+    - bn
+    - ca
+    - cs
+    - da
+    - de
+    - el
+    - en
+    - en-ca
+    - en-gb
+    - es
+    - et
+    - eu
+    - fa
+    - fi
+    - fr
+    - gl
+    - he
+    - hi
+    - hr
+    - hu
+    - hy
+    - id
+    - is
+    - it
+    - ja
+    - ka
+    - km
+    - kn
+    - ko
+    - ky
+    - lo
+    - lt
+    - lv
+    - mk
+    - ml
+    - mn
+    - mr
+    - ms
+    - my
+    - nb
+    - ne
+    - nl
+    - pl
+    - pt-br
+    - pt
+    - rm
+    - ro
+    - ru
+    - si
+    - sk
+    - sl
+    - sr-cyrl
+    - sv
+    - sw
+    - ta
+    - te
+    - tg
+    - th
+    - tr
+    - uk
+    - vi
+    - zh-hans
+    - zh-hant
+    - zh-hk
+    - zu
