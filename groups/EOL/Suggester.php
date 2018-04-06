@@ -2,7 +2,7 @@
 
 /**
  * @author Siebrand Mazeland
- * @license GPL-2.0+
+ * @license GPL-2.0-or-later
  */
 class EolSuggester implements InsertablesSuggester {
 	public function getInsertables( $text ) {

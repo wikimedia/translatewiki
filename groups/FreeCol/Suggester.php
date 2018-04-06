@@ -2,7 +2,7 @@
 
 /**
  * @author Siebrand Mazeland
- * @license GPL-2.0+
+ * @license GPL-2.0-or-later
  */
 class FreeColSuggester implements InsertablesSuggester {
 	public function getInsertables( $text ) {

@@ -4,7 +4,7 @@
  *
  * @file
  * @author Niklas Laxström and Justin Du
- * @license GPL-2.0+
+ * @license GPL-2.0-or-later
  */
 
 /**
