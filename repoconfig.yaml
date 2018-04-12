@@ -5,7 +5,7 @@
   state-directory|export: /resources/projects
 
 ajapaik:
-  group: ajapaik
+  group: ajapaik-*
   repos:
     ajapaik:
       type: github
