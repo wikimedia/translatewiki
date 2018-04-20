@@ -2642,6 +2642,7 @@ aliasfile = WikibaseLexeme/WikibaseLexeme.i18n.alias.php
 ignored = wikibaselexeme-description
 optional = wikibaselexeme-presentation-lexeme-secondary-label, wikibaselexeme-lexeme-link-title
 optional = wikibaselexeme-presentation-lexeme-display-label-separator-multiple-lemma
+optional = wikibaselexeme-formidformatter-separator-multiple-representation
 
 Wikibase Media Info
 
