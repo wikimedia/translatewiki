@@ -308,7 +308,7 @@ aliasfile = /BlueSpicePageAccess/includes/specials/SpecialPageAccess.alias.php
 
 Blue Spice Page Assignments
 descmsg = bs-pageassignments-desc
-aliasfile = BlueSpicePageAssignments/PageAssignments.alias.php
+aliasfile = BlueSpicePageAssignments/languages/PageAssignments.alias.php
 
 Blue Spice Page Templates
 descmsg = bs-pagetemplates-desc
@@ -1638,7 +1638,7 @@ aliasfile = OpenID/OpenID.alias.php
 optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
 
 Open ID Connect
-aliasfile = OpenIDConnect/SelectOpenIDConnectIssuer.alias.php
+aliasfile = OpenIDConnect/i18n/SelectOpenIDConnectIssuer.alias.php
 
 Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
@@ -1986,7 +1986,7 @@ Replace Set
 magicfile = ReplaceSet/ReplaceSet.i18n.magic.php
 
 Replace Text
-aliasfile = ReplaceText/ReplaceText.alias.php
+aliasfile = ReplaceText/ReplaceText.i18n.alias.php
 
 Revision Comment Supplement
 aliasfile = RevisionCommentSupplement/RevisionCommentSupplement.alias.php
@@ -2007,7 +2007,7 @@ Sacred Text
 magicfile = SacredText/SacredText.i18n.magic.php
 
 Safe Delete
-aliasfile = SafeDelete/SafeDelete.alias.php
+aliasfile = SafeDelete/i18n/SafeDelete.alias.php
 
 Sandbox Link
 ignored = sandboxlink-editintro-pagename, sandboxlink-preload-pagename
