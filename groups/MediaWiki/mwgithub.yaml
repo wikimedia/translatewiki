@@ -159,6 +159,7 @@ TAGS:
     - smw_ask_doculink
     - smw_uri_blacklist
     - smw-specials-browse-helplink
+    - smw-format-list-*-separator
 ---
 BASIC:
   id: mwgithub-semanticmetatags
