@@ -108,6 +108,9 @@ Auth_remoteuser
 
 Author Protect
 
+Auto Categorise Uploads
+descmsg = autocatuploads-desc
+
 Auto Create Category Pages
 
 # Auto Gallery // no i18n file
