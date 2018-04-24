@@ -1575,6 +1575,9 @@ ignored = notification-body-newsletter-announce
 
 No Bogus Userpages
 
+No Cat
+magicfile = NoCat/NoCat.i18n.magic.php
+
 No Title
 
 Notebook Viewer
