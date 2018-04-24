@@ -1948,6 +1948,8 @@ Random In Category
 aliasfile = RandomInCategory/RandomInCategory.alias.php
 prefix = extension- | randomincategory, randomincategory-submit
 
+Random Pages
+
 Random Selection
 
 Random Users With Avatars
