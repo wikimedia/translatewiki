@@ -590,6 +590,7 @@ Content Translation
 descmsg = cx-desc
 aliasfile = ContentTranslation/ContentTranslation.alias.php
 ignored = cx-tools-view-guidelines-link, cx-descriptionpagelink
+optional = cx-tools-linter-issues-count
 
 Content Translation - API
 id = ext-contenttranslation-api
