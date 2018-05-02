@@ -1158,7 +1158,7 @@ Host Stats
 aliasfile = HostStats/HostStats.alias.php
 ignored = hoststats
 
-Hovergallery
+# Hovergallery // 2018-05-02 Read only 
 
 # No i18n files. Unsure if needed because config is enwiki centric.
 # Hreflang
@@ -2474,6 +2474,8 @@ Url Get Parameters
 
 Url Shortener
 aliasfile = UrlShortener/UrlShortener.alias.php
+
+# User Agreement // 2018-04-30: Still empty repo
 
 User Export
 aliasfile = UserExport/UserExport.alias.php
