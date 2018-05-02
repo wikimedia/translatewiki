@@ -13,6 +13,7 @@ $wgExtraLanguageNames['bew'] = 'Bahasa Betawi'; # Betawi / Siebrand 2008-07-13
 $wgExtraLanguageNames['bft'] = 'بلتی'; # Balti / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['bfq'] = 'படகா'; # UBadaga / Siebrand 2009-11-19
 $wgExtraLanguageNames['brx'] = 'बर\''; # Boro / Siebrand 2017-05-20
+$wgExtraLanguageNames['btm'] = 'Mandailing'; # Mandailing / Amir 2018-05-02
 $wgExtraLanguageNames['ciw'] = 'Ojibwemowin'; # Chippewa / Siebrand 2014-03-21
 $wgExtraLanguageNames['cja-latn'] = 'Cham Gah Pai'; # Western Cham (Latin script) / 2015-06-XX
 $wgExtraLanguageNames['cjm-latn'] = 'Cham Gah Pur'; # Eastern Cham (Latin script) / Siebrand 2015-05-25
