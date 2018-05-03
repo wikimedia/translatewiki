@@ -2570,6 +2570,7 @@ ignored = public_read_whitelist
 Who Is Watching
 aliasfile = WhoIsWatching/src/i18n/Alias.php
 magicfile = WhoIsWatching/src/i18n/Magic.php
+ignored = whoiswatching-list-user
 
 # Whoops // 2017-06-19: Empty repo
 
