@@ -32,7 +32,7 @@ $wgHooks['SpecialPage_initList'][] = function ( &$list ) {
  * Experimentalism
  */
 // Migrate off $wgExperimentalHtmlIds
-$wgFragmentMode = [ 'html5-legacy', 'html5' ];
+$wgFragmentMode = [ 'html5' ];
 $wgAllUnicodeFixes = true;
 $wgDevelopmentWarnings = true;
 $wgPageLanguageUseDB = true;
