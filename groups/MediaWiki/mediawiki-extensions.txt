@@ -65,9 +65,6 @@ Anti Spoof
 ignored = antispoof-conflict-item, antispoof-bad-char-non-printable
 optional = antispoof-bad-char
 
-Api Explorer
-aliasfile = ApiExplorer/ApiExplorer.alias.php
-
 Api Feature Usage
 aliasfile = ApiFeatureUsage/ApiFeatureUsage.alias.php
 ignored = apifeatureusage-text
