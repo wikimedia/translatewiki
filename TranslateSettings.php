@@ -27,8 +27,8 @@ $lqtParams = [
 	'lqt_subject_field' => 'About [[%MESSAGE%]]',
 ];
 $phabParams = [
-	'title' => '[[%MESSAGE%]] i18n issue',
-	'description' => "\n----\n\n**URL**: [[https://translatewiki.net/wiki/%MESSAGE%]]",
+	'title' => '[[%MESSAGE%]] translation issue',
+	'description' => "\n\n----\n\n**URL**: [[https://translatewiki.net/wiki/%MESSAGE%]]",
 ];
 $githubParams = [
 	'title' => '[[%MESSAGE%]] i18n issue',
@@ -205,7 +205,7 @@ $wgTranslateBlacklist = [
 $wgTranslateMessageNamespaces[] = NS_MEDIAWIKI;
 $wgMessagesDirs['MediawikiInstaller'] = "$IP/includes/installer/i18n";
 $wgTranslateSupportUrlNamespace[NS_MEDIAWIKI] = [
-	'url' => "$phabUrl?projects=i18n,MediaWiki-General-or-Unknown",
+	'url' => "$phabUrl?projects=i18n",
 	'params' => $phabParams,
 ];
 
