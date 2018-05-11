@@ -2448,7 +2448,7 @@ aliasfile = UnusedRedirects/UnusedRedirects.alias.php
 ignored = unusedredirects-text
 
 Update MediaWiki
-aliasfile = UpdateMediaWiki.alias.php
+aliasfile = UpdateMediaWiki/UpdateMediaWiki.alias.php
 
 Upload Blacklist
 
