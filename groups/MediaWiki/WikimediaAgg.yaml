@@ -94,6 +94,7 @@ GROUPS:
   - ext-poem
   - ext-popups # 2014-03-19
   - ext-proofreadpage # Wikisource
+  - ext-propertysuggester # https://phabricator.wikimedia.org/rOMWC8612a69333853901fa04dcc377ce58d0879782d0
   - ext-quicksurveys # 2016, some wiki
   - ext-quiz
   - ext-readinglists # https://phabricator.wikimedia.org/rOMWCf9582378355829349affb468ee8dbef77dbeffe9
