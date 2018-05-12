@@ -2130,6 +2130,10 @@ aliasfile = ShortUrl/ShortUrl.alias.php
 
 Show Me
 
+Show Real Usernames
+ignored = sru-realname-inline
+optional = sru-realname-append
+
 Side Bar Menu
 
 Sidebar Donate Box
