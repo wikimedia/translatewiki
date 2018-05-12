@@ -45,6 +45,8 @@ Add HTML Meta And Title
 
 Add Messages
 
+Add Personal Urls
+
 Add This
 
 Admin Links
@@ -869,6 +871,8 @@ ignored = ffeed-featured-page, ffeed-onthisday-page, ffeed-dyk-page
 ignored = ffeed-qotd-page, ffeed-potd-page, ffeed-motd-page
 ignored = ffeed-good-page, ffeed-featuredtexts-page, ffeed-wotd-page
 ignored = ffeed-enable-sidebar-links
+
+# Figures // no i18n file
 
 File Annotations
 
