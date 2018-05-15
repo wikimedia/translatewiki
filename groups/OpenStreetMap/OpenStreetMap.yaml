@@ -86,9 +86,9 @@ TAGS:
     - notifier.gpx_notification.failure.import_failures_url
     - notifier.signup_confirm_plain.the_wiki_url
     - notifier.signup_confirm_plain.wiki_signup_url
-    - trace.edit.visibility_help_url
-    - trace.trace_form.help_url
-    - trace.trace_form.visibility_help_url
+    - traces.edit.visibility_help_url
+    - traces.create.help_url
+    - traces.create.visibility_help_url
     - user.account.public_editing.enabled_link
     - user.account.contributor terms.link
     - user.account.gravatar.link
@@ -107,7 +107,7 @@ TAGS:
     - site.edit.anon_edits_link
     - site.index.license.license_url
     - site.index.license.project_url
-    - help_page.mailing_lists.url
-    - help_page.forums.url
-    - help_page.irc.url
-    - help_page.switch2osm.url
+    - site.help.mailing_lists.url
+    - site.help.forums.url
+    - site.help.irc.url
+    - site.help.switch2osm.url
