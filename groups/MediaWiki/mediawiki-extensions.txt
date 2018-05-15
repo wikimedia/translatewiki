@@ -640,6 +640,8 @@ CSS
 
 Custom Page
 
+# Custom Sidebar / 2018-05-15: Empty repo
+
 D3 Loader
 
 Dashiki
@@ -767,6 +769,8 @@ ignored = accesskey-drafts-save
 Duplicator
 
 #Dynamic Page List / Superseeded by intersection
+
+Dynamic Page List Engine
 
 Dynamic Sidebar
 
@@ -1888,6 +1892,8 @@ magicfile = PopupPages/PopupPages.i18n.magic.php
 
 Popups
 
+# Preferences List // 2018-05-15: Empy repo
+
 Premoderation
 
 Prezi
@@ -1970,6 +1976,8 @@ aliasfile = ReassignEdits/ReassignEdits.alias.php
 
 Recent Activity Feed
 aliasfile = RecentActivityFeed/RecentActivityFeed.alias.php
+
+# Recoin // 2018-05-15: Empty repo
 
 Reflect
 
@@ -2660,6 +2668,8 @@ ignored = wikibase-api-not-recognized-string, wikibase-api-param-missing, wikiba
 ignored = wikibase-api-permissiondenied, wikibase-api-wrong-class
 ignored = wikibase-property-footer
 ignored = wikibase-shortcopyrightwarning-version, wikibase-entitytermsview-entitytermsforlanguagelistview-configure-link
+
+# Wikibase Cirrus Search // 2018-05-15 Empty repo
 
 Wikibase Lexeme
 aliasfile = WikibaseLexeme/WikibaseLexeme.i18n.alias.php
