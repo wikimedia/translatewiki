@@ -435,7 +435,7 @@ isredirect
 isimage
 whatlinkshere-prev
 whatlinkshere-next
-linkshere
+linkshere-2
 rev-delundel
 file-nohires
 august-gen
@@ -605,7 +605,7 @@ unwatch
 pfunc_time_error
 blocklogentry
 tooltip-ca-unwatch
-nolinkshere
+nolinkshere-2
 protectedarticle
 protect-default
 uploadlogpage
