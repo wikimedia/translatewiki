@@ -337,7 +337,7 @@ edit-externally
 newarticletext
 userlogin
 template-semiprotected
-linkshere
+linkshere-2
 whatlinkshere-next
 isredirect
 isimage
@@ -445,7 +445,7 @@ missingarticle-rev
 sp-contributions-newbies
 sp-contributions-search
 sp-contributions-username
-nolinkshere
+nolinkshere-2
 rcnotefrom
 tooltip-t-emailuser
 protect
