@@ -382,6 +382,10 @@ mwgithub:
       type: github
       url: https://github.com/JeroenDeDauw/Validator.git
       url|export: git@github.com:JeroenDeDauw/Validator.git
+    mwgithub/lingua-libre/RecordWizard:
+      type: github
+      url: https://github.com/lingua-libre/RecordWizard
+      url|export: git@github.com:lingua-libre/RecordWizard.git
     mwgithub/miraheze/CreateWiki:
       type: github
       url: https://github.com/miraheze/CreateWiki.git
