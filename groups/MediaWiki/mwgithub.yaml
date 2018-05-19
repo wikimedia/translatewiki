@@ -423,3 +423,7 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/lingua-libre/RecordWizard/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - special-recordWizard-intro
