@@ -213,6 +213,7 @@ TAGS:
     - pagetitle
     - pagetitle-view-mainpage
     - parentheses
+    - passwordpolicies-policy-display
     - percent
     - pipe-separator
     - prefs-memberingroups-type
@@ -481,6 +482,7 @@ TAGS:
     - pageinfo-header
     - pagemerge-logentry
     - pageswithprop-summary
+    - passwordpolicies-helppage
     - patrol-log-auto
     - patrol-log-diff
     - patrol-log-line
