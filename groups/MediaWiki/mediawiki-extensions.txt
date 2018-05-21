@@ -2520,6 +2520,8 @@ User Throttle
 
 Variables
 
+VE For All
+
 Version Compare
 descmsg = version-compare-desc
 optional = version-compare-url-field-label-1, version-compare-url-field-label-2
