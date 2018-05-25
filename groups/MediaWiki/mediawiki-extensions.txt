@@ -1566,7 +1566,7 @@ New User Notification
 file = NewUserNotif/i18n/%CODE%.json
 descmsg = newusernotif-desc
 
-New Users List
+# New Users List // 2018-05-25: integrated into SocialProfile
 
 Newest Pages
 aliasfile = NewestPages/NewestPages.alias.php
