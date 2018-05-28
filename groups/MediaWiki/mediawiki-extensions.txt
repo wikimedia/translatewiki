@@ -252,6 +252,13 @@ Blue Spice Dashboards
 descmsg = bs-dashboards-desc
 aliasfile = BlueSpiceDashboards/languages/Dashboards.alias.php
 
+Blue Spice Echo Connector
+descmsg = bs-echoconnector-extension-description
+
+Blue Spice Echo Connector - Notifications
+file = i18n/notifications/%CODE%.json
+optional = bs-notifications-param-realname-with-username
+
 Blue Spice Edit Notify Connector
 
 Blue Spice Emoticons
