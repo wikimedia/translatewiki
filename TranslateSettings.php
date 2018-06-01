@@ -459,3 +459,8 @@ wfAddNamespace( 1278, 'LibreMesh' );
 $wgCapitalLinkOverrides[NS_LIBREMESH] = false;
 $wgCapitalLinkOverrides[NS_LIBREMESH_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/LibreMesh/LibreMesh.yaml";
+
+wfAddNamespace( 1280, 'MAZI' );
+$wgCapitalLinkOverrides[NS_MAZI] = false;
+$wgCapitalLinkOverrides[NS_MAZI_TALK] = false;
+$wgTranslateGroupFiles[] = "$GROUPS/MAZI/MAZI.yaml";

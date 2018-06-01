@@ -1,0 +1,25 @@
+BASIC:
+  id: mazi-portal
+  label: MAZI Portal
+  #icon: wiki://
+  #description: "{{Special:MyLanguage/Translations:Group descriptions/mazi/en}}"
+  description: "This message group is experimental"
+  namespace: NS_MAZI
+  class: FileBasedMessageGroup
+
+FILES:
+  class: YamlFFS
+  parseCLDRPlurals: true
+  sourcePattern: "%GROUPROOT%/mazi-project/portal/locales/%CODE%.yml"
+  codeAsRoot: true
+
+MANGLER:
+  class: StringMatcher
+  prefix: portal-
+  patterns:
+    - "*"
+
+CHECKER:
+  class: MessageChecker
+  checks:
+    - rubyVariableCheck
