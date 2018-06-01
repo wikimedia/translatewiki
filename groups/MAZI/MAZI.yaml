@@ -1,9 +1,8 @@
 BASIC:
   id: mazi-portal
-  label: MAZI Portal
+  label: MAZI Toolkit
   icon: wiki://MAZI_bw.png
-  #description: "{{Special:MyLanguage/Translations:Group descriptions/mazi/en}}"
-  description: "This message group is experimental"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mazi/en}}"
   namespace: NS_MAZI
   class: FileBasedMessageGroup
 
