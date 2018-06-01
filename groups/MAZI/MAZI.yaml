@@ -1,7 +1,7 @@
 BASIC:
   id: mazi-portal
   label: MAZI Portal
-  #icon: wiki://
+  icon: wiki://MAZI_bw.png
   #description: "{{Special:MyLanguage/Translations:Group descriptions/mazi/en}}"
   description: "This message group is experimental"
   namespace: NS_MAZI
