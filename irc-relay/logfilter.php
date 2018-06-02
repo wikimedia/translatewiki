@@ -47,5 +47,5 @@ while ( true ) {
 		echo trim( $prefix . $line ) . "\n";
 	}
 
-	sleep( 30 );
+	sleep( $count ? 30 : 1 );
 }
