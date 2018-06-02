@@ -203,7 +203,7 @@ $wgContentNamespaces[] = NS_TRANSLATING;
 /**
  * Skins
  */
-wfLoadSkins( [ 'Vector', 'MonoBook' ] );
+wfLoadSkins( [ 'Vector', 'MonoBook', 'Timeless' ] );
 
 /**
  * Extensions
