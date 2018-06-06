@@ -15,10 +15,6 @@ ignored = bouquet-navigation
 Cologne Blue
 optional = cologneblue.css, cologneblue.js
 
-Custom Page
-descmsg = custompage-skin-desc
-optional = skinname-custompage, custompage.css, custompage.js
-
 Daddio
 
 Desk Mess Mirrored
