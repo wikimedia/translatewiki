@@ -1029,8 +1029,6 @@ Gadgets
 aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition
 
-Genderize
-
 Genealogy
 optional = genealogy-born-and-died
 
