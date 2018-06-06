@@ -2209,9 +2209,6 @@ ignored = softwareversion-wiki-link
 
 Solarium
 
-Solr Store
-aliasfile = SolrStore/SolrStore.alias.php
-
 Sound Manager 2 Button
 
 Spam Blacklist
