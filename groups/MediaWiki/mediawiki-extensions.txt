@@ -1231,9 +1231,6 @@ optional = interwiki_url, interwiki-url-label
 ignored = interwiki-defaulturl, logentry-interwiki-interwiki, interwiki-legend
 ignored = interwiki-description
 
-Interwiki Integration
-aliasfile = InterwikiIntegration/InterwikiIntegration.alias.php
-
 Interwiki Sorting
 
 Insider
