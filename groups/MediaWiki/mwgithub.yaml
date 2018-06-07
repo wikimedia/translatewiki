@@ -327,16 +327,6 @@ FILES:
 
 ---
 BASIC:
-  id: mwgithub-pdfbook
-  label: Pdf Book
-  description: "{{Special:MyLanguage/MediaWiki:pdfbook-desc/en}}"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/OrganicDesign/extensions/MediaWiki/PdfBook/i18n/%CODE%.json"
-
----
-BASIC:
   id: mwgithub-pickle
   label: Pickle
   description: "{{Special:MyLanguage/MediaWiki:pickle-desc/en}}"

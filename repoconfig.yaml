@@ -414,10 +414,6 @@ mwgithub:
       type: github
       url: https://github.com/oetterer/BootstrapComponents.git
       url|export: git@github.com:oetterer/BootstrapComponents.git
-    mwgithub/OrganicDesign/extensions:
-      type: github
-      url: https://github.com/OrganicDesign/extensions.git
-      url|export: git@github.com:OrganicDesign/extensions.git
     mwgithub/SemanticMediaWiki/Mermaid:
       type: github
       url: https://github.com/SemanticMediaWiki/Mermaid.git
