@@ -2184,8 +2184,6 @@ aliasfile = SiteMetrics/includes/SiteMetrics.alias.php
 Site Settings
 aliasfile = SiteSettings/SiteSettings.alias.php
 
-# Skel JS # No i18n file
-
 Skin Per Namespace
 
 Skin Per Page
