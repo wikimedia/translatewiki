@@ -800,8 +800,6 @@ file = Echo/i18n/api/%CODE%.json
 Edit Account
 aliasfile = EditAccount/EditAccount.alias.php
 
-Edit Own
-
 Edit Page Tracking
 
 Edit Similar
