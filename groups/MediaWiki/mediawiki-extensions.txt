@@ -683,8 +683,6 @@ aliasfile = Diagnosis/Diagnosis.i18n.alias.php
 
 Did You Know
 
-Did You Mean
-
 Disable Account
 aliasfile = DisableAccount/DisableAccount.alias.php
 
