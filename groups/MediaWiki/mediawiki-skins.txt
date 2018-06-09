@@ -86,9 +86,6 @@ ignored = truglass-footertext
 Vector
 optional = vector.css, vector.js
 
-Vector V2
-optional = vectorv2.css, vectorv2.js, skinname-vectorv2
-
 webplatform
 ignored = webplatform-bottom-footer
 
