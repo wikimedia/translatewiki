@@ -2376,8 +2376,6 @@ Toc Tree
 
 Tooltip
 
-# Top Lists // Incomplete qqq
-
 Top Ten Pages
 aliasfile = TopTenPages/TopTenPages.alias.php
 
