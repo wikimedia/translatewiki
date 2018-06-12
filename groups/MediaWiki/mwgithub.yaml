@@ -374,6 +374,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/CreateWiki/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+   - createwiki-close-email-sender
+
 ---
 BASIC:
   id: mwgithub-managewiki
