@@ -29,8 +29,9 @@ Krinkle
 Mwsnapshots
 ignored = title-download
 
-Pb
-optional = labs-name
+# Unused
+#Pb
+#optional = labs-name
 
 Rtrc
 ignored = rtrc-months
