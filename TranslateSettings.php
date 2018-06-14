@@ -153,6 +153,7 @@ $wgTranslateBlacklist = [
 	'cjy' => 'This language code should remain unused. Localise in cjy-hant please.',
 	'crh' => 'This language code should remain unused. Localise in crh-latn or crh-cyrl please.',
 	'dk' => 'This language code should remain unused. Localise in da please.',
+	'es-419' => 'This language code should remain unused.',
 	'fiu-vro' => 'This language code should remain unused. Localise in vro please.',
 	'gan' => 'This language code should remain unused. Localise in gan-hant or gan-hans please.',
 	'gom' => 'This language code should remain unused. Localise in gom-deva please.',
