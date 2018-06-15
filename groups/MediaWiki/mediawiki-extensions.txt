@@ -475,8 +475,6 @@ cldr
 Clean Changes
 optional = cleanchanges-rcinfo-2, cleanchanges-rcinfo-3
 
-Client Side
-
 Clone Diff
 aliasfile = CloneDiff/CloneDiff.alias.php
 
