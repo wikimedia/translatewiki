@@ -463,3 +463,7 @@ wfAddNamespace( 1280, 'MAZI' );
 $wgCapitalLinkOverrides[NS_MAZI] = false;
 $wgCapitalLinkOverrides[NS_MAZI_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/MAZI/MAZI.yaml";
+$wgTranslateSupportUrlNamespace[NS_MAZI] = [
+	'page' => 'Translating_talk:MAZI_Toolkit',
+	'params' => $lqtParams,
+];
