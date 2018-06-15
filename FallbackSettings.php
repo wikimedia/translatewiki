@@ -20,6 +20,7 @@ $wgTranslateLanguageFallbacks['bft'] = 'ur';
 $wgTranslateLanguageFallbacks['bfq'] = [ 'kn', 'ta' ];
 $wgTranslateLanguageFallbacks['bjn'] = 'id';
 $wgTranslateLanguageFallbacks['br'] = [ 'roa-rup', 'pms', 'fr', 'it' ];
+$wgTranslateLanguageFallbacks['cak'] = [ 'es' ];
 $wgTranslateLanguageFallbacks['cja-latn'] = [ 'km' ];
 $wgTranslateLanguageFallbacks['cjm-latn'] = [ 'vi' ];
 $wgTranslateLanguageFallbacks['cjy-hans'] = [ 'zh-hans' ];
