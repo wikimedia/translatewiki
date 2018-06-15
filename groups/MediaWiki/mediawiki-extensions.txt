@@ -399,6 +399,7 @@ Capiunto
 Cargo
 magicfile = Cargo/Cargo.i18n.magic.php
 aliasfile = Cargo/Cargo.alias.php
+ignored = cargo-drilldown-gallerycaption
 
 Carp
 optional = carp-function-msg, carp-template-msg, carp-template
