@@ -2,26 +2,19 @@
 
 $wgExtensionCredits['parserhook'][] = [
 	'name' => 'Translatewiki.net Magic',
-	'version' => '2014-07-14',
-	'description' => 'Implements some translatewiki.net specific magic',
+	'version' => '2018-06-15',
+	'description' => 'Implements <nowiki>{{UILANGCODE}}</nowiki>',
 	'author' => 'Niklas Laxström',
 ];
 
-global $wgHooks;
+$wgExtensionMessagesFiles['translatewiki-magic'] = __DIR__ . '/nikext.i18n.magic.php';
+
 $wgHooks['MagicWordwgVariableIDs'][] = function ( &$vars ) {
 	$vars[] = 'MAG_UILANGCODEx';
-	return true;
-};
-
-$wgHooks['LanguageGetMagic'][] = function ( &$raw ) {
-	$raw['MAG_UILANGCODEx'] = [ 1, 'UILANGCODE' ];
-	return true;
 };
 
 $wgHooks['ParserGetVariableValueSwitch'][] = function ( &$parser, &$varCache, &$index, &$ret ) {
-	global $wgLang;
 	if ( $index === 'MAG_UILANGCODEx' ) {
-		$ret = $varCache[$index] = $wgLang->getCode();
+		$ret = $varCache[$index] = $parser->getOptions()->getUserLangObj()->getCode();
 	}
-	return true;
 };
