@@ -163,6 +163,7 @@ id = ext-bs
 file = BlueSpiceFoundation/i18n/core/%CODE%.json
 optional = prefs-base
 ignored = specialpages-group-bluespice, bs-navigation-contact-url, bs-navigation-instructions-url, bs-navigation-support-url
+ignored = prefs-bluespice
 
 Blue Spice - API
 id = ext-bs-api
