@@ -190,11 +190,9 @@ $wgTranslateBlacklist = [
 	'zh-yue' => 'This language code should remain unused. Localise in yue please.',
 ],
 'core' => [
-	'nl-be' => 'This code is not used in MediaWiki. Use \'nl\' or \'vls\'.',
 	'es-mx' => 'This code is not used in MediaWiki. Use \'es\'.',
 ],
 'ext' => [
-	'nl-be' => 'This code is not used in MediaWiki. Use \'nl\' or \'vls\'.',
 	'es-mx' => 'This code is not used in MediaWiki. Use \'es\'.',
 ],
 'out' => [
