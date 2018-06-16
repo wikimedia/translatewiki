@@ -1436,6 +1436,8 @@ magicfile = MetaMaster/MetaMaster.i18n.magic.php
 
 Minimum Name Length
 
+# Minty Docs // 2018-06-16 Empty repo
+
 Mixed Namespace Search Suggestions
 descmsg = mnss-desc
 
@@ -2362,7 +2364,7 @@ aliasfile = TimezoneSelector/TimezoneSelector.alias.php
 optional = timezoneselector-message-long, timezoneselector-message-verbose
 ignored = timezoneselector-message-short
 
-# Tiny MCE // 2018-03-22: Still empty repo
+# Tiny MCE // 2018-06-16: No qqq
 
 Title Blacklist
 
@@ -2481,7 +2483,8 @@ Url Get Parameters
 Url Shortener
 aliasfile = UrlShortener/UrlShortener.alias.php
 
-# User Agreement // 2018-04-30: Still empty repo
+User Agreement
+ignored = useragreement
 
 User Export
 aliasfile = UserExport/UserExport.alias.php
