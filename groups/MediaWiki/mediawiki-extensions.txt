@@ -645,8 +645,6 @@ CryoKey
 
 CSS
 
-Custom Page
-
 # Custom Sidebar / 2018-05-15: Empty repo
 
 D3 Loader
