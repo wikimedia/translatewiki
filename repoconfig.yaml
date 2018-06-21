@@ -362,6 +362,11 @@ mwgithub:
       type: github
       url: https://github.com/cmln/chameleon.git
       url|export: git@github.com:cmln/chameleon.git
+    mwgithub/edwardspec/mediawiki-moderation:
+      type: github
+      branch: translatewiki
+      url: https://github.com/edwardspec/mediawiki-moderation.git
+      url|export: git@github.com:edwardspec/mediawiki-moderation.git
     mwgithub/Hutchy68/Purge:
       type: github
       url: https://github.com/Hutchy68/Purge.git

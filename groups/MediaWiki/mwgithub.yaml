@@ -421,3 +421,13 @@ FILES:
 TAGS:
   ignored:
     - special-recordWizard-intro
+
+---
+BASIC:
+  id: mwgithub-moderation
+  label: Moderation
+  description: "{{Special:MyLanguage/MediaWiki:Moderation-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/edwardspec/mediawiki-moderation/i18n/%CODE%.json"
