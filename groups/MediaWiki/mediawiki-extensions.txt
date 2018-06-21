@@ -828,9 +828,6 @@ Email Diff
 
 Error Handler
 
-Ether Editor
-aliasfile = EtherEditor/EtherEditor.alias.php
-
 Etherpad Lite
 
 Event Bus
