@@ -1512,10 +1512,7 @@ descmsg = mlm-desc
 MwEmbed Support
 descmsg = mwembed-desc
 
-#MwEmbed Support - MwEmbed Support
-#id = ext-mwembedsupport-mwembedsupport
-#file = MwEmbedSupport/MwEmbedModules/MwEmbedSupport/i18n/%CODE%.json
-#optional = mwe-size-gigabytes, mwe-size-megabytes, mwe-size-kilobytes, mwe-size-bytes
+# MwEmbed Support - MwEmbed Support // 2018-06-22 transferred to TMH
 
 My Variables
 
@@ -2341,6 +2338,10 @@ optional = beta-feature-timedmediahandler-message-videojs
 
 Timed Media Handler - Embed Player
 file = TimedMediaHandler/MwEmbedModules/EmbedPlayer/i18n/%CODE%.json
+
+Timed Media Handler - New Mw Embed Support
+file = TimedMediaHandler/MwEmbedModules/NewMwEmbedSupport/i18n/%CODE%.json
+optional = mwe-size-gigabytes, mwe-size-megabytes, mwe-size-kilobytes, mwe-size-bytes
 
 Timed Media Handler - Timed Text
 file = TimedMediaHandler/MwEmbedModules/TimedText/i18n/%CODE%.json
