@@ -2430,7 +2430,7 @@ optional = twnmp-stats-number-k
 
 Two Col Conflict
 aliasfile = TwoColConflict/TwoColConflict.alias.php
-descmsg = twoColConflict-desc
+descmsg = twocolconflict-desc
 
 # UI Feedback # incomplete qqq
 
