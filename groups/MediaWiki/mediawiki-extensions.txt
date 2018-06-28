@@ -1226,7 +1226,7 @@ descmsg = is-desc
 file = InviteSignup/i18n/%CODE%.json
 aliasfile = InviteSignup/InviteSignup.alias.php
 
-# JADE // 2018-06-21: Disabled for now due to missing prefix in https://gerrit.wikimedia.org/r/#/c/mediawiki/extensions/JADE/+/442280/
+JADE
 
 Josa
 
