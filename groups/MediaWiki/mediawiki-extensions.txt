@@ -2215,8 +2215,6 @@ Sphinx Search
 # Incomplete message documentation - 2014-12-23
 # Sports Teams
 
-Spreadsheet
-
 SSL Client Authentication
 aliasfile = SSLClientAuthentication/ClientSSLAuth.alias.php
 descmsg = sslauth-desc
