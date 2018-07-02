@@ -1904,10 +1904,6 @@ aliasfile = PropertySuggester/PropertySuggester.alias.php
 Protect Site
 aliasfile = ProtectSite/ProtectSite.alias.php
 
-# No spaces because it is proper noun
-PubSubHubbub
-aliasfile = PubSubHubbub/PubSubHubbub.alias.php
-
 Pure Wiki Deletion
 aliasfile = PureWikiDeletion/PureWikiDeletion.alias.php
 
