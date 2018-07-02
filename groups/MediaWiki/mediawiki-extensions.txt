@@ -638,8 +638,6 @@ Create User Page
 
 Credits Source
 
-CryoKey
-
 CSS
 
 # Custom Sidebar / 2018-05-15: Empty repo
