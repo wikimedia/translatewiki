@@ -109,7 +109,13 @@ h. Create archive:
 
 This will create .bz2 tarball and .sha256sum files in releases/ folder.
 
-i. Prepare announcement to sent to mailing list:
+i. Sign release tarball (optional):
+
+   php melange.php sign-release
+
+This will sign created tarball.
+
+j. Prepare announcement to sent to mailing list:
 
     php melange.php prepare-announcement
 

@@ -247,6 +247,11 @@ TEXT;
 		}
 	}
 
+	public function sign_release() {
+		$filename = $this->getReleaseFileName();
+		exec( "gpg --armor --detach-sign $filename" );
+	}
+
 	public function push_tag() {
 		$version = $this->conf['common']['releasever'];
 		$tag = str_replace( '$1', $version, $this->conf['common']['tagname'] );
