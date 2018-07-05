@@ -348,7 +348,7 @@ descmsg = bs-smartlist-desc
 
 Blue Spice SMW Connector
 descmsg = bs-bssmwconnector-desc
-optional = bs-bssmwconnector-nmmngr-label-smw
+optional = bs-bssmwconnector-nmmngr-label-smw, bs-smwconnector-extendedsearch-smwproperty-result-value
 
 Blue Spice Sub Page Tree
 descmsg = bs-subpagetree-desc
