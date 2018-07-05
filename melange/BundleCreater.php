@@ -249,7 +249,7 @@ TEXT;
 
 	public function sign_release() {
 		$filename = $this->getReleaseFileName();
-		exec( "gpg --armor --detach-sign $filename" );
+		exec( "gpg --armor --detach-sign releases/$filename" );
 	}
 
 	public function push_tag() {
