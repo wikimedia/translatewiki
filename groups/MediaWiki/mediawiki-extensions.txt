@@ -1887,8 +1887,6 @@ Popups
 
 # Preferences List // 2018-05-15: Empy repo
 
-Premoderation
-
 Prezi
 
 Private Domains
