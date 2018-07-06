@@ -613,8 +613,6 @@ Contributions List
 Contributors
 aliasfile = Contributors/Contributors.alias.php
 
-Contributors Addon
-
 Convert 2 Wiki
 aliasfile = Convert2Wiki/Convert2Wiki.alias.php
 optional = convert2wiki-format-csv
