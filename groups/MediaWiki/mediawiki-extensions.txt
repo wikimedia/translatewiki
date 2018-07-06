@@ -518,7 +518,8 @@ aliasfile = Commentbox/Commentbox.alias.php
 ignored = commentbox-prefill
 
 Comments
-aliasfile = Comments/includes/Comments.alias.php
+aliasfile = Comments/Comments.i18n.alias.php
+magicfile = Comments/Comments.i18n.magic.php
 
 Common Messages
 
