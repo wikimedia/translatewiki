@@ -2525,8 +2525,6 @@ aliasfile = VipsScaler/VipsScaler.alias.php
 
 Virtual Keyboard
 
-# Visual Chat // no i18n
-
 VisualEditor (MediaWiki extension)
 id = ext-visualeditor-ve-mw
 descmsg = visualeditor-desc
