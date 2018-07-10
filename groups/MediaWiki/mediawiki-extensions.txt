@@ -1156,7 +1156,7 @@ Host Stats
 aliasfile = HostStats/HostStats.alias.php
 ignored = hoststats
 
-# Hovergallery // 2018-05-02 Read only 
+# Hovergallery // 2018-05-02 Read only
 
 # No i18n files. Unsure if needed because config is enwiki centric.
 # Hreflang
