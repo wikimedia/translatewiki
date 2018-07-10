@@ -1511,11 +1511,6 @@ Multi Language Manager
 aliasfile = MultiLanguageManager/MultiLanguageManager.alias.php
 descmsg = mlm-desc
 
-MwEmbed Support
-descmsg = mwembed-desc
-
-# MwEmbed Support - MwEmbed Support // 2018-06-22 transferred to TMH
-
 My Variables
 
 Namespace HTML
