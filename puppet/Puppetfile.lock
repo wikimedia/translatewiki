@@ -5,6 +5,8 @@ FORGE
       puppetlabs-apt (< 5.0.0, >= 2.0.0)
       puppetlabs-stdlib (< 5.0.0, >= 4.13.0)
       richardc-datacat (< 1.0.0, >= 0.6.2)
+    elastic-kibana (6.0.1)
+      puppetlabs-apt (< 5.0.0, >= 2.0.0)
     puppet-archive (2.2.0)
       puppetlabs-stdlib (< 5.0.0, >= 4.13.1)
     puppet-letsencrypt (2.1.0)
@@ -13,7 +15,7 @@ FORGE
       puppetlabs-vcsrepo (< 2.0.0, >= 1.3.1)
       stahnma-epel (< 2.0.0, >= 1.0.0)
     puppet-staging (2.2.0)
-    puppetlabs-apt (4.4.1)
+    puppetlabs-apt (4.5.1)
       puppetlabs-stdlib (< 5.0.0, >= 4.16.0)
     puppetlabs-inifile (1.6.0)
     puppetlabs-java (2.3.0)
@@ -34,6 +36,7 @@ FORGE
 
 DEPENDENCIES
   elastic-elasticsearch (= 6.1.0)
+  elastic-kibana (= 6.0.1)
   puppet-letsencrypt (= 2.1.0)
   puppetlabs-java (= 2.3.0)
   puppetlabs-mysql (= 5.1.0)
