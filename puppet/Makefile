@@ -8,6 +8,7 @@ testpp:
 	git ls-files | grep "\.pp$$" | xargs -r /opt/puppetlabs/bin/puppet parser validate
 
 lint:
+	sudo apt install -y -qqq puppet-lint
 	puppet-lint modules
 
 noop:
