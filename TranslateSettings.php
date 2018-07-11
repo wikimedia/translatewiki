@@ -17,6 +17,8 @@ $wgTranslateDelayedMessageIndexRebuild = true;
 $wgTranslateDisablePreSaveTransform = true;
 $wgTranslateCheckBlacklist = "$GROUPS/check-blacklist.php";
 $wgTranslateYamlLibrary = 'phpyaml';
+$wgULSCompactLanguageLinksBetaFeature = false;
+$wgPageTranslationLanguageList = 'sidebar-only';
 
 $wgTranslatePermissionUrl = 'Special:MainPage';
 $wgTranslateUseSandbox = true;

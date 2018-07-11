@@ -212,6 +212,7 @@ wfLoadSkins( [ 'Vector', 'MonoBook', 'Timeless' ] );
 
 // Extensions which we don't specify any configuration
 wfLoadExtensions( [
+	'AbuseFilter',
 	'CharInsert',
 	'cldr',
 	'Elastica',
@@ -220,6 +221,7 @@ wfLoadExtensions( [
 	'Interwiki',
 	'LiquidThreads',
 	'Nuke',
+	'OATHAuth',
 	'Renameuser',
 	'ReplaceText',
 	'SyntaxHighlight_GeSHi',
@@ -245,6 +247,17 @@ $wgNamespacesToBeSearchedDefault[NS_MEDIAWIKI] = true;
 require_once "$EXT/CirrusSearch/CirrusSearch.php";
 $wgSearchType = 'CirrusSearch';
 $wgAdvancedSearchHighlighting = true;
+$wgCirrusSearchWikimediaExtraPlugin['regex'] = [
+	'build',
+	'use',
+	'use_extra_timeout',
+];
+$wgCirrusSearchWikimediaExtraPlugin[ 'id_hash_mod_filter' ] = true;
+$wgCirrusSearchUseExperimentalHighlighter = true;
+$wgCirrusSearchOptimizeIndexForExperimentalHighlighter = true;
+$wgCirrusSearchElasticQuirks = [
+	'query_string_max_determinized_states' => true,
+];
 
 require_once "$EXT/Translate/Translate.php";
 require_once __DIR__ . "/TranslateSettings.php";
@@ -375,6 +388,9 @@ $wgGroupPermissions['staff']['mwoauthmanageconsumer'] = true;
 $wgGroupPermissions['staff']['mwoauthsuppress'] = true;
 $wgGroupPermissions['staff']['mwoauthviewsuppressed'] = true;
 $wgGroupPermissions['staff']['mwoauthviewprivate'] = true;
+
+wfLoadExtension( 'CheckUser' );
+$wgCheckUserLogLogins = true;
 
 /**
  * Dynamic code starts here

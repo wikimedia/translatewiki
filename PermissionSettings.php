@@ -9,19 +9,16 @@ $wgGroupPermissions['bot'          ]['skipcaptcha'] = true; // registered bots
 $wgGroupPermissions['sysop'        ]['skipcaptcha'] = true;
 $wgGroupPermissions['translator'   ]['skipcaptcha'] = true;
 
-// ialex 2009-07-19
-// move restricted to translators due to the move attack
 $wgGroupPermissions['user'         ]['move']                    = false;
 $wgGroupPermissions['user'         ]['move-subpages']           = false;
 $wgGroupPermissions['user'         ]['move-rootuserpages']      = false;
+$wgGroupPermissions['user'         ]['movefile']                = false;
+$wgGroupPermissions['user'         ]['move-categorypages']      = false;
 $wgGroupPermissions['autoconfirmed']['move']                    = false;
 $wgGroupPermissions['autoconfirmed']['move-subpages']           = false;
 $wgGroupPermissions['sysop'        ]['move']                    = true;
 $wgGroupPermissions['sysop'        ]['move-subpages']           = true;
 $wgGroupPermissions['sysop'        ]['move-rootuserpages']      = true;
-$wgGroupPermissions['translator'   ]['move']                    = true;
-$wgGroupPermissions['translator'   ]['move-subpages']           = true;
-$wgGroupPermissions['translator'   ]['move-rootuserpages']      = true;
 $wgGroupPermissions['translator'   ]['translate-messagereview'] = true;
 $wgGroupPermissions['bot'          ]['move']                    = true;
 $wgGroupPermissions['bot'          ]['move-subpages']           = true;
@@ -69,6 +66,8 @@ $wgGroupPermissions['staff'        ]['suppressrevision']        = true;
 $wgGroupPermissions['staff'        ]['translate-import']        = true;
 $wgGroupPermissions['staff'        ]['translate-manage']        = true;
 $wgGroupPermissions['staff'        ]['usermerge']               = true;
+$wgGroupPermissions['staff'        ]['checkuser']               = true;
+$wgGroupPermissions['staff'        ]['checkuser-log']           = true;
 $wgGroupPermissions['staff'        ]['replacetext']             = true;
 $wgGroupPermissions['sysop'        ]['replacetext']             = false;
 
