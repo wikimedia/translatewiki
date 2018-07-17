@@ -67,10 +67,6 @@ ignored = refreshed-navigation, refreshed-this-wiki-mobile-logo, refreshed-this-
 ignored = refreshed-this-wiki-wordmark, refreshed-wiki-dropdown
 ignored = refreshed-icon-logged-in, refreshed-icon-logged-out
 
-# Repo is read only
-# Slate
-# optional = slate.css, slate.js
-
 Splash
 ignored = site-banner, global-links-menu, content-footer, splash-personaltools
 

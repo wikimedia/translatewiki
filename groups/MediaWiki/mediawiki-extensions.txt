@@ -1430,7 +1430,7 @@ magicfile = MetaMaster/MetaMaster.i18n.magic.php
 
 Minimum Name Length
 
-# Minty Docs // 2018-06-16 Empty repo
+Minty Docs
 
 Mixed Namespace Search Suggestions
 descmsg = mnss-desc
