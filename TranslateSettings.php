@@ -230,6 +230,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CommonsAndroid.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CopyPatrol.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/crosswatch.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/GapFinder.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/GrantMetrics.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ia-upload.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/InteractionTimeline.yaml";

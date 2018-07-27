@@ -118,6 +118,14 @@ gapfinder:
       url: https://gerrit.wikimedia.org/r/research/recommendation-api
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/research/recommendation-api
 
+grant-metrics:
+  group: grant-metrics
+  repos:
+    grant-metrics:
+      type: github
+      url: https://github.com/wikimedia/grantmetrics.git
+      url|export: git@github.com:wikimedia/grantmetrics.git
+
 hivejs:
   group: hivejs-*
   repos:

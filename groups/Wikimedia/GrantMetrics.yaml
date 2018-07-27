@@ -1,0 +1,26 @@
+BASIC:
+  id: grant-metrics
+  label: Grant Metrics
+  icon: wiki://Grant metrics logo.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/grant-metrics/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: grant-metrics-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/grant-metrics/i18n/%CODE%.json"
+
+CHECKER:
+  class: MediaWikiMessageChecker
+  checks:
+    - wikiParameterCheck
+    - braceBalanceCheck
+
+INSERTABLES:
+  class: MediaWikiInsertablesSuggester
