@@ -158,12 +158,12 @@ aliasfile = BlockAndNuke/BlockAndNuke.alias.php
 
 # Blog Page // incosistent prefix 2017-11-05
 
-Blue Spice
-id = ext-bs
-file = BlueSpiceFoundation/i18n/core/%CODE%.json
-optional = prefs-base
-ignored = specialpages-group-bluespice, bs-navigation-contact-url, bs-navigation-instructions-url, bs-navigation-support-url
-ignored = prefs-bluespice
+# Blue Spice // 2018-07-30: Disabled for now due to duplicate message keys https://gerrit.wikimedia.org/r/#/c/mediawiki/extensions/BlueSpiceFoundation/+/448446/8/i18n/core/en.json
+# id = ext-bs
+# file = BlueSpiceFoundation/i18n/core/%CODE%.json
+# optional = prefs-base
+# ignored = specialpages-group-bluespice, bs-navigation-contact-url, bs-navigation-instructions-url, bs-navigation-support-url
+# ignored = prefs-bluespice
 
 Blue Spice - API
 id = ext-bs-api
