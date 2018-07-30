@@ -2,7 +2,7 @@ BASIC:
   id: grant-metrics
   label: Grant Metrics
   icon: wiki://Grant metrics logo.svg
-  description: "{{Special:MyLanguage/Translations:Group descriptions/grant-metrics/en}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/grantmetrics/en}}"
   class: FileBasedMessageGroup
   namespace: NS_WIKIMEDIA
 
