@@ -1386,6 +1386,7 @@ Map Sources
 aliasfile = MapSources/MapSources.i18n.alias.php
 
 Mark As Helpful
+ignored = right-markashelpful-view, right-markashelpful-admin
 
 Mass Edit Regex
 aliasfile = MassEditRegex/MassEditRegex.alias.php
