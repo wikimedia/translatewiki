@@ -247,12 +247,11 @@ $wgNamespacesToBeSearchedDefault[NS_MEDIAWIKI] = true;
 require_once "$EXT/CirrusSearch/CirrusSearch.php";
 $wgSearchType = 'CirrusSearch';
 $wgAdvancedSearchHighlighting = true;
-$wgCirrusSearchWikimediaExtraPlugin['regex'] = [
+$wgCirrusSearchWikimediaExtraPlugin[ 'regex' ] = [
 	'build',
 	'use',
 	'use_extra_timeout',
 ];
-$wgCirrusSearchWikimediaExtraPlugin[ 'id_hash_mod_filter' ] = true;
 $wgCirrusSearchUseExperimentalHighlighter = true;
 $wgCirrusSearchOptimizeIndexForExperimentalHighlighter = true;
 $wgCirrusSearchElasticQuirks = [
