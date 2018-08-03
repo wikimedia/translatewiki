@@ -1,0 +1,19 @@
+---
+BASIC:
+  id: int-commtech-commons
+  label: CommunityTechBot
+  namespace: NS_INTUITION
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: commtech-commons-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/int-commtech-commons/i18n/%CODE%.json"
+
+INSERTABLES:
+  class: NumericalParameterInsertablesSuggester

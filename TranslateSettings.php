@@ -337,6 +337,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Intuition/raun.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/refill.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/web.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/guc.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Intuition/commtech-commons.yaml";
 $wgNamespaceAliases['Toolserver'] = 1240;
 $wgNamespaceAliases['Toolserver_talk'] = 1240;
 $wgTranslateSupportUrlNamespace[NS_INTUITION] = [
