@@ -1961,8 +1961,6 @@ aliasfile = RecentActivityFeed/RecentActivityFeed.alias.php
 
 # Recoin // 2018-05-15: Empty repo
 
-Reflect
-
 Refresh Special
 aliasfile = RefreshSpecial/RefreshSpecial.alias.php
 
