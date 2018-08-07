@@ -693,8 +693,6 @@ optional = sitenotice_close-brackets
 
 Disqus Tag
 
-# Django Analytics // Not an extension
-
 # Doc Book Export // 2018-03-22: No i18n files
 
 Donation Interface - Adyen Gateway
