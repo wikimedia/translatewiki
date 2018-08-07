@@ -2072,8 +2072,6 @@ magicfile = SemanticExpressiveness/SemanticExpressiveness.i18n.magic.php
 Semantic Genealogy
 optional = semanticgenealogy-gedcomexport-link
 
-Semantic Highcharts
-
 Semantic Image Annotator
 descmsg = sia-description
 
