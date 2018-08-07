@@ -2064,9 +2064,6 @@ Semantic Dependency
 Semantic Drilldown
 aliasfile = SemanticDrilldown/languages/SD_Aliases.php
 
-Semantic Expressiveness
-magicfile = SemanticExpressiveness/SemanticExpressiveness.i18n.magic.php
-
 # Semantic Forms Inputs // Read only
 
 Semantic Genealogy
