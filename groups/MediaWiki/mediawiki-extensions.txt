@@ -367,8 +367,7 @@ Blue Spice User Manager
 descmsg = bs-usermanager-desc
 aliasfile = BlueSpiceUserManager/includes/specials/SpecialUserManager.alias.php
 
-Blue Spice User Preferences
-descmsg = bs-userpreferences-desc
+# Blue Spice User Preferences // Only release branches used - T197898
 
 Blue Spice Watch List
 descmsg = bs-watchlist-desc
