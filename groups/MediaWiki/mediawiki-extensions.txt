@@ -345,6 +345,10 @@ descmsg = bs-saferedit-desc
 Blue Spice Smart List
 descmsg = bs-smartlist-desc
 
+Blue Spice Smart List - Inspector
+file = BlueSpiceSmartList/i18n/ve/%CODE%.json
+id = ext-bs-smartlist-inspector
+
 Blue Spice SMW Connector
 descmsg = bs-bssmwconnector-desc
 optional = bs-bssmwconnector-nmmngr-label-smw, bs-smwconnector-extendedsearch-smwproperty-result-value
@@ -1269,6 +1273,7 @@ optional = kartographer-wv-layer-wikimedia
 
 Labeled Section Transclusion
 descmsg = lst-desc
+magicfile = LabeledSectionTransclusion.i18n.magic.php
 
 Landing Check
 aliasfile = LandingCheck/LandingCheck.alias.php
