@@ -643,6 +643,9 @@ aliasfile = CreateRedirect/CreateRedirect.alias.php
 
 Create User Page
 
+Created Pages List
+aliasfile = CreatedPagesList/CreatedPagesList.alias.php
+
 Credits Source
 
 CSS
