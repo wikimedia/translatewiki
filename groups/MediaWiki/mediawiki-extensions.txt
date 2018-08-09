@@ -892,6 +892,8 @@ File Exporter
 File Importer
 aliasfile = FileImporter/FileImporter.alias.php
 
+# File System Image Server // 2018-08-09: Empty repo
+
 Filter List Users
 
 First Steps
@@ -2427,6 +2429,8 @@ aliasfile = TwoColConflict/TwoColConflict.alias.php
 descmsg = twocolconflict-desc
 
 # UI Feedback # incomplete qqq
+
+# UI Lang Code // 2018-08-09 empty repo
 
 Un Captcha
 
