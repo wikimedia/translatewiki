@@ -2046,6 +2046,8 @@ aliasfile = SecureAuth/SecureAuth.i18n.alias.php
 Secure HTML
 aliasfile = SecureHTML/SecureHTML.alias.php
 
+Secure Link Fixer
+
 Secure Poll
 aliasfile = SecurePoll/SecurePoll.alias.php
 optional = securepoll-header-ip, securepoll-header-xff, securepoll-header-token-match
