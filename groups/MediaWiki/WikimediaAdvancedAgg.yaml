@@ -13,7 +13,6 @@ GROUPS:
   - ext-articlecreationworkflow # https://phabricator.wikimedia.org/rOMWCcacbf4b98500559e529b770b0c2c8bdd2ee49ec4
   - ext-articleplaceholder # 2016-02-09
   - ext-bouncehandler # 2014-11-05 Change-Id: I64c09d17146bf9a3cee582fcea0e19aed6f4ce3d
-  - ext-calendar # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-centralauth
   - ext-centralnotice
   - ext-charinsert
@@ -26,7 +25,6 @@ GROUPS:
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-contributionreporting # wikimediafoundation.org
   - ext-contributiontracking # wikimediafoundation.org
-  - ext-creditssource # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-dashiki
   - ext-di-gc
   - ext-di-pfpg # wikimediafoundation.org
@@ -54,7 +52,6 @@ GROUPS:
   - ext-flaggedrevs-validationstatistics
   - ext-fundraiserlandingpage # r101409 for donatewiki
   - ext-fundraisingtranslateworkflow # 2014-07-14 for Meta
-  - ext-geocrumbs # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-geodata
   - ext-gettingstarted # Change-Id: d1aac2d3dc774299c3e61ef8e163b50dfd89d313 for a bunch of wikis
   - ext-globalblocking # Only advanced users except globalblocking-ipblocked*
@@ -63,7 +60,6 @@ GROUPS:
   - ext-graph # Deployed 9/2014 to Meta, MediaWiki, Zero, and some more
   - ext-guidedtour # 2013-01-31 for 15 projects
   - ext-gwtoolset # 2013-12-17 for Wikimedia Commons
-  - ext-insider # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-interwiki
   - ext-interwikisorting # https://phabricator.wikimedia.org/rOMWCdd2a7f08ba44692418fc4b13a467f574f46e2396
   - ext-josa
@@ -72,8 +68,6 @@ GROUPS:
   - ext-landingcheck
   - ext-linter # https://phabricator.wikimedia.org/rOMWC6f05e35639f1854b203fa5cf302d43a41038cc19
   - ext-ldapauthentication # 2011-12-28: labsconsole.wikimedia.org
-  - ext-listings # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
-  - ext-mapsources # wikivoyage
   - ext-massmessage
   - ext-mobileapp
   - ext-multimediaviewer # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
@@ -97,8 +91,6 @@ GROUPS:
   - ext-quicksurveys # 2016, some wiki
   - ext-quiz
   - ext-readinglists # https://phabricator.wikimedia.org/rOMWCf9582378355829349affb468ee8dbef77dbeffe9
-  - ext-relatedarticles # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
-  - ext-relatedsites # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-revisionslider
   - ext-rss # 2010-11-25: Wikimediafoundation.org
   - ext-sandboxlink
@@ -114,7 +106,6 @@ GROUPS:
   - ext-templatesandbox
   - ext-templatestyles
   - ext-textextracts
-  - ext-toctree # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-translate-core
   - ext-translate-pagetranslation
   - ext-translate-search
@@ -122,7 +113,6 @@ GROUPS:
   - ext-trustedxff
   - ext-uploadslink # 2016-05-04: Commons, 7e1cd07dba434c0a433672a2da97b5224d3aaecd
   - ext-urlshortener # 2016-03-16
-  - ext-usermerge # change-id: dee0a5a3d55dbd9d2daa43c9ea0baa753ee49640 for Wikivoyage
   - ext-vipsscaler
   - ext-wikibasedatamodel
   - ext-wikibaselexeme # https://phabricator.wikimedia.org/rOMWC87b1251792a9c65b300ee0ca3686ffc155b084e0

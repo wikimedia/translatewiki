@@ -84,6 +84,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaAdvancedAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaLegacyAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaTechnicalAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaUpcomingAgg.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaWikivoyageAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/ExtensionsAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/SkinsAgg.yaml";
