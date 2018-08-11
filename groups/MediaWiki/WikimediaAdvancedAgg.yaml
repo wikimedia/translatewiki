@@ -14,7 +14,6 @@ GROUPS:
   - ext-articleplaceholder # 2016-02-09
   - ext-bouncehandler # 2014-11-05 Change-Id: I64c09d17146bf9a3cee582fcea0e19aed6f4ce3d
   - ext-calendar # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
-  - ext-capiunto # 2016-02-16
   - ext-centralauth
   - ext-centralnotice
   - ext-charinsert
@@ -23,7 +22,6 @@ GROUPS:
   - ext-codeeditor
   - ext-codemirror
   - ext-cognate # https://phabricator.wikimedia.org/rOMWC20ffc2b65e603e7f533de1aae608704efc413d0d
-  - ext-collaborationkit # https://phabricator.wikimedia.org/rOMWC54f5e751579cf7f715851bb89de538a28134668e
   - ext-commonsmetadata # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-contributionreporting # wikimediafoundation.org
@@ -68,7 +66,6 @@ GROUPS:
   - ext-insider # Change id bc3616c74aab74b74f78bbb2ce3241e5a564b4f9 for Wikivoyage
   - ext-interwiki
   - ext-interwikisorting # https://phabricator.wikimedia.org/rOMWCdd2a7f08ba44692418fc4b13a467f574f46e2396
-  - ext-jade # https://phabricator.wikimedia.org/rOMWC6bc21f7994d5d818b2ffecb2606af14589a65c31
   - ext-josa
   - ext-jsonconfig
   - ext-labeledsectiontransclusion
