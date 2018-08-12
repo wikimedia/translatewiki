@@ -44,6 +44,7 @@ GROUPS:
   - ext-parserfunctions
   - ext-pdfhandler
   - ext-poolcounter # 2011-03-18 on all projects
+  - ext-popups # 2014-03-19
   - ext-sitematrix
   - ext-spamblacklist
   - ext-thanks

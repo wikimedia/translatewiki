@@ -85,7 +85,6 @@ GROUPS:
   - ext-performanceinspector
   - ext-petition # 2014-04-22: Foundationwiki
   - ext-poem
-  - ext-popups # 2014-03-19
   - ext-proofreadpage # Wikisource
   - ext-propertysuggester # https://phabricator.wikimedia.org/rOMWC8612a69333853901fa04dcc377ce58d0879782d0
   - ext-quicksurveys # 2016, some wiki
