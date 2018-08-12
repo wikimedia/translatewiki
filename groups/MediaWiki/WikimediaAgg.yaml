@@ -10,4 +10,9 @@ BASIC:
 GROUPS: # See Wikimedia*Agg.yaml. Do not duplicate group names!
   - ext-0-wikimedia-main
   - wikimedia-advanced
+  - wikimedia-fundraising
+  - wikimedia-legacy
+  - wikimedia-media
+  - wikimedia-upcoming
+  - wikimedia-wikivoyage
   - wikimedia-technical
