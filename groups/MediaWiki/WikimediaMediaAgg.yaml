@@ -1,0 +1,17 @@
+BASIC:
+  id: wikimedia-media
+  label: Extensions used by Wikimedia - Media
+  icon: wiki://Mediawiki-logo.png
+  meta: yes
+  class: AggregateMessageGroup
+  description: '{{Special:MyLanguage/Translations:Group descriptions/wikimediaextensions-media/en}}'
+  namespace: NS_MEDIAWIKI
+
+GROUPS:
+  - ext-3D
+  - ext-commonsmetadata # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
+  - ext-fileexporter # https://phabricator.wikimedia.org/rOMWCed0953cf03e16621029ba7b21b716d448e387de0
+  - ext-fileimporter # https://phabricator.wikimedia.org/rOMWCed0953cf03e16621029ba7b21b716d448e387de0
+  - ext-gwtoolset # 2013-12-17 for Wikimedia Commons
+  - ext-uploadslink # 2016-05-04: Commons, 7e1cd07dba434c0a433672a2da97b5224d3aaecd
+  - ext-vipsscaler
