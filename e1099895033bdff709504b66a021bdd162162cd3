@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "022628ff_d8913429",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1276,
+      "author": {
+        "id": 161
+      },
+      "writtenOn": "2018-08-12T17:30:19Z",
+      "side": 1,
+      "message": "Must include the extensions dir?",
+      "range": {
+        "startLine": 1276,
+        "startChar": 12,
+        "endLine": 1276,
+        "endChar": 53
+      },
+      "revId": "e1099895033bdff709504b66a021bdd162162cd3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
