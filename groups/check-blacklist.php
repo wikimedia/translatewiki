@@ -501,7 +501,7 @@ $checkBlacklist = [
 		]
 	],
 	[
-		'group' => 'ext-timedmediahandler',
+		'group' => 'ext-timedmediahandler-user',
 		'check' => 'links',
 		'message' => [
 			'timedmedia-subtitle-new-desc', // Contains links that are translated

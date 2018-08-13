@@ -50,7 +50,10 @@ GROUPS:
   - ext-spamblacklist
   - ext-thanks
   - ext-templatedata
-  - ext-timedmediahandler
+  - ext-timedmediahandler-user
+  - ext-timedmediahandler-embedplayer
+  - ext-timedmediahandler-timedtext
+  - ext-timedmediahandler-newmwembedsupport
   - ext-timeline
   - ext-titleblacklist
   - ext-torblock
