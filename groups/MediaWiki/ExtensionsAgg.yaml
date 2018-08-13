@@ -87,6 +87,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-timedmediahandler
+  label: Timed Media Handler messages - all
+  description: '{{Special:MyLanguage/Translations:Group descriptions/timedmediahandler/en}}'
+
+GROUPS:
+  - ext-timedmediahandler-*
+
+---
+BASIC:
   id: ext-translate-0-all
   label: Translate messages - all
   description: '{{Special:MyLanguage/Translations:Group descriptions/translate/en}}'
