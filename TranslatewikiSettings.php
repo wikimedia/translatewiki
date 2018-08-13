@@ -63,6 +63,10 @@ $wgLogoHD = [
 	'svg' => 'https://translatewiki.net/static/logo.svg',
 ];
 
+$wgGrammarForms['et']['genitive']['translatewiki.net'] = 'translatewiki.net-i';
+$wgGrammarForms['et']['inessive']['translatewiki.net'] = 'translatewiki.net-is';
+$wgGrammarForms['et']['elative']['translatewiki.net'] = 'translatewiki.net-ist';
+
 $wgGrammarForms['fi']['genitive']['translatewiki.net'] = 'translatewiki.netin';
 $wgGrammarForms['fi']['inessive']['translatewiki.net'] = 'translatewiki.netissä';
 $wgGrammarForms['fi']['illative']['translatewiki.net'] = 'translatewiki.netiin';
