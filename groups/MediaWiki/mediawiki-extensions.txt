@@ -2678,7 +2678,7 @@ ignored = wikibaselexeme-description
 optional = wikibaselexeme-presentation-lexeme-secondary-label, wikibaselexeme-lexeme-link-title
 optional = wikibaselexeme-presentation-lexeme-display-label-separator-multiple-lemma
 optional = wikibaselexeme-formidformatter-separator-multiple-representation
-optional = wikibase-lexeme-lemma-language-option
+optional = wikibase-lexeme-lemma-language-option, wikibaselexeme-senseidformatter-layout
 
 Wikibase Media Info
 
