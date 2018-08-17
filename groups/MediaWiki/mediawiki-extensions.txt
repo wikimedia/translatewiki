@@ -1300,7 +1300,7 @@ optional = kartographer-wv-layer-wikimedia
 
 Labeled Section Transclusion
 descmsg = lst-desc
-magicfile = LabeledSectionTransclusion.i18n.magic.php
+magicfile = LabeledSectionTransclusion/LabeledSectionTransclusion.i18n.magic.php
 
 Landing Check
 aliasfile = LandingCheck/LandingCheck.alias.php
