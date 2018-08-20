@@ -184,7 +184,6 @@ file = BlueSpiceFoundation/i18n/deferred/%CODE%.json
 
 Blue Spice - Diagnostics
 file = BlueSpiceFoundation/i18n/diagnostics/%CODE%.json
-aliasfile = BlueSpiceFoundation/languages/BlueSpice.Diagnostics.alias.php
 id = ext-bs-diagnostics
 
 Blue Spice - ExtJS
