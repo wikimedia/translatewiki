@@ -2287,6 +2287,7 @@ aliasfile = TemplateSandbox/TemplateSandbox.alias.php
 ignored = templatesandbox-editform-text, templatesandbox-editform-helptext
 
 Template Styles
+optional = templatestyles
 
 Template Wizard
 
