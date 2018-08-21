@@ -16,6 +16,24 @@
       "revId": "b151c164d8020f9f180697c96665ca99bd8777ee",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ed89c410_60f434a3",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 2290,
+      "author": {
+        "id": 787
+      },
+      "writtenOn": "2018-08-21T09:51:46Z",
+      "side": 1,
+      "message": "I had an inkling about it being the default, but added it nonetheless just in case. Removing.",
+      "parentUuid": "1bb5f002_456a007c",
+      "revId": "b151c164d8020f9f180697c96665ca99bd8777ee",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
