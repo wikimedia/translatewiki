@@ -610,12 +610,12 @@ wiki-ai:
   repos:
     wiki-ai/wikilabels:
       type: github
-      url: https://github.com/wiki-ai/wikilabels.git
-      url|export: git@github.com:wiki-ai/wikilabels.git
+      url: https://github.com/wikimedia/wikilabels.git
+      url|export: git@github.com:wikimedia/wikilabels.git
     wiki-ai/wikilabels-wikimedia-config:
       type: github
-      url: https://github.com/wiki-ai/wikilabels-wmflabs-deploy.git
-      url|export: git@github.com:wiki-ai/wikilabels-wmflabs-deploy.git
+      url: https://github.com/wikimedia/wikilabels-wmflabs-deploy.git
+      url|export: git@github.com:wikimedia/wikilabels-wmflabs-deploy.git
 
 wikiblame:
   group: wikiblame
