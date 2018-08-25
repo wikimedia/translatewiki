@@ -19,7 +19,7 @@
  *         - Period removed from invalid IP address error.
  *         - Host names now supported as well as IP addresses.
  *     1.3 (2008-07-30):
- *         - Command line flag -quiet added to supress STDOUT output.
+ *         - Command line flag -quiet added to suppress STDOUT output.
  *     1.4 (2008-07-30):
  *         - Change log added.
  *         - Comments added to the end of functions giving their name.
