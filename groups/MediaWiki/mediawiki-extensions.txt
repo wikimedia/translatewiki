@@ -2351,14 +2351,14 @@ optional = timedmedia-derivative-desc-360p.mp4, timedmedia-derivative-1440p.mp4
 optional = beta-feature-timedmediahandler-message-videojs
 
 Timed Media Handler - Embed Player
-file = TimedMediaHandler/MwEmbedModules/EmbedPlayer/i18n/%CODE%.json
+file = TimedMediaHandler/i18n/EmbedPlayer/%CODE%.json
 
 Timed Media Handler - New Mw Embed Support
-file = TimedMediaHandler/MwEmbedModules/NewMwEmbedSupport/i18n/%CODE%.json
+file = TimedMediaHandler/i18n/MwEmbedSupport/%CODE%.json
 optional = mwe-size-gigabytes, mwe-size-megabytes, mwe-size-kilobytes, mwe-size-bytes
 
 Timed Media Handler - Timed Text
-file = TimedMediaHandler/MwEmbedModules/TimedText/i18n/%CODE%.json
+file = TimedMediaHandler/i18n/TimedText/%CODE%.json
 optional = mwe-timedtext-key-language
 
 Timeline
