@@ -171,6 +171,10 @@ Blue Spice - API
 id = ext-bs-api
 file = BlueSpiceFoundation/i18n/api/%CODE%.json
 
+Blue Spice - OOUI
+id = ext-bs-ooui
+file = BlueSpiceFoundation/i18n/ooui/%CODE%.json
+
 # Blue Spice - BlueSpiceProjectFeedbackHelper # per https://gerrit.wikimedia.org/r/#/c/150779/
 
 Blue Spice - Credits
