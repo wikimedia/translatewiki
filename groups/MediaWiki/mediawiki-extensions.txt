@@ -2744,7 +2744,6 @@ prefix = wmf- | grouppage-staff, group-staff, group-staff-member
 prefix = wmf- | group-patroller, group-patroller-member, grouppage-patroller
 prefix = wmf- | createacct-captcha-help-url
 prefix = wmf- | search-interwiki-custom
-prefix = wmf- | interfaceadmin-info
 
 Wikimedia Code of Conduct
 file = WikimediaMessages/i18n/codeofconduct/%CODE%.json
@@ -2781,6 +2780,7 @@ ignored = wm-license-lgpl-2.1-full-link, wm-license-lgpl-3-full-link
 Wikimedia Overrides
 file = WikimediaMessages/i18n/wikimediaoverrides/%CODE%.json
 ignored = wikimedia-sidebar
+prefix = wmf- | interfaceadmin-info
 
 # Wikimedia Overrides No Translate // Per name: no translate
 
