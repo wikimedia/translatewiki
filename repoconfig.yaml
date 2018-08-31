@@ -688,6 +688,16 @@ wikipedia-ios:
       branch|export: twn
       url|export: git@github.com:wikimedia/wikipedia-ios.git
 
+wikipedia-library:
+  group: wikipedia-library
+  repos:
+    WikipediaLibrary/TWLight:
+      type: github
+      branch: production
+      url: https://github.com/WikipediaLibrary/TWLight.git
+      branch|export: master
+      url|export: git@github.com:WikipediaLibrary/TWLight.git
+
 xtools:
   group: xtools
   repos:

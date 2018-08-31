@@ -1,0 +1,30 @@
+BASIC:
+  id: wikipedia-library
+  label: Wikipedia Library Card Platform
+  icon: wiki://Wikipedia_Library_owl.svg
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikipedia-library/en}}"
+  codeBrowser: "https://github.com/WikipediaLibrary/TWLight/blob/production/%FILE%#L%LINE%"
+
+FILES:
+  class: GettextFFS
+  sourcePattern: "%GROUPROOT%/WikipediaLibrary/TWLight/locale/%CODE%/LC_MESSAGES/django.po"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikipedia-library-
+  patterns:
+    - "*"
+
+CHECKER:
+  class: WPLMessageChecker
+  checks:
+    - WPLVariablesCheck
+
+INSERTABLES:
+  class: WPLInsertablesSuggester
+
+AUTOLOAD:
+  WPLMessageChecker: WikipediaLibraryChecker.php
+  WPLInsertablesSuggester: WikipediaLibrarySuggester.php
