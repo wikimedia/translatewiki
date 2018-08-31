@@ -12,3 +12,4 @@ GROUPS:
   - ext-collaborationkit # https://phabricator.wikimedia.org/rOMWC54f5e751579cf7f715851bb89de538a28134668e
   - ext-dynamicsidebar # Deployed but unused
   - ext-jade # https://phabricator.wikimedia.org/rOMWC6bc21f7994d5d818b2ffecb2606af14589a65c31
+  - ext-templatewizard # https://phabricator.wikimedia.org/rOMWCc3bc393d46e12116fe4c9b3aee99664cd4d13f24
