@@ -54,6 +54,7 @@ $wgExtraLanguageNames['kea'] = 'Kabuverdianu'; # Kabuverdianu / Siebrand 2009-01
 $wgExtraLanguageNames['kgp'] = 'Kaingáng'; # Siebrand 2008-12-05
 $wgExtraLanguageNames['kip'] = 'शेषी पाङ'; # Amir 2017-08-13
 $wgExtraLanguageNames['kjh'] = 'хакас'; # Khakas / Amire80 2014-06-17
+$wgExtraLanguageNames['kjp'] = 'ဖၠုံလိက်'; # Eastern Pwo Karen / Amire80 2018-09-02
 $wgExtraLanguageNames['knn'] = 'महाराष्ट्रीय कोंकणी'; # Maharashtrian Konkani / 2015-XX-XX
 $wgExtraLanguageNames['krl'] = 'Karjala'; # Karelian / Siebrand 2008-04-12
 $wgExtraLanguageNames['ksf'] = 'Bafia'; # Robin 2011-10-21
