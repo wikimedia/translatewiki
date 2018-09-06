@@ -9,8 +9,6 @@ Blue Sky
 optional = bluesky-breadcrumb-pointer
 ignored = bluesky-breadcrumbs-nsmain
 
-Blue Spice Skin
-
 Bouquet
 ignored = bouquet-navigation
 
