@@ -5,7 +5,7 @@ U="l10n-bot"
 GERRIT=("$U@gerrit.wikimedia.org" -p 29418)
 
 # HACK: Ignore patches in the EUCopyrightCampaign repos (T203297)
-ssh "${GERRIT[@]}" gerrit query --format=TEXT "owner:$U" "project:$1" status:open -project:mediawiki/extensions/EUCopyrightCampaign -project:mediawiki/skins/EUCopyrightCampaignSkin |
+ssh "${GERRIT[@]}" gerrit query --format=TEXT "owner:$U" "project:$1" status:open -- -project:mediawiki/extensions/EUCopyrightCampaign -project:mediawiki/skins/EUCopyrightCampaignSkin |
 grep '  url:'  |
 cut -d/ -f5 |
 sort |
