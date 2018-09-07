@@ -2787,7 +2787,6 @@ ignored = wm-license-lgpl-2.1-full-link, wm-license-lgpl-3-full-link
 Wikimedia Overrides
 file = WikimediaMessages/i18n/wikimediaoverrides/%CODE%.json
 ignored = wikimedia-sidebar
-prefix = wmf- | interfaceadmin-info
 
 # Wikimedia Overrides No Translate // Per name: no translate
 
