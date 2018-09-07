@@ -1,0 +1,16 @@
+BASIC:
+  id: commons-mass-description
+  label: Commons Mass Description
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-commons-mass-description/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: commons-mass-description-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/commons-mass-description/messages/%CODE%.json"

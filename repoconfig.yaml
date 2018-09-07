@@ -50,6 +50,15 @@ commons-android:
       url: https://github.com/commons-app/apps-android-commons.git
       url|export: git@github.com:commons-app/apps-android-commons.git
 
+commons-mass-description:
+  group: commons-mass-description
+  auto-merge: labs/tools/commons-mass-description
+  repos:
+    commons-mass-description:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/p/labs/tools/commons-mass-description
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/commons-mass-description
+
 copypatrol:
   group: copypatrol
   repos:
