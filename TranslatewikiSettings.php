@@ -49,7 +49,6 @@ $wgRightsUrl = "";
 $wgRightsText = "";
 $wgRightsIcon = "";
 
-$wgUseTidy = false;
 $wgMaxShellMemory = 1024 * 200;
 
 /**
