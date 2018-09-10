@@ -3,8 +3,6 @@
  * A script to forward error log messages with some rate limiting.
  *
  * @author Niklas Laxstrom
- *
- * @copyright Copyright © 2010, Niklas Laxström
  * @license GPL-2.0-or-later
  * @file
  */
