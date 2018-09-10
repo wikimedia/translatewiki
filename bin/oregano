@@ -2,7 +2,7 @@
 set -o nounset -o errexit
 
 # Author: Niklas Laxström
-# License: MIT
+# License: GPL-2.0-or-later
 
 COMMAND=$1
 
