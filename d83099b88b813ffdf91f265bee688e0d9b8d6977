@@ -46,6 +46,30 @@
       "revId": "d83099b88b813ffdf91f265bee688e0d9b8d6977",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1b914bf1_18c9b248",
+        "filename": "COPYING",
+        "patchSetId": 1
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 1701
+      },
+      "writtenOn": "2018-09-11T20:28:56Z",
+      "side": 1,
+      "message": "Ah, thanks. It looked kind of funny. But I realize this is a sample text.",
+      "parentUuid": "c677d427_922a44cc",
+      "range": {
+        "startLine": 336,
+        "startChar": 0,
+        "endLine": 340,
+        "endChar": 28
+      },
+      "revId": "d83099b88b813ffdf91f265bee688e0d9b8d6977",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
