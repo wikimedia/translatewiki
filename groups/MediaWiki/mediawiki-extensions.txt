@@ -277,7 +277,9 @@ Blue Spice Extended Filelist
 descmsg = bs-extendedfilelist-desc
 aliasfile = BlueSpiceExtendedFilelist/BlueSpiceExtendedFilelist.alias.php
 
-# Blue Spice Extended Search // Dupe keys with above "Blue Spice - Extended Search"
+Blue Spice Extended Search
+descmsg = bs-extsearch-desc
+optional = bs-extendedsearch-filter-label-count-only
 
 Blue Spice Extended Statistics
 descmsg = bs-statistics-desc
