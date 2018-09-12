@@ -2365,6 +2365,7 @@ file = TimedMediaHandler/i18n/TimedText/%CODE%.json
 optional = mwe-timedtext-key-language
 
 Timed Media Handler - API
+file = TimedMediaHandler/i18n/api/%CODE%.json
 
 Timeline
 file = timeline/i18n/%CODE%.json
