@@ -25,10 +25,6 @@ erudite
 file = erudite/i18n/%CODE%.json
 ignored = erudite-extracontent-column1, erudite-extracontent-column2, erudite-extracontent-column3
 
-EU Copyright Campaign Skin
-languages = bg, hr, cs, da, nl, en, et, fi, fr, de, el, hu, ga, it, lv, lt, mt, pl, pt, ro, sk, sl, es, sv, qqq
-ignored = euccs-wikimedia-public-policy-text, euccs-wikimedia-public-policy-title
-
 Gamepress
 ignored = gamepress-navigation, gamepress-prefooter-1, gamepress-prefooter-2, gamepress-prefooter-3
 

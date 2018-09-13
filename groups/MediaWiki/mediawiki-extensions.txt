@@ -851,9 +851,6 @@ Error Handler
 
 Etherpad Lite
 
-EU Copyright Campaign
-languages = bg, hr, cs, da, nl, en, et, fi, fr, de, el, hu, ga, it, lv, lt, mt, pl, pt, ro, sk, sl, es, sv, qqq
-
 Event Bus
 
 Event Logging
