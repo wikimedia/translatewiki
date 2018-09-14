@@ -18,3 +18,4 @@ GROUPS:
   - ext-timedmediahandler-api
   - ext-translate-api
   - ext-universallanguageselector-api
+  - ext-wikibase-repo-api

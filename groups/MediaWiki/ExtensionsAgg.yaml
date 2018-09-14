@@ -134,3 +134,12 @@ GROUPS:
   - ext-cite-visualeditor
   - mwgerrit-oojs-ui
   - mwgerrit-visualeditor-ve
+
+---
+BASIC:
+  id: ext-wikibase-repo
+  label: Wikibase Repo messages - all
+  description: '{{Special:MyLanguage/Translations:Group descriptions/wikibaserepo/en}}'
+
+GROUPS:
+  - ext-wikibase-repo-*
