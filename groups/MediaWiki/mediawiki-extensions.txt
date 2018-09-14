@@ -541,9 +541,6 @@ Common Messages
 Commons Metadata
 ignored = commonsmetadata-doc-url
 
-Community Twitter
-aliasfile = CommunityTwitter/CommunityTwitter.alias.php
-
 Conditional Show Section
 
 Configure
