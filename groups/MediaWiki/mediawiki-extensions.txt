@@ -2318,8 +2318,8 @@ aliasfile = TimeMachine/TimeMachine.alias.php
 
 Timed Media Handler
 id = ext-timedmediahandler-user
-magicfile = TimedMediaHandler/TimedMediaHandler.i18n.magic.php
-aliasfile = TimedMediaHandler/TimedMediaHandler.i18n.alias.php
+magicfile = TimedMediaHandler/i18n/TimedMediaHandler.i18n.magic.php
+aliasfile = TimedMediaHandler/i18n/TimedMediaHandler.i18n.alias.php
 optional = timedmedia-ogg, timedmedia-webm, timedmedia-wav
 optional = timedmedia-mp4, timedmedia-flac
 optional = timedmedia-derivative-160p.ogv, timedmedia-derivative-240p.ogv, timedmedia-derivative-360p.ogv
