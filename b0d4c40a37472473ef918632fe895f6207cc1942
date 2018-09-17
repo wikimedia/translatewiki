@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c0e4d081_d29f7446",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-09-17T17:46:38Z",
+      "side": 1,
+      "message": "This id is already in use.",
+      "range": {
+        "startLine": 131,
+        "startChar": 6,
+        "endLine": 131,
+        "endChar": 23
+      },
+      "revId": "b0d4c40a37472473ef918632fe895f6207cc1942",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0514b97e_ee3c5013",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-09-17T17:46:38Z",
+      "side": 1,
+      "message": "Has this been created? Can\u0027t it re-use the extension description message?",
+      "revId": "b0d4c40a37472473ef918632fe895f6207cc1942",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
