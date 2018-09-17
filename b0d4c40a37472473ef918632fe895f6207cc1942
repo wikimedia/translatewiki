@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "d07f05d0_03290041",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-09-17T18:06:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c0e4d081_d29f7446",
+      "range": {
+        "startLine": 131,
+        "startChar": 6,
+        "endLine": 131,
+        "endChar": 23
+      },
+      "revId": "b0d4c40a37472473ef918632fe895f6207cc1942",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "0514b97e_ee3c5013",
         "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
         "patchSetId": 3
@@ -36,6 +60,24 @@
       "writtenOn": "2018-09-17T17:46:38Z",
       "side": 1,
       "message": "Has this been created? Can\u0027t it re-use the extension description message?",
+      "revId": "b0d4c40a37472473ef918632fe895f6207cc1942",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "95ca3cfb_202e5493",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-09-17T18:06:26Z",
+      "side": 1,
+      "message": "\u003e Has this been created?\n\nNo, I usually create those soon after the patch is merged.\n\n\u003e Can\u0027t it re-use the extension description message?\n\nMaybe, but it would be different from the previous extensions that were converted.",
+      "parentUuid": "0514b97e_ee3c5013",
       "revId": "b0d4c40a37472473ef918632fe895f6207cc1942",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
