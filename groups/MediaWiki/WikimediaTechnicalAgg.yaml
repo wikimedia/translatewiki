@@ -18,4 +18,5 @@ GROUPS:
   - ext-timedmediahandler-api
   - ext-translate-api
   - ext-universallanguageselector-api
+  - ext-wikibase-client-api
   - ext-wikibase-repo-api

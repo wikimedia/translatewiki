@@ -2646,11 +2646,15 @@ Wiki Text Logged In Out
 
 Wikibase - Client
 file = Wikibase/client/i18n/%CODE%.json
+id = ext-wikibase-client-interface
 aliasfile = Wikibase/client/WikibaseClient.i18n.alias.php
 magicfile = Wikibase/client/WikibaseClient.i18n.magic.php
 descmsg = wbc-desc
 ignored = accesskey-t-wikibase, notification-page-connection-link, wikibase-rc-wikibase-edit-legend
 optional = limitreport-entityaccesscount-value
+
+Wikibase - Client - API
+file = Wikibase/client/i18n/api/%CODE%.json
 
 Wikibase - Lib
 file = Wikibase/lib/i18n/%CODE%.json

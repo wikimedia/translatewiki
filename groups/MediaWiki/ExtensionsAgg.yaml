@@ -137,6 +137,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-wikibase-client
+  label: Wikibase Client messages - all
+  description: '{{Special:MyLanguage/Translations:Group descriptions/wikibaseclient/en}}'
+
+GROUPS:
+  - ext-wikibase-client-*
+
+---
+BASIC:
   id: ext-wikibase-repo
   label: Wikibase Repo messages - all
   description: '{{Special:MyLanguage/Translations:Group descriptions/wikibaserepo/en}}'
