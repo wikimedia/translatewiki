@@ -108,7 +108,7 @@ class users {
       home       => '/home/ialex',
       comment    => 'Alexandre Emsenhuber';
     'robin': # Last login 2012-11-12
-      ensure     => present,
+      ensure     => absent,
       uid        => 1008,
       gid        => 'users',
       groups     => ['betawiki'],
@@ -128,7 +128,7 @@ class users {
       home       => '/home/huji',
       comment    => 'Huji Lee';
     'lcawte':
-      ensure     => present,
+      ensure     => absent,
       uid        => 1010,
       gid        => 'users',
       groups     => ['betawiki'],
@@ -148,7 +148,7 @@ class users {
       home       => '/home/amir',
       comment    => 'Amir Aharoni';
     'santhosh':
-      ensure     => present,
+      ensure     => absent,
       uid        => 1012,
       gid        => 'users',
       groups     => ['betawiki'],
@@ -238,7 +238,7 @@ class users {
       home       => '/home/bsitzmann',
       comment    => 'Bernd Sitzmann';
     'niedzielski':
-      ensure     => present,
+      ensure     => absent,
       uid        => 1021,
       gid        => 'users',
       groups     => ['betawiki', 'www-shared'],
@@ -258,7 +258,7 @@ class users {
       home       => '/home/bgerstle',
       comment    => 'Brian Gerstle (WMF)';
     'fjalapeno':
-      ensure     => present,
+      ensure     => absent,
       uid        => 1023,
       gid        => 'users',
       groups     => ['betawiki', 'www-shared'],
@@ -278,7 +278,7 @@ class users {
       type   => 'ssh-ed25519',
       key    => 'AAAAC3NzaC1lZDI1NTE5AAAAIHxdP9KdKSwuVpRaaevBbuCgPTV+2rvIe6Y57iOP57I6';
     'fjalapeno_ssh':
-      ensure => present,
+      ensure => absent,
       user   => 'fjalapeno',
       type   => 'rsa',
       key    => 'AAAAB3NzaC1yc2EAAAABIwAAAQEA0FskuPOIjhNL4BGfI9p9FyWLt6DM5hjVMqPSz/puQ96Q1/Q92CTHT5gfthLVla/J/j14wW8G2vvz4ZBC1j123xNM4jbLo2jtbKitSTjr4vVf+Q4KPZ3R2ow/dOoWutKuoNwBBRSBBjjPv/F38aQRba4GRBflKhdOCmn6tUeE/Sk8U7WC7oSIfv2cZ1OC+PP9xFuG7a3FgWflzS+hwDyL3LGRlGlK6k3kI2IyOEwYlaZe/BTGZpC7Af+B1ad7z6PlzpKGDIomvMr8Q6r7GjEnAQnVJtXkMxsT0j4gSbcyUQMoBCzRDe7BR4CkiZXljxrvCGkhATav5gGI2DKT/uijlw==';
