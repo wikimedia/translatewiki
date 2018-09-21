@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "c7c5c7e7_6e77d0ac",
+        "filename": "groups/Wikimedia/MapOfMonuments.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 2945
+      },
+      "writtenOn": "2018-09-21T19:13:59Z",
+      "side": 1,
+      "message": "My bad, sorry. Uploading a fixing patch.",
+      "parentUuid": "cc71f736_47dfb9b1",
+      "revId": "68f73e1168d05d1cece4f58e55f4bdb14f9983f9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b207b327_e9457d56",
         "filename": "repoconfig.yaml",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2018-09-21T17:24:55Z",
       "side": 1,
       "message": "Would this fit the intuition-tools section?",
+      "revId": "68f73e1168d05d1cece4f58e55f4bdb14f9983f9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f3219b68_11ad8812",
+        "filename": "repoconfig.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 2945
+      },
+      "writtenOn": "2018-09-21T19:13:59Z",
+      "side": 1,
+      "message": "If intiution-tools section is supposed to contain tools translated by Intuition framework, then no, because Map of Monuments do NOT use Intuition, but my own i18n library (Flask-JSONLocale), because I couldn\u0027t find anything else.",
+      "parentUuid": "b207b327_e9457d56",
       "revId": "68f73e1168d05d1cece4f58e55f4bdb14f9983f9",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
