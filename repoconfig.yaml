@@ -293,6 +293,15 @@ mantis:
       url: https://github.com/mantisbt/mantisbt.git
       url|export: git@github.com:mantisbt/mantisbt.git
 
+map-of-monuments:
+  group: map-of-monuments
+  auto-merge: labs/tools/map-of-monuments
+  repos:
+    map-of-monuments:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/map-of-monuments
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/map-of-monuments
+
 mathjax:
   group: out-mathjax-*
   repos:
