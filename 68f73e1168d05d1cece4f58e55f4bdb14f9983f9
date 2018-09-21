@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cc71f736_47dfb9b1",
+        "filename": "groups/Wikimedia/MapOfMonuments.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-09-21T17:24:55Z",
+      "side": 1,
+      "message": "Are you planning to share the prefix on purpose or just forgot to update?",
+      "revId": "68f73e1168d05d1cece4f58e55f4bdb14f9983f9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b207b327_e9457d56",
+        "filename": "repoconfig.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-09-21T17:24:55Z",
+      "side": 1,
+      "message": "Would this fit the intuition-tools section?",
+      "revId": "68f73e1168d05d1cece4f58e55f4bdb14f9983f9",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
