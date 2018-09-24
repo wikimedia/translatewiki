@@ -666,9 +666,9 @@ wikinity:
   group: wikinity
   repos:
     wikinity:
-      type: github
-      url: https://phabricator.wikimedia.org/source/tool-wikinity.git
-      url|export: ssh://vcs@git-ssh.wikimedia.org/source/tool-wikinity.git
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/wikinity
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/wikinity
 
 wikipedia-android:
   group: out-wikimedia-mobile-wikipedia-android-*
