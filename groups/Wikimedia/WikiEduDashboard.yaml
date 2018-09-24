@@ -34,7 +34,7 @@ AUTOLOAD:
 
 TAGS:
   ignored:
-    - wikiedudashboard-number.*
+    - wikiedudashboard-number.human.decimal_units.units.unit
     - wikiedudashboard-article.views_added
     - wikiedudasbhoard-tasks.*
     - wikiedudashboard-timeout
