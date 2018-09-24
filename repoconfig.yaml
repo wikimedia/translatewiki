@@ -616,6 +616,15 @@ waymarked-trails-site:
       url: https://github.com/lonvia/waymarked-trails-site.git
       url|export: git@github.com:lonvia/waymarked-trails-site.git
 
+weapon-of-mass-description:
+  group: weapon-of-mass-description
+  auto-merge: labs/tools/weapon-of-mass-description
+  repos:
+    weapon-of-mass-description:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/p/labs/tools/weapon-of-mass-description
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/weapon-of-mass-description
+
 # Note that this group is called "Revision Scoring" in the English web
 # interface.
 wiki-ai:
