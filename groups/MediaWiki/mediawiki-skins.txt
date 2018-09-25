@@ -9,6 +9,9 @@ Blue Sky
 optional = bluesky-breadcrumb-pointer
 ignored = bluesky-breadcrumbs-nsmain
 
+Blue Spice Calumma
+optional = notifications-badge-counter-gt-100
+
 Bouquet
 ignored = bouquet-navigation
 
