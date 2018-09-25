@@ -372,6 +372,9 @@ optional = bs-bssmwconnector-nmmngr-label-smw, bs-smwconnector-extendedsearch-sm
 Blue Spice Sub Page Tree
 descmsg = bs-subpagetree-desc
 
+Blue Spice Tag Cloud
+descmsg = bs-tagcloud-desc
+
 Blue Spice UE Module PDF
 descmsg = bs-uemodulepdf-desc
 
