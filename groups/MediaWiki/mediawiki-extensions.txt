@@ -1022,6 +1022,10 @@ ignored = form-template-pattern
 
 # Form Preload Post Cache // no i18n file
 
+Form Wizard
+aliasfile = FormWizard/FormWizard.alias.php
+magicfile = FormWizard/FormWizard.i18n.php
+
 Format Dates
 
 Formel Applet
