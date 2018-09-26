@@ -1619,6 +1619,8 @@ No Title
 
 Notebook Viewer
 
+Notes Link
+
 NS File Repo
 file = NSFileRepo/i18n/nsfilerepo/%CODE%.json
 
