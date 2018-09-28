@@ -1024,7 +1024,7 @@ ignored = form-template-pattern
 
 Form Wizard
 aliasfile = FormWizard/FormWizard.alias.php
-magicfile = FormWizard/FormWizard.i18n.php
+magicfile = FormWizard/FormWizard.magic.php
 
 Format Dates
 
