@@ -419,6 +419,10 @@ mwgithub:
       type: github
       url: https://github.com/miraheze/ManageWiki.git
       url|export: git@github.com:miraheze/ManageWiki.git
+    mwgithub/miraheze/MirahezeMagic:
+      type: github
+      url: https://github.com/miraheze/MirahezeMagic.git
+      url|export: git@github.com:miraheze/MirahezeMagic.git
     mwgithub/miraheze/WikiDiscover:
       type: github
       url: https://github.com/miraheze/WikiDiscover.git

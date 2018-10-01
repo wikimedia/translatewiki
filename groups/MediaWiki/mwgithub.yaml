@@ -432,3 +432,44 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/edwardspec/mediawiki-moderation/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-mirahezemagic-custom
+  label: Miraheze Magic Custom
+  description: "{{Special:MyLanguage/MediaWiki:Mirahezemagic-custom-mirahezemagic-description/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/MirahezeMagic/i18n/miraheze/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: mirahezemagic-custom-
+  patterns:
+    - "*"
+
+TAGS:
+  optional:
+    - mirahezemagic-custom-centralauth-groupname
+  ignored:
+    - mirahezemagic-custom-termsofservicepage
+    - mirahezemagic-custom-grouppage-*
+    - mirahezemagic-custom-sitesupport
+    - mirahezemagic-custom-sitesupport-url
+    - mirahezemagic-custom-tooltip-n-sitesupport
+
+---
+BASIC:
+  id: mwgithub-mirahezemagic-override
+  label: Miraheze Magic Override
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/MirahezeMagic/i18n/overrides/%CODE%.json"
+
+TAGS:
+  optional:
+    - miraheze-centralauth-groupname
+  ignored:
+    - miraheze-privacypage
