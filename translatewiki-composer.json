@@ -1,8 +1,8 @@
 {
 	"require": {
 		"mediawiki/maps": "^5",
-		"mediawiki/page-forms": "~4.0",
-		"mediawiki/semantic-media-wiki": "~2.5",
+		"mediawiki/page-forms": "^4.0",
+		"mediawiki/semantic-media-wiki": "^3.0.0-rc",
 		"romaricdrigon/metayaml": "~1.0"
 	},
 	"extra": {
