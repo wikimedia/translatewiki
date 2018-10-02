@@ -11,6 +11,7 @@ ignored = bluesky-breadcrumbs-nsmain
 
 Blue Spice Calumma
 optional = notifications-badge-counter-gt-100
+ignored = bs-sidebar-override, bs-allpages-url, bs-support-url
 
 Bouquet
 ignored = bouquet-navigation
