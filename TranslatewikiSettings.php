@@ -223,6 +223,7 @@ wfLoadExtensions( [
 	'I18nTags',
 	'Interwiki',
 	'LiquidThreads',
+	'LoginNotify',
 	'Nuke',
 	'OATHAuth',
 	'Renameuser',
