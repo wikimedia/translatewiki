@@ -161,6 +161,7 @@ TAGS:
     - smw-specials-browse-helplink
     - smw-format-list-separator
     - smw-format-list-*-separator
+    - smw-helplink-concepts
 ---
 BASIC:
   id: mwgithub-semanticmetatags
