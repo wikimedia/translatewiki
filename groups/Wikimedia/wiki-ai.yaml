@@ -94,3 +94,22 @@ MANGLER:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/wiki-ai/wikilabels-wikimedia-config/forms/i18n/edit_type/%CODE%.json"
+
+---
+BASIC:
+  id: wiki-ai-wikilabels-form-wp10
+  label: "Wikilabels form: article quality"
+  icon: wiki://Revision_Scoring_as_a_Service_logo.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/revscoring/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: wiki-ai-wikilabels-form-wp10-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wiki-ai/wikilabels-wikimedia-config/forms/i18n/wp10/%CODE%.json"
