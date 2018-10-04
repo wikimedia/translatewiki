@@ -182,6 +182,7 @@ $wgTranslateBlacklist = [
 	'roa-rup' => 'This language code should remain unused. Localise in rup nplease.',
 	'ruq' => 'This language code should remain unused. Localise in ruq-latn please.',
 	'simple' => 'This language code should remain unused.',
+	'skr' => 'This language code should remain unused. Localise in skr-arab please.',
 	'sr' => 'This language code should remain unused. Localise in sr-ec please.',
 	'tg' => 'This language code should remain unused. Localise in tg-cyrl please.',
 	'tp' => 'This language cannot be localised in translatewiki.net. It is not a valid language code.',
