@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b3c33e5b_1bc6a47a",
+        "filename": "groups/Wikimedia/WeaponOfMassDescription.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-10-04T13:17:06Z",
+      "side": 1,
+      "message": "This needs updating.",
+      "revId": "b4c89a61efc526ee6fc2b30d607b3a7d392bc09e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d4d03e0f_47a89d10",
+        "filename": "groups/Wikimedia/WeaponOfMassDescription.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-10-04T13:17:06Z",
+      "side": 1,
+      "message": "This needs updating, doesn\u0027t it?",
+      "revId": "b4c89a61efc526ee6fc2b30d607b3a7d392bc09e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
