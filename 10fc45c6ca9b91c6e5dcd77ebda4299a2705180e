@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d43c87ed_5e3ee356",
+        "filename": "repoconfig.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 302,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-10-04T13:21:02Z",
+      "side": 1,
+      "message": "l10n-bot",
+      "range": {
+        "startLine": 302,
+        "startChar": 24,
+        "endLine": 302,
+        "endChar": 31
+      },
+      "revId": "10fc45c6ca9b91c6e5dcd77ebda4299a2705180e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
