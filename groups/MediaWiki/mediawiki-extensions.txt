@@ -477,11 +477,11 @@ Cirrus Search
 
 Cite
 file = Cite/i18n/%CODE%.json
-optional = cite_reference_link_key_with_num, cite_reference_link_prefix, cite_reference_link_suffix, cite_references_link_prefix
-optional = cite_reference_link, cite_references_link_one, cite_references_link_many
-optional = cite_references_link_many_format, cite_references_link_many_format_backlink_labels, cite_references_link_many_sep, cite_references_link_many_and
+optional = cite_references_link_many_format_backlink_labels, cite_references_link_many_and
+ignored = cite_reference_link_prefix, cite_references_link_prefix, cite_references_link_many_sep
+ignored = cite_reference_link_key_with_num, cite_reference_link, cite_reference_link_suffix
+ignored = cite_references_link_one, cite_references_link_many, cite_references_link_many_format
 ignored = cite_references_no_link, cite_references_link_suffix
-ignored = cite_error_refs_without_references_category
 
 Cite - VisualEditor
 id = ext-cite-visualeditor
