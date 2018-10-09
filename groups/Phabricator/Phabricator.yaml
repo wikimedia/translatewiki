@@ -645,6 +645,9 @@ FILES:
   sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/settings/%CODE%.json'
 MANGLER:
   prefix: phabricator-settings-
+TAGS:
+  ignored:
+    - phabricator-settings-da39a3ee5e6b4b0d
 
 ---
 BASIC:
