@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "82681f48_e3597a31",
+        "filename": "groups/Wikimedia/CommonsMassDescription.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-10-10T14:17:43Z",
+      "side": 1,
+      "message": "wikimedia-commons-mass-description",
+      "range": {
+        "startLine": 4,
+        "startChar": 69,
+        "endLine": 4,
+        "endChar": 93
+      },
+      "revId": "63c7c14d8574232724401ac7a198e0dbefb0eeb1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
