@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fe34f280_f1cd3de3",
+        "filename": "groups/Wikimedia/MapOfMonuments.yaml",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-10-10T14:17:00Z",
+      "side": 1,
+      "message": "wikimedia-map-of-monuments",
+      "range": {
+        "startLine": 5,
+        "startChar": 69,
+        "endLine": 5,
+        "endChar": 85
+      },
+      "revId": "3282bde9ab99a912bbb746bf214f6ff208d4c848",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ecef7a6f_596cc018",
+        "filename": "groups/Wikimedia/MapOfMonuments.yaml",
+        "patchSetId": 6
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-10-10T14:17:00Z",
+      "side": 1,
+      "message": "Why? Usually sr defaults to sr-ec.",
+      "revId": "3282bde9ab99a912bbb746bf214f6ff208d4c848",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
