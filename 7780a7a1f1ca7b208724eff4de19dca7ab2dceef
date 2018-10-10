@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "658b9334_9d33ee23",
+        "filename": "groups/Wikimedia/WeaponOfMassDescription.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-10-10T14:18:41Z",
+      "side": 1,
+      "message": "wikimedia-weapon-of-mass-description",
+      "range": {
+        "startLine": 4,
+        "startChar": 69,
+        "endLine": 4,
+        "endChar": 95
+      },
+      "revId": "7780a7a1f1ca7b208724eff4de19dca7ab2dceef",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
