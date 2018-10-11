@@ -235,13 +235,10 @@ wfAddNamespace( 1206, 'Wikimedia' );
 $wgTranslateGroupFiles[] = "$GROUPS/wikidata/wikidata.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CitationHunt.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CommonsAndroid.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CommonsMassDescription.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CopyPatrol.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/crosswatch.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/GapFinder.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/GrantMetrics.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/MapOfMonuments.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ia-upload.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/InteractionTimeline.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/InternetArchiveBot.yaml";
@@ -249,7 +246,6 @@ $wgTranslateGroupAliases['out-jquery-uls'] = 'jquery-uls';
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Pageviews.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ProveIt.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/video2commons.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WeaponOfMassDescription.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/wiki-ai.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";
 $wgTranslateGroupAliases['out-wikiblame'] = 'wikiblame';
@@ -259,10 +255,14 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-android.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-ios.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaPortals.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Wikinity.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaTools.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikipediaLibrary.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/XTools.yaml";
 $wgTranslateGroupAliases['out-pageviews'] = 'pageviews';
+$wgTranslateGroupAliases['wikinity'] = 'wikimedia-tools-wikinity';
+$wgTranslateGroupAliases['int-heritage'] = 'wikimedia-tools-heritage';
+$wgTranslateGroupAliases['int-guc'] = 'wikimedia-tools-guc';
+$wgTranslateGroupAliases['crosswatch'] = 'wikimedia-tools-crosswatch';
 
 $wgTranslateSupportUrlNamespace[NS_WIKIMEDIA] = [
 	'url' => "$phabUrl?projects=i18n,Wikimedia-General-or-Unknown",

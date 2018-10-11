@@ -50,15 +50,6 @@ commons-android:
       url: https://github.com/commons-app/apps-android-commons.git
       url|export: git@github.com:commons-app/apps-android-commons.git
 
-commons-mass-description:
-  group: commons-mass-description
-  auto-merge: labs/tools/commons-mass-description
-  repos:
-    commons-mass-description:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/p/labs/tools/commons-mass-description
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/commons-mass-description
-
 copypatrol:
   group: copypatrol
   repos:
@@ -66,15 +57,6 @@ copypatrol:
       type: github
       url: https://github.com/wikimedia/CopyPatrol.git
       url|export: git@github.com:wikimedia/CopyPatrol.git
-
-crosswatch:
-  group: crosswatch
-  auto-merge: labs/tools/crosswatch
-  repos:
-    crosswatch:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/labs/tools/crosswatch
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/crosswatch
 
 dissemin:
   group: dissemin-*
@@ -215,20 +197,12 @@ intuition:
 
 intuition-tools:
   group: int-*
-  auto-merge: ^operations/dumps/dcat|labs/tools/guc|labs/tools/heritage
+  auto-merge: ^operations/dumps/dcat
   repos:
     int-dcatap:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/operations/dumps/dcat
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/dumps/dcat
-    int-guc:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/labs/tools/guc
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/guc
-    int-heritage:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/labs/tools/heritage
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/heritage
     int-orphantalk:
       type: github
       url: https://github.com/Krinkle/mw-tool-orphantalk.git
@@ -301,15 +275,6 @@ mantis:
       - codemaponly # Broken T187676
       url: https://github.com/mantisbt/mantisbt.git
       url|export: git@github.com:mantisbt/mantisbt.git
-
-map-of-monuments:
-  group: map-of-monuments
-  auto-merge: labs/tools/map-of-monuments
-  repos:
-    map-of-monuments:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/labs/tools/map-of-monuments
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/map-of-monuments
 
 mathjax:
   group: out-mathjax-*
@@ -625,15 +590,6 @@ waymarked-trails-site:
       url: https://github.com/lonvia/waymarked-trails-site.git
       url|export: git@github.com:lonvia/waymarked-trails-site.git
 
-weapon-of-mass-description:
-  group: weapon-of-mass-description
-  auto-merge: labs/tools/weapon-of-mass-description
-  repos:
-    weapon-of-mass-description:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/p/labs/tools/weapon-of-mass-description
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/weapon-of-mass-description
-
 # Note that this group is called "Revision Scoring" in the English web
 # interface.
 wiki-ai:
@@ -693,11 +649,38 @@ wikimedia-portals:
       url: https://gerrit.wikimedia.org/r/wikimedia/portals
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/portals
 
-wikinity:
-  group: wikinity
-  auto-merge: labs/tools/wikinity
+wikimedia-tools:
+  group: wikimedia-tools-*
+  # Gerrit query syntax does not allow inline alternatives nor intersections.
+  # Given this is also limited by owner, this does not match unwanted repos.
+  # https://review.openstack.org/Documentation/user-search.html#project
+  auto-merge: ^labs/tools/.*
   repos:
-    wikinity:
+    wikimedia-tools/commons-mass-description:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/p/labs/tools/commons-mass-description
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/commons-mass-description
+    wikimedia-tools/crosswatch:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/crosswatch
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/crosswatch
+    wikimedia-tools/guc:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/guc
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/guc
+    wikimedia-tools/heritage:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/heritage
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/heritage
+    wikimedia-tools/map-of-monuments:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/map-of-monuments
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/map-of-monuments
+    wikimedia-tools/weapon-of-mass-description:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/p/labs/tools/weapon-of-mass-description
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/weapon-of-mass-description
+    wikimedia-tools/wikinity:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/wikinity
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/wikinity

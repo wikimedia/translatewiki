@@ -1,0 +1,152 @@
+---
+BASIC:
+  id: wikimedia-tools-commons-mass-description
+  label: Commons Mass Description
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-commons-mass-description/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: commons-mass-description-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/commons-mass-description/messages/%CODE%.json"
+
+---
+BASIC:
+  id: wikimedia-tools-crosswatch
+  label: crosswatch
+  icon: wiki://Eye-Brown.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/Crosswatch/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: crosswatch-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/crosswatch/frontend/src/i18n/%CODE%.json"
+
+CHECKER:
+  class: CrosswatchMessageChecker
+  checks:
+    - CrosswatchVariablesCheck
+
+INSERTABLES:
+  class: CrosswatchInsertablesSuggester
+
+AUTOLOAD:
+  CrosswatchMessageChecker: crosswatchChecker.php
+  CrosswatchInsertablesSuggester: crosswatchSuggester.php
+
+---
+BASIC:
+  id: wikimedia-tools-guc
+  label: Global user contributions
+  namespace: NS_INTUITION
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: guc-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/guc/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - guc-title
+
+INSERTABLES:
+  class: NumericalParameterInsertablesSuggester
+
+---
+BASIC:
+  id: wikimedia-tools-heritage
+  label: Monuments API
+  namespace: NS_INTUITION
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: monumentsapi-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/heritage/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - monumentsapi-title
+
+INSERTABLES:
+  class: NumericalParameterInsertablesSuggester
+
+---
+BASIC:
+  id: wikimedia-tools-map-of-monuments
+  label: Map of Monuments
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-map-of-monuments/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: map-of-monuments-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/map-of-monuments/messages/%CODE%.json"
+
+---
+BASIC:
+  id: wikimedia-tools-weapon-of-mass-description
+  label: Weapon of Mass Description
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-weapon-of-mass-description/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: weapon-of-mass-description-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/weapon-of-mass-description/messages/%CODE%.json"
+
+---
+BASIC:
+  id: wikimedia-tools-wikinity
+  label: Wikinity
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikinity/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikinity-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/wikinity/messages/%CODE%.json"
+  codeMap:
+    sr-el: sr
