@@ -289,7 +289,7 @@ mantis:
     mantis:
       type: github
       options:
-      - codemaponly
+      - codemaponly # Broken T187676
       url: https://github.com/mantisbt/mantisbt.git
       url|export: git@github.com:mantisbt/mantisbt.git
 
