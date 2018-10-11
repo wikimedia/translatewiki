@@ -668,6 +668,7 @@ wikimedia-portals:
 
 wikinity:
   group: wikinity
+  auto-merge: labs/tools/wikinity
   repos:
     wikinity:
       type: wmgerrit
