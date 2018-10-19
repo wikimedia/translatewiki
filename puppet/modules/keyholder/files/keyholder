@@ -1,0 +1,99 @@
+#!/bin/bash
+# managed by puppet
+# keyholder -- Manage shared SSH agent
+
+command=$1; shift
+
+show_usage() {
+  /bin/echo >&2 "keyholder -- Manage shared SSH agent
+
+  keyholder status
+    Lists service status and the fingerprints of all identities
+    currently represented by the agent
+
+  keyholder add KEY
+    Add a private key identity to the agent
+
+  keyholder arm
+    Add all keys in /etc/keyholder.d
+
+  keyholder disarm
+    Deletes all identities from the agent
+
+  keyholder start/stop/restart
+    Start / stop / restart the keyholder service
+  "
+  exit 1
+}
+
+KEYHOLDERCONF="/etc/keyholder-auth.d/keyholder.conf"
+REQUIRE_ENCRYPTED_KEYS="yes"
+
+[ -f "$KEYHOLDERCONF" ] && source "$KEYHOLDERCONF"
+
+is_valid_private_key() {
+  [ $REQUIRE_ENCRYPTED_KEYS == "yes" ] || return 0;
+
+  [ -f "$1" ] || return 1
+  # Check that the key is one of RSA, ED25519
+  /usr/bin/ssh-keygen -l -f "$1" | /bin/egrep -q '\((RSA|ED25519)\)$' || return 1
+  # Temporary change permission of the file to avoid unprotected private file error
+  PERM=$(stat -c "%a" "$1")
+  chmod 0400 "$1"
+  RETURN=0
+  # Check that the key is a password-protected private key file.
+  /usr/bin/ssh-keygen -y -f "$1" -P "" 2>&1 | /bin/grep -Eq "load failed|incorrect passphrase" || RETURN=1
+  # Restore permissions
+  chmod 0$PERM "$1"
+  return $RETURN
+}
+
+is_root()       { [ "$EUID" -eq 0 -o ! -z "$SUDO_COMMAND" ] ; }
+can_sudo()      { /usr/bin/groups | /bin/grep -qw sysadmin ; }
+requires_root() { is_root || { sudo $0 "$command" ; exit $? ; } ; }
+prefers_root()  { ! is_root && can_sudo && { sudo $0 "$command" ; exit $? ; } ; }
+
+case "$command" in
+  status)
+    prefers_root
+    for service in agent proxy; do
+      if [ -x "/bin/systemctl" ]; then  # systemd
+          echo -e "keyholder-${service}: \c"
+          /bin/systemctl is-active "keyholder-${service}" || continue
+      elif [ -x "/sbin/status" ]; then # upstart
+          /sbin/status "keyholder-${service}" || continue
+      fi
+      [ -r "/run/keyholder/${service}.sock" ] || continue
+      SSH_AUTH_SOCK="/run/keyholder/${service}.sock" /usr/bin/ssh-add -l | sed 's/^/- /'
+    done
+    ;;
+  list-keys)
+    prefers_root
+    SSH_AUTH_SOCK="/run/keyholder/agent.sock" /usr/bin/ssh-add -l | sed 's/^[0-9]* //'
+    ;;
+  add)
+    requires_root
+    SSH_AUTH_SOCK=/run/keyholder/agent.sock /usr/bin/sudo -u keyholder -E /usr/bin/ssh-add "$@"
+    ;;
+  arm)
+    requires_root
+    KEYS=""
+    for key in /etc/keyholder.d/*; do
+      [[ $key = *.pub ]] && continue
+      is_valid_private_key "$key" || ( echo "$key is not an acceptable key. Is it an RSA or ED25519 key with passphrase?"; exit 1 ) || continue
+      KEYS="$KEYS $key"
+    done
+    $0 add $KEYS
+    ;;
+  disarm)
+    requires_root
+    SSH_AUTH_SOCK=/run/keyholder/agent.sock /usr/bin/sudo -u keyholder -E /usr/bin/ssh-add -D
+    ;;
+  start|stop|restart)
+    requires_root
+    service keyholder-agent "${command}"
+    ;;
+  *)
+    show_usage
+    ;;
+esac

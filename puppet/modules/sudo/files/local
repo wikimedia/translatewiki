@@ -1,7 +1,5 @@
 # file managed by puppet
-nike            ALL = NOPASSWD: ALL
-siebrand        ALL = NOPASSWD: ALL
-mah             ALL = NOPASSWD: ALL
+%sysadmin       ALL = NOPASSWD: ALL
 %betawiki       ALL = (betawiki) NOPASSWD: ALL
 %betawiki       ALL = NOPASSWD: /usr/sbin/service mw-jobrunner restart
 %betawiki       ALL = NOPASSWD: /usr/sbin/service php7.1-fpm reload

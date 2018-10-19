@@ -20,16 +20,12 @@ _b=$(tput bold)
 b_=$(tput sgr0)
 
 (
-	eval "$(ssh-agent -s)"
-	trap "ssh-agent -k" INT TERM EXIT
-	ssh-add /home/betawiki/id_rsa
-
 	for i in $PROJECTS; do
 		echo "${_b}$i${b_}"
 		{
-			"$DIRSCRIPT/repoupdate" "$i" &&
+			"$DIRSCRIPT/l10n-bot" "$DIRSCRIPT/repoupdate" "$i" &&
 			"$DIRSCRIPT/repoexport" "$i" &&
-			"$DIRSCRIPT/repocommit" "$i"
+			"$DIRSCRIPT/l10n-bot" "$DIRSCRIPT/repocommit" "$i"
 		} || :
 	done
 )

@@ -1,9 +1,4 @@
 #!/bin/sh
 set -o nounset -o errexit
 
-(
-	eval $(ssh-agent -s)
-	trap "ssh-agent -k" INT TERM EXIT
-	ssh-add /home/betawiki/id_rsa
-	$@
-)
+SSH_AUTH_SOCK=/run/keyholder/proxy.sock $@

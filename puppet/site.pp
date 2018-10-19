@@ -35,6 +35,11 @@ node 'web1.translatewiki.net' {
     user   => 'betawiki',
   }
 
+  ::keyholder::agent { 'l10n-bot':
+    trusted_groups => ['l10n-bot'],
+    priv_key_path => '/root/keyholder/l10n-bot',
+  }
+
   sysctl { 'net.ipv4.tcp_window_scaling': value => '1' }
   sysctl { 'net.ipv4.tcp_slow_start_after_idle': value => '0' }
   sysctl { 'net.ipv4.tcp_fastopen': value => '3' }
