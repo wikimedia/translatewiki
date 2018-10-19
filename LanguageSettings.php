@@ -121,5 +121,4 @@ $wgExtraLanguageNames['yrl'] = 'ñe\'engatú'; # Nheengatu / Siebrand 2008-04-06
 $wgExtraLanguageNames['yua'] = 'Maaya T\'aan'; # Yucatán Maya / Siebrand 2011-04-09
 $wgExtraLanguageNames['zgh'] = 'ⵜⴰⵎⴰⵣⵉⵖⵜ'; # Standard Moroccan Tamazight / Siebrand 2014-03-11
 $wgExtraLanguageNames['es-mx'] = 'español de México'; # Mexico; for iNaturalist
-$wgExtraLanguageNames['es-ni'] = 'español nicaragüense'; # Nicaraguan Spanish
 $wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages

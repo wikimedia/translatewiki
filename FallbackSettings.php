@@ -34,7 +34,6 @@ $wgTranslateLanguageFallbacks['dty'] = [ 'ne' ];
 $wgTranslateLanguageFallbacks['egl'] = [ 'it', 'rgn' ];
 $wgTranslateLanguageFallbacks['es-formal'] = 'es';
 $wgTranslateLanguageFallbacks['es-mx'] = 'es';
-$wgTranslateLanguageFallbacks['es-ni'] = 'es'; # Siebrand 2017-05-20
 $wgTranslateLanguageFallbacks['et'] = 'fi';
 $wgTranslateLanguageFallbacks['fax'] = 'es';
 $wgTranslateLanguageFallbacks['fi'] = [ 'de', 'sv', 'et', 'vro' ];
