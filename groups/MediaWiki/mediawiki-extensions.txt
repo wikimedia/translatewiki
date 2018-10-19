@@ -1404,6 +1404,8 @@ Loop Functions
 descmsg = loopfunc-desc
 
 Loops
+ignored = loops-limitreport-count-unlimited-value
+optional = loops-limitreport-count-limited-value
 
 Mad Lib
 
