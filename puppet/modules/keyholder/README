@@ -1,0 +1,3 @@
+This module has been copied from the URL below, with small modifications to make it
+work independently and on Ubuntu.
+https://github.com/wikimedia/puppet/tree/f51428239f80288c3a37bdef88665c941238f926/modules/keyholder
