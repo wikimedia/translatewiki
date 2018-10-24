@@ -1156,6 +1156,8 @@ GraphViz
 
 Groups Sidebar
 
+Growth Experiments
+
 Guided Tour
 optional = guidedtour-tour-test-wikitext-description
 
