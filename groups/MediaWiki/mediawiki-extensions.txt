@@ -461,6 +461,9 @@ Change Author
 aliasfile = ChangeAuthor/ChangeAuthor.alias.php
 optional = changeauthor-rev
 
+Change User Passwords
+aliasfile = ChangeUserPasswords/ChangeUserPasswords.i18n.alias.php
+
 Char Insert
 #magicfile = CharInsert/CharInsert.i18n.magic.php
 
@@ -1483,6 +1486,7 @@ magicfile = MetaMaster/MetaMaster.i18n.magic.php
 Minimum Name Length
 
 Minty Docs
+aliasfile = MintyDocs/MintyDocs.i18n.alias.php
 
 Mixed Namespace Search Suggestions
 descmsg = mnss-desc
