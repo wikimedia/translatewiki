@@ -68,7 +68,7 @@ GROUPS:
 BASIC:
   id: ext-contenttranslation-0-all
   label: Content Translation messages - all
-  description: '{{Special:MyLanguage/Translations:Group descriptions/contenttranslation/en}}'
+  description: '{{Special:MyLanguage/MediaWiki:Cx-desc/en}}'
 
 GROUPS:
   - ext-contenttranslation
@@ -78,7 +78,7 @@ GROUPS:
 BASIC:
   id: ext-echo
   label: Echo
-  description: '{{Special:MyLanguage/Translations:Group descriptions/echo/en}}'
+  description: '{{Special:MyLanguage/MediaWiki:Echo-desc/en}}'
 
 GROUPS:
   - ext-echo-interface
@@ -88,7 +88,7 @@ GROUPS:
 BASIC:
   id: ext-flow-0-all
   label: Flow messages - all
-  description: '{{Special:MyLanguage/Translations:Group descriptions/flow/en}}'
+  description: '{{Special:MyLanguage/MediaWiki:Flow-desc/en}}'
 
 GROUPS:
   - ext-flow
@@ -98,7 +98,7 @@ GROUPS:
 BASIC:
   id: ext-timedmediahandler
   label: Timed Media Handler messages - all
-  description: '{{Special:MyLanguage/Translations:Group descriptions/timedmediahandler/en}}'
+  description: '{{Special:MyLanguage/MediaWiki:Timedmediahandler-desc/en}}'
 
 GROUPS:
   - ext-timedmediahandler-*
@@ -107,7 +107,7 @@ GROUPS:
 BASIC:
   id: ext-translate-0-all
   label: Translate messages - all
-  description: '{{Special:MyLanguage/Translations:Group descriptions/translate/en}}'
+  description: '{{Special:MyLanguage/MediaWiki:Translate-desc/en}}'
 
 GROUPS:
   - ext-translate-*
@@ -139,7 +139,7 @@ GROUPS:
 BASIC:
   id: ext-wikibase-client
   label: Wikibase Client messages - all
-  description: '{{Special:MyLanguage/Translations:Group descriptions/wikibaseclient/en}}'
+  description: '{{Special:MyLanguage/MediaWiki:Wikibase-client-desc/en}}'
 
 GROUPS:
   - ext-wikibase-client-*
@@ -148,7 +148,7 @@ GROUPS:
 BASIC:
   id: ext-wikibase-repo
   label: Wikibase Repo messages - all
-  description: '{{Special:MyLanguage/Translations:Group descriptions/wikibaserepo/en}}'
+  description: '{{Special:MyLanguage/MediaWiki:Wikibase-desc/en}}'
 
 GROUPS:
   - ext-wikibase-repo-*
