@@ -615,9 +615,6 @@ FILES:
 
 TAGS:
   ignored:
-    - api-help-fallback-description
-    - api-help-fallback-parameter
-    - api-help-fallback-example
     - api-help-flags
     - api-help-help-urls
     - api-help-no-extended-description

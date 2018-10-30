@@ -68,6 +68,8 @@ All Time Zones
 
 Anchor Handler
 
+# Anon Privacy // 2018-10-26: Empty repo
+
 Anti Spoof
 ignored = antispoof-conflict-item, antispoof-bad-char-non-printable
 optional = antispoof-bad-char
@@ -648,6 +650,8 @@ ignored = cookiewarning-more-link
 Copy To Clipboard
 
 Copyvio
+
+# Count Down Clock // 2018-10-26: Empty repo
 
 Create Page
 aliasfile = CreatePage/CreatePage.alias.php
@@ -2470,6 +2474,7 @@ optional = twnmp-stats-number-k
 Two Col Conflict
 aliasfile = TwoColConflict/TwoColConflict.alias.php
 descmsg = twocolconflict-desc
+ignored = twocolconflict-split-saved-at
 
 # UI Feedback # incomplete qqq
 
