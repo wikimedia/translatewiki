@@ -1165,10 +1165,11 @@ Groups Sidebar
 
 Growth Experiments
 file = GrowthExperiments/i18n/extension/%CODE%.json
+aliasfile = GrowthExperiments/GrowthExperiments.alias.php
 
-# Waiting for confirmation by the Growth team
-# Growth Experiments - Welcome Survey
-# file = GrowthExperiments/i18n/welcomesurvey/%CODE%.json
+Growth Experiments - Welcome Survey
+id = growthexperiments-welcomesurvey
+file = GrowthExperiments/i18n/welcomesurvey/%CODE%.json
 
 Guided Tour
 optional = guidedtour-tour-test-wikitext-description
