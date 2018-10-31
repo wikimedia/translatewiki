@@ -306,7 +306,7 @@ descmsg = bs-insertfile-desc
 
 Blue Spice Insert Link
 descmsg = bs-insertlink-desc
-aliasfile = BlueSpiceInsertLink/InsertLink.alias.php
+aliasfile = BlueSpiceInsertLink/languages/InsertLink.alias.php
 
 Blue Spice Insert Magic
 descmsg = bs-insertmagic-desc
