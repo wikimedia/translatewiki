@@ -1166,6 +1166,8 @@ Groups Sidebar
 Growth Experiments
 file = GrowthExperiments/i18n/extension/%CODE%.json
 aliasfile = GrowthExperiments/GrowthExperiments.alias.php
+ignored = welcomesurvey-sidebar-editing-link3-text, welcomesurvey-sidebar-editing-link3-title
+ignored = welcomesurvey-sidebar-editing-link4-text, welcomesurvey-sidebar-editing-link4-title
 
 Growth Experiments - Welcome Survey
 id = ext-growthexperiments-welcomesurvey
