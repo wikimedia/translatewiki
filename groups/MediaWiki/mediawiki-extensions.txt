@@ -1168,7 +1168,7 @@ file = GrowthExperiments/i18n/extension/%CODE%.json
 aliasfile = GrowthExperiments/GrowthExperiments.alias.php
 
 Growth Experiments - Welcome Survey
-id = growthexperiments-welcomesurvey
+id = ext-growthexperiments-welcomesurvey
 file = GrowthExperiments/i18n/welcomesurvey/%CODE%.json
 
 Guided Tour
