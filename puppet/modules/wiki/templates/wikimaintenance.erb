@@ -2,6 +2,6 @@
 @weekly www-data find /www/translatewiki.net/docroot/images/thumb/ -name "*.png" -type f -print0 | nice xargs -0 -P4 -I{} optipng -o7 {} 1> /dev/null
 @weekly <%= @user %> nice php /srv/mediawiki/targets/production/maintenance/generateSitemap.php --fspath /www/translatewiki.net/docroot/sitemap/ --skip-redirects --urlpath https://translatewiki.net/sitemap/
 @weekly <%= @user %> nice php /srv/mediawiki/targets/production/maintenance/updateSpecialPages.php -q
-48 6,8,10,12,14,16,18,20,22 * * * <%= @user %> <%= @config %>/bin/autoimport > /dev/null
+30 */2 * * * <%= @user %> <%= @config %>/bin/autoimport > /dev/null
 48 7,13,21 * * * <%= @user %> <%= @config %>/bin/autoimport-mediawiki > /dev/null
 */10 * * * * root test -z "$(/bin/systemctl status mw-jobrunner | grep running -o)" && <%= @config %>/bin/udpcast JobQueue is not running
