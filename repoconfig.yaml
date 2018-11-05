@@ -265,6 +265,10 @@ libremesh:
       type: github
       url: https://github.com/translation-bridge/chef.git
       url|export: git@github.com:translation-bridge/chef.git
+    libremesh/lime-docs:
+      type: github
+      url: https://github.com/translation-bridge/lime-docs.git
+      url|export: git@github.com:translation-bridge/lime-docs.git
 
 mantis:
   group: out-mantis*

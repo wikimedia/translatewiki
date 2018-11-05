@@ -61,3 +61,39 @@ MANGLER:
   prefix: webui-
   patterns:
     - "*"
+
+---
+BASIC:
+  id: libremesh-limedocs-01
+  label: "LibreMesh - Booklet 1: Networks"
+  namespace: NS_LIBREMESH
+  class: FileBasedMessageGroup
+
+FILES:
+  class: GettextFFS
+  definitionFile: "%GROUPROOT%/libremesh/lime-docs/Booklet-01-Networks/01.en.pot"
+  sourcePattern: "%GROUPROOT%/libremesh/lime-docs/Booklet-01-Networks/01.%CODE%.po"
+
+MANGLER:
+  class: StringMatcher
+  prefix: limedocs-01-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: libremesh-limedocs-02
+  label: "LibreMesh - Booklet 2: Planning"
+  namespace: NS_LIBREMESH
+  class: FileBasedMessageGroup
+
+FILES:
+  class: GettextFFS
+  definitionFile: "%GROUPROOT%/libremesh/lime-docs/Booklet-02-Planning/02.en.pot"
+  sourcePattern: "%GROUPROOT%/libremesh/lime-docs/Booklet-02-Planning/02.%CODE%.po"
+
+MANGLER:
+  class: StringMatcher
+  prefix: limedocs-02-
+  patterns:
+    - "*"
