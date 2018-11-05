@@ -221,8 +221,8 @@ intuition-tools:
       url|export: git@github.com:Krinkle/intuition-web.git
     int-commtech-commons:
       type: github
-      url: https://github.com/MaxSem/CommonsNotifier.git
-      url|export: git@github.com:MaxSem/CommonsNotifier.git
+      url: https://github.com/wikimedia/CommonsNotifier.git
+      url|export: git@github.com:wikimedia/CommonsNotifier.git
 
 jquery.uls:
   group: jquery-uls
