@@ -68,7 +68,7 @@ All Time Zones
 
 Anchor Handler
 
-# Anon Privacy // 2018-10-26: Empty repo
+Anon Privacy
 
 Anti Spoof
 ignored = antispoof-conflict-item, antispoof-bad-char-non-printable
