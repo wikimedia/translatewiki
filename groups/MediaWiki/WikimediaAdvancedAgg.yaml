@@ -68,7 +68,6 @@ GROUPS:
   - ext-parsermigration # All wikis https://phabricator.wikimedia.org/rOMWCc5875c90fdd32f4c6773cb07e89804b633a2000f
   - ext-parsoidbatchapi # All wikis
   - ext-performanceinspector
-  - ext-petition # 2014-04-22: Foundationwiki
   - ext-poem
   - ext-proofreadpage # Wikisource
   - ext-propertysuggester # https://phabricator.wikimedia.org/rOMWC8612a69333853901fa04dcc377ce58d0879782d0
