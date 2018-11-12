@@ -1,0 +1,5 @@
+#!/bin/bash
+set -o nounset -o pipefail -o errexit
+
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
+sudo -u betawiki "$DIRSCRIPT/wikiupdate-repo" /home/betawiki/config

@@ -11,7 +11,7 @@ REV=$(git log --pretty="%h %ci (%cr)" -n 1)
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Updating config ***"
-sudo -u betawiki "$DIRSCRIPT/wikiupdate-repo" /home/betawiki/config
+"$DIRSCRIPT/twn-update-config"
 
 sudo -H -u betawiki "$DIRSCRIPT/wikiupdate" "$WIKI"
 
