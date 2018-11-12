@@ -370,6 +370,10 @@ mwgithub:
       type: github
       url: https://github.com/Hutchy68/Purge.git
       url|export: git@github.com:Hutchy68/Purge.git
+    mwgithub/jeblad/LangCodeOverride:
+      type: github
+      url: https://github.com/jeblad/LangCodeOverride.git
+      url|export: git@github.com:jeblad/LangCodeOverride.git
     mwgithub/jeblad/Pickle:
       type: github
       url: https://github.com/jeblad/Pickle.git

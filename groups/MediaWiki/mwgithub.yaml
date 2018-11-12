@@ -351,6 +351,16 @@ TAGS:
 
 ---
 BASIC:
+  id: mwgithub-langcodeoverride
+  label: Lang Code Override
+  description: "{{Special:MyLanguage/MediaWiki:lang-code-override-desc-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/jeblad/LangCodeOverride/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-purge
   label: Purge
   description: "{{Special:MyLanguage/MediaWiki:purge-descriptionmsg/en}}"
