@@ -5,7 +5,7 @@ U="L10n-bot <l10n-bot@translatewiki.net>"
 GERRIT=("l10n-bot@gerrit.wikimedia.org" -p 29418)
 
 ssh "${GERRIT[@]}" gerrit query --format=TEXT "owner:$U" "project:$1" status:open |
-grep '  url:'  |
+(grep '  url:' || true) | # Handle pipefail from grep
 cut -d/ -f5 |
 sort |
 xargs -I ____ ssh "${GERRIT[@]}" gerrit review ____,1 --code-review 2
