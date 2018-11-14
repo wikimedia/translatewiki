@@ -2810,6 +2810,7 @@ prefix = wmf- | grouppage-staff, group-staff, group-staff-member
 prefix = wmf- | group-patroller, group-patroller-member, grouppage-patroller
 prefix = wmf- | createacct-captcha-help-url
 prefix = wmf- | search-interwiki-custom
+prefix = wmf- | wikibase-page-schema-publisher-name, wikibase-page-schema-publisher-logo-url, wikibase-page-schema-author-name
 
 Wikimedia Code of Conduct
 file = WikimediaMessages/i18n/codeofconduct/%CODE%.json
