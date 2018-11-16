@@ -2679,6 +2679,10 @@ descmsg = apiow-desc
 Wiki Love
 optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
 
+Wiki Love - API
+id = ext-wikilove-api
+file = WikiLove/i18n/api/%CODE%.json
+
 Wiki Loves Monuments
 
 Wiki Text Logged In Out
