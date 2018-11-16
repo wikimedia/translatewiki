@@ -38,6 +38,16 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-cirrussearch-0-all
+  label: Universal Language Selector messages - all
+  description: '{{Special:MyLanguage/Translations:Group descriptions/cirrussearch/en}}'
+
+GROUPS:
+  - ext-cirrussearch
+  - ext-cirrussearch-api
+
+---
+BASIC:
   id: ext-flaggedrevs-0-all
   label: Flagged Revs messages - all
   description: '{{Special:MyLanguage/Translations:Group descriptions/flaggedrevs/en}}'

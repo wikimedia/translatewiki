@@ -490,6 +490,10 @@ optional = group-checkuser.css, group-checkuser.js
 
 Cirrus Search
 
+Cirrus Search - API
+id = ext-cirrussearch-api
+file = CirrusSearch/i18n/api/%CODE%.json
+
 Cite
 file = Cite/i18n/%CODE%.json
 optional = cite_references_link_many_format_backlink_labels, cite_references_link_many_and
