@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b51f6a27_b5dad77c",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 2683,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2018-11-17T07:03:49Z",
+      "side": 1,
+      "message": "shall be \"id \u003d ext-wikilove-api\"",
+      "revId": "9a6814f784432fa594de2b19e5410e74a26ee8de",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
