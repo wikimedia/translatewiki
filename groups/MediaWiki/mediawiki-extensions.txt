@@ -2355,7 +2355,12 @@ Text Extracts
 Text Scroller
 
 Thanks
+id = ext-thanks-user
 aliasfile = Thanks/Thanks.alias.php
+
+Thanks - API
+id = ext-thanks-api
+file = Thanks/i18n/api/%CODE%.json
 
 Theme
 

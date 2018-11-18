@@ -106,6 +106,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-thanks
+  label: Thanks messages - all
+
+GROUPS:
+  - ext-thanks-user
+  - ext-thanks-api
+
+---
+BASIC:
   id: ext-timedmediahandler
   label: Timed Media Handler messages - all
   description: '{{Special:MyLanguage/MediaWiki:Timedmediahandler-desc/en}}'

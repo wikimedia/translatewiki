@@ -49,7 +49,7 @@ GROUPS:
   - ext-popups # 2014-03-19
   - ext-sitematrix
   - ext-spamblacklist
-  - ext-thanks
+  - ext-thanks-user
   - ext-templatedata
   - ext-timedmediahandler-user
   - ext-timedmediahandler-embedplayer
