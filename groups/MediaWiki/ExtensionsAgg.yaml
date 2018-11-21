@@ -106,6 +106,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-scribunto
+  label: Scribunto messages - all
+
+GROUPS:
+  - ext-scribunto-user
+  - ext-scribunto-api
+
+---
+BASIC:
   id: ext-thanks
   label: Thanks messages - all
 

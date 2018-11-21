@@ -2101,10 +2101,15 @@ optional = score-visualeditor-mwscoreinspector-lang-abc, score-visualeditor-mwsc
 Screenplay
 
 Scribunto
+id = ext-scribunto-user
 magicfile = Scribunto/Scribunto.magic.php
 optional = scribunto-lua-backtrace-line
 optional = scribunto-limitreport-virtmemusage-value, scribunto-limitreport-memusage-value, scribunto-limitreport-profile-percent
 ignored = scribunto-doc-page-show, scribunto-limitreport-estmemusage-value
+
+Scribunto - API
+id = ext-scribunto-api
+file = Scribunto/i18n/api/%CODE%.json
 
 Search Extra NS
 

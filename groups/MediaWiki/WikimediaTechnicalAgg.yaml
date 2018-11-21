@@ -16,6 +16,7 @@ GROUPS:
   - ext-flaggedrevs-api
   - ext-flow-api
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
+  - ext-scribunto-api
   - ext-thanks-api
   - ext-timedmediahandler-api
   - ext-translate-api
