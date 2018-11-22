@@ -484,9 +484,14 @@ Char Range Span
 Checkpoint
 
 Check User
+id = ext-checkuser-user
 aliasfile = CheckUser/CheckUser.alias.php
 ignored = checkuser-toollinks, checkuser-userlinks-ip
 optional = group-checkuser.css, group-checkuser.js
+
+Check User - API
+id = ext-checkuser-api
+file = CheckUser/i18n/api/%CODE%.json
 
 Cirrus Search
 

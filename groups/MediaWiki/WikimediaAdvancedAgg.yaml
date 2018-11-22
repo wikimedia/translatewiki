@@ -15,7 +15,7 @@ GROUPS:
   - ext-centralauth
   - ext-centralnotice
   - ext-charinsert
-  - ext-checkuser # Only advanced users
+  - ext-checkuser-user
   - ext-cldr
   - ext-codeeditor
   - ext-codemirror

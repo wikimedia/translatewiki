@@ -38,6 +38,16 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-checkuser
+  label: CheckUser messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Checkuser-desc/en}}'
+
+GROUPS:
+  - ext-checkuser-*
+
+---
+
+BASIC:
   id: ext-cirrussearch-0-all
   label: Universal Language Selector messages - all
   description: '{{Special:MyLanguage/Translations:Group descriptions/cirrussearch/en}}'
