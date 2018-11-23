@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ebc80b8_0f7ab262",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-11-23T23:42:40Z",
+      "side": 1,
+      "message": "One last thing: The value here must be \u0027{{Special:MyLanguage/MediaWiki:Checkuser-desc/en}}\u0027. See the example in the Timed Media Handler extension (here in the same file). I also edited the instructions in the description of bug 189982 to clarify this.",
+      "revId": "4f2b2f8e42c85aafdc55ef550b1d505c91b8549c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
