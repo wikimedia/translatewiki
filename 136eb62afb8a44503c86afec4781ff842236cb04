@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "92deb4e1_4decc51e",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-11-23T23:06:22Z",
+      "side": 1,
+      "message": "Instead of these two lines, you can have something simpler: ext-checkuser-*",
+      "revId": "136eb62afb8a44503c86afec4781ff842236cb04",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8b2c396a_727df114",
+        "filename": "groups/MediaWiki/WikimediaAdvancedAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-11-23T23:06:22Z",
+      "side": 1,
+      "message": "This must now be removed. This is the point of splitting: the \"-api\" group goes to the WikimediaTechnicalAgg file, and the \"-user\" group goes to one of the others: Advanced, Main, etc.",
+      "range": {
+        "startLine": 18,
+        "startChar": 8,
+        "endLine": 18,
+        "endChar": 17
+      },
+      "revId": "136eb62afb8a44503c86afec4781ff842236cb04",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7274a4e6_fb841b3f",
+        "filename": "groups/MediaWiki/WikimediaAdvancedAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-11-23T23:06:22Z",
+      "side": 1,
+      "message": "\"-api\" must go to the Technical group. \"-user\" is supposed to be here.",
+      "revId": "136eb62afb8a44503c86afec4781ff842236cb04",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
