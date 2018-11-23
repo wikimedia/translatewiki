@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9fab8ecd_e262751f",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-11-23T19:53:32Z",
+      "side": 1,
+      "message": "The 0-all naming is deprecated and shouldn\u0027t be used for new aggregate groups. Please use the naming as in I7d78958232089a9c5f4fa340aa6e1b2bf8e2c931 . The aggregate group name must be ext-checkuser, as the original group, and the new groups must be ext-checkuser-user and ext-checkuser-api.\n\n(And yes, this also shouldn\u0027t have been done for CirrusSearch. I made a mistake when I merged it, but at least let\u0027s not repeat the mistake here.)",
+      "revId": "67ee6d66dffb04be52ed35f16f58a0b96cc76af5",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "83d9a29a_7fc978d6",
+        "filename": "groups/MediaWiki/WikimediaTechnicalAgg.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-11-23T19:53:32Z",
+      "side": 1,
+      "message": "This must be a minus, not an asterisk.",
+      "revId": "67ee6d66dffb04be52ed35f16f58a0b96cc76af5",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
