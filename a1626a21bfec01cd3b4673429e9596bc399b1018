@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c9714369_1cf47463",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-11-25T05:45:22Z",
+      "side": 1,
+      "message": "In all the other groups there\u0027s an empty line before ---",
+      "revId": "a1626a21bfec01cd3b4673429e9596bc399b1018",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
