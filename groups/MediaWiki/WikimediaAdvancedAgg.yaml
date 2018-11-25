@@ -91,6 +91,7 @@ GROUPS:
   - ext-templatestyles
   - ext-templatewizard # https://phabricator.wikimedia.org/rOMWCc3bc393d46e12116fe4c9b3aee99664cd4d13f24
   - ext-textextracts
+  - ext-titleblacklist-user
   - ext-translate-core
   - ext-translate-pagetranslation
   - ext-translate-search

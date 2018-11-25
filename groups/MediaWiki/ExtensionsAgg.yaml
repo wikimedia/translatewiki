@@ -143,6 +143,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-titleblacklist
+  label: Title Blacklist messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Titleblacklist-desc/en}}'
+
+GROUPS:
+  - ext-titleblacklist-*
+
+---
+BASIC:
   id: ext-translate-0-all
   label: Translate messages - all
   description: '{{Special:MyLanguage/MediaWiki:Translate-desc/en}}'

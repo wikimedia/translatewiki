@@ -2442,6 +2442,11 @@ ignored = timezoneselector-message-short
 # Tiny MCE // 2018-06-16: No qqq
 
 Title Blacklist
+id = ext-titleblacklist-user
+
+Title Blacklist - API
+id = ext-titleblacklist-api
+file = TitleBlacklist/i18n/api/%CODE%.json
 
 Title Icon
 
