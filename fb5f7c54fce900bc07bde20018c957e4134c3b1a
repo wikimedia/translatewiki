@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fb2e19c4_1c49c182",
+        "filename": "groups/MediaWiki/WikimediaAdvancedAgg.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-12-03T21:13:24Z",
+      "side": 1,
+      "message": "ext-templatedata is still in WikimediaMainAgg.php, and must be removed from that file. It\u0027s a good idea to put it in WikimediaAdvanced.",
+      "revId": "fb5f7c54fce900bc07bde20018c957e4134c3b1a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
