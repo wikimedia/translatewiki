@@ -125,6 +125,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-templatedata
+  label: TemplateData messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Templatedata-desc/en}}'
+
+GROUPS:
+  - ext-templatedata-*
+
+---
+BASIC:
   id: ext-thanks
   label: Thanks messages - all
 

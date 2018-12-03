@@ -50,7 +50,6 @@ GROUPS:
   - ext-sitematrix
   - ext-spamblacklist
   - ext-thanks-user
-  - ext-templatedata
   - ext-timedmediahandler-user
   - ext-timedmediahandler-embedplayer
   - ext-timedmediahandler-timedtext

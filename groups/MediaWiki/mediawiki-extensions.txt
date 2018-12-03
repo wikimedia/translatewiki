@@ -2344,7 +2344,12 @@ ignored = tabs-dropdown-bgcolor
 Tabber
 
 Template Data
+id = ext-templatedata-user
 ignored = templatedata-helplink-target, templatedata-doc-subpage
+
+Template Data - API
+id = ext-templatedata-api
+file = TemplateData/i18n/api/%CODE%.json
 
 Template Info
 
