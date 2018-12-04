@@ -80,6 +80,8 @@ Timeless
 optional = skinname-timeless, timeless.css, timeless.jsn
 ignored = timeless-sitetitle
 
+# Tomas // no i18n file
+
 Truglass
 ignored = truglass-footertext
 
