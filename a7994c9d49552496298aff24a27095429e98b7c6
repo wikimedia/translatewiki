@@ -22,6 +22,30 @@
       "revId": "a7994c9d49552496298aff24a27095429e98b7c6",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8353f5de_a7c77d0f",
+        "filename": "groups/Wikimedia/WmczTracker.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2945
+      },
+      "writtenOn": "2018-12-07T20:24:32Z",
+      "side": 1,
+      "message": "I did this: https://translatewiki.net/w/i.php?title\u003dGroup_descriptions\u0026diff\u003d8533252\u0026oldid\u003d8437292, I guess getting this page created requires marking the page for translation?",
+      "parentUuid": "bb34cd9f_522b8bf2",
+      "range": {
+        "startLine": 4,
+        "startChar": 37,
+        "endLine": 4,
+        "endChar": 79
+      },
+      "revId": "a7994c9d49552496298aff24a27095429e98b7c6",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
     }
   ]
 }
