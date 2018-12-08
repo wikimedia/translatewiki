@@ -116,6 +116,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-jade
+  label: JADE messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Jade-desc/en}}'
+
+GROUPS:
+  - ext-jade-*
+
+---
+BASIC:
   id: ext-scribunto
   label: Scribunto messages - all
 

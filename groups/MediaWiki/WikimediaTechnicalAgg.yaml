@@ -17,6 +17,7 @@ GROUPS:
   - ext-echo-api
   - ext-flaggedrevs-api
   - ext-flow-api
+  - ext-jade-api
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-scribunto-api
   - ext-templatedata-api

@@ -1313,6 +1313,11 @@ file = InviteSignup/i18n/%CODE%.json
 aliasfile = InviteSignup/InviteSignup.alias.php
 
 JADE
+id = ext-jade-user
+
+JADE - API
+id = ext-jade-api
+file = JADE/i18n/api/%CODE%.json
 
 Josa
 
