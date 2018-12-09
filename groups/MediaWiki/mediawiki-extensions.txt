@@ -264,6 +264,9 @@ descmsg = bs-contextmenu-desc
 Blue Spice Count Things
 descmsg = bs-countthings-desc
 
+Blue Spice Custom Menu
+descmsg = bs-custommenu-desc
+
 Blue Spice Dashboards
 descmsg = bs-dashboards-desc
 aliasfile = BlueSpiceDashboards/languages/Dashboards.alias.php
