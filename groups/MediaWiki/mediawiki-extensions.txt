@@ -673,7 +673,9 @@ Copy To Clipboard
 
 Copyvio
 
-# Count Down Clock // 2018-10-26: Empty repo
+Count Down Clock
+descmsg = countDownClock-desc
+magicfile = CountDownClock/CountDownClock.i18n.magic.php
 
 Create Page
 aliasfile = CreatePage/CreatePage.alias.php
@@ -1999,6 +2001,8 @@ optional = group-bulkpusher.css, group-bulkpusher.js
 optional = group-filepusher.css, group-filepusher.js
 
 Push To Watch
+
+# PwnedPasswords // No i18n files
 
 Quantcast
 
