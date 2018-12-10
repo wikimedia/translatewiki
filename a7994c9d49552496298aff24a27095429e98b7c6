@@ -70,6 +70,30 @@
       "revId": "a7994c9d49552496298aff24a27095429e98b7c6",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9f9599cf_5da7094d",
+        "filename": "groups/Wikimedia/WmczTracker.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2945
+      },
+      "writtenOn": "2018-12-10T15:07:04Z",
+      "side": 1,
+      "message": "Thanks, fixed.",
+      "parentUuid": "c91863db_08934617",
+      "range": {
+        "startLine": 4,
+        "startChar": 37,
+        "endLine": 4,
+        "endChar": 79
+      },
+      "revId": "a7994c9d49552496298aff24a27095429e98b7c6",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
     }
   ]
 }
