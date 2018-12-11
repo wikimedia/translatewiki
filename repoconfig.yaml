@@ -721,14 +721,6 @@ wikipedia-library:
       branch|export: master
       url|export: git@github.com:WikipediaLibrary/TWLight.git
 
-wmcz-tracker:
-  group: wmcz-tracker
-  repos:
-    wmcz-tracker:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/wikimedia-cz/tracker
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia-cz/tracker
-
 xtools:
   group: xtools
   repos:
