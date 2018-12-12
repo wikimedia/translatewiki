@@ -576,8 +576,6 @@ Common Messages
 Commons Metadata
 ignored = commonsmetadata-doc-url
 
-Conditional Show Section
-
 Configure
 aliasfile = Configure/Configure.alias.php
 optional = configure-section-html, configure-section-ajax,configure-section-djvu, configure-section-imagemagick
