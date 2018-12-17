@@ -6,6 +6,6 @@
  */
 class WPLMessageChecker extends MessageChecker {
 	protected function WPLVariablesCheck( $messages, $code, &$warnings ) {
-		return parent::parameterCheck( $messages, $code, $warnings, '/%\([^)]+\)s|\{[^} ]+\}/' );
+		return parent::parameterCheck( $messages, $code, $warnings, '/%\([^)]+\)s|\{[^|} ]+\}/' );
 	}
 }
