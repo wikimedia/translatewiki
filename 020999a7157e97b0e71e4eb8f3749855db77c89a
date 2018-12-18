@@ -16,6 +16,24 @@
       "revId": "020999a7157e97b0e71e4eb8f3749855db77c89a",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c87bb8b4_e33d6765",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 1209,
+      "author": {
+        "id": 2488
+      },
+      "writtenOn": "2018-12-18T19:35:26Z",
+      "side": 1,
+      "message": "We got rid of it in the repo.\n\nSee I3d7860f8f418c0de82e6155952da6ce2db47bc26",
+      "parentUuid": "5041530c_5e531909",
+      "revId": "020999a7157e97b0e71e4eb8f3749855db77c89a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
