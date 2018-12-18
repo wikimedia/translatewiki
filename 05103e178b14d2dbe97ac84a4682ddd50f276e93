@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "885b796f_8768569c",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1200,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2018-12-18T13:55:01Z",
+      "side": 1,
+      "message": "I see below of the help directory 2 other directories: api and questionposter. Shouldn\u0027t these be added too, should they?",
+      "revId": "05103e178b14d2dbe97ac84a4682ddd50f276e93",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
