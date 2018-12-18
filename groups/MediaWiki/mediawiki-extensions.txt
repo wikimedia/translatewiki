@@ -1195,6 +1195,18 @@ file = GrowthExperiments/i18n/welcomesurvey/%CODE%.json
 ignored = welcomesurvey-sidebar-editing-link3-text, welcomesurvey-sidebar-editing-link3-title
 ignored = welcomesurvey-sidebar-editing-link4-text, welcomesurvey-sidebar-editing-link4-title
 
+Growth Experiments - Welcome Survey API
+id = ext-growthexperiments-welcomesurvey-api
+file = GrowthExperiments/i18n/welcomesurvey/api/%CODE%.json
+
+Growth Experiments - Help Panel
+id = ext-growthexperiments-helppanel
+file = GrowthExperiments/i18n/help/%CODE%.json
+
+Growth Experiments - Help Panel API
+id = ext-growthexperiments-helppanel-api
+file = GrowthExperiments/i18n/help/api/%CODE%.json
+
 Guided Tour
 optional = guidedtour-tour-test-wikitext-description
 
