@@ -34,6 +34,24 @@
       "revId": "05103e178b14d2dbe97ac84a4682ddd50f276e93",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "531fcdaf_8ba5d5db",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1200,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2018-12-18T19:33:51Z",
+      "side": 1,
+      "message": "Yes, please add for every directory",
+      "parentUuid": "e11b81fc_e85be5b4",
+      "revId": "05103e178b14d2dbe97ac84a4682ddd50f276e93",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5041530c_5e531909",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 1209,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2018-12-18T19:33:51Z",
+      "side": 1,
+      "message": "+1 for above lines. \n\nBut missing the questionposter directory.",
+      "revId": "020999a7157e97b0e71e4eb8f3749855db77c89a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
