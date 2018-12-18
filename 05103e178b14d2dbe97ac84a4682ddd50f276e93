@@ -16,6 +16,24 @@
       "revId": "05103e178b14d2dbe97ac84a4682ddd50f276e93",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e11b81fc_e85be5b4",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1200,
+      "author": {
+        "id": 2488
+      },
+      "writtenOn": "2018-12-18T13:56:54Z",
+      "side": 1,
+      "message": "Yes they should. Can they be in the same group? I\u0027m not familiar with the syntax.",
+      "parentUuid": "885b796f_8768569c",
+      "revId": "05103e178b14d2dbe97ac84a4682ddd50f276e93",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
