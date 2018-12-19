@@ -904,6 +904,8 @@ External Data
 aliasfile = ExternalData/ExternalData.i18n.alias.php
 magicfile = ExternalData/ExternalData.i18n.magic.php
 
+External Guidance
+
 ExtJS Base
 
 Extra Language Link
