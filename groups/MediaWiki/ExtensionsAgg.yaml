@@ -180,7 +180,7 @@ GROUPS:
 
 ---
 BASIC:
-  id: ext-urlshortener-0-all
+  id: ext-urlshortener
   label: Url Shortener messages - all
   description: '{{Special:MyLanguage/MediaWiki:Urlshortener/en}}'
 
