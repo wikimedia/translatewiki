@@ -180,6 +180,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-urlshortener-0-all
+  label: Url Shortener messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Urlshortener/en}}'
+
+GROUPS:
+  - ext-urlshortener-*
+
+---
+BASIC:
   id: ext-visualeditor-0-all
   label: VisualEditor messages - all
   description: '{{Special:MyLanguage/Translations:Group descriptions/visualeditor/en}}'
