@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e2e75039_1f3dba41",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-12-24T09:06:14Z",
+      "side": 1,
+      "message": "The \"0-all\" naming is deprecated. It is preserved for old groups, but must not be used for new ones. This should be just \"ext-uploadwizard\", like \"ext-checkuser\".",
+      "revId": "49680e02f0360447d1300d0160e737efb8e7c82b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d9a9da71_5cba9eb7",
+        "filename": "groups/MediaWiki/WikimediaAdvancedAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-12-24T09:06:14Z",
+      "side": 1,
+      "message": "This should be in Main, not in Advanced. File uploading should be easily accessible to all users in all wikis.",
+      "range": {
+        "startLine": 101,
+        "startChar": 8,
+        "endLine": 101,
+        "endChar": 20
+      },
+      "revId": "49680e02f0360447d1300d0160e737efb8e7c82b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
