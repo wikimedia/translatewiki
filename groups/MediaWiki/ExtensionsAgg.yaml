@@ -180,6 +180,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-uploadwizard
+  label: Upload Wizard messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Uploadwizard-desc/en}}'
+
+GROUPS:
+  - ext-uploadwizard-*
+
+---
+BASIC:
   id: ext-urlshortener
   label: Url Shortener messages - all
   description: '{{Special:MyLanguage/MediaWiki:Urlshortener/en}}'

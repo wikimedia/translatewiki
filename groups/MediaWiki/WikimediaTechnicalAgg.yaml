@@ -24,6 +24,7 @@ GROUPS:
   - ext-titleblacklist-api
   - ext-translate-api
   - ext-universallanguageselector-api
+  - ext-uploadwizard-api
   - ext-urlshortener-api
   - ext-visualeditor-ve-mw-api
   - ext-wikibase-client-api

@@ -2574,11 +2574,16 @@ aliasfile = UploadLocal/UploadLocal.alias.php
 # Upload Logo // no message prefix
 
 Upload Wizard
+id = ext-uploadwizard-user
 aliasfile = UploadWizard/UploadWizard.alias.php
 optional = group-upwizcampeditors.css, group-upwizcampeditors.js
 optional = mwe-upwiz-license-custom-url
 optional = tag-uploadwizard-flickr
 ignored = accesskey-save-upload-campaign, accesskey-cancel-upload-campaign, mwe-upwiz-flickr-source-template, mwe-upwiz-flickr-author-template, mwe-upwiz-config-allowed-templates
+
+Upload Wizard - API
+id = ext-uploadwizard-api
+file = UploadWizard/i18n/api/%CODE%.json
 
 Uploads Link
 
