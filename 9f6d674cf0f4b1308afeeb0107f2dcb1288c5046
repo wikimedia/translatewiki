@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fbc7bf6b_e300e1b9",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-12-24T09:09:03Z",
+      "side": 1,
+      "message": "As with UploadWizard: don\u0027t use the \"0-all\" naming.",
+      "revId": "9f6d674cf0f4b1308afeeb0107f2dcb1288c5046",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "744c3663_caae94c1",
+        "filename": "groups/MediaWiki/WikimediaAdvancedAgg.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2018-12-24T09:09:03Z",
+      "side": 1,
+      "message": "Just delete the date comment :)",
+      "revId": "9f6d674cf0f4b1308afeeb0107f2dcb1288c5046",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
