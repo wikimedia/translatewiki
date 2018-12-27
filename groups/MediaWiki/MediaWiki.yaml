@@ -29,6 +29,7 @@ GROUPS:
   - ext-0-all
   - mediawiki-installer
   - mediawiki-skin-0-all
+  - mediawiki-exif
   - mediawiki-api
 # Do not add mediawiki-top group here, or we have infinite recursion issues
 
@@ -79,43 +80,6 @@ TAGS:
     - edittools
     - edittools-upload
     - ellipsis
-    - exif-colorspace-1
-    - exif-componentsconfiguration-1
-    - exif-componentsconfiguration-2
-    - exif-componentsconfiguration-3
-    - exif-componentsconfiguration-4
-    - exif-componentsconfiguration-5
-    - exif-componentsconfiguration-6
-    - exif-compression-32773
-    - exif-compression-32946
-    - exif-compression-34712
-    - exif-compression-5
-    - exif-compression-6
-    - exif-compression-7
-    - exif-compression-8
-    - exif-contact-value
-    - exif-coordinate-format
-    - exif-fnumber-format
-    - exif-focallength-format
-    - exif-lightsource-20
-    - exif-lightsource-21
-    - exif-lightsource-22
-    - exif-lightsource-23
-    - exif-maxaperturevalue-value
-    - exif-photometricinterpretation-0
-    - exif-photometricinterpretation-2
-    - exif-photometricinterpretation-3
-    - exif-photometricinterpretation-4
-    - exif-photometricinterpretation-5
-    - exif-photometricinterpretation-6
-    - exif-photometricinterpretation-8
-    - exif-photometricinterpretation-9
-    - exif-photometricinterpretation-10
-    - exif-photometricinterpretation-32803
-    - exif-photometricinterpretation-34892
-    - exif-subjectnewscode-value
-    - exif-xyresolution-c
-    - exif-xyresolution-i
     - feed-atom
     - feed-rss
     - filename-prefix-blacklist
@@ -426,10 +390,6 @@ TAGS:
     - editwatchlist-summary
     - emailsender
     - emailuser-summary
-    - exif-make-value
-    - exif-model-value
-    - exif-software-value
-    - exif-software-version-value
     - export-summary
     - fewestrevisions-summary
     - googlesearch
@@ -603,6 +563,55 @@ TAGS:
     - config-type-postgres
     - config-type-sqlite
     - config-type-oracle
+
+---
+BASIC:
+  id: mediawiki-exif
+  label: MediaWiki core - EXIF tags
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikiexif/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/exif/%CODE%.json"
+
+TAGS:
+  optional:
+    - exif-colorspace-1
+    - exif-componentsconfiguration-1
+    - exif-componentsconfiguration-2
+    - exif-componentsconfiguration-3
+    - exif-componentsconfiguration-4
+    - exif-componentsconfiguration-5
+    - exif-componentsconfiguration-6
+    - exif-compression-32773
+    - exif-compression-32946
+    - exif-compression-34712
+    - exif-compression-5
+    - exif-compression-6
+    - exif-compression-7
+    - exif-compression-8
+    - exif-contact-value
+    - exif-coordinate-format
+    - exif-fnumber-format
+    - exif-focallength-format
+    - exif-lightsource-20
+    - exif-lightsource-21
+    - exif-lightsource-22
+    - exif-lightsource-23
+    - exif-maxaperturevalue-value
+    - exif-photometricinterpretation-2
+    - exif-photometricinterpretation-6
+    - exif-photometricinterpretation-32803
+    - exif-photometricinterpretation-34892
+    - exif-subjectnewscode-value
+    - exif-xyresolution-i
+    - exif-xyresolution-c
+  ignored:
+    - exif-make-value
+    - exif-model-value
+    - exif-software-value
+    - exif-software-version-value
 
 ---
 BASIC:
