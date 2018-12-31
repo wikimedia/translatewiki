@@ -2335,8 +2335,6 @@ Subpage Sortkey
 Sudo
 aliasfile = Sudo/Sudo.alias.php
 
-Suhosin
-
 Survey
 aliasfile = Survey/Survey.alias.php
 optional = group-surveyadmin.css, group-surveyadmin.js, group-surveysubmit.css, group-surveysubmit.js
