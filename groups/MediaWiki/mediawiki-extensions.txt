@@ -1550,8 +1550,6 @@ Mol Handler
 
 Montserrat Font
 
-# MOOC // Some real weird message keys like "_mooc-comment-section-<section>-empty-..."
-
 MP3 Media Handler
 
 Mpdf
