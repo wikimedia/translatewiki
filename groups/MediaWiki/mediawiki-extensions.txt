@@ -645,8 +645,6 @@ Content Translation - API
 id = ext-contenttranslation-api
 file = ContentTranslation/i18n/api/%CODE%.json
 
-#Contest / Unused per https://bugzilla.wikimedia.org/show_bug.cgi?id=41526#c0
-
 Contribution Scores
 aliasfile = ContributionScores/ContributionScores.alias.php
 optional = score-visualeditor-mwscoreinspector-card-midi
