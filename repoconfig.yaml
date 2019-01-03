@@ -213,7 +213,7 @@ intuition-tools:
       url: https://github.com/kenrick95/Raun.git
       url|export: git@github.com:kenrick95/Raun.git
     int-refill:
-      type: git
+      type: github
       url: https://github.com/zhaofengli/refill.git
       url|export: git@github.com:zhaofengli/refill.git
     int-web:
