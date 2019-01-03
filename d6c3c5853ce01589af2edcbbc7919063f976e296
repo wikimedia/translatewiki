@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b8381dcb_04d6d291",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 572,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-01-03T06:20:00Z",
+      "side": 1,
+      "message": "Is someone creating this?",
+      "revId": "d6c3c5853ce01589af2edcbbc7919063f976e296",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
