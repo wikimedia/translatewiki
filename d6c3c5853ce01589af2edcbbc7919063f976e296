@@ -16,6 +16,24 @@
       "revId": "d6c3c5853ce01589af2edcbbc7919063f976e296",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a7f21ccb_e0e9e87b",
+        "filename": "groups/MediaWiki/MediaWiki.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 572,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2019-01-03T09:44:58Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "b8381dcb_04d6d291",
+      "revId": "d6c3c5853ce01589af2edcbbc7919063f976e296",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
     }
   ]
 }
