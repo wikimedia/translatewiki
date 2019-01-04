@@ -301,7 +301,7 @@ mediawiki:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,zh-hk
   no-export-languages: test,aeb,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   export-threshold: 13
-  group: core,ext-installer,mediawiki-api
+  group: core,ext-installer,mediawiki-api,mediawiki-exif
   auto-merge: mediawiki/core
   repos:
     mediawiki/master:
