@@ -70,6 +70,7 @@ GROUPS:
   - ext-wikimediacclicensetexts # commons.wikimedia.org
   - ext-wikimediaevents # 2013-10-07: Renamed from CoreEvents
   - ext-wikimedialicensetexts # commons.wikimedia.org
+  - mediawiki-exif
   - mediawiki-skin-minervaneue
   - mediawiki-skin-monobook
   - mediawiki-skin-vector
