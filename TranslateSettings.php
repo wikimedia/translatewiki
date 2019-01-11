@@ -67,13 +67,12 @@ function efHT( $specs, $group, $code ) {
 
 $wgTranslateExtensionDirectory = '/resources/projects/mediawiki-extensions/extensions';
 
-$wgTranslateCC['wiki-betawiki'] = 'customMessageGroups';
-function customMessageGroups( $id ) {
+$wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) {
 	$mg = new WikiMessageGroup( 'wiki-betawiki', 'betawiki-messages' );
 	$mg->setLabel( 'Translatewiki.net' );
 	$mg->setDescription( '{{int:bw-desc-translatewiki-messages}}' );
-	return $mg;
-}
+	$list[ 'wiki-betawiki' ] = $mg;
+};
 
 # Add aggregate message groups for MediaWiki extensions.
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwgerrit.yaml";
