@@ -4,12 +4,26 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/tracker/en}}"
   class: FileBasedMessageGroup
   namespace: NS_WIKIMEDIA
+
 MANGLER:
   class: StringMatcher
   prefix: tracker-
   patterns:
     - "*"
+
 FILES:
   class: GettextFFS
   sourcePattern: "%GROUPROOT%/wmcz-tracker/trackersite/locale/%CODE%/LC_MESSAGES/django.po"
   definitionFile: "%GROUPROOT%/wmcz-tracker/trackersite/locale/django.pot"
+
+CHECKER:
+  class: WmczTrackerMessageChecker
+  checks:
+   - variablesCheck
+
+INSERTABLES:
+  class: WmczTrackerSuggester
+
+AUTOLOAD:
+  WmczTrackerMessageChecker: WmczTrackerChecker.php
+  WmczTrackerSuggester: WmczTrackerSuggester.php
