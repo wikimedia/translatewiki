@@ -215,13 +215,17 @@ TEXT;
 			file_put_contents( $relnotefile, $notes );
 
 			// Patch version
-			$setupfile = "{$this->dir}/extensions/$ext/$ext.php";
-			$contents = file_get_contents( $setupfile );
-			$contents = preg_replace_callback( "/(^\s*'version'\s*=>\s*)(.*)/m", function ( $matches ) use ( $extra ) {
-				return "{$matches[1]}'$extra',";
-			}, $contents );
-
-			file_put_contents( $setupfile, $contents );
+			$setupfile = "{$this->dir}/extensions/$ext/extension.json";
+			if ( !file_exists( $setupfile ) ) {
+				echo "$setupfile does not exist - skipping\n";
+			} else {
+				$json = file_get_contents( $setupfile );
+				$contents = json_decode( $json, true );
+				$contents['version'] = $contents['version'] . " $extra";
+				# This will cause some dirty diffs (mainly tabs to spaces, formatting)
+				$json = json_encode( $contents, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES );
+				file_put_contents( $setupfile, $json );
+			}
 
 			$msg = escapeshellarg( "$name $version" );
 
