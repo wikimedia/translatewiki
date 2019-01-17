@@ -2841,7 +2841,7 @@ optional = wikihiero-help-link
 Wikimedia Badges
 
 Wikimedia Events
-ignored = tag-HHVM
+ignored = tag-HHVM, tag-php7, php7-label
 ignored = tag-cross-wiki-upload-1, tag-cross-wiki-upload-2, tag-cross-wiki-upload-3, tag-cross-wiki-upload-4
 
 Wikimedia Incubator
