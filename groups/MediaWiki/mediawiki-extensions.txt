@@ -2804,6 +2804,7 @@ optional = wikibaselexeme-presentation-lexeme-secondary-label, wikibaselexeme-le
 optional = wikibaselexeme-presentation-lexeme-display-label-separator-multiple-lemma
 optional = wikibaselexeme-formidformatter-separator-multiple-representation
 optional = wikibase-lexeme-lemma-language-option, wikibaselexeme-senseidformatter-layout
+optional = wikibase-lexeme-language-selector-label
 
 Wikibase Media Info
 
