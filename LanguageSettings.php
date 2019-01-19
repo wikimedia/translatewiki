@@ -60,6 +60,7 @@ $wgExtraLanguageNames['kjp'] = 'ဖၠုံလိက်'; # Eastern Pwo Karen /
 $wgExtraLanguageNames['knn'] = 'महाराष्ट्रीय कोंकणी'; # Maharashtrian Konkani / 2015-XX-XX
 $wgExtraLanguageNames['krl'] = 'Karjala'; # Karelian / Siebrand 2008-04-12
 $wgExtraLanguageNames['ksf'] = 'Bafia'; # Robin 2011-10-21
+$wgExtraLanguageNames['ksw'] = 'စှီၤ ကညီကျိာ်'; # Sgaw Karen / Amir 2019-01-19
 $wgExtraLanguageNames['kum'] = 'къумукъ'; # Amir 2018-01-14
 $wgExtraLanguageNames['lag'] = 'Kilaangi'; # Rangi / Amir 2017-05-03
 $wgExtraLanguageNames['lkt'] = 'Lakȟótiyapi'; # Lakota / 2014-04-08
