@@ -29,7 +29,7 @@ GROUPS:
   - ext-electronpdfservice # https://phabricator.wikimedia.org/rOMWC59b7e9756ad81509deb492dc4ae24f59c3267307
   - ext-featuredfeeds # r110030 for all projects
   - ext-flow
-  - ext-gadgets
+  - ext-gadgets-user
   - ext-globalpreferences
   - ext-globalusage # 2009-11-11: commons.wikimedia.org
   - ext-globaluserpage # 2015-02-05: Testwikis

@@ -1086,8 +1086,13 @@ descmsg = fundraising-translate-workflow-desc
 # Gather // Archived: https://gerrit.wikimedia.org/r/#/c/290379/
 
 Gadgets
+id = ext-gadgets-user
 aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition
+
+Gadgets - API
+id = ext-gadgets-api
+file = Gadgets/i18n/api/%CODE%.json
 
 Genealogy
 optional = genealogy-born-and-died

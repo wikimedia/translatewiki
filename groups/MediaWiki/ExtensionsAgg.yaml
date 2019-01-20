@@ -122,6 +122,14 @@ BASIC:
 GROUPS:
   - ext-flow
   - ext-flow-api
+---
+BASIC:
+  id: ext-gadgets
+  label: Gadgets messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Gadgets-desc/en}}'
+
+GROUPS:
+  - ext-gadgets*
 
 ---
 BASIC:

@@ -16,6 +16,7 @@ GROUPS:
   - ext-contenttranslation-api
   - ext-echo-api
   - ext-flaggedrevs-api
+  - ext-gadgets-api
   - ext-flow-api
   - ext-jade-api
   - ext-mobilefrontend-api
