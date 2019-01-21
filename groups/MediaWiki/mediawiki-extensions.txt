@@ -1536,6 +1536,9 @@ Minimum Name Length
 Minty Docs
 aliasfile = MintyDocs/MintyDocs.i18n.alias.php
 
+Missed Pages
+aliasfile = MissedPages/MissedPages.i18n.alias.php
+
 Mixed Namespace Search Suggestions
 descmsg = mnss-desc
 
