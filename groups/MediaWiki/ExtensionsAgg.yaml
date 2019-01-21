@@ -67,6 +67,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-mobilefrontend
+  label: Mobile Frontend messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Mobile-frontend-desc/en}}'
+
+GROUPS:
+  - ext-mobilefrontend-*
+
+---
+BASIC:
   id: ext-readerfeedback-0-all
   label: Reader Feedback messages - all
   description: '{{Special:MyLanguage/Translations:Group descriptions/readerfeedback/en}}'

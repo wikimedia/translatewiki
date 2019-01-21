@@ -1560,10 +1560,14 @@ Mobile App
 Mobile Detect
 
 Mobile Frontend
+id = ext-mobilefrontend-user
 descmsg = mobile-frontend-desc
 aliasfile = MobileFrontend/MobileFrontend.alias.php
 optional = mobile.js, mobile.css, mobile-frontend-diffview-comma
 ignored = mobile-frontend-page-menu-language, mobile-frontend-terms-url
+
+Mobile Frontend - API
+id = ext-mobilefrontend-api
 
 Model
 
