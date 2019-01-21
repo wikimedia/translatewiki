@@ -340,6 +340,14 @@ Blue Spice Page Assignments
 descmsg = bs-pageassignments-desc
 aliasfile = BlueSpicePageAssignments/languages/PageAssignments.alias.php
 
+Blue Spice Privacy
+descmsg = bs-privacy-desc
+aliasfile = BlueSpicePrivacy/languages/BlueSpicePrivacy.alias.php
+optional = bs-privacy-transparency-format-html
+optional = bs-privacy-transparency-format-csv
+optional = bs-privacy-transparency-action-timestamp
+optional = bs-privacy-consent-log-consent
+
 Blue Spice Page Templates
 descmsg = bs-pagetemplates-desc
 aliasfile = BlueSpicePageTemplates/includes/specials/SpecialPageTemplatesAdmin.alias.php
