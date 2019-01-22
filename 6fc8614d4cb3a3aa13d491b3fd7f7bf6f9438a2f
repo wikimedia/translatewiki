@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "04d2c6c3_baa9301b",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2019-01-22T07:15:23Z",
+      "side": 1,
+      "message": "The naming scheme with \"0-all\" is deprecated. Please use the naming scheme that is used in jade and templatedata.",
+      "revId": "6fc8614d4cb3a3aa13d491b3fd7f7bf6f9438a2f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
