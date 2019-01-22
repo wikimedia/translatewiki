@@ -10,6 +10,7 @@ BASIC:
 GROUPS:
   - ext-liquidthreads # 2009-11-11: MediaWiki.org and some other projects
   - ext-renameuser # Being phased out, 2015
+  - ext-usermerge # Formerly used on Wikivoyage, not actually used since 2015
   - ext-wikibasequality # https://phabricator.wikimedia.org/rOMWC8b8e7c7d8dfda7db9f2b53d87e723875b02dd178
   - ext-zerobanner # 2014-06
   - ext-zeroportal # 2014-06
