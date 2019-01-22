@@ -18,7 +18,6 @@ search
 privacypage
 disclaimerpage
 december
-wikilove-err-not-logged-in
 july
 november
 october
@@ -351,7 +350,6 @@ captcha-label
 license-header
 hide
 exif-orientation
-wikilove-err-invalid-username
 fancycaptcha-accountcreate
 tooltip-t-contributions
 exif-datetimedigitized
