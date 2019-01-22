@@ -1567,6 +1567,7 @@ optional = mobile.js, mobile.css, mobile-frontend-diffview-comma
 ignored = mobile-frontend-page-menu-language, mobile-frontend-terms-url
 
 Mobile Frontend - API
+file = MobileFrontend/i18n/api/%CODE%.json
 id = ext-mobilefrontend-api
 
 Model
