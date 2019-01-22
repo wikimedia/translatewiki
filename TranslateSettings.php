@@ -93,7 +93,9 @@ $wgTranslateGroupAliases['ext-installer'] = 'mediawiki-installer';
 
 $wgTranslateGroupFiles[] = "$GROUPS/PageTranslationAgg.yaml";
 
-require_once "$GROUPS/MediaWiki/MediaWikiTopMessageGroup.php";
+$wgExtensionFunctions[] = function () use ( $GROUPS ) {
+	require_once "$GROUPS/MediaWiki/MediaWikiTopMessageGroup.php";
+};
 
 $wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
 	# TODO: rename when possible
