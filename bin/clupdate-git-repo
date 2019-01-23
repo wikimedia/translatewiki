@@ -31,5 +31,9 @@ then (
 		cd "$DIR"
 		git config user.name 'translatewiki.net'
 		git config user.email 'l10n-bot@translatewiki.net'
+	else
+		cd "$DIR"
+		git config user.name 'Translation updater bot'
+		git config user.email 'l10n-bot@translatewiki.net'
 	fi
 fi
