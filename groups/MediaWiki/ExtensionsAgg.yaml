@@ -160,6 +160,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-spamblacklist
+  label: Spam Blacklist
+  description: '{{Special:MyLanguage/MediaWiki:Spam-blacklist-desc/en}}'
+
+GROUPS:
+  - ext-spamblacklist-*
+
+---
+BASIC:
   id: ext-templatedata
   label: TemplateData messages - all
   description: '{{Special:MyLanguage/MediaWiki:Templatedata-desc/en}}'

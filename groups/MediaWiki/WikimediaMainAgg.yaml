@@ -48,7 +48,7 @@ GROUPS:
   - ext-poolcounter # 2011-03-18 on all projects
   - ext-popups # 2014-03-19
   - ext-sitematrix
-  - ext-spamblacklist
+  - ext-spamblacklist-interface
   - ext-thanks-user
   - ext-timedmediahandler-user
   - ext-timedmediahandler-embedplayer
