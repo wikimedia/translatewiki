@@ -52,6 +52,24 @@
       "revId": "d560b633b191b96d946f783a643f11178a68f871",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ad355896_94edfc1b",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 2303,
+      "author": {
+        "id": 787
+      },
+      "writtenOn": "2019-01-24T14:00:57Z",
+      "side": 1,
+      "message": "Fixed.",
+      "parentUuid": "66d680ce_94cb4bd3",
+      "revId": "d560b633b191b96d946f783a643f11178a68f871",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
     }
   ]
 }
