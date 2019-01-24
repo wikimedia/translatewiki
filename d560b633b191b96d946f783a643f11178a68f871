@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "498f2b0a_aa92dd6e",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 2303,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-01-24T12:29:33Z",
+      "side": 1,
+      "message": "file \u003d ...",
+      "revId": "d560b633b191b96d946f783a643f11178a68f871",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
