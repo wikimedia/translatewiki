@@ -2310,8 +2310,6 @@ aliasfile = SpamRegex/SpamRegex.alias.php
 
 Spark
 
-Spark Post
-
 Special 404
 aliasfile = Special404/Special404.alias.php
 
