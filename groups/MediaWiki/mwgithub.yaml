@@ -44,7 +44,6 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/Mermaid/i18n/%CODE%.json"
-
 ---
 BASIC:
   id: mwgithub-semanticbreadcrumblinks
@@ -55,6 +54,9 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks/i18n/%CODE%.json"
 
+TAGS:
+  ignored:
+    - sbl-name
 ---
 BASIC:
   id: mwgithub-semanticcite
@@ -74,6 +76,7 @@ TAGS:
     - sci-property-alias-pmcid
     - sci-property-alias-pmid
   ignored:
+    - sci-name
     - sci-referencelist-text
     - sci-specials-citablemetadata-helplink
 ---
@@ -86,6 +89,10 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticCompoundQueries/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - semanticcompoundqueries-name
 ---
 BASIC:
   id: mwgithub-semanticexternalquerylookup
@@ -104,6 +111,10 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticExtraSpecialProperties/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - sesp-name
 ---
 BASIC:
   id: mwgithub-semanticformsselect
@@ -131,6 +142,10 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticInterlanguageLinks/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - sil-name
 ---
 BASIC:
   id: mwgithub-semanticmediawiki
@@ -155,13 +170,21 @@ TAGS:
     - smw_rdf_link
     - smw_property_template_notype
     - smw-datavalue-monolingual-lcode-parenthesis
+    - smw-datavalue-reference-outputformat
+    - smw-property-preferred-title-format
+    - smw-format-datatable-infothousands
+    - smw-format-list-other-fields-close
   ignored:
+    - smw-title
     - smw_ask_doculink
     - smw_uri_blacklist
     - smw-specials-browse-helplink
+    - smw-specials-types-helplink
     - smw-format-list-separator
     - smw-format-list-*-separator
     - smw-helplink-concepts
+    - smw-helplink
+    - smw-schema-type-help-link
 ---
 BASIC:
   id: mwgithub-semanticmetatags
@@ -171,6 +194,10 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticMetaTags/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - smt-name
 ---
 BASIC:
   id: mwgithub-semanticresultformats
@@ -197,6 +224,7 @@ TAGS:
     - srf-ui-eventcalendar-format-column-day
     - srf-filtered-firstdayofweek
   ignored:
+    - srf-name
     - srf-ui-datatables-label-sInfoPostFix
 ---
 BASIC:
