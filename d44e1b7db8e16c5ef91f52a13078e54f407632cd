@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "f02fecd5_4e78063c",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 787
+      },
+      "writtenOn": "2019-01-27T10:46:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a98d1012_97811aae",
+      "revId": "d44e1b7db8e16c5ef91f52a13078e54f407632cd",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fb5d14d9_9435c9ca",
         "filename": "groups/MediaWiki/mediawiki-extensions.txt",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2019-01-27T09:41:02Z",
       "side": 1,
       "message": "file definition not necessary because this is the default path",
+      "revId": "d44e1b7db8e16c5ef91f52a13078e54f407632cd",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "63407ebd_41fbf7a6",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 2303,
+      "author": {
+        "id": 787
+      },
+      "writtenOn": "2019-01-27T10:46:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fb5d14d9_9435c9ca",
       "revId": "d44e1b7db8e16c5ef91f52a13078e54f407632cd",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
