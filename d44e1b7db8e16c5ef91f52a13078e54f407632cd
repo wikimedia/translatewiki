@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a98d1012_97811aae",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2019-01-27T09:41:02Z",
+      "side": 1,
+      "message": "Above 2 lines could be combined to \"ext-spamblacklist-*\"",
+      "revId": "d44e1b7db8e16c5ef91f52a13078e54f407632cd",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fb5d14d9_9435c9ca",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 2303,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2019-01-27T09:41:02Z",
+      "side": 1,
+      "message": "file definition not necessary because this is the default path",
+      "revId": "d44e1b7db8e16c5ef91f52a13078e54f407632cd",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
