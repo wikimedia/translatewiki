@@ -2835,7 +2835,7 @@ optional = wikibase-lexeme-language-selector-label
 
 Wikibase Lexeme - API
 id = ext-wikibaselexeme-user
-file = WikibaseLexeme/repo/i18n/api/%CODE%.json
+file = WikibaseLexeme/i18n/api/%CODE%.json
 
 Wikibase Media Info
 
