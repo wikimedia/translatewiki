@@ -129,7 +129,7 @@ BASIC:
   description: '{{Special:MyLanguage/MediaWiki:Gadgets-desc/en}}'
 
 GROUPS:
-  - ext-gadgets*
+  - ext-gadgets-*
 
 ---
 BASIC:
