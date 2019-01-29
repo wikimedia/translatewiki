@@ -133,6 +133,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-globalpreferences
+  label: Global Preferences messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Globalprefs-desc/en}}'
+
+GROUPS:
+  - ext-globalpreferences-*
+
+---
+BASIC:
   id: ext-jade
   label: JADE messages - all
   description: '{{Special:MyLanguage/MediaWiki:Jade-desc/en}}'
