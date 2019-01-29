@@ -2824,6 +2824,7 @@ file = Wikibase/repo/i18n/api/%CODE%.json
 # Wikibase Cirrus Search // 2018-05-15 Empty repo
 
 Wikibase Lexeme
+id = ext-wikibaselexeme-user
 aliasfile = WikibaseLexeme/WikibaseLexeme.i18n.alias.php
 ignored = wikibaselexeme-description
 optional = wikibaselexeme-presentation-lexeme-secondary-label, wikibaselexeme-lexeme-link-title
@@ -2831,6 +2832,10 @@ optional = wikibaselexeme-presentation-lexeme-display-label-separator-multiple-l
 optional = wikibaselexeme-formidformatter-separator-multiple-representation
 optional = wikibase-lexeme-lemma-language-option, wikibaselexeme-senseidformatter-layout
 optional = wikibase-lexeme-language-selector-label
+
+Wikibase Lexeme - API
+id = ext-wikibaselexeme-user
+file = WikibaseLexeme/repo/i18n/api/%CODE%.json
 
 Wikibase Media Info
 

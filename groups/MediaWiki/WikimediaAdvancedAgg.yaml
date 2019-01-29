@@ -100,7 +100,7 @@ GROUPS:
   - ext-trustedxff
   - ext-urlshortener-user # 2018-12-??
   - ext-wikibasedatamodel
-  - ext-wikibaselexeme # https://phabricator.wikimedia.org/rOMWC87b1251792a9c65b300ee0ca3686ffc155b084e0
+  - ext-wikibaselexeme-user # https://phabricator.wikimedia.org/rOMWC87b1251792a9c65b300ee0ca3686ffc155b084e0
   - ext-wikibasequalityconstraints
   - ext-wikidatapagebanner # Iea8b9c1669fa271dcad13f4d5f6de8e8fcafe0d7
   - ext-wikilove

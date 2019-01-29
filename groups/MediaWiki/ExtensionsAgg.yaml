@@ -246,6 +246,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-wikibaselexeme
+  label: Wikibase Lexeme messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Wikibaselexeme-desc/en}}'
+
+GROUPS:
+  - ext-wikibase-repo-*
+
+---
+BASIC:
   id: ext-wikibase-repo
   label: Wikibase Repo messages - all
   description: '{{Special:MyLanguage/MediaWiki:Wikibase-desc/en}}'

@@ -33,4 +33,5 @@ GROUPS:
   - ext-visualeditor-ve-mw-api
   - ext-wikibase-client-api
   - ext-wikibase-repo-api
+  - ext-wikibaselexeme-api
   - ext-wikilove-api
