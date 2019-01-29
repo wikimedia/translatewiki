@@ -31,7 +31,7 @@ GROUPS:
   - ext-flow
   - ext-gadgets-user
   - ext-globalpreferences
-  - ext-globalusage # 2009-11-11: commons.wikimedia.org
+  - ext-globalusage-user # 2009-11-11: commons.wikimedia.org
   - ext-globaluserpage # 2015-02-05: Testwikis
   - ext-imagemap
   - ext-inputbox

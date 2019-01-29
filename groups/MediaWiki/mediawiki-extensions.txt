@@ -1141,8 +1141,13 @@ id = ext-globalprefences-api
 file = GlobalPreferences/i18n/api/%CODE%.json
 
 Global Usage
+id = ext-globalusage-user
 aliasfile = GlobalUsage/GlobalUsage.alias.php
 ignored = globalusage-header-image
+
+Global Usage - API
+id = ext-globalusage-api
+file = GlobalUsage/i18n/api/%CODE%.json
 
 Global User Groups
 file = GlobalUserGroups/i18n/core/%CODE%.json

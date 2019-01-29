@@ -122,6 +122,7 @@ BASIC:
 GROUPS:
   - ext-flow
   - ext-flow-api
+
 ---
 BASIC:
   id: ext-gadgets
@@ -139,6 +140,15 @@ BASIC:
 
 GROUPS:
   - ext-globalpreferences-*
+
+---
+BASIC:
+  id: ext-globalusage
+  label: GlobalUsage messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Globalusage-desc/en}}'
+
+GROUPS:
+  - ext-globalusage-*
 
 ---
 BASIC:

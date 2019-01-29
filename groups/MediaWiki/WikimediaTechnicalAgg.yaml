@@ -17,6 +17,7 @@ GROUPS:
   - ext-echo-api
   - ext-flaggedrevs-api
   - ext-gadgets-api
+  - ext-globalusage-api
   - ext-flow-api
   - ext-globalpreferences-api
   - ext-jade-api
