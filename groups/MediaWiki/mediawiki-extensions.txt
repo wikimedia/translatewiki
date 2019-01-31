@@ -2309,6 +2309,7 @@ Solarium
 Sound Manager 2 Button
 
 Spam Blacklist - Interface
+file = SpamBlacklist/i18n/%CODE%.json
 id = ext-spamblacklist-interface
 descmsg = spam-blacklist-desc
 
