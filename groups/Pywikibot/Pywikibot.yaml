@@ -56,7 +56,6 @@ TEMPLATE:
       - ks
       - ku
       - "no"
-      - pt-br
       - ruq
       - sr
       - sr-el
@@ -68,7 +67,6 @@ TEMPLATE:
       - zh-hant
       - zh-hk
       - zh-sg
-      - zh-tw
 
 ---
 BASIC:
