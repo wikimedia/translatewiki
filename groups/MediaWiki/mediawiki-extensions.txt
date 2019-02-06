@@ -2857,9 +2857,7 @@ file = WikibaseLexeme/i18n/api/%CODE%.json
 
 Wikibase Media Info
 
-Wikibase Quality
-aliasfile = WikibaseQuality/WikibaseQuality.alias.php
-ignored = wbq-violations-entity-id-placeholder, wbq-violations-property-id-placeholder
+# Wikibase Quality // Archived base extension https://www.mediawiki.org/w/index.php?title=Extension:WikibaseQuality&oldid=3041990
 
 Wikibase Quality Constraints
 aliasfile = WikibaseQualityConstraints/WikibaseQualityConstraints.alias.php
