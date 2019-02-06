@@ -2169,6 +2169,8 @@ Scribunto - API
 id = ext-scribunto-api
 file = Scribunto/i18n/api/%CODE%.json
 
+Scrollable Tables
+
 Search Extra NS
 
 Search Stats
