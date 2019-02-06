@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "91683444_d11a2322",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2019-02-06T12:40:16Z",
+      "side": 1,
+      "message": "If you change this name (\u003dkey), you have to add the file parameter. Otherwise translatewiki is looking for a file in  AntiSpoof-Interface/i18n/%CODE%.json which doesn\u0027t exists",
+      "revId": "550ce5040ff56415da61003453160d82bb3f623e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
