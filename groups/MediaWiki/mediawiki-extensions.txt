@@ -71,9 +71,15 @@ Anchor Handler
 
 Anon Privacy
 
-Anti Spoof
+Anti Spoof - Interface
+id = ext-antispoof-user
+file = AntiSpoof/i18n/%CODE%.json
 ignored = antispoof-conflict-item, antispoof-bad-char-non-printable
 optional = antispoof-bad-char
+
+Anti Spoof - API
+id = ext-antispoof-api
+file = AntiSpoof/i18n/api/%CODE%.json
 
 Api Feature Usage
 aliasfile = ApiFeatureUsage/ApiFeatureUsage.alias.php

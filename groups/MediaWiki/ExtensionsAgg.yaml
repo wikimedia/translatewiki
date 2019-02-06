@@ -27,6 +27,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-antispoof
+  label: Anti Spoof messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Antispoof-desc/en}}'
+
+GROUPS:
+  - ext-antispoof-*
+
+---
+BASIC:
   id: ext-bs-0-all
   icon: wiki://Bluespice icon.svg
   label: Blue Spice extensions
