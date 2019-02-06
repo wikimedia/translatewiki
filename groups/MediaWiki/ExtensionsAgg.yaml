@@ -144,7 +144,7 @@ GROUPS:
 ---
 BASIC:
   id: ext-globalusage
-  label: GlobalUsage messages - all
+  label: Global Usage messages - all
   description: '{{Special:MyLanguage/MediaWiki:Globalusage-desc/en}}'
 
 GROUPS:
