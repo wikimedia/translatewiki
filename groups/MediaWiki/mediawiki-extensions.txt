@@ -2869,6 +2869,9 @@ ignored = wbqev-crosscheck-form-entityid-placeholder, wbqev-violation-long-messa
 
 # Wikibase Query // Archived
 
+Wikibase Schema
+aliasfile = WikibaseSchema/WikibaseSchema.i18n.alias.php
+
 #Wikidata Entity Suggester / No real extension, Java program
 
 Wikidata Page Banner
