@@ -1424,6 +1424,8 @@ LDAP Authorization
 
 Ldap Groups
 
+LDAP Provider
+
 Life Web
 aliasfile = LifeWeb/LifeWeb.alias.php
 
