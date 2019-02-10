@@ -465,10 +465,16 @@ optional = categorytree-expand-bullet, categorytree-empty-bullet
 Category Watch
 
 Central Auth
+id = ext-centralauth-user
+file = CentralAuth/i18n/%CODE%.json
 aliasfile = CentralAuth/CentralAuth.alias.php
 optional = centralauth-editset-grouplink, centralauth-listusers-item
 optional = centralauth-merge-method-questionmark
 ignored = centralauth-editset-item-ro, centralauth-admin-notblocked, centralauth-welcomecreation-msg
+
+Central Auth - API
+id = ext-centralauth-api
+file = CentralAuth/i18n/api/%CODE%.json
 
 Central Logging
 

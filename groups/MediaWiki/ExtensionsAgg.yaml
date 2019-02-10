@@ -38,6 +38,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-centralauth
+  label: Central Auth messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Centralauth-desc/en}}'
+
+GROUPS:
+  -ext-centralauth-*
+
+---
+BASIC:
   id: ext-checkuser
   label: CheckUser messages - all
   description: '{{Special:MyLanguage/MediaWiki:Checkuser-desc/en}}'
