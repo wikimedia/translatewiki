@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7695459d_d66b0bf4",
+        "filename": "groups/MediaWiki/WikimediaAdvancedAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 787
+      },
+      "writtenOn": "2019-02-11T12:35:44Z",
+      "side": 1,
+      "message": "Changed to -user in new patch set. Thanks.",
+      "parentUuid": "640a5e1c_6efc3fe6",
+      "revId": "2b942b9eabecd9d8c07b28d1f09161dab316e23c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2322285c_819815d3",
         "filename": "groups/MediaWiki/mediawiki-extensions.txt",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2019-02-11T09:46:27Z",
       "side": 1,
       "message": "This also needs an explicit \"file \u003d \" line.",
+      "revId": "2b942b9eabecd9d8c07b28d1f09161dab316e23c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ce60b67_1ce12719",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 468,
+      "author": {
+        "id": 787
+      },
+      "writtenOn": "2019-02-11T12:35:44Z",
+      "side": 1,
+      "message": "Added in new patch set. Thanks.",
+      "parentUuid": "2322285c_819815d3",
       "revId": "2b942b9eabecd9d8c07b28d1f09161dab316e23c",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
