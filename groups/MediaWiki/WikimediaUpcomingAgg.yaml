@@ -11,4 +11,7 @@ GROUPS:
   - ext-capiunto # 2016-02-16
   - ext-collaborationkit # https://phabricator.wikimedia.org/rOMWC54f5e751579cf7f715851bb89de538a28134668e
   - ext-dynamicsidebar # Deployed but unused
+  - ext-growthexperiments-user # https://phabricator.wikimedia.org/rOMWC4404977a5f10c4e0d6651b1f2dc76b93c0b2eeb6
+  - ext-growthexperiments-welcomesurvey
+  - ext-growthexperiments-helppanel
   - ext-jade # https://phabricator.wikimedia.org/rOMWC6bc21f7994d5d818b2ffecb2606af14589a65c31

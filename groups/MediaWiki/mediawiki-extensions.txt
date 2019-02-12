@@ -1214,6 +1214,7 @@ GraphViz
 Groups Sidebar
 
 Growth Experiments
+id = ext-growthexperiments-user
 file = GrowthExperiments/i18n/extension/%CODE%.json
 aliasfile = GrowthExperiments/GrowthExperiments.alias.php
 

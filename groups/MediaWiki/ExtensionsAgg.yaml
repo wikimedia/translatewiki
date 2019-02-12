@@ -67,6 +67,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-growthexperiments
+  label: Growth Experiments messages - all
+  description: '{{Special:MyLanguage/MediaWiki:Growthexperiments-desc/en}}'
+
+GROUPS:
+  - ext-growthexperiments-*
+
+---
+BASIC:
   id: ext-mobilefrontend
   label: Mobile Frontend messages - all
   description: '{{Special:MyLanguage/MediaWiki:Mobile-frontend-desc/en}}'
