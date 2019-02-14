@@ -698,9 +698,9 @@ wikipedia-android:
   group: out-wikimedia-mobile-wikipedia-android-*
   repos:
     wikipedia-android:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/apps/android/wikipedia
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/apps/android/wikipedia
+      type: github
+      url: https://github.com/wikimedia/apps-android-wikipedia.git
+      url|export: git@github.com:wikimedia/apps-android-wikipedia.git
 
 wikipedia-ios:
   group: out-wikimedia-mobile-wikipedia-ios
