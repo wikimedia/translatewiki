@@ -2611,9 +2611,6 @@ aliasfile = UpdateMediaWiki/UpdateMediaWiki.alias.php
 
 Upload Blacklist
 
-Upload Local
-aliasfile = UploadLocal/UploadLocal.alias.php
-
 # Upload Logo // no message prefix
 
 Upload Wizard
