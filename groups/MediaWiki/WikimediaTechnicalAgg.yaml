@@ -25,6 +25,7 @@ GROUPS:
   - ext-growthexperiments-helppanel-api
   - ext-growthexperiments-welcomesurvey-api
   - ext-jade-api
+  - ext-massmessage-api
   - ext-mobilefrontend-api
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-scribunto-api

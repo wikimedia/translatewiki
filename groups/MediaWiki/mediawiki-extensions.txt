@@ -1544,10 +1544,16 @@ ignored = action-markashelpful-view, action-markashelpful-admin
 Mass Edit Regex
 aliasfile = MassEditRegex/MassEditRegex.alias.php
 
-Mass Message
+Mass Message - User interface
+id = ext-massmessage-user
+file = MassMessage/i18n/%CODE%.json
 aliasfile = MassMessage/MassMessage.alias.php
 magicfile = MassMessage/MassMessage.i18n.magic.php
 ignored = massmessage-target, massmessage-message-footer, massmessage-target-local
+
+Mass Message - API
+id = ext-massmessage-api
+file = MassMessage/i18n/api/%CODE%.json
 
 Mass Message Email
 

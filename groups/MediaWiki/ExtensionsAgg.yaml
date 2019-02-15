@@ -175,6 +175,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-massmessage
+  label: Mass Message
+  description: '{{Special:MyLanguage/MediaWiki:Massmessage-desc/en}}'
+
+GROUPS:
+  - ext-massmessage-*
+
+---
+BASIC:
   id: ext-scribunto
   label: Scribunto
 
