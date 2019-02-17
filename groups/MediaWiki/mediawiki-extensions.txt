@@ -2729,8 +2729,6 @@ ignored = accesskey-watchsubpages-submit
 Web Chat
 aliasfile = WebChat/WebChat.alias.php
 
-Web Platform Auth
-
 White Space
 
 Whitelist Pages
