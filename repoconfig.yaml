@@ -700,6 +700,7 @@ wikipedia-android:
     wikipedia-android:
       type: github
       url: https://github.com/wikimedia/apps-android-wikipedia.git
+      branch|export: twn
       url|export: git@github.com:wikimedia/apps-android-wikipedia.git
 
 wikipedia-ios:
