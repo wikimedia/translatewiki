@@ -483,3 +483,12 @@ $wgTranslateSupportUrlNamespace[NS_MAZI] = [
 	'page' => 'Translating_talk:MAZI_Toolkit',
 	'params' => $lqtParams,
 ];
+
+wfAddNamespace( 1282, 'Wikidocumentaries' );
+$wgCapitalLinkOverrides[NS_WIKIDOCUMENTARIES] = false;
+$wgCapitalLinkOverrides[NS_WIKIDOCUMENTARIES_TALK] = false;
+$wgTranslateGroupFiles[] = "$GROUPS/Wikidocumentaries/Wikidocumentaries.yaml";
+$wgTranslateSupportUrlNamespace[NS_WIKIDOCUMENTARIES] = [
+	'url' => 'https://github.com/Wikidocumentaries/wikidocumentaries-ui/new',
+	'params' => $githubParams,
+];

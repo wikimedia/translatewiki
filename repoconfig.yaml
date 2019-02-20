@@ -635,6 +635,14 @@ wikidata:
       url: https://gerrit.wikimedia.org/r/wikidata/query/gui
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikidata/query/gui
 
+wikidocumentaries:
+  group: wikidocumentaries
+  repos:
+    Wikidocumentaries/wikidocumentaries-ui:
+      type: github
+      url: https://github.com/Wikidocumentaries/wikidocumentaries-ui
+      url|export: git@github.com:Wikidocumentaries/wikidocumentaries-ui
+
 wikiedudashboard:
   group: wikiedudashboard
   export-threshold: 1

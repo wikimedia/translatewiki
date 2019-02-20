@@ -1,0 +1,17 @@
+BASIC:
+  id: wikidocumentaries
+  label: Wikidocumentaries
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikidocumentaries/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIDOCUMENTARIES
+
+MANGLER:
+  class: StringMatcher
+  prefix: ui-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/Wikidocumentaries/wikidocumentaries-ui/src/store/translation/%CODE%.json"
+  nestingSeparator: .
