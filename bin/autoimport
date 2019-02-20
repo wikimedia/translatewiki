@@ -7,7 +7,7 @@ SCRIPT="$WIKI/extensions/Translate/scripts/processMessageChanges.php"
 NAME="non-mediawiki"
 
 cd /resources/projects
-php "$DIRSCRIPT/../repong/repong.php" list | grep -v ^mediawiki | grep -v dissemin | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
+php "$DIRSCRIPT/../repong/repong.php" list | grep -v ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
 
 if OUTPUT=$(php "$SCRIPT" --name "$NAME" --safe-import --group=* --skipgroup=ext-*,core,mediawiki*)
 then
