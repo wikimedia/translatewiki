@@ -31,6 +31,14 @@ FILES:
     # This file is distributed under the same license as the Dissemin package.
     #
 
+  codeMap:
+    en-gb: en_GB
+    en-us: en_US
+    pt:    pt
+    pt-br: pt_BR
+    zh-hans: zh_Hans
+    zh-hant: zh_Hant
+
 ---
 BASIC:
   id: dissemin-papers
@@ -51,3 +59,11 @@ FILES:
   class: GettextFFS
   sourcePattern: "%GROUPROOT%/dissemin/locale/%CODE%/LC_MESSAGES/djangojs.po"
   definitionFile: "%GROUPROOT%/dissemin/locale/djangojs.pot"
+
+  codeMap:
+    en-gb: en_GB
+    en-us: en_US
+    pt:    pt
+    pt-br: pt_BR
+    zh-hans: zh_Hans
+    zh-hant: zh_Hant
