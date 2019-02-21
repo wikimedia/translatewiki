@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5bbd8092_cc15016b",
+        "filename": "groups/Dissemin/Dissemin.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-02-21T15:34:11Z",
+      "side": 1,
+      "message": "This needs to be defined (by creating an own MessageChecker class). It doesn\u0027t exist in MessageChecker class: https://codesearch.wmflabs.org/search/?q\u003dvariablesCheck\u0026i\u003dnope\u0026files\u003d\u0026repos\u003d",
+      "revId": "ac4b10354bd4a05092045b3c7dd1d1f27420cb98",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ea7d0e83_0ff8c38e",
+        "filename": "groups/Dissemin/Dissemin.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-02-21T15:34:11Z",
+      "side": 1,
+      "message": "These are only defined in MediaWikiMessageChecker class.\n\nthe pluralFormsCheck uses MediaWiki plural rules, which are not necessarily the same as what we have for Gettext plural rules, and hence it is likely not to be appropriate here.",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 22
+      },
+      "revId": "ac4b10354bd4a05092045b3c7dd1d1f27420cb98",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
