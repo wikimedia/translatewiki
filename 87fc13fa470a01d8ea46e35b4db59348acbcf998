@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff78981e_09f0850e",
+        "filename": "groups/Dissemin/Dissemin.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-02-21T10:13:29Z",
+      "side": 1,
+      "message": "Are you sure you need this? I think it was a special case for FreeCol.",
+      "revId": "87fc13fa470a01d8ea46e35b4db59348acbcf998",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
