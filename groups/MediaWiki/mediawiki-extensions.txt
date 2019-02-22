@@ -2114,8 +2114,6 @@ Related Articles
 
 # Related Links // No qqq, no message prefix
 
-Related Sites
-
 Rename user
 aliasfile = Renameuser/Renameuser.alias.php
 ignored = renameuser-summary, logentry-renameuser-renameuser-legaciest
