@@ -1207,6 +1207,9 @@ GPG Mail
 Graph
 aliasfile = Graph/Graph.alias.php
 
+Graph QL
+aliasfile = GraphQL/GraphQL.alias.php
+
 GraphViz
 
 Groups Sidebar
