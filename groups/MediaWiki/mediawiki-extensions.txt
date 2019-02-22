@@ -1237,6 +1237,10 @@ Growth Experiments - Help Panel API
 id = ext-growthexperiments-helppanel-api
 file = GrowthExperiments/i18n/help/api/%CODE%.json
 
+Growth Experiments - Homepage
+id = ext-growthexperiments-homepage
+file = GrowthExperiments/i18n/homepage/%CODE%.json
+
 Guided Tour
 optional = guidedtour-tour-test-wikitext-description
 
