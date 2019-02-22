@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b072b02a_d137909c",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-02-22T09:40:15Z",
+      "side": 1,
+      "message": "I think this part is redundant in these groups. For comparison, the top level group for MediaWiki is just called MediaWiki, not \"MediaWiki messages - all\".",
+      "range": {
+        "startLine": 31,
+        "startChar": 19,
+        "endLine": 31,
+        "endChar": 34
+      },
+      "revId": "f751ed91d507dc6438775615e9d77524b74ae447",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
