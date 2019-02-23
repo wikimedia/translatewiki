@@ -2864,10 +2864,6 @@ Wikibase Quality Constraints
 aliasfile = WikibaseQualityConstraints/WikibaseQualityConstraints.alias.php
 ignored = wbqc-constraintreport-form-entityid-placeholder
 
-Wikibase Quality External Validation
-aliasfile = WikibaseQualityExternalValidation/WikibaseQualityExternalValidation.alias.php
-ignored = wbqev-crosscheck-form-entityid-placeholder, wbqev-violation-long-message-headline
-
 # Wikibase Query // Archived
 
 Wikibase Schema
