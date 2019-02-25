@@ -420,6 +420,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/spellcheck/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-standardizeinterwiki
+  label: Pywikibot Standardize Interwiki
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/standardize_interwiki/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-statesredirect
   label: Pywikibot States Redirect
 
