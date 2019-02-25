@@ -58,6 +58,9 @@ Add This
 Admin Links
 aliasfile = AdminLinks/AdminLinks.alias.php
 
+Advanced Meta
+descmsg = ameta-desc
+
 Advanced Search
 ignored = advancedsearch-filesize-equals-symbol, advancedsearch-filesize-greater-than-symbol, advancedsearch-filesize-smaller-than-symbol
 
