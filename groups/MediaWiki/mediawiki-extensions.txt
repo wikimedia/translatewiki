@@ -2734,6 +2734,9 @@ ignored = accesskey-watchsubpages-submit
 Web Chat
 aliasfile = WebChat/WebChat.alias.php
 
+Web DAV
+aliasfile = WebDAV/languages/WebDAV.alias.php
+
 White Space
 
 Whitelist Pages
