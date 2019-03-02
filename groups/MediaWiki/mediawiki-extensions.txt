@@ -2845,7 +2845,8 @@ ignored = wikibase-aliases-separator
 Wikibase - Repo - API
 file = Wikibase/repo/i18n/api/%CODE%.json
 
-# Wikibase Cirrus Search // 2018-05-15 Empty repo
+Wikibase Cirrus Search
+descmsg = wikibasecirrus-desc
 
 Wikibase Lexeme
 id = ext-wikibaselexeme-user
