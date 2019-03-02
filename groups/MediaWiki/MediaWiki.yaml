@@ -180,6 +180,7 @@ TAGS:
     - parentheses-end
     - parentheses-start
     - passwordpolicies-policy-display
+    - passwordpolicies-policy-displaywithflags
     - percent
     - pipe-separator
     - prefs-memberingroups-type
