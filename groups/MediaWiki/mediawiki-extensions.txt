@@ -557,6 +557,8 @@ Cognate
 Collaboration Kit
 aliasfile = CollaborationKit/CollaborationKit.alias.php
 
+# Collapsible Sections // 2019-03-02 empty repo
+
 Collapsible Vector
 
 Collection
@@ -2022,7 +2024,7 @@ magicfile = PopupPages/PopupPages.i18n.magic.php
 
 Popups
 
-# Preferences List // 2018-05-15: Empy repo
+# Preferences List // 2019-03-02: i18n review pending https://gerrit.wikimedia.org/r/#/c/mediawiki/extensions/PreferencesList/+/399772/
 
 Prezi
 
@@ -2158,6 +2160,8 @@ Sandbox Link
 ignored = sandboxlink-editintro-pagename, sandboxlink-preload-pagename
 
 Sarcasm
+
+# Save Spinner // 2019-03-02 empty repo
 
 Score
 optional = score-visualeditor-mwscoreinspector-lang-abc, score-visualeditor-mwscoreinspector-lang-lilypond

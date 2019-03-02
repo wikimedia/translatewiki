@@ -1,5 +1,9 @@
 Amethyst
 
+Anisa
+ignored = anisa-loggedinas, anisa-notloggedin, content-footer
+optional = skinname-anisa
+
 apex
 optional = apex.css, apex.js
 
