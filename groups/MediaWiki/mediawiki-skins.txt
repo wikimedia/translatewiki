@@ -64,6 +64,7 @@ optional = monobook.css, monobook.js
 
 Nimbus
 ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
+ignored = nimbus-specialpages, nimbus-specialpages-url
 
 Nostalgia
 optional = nostalgia.css, nostalgia.js
