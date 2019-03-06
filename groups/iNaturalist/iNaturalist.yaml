@@ -38,6 +38,8 @@ AUTOLOAD:
 
 TAGS:
   optional:
+    - date.formats.compact
+    - time.formats.compact
     - number.currency.format.significant
     - number.currency.format.strip_insignificant_zeros
     - number.format.significant
