@@ -25,14 +25,6 @@ blockly:
       url: https://github.com/google/blockly-games.git
       url|export: git@github.com:google/blockly-games.git
 
-citationhunt:
-  group: citationhunt
-  repos:
-    citationhunt:
-      type: github
-      url: https://github.com/eggpi/citationhunt.git
-      url|export: git@github.com:eggpi/citationhunt.git
-
 codev:
   group: codev
   repos:
@@ -49,14 +41,6 @@ commons-android:
       type: github
       url: https://github.com/commons-app/apps-android-commons.git
       url|export: git@github.com:commons-app/apps-android-commons.git
-
-copypatrol:
-  group: copypatrol
-  repos:
-    copypatrol:
-      type: github
-      url: https://github.com/wikimedia/CopyPatrol.git
-      url|export: git@github.com:wikimedia/CopyPatrol.git
 
 dissemin:
   group: dissemin-*
@@ -109,14 +93,6 @@ gapfinder:
       url: https://gerrit.wikimedia.org/r/research/recommendation-api
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/research/recommendation-api
 
-grant-metrics:
-  group: grant-metrics
-  repos:
-    grant-metrics:
-      type: github
-      url: https://github.com/wikimedia/grantmetrics.git
-      url|export: git@github.com:wikimedia/grantmetrics.git
-
 hivejs:
   group: hivejs-*
   repos:
@@ -153,14 +129,6 @@ huggle:
       url: https://github.com/huggle/huggle3-qt-lx.git
       url|export: git@github.com:huggle/huggle3-qt-lx.git
 
-ia-upload:
-  group: ia-upload
-  repos:
-    ia-upload:
-      type: github
-      url: https://github.com/wikisource/ia-upload.git
-      url|export: git@github.com:wikisource/ia-upload.git
-
 inaturalist:
   group: out-inaturalist
   repos:
@@ -169,22 +137,6 @@ inaturalist:
       branch: i18n
       url: https://github.com/inaturalist/inaturalist.git
       url|export: git@github.com:inaturalist/inaturalist.git
-
-interaction-timeline:
-  group: interaction-timeline
-  repos:
-    interaction-timeline:
-      type: github
-      url: https://github.com/wikimedia/interactiontimeline.git
-      url|export: git@github.com:wikimedia/InteractionTimeline.git
-
-internetarchivebot:
-  group: internetarchivebot
-  repos:
-    internetarchivebot:
-      type: github
-      url: https://github.com/cyberpower678/Cyberbot_II.git
-      url|export: git@github.com:cyberpower678/Cyberbot_II.git
 
 intuition:
   group: tsint-*
@@ -224,14 +176,6 @@ intuition-tools:
       type: github
       url: https://github.com/wikimedia/CommonsNotifier.git
       url|export: git@github.com:wikimedia/CommonsNotifier.git
-
-jquery.uls:
-  group: jquery-uls
-  repos:
-    jquery.uls:
-      type: github
-      url: https://github.com/wikimedia/jquery.uls.git
-      url|export: git@github.com:wikimedia/jquery.uls.git
 
 kiwix:
   group: kiwix
@@ -543,14 +487,6 @@ osm:
       url: https://github.com/systemed/potlatch2.git
       url|export: git@github.com:systemed/potlatch2.git
 
-pageviews:
-  group: pageviews
-  repos:
-    pageviews:
-      type: github
-      url: https://github.com/MusikAnimal/pageviews.git
-      url|export: git@github.com:MusikAnimal/pageviews.git
-
 phabricator:
   group: phabricator-*
   repos:
@@ -586,14 +522,6 @@ vicuna:
       type: github
       url: https://github.com/yarl/vicuna.git
       url|export: git@github.com:yarl/vicuna.git
-
-video2commons:
-  group: video2commons
-  repos:
-    video2commons:
-      type: github
-      url: https://github.com/Toollabs/video2commons.git
-      url|export: git@github.com:Toollabs/video2commons.git
 
 waymarked-trails-site:
   group: out-waymarked-trails*
@@ -660,6 +588,50 @@ wikimania:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/wikimedia/wikimania-scholarships
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/wikimania-scholarships
+
+wikimedia-github:
+  group: copypatrol,grant-metrics,interaction-timeline,jquery-uls
+  repos:
+    copypatrol:
+      type: github
+      url: https://github.com/wikimedia/CopyPatrol.git
+      url|export: git@github.com:wikimedia/CopyPatrol.git
+    grant-metrics:
+      type: github
+      url: https://github.com/wikimedia/grantmetrics.git
+      url|export: git@github.com:wikimedia/grantmetrics.git
+    interaction-timeline:
+      type: github
+      url: https://github.com/wikimedia/interactiontimeline.git
+      url|export: git@github.com:wikimedia/InteractionTimeline.git
+    jquery.uls:
+      type: github
+      url: https://github.com/wikimedia/jquery.uls.git
+      url|export: git@github.com:wikimedia/jquery.uls.git
+
+wikimedia-misc-tools:
+  group: citationhunt,internetarchivebot,pageviews,video2commons,xtools
+  repos:
+    citationhunt:
+      type: github
+      url: https://github.com/eggpi/citationhunt.git
+      url|export: git@github.com:eggpi/citationhunt.git
+    internetarchivebot:
+      type: github
+      url: https://github.com/cyberpower678/Cyberbot_II.git
+      url|export: git@github.com:cyberpower678/Cyberbot_II.git
+    pageviews:
+      type: github
+      url: https://github.com/MusikAnimal/pageviews.git
+      url|export: git@github.com:MusikAnimal/pageviews.git
+    video2commons:
+      type: github
+      url: https://github.com/Toollabs/video2commons.git
+      url|export: git@github.com:Toollabs/video2commons.git
+    xtools:
+      type: github
+      url: https://github.com/x-tools/xtools.git
+      url|export: git@github.com:x-tools/xtools.git
 
 wikimedia-portals:
   group: wikimedia-portals
@@ -735,6 +707,18 @@ wikipedia-library:
       branch|export: master
       url|export: git@github.com:WikipediaLibrary/TWLight.git
 
+wikisource:
+  group: wscontest,ia-upload
+  repos:
+    ia-upload:
+      type: github
+      url: https://github.com/wikisource/ia-upload.git
+      url|export: git@github.com:wikisource/ia-upload.git
+    wscontest:
+      type: github
+      url: https://github.com/wikisource/wscontest.git
+      url|export: git@github.com:wikisource/wscontest.git
+
 wmcz-tracker:
   group: wmcz-tracker
   repos:
@@ -743,18 +727,3 @@ wmcz-tracker:
       url: https://gerrit.wikimedia.org/r/wikimedia-cz/tracker
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia-cz/tracker
 
-wscontest:
-  group: wscontest
-  repos:
-    wscontest:
-      type: github
-      url: https://github.com/wikisource/wscontest.git
-      url|export: git@github.com:wikisource/wscontest.git
-
-xtools:
-  group: xtools
-  repos:
-    xtools:
-      type: github
-      url: https://github.com/x-tools/xtools.git
-      url|export: git@github.com:x-tools/xtools.git
