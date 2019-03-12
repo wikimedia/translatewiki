@@ -1,0 +1,25 @@
+BASIC:
+  id: wscontest
+  label: Wikisource Contest Tool
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wscontest/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: wscontest-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wscontest/lang/%CODE%.json"
+
+CHECKER:
+  class: MediaWikiMessageChecker
+  checks:
+    - wikiParameterCheck
+    - braceBalanceCheck
+
+INSERTABLES:
+  class: MediaWikiInsertablesSuggester
