@@ -873,12 +873,6 @@ Editcount Additions
 Edit User
 aliasfile = EditUser/EditUser.alias.php
 
-Education Program
-aliasfile = EducationProgram/EducationProgram.i18n.alias.php
-optional = ep-course-edit-name-format
-ignored = accesskey-ep-form-save, accesskey-ep-edit-institution, accesskey-ep-edit-course, accesskey-ep-summary
-ignored = accesskey-ep-minor
-
 Elastica
 
 Electron Pdf Service
