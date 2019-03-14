@@ -43,7 +43,7 @@ BASIC:
   description: '{{Special:MyLanguage/MediaWiki:Centralauth-desc/en}}'
 
 GROUPS:
-  -ext-centralauth-*
+  - ext-centralauth-*
 
 ---
 BASIC:
