@@ -2021,7 +2021,8 @@ magicfile = PopupPages/PopupPages.i18n.magic.php
 
 Popups
 
-# Preferences List // 2019-03-02: i18n review pending https://gerrit.wikimedia.org/r/#/c/mediawiki/extensions/PreferencesList/+/399772/
+Preferences List
+aliasfile = PreferencesList/PreferencesList.i18n.alias.php
 
 Prezi
 
