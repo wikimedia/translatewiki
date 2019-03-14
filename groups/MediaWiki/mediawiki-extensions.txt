@@ -1664,7 +1664,7 @@ Namespace Paths
 Namespace Relations
 descmsg = nsrels-desc
 
-# Namespace Sidebar // 2018-03-22: Still empty repo
+Namespace Sidebar
 
 Natural Language List
 descmsg = nll-desc
