@@ -1,5 +1,5 @@
 # file managed by puppet
-@weekly www-data find /www/translatewiki.net/docroot/images/thumb/ -name "*.png" -type f -print0 | nice xargs -0 -P4 -I{} optipng -o7 {} 1> /dev/null
+@monthly find /resources/caches/translatewiki.net/ -maxdepth 1 -ctime +1000 -print0 | xargs -0 -I{} rm -rf -- "{}"
 @weekly <%= @user %> nice php /srv/mediawiki/targets/production/maintenance/generateSitemap.php --fspath /www/translatewiki.net/docroot/sitemap/ --skip-redirects --urlpath https://translatewiki.net/sitemap/
 @weekly <%= @user %> nice php /srv/mediawiki/targets/production/maintenance/updateSpecialPages.php -q
 30 */2 * * * <%= @user %> <%= @config %>/bin/autoimport > /dev/null
