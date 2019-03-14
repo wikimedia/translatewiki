@@ -89,7 +89,15 @@ $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaWikivoyageAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/ExtensionsAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/SkinsAgg.yaml";
+$wgTranslateGroupAliases['ext-cirrussearch-0-all'] = 'ext-cirrussearch';
+$wgTranslateGroupAliases['ext-contenttranslation-0-all'] = 'ext-contenttranslation';
+$wgTranslateGroupAliases['ext-flaggedrevs-0-all'] = 'ext-flaggedrevs';
+$wgTranslateGroupAliases['ext-flow-0-all'] = 'ext-flow';
 $wgTranslateGroupAliases['ext-installer'] = 'mediawiki-installer';
+$wgTranslateGroupAliases['ext-semantic-0-all'] = 'ext-semantic';
+$wgTranslateGroupAliases['ext-translate-0-all'] = 'ext-translate';
+$wgTranslateGroupAliases['ext-universallanguageselector-0-all'] = 'ext-universallanguageselector';
+$wgTranslateGroupAliases['ext-visualeditor-0-all'] = 'ext-visualeditor';
 
 $wgTranslateGroupFiles[] = "$GROUPS/PageTranslationAgg.yaml";
 

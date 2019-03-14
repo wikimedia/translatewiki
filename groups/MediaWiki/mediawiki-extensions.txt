@@ -24,8 +24,9 @@ ignored = 3d-patents
 
 Absentee Landlord
 
-Abuse Filter
+Abuse Filter - User interface
 id = ext-abusefilter-user
+file = AbuseFilter/i18n/%CODE%.json
 optional = abusefilter-edit-builder-op-bool-xor
 aliasfile = AbuseFilter/AbuseFilter.alias.php
 
@@ -464,7 +465,7 @@ optional = categorytree-expand-bullet, categorytree-empty-bullet
 
 Category Watch
 
-Central Auth
+Central Auth - User interface
 id = ext-centralauth-user
 file = CentralAuth/i18n/%CODE%.json
 aliasfile = CentralAuth/CentralAuth.alias.php
@@ -500,8 +501,9 @@ Char Range Span
 
 Checkpoint
 
-Check User
+Check User - User interface
 id = ext-checkuser-user
+file = CheckUser/i18n/%CODE%.json
 aliasfile = CheckUser/CheckUser.alias.php
 ignored = checkuser-toollinks, checkuser-userlinks-ip
 optional = group-checkuser.css, group-checkuser.js
@@ -510,7 +512,9 @@ Check User - API
 id = ext-checkuser-api
 file = CheckUser/i18n/api/%CODE%.json
 
-Cirrus Search
+Cirrus Search - User interface
+id = ext-cirrussearch-api
+file = CirrusSearch/i18n/api/%CODE%.json
 
 Cirrus Search - API
 id = ext-cirrussearch-api
@@ -656,7 +660,9 @@ file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/%CODE%.json
 Contact Page
 aliasfile = ContactPage/ContactPage.alias.php
 
-Content Translation
+Content Translation - User interface
+id = ext-contenttranslation-user
+file = ContentTranslation/i18n/%CODE%.json
 descmsg = cx-desc
 aliasfile = ContentTranslation/ContentTranslation.alias.php
 ignored = cx-tools-view-guidelines-link, cx-descriptionpagelink, cx2-descriptionpagelink
@@ -848,7 +854,7 @@ Dynamic Page List Engine
 
 Dynamic Sidebar
 
-Echo - Interface
+Echo - User interface
 file = Echo/i18n/%CODE%.json
 id = ext-echo-interface
 aliasfile = Echo/Echo.alias.php
@@ -1032,7 +1038,9 @@ descmsg = flaggedrevs-desc
 
 Flickr API
 
-Flow
+Flow - User interface
+id = ext-flow-user
+file = Flow/i18n/%CODE%.json
 aliasfile = Flow/Flow.alias.php
 ignored = flow-hide-usertext, flow-delete-usertext, flow-system-usertext
 ignored = flow-error-invalid-action, flow-link-board
@@ -1087,8 +1095,9 @@ descmsg = fundraising-translate-workflow-desc
 
 # Gather // Archived: https://gerrit.wikimedia.org/r/#/c/290379/
 
-Gadgets
+Gadgets - User interface
 id = ext-gadgets-user
+file = Gadgets/i18n/%CODE%.json
 aliasfile = Gadgets/Gadgets.alias.php
 ignored = gadgets-definition
 
@@ -1133,8 +1142,9 @@ file = GlobalCssJs/i18n/core/%CODE%.json
 
 Global Notice
 
-Global Preferences
+Global Preferences - User interface
 id = ext-globalprefences-user
+file = GlobalPreferences/i18n/%CODE%.json
 aliasfile = GlobalPreferences/GlobalPreferences.alias.php
 descmsg = globalprefs-desc
 
@@ -1142,8 +1152,9 @@ Global Preferences - API
 id = ext-globalprefences-api
 file = GlobalPreferences/i18n/api/%CODE%.json
 
-Global Usage
+Global Usage - User interface
 id = ext-globalusage-user
+file = GlobalUsage/i18n/%CODE%.json
 aliasfile = GlobalUsage/GlobalUsage.alias.php
 ignored = globalusage-header-image
 
@@ -1216,7 +1227,7 @@ GraphViz
 
 Groups Sidebar
 
-Growth Experiments
+Growth Experiments - User interface
 id = ext-growthexperiments-user
 file = GrowthExperiments/i18n/extension/%CODE%.json
 aliasfile = GrowthExperiments/GrowthExperiments.alias.php
@@ -1348,8 +1359,9 @@ descmsg = is-desc
 file = InviteSignup/i18n/%CODE%.json
 aliasfile = InviteSignup/InviteSignup.alias.php
 
-JADE
+JADE - User interface
 id = ext-jade-user
+file = JADE/i18n/%CODE%.json
 
 JADE - API
 id = ext-jade-api
@@ -1584,8 +1596,9 @@ Mobile App
 
 Mobile Detect
 
-Mobile Frontend
+Mobile Frontend - User interface
 id = ext-mobilefrontend-user
+file = MobileFrontend/i18n/%CODE%.json
 descmsg = mobile-frontend-desc
 aliasfile = MobileFrontend/MobileFrontend.alias.php
 optional = mobile.js, mobile.css, mobile-frontend-diffview-comma
@@ -2174,8 +2187,9 @@ optional = score-visualeditor-mwscoreinspector-lang-abc, score-visualeditor-mwsc
 
 Screenplay
 
-Scribunto
+Scribunto - User interface
 id = ext-scribunto-user
+file = Scribunto/i18n/%CODE%.json
 magicfile = Scribunto/Scribunto.magic.php
 optional = scribunto-lua-backtrace-line
 optional = scribunto-limitreport-virtmemusage-value, scribunto-limitreport-memusage-value, scribunto-limitreport-profile-percent
@@ -2331,7 +2345,7 @@ Solarium
 
 Sound Manager 2 Button
 
-Spam Blacklist - Interface
+Spam Blacklist - User interface
 file = SpamBlacklist/i18n/%CODE%.json
 id = ext-spamblacklist-interface
 descmsg = spam-blacklist-desc
@@ -2418,8 +2432,9 @@ ignored = tabs-dropdown-bgcolor
 
 Tabber
 
-Template Data
+Template Data - User interface
 id = ext-templatedata-user
+file = TemplateData/i18n/%CODE%.json
 ignored = templatedata-helplink-target, templatedata-doc-subpage
 
 Template Data - API
@@ -2444,8 +2459,9 @@ Text Extracts
 
 Text Scroller
 
-Thanks
+Thanks - User interface
 id = ext-thanks-user
+file = Thanks/i18n/%CODE%.json
 aliasfile = Thanks/Thanks.alias.php
 
 Thanks - API
@@ -2463,8 +2479,9 @@ aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
 Time Machine
 aliasfile = TimeMachine/TimeMachine.alias.php
 
-Timed Media Handler
+Timed Media Handler - User interface
 id = ext-timedmediahandler-user
+file = TimedMediaHandler/i18n/%CODE%.json
 magicfile = TimedMediaHandler/i18n/TimedMediaHandler.i18n.magic.php
 aliasfile = TimedMediaHandler/i18n/TimedMediaHandler.i18n.alias.php
 optional = timedmedia-ogg, timedmedia-webm, timedmedia-wav
@@ -2521,8 +2538,9 @@ ignored = timezoneselector-message-short
 
 # Tiny MCE // 2018-06-16: No qqq
 
-Title Blacklist
+Title Blacklist - User interface
 id = ext-titleblacklist-user
+file = TitleBlacklist/i18n/%CODE%.json
 
 Title Blacklist - API
 id = ext-titleblacklist-api
@@ -2546,7 +2564,7 @@ id = ext-translate-api
 file = Translate/i18n/api/%CODE%.json
 ignored = apierror-translate-invalidfilter, apierror-translate-sandbox-invalidparam
 
-Translate - Core
+Translate - Core user interface
 id = ext-translate-core
 file = Translate/i18n/core/%CODE%.json
 descmsg = translate-desc
@@ -2555,7 +2573,7 @@ aliasfile = Translate/Translate.alias.php
 optional = translate-page-paging-links, supportedlanguages-portallink, supportedlanguages-portallink-nocldr
 ignored = supportedlanguages-localsummary
 
-Translate - Page Translation
+Translate - Page translation
 id = ext-translate-pagetranslation
 file = Translate/i18n/pagetranslation/%CODE%.json
 descmsg = tpt-desc
@@ -2607,7 +2625,9 @@ Un Captcha
 
 Unicode Converter
 
-Universal Language Selector
+Universal Language Selector - User interface
+id = ext-universallanguageselector-user
+file = UniversalLanguageSelector/i18n/%CODE%.json
 descmsg = uls-desc
 ignored = uls-ime-helppage
 
@@ -2626,8 +2646,9 @@ Upload Blacklist
 
 # Upload Logo // no message prefix
 
-Upload Wizard
+Upload Wizard - User interface
 id = ext-uploadwizard-user
+file = UploadWizard/i18n/%CODE%.json
 aliasfile = UploadWizard/UploadWizard.alias.php
 optional = group-upwizcampeditors.css, group-upwizcampeditors.js
 optional = mwe-upwiz-license-custom-url
@@ -2644,8 +2665,9 @@ UR Names
 
 Url Get Parameters
 
-Url Shortener
+Url Shortener - User interface
 id = ext-urlshortener-user
+file = UrlShortener/i18n/%CODE%.json
 aliasfile = UrlShortener/UrlShortener.alias.php
 
 Url Shortener - API
@@ -2795,7 +2817,9 @@ file = WikiLexicalData/i18n/omegawiki/%CODE%.json
 id = ext-wikilexicaldata-omegawiki
 descmsg = apiow-desc
 
-Wiki Love
+Wiki Love - User interface
+id = ext-wikilove-user
+file = WikiLove/i18n/%CODE%.json
 optional = wikilove-commons-url, wikilove-commons-link, wikilove-what-is-this-link, wikilove-terms-url
 
 Wiki Love - API
@@ -2806,7 +2830,7 @@ Wiki Loves Monuments
 
 Wiki Text Logged In Out
 
-Wikibase - Client
+Wikibase - Client - User interface
 file = Wikibase/client/i18n/%CODE%.json
 id = ext-wikibase-client-interface
 aliasfile = Wikibase/client/WikibaseClient.i18n.alias.php
@@ -2825,7 +2849,7 @@ descmsg = wikibaselib-desc
 optional = wikibase-monolingualtext
 ignored = wikibase-SortedProperties
 
-Wikibase - Repo
+Wikibase - Repo - User interface
 file = Wikibase/repo/i18n/%CODE%.json
 id = ext-wikibase-repo-interface
 descmsg = wikibase-desc
@@ -2856,8 +2880,9 @@ file = Wikibase/repo/i18n/api/%CODE%.json
 Wikibase Cirrus Search
 descmsg = wikibasecirrus-desc
 
-Wikibase Lexeme
+Wikibase Lexeme - User interface
 id = ext-wikibaselexeme-user
+file = WikibaseLexeme/i18n/%CODE%.json
 aliasfile = WikibaseLexeme/WikibaseLexeme.i18n.alias.php
 ignored = wikibaselexeme-description
 optional = wikibaselexeme-presentation-lexeme-secondary-label, wikibaselexeme-lexeme-link-title
