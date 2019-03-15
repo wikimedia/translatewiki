@@ -1722,7 +1722,8 @@ descmsg = newsextension-desc
 # News Box // New import from Shoutwiki, messages need rewording
 
 News Ticker
-aliasfile = NewsTicker/i18n/NewsTicker.i18n.alias.php
+aliasfile = NewsTicker/i18n/NewsTicker.alias.php
+magicfile = NewsTicker/i18n/NewsTicker.magic.php
 
 Newsletter
 aliasfile = Newsletter/Newsletter.alias.php
