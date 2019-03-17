@@ -41,7 +41,6 @@ may
 searchbutton
 wikimedia-developers
 retrievedfrom
-site-atom-feed
 tooltip-search-fulltext
 tooltip-search
 searchsuggest-search
@@ -239,10 +238,7 @@ tooltip-invert
 tooltip-namespace_association
 namespace_association
 history
-page-atom-feed
-feed-atom
 wm-license-cc-conditions-attribution-header
-tooltip-feed-atom
 rcshowhidebots
 rcshowhideliu
 recentchanges-legend-plusminus
@@ -586,7 +582,6 @@ histlegend
 compareselectedversions
 ipboptions
 contributions-title
-recentchanges-feed-description
 sp-contributions-logs
 sp-contributions-username
 sp-contributions-toponly
@@ -608,7 +603,6 @@ protectedarticle
 protect-default
 uploadlogpage
 userpage-userdoesnotexist-view
-history-feed-item-nocomment
 logentry-move-move-noredirect
 license
 searchmenu-exists
@@ -685,7 +679,6 @@ logentry-newusers-autocreate
 randomrootpage
 redirect
 recreate-moveddeleted-warn
-recentchangeslinked-feed
 diff-multi-otherusers
 redirect-value
 redirect-user
