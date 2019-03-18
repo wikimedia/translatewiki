@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "17ee0cec_e6bb804c",
+        "filename": "puppet/modules/users/manifests/init.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-03-18T07:43:21Z",
+      "side": 1,
+      "message": "You can add `purge_ssh_keys \u003d\u003e true` to ensure puppet is the only source of truth for what ssh keys are enabled for you.",
+      "revId": "57b5a39525823b5ddc60dbe9e3f50ae5b4f845c2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "51b52444_8c1e53a8",
+        "filename": "puppet/modules/users/manifests/init.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-03-18T07:43:21Z",
+      "side": 1,
+      "message": "\u0027puppet/modules/users/manifests/init.pp:222 WARNING line has more than 140 characters (140chars)\u0027\n\nThis can be worked around by adding\n# lint:ignore:140chars\n# lint:endignore\naround it.",
+      "revId": "57b5a39525823b5ddc60dbe9e3f50ae5b4f845c2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
