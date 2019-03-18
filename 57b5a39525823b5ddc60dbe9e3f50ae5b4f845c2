@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "2c7bcc38_eb237c96",
+        "filename": "puppet/modules/users/manifests/init.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-03-18T08:50:59Z",
+      "side": 1,
+      "message": "OK, done. Doc - https://puppet.com/docs/puppet/5.3/types/ssh_authorized_key.html#ssh_authorized_key-description",
+      "parentUuid": "17ee0cec_e6bb804c",
+      "revId": "57b5a39525823b5ddc60dbe9e3f50ae5b4f845c2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "51b52444_8c1e53a8",
         "filename": "puppet/modules/users/manifests/init.pp",
         "patchSetId": 1
@@ -33,6 +51,24 @@
       "revId": "57b5a39525823b5ddc60dbe9e3f50ae5b4f845c2",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c35df6f2_469cedc0",
+        "filename": "puppet/modules/users/manifests/init.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-03-18T08:50:59Z",
+      "side": 1,
+      "message": "Oops, not sure how I missed the failing build. Thanks for the tip.",
+      "parentUuid": "51b52444_8c1e53a8",
+      "revId": "57b5a39525823b5ddc60dbe9e3f50ae5b4f845c2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
