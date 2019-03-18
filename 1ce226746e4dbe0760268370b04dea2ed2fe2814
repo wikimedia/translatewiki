@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d7236489_bd8f4251",
+        "filename": "puppet/modules/users/manifests/init.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-03-18T12:08:56Z",
+      "side": 1,
+      "message": "Trying to apply this gives: Parameter key failed on Ssh_authorized_key[abijeetpatro@wikimedia]: Key must not contain whitespace\n\nThe comment part comes already from line 219.",
+      "revId": "1ce226746e4dbe0760268370b04dea2ed2fe2814",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
