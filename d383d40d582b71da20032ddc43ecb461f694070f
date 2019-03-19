@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a532390_ea2c0276",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-03-19T16:23:13Z",
+      "side": 1,
+      "message": "Space here for consistency.",
+      "range": {
+        "startLine": 170,
+        "startChar": 12,
+        "endLine": 170,
+        "endChar": 14
+      },
+      "revId": "d383d40d582b71da20032ddc43ecb461f694070f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "89331455_a2add472",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-03-19T16:23:13Z",
+      "side": 1,
+      "message": "Please follow the pattern in labels and remove this part",
+      "range": {
+        "startLine": 170,
+        "startChar": 20,
+        "endLine": 170,
+        "endChar": 35
+      },
+      "revId": "d383d40d582b71da20032ddc43ecb461f694070f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
