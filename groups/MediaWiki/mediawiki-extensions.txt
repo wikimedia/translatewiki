@@ -519,8 +519,8 @@ id = ext-checkuser-api
 file = CheckUser/i18n/api/%CODE%.json
 
 Cirrus Search - User interface
-id = ext-cirrussearch-api
-file = CirrusSearch/i18n/api/%CODE%.json
+id = ext-cirrussearch-user
+file = CirrusSearch/i18n/%CODE%.json
 
 Cirrus Search - API
 id = ext-cirrussearch-api
