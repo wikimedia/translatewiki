@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5aa4529b_8dd6406d",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1549,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-03-19T17:05:27Z",
+      "side": 1,
+      "message": "Change to Mass Message - User interface",
+      "revId": "46474c458cd7a1cd07ecd6d22db50ee023c9d590",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "040a58fe_797673a6",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1550,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-03-19T17:05:27Z",
+      "side": 1,
+      "message": "Add file \u003d MassMessage/i18n/%CODE%.json",
+      "revId": "46474c458cd7a1cd07ecd6d22db50ee023c9d590",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
