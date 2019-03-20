@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "201629ad_8e5e9a04",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 605,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2019-03-20T16:05:39Z",
+      "side": 1,
+      "message": "Please remove these 5 comments too. Belong to Configure extension.",
+      "revId": "17f43720aa6fdb75c39f6c54557bafd7d2cdb2a2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
