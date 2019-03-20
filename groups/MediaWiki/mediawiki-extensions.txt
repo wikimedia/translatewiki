@@ -71,7 +71,7 @@ Anchor Handler
 
 Anon Privacy
 
-Anti Spoof - Interface
+Anti Spoof - User interface
 id = ext-antispoof-user
 file = AntiSpoof/i18n/%CODE%.json
 ignored = antispoof-conflict-item, antispoof-bad-char-non-printable

@@ -28,7 +28,7 @@ GROUPS:
 ---
 BASIC:
   id: ext-antispoof
-  label: Anti Spoof messages - all
+  label: Anti Spoof
   description: '{{Special:MyLanguage/MediaWiki:Antispoof-desc/en}}'
 
 GROUPS:
@@ -304,7 +304,7 @@ GROUPS:
 ---
 BASIC:
   id: ext-wikilove
-  label: WikiLove messages
+  label: Wiki Love
   description: '{{Special:MyLanguage/MediaWiki:Wikilove-desc/en}}'
 
 GROUPS:
