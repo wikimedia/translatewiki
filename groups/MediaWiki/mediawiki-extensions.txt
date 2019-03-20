@@ -602,18 +602,6 @@ Common Messages
 Commons Metadata
 ignored = commonsmetadata-doc-url
 
-Configure
-aliasfile = Configure/Configure.alias.php
-optional = configure-section-html, configure-section-ajax,configure-section-djvu, configure-section-imagemagick
-optional = configure-section-interwiki, configure-section-memcached, configure-section-tidy, configure-old-summary-datetime
-optional = configure-section-squid, configure-section-svg, configure-section-tex
-
-# Disable until it gets a maintainer (bug 52224) or the translations can be used (bug 43380)
-#Configure - Settings
-#file = Configure/settings/i18n/%CODE%.json
-#descmsg = configure-setting-desc
-#optional = configure-setting-desc
-
 Confirm Account
 file = ConfirmAccount/i18n/core/%CODE%.json
 aliasfile = ConfirmAccount/frontend/language/ConfirmAccount.alias.php
