@@ -2,7 +2,7 @@ Amethyst
 
 Anisa
 ignored = anisa-loggedinas, anisa-notloggedin, content-footer
-prefix = anisa- | content-footer
+prefix = skin-anisa- | content-footer
 optional = skinname-anisa
 
 apex
