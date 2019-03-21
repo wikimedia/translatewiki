@@ -2890,6 +2890,9 @@ Wikibase Lexeme - API
 id = ext-wikibaselexeme-user
 file = WikibaseLexeme/i18n/api/%CODE%.json
 
+Wikibase Lexeme Cirrus Search
+descmsg = wikibaselexemecirrus-desc
+
 Wikibase Media Info
 
 # Wikibase Quality // Archived base extension https://www.mediawiki.org/w/index.php?title=Extension:WikibaseQuality&oldid=3041990
