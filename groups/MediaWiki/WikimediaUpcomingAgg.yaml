@@ -16,3 +16,4 @@ GROUPS:
   - ext-growthexperiments-welcomesurvey
   - ext-growthexperiments-helppanel
   - ext-jade # https://phabricator.wikimedia.org/rOMWC6bc21f7994d5d818b2ffecb2606af14589a65c31
+  - ext-wikimediaeditortasks # https://phabricator.wikimedia.org/rOMWC2dc7629118165c3e5020ec3bb108272c122cca70
