@@ -1739,10 +1739,16 @@ News Ticker
 aliasfile = NewsTicker/i18n/NewsTicker.alias.php
 magicfile = NewsTicker/i18n/NewsTicker.magic.php
 
-Newsletter
+Newsletter - User
+id = ext-newsletter-user
+file = Newsletter/i18n/%CODE%.json
 aliasfile = Newsletter/Newsletter.alias.php
 descmsg = newsletter-extension-desc
 ignored = notification-body-newsletter-announce
+
+Newsletter - API
+id = ext-newsletter-api
+file = Newsletter/i18n/api/%CODE%.json
 
 No Bogus Userpages
 

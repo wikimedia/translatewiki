@@ -184,6 +184,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-newsletter
+  label: Newsletter
+  description: '{{Special:MyLanguage/Newsletter-extension-desc/en}}'
+
+GROUPS:
+  - ext-newsletter-*
+
+---
+BASIC:
   id: ext-scribunto
   label: Scribunto
 
