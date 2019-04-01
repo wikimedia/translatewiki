@@ -12,3 +12,4 @@ UMask=111
 ExecPre=/bin/rm -f /run/keyholder/proxy.sock
 ExecStart=/usr/local/bin/ssh-agent-proxy --bind /run/keyholder/proxy.sock --connect /run/keyholder/agent.sock
 ExecStop=/bin/rm -f /run/keyholder/proxy.sock
+RuntimeDirectory=keyholder
