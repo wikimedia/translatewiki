@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae054f60_213ce2fc",
+        "filename": "puppet/modules/keyholder/templates/initscripts/keyholder-agent.systemd.erb",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-04-02T07:19:40Z",
+      "side": 1,
+      "message": "Quoting from https://www.freedesktop.org/software/systemd/man/systemd.exec.html\n\n\u003e Use RuntimeDirectory\u003d (see below) in order to assign a writable runtime directory to a service, owned by the dynamic user/group and removed automatically when the unit is terminated.",
+      "revId": "2948a50ec6e91191c623b4ee9544c7143c79877d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
