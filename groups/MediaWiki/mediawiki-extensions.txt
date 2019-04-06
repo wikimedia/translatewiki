@@ -1763,7 +1763,7 @@ aliasfile = OATHAuth/OATHAuth.alias.php
 optional = oath
 
 OAuth
-aliasfile = OAuth/frontend/language/MWOAuth.alias.php
+aliasfile = OAuth/MWOAuth.alias.php
 descmsg = mwoauth-desc
 ignored = mwoauth-form-legal
 optional = oauth, mwoauth-listgrantrights-right-display
