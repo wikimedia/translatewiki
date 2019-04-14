@@ -666,6 +666,8 @@ Content Translation - API
 id = ext-contenttranslation-api
 file = ContentTranslation/i18n/api/%CODE%.json
 
+Contribution Credits
+
 Contribution Scores
 aliasfile = ContributionScores/ContributionScores.alias.php
 optional = score-visualeditor-mwscoreinspector-card-midi
@@ -2029,6 +2031,8 @@ aliasfile = PollNY/includes/PollNY.alias.php
 descmsg = poll-desc
 
 Pool Counter
+
+# Popup Alerts // 2019-04-14: Empty repo
 
 Popup Pages
 magicfile = PopupPages/PopupPages.i18n.magic.php
