@@ -167,7 +167,7 @@ GROUPS:
 ---
 BASIC:
   id: ext-jade
-  label: JADE
+  label: Jade
   description: '{{Special:MyLanguage/MediaWiki:Jade-desc/en}}'
 
 GROUPS:

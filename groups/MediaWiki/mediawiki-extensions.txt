@@ -1355,13 +1355,13 @@ descmsg = is-desc
 file = InviteSignup/i18n/%CODE%.json
 aliasfile = InviteSignup/InviteSignup.alias.php
 
-JADE - User interface
+Jade - User interface
 id = ext-jade-user
-file = JADE/i18n/%CODE%.json
+file = Jade/i18n/%CODE%.json
 
-JADE - API
+Jade - API
 id = ext-jade-api
-file = JADE/i18n/api/%CODE%.json
+file = Jade/i18n/api/%CODE%.json
 
 Josa
 
