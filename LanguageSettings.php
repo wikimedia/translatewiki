@@ -113,6 +113,7 @@ $wgExtraLanguageNames['trv'] = 'Sediq Taroko'; # Sediq Taroko / Amir 2017-05-02
 $wgExtraLanguageNames['tsd'] = 'Τσακωνικά'; # Tsakonian / Siebrand 2009-08-20
 $wgExtraLanguageNames['ttt'] = 'Tati'; # Tat / Siebrand 2008-04-04
 $wgExtraLanguageNames['twd'] = 'Tweants'; # Twents
+$wgExtraLanguageNames['vai'] = 'ꕙꔤ'; # Vai Amir 2019-04-23
 $wgExtraLanguageNames['wls'] = 'Faka\'uvea'; # Fakauvea
 $wgExtraLanguageNames['xsy'] = 'SaiSiyat'; # Saisiyat / Amir 2017-05-02
 $wgExtraLanguageNames['ydd'] = 'Eastern Yiddish'; # Eastern Yiddish / Siebrand 2009-09-23
