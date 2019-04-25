@@ -1538,6 +1538,7 @@ aliasfile = MapSources/MapSources.i18n.alias.php
 
 Mark As Helpful
 ignored = right-markashelpful-view, right-markashelpful-admin
+ignored = action-markashelpful-view, action-markashelpful-admin
 
 Mass Edit Regex
 aliasfile = MassEditRegex/MassEditRegex.alias.php
@@ -2274,6 +2275,8 @@ Sentry
 
 # Shared Help Pages / very ShoutWiki-specific
 
+# Shibboleth // 2019-04-14: missing qqq, inconsistent message prefix
+
 Short Url
 aliasfile = ShortUrl/ShortUrl.alias.php
 
@@ -2768,6 +2771,10 @@ aliasfile = WebChat/WebChat.alias.php
 
 Web DAV
 aliasfile = WebDAV/languages/WebDAV.alias.php
+
+# Web DAV Client Integration // 2019-04-14: Empty repo
+
+# Web DAV Minor Save // 2019-04-14: Empty repo
 
 White Space
 
