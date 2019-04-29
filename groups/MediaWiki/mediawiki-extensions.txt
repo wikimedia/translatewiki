@@ -2918,6 +2918,7 @@ ignored = wbqc-constraintreport-form-entityid-placeholder
 # Wikibase Query // Archived
 
 Wikibase Schema
+descmsg = entityschema-desc
 aliasfile = WikibaseSchema/WikibaseSchema.i18n.alias.php
 
 #Wikidata Entity Suggester / No real extension, Java program
