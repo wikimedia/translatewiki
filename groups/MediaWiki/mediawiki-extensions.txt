@@ -866,9 +866,6 @@ Echo - API
 id = ext-echo-api
 file = Echo/i18n/api/%CODE%.json
 
-Edit Account
-aliasfile = EditAccount/EditAccount.alias.php
-
 Edit Similar
 
 Edit Subpages
