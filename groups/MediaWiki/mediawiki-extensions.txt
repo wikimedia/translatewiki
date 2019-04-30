@@ -878,6 +878,9 @@ Editcount Additions
 Edit User
 aliasfile = EditUser/EditUser.alias.php
 
+Entity Schema
+aliasfile = EntitySchema/EntitySchema.i18n.alias.php
+
 Elastica
 
 Electron Pdf Service
@@ -2913,10 +2916,6 @@ aliasfile = WikibaseQualityConstraints/WikibaseQualityConstraints.alias.php
 ignored = wbqc-constraintreport-form-entityid-placeholder
 
 # Wikibase Query // Archived
-
-Wikibase Schema
-descmsg = entityschema-desc
-aliasfile = WikibaseSchema/WikibaseSchema.i18n.alias.php
 
 #Wikidata Entity Suggester / No real extension, Java program
 
