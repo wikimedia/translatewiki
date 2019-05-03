@@ -880,6 +880,7 @@ aliasfile = EditUser/EditUser.alias.php
 
 Entity Schema
 aliasfile = EntitySchema/EntitySchema.i18n.alias.php
+ignored = entityschema-special-id-placeholder
 
 Elastica
 
