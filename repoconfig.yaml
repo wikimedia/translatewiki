@@ -722,6 +722,7 @@ wikisource:
 
 wmcz-tracker:
   group: wmcz-tracker
+  auto-merge: wikimedia-cz/tracker
   repos:
     wmcz-tracker:
       type: wmgerrit
