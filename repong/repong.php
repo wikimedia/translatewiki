@@ -39,7 +39,7 @@ abstract class RepoNgCommand extends Command {
 
 		$cores = preg_match_all( '/^processor/m', file_get_contents( '/proc/cpuinfo' ) );
 		if ( $cores ) {
-			$this->parallelism = (int)$cores;
+			$this->parallelism = min( 4, (int)$cores );
 		}
 
 		$variantFile = "$base/REPONG-VARIANT";
