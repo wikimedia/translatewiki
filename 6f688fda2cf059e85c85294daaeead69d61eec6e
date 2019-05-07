@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e357309_f587e64e",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2019-05-07T07:25:46Z",
+      "side": 1,
+      "message": "this line can now be removed because the desg msg is now the standard",
+      "revId": "6f688fda2cf059e85c85294daaeead69d61eec6e",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
