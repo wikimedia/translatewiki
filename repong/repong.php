@@ -14,6 +14,8 @@ use Symfony\Component\Process\Process;
 require_once __DIR__ . '/vendor/autoload.php';
 
 abstract class RepoNgCommand extends Command {
+	const MAX_CONNECTIONS = 4;
+
 	protected $bindir;
 	protected $config;
 	protected $parallelism = 1;
@@ -39,7 +41,7 @@ abstract class RepoNgCommand extends Command {
 
 		$cores = preg_match_all( '/^processor/m', file_get_contents( '/proc/cpuinfo' ) );
 		if ( $cores ) {
-			$this->parallelism = min( 4, (int)$cores );
+			$this->parallelism = (int)$cores;
 		}
 
 		$variantFile = "$base/REPONG-VARIANT";
@@ -227,6 +229,7 @@ class UpdateCommand extends RepoNgCommand {
 		$this->setName( 'update' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
+		$this->parallelism = min( RepoNgCommand::MAX_CONNECTIONS, $this->parallelism );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
@@ -372,6 +375,7 @@ class CommitCommand extends RepoNgCommand {
 		$this->setName( 'commit' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
+		$this->parallelism = min( RepoNgCommand::MAX_CONNECTIONS, $this->parallelism );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
