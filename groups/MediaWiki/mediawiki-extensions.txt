@@ -1254,6 +1254,14 @@ Growth Experiments - Homepage
 id = ext-growthexperiments-homepage
 file = GrowthExperiments/i18n/homepage/%CODE%.json
 
+Growth Experiments - Homepage API
+id = ext-growthexperiments-homepage-api
+file = GrowthExperiments/i18n/homepage/api/%CODE%.json
+
+Growth Experiments - Confirm Email
+id = ext-growthexperiments-confirmemail
+file = GrowthExperiments/i18n/confirmemail/%CODE%.json
+
 Guided Tour
 optional = guidedtour-tour-test-wikitext-description
 
