@@ -635,6 +635,7 @@ wikimedia-misc-tools:
 
 wikimedia-portals:
   group: wikimedia-portals
+  export-threshold: 1
   auto-merge: wikimedia/portals
   repos:
     wikimedia-portals:
