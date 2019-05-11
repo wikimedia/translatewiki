@@ -56,6 +56,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-centralnotice
+  label: Central Notice
+  description: '{{Special:MyLanguage/MediaWiki:Centralnotice-desc/en}}'
+
+GROUPS:
+  - ext-centralnotice-*
+
+---
+BASIC:
   id: ext-checkuser
   label: CheckUser
   description: '{{Special:MyLanguage/MediaWiki:Checkuser-desc/en}}'

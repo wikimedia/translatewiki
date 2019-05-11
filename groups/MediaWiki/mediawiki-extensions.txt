@@ -491,10 +491,16 @@ file = CentralAuth/i18n/api/%CODE%.json
 
 Central Logging
 
-Central Notice
+Central Notice - User interface
+id = ext-centralnotice-user
+file = CentralNotice/i18n/%CODE%.json
 aliasfile = CentralNotice/CentralNotice.alias.php
 optional = centralnotice-language-listing, centralnotice-log-label, centralnotice-user-links
 ignored = centralnotice-navbar
+
+Central Notice - API
+id = ext-centralnotice-api
+file = CentralNotice/i18n/api/%CODE%.json
 
 # No message documentation - 2014-10-05
 # Challenge
