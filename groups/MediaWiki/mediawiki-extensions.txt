@@ -468,11 +468,17 @@ Category Tests
 #Gives key conflicts with ParserFunctions. Needs to be fixed first.
 #magicfile = CategoryTests/CategoryTests.i18n.magic.php
 
-Category Tree
+Category Tree - User interface
+id = ext-categorytree-user
+file = CategoryTree/i18n/%CODE%.json
 aliasfile = CategoryTree/CategoryTree.alias.php
 magicfile = CategoryTree/CategoryTree.i18n.magic.php
 ignored = categorytree-collapse-bullet, categorytree-page-bullet, categorytree-member-num
 optional = categorytree-expand-bullet, categorytree-empty-bullet
+
+Category Tree - API
+id = ext-categorytree-api
+file = CategoryTree/i18n/api/%CODE%.json
 
 Category Watch
 

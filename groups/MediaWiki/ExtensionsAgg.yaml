@@ -47,6 +47,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-categorytree
+  label: Category Tree
+  description: '{{Special:MyLanguage/MediaWiki:Categorytree-desc/en}}'
+
+GROUPS:
+  - ext-categorytree-*
+
+---
+BASIC:
   id: ext-centralauth
   label: Central Auth
   description: '{{Special:MyLanguage/MediaWiki:Centralauth-desc/en}}'
