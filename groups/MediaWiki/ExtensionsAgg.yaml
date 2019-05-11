@@ -219,6 +219,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-sitematrix
+  label: Site Matrix
+  description: '{{Special:MyLanguage/MediaWiki:Sitematrix-desc/en}}'
+
+GROUPS:
+  - ext-sitematrix-*
+
+---
+BASIC:
   id: ext-spamblacklist
   label: Spam Blacklist
   description: '{{Special:MyLanguage/MediaWiki:Spam-blacklist-desc/en}}'

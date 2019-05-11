@@ -33,6 +33,7 @@ GROUPS:
   - ext-newsletter-api
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-scribunto-api
+  - ext-sitematrix-api
   - ext-spamblacklist-api
   - ext-templatedata-api
   - ext-thanks-api

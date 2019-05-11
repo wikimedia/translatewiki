@@ -2349,9 +2349,15 @@ Simple Sort
 
 Site Scout
 
-Site Matrix
+Site Matrix - User interface
+id = ext-sitematrix-user
+file = SiteMatrix/i18n/%CODE%.json
 aliasfile = SiteMatrix/SiteMatrix.alias.php
 magicfile = SiteMatrix/SiteMatrix.i18n.magic.php
+
+Site Matrix - API
+id = ext-sitematrix-api
+file = SiteMatrix/i18n/api/%CODE%.json
 
 Site Metrics
 aliasfile = SiteMetrics/includes/SiteMetrics.alias.php
