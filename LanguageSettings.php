@@ -89,6 +89,7 @@ $wgExtraLanguageNames['pru'] = 'Prūsiskan'; # Prussian
 $wgExtraLanguageNames['qwh'] = 'anqash qichwa'; # Amir 2018-03-04
 $wgExtraLanguageNames['rap'] = 'arero rapa nui'; # Rapa Nui / Siebrand 2009-11-13
 $wgExtraLanguageNames['rcf'] = 'Kreol Réyoné'; # Réunion Creole French / 2014-04-08
+$wgExtraLanguageNames['rej'] = 'Jang'; # Rejang / Amir 2019-05-13
 $wgExtraLanguageNames['rki'] = 'ရခိုင်'; # Rakhine / Siebrand 2010-10-14
 $wgExtraLanguageNames['rmf'] = 'kaalengo tšimb'; # Romani language spoken in Finland / Nike 2014-03-05
 $wgExtraLanguageNames['rtm'] = 'Faeag Rotuma'; # Rotuman
