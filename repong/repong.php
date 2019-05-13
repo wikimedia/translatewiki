@@ -389,11 +389,26 @@ class CommitCommand extends RepoNgCommand {
 
 		foreach ( $config['repos'] as $name => $repo ) {
 			if ( $repo['type'] === 'git' || $repo['type'] === 'github' ) {
-				$branch = $repo['branch'] ?? 'master';
-				$command =
-					"cd '$name'; git add .; if ! git diff --cached --quiet; " .
-					"then git commit -m '$message'; " .
-					"git rebase 'origin/$branch' && git push origin '$branch'; fi";
+				if ( isset( $repo['push-branch'] ) ) {
+					// This will use the default/source branch to base the commit on,
+					// and then push to a different remote branch. This is useful when for example,
+					// the project uses a pull-request model to review the commit.
+					// Subsequent commits from translatewiki will automatically re-create the branch
+					// (if it was merged since), or force-update the existing pull request branch.
+					// Note: Do NOT use 'branch|export' and 'push-branch' together.
+					$destBranch = $repo['push-branch'];
+					$srcBranch = $repo['branch'] ?? 'master';
+					$command =
+						"cd '$name'; git add .; if ! git diff --cached --quiet; " .
+						"then git commit -m '$message'; " .
+						"git rebase 'origin/$srcBranch' && git push --force origin HEAD:'$destBranch'; fi";
+				} else {
+					$branch = $repo['branch'] ?? 'master';
+					$command =
+						"cd '$name'; git add .; if ! git diff --cached --quiet; " .
+						"then git commit -m '$message'; " .
+						"git rebase 'origin/$branch' && git push origin '$branch'; fi";
+				}
 			} elseif ( $repo['type'] === 'wmgerrit' ) {
 				$branch = $repo['branch'] ?? 'master';
 				$command =

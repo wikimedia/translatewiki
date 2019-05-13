@@ -145,7 +145,7 @@ intuition:
     intuition:
       type: github
       url: https://github.com/Krinkle/intuition.git
-      branch|export: translatewiki
+      push-branch|export: translatewiki
       url|export: git@github.com:Krinkle/intuition.git
 
 intuition-tools:
