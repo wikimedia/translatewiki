@@ -229,10 +229,10 @@ class UpdateCommand extends RepoNgCommand {
 		$this->setName( 'update' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
-		$this->parallelism = min( RepoNgCommand::MAX_CONNECTIONS, $this->parallelism );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
+		$this->parallelism = min( RepoNgCommand::MAX_CONNECTIONS, $this->parallelism );
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
 		$defaultConfig = $this->getConfig( $project, null );
@@ -375,10 +375,10 @@ class CommitCommand extends RepoNgCommand {
 		$this->setName( 'commit' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
-		$this->parallelism = min( RepoNgCommand::MAX_CONNECTIONS, $this->parallelism );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
+		$this->parallelism = min( RepoNgCommand::MAX_CONNECTIONS, $this->parallelism );
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
 		$config = $this->getConfig( $project, $variant );
