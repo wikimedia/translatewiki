@@ -2957,7 +2957,7 @@ Wikimedia Badges
 Wikimedia Editor Tasks
 
 Wikimedia Events
-ignored = tag-HHVM, tag-php7, php7-label
+ignored = tag-HHVM, tag-php7
 ignored = tag-cross-wiki-upload-1, tag-cross-wiki-upload-2, tag-cross-wiki-upload-3, tag-cross-wiki-upload-4
 
 Wikimedia Incubator
