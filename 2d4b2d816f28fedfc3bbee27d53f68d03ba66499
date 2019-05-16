@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee0391e9_051b0205",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2019-05-16T08:09:44Z",
+      "side": 1,
+      "message": "This way of writing a description is a bit outdated. The newer way is to reuse the message from the extension itself. Here it will be:\n\n\u0027{{Special:MyLanguage/Newsletter-extension-desc/en}}\u0027",
+      "revId": "2d4b2d816f28fedfc3bbee27d53f68d03ba66499",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "56257ebc_e0260601",
+        "filename": "groups/MediaWiki/WikimediaAdvancedAgg.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2019-05-16T08:09:44Z",
+      "side": 1,
+      "message": "The current convention is to call it ext-newsletter-user",
+      "revId": "2d4b2d816f28fedfc3bbee27d53f68d03ba66499",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1be8204e_b2b8063b",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1736,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2019-05-16T08:09:44Z",
+      "side": 1,
+      "message": "The current convention is to call it ext-newsletter-user",
+      "revId": "2d4b2d816f28fedfc3bbee27d53f68d03ba66499",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
