@@ -77,6 +77,7 @@ $wgExtraLanguageNames['nia'] = 'Li Niha'; # Nias / Nikerabbit 2018-08-03
 $wgExtraLanguageNames['njo'] = 'Ao'; # Ao Naga
 $wgExtraLanguageNames['nod'] = 'คำเมือง'; # Northern Thai / Siebrand 2017-05-20
 $wgExtraLanguageNames['nog'] = 'Ногайша'; # Nogai / Nikerabbit 2018-08-03
+$wgExtraLanguageNames['nqo'] = 'ߒߞߏ'; # N'Ko / Siebrand 2011-01-11
 $wgExtraLanguageNames['nys'] = 'Nyungar'; # Nyungar / Amir 2017-03-31
 $wgExtraLanguageNames['oka'] = 'n̓səl̓xcin̓'; # Okanagan Salish / Amir 2018-04-04
 $wgExtraLanguageNames['ovd'] = 'övdalsk'; # Övdalian / Siebrand 2017-05-20
