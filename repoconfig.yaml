@@ -439,6 +439,10 @@ mwgithub:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticSignup.git
       url|export: git@github.com:SemanticMediaWiki/SemanticSignup.git
+    mwgithub/SemanticMediaWiki/SemanticTasks:
+      type: github
+      url: https://github.com/SemanticMediaWiki/SemanticTasks.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticTasks.git
     mwgithub/SemanticMediaWiki/SemanticWatchlist:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticWatchlist.git

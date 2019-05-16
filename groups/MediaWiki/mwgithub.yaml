@@ -246,6 +246,15 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticWatchlist/i18n/%CODE%.json"
 ---
 BASIC:
+  id: mwgithub-semantictasks
+  label: Semantic Tasks
+  description: "{{Special:MyLanguage/MediaWiki:Semantictasks-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticTasks/i18n/%CODE%.json"
+---
+BASIC:
   id: mwgithub-github
   label: GitHub
   description: "{{Special:MyLanguage/MediaWiki:Github-desc/en}}"

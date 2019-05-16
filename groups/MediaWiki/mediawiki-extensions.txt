@@ -14,6 +14,7 @@
 # Semantic Meta Tags
 # Semantic Result Formats
 # Semantic Signup
+# Semantic Tasks
 # Semantic Watchlist
 # Sub Page List
 # Validator
@@ -2282,8 +2283,6 @@ aliasfile = SemanticPageSeries/SemanticPageSeries.alias.php
 Semantic Rating
 
 Semantic Sifter
-
-Semantic Tasks
 
 Semantic Title
 
