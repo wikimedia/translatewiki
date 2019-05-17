@@ -83,6 +83,7 @@ $wgExtraLanguageNames['ovd'] = 'övdalsk'; # Övdalian / Siebrand 2017-05-20
 $wgExtraLanguageNames['pbb'] = 'Nasa Yuwe'; # Páez / Siebrand 2013-08-08
 $wgExtraLanguageNames['pis'] = 'Pijin'; # Pijin / Siebrand 2011-08-25
 $wgExtraLanguageNames['pko'] = 'Pökoot'; # Pökoot
+$wgExtraLanguageNames['pov'] = 'guinensi'; # Guinea-Bissau Creole / Amir 2019-05-17
 $wgExtraLanguageNames['ppl'] = 'Nawat'; # Pipil / Siebrand 2011-08-30
 $wgExtraLanguageNames['prs'] = 'دری'; # Dari
 $wgExtraLanguageNames['pru'] = 'Prūsiskan'; # Prussian
