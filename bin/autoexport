@@ -19,13 +19,13 @@ esac
 _b=$(tput bold)
 b_=$(tput sgr0)
 
-(
-	for i in $PROJECTS; do
-		echo "${_b}$i${b_}"
-		{
-			"$DIRSCRIPT/l10n-bot" "$DIRSCRIPT/repoupdate" "$i" &&
-			"$DIRSCRIPT/repoexport" "$i" &&
-			"$DIRSCRIPT/l10n-bot" "$DIRSCRIPT/repocommit" "$i"
-		} || :
-	done
-)
+export GIT_SSH="$DIRSCRIPT/persistent-ssh"
+
+for i in $PROJECTS; do
+	echo "${_b}$i${b_}"
+	{
+		"$DIRSCRIPT/l10n-bot" "$DIRSCRIPT/repoupdate" "$i" &&
+		"$DIRSCRIPT/repoexport" "$i" &&
+		"$DIRSCRIPT/l10n-bot" "$DIRSCRIPT/repocommit" "$i"
+	} || :
+done
