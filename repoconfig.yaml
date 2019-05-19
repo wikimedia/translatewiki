@@ -610,12 +610,16 @@ wikimedia-github:
       url|export: git@github.com:wikimedia/jquery.uls.git
 
 wikimedia-misc-tools:
-  group: citationhunt,internetarchivebot,pageviews,video2commons,xtools
+  group: citationhunt,global-search,internetarchivebot,pageviews,video2commons,xtools
   repos:
     citationhunt:
       type: github
       url: https://github.com/eggpi/citationhunt.git
       url|export: git@github.com:eggpi/citationhunt.git
+    global-search:
+      type: github
+      url: https://github.com/MusikAnimal/global-search
+      url|export: git@github.com:MusikAnimal/global-search.git
     internetarchivebot:
       type: github
       url: https://github.com/cyberpower678/Cyberbot_II.git

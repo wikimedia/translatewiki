@@ -1,0 +1,28 @@
+BASIC:
+  id: global-search
+  label: Global Search
+  icon: wiki://Meta Checkuser.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/global-search/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: global-search-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/global-search/i18n/%CODE%.json"
+
+CHECKER:
+  class: MediaWikiMessageChecker
+  checks:
+    - wikiParameterCheck
+    - braceBalanceCheck
+    - pluralCheck
+    - pluralFormsCheck
+
+INSERTABLES:
+  class: MediaWikiInsertablesSuggester
