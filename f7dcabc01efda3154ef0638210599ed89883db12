@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "158667f7_cb20630e",
+        "filename": "groups/MediaWiki/ExtensionsAgg.yaml",
+        "patchSetId": 6
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 54
+      },
+      "writtenOn": "2019-05-19T06:47:41Z",
+      "side": 1,
+      "message": "This should be ext-newsletter-*, as in many other projects.\n\nSorry about not mentioning it earlier.",
+      "revId": "f7dcabc01efda3154ef0638210599ed89883db12",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
