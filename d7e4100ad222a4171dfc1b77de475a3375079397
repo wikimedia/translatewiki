@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6a2adc7c_4f65c561",
+        "filename": "groups/Wikimedia/global-search.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-05-20T08:53:05Z",
+      "side": 1,
+      "message": "Would it be a good idea to also add `pluralCheck` and `pluralFormsCheck`? \n\nhttps://github.com/MusikAnimal/global-search/blob/master/i18n/en.json#L17",
+      "revId": "d7e4100ad222a4171dfc1b77de475a3375079397",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "02419479_93ebdca1",
+        "filename": "repoconfig.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 613,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-05-20T08:53:05Z",
+      "side": 1,
+      "message": "Alphabetical order is slightly off here - \n\n`group: citationhunt,global-search,internetarchivebot,pageviews,video2commons,xtools`",
+      "revId": "d7e4100ad222a4171dfc1b77de475a3375079397",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e1b471f8_8a2a0605",
+        "filename": "repoconfig.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 623,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-05-20T08:53:05Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "d7e4100ad222a4171dfc1b77de475a3375079397",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
