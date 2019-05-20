@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "6c2952d8_0782ee8a",
+        "filename": "groups/Wikimedia/global-search.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 2207
+      },
+      "writtenOn": "2019-05-20T23:40:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "86b06e80_81b6fbb4",
+      "revId": "d7e4100ad222a4171dfc1b77de475a3375079397",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6a2adc7c_4f65c561",
         "filename": "groups/Wikimedia/global-search.yaml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2019-05-20T08:53:05Z",
       "side": 1,
       "message": "Would it be a good idea to also add `pluralCheck` and `pluralFormsCheck`? \n\nhttps://github.com/MusikAnimal/global-search/blob/master/i18n/en.json#L17",
+      "revId": "d7e4100ad222a4171dfc1b77de475a3375079397",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2d9727b5_09616078",
+        "filename": "groups/Wikimedia/global-search.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 2207
+      },
+      "writtenOn": "2019-05-20T23:40:58Z",
+      "side": 1,
+      "message": "I actually don\u0027t know what these mean :-/ I just copied it from Pageviews.yaml (one of my other applications). I don\u0027t think the messaging will be anymore complex for Global Search, if that means anything.",
+      "parentUuid": "6a2adc7c_4f65c561",
       "revId": "d7e4100ad222a4171dfc1b77de475a3375079397",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "2eaf7786_cd61b449",
+        "filename": "repoconfig.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 613,
+      "author": {
+        "id": 2207
+      },
+      "writtenOn": "2019-05-20T23:40:58Z",
+      "side": 1,
+      "message": "silly me! done",
+      "parentUuid": "02419479_93ebdca1",
+      "revId": "d7e4100ad222a4171dfc1b77de475a3375079397",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e1b471f8_8a2a0605",
         "filename": "repoconfig.yaml",
         "patchSetId": 1
@@ -67,6 +121,24 @@
       "revId": "d7e4100ad222a4171dfc1b77de475a3375079397",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e0abd390_551c8e55",
+        "filename": "repoconfig.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 623,
+      "author": {
+        "id": 2207
+      },
+      "writtenOn": "2019-05-20T23:40:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e1b471f8_8a2a0605",
+      "revId": "d7e4100ad222a4171dfc1b77de475a3375079397",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
