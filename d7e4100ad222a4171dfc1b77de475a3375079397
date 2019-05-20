@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "86b06e80_81b6fbb4",
+        "filename": "groups/Wikimedia/global-search.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-05-20T09:32:36Z",
+      "side": 1,
+      "message": "Can you please add this message here, https://translatewiki.net/wiki/Group_descriptions",
+      "revId": "d7e4100ad222a4171dfc1b77de475a3375079397",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6a2adc7c_4f65c561",
         "filename": "groups/Wikimedia/global-search.yaml",
         "patchSetId": 1
