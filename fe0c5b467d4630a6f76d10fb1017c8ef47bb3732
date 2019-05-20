@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "79dc5252_fd08eec8",
+        "filename": "bin/autoexport",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-05-20T08:44:55Z",
+      "side": 1,
+      "message": "More info - https://stackoverflow.com/a/14221028/903324",
+      "revId": "fe0c5b467d4630a6f76d10fb1017c8ef47bb3732",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dd1d8a42_c25c199d",
+        "filename": "bin/persistent-ssh",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-05-20T08:44:55Z",
+      "side": 1,
+      "message": "More info regarding this - https://unix.stackexchange.com/a/218276/48574",
+      "revId": "fe0c5b467d4630a6f76d10fb1017c8ef47bb3732",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
