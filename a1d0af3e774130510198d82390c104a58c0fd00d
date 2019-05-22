@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "623af19c_099c7478",
+        "filename": "groups/Ajapaik/Ajapaik.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-05-22T08:52:12Z",
+      "side": 1,
+      "message": "Should I add a language whitelist consisting of only the languages present in the repo here - https://github.com/Ajapaik/ajapaik-web/tree/master/ajapaik/ajapaik/locale ?\n\nI didn\u0027t add it since it wasn\u0027t mentioned on the phab task.",
+      "revId": "a1d0af3e774130510198d82390c104a58c0fd00d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c5be3de5_3a767154",
+        "filename": "repoconfig.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-05-22T08:52:12Z",
+      "side": 1,
+      "message": "Would you like me to update this to use,\n\n1. ajapaik/android-app\n2. ajapaik/web-app",
+      "revId": "a1d0af3e774130510198d82390c104a58c0fd00d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
