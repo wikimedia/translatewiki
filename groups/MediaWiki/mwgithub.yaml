@@ -530,4 +530,4 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/cmln/mw-scss/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/cmln/mw-scss/i18n/%CODE%.json"
