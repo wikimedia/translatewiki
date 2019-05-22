@@ -190,7 +190,7 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  sourcePattern: "%GROUPROOT%/ajapaik-web/ajapaik/locale/%CODE%/LC_MESSAGES/django.po"
+  sourcePattern: "%GROUPROOT%/ajapaik-web/ajapaik/ajapaik/locale/%CODE%/LC_MESSAGES/django.po"
 
   header: |
     # This file is part of the Ajapaik Project
@@ -217,7 +217,7 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  sourcePattern: "%GROUPROOT%/ajapaik-web/ajapaik/locale/%CODE%/LC_MESSAGES/djangojs.po"
+  sourcePattern: "%GROUPROOT%/ajapaik-web/ajapaik/ajapaik/locale/%CODE%/LC_MESSAGES/djangojs.po"
 
   header: |
     # This file is part of the Ajapaik Project
