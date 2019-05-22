@@ -521,3 +521,13 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/IncidentReporting/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-mw-scss
+  label: SCSS
+  description: "{{Special:MyLanguage/MediaWiki:scss-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/cmln/mw-scss/i18n/%CODE%.json"

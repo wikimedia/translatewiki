@@ -310,6 +310,10 @@ mwgithub:
       type: github
       url: https://github.com/cmln/chameleon.git
       url|export: git@github.com:cmln/chameleon.git
+    mwgithub/cmln/mw-scss:
+      type: github
+      url: https://github.com/cmln/mw-scss.git
+      url|export: git@github.com:cmln/mw-scss.git
     mwgithub/edwardspec/mediawiki-moderation:
       type: github
       branch: translatewiki
