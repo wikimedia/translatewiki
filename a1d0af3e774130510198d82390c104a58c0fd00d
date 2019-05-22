@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "4079d0a2_282d8fe2",
+        "filename": "groups/Ajapaik/Ajapaik.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-05-22T09:22:01Z",
+      "side": 1,
+      "message": "This prefix is a substring of the prefix below (web-js). While key conflicts are unlikely, I would still change this prefix to not be a substring to be sure.",
+      "revId": "a1d0af3e774130510198d82390c104a58c0fd00d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "623af19c_099c7478",
         "filename": "groups/Ajapaik/Ajapaik.yaml",
         "patchSetId": 2
@@ -19,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "3cd7bcd9_7d988d18",
+        "filename": "groups/Ajapaik/Ajapaik.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-05-22T09:22:01Z",
+      "side": 1,
+      "message": "We don\u0027t usually use whitelist. For android apps we do, for example, since they technically can\u0027t support languages not known by the operating system.",
+      "parentUuid": "623af19c_099c7478",
+      "revId": "a1d0af3e774130510198d82390c104a58c0fd00d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c5be3de5_3a767154",
         "filename": "repoconfig.yaml",
         "patchSetId": 2
@@ -30,6 +65,24 @@
       "writtenOn": "2019-05-22T08:52:12Z",
       "side": 1,
       "message": "Would you like me to update this to use,\n\n1. ajapaik/android-app\n2. ajapaik/web-app",
+      "revId": "a1d0af3e774130510198d82390c104a58c0fd00d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b68e3a55_3eb9cd14",
+        "filename": "repoconfig.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2019-05-22T09:22:01Z",
+      "side": 1,
+      "message": "I don\u0027t mind the actual directory names so much, and because there isn\u0027t automatic purging of old names, I\u0027m kind of lazy to do it. In this case ajapaik would be repurposed, so I believe it requires manual removal of this directory from all checkouts /project/resources, /project/{username}/.",
+      "parentUuid": "c5be3de5_3a767154",
       "revId": "a1d0af3e774130510198d82390c104a58c0fd00d",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
