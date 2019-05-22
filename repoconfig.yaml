@@ -11,6 +11,10 @@ ajapaik:
       type: github
       url: https://github.com/Ajapaik/Android-app.git
       url|export: git@github.com:Ajapaik/Android-app.git
+    ajapaik-web:
+      type: github
+      url: https://github.com/Ajapaik/ajapaik-web.git
+      url|export: git@github.com:Ajapaik/ajapaik-web.git
 
 blockly:
   group: out-blockly*

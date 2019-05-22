@@ -178,3 +178,57 @@ LANGUAGES:
     - zh-hant
     - zh-hk
     - zu
+
+---
+BASIC:
+  id: ajapaik-web
+  label: Ajapaik Web app
+  description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
+  icon: wiki://Ajapaik_short_logo.png
+  namespace: NS_AJAPAIK
+  class: FileBasedMessageGroup
+
+FILES:
+  class: GettextFFS
+  sourcePattern: "%GROUPROOT%/ajapaik-web/ajapaik/locale/%CODE%/LC_MESSAGES/django.po"
+
+  header: |
+    # This file is part of the Ajapaik Project
+    # This file is distributed under the same license as the Ajapaik package.
+    #
+
+  codeMap:
+    nb: 'no'
+
+MANGLER:
+  class: StringMatcher
+  prefix: web-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: ajapaik-web-js
+  label: Ajapaik Web app - JavaScript
+  description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
+  icon: wiki://Ajapaik_short_logo.png
+  namespace: NS_AJAPAIK
+  class: FileBasedMessageGroup
+
+FILES:
+  class: GettextFFS
+  sourcePattern: "%GROUPROOT%/ajapaik-web/ajapaik/locale/%CODE%/LC_MESSAGES/djangojs.po"
+
+  header: |
+    # This file is part of the Ajapaik Project
+    # This file is distributed under the same license as the Ajapaik package.
+    #
+
+  codeMap:
+    nb: 'no'
+
+MANGLER:
+  class: StringMatcher
+  prefix: webjs-
+  patterns:
+    - "*"
