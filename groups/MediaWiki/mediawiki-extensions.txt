@@ -723,6 +723,8 @@ CSS
 
 D3 Loader
 
+Dark Mode
+
 Dashiki
 
 Data Transfer
@@ -2793,6 +2795,8 @@ aliasfile = VoteNY/includes/VoteNY.alias.php
 Watch Subpages
 aliasfile = WatchSubpages/WatchSubpages.alias.php
 ignored = accesskey-watchsubpages-submit
+
+# Web Authn // 2019-05-27: no i18n files
 
 Web Chat
 aliasfile = WebChat/WebChat.alias.php
