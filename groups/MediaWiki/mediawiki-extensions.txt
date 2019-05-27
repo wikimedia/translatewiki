@@ -1816,6 +1816,8 @@ Online Status Bar
 
 Only Recent Recent Changes
 
+OO JS Plus
+
 OO Js UI Ajax Login
 
 Open Badges
