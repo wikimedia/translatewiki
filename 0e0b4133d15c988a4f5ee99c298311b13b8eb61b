@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "25c93bcf_4bfabda4",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 2004,
+      "author": {
+        "id": 890
+      },
+      "writtenOn": "2019-05-27T17:36:38Z",
+      "side": 1,
+      "message": "Done! :)",
+      "parentUuid": "2ccb6c0a_a88edb19",
+      "range": {
+        "startLine": 2004,
+        "startChar": 0,
+        "endLine": 2004,
+        "endChar": 17
+      },
+      "revId": "0e0b4133d15c988a4f5ee99c298311b13b8eb61b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "af508b2f_909ca3e2",
         "filename": "groups/MediaWiki/mediawiki-extensions.txt",
         "patchSetId": 3
@@ -36,6 +60,24 @@
       "writtenOn": "2019-05-27T16:36:08Z",
       "side": 1,
       "message": "line not necessary for standard desc keys.",
+      "revId": "0e0b4133d15c988a4f5ee99c298311b13b8eb61b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "52cdcf3c_ab782d1b",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 2005,
+      "author": {
+        "id": 890
+      },
+      "writtenOn": "2019-05-27T17:36:38Z",
+      "side": 1,
+      "message": "Good to know, removed :)",
+      "parentUuid": "af508b2f_909ca3e2",
       "revId": "0e0b4133d15c988a4f5ee99c298311b13b8eb61b",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
