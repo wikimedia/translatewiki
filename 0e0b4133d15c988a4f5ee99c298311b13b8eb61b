@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ccb6c0a_a88edb19",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 2004,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2019-05-27T16:36:08Z",
+      "side": 1,
+      "message": "PasswordlessLogin -\u003e Passwordless Login",
+      "range": {
+        "startLine": 2004,
+        "startChar": 0,
+        "endLine": 2004,
+        "endChar": 17
+      },
+      "revId": "0e0b4133d15c988a4f5ee99c298311b13b8eb61b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "af508b2f_909ca3e2",
+        "filename": "groups/MediaWiki/mediawiki-extensions.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 2005,
+      "author": {
+        "id": 121
+      },
+      "writtenOn": "2019-05-27T16:36:08Z",
+      "side": 1,
+      "message": "line not necessary for standard desc keys.",
+      "revId": "0e0b4133d15c988a4f5ee99c298311b13b8eb61b",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
