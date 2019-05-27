@@ -2086,6 +2086,8 @@ descmsg = proofreadpage_desc
 ignored = proofreadpage_default_header, proofreadpage_default_footer
 ignored = proofreadpage_specialpage_text
 
+Prop
+
 Property Suggester
 aliasfile = PropertySuggester/PropertySuggester.alias.php
 
@@ -2657,6 +2659,8 @@ UI Lang Code
 magicfile = UILangCode/UILangCode.i18n.magic.php
 
 Un Captcha
+
+# Unblock Me // 2019-05-27: Empty repo
 
 Unicode Converter
 
