@@ -53,7 +53,28 @@ $wgTranslateTranslationServices['TTMServer'] = [
 	'class' => 'ElasticSearchTTMServer',
 	'cutoff' => 0.75,
 	'public' => true,
+	'config' => $privESService,
+	'timeout' => 8,
+	'use_wikimedia_extra' => true,
+	'shards' => 1,
+	'replicas' => 0,
 ];
+
+$wgTranslateTranslationServices['Apertium WMF'] = [
+	'type' => 'cxserver',
+	'host' => 'https://cxserver.wikimedia.org',
+	'timeout' => 3,
+];
+
+/*
+$wgTranslateTranslationServices['Microsoft'] = [
+	'url' => 'http://api.microsofttranslator.com/V2/Http.svc/Translate',
+	'clientId' => 'TWN',
+	'clientSecret' => $privMicrosoftApiKey,
+	'timeout' => 3,
+	'type' => 'microsoft',
+];
+*/
 
 $wgHooks['Translate:GettextFFS:headerFields'][] = 'efHT';
 function efHT( $specs, $group, $code ) {

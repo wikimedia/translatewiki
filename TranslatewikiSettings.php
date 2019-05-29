@@ -57,6 +57,9 @@ $wgMaxShellMemory = 1024 * 200;
 $wgSitename = 'translatewiki.net';
 $wgEnableCanonicalServerLink = true;
 
+$wgEmergencyContact = 'translatewiki@translatewiki.net';
+$wgPasswordSender = 'noreply@translatewiki.net';
+
 $wgLogo = "https://translatewiki.net/static/logo.png";
 $wgLogoHD = [
 	'svg' => 'https://translatewiki.net/static/logo.svg',
@@ -90,6 +93,12 @@ $wgUseRCPatrol = false;
 $wgUseNPPatrol = false;
 $wgRCLinkLimits = [ 100, 500 ];
 $wgRCLinkDays = [ 1, 7, 30 ];
+
+$wgRCFeeds['irc'] = [
+	'formatter' => 'IRCColourfulRCFeedFormatter',
+	'uri' => $privIRCService,
+	'add_interwiki_prefix' => false,
+];
 
 $wgCategoryPagingLimit = 500;
 $wgMaximumMovedPages = 300;
@@ -261,12 +270,13 @@ $wgCirrusSearchOptimizeIndexForExperimentalHighlighter = true;
 $wgCirrusSearchElasticQuirks = [
 	'query_string_max_determinized_states' => true,
 ];
+$wgCirrusSearchServers = [ $privESService ];
 
 require_once "$EXT/Translate/Translate.php";
-require_once __DIR__ . "/TranslateSettings.php";
-require_once __DIR__ . "/LanguageSettings.php";
+require_once __DIR__ . '/TranslateSettings.php';
+require_once __DIR__ . '/LanguageSettings.php';
 
-require_once __DIR__ . "/nikext.php";
+require_once __DIR__ . '/nikext.php';
 
 wfLoadExtension( 'ParserFunctions' );
 $wgPFEnableStringFunctions = true;
