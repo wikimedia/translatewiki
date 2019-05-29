@@ -43,10 +43,15 @@ $wgTranslateSupportUrl = [
 ];
 
 $wgTranslateStaticTags = [
-	"tp:mark" => 3,
-	"tp:tag" => 4,
-	"tp:transver" => 5
+	'tp:mark' => 3,
+	'tp:tag' => 4,
+	'tp:transver' => 5
 ];
+
+// TODO: Remove after migration to extension.json
+unset( $wgTranslateTranslationServices['Apertium'] );
+unset( $wgTranslateTranslationServices['Microsoft'] );
+unset( $wgTranslateTranslationServices['Yandex'] );
 
 $wgTranslateTranslationServices['TTMServer'] = [
 	'type' => 'ttmserver',
