@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d7cd3be5_5bdb1c93",
+        "filename": "bin/oregano",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-06-03T07:52:05Z",
+      "side": 1,
+      "message": "Why this is needed,\n\n\u003e This can be a problem if you expect the symlink to be there always, such as when using the link to point to the active version of a live web site. If you change the symlink while deploying a new version of your site, for example, the web server might try to dereference the link during the small window of time when it doesn’t exist. Oops.\n\nSource: http://blog.moertel.com/posts/2005-08-22-how-to-change-symlinks-atomically.html",
+      "revId": "a4038baa3888f152b1212d3c782bfec006928d0d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e00e0af1_4f718579",
+        "filename": "bin/oregano",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-06-03T07:52:05Z",
+      "side": 1,
+      "message": "Ref: https://unix.stackexchange.com/a/6786/48574",
+      "revId": "a4038baa3888f152b1212d3c782bfec006928d0d",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
