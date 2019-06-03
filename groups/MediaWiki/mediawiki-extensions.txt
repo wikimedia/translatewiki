@@ -2935,7 +2935,7 @@ optional = wikibase-lexeme-lemma-language-option, wikibaselexeme-senseidformatte
 optional = wikibase-lexeme-language-selector-label
 
 Wikibase Lexeme - API
-id = ext-wikibaselexeme-user
+id = ext-wikibaselexeme-api
 file = WikibaseLexeme/i18n/api/%CODE%.json
 
 Wikibase Lexeme Cirrus Search
