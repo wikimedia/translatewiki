@@ -8,6 +8,7 @@
 	"extra": {
 		"merge-plugin": {
 			"include": [
+				"extensions/OATHAuth/composer.json",
 				"extensions/Elastica/composer.json",
 				"extensions/SyntaxHighlight_GeSHi/composer.json"
 			]
