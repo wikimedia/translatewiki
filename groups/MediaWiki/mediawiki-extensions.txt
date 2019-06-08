@@ -2274,6 +2274,9 @@ aliasfile = SemanticDrilldown/languages/SD_Aliases.php
 
 # Semantic Forms Inputs // Read only
 
+Semantic Genealogy
+optional = semanticgenealogy-gedcomexport-link
+
 Semantic Image Annotator
 descmsg = sia-description
 
