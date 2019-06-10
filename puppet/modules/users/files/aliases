@@ -15,13 +15,18 @@ noc: root
 security: root
 l10n-bot: root
 
+# Who gets all the junk email :)
 root: siebrand@kitano.nl, niklas.laxstrom@gmail.com
 
+# Personal email aliases
 amir: amir.aharoni@mail.huji.ac.il
 nike: niklas.laxstrom@gmail.com
 raymond: raimond.spekking@gmail.com
 siebrand: siebrand@kitano.nl
-translatewiki: siebrand@kitano.nl, niklas.laxstrom@gmail.com
 federico: federicoleva@tiscali.it
 
+# Main contact address for translation admins
+translatewiki: siebrand@kitano.nl, niklas.laxstrom@gmail.com, apatro-ctr@wikimedia.org
+
+# Legacy?
 blockly: siebrand@kitano.nl
