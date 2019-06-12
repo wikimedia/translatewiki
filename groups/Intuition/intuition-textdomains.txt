@@ -36,10 +36,6 @@ ignored = title-download
 Rtrc
 ignored = rtrc-months
 
-SVG Translate
-optional = title
-ignored = format-filename-example, format-fullurl-example
-
 Templatecount
 optional = title
 
