@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3d00aac3_98207c59",
+        "filename": "groups/Wikimedia/svgtranslate.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 828
+      },
+      "writtenOn": "2019-06-13T21:48:17Z",
+      "side": 1,
+      "message": "Done: https://translatewiki.net/w/i.php?title\u003dGroup_descriptions\u0026type\u003drevision\u0026diff\u003d8838032\u0026oldid\u003d8802881\n\n(I\u0027d thought maybe it had to wait till this patch was merged.)",
+      "parentUuid": "0f7b188d_affefcb1",
+      "revId": "93e9d8a48621568ad2a7ce8fb9b7ea634e07234f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b10b305c_c300233d",
         "filename": "groups/Wikimedia/svgtranslate.yaml",
         "patchSetId": 5
@@ -33,6 +51,24 @@
       "revId": "93e9d8a48621568ad2a7ce8fb9b7ea634e07234f",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "40ec7cd2_255d2244",
+        "filename": "groups/Wikimedia/svgtranslate.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 828
+      },
+      "writtenOn": "2019-06-13T21:48:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b10b305c_c300233d",
+      "revId": "93e9d8a48621568ad2a7ce8fb9b7ea634e07234f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
