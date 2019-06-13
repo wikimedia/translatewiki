@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0f7b188d_affefcb1",
+        "filename": "groups/Wikimedia/svgtranslate.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-06-13T17:03:20Z",
+      "side": 1,
+      "message": "We should add this string here - https://translatewiki.net/wiki/Group_descriptions",
+      "revId": "93e9d8a48621568ad2a7ce8fb9b7ea634e07234f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b10b305c_c300233d",
+        "filename": "groups/Wikimedia/svgtranslate.yaml",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 6870
+      },
+      "writtenOn": "2019-06-13T17:03:20Z",
+      "side": 1,
+      "message": "Looking at the Github repo, I think this should be,\n\n%GROUPROOT%/svgtranslate/i18n/%CODE%.json",
+      "revId": "93e9d8a48621568ad2a7ce8fb9b7ea634e07234f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
