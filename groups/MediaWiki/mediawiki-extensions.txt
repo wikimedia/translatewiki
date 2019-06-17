@@ -1,4 +1,4 @@
-# Maintained through repong (GitHub)
+# Maintained in GitHub. See mwgithub.yaml for an accurate list.
 # Maps
 # Parser Hooks
 # Pickle
