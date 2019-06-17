@@ -625,6 +625,14 @@ wikimedia-github:
       url: https://github.com/wikimedia/svgtranslate.git
       url|export: git@github.com:wikimedia/svgtranslate.git
 
+wikimedia-grants-review:
+  group: wikimedia-grants-review
+  repos:
+    wikimedia-grants-review:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/wikimedia/iegreview
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/iegreview
+
 wikimedia-misc-tools:
   group: citationhunt,global-search,internetarchivebot,pageviews,video2commons,xtools
   repos:
