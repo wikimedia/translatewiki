@@ -2094,8 +2094,6 @@ aliasfile = PropertySuggester/PropertySuggester.alias.php
 Protect Site
 aliasfile = ProtectSite/ProtectSite.alias.php
 
-Pure Wiki Deletion
-aliasfile = PureWikiDeletion/PureWikiDeletion.alias.php
 
 Purge Click Through
 
