@@ -1,0 +1,16 @@
+# file managed by puppet
+
+# You can overrides config directives here.
+# This is particularly useful for users with several configs for
+# different virtual servers, who want to reuse common parameters.
+# Also, this file is not updated with each new upstream release.
+
+LogFile="/usr/share/awstats/tools/logresolvemerge.pl /var/log/nginx/access.log /var/log/nginx/access.log.1 |"
+LogFormat=1
+SiteDomain="translatewiki.net"
+DirCgi="/awstats"
+DirIcons="/awstatsicons"
+
+AllowFullYearView=3
+DNSLookup=0
+LoadPlugin=“geoip6 GEOIP_STANDARD /usr/share/GeoIP/GeoIPv6.dat”

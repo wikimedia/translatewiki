@@ -9,6 +9,13 @@ class awstats {
     ensure => present,
   }
 
+  package { [
+    'geoip-database',
+    'libgeo-ip-perl',
+  ]:
+    ensure => present,
+  }
+
   File {
     require => Package['awstats']
   }
@@ -17,8 +24,8 @@ class awstats {
     source  => 'puppet:///modules/awstats/awstats.cron',
   }
 
-  file { '/etc/awstats/awstats.conf':
-    source  => 'puppet:///modules/awstats/awstats.conf',
+  file { '/etc/awstats/awstats.conf.local':
+    source  => 'puppet:///modules/awstats/awstats.conf.local',
   }
 
   file { '/etc/nginx/sites/stats.translatewiki.net':
