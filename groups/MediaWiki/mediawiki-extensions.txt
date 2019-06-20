@@ -962,9 +962,6 @@ aliasfile = FileImporter/FileImporter.alias.php
 
 Filter List Users
 
-First Steps
-aliasfile = FirstSteps/FirstSteps.alias.php
-
 Fixed Header Table
 
 Flagged Revisions - Flagged Revs
