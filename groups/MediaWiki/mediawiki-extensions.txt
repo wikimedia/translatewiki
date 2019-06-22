@@ -646,11 +646,6 @@ file = ConfirmEdit/QuestyCaptcha/i18n/%CODE%.json
 descmsg = questycaptcha-desc
 optional = questycaptcha-desc
 
-ConfirmEdit ReCaptcha
-file = ConfirmEdit/ReCaptcha/i18n/%CODE%.json
-descmsg = recaptcha-desc
-optional = recaptcha-desc
-
 ConfirmEdit ReCaptcha NoCaptcha
 file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/%CODE%.json
 
