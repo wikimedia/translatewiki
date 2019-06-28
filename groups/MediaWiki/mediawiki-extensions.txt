@@ -426,7 +426,6 @@ descmsg = bs-usersidebar-desc
 
 Blue Spice Visual Editor Connector
 descmsg = bs-visualeditorconnector-desc
-aliasfile = BlueSpiceVisualEditorConnector/languages/SpecialVisualEditorConnector.alias.php
 
 Blue Spice Watch List
 descmsg = bs-watchlist-desc
