@@ -39,6 +39,16 @@ FILES:
     zh-hans: zh_Hans
     zh-hant: zh_Hant
 
+VALIDATORS:
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%[sd]/
+
 ---
 BASIC:
   id: dissemin-papers
@@ -67,3 +77,13 @@ FILES:
     pt-br: pt_BR
     zh-hans: zh_Hans
     zh-hant: zh_Hant
+
+VALIDATORS:
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%[sd]/
