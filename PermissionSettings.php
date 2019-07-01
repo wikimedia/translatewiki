@@ -51,6 +51,10 @@ $wgGroupPermissions[ 'transadmin'    ][ 'translate-manage'        ] = true;
 $wgGroupPermissions[ 'transadmin'    ][ 'replacetext'             ] = true;
 $wgGroupPermissions[ 'transadmin'    ][ 'translate-import'        ] = true;
 $wgGroupPermissions[ 'transadmin'    ][ 'nuke'                    ] = true;
+$wgGroupPermissions[ 'transadmin'    ][ 'pagetranslation'         ] = true;
+$wgGroupPermissions[ 'transadmin'    ][ 'move'                    ] = true;
+$wgGroupPermissions[ 'transadmin'    ][ 'move-subpages'           ] = true;
+$wgGroupPermissions[ 'transadmin'    ][ 'suppressredirect'        ] = true;
 
 $wgGroupPermissions[ 'staff'         ][ 'reset-passwords'         ] = true;
 $wgGroupPermissions[ 'staff'         ][ 'usermerge'               ] = true;
