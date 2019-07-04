@@ -184,6 +184,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-linter
+  label: Linter
+  description: '{{Special:MyLanguage/MediaWiki:Linter-desc/en}}'
+
+GROUPS:
+  - ext-linter-*
+
+---
+BASIC:
   id: ext-massmessage
   label: Mass Message
   description: '{{Special:MyLanguage/MediaWiki:Massmessage-desc/en}}'

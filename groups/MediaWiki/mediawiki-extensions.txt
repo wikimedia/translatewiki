@@ -1477,9 +1477,15 @@ Link Target
 
 # Linked Wiki // T185523 to merge 6 en.json into 1 file
 
-Linter
+Linter - User interface
+id = ext-linter-user
+file = Linter/i18n/%CODE%.json
 aliasfile = Linter/Linter.alias.php
 optional = linter-page-title-edit
+
+Linter - API
+id = ext-linter-api
+file = Linter/i18n/api/%CODE%.json
 
 Liquid Threads
 aliasfile = LiquidThreads/i18n/Lqt.alias.php
