@@ -61,7 +61,7 @@ GROUPS:
   - ext-newsletter-user # 2016-04-03: Beta cluster
   - ext-nuke
   - ext-oauth
-  - ext-oathauth # 2014-06-28 Used on https://wikitech.wikimedia.org
+  - ext-oathauth-user # 2014-06-28 Used on https://wikitech.wikimedia.org
   - ext-ores # 2016-06-13: 46b33671bbb46eb2aa826ef7b7399cded72e50d2
   - ext-pageassessments
   - ext-pageimages

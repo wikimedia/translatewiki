@@ -31,6 +31,7 @@ GROUPS:
   - ext-massmessage-api
   - ext-mobilefrontend-api
   - ext-newsletter-api
+  - ext-oathauth-api
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-scribunto-api
   - ext-sitematrix-api

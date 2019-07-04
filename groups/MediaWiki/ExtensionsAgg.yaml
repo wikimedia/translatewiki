@@ -211,6 +211,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-oathauth
+  label: OATH Auth
+  description: '{{Special:MyLanguage/MediaWiki:Oathauth-desc/en}}'
+
+GROUPS:
+  - ext-oathauth-*
+---
+BASIC:
   id: ext-scribunto
   label: Scribunto
 

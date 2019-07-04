@@ -1793,9 +1793,15 @@ ignored = ext-numeralpha-list-format-outline-glue
 # Disabled on WMF in T70867
 # OAI-PMH repository
 
-OATH Auth
+OATH Auth - User interface
+id = ext-oathauth-user
+file = OATHAuth/i18n/%CODE%.json
 aliasfile = OATHAuth/OATHAuth.alias.php
 optional = oath
+
+OATH Auth - API
+id = ext-oathauth-api
+file = OATHAuth/i18n/api/%CODE%.json
 
 OAuth
 aliasfile = OAuth/MWOAuth.alias.php
