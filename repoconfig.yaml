@@ -460,6 +460,14 @@ mwgithub:
       url: https://github.com/thingles/foreground.git
       url|export: git@github.com:thingles/foreground.git
 
+mwgitlab:
+  group: mwgitlab-*
+  repos:
+    mwgitlab/librewiki/Liberty-MW-Skin:
+      type: github # same committer name and email as in github
+      url: https://gitlab.com/librewiki/Liberty-MW-Skin.git
+      url|export: git@gitlab.com:librewiki/Liberty-MW-Skin.git
+
 nfcring-control:
   group: nfcring-control
   repos:

@@ -1,0 +1,32 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Mediawiki-logo.png
+    class: FileBasedMessageGroup
+    namespace: NS_MEDIAWIKI
+
+  FILES:
+    class: JsonFFS
+
+  CHECKER:
+    class: MediaWikiMessageChecker
+    checks:
+      - pluralCheck
+      - pluralFormsCheck
+      - wikiParameterCheck
+      - wikiLinksCheck
+      - braceBalanceCheck
+      - pagenameMessagesCheck
+      - miscMWChecks
+
+  INSERTABLES:
+    class: MediaWikiInsertablesSuggester
+
+---
+BASIC:
+  id: mwgitlabskin-liberty
+  label: Liberty
+  description: "{{Special:MyLanguage/MediaWiki:Liberty-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgitlab/librewiki/Liberty-MW-Skin/i18n/%CODE%.json"

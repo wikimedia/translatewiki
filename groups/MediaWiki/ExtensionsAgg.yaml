@@ -15,6 +15,7 @@ GROUPS:
   - ext-*
   - mwgerrit-*
   - mwgithub-*
+  - mwgitlab-*
 
 ---
 BASIC:
