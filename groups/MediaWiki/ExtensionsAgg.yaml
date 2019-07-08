@@ -100,6 +100,15 @@ GROUPS:
   - ext-checkuser-*
 
 ---
+BASIC:
+  id: ext-cite
+  label: Cite
+  description: '{{Special:MyLanguage/MediaWiki:Cite-desc/en}}'
+
+GROUPS:
+  - ext-cite-*
+
+---
 
 BASIC:
   id: ext-cirrussearch

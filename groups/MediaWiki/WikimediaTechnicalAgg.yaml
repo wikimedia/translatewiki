@@ -19,6 +19,7 @@ GROUPS:
   - ext-centralnotice-api
   - ext-checkuser-api
   - ext-cirrussearch-api
+  - ext-cite-api
   - ext-contenttranslation-api
   - ext-echo-api
   - ext-entityschema

@@ -15,9 +15,9 @@ GROUPS:
   - ext-campaigns # 2013-06-13: all projects
   - ext-categorytree-user
   - ext-cirrussearch-user # Change id 500b9c9d66fa7f410394d5665ea3abc3a184bf50
-  - ext-cite
-  - ext-citespecial
+  - ext-cite-user
   - ext-cite-visualeditor
+  - ext-citespecial
   - ext-citoid # 2015-03-16
   - ext-collection
   - ext-confirmedit

@@ -555,7 +555,8 @@ Cirrus Search - API
 id = ext-cirrussearch-api
 file = CirrusSearch/i18n/api/%CODE%.json
 
-Cite
+Cite - User interface
+id = ext-cite-user
 file = Cite/i18n/%CODE%.json
 optional = cite_references_link_many_format_backlink_labels, cite_references_link_many_and
 ignored = cite_reference_link_prefix, cite_references_link_prefix, cite_references_link_many_sep
@@ -567,6 +568,10 @@ Cite - VisualEditor
 id = ext-cite-visualeditor
 file = Cite/modules/ve-cite/i18n/%CODE%.json
 ignored = visualeditor-cite-tool-definition.json, cite-tool-definition.json
+
+Cite - API
+id = ext-cite-api
+file = Cite/i18n/api/%CODE%.json
 
 Cite This Page
 aliasfile = CiteThisPage/CiteThisPage.alias.php
