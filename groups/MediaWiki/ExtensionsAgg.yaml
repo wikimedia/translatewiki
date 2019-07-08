@@ -36,6 +36,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-babel
+  label: Babel
+  description: '{{Special:MyLanguage/MediaWiki:Babel-desc/en}}'
+
+GROUPS:
+  - ext-babel-*
+
+---
+BASIC:
   id: ext-bs-0-all
   icon: wiki://Bluespice icon.svg
   label: Blue Spice extensions

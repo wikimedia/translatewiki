@@ -10,7 +10,7 @@ BASIC:
 GROUPS:
   - ext-advancedsearch # https://phabricator.wikimedia.org/rOMWC1547ba4dd4bb15e399aed7b405ff9178d347a17e
   - ext-antispoof-user
-  - ext-babel
+  - ext-babel-user
   - ext-betafeatures
   - ext-campaigns # 2013-06-13: all projects
   - ext-categorytree-user

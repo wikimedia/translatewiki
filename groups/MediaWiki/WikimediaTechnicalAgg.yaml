@@ -12,6 +12,7 @@ GROUPS:
   - ext-abusefilter-api
   - ext-antispoof-api
   - ext-apifeatureusage # 2015-05-19 6251bf51beb00a6bfd57a46eb485d5c5eef188a7
+  - ext-babel-api
   - ext-categorytree-api
   - ext-centralauth-api
   - ext-centralnotice-api
