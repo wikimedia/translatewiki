@@ -54,7 +54,7 @@ GROUPS:
   - ext-timedmediahandler-timedtext
   - ext-timedmediahandler-newmwembedsupport
   - ext-timeline
-  - ext-titleblacklist
+  - ext-titleblacklist-user
   - ext-torblock
   - ext-twocolconflict # https://phabricator.wikimedia.org/rOMWCff59c4226dca19b0014d413e235a164702f52af7
   - ext-universallanguageselector-user # change-id: b78d96d69d820c13ed262d5558d8c6e0ba5a6b2a
