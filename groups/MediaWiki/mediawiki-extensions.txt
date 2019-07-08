@@ -168,9 +168,15 @@ Base Hooks
 Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
-Beta Features
+Beta Features - User interface
+id = ext-betafeatures-user
+file = BetaFeatures/i18n/%CODE%.json
 aliasfile = BetaFeatures/BetaFeatures.alias.php
 ignored = betafeatures-test-check-field, betafeatures-test-feature-field
+
+Beta Features - API
+id = ext-betafeatures-api
+file = BetaFeatures/i18n/api/%CODE%.json
 
 # Bib Manager // incosistent prefix 2017-11-05
 

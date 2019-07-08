@@ -11,7 +11,7 @@ GROUPS:
   - ext-advancedsearch # https://phabricator.wikimedia.org/rOMWC1547ba4dd4bb15e399aed7b405ff9178d347a17e
   - ext-antispoof-user
   - ext-babel-user
-  - ext-betafeatures
+  - ext-betafeatures-user
   - ext-campaigns # 2013-06-13: all projects
   - ext-categorytree-user
   - ext-cirrussearch-user # Change id 500b9c9d66fa7f410394d5665ea3abc3a184bf50

@@ -45,6 +45,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-betafeatures
+  label: Beta Features
+  description: '{{Special:MyLanguage/MediaWiki:Betafeatures-desc/en}}'
+
+GROUPS:
+  - ext-betafeatures-*
+
+---
+BASIC:
   id: ext-bs-0-all
   icon: wiki://Bluespice icon.svg
   label: Blue Spice extensions
