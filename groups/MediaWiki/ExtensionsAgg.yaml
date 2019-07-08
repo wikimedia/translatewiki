@@ -211,6 +211,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-kartographer
+  label: Kartographer
+  description: '{{Special:MyLanguage/MediaWiki:Kartographer-desc/en}}'
+
+GROUPS:
+  - ext-kartographer-*
+
+---
+BASIC:
   id: ext-linter
   label: Linter
   description: '{{Special:MyLanguage/MediaWiki:Linter-desc/en}}'

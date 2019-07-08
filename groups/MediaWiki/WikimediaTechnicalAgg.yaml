@@ -30,6 +30,7 @@ GROUPS:
   - ext-growthexperiments-helppanel-api
   - ext-growthexperiments-welcomesurvey-api
   - ext-jade-api
+  - ext-kartographer-api
   - ext-linter-api
   - ext-massmessage-api
   - ext-mobilefrontend-api

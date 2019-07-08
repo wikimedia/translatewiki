@@ -37,7 +37,7 @@ GROUPS:
   - ext-inputbox
   - ext-intersection # aka DPL aka DynamicPageList
   - ext-jquery-uls
-  - ext-kartographer
+  - ext-kartographer-user
   - ext-loginnotify
   - ext-math
   - ext-multimediaviewer # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d

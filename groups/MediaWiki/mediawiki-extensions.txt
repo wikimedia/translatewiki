@@ -1420,7 +1420,9 @@ optional = jsonconfig-license-notice-box-CC0-1.0
 
 # Json Data // Inconsistent prefix
 
-Kartographer
+Kartographer - User interface
+id = ext-kartographer-user
+file = Kartographer/i18n/%CODE%.json
 optional = visualeditor-mwmapsdialog-geojson, kartographer-coord-combined, kartographer-coord-dms
 optional = kartographer-coord-lat-positive, kartographer-coord-lat-negative
 optional = kartographer-coord-lon-positive, kartographer-coord-lon-negative
@@ -1447,6 +1449,10 @@ optional = kartographer-attribution-externaldata, kartographer-attribution-short
 Kartographer - WV
 file = Kartographer/modules/wikivoyage/i18n/%CODE%.json
 optional = kartographer-wv-layer-wikimedia
+
+Kartographer - API
+id = ext-kartographer-api
+file = Kartographer/i18n/api/%CODE%.json
 
 Labeled Section Transclusion
 descmsg = lst-desc
