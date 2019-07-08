@@ -954,13 +954,19 @@ Extra Language Link
 # Missing message documentation file - 2015-03-20
 # Favorites
 
-Featured Feeds
+Featured Feeds - User interface
+id = ext-featuredfeeds-user
 descmsg = ffeed-desc
+file = FeaturedFeeds/i18n/%CODE%.json
 aliasfile = FeaturedFeeds/FeaturedFeeds.alias.php
 ignored = ffeed-featured-page, ffeed-onthisday-page, ffeed-dyk-page
 ignored = ffeed-qotd-page, ffeed-potd-page, ffeed-motd-page
 ignored = ffeed-good-page, ffeed-featuredtexts-page, ffeed-wotd-page
 ignored = ffeed-enable-sidebar-links
+
+Featured Feeds - API
+id = ext-featuredfeeds-api
+file = FeaturedFeeds/i18n/api/%CODE%.json
 
 # Figures // no i18n file
 

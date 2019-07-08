@@ -27,7 +27,7 @@ GROUPS:
   - ext-dismissablesitenotice
   - ext-echo-interface
   - ext-electronpdfservice # https://phabricator.wikimedia.org/rOMWC59b7e9756ad81509deb492dc4ae24f59c3267307
-  - ext-featuredfeeds # r110030 for all projects
+  - ext-featuredfeeds-user # r110030 for all projects
   - ext-flow-user
   - ext-gadgets-user
   - ext-globalpreferences

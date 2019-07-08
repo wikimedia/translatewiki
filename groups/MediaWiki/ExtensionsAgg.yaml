@@ -157,6 +157,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-featuredfeeds
+  label: Featured Feeds
+  description: '{{Special:MyLanguage/MediaWiki:Ffeed-desc/en}}'
+
+GROUPS:
+  - ext-featuredfeeds-*
+
+---
+BASIC:
   id: ext-flow
   label: Flow
   description: '{{Special:MyLanguage/MediaWiki:Flow-desc/en}}'
