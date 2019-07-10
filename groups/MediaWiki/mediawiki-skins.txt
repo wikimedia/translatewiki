@@ -15,7 +15,7 @@ optional = bluesky-breadcrumb-pointer
 ignored = bluesky-breadcrumbs-nsmain
 
 Blue Spice Calumma
-optional = notifications-badge-counter-gt-100
+optional = notifications-badge-counter-gt-100, bs-calumma-pageinfosentence-item-separator-greater-two
 ignored = bs-sidebar-override, bs-allpages-url, bs-support-url
 
 Bouquet
