@@ -3101,9 +3101,3 @@ Yet Another Keywords
 Yotpo Reviews
 
 YouTube
-
-Zero Banner
-descmsg = zero-desc
-
-Zero Portal
-aliasfile = ZeroPortal/ZeroPortal.alias.php
