@@ -19,8 +19,6 @@ esac
 _b=$(tput bold)
 b_=$(tput sgr0)
 
-export GIT_SSH="$DIRSCRIPT/persistent-ssh"
-
 for i in $PROJECTS; do
 	echo "${_b}$i${b_}"
 	{

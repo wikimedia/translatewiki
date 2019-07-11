@@ -8,3 +8,4 @@ node_modules/
 vendor/
 composer.lock
 Gemfile.lock
+known_hosts.old

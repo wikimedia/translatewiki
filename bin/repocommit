@@ -5,6 +5,8 @@ DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 # shellcheck source=bin/findexportroot
 . "$DIRSCRIPT/findexportroot"
 
+export GIT_SSH="$DIRSCRIPT/git-ssh-wrapper"
+
 LOG=/home/betawiki/logs/repo
 ME=$(basename "$0")
 COMMAND=${ME:4}

@@ -1,2 +1,0 @@
-#!/bin/sh
-exec ssh -oControlMaster=auto -oControlPath=~/.ssh/l10n-bot-%C -oControlPersist=5 "$@"
