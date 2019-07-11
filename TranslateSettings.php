@@ -48,11 +48,6 @@ $wgTranslateStaticTags = [
 	'tp:transver' => 5
 ];
 
-// TODO: Remove after migration to extension.json
-unset( $wgTranslateTranslationServices['Apertium'] );
-unset( $wgTranslateTranslationServices['Microsoft'] );
-unset( $wgTranslateTranslationServices['Yandex'] );
-
 $wgTranslateTranslationServices['TTMServer'] = [
 	'type' => 'ttmserver',
 	'class' => 'ElasticSearchTTMServer',
