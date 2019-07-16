@@ -1,3 +1,4 @@
+---
 BASIC:
   id: out-inaturalist
   label: iNaturalist
@@ -24,17 +25,15 @@ FILES:
     zh-hant: zh-TW
   codeAsRoot: true
 
-CHECKER:
-  class: INaturalistMessageChecker
-  checks:
-    - INaturalistVariablesCheck
-
-INSERTABLES:
-  class: INaturalistSuggester
-
-AUTOLOAD:
-  INaturalistMessageChecker: Checker.php
-  INaturalistSuggester: Suggester.php
+VALIDATORS:
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    params: /%{[a-z_]+}/
+  - id: InsertableRegex
+    params: "/&#?\w+;/"
+    enforce: true
+    insertable: true
 
 TAGS:
   optional:
