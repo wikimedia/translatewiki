@@ -709,10 +709,6 @@ Contributions List
 Contributors
 aliasfile = Contributors/Contributors.alias.php
 
-Convert 2 Wiki
-aliasfile = Convert2Wiki/Convert2Wiki.alias.php
-optional = convert2wiki-format-csv
-
 Cookie Warning
 descmsg = cookiewarning-desc
 ignored = cookiewarning-more-link
