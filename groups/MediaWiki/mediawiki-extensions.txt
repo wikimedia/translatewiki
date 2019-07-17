@@ -410,6 +410,17 @@ Blue Spice SMW Connector
 descmsg = bs-bssmwconnector-desc
 optional = bs-bssmwconnector-nmmngr-label-smw, bs-smwconnector-extendedsearch-smwproperty-result-value
 
+Blue Spice Social
+id = ext-bs-social
+descmsg = bs-social-desc
+aliasfile = BlueSpiceSocial/languages/Social.alias.php
+ignored = timeline, bs-social-select2-overwrites-errorloading, bs-social-select2-overwrites-loadingmore, bs-social-special-timeline-heading
+optional = bs-social-entitylistmore-linklabel
+
+Blue Spice Social - Notifications
+id = ext-bs-social-notifications
+file = BlueSpiceSocial/i18n/notifications/%CODE%.json
+
 Blue Spice Sub Page Tree
 descmsg = bs-subpagetree-desc
 
