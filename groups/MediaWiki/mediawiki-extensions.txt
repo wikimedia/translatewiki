@@ -3001,8 +3001,6 @@ descmsg = wikibaselexemecirrus-desc
 
 Wikibase Media Info
 
-# Wikibase Quality // Archived base extension https://www.mediawiki.org/w/index.php?title=Extension:WikibaseQuality&oldid=3041990
-
 Wikibase Quality Constraints
 aliasfile = WikibaseQualityConstraints/WikibaseQualityConstraints.alias.php
 ignored = wbqc-constraintreport-form-entityid-placeholder
