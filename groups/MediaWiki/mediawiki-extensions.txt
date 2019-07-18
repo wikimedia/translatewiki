@@ -1571,6 +1571,8 @@ Loops
 ignored = loops-limitreport-count-unlimited-value
 optional = loops-limitreport-count-limited-value
 
+# Machine Vision // 2019-07-18: empty repo
+
 Mad Lib
 
 Magic No Cache
@@ -1643,6 +1645,8 @@ MediaWiki Farm
 
 Meta Master
 magicfile = MetaMaster/MetaMaster.i18n.magic.php
+
+# Metadata // 2018-07-18: wrong extension prefix
 
 # Mini Invite //  Missing qqq
 
@@ -1883,6 +1887,8 @@ optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
 
 Open ID Connect
 aliasfile = OpenIDConnect/i18n/SelectOpenIDConnectIssuer.alias.php
+
+# Open Js Cad // 2019-07-18: Empty repo
 
 Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
@@ -2269,6 +2275,8 @@ optional = score-visualeditor-mwscoreinspector-lang-abc, score-visualeditor-mwsc
 
 Screenplay
 
+# Scribe // 2019-07-18: Empty repo
+
 Scribunto - User interface
 id = ext-scribunto-user
 file = Scribunto/i18n/%CODE%.json
@@ -2566,6 +2574,9 @@ Theme
 
 The Wikipedia Library
 descmsg = theWikipediaLibary-desc
+
+THICC
+optional = thicc-displayname
 
 Throttle Override
 aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
