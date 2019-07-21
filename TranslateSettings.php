@@ -463,11 +463,6 @@ $wgCapitalLinkOverrides[NS_ENTRYSCAPE_TALK] = false;
 wfAddNamespace( 1266, 'Hivejs' );
 $wgCapitalLinkOverrides[NS_HIVEJS] = false;
 $wgCapitalLinkOverrides[NS_HIVEJS_TALK] = false;
-$wgTranslateGroupFiles[] = "$GROUPS/hivejs/hivejs.yaml";
-$wgTranslateSupportUrlNamespace[NS_HIVEJS] = [
-	'page' => 'Translating_talk:Hive.js',
-	'params' => $lqtParams,
-];
 
 wfAddNamespace( 1268, 'lib.reviews', 'NS_LIBREVIEWS' );
 $wgCapitalLinkOverrides[NS_LIBREVIEWS] = false;

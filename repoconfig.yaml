@@ -97,34 +97,6 @@ gapfinder:
       url: https://gerrit.wikimedia.org/r/research/recommendation-api
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/research/recommendation-api
 
-hivejs:
-  group: hivejs-*
-  repos:
-    hivejs/hive-editor-text-codemirror:
-      type: github
-      url: https://github.com/hivejs/hive-editor-text-codemirror.git
-      url|export: git@github.com:hivejs/hive-editor-text-codemirror.git
-    hivejs/hive-plugin-chat:
-      type: github
-      url: https://github.com/hivejs/hive-plugin-chat.git
-      url|export: git@github.com:hivejs/hive-plugin-chat.git
-    hivejs/hive-plugin-export:
-      type: github
-      url: https://github.com/hivejs/hive-plugin-export.git
-      url|export: git@github.com:hivejs/hive-plugin-export.git
-    hivejs/hive-plugin-import:
-      type: github
-      url: https://github.com/hivejs/hive-plugin-import.git
-      url|export: git@github.com:hivejs/hive-plugin-import.git
-    hivejs/hive-plugin-presence:
-      type: github
-      url: https://github.com/hivejs/hive-plugin-presence.git
-      url|export: git@github.com:hivejs/hive-plugin-presence.git
-    hivejs/hive-ui:
-      type: github
-      url: https://github.com/hivejs/hive-ui.git
-      url|export: git@github.com:hivejs/hive-ui.git
-
 huggle:
   group: huggle
   repos:
