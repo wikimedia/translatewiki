@@ -15,6 +15,17 @@ FILES:
      *
      */
 
+VALIDATORS:
+  - class: WikiBlameValidator
+    enforce: true
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    params: /_[\p{Lu}_]+_/u
+
+AUTOLOAD:
+  WikiBlameValidator: WikiBlameValidator.php
+
 TAGS:
   optional:
     - text_dir
