@@ -433,7 +433,7 @@ mwgithub:
       url|export: git@github.com:thingles/foreground.git
 
 mwgitlab:
-  group: mwgitlab-*
+  group: mwgitlab-*,mwgitlabskin-*
   repos:
     mwgitlab/librewiki/Liberty-MW-Skin:
       type: github # same committer name and email as in github
