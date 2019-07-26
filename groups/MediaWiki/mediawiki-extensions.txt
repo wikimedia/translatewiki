@@ -729,8 +729,6 @@ ignored = cookiewarning-more-link
 
 Copy To Clipboard
 
-Copyvio
-
 Count Down Clock
 descmsg = countDownClock-desc
 magicfile = CountDownClock/CountDownClock.i18n.magic.php
