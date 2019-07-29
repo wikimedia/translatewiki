@@ -2,6 +2,7 @@
 # Maps
 # Parser Hooks
 # Pickle
+# Semantic Approved Revs
 # Semantic Breadcrumb Links
 # Semantic Cite
 # Semantic Compound Queries

@@ -359,6 +359,10 @@ mwgithub:
       type: github
       url: https://github.com/SemanticMediaWiki/Mermaid.git
       url|export: git@github.com:SemanticMediaWiki/Mermaid.git
+    mwgithub/SemanticMediaWiki/SemanticApprovedRevs:
+      type: github
+      url: https://github.com/SemanticMediaWiki/SemanticApprovedRevs.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticApprovedRevs.git
     mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticBreadcrumbLinks.git
