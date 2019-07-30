@@ -611,6 +611,7 @@ wikimedia-github:
 
 wikimedia-grants-review:
   group: wikimedia-grants-review
+  auto-merge: wikimedia/iegreview
   repos:
     wikimedia-grants-review:
       type: wmgerrit
