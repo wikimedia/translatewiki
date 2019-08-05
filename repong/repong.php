@@ -435,7 +435,7 @@ class CommitCommand extends RepoNgCommand {
 			}
 
 			$process = new Process( $command );
-			$process->setTimeout( 180 );
+			$process->setTimeout( 300 );
 			$process->setWorkingDirectory( $base );
 			$processes->attach( $process );
 		}
