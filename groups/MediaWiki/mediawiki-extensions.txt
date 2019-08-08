@@ -1576,7 +1576,8 @@ Loops
 ignored = loops-limitreport-count-unlimited-value
 optional = loops-limitreport-count-limited-value
 
-# Machine Vision // 2019-07-18: empty repo
+Machine Vision
+aliasfile = MachineVision/MachineVision.alias.php
 
 Mad Lib
 
