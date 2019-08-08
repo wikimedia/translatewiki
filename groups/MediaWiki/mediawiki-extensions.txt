@@ -3064,6 +3064,7 @@ ignored = grouppage-staff, grouppage-wmf-officeit, grouppage-global-flow-create
 ignored = ext-quicksurveys-performance-internal-survey-description
 ignored = wikibase-page-schema-publisher-logo-url
 ignored = right-banner-protect, protect-level-banner-protect, restriction-level-banner-protect
+ignored = grouppage-oathauth-tester
 optional = sitesupport-url
 optional = grouppage-steward, grouppage-sysadmin, grouppage-global-bot
 optional = grouppage-global-rollbacker, grouppage-ombudsman, grouppage-coder
