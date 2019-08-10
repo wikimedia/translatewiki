@@ -1881,6 +1881,7 @@ Online Status Bar
 Only Recent Recent Changes
 
 OO JS Plus
+aliasfile = OOJSPlus/OOJSPlus.alias.php
 
 OO Js UI Ajax Login
 
@@ -3064,7 +3065,7 @@ ignored = grouppage-staff, grouppage-wmf-officeit, grouppage-global-flow-create
 ignored = ext-quicksurveys-performance-internal-survey-description
 ignored = wikibase-page-schema-publisher-logo-url
 ignored = right-banner-protect, protect-level-banner-protect, restriction-level-banner-protect
-ignored = grouppage-oathauth-tester
+ignored = grouppage-oathauth-tester, grouppage-abusefilter-helper
 optional = sitesupport-url
 optional = grouppage-steward, grouppage-sysadmin, grouppage-global-bot
 optional = grouppage-global-rollbacker, grouppage-ombudsman, grouppage-coder
@@ -3073,7 +3074,7 @@ optional = grouppage-global-sysop, grouppage-editinterface
 optional = grouppage-apihighlimits-requestor, grouppage-wmf-researcher
 optional = grouppage-new-wikis-importer, grouppage-global-ipblock-exempt
 optional = grouppage-recursive-export, grouppage-captcha-exempt
-optional = grouppage-abusefilter-helper, grouppage-global-interface-editor
+optional = grouppage-global-interface-editor
 optional = group-wmf-ops-monitoring, group-wmf-ops-monitoring-member, grouppage-wmf-ops-monitoring
 optional = wikimedia-mobile-terms-url, wikibase-repo-name
 optional = interlanguage-link-dmoz, interlanguage-link-citizendium, interlanguage-link-sitename-citizendium
