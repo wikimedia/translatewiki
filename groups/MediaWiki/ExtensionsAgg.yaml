@@ -272,6 +272,7 @@ BASIC:
 
 GROUPS:
   - ext-oathauth-*
+
 ---
 BASIC:
   id: ext-scribunto
