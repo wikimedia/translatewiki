@@ -755,8 +755,6 @@ Credits Source
 
 CSS
 
-# Custom Sidebar / 2018-05-15: Empty repo
-
 D3 Loader
 
 Dark Mode
