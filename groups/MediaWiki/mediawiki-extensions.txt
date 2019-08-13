@@ -1859,6 +1859,8 @@ descmsg = mwoauth-desc
 ignored = mwoauth-form-legal
 optional = oauth, mwoauth-listgrantrights-right-display
 
+OAuth 2
+
 OAuth Authentication
 descmsg = oauthauth-desc
 
