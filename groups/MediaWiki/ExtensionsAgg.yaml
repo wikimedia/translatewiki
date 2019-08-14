@@ -55,6 +55,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-bouncehandler
+  label: BounceHandler
+  description: '{{Special:MyLanguage/MediaWiki:Bouncehandler-desc/en}}'
+GROUPS:
+  - ext-bouncehandler-*
+
+---
+BASIC:
   id: ext-bs-0-all
   icon: wiki://Bluespice icon.svg
   label: Blue Spice extensions

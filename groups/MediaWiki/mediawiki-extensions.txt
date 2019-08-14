@@ -467,7 +467,13 @@ descmsg = bs-whoisonline-desc
 
 # Bootstrap //  Read only
 
-Bounce Handler
+BounceHandler - API
+id = ext-bouncehandler-api
+file = BounceHandler/i18n/api/%CODE%.json
+
+BounceHandler - User Interface
+id = ext-bouncehandler-user
+file = BounceHandler/i18n/%CODE%.json
 
 Bread Crumbs
 
