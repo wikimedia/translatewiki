@@ -355,6 +355,10 @@ mwgithub:
       type: github
       url: https://github.com/oetterer/BootstrapComponents.git
       url|export: git@github.com:oetterer/BootstrapComponents.git
+    mwgithub/ProfessionalWiki/ModernTimeline:
+      type: github
+      url: https://github.com/ProfessionalWiki/ModernTimeline.git
+      url|export: git@github.com:ProfessionalWiki/ModernTimeline.git
     mwgithub/SemanticMediaWiki/Mermaid:
       type: github
       url: https://github.com/SemanticMediaWiki/Mermaid.git
