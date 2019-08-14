@@ -41,7 +41,7 @@ GROUPS:
   - ext-flaggedrevs-stablepages
   - ext-flaggedrevs-unreviewedpages
   - ext-flaggedrevs-validationstatistics
-  - ext-geodata
+  - ext-geodata-user
   - ext-gettingstarted # Change-Id: d1aac2d3dc774299c3e61ef8e163b50dfd89d313 for a bunch of wikis
   - ext-globalblocking # Only advanced users except globalblocking-ipblocked*
   - ext-globalcssjs

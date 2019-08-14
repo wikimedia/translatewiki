@@ -1165,10 +1165,16 @@ optional = genealogy-born-and-died
 Geo Crumbs
 optional = geocrumbs-delimiter
 
-Geo Data
-
 # GeoGebra is a product name, therefore no space between the words
 GeoGebra
+
+GeoData - API
+id = ext-geodata-api
+file = GeoData/i18n/api/%CODE%.json
+
+GeoData - User Interface
+id = ext-geodata-user
+file = GeoData/i18n/%CODE%.json
 
 Getting Started
 ignored = apihelp-query+gettingstartedgetpages-example-1

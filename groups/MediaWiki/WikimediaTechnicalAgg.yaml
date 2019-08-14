@@ -28,6 +28,7 @@ GROUPS:
   - ext-featuredfeeds-api
   - ext-flaggedrevs-api
   - ext-gadgets-api
+  - ext-geodata-api
   - ext-globalusage-api
   - ext-flow-api
   - ext-globalpreferences-api

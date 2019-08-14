@@ -219,6 +219,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-geodata
+  label: GeoData
+  description: '{{Special:MyLanguage/MediaWiki:Geodata-desc/en}}'
+GROUPS:
+  - ext-geodata-*
+
+---
+BASIC:
   id: ext-globalpreferences
   label: Global Preferences
   description: '{{Special:MyLanguage/MediaWiki:Globalprefs-desc/en}}'
