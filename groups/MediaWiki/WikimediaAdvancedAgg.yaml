@@ -27,7 +27,7 @@ GROUPS:
   - ext-elastica # 2013-09-20 for CirrusSearch, change id: 7acdc7e8c346f00dcce1412f057ea38ad3d3e649
   - ext-eventbus # 2016-01-21 for MediaWiki.org, change id: 603461016bd9a4cc862f4713fd57358b0cd38f2d
   - ext-eventlogging # Change-Id: 1fc99b92c1692515295e8c7bb7c757112531c330
-  - ext-extensiondistributor # MediaWiki.org
+  - ext-extensiondistributor-user # MediaWiki.org
   - ext-externalguidance # Deployed enwiki https://phabricator.wikimedia.org/rOMWCdb356d5c20d33a5b83e99a97de50749a7cd1cff0
   - ext-flaggedrevs-flaggedrevs
   - ext-flaggedrevs-configuredpages

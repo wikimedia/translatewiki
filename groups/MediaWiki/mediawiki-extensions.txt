@@ -960,7 +960,13 @@ file = EventLogging/i18n/jsonschema/%CODE%.json
 Ext Tab
 file = ExtTab/languages/i18n/%CODE%.json
 
-Extension Distributor
+ExtensionDistributor - API
+id = ext-extensiondistributor-api
+file = ExtensionDistributor/i18n/api/%CODE%.json
+
+ExtensionDistributor - User Interface
+id = ext-extensiondistributor-user
+file = ExtensionDistributor/i18n/%CODE%.json
 
 External Articles
 

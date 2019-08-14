@@ -24,6 +24,7 @@ GROUPS:
   - ext-contenttranslation-api
   - ext-echo-api
   - ext-entityschema
+  - ext-extensiondistributor-api
   - ext-featuredfeeds-api
   - ext-flaggedrevs-api
   - ext-gadgets-api

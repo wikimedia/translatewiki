@@ -184,6 +184,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-extensiondistributor
+  label: ExtensionDistributor
+  description: '{{Special:MyLanguage/MediaWiki:Extensiondistributor-desc/en}}'
+GROUPS:
+  - ext-extensiondistributor-*
+
+---
+BASIC:
   id: ext-featuredfeeds
   label: Featured Feeds
   description: '{{Special:MyLanguage/MediaWiki:Ffeed-desc/en}}'
