@@ -227,6 +227,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-gettingstarted
+  label: GettingStarted
+  description: '{{Special:MyLanguage/MediaWiki:Gettingstarted-desc/en}}'
+GROUPS:
+  - ext-gettingstarted-*
+
+---
+BASIC:
   id: ext-globalpreferences
   label: Global Preferences
   description: '{{Special:MyLanguage/MediaWiki:Globalprefs-desc/en}}'

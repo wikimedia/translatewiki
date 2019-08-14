@@ -29,6 +29,7 @@ GROUPS:
   - ext-flaggedrevs-api
   - ext-gadgets-api
   - ext-geodata-api
+  - ext-gettingstarted-api
   - ext-globalusage-api
   - ext-flow-api
   - ext-globalpreferences-api
