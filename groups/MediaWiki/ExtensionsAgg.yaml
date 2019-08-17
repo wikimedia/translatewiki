@@ -235,6 +235,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-globalblocking
+  label: GlobalBlocking
+  description: '{{Special:MyLanguage/MediaWiki:Globalblocking-desc/en}}'
+GROUPS:
+  - ext-globalblocking-*
+
+---
+BASIC:
   id: ext-globalpreferences
   label: Global Preferences
   description: '{{Special:MyLanguage/MediaWiki:Globalprefs-desc/en}}'

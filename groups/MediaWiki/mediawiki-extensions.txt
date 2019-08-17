@@ -1192,7 +1192,13 @@ Git 2 Pages
 
 Gitweb
 
-Global Blocking
+GlobalBlocking - API
+id = ext-globalblocking-api
+file = GlobalBlocking/i18n/api/%CODE%.json
+
+GlobalBlocking - User Interface
+id = ext-globalblocking-user
+file = GlobalBlocking/i18n/%CODE%.json
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
 ignored = globalblocking-expiry-options
 

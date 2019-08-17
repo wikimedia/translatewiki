@@ -30,6 +30,7 @@ GROUPS:
   - ext-gadgets-api
   - ext-geodata-api
   - ext-gettingstarted-api
+  - ext-globalblocking-api
   - ext-globalusage-api
   - ext-flow-api
   - ext-globalpreferences-api
