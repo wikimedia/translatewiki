@@ -55,12 +55,12 @@ dissemin:
       url|export: git@github.com:dissemin/dissemin.git
 
 eol:
-  group: out-eol-*
+  group: eol-*
   repos:
     eol:
       type: github
-      url: https://github.com/EOL/eol.git
-      url|export: git@github.com:EOL/eol.git
+      url: https://github.com/EOL/eol_website.git
+      url|export: git@github.com:EOL/eol_website.git
 
 etherpad-lite:
   group: etherpad-lite

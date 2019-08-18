@@ -22,35 +22,29 @@ TEMPLATE:
       zh-hans: zh-CN
       zh-hant: zh-TW
 
-  CHECKER:
-    class: EOLMessageChecker
-    checks:
-      - EOLVariablesCheck
-
-  INSERTABLES:
-    class: EolSuggester
-
-  AUTOLOAD:
-    EOLMessageChecker: Checker.php
-    EolSuggester: Suggester.php
+  VALIDATORS:
+    - id: InsertableRegex
+      enforce: true
+      insertable: true
+      params: /%{[a-z_]+}/
 
 ---
 BASIC:
-  id: out-eol-0-all
+  id: eol
   label: Encyclopedia of Life
   meta: yes
   class: AggregateMessageGroup
 
 GROUPS:
-  - out-eol-*
+  - eol-*
 
 ---
 BASIC:
-  id: out-eol-site
+  id: eol-site
   label: Encyclopedia of Life - Website
 
 FILES:
-  sourcePattern: "%GROUPROOT%/eol/config/translations/%CODE%.yml"
+  sourcePattern: "%GROUPROOT%/eol_website/config/locales/%CODE%.yml"
 
 MANGLER:
   class: StringMatcher
@@ -59,117 +53,22 @@ MANGLER:
   prefix: website-
 
 TAGS:
-  optional:
-    - website-forums.buttons.move_up
-    - website-forums.buttons.move_down
   ignored:
-    - website-date.*
-    - website-datetime.*
-    - website-faker.lorem.*
-    - website-number.*
-    - website-support.*
-    - website-time.*
-    - website-collections.show.meta_description
-    - website-collections.show.meta_title
-    - website-collections.show.tweet_text
-    - website-communities.newsfeeds.show.meta_description
-    - website-communities.newsfeeds.show.meta_title
-    - website-communities.newsfeeds.show.tweet_text
-    - website-content.show.meta_description
-    - website-content.show.meta_keywords
-    - website-content_partners.show.meta_title
-    - website-content_partners.show.tweet_text
-    - website-taxa.communities.curators.meta_description
-    - website-taxa.data.index.hierarchy_entry.meta_keywords
-    - website-taxa.details.index.hierarchy_entry.meta_keywords
-    - website-taxa.details.index.meta_keywords
-    - website-taxa.details.index.meta_keywords_with_common_name
-    - website-taxa.literature.bhl.hierarchy_entry.meta_keywords
-    - website-taxa.literature.bhl.meta_description
-    - website-taxa.literature.bhl.meta_description_with_common_name
-    - website-taxa.literature.bhl.meta_keywords
-    - website-taxa.literature.bhl.meta_keywords_with_common_name
-    - website-taxa.literature.show.hierarchy_entry.meta_description
-    - website-taxa.literature.show.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.literature.show.hierarchy_entry.meta_keywords
-    - website-taxa.maps.show.hierarchy_entry.meta_keywords
-    - website-taxa.names.index.hierarchy_entry.meta_keywords
-    - website-taxa.names.index.hierarchy_entry.meta_title
-    - website-taxa.names.index.hierarchy_entry.meta_title_with_common_name
-    - website-taxa.names.index.meta_keywords
-    - website-taxa.names.index.meta_keywords_with_common_name
-    - website-taxa.overviews.show.meta_title
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_description
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_keywords
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_title
-    - website-taxa.resources.biomedical_terms.hierarchy_entry.meta_title_with_common_name
-    - website-taxa.resources.biomedical_terms.meta_description
-    - website-taxa.resources.biomedical_terms.meta_description_with_common_name
-    - website-taxa.resources.biomedical_terms.meta_keywords
-    - website-taxa.resources.biomedical_terms.meta_keywords_with_common_name
-    - website-taxa.resources.education.hierarchy_entry.meta_description
-    - website-taxa.resources.education.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.resources.education.hierarchy_entry.meta_keywords
-    - website-taxa.resources.education.meta_description
-    - website-taxa.resources.education.meta_description_with_common_name
-    - website-taxa.resources.education.meta_keywords
-    - website-taxa.resources.education.meta_keywords_with_common_name
-    - website-taxa.resources.identification_resources.hierarchy_entry.meta_description
-    - website-taxa.resources.identification_resources.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.resources.identification_resources.hierarchy_entry.meta_keywords
-    - website-taxa.resources.identification_resources.hierarchy_entry.meta_title
-    - website-taxa.resources.identification_resources.hierarchy_entry.meta_title_with_common_name
-    - website-taxa.resources.identification_resources.meta_description
-    - website-taxa.resources.identification_resources.meta_description_with_common_name
-    - website-taxa.resources.identification_resources.meta_keywords
-    - website-taxa.resources.identification_resources.meta_keywords_with_common_name
-    - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_description
-    - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_keywords
-    - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_title
-    - website-taxa.resources.nucleotide_sequences.hierarchy_entry.meta_title_with_common_name
-    - website-taxa.resources.nucleotide_sequences.meta_description
-    - website-taxa.resources.nucleotide_sequences.meta_description_with_common_name
-    - website-taxa.resources.nucleotide_sequences.meta_keywords
-    - website-taxa.resources.nucleotide_sequences.meta_keywords_with_common_name
-    - website-taxa.updates.show.hierarchy_entry.meta_description
-    - website-taxa.updates.show.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.updates.show.hierarchy_entry.meta_keywords
-    - website-taxa.updates.statistics.hierarchy_entry.meta_description
-    - website-taxa.updates.statistics.hierarchy_entry.meta_description_with_common_name
-    - website-taxa.updates.statistics.hierarchy_entry.meta_keywords
-    - website-users.activities.show.meta_keywords
-    - website-users.collections.index.meta_keywords
-    - website-users.communities.index.meta_keywords
-    - website-users.content_partners.index.meta_keywords
-    - website-users.data_downloads.index.meta_keywords
-    - website-users.newsfeeds.show.meta_keywords
-    - website-users.saved_searches.index.meta_keywords
-    - website-users.show.meta_keywords
-    - website-users.show.meta_title
-    - website-users.show.tweet_text
+    website-license_group.labels.*
+    website-locale_codes.*
+    website-required.mark
+
 
 ---
 BASIC:
-  id: out-eol-database
-  label: Encyclopedia of Life - Database
+  id: eol-devise
+  label: Encyclopedia of Life - Devise (Authentication)
 
 FILES:
-  sourcePattern: "%GROUPROOT%/eol/config/translations/%CODE%-db.yml"
+  sourcePattern: "%GROUPROOT%/eol_website/config/locales/devise.%CODE%.yml"
 
 MANGLER:
   class: StringMatcher
   patterns:
     - "*"
-  prefix: database-
-
-TAGS:
-  optional:
-    - dummy
-  ignored:
-    - database-translated_languages-label-original_language_id-*
-    - database-translated_content_pages-main_content-content_page_id-13
-    - database-translated_content_pages-main_content-content_page_id-300
-    - database-translated_content_pages-main_content-content_page_id-301
-    - database-translated_content_pages-main_content-content_page_id-302
+  prefix: devise-

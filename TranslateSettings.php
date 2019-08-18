@@ -396,6 +396,7 @@ $wgTranslateSupportUrlNamespace[NS_INTUITION] = [
 
 wfAddNamespace( 1242, 'EOL' );
 $wgTranslateGroupFiles[] = "$GROUPS/EOL/EOL.yaml";
+$wgTranslateGroupAliases['out-eol-0-all'] = 'eol';
 $wgTranslateSupportUrlNamespace[NS_EOL] = [
 	'page' => 'Translating_talk:Encyclopedia_of_Life',
 	'params' => $lqtParams,
