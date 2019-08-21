@@ -1,20 +1,31 @@
 BASIC:
   id: wmcz-tracker
   label: Tracker
+  meta: yes
   description: "{{Special:MyLanguage/Translations:Group descriptions/tracker/en}}"
+  class: AggregateMessageGroup
+  namespace: NS_WIKIMEDIA
+
+GROUPS:
+  - wmcz-tracker-*
+
+---
+BASIC:
+  id: wmcz-tracker-django
+  label: Tracker - main
   class: FileBasedMessageGroup
   namespace: NS_WIKIMEDIA
+
+FILES:
+  class: GettextFFS
+  sourcePattern: "%GROUPROOT%/wmcz-tracker/trackersite/locale/%CODE%/LC_MESSAGES/django.po"
+  definitionFile: "%GROUPROOT%/wmcz-tracker/trackersite/locale/django.pot"
 
 MANGLER:
   class: StringMatcher
   prefix: tracker-
   patterns:
     - "*"
-
-FILES:
-  class: GettextFFS
-  sourcePattern: "%GROUPROOT%/wmcz-tracker/trackersite/locale/%CODE%/LC_MESSAGES/django.po"
-  definitionFile: "%GROUPROOT%/wmcz-tracker/trackersite/locale/django.pot"
 
 CHECKER:
   class: WmczTrackerMessageChecker
@@ -27,3 +38,21 @@ INSERTABLES:
 AUTOLOAD:
   WmczTrackerMessageChecker: WmczTrackerChecker.php
   WmczTrackerSuggester: WmczTrackerSuggester.php
+
+---
+BASIC:
+  id: wmcz-tracker-djangojs
+  label: Tracker - JavaScript
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+FILES:
+  class: GettextFFS
+  sourcePattern: "%GROUPROOT%/wmcz-tracker/trackersite/locale/%CODE%/LC_MESSAGES/djangojs.po"
+  definitionFile: "%GROUPROOT%/wmcz-tracker/trackersite/locale/djangojs.pot"
+
+MANGLER:
+  class: StringMatcher
+  prefix: tracker-js-
+  patterns:
+    - "*"
