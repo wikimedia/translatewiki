@@ -1947,7 +1947,13 @@ Oracle Text Search
 Orphaned Talk Pages
 aliasfile = OrphanedTalkPages/OrphanedTalkPages.alias.php
 
-ORES
+ORES - API
+id = ext-ores-api
+file = ORES/i18n/api/%CODE%.json
+
+ORES - User Interface
+id = ext-ores-user
+file = ORES/i18n/%CODE%.json
 aliasfile = ORES/ORES.alias.php
 ignored = ores-reverted-letter
 

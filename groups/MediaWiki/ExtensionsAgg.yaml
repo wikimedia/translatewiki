@@ -315,6 +315,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-ores
+  label: ORES
+  description: '{{Special:MyLanguage/MediaWiki:Ores-desc/en}}'
+GROUPS:
+  - ext-ores-*
+
+---
+BASIC:
   id: ext-scribunto
   label: Scribunto
 
