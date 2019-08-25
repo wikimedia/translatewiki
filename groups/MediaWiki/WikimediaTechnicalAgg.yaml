@@ -52,6 +52,7 @@ GROUPS:
   - ext-pageimages-api
   - ext-pageviewinfo-api
   - ext-parsermigration-api
+  - ext-parsoidbatchapi-api
   - ext-proofreadpage-api
   - ext-readinglists-api
   - ext-scribunto-api

@@ -2146,7 +2146,13 @@ ParserMigration - User Interface
 id = ext-parsermigration-user
 file = ParserMigration/i18n/%CODE%.json
 
-Parsoid Batch API
+ParsoidBatchAPI - API
+id = ext-parsoidbatchapi-api
+file = ParsoidBatchAPI/i18n/api/%CODE%.json
+
+ParsoidBatchAPI - User Interface
+id = ext-parsoidbatchapi-user
+file = ParsoidBatchAPI/i18n/%CODE%.json
 
 Passwordless Login
 
