@@ -2247,7 +2247,13 @@ descmsg = proofreadpage_desc
 ignored = proofreadpage_default_header, proofreadpage_default_footer
 ignored = proofreadpage_specialpage_text
 
-Property Suggester
+PropertySuggester - API
+id = ext-propertysuggester-api
+file = PropertySuggester/i18n/api/%CODE%.json
+
+PropertySuggester - User Interface
+id = ext-propertysuggester-user
+file = PropertySuggester/i18n/%CODE%.json
 aliasfile = PropertySuggester/PropertySuggester.alias.php
 
 Protect Site

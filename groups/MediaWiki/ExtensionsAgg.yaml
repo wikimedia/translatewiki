@@ -395,6 +395,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-propertysuggester
+  label: PropertySuggester
+  description: '{{Special:MyLanguage/MediaWiki:Propertysuggester-desc/en}}'
+GROUPS:
+  - ext-propertysuggester-*
+
+---
+BASIC:
   id: ext-readinglists
   label: ReadingLists
   description: '{{Special:MyLanguage/MediaWiki:Readinglists-desc/en}}'
