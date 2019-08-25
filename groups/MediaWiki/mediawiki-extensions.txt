@@ -1975,7 +1975,13 @@ file = ORES/i18n/%CODE%.json
 aliasfile = ORES/ORES.alias.php
 ignored = ores-reverted-letter
 
-Page Assessments
+Page Assessments - API
+id = ext-pageassessments-api
+file = PageAssessments/i18n/api/%CODE%.json
+
+Page Assessments - User Interface
+id = ext-pageassessments-user
+file = PageAssessments/i18n/%CODE%.json
 aliasfile = PageAssessments/PageAssessments.i18n.alias.php
 
 Page Block

@@ -347,6 +347,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-pageassessments
+  label: PageAssessments
+  description: '{{Special:MyLanguage/MediaWiki:Pageassessments-desc/en}}'
+GROUPS:
+  - ext-pageassessments-*
+
+---
+BASIC:
   id: ext-pageimages
   label: PageImages
   description: '{{Special:MyLanguage/MediaWiki:Pageimages-desc/en}}'
