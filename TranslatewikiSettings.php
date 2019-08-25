@@ -272,7 +272,8 @@ $wgCirrusSearchElasticQuirks = [
 ];
 $wgCirrusSearchServers = [ $privESService ];
 
-require_once "$EXT/Translate/Translate.php";
+wfLoadExtension( 'Translate' );
+require_once "$EXT/Translate/utils/lc.php";
 require_once __DIR__ . '/TranslateSettings.php';
 require_once __DIR__ . '/LanguageSettings.php';
 
