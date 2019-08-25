@@ -49,6 +49,7 @@ GROUPS:
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-ores-api
   - ext-pageimages-api
+  - ext-parsermigration-api
   - ext-scribunto-api
   - ext-securelinkfixer # https://phabricator.wikimedia.org/rOMWCfe4877df3b1362f5115823c26f186f9c8e109233
   - ext-securepoll-api

@@ -355,6 +355,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-parsermigration
+  label: ParserMigration
+  description: '{{Special:MyLanguage/MediaWiki:Parsermigration-desc/en}}'
+GROUPS:
+  - ext-parsermigration-*
+
+---
+BASIC:
   id: ext-scribunto
   label: Scribunto
 

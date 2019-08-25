@@ -67,7 +67,7 @@ GROUPS:
   - ext-pageassessments
   - ext-pageimages-user
   - ext-pageviewinfo # https://phabricator.wikimedia.org/rOMWC295d9c12dacc1310557945ef00f2a50859ed1fcb
-  - ext-parsermigration # All wikis https://phabricator.wikimedia.org/rOMWCc5875c90fdd32f4c6773cb07e89804b633a2000f
+  - ext-parsermigration-user # All wikis https://phabricator.wikimedia.org/rOMWCc5875c90fdd32f4c6773cb07e89804b633a2000f
   - ext-parsoidbatchapi # All wikis
   - ext-performanceinspector
   - ext-poem
