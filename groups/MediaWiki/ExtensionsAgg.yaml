@@ -347,6 +347,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-securepoll
+  label: SecurePoll
+  description: '{{Special:MyLanguage/MediaWiki:Securepoll-desc/en}}'
+GROUPS:
+  - ext-securepoll-*
+
+---
+BASIC:
   id: ext-sitematrix
   label: Site Matrix
   description: '{{Special:MyLanguage/MediaWiki:Sitematrix-desc/en}}'

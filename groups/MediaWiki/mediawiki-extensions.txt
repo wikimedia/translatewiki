@@ -2365,7 +2365,13 @@ aliasfile = SecureHTML/SecureHTML.alias.php
 
 Secure Link Fixer
 
-Secure Poll
+SecurePoll - API
+id = ext-securepoll-api
+file = SecurePoll/i18n/api/%CODE%.json
+
+SecurePoll - User Interface
+id = ext-securepoll-user
+file = SecurePoll/i18n/%CODE%.json
 aliasfile = SecurePoll/SecurePoll.alias.php
 optional = securepoll-header-ip, securepoll-header-xff, securepoll-header-token-match
 optional = securepoll-header-url, securepoll-header-id, securepoll-header-trans-id
