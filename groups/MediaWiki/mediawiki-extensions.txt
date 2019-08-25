@@ -2286,7 +2286,13 @@ Random Selection
 
 # Random Users With Avatars // 2018-05-20: Read only now
 
-Reading Lists
+ReadingLists - API
+id = ext-readinglists-api
+file = ReadingLists/i18n/api/%CODE%.json
+
+ReadingLists - User Interface
+id = ext-readinglists-user
+file = ReadingLists/i18n/%CODE%.json
 
 Reassign Edits
 aliasfile = ReassignEdits/ReassignEdits.alias.php
