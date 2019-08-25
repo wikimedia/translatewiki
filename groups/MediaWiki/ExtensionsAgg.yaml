@@ -278,6 +278,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-jsonconfig
+  label: JsonConfig
+  description: '{{Special:MyLanguage/MediaWiki:Jsonconfig-desc/en}}'
+GROUPS:
+  - ext-jsonconfig-*
+
+---
+BASIC:
   id: ext-kartographer
   label: Kartographer
   description: '{{Special:MyLanguage/MediaWiki:Kartographer-desc/en}}'

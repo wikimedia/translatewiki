@@ -1461,7 +1461,13 @@ Josa
 JS Bread Crumbs
 optional = jsbreadcrumbs-horizontal-separator
 
-Json Config
+JsonConfig - API
+id = ext-jsonconfig-api
+file = JsonConfig/i18n/api/%CODE%.json
+
+JsonConfig - User Interface
+id = ext-jsonconfig-user
+file = JsonConfig/i18n/%CODE%.json
 optional = jsonconfig-type-abbr-invalid, jsonconfig-type-abbr-string, jsonconfig-type-abbr-localized
 optional = jsonconfig-type-abbr-number, jsonconfig-type-abbr-boolean, jsonconfig-license-url-CC0-1.0
 optional = jsonconfig-license-name-CC-BY-1.0, jsonconfig-license-name-CC-BY-2.0
