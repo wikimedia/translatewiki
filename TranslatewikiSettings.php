@@ -225,6 +225,7 @@ wfLoadSkins( [ 'Vector', 'MonoBook', 'Timeless' ] );
 // Extensions which we don't specify any configuration
 wfLoadExtensions( [
 	'AbuseFilter',
+	'AdminLinks',
 	'CharInsert',
 	'cldr',
 	'Elastica',
@@ -247,7 +248,6 @@ wfLoadExtensions( [
 ] );
 
 $EXT = "$IP/extensions";
-require_once "$EXT/AdminLinks/AdminLinks.php";
 
 wfLoadExtension( 'CleanChanges' );
 $wgCCUserFilter = true;
@@ -257,7 +257,7 @@ $wgCCFiltersOnly = true;
 
 $wgNamespacesToBeSearchedDefault[NS_MAIN] = true;
 $wgNamespacesToBeSearchedDefault[NS_MEDIAWIKI] = true;
-require_once "$EXT/CirrusSearch/CirrusSearch.php";
+wfLoadExtension( 'CirrusSearch' );
 $wgSearchType = 'CirrusSearch';
 $wgAdvancedSearchHighlighting = true;
 $wgCirrusSearchWikimediaExtraPlugin[ 'regex' ] = [
