@@ -371,6 +371,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-proofreadpage
+  label: ProofreadPage
+  description: '{{Special:MyLanguage/MediaWiki:Proofreadpage_desc/en}}'
+GROUPS:
+  - ext-proofreadpage-*
+
+---
+BASIC:
   id: ext-readinglists
   label: ReadingLists
   description: '{{Special:MyLanguage/MediaWiki:Readinglists-desc/en}}'

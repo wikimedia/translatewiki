@@ -2223,7 +2223,13 @@ aliasfile = PrivateDomains/PrivateDomains.alias.php
 
 Pronunciation Recording
 
-Proofread Page
+ProofreadPage - API
+id = ext-proofreadpage-api
+file = ProofreadPage/i18n/api/%CODE%.json
+
+ProofreadPage - User Interface
+id = ext-proofreadpage-user
+file = ProofreadPage/i18n/%CODE%.json
 aliasfile = ProofreadPage/ProofreadPage.alias.php
 descmsg = proofreadpage_desc
 ignored = proofreadpage_default_header, proofreadpage_default_footer

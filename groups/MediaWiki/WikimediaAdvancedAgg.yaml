@@ -71,7 +71,7 @@ GROUPS:
   - ext-parsoidbatchapi # All wikis
   - ext-performanceinspector
   - ext-poem
-  - ext-proofreadpage # Wikisource
+  - ext-proofreadpage-user # Wikisource
   - ext-propertysuggester # https://phabricator.wikimedia.org/rOMWC8612a69333853901fa04dcc377ce58d0879782d0
   - ext-quicksurveys # 2016, some wiki
   - ext-quiz
