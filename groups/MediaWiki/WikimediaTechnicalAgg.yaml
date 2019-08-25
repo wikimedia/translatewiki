@@ -32,6 +32,7 @@ GROUPS:
   - ext-gettingstarted-api
   - ext-globalblocking-api
   - ext-globalusage-api
+  - ext-graph-api
   - ext-flow-api
   - ext-globalpreferences-api
   - ext-growthexperiments-helppanel-api

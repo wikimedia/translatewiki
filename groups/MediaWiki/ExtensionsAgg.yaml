@@ -261,6 +261,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-graph
+  label: Graph
+  description: '{{Special:MyLanguage/MediaWiki:Graph-desc/en}}'
+GROUPS:
+  - ext-graph-*
+
+---
+BASIC:
   id: ext-jade
   label: Jade
   description: '{{Special:MyLanguage/MediaWiki:Jade-desc/en}}'

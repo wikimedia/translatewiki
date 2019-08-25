@@ -46,7 +46,7 @@ GROUPS:
   - ext-globalblocking-user # Only advanced users except globalblocking-ipblocked*
   - ext-globalcssjs
   - ext-googlenewssitemap # r87149 for wikinews
-  - ext-graph # Deployed everywhere
+  - ext-graph-user # Deployed everywhere
   - ext-guidedtour # 2013-01-31 for 15 projects
   - ext-interwiki
   - ext-interwikisorting # https://phabricator.wikimedia.org/rOMWCdd2a7f08ba44692418fc4b13a467f574f46e2396
