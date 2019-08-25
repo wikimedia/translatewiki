@@ -1993,7 +1993,13 @@ magicfile = PageForms/languages/PF_Magic.php
 ignored = pf_formedit_accesskey_saveandcontinueediting, accesskey-ca-formedit
 optional = pf-datepicker-dateformatlong, pf-datepicker-dateformatshort, pf-datepicker-firstdayofweek
 
-Page Images
+PageImages - API
+id = ext-pageimages-api
+file = PageImages/i18n/api/%CODE%.json
+
+PageImages - User Interface
+id = ext-pageimages-user
+file = PageImages/i18n/%CODE%.json
 ignored = pageimages-blacklist
 
 Page In Cat

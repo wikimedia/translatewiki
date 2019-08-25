@@ -347,6 +347,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-pageimages
+  label: PageImages
+  description: '{{Special:MyLanguage/MediaWiki:Pageimages-desc/en}}'
+GROUPS:
+  - ext-pageimages-*
+
+---
+BASIC:
   id: ext-scribunto
   label: Scribunto
 
