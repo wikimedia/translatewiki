@@ -355,6 +355,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-pageviewinfo
+  label: PageViewInfo
+  description: '{{Special:MyLanguage/MediaWiki:Pvi-desc/en}}'
+GROUPS:
+  - ext-pageviewinfo-*
+
+---
+BASIC:
   id: ext-parsermigration
   label: ParserMigration
   description: '{{Special:MyLanguage/MediaWiki:Parsermigration-desc/en}}'

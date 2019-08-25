@@ -1997,6 +1997,16 @@ PageImages - API
 id = ext-pageimages-api
 file = PageImages/i18n/api/%CODE%.json
 
+PageViewInfo - API
+id = ext-pageviewinfo-api
+file = PageViewInfo/i18n/api/%CODE%.json
+
+PageViewInfo - User Interface
+id = ext-pageviewinfo-user
+file = PageViewInfo/i18n/%CODE%.json
+descmsg = pvi-desc
+optional = pvi-range
+
 PageImages - User Interface
 id = ext-pageimages-user
 file = PageImages/i18n/%CODE%.json
@@ -2109,10 +2119,6 @@ Pages List
 aliasfile = PagesList/PagesList.i18n.alias.php
 
 # Page Popups // No i18n
-
-Page View Info
-descmsg = pvi-desc
-optional = pvi-range
 
 Paginate Text
 
