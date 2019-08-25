@@ -50,6 +50,7 @@ GROUPS:
   - ext-sitematrix-api
   - ext-spamblacklist-api
   - ext-templatedata-api
+  - ext-textextracts-api
   - ext-thanks-api
   - ext-timedmediahandler-api
   - ext-titleblacklist-api

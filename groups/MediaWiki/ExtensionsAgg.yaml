@@ -358,6 +358,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-textextracts
+  label: TextExtracts
+  description: '{{Special:MyLanguage/MediaWiki:Textextracts-desc/en}}'
+GROUPS:
+  - ext-textextracts-*
+
+---
+BASIC:
   id: ext-thanks
   label: Thanks
 

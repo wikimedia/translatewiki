@@ -2604,7 +2604,13 @@ Template Wizard
 Test Language Name Grammar
 aliasfile = TestLanguageNameGrammar/TestLanguageNameGrammar.alias.php
 
-Text Extracts
+TextExtracts - API
+id = ext-textextracts-api
+file = TextExtracts/i18n/api/%CODE%.json
+
+TextExtracts - User Interface
+id = ext-textextracts-user
+file = TextExtracts/i18n/%CODE%.json
 
 Text Scroller
 
