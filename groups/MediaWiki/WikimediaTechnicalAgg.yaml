@@ -15,6 +15,7 @@ GROUPS:
   - ext-babel-api
   - ext-betafeatures-api
   - ext-bouncehandler-api
+  - ext-cargo-api
   - ext-categorytree-api
   - ext-centralauth-api
   - ext-centralnotice-api

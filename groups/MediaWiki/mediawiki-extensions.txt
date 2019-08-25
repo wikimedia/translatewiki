@@ -492,7 +492,13 @@ Campaigns
 
 Capiunto
 
-Cargo
+Cargo - API
+id = ext-cargo-api
+file = Cargo/i18n/api/%CODE%.json
+
+Cargo - User Interface
+id = ext-cargo-user
+file = Cargo/i18n/%CODE%.json
 magicfile = Cargo/Cargo.i18n.magic.php
 aliasfile = Cargo/Cargo.alias.php
 ignored = cargo-drilldown-gallerycaption

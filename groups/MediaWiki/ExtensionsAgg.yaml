@@ -74,6 +74,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-cargo
+  label: Cargo
+  description: '{{Special:MyLanguage/MediaWiki:Cargo-desc/en}}'
+GROUPS:
+  - ext-cargo-*
+
+---
+BASIC:
   id: ext-categorytree
   label: Category Tree
   description: '{{Special:MyLanguage/MediaWiki:Categorytree-desc/en}}'
