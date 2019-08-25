@@ -475,6 +475,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-wikibasequalityconstraints
+  label: WikibaseQualityConstraints
+  description: '{{Special:MyLanguage/MediaWiki:Wbqc-desc/en}}'
+GROUPS:
+  - ext-wikibasequalityconstraints-*
+
+---
+BASIC:
   id: ext-wikibase-repo
   label: Wikibase Repo
   description: '{{Special:MyLanguage/MediaWiki:Wikibase-desc/en}}'
