@@ -337,7 +337,20 @@ class ExportCommand extends RepoNgCommand {
 		$process = new Process( $command );
 		$process->setTimeout( 10 );
 		$process->mustRun();
-		$groups = explode( "\n", trim( $process->getOutput() ) );
+		$groupsOutput = trim( $process->getOutput() );
+
+		if ( $groupsOutput === '' ) {
+			$formatter = $output->getFormatter();
+			$msg = sprintf(
+				"<options=bold>%s</>\n<error>No exportable groups found for pattern '%s'</>\n",
+				$formatter->escape( $project ),
+				$formatter->escape( $config[ 'group' ] )
+			);
+			$output->write( $msg );
+			return;
+		}
+
+		$groups = explode( "\n", $groupsOutput );
 
 		$processes = new SplObjectStorage();
 
