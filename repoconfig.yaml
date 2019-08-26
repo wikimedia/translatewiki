@@ -738,7 +738,7 @@ wikisource:
       url|export: git@github.com:wikisource/wscontest.git
 
 wmcz-tracker:
-  group: wmcz-tracker
+  group: wmcz-tracker-*
   auto-merge: wikimedia-cz/tracker
   repos:
     wmcz-tracker:
