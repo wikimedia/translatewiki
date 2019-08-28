@@ -588,7 +588,6 @@ sp-contributions-toponly
 sp-contributions-submit
 sp-contributions-search
 sp-contributions-newonly
-sp-contributions-newbies
 sp-contributions-uploads
 sp-contributions-talk
 sp-contributions-blocklog
