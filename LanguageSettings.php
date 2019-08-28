@@ -68,6 +68,7 @@ $wgExtraLanguageNames['mic'] = 'Mi\'kmaq'; # Micmac / Nikerabbit 2012-02-27
 $wgExtraLanguageNames['miq'] = 'Mískitu'; # Miskito / Siebrand 2013-07-02
 $wgExtraLanguageNames['mnc'] = 'ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ'; # Manchu / Siebrand 2010-08-11
 $wgExtraLanguageNames['mnw'] = 'ဘာသာ မန်'; # Mon / Amir 2012-05-31
+$wgExtraLanguageNames['mrv'] = 'Magareva'; # Mangareva / Amir 2019-08-28
 $wgExtraLanguageNames['mui'] = 'Musi'; # Musi / Siebrand 2010-02-11
 $wgExtraLanguageNames['mwv'] = 'Behase Mentawei'; # Mentawai / Siebrand 2008-05-07
 $wgExtraLanguageNames['mww-latn'] = 'Hmoob Dawb'; # Hmong Daw / Siebrand 2013-12-02
