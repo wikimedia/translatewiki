@@ -442,7 +442,6 @@ sp-contributions-submit
 newmessageslink
 blocklogentry
 missingarticle-rev
-sp-contributions-newbies
 sp-contributions-search
 sp-contributions-username
 nolinkshere-2
