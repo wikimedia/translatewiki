@@ -2959,10 +2959,6 @@ optional = version-compare-url-field-label-1, version-compare-url-field-label-2
 Video
 ignored = video-provider-list
 
-
-View Files
-aliasfile = ViewFiles/ViewFiles.alias.php
-
 VIKI
 
 Viki Semantic Title
