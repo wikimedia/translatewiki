@@ -426,6 +426,9 @@ file = BlueSpiceSocial/i18n/notifications/%CODE%.json
 Blue Spice Social Rating
 descmsg = bs-socialrating-desc
 
+Blue Spice Social Resolve
+descmsg = bs-socialresolve-desc
+
 Blue Spice Sub Page Tree
 descmsg = bs-subpagetree-desc
 
