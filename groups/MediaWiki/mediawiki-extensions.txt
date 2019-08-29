@@ -2570,6 +2570,7 @@ Spam Blacklist - User interface
 file = SpamBlacklist/i18n/%CODE%.json
 id = ext-spamblacklist-interface
 descmsg = spam-blacklist-desc
+ignored = spam-blacklisted-link
 
 Spam Blacklist - API
 id = ext-spamblacklist-api
