@@ -729,7 +729,6 @@ whatlinkshere-hideimages
 vector-action-delete
 statistics
 grouppage-bot
-wlshowlast
 wlnote
 wlheader-showupdated
 watchlisttools-view
