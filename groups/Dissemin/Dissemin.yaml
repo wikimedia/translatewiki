@@ -1,9 +1,40 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Dissemin_blue_logo.png
+    description: "{{Special:MyLanguage/Translations:Group descriptions/dissemin/en}}"
+    namespace: NS_DISSEMIN
+    class: FileBasedMessageGroup
+    codeBrowser: "https://github.com/dissemin/dissemin/blob/master/%FILE%#L%LINE%"
+
+  FILES:
+    class: GettextFFS
+    header: |
+      # This file is part of the Dissemin Project
+      # This file is distributed under the same license as the Dissemin package.
+      #
+
+    codeMap:
+      en-gb: en_GB
+      en-us: en_US
+      pt:    pt
+      pt-br: pt_BR
+      zh-hans: zh_Hans
+      zh-hant: zh_Hant
+
+  VALIDATORS:
+    - id: InsertableRegex
+      insertable: true
+      enforce: true
+      params: /%\([a-z0-9_]+\)[sd]/
+    - id: InsertableRegex
+      insertable: true
+      enforce: true
+      params: /%[sd]/
+
+---
 BASIC:
   id: dissemin
   label: Dissemin
-  icon: wiki://Dissemin_blue_logo.png
-  description: "{{Special:MyLanguage/Translations:Group descriptions/dissemin/en}}"
-  namespace: NS_DISSEMIN
   meta: yes
   class: AggregateMessageGroup
 
@@ -15,49 +46,15 @@ GROUPS:
 BASIC:
   id: dissemin-website
   label: Dissemin website
-  icon: wiki://Dissemin_blue_logo.png
-  description: "{{Special:MyLanguage/Translations:Group descriptions/dissemin/en}}"
-  namespace: NS_DISSEMIN
-  class: FileBasedMessageGroup
-  codeBrowser: "https://github.com/dissemin/dissemin/blob/master/%FILE%#L%LINE%"
 
 FILES:
-  class: GettextFFS
   sourcePattern: "%GROUPROOT%/dissemin/locale/%CODE%/LC_MESSAGES/django.po"
   definitionFile: "%GROUPROOT%/dissemin/locale/django.pot"
-
-  header: |
-    # This file is part of the Dissemin Project
-    # This file is distributed under the same license as the Dissemin package.
-    #
-
-  codeMap:
-    en-gb: en_GB
-    en-us: en_US
-    pt:    pt
-    pt-br: pt_BR
-    zh-hans: zh_Hans
-    zh-hant: zh_Hant
-
-VALIDATORS:
-  - id: InsertableRegex
-    insertable: true
-    enforce: true
-    params: /%\([a-z0-9_]+\)[sd]/
-  - id: InsertableRegex
-    insertable: true
-    enforce: true
-    params: /%[sd]/
 
 ---
 BASIC:
   id: dissemin-papers
   label: Dissemin papers
-  icon: wiki://Dissemin_blue_logo.png
-  description: "{{Special:MyLanguage/Translations:Group descriptions/dissemin/en}}"
-  namespace: NS_DISSEMIN
-  class: FileBasedMessageGroup
-  codeBrowser: "https://github.com/dissemin/dissemin/blob/master/%FILE%#L%LINE%"
 
 MANGLER:
   class: StringMatcher
@@ -66,24 +63,5 @@ MANGLER:
     - "*"
 
 FILES:
-  class: GettextFFS
   sourcePattern: "%GROUPROOT%/dissemin/locale/%CODE%/LC_MESSAGES/djangojs.po"
   definitionFile: "%GROUPROOT%/dissemin/locale/djangojs.pot"
-
-  codeMap:
-    en-gb: en_GB
-    en-us: en_US
-    pt:    pt
-    pt-br: pt_BR
-    zh-hans: zh_Hans
-    zh-hant: zh_Hant
-
-VALIDATORS:
-  - id: InsertableRegex
-    insertable: true
-    enforce: true
-    params: /%\([a-z0-9_]+\)[sd]/
-  - id: InsertableRegex
-    insertable: true
-    enforce: true
-    params: /%[sd]/
