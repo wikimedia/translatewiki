@@ -428,6 +428,9 @@ id = ext-bs-socialblog-desc
 aliasfile = BlueSpiceSocialBlog/languages/Blog.alias.php
 ignored = bs-socialblog-entityblog-header
 
+Blue Spice Social Comments
+id = ext-bs-socialcomments-desc
+
 Blue Spice Social Rating
 descmsg = bs-socialrating-desc
 
