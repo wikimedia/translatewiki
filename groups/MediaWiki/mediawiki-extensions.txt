@@ -423,6 +423,9 @@ Blue Spice Social - Notifications
 id = ext-bs-social-notifications
 file = BlueSpiceSocial/i18n/notifications/%CODE%.json
 
+Blue Spice Social Article Actions
+id = ext-bs-socialarticleactions-desc
+
 Blue Spice Social Blog
 id = ext-bs-socialblog-desc
 aliasfile = BlueSpiceSocialBlog/languages/Blog.alias.php
