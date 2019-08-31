@@ -21,6 +21,8 @@ GROUPS:
   - ext-checkuser-api
   - ext-cirrussearch-api
   - ext-cite-api
+  - ext-confirmedit-api
+  - ext-confirmeditfancycaptcha-api
   - ext-contenttranslation-api
   - ext-echo-api
   - ext-entityschema

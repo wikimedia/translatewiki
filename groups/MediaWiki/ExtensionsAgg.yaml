@@ -137,6 +137,33 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-confirmedit
+  label: Confirm Edit
+  description: '{{Special:MyLanguage/MediaWiki:Captcha-desc/en}}'
+
+GROUPS:
+  - ext-confirmedit-*
+
+---
+BASIC:
+  id: ext-confirmeditfancycaptcha
+  label: ConfirmEdit Fancy Captcha
+  description: '{{Special:MyLanguage/MediaWiki:Fancycaptcha-desc/en}}'
+
+GROUPS:
+  - ext-confirmeditfancycaptcha-*
+
+---
+BASIC:
+  id: ext-confirmeditrecaptchanocaptcha
+  label: ConfirmEdit ReCaptcha NoCaptcha
+  description: '{{Special:MyLanguage/MediaWiki:Renocaptcha-desc/en}}'
+
+GROUPS:
+  - ext-confirmeditrecaptchanocaptcha-*
+
+---
+BASIC:
   id: ext-flaggedrevs
   label: Flagged Revs
   description: '{{Special:MyLanguage/Translations:Group descriptions/flaggedrevs/en}}'

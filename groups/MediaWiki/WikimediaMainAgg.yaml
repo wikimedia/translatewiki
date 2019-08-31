@@ -20,8 +20,8 @@ GROUPS:
   - ext-citespecial
   - ext-citoid # 2015-03-16
   - ext-collection
-  - ext-confirmedit
-  - ext-confirmeditfancycaptcha
+  - ext-confirmedit-user
+  - ext-confirmeditfancycaptcha-user
   - ext-contenttranslation-user
   - ext-disambiguator
   - ext-dismissablesitenotice

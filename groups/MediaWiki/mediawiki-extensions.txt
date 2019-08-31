@@ -705,16 +705,26 @@ Confirm Account - User Credentials
 file = ConfirmAccount/i18n/usercredentials/%CODE%.json
 id = ext-confirmaccount-usercredentials
 
-Confirm Edit
+Confirm Edit - User interface
+id = ext-confirmedit-user
 file = ConfirmEdit/i18n/%CODE%.json
 aliasfile = ConfirmEdit/ConfirmEdit.alias.php
 descmsg = captcha-desc
 ignored = captcha-ip-whitelist
 
-ConfirmEdit Fancy Captcha
+Confirm Edit - API
+id = ext-confirmedit-api
+file = ConfirmEdit/i18n/api/%CODE%.json
+
+ConfirmEdit Fancy Captcha - User interface
+id = ext-confirmeditfancycaptcha-user
 file = ConfirmEdit/FancyCaptcha/i18n/%CODE%.json
 descmsg = fancycaptcha-desc
 optional = fancycaptcha-desc
+
+ConfirmEdit Fancy Captcha - API
+id = ext-confirmeditfancycaptcha-api
+file = ConfirmEdit/FancyCaptcha/i18n/api/%CODE%.json
 
 ConfirmEdit Math Captcha
 file = ConfirmEdit/MathCaptcha/i18n/%CODE%.json
@@ -726,8 +736,13 @@ file = ConfirmEdit/QuestyCaptcha/i18n/%CODE%.json
 descmsg = questycaptcha-desc
 optional = questycaptcha-desc
 
-ConfirmEdit ReCaptcha NoCaptcha
+ConfirmEdit ReCaptcha NoCaptcha - User interface
+id = ext-confirmeditrecaptchanocaptcha-user
 file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/%CODE%.json
+
+ConfirmEdit ReCaptcha NoCaptcha - API
+id = ext-confirmeditrecaptchanocaptcha-api
+file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/api/%CODE%.json
 
 # Congress Lookup # US centric
 
