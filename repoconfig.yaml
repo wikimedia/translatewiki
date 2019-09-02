@@ -57,7 +57,7 @@ dissemin:
 eol:
   group: eol-*
   repos:
-    eol:
+    eol-website:
       type: github
       url: https://github.com/EOL/eol_website.git
       url|export: git@github.com:EOL/eol_website.git

@@ -40,11 +40,11 @@ GROUPS:
 
 ---
 BASIC:
-  id: eol-site
+  id: eol-website
   label: Encyclopedia of Life - Website
 
 FILES:
-  sourcePattern: "%GROUPROOT%/eol/website/config/locales/%CODE%.yml"
+  sourcePattern: "%GROUPROOT%/eol-website/config/locales/%CODE%.yml"
 
 MANGLER:
   class: StringMatcher
@@ -65,7 +65,7 @@ BASIC:
   label: Encyclopedia of Life - Devise (Authentication)
 
 FILES:
-  sourcePattern: "%GROUPROOT%/eol/website/config/locales/devise.%CODE%.yml"
+  sourcePattern: "%GROUPROOT%/eol-website/config/locales/devise.%CODE%.yml"
 
 MANGLER:
   class: StringMatcher
