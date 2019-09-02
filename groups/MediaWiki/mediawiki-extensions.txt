@@ -908,6 +908,10 @@ optional = donate_interface-pm-eps, donate_interface-pm-enets, donate_interface-
 optional = donate_interface-pm-nordea, donate_interface-pm-skrill, donate_interface-pm-sofort, donate_interface-pm-webmoney
 optional = donate_interface-pm-westernunio, donate_interface-pm-yandex
 
+Donation Interface - Gateway Common - API
+id = ext-di-gc-api
+file = DonationInterface/gateway_common/i18n/api/%CODE%.json
+
 Donation Interface - Global Collect Gateway
 file = DonationInterface/globalcollect_gateway/i18n/%CODE%.json
 id = ext-di-gcg

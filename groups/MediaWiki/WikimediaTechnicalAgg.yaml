@@ -24,6 +24,7 @@ GROUPS:
   - ext-confirmedit-api
   - ext-confirmeditfancycaptcha-api
   - ext-contenttranslation-api
+  - ext-di-gc-api
   - ext-echo-api
   - ext-entityschema
   - ext-extensiondistributor-api
