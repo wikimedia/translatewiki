@@ -8,7 +8,7 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
-  - ext-liquidthreads # 2009-11-11: MediaWiki.org and some other projects
+  - ext-liquidthreads-user # 2009-11-11: MediaWiki.org and some other projects
   - ext-renameuser # Being phased out, 2015
   - ext-usermerge # Formerly used on Wikivoyage, not actually used since 2015
   - mediawiki-skin-cologneblue

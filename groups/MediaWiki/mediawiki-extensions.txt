@@ -1618,11 +1618,17 @@ Linter - API
 id = ext-linter-api
 file = Linter/i18n/api/%CODE%.json
 
-Liquid Threads
+Liquid Threads - User Interface
+id = ext-liquidthreads-user
+file = LiquidThreads/i18n/%CODE%.json
 aliasfile = LiquidThreads/i18n/Lqt.alias.php
 magicfile = LiquidThreads/i18n/LiquidThreads.magic.php
 descmsg = lqt-desc
 ignored = lqt_header_warning_before_big
+
+Liquid Threads - API
+id = ext-liquidthreads-api
+file = LiquidThreads/i18n/api/%CODE%.json
 ignored = apihelp-threadaction-param-operand
 
 List Signup

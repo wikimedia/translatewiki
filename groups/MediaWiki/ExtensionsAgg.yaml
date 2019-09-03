@@ -339,6 +339,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-liquidthreads
+  label: Liquid Threads
+  description: '{{Special:MyLanguage/MediaWiki:Lqt-desc/en}}'
+GROUPS:
+  - ext-liquidthreads-*
+
+---
+BASIC:
   id: ext-machinevision
   label: Machine Vision
   description: '{{Special:MyLanguage/MediaWiki:Machinevision-desc/en}}'
