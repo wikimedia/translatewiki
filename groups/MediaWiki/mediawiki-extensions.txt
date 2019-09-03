@@ -264,9 +264,7 @@ Blue Spice Avatars
 descmsg = bs-avatars-desc
 aliasfile = BlueSpiceAvatars/languages/SpecialAvatars.alias.php
 
-Blue Spice Blog
-descmsg = bs-blog-desc
-aliasfile = BlueSpiceBlog/includes/specials/SpecialBlog.alias.php
+# Blue Spice Blog  // to be archived per https://phabricator.wikimedia.org/T231722#5460212
 
 Blue Spice Blog - Inspector
 file = BlueSpiceBlog/i18n/ve/%CODE%.json
