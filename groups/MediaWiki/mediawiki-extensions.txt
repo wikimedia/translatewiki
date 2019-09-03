@@ -3200,7 +3200,13 @@ optional = wikihiero-help-link
 
 Wikimedia Badges
 
-Wikimedia Editor Tasks
+Wikimedia Editor Tasks - User Interface
+id = ext-wikimediaeditortasks-user
+file = WikimediaEditorTasks/i18n/%CODE%.json
+
+Wikimedia Editor Tasks - API
+id = ext-wikimediaeditortasks-api
+file = WikimediaEditorTasks/i18n/api/%CODE%.json
 
 Wikimedia Events
 ignored = tag-HHVM, tag-php7

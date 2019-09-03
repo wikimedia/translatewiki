@@ -605,3 +605,11 @@ BASIC:
 
 GROUPS:
   - ext-wikilove-*
+
+---
+BASIC:
+  id: ext-wikimediaeditortasks
+  label: Wikimedia Editor Tasks
+  description: '{{Special:MyLanguage/MediaWiki:Wikimediaeditortasks-desc/en}}'
+GROUPS:
+  - ext-wikimediaeditortasks-*

@@ -18,4 +18,4 @@ GROUPS:
   - ext-jade-user # https://phabricator.wikimedia.org/rOMWC6bc21f7994d5d818b2ffecb2606af14589a65c31
   - ext-machinevision # https://phabricator.wikimedia.org/rOMWCe7f6f7dd9acaa4b41d9d547ee87758a212478875
   - ext-thewikipedialibrary # https://phabricator.wikimedia.org/rOMWC7c8ed76b8df3fc57724c7dafd6aabb3e5336c64b
-  - ext-wikimediaeditortasks # https://phabricator.wikimedia.org/rOMWC2dc7629118165c3e5020ec3bb108272c122cca70
+  - ext-wikimediaeditortasks-user # https://phabricator.wikimedia.org/rOMWC2dc7629118165c3e5020ec3bb108272c122cca70

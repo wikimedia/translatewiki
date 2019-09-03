@@ -79,3 +79,4 @@ GROUPS:
   - ext-wikibaselexeme-api
   - ext-wikibasequalityconstraints-api
   - ext-wikilove-api
+  - ext-wikimediaeditortasks-api
