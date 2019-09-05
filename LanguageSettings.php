@@ -13,6 +13,7 @@ $wgExtraLanguageNames['bfq'] = 'படகா'; # UBadaga / Siebrand 2009-11-19
 $wgExtraLanguageNames['brx'] = 'बर\''; # Boro / Siebrand 2017-05-20
 $wgExtraLanguageNames['btm'] = 'Mandailing'; # Mandailing / Amir 2018-05-02
 $wgExtraLanguageNames['cak'] = 'Kaqchikel'; # Kaqchikel / Nikerabbit 2018-06-15
+$wgExtraLanguageNames['ccp'] = '𑄌𑄋𑄴𑄟𑄳𑄦'; # Chakma / Amir 2019-09-04
 $wgExtraLanguageNames['ciw'] = 'Ojibwemowin'; # Chippewa / Siebrand 2014-03-21
 $wgExtraLanguageNames['cja-latn'] = 'Cham Gah Pai'; # Western Cham (Latin script) / 2015-06-XX
 $wgExtraLanguageNames['cjm-latn'] = 'Cham Gah Pur'; # Eastern Cham (Latin script) / Siebrand 2015-05-25
