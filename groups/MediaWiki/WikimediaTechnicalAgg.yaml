@@ -26,7 +26,6 @@ GROUPS:
   - ext-contenttranslation-api
   - ext-di-gc-api
   - ext-echo-api
-  - ext-entityschema
   - ext-extensiondistributor-api
   - ext-featuredfeeds-api
   - ext-flaggedrevs-api
@@ -62,7 +61,6 @@ GROUPS:
   - ext-propertysuggester-api
   - ext-readinglists-api
   - ext-scribunto-api
-  - ext-securelinkfixer # https://phabricator.wikimedia.org/rOMWCfe4877df3b1362f5115823c26f186f9c8e109233
   - ext-securepoll-api
   - ext-sitematrix-api
   - ext-spamblacklist-api
