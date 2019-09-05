@@ -42,17 +42,20 @@ BASIC:
 FILES:
   sourcePattern: "%GROUPROOT%/osm/config/locales/%CODE%.yml"
 
-CHECKER:
-  class: OSMMessageChecker
-  checks:
-    - OSMVariablesCheck
+VALIDATORS:
+  - id: InsertableRubyVariable
+    enforce: true
+    insertable: true
 
 INSERTABLES:
-  class: OSMInsertablesSuggester
-
-AUTOLOAD:
-  OSMMessageChecker: Checker.php
-  OSMInsertablesSuggester: Insertables.php
+  - class: RegexInsertablesSuggester
+    params: '/&#?\w+;/'
+  - class: RegexInsertablesSuggester
+    params:
+      regex: /(?<open><a.*?>).*?(?<close><\/a>)/
+      display: "$open$close"
+      pre: $open
+      post: $close
 
 TAGS:
   optional:
