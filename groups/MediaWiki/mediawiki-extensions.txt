@@ -441,9 +441,13 @@ descmsg = bs-socialrating-desc
 Blue Spice Social Resolve
 descmsg = bs-socialresolve-desc
 
+Blue Spice Social Timeline Update
+descmsg = bs-socialtimelineupdate-desc
+
 Blue Spice Social Topics
 descmsg = bs-socialtopics-desc
 aliasfile = BlueSpiceSocialTopics/languages/Topics.alias.php
+magicfile = BlueSpiceSocialTopics/languages/TopicsDiscussion.i18n.magic.php
 ignored = bs-socialtopics-entitydiscussion-header, bs-social-entitytopic-header
 
 Blue Spice Social Watch
