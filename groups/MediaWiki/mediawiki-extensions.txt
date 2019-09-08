@@ -1255,6 +1255,8 @@ file = GettingStarted/i18n/%CODE%.json
 
 Git 2 Pages
 
+Git Gadgets
+
 Gitweb
 
 GlobalBlocking - API
