@@ -444,6 +444,10 @@ descmsg = bs-socialresolve-desc
 Blue Spice Social Timeline Update
 descmsg = bs-socialtimelineupdate-desc
 
+Blue Spice Social Tags
+descmsg = bs-socialtags-desc
+aliasfile = BlueSpiceSocialTags/languages/Tags.alias.php
+
 Blue Spice Social Topics
 descmsg = bs-socialtopics-desc
 aliasfile = BlueSpiceSocialTopics/languages/Topics.alias.php
