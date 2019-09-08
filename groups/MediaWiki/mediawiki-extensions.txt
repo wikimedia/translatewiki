@@ -435,6 +435,11 @@ id = ext-bs-socialcomments-desc
 Blue Spice Social Micro Blog
 id = ext-bs-socialmicroblog-desc
 
+Blue Spice Social Profile
+descmsg = bs-socialprofile-desc
+aliasfile = BlueSpiceSocialProfile/languages/Profiles.alias.php
+ignored = bs-socialprofile-entityprofile-header
+
 Blue Spice Social Rating
 descmsg = bs-socialrating-desc
 
