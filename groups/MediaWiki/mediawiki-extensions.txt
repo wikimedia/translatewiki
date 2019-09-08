@@ -457,6 +457,12 @@ ignored = bs-socialtopics-entitydiscussion-header, bs-social-entitytopic-header
 Blue Spice Social Watch
 descmsg = bs-socialwatch-desc
 
+Blue Spice Social Wiki Page
+descmsg = bs-socialwikipage-desc
+aliasfile = BlueSpiceSocialWikiPage/languages/WikiPageStash.alias.php
+magicfile = BlueSpiceSocialWikiPage/languages/WikiPageStash.i18n.magic.php
+ignored = bs-socialwikipage-entitywikipage-header
+
 Blue Spice Sub Page Tree
 descmsg = bs-subpagetree-desc
 
