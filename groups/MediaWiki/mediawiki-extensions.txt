@@ -441,6 +441,9 @@ descmsg = bs-socialrating-desc
 Blue Spice Social Resolve
 descmsg = bs-socialresolve-desc
 
+Blue Spice Social Watch
+descmsg = bs-socialwatch-desc
+
 Blue Spice Sub Page Tree
 descmsg = bs-subpagetree-desc
 
@@ -467,8 +470,6 @@ aliasfile = BlueSpiceUsageTracker/languages/SpecialUsageTracker.alias.php
 Blue Spice User Manager
 descmsg = bs-usermanager-desc
 aliasfile = BlueSpiceUserManager/includes/specials/SpecialUserManager.alias.php
-
-# Blue Spice User Preferences // Only release branches used - T197898
 
 Blue Spice User Sidebar
 descmsg = bs-usersidebar-desc
