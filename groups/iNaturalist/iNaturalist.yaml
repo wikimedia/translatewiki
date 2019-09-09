@@ -31,7 +31,7 @@ VALIDATORS:
     insertable: true
     params: /%{[a-z_]+}/
   - id: InsertableRegex
-    params: "/&#?\w+;/"
+    params: '/&#?\w+;/'
     enforce: true
     insertable: true
 
