@@ -1285,13 +1285,13 @@ file = GlobalCssJs/i18n/core/%CODE%.json
 Global Notice
 
 Global Preferences - User interface
-id = ext-globalprefences-user
+id = ext-globalpreferences-user
 file = GlobalPreferences/i18n/%CODE%.json
 aliasfile = GlobalPreferences/GlobalPreferences.alias.php
 descmsg = globalprefs-desc
 
 Global Preferences - API
-id = ext-globalprefences-api
+id = ext-globalpreferences-api
 file = GlobalPreferences/i18n/api/%CODE%.json
 
 Global Usage - User interface
