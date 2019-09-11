@@ -2,12 +2,11 @@
 
 /www/translatewiki.net/logs/error_php
 /www/translatewiki.net/logs/error_js
-/www/translatewiki.net/logs/jobqueue
 /www/translatewiki.net/logs/access_cli
-/www/translatewiki.net/logs/db
+/www/translatewiki.net/logs/debug
 /www/translatewiki.net/logs/details {
   copytruncate
-  rotate 4
+  rotate 5
   weekly
   nocompress
   dateext
