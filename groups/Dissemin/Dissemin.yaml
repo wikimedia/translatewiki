@@ -30,6 +30,8 @@ TEMPLATE:
       insertable: true
       enforce: true
       params: /%[sd]/
+    - id: GettextPlural
+      enforce: true
 
 ---
 BASIC:
