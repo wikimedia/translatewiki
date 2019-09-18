@@ -32,6 +32,8 @@ TEMPLATE:
       params: /%[sd]/
     - id: GettextNewline
       enforce: true
+    - id: GettextPlural
+      enforce: true
 
 ---
 BASIC:
