@@ -105,15 +105,6 @@ huggle:
       url: https://github.com/huggle/huggle3-qt-lx.git
       url|export: git@github.com:huggle/huggle3-qt-lx.git
 
-inaturalist:
-  group: out-inaturalist
-  repos:
-    inaturalist:
-      type: github
-      branch: i18n
-      url: https://github.com/inaturalist/inaturalist.git
-      url|export: git@github.com:inaturalist/inaturalist.git
-
 intuition:
   group: tsint-*
   export-threshold: 1

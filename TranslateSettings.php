@@ -450,11 +450,6 @@ $wgTranslateGroupFiles[] = "$GROUPS/NFCRingControl/NFCRingControl.yaml";
 $wgTranslateGroupAliases['out-nfcring-control'] = 'nfcring-control';
 
 wfAddNamespace( 1262, 'iNaturalist' );
-$wgTranslateGroupFiles[] = "$GROUPS/iNaturalist/iNaturalist.yaml";
-$wgTranslateSupportUrlNamespace[NS_INATURALIST] = [
-	'page' => 'Translating_talk:iNaturalist',
-	'params' => $lqtParams,
-];
 
 # No longer un use
 wfAddNamespace( 1264, 'EntryScape' );

@@ -1,6 +1,6 @@
 <?php
 /**
- * Implements MessageChecker for iNaturalist.
+ * Implements MessageChecker for Mifos.
  *
  * @file
  * @author Niklas Laxström, Siebrand Mazeland
@@ -8,7 +8,7 @@
  */
 
 /**
- * Message checks for iNaturalist
+ * Message checks for Mifos
  *
  * @ingroup MessageCheckers
  */
