@@ -391,6 +391,16 @@ FILES:
 
 ---
 BASIC:
+  id: mwgithub-bcmath
+  label: BCmath
+  description: "{{Special:MyLanguage/MediaWiki:bcmath-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/jeblad/BCmath/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-pickle
   label: Pickle
   description: "{{Special:MyLanguage/MediaWiki:pickle-desc/en}}"

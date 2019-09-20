@@ -286,6 +286,10 @@ mwgithub:
       type: github
       url: https://github.com/Hutchy68/Purge.git
       url|export: git@github.com:Hutchy68/Purge.git
+    mwgithub/jeblad/BCmath:
+      type: github
+      url: https://github.com/jeblad/BCmath.git
+      url|export: git@github.com:jeblad/BCmath.git
     mwgithub/jeblad/LangCodeOverride:
       type: github
       url: https://github.com/jeblad/LangCodeOverride.git
