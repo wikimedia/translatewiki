@@ -290,6 +290,10 @@ mwgithub:
       type: github
       url: https://github.com/jeblad/BCmath.git
       url|export: git@github.com:jeblad/BCmath.git
+    mwgithub/jeblad/Expect:
+      type: github
+      url: https://github.com/jeblad/Expect.git
+      url|export: git@github.com:jeblad/Expect.git
     mwgithub/jeblad/LangCodeOverride:
       type: github
       url: https://github.com/jeblad/LangCodeOverride.git

@@ -424,6 +424,16 @@ TAGS:
 
 ---
 BASIC:
+  id: mwgithub-expect
+  label: Expect
+  description: "{{Special:MyLanguage/MediaWiki:expect-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/jeblad/Expect/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-langcodeoverride
   label: Lang Code Override
   description: "{{Special:MyLanguage/MediaWiki:lang-code-override-desc-desc/en}}"
