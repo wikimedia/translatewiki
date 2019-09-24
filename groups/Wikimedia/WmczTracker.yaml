@@ -27,17 +27,19 @@ MANGLER:
   patterns:
     - "*"
 
-CHECKER:
-  class: WmczTrackerMessageChecker
-  checks:
-   - variablesCheck
-
-INSERTABLES:
-  class: WmczTrackerSuggester
-
-AUTOLOAD:
-  WmczTrackerMessageChecker: WmczTrackerChecker.php
-  WmczTrackerSuggester: WmczTrackerSuggester.php
+VALIDATORS:
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%[sd]/
+  - id: GettextNewline
+    enforce: true
+  - id: GettextPlural
+    enforce: true
 
 ---
 BASIC:
@@ -56,3 +58,17 @@ MANGLER:
   prefix: tracker-js-
   patterns:
     - "*"
+
+VALIDATORS:
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%[sd]/
+  - id: GettextNewline
+    enforce: true
+  - id: GettextPlural
+    enforce: true
