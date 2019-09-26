@@ -586,3 +586,13 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/cmln/mw-scss/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-central-check-user
+  label: Central Check user
+  description: "{{Special:MyLanguage/MediaWiki:globalcheckuser-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/examknow/CentralCheckUser/i18n/%CODE%.json"
+
