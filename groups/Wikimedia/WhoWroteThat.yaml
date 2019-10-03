@@ -1,0 +1,25 @@
+BASIC:
+  id: whowrotethat
+  label: WhoWroteThat?
+  description: "{{Special:MyLanguage/Translations:Group descriptions/whowrotethat/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/whowrotethat/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: BraceBalance
+    insertable: false
+    enforce: false
+  # Match variables $1, $2 etc
+  - id: InsertableRegex
+    params: /\$[1-9]/
+    insertable: true
+    enforce: false
+  # Match HTML tags
+  - id: InsertableRegex
+    params: /<\/?[a-z]+>/
+    insertable: true
+    enforce: false

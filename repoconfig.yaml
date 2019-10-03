@@ -593,7 +593,7 @@ wikimania:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/wikimania-scholarships
 
 wikimedia-github:
-  group: copypatrol,grant-metrics,interaction-timeline,jquery-uls,svgtranslate
+  group: copypatrol,grant-metrics,interaction-timeline,jquery-uls,svgtranslate,whowrotethat
   repos:
     copypatrol:
       type: github
@@ -615,6 +615,10 @@ wikimedia-github:
       type: github
       url: https://github.com/wikimedia/svgtranslate.git
       url|export: git@github.com:wikimedia/svgtranslate.git
+    whowrotethat:
+      type: github
+      url: https://github.com/wikimedia/whowrotethat.git
+      url|export: git@github.com:wikimedia/whowrotethat.git
 
 wikimedia-grants-review:
   group: wikimedia-grants-review

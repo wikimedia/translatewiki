@@ -282,6 +282,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Pageviews.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ProveIt.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/svgtranslate.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/video2commons.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WhoWroteThat.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/wiki-ai.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WmczTracker.yaml";
