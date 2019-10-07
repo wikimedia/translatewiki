@@ -327,6 +327,10 @@ mwgithub:
       type: github
       url: https://github.com/jeblad/Expect.git
       url|export: git@github.com:jeblad/Expect.git
+    mwgithub/jeblad/Katsa:
+      type: github
+      url: https://github.com/jeblad/Katsa.git
+      url|export: git@github.com:jeblad/Katsa.git
     mwgithub/jeblad/LangCodeOverride:
       type: github
       url: https://github.com/jeblad/LangCodeOverride.git

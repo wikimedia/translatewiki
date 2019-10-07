@@ -434,6 +434,16 @@ FILES:
 
 ---
 BASIC:
+  id: mwgithub-katsa
+  label: Katsa
+  description: "{{Special:MyLanguage/MediaWiki:katsa-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/jeblad/Katsa/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-langcodeoverride
   label: Lang Code Override
   description: "{{Special:MyLanguage/MediaWiki:lang-code-override-desc-desc/en}}"
