@@ -536,6 +536,7 @@ TAGS:
     - version-entrypoints-api-php
     - version-entrypoints-index-php
     - version-entrypoints-load-php
+    - version-entrypoints-rest-php
     - version-summary
     - watchlist-unwatch
     - watchlist-unwatch-undo
