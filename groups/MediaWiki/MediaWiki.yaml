@@ -535,7 +535,6 @@ TAGS:
     - version-db-sqlite-url
     - version-entrypoints-api-php
     - version-entrypoints-index-php
-    - version-entrypoints-load-php
     - version-entrypoints-rest-php
     - version-summary
     - watchlist-unwatch
