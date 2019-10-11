@@ -778,7 +778,7 @@ file = ContentTranslation/i18n/%CODE%.json
 descmsg = cx-desc
 aliasfile = ContentTranslation/ContentTranslation.alias.php
 ignored = cx-tools-view-guidelines-link, cx-descriptionpagelink, cx2-descriptionpagelink
-optional = cx-tools-linter-issues-count, tag-contenttranslation-v2
+optional = cx-tools-linter-issues-count, tag-contenttranslation-v2, cx-campaign-newbytranslation-languages
 
 Content Translation - API
 id = ext-contenttranslation-api
