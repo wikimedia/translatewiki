@@ -315,7 +315,7 @@ optional = bs-extendedsearch-filter-label-count-only, bs-extendedsearch-privacy-
 
 Blue Spice Extended Statistics
 descmsg = bs-statistics-desc
-aliasfile = BlueSpiceExtendedStatistics/includes/specials/SpecialExtendedStatistics.alias.php
+aliasfile = BlueSpiceExtendedStatistics/languages/ExtendedStatistics.alias.php
 
 Blue Spice Group Manager
 descmsg = bs-groupmanager-desc
