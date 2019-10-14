@@ -9,6 +9,7 @@ TEMPLATE:
     class: AndroidXmlFFS
     codeMap:
       be-tarask: b+be+tarask
+      en-gb: en-rGB
       he: iw
       hif-latn: b+hif+Latn
       id: in
