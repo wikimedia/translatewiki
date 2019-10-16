@@ -42,6 +42,7 @@ TEMPLATE:
     blacklist:
       - aeb
       - aeb-arab
+      - ais
       - als
       - be-x-old
       - de-ch

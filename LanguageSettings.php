@@ -2,8 +2,7 @@
 
 $wgExtraLanguageNames['abs'] = 'Bahasa Ambon'; # Ambonese Malay / Siebrand 2013-07-05
 $wgExtraLanguageNames['acf'] = 'kwéyòl'; # Saint Lucian Creole French / Siebrand 2012-08-05
-$wgExtraLanguageNames['ahr'] = 'अहिराणी'; # # Ahirani / Amir 2012-02-25
-$wgExtraLanguageNames['ais'] = 'Sakizaya'; # Sakizaya / Amir 2017-05-02
+$wgExtraLanguageNames['ahr'] = 'अहिराणी'; # Ahirani / Amir 2012-02-25
 $wgExtraLanguageNames['akz'] = 'Albaamo innaaɬiilka'; # Alabama / Siebrand 2008-09-15
 $wgExtraLanguageNames['ami'] = 'Pangcah'; # Amis / Amir 2017-05-02
 $wgExtraLanguageNames['aro'] = 'Araona'; # Araona / Siebrand 2010-08-25
@@ -108,6 +107,7 @@ $wgExtraLanguageNames['smn'] = 'anarâškielâ'; # Inari Saami / Siebrand 2014-1
 $wgExtraLanguageNames['sty'] = 'Себертатар'; # Siberian Tatar / Amir 2016-11-26
 $wgExtraLanguageNames['swb'] = 'Shikomoro'; # Comorian
 $wgExtraLanguageNames['sxu'] = 'Säggssch'; # Upper Saxon
+$wgExtraLanguageNames['szy'] = 'Sakizaya'; # Sakizaya / Jon Harald 2019-10-16
 $wgExtraLanguageNames['tji'] = 'pi tsi kha'; # Northern Tujia / 2016-06-22
 $wgExtraLanguageNames['tkr'] = 'ЦӀаӀхна миз'; # Tsakhur / Siebrand 2011-04-26
 $wgExtraLanguageNames['trp'] = 'Kokborok (Tripuri)'; # Kokborok

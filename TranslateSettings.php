@@ -188,6 +188,7 @@ $wgTranslateBlacklist = [
 	'en' => 'English is the source language. Suggest improvements at [[Support]].',
 	'ady' => 'This language code should remain unused. Localise in ady-cyrl please.',
 	'aeb' => 'This language code should remain unused. Localise in aeb-arab please.',
+	'ais' => 'This language code sholud remain unused. Localise in szy please.',
 	'als' => 'This language code should remain unused. Localise in gsw please.',
 	'bat-smg' => 'This code is for compatibility purposes only. Localise in \'sgs\'',
 	'bbc' => 'This language code should remain unused. Localise in bbc-latn please.',
