@@ -282,8 +282,7 @@ class UpdateCommand extends RepoNgCommand {
 			} elseif ( $type === 'bzr' ) {
 				$command = "$bindir/clupdate-bzr-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} else {
-				$config = yaml_emit( [ $name => $repo ] );
-				throw new RuntimeException( "Unknown repo type:\n$config" );
+				throw new RuntimeException( "Unknown repo type '$type'" );
 			}
 
 			if ( $state ) {
@@ -401,7 +400,9 @@ class CommitCommand extends RepoNgCommand {
 		$processes = new SplObjectStorage();
 
 		foreach ( $config['repos'] as $name => $repo ) {
-			if ( $repo['type'] === 'git' || $repo['type'] === 'github' ) {
+			$type = $repo['type'];
+
+			if ( $type === 'git' || $type === 'github' ) {
 				if ( isset( $repo['push-branch'] ) ) {
 					// This will use the default/source branch to base the commit on,
 					// and then push to a different remote branch. This is useful when for example,
@@ -422,13 +423,13 @@ class CommitCommand extends RepoNgCommand {
 						"then git commit -m '$message'; " .
 						"git rebase 'origin/$branch' && git push origin '$branch'; fi";
 				}
-			} elseif ( $repo['type'] === 'wmgerrit' ) {
+			} elseif ( $type === 'wmgerrit' ) {
 				$branch = $repo['branch'] ?? 'master';
 				$command =
 					"cd '$name'; git add .; if ! git diff --cached --quiet; " .
 					"then git commit -m '$message'; " .
 					"git rebase 'origin/$branch' && git review -r origin -t L10n; fi";
-			} elseif ( $repo['type'] === 'svn' ) {
+			} elseif ( $type === 'svn' ) {
 				$extra = '';
 				if ( isset( $repo['svn-add-options'] ) ) {
 					foreach ( (array)$repo['svn-add-options'] as $option ) {
@@ -440,11 +441,11 @@ class CommitCommand extends RepoNgCommand {
 					"cd '$name'; " .
 					"svn add --force * --auto-props --parents --depth infinity -q$extra; " .
 					"svn commit --message '$message'";
-			} elseif ( $repo['type'] === 'bzr' ) {
+			} elseif ( $type === 'bzr' ) {
 				$branch = $repo['branch'] ?? 'master';
 				$command = "cd '$name'; bzr add .;bzr commit -m '$message'";
 			} else {
-				throw new RuntimeException( 'Unknown repo type' );
+				throw new RuntimeException( "Unknown repo type '$type'" );
 			}
 
 			$process = new Process( $command );
@@ -467,6 +468,86 @@ class CommitCommand extends RepoNgCommand {
 	}
 }
 
+class StatusCommand extends RepoNgCommand {
+	protected function configure() {
+		parent::configure();
+		$this->setName( 'status' );
+		$this->addArgument( 'project', InputArgument::REQUIRED );
+		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
+	}
+
+	protected function execute( InputInterface $input, OutputInterface $output ) {
+		$project = $input->getArgument( 'project' );
+		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
+		$config = $this->getConfig( $project, $variant );
+		$base = $this->getBase();
+
+		$processes = new SplObjectStorage();
+
+		foreach ( $config['repos'] as $name => $repo ) {
+			$type = $repo['type'];
+
+			$command = "cd '$name' && ";
+			if ( in_array( $type, [ 'git', 'github', 'wmgerrit' ] ) ) {
+				$command .= "git status -s";
+			} elseif ( $type === 'svn' ) {
+				$command .= "svn status";
+			} elseif ( $type === 'bzr' ) {
+				$command .= "bzr status";
+			} else {
+				throw new RuntimeException( "Unknown repo type '$type'" );
+			}
+
+			$process = new Process( $command );
+			$process->setTimeout( 10 );
+			$process->setWorkingDirectory( $base );
+			$processes->attach( $process );
+		}
+
+		$this->runParallelWithOutput( $processes, $output );
+	}
+}
+
+class DiffCommand extends RepoNgCommand {
+	protected function configure() {
+		parent::configure();
+		$this->setName( 'diff' );
+		$this->addArgument( 'project', InputArgument::REQUIRED );
+		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
+	}
+
+	protected function execute( InputInterface $input, OutputInterface $output ) {
+		$project = $input->getArgument( 'project' );
+		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
+		$config = $this->getConfig( $project, $variant );
+		$base = $this->getBase();
+
+		$processes = new SplObjectStorage();
+
+		foreach ( $config['repos'] as $name => $repo ) {
+			$type = $repo['type'];
+
+			$command = "cd '$name' && ";
+			if ( in_array( $type, [ 'git', 'github', 'wmgerrit' ] ) ) {
+				$command .= "git diff";
+			} elseif ( $type === 'svn' ) {
+				$command .= "svn diff";
+			} elseif ( $type === 'bzr' ) {
+				$command .= "bzr diff";
+			} else {
+				throw new RuntimeException( "Unknown repo type '$type'" );
+			}
+
+			$process = new Process( $command );
+			$process->setTimeout( 10 );
+			$process->setWorkingDirectory( $base );
+			$processes->attach( $process );
+		}
+
+		$this->runParallelWithOutput( $processes, $output );
+	}
+}
+
 class ListCommand extends RepoNgCommand {
 	protected function configure() {
 		parent::configure();
@@ -483,5 +564,7 @@ $application = new Application();
 $application->add( new UpdateCommand() );
 $application->add( new ExportCommand() );
 $application->add( new CommitCommand() );
+$application->add( new StatusCommand() );
+$application->add( new DiffCommand() );
 $application->add( new ListCommand() );
 $application->run();
