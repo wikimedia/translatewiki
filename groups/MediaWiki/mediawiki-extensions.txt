@@ -271,9 +271,11 @@ file = BlueSpiceBlog/i18n/ve/%CODE%.json
 id = ext-bs-blog-inspector
 
 Blue Spice Category Manager
+id = ext-bs-categorymanager
 aliasfile = BlueSpiceCategoryManager/includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
 Blue Spice Checklist
+id = ext-bs-checklist
 descmsg = bs-checklist-desc
 
 Blue Spice Config Manager
