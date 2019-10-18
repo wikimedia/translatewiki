@@ -586,6 +586,7 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/cmln/mw-scss/i18n/%CODE%.json"
+
 ---
 BASIC:
   id: mwgithub-central-check-user
@@ -596,3 +597,52 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/examknow/CentralCheckUser/i18n/%CODE%.json"
 
+---
+BASIC:
+  id: mwgithub-categoryintersectionsearch
+  label: CategoryIntersectionSearch
+  description: "{{Special:MyLanguage/MediaWiki:categoryintersectionsearch-femiwiki/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/CategoryIntersectionSearch/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-facetedcategory
+  label: FacetedCategory
+  description: "{{Special:MyLanguage/MediaWiki:facetedcategory-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/FacetedCategory/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-femiwikiskin
+  label: Femiwiki Skin
+  description: "{{Special:MyLanguage/MediaWiki:femiwiki-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/FemiwikiSkin/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-sanctions
+  label: Sanctions
+  description: "{{Special:MyLanguage/MediaWiki:sanctions-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/Sanctions/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-unifiedextensionforfemiwiki
+  label: UnifiedExtensionForFemiwiki
+  description: "{{Special:MyLanguage/MediaWiki:unifiedextensionforfemiwiki-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/UnifiedExtensionForFemiwiki/i18n/%CODE%.json"

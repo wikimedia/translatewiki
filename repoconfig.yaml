@@ -286,6 +286,26 @@ mwgithub:
       type: github
       url: https://github.com/examknow/CentralCheckUser.git
       url|export: git@github.com:examknow/CentralCheckUser.git
+    mwgithub/femiwiki/CategoryIntersectionSearch:
+      type: github
+      url: https://github.com/femiwiki/CategoryIntersectionSearch.git
+      url|export: git@github.com:femiwiki/CategoryIntersectionSearch.git
+    mwgithub/femiwiki/FacetedCategory:
+      type: github
+      url: https://github.com/femiwiki/FacetedCategory.git
+      url|export: git@github.com:femiwiki/FacetedCategory.git
+    mwgithub/femiwiki/FemiwikiSkin:
+      type: github
+      url: https://github.com/femiwiki/FemiwikiSkin.git
+      url|export: git@github.com:femiwiki/FemiwikiSkin.git
+    mwgithub/femiwiki/Sanctions:
+      type: github
+      url: https://github.com/femiwiki/Sanctions.git
+      url|export: git@github.com:femiwiki/Sanctions.git
+    mwgithub/femiwiki/UnifiedExtensionForFemiwiki:
+      type: github
+      url: https://github.com/femiwiki/UnifiedExtensionForFemiwiki.git
+      url|export: git@github.com:femiwiki/UnifiedExtensionForFemiwiki.git
     mwgithub/Hutchy68/Purge:
       type: github
       url: https://github.com/Hutchy68/Purge.git
