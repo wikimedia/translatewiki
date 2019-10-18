@@ -3042,7 +3042,6 @@ prefix = visualeditor-override- | tooltip-ca-edit
 VisualEditor (MediaWiki extension) - API
 id = ext-visualeditor-ve-mw-api
 file = VisualEditor/i18n/ve-mw/api/%CODE%.json
-ignored = apierror-visualeditor-docserver-http, apierror-visualeditor-docserver-http-error
 
 VisualEditor (WMF)
 id = ext-visualeditor-ve-wmf
