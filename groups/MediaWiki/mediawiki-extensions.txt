@@ -401,6 +401,11 @@ descmsg = bs-readconfirmation-desc
 Blue Spice Readers
 descmsg = bs-readers-desc
 
+Blue Spice Reminder
+descmsg = bs-reminder-extension-description
+aliasfile = BlueSpiceReminder/languages/SpecialReminder.alias.php
+optional = bs-reminder-specialpage-subtitle
+
 Blue Spice RSS Feeder
 descmsg = bs-rssfeeder-desc
 
