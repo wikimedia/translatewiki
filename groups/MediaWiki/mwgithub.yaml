@@ -619,7 +619,7 @@ FILES:
 
 ---
 BASIC:
-  id: mwgithub-femiwikiskin
+  id: mwgithubskin-femiwikiskin
   label: Femiwiki Skin
   description: "{{Special:MyLanguage/MediaWiki:femiwiki-desc/en}}"
 
