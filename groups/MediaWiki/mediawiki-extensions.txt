@@ -316,6 +316,9 @@ Blue Spice Extended Statistics
 descmsg = bs-statistics-desc
 aliasfile = BlueSpiceExtendedStatistics/languages/ExtendedStatistics.alias.php
 
+Blue Spice Filterable Tables
+descmsg = bs-filterabletables-extension-description
+
 Blue Spice Group Manager
 descmsg = bs-groupmanager-desc
 
