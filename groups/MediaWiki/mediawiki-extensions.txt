@@ -746,7 +746,6 @@ ConfirmEdit Fancy Captcha - User interface
 id = ext-confirmeditfancycaptcha-user
 file = ConfirmEdit/FancyCaptcha/i18n/%CODE%.json
 descmsg = fancycaptcha-desc
-optional = fancycaptcha-desc
 
 ConfirmEdit Fancy Captcha - API
 id = ext-confirmeditfancycaptcha-api
@@ -755,12 +754,10 @@ file = ConfirmEdit/FancyCaptcha/i18n/api/%CODE%.json
 ConfirmEdit Math Captcha
 file = ConfirmEdit/MathCaptcha/i18n/%CODE%.json
 descmsg = mathcaptcha-desc
-optional = mathcaptcha-desc
 
 ConfirmEdit Questy Captcha
 file = ConfirmEdit/QuestyCaptcha/i18n/%CODE%.json
 descmsg = questycaptcha-desc
-optional = questycaptcha-desc
 
 ConfirmEdit ReCaptcha NoCaptcha - User interface
 id = ext-confirmeditrecaptchanocaptcha-user
