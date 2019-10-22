@@ -1,6 +1,30 @@
 <?xml version="1.0"?>
 <ruleset>
-	<rule ref="vendor/mediawiki/mediawiki-codesniffer/MediaWiki"/>
+	<rule ref="vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
+		<exclude name="Generic.Files.OneObjectStructurePerFile.MultipleFound" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationProtected" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.MissingParamName" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.MissingParamTag" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.MissingReturn" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.WrongStyle" />
+		<exclude name="MediaWiki.Files.ClassMatchesFilename.NotMatch" />
+		<exclude name="MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName" />
+		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment" />
+		<exclude name="PSR12.Properties.ConstantVisibility.NotFound" />
+		<exclude name="Squiz.Scope.MethodScope.Missing" />
+	</rule>
+
+	<rule ref="MediaWiki.Usage.ForbiddenFunctions.exec">
+		<exclude-pattern>*/melange/BundleCreater\.php</exclude-pattern>
+	</rule>
+	<rule ref="MediaWiki.Usage.ForbiddenFunctions.escapeshellarg">
+		<exclude-pattern>*/melange/BundleCreater\.php</exclude-pattern>
+	</rule>
+	<rule ref="MediaWiki.Usage.ForbiddenFunctions.passthru">
+		<exclude-pattern>*/melange/BundleCreater\.php</exclude-pattern>
+	</rule>
+
 	<rule ref="Generic.Files.LineLength.TooLong">
 		<severity>0</severity>
 	</rule>

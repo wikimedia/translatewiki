@@ -447,7 +447,7 @@ $wgHooks['LanguageGetNamespaces'][] = function ( &$list ) {
 	natcasesort( $list );
 	$basic = $extra = [];
 	foreach ( $list as $key => $text ) {
-		if ( !isset( $msgs[$key - $key%2] ) ) {
+		if ( !isset( $msgs[$key - $key % 2] ) ) {
 			$basic[$key] = $text;
 		} else {
 			$extra[$key] = $text;

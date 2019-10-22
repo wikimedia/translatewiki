@@ -83,7 +83,7 @@ function getCuteName( $filename ) {
 }
 
 function arrayToList( $array ) {
-	array_walk( $array, function( &$value, $key ) {
+	array_walk( $array, function ( &$value, $key ) {
 		$value = [ $key, $value ];
 	} );
 	return array_values( $array );

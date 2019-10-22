@@ -70,7 +70,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 
 			$allowedGroups = array_flip( $allowedGroups );
 
-			$dbr = wfGetDB( DB_SLAVE );
+			$dbr = wfGetDB( DB_REPLICA );
 			$allowed = $currentUser->isAllowed( 'translate-manage' );
 			if ( $allowed && !$par ) {
 				$products = [

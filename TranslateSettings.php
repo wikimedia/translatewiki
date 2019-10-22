@@ -77,6 +77,7 @@ $wgTranslateTranslationServices['Microsoft'] = [
 */
 
 $wgHooks['Translate:GettextFFS:headerFields'][] = 'efHT';
+
 function efHT( $specs, $group, $code ) {
 	global $wgSitename, $wgCanonicalServer;
 	$specs['Project-Id-Version'] = $group->getLabel();

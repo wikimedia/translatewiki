@@ -181,7 +181,6 @@ TEXT;
 			file_put_contents( $target, $content );
 			passthru( "\$EDITOR $file" );
 		}
-
 	}
 
 	public function create_tag() {
