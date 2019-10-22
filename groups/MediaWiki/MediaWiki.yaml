@@ -31,6 +31,7 @@ GROUPS:
   - mediawiki-skin-0-all
   - mediawiki-exif
   - mediawiki-api
+  - mediawiki-rest-api
 # Do not add mediawiki-top group here, or we have infinite recursion issues
 
 ---
