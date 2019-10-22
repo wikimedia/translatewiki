@@ -266,6 +266,9 @@ aliasfile = BlueSpiceAvatars/languages/SpecialAvatars.alias.php
 
 # Blue Spice Blog  // archived per https://gerrit.wikimedia.org/r/#/c/mediawiki/extensions/BlueSpiceBlog/+/545856/
 
+Blue Spice Category Check
+descmsg = bs-categorycheck-extension-description
+
 Blue Spice Category Manager
 aliasfile = BlueSpiceCategoryManager/includes/specials/SpecialBlueSpiceCategoryManager.alias.php
 
