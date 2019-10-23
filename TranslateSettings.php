@@ -271,6 +271,7 @@ wfAddNamespace( 1206, 'Wikimedia' );
 $wgTranslateGroupFiles[] = "$GROUPS/wikidata/wikidata.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CitationHunt.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CommonsAndroid.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CommonsWallpaperGnomeExtension.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CopyPatrol.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/GapFinder.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/global-search.yaml";
