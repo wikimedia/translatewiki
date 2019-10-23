@@ -506,6 +506,9 @@ aliasfile = BlueSpiceUserManager/includes/specials/SpecialUserManager.alias.php
 Blue Spice User Sidebar
 descmsg = bs-usersidebar-desc
 
+Blue Spice Visual Diff
+descmsg = bs-visualdiff-extension-description
+
 Blue Spice Visual Editor Connector
 descmsg = bs-visualeditorconnector-desc
 
