@@ -755,6 +755,14 @@ wikipedia-ios:
       branch|export: twn
       url|export: git@github.com:wikimedia/wikipedia-ios.git
 
+wikipedia-kaios:
+  group: wikimedia-mobile-wikipedia-kaios-strings
+  repos:
+    wikipedia-kaios:
+      type: github
+      url: https://github.com/wikimedia/wikipedia-kaios.git
+      url|export: git@github.com:wikimedia/wikipedia-kaios.git
+
 wikipedia-library:
   group: wikipedia-library
   repos:
