@@ -395,6 +395,9 @@ descmsg = bs-qr-code-extension-description
 Blue Spice Rating
 descmsg = bs-rating-extension-description
 
+Blue Spice Read Confirmation
+descmsg = bs-readconfirmation-desc
+
 Blue Spice Readers
 descmsg = bs-readers-desc
 
