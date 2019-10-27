@@ -3140,6 +3140,10 @@ file = WikiLove/i18n/api/%CODE%.json
 
 Wiki Loves Monuments
 
+Wiki SEO
+descmsg = wiki-seo-desc
+magicfile = WikiSEO/WikiSEO.i18n.magic.php
+
 Wiki Text Logged In Out
 
 Wikibase - Client - User interface
