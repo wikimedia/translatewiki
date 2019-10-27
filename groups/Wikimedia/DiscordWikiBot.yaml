@@ -1,0 +1,30 @@
+BASIC:
+  id: discordwikibot
+  label: DiscordWikiBot
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/discordwikibot/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/stjohann/DiscordWikiBot/DiscordWikiBot/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: discordwikibot-
+  patterns:
+    - "*"
+
+TAGS:
+  optional:
+    - discordwikibot-bullet
+    - discordwikibot-separator
+
+VALIDATORS:
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[0-9]+\}/
+  - id: InsertableRegex
+    insertable: true
+    params: /\{msg:[^}]+\}/

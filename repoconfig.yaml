@@ -55,6 +55,14 @@ commons-wallpaper-gnome:
       url: https://github.com/jhsoby/commons-wallpaper-gnome-extension.git
       url|export: git@github.com:jhsoby/commons-wallpaper-gnome-extension.git
 
+discordwikibot:
+  group: discordwikibot
+  repos:
+    stjohann/DiscordWikiBot:
+      type: github
+      url: https://github.com/stjohann/DiscordWikiBot.git
+      url|export: git@github.com:stjohann/DiscordWikiBot.git
+
 dissemin:
   group: dissemin-*
   repos:
