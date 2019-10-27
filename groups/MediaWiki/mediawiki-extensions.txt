@@ -878,6 +878,8 @@ descmsg = disambig-desc
 aliasfile = Disambiguator/Disambiguator.i18n.alias.php
 magicfile = Disambiguator/Disambiguator.i18n.magic.php
 
+# Discourse // 2019-10-27: empty repo
+
 Discussion Threading
 
 Discussion Tools
@@ -2635,6 +2637,8 @@ ignored = smoothgallery-pagetext
 Social Profile
 aliasfile = SocialProfile/SocialProfile.alias.php
 
+# Sofa // 2019-10-27: no i18n files
+
 Software Version
 ignored = softwareversion-wiki-link
 
@@ -3078,6 +3082,9 @@ aliasfile = WebDAV/languages/WebDAV.alias.php
 # Web DAV Client Integration // 2019-04-14: Empty repo
 
 # Web DAV Minor Save // 2019-04-14: Empty repo
+
+Web Tools Manager
+aliasfile = WebToolsManager/WebToolsManager.alias.php
 
 White Space
 
