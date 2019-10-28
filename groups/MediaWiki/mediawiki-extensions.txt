@@ -499,6 +499,9 @@ Blue Spice Usage Tracker
 descmsg = bs-usagetracker-desc
 aliasfile = BlueSpiceUsageTracker/languages/SpecialUsageTracker.alias.php
 
+Blue Spice User Info
+descmsg = bs-userinfo-description
+
 Blue Spice User Manager
 descmsg = bs-usermanager-desc
 aliasfile = BlueSpiceUserManager/includes/specials/SpecialUserManager.alias.php
