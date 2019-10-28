@@ -39,4 +39,4 @@ MANGLER:
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/wikipedia-kaios/i18n/%CODE%json"
+  sourcePattern: "%GROUPROOT%/wikipedia-kaios/i18n/%CODE%.json"
