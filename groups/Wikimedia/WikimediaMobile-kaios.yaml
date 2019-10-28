@@ -12,7 +12,6 @@ TEMPLATE:
 
   VALIDATORS:
   - id: BraceBalance
-    insertable: false
     enforce: false
   # Match variables $1, $2 etc
   - id: InsertableRegex
@@ -26,7 +25,6 @@ TEMPLATE:
     enforce: false
   # Plural validator
   - id: MediaWikiPlural
-    insertable: true
 
 ---
 BASIC:
