@@ -310,6 +310,11 @@ Blue Spice Edit Notify Connector
 Blue Spice Emoticons
 descmsg = bs-emoticons-desc
 
+Blue Spice Expiry
+descmsg = bs-expiry-extension-description
+aliasfile = BlueSpiceExpiry/languages/SpecialExpiry.alias.php
+optional = bs-expiry-specialpage-subtitle
+
 Blue Spice Export Tables
 descmsg = bs-exporttables-extension-description
 optional = bs-exporttables-menu-xls, bs-exporttables-menu-xlsx
