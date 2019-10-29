@@ -2892,7 +2892,7 @@ id = ext-translate-pagetranslation
 file = Translate/i18n/pagetranslation/%CODE%.json
 descmsg = tpt-desc
 optional = tpt-languages-separator
-ignored = translate-edit-tag-warning
+ignored = translate-edit-tag-warning, pt-movepage-error-placeholder
 
 Translate - Sandbox
 id = ext-translate-sandbox
