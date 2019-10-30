@@ -2031,7 +2031,7 @@ optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
 Open ID Connect
 aliasfile = OpenIDConnect/i18n/SelectOpenIDConnectIssuer.alias.php
 
-# Open Js Cad // 2019-07-18: Empty repo
+Open Js Cad
 
 Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
