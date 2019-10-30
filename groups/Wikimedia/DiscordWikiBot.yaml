@@ -28,3 +28,6 @@ VALIDATORS:
   - id: InsertableRegex
     insertable: true
     params: /\{msg:[^}]+\}/
+  - id: SmartFormatPlural
+    insertable: true
+    enforce: true
