@@ -496,6 +496,9 @@ descmsg = bs-uemodulehtml-extension-description
 Blue Spice UE Module PDF
 descmsg = bs-uemodulepdf-desc
 
+Blue Spice UE Module Table 2 Excel
+descmsg = bs-uemoduletable2excel-extension-description
+
 Blue Spice Universal Export
 descmsg = bs-universalexport-desc
 aliasfile = BlueSpiceUniversalExport/languages/SpecialUniversalExport.alias.php
