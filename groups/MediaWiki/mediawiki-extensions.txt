@@ -378,6 +378,9 @@ Blue Spice Namespace Manager
 descmsg = bs-namespacemanager-desc
 aliasfile = BlueSpiceNamespaceManager/includes/specials/SpecialNamespaceManager.alias.php
 
+Blue Spice NS File Repo Connector
+descmsg = bs-nsfrc-desc
+
 Blue Spice Page Access
 descmsg = bs-pageaccess-desc
 aliasfile = /BlueSpicePageAccess/includes/specials/SpecialPageAccess.alias.php
