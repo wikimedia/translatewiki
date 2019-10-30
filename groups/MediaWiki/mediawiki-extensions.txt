@@ -307,6 +307,10 @@ Blue Spice Edit Notify Connector
 Blue Spice Emoticons
 descmsg = bs-emoticons-desc
 
+Blue Spice Export Tables
+descmsg = bs-exporttables-extension-description
+optional = bs-exporttables-menu-xls, bs-exporttables-menu-xlsx
+
 Blue Spice Extended Filelist
 descmsg = bs-extendedfilelist-desc
 aliasfile = BlueSpiceExtendedFilelist/BlueSpiceExtendedFilelist.alias.php
