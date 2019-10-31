@@ -26,6 +26,11 @@ FILES:
   class: AppleFFS
   sourcePattern: "%GROUPROOT%/wikipedia-ios/Wikipedia/Localizations/%CODE%.lproj/Localizable.strings"
 
+TAGS:
+  optional:
+    - wikipedia-ios-talk-page-discussion-read-ipa-accessibility-attribute
+    - wikipedia-ios-talk-page-discussion-unread-ipa-accessibility-attribute
+
 ---
 BASIC:
   icon: wiki://Wikipedia-logo-v2.svg
