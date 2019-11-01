@@ -1417,6 +1417,9 @@ file = GrowthExperiments/i18n/help/api/%CODE%.json
 Growth Experiments - Homepage
 id = ext-growthexperiments-homepage
 file = GrowthExperiments/i18n/homepage/%CODE%.json
+ignored = growthexperiments-homepage-suggestededits-footer-suffix
+optional = growthexperiments-homepage-suggestededits-footer-kilosuffix, growthexperiments-homepage-suggestededits-footer-megasuffix
+optional = growthexperiments-homepage-suggestededits-footer-gigasuffix, growthexperiments-homepage-suggestededits-footer-terasuffix
 
 Growth Experiments - Homepage API
 id = ext-growthexperiments-homepage-api
