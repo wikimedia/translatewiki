@@ -1,32 +1,23 @@
-/*jshint node:true */
+/* eslint-env node, es6 */
 module.exports = function ( grunt ) {
 	'use strict';
 
-	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
-	grunt.loadNpmTasks( 'grunt-jscs' );
-	grunt.loadNpmTasks( 'grunt-jsonlint' );
+	grunt.loadNpmTasks( 'grunt-eslint' );
 
 	grunt.initConfig( {
-		jshint: {
+		eslint: {
 			options: {
-				jshintrc: true
+				reportUnusedDisableDirectives: true,
+				extensions: [ '.js', '.json' ],
+				cache: true
 			},
 			all: [
-				'**/*.js',
-				'!node_modules/**'
-			]
-		},
-		jscs: {
-			src: '<%= jshint.all %>'
-		},
-		jsonlint: {
-			all: [
-				'**/*.json',
-				'!node_modules/**'
+				'**/*.{js,json}',
+				'!{node_modules,vendor}/**/*.{js,json}'
 			]
 		}
 	} );
 
-	grunt.registerTask( 'test', [ 'jshint', 'jscs', 'jsonlint' ] );
+	grunt.registerTask( 'test', [ 'eslint' ] );
 	grunt.registerTask( 'default', 'test' );
 };
