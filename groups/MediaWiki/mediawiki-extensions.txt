@@ -854,6 +854,8 @@ optional = dt_filetype_xml, dt_filetype_csv
 
 Date Diff
 
+# Debate Tree // 2019-11-02: Open question about CAPS spelling in Gerrit:546687
+
 Debug Mode
 
 Debug Templates
@@ -1524,6 +1526,8 @@ aliasfile = Interwiki/Interwiki.alias.php
 optional = interwiki_url, interwiki-url-label
 ignored = interwiki-defaulturl, logentry-interwiki-interwiki, interwiki-legend
 ignored = interwiki-description
+
+# Interwiki Extracts // 2019-11-02: Empty repo
 
 Interwiki Sorting
 
@@ -3373,6 +3377,10 @@ Wikisource
 X Analytics
 
 XenForo Auth
+
+XSL
+magicfile = XSL/XSLExtension.i18n.magic.php
+
 
 Yet Another Keywords
 
