@@ -19,3 +19,4 @@ GROUPS:
   - ext-machinevision-user # https://phabricator.wikimedia.org/rOMWCe7f6f7dd9acaa4b41d9d547ee87758a212478875
   - ext-thewikipedialibrary # https://phabricator.wikimedia.org/rOMWC7c8ed76b8df3fc57724c7dafd6aabb3e5336c64b
   - ext-wikimediaeditortasks-user # https://phabricator.wikimedia.org/rOMWC2dc7629118165c3e5020ec3bb108272c122cca70
+  - ext-wikisource # https://phabricator.wikimedia.org/rOMWCab6b4b99b7f12c8cc291ab5c7e5e957a5a538d5b

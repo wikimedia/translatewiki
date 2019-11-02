@@ -3368,6 +3368,8 @@ Wikipedia Extracts
 
 Windows Azure Storage
 
+Wikisource
+
 X Analytics
 
 XenForo Auth
