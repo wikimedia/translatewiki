@@ -133,7 +133,7 @@ $checkBlacklist = [
 		]
 	],
 	[
-		'group' => 'ext-babel',
+		'group' => 'ext-babel-user',
 		'check' => 'variable',
 		'message' => [
 			'babel', // Optional GENDER parameter
@@ -168,14 +168,14 @@ $checkBlacklist = [
 		]
 	],
 	[
-		'group' => 'ext-categorytree',
+		'group' => 'ext-categorytree-user',
 		'check' => 'variable',
 		'message' => [
 			'Categorytree-member-counts', // Optional counts: $4, and $5
 		]
 	],
 	[
-		'group' => 'ext-centralauth',
+		'group' => 'ext-centralauth-user',
 		'check' => 'links',
 		'message' => [
 			'centralauth-readmore-text', // Contains link to page that may be available in a translated version
@@ -183,7 +183,7 @@ $checkBlacklist = [
 		]
 	],
 	[
-		'group' => 'ext-centralauth',
+		'group' => 'ext-centralauth-user',
 		'check' => 'variable',
 		'message' => [
 			'centralauth-centralautologin-logged-in', // Optional GENDER parameter
@@ -197,7 +197,7 @@ $checkBlacklist = [
 		]
 	],
 	[
-		'group' => 'ext-checkuser',
+		'group' => 'ext-checkuser-user',
 		'check' => 'variable',
 		'message' => [
 			'group-checkuser-member', // Optional GENDER parameter
