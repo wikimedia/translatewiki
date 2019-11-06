@@ -1075,8 +1075,7 @@ Extra Language Link
 # Incomplete message documentation file - 2014-10-25
 # Farmer
 
-# Missing message documentation file - 2015-03-20
-# Favorites
+# Favorites // 2019-11-05: Inconsistent message keys
 
 Featured Feeds - User interface
 id = ext-featuredfeeds-user
