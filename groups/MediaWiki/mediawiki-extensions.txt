@@ -1632,8 +1632,6 @@ Ldap Authentication
 
 LDAP Authorization
 
-Ldap Groups
-
 LDAP Provider
 
 Life Web
