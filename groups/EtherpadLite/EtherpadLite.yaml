@@ -11,17 +11,11 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/etherpad-lite/src/locales/%CODE%.json"
 
-CHECKER:
-  class: EtherpadLiteMessageChecker
-  checks:
-    - variablesCheck
-
-INSERTABLES:
-  class: EtherpadLiteSuggester
-
-AUTOLOAD:
-  EtherpadLiteMessageChecker: Checker.php
-  EtherpadLiteSuggester: Suggester.php
+VALIDATORS:
+  - id: InsertableRegex
+    insertable: true
+    enforce: false
+    params: /{{[a-zA-Z_]+}}/
 
 TAGS:
   optional:
