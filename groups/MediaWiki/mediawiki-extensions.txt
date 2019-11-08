@@ -1526,7 +1526,8 @@ optional = interwiki_url, interwiki-url-label
 ignored = interwiki-defaulturl, logentry-interwiki-interwiki, interwiki-legend
 ignored = interwiki-description
 
-# Interwiki Extracts // 2019-11-02: Empty repo
+Interwiki Extracts
+magicfile = Interwiki Extracts/Interwiki Extracts.magic.php
 
 Interwiki Sorting
 
