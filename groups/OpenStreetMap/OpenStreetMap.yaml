@@ -46,6 +46,14 @@ VALIDATORS:
   - id: InsertableRubyVariable
     enforce: true
     insertable: true
+  - id: MatchSet
+    enforce: true
+    keymatch:
+      - html.dir
+    params:
+      values:
+        - ltr
+        - rtl
 
 INSERTABLES:
   - class: RegexInsertablesSuggester
