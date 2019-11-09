@@ -1,15 +1,25 @@
 TEMPLATE:
-  CHECKER:
-    class: MathJaxMessageChecker
-    checks:
-      - variablesCheck
+  VALIDATORS:
+    # $123
+    - id: InsertableRegex
+      enforce: true
+      insertable: true
+      params: /\$[0-9]+/
 
   INSERTABLES:
-    class: MathJaxInsertablesSuggester
-
-  AUTOLOAD:
-    MathJaxMessageChecker: Checker.php
-    MathJaxInsertablesSuggester: Suggester.php
+    # \left \begin{$1}
+    - class: RegexInsertablesSuggester
+      params: /\\[a-z0-9${}]+/
+    # [title]{$1}
+    - class: RegexInsertablesSuggester
+      params:
+        regex: /(?<pre>\[)[^]]+(?<post>\]\([^)]+\))/
+        display: $pre $post
+        pre: $pre
+        post: $post
+    # <math>
+    - class: RegexInsertablesSuggester
+      params: /<[a-z]+>/
 
 ---
 BASIC:
