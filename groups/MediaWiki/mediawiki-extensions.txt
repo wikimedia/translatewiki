@@ -2858,10 +2858,7 @@ file = timeline/i18n/%CODE%.json
 
 Timeline Table
 
-Timezone Selector
-aliasfile = TimezoneSelector/TimezoneSelector.alias.php
-optional = timezoneselector-message-long, timezoneselector-message-verbose
-ignored = timezoneselector-message-short
+# Timezone Selector // Archived per T237894
 
 # Tiny MCE // 2018-06-16: No qqq
 
