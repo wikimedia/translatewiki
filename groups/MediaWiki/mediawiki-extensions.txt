@@ -1654,7 +1654,9 @@ Link Suggest 2
 
 Link Target
 
-# Linked Wiki // T185523 to merge 6 en.json into 1 file
+Linked Wiki
+ignored = linkedwiki-test
+optional = linkedwiki-date
 
 Linter - User interface
 id = ext-linter-user
