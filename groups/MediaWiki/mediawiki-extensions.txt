@@ -269,6 +269,9 @@ aliasfile = BlueSpiceAvatars/languages/SpecialAvatars.alias.php
 
 # Blue Spice Blog  // archived per https://gerrit.wikimedia.org/r/#/c/mediawiki/extensions/BlueSpiceBlog/+/545856/
 
+Blue Spice Bookshelf
+descmsg = bs-bookshelf-extension-description
+
 Blue Spice Category Check
 descmsg = bs-categorycheck-extension-description
 
