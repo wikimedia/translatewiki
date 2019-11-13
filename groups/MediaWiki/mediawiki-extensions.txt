@@ -256,6 +256,9 @@ aliasfile = BlueSpiceAbout/includes/specials/SpecialBlueSpiceAbout.alias.php
 Blue Spice Article Info
 descmsg = bs-articleinfo-desc
 
+Blue Spice Article Preview Capture
+descmsg = bs-articlepreviewcapture-desc
+
 Blue Spice Authors
 descmsg = bs-authors-desc
 magicfile = BlueSpiceAuthors/languages/Authors.i18n.magic.php
