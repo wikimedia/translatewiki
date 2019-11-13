@@ -382,6 +382,9 @@ Blue Spice Page Assignments
 descmsg = bs-pageassignments-desc
 aliasfile = BlueSpicePageAssignments/languages/PageAssignments.alias.php
 
+Blue Spice Page Forms Connector
+descmsg = bs-pageformsconnector-desc
+
 Blue Spice Privacy
 descmsg = bs-privacy-desc
 aliasfile = BlueSpicePrivacy/languages/BlueSpicePrivacy.alias.php
