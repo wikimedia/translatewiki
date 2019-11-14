@@ -13,14 +13,21 @@ FILES:
   definitionFile: "%GROUPROOT%/oppia/assets/i18n/en.json"
   includeMetadata: false
 
-CHECKER:
-  class: OppiaMessageChecker
-  checks:
-    - OppiaVariablesCheck
+VALIDATORS:
+  # Variables: <[listOfNames]>, <[sectionNameI18nId | translate]>
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /<\[[a-zA-Z_\ |1-9]+\]>/
 
 INSERTABLES:
-  class: OppiaInsertablesSuggester
-
-AUTOLOAD:
-  OppiaMessageChecker: Checker.php
-  OppiaInsertablesSuggester: OppiaInsertablesSuggester.php
+  # For HTML tags
+  - class: RegexInsertablesSuggester
+    params:
+      regex: (?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)
+      display: "$open$close"
+      pre: $open
+      post: $close
+  # For HTML entities
+  - class: RegexInsertablesSuggester
+    params: '/&#?\w+;/'
