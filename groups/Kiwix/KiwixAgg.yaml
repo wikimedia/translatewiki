@@ -1,0 +1,13 @@
+---
+BASIC:
+  id: kiwix
+  label: Kiwix
+  icon: wiki://Kiwix_icon.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/kiwix/en}}"
+  namespace: NS_KIWIX
+  meta: yes
+  class: AggregateMessageGroup
+
+
+GROUPS:
+  - kiwix-*
