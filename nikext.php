@@ -2,6 +2,7 @@
 
 $wgExtensionCredits['parserhook'][] = [
 	'name' => 'Translatewiki.net Magic',
+	'path' => __FILE__,
 	'version' => '2018-06-15',
 	'description' => 'Implements <nowiki>{{UILANGCODE}}</nowiki>',
 	'author' => 'Niklas Laxström',
