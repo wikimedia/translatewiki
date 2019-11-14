@@ -162,7 +162,7 @@ intuition-tools:
       url|export: git@github.com:wikimedia/CommonsNotifier.git
 
 kiwix:
-  group: kiwix
+  group: kiwix-*
   repos:
     kiwix-android:
       type: github
