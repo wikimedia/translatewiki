@@ -410,6 +410,7 @@ $wgTranslateSupportUrlNamespace[NS_EOL] = [
 
 wfAddNamespace( 1244, 'Kiwix' );
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/Kiwix.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixAgg.yaml";
 $wgTranslateGroupAliases['out-kiwix'] = 'kiwix';
 $wgTranslateSupportUrlNamespace[NS_KIWIX] = [
 	'page' => 'Translating_talk:Kiwix',

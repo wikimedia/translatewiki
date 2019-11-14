@@ -1,23 +1,74 @@
 ---
+TEMPLATE:
+  BASIC:
+    icon: wiki://Kiwix_icon.svg
+    description: "{{Special:MyLanguage/Translations:Group descriptions/kiwix/en}}"
+    namespace: NS_KIWIX
+    class: FileBasedMessageGroup
+
+  FILES:
+    class: AndroidXmlFFS
+    codeMap:
+      be-tarask: b+be+tarask
+      en-gb: en-rGB
+      he: iw
+      hif-latn: b+hif+Latn
+      id: in
+      kk-cyrl: b+kk+Cyrl
+      ko-kp: ko-rKP
+      ku-latn: ku
+      nds-nl: b+nds+NL
+      pt-br: pt-rBR
+      qqq: qq
+      roa-tara: b+roa+tara
+      skr-arab: skr
+      sr-ec: sr
+      sr-el: b+sr+Latn
+      tg-cyrl: b+tg+Cyrl
+      ug-arab: ug
+      yi: ji
+      zh-hans: zh
+      zh-hant: zh-rTW
+
+  MANGLER:
+    class: StringMatcher
+    prefix: Android.ui.
+    patterns:
+      - "*"
+
+  VALIDATORS:
+    - id: InsertableRegex
+      enforce: true
+      insertable: true
+      params: /%[0-9]\$[sd]/
+    - id: InsertableRegex
+      enforce: true
+      insertable: true
+      params: /%s/
+
+---
 BASIC:
-  id: kiwix
-  label: Kiwix
-  icon: wiki://Kiwix_icon.svg
-  description: "{{Special:MyLanguage/Translations:Group descriptions/kiwix/en}}"
-  namespace: NS_KIWIX
-  class: FileBasedMessageGroup
+  id: kiwix-android-strings
+  label: Kiwix Android
 
 FILES:
-  class: JavaFFS
-  sourcePattern: "%GROUPROOT%/kiwix/maintenance_tools/translatewiki/%CODE%"
+  definitionFile: "%GROUPROOT%/kiwix-android/core/src/main/res/values/strings.xml"
+  sourcePattern: "%GROUPROOT%/kiwix-android/core/src/main/res/values-%CODE%/strings.xml"
 
-TAGS:
-  optional:
-    - "*.accesskey"
-    - ui.main.cssdirection
+---
+BASIC:
+  id: kiwix-android-app
+  label: Kiwix Android (app)
 
-INSERTABLES:
-  class: KiwixInsertablesSuggester
+FILES:
+  definitionFile: "%GROUPROOT%/kiwix-android/app/src/main/res/values/strings.xml"
+  sourcePattern: "%GROUPROOT%/kiwix-android/app/src/main/res/values-%CODE%/strings.xml"
 
-AUTOLOAD:
-  KiwixInsertablesSuggester: KiwixInsertablesSuggester.php
+---
+BASIC:
+  id: kiwix-android-custom
+  label: Kiwix Android (custom)
+
+FILES:
+  definitionFile: "%GROUPROOT%/kiwix-android/custom/src/main/res/values/strings.xml"
+  sourcePattern: "%GROUPROOT%/kiwix-android/custom/src/main/res/values-%CODE%/strings.xml"
