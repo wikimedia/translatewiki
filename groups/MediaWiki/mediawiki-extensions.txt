@@ -541,6 +541,11 @@ descmsg = bs-watchlist-desc
 Blue Spice Who Is Online
 descmsg = bs-whoisonline-desc
 
+Blue Spice Wiki Explorer
+descmsg = bs-wikiexplorer-extension-description
+optional = wikiexplorer
+aliasfile = BlueSpiceWikiExplorer/languages/SpecialWikiExplorer.alias.php
+
 # Boiler Plate excluded per T156569
 
 # Bootstrap //  Read only
