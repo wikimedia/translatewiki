@@ -1781,6 +1781,7 @@ Mass Message Email
 
 Math
 aliasfile = Math/Math.alias.php
+optional = math-wikibase-formula-header-format
 
 Math Search
 aliasfile = MathSearch/MathSearch.alias.php
