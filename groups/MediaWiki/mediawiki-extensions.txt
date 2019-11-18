@@ -3228,6 +3228,7 @@ file = Wikibase/repo/i18n/api/%CODE%.json
 
 Wikibase Cirrus Search
 descmsg = wikibasecirrus-desc
+aliasfile = WikibaseCirrusSearch/WikibaseCirrusSearch.alias.php
 
 Wikibase Lexeme - User interface
 id = ext-wikibaselexeme-user
