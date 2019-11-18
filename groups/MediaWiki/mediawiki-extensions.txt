@@ -512,6 +512,9 @@ descmsg = bs-subpagetree-desc
 Blue Spice Tag Cloud
 descmsg = bs-tagcloud-desc
 
+Blue Spice UE Module Book PDF
+descmsg = bs-uemodulebookpdf-extension-description
+
 Blue Spice UE Module DOCX
 descmsg = bs-uemoduledocx-extension-description
 
