@@ -3076,7 +3076,7 @@ optional = visualeditor-preference-visualdiffpage-discussion-link, visualeditor-
 ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
 ignored = visualeditor-wikitext-warning-link, visualeditor-quick-access-characters.json
 ignored = visualeditor-preference-newwikitexteditor-discussion-link, visualeditor-preference-newwikitexteditor-info-link
-ignored = visualeditor-template-tools-definition.json
+ignored = visualeditor-template-tools-definition.json, visualeditor-error-http
 prefix = visualeditor-override- | tooltip-ca-edit
 
 VisualEditor (MediaWiki extension) - API
