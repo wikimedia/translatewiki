@@ -1812,6 +1812,14 @@ Math
 aliasfile = Math/Math.alias.php
 optional = math-wikibase-formula-header-format
 
+Math - User Interface
+id = ext-math-user
+file = Math/i18n/%CODE%.json
+
+Math - API
+id = ext-math-api
+file = Math/i18n/api/%CODE%.json
+
 Math Search
 aliasfile = MathSearch/MathSearch.alias.php
 

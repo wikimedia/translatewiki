@@ -47,6 +47,7 @@ GROUPS:
   - ext-liquidthreads-api
   - ext-machinevision-api
   - ext-massmessage-api
+  - ext-math-api
   - ext-mobilefrontend-api
   - ext-newsletter-api
   - ext-oathauth-api

@@ -364,6 +364,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-math
+  label: Math
+  description: '{{Special:MyLanguage/MediaWiki:Math-desc/en}}'
+GROUPS:
+  - ext-math-*
+
+---
+BASIC:
   id: ext-newsletter
   label: Newsletter
   description: '{{Special:MyLanguage/Newsletter-extension-desc/en}}'
