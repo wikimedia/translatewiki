@@ -3118,7 +3118,13 @@ Watch Subpages
 aliasfile = WatchSubpages/WatchSubpages.alias.php
 ignored = accesskey-watchsubpages-submit
 
-Web Authn
+Web Authn - User Interface
+id = ext-webauthn-user
+file = WebAuthn/i18n/%CODE%.json
+
+Web Authn - API
+id = ext-webauthn-api
+file = WebAuthn/i18n/api/%CODE%.json
 
 Web Chat
 aliasfile = WebChat/WebChat.alias.php
@@ -3413,7 +3419,6 @@ XenForo Auth
 
 XSL
 magicfile = XSL/XSLExtension.i18n.magic.php
-
 
 Yet Another Keywords
 
