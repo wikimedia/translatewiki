@@ -16,6 +16,12 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/grant-metrics/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - num-abbrev-billion
+    - num-abbrev-million
+    - num-abbrev-thousand
+
 CHECKER:
   class: MediaWikiMessageChecker
   checks:
