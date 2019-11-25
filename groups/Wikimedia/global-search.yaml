@@ -16,6 +16,12 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/global-search/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - global-search-csv
+    - global-search-json
+    - global-search-tsv
+
 CHECKER:
   class: MediaWikiMessageChecker
   checks:
