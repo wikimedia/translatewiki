@@ -521,7 +521,7 @@ descmsg = bs-uemodulepdf-desc
 Blue Spice UE Module PDF Recursive
 descmsg = bs-uemodulepdfrecursive-extension-description
 
-Blue Spice UE Module Subpages
+Blue Spice UE Module PDF Subpages
 descmsg = bs-uemodulepdfrecursive-extension-description
 
 Blue Spice UE Module Table 2 Excel
