@@ -2392,6 +2392,7 @@ aliasfile = PropertySuggester/PropertySuggester.alias.php
 Protect Site
 aliasfile = ProtectSite/ProtectSite.alias.php
 
+Protection Indicator
 
 Purge Click Through
 
