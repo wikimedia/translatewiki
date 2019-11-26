@@ -656,3 +656,13 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/UnifiedExtensionForFemiwiki/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-discordnotifications
+  label: DiscordNotifications
+  description: "{{Special:MyLanguage/MediaWiki:discordnotifications-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/kulttuuri/DiscordNotifications/i18n/%CODE%.json"

@@ -369,6 +369,10 @@ mwgithub:
       type: github
       url: https://github.com/JeroenDeDauw/Validator.git
       url|export: git@github.com:JeroenDeDauw/Validator.git
+    mwgithub/kulttuuri/DiscordNotifications:
+      type: github
+      url: https://github.com/kulttuuri/DiscordNotifications.git
+      url|export: git@github.com:kulttuuri/DiscordNotifications.git
     mwgithub/lingua-libre/RecordWizard:
       type: github
       url: https://github.com/lingua-libre/RecordWizard
