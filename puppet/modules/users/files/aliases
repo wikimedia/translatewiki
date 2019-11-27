@@ -16,7 +16,7 @@ security: root
 l10n-bot: root
 
 # Who gets all the junk email :)
-root: siebrand@kitano.nl, niklas.laxstrom@gmail.com
+root: siebrand@kitano.nl, niklas.laxstrom@gmail.com, apatro@wikimedia.org
 
 # Personal email aliases
 amir: amir.aharoni@mail.huji.ac.il
