@@ -28,6 +28,7 @@ TEMPLATE:
       yi: ji
       zh-hans: zh
       zh-hant: zh-rTW
+      tt-cyrl: b+tt+Cyrl
 
   MANGLER:
     class: StringMatcher
