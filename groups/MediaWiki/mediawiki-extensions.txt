@@ -1808,12 +1808,10 @@ file = MassMessage/i18n/api/%CODE%.json
 
 Mass Message Email
 
-Math
-aliasfile = Math/Math.alias.php
-
 Math - User Interface
 id = ext-math-user
 file = Math/i18n/%CODE%.json
+aliasfile = Math/Math.alias.php
 optional = math-wikibase-formula-header-format
 
 Math - API
