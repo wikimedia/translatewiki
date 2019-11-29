@@ -21,7 +21,6 @@ GROUPS:
   - ext-centralnotice-api
   - ext-checkuser-api
   - ext-cirrussearch-api
-  - ext-cite-api
   - ext-confirmedit-api
   - ext-confirmeditfancycaptcha-api
   - ext-contenttranslation-api
