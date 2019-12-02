@@ -388,6 +388,7 @@ TAGS:
     - edithelppage
     - editnotice-notext
     - editpage-head-copy-warn
+    - editpage-summary
     - editpage-tos-summary
     - editwatchlist-summary
     - emailsender
@@ -446,6 +447,8 @@ TAGS:
     - pagecategorieslink
     - pageinfo-footer
     - pageinfo-header
+    - pageinfo-summary
+    - pagehistory-summary
     - pagemerge-logentry
     - pageswithprop-summary
     - patrol-log-auto
@@ -458,6 +461,7 @@ TAGS:
     - prefixindex-summary
     - protectedpages-unknown-reason
     - pubmedurl
+    - purge-summary
     - randompage-url
     - rawmessage
     - recentchanges-url
