@@ -115,5 +115,6 @@ GROUPS:
   - ext-wikimediaincubator # r89556
   - ext-wikimediaincubatorinfopage
   - ext-wikimediamessages
+  - ext-wikisource # https://phabricator.wikimedia.org/rOMWC95910299c0a4fdb2d043b9c191beaefae6d4a751
   - ext-xanalytics # 2015-02-02 on all wikis
   - mediawiki-skin-timeless
