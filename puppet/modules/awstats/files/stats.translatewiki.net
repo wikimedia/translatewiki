@@ -2,7 +2,7 @@
 
 server {
 	listen 443 ssl http2;
-	listen [2a03:4000:39:55d::1]:443 ssl http2;
+	listen [2a03:4000:39:55d:5400:a2ff:fe21:b3ea]:443 ssl http2;
 
 	include includes/ssl-certbot.conf;
 
