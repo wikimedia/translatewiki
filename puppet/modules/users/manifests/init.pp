@@ -140,67 +140,6 @@ class users {
       purge_ssh_keys => true,
       home           => '/home/abi',
       comment        => 'Abijeet Patro';
-
-    # Inactive accounts
-    'robin': # Last login 2012-11-12
-      ensure         => absent,
-      uid            => 1008,
-      gid            => 'users',
-      groups         => [],
-      shell          => '/bin/bash',
-      password       => '!',
-      managehome     => true,
-      purge_ssh_keys => true,
-      home           => '/home/robin',
-      comment        => 'Robin Pepermans';
-
-    'lcawte':
-      ensure         => absent,
-      uid            => 1010,
-      gid            => 'users',
-      groups         => [],
-      shell          => '/bin/bash',
-      password       => '!',
-      managehome     => true,
-      purge_ssh_keys => true,
-      home           => '/home/lcawte',
-      comment        => 'Lewis Cawte';
-
-    'santhosh':
-      ensure         => absent,
-      uid            => 1012,
-      gid            => 'users',
-      groups         => [],
-      shell          => '/bin/bash',
-      password       => '!',
-      managehome     => true,
-      purge_ssh_keys => true,
-      home           => '/home/santhosh',
-      comment        => 'Santhosh Thottingal';
-
-    'niedzielski':
-      ensure         => absent,
-      uid            => 1021,
-      gid            => 'users',
-      groups         => [],
-      shell          => '/bin/bash',
-      password       => '!',
-      managehome     => true,
-      purge_ssh_keys => true,
-      home           => '/home/niedzielski',
-      comment        => 'Stephen Niedzielski';
-
-    'fjalapeno':
-      ensure         => absent,
-      uid            => 1023,
-      gid            => 'users',
-      groups         => [],
-      shell          => '/bin/bash',
-      password       => '!',
-      managehome     => true,
-      purge_ssh_keys => true,
-      home           => '/home/fjalapeno',
-      comment        => 'Corey Floyd (WMF)';
   }
 
   ssh_authorized_key {
