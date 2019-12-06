@@ -59,3 +59,7 @@ node 'es.translatewiki.net' {
 
   include mariadb
 }
+
+node 'new.translatewiki.net' {
+  include base
+}
