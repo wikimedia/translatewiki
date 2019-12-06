@@ -35,7 +35,6 @@ class mariadb {
   }
 
   package { [
-    'mytop',
     'mysqltuner',
   ]: ensure => present,
   }
