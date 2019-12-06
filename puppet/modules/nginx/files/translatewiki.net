@@ -2,18 +2,18 @@
 
 server {
 	listen 80 default_server;
-	listen [2a03:4000:6:b01e::1]:80;
-	server_name translatewiki.net;
+	listen [2a03:4000:39:55d::1]:80;
+	server_name translatewiki.net new.translatewiki.net;
 	return 301 https://$host$request_uri;
 }
 
 server {
 	listen 443 ssl default_server deferred http2;
-	listen [2a03:4000:6:b01e::1]:443 default_server deferred ssl http2;
+	listen [2a03:4000:39:55d::1]:443 default_server deferred ssl http2;
 
 	include includes/ssl-certbot.conf;
 
-	server_name translatewiki.net;
+	server_name translatewiki.net new.translatewiki.net;
 	root /www/$host/docroot;
 
 	add_header Referrer-Policy no-referrer-when-downgrade;

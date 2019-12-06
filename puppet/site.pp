@@ -62,4 +62,23 @@ node 'es.translatewiki.net' {
 
 node 'new.translatewiki.net' {
   include base
+  include sshd
+  include sudo
+  include users
+  include hostname
+
+  include awstats
+  # @todo IPv6 to figure out. Works differently.
+  #include base::new
+  include php
+  include logrotate
+  include mariadb
+  include memcached
+  include nginx::sites
+
+  include eximconf
+  include eximconf::new
+  include mailmanconf
+
+  include kitanonl
 }
