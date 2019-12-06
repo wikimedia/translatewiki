@@ -5,11 +5,16 @@
 class nginx::sites {
   include nginx::ssl
 
-  file { '/www':
-    ensure => directory,
-    owner  => 'betawiki',
-    group  => 'users',
-  }
+  $directories = [
+    '/www',
+    '/www/translatewiki.net',
+    '/www/translatewiki.net/error',
+  ]
+  ensure_resource('file', $directories, {
+    'ensure' => 'directory',
+    'owner'  => 'betawiki',
+    'group'  => 'users'
+  })
 
   file { '/etc/nginx/sites/translatewiki.net':
     source => 'puppet:///modules/nginx/translatewiki.net',
