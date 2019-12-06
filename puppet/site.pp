@@ -20,8 +20,6 @@ node 'web1.translatewiki.net' {
   include memcached
   include nginx::sites
 
-  include profile::mwelasticsearch
-
   include eximconf
   include eximconf::web1
   include mailmanconf
@@ -39,7 +37,7 @@ node 'web1.translatewiki.net' {
 
   ::keyholder::agent { 'l10n-bot':
     trusted_groups => ['l10n-bot'],
-    priv_key_path => '/root/keyholder/l10n-bot',
+    priv_key_path  => '/root/keyholder/l10n-bot',
   }
 
   sysctl { 'net.ipv4.tcp_window_scaling': value => '1' }
@@ -83,6 +81,8 @@ node 'new.translatewiki.net' {
   # Non-trivial issues
   #include mailmanconf
 
+  include profile::mwelasticsearch
+  
   include kitanonl
 
   class { 'wiki':
@@ -92,7 +92,7 @@ node 'new.translatewiki.net' {
 
   ::keyholder::agent { 'l10n-bot':
     trusted_groups => ['l10n-bot'],
-    priv_key_path => '/root/keyholder/l10n-bot',
+    priv_key_path  => '/root/keyholder/l10n-bot',
   }
 
   sysctl { 'net.ipv4.tcp_window_scaling': value => '1' }
