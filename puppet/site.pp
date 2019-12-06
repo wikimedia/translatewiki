@@ -78,7 +78,8 @@ node 'new.translatewiki.net' {
 
   include eximconf
   include eximconf::new
-  include mailmanconf
+  # Non-trivial issues
+  #include mailmanconf
 
   include kitanonl
 
