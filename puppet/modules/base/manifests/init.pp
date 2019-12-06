@@ -38,9 +38,4 @@ class base {
   file { '/etc/default/locale':
     content => 'LANG="en_US.UTF-8"',
   }
-
-  # Puppet, please stfu
-  file { '/etc/puppet/hiera.yaml':
-    content => '',
-  }
 }
