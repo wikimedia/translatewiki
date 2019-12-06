@@ -8,7 +8,7 @@ class profile::mwelasticsearch {
 
   file { '/etc/nginx/sites/es.translatewiki.net':
     source  => 'puppet:///modules/profile/es.translatewiki.net',
-    require => Package['nginx'],
+    require => Package['nginx-light'],
     notify  => Service['nginx'],
   }
 

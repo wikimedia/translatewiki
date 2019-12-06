@@ -7,7 +7,7 @@ class kitanonl {
 
   file { '/etc/nginx/sites/kitano.nl':
     source  => 'puppet:///modules/kitanonl/kitano.nl',
-    require => [Package['nginx'], Service['fcgiwrap']],
+    require => [Package['nginx-light'], Service['fcgiwrap']],
     notify  => Service['nginx'],
   }
 }

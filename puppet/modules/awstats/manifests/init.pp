@@ -30,7 +30,7 @@ class awstats {
 
   file { '/etc/nginx/sites/stats.translatewiki.net':
     source  => 'puppet:///modules/awstats/stats.translatewiki.net',
-    require => [Package['nginx'], Service['fcgiwrap']],
+    require => [Package['nginx-light'], Service['fcgiwrap']],
     notify  => Service['nginx'],
   }
 }
