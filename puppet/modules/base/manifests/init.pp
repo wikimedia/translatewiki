@@ -5,11 +5,11 @@
 class base {
   package { [
     # Basic packages
-    'ack-grep',
+    'ack',
     'acl',
     'apticron', # Daily message about available updates to root
     'bash-completion',
-    'git-core',
+    'git',
     'htop',
     'iftop',
     'iotop', # IO view
