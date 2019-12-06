@@ -5,6 +5,7 @@
 class mariadb {
   class { '::mysql::server':
     package_name     => 'mariadb-server',
+    service_name     => 'mariadb',
     restart          => false,
     override_options => {
       mysqld      => {
