@@ -8,19 +8,18 @@ class mariadb {
     restart          => false,
     override_options => {
       mysqld      => {
-        character-set-server            => 'utf8',
-        innodb_additional_mem_pool_size => '400M',
-        innodb_buffer_pool_instances    => '12',
-        innodb_buffer_pool_size         => '12G',
-        innodb_file_per_table           => '1',
-        innodb_log_file_size            => '500M',
-        thread_pool_size                => '16',
-        key_buffer_size                 => '16M',
-        query_cache_size                => '0',
-        query_cache_type                => '0',
-        ssl                             => '0',
-        table_cache                     => '1500',
-        log-error                       => undef
+        character-set-server         => 'utf8',
+        innodb_buffer_pool_instances => '12',
+        innodb_buffer_pool_size      => '12G',
+        innodb_file_per_table        => '1',
+        innodb_log_file_size         => '500M',
+        thread_pool_size             => '16',
+        key_buffer_size              => '16M',
+        query_cache_size             => '0',
+        query_cache_type             => '0',
+        ssl                          => '0',
+        table_cache                  => '1500',
+        log-error                    => undef
       },
       mysqld_safe => {
         log-error => undef
@@ -38,6 +37,6 @@ class mariadb {
   package { [
     'mytop',
     'mysqltuner',
-    ]: ensure => present,
+  ]: ensure => present,
   }
 }
