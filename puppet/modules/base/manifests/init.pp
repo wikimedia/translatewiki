@@ -28,7 +28,7 @@ class base {
   # Download git-review from pip, the version in current LTS has annoying bugs
   package { 'git-review':
     ensure   => present,
-    provider => pip,
+    provider => pip3,
   }
 
   file { '/etc/environment':
