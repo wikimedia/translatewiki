@@ -12,8 +12,6 @@ gem install librarian-puppet
 cd /root
 git clone https://gerrit.wikimedia.org/r/translatewiki
 cd /root/translatewiki
-git submodule init
-git submodule update
 cd puppet
 make apply
 # Run puppet again to fix some execution order/dependency issues
