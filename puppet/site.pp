@@ -20,6 +20,8 @@ node 'web1.translatewiki.net' {
   include memcached
   include nginx::sites
 
+  include profile::mwelasticsearch
+
   include eximconf
   include eximconf::web1
   include mailmanconf
