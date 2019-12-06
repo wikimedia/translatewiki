@@ -4,25 +4,25 @@
 #
 class php {
   package { [
-    'php-cli',
-    'php-curl',
-    'php-dba',
-    'php-fpm',
-    'php-gd',
-    'php-intl',
-    'php-mbstring',
-    'php-mysql',
-    'php-opcache',
-    'php-xml',
-    'php-memcached',
-    'php-yaml',
+    'php7.3-cli',
+    'php7.3-curl',
+    'php7.3-dba',
+    'php7.3-fpm',
+    'php7.3-gd',
+    'php7.3-intl',
+    'php7.3-mbstring',
+    'php7.3-mysql',
+    'php7.3-opcache',
+    'php7.3-xml',
+    'php7.3-memcached',
+    'php7.3-yaml',
   ]:
     ensure => present,
   }
 
   file { '/etc/php/7.3/fpm/pool.d/www.conf':
     source  => 'puppet:///modules/php/www.conf',
-    require => Package['php-fpm'],
+    require => Package['php7.3-fpm'],
     notify  => Service['php-fpm'],
   }
 
