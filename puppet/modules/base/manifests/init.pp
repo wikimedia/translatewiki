@@ -5,22 +5,24 @@
 class base {
   package { [
     # Basic packages
-    'acl',
     'ack-grep',
+    'acl',
     'apticron', # Daily message about available updates to root
     'bash-completion',
     'git-core',
     'htop',
+    'iftop',
     'iotop', # IO view
     'iperf', # Network performance
     'jnettop', # Network view
     'make',
+    'mlocate',
     'mosh', # ssh for bad connections
     'nano',
     'netcat-openbsd',
     'screen',
-    'unzip',
     'unattended-upgrades',
+    'unzip',
     'wget',
     ]: ensure => present,
   }
