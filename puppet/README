@@ -2,6 +2,10 @@
 
 * From a clean server, do this:
 
+** Create keyholder files:
+*** /root/keyholder/l10n-bot
+*** /root/keyholder/l10n-bot.pub
+
 apt update
 apt dist-upgrade
 wget https://apt.puppetlabs.com/puppet6-release-buster.deb
