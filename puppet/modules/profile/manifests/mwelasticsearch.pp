@@ -20,10 +20,13 @@ class profile::mwelasticsearch {
 
   class { 'java': distribution => 'jre' }
 
+  class { 'elastic_stack::repo':
+    version => 5,
+  }
+
   class { 'elasticsearch':
-    repo_version => '5.x',
-    version      => '5.5.2',
-    jvm_options  => [
+    version     => '5.5.2',
+    jvm_options => [
       '-Xms8g',
       '-Xmx10g'
     ],
