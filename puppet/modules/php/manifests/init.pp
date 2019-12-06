@@ -29,6 +29,6 @@ class php {
   service { 'php-fpm':
     ensure => running,
     enable => true,
-    name   => 'php-fpm.service',
+    name   => 'php7.3-fpm.service',
   }
 }
