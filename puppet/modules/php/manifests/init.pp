@@ -4,6 +4,8 @@
 #
 class php {
   package { [
+    'php-memcached',
+    'php-yaml',
     'php7.3-cli',
     'php7.3-curl',
     'php7.3-dba',
@@ -14,8 +16,6 @@ class php {
     'php7.3-mysql',
     'php7.3-opcache',
     'php7.3-xml',
-    'php7.3-memcached',
-    'php7.3-yaml',
   ]:
     ensure => present,
   }
