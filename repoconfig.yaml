@@ -741,6 +741,10 @@ wikimedia-tools:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/map-of-monuments
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/map-of-monuments
+    wikimedia-tools/watch-translations:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/watch-translations
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/watch-translations
     wikimedia-tools/weapon-of-mass-description:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/p/labs/tools/weapon-of-mass-description

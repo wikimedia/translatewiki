@@ -115,6 +115,24 @@ FILES:
 
 ---
 BASIC:
+  id: wikimedia-tools-watch-translations
+  label: WatchTranslations
+  description: "{{Special:MyLanguage/Translations:Group descriptions/watch-translations/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: watch-translations-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/watch-translations/messages/%CODE%.json"
+
+---
+BASIC:
   id: wikimedia-tools-weapon-of-mass-description
   label: Weapon of Mass Description
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-weapon-of-mass-description/en}}"
