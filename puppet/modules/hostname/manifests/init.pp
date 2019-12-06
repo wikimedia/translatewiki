@@ -10,6 +10,7 @@ class hostname {
   $hostname = $::ipaddress ? {
     '37.120.188.137' => 'web1.translatewiki.net',
     '37.120.188.139' => 'es.translatewiki.net',
+    '152.89.106.205' => 'new.translatewiki.net',
     default          => 'unknown.tranlatewiki.net',
   }
 
