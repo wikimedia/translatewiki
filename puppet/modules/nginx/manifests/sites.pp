@@ -6,7 +6,7 @@ class nginx::sites {
   include nginx::ssl
 
   file { '/www':
-    ensure => direcory,
+    ensure => directory,
     owner  => 'betawiki',
     group  => 'users',
   }
