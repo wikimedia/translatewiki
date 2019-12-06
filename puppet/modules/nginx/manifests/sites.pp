@@ -7,7 +7,9 @@ class nginx::sites {
 
   $directories = [
     '/www',
+    '/www/stats.translatewiki.net',
     '/www/translatewiki.net',
+    '/www/translatewiki.net/docroot',
     '/www/translatewiki.net/error',
   ]
   ensure_resource('file', $directories, {
