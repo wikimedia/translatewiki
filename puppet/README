@@ -9,6 +9,11 @@ dpkg -i puppet6-release-buster.deb
 apt update
 apt install -y git puppet-agent make librarian-puppet
 gem install librarian-puppet
+# Work-around for nginx stable repo
+apt install curl gnupg2 lsb-release
+echo "deb http://nginx.org/packages/mainline/debian `lsb_release -cs` nginx" > /etc/apt/sources.list.d/nginx.list
+curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo apt-key add -
+apt update
 cd /root
 git clone https://gerrit.wikimedia.org/r/translatewiki
 cd /root/translatewiki
