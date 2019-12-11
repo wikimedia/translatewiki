@@ -28,7 +28,16 @@ class profile::mwelasticsearch {
     version     => '5.5.2',
     jvm_options => [
       '-Xms8g',
-      '-Xmx10g'
+      '-Xmx10g',
+      '#PrintGCDetails',
+      '#PrintGCDateStamps',
+      '#PrintTenuringDistribution',
+      '#PrintGCApplicationStoppedTime',
+      '#Xloggc',
+      '#UseGCLogFileRotation',
+      '#NumberOfGCLogFiles',
+      '#GCLogFileSize',
+      '#XX:UseConcMarkSweepGC',
     ],
   }
 
