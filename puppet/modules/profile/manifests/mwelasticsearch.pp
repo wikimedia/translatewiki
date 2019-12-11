@@ -15,17 +15,17 @@ class profile::mwelasticsearch {
   apt::pin { 'elasticsearch':
     packages => 'elasticsearch',
     priority => 1000,
-    version  => '5.5.2',
+    version  => '6.5.4',
   }
 
   class { 'java': distribution => 'jre' }
 
   class { 'elastic_stack::repo':
-    version => 5,
+    version => 6,
   }
 
   class { 'elasticsearch':
-    version     => '5.5.2',
+    version     => '6.5.4',
     jvm_options => [
       '-Xms8g',
       '-Xmx10g',
@@ -43,18 +43,17 @@ class profile::mwelasticsearch {
 
   elasticsearch::instance { 'es-01': }
 
-  elasticsearch::plugin { 'org.wikimedia.search:extra:5.5.2.7':
+  elasticsearch::plugin { 'org.wikimedia.search:extra:6.5.4':
     instances  => 'es-01',
     module_dir => 'extra'
   }
 
-  elasticsearch::plugin { 'org.wikimedia.search.highlighter:experimental-highlighter-elasticsearch-plugin:5.5.2.2':
+  elasticsearch::plugin { 'org.wikimedia.search.highlighter:experimental-highlighter-elasticsearch-plugin:6.5.4.1':
     instances  => 'es-01',
     module_dir => 'experimental-highlighter'
   }
 
-
   class { 'kibana':
-    ensure => '5.5.2',
+    ensure => '6.5.4',
   }
 }
