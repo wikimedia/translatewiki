@@ -11,17 +11,11 @@ TEMPLATE:
       sr-ec: sr
       sr-el: sr-latn
 
-  CHECKER:
-    class: BlocklyMessageChecker
-    checks:
-      - variablesCheck
-
-  INSERTABLES:
-    class: BlocklySuggester
-
-  AUTOLOAD:
-    BlocklyMessageChecker: Checker.php
-    BlocklySuggester: Suggester.php
+  VALIDATORS:
+    - id: InsertableRegex
+      insertable: true
+      enforce: true
+      params: /%[1-9]/
 
 ---
 BASIC:
