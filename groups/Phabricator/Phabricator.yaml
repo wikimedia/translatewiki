@@ -11,19 +11,18 @@ TEMPLATE:
   FILES:
     class: JsonFFS
 
-  CHECKER:
-    class: MediaWikiMessageChecker
-    checks:
-      - wikiParameterCheck
-      - braceBalanceCheck
+  VALIDATORS:
+    - id: WikiParameter
+      insertable: true
+      enforce: false
+    - id: BraceBalance
+      insertable: true
+      enforce: false
 
   MANGLER:
     class: StringMatcher
     patterns:
        - "*"
-
-  INSERTABLES:
-    class: MediaWikiInsertablesSuggester
 
 ---
 BASIC:
