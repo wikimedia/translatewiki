@@ -16,10 +16,7 @@ FILES:
     zh-hans: zh
     cs: cz
 
-CHECKER:
-  class: MediaWikiMessageChecker
-  checks:
-    - wikiParameterCheck
-
-INSERTABLES:
-  class: NumericalParameterInsertablesSuggester
+VALIDATORS:
+  - id: WikiParameter
+    insertable: true
+    enforce: false
