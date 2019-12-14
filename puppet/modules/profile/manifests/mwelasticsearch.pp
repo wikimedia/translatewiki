@@ -3,14 +3,7 @@
 # Provides elasticsearch configuration for MediaWiki.
 #
 class profile::mwelasticsearch {
-  include ::nginx
   include ::apt
-
-  file { '/etc/nginx/sites/es.translatewiki.net':
-    source  => 'puppet:///modules/profile/es.translatewiki.net',
-    require => Package['nginx-light'],
-    notify  => Service['nginx'],
-  }
 
   apt::pin { 'elasticsearch':
     packages => 'elasticsearch',
