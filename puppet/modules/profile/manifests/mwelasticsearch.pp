@@ -27,8 +27,8 @@ class profile::mwelasticsearch {
   class { 'elasticsearch':
     version     => '6.5.4',
     jvm_options => [
-      '-Xms8g',
-      '-Xmx10g',
+      '-Xms12g',
+      '-Xmx12g',
       '#PrintGCDetails',
       '#PrintGCDateStamps',
       '#PrintTenuringDistribution',

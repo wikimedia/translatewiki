@@ -11,9 +11,9 @@ class mariadb {
       mysqld      => {
         character-set-server         => 'utf8',
         innodb_buffer_pool_instances => '12',
-        innodb_buffer_pool_size      => '12G',
+        innodb_buffer_pool_size      => '20G',
         innodb_file_per_table        => '1',
-        innodb_log_file_size         => '500M',
+        innodb_log_file_size         => '2G',
         thread_pool_size             => '16',
         key_buffer_size              => '16M',
         query_cache_size             => '0',
