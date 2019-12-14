@@ -23,22 +23,20 @@ class nginx::ssl {
 #   }
 #
 #   # @todo Update sites here.
-#   #letsencrypt::certonly { 'translatewiki.net':
-#   letsencrypt::certonly { 'new.translatewiki.net':
+#   letsencrypt::certonly { 'translatewiki.net':
 #     plugin               => 'webroot',
 #     manage_cron          => true,
 #     cron_success_command => 'systemctl reload nginx.service',
+#     suppress_cron_output => true,
 #     domains              => [
-#       'new.translatewiki.net',
-#       #'translatewiki.org',
-#       #'lists.translatewiki.net',
-#       #'stats.translatewiki.net',
+#       'translatewiki.net',
+#       'translatewiki.org',
+#       'stats.translatewiki.net',
 #     ],
 #     webroot_paths        => [
 #       '/www/translatewiki.net/docroot',
-#       #'/www/translatewiki.net/docroot',
-#       #'/usr/lib/cgi-bin/mailman',
-#       #'/www/stats.translatewiki.net',
+#       '/www/translatewiki.net/docroot',
+#       '/www/stats.translatewiki.net',
 #     ],
 #   }
 

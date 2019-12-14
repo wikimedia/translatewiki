@@ -60,7 +60,7 @@ node 'es.translatewiki.net' {
   include mariadb
 }
 
-node 'new.translatewiki.net' {
+node 'web2.translatewiki.net' {
   include base
   include sshd
   include sudo
@@ -84,6 +84,10 @@ node 'new.translatewiki.net' {
   include profile::mwelasticsearch
   
   include kitanonl
+
+  class { 'backup':
+    databases => ['translatewiki_net'],
+  }
 
   class { 'wiki':
     config => '/home/betawiki/config',
