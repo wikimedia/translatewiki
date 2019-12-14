@@ -18,27 +18,28 @@ class nginx::ssl {
     source  => 'puppet:///modules/nginx/ssl-certbot.conf',
   }
 
-  class { '::letsencrypt':
-    email => 'root@translatewiki.net',
-  }
+#   class { '::letsencrypt':
+#     email => 'root@translatewiki.net',
+#   }
+#
+#   # @todo Update sites here.
+#   #letsencrypt::certonly { 'translatewiki.net':
+#   letsencrypt::certonly { 'new.translatewiki.net':
+#     plugin               => 'webroot',
+#     manage_cron          => true,
+#     cron_success_command => 'systemctl reload nginx.service',
+#     domains              => [
+#       'new.translatewiki.net',
+#       #'translatewiki.org',
+#       #'lists.translatewiki.net',
+#       #'stats.translatewiki.net',
+#     ],
+#     webroot_paths        => [
+#       '/www/translatewiki.net/docroot',
+#       #'/www/translatewiki.net/docroot',
+#       #'/usr/lib/cgi-bin/mailman',
+#       #'/www/stats.translatewiki.net',
+#     ],
+#   }
 
-  # @todo Update sites here.
-  #letsencrypt::certonly { 'translatewiki.net':
-  letsencrypt::certonly { 'new.translatewiki.net':
-    plugin               => 'webroot',
-    manage_cron          => true,
-    cron_success_command => 'systemctl reload nginx.service',
-    domains              => [
-      'new.translatewiki.net',
-      #'translatewiki.org',
-      #'lists.translatewiki.net',
-      #'stats.translatewiki.net',
-    ],
-    webroot_paths        => [
-      '/www/translatewiki.net/docroot',
-      #'/www/translatewiki.net/docroot',
-      #'/usr/lib/cgi-bin/mailman',
-      #'/www/stats.translatewiki.net',
-    ],
-  }
 }
