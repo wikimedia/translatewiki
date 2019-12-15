@@ -20,6 +20,7 @@ class base {
     'mosh', # ssh for bad connections
     'nano',
     'netcat-openbsd',
+    'nfs-common',
     'python3-pip', # for git-review
     'screen',
     'unattended-upgrades',
