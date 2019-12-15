@@ -862,6 +862,12 @@ Count Down Clock
 descmsg = countDownClock-desc
 magicfile = CountDownClock/CountDownClock.i18n.magic.php
 
+CreateAPage
+aliasfile = CreateAPage/CreatePage.alias.php
+descmsg = createpage-desc
+ignored = createplate-Blank
+optional = createpage-template-infobox-format
+
 Create Page
 aliasfile = CreatePage/CreatePage.alias.php
 descmsg = cp-desc
