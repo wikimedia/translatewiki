@@ -67,8 +67,6 @@ node 'web2.translatewiki.net' {
   include hostname
 
   include awstats
-  # @todo IPv6 to figure out. Works differently.
-  #include base::new
   include php
   include logrotate
   include mariadb
@@ -76,7 +74,7 @@ node 'web2.translatewiki.net' {
   include nginx::sites
 
   include eximconf
-  include eximconf::new
+  include eximconf::web2
 
   include profile::mwelasticsearch
 
