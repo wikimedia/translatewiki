@@ -1,13 +1,21 @@
 == Manual steps ==
 
-* From a clean server, do this:
+* From a clean server, installed with Debian 9 (Stretch):
+
+apt-get update
+apt-get upgrade
+apt-get dist-upgrade
+sed -i 's/stretch/buster/g' /etc/apt/sources.list
+apt update
+apt upgrade
+apt dist-upgrade
+apt autoremove
+shutdown -r now
 
 ** Create keyholder files:
 *** /root/keyholder/l10n-bot
 *** /root/keyholder/l10n-bot.pub
 
-apt update
-apt dist-upgrade
 wget https://apt.puppetlabs.com/puppet6-release-buster.deb
 dpkg -i puppet6-release-buster.deb
 apt update
@@ -20,12 +28,11 @@ curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo apt-key add -
 apt update
 cd /root
 git clone https://gerrit.wikimedia.org/r/translatewiki
-cd /root/translatewiki
-cd puppet
+cd /root/translatewiki/puppet
+export PATH="$PATH:/opt/puppetlabs/bin"
+hostnamectl set-hostname web2.translatewiki.net
 make apply
 # Run puppet again to fix some execution order/dependency issues
-make apply
-# Run puppet a third time to fix some execution order/dependency issues
 make apply
 
 ------------------
@@ -55,9 +62,5 @@ https://gerrit.wikimedia.org/r/mediawiki/php/FastStringSearch
 And restart php5-fpm.
 -----------------------
 Put backup keys in /root/.ssh/
------------------------
-
-TODO:
-* puppet: Install nginx before lists
 -----------------------
 Add www-data to www-shared group
