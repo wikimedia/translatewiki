@@ -42,7 +42,6 @@ FORGE
     richardc-datacat (0.6.2)
     stahnma-epel (1.3.1)
       puppetlabs-stdlib (>= 3.0.0)
-    thias-mailman (0.1.4)
     thias-sysctl (1.0.6)
 
 DEPENDENCIES
@@ -51,5 +50,4 @@ DEPENDENCIES
   puppet-letsencrypt (= 5.0.0)
   puppetlabs-java (= 6.0.0)
   puppetlabs-mysql (= 10.2.1)
-  thias-mailman (= 0.1.4)
   thias-sysctl (= 1.0.6)
