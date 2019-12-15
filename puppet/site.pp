@@ -22,7 +22,6 @@ node 'web1.translatewiki.net' {
 
   include eximconf
   include eximconf::web1
-  include mailmanconf
 
   include kitanonl
 
@@ -78,11 +77,9 @@ node 'web2.translatewiki.net' {
 
   include eximconf
   include eximconf::new
-  # Non-trivial issues
-  #include mailmanconf
 
   include profile::mwelasticsearch
-  
+
   include kitanonl
 
   class { 'backup':
