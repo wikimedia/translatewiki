@@ -80,6 +80,13 @@ node 'web2.translatewiki.net' {
 
   include kitanonl
 
+  mount { '/scratch':
+    ensure  => 'mounted',
+    device  => '46.38.248.210:/voln264518a1',
+    fstype  => 'nfs',
+    options => 'rw',
+  }
+
   class { 'backup':
     databases => ['translatewiki_net'],
   }
