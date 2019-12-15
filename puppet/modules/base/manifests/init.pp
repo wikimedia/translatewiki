@@ -20,6 +20,7 @@ class base {
     'mosh', # ssh for bad connections
     'nano',
     'netcat-openbsd',
+    'python3-pip', # for git-review
     'screen',
     'unattended-upgrades',
     'unzip',
@@ -31,6 +32,7 @@ class base {
   package { 'git-review':
     ensure   => present,
     provider => pip3,
+    require  => Package['python3-pip'],
   }
 
   file { '/etc/environment':
