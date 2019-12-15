@@ -38,6 +38,10 @@ class base {
     replace => 'no',
   }
 
+  file { '/scratch':
+    ensure => directory,
+  }
+
   ini_setting { 'environment_path':
     ensure            => present,
     path              => '/etc/environment',

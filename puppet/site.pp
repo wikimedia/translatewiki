@@ -85,6 +85,7 @@ node 'web2.translatewiki.net' {
     device  => '46.38.248.210:/voln264518a1',
     fstype  => 'nfs',
     options => 'rw',
+    require => File['/scratch'],
   }
 
   class { 'backup':
