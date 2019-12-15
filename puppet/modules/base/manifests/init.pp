@@ -24,7 +24,7 @@ class base {
     'unattended-upgrades',
     'unzip',
     'wget',
-    ]: ensure => present,
+  ]: ensure => present,
   }
 
   # Download git-review from pip, the version in current LTS has annoying bugs
@@ -34,7 +34,17 @@ class base {
   }
 
   file { '/etc/environment':
-    content => 'PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/betawiki/config/bin"',
+    content => '',
+    replace => 'no',
+  }
+
+  ini_setting { 'environment_path':
+    ensure            => present,
+    path              => '/etc/environment',
+    setting           => 'PATH',
+    key_val_separator => '=',
+    value             => '"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/betawiki/config/bin"',
+    require           => File['/etc/environment'],
   }
 
   file { '/etc/default/locale':
