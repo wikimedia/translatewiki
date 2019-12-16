@@ -1042,7 +1042,7 @@ optional = notification-body-edit-user-talk-with-section, notification-body-reve
 optional = echo-foreign-wiki-lang, echo-specialpage-pagination-range
 ignored = echo-email-batch-separator, notification-welcome-link, notification-body-mention
 ignored = notification-body-emailuser
-ignored = notification-body-foreign
+ignored = notification-body-foreign, echo-blacklist
 
 Echo - API
 id = ext-echo-api
