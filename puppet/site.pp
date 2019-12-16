@@ -61,6 +61,7 @@ node 'es.translatewiki.net' {
 
 node 'web2.translatewiki.net' {
   include base
+  include base::vcs
   include sshd
   include sudo
   include users

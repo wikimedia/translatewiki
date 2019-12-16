@@ -1,15 +1,17 @@
-# = Class: base
+# = Class: base::vcs
 #
 # Provides installation and configuration for translatewiki.net supported
 # version control systems.
 #
 class base::vcs {
-  package { [
+  $packages = [
     'bzr',
     'cvs',
     'gettext',
     'mercurial',
     'subversion',
-    ]: ensure => present,
-  }
+  ]
+  ensure_packages($packages, {
+    ensure => 'present',
+  })
 }
