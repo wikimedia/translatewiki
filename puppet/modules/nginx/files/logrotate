@@ -1,8 +1,8 @@
 # This file is managed by puppet
 /var/log/nginx/*.log {
-	weekly
+	daily
 	missingok
-	rotate 52
+	rotate 30
 	compress
 	delaycompress
 	notifempty
