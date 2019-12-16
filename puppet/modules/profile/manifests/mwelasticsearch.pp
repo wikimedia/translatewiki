@@ -49,4 +49,10 @@ class profile::mwelasticsearch {
   class { 'kibana':
     ensure => '6.5.4',
   }
+
+  # Do not upgrade the kibana package
+  exec { 'hold kibana':
+    command => '/usr/bin/apt-mark hold kibana',
+    unless  => '/usr/bin/test "$(/usr/bin/apt-mark showhold "^kibana$" |wc -l)" == "1"'
+  }
 }
