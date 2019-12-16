@@ -274,7 +274,7 @@ descmsg = bs-bookshelf-extension-description
 
 Blue Spice Bookshelf UI
 descmsg = bs-bookshelfui-extension-description
-aliasfile = BlueSpiceUEModuleBookPDF/languages/SpecialBookshelfBookUI.alias.php
+aliasfile = BlueSpiceBookshelfUI/languages/BookshelfUI.alias.php
 
 Blue Spice Category Check
 descmsg = bs-categorycheck-extension-description
