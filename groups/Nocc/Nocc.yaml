@@ -50,11 +50,10 @@ TAGS:
   ignored:
     - charset
 
-CHECKER:
-  class: MessageChecker
-  checks:
-    - printfCheck
-    - braceBalanceCheck
+VALIDATORS:
+  - id: Printf
+    insertable: true
+  - id: BraceBalance
 
 ---
 BASIC:
@@ -80,13 +79,15 @@ FILES:
     # along with NOCC. If not, see <http://www.gnu.org/licenses/>.
     #
 
-CHECKER:
-  class: MessageChecker
-  checks:
-    - printfCheck
+VALIDATORS:
+  - id: Printf
+    insertable: true
 
 INSERTABLES:
-  class: NoccInsertablesSuggester
-
-AUTOLOAD:
-  NoccInsertablesSuggester: NoccInsertablesSuggester.php
+  # For HTML tags
+  - class: RegexInsertablesSuggester
+    params:
+      regex: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
+      display: "$open$close"
+      pre: $open
+      post: $close
