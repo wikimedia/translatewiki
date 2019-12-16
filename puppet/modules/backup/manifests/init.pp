@@ -7,13 +7,25 @@
 #
 # $databases:: What databases to dump and backup.
 #
-class backup ($databases) {
+class backup (
+  Array $databases = [],
+) {
   package { 'duplicity':
     ensure => present,
   }
 
-  package { 'pbzip2':
-    ensure => present,
+  $packages = [
+    'python-pip',
+    'pbzip2'
+  ]
+  ensure_packages($packages, {
+    ensure => 'present',
+  })
+
+  package { 'b2':
+    ensure   => present,
+    provider => pip,
+    require  => Package['python-pip'],
   }
 
   file { '/etc/cron.d/backup':
