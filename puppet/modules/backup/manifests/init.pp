@@ -22,10 +22,6 @@ class backup ($databases) {
     content => template('backup/backup.erb'),
   }
 
-  file { '/root/.ssh/config':
-    source => 'puppet:///modules/backup/ssh-config',
-  }
-
   file { '/root/backup.sh':
     source => 'puppet:///modules/backup/backup.sh',
     mode   => '0744',

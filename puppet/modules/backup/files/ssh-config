@@ -1,5 +1,0 @@
-# file managed by puppet
-Host backup
-User nike
-HostName lakka.kapsi.fi
-IdentityFile /root/.ssh/backup_id_rsa
