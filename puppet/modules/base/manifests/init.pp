@@ -18,6 +18,7 @@ class base {
     'make',
     'mlocate',
     'mosh', # ssh for bad connections
+    'mydumper',
     'nano',
     'netcat-openbsd',
     'nfs-common',
