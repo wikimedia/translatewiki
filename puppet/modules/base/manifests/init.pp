@@ -36,22 +36,16 @@ class base {
     require  => Package['python3-pip'],
   }
 
-  file { '/etc/environment':
-    content => '',
-    replace => 'no',
+  file { '/etc/profile.d/translatewiki.sh':
+    source  => 'puppet:///modules/base/translatewiki.sh',
   }
 
   file { '/scratch':
     ensure => directory,
   }
 
-  ini_setting { 'environment_path':
-    ensure            => present,
-    path              => '/etc/environment',
-    setting           => 'PATH',
-    key_val_separator => '=',
-    value             => '"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/betawiki/config/bin"',
-    require           => File['/etc/environment'],
+  file { '/resources':
+    ensure => directory,
   }
 
   file { '/etc/default/locale':
