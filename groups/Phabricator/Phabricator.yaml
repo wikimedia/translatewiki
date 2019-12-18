@@ -16,7 +16,6 @@ TEMPLATE:
       insertable: true
       enforce: false
     - id: BraceBalance
-      insertable: true
       enforce: false
 
   MANGLER:
