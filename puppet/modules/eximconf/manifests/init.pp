@@ -17,9 +17,12 @@ class eximconf (
     notify  => Service['exim4'],
   }
 
-  package { 'exim4':
-    ensure => present,
-  }
+  $packages = [
+    'exim4',
+  ]
+  ensure_packages($packages, {
+    ensure => 'present',
+  })
 
   service { 'exim4':
     ensure => running,
