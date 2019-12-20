@@ -7,7 +7,7 @@ $wgMiserMode = true;
 $wgShowIPinHeader = false;
 
 $wgMainCacheType = CACHE_MEMCACHED;
-$wgMessageCacheType = CACHE_ACCEL;
+$wgMessageCacheType = CACHE_MEMCACHED;
 $wgMemCachedServers = [ "127.0.0.1:11211" ];
 $wgMemCachedPersistent = true;
 
