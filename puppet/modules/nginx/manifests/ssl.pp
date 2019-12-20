@@ -37,7 +37,7 @@ class nginx::ssl {
       '/www/translatewiki.net/docroot',
       '/www/translatewiki.net/docroot',
       '/www/stats.translatewiki.net',
-      '/kitano.nl',
+      '/www/kitano.nl',
     ],
   }
 }
