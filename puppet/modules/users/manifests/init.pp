@@ -35,6 +35,23 @@ class users {
     'l10n-bot':
       ensure => present,
       gid    => 1021;
+
+    # Debian/nginx
+    'www-data':
+      ensure => present,
+      gid    => 33;
+  }
+
+  # www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+  user {
+    # nginx
+    'www-data':
+      ensure     => present,
+      uid        => 33,
+      gid        => 'www-data',
+      groups     => ['www-shared'],
+      shell      => '/usr/sbin/nologin',
+      managehome => false,
   }
 
   user {
