@@ -3,7 +3,7 @@
 # Provides base configuration for servers.
 #
 class base {
-  package { [
+  $packages = [
     # Basic packages
     'ack',
     'acl',
@@ -27,8 +27,10 @@ class base {
     'unattended-upgrades',
     'unzip',
     'wget',
-  ]: ensure => present,
-  }
+  ]
+  ensure_packages($packages, {
+    ensure => 'present',
+  })
 
   # Download git-review from pip, the version in current LTS has annoying bugs
   package { 'git-review':
@@ -38,7 +40,7 @@ class base {
   }
 
   file { '/etc/profile.d/translatewiki.sh':
-    source  => 'puppet:///modules/base/translatewiki.sh',
+    source => 'puppet:///modules/base/translatewiki.sh',
   }
 
   file { '/scratch':
