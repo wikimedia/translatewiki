@@ -18,26 +18,26 @@ class nginx::ssl {
     source  => 'puppet:///modules/nginx/ssl-certbot.conf',
   }
 
-#   class { '::letsencrypt':
-#     email => 'root@translatewiki.net',
-#   }
-#
-#   # @todo Update sites here.
-#   letsencrypt::certonly { 'translatewiki.net':
-#     plugin               => 'webroot',
-#     manage_cron          => true,
-#     cron_success_command => 'systemctl reload nginx.service',
-#     suppress_cron_output => true,
-#     domains              => [
-#       'translatewiki.net',
-#       'translatewiki.org',
-#       'stats.translatewiki.net',
-#     ],
-#     webroot_paths        => [
-#       '/www/translatewiki.net/docroot',
-#       '/www/translatewiki.net/docroot',
-#       '/www/stats.translatewiki.net',
-#     ],
-#   }
+  class { '::letsencrypt':
+    email => 'root@translatewiki.net',
+  }
 
+  letsencrypt::certonly { 'translatewiki.net':
+    plugin               => 'webroot',
+    manage_cron          => true,
+    cron_success_command => 'systemctl reload nginx.service',
+    suppress_cron_output => true,
+    domains              => [
+      'translatewiki.net',
+      'translatewiki.org',
+      'stats.translatewiki.net',
+      'kitano.nl',
+    ],
+    webroot_paths        => [
+      '/www/translatewiki.net/docroot',
+      '/www/translatewiki.net/docroot',
+      '/www/stats.translatewiki.net',
+      '/kitano.nl',
+    ],
+  }
 }
