@@ -15,6 +15,15 @@ class users {
     refreshonly => true
   }
 
+  package { 'sudo':
+    ensure => present,
+  }
+
+  file { '/etc/sudoers.d/local':
+    source => 'puppet:///modules/users/local',
+    mode   => '0440',
+  }
+
   group {
     # Ability to sudo
     'sysadmin':
