@@ -2,7 +2,7 @@
 dc_eximconfig_configtype='smarthost'
 dc_other_hostnames='<%= @mail_domain %>'
 dc_local_interfaces='<%= @local_interfaces.join(";") %>;127.0.0.1;::1'
-dc_readhost='<%= mail_domain %>'
+dc_readhost='<%= @mail_domain %>'
 dc_relay_domains=''
 dc_minimaldns='false'
 dc_relay_nets='127.0.0.1;::1;<%= @relay_nets.join(";") %>'
