@@ -45,6 +45,7 @@ node 'web2.translatewiki.net' {
     config => '/home/betawiki/config',
     user   => 'betawiki',
   }
+  include wiki::irc
 
   ::keyholder::agent { 'l10n-bot':
     trusted_groups => ['l10n-bot'],
