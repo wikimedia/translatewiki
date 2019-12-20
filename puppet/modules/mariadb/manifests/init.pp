@@ -35,8 +35,10 @@ class mariadb {
     package_name => 'mariadb-client',
   }
 
-  package { [
+  $packages = [
     'mysqltuner',
-  ]: ensure => present,
-  }
+  ]
+  ensure_packages($packages, {
+    ensure => 'present',
+  })
 }
