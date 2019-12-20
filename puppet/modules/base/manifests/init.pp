@@ -21,6 +21,7 @@ class base {
     'nano',
     'netcat-openbsd',
     'nfs-common',
+    'parallel', # Used for e.g. forceSearchIndex.php
     'python3-pip', # for git-review
     'screen',
     'unattended-upgrades',
