@@ -5,7 +5,7 @@
 class sshd {
   file { '/etc/ssh/sshd_config':
     source => 'puppet:///modules/sshd/sshd_config',
-    notify => Servicep['sshd'],
+    notify => Service['sshd'],
   }
 
   service { 'sshd':
