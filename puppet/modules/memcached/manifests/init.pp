@@ -3,9 +3,12 @@
 # Provides memcached installation and configuration.
 #
 class memcached {
-  package { 'memcached':
-    ensure => present,
-  }
+  $packages = [
+    'memcached',
+  ]
+  ensure_packages($packages, {
+    ensure => 'present',
+  })
 
   service { 'memcached':
     ensure     => running,
@@ -17,6 +20,7 @@ class memcached {
 
   file { '/etc/memcached.conf':
     source  => 'puppet:///modules/memcached/memcached.conf',
+    backup  => '.puppet.bak',
     require => Package['memcached'],
     notify  => Service['memcached'];
   }
