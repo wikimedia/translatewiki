@@ -117,6 +117,7 @@ $wgAllowUserJs = true;
 $wgAllowUserCss = true;
 $wgMinimalPasswordLength = 6;
 $wgBlockAllowsUTEdit = true;
+$wgEnablePartialBlocks = true;
 $wgAutoConfirmAge = 3600 * 24 * 14;
 $wgAutoblockExpiry = 3600 * 24 * 14; // 2 weeks of rest from vandals reusing IPs
 
