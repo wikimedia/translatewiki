@@ -3,8 +3,6 @@
 # Provides kitano.nl website
 #
 class kitanonl {
-  include fcgiwrap
-
   $directories = [
     '/www',
     '/www/kitano.nl',
