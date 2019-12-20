@@ -3,7 +3,7 @@
 # Configures php for MediaWiki to run in cli and fastcgi modes.
 #
 class php {
-  package { [
+  $packages = [
     'php-memcached',
     'php-yaml',
     'php7.3-cli',
@@ -16,9 +16,10 @@ class php {
     'php7.3-mysql',
     'php7.3-opcache',
     'php7.3-xml',
-  ]:
-    ensure => present,
-  }
+  ]
+  ensure_packages($packages, {
+    ensure => 'present',
+  })
 
   file { '/etc/php/7.3/fpm/pool.d/www.conf':
     source  => 'puppet:///modules/php/www.conf',

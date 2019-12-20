@@ -7,11 +7,13 @@
 # echo "deb http://nginx.org/packages/mainline/debian `lsb_release -cs` nginx" > /etc/apt/sources.list.d/nginx.list
 # curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo apt-key add -
 class nginx {
-  ensure_packages([
+  $packages = [
     'nginx-light',
-  ], {
+  ]
+  ensure_packages($packages, {
     ensure => 'present',
   })
+
   service { 'nginx':
     ensure  => running,
     enable  => true,
