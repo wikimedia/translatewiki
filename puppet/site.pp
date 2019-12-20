@@ -19,8 +19,12 @@ node 'web2.translatewiki.net' {
   include memcached
   include nginx::sites
 
-  include eximconf
-  include eximconf::web2
+  class { 'eximconf':
+    local_interfaces => [
+    '152.89.106.205',
+    '2a03:4000:39:55d:5400:a2ff:fe21:b3ea',
+    ]
+  }
 
   include profile::mwelasticsearch
 
