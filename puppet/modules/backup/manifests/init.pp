@@ -29,9 +29,8 @@ class backup (
   }
 
   file { '/etc/cron.d/backup':
-    # Enable when new server is primary
-    ensure  => present,
-    content => template('backup/backup.erb'),
+    ensure => present,
+    source => 'puppet:///modules/backup/backup',
   }
 
   file { '/root/backup.sh':
