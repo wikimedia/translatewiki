@@ -404,6 +404,17 @@ $wgGroupPermissions['staff']['mwoauthsuppress'] = true;
 $wgGroupPermissions['staff']['mwoauthviewsuppressed'] = true;
 $wgGroupPermissions['staff']['mwoauthviewprivate'] = true;
 
+wfLoadExtension( 'PoolCounter' );
+$wgPoolCounterConf = [
+	'TranslateFetchTranslators' => [
+		'class' => 'PoolCounter_Client',
+		'timeout' => 4,
+		'workers' => 1, # How many workers per language
+		'slots' => 4, # How many concurrent languages
+		'maxqueue' => 4, # How many can queue per language
+	],
+];
+
 wfLoadExtension( 'CheckUser' );
 $wgCheckUserLogLogins = true;
 

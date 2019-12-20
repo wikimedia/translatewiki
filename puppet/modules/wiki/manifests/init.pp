@@ -35,9 +35,17 @@ class wiki ($config, $user) {
     require => File['/etc/systemd/system/mw-jobrunner.service'],
   }
 
+  service { 'poolcounter':
+    ensure  => running,
+    enable  => true,
+    require => Package['poolcounter'],
+  }
+
   $packages = [
     # needed for svg images
-    'librsvg2-bin'
+    'librsvg2-bin',
+    # poolcounter
+    'poolcounter',
   ]
   ensure_packages($packages, {
     ensure => 'present',
