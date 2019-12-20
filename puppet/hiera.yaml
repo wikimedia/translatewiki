@@ -1,0 +1,11 @@
+---
+version: 5
+
+defaults:
+  datadir: data
+  data_hash: 'yaml_data'
+hierarchy:
+  - name: "nodes by name yaml"
+    path: "nodes/%{::hostname}.yaml"
+  - name: 'Default values'
+    path: 'common.yaml'

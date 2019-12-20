@@ -1,0 +1,16 @@
+---
+classes:
+  - '::base'
+  - '::base::vcs'
+  - '::hostname'
+  - '::sshd'
+  - '::users'
+  - '::php'
+  - '::mariadb'
+  - '::memcached'
+  - '::profile::mwelasticsearch'
+  - '::wiki'
+
+wiki::config: /home/betawiki/config
+wiki::user: betawiki
+
