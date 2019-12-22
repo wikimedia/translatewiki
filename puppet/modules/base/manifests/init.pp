@@ -2,7 +2,9 @@
 #
 # Provides base configuration for servers.
 #
-class base {
+class base (
+  Optional[String] $mount_device = undef,
+) {
   $packages = [
     # Basic packages
     'ack',
@@ -46,6 +48,16 @@ class base {
 
   file { '/scratch':
     ensure => directory,
+  }
+
+  if $mount_device {
+    mount { '/scratch':
+      ensure  => 'mounted',
+      device  => $mount_device,
+      fstype  => 'nfs',
+      options => 'rw',
+      require => File['/scratch'],
+    }
   }
 
   file { '/resources':
