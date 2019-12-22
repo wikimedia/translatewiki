@@ -8,8 +8,7 @@ User=www-data
 Group=www-data
 ExecStart=/usr/bin/php /srv/mediawiki/targets/production/maintenance/runJobs.php --wait --maxjobs=1000 --memory-limit=1G
 Restart=always
-RestartSec=15
-PrivateDevices=true
+RestartSec=5
 ProtectHome=read-only
 ProtectSystem=full
 
