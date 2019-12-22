@@ -18,9 +18,9 @@ FILES:
 
 TAGS:
   optional:
-    - num-abbrev-billion
-    - num-abbrev-million
-    - num-abbrev-thousand
+    - grant-metrics-num-abbrev-billion
+    - grant-metrics-num-abbrev-million
+    - grant-metrics-num-abbrev-thousand
 
 CHECKER:
   class: MediaWikiMessageChecker
