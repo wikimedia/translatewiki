@@ -5,8 +5,9 @@
 class profile::mwelasticsearch {
   include ::apt
 
+  # Do not automatically upgrade these packages
   apt::pin { 'elasticsearch':
-    packages => 'elasticsearch',
+    packages => [ 'elasticsearch', 'kibana' ],
     priority => 1000,
     version  => '6.5.4',
   }
@@ -48,11 +49,5 @@ class profile::mwelasticsearch {
 
   class { 'kibana':
     ensure => '6.5.4',
-  }
-
-  # Do not upgrade the kibana package
-  exec { 'hold kibana':
-    command => '/usr/bin/apt-mark hold kibana',
-    unless  => '/usr/bin/test "$(/usr/bin/apt-mark showhold "^kibana$" |wc -l)" == "1"'
   }
 }
