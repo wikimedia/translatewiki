@@ -8,10 +8,7 @@ class fcgiwrap {
   }
 
   service { 'fcgiwrap':
-    ensure     => running,
-    enable     => true,
-    hasstatus  => true,
-    hasrestart => true,
-    require    => Package['fcgiwrap'],
+    ensure  => running,
+    require => Package['fcgiwrap'],
   }
 }
