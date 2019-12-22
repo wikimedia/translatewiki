@@ -19,6 +19,7 @@ FILES:
 
 TAGS:
   optional:
+    - portals-app-links.url
     - portals-language-name
     - portals-language-name-romanized
     - portals-language-name-romanized-sorted
