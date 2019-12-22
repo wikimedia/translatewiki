@@ -5,6 +5,7 @@
 class php {
   $packages = [
     'php-memcached',
+    'php-wikidiff2',
     'php-yaml',
     'php7.3-cli',
     'php7.3-curl',

@@ -1,6 +1,7 @@
-== Manual steps ==
+== Bootstrap process ==
 
-* From a clean server, installed with Debian 9 (Stretch):
+=== OS upgrade ===
+From a clean server, installed with Debian 9 (Stretch):
 
 apt-get update
 apt-get upgrade
@@ -12,55 +13,27 @@ apt dist-upgrade
 apt autoremove
 shutdown -r now
 
-** Create keyholder files:
-*** /root/keyholder/l10n-bot
-*** /root/keyholder/l10n-bot.pub
+=== Heyholder ===
+Copy/create the following files
+* /root/keyholder/l10n-bot
+* /root/keyholder/l10n-bot.pub
 
+=== Puppet ===
 wget https://apt.puppetlabs.com/puppet6-release-buster.deb
 dpkg -i puppet6-release-buster.deb
 apt update
 apt install -y git puppet-agent make librarian-puppet
 gem install librarian-puppet
-# Work-around for nginx stable repo
-apt install curl gnupg2 lsb-release
-echo "deb http://nginx.org/packages/mainline/debian `lsb_release -cs` nginx" > /etc/apt/sources.list.d/nginx.list
-curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo apt-key add -
-apt update
 cd /root
 git clone https://gerrit.wikimedia.org/r/translatewiki
 cd /root/translatewiki/puppet
-export PATH="$PATH:/opt/puppetlabs/bin"
 hostnamectl set-hostname web2.translatewiki.net
 make apply
 # Run puppet again to fix some execution order/dependency issues
 make apply
 
-------------------
-Reboot the machine enabled the IP configuration.
-------------------
-Add accounts for stats.translatewiki.net to /etc/webauth
-------------------
-for module in 'YAML::Syck' 'PHP::Serialization' 'File::Slurp'; do cpanp -i $module; done
-------------------
-Install wikidiff and FastStringSearch for php
+# Reboot the machine enabled the IP configuration.
 
-sudo aptitude install php5-dev
-
-git clone https://gerrit.wikimedia.org/r/mediawiki/php/wikidiff2
-cd wikidiff2
-phpize
-./configure
-make
-sudo make install
-
-Create /etc/php5/fpm/conf.d/wikidiff2.ini:
-  extension=wikidiff2.so
-
-Adapt the same for FastStringSearch which is located at
-https://gerrit.wikimedia.org/r/mediawiki/php/FastStringSearch
-
-And restart php5-fpm.
------------------------
-Put backup keys in /root/.ssh/
------------------------
-Add www-data to www-shared group
+=== Other stuff ===
+* Add accounts for stats.translatewiki.net to /etc/webauth
+* Put backup keys in /root/.ssh/
