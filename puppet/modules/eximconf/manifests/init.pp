@@ -28,4 +28,24 @@ class eximconf (
     ensure => running,
     enable => true,
   }
+
+  # set up the default parameters for all firewall rules
+  Firewall {
+    before  => Class['base::firewall::post'],
+    require => Class['base::firewall::pre'],
+  }
+
+  firewall { '030 Allow inbound SMTP (v4)':
+    dport    => 25,
+    proto    => tcp,
+    action   => accept,
+    provider => 'iptables',
+  }
+
+  firewall { '030 Allow inbound SMTP (v6)':
+    dport    => 25,
+    proto    => tcp,
+    action   => accept,
+    provider => 'ip6tables',
+  }
 }

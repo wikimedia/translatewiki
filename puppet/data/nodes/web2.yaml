@@ -1,5 +1,8 @@
 ---
 classes:
+  - '::firewall'
+  - '::base::firewall::pre'
+  - '::base::firewall::post'
   - '::kitanonl'
   - '::awstats'
   - '::logrotate'

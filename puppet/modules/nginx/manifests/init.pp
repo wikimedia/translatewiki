@@ -40,4 +40,38 @@ class nginx {
   file { '/etc/logrotate.d/nginx':
     source => 'puppet:///modules/nginx/logrotate'
   }
+
+  # set up the default parameters for all firewall rules
+  Firewall {
+    before  => Class['base::firewall::post'],
+    require => Class['base::firewall::pre'],
+  }
+
+  firewall { '020 Allow inbound HTTP (v4)':
+    dport    => 80,
+    proto    => tcp,
+    action   => accept,
+    provider => 'iptables',
+  }
+
+  firewall { '020 Allow inbound HTTP (v6)':
+    dport    => 80,
+    proto    => tcp,
+    action   => accept,
+    provider => 'ip6tables',
+  }
+
+  firewall { '021 Allow inbound HTTPS (v4)':
+    dport    => 443,
+    proto    => tcp,
+    action   => accept,
+    provider => 'iptables',
+  }
+
+  firewall { '021 Allow inbound HTTPS (v6)':
+    dport    => 443,
+    proto    => tcp,
+    action   => accept,
+    provider => 'ip6tables',
+  }
 }
