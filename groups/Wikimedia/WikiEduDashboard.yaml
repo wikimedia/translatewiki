@@ -21,16 +21,16 @@ MANGLER:
   patterns:
     - "*"
 
-CHECKER:
-  class: MessageChecker
-  checks:
-    - rubyVariableCheck
+VALIDATORS:
+  - id: InsertableRubyVariable
+    insertable: true
+    enforce: false
 
 INSERTABLES:
-  class: WikiEduDashboardInsertablesSuggester
-
-AUTOLOAD:
-  WikiEduDashboardInsertablesSuggester: WikiEduDashboardSuggester.php
+  - class: RegexInsertablesSuggester
+    params: /\%{[^}]+}|%s/
+  - class: RegexInsertablesSuggester
+    params: /&(?:[a-z]+|#\d+);/
 
 TAGS:
   ignored:
