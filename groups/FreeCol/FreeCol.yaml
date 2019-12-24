@@ -25,18 +25,19 @@ FILES:
     pt-br: pt_BR
     zh-hans: zh_CN
 
-CHECKER:
-  class: FreeColMessageChecker
-  checks:
-    - FreeColEscapesCheck
-    - FreeColVariablesCheck
-
-INSERTABLES:
-  class: FreeColSuggester
-
-AUTOLOAD:
-  FreeColMessageChecker: Checker.php
-  FreeColSuggester: Suggester.php
+VALIDATORS:
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    params: /%[a-zA-Z_]+%/
+  - id: EscapeCharacter
+    enforce: false
+    params:
+      values:
+        - \n
+        - \t
+        - \'
+        - \"
 
 TAGS:
   optional:
