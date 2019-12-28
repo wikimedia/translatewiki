@@ -2468,9 +2468,6 @@ file = ReadingLists/i18n/%CODE%.json
 Reassign Edits
 aliasfile = ReassignEdits/ReassignEdits.alias.php
 
-Recent Activity Feed
-aliasfile = RecentActivityFeed/RecentActivityFeed.alias.php
-
 # Recoin // 2018-05-15: Empty repo
 
 Refresh Special
