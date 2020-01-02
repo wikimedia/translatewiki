@@ -2845,7 +2845,6 @@ file = Thanks/i18n/api/%CODE%.json
 Theme
 
 The Wikipedia Library
-descmsg = theWikipediaLibary-desc
 
 THICC
 optional = thicc-displayname
