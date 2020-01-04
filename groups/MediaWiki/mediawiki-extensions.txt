@@ -947,7 +947,8 @@ optional = sitenotice_close-brackets
 
 Disqus Tag
 
-# Doc Book Export // 2018-03-22: No i18n files
+Doc Book Export
+aliasfile = DocBookExport/DocBookExport.i18n.alias.php
 
 Donation Interface - Adyen Gateway
 id = ext-di-adyen
