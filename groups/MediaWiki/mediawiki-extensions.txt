@@ -3128,6 +3128,9 @@ ignored = visualeditor-feedback-source-link
 Vote NY
 aliasfile = VoteNY/includes/VoteNY.alias.php
 
+Wanted Pages From NS
+descmsg = wpfromns-desc
+
 Watch Subpages
 aliasfile = WatchSubpages/WatchSubpages.alias.php
 ignored = accesskey-watchsubpages-submit
