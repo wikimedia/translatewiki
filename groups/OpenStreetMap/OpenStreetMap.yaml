@@ -54,6 +54,7 @@ VALIDATORS:
       values:
         - ltr
         - rtl
+  - id: UnicodePlural
 
 INSERTABLES:
   - class: RegexInsertablesSuggester
