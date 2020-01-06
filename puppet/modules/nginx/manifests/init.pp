@@ -2,10 +2,6 @@
 #
 # Provides installation and configuration information for the nginx package.
 #
-# Manual actions:
-# apt install curl gnupg2 lsb-release
-# echo "deb http://nginx.org/packages/mainline/debian `lsb_release -cs` nginx" > /etc/apt/sources.list.d/nginx.list
-# curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo apt-key add -
 class nginx {
   $packages = [
     'nginx-light',
