@@ -15,20 +15,23 @@ Copy/create the following files
 * /root/keyholder/l10n-bot.pub
 
 === Puppet ===
+cd /root
 wget https://apt.puppetlabs.com/puppet6-release-buster.deb
 dpkg -i puppet6-release-buster.deb
 apt update
 apt install -y git puppet-agent make librarian-puppet
-gem install librarian-puppet
-cd /root
+# Re-login is needed to update PATH to include puppet
+bash -l
 git clone https://gerrit.wikimedia.org/r/translatewiki
-cd /root/translatewiki/puppet
+cd translatewiki/puppet
+# Use dev.translatewiki.net for development setups
 hostnamectl set-hostname web2.translatewiki.net
 make apply
 # Run puppet again to fix some execution order/dependency issues
 make apply
 
-# Reboot the machine enabled the IP configuration.
+# Reboot the machine to ensure all config changes are enabled
+reboot
 
 === Other stuff ===
 * Add accounts for stats.translatewiki.net to /etc/webauth
