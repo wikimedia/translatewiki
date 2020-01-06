@@ -9,7 +9,7 @@ apt dist-upgrade
 apt autoremove
 shutdown -r now
 
-=== Heyholder ===
+=== Keyholder ===
 Copy/create the following files
 * /root/keyholder/l10n-bot
 * /root/keyholder/l10n-bot.pub
