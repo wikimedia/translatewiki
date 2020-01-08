@@ -10,8 +10,6 @@ FORGE
       elastic-elastic_stack (< 7.0.0, >= 6.1.0)
       puppetlabs-stdlib (< 7.0.0, >= 4.13.0)
       richardc-datacat (< 1.0.0, >= 0.6.2)
-    elastic-kibana (6.3.1)
-      elastic-elastic_stack (< 7.0.0, >= 6.1.0)
     puppet-archive (4.4.0)
       puppetlabs-stdlib (< 7.0.0, >= 4.18.0)
     puppet-letsencrypt (5.0.0)
@@ -27,6 +25,8 @@ FORGE
     puppetlabs-concat (5.3.0)
       puppetlabs-stdlib (< 6.0.0, >= 4.13.1)
       puppetlabs-translate (< 2.0.0, >= 1.0.0)
+    puppetlabs-firewall (2.2.0)
+      puppetlabs-stdlib (< 7.0.0, >= 4.0.0)
     puppetlabs-inifile (3.1.0)
       puppetlabs-translate (< 3.0.0, >= 1.0.0)
     puppetlabs-java (6.0.0)
@@ -45,12 +45,22 @@ FORGE
       puppetlabs-stdlib (>= 3.0.0)
     thias-sysctl (1.0.6)
 
+GIT
+  remote: https://github.com/elastic/puppet-kibana.git
+  ref: 154284f2a848ace5afbcf6ebc9163c443631d377
+  sha: 154284f2a848ace5afbcf6ebc9163c443631d377
+  specs:
+    elastic-kibana (6.3.1)
+      elastic-elastic_stack (< 7.0.0, >= 6.1.0)
+
 DEPENDENCIES
   elastic-elasticsearch (= 6.4.0)
-  elastic-kibana (= 6.3.1)
+  elastic-kibana (>= 0)
   puppet-letsencrypt (= 5.0.0)
+  puppetlabs-firewall (= 2.2.0)
   puppetlabs-inifile (= 3.1.0)
   puppetlabs-java (= 6.0.0)
   puppetlabs-mount_core (= 1.0.4)
   puppetlabs-mysql (= 10.2.1)
   thias-sysctl (= 1.0.6)
+
