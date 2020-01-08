@@ -5,7 +5,9 @@ defaults:
   datadir: data
   data_hash: 'yaml_data'
 hierarchy:
-  - name: "nodes by name yaml"
+  - name: 'Developer specific settings for development environment'
+    path: 'developer.yaml'
+  - name: 'nodes by name yaml'
     path: "nodes/%{::hostname}.yaml"
   - name: 'Default values'
     path: 'common.yaml'

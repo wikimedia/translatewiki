@@ -1,0 +1,5 @@
+users::ssh_keys:
+  developer@localhost:
+    user: developer
+    type: ssh-..
+    key: AAAA...
