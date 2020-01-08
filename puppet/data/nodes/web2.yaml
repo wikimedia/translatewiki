@@ -30,6 +30,8 @@ sysctl::base::values:
   net.ipv4.tcp_fastopen:
     value: '3'
 
+profile::mwelasticsearch::memory_limit: '12g'
+
 users::users:
   siebrand:
     uid: 1000

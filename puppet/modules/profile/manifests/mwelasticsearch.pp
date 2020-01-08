@@ -2,7 +2,9 @@
 #
 # Provides elasticsearch configuration for MediaWiki.
 #
-class profile::mwelasticsearch {
+class profile::mwelasticsearch (
+  String $memory_limit = '1g',
+) {
   include ::apt
 
   # Do not automatically upgrade these packages
@@ -21,8 +23,8 @@ class profile::mwelasticsearch {
   class { 'elasticsearch':
     version     => '6.5.4',
     jvm_options => [
-      '-Xms12g',
-      '-Xmx12g',
+      "-Xms${memory_limit}",
+      "-Xmx${memory_limit}",
       '#PrintGCDetails',
       '#PrintGCDateStamps',
       '#PrintTenuringDistribution',
