@@ -1,7 +1,0 @@
-#!/bin/bash
-set -o nounset -o pipefail -o errexit
-
-# check if a message is being used. May give some false positives.
-# use '<e>grep -v to clean up.
-grep -r "$1" "$PWD"/* |
-	grep -vE "(svn|[.]ser|[.]cdb|i18n[.]php|Messages[A-Z]|l10n_cache|messages-mediawiki-bw_)"
