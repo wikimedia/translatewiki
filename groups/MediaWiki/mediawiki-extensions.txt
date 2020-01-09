@@ -556,6 +556,7 @@ descmsg = bs-visualdiff-extension-description
 
 Blue Spice Visual Editor Connector
 descmsg = bs-visualeditorconnector-desc
+ignored = bs-vec-table-border-width-1, bs-vec-table-border-width-2, bs-vec-table-border-width-3, bs-vec-table-border-width-4
 
 Blue Spice Watch List
 descmsg = bs-watchlist-desc
