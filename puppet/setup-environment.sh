@@ -1,0 +1,50 @@
+#!/bin/bash
+set -o nounset -o pipefail -o errexit
+
+HOSTNAME=${1:-dev.translatewiki.net}
+DEB=puppet6-release-buster.deb
+
+echo -e "\n\n\nInstalling puppet..."
+cd /root
+wget "https://apt.puppetlabs.com/$DEB" -O "$DEB"
+dpkg -i "$DEB"
+apt update
+apt install -y git puppet-agent make librarian-puppet
+
+# Update PATHs
+. /etc/profile
+echo -e "\n\n\nDownloading configuration..."
+git clone https://gerrit.wikimedia.org/r/translatewiki
+cd translatewiki/puppet
+# XXX
+git fetch "https://gerrit.wikimedia.org/r/translatewiki" refs/changes/79/563179/9 && git checkout FETCH_HEAD
+# XXX
+
+hostnamectl set-hostname "$HOSTNAME"
+cp data/developer.yaml.example data/developer.yaml
+nano data/developer.yaml
+
+echo -e "\n\n\nRunning puppet..."
+make apply
+
+# Update PATHs
+. /etc/profile
+echo -e "\n\n\nUpdating wiki..."
+cd /home/developer/translatewiki
+# XXX
+sudo -u developer git fetch "https://gerrit.wikimedia.org/r/translatewiki" refs/changes/79/563179/9 && sudo -u developer git checkout FETCH_HEAD
+# XXX
+twn-update-all
+# Fails halfway the first time due to checkuser
+twn-update-database || twn-update-database
+
+echo -e "\n\n\nConfiguring elastic search..."
+cd /home/developer/mediawiki/workdir
+php extensions/Translate/scripts/ttmserver-export.php
+
+cd /root
+rm -r "$DEB" translatewiki
+
+echo "\n\n\nTo access developer account on the wiki, you need to reset the password with"
+echo "  php /home/developer/mediawiki/workdir/maintenance/changePassword.php --user Developer --password '...'"
+echo "\n\n\nReboot the machine to ensure all config changes are enabled"

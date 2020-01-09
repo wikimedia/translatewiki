@@ -1,11 +1,12 @@
----
+# Add your ssh key here. Then you can login as developer@host.
+
 users::ssh_keys:
   developer@localhost:
     user: developer
     type: ssh-..
     key: AAAA...
 
-# You can add extra repositories here
+# You can add extra repositories here later
 #lookup_options:
 #  wiki::workdir::repos:
 #    merge: hash

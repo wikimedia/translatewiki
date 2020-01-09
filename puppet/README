@@ -1,38 +1,24 @@
 == Bootstrap process ==
 
-=== OS update ===
-Start with a feshly installed, minimal Debian 10 (Buster)
+Start with a feshly installed, minimal Debian 10 (Buster):
 
-apt update
-apt upgrade
-apt dist-upgrade
-apt autoremove
-shutdown -r now
+  apt update
+  apt upgrade
+  apt dist-upgrade
+  apt autoremove
+  shutdown -r now
 
-=== Keyholder ===
-Copy/create the following files
-* /root/keyholder/l10n-bot
-* /root/keyholder/l10n-bot.pub
+Then copy setup-environment.sh to the server and run it:
+  chmod +x setup-environment.sh
+  # For development
+  ./setup-environment.sh dev.translatewiki.net
+  # For production
+  ./setup-environment.sh web2.translatewiki.net
 
-=== Puppet ===
-cd /root
-wget https://apt.puppetlabs.com/puppet6-release-buster.deb
-dpkg -i puppet6-release-buster.deb
-apt update
-apt install -y git puppet-agent make librarian-puppet
-# Re-login is needed to update PATH to include puppet
-bash -l
-git clone https://gerrit.wikimedia.org/r/translatewiki
-cd translatewiki/puppet
-# Use dev.translatewiki.net for development setups
-hostnamectl set-hostname web2.translatewiki.net
-make apply
-# Run puppet again to fix some execution order/dependency issues
-make apply
 
-# Reboot the machine to ensure all config changes are enabled
-reboot
-
-=== Other stuff ===
+== Manual configuration required for production ==
+* Copy/create the following files for keyholder:
+  /root/keyholder/l10n-bot
+  /root/keyholder/l10n-bot.pub
 * Add accounts for stats.translatewiki.net to /etc/webauth
 * Put backup keys in /root/.ssh/
