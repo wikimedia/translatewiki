@@ -1,9 +1,10 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
+. /etc/wikipaths
+
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
-WIKI=/srv/mediawiki/targets/production
-SCRIPT="$WIKI/extensions/Translate/scripts/processMessageChanges.php"
+SCRIPT="$WIKIDIR/extensions/Translate/scripts/processMessageChanges.php"
 NAME="non-mediawiki"
 
 cd /resources/projects

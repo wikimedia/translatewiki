@@ -1,5 +1,7 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
-php /srv/mediawiki/targets/production/extensions/Translate/scripts/createMessageIndex.php --quiet
+. /etc/wikisettings
+
+php "$WIKIDIR/extensions/Translate/scripts/createMessageIndex.php" --quiet
 echo "Done."

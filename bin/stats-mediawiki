@@ -1,7 +1,8 @@
 #!/bin/bash
 set -o errexit -o nounset -o pipefail
 
-WIKI=/srv/mediawiki/targets/production
+. /etc/wikisettings
+
 MESSAGEGROUPS=(
 	core-0-mostused
 	core
@@ -60,6 +61,6 @@ S=$(IFS=,;echo "${SKIPLANGUAGES[*]}")
 
 {
 	echo "{{Translating:Group statistics/Header10}}"
-	php "$WIKI/extensions/Translate/scripts/groupStatistics.php" --skipzero --groups="$G" --skiplanguages="$S" |
+	php "$WIKIDIR/extensions/Translate/scripts/groupStatistics.php" --skipzero --groups="$G" --skiplanguages="$S" |
 		tail -n +12
-} | php "$WIKI/maintenance/edit.php" --user=MaintenanceBot --summary="Updating statistics" Translating:Group_statistics
+} | php "$WIKIDIR/maintenance/edit.php" --user=MaintenanceBot --summary="Updating statistics" Translating:Group_statistics

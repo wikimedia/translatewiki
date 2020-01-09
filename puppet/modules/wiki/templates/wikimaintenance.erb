@@ -1,7 +1,8 @@
 # file managed by puppet
-@monthly <%= @user %> find /resources/caches/translatewiki.net/ -maxdepth 1 -ctime +1000 -print0 | xargs -0 -I{} rm -rf -- "{}"
-@weekly <%= @user %> nice php /srv/mediawiki/targets/production/maintenance/generateSitemap.php --fspath /www/translatewiki.net/docroot/sitemap/ --skip-redirects --urlpath https://translatewiki.net/sitemap/
-@weekly <%= @user %> nice php /srv/mediawiki/targets/production/maintenance/updateSpecialPages.php -q
-30 */2 * * * <%= @user %> <%= @config %>/bin/autoimport > /dev/null
-48 7,13,21 * * * <%= @user %> <%= @config %>/bin/autoimport-mediawiki > /dev/null
-*/10 * * * * root test -z "$(/bin/systemctl status mw-jobrunner | grep running -o)" && <%= @config %>/bin/udpcast JobQueue is not running
+PATH=<%= @config_dir %>/bin:$PATH
+@monthly <%= @maintenance_user %> find /resources/caches/<%= @domain %>/ -maxdepth 1 -ctime +1000 -print0 | xargs -0 -I{} rm -rf -- "{}"
+@weekly <%= @maintenance_user %> nice php <%= @production_dir %>/maintenance/generateSitemap.php --fspath /www/<%= @domain %>/docroot/sitemap/ --skip-redirects --urlpath https://<%= @domain %>/sitemap/
+@weekly <%= @maintenance_user %> nice php <%= @production_dir %>/maintenance/updateSpecialPages.php -q
+30 */2 * * * <%= @maintenance_user %> autoimport > /dev/null
+48 7,13,21 * * * <%= @maintenance_user %> autoimport-mediawiki > /dev/null
+*/10 * * * * root test -z "$(/bin/systemctl status mw-jobrunner | grep running -o)" && <%= @config_dir %>/bin/udpcast JobQueue is not running

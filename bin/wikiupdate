@@ -1,6 +1,8 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
+. /etc/wikisettings
+
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 WIKI=$1
 
@@ -8,7 +10,7 @@ CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Updating core and extensions ***"
 find "$WIKI" "$WIKI"/extensions/* "$WIKI"/skins/* -maxdepth 1 -type d -name .git -print0 |
 	xargs -0 -n1 dirname |
-	xargs -n1 -P4 "$DIRSCRIPT/wikiupdate-repo"
+	xargs -n1 -P4 sudo -H -u "$REPOUSER" "$DIRSCRIPT/wikiupdate-repo"
 
 composer -n -d"$WIKI" update
 

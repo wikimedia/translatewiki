@@ -1,6 +1,7 @@
 <?php
 
 require_once __DIR__ . '/FallbackSettings.php';
+require_once __DIR__ . '/LanguageSettings.php';
 
 $GROUPS = __DIR__ . '/groups';
 
@@ -9,20 +10,7 @@ $GROUPS = __DIR__ . '/groups';
 $wgTranslateNewsletterPreference = true;
 
 $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
-$wgTranslateDocumentationLanguageCode = 'qqq';
-$wgTranslatePHPlot = '/home/betawiki/software/phplot/phplot.php';
-$wgTranslateGroupRoot = '/resources/projects';
-$wgTranslateMessageIndex = [ 'CDBMessageIndex' ];
-$wgTranslateDelayedMessageIndexRebuild = true;
-$wgTranslateDisablePreSaveTransform = true;
 $wgTranslateCheckBlacklist = "$GROUPS/check-blacklist.php";
-$wgTranslateYamlLibrary = 'phpyaml';
-$wgULSCompactLanguageLinksBetaFeature = false;
-$wgPageTranslationLanguageList = 'sidebar-only';
-
-$wgTranslatePermissionUrl = 'Special:MainPage';
-$wgTranslateUseSandbox = true;
-$wgTranslateSandboxPromotedGroup = 'translator';
 
 $lqtParams = [
 	'lqt_method' => 'talkpage_new_thread',
@@ -41,40 +29,6 @@ $wgTranslateSupportUrl = [
 	'page' => 'Support',
 	'params' => $lqtParams,
 ];
-
-$wgTranslateStaticTags = [
-	'tp:mark' => 3,
-	'tp:tag' => 4,
-	'tp:transver' => 5
-];
-
-$wgTranslateTranslationServices['TTMServer'] = [
-	'type' => 'ttmserver',
-	'class' => 'ElasticSearchTTMServer',
-	'cutoff' => 0.75,
-	'public' => true,
-	'config' => $privESService,
-	'timeout' => 8,
-	'use_wikimedia_extra' => true,
-	'shards' => 1,
-	'replicas' => 0,
-];
-
-$wgTranslateTranslationServices['Apertium WMF'] = [
-	'type' => 'cxserver',
-	'host' => 'https://cxserver.wikimedia.org',
-	'timeout' => 3,
-];
-
-/*
-$wgTranslateTranslationServices['Microsoft'] = [
-	'url' => 'http://api.microsofttranslator.com/V2/Http.svc/Translate',
-	'clientId' => 'TWN',
-	'clientSecret' => $privMicrosoftApiKey,
-	'timeout' => 3,
-	'type' => 'microsoft',
-];
-*/
 
 $wgHooks['Translate:GettextFFS:headerFields'][] = 'efHT';
 

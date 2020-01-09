@@ -1,0 +1,7 @@
+# file managed by puppet
+Defaults        secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:<%= @bin_dir %>"
+%sysadmin       ALL = NOPASSWD: ALL
+%betawiki       ALL = (<%= @maintenance_user %>) NOPASSWD: ALL
+%betawiki       ALL = (<%= @repo_user %>) NOPASSWD: ALL
+%betawiki       ALL = NOPASSWD: /usr/sbin/service mw-jobrunner restart
+%betawiki       ALL = NOPASSWD: /usr/sbin/service php7.3-fpm reload

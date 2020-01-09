@@ -1,4 +1,8 @@
----
+classes:
+  - '::nginx::devsite'
+  - '::wiki::docroot'
+  - '::wiki::workdir'
+
 users::users:
   developer:
     uid: 1000
@@ -8,3 +12,11 @@ users::users:
     uid: 1001
     groups: [ betawiki, www-shared ]
     comment: Maintenance Account
+
+wiki::config_dir: /home/developer/translatewiki
+wiki::domain: dev.translatewiki.net
+wiki::repo_user: developer
+wiki::production_dir: /home/developer/mediawiki/workdir
+wiki::work_dir: /home/developer/mediawiki/workdir
+wiki::workdir::deployment_dir: /home/developer/mediawiki
+wiki::workdir::mediawiki_config: DevelopmentSettings.php

@@ -1,4 +1,5 @@
 # file managed by puppet
-45 21 * * * <%= @user %> <%= @config %>/bin/stats-mediawiki >> /dev/null 2>&1
-18 22 * * * <%= @user %> <%= @config %>/bin/stats-newcorelangs >> /dev/null 2>&1
-31 22 * * * <%= @user %> <%= @config %>/bin/twn-wikistats >> /dev/null 2>&1
+PATH=<%= @config_dir %>/bin:$PATH
+45 21 * * * <%= @maintenance_user %> stats-mediawiki >> /dev/null 2>&1
+18 22 * * * <%= @maintenance_user %> stats-newcorelangs >> /dev/null 2>&1
+31 22 * * * <%= @maintenance_user %> twn-wikistats >> /dev/null 2>&1

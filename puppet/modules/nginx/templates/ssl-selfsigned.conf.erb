@@ -1,0 +1,5 @@
+# file managed by puppet
+
+include includes/ssl.conf;
+ssl_certificate     <%= @certdir %>/<%= @domain %>.crt;
+ssl_certificate_key <%= @certdir %>/<%= @domain %>.key;

@@ -1,11 +1,11 @@
 #!/bin/bash
 set -o errexit -o nounset -o pipefail
 
-WIKI=/srv/mediawiki/targets/production
+. /etc/wikisettings
 
 cd /resources/projects/mediawiki/master
 {
 	echo "{{/Header1}}<pre>"
 	git log --format="format:%ci" --name-only --diff-filter=A languages/i18n/
 	echo "</pre>"
-} | php "$WIKI/maintenance/edit.php" --user=MaintenanceBot --summary="Updating statistics" Translating:MediaWiki/New_languages
+} | php "$WIKIDIR/maintenance/edit.php" --user=MaintenanceBot --summary="Updating statistics" Translating:MediaWiki/New_languages

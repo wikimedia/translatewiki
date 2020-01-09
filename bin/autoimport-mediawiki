@@ -1,14 +1,16 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
+. /etc/wikisettings
+
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 NAME=mediawiki
 
 cd /resources/projects
 php "$DIRSCRIPT/../repong/repong.php" list | grep ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
 
-php /srv/mediawiki/targets/production/extensions/Translate/scripts/processMessageChanges.php \
-	--name $NAME --group=core,ext-*,mediawiki* --quiet
+php "$WIKIDIR/extensions/Translate/scripts/processMessageChanges.php" \
+	--name "$NAME" --group=core,ext-*,mediawiki* --quiet
 
 if [ -f "/resources/caches/translatewiki.net/messagechanges.$NAME.cdb" ]
 then

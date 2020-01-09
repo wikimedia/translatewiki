@@ -1,32 +1,25 @@
 # = Class: wiki
 #
-# Configures various wiki stuff. Now mostly crontabs.
+# Configures various wiki services
 #
-# == Parameters:
-#
-# $config:: Where the wiki config is stored.
-#
-# $user:: What user owns the wiki stuff.
-#
-#
-# == Sample Usage:
-#
-#   class { 'wiki':
-#     config => '/home/betawiki/config',
-#     user   => 'betawiki',
-#   }
-#
-class wiki ($config, $user) {
+class wiki (
+  String $config_dir,
+  String $production_dir,
+  String $maintenance_user,
+  String $repo_user,
+  String $work_dir,
+  String $domain,
+) {
+  file { '/etc/wikisettings':
+    content => template('wiki/wikisettings.erb'),
+  }
+
   file { '/etc/cron.d/wikimaintenance':
     content => template('wiki/wikimaintenance.erb'),
   }
 
-  file { '/etc/cron.d/wikistats':
-    content => template('wiki/wikistats.erb'),
-  }
-
   file { '/etc/systemd/system/mw-jobrunner.service':
-    source  => 'puppet:///modules/wiki/mw-jobrunner.service',
+    content => template('wiki/mw-jobrunner.service.erb'),
   }
 
   service { 'mw-jobrunner':
@@ -46,6 +39,7 @@ class wiki ($config, $user) {
     'librsvg2-bin',
     # poolcounter
     'poolcounter',
+    'composer',
   ]
   ensure_packages($packages, {
     ensure => 'present',

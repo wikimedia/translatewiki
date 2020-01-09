@@ -3,6 +3,9 @@
 # Provides user configuration for servers.
 #
 class users (
+  String $bin_dir,
+  String $maintenance_user,
+  String $repo_user,
   Hash[String, Data] $users = {},
   Hash[String, Hash[String, String]] $ssh_keys = {},
 ) {
@@ -11,8 +14,8 @@ class users (
   }
 
   file { '/etc/sudoers.d/local':
-    source => 'puppet:///modules/users/local',
-    mode   => '0440',
+    content => template('users/sudo.erb'),
+    mode    => '0440',
   }
 
   group {

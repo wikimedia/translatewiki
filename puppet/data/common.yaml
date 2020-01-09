@@ -1,4 +1,3 @@
----
 classes:
   - '::firewall'
   - '::base::firewall::pre'
@@ -9,11 +8,126 @@ classes:
   - '::sshd'
   - '::users'
   - '::php'
+  - '::nginx'
   - '::mariadb'
   - '::memcached'
   - '::profile::mwelasticsearch'
   - '::wiki'
 
-wiki::config: /home/betawiki/config
-wiki::user: betawiki
+# Changing this variable is not yet fully supported
+maintenance_user: betawiki
 
+base::maintenance_user: "%{alias('maintenance_user')}"
+base::bin_dir: "%{lookup('wiki::config_dir')}/bin"
+
+users::bin_dir: "%{lookup('wiki::config_dir')}/bin"
+users::maintenance_user: "%{alias('maintenance_user')}"
+users::repo_user: "%{alias('wiki::repo_user')}"
+
+wiki::config_dir: "/home/%{lookup('maintenance_user')}/config"
+wiki::production_dir: /srv/mediawiki/targets/production
+wiki::domain: translatewiki.net
+wiki::maintenance_user: "%{alias('maintenance_user')}"
+wiki::repo_user: "%{alias('maintenance_user')}"
+wiki::work_dir: /srv/mediawiki/workdir
+
+wiki::docroot::domain: "%{alias('wiki::domain')}"
+wiki::docroot::production_dir: "%{alias('wiki::production_dir')}"
+wiki::docroot::maintenance_user: "%{alias('maintenance_user')}"
+
+wiki::stats::config_dir: "%{alias('wiki::config_dir')}"
+wiki::stats::maintenance_user: "%{alias('maintenance_user')}"
+
+wiki::workdir::config_dir: "%{alias('wiki::config_dir')}"
+wiki::workdir::domain: "%{alias('wiki::domain')}"
+wiki::workdir::deployment_dir: /srv/mediawiki
+wiki::workdir::deployment_owner: "%{alias('wiki::repo_user')}"
+wiki::workdir::deployment_group: "%{alias('maintenance_user')}"
+wiki::workdir::mediawiki_config: TranslatewikiSettings.php # unused atm
+
+
+wiki::workdir::repos:
+  workdir:
+    source: https://gerrit.wikimedia.org/r/mediawiki/core
+  workdir/skins/MonoBook:
+    source: https://gerrit.wikimedia.org/r/mediawiki/skins/MonoBook
+  workdir/skins/Timeless:
+    source: https://gerrit.wikimedia.org/r/mediawiki/skins/Timeless
+  workdir/skins/Vector:
+    source: https://gerrit.wikimedia.org/r/mediawiki/skins/Vector
+  workdir/extensions/AbuseFilter:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/AbuseFilter
+  workdir/extensions/AdminLinks:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/AdminLinks
+  workdir/extensions/Babel:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Babel
+  workdir/extensions/BetaFeatures:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/BetaFeatures
+  workdir/extensions/CharInsert:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CharInsert
+  workdir/extensions/CheckUser:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CheckUser
+  workdir/extensions/CirrusSearch:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CirrusSearch
+  workdir/extensions/CleanChanges:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CleanChanges
+  workdir/extensions/ContributionScores:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ContributionScores
+  workdir/extensions/DeleteBatch:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/DeleteBatch
+  workdir/extensions/Echo:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo
+  workdir/extensions/Elastica:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Elastica
+  workdir/extensions/EventLogging:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/EventLogging
+  workdir/extensions/Gadgets:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Gadgets
+  workdir/extensions/I18nTags:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/I18nTags
+  workdir/extensions/Interwiki:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Interwiki
+  workdir/extensions/InviteSignup:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/InviteSignup
+  workdir/extensions/LiquidThreads:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/LiquidThreads
+  workdir/extensions/LoginNotify:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/LoginNotify
+  workdir/extensions/NewUserMessage:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/NewUserMessage
+  workdir/extensions/Nuke:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Nuke
+  workdir/extensions/OATHAuth:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/OATHAuth
+  workdir/extensions/OAuth:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/OAuth
+  workdir/extensions/ParserFunctions:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions
+  workdir/extensions/PoolCounter:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/PoolCounter
+  workdir/extensions/Renameuser:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Renameuser
+  workdir/extensions/ReplaceText:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ReplaceText
+  workdir/extensions/SyntaxHighlight_GeSHi:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/SyntaxHighlight_GeSHi
+  workdir/extensions/TemplateSandbox:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateSandbox
+  workdir/extensions/Thanks:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Thanks
+  workdir/extensions/Translate:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Translate
+  workdir/extensions/TwnMainPage:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/TwnMainPage
+  workdir/extensions/UniversalLanguageSelector:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/UniversalLanguageSelector
+  workdir/extensions/UserMerge:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/UserMerge
+  workdir/extensions/UserOptionStats:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/UserOptionStats
+  workdir/extensions/WebChat:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/WebChat
+  workdir/extensions/WikiEditor:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiEditor
+  workdir/extensions/cldr:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/cldr

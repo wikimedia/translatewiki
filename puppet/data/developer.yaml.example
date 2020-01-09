@@ -1,5 +1,15 @@
+---
 users::ssh_keys:
   developer@localhost:
     user: developer
     type: ssh-..
     key: AAAA...
+
+# You can add extra repositories here
+#lookup_options:
+#  wiki::workdir::repos:
+#    merge: hash
+#
+#wiki::workdir::repos:
+#  workdir/extensions/ContentTranslation:
+#    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ContentTranslation

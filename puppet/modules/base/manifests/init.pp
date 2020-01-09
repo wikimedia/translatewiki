@@ -3,6 +3,8 @@
 # Provides base configuration for servers.
 #
 class base (
+  String $maintenance_user,
+  String $bin_dir,
   Optional[String] $mount_device = undef,
 ) {
   $packages = [
@@ -42,7 +44,7 @@ class base (
   }
 
   file { '/etc/profile.d/translatewiki.sh':
-    source => 'puppet:///modules/base/translatewiki.sh',
+    content => template('base/translatewiki.sh.erb'),
   }
 
   file { '/scratch':
@@ -57,10 +59,6 @@ class base (
       options => 'rw',
       require => File['/scratch'],
     }
-  }
-
-  file { '/resources':
-    ensure => directory,
   }
 
   file { '/etc/default/locale':

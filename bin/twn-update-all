@@ -1,11 +1,11 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
-DIRSCRIPT=$(dirname "$(readlink -f "$0")")
-WIKINAME="translatewiki.net"
-WIKI="/srv/mediawiki/workdir"
+. /etc/wikisettings
 
-cd "$WIKI"
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
+
+cd "$WIKIDIR"
 REV=$(git log --pretty="%h %ci (%cr)" -n 1)
 "$DIRSCRIPT/udpcast" "updating $WIKINAME from $REV..."
 
@@ -13,7 +13,7 @@ CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Updating config ***"
 "$DIRSCRIPT/twn-update-config"
 
-sudo -H -u betawiki "$DIRSCRIPT/wikiupdate" "$WIKI"
+"$DIRSCRIPT/wikiupdate" "$WIKIDIR"
 
 REV=$(git log --pretty="%h %ci (%cr)" -n 1)
 "$DIRSCRIPT/udpcast" "updated $WIKINAME to $REV"

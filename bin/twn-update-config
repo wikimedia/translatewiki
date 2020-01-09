@@ -1,6 +1,8 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
+. /etc/wikisettings
+
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
-sudo -u betawiki "$DIRSCRIPT/wikiupdate-repo" /home/betawiki/config
-sudo -u betawiki sudo /usr/sbin/service mw-jobrunner restart
+sudo -u "$REPOUSER" "$DIRSCRIPT/wikiupdate-repo" "$CONFDIR"
+sudo -u "$MAINTUSER" sudo /usr/sbin/service mw-jobrunner restart

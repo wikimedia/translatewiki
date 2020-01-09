@@ -1,6 +1,8 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
+. /etc/wikisettings
+
 if [ "$#" -gt "2" ]; then
 	echo "Only two parameters allowed for fuzzy:"
 	echo "\$1 is the message key (replace spaces by underscores; use a trailing /)"
@@ -8,5 +10,4 @@ if [ "$#" -gt "2" ]; then
 	exit
 fi
 
-cd /srv/mediawiki/targets/production/extensions/Translate/scripts
-php fuzzy.php --skiplanguages=en,test,qqq "$1" --really --comment="$2"
+php "$WIKIDIR/extensions/Translate/scripts/fuzzy.php" --skiplanguages=en,test,qqq "$1" --really --comment="$2"

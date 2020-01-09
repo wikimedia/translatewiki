@@ -7,10 +7,8 @@ DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 
 export GIT_SSH="$DIRSCRIPT/git-ssh-wrapper"
 
-LOG=/home/betawiki/logs/repo
 ME=$(basename "$0")
 COMMAND=${ME:4}
 PROJECT=$1
 
-echo "$(date --rfc-3339=seconds --utc) [$(whoami) at $DIR] $0 $*" >> "$LOG"
 php "$DIRSCRIPT/../repong/repong.php" "$COMMAND" "$PROJECT"

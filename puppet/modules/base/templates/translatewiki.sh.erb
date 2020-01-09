@@ -1,0 +1,8 @@
+# This file is managed by puppet
+if [ -z ${PATH-} ] ; then
+  export PATH=<%= @bin_dir %>
+elif ! echo ${PATH} | grep -q <%= @bin_dir %> ; then
+  export PATH=${PATH}:<%= @bin_dir %>
+fi
+
+alias b='sudo -E -u <%= @maintenance_user %>'

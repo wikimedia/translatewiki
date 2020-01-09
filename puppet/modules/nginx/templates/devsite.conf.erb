@@ -1,0 +1,60 @@
+# file managed by puppet
+
+server {
+	listen 80 default_server;
+	server_name <%= @domain %>;
+	return 301 https://$host$request_uri;
+}
+
+server {
+	listen 443 ssl default_server deferred http2;
+	server_name <%= @domain %>;
+	root /www/$host/docroot;
+
+	include includes/ssl-selfsigned.conf;
+
+	add_header Referrer-Policy no-referrer-when-downgrade;
+	add_header X-Xss-Protection "1; mode=block" always;
+
+	location = / {
+		rewrite ^ /w/index.php;
+	}
+
+	location ~ ^/wiki {
+		rewrite ^ /w/index.php;
+	}
+
+	location = /sitemap {
+		rewrite ^ "/w/index.php?title=Special:RecentChanges&translations=&feed=atom";
+	}
+
+	location ~ ^/w/(cache|mw-config|includes|maintenance|languages|docs)/ {
+		deny all;
+	}
+
+	# Allowed php files, case sensitive
+	location ~ ^/w/(index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php {
+		fastcgi_pass php;
+		fastcgi_buffering off;
+		fastcgi_buffers 16 16k;
+		fastcgi_connect_timeout 1s;
+		fastcgi_send_timeout 2s;
+		fastcgi_read_timeout 15s;
+		include fastcgi.conf;
+	}
+
+	# Deny access to all php files except those above
+	location ~* \.php$ {
+		deny all;
+	}
+
+	location ~* \.(png|jpg|jpeg|gif|ico|svg|woff|woff2|eot|ttf|webp)$ {
+		expires 2M;
+	}
+
+	error_page 500 502 503 504 /error.html;
+	location = /error.html {
+		root /www/<%= @domain %>/error;
+		internal;
+	}
+}

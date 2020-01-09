@@ -1,17 +1,17 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
-WIKI=/srv/mediawiki/targets/production
+. /etc/wikisettings
 
 edit_wiki () {
 	{
 		echo "Stats on ~~~~~"
 		echo "$2"
-	} | php "$WIKI/maintenance/edit.php" -u MaintenanceBot -b -s "Updating statistics" "$1"
+	} | php "$WIKIDIR/maintenance/edit.php" -u MaintenanceBot -b -s "Updating statistics" "$1"
 }
 
 get_group_stats () {
-	php "$WIKI/extensions/Translate/scripts/groupStatistics.php" --skipzero --skiplanguages=qqq --fuzzy --groups="$1"
+	php "$WIKIDIR/extensions/Translate/scripts/groupStatistics.php" --skipzero --skiplanguages=qqq --fuzzy --groups="$1"
 }
 
 edit_wiki "Translating:Encyclopedia of Life/stats" "$(get_group_stats eol)"
@@ -25,4 +25,4 @@ edit_wiki "Translating:Pywikibot/stats" "$(get_group_stats out-pywikipedia-0-all
 edit_wiki "Translating:Intuition/stats" "$(get_group_stats tsint-0-all)"
 edit_wiki "Translating:WikiBlame/stats/trunk" "$(get_group_stats wikiblame)"
 
-edit_wiki "Project:MediaWiki_localisation_in_the_50_most_spoken_languages" "$(php "$WIKI/extensions/Translate/scripts/groupStatistics.php" --most=wikimedia --speakers --continent --summary --legenddetail=Stats-legend-detail --legendsummary=Stats-legend-summary)"
+edit_wiki "Project:MediaWiki_localisation_in_the_50_most_spoken_languages" "$(php "$WIKIDIR/extensions/Translate/scripts/groupStatistics.php" --most=wikimedia --speakers --continent --summary --legenddetail=Stats-legend-detail --legendsummary=Stats-legend-summary)"
