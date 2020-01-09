@@ -11,10 +11,9 @@ class nginx::devsite (
     ensure  => 'directory',
   }
 
-  exec { 'dhparam':
-    command => '/usr/bin/openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048',
-    creates => '/etc/ssl/certs/dhparam.pem',
-    notify  => Service[ 'nginx' ],
+  file { '/etc/ssl/certs/dhparam.pem':
+    source => 'puppet:///modules/nginx/ffdhe2048.txt',
+    notify => Service[ 'nginx' ],
   }
 
   $dirs = [
