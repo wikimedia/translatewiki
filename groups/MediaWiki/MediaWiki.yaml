@@ -165,18 +165,15 @@ TAGS:
     - mediastatistics-nfiles
     - mergehistory-revisionrow
     - metadata-langitem
-    - metadata-langitem-default
     - minutes-abbrev
     - modern.css
     - modern.js
     - mw-widgets-dateinput-placeholder-day
     - mw-widgets-dateinput-placeholder-month
-    - nocookiesforlogin
     - noscript.css
     - ntimes
     - pageinfo-redirects-value
     - pagetitle
-    - pagetitle-view-mainpage
     - parentheses
     - parentheses-end
     - parentheses-start
@@ -421,6 +418,7 @@ TAGS:
     - markaspatrolledlink
     - mergehistory-redirect-text
     - mergehistory-warning-redirect-not-created
+    - metadata-langitem-default
     - mostcategories-summary
     - mostimages-summary
     - mostinterwikis-summary
@@ -441,6 +439,7 @@ TAGS:
     - newuserlog-create-entry
     - newuserlog-create2-entry
     - noarticletextanon
+    - nocookiesforlogin
     - number-of-watching-users-for-recent-changes
     - opensearch-desc
     - overwroteimage
@@ -451,6 +450,7 @@ TAGS:
     - pagehistory-summary
     - pagemerge-logentry
     - pageswithprop-summary
+    - pagetitle-view-mainpage
     - patrol-log-auto
     - patrol-log-diff
     - patrol-log-line
