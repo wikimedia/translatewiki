@@ -1576,7 +1576,7 @@ ignored = interwiki-defaulturl, logentry-interwiki-interwiki, interwiki-legend
 ignored = interwiki-description
 
 Interwiki Extracts
-magicfile = Interwiki Extracts/Interwiki Extracts.magic.php
+magicfile = InterwikiExtracts/InterwikiExtracts.magic.php
 
 Interwiki Sorting
 
