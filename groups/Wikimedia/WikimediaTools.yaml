@@ -115,6 +115,38 @@ FILES:
 
 ---
 BASIC:
+  id: wikimedia-tools-massmailer
+  label: MassMailer
+  description: "{{Special:MyLanguage/Translations:Group descriptions/massmailer/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: massmailer-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/massmailer/messages/%CODE%.json"
+
+VALIDATORS:
+  - id: InsertableRegex
+    params: /{[A-Za-z0-9_]+\}/
+    insertable: true
+    enforce: false
+
+INSERTABLES:
+  - class: RegexInsertablesSuggester
+    params:
+      regex: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
+      display: "$open$close"
+      pre: $open
+      post: $close
+
+---
+BASIC:
   id: wikimedia-tools-watch-translations
   label: WatchTranslations
   description: "{{Special:MyLanguage/Translations:Group descriptions/watch-translations/en}}"
