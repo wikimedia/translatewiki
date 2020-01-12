@@ -38,3 +38,8 @@ TAGS:
     - wikiedudashboard-article.views_added
     - wikiedudasbhoard-tasks.*
     - wikiedudashboard-timeout
+  optional:
+    - wikiedudashboard-courses.creator.assignment_start_placeholder
+    - wikiedudashboard-courses.creator.assignment_end_placeholder
+    - wikiedudashboard-courses.creator.start_date_placeholder
+    - wikiedudashboard-courses.creator.end_date_placeholder
