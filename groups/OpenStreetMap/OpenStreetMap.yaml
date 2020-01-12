@@ -73,6 +73,7 @@ TAGS:
     - browse.navigation.paging.user.next
     - browse.navigation.paging.user.prev
     - browse.relation_member.entry
+    - browse.relation_member.entry_html
     - changeset.changeset.id
     - geocoder.search_osm_nominatim.prefix_format
     - geocoder.search osm nominatim.prefix other
@@ -90,6 +91,7 @@ TAGS:
     - printable_name.with_name_html
     - printable_name.with_version
     - site.edit.anon_edits
+    - site.edit.anon_edits_html
     - time.formats.blog
     # Users may or may not want to translate the OSM wiki too
     - layouts.help_wiki_url
