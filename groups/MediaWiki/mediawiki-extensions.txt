@@ -2061,6 +2061,7 @@ OAuth
 aliasfile = OAuth/MWOAuth.alias.php
 descmsg = mwoauth-desc
 ignored = mwoauth-form-legal
+ignored = mwoauth-oauth-version-1, mwoauth-oauth-version-2, mwoauth-oauth2-error
 optional = oauth, mwoauth-listgrantrights-right-display
 
 OAuth Authentication
