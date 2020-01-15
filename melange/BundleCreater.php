@@ -25,69 +25,14 @@ class BundleCreater {
 	}
 
 	public function make_release() {
-		$this->clone_mediawiki();
-		$this->update_mediawiki();
 		$this->clone_extensions();
 		$this->update_extensions();
 		$this->checkout_release();
-		$this->install_mediawiki();
-		// Broken
-		// $this->run_tests();
 		$this->prepare_notes();
 		$this->create_tag();
 		$this->push_tag();
 		$this->create_archive();
 		$this->prepare_announcement();
-		// Needs some refactor
-		// $this->final_steps();
-	}
-
-	public function clone_mediawiki() {
-		chdir( $this->dir );
-		if ( file_exists( 'mediawiki' ) ) {
-			return;
-		}
-
-		$repo = escapeshellarg( $this->conf['common']['mediawikirepo'] );
-		$target = escapeshellarg( $mediawiki );
-		exec( "git clone $repo $target" );
-	}
-
-	public function install_mediawiki() {
-		$testconf = $this->conf['common']['testconfig'];
-
-		chdir( $this->dir );
-
-		exec( 'rm -rf db/' );
-		mkdir( 'db' );
-
-		chdir( 'mediawiki' );
-
-		unlink( 'LocalSettings.php' );
-		$install = escapeshellarg( "maintenance/install.php" );
-		$db = escapeshellarg( realpath( getcwd() . '/../db/' ) );
-
-		$params = '';
-		foreach ( $this->conf['install'] as $param => $val ) {
-			$params .= ' ' . escapeshellarg( "--$param" ) . '=' . escapeshellarg( $val );
-		}
-
-		exec( "php $install $params --dbpath $db melange WikiSysop" );
-
-		$handle = fopen( 'LocalSettings.php', 'a' );
-		fwrite( $handle, <<<PHP
-require_once( "\$IP/../$testconf" );
-PHP
-		);
-	}
-
-	public function update_mediawiki() {
-		chdir( $this->dir );
-		chdir( "mediawiki" );
-
-		exec( "git fetch --all --quiet" );
-		exec( "git merge origin" );
-		exec( "php maintenance/update.php --quick --quiet" );
 	}
 
 	public function clone_extensions() {
@@ -122,16 +67,6 @@ PHP
 
 			$checkout = escapeshellarg( $checkout );
 			exec( "git checkout $checkout --quiet" );
-		}
-	}
-
-	public function run_tests() {
-		chdir( $this->dir );
-		chdir( "mediawiki" );
-
-		$branches = explode( ' ', $this->conf['common']['branches'] );
-		foreach ( $branches as $branch ) {
-			exec( "git checkout $branch --quiet" );
 		}
 	}
 
