@@ -2706,7 +2706,7 @@ ignored = smoothgallery-pagetext
 Social Profile
 aliasfile = SocialProfile/SocialProfile.alias.php
 
-# Sofa // 2019-10-27: no i18n files
+Sofa
 
 Software Version
 ignored = softwareversion-wiki-link
