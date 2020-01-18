@@ -1401,8 +1401,8 @@ aliasfile = GoogleAnalyticsTopPages/GoogleAnalyticsTopPages.alias.php
 Google App Engine
 descmsg = gae-desc
 
-# Google Authenticator // 2018-09-27: Missing qqq
-# aliasfile = GoogleAuthenticator/GoogleAuthenticator.i18n.alias.php
+Google Authenticator
+aliasfile = GoogleAuthenticator/GoogleAuthenticator.i18n.alias.php
 
 Google Custom Wiki Search
 descmsg = gcws-desc
