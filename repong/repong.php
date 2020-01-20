@@ -359,7 +359,7 @@ class ExportCommand extends RepoNgCommand {
 			$jobOptions = [ 'lang' => '*' ] + $defaultOptions + [ 'skip' => 'en,qqq' ];
 			$command = $this->buildCommandline( $exporter, $jobOptions );
 			$process1 = new Process( $command );
-			$process1->setTimeout( 900 );
+			$process1->setTimeout( 300 );
 
 			$processes->attach( $process1 );
 
