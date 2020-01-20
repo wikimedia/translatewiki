@@ -26,12 +26,8 @@ $wgMWLoggerDefaultSpi = [
 	'args' => [ [
 		'loggers' => [
 			'@default' => [
-				'processors' => [],
-				'handlers' => [ 'blackhole' ],
-			],
-			'debug' => [
-				'processors' => [],
-				'handlers' => [ 'blackhole' ]
+				'processors' => [ 'psr' ],
+				'handlers' => [ 'default' ],
 			],
 			'error' => [
 				'processors' => [ 'psr' ],
@@ -62,6 +58,11 @@ $wgMWLoggerDefaultSpi = [
 			'mediawiki' => [
 				'class' => Monolog\Handler\StreamHandler::class,
 				'args' => [ "$LOGS/mediawiki" ],
+				'formatter' => 'line'
+			],
+			'default' => [
+				'class' => Monolog\Handler\StreamHandler::class,
+				'args' => [ "$LOGS/default" ],
 				'formatter' => 'line'
 			],
 			'blackhole' => [
