@@ -127,7 +127,7 @@ class wiki::workdir (
   }
 
   file { "${workdir}/LocalSettings.php":
-    ensure  => present, # do not override
+    ensure  => present,
     content => template('wiki/LocalSettings.php.erb'),
     owner   => $deployment_owner,
     group   => $deployment_group,
@@ -136,6 +136,7 @@ class wiki::workdir (
 
   file { "${deployment_dir}/CustomSettings.php":
     ensure  => present,
+    replace => 'no', # do not overwrite
     content => '',
     owner   => $deployment_owner,
     group   => $deployment_group,
