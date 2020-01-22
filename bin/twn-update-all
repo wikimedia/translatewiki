@@ -5,7 +5,7 @@ set -o nounset -o pipefail -o errexit
 
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 
-cd "$WIKIDIR"
+cd "$WORKDIR"
 REV=$(git log --pretty="%h %ci (%cr)" -n 1)
 "$DIRSCRIPT/udpcast" "updating $WIKINAME from $REV..."
 
@@ -13,7 +13,7 @@ CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Updating config ***"
 "$DIRSCRIPT/twn-update-config"
 
-"$DIRSCRIPT/wikiupdate" "$WIKIDIR"
+"$DIRSCRIPT/wikiupdate" "$WORKDIR"
 
 REV=$(git log --pretty="%h %ci (%cr)" -n 1)
 "$DIRSCRIPT/udpcast" "updated $WIKINAME to $REV"
