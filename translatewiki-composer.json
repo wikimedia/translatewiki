@@ -10,7 +10,8 @@
 			"include": [
 				"extensions/OATHAuth/composer.json",
 				"extensions/Elastica/composer.json",
-				"extensions/SyntaxHighlight_GeSHi/composer.json"
+				"extensions/SyntaxHighlight_GeSHi/composer.json",
+				"extensions/Translate/composer.json"
 			]
 		}
 	}
