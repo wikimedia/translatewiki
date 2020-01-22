@@ -215,8 +215,8 @@ $wgNoFollowDomainExceptions = [
 	'ultimategerardm.blogspot.com',
 ];
 
-require_once "$EXT/Translate/utils/lc.php";
 require_once __DIR__ . '/ExtensionSettings.php';
+require_once "$EXT/Translate/utils/lc.php";
 require_once __DIR__ . '/TranslateSettings.php';
 require_once __DIR__ . '/nikext.php';
 
