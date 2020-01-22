@@ -1,8 +1,8 @@
 # file managed by puppet
-PATH=<%= @config_dir %>/bin:$PATH
+PATH=<%= @config_dir %>/bin:/usr/local/bin:/bin:/usr/bin
 @monthly <%= @maintenance_user %> find /resources/caches/<%= @domain %>/ -maxdepth 1 -ctime +1000 -print0 | xargs -0 -I{} rm -rf -- "{}"
 @weekly <%= @maintenance_user %> nice php <%= @production_dir %>/maintenance/generateSitemap.php --fspath /www/<%= @domain %>/docroot/sitemap/ --skip-redirects --urlpath https://<%= @domain %>/sitemap/
 @weekly <%= @maintenance_user %> nice php <%= @production_dir %>/maintenance/updateSpecialPages.php -q
 30 */2 * * * <%= @maintenance_user %> autoimport > /dev/null
 48 7,13,21 * * * <%= @maintenance_user %> autoimport-mediawiki > /dev/null
-*/10 * * * * root test -z "$(/bin/systemctl status mw-jobrunner | grep running -o)" && <%= @config_dir %>/bin/udpcast JobQueue is not running
+*/10 * * * * root test -z "$(systemctl status mw-jobrunner | grep running -o)" && udpcast JobQueue is not running
