@@ -16,9 +16,6 @@ apt install -y git puppet-agent make librarian-puppet
 echo -e "\n\n\nDownloading configuration..."
 git clone https://gerrit.wikimedia.org/r/translatewiki
 cd translatewiki/puppet
-# XXX
-git fetch "https://gerrit.wikimedia.org/r/translatewiki" refs/changes/79/563179/9 && git checkout FETCH_HEAD
-# XXX
 
 hostnamectl set-hostname "$HOSTNAME"
 cp data/developer.yaml.example data/developer.yaml
@@ -31,9 +28,6 @@ make apply
 . /etc/profile
 echo -e "\n\n\nUpdating wiki..."
 cd /home/developer/translatewiki
-# XXX
-sudo -u developer git fetch "https://gerrit.wikimedia.org/r/translatewiki" refs/changes/79/563179/9 && sudo -u developer git checkout FETCH_HEAD
-# XXX
 twn-update-all
 # Fails halfway the first time due to checkuser
 twn-update-database || twn-update-database
