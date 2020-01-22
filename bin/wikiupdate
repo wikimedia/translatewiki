@@ -12,11 +12,11 @@ find "$WIKI" "$WIKI"/extensions/* "$WIKI"/skins/* -maxdepth 1 -type d -name .git
 	xargs -0 -n1 dirname |
 	xargs -n1 -P4 sudo -H -u "$REPOUSER" "$DIRSCRIPT/wikiupdate-repo"
 
-composer -n -d"$WIKI" update
+sudo -u "$REPOUSER" composer -n -d"$WIKI" update
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Rebuilding caches ***"
-nice php "$WIKI/maintenance/rebuildLocalisationCache.php" --threads 6 --quiet
+sudo -u "$MAINTUSER" nice php "$WIKI/maintenance/rebuildLocalisationCache.php" --threads 6 --quiet
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: All done ***"
