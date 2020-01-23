@@ -75,7 +75,7 @@ users::users:
     comment: Kartik Mistry
   abi:
     uid: 1024
-    groups: [ betawiki, www-shared, l10n-bot ]
+    groups: [ betawiki, www-shared, l10n-bot, sysadmin ]
     purge_ssh_keys: true
     comment: Abijeet Patro
 
