@@ -21,7 +21,7 @@ class BundleCreater {
 	}
 
 	public function reset() {
-		exec( 'rm -rf extensions/ mediawiki/ db/' );
+		exec( 'rm -rf extensions/' );
 	}
 
 	public function make_release() {
