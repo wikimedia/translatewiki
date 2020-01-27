@@ -1,7 +1,7 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
-. /etc/wikipaths
+. /etc/wikisettings
 
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 SCRIPT="$WIKIDIR/extensions/Translate/scripts/processMessageChanges.php"
