@@ -405,6 +405,10 @@ mwgithub:
       type: github
       url: https://github.com/oetterer/BootstrapComponents.git
       url|export: git@github.com:oetterer/BootstrapComponents.git
+    mwgithub/ProfessionalWiki/IdGenerator:
+      type: github
+      url: https://github.com/ProfessionalWiki/IdGenerator.git
+      url|export: git@github.com:ProfessionalWiki/IdGenerator.git
     mwgithub/ProfessionalWiki/ModernTimeline:
       type: github
       url: https://github.com/ProfessionalWiki/ModernTimeline.git

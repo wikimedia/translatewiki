@@ -34,7 +34,19 @@ FILES:
 TAGS:
   ignored:
     - bootstrap-components-tracking-category
+---
+BASIC:
+  id: mwgithub-id-generator
+  label: ID Generator
+  description: "{{Special:MyLanguage/MediaWiki:Id-generator-desc/en}}"
 
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/IdGenerator/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - id-generator-name
 ---
 BASIC:
   id: mwgithub-mermaid
