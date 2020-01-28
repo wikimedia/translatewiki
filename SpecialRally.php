@@ -99,7 +99,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 				$conds = [
 					"rc_timestamp >= 20150516200000",
 					"rc_timestamp <= 20150525235959",
-					'rc_new' => 1,
+					'rc_source' => RecentChange::SRC_NEW,
 					'rc_bot' => 0,
 					'rc_namespace IN ( 8, 1198, 1206, 1238, 1240, 1244, 1248, 1252 )',
 					'rc_cur_id = page_id'
@@ -226,7 +226,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 			$conds = [
 				"rc_timestamp >= 20150516200000",
 				"rc_timestamp <= 20150525235959",
-				'rc_new' => 1,
+				'rc_source' => RecentChange::SRC_NEW,
 				'rc_bot' => 0,
 				'rc_namespace IN ( 8, 1198, 1206, 1238, 1240, 1244, 1248, 1252 )',
 				'rc_user' => $user->getId(),
