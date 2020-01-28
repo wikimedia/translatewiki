@@ -6,7 +6,7 @@ set -o errexit -o nounset -o pipefail
 MESSAGEGROUPS=(
 	core-0-mostused
 	core
-	ext-0-wikimedia-main
+	wikimedia-main
 	ext-0-wikimedia
 	ext-0-all
 	ext-translate-0-all

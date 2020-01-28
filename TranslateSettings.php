@@ -76,6 +76,7 @@ $wgTranslateGroupAliases['ext-semantictasks'] = 'mwgithub-semantictasks';
 $wgTranslateGroupAliases['ext-translate-0-all'] = 'ext-translate';
 $wgTranslateGroupAliases['ext-universallanguageselector-0-all'] = 'ext-universallanguageselector';
 $wgTranslateGroupAliases['ext-visualeditor-0-all'] = 'ext-visualeditor';
+$wgTranslateGroupAliases['ext-0-wikimedia-main'] = 'wikimedia-main';
 
 $wgTranslateGroupFiles[] = "$GROUPS/PageTranslationAgg.yaml";
 

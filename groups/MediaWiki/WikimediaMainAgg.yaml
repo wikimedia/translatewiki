@@ -1,5 +1,5 @@
 BASIC:
-  id: ext-0-wikimedia-main
+  id: wikimedia-main
   label: Extensions used by Wikimedia - Main
   icon: wiki://Mediawiki-logo.png
   meta: yes

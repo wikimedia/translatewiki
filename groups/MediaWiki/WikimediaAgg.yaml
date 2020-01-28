@@ -8,7 +8,7 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS: # See Wikimedia*Agg.yaml. Do not duplicate group names!
-  - ext-0-wikimedia-main
+  - wikimedia-main
   - wikimedia-advanced
   - wikimedia-fundraising
   - wikimedia-legacy
