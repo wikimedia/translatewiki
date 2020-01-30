@@ -17,14 +17,23 @@ MANGLER:
   patterns:
     - "*"
 
-CHECKER:
-  class: WPLMessageChecker
-  checks:
-    - WPLVariablesCheck
+VALIDATORS:
+  # Variables: {url}
+  - id: InsertableRegex
+    insertable: true
+    params: /\{[^|} ]+\}/
+  # Variables: %(parent_url)s
+  - id: InsertableRegex
+    insertable: true
+    params: /%\([^)]+\)s/
+  - id: GettextPlural
 
 INSERTABLES:
-  class: WPLInsertablesSuggester
+  # HTML tags
+  - class: RegexInsertablesSuggester
+    params:
+      regex: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
+      display: "$open$close"
+      pre: $open
+      post: $close
 
-AUTOLOAD:
-  WPLMessageChecker: WikipediaLibraryChecker.php
-  WPLInsertablesSuggester: WikipediaLibrarySuggester.php
