@@ -26,17 +26,10 @@ TEMPLATE:
       ug-arab: ug
       zh-hans: zh
 
-  CHECKER:
-    class: MessageChecker
-    checks:
-      - pythonInterpolationCheck
-      - braceBalanceCheck
-
-  INSERTABLES:
-    class: PywikibotInsertablesSuggester
-
-  AUTOLOAD:
-    PywikibotInsertablesSuggester: Suggester.php
+  VALIDATORS:
+    - id: BraceBalance
+    - id: PythonInterpolation
+      insertable: true
 
   LANGUAGES:
     blacklist:
