@@ -2636,7 +2636,7 @@ Sentry
 
 # Shared Help Pages / very ShoutWiki-specific
 
-# Shibboleth // 2019-04-14: missing qqq, inconsistent message prefix
+# Shibboleth // 2020-01-18: Pending review https://gerrit.wikimedia.org/r/#/c/mediawiki/extensions/Shibboleth/+/565729/
 
 Short Url
 aliasfile = ShortUrl/ShortUrl.alias.php
@@ -2869,6 +2869,7 @@ magicfile = TimedMediaHandler/i18n/TimedMediaHandler.i18n.magic.php
 aliasfile = TimedMediaHandler/i18n/TimedMediaHandler.i18n.alias.php
 optional = timedmedia-ogg, timedmedia-webm, timedmedia-wav
 optional = timedmedia-mp4, timedmedia-flac
+optional = timedmedia-mp3, timedmedia-mpeg
 optional = timedmedia-derivative-160p.ogv, timedmedia-derivative-240p.ogv, timedmedia-derivative-360p.ogv
 optional = timedmedia-derivative-480p.ogv, timedmedia-derivative-720p.ogv
 optional = timedmedia-derivative-480p.webm, timedmedia-derivative-720p.webm
