@@ -73,8 +73,8 @@ class MediaWikiTopMessageGroup extends MessageGroupOld {
 		return $this->getParentGroup()->getMessage( $key, $code );
 	}
 
-	public function getChecker() {
-		return $this->getParentGroup()->getChecker();
+	public function getValidators() {
+		return $this->getParentGroup()->getValidators();
 	}
 
 	public function getInsertablesSuggester() {

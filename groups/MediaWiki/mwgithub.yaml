@@ -7,16 +7,13 @@ TEMPLATE:
   FILES:
     class: JsonFFS
 
-  CHECKER:
-    class: MediaWikiMessageChecker
-    checks:
-      - pluralCheck
-      - pluralFormsCheck
-      - wikiParameterCheck
-      - wikiLinksCheck
-      - braceBalanceCheck
-      - pagenameMessagesCheck
-      - miscMWChecks
+  VALIDATORS:
+    - id: BraceBalance
+    - id: MediaWikiMisc
+    - id: MediaWikiPageName
+    - id: MediaWikiPlural
+    - id: WikiLink
+    - id: WikiParameter
 
   INSERTABLES:
     class: MediaWikiInsertablesSuggester
