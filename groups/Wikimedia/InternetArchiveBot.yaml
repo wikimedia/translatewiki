@@ -17,14 +17,12 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/internetarchivebot/IABot/www/i18n/%CODE%.json"
 
-AUTOLOAD:
-  InternetArchiveBotChecker: InternetArchiveBotChecker.php
-  InternetArchiveBotSuggester: InternetArchiveBotSuggester.php
-
-CHECKER:
-  class: InternetArchiveBotChecker
-  checks:
-    - variablesCheck
+VALIDATORS:
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    param: /{{[a-zA-Z_]+}}/
 
 INSERTABLES:
-  class: InternetArchiveBotSuggester
+  - class: RegexInsertablesSuggester
+    params: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
