@@ -16,17 +16,20 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/citationhunt/chstrings/%CODE%.json"
 
-CHECKER:
-  class: MessageChecker
-  checks:
-    - printfCheck
+VALIDATORS:
+  - id: Printf
+    insertable: true
+    # {link_end}
+  - id: InsertableRegex
+    insertable: true
+    params: /{[a-zA-Z_]+}/
+  - id: MediaWikiPlural
+
+INSERTABLES:
+  # HTML entities
+  - class: RegexInsertablesSuggester
+    params: '/&#?\w+;/'
 
 TAGS:
   optional:
     - citationhunt-tooltitle
-
-INSERTABLES:
-  class: CitationHuntInsertablesSuggester
-
-AUTOLOAD:
-  CitationHuntInsertablesSuggester: CitationHuntInsertablesSuggester.php
