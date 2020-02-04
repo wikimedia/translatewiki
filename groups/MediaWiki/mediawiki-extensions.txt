@@ -38,6 +38,8 @@ Abuse Filter - API
 id = ext-abusefilter-api
 file = AbuseFilter/i18n/api/%CODE%.json
 
+Abuse Filter Bypass
+
 Access Control
 ignored = accesscontrol-move-anonymous, accesscontrol-move-users, accesscontrol-redirect-anonymous
 ignored = accesscontrol-redirect-users, accesscontrol-actions-deny
