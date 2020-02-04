@@ -12,22 +12,20 @@ FILES:
   keySeparator: ":"
   sourcePattern: "%GROUPROOT%/fudforum/%CODE%/msg"
 
-CHECKER:
-  class: FUDforumMessageChecker
-  checks:
-    - FUDforumSyntaxCheck
-    - FUDforumVariablesCheck
-    - FUDforumLongVariablesCheck
-    - braceBalanceCheck
-
-INSERTABLES:
-  classes:
-    - NumericalParameterInsertablesSuggester
-    - FudForumSuggester
+VALIDATORS:
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    params: /\$[1-9]/
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    params: '/{(?:VAR|GVAR|TEMPLATE|VAR-HTML|FUNC): [^}]+}/'
+  - class: FUDforumValidator
+    enforce: true
 
 AUTOLOAD:
-  FUDforumMessageChecker: Checker.php
-  FudForumSuggester: Suggester.php
+  FUDforumValidator: Validator.php
 
 TAGS:
   optional:
