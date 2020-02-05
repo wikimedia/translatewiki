@@ -60,8 +60,8 @@ $wgEnableCanonicalServerLink = true;
 $wgEmergencyContact = 'translatewiki@translatewiki.net';
 $wgPasswordSender = 'noreply@translatewiki.net';
 
-$wgLogo = "https://translatewiki.net/static/logo.png";
-$wgLogoHD = [
+$wgLogos = [
+	'1x'  => 'https://translatewiki.net/static/logo.png',
 	'svg' => 'https://translatewiki.net/static/logo.svg',
 ];
 
