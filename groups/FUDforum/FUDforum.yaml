@@ -24,6 +24,11 @@ VALIDATORS:
   - class: FUDforumValidator
     enforce: true
 
+INSERTABLES:
+  # HTML entities
+  - class: RegexInsertablesSuggester
+    params: '/&#?\w+;/'
+
 AUTOLOAD:
   FUDforumValidator: Validator.php
 
