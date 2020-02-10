@@ -21,7 +21,7 @@ VALIDATORS:
   - id: InsertableRegex
     enforce: true
     insertable: true
-    param: /{{[a-zA-Z_]+}}/
+    params: /{{[a-zA-Z_]+}}/
 
 INSERTABLES:
   - class: RegexInsertablesSuggester
