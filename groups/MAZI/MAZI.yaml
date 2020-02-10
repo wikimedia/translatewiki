@@ -21,3 +21,4 @@ MANGLER:
 VALIDATORS:
   - id: InsertableRubyVariable
     enforce: true
+    insertable: true
