@@ -17,8 +17,19 @@ FILES:
     zh-hans: zh
     zh-hant: zh-Hant
 
-INSERTABLES:
-  class: LibReviewsInsertablesSuggester
+VALIDATORS:
+  - id: Printf
+    insertable: true
+  - id: UnicodePlural
 
-AUTOLOAD:
-  LibReviewsInsertablesSuggester: LibReviewsInsertablesSuggester.php
+INSERTABLES:
+  # HTML tags
+  - class: RegexInsertablesSuggester
+    params:
+      regex: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
+      display: "$open$close"
+      pre: $open
+      post: $close
+  # HTML entities
+  - class: RegexInsertablesSuggester
+    params: '/&#?\w+;/'
