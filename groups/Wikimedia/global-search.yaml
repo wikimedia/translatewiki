@@ -22,13 +22,10 @@ TAGS:
     - global-search-json
     - global-search-tsv
 
-CHECKER:
-  class: MediaWikiMessageChecker
-  checks:
-    - wikiParameterCheck
-    - braceBalanceCheck
-    - pluralCheck
-    - pluralFormsCheck
+VALIDATORS:
+  - id: BraceBalance
+  - id: MediaWikiPlural
+  - id: WikiParameter
 
 INSERTABLES:
-  class: MediaWikiInsertablesSuggester
+  - class: MediaWikiInsertablesSuggester

@@ -30,14 +30,11 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/wiki-ai/wikilabels/wikilabels/i18n/%CODE%.json"
 
-CHECKER:
-  class: MediaWikiMessageChecker
-  checks:
-    - wikiParameterCheck
+VALIDATORS:
+  - id: WikiParameter
 
 INSERTABLES:
-  class: MediaWikiInsertablesSuggester
-
+  - class: MediaWikiInsertablesSuggester
 ---
 BASIC:
   id: wiki-ai-wikilabels-form-dagf

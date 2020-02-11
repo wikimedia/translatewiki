@@ -22,11 +22,10 @@ TAGS:
     - grant-metrics-num-abbrev-million
     - grant-metrics-num-abbrev-thousand
 
-CHECKER:
-  class: MediaWikiMessageChecker
-  checks:
-    - wikiParameterCheck
-    - braceBalanceCheck
+VALIDATORS:
+  - id: BraceBalance
+  - id: MediaWikiPlural
+  - id: WikiParameter
 
 INSERTABLES:
-  class: MediaWikiInsertablesSuggester
+  - class: MediaWikiInsertablesSuggester

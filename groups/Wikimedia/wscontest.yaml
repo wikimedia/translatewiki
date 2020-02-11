@@ -15,11 +15,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/wscontest/lang/%CODE%.json"
 
-CHECKER:
-  class: MediaWikiMessageChecker
-  checks:
-    - wikiParameterCheck
-    - braceBalanceCheck
+VALIDATORS:
+  - id: BraceBalance
+  - id: MediaWikiPlural
+  - id: WikiParameter
 
 INSERTABLES:
-  class: MediaWikiInsertablesSuggester
+  - class: MediaWikiInsertablesSuggester

@@ -16,11 +16,9 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/proveit/i18n/%CODE%.json"
 
-CHECKER:
-  class: MediaWikiMessageChecker
-  checks:
-    - wikiParameterCheck
-    - pluralCheck
+VALIDATORS:
+  - id: MediaWikiPlural
+  - id: WikiParameter
 
 INSERTABLES:
-  class: MediaWikiInsertablesSuggester
+  - class: MediaWikiInsertablesSuggester

@@ -23,11 +23,10 @@ TAGS:
     - pageviews-png
     - pageviews-comma-character
 
-CHECKER:
-  class: MediaWikiMessageChecker
-  checks:
-    - wikiParameterCheck
-    - braceBalanceCheck
+VALIDATORS:
+  - id: BraceBalance
+  - id: MediaWikiPlural
+  - id: WikiParameter
 
 INSERTABLES:
-  class: MediaWikiInsertablesSuggester
+  - class: MediaWikiInsertablesSuggester

@@ -15,11 +15,9 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/svgtranslate/i18n/%CODE%.json"
 
-CHECKER:
-  class: MediaWikiMessageChecker
-  checks:
-    - wikiParameterCheck
-    - braceBalanceCheck
+VALIDATORS:
+  - id: BraceBalance
+  - id: WikiParameter
 
 INSERTABLES:
-  class: MediaWikiInsertablesSuggester
+  - class: MediaWikiInsertablesSuggester
