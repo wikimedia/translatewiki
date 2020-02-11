@@ -16,6 +16,13 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/commons-mass-description/messages/%CODE%.json"
 
+INSERTABLES:
+  - class: RegexInsertablesSuggester
+    params:
+      regex: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
+      display: "$open$close"
+      pre: $open
+      post: $close
 ---
 BASIC:
   id: wikimedia-tools-crosswatch
@@ -35,17 +42,15 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/crosswatch/frontend/src/i18n/%CODE%.json"
 
-CHECKER:
-  class: CrosswatchMessageChecker
-  checks:
-    - CrosswatchVariablesCheck
-
-INSERTABLES:
-  class: CrosswatchInsertablesSuggester
-
-AUTOLOAD:
-  CrosswatchMessageChecker: crosswatchChecker.php
-  CrosswatchInsertablesSuggester: crosswatchSuggester.php
+VALIDATORS:
+  # Example: <user>, <user name={{title}}>
+  - id: InsertableRegex
+    insertable: true
+    params: /<\/?[a-zA-Z={}\s_|]+>/
+  # Example: {{number}} or {{flags|list}}
+  - id: InsertableRegex
+    insertable: true
+    params: /{{[a-zA-Z_\|]+}}/
 
 ---
 BASIC:
@@ -69,7 +74,7 @@ TAGS:
     - guc-title
 
 INSERTABLES:
-  class: NumericalParameterInsertablesSuggester
+  - class: NumericalParameterInsertablesSuggester
 
 ---
 BASIC:
@@ -93,7 +98,7 @@ TAGS:
     - monumentsapi-title
 
 INSERTABLES:
-  class: NumericalParameterInsertablesSuggester
+  - class: NumericalParameterInsertablesSuggester
 
 ---
 BASIC:
@@ -163,6 +168,15 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/watch-translations/messages/%CODE%.json"
 
+INSERTABLES:
+  # HTML tag insertable
+  - class: RegexInsertablesSuggester
+    params:
+      regex: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
+      display: "$open$close"
+      pre: $open
+      post: $close
+
 ---
 BASIC:
   id: wikimedia-tools-weapon-of-mass-description
@@ -180,6 +194,15 @@ MANGLER:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/weapon-of-mass-description/messages/%CODE%.json"
+
+INSERTABLES:
+  # HTML tag insertable
+  - class: RegexInsertablesSuggester
+    params:
+      regex: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
+      display: "$open$close"
+      pre: $open
+      post: $close
 
 ---
 BASIC:
