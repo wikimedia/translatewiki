@@ -34,16 +34,18 @@ TEMPLATE:
     patterns:
       - "*"
 
-  CHECKER:
-    class: MessageChecker
-    checks:
-      - printfCheck
+  VALIDATORS:
+    - id: Printf
+      insertable: true
 
   INSERTABLES:
-    class: WikimediaMobileAndroidInsertablesSuggester
-
-  AUTOLOAD:
-    WikimediaMobileAndroidInsertablesSuggester: WikimediaMobileAndroidSuggester.php
+    # For HTML tags
+    - class: RegexInsertablesSuggester
+      params:
+        regex: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
+        display: "$open$close"
+        pre: $open
+        post: $close
 
 ---
 BASIC:
