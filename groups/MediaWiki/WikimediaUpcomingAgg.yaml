@@ -12,6 +12,7 @@ GROUPS:
   - ext-collaborationkit # https://phabricator.wikimedia.org/rOMWC54f5e751579cf7f715851bb89de538a28134668e
   - ext-discussiontools # https://phabricator.wikimedia.org/rOMWCdb2cc6121bf168f043b2a6973069232e5b415b67
   - ext-dynamicsidebar # Deployed but unused
+  - ext-eventstreamconfig # https://phabricator.wikimedia.org/rOMWCfbebadd6147aa7e10dc7fee1615617fb5125ca3f
   - ext-growthexperiments-user # https://phabricator.wikimedia.org/rOMWC4404977a5f10c4e0d6651b1f2dc76b93c0b2eeb6
   - ext-growthexperiments-welcomesurvey
   - ext-growthexperiments-helppanel

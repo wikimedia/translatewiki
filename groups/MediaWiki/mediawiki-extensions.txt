@@ -1098,6 +1098,8 @@ file = EventLogging/i18n/core/%CODE%.json
 Event Logging - Json Schema
 file = EventLogging/i18n/jsonschema/%CODE%.json
 
+Event Stream Config
+
 Ext Tab
 file = ExtTab/languages/i18n/%CODE%.json
 
