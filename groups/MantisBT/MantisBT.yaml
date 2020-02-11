@@ -115,11 +115,19 @@ TEMPLATE:
        * **********************************************************************
        */
 
-  CHECKER:
-    class: MessageChecker
-    checks:
-      - printfCheck
-      - braceBalanceCheck
+  VALIDATORS:
+    - id: BraceBalance
+    - id: Printf
+      insertable: true
+
+  INSERTABLES:
+    # HTML tags
+    - class: RegexInsertablesSuggester
+      params:
+        regex: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
+        display: "$open$close"
+        pre: $open
+        post: $close
 
 ---
 BASIC:
@@ -186,9 +194,3 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/mantis/plugins/XmlImportExport/lang/strings_%CODE%.txt"
-
-INSERTABLES:
-  class: MantisBTInsertablesSuggester
-
-AUTOLOAD:
-  MantisBTInsertablesSuggester: MantisBTInsertablesSuggester.php
