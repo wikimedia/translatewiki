@@ -16,11 +16,9 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/recommendation-api/recommendation/web/static/i18n/%CODE%.json"
 
-CHECKER:
-  class: MediaWikiMessageChecker
-  checks:
-    - wikiParameterCheck
-    - pluralCheck
+VALIDATORS:
+  - id: WikiParameter
+  - id: MediaWikiPlural
 
 INSERTABLES:
-  class: MediaWikiInsertablesSuggester
+  - class: MediaWikiInsertablesSuggester
