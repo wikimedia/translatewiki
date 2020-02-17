@@ -33,6 +33,18 @@ $wgMWLoggerDefaultSpi = [
 				'processors' => [ 'psr' ],
 				'handlers' => [ 'mediawiki-error' ]
 			],
+			'exception' => [
+				'processors' => [ 'psr' ],
+				'handlers' => [ 'mediawiki-error' ]
+			],
+			'fatal' => [
+				'processors' => [ 'psr' ],
+				'handlers' => [ 'mediawiki-error' ]
+			],
+			'DeferredUpdates' => [
+				'processors' => [ 'psr' ],
+				'handlers' => [ 'mediawiki-error' ]
+			],
 			'translation-exports' => [
 				'processors' => [ 'psr' ],
 				'handlers' => [ 'mediawiki' ]
