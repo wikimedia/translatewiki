@@ -3,7 +3,7 @@
 		"mediawiki/maps": "^5",
 		"mediawiki/page-forms": "^4.6",
 		"mediawiki/semantic-media-wiki": "^3.1",
-		"romaricdrigon/metayaml": "~1.0"
+		"romaricdrigon/metayaml": "dev-master#1481b99679b29cbb50c88f3e10e4951ac64b8ad3"
 	},
 	"extra": {
 		"merge-plugin": {
