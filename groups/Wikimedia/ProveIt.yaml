@@ -15,10 +15,3 @@ MANGLER:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/proveit/i18n/%CODE%.json"
-
-VALIDATORS:
-  - id: MediaWikiPlural
-  - id: WikiParameter
-
-INSERTABLES:
-  - class: MediaWikiInsertablesSuggester
