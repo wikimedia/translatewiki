@@ -1697,6 +1697,9 @@ aliasfile = LifeWeb/LifeWeb.alias.php
 Lingo
 magicfile = Lingo/src/Lingo.i18n.magic.php
 
+Link_Attributes
+descmsg = linkattributes-desc
+
 Link Filter
 optional = linkfilter-url
 optional = group-linkadmin.css, group-linkadmin.js
