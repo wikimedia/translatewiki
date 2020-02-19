@@ -2643,7 +2643,7 @@ Sentry
 
 # Shared Help Pages / very ShoutWiki-specific
 
-# Shibboleth // 2020-01-18: Pending review https://gerrit.wikimedia.org/r/#/c/mediawiki/extensions/Shibboleth/+/565729/
+Shibboleth
 
 Short Url
 aliasfile = ShortUrl/ShortUrl.alias.php
