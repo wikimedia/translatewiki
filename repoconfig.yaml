@@ -401,6 +401,10 @@ mwgithub:
       type: github
       url: https://github.com/Nikerabbit/mediawiki-extensions-FinnFrameNet.git
       url|export: git@github.com:Nikerabbit/mediawiki-extensions-FinnFrameNet.git
+    mwgithub/Nikerabbit/mediawiki-extensions-Lud:
+      type: github
+      url: https://github.com/Nikerabbit/mediawiki-extensions-Lud.git
+      url|export: git@github.com:Nikerabbit/mediawiki-extensions-Lud.git
     mwgithub/oetterer/BootstrapComponents:
       type: github
       url: https://github.com/oetterer/BootstrapComponents.git
