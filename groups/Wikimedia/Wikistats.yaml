@@ -1,0 +1,24 @@
+BASIC:
+  id: wikistats
+  label: Wikistats 2.0
+  icon: wiki://WMF_Analytics_-_Ring_Logo.svg
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikistats/en}}"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikistats-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikistats/src/i18n/%CODE%.json"
+
+VALIDATORS:
+  # Variables: {fooBar}
+  - id: InsertableRegex
+    insertable: true
+    params: /\{[^|} ]+\}/
+  - id: BraceBalance

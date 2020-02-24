@@ -815,6 +815,14 @@ wikisource:
       url: https://github.com/wikisource/wscontest.git
       url|export: git@github.com:wikisource/wscontest.git
 
+wikistats:
+  group: wikistats
+  repos:
+    wikistats:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/analytics/wikistats2
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/analytics/wikistats2
+
 wmcz-tracker:
   group: wmcz-tracker-*
   auto-merge: wikimedia-cz/tracker
