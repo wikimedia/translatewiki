@@ -943,6 +943,7 @@ magicfile = Disambiguator/Disambiguator.i18n.magic.php
 Discussion Threading
 
 Discussion Tools
+ignored = tag-discussiontools
 optional =  discussiontools-preference-info-link, discussiontools-preference-discussion-link
 
 Display Title
