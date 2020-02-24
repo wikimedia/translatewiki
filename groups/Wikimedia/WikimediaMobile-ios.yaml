@@ -11,7 +11,7 @@ TEMPLATE:
       - "*"
 
   INSERTABLES:
-    class: MediaWikiInsertablesSuggester
+    - class: MediaWikiInsertablesSuggester
 
 ---
 BASIC:

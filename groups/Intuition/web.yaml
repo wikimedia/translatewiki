@@ -20,4 +20,4 @@ TAGS:
     - web-title
 
 INSERTABLES:
-  class: NumericalParameterInsertablesSuggester
+  - class: NumericalParameterInsertablesSuggester

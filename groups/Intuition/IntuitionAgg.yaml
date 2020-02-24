@@ -12,4 +12,4 @@ GROUPS:
   - int-*
 
 INSERTABLES:
-  class: NumericalParameterInsertablesSuggester
+  - class: NumericalParameterInsertablesSuggester

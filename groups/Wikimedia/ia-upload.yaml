@@ -17,4 +17,4 @@ FILES:
   sourcePattern: "%GROUPROOT%/ia-upload/i18n/%CODE%.json"
 
 INSERTABLES:
-  class: MediaWikiInsertablesSuggester
+  - class: MediaWikiInsertablesSuggester

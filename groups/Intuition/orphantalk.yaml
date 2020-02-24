@@ -16,4 +16,4 @@ FILES:
   sourcePattern: "%GROUPROOT%/int-orphantalk/messages/%CODE%.json"
 
 INSERTABLES:
-  class: NumericalParameterInsertablesSuggester
+  - class: NumericalParameterInsertablesSuggester

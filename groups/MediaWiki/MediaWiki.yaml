@@ -12,7 +12,7 @@ TEMPLATE:
     - id: WikiParameter
 
   INSERTABLES:
-    class: MediaWikiInsertablesSuggester
+    - class: MediaWikiInsertablesSuggester
 
 ---
 BASIC:

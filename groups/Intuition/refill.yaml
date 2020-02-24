@@ -24,4 +24,4 @@ TAGS:
     - refill-wikitext-template-*
 
 INSERTABLES:
-  class: NumericalParameterInsertablesSuggester
+  - class: NumericalParameterInsertablesSuggester

@@ -18,4 +18,4 @@ FILES:
   sourcePattern: "%GROUPROOT%/copypatrol/public_html/i18n/%CODE%.json"
 
 INSERTABLES:
-  class: NumericalParameterInsertablesSuggester
+  - class: NumericalParameterInsertablesSuggester

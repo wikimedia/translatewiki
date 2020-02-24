@@ -20,4 +20,4 @@ TAGS:
     - raun-ns*
 
 INSERTABLES:
-  class: NumericalParameterInsertablesSuggester
+  - class: NumericalParameterInsertablesSuggester
