@@ -9,6 +9,7 @@ $wgGroupPermissions[ 'user'          ][ 'move-rootuserpages'      ] = false;
 $wgGroupPermissions[ 'user'          ][ 'movefile'                ] = false;
 $wgGroupPermissions[ 'user'          ][ 'move-categorypages'      ] = false;
 $wgGroupPermissions[ 'user'          ][ 'createclass'             ] = false;
+$wgGroupPermissions[ 'user'          ][ 'multipageedit'           ] = false;
 
 $wgGroupPermissions[ 'autoconfirmed' ][ 'sendemail'               ] = true;
 
