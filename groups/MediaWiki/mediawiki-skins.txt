@@ -57,7 +57,7 @@ optional = metrolook.css, metrolook.js
 
 MinervaNeue
 ignored = mobile-frontend-footer-sitename
-optional = skinname-minerva
+optional = skinname-minerva, minerva.css, minerva.js
 
 Modern
 optional = modern.css, modern.js
