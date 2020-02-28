@@ -687,6 +687,10 @@ id = ext-checkuser-api
 file = CheckUser/i18n/api/%CODE%.json
 
 Chess Browser
+optional = chessbrowser-first-rank, chessbrowser-second-rank, chessbrowser-third-rank, chessbrowser-fourth-rank
+optional = chessbrowser-fifth-rank, chessbrowser-sixth-rank, chessbrowser-seventh-rank, chessbrowser-eighth-rank
+optional = chessbrowser-a-file, chessbrowser-b-file, chessbrowser-c-file, chessbrowser-d-file
+optional = chessbrowser-e-file, chessbrowser-f-file, chessbrowser-g-file, chessbrowser-h-file
 
 Cirrus Search - User interface
 id = ext-cirrussearch-user
