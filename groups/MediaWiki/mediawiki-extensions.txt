@@ -1850,6 +1850,8 @@ aliasfile = MathSearch/MathSearch.alias.php
 
 Media Functions
 
+Media Moderation
+
 MediaWiki Auth
 descmsg = mwa-desc
 
