@@ -27,5 +27,5 @@ BASIC:
 FILES:
   sourcePattern: "%GROUPROOT%/wikidata/query/gui/i18n/%CODE%.json"
 
-INSERTABLES:
-  - class: NumericalParameterInsertablesSuggester
+VALIDATORS:
+  - id: NumericalParameter

@@ -19,5 +19,5 @@ TAGS:
   ignored:
     - raun-ns*
 
-INSERTABLES:
-  - class: NumericalParameterInsertablesSuggester
+VALIDATORS:
+  - id: NumericalParameter

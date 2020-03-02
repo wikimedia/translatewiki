@@ -15,5 +15,5 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/int-orphantalk/messages/%CODE%.json"
 
-INSERTABLES:
-  - class: NumericalParameterInsertablesSuggester
+VALIDATORS:
+  - id: NumericalParameter

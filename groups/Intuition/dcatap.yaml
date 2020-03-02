@@ -15,5 +15,5 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/int-dcatap/i18n/%CODE%.json"
 
-INSERTABLES:
-  - class: NumericalParameterInsertablesSuggester
+VALIDATORS:
+  - id: NumericalParameter

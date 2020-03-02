@@ -23,5 +23,5 @@ TAGS:
     - refill-wikitext-parameter-*
     - refill-wikitext-template-*
 
-INSERTABLES:
-  - class: NumericalParameterInsertablesSuggester
+VALIDATORS:
+  - id: NumericalParameter

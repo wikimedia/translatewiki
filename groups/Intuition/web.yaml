@@ -19,5 +19,5 @@ TAGS:
   optional:
     - web-title
 
-INSERTABLES:
-  - class: NumericalParameterInsertablesSuggester
+VALIDATORS:
+  - id: NumericalParameter

@@ -69,8 +69,8 @@ TAGS:
   optional:
     - guc-title
 
-INSERTABLES:
-  - class: NumericalParameterInsertablesSuggester
+VALIDATORS:
+  - id: NumericalParameter
 
 ---
 BASIC:
@@ -93,8 +93,8 @@ TAGS:
   ignored:
     - monumentsapi-title
 
-INSERTABLES:
-  - class: NumericalParameterInsertablesSuggester
+VALIDATORS:
+  - id: NumericalParameter
 
 ---
 BASIC:

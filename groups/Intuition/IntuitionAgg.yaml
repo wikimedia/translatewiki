@@ -11,5 +11,5 @@ GROUPS:
   - tsint-*
   - int-*
 
-INSERTABLES:
-  - class: NumericalParameterInsertablesSuggester
+VALIDATORS:
+  - id: NumericalParameter
