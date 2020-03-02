@@ -777,6 +777,9 @@ Common Messages
 Commons Metadata
 ignored = commonsmetadata-doc-url
 
+Config Manager
+aliasfile = ConfigManager/languages/ConfigManager.alias.php
+
 Confirm Account
 file = ConfirmAccount/i18n/core/%CODE%.json
 aliasfile = ConfirmAccount/frontend/language/ConfirmAccount.alias.php
