@@ -24,5 +24,4 @@ VALIDATORS:
     params: /{{[a-zA-Z_]+}}/
 
 INSERTABLES:
-  - class: RegexInsertablesSuggester
-    params: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
+  - class: HtmlTagInsertablesSuggester

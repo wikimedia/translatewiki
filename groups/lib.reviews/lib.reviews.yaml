@@ -23,13 +23,7 @@ VALIDATORS:
   - id: UnicodePlural
 
 INSERTABLES:
-  # HTML tags
-  - class: RegexInsertablesSuggester
-    params:
-      regex: /(?<open><([a-z][a-z0-9]*)\b[^>]*>).*?(?<close><\/\2>)/
-      display: "$open$close"
-      pre: $open
-      post: $close
+  - class: HtmlTagInsertablesSuggester
   # HTML entities
   - class: RegexInsertablesSuggester
     params: '/&#?\w+;/'

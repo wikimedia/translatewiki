@@ -57,14 +57,10 @@ VALIDATORS:
   - id: UnicodePlural
 
 INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+  # HTML entities
   - class: RegexInsertablesSuggester
     params: '/&#?\w+;/'
-  - class: RegexInsertablesSuggester
-    params:
-      regex: /(?<open><a.*?>).*?(?<close><\/a>)/
-      display: "$open$close"
-      pre: $open
-      post: $close
 
 TAGS:
   optional:
