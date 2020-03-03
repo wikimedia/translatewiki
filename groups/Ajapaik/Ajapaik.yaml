@@ -58,6 +58,11 @@ TAGS:
     - strings-none
     - strings-facebook_app_id
 
+VALIDATORS:
+  - id: UnicodePlural
+  - id: Printf
+    insertable: true
+
 ---
 BASIC:
   id: ajapaik-playstore
@@ -179,6 +184,9 @@ LANGUAGES:
     - zh-hk
     - zu
 
+VALIDATORS:
+  - id: BraceBalance
+
 ---
 BASIC:
   id: ajapaik-web
@@ -207,14 +215,13 @@ MANGLER:
     - "*"
 
 VALIDATORS:
-  - id: InsertableRegex
-    enforce: false
+  - id: PythonInterpolation
     insertable: true
-    params: /%\([a-z0-9_]+\)[sd]/
-  - id: InsertableRegex
-    enforce: true
-    insertable: true
-    params: /%s/
+  - id: GettextPlural
+  - id: BraceBalance
+
+INSERTABLE:
+  - class: HtmlTagInsertablesSuggester
 
 ---
 BASIC:
@@ -242,3 +249,9 @@ MANGLER:
   prefix: webjs-
   patterns:
     - "*"
+
+VALIDATORS:
+  - id: PythonInterpolation
+    insertable: true
+  - id: GettextPlural
+  - id: BraceBalance
