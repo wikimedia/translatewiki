@@ -817,6 +817,7 @@ wikisource:
 
 wikistats:
   group: wikistats
+  auto-merge: analytics/wikistats2
   repos:
     wikistats:
       type: wmgerrit
