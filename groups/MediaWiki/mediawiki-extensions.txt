@@ -1752,9 +1752,6 @@ ignored = listings-fax-symbol, listings-email-symbol
 ignored = listings-tollfree-symbol, listings-position-template
 optional = listings-phone-symbol
 
-Live Translate
-optional = group-tmxadmin.css, group-tmxadmin.js
-
 Localisation Update
 
 Lock Down English Pages
