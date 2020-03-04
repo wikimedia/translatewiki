@@ -1985,6 +1985,10 @@ optional = nll-separator
 
 Navigation Timing
 
+Nearby Pages
+descmsg = nearby-pages-desc
+aliasfile = NearbyPages/NearbyPages.alias.php
+
 Negref
 magicfile = Negref/Negref.i18n.magic.php
 
