@@ -17,3 +17,4 @@ FILES:
 
 VALIDATORS:
   - id: NumericalParameter
+    insertable: true

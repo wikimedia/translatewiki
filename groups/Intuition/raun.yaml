@@ -21,3 +21,4 @@ TAGS:
 
 VALIDATORS:
   - id: NumericalParameter
+    insertable: true

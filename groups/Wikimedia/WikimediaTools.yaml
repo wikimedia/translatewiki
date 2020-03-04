@@ -71,6 +71,7 @@ TAGS:
 
 VALIDATORS:
   - id: NumericalParameter
+    insertable: true
 
 ---
 BASIC:
@@ -95,6 +96,7 @@ TAGS:
 
 VALIDATORS:
   - id: NumericalParameter
+    insertable: true
 
 ---
 BASIC:

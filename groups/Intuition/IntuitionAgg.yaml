@@ -13,3 +13,4 @@ GROUPS:
 
 VALIDATORS:
   - id: NumericalParameter
+    insertable: true
