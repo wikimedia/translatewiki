@@ -220,7 +220,7 @@ VALIDATORS:
   - id: GettextPlural
   - id: BraceBalance
 
-INSERTABLE:
+INSERTABLES:
   - class: HtmlTagInsertablesSuggester
 
 ---
