@@ -573,6 +573,14 @@ pywikibot:
       url: https://gerrit.wikimedia.org/r/pywikibot/i18n
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/pywikibot/i18n
 
+qrmedia:
+  group: qrmedia
+  repos:
+    qrmedia:
+      type: github # same committer name and email as in github
+      url: https://framagit.org/wikimedia-france/qrmedia.git
+      url|export: git@framagit.org:wikimedia-france/qrmedia.git
+
 vicuna:
   group: out-vicuna
   repos:

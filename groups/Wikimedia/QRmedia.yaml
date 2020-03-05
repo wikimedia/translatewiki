@@ -1,0 +1,29 @@
+BASIC:
+  id: qrmedia
+  label: QRmedia
+  icon: wiki://QRmedia.png
+  description: "{{Special:MyLanguage/Translations:Group descriptions/qrmedia/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+FILES:
+  class: GettextFFS
+  sourcePattern: "%GROUPROOT%/qrmedia/qrmedia/locale/%CODE%/LC_MESSAGES/django.po"
+  definitionFile: "%GROUPROOT%/qrmedia/qrmedia/locale/django.pot"
+  header: |
+    # Localization strings for QRMedia
+    # Copyright (C) 2020 Wikimédia France
+    # This file is distributed under the same license as the QRMedia package.
+    # Sylvain Boissel <sylvain.boissel@wikimedia.fr>, 2020.
+    #
+
+MANGLER:
+  class: StringMatcher
+  prefix: qrmedia-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: GettextNewline
+    enforce: true
+  - id: BraceBalance
