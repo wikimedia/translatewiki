@@ -1,4 +1,4 @@
 #!/bin/sh
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 
-exec ssh -oCheckHostIP=no -oControlMaster=auto -oControlPath=~/.ssh/l10n-bot-%C -oControlPersist=5 -oHashKnownHosts=no -oUserKnownHostsFile="$DIRSCRIPT/data/known_hosts" "$@"
+exec ssh -F /dev/null -oBatchMode=yes -oCheckHostIP=no -oControlMaster=auto -oControlPath=~/.ssh/l10n-bot-%C -oControlPersist=5 -oHashKnownHosts=no -oUserKnownHostsFile="$DIRSCRIPT/data/known_hosts" "$@"
