@@ -18,9 +18,10 @@ eximconf::local_interfaces:
   - '152.89.106.205'
   - '2a03:4000:39:55d:5400:a2ff:fe21:b3ea'
 
-keyholder::agent::trusted_groups:
-  - l10n-bot
-keyholder::agent::priv_key_path: /root/keyholder/l10n-bot
+keyholder::agent:
+  l10n-bot:
+    trusted_groups: ['l10n-bot']
+    priv_key_path: /root/keyholder/l10n-bot
 
 sysctl::base::values:
   net.ipv4.tcp_window_scaling:

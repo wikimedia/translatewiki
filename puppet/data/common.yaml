@@ -5,6 +5,7 @@ classes:
   - '::base'
   - '::base::vcs'
   - '::hostname'
+  - '::keyholder'
   - '::sshd'
   - '::users'
   - '::php'
