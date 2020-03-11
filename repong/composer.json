@@ -1,6 +1,20 @@
 {
+	"autoload": {
+		"psr-4": {"Translatewiki\\RepoNg\\": "src/"}
+	},
 	"require": {
 		"symfony/console": "^3.0",
-		"symfony/process": "^3.0"
+		"symfony/process": "^3.0",
+		"knplabs/github-api": "^2.12",
+		"php-http/guzzle6-adapter": "^1.1"
+	},
+	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "^1.0",
+		"jakub-onderka/php-console-highlighter": "^0.4.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor"
+		]
 	}
 }
