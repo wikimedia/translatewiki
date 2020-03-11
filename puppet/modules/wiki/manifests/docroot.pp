@@ -16,10 +16,11 @@ class wiki::docroot (
     ensure => 'directory',
   })
 
+  # FIXME: use facl to ensure log files are writable by www-shared
   file { "/www/${domain}/logs":
     ensure => 'directory',
     group  => 'www-shared',
-    mode   => '0664',
+    mode   => '2664',
   }
 
   file { "/www/${domain}/docroot/w":
