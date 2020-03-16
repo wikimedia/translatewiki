@@ -485,3 +485,11 @@ $wgTranslateSupportUrlNamespace[NS_WIKIDOCUMENTARIES] = [
 	'url' => 'https://github.com/Wikidocumentaries/wikidocumentaries-ui/new',
 	'params' => $githubParams,
 ];
+
+wfAddNamespace( 1284, 'BitmarkInc' );
+$wgTranslateGroupFiles[] = "$GROUPS/BitmarkInc/Spring.yaml";
+
+$wgTranslateSupportUrlNamespace[NS_BITMARKINC] = [
+	'page' => 'Translating_talk:Spring',
+	'params' => $lqtParams,
+];

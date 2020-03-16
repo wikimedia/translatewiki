@@ -1,0 +1,146 @@
+TEMPLATE:
+  BASIC:
+    description: "{{Special:MyLanguage/Translations:Group descriptions/spring/en}}"
+    icon: wiki://SPRING_logo.svg
+    namespace: NS_BITMARKINC
+    class: FileBasedMessageGroup
+
+  MANGLER:
+    class: StringMatcher
+    patterns:
+      - "*"
+
+---
+BASIC:
+  id: spring
+  label: Spring
+  meta: yes
+  class: AggregateMessageGroup
+
+GROUPS:
+  - spring-*
+
+---
+BASIC:
+  id: spring-android
+  label: Spring Android App
+
+FILES:
+  class: AndroidXmlFFS
+  sourcePattern: "%GROUPROOT%/bitmark-inc/spring-android/app/src/main/res/values-%CODE%/strings.xml"
+  definitionFile: "%GROUPROOT%/bitmark-inc/spring-android/app/src/main/res/values/strings.xml"
+
+MANGLER:
+  prefix: android-
+
+VALIDATORS:
+  - id: UnicodePlural
+  - id: Printf
+    insertable: true
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+TAGS:
+  ignored:
+    android-notification_channel_name
+---
+BASIC:
+  id: spring-ios-main
+  label: Spring IOS app (Main)
+
+FILES:
+  class: AppleFFS
+  sourcePattern: "%GROUPROOT%/bitmark-inc/spring-ios/Spring/Resources/Localizable/%CODE%.lproj/Localizable.strings"
+
+  header: |
+    /*
+      Localizable.strings
+      Spring
+
+      Copyright © 2020 Bitmark Inc. All rights reserved.
+    */
+
+MANGLER:
+  prefix: ios-main-
+
+VALIDATORS:
+  - id: IosVariable
+    insertable: true
+
+---
+BASIC:
+  id: spring-ios-phrase
+  label: Spring IOS app (Phrase)
+
+FILES:
+  class: AppleFFS
+  sourcePattern: "%GROUPROOT%/bitmark-inc/spring-ios/Spring/Resources/Localizable/%CODE%.lproj/Phrase.strings"
+
+  header: |
+    /*
+      Phrase.strings
+      Spring
+
+      Copyright © 2020 Bitmark Inc. All rights reserved.
+    */
+
+MANGLER:
+  prefix: ios-phrase-
+
+VALIDATORS:
+  - id: IosVariable
+    insertable: true
+
+TAGS:
+  ignored:
+    - ios-phrase-post.postInfo.locationTag
+    - ios-phrase-account.settings.security.biometricAuth
+    - ios-phrase-account.biometricAuth.title
+
+---
+BASIC:
+  id: spring-ios-infoplist
+  label: Spring IOS app (Information Property List)
+  class: FileBasedMessageGroup
+
+FILES:
+  class: AppleFFS
+  sourcePattern: "%GROUPROOT%/bitmark-inc/spring-ios/Spring/Resources/Localizable/%CODE%.lproj/InfoPlist.strings"
+  infoPlist: true
+
+  header: |
+    /*
+      InfoPlist.strings
+      Spring
+
+      Copyright © 2020 Bitmark Inc. All rights reserved.
+    */
+
+MANGLER:
+  prefix: ios-infoplist-
+
+---
+BASIC:
+  id: spring-ios-error
+  label: Spring IOS app (Errors)
+  class: FileBasedMessageGroup
+
+FILES:
+  class: AppleFFS
+  sourcePattern: "%GROUPROOT%/bitmark-inc/spring-ios/Spring/Resources/Localizable/%CODE%.lproj/Error.strings"
+
+  header: |
+    /*
+      Error.strings
+      Spring
+
+      Copyright © 2020 Bitmark Inc. All rights reserved.
+    */
+
+MANGLER:
+  prefix: ios-error-
+
+VALIDATORS:
+  - id: IosVariable
+    insertable: true
