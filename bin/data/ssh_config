@@ -1,0 +1,9 @@
+Host *
+BatchMode yes
+CheckHostIP no
+ControlMaster auto
+ControlPath ~/.ssh/l10n-bot-%C
+ControlPersist 5
+HashKnownHosts no
+IdentitiesOnly yes
+IdentityFile /etc/keyholder.d/l10n_bot.pub
