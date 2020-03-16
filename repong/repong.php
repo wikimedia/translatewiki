@@ -30,7 +30,7 @@ abstract class RepoNgCommand extends Command {
 		$configFile = "$base/$configName";
 
 		if ( !file_exists( $configFile ) ) {
-			throw new RuntimeException( 'Cannot find configuration' );
+			throw new RuntimeException( 'Cannot find configuration: $configFile' );
 		}
 
 		$this->bindir = realpath( __DIR__ . '/../bin' );
@@ -269,7 +269,7 @@ class UpdateCommand extends RepoNgCommand {
 				if ( $process->isSuccessful() ) {
 					$state = trim( $process->getOutput() );
 				} else {
-					$output->writeln( "Unable to synchronize the state for repository $name" );
+					$output->writeln( "Unable to synchronize the state for repository: $name" );
 				}
 			}
 
@@ -284,7 +284,7 @@ class UpdateCommand extends RepoNgCommand {
 			} elseif ( $type === 'bzr' ) {
 				$command = "$bindir/clupdate-bzr-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} else {
-				throw new RuntimeException( "Unknown repo type '$type'" );
+				throw new RuntimeException( "Unknown repo type '$type' for repository: $name" );
 			}
 
 			if ( $state ) {
@@ -455,7 +455,7 @@ class CommitCommand extends RepoNgCommand {
 				$branch = $repo['branch'] ?? 'master';
 				$command = "cd '$name'; bzr add .;bzr commit -m '$message'";
 			} else {
-				throw new RuntimeException( "Unknown repo type '$type'" );
+				throw new RuntimeException( "Unknown repo type '$type' for repository: $name" );
 			}
 
 			$process = new Process( $command );
@@ -644,7 +644,7 @@ class StatusCommand extends RepoNgCommand {
 			} elseif ( $type === 'bzr' ) {
 				$command .= "bzr status";
 			} else {
-				throw new RuntimeException( "Unknown repo type '$type'" );
+				throw new RuntimeException( "Unknown repo type '$type' for repository: $name" );
 			}
 
 			$process = new Process( $command );
@@ -684,7 +684,7 @@ class DiffCommand extends RepoNgCommand {
 			} elseif ( $type === 'bzr' ) {
 				$command .= "bzr diff";
 			} else {
-				throw new RuntimeException( "Unknown repo type '$type'" );
+				throw new RuntimeException( "Unknown repo type '$type' for repository: $name" );
 			}
 
 			$process = new Process( $command );
