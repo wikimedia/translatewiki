@@ -7,7 +7,7 @@ gem 'puppetlabs_spec_helper', '< 3.0.0'
 # https://tickets.puppetlabs.com/browse/PUP-3796
 gem 'safe_yaml', '~> 1.0.4'
 
-gem 'rake', '~> 10.4', '>= 10.4.2'
+gem 'rake', '~> 12.3', '>= 12.3.3'
 gem 'xmlrpc' if RUBY_VERSION >= '2.4.0'
 
 # https://phabricator.wikimedia.org/T242339
