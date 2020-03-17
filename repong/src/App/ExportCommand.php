@@ -13,6 +13,7 @@ class ExportCommand extends Command {
 	protected function configure() {
 		parent::configure();
 		$this->setName( 'export' );
+		$this->setDescription( 'Updates translation files' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
 	}

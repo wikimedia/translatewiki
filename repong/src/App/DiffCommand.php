@@ -14,6 +14,7 @@ class DiffCommand extends Command {
 	protected function configure() {
 		parent::configure();
 		$this->setName( 'diff' );
+		$this->setDescription( 'Shows uncommitted changes' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
 	}

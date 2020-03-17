@@ -24,6 +24,7 @@ class CommitCommand extends Command {
 	protected function configure() {
 		parent::configure();
 		$this->setName( 'commit' );
+		$this->setDescription( 'Creates commits and pushes them to upstream' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
 	}

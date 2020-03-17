@@ -14,6 +14,7 @@ class StatusCommand extends Command {
 	protected function configure() {
 		parent::configure();
 		$this->setName( 'status' );
+		$this->setDescription( 'Shows repository status' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
 	}

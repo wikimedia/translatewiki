@@ -9,6 +9,7 @@ class ListCommand extends Command {
 	protected function configure() {
 		parent::configure();
 		$this->setName( 'list-projects' );
+		$this->setDescription( 'Lists all projects defined in repoconfig.yaml' );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
