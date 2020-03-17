@@ -16,7 +16,7 @@ $commandList = [
 	'commit' => CommitCommand::class,
 	'diff' => DiffCommand::class,
 	'export' => ExportCommand::class,
-	// 'list' => ListCommand::class,
+	'list-projects' => ListCommand::class,
 	'status' => StatusCommand::class,
 	'update' => UpdateCommand::class,
 ];
@@ -33,7 +33,4 @@ $commandLoader = new FactoryCommandLoader(
 
 $application = new Application();
 $application->setCommandLoader( $commandLoader );
-// Add List command manually, because it overwrites built-in list command,
-// but only if not lazy-loaded.
-$application->add( new ListCommand() );
 $application->run();

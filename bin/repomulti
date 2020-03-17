@@ -6,7 +6,7 @@ set -o nounset -o pipefail -o errexit
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 
 # Second parameter can be a pattern to restrict groups
-PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list | grep -E "${2:-*}")
+PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -E "${2:-*}")
 
 COMMAND=${1:-status}
 

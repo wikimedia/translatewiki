@@ -8,7 +8,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 class ListCommand extends Command {
 	protected function configure() {
 		parent::configure();
-		$this->setName( 'list' );
+		$this->setName( 'list-projects' );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
