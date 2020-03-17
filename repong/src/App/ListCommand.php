@@ -1,0 +1,18 @@
+<?php
+
+namespace Translatewiki\RepoNg\App;
+
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+
+class ListCommand extends Command {
+	protected function configure() {
+		parent::configure();
+		$this->setName( 'list' );
+	}
+
+	protected function execute( InputInterface $input, OutputInterface $output ) {
+		unset( $this->config[ '@meta' ] );
+		echo implode( "\n", array_keys( $this->config ) ) . "\n";
+	}
+}
