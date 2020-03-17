@@ -540,7 +540,9 @@ class CommitCommand extends RepoNgCommand {
 		if ( !$token ) {
 			throw new RuntimeException( "Environment variable L10NBOT_GITHUB_TOKEN not set" );
 		}
-		return $this->client = new GithubClient( $token );
+
+		$this->githubClient = new GithubClient( $token );
+		return $this->githubClient;
 	}
 
 	/**
