@@ -545,6 +545,15 @@ osm:
       url: https://github.com/systemed/potlatch2.git
       url|export: git@github.com:systemed/potlatch2.git
 
+pagecontentservice:
+  group: pagecontentservice
+  auto-merge: mediawiki/services/mobileapps
+  repos:
+    pagecontentservice:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/mediawiki/services/mobileapps
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/services/mobileapps
+
 phabricator:
   group: phabricator-*
   repos:

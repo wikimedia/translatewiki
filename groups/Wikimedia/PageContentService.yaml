@@ -1,0 +1,22 @@
+BASIC:
+  id: pagecontentservice
+  label: Page Content Service
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/pagecontentservice/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/pagecontentservice/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: BraceBalance
+  - id: MediaWikiPlural
+  - id: WikiParameter
+    insertable: true
+
+MANGLER:
+  class: StringMatcher
+  prefix: pagecontentservice-
+  patterns:
+    - "*"
