@@ -292,10 +292,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/chameleon.git
       url|export: git@github.com:ProfessionalWiki/chameleon.git
-    mwgithub/cmln/mw-scss:
+    mwgithub/ProfessionalWiki/mw-scss:
       type: github
-      url: https://github.com/cmln/mw-scss.git
-      url|export: git@github.com:cmln/mw-scss.git
+      url: https://github.com/ProfessionalWiki/mw-scss.git
+      url|export: git@github.com:ProfessionalWiki/mw-scss.git
     mwgithub/edwardspec/mediawiki-moderation:
       type: github
       branch: translatewiki

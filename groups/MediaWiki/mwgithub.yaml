@@ -604,7 +604,7 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/cmln/mw-scss/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/mw-scss/i18n/%CODE%.json"
 
 ---
 BASIC:
