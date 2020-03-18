@@ -288,10 +288,10 @@ mwgithub:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal
   group: mwgithub-*,mwgithubskin-*
   repos:
-    mwgithub/cmln/Chameleon:
+    mwgithub/ProfessionalWiki/chameleon:
       type: github
-      url: https://github.com/cmln/chameleon.git
-      url|export: git@github.com:cmln/chameleon.git
+      url: https://github.com/ProfessionalWiki/chameleon.git
+      url|export: git@github.com:ProfessionalWiki/chameleon.git
     mwgithub/cmln/mw-scss:
       type: github
       url: https://github.com/cmln/mw-scss.git
