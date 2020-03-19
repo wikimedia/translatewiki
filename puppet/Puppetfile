@@ -1,12 +1,12 @@
 forge "https://forgeapi.puppetlabs.com"
 
-mod 'puppetlabs-mysql', '10.2.1'
+mod 'puppetlabs-mysql', '10.4.0'
 mod 'elastic-elasticsearch', '6.4.0'
 mod 'elastic-kibana',
 	:git => 'https://github.com/elastic/puppet-kibana.git',
 	:commit => '154284f2a848ace5afbcf6ebc9163c443631d377'
 mod 'thias-sysctl', '1.0.6'
-mod 'puppetlabs-java', '6.0.0'
+mod 'puppetlabs-java', '6.2.0'
 mod 'puppet-letsencrypt', '5.0.0'
 mod 'puppetlabs-mount_core', '1.0.4'
 mod 'puppetlabs-inifile', '3.1.0'
