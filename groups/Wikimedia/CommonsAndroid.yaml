@@ -34,6 +34,11 @@ TEMPLATE:
     class: StringMatcher
     patterns:
       - "*"
+
+  VALIDATORS:
+    - id: UnicodePlural
+      enforce: true
+
 ---
 BASIC:
   id: commons-android

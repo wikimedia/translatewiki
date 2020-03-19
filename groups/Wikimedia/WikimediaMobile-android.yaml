@@ -37,6 +37,8 @@ TEMPLATE:
   VALIDATORS:
     - id: Printf
       insertable: true
+    - id: UnicodePlural
+      enforce: true
 
   INSERTABLES:
     - class: HtmlTagInsertablesSuggester
