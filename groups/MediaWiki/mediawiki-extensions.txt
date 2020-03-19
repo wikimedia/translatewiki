@@ -19,6 +19,7 @@
 # Semantic Signup
 # Semantic Tasks
 # Semantic Watchlist
+# SimpleBatchUpload
 # Sub Page List
 # Validator
 

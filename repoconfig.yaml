@@ -417,6 +417,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/mw-scss.git
       url|export: git@github.com:ProfessionalWiki/mw-scss.git
+    mwgithub/ProfessionalWiki/SimpleBatchUpload:
+      type: github
+      url: https://github.com/ProfessionalWiki/SimpleBatchUpload.git
+      url|export: git@github.com:ProfessionalWiki/SimpleBatchUpload.git
     mwgithub/SemanticMediaWiki/Mermaid:
       type: github
       url: https://github.com/SemanticMediaWiki/Mermaid.git
