@@ -3,7 +3,7 @@
 		"psr-4": {"Translatewiki\\RepoNg\\": "src/"}
 	},
 	"require": {
-		"symfony/console": "^3.0",
+		"symfony/console": "^3.4.0",
 		"symfony/process": "^3.0",
 		"knplabs/github-api": "^2.12",
 		"php-http/guzzle6-adapter": "^1.1"
