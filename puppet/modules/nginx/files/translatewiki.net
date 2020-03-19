@@ -1,5 +1,10 @@
 # file managed by puppet
 
+map $cookie_env $env {
+	default w;
+	x       x;
+}
+
 server {
 	listen 80 default_server;
 	listen [2a03:4000:39:55d:5400:a2ff:fe21:b3ea]:80;
@@ -19,24 +24,22 @@ server {
 	add_header Referrer-Policy no-referrer-when-downgrade;
 	add_header X-Xss-Protection "1; mode=block" always;
 
-	location = / {
-		rewrite ^ /w/index.php;
-	}
+	rewrite ^/$ /$env/index.php;
+	rewrite ^/wiki /$env/index.php;
+	rewrite ^/sitemap$ "/$env/index.php?title=Special:RecentChanges&translations=&feed=atom";
+	# No-op if using the default environment, but required for the 'internal' rules to work
+	rewrite ^/w/(.*) /$env/$1;
 
-	location ~ ^/wiki {
-		rewrite ^ /w/index.php;
+	# Prevent direct access to /x. It can only be accessed through the above rewrites
+	location /x {
+		internal;
 	}
-
-	location = /sitemap {
-		rewrite ^ "/w/index.php?title=Special:RecentChanges&translations=&feed=atom";
-	}
-
-	location ~ ^/w/(cache|mw-config|includes|maintenance|languages|docs)/ {
+	location ~ ^/[xw]/(cache|mw-config|includes|maintenance|languages|docs|vendor)/ {
 		deny all;
 	}
 
 	# Allowed php files, case sensitive
-	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php {
+	location ~ ^/[xw]/(i|index|load|api|opensearch_desc|webfiles/jserror)\.php {
 		fastcgi_pass php;
 		fastcgi_buffering off;
 		fastcgi_buffers 16 16k;
@@ -44,6 +47,7 @@ server {
 		fastcgi_send_timeout 2s;
 		fastcgi_read_timeout 15s;
 		include fastcgi.conf;
+		internal;
 	}
 
 	# Deny access to all php files except those above
