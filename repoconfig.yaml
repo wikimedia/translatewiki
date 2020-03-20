@@ -337,6 +337,10 @@ mwgithub:
       type: github
       url: https://github.com/jeblad/LangCodeOverride.git
       url|export: git@github.com:jeblad/LangCodeOverride.git
+    mwgithub/jeblad/ModDoc:
+      type: github
+      url: https://github.com/jeblad/ModDoc.git
+      url|export: git@github.com:jeblad/ModDoc.git
     mwgithub/jeblad/Pickle:
       type: github
       url: https://github.com/jeblad/Pickle.git

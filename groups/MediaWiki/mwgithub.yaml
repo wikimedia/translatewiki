@@ -476,6 +476,16 @@ FILES:
 
 ---
 BASIC:
+  id: mwgithub-moddoc
+  label: ModDoc
+  description: "{{Special:MyLanguage/MediaWiki:moddoc-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/jeblad/ModDoc/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-purge
   label: Purge
   description: "{{Special:MyLanguage/MediaWiki:purge-descriptionmsg/en}}"
