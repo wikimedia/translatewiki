@@ -776,6 +776,10 @@ wikimedia-tools:
   # https://review.openstack.org/Documentation/user-search.html#project
   auto-merge: ^labs/tools/.*
   repos:
+    wikimedia-tools/bookreader:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/bookreader
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/bookreader
     wikimedia-tools/commons-mass-description:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/p/labs/tools/commons-mass-description

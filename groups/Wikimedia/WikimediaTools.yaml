@@ -1,5 +1,23 @@
 ---
 BASIC:
+  id: wikimedia-tools-bookreader
+  label: BookReader
+  description: "{{Special:MyLanguage/Wikimedia:bookreader-bookreader-desc/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: bookreader-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/bookreader/messages/%CODE%.json"
+
+---
+BASIC:
   id: wikimedia-tools-commons-mass-description
   label: Commons Mass Description
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-commons-mass-description/en}}"
