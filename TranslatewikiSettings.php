@@ -231,13 +231,17 @@ require_once __DIR__ . '/nikext.php';
 /**
  * Dynamic code starts here
  */
-if ( $wgCanonicalServer !== "https://translatewiki.net" ) {
-	$wgHooks['SiteNoticeAfter'][] = function ( &$siteNotice ) {
-		$siteNotice = "
-	<div style='text-align: center; font-size: larger' dir='ltr'><strong>This is not a production site!
-	Go to <a href='https://translatewiki.net'>translatewiki.net</a>!</strong></div>";
-		return true;
-	};
+// Make it clear to see when canary is in use
+$script = $_SERVER['SCRIPT_NAME'] ?? '';
+if ( substr( $script, 0, 3 ) === '/x/' ) {
+		$wgHooks['SiteNoticeAfter'][] = function ( &$siteNotice ) {
+				$siteNotice .= '<div dir="ltr">You are using canary!</div>';
+		};
+
+		$wgHooks['OutputPageBodyAttributes'][] = function ( $out, $skin, &$attrs ) {
+				$add = 'background: repeating-linear-gradient( -55deg, #f6ba52, #f6ba52 10px, #ffd180 10px, #ffd180 20px );';
+				$attrs['style'] = ( $attrs['style'] ?? '' ) . $add;
+		};
 }
 
 $wgMainPageIsDomainRoot = true;
