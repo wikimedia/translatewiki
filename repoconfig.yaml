@@ -21,12 +21,12 @@ bitmark-inc:
   repos:
     bitmark-inc/spring-android:
       type: github
-      branch: i18n
+      push-branch: i18n
       url: https://github.com/bitmark-inc/spring-android.git
       url|export: git@github.com:bitmark-inc/spring-android.git
     bitmark-inc/spring-ios:
       type: github
-      branch: i18n
+      push-branch: i18n
       url: https://github.com/bitmark-inc/spring-ios.git
       url|export: git@github.com:bitmark-inc/spring-ios.git
 
