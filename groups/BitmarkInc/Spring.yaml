@@ -43,7 +43,7 @@ INSERTABLES:
 
 TAGS:
   ignored:
-    android-notification_channel_name
+    - android-notification_channel_name
 ---
 BASIC:
   id: spring-ios-main
