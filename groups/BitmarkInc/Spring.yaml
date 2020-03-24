@@ -53,14 +53,6 @@ FILES:
   class: AppleFFS
   sourcePattern: "%GROUPROOT%/bitmark-inc/spring-ios/Spring/Resources/Localizable/%CODE%.lproj/Localizable.strings"
 
-  header: |
-    /*
-      Localizable.strings
-      Spring
-
-      Copyright © 2020 Bitmark Inc. All rights reserved.
-    */
-
 MANGLER:
   prefix: ios-main-
 
@@ -76,14 +68,6 @@ BASIC:
 FILES:
   class: AppleFFS
   sourcePattern: "%GROUPROOT%/bitmark-inc/spring-ios/Spring/Resources/Localizable/%CODE%.lproj/Phrase.strings"
-
-  header: |
-    /*
-      Phrase.strings
-      Spring
-
-      Copyright © 2020 Bitmark Inc. All rights reserved.
-    */
 
 MANGLER:
   prefix: ios-phrase-
@@ -105,17 +89,8 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: AppleFFS
+  class: AppleInfoPlistFfs
   sourcePattern: "%GROUPROOT%/bitmark-inc/spring-ios/Spring/Resources/Localizable/%CODE%.lproj/InfoPlist.strings"
-  infoPlist: true
-
-  header: |
-    /*
-      InfoPlist.strings
-      Spring
-
-      Copyright © 2020 Bitmark Inc. All rights reserved.
-    */
 
 MANGLER:
   prefix: ios-infoplist-
@@ -129,14 +104,6 @@ BASIC:
 FILES:
   class: AppleFFS
   sourcePattern: "%GROUPROOT%/bitmark-inc/spring-ios/Spring/Resources/Localizable/%CODE%.lproj/Error.strings"
-
-  header: |
-    /*
-      Error.strings
-      Spring
-
-      Copyright © 2020 Bitmark Inc. All rights reserved.
-    */
 
 MANGLER:
   prefix: ios-error-
