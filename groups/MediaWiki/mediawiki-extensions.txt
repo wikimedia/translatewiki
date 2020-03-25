@@ -27,6 +27,8 @@
 optional = 3d, 3d-badge-text
 ignored = 3d-patents
 
+# A Control Image Link // 2020-03-25: No Jenkins
+
 Absentee Landlord
 
 Abuse Filter - User interface
@@ -1313,6 +1315,8 @@ file = Gadgets/i18n/api/%CODE%.json
 
 Genealogy
 optional = genealogy-born-and-died
+
+Generate Mocha Config
 
 Geo Crumbs
 optional = geocrumbs-delimiter
