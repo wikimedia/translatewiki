@@ -399,6 +399,10 @@ mwgithub:
       type: github
       url: https://github.com/miraheze/CreateWiki.git
       url|export: git@github.com:miraheze/CreateWiki.git
+    mwgithub/miraheze/DataDump:
+      type: github
+      url: https://github.com/miraheze/DataDump.git
+      url|export: git@github.com:miraheze/DataDump.git
     mwgithub/miraheze/IncidentReporting:
       type: github
       url: https://github.com/miraheze/IncidentReporting.git

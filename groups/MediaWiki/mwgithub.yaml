@@ -516,6 +516,23 @@ TAGS:
 
 ---
 BASIC:
+  id: mwgithub-datadump
+  label: DataDump
+  description: "{{Special:MyLanguage/MediaWiki:datadump-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/DataDump/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: datadump-
+  patterns:
+    - action-*
+    - apihelp-*
+
+---
+BASIC:
   id: mwgithub-managewiki
   label: ManageWiki
   description: "{{Special:MyLanguage/MediaWiki:managewiki-desc/en}}"
