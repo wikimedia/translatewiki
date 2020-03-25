@@ -3262,7 +3262,7 @@ magicfile = Wikibase/client/WikibaseClient.i18n.magic.php
 descmsg = wbc-desc
 ignored = accesskey-t-wikibase, notification-page-connection-link, wikibase-rc-wikibase-edit-legend
 ignored = wikibase-page-schema-publisher-name, wikibase-page-schema-publisher-logo-url, wikibase-page-schema-author-name
-optional = limitreport-entityaccesscount-value, wikibase-client-data-bridge-reference-snak-separator
+optional = limitreport-entityaccesscount-value
 
 Wikibase - Client - API
 file = Wikibase/client/i18n/api/%CODE%.json
