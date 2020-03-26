@@ -407,10 +407,6 @@ mwgithub:
       type: github
       url: https://github.com/miraheze/ManageWiki.git
       url|export: git@github.com:miraheze/ManageWiki.git
-    mwgithub/miraheze/MatomoAnalytics:
-      type: github
-      url: https://github.com/miraheze/MatomoAnalytics.git
-      url|export: git@github.com:miraheze/MatomoAnalytics.git
     mwgithub/miraheze/MirahezeMagic:
       type: github
       url: https://github.com/miraheze/MirahezeMagic.git
