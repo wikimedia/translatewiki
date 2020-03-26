@@ -526,6 +526,23 @@ FILES:
 
 ---
 BASIC:
+  id: mwgithub-matomoanalytics
+  label: MatomoAnalytics
+  description: "{{Special:MyLanguage/MediaWiki:Matomoanalytics-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/MatomoAnalytics/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: matomoanalytics-
+  patterns:
+    - right-*
+    - analytics
+
+---
+BASIC:
   id: mwgithubskin-foreground
   label: Foreground
   description: "{{Special:MyLanguage/MediaWiki:foreground-desc/en}}"
