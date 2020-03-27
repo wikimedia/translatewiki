@@ -29,6 +29,7 @@ GROUPS:
   - mediawiki-exif
   - mediawiki-api
   - mediawiki-rest-api
+  - wikimedia-paramvalidator
 # Do not add mediawiki-top group here, or we have infinite recursion issues
 
 ---
@@ -644,3 +645,14 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mediawiki/master/includes/Rest/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: wikimedia-paramvalidator
+  label: Wikimedia ParamValidator library
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimediaparamvalidator/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mediawiki/master/includes/libs/ParamValidator/i18n/%CODE%.json"
