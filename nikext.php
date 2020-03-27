@@ -14,7 +14,7 @@ $wgHooks['MagicWordwgVariableIDs'][] = function ( &$vars ) {
 	$vars[] = 'MAG_UILANGCODEx';
 };
 
-$wgHooks['ParserGetVariableValueSwitch'][] = function ( &$parser, &$varCache, &$index, &$ret ) {
+$wgHooks['ParserGetVariableValueSwitch'][] = function ( $parser, &$varCache, $index, &$ret ) {
 	if ( $index === 'MAG_UILANGCODEx' ) {
 		$ret = $varCache[$index] = $parser->getOptions()->getUserLangObj()->getCode();
 	}
