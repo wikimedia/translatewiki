@@ -1043,6 +1043,9 @@ Drafts
 aliasfile = Drafts/Drafts.alias.php
 ignored = accesskey-drafts-save
 
+Dumps On Demand
+aliasfile = DumpsOnDemand/DumpsOnDemand.alias.php
+
 Duplicator
 
 #Dynamic Page List / Superseeded by intersection
