@@ -656,3 +656,7 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mediawiki/master/includes/libs/ParamValidator/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - paramvalidator-param-sensitive
