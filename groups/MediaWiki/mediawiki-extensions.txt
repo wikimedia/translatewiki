@@ -1115,9 +1115,6 @@ file = EventLogging/i18n/jsonschema/%CODE%.json
 
 Event Stream Config
 
-Ext Tab
-file = ExtTab/languages/i18n/%CODE%.json
-
 ExtensionDistributor - API
 id = ext-extensiondistributor-api
 file = ExtensionDistributor/i18n/api/%CODE%.json
