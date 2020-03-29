@@ -21,8 +21,7 @@ server {
 	server_name translatewiki.net;
 	root /www/$host/docroot;
 
-	add_header Referrer-Policy no-referrer-when-downgrade;
-	add_header X-Xss-Protection "1; mode=block" always;
+	add_header Referrer-Policy strict-origin-when-cross-origin;
 
 	rewrite ^/$ /$env/index.php;
 	rewrite ^/wiki /$env/index.php;
