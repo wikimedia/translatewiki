@@ -812,6 +812,10 @@ wikimedia-tools:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/massmailer
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/massmailer
+    wikimedia-tools/qrcode-generator:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/qrcode-generator
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/qrcode-generator
     wikimedia-tools/watch-translations:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/watch-translations

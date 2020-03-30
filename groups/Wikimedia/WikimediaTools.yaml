@@ -163,6 +163,24 @@ INSERTABLES:
 
 ---
 BASIC:
+  id: wikimedia-tools-qrcode-generator
+  label: QRCode_Generator
+  description: "{{Special:MyLanguage/Wikimedia:qrcode-generator-qrcode-generator-desc/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: qrcode-generator-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/qrcode-generator/messages/%CODE%.json"
+
+---
+BASIC:
   id: wikimedia-tools-watch-translations
   label: WatchTranslations
   description: "{{Special:MyLanguage/Translations:Group descriptions/watch-translations/en}}"
