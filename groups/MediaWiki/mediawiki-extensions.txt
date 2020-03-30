@@ -2687,8 +2687,6 @@ descmsg = swmp-desc
 Simple Changes
 aliasfile = SimpleChanges/SimpleChanges.alias.php
 
-Simple Farm
-
 Simple SAML php
 
 Simple Security
