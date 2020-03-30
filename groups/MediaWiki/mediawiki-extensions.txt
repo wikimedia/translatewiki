@@ -1797,9 +1797,6 @@ Mad Lib
 
 Magic No Cache
 
-Magic Numbered Headings
-magicfile = MagicNumberedHeadings/MagicNumberedHeadings.i18n.magic.php
-
 Mailgun
 
 Maintenance
