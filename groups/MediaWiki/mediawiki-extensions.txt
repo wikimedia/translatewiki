@@ -1853,6 +1853,7 @@ aliasfile = MathSearch/MathSearch.alias.php
 Media Functions
 
 Media Moderation
+ignored = mediamoderation-email-body, mediamoderation-email-subject
 
 MediaWiki Auth
 descmsg = mwa-desc
