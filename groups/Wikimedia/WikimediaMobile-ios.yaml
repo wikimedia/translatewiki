@@ -30,25 +30,6 @@ TAGS:
   optional:
     - wikipedia-ios-talk-page-discussion-read-ipa-accessibility-attribute
     - wikipedia-ios-talk-page-discussion-unread-ipa-accessibility-attribute
-  ignored:
-    # These strings are being moved, hide them from translators
-    - wikipedia-ios-article-about-title
-    - wikipedia-ios-article-read-more-title
-    - wikipedia-ios-description-add-link-title
-    - wikipedia-ios-info-box-close-text
-    - wikipedia-ios-info-box-title
-    - wikipedia-ios-license-footer-name
-    - wikipedia-ios-license-footer-text
-    - wikipedia-ios-page-edit-history
-    - wikipedia-ios-page-issues
-    - wikipedia-ios-page-last-edited
-    - wikipedia-ios-page-last-edited-unknown
-    - wikipedia-ios-page-location
-    - wikipedia-ios-page-read-in-other-languages
-    - wikipedia-ios-page-similar-titles
-    - wikipedia-ios-page-talk-page
-    - wikipedia-ios-table-title-other
-    - wikipedia-ios-view-in-browser-footer-link
 
 ---
 BASIC:

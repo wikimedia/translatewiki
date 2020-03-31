@@ -5,7 +5,7 @@ DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 
 case "$(basename "$0")" in
 autoexport)
-	PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -v ^mediawiki | grep -v wikipedia-ios)
+	PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -v ^mediawiki)
 	;;
 autoexport-mediawiki)
 	PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list-projects | grep ^mediawiki)
