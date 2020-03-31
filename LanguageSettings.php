@@ -102,6 +102,7 @@ $wgExtraLanguageNames['ryu'] = 'ʔucināguci'; # Central Okinawan / Siebrand 200
 $wgExtraLanguageNames['saz'] = 'ꢱꣃꢬꢵꢯ꣄ꢡ꣄ꢬꢵ'; # Saurashtra / Siebrand 2011-03-17
 $wgExtraLanguageNames['shn'] = 'လိၵ်ႈတႆး'; # Shan / Siebrand 2011-09-06
 $wgExtraLanguageNames['shy-latn'] = 'Tacawit'; # Tacawit (Latin script) / Siebrand 2015-05-25
+$wgExtraLanguageNames['sjd'] = 'кӣллт са̄мь кӣлл'; # Kildin Sámi / Amir 2020-03-31
 $wgExtraLanguageNames['slr'] = 'Salırça'; # Salar / Siebrand 2008-08-18
 $wgExtraLanguageNames['sly'] = 'Bahasa Selayar'; # A Selayar / Siebrand 2012-01-09
 $wgExtraLanguageNames['smj'] = 'julevsámegiella'; # Lule Saami / Nikerabbit 2016-06-22
