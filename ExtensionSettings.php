@@ -54,7 +54,6 @@ $wgTranslateDocumentationLanguageCode = 'qqq';
 $wgTranslateGroupRoot = '/resources/projects';
 $wgTranslateMessageIndex = [ 'CDBMessageIndex' ];
 $wgTranslateDelayedMessageIndexRebuild = true;
-$wgTranslateDisablePreSaveTransform = true;
 $wgULSCompactLanguageLinksBetaFeature = false;
 $wgPageTranslationLanguageList = 'sidebar-only';
 $wgTranslatePermissionUrl = 'Special:MainPage';
