@@ -81,6 +81,7 @@ GROUPS:
   - ext-wikibase-client-api
   - ext-wikibase-repo-api
   - ext-wikibaselexeme-api
+  - ext-wikibasemediainfo-api
   - ext-wikibasequalityconstraints-api
   - ext-wikilove-api
   - ext-wikimediaeditortasks-api
