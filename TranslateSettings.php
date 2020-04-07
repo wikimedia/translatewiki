@@ -228,7 +228,6 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CitationHunt.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CommonsAndroid.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CommonsWallpaperGnomeExtension.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CopyPatrol.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Covid19.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/DiscordWikiBot.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/GapFinder.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/global-search.yaml";

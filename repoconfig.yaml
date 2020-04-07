@@ -69,14 +69,6 @@ commons-wallpaper-gnome:
       url: https://github.com/jhsoby/commons-wallpaper-gnome-extension.git
       url|export: git@github.com:jhsoby/commons-wallpaper-gnome-extension.git
 
-covid-19:
-  group: covid-19
-  repos:
-    Wikimedia-Finland/covid-19-translations:
-      type: github
-      url: https://github.com/Wikimedia-Finland/covid-19-translations.git
-      url|export: git@github.com:Wikimedia-Finland/covid-19-translations.git
-
 discordwikibot:
   group: discordwikibot
   repos:
