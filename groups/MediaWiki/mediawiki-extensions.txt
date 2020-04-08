@@ -2541,6 +2541,8 @@ ignored = rss-item
 
 RT
 
+# S5 Slide Show // 2020-06-08: missing qqq
+
 Sacred Text
 magicfile = SacredText/SacredText.i18n.magic.php
 
@@ -3447,7 +3449,7 @@ Wikimedia Temporary Messages
 file = WikimediaMessages/i18n/temporary/%CODE%.json
 prefix = temporary- | wikimediamessages-desc
 
-# Wikispeech // 2016-07-13: very early stage
+Wikispeech
 
 # Windows Azure SDK // 2017-06-15: Archived
 
