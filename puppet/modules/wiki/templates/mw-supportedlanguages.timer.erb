@@ -1,0 +1,11 @@
+# This file is managed by puppet
+[Unit]
+Description=Run wiki-supportedlanguages daily
+
+[Timer]
+AccuracySec=10m
+OnBootSec=2h
+OnUnitActiveSec=1d
+
+[Install]
+WantedBy=timers.target

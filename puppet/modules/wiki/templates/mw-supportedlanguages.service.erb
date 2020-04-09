@@ -1,0 +1,11 @@
+# This file is managed by puppet
+[Unit]
+Description=Updated Special:SupportedLanguages caches
+Requisite=mysql.service
+After=mysql.service
+
+[Service]
+User=<%= @maintenance_user %>
+ExecStart=/usr/bin/php <%= @production_dir %>/extensions/Translate/scripts/updateTranslatorActivity.php
+ProtectHome=read-only
+ProtectSystem=full

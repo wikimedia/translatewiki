@@ -18,6 +18,13 @@ class wiki (
     content => template('wiki/wikimaintenance.erb'),
   }
 
+  systemd::timer { 'mw-supportedlanguages.timer':
+    timer_content   => template('wiki/mw-supportedlanguages.timer.erb'),
+    service_content => template('wiki/mw-supportedlanguages.service.erb'),
+    active          => true,
+    enable          => true,
+  }
+
   file { '/etc/systemd/system/mw-jobrunner.service':
     content => template('wiki/mw-jobrunner.service.erb'),
   }

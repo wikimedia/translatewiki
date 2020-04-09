@@ -1,6 +1,9 @@
 FORGE
   remote: https://forgeapi.puppetlabs.com
   specs:
+    camptocamp-systemd (2.9.0)
+      puppetlabs-inifile (< 5.0.0, >= 1.6.0)
+      puppetlabs-stdlib (< 7.0.0, >= 4.13.1)
     elastic-elastic_stack (6.3.2)
       puppet-yum (< 5.0.0, >= 0.9.6)
       puppetlabs-apt (< 8.0.0, >= 2.0.0)
@@ -55,6 +58,7 @@ GIT
       elastic-elastic_stack (< 7.0.0, >= 6.1.0)
 
 DEPENDENCIES
+  camptocamp-systemd (= 2.9.0)
   elastic-elasticsearch (= 6.4.0)
   elastic-kibana (>= 0)
   puppet-letsencrypt (= 5.0.0)
