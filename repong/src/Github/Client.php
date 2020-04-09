@@ -64,7 +64,9 @@ class Client {
 			$pr->getRepositoryName(),
 			[
 				'status' => 'open',
-				'head' => $pr->getHead(),
+				// Head needs user/org prefix.
+				// See https://developer.github.com/v3/pulls/#list-pull-requests
+				'head' => $pr->getRepositoryOwner() . ':' . $pr->getHead(),
 				'base' => $pr->getBase(),
 			]
 		);
