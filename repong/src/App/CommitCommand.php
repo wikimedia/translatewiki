@@ -249,5 +249,8 @@ class CommitCommand extends Command {
 			$duration = $this->getTimeSince( $createdAt );
 			return "Updated unmerged pull request which has been open for $duration.\n";
 		}
+
+		// Pull request was created succesfully
+		return null;
 	}
 }
