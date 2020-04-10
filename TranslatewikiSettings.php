@@ -156,7 +156,6 @@ $wgHiddenPrefs[] = 'contextlines';
 $wgHiddenPrefs[] = 'contextchars';
 $wgHiddenPrefs[] = 'diffonly';
 $wgHiddenPrefs[] = 'norollbackdiff';
-$wgHiddenPrefs[] = 'cols';
 
 $wgDefaultUserOptions['usenewrc'] = 1;
 # Disabled 2012-08-20 / Nike / Too spammy/buggy.
