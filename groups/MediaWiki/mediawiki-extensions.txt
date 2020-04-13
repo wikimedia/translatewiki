@@ -2444,6 +2444,8 @@ optional = group-pusher.css, group-pusher.js
 optional = group-bulkpusher.css, group-bulkpusher.js
 optional = group-filepusher.css, group-filepusher.js
 
+Push Notifications
+
 Push To Watch
 
 # PwnedPasswords // No i18n files
