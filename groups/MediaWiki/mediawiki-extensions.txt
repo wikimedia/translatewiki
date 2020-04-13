@@ -2134,8 +2134,6 @@ optional = prefs-openstack
 
 # Open Street Map Slippy Map // message prefix "slippymap-"
 
-Oracle Text Search
-
 Orphaned Talk Pages
 aliasfile = OrphanedTalkPages/OrphanedTalkPages.alias.php
 
