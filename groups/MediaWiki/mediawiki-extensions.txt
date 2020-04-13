@@ -1932,8 +1932,6 @@ descmsg = msu-desc
 Ms Wiki Editor
 descmsg = mswe-desc
 
-MSSQL Back Compat
-
 Multi Boilerplate
 aliasfile = MultiBoilerplate/MultiBoilerplate.alias.php
 ignored = multiboilerplate, multiboilerplate-label
