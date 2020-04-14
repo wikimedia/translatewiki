@@ -2557,8 +2557,6 @@ Sarcasm
 Score
 optional = score-visualeditor-mwscoreinspector-lang-abc, score-visualeditor-mwscoreinspector-lang-lilypond
 
-#Scan Set / 2012-11-12: Disabled on WMF / Abandoned.
-
 Screenplay
 
 # Scribe // 2019-07-18: Empty repo
