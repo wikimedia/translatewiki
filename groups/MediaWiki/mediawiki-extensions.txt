@@ -954,7 +954,9 @@ Discussion Threading
 
 Discussion Tools
 ignored = tag-discussiontools
-optional =  discussiontools-preference-info-link, discussiontools-preference-discussion-link
+optional = discussiontools-preference-info-link
+optional = discussiontools-preference-discussion-link
+optional = discussiontools-replywidget-feedback-link
 
 Display Title
 
