@@ -3131,12 +3131,12 @@ file = VisualEditor/i18n/ve-mw/%CODE%.json
 optional = visualeditor-preference-core-discussion-link, visualeditor-preference-core-info-link
 optional = visualeditor-dialog-media-dimensionseparator, visualeditor-dialog-media-info-dateformat
 optional = visualeditor-dialog-media-info-ellipsis, visualeditor-dialog-media-info-separator
-optional = visualeditor-preference-visualdiffpage-discussion-link, visualeditor-preference-visualdiffpage-info-link
+optional = visualeditor-preference-visualdiffpage-discussion-link
 ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
 ignored = visualeditor-wikitext-warning-link, visualeditor-quick-access-characters.json
 ignored = visualeditor-preference-newwikitexteditor-discussion-link, visualeditor-preference-newwikitexteditor-info-link
 ignored = visualeditor-template-tools-definition.json
-ignored = apihelp-visualeditoredit-param-watchlist
+ignored = apihelp-visualeditoredit-param-watchlist, visualeditor-preference-visualdiffpage-info-link
 prefix = visualeditor-override- | tooltip-ca-edit
 
 VisualEditor (MediaWiki extension) - API
