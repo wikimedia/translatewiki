@@ -86,6 +86,7 @@ $wgTranslateLanguageFallbacks['mfe'] = [ 'fr' ]; # Robin 2011-10-18
 $wgTranslateLanguageFallbacks['mhr'] = [ 'mrj' ];
 $wgTranslateLanguageFallbacks['miq'] = [ 'es' ];
 $wgTranslateLanguageFallbacks['mnc'] = [ 'zh-hans' ];
+$wgTranslateLanguageFallbacks['moe'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['mrj'] = [ 'mhr' ];
 $wgTranslateLanguageFallbacks['mt'] = 'it'; # http://translatewiki.net/w/i.php?title=Support&curid=71166&diff=485516&oldid=485114
 $wgTranslateLanguageFallbacks['mui'] = [ 'id' ];
