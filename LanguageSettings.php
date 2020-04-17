@@ -61,6 +61,7 @@ $wgExtraLanguageNames['ksf'] = 'Bafia'; # Robin 2011-10-21
 $wgExtraLanguageNames['ksw'] = 'စှီၤ ကညီကျိာ်'; # Sgaw Karen / Amir 2019-01-19
 $wgExtraLanguageNames['kum'] = 'къумукъ'; # Amir 2018-01-14
 $wgExtraLanguageNames['lag'] = 'Kilaangi'; # Rangi / Amir 2017-05-03
+$wgExtraLanguageNames['lad-hebr'] = 'לאדינו'; # Ladino in Hebrew script / Amir 2020-04-17
 $wgExtraLanguageNames['lou'] = 'kréyol la lwizyàn'; # Louisiana Creole / Amir 2020-03-25
 $wgExtraLanguageNames['lkt'] = 'Lakȟótiyapi'; # Lakota / 2014-04-08
 $wgExtraLanguageNames['lld'] = 'Ladin'; # Ladin / Siebrand 2009-09-23
