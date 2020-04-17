@@ -655,16 +655,6 @@ FILES:
 
 ---
 BASIC:
-  id: mwgithub-mw-scss
-  label: SCSS
-  description: "{{Special:MyLanguage/MediaWiki:scss-desc/en}}"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/mw-scss/i18n/%CODE%.json"
-
----
-BASIC:
   id: mwgithub-central-check-user
   label: Central Check user
   description: "{{Special:MyLanguage/MediaWiki:globalcheckuser-desc/en}}"
