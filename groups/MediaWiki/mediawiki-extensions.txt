@@ -821,6 +821,10 @@ ConfirmEdit Fancy Captcha - API
 id = ext-confirmeditfancycaptcha-api
 file = ConfirmEdit/FancyCaptcha/i18n/api/%CODE%.json
 
+ConfirmEdit hCaptcha
+file = ConfirmEdit/hCaptcha/i18n/%CODE%.json
+descmsg = hcaptcha-desc
+
 ConfirmEdit Math Captcha
 file = ConfirmEdit/MathCaptcha/i18n/%CODE%.json
 descmsg = mathcaptcha-desc
