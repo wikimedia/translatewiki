@@ -3,7 +3,7 @@
 # Provides SSL configuration for nginx sites.
 #
 class nginx::devsite (
-  String $domain = 'dev.translatewiki.net',
+  String $domain,
 ) {
   $certdir = '/etc/ssl/localcerts';
 
