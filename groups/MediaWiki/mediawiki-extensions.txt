@@ -3146,6 +3146,7 @@ prefix = visualeditor-override- | tooltip-ca-edit
 VisualEditor (MediaWiki extension) - API
 id = ext-visualeditor-ve-mw-api
 file = VisualEditor/i18n/ve-mw/api/%CODE%.json
+ignored = apihelp-visualeditoredit-param-watchlist
 
 VisualEditor (WMF)
 id = ext-visualeditor-ve-wmf
