@@ -2397,9 +2397,6 @@ Pool Counter
 
 # Popup Alerts // 2019-04-14: Empty repo
 
-Popup Pages
-magicfile = PopupPages/PopupPages.i18n.magic.php
-
 Popups
 
 Preferences List
