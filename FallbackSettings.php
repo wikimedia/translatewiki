@@ -5,7 +5,6 @@ $wgTranslateLanguageFallbacks['acf'] = 'fr';
 $wgTranslateLanguageFallbacks['af'] = 'nl';
 $wgTranslateLanguageFallbacks['ady-cyrl'] = 'ru';
 $wgTranslateLanguageFallbacks['ais'] = [ 'zh-hant' ]; # Amir 2017-05-03
-$wgTranslateLanguageFallbacks['ami'] = [ 'zh-hant' ]; # Amir 2017-05-03
 $wgTranslateLanguageFallbacks['aro'] = 'es';
 $wgTranslateLanguageFallbacks['ary'] = 'ar';
 $wgTranslateLanguageFallbacks['as'] = 'bn';
