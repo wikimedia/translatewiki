@@ -64,4 +64,8 @@ class base (
   file { '/etc/default/locale':
     content => 'LANG="en_US.UTF-8"',
   }
+
+  file { '/etc/systemd/journald.conf':
+    content => "[Journal]\nStorage=persistent\n",
+  }
 }
