@@ -63,7 +63,6 @@ $wgExtraLanguageNames['lag'] = 'Kilaangi'; # Rangi / Amir 2017-05-03
 $wgExtraLanguageNames['lad-hebr'] = 'לאדינו'; # Ladino in Hebrew script / Amir 2020-04-17
 $wgExtraLanguageNames['lou'] = 'kréyol la lwizyàn'; # Louisiana Creole / Amir 2020-03-25
 $wgExtraLanguageNames['lkt'] = 'Lakȟótiyapi'; # Lakota / 2014-04-08
-$wgExtraLanguageNames['lld'] = 'Ladin'; # Ladin / Siebrand 2009-09-23
 $wgExtraLanguageNames['mad'] = 'Madhurâ'; # Madurese / Amir 2020-05-20
 $wgExtraLanguageNames['mfe'] = 'Morisyen'; # Robin 2011-10-18
 $wgExtraLanguageNames['mic'] = 'Mi\'kmaq'; # Micmac / Nikerabbit 2012-02-27

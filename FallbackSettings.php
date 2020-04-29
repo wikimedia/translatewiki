@@ -77,7 +77,6 @@ $wgTranslateLanguageFallbacks['lag'] = [ 'sw' ]; # Amir 2017-05-03
 $wgTranslateLanguageFallbacks['lb'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['lez'] = [ 'ru', 'az' ]; # Robin 2011-09-27
 $wgTranslateLanguageFallbacks['lki'] = [ 'fa', 'lrc', 'sdh' ];
-$wgTranslateLanguageFallbacks['lld'] = [ 'it', 'rm', 'fur' ]; # Robin 2011-12-04
 $wgTranslateLanguageFallbacks['lmo'] = [ 'pms', 'eml', 'lij', 'vec' ];
 $wgTranslateLanguageFallbacks['luz'] = [ 'fa' ];
 $wgTranslateLanguageFallbacks['mad'] = 'id';
