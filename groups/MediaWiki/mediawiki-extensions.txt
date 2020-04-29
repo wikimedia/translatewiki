@@ -786,6 +786,7 @@ aliasfile = ConfigManager/languages/ConfigManager.alias.php
 Confirm Account
 file = ConfirmAccount/i18n/core/%CODE%.json
 aliasfile = ConfirmAccount/frontend/language/ConfirmAccount.alias.php
+ignored = action-confirmaccount-notify
 
 Confirm Account - Page
 file = ConfirmAccount/i18n/confirmaccount/%CODE%.json
