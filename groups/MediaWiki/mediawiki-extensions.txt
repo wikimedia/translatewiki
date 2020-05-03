@@ -958,7 +958,7 @@ magicfile = Disambiguator/Disambiguator.i18n.magic.php
 Discussion Threading
 
 Discussion Tools
-ignored = tag-discussiontools
+ignored = tag-discussiontools, discussiontools-replywidget-reply-link
 optional = discussiontools-preference-info-link
 optional = discussiontools-preference-discussion-link
 optional = discussiontools-replywidget-feedback-link
