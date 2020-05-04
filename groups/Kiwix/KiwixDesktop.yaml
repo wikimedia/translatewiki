@@ -1,0 +1,12 @@
+---
+BASIC:
+  id: kiwix-desktop
+  label: Kiwix Desktop
+  icon: wiki://Kiwix_icon.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/kiwix/en}}"
+  namespace: NS_KIWIX
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/kiwix-desktop/resources/i18n/%CODE%.json"

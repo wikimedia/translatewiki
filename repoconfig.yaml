@@ -184,6 +184,12 @@ kiwix:
       push-branch|export: translatewiki
       url: https://github.com/kiwix/kiwix-android.git
       url|export: git@github.com:kiwix/kiwix-android.git
+    kiwix-desktop:
+      type: github
+      branch: develop
+      push-branch|export: translatewiki
+      url: https://github.com/kiwix/kiwix-desktop.git
+      url|export: git@github.com:kiwix/kiwix-desktop.git
 
 lib.reviews:
   group: lib.reviews
