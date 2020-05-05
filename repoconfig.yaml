@@ -16,20 +16,6 @@ ajapaik:
       url: https://github.com/Ajapaik/ajapaik-web.git
       url|export: git@github.com:Ajapaik/ajapaik-web.git
 
-bitmark-inc:
-  group: spring-*
-  repos:
-    bitmark-inc/spring-android:
-      type: github
-      pull-branch: i18n
-      url: https://github.com/bitmark-inc/spring-android.git
-      url|export: git@github.com:bitmark-inc/spring-android.git
-    bitmark-inc/spring-ios:
-      type: github
-      pull-branch: i18n
-      url: https://github.com/bitmark-inc/spring-ios.git
-      url|export: git@github.com:bitmark-inc/spring-ios.git
-
 blockly:
   group: out-blockly*
   repos:

@@ -417,7 +417,7 @@ $wgTranslateGroupAliases['out-nfcring-control'] = 'nfcring-control';
 
 wfAddNamespace( 1262, 'iNaturalist' );
 
-# No longer un use
+# No longer in use
 wfAddNamespace( 1264, 'EntryScape' );
 $wgCapitalLinkOverrides[NS_ENTRYSCAPE] = false;
 $wgCapitalLinkOverrides[NS_ENTRYSCAPE_TALK] = false;
@@ -487,10 +487,5 @@ $wgTranslateSupportUrlNamespace[NS_WIKIDOCUMENTARIES] = [
 	'params' => $githubParams,
 ];
 
+# No longer in use
 wfAddNamespace( 1284, 'BitmarkInc' );
-$wgTranslateGroupFiles[] = "$GROUPS/BitmarkInc/Spring.yaml";
-
-$wgTranslateSupportUrlNamespace[NS_BITMARKINC] = [
-	'page' => 'Translating_talk:Spring',
-	'params' => $lqtParams,
-];
