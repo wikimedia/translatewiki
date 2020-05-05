@@ -655,6 +655,7 @@ id = ext-centralnotice-user
 file = CentralNotice/i18n/%CODE%.json
 aliasfile = CentralNotice/CentralNotice.alias.php
 optional = centralnotice-language-listing, centralnotice-log-label, centralnotice-user-links
+optional = centralnotice-location-name-and-code
 ignored = centralnotice-navbar
 
 Central Notice - API
