@@ -167,13 +167,12 @@ kiwix:
     kiwix-android:
       type: github
       branch: develop
-      push-branch|export: translatewiki
+      pull-branch: translatewiki
       url: https://github.com/kiwix/kiwix-android.git
       url|export: git@github.com:kiwix/kiwix-android.git
     kiwix-desktop:
       type: github
-      branch: master
-      push-branch|export: translatewiki
+      pull-branch: translatewiki
       url: https://github.com/kiwix/kiwix-desktop.git
       url|export: git@github.com:kiwix/kiwix-desktop.git
 
