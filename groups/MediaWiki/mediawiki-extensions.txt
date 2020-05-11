@@ -11,6 +11,7 @@
 # Semantic External Query Lookup
 # Semantic Extra Special Properties
 # Semantic Glossary
+# Semantic Image Caption
 # Semantic Interlanguage Links
 # Semantic Maps
 # Semantic MediaWiki

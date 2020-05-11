@@ -170,6 +170,19 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticGlossary/i18n/%CODE%.json"
 ---
 BASIC:
+  id: mwgithub-semanticimagecaption
+  label: Semantic Image Caption
+  description: "{{Special:MyLanguage/MediaWiki:semantic-imagecaption-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticImageCaption/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - semantic-imagecaption-name
+---
+BASIC:
   id: mwgithub-semanticinterlanguagelinks
   label: Semantic Interlanguage Links
   description: "{{Special:MyLanguage/MediaWiki:Sil-desc/en}}"

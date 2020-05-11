@@ -470,6 +470,10 @@ mwgithub:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticGlossary.git
       url|export: git@github.com:SemanticMediaWiki/SemanticGlossary.git
+    mwgithub/SemanticMediaWiki/SemanticImageCaption:
+      type: github
+      url: https://github.com/SemanticMediaWiki/SemanticImageCaption.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticImageCaption.git
     mwgithub/SemanticMediaWiki/SemanticInterlanguageLinks:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticInterlanguageLinks.git
