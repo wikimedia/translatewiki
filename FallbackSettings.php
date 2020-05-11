@@ -138,7 +138,6 @@ $wgTranslateLanguageFallbacks['tji'] = 'zh-hans';
 $wgTranslateLanguageFallbacks['tkr'] = 'ru';
 $wgTranslateLanguageFallbacks['tly'] = 'ru';
 $wgTranslateLanguageFallbacks['tru'] = 'arc'; # Robin 2012-02-18
-$wgTranslateLanguageFallbacks['trv'] = [ 'zh-hant' ]; # Amir 2017-05-03
 $wgTranslateLanguageFallbacks['tsd'] = 'el';
 $wgTranslateLanguageFallbacks['ug-arab'] = [ 'ug-latn', 'zh-hans', 'zh-hant' ]; # Robin 2011-11-14
 $wgTranslateLanguageFallbacks['ug-latn'] = [ 'ug-arab', 'ru' ]; # Robin 2011-11-14
