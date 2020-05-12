@@ -844,9 +844,8 @@ wikipedia-library:
   repos:
     WikipediaLibrary/TWLight:
       type: github
-      branch: production
+      branch: master
       url: https://github.com/WikipediaLibrary/TWLight.git
-      branch|export: master
       url|export: git@github.com:WikipediaLibrary/TWLight.git
 
 wikisource:
