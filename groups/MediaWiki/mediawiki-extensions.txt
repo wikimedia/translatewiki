@@ -3017,7 +3017,6 @@ descmsg = twnmp-desc
 optional = twnmp-stats-number-k
 
 Two Col Conflict
-aliasfile = TwoColConflict/TwoColConflict.alias.php
 descmsg = twocolconflict-desc
 ignored = twocolconflict-split-saved-at
 
