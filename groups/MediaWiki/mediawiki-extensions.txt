@@ -1253,6 +1253,8 @@ id = ext-flaggedrevs-validationstatistics
 file = FlaggedRevs/i18n/validationstatistics/%CODE%.json
 descmsg = flaggedrevs-desc
 
+# Flexi Skin // 2020-05-08: no i18n
+
 Flickr API
 
 Flow - User interface

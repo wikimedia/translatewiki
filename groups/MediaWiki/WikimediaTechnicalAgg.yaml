@@ -58,7 +58,6 @@ GROUPS:
   - ext-pageimages-api
   - ext-pageviewinfo-api
   - ext-parsermigration-api
-  - ext-parsoidbatchapi-api
   - ext-poolcounter # 2011-03-18 on all projects
   - ext-proofreadpage-api
   - ext-propertysuggester-api
