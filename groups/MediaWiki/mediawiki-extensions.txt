@@ -2183,21 +2183,11 @@ magicfile = PageForms/languages/PF_Magic.php
 ignored = pf_formedit_accesskey_saveandcontinueediting, accesskey-ca-formedit
 optional = pf-datepicker-dateformatlong, pf-datepicker-dateformatshort, pf-datepicker-firstdayofweek
 
-PageImages - API
+Page Images - API
 id = ext-pageimages-api
 file = PageImages/i18n/api/%CODE%.json
 
-PageViewInfo - API
-id = ext-pageviewinfo-api
-file = PageViewInfo/i18n/api/%CODE%.json
-
-PageViewInfo - User Interface
-id = ext-pageviewinfo-user
-file = PageViewInfo/i18n/%CODE%.json
-descmsg = pvi-desc
-optional = pvi-range
-
-PageImages - User Interface
+Page Images - User Interface
 id = ext-pageimages-user
 file = PageImages/i18n/%CODE%.json
 ignored = pageimages-blacklist
@@ -2303,6 +2293,16 @@ optional = pagetriage-del-tags-miscellanyfordeletion-label
 optional = pagetriage-dot-separator
 ignored = pagetriage-special-contributions, pagetriage-tags-param-date-format
 ignored = notification-body-page-triage-note
+
+Page View Info - API
+id = ext-pageviewinfo-api
+file = PageViewInfo/i18n/api/%CODE%.json
+
+Page View Info - User Interface
+id = ext-pageviewinfo-user
+file = PageViewInfo/i18n/%CODE%.json
+descmsg = pvi-desc
+optional = pvi-range
 
 Paged Tiff Handler
 descmsg = tiff-desc
