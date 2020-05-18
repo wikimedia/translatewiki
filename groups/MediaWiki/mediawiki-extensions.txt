@@ -2173,6 +2173,9 @@ descmsg = page-creation-notif-desc
 
 Page Disqus
 
+Page Exchange
+aliasfile = PageExchange/PageExchange.alias.php
+
 # Renamed from SemanticForms to PageForms
 Page Forms
 aliasfile = PageForms/languages/PF_Aliases.php
@@ -2206,6 +2209,8 @@ Page Language
 Page Name Formula
 
 Page Notice
+
+# Page Popups // No i18n
 
 Page Schemas
 aliasfile = PageSchemas/PageSchemas.i18n.alias.php
@@ -2304,8 +2309,6 @@ descmsg = tiff-desc
 
 Pages List
 aliasfile = PagesList/PagesList.i18n.alias.php
-
-# Page Popups // No i18n
 
 Paginate Text
 
