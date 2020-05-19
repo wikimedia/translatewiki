@@ -1,0 +1,42 @@
+BASIC:
+  id: convenient-discussions
+  label: Convenient Discussions
+  icon: wiki://Convenient_Discussions_logo_color.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/convenient-discussions/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: convenient-discussions-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/jwbth/convenient-discussions/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - cm-gotoparent
+    - cm-gotochild
+    - cf-help
+    - cf-help-short
+    - sm-copylink
+    - user-male-dative
+    - user-female-dative
+    - user-unknown-dative
+    - user-male-genitive
+    - user-female-genitive
+    - user-unknown-genitive
+
+VALIDATORS:
+  - id: BraceBalance
+  - id: MediaWikiPlural
+  - id: WikiParameter
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+  # HTML entities
+  - class: RegexInsertablesSuggester
+    params: '/&#?\w+;/'

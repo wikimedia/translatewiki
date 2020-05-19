@@ -227,6 +227,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/wikidata/wikidata.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CitationHunt.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CommonsAndroid.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CommonsWallpaperGnomeExtension.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ConvenientDiscussions.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CopyPatrol.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/DiscordWikiBot.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/GapFinder.yaml";
