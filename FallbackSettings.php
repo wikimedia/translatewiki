@@ -80,6 +80,7 @@ $wgTranslateLanguageFallbacks['lki'] = [ 'fa', 'lrc', 'sdh' ];
 $wgTranslateLanguageFallbacks['lld'] = [ 'it', 'rm', 'fur' ]; # Robin 2011-12-04
 $wgTranslateLanguageFallbacks['lmo'] = [ 'pms', 'eml', 'lij', 'vec' ];
 $wgTranslateLanguageFallbacks['luz'] = [ 'fa' ];
+$wgTranslateLanguageFallbacks['mad'] = 'id';
 $wgTranslateLanguageFallbacks['mai'] = 'hi';
 $wgTranslateLanguageFallbacks['mdf'] = [ 'myv' ];
 $wgTranslateLanguageFallbacks['mfe'] = [ 'fr' ]; # Robin 2011-10-18
