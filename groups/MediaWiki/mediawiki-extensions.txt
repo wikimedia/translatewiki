@@ -3103,6 +3103,8 @@ User Page Edit Protection
 User Page View Tracker
 aliasfile = UserPageViewTracker/UserPageViewTracker.alias.php
 
+User Protect
+
 User Status
 ignored = userstatus-delete-thought-text
 
