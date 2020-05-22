@@ -111,12 +111,15 @@ GROUPS:
   - ext-wikidatapagebanner # Iea8b9c1669fa271dcad13f4d5f6de8e8fcafe0d7
   - ext-wikilove-user
   - ext-wikihiero
+  - ext-wikimediacodeofconduct
   - ext-wikimediacontactpagemessages
   - ext-wikimediaeditortasks-user # https://phabricator.wikimedia.org/T218136
   - ext-wikimediaevents
   - ext-wikimediaincubator # r89556
   - ext-wikimediaincubatorinfopage
+  - ext-wikimediainterwikisearchresults
   - ext-wikimediamessages
+  - ext-wikimediaprojectnames
   - ext-wikisource # https://phabricator.wikimedia.org/rOMWC95910299c0a4fdb2d043b9c191beaefae6d4a751
   - ext-xanalytics # 2015-02-02 on all wikis
   - mediawiki-skin-timeless
