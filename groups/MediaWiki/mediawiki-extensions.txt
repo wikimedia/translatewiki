@@ -2704,8 +2704,6 @@ ignored = security-logentry
 
 Simple Sort
 
-Site Scout
-
 Site Matrix - User interface
 id = ext-sitematrix-user
 file = SiteMatrix/i18n/%CODE%.json
