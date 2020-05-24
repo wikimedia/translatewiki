@@ -1652,7 +1652,9 @@ optional = jsonconfig-license-url-CC-BY-4.0+, jsonconfig-license-url-CC-BY-SA-1.
 optional = jsonconfig-license-url-CC-BY-SA-2.0, jsonconfig-license-url-CC-BY-SA-2.5
 optional = jsonconfig-license-url-CC-BY-SA-3.0, jsonconfig-license-url-CC-BY-SA-4.0
 optional = jsonconfig-license-url-CC-BY-SA-4.0+, jsonconfig-license-url-ODbL-1.0
-optional = jsonconfig-license-notice-box-CC0-1.0
+optional = jsonconfig-license-notice-box-CC0-1.0, jsonconfig-license-url-dl-de-zero-2.0
+optional = jsonconfig-license-url-dl-de-by-1.0, jsonconfig-license-url-dl-de-by-2.0
+
 
 # Json Data // Inconsistent prefix
 
