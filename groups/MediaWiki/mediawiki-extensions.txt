@@ -1488,6 +1488,7 @@ ignored = welcomesurvey-sidebar-editing-link4-text, welcomesurvey-sidebar-editin
 Growth Experiments - Help Panel
 id = ext-growthexperiments-helppanel
 file = GrowthExperiments/i18n/help/%CODE%.json
+ignored = growthexperiments-help-panel-suggestededits-tips-vector-visualeditor-copyedit-graphic-2
 
 Growth Experiments - Help Panel API
 id = ext-growthexperiments-helppanel-api
