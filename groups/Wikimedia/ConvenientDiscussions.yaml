@@ -18,22 +18,24 @@ FILES:
 
 TAGS:
   optional:
-    - cm-gotoparent
-    - cm-gotochild
-    - cf-help
-    - cf-help-short
-    - sm-copylink
-    - user-male-dative
-    - user-female-dative
-    - user-unknown-dative
-    - user-male-genitive
-    - user-female-genitive
-    - user-unknown-genitive
+    - convenient-discussions-cm-gotoparent
+    - convenient-discussions-cm-gotochild
+    - convenient-discussions-cf-help
+    - convenient-discussions-cf-help-short
+    - convenient-discussions-cm-copylink
+    - convenient-discussions-sm-copylink
+    - convenient-discussions-user-male-dative
+    - convenient-discussions-user-female-dative
+    - convenient-discussions-user-unknown-dative
+    - convenient-discussions-user-male-genitive
+    - convenient-discussions-user-female-genitive
+    - convenient-discussions-user-unknown-genitive
 
 VALIDATORS:
   - id: BraceBalance
   - id: MediaWikiPlural
   - id: WikiParameter
+    insertable: true
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
