@@ -743,8 +743,8 @@ wikimedia-misc-tools:
       url|export: git@github.com:MusikAnimal/global-search.git
     internetarchivebot:
       type: github
-      url: https://github.com/cyberpower678/Cyberbot_II.git
-      url|export: git@github.com:cyberpower678/Cyberbot_II.git
+      url: https://github.com/internetarchive/internetarchivebot.git
+      url|export: git@github.com:internetarchive/internetarchivebot.git
     pageviews:
       type: github
       url: https://github.com/MusikAnimal/pageviews.git
