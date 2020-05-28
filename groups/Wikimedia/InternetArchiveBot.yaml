@@ -15,7 +15,7 @@ MANGLER:
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/internetarchivebot/app/src/www/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/internetarchivebot/app/src/html/i18n/%CODE%.json"
 
 VALIDATORS:
   - id: InsertableRegex
