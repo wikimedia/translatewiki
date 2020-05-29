@@ -3015,6 +3015,9 @@ Twitter Cards
 Twitter Login
 aliasfile = TwitterLogin/TwitterLogin.alias.php
 
+Twitter Tag
+descmsg = twitter-tag-desc
+
 Twn Main Page
 aliasfile = TwnMainPage/MainPage.alias.php
 descmsg = twnmp-desc
