@@ -963,6 +963,7 @@ ignored = tag-discussiontools, discussiontools-replywidget-reply-link
 optional = discussiontools-preference-info-link
 optional = discussiontools-preference-discussion-link
 optional = discussiontools-replywidget-feedback-link
+optional = discussiontools-signature-prefix
 
 Display Title
 
