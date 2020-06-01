@@ -867,8 +867,7 @@ Contribution Scores
 aliasfile = ContributionScores/ContributionScores.alias.php
 optional = score-visualeditor-mwscoreinspector-card-midi
 
-Contribution Tracking
-aliasfile = ContributionTracking/ContributionTracking.alias.php
+# Contribution Tracking // T253057 - functionality merged into DonationInterface
 
 Contributions List
 

@@ -8,7 +8,6 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
-  - ext-contributiontracking # wikimediafoundation.org
   - ext-di-gc
   - ext-fundraiserlandingpage # r101409 for donatewiki
   - ext-fundraisingtranslateworkflow # 2014-07-14 for Meta
