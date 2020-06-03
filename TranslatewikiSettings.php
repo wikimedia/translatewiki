@@ -36,7 +36,6 @@ $wgAllUnicodeFixes = true;
 $wgDevelopmentWarnings = true;
 $wgPageLanguageUseDB = true;
 $wgLegacyJavaScriptGlobals = false;
-$wgCommentTableSchemaMigrationStage = MIGRATION_WRITE_BOTH;
 
 $wgDeprecationReleaseLimit = '1.30';
 
