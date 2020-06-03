@@ -168,7 +168,6 @@ $wgDefaultUserOptions['watchcreations'] = true;
 $wgEnableUploads = true;
 $wgAllowCopyUploads = true;
 $wgUseImageMagick = false;
-$wgUseTeX = true;
 $wgFileExtensions = [ 'png', 'gif', 'jpg', 'jpeg', 'ogg', 'pdf', 'svg' ];
 
 $wgSVGConverter = 'rsvg';
