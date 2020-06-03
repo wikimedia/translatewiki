@@ -783,10 +783,6 @@ wikimedia-tools:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/p/labs/tools/commons-mass-description
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/commons-mass-description
-    wikimedia-tools/crosswatch:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/labs/tools/crosswatch
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/crosswatch
     wikimedia-tools/guc:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/guc

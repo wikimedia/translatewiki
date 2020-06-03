@@ -266,7 +266,6 @@ $wgTranslateGroupAliases['out-pageviews'] = 'pageviews';
 $wgTranslateGroupAliases['wikinity'] = 'wikimedia-tools-wikinity';
 $wgTranslateGroupAliases['int-heritage'] = 'wikimedia-tools-heritage';
 $wgTranslateGroupAliases['int-guc'] = 'wikimedia-tools-guc';
-$wgTranslateGroupAliases['crosswatch'] = 'wikimedia-tools-crosswatch';
 
 $wgTranslateSupportUrlNamespace[NS_WIKIMEDIA] = [
 	'url' => "$phabUrl?projects=i18n,Wikimedia-General-or-Unknown",

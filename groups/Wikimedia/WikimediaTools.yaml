@@ -39,35 +39,6 @@ INSERTABLES:
 
 ---
 BASIC:
-  id: wikimedia-tools-crosswatch
-  label: crosswatch
-  icon: wiki://Eye-Brown.svg
-  description: "{{Special:MyLanguage/Translations:Group descriptions/Crosswatch/en}}"
-  namespace: NS_WIKIMEDIA
-  class: FileBasedMessageGroup
-
-MANGLER:
-  class: StringMatcher
-  prefix: crosswatch-
-  patterns:
-    - "*"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/wikimedia-tools/crosswatch/frontend/src/i18n/%CODE%.json"
-
-VALIDATORS:
-  # Example: <user>, <user name={{title}}>
-  - id: InsertableRegex
-    insertable: true
-    params: /<\/?[a-zA-Z={}\s_|]+>/
-  # Example: {{number}} or {{flags|list}}
-  - id: InsertableRegex
-    insertable: true
-    params: /{{[a-zA-Z_\|]+}}/
-
----
-BASIC:
   id: wikimedia-tools-guc
   label: Global user contributions
   namespace: NS_INTUITION
