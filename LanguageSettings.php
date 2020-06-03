@@ -5,6 +5,7 @@ $wgExtraLanguageNames['ahr'] = 'अहिराणी'; # Ahirani / Amir 2012-02
 $wgExtraLanguageNames['akz'] = 'Albaamo innaaɬiilka'; # Alabama / Siebrand 2008-09-15
 $wgExtraLanguageNames['ami'] = 'Pangcah'; # Amis / Amir 2017-05-02
 $wgExtraLanguageNames['aro'] = 'Araona'; # Araona / Siebrand 2010-08-25
+$wgExtraLanguageNames['bci'] = 'Wawle'; # Baoulé / Amir 2020-06-03
 $wgExtraLanguageNames['bew'] = 'Bahasa Betawi'; # Betawi / Siebrand 2008-07-13
 $wgExtraLanguageNames['bft'] = 'بلتی'; # Balti / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['bfq'] = 'படகா'; # UBadaga / Siebrand 2009-11-19
