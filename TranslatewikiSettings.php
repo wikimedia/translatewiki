@@ -96,7 +96,6 @@ $wgFooterIcons['netcup'][] = "<div class='mw_poweredby'><a href=\"http://www.net
  * Changes list
  */
 $wgRCMaxAge = 5 * 365 * 24 * 3600; // 5 years
-$wgShowUpdatedMarker = true;
 $wgUseRCPatrol = false;
 $wgUseNPPatrol = false;
 $wgRCLinkLimits = [ 100, 500 ];
@@ -124,13 +123,8 @@ $wgUseInstantCommons = true;
 $wgAllowUserJs = true;
 $wgAllowUserCss = true;
 $wgMinimalPasswordLength = 6;
-$wgBlockAllowsUTEdit = true;
 $wgAutoConfirmAge = 3600 * 24 * 14;
 $wgAutoblockExpiry = 3600 * 24 * 14; // 2 weeks of rest from vandals reusing IPs
-
-$wgEnableEmail = true;
-$wgEnableUserEmail = true;
-$wgPasswordResetRoutes['email'] = true;
 
 $wgEnotifUserTalk = true;
 $wgEnotifWatchlist = true;
