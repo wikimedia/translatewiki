@@ -52,7 +52,6 @@ $wgMaxShellMemory = 1024 * 200;
 $wgJobRunRate = 0;
 $wgJobTypeConf['default'] = [ 'class' => 'JobQueueDB', 'order' => 'random', 'claimTTL' => 60 ];
 $wgMiserMode = true;
-$wgShowIPinHeader = false;
 
 $wgRCMaxAge = 5 * 365 * 24 * 3600; // 5 years
 $wgCategoryCollation = 'uca-default';

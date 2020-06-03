@@ -4,7 +4,6 @@
  * Performance etc.
  */
 $wgMiserMode = true;
-$wgShowIPinHeader = false;
 
 $wgMainCacheType = CACHE_MEMCACHED;
 $wgMessageCacheType = CACHE_MEMCACHED;
