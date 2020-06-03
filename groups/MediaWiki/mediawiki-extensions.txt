@@ -151,9 +151,6 @@ ignored = proxyblock-logentry
 
 # AWS SDK // 2017-06-15: Archived
 
-Azhar Auth
-aliasfile = AzharAuth/AzharAuth.alias.php
-
 Babel - User interface
 id = ext-babel-user
 file = Babel/i18n/%CODE%.json
