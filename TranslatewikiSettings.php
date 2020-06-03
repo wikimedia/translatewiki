@@ -39,7 +39,7 @@ $wgPageLanguageUseDB = true;
 $wgLegacyJavaScriptGlobals = false;
 $wgCommentTableSchemaMigrationStage = MIGRATION_WRITE_BOTH;
 
-$wgDeprecationReleaseLimit = '1.26';
+$wgDeprecationReleaseLimit = '1.30';
 
 /**
  * Unsorted
