@@ -55,6 +55,7 @@ VALIDATORS:
         - ltr
         - rtl
   - id: UnicodePlural
+    enforce: true
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
