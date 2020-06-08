@@ -28,8 +28,7 @@ class wiki (
   file { '/etc/systemd/system/mw-jobrunner.service':
     content => template('wiki/mw-jobrunner.service.erb'),
   }
-
-  service { 'mw-jobrunner':
+  ~> service { 'mw-jobrunner':
     ensure  => running,
     enable  => true,
     require => File['/etc/systemd/system/mw-jobrunner.service'],
@@ -44,7 +43,6 @@ class wiki (
   $packages = [
     # needed for svg images
     'librsvg2-bin',
-    # poolcounter
     'poolcounter',
     'composer',
   ]
