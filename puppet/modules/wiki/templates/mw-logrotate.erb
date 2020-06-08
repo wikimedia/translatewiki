@@ -1,0 +1,14 @@
+# file managed by puppet
+
+<% @log_files.each do |file| -%>
+<%= file %>
+<% end -%>
+{
+  su <%= @maintenance_user %> www-shared
+  copytruncate
+  weekly
+  rotate 4
+  maxage 30
+  nocompress
+  dateext
+}

@@ -14,6 +14,7 @@ classes:
   - '::memcached'
   - '::profile::mwelasticsearch'
   - '::wiki'
+  - '::wiki::docroot'
 
 # Changing this variable is not yet fully supported
 maintenance_user: betawiki

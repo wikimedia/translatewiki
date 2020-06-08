@@ -1,6 +1,5 @@
 classes:
   - '::nginx::devsite'
-  - '::wiki::docroot'
   - '::wiki::workdir'
 
 users::users:

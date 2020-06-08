@@ -16,27 +16,48 @@ class wiki::docroot (
     ensure => 'directory',
   })
 
-  # FIXME: use facl to ensure log files are writable by www-shared
-  file { "/www/${domain}/logs":
-    ensure => 'directory',
-    group  => 'www-shared',
-    mode   => '2664',
-  }
-
   file { "/www/${domain}/docroot/w":
-    ensure => 'symlink',
-    target => $production_dir,
+    ensure  => 'symlink',
+    target  => $production_dir,
+    require => File[ "/www/${domain}/docroot" ],
   }
 
-  file { "/www/${domain}/docroot/images":
-    ensure => 'directory',
-    group  => 'www-shared',
-    mode   => '0664',
+  $shared_directories = [
+    "/www/${domain}/logs",
+    "/www/${domain}/docroot/images",
+    "/www/${domain}/docroot/sitemap",
+  ]
+  file { $shared_directories:
+    ensure  => 'directory',
+    group   => 'www-shared',
+    mode    => '2664',
+    require => Group[ 'www-shared' ],
   }
 
-  file { "/www/${domain}/docroot/sitemap":
-    ensure => 'directory',
-    owner  => $maintenance_user,
-    mode   => '0664',
+  # It seems that php ignores umask for error_log file. Hence default setfacl permissions
+  # are not sufficient here. Instead create the files pre-emptively, which has the added
+  # benefit that also log rotation can use the same list.
+  $log_files = [
+    "/www/${domain}/logs/access_cli",
+    "/www/${domain}/logs/auth",
+    "/www/${domain}/logs/debug",
+    "/www/${domain}/logs/error_js",
+    "/www/${domain}/logs/error_php",
+  ]
+
+  file { $log_files:
+    ensure  => 'file',
+    owner   => $maintenance_user,
+    group   => 'www-shared',
+    mode    => 'ug=rw,o=r',
+    require => [
+      Group[ 'www-shared' ],
+      User[ $maintenance_user ],
+      File[ "/www/${domain}/logs/" ],
+    ],
+  }
+
+  file { '/etc/logrotate.d/mediawiki':
+    content => template('wiki/mw-logrotate.erb'),
   }
 }
