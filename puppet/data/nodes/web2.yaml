@@ -2,7 +2,6 @@ classes:
   - '::users::aliases'
   - '::kitanonl'
   - '::awstats'
-  - '::logrotate'
   - '::nginx::sites'
   - '::eximconf'
   - '::backup'
