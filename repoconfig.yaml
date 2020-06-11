@@ -557,8 +557,8 @@ oppia:
     oppia:
       type: github
       branch: develop
+      pull-branch: translatewiki
       url: https://github.com/oppia/oppia.git
-      branch|export: translatewiki
       url|export: git@github.com:oppia/oppia.git
 
 osm:
