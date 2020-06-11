@@ -553,6 +553,7 @@ nocc:
 
 oppia:
   group: oppia
+  export-threshold: 90
   repos:
     oppia:
       type: github
