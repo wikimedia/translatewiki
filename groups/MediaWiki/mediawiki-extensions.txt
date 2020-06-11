@@ -1410,6 +1410,17 @@ Global Userrights
 aliasfile = GlobalUserrights/GlobalUserrights.alias.php
 descmsg = gur-desc
 
+Global Watchlist
+aliasfile = GlobalWatchlist/GlobalWatchlist.alias.php
+
+Global Watchlist - api
+id = ext-globalwatchlist-api
+file = GlobalWatchlist/i18n/api/%CODE%.json
+
+Global Watchlist - script
+id = ext-globalwatchlist-script
+file = GlobalWatchlist/i18n/script/%CODE%.json
+
 Go To Shell
 aliasfile = GoToShell/GoToShell.alias.php
 
