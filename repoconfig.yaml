@@ -890,3 +890,12 @@ wmcz-tracker:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/wikimedia-cz/tracker
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia-cz/tracker
+
+wpcleaner:
+  group: wpcleaner
+  repos:
+    wpcleaner:
+      type: github
+      pull-branch: translatewiki
+      url: https://github.com/WPCleaner/wpcleaner.git
+      url|export: git@github.com:WPCleaner/wpcleaner.git

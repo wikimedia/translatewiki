@@ -1,0 +1,36 @@
+BASIC:
+  id: wpcleaner
+  label: WPCleaner
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wpcleaner/en}}"
+  icon: wiki://Nuvola_web_broom.svg
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+FILES:
+  class: GettextFFS
+  definitionFile: "%GROUPROOT%/wpcleaner/WikipediaCleaner/src/org/wikipediacleaner/translations/WikiCleaner.pot"
+  sourcePattern: "%GROUPROOT%/wpcleaner/WikipediaCleaner/src/org/wikipediacleaner/translations/%CODE%.pot"
+  codeMap:
+    en-gb: en_GB
+    pt-br: pt_BR
+    zh-hans: zh_CN
+    zh-hant: zh_TW
+  header: |
+    # This file is distributed under the same license as the wikicleaner package.
+    #
+
+MANGLER:
+  class: StringMatcher
+  prefix: wpcleaner-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: GettextPlural
+    enforce: true
+  - id: GettextNewline
+    enforce: true
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /{[0-9]+}/
