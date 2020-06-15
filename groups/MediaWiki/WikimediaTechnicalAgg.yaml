@@ -40,7 +40,8 @@ GROUPS:
   - ext-flow-api
   - ext-globalpreferences-api
   - ext-growthexperiments-helppanel-api
-  - ext-growthexperiments-welcomesurvey-api
+  - ext-growthexperiments-homepage-api
+  - ext-growthexperiments-newcomertasks-api
   - ext-jade-api
   - ext-jsonconfig-api
   - ext-kartographer-api

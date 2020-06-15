@@ -1518,6 +1518,10 @@ Growth Experiments - Confirm Email
 id = ext-growthexperiments-confirmemail
 file = GrowthExperiments/i18n/confirmemail/%CODE%.json
 
+Growth Experiments - Newcomer Tasks API
+id = ext-growthexperiments-newcomertasks-api
+file = GrowthExperiments/i18n/newcomertasks/api/%CODE%.json
+
 Guided Tour
 optional = guidedtour-tour-test-wikitext-description
 
