@@ -522,6 +522,10 @@ mwgithub:
       type: github
       url: https://github.com/SemanticMediaWiki/WhatsNearby.git
       url|export: git@github.com:SemanticMediaWiki/WhatsNearby.git
+    mwgithub/StarCitizenTools/mediawiki-skins-Citizen:
+      type: github
+      url: https://github.com/StarCitizenTools/mediawiki-skins-Citizen.git
+      url|export: git@github.com:StarCitizenTools/mediawiki-skins-Citizen.git
     mwgithub/thingles/foreground:
       type: github
       url: https://github.com/thingles/foreground.git

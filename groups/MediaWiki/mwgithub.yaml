@@ -745,3 +745,14 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Nikerabbit/mediawiki-extensions-Lud/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-star-citizen
+  label: Citizen
+  description: "{{Special:MyLanguage/MediaWiki:citizen-desc/en}}"
+  icon: wiki://Starcitizen-logo.svg
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-skins-Citizen/i18n/%CODE%.json"
