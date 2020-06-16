@@ -562,7 +562,7 @@ oppia:
     oppia:
       type: github
       branch: develop
-      pull-branch: translatewiki
+      pull-branch: translatewiki-prs
       url: https://github.com/oppia/oppia.git
       url|export: git@github.com:oppia/oppia.git
 
