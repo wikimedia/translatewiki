@@ -9,7 +9,6 @@ BASIC:
 
 GROUPS:
   - ext-capiunto # 2016-02-16
-  - ext-discussiontools # https://phabricator.wikimedia.org/rOMWCdb2cc6121bf168f043b2a6973069232e5b415b67
   - ext-dynamicsidebar # Deployed but unused
   - ext-jade-user # https://phabricator.wikimedia.org/rOMWC6bc21f7994d5d818b2ffecb2606af14589a65c31
   - ext-mediamoderation # https://phabricator.wikimedia.org/rOMWCd9593df2c9f7a9a753cbd2dec5ef5743b76b32bf

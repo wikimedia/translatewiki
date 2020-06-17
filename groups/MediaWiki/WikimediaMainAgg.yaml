@@ -24,6 +24,7 @@ GROUPS:
   - ext-confirmeditfancycaptcha-user
   - ext-contenttranslation-user
   - ext-disambiguator
+  - ext-discussiontools
   - ext-dismissablesitenotice
   - ext-echo-interface
   - ext-electronpdfservice # https://phabricator.wikimedia.org/rOMWC59b7e9756ad81509deb492dc4ae24f59c3267307
