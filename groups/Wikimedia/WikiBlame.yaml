@@ -16,15 +16,16 @@ FILES:
      */
 
 VALIDATORS:
-  - class: WikiBlameValidator
-    enforce: true
   - id: InsertableRegex
     enforce: true
     insertable: true
     params: /_[\p{Lu}_]+_/u
-
-AUTOLOAD:
-  WikiBlameValidator: WikiBlameValidator.php
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    keymatch:
+      - messages\x5b'date_format'\x5d
+    params: /YYYY|MM|DD/
 
 TAGS:
   optional:
