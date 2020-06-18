@@ -438,6 +438,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/ModernTimeline.git
       url|export: git@github.com:ProfessionalWiki/ModernTimeline.git
+    mwgithub/ProfessionalWiki/Network:
+      type: github
+      url: https://github.com/ProfessionalWiki/Network.git
+      url|export: git@github.com:ProfessionalWiki/Network.git
     mwgithub/ProfessionalWiki/SimpleBatchUpload:
       type: github
       url: https://github.com/ProfessionalWiki/SimpleBatchUpload.git
