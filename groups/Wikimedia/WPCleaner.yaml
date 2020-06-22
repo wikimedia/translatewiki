@@ -8,8 +8,8 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  definitionFile: "%GROUPROOT%/wpcleaner/WikipediaCleaner/src/org/wikipediacleaner/translations/WikiCleaner.pot"
-  sourcePattern: "%GROUPROOT%/wpcleaner/WikipediaCleaner/src/org/wikipediacleaner/translations/%CODE%.pot"
+  definitionFile: "%GROUPROOT%/wpcleaner/WikipediaCleaner/src/org/wikipediacleaner/translation/WikiCleaner.pot"
+  sourcePattern: "%GROUPROOT%/wpcleaner/WikipediaCleaner/src/org/wikipediacleaner/translation/%CODE%.po"
   codeMap:
     en-gb: en_GB
     pt-br: pt_BR
