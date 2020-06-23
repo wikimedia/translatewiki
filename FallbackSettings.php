@@ -75,7 +75,6 @@ $wgTranslateLanguageFallbacks['ks-deva'] = 'hi'; # Robin
 $wgTranslateLanguageFallbacks['ksf'] = [ 'fr' ]; # Robin 2011-10-21
 $wgTranslateLanguageFallbacks['kum'] = 'ru';
 $wgTranslateLanguageFallbacks['kv'] = 'ru';
-$wgTranslateLanguageFallbacks['kw'] = [ 'br', 'cy' ];
 $wgTranslateLanguageFallbacks['lag'] = [ 'sw' ]; # Amir 2017-05-03
 $wgTranslateLanguageFallbacks['lb'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['lez'] = [ 'ru', 'az' ]; # Robin 2011-09-27
