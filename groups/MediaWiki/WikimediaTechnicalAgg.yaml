@@ -50,6 +50,7 @@ GROUPS:
   - ext-machinevision-api
   - ext-massmessage-api
   - ext-math-api
+  - ext-mediamoderation # https://phabricator.wikimedia.org/rOMWC78ef1c798bc0df1ff9518348e939a3ee722cc3e7
   - ext-mobilefrontend-api
   - ext-newsletter-api
   - ext-oathauth-api
