@@ -3,6 +3,7 @@
 $wgExtraLanguageNames['acf'] = 'kwéyòl'; # Saint Lucian Creole French / Siebrand 2012-08-05
 $wgExtraLanguageNames['ahr'] = 'अहिराणी'; # Ahirani / Amir 2012-02-25
 $wgExtraLanguageNames['akz'] = 'Albaamo innaaɬiilka'; # Alabama / Siebrand 2008-09-15
+$wgExtraLanguageNames['als'] = 'Tosk'; # Correct incorrect name from MediaWiki core / Nike 2016-05-04
 $wgExtraLanguageNames['aro'] = 'Araona'; # Araona / Siebrand 2010-08-25
 $wgExtraLanguageNames['atv'] = 'тÿндÿк алтай'; # Northern Altay / Amir 2020-06-07
 $wgExtraLanguageNames['bci'] = 'Wawle'; # Baoulé / Amir 2020-06-03
