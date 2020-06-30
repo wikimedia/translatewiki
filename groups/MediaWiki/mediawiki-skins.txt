@@ -101,4 +101,7 @@ optional = vector.css, vector.js
 webplatform
 ignored = webplatform-bottom-footer
 
+WikimediaApiPortal
+ignored = wikimediaapiportal-skin-site-name-main, wikimediaapiportal-skin-site-name-sub
+
 WPtouch
