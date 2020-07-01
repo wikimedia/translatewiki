@@ -5,9 +5,14 @@ TEMPLATE:
 
   VALIDATORS:
     - id: BraceBalance
-    - id: MediaWikiMisc
     - id: MediaWikiPageName
     - id: MediaWikiPlural
+    - id: MediaWikiTimeList
+      keymatch:
+        - ipboptions
+        - protect-expiry-options
+        - userrights-expiry-options
+        - watchlist-expiry-options
     - id: WikiLink
     - id: WikiParameter
 
