@@ -266,6 +266,16 @@ $wgHooks['LanguageGetNamespaces'][] = function ( &$list ) {
 	return true;
 };
 
+$wgHooks['GetPreferences'][] = function ( User $user, array &$preferences ) {
+	// 'translate-pref-nonewsletter' is used as opt-out for
+	// users with a confirmed email address
+	$preferences['translate-nonewsletter'] = [
+		'type' => 'toggle',
+		'section' => 'personal/email',
+		'label-message' => 'translate-pref-nonewsletter',
+	];
+};
+
 $wgResourceModules['twn.jserrorlog'] = [
 	'localBasePath' => __DIR__ . '/webfiles',
 	'remoteBasePath' => "$wgScriptPath/webfiles",
