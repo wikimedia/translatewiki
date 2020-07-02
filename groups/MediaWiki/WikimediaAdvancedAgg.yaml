@@ -12,6 +12,7 @@ GROUPS:
   - ext-articlecreationworkflow # https://phabricator.wikimedia.org/rOMWCcacbf4b98500559e529b770b0c2c8bdd2ee49ec4
   - ext-articleplaceholder # 2016-02-09
   - ext-bouncehandler-user # 2014-11-05 Change-Id: I64c09d17146bf9a3cee582fcea0e19aed6f4ce3d
+  - ext-capiunto # wikidataclient-test
   - ext-centralauth-user
   - ext-centralnotice-user
   - ext-charinsert
@@ -24,6 +25,7 @@ GROUPS:
   - ext-dashiki
   - ext-diff
   - ext-doublewiki # Wikisource
+  - ext-dynamicsidebar # Wikitech wiki
   - ext-elastica # 2013-09-20 for CirrusSearch, change id: 7acdc7e8c346f00dcce1412f057ea38ad3d3e649
   - ext-entityschema
   - ext-eventbus # 2016-01-21 for MediaWiki.org, change id: 603461016bd9a4cc862f4713fd57358b0cd38f2d
