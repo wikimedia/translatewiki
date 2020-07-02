@@ -27,6 +27,7 @@ $wgExtraLanguageNames['cnh'] = 'Lai holh'; # Haka Chin / Siebrand 2014-08-06
 $wgExtraLanguageNames['cop'] = 'ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ'; # Coptic / Amir 2017-07-27
 $wgExtraLanguageNames['cpx'] = 'Pó-sing-gṳ̂'; # Pu-Xian Min (莆仙語) / 2016-06-22
 $wgExtraLanguageNames['dag'] = 'dagbanli'; # Dagbani / Amir 2017-06-01
+$wgExtraLanguageNames['elm'] = 'Eleme'; # Eleme / Amir 2020-07-02
 $wgExtraLanguageNames['es-formal'] = 'español (formal)'; # Spanish (formal address) / Siebrand 2010-11-22
 $wgExtraLanguageNames['esu'] = 'Yup\'ik'; # Central Alaskan Yupik / Siebrand 2011-02-14
 $wgExtraLanguageNames['fax'] = 'Fala'; # Fala / Nikerabbit 2016-06-22
