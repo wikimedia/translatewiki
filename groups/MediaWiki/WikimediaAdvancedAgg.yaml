@@ -102,6 +102,7 @@ GROUPS:
   - ext-translationnotifications # 2012-05-??: meta, mediawiki, wikimania, incubator, and other
   - ext-trustedxff
   - ext-urlshortener-user # 2018-12-??
+  - ext-webauthn-user # https://phabricator.wikimedia.org/rOMWC0de5b4d3518e98ad8197908d83ca73cf2898a083
   - ext-wikibasecirrussearch # https://phabricator.wikimedia.org/rOMWCe1e1d3a3d4ba4f5124b8d5e302d15efd2fd49440
   - ext-wikibasedatamodel
   - ext-wikibaselexeme-user # https://phabricator.wikimedia.org/rOMWC87b1251792a9c65b300ee0ca3686ffc155b084e0
