@@ -3484,6 +3484,7 @@ file = WikimediaMessages/i18n/temporary/%CODE%.json
 prefix = temporary- | wikimediamessages-desc
 
 Wikispeech
+optional = wikispeech
 
 # Windows Azure SDK // 2017-06-15: Archived
 
