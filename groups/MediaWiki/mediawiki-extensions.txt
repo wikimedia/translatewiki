@@ -682,8 +682,10 @@ Check User - User interface
 id = ext-checkuser-user
 file = CheckUser/i18n/%CODE%.json
 aliasfile = CheckUser/CheckUser.alias.php
-ignored = checkuser-toollinks, checkuser-userlinks-ip
+ignored = checkuser-toollinks, checkuser-userlinks-ip, checkuser-investigate-compare-toollinks
 optional = group-checkuser.css, group-checkuser.js
+optional = checkuser-investigate-compare-toollinks-whois, checkuser-investigate-compare-toollinks-rbls
+optional = checkuser-investigate-compare-toollinks-traceroute
 
 Check User - API
 id = ext-checkuser-api
