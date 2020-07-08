@@ -21,16 +21,16 @@ VALIDATORS:
     enforce: true
     insertable: true
     params: '/{(?:VAR|GVAR|TEMPLATE|VAR-HTML|FUNC): [^}]+}/'
-  - class: FUDforumValidator
+  - id: Replacement
     enforce: true
+    params:
+      search: '{{PLURAL:'
+      replace: '{PLURAL:'
 
 INSERTABLES:
   # HTML entities
   - class: RegexInsertablesSuggester
     params: '/&#?\w+;/'
-
-AUTOLOAD:
-  FUDforumValidator: Validator.php
 
 TAGS:
   optional:
