@@ -9,7 +9,6 @@ TEMPLATE:
 
   VALIDATORS:
     - id: BraceBalance
-    - id: MediaWikiMisc
     - id: MediaWikiPageName
     - id: MediaWikiPlural
     - id: WikiLink
