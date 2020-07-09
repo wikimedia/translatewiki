@@ -31,8 +31,8 @@ FILES:
   sourcePattern: "%GROUPROOT%/wiki-ai/wikilabels/wikilabels/i18n/%CODE%.json"
 
 VALIDATORS:
-  - id: WikiParameter
   - id: BraceBalance
+  - id: MediaWikiParameter
 
 INSERTABLES:
   - class: MediaWikiInsertablesSuggester

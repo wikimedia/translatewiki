@@ -33,9 +33,9 @@ TAGS:
 
 VALIDATORS:
   - id: BraceBalance
-  - id: MediaWikiPlural
-  - id: WikiParameter
+  - id: MediaWikiParameter
     insertable: true
+  - id: MediaWikiPlural
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester

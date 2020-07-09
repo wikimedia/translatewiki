@@ -12,10 +12,10 @@ TEMPLATE:
     class: JsonFFS
 
   VALIDATORS:
-    - id: WikiParameter
-      insertable: true
-      enforce: false
     - id: BraceBalance
+      enforce: false
+    - id: MediaWikiParameter
+      insertable: true
       enforce: false
 
   MANGLER:

@@ -17,8 +17,8 @@ FILES:
 
 VALIDATORS:
   - id: BraceBalance
+  - id: MediaWikiParameter
   - id: MediaWikiPlural
-  - id: WikiParameter
 
 INSERTABLES:
   - class: MediaWikiInsertablesSuggester

@@ -17,6 +17,6 @@ FILES:
     cs: cz
 
 VALIDATORS:
-  - id: WikiParameter
+  - id: MediaWikiParameter
     insertable: true
     enforce: false

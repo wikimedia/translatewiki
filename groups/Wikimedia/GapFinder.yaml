@@ -17,7 +17,7 @@ FILES:
   sourcePattern: "%GROUPROOT%/recommendation-api/recommendation/web/static/i18n/%CODE%.json"
 
 VALIDATORS:
-  - id: WikiParameter
+  - id: MediaWikiParameter
   - id: MediaWikiPlural
 
 INSERTABLES:
