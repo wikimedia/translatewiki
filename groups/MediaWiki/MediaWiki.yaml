@@ -5,7 +5,9 @@ TEMPLATE:
 
   VALIDATORS:
     - id: BraceBalance
+    - id: MediaWikiLink
     - id: MediaWikiPageName
+    - id: MediaWikiParameter
     - id: MediaWikiPlural
     - id: MediaWikiTimeList
       keymatch:
@@ -13,8 +15,7 @@ TEMPLATE:
         - protect-expiry-options
         - userrights-expiry-options
         - watchlist-expiry-options
-    - id: WikiLink
-    - id: WikiParameter
+
 
   INSERTABLES:
     - class: MediaWikiInsertablesSuggester
