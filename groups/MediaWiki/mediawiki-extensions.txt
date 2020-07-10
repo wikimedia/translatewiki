@@ -1173,6 +1173,7 @@ File Exporter
 
 File Importer
 aliasfile = FileImporter/FileImporter.alias.php
+ignored = fileimporter-post-import-revision-annotation
 
 # File System Image Server // 2018-08-09: Empty repo
 
