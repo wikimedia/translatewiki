@@ -3306,6 +3306,7 @@ aliasfile = Wikibase/repo/Wikibase.i18n.alias.php
 optional = wikibase-itemlink, wikibase-itemlink-id-wrapper, wikibase-itemlink-title, wikibase-propertyedittool-counter-pending-pendingsubpart
 optional = wikibase-itemlink-userlang-wrapper
 optional = wikibase-mylanguagefallbackchain-verbatim-item
+optional = special-parameterized-description-separator
 ignored = wikibase-api-common-item, wikibase-api-badtoken, wikibase-api-cant-load-entity-content
 ignored = wikibase-api-editconflict, wikibase-api-failed-add-sitelink, wikibase-api-failed-modify
 ignored = wikibase-api-failed-save, wikibase-api-inconsistent-language, wikibase-api-inconsistent-site
