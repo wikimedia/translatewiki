@@ -384,6 +384,7 @@ TAGS:
     - deletedarticle
     - deletedarticle
     - deletedcontributions-summary
+    - deletereason-dropdown-suppress
     - diff-form-summary
     - disambiguations-summary
     - doubleredirects-summary
@@ -397,6 +398,7 @@ TAGS:
     - emailuser-summary
     - export-summary
     - fewestrevisions-summary
+    - filedelete-reason-dropdown-suppress
     - googlesearch
     - helplogin-url
     - helppage
