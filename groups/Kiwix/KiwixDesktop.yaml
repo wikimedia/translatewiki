@@ -10,3 +10,12 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/kiwix-desktop/resources/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    params: /{{[a-zA-Z_0-9]+}}/
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
