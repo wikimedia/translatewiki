@@ -3255,6 +3255,8 @@ optional = group-forumadmin.css, group-forumadmin.js
 
 # Wiki Labels // Archived
 
+Wiki Lambda
+
 Wiki Lexical Data
 file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
 aliasfile = WikiLexicalData/WikiLexicalData.i18n.alias.php
