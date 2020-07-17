@@ -2120,6 +2120,8 @@ optional = oauth, mwoauth-listgrantrights-right-display
 OAuth Authentication
 descmsg = oauthauth-desc
 
+OAuth Rate Limiter
+
 OdbcDatabase
 aliasfile = OdbcDatabase/OdbcDatabase.alias.php
 
