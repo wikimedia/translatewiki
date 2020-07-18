@@ -3499,6 +3499,7 @@ optional = wikispeech, prefs-wikispeech
 Windows Azure Storage
 
 Wiki Share
+magicfile = WikiShare/WikiShare.i18n.magic.php
 
 Wikisource
 
