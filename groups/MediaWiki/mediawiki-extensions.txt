@@ -137,6 +137,7 @@ Auth_remoteuser
 Author Protect
 
 Auto Categorise Uploads
+magicfile = AutoCategoriseUploads/AutoCategoriseUploads.i18n.magic.php
 descmsg = autocatuploads-desc
 
 Auto Create Category Pages
