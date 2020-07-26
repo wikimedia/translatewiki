@@ -3029,6 +3029,7 @@ aliasfile = TranslationNotifications/TranslationNotifications.alias.php
 Trusted XFF
 
 Tweet A New
+magicfile = TweetANew/TweetANew.i18n.magic.php
 ignored = tweetanew-accesskey
 
 Twitter Cards
