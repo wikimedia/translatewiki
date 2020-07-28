@@ -101,6 +101,7 @@ $wgTranslateLanguageFallbacks['smn'] = [ 'fi', 'sma' ];
 $wgTranslateLanguageFallbacks['swb'] = 'sw';
 $wgTranslateLanguageFallbacks['tji'] = 'zh-hans';
 $wgTranslateLanguageFallbacks['tkr'] = 'ru';
+$wgTranslateLanguageFallbacks['tly'] = [ 'az', 'azb', 'fa', 'ru' ];
 $wgTranslateLanguageFallbacks['tru'] = 'arc'; # Robin 2012-02-18
 $wgTranslateLanguageFallbacks['tsd'] = 'el';
 $wgTranslateLanguageFallbacks['ug-arab'] = [ 'ug-latn', 'zh-hans', 'zh-hant' ]; # Robin 2011-11-14
