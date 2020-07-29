@@ -2574,7 +2574,9 @@ ignored = rss-item
 
 RT
 
-# S5 Slide Show // 2020-06-08: missing qqq
+S5 Slide Show
+ignored = special-s5SlideShow-intro
+optional = s5slide-name
 
 Sacred Text
 magicfile = SacredText/SacredText.i18n.magic.php
