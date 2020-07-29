@@ -720,6 +720,8 @@ id = ext-cite-visualeditor
 file = Cite/modules/ve-cite/i18n/%CODE%.json
 ignored = visualeditor-cite-tool-definition.json, cite-tool-definition.json
 
+Cite Drawer
+
 Cite This Page
 aliasfile = CiteThisPage/CiteThisPage.alias.php
 ignored = citethispage-summary, accesskey-citethispage
