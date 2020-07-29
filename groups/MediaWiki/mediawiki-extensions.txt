@@ -2427,7 +2427,7 @@ descmsg = poll-desc
 
 Pool Counter
 
-# Popup Alerts // 2019-04-14: Empty repo
+Popup Alerts
 
 Popups
 
