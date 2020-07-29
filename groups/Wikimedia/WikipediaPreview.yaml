@@ -1,0 +1,17 @@
+BASIC:
+  id: wikipedia-preview
+  label: Wikipedia Preview
+  icon: wiki://Wikimedia-logo.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikipedia-preview/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+MANGLER:
+  prefix: wikipedia-preview-
+  class: StringMatcher
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikipedia-preview/i18n/%CODE%.json"

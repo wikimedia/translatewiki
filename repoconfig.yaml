@@ -861,6 +861,15 @@ wikipedia-library:
       url: https://github.com/WikipediaLibrary/TWLight.git
       url|export: git@github.com:WikipediaLibrary/TWLight.git
 
+wikipedia-preview:
+  group: wikipedia-preview
+  repos:
+    wikipedia-preview:
+      type: github
+      branch: master
+      url: https://github.com/wikimedia/wikipedia-preview.git
+      url|export: git@github.com:wikimedia/wikipedia-preview.git
+
 wikisource:
   group: wscontest,ia-upload
   repos:
