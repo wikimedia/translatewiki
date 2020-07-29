@@ -9,6 +9,7 @@ BASIC:
 
 GROUPS:
   - mediawiki-api
+  - mediawiki-skin-wikimediaapiportal
   - mediawiki-rest-api
   - wikimedia-paramvalidator
   - ext-abusefilter-api
@@ -85,4 +86,5 @@ GROUPS:
   - ext-wikibasemediainfo-api
   - ext-wikibasequalityconstraints-api
   - ext-wikilove-api
+  - ext-wikimediaapiportaloauth
   - ext-wikimediaeditortasks-api
