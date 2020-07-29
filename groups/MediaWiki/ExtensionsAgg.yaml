@@ -164,6 +164,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-discussiontools
+  label: Discussion Tools
+  description: '{{Special:MyLanguage/MediaWiki:Discussiontools-desc/en}}'
+
+GROUPS:
+  - ext-discussiontools-*
+
+---
+BASIC:
   id: ext-flaggedrevs
   label: Flagged Revs
   description: '{{Special:MyLanguage/Translations:Group descriptions/flaggedrevs/en}}'

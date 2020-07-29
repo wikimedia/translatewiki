@@ -961,7 +961,14 @@ magicfile = Disambiguator/Disambiguator.i18n.magic.php
 
 Discussion Threading
 
-Discussion Tools
+Discussion Tools - API
+file = DiscussionTools/i18n/api/%CODE%.json
+id = ext-discussiontools-api
+ptional = apihelp-discussiontoolsedit-param-html
+
+Discussion Tools - User interface
+file = DiscussionTools/i18n/%CODE%.json
+id = ext-discussiontools-user
 ignored = tag-discussiontools, discussiontools-replywidget-reply-link
 optional = discussiontools-preference-info-link
 optional = discussiontools-preference-discussion-link
