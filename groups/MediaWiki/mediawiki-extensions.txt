@@ -3394,6 +3394,8 @@ optional = wikihiero-help-link
 #Wikilog Feed
 #file = WikiLog/i18n/wlfeed/%CODE%.json
 
+Wikimedia Api Portal OAuth
+
 Wikimedia Badges
 
 Wikimedia Editor Tasks - User Interface
