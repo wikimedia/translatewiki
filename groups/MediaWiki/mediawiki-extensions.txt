@@ -2766,8 +2766,51 @@ Smooth Gallery
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
 ignored = smoothgallery-pagetext
 
-Social Profile
+SocialProfile
 aliasfile = SocialProfile/SocialProfile.alias.php
+
+SocialProfile - SystemGifts
+id = ext-socialprofile-systemgifts
+file = SocialProfile/SystemGifts/i18n/%CODE%.json
+descmsg = systemgifts-desc
+optional = ga-gift-title
+
+SocialProfile - UserActivity
+id = ext-socialprofile-useractivity
+file = SocialProfile/UserActivity/i18n/%CODE%.json
+descmsg = useractivity-desc
+ignored = useractivity-friendsactivity-filter
+
+SocialProfile - UserBoard
+id = ext-socialprofile-userboard
+file = SocialProfile/UserBoard/i18n/%CODE%.json
+descmsg = userboard-desc
+
+SocialProfile - UserGifts
+id = ext-socialprofile-usergifts
+file = SocialProfile/UserGifts/i18n/%CODE%.json
+descmsg = usergifts-desc
+
+SocialProfile - UserProfile
+id = ext-socialprofile-userprofile
+file = SocialProfile/UserProfile/i18n/%CODE%.json
+descmsg = edit-profile-title
+ignored = avatarlogentry, profilelogentry, userprofile-country-list, action-editothersprofiles-private, update_profile_nav
+
+SocialProfile - UserRelationship
+id = ext-socialprofile-userrelationship
+file = SocialProfile/UserRelationship/i18n/%CODE%.json
+descmsg = userrelationship-desc
+
+SocialProfile - UserStats
+id = ext-socialprofile-userstats
+file = SocialProfile/UserStats/i18n/%CODE%.json
+descmsg = userstats-desc
+
+SocialProfile - UserWelcome
+id = ext-socialprofile-userwelcome
+file = SocialProfile/UserWelcome/i18n/%CODE%.json
+descmsg = userwelcome-desc
 
 Sofa
 

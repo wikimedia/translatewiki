@@ -65,6 +65,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaUpcomingAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaWikivoyageAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/ExtensionsAgg.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/SocialProfileAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/SkinsAgg.yaml";
 $wgTranslateGroupAliases['ext-cirrussearch-0-all'] = 'ext-cirrussearch';
 $wgTranslateGroupAliases['ext-contenttranslation-0-all'] = 'ext-contenttranslation';
