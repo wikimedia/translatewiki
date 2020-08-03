@@ -195,7 +195,10 @@ Biblio Plus
 Block And Nuke
 aliasfile = BlockAndNuke/BlockAndNuke.alias.php
 
-# Blog Page // incosistent prefix 2017-11-05, T200989
+BlogPage
+aliasfile = BlogPage/includes/BlogPage.alias.php
+descmsg = blogpage-desc
+ignored = blog-create-rules, blog-tagcloud-blacklist
 
 Blue Spice
 id = ext-bs
