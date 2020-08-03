@@ -2785,11 +2785,13 @@ SocialProfile - UserBoard
 id = ext-socialprofile-userboard
 file = SocialProfile/UserBoard/i18n/%CODE%.json
 descmsg = userboard-desc
+ignored = action-userboard-delete
 
 SocialProfile - UserGifts
 id = ext-socialprofile-usergifts
 file = SocialProfile/UserGifts/i18n/%CODE%.json
 descmsg = usergifts-desc
+ignored = action-giftadmin
 
 SocialProfile - UserProfile
 id = ext-socialprofile-userprofile
