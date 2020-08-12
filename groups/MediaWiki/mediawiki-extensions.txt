@@ -139,6 +139,7 @@ Author Protect
 Auto Categorise Uploads
 magicfile = AutoCategoriseUploads/AutoCategoriseUploads.i18n.magic.php
 descmsg = autocatuploads-desc
+optional = autocatuploads
 
 Auto Create Category Pages
 
@@ -976,6 +977,7 @@ optional = discussiontools-preference-info-link
 optional = discussiontools-preference-discussion-link
 optional = discussiontools-replywidget-feedback-link
 optional = discussiontools-signature-prefix
+optional = discussiontools
 
 Display Title
 
@@ -1182,10 +1184,12 @@ file = FeaturedFeeds/i18n/api/%CODE%.json
 File Annotations
 
 File Exporter
+optional = fileexporter
 
 File Importer
 aliasfile = FileImporter/FileImporter.alias.php
 ignored = fileimporter-post-import-revision-annotation
+optional = fileimporter
 
 # File System Image Server // 2018-08-09: Empty repo
 
@@ -1202,6 +1206,7 @@ optional = revreview-toggle-show, revreview-toggle-hide
 optional = group-editor.css, group-editor.js
 optional = group-reviewer.css, group-reviewer.js
 optional = group-autoreview.css, group-autoreview.js
+optional = flaggedrevs
 ignored = revreview-ak-review, accesskey-ca-current, accesskey-ca-stable
 ignored = flaggedrevs-stable-categories, flaggedrevs-diffonly
 
@@ -1311,6 +1316,7 @@ ignored = form-template-pattern
 Form Wizard
 aliasfile = FormWizard/FormWizard.alias.php
 magicfile = FormWizard/FormWizard.magic.php
+optional = formwizard
 
 Format Dates
 
@@ -1341,6 +1347,7 @@ file = Gadgets/i18n/api/%CODE%.json
 
 Genealogy
 optional = genealogy-born-and-died
+optional = genealogy
 
 Generate Mocha Config
 
@@ -1495,6 +1502,7 @@ aliasfile = Graph/Graph.alias.php
 
 Graph QL
 aliasfile = GraphQL/GraphQL.alias.php
+optional = graphql
 
 GraphViz
 
@@ -1550,6 +1558,7 @@ ignored = gwtoolset-menu, gwtoolset-painted-by, tag-gwtoolset
 HA Welcome
 ignored = welcome-user, welcome-enabled
 descmsg = welcome-user-desc
+optional = welcome-user-name
 
 Hash Tables
 
@@ -2374,6 +2383,7 @@ id = ext-parsoidbatchapi-user
 file = ParsoidBatchAPI/i18n/%CODE%.json
 
 Passwordless Login
+optional = passwordlesslogin
 
 # Incomplete message doc
 # Patroller
@@ -2441,6 +2451,7 @@ Pool Counter
 Popup Alerts
 
 Popups
+optional = popups-message
 
 Preferences List
 aliasfile = PreferencesList/PreferencesList.i18n.alias.php
@@ -2576,6 +2587,7 @@ descmsg = revcs-desc
 optional = revcs-log-supplement
 
 Revision Slider
+optional = revisionslider
 
 Right Functions
 optional = rightfunctions-rest1, rightfunctions-rest2, rightfunctions-rest3, rightfunctions-sep
@@ -2959,6 +2971,7 @@ file = Thanks/i18n/api/%CODE%.json
 Theme
 
 The Wikipedia Library
+optional = thewikipedialibrary
 
 THICC
 optional = thicc-displayname
@@ -3275,6 +3288,7 @@ aliasfile = WebDAV/languages/WebDAV.alias.php
 
 Web Tools Manager
 aliasfile = WebToolsManager/WebToolsManager.alias.php
+optional = webtoolsmanager-name
 
 White Space
 
