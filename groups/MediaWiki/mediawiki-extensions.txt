@@ -1915,7 +1915,7 @@ MediaWiki Chat
 aliasfile = MediaWikiChat/MediaWikiChat.alias.php
 descmsg = chat-desc
 ignored = chat-smileys, chat-mod-image
-optional = logentry-chat-send
+optional = logentry-chat-send, chat.css, chat.js
 
 MediaWiki Farm
 
