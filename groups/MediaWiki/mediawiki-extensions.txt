@@ -1083,11 +1083,11 @@ id = ext-echo-interface
 aliasfile = Echo/Echo.alias.php
 optional = echo-badge-count
 optional = echo-email-batch-bullet
-optional = notification-body-edit-user-talk-with-section, notification-body-reverted
+optional = notification-body-edit-user-talk-with-section
 optional = echo-foreign-wiki-lang, echo-specialpage-pagination-range
 ignored = echo-email-batch-separator, notification-welcome-link, notification-body-mention
 ignored = notification-body-emailuser
-ignored = notification-body-foreign, echo-blacklist
+ignored = notification-body-foreign, echo-blacklist, notification-body-reverted
 
 Echo - API
 id = ext-echo-api
