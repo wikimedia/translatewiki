@@ -1298,6 +1298,7 @@ ignored = notification-body-flow-new-topic-user-talk, notification-body-flow-pos
 ignored = notification-body-flow-post-edited-user-talk, notification-body-flow-description-edited, notification-body-flow-description-edited-user-talk
 ignored = notification-body-flow-summary-edited, notification-body-flow-summary-edited-user-talk
 optional = flow-post-interaction-separator, notification-compact-header-flow-new-topic, notification-compact-header-flow-post-reply
+optional = flow-special-uuid
 
 Flow - API
 id = ext-flow-api
