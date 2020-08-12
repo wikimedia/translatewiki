@@ -83,7 +83,7 @@ ignored = refreshed-this-wiki-wordmark, refreshed-wiki-dropdown
 ignored = refreshed-icon-logged-in, refreshed-icon-logged-out
 
 Splash
-ignored = site-banner, global-links-menu, content-footer, splash-personaltools
+ignored = site-banner, global-links-menu, content-footer, splash-personaltools, splash-loggedinas
 
 Tempo
 
