@@ -88,7 +88,7 @@ ignored = site-banner, global-links-menu, content-footer, splash-personaltools, 
 Tempo
 
 Timeless
-optional = skinname-timeless, timeless.css, timeless.jsn
+optional = skinname-timeless, timeless.css, timeless.js
 ignored = timeless-sitetitle
 
 # Tomas // no i18n file
