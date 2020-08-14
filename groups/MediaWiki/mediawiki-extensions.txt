@@ -1925,7 +1925,9 @@ magicfile = MetaMaster/MetaMaster.i18n.magic.php
 
 # Metadata // 2018-07-18: wrong extension prefix
 
-# Mini Invite //  Missing qqq
+MiniInvite
+aliasfile = MiniInvite/includes/MiniInvite.alias.php
+descmsg = invite-desc
 
 Minimum Name Length
 
