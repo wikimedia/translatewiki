@@ -2525,7 +2525,8 @@ ignored = ext-quicksurveys-example-external-survey-link
 
 Random Area
 
-# Random Featured User // 2018-05-20: Read only now
+RandomGameUnit
+descmsg = game-unit-desc
 
 Random Image
 
@@ -2538,8 +2539,6 @@ prefix = extension- | randomincategory, randomincategory-submit
 Random Pages
 
 Random Selection
-
-# Random Users With Avatars // 2018-05-20: Read only now
 
 ReadingLists - API
 id = ext-readinglists-api
