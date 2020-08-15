@@ -1034,10 +1034,6 @@ optional = donate_interface-error-msg-fiscal_number-cl, donate_interface-error-m
 optional = donate_interface-error-msg-fiscal_number-pe, donate_interface-error-msg-fiscal_number-uy
 optional = donate_interface-card-name-amex, donate_interface-card-name-visa, donate_interface-card-name-mc, donate_interface-card-name-discover
 optional = donate_interface-dd-iban
-optional = donate_interface-pm-alipay, donate_interface-pm-bpay, donate_interface-pm-boletus, donate_interface-pm-directebanking
-optional = donate_interface-pm-eps, donate_interface-pm-enets, donate_interface-pm-giropay, donate_interface-pm-ideal
-optional = donate_interface-pm-nordea, donate_interface-pm-skrill, donate_interface-pm-sofort, donate_interface-pm-webmoney
-optional = donate_interface-pm-westernunio, donate_interface-pm-yandex
 
 Donation Interface - Gateway Common - API
 id = ext-di-gc-api
