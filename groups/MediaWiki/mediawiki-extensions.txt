@@ -977,7 +977,7 @@ optional = discussiontools-preference-info-link
 optional = discussiontools-preference-discussion-link
 optional = discussiontools-replywidget-feedback-link
 optional = discussiontools-signature-prefix
-optional = discussiontools
+optional = discussiontools, discussiontools-replywidget-mention-prefix
 
 Display Title
 
