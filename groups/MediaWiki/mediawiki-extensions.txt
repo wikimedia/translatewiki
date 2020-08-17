@@ -100,6 +100,7 @@ ignored = apifeatureusage-text
 
 Approved Revs
 aliasfile = ApprovedRevs/ApprovedRevs.alias.php
+magicfile = ApprovedRevs/ApprovedRevs.i18n.magic.php
 optional = approvedrevs-revision-nav
 
 Arrays
@@ -204,6 +205,7 @@ ignored = blog-create-rules, blog-tagcloud-blacklist
 Blue Spice
 id = ext-bs
 file = BlueSpiceFoundation/i18n/core/%CODE%.json
+aliasfile = BlueSpiceFoundation/languages/BlueSpice.WikiAdmin.alias.php
 optional = prefs-base
 ignored = specialpages-group-bluespice, bs-navigation-contact-url, bs-navigation-instructions-url, bs-navigation-support-url
 ignored = prefs-bluespice
@@ -393,7 +395,7 @@ descmsg = bs-nsfrc-desc
 
 Blue Spice Page Access
 descmsg = bs-pageaccess-desc
-aliasfile = /BlueSpicePageAccess/includes/specials/SpecialPageAccess.alias.php
+aliasfile = BlueSpicePageAccess/includes/specials/SpecialPageAccess.alias.php
 
 Blue Spice Page Assignments
 descmsg = bs-pageassignments-desc
@@ -758,6 +760,7 @@ Cognate
 
 Collaboration Kit
 aliasfile = CollaborationKit/CollaborationKit.alias.php
+magicfile = CollaborationKit/CollaborationKit.i18n.magic.php
 
 # Collapsible Sections // 2019-03-02 empty repo
 
@@ -879,6 +882,7 @@ Contributions List
 
 Contributors
 aliasfile = Contributors/Contributors.alias.php
+magicfile = Contributors/Contributors.magic.php
 
 Cookie Warning
 descmsg = cookiewarning-desc
@@ -990,6 +994,7 @@ Disqus Tag
 
 Doc Book Export
 aliasfile = DocBookExport/DocBookExport.i18n.alias.php
+magicfile = DocBookExport/DocBookExport.i18n.magic.php
 
 Donation Interface - Adyen Gateway
 id = ext-di-adyen
@@ -1198,6 +1203,7 @@ id = ext-flaggedrevs-flaggedrevs
 file = FlaggedRevs/i18n/flaggedrevs/%CODE%.json
 descmsg = flaggedrevs-desc
 aliasfile = FlaggedRevs/frontend/language/FlaggedRevs.alias.php
+magicfile = FlaggedRevs/frontend/language/FlaggedRevs.i18n.magic.php
 optional = revreview-toggle-show, revreview-toggle-hide
 optional = group-editor.css, group-editor.js
 optional = group-reviewer.css, group-reviewer.js
@@ -1860,6 +1866,7 @@ aliasfile = MaintenanceShell/MaintenanceShell.alias.php
 
 Map Sources
 aliasfile = MapSources/MapSources.i18n.alias.php
+magicfile = MapSources/MapSources.i18n.magic.php
 
 Mark As Helpful
 ignored = right-markashelpful-view, right-markashelpful-admin
@@ -1927,6 +1934,7 @@ Minimum Name Length
 
 Minty Docs
 aliasfile = MintyDocs/MintyDocs.i18n.alias.php
+magicfile = MintyDocs/MintyDocs.i18n.magic.php
 
 Missed Pages
 aliasfile = MissedPages/MissedPages.i18n.alias.php
@@ -1985,7 +1993,7 @@ ignored = multiboilerplate, multiboilerplate-label
 Multi Maps
 
 Multi Upload
-aliasfile = MultiBoilerplate/MultiBoilerplate.alias.php
+aliasfile = MultiUpload/MultiUpload.alias.php
 
 Multimedia Player
 
@@ -2201,6 +2209,7 @@ Page Assessments - User Interface
 id = ext-pageassessments-user
 file = PageAssessments/i18n/%CODE%.json
 aliasfile = PageAssessments/PageAssessments.i18n.alias.php
+magicfile = PageAssessments/PageAssessments.i18n.magic.php
 
 Page Block
 aliasfile = PageBlock/PageBlock.alias.php
@@ -2347,6 +2356,7 @@ descmsg = tiff-desc
 
 Pages List
 aliasfile = PagesList/PagesList.i18n.alias.php
+magicfile = PagesList/PagesList.magic.php
 
 Paginate Text
 
@@ -2778,12 +2788,14 @@ aliasfile = SocialProfile/SocialProfile.alias.php
 
 Social Profile - System Gifts
 id = ext-socialprofile-systemgifts
+aliasfile = SocialProfile/SystemGifts/includes/SystemGifts.alias.php
 file = SocialProfile/SystemGifts/i18n/%CODE%.json
 descmsg = systemgifts-desc
 optional = ga-gift-title
 
 Social Profile - User Activity
 id = ext-socialprofile-useractivity
+aliasfile = SocialProfile/UserActivity/includes/UserActivity.alias.php
 file = SocialProfile/UserActivity/i18n/%CODE%.json
 descmsg = useractivity-desc
 ignored = useractivity-friendsactivity-filter
@@ -2796,6 +2808,7 @@ ignored = action-userboard-delete
 
 Social Profile - User Gifts
 id = ext-socialprofile-usergifts
+aliasfile = SocialProfile/UserGifts/includes/UserGifts.alias.php 
 file = SocialProfile/UserGifts/i18n/%CODE%.json
 descmsg = usergifts-desc
 ignored = action-giftadmin
@@ -2808,6 +2821,7 @@ ignored = avatarlogentry, profilelogentry, userprofile-country-list, action-edit
 
 Social Profile - User Relationship
 id = ext-socialprofile-userrelationship
+aliasfile = SocialProfile/UserRelationship/UserRelationship.i18n.alias.php
 file = SocialProfile/UserRelationship/i18n/%CODE%.json
 descmsg = userrelationship-desc
 
@@ -3077,6 +3091,7 @@ id = ext-translate-core
 file = Translate/i18n/core/%CODE%.json
 descmsg = translate-desc
 aliasfile = Translate/Translate.alias.php
+magicfile = Translate/Translate.i18n.magic.php
 # aliasfile = Translate/Translate.MyLanguage.alias.php // Disabled due to a conflict with core
 optional = translate-page-paging-links, supportedlanguages-portallink, supportedlanguages-portallink-nocldr
 ignored = supportedlanguages-localsummary
@@ -3267,6 +3282,7 @@ ignored = visualeditor-feedback-source-link
 
 Vote NY
 aliasfile = VoteNY/includes/VoteNY.alias.php
+magicfile = VoteNY/includes/VoteNY.i18n.magic.php
 
 Wanted Pages From NS
 descmsg = wpfromns-desc
