@@ -196,7 +196,7 @@ Biblio Plus
 Block And Nuke
 aliasfile = BlockAndNuke/BlockAndNuke.alias.php
 
-BlogPage
+Blog Page
 aliasfile = BlogPage/includes/BlogPage.alias.php
 descmsg = blogpage-desc
 ignored = blog-create-rules, blog-tagcloud-blacklist
@@ -1308,8 +1308,6 @@ Force Preview
 Form
 ignored = form-template-pattern
 
-# Form Preload Post Cache // no i18n file
-
 Form Wizard
 aliasfile = FormWizard/FormWizard.alias.php
 magicfile = FormWizard/FormWizard.magic.php
@@ -1925,7 +1923,7 @@ magicfile = MetaMaster/MetaMaster.i18n.magic.php
 
 # Metadata // 2018-07-18: wrong extension prefix
 
-MiniInvite
+Mini Invite
 aliasfile = MiniInvite/includes/MiniInvite.alias.php
 descmsg = invite-desc
 
@@ -2525,7 +2523,7 @@ ignored = ext-quicksurveys-example-external-survey-link
 
 Random Area
 
-RandomGameUnit
+Random Game Unit
 descmsg = game-unit-desc
 
 Random Image
@@ -2779,50 +2777,50 @@ Smooth Gallery
 magicfile = SmoothGallery/SmoothGallery.i18n.magic.php
 ignored = smoothgallery-pagetext
 
-SocialProfile
+Social Profile
 aliasfile = SocialProfile/SocialProfile.alias.php
 
-SocialProfile - SystemGifts
+Social Profile - System Gifts
 id = ext-socialprofile-systemgifts
 file = SocialProfile/SystemGifts/i18n/%CODE%.json
 descmsg = systemgifts-desc
 optional = ga-gift-title
 
-SocialProfile - UserActivity
+Social Profile - User Activity
 id = ext-socialprofile-useractivity
 file = SocialProfile/UserActivity/i18n/%CODE%.json
 descmsg = useractivity-desc
 ignored = useractivity-friendsactivity-filter
 
-SocialProfile - UserBoard
+Social Profile - User Board
 id = ext-socialprofile-userboard
 file = SocialProfile/UserBoard/i18n/%CODE%.json
 descmsg = userboard-desc
 ignored = action-userboard-delete
 
-SocialProfile - UserGifts
+Social Profile - User Gifts
 id = ext-socialprofile-usergifts
 file = SocialProfile/UserGifts/i18n/%CODE%.json
 descmsg = usergifts-desc
 ignored = action-giftadmin
 
-SocialProfile - UserProfile
+Social Profile - User Profile
 id = ext-socialprofile-userprofile
 file = SocialProfile/UserProfile/i18n/%CODE%.json
 descmsg = edit-profile-title
 ignored = avatarlogentry, profilelogentry, userprofile-country-list, action-editothersprofiles-private, update_profile_nav
 
-SocialProfile - UserRelationship
+Social Profile - User Relationship
 id = ext-socialprofile-userrelationship
 file = SocialProfile/UserRelationship/i18n/%CODE%.json
 descmsg = userrelationship-desc
 
-SocialProfile - UserStats
+Social Profile - User Stats
 id = ext-socialprofile-userstats
 file = SocialProfile/UserStats/i18n/%CODE%.json
 descmsg = userstats-desc
 
-SocialProfile - UserWelcome
+Social Profile - User Welcome
 id = ext-socialprofile-userwelcome
 file = SocialProfile/UserWelcome/i18n/%CODE%.json
 descmsg = userwelcome-desc
