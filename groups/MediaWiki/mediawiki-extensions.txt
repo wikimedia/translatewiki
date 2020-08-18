@@ -2915,8 +2915,7 @@ aliasfile = Sudo/Sudo.alias.php
 Survey
 aliasfile = Survey/Survey.alias.php
 optional = group-surveyadmin.css, group-surveyadmin.js, group-surveysubmit.css, group-surveysubmit.js
-ignored = surveys-surveystats-question-nr, surveys-surveystats-question-=23
-ignored = surveys-surveystats-question-nr-format
+ignored = surveys-surveystats-question-nr, surveys-surveystats-question-nr-format
 
 SVG Edit
 
