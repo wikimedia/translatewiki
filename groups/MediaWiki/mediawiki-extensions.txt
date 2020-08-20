@@ -3353,6 +3353,7 @@ optional = group-forumadmin.css, group-forumadmin.js
 # Wiki Labels // Archived
 
 Wiki Lambda
+optional = wikilambda-persistentzobject
 
 Wiki Lexical Data
 file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
