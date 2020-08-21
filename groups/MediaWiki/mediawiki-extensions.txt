@@ -2435,8 +2435,8 @@ Php Tags Widgets
 
 Php Tags Wiki
 
-# Missing qqq
-# Picture Game
+PictureGame
+aliasfile = PictureGame/includes/PictureGame.alias.php
 
 Pipe Escape
 
