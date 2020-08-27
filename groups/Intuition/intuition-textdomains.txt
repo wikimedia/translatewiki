@@ -26,9 +26,6 @@ ignored = title
 
 Krinkle
 
-Mwsnapshots
-ignored = title-download
-
 # Unused
 #Pb
 #optional = labs-name
