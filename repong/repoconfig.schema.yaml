@@ -1,0 +1,93 @@
+$schema: http://json-schema.org/draft-04/schema#
+$comment: https://translatewiki.net/wiki/Repository_management
+
+definitions:
+  meta:
+    type: object
+    required:
+      - export
+      - expand
+    additionalProperties: false
+    properties:
+      export:
+        type: string
+      expand:
+        type: string
+    patternProperties:
+      "^state-directory(\\|[a-z]+)?$":
+        type: string
+
+  project:
+    type: object
+    required:
+      - group
+      - repos
+    additionalProperties: false
+    properties:
+      group:
+        type: string
+      auto-merge:
+        type: string
+      no-export-languages:
+        type: string
+      export-threshold:
+        type: number
+        minimum: 0
+        maximum: 100
+      always-export-languages:
+        type: string
+      no-state-sync:
+        type: boolean
+      repos:
+        type: object
+        oneOf:
+          -
+            additionalProperties: false
+            patternProperties:
+              "^[a-zA-Z0-9-./]+$":
+                $ref: "#/definitions/repository"
+          -
+            additionalProperties: false
+            required: [ "@generator" ]
+            properties:
+              "@generator":
+                type: string
+
+  repository:
+    type: object
+    required:
+      - type
+      - url
+    additionalProperties: false
+    properties:
+      type:
+        type: string
+        enum:
+          - github
+          - wmgerrit
+          - gitlab
+          - git
+          - svn
+    patternProperties:
+      "^url(\\|[a-z]+)?$":
+        type: string
+      "^branch(\\|[a-z]+)?$":
+        type: string
+      "^pull-branch(\\|[a-z]+)?$":
+        type: string
+      "^push-branch(\\|[a-z]+)?$":
+        type: string
+      "^svn-add-options(\\|[a-z]+)?$":
+        type: string
+
+type: object
+required:
+  - "@meta"
+additionalProperties: false
+properties:
+  "@meta":
+    $ref: "#/definitions/meta"
+patternProperties:
+  "^[a-zA-Z0-9-.]+$":
+    $ref: "#/definitions/project"
+

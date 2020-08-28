@@ -1,14 +1,17 @@
 {
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "1.0.0",
-		"mediawiki/mediawiki-codesniffer": "28.0.0"
+		"mediawiki/mediawiki-codesniffer": "28.0.0",
+		"justinrainbow/json-schema": "^5.2",
+		"symfony/yaml": "^5.1"
 	},
 	"scripts": {
 		"fix": "phpcbf",
 		"test": [
 			"parallel-lint . bin/lint-bash --exclude vendor --exclude repong/vendor",
 			"bin/lint-bash",
-			"phpcs -p -s"
+			"phpcs -p -s",
+			"@php validate-repoconfig.php"
 		]
 	}
 }
