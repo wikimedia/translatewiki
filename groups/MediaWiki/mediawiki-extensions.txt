@@ -2810,7 +2810,7 @@ ignored = action-userboard-delete
 
 Social Profile - User Gifts
 id = ext-socialprofile-usergifts
-aliasfile = SocialProfile/UserGifts/includes/UserGifts.alias.php 
+aliasfile = SocialProfile/UserGifts/includes/UserGifts.alias.php
 file = SocialProfile/UserGifts/i18n/%CODE%.json
 descmsg = usergifts-desc
 ignored = action-giftadmin
