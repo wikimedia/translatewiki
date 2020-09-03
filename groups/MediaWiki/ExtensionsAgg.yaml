@@ -649,6 +649,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-wikilambda
+  label: Wiki Lambda
+  description: '{{Special:MyLanguage/MediaWiki:Wikilambda-desc/en}}'
+
+GROUPS:
+  - ext-wikilambda-*
+
+---
+BASIC:
   id: ext-wikilove
   label: Wiki Love
   description: '{{Special:MyLanguage/MediaWiki:Wikilove-desc/en}}'

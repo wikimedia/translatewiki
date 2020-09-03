@@ -3357,8 +3357,14 @@ optional = group-forumadmin.css, group-forumadmin.js
 
 # Wiki Labels // Archived
 
-Wiki Lambda
+Wiki Lambda - User interface
 optional = wikilambda-persistentzobject
+id = ext-wikilambda-user
+file = WikiLambda/i18n/%CODE%.json
+
+Wiki Lambda - API
+id = ext-wikilambda-api
+file = WikiLambda/i18n/api/%CODE%.json
 
 Wiki Lexical Data
 file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
