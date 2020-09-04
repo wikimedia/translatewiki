@@ -117,10 +117,9 @@ fudforum:
   group: out-fudforum
   repos:
     fudforum:
-      type: svn
-      url: svn://svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
-      svn-add-options: config:auto-props:msg=svn:mime-type=text/plain;svn:eol-style=native
-      url|export: svn+ssh://translatewiki@svn.code.sf.net/p/fudforum/code/trunk/install/forum_data/thm/default/i18n
+      type: github
+      url: https://github.com/fudforum/FUDforum.git
+      url|export: git@github.com:fudforum/FUDforum.git
 
 gapfinder:
   group: gapfinder

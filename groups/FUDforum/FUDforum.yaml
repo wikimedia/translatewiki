@@ -10,7 +10,7 @@ BASIC:
 FILES:
   class: JavaFFS
   keySeparator: ":"
-  sourcePattern: "%GROUPROOT%/fudforum/%CODE%/msg"
+  sourcePattern: "%GROUPROOT%/fudforum/install/forum_data/thm/default/i18n/%CODE%/msg"
 
 VALIDATORS:
   - id: InsertableRegex
