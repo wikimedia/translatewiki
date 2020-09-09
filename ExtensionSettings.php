@@ -212,3 +212,5 @@ $wgPoolCounterConf = [
 
 wfLoadExtension( 'CheckUser' );
 $wgCheckUserLogLogins = true;
+
+wfLoadExtension( 'Maps' );
