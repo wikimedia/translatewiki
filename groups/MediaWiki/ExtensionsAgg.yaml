@@ -623,15 +623,6 @@ GROUPS:
 
 ---
 BASIC:
-  id: ext-wikibasemediainfo
-  label: Wikibase Media Info
-  description: '{{Special:MyLanguage/MediaWiki:Wikibasemediainfo-desc/en}}'
-
-GROUPS:
-  - ext-wikibasemediainfo-*
-
----
-BASIC:
   id: ext-wikibasequalityconstraints
   label: WikibaseQualityConstraints
   description: '{{Special:MyLanguage/MediaWiki:Wbqc-desc/en}}'

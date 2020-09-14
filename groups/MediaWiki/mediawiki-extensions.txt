@@ -3464,12 +3464,8 @@ file = WikibaseLexeme/i18n/api/%CODE%.json
 Wikibase Lexeme Cirrus Search
 descmsg = wikibaselexemecirrus-desc
 
-Wikibase Media Info - API
-id = ext-wikibasemediainfo-api
-file = WikibaseMediaInfo/i18n/api/%CODE%.json
-
-Wikibase Media Info - User Interface
-id = ext-wikibasemediainfo-user
+Wikibase Media Info
+id = ext-wikibasemediainfo
 file = WikibaseMediaInfo/i18n/%CODE%.json
 
 WikibaseQualityConstraints - API
