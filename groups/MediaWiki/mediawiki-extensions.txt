@@ -284,10 +284,13 @@ aliasfile = BlueSpiceAvatars/languages/SpecialAvatars.alias.php
 
 Blue Spice Bookshelf
 descmsg = bs-bookshelf-extension-description
+aliasfile = BlueSpiceBookshelf/languages/Bookshelf.alias.php
 
-Blue Spice Bookshelf UI
-descmsg = bs-bookshelfui-extension-description
-aliasfile = BlueSpiceBookshelfUI/languages/BookshelfUI.alias.php
+Blue Spice Bookshelf - UI
+id = ext-bs-bookshelfui
+file = BlueSpiceBookshelf/i18n/ui/%CODE%.json
+
+# Blue Spice Bookshelf UI // archived per https://gerrit.wikimedia.org/r/c/mediawiki/extensions/BlueSpiceBookshelfUI/+/624856
 
 Blue Spice Category Check
 descmsg = bs-categorycheck-extension-description
