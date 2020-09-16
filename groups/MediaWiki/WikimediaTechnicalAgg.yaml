@@ -55,6 +55,7 @@ GROUPS:
   - ext-mobilefrontend-api
   - ext-newsletter-api
   - ext-oathauth-api
+  - ext-oauthratelimiter # https://phabricator.wikimedia.org/rOMWCbe45f2db4f211660b600ae7c2d066223a50792f9
   - ext-openstackmanager # 2011-12-28: labsconsole.wikimedia.org
   - ext-ores-api
   - ext-pageassessments-api
