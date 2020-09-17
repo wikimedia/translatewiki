@@ -1657,6 +1657,9 @@ descmsg = is-desc
 file = InviteSignup/i18n/%CODE%.json
 aliasfile = InviteSignup/InviteSignup.alias.php
 
+IP Info
+optional = ipinfo-extensionname
+
 Jade - User interface
 id = ext-jade-user
 file = Jade/i18n/%CODE%.json
