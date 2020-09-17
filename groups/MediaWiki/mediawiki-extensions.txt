@@ -3466,6 +3466,7 @@ Wikibase Lexeme Cirrus Search
 descmsg = wikibaselexemecirrus-desc
 
 Wikibase Manifest
+optional = wikibasemanifest
 
 Wikibase Media Info
 id = ext-wikibasemediainfo
