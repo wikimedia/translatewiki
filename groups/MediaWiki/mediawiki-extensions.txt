@@ -3465,6 +3465,8 @@ file = WikibaseLexeme/i18n/api/%CODE%.json
 Wikibase Lexeme Cirrus Search
 descmsg = wikibaselexemecirrus-desc
 
+Wikibase Manifest
+
 Wikibase Media Info
 id = ext-wikibasemediainfo
 file = WikibaseMediaInfo/i18n/%CODE%.json
