@@ -1067,6 +1067,8 @@ Drafts
 aliasfile = Drafts/Drafts.alias.php
 ignored = accesskey-drafts-save
 
+Drawio Editor
+
 Dumps On Demand
 aliasfile = DumpsOnDemand/DumpsOnDemand.alias.php
 
