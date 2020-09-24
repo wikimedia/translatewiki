@@ -2252,6 +2252,9 @@ Page In Cat
 
 Page Language
 
+Page Magic
+magicfile = PageMagic/PageMagic.magic.i18n.php
+
 Page Name Formula
 
 Page Notice
@@ -2440,7 +2443,7 @@ Php Tags Widgets
 
 Php Tags Wiki
 
-PictureGame
+Picture Game
 aliasfile = PictureGame/includes/PictureGame.alias.php
 
 Pipe Escape
