@@ -2916,6 +2916,16 @@ Stop Forum Spam
 
 # String Functions Escaped // No i18n file
 
+Structured Navigation - User interface
+id = ext-structurednavigation-user
+aliasfile = StructuredNavigation/StructuredNavigation.i18n.aliases.php
+descmsg = structurednav-desc
+ignored = structurednav-separator-symbol
+
+Structured Navigation - API
+id = ext-structurednavigation-api
+file = StructuredNavigation/i18n/api/%CODE%.json
+
 Sub Page List 3
 descmsg = spl3-desc
 

@@ -505,6 +505,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-structurednavigation
+  label: Structured Navigation
+  description: '{{Special:MyLanguage/MediaWiki:Structurednav-desc/en}}'
+
+GROUPS:
+  - ext-structurednavigation-*
+
+---
+BASIC:
   id: ext-templatedata
   label: Template Data
   description: '{{Special:MyLanguage/MediaWiki:Templatedata-desc/en}}'
