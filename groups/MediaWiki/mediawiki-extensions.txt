@@ -2918,6 +2918,7 @@ Stop Forum Spam
 
 Structured Navigation - User interface
 id = ext-structurednavigation-user
+file = StructuredNavigation/i18n/%CODE%.json
 aliasfile = StructuredNavigation/StructuredNavigation.i18n.aliases.php
 descmsg = structurednav-desc
 ignored = structurednav-separator-symbol
