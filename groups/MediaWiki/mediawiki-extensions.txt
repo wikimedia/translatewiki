@@ -3082,7 +3082,11 @@ Timeline Table
 
 # Timezone Selector // Archived per T237894
 
-# Tiny MCE // 2018-06-16: No qqq
+Tiny MCE
+aliasfile = TinyMCE/TinyMCE.i18n.alias.php
+magicfile = TinyMCE/TinyMCE.i18n.magic.php
+ignored = tinymce-notice
+optional = tinymce-upload-type-label-url
 
 Title Blacklist - User interface
 id = ext-titleblacklist-user
