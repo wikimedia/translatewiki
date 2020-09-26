@@ -448,6 +448,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/SimpleBatchUpload.git
       url|export: git@github.com:ProfessionalWiki/SimpleBatchUpload.git
+    mwgithub/ProfessionalWiki/WikibaseLocalMedia:
+      type: github
+      url: https://github.com/ProfessionalWiki/WikibaseLocalMedia.git
+      url|export: git@github.com:ProfessionalWiki/WikibaseLocalMedia.git
     mwgithub/SemanticMediaWiki/Mermaid:
       type: github
       url: https://github.com/SemanticMediaWiki/Mermaid.git

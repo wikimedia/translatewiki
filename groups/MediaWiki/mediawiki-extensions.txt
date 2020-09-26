@@ -24,6 +24,7 @@
 # SimpleBatchUpload
 # Sub Page List
 # Validator
+# WikiBase Local Media
 
 3D
 optional = 3d, 3d-badge-text
