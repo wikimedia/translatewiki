@@ -352,10 +352,6 @@ mwgithub:
       type: github
       url: https://github.com/jeblad/Katsa.git
       url|export: git@github.com:jeblad/Katsa.git
-    mwgithub/jeblad/LangCodeOverride:
-      type: github
-      url: https://github.com/jeblad/LangCodeOverride.git
-      url|export: git@github.com:jeblad/LangCodeOverride.git
     mwgithub/jeblad/ModDoc:
       type: github
       url: https://github.com/jeblad/ModDoc.git
