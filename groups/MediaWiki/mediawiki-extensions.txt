@@ -1167,7 +1167,9 @@ ExtJS Base
 
 Extra Language Link
 
-#Fan Boxes / Missing message documentation, inconsistently prefixed - 2014-01-28 RS
+FanBoxes
+aliasfile = FanBoxes/includes/FanBoxes.alias.php
+optional = userboxes-instructions
 
 # Incomplete message documentation file - 2014-10-25
 # Farmer
