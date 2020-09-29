@@ -771,3 +771,33 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-skins-Citizen/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-blockasn
+  label: BlockASN
+  description: "{{Special:MyLanguage/MediaWiki:blockasn-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-BlockASN/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-debounce
+  label: Debounce
+  description: "{{Special:MyLanguage/MediaWiki:debounce-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-Debounce/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-gtag
+  label: GTag
+  description: "{{Special:MyLanguage/MediaWiki:gtag-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-GTag/i18n/%CODE%.json"

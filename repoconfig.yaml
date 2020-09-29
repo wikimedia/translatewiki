@@ -532,6 +532,18 @@ mwgithub:
       type: github
       url: https://github.com/SemanticMediaWiki/WhatsNearby.git
       url|export: git@github.com:SemanticMediaWiki/WhatsNearby.git
+    mwgithub/SkizNet/mediawiki-BlockASN:
+      type: github
+      url: https://github.com/SkizNet/mediawiki-BlockASN.git
+      url|export: git@github.com:SkizNet/mediawiki-BlockASN.git
+    mwgithub/SkizNet/mediawiki-Debounce:
+      type: github
+      url: https://github.com/SkizNet/mediawiki-Debounce.git
+      url|export: git@github.com:SkizNet/mediawiki-Debounce.git
+    mwgithub/SkizNet/mediawiki-GTag:
+      type: github
+      url: https://github.com/SkizNet/mediawiki-GTag.git
+      url|export: git@github.com:SkizNet/mediawiki-GTag.git
     mwgithub/StarCitizenTools/mediawiki-skins-Citizen:
       type: github
       url: https://github.com/StarCitizenTools/mediawiki-skins-Citizen.git
