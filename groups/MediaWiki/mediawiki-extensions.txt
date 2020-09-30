@@ -1157,6 +1157,8 @@ magicfile = ExternalData/ExternalData.i18n.magic.php
 
 External Guidance
 
+# External Link Confirm // 2020-09-30 Empty repo
+
 ExtJS Base
 
 Extra Language Link
@@ -1561,6 +1563,8 @@ descmsg = welcome-user-desc
 optional = welcome-user-name
 
 Hash Tables
+
+# Head Script // 2020-09-30: missing qqq
 
 Header Tabs
 ignored = headertabs-edittab-key
@@ -2921,7 +2925,7 @@ id = ext-structurednavigation-user
 file = StructuredNavigation/i18n/%CODE%.json
 aliasfile = StructuredNavigation/StructuredNavigation.i18n.aliases.php
 descmsg = structurednav-desc
-ignored = structurednav-separator-symbol
+ignored = structurednav-separator-symbol, structurednav-schema-invalid
 
 Structured Navigation - API
 id = ext-structurednavigation-api
