@@ -866,9 +866,9 @@ wikipedia-ios:
   repos:
     wikipedia-ios:
       type: github
-      branch: develop
+      branch: main
       url: https://github.com/wikimedia/wikipedia-ios.git
-      branch|export: twn
+      pull-branch: twn
       url|export: git@github.com:wikimedia/wikipedia-ios.git
 
 wikipedia-kaios:
