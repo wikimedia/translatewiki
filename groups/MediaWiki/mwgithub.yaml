@@ -404,7 +404,7 @@ BASIC:
   description: "{{Special:MyLanguage/MediaWiki:Wblm-desc/en}}"
 
 FILES:
-  class:JsonFFS
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/WikibaseLocalMedia/i18n/%CODE%.json"
 
 TAGS:
