@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-$scripts = glob( __DIR__ . '/*' );
+$scripts = glob( __DIR__ . '/bin/*' );
 
 /**
  * bash -n: Read commands but do not execute them.
@@ -12,7 +12,7 @@ function bashread( $file ) {
 	$out = '';
 	$exitCode = 0;
 	exec(
-		'/usr/bin/env bash -n ' .  escapeshellarg( $file ),
+		'/usr/bin/env bash -n ' . escapeshellarg( $file ),
 		$out, $exitCode
 	);
 	return $exitCode;

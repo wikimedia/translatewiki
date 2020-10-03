@@ -17,9 +17,11 @@
 
 	<rule ref="MediaWiki.Usage.ForbiddenFunctions.exec">
 		<exclude-pattern>*/melange/BundleCreater\.php</exclude-pattern>
+		<exclude-pattern>*/validate-bash\.php</exclude-pattern>
 	</rule>
 	<rule ref="MediaWiki.Usage.ForbiddenFunctions.escapeshellarg">
 		<exclude-pattern>*/melange/BundleCreater\.php</exclude-pattern>
+		<exclude-pattern>*/validate-bash\.php</exclude-pattern>
 	</rule>
 	<rule ref="MediaWiki.Usage.ForbiddenFunctions.passthru">
 		<exclude-pattern>*/melange/BundleCreater\.php</exclude-pattern>
@@ -38,7 +40,6 @@
 		<severity>0</severity>
 	</rule>
 	<file>.</file>
-	<file>bin/lint-bash</file>
 	<arg name="extensions" value="php"/>
 	<arg name="encoding" value="utf8"/>
 	<exclude-pattern>vendor</exclude-pattern>
