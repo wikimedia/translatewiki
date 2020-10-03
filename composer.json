@@ -11,6 +11,7 @@
 			"parallel-lint . bin/lint-bash --exclude vendor --exclude repong/vendor --exclude node_modules --exclude puppet --exclude melange/extensions",
 			"bin/lint-bash",
 			"phpcs -p -s",
+			"@php validate-yaml.php groups puppet/hiera.yaml puppet/data",
 			"@php validate-repoconfig.php"
 		]
 	}
