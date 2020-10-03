@@ -286,6 +286,15 @@ mifos:
       url: https://github.com/openMF/community-app.git
       url|export: git@github.com:openMF/community-app.git
 
+mwbitbucket:
+  always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal
+  group: mwbitbucket-*,mwbitbucketskin-*
+  repos:
+    mwbitbucket/wikiskripta/medik:
+      type: git
+      url: https://bitbucket.org/wikiskripta/medik.git
+      url|export: git@bitbucket.org:wikiskripta/medik.git
+
 mwgerrit:
   group: mwgerrit-*
   auto-merge: ^data-values/value-view|oojs/ui|VisualEditor/VisualEditor

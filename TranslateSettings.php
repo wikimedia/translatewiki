@@ -51,6 +51,7 @@ $wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) 
 };
 
 # Add aggregate message groups for MediaWiki extensions.
+$wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwbitbucket.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwgerrit.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwgithub.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwgitlab.yaml";

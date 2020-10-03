@@ -13,5 +13,6 @@ BASIC:
 
 GROUPS:
   - mediawiki-skin-*
+  - mwbitbucketskin-*
   - mwgithubskin-*
   - mwgitlabskin-*

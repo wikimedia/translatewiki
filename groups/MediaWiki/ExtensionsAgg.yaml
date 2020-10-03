@@ -13,6 +13,7 @@ BASIC:
 
 GROUPS:
   - ext-*
+  - mwbitbucket-*
   - mwgerrit-*
   - mwgithub-*
   - mwgitlab-*
