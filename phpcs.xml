@@ -39,9 +39,12 @@
 	</rule>
 	<file>.</file>
 	<file>bin/lint-bash</file>
-	<arg name="extensions" value="php,php5,inc"/>
+	<arg name="extensions" value="php"/>
 	<arg name="encoding" value="utf8"/>
 	<exclude-pattern>vendor</exclude-pattern>
+	<exclude-pattern>puppet</exclude-pattern>
+	<exclude-pattern>node_modules</exclude-pattern>
+	<exclude-pattern>melange/extensions</exclude-pattern>
 	<exclude-pattern>repong/vendor</exclude-pattern>
 	<exclude-pattern>snedUdpMessage.php</exclude-pattern>
 </ruleset>
