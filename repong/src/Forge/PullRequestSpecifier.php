@@ -1,10 +1,9 @@
 <?php
+declare( strict_types=1 );
 
-namespace Translatewiki\RepoNg\Github;
+namespace Translatewiki\RepoNg\Forge;
 
-/**
- * Uniquely specifies a GitHub pull request.
- */
+/** Specifies a pull request. */
 class PullRequestSpecifier {
 	private $repositoryOwner;
 	private $repositoryName;
@@ -23,30 +22,20 @@ class PullRequestSpecifier {
 		$this->head = $head;
 	}
 
-	/**
-	 * @return string
-	 */
 	public function getRepositoryOwner(): string {
 		return $this->repositoryOwner;
 	}
 
-	/**
-	 * @return string
-	 */
 	public function getRepositoryName(): string {
 		return $this->repositoryName;
 	}
 
-	/**
-	 * @return string
-	 */
+	/** Source branch */
 	public function getBase(): string {
 		return $this->base;
 	}
 
-	/**
-	 * @return string
-	 */
+	/** Target branch */
 	public function getHead(): string {
 		return $this->head;
 	}

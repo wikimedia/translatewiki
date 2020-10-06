@@ -2,26 +2,23 @@
 
 namespace Translatewiki\RepoNg\App;
 
-use DomainException;
-use RuntimeException;
-use SplObjectStorage;
 use DateTime;
 use Exception;
+use RuntimeException;
+use SplObjectStorage;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Process\Process;
-use Translatewiki\RepoNg\Github\Client as GithubClient;
-use Translatewiki\RepoNg\Github\PullRequestSpecifier as GithubPullRequestSpecifier;
+use Translatewiki\RepoNg\Forge\ForgeFactory;
+use Translatewiki\RepoNg\Forge\PullRequestSpecifier;
 
 class CommitCommand extends Command {
+	// For commit messages and pull request titles
 	const MESSAGE = 'Localisation updates from https://translatewiki.net.';
-
-	/**
-	 * @var GithubClient
-	 */
-	private $githubClient;
+	// For pull request descriptions
+	const PR_MESSAGE = 'Translation updates';
 
 	protected function configure() {
 		parent::configure();
@@ -44,7 +41,7 @@ class CommitCommand extends Command {
 		foreach ( $config['repos'] as $name => $repo ) {
 			$type = $repo['type'];
 
-			if ( $type === 'git' || $type === 'github' ) {
+			if ( $type === 'git' || $type === 'github' || $type === 'gitlab' ) {
 				if ( $repo['push-branch'] ?? $repo['pull-branch'] ?? false ) {
 					// This will use the default/source branch to base the commit on, and then push
 					// to a different remote branch. This is useful when for example, the project
@@ -109,7 +106,56 @@ class CommitCommand extends Command {
 			$mergeProcess->mustRun();
 		}
 
-		$this->makeGithubPullRequests( $config, $base, $output );
+		$this->makePullRequests( $config, $base, $output );
+	}
+
+	private function makePullRequests( array $config, string $base, OutputInterface $output )
+	: void {
+		$factory = new ForgeFactory();
+
+		foreach ( $config['repos'] as $name => $repo ) {
+			if ( !( $repo['pull-branch'] ?? false ) ) {
+				continue;
+			}
+
+			$repositoryPath = "$base/$name";
+
+			try {
+				if ( !$this->hasChanges( $repositoryPath, $repo['branch'] ?? 'master' ) ) {
+					continue;
+				}
+
+				$this->makePullRequest( $repo, $factory, $output, $name );
+			} catch ( Exception $e ) {
+				$formatter = $output->getFormatter();
+				$errorMessage = $formatter->escape( $e->getMessage() );
+				$output->writeln( "<error>Unable to create a pull request for $name: $errorMessage</error>" );
+			}
+		}
+	}
+
+	private function makePullRequest(
+		$repo,
+		ForgeFactory $factory,
+		OutputInterface $output,
+		string $name
+	): void {
+		$pr = $this->getPullRequestSpecifier( $repo );
+		// Delay constructing clients until they are needed. It may be that pull requests
+		// are not used with all forges, so trying to construct it may fail due to a lack
+		// of a token. The forge factory also handles caching of clients, so we only log
+		// in once (if applicable) per forge site.
+		$domain = $this->getDomainFromForgeUrl( $repo['url'] );
+		$client = $factory->getForgeClient( $repo['type'], $domain );
+		$response = $client->createPullRequest( $pr, self::MESSAGE, self::PR_MESSAGE );
+
+		if ( $response->isNew() ) {
+			$output->writeln( "$name: Opened a new pull request." );
+		} else {
+			$createdAt = $response->getCreationTime();
+			$duration = $this->getTimeSince( $createdAt );
+			$output->writeln( "$name: Pull request has been open for $duration." );
+		}
 	}
 
 	private function getTimeSince( DateTime $dt ): string {
@@ -136,9 +182,9 @@ class CommitCommand extends Command {
 		return $duration;
 	}
 
-	private function getGitHubPullRequestSpecifier( array $config ): GithubPullRequestSpecifier {
-		$repo = $this->getOwnerAndRepoFromGithubUrl( $config['url'] );
-		return new GithubPullRequestSpecifier(
+	private function getPullRequestSpecifier( array $config ): PullRequestSpecifier {
+		$repo = $this->getOwnerAndRepoFromForgeUrl( $config['url'] );
+		return new PullRequestSpecifier(
 			$repo['owner'],
 			$repo['repo'],
 			$config['branch'] ?? 'master',
@@ -146,44 +192,30 @@ class CommitCommand extends Command {
 		);
 	}
 
-	private function getOwnerAndRepoFromGithubUrl( string $url ): array {
+	private function getOwnerAndRepoFromForgeUrl( string $url ): array {
 		// Supports the following formats:
-		// * https://github.com/owner/repo.git
-		// * https://github.com/owner/repo
-		// * git@github.com:owner/repo.git
-		// * git@github.com:owner/repo
+		// * https://example.com/owner/repo.git
+		// * https://example.com/owner/repo
+		// * git@example.com:owner/repo.git
+		// * git@example.com:owner/repo
 
 		$matches = [];
 		preg_match( '~[:/](?<owner>[^/]+)/(?<repo>[^/.]+?)(\.git)?$~', $url, $matches );
 
-		$ret = [
+		return [
 			'owner' => $matches['owner'] ?? '',
 			'repo' => $matches['repo'] ?? '',
 		];
-
-		return $ret;
 	}
 
-	private function getGithubClient(): GithubClient {
-		if ( $this->githubClient ) {
-			return $this->githubClient;
-		}
+	private function getDomainFromForgeUrl( string $url ): string {
+		$matches = [];
+		preg_match( '~(?:https://|git@)(?<domain>[^:/]+)~', $url, $matches );
 
-		$token = getenv( 'L10NBOT_GITHUB_TOKEN' );
-		if ( !$token ) {
-			throw new RuntimeException( "Environment variable L10NBOT_GITHUB_TOKEN not set" );
-		}
-
-		$this->githubClient = new GithubClient( $token );
-		return $this->githubClient;
+		return $matches['domain'];
 	}
 
-	/**
-	 * Check whether there are changes for a pull request.
-	 * @param string $repositoryPath
-	 * @param string $branch
-	 * @return bool
-	 */
+	/** Check whether there are changes for a pull request (compared to target branch). */
 	private function hasChanges( string $repositoryPath, string $branch ): bool {
 		$process = new Process( "git log origin/$branch..HEAD" );
 		$process->setWorkingDirectory( $repositoryPath );
@@ -194,63 +226,5 @@ class CommitCommand extends Command {
 		}
 
 		return trim( $process->getOutput() ) !== '';
-	}
-
-	/**
-	 * @param array $config
-	 * @param string $base
-	 * @param OutputInterface $output
-	 */
-	private function makeGithubPullRequests(
-		array $config,
-		string $base,
-		OutputInterface $output
-	) {
-		// Create pull requests in GitHub. Run this serially:
-		// https://developer.github.com/v3/guides/best-practices-for-integrators/#dealing-with-rate-limits
-		foreach ( $config['repos'] as $name => $repo ) {
-			try {
-				$outputMessage = $this->makeGithubPullRequest( $repo, "$base/$name" );
-				$output->writeln( "$name: $outputMessage" );
-			} catch ( Exception $e ) {
-				$formatter = $output->getFormatter();
-				$errorMessage = $formatter->escape( $e->getMessage() );
-				$output->writeln( "<error>Unable to create GitHub pull request for $name</error>" );
-				$output->writeln( '<error>' . $errorMessage . '</error>' );
-			}
-		}
-	}
-
-	/**
-	 * @param array $repo
-	 * @param string $repositoryPath
-	 * @return string|null
-	 */
-	private function makeGithubPullRequest( array $repo, string $repositoryPath ): ?string {
-		if ( !( $repo['pull-branch'] ?? false ) ) {
-			return null;
-		}
-
-		if ( $repo['type'] !== 'github' ) {
-			throw new DomainException( 'Pull requests are only supported for GitHub' );
-		}
-
-		$hasChanges = $this->hasChanges( $repositoryPath, $repo['branch'] ?? 'master' );
-		if ( !$hasChanges ) {
-			return null;
-		}
-
-		$pr = $this->getGitHubPullRequestSpecifier( $repo );
-		// Do not construct client unless needed (env variable may not be set up)
-		$client = $this->getGithubClient();
-		$created = $client->createPullRequest( $pr, self::MESSAGE, 'Translation updates' );
-		if ( !$created ) {
-			$createdAt = $client->getPullRequestCreationTime( $pr );
-			$duration = $this->getTimeSince( $createdAt );
-			return "Updated unmerged pull request which has been open for $duration.\n";
-		}
-
-		// Pull request was created succesfully
-		return null;
 	}
 }

@@ -29,9 +29,11 @@ abstract class Command extends SymfonyCommand {
 			throw new RuntimeException( 'Cannot find configuration: $configFile' );
 		}
 
+		// FIXME: This project should be self contained
+		$binpath = __DIR__ . '/../../../bin';
 		$this->bindir = realpath( __DIR__ . '/../../../bin' );
 		if ( $this->bindir === false ) {
-			throw new RuntimeException( __DIR__ . '/../bin/ does not exist' );
+			throw new RuntimeException( "$binpath does not exist" );
 		}
 
 		$yaml = file_get_contents( $configFile );
@@ -218,5 +220,15 @@ abstract class Command extends SymfonyCommand {
 		}
 
 		return [ 'NONE', null ];
+	}
+
+	protected function getGenericRepositoryType( string $type ): string {
+		$map = [
+			'github' => 'git',
+			'gitlab' => 'git',
+			'wmgerrit' => 'git',
+		];
+
+		return $map[$type] ?? $type;
 	}
 }

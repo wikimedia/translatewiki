@@ -38,6 +38,7 @@ class UpdateCommand extends Command {
 
 		foreach ( $config['repos'] as $name => $repo ) {
 			$type = $repo['type'];
+			$genericType = $this->getGenericRepositoryType( $repo['type'] );
 			$branch = $repo['branch'] ?? 'master';
 
 			// Check if we can use state synchronization for this repo
@@ -47,7 +48,7 @@ class UpdateCommand extends Command {
 
 			// Determine the state to use, if possible
 			$state = null;
-			if ( $syncState && in_array( $type, [ 'git', 'github', 'wmgerrit' ] ) ) {
+			if ( $syncState && $genericType === 'git' ) {
 				$process = new Process( 'git log --pretty="%H" -n 1' );
 				$process->setWorkingDirectory( "$stateDir/$name" );
 				$process->setTimeout( 5 );
@@ -59,12 +60,12 @@ class UpdateCommand extends Command {
 				}
 			}
 
-			if ( $type === 'git' ) {
-				$command = "$bindir/clupdate-git-repo '{$repo['url']}' '$base/$name' '$branch'";
-			} elseif ( $type === 'github' ) {
+			if ( $type === 'github' ) {
 				$command = "$bindir/clupdate-github-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} elseif ( $type === 'wmgerrit' ) {
 				$command = "$bindir/clupdate-gerrit-repo '{$repo['url']}' '$base/$name' '$branch'";
+			} elseif ( $genericType === 'git' ) {
+				$command = "$bindir/clupdate-git-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} elseif ( $type === 'svn' ) {
 				$command = "$bindir/clupdate-svn-repo '{$repo['url']}' '$base/$name'";
 			} elseif ( $type === 'bzr' ) {

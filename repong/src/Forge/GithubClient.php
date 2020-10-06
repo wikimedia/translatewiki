@@ -1,63 +1,56 @@
 <?php
+declare( strict_types=1 );
 
-namespace Translatewiki\RepoNg\Github;
+namespace Translatewiki\RepoNg\Forge;
 
 use DateTime;
 use Exception;
+use Github\Client;
 use Github\Exception\ValidationFailedException;
 use RangeException;
 use RuntimeException;
 
-class Client {
+class GithubClient implements ForgeClient {
+	/** @var Client */
 	private $client;
 
 	public function __construct( string $token ) {
-		$this->client = new \Github\Client();
-		$this->client->authenticate( $token, null, \Github\Client::AUTH_HTTP_TOKEN );
+		$this->client = new Client();
+		$this->client->authenticate( $token, null, Client::AUTH_ACCESS_TOKEN );
 	}
 
-	/**
-	 * @param PullRequestSpecifier $pr
-	 * @param string $title
-	 * @param string|null $body
-	 * @return bool True on success, false if pull requests already exists.
-	 * @throws ValidationFailedException
-	 */
 	public function createPullRequest(
 		PullRequestSpecifier $pr,
 		string $title,
 		string $body = null
-	): bool {
+	): PullRequestResponse {
+		$isNew = true;
 		try {
 			$this->client->api( 'pull_request' )->create(
-					$pr->getRepositoryOwner(),
-					$pr->getRepositoryName(),
-					[
-						'base' => $pr->getBase(),
-						'head' => $pr->getHead(),
-						'title' => $title,
-						'body' => $body,
-						'maintainer_can_modify' => true,
-					]
+				$pr->getRepositoryOwner(),
+				$pr->getRepositoryName(),
+				[
+					'base' => $pr->getBase(),
+					'head' => $pr->getHead(),
+					'title' => $title,
+					'body' => $body,
+					'maintainer_can_modify' => true,
+				]
 			);
-
-			return true;
 		} catch ( ValidationFailedException $e ) {
 			$code = $e->getCode();
 			$msg = $e->getMessage();
 
 			if ( $code === 422 && strpos( $msg, 'pull request already exists' ) !== false ) {
-				return false;
+				$isNew = false;
+			} else {
+				throw $e;
 			}
-
-			throw $e;
 		}
+
+		return new GithubPullRequestResponse( $pr, $this, $isNew );
 	}
 
-	/**
-	 * @param PullRequestSpecifier $pr
-	 * @return DateTime
-	 */
 	public function getPullRequestCreationTime( PullRequestSpecifier $pr ): DateTime {
 		$pullRequests = $this->client->api( 'pull_request' )->all(
 			$pr->getRepositoryOwner(),
@@ -79,7 +72,9 @@ class Client {
 		try {
 			return new DateTime( $pullRequests[0]['created_at'] );
 		} catch ( Exception $e ) {
-			throw new RangeException( "Unable to create a DateTime from '{$pullRequests[0]['created_at']}'" );
+			throw new RangeException(
+				"Unable to create a DateTime from '{$pullRequests[0]['created_at']}'"
+			);
 		}
 	}
 }

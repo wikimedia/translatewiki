@@ -29,9 +29,10 @@ class StatusCommand extends Command {
 
 		foreach ( $config['repos'] as $name => $repo ) {
 			$type = $repo['type'];
+			$genericType = $this->getGenericRepositoryType( $repo['type'] );
 
 			$command = "cd '$name' && ";
-			if ( in_array( $type, [ 'git', 'github', 'wmgerrit' ] ) ) {
+			if ( $genericType === 'git' ) {
 				$command .= "git status -s";
 			} elseif ( $type === 'svn' ) {
 				$command .= "svn status";
