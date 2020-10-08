@@ -3503,8 +3503,12 @@ descmsg = wikibaselexemecirrus-desc
 Wikibase Manifest
 optional = wikibasemanifest
 
-Wikibase Media Info
-id = ext-wikibasemediainfo
+Wikibase Media Info - API
+id = ext-wikibasemediainfo-api
+file = WikibaseMediaInfo/i18n/api/%CODE%.json
+
+Wikibase Media Info - User Interface
+id = ext-wikibasemediainfo-user
 file = WikibaseMediaInfo/i18n/%CODE%.json
 
 WikibaseQualityConstraints - API
