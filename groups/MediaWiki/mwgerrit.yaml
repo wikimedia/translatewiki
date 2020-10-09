@@ -50,7 +50,7 @@ FILES:
 
 TAGS:
   optional:
-    - visualeditor-specialcharinspector-characterlist-insert
+    - visualeditor-specialcharacter-group-set-*
     - visualeditor-dimensionswidget-px
     - visualeditor-dimensionswidget-times
     - visualeditor-languageannotation-description-with-dir
