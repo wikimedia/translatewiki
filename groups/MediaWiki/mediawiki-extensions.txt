@@ -2899,8 +2899,9 @@ Sphinx Search
 
 Split Private Wiki
 
-# Incomplete message documentation - 2014-12-23
-# Sports Teams
+SportsTeams
+aliasfile = SportsTeams/includes/SportsTeams.alias.php
+optional = sportsteams-network-alt-logo
 
 SSL Client Authentication
 aliasfile = SSLClientAuthentication/ClientSSLAuth.alias.php
