@@ -2069,8 +2069,7 @@ magicfile = Negref/Negref.i18n.magic.php
 Network Auth
 optional = networkauth-name, networkauth-purltext
 
-# ShoutWiki specific
-#New Signup Page
+NewSignupPage
 
 New User Actions
 
