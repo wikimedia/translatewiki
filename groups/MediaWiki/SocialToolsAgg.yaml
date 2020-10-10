@@ -1,0 +1,30 @@
+BASIC:
+  id: ext-socialtools
+  label: All i18n messages for all social tools
+  icon: wiki://Mediawiki-logo.png
+  meta: yes
+  class: AggregateMessageGroup
+  description: '{{int:translate-group-desc-socialtools}}'
+  namespace: NS_MEDIAWIKI
+
+GROUPS:
+  - ext-socialprofile-0-all
+  - ext-ajaxpoll
+  - ext-blogpage
+#  - ext-challenge # not yet (25 September 2020)
+  - ext-fanboxes
+  - ext-imagerating
+  - ext-linkfilter
+  - ext-miniinvite
+  - ext-newsignuppage
+  - ext-picturegame
+  - ext-pollny
+  - ext-quizgame
+  - ext-randomgameunit
+  - ext-sitemetrics
+  - ext-sportsteams
+  - ext-userstatus
+  - ext-voteny
+  - ext-video
+  - ext-wikiforum
+  - ext-wikitextloggedinout
