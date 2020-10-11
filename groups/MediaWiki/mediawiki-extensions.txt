@@ -2771,10 +2771,6 @@ aliasfile = SimpleChanges/SimpleChanges.alias.php
 
 Simple SAML php
 
-Simple Security
-descmsg = security-desc
-ignored = security-logentry
-
 Simple Sort
 
 Site Matrix - User interface
