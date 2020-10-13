@@ -5,7 +5,7 @@ mod 'elastic-elasticsearch', '6.4.0'
 mod 'elastic-kibana',
 	:git => 'https://github.com/elastic/puppet-kibana.git',
 	:commit => '154284f2a848ace5afbcf6ebc9163c443631d377'
-mod 'puppet-letsencrypt', '5.0.0'
+mod 'puppet-letsencrypt', '6.0.0'
 mod 'puppetlabs-firewall', '2.2.0'
 mod 'puppetlabs-inifile', '3.1.0'
 mod 'puppetlabs-java', '6.2.0'
