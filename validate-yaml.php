@@ -1,7 +1,7 @@
 <?php
 
-use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Yaml\Exception\ParseException;
+use Symfony\Component\Yaml\Yaml;
 
 require 'vendor/autoload.php';
 

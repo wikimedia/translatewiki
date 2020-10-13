@@ -13,7 +13,7 @@ class GitlabPullRequestResponse implements PullRequestResponse {
 	private $client;
 	/** @var bool */
 	private $isNew;
-	/** int */
+	/** @var int */
 	private $mergeRequestId;
 
 	public function __construct(
