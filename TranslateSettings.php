@@ -394,6 +394,7 @@ $wgTranslateSupportUrlNamespace[NS_HUGGLE] = [
 
 wfAddNamespace( 1250, 'EtherpadLite' );
 $wgTranslateGroupFiles[] = "$GROUPS/EtherpadLite/EtherpadLite.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/EtherpadLite/Plugins.yaml";
 $wgTranslateGroupAliases['out-etherpad-lite'] = 'etherpad-lite';
 
 wfAddNamespace( 1252, 'Vicuna' );

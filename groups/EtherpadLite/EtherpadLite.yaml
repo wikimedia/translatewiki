@@ -5,6 +5,20 @@ BASIC:
   icon: wiki://Etherpad_lite.svg
   description: "{{Special:MyLanguage/Translations:Group descriptions/etherpad-lite/en}}"
   namespace: NS_ETHERPADLITE
+  meta: yes
+  class: AggregateMessageGroup
+
+GROUPS:
+  - etherpad-lite-core
+  - etherpad-lite-plugin-*
+
+---
+BASIC:
+  id: etherpad-lite-core
+  label: Etherpad lite core
+  icon: wiki://Etherpad_lite.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/etherpad-lite/en}}"
+  namespace: NS_ETHERPADLITE
   class: FileBasedMessageGroup
 
 FILES:
@@ -20,3 +34,4 @@ VALIDATORS:
 TAGS:
   optional:
     - pad.settings.fontType.*
+

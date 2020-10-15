@@ -97,13 +97,65 @@ eol:
       url|export: git@github.com:EOL/eol_website.git
 
 etherpad-lite:
-  group: etherpad-lite
+  group: etherpad-lite-*
   repos:
     etherpad-lite:
       type: github
       branch: develop
       url: git://github.com/ether/etherpad-lite.git
       url|export: git@github.com:ether/etherpad-lite.git
+    ether/ep_adminpads2:
+      type: github
+      url: https://github.com/ether/ep_adminpads2.git
+      url|export: git@github.com/ether/ep_adminpads2.git
+    ether/ep_align:
+      type: github
+      url: https://github.com/ether/ep_align.git
+      url|export: git@github.com/ether/ep_align.git
+    ether/ep_author_follow:
+      type: github
+      url: https://github.com/ether/ep_author_follow.git
+      url|export: git@github.com/ether/ep_author_follow.git
+    ether/ep_author_hover:
+      type: github
+      url: https://github.com/ether/ep_author_hover.git
+      url|export: git@github.com/ether/ep_author_hover.git
+    ether/ep_font_color:
+      type: github
+      url: https://github.com/ether/ep_font_color.git
+      url|export: git@github.com/ether/ep_font_color.git
+    ether/ep_font_size:
+      type: github
+      url: https://github.com/ether/ep_font_size.git
+      url|export: git@github.com/ether/ep_font_size.git
+    ether/ep_headings2:
+      type: github
+      url: https://github.com/ether/ep_headings2.git
+      url|export: git@github.com/ether/ep_headings2.git
+    ether/ep_markdown:
+      type: github
+      url: https://github.com/ether/ep_markdown.git
+      url|export: git@github.com/ether/ep_markdown.git
+    ether/ep_padlist2:
+      type: github
+      url: https://github.com/ether/ep_padlist2.git
+      url|export: git@github.com/ether/ep_padlist2.git
+    ether/ep_spellcheck:
+      type: github
+      url: https://github.com/ether/ep_spellcheck.git
+      url|export: git@github.com/ether/ep_spellcheck.git
+    ether/ep_subscript_and_superscript:
+      type: github
+      url: https://github.com/ether/ep_subscript_and_superscript.git
+      url|export: git@github.com/ether/ep_subscript_and_superscript.git
+    ether/ep_table_of_contents:
+      type: github
+      url: https://github.com/ether/ep_table_of_contents.git
+      url|export: git@github.com/ether/ep_table_of_contents.git
+    ether/ep_webrtc:
+      type: github
+      url: https://github.com/ether/ep_webrtc.git
+      url|export: git@github.com/ether/ep_webrtc.git
 
 freecol:
   group: out-freecol

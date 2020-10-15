@@ -1,0 +1,119 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Etherpad_lite.svg
+    description: "{{Special:MyLanguage/Translations:Group descriptions/etherpad-lite/en}}"
+    namespace: NS_ETHERPADLITE
+    class: FileBasedMessageGroup
+
+  FILES:
+    class: JsonFFS
+
+  VALIDATORS:
+    - id: InsertableRegex
+      insertable: true
+      enforce: false
+      params: /{{[a-zA-Z_]+}}/
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_adminpads2
+  label: Etherpad lite plugin Administrate pads
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_adminpads2/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_markdown
+  label: Etherpad lite plugin Markdown
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_markdown/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_headings2
+  label: Etherpad lite plugin Headings
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_headings2/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_align
+  label: Etherpad lite plugin Align text
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_align/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_font_size
+  label: Etherpad lite plugin Font size
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_font_size/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_subscript_and_superscript
+  label: Etherpad lite plugin Subscript and superscript
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_subscript_and_superscript/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_table_of_contents
+  label: Etherpad lite plugin Table of contents
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_table_of_contents/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_webrtc
+  label: Etherpad lite plugin WebRTC
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_webrtc/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_spellcheck
+  label: Etherpad lite plugin Spellcheck
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_spellcheck/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_author_follow
+  label: Etherpad lite plugin Author follow
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_author_follow/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_padlist2
+  label: Etherpad lite plugin Pad list
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_padlist2/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_author_hover
+  label: Etherpad lite plugin Author hover
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_author_hover/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_font_color
+  label: Etherpad lite plugin Font color
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_font_color/locales/%CODE%.json"
