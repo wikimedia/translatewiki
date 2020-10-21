@@ -4,7 +4,7 @@ BASIC:
   icon: wiki://Mediawiki-logo.png
   meta: yes
   class: AggregateMessageGroup
-  description: '{{int:translate-group-desc-socialtools}}'
+  description: '{{Special:MyLanguage/Translations:Group descriptions/socialtools/en}}'
   namespace: NS_MEDIAWIKI
 
 GROUPS:
