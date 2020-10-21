@@ -1542,7 +1542,6 @@ ignored = growthexperiments-homepage-suggestededits-difficulty-filter-label-mobi
 optional = growthexperiments-homepage-suggestededits-footer-suffix
 optional = growthexperiments-homepage-suggestededits-footer-kilosuffix, growthexperiments-homepage-suggestededits-footer-megasuffix
 optional = growthexperiments-homepage-suggestededits-footer-gigasuffix, growthexperiments-homepage-suggestededits-footer-terasuffix
-optional = growthexperiments-homepage-suggestededits-pager-unknown-count
 
 Growth Experiments - Homepage API
 id = ext-growthexperiments-homepage-api
