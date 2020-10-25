@@ -1,0 +1,87 @@
+BASIC:
+  id: wmcz-web
+  label: Wikimedia Czech Republic's website
+  meta: yes
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wmcz-web/en}}"
+  class: AggregateMessageGroup
+  namespace: NS_WIKIMEDIA
+
+GROUPS:
+  - wmcz-web-*
+
+---
+TEMPLATE:
+  BASIC:
+    class: FileBasedMessageGroup
+    namespace: NS_WIKIMEDIA
+
+  FILES:
+    class: GettextFFS
+    codeMap:
+      cs: cs_CZ
+      de: de_DE
+      en-gb: en_GB
+      es: es_ES
+      fr: fr_FR
+      it: it_IT
+      ja: ja_JP
+      nb: nb_NO
+      nl: nl_NL
+      nn: nn_NO
+      pl: pl_PL
+      pt-br: pt_BR
+      pt: pt_PT
+      sv: sv_SE
+      vi: vi_VN
+      zh-hans: zh_CN
+      zh-hant: zh_TW
+
+  VALIDATORS:
+    - id: InsertableRegex
+      insertable: true
+      enforce: true
+      params: /%\([a-z0-9_]+\)[sd]/
+    - id: InsertableRegex
+      insertable: true
+      enforce: true
+      params: /%[sd]/
+    - id: GettextNewline
+      enforce: true
+    - id: GettextPlural
+      enforce: true
+
+  INSERTABLES:
+    - class: HtmlTagInsertablesSuggester
+
+---
+BASIC:
+  id: wmcz-web-theme
+  label: Theme
+
+FILES:
+  class: GettextFFS
+  sourcePattern: "%GROUPROOT%/wmcz-web-theme/i18n/wmcz-theme-%CODE%.po"
+  definitionFile: "%GROUPROOT%/wmcz-web-theme/i18n/wmcz-theme.pot"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wmcz-web-theme-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: wmcz-web-plugin
+  label: Plugin
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+FILES:
+  sourcePattern: "%GROUPROOT%/wmcz-web-plugin/i18n/wmcz-plugin-%CODE%.po"
+  definitionFile: "%GROUPROOT%/wmcz-web-plugin/i18n/wmcz-plugin.pot"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wmcz-web-plugin-
+  patterns:
+    - "*"

@@ -989,6 +989,19 @@ wmcz-tracker:
       url: https://gerrit.wikimedia.org/r/wikimedia-cz/tracker
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia-cz/tracker
 
+wmcz-web:
+  group: wmcz-web-*
+  auto-merge: wikimedia-cz/web-theme
+  repos:
+    wmcz-web-theme:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/wikimedia-cz/web-theme
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia-cz/web-theme
+    wmcz-web-plugin:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/wikimedia-cz/web-plugin
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia-cz/web-plugin
+
 wpcleaner:
   group: wpcleaner
   repos:
