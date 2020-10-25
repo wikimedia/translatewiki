@@ -2651,8 +2651,8 @@ id = ext-scribunto-user
 file = Scribunto/i18n/%CODE%.json
 magicfile = Scribunto/Scribunto.magic.php
 optional = scribunto-lua-backtrace-line
-optional = scribunto-limitreport-virtmemusage-value, scribunto-limitreport-memusage-value, scribunto-limitreport-profile-percent
-ignored = scribunto-doc-page-show, scribunto-limitreport-estmemusage-value
+optional = scribunto-limitreport-virtmemusage-value-raw, scribunto-limitreport-memusage-value-raw, scribunto-limitreport-profile-percent
+ignored = scribunto-doc-page-show, scribunto-limitreport-estmemusage-value-raw
 
 Scribunto - API
 id = ext-scribunto-api
@@ -2894,7 +2894,7 @@ Sphinx Search
 
 Split Private Wiki
 
-SportsTeams
+Sports Teams
 aliasfile = SportsTeams/includes/SportsTeams.alias.php
 optional = sportsteams-network-alt-logo
 
