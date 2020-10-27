@@ -1,0 +1,34 @@
+BASIC:
+  id: swviewer
+  label: SWViewer
+  icon: wiki://Swviewer-logo.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/swviewer/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+
+MANGLER:
+  class: StringMatcher
+  prefix: swviewer-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/SWViewer/tool-swviewer/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: BraceBalance
+    enforce: true
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: true
+
+INSERTABLES:
+  # [$1|some page]
+  - class: RegexInsertablesSuggester
+    params:
+      regex: /(?<pre>\[[^]|]+\|)[^]]+(?<post>\])/
+      display: $pre $post
+      pre: $pre
+      post: $post
+

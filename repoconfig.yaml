@@ -709,6 +709,14 @@ qrmedia:
       url: https://framagit.org/wikimedia-france/qrmedia.git
       url|export: git@framagit.org:wikimedia-france/qrmedia.git
 
+swviewer:
+  group: swviewer
+  repos:
+   SWViewer/tool-swviewer:
+     type: github
+     url: https://github.com/SWViewer/tool-swviewer.git
+     url|export: git@github.com:SWViewer/tool-swviewer.git
+
 vicuna:
   group: out-vicuna
   repos:
