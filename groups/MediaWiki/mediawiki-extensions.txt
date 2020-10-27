@@ -1283,6 +1283,9 @@ id = ext-flaggedrevs-validationstatistics
 file = FlaggedRevs/i18n/validationstatistics/%CODE%.json
 descmsg = flaggedrevs-desc
 
+Flex Diagrams
+magicfile = FlexDiagrams/FlexDiagrams.i18n.alias.php
+
 Flexi Skin
 descmsg = flexiskin-extension-desc
 optional = flexiskin-extension-name, flexiskin
