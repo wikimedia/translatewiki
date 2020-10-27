@@ -30,6 +30,8 @@ TAGS:
     - convenient-discussions-user-male-genitive
     - convenient-discussions-user-female-genitive
     - convenient-discussions-user-unknown-genitive
+    - convenient-discussions-navpanel-newcomments-names
+    - convenient-discussions-bullet
 
 VALIDATORS:
   - id: BraceBalance
