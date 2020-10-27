@@ -1769,6 +1769,8 @@ Ldap Authentication
 
 LDAP Authorization
 
+LDAP Groups
+
 LDAP Provider
 
 Life Web
