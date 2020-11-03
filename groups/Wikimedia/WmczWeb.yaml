@@ -1,15 +1,3 @@
-BASIC:
-  id: wmcz-web
-  label: Wikimedia Czech Republic's website
-  meta: yes
-  description: "{{Special:MyLanguage/Translations:Group descriptions/wmcz-web/en}}"
-  class: AggregateMessageGroup
-  namespace: NS_WIKIMEDIA
-
-GROUPS:
-  - wmcz-web-*
-
----
 TEMPLATE:
   BASIC:
     class: FileBasedMessageGroup
@@ -55,11 +43,21 @@ TEMPLATE:
 
 ---
 BASIC:
+  id: wmcz-web
+  label: Wikimedia Czech Republic's website
+  meta: yes
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wmcz-web/en}}"
+  class: AggregateMessageGroup
+
+GROUPS:
+  - wmcz-web-*
+
+---
+BASIC:
   id: wmcz-web-theme
   label: Theme
 
 FILES:
-  class: GettextFFS
   sourcePattern: "%GROUPROOT%/wmcz-web-theme/i18n/wmcz-theme-%CODE%.po"
   definitionFile: "%GROUPROOT%/wmcz-web-theme/i18n/wmcz-theme.pot"
 
@@ -73,8 +71,6 @@ MANGLER:
 BASIC:
   id: wmcz-web-plugin
   label: Plugin
-  class: FileBasedMessageGroup
-  namespace: NS_WIKIMEDIA
 
 FILES:
   sourcePattern: "%GROUPROOT%/wmcz-web-plugin/i18n/wmcz-plugin-%CODE%.po"
