@@ -69,12 +69,13 @@ MANGLER:
 
 TAGS:
   optional:
-    - wmcz-web-theme-791486-Martin Urbanec
-    - wmcz-web-theme-93c4ac-, \
-    - wmcz-web-theme-42060f-, \
+    - wmcz-web-theme-791486-Martin_Urbanec
+    - wmcz-web-theme-93c4ac-,_\
+    - wmcz-web-theme-42060f-,_\
   ignored:
     - wmcz-web-theme-5915d5-WMCZ
     - wmcz-web-theme-d64f0c-http://underscores.me/
+    - wmcz-web-plugin-018cb0-https://meta.wikimedia.org/wik
 
 ---
 BASIC:
@@ -93,7 +94,6 @@ MANGLER:
 
 TAGS:
   optional:
-    - wmcz-web-plugin-791486-Martin Urbanec
+    - wmcz-web-plugin-791486-Martin_Urbanec
   ignored:
     - wmcz-web-plugin-a0e8e7-https://wikimedia.cz
-    - wmcz-web-plugin-018cb0-https://meta.wikimedia.org/wik
