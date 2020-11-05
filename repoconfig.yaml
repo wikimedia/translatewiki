@@ -991,7 +991,7 @@ wmcz-tracker:
 
 wmcz-web:
   group: wmcz-web-*
-  auto-merge: wikimedia-cz/web-theme|wikimedia-cz/web-plugin
+  auto-merge: ^wikimedia-cz/web-theme|wikimedia-cz/web-plugin
   repos:
     wmcz-web-theme:
       type: wmgerrit
