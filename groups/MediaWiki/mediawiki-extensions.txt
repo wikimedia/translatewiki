@@ -2656,8 +2656,8 @@ id = ext-scribunto-user
 file = Scribunto/i18n/%CODE%.json
 magicfile = Scribunto/Scribunto.magic.php
 optional = scribunto-lua-backtrace-line
-optional = scribunto-limitreport-virtmemusage-value-raw, scribunto-limitreport-memusage-value-raw, scribunto-limitreport-profile-percent
-ignored = scribunto-doc-page-show, scribunto-limitreport-estmemusage-value-raw
+optional = scribunto-limitreport-profile-percent
+ignored = scribunto-doc-page-show
 
 Scribunto - API
 id = ext-scribunto-api
