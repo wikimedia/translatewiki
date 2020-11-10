@@ -552,6 +552,9 @@ TAGS:
     - version-entrypoints-index-php
     - version-entrypoints-rest-php
     - version-summary
+    - view-pool-contention
+    - view-pool-dirty-output
+    - view-pool-timeout
     - watchlist-unwatch
     - watchlist-unwatch-undo
     - wantedcategories-summary
