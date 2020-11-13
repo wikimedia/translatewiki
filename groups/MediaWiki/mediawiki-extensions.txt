@@ -77,6 +77,8 @@ ignored = advancedsearch-filesize-equals-symbol, advancedsearch-filesize-greater
 
 AJAX Poll
 
+Ajax Show Editors
+
 Akismet Klik
 
 All Time Zones
