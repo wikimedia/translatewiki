@@ -768,7 +768,7 @@ Collaboration Kit
 aliasfile = CollaborationKit/CollaborationKit.alias.php
 magicfile = CollaborationKit/CollaborationKit.i18n.magic.php
 
-# Collapsible Sections // 2019-03-02 empty repo
+Collapsible Sections
 
 Collapsible Vector
 
