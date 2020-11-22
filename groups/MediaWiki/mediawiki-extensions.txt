@@ -1574,7 +1574,7 @@ optional = welcome-user-name
 
 Hash Tables
 
-# Head Script // 2020-09-30: missing qqq
+Head Script
 
 Header Tabs
 ignored = headertabs-edittab-key
@@ -1774,6 +1774,8 @@ LDAP Authorization
 LDAP Groups
 
 LDAP Provider
+
+# LDAP Sync All // 2020-11-19: inconsistent prefix
 
 Life Web
 aliasfile = LifeWeb/LifeWeb.alias.php
