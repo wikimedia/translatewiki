@@ -330,8 +330,6 @@ Blue Spice Echo Connector - Notifications
 file = BlueSpiceEchoConnector/i18n/notifications/%CODE%.json
 optional = bs-notifications-param-realname-with-username
 
-Blue Spice Edit Notify Connector
-
 Blue Spice Emoticons
 descmsg = bs-emoticons-desc
 
