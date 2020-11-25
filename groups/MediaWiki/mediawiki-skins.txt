@@ -32,8 +32,6 @@ ignored = cosmos-customsidebar, cosmos-stickysidebar, cosmos-action-talk, cosmos
 ignored = cosmos-toolbar, cosmos-mobile-menu-label
 optional = skinname-cosmos, cosmos.css, cosmos.js
 
-Daddio
-
 Desk Mess Mirrored
 
 Dusk
