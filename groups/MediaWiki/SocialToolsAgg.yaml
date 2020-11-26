@@ -11,7 +11,7 @@ GROUPS:
   - ext-socialprofile-0-all
   - ext-ajaxpoll
   - ext-blogpage
-#  - ext-challenge # not yet (25 September 2020)
+  - ext-challenge
   - ext-fanboxes
   - ext-imagerating
   - ext-linkfilter

@@ -672,8 +672,8 @@ Central Notice - API
 id = ext-centralnotice-api
 file = CentralNotice/i18n/api/%CODE%.json
 
-# No message documentation - 2014-10-05
-# Challenge
+Challenge
+aliasfile = Challenge/includes/Challenge.alias.php
 
 Change Author
 aliasfile = ChangeAuthor/ChangeAuthor.alias.php
