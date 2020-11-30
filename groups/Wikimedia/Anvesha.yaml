@@ -1,0 +1,24 @@
+---
+BASIC:
+  id: anvesha
+  label: Anvesha
+  description: "{{Special:MyLanguage/Translations:Group descriptions/anvesha/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: anvesha-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/anvesha/languages/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: false
+  - id: MediaWikiPlural
+  - id: BraceBalance
