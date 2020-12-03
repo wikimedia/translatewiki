@@ -117,3 +117,43 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/ether/ep_font_color/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_readonly_guest
+  label: Etherpad lite plugin Read-only guest
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_readonly_guest/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_what_have_i_missed
+  label: Etherpad lite plugin What have I missed
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_what_have_i_missed/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_who_did_what
+  label: Etherpad lite plugin Who did what
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_who_did_what/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_set_title_on_pad
+  label: Etherpad lite plugin Set title
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_set_title_on_pad/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_message_all
+  label: Etherpad lite plugin Message all
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_message_all/locales/%CODE%.json"

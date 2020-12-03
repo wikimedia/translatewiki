@@ -137,11 +137,24 @@ etherpad-lite:
       type: github
       url: https://github.com/ether/ep_markdown.git
       url|export: git@github.com:ether/ep_markdown.git
+    ether/ep_message_all:
+      type: github
+      url: https://github.com/ether/ep_message_all.git
+      url|export: git@github.com:ether/ep_message_all.git
     ether/ep_padlist2:
       type: github
       branch: main
       url: https://github.com/ether/ep_padlist2.git
       url|export: git@github.com:ether/ep_padlist2.git
+    ether/ep_readonly_guest:
+      type: github
+      branch: main
+      url: https://github.com/ether/ep_readonly_guest.git
+      url|export: git@github.com:ether/ep_readonly_guest.git
+    ether/ep_set_title_on_pad:
+      type: github
+      url: https://github.com/ether/ep_set_title_on_pad.git
+      url|export: git@github.com:ether/ep_set_title_on_pad.git
     ether/ep_spellcheck:
       type: github
       url: https://github.com/ether/ep_spellcheck.git
@@ -158,6 +171,14 @@ etherpad-lite:
       type: github
       url: https://github.com/ether/ep_webrtc.git
       url|export: git@github.com:ether/ep_webrtc.git
+    ether/ep_what_have_i_missed:
+      type: github
+      url: https://github.com/ether/ep_what_have_i_missed.git
+      url|export: git@github.com:ether/ep_what_have_i_missed.git
+    ether/ep_who_did_what:
+      type: github
+      url: https://github.com/ether/ep_who_did_what.git
+      url|export: git@github.com:ether/ep_who_did_what.git
 
 freecol:
   group: out-freecol
