@@ -1131,6 +1131,8 @@ Email Capture
 
 Email Diff
 
+# Encrypted Uploads // 2020-11-27: Waiting for some i18n fixes per Ibf0e9b2d10de7f8f928f62355ecd8768f6315c3d
+
 Error Handler
 
 Etherpad Lite
@@ -1774,6 +1776,8 @@ LDAP Groups
 LDAP Provider
 
 # LDAP Sync All // 2020-11-19: inconsistent prefix
+
+# Library Checkout // 2020-11-28: empty repo
 
 Life Web
 aliasfile = LifeWeb/LifeWeb.alias.php
