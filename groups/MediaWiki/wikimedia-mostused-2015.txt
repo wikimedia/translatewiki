@@ -36,6 +36,18 @@ sep
 oct
 nov
 dec
+january-gen
+february-gen
+march-gen
+april-gen
+may-gen
+june-gen
+july-gen
+august-gen
+september-gen
+october-gen
+november-gen
+december-gen
 mainpage
 mainpage-nstab
 editsectionhint
@@ -162,7 +174,6 @@ filehist
 categorytree-num-pages
 tooltip-ca-nstab-special
 wikibase-edit
-february-gen
 categorytree-expand
 filehist-thumbtext
 categorytree-num-categories
@@ -280,7 +291,6 @@ category_header
 rcshowhideanons-hide
 rcshowhideminor-hide
 rcshowhidemine-hide
-january-gen
 rcshowhidebots-show
 view-foreign
 showdiff
@@ -367,7 +377,6 @@ wikibase-sitelinks-wikinews
 wikibase-sitelinks-special
 loginlanguagelabel
 searchall
-march-gen
 whatlinkshere-title
 whatlinkshere-page
 mypreferences
@@ -390,7 +399,6 @@ anoncontribs
 betafeatures-toplink
 nextn-title
 wm-license-cc-conditions-share_alike-text
-december-gen
 minoredit
 tooltip-pt-watchlist
 tooltip-pt-userpage
@@ -402,7 +410,6 @@ tooltip-pt-logout
 tooltip-pt-betafeatures
 createaccount
 booksources
-october-gen
 thanks-thank-tooltip
 thanks-thank
 whatlinkshere-links
@@ -414,8 +421,6 @@ whatlinkshere-next
 linkshere
 rev-delundel
 file-nohires
-august-gen
-november-gen
 redirectto
 nstab-template
 tooltip-undo
@@ -423,7 +428,6 @@ fancycaptcha-reload-text
 coll-helppage
 pfunc_expr_unexpected_operator
 coll-book_creator
-september-gen
 badtitletext
 tooltip-ca-nstab-template
 centralauth-foreign-link
@@ -456,7 +460,6 @@ previousdiff
 newarticletext
 coll-add_page_tooltip
 tpt-languages-nonzero
-may-gen
 tooltip-ca-move
 createacct-yourpassword-ph
 createacct-yourpasswordagain-ph
@@ -480,10 +483,7 @@ diff-multi-sameuser
 visualeditor-ca-createlocaldescriptionsource
 search-suggest
 imgfile
-april-gen
 wm-license-cc-by-sa-3.0-text
-june-gen
-july-gen
 wikibase-otherprojects
 nextrevision
 currentrevisionlink
