@@ -149,11 +149,3 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/ether/ep_set_title_on_pad/locales/%CODE%.json"
-
----
-BASIC:
-  id: etherpad-lite-plugin-ep_message_all
-  label: Etherpad lite plugin Message all
-
-FILES:
-  sourcePattern: "%GROUPROOT%/ether/ep_message_all/locales/%CODE%.json"

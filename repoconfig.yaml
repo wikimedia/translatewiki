@@ -137,10 +137,6 @@ etherpad-lite:
       type: github
       url: https://github.com/ether/ep_markdown.git
       url|export: git@github.com:ether/ep_markdown.git
-    ether/ep_message_all:
-      type: github
-      url: https://github.com/ether/ep_message_all.git
-      url|export: git@github.com:ether/ep_message_all.git
     ether/ep_padlist2:
       type: github
       branch: main
