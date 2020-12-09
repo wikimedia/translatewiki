@@ -1,0 +1,11 @@
+# This file is managed by puppet
+[Unit]
+Description=Run mw-completeexternaltranslation every 15m
+
+[Timer]
+AccuracySec=1m
+OnBootSec=15m
+OnUnitActiveSec=15m
+
+[Install]
+WantedBy=timers.target

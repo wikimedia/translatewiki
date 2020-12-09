@@ -1,0 +1,11 @@
+# This file is managed by puppet
+[Unit]
+Description=Complete external translation synchornization
+Requisite=mysql.service
+After=mysql.service
+
+[Service]
+User=<%= @maintenance_user %>
+ExecStart=/usr/bin/php <%= @production_dir %>/extensions/Translate/scripts/completeExternalTranslation.php
+ProtectHome=read-only
+ProtectSystem=full

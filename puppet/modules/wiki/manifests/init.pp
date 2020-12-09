@@ -25,6 +25,13 @@ class wiki (
     enable          => true,
   }
 
+  systemd::timer { 'mw-completeexternaltranslation.timer':
+    timer_content   => template('wiki/mw-completeexternaltranslation.timer.erb'),
+    service_content => template('wiki/mw-completeexternaltranslation.service.erb'),
+    active          => true,
+    enable          => true,
+  }
+
   file { '/etc/systemd/system/mw-jobrunner.service':
     content => template('wiki/mw-jobrunner.service.erb'),
   }
