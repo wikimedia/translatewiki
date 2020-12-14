@@ -215,6 +215,7 @@ intuition:
   repos:
     intuition:
       type: github
+      branch: main
       url: https://github.com/Krinkle/intuition.git
       push-branch|export: translatewiki
       url|export: git@github.com:Krinkle/intuition.git
@@ -229,6 +230,7 @@ intuition-tools:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/dumps/dcat
     int-orphantalk:
       type: github
+      branch: main
       url: https://github.com/Krinkle/mw-tool-orphantalk.git
       url|export: git@github.com:Krinkle/mw-tool-orphantalk.git
     int-raun:
@@ -241,6 +243,7 @@ intuition-tools:
       url|export: git@github.com:zhaofengli/refill.git
     int-web:
       type: github
+      branch: main
       url: https://github.com/Krinkle/intuition-web.git
       url|export: git@github.com:Krinkle/intuition-web.git
     int-commtech-commons:
