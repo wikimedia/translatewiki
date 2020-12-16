@@ -66,6 +66,9 @@ privacypage
 disclaimerpage
 searchbutton
 wikimedia-developers
+wikimedia-statslink
+wikimedia-cookiestatement
+mobile-frontend-view
 retrievedfrom
 tooltip-search-fulltext
 tooltip-search
@@ -126,6 +129,7 @@ upload
 tooltip-t-upload
 tooltip-ca-history
 vector-view-history
+cactions
 mainpage-description
 tooltip-n-currentevents
 vector-view-edit
@@ -138,6 +142,8 @@ currentevents-url
 search-result-size
 wikibase-editlinkstitle
 wikibase-editlinks
+wikibase-linkitem-addlinks
+ext-uls-compact-link-count
 coll-download_as
 wikibase-dataitem
 tooltip-t-wikibase
