@@ -139,7 +139,6 @@ search-result-size
 wikibase-editlinkstitle
 wikibase-editlinks
 coll-download_as
-coll-create_a_book
 wikibase-dataitem
 tooltip-t-wikibase
 globalusage-on-wiki
@@ -178,7 +177,6 @@ categorytree-expand
 filehist-thumbtext
 categorytree-num-categories
 toc
-metadata-fields
 newpages
 tag-mobile_edit
 globalusage
@@ -192,9 +190,6 @@ newpageletter
 boteditletter
 rollbacklink
 wikibase-comment-update
-coll-remove
-coll-move_up
-coll-move_down
 recentchanges-label-minor
 recentchanges-label-bot
 wikibase-rc-wikibase-edit-title
@@ -203,7 +198,6 @@ recentchanges-label-newpage
 categorytree-num-files
 redirectedfrom
 nstab-image
-coll-show
 sharedupload-desc-here
 logentry-newusers-create
 allpagessubmit
@@ -302,7 +296,6 @@ wikibase-rc-hide-wikidata-show
 recentchangeslinked-title
 wm-license-information-date
 contributions
-coll-remove_this_page
 wm-license-information-source
 cancel
 wm-license-information-description
@@ -327,7 +320,6 @@ recentchangeslinked-page
 tag-visualeditor
 exif-xresolution
 exif-yresolution
-coll-image-attribution
 log
 pfunc_expr_missing_operand
 exif-datetime
@@ -425,9 +417,7 @@ redirectto
 nstab-template
 tooltip-undo
 fancycaptcha-reload-text
-coll-helppage
 pfunc_expr_unexpected_operator
-coll-book_creator
 badtitletext
 tooltip-ca-nstab-template
 centralauth-foreign-link
@@ -436,29 +426,18 @@ watch
 centralauth-admin-blocklog
 centralauth-merge-method-login
 svg-long-desc
-coll-n_pages
 fancycaptcha-imgcaptcha-ph
 fancycaptcha-captcha
-coll-show_collection
-coll-make_suggestions
 proofreadpage_quality0_category
-coll-make_suggestions_tooltip
 proofreadpage_quality4_category
 proofreadpage_quality3_category
-coll-help_tooltip
-coll-help
-coll-disable
-coll-book_creator_disable_tooltip
 proofreadpage_quality2_category
 visualeditor-ca-createsource
-coll-show_collection_tooltip
 creating
-coll-book_creator_disable
 editingsection
 wm-license-own-work
 previousdiff
 newarticletext
-coll-add_page_tooltip
 tpt-languages-nonzero
 tooltip-ca-move
 createacct-yourpassword-ph
@@ -476,7 +455,6 @@ monthsall
 month
 movelogpage
 difference-title
-coll-add_this_page
 wm-license-information-permission-reusing-text
 wm-license-information-permission
 diff-multi-sameuser
@@ -514,7 +492,6 @@ tooltip-ca-nstab-project
 globalusage-more
 tooltip-ca-current
 nstab-project
-coll-article-attribution
 wikibase-rc-hide-wikidata-hide
 nextdiff
 viewpagelogs
@@ -538,7 +515,6 @@ inputbox-tryexact
 wikimedia-globalblocking-ipblocked
 wikimedia-globalblocking-ipblocked-xff
 timedmedia-source-audio-file-desc
-coll-attribution-anons
 wikibase-label-empty
 wm-license-self-multiple-licenses-select
 editing
