@@ -1674,6 +1674,7 @@ aliasfile = InviteSignup/InviteSignup.alias.php
 
 IP Info
 optional = ipinfo-extensionname
+optional = ipinfo-source-geoip2
 
 Jade - User interface
 id = ext-jade-user
