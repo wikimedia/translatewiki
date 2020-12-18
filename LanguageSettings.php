@@ -79,7 +79,6 @@ $wgExtraLanguageNames['mui'] = 'Musi'; # Musi / Siebrand 2010-02-11
 $wgExtraLanguageNames['mvf'] = 'ᠮᠣᠩᠭᠣᠯ'; # Southern Mongolian / Amir 2020-04-17
 $wgExtraLanguageNames['mwv'] = 'Behase Mentawei'; # Mentawai / Siebrand 2008-05-07
 $wgExtraLanguageNames['mww-latn'] = 'Hmoob Dawb'; # Hmong Daw / Siebrand 2013-12-02
-$wgExtraLanguageNames['nia'] = 'Li Niha'; # Nias / Nikerabbit 2018-08-03
 $wgExtraLanguageNames['njo'] = 'Ao'; # Ao Naga
 $wgExtraLanguageNames['nod'] = 'คำเมือง'; # Northern Thai / Siebrand 2017-05-20
 $wgExtraLanguageNames['nog'] = 'Ногайша'; # Nogai / Nikerabbit 2018-08-03
