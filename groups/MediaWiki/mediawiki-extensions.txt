@@ -3521,16 +3521,20 @@ Wikibase Media Info - User Interface
 id = ext-wikibasemediainfo-user
 file = WikibaseMediaInfo/i18n/%CODE%.json
 
-WikibaseQualityConstraints - API
+Wikibase Quality Constraints - API
 id = ext-wikibasequalityconstraints-api
 file = WikibaseQualityConstraints/i18n/api/%CODE%.json
 
-WikibaseQualityConstraints - User Interface
+Wikibase Quality Constraints - User Interface
 id = ext-wikibasequalityconstraints-user
 file = WikibaseQualityConstraints/i18n/%CODE%.json
 aliasfile = WikibaseQualityConstraints/WikibaseQualityConstraints.alias.php
 
 # Wikibase Query // Archived
+
+Wikibase Statement Updater
+descmsg = wsu-desc
+aliasfile = WikibaseStatementUpdater/WikibaseStatementUpdater.alias.php
 
 #Wikidata Entity Suggester / No real extension, Java program
 
