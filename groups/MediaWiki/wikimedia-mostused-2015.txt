@@ -651,7 +651,6 @@ redirect-page
 redirect-lookup
 redirect-file
 filepage-nofile
-copyright
 tooltip-search
 continue-editing
 previewnote
