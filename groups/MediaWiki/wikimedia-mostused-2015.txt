@@ -294,7 +294,6 @@ rcshowhidemine-hide
 rcshowhidebots-show
 view-foreign
 showdiff
-listingcontinuesabbrev
 enhancedrc-history
 tooltip-ca-viewsource
 upload-disallowed-here
