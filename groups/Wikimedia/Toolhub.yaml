@@ -1,0 +1,58 @@
+BASIC:
+  id: toolhub
+  label: Toolhub
+  meta: yes
+  description: "{{Special:MyLanguage/Translations:Group descriptions/toolhub/en}}"
+  icon: wiki://Toolhub_community_logo.svg
+  namespace: NS_WIKIMEDIA
+  class: AggregateMessageGroup
+
+GROUPS:
+  - toolhub-*
+
+---
+BASIC:
+  id: toolhub-django
+  label: Toolhub - Backend
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  codeBrowser: "https://gerrit.wikimedia.org/r/plugins/gitiles/wikimedia/toolhub/+/refs/heads/main/%FILE%#%LINE%"
+
+FILES:
+  class: GettextFFS
+  sourcePattern: "%GROUPROOT%/toolhub/toolhub/locale/%CODE%/LC_MESSAGES/django.po"
+
+MANGLER:
+  class: StringMatcher
+  prefix: toolhub-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: GettextNewline
+    enforce: true
+  - id: GettextPlural
+    enforce: true
+
+---
+BASIC:
+  id: toolhub-js
+  label: Toolhub - Frontend
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/toolhub/vue/src/assets/locale/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: toolhub-js-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  # Variables: {url}
+  - id: InsertableRegex
+    insertable: true
+    params: /\{[^|} ]+\}/

@@ -737,6 +737,16 @@ swviewer:
      url: https://github.com/SWViewer/tool-swviewer.git
      url|export: git@github.com:SWViewer/tool-swviewer.git
 
+toolhub:
+  group: toolhub-*
+  auto-merge: wikimedia/toolhub
+  repos:
+    toolhub:
+      type: wmgerrit
+      branch: main
+      url: https://gerrit.wikimedia.org/r/wikimedia/toolhub
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/toolhub
+
 vicuna:
   group: out-vicuna
   repos:
