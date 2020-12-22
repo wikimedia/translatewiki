@@ -20,3 +20,7 @@ FILES:
 VALIDATORS:
   - id: NumericalParameter
     insertable: true
+
+TAGS:
+  optional:
+    - copypatrol-name
