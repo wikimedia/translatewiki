@@ -3164,6 +3164,7 @@ ignored = translate-js-label-font-size, translate-js-label-units
 
 Translation Notifications
 aliasfile = TranslationNotifications/TranslationNotifications.alias.php
+optional = translationnotifications-generic-languages
 
 Trusted XFF
 
