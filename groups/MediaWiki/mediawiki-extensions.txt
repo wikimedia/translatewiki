@@ -2538,7 +2538,7 @@ optional = group-filepusher.css, group-filepusher.js
 Push Notifications
 
 Push To Watch
-ignored = right-pushtowatch
+ignored = right-pushtowatch, action-pushtowatch
 
 # PwnedPasswords // No i18n files
 
