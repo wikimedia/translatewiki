@@ -8,6 +8,7 @@ $wgExtraLanguageNames['ann'] = 'Obolo'; # Obolo / Amir 2020-07-01
 $wgExtraLanguageNames['aro'] = 'Araona'; # Araona / Siebrand 2010-08-25
 $wgExtraLanguageNames['atv'] = 'тÿндÿк алтай'; # Northern Altay / Amir 2020-06-07
 $wgExtraLanguageNames['bci'] = 'Wawle'; # Baoulé / Amir 2020-06-03
+$wgExtraLanguageNames['bdr'] = 'Bajau Sama'; # Bajau Sama / Amir 2020-12-25
 $wgExtraLanguageNames['bew'] = 'Bahasa Betawi'; # Betawi / Siebrand 2008-07-13
 $wgExtraLanguageNames['bft'] = 'بلتی'; # Balti / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['bfq'] = 'படகா'; # UBadaga / Siebrand 2009-11-19
