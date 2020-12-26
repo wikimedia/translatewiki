@@ -2650,7 +2650,7 @@ ignored = sandboxlink-editintro-pagename, sandboxlink-preload-pagename
 
 Sarcasm
 
-# Save Spinner // 2019-03-02 empty repo
+Save Spinner
 
 Score
 optional = score-visualeditor-mwscoreinspector-lang-abc, score-visualeditor-mwscoreinspector-lang-lilypond
