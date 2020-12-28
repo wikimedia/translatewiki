@@ -258,7 +258,6 @@ history
 wm-license-cc-conditions-attribution-header
 rcshowhidebots
 rcshowhideliu
-recentchanges-legend-plusminus
 recentchanges-legend-newpage
 recentchanges-legend-heading
 recentchanges-label-plusminus
@@ -310,7 +309,6 @@ wm-license-information-author
 watchthis
 wikibase-add
 edithelp
-edittools
 tooltip-summary
 tooltip-save
 tooltip-preview
