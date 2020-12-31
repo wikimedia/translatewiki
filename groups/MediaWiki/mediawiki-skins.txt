@@ -47,6 +47,8 @@ ignored = gamepress-navigation, gamepress-prefooter-1, gamepress-prefooter-2, ga
 
 Grey Stuff
 
+Gu Max DD
+
 Mask
 ignored = mask-menu-left, mask-menu-right, mask-index-url
 
