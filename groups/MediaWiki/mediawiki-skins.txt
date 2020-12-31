@@ -67,6 +67,10 @@ MinervaNeue
 ignored = mobile-frontend-footer-sitename
 optional = skinname-minerva, minerva.css, minerva.js
 
+Mirage
+ignored = mirage-navigation, mirage-community-messages
+optional = skinname-mirage, mirage.css, mirage.js
+
 Modern
 optional = modern.css, modern.js
 
