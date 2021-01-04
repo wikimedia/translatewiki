@@ -399,10 +399,6 @@ mwgithub:
       type: github
       url: https://github.com/examknow/CentralCheckUser.git
       url|export: git@github.com:examknow/CentralCheckUser.git
-    mwgithub/femiwiki/CategoryIntersectionSearch:
-      type: github
-      url: https://github.com/femiwiki/CategoryIntersectionSearch.git
-      url|export: git@github.com:femiwiki/CategoryIntersectionSearch.git
     mwgithub/femiwiki/FacetedCategory:
       type: github
       url: https://github.com/femiwiki/FacetedCategory.git

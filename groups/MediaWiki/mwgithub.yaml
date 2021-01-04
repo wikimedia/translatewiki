@@ -693,16 +693,6 @@ FILES:
 
 ---
 BASIC:
-  id: mwgithub-categoryintersectionsearch
-  label: CategoryIntersectionSearch
-  description: "{{Special:MyLanguage/MediaWiki:categoryintersectionsearch-femiwiki/en}}"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/CategoryIntersectionSearch/i18n/%CODE%.json"
-
----
-BASIC:
   id: mwgithub-facetedcategory
   label: FacetedCategory
   description: "{{Special:MyLanguage/MediaWiki:facetedcategory-desc/en}}"
