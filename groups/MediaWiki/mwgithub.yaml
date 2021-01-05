@@ -693,6 +693,16 @@ FILES:
 
 ---
 BASIC:
+  id: mwgithub-achievementbadges
+  label: AchievementBadges
+  description: "{{Special:MyLanguage/MediaWiki:achievementbadges-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/AchievementBadges/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-facetedcategory
   label: FacetedCategory
   description: "{{Special:MyLanguage/MediaWiki:facetedcategory-desc/en}}"
