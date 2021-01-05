@@ -211,3 +211,27 @@ FILES:
   sourcePattern: "%GROUPROOT%/wikimedia-tools/wikinity/messages/%CODE%.json"
   codeMap:
     sr-el: sr
+
+---
+BASIC:
+  id: wikimedia-tools-videocuttool
+  label: VideoCutTool
+  description: "{{Special:MyLanguage/Translations:Group descriptions/videocuttool/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: videocuttool-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/videocuttool/src/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: true
+  - id: MediaWikiPlural
