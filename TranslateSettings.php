@@ -500,3 +500,6 @@ $wgTranslateSupportUrlNamespace[NS_WIKIDOCUMENTARIES] = [
 
 # No longer in use
 wfAddNamespace( 1284, 'BitmarkInc' );
+
+wfAddNamespace( 1286, 'CovidRatio' );
+$wgTranslateGroupFiles[] = "$GROUPS/CovidRatio/CovidRatio.yaml";

@@ -63,6 +63,14 @@ convenient-discussions:
       url: https://github.com/jwbth/convenient-discussions.git
       url|export: git@github.com:jwbth/convenient-discussions.git
 
+covidratio:
+  group: covidratio
+  repos:
+    covidratio:
+      type: github
+      url: https://github.com/covidratio/covidratio.git
+      url|export: git@github.com:covidratio/covidratio.git
+
 dibabel:
   group: dibabel
   export-threshold: 0
