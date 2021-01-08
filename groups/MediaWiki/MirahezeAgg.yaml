@@ -1,0 +1,19 @@
+BASIC:
+  id: miraheze
+  label: Miraheze
+  icon: wiki://Miraheze-Logo.svg
+  meta: yes
+  class: AggregateMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/miraheze/en}}"
+  namespace: NS_MEDIAWIKI
+
+GROUPS:
+  - mwgithub-createwiki
+  - mwgithub-datadump
+  - mwgithub-incidentreporting
+  - mwgithub-managewiki
+  - mwgithub-matomoanalytics
+  - mwgithub-mirahezelanding
+  - mwgithub-mirahezemagic-custom
+  - mwgithub-mirahezemagic-override
+  - mwgithub-wikidiscover

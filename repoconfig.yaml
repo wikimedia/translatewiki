@@ -496,6 +496,10 @@ mwgithub:
       type: github
       url: https://github.com/miraheze/IncidentReporting.git
       url|export: git@github.com:miraheze/IncidentReporting.git
+    mwgithub/miraheze/landing:
+      type: github
+      url: https://github.com/miraheze/landing.git
+      url|export: git@github.com:miraheze/landing.git
     mwgithub/miraheze/ManageWiki:
       type: github
       url: https://github.com/miraheze/ManageWiki.git

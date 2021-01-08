@@ -801,3 +801,16 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-GTag/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-mirahezelanding
+  label: Miraheze Landing Page
+  description: "{{Special:MyLanguage/MediaWiki:mirahezelanding-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/landing/i18n/%CODE%.json"
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
