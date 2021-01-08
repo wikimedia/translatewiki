@@ -1370,23 +1370,23 @@ Generate Mocha Config
 Geo Crumbs
 optional = geocrumbs-delimiter
 
-# GeoGebra is a product name, therefore no space between the words
+# GeoGebra is a product name, therefore no space between the words ("Geo Gebra" for grep)
 GeoGebra
 
-GeoData - API
+Geo Data - API
 id = ext-geodata-api
 file = GeoData/i18n/api/%CODE%.json
 
-GeoData - User Interface
+Geo Data - User Interface
 id = ext-geodata-user
 file = GeoData/i18n/%CODE%.json
 
-GettingStarted - API
+Getting Started - API
 id = ext-gettingstarted-api
 file = GettingStarted/i18n/api/%CODE%.json
 ignored = apihelp-query+gettingstartedgetpages-example-1
 
-GettingStarted - User Interface
+Getting Started - User Interface
 id = ext-gettingstarted-user
 file = GettingStarted/i18n/%CODE%.json
 
@@ -1396,11 +1396,11 @@ Git Gadgets
 
 Gitweb
 
-GlobalBlocking - API
+Global Blocking - API
 id = ext-globalblocking-api
 file = GlobalBlocking/i18n/api/%CODE%.json
 
-GlobalBlocking - User Interface
+Global Blocking - User Interface
 id = ext-globalblocking-user
 file = GlobalBlocking/i18n/%CODE%.json
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
@@ -1516,7 +1516,9 @@ Graph QL
 aliasfile = GraphQL/GraphQL.alias.php
 optional = graphql
 
-GraphViz
+Graph Viz
+
+# Group Whitelist // 2021-01-08: no real message content
 
 Groups Sidebar
 
