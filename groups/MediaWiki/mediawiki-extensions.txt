@@ -3537,6 +3537,7 @@ aliasfile = WikibaseQualityConstraints/WikibaseQualityConstraints.alias.php
 
 Wikibase Statement Updater
 descmsg = wsu-desc
+optional = wsu-extension-name
 aliasfile = WikibaseStatementUpdater/WikibaseStatementUpdater.alias.php
 
 #Wikidata Entity Suggester / No real extension, Java program
