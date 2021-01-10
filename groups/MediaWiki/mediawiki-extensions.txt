@@ -1286,7 +1286,7 @@ file = FlaggedRevs/i18n/validationstatistics/%CODE%.json
 descmsg = flaggedrevs-desc
 
 Flex Diagrams
-magicfile = FlexDiagrams/FlexDiagrams.i18n.alias.php
+magicfile = FlexDiagrams/FlexDiagrams.i18n.magic.php
 
 Flexi Skin
 descmsg = flexiskin-extension-desc
