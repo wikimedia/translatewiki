@@ -286,7 +286,7 @@ aliasfile = BlueSpiceAvatars/languages/SpecialAvatars.alias.php
 
 Blue Spice Bookshelf
 descmsg = bs-bookshelf-extension-description
-aliasfile = BlueSpiceBookshelf/languages/Bookshelf.alias.php
+aliasfile = BlueSpiceBookshelf/languages/Bookshelf.special.alias.php
 
 Blue Spice Bookshelf - UI
 id = ext-bs-bookshelfui
