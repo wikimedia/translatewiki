@@ -812,6 +812,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/landing/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - miraheze-landing-header-logo-text
+
 MANGLER:
   class: StringMatcher
   prefix: miraheze-landing-
