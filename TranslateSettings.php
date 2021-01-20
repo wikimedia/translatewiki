@@ -205,6 +205,8 @@ $wgTranslateBlacklist = [
 ],
 ];
 
+$wgTranslateGroupSynchronizationCache = true;
+
 # Namespace 8
 $wgTranslateMessageNamespaces[] = NS_MEDIAWIKI;
 $wgMessagesDirs['MediawikiInstaller'] = "$IP/includes/installer/i18n";
