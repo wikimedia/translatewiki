@@ -12,3 +12,4 @@ gem 'xmlrpc' if RUBY_VERSION >= '2.4.0'
 
 # https://phabricator.wikimedia.org/T242339
 gem 'gettext', '~> 3.2.9'
+gem 'pathspec', '< 1.0.0'
