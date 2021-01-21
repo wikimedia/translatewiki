@@ -3408,7 +3408,7 @@ optional = group-forumadmin.css, group-forumadmin.js
 Wiki Lambda - User interface
 ignored = wikilambda-systemuser, wikilambda-bootstrapcreationeditsummary
 ignored = wikilambda-editor-additem, wikilambda-editor-removeitem
-optional = wikilambda-persistentzobject
+optional = wikilambda-persistentzobject, wikilambda-zobjectselector-label
 id = ext-wikilambda-user
 file = WikiLambda/i18n/%CODE%.json
 
