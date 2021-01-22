@@ -101,6 +101,7 @@ eol:
   repos:
     eol-website:
       type: github
+      branch: main
       url: https://github.com/EOL/eol_website.git
       url|export: git@github.com:EOL/eol_website.git
 
