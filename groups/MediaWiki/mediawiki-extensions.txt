@@ -1553,6 +1553,7 @@ ignored = growth-homepage-banner
 optional = growthexperiments-homepage-suggestededits-footer-suffix
 optional = growthexperiments-homepage-suggestededits-footer-kilosuffix, growthexperiments-homepage-suggestededits-footer-megasuffix
 optional = growthexperiments-homepage-suggestededits-footer-gigasuffix, growthexperiments-homepage-suggestededits-footer-terasuffix
+optional = growthexperiments-addlink-context-title
 
 Growth Experiments - Homepage API
 id = ext-growthexperiments-homepage-api
@@ -3443,6 +3444,8 @@ descmsg = wiki-seo-desc
 magicfile = WikiSEO/WikiSEO.i18n.magic.php
 
 Wiki Text Logged In Out
+
+# Wiki To LDAP // 2021-01-22 very incomplete message documentation
 
 Wikibase - Client - User interface
 file = Wikibase/client/i18n/%CODE%.json
