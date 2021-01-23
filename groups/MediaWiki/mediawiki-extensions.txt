@@ -1290,6 +1290,7 @@ descmsg = flaggedrevs-desc
 
 Flex Diagrams
 magicfile = FlexDiagrams/FlexDiagrams.i18n.magic.php
+aliasfile = FlexDiagrams/FlexDiagrams.i18n.aliases.php
 
 Flexi Skin
 descmsg = flexiskin-extension-desc
@@ -2279,7 +2280,7 @@ Page In Cat
 Page Language
 
 Page Magic
-magicfile = PageMagic/PageMagic.magic.i18n.php
+magicfile = PageMagic/PageMagic.i18n.magic.php
 
 Page Name Formula
 
