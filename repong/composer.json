@@ -3,7 +3,7 @@
 	"description": "Command line VCS repository management tool",
 	"license": "GPL-2.0-or-later",
 	"autoload": {
-		"psr-4": {"Translatewiki\\RepoNg\\": "src/"}
+		"psr-4": { "Translatewiki\\RepoNg\\": "src/" }
 	},
 	"require": {
 		"symfony/console": "^3.4.0",
