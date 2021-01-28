@@ -697,10 +697,6 @@ osm:
       type: github
       url: https://github.com/openstreetmap/openstreetmap-website.git
       url|export: git@github.com:openstreetmap/openstreetmap-website.git
-    potlatch2:
-      type: github
-      url: https://github.com/systemed/potlatch2.git
-      url|export: git@github.com:systemed/potlatch2.git
 
 pagecontentservice:
   group: pagecontentservice
