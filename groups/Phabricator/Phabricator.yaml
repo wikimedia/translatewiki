@@ -739,6 +739,15 @@ MANGLER:
 
 ---
 BASIC:
+  id: phabricator-phabricator_ext-core
+  label: Phabricator (phabricator_ext > core)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator_ext/core/%CODE%.json'
+MANGLER:
+  prefix: phabricator_ext-core-
+
+---
+BASIC:
   id: phabricator-translatewiki-core
   label: Phabricator (translatewiki > core)
 FILES:
