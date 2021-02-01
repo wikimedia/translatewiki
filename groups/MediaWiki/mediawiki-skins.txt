@@ -28,7 +28,7 @@ Cologne Blue
 optional = cologneblue.css, cologneblue.js
 
 Cosmos
-ignored = cosmos-customsidebar, cosmos-stickysidebar, cosmos-tagline
+ignored = cosmos-custom-rail-module, cosmos-custom-sticky-rail-module, cosmos-tagline
 ignored = cosmos-mobile-menu-label, cosmos-navigation
 optional = skinname-cosmos, cosmos.css, cosmos.js
 
