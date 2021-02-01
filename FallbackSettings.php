@@ -1,4 +1,13 @@
 <?php
+/** Local translatewiki fallback settings.
+ *
+ * Adding a value here makes the languages in it appear by default
+ * as "assistant languages" to people who translate to the language listed
+ * as the key and who have the default value in the assistant language
+ * preferecnce. This value is added to the existing fallback language value
+ * as defined in core MediaWiki.
+ *
+ */
 
 $wgTranslateLanguageFallbacks['acf'] = 'fr';
 $wgTranslateLanguageFallbacks['af'] = 'nl';
