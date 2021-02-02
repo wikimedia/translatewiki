@@ -3678,6 +3678,7 @@ Wiki Share
 magicfile = WikiShare/WikiShare.i18n.magic.php
 
 Wikisource
+optional = wikisource-download-chooser-epub, wikisource-download-chooser-mobi, wikisource-download-chooser-pdf
 
 WS OAuth
 
