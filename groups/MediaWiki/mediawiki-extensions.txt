@@ -3531,6 +3531,7 @@ file = WikibaseMediaInfo/i18n/api/%CODE%.json
 Wikibase Media Info - User Interface
 id = ext-wikibasemediainfo-user
 file = WikibaseMediaInfo/i18n/%CODE%.json
+optional = wikibasemediainfo-special-mediasearch-image-size
 
 Wikibase Quality Constraints - API
 id = ext-wikibasequalityconstraints-api
