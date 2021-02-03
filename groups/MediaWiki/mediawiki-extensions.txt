@@ -1459,10 +1459,6 @@ descmsg = gur-desc
 Global Watchlist
 aliasfile = GlobalWatchlist/GlobalWatchlist.alias.php
 
-Global Watchlist - script
-id = ext-globalwatchlist-script
-file = GlobalWatchlist/i18n/script/%CODE%.json
-
 Go To Shell
 aliasfile = GoToShell/GoToShell.alias.php
 
