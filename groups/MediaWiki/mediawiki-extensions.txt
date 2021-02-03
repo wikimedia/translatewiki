@@ -3301,8 +3301,6 @@ Viki Title Icon
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
-Virtual Keyboard
-
 VisualEditor (MediaWiki extension)
 id = ext-visualeditor-ve-mw
 descmsg = visualeditor-desc
