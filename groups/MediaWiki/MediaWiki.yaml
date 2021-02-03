@@ -480,6 +480,7 @@ TAGS:
     - redirect-text
     - redirectexternal-summary
     - resettokens-summary
+    - restriction-blank
     - revdelete-content
     - revdelete-hid
     - revdelete-log-message
