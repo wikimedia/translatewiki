@@ -3668,6 +3668,7 @@ optional = wikispeech, prefs-wikispeech
 
 Wikispeech Speech Data Collector
 descmsg = wikispeech-sdc-desc
+aliasfile = WikispeechSpeechDataCollector/WikispeechSpeechDataCollector.alias.php
 
 # Windows Azure SDK // 2017-06-15: Archived
 
