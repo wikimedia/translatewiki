@@ -1784,9 +1784,6 @@ LDAP Provider
 
 # Library Checkout // 2020-11-28: empty repo
 
-Life Web
-aliasfile = LifeWeb/LifeWeb.alias.php
-
 # Lightweight RDFa // Archived per https://phabricator.wikimedia.org/T93727#2806421
 
 Lingo
