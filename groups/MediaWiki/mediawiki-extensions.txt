@@ -2868,8 +2868,6 @@ Sofa
 Software Version
 ignored = softwareversion-wiki-link
 
-Solarium
-
 Sound Manager 2 Button
 
 Spam Blacklist - User interface
