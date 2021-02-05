@@ -2216,8 +2216,6 @@ Open Stack Manager
 aliasfile = OpenStackManager/OpenStackManager.alias.php
 optional = prefs-openstack
 
-# Open Street Map Slippy Map // message prefix "slippymap-"
-
 Orphaned Talk Pages
 aliasfile = OrphanedTalkPages/OrphanedTalkPages.alias.php
 
