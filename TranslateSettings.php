@@ -127,10 +127,11 @@ $wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) 
 
 $wgTranslateAuthorBlacklist = [];
 $wgTranslateAuthorBlacklist[] = [ 'black', '/^.*;.*;.*Bot$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'black', '/^.*;.*;(Andre Engels|Gangleri|Jon Harald Søby|IAlex|M.M.S.|BotMultichill|Nike|Piivaat|Raymond|RobertL|SieBot|Siebrand|SPQRobin|Suradnik13|Verdy p)$/Ui' ];
+$wgTranslateAuthorBlacklist[] = [ 'black', '/^.*;.*;(Abijeet Patro|Andre Engels|Gangleri|Jon Harald Søby|IAlex|M.M.S.|BotMultichill|Nike|Piivaat|Raymond|RobertL|SieBot|Siebrand|SPQRobin|Suradnik13|Verdy p)$/Ui' ];
 $wgTranslateAuthorBlacklist[] = [ 'black', '/^.*;da;(Wegge|Morten)$/Ui' ]; # are both credited under other names
 $wgTranslateAuthorBlacklist[] = [ 'black', '/^out-mantis.*;nl;Siebrand$/Ui' ]; # credited under other name
 
+$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|en-gb|hi);Abijeet Patro$/Ui' ];
 $wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|fr);IAlex$/Ui' ];
 $wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|sma|sv);M.M.S.$/Ui' ];
 $wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|fi);Nike$/Ui' ];
