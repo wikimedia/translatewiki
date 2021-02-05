@@ -5,7 +5,7 @@ BASIC:
   icon: wiki://Nuvola_web_broom.svg
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
-  codeBrowser: "https://github.com/WPCleaner/wpcleaner/blob/master/WikipediaCleaner/src/%FILE%#%LINE%"
+  codeBrowser: "https://github.com/WPCleaner/wpcleaner/blob/master/WikipediaCleaner/src/%FILE%#L%LINE%"
 
 FILES:
   class: GettextFFS
