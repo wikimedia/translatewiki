@@ -61,7 +61,6 @@ $wgTranslateLanguageFallbacks['ks-deva'] = 'hi'; # Robin
 $wgTranslateLanguageFallbacks['ksf'] = [ 'fr' ]; # Robin 2011-10-21
 $wgTranslateLanguageFallbacks['lag'] = [ 'sw' ]; # Amir 2017-05-03
 $wgTranslateLanguageFallbacks['lki'] = [ 'fa', 'lrc', 'sdh' ];
-$wgTranslateLanguageFallbacks['mad'] = 'id';
 $wgTranslateLanguageFallbacks['mfe'] = [ 'fr' ]; # Robin 2011-10-18
 $wgTranslateLanguageFallbacks['miq'] = [ 'es' ];
 $wgTranslateLanguageFallbacks['mnc'] = [ 'zh-hans' ];
