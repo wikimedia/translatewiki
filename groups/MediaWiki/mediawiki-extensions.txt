@@ -2554,8 +2554,6 @@ optional = quizgame-leaderboard-desc-pct
 Quick Surveys
 ignored = ext-quicksurveys-example-external-survey-link
 
-# Quiz Tabulate // Missing message documentation
-
 Random Area
 
 Random Game Unit
