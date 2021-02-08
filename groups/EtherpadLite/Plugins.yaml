@@ -149,3 +149,11 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/ether/ep_set_title_on_pad/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_desktop_notifications
+  label: Etherpad lite plugin Desktop notifications
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_desktop_notifications/locales/%CODE%.json"

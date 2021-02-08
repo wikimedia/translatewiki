@@ -130,6 +130,10 @@ etherpad-lite:
       type: github
       url: https://github.com/ether/ep_author_hover.git
       url|export: git@github.com:ether/ep_author_hover.git
+    ether/ep_desktop_notifications:
+      type: github
+      url: https://github.com/ether/ep_desktop_notifications.git
+      url|export: git@github.com:ether/ep_desktop_notifications.git
     ether/ep_font_color:
       type: github
       url: https://github.com/ether/ep_font_color.git
