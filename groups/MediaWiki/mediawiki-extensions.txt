@@ -1617,8 +1617,6 @@ HTMLets
 I18n Tags
 magicfile = I18nTags/I18nTags.magic.php
 
-If Templates
-
 Iframe Page
 
 Image Map
