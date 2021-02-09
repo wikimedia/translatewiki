@@ -824,3 +824,12 @@ MANGLER:
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
+
+---
+BASIC:
+  id: mwgithubskin-onyx
+  label: Onyx skin
+  description: "{{Special:MyLanguage/MediaWiki:Onyx-skin-desc/en}}"
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Halopedia/Onyx/i18n/%CODE%.json"

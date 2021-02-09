@@ -437,6 +437,10 @@ mwgithub:
       branch: main
       url: https://github.com/femiwiki/UnifiedExtensionForFemiwiki.git
       url|export: git@github.com:femiwiki/UnifiedExtensionForFemiwiki.git
+    mwgithub/Halopedia/Onyx:
+      type: github
+      url: https://github.com/Halopedia/Onyx.git
+      url|export: git@github.com:Halopedia/Onyx.git
     mwgithub/Hutchy68/Purge:
       type: github
       url: https://github.com/Hutchy68/Purge.git
