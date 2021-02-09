@@ -1828,9 +1828,6 @@ id = ext-liquidthreads-api
 file = LiquidThreads/i18n/api/%CODE%.json
 ignored = apihelp-threadaction-param-operand
 
-List Signup
-aliasfile = ListSignup/ListSignup.alias.php
-
 Listings
 ignored = listings-fax-symbol, listings-email-symbol
 ignored = listings-tollfree-symbol, listings-position-template
