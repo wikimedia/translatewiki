@@ -146,6 +146,10 @@ etherpad-lite:
       type: github
       url: https://github.com/ether/ep_headings2.git
       url|export: git@github.com:ether/ep_headings2.git
+    ether/ep_image_upload:
+      type: github
+      url: https://github.com/citizenos/ep_image_upload.git
+      url|export: git@github.com:citizenos/ep_image_upload.git
     ether/ep_markdown:
       type: github
       url: https://github.com/ether/ep_markdown.git

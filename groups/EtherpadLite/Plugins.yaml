@@ -157,3 +157,11 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/ether/ep_desktop_notifications/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_image_upload
+  label: Etherpad lite plugin Image Upload
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_image_upload/locales/%CODE%.json"
