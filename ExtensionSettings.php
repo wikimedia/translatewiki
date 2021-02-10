@@ -87,7 +87,7 @@ wfLoadExtension( 'NewUserMessage' );
 $wgNewUserSuppressRC = true;
 $wgNewUserMinorEdit = false;
 
-require_once "$EXT/ContributionScores/ContributionScores.php";
+wfLoadExtension( 'ContributionScores' );
 $wgContribScoreIgnoreBots = true;
 
 wfLoadExtension( 'WebChat' );
