@@ -1,5 +1,6 @@
 Catdown
-optional = scaling-none, script-filename, readme-filename
+optional = script-filename, readme-filename
+ignored = scaling-none
 
 CommonsHelper 2
 ignored = title, tusc
