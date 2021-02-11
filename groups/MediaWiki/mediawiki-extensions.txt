@@ -1474,9 +1474,6 @@ aliasfile = GoogleAnalyticsTopPages/GoogleAnalyticsTopPages.alias.php
 
 # Google API Client # T119905
 
-Google App Engine
-descmsg = gae-desc
-
 Google Authenticator
 aliasfile = GoogleAuthenticator/GoogleAuthenticator.i18n.alias.php
 
