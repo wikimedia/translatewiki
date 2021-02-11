@@ -1030,6 +1030,11 @@ wikisource:
       type: github
       url: https://github.com/wikisource/wscontest.git
       url|export: git@github.com:wikisource/wscontest.git
+    wsexport:
+      type: github
+      branch: main
+      url: https://github.com/wikimedia/ws-export.git
+      url|export: git@github.com:wikimedia/ws-export.git
 
 wikistats:
   group: wikistats

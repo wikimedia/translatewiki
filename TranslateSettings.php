@@ -275,6 +275,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikipediaPreview.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Wikistats.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WPCleaner.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/wscontest.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WSExport.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/XTools.yaml";
 $wgTranslateGroupAliases['out-pageviews'] = 'pageviews';
 $wgTranslateGroupAliases['wikinity'] = 'wikimedia-tools-wikinity';
