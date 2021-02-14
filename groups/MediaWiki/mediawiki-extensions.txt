@@ -978,7 +978,6 @@ Discussion Threading
 Discussion Tools - API
 file = DiscussionTools/i18n/api/%CODE%.json
 id = ext-discussiontools-api
-optional = apihelp-discussiontoolsedit-param-html
 
 Discussion Tools - User interface
 file = DiscussionTools/i18n/%CODE%.json
