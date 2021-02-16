@@ -1023,7 +1023,7 @@ wikipedia-preview:
   repos:
     wikipedia-preview:
       type: github
-      branch: master
+      branch: main
       url: https://github.com/wikimedia/wikipedia-preview.git
       url|export: git@github.com:wikimedia/wikipedia-preview.git
 
