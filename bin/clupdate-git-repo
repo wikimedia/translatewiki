@@ -7,6 +7,17 @@ DIR=$2
 BRANCH=${3:-master}
 COMMIT=${4:-origin/$BRANCH}
 
+# On URL change, start from scratch
+if [ -d "$DIR/.git" ]
+then (
+        ACTUALURL="$(git -C "$DIR" config --get remote.origin.url)"
+        if [ "$URL" != "$ACTUALURL" ]
+        then
+                echo "Re-cloning $DIR to update from $ACTUALURL to $URL";
+                rm -rf "$DIR"
+        fi
+) fi
+
 if [ -d "$DIR/.git" ]
 then (
 	cd "$DIR"
