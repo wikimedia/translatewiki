@@ -1008,6 +1008,7 @@ wikipedia-kaios:
   repos:
     wikipedia-kaios:
       type: github
+      branch: main
       url: https://github.com/wikimedia/wikipedia-kaios.git
       url|export: git@github.com:wikimedia/wikipedia-kaios.git
 
