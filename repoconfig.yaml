@@ -1028,7 +1028,7 @@ wikipedia-preview:
       url|export: git@github.com:wikimedia/wikipedia-preview.git
 
 wikisource:
-  group: wscontest,ia-upload
+  group: wscontest,ia-upload,wsexport
   repos:
     ia-upload:
       type: github
