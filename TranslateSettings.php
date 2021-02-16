@@ -24,6 +24,11 @@ $githubParams = [
 	'title' => '[[%MESSAGE%]] i18n issue',
 	'body' => "[**URL**](https://translatewiki.net/wiki/%MESSAGE%)",
 ];
+$gitlabParams = [
+	'issue[title]' => '[[%MESSAGE%]] i18n issue',
+	'issue[description]' => "[**URL**](https://translatewiki.net/wiki/%MESSAGE%)",
+];
+
 $phabUrl = 'https://phabricator.wikimedia.org/maniphest/task/edit/form/1/';
 $wgTranslateSupportUrl = [
 	'page' => 'Support',
@@ -464,8 +469,8 @@ $wgCapitalLinkOverrides[NS_DISSEMIN] = false;
 $wgCapitalLinkOverrides[NS_DISSEMIN_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/Dissemin/Dissemin.yaml";
 $wgTranslateSupportUrlNamespace[NS_DISSEMIN] = [
-	'url' => 'https://github.com/dissemin/dissemin/issues/new',
-	'params' => $githubParams,
+	'url' => 'https://gitlab.com/dissemin/dissemin/-/issues',
+	'params' => $gitlabParams,
 ];
 
 wfAddNamespace( 1274, 'Phabricator' );

@@ -93,8 +93,8 @@ dissemin:
   repos:
     dissemin:
       type: github
-      url: https://github.com/dissemin/dissemin.git
-      url|export: git@github.com:dissemin/dissemin.git
+      url: https://gitlab.com/dissemin/dissemin.git
+      url|export: git@gitlab.com:dissemin/dissemin.git
 
 eol:
   group: eol-*
