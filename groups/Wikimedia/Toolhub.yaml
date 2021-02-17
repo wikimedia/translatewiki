@@ -56,3 +56,7 @@ VALIDATORS:
   - id: InsertableRegex
     insertable: true
     params: /\{[^|} ]+\}/
+  - id: PythonInterpolation
+    insertable: true
+    enforce: true
+
