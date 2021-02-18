@@ -33,6 +33,9 @@ VALIDATORS:
     enforce: true
   - id: GettextPlural
     enforce: true
+  - id: PythonInterpolation
+    insertable: true
+    enforce: true
 
 ---
 BASIC:
@@ -56,7 +59,4 @@ VALIDATORS:
   - id: InsertableRegex
     insertable: true
     params: /\{[^|} ]+\}/
-  - id: PythonInterpolation
-    insertable: true
-    enforce: true
 
