@@ -3232,6 +3232,8 @@ Url Shortener - API
 id = ext-urlshortener-api
 file = UrlShortener/i18n/api/%CODE%.json
 
+Use Resource
+
 User Agreement
 ignored = useragreement
 
