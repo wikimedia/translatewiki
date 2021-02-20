@@ -1832,6 +1832,8 @@ optional = listings-phone-symbol
 
 Localisation Update
 
+Lock Author
+
 Lock Down English Pages
 
 Lockdown
