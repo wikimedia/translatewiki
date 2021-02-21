@@ -86,6 +86,7 @@ $wgTranslateLanguageFallbacks['qwh'] = [ 'qu', 'es' ];
 $wgTranslateLanguageFallbacks['rcf'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['rif'] = [ 'ar', 'fr' ]; # Robin 2011-09-30
 $wgTranslateLanguageFallbacks['rki'] = [ 'my' ];
+$wgTranslateLanguageFallbacks['rmc'] = [ 'sk', 'cs', 'hu' ];
 $wgTranslateLanguageFallbacks['rmf'] = [ 'fi' ];
 $wgTranslateLanguageFallbacks['rut'] = [ 'az', 'ru', 'lez' ]; # Robin 2012-07-24
 $wgTranslateLanguageFallbacks['ryu'] = [ 'ja' ];
