@@ -69,6 +69,7 @@ wikimedia-developers
 wikimedia-statslink
 wikimedia-cookiestatement
 mobile-frontend-view
+mobile-frontend-placeholder
 retrievedfrom
 tooltip-search-fulltext
 tooltip-search
