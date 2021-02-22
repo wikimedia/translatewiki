@@ -1523,6 +1523,7 @@ Growth Experiments - User interface
 id = ext-growthexperiments-user
 file = GrowthExperiments/i18n/extension/%CODE%.json
 aliasfile = GrowthExperiments/GrowthExperiments.alias.php
+magicfile = GrowthExperiments/GrowthExperiments.i18n.magic.php
 
 Growth Experiments - Welcome Survey
 id = ext-growthexperiments-welcomesurvey
