@@ -210,13 +210,6 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/editarticle/%CODE%.json"
 ---
 BASIC:
-  id: out-pywikipedia-featured
-  label: Pywikibot Featured
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/featured/%CODE%.json"
----
-BASIC:
   id: out-pywikipedia-fixingredirects
   label: Pywikibot Fixing Redirects
 
