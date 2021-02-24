@@ -865,6 +865,8 @@ file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/api/%CODE%.json
 Contact Page
 aliasfile = ContactPage/ContactPage.alias.php
 
+# Content Transfer // 2021-02-24: missing qqq
+
 Content Translation - User interface
 id = ext-contenttranslation-user
 file = ContentTranslation/i18n/%CODE%.json
@@ -1943,6 +1945,8 @@ optional = logentry-chat-send, chat.css, chat.js
 MediaWiki Farm
 
 # Memento // "timegate-..." message prefix
+
+# Merge Articles // 2021-02-24: missing qqq
 
 # Message Commons // no i18n file
 
