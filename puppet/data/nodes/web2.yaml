@@ -78,6 +78,11 @@ users::users:
     groups: [ betawiki, www-shared, l10n-bot, sysadmin ]
     purge_ssh_keys: true
     comment: Abijeet Patro
+  nikg:
+    uid: 1025
+    groups: [ betawiki, www-shared ]
+    purge_ssh_keys: true
+    comment: Nik Gkountas
 
 users::ssh_keys:
   ed25519-key-20171129 siebrand@kitano.nl:
@@ -92,3 +97,7 @@ users::ssh_keys:
     user: abi
     type: ssh-rsa
     key: AAAAB3NzaC1yc2EAAAADAQABAAACAQCmcWeE++IqwY9yWYj6Rmir18jckPcSvp/K83/nds69gJVraPUQ0r5qJVwQ69m0tUaA0sypTd8L1rmMzHracxiiP+5Hp0h/A2xITr/QQ7/f6IsP/ke5wlSX0M6yCrnx2yJeZASgkDpEONT8mtzqd8QA3m/dP2l9Sn5PSsKOg2BEQe8Lw8cOaKGob6yQgS8n+vzgfP+LwSZSIp1dClK9CDwHbs9RhebUmlSPpsws+0JrBfgpsGiu/LDUme+25KAjpn1H2s/tNck6EWC3BggYNyeQPQPyB1EkfoTuHfoQEm+WP1hUzpb3JmzOzNTduvgGta0tOlew+hjleO8z88jzgPM5EtpP6lep5IAi8q5rrV3ibRXHN1fkmKyPHBa32n35dv7It196ECtfpSYwcaqOSIllCJTuKNN7zbPBbCODNrqQOX7zon62JgVcCQ4gPbYoh0BY1R/fz0b+DQymwW0A+OhOlHzZk/B8I7f7e8T0b2JGMwdvcs7hV1Ny0Ohf+Gea2cGeqt8F4lNyI4q10pUrWmw3iXhFn9MRt16myifLPxzW1kGoLmUBGsdQLfhBaNYXI2W/gV+2IGnWY1QHlMA4R0Ki4CcyDOF/FSvR3eT/DGxflI4S9hA3f6AJ6HOvvHGl9kJP0RACM4pS6wNjuEcS/u7t98xCowGF5Kih1MLnKFH6+Q==
+  ngkountas@gmail.com:
+    user: nikg
+    type: ssh-rsa
+    key: AAAAB3NzaC1yc2EAAAADAQABAAACAQC9lVWgB8VfINasv4IN20vYOcLtzR+kbEAZ0HFzAYZMDmhXb5R4rLVF3kMbmbc7LoW9jOPS4MKSmaHkfu8ZqRlS0y/J2LaPG4ZTH75br44t4uJ1bOxj7f/2iXk7aLngI9ail0Wy+ZL8jUV62UJv1u6vGTr4GsU+xfIvO3obZdOa9L2HEHnErxVF6mh7cRDK+KBMh5hvPYCGrHFe/Hmf9P5/z6+NDVe1E8sgQdzyBzmvAjZwcDHvlOANXyWa/NHdT2B5IVr9mt1bSoIFoCi3DlepURgUe23VlbkLWXtWAmz7KKvAYxoHTKngtwO6YG3sgiCdXYagG6ujXJlBe1rZgmU3cOU1rD/n5BH2OQlKd5gr2jrLqnZYKo6Ae80/COReFXpQ6bHIVasYKYbYb+00DHR9zc1ggzLlL2bHYBCmylaEz63vTwgczCcH4ThX3MKwgnRYswit41+6U0ZCpiQewTA16v+y1wacnIbeCViH90qPavsMBdp5VSpeLu2scEl1g3GQOk5f2f/EfA4wadgi/QY5ioRHKc4bU06dp936t7havzqUvV9nDjmmsmLgWs3mw+rLv0nPvCp+Bs1/bQhRPYmd1ICN7sRZ3/FHXHoMMXNckUHQY61lpxjChYZpRT0i6vFG0RbOGlT8N6LDBFt53tqJoLMx+7LYaIILtulNNmgroQ==
