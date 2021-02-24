@@ -68,6 +68,7 @@ users::users:
   amir:
     uid: 1011
     groups: [ betawiki, www-shared, l10n-bot ]
+    purge_ssh_keys: true
     comment: Amir Aharoni
   kartik:
     uid: 1018
@@ -101,3 +102,7 @@ users::ssh_keys:
     user: nikg
     type: ssh-rsa
     key: AAAAB3NzaC1yc2EAAAADAQABAAACAQC9lVWgB8VfINasv4IN20vYOcLtzR+kbEAZ0HFzAYZMDmhXb5R4rLVF3kMbmbc7LoW9jOPS4MKSmaHkfu8ZqRlS0y/J2LaPG4ZTH75br44t4uJ1bOxj7f/2iXk7aLngI9ail0Wy+ZL8jUV62UJv1u6vGTr4GsU+xfIvO3obZdOa9L2HEHnErxVF6mh7cRDK+KBMh5hvPYCGrHFe/Hmf9P5/z6+NDVe1E8sgQdzyBzmvAjZwcDHvlOANXyWa/NHdT2B5IVr9mt1bSoIFoCi3DlepURgUe23VlbkLWXtWAmz7KKvAYxoHTKngtwO6YG3sgiCdXYagG6ujXJlBe1rZgmU3cOU1rD/n5BH2OQlKd5gr2jrLqnZYKo6Ae80/COReFXpQ6bHIVasYKYbYb+00DHR9zc1ggzLlL2bHYBCmylaEz63vTwgczCcH4ThX3MKwgnRYswit41+6U0ZCpiQewTA16v+y1wacnIbeCViH90qPavsMBdp5VSpeLu2scEl1g3GQOk5f2f/EfA4wadgi/QY5ioRHKc4bU06dp936t7havzqUvV9nDjmmsmLgWs3mw+rLv0nPvCp+Bs1/bQhRPYmd1ICN7sRZ3/FHXHoMMXNckUHQY61lpxjChYZpRT0i6vFG0RbOGlT8N6LDBFt53tqJoLMx+7LYaIILtulNNmgroQ==
+  amir.aharoni@mail.huji.ac.il:
+    user: amir
+    type: ssh-rsa
+    key: AAAAB3NzaC1yc2EAAAADAQABAAACAQDQP7ypeUDpsP20wEmbfXqCPK+p0HFj44fPoAYT+ahnMuQCrP/1z65P7Vxp4sCar3DGnLuNzysddmtMgF0l6dmo47JpdTph+s+YnBcbtpm8LVAcfZZ1nFQDnbzkG8S20XUyC0HU9Xu0ehvhfIdfw5cu+hv1WEKpFj/UmmWJABsnMg8HXQtUKSThDDnGzUGdnm7q/yCQvnE+VZKVfA/fGJaHjoIp7GHCL8w4oOdCRdklkUB2NrqUlLKV2pg6POymHOFaW8cKBJdH0iaZANuOWuCcOzZpMYv6FNRAiTyrmuLQIANV0pYoEoEJ2qRRRRwxsvfQHGUCbyVghPs7e3kypqmFc+mGvrvv52o7oI+F0V2f5PM8CxA0waroVOjWIy1eq7GKMEFjxO9rBO6ILY6unMuSUevvHIc/2l3881h8gH1S5poiO34cNusJNJbcDI0v9cPbVmjOvP/cTNI1eIElydODr9XxKvc8pFZwtsZ2cZ529NLWfMxhQKnvtTqHBvCvpJe2HBEHeiHJh7GP05Ll0NKWVwM04onT+iLaViGBYxT+W25o5xtqyj51Sy04+Z13K0/M4avmJrf1f1+x7T3SAmujgDuajdotLDzjySjLFQyJPkvFUAG6P7/zy0lDd8LaLgYgtClz5qIfICISZAswaGqkRYMZ3pagqeY+vBWgnw4aTw==
