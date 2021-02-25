@@ -10,6 +10,9 @@ $wgGroupPermissions[ 'user'          ][ 'movefile'                ] = false;
 $wgGroupPermissions[ 'user'          ][ 'move-categorypages'      ] = false;
 $wgGroupPermissions[ 'user'          ][ 'createclass'             ] = false;
 $wgGroupPermissions[ 'user'          ][ 'multipageedit'           ] = false;
+// LiquidThreads is very fragile, disable advanced actions
+$wgGroupPermissions[ 'user'          ][ 'lqt-split'               ] = false;
+$wgGroupPermissions[ 'user'          ][ 'lqt-merge'               ] = false;
 
 $wgGroupPermissions[ 'autoconfirmed' ][ 'sendemail'               ] = true;
 
