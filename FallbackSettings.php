@@ -74,6 +74,7 @@ $wgTranslateLanguageFallbacks['njo'] = [ 'as', 'hi' ];
 $wgTranslateLanguageFallbacks['nn'] = [ 'nb', 'sv', 'da' ]; # Siebrand 2008-02-18
 $wgTranslateLanguageFallbacks['nod'] = 'th'; # Siebrand 2017-05-20
 $wgTranslateLanguageFallbacks['nog'] = 'ru';
+$wgTranslateLanguageFallbacks['nus'] = [ 'ar', 'din' ];
 $wgTranslateLanguageFallbacks['olo'] = [ 'ru' ]; # Mjbmr 2015-08-06
 $wgTranslateLanguageFallbacks['ovd'] = [ 'se' ]; # Siebrand 2017-05-20
 $wgTranslateLanguageFallbacks['pap'] = [ 'pap-aw', 'nl', 'pt', 'es' ];
