@@ -70,6 +70,8 @@ wikimedia-statslink
 wikimedia-cookiestatement
 mobile-frontend-view
 mobile-frontend-placeholder
+mobile-frontend-logged-in-homepage-notification
+mobile-frontend-language-article-heading
 retrievedfrom
 tooltip-search-fulltext
 tooltip-search
