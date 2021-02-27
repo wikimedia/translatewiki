@@ -1480,7 +1480,7 @@ aliasfile = GoogleAuthenticator/GoogleAuthenticator.i18n.alias.php
 
 Google Custom Wiki Search
 descmsg = gcws-desc
-aliasfile = GoogleCustomWikiSearch/SpecialGoogleCustomWikiSearch.alias.php
+aliasfile = GoogleCustomWikiSearch/includes/specials/SpecialGoogleCustomWikiSearch.alias.php
 
 Google Doc Tag
 
