@@ -1047,7 +1047,7 @@ optional = donate_interface-error-msg-fiscal_number-ar, donate_interface-error-m
 optional = donate_interface-error-msg-fiscal_number-cl, donate_interface-error-msg-fiscal_number-co, donate_interface-error-msg-fiscal_number-mx
 optional = donate_interface-error-msg-fiscal_number-pe, donate_interface-error-msg-fiscal_number-uy
 optional = donate_interface-card-name-amex, donate_interface-card-name-visa, donate_interface-card-name-mc, donate_interface-card-name-discover
-optional = donate_interface-dd-iban
+optional = donate_interface-dd-iban, donate interface-donation-description
 
 Donation Interface - Gateway Common - API
 id = ext-di-gc-api
