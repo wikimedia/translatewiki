@@ -430,6 +430,9 @@ Blue Spice Permission Manager
 descmsg = bs-permissionmanager-desc
 aliasfile = BlueSpicePermissionManager/PermissionManager.alias.php
 
+Blue Spice Player
+descmsg = bs-player-extension-description
+
 Blue Spice Qr Code
 descmsg = bs-qr-code-extension-description
 
