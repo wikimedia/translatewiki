@@ -37,6 +37,10 @@ VALIDATORS:
     insertable: true
     enforce: true
 
+TAGS:
+  optional:
+    - toolhub-42060f-,_\
+
 ---
 BASIC:
   id: toolhub-js
