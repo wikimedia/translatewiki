@@ -29,7 +29,7 @@ optional = cologneblue.css, cologneblue.js
 
 Cosmos
 ignored = cosmos-custom-rail-module, cosmos-custom-sticky-rail-module, cosmos-tagline
-ignored = cosmos-mobile-menu-label, cosmos-navigation
+ignored = cosmos-navigation
 optional = skinname-cosmos, cosmos.css, cosmos.js
 
 Desk Mess Mirrored
