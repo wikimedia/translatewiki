@@ -446,6 +446,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/thirdparty/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-transferbot
+  label: Pywikibot Transferbot
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/transferbot/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-undelete
   label: Pywikibot Undelete
 
