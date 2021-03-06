@@ -9,11 +9,6 @@ BASIC:
 FILES:
   class: FlatPhpFFS
   sourcePattern: "%GROUPROOT%/wikiblame/wikiblame_inc/%CODE%.php"
-  header: |
-    <?php
-    /** WikiBlame
-     *
-     */
 
 VALIDATORS:
   - id: InsertableRegex
