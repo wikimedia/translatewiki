@@ -3648,6 +3648,7 @@ file = WikimediaMessages/i18n/temporary/%CODE%.json
 prefix = temporary- | wikimediamessages-desc
 
 Wikispeech
+aliasfile = Wikispeech/Wikispeech.alias.php
 optional = wikispeech, prefs-wikispeech
 
 Wikispeech Speech Data Collector
