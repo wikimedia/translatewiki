@@ -41,7 +41,6 @@ $wgTranslateLanguageFallbacks['fit'] = [ 'fi', 'sv' ]; # Robin 2011-09-27
 $wgTranslateLanguageFallbacks['fy'] = 'nl';
 $wgTranslateLanguageFallbacks['gcf'] = 'fr';
 $wgTranslateLanguageFallbacks['gld'] = 'ru';
-$wgTranslateLanguageFallbacks['guc'] = 'es';
 $wgTranslateLanguageFallbacks['hak-hans'] = [ 'hak-hant', 'hak', 'zh-hans' ];
 $wgTranslateLanguageFallbacks['hak-hant'] = [ 'hak-hans', 'hak', 'zh-hant' ];
 $wgTranslateLanguageFallbacks['hi'] = 'mr'; # Siebrand 2008-03-25
