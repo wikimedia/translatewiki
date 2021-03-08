@@ -44,7 +44,7 @@
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php"/>
-	<arg name="encoding" value="utf8"/>
+	<arg name="encoding" value="UTF-8"/>
 	<exclude-pattern>vendor</exclude-pattern>
 	<exclude-pattern>puppet</exclude-pattern>
 	<exclude-pattern>node_modules</exclude-pattern>
