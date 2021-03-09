@@ -22,8 +22,8 @@ if [ -d "$DIR/.git" ]
 then (
 	cd "$DIR"
 	git rebase --abort &>/dev/null || :
-	git checkout -qf "$BRANCH"
 	git fetch -q
+	git checkout -qf "$BRANCH"
 	git reset -q --hard "$COMMIT"
 	git clean -q -f -d &>/dev/null
 ) else
