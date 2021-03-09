@@ -494,14 +494,10 @@ $wgCapitalLinkOverrides[NS_LIBREMESH] = false;
 $wgCapitalLinkOverrides[NS_LIBREMESH_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/LibreMesh/LibreMesh.yaml";
 
+# No longer in use
 wfAddNamespace( 1280, 'MAZI' );
 $wgCapitalLinkOverrides[NS_MAZI] = false;
 $wgCapitalLinkOverrides[NS_MAZI_TALK] = false;
-$wgTranslateGroupFiles[] = "$GROUPS/MAZI/MAZI.yaml";
-$wgTranslateSupportUrlNamespace[NS_MAZI] = [
-	'page' => 'Translating_talk:MAZI_Toolkit',
-	'params' => $lqtParams,
-];
 
 wfAddNamespace( 1282, 'Wikidocumentaries' );
 $wgCapitalLinkOverrides[NS_WIKIDOCUMENTARIES] = false;
