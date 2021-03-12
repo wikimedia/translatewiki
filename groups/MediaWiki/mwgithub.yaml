@@ -833,3 +833,13 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Halopedia/Onyx/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-edtf
+  label: EDTF
+  description: "{{Special:MyLanguage/MediaWiki:Edtf-description/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/EDTF/i18n/%CODE%.json"
