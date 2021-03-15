@@ -29,23 +29,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: libremesh-chef
-  label: LibreMesh - Chef
-  namespace: NS_LIBREMESH
-  class: FileBasedMessageGroup
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/libremesh/chef/i18n/%CODE%.json"
-
-MANGLER:
-  class: StringMatcher
-  prefix: chef-
-  patterns:
-    - "*"
-
----
-BASIC:
   id: libremesh-webui
   label: LibreMesh - Web UI
   namespace: NS_LIBREMESH

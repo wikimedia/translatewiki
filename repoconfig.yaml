@@ -304,10 +304,6 @@ libremesh:
       branch: issue-119
       url: https://github.com/translation-bridge/lime-app.git
       url|export: git@github.com:translation-bridge/lime-app.git
-    libremesh/chef:
-      type: github
-      url: https://github.com/translation-bridge/chef.git
-      url|export: git@github.com:translation-bridge/chef.git
     libremesh/lime-docs:
       type: github
       url: https://github.com/translation-bridge/lime-docs.git
