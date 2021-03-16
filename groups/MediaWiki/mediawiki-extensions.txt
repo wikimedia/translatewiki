@@ -744,7 +744,6 @@ ignored = citoid-template-type-map.json
 cldr
 
 Clean Changes
-optional = cleanchanges-rcinfo-2, cleanchanges-rcinfo-3
 
 Clone Diff
 aliasfile = CloneDiff/CloneDiff.alias.php
