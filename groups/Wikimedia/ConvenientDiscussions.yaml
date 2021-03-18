@@ -20,6 +20,7 @@ TAGS:
   optional:
     - convenient-discussions-cm-gotoparent
     - convenient-discussions-cm-gotochild
+    - convenient-discussions-cf-autocomplete-commentlinktext
     - convenient-discussions-cf-help
     - convenient-discussions-cf-help-short
     - convenient-discussions-cm-copylink
