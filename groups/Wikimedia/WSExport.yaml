@@ -25,3 +25,5 @@ VALIDATORS:
 TAGS:
   optional:
     - wsexport-lang-field-value
+    - wsexport-app-title-wikisource
+    - wsexport-format-field-help
