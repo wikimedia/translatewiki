@@ -821,9 +821,9 @@ wikidata:
       url: https://gerrit.wikimedia.org/r/wikidata/query/gui
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikidata/query/gui
     wikidata/query/builder:
-      type: github
-      url: https://github.com/wmde/query-builder.git
-      url|export: git@github.com:wmde/query-builder.git
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/wikidata/query-builder
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikidata/query-builder
 
 wikidocumentaries:
   group: wikidocumentaries
