@@ -35,9 +35,7 @@ GROUPS:
   - ext-flaggedrevs-flaggedrevs
   - ext-flaggedrevs-configuredpages
   - ext-flaggedrevs-pendingchanges
-  - ext-flaggedrevs-problemchanges
   - ext-flaggedrevs-qualityoversight
-  - ext-flaggedrevs-reviewedpages
   - ext-flaggedrevs-reviewedversions
   - ext-flaggedrevs-revisionreview
   - ext-flaggedrevs-stabilization

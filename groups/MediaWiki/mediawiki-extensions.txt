@@ -1249,12 +1249,6 @@ id = ext-flaggedrevs-qualityoversight
 file = FlaggedRevs/i18n/qualityoversight/%CODE%.json
 descmsg = flaggedrevs-desc
 
-Flagged Revisions - Reviewed Pages
-id = ext-flaggedrevs-reviewedpages
-file = FlaggedRevs/i18n/reviewedpages/%CODE%.json
-descmsg = flaggedrevs-desc
-optional = reviewedpages-lev-0, reviewedpages-lev-1, reviewedpages-lev-2
-
 Flagged Revisions - Reviewed Versions
 id = ext-flaggedrevs-reviewedversions
 file = FlaggedRevs/i18n/reviewedversions/%CODE%.json
