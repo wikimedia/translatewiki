@@ -361,8 +361,8 @@ TAGS:
     - apisandbox-summary
     - authmanager-account-password-domain
     - authprovider-confirmlink-request-help
-    - autoblock_whitelist
     - autocomment-prefix
+    - block-autoblock-exemptionlist
     - blocklist-summary
     - booksources-summary
     - brokenredirects-delete-reason
