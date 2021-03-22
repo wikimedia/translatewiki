@@ -627,4 +627,11 @@ $checkBlacklist = [
 			'Translating:Intro/intro', // Contains links that are translated
 		]
 	],
+	[
+		'group' => 'wikidata-lexeme-forms',
+		'check' => 'variable',
+		'message' => [
+			'Wikidata-lexeme-forms-bulk-not-allowed',
+		]
+	],
 ];
