@@ -3568,7 +3568,6 @@ ignored = wikibase-page-schema-publisher-logo-url
 ignored = right-banner-protect, protect-level-banner-protect, restriction-level-banner-protect
 ignored = grouppage-oathauth-tester, grouppage-abusefilter-helper, wikimedia-statslink-url
 ignored = grouppage-abusefilter-maintainer, grouppage-docseditor
-ignored = ext-quicksurveys-growth-external-survey-question, ext-quicksurveys-growth-external-survey-description, ext-quicksurveys-growth-external-survey-privacy-policy, ext-quicksurveys-growth-external-survey-link
 optional = sitesupport-url
 optional = grouppage-steward, grouppage-sysadmin, grouppage-global-bot
 optional = grouppage-global-rollbacker, grouppage-ombuds, grouppage-coder
