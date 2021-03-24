@@ -202,7 +202,7 @@ $wgGroupPermissions['staff']['mwoauthviewprivate'] = true;
 wfLoadExtension( 'PoolCounter' );
 $wgPoolCounterConf = [
 	'TranslateFetchTranslators' => [
-		'class' => 'PoolCounter_Client',
+		'class' => MediaWiki\Extension\PoolCounter\Client::class,
 		'timeout' => 4,
 		'workers' => 1, # How many workers per language
 		'slots' => 4, # How many concurrent languages
