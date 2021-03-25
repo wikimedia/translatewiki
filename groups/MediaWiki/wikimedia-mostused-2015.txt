@@ -309,7 +309,6 @@ tooltip-summary
 tooltip-save
 tooltip-preview
 tooltip-diff
-simpleantispam-label
 newwindow
 wikimedia-copyrightwarning
 summary
