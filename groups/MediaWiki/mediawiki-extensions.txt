@@ -1774,6 +1774,11 @@ LDAP Provider
 
 # LDAP Sync All // 2020-11-19: inconsistent prefix
 
+Legal Login
+aliasfile = LegalLogin/LegalLogin.alias.php
+optional = legallogin-debug-acceptance
+optional = legallogin-debug-login
+
 # Library Checkout // 2020-11-28: empty repo
 
 # Lightweight RDFa // Archived per https://phabricator.wikimedia.org/T93727#2806421
