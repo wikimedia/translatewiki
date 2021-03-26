@@ -872,7 +872,10 @@ file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/api/%CODE%.json
 Contact Page
 aliasfile = ContactPage/ContactPage.alias.php
 
-# Content Transfer // 2021-02-24: missing qqq
+Content Transfer
+descmsg = contenttransfer-extension-description
+aliasfile = ContentTransfer/languages/ContentTransfer.alias.php
+ignored = contenttransfer-modified-since-ph
 
 Content Translation - User interface
 id = ext-contenttranslation-user
