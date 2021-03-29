@@ -22,6 +22,7 @@ $wgTranslateLanguageFallbacks['bci'] = 'fr';
 $wgTranslateLanguageFallbacks['bew'] = 'id';
 $wgTranslateLanguageFallbacks['bfq'] = [ 'kn', 'ta' ];
 $wgTranslateLanguageFallbacks['bft'] = 'ur';
+$wgTranslateLanguageFallbacks['bzj'] = [ 'jam', 'es' ];
 $wgTranslateLanguageFallbacks['cak'] = [ 'es' ];
 $wgTranslateLanguageFallbacks['cja-latn'] = [ 'km' ];
 $wgTranslateLanguageFallbacks['cjm-latn'] = [ 'vi' ];
