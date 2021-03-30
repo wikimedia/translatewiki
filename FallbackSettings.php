@@ -17,6 +17,7 @@ $wgTranslateLanguageFallbacks['as'] = 'bn';
 $wgTranslateLanguageFallbacks['atv'] = [ 'ru' ]; # Amir 2020-06-06
 $wgTranslateLanguageFallbacks['ba'] = [ 'tt-cyrl', 'ru' ];
 $wgTranslateLanguageFallbacks['ban'] = [ 'id', 'jv' ];
+$wgTranslateLanguageFallbacks['bas'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['bbc-latn'] = [ 'id', 'ms' ]; # Robin 2011-20-16
 $wgTranslateLanguageFallbacks['bci'] = 'fr';
 $wgTranslateLanguageFallbacks['bew'] = 'id';
