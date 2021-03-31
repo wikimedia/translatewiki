@@ -1941,7 +1941,9 @@ MediaWiki Farm
 
 # Memento // "timegate-..." message prefix
 
-# Merge Articles // 2021-02-24: missing qqq
+Merge Articles
+descmsg = mergearticles-extension-desc
+aliasfile = MergeArticles/languages/MergeArticles.alias.php
 
 # Message Commons // no i18n file
 
