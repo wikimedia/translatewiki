@@ -310,13 +310,6 @@ $checkBlacklist = [
 		]
 	],
 	[
-		'group' => 'ext-flaggedrevs-reviewedversions',
-		'check' => 'variable',
-		'message' => [
-			'reviewedversions-review', // Optional time parameters, and name for GENDER
-		]
-	],
-	[
 		'group' => 'ext-flaggedrevs-stabilization',
 		'check' => 'variable',
 		'message' => [
