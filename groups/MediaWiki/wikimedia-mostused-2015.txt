@@ -158,7 +158,6 @@ coll-print_export
 contactpage
 scribunto-lua-error
 revisionasof
-previousrevision
 show-big-image-size
 nbytes
 categorytree-member-counts
@@ -449,10 +448,11 @@ search-suggest
 imgfile
 wm-license-cc-by-sa-3.0-text
 wikibase-otherprojects
+previousrevision
 nextrevision
 currentrevisionlink
-vector-action-move
 currentrev-asof
+vector-action-move
 dellogpage
 userlogin-yourpassword-ph
 userlogin-resetpassword-link
