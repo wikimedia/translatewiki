@@ -928,8 +928,6 @@ Credits Source
 
 CSS
 
-D3 Loader
-
 Dark Mode
 
 Dashiki
