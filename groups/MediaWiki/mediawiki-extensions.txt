@@ -1500,6 +1500,9 @@ optional = graphql
 
 Graph Viz
 
+Gravatar
+ignored = gravatar-extensionname
+
 # Group Whitelist // 2021-01-08: no real message content
 
 Groups Sidebar
