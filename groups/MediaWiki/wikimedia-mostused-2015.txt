@@ -413,10 +413,6 @@ centralauth-merge-method-login
 svg-long-desc
 fancycaptcha-imgcaptcha-ph
 fancycaptcha-captcha
-proofreadpage_quality0_category
-proofreadpage_quality4_category
-proofreadpage_quality3_category
-proofreadpage_quality2_category
 visualeditor-ca-createsource
 creating
 editingsection
@@ -461,7 +457,6 @@ userlogin-helplink2
 pt-login-button
 userlogin-noaccount
 userlogin-joinproject
-proofreadpage_quality1_category
 booksources-search-legend
 booksources-search
 wikibase-statementview-rank-normal
@@ -504,7 +499,6 @@ timedmedia-source-audio-file-desc
 wikibase-label-empty
 wm-license-self-multiple-licenses-select
 editing
-proofreadpage_quality1_message
 wm-license-cc-attribution
 cite_error
 rcshowhideliu-show
