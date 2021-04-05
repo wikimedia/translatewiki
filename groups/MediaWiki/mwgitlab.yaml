@@ -26,3 +26,23 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgitlab/librewiki/Liberty-MW-Skin/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgitlab-ratepage-user
+  label: RatePage - User interface
+  description: "{{Special:MyLanguage/MediaWiki:RatePage-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgitlab/nonsensopedia/ratepage/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgitlab-ratepage-api
+  label: RatePage - API
+  description: "{{Special:MyLanguage/MediaWiki:RatePage-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgitlab/nonsensopedia/ratepage/i18n/api/%CODE%.json"

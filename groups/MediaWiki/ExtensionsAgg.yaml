@@ -645,6 +645,7 @@ BASIC:
   id: ext-wikibasequalityconstraints
   label: WikibaseQualityConstraints
   description: '{{Special:MyLanguage/MediaWiki:Wbqc-desc/en}}'
+
 GROUPS:
   - ext-wikibasequalityconstraints-*
 
@@ -680,5 +681,15 @@ BASIC:
   id: ext-wikimediaeditortasks
   label: Wikimedia Editor Tasks
   description: '{{Special:MyLanguage/MediaWiki:Wikimediaeditortasks-desc/en}}'
+
 GROUPS:
   - ext-wikimediaeditortasks-*
+
+---
+BASIC:
+  id: mwgitlab-ratepage
+  label: Rate Page
+  description: '{{Special:MyLanguage/MediaWiki:RatePage-desc/en}}'
+
+GROUPS:
+  - mwgitlab-ratepage-*
