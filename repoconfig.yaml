@@ -814,7 +814,7 @@ wikiblame:
 
 wikidata:
   group: wikidata-*
-  auto-merge: wikidata/query/gui
+  auto-merge: ^wikidata/query/gui|wikidata/query-builder
   repos:
     wikidata/query/gui:
       type: wmgerrit
