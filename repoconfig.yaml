@@ -1031,7 +1031,7 @@ wikipedia-kaios:
       url|export: git@github.com:wikimedia/wikipedia-kaios.git
 
 wikipedia-library:
-  group: wikipedia-library
+  group: wikipedia-library-*
   repos:
     WikipediaLibrary/TWLight:
       type: github

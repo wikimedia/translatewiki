@@ -1,21 +1,35 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Wikipedia_Library_owl.svg
+    namespace: NS_WIKIMEDIA
+    class: FileBasedMessageGroup
+    description: "{{Special:MyLanguage/Translations:Group descriptions/wikipedia-library/en}}"
+
+  MANGLER:
+    class: StringMatcher
+    prefix: wikipedia-library-
+    patterns:
+      - "*"
+
+---
 BASIC:
   id: wikipedia-library
   label: Wikipedia Library Card Platform
-  icon: wiki://Wikipedia_Library_owl.svg
-  namespace: NS_WIKIMEDIA
-  class: FileBasedMessageGroup
-  description: "{{Special:MyLanguage/Translations:Group descriptions/wikipedia-library/en}}"
+  meta: yes
+  class: AggregateMessageGroup
+
+GROUPS:
+  - wikipedia-library-*
+
+---
+BASIC:
+  id: wikipedia-library-website
+  label: Wikipedia Library Card Platform - Website
   codeBrowser: "https://github.com/WikipediaLibrary/TWLight/blob/production/%FILE%#L%LINE%"
 
 FILES:
   class: GettextFFS
   sourcePattern: "%GROUPROOT%/WikipediaLibrary/TWLight/locale/%CODE%/LC_MESSAGES/django.po"
-
-MANGLER:
-  class: StringMatcher
-  prefix: wikipedia-library-
-  patterns:
-    - "*"
 
 VALIDATORS:
   # Variables: {url}
@@ -27,6 +41,21 @@ VALIDATORS:
     insertable: true
     params: /%\([^)]+\)s/
   - id: GettextPlural
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+---
+BASIC:
+  id: wikipedia-library-partner-descriptions
+  label: Wikipedia Library Card Platform - Partner Descriptions
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/WikipediaLibrary/TWLight/locale/%CODE%/partner-descriptions.json"
+
+VALIDATORS:
+  - id: BraceBalance
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
