@@ -1,0 +1,32 @@
+---
+BASIC:
+  id: twinkle-core
+  label: Twinkle
+  description: "{{Special:MyLanguage/Translations:Group descriptions/twinkle/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: twinkle-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-gadgets/twinkle-core/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: false
+  - id: MediaWikiPlural
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+TAGS:
+  ignored:
+    - twinkle-pref-xfdwatchpage-tooltip
+    - twinkle-pref-xfdwatchuser-tooltip

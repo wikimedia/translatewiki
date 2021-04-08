@@ -893,7 +893,7 @@ wikimedia-grants-review:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/iegreview
 
 wikimedia-misc-tools:
-  group: anvesha,citationhunt,global-search,internetarchivebot,pageviews,video2commons,wikidata-lexeme-forms,xtools
+  group: anvesha,citationhunt,global-search,internetarchivebot,pageviews,twinkle-core,video2commons,wikidata-lexeme-forms,xtools
   repos:
     anvesha:
       type: github
@@ -930,6 +930,10 @@ wikimedia-misc-tools:
       branch: main
       url: https://github.com/x-tools/xtools.git
       url|export: git@github.com:x-tools/xtools.git
+    wikimedia-gadgets/twinkle-core:
+      type: github
+      url: https://github.com/wikimedia-gadgets/twinkle-core.git
+      url|export: git@github.com:wikimedia-gadgets/twinkle-core.git
 
 wikimedia-portals:
   group: wikimedia-portals
