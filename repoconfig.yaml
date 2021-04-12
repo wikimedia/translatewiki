@@ -408,10 +408,6 @@ mwgithub:
       branch: translatewiki
       url: https://github.com/edwardspec/mediawiki-moderation.git
       url|export: git@github.com:edwardspec/mediawiki-moderation.git
-    mwgithub/examknow/CentralCheckUser:
-      type: github
-      url: https://github.com/examknow/CentralCheckUser.git
-      url|export: git@github.com:examknow/CentralCheckUser.git
     mwgithub/femiwiki/AchievementBadges:
       type: github
       branch: main
