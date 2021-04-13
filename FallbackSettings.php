@@ -42,6 +42,7 @@ $wgTranslateLanguageFallbacks['et'] = 'fi';
 $wgTranslateLanguageFallbacks['fax'] = 'es';
 $wgTranslateLanguageFallbacks['fi'] = [ 'de', 'sv', 'et', 'vro' ];
 $wgTranslateLanguageFallbacks['fit'] = [ 'fi', 'sv' ]; # Robin 2011-09-27
+$wgTranslateLanguageFallbacks['fon'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['fy'] = 'nl';
 $wgTranslateLanguageFallbacks['gcf'] = 'fr';
 $wgTranslateLanguageFallbacks['gld'] = 'ru';
