@@ -587,7 +587,8 @@ $checkBlacklist = [
 		'check' => 'variable',
 		'message' => [
 			'PROCEDURES_CALLNORETURN_HELPURL', // Has URL encoded %2 in message
-			'PROCEDURES_CALLRETURN_HELPURL', // Has URL encoded %2 in message
+			'PROCEDURES_CALLRETURN_HELPURL', // %2
+			'MATH_CONSTANT_HELPURL', // %8
 		]
 	],
 	[
