@@ -601,7 +601,7 @@ BounceHandler - API
 id = ext-bouncehandler-api
 file = BounceHandler/i18n/api/%CODE%.json
 
-BounceHandler - User Interface
+BounceHandler - User interface
 id = ext-bouncehandler-user
 file = BounceHandler/i18n/%CODE%.json
 
@@ -622,7 +622,7 @@ Cargo - API
 id = ext-cargo-api
 file = Cargo/i18n/api/%CODE%.json
 
-Cargo - User Interface
+Cargo - User interface
 id = ext-cargo-user
 file = Cargo/i18n/%CODE%.json
 magicfile = Cargo/Cargo.i18n.magic.php
@@ -1164,7 +1164,7 @@ ExtensionDistributor - API
 id = ext-extensiondistributor-api
 file = ExtensionDistributor/i18n/api/%CODE%.json
 
-ExtensionDistributor - User Interface
+ExtensionDistributor - User interface
 id = ext-extensiondistributor-user
 file = ExtensionDistributor/i18n/%CODE%.json
 
@@ -1375,7 +1375,7 @@ Geo Data - API
 id = ext-geodata-api
 file = GeoData/i18n/api/%CODE%.json
 
-Geo Data - User Interface
+Geo Data - User interface
 id = ext-geodata-user
 file = GeoData/i18n/%CODE%.json
 
@@ -1384,7 +1384,7 @@ id = ext-gettingstarted-api
 file = GettingStarted/i18n/api/%CODE%.json
 ignored = apihelp-query+gettingstartedgetpages-example-1
 
-Getting Started - User Interface
+Getting Started - User interface
 id = ext-gettingstarted-user
 file = GettingStarted/i18n/%CODE%.json
 
@@ -1398,7 +1398,7 @@ Global Blocking - API
 id = ext-globalblocking-api
 file = GlobalBlocking/i18n/api/%CODE%.json
 
-Global Blocking - User Interface
+Global Blocking - User interface
 id = ext-globalblocking-user
 file = GlobalBlocking/i18n/%CODE%.json
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
@@ -1498,7 +1498,7 @@ Graph - API
 id = ext-graph-api
 file = Graph/i18n/api/%CODE%.json
 
-Graph - User Interface
+Graph - User interface
 id = ext-graph-user
 file = Graph/i18n/%CODE%.json
 aliasfile = Graph/Graph.alias.php
@@ -1688,7 +1688,7 @@ JsonConfig - API
 id = ext-jsonconfig-api
 file = JsonConfig/i18n/api/%CODE%.json
 
-JsonConfig - User Interface
+JsonConfig - User interface
 id = ext-jsonconfig-user
 file = JsonConfig/i18n/%CODE%.json
 optional = jsonconfig-type-abbr-invalid, jsonconfig-type-abbr-string, jsonconfig-type-abbr-localized
@@ -1809,7 +1809,7 @@ Linter - API
 id = ext-linter-api
 file = Linter/i18n/api/%CODE%.json
 
-Liquid Threads - User Interface
+Liquid Threads - User interface
 id = ext-liquidthreads-user
 file = LiquidThreads/i18n/%CODE%.json
 aliasfile = LiquidThreads/i18n/Lqt.alias.php
@@ -1853,7 +1853,7 @@ Loops
 ignored = loops-limitreport-count-unlimited-value
 optional = loops-limitreport-count-limited-value
 
-Machine Vision - User Interface
+Machine Vision - User interface
 id = ext-machinevision-user
 file = MachineVision/i18n/%CODE%.json
 aliasfile = MachineVision/MachineVision.alias.php
@@ -1910,7 +1910,7 @@ file = MassMessage/i18n/api/%CODE%.json
 
 Mass Message Email
 
-Math - User Interface
+Math - User interface
 id = ext-math-user
 file = Math/i18n/%CODE%.json
 aliasfile = Math/Math.alias.php
@@ -2218,7 +2218,7 @@ ORES - API
 id = ext-ores-api
 file = ORES/i18n/api/%CODE%.json
 
-ORES - User Interface
+ORES - User interface
 id = ext-ores-user
 file = ORES/i18n/%CODE%.json
 aliasfile = ORES/ORES.alias.php
@@ -2228,7 +2228,7 @@ Page Assessments - API
 id = ext-pageassessments-api
 file = PageAssessments/i18n/api/%CODE%.json
 
-Page Assessments - User Interface
+Page Assessments - User interface
 id = ext-pageassessments-user
 file = PageAssessments/i18n/%CODE%.json
 aliasfile = PageAssessments/PageAssessments.i18n.alias.php
@@ -2254,7 +2254,7 @@ Page Images - API
 id = ext-pageimages-api
 file = PageImages/i18n/api/%CODE%.json
 
-Page Images - User Interface
+Page Images - User interface
 id = ext-pageimages-user
 file = PageImages/i18n/%CODE%.json
 ignored = pageimages-blacklist
@@ -2368,7 +2368,7 @@ Page View Info - API
 id = ext-pageviewinfo-api
 file = PageViewInfo/i18n/api/%CODE%.json
 
-Page View Info - User Interface
+Page View Info - User interface
 id = ext-pageviewinfo-user
 file = PageViewInfo/i18n/%CODE%.json
 descmsg = pvi-desc
@@ -2397,7 +2397,7 @@ ParserMigration - API
 id = ext-parsermigration-api
 file = ParserMigration/i18n/api/%CODE%.json
 
-ParserMigration - User Interface
+ParserMigration - User interface
 id = ext-parsermigration-user
 file = ParserMigration/i18n/%CODE%.json
 
@@ -2405,7 +2405,7 @@ ParsoidBatchAPI - API
 id = ext-parsoidbatchapi-api
 file = ParsoidBatchAPI/i18n/api/%CODE%.json
 
-ParsoidBatchAPI - User Interface
+ParsoidBatchAPI - User interface
 id = ext-parsoidbatchapi-user
 file = ParsoidBatchAPI/i18n/%CODE%.json
 
@@ -2494,7 +2494,7 @@ ProofreadPage - API
 id = ext-proofreadpage-api
 file = ProofreadPage/i18n/api/%CODE%.json
 
-ProofreadPage - User Interface
+ProofreadPage - User interface
 id = ext-proofreadpage-user
 file = ProofreadPage/i18n/%CODE%.json
 aliasfile = ProofreadPage/ProofreadPage.alias.php
@@ -2508,7 +2508,7 @@ PropertySuggester - API
 id = ext-propertysuggester-api
 file = PropertySuggester/i18n/api/%CODE%.json
 
-PropertySuggester - User Interface
+PropertySuggester - User interface
 id = ext-propertysuggester-user
 file = PropertySuggester/i18n/%CODE%.json
 aliasfile = PropertySuggester/PropertySuggester.alias.php
@@ -2570,7 +2570,7 @@ ReadingLists - API
 id = ext-readinglists-api
 file = ReadingLists/i18n/api/%CODE%.json
 
-ReadingLists - User Interface
+ReadingLists - User interface
 id = ext-readinglists-user
 file = ReadingLists/i18n/%CODE%.json
 
@@ -2680,7 +2680,7 @@ SecurePoll - API
 id = ext-securepoll-api
 file = SecurePoll/i18n/api/%CODE%.json
 
-SecurePoll - User Interface
+SecurePoll - User interface
 id = ext-securepoll-user
 file = SecurePoll/i18n/%CODE%.json
 aliasfile = SecurePoll/SecurePoll.alias.php
@@ -2985,7 +2985,7 @@ TextExtracts - API
 id = ext-textextracts-api
 file = TextExtracts/i18n/api/%CODE%.json
 
-TextExtracts - User Interface
+TextExtracts - User interface
 id = ext-textextracts-user
 file = TextExtracts/i18n/%CODE%.json
 
@@ -3114,7 +3114,7 @@ id = ext-translate-api
 file = Translate/i18n/api/%CODE%.json
 ignored = apierror-translate-invalidfilter, apierror-translate-sandbox-invalidparam
 
-Translate - Core user interface
+Translate - Core User interface
 id = ext-translate-core
 file = Translate/i18n/core/%CODE%.json
 descmsg = translate-desc
@@ -3320,7 +3320,7 @@ Watch Subpages
 aliasfile = WatchSubpages/WatchSubpages.alias.php
 ignored = accesskey-watchsubpages-submit
 
-Web Authn - User Interface
+Web Authn - User interface
 id = ext-webauthn-user
 file = WebAuthn/i18n/%CODE%.json
 
@@ -3503,7 +3503,7 @@ Wikibase Media Info - API
 id = ext-wikibasemediainfo-api
 file = WikibaseMediaInfo/i18n/api/%CODE%.json
 
-Wikibase Media Info - User Interface
+Wikibase Media Info - User interface
 id = ext-wikibasemediainfo-user
 file = WikibaseMediaInfo/i18n/%CODE%.json
 optional = wikibasemediainfo-special-mediasearch-image-size
@@ -3512,7 +3512,7 @@ Wikibase Quality Constraints - API
 id = ext-wikibasequalityconstraints-api
 file = WikibaseQualityConstraints/i18n/api/%CODE%.json
 
-Wikibase Quality Constraints - User Interface
+Wikibase Quality Constraints - User interface
 id = ext-wikibasequalityconstraints-user
 file = WikibaseQualityConstraints/i18n/%CODE%.json
 aliasfile = WikibaseQualityConstraints/WikibaseQualityConstraints.alias.php
@@ -3545,7 +3545,7 @@ Wikimedia Api Portal OAuth
 
 Wikimedia Badges
 
-Wikimedia Editor Tasks - User Interface
+Wikimedia Editor Tasks - User interface
 id = ext-wikimediaeditortasks-user
 file = WikimediaEditorTasks/i18n/%CODE%.json
 
