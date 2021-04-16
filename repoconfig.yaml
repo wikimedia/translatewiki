@@ -927,6 +927,7 @@ wikimedia-misc-tools:
       url|export: git@github.com:lucaswerkmeister/tool-lexeme-forms.git
     xtools:
       type: github
+      branch: main
       url: https://github.com/x-tools/xtools.git
       url|export: git@github.com:x-tools/xtools.git
 
