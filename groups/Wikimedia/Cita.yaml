@@ -1,0 +1,25 @@
+---
+BASIC:
+  id: cita
+  label: Cita
+  description: "{{Special:MyLanguage/Translations:Group descriptions/cita/en}}"
+  icon: wiki://Cita_addon_logo.svg
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: cita-
+  patterns:
+    - "*"
+
+FILES:
+  class: JavaFFS
+  sourcePattern: "%GROUPROOT%/cita/static/chrome/%CODE%/wikicite.properties"
+  codeMap:
+    en: en_US
+
+VALIDATORS:
+  - id: Printf
+    insertable: true
+  - id: BraceBalance
