@@ -3,6 +3,7 @@ BASIC:
   id: twinkle-core
   label: Twinkle
   description: "{{Special:MyLanguage/Translations:Group descriptions/twinkle/en}}"
+  icon: wiki://Police_man_Twinkle_Head.svg
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
 
