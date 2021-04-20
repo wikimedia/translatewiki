@@ -15,9 +15,9 @@ MANGLER:
 
 FILES:
   class: JavaFFS
-  sourcePattern: "%GROUPROOT%/cita/static/chrome/%CODE%/wikicite.properties"
+  sourcePattern: "%GROUPROOT%/cita/static/chrome/locale/%CODE%/wikicite.properties"
   codeMap:
-    en: en_US
+    en: en-US
 
 VALIDATORS:
   - id: Printf
