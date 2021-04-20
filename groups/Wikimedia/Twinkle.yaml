@@ -28,6 +28,8 @@ INSERTABLES:
   - class: HtmlTagInsertablesSuggester
 
 TAGS:
+  optional:
+    - twinkle-bullet-separator
   ignored:
     - twinkle-pref-xfdwatchpage-tooltip
     - twinkle-pref-xfdwatchuser-tooltip
