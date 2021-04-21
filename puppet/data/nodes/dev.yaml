@@ -11,6 +11,14 @@ users::users:
     uid: 1001
     groups: [ betawiki, www-shared ]
     comment: Maintenance Account
+  l10n-bot:
+    # To match gid of l10n-bot
+    uid: 1021
+    system: true
+    groups: [ l10n-bot ]
+    managehome: false
+    shell: /bin/false
+    comment: Maintenance Account
 
 wiki::config_dir: /home/developer/translatewiki
 wiki::domain: dev.translatewiki.net

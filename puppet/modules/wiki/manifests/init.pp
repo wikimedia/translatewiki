@@ -9,6 +9,9 @@ class wiki (
   String $repo_user,
   String $work_dir,
   String $domain,
+  String $l10nbot_user,
+  String $autoimport_dir,
+  String $autoexport_dir,
 ) {
   file { '/etc/wikisettings':
     content => template('wiki/wikisettings.erb'),

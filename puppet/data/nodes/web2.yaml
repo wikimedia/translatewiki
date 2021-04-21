@@ -74,6 +74,15 @@ users::users:
     uid: 1018
     groups: [ betawiki ]
     comment: Kartik Mistry
+  l10n-bot:
+    # To match gid of l10n-bot
+    uid: 1021
+    system: true
+    # www-shared is needed so that export.php can write to MediaWiki log files on disk
+    groups: [ l10n-bot, www-shared ]
+    managehome: false
+    shell: /bin/false
+    comment: Maintenance Account
   abi:
     uid: 1024
     groups: [ betawiki, www-shared, l10n-bot, sysadmin ]

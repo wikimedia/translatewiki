@@ -7,6 +7,7 @@ classes:
   - '::hostname'
   - '::keyholder'
   - '::sshd'
+  - '::repong'
   - '::users'
   - '::php'
   - '::nginx'
@@ -18,22 +19,36 @@ classes:
 
 # Changing this variable is not yet fully supported
 maintenance_user: betawiki
+l10nbot_user: l10n-bot
+autoimport_dir: /resources/projects
+autoexport_dir: /scratch/exports
 
 base::maintenance_user: "%{alias('maintenance_user')}"
 base::bin_dir: "%{lookup('wiki::config_dir')}/bin"
 
 nginx::devsite::domain: "%{alias('wiki::domain')}"
 
+repong::config_dir: "%{alias('wiki::config_dir')}"
+repong::repo_user: "%{alias('maintenance_user')}"
+repong::l10nbot_user: "%{alias('l10nbot_user')}"
+repong::import_dir: "%{alias('autoimport_dir')}"
+repong::export_dir: "%{alias('autoexport_dir')}"
+
 users::bin_dir: "%{lookup('wiki::config_dir')}/bin"
 users::maintenance_user: "%{alias('maintenance_user')}"
 users::repo_user: "%{alias('wiki::repo_user')}"
+users::l10nbot_user: "%{alias('l10nbot_user')}"
+users::l10nbot_group: "%{alias('l10nbot_user')}"
 
 wiki::config_dir: "/home/%{lookup('maintenance_user')}/config"
 wiki::production_dir: /srv/mediawiki/targets/production
 wiki::domain: translatewiki.net
 wiki::maintenance_user: "%{alias('maintenance_user')}"
 wiki::repo_user: "%{alias('maintenance_user')}"
+wiki::l10nbot_user: "%{alias('l10nbot_user')}"
 wiki::work_dir: /srv/mediawiki/workdir
+wiki::autoimport_dir: "%{alias('autoimport_dir')}"
+wiki::autoexport_dir: "%{alias('autoexport_dir')}"
 
 wiki::docroot::domain: "%{alias('wiki::domain')}"
 wiki::docroot::production_dir: "%{alias('wiki::production_dir')}"

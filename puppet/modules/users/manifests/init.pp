@@ -6,6 +6,8 @@ class users (
   String $bin_dir,
   String $maintenance_user,
   String $repo_user,
+  String $l10nbot_user,
+  String $l10nbot_group,
   Hash[String, Data] $users = {},
   Hash[String, Hash[String, String]] $ssh_keys = {},
 ) {
@@ -35,7 +37,7 @@ class users (
       gid    => 1020;
 
     # Ability to commit translation updates
-    'l10n-bot':
+    $l10nbot_group:
       ensure => present,
       gid    => 1021;
 

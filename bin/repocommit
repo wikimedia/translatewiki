@@ -6,6 +6,7 @@ DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 . "$DIRSCRIPT/findexportroot"
 
 export GIT_SSH="$DIRSCRIPT/git-ssh-wrapper"
+export SVN_SSH="$DIRSCRIPT/git-ssh-wrapper"
 
 ME=$(basename "$0")
 COMMAND=${ME:4}

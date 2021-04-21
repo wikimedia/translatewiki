@@ -2,7 +2,7 @@ Host *
 BatchMode yes
 CheckHostIP no
 ControlMaster auto
-ControlPath ~/.ssh/l10n-bot-%C
+ControlPath /tmp/l10n-bot-%C
 ControlPersist 60
 HashKnownHosts no
 IdentitiesOnly yes

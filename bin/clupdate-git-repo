@@ -26,25 +26,35 @@ then (
 	git checkout -qf "$BRANCH"
 	git reset -q --hard "$COMMIT"
 	git clean -q -f -d &>/dev/null
-) else
+) else (
 	git clone "$URL" "$DIR" -b "$BRANCH"
+)  fi
 
-	if [ "$ME" = 'clupdate-gerrit-repo' ]
-	then
-		cd "$DIR"
-		git config user.name 'Translation updater bot'
-		git config user.email 'l10n-bot@translatewiki.net'
-		git config gitreview.username 'l10n-bot'
+# This configuration part is cheap, so run it every time to ensure it's up to date
+if [ "$ME" = 'clupdate-gerrit-repo' ]
+then
+	cd "$DIR"
 
-		git review -r origin -s
-	elif [ "$ME" = 'clupdate-github-repo' ]
+	# This assumes Wikimedia Gerrit
+	git config user.name 'Translation updater bot'
+	git config user.email 'l10n-bot@translatewiki.net'
+	git config gitreview.username 'l10n-bot'
+	git config gitreview.remote origin
+
+	# Avoid using git review --setup because it uses SCP which does not honor GIT_SSH
+	if [[ ! -e .git/hooks/commit-msg ]];
 	then
-		cd "$DIR"
-		git config user.name 'translatewiki.net'
-		git config user.email 'l10n-bot@translatewiki.net'
-	else
-		cd "$DIR"
-		git config user.name 'Translation updater bot'
-		git config user.email 'l10n-bot@translatewiki.net'
+		mkdir -p .git/hooks
+		curl -Lo .git/hooks/commit-msg https://gerrit.wikimedia.org/r/tools/hooks/commit-msg
+		chmod +x .git/hooks/commit-msg
 	fi
+elif [ "$ME" = 'clupdate-github-repo' ]
+then
+	cd "$DIR"
+	git config user.name 'translatewiki.net'
+	git config user.email 'l10n-bot@translatewiki.net'
+else
+	cd "$DIR"
+	git config user.name 'Translation updater bot'
+	git config user.email 'l10n-bot@translatewiki.net'
 fi

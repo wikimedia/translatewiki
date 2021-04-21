@@ -7,7 +7,7 @@ DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 SCRIPT="$WIKIDIR/extensions/Translate/scripts/processMessageChanges.php"
 NAME="non-mediawiki"
 
-cd /resources/projects
+cd "$AUTOIMPORT_DIR"
 php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -v ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
 
 if OUTPUT=$(php "$SCRIPT" --name "$NAME" --safe-import --group=* --skipgroup=ext-*,core,mediawiki* --skip-group-sync-check)
