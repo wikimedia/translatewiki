@@ -52,7 +52,7 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/WikipediaLibrary/TWLight/locale/%CODE%/partner-descriptions.json"
+  sourcePattern: "%GROUPROOT%/WikipediaLibrary/TWLight/locale/%CODE%/partner_descriptions.json"
 
 VALIDATORS:
   - id: BraceBalance
