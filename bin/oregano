@@ -80,9 +80,9 @@ tag)
 	# and sort in incorrect order
 	touch workdir
 	if rsync --version | grep -q 'version 3\.1\.'; then
-		rsync -a --info=progress2 --cvs-exclude workdir/ --chmod=a-w "tags/$TAG"
+		rsync -a --info=progress2 --exclude .git/ workdir/ --include core --chmod=a-w "tags/$TAG"
 	else
-		rsync -a --cvs-exclude workdir/ --chmod=a-w "tags/$TAG"
+		rsync -a --exclude .git/ workdir/ --include core --chmod=a-w "tags/$TAG"
 	fi
 	echo "Created tag $TAG"
 
