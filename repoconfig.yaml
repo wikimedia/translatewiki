@@ -817,7 +817,7 @@ wikiblame:
       url|export: git@github.com:FlominatorTM/wikiblame.git
 
 wikidata:
-  group: wikidata-*
+  group: wikidata-*,cita
   auto-merge: ^wikidata/query/gui|wikidata/query-builder
   repos:
     cita:
