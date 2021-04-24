@@ -151,10 +151,11 @@ history_short
 imagelinks
 filehist
 categorytree-num-pages
+categorytree-num-categories
+categorytree-num-files
 wikibase-edit
 categorytree-expand
 filehist-thumbtext
-categorytree-num-categories
 toc
 newpages
 tag-mobile_edit
@@ -173,7 +174,6 @@ recentchanges-label-bot
 wikibase-rc-wikibase-edit-title
 wikibase-rc-wikibase-edit-letter
 recentchanges-label-newpage
-categorytree-num-files
 redirectedfrom
 nstab-image
 sharedupload-desc-here
