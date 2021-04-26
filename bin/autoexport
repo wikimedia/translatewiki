@@ -27,3 +27,5 @@ for i in $PROJECTS; do
 		"$DIRSCRIPT/l10n-bot" "$DIRSCRIPT/repocommit" "$i"
 	} || :
 done
+
+echo "Check https://gerrit.wikimedia.org/r/q/owner:L10n-bot+status:open for patches needing manual review"
