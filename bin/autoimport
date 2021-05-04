@@ -10,7 +10,7 @@ NAME="non-mediawiki"
 cd /resources/projects
 php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -v ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
 
-if OUTPUT=$(php "$SCRIPT" --name "$NAME" --safe-import --group=* --skipgroup=ext-*,core,mediawiki*)
+if OUTPUT=$(php "$SCRIPT" --name "$NAME" --safe-import --group=* --skipgroup=ext-*,core,mediawiki* --skip-group-sync-check)
 then
 	echo "$OUTPUT" | xargs -l "$DIRSCRIPT/udpcast"
 else

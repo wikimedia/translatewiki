@@ -10,7 +10,7 @@ cd /resources/projects
 php "$DIRSCRIPT/../repong/repong.php" list-projects | grep ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
 
 php "$WIKIDIR/extensions/Translate/scripts/processMessageChanges.php" \
-	--name "$NAME" --group=core,ext-*,mediawiki* --quiet
+	--name "$NAME" --group=core,ext-*,mediawiki* --skip-group-sync-check --quiet
 
 if [ -f "/resources/caches/translatewiki.net/messagechanges.$NAME.cdb" ]
 then
