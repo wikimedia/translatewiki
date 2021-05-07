@@ -3650,6 +3650,7 @@ prefix = temporary- | wikimediamessages-desc
 Wikispeech
 aliasfile = Wikispeech/Wikispeech.alias.php
 optional = wikispeech, prefs-wikispeech
+ignored = grouppage-wikispeech-edit-lexicon
 
 Wikispeech Speech Data Collector
 descmsg = wikispeech-sdc-desc
