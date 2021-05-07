@@ -8,7 +8,7 @@ TEMPLATE:
   FILES:
     class: AndroidXmlFFS
     codeMap:
-      be-tarask: b+be+tarask
+      be-tarask: b+be+x+old
       he: iw
       hif-latn: b+hif+Latn
       id: in
