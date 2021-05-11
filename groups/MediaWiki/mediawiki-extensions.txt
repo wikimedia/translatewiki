@@ -2071,6 +2071,9 @@ optional = nll-separator
 
 Navigation Timing
 
+NCBITaxonomyLookup
+descmsg = ncbitaxonomylookup-desc
+
 Nearby Pages
 descmsg = nearby-pages-desc
 aliasfile = NearbyPages/NearbyPages.alias.php
