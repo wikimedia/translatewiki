@@ -8,7 +8,6 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
-  - ext-globalwatchlist # https://phabricator.wikimedia.org/rOMWC77651abcbd2e51586633ff6dd574e03d74e1ff5c
   - ext-ipinfo # https://phabricator.wikimedia.org/rOMWC5180f12ee74feae1024ae4ec45e19cd775c805b2
   - ext-stopforumspam # https://phabricator.wikimedia.org/rOMWCf3de027936c615d7a310793d85a836350fcdc1df
   - ext-thewikipedialibrary # https://phabricator.wikimedia.org/rOMWC7c8ed76b8df3fc57724c7dafd6aabb3e5336c64b
