@@ -2262,7 +2262,7 @@ file = PageImages/i18n/api/%CODE%.json
 Page Images - User interface
 id = ext-pageimages-user
 file = PageImages/i18n/%CODE%.json
-ignored = pageimages-blacklist
+ignored = pageimages-denylist
 
 Page In Cat
 
