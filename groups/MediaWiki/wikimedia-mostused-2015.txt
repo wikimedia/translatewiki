@@ -168,7 +168,6 @@ minoreditletter
 newpageletter
 boteditletter
 rollbacklink
-wikibase-comment-update
 recentchanges-label-minor
 recentchanges-label-bot
 wikibase-rc-wikibase-edit-title
