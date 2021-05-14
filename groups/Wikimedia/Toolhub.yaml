@@ -64,3 +64,8 @@ VALIDATORS:
     insertable: true
     params: /\{[^|} ]+\}/
 
+TAGS:
+  optional:
+    - toolhub-js-metadata-title-short
+    - toolhub-js-metadata-title-long
+    - toolhub-js-metadata-sitename
