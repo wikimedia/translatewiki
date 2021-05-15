@@ -66,7 +66,7 @@ $wgGroupPermissions[ 'staff'         ][ 'usermerge'               ] = true;
 $wgAddGroups[ 'staff' ] = $wgRemoveGroups[ 'staff' ] = true;
 
 // Remove preset smw and other extension groups
-$wgExtensionFunctions[] = function () use ( &$wgGroupPermissions ) {
+$wgExtensionFunctions[] = static function () use ( &$wgGroupPermissions ) {
 	$wgGroupPermissions[ 'staff' ] = array_merge(
 		$wgGroupPermissions[ 'smwadministrator' ],
 		$wgGroupPermissions[ 'smwcurator' ],

@@ -48,7 +48,7 @@ function efHT( $specs, $group, $code ) {
 
 $wgTranslateExtensionDirectory = '/resources/projects/mediawiki-extensions/extensions';
 
-$wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) {
+$wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$autoload ) {
 	$mg = new WikiMessageGroup( 'wiki-betawiki', 'betawiki-messages' );
 	$mg->setLabel( 'Translatewiki.net' );
 	$mg->setDescription( '{{int:bw-desc-translatewiki-messages}}' );
@@ -89,11 +89,11 @@ $wgTranslateGroupAliases['ext-0-wikimedia-main'] = 'wikimedia-main';
 
 $wgTranslateGroupFiles[] = "$GROUPS/PageTranslationAgg.yaml";
 
-$wgExtensionFunctions[] = function () use ( $GROUPS ) {
+$wgExtensionFunctions[] = static function () use ( $GROUPS ) {
 	require_once "$GROUPS/MediaWiki/MediaWikiTopMessageGroup.php";
 };
 
-$wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
+$wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
 	# TODO: rename when possible
 	$id = 'core-0-mostused';
 	$msgs = "$GROUPS/MediaWiki/wikimedia-mostused-2015.txt";
@@ -104,7 +104,7 @@ $wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) 
 	$deps[] = new FileDependency( realpath( $code ) );
 };
 
-$wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
+$wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
 	$def = "$GROUPS/MediaWiki/mediawiki-extensions.txt";
 	$path = '%GROUPROOT%/mediawiki-extensions/';
 
@@ -112,7 +112,7 @@ $wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) 
 	$foo->register( $list, $deps, $autoload );
 };
 
-$wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
+$wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
 	$def = "$GROUPS/MediaWiki/mediawiki-skins.txt";
 	$path = '%GROUPROOT%/mediawiki-skins/';
 
@@ -122,7 +122,7 @@ $wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) 
 	$foo->register( $list, $deps, $autoload );
 };
 
-$wgHooks['TranslatePostInitGroups'][] = function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
+$wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
 	$def = "$GROUPS/Intuition/intuition-textdomains.txt";
 	$path = '%GROUPROOT%/intuition/language/messages/';
 

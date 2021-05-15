@@ -21,8 +21,8 @@ $commandList = [
 	'update' => UpdateCommand::class,
 ];
 
-$commandFactory = function ( $className ) {
-	return function () use ( $className ) {
+$commandFactory = static function ( $className ) {
+	return static function () use ( $className ) {
 		return new $className();
 	};
 };

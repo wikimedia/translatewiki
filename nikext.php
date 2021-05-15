@@ -10,11 +10,11 @@ $wgExtensionCredits['parserhook'][] = [
 
 $wgExtensionMessagesFiles['translatewiki-magic'] = __DIR__ . '/nikext.i18n.magic.php';
 
-$wgHooks['MagicWordwgVariableIDs'][] = function ( &$vars ) {
+$wgHooks['MagicWordwgVariableIDs'][] = static function ( &$vars ) {
 	$vars[] = 'MAG_UILANGCODEx';
 };
 
-$wgHooks['ParserGetVariableValueSwitch'][] = function ( $parser, &$varCache, $index, &$ret ) {
+$wgHooks['ParserGetVariableValueSwitch'][] = static function ( $parser, &$varCache, $index, &$ret ) {
 	if ( $index === 'MAG_UILANGCODEx' ) {
 		$ret = $varCache[$index] = $parser->getOptions()->getUserLangObj()->getCode();
 	}

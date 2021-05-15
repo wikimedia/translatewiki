@@ -203,7 +203,7 @@ TEXT;
 	protected function getReleaseFileName() {
 		$version = $this->conf['common']['releasever'];
 		$name = $this->conf['common']['bundlename'];
-		$filename = preg_replace_callback( '/\s+(.)/', function ( $matches ) {
+		$filename = preg_replace_callback( '/\s+(.)/', static function ( $matches ) {
 			return strtoupper( $matches[1] );
 		}, $name );
 		return "$filename-$version.tar.bz2";

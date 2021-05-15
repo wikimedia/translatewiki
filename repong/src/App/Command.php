@@ -100,7 +100,7 @@ abstract class Command extends SymfonyCommand {
 
 		// Step 2: Handle variants
 		// Reference is needed for recursive closure to work
-		$replacer = function ( $array ) use ( &$replacer, $targetVariant ) {
+		$replacer = static function ( $array ) use ( &$replacer, $targetVariant ) {
 			$new = [];
 			foreach ( $array as $key => $value ) {
 				$split = strpos( $key, '|' );
@@ -142,10 +142,10 @@ abstract class Command extends SymfonyCommand {
 	protected function runParallelWithOutput( SplObjectStorage $processes, OutputInterface $output ) {
 		$this->runParaller(
 			$processes,
-			function ( $process ) use ( $output ) {
+			static function ( $process ) use ( $output ) {
 				$output->writeln( $process->getCommandLine(), OutputInterface::VERBOSITY_VERBOSE );
 			},
-			function ( $process, $exception = null ) use ( $output ) {
+			static function ( $process, $exception = null ) use ( $output ) {
 				if ( $process->isSuccessful() ) {
 					$processOutput = $process->getOutput();
 					if ( trim( $processOutput ) ) {
