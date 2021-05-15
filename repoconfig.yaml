@@ -691,6 +691,10 @@ mwgithub:
       type: github
       url: https://github.com/SkizNet/mediawiki-GTag.git
       url|export: git@github.com:SkizNet/mediawiki-GTag.git
+    mwgithub/SkizNet/mediawiki-MediaWikiAuth:
+      type: github
+      url: https://github.com/SkizNet/mediawiki-MediaWikiAuth.git
+      url|export: git@github.com:SkizNet/mediawiki-MediaWikiAuth.git
     mwgithub/StarCitizenTools/mediawiki-skins-Citizen:
       type: github
       branch: main
