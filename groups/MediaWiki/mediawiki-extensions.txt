@@ -147,7 +147,7 @@ optional = autocatuploads
 
 Auto Create Category Pages
 
-# Auto Gallery // no i18n file
+Auto Gallery
 
 Auto Proxy Block
 ignored = proxyblock-logentry
@@ -2071,7 +2071,7 @@ optional = nll-separator
 
 Navigation Timing
 
-NCBITaxonomyLookup
+NCBI Taxonomy Lookup
 descmsg = ncbitaxonomylookup-desc
 
 Nearby Pages
