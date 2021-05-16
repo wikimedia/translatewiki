@@ -1933,8 +1933,7 @@ Media Functions
 Media Moderation
 ignored = mediamoderation-email-body, mediamoderation-email-subject
 
-MediaWiki Auth
-descmsg = mwa-desc
+# MediaWiki Auth // Archived, moved to GitHub T282955
 
 MediaWiki Chat
 aliasfile = MediaWikiChat/MediaWikiChat.alias.php
