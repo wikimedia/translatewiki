@@ -1,0 +1,35 @@
+BASIC:
+  id: wikimedia-ocr
+  label: Wikimedia OCR
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikipedia-ocr/en}}"
+  support:
+    url: https://phabricator.wikimedia.org/maniphest/task/edit/form/1/
+    params:
+      projects: i18n,wikimedia_ocr
+      title: Translation issue about message %MESSAGE%
+      description: "\n\n----\n\n**URL**: [[https://translatewiki.net/wiki/%MESSAGE%]]"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/WikimediaOCR/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikimedia-ocr-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: BraceBalance
+  - id: MediaWikiPlural
+    enforce: true
+  - id: NumericalParameter
+    enforce: true
+    insertable: true
+
+TAGS:
+  optional:
+    - wikimedia-ocr-engine-name-google
+    - wikimedia-ocr-engine-name-tesseract

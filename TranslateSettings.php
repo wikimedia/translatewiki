@@ -276,6 +276,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-android.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-ios.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-kaios.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaOCR.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaPortals.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaTools.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikipediaLibrary.yaml";
