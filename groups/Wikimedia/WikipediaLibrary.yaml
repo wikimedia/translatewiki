@@ -45,6 +45,11 @@ VALIDATORS:
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
 
+
+TAGS:
+  ignored:
+    - wikipedia-library-97f63c-=7Bwp username=7D
+
 ---
 BASIC:
   id: wikipedia-library-partner-descriptions
