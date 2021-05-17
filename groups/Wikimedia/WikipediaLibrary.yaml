@@ -70,3 +70,12 @@ VALIDATORS:
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
+
+---
+BASIC:
+  id: wikipedia-library-tags
+  label: Wikipedia Library Card Platform - Tags
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/WikipediaLibrary/TWLight/locale/%CODE%/tag_names.json"
