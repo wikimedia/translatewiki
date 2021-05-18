@@ -237,4 +237,11 @@ abstract class Command extends SymfonyCommand {
 
 		return $map[$type] ?? $type;
 	}
+
+	protected function getForgeType( array $repo ): string {
+		// This can potentially automatically determine the type from the URL in the future
+		$map = [ 'wmgerrit' => 'wikimedia-gerrit' ];
+
+		return $map[ $repo[ 'type' ] ] ?? 'none';
+	}
 }

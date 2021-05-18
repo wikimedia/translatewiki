@@ -1,21 +1,21 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
-ME=$(basename "$0")
 URL=$1
 DIR=$2
 BRANCH=${3:-master}
 COMMIT=${4:-origin/$BRANCH}
+FORGE=${5:-none}
 
 # On URL change, start from scratch
 if [ -d "$DIR/.git" ]
 then (
-        ACTUALURL="$(git -C "$DIR" config --get remote.origin.url)"
-        if [ "$URL" != "$ACTUALURL" ]
-        then
-                echo "Re-cloning $DIR to update from $ACTUALURL to $URL";
-                rm -rf "$DIR"
-        fi
+	ACTUALURL="$(git -C "$DIR" config --get remote.origin.url)"
+	if [ "$URL" != "$ACTUALURL" ]
+	then
+		echo "Re-cloning $DIR to update from $ACTUALURL to $URL";
+		rm -rf "$DIR"
+	fi
 ) fi
 
 if [ -d "$DIR/.git" ]
@@ -31,11 +31,9 @@ then (
 )  fi
 
 # This configuration part is cheap, so run it every time to ensure it's up to date
-if [ "$ME" = 'clupdate-gerrit-repo' ]
+cd "$DIR"
+if [ "$FORGE" = 'wikimedia-gerrit' ]
 then
-	cd "$DIR"
-
-	# This assumes Wikimedia Gerrit
 	git config user.name 'Translation updater bot'
 	git config user.email 'l10n-bot@translatewiki.net'
 	git config gitreview.username 'l10n-bot'
@@ -48,13 +46,7 @@ then
 		curl -Lo .git/hooks/commit-msg https://gerrit.wikimedia.org/r/tools/hooks/commit-msg
 		chmod +x .git/hooks/commit-msg
 	fi
-elif [ "$ME" = 'clupdate-github-repo' ]
-then
-	cd "$DIR"
-	git config user.name 'translatewiki.net'
-	git config user.email 'l10n-bot@translatewiki.net'
 else
-	cd "$DIR"
-	git config user.name 'Translation updater bot'
+	git config user.name 'translatewiki.net'
 	git config user.email 'l10n-bot@translatewiki.net'
 fi

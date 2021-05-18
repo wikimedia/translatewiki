@@ -23,59 +23,50 @@ class UpdateCommand extends Command {
 		$this->parallelism = min( self::MAX_CONNECTIONS, $this->parallelism );
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
-		$defaultConfig = $this->getConfig( $project, null );
 		$config = $this->getConfig( $project, $variant );
-		$meta = $this->getConfig( '@meta', $variant );
 		$base = $this->getBase();
 		$bindir = $this->bindir;
-		// Without state synchronization, the repository we make commits
-		// could be ahead of the state that has been processed in the wiki.
-		// With state synchronization we ensure we do not overwrite any
-		// changes that have been made in the between.
-		$stateDir = $meta[ 'state-directory' ] ?? false;
 
 		$processes = new SplObjectStorage();
-
 		foreach ( $config['repos'] as $name => $repo ) {
-			$type = $repo['type'];
 			$genericType = $this->getGenericRepositoryType( $repo['type'] );
 			$branch = $repo['branch'] ?? 'master';
 
-			// Check if we can use state synchronization for this repo
-			$defaultConfigBranch = $defaultConfig[ 'repos' ][ $name ][ 'branch' ] ?? 'master';
-			$branchCompatible = $branch === $defaultConfigBranch;
-			$syncState = $stateDir && $branchCompatible && !isset( $repo[ 'no-state-sync' ] );
+			if ( $genericType === 'git' ) {
+				// Check if we can use state synchronization for this repo.
+				// Without state synchronization, the repository we make commits
+				// could be ahead of the state that has been processed in the wiki.
+				// With state synchronization we ensure we do not overwrite any
+				// changes that have been made in the between.
+				$defaultConfig = $this->getConfig( $project, null );
+				$meta = $this->getConfig( '@meta', $variant );
+				$stateDir = $meta[ 'state-directory' ] ?? false;
+				$defaultConfigBranch = $defaultConfig[ 'repos' ][ $name ][ 'branch' ] ?? 'master';
+				$branchCompatible = $branch === $defaultConfigBranch;
+				$syncState = $stateDir && $branchCompatible && !isset( $repo[ 'no-state-sync' ] );
 
-			// Determine the state to use, if possible
-			$state = null;
-			if ( $syncState && $genericType === 'git' ) {
-				$process = new Process( 'git log --pretty="%H" -n 1' );
-				$process->setWorkingDirectory( "$stateDir/$name" );
-				$process->setTimeout( 5 );
-				$process->run();
-				if ( $process->isSuccessful() ) {
-					$state = trim( $process->getOutput() );
-				} else {
-					$output->writeln( "Unable to synchronize the state for repository: $name" );
+				// Determine the state to use, if possible
+				$state = "origin/$branch";
+				if ( $syncState ) {
+					$process = new Process( 'git log --pretty="%H" -n 1' );
+					$process->setWorkingDirectory( "$stateDir/$name" );
+					$process->setTimeout( 5 );
+					$process->run();
+					if ( $process->isSuccessful() ) {
+						$state = trim( $process->getOutput() );
+					} else {
+						$output->writeln( "Unable to synchronize the state for repository: $name" );
+					}
 				}
-			}
 
-			if ( $type === 'github' ) {
-				$command = "$bindir/clupdate-github-repo '{$repo['url']}' '$base/$name' '$branch'";
-			} elseif ( $type === 'wmgerrit' ) {
-				$command = "$bindir/clupdate-gerrit-repo '{$repo['url']}' '$base/$name' '$branch'";
-			} elseif ( $genericType === 'git' ) {
-				$command = "$bindir/clupdate-git-repo '{$repo['url']}' '$base/$name' '$branch'";
-			} elseif ( $type === 'svn' ) {
+				$forge = $this->getForgeType( $repo );
+				$command = "$bindir/clupdate-git-repo '{$repo['url']}' '$base/$name' '$branch' '$state' '$forge'";
+			} elseif ( $genericType === 'svn' ) {
 				$command = "$bindir/clupdate-svn-repo '{$repo['url']}' '$base/$name'";
-			} elseif ( $type === 'bzr' ) {
+			} elseif ( $genericType === 'bzr' ) {
 				$command = "$bindir/clupdate-bzr-repo '{$repo['url']}' '$base/$name' '$branch'";
 			} else {
-				throw new RuntimeException( "Unknown repo type '$type' for repository: $name" );
-			}
-
-			if ( $state ) {
-				$command .= " '$state'";
+				throw new RuntimeException( "Unknown repo type '$genericType' for repository: $name" );
 			}
 
 			$process = new Process( $command );
