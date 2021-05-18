@@ -3204,8 +3204,6 @@ aliasfile = UpdateMediaWiki/UpdateMediaWiki.alias.php
 
 Upload Blacklist
 
-# Upload Logo // no message prefix
-
 Upload Wizard - User interface
 id = ext-uploadwizard-user
 file = UploadWizard/i18n/%CODE%.json
