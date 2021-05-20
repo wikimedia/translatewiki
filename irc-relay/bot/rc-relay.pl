@@ -8,15 +8,15 @@ use constant DATAGRAM_MAXLEN => 1024;
 
 my $nickname = 'rakkaudella';
 my $ircname = 'translatewiki.net recent changes relay';
-my $relayport = 8966 + 1;
+my $relayport = 8967;
 
 my $debug = 0;
 my $spam = 0;
 
 my $settings = {
-	'chat.freenode.org' => {
+	'irc.libera.chat' => {
 		port => 6667,
-		channels => [ '#betawiki-rc' ],
+		channels => [ '#translatewiki-rc' ],
 		UseSSL => 1,
 	},
 };
