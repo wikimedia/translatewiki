@@ -34,15 +34,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: phabricator-libphutil-core
-  label: Phabricator (libphutil > core)
-FILES:
-  sourcePattern: '%GROUPROOT%/phabricator/projects/libphutil/core/%CODE%.json'
-MANGLER:
-  prefix: libphutil-core-
-
----
-BASIC:
   id: phabricator-phabricator-almanac
   label: Phabricator (phabricator > almanac)
 FILES:
