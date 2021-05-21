@@ -541,6 +541,10 @@ mwgithub:
       type: github
       url: https://github.com/Nikerabbit/mediawiki-extensions-Lud.git
       url|export: git@github.com:Nikerabbit/mediawiki-extensions-Lud.git
+    mwgithub/octfx/mediawiki-extension-Plausible:
+      type: github
+      url: https://github.com/octfx/mediawiki-extension-Plausible.git
+      url|export: git@github.com:octfx/mediawiki-extension-Plausible.git
     mwgithub/oetterer/BootstrapComponents:
       type: github
       url: https://github.com/oetterer/BootstrapComponents.git
