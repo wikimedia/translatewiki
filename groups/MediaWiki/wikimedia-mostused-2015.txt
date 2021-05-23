@@ -181,7 +181,6 @@ pfunc_expr_unrecognised_punctuation
 filehist-user
 filehist-dimensions
 filehist-datetime
-filehist-comment
 filehist-thumb
 filehist-help
 filehist-current
@@ -198,7 +197,6 @@ pfunc_expr_unrecognised_word
 recentchangeslinked-summary
 right-writeapi
 file-info-size
-shared-repo-name-wikimediacommons
 nstab-category
 show-big-image-preview
 show-big-image
