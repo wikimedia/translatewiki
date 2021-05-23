@@ -2052,6 +2052,9 @@ Multi Language Manager
 aliasfile = MultiLanguageManager/MultiLanguageManager.alias.php
 descmsg = mlm-desc
 
+MW Version Info
+ignored = mwversioninfo.json
+
 My Variables
 
 Namespace HTML
