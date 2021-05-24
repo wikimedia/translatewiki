@@ -3,7 +3,7 @@ BASIC:
   label: Wikimedia OCR
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
-  description: "{{Special:MyLanguage/Translations:Group descriptions/wikipedia-ocr/en}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-ocr/en}}"
   support:
     url: https://phabricator.wikimedia.org/maniphest/task/edit/form/1/
     params:
