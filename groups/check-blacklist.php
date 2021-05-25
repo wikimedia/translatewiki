@@ -15,28 +15,11 @@
  */
 $checkBlacklist = [
 	[
-		'check' => 'plural',
-		'code' => [ 'az', 'bo', 'cdo', 'dz', 'id', 'fa', 'gan', 'gan-hans',
-			'gan-hant', 'gn', 'hak', 'hu', 'ja', 'jv', 'ka', 'kk-arab',
-			'kk-cyrl', 'kk-latn', 'km', 'kn', 'ko', 'lzh', 'mn', 'ms',
-			'my', 'sah', 'sq', 'tet', 'th', 'to', 'tr', 'vi', 'wuu', 'xmf',
-			'yo', 'yue', 'zh', 'zh-classical', 'zh-cn', 'zh-hans',
-			'zh-hant', 'zh-hk', 'zh-sg', 'zh-tw', 'zh-yue'
-		],
-	],
-	[
 		'group' => 'core',
 		'check' => 'links',
 		'message' => [
 			'redirect-summary', // Has images names that can be translated
 			'edittools', // Local translatewiki.net version has brackets
-		],
-	],
-	[
-		'group' => 'core',
-		'check' => 'plural',
-		'message' => [
-			'category-file-count', // Work around for http://bugzilla.wikimedia.org/42631
 		],
 	],
 	[
@@ -263,13 +246,6 @@ $checkBlacklist = [
 		'check' => 'links',
 		'message' => [
 			'unlockedpages', // Contains links that are translated
-		]
-	],
-	[
-		'group' => 'ext-educationprogram',
-		'check' => 'plural',
-		'message' => [
-			'logentry-student-remove', // Work around for http://bugzilla.wikimedia.org/42631
 		]
 	],
 	[

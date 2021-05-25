@@ -39,12 +39,13 @@ VALIDATORS:
   # Variables: %(parent_url)s
   - id: InsertableRegex
     insertable: true
+    enforce: true
     params: /%\([^)]+\)s/
   - id: GettextPlural
+    enforce: true
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
-
 
 TAGS:
   ignored:
