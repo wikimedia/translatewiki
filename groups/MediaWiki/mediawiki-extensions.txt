@@ -995,6 +995,7 @@ file = DiscussionTools/i18n/%CODE%.json
 id = ext-discussiontools-user
 ignored = tag-discussiontools, discussiontools-replywidget-reply-link
 ignored = discussiontools-replywidget-newtopic-link, tag-discussiontools-source-enhanced
+ignored = discussiontools-replywidget-feedback-link-newtopic
 optional = discussiontools-preference-info-link
 optional = discussiontools-preference-discussion-link
 optional = discussiontools-replywidget-feedback-link
