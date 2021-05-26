@@ -3653,15 +3653,28 @@ Wikimedia Temporary Messages
 file = WikimediaMessages/i18n/temporary/%CODE%.json
 prefix = temporary- | wikimediamessages-desc
 
-Wikispeech
-aliasfile = Wikispeech/Wikispeech.alias.php
+Wikispeech - User interface
+id = ext-wikispeech-user
+file = Wikispeech/i18n/%CODE%.json
 optional = wikispeech, prefs-wikispeech
 ignored = grouppage-wikispeech-edit-lexicon
+aliasfile = Wikispeech/Wikispeech.alias.php
 
-Wikispeech Speech Data Collector
+Wikispeech - API
+id = ext-wikispeech-api
+file = Wikispeech/i18n/api/%CODE%.json
+
+Wikispeech Speech Data Collector - User interface
+id = ext-wikispeech-speechdatacollector-user
+file = WikispeechSpeechDataCollector/i18n/%CODE%.json
 descmsg = wikispeech-sdc-desc
 aliasfile = WikispeechSpeechDataCollector/WikispeechSpeechDataCollector.alias.php
 optional = wikispeech-sdc
+
+Wikispeech Speech Data Collector - API
+id = ext-wikispeech-speechdatacollector-api
+file = WikispeechSpeechDataCollector/i18n/api/%CODE%.json
+descmsg = wikispeech-sdc-desc
 
 # Windows Azure SDK // 2017-06-15: Archived
 

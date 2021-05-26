@@ -687,6 +687,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-wikispeech
+  label: Wikispeech
+  description: '{{Special:MyLanguage/MediaWiki:Wikispeech-desc/en}}'
+
+GROUPS:
+  - ext-wikispeech-*
+
+---
+BASIC:
   id: mwgitlab-ratepage
   label: Rate Page
   description: '{{Special:MyLanguage/MediaWiki:RatePage-desc/en}}'
