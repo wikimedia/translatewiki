@@ -7,16 +7,16 @@ use IO::Socket::INET;
 use constant DATAGRAM_MAXLEN => 1024;
 
 my $nickname = 'rakkaus';
-my $ircname = 'translatewiki.net error log relay';
+my $ircname = 'translatewiki.net utility bot';
 my $relayport = 8966;
 
 my $debug = 0;
 my $spam = 0;
 
 my $settings = {
-	'chat.freenode.org' => {
+	'irc.libera.chat' => {
 		port => 6667,
-		channels => [ '#mediawiki-i18n' ],
+		channels => [ '#translatewiki' ],
 		UseSSL => 1,
 	},
 };
