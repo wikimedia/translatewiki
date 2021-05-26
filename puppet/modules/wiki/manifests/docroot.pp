@@ -43,6 +43,7 @@ class wiki::docroot (
     "/www/${domain}/logs/debug",
     "/www/${domain}/logs/error_js",
     "/www/${domain}/logs/error_php",
+    "/www/${domain}/logs/group_sync",
   ]
 
   file { $log_files:
