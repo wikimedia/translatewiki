@@ -19,6 +19,7 @@ FILES:
 TAGS:
   optional:
     - xtools-comma-character
+    - Xtools-whois
 
 VALIDATORS:
   - id: BraceBalance
