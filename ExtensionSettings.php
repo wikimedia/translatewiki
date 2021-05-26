@@ -90,10 +90,6 @@ $wgNewUserMinorEdit = false;
 wfLoadExtension( 'ContributionScores' );
 $wgContribScoreIgnoreBots = true;
 
-wfLoadExtension( 'WebChat' );
-$wgWebChatChannel = '#mediawiki-i18n';
-$wgWebChatClient = 'freenodeChat';
-
 wfLoadExtension( 'Babel' );
 $wgBabelCategoryNames = [
 	'0' => 'User_%code%-0',
