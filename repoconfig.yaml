@@ -1012,6 +1012,7 @@ wikipedia-android:
   repos:
     wikipedia-android:
       type: github
+      branch: main
       url: https://github.com/wikimedia/apps-android-wikipedia.git
       pull-branch: twn
       url|export: git@github.com:wikimedia/apps-android-wikipedia.git
