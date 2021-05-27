@@ -657,6 +657,7 @@ mwgithub:
       url|export: git@github.com:SkizNet/mediawiki-GTag.git
     mwgithub/StarCitizenTools/mediawiki-skins-Citizen:
       type: github
+      branch: main
       url: https://github.com/StarCitizenTools/mediawiki-skins-Citizen.git
       url|export: git@github.com:StarCitizenTools/mediawiki-skins-Citizen.git
     mwgithub/thingles/foreground:
