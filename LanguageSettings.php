@@ -72,7 +72,6 @@ $wgExtraLanguageNames['miq'] = 'Mískitu'; # Miskito / Siebrand 2013-07-02
 $wgExtraLanguageNames['mnc'] = 'ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ'; # Manchu / Siebrand 2010-08-11
 $wgExtraLanguageNames['moe'] = 'innu-aimun'; # Innu-aimun / Amir 2020-04-16
 $wgExtraLanguageNames['mrv'] = 'Magareva'; # Mangareva / Amir 2019-08-28
-$wgExtraLanguageNames['ms-arab'] = 'بهاس ملايو'; # Malay in Arabic script / Amir 2021-05-05
 $wgExtraLanguageNames['mui'] = 'Musi'; # Musi / Siebrand 2010-02-11
 $wgExtraLanguageNames['mvf'] = 'ᠮᠣᠩᠭᠣᠯ'; # Southern Mongolian / Amir 2020-04-17
 $wgExtraLanguageNames['mwv'] = 'Behase Mentawei'; # Mentawai / Siebrand 2008-05-07
