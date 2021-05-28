@@ -608,8 +608,8 @@ FILES:
 
 ---
 BASIC:
-  id: mwgithub-recordwizard
-  label: Record Wizard
+  id: mwgithub-recordwizard-user
+  label: Record Wizard - User interface
   description: "{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}"
 
 FILES:
@@ -619,6 +619,16 @@ FILES:
 TAGS:
   ignored:
     - special-recordWizard-intro
+
+---
+BASIC:
+  id: mwgithub-recordwizard-api
+  label: Record Wizard - API
+  description: "{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/lingua-libre/RecordWizard/i18n/api/%CODE%.json"
 
 ---
 BASIC:

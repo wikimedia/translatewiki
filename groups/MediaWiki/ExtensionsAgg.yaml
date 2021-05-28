@@ -696,6 +696,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: mwgithub-recordwizard
+  label: Record Wizard
+  description: '{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}'
+
+GROUPS:
+  - mwgithub-recordwizard-*
+
+---
+BASIC:
   id: mwgitlab-ratepage
   label: Rate Page
   description: '{{Special:MyLanguage/MediaWiki:RatePage-desc/en}}'
