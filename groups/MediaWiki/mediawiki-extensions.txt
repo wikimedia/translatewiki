@@ -2399,8 +2399,6 @@ Pan Scroll
 
 Parent Page
 
-Parser Fun
-
 Parser Functions
 descmsg = pfunc_desc
 magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
