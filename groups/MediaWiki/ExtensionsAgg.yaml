@@ -524,6 +524,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-templatesandbox
+  label: Template Sandbox
+  description: '{{Special:MyLanguage/MediaWiki:Templatesandbox-desc/en}}'
+
+GROUPS:
+  - ext-templatesandbox-*
+
+---
+BASIC:
   id: ext-textextracts
   label: TextExtracts
   description: '{{Special:MyLanguage/MediaWiki:Textextracts-desc/en}}'

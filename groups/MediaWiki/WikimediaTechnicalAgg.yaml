@@ -70,6 +70,7 @@ GROUPS:
   - ext-sitematrix-api
   - ext-spamblacklist-api
   - ext-templatedata-api
+  - ext-templatesandbox-api
   - ext-textextracts-api
   - ext-thanks-api
   - ext-timedmediahandler-api

@@ -2977,9 +2977,15 @@ Template Data - API
 id = ext-templatedata-api
 file = TemplateData/i18n/api/%CODE%.json
 
-Template Sandbox
+Template Sandbox - User interface
+id = ext-templatesandbox-user
+file = TemplateSandbox/i18n/%CODE%.json
 aliasfile = TemplateSandbox/TemplateSandbox.alias.php
 ignored = templatesandbox-editform-text, templatesandbox-editform-helptext
+
+Template Sandbox - API
+id = ext-templatesandbox-api
+file = TemplateSandbox/i18n/api/%CODE%.json
 
 Template Styles
 optional = templatestyles

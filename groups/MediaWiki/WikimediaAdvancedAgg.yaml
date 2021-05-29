@@ -92,7 +92,7 @@ GROUPS:
   - ext-subpagesortkey # a2b3abe7ebc6aac630e4e309cc17780b28ac4b04 for some wikibooks
   - ext-syntaxhighlightgeshi
   - ext-templatedata-user
-  - ext-templatesandbox
+  - ext-templatesandbox-user
   - ext-templatestyles
   - ext-templatewizard # https://phabricator.wikimedia.org/rOMWCc3bc393d46e12116fe4c9b3aee99664cd4d13f24
   - ext-textextracts-user
