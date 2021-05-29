@@ -2025,9 +2025,6 @@ ignored = multiboilerplate, multiboilerplate-label
 
 Multi Maps
 
-Multi Upload
-aliasfile = MultiUpload/MultiUpload.alias.php
-
 Multimedia Player
 
 Multimedia Viewer
