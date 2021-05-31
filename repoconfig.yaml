@@ -1037,14 +1037,14 @@ wikipedia-kaios:
       url: https://github.com/wikimedia/wikipedia-kaios.git
       url|export: git@github.com:wikimedia/wikipedia-kaios.git
 
-wikipedia-library:
-  group: wikipedia-library-*
-  repos:
-    WikipediaLibrary/TWLight:
-      type: github
-      branch: master
-      url: https://github.com/WikipediaLibrary/TWLight.git
-      url|export: git@github.com:WikipediaLibrary/TWLight.git
+#wikipedia-library:
+#  group: wikipedia-library-*
+#  repos:
+#    WikipediaLibrary/TWLight:
+#      type: github
+#      branch: master
+#      url: https://github.com/WikipediaLibrary/TWLight.git
+#      url|export: git@github.com:WikipediaLibrary/TWLight.git
 
 wikipedia-preview:
   group: wikipedia-preview
