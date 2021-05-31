@@ -15,8 +15,8 @@ lint:
 
 noop:
 	librarian-puppet install --path ./vendor
-	sudo $(PUPPET) apply --confdir . --modulepath 'modules:vendor:$$basemodulepath' --noop --test site.pp
+	sudo $(PUPPET) apply --hiera_config hiera.yaml --modulepath 'modules:vendor:$$basemodulepath' --noop --test site.pp
 
 apply: site.pp
 	librarian-puppet install --path ./vendor
-	sudo $(PUPPET) apply --confdir . --modulepath 'modules:vendor:$$basemodulepath' site.pp
+	sudo $(PUPPET) apply --hiera_config hiera.yaml --modulepath 'modules:vendor:$$basemodulepath' site.pp
