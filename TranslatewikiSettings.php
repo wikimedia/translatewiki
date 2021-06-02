@@ -18,7 +18,6 @@ $wgJobTypeConf['default'] = [ 'class' => 'JobQueueDB', 'order' => 'random', 'cla
 
 $wgLocalisationCacheConf['store'] = 'files';
 $wgLocalisationCacheConf['manualRecache'] = true;
-$wgLocalisationCacheConf['storeDirectory'] = "$IP/cache";
 
 $wgInvalidateCacheOnLocalSettingsChange = false;
 
