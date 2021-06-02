@@ -608,7 +608,7 @@ FILES:
 
 ---
 BASIC:
-  id: mwgithub-recordwizard-user
+  id: mwgithub-recordwizard
   label: Record Wizard - User interface
   description: "{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}"
 

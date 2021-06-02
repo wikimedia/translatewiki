@@ -696,12 +696,13 @@ GROUPS:
 
 ---
 BASIC:
-  id: mwgithub-recordwizard
+  id: mwgithub-recordwizard-agg
   label: Record Wizard
   description: '{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}'
 
 GROUPS:
-  - mwgithub-recordwizard-*
+  - mwgithub-recordwizard
+  - mwgithub-recordwizard-api
 
 ---
 BASIC:
