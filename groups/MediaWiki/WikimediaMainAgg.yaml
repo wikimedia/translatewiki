@@ -73,6 +73,7 @@ GROUPS:
   - ext-wikimedialicensetexts # commons.wikimedia.org
   - ext-wikimediaoverrides
   - ext-wikimediatemporarymessages
+  - ext-wikisource
   - mediawiki-exif
   - mediawiki-skin-minervaneue
   - mediawiki-skin-monobook
