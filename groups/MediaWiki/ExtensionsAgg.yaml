@@ -712,3 +712,13 @@ BASIC:
 
 GROUPS:
   - mwgitlab-ratepage-*
+
+---
+BASIC:
+  id: mwgithub-shortdescription
+  label: Short Description
+  description: "{{Special:MyLanguage/MediaWiki:Shortdescription-desc/en}}"
+  icon: wiki://Shortdescription-icon-ltr.svg
+
+GROUPS:
+  - mwgithub-shortdescription-*

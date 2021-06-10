@@ -665,6 +665,10 @@ mwgithub:
       branch: main
       url: https://github.com/StarCitizenTools/mediawiki-skins-Citizen.git
       url|export: git@github.com:StarCitizenTools/mediawiki-skins-Citizen.git
+    mwgithub/StarCitizenTools/mediawiki-extensions-ShortDescription:
+      type: github
+      url: https://github.com/StarCitizenTools/mediawiki-extensions-ShortDescription.git
+      url|export: git@github.com:StarCitizenTools/mediawiki-extensions-ShortDescription.git
     mwgithub/thingles/foreground:
       type: github
       url: https://github.com/thingles/foreground.git

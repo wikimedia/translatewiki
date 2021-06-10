@@ -856,3 +856,26 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/EDTF/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-shortdescription-main
+  label: Short Description - Main
+  icon: wiki://Shortdescription-icon-ltr.svg
+  description: "{{Special:MyLanguage/MediaWiki:Shortdescription-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-ShortDescription/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-shortdescription-api
+  label: Short Description - API
+  icon: wiki://Shortdescription-icon-ltr.svg
+  # Use the same description as the extension
+  description: "{{Special:MyLanguage/MediaWiki:Shortdescription-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-ShortDescription/i18n/api/%CODE%.json"
