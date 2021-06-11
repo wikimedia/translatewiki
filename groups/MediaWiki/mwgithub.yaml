@@ -879,3 +879,18 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-ShortDescription/i18n/api/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-starcitizen-embedvideo
+  label: EmbedVideo - StarCitizen
+  description: "{{Special:MyLanguage/MediaWiki:Embedvideo-description/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-EmbedVideo/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - embedvideo-video-short-desc
+    - embedvideo-audio-short-desc
