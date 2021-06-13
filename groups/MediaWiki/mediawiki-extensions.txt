@@ -3105,6 +3105,7 @@ id = ext-titleblacklist-api
 file = TitleBlacklist/i18n/api/%CODE%.json
 
 Title Icon
+magicfile = TitleIcon/i18n/TitleIconMagic.i18n.php
 
 Title Key
 
