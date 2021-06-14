@@ -5,10 +5,13 @@ definitions:
   meta:
     type: object
     required:
+      - backport
       - export
       - expand
     additionalProperties: false
     properties:
+      backport:
+        type: string
       export:
         type: string
       expand:

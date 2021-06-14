@@ -3,6 +3,7 @@
 
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\CommandLoader\FactoryCommandLoader;
+use Translatewiki\RepoNg\App\BackportCommand;
 use Translatewiki\RepoNg\App\CommitCommand;
 use Translatewiki\RepoNg\App\DiffCommand;
 use Translatewiki\RepoNg\App\ExportCommand;
@@ -14,6 +15,7 @@ use Translatewiki\RepoNg\App\UpdateCommand;
 require_once __DIR__ . '/vendor/autoload.php';
 
 $commandList = [
+	'backport' => BackportCommand::class,
 	'commit' => CommitCommand::class,
 	'diff' => DiffCommand::class,
 	'export' => ExportCommand::class,

@@ -1,5 +1,6 @@
 ---
 '@meta':
+  backport: php /srv/mediawiki/targets/production/extensions/Translate/scripts/backport.php
   export: php /srv/mediawiki/targets/production/extensions/Translate/scripts/export.php
   expand: php /srv/mediawiki/targets/production/extensions/Translate/scripts/expand-groupspec.php --exportable
   state-directory|export: /resources/projects
