@@ -711,6 +711,9 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/lingua-libre/BlueLL/i18n/%CODE%.json"
 
+TAGS:
+  ignored:
+    - skinname-bluell
 ---
 BASIC:
   id: mwgithub-facetedcategory
