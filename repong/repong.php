@@ -7,6 +7,7 @@ use Translatewiki\RepoNg\App\CommitCommand;
 use Translatewiki\RepoNg\App\DiffCommand;
 use Translatewiki\RepoNg\App\ExportCommand;
 use Translatewiki\RepoNg\App\ListCommand;
+use Translatewiki\RepoNg\App\PurgeCommand;
 use Translatewiki\RepoNg\App\StatusCommand;
 use Translatewiki\RepoNg\App\UpdateCommand;
 
@@ -17,6 +18,7 @@ $commandList = [
 	'diff' => DiffCommand::class,
 	'export' => ExportCommand::class,
 	'list-projects' => ListCommand::class,
+	'purge' => PurgeCommand::class,
 	'status' => StatusCommand::class,
 	'update' => UpdateCommand::class,
 ];
