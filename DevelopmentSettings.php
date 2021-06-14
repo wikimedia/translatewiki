@@ -30,7 +30,7 @@ $wgScriptPath = "/w";
 $wgDBname = 'wiki';
 $wgDBuser = 'wikiuser';
 $wgDBpassword = '';
-$wgSQLMode = 'TRADITIONAL';
+$wgSQLMode = 'TRADITIONAL,ONLY_FULL_GROUP_BY';
 
 $wgLogos = [
 	'1x' => 'https://translatewiki.net/static/logo.png',
