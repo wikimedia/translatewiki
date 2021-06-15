@@ -11,7 +11,7 @@ NAME=mediawiki
 
 php "$DIRSCRIPT/../repong/repong.php" list-projects | grep ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
 
-php "$SCRIPT" --name "$NAME" --group=core,ext-*,mediawiki* --skip-group-sync-check --quiet
+php "$SCRIPT" --name "$NAME" --group=core,ext-*,mediawiki* --quiet
 
 if [ -f "/resources/caches/translatewiki.net/messagechanges.$NAME.cdb" ]
 then
