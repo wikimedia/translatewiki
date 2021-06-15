@@ -1,9 +1,10 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
-. /etc/wikisettings
-
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
+. /etc/wikisettings
+# shellcheck source=bin/synclock
+. "$DIRSCRIPT/synclock"
 
 cd "$AUTOEXPORT_DIR"
 

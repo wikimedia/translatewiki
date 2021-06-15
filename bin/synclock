@@ -1,0 +1,31 @@
+#!/bin/bash
+set -o nounset -o pipefail -o errexit
+
+. /etc/wikisettings
+
+LOCKFILE="${1-/tmp/sync.lock}"
+TIMEOUT=1800
+
+touch "$LOCKFILE"
+chmod 777 "$LOCKFILE"
+
+# Create a file descriptor over the given lockfile.
+exec {FD}<>"$LOCKFILE"
+
+# Check if another process is running and show what it is
+if ! flock --nonblock $FD
+then
+	echo "Another process is currently holding a lock:"
+	cat "$LOCKFILE"
+	echo "Waiting at most {$TIMEOUT} seconds for the lock to be released"
+fi
+
+# Note: This is a special bash variable
+SECONDS=0
+if flock --wait $TIMEOUT $FD; then
+	echo "Waited ${SECONDS} seconds to acquire the lock"
+	echo "${USER-unknown} started running $(basename "$0") at $(date -uIseconds)" > "$LOCKFILE"
+else
+	echo "Failed to obtain a lock within ${SECONDS} seconds"
+	exit 1
+fi
