@@ -888,7 +888,7 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-EmbedVideo/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenWiki/mediawiki-extensions-EmbedVideo/i18n/%CODE%.json"
 
 TAGS:
   optional:
