@@ -32,7 +32,7 @@ TEMPLATE:
       insertable: true
 
   LANGUAGES:
-    blacklist:
+    exclude:
       - aeb
       - aeb-arab
       - ais

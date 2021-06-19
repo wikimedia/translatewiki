@@ -104,7 +104,7 @@ MANGLER:
 
 # https://support.google.com/googleplay/android-developer/answer/3125566?hl=en
 LANGUAGES:
-  whitelist:
+  include:
 # Not yet supported in translatewiki.net
 #    - en-au
 #    - en-in
