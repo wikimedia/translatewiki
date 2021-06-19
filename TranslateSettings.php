@@ -10,7 +10,7 @@ $GROUPS = __DIR__ . '/groups';
 $wgTranslateNewsletterPreference = true;
 
 $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
-$wgTranslateCheckBlacklist = "$GROUPS/check-blacklist.php";
+$wgTranslateValidationExclusionFile = "$GROUPS/validation-exclusion-list.php";
 
 $lqtParams = [
 	'lqt_method' => 'talkpage_new_thread',
@@ -130,26 +130,26 @@ $wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$auto
 	$foo->register( $list, $deps, $autoload );
 };
 
-$wgTranslateAuthorBlacklist = [];
-$wgTranslateAuthorBlacklist[] = [ 'black', '/^.*;.*;.*Bot$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'black', '/^.*;.*;(Abijeet Patro|Andre Engels|Gangleri|Jon Harald Søby|IAlex|M.M.S.|BotMultichill|Nike|Piivaat|Raymond|RobertL|SieBot|Siebrand|SPQRobin|Suradnik13|Verdy p)$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'black', '/^.*;da;(Wegge|Morten)$/Ui' ]; # are both credited under other names
-$wgTranslateAuthorBlacklist[] = [ 'black', '/^out-mantis.*;nl;Siebrand$/Ui' ]; # credited under other name
+$wgTranslateAuthorExclusionList = [];
+$wgTranslateAuthorExclusionList[] = [ 'black', '/^.*;.*;.*Bot$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'black', '/^.*;.*;(Abijeet Patro|Andre Engels|Gangleri|Jon Harald Søby|IAlex|M.M.S.|BotMultichill|Nike|Piivaat|Raymond|RobertL|SieBot|Siebrand|SPQRobin|Suradnik13|Verdy p)$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'black', '/^.*;da;(Wegge|Morten)$/Ui' ]; # are both credited under other names
+$wgTranslateAuthorExclusionList[] = [ 'black', '/^out-mantis.*;nl;Siebrand$/Ui' ]; # credited under other name
 
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|en-gb|hi);Abijeet Patro$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|fr);IAlex$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|sma|sv);M.M.S.$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|fi);Nike$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;.*;Paucabot$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;qqq;Raymond$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^out-osm.*;(qqq|de);Raymond$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;qqq;RobertL$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|nl|nl-informal);Siebrand$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|nl|nl-informal|af|la|grc);SPQRobin$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|nb|no|nn|da|sv|en-gb);Jon Harald Søby$/Ui' ];
-$wgTranslateAuthorBlacklist[] = [ 'white', '/^.*;(qqq|fr);Verdy p$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|en-gb|hi);Abijeet Patro$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|fr);IAlex$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|sma|sv);M.M.S.$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|fi);Nike$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;.*;Paucabot$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;qqq;Raymond$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^out-osm.*;(qqq|de);Raymond$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;qqq;RobertL$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|nl|nl-informal);Siebrand$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|nl|nl-informal|af|la|grc);SPQRobin$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|nb|no|nn|da|sv|en-gb);Jon Harald Søby$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|fr);Verdy p$/Ui' ];
 
-$wgTranslateBlacklist = [
+$wgTranslateDisabledTargetLanguages = [
 '*' => [
 	'en' => 'English is the source language. Suggest improvements at [[Support]].',
 	'ady' => 'This language code should remain unused. Localise in ady-cyrl please.',
