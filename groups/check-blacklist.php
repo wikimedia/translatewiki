@@ -1,6 +1,6 @@
 <?php
 /**
- * List of validations that should not be performed.
+ * List of checks that should not be performed.
  *
  * @todo Use YAML?
  * @file
@@ -9,11 +9,11 @@
  */
 
 /**
- * The array takes input of arrays which define constraints. Validations which match
+ * The array takes input of arrays which define constraints. Checks which match
  * those constrains are skipped. Possible constrains are <tt>group</tt>,
  * <tt>check</tt>, <tt>code</tt> and <tt>message</tt>.
  */
-$validationExclusionList = [
+$checkBlacklist = [
 	[
 		'group' => 'core',
 		'check' => 'links',
