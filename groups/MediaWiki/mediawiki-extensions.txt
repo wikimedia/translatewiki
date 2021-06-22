@@ -3399,6 +3399,7 @@ ignored = wikilambda-systemuser, wikilambda-bootstrapcreationeditsummary
 ignored = wikilambda-editor-additem, wikilambda-editor-removeitem
 ignored = wikilambda-modeselector-reference, wikilambda-modeselector-literal
 ignored = wikilambda-modeselector-functioncall, wikilambda-modeselector-json
+ignored = wikilambda-modeselector-argref
 optional = wikilambda-persistentzobject, wikilambda-zobjectselector-label
 optional = wikilambda-json
 id = ext-wikilambda-user
