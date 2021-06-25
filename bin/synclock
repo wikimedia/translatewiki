@@ -18,15 +18,15 @@ if ! flock --nonblock $FD
 then
 	echo "Another process is currently holding a lock:"
 	cat "$LOCKFILE"
-	echo "Waiting at most {$TIMEOUT} seconds for the lock to be released"
+	echo "Waiting at most $TIMEOUT seconds for the lock to be released"
 fi
 
 # Note: This is a special bash variable
 SECONDS=0
 if flock --wait $TIMEOUT $FD; then
-	echo "Waited ${SECONDS} seconds to acquire the lock"
+	echo "Waited $SECONDS seconds to acquire the lock"
 	echo "${USER-unknown} started running $(basename "$0") at $(date -uIseconds)" > "$LOCKFILE"
 else
-	echo "Failed to obtain a lock within ${SECONDS} seconds"
+	echo "Failed to obtain a lock within $SECONDS seconds"
 	exit 1
 fi
