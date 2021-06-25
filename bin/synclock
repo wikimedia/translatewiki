@@ -7,7 +7,8 @@ LOCKFILE="${1-/tmp/sync.lock}"
 TIMEOUT=1800
 
 touch "$LOCKFILE"
-chmod 777 "$LOCKFILE"
+# This only needs to succeed once
+chmod 777 "$LOCKFILE" >/dev/null 2>&1 || :
 
 # Create a file descriptor over the given lockfile.
 exec {FD}<>"$LOCKFILE"
