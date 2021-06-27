@@ -26,7 +26,7 @@ abstract class Command extends SymfonyCommand {
 		$configFile = "$base/$configName";
 
 		if ( !file_exists( $configFile ) ) {
-			throw new RuntimeException( 'Cannot find configuration: $configFile' );
+			throw new RuntimeException( "Cannot find configuration: $configFile" );
 		}
 
 		// FIXME: This project should be self contained
