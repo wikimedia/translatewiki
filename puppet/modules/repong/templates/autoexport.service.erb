@@ -1,0 +1,11 @@
+# This file is managed by puppet
+[Unit]
+Description=Automatically exports non-Mediawiki translations
+Requisite=mysql.service
+After=mysql.service
+
+[Service]
+User=<%= @l10nbot_user %>
+ExecStart=<%= @bin_dir %>/execute-and-notify autoexport
+ProtectHome=read-only
+ProtectSystem=full

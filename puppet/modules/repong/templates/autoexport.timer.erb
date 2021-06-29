@@ -1,0 +1,10 @@
+# This file is managed by puppet
+[Unit]
+Description=Run autoexport on a defined schedule
+
+[Timer]
+# Our cron jobs for autoimport are running half past even hours (CET/CEST)
+OnCalendar=Mon,Thu 13:00:00
+
+[Install]
+WantedBy=timers.target

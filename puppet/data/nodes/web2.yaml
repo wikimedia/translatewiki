@@ -5,6 +5,7 @@ classes:
   - '::nginx::sites'
   - '::eximconf'
   - '::backup'
+  - '::repong::autoexport'
   - '::wiki::irc'
   - '::wiki::stats'
 
