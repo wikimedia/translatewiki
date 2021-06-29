@@ -1,0 +1,41 @@
+#!/bin/bash
+set -o nounset -o pipefail -o errexit
+
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
+COMMAND="$1"
+
+if ANSIOUTPUT=$(pipetty $COMMAND)
+then
+	SUBJECT="$COMMAND completed"
+else
+	SUBJECT="$COMMAND failed"
+fi
+
+HTMLOUTPUT=$(echo "$ANSIOUTPUT" | ansi2html -wlc)
+PLAINOUTPUT=$(echo "$ANSIOUTPUT" | ansi2txt)
+
+# Part 1 - send email
+cat <<EOM - | /usr/sbin/sendmail -i -t
+To: root@localhost
+Subject: $SUBJECT
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary=1KdCdW6659Ws
+
+--1KdCdW6659Ws
+Content-Type: text/plain; charset=utf-8
+
+$PLAINOUTPUT
+
+--1KdCdW6659Ws
+Content-Type: text/html; charset=utf-8
+
+$HTMLOUTPUT
+
+--1KdCdW6659Ws--
+EOM
+
+# Part 2 - notify IRC
+"$DIRSCRIPT/udpcast" "$SUBJECT"
+
+# Part 3 - system logs / terminal
+echo "$PLAINOUTPUT"

@@ -13,6 +13,7 @@ class base (
     'acl',
     'apticron', # Daily message about available updates to root
     'bash-completion',
+    'colorized-logs', # For execute-and-notify script
     'git',
     'htop',
     'iftop',
