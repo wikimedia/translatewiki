@@ -63,6 +63,7 @@ TAGS:
     - bitrate-petabits
     - bitrate-terabits
     - bitrate-yottabits
+    - bitrate-zettabits
     - bitrate-zetabits
     - booksources-isbn
     - brackets
@@ -211,6 +212,8 @@ TAGS:
     - size-terapixel
     - size-yottabytes
     - size-yottapixel
+    - size-zettabytes
+    - size-zettapixel
     - size-zetabytes
     - size-zetapixel
     - skinname-cologneblue
