@@ -6,6 +6,6 @@ After=mysql.service
 
 [Service]
 User=<%= @l10nbot_user %>
-ExecStart=<%= @bin_dir %>/execute-and-notify autoexport
+ExecStart=<%= @bin_dir %>/execute-and-notify <%= @bin_dir %>/autoexport
 ProtectHome=read-only
 ProtectSystem=full

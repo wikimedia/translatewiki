@@ -3,12 +3,13 @@ set -o nounset -o pipefail -o errexit
 
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 COMMAND="$1"
+PRETTYCOMMAND=$(basename "$COMMAND")
 
-if ANSIOUTPUT=$(pipetty $COMMAND)
+if ANSIOUTPUT=$(export TERM=ansi; pipetty $COMMAND)
 then
-	SUBJECT="$COMMAND completed"
+	SUBJECT="$PRETTYCOMMAND completed"
 else
-	SUBJECT="$COMMAND failed"
+	SUBJECT="$PRETTYCOMMAND failed"
 fi
 
 HTMLOUTPUT=$(echo "$ANSIOUTPUT" | ansi2html -wlc)
