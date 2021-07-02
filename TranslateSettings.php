@@ -131,23 +131,23 @@ $wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$auto
 };
 
 $wgTranslateAuthorExclusionList = [];
-$wgTranslateAuthorExclusionList[] = [ 'black', '/^.*;.*;.*Bot$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'black', '/^.*;.*;(Abijeet Patro|Andre Engels|Gangleri|Jon Harald Søby|IAlex|M.M.S.|BotMultichill|Nike|Piivaat|Raymond|RobertL|SieBot|Siebrand|SPQRobin|Suradnik13|Verdy p)$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'black', '/^.*;da;(Wegge|Morten)$/Ui' ]; # are both credited under other names
-$wgTranslateAuthorExclusionList[] = [ 'black', '/^out-mantis.*;nl;Siebrand$/Ui' ]; # credited under other name
+$wgTranslateAuthorExclusionList[] = [ 'exclude', '/^.*;.*;.*Bot$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'exclude', '/^.*;.*;(Abijeet Patro|Andre Engels|Gangleri|Jon Harald Søby|IAlex|M.M.S.|BotMultichill|Nike|Piivaat|Raymond|RobertL|SieBot|Siebrand|SPQRobin|Suradnik13|Verdy p)$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'exclude', '/^.*;da;(Wegge|Morten)$/Ui' ]; # are both credited under other names
+$wgTranslateAuthorExclusionList[] = [ 'exclude', '/^out-mantis.*;nl;Siebrand$/Ui' ]; # credited under other name
 
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|en-gb|hi);Abijeet Patro$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|fr);IAlex$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|sma|sv);M.M.S.$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|fi);Nike$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;.*;Paucabot$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;qqq;Raymond$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^out-osm.*;(qqq|de);Raymond$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;qqq;RobertL$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|nl|nl-informal);Siebrand$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|nl|nl-informal|af|la|grc);SPQRobin$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|nb|no|nn|da|sv|en-gb);Jon Harald Søby$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'white', '/^.*;(qqq|fr);Verdy p$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|en-gb|hi);Abijeet Patro$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|fr);IAlex$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|sma|sv);M.M.S.$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|fi);Nike$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;.*;Paucabot$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;qqq;Raymond$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^out-osm.*;(qqq|de);Raymond$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;qqq;RobertL$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|nl|nl-informal);Siebrand$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|nl|nl-informal|af|la|grc);SPQRobin$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|nb|no|nn|da|sv|en-gb);Jon Harald Søby$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|fr);Verdy p$/Ui' ];
 
 $wgTranslateDisabledTargetLanguages = [
 '*' => [
