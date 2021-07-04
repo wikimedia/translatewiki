@@ -1936,6 +1936,10 @@ Media Functions
 Media Moderation
 ignored = mediamoderation-email-body, mediamoderation-email-subject
 
+Media Search
+optional = mediasearch-image-size
+
+
 # MediaWiki Auth // Archived, moved to GitHub T282955
 
 MediaWiki Chat
@@ -3521,7 +3525,6 @@ file = WikibaseMediaInfo/i18n/api/%CODE%.json
 Wikibase Media Info - User interface
 id = ext-wikibasemediainfo-user
 file = WikibaseMediaInfo/i18n/%CODE%.json
-optional = wikibasemediainfo-special-mediasearch-image-size
 
 Wikibase Quality Constraints - API
 id = ext-wikibasequalityconstraints-api
