@@ -2442,6 +2442,8 @@ optional = performanceinspector-newpp-template-time-report-column-percentreal, p
 Petition
 aliasfile = Petition/Petition.alias.php
 
+Per Page Language
+
 Per Page License
 
 PGF TikZ
