@@ -16,7 +16,10 @@ php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -v ^mediawiki | xargs
 
 if OUTPUT=$(php "$SCRIPT" --name "$NAME" --safe-import --group=* --skipgroup=ext-*,core,mediawiki*)
 then
-	echo "$OUTPUT" | xargs -l "$DIRSCRIPT/udpcast"
+	if [[ ! -z "$OUTPUT" ]]
+	then
+		echo "$OUTPUT" | xargs -l "$DIRSCRIPT/udpcast"
+	fi
 else
 	CODE=$?
 	echo "$OUTPUT"
