@@ -11,6 +11,7 @@
 
 $wgTranslateLanguageFallbacks['acf'] = 'fr';
 $wgTranslateLanguageFallbacks['af'] = 'nl';
+$wgTranslateLanguageFallbacks['ajp'] = 'ar';
 $wgTranslateLanguageFallbacks['aro'] = 'es';
 $wgTranslateLanguageFallbacks['as'] = 'bn';
 $wgTranslateLanguageFallbacks['atv'] = [ 'ru' ]; # Amir 2020-06-06
