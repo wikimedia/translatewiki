@@ -1,6 +1,7 @@
 BASIC:
   id: wikimedia-ocr
   label: Wikimedia OCR
+  icon: wiki://WikimediaOCR-logo.svg
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-ocr/en}}"
