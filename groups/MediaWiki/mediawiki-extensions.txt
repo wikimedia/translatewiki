@@ -1322,9 +1322,6 @@ Flow - API
 id = ext-flow-api
 file = Flow/i18n/api/%CODE%.json
 
-Flv Handler
-descmsg = flvhandler_desc
-
 Force Preview
 
 Form
