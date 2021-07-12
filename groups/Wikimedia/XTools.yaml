@@ -19,7 +19,11 @@ FILES:
 TAGS:
   optional:
     - xtools-comma-character
-    - Xtools-whois
+    - xtools-whois
+    - xtools-size-gigabytes
+    - xtools-size-kilobytes
+    - xtools-size-megabytes
+    - xtools-size-terabytes
 
 VALIDATORS:
   - id: BraceBalance
