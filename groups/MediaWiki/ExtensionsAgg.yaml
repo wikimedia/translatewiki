@@ -312,14 +312,6 @@ BASIC:
 GROUPS:
   - ext-graph-*
 
----
-BASIC:
-  id: ext-jade
-  label: Jade
-  description: '{{Special:MyLanguage/MediaWiki:Jade-desc/en}}'
-
-GROUPS:
-  - ext-jade-*
 
 ---
 BASIC:
