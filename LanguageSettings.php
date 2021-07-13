@@ -43,7 +43,6 @@ $wgExtraLanguageNames['gcf'] = 'Guadeloupean Creole French'; # Guadeloupean Creo
 $wgExtraLanguageNames['gld'] = 'На̄ни'; # Nanai / Amir 2021-01-15
 $wgExtraLanguageNames['gum'] = 'Namtrik'; # Guambiano / Amir 2017-03-27
 $wgExtraLanguageNames['gur'] = 'farefare'; # Farefare / Siebrand 2011-01-27
-$wgExtraLanguageNames['guw'] = 'Gungbe'; # Gungbe / Amir 2021-01-15
 $wgExtraLanguageNames['hak-hans'] = '客家语（简体）'; # Hakka Chinese (Simplified Han script) / Siebrand 2017-05-20
 $wgExtraLanguageNames['hak-hant'] = '客家語（繁體）'; # Hakka Chinese (Traditional Han script) / Siebrand 2017-05-20
 $wgExtraLanguageNames['hif-deva'] = 'फ़ीजी हिन्दी'; # Fiji Hindi (Devangari script) / Siebrand 2010-08-26
