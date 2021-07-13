@@ -2609,6 +2609,9 @@ magicfile = ReplaceSet/ReplaceSet.i18n.magic.php
 Replace Text
 aliasfile = ReplaceText/ReplaceText.i18n.alias.php
 
+Report
+aliasfile = Report/Report.i18n.alias.php
+
 Revision Comment Supplement
 aliasfile = RevisionCommentSupplement/RevisionCommentSupplement.alias.php
 descmsg = revcs-desc
