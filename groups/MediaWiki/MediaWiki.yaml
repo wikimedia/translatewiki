@@ -658,6 +658,7 @@ TAGS:
     - api-help-no-extended-description
     - api-help-param-type-password
     - apierror-stashexception
+    - apihelp-main-paramvalue-errorformat-html
     - apihelp-main-summary
 
 ---
