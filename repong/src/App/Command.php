@@ -147,12 +147,18 @@ abstract class Command extends SymfonyCommand {
 			},
 			static function ( $process, $exception = null ) use ( $output ) {
 				if ( $process->isSuccessful() ) {
-					$processOutput = $process->getOutput();
-					if ( trim( $processOutput ) ) {
+					$processOutput = trim( $process->getOutput() );
+					$errorOutput = trim( $process->getErrorOutput() );
+					if ( $processOutput . $errorOutput ) {
 						$formatter = $output->getFormatter();
 						$command = $formatter->escape( $process->getCommandLine() );
-						$stdout = $formatter->escape( $processOutput );
-						$output->write( "<options=bold>$command</>\n$stdout\n" );
+						$output->writeln( "<options=bold>$command</>" );
+						if ( $processOutput ) {
+							$output->writeln( $formatter->escape( $processOutput ) );
+						}
+						if ( $errorOutput ) {
+							$output->writeln( '<comment>' . $formatter->escape( $errorOutput ) . '</>' );
+						}
 					}
 				} elseif ( $exception ) {
 					throw $exception;
