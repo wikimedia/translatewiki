@@ -9,8 +9,8 @@ ajapaik:
   repos:
     ajapaik:
       type: github
-      url: https://github.com/Ajapaik/Android-app.git
-      url|export: git@github.com:Ajapaik/Android-app.git
+      url: https://github.com/Ajapaik/ajapaik-android-app.git
+      url|export: git@github.com:Ajapaik/ajapaik-android-app.git
     ajapaik-web:
       type: github
       url: https://github.com/Ajapaik/ajapaik-web.git
@@ -473,10 +473,6 @@ mwgithub:
       type: github
       url: https://github.com/JeroenDeDauw/GitHub.git
       url|export: git@github.com:JeroenDeDauw/GitHub.git
-    mwgithub/JeroenDeDauw/Maps:
-      type: github
-      url: https://github.com/JeroenDeDauw/Maps.git
-      url|export: git@github.com:JeroenDeDauw/Maps.git
     mwgithub/JeroenDeDauw/ParserHooks:
       type: github
       url: https://github.com/JeroenDeDauw/ParserHooks.git
@@ -489,6 +485,10 @@ mwgithub:
       type: github
       url: https://github.com/JeroenDeDauw/Validator.git
       url|export: git@github.com:JeroenDeDauw/Validator.git
+    mwgithub/jthingelstad/foreground:
+      type: github
+      url: https://github.com/jthingelstad/foreground.git
+      url|export: git@github.com:thingles/jthingelstad/foreground.git
     mwgithub/kulttuuri/DiscordNotifications:
       type: github
       url: https://github.com/kulttuuri/DiscordNotifications.git
@@ -562,6 +562,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/IdGenerator.git
       url|export: git@github.com:ProfessionalWiki/IdGenerator.git
+    mwgithub/ProfessionalWiki/Maps:
+      type: github
+      url: https://github.com/ProfessionalWiki/Maps.git
+      url|export: git@github.com:ProfessionalWiki/Maps.git
     mwgithub/ProfessionalWiki/ModernTimeline:
       type: github
       url: https://github.com/ProfessionalWiki/ModernTimeline.git
@@ -684,10 +688,6 @@ mwgithub:
       type: github
       url: https://github.com/StarCitizenTools/mediawiki-extensions-ShortDescription.git
       url|export: git@github.com:StarCitizenTools/mediawiki-extensions-ShortDescription.git
-    mwgithub/thingles/foreground:
-      type: github
-      url: https://github.com/thingles/foreground.git
-      url|export: git@github.com:thingles/foreground.git
 
 mwgitlab:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
@@ -848,8 +848,8 @@ wikidata:
     cita:
       type: github
       pull-branch: i18n
-      url: https://github.com/diegodlh/zotero-wikicite.git
-      url|export: git@github.com:diegodlh/zotero-wikicite.git
+      url: https://github.com/diegodlh/zotero-cita.git
+      url|export: git@github.com:diegodlh/zotero-cita.git
     wikidata/query/gui:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/wikidata/query/gui
