@@ -109,6 +109,7 @@ $smwgNamespacesWithSemanticLinks[92/*NS_LQT_SUMMARY*/] = true;
 $smwgEnabledEditPageHelp = false;
 $smwgQMaxInlineLimit = 2000;
 $smwgQUpperbound = 2000;
+$smwgCheckForConstraintErrors = SMW_CONSTRAINT_ERR_CHECK_NONE;
 
 wfLoadExtension( 'PageForms' );
 $sfgRedLinksCheckOnlyLocalProps = true;
