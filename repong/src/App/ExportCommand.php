@@ -28,6 +28,10 @@ class ExportCommand extends Command {
 		$defaultOptions = [
 			'group' => null,
 			'quiet' => true,
+			'lang' => '*',
+			'always-export-languages' => 'qqq',
+			'never-export-languages' => $config['no-export-languages'] ?? null,
+			'skip-source-language' => true,
 			'threshold' => 25,
 			'target' => $this->getBase(),
 		];
@@ -36,8 +40,9 @@ class ExportCommand extends Command {
 			$defaultOptions['hours'] = (int)$config['export-hours'];
 		}
 
-		if ( isset( $config['no-export-languages'] ) ) {
-			$defaultOptions['skip'] = $config['no-export-languages'];
+		if ( isset( $config['always-export-languages'] ) ) {
+			// Append message documentation by default. no-export-languages can override it
+			$defaultOptions['always-export-languages'] = $config['always-export-languages'] . ',qqq';
 		}
 
 		if ( isset( $config['export-threshold'] ) ) {
@@ -66,27 +71,12 @@ class ExportCommand extends Command {
 		$processes = new SplObjectStorage();
 
 		foreach ( $groups as $group ) {
-			$defaultOptions[ 'group' ] = $group;
-
-			$jobOptions = [ 'lang' => '*' ] + $defaultOptions + [ 'skip' => 'en,qqq' ];
+			$jobOptions = $defaultOptions;
+			$jobOptions[ 'group' ] = $group;
 			$command = $this->buildCommandline( $exporter, $jobOptions );
 			$process1 = new Process( $command );
 			$process1->setTimeout( 300 );
-
 			$processes->attach( $process1 );
-
-			// Then message documentation (unless in no-export-languages) and always-export-languages
-			$lang = [ 'qqq' ];
-			if ( isset( $config['always-export-languages'] ) ) {
-				$extra = explode( ',', $config['always-export-languages'] );
-				$lang = array_unique( array_merge( $lang, $extra ) );
-			}
-
-			$jobOptions = [ 'lang' => implode( ',', $lang ), 'threshold' => null ] + $defaultOptions;
-			$command = $this->buildCommandline( $exporter, $jobOptions );
-			$process2 = new Process( $command );
-			$process2->setTimeout( 30 );
-			$processes->attach( $process2, $process1 );
 		}
 
 		$this->runParallelWithOutput( $processes, $output );
