@@ -6,17 +6,22 @@ use IO::Socket::INET;
 
 use constant DATAGRAM_MAXLEN => 1024;
 
-my $nickname = 'rakkaudella';
-my $ircname = 'translatewiki.net recent changes relay';
-my $relayport = 8967;
+my @vars = qw/IRC_NICK IRC_NAME IRC_RELAY_PORT IRC_HOST IRC_PORT IRC_CHANNEL/;
+for my $var (@vars) {
+	die "Environment variable $var must be set" unless exists $ENV{$var};
+}
+
+my $nickname = $ENV{'IRC_NICK'};
+my $ircname = $ENV{'IRC_NAME'};
+my $relayport = $ENV{'IRC_RELAY_PORT'};
 
 my $debug = 0;
 my $spam = 0;
 
 my $settings = {
-	'irc.libera.chat' => {
-		port => 6667,
-		channels => [ '#translatewiki-rc' ],
+	$ENV{'IRC_HOST'} => {
+		port => $ENV{'IRC_PORT'},
+		channels => [ $ENV{'IRC_CHANNEL'} ],
 		UseSSL => 1,
 	},
 };
@@ -82,7 +87,7 @@ sub server_read {
 	my $servers = $heap->{senders};
 	foreach my $alias (keys %{$servers}) {
 		my @channels = @{ $heap->{config}->{$alias}->{channels} };
-		$kernel->post( $alias => privmsg => $_ => $message ) for @channels;
+		$kernel->post( $alias => notice => $_ => $message ) for @channels;
 	}
 }
 

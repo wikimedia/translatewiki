@@ -1,12 +1,11 @@
 # This file is managed by puppet
 [Unit]
-Description=IRC relay for PHP error log
+Description=IRC relay for MediaWiki recent changes
 After=network.target
 
 [Service]
-User=betawiki
-Group=betawiki
-ExecStart=/usr/bin/perl /home/betawiki/config/irc-relay/bot/error-relay.pl
+User=<%= @maintenance_user %>
+ExecStart=/usr/bin/perl <%= @config_dir %>/irc-relay/bot/relay.pl
 Restart=always
 RestartSec=60
 PrivateDevices=true

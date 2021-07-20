@@ -11,6 +11,10 @@ class wiki::irc {
     ensure => 'present',
   })
 
+  file { '/etc/irc-relay/irc-log-relay.env':
+    content => template('wiki/irc-log-relay.env.erb'),
+  }
+
   file { '/etc/systemd/system/irc-log-relay.service':
     source => 'puppet:///modules/wiki/irc-log-relay.service',
   }
@@ -18,7 +22,14 @@ class wiki::irc {
   service { 'irc-log-relay':
     ensure  => running,
     enable  => true,
-    require => File['/etc/systemd/system/irc-log-relay.service'],
+    require => [
+      File['/etc/systemd/system/irc-log-relay.service'],
+      File['/etc/irc-relay/irc-log-relay.env']
+    ],
+  }
+
+  file { '/etc/irc-relay/irc-rc-relay.env':
+    content => template('wiki/irc-rc-relay.env.erb'),
   }
 
   file { '/etc/systemd/system/irc-rc-relay.service':
@@ -28,7 +39,10 @@ class wiki::irc {
   service { 'irc-rc-relay':
     ensure  => running,
     enable  => true,
-    require => File['/etc/systemd/system/irc-rc-relay.service'],
+    require => [
+      File['/etc/systemd/system/irc-rc-relay.service'],
+      File['/etc/irc-relay/irc-rc-relay.env']
+    ],
   }
 
   file { '/etc/systemd/system/phplog2irc.service':
