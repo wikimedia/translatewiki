@@ -1,0 +1,76 @@
+---
+TEMPLATE:
+  BASIC:
+    icon: wiki://Oppia_logo.png
+    description: "{{Special:MyLanguage/Translations:Group descriptions/oppia/en}}"
+    namespace: NS_OPPIA
+    class: FileBasedMessageGroup
+
+  FILES:
+    class: AndroidXmlFFS
+    codeMap:
+      be-tarask: b+be+tarask
+      en-gb: en-rGB
+      he: iw
+      hif-latn: b+hif+Latn
+      id: in
+      kk-cyrl: b+kk+Cyrl
+      ko-kp: ko-rKP
+      ku-latn: ku
+      ms-arab: b+ms+Arab
+      nds-nl: b+nds+NL
+      pt-br: pt-rBR
+      qqq: qq
+      roa-tara: b+roa+tara
+      skr-arab: skr
+      sr-ec: sr
+      sr-el: b+sr+Latn
+      tg-cyrl: b+tg+Cyrl
+      tt-cyrl: b+tt+Cyrl
+      ug-arab: ug
+      yi: ji
+      zh-hans: zh
+      zh-hant: zh-rTW
+
+  LANGUAGES:
+    include:
+      - ar
+      - en
+      - hi
+
+  MANGLER:
+    class: StringMatcher
+    patterns:
+      - "*"
+
+  VALIDATORS:
+    - id: Printf
+      insertable: true
+      enforce: true
+    - id: UnicodePlural
+      enforce: true
+
+  INSERTABLES:
+    - class: HtmlTagInsertablesSuggester
+    # For HTML entities
+    - class: RegexInsertablesSuggester
+      params: '/&#?\w+;/'
+
+---
+BASIC:
+  id: oppia-android-app
+  label: Oppia Android
+
+FILES:
+  definitionFile: "%GROUPROOT%/oppia-android/app/src/main/res/values/strings.xml"
+  sourcePattern: "%GROUPROOT%/oppia-android/app/src/main/res/values-%CODE%/strings.xml"
+
+MANGLER:
+  prefix: oppia-android-app-
+
+TAGS:
+  ignored:
+    - bar_separator
+    - completed_story_list_recyclerview_tag
+    - hints_android_solution_correct_answer
+

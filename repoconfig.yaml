@@ -725,6 +725,12 @@ oppia:
       branch|export: translatewiki-prs
       url: https://github.com/oppia/oppia.git
       url|export: git@github.com:oppia/oppia.git
+    oppia-android:
+      type: github
+      branch: develop
+      pull-branch: translatewiki-prs
+      url: https://github.com/oppia/oppia-android.git
+      url|export: git@github.com:oppia/oppia-android.git
 
 osm:
   no-export-languages: en,qqq
