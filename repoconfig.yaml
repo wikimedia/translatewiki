@@ -22,6 +22,7 @@ blockly:
     blockly:
       type: github
       branch: develop
+      push-branch|export: translatewiki
       url: https://github.com/google/blockly.git
       url|export: git@github.com:google/blockly.git
     blockly-games:
