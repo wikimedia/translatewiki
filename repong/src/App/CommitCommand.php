@@ -82,7 +82,6 @@ class CommitCommand extends Command {
 					"svn add --force * --auto-props --parents --depth infinity -q$extra; " .
 					"svn commit --message '$message'";
 			} elseif ( $type === 'bzr' ) {
-				$branch = $repo['branch'] ?? 'master';
 				$command = "cd '$name'; bzr add .;bzr commit -m '$message'";
 			} else {
 				throw new RuntimeException( "Unknown repo type '$type' for repository: $name" );
