@@ -40,9 +40,14 @@ class CommitCommand extends Command {
 
 		foreach ( $config['repos'] as $name => $repo ) {
 			$type = $repo['type'];
+			$genericType = $this->getGenericRepositoryType( $type );
 
-			if ( $type === 'git' || $type === 'github' || $type === 'gitlab' ) {
-				if ( $repo['push-branch'] ?? $repo['pull-branch'] ?? false ) {
+			if ( $genericType === 'git' ) {
+				$branch = $repo['branch'] ?? 'master';
+
+				if ( $type === 'wmgerrit' ) {
+					$push = 'git review -r origin -t L10n';
+				} elseif ( $repo['push-branch'] ?? $repo['pull-branch'] ?? false ) {
 					// This will use the default/source branch to base the commit on, and then push
 					// to a different remote branch. This is useful when for example, the project
 					// uses a pull-request model to review the commit.
@@ -51,24 +56,15 @@ class CommitCommand extends Command {
 					// since), or force-update the existing branch (and associated pull request).
 					// Note: Do NOT use 'branch|export' and 'push-branch' or 'pull-branch' together.
 					$destBranch = $repo['push-branch'] ?? $repo['pull-branch'];
-					$srcBranch = $repo['branch'] ?? 'master';
-					$command =
-						"cd '$name'; git add .; if ! git diff --cached --quiet; " .
-						"then git commit -m '$message'; " .
-						"git rebase 'origin/$srcBranch' && git push --force origin HEAD:'$destBranch'; fi";
+					$push = "git push --force origin HEAD:'$destBranch'";
 				} else {
-					$branch = $repo['branch'] ?? 'master';
-					$command =
-						"cd '$name'; git add .; if ! git diff --cached --quiet; " .
-						"then git commit -m '$message'; " .
-						"git rebase 'origin/$branch' && git push origin '$branch'; fi";
+					$push = "git push origin '$branch'";
 				}
-			} elseif ( $type === 'wmgerrit' ) {
-				$branch = $repo['branch'] ?? 'master';
+
+				$rebase = "git rebase 'origin/$branch'";
 				$command =
 					"cd '$name'; git add .; if ! git diff --cached --quiet; " .
-					"then git commit -m '$message'; " .
-					"git rebase 'origin/$branch' && git review -r origin -t L10n; fi";
+					"then git commit -m '$message'; $rebase && $push; fi";
 			} elseif ( $type === 'svn' ) {
 				$extra = '';
 				if ( isset( $repo['svn-add-options'] ) ) {
