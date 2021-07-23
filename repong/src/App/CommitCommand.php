@@ -109,8 +109,7 @@ class CommitCommand extends Command {
 		$this->makePullRequests( $config, $base, $output );
 	}
 
-	private function makePullRequests( array $config, string $base, OutputInterface $output )
-	: void {
+	private function makePullRequests( array $config, string $base, OutputInterface $output ): void {
 		$factory = new ForgeFactory();
 
 		foreach ( $config['repos'] as $name => $repo ) {
