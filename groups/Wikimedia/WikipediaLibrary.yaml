@@ -5,6 +5,14 @@ TEMPLATE:
     class: FileBasedMessageGroup
     description: "{{Special:MyLanguage/Translations:Group descriptions/wikipedia-library/en}}"
 
+  FILES:
+    codeMap:
+      en-gb: en_Gb
+      pt-br: pt_Br
+      sr-ec: sr_Ec
+      zh-hans: zh_Hans
+      zh-hant: zh_Hant
+
   MANGLER:
     class: StringMatcher
     prefix: wikipedia-library-
