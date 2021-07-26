@@ -488,7 +488,7 @@ mwgithub:
     mwgithub/jthingelstad/foreground:
       type: github
       url: https://github.com/jthingelstad/foreground.git
-      url|export: git@github.com:thingles/jthingelstad/foreground.git
+      url|export: git@github.com:jthingelstad/foreground.git
     mwgithub/kulttuuri/DiscordNotifications:
       type: github
       url: https://github.com/kulttuuri/DiscordNotifications.git
@@ -894,8 +894,8 @@ wikimedia-github:
       url|export: git@github.com:wikimedia/CopyPatrol.git
     grant-metrics:
       type: github
-      url: https://github.com/wikimedia/grantmetrics.git
-      url|export: git@github.com:wikimedia/grantmetrics.git
+      url: https://github.com/wikimedia/eventmetrics.git
+      url|export: git@github.com:wikimedia/eventmetrics.git
     interaction-timeline:
       type: github
       url: https://github.com/wikimedia/interactiontimeline.git
