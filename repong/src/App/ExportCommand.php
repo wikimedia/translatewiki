@@ -36,10 +36,6 @@ class ExportCommand extends Command {
 			'target' => $this->getBase(),
 		];
 
-		if ( isset( $config['export-hours'] ) ) {
-			$defaultOptions['hours'] = (int)$config['export-hours'];
-		}
-
 		if ( isset( $config['always-export-languages'] ) ) {
 			// Append message documentation by default. no-export-languages can override it
 			$defaultOptions['always-export-languages'] = $config['always-export-languages'] . ',qqq';
