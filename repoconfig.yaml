@@ -493,6 +493,10 @@ mwgithub:
       type: github
       url: https://github.com/kulttuuri/DiscordNotifications.git
       url|export: git@github.com:kulttuuri/DiscordNotifications.git
+    mwgithub/lakejason0/mediawiki-skins-Lakeus:
+      type: github
+      url: https://github.com/lakejason0/mediawiki-skins-Lakeus.git
+      url|export: git@github.com:lakejason0/mediawiki-skins-Lakeus.git
     mwgithub/lingua-libre/BlueLL:
       type: github
       branch: master

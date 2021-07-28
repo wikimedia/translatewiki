@@ -914,3 +914,14 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/octfx/mediawiki-extension-Plausible/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-lakeus
+  label: Lakeus
+  description: "{{Special:MyLanguage/MediaWiki:lakeus-skin-desc/en}}"
+  icon: wiki://Lakeus-Logo.svg
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/lakejason0/mediawiki-skins-Lakeus/i18n/%CODE%.json"
