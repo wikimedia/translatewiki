@@ -2697,7 +2697,10 @@ aliasfile = SecurePoll/SecurePoll.alias.php
 optional = securepoll-header-ip, securepoll-header-xff, securepoll-header-token-match
 optional = securepoll-header-url, securepoll-header-id, securepoll-header-trans-id
 optional = securepoll-create-option-election_crypt-gpg, securepoll-vote-csrf
+optional = securepoll-stv-result-candidate-elected, securepoll-stv-result-candidate
+optional = securepoll-stv-result-votes-gain, securepoll-stv-result-votes-surplus
 ignored = securepoll-custom-unqualified, securepoll-voter-name-remote, securepoll-voter-name-local
+ignored = securepoll-stv-result-votes-no-change
 
 Secure Sessions
 aliasfile = SecureSessions/SpecialSessions.alias.php
