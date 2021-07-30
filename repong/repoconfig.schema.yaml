@@ -36,8 +36,6 @@ definitions:
         maximum: 100
       always-export-languages:
         type: string
-      no-state-sync:
-        type: boolean
       repos:
         type: object
         oneOf:
@@ -68,6 +66,8 @@ definitions:
           - gitlab
           - git
           - svn
+      no-state-sync:
+        type: boolean
     patternProperties:
       "^url(\\|[a-z]+)?$":
         type: string
