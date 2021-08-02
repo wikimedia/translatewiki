@@ -70,7 +70,11 @@ MANGLER:
 
 TAGS:
   ignored:
-    - bar_separator
-    - completed_story_list_recyclerview_tag
-    - hints_android_solution_correct_answer
+    - oppia-android-app-bar_separator
+    - oppia-android-app-completed_story_list_recyclerview_tag
+    - oppia-android-app-hints_android_solution_correct_answer
+    - oppia-android-app-topic_download_text
+    - oppia-android-app-topic_story_progress_percentage
+    - oppia-android-app-topic_play_chapter_index
+    - oppia-android-app-welcome_profile_name
 
