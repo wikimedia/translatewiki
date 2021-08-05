@@ -982,7 +982,9 @@ descmsg = disambig-desc
 aliasfile = Disambiguator/Disambiguator.i18n.alias.php
 magicfile = Disambiguator/Disambiguator.i18n.magic.php
 
-# Discourse // 2019-10-27: empty repo
+Discourse
+magicfile = Discourse/Discourse.i18n.magic.php
+optional = discourse
 
 Discussion Threading
 
