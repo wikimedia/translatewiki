@@ -64,7 +64,6 @@ TAGS:
     - bitrate-terabits
     - bitrate-yottabits
     - bitrate-zettabits
-    - bitrate-zetabits
     - booksources-isbn
     - brackets
     - brackets-end
@@ -214,8 +213,6 @@ TAGS:
     - size-yottapixel
     - size-zettabytes
     - size-zettapixel
-    - size-zetabytes
-    - size-zetapixel
     - skinname-cologneblue
     - skinname-modern
     - sorbs

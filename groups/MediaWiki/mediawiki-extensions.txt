@@ -202,6 +202,8 @@ Biblio Plus
 Block And Nuke
 aliasfile = BlockAndNuke/BlockAndNuke.alias.php
 
+# Block Inactive // 2021-08-05: Empty repo
+
 Blog Page
 aliasfile = BlogPage/includes/BlogPage.alias.php
 descmsg = blogpage-desc
