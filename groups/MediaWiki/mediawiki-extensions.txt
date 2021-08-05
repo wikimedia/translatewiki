@@ -1000,6 +1000,7 @@ id = ext-discussiontools-user
 ignored = tag-discussiontools, discussiontools-replywidget-reply-link
 ignored = discussiontools-replywidget-newtopic-link, tag-discussiontools-source-enhanced
 ignored = discussiontools-replywidget-feedback-link-newtopic
+ignored = discussiontools-emptystate-link-talkpages, discussiontools-emptystate-link-userpage
 optional = discussiontools-preference-info-link
 optional = discussiontools-preference-discussion-link
 optional = discussiontools-replywidget-feedback-link
