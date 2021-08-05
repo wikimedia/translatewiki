@@ -115,6 +115,7 @@ $wgTranslateLanguageFallbacks['tru'] = 'arc'; # Robin 2012-02-18
 $wgTranslateLanguageFallbacks['tsd'] = 'el';
 $wgTranslateLanguageFallbacks['ug-arab'] = [ 'ug-latn', 'zh-hans', 'zh-hant' ]; # Robin 2011-11-14
 $wgTranslateLanguageFallbacks['ug-latn'] = [ 'ug-arab', 'ru' ]; # Robin 2011-11-14
+$wgTranslateLanguageFallbacks['vmw'] = [ 'pt', 'ts', 'sw', 'ss', 'ny', 'zu' ]; # Amir 2021-08-05
 $wgTranslateLanguageFallbacks['xsy'] = [ 'zh-hant' ]; # Amir 2017-05-03
 $wgTranslateLanguageFallbacks['yrk'] = 'ru'; # Lcawte 2011-02-07
 $wgTranslateLanguageFallbacks['yrl'] = [ 'es', 'pt-br' ];

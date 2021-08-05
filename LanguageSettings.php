@@ -121,6 +121,7 @@ $wgExtraLanguageNames['tsd'] = 'Τσακωνικά'; # Tsakonian / Siebrand 2009
 $wgExtraLanguageNames['ttt'] = 'Tati'; # Tat / Siebrand 2008-04-04
 $wgExtraLanguageNames['twd'] = 'Tweants'; # Twents
 $wgExtraLanguageNames['vai'] = 'ꕙꔤ'; # Vai Amir 2019-04-23
+$wgExtraLanguageNames['vmw'] = 'emakhuwa'; # Makhuwa Amir 2021-08-05
 $wgExtraLanguageNames['wls'] = 'Faka\'uvea'; # Fakauvea
 $wgExtraLanguageNames['ydd'] = 'Eastern Yiddish'; # Eastern Yiddish / Siebrand 2009-09-23
 $wgExtraLanguageNames['yrk'] = 'Ненэцяʼ вада'; # Tundra Nenets / Lcawte 2011-02-07
