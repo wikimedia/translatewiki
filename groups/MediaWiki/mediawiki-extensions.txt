@@ -1556,6 +1556,10 @@ Growth Experiments - Homepage API
 id = ext-growthexperiments-homepage-api
 file = GrowthExperiments/i18n/homepage/api/%CODE%.json
 
+Growth Experiments - Mentorship
+id = ext-growthexperiments-mentorship
+file = GrowthExperiments/i18n/mentorship/%CODE%.json
+
 Growth Experiments - Mentorship API
 id = ext-growthexperiments-mentorship-api
 file = GrowthExperiments/i18n/mentorship/api/%CODE%.json
