@@ -126,6 +126,10 @@ TEMPLATE:
   INSERTABLES:
     - class: HtmlTagInsertablesSuggester
 
+  LANGUAGES:
+    exclude:
+      - en-gb
+
 ---
 BASIC:
   id: out-mantis-0-all
