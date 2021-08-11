@@ -40,6 +40,8 @@ VALIDATORS:
 TAGS:
   optional:
     - toolhub-42060f-,_\
+    - toolhub-ef5a4c-Toolhub
+    - toolhub-1f6238-Toolhub_API
 
 ---
 BASIC:
