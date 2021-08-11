@@ -1,7 +1,7 @@
 {
 	"require": {
 		"mediawiki/maps": "^7.20.1",
-		"mediawiki/page-forms": "dev-master#de93c72fa87c0e7f57dec4299c4a86e936c84a62",
+		"mediawiki/page-forms": "5.2.1",
 		"mediawiki/semantic-media-wiki": "dev-master#fb5a0a8775d69649b0edd667d1c7719a595b22b7",
 		"romaricdrigon/metayaml": "dev-master#1481b99679b29cbb50c88f3e10e4951ac64b8ad3"
 	},
