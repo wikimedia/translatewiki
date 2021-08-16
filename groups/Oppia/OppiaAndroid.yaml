@@ -37,6 +37,7 @@ TEMPLATE:
       - ar
       - en
       - hi
+      - pt-br
 
   MANGLER:
     class: StringMatcher
