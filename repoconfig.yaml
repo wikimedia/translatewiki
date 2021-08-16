@@ -708,7 +708,7 @@ nocc:
       url|export: svn+ssh://translatewiki@svn.code.sf.net/p/nocc/code/trunk
 
 oppia:
-  group: oppia
+  group: oppia,oppia-android-app
   export-threshold: 90
   repos:
     oppia:
