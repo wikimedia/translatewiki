@@ -3416,6 +3416,7 @@ ignored = wikilambda-modeselector-reference, wikilambda-modeselector-literal
 ignored = wikilambda-modeselector-functioncall, wikilambda-modeselector-json
 ignored = wikilambda-modeselector-argref, wikilambda-editor-clearitem
 optional = wikilambda-persistentzobject, wikilambda-zobjectselector-label
+optional = content-model-zobject
 optional = wikilambda-json
 id = ext-wikilambda-user
 file = WikiLambda/i18n/%CODE%.json
