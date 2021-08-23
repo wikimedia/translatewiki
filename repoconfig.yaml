@@ -811,8 +811,8 @@ waymarked-trails-site:
   repos:
     waymarked-trails-site:
       type: github
-      url: https://github.com/lonvia/waymarked-trails-site.git
-      url|export: git@github.com:lonvia/waymarked-trails-site.git
+      url: https://github.com/waymarkedtrails/waymarked-trails-site.git
+      url|export: git@github.com:waymarkedtrails/waymarked-trails-site.git
 
 # Note that this group is called "Revision Scoring" in the English web
 # interface.
