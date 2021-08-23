@@ -64,15 +64,6 @@ convenient-discussions:
       url: https://github.com/jwbth/convenient-discussions.git
       url|export: git@github.com:jwbth/convenient-discussions.git
 
-dibabel:
-  group: dibabel
-  export-threshold: 0
-  repos:
-    dibabel:
-      type: github
-      url: https://github.com/nyurik/dibabel-js
-      url|export: git@github.com:nyurik/dibabel-js.git
-
 discordwikibot:
   group: discordwikibot
   repos:
