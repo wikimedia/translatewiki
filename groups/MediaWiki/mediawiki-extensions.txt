@@ -649,8 +649,7 @@ id = ext-categorytree-user
 file = CategoryTree/i18n/%CODE%.json
 aliasfile = CategoryTree/CategoryTree.alias.php
 magicfile = CategoryTree/CategoryTree.i18n.magic.php
-ignored = categorytree-collapse-bullet, categorytree-page-bullet, categorytree-member-num
-optional = categorytree-expand-bullet, categorytree-empty-bullet
+ignored = categorytree-member-num
 
 Category Tree - API
 id = ext-categorytree-api
