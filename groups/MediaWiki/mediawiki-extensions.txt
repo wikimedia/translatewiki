@@ -1001,12 +1001,6 @@ ignored = discussiontools-replywidget-newtopic-link, tag-discussiontools-source-
 ignored = discussiontools-replywidget-feedback-link-newtopic
 ignored = discussiontools-emptystate-link-talkpages, discussiontools-emptystate-link-userpage
 ignored = tag-discussiontools-added-comment, discussiontools-emptystate-link-userpage-anon
-ignored = growthexperiments-help-panel-suggestededits-tips-vector-visualeditor-image-recommendation-onboarding-value
-ignored = growthexperiments-homepage-suggestededits-tasktype-shortdescription-image-recommendation
-ignored = growthexperiments-homepage-suggestededits-tasktype-description-image-recommendation
-ignored = growthexperiments-homepage-suggestededits-tasktype-label-image-recommendation
-ignored = growthexperiments-homepage-suggestededits-tasktype-time-image-recommendation
-ignored = growthexperiments-homepage-suggestededits-tasktype-name-image-recommendation
 optional = discussiontools-preference-info-link
 optional = discussiontools-preference-discussion-link
 optional = discussiontools-replywidget-feedback-link
@@ -1541,6 +1535,7 @@ Growth Experiments - Help Panel
 id = ext-growthexperiments-helppanel
 file = GrowthExperiments/i18n/help/%CODE%.json
 ignored = growthexperiments-help-panel-suggestededits-tips-vector-visualeditor-copyedit-graphic-calm
+ignored = growthexperiments-help-panel-suggestededits-tips-vector-visualeditor-image-recommendation-onboarding-value
 
 Growth Experiments - Help Panel API
 id = ext-growthexperiments-helppanel-api
@@ -1551,6 +1546,11 @@ id = ext-growthexperiments-homepage
 file = GrowthExperiments/i18n/homepage/%CODE%.json
 ignored = growthexperiments-homepage-suggestededits-difficulty-filter-label-mobile
 ignored = growth-homepage-banner, newcomertasksinfo-task-count
+ignored = growthexperiments-homepage-suggestededits-tasktype-shortdescription-image-recommendation
+ignored = growthexperiments-homepage-suggestededits-tasktype-description-image-recommendation
+ignored = growthexperiments-homepage-suggestededits-tasktype-label-image-recommendation
+ignored = growthexperiments-homepage-suggestededits-tasktype-time-image-recommendation
+ignored = growthexperiments-homepage-suggestededits-tasktype-name-image-recommendation
 optional = growthexperiments-homepage-suggestededits-footer-suffix
 optional = growthexperiments-homepage-suggestededits-footer-kilosuffix, growthexperiments-homepage-suggestededits-footer-megasuffix
 optional = growthexperiments-homepage-suggestededits-footer-gigasuffix, growthexperiments-homepage-suggestededits-footer-terasuffix
