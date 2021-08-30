@@ -32,5 +32,6 @@ VALIDATORS:
 
 TAGS:
   optional:
+    - wikimedia-ocr-api
     - wikimedia-ocr-engine-name-google
     - wikimedia-ocr-engine-name-tesseract
