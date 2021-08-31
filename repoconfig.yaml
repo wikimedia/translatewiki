@@ -948,8 +948,8 @@ wikimedia-misc-tools:
       url|export: git@github.com:MusikAnimal/pageviews.git
     video2commons:
       type: github
-      url: https://github.com/Toollabs/video2commons.git
-      url|export: git@github.com:Toollabs/video2commons.git
+      url: https://github.com/toolforge/video2commons.git
+      url|export: git@github.com:toolforge/video2commons.git
     wikidata-lexeme-forms:
       type: github
       branch: main
