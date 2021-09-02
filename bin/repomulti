@@ -11,7 +11,7 @@ PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -P "^${2:-
 COMMAND=${1:-status}
 
 case "$COMMAND" in
-update|commit)
+update|commit|backport)
 	WRAPPER="$DIRSCRIPT/l10n-bot"
 	export GIT_SSH="$DIRSCRIPT/git-ssh-wrapper"
 	export SVN_SSH="$DIRSCRIPT/git-ssh-wrapper"
@@ -26,5 +26,5 @@ b_=$(tput sgr0)
 
 for i in $PROJECTS; do
 	echo "${_b}$i${b_}"
-	$WRAPPER php "$DIRSCRIPT/../repong/repong.php" "$COMMAND" "$i"
+	$WRAPPER php "$DIRSCRIPT/../repong/repong.php" "$COMMAND" "$i" "${@:3}"
 done
