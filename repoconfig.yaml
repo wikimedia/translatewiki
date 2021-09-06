@@ -151,6 +151,7 @@ etherpad-lite:
       url|export: git@github.com:ether/ep_readonly_guest.git
     ether/ep_set_title_on_pad:
       type: github
+      branch: main
       url: https://github.com/ether/ep_set_title_on_pad.git
       url|export: git@github.com:ether/ep_set_title_on_pad.git
     ether/ep_spellcheck:
@@ -167,14 +168,17 @@ etherpad-lite:
       url|export: git@github.com:ether/ep_table_of_contents.git
     ether/ep_webrtc:
       type: github
+      branch: main
       url: https://github.com/ether/ep_webrtc.git
       url|export: git@github.com:ether/ep_webrtc.git
     ether/ep_what_have_i_missed:
       type: github
+      branch: main
       url: https://github.com/ether/ep_what_have_i_missed.git
       url|export: git@github.com:ether/ep_what_have_i_missed.git
     ether/ep_who_did_what:
       type: github
+      branch: main
       url: https://github.com/ether/ep_who_did_what.git
       url|export: git@github.com:ether/ep_who_did_what.git
 
