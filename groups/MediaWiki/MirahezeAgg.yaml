@@ -10,10 +10,14 @@ BASIC:
 GROUPS:
   - mwgithub-createwiki
   - mwgithub-datadump
+  - mwgithub-globalnewfiles
   - mwgithub-incidentreporting
   - mwgithub-managewiki
   - mwgithub-matomoanalytics
   - mwgithub-mirahezelanding
   - mwgithub-mirahezemagic-custom
   - mwgithub-mirahezemagic-override
+  - mwgithub-mirahezemagic-recaptcha
+  - mwgithub-mirahezemagic-recaptcha-api
+  - mwgithub-removepii
   - mwgithub-wikidiscover

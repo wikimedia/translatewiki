@@ -497,6 +497,10 @@ mwgithub:
       type: github
       url: https://github.com/miraheze/DataDump.git
       url|export: git@github.com:miraheze/DataDump.git
+    mwgithub/miraheze/GlobalNewFiles:
+      type: github
+      url: https://github.com/miraheze/GlobalNewFiles.git
+      url|export: git@github.com:miraheze/GlobalNewFiles.git
     mwgithub/miraheze/IncidentReporting:
       type: github
       url: https://github.com/miraheze/IncidentReporting.git
@@ -517,6 +521,10 @@ mwgithub:
       type: github
       url: https://github.com/miraheze/MirahezeMagic.git
       url|export: git@github.com:miraheze/MirahezeMagic.git
+    mwgithub/miraheze/RemovePII:
+      type: github
+      url: https://github.com/miraheze/RemovePII.git
+      url|export: git@github.com:miraheze/RemovePII.git
     mwgithub/miraheze/WikiDiscover:
       type: github
       url: https://github.com/miraheze/WikiDiscover.git

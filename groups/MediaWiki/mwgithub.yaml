@@ -561,6 +561,16 @@ MANGLER:
 
 ---
 BASIC:
+  id: mwgithub-globalnewfiles
+  label: GlobalNewFiles
+  description: "{{Special:MyLanguage/MediaWiki:globalnewfiles-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/GlobalNewFiles/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-managewiki
   label: ManageWiki
   description: "{{Special:MyLanguage/MediaWiki:managewiki-desc/en}}"
@@ -595,6 +605,16 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/jthingelstad/foreground/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-removepii
+  label: RemovePII
+  description: "{{Special:MyLanguage/MediaWiki:removepii-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/RemovePII/i18n/%CODE%.json"
 
 ---
 BASIC:
@@ -643,7 +663,7 @@ FILES:
 ---
 BASIC:
   id: mwgithub-mirahezemagic-custom
-  label: Miraheze Magic Custom
+  label: MirahezeMagic Custom
   description: "{{Special:MyLanguage/MediaWiki:Mirahezemagic-custom-mirahezemagic-description/en}}"
 
 FILES:
@@ -669,7 +689,7 @@ TAGS:
 ---
 BASIC:
   id: mwgithub-mirahezemagic-override
-  label: Miraheze Magic Override
+  label: MirahezeMagic Override
 
 FILES:
   class: JsonFFS
@@ -680,6 +700,38 @@ TAGS:
     - miraheze-centralauth-groupname
   ignored:
     - miraheze-privacypage
+
+---
+BASIC:
+  id: mwgithub-mirahezemagic-recaptcha
+  label: MirahezeMagic ReCaptcha
+  description: "{{Special:MyLanguage/MediaWiki:Mirahezemagic-renocaptcha-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/MirahezeMagic/ReCaptchaNoCaptcha/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: mirahezemagic-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: mwgithub-mirahezemagic-recaptcha-api
+  label: MirahezeMagic ReCaptcha - API
+  description: "{{Special:MyLanguage/MediaWiki:Mirahezemagic-renocaptcha-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/MirahezeMagic/ReCaptchaNoCaptcha/i18n/api/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: mirahezemagic-
+  patterns:
+    - "*"
 
 ---
 BASIC:
