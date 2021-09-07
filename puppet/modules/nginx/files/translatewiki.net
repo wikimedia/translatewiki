@@ -39,6 +39,8 @@ server {
 
 	# Allowed php files, case sensitive
 	location ~ ^/[xw]/(i|index|load|api|opensearch_desc|webfiles/jserror)\.php {
+		limit_req zone=perip burst=15 nodelay;
+
 		fastcgi_pass php;
 		fastcgi_buffering off;
 		fastcgi_buffers 16 16k;

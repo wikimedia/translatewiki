@@ -7,6 +7,10 @@ class nginx::devsite (
 ) {
   $certdir = '/etc/ssl/localcerts';
 
+  File {
+    require => File['/etc/nginx/nginx.conf']
+  }
+
   file { $certdir:
     ensure  => 'directory',
   }

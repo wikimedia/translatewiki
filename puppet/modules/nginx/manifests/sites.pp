@@ -5,6 +5,10 @@
 class nginx::sites {
   include nginx::ssl
 
+  File {
+    require => File['/etc/nginx/nginx.conf']
+  }
+
   $directories = [
     '/www',
     '/www/stats.translatewiki.net',

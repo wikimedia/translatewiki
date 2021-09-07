@@ -4,7 +4,7 @@
 #
 class nginx {
   $packages = [
-    'nginx-light',
+    'nginx-full',
   ]
   ensure_packages($packages, {
     ensure => 'present',
@@ -13,11 +13,11 @@ class nginx {
   service { 'nginx':
     ensure  => running,
     enable  => true,
-    require => Package['nginx-light'],
+    require => Package['nginx-full'],
   }
 
   File {
-    require => Package['nginx-light'],
+    require => Package['nginx-full'],
     notify  => Service['nginx'],
   }
 
