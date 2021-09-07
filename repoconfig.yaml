@@ -105,14 +105,17 @@ etherpad-lite:
       url|export: git@github.com:ether/ep_adminpads2.git
     ether/ep_align:
       type: github
+      branch: main
       url: https://github.com/ether/ep_align.git
       url|export: git@github.com:ether/ep_align.git
     ether/ep_author_follow:
       type: github
+      branch: main
       url: https://github.com/ether/ep_author_follow.git
       url|export: git@github.com:ether/ep_author_follow.git
     ether/ep_author_hover:
       type: github
+      branch: main
       url: https://github.com/ether/ep_author_hover.git
       url|export: git@github.com:ether/ep_author_hover.git
     ether/ep_desktop_notifications:
