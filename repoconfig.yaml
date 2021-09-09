@@ -120,14 +120,17 @@ etherpad-lite:
       url|export: git@github.com:ether/ep_author_hover.git
     ether/ep_desktop_notifications:
       type: github
+      branch: main
       url: https://github.com/ether/ep_desktop_notifications.git
       url|export: git@github.com:ether/ep_desktop_notifications.git
     ether/ep_font_color:
       type: github
+      branch: main
       url: https://github.com/ether/ep_font_color.git
       url|export: git@github.com:ether/ep_font_color.git
     ether/ep_font_size:
       type: github
+      branch: main
       url: https://github.com/ether/ep_font_size.git
       url|export: git@github.com:ether/ep_font_size.git
     ether/ep_headings2:
