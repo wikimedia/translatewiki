@@ -6,8 +6,8 @@ mod 'elastic-kibana',
 	:git => 'https://github.com/elastic/puppet-kibana.git',
 	:commit => '154284f2a848ace5afbcf6ebc9163c443631d377'
 mod 'puppet-letsencrypt', '6.0.0'
-mod 'puppetlabs-firewall', '3.0.1'
-mod 'puppetlabs-java', '7.0.2'
+mod 'puppetlabs-firewall', '3.2.0'
+mod 'puppetlabs-java', '7.1.1'
 mod 'puppetlabs-mount_core', '1.0.4'
-mod 'puppetlabs-mysql', '11.1.0'
+mod 'puppetlabs-mysql', '12.0.1'
 mod 'thias-sysctl', '1.0.7'

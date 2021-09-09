@@ -20,7 +20,7 @@ server {
 	root /www/offline;
 
 	location /index.php {
-		set $fastcgi_pass_value unix:/var/run/php5-fpm.sock;
+		set $fastcgi_pass_value unix:/var/run/php-fpm.sock;
 
 		fastcgi_pass $fastcgi_pass_value;
 		fastcgi_buffers 16 4k;

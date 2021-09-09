@@ -15,7 +15,7 @@ class backup (
   }
 
   $packages = [
-    'python-pip',
+    'python3-pip',
     'pbzip2'
   ]
   ensure_packages($packages, {
@@ -25,7 +25,7 @@ class backup (
   package { 'b2':
     ensure   => present,
     provider => pip,
-    require  => Package['python-pip'],
+    require  => Package['python3-pip'],
   }
 
   file { '/etc/cron.d/backup':
