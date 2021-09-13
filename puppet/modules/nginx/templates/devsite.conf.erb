@@ -32,7 +32,7 @@ server {
 	}
 
 	# Allowed php files, case sensitive
-	location ~ ^/w/(index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php {
+	location ~ ^/w/(index|load|api|opensearch_desc|rest|webfiles/jserror)\.php {
 		limit_req zone=perip burst=15 nodelay;
 
 		fastcgi_pass php;
