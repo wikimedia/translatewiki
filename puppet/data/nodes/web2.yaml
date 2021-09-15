@@ -104,6 +104,10 @@ users::ssh_keys:
     user: nike
     type: ssh-ed25519
     key: AAAAC3NzaC1lZDI1NTE5AAAAIJPypk/NLqKJPMj5prKlHOJLjhiXpKxIEaEM2P5mZrZf
+  nike@jadewokki:
+    user: nike
+    type: ssh-ed25519
+    key: AAAAC3NzaC1lZDI1NTE5AAAAIII6dhuBV2Nl8YJtTbK53MR8kv01KhHAzfHbetsgKG0O
   abijeetpatro@gmail.com:
     user: abi
     type: ssh-rsa
