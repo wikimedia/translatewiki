@@ -556,6 +556,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/EDTF.git
       url|export: git@github.com:ProfessionalWiki/EDTF.git
+    mwgithub/ProfessionalWiki/ExternalContent:
+        type: github
+        url: https://github.com/ProfessionalWiki/ExternalContent.git
+        url|export: git@github.com:ProfessionalWiki/ExternalContent.git
     mwgithub/ProfessionalWiki/IdGenerator:
       type: github
       url: https://github.com/ProfessionalWiki/IdGenerator.git

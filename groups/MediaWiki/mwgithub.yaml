@@ -32,6 +32,15 @@ TAGS:
     - bootstrap-components-tracking-category
 ---
 BASIC:
+  id: mwgithub-external-content
+  label: External Content
+  description: "{{Special:MyLanguage/MediaWiki:External-content-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/ExternalContent/i18n/%CODE%.json"
+---
+BASIC:
   id: mwgithub-id-generator
   label: ID Generator
   description: "{{Special:MyLanguage/MediaWiki:Id-generator-desc/en}}"
