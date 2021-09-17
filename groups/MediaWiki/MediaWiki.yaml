@@ -15,6 +15,7 @@ TEMPLATE:
         - protect-expiry-options
         - userrights-expiry-options
         - watchlist-expiry-options
+    - id: NotEmpty
 
 
   INSERTABLES:
