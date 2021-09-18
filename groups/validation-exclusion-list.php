@@ -239,6 +239,9 @@ $validationExclusionList = [
 		'check' => 'variable',
 		'message' => [
 			'notification-header-mention-failure-too-many', // GENDER parameter not needed e.g. in uk
+			'notification-header-user-rights-add-and-remove', // Optional PLURAL parameters $3, $5
+			'notification-header-user-rights-add-only', // Optional PLURAL parameter $3
+			'notification-header-user-rights-remove-only', // Optional PLURAL parameter $3
 		]
 	],
 	[
@@ -304,6 +307,13 @@ $validationExclusionList = [
 		'check' => 'variable',
 		'message' => [
 			'unreviewedpages-list', // Parameter $1 only used when required for plural
+		]
+	],
+	[
+		'group' => 'ext-growthexperiments-homepage',
+		'check' => 'variable',
+		'message' => [
+			'growthexperiments-homepage-suggestededits-footer-suffix', // Parameter $1 can be replaced to disable formatting
 		]
 	],
 	[
