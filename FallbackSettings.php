@@ -24,6 +24,7 @@ $wgTranslateLanguageFallbacks['bew'] = 'id';
 $wgTranslateLanguageFallbacks['bfq'] = [ 'kn', 'ta' ];
 $wgTranslateLanguageFallbacks['bft'] = 'ur';
 $wgTranslateLanguageFallbacks['bkm'] = 'fr';
+$wgTranslateLanguageFallbacks['blk'] = 'my';
 $wgTranslateLanguageFallbacks['bzj'] = [ 'jam', 'es' ];
 $wgTranslateLanguageFallbacks['cak'] = [ 'es' ];
 $wgTranslateLanguageFallbacks['cja-latn'] = [ 'km' ];
