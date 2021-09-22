@@ -3388,6 +3388,8 @@ Widgets
 magicfile = Widgets/Widgets.i18n.magic.php
 optional = group-widgeteditor.css, group-widgeteditor.js
 
+# Wigo3 // 2020-08-13: inconsistent prefix
+
 WikEd Diff
 descmsg = wiked-diff-desc
 
