@@ -10,23 +10,15 @@
 class backup (
   Array $databases = [],
 ) {
-  package { 'duplicity':
-    ensure => present,
-  }
-
   $packages = [
-    'python3-pip',
+    'duplicity',
+    'backblaze-b2',
+    'python3-b2sdk',
     'pbzip2'
   ]
   ensure_packages($packages, {
     ensure => 'present',
   })
-
-  package { 'b2':
-    ensure   => present,
-    provider => pip,
-    require  => Package['python3-pip'],
-  }
 
   file { '/etc/cron.d/backup':
     ensure => present,
