@@ -1,5 +1,6 @@
 classes:
   - '::users::aliases'
+  - '::hostname'
   - '::kitanonl'
   - '::awstats'
   - '::nginx::sites'

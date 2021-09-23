@@ -4,7 +4,6 @@ classes:
   - '::base::firewall::post'
   - '::base'
   - '::base::vcs'
-  - '::hostname'
   - '::keyholder'
   - '::sshd'
   - '::repong'
@@ -25,6 +24,8 @@ autoexport_dir: /scratch/exports
 
 base::maintenance_user: "%{alias('maintenance_user')}"
 base::bin_dir: "%{lookup('wiki::config_dir')}/bin"
+
+keyholder::agent: []
 
 nginx::devsite::domain: "%{alias('wiki::domain')}"
 
