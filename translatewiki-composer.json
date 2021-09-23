@@ -1,13 +1,14 @@
 {
 	"require": {
-		"mediawiki/maps": "^7.20.1",
+		"mediawiki/maps": "^9.0",
 		"mediawiki/page-forms": "5.2.1",
-		"mediawiki/semantic-media-wiki": "dev-master#fb5a0a8775d69649b0edd667d1c7719a595b22b7",
+		"mediawiki/semantic-media-wiki": "dev-master",
 		"romaricdrigon/metayaml": "dev-master#1481b99679b29cbb50c88f3e10e4951ac64b8ad3"
 	},
 	"extra": {
 		"merge-plugin": {
 			"include": [
+				"extensions/AbuseFilter/composer.json",
 				"extensions/OATHAuth/composer.json",
 				"extensions/Elastica/composer.json",
 				"extensions/SyntaxHighlight_GeSHi/composer.json",
