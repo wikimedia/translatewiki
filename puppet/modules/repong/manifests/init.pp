@@ -29,6 +29,13 @@ class repong (
     owner  => $repo_user,
   }
 
+  file { "${import_dir}/sync.lock":
+    ensure  => 'file',
+    content =>'',
+    owner   => $repo_user,
+    mode    => 'ugo+rw',
+  }
+
   exec { "Create export directory ${export_dir}":
     creates => $export_dir,
     command => "mkdir -p ${export_dir}",

@@ -12,6 +12,7 @@ class wiki (
   String $l10nbot_user,
   String $autoimport_dir,
   String $autoexport_dir,
+  String $lockfile,
 ) {
   file { '/etc/wikisettings':
     content => template('wiki/wikisettings.erb'),

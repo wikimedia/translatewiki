@@ -16,7 +16,6 @@ classes:
   - '::wiki'
   - '::wiki::docroot'
 
-# Changing this variable is not yet fully supported
 maintenance_user: betawiki
 l10nbot_user: l10n-bot
 autoimport_dir: /resources/projects
@@ -34,6 +33,7 @@ repong::repo_user: "%{alias('maintenance_user')}"
 repong::l10nbot_user: "%{alias('l10nbot_user')}"
 repong::import_dir: "%{alias('autoimport_dir')}"
 repong::export_dir: "%{alias('autoexport_dir')}"
+repong::lockfile: "%{lookup('repong::import_dir')}/sync.lock"
 
 repong::autoexport::bin_dir: "%{lookup('wiki::config_dir')}/bin"
 repong::autoexport::l10nbot_user: "%{alias('l10nbot_user')}"
@@ -53,6 +53,7 @@ wiki::l10nbot_user: "%{alias('l10nbot_user')}"
 wiki::work_dir: /srv/mediawiki/workdir
 wiki::autoimport_dir: "%{alias('autoimport_dir')}"
 wiki::autoexport_dir: "%{alias('autoexport_dir')}"
+wiki::lockfile: "%{alias('repong::lockfile')}"
 
 wiki::docroot::domain: "%{alias('wiki::domain')}"
 wiki::docroot::production_dir: "%{alias('wiki::production_dir')}"
@@ -66,7 +67,7 @@ wiki::workdir::domain: "%{alias('wiki::domain')}"
 wiki::workdir::deployment_dir: /srv/mediawiki
 wiki::workdir::deployment_owner: "%{alias('wiki::repo_user')}"
 wiki::workdir::deployment_group: "%{alias('maintenance_user')}"
-wiki::workdir::mediawiki_config: TranslatewikiSettings.php # unused atm
+wiki::workdir::mediawiki_config: TranslatewikiSettings.php
 
 
 wiki::workdir::repos:
