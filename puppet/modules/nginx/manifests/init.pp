@@ -33,6 +33,14 @@ class nginx {
     source => 'puppet:///modules/nginx/logrotate'
   }
 
+  file { '/www/error/':
+    ensure => 'directory';
+  }
+
+  file { '/www/error/error.html':
+    source => 'puppet:///modules/nginx/error.html';
+  }
+
   # set up the default parameters for all firewall rules
   Firewall {
     before  => Class['base::firewall::post'],

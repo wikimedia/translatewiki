@@ -44,14 +44,6 @@ class nginx::devsite (
     notify  => Service[ 'nginx' ],
   }
 
-  file { "/www/${domain}/error":
-    ensure => 'directory',
-  }
-
-  file { "/www/${domain}/error/error.html":
-    source => 'puppet:///modules/nginx/error.html',
-  }
-
   $command = @("COMMAND"/L)
     openssl req -newkey rsa:2048 -nodes  -x509 -days 365 \
     -keyout ${domain}.key -out ${domain}.crt -subj '/CN=${domain}'

@@ -70,7 +70,7 @@ server {
 
 	error_page 500 502 503 504 /error.html;
 	location = /error.html {
-		root /www/translatewiki.net/error;
+		root /www/error;
 		internal;
 	}
 }

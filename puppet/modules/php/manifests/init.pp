@@ -1,11 +1,12 @@
 # == Class: php
 #
-# Configures php for MediaWiki to run in cli and fastcgi modes.
+# Configures php for MediaWiki to run in cli and fpm modes.
 #
 class php {
   $packages = [
     'php-memcached',
     'php-wikidiff2',
+    'php-wmerrors',
     'php-yaml',
     'php7.4-cli',
     'php7.4-curl',
@@ -32,5 +33,11 @@ class php {
     ensure => running,
     enable => true,
     name   => 'php7.4-fpm.service',
+  }
+
+  file { '/etc/php/7.4/fpm/conf.d/50-wmerrors.ini':
+    source  => 'puppet:///modules/php/wmerrors.ini',
+    require => Package['php7.4-fpm'],
+    notify  => Service['php-fpm'],
   }
 }
