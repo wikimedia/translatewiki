@@ -68,7 +68,7 @@ GROUPS:
   - ext-wikibasemediainfo-user # https://phabricator.wikimedia.org/rOMWCef62d89def2ab616c2ca47d3165b65116c4a45ea
   - ext-wikidata.org
   - ext-wikieditor
-  - ext-wikimediacclicensetexts # commons.wikimedia.org
+  - ext-wikimediacreativecommonslicensetexts # commons.wikimedia.org
   - ext-wikimediaevents # 2013-10-07: Renamed from CoreEvents
   - ext-wikimedialicensetexts # commons.wikimedia.org
   - ext-wikimediaoverrides
