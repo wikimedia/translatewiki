@@ -795,6 +795,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/FemiwikiSkin/i18n/%CODE%.json"
 
+TAGS:
+  ignored:
+    - skin-femiwiki-xeicon-map.json
+
 ---
 BASIC:
   id: mwgithub-sanctions
