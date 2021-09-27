@@ -27,6 +27,19 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgitlab/librewiki/Liberty-MW-Skin/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - liberty-font-name-noto-sans-kr
+    - liberty-font-name-noto-serif-kr
+    - liberty-font-name-spoqa-han-sans
+    - liberty-font-name-nanum-gothic
+    - liberty-font-name-nanum-myeongjo
+    - liberty-font-name-dokdo
+    - liberty-font-name-gaegu
+    - liberty-font-name-hankc
+    - liberty-font-name-youth
+    - liberty-font-name-malgun-gothic
+
 ---
 BASIC:
   id: mwgitlab-ratepage-user
