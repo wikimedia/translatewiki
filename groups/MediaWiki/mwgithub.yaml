@@ -22,6 +22,11 @@ BASIC:
   id: mwgithub-bootstrap-components
   label: BootstrapComponents
   description: "{{Special:MyLanguage/MediaWiki:Bootstrap-components-desc/en}}"
+  support:
+    url: https://github.com/oetterer/BootstrapComponents/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -35,6 +40,11 @@ BASIC:
   id: mwgithub-external-content
   label: External Content
   description: "{{Special:MyLanguage/MediaWiki:External-content-desc/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/ExternalContent/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -44,6 +54,11 @@ BASIC:
   id: mwgithub-id-generator
   label: ID Generator
   description: "{{Special:MyLanguage/MediaWiki:Id-generator-desc/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/IdGenerator/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -57,6 +72,11 @@ BASIC:
   id: mwgithub-mermaid
   label: Mermaid
   description: "{{Special:MyLanguage/MediaWiki:Mermaid-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/Mermaid/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -66,6 +86,11 @@ BASIC:
   id: mwgithub-modern-timeline
   label: Modern Timeline
   description: "{{Special:MyLanguage/MediaWiki:Modern-timeline-desc/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/ModernTimeline/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -79,6 +104,11 @@ BASIC:
   id: mwgithub-network
   label: Network
   description: "{{Special:MyLanguage/MediaWiki:Network-desc/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/Network/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -92,6 +122,11 @@ BASIC:
   id: mwgithub-semanticapprovedrevs
   label: Semantic Approved Revs
   description: "{{Special:MyLanguage/MediaWiki:Semantic-approvedrevs-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticApprovedRevs/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -105,6 +140,11 @@ BASIC:
   id: mwgithub-semanticbreadcrumblinks
   label: Semantic Breadcrumb Links
   description: "{{Special:MyLanguage/MediaWiki:Sbl-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticBreadcrumbLinks/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -118,6 +158,11 @@ BASIC:
   id: mwgithub-semanticcite
   label: Semantic Cite
   description: "{{Special:MyLanguage/MediaWiki:Sci-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticCite/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -140,6 +185,11 @@ BASIC:
   id: mwgithub-semanticcompoundqueries
   label: Semantic Compound Queries
   description: "{{Special:MyLanguage/MediaWiki:Semanticcompoundqueries-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticCompoundQueries/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
   # Has magic file
 
 FILES:
@@ -154,6 +204,11 @@ BASIC:
   id: mwgithub-semanticexternalquerylookup
   label: Semantic External Query Lookup
   description: "{{Special:MyLanguage/MediaWiki:Seql-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticExternalQueryLookup/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -163,6 +218,11 @@ BASIC:
   id: mwgithub-semanticextraspecialproperties
   label: Semantic Extra Special Properties
   description: "{{Special:MyLanguage/MediaWiki:Sesp-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticExtraSpecialProperties/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -176,6 +236,11 @@ BASIC:
   id: mwgithub-semanticformsselect
   label: Semantic Forms Select
   description: "{{Special:MyLanguage/MediaWiki:sfs-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticFormsSelect/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -185,6 +250,11 @@ BASIC:
   id: mwgithub-semanticglossary
   label: Semantic Glossary
   description: "{{Special:MyLanguage/MediaWiki:Semanticglossary-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticGlossary/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -194,6 +264,11 @@ BASIC:
   id: mwgithub-semanticimagecaption
   label: Semantic Image Caption
   description: "{{Special:MyLanguage/MediaWiki:semantic-imagecaption-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticImageCaption/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -207,6 +282,11 @@ BASIC:
   id: mwgithub-semanticinterlanguagelinks
   label: Semantic Interlanguage Links
   description: "{{Special:MyLanguage/MediaWiki:Sil-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticInterlanguageLinks/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -220,6 +300,11 @@ BASIC:
   id: mwgithub-semanticmediawiki
   label: Semantic MediaWiki
   description: "{{Special:MyLanguage/MediaWiki:Smw-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticMediaWiki/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -260,6 +345,11 @@ BASIC:
   id: mwgithub-semanticmetatags
   label: Semantic Meta Tags
   description: "{{Special:MyLanguage/MediaWiki:Smt-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticMetaTags/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -273,6 +363,11 @@ BASIC:
   id: mwgithub-semanticresultformats
   label: Semantic Result Formats
   description: "{{Special:MyLanguage/MediaWiki:Srf-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticResultFormats/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -301,6 +396,11 @@ BASIC:
   id: mwgithub-semanticsignup
   label: Semantic Signup
   description: "{{Special:MyLanguage/MediaWiki:Ses-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticSignup/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -310,6 +410,11 @@ BASIC:
   id: mwgithub-semanticwatchlist
   label: Semantic Watchlist
   description: "{{Special:MyLanguage/MediaWiki:Semanticwatchlist-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticWatchlist/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -319,6 +424,11 @@ BASIC:
   id: mwgithub-semantictasks
   label: Semantic Tasks
   description: "{{Special:MyLanguage/MediaWiki:Semantictasks-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticTasks/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -328,6 +438,11 @@ BASIC:
   id: mwgithub-github
   label: GitHub
   description: "{{Special:MyLanguage/MediaWiki:Github-desc/en}}"
+  support:
+    url: https://github.com/JeroenDeDauw/GitHub/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -337,6 +452,11 @@ BASIC:
   id: mwgithub-maps
   label: Maps
   description: "{{Special:MyLanguage/MediaWiki:Maps-desc/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/Maps/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -359,6 +479,11 @@ BASIC:
   id: mwgithub-parserhooks
   label: Parser Hooks
   description: "{{Special:MyLanguage/MediaWiki:Parserhooks-desc/en}}"
+  support:
+    url: https://github.com/JeroenDeDauw/ParserHooks/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -368,6 +493,11 @@ BASIC:
   id: mwgithub-simplebatchupload
   label: SimpleBatchUpload
   description: "{{Special:MyLanguage/MediaWiki:Simplebatchupload-desc/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/SimpleBatchUpload/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -381,6 +511,11 @@ BASIC:
   id: mwgithub-subpagelist
   label: Sub Page List
   description: "{{Special:MyLanguage/MediaWiki:Subpagelist-desc/en}}"
+  support:
+    url: https://github.com/JeroenDeDauw/SubPageList/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -390,6 +525,11 @@ BASIC:
   id: mwgithub-validator
   label: Validator
   description: "{{Special:MyLanguage/MediaWiki:Validator-desc/en}}"
+  support:
+    url: https://github.com/JeroenDeDauw/Validator/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -403,6 +543,11 @@ BASIC:
   id: mwgithub-whatsnearby
   label: What's Nearby
   description: "{{Special:MyLanguage/MediaWiki:Wnby-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/WhatsNearby/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -412,6 +557,11 @@ BASIC:
   id: mwgithub-wikibaselocalmedia
   label: Wikibase Local Media
   description: "{{Special:MyLanguage/MediaWiki:Wblm-desc/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/WikibaseLocalMedia/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -425,6 +575,11 @@ BASIC:
   id: mwgithub-summarycards
   label: Summary Cards
   description: "{{Special:MyLanguage/MediaWiki:suc-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SummaryCards/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -434,6 +589,11 @@ BASIC:
   id: mwgithub-semanticscribunto
   label: Semantic Scribunto
   description: "{{Special:MyLanguage/MediaWiki:smw-scribunto-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticScribunto/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -444,6 +604,11 @@ BASIC:
   id: mwgithubskin-chameleon
   label: Chameleon
   description: "{{Special:MyLanguage/MediaWiki:Chameleon-desc/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/chameleon/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -454,6 +619,11 @@ BASIC:
   id: mwgithub-finnframenet
   label: FinnFrameNet
   description: "{{Special:MyLanguage/MediaWiki:Ffn-desc/en}}"
+  support:
+    url: https://github.com/Nikerabbit/mediawiki-extensions-FinnFrameNet/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -464,6 +634,11 @@ BASIC:
   id: mwgithub-bcmath
   label: BCmath
   description: "{{Special:MyLanguage/MediaWiki:bcmath-desc/en}}"
+  support:
+    url: https://github.com/jeblad/BCmath/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -474,6 +649,11 @@ BASIC:
   id: mwgithub-pickle
   label: Pickle
   description: "{{Special:MyLanguage/MediaWiki:pickle-desc/en}}"
+  support:
+    url: https://github.com/jeblad/Pickle/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -497,6 +677,11 @@ BASIC:
   id: mwgithub-expect
   label: Expect
   description: "{{Special:MyLanguage/MediaWiki:expect-desc/en}}"
+  support:
+    url: https://github.com/jeblad/Expect/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -507,6 +692,11 @@ BASIC:
   id: mwgithub-katsa
   label: Katsa
   description: "{{Special:MyLanguage/MediaWiki:katsa-desc/en}}"
+  support:
+    url: https://github.com/jeblad/Katsa/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -517,6 +707,11 @@ BASIC:
   id: mwgithub-moddoc
   label: ModDoc
   description: "{{Special:MyLanguage/MediaWiki:moddoc-desc/en}}"
+  support:
+    url: https://github.com/jeblad/ModDoc/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -527,6 +722,11 @@ BASIC:
   id: mwgithub-purge
   label: Purge
   description: "{{Special:MyLanguage/MediaWiki:purge-descriptionmsg/en}}"
+  support:
+    url: https://github.com/Hutchy68/Purge/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -543,6 +743,12 @@ BASIC:
   id: mwgithub-createwiki
   label: CreateWiki
   description: "{{Special:MyLanguage/MediaWiki:createwiki-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: createwiki
+      description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -557,6 +763,12 @@ BASIC:
   id: mwgithub-datadump
   label: DataDump
   description: "{{Special:MyLanguage/MediaWiki:datadump-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: datadump
+      description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -574,6 +786,12 @@ BASIC:
   id: mwgithub-globalnewfiles
   label: GlobalNewFiles
   description: "{{Special:MyLanguage/MediaWiki:globalnewfiles-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: globalnewfiles
+      description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -584,6 +802,12 @@ BASIC:
   id: mwgithub-managewiki
   label: ManageWiki
   description: "{{Special:MyLanguage/MediaWiki:managewiki-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: managewiki
+      description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -594,6 +818,12 @@ BASIC:
   id: mwgithub-matomoanalytics
   label: MatomoAnalytics
   description: "{{Special:MyLanguage/MediaWiki:Matomoanalytics-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: matomoanalytics
+      description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -611,6 +841,11 @@ BASIC:
   id: mwgithubskin-foreground
   label: Foreground
   description: "{{Special:MyLanguage/MediaWiki:foreground-desc/en}}"
+  support:
+    url: https://github.com/jthingelstad/foreground/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -621,6 +856,12 @@ BASIC:
   id: mwgithub-removepii
   label: RemovePII
   description: "{{Special:MyLanguage/MediaWiki:removepii-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: removepii
+      description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -631,6 +872,12 @@ BASIC:
   id: mwgithub-wikidiscover
   label: WikiDiscover
   description: "{{Special:MyLanguage/MediaWiki:Wikidiscover-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: wikidiscover
+      description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -641,6 +888,11 @@ BASIC:
   id: mwgithub-recordwizard
   label: Record Wizard - User interface
   description: "{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}"
+  support:
+    url: https://github.com/lingua-libre/RecordWizard/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -655,6 +907,11 @@ BASIC:
   id: mwgithub-recordwizard-api
   label: Record Wizard - API
   description: "{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}"
+  support:
+    url: https://github.com/lingua-libre/RecordWizard/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -665,6 +922,11 @@ BASIC:
   id: mwgithub-moderation
   label: Moderation
   description: "{{Special:MyLanguage/MediaWiki:Moderation-desc/en}}"
+  support:
+    url: https://github.com/edwardspec/mediawiki-moderation/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -748,6 +1010,12 @@ BASIC:
   id: mwgithub-incidentreporting
   label: IncidentReporting
   description: "{{Special:MyLanguage/MediaWiki:Incidentreporting-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: incidentreporting
+      description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -758,6 +1026,11 @@ BASIC:
   id: mwgithub-achievementbadges
   label: AchievementBadges
   description: "{{Special:MyLanguage/MediaWiki:achievementbadges-desc/en}}"
+  support:
+    url: https://github.com/femiwiki/AchievementBadges/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -768,6 +1041,11 @@ BASIC:
   id: mwgithubskin-bluellskin
   label: Blue LL
   description: "{{Special:MyLanguage/MediaWiki:bluell-desc/en}}"
+  support:
+    url: https://github.com/lingua-libre/BlueLL/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -781,6 +1059,11 @@ BASIC:
   id: mwgithub-facetedcategory
   label: FacetedCategory
   description: "{{Special:MyLanguage/MediaWiki:facetedcategory-desc/en}}"
+  support:
+    url: https://github.com/femiwiki/FacetedCategory/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -791,6 +1074,11 @@ BASIC:
   id: mwgithubskin-femiwikiskin
   label: Femiwiki Skin
   description: "{{Special:MyLanguage/MediaWiki:femiwiki-desc/en}}"
+  support:
+    url: https://github.com/femiwiki/FemiwikiSkin/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -808,6 +1096,11 @@ BASIC:
   id: mwgithub-sanctions
   label: Sanctions
   description: "{{Special:MyLanguage/MediaWiki:sanctions-desc/en}}"
+  support:
+    url: https://github.com/femiwiki/Sanctions/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -818,6 +1111,11 @@ BASIC:
   id: mwgithub-unifiedextensionforfemiwiki
   label: UnifiedExtensionForFemiwiki
   description: "{{Special:MyLanguage/MediaWiki:unifiedextensionforfemiwiki-desc/en}}"
+  support:
+    url: https://github.com/femiwiki/UnifiedExtensionForFemiwiki/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -828,6 +1126,11 @@ BASIC:
   id: mwgithub-discordnotifications
   label: DiscordNotifications
   description: "{{Special:MyLanguage/MediaWiki:discordnotifications-desc/en}}"
+  support:
+    url: https://github.com/kulttuuri/DiscordNotifications/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -838,6 +1141,11 @@ BASIC:
   id: mwgithub-lud
   label: Lüüdi
   description: "{{Special:MyLanguage/MediaWiki:sanat-lud-desc/en}}"
+  support:
+    url: https://github.com/Nikerabbit/mediawiki-extensions-Lud/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -849,6 +1157,11 @@ BASIC:
   label: Citizen
   description: "{{Special:MyLanguage/MediaWiki:citizen-desc/en}}"
   icon: wiki://Starcitizen-logo.svg
+  support:
+    url: https://github.com/StarCitizenTools/mediawiki-skins-Citizen/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -859,6 +1172,11 @@ BASIC:
   id: mwgithub-blockasn
   label: BlockASN
   description: "{{Special:MyLanguage/MediaWiki:blockasn-desc/en}}"
+  support:
+    url: https://github.com/SkizNet/mediawiki-BlockASN/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -869,6 +1187,11 @@ BASIC:
   id: mwgithub-debounce
   label: Debounce
   description: "{{Special:MyLanguage/MediaWiki:debounce-desc/en}}"
+  support:
+    url: https://github.com/SkizNet/mediawiki-Debounce/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -879,6 +1202,11 @@ BASIC:
   id: mwgithub-gtag
   label: GTag
   description: "{{Special:MyLanguage/MediaWiki:gtag-desc/en}}"
+  support:
+    url: https://github.com/SkizNet/mediawiki-GTag/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -912,6 +1240,12 @@ BASIC:
   id: mwgithubskin-onyx
   label: Onyx skin
   description: "{{Special:MyLanguage/MediaWiki:Onyx-skin-desc/en}}"
+  support:
+    url: https://github.com/Halopedia/Onyx/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Halopedia/Onyx/i18n/%CODE%.json"
@@ -921,6 +1255,11 @@ BASIC:
   id: mwgithub-edtf
   label: EDTF
   description: "{{Special:MyLanguage/MediaWiki:Edtf-description/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/EDTF/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -932,6 +1271,11 @@ BASIC:
   label: Short Description - Main
   icon: wiki://Shortdescription-icon-ltr.svg
   description: "{{Special:MyLanguage/MediaWiki:Shortdescription-desc/en}}"
+  support:
+    url: https://github.com/StarCitizenTools/mediawiki-extensions-ShortDescription/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -944,6 +1288,11 @@ BASIC:
   icon: wiki://Shortdescription-icon-ltr.svg
   # Use the same description as the extension
   description: "{{Special:MyLanguage/MediaWiki:Shortdescription-desc/en}}"
+  support:
+    url: https://github.com/StarCitizenTools/mediawiki-extensions-ShortDescription/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 MANGLER:
   class: StringMatcher
@@ -960,6 +1309,11 @@ BASIC:
   id: mwgithub-starcitizen-embedvideo
   label: EmbedVideo - StarCitizen
   description: "{{Special:MyLanguage/MediaWiki:Embedvideo-description/en}}"
+  support:
+    url: https://github.com/StarCitizenTools/mediawiki-extensions-EmbedVideo/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -975,6 +1329,11 @@ BASIC:
   id: mwgithub-pageviewinfoga
   label: PageViewInfoGA
   description: "{{Special:MyLanguage/MediaWiki:pageviewinfoga-desc/en}}"
+  support:
+    url: https://github.com/femiwiki/PageViewInfoGA/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -985,6 +1344,11 @@ BASIC:
   id: mwgithub-plausible
   label: Plausible
   description: "{{Special:MyLanguage/MediaWiki:ext-plausible-desc/en}}"
+  support:
+    url: https://github.com/octfx/mediawiki-extension-Plausible/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -996,6 +1360,11 @@ BASIC:
   label: Lakeus
   description: "{{Special:MyLanguage/MediaWiki:lakeus-skin-desc/en}}"
   icon: wiki://Lakeus-Logo.svg
+  support:
+    url: https://github.com/lakejason0/mediawiki-skins-Lakeus/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
