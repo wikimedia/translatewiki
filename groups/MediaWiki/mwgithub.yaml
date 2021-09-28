@@ -796,6 +796,9 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/FemiwikiSkin/i18n/%CODE%.json"
 
 TAGS:
+  optional:
+    - femiwiki.css
+    - femiwiki.js
   ignored:
     - skin-femiwiki-xeicon-map.json
 
