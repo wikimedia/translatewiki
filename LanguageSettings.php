@@ -49,7 +49,6 @@ $wgExtraLanguageNames['hak-hant'] = '客家語（繁體）'; # Hakka Chinese (Tr
 $wgExtraLanguageNames['hif-deva'] = 'फ़ीजी हिन्दी'; # Fiji Hindi (Devangari script) / Siebrand 2010-08-26
 $wgExtraLanguageNames['hne'] = 'छत्तीसगढ़ी'; # Amir 2011-12-01
 $wgExtraLanguageNames['hoc'] = '𑢹𑣉𑣉'; # Ho language. Amir 2017-07-09
-$wgExtraLanguageNames['hsn'] = '湘语'; # Xiang Chinese / Siebrand 2011-04-06
 $wgExtraLanguageNames['izh'] = 'ižoran keel'; # Ingrian / Robin 2012-11-17 / Language classified as not written in Ethnologue. Should be removed.
 $wgExtraLanguageNames['jdt-cyrl'] = 'жугьури'; # Judeo-Tat / Siebrand 2014-06-17
 $wgExtraLanguageNames['kac'] = 'Jinghpaw'; # Jingpho / Siebrand 2014-04-08

@@ -50,7 +50,6 @@ $wgTranslateLanguageFallbacks['hak-hans'] = [ 'hak-hant', 'hak', 'zh-hans' ];
 $wgTranslateLanguageFallbacks['hak-hant'] = [ 'hak-hans', 'hak', 'zh-hant' ];
 $wgTranslateLanguageFallbacks['hi'] = 'mr'; # Siebrand 2008-03-25
 $wgTranslateLanguageFallbacks['hif-deva'] = 'hi'; # Siebrand 2008-02-12
-$wgTranslateLanguageFallbacks['hsn'] = 'zh-hans';
 $wgTranslateLanguageFallbacks['hy'] = 'ru';
 $wgTranslateLanguageFallbacks['ia'] = [ 'fr', 'it', 'es', 'pt' ];
 $wgTranslateLanguageFallbacks['jdt-cyrl'] = 'ru';
