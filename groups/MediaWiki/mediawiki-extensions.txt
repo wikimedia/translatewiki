@@ -718,6 +718,7 @@ optional = chessbrowser-first-rank, chessbrowser-second-rank, chessbrowser-third
 optional = chessbrowser-fifth-rank, chessbrowser-sixth-rank, chessbrowser-seventh-rank, chessbrowser-eighth-rank
 optional = chessbrowser-a-file, chessbrowser-b-file, chessbrowser-c-file, chessbrowser-d-file
 optional = chessbrowser-e-file, chessbrowser-f-file, chessbrowser-g-file, chessbrowser-h-file
+optional = chessbrowser-occupied-black, chessbrowser-occupied-white
 
 Cirrus Search - User interface
 id = ext-cirrussearch-user
