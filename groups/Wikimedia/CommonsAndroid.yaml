@@ -4,6 +4,11 @@ TEMPLATE:
     icon: wiki://Commons-icon.svg
     namespace: NS_WIKIMEDIA
     class: FileBasedMessageGroup
+    support:
+      url: https://github.com/commons-app/apps-android-commons/issues/new
+      params:
+        title: Translation issue with message %MESSAGE%
+        body: "\n\nMessage definition: https://translatewiki.net/wiki/%MESSAGE%"
 
   FILES:
     class: AndroidXmlFFS
