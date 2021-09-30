@@ -4,7 +4,6 @@ set -o nounset -o pipefail -o errexit
 URL=$1
 DIR=$2
 BRANCH=${3:-master}
-UPSTREAM="origin/$BRANCH"
 COMMIT=${4:-origin/$BRANCH}
 FORGE=${5:-none}
 
@@ -19,21 +18,20 @@ then (
 	fi
 ) fi
 
-# Clone the repository if it's missing (will complain if non-git directory exists)
-if [ ! -d "$DIR/.git" ]
-then
-	git clone "$URL" "$DIR"
-fi
-
-# Ensure the wanted state in the repository
-cd "$DIR"
-git rebase --abort &>/dev/null || :
-git fetch -q
-git checkout -qft -B "$BRANCH" "$UPSTREAM"
-git reset -q --hard "$COMMIT"
-git clean -q -f -d &>/dev/null
+if [ -d "$DIR/.git" ]
+then (
+	cd "$DIR"
+	git rebase --abort &>/dev/null || :
+	git fetch -q
+	git checkout -qf "$BRANCH"
+	git reset -q --hard "$COMMIT"
+	git clean -q -f -d &>/dev/null
+) else (
+	git clone "$URL" "$DIR" -b "$BRANCH"
+)  fi
 
 # This configuration part is cheap, so run it every time to ensure it's up to date
+cd "$DIR"
 if [ "$FORGE" = 'wikimedia-gerrit' ]
 then
 	git config user.name 'Translation updater bot'

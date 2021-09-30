@@ -33,7 +33,6 @@ class CommitCommand extends Command {
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
 		$config = $this->getConfig( $project, $variant );
-		$defaultConfig = $this->getConfig( $project );
 		$message = self::MESSAGE;
 		$base = $this->getBase();
 
@@ -45,11 +44,9 @@ class CommitCommand extends Command {
 
 			if ( $genericType === 'git' ) {
 				$branch = $repo['branch'] ?? 'master';
-				$exportBranch = $defaultConfig['repos'][$name]['branch'] ?? 'master';
 
 				if ( $type === 'wmgerrit' ) {
-					$push = 'git review -t L10n';
-					$rebase = 'git rebase';
+					$push = 'git review -r origin -t L10n';
 				} elseif ( $repo['push-branch'] ?? $repo['pull-branch'] ?? false ) {
 					// This will use the default/source branch to base the commit on, and then push
 					// to a different remote branch. This is useful when for example, the project
@@ -60,15 +57,11 @@ class CommitCommand extends Command {
 					// Note: Do NOT use 'branch|export' and 'push-branch' or 'pull-branch' together.
 					$destBranch = $repo['push-branch'] ?? $repo['pull-branch'];
 					$push = "git push --force origin HEAD:'$destBranch'";
-					$rebase = 'git rebase';
-				} elseif ( $branch !== $exportBranch ) {
-					$push = "git push origin '$exportBranch'";
-					$rebase = "git rebase 'origin/$exportBranch'";
 				} else {
-					$push = 'git push';
-					$rebase = 'git rebase';
+					$push = "git push origin '$branch'";
 				}
 
+				$rebase = "git rebase 'origin/$branch'";
 				$command =
 					"cd '$name'; git add .; if ! git diff --cached --quiet; " .
 					"then git commit -m '$message'; $rebase && $push; fi";

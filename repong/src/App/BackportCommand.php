@@ -26,7 +26,6 @@ class BackportCommand extends Command {
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
 		$config = $this->getConfig( $project, $variant );
-		$defaultConfig = $this->getConfig( $project );
 		$base = $this->getBase();
 		$bindir = $this->bindir;
 		$backportBranch = $input->getOption( 'branch' );
@@ -39,10 +38,12 @@ class BackportCommand extends Command {
 
 		$processes = new SplObjectStorage();
 		foreach ( $config['repos'] as $name => $repo ) {
-			$repoDefaults = $defaultConfig['repos'][$name];
-			$problem = $this->checkBackportSupport( $repo, $repoDefaults );
-			if ( $problem ) {
-				throw new RuntimeException( "Unable to backport repository $name: $problem" );
+			$genericType = $this->getGenericRepositoryType( $repo['type'] );
+
+			if ( $genericType !== 'git' ) {
+				throw new RuntimeException(
+					"Backporting is not supported for type '$genericType' (repository $name)"
+				);
 			}
 
 			$state = "origin/$backportBranch";
@@ -70,24 +71,5 @@ class BackportCommand extends Command {
 		}
 
 		$this->runParallelWithOutput( $processes, $output );
-	}
-
-	private function checkBackportSupport( array $repo, array $repoDefaults ): ?string {
-		$genericType = $this->getGenericRepositoryType( $repo['type'] );
-		if ( $genericType !== 'git' ) {
-			return "Backporting is not supported for type '$genericType'";
-		}
-
-		if ( $repo['push-branch'] ?? $repo['pull-branch'] ?? false ) {
-			return 'Backporting is not supported with push-branch or pull-branch';
-		}
-
-		$targetBranch = $repo['branch'] ?? 'master';
-		$sourceBranch = $repoDefaults['branch'] ?? 'master';
-		if ( $targetBranch !== $sourceBranch ) {
-			return 'Backporting is not supported with divergent export branch';
-		}
-
-		return null;
 	}
 }
