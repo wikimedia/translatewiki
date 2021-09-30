@@ -8,7 +8,7 @@ TEMPLATE:
       url: https://github.com/commons-app/apps-android-commons/issues/new
       params:
         title: Translation issue with message %MESSAGE%
-        body: "\nMessage definition: [https://translatewiki.net/wiki/%MESSAGE%](<https://translatewiki.net/wiki/%MESSAGE%>)"
+        body: "\nMessage URL: %MESSAGE_URL%"
 
   FILES:
     class: AndroidXmlFFS

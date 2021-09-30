@@ -18,15 +18,15 @@ $lqtParams = [
 ];
 $phabParams = [
 	'title' => '[[%MESSAGE%]] translation issue',
-	'description' => "\n\n----\n\n**URL**: [[https://translatewiki.net/wiki/%MESSAGE%]]",
+	'description' => "\n\n----\n\n**Message URL**: %MESSAGE_URL%",
 ];
 $githubParams = [
 	'title' => '[[%MESSAGE%]] i18n issue',
-	'body' => "[**URL**](https://translatewiki.net/wiki/%MESSAGE%)",
+	'body' => "\nMessage URL: %MESSAGE_URL%",
 ];
 $gitlabParams = [
 	'issue[title]' => '[[%MESSAGE%]] i18n issue',
-	'issue[description]' => "[**URL**](https://translatewiki.net/wiki/%MESSAGE%)",
+	'issue[description]' => "\nMessage URL: %MESSAGE_URL%",
 ];
 
 $phabUrl = 'https://phabricator.wikimedia.org/maniphest/task/edit/form/1/';

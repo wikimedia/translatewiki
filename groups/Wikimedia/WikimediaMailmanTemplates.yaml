@@ -10,7 +10,7 @@ BASIC:
     params:
       projects: i18n,Wikimedia-Mailing-lists
       title: Translation issue about message %MESSAGE%
-      description: "\n\n----\n\n**URL**: [[https://translatewiki.net/wiki/%MESSAGE%]]"
+      description: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
