@@ -1666,7 +1666,7 @@ file = intersection/i18n/%CODE%.json
 
 Interwiki
 aliasfile = Interwiki/Interwiki.alias.php
-optional = interwiki_url, interwiki-url-label
+optional = interwiki_url, interwiki-url-label, interwiki-api-label
 ignored = interwiki-defaulturl, logentry-interwiki-interwiki, interwiki-legend
 ignored = interwiki-description
 
