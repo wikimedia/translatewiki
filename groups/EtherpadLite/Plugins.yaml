@@ -165,3 +165,19 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/ether/ep_image_upload/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_embedmedia
+  label: Etherpad lite plugin Embed Media
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_embedmedia/locales/%CODE%.json"
+
+---
+BASIC:
+  id: etherpad-lite-plugin-ep_comments_page
+  label: Etherpad lite plugin Comments and annotations
+
+FILES:
+  sourcePattern: "%GROUPROOT%/ether/ep_comments_page/locales/%CODE%.json"

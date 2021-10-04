@@ -118,11 +118,21 @@ etherpad-lite:
       branch: main
       url: https://github.com/ether/ep_author_hover.git
       url|export: git@github.com:ether/ep_author_hover.git
+    ether/ep_comments_page:
+      type: github
+      branch: main
+      url: https://github.com/ether/ep_comments_page.git
+      url|export: git@github.com:ether/ep_comments_page.git
     ether/ep_desktop_notifications:
       type: github
       branch: main
       url: https://github.com/ether/ep_desktop_notifications.git
       url|export: git@github.com:ether/ep_desktop_notifications.git
+    ether/ep_embedmedia:
+      type: github
+      branch: master
+      url: https://github.com/ether/ep_embedmedia.git
+      url|export: git@github.com:ether/ep_embedmedia.git
     ether/ep_font_color:
       type: github
       branch: main
