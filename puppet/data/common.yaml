@@ -125,6 +125,8 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/OATHAuth
   workdir/extensions/OAuth:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/OAuth
+  workdir/extensions/PageForms:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/PageForms
   workdir/extensions/ParserFunctions:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions
   workdir/extensions/PoolCounter:
