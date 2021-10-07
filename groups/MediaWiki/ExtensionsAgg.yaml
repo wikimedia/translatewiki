@@ -432,14 +432,6 @@ GROUPS:
 
 ---
 BASIC:
-  id: ext-parsoidbatchapi
-  label: ParsoidBatchAPI
-  description: '{{Special:MyLanguage/MediaWiki:Parsoidbatchapi-desc/en}}'
-GROUPS:
-  - ext-parsoidbatchapi-*
-
----
-BASIC:
   id: ext-proofreadpage
   label: ProofreadPage
   description: '{{Special:MyLanguage/MediaWiki:Proofreadpage_desc/en}}'
