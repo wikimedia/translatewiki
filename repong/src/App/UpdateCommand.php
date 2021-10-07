@@ -17,18 +17,24 @@ class UpdateCommand extends Command {
 		$this->setDescription( 'Updates repositories from upstream' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
+		$this->addOption( 'filter', null, InputOption::VALUE_REQUIRED );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
 		$this->parallelism = min( self::MAX_CONNECTIONS, $this->parallelism );
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
+		$filter = $input->getOption( 'filter' );
 		$config = $this->getConfig( $project, $variant );
 		$base = $this->getBase();
 		$bindir = $this->bindir;
 
 		$processes = new SplObjectStorage();
 		foreach ( $config['repos'] as $name => $repo ) {
+			if ( $filter !== null && !fnmatch( $filter, $name ) ) {
+				continue;
+			}
+
 			$genericType = $this->getGenericRepositoryType( $repo['type'] );
 			$branch = $repo['branch'] ?? 'master';
 

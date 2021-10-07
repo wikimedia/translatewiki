@@ -17,18 +17,20 @@ class BackportCommand extends Command {
 		$this->setName( 'backport' );
 		$this->setDescription( 'Backports updates to other branches' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
-		$this->addOption( 'variant', null, InputOption::VALUE_OPTIONAL );
-		$this->addOption( 'branch', null, InputOption::VALUE_REQUIRED );
+		$this->addArgument( 'branch', InputArgument::REQUIRED );
+		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
+		$this->addOption( 'filter', null, InputOption::VALUE_REQUIRED );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
 		$this->parallelism = min( self::MAX_CONNECTIONS, $this->parallelism );
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
+		$filter = $input->getOption( 'filter' );
 		$config = $this->getConfig( $project, $variant );
 		$base = $this->getBase();
 		$bindir = $this->bindir;
-		$backportBranch = $input->getOption( 'branch' );
+		$backportBranch = $input->getArgument( 'branch' );
 
 		$meta = $this->getConfig( '@meta', $variant );
 		$stateDir = $meta[ 'state-directory' ] ?? false;
@@ -38,6 +40,10 @@ class BackportCommand extends Command {
 
 		$processes = new SplObjectStorage();
 		foreach ( $config['repos'] as $name => $repo ) {
+			if ( $filter !== null && !fnmatch( $filter, $name ) ) {
+				continue;
+			}
+
 			$genericType = $this->getGenericRepositoryType( $repo['type'] );
 
 			if ( $genericType !== 'git' ) {

@@ -5,12 +5,13 @@ set -o nounset -o pipefail -o errexit
 
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 
-# Second parameter can be a pattern to restrict groups
-PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -P "^${2:-.*}$")
-
 COMMAND=${1:-status}
 
 case "$COMMAND" in
+purge|list-projects)
+  php "$DIRSCRIPT/../repong/repong.php" "$COMMAND" "${@:2}"
+  exit
+  ;;
 update|commit|backport)
 	WRAPPER="$DIRSCRIPT/l10n-bot"
 	export GIT_SSH="$DIRSCRIPT/git-ssh-wrapper"
@@ -20,6 +21,10 @@ update|commit|backport)
 	WRAPPER=""
 	;;
 esac
+
+# Second parameter can be a pattern to restrict groups
+PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -P "^${2:-.*}$")
+
 
 _b=$(tput bold)
 b_=$(tput sgr0)

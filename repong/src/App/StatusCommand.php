@@ -17,17 +17,23 @@ class StatusCommand extends Command {
 		$this->setDescription( 'Shows repository status' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
+		$this->addOption( 'filter', null, InputOption::VALUE_REQUIRED );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
+		$filter = $input->getOption( 'filter' );
 		$config = $this->getConfig( $project, $variant );
 		$base = $this->getBase();
 
 		$processes = new SplObjectStorage();
 
 		foreach ( $config['repos'] as $name => $repo ) {
+			if ( $filter !== null && !fnmatch( $filter, $name ) ) {
+				continue;
+			}
+
 			$type = $repo['type'];
 			$genericType = $this->getGenericRepositoryType( $repo['type'] );
 

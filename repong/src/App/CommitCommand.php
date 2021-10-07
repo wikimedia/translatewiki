@@ -26,12 +26,14 @@ class CommitCommand extends Command {
 		$this->setDescription( 'Creates commits and pushes them to upstream' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
+		$this->addOption( 'filter', null, InputOption::VALUE_REQUIRED );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
 		$this->parallelism = min( self::MAX_CONNECTIONS, $this->parallelism );
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
+		$filter = $input->getOption( 'filter' );
 		$config = $this->getConfig( $project, $variant );
 		$message = self::MESSAGE;
 		$base = $this->getBase();
@@ -39,6 +41,10 @@ class CommitCommand extends Command {
 		$processes = new SplObjectStorage();
 
 		foreach ( $config['repos'] as $name => $repo ) {
+			if ( $filter !== null && !fnmatch( $filter, $name ) ) {
+				continue;
+			}
+
 			$type = $repo['type'];
 			$genericType = $this->getGenericRepositoryType( $type );
 
