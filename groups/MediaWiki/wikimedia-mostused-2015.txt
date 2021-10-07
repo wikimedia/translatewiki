@@ -503,7 +503,6 @@ specialloguserlabel
 mergelog
 permissionserrors
 revdelete-content-hid
-randomrootpage
 redirect
 recreate-moveddeleted-warn
 diff-multi-otherusers
