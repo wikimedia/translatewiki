@@ -972,8 +972,8 @@ Description2
 
 # Device Map Log Capture : Proof of Concept only. Extension page on mw.o does not exist
 
-Diagnosis
-aliasfile = Diagnosis/Diagnosis.i18n.alias.php
+# Diagnosis // No FOSS license
+# aliasfile = Diagnosis/Diagnosis.i18n.alias.php
 
 Did You Know
 
