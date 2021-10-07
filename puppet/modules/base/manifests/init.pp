@@ -14,6 +14,7 @@ class base (
     'apticron', # Daily message about available updates to root
     'bash-completion',
     'colorized-logs', # For execute-and-notify script
+    'curl',
     'git',
     'htop',
     'iftop',
