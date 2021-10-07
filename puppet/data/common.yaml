@@ -95,8 +95,6 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CirrusSearch
   workdir/extensions/CleanChanges:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CleanChanges
-  workdir/extensions/ContributionScores:
-    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ContributionScores
   workdir/extensions/DeleteBatch:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/DeleteBatch
   workdir/extensions/Echo:

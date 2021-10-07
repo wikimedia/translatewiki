@@ -86,9 +86,6 @@ wfLoadExtension( 'NewUserMessage' );
 $wgNewUserSuppressRC = true;
 $wgNewUserMinorEdit = false;
 
-wfLoadExtension( 'ContributionScores' );
-$wgContribScoreIgnoreBots = true;
-
 wfLoadExtension( 'Babel' );
 $wgBabelCategoryNames = [
 	'0' => 'User_%code%-0',
