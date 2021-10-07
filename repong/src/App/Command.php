@@ -12,7 +12,7 @@ use Symfony\Component\Process\Exception\ProcessTimedOutException;
 use Symfony\Component\Process\Process;
 
 abstract class Command extends SymfonyCommand {
-	const MAX_CONNECTIONS = 4;
+	protected const MAX_CONNECTIONS = 4;
 
 	protected $bindir;
 	protected $config;
@@ -41,7 +41,7 @@ abstract class Command extends SymfonyCommand {
 
 		$cores = preg_match_all( '/^processor/m', file_get_contents( '/proc/cpuinfo' ) );
 		if ( $cores ) {
-			$this->parallelism = (int)$cores;
+			$this->parallelism = $cores;
 		}
 
 		$variantFile = "$base/REPONG-VARIANT";
@@ -50,11 +50,11 @@ abstract class Command extends SymfonyCommand {
 		}
 	}
 
-	protected function getBase() {
+	protected function getBase(): ?string {
 		return $this->base;
 	}
 
-	protected function findBase( $configName ) {
+	protected function findBase( $configName ): ?string {
 		$path = getcwd();
 		if ( $path === false ) {
 			return null;
@@ -128,7 +128,7 @@ abstract class Command extends SymfonyCommand {
 		return $replacer( $config );
 	}
 
-	protected function buildCommandline( $command, $options ) {
+	protected function buildCommandline( $command, $options ): string {
 		$str = $command;
 		foreach ( $options as $key => $value ) {
 			if ( $value !== null ) {
@@ -215,7 +215,7 @@ abstract class Command extends SymfonyCommand {
 		} while ( count( $queue ) > 0 || $running !== [] );
 	}
 
-	private static function getNextExecutableProcessIndex( $queue ) {
+	private static function getNextExecutableProcessIndex( $queue ): array {
 		foreach ( $queue as $process ) {
 			$dependency = $queue[ $process ];
 			if ( $dependency === null ) {
