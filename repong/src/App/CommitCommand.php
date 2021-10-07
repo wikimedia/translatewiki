@@ -66,16 +66,9 @@ class CommitCommand extends Command {
 					"cd '$name'; git add .; if ! git diff --cached --quiet; " .
 					"then git commit -m '$message'; $rebase && $push; fi";
 			} elseif ( $type === 'svn' ) {
-				$extra = '';
-				if ( isset( $repo['svn-add-options'] ) ) {
-					foreach ( (array)$repo['svn-add-options'] as $option ) {
-						$extra .= " --config-option '$option'";
-					}
-				}
-
 				$command =
 					"cd '$name'; " .
-					"svn add --force * --auto-props --parents --depth infinity -q$extra; " .
+					"svn add --force * --auto-props --parents --depth infinity -q; " .
 					"svn commit --message '$message'";
 			} elseif ( $type === 'bzr' ) {
 				$command = "cd '$name'; bzr add .;bzr commit -m '$message'";

@@ -80,8 +80,6 @@ definitions:
         type: string
       "^push-branch(\\|[a-z]+)?$":
         type: string
-      "^svn-add-options(\\|[a-z]+)?$":
-        type: string
 
 type: object
 required:
@@ -93,4 +91,3 @@ properties:
 patternProperties:
   "^[a-zA-Z0-9-.]+$":
     $ref: "#/definitions/project"
-
