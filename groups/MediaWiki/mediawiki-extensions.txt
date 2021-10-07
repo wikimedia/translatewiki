@@ -897,9 +897,9 @@ file = ContentTranslation/i18n/api/%CODE%.json
 
 Contribution Credits
 
-Contribution Scores
-aliasfile = ContributionScores/ContributionScores.alias.php
-optional = score-visualeditor-mwscoreinspector-card-midi
+# Contribution Scores // No FOSS license
+# aliasfile = ContributionScores/ContributionScores.alias.php
+# optional = score-visualeditor-mwscoreinspector-card-midi
 
 # Contribution Tracking // T253057 - functionality merged into DonationInterface
 
