@@ -993,3 +993,22 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/lakejason0/mediawiki-skins-Lakeus/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-discordrcfeed
+  label: DiscordRCFeed
+  description: "{{Special:MyLanguage/MediaWiki:discordrcfeed-desc/en}}"
+  support:
+    url: https://github.com/femiwiki/DiscordRCFeed/issues/new
+    params:
+      title: "[[%MESSAGE%]] i18n issue"
+      body: "[https://translatewiki.net/wiki/%MESSAGE%](<https://translatewiki.net/wiki/%MESSAGE%>)"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/DiscordRCFeed/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - discordrcfeed-emoji-*
