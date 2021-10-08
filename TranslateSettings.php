@@ -503,7 +503,7 @@ $wgCapitalLinkOverrides[NS_WIKIDOCUMENTARIES] = false;
 $wgCapitalLinkOverrides[NS_WIKIDOCUMENTARIES_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/Wikidocumentaries/Wikidocumentaries.yaml";
 $wgTranslateSupportUrlNamespace[NS_WIKIDOCUMENTARIES] = [
-	'url' => 'https://github.com/Wikidocumentaries/wikidocumentaries-ui/new',
+	'url' => 'https://github.com/Wikidocumentaries/wikidocumentaries-ui/issues/new',
 	'params' => $githubParams,
 ];
 
