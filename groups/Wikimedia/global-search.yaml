@@ -21,6 +21,7 @@ TAGS:
     - global-search-csv
     - global-search-json
     - global-search-tsv
+    - global-search-markdown
 
 VALIDATORS:
   - id: BraceBalance
