@@ -974,8 +974,8 @@ wikimedia-misc-tools:
       url|export: git@github.com:eggpi/citationhunt.git
     global-search:
       type: github
-      url: https://github.com/MusikAnimal/global-search
-      url|export: git@github.com:MusikAnimal/global-search.git
+      url: https://github.com/wikimedia/tools-global-search
+      url|export: git@github.com:wikimedia/tools-global-search.git
     internetarchivebot:
       type: github
       url: https://github.com/internetarchive/internetarchivebot.git
