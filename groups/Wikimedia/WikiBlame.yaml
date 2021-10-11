@@ -18,7 +18,7 @@ VALIDATORS:
   - id: InsertableRegex
     enforce: true
     insertable: true
-    keymatch:
+    include:
       - messages\x5b'date_format'\x5d
     params: /YYYY|MM|DD/
 

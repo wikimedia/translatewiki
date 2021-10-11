@@ -10,7 +10,7 @@ TEMPLATE:
     - id: MediaWikiParameter
     - id: MediaWikiPlural
     - id: MediaWikiTimeList
-      keymatch:
+      include:
         - ipboptions
         - protect-expiry-options
         - userrights-expiry-options

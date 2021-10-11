@@ -48,7 +48,7 @@ VALIDATORS:
     insertable: true
   - id: MatchSet
     enforce: true
-    keymatch:
+    include:
       - html.dir
     params:
       values:
