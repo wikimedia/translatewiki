@@ -3026,9 +3026,6 @@ Theme
 The Wikipedia Library
 optional = thewikipedialibrary
 
-THICC
-optional = thicc-displayname
-
 Throttle Override
 aliasfile = ThrottleOverride/ThrottleOverride.i18n.alias.php
 
