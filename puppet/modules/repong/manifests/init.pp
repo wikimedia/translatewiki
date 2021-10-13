@@ -31,7 +31,8 @@ class repong (
 
   file { "${import_dir}/sync.lock":
     ensure  => 'file',
-    content =>'',
+    content => '',
+    replace => 'no',
     owner   => $repo_user,
     mode    => 'ugo+rw',
   }
