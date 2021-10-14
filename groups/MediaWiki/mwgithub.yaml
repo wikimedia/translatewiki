@@ -254,6 +254,7 @@ TAGS:
     - smw-helplink-concepts
     - smw-helplink
     - smw-schema-type-help-link
+    - smw-parse
 ---
 BASIC:
   id: mwgithub-semanticmetatags
