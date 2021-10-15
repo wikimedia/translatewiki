@@ -58,7 +58,6 @@ $wgExtraLanguageNames['kip'] = 'शेषी पाङ'; # Amir 2017-08-13
 $wgExtraLanguageNames['kjh'] = 'хакас'; # Khakas / Amire80 2014-06-17
 $wgExtraLanguageNames['knn'] = 'महाराष्ट्रीय कोंकणी'; # Maharashtrian Konkani / 2015-XX-XX
 $wgExtraLanguageNames['ksf'] = 'Bafia'; # Robin 2011-10-21
-$wgExtraLanguageNames['ksw'] = 'စှီၤ ကညီကျိာ်'; # Sgaw Karen / Amir 2019-01-19
 $wgExtraLanguageNames['lag'] = 'Kilaangi'; # Rangi / Amir 2017-05-03
 $wgExtraLanguageNames['lad-hebr'] = 'לאדינו'; # Ladino in Hebrew script / Amir 2020-04-17
 $wgExtraLanguageNames['lou'] = 'kréyol la lwizyàn'; # Louisiana Creole / Amir 2020-03-25
