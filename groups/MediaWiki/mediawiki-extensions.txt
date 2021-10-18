@@ -3233,8 +3233,6 @@ file = UploadWizard/i18n/api/%CODE%.json
 
 Uploads Link
 
-UR Names
-
 Url Get Parameters
 
 Url Shortener - User interface
