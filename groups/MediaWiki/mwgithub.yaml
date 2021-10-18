@@ -945,6 +945,12 @@ BASIC:
   # Use the same description as the extension
   description: "{{Special:MyLanguage/MediaWiki:Shortdescription-desc/en}}"
 
+MANGLER:
+  class: StringMatcher
+  prefix: mwgithub-shortdescription-api-
+  patterns:
+    - apihelp-query+description-* # Conflicts with WikiBase
+
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-ShortDescription/i18n/api/%CODE%.json"
