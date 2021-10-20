@@ -38,7 +38,7 @@ $wgDevelopmentWarnings = true;
 $wgPageLanguageUseDB = true;
 $wgLegacyJavaScriptGlobals = false;
 
-$wgDeprecationReleaseLimit = '1.37';
+$wgDeprecationReleaseLimit = false;
 
 /**
  * Unsorted
