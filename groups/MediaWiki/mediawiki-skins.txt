@@ -64,7 +64,6 @@ ignored = metrolook-tiles, metrolook-tiles-second
 optional = metrolook.css, metrolook.js
 
 MinervaNeue
-ignored = mobile-frontend-sitename
 optional = skinname-minerva, minerva.css, minerva.js
 
 Mirage
