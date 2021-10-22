@@ -1807,7 +1807,6 @@ Link Suggest 2
 Link Target
 
 Linked Wiki
-ignored = linkedwiki-test
 optional = linkedwiki-date
 
 Linter - User interface
