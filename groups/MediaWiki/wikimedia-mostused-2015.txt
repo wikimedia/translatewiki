@@ -189,7 +189,6 @@ blocklink
 editlink
 pfunc_expr_unrecognised_word
 recentchangeslinked-summary
-right-writeapi
 file-info-size
 nstab-category
 show-big-image-preview
@@ -277,7 +276,6 @@ fancycaptcha-accountcreate
 filedesc
 searchmenu-new
 newpage
-maintenance
 subcategories
 login
 create-local
