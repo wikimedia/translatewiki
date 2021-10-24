@@ -31,6 +31,7 @@ Cosmos
 ignored = cosmos-custom-rail-module, cosmos-custom-sticky-rail-module, cosmos-tagline
 ignored = cosmos-navigation
 optional = skinname-cosmos, cosmos.css, cosmos.js
+optional = cosmos-article-header-categories-more-separator
 
 Desk Mess Mirrored
 
