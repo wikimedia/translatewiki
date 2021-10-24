@@ -1378,8 +1378,8 @@ BASIC:
   support:
     url: https://github.com/femiwiki/DiscordRCFeed/issues/new
     params:
-      title: "[[%MESSAGE%]] i18n issue"
-      body: "[https://translatewiki.net/wiki/%MESSAGE%](<https://translatewiki.net/wiki/%MESSAGE%>)"
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
@@ -1403,4 +1403,3 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-MediaWikiAuth/i18n/%CODE%.json"
-
