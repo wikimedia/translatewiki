@@ -1,0 +1,25 @@
+#!/bin/bash
+set -o nounset -o pipefail -o errexit
+
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
+. /etc/wikisettings
+# shellcheck source=bin/synclock
+. "$DIRSCRIPT/synclock"
+
+cd "$AUTOEXPORT_DIR"
+
+BRANCH=$1
+PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list-projects | grep ^mediawiki)
+
+_b=$(tput bold)
+b_=$(tput sgr0)
+
+for i in $PROJECTS; do
+	echo "${_b}$i${b_}"
+	{
+		sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" backport "$i" "$BRANCH" &&
+		sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" commit "$i" --backport-branch "$BRANCH"
+	} || :
+done
+
+echo "Check https://gerrit.wikimedia.org/r/q/owner:L10n-bot+status:open for patches needing manual review"

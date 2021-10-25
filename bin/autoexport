@@ -27,9 +27,9 @@ b_=$(tput sgr0)
 for i in $PROJECTS; do
 	echo "${_b}$i${b_}"
 	{
-		sudo -u "$L10NBOTUSER" "$DIRSCRIPT/l10n-bot" "$DIRSCRIPT/repoupdate" "$i" &&
-		sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repoexport" "$i" &&
-		sudo -u "$L10NBOTUSER" "$DIRSCRIPT/l10n-bot" "$DIRSCRIPT/repocommit" "$i"
+		sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" update "$i" &&
+		sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" export "$i" &&
+		sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" commit "$i"
 	} || :
 done
 

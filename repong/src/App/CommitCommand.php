@@ -27,6 +27,13 @@ class CommitCommand extends Command {
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
 		$this->addOption( 'filter', null, InputOption::VALUE_REQUIRED );
+		$this->addOption(
+			'backport-branch',
+			null,
+			InputOption::VALUE_REQUIRED,
+			'Override the default export branch for translation backports. ' .
+				'This can make a mess if you accidentally push wrong content to wrong branch'
+		);
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
@@ -35,6 +42,7 @@ class CommitCommand extends Command {
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
 		$filter = $input->getOption( 'filter' );
 		$config = $this->getConfig( $project, $variant );
+		$backportBranch = $input->getOption( 'backport-branch' );
 		$message = self::MESSAGE;
 		$base = $this->getBase();
 
@@ -49,11 +57,17 @@ class CommitCommand extends Command {
 			$genericType = $this->getGenericRepositoryType( $type );
 
 			if ( $genericType === 'git' ) {
-				$branch = $repo['branch'] ?? 'master';
+				$branch = $backportBranch ?? $repo['branch'] ?? 'master';
 
 				if ( $type === 'wmgerrit' ) {
-					$push = 'git review -r origin -t L10n';
+					$push = "git review -r origin -t L10n '$branch'";
 				} elseif ( $repo['push-branch'] ?? $repo['pull-branch'] ?? false ) {
+					if ( $backportBranch !== null ) {
+						throw new RuntimeException(
+							'Backport committing is not supported when using push-branch or pull-branch'
+						);
+					}
+
 					// This will use the default/source branch to base the commit on, and then push
 					// to a different remote branch. This is useful when for example, the project
 					// uses a pull-request model to review the commit.
@@ -72,11 +86,18 @@ class CommitCommand extends Command {
 					"cd '$name'; git add .; if ! git diff --cached --quiet; " .
 					"then git commit -m '$message'; $rebase && $push; fi";
 			} elseif ( $type === 'svn' ) {
+				if ( $backportBranch !== null ) {
+					throw new RuntimeException( 'Backport committing is not supported for subversion' );
+				}
+
 				$command =
 					"cd '$name'; " .
 					"svn add --force * --auto-props --parents --depth infinity -q; " .
 					"svn commit --message '$message'";
 			} elseif ( $type === 'bzr' ) {
+				if ( $backportBranch !== null ) {
+					throw new RuntimeException( 'Backport committing is not supported for Bazaar' );
+				}
 				$command = "cd '$name'; bzr add .;bzr commit -m '$message'";
 			} else {
 				throw new RuntimeException( "Unknown repo type '$type' for repository: $name" );
