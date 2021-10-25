@@ -207,3 +207,6 @@ wfLoadExtension( 'CheckUser' );
 $wgCheckUserLogLogins = true;
 
 wfLoadExtension( 'Maps' );
+
+wfLoadExtension( 'CodeEditor' );
+$wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEditor extension
