@@ -272,6 +272,7 @@ id = ext-bs-validator
 Blue Spice About
 descmsg = bs-bluespiceabout-desc
 aliasfile = BlueSpiceAbout/includes/specials/SpecialBlueSpiceAbout.alias.php
+ignored = bs-bluespiceabout-about-bluespice-page
 
 Blue Spice Article Info
 descmsg = bs-articleinfo-desc
@@ -327,6 +328,7 @@ aliasfile = BlueSpiceDashboards/languages/Dashboards.alias.php
 
 Blue Spice Distribution Connector
 descmsg = bs-distributionconnector-extension-description
+ignored = bs-sandbox-page, bs-helpdesk-page, bs-support-page
 
 Blue Spice Echo Connector
 descmsg = bs-echoconnector-extension-description
