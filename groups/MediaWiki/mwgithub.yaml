@@ -1025,13 +1025,13 @@ BASIC:
   id: mwgithub-mediawiki-auth
   label: MediaWiki Auth
   description: "{{Special:MyLanguage/MediaWiki:mwa-desc/en}}"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-MediaWikiAuth/i18n/%CODE%.json"
   support:
     url: https://github.com/SkizNet/mediawiki-MediaWikiAuth/issues/new
     params:
       title: Translation issue with message %MESSAGE%
       body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-MediaWikiAuth/i18n/%CODE%.json"
 
