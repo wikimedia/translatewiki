@@ -15,7 +15,6 @@ $wgExtraLanguageNames['bft'] = 'بلتی'; # Balti / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['bfq'] = 'படகா'; # UBadaga / Siebrand 2009-11-19
 $wgExtraLanguageNames['bkm'] = 'Itaŋikom'; # Kom / Amir 2021-03-31
 $wgExtraLanguageNames['blc'] = 'ItNuxalkmc'; # Nuxalk / Amir 2020-06-22
-$wgExtraLanguageNames['blk'] = 'ပအိုဝ်ႏဘာႏသာႏ'; # Pa'O / Amir 2021-09-22
 $wgExtraLanguageNames['brx'] = 'बर\''; # Boro / Siebrand 2017-05-20
 $wgExtraLanguageNames['bzj'] = 'Bileez Kriol'; # Belizean Creole / Amir 2021-03-29
 $wgExtraLanguageNames['cak'] = 'Kaqchikel'; # Kaqchikel / Nikerabbit 2018-06-15
