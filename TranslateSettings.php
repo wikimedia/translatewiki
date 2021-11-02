@@ -473,7 +473,7 @@ $wgCapitalLinkOverrides[NS_DISSEMIN] = false;
 $wgCapitalLinkOverrides[NS_DISSEMIN_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/Dissemin/Dissemin.yaml";
 $wgTranslateSupportUrlNamespace[NS_DISSEMIN] = [
-	'url' => 'https://gitlab.com/dissemin/dissemin/-/issues',
+	'url' => 'https://gitlab.com/dissemin/dissemin/-/issues/new',
 	'params' => $gitlabParams,
 ];
 
