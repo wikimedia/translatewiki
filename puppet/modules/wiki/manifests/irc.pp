@@ -2,7 +2,10 @@
 #
 # Configures various IRC related wiki stuff
 #
-class wiki::irc {
+class wiki::irc (
+  String $config_dir,
+  String $maintenance_user,
+) {
   $packages = [
     # irc bots
     'libpoe-component-irc-perl',
@@ -16,7 +19,7 @@ class wiki::irc {
   }
 
   file { '/etc/systemd/system/irc-log-relay.service':
-    source => 'puppet:///modules/wiki/irc-log-relay.service',
+    content => template('wiki/irc-log-relay.service.erb'),
   }
 
   service { 'irc-log-relay':
@@ -33,7 +36,7 @@ class wiki::irc {
   }
 
   file { '/etc/systemd/system/irc-rc-relay.service':
-    source => 'puppet:///modules/wiki/irc-rc-relay.service',
+    content => template('wiki/irc-rc-relay.service.erb'),
   }
 
   service { 'irc-rc-relay':

@@ -59,6 +59,9 @@ wiki::docroot::domain: "%{alias('wiki::domain')}"
 wiki::docroot::production_dir: "%{alias('wiki::production_dir')}"
 wiki::docroot::maintenance_user: "%{alias('maintenance_user')}"
 
+wiki::irc::config_dir: "%{alias('wiki::config_dir')}"
+wiki::irc::maintenance_user: "%{alias('maintenance_user')}"
+
 wiki::stats::config_dir: "%{alias('wiki::config_dir')}"
 wiki::stats::maintenance_user: "%{alias('maintenance_user')}"
 
