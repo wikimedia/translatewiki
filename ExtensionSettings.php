@@ -86,6 +86,10 @@ wfLoadExtension( 'NewUserMessage' );
 $wgNewUserSuppressRC = true;
 $wgNewUserMinorEdit = false;
 
+wfLoadExtension( 'WebChat' );
+$wgWebChatClient = 'LiberaChat';
+$wgWebChatChannel = '#translatewiki';
+
 wfLoadExtension( 'Babel' );
 $wgBabelCategoryNames = [
 	'0' => 'User_%code%-0',
