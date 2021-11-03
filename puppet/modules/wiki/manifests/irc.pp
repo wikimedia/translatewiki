@@ -14,6 +14,10 @@ class wiki::irc (
     ensure => 'present',
   })
 
+  file { '/etc/irc-relay':
+    ensure => 'directory',
+  }
+
   file { '/etc/irc-relay/irc-log-relay.env':
     content => template('wiki/irc-log-relay.env.erb'),
   }

@@ -14,6 +14,7 @@ for my $var (@vars) {
 my $nickname = $ENV{'IRC_NICK'};
 my $ircname = $ENV{'IRC_NAME'};
 my $relayport = $ENV{'IRC_RELAY_PORT'};
+my $messagetype = $ENV{'IRC_MESSAGE_TYPE'};
 
 my $debug = 0;
 my $spam = 0;
@@ -87,7 +88,7 @@ sub server_read {
 	my $servers = $heap->{senders};
 	foreach my $alias (keys %{$servers}) {
 		my @channels = @{ $heap->{config}->{$alias}->{channels} };
-		$kernel->post( $alias => notice => $_ => $message ) for @channels;
+		$kernel->post( $alias => $messagetype => $_ => $message ) for @channels;
 	}
 }
 
@@ -138,4 +139,3 @@ sub _default {
 	print STDOUT join ' ', @output, "\n";
 	return 0;
 }
-
