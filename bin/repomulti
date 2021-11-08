@@ -23,13 +23,17 @@ update|commit|backport)
 esac
 
 # Second parameter can be a pattern to restrict groups
-PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -P "^${2:-.*}$")
-
+PATTERN="${2:-.*}"
+PROJECTS=$(php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -P "^$PATTERN$") ||
+  echo "Pattern '$PATTERN' did not match any projects"
 
 _b=$(tput bold)
 b_=$(tput sgr0)
 
 for i in $PROJECTS; do
-	echo "${_b}$i${b_}"
+  if [ "$i" != "$PATTERN" ]
+  then
+	  echo "${_b}$i${b_}"
+  fi
 	$WRAPPER php "$DIRSCRIPT/../repong/repong.php" "$COMMAND" "$i" "${@:3}"
 done
