@@ -1233,6 +1233,8 @@ optional = fileimporter
 
 Filter List Users
 
+Filter Special Pages
+
 Fixed Header Table
 
 Flagged Revisions - Flagged Revs
