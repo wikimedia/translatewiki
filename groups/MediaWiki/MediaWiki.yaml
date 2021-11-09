@@ -9,8 +9,6 @@ TEMPLATE:
     - id: MediaWikiPageName
     - id: MediaWikiParameter
     - id: MediaWikiPlural
-        # core
-        - diff-multi-manyusers # Likely to not be needed in languages with same plural as English (many)
     - id: MediaWikiTimeList
       include:
         - ipboptions
