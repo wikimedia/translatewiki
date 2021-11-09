@@ -16,14 +16,6 @@
 $validationExclusionList = [
 	[
 		'group' => 'core',
-		'check' => 'links',
-		'message' => [
-			'redirect-summary', // Has images names that can be translated
-			'edittools', // Local translatewiki.net version has brackets
-		],
-	],
-	[
-		'group' => 'core',
 		'check' => 'variable',
 		'message' => [
 			'activeusers-count', // Optional GENDER parameter
@@ -82,13 +74,6 @@ $validationExclusionList = [
 			'userrights-groupsmember-auto', // Optional PLURAL parameter
 			'userrights-groupsmember-type', // Optional parameter for group name
 			'userrights-unchangeable-col', // Optional PLURAL parameter
-		],
-	],
-	[
-		'group' => 'core',
-		'check' => 'plural',
-		'message' => [
-			'diff-multi-manyusers', // Likely to not be needed in languages with same plural as English (many)
 		],
 	],
 	[
