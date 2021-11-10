@@ -49,6 +49,7 @@ GROUPS:
   - ext-popups # 2014-03-19
   - ext-spamblacklist-interface
   - ext-thanks-user
+  - ext-thewikipedialibrary # https://phabricator.wikimedia.org/rOMWCe66bd53b54ee29423affcba768b7a3cf1a81714a
   - ext-timedmediahandler-user
   - ext-timedmediahandler-embedplayer
   - ext-timedmediahandler-timedtext
