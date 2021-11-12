@@ -1996,6 +1996,7 @@ descmsg = mobile-frontend-desc
 aliasfile = MobileFrontend/MobileFrontend.alias.php
 optional = mobile.js, mobile.css, mobile-frontend-diffview-comma
 ignored = mobile-frontend-page-menu-language, mobile-frontend-terms-url
+ignored = mobile-frontend-license-links
 
 Mobile Frontend - API
 file = MobileFrontend/i18n/api/%CODE%.json
@@ -3598,6 +3599,7 @@ optional = wikimedia-centralauth-uwbr-registration-nodate
 optional = wikibase-page-schema-publisher-name
 optional = protect-level-editautoreviewprotected, restriction-level-editautoreviewprotected
 optional = right-editautoreviewprotected, action-editautoreviewprotected
+optional = wikidata-mobile-license-links
 prefix = wmf- | grouppage-staff, group-staff, group-staff-member
 prefix = wmf- | group-patroller, group-patroller-member, grouppage-patroller
 prefix = wmf- | createacct-captcha-help-url
