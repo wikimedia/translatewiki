@@ -624,14 +624,6 @@ BASIC:
 GROUPS:
   - ext-wikibaselexeme-*
 
----
-BASIC:
-  id: ext-wikibasemediainfo
-  label: Wikibase Media Info
-  description: '{{Special:MyLanguage/MediaWiki:Wikibasemediainfo-desc/en}}'
-
-GROUPS:
-  - ext-wikibasemediainfo-*
 
 ---
 BASIC:
