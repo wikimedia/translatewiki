@@ -90,6 +90,7 @@ $wgExtraLanguageNames['pov'] = 'guinensi'; # Guinea-Bissau Creole / Amir 2019-05
 $wgExtraLanguageNames['ppl'] = 'Nawat'; # Pipil / Siebrand 2011-08-30
 $wgExtraLanguageNames['prs'] = 'دری'; # Dari
 $wgExtraLanguageNames['qwh'] = 'anqash qichwa'; # Amir 2018-03-04
+$wgExtraLanguageNames['rag'] = 'Lologooli'; # Logooli / Amir 2021-11-15
 $wgExtraLanguageNames['rap'] = 'arero rapa nui'; # Rapa Nui / Siebrand 2009-11-13
 $wgExtraLanguageNames['rcf'] = 'Kreol Réyoné'; # Réunion Creole French / 2014-04-08
 $wgExtraLanguageNames['rej'] = 'Jang'; # Rejang / Amir 2019-05-13

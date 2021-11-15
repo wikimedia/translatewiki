@@ -92,6 +92,7 @@ $wgTranslateLanguageFallbacks['pt-br'] = [ 'es', 'gl' ];
 $wgTranslateLanguageFallbacks['pt'] = [ 'pt-br', 'es', 'gl' ]; # [[Thread:Support/wgTranslateLanguageFallbacks for Portuguese]]
 $wgTranslateLanguageFallbacks['pwn'] = [ 'ami', 'tay', 'xsy', 'szy', 'trv' ];
 $wgTranslateLanguageFallbacks['qwh'] = [ 'qu', 'es' ];
+$wgTranslateLanguageFallbacks['rag'] = [ 'sw', 'rw', 'rn', 'lg' ];
 $wgTranslateLanguageFallbacks['rcf'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['rif'] = [ 'ar', 'fr' ]; # Robin 2011-09-30
 $wgTranslateLanguageFallbacks['rki'] = [ 'my' ];
