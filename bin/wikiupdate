@@ -4,19 +4,20 @@ set -o nounset -o pipefail -o errexit
 . /etc/wikisettings
 
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
-WIKI=$1
 
 CURRENTTIME=$(date +"%T")
-echo "*** $CURRENTTIME: Updating core and extensions ***"
-find "$WIKI" "$WIKI"/extensions/* "$WIKI"/skins/* -maxdepth 1 -type d -name .git -print0 |
+echo "*** $CURRENTTIME: Updating repositories ***"
+find "$@" -maxdepth 1 -type d -name .git -print0 |
 	xargs -0 -n1 dirname |
 	xargs -n1 -P4 sudo -H -u "$REPOUSER" "$DIRSCRIPT/wikiupdate-repo"
 
-sudo -u "$REPOUSER" composer -n -d"$WIKI" update
+CURRENTTIME=$(date +"%T")
+echo "*** $CURRENTTIME: Updating composer dependencies ***"
+sudo -u "$REPOUSER" composer -n -d"$WORKDIR" update
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Rebuilding caches ***"
-sudo -u "$MAINTUSER" nice php "$WIKI/maintenance/rebuildLocalisationCache.php" --threads 6 --quiet
+sudo -u "$MAINTUSER" nice php "$WORKDIR/maintenance/rebuildLocalisationCache.php" --threads 6 --quiet
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: All done ***"

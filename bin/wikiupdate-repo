@@ -2,6 +2,20 @@
 set -o nounset -o pipefail -o errexit
 
 cd "$1"
+if ! OUTPUT=$(git fetch --quiet 2>&1 >&-); then
+	CODE=$?
+	printf "\\033[31m%s failed to update\\033[0m\\n" "$1"
+	echo "$OUTPUT"
+	exit "$CODE"
+fi
+
+# NB: grep returns with failure code with empty input
+OUTPUT=$(git log --oneline --no-decorate HEAD..FETCH_HEAD | grep -v "Localisation updates from" || :)
+if [ -n "$OUTPUT" ]; then
+	echo "== $1 =="
+	echo "$OUTPUT";
+fi
+
 if ! OUTPUT=$(git pull --quiet --rebase 2>&1 >&- && git submodule update --init); then
 	CODE=$?
 	printf "\\033[31m%s failed to update\\033[0m\\n" "$1"

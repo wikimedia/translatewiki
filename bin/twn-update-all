@@ -13,7 +13,7 @@ CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Updating config ***"
 "$DIRSCRIPT/twn-update-config"
 
-"$DIRSCRIPT/wikiupdate" "$WORKDIR"
+"$DIRSCRIPT/wikiupdate" "$WORKDIR" "$WORKDIR"/extensions/* "$WORKDIR"/skins/*
 
 REV=$(git log --pretty="%h %ci (%cr)" -n 1)
 "$DIRSCRIPT/udpcast" "updated $WIKINAME to $REV"
