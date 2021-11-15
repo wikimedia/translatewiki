@@ -19,6 +19,11 @@ optional = notifications-badge-counter-gt-100, bs-calumma-pageinfosentence-item-
 optional = bluespicecalumma-skin
 ignored = bs-allpages-url, bs-support-url
 
+Blue Spice Discovery
+optional = bs-discovery-name
+optional = bs-discovery-sidebar-secondary-share-sharebymail-subject
+optional = bs-discovery-sidebar-secondary-share-sharebymail-body
+
 Bouquet
 ignored = bouquet-navigation
 
