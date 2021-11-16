@@ -134,7 +134,6 @@ hidden-categories
 citethispage-link
 coll-print_export
 contactpage
-scribunto-lua-error
 revisionasof
 show-big-image-size
 nbytes
@@ -171,7 +170,6 @@ redirectedfrom
 nstab-image
 sharedupload-desc-here
 allpagessubmit
-pfunc_expr_unrecognised_punctuation
 filehist-user
 filehist-dimensions
 filehist-datetime
@@ -187,7 +185,6 @@ searchprofile-advanced
 vector-view-create
 blocklink
 editlink
-pfunc_expr_unrecognised_word
 recentchangeslinked-summary
 file-info-size
 nstab-category
@@ -263,7 +260,6 @@ recentchangeslinked
 recentchangeslinked-to
 recentchangeslinked-page
 log
-pfunc_expr_missing_operand
 anoneditwarning
 search-section
 search-showingresults
@@ -337,7 +333,6 @@ file-nohires
 redirectto
 nstab-template
 fancycaptcha-reload-text
-pfunc_expr_unexpected_operator
 badtitletext
 watch
 svg-long-desc
@@ -452,7 +447,6 @@ sp-contributions-blocklog
 contribsub2
 broken-file-category
 unwatch
-pfunc_time_error
 nolinkshere
 protectedarticle
 protect-default
@@ -465,7 +459,6 @@ redirect-summary
 all-logs-page
 category-empty
 preview
-pfunc_expr_division_by_zero
 search-result-category-size
 create
 newmessageslinkplural
