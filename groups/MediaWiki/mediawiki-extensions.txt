@@ -2923,6 +2923,8 @@ descmsg = sslauth-desc
 
 # Staff Powers // Shoutwiki specific extesion
 
+Standard Dialogs
+
 Stalker Log
 
 Starter Wiki
