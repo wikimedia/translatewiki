@@ -161,11 +161,7 @@ globalusage
 shown-title
 template-protected
 metadata
-minoreditletter
-newpageletter
-boteditletter
 rollbacklink
-wikibase-rc-wikibase-edit-letter
 redirectedfrom
 nstab-image
 sharedupload-desc-here
