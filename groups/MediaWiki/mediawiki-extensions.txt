@@ -3205,6 +3205,9 @@ Un Captcha
 
 Unicode Converter
 
+Unified Task Overview
+aliasfile = UnifiedTaskOverview/languages/UnifiedTaskOverview.i18n.alias.php
+
 Universal Language Selector - User interface
 id = ext-universallanguageselector-user
 file = UniversalLanguageSelector/i18n/%CODE%.json
