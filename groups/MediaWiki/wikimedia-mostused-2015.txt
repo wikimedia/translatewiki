@@ -125,8 +125,16 @@ currentevents
 currentevents-url
 search-result-size
 wikibase-editlinks
+uls-plang-title-languages
 wikibase-linkitem-addlinks
+wikibase-linkitem-title
+wikibase-linkitem-selectlink
+wikibase-linkitem-input-site
+wikibase-linkitem-input-page
+wikibase-linkitem-linkpage
 ext-uls-compact-link-count
+vector-language-button-label
+mobile-frontend-language-article-heading
 coll-download_as
 wikibase-dataitem
 globalusage-on-wiki
