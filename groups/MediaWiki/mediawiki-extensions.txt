@@ -2255,6 +2255,8 @@ file = PageAssessments/i18n/%CODE%.json
 aliasfile = PageAssessments/PageAssessments.i18n.alias.php
 magicfile = PageAssessments/PageAssessments.i18n.magic.php
 
+Page Checkout
+
 Page Creation Notif
 descmsg = page-creation-notif-desc
 
