@@ -2565,6 +2565,7 @@ optional = quizgame-leaderboard-desc-pct
 
 Quick Surveys
 ignored = ext-quicksurveys-example-external-survey-link
+ignored = ext-quicksurveys-test-external-survey-no-http-link
 
 Random Area
 
