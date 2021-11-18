@@ -446,7 +446,7 @@ TAGS:
     - createacct-helpusername
     - createacct-imgcaptcha-help
     - deadendpages-summary
-    - delete-summary
+    - deletepage-summary
     - deletedarticle
     - deletedarticle
     - deletedcontributions-summary
@@ -533,7 +533,7 @@ TAGS:
     - preferences-summary
     - prefixindex-summary
     - prefs-user-downloaddata-help-message
-    - protect-summary
+    - protectpage-summary
     - protectedpages-unknown-reason
     - pubmedurl
     - purge-summary
