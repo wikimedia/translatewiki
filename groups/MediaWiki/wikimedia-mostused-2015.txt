@@ -473,12 +473,10 @@ prefixindex
 nstab-mediawiki
 clearyourcache
 restriction-edit
-usermessage-editor
 speciallogtitlelabel
 restriction-move
 proxyblocker
 noindex-category
-double-redirect-fixer
 rightslog
 patrol-log-page
 tags-hitcount
