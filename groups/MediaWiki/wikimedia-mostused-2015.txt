@@ -433,7 +433,6 @@ histfirst
 history-fieldset-title
 histlegend
 compareselectedversions
-ipboptions
 contributions-title
 sp-contributions-logs
 sp-contributions-username
