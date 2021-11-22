@@ -718,7 +718,9 @@ FILES:
   sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/uiexample/%CODE%.json'
 MANGLER:
   prefix: phabricator-uiexample-
-
+TAGS:
+  ignored:
+    - phabricator-uiexample-80d8b8cf2291a90b
 ---
 BASIC:
   id: phabricator-phabricator-xhprof
