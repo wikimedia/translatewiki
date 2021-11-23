@@ -14,6 +14,7 @@ OUTPUT=$(git log --oneline --no-decorate HEAD..FETCH_HEAD | grep -v "Localisatio
 if [ -n "$OUTPUT" ]; then
 	echo "== $1 =="
 	echo "$OUTPUT";
+	echo
 fi
 
 if ! OUTPUT=$(git pull --quiet --rebase 2>&1 >&- && git submodule update --init); then
