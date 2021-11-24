@@ -1338,6 +1338,9 @@ Force Preview
 Form
 ignored = form-template-pattern
 
+Forms
+aliasfile = Forms/languages/Forms.alias.php
+
 Form Wizard
 aliasfile = FormWizard/FormWizard.alias.php
 magicfile = FormWizard/FormWizard.magic.php
