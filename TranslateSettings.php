@@ -55,6 +55,13 @@ $wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$auto
 	$list[ 'wiki-betawiki' ] = $mg;
 };
 
+$wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$autoload ) {
+	$mg = new WikiMessageGroup( 'wiki-gadget-term', 'gadget-term-messages' );
+	$mg->setLabel( 'Terminology gadget' );
+	$mg->setDescription( '{{int:bw-desc-gadget-term}}' );
+	$list[ 'wiki-gadget-term' ] = $mg;
+};
+
 # Add aggregate message groups for MediaWiki extensions.
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwbitbucket.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwgerrit.yaml";
