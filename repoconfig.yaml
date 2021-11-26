@@ -930,8 +930,8 @@ wikimedia-github:
       url|export: git@github.com:wikimedia/svgtranslate.git
     whowrotethat:
       type: github
-      url: https://github.com/wikimedia/whowrotethat.git
-      url|export: git@github.com:wikimedia/whowrotethat.git
+      url: https://github.com/wikimedia/WhoWroteThat.git
+      url|export: git@github.com:wikimedia/WhoWroteThat.git
     WikimediaOCR:
       type: github
       branch: main
