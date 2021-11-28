@@ -101,7 +101,6 @@ $wgExtraLanguageNames['saz'] = 'ꢱꣃꢬꢵꢯ꣄ꢡ꣄ꢬꢵ'; # Saurashtra / 
 $wgExtraLanguageNames['slr'] = 'Salırça'; # Salar / Siebrand 2008-08-18
 $wgExtraLanguageNames['sly'] = 'Bahasa Selayar'; # A Selayar / Siebrand 2012-01-09
 $wgExtraLanguageNames['smj'] = 'julevsámegiella'; # Lule Saami / Nikerabbit 2016-06-22
-$wgExtraLanguageNames['sms'] = 'nuõrttsääʹmǩiõll'; # Skolt Sami / Niklas 2020-03-25
 $wgExtraLanguageNames['swb'] = 'Shikomoro'; # Comorian
 $wgExtraLanguageNames['sxu'] = 'Säggssch'; # Upper Saxon
 $wgExtraLanguageNames['syl'] = 'ꠍꠤꠟꠐꠤ'; # Sylheti / Amir 2020-04-16
