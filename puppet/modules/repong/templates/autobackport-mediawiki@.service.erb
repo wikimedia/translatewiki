@@ -1,0 +1,11 @@
+# This file is managed by puppet
+[Unit]
+Description=Automatically backports Mediawiki translations for branch %I
+Requisite=mysql.service
+After=mysql.service
+
+[Service]
+User=<%= @l10nbot_user %>
+ExecStart=<%= @bin_dir %>/execute-and-notify <%= @bin_dir %>/autobackport-mediawiki "%i"
+ProtectHome=read-only
+ProtectSystem=full

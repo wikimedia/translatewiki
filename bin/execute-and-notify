@@ -2,8 +2,8 @@
 set -o nounset -o pipefail -o errexit
 
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
-COMMAND="$1"
-PRETTYCOMMAND=$(basename "$COMMAND")
+COMMAND="${*}"
+PRETTYCOMMAND="$(basename "$1") ${*:2}"
 
 if ANSIOUTPUT=$(export TERM=ansi; pipetty $COMMAND)
 then

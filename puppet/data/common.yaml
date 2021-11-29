@@ -28,6 +28,7 @@ keyholder::agent: []
 
 nginx::devsite::domain: "%{alias('wiki::domain')}"
 
+repong::bin_dir: "%{alias('bin_dir')}"
 repong::config_dir: "%{alias('wiki::config_dir')}"
 repong::repo_user: "%{alias('maintenance_user')}"
 repong::l10nbot_user: "%{alias('l10nbot_user')}"
@@ -37,6 +38,9 @@ repong::lockfile: "%{lookup('repong::import_dir')}/sync.lock"
 
 repong::autoexport::bin_dir: "%{lookup('wiki::config_dir')}/bin"
 repong::autoexport::l10nbot_user: "%{alias('l10nbot_user')}"
+
+repong::autobackport::bin_dir: "%{lookup('wiki::config_dir')}/bin"
+repong::autobackport::l10nbot_user: "%{alias('l10nbot_user')}"
 
 users::bin_dir: "%{lookup('wiki::config_dir')}/bin"
 users::maintenance_user: "%{alias('maintenance_user')}"
