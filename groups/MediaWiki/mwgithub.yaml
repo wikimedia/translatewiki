@@ -834,6 +834,7 @@ MANGLER:
   prefix: matomoanalytics-
   patterns:
     - right-*
+    - action-*
     - analytics
 
 ---
