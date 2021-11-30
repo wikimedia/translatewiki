@@ -44,6 +44,7 @@ $wgTranslateLanguageFallbacks['fi'] = [ 'de', 'sv', 'et', 'vro' ];
 $wgTranslateLanguageFallbacks['fit'] = [ 'fi', 'sv' ]; # Robin 2011-09-27
 $wgTranslateLanguageFallbacks['fon'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['fy'] = 'nl';
+$wgTranslateLanguageFallbacks['gaa'] = [ 'tw', 'bci' ];
 $wgTranslateLanguageFallbacks['gcf'] = 'fr';
 $wgTranslateLanguageFallbacks['hak-hans'] = [ 'hak-hant', 'hak', 'zh-hans' ];
 $wgTranslateLanguageFallbacks['hak-hant'] = [ 'hak-hans', 'hak', 'zh-hant' ];
