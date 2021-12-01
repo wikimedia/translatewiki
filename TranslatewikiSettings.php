@@ -60,8 +60,9 @@ $wgEmergencyContact = 'translatewiki@translatewiki.net';
 $wgPasswordSender = 'noreply@translatewiki.net';
 
 $wgLogos = [
-	'1x'  => 'https://translatewiki.net/static/logo.png',
-	'svg' => 'https://translatewiki.net/static/logo.svg',
+	'1x' => 'https://translatewiki.net/static/logo-square.png',
+	'svg' => 'https://translatewiki.net/static/logo-square.svg',
+	'icon' => 'https://translatewiki.net/static/logo-square.svg',
 ];
 
 $wgGrammarForms['et']['genitive']['translatewiki.net'] = 'translatewiki.net-i';

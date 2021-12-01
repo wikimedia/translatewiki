@@ -33,8 +33,9 @@ $wgDBpassword = '';
 $wgSQLMode = 'TRADITIONAL,ONLY_FULL_GROUP_BY';
 
 $wgLogos = [
-	'1x' => 'https://translatewiki.net/static/logo.png',
-	'svg' => 'https://translatewiki.net/static/logo.svg',
+	'1x' => 'https://translatewiki.net/static/logo-square.png',
+	'svg' => 'https://translatewiki.net/static/logo-square.svg',
+	'icon' => 'https://translatewiki.net/static/logo-square.svg',
 ];
 
 $wgEnableUploads = true;
