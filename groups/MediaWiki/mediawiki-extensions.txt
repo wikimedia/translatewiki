@@ -3590,6 +3590,7 @@ ignored = wikibase-page-schema-publisher-logo-url
 ignored = right-banner-protect, protect-level-banner-protect, restriction-level-banner-protect
 ignored = grouppage-oathauth-tester, grouppage-abusefilter-helper, wikimedia-statslink-url
 ignored = grouppage-abusefilter-maintainer, grouppage-docseditor
+ignored = wikinews-mobile-license-links, wikinews-mobile-license-links-ccby30
 optional = sitesupport-url
 optional = grouppage-steward, grouppage-sysadmin, grouppage-global-bot
 optional = grouppage-global-rollbacker, grouppage-ombuds, grouppage-coder
