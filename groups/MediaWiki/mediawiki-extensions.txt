@@ -329,6 +329,7 @@ aliasfile = BlueSpiceDashboards/languages/Dashboards.alias.php
 Blue Spice Distribution Connector
 descmsg = bs-distributionconnector-extension-description
 ignored = bs-sandbox-page, bs-helpdesk-page, bs-support-page
+optional = Bs-distributionconnector-pref-eventbus-eventservices-subkey-url
 
 Blue Spice Echo Connector
 descmsg = bs-echoconnector-extension-description
@@ -3696,6 +3697,7 @@ optional = wikisource-ocr-engine-tesseract, wikisource-ocr-engine-google
 
 Workflows
 aliasfile = Workflows/languages/SpecialWorkflowOverview.alias.php
+ignored = workflows-notification-aborted-web
 
 WS OAuth
 
