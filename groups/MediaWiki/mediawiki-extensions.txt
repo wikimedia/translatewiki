@@ -725,6 +725,8 @@ optional = chessbrowser-a-file, chessbrowser-b-file, chessbrowser-c-file, chessb
 optional = chessbrowser-e-file, chessbrowser-f-file, chessbrowser-g-file, chessbrowser-h-file
 optional = chessbrowser-occupied-black, chessbrowser-occupied-white
 
+# CI Forms // 2021-12-04: missing qqq
+
 Cirrus Search - User interface
 id = ext-cirrussearch-user
 file = CirrusSearch/i18n/%CODE%.json
@@ -1156,6 +1158,8 @@ Email Authorization
 aliasfile = EmailAuthorization/includes/EmailAuthorization.alias.php
 
 Email Capture
+
+# Email Deleted Pages // 2021-12-04: Still the old message scheme
 
 Email Diff
 
@@ -3687,6 +3691,8 @@ Wikispeech Speech Data Collector - API
 id = ext-wikispeech-speechdatacollector-api
 file = WikispeechSpeechDataCollector/i18n/api/%CODE%.json
 descmsg = wikispeech-sdc-desc
+
+# Wikistories // 2021-12-04: no message files
 
 # Windows Azure SDK // 2017-06-15: Archived
 
