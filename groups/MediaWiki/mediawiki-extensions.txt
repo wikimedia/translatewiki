@@ -1582,6 +1582,7 @@ file = GrowthExperiments/i18n/mentorship/api/%CODE%.json
 Growth Experiments - Confirm Email
 id = ext-growthexperiments-confirmemail
 file = GrowthExperiments/i18n/confirmemail/%CODE%.json
+ignored = growthexperiments-recurringcampaign-body, growthexperiments-recurringcampaign-title
 
 Growth Experiments - Newcomer Tasks API
 id = ext-growthexperiments-newcomertasks-api
