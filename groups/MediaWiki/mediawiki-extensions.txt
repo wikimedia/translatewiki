@@ -792,7 +792,9 @@ Collapsible Sections
 
 Collapsible Vector
 
-Collection
+Collection - User interface
+id = ext-collection-user
+file = Collection/i18n/%CODE%.json
 aliasfile = Collection/Collection.alias.php
 descmsg = coll-desc
 ignored = coll-license_url
@@ -800,6 +802,10 @@ ignored = coll-suggest_enabled
 ignored = coll-user_book_prefix, coll-community_book_prefix
 optional = coll-setting-papersize-a4
 optional = coll-setting-columns-1, coll-setting-columns-2
+
+Collection - API
+id = ext-collection-api
+file = Collection/i18n/api/%CODE%.json
 
 Comment Streams
 aliasfile = CommentStreams/includes/CommentStreamsAllComments.alias.php
