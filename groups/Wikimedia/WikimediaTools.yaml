@@ -89,6 +89,40 @@ VALIDATORS:
 
 ---
 BASIC:
+  id: wikimedia-tools-isa
+  label: ISA
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-tools-isa/en}}"
+  icon: wiki://ISA_Structured_Data_logo.png
+  namespace: NS_WKIMEDIA
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: isa-
+  patterns:
+    - "*"
+
+FILES:
+  class: GettextFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/isa/isa/transations/%CODE%/LC_MESSAGES/messages.po"
+  definitionFile: "%GROUPROOT%/wikimedia-tools/isa/isa/messages.pot"
+  header: |
+    # Translation for the ISA project
+    # This file is distributed under the same license as the ISA project.
+    #
+
+VALIDATORS:
+  - id: GettextNewline
+    enforce: true
+  - id: PythonInterpolation
+    enforce: true
+    insertable: true
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+---
+BASIC:
   id: wikimedia-tools-map-of-monuments
   label: Map of Monuments
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-map-of-monuments/en}}"
