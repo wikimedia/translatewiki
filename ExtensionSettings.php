@@ -103,6 +103,8 @@ $wgBabelCategoryNames = [
 $wgBabelMainCategory = 'User_%code%';
 
 # Semantic MediaWiki (installed using composer)
+
+wfLoadExtension( 'SemanticMediaWiki' );
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
 enableSemantics( 'translatewiki.net' );
 $smwgNamespacesWithSemanticLinks[90/*NS_LQT_THREAD*/] = true;
