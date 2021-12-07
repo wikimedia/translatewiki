@@ -9,6 +9,9 @@ $GROUPS = __DIR__ . '/groups';
 // $wgSpecialPages['Magic'] = 'SpecialMagic';
 $wgTranslateNewsletterPreference = true;
 
+// Enable message bundle integration. See: T286547
+$wgTranslateEnableMessageBundleIntegration = true;
+
 $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
 $wgTranslateValidationExclusionFile = "$GROUPS/validation-exclusion-list.php";
 
