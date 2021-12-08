@@ -19,7 +19,7 @@ GROUPS:
   - ext-cite-visualeditor
   - ext-citespecial
   - ext-citoid # 2015-03-16
-  - ext-collection
+  - ext-collection-user
   - ext-confirmedit-user
   - ext-confirmeditfancycaptcha-user
   - ext-contenttranslation-user

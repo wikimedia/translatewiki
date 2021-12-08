@@ -21,6 +21,7 @@ GROUPS:
   - ext-categorytree-api
   - ext-centralauth-api
   - ext-centralnotice-api
+  - ext-collection-api
   - ext-checkuser-api
   - ext-cirrussearch-api
   - ext-confirmedit-api
