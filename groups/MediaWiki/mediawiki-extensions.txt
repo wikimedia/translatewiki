@@ -3424,6 +3424,7 @@ Wiki Editor
 optional = wikieditor-toolbar-help-content-rereference-syntax, wikieditor-toolbar-help-content-showreferences-syntax
 optional = wikieditor-toolbar-tool-table-example-text
 ignored = wikieditor-toolbar-help-content-signaturetimestamp-syntax, wikieditor-toolbar-help-content-signature-syntax
+ignored = tag-wikieditor
 
 Wiki Forum
 ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforum-max-replies-per-page
