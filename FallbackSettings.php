@@ -69,6 +69,7 @@ $wgTranslateLanguageFallbacks['miq'] = [ 'es' ];
 $wgTranslateLanguageFallbacks['mnc'] = [ 'zh-hans' ];
 $wgTranslateLanguageFallbacks['moe'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['mui'] = [ 'id' ];
+$wgTranslateLanguageFallbacks['mvf'] = [ 'mn', 'zh-hans', 'ru' ];
 $wgTranslateLanguageFallbacks['mwv'] = [ 'id' ];
 $wgTranslateLanguageFallbacks['nb'] = [ 'nn', 'da', 'sv' ]; # Siebrand 2008-02-18
 $wgTranslateLanguageFallbacks['nds-nl'] = [ 'nds', 'pdt' ];
