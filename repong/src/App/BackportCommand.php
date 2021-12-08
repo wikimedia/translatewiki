@@ -72,7 +72,7 @@ class BackportCommand extends Command {
 			$command = "$updateCommand && $backportCommand || $resetCommand";
 
 			$process = new Process( $command );
-			$process->setTimeout( 60 );
+			$process->setTimeout( 120 );
 			$processes->attach( $process );
 		}
 
