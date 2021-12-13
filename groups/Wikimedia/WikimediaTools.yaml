@@ -93,7 +93,7 @@ BASIC:
   label: ISA
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-tools-isa/en}}"
   icon: wiki://ISA_Structured_Data_logo.png
-  namespace: NS_WKIMEDIA
+  namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
 
 MANGLER:
