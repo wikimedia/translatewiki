@@ -73,7 +73,6 @@ $wgExtraLanguageNames['mvf'] = 'ᠮᠣᠩᠭᠣᠯ'; # Southern Mongolian / Amir
 $wgExtraLanguageNames['mwv'] = 'Behase Mentawei'; # Mentawai / Siebrand 2008-05-07
 $wgExtraLanguageNames['mww-latn'] = 'Hmoob Dawb'; # Hmong Daw / Siebrand 2013-12-02
 $wgExtraLanguageNames['njo'] = 'Ao'; # Ao Naga
-$wgExtraLanguageNames['nod'] = 'ᨣᩴᩤᨾᩮᩥᩬᨦ'; # Northern Thai (Tai Tham script) / Amir 2021-11-07
 $wgExtraLanguageNames['nod-thai'] = 'คำเมือง'; # Northern Thai / Siebrand 2017-05-20
 $wgExtraLanguageNames['nog'] = 'Ногайша'; # Nogai / Nikerabbit 2018-08-03
 $wgExtraLanguageNames['nus'] = 'Thok Naath'; # Nuer / Amir 2021-02-25
