@@ -19,7 +19,6 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/waymarked-trails/en}}"
   namespace: NS_OSM
   class: FileBasedMessageGroup
-  codeBrowser: "https://github.com/waymarkedtrails/waymarked-trails-site/blob/master/%FILE%#L%LINE%"
 
 MANGLER:
   class: StringMatcher
@@ -28,25 +27,16 @@ MANGLER:
     - "*"
 
 FILES:
-  class: GettextFFS
-  keyAlgorithm: legacy
-  sourcePattern: "%GROUPROOT%/waymarked-trails-site/django/locale/%CODE%/LC_MESSAGES/django.po"
-  definitionFile: "%GROUPROOT%/waymarked-trails-site/django/locale/qot/LC_MESSAGES/django.po"
+  class: YamlFFS
+  sourcePattern: "%GROUPROOT%/waymarkedtrails-website/src/i18n/%CODE%/messages.yaml"
+  definitionFile: "%GROUPROOT%/waymarkedtrails-website/src/i18n/qot/messages.yaml"
   codeMap:
     # This is needed because they have symlinked no to nb to avoid import
     "no": x-invalidLanguageCode
 
-  header: |
-    # This file is part of the Waymarked Trails Map Project
-    # Copyright (C) 2011-2016
-    # This file is distributed under the same license as the main package.
-    #
-
 TAGS:
   optional:
-   - wmt-664add438097fbd4307f814de8e62a10f8905588-Wikipedia
-   - wmt-d39fbf478176b9ed008faf0cf0bfe88a778c7e9c-s_km
-   - wmt-978afcb7a6f02efbc6cf00a0668afa0913891cd3-s_m
+   - wmt-details.Wikipedia
 
 ---
 BASIC:
