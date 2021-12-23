@@ -65,5 +65,5 @@ MANGLER:
 
 FILES:
   class: YamlFFS
-  sourcePattern: "%GROUPROOT%/waymarked-trails-site/django/locale/%CODE%/helppages.yaml"
-  definitionFile: "%GROUPROOT%/waymarked-trails-site/django/locale/qot/helppages.yaml"
+  sourcePattern: "%GROUPROOT%/waymarkedtrails-website/src/i18n/%CODE%/helppages.yaml"
+  definitionFile: "%GROUPROOT%/waymarkedtrails-website/src/i18n/qot/helppages.yaml"
