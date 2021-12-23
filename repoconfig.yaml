@@ -846,6 +846,10 @@ waymarked-trails-site:
       type: github
       url: https://github.com/waymarkedtrails/waymarked-trails-site.git
       url|export: git@github.com:waymarkedtrails/waymarked-trails-site.git
+    waymarkedtrails-website:
+      type: github
+      url: https://github.com/waymarkedtrails/waymarkedtrails-website.git
+      url|export: git@github.com:waymarkedtrails/waymarkedtrails-website.git
 
 # Note that this group is called "Revision Scoring" in the English web
 # interface.
