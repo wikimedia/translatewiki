@@ -75,7 +75,6 @@ mobile-frontend-view
 mobile-frontend-view-desktop
 mobile-frontend-terms-text
 mobile-frontend-placeholder
-mobile-frontend-logged-in-homepage-notification
 mobile-frontend-language-article-heading
 retrievedfrom
 searchsuggest-search
