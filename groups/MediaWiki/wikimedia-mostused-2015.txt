@@ -157,9 +157,6 @@ view
 history_short
 imagelinks
 filehist
-categorytree-num-pages
-categorytree-num-categories
-categorytree-num-files
 wikibase-edit
 filehist-thumbtext
 toc
@@ -521,7 +518,6 @@ tags-active-yes
 listusers
 anontalkpagetext
 templatesusedpreview
-modifiedarticleprotection
 block-log-flags-nocreate
 allpages-hide-redirects
 action-createaccount
