@@ -115,6 +115,5 @@ $wgExtraLanguageNames['twd'] = 'Tweants'; # Twents
 $wgExtraLanguageNames['vai'] = 'ꕙꔤ'; # Vai Amir 2019-04-23
 $wgExtraLanguageNames['ydd'] = 'Eastern Yiddish'; # Eastern Yiddish / Siebrand 2009-09-23
 $wgExtraLanguageNames['yrk'] = 'Ненэцяʼ вада'; # Tundra Nenets / Lcawte 2011-02-07
-$wgExtraLanguageNames['yrl'] = 'ñe\'engatú'; # Nheengatu / Siebrand 2008-04-06
 $wgExtraLanguageNames['yua'] = 'Maaya T\'aan'; # Yucatán Maya / Siebrand 2011-04-09
 $wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages

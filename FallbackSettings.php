@@ -140,5 +140,5 @@ $wgTranslateLanguageFallbacks['vmw'] = [ 'ts', 'sw', 'ss', 'ny', 'zu' ]; # Amir 
 $wgTranslateLanguageFallbacks['xal'] = [ 'mn', 'bxr' ];
 $wgTranslateLanguageFallbacks['xsy'] = [ 'zh-hant' ]; # Amir 2017-05-03
 $wgTranslateLanguageFallbacks['yrk'] = 'ru'; # Lcawte 2011-02-07
-$wgTranslateLanguageFallbacks['yrl'] = [ 'es', 'pt-br' ];
+$wgTranslateLanguageFallbacks['yrl'] = [ 'es', 'pt-br', 'gn' ];
 $wgTranslateLanguageFallbacks['yua'] = 'es';
