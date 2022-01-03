@@ -239,7 +239,7 @@ intuition:
       type: github
       branch: main
       url: https://github.com/Krinkle/intuition.git
-      push-branch|export: translatewiki
+      pull-branch|export: translatewiki
       url|export: git@github.com:Krinkle/intuition.git
 
 intuition-tools:
