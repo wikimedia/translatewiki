@@ -21,6 +21,7 @@ wfLoadExtensions( [
 	'ReplaceText',
 	'SyntaxHighlight_GeSHi',
 	'TemplateSandbox',
+	'TemplateStyles',
 	'Thanks',
 	'UniversalLanguageSelector',
 	'UserMerge',

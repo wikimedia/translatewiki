@@ -144,6 +144,8 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/SyntaxHighlight_GeSHi
   workdir/extensions/TemplateSandbox:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateSandbox
+  workdir/extensions/TemplateStyles:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles
   workdir/extensions/Thanks:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Thanks
   workdir/extensions/Translate:
