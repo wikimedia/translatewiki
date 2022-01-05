@@ -15,5 +15,8 @@
 			"@php validate-repoconfig.php"
 		],
 		"phpcs": "phpcs -sp --cache"
+	},
+	"require": {
+		"ext-yaml": "*"
 	}
 }
