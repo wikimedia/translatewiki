@@ -166,6 +166,10 @@ VALIDATORS:
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
 
+TAGS:
+  optional:
+    - massmailer-name
+
 ---
 BASIC:
   id: wikimedia-tools-qrcode-generator
