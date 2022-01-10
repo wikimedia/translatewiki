@@ -168,7 +168,7 @@ INSERTABLES:
 
 TAGS:
   optional:
-    - massmailer-name
+    - massmailer-massmailer-name
 
 ---
 BASIC:
