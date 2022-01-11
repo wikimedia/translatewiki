@@ -104,7 +104,7 @@ MANGLER:
 
 FILES:
   class: GettextFFS
-  sourcePattern: "%GROUPROOT%/wikimedia-tools/isa/isa/transations/%CODE%/LC_MESSAGES/messages.po"
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/isa/isa/translations/%CODE%/LC_MESSAGES/messages.po"
   definitionFile: "%GROUPROOT%/wikimedia-tools/isa/isa/messages.pot"
   header: |
     # Translation for the ISA project
