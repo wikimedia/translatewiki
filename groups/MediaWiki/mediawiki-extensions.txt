@@ -3677,6 +3677,9 @@ Wikimedia Temporary Messages
 file = WikimediaMessages/i18n/temporary/%CODE%.json
 prefix = temporary- | wikimediamessages-desc
 
+Wikimedia Undeployed Placeholders
+file = WikimediaMessages/i18n/undeployedplaceholders/%CODE%.json
+
 Wikispeech - User interface
 id = ext-wikispeech-user
 file = Wikispeech/i18n/%CODE%.json
