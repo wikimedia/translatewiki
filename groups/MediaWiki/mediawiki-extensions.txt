@@ -2706,6 +2706,8 @@ Search Extra NS
 Search Stats
 aliasfile = SearchStats/SearchStats.alias.php
 
+Search Thumbs
+
 Section Disqus
 
 Secure Auth
