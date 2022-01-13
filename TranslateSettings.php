@@ -128,7 +128,6 @@ $wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$auto
 
 	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
 	$foo->setGroupPrefix( 'mediawiki-skin-' );
-	$foo->setUseConfigure( false );
 	$foo->register( $list, $deps, $autoload );
 };
 
