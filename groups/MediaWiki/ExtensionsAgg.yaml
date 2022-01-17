@@ -38,6 +38,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-apifeatureusage
+  label: Api Feature Usage
+  description: '{{Special:MyLanguage/MediaWiki:Apifeatureusage-desc/en}}'
+
+GROUPS:
+  - ext-apifeatureusage-*
+
+---
+BASIC:
   id: ext-babel
   label: Babel
   description: '{{Special:MyLanguage/MediaWiki:Babel-desc/en}}'

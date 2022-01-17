@@ -100,9 +100,15 @@ Anti Spoof - API
 id = ext-antispoof-api
 file = AntiSpoof/i18n/api/%CODE%.json
 
-Api Feature Usage
+Api Feature Usage - User interface
+id = ext-apifeatureusage-user
+file = ApieFeatureUsage/i18n/%CODE%.json
 aliasfile = ApiFeatureUsage/ApiFeatureUsage.alias.php
 ignored = apifeatureusage-text
+
+Api Feature Usage - API
+id = ext-apifeatureusage-api
+file = ApieFeatureUsage/i18n/api/%CODE%.json
 
 Approved Revs
 aliasfile = ApprovedRevs/ApprovedRevs.alias.php
