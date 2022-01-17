@@ -2303,7 +2303,7 @@ ignored = pageimages-denylist
 
 Page In Cat
 
-Page Language
+# Page Language  // No FOSS license
 
 Page Magic
 magicfile = PageMagic/PageMagic.i18n.magic.php
@@ -2565,7 +2565,7 @@ optional = group-filepusher.css, group-filepusher.js
 Push To Watch
 ignored = action-pushtowatch
 
-# PwnedPasswords // No i18n files
+# PwnedPasswords // No i18n files and no FOSS license
 
 Quantcast
 
@@ -3155,7 +3155,7 @@ Title Key
 
 Toc Tree
 
-Tooltip
+# Tooltip // No FOSS license
 
 Top Ten Pages
 aliasfile = TopTenPages/TopTenPages.alias.php
@@ -3413,7 +3413,7 @@ Widgets
 magicfile = Widgets/Widgets.i18n.magic.php
 optional = group-widgeteditor.css, group-widgeteditor.js
 
-# Wigo3 // 2020-08-13: inconsistent prefix
+# Wigo3 // 2020-08-13: inconsistent prefix and no FOSS license
 
 WikEd Diff
 descmsg = wiked-diff-desc
