@@ -60,6 +60,7 @@ $wgUseAutomaticEditSummaries = false;
 $wgUseInstantCommons = true;
 $wgAllowUserJs = true;
 $wgAllowUserCss = true;
+$wgPageLanguageUseDB = true;
 
 $wgMetaNamespace = 'Project';
 define( 'NS_PORTAL', 100 );

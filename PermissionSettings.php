@@ -37,6 +37,7 @@ $wgGroupPermissions[ 'sysop'         ][ 'smw-admin'               ] = false;
 $wgGroupPermissions[ 'sysop'         ][ 'delete'                  ] = true;
 $wgGroupPermissions[ 'sysop'         ][ 'suppressredirect'        ] = true;
 $wgGroupPermissions[ 'sysop'         ][ 'skipcaptcha'             ] = true;
+$wgGroupPermissions[ 'sysop'         ][ 'pagelang'                ] = true;
 
 $wgGroupPermissions[ 'bureaucrat'    ][ 'deletelogentry'          ] = true;
 $wgGroupPermissions[ 'bureaucrat'    ][ 'deleterevision'          ] = true;
