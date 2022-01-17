@@ -189,6 +189,7 @@ $wgISGroups = [ 'translator' ];
 
 wfLoadExtension( 'Echo' );
 $wgEchoBundleEmailInterval = 14400;
+$wgEchoNotificationIcons['site']['url'] = '/static/logo-square.svg';
 
 wfLoadExtension( 'OAuth' );
 $wgMWOAuthSecureTokenTransfer = true;
