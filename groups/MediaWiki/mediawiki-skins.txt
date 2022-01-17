@@ -8,8 +8,6 @@ optional = skinname-anisa
 apex
 optional = apex.css, apex.js
 
-Athena
-
 Blue Sky
 optional = bluesky-breadcrumb-pointer
 ignored = bluesky-breadcrumbs-nsmain
