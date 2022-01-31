@@ -75,7 +75,6 @@ $wgExtraLanguageNames['njo'] = 'Ao'; # Ao Naga
 $wgExtraLanguageNames['nod-thai'] = 'คำเมือง'; # Northern Thai / Siebrand 2017-05-20
 $wgExtraLanguageNames['nog'] = 'Ногайша'; # Nogai / Nikerabbit 2018-08-03
 $wgExtraLanguageNames['nus'] = 'Thok Naath'; # Nuer / Amir 2021-02-25
-$wgExtraLanguageNames['nyn'] = 'runyankore'; # Nyankore / Amir 2022-01-15
 $wgExtraLanguageNames['oka'] = 'n̓səl̓xcin̓'; # Okanagan Salish / Amir 2018-04-04
 $wgExtraLanguageNames['osi'] = 'Using'; # Osing / Amir 2019-08-31
 $wgExtraLanguageNames['ovd'] = 'övdalsk'; # Övdalian / Siebrand 2017-05-20
