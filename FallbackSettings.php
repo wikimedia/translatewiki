@@ -79,6 +79,7 @@ $wgTranslateLanguageFallbacks['mfe'] = [ 'fr' ]; # Robin 2011-10-18
 $wgTranslateLanguageFallbacks['miq'] = [ 'es' ];
 $wgTranslateLanguageFallbacks['mnc'] = [ 'zh-hans' ];
 $wgTranslateLanguageFallbacks['moe'] = [ 'fr' ];
+$wgTranslateLanguageFallbacks['mos'] = [ 'fr', 'dag', 'gur', 'kbp', 'nmz' ];
 $wgTranslateLanguageFallbacks['mui'] = [ 'id' ];
 $wgTranslateLanguageFallbacks['mvf'] = [ 'mn', 'zh-hans', 'ru' ];
 $wgTranslateLanguageFallbacks['mwv'] = [ 'id' ];
