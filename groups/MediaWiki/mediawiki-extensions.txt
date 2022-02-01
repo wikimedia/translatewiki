@@ -939,10 +939,13 @@ Count Down Clock
 descmsg = countDownClock-desc
 magicfile = CountDownClock/CountDownClock.i18n.magic.php
 
-CreateAPage
+Create A Page
 aliasfile = CreateAPage/CreatePage.alias.php
 descmsg = createpage-desc
 ignored = createplate-Blank
+ignored = apihelp-createapage-upload-param-num, apihelp-createapage-upload-param-infix
+ignored = apihelp-createapage-upload-param-comment, apihelp-createapage-upload-param-wpInFix
+ignored = apihelp-createapage-upload-param-wpPostFix
 optional = createpage-template-infobox-format
 
 Create Page
