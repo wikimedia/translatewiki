@@ -117,6 +117,7 @@ $wgTranslateLanguageFallbacks['rn'] = [ 'fr', 'rw', 'sw' ];
 $wgTranslateLanguageFallbacks['rut'] = [ 'az', 'ru', 'lez' ]; # Robin 2012-07-24
 $wgTranslateLanguageFallbacks['rw'] = [ 'fr', 'rn', 'sw' ];
 $wgTranslateLanguageFallbacks['ryu'] = [ 'ja' ];
+$wgTranslateLanguageFallbacks['so'] = [ 'ar', 'it' ];
 $wgTranslateLanguageFallbacks['saz'] = [ 'gu' ];
 $wgTranslateLanguageFallbacks['se'] = [ 'fi', 'sv', 'nb', 'sma' ];
 $wgTranslateLanguageFallbacks['shi'] = [ 'ar', 'fr' ]; # Robin 2011-09-27
