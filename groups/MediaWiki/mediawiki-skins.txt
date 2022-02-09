@@ -107,7 +107,7 @@ Truglass
 ignored = truglass-footertext
 
 Vector
-optional = vector.css, vector.js
+optional = vector.css, vector.js, vector-specialversion-name
 
 webplatform
 ignored = webplatform-bottom-footer
