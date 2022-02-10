@@ -359,6 +359,7 @@ TAGS:
     - accesskey-ca-undelete
     - accesskey-ca-unprotect
     - accesskey-ca-unwatch
+    - accesskey-ca-view
     - accesskey-ca-viewsource
     - accesskey-ca-watch
     - accesskey-compareselectedversions
@@ -370,6 +371,7 @@ TAGS:
     - accesskey-minoredit
     - accesskey-n-currentevents
     - accesskey-n-help
+    - accesskey-n-help-mediawiki
     - accesskey-n-mainpage
     - accesskey-n-mainpage-description
     - accesskey-n-portal
@@ -515,6 +517,7 @@ TAGS:
     - newuserlog-create2-entry
     - noarticletextanon
     - nocookiesforlogin
+    - nstab-talk
     - number-of-watching-users-for-recent-changes
     - opensearch-desc
     - overwroteimage
@@ -593,6 +596,16 @@ TAGS:
     - talkpageheader
     - talkpagetext
     - today-at
+    - tooltip-ca-view
+    - tooltip-p-lang
+    - tooltip-p-navigation
+    - tooltip-p-namespaces
+    - tooltip-p-tb
+    - tooltip-p-variants
+    - tooltip-p-views
+    - tooltip-p-user-interface-preferences
+    - tooltip-p-user-pager
+    - tooltip-n-help-mediawiki
     - unblock-summary
     - uncategorizedcategories-summary
     - uncategorizedimages-summary
