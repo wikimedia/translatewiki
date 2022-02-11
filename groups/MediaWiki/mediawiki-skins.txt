@@ -78,7 +78,7 @@ Modern
 optional = modern.css, modern.js
 
 MonoBook
-optional = monobook.css, monobook.js
+optional = monobook.css, monobook.js, monobook-action-addsection
 
 Nimbus
 ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
