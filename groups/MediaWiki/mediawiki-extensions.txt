@@ -3719,7 +3719,9 @@ id = ext-wikispeech-speechdatacollector-api
 file = WikispeechSpeechDataCollector/i18n/api/%CODE%.json
 descmsg = wikispeech-sdc-desc
 
-# Wikistories // 2021-12-04: no message files
+Wikistories
+aliasfile = Wikistories/Wikistories.i18n.alias.php
+optional = wikistories-extensionname
 
 # Windows Azure SDK // 2017-06-15: Archived
 
