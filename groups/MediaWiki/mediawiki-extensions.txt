@@ -2205,6 +2205,7 @@ OATH Auth - User interface
 id = ext-oathauth-user
 file = OATHAuth/i18n/%CODE%.json
 aliasfile = OATHAuth/OATHAuth.alias.php
+ignored = oathauth-notifications-disable-helplink
 optional = oath
 
 OATH Auth - API
