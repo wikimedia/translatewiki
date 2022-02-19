@@ -95,6 +95,7 @@ $wgExtraLanguageNames['rcf'] = 'Kreol Réyoné'; # Réunion Creole French / 2014
 $wgExtraLanguageNames['rej'] = 'Jang'; # Rejang / Amir 2019-05-13
 $wgExtraLanguageNames['rki'] = 'ရခိုင်'; # Rakhine / Siebrand 2010-10-14
 $wgExtraLanguageNames['rmf'] = 'kaalengo tšimb'; # Romani language spoken in Finland / Nike 2014-03-05
+$wgExtraLanguageNames['rsk'] = 'руски'; # Rusyn (Pannonian) / Amir 2022-02-19
 $wgExtraLanguageNames['rtm'] = 'Faeag Rotuma'; # Rotuman
 $wgExtraLanguageNames['ruq-grek'] = 'Megleno-Romanian (Greek script)'; # Megleno-Romanian (Greek script) / Siebrand 2009-09-23
 $wgExtraLanguageNames['rut'] = 'мыхӀабишды'; # Rutul / Robin 2012-07-24
