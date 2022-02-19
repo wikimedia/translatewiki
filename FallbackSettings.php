@@ -28,6 +28,7 @@ $wgTranslateLanguageFallbacks['bfq'] = [ 'kn', 'ta' ];
 $wgTranslateLanguageFallbacks['bft'] = 'ur';
 $wgTranslateLanguageFallbacks['bkm'] = 'fr';
 $wgTranslateLanguageFallbacks['bm'] = 'nqo';
+$wgTranslateLanguageFallbacks['bum'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['bxr'] = [ 'mn', 'xal' ];
 $wgTranslateLanguageFallbacks['bzj'] = [ 'jam', 'es' ];
 $wgTranslateLanguageFallbacks['cak'] = [ 'es' ];
