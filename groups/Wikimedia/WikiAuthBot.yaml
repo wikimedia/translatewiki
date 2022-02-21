@@ -1,0 +1,23 @@
+---
+BASIC:
+  id: wikiauthbot
+  label: WikiAuthBot
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikiauthbot/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikiauthbot-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wikiauthbot/Wiki/languages/%CODE%.json"
+
+VALIDATORS:
+  - id: InsertableRegex
+    insertable: true
+    enforce: false
+    params: \b[A-Z0-9\#]{2,}\b
