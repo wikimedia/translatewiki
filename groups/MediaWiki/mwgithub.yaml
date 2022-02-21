@@ -781,6 +781,10 @@ MANGLER:
     - action-*
     - apihelp-*
 
+TAGS:
+  optional:
+    - datadump
+
 ---
 BASIC:
   id: mwgithub-globalnewfiles
