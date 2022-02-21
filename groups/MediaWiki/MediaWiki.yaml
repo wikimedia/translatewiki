@@ -81,6 +81,7 @@ TEMPLATE:
 
   INSERTABLES:
     - class: MediaWikiInsertablesSuggester
+    - class: UrlInsertablesSuggester
 
 ---
 BASIC:
