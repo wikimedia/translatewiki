@@ -103,6 +103,8 @@ Timeless
 optional = skinname-timeless, timeless.css, timeless.js
 ignored = timeless-sitetitle
 
+Tuleap Skin
+
 Truglass
 ignored = truglass-footertext
 

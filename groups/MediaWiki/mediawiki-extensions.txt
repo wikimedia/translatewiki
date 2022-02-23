@@ -3215,6 +3215,10 @@ optional = translationnotifications-generic-languages
 
 Trusted XFF
 
+Tuleap Integration
+
+Tuleap Wiki Farm
+
 Tweet A New
 magicfile = TweetANew/TweetANew.i18n.magic.php
 ignored = tweetanew-accesskey
