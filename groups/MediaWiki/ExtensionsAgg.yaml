@@ -699,6 +699,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-wikistories
+  label: Wikistories
+  description: '{{Special:MyLanguage/MediaWiki:Wikistories-desc/en}}'
+
+GROUPS:
+  - ext-wikistories-*
+
+---
+BASIC:
   id: mwgithub-recordwizard-agg
   label: Record Wizard
   description: '{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}'

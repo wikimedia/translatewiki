@@ -3719,9 +3719,15 @@ id = ext-wikispeech-speechdatacollector-api
 file = WikispeechSpeechDataCollector/i18n/api/%CODE%.json
 descmsg = wikispeech-sdc-desc
 
-Wikistories
+Wikistories - User interface
+id = ext-wikistories-user
+file = Wikistories/i18n/%CODE%.json
 aliasfile = Wikistories/Wikistories.alias.special.php
 optional = wikistories-extensionname
+
+Wikistories - API
+id = ext-wikistories-api
+file = Wikistories/i18n/api/%CODE%.json
 
 # Windows Azure SDK // 2017-06-15: Archived
 
