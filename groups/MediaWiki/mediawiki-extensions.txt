@@ -3722,7 +3722,7 @@ file = WikispeechSpeechDataCollector/i18n/api/%CODE%.json
 descmsg = wikispeech-sdc-desc
 
 Wikistories
-aliasfile = Wikistories/Wikistories.i18n.alias.php
+aliasfile = Wikistories/Wikistories.alias.special.php
 optional = wikistories-extensionname
 
 # Windows Azure SDK // 2017-06-15: Archived
