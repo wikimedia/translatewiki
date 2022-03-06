@@ -1110,8 +1110,6 @@ languages = +es-419
 
 Double Wiki
 
-Download Counter
-
 DPL forum
 
 Drafts
