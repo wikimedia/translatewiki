@@ -110,6 +110,7 @@ $wgExtraLanguageNames['syl'] = 'ꠍꠤꠟꠐꠤ'; # Sylheti / Amir 2020-04-16
 $wgExtraLanguageNames['tji'] = 'pi tsi kha'; # Northern Tujia / 2016-06-22
 $wgExtraLanguageNames['tkr'] = 'ЦӀаӀхна миз'; # Tsakhur / Siebrand 2011-04-26
 $wgExtraLanguageNames['tly-cyrl'] = 'толыши'; # Talysh (Cyrillic) / Amir 2021-12-24
+$wgExtraLanguageNames['tok'] = 'toki pona'; # Toki Pona / Samtar 2022-03-08
 $wgExtraLanguageNames['trp'] = 'Kokborok (Tripuri)'; # Kokborok
 $wgExtraLanguageNames['tsd'] = 'Τσακωνικά'; # Tsakonian / Siebrand 2009-08-20
 $wgExtraLanguageNames['ttt'] = 'Tati'; # Tat / Siebrand 2008-04-04
