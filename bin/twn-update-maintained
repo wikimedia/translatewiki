@@ -4,5 +4,5 @@ set -o nounset -o pipefail -o errexit
 . /etc/wikisettings
 
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
-"$DIRSCRIPT/wikiupdate" "$WORKDIR"/extensions/{Translate,UniversalLanguageSelector,CleanChanges,TwnMainPage}
+"$DIRSCRIPT/wikiupdate" "$WORKDIR"/extensions/{Translate,UniversalLanguageSelector,CleanChanges,TwnMainPage,Babel}
 "$DIRSCRIPT/udpcast" "updated $WIKINAME (self-maintained extensions)"
