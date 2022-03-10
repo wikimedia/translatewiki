@@ -28,6 +28,7 @@ GROUPS:
   - ext-confirmeditfancycaptcha-api
   - ext-contenttranslation-api
   - ext-di-gc-api
+  - ext-discussiontools-api
   - ext-echo-api
   - ext-eventstreamconfig # https://phabricator.wikimedia.org/rOMWC1812a7fdc2029e01ed7abbfdeb7920c807017c73
   - ext-extensiondistributor-api
