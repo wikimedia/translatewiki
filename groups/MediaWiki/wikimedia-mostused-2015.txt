@@ -236,7 +236,7 @@ rcshowhideanons-hide
 rcshowhideminor-hide
 rcshowhidemine-hide
 rcshowhidebots-show
-view-foreign
+skin-view-foreign
 showdiff
 enhancedrc-history
 upload-disallowed-here
