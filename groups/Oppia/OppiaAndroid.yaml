@@ -38,6 +38,7 @@ TEMPLATE:
       - en
       - hi
       - pt-br
+      - sw
 
   MANGLER:
     class: StringMatcher
