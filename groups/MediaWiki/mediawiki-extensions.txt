@@ -1666,8 +1666,6 @@ optional = imagemap_desc_types
 
 Image Rating
 
-Image Suggestions
-
 # Image Tagging // Archived, https://gerrit.wikimedia.org/r/#/c/387107/
 
 Image Tweaks
