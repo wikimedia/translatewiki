@@ -37,6 +37,24 @@ TAGS:
     - bootstrap-components-tracking-category
 ---
 BASIC:
+  id: mwgithub-automated-values
+  label: Automated Values
+  description: "{{Special:MyLanguage/MediaWiki:Automated-values-description/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/AutomatedValues/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/AutomatedValues/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - automated-values-name
+---
+BASIC:
   id: mwgithub-external-content
   label: External Content
   description: "{{Special:MyLanguage/MediaWiki:External-content-desc/en}}"

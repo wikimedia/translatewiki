@@ -1,4 +1,5 @@
 # Maintained in GitHub. See mwgithub.yaml for an accurate list.
+# Automated Values
 # External Content
 # ID Generator
 # Maps

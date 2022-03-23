@@ -563,6 +563,10 @@ mwgithub:
       type: github
       url: https://github.com/oetterer/BootstrapComponents.git
       url|export: git@github.com:oetterer/BootstrapComponents.git
+    mwgithub/ProfessionalWiki/AutomatedValues:
+      type: github
+      url: https://github.com/ProfessionalWiki/AutomatedValues.git
+      url|export: git@github.com:ProfessionalWiki/AutomatedValues.git
     mwgithub/ProfessionalWiki/chameleon:
       type: github
       url: https://github.com/ProfessionalWiki/chameleon.git
