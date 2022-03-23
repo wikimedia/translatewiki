@@ -29,4 +29,9 @@ class repong::autobackport (
     branch => 'REL1_37',
     when   => 'Wed 06:30:00',
   }
+
+  repong::autobackport_mediawiki_timer { 'REL1_38':
+    branch => 'REL1_38',
+    when   => 'Thu 06:30:00',
+  }
 }
