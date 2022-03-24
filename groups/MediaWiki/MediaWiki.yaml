@@ -438,6 +438,7 @@ TAGS:
     - changepassword-summary
     - comparepages-summary
     - contributions-summary
+    - copyupload-allowed-domains
     - createaccount-hook-abort
     - createaccount-hook-aborted
     - createacct-benefit-head1
