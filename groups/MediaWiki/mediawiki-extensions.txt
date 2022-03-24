@@ -974,8 +974,6 @@ optional = dt_filetype_xml, dt_filetype_csv
 
 Date Diff
 
-# Debate Tree // 2019-11-02: Open question about CAPS spelling in Gerrit:546687
-
 Debug Mode
 
 Debug Templates
