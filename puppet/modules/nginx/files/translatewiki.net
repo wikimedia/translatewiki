@@ -33,7 +33,7 @@ server {
 	location /x {
 		internal;
 	}
-	location ~ ^/[xw]/(cache|mw-config|includes|maintenance|languages|docs|vendor)/ {
+	location ~ ^/[xw]/(cache|config|docs|includes|languages|maintenance|mw-config|tests|vendor)/ {
 		deny all;
 	}
 

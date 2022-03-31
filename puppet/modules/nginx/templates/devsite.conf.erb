@@ -27,7 +27,7 @@ server {
 		rewrite ^ "/w/index.php?title=Special:RecentChanges&translations=&feed=atom";
 	}
 
-	location ~ ^/w/(cache|mw-config|includes|maintenance|languages|docs)/ {
+	location ~ ^/w/(cache|config|docs|includes|languages|maintenance|mw-config|tests|vendor)/ {
 		deny all;
 	}
 
