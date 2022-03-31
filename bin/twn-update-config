@@ -5,4 +5,5 @@ set -o nounset -o pipefail -o errexit
 
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 sudo -u "$REPOUSER" "$DIRSCRIPT/wikiupdate-repo" "$CONFDIR"
+sudo -u "$REPOUSER" rsync -r "$CONFDIR/mw-config/" "$WORKDIR/config"
 sudo -u "$MAINTUSER" sudo /usr/sbin/service mw-jobrunner restart

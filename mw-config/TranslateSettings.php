@@ -13,7 +13,7 @@ $wgTranslateNewsletterPreference = true;
 $wgTranslateEnableMessageBundleIntegration = true;
 
 $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
-$wgTranslateValidationExclusionFile = "$GROUPS/validation-exclusion-list.php";
+$wgTranslateValidationExclusionFile = __DIR__ . "/validation-exclusion-list.php";
 
 $lqtParams = [
 	'lqt_method' => 'talkpage_new_thread',
