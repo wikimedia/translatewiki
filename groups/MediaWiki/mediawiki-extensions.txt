@@ -1286,11 +1286,6 @@ id = ext-flaggedrevs-pendingchanges
 file = FlaggedRevs/i18n/pendingchanges/%CODE%.json
 descmsg = flaggedrevs-desc
 
-Flagged Revisions - Quality Oversight
-id = ext-flaggedrevs-qualityoversight
-file = FlaggedRevs/i18n/qualityoversight/%CODE%.json
-descmsg = flaggedrevs-desc
-
 Flagged Revisions - Revision Review
 id = ext-flaggedrevs-revisionreview
 file = FlaggedRevs/i18n/revisionreview/%CODE%.json
