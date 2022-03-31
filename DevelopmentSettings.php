@@ -1,1 +1,0 @@
-mw-config/DevelopmentSettings.php
