@@ -5,6 +5,11 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikiauthbot/en}}"
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
+  support:
+    url: https://github.com/1VORK/WikiAuthBot/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
 
 MANGLER:
   class: StringMatcher
