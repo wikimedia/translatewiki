@@ -105,27 +105,6 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/blockpageschecker/%CODE%.json"
 ---
 BASIC:
-  id: out-pywikipedia-capitalizeredirects
-  label: Pywikibot Capitalize Redirects
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/capitalize_redirects/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-casechecker
-  label: Pywikibot Casechecker
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/casechecker/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-catall
-  label: Pywikibot Catall
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/catall/%CODE%.json"
----
-BASIC:
   id: out-pywikipedia-category
   label: Pywikibot Category
 
@@ -154,25 +133,11 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/clean_sandbox/%CODE%.json"
 ---
 BASIC:
-  id: out-pywikipedia-commons
-  label: Pywikibot Commons
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/commons/%CODE%.json"
----
-BASIC:
   id: out-pywikipedia-commonscat
   label: Pywikibot Commons Cat
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/commonscat/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-commonslink
-  label: Pywikibot Commons Link
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/commons_link/%CODE%.json"
 ---
 BASIC:
   id: out-pywikipedia-cosmeticchanges
@@ -189,13 +154,6 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/delete/%CODE%.json"
 ---
 BASIC:
-  id: out-pywikipedia-disambredir
-  label: Pywikibot Disambig Redirects
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/disambredir/%CODE%.json"
----
-BASIC:
   id: out-pywikipedia-djvutext
   label: Pywikibot DjVu Text
 
@@ -203,25 +161,11 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/djvutext/%CODE%.json"
 ---
 BASIC:
-  id: out-pywikipedia-editarticle
-  label: Pywikibot Edit Article
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/editarticle/%CODE%.json"
----
-BASIC:
   id: out-pywikipedia-fixingredirects
   label: Pywikibot Fixing Redirects
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/fixing_redirects/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-followlive
-  label: Pywikibot Follow Live
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/followlive/%CODE%.json"
 ---
 BASIC:
   id: out-pywikipedia-image
@@ -256,32 +200,11 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/interwikidata/%CODE%.json"
 ---
 BASIC:
-  id: out-pywikipedia-isbn
-  label: Pywikibot ISBN
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/isbn/%CODE%.json"
----
-BASIC:
   id: out-pywikipedia-listpages
   label: Pywikibot List Pages
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/listpages/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-lonelypages
-  label: Pywikibot Lonely Pages Checker
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/lonelypages/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-makecat
-  label: Pywikibot Make Cat
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/makecat/%CODE%.json"
 ---
 BASIC:
   id: out-pywikipedia-misspelling
@@ -298,13 +221,6 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/movepages/%CODE%.json"
 ---
 BASIC:
-  id: out-pywikipedia-ndashredir
-  label: Pywikibot Ndash Redir
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/ndashredir/%CODE%.json"
----
-BASIC:
   id: out-pywikipedia-noreferences
   label: Pywikibot No References
 
@@ -317,13 +233,6 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/pagefromfile/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-piper
-  label: Pywikibot Piper
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/piper/%CODE%.json"
 ---
 BASIC:
   id: out-pywikipedia-protect
@@ -358,13 +267,6 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/reflinks/%CODE%.json"
 ---
 BASIC:
-  id: out-pywikipedia-removeedpimages
-  label: Pywikibot Remove edp Images
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/remove_edp_images/%CODE%.json"
----
-BASIC:
   id: out-pywikipedia-replace
   label: Pywikibot Replace
 
@@ -379,53 +281,11 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/revertbot/%CODE%.json"
 ---
 BASIC:
-  id: out-pywikipedia-selflink
-  label: Pywikibot Selflink
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/selflink/%CODE%.json"
----
-BASIC:
   id: out-pywikipedia-solvedisambiguation
   label: Pywikibot Solve Disambiguation
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/solve_disambiguation/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-spamremove
-  label: Pywikibot Spam Remove
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/spamremove/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-spellcheck
-  label: Pywikibot Spellcheck
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/spellcheck/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-standardizeinterwiki
-  label: Pywikibot Standardize Interwiki
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/standardize_interwiki/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-statesredirect
-  label: Pywikibot States Redirect
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/states_redirect/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-table2wiki
-  label: Pywikibot Table2Wiki
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/table2wiki/%CODE%.json"
 ---
 BASIC:
   id: out-pywikipedia-template
@@ -437,13 +297,6 @@ FILES:
 TAGS:
   optional:
     - template-comma
----
-BASIC:
-  id: out-pywikipedia-thirdparty
-  label: Pywikibot Third Party
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/thirdparty/%CODE%.json"
 ---
 BASIC:
   id: out-pywikipedia-transferbot
@@ -458,13 +311,6 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/undelete/%CODE%.json"
----
-BASIC:
-  id: out-pywikipedia-unlink
-  label: Pywikibot Unlink
-
-FILES:
-  sourcePattern: "%GROUPROOT%/pywikibot/unlink/%CODE%.json"
 ---
 BASIC:
   id: out-pywikipedia-unprotect
