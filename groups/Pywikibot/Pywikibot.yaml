@@ -154,6 +154,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/delete/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-delinker
+  label: Pywikibot Delinker
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/delinker/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-djvutext
   label: Pywikibot DjVu Text
 
