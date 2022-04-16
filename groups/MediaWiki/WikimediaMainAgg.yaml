@@ -36,7 +36,6 @@ GROUPS:
   - ext-globalwatchlist # https://phabricator.wikimedia.org/rOMWC77651abcbd2e51586633ff6dd574e03d74e1ff5c
   - ext-imagemap
   - ext-inputbox
-  - ext-intersection # aka DPL aka DynamicPageList
   - ext-jquery-uls
   - ext-kartographer-user
   - ext-loginnotify

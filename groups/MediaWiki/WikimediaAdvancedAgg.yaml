@@ -51,6 +51,7 @@ GROUPS:
   - ext-growthexperiments-helppanel
   - ext-growthexperiments-homepage
   - ext-guidedtour # 2013-01-31 for 15 projects
+  - ext-intersection # aka DPL aka DynamicPageList
   - ext-interwiki
   - ext-interwikisorting # https://phabricator.wikimedia.org/rOMWCdd2a7f08ba44692418fc4b13a467f574f46e2396
   - ext-josa
