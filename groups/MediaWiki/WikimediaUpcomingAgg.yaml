@@ -8,6 +8,7 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
+  - ext-capiunto # wikidataclient-test
   - ext-chessbrowser # https://phabricator.wikimedia.org/rOMWCba8b786c7f3a290f0747a6859fd07502eb83108f
   - ext-growthexperiments-mentorship # https://phabricator.wikimedia.org/rOMWC0208fc2b71863c91c3e767373d4bea1a2eaf178d
   - ext-growthexperiments-mentorship-api # https://phabricator.wikimedia.org/rOMWC0208fc2b71863c91c3e767373d4bea1a2eaf178d

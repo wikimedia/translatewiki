@@ -12,7 +12,6 @@ GROUPS:
   - ext-articlecreationworkflow # https://phabricator.wikimedia.org/rOMWCcacbf4b98500559e529b770b0c2c8bdd2ee49ec4
   - ext-articleplaceholder # 2016-02-09
   - ext-bouncehandler-user # 2014-11-05 Change-Id: I64c09d17146bf9a3cee582fcea0e19aed6f4ce3d
-  - ext-capiunto # wikidataclient-test
   - ext-centralauth-user
   - ext-centralnotice-user
   - ext-charinsert
