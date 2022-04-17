@@ -812,6 +812,13 @@ ignored = coll-suggest_enabled
 ignored = coll-user_book_prefix, coll-community_book_prefix
 optional = coll-setting-papersize-a4
 optional = coll-setting-columns-1, coll-setting-columns-2
+optional = coll-format-rl
+optional = coll-format-epub
+optional = coll-format-odf
+optional = coll-format-zim
+optional = coll-format-docbook
+optional = coll-format-okawix_zeno
+optional = coll-format-rdf2latex
 
 Collection - API
 id = ext-collection-api
