@@ -117,6 +117,9 @@ and
 upload
 vector-view-history
 cactions
+move
+newtitle
+movereason
 mainpage-description
 vector-view-edit
 recentchangeslinked-toolbox
@@ -142,7 +145,6 @@ citethispage-link
 coll-print_export
 contactpage
 revisionasof
-show-big-image-size
 nbytes
 tag-list-wrapper
 viewsourcelink
@@ -186,7 +188,6 @@ vector-view-create
 blocklink
 editlink
 recentchangeslinked-summary
-file-info-size
 nstab-category
 show-big-image-preview
 show-big-image
@@ -265,7 +266,6 @@ search-section
 search-showingresults
 noarticletext-nopermission
 recentchanges-summary
-captcha-label
 license-header
 hide
 fancycaptcha-accountcreate
@@ -335,7 +335,6 @@ nstab-template
 fancycaptcha-reload-text
 badtitletext
 watch
-svg-long-desc
 fancycaptcha-imgcaptcha-ph
 fancycaptcha-captcha
 visualeditor-ca-createsource
@@ -462,7 +461,6 @@ search-result-category-size
 create
 newmessageslinkplural
 newmessagesdifflinkplural
-move
 duration-days
 content-model-wikitext
 watchlist
@@ -470,7 +468,6 @@ history-feed-title
 history-feed-description
 prefixindex
 nstab-mediawiki
-clearyourcache
 restriction-edit
 speciallogtitlelabel
 restriction-move
@@ -547,7 +544,12 @@ imgmultipageprev
 imgmultipagenext
 imgmultigoto
 imgmultigo
-file-info-size-pages
 filehist-nothumb
 rcshowhidepatr
 listfiles
+discussiontools-replylink
+discussiontools-replywidget-cancel
+discussiontools-replywidget-reply
+discussiontools-replywidget-mode-source
+discussiontools-replywidget-mode-visual
+discussiontools-replywidget-placeholder-reply
