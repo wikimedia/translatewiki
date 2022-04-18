@@ -148,8 +148,6 @@ citethispage-link
 coll-print_export
 contactpage
 revisionasof
-nbytes
-tag-list-wrapper
 viewsourcelink
 editundo
 searchresults-title
