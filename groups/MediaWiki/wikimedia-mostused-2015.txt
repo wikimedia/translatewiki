@@ -50,6 +50,9 @@ november-gen
 december-gen
 mainpage
 mainpage-nstab
+htmlform-submit
+ok
+cancel
 editsection
 red-link-title
 talkpagelinktext
@@ -246,7 +249,6 @@ recentchangeslinked-title
 wm-license-information-date
 contributions
 wm-license-information-source
-cancel
 wm-license-information-description
 visualeditor-descriptionpagelink
 showpreview
