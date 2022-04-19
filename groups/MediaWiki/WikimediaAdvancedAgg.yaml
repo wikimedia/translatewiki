@@ -30,6 +30,7 @@ GROUPS:
   - ext-eventlogging # Change-Id: 1fc99b92c1692515295e8c7bb7c757112531c330
   - ext-extensiondistributor-user # MediaWiki.org
   - ext-externalguidance # Deployed enwiki https://phabricator.wikimedia.org/rOMWCdb356d5c20d33a5b83e99a97de50749a7cd1cff0
+  - ext-featuredfeeds-user # r110030 for all projects
   - ext-flaggedrevs-flaggedrevs
   - ext-flaggedrevs-configuredpages
   - ext-flaggedrevs-pendingchanges
