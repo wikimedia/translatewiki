@@ -96,7 +96,7 @@ etherpad-lite:
     etherpad-lite:
       type: github
       branch: develop
-      url: git://github.com/ether/etherpad-lite.git
+      url: https://github.com/ether/etherpad-lite.git
       url|export: git@github.com:ether/etherpad-lite.git
     ether/ep_adminpads2:
       type: github
