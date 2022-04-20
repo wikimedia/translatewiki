@@ -137,6 +137,7 @@ $wgTranslateLanguageFallbacks['tji'] = 'zh-hans';
 $wgTranslateLanguageFallbacks['tkr'] = 'ru';
 $wgTranslateLanguageFallbacks['tly'] = [ 'tly-cyrl', 'az', 'azb', 'fa', 'ru' ];
 $wgTranslateLanguageFallbacks['tly-cyrl'] = [ 'tly', 'az', 'azb', 'fa', 'ru' ];
+$wgTranslateLanguageFallbacks['trp'] = [ 'bn', 'as', 'brx', 'hi' ];
 $wgTranslateLanguageFallbacks['tru'] = 'arc'; # Robin 2012-02-18
 $wgTranslateLanguageFallbacks['tsd'] = 'el';
 $wgTranslateLanguageFallbacks['tw'] = [ 'fat', 'ak' ];
