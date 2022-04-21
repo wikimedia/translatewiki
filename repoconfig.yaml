@@ -287,6 +287,11 @@ kiwix:
       pull-branch: translatewiki
       url: https://github.com/kiwix/kiwix-desktop.git
       url|export: git@github.com:kiwix/kiwix-desktop.git
+    kiwix-serve:
+      type: github
+      pull-branch: translatewiki
+      url: https://github.com/kiwix/libkiwix.git
+      url|export: git@github.com:kiwix/libkiwix.git
 
 lib.reviews:
   group: lib.reviews
