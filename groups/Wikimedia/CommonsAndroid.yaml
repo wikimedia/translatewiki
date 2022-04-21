@@ -30,11 +30,12 @@ TEMPLATE:
       sr-ec: sr
       sr-el: b+sr+Latn
       tg-cyrl: b+tg+Cyrl
+      tt-cyrl: b+tt+Cyrl
       ug-arab: ug
       yi: ji
       zh-hans: zh
       zh-hant: zh-rTW
-      tt-cyrl: b+tt+Cyrl
+      zh-hk: zh-rHK
 
   MANGLER:
     class: StringMatcher
