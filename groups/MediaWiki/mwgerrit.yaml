@@ -50,6 +50,19 @@ FILES:
 
 TAGS:
   optional:
+    - visualeditor-key-alt
+    - visualeditor-key-backspace
+    - visualeditor-key-ctrl
+    - visualeditor-key-delete
+    - visualeditor-key-end
+    - visualeditor-key-escape
+    - visualeditor-key-home
+    - visualeditor-key-insert
+    - visualeditor-key-meta
+    - visualeditor-key-page-down
+    - visualeditor-key-page-up
+    - visualeditor-key-shift
+    - visualeditor-key-tab
     - visualeditor-specialcharacter-group-set-*
     - visualeditor-dimensionswidget-px
     - visualeditor-dimensionswidget-times
