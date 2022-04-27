@@ -279,7 +279,7 @@ $wgHooks['GetPreferences'][] = static function ( User $user, array &$preferences
 };
 
 $wgResourceModules['twn.jserrorlog'] = [
-	'localBasePath' => __DIR__ . '/webfiles',
+	'localBasePath' => "$IP/webfiles",
 	'remoteBasePath' => "$wgScriptPath/webfiles",
 	'scripts' => 'twn.jserrorlog.js',
 ];
