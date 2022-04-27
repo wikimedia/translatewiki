@@ -15,3 +15,4 @@ GROUPS:
   - ext-ipinfo # https://phabricator.wikimedia.org/rOMWC5180f12ee74feae1024ae4ec45e19cd775c805b2
   - ext-stopforumspam # https://phabricator.wikimedia.org/rOMWCf3de027936c615d7a310793d85a836350fcdc1df
   - ext-wikilambda
+  - ext-wikistories # https://phabricator.wikimedia.org/rOMWC88ac6b94ff5acfbcd6a539e21b7454b6a38eaaba
