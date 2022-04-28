@@ -11,45 +11,33 @@ class profile::mwelasticsearch (
   apt::pin { 'elasticsearch':
     packages => [ 'elasticsearch', 'kibana' ],
     priority => 1000,
-    version  => '6.5.4',
+    version  => '6.8.23',
   }
 
   class { 'java': distribution => 'jre' }
 
   class { 'elastic_stack::repo':
     version => 6,
+    oss     => true,
   }
 
   class { 'elasticsearch':
-    version     => '6.5.4',
+    version     => '6.8.23',
+    oss         => true,
     jvm_options => [
       "-Xms${memory_limit}",
       "-Xmx${memory_limit}",
-      '#PrintGCDetails',
-      '#PrintGCDateStamps',
-      '#PrintTenuringDistribution',
-      '#PrintGCApplicationStoppedTime',
-      '#Xloggc',
-      '#UseGCLogFileRotation',
-      '#NumberOfGCLogFiles',
-      '#GCLogFileSize',
-      '#XX:UseConcMarkSweepGC',
     ],
   }
 
-  elasticsearch::instance { 'es-01': }
-
-  elasticsearch::plugin { 'org.wikimedia.search:extra:6.5.4':
-    instances  => 'es-01',
-    module_dir => 'extra'
+  elasticsearch::plugin { 'org.wikimedia.search:extra:6.8.23-wmf1':
   }
 
-  elasticsearch::plugin { 'org.wikimedia.search.highlighter:experimental-highlighter-elasticsearch-plugin:6.5.4.1':
-    instances  => 'es-01',
+  elasticsearch::plugin { 'org.wikimedia.search.highlighter:experimental-highlighter-elasticsearch-plugin:6.8.23':
     module_dir => 'experimental-highlighter'
   }
 
   class { 'kibana':
-    ensure => '6.5.4',
+    ensure => '6.8.23',
   }
 }

@@ -1,10 +1,9 @@
 forge "https://forgeapi.puppetlabs.com"
 
 mod 'camptocamp-systemd', '3.0.0'
-mod 'elastic-elasticsearch', '6.4.0'
-mod 'elastic-kibana',
-	:git => 'https://github.com/elastic/puppet-kibana.git',
-	:commit => '154284f2a848ace5afbcf6ebc9163c443631d377'
+mod 'puppet-elasticsearch', '8.0.2'
+mod 'puppet-elastic_stack', '8.0.0'
+mod 'puppet-kibana', '7.0.0'
 mod 'puppet-letsencrypt', '6.0.0'
 mod 'puppetlabs-firewall', '3.2.0'
 mod 'puppetlabs-java', '7.1.1'

@@ -9,13 +9,20 @@ FORGE
       puppetlabs-apt (>= 2.0.0, < 8.0.0)
       puppetlabs-stdlib (>= 4.13.1, < 7.0.0)
       puppetlabs-yumrepo_core (>= 1.0.0, < 2.0.0)
-    elastic-elasticsearch (6.4.0)
-      elastic-elastic_stack (>= 6.1.0, < 7.0.0)
-      puppetlabs-stdlib (>= 4.13.0, < 7.0.0)
-      richardc-datacat (>= 0.6.2, < 1.0.0)
     puppet-archive (5.0.0)
       puppetlabs-stdlib (>= 4.18.0, < 8.0.0)
+    puppet-elastic_stack (8.0.0)
+      puppet-yum (>= 0.9.6, < 6.0.0)
+      puppetlabs-apt (>= 2.0.0, < 9.0.0)
+      puppetlabs-stdlib (>= 4.13.1, < 9.0.0)
+    puppet-elasticsearch (8.0.2)
+      puppet-elastic_stack (>= 8.0.0, < 9.0.0)
+      puppetlabs-java (>= 1.0.0, < 9.0.0)
+      puppetlabs-stdlib (>= 4.13.0, < 9.0.0)
+      richardc-datacat (>= 0.6.2, < 1.0.0)
     puppet-epel (3.1.0)
+    puppet-kibana (7.0.0)
+      elastic-elastic_stack (>= 6.1.0, < 7.0.0)
     puppet-letsencrypt (6.0.0)
       puppet-epel (>= 3.0.1, < 4.0.0)
       puppetlabs-inifile (>= 2.0.0, < 5.0.0)
@@ -48,18 +55,11 @@ FORGE
     richardc-datacat (0.6.2)
     thias-sysctl (1.0.7)
 
-GIT
-  remote: https://github.com/elastic/puppet-kibana.git
-  ref: 154284f2a848ace5afbcf6ebc9163c443631d377
-  sha: 154284f2a848ace5afbcf6ebc9163c443631d377
-  specs:
-    elastic-kibana (6.3.1)
-      elastic-elastic_stack (>= 6.1.0, < 7.0.0)
-
 DEPENDENCIES
   camptocamp-systemd (= 3.0.0)
-  elastic-elasticsearch (= 6.4.0)
-  elastic-kibana (>= 0)
+  puppet-elastic_stack (= 8.0.0)
+  puppet-elasticsearch (= 8.0.2)
+  puppet-kibana (= 7.0.0)
   puppet-letsencrypt (= 6.0.0)
   puppetlabs-firewall (= 3.2.0)
   puppetlabs-java (= 7.1.1)
