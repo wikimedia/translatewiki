@@ -1109,7 +1109,7 @@ languages = +es-419
 
 Donation Interface - Paypal Gateway
 id = ext-di-ppg
-file = DonationInterface/paypal_gateway/i18n/%CODE%.json
+file = DonationInterface/paypal_ec_gateway/i18n/%CODE%.json
 # aliasfile = DonationInterface/paypal_gateway/paypal_gateway.alias.php
 descmsg = paypal_gateway-desc
 languages = +es-419
