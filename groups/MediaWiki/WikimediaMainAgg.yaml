@@ -33,6 +33,10 @@ GROUPS:
   - ext-globalusage-user # 2009-11-11: commons.wikimedia.org
   - ext-globaluserpage # 2015-02-05: Testwikis
   - ext-globalwatchlist # https://phabricator.wikimedia.org/rOMWC77651abcbd2e51586633ff6dd574e03d74e1ff5c
+  - ext-growthexperiments-helppanel
+  - ext-growthexperiments-homepage
+  - ext-growthexperiments-mentorship # https://phabricator.wikimedia.org/rOMWC0208fc2b71863c91c3e767373d4bea1a2eaf178d
+  - ext-growthexperiments-welcomesurvey
   - ext-inputbox
   - ext-jquery-uls
   - ext-kartographer-user

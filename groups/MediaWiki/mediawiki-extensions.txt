@@ -1550,17 +1550,12 @@ ignored = gravatar-extensionname
 
 Groups Sidebar
 
-Growth Experiments - User interface
-id = ext-growthexperiments-user
-file = GrowthExperiments/i18n/extension/%CODE%.json
-aliasfile = GrowthExperiments/GrowthExperiments.alias.php
-magicfile = GrowthExperiments/GrowthExperiments.i18n.magic.php
-
-Growth Experiments - Welcome Survey
-id = ext-growthexperiments-welcomesurvey
-file = GrowthExperiments/i18n/welcomesurvey/%CODE%.json
-ignored = welcomesurvey-sidebar-editing-link3-text, welcomesurvey-sidebar-editing-link3-title
-ignored = welcomesurvey-sidebar-editing-link4-text, welcomesurvey-sidebar-editing-link4-title
+Growth Experiments - Confirm Email
+id = ext-growthexperiments-confirmemail
+file = GrowthExperiments/i18n/confirmemail/%CODE%.json
+ignored = growthexperiments-recurringcampaign-title, growthexperiments-recurringcampaign-body
+ignored = growthexperiments-josacampaign-title, growthexperiments-josacampaign-body
+ignored = growthexperiments-glamcampaign-title, growthexperiments-glamcampaign-body
 
 Growth Experiments - Help Panel
 id = ext-growthexperiments-helppanel
@@ -1594,16 +1589,21 @@ Growth Experiments - Mentorship API
 id = ext-growthexperiments-mentorship-api
 file = GrowthExperiments/i18n/mentorship/api/%CODE%.json
 
-Growth Experiments - Confirm Email
-id = ext-growthexperiments-confirmemail
-file = GrowthExperiments/i18n/confirmemail/%CODE%.json
-ignored = growthexperiments-recurringcampaign-title, growthexperiments-recurringcampaign-body
-ignored = growthexperiments-josacampaign-title, growthexperiments-josacampaign-body
-ignored = growthexperiments-glamcampaign-title, growthexperiments-glamcampaign-body
-
 Growth Experiments - Newcomer Tasks API
 id = ext-growthexperiments-newcomertasks-api
 file = GrowthExperiments/i18n/newcomertasks/api/%CODE%.json
+
+Growth Experiments - User interface
+id = ext-growthexperiments-user
+file = GrowthExperiments/i18n/extension/%CODE%.json
+aliasfile = GrowthExperiments/GrowthExperiments.alias.php
+magicfile = GrowthExperiments/GrowthExperiments.i18n.magic.php
+
+Growth Experiments - Welcome Survey
+id = ext-growthexperiments-welcomesurvey
+file = GrowthExperiments/i18n/welcomesurvey/%CODE%.json
+ignored = welcomesurvey-sidebar-editing-link3-text, welcomesurvey-sidebar-editing-link3-title
+ignored = welcomesurvey-sidebar-editing-link4-text, welcomesurvey-sidebar-editing-link4-title
 
 Guided Tour
 optional = guidedtour-tour-test-wikitext-description
