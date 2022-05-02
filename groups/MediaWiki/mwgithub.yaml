@@ -453,20 +453,6 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticTasks/i18n/%CODE%.json"
 ---
 BASIC:
-  id: mwgithub-github
-  label: GitHub
-  description: "{{Special:MyLanguage/MediaWiki:Github-desc/en}}"
-  support:
-    url: https://github.com/JeroenDeDauw/GitHub/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/JeroenDeDauw/GitHub/i18n/%CODE%.json"
----
-BASIC:
   id: mwgithub-maps
   label: Maps
   description: "{{Special:MyLanguage/MediaWiki:Maps-desc/en}}"
