@@ -604,6 +604,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/SimpleBatchUpload.git
       url|export: git@github.com:ProfessionalWiki/SimpleBatchUpload.git
+    mwgithub/ProfessionalWiki/WikibaseEdtf:
+      type: github
+      url: https://github.com/ProfessionalWiki/WikibaseEdtf.git
+      url|export: git@github.com:ProfessionalWiki/WikibaseEdtf.git
     mwgithub/ProfessionalWiki/WikibaseLocalMedia:
       type: github
       url: https://github.com/ProfessionalWiki/WikibaseLocalMedia.git

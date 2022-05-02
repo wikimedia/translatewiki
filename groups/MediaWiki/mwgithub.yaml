@@ -572,6 +572,24 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/WhatsNearby/i18n/%CODE%.json"
 ---
 BASIC:
+  id: mwgithub-wikibaseedtf
+  label: Wikibase EDTF
+  description: "{{Special:MyLanguage/MediaWiki:Wbedtf-desc/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/WikibaseEdtf/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/WikibaseEdtf/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - wbedtf-name
+---
+BASIC:
   id: mwgithub-wikibaselocalmedia
   label: Wikibase Local Media
   description: "{{Special:MyLanguage/MediaWiki:Wblm-desc/en}}"
