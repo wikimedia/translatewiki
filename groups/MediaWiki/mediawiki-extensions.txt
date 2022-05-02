@@ -633,9 +633,6 @@ Bread Crumbs
 
 Calendar
 
-Campaign Events
-aliasfile = CampaignEvents/CampaignEvents.alias.php
-
 Campaigns
 
 Capiunto
