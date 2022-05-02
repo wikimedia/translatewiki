@@ -1427,8 +1427,6 @@ Git 2 Pages
 
 Git Gadgets
 
-Gitweb
-
 Global Blocking - API
 id = ext-globalblocking-api
 file = GlobalBlocking/i18n/api/%CODE%.json
