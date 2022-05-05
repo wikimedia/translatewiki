@@ -56,6 +56,10 @@ FILES:
   definitionFile: "%GROUPROOT%/kiwix-android/core/src/main/res/values/strings.xml"
   sourcePattern: "%GROUPROOT%/kiwix-android/core/src/main/res/values-%CODE%/strings.xml"
 
+TAGS:
+  ignored:
+    - android.ui.android_directory_seperator
+
 ---
 BASIC:
   id: kiwix-android-app
