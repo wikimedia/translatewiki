@@ -48,6 +48,7 @@ ignored = erudite-extracontent-column1, erudite-extracontent-column2, erudite-ex
 
 Gamepress
 ignored = gamepress-navigation, gamepress-prefooter-1, gamepress-prefooter-2, gamepress-prefooter-3
+optional = skinname-gamepress
 
 Grey Stuff
 
