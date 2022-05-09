@@ -45,7 +45,9 @@ TEMPLATE:
   VALIDATORS:
     - id: UnicodePlural
       enforce: true
-
+    - id: Printf
+      insertable: true
+      enforce: true
 ---
 BASIC:
   id: commons-android
