@@ -3,7 +3,7 @@
 require_once __DIR__ . '/FallbackSettings.php';
 require_once __DIR__ . '/LanguageSettings.php';
 
-$GROUPS = __DIR__ . '/../groups';
+$GROUPS = '/home/betawiki/config/groups';
 
 // 2015-05-18 Really broken now. Disabled.
 // $wgSpecialPages['Magic'] = 'SpecialMagic';
