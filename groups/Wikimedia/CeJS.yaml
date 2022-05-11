@@ -25,3 +25,4 @@ VALIDATORS:
     insertable: true
     enforce: true
     params: /%[A-Za-z1-9]%?/
+  - id: MediaWikiPlural
