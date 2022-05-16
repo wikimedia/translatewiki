@@ -918,6 +918,15 @@ wikiedudashboard:
       url: https://github.com/WikiEducationFoundation/WikiEduDashboard.git
       url|export: git@github.com:WikiEducationFoundation/WikiEduDashboard.git
 
+wikimedia-developer-portal:
+  group: wikimedia-developer-portal
+  repos:
+    wikimedia-developer-portal:
+      type: wmgerrit
+      branch: main
+      url: https://gerrit.wikimedia.org/r/wikimedia/developer-portal/
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/developer-portal
+
 wikimedia-github:
   group: copypatrol,grant-metrics,interaction-timeline,jquery-uls,svgtranslate,whowrotethat,wikimedia-ocr
   repos:

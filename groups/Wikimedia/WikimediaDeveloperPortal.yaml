@@ -1,0 +1,29 @@
+BASIC:
+  id: wikimedia-developer-portal
+  label: Wikimedia Developer Portal
+  icon: wiki://Wikimedia-logo.svg
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-developer-portal/en}}"
+  support:
+    url: https://phabricator.wikimedia.org/maniphest/task/edit/form/1/
+    params:
+      projects: i18n, wikimedia-developer-portal
+      title: Translation issue about message %MESSAGE%
+      description: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
+
+FILES:
+  class: GettextFFS
+  sourcePattern: "%GROUPROOT%/wikimedia-developer-portal/locale/%CODE%/LC_MESSAGES/mkdocs.po"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikimedia-developer-portal-
+  patterns:
+    - "*"
+
+INSERTABLES:
+  # Match markdown links []() and images ![]()
+  - class: RegexInsertablesSuggester
+    params: '/!?\[.+\]\(.+\)/'
+  - class: UrlInsertablesSuggester
