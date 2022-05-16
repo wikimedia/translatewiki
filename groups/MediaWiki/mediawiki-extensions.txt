@@ -1553,12 +1553,12 @@ Groups Sidebar
 Growth Experiments - Confirm Email
 id = ext-growthexperiments-confirmemail
 file = GrowthExperiments/i18n/confirmemail/%CODE%.json
-ignored = growthexperiments-recurringcampaign-title, growthexperiments-recurringcampaign-body
-ignored = growthexperiments-josacampaign-title, growthexperiments-josacampaign-body
-ignored = growthexperiments-glamcampaign-title, growthexperiments-glamcampaign-body
-ignored = growthexperiments-thankyoupage-title, growthexperiments-thankyoupage-body
-ignored = growthexperiments-thankyoupage-body-mobile, growthexperiments-thankyoupage-bullet1
-ignored = growthexperiments-thankyoupage-bullet2, growthexperiments-thankyoupage-bullet3
+optional = growthexperiments-recurringcampaign-title, growthexperiments-recurringcampaign-body
+optional = growthexperiments-josacampaign-title, growthexperiments-josacampaign-body
+optional = growthexperiments-glamcampaign-title, growthexperiments-glamcampaign-body
+optional = growthexperiments-thankyoupage-title, growthexperiments-thankyoupage-body
+optional = growthexperiments-thankyoupage-body-mobile, growthexperiments-thankyoupage-bullet1
+optional = growthexperiments-thankyoupage-bullet2, growthexperiments-thankyoupage-bullet3
 ignored = growthexperiments-marketingvideocampaign-title-mobile
 
 Growth Experiments - Help Panel
