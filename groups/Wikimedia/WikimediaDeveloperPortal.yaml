@@ -14,7 +14,7 @@ BASIC:
 
 FILES:
   class: GettextFFS
-  sourcePattern: "%GROUPROOT%/wikimedia-developer-portal/locale/%CODE%/LC_MESSAGES/mkdocs.po"
+  sourcePattern: "%GROUPROOT%/wikimedia-developer-portal/data/locale/%CODE%/LC_MESSAGES/mkdocs.po"
 
 MANGLER:
   class: StringMatcher
