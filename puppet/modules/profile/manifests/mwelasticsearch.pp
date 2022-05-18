@@ -9,7 +9,7 @@ class profile::mwelasticsearch (
 
   # Do not automatically upgrade these packages
   apt::pin { 'elasticsearch':
-    packages => [ 'elasticsearch', 'kibana' ],
+    packages => [ 'elasticsearch-oss', 'kibana-oss' ],
     priority => 1000,
     version  => '6.8.23',
   }
@@ -39,5 +39,6 @@ class profile::mwelasticsearch (
 
   class { 'kibana':
     ensure => '6.8.23',
+    oss    => true,
   }
 }
