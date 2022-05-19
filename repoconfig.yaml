@@ -920,6 +920,7 @@ wikiedudashboard:
 
 wikimedia-developer-portal:
   group: wikimedia-developer-portal
+  auto-merge: wikimedia/developer-portal
   repos:
     wikimedia-developer-portal:
       type: wmgerrit
