@@ -47,10 +47,11 @@ INSERTABLES:
   # $post will be ](example.md)
   # Optionally also catches Python markdown attribute list
   - class: RegexInsertablesSuggester
-    regex: '(?<pre>!?\[).+(?<post>\]\(.+\)(\{.+\})?)'
-    display: $pre$post
-    pre: $pre
-    post: $post
+    params:
+      regex: '(?<pre>!?\[).+(?<post>\]\(.+\)(\{.+\})?)'
+      display: $pre$post
+      pre: $pre
+      post: $post
   - class: UrlInsertablesSuggester
 
 TAGS:
