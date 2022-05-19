@@ -16,6 +16,25 @@ FILES:
   class: GettextFFS
   sourcePattern: "%GROUPROOT%/wikimedia-developer-portal/data/locale/%CODE%/LC_MESSAGES/mkdocs.po"
 
+  header: |
+    # Copyright (c) 2022 Wikimedia Foundation and contributors.
+    # All Rights Reserved.
+    #
+    # This file is part of Wikimedia Developer Portal.
+    # Wikimedia Developer Portal is free software: you can redistribute it and/or
+    # modify it under the terms of the GNU General Public License as published by
+    # the Free Software Foundation, either version 3 of the License, or (at your
+    # option) any later version.
+    #
+    # Wikimedia Developer Portal is distributed in the hope that it will be
+    # useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+    # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+    # Public License for more details.
+    #
+    # You should have received a copy of the GNU General Public License along with
+    # Wikimedia Developer Portal.  If not, see <http://www.gnu.org/licenses/>.
+    #
+
 MANGLER:
   class: StringMatcher
   prefix: wikimedia-developer-portal-
@@ -23,7 +42,21 @@ MANGLER:
     - "*"
 
 INSERTABLES:
-  # Match markdown links []() and images ![]()
+  # Match markdown links [](example.md) and images ![](example.md)
+  # $pre will be ![ or [
+  # $post will be ](example.md)
+  # Optionally also catches Python markdown attribute list
   - class: RegexInsertablesSuggester
-    params: '/!?\[.+\]\(.+\)/'
+    params: '(?<pre>!?\[).+(?<post>\]\(.+\)(\{.+\})?)'
+    display: $pre$post
+    pre: $pre
+    post: $post
   - class: UrlInsertablesSuggester
+
+TAGS:
+  ignored:
+    - wikimedia-developer-portal-87840f-%21%3D5B%3D5D%28%2Fassets%2Fbook.svg%3D23only-ligh
+    - wikimedia-developer-portal-6cff4d-%21%3D5B%3D5D%28%2Fassets%2Fchemistry.svg%3D23only
+    - wikimedia-developer-portal-37fb4c-%21%3D5B%3D5D%28%2Fassets%2Fcomputer.svg%3D23only-
+    - wikimedia-developer-portal-b3c3aa-%21%3D5B%3D5D%28%2Fassets%2Fworld.svg%3D23only-lig
+    - wikimedia-developer-portal-0af70f-%21%3D5B%3D5D%28%2Fassets%2FPenAndPaper.svg%3D23on
