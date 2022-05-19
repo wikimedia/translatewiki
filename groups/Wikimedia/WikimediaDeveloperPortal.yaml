@@ -48,7 +48,7 @@ INSERTABLES:
   # Optionally also catches Python markdown attribute list
   - class: RegexInsertablesSuggester
     params:
-      regex: '(?<pre>!?\[).+(?<post>\]\(.+\)(\{.+\})?)'
+      regex: /(?<pre>!?\[).+(?<post>\]\(.+\)(\{.+\})?)/
       display: $pre$post
       pre: $pre
       post: $post
