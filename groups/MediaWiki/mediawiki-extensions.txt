@@ -2004,6 +2004,8 @@ MediaWiki Farm
 
 # Memento // "timegate-..." message prefix
 
+Menu Editor
+
 Merge Articles
 descmsg = mergearticles-extension-desc
 aliasfile = MergeArticles/languages/MergeArticles.alias.php
