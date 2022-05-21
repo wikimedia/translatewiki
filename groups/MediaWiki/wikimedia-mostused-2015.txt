@@ -81,6 +81,8 @@ mobile-frontend-placeholder
 mobile-frontend-language-article-heading
 retrievedfrom
 searchsuggest-search
+searchsuggest-containing
+vector-searchsuggest-containing
 pt-login
 pt-createaccount
 edit
