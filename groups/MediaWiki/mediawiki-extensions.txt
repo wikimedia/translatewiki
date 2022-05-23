@@ -3568,6 +3568,10 @@ Wikibase Lexeme - API
 id = ext-wikibaselexeme-api
 file = WikibaseLexeme/i18n/api/%CODE%.json
 
+Wikibase Lexeme - Language names
+id = ext-wikibaselexeme-language-names
+file = WikibaseLexeme/i18n/language-names/%CODE%.json
+
 Wikibase Lexeme Cirrus Search
 descmsg = wikibaselexemecirrus-desc
 
