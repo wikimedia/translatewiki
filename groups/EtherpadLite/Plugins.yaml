@@ -120,11 +120,11 @@ FILES:
 
 ---
 BASIC:
-  id: etherpad-lite-plugin-ep_readonly_guest
-  label: Etherpad lite plugin Read-only guest
+  id: etherpad-lite-plugin-ep_guest
+  label: Etherpad lite plugin Guest
 
 FILES:
-  sourcePattern: "%GROUPROOT%/ether/ep_readonly_guest/locales/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/ether/ep_guest/locales/%CODE%.json"
 
 ---
 BASIC:

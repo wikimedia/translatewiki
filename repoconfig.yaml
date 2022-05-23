@@ -143,6 +143,11 @@ etherpad-lite:
       branch: main
       url: https://github.com/ether/ep_font_size.git
       url|export: git@github.com:ether/ep_font_size.git
+    ether/ep_guest:
+      type: github
+      branch: main
+      url: https://github.com/ether/ep_guest.git
+      url|export: git@github.com:ether/ep_guest.git
     ether/ep_headings2:
       type: github
       url: https://github.com/ether/ep_headings2.git
@@ -160,11 +165,6 @@ etherpad-lite:
       branch: main
       url: https://github.com/ether/ep_padlist2.git
       url|export: git@github.com:ether/ep_padlist2.git
-    ether/ep_readonly_guest:
-      type: github
-      branch: main
-      url: https://github.com/ether/ep_readonly_guest.git
-      url|export: git@github.com:ether/ep_readonly_guest.git
     ether/ep_set_title_on_pad:
       type: github
       branch: main
