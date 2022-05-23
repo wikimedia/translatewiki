@@ -330,7 +330,6 @@ BASIC:
 GROUPS:
   - ext-graph-*
 
-
 ---
 BASIC:
   id: ext-jsonconfig
@@ -641,7 +640,6 @@ BASIC:
 
 GROUPS:
   - ext-wikibaselexeme-*
-
 
 ---
 BASIC:
