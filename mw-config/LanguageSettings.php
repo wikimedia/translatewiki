@@ -83,7 +83,6 @@ $wgExtraLanguageNames['osi'] = 'Using'; # Osing / Amir 2019-08-31
 $wgExtraLanguageNames['ovd'] = 'övdalsk'; # Övdalian / Siebrand 2017-05-20
 $wgExtraLanguageNames['pap-aw'] = 'Papiamento'; # Aruba Papiamento / Amir 2021-02-25
 $wgExtraLanguageNames['pbb'] = 'Nasa Yuwe'; # Páez / Siebrand 2013-08-08
-$wgExtraLanguageNames['pcm'] = 'Naijá'; # Nigerian Pidgin / Amir 2021-10-03
 $wgExtraLanguageNames['pis'] = 'Pijin'; # Pijin / Siebrand 2011-08-25
 $wgExtraLanguageNames['pko'] = 'Pökoot'; # Pökoot
 $wgExtraLanguageNames['pov'] = 'guinensi'; # Guinea-Bissau Creole / Amir 2019-05-17
