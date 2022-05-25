@@ -3221,6 +3221,7 @@ optional = translationnotifications-generic-languages
 Trusted XFF
 
 Tuleap Integration
+aliasfile = TuleapIntegration/includes/TuleapIntegration.alias.php
 
 Tuleap Wiki Farm
 
