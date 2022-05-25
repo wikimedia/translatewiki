@@ -3138,12 +3138,8 @@ optional = timedmedia-resolution-360, timedmedia-resolution-480, timedmedia-reso
 optional = timedmedia-resolution-1080, timedmedia-resolution-1440, timedmedia-resolution-2160
 optional = beta-feature-timedmediahandler-message-videojs, timedmedia-subtitle-language
 
-Timed Media Handler - New Mw Embed Support
-file = TimedMediaHandler/i18n/MwEmbedSupport/%CODE%.json
-
 Timed Media Handler - Timed Text
 file = TimedMediaHandler/i18n/TimedText/%CODE%.json
-optional = mwe-timedtext-key-language
 
 Timed Media Handler - API
 file = TimedMediaHandler/i18n/api/%CODE%.json
