@@ -303,7 +303,6 @@ signature
 whatlinkshere-hideredirs
 whatlinkshere-hidetrans
 whatlinkshere-hidelinks
-whatlinkshere-filters
 userlogin-yourpassword
 userlogin-yourname-ph
 userlogin-yourname
