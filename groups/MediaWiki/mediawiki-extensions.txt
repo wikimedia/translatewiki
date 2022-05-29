@@ -3389,6 +3389,10 @@ id = ext-visualeditor-ve-mw-api
 file = VisualEditor/i18n/ve-mw/api/%CODE%.json
 ignored = apihelp-visualeditoredit-param-watchlist
 
+VisualEditor (MediaWiki extension) - Language Variants
+id = ext-visualeditor-ve-mw-languagevariants
+file = VisualEditor/i18n/ve-mw/mwlanguagevariant/%CODE%.json
+
 VisualEditor (WMF)
 id = ext-visualeditor-ve-wmf
 descmsg = visualeditor-desc
