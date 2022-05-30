@@ -135,6 +135,7 @@ $wgTranslateLanguageFallbacks['smj'] = [ 'nb' ];
 $wgTranslateLanguageFallbacks['smn'] = [ 'fi', 'sma' ];
 $wgTranslateLanguageFallbacks['sro'] = [ 'sc', 'it' ];
 $wgTranslateLanguageFallbacks['swb'] = 'sw';
+$wgTranslateLanguageFallbacks['tdd'] = [ 'zh-hant', 'my', 'mnw', 'th', 'shn', 'nod' ];
 $wgTranslateLanguageFallbacks['tji'] = 'zh-hans';
 $wgTranslateLanguageFallbacks['tkr'] = 'ru';
 $wgTranslateLanguageFallbacks['tly'] = [ 'tly-cyrl', 'az', 'azb', 'fa', 'ru' ];
