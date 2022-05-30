@@ -115,6 +115,7 @@ optional = vector.css, vector.js, vector-specialversion-name
 
 webplatform
 ignored = webplatform-bottom-footer
+optional = skinname-webplatform
 
 WikimediaApiPortal
 optional = wikimediaapiportal-skin-site-name-main, wikimediaapiportal-skin-site-name-sub
