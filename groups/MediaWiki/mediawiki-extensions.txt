@@ -1164,6 +1164,9 @@ Editcount Additions
 Edit User
 aliasfile = EditUser/EditUser.alias.php
 
+Enhanced Upload
+aliasfile = EnhancedUpload/languages/EnhancedUpload.i18n.alias.php
+
 Entity Schema
 aliasfile = EntitySchema/EntitySchema.i18n.alias.php
 ignored = entityschema-special-id-placeholder
@@ -1684,6 +1687,8 @@ ignored = imagetweaks-beta-preference-info-link, imagetweaks-beta-preference-dis
 Import Articles
 
 Import Free Images
+
+Import Office Files
 
 Import Users
 aliasfile = ImportUsers/ImportUsers.alias.php
