@@ -11,6 +11,7 @@ GROUPS:
   - ext-capiunto # wikidataclient-test
   - ext-chessbrowser # https://phabricator.wikimedia.org/rOMWCba8b786c7f3a290f0747a6859fd07502eb83108f
   - ext-ipinfo # https://phabricator.wikimedia.org/rOMWC5180f12ee74feae1024ae4ec45e19cd775c805b2
+  - ext-similareditors
   - ext-stopforumspam # https://phabricator.wikimedia.org/rOMWCf3de027936c615d7a310793d85a836350fcdc1df
   - ext-wikilambda
   - ext-wikistories # https://phabricator.wikimedia.org/rOMWC88ac6b94ff5acfbcd6a539e21b7454b6a38eaaba
