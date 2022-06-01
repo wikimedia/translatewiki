@@ -3509,7 +3509,7 @@ Wiki Text Logged In Out
 
 # Wiki To LDAP // 2021-01-22 very incomplete message documentation
 
-# Wiki Videos // 2022-04-11: no license
+Wiki Videos
 
 Wikibase - Client - User interface
 file = Wikibase/client/i18n/%CODE%.json
