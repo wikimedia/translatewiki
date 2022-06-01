@@ -2501,6 +2501,7 @@ aliasfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.alias.php
 magicfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.magic.php
 
 Phonos
+optional = phonos
 
 Php Highlight
 
