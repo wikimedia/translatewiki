@@ -1136,6 +1136,8 @@ Dynamic Page List Engine
 
 Dynamic Sidebar
 
+# Easy Wiki // 2022-06-01: Empty repo
+
 Echo - User interface
 file = Echo/i18n/%CODE%.json
 id = ext-echo-interface
@@ -2498,6 +2500,8 @@ Phab Task Graph
 aliasfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.alias.php
 magicfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.magic.php
 
+Phonos
+
 Php Highlight
 
 Php Tags
@@ -2654,6 +2658,8 @@ Regex Fun
 
 Regex Functions
 magicfile = RegexFunctions/RegexFunctions.i18n.magic.php
+
+# Regular Tooltips // 2022-06-01: no license
 
 Related Articles
 
