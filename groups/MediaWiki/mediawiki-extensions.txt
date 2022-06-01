@@ -2714,7 +2714,7 @@ Sarcasm
 Save Spinner
 
 Score
-optional = score-visualeditor-mwscoreinspector-lang-abc, score-visualeditor-mwscoreinspector-lang-lilypond
+optional = score-visualeditor-mwscoredialog-lang-abc, score-visualeditor-mwscoredialog-lang-lilypond
 
 Screenplay
 
