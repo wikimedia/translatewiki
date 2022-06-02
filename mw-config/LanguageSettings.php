@@ -106,7 +106,6 @@ $wgExtraLanguageNames['sro'] = 'sardu campidanesu'; # Campidanese Sardinian / Am
 $wgExtraLanguageNames['swb'] = 'Shikomoro'; # Comorian
 $wgExtraLanguageNames['sxu'] = 'Säggssch'; # Upper Saxon
 $wgExtraLanguageNames['syl'] = 'ꠍꠤꠟꠐꠤ'; # Sylheti / Amir 2020-04-16
-$wgExtraLanguageNames['tdd'] = 'ᥖᥭᥰᥖᥬᥳᥑᥨᥒᥰ'; # Tai Nüa / Amir 2022-05-30
 $wgExtraLanguageNames['tji'] = 'pi tsi kha'; # Northern Tujia / 2016-06-22
 $wgExtraLanguageNames['tkr'] = 'ЦӀаӀхна миз'; # Tsakhur / Siebrand 2011-04-26
 $wgExtraLanguageNames['tly-cyrl'] = 'толыши'; # Talysh (Cyrillic) / Amir 2021-12-24
