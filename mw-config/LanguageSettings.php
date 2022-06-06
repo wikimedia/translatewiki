@@ -37,7 +37,6 @@ $wgExtraLanguageNames['dar'] = 'дарган'; # Dargwa / Amir 2021-04-13
 $wgExtraLanguageNames['efi'] = 'efịk'; # Efik / Amir 2022-03-12
 $wgExtraLanguageNames['elm'] = 'Eleme'; # Eleme / Amir 2020-07-02
 $wgExtraLanguageNames['esu'] = 'Yup\'ik'; # Central Alaskan Yupik / Siebrand 2011-02-14
-$wgExtraLanguageNames['fat'] = 'mfantse'; # Fante / Amir 2022-02-21
 $wgExtraLanguageNames['fax'] = 'Fala'; # Fala / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['gah'] = 'Alekano'; # Alekano / Siebrand 2010-10-08
 $wgExtraLanguageNames['gbm'] = 'गढ़वळि'; # Garhwali / Amir 2020-03-14
