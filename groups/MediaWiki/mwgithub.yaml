@@ -1437,3 +1437,19 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-MediaWikiAuth/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-starcitizen-tabberneue
+  label: TabberNeue - StarCitizen
+  description: "{{Special:MyLanguage/MediaWiki:Tabberneue-desc/en}}"
+  icon: wiki://TabberNeue-icon-ltr.svg
+  support:
+    url: https://github.com/StarCitizenTools/mediawiki-extensions-TabberNeue/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-TabberNeue/i18n/%CODE%.json"

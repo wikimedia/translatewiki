@@ -718,6 +718,11 @@ mwgithub:
       type: github
       url: https://github.com/StarCitizenTools/mediawiki-extensions-ShortDescription.git
       url|export: git@github.com:StarCitizenTools/mediawiki-extensions-ShortDescription.git
+    mwgithub/StarCitizenTools/mediawiki-extensions-TabberNeue:
+      type: github
+      branch: main
+      url: https://github.com/StarCitizenTools/mediawiki-extensions-TabberNeue.git
+      url|export: git@github.com:StarCitizenTools/mediawiki-extensions-TabberNeue.git
 
 mwgitlab:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
