@@ -11,9 +11,11 @@ GROUPS:
   - mwgithub-createwiki
   - mwgithub-datadump
   - mwgithub-globalnewfiles
+  - mwgithub-importdump
   - mwgithub-incidentreporting
   - mwgithub-managewiki
   - mwgithub-matomoanalytics
+  - mwgithub-mirahezeerrorpages
   - mwgithub-mirahezelanding
   - mwgithub-mirahezemagic-custom
   - mwgithub-mirahezemagic-override

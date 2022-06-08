@@ -516,10 +516,18 @@ mwgithub:
       type: github
       url: https://github.com/miraheze/DataDump.git
       url|export: git@github.com:miraheze/DataDump.git
+    mwgithub/miraheze/ErrorPages:
+      type: github
+      url: https://github.com/miraheze/ErrorPages.git
+      url|export: git@github.com:miraheze/ErrorPages.git
     mwgithub/miraheze/GlobalNewFiles:
       type: github
       url: https://github.com/miraheze/GlobalNewFiles.git
       url|export: git@github.com:miraheze/GlobalNewFiles.git
+    mwgithub/miraheze/ImportDump:
+      type: github
+      url: https://github.com/miraheze/ImportDump.git
+      url|export: git@github.com:miraheze/ImportDump.git
     mwgithub/miraheze/IncidentReporting:
       type: github
       url: https://github.com/miraheze/IncidentReporting.git

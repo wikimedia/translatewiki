@@ -825,6 +825,22 @@ FILES:
 
 ---
 BASIC:
+  id: mwgithub-importdump
+  label: ImportDump
+  description: "{{Special:MyLanguage/MediaWiki:importdump-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: importdump
+      description: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/ImportDump/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-managewiki
   label: ManageWiki
   description: "{{Special:MyLanguage/MediaWiki:managewiki-desc/en}}"
@@ -1245,6 +1261,25 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-GTag/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-mirahezeerrorpages
+  label: Miraheze ErrorPages
+  description: "{{Special:MyLanguage/MediaWiki:mirahezeerrorpages-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/ErrorPages/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: miraheze-errorpages-
+  patterns:
+    - "*"
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
 
 ---
 BASIC:
