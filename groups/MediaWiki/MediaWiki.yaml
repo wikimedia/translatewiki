@@ -337,8 +337,6 @@ TAGS:
     - widthheight
     - word-separator
   ignored:
-    - 1movedto2
-    - 1movedto2_redir
     - accesskey-blockip-block
     - accesskey-ca-addsection
     - accesskey-ca-delete
@@ -451,8 +449,6 @@ TAGS:
     - createacct-imgcaptcha-help
     - deadendpages-summary
     - deletepage-summary
-    - deletedarticle
-    - deletedarticle
     - deletedcontributions-summary
     - deletereason-dropdown-suppress
     - diff-form-summary
@@ -473,8 +469,6 @@ TAGS:
     - helplogin-url
     - helppage
     - history_copyright
-    - import-logentry-interwiki
-    - import-logentry-upload
     - import-summary
     - interlanguage-link-title-langonly
     - interlanguage-link-title-nonlangonly
@@ -513,26 +507,20 @@ TAGS:
     - newpages-summary
     - newsection-summary
     - newsectionheaderdefaultlevel
-    - newuserlog-autocreate-entry
-    - newuserlog-create-entry
-    - newuserlog-create2-entry
     - noarticletextanon
     - nocookiesforlogin
     - nstab-talk
     - number-of-watching-users-for-recent-changes
     - opensearch-desc
-    - overwroteimage
     - pagecategorieslink
     - pageinfo-footer
     - pageinfo-header
     - pageinfo-summary
     - pagehistory-summary
-    - pagemerge-logentry
     - pageswithprop-summary
     - pagetitle-view-mainpage
     - patrol-log-auto
     - patrol-log-diff
-    - patrol-log-line
     - pear-mail-error
     - permanentlink-summary
     - php-mail-error
@@ -559,8 +547,6 @@ TAGS:
     - rfcurl
     - rcfilters-tag-prefix-namespace
     - rcfilters-tag-prefix-tags
-    - rightslogentry
-    - rightslogentry-autopromote
     - search-interwiki-custom
     - search-summary
     - searchmenu-new-nocreate
@@ -611,14 +597,12 @@ TAGS:
     - uncategorizedpages-summary
     - uncategorizedtemplates-summary
     - undelete-summary
-    - undeletedarticle
     - unusedcategories-summary
     - unusedimages-summary
     - unusedtemplates-summary
     - unwatchedpages-summary
     - upload-default-description
     - upload-summary
-    - uploadedimage
     - uploadfooter
     - userlogout-summary
     - userrights-summary
@@ -641,6 +625,29 @@ TAGS:
     - wantedtemplates-summary
     - watchlist-summary
     - whatlinkshere-summary
+    # Legacy IRC logentry messages (https://translatewiki.net/wiki/Template:MW_legacy_IRC_logentry)
+    - 1movedto2
+    - 1movedto2_redir
+    - deletedarticle
+    - undeletedarticle
+    - patrol-log-line
+    - protectedarticle
+    - unprotectedarticle
+    - modifiedarticleprotection
+    - movedarticleprotection
+    - newuserlog-create-entry
+    - newuserlog-create2-entry
+    - newuserlog-autocreate-entry
+    - uploadedimage
+    - overwroteimage
+    - rightslogentry
+    - rightslogentry-autopromote
+    - pagemerge-logentry
+    - blocklogentry
+    - unblocklogentry
+    - reblock-logentry
+    - import-logentry-upload
+    - import-logentry-interwiki
 
 ---
 BASIC:
