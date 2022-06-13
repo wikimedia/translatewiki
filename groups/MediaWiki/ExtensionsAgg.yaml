@@ -473,6 +473,13 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-redirectmanager
+  label: RedirectManager
+  description: '{{Special:MyLanguage/MediaWiki:Redirectmanager-desc/en}}'
+GROUPS:
+  - ext-redirectmanager-*
+---
+BASIC:
   id: ext-scribunto
   label: Scribunto
 

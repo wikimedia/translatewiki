@@ -2649,6 +2649,14 @@ aliasfile = ReassignEdits/ReassignEdits.alias.php
 
 # Recoin // 2018-05-15: Empty repo
 
+Redirect Manager - API
+id = ext-redirectmanager-api
+file = RedirectManager/i18n/api/%CODE%.json
+
+Redirect Manager - User Interface
+id = ext-redirectmanager-user
+file = RedirectManager/i18n/%CODE%.json
+
 Refresh Special
 aliasfile = RefreshSpecial/RefreshSpecial.alias.php
 
