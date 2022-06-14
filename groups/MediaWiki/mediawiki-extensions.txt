@@ -2005,6 +2005,7 @@ MediaWiki Farm
 # Memento // "timegate-..." message prefix
 
 Menu Editor
+ignored = menueditor-ui-menu-raw-text-help
 
 Merge Articles
 descmsg = mergearticles-extension-desc
