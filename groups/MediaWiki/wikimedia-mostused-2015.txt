@@ -446,7 +446,6 @@ contribsub2
 broken-file-category
 unwatch
 nolinkshere
-protectedarticle
 protect-default
 userpage-userdoesnotexist-view
 license
