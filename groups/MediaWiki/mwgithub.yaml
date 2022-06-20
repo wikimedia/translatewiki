@@ -1488,3 +1488,26 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-TabberNeue/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithubskin-liberty
+  label: Liberty
+  description: "{{Special:MyLanguage/MediaWiki:Liberty-desc/en}}"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/librewiki/liberty-skin/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - liberty-font-name-noto-sans-kr
+    - liberty-font-name-noto-serif-kr
+    - liberty-font-name-spoqa-han-sans
+    - liberty-font-name-nanum-gothic
+    - liberty-font-name-nanum-myeongjo
+    - liberty-font-name-dokdo
+    - liberty-font-name-gaegu
+    - liberty-font-name-hankc
+    - liberty-font-name-youth
+    - liberty-font-name-malgun-gothic

@@ -499,6 +499,10 @@ mwgithub:
       type: github
       url: https://github.com/lakejason0/mediawiki-skins-Lakeus.git
       url|export: git@github.com:lakejason0/mediawiki-skins-Lakeus.git
+    mwgithub/librewiki/liberty-skin:
+      type: github
+      url: https://github.com/librewiki/liberty-skin.git
+      url|export: git@github.com:librewiki/liberty-skin.git
     mwgithub/lingua-libre/BlueLL:
       type: github
       branch: master
@@ -737,12 +741,8 @@ mwgitlab:
   no-export-languages: test,aeb,ais,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   group: mwgitlab-*,mwgitlabskin-*
   repos:
-    mwgitlab/librewiki/Liberty-MW-Skin:
-      type: github # same committer name and email as in github
-      url: https://gitlab.com/librewiki/Liberty-MW-Skin.git
-      url|export: git@gitlab.com:librewiki/Liberty-MW-Skin.git
     mwgitlab/nonsensopedia/ratepage:
-      type: github
+      type: github # same committer name and email as in github
       url: https://gitlab.com/nonsensopedia/extensions/ratepage.git
       url|export: git@gitlab.com:nonsensopedia/extensions/ratepage.git
 

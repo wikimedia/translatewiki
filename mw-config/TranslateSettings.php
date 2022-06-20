@@ -301,6 +301,7 @@ $wgTranslateGroupAliases['out-pageviews'] = 'pageviews';
 $wgTranslateGroupAliases['wikinity'] = 'wikimedia-tools-wikinity';
 $wgTranslateGroupAliases['int-heritage'] = 'wikimedia-tools-heritage';
 $wgTranslateGroupAliases['int-guc'] = 'wikimedia-tools-guc';
+$wgTranslateGroupAliases['mwgitlabskin-liberty'] = 'mwgithubskin-liberty';
 
 $wgTranslateSupportUrlNamespace[NS_WIKIMEDIA] = [
 	'url' => "$phabUrl?projects=i18n,Wikimedia-General-or-Unknown",
