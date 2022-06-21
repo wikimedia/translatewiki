@@ -1732,6 +1732,7 @@ aliasfile = InviteSignup/InviteSignup.alias.php
 
 IP Info
 optional = ipinfo-extensionname
+optional = ipinfo-value-ipversion-ipv4, ipinfo-value-ipversion-ipv6
 
 Josa
 
@@ -3578,6 +3579,7 @@ id = ext-wikibaselexeme-user
 file = WikibaseLexeme/i18n/%CODE%.json
 aliasfile = WikibaseLexeme/WikibaseLexeme.i18n.alias.php
 ignored = wikibaselexeme-newlexeme-info-panel-example-lexeme-id
+ignored = wikibaselexeme-newlexeme-lemma-language-help-link-target
 optional = wikibaselexeme-description, wikibaselexeme-formidformatter-link-title
 optional = wikibaselexeme-formidformatter-separator-grammatical-features
 optional = wikibaselexeme-presentation-lexeme-secondary-label, wikibaselexeme-lexeme-link-title
