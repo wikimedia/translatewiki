@@ -107,7 +107,6 @@ $wgExtraLanguageNames['saz'] = 'ꢱꣃꢬꢵꢯ꣄ꢡ꣄ꢬꢵ'; # Saurashtra / 
 $wgExtraLanguageNames['slr'] = 'Salırça'; # Salar / Siebrand 2008-08-18
 $wgExtraLanguageNames['sly'] = 'Bahasa Selayar'; # A Selayar / Siebrand 2012-01-09
 $wgExtraLanguageNames['smj'] = 'julevsámegiella'; # Lule Saami / Nikerabbit 2016-06-22
-$wgExtraLanguageNames['sro'] = 'sardu campidanesu'; # Campidanese Sardinian / Amir 2022-05-14
 $wgExtraLanguageNames['swb'] = 'Shikomoro'; # Comorian
 $wgExtraLanguageNames['sxu'] = 'Säggssch'; # Upper Saxon
 $wgExtraLanguageNames['tji'] = 'pi tsi kha'; # Northern Tujia / 2016-06-22
