@@ -2115,6 +2115,14 @@ Multi Language Manager
 aliasfile = MultiLanguageManager/MultiLanguageManager.alias.php
 descmsg = mlm-desc
 
+MultiMail
+aliasfile = MultiMail/MultiMail.alias.php
+optional = multimail-extensionname
+ignored = access-multimail-special-add-email-view-submit
+ignored = access-multimail-special-change-primary-view-confirmation-submit
+ignored = access-multimail-special-delete-view-confirmation-submit
+ignored = access-multimail-special-request-confirmation-code-view-submit
+
 MW Version Info
 ignored = mwversioninfo.json
 
