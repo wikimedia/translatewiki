@@ -1731,6 +1731,8 @@ file = InviteSignup/i18n/%CODE%.json
 aliasfile = InviteSignup/InviteSignup.alias.php
 
 IP Info
+ignored = ipinfo-global-contributions-url, ipinfo-xtools-url
+ignored = ipinfo-xtools-url-label
 optional = ipinfo-extensionname
 optional = ipinfo-value-ipversion-ipv4, ipinfo-value-ipversion-ipv6
 
