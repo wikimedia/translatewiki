@@ -1731,8 +1731,6 @@ file = InviteSignup/i18n/%CODE%.json
 aliasfile = InviteSignup/InviteSignup.alias.php
 
 IP Info
-ignored = ipinfo-global-contributions-url, ipinfo-xtools-url
-ignored = ipinfo-xtools-url-label
 optional = ipinfo-extensionname
 optional = ipinfo-value-ipversion-ipv4, ipinfo-value-ipversion-ipv6
 
@@ -3672,6 +3670,8 @@ ignored = grouppage-oathauth-tester, grouppage-abusefilter-helper, wikimedia-sta
 ignored = grouppage-abusefilter-maintainer, grouppage-docseditor
 ignored = wikinews-mobile-license-links, wikinews-mobile-license-links-ccby30
 ignored = wikifunctions-mobile-license-links, research-incentive-link
+ignored = ipinfo-global-contributions-url, ipinfo-xtools-url
+ignored = ipinfo-xtools-url-label
 optional = sitesupport-url
 optional = grouppage-steward, grouppage-sysadmin, grouppage-global-bot
 optional = grouppage-global-rollbacker, grouppage-ombuds, grouppage-coder
