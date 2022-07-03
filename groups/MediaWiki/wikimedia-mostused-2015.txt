@@ -194,7 +194,6 @@ nstab-category
 show-big-image-preview
 show-big-image
 show-big-image-other
-linkstoimage
 vector-action-addsection
 translate-documentation-language
 globalusage-of-file
@@ -305,7 +304,6 @@ whatlinkshere-hidelinks
 userlogin-yourpassword
 userlogin-yourname-ph
 userlogin-yourname
-nolinkstoimage
 editold
 pt-userlogout
 mywatchlist
@@ -470,8 +468,6 @@ nstab-mediawiki
 restriction-edit
 speciallogtitlelabel
 restriction-move
-proxyblocker
-noindex-category
 rightslog
 patrol-log-page
 tags-hitcount
@@ -502,12 +498,10 @@ grouppage-sysop
 group-sysop
 viewsourceold
 logempty
-linkstoimage-redirect
 filehist-revert
 emailuser
 youhavenewmessagesfromusers
 redirectpagesub
-linkstoimage-more
 rc-old-title
 alllogstext
 tags-active-yes
