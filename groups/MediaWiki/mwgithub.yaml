@@ -945,7 +945,7 @@ TAGS:
   ignored:
     - special-recordWizard-intro
   optional:
-    - RecordWizard
+    - recordWizard
 
 ---
 BASIC:
