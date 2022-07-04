@@ -58,7 +58,7 @@ FILES:
 
 TAGS:
   ignored:
-    - android.ui.android_directory_seperator
+    - Android.ui.android_directory_seperator
 
 ---
 BASIC:
