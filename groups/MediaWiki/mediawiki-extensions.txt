@@ -3625,7 +3625,9 @@ aliasfile = WikibaseStatementUpdater/WikibaseStatementUpdater.alias.php
 Wikidata Page Banner
 
 Wikidata.org
-descmsg=wikidata-org-desc
+descmsg = wikidata-org-desc
+ignored = wikibase-lexeme-randomlexeme-url
+ignored = wikibase-queryservice-url
 
 Wikihiero
 file = wikihiero/i18n/%CODE%.json
