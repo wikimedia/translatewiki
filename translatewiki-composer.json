@@ -1,6 +1,6 @@
 {
 	"require": {
-		"mediawiki/maps": "^9.0",
+		"mediawiki/maps": "dev-master",
 		"mediawiki/semantic-media-wiki": "dev-master",
 		"romaricdrigon/metayaml": "dev-master#1481b99679b29cbb50c88f3e10e4951ac64b8ad3"
 	},
