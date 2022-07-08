@@ -636,6 +636,7 @@ Calendar
 
 Campaign Events
 aliasfile = CampaignEvents/CampaignEvents.alias.php
+optional = campaignevents-eventpage-header-dates
 
 Campaigns
 
