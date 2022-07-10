@@ -14,6 +14,7 @@ GROUPS:
   - ext-fileimporter # https://phabricator.wikimedia.org/rOMWCed0953cf03e16621029ba7b21b716d448e387de0
   - ext-imagemap
   - ext-machinevision-user # https://phabricator.wikimedia.org/T227349
+  - ext-mediasearch
   - ext-pdfhandler
   - ext-uploadslink # 2016-05-04: Commons, 7e1cd07dba434c0a433672a2da97b5224d3aaecd
   - ext-wikibasemediainfo # https://phabricator.wikimedia.org/rOMWCef62d89def2ab616c2ca47d3165b65116c4a45ea
