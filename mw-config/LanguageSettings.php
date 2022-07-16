@@ -44,7 +44,6 @@ $wgExtraLanguageNames['gah'] = 'Alekano'; # Alekano / Siebrand 2010-10-08
 $wgExtraLanguageNames['gbm'] = 'गढ़वळि'; # Garhwali / Amir 2020-03-14
 $wgExtraLanguageNames['gbz'] = 'Dari-e Mazdeyasnā'; # Zoroastrian Dari / Siebrand 2011-01-20
 $wgExtraLanguageNames['gcf'] = 'Guadeloupean Creole French'; # Guadeloupean Creole French / Siebrand 2009-09-21
-$wgExtraLanguageNames['gpe'] = 'Ghanaian Pidgin'; # Ghanaian Pidgin / Amir 2021-11-08
 $wgExtraLanguageNames['gum'] = 'Namtrik'; # Guambiano / Amir 2017-03-27
 $wgExtraLanguageNames['hak-hans'] = '客家语（简体）'; # Hakka Chinese (Simplified Han script) / Siebrand 2017-05-20
 $wgExtraLanguageNames['hak-hant'] = '客家語（繁體）'; # Hakka Chinese (Traditional Han script) / Siebrand 2017-05-20
