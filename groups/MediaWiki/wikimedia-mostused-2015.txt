@@ -230,7 +230,6 @@ prevn
 nextn
 metadata-help
 viewprevnext
-wikibase-rc-hide-wikidata
 template-semiprotected
 viewsource
 search-nonefound
@@ -248,6 +247,7 @@ skin-view-foreign
 showdiff
 enhancedrc-history
 upload-disallowed-here
+wikibase-rc-hide-wikidata-hide
 wikibase-rc-hide-wikidata-show
 recentchangeslinked-title
 wm-license-information-date
@@ -291,6 +291,7 @@ wm-license-cc-free
 wm-license-cc-conditions-attribution-text
 wm-license-cc-conditions
 show
+wikibase-otherprojects
 wikibase-sitelinks-wikivoyage
 wikibase-sitelinks-wikisource
 wikibase-sitelinks-wikiquote
@@ -365,7 +366,6 @@ visualeditor-ca-createlocaldescriptionsource
 search-suggest
 imgfile
 wm-license-cc-by-sa-3.0-text
-wikibase-otherprojects
 previousrevision
 nextrevision
 currentrevisionlink
@@ -380,7 +380,6 @@ userlogin-noaccount
 userlogin-joinproject
 booksources-search-legend
 booksources-search
-wikibase-statementview-rank-normal
 templatesused
 passwordreset
 timedmedia-source-file
@@ -390,7 +389,6 @@ categories
 hiddencategories
 wm-license-gfdl-1.2-and-later
 globalusage-more
-wikibase-rc-hide-wikidata-hide
 previousdiff
 nextdiff
 viewpagelogs
