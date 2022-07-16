@@ -160,6 +160,7 @@ $wgTranslateLanguageFallbacks['ug-latn'] = [ 'ug-arab', 'ru' ]; # Robin 2011-11-
 $wgTranslateLanguageFallbacks['vmw'] = [ 'ts', 'sw', 'ss', 'ny', 'zu' ]; # Amir 2021-08-05
 $wgTranslateLanguageFallbacks['xal'] = [ 'mn', 'bxr' ];
 $wgTranslateLanguageFallbacks['xsy'] = [ 'zh-hant' ]; # Amir 2017-05-03
+$wgTranslateLanguageFallbacks['yoi'] = 'ja';
 $wgTranslateLanguageFallbacks['yrk'] = 'ru'; # Lcawte 2011-02-07
 $wgTranslateLanguageFallbacks['yrl'] = [ 'es', 'pt-br', 'gn' ];
 $wgTranslateLanguageFallbacks['yua'] = 'es';

@@ -115,6 +115,7 @@ $wgExtraLanguageNames['tsd'] = 'Τσακωνικά'; # Tsakonian / Siebrand 2009
 $wgExtraLanguageNames['ttt'] = 'Tati'; # Tat / Siebrand 2008-04-04
 $wgExtraLanguageNames['twd'] = 'Tweants'; # Twents
 $wgExtraLanguageNames['vai'] = 'ꕙꔤ'; # Vai Amir 2019-04-23
+$wgExtraLanguageNames['yoi'] = '与那国物言'; # Yonaguni / Amir 2022-07-16
 $wgExtraLanguageNames['yrk'] = 'Ненэцяʼ вада'; # Tundra Nenets / Lcawte 2011-02-07
 $wgExtraLanguageNames['yua'] = 'Maaya T\'aan'; # Yucatán Maya / Siebrand 2011-04-09
 $wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages
