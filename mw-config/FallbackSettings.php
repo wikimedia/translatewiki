@@ -70,6 +70,7 @@ $wgTranslateLanguageFallbacks['ike-cans'] = [ 'ale', 'ale-cyrl', 'esu', 'ik', 'i
 $wgTranslateLanguageFallbacks['ike-latn'] = [ 'ale', 'ale-cyrl', 'esu', 'ik', 'ike-cans', 'kl' ];
 $wgTranslateLanguageFallbacks['jdt-cyrl'] = 'ru';
 $wgTranslateLanguageFallbacks['kac'] = [ 'my' ];
+$wgTranslateLanguageFallbacks['kck'] = [ 'sn', 'tn', 've' ];
 $wgTranslateLanguageFallbacks['kgp'] = [ 'pt', 'pt-br' ];
 $wgTranslateLanguageFallbacks['ki'] = 'sw';
 $wgTranslateLanguageFallbacks['kjh'] = 'ru';
