@@ -14,7 +14,6 @@ GROUPS:
   - wikimedia-paramvalidator
   - ext-abusefilter-api
   - ext-antispoof-api
-  - ext-apifeatureusage # 2015-05-19 6251bf51beb00a6bfd57a46eb485d5c5eef188a7
   - ext-babel-api
   - ext-betafeatures-api
   - ext-bouncehandler-api
