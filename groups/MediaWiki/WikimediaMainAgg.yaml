@@ -17,7 +17,7 @@ GROUPS:
   - ext-cirrussearch-user # Change id 500b9c9d66fa7f410394d5665ea3abc3a184bf50
   - ext-cite-user
   - ext-cite-visualeditor
-  - ext-citespecial
+  - ext-citethispage
   - ext-citoid # 2015-03-16
   - ext-collection-user
   - ext-confirmedit-user
@@ -38,7 +38,6 @@ GROUPS:
   - ext-growthexperiments-mentorship # https://phabricator.wikimedia.org/rOMWC0208fc2b71863c91c3e767373d4bea1a2eaf178d
   - ext-growthexperiments-welcomesurvey
   - ext-inputbox
-  - ext-jquery-uls
   - ext-kartographer-user
   - ext-loginnotify
   - ext-math-user

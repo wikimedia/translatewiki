@@ -69,7 +69,6 @@ GROUPS:
   - ext-pageassessments-user
   - ext-pageimages-user
   - ext-pageviewinfo-user # https://phabricator.wikimedia.org/rOMWC295d9c12dacc1310557945ef00f2a50859ed1fcb
-  - ext-parsermigration-user # All wikis https://phabricator.wikimedia.org/rOMWCc5875c90fdd32f4c6773cb07e89804b633a2000f
   - ext-poem
   - ext-proofreadpage-user # Wikisource
   - ext-propertysuggester-user # https://phabricator.wikimedia.org/rOMWC8612a69333853901fa04dcc377ce58d0879782d0
