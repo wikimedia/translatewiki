@@ -159,6 +159,7 @@ $wgTranslateLanguageFallbacks['tw'] = [ 'fat', 'ak' ];
 $wgTranslateLanguageFallbacks['ug-arab'] = [ 'ug-latn', 'zh-hans', 'zh-hant' ]; # Robin 2011-11-14
 $wgTranslateLanguageFallbacks['ug-latn'] = [ 'ug-arab', 'ru' ]; # Robin 2011-11-14
 $wgTranslateLanguageFallbacks['vmw'] = [ 'ts', 'sw', 'ss', 'ny', 'zu' ]; # Amir 2021-08-05
+$wgTranslateLanguageFallbacks['wal'] = [ 'am' ];
 $wgTranslateLanguageFallbacks['xal'] = [ 'mn', 'bxr' ];
 $wgTranslateLanguageFallbacks['xsy'] = [ 'zh-hant' ]; # Amir 2017-05-03
 $wgTranslateLanguageFallbacks['yoi'] = 'ja';
