@@ -52,6 +52,7 @@ GROUPS:
   - ext-intersection # aka DPL aka DynamicPageList
   - ext-interwiki
   - ext-interwikisorting # https://phabricator.wikimedia.org/rOMWCdd2a7f08ba44692418fc4b13a467f574f46e2396
+  - ext-ipinfo
   - ext-josa
   - ext-jsonconfig-user
   - ext-labeledsectiontransclusion
