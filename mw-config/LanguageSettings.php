@@ -18,6 +18,7 @@ $wgExtraLanguageNames['bft'] = 'بلتی'; # Balti / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['bfq'] = 'படகா'; # UBadaga / Siebrand 2009-11-19
 $wgExtraLanguageNames['bkm'] = 'Itaŋikom'; # Kom / Amir 2021-03-31
 $wgExtraLanguageNames['blc'] = 'ItNuxalkmc'; # Nuxalk / Amir 2020-06-22
+$wgExtraLanguageNames['bnn'] = 'bunun'; # Bunun / Amir 2022-07-20
 $wgExtraLanguageNames['brx'] = 'बर\''; # Boro / Siebrand 2017-05-20
 $wgExtraLanguageNames['bum'] = 'bulu'; # Bulu / Amir 2022-02-19
 $wgExtraLanguageNames['bwr'] = 'bura'; # Bura / Amir 2022-06-11
