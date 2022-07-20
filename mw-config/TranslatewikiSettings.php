@@ -123,7 +123,10 @@ $wgUseInstantCommons = true;
  */
 $wgAllowUserJs = true;
 $wgAllowUserCss = true;
-$wgMinimalPasswordLength = 6;
+$wgPasswordPolicy['policies']['default']['MinimalPasswordLength'] = [
+	'value' => 6,
+	'suggestChangeOnLogin' => false
+];
 $wgAutoConfirmAge = 3600 * 24 * 14;
 $wgAutoblockExpiry = 3600 * 24 * 14; // 2 weeks of rest from vandals reusing IPs
 
