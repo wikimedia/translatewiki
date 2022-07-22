@@ -339,6 +339,7 @@ Blue Spice Distribution Connector
 descmsg = bs-distributionconnector-extension-description
 ignored = bs-sandbox-page, bs-helpdesk-page, bs-support-page
 optional = Bs-distributionconnector-pref-eventbus-eventservices-subkey-url
+prefix = bluespice- | right-duplicate, action-duplicate
 
 Blue Spice Echo Connector
 descmsg = bs-echoconnector-extension-description
