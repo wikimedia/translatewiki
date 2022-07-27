@@ -65,7 +65,6 @@ GROUPS:
   - ext-nuke
   - ext-oauth
   - ext-oathauth-user # 2014-06-28 Used on https://wikitech.wikimedia.org
-  - ext-ores-user # 2016-06-13: 46b33671bbb46eb2aa826ef7b7399cded72e50d2
   - ext-pageassessments-user
   - ext-pageimages-user
   - ext-pageviewinfo-user # https://phabricator.wikimedia.org/rOMWC295d9c12dacc1310557945ef00f2a50859ed1fcb
