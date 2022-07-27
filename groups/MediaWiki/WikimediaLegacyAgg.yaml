@@ -9,7 +9,7 @@ BASIC:
 
 GROUPS:
   - ext-gwtoolset # Being phased out, 2021: T270911
-  - ext-liquidthreads-user # 2009-11-11: MediaWiki.org and some other projects
+  - ext-liquidthreads
   - ext-ores
   - ext-renameuser # Being phased out, 2015
   - ext-shorturl # r108172
