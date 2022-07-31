@@ -232,6 +232,7 @@ metadata-help
 viewprevnext
 template-semiprotected
 viewsource
+skin-action-viewsource
 search-nonefound
 wm-license-cc-conditions-share_alike-header
 browse
