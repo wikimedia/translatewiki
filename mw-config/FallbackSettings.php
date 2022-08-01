@@ -69,6 +69,7 @@ $wgTranslateLanguageFallbacks['ia'] = [ 'fr', 'it', 'es', 'pt' ];
 $wgTranslateLanguageFallbacks['ik'] = [ 'ale', 'ale-cyrl', 'esu', 'ike-cans', 'ike-latn', 'kl' ];
 $wgTranslateLanguageFallbacks['ike-cans'] = [ 'ale', 'ale-cyrl', 'esu', 'ik', 'ike-latn', 'kl' ];
 $wgTranslateLanguageFallbacks['ike-latn'] = [ 'ale', 'ale-cyrl', 'esu', 'ik', 'ike-cans', 'kl' ];
+$wgTranslateLanguageFallbacks['ish'] = [ 'yo', 'ig', 'ha' ];
 $wgTranslateLanguageFallbacks['jdt-cyrl'] = 'ru';
 $wgTranslateLanguageFallbacks['kac'] = [ 'my' ];
 $wgTranslateLanguageFallbacks['kck'] = [ 'sn', 'tn', 've' ];
