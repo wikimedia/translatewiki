@@ -620,6 +620,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/WikibaseLocalMedia.git
       url|export: git@github.com:ProfessionalWiki/WikibaseLocalMedia.git
+    mwgithub/ProfessionalWiki/WikibaseRDF:
+      type: github
+      url: https://github.com/ProfessionalWiki/WikibaseRDF.git
+      url|export: git@github.com:ProfessionalWiki/WikibaseRDF.git
     mwgithub/SemanticMediaWiki/Mermaid:
       type: github
       url: https://github.com/SemanticMediaWiki/Mermaid.git

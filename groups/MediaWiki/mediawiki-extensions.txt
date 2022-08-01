@@ -26,8 +26,9 @@
 # SimpleBatchUpload
 # Sub Page List
 # Validator
-# WikiBase EDFT
-# WikiBase Local Media
+# Wikibase EDFT
+# Wikibase Local Media
+# Wikibase RDF
 
 3D
 optional = 3d, 3d-badge-text

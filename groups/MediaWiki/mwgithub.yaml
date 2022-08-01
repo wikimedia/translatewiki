@@ -594,6 +594,24 @@ TAGS:
     - wblm-name
 ---
 BASIC:
+  id: mwgithub-wikibaserdf
+  label: Wikibase RDF
+  description: "{{Special:MyLanguage/MediaWiki:Wikibase-rdf-description/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/WikibaseRDF/issues
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/WikibaseRDF/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - wikibase-rdf-name
+---
+BASIC:
   id: mwgithub-summarycards
   label: Summary Cards
   description: "{{Special:MyLanguage/MediaWiki:suc-desc/en}}"
