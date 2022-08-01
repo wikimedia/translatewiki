@@ -16,6 +16,11 @@ ajapaik:
       type: github
       url: https://github.com/Ajapaik/ajapaik-web.git
       url|export: git@github.com:Ajapaik/ajapaik-web.git
+    ajapaik-flutter-app:
+      type: github
+      branch: imageview
+      url: https://github.com/Ajapaik/ajapaik_flutter_app.git
+      url|export: git@github.com:Ajapaik/ajapaik_flutter_app.git
 
 blockly:
   group: out-blockly*

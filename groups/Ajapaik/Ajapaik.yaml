@@ -1,10 +1,15 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://Ajapaik_short_logo.png
+    namespace: NS_AJAPAIK
+    class: FileBasedMessageGroup
+    description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
+
+---
 BASIC:
   id: ajapaik
   label: Ajapaik
   meta: yes
-  description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
-  icon: wiki://Ajapaik_short_logo.png
-  namespace: NS_AJAPAIK
   class: AggregateMessageGroup
 
 GROUPS:
@@ -14,10 +19,6 @@ GROUPS:
 BASIC:
   id: ajapaik-app
   label: Ajapaik Android app
-  description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
-  icon: wiki://Ajapaik_short_logo.png
-  namespace: NS_AJAPAIK
-  class: FileBasedMessageGroup
 
 FILES:
   class: AndroidXmlFFS
@@ -68,10 +69,6 @@ VALIDATORS:
 BASIC:
   id: ajapaik-playstore
   label: Ajapaik Android App – Play store descriptions
-  description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
-  icon: wiki://Ajapaik_short_logo.png
-  namespace: NS_AJAPAIK
-  class: FileBasedMessageGroup
 
 FILES:
   class: JavaFFS
@@ -192,10 +189,6 @@ VALIDATORS:
 BASIC:
   id: ajapaik-web
   label: Ajapaik Web app
-  description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
-  icon: wiki://Ajapaik_short_logo.png
-  namespace: NS_AJAPAIK
-  class: FileBasedMessageGroup
 
 FILES:
   class: GettextFFS
@@ -228,10 +221,6 @@ INSERTABLES:
 BASIC:
   id: ajapaik-web-js
   label: Ajapaik Web app - JavaScript
-  description: "{{Special:MyLanguage/Translations:Group descriptions/ajapaik/en}}"
-  icon: wiki://Ajapaik_short_logo.png
-  namespace: NS_AJAPAIK
-  class: FileBasedMessageGroup
 
 FILES:
   class: GettextFFS
@@ -256,3 +245,23 @@ VALIDATORS:
     insertable: true
   - id: GettextPlural
   - id: BraceBalance
+
+---
+BASIC:
+  id: ajapaik-flutter-app
+  label: Ajapaik Flutter Application
+  support:
+    url: https://github.com/Ajapaik/ajapaik_flutter_app/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/ajapaik_flutter_app/lib/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: flutter-
+  patterns:
+    - "*"
