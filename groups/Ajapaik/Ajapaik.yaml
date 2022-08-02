@@ -258,7 +258,7 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/ajapaik_flutter_app/lib/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/ajapaik-flutter-app/lib/i18n/%CODE%.json"
 
 MANGLER:
   class: StringMatcher
