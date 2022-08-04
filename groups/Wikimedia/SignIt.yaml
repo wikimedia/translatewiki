@@ -1,0 +1,32 @@
+---
+BASIC:
+  id: signit
+  label: Lingua Libre SignIt
+  description: "{{Special:MyLanguage/Translations:Group descriptions/signit/en}}"
+  icon: wiki://Signit-64.png
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/lingua-libre/SignIt/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: signit-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/signit/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: NumericalParameter
+    insertable: true
+    enforce: true
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
