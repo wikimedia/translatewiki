@@ -452,7 +452,6 @@ license
 searchmenu-exists
 allpages
 search-file-match
-redirect-summary
 all-logs-page
 category-empty
 preview
@@ -476,16 +475,8 @@ specialloguserlabel
 mergelog
 permissionserrors
 revdelete-content-hid
-redirect
 recreate-moveddeleted-warn
 diff-multi-otherusers
-redirect-value
-redirect-user
-redirect-submit
-redirect-revision
-redirect-page
-redirect-lookup
-redirect-file
 filepage-nofile
 continue-editing
 previewnote
