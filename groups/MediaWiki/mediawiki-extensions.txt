@@ -1769,7 +1769,7 @@ optional = jsonconfig-license-url-CC-BY-SA-3.0, jsonconfig-license-url-CC-BY-SA-
 optional = jsonconfig-license-url-CC-BY-SA-4.0+, jsonconfig-license-url-ODbL-1.0
 optional = jsonconfig-license-notice-box-CC0-1.0, jsonconfig-license-url-dl-de-zero-2.0
 optional = jsonconfig-license-url-dl-de-by-1.0, jsonconfig-license-url-dl-de-by-2.0
-
+optional = jsonconfig-license-url-GeoNutzV
 
 # Json Data // Inconsistent prefix
 
