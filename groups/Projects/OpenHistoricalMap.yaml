@@ -1,0 +1,105 @@
+---
+BASIC:
+  id: ohm-website
+  label: OpenHistoricalMap
+  icon: wiki://OpenHistoricalMap_logo.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/openhistoricalmap/en}}"
+  namespace: NS_PROJECTS
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/OpenHistoricalMap/issues/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: YamlFFS
+  parseCLDRPlurals: true
+  codeAsRoot: true
+  sourcePattern: "%GROUPROOT%/ohm-website/config/locales/%CODE%.yml"
+  codeMap:
+    be-tarask: be-Tarask
+    en-gb: en-GB
+    es-mx: es-MX
+    ku-latn: ku-Latn
+    pt-br: pt-BR
+    pt: pt-PT
+    sr-ec: sr
+    sr-el: sr-Latn
+    tt-cyrl: tt
+    zh-hans: zh-CN
+    zh-hant: zh-TW
+
+MANGLER:
+  class: StringMatcher
+  prefix: ohm-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: InsertableRubyVariable
+    enforce: true
+    insertable: true
+  - id: MatchSet
+    enforce: true
+    include:
+      - html.dir
+    params:
+      values:
+        - ltr
+        - rtl
+  - id: UnicodePlural
+    enforce: true
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+  # HTML entities
+  - class: RegexInsertablesSuggester
+    params: '/&#?\w+;/'
+
+TAGS:
+  optional:
+    - browse.relation_member.entry
+    - browse.relation_member.entry_html
+    - changesets.changesets.id
+    - geocoder.search_osm_nominatim.prefix_format
+    - geocoder.search osm nominatim.prefix other
+    - geocoder.search_osm_namefinder.suffix_suburb
+    - geocoder.search_osm_nominatim.prefix_other
+    - html.dir
+    - layouts.project_name.h1
+    - layouts.project_name.title
+    - notifier.message_notification.subject
+    - oauth2_applications.index.oauth_2
+    - printable_name.with_name_html
+    - printable_name.with_version
+    - site.edit.anon_edits
+    - site.edit.anon_edits_html
+    - time.formats.blog
+    # Users may or may not want to translate the OSM wiki too
+    - layouts.help_wiki_url
+    - layouts.shop_url
+    - traces.edit.visibility_help_url
+    - traces.new.help_url
+    - traces.new.visibility_help_url
+    - user.account.public_editing.enabled_link
+    - user.account.contributor terms.link
+    - user.account.gravatar.link
+    - user.new.terms declined url
+    - user.terms.consider_pd_why_url
+    - user.terms.declined
+    - layouts.help_url
+    - layouts.wiki_url
+    - browse.common_details.coordinates_html
+    - browse.note.coordinates_html
+    - diary_entries.location.coordinates
+  ignored:
+    - printable_name.with_id
+    - printable_name.with_name
+    - site.edit.anon_edits_link
+    - site.index.license.license_url
+    - site.index.license.project_url
+    - site.help.mailing_lists.url
+    - site.help.forums.url
+    - site.help.irc.url
+    - site.help.switch2osm.url

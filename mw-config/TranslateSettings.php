@@ -527,3 +527,6 @@ wfAddNamespace( 1284, 'BitmarkInc' );
 
 # No longer in use
 wfAddNamespace( 1286, 'CovidRatio' );
+
+wfAddNamespace( 1288, 'Projects' );
+$wgTranslateGroupFiles[] = "$GROUPS/Projects/OpenHistoricalMap.yaml";
