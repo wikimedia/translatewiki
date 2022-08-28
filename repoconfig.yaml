@@ -412,6 +412,10 @@ mwgithub:
   no-export-languages: test,aeb,ais,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ko-kp,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   group: mwgithub-*,mwgithubskin-*
   repos:
+    mwgithub/AgentIsai/Share:
+      type: github
+      url: https://github.com/AgentIsai/Share.git
+      url|export: git@github.com:AgentIsai/Share.git
     mwgithub/AlPha5130/mediawiki-extensions-EditCountNeue:
       type: github
       url: https://github.com/AlPha5130/mediawiki-extensions-EditCountNeue.git
@@ -748,6 +752,38 @@ mwgithub:
       branch: main
       url: https://github.com/StarCitizenTools/mediawiki-extensions-TabberNeue.git
       url|export: git@github.com:StarCitizenTools/mediawiki-extensions-TabberNeue.git
+    mwgithub/Universal-Omega/AutoCreatePage:
+      type: github
+      url: https://github.com/Universal-Omega/AutoCreatePage.git
+      url|export: git@github.com:Universal-Omega/AutoCreatePage.git
+    mwgithub/Universal-Omega/DiscordNotifications:
+      type: github
+      url: https://github.com/Universal-Omega/DiscordNotifications.git
+      url|export: git@github.com:Universal-Omega/DiscordNotifications.git
+    mwgithub/Universal-Omega/DynamicPageList3:
+      type: github
+      url: https://github.com/Universal-Omega/DynamicPageList3.git
+      url|export: git@github.com:Universal-Omega/DynamicPageList3.git
+    mwgithub/Universal-Omega/Monaco:
+      type: github
+      url: https://github.com/Universal-Omega/Monaco.git
+      url|export: git@github.com:Universal-Omega/Monaco.git
+    mwgithub/Universal-Omega/PortableInfobox:
+      type: github
+      url: https://github.com/Universal-Omega/PortableInfobox.git
+      url|export: git@github.com:Universal-Omega/PortableInfobox.git
+    mwgithub/Universal-Omega/Preloader:
+      type: github
+      url: https://github.com/Universal-Omega/Preloader.git
+      url|export: git@github.com:Universal-Omega/Preloader.git
+    mwgithub/Universal-Omega/SimpleBlogPage:
+      type: github
+      url: https://github.com/Universal-Omega/SimpleBlogPage.git
+      url|export: git@github.com:Universal-Omega/SimpleBlogPage.git
+    mwgithub/Universal-Omega/SimpleTooltip:
+      type: github
+      url: https://github.com/Universal-Omega/SimpleTooltip.git
+      url|export: git@github.com:Universal-Omega/SimpleTooltip.git
 
 mwgitlab:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk

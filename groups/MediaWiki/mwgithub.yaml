@@ -1552,3 +1552,193 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/AlPha5130/mediawiki-extensions-EditCountNeue/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-mediawiki-share
+  label: Share
+  description: "{{Special:MyLanguage/MediaWiki:agentisai-share-desc/en}}"
+  support:
+    url: https://github.com/AgentIsai/Share/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/AgentIsai/Share/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: agentisai-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: mwgithub-mediawiki-autocreatepage
+  label: AutoCreatePage
+  description: "{{Special:MyLanguage/MediaWiki:Autocreatepage-desc/en}}"
+  support:
+    url: https://github.com/Universal-Omega/AutoCreatePage/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/AutoCreatePage/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-mediawiki-universalomega-discordnotifications
+  label: DiscordNotifications (Universal-Omega)
+  description: "{{Special:MyLanguage/MediaWiki:universalomega-discordnotifications-desc/en}}"
+  support:
+    url: https://github.com/Universal-Omega/DiscordNotifications/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/DiscordNotifications/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: universalomega-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: mwgithub-mediawiki-dynamicpagelist3
+  label: DynamicPageList3
+  description: "{{Special:MyLanguage/MediaWiki:Dynamicpagelist3-dpl-desc/en}}"
+  support:
+    url: https://github.com/Universal-Omega/DynamicPageList3/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/DynamicPageList3/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: dynamicpagelist3-
+  patterns:
+    - intersection-desc
+    - dpl-desc
+    - intersection_*
+    - dpl_*
+
+---
+BASIC:
+  id: mwgithub-mediawiki-monaco
+  label: Monaco
+  description: "{{Special:MyLanguage/MediaWiki:Monaco-desc/en}}"
+  support:
+    url: https://github.com/Universal-Omega/Monaco/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/Monaco/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - dynamic-links-write-article-url
+    - monaco-sidebar
+    - monaco-toolbox
+
+MANGLER:
+  class: StringMatcher
+  prefix: monaco-
+  patterns:
+    - dynamic-links
+    - dynamic-links-*
+
+---
+BASIC:
+  id: mwgithub-mediawiki-monaco-contentrightsidebar
+  label: Monaco - ContentRightSidebar
+  description: "{{Special:MyLanguage/MediaWiki:Monacocontentrightsidebar-desc/en}}"
+  support:
+    url: https://github.com/Universal-Omega/Monaco/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/Monaco/ContentRightSidebar/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-mediawiki-portableinfobox
+  label: PortableInfobox
+  description: "{{Special:MyLanguage/MediaWiki:Portable-infobox-desc/en}}"
+  support:
+    url: https://github.com/Universal-Omega/PortableInfobox/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/PortableInfobox/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-mediawiki-preloader
+  label: Preloader
+  description: "{{Special:MyLanguage/MediaWiki:Preloader-desc/en}}"
+  support:
+    url: https://github.com/Universal-Omega/Preloader/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/Preloader/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-mediawiki-simpleblogpage
+  label: SimpleBlogPage
+  description: "{{Special:MyLanguage/MediaWiki:universalomega-simpleblogpage-desc/en}}"
+  support:
+    url: https://github.com/Universal-Omega/SimpleBlogPage/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/SimpleBlogPage/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: universalomega-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: mwgithub-mediawiki-simpletooltip
+  label: SimpleTooltip
+  description: "{{Special:MyLanguage/MediaWiki:Simpletooltip-desc/en}}"
+  support:
+    url: https://github.com/Universal-Omega/SimpleTooltip/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/SimpleTooltip/i18n/%CODE%.json"
