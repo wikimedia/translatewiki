@@ -1,0 +1,30 @@
+---
+BASIC:
+  id: wscd
+  label: Wikimedia Server Connectivity Dashboard
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wscd/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/diskdance/wscd/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wscd-
+  patterns:
+    - "*"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/wscd/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: true
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
