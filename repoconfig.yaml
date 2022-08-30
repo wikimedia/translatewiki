@@ -937,7 +937,7 @@ wikidocumentaries:
   repos:
     Wikidocumentaries/wikidocumentaries-ui:
       type: github
-      url: https://github.com/Wikidocumentaries/wikidocumentaries-ui
+      url: https://github.com/Wikidocumentaries/wikidocumentaries-ui.git
       url|export: git@github.com:Wikidocumentaries/wikidocumentaries-ui
 
 wikiedudashboard:
@@ -1027,7 +1027,7 @@ wikimedia-misc-tools:
       url|export: git@github.com:eggpi/citationhunt.git
     global-search:
       type: github
-      url: https://github.com/wikimedia/tools-global-search
+      url: https://github.com/wikimedia/tools-global-search.git
       url|export: git@github.com:wikimedia/tools-global-search.git
     internetarchivebot:
       type: github
