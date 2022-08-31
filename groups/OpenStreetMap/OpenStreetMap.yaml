@@ -20,6 +20,7 @@ TEMPLATE:
       tt-cyrl: tt
       zh-hans: zh-CN
       zh-hant: zh-TW
+      zh-hk: zh-HK
 
 ---
 BASIC:
