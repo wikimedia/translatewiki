@@ -59,47 +59,47 @@ INSERTABLES:
 
 TAGS:
   optional:
-    - browse.relation_member.entry
-    - browse.relation_member.entry_html
-    - changesets.changesets.id
-    - geocoder.search_osm_nominatim.prefix_format
-    - geocoder.search osm nominatim.prefix other
-    - geocoder.search_osm_namefinder.suffix_suburb
-    - geocoder.search_osm_nominatim.prefix_other
-    - html.dir
-    - layouts.project_name.h1
-    - layouts.project_name.title
-    - notifier.message_notification.subject
-    - oauth2_applications.index.oauth_2
-    - printable_name.with_name_html
-    - printable_name.with_version
-    - site.edit.anon_edits
-    - site.edit.anon_edits_html
-    - time.formats.blog
+    - ohm-browse.relation_member.entry
+    - ohm-browse.relation_member.entry_html
+    - ohm-changesets.changesets.id
+    - ohm-geocoder.search_osm_nominatim.prefix_format
+    - ohm-geocoder.search osm nominatim.prefix other
+    - ohm-geocoder.search_osm_namefinder.suffix_suburb
+    - ohm-geocoder.search_osm_nominatim.prefix_other
+    - ohm-html.dir
+    - ohm-layouts.project_name.h1
+    - ohm-layouts.project_name.title
+    - ohm-notifier.message_notification.subject
+    - ohm-oauth2_applications.index.oauth_2
+    - ohm-printable_name.with_name_html
+    - ohm-printable_name.with_version
+    - ohm-site.edit.anon_edits
+    - ohm-site.edit.anon_edits_html
+    - ohm-time.formats.blog
     # Users may or may not want to translate the OSM wiki too
-    - layouts.help_wiki_url
-    - layouts.shop_url
-    - traces.edit.visibility_help_url
-    - traces.new.help_url
-    - traces.new.visibility_help_url
-    - user.account.public_editing.enabled_link
-    - user.account.contributor terms.link
-    - user.account.gravatar.link
-    - user.new.terms declined url
-    - user.terms.consider_pd_why_url
-    - user.terms.declined
-    - layouts.help_url
-    - layouts.wiki_url
-    - browse.common_details.coordinates_html
-    - browse.note.coordinates_html
-    - diary_entries.location.coordinates
+    - ohm-layouts.help_wiki_url
+    - ohm-layouts.shop_url
+    - ohm-traces.edit.visibility_help_url
+    - ohm-traces.new.help_url
+    - ohm-traces.new.visibility_help_url
+    - ohm-user.account.public_editing.enabled_link
+    - ohm-user.account.contributor terms.link
+    - ohm-user.account.gravatar.link
+    - ohm-user.new.terms declined url
+    - ohm-user.terms.consider_pd_why_url
+    - ohm-user.terms.declined
+    - ohm-layouts.help_url
+    - ohm-layouts.wiki_url
+    - ohm-browse.common_details.coordinates_html
+    - ohm-browse.note.coordinates_html
+    - ohm-diary_entries.location.coordinates
   ignored:
-    - printable_name.with_id
-    - printable_name.with_name
-    - site.edit.anon_edits_link
-    - site.index.license.license_url
-    - site.index.license.project_url
-    - site.help.mailing_lists.url
-    - site.help.forums.url
-    - site.help.irc.url
-    - site.help.switch2osm.url
+    - ohm-printable_name.with_id
+    - ohm-printable_name.with_name
+    - ohm-site.edit.anon_edits_link
+    - ohm-site.index.license.license_url
+    - ohm-site.index.license.project_url
+    - ohm-site.help.mailing_lists.url
+    - ohm-site.help.forums.url
+    - ohm-site.help.irc.url
+    - ohm-site.help.switch2osm.url
