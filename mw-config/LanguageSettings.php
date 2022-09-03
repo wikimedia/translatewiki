@@ -1,6 +1,7 @@
 <?php
 
 $wgExtraLanguageNames['acf'] = 'kwéyòl'; # Saint Lucian Creole French / Siebrand 2012-08-05
+$wgExtraLanguageNames['acm'] = 'عراقي'; # Iraqi Arabic / Amir 2022-09-03
 $wgExtraLanguageNames['ahr'] = 'अहिराणी'; # Ahirani / Amir 2012-02-25
 $wgExtraLanguageNames['ajg'] = 'ajagbe'; # Aja / Amir 2021-11-11
 $wgExtraLanguageNames['ajp'] = 'شامي'; # Levantine Arabic / Amir 2021-07-11

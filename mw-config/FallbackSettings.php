@@ -10,6 +10,7 @@
  */
 
 $wgTranslateLanguageFallbacks['acf'] = 'fr';
+$wgTranslateLanguageFallbacks['acm'] = 'ar';
 $wgTranslateLanguageFallbacks['af'] = 'nl';
 $wgTranslateLanguageFallbacks['ajg'] = [ 'fr', 'ee', 'fon', 'guw' ];
 $wgTranslateLanguageFallbacks['ajp'] = 'ar';
