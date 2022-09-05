@@ -1537,3 +1537,18 @@ TAGS:
     - liberty-layout-select-1400
     - liberty-layout-select-1500
     - liberty-layout-select-1600
+
+---
+BASIC:
+  id: mwgithub-editcountneue
+  label: EditCountNeue
+  description: "{{Special:MyLanguage/MediaWiki:Editcount-desc/en}}"
+  support:
+    url: https://github.com/AlPha5130/mediawiki-extensions-EditCountNeue/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/AlPha5130/mediawiki-extensions-EditCountNeue/i18n/%CODE%.json"
