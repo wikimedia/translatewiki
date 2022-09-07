@@ -800,6 +800,22 @@ TAGS:
 
 ---
 BASIC:
+  id: mwgithub-customheader
+  label: CustomHeader
+  description: "{{Special:MyLanguage/MediaWiki:Customheader-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE
+      projects: extensions
+      description: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/CustomHeader/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-datadump
   label: DataDump
   description: "{{Special:MyLanguage/MediaWiki:datadump-desc/en}}"
@@ -859,6 +875,22 @@ FILES:
 
 ---
 BASIC:
+  id: mwgithub-incidentreporting
+  label: IncidentReporting
+  description: "{{Special:MyLanguage/MediaWiki:Incidentreporting-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: incidentreporting
+      description: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/IncidentReporting/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-managewiki
   label: ManageWiki
   description: "{{Special:MyLanguage/MediaWiki:managewiki-desc/en}}"
@@ -899,101 +931,45 @@ MANGLER:
 
 ---
 BASIC:
-  id: mwgithubskin-foreground
-  label: Foreground
-  description: "{{Special:MyLanguage/MediaWiki:foreground-desc/en}}"
-  support:
-    url: https://github.com/jthingelstad/foreground/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
+  id: mwgithub-mirahezeerrorpages
+  label: Miraheze ErrorPages
+  description: "{{Special:MyLanguage/MediaWiki:mirahezeerrorpages-desc/en}}"
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/jthingelstad/foreground/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/ErrorPages/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: miraheze-errorpages-
+  patterns:
+    - "*"
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
 
 ---
 BASIC:
-  id: mwgithub-removepii
-  label: RemovePII
-  description: "{{Special:MyLanguage/MediaWiki:removepii-desc/en}}"
-  support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
-    params:
-      title: Translation issue with message %MESSAGE%
-      projects: removepii
-      description: "\n\nURL: %MESSAGE_URL%"
+  id: mwgithub-mirahezelanding
+  label: Miraheze Landing Page
+  description: "{{Special:MyLanguage/MediaWiki:mirahezelanding-desc/en}}"
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/RemovePII/i18n/%CODE%.json"
-
----
-BASIC:
-  id: mwgithub-wikidiscover
-  label: WikiDiscover
-  description: "{{Special:MyLanguage/MediaWiki:Wikidiscover-desc/en}}"
-  support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
-    params:
-      title: Translation issue with message %MESSAGE%
-      projects: wikidiscover
-      description: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/WikiDiscover/i18n/%CODE%.json"
-
----
-BASIC:
-  id: mwgithub-recordwizard
-  label: Record Wizard - User interface
-  description: "{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}"
-  support:
-    url: https://github.com/lingua-libre/RecordWizard/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/lingua-libre/RecordWizard/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/landing/i18n/%CODE%.json"
 
 TAGS:
-  ignored:
-    - special-recordWizard-intro
   optional:
-    - recordWizard
+    - miraheze-landing-header-logo-text
 
----
-BASIC:
-  id: mwgithub-recordwizard-api
-  label: Record Wizard - API
-  description: "{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}"
-  support:
-    url: https://github.com/lingua-libre/RecordWizard/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
+MANGLER:
+  class: StringMatcher
+  prefix: miraheze-landing-
+  patterns:
+    - "*"
 
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/lingua-libre/RecordWizard/i18n/api/%CODE%.json"
-
----
-BASIC:
-  id: mwgithub-moderation
-  label: Moderation
-  description: "{{Special:MyLanguage/MediaWiki:Moderation-desc/en}}"
-  support:
-    url: https://github.com/edwardspec/mediawiki-moderation/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/edwardspec/mediawiki-moderation/i18n/%CODE%.json"
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
 
 ---
 BASIC:
@@ -1070,19 +1046,155 @@ MANGLER:
 
 ---
 BASIC:
-  id: mwgithub-incidentreporting
-  label: IncidentReporting
-  description: "{{Special:MyLanguage/MediaWiki:Incidentreporting-desc/en}}"
+  id: mwgithub-pdfembed
+  label: PDFEmbed
+  description: "{{Special:MyLanguage/MediaWiki:pdfembed_description/en}}"
   support:
     url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
     params:
-      title: Translation issue with message %MESSAGE%
-      projects: incidentreporting
+      title: Translation issue with message %MESSAGE
+      projects: extensions
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/IncidentReporting/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/PDFEmbed/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-removepii
+  label: RemovePII
+  description: "{{Special:MyLanguage/MediaWiki:removepii-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: removepii
+      description: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/RemovePII/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-spritesheet
+  label: SpriteSheet
+  description: "{{Special:MyLanguage/MediaWiki:spritesheet_description/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE
+      projects: extensions
+      description: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/SpriteSheet/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-wikidiscover
+  label: WikiDiscover
+  description: "{{Special:MyLanguage/MediaWiki:Wikidiscover-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: wikidiscover
+      description: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/WikiDiscover/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-youtube
+  label: YouTube (Miraheze)
+  description: "{{Special:MyLanguage/MediaWiki:miraheze-youtube-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: extensions
+      description: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/YouTube/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: miraheze-
+  patterns:
+    - "*"
+
+---
+BASIC:
+  id: mwgithubskin-foreground
+  label: Foreground
+  description: "{{Special:MyLanguage/MediaWiki:foreground-desc/en}}"
+  support:
+    url: https://github.com/jthingelstad/foreground/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/jthingelstad/foreground/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-recordwizard
+  label: Record Wizard - User interface
+  description: "{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}"
+  support:
+    url: https://github.com/lingua-libre/RecordWizard/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/lingua-libre/RecordWizard/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - special-recordWizard-intro
+  optional:
+    - recordWizard
+
+---
+BASIC:
+  id: mwgithub-recordwizard-api
+  label: Record Wizard - API
+  description: "{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}"
+  support:
+    url: https://github.com/lingua-libre/RecordWizard/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/lingua-libre/RecordWizard/i18n/api/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-moderation
+  label: Moderation
+  description: "{{Special:MyLanguage/MediaWiki:Moderation-desc/en}}"
+  support:
+    url: https://github.com/edwardspec/mediawiki-moderation/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/edwardspec/mediawiki-moderation/i18n/%CODE%.json"
 
 ---
 BASIC:
@@ -1281,48 +1393,6 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-GTag/i18n/%CODE%.json"
-
----
-BASIC:
-  id: mwgithub-mirahezeerrorpages
-  label: Miraheze ErrorPages
-  description: "{{Special:MyLanguage/MediaWiki:mirahezeerrorpages-desc/en}}"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/ErrorPages/i18n/%CODE%.json"
-
-MANGLER:
-  class: StringMatcher
-  prefix: miraheze-errorpages-
-  patterns:
-    - "*"
-
-INSERTABLES:
-  - class: HtmlTagInsertablesSuggester
-
----
-BASIC:
-  id: mwgithub-mirahezelanding
-  label: Miraheze Landing Page
-  description: "{{Special:MyLanguage/MediaWiki:mirahezelanding-desc/en}}"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/landing/i18n/%CODE%.json"
-
-TAGS:
-  optional:
-    - miraheze-landing-header-logo-text
-
-MANGLER:
-  class: StringMatcher
-  prefix: miraheze-landing-
-  patterns:
-    - "*"
-
-INSERTABLES:
-  - class: HtmlTagInsertablesSuggester
 
 ---
 BASIC:

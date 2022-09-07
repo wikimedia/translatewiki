@@ -9,6 +9,7 @@ BASIC:
 
 GROUPS:
   - mwgithub-createwiki
+  - mwgithub-customheader
   - mwgithub-datadump
   - mwgithub-globalnewfiles
   - mwgithub-importdump
@@ -21,5 +22,8 @@ GROUPS:
   - mwgithub-mirahezemagic-override
   - mwgithub-mirahezemagic-recaptcha
   - mwgithub-mirahezemagic-recaptcha-api
+  - mwgithub-pdfembed
   - mwgithub-removepii
+  - mwgithub-spritesheet
   - mwgithub-wikidiscover
+  - mwgithub-youtube

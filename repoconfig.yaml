@@ -529,6 +529,10 @@ mwgithub:
       type: github
       url: https://github.com/miraheze/CreateWiki.git
       url|export: git@github.com:miraheze/CreateWiki.git
+    mwgithub/miraheze/CustomHeader:
+      type: github
+      url: https://github.com/miraheze/CustomHeader.git
+      url|export: git@github.com:miraheze/CustomHeader.git
     mwgithub/miraheze/DataDump:
       type: github
       url: https://github.com/miraheze/DataDump.git
@@ -565,14 +569,26 @@ mwgithub:
       type: github
       url: https://github.com/miraheze/MirahezeMagic.git
       url|export: git@github.com:miraheze/MirahezeMagic.git
+    mwgithub/miraheze/PDFEmbed:
+      type: github
+      url: https://github.com/miraheze/PDFEmbed.git
+      url|export: git@github.com:miraheze/PDFEmbed.git
     mwgithub/miraheze/RemovePII:
       type: github
       url: https://github.com/miraheze/RemovePII.git
       url|export: git@github.com:miraheze/RemovePII.git
+    mwgithub/miraheze/SpriteSheet:
+      type: github
+      url: https://github.com/miraheze/SpriteSheet.git
+      url|export: git@github.com:miraheze/SpriteSheet.git
     mwgithub/miraheze/WikiDiscover:
       type: github
       url: https://github.com/miraheze/WikiDiscover.git
       url|export: git@github.com:miraheze/WikiDiscover.git
+    mwgithub/miraheze/YouTube:
+      type: github
+      url: https://github.com/miraheze/YouTube.git
+      url|export: git@github.com:miraheze/YouTube.git
     mwgithub/Nikerabbit/mediawiki-extensions-FinnFrameNet:
       type: github
       url: https://github.com/Nikerabbit/mediawiki-extensions-FinnFrameNet.git
