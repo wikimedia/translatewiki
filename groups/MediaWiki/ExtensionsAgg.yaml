@@ -575,6 +575,16 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-torblock
+  label: Tor Block
+  description: '{{Special:MyLanguage/MediaWiki:Torblock-desc/en}}'
+
+GROUPS:
+  - ext-torblock-user
+  - ext-torblock-api
+
+---
+BASIC:
   id: ext-translate
   label: Translate
   description: '{{Special:MyLanguage/MediaWiki:Translate-desc/en}}'

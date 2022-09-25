@@ -74,6 +74,7 @@ GROUPS:
   - ext-thanks-api
   - ext-timedmediahandler-api
   - ext-titleblacklist-api
+  - ext-torblock-api
   - ext-translate-api
   - ext-universallanguageselector-api
   - ext-uploadwizard-api

@@ -3216,7 +3216,12 @@ Toc Tree
 Top Ten Pages
 aliasfile = TopTenPages/TopTenPages.alias.php
 
-Tor Block
+Tor Block - User
+id = ext-translate-user
+
+Tor Block - API
+id = ext-torblock-api
+file = TorBlock/i18n/api/%CODE%.json
 
 Translate - API
 id = ext-translate-api
