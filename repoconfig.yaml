@@ -832,7 +832,8 @@ ohm:
   repos:
     ohm-website:
       type: github
-      branch: translatewiki
+      branch: staging
+      pull-branch: translatewiki
       url: https://github.com/OpenHistoricalMap/ohm-website.git
       url|export: git@github.com:OpenHistoricalMap/ohm-website.git
 
