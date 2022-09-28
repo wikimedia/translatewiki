@@ -112,7 +112,6 @@ GROUPS:
   - ext-wikimediacodeofconduct
   - ext-wikimediacontactpagemessages
   - ext-wikimediaeditortasks-user # https://phabricator.wikimedia.org/T218136
-  - ext-wikimediaevents
   - ext-wikimediaincubator # r89556
   - ext-wikimediaincubatorinfopage
   - ext-wikimediainterwikisearchresults

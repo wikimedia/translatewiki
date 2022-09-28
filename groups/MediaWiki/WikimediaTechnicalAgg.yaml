@@ -87,3 +87,4 @@ GROUPS:
   - ext-wikilove-api
   - ext-wikimediaapiportaloauth
   - ext-wikimediaeditortasks-api
+  - ext-wikimediaevents
