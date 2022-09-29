@@ -2764,6 +2764,8 @@ aliasfile = SearchStats/SearchStats.alias.php
 
 Search Thumbs
 
+Search Vue
+
 Section Disqus
 
 Secure Auth
