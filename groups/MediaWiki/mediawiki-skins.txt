@@ -46,8 +46,8 @@ erudite
 file = erudite/i18n/%CODE%.json
 ignored = erudite-extracontent-column1, erudite-extracontent-column2, erudite-extracontent-column3
 
-Foregound
-optional = skinname-foregound
+Foreground
+optional = skinname-foreground
 
 Gamepress
 ignored = gamepress-navigation, gamepress-prefooter-1, gamepress-prefooter-2, gamepress-prefooter-3
