@@ -87,6 +87,7 @@ $wgTranslateLanguageFallbacks['ksf'] = [ 'fr' ]; # Robin 2011-10-21
 $wgTranslateLanguageFallbacks['lag'] = [ 'sw' ]; # Amir 2017-05-03
 $wgTranslateLanguageFallbacks['lki'] = [ 'fa', 'lrc', 'sdh' ];
 $wgTranslateLanguageFallbacks['lus'] = [ 'mrh', 'as', 'my' ];
+$wgTranslateLanguageFallbacks['mag'] = [ 'hi', 'bn', 'bho' ]; # Amir 2022-10-04
 $wgTranslateLanguageFallbacks['mak'] = [ 'mak-bugi', 'id' ]; # Amir 2022-08-20
 $wgTranslateLanguageFallbacks['mak-bugi'] = [ 'mak', 'id' ]; # Amir 2022-08-20
 $wgTranslateLanguageFallbacks['mfe'] = [ 'fr' ]; # Robin 2011-10-18
