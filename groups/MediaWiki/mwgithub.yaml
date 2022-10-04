@@ -1132,21 +1132,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: mwgithubskin-foreground
-  label: Foreground
-  description: "{{Special:MyLanguage/MediaWiki:foreground-desc/en}}"
-  support:
-    url: https://github.com/jthingelstad/foreground/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/jthingelstad/foreground/i18n/%CODE%.json"
-
----
-BASIC:
   id: mwgithub-recordwizard
   label: Record Wizard - User interface
   description: "{{Special:MyLanguage/MediaWiki:RecordWizard-desc/en}}"

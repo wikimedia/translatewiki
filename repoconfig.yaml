@@ -500,10 +500,6 @@ mwgithub:
       type: github
       url: https://github.com/JeroenDeDauw/Validator.git
       url|export: git@github.com:JeroenDeDauw/Validator.git
-    mwgithub/jthingelstad/foreground:
-      type: github
-      url: https://github.com/jthingelstad/foreground.git
-      url|export: git@github.com:jthingelstad/foreground.git
     mwgithub/kulttuuri/DiscordNotifications:
       type: github
       url: https://github.com/kulttuuri/DiscordNotifications.git
