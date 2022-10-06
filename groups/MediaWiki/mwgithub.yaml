@@ -451,6 +451,10 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticTasks/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - semantictasks-name
 ---
 BASIC:
   id: mwgithub-maps
