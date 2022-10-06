@@ -2658,6 +2658,7 @@ file = ReadingLists/i18n/api/%CODE%.json
 ReadingLists - User interface
 id = ext-readinglists-user
 file = ReadingLists/i18n/%CODE%.json
+ignored = readinglists-import-app
 
 Reassign Edits
 aliasfile = ReassignEdits/ReassignEdits.alias.php
