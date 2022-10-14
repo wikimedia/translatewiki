@@ -60,6 +60,7 @@ GROUPS:
   - ext-pageassessments-api
   - ext-pageimages-api
   - ext-pageviewinfo-api
+  - ext-phonos-api
   - ext-poolcounter # 2011-03-18 on all projects
   - ext-proofreadpage-api
   - ext-propertysuggester-api
