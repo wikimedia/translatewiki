@@ -1998,6 +1998,19 @@ ignored = mediamoderation-email-body, mediamoderation-email-subject
 Media Search
 optional = mediasearch-image-size
 
+Media Uploader - User interface
+id = ext-mediauploader-user
+file = MediaUploader/i18n/%CODE%.json
+aliasfile = MediaUploader/MediaUploader.alias.php
+prefix = mediauploader- | tag-uploadwizard, tag-uploadwizard-description
+prefix = mediauploader- | right-mass-upload, action-mass-upload
+prefix = mediauploader- | right-upwizcampaigns, action-upwizcampaigns
+prefix = mediauploader- | group-upwizcampeditors, group-upwizcampeditors-member
+prefix = mediauploader- | group-upwizcampeditors-member, grouppage-upwizcampeditors, grouppage-upwizcampeditors
+prefix = mediauploader- | group-upwizcampeditors.css, group-upwizcampeditors.js
+prefix = mediauploader- | prefs-uploads, prefs-mediauploader-licensing
+prefix = mediauploader- | prefs-mediauploader-experimental, prefs-mediauploader-interface
+prefix = mediauploader- | campaigns
 
 # MediaWiki Auth // Archived, moved to GitHub T282955
 
