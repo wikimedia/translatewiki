@@ -66,6 +66,9 @@ INSERTABLES:
 
 TAGS:
   optional:
+    - accounts.edit.openid.link
+    - accounts.edit.public editing.enabled_link
+    - accounts.edit.contributor_terms.link
     - browse.navigation.paging.all.next
     - browse.navigation.paging.all.prev
     - browse.navigation.paging.user.next
@@ -91,6 +94,11 @@ TAGS:
     - printable_name.with_version
     - site.edit.anon_edits
     - site.edit.anon_edits_html
+    - site.help.beginners_guide.url
+    - site.help.help.url
+    - site.help.community.url
+    - site.help.welcomemat.url
+    - site.help.wiki.url
     - time.formats.blog
     # Users may or may not want to translate the OSM wiki too
     - layouts.help_wiki_url
@@ -102,12 +110,15 @@ TAGS:
     - traces.edit.visibility_help_url
     - traces.create.help_url
     - traces.create.visibility_help_url
+    - traces.new.visibility_help_url
+    - traces.new.help_url
     - user.account.public_editing.enabled_link
     - user.account.contributor terms.link
     - user.account.gravatar.link
-    - user.new.terms declined url
-    - user.terms.consider_pd_why_url
-    - user.terms.declined
+    - user_mailer.gpx_failure.import_failures_url
+    - users.terms.consider_pd_why_url
+    - users.terms.declined
+    - users.terms_declined_flash.terms_declined_url
     - layouts.help_url
     - layouts.wiki_url
     - javascripts.map.base.mapquest
