@@ -3224,7 +3224,7 @@ Top Ten Pages
 aliasfile = TopTenPages/TopTenPages.alias.php
 
 Tor Block - User
-id = ext-translate-user
+id = ext-torblock-user
 file = TorBlock/i18n/%CODE%.json
 
 Tor Block - API
