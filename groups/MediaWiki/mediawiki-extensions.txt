@@ -2011,6 +2011,7 @@ prefix = mediauploader- | group-upwizcampeditors.css, group-upwizcampeditors.js
 prefix = mediauploader- | prefs-uploads, prefs-mediauploader-licensing
 prefix = mediauploader- | prefs-mediauploader-experimental, prefs-mediauploader-interface
 prefix = mediauploader- | campaigns
+ignored = mediauploader-schema-validation-error
 
 # MediaWiki Auth // Archived, moved to GitHub T282955
 
