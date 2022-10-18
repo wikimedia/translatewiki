@@ -13,6 +13,12 @@ TEMPLATE:
   INSERTABLES:
     - class: MediaWikiInsertablesSuggester
 
+  VALIDATORS:
+    - id: MediaWikiParameter
+      enforce: true
+    - id: MediaWikiPlural
+      enforce: true
+
 ---
 BASIC:
   icon: wiki://Wikipedia-logo-v2.svg
