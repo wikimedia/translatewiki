@@ -66,6 +66,7 @@ INSERTABLES:
 
 TAGS:
   optional:
+    - html.dir
     - accounts.edit.openid.link
     - accounts.edit.public_editing.enabled_link
     - accounts.edit.contributor_terms.link
@@ -75,6 +76,7 @@ TAGS:
     - browse.navigation.paging.user.prev
     - browse.relation_member.entry
     - browse.relation_member.entry_html
+    - editor.id.name
     - changeset.changeset.id
     - geocoder.search_osm_nominatim.prefix_format
     - geocoder.search osm nominatim.prefix other
