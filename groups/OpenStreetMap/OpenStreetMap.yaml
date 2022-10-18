@@ -67,7 +67,7 @@ INSERTABLES:
 TAGS:
   optional:
     - accounts.edit.openid.link
-    - accounts.edit.public editing.enabled_link
+    - accounts.edit.public_editing.enabled_link
     - accounts.edit.contributor_terms.link
     - browse.navigation.paging.all.next
     - browse.navigation.paging.all.prev
