@@ -367,6 +367,7 @@ aliasfile = BlueSpiceExtendedFilelist/BlueSpiceExtendedFilelist.alias.php
 
 Blue Spice Extended Search
 descmsg = bs-extsearch-desc
+optional = bs-extsearch-extensionname
 optional = bs-extendedsearch-filter-label-count-only, bs-extendedsearch-privacy-transparency-history-item
 
 Blue Spice Extended Statistics
