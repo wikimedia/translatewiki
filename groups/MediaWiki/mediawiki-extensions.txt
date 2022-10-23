@@ -620,11 +620,11 @@ aliasfile = BlueSpiceWikiExplorer/languages/SpecialWikiExplorer.alias.php
 
 # Bootstrap //  Read only
 
-BounceHandler - API
+Bounce Handler - API
 id = ext-bouncehandler-api
 file = BounceHandler/i18n/api/%CODE%.json
 
-BounceHandler - User interface
+Bounce Handler - User interface
 id = ext-bouncehandler-user
 file = BounceHandler/i18n/%CODE%.json
 
@@ -881,32 +881,32 @@ Confirm Edit - API
 id = ext-confirmedit-api
 file = ConfirmEdit/i18n/api/%CODE%.json
 
-ConfirmEdit Fancy Captcha - User interface
+Confirm Edit Fancy Captcha - User interface
 id = ext-confirmeditfancycaptcha-user
 file = ConfirmEdit/FancyCaptcha/i18n/%CODE%.json
 descmsg = fancycaptcha-desc
 
-ConfirmEdit Fancy Captcha - API
+Confirm Edit Fancy Captcha - API
 id = ext-confirmeditfancycaptcha-api
 file = ConfirmEdit/FancyCaptcha/i18n/api/%CODE%.json
 
-ConfirmEdit hCaptcha
+Confirm Edit hCaptcha
 file = ConfirmEdit/hCaptcha/i18n/%CODE%.json
 descmsg = hcaptcha-desc
 
-ConfirmEdit Math Captcha
+Confirm Edit Math Captcha
 file = ConfirmEdit/MathCaptcha/i18n/%CODE%.json
 descmsg = mathcaptcha-desc
 
-ConfirmEdit Questy Captcha
+Confirm Edit Questy Captcha
 file = ConfirmEdit/QuestyCaptcha/i18n/%CODE%.json
 descmsg = questycaptcha-desc
 
-ConfirmEdit ReCaptcha NoCaptcha - User interface
+Confirm Edit ReCaptcha NoCaptcha - User interface
 id = ext-confirmeditrecaptchanocaptcha-user
 file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/%CODE%.json
 
-ConfirmEdit ReCaptcha NoCaptcha - API
+Confirm Edit ReCaptcha NoCaptcha - API
 id = ext-confirmeditrecaptchanocaptcha-api
 file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/api/%CODE%.json
 
@@ -955,7 +955,7 @@ Count Down Clock
 descmsg = countDownClock-desc
 magicfile = CountDownClock/CountDownClock.i18n.magic.php
 
-CreateAPage
+Create A Page
 aliasfile = CreateAPage/CreatePage.alias.php
 descmsg = createpage-desc
 ignored = createplate-Blank
@@ -1213,11 +1213,11 @@ file = EventLogging/i18n/jsonschema/%CODE%.json
 
 Event Stream Config
 
-ExtensionDistributor - API
+Extension Distributor - API
 id = ext-extensiondistributor-api
 file = ExtensionDistributor/i18n/api/%CODE%.json
 
-ExtensionDistributor - User interface
+Extension Distributor - User interface
 id = ext-extensiondistributor-user
 file = ExtensionDistributor/i18n/%CODE%.json
 
@@ -1235,7 +1235,7 @@ ExtJS Base
 
 Extra Language Link
 
-FanBoxes
+Fan Boxes
 aliasfile = FanBoxes/includes/FanBoxes.alias.php
 optional = userboxes-instructions
 
@@ -1669,6 +1669,8 @@ HSTS
 
 Html 2 Wiki
 
+HTML Purifier
+
 HTML Tags
 
 HTMLets
@@ -1746,11 +1748,11 @@ Josa
 JS Bread Crumbs
 optional = jsbreadcrumbs-horizontal-separator
 
-JsonConfig - API
+Json Config - API
 id = ext-jsonconfig-api
 file = JsonConfig/i18n/api/%CODE%.json
 
-JsonConfig - User interface
+Json Config - User interface
 id = ext-jsonconfig-user
 file = JsonConfig/i18n/%CODE%.json
 optional = jsonconfig-type-abbr-invalid, jsonconfig-type-abbr-string, jsonconfig-type-abbr-localized
@@ -2370,9 +2372,13 @@ Page Name Formula
 
 Page Notice
 
+# Page Ownership // 2022-10-23: qqq needs more details then "A label message"
+
 # Page Popups // No i18n
 
 # Page Port // 2021-05-23 Empty repo
+
+# Page Properties // 2022-10-23: qqq needs more details then "A label message"
 
 Page Schemas
 aliasfile = PageSchemas/PageSchemas.i18n.alias.php
@@ -2867,6 +2873,8 @@ optional = swb_browse_more
 Send Grid
 
 Sentry
+
+# Share // some qqq need more details then "i18n counterpart of message in extension.json"
 
 # Shared Help Pages / very ShoutWiki-specific
 
