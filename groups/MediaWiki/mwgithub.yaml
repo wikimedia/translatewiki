@@ -610,6 +610,7 @@ FILES:
 TAGS:
   ignored:
     - wikibase-rdf-name
+    - wikibase-rdf-config-intro
 ---
 BASIC:
   id: mwgithub-summarycards
