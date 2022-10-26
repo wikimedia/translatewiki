@@ -43,6 +43,7 @@ GROUPS:
   - ext-math-user
   - ext-multimediaviewer # Change id ecfa294d4b158aa5c44c166fa883d8ceef7d357d
   - ext-mobilefrontend-user # r93435
+  - ext-nearbypages
   - ext-newusermessage
   - ext-parserfunctions
   - ext-popups # 2014-03-19
