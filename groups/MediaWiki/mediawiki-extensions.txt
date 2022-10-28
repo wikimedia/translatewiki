@@ -1801,6 +1801,7 @@ optional = kartographer-link-wikimapia
 optional = kartographer-link-wikiminiatlas
 optional = kartographer-link-yandex-maps
 optional = kartographer-attribution-externaldata, kartographer-attribution-short
+optional = visualeditor-mwmapsdialog-language-option
 
 Kartographer - WV
 file = Kartographer/modules/wikivoyage/i18n/%CODE%.json
