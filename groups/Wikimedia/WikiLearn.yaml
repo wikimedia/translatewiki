@@ -1,0 +1,70 @@
+TEMPLATE:
+  BASIC:
+    description: "{{Special:MyLanguage/Translations:Group descriptions/wikilearn/en}}"
+    namespace: NS_WIKIMEDIA
+    class: FileBasedMessageGroup
+
+  FILES:
+    class: GettextFFS
+    header: |
+      # This file is part of the WikiLearn Project
+      # This file is distributed under the same license as the WikiLearn package.
+      #
+
+---
+BASIC:
+  id: wikilearn
+  label: WikiLearn
+  meta: yes
+  class: AggregateMessageGroup
+
+GROUPS:
+  - wikilearn-*
+
+---
+BASIC:
+  id: wikilearn-django
+  label: WikiLearn - Backend
+
+VALIDATORS:
+  # Variables like %(platform_name)s
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  # Variables like {username}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-z0-9_]+\}/
+  - id: GettextNewline
+    enforce: true
+  - id: GettextPlural
+    enforce: true
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-backend-
+  patterns:
+    - "*"
+
+FILES:
+  sourcePattern: "%GROUPROOT%/wikilearn/edx-platform/conf/locale/%CODE%/LC_MESSAGES/wm-django.po"
+
+---
+BASIC:
+  id: wikilearn-js
+  label: WikiLearn - Frontend
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-frontend-
+  patterns:
+    - "*"
+
+FILES:
+  sourcePattern: "%GROUPROOT%/wikilearn/edx-platform/conf/locale/%CODE%/LC_MESSAGES/wm-djangojs.po"

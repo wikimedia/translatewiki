@@ -1064,7 +1064,7 @@ wikimedia-mailman-templates:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/software/mailman-templates
 
 wikimedia-misc-tools:
-  group: anvesha,cejs,citationhunt,global-search,internetarchivebot,pageviews,signit,twinkle-core,video2commons,web2cit-translation-server,wikiauthbot,wikidata-lexeme-forms,wscd,xtools
+  group: anvesha,cejs,citationhunt,global-search,internetarchivebot,pageviews,signit,twinkle-core,video2commons,web2cit-translation-server,wikiauthbot,wikidata-lexeme-forms,wikilearn-*,wscd,xtools
   repos:
     anvesha:
       type: github
@@ -1117,9 +1117,14 @@ wikimedia-misc-tools:
       type: github
       url: https://github.com/wikimedia-gadgets/twinkle-core.git
       url|export: git@github.com:wikimedia-gadgets/twinkle-core.git
-    wscd:
+    wikilearn:
       type: github
       branch: master
+      pull-branch: wm/localization
+      url: https://github.com/wikimedia/edx-platform.git
+      url|export: git@github.com:wikimedia/edx-platform.git
+    wscd:
+      type: github
       url: https://github.com/diskdance/wscd.git
       url|export: git@github.com:diskdance/wscd.git
     web2cit-server:

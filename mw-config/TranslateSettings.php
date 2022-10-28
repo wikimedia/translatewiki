@@ -292,6 +292,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaOCR.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaPortals.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaTools.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiLearn.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikipediaLibrary.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikipediaPreview.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Wikistats.yaml";
