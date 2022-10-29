@@ -55,6 +55,7 @@ $wgExtraLanguageNames['hoc'] = '𑢹𑣉𑣉'; # Ho language. Amir 2017-07-09
 $wgExtraLanguageNames['ish'] = 'awain'; # Esan / Amir 2022-08-01
 $wgExtraLanguageNames['izh'] = 'ižoran keel'; # Ingrian / Robin 2012-11-17 / Language classified as not written in Ethnologue. Should be removed.
 $wgExtraLanguageNames['jdt-cyrl'] = 'жугьури'; # Judeo-Tat / Siebrand 2014-06-17
+$wgExtraLanguageNames['jv-java'] = 'ꦗꦮ'; # Javanese (Javanese script) / Amir 2022-10-29
 $wgExtraLanguageNames['kac'] = 'Jinghpaw'; # Jingpho / Siebrand 2014-04-08
 $wgExtraLanguageNames['kbd-latn'] = 'Qabardjajəbza'; # Kabardian (Latin script) / Siebrand 2010-02-21
 $wgExtraLanguageNames['kck'] = 'tjikalanga'; # Kalanga / Amir 2022-07-18
