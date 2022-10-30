@@ -16,6 +16,13 @@
 $validationExclusionList = [
 	[
 		'group' => 'core',
+		'check' => 'variable',
+		'message' => [
+			'search-thumbnail-extra-namespaces-message', // Optional PLURAL parameter $4
+		]
+	],
+	[
+		'group' => 'core',
 		'check' => 'plural',
 		'code' => [ 'fr' ],
 		'message' => [
