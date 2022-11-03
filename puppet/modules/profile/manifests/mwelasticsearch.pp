@@ -11,18 +11,18 @@ class profile::mwelasticsearch (
   apt::pin { 'elasticsearch':
     packages => [ 'elasticsearch-oss', 'kibana-oss' ],
     priority => 1000,
-    version  => '6.8.23',
+    version  => '7.10.2',
   }
 
   class { 'java': distribution => 'jre' }
 
   class { 'elastic_stack::repo':
-    version => 6,
+    version => 7,
     oss     => true,
   }
 
   class { 'elasticsearch':
-    version     => '6.8.23',
+    version     => '7.10.2',
     oss         => true,
     jvm_options => [
       "-Xms${memory_limit}",
@@ -30,15 +30,15 @@ class profile::mwelasticsearch (
     ],
   }
 
-  elasticsearch::plugin { 'org.wikimedia.search:extra:6.8.23-wmf1':
+  elasticsearch::plugin { 'org.wikimedia.search:extra:7.10.2-wmf1':
   }
 
-  elasticsearch::plugin { 'org.wikimedia.search.highlighter:experimental-highlighter-elasticsearch-plugin:6.8.23':
+  elasticsearch::plugin { 'org.wikimedia.search.highlighter:experimental-highlighter-elasticsearch-plugin:7.10.2':
     module_dir => 'experimental-highlighter'
   }
 
   class { 'kibana':
-    ensure => '6.8.23',
+    ensure => '7.10.2',
     oss    => true,
   }
 }
