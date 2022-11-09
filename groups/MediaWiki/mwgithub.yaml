@@ -1615,6 +1615,27 @@ FILES:
 
 ---
 BASIC:
+  id: mwgithub-editcountneue-api
+  label: EditCountNeue - API
+  description: "{{Special:MyLanguage/MediaWiki:Editcount-desc/en}}"
+  support:
+    url: https://github.com/AlPha5130/mediawiki-extensions-EditCountNeue/issues/new
+    params:
+      title: Translation issue with API message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/AlPha5130/mediawiki-extensions-EditCountNeue/i18n/api/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: editcountneue-
+  patterns:
+    - "*"
+
+---
+BASIC:
   id: mwgithub-mediawiki-share
   label: Share
   description: "{{Special:MyLanguage/MediaWiki:agentisai-share-desc/en}}"
