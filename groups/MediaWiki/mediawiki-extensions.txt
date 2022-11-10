@@ -161,9 +161,6 @@ Auto Create Category Pages
 
 Auto Gallery
 
-Auto Proxy Block
-ignored = proxyblock-logentry
-
 # Automatic Board Welcome // 2017-10-27: Archived (T179196)
 
 # AWS // 2017-09-05: Archived (T174864)
@@ -1497,9 +1494,6 @@ descmsg = gur-desc
 
 Global Watchlist
 aliasfile = GlobalWatchlist/GlobalWatchlist.alias.php
-
-Go To Shell
-aliasfile = GoToShell/GoToShell.alias.php
 
 Google AdSense
 ignored = googleadsense
