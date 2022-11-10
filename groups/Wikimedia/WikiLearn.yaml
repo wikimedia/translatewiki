@@ -55,6 +55,10 @@ MANGLER:
 FILES:
   sourcePattern: "%GROUPROOT%/wikilearn/conf/locale/%CODE%/LC_MESSAGES/wm-django.po"
 
+TAGS:
+  ignored:
+    - wikilearn-backend-5cfb39-=25(subject)s
+
 ---
 BASIC:
   id: wikilearn-js
