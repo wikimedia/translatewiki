@@ -3,6 +3,11 @@ TEMPLATE:
     description: "{{Special:MyLanguage/Translations:Group descriptions/wikilearn/en}}"
     namespace: NS_WIKIMEDIA
     class: FileBasedMessageGroup
+    support:
+      url: https://github.com/wikimedia/edx-platform/issues/new
+      params:
+        title: Translation issue with message %MESSAGE%
+        body: "\n\nURL: %MESSAGE_URL%"
 
   FILES:
     class: GettextFFS
