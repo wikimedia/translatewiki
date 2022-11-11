@@ -1698,10 +1698,6 @@ Import Office Files
 Import Users
 aliasfile = ImportUsers/ImportUsers.alias.php
 
-Index Function
-aliasfile = IndexFunction/IndexFunction.alias.php
-ignored = index-exclude-categories
-
 Inline Categorizer
 
 Input Box
