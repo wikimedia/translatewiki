@@ -457,14 +457,6 @@ GROUPS:
 
 ---
 BASIC:
-  id: ext-phonos
-  label: Phonos
-  description: '{{Special:MyLanguage/MediaWiki:Phonos-desc/en}}'
-GROUPS:
-  - ext-phonos-*
-
----
-BASIC:
   id: ext-propertysuggester
   label: PropertySuggester
   description: '{{Special:MyLanguage/MediaWiki:Propertysuggester-desc/en}}'

@@ -2529,13 +2529,8 @@ Phab Task Graph
 aliasfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.alias.php
 magicfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.magic.php
 
-Phonos - API
-id = ext-phonos-api
-file = Phonos/i18n/api/%CODE%.json
-
 Phonos - User interface
-id = ext-phonos-user
-file = Phonos/i18n/%CODE%.json
+id = ext-phonos
 optional = phonos
 
 Php Highlight
