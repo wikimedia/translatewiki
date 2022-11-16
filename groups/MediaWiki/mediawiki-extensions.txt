@@ -2529,7 +2529,7 @@ Phab Task Graph
 aliasfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.alias.php
 magicfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.magic.php
 
-Phonos - User interface
+Phonos
 id = ext-phonos
 optional = phonos
 
