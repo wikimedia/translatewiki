@@ -872,10 +872,10 @@ phabricator:
   group: phabricator-*
   repos:
     phabricator:
-      type: git
+      type: wmgerrit
       branch: wmf/stable
-      url: https://phabricator.wikimedia.org/source/phabricator-translations.git
-      url|export: ssh://vcs@git-ssh.wikimedia.org/source/phabricator-translations.git
+      url: https://gerrit.wikimedia.org/r/phabricator/translations
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/phabricator/translations
 
 proveit:
   group: proveit
