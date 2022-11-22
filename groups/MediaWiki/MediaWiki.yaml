@@ -124,6 +124,8 @@ TAGS:
     - bitrate-kilobits
     - bitrate-megabits
     - bitrate-petabits
+    - bitrate-quettabits
+    - bitrate-ronnabits
     - bitrate-terabits
     - bitrate-yottabits
     - bitrate-zettabits
@@ -269,6 +271,10 @@ TAGS:
     - size-petabytes
     - size-petapixel
     - size-pixel
+    - size-quettabytes
+    - size-quettapixel
+    - size-ronnabytes
+    - size-ronnapixel
     - size-terabytes
     - size-terapixel
     - size-yottabytes
