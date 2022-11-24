@@ -107,8 +107,6 @@ TAGS:
     - PROCEDURES_CALLNORETURN_HELPURL
     - PROCEDURES_CALLRETURN_HELPURL
     - PROCEDURES_IFRETURN_HELPURL
-    - Turtle.printHelpUrl
-    - Turtle.fontHelpUrl
   ignored:
     - COLOUR_RANDOM_HELPURL
     - COLOUR_RGB_HELPURL
@@ -121,3 +119,8 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/blockly-games/json/%CODE%.json"
+
+TAGS:
+  optional:
+    - Turtle.printHelpUrl
+    - Turtle.fontHelpUrl
