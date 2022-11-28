@@ -2295,6 +2295,7 @@ Open Js Cad
 
 Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
+ignored = opengraphmeta-site-name
 
 Open Layers
 
