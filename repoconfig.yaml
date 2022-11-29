@@ -870,6 +870,7 @@ pagecontentservice:
 
 phabricator:
   group: phabricator-*
+  auto-merge: phabricator/translations
   repos:
     phabricator:
       type: wmgerrit
