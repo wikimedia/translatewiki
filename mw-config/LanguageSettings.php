@@ -64,7 +64,6 @@ $wgExtraLanguageNames['kck'] = 'tjikalanga'; # Kalanga / Amir 2022-07-18
 $wgExtraLanguageNames['ken'] = 'kɛ́nyáŋ'; # Kenyang / Jon Harald Søby 2022-02-03
 $wgExtraLanguageNames['kgp'] = 'Kaingáng'; # Siebrand 2008-12-05
 $wgExtraLanguageNames['kip'] = 'शेषी पाङ'; # Amir 2017-08-13
-$wgExtraLanguageNames['kjh'] = 'хакас'; # Khakas / Amire80 2014-06-17
 $wgExtraLanguageNames['knn'] = 'महाराष्ट्रीय कोंकणी'; # Maharashtrian Konkani / 2015-XX-XX
 $wgExtraLanguageNames['ksf'] = 'Bafia'; # Robin 2011-10-21
 $wgExtraLanguageNames['kus'] = 'Kʋsaal'; # Kusaal / Eugene Wang'ombe / 2022-11-05
