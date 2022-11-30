@@ -1384,6 +1384,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-GTag/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - gtag-extensionname
+
 ---
 BASIC:
   id: mwgithubskin-onyx
