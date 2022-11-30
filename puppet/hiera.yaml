@@ -7,6 +7,12 @@ defaults:
 hierarchy:
   - name: 'Developer specific settings for development environment'
     path: 'developer.yaml'
+  - name: 'secrets by name yaml'
+    path: "nodes/%{::hostname}.eyaml"
+    lookup_key: eyaml_lookup_key
+    options:
+      pkcs7_private_key: /root/secrets/puppet-hiera-eyaml/private_key.pkcs7.pem
+      pkcs7_public_key: /root/secrets/puppet-hiera-eyaml/public_key.pkcs7.pem
   - name: 'nodes by name yaml'
     path: "nodes/%{::hostname}.yaml"
   - name: 'Default values'
