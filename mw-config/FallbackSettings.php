@@ -26,6 +26,7 @@ $wgTranslateLanguageFallbacks['ban'] = [ 'id', 'jv' ];
 $wgTranslateLanguageFallbacks['bas'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['bbc-latn'] = [ 'id', 'ms' ]; # Robin 2011-20-16
 $wgTranslateLanguageFallbacks['bew'] = 'id';
+$wgTranslateLanguageFallbacks['bdr'] = [ 'id', 'ms', 'tl' ];
 $wgTranslateLanguageFallbacks['bfq'] = [ 'kn', 'ta' ];
 $wgTranslateLanguageFallbacks['bft'] = 'ur';
 $wgTranslateLanguageFallbacks['bkm'] = 'fr';
