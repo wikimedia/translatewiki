@@ -1732,7 +1732,7 @@ FILES:
 
 TAGS:
   ignored:
-    - dynamic-links-write-article-url
+    - monaco-dynamic-links-write-article-url
     - monaco-sidebar
     - monaco-toolbox
 
