@@ -1588,7 +1588,7 @@ ignored = growth-homepage-banner, newcomertasksinfo-task-count
 optional = growthexperiments-homepage-suggestededits-footer-suffix
 optional = growthexperiments-homepage-suggestededits-footer-kilosuffix, growthexperiments-homepage-suggestededits-footer-megasuffix
 optional = growthexperiments-homepage-suggestededits-footer-gigasuffix, growthexperiments-homepage-suggestededits-footer-terasuffix
-optional = growthexperiments-addlink-context-title
+optional = growthexperiments-addlink-context-title, growthexperiments-homepage-impact-scores-over-limit
 
 Growth Experiments - Homepage API
 id = ext-growthexperiments-homepage-api
@@ -2125,7 +2125,7 @@ Multi Language Manager
 aliasfile = MultiLanguageManager/MultiLanguageManager.alias.php
 descmsg = mlm-desc
 
-MultiMail
+Multi Mail
 aliasfile = MultiMail/MultiMail.alias.php
 optional = multimail-extensionname
 ignored = access-multimail-special-add-email-view-submit
