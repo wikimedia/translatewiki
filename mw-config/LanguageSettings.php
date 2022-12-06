@@ -125,6 +125,7 @@ $wgExtraLanguageNames['twd'] = 'Tweants'; # Twents
 $wgExtraLanguageNames['vai'] = 'ꕙꔤ'; # Vai Amir 2019-04-23
 $wgExtraLanguageNames['wal'] = 'wolaytta'; # Wolaytta Amir 2022-07-19
 $wgExtraLanguageNames['yoi'] = '与那国物言'; # Yonaguni / Amir 2022-07-16
+$wgExtraLanguageNames['xmm'] = 'Manado'; # Manado / Amir 2022-12-06
 $wgExtraLanguageNames['yrk'] = 'Ненэцяʼ вада'; # Tundra Nenets / Lcawte 2011-02-07
 $wgExtraLanguageNames['yua'] = 'Maaya T\'aan'; # Yucatán Maya / Siebrand 2011-04-09
 $wgExtraLanguageNames['qqq'] = 'Message documentation'; # No linguistic content. Used for documenting messages
