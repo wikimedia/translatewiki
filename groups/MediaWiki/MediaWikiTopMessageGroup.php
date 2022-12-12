@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\Extension\Translate\MessageGroupProcessing\MessageGroups;
+
 /**
  * @file
  * @author Niklas Laxström

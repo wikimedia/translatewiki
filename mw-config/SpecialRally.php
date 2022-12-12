@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\Extension\Translate\MessageGroupProcessing\MessageGroups;
+
 if ( !defined( 'MEDIAWIKI' ) ) {
 	die();
 }
