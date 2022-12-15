@@ -17,6 +17,8 @@ $specialPageAliases['en'] = [
 
 $wgSpecialPages['Rally500'] = 'SpecialRally500';
 
+use MediaWiki\Extension\Translate\Utilities\Utilities;
+
 if ( !class_exists( 'SpecialRally500' ) ) {
 	class SpecialRally500 extends SpecialPage {
 		function __construct() {
@@ -111,7 +113,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 				foreach ( $res as $row ) {
 					// Strip language code suffix.
 					$title = preg_replace( '~/[a-z-]+$~i', '', $row->rc_title );
-					$group = TranslateUtils::messageKeyToGroup( $row->rc_namespace, $title );
+					$group = Utilities::messageKeyToGroup( (int)$row->rc_namespace, $title );
 					if ( isset( $allowedGroups[$group] ) ) {
 						if ( !isset( $data[$row->rc_user_text] ) ) {
 							$data[$row->rc_user_text] = 0;
@@ -255,7 +257,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 				*/
 
 				$title = preg_replace( '~/[a-z-]+$~i', '', $_->rc_title );
-				$group = TranslateUtils::messageKeyToGroup( $_->rc_namespace, $title );
+				$group = Utilities::messageKeyToGroup( (int)$_->rc_namespace, $title );
 				if ( !isset( $allowedGroups[$group] ) ) {
 					$output->addHtml(
 						'<li><s>' .
