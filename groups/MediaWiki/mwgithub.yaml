@@ -580,6 +580,24 @@ TAGS:
     - wbedtf-name
 ---
 BASIC:
+  id: mwgithub-wikibaseexport
+  label: Wikibase Export
+  description: "{{Special:MyLanguage/MediaWiki:wikibase-export-description/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/WikibaseExport/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/WikibaseExport/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - wikibase-export-name
+---
+BASIC:
   id: mwgithub-wikibaselocalmedia
   label: Wikibase Local Media
   description: "{{Special:MyLanguage/MediaWiki:Wblm-desc/en}}"
