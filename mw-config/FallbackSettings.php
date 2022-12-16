@@ -74,6 +74,7 @@ $wgTranslateLanguageFallbacks['hif-deva'] = 'hi'; # Siebrand 2008-02-12
 $wgTranslateLanguageFallbacks['hoc'] = [ 'or', 'sat', 'hi', 'te' ];
 $wgTranslateLanguageFallbacks['hy'] = 'ru';
 $wgTranslateLanguageFallbacks['ia'] = [ 'fr', 'it', 'es', 'pt' ];
+$wgTranslateLanguageFallbacks['igl'] = [ 'yo', 'ig', 'ha' ];
 $wgTranslateLanguageFallbacks['ik'] = [ 'ale', 'ale-cyrl', 'esu', 'ike-cans', 'ike-latn', 'kl' ];
 $wgTranslateLanguageFallbacks['ike-cans'] = [ 'ale', 'ale-cyrl', 'esu', 'ik', 'ike-latn', 'kl' ];
 $wgTranslateLanguageFallbacks['ike-latn'] = [ 'ale', 'ale-cyrl', 'esu', 'ik', 'ike-cans', 'kl' ];
