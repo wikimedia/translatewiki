@@ -20,7 +20,11 @@ class mariadb {
         query_cache_type             => '0',
         ssl                          => '0',
         table_cache                  => '1500',
-        log-error                    => undef
+        log-error                    => undef,
+        # temporary fix for https://github.com/puppetlabs/puppetlabs-mysql/issues/1509
+        ssl-ca                       => undef,
+        ssl-cert                     => undef,
+        ssl-key                      => undef,
       },
       mysqld_safe => {
         log-error => undef
