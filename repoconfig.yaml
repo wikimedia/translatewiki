@@ -1008,6 +1008,7 @@ wikiedudashboard:
       url|export: git@github.com:WikiEducationFoundation/WikiEduDashboard.git
 
 wikimedia-developer-portal:
+  always-export-languages: en-gb
   group: wikimedia-developer-portal
   auto-merge: wikimedia/developer-portal
   repos:
