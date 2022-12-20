@@ -6,7 +6,7 @@ DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 # shellcheck source=bin/synclock
 . "$DIRSCRIPT/synclock"
 
-SCRIPT="$WIKIDIR/extensions/Translate/scripts/processMessageChanges.php"
+SCRIPT="$WIKIDIR/extensions/Translate/scripts/importExternalTranslations.php"
 NAME="non-mediawiki"
 
 # Needed for list-projects to know which repoconfig.yaml to read
