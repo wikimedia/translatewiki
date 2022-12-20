@@ -6,7 +6,6 @@ $wgVectorDefaultSkinVersion = '1';
 // Extensions which we don't specify any configuration
 wfLoadExtensions( [
 	'AbuseFilter',
-	'AdminLinks',
 	'CharInsert',
 	'cldr',
 	'Elastica',

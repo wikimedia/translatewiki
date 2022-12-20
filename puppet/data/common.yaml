@@ -88,8 +88,6 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/skins/Vector
   workdir/extensions/AbuseFilter:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/AbuseFilter
-  workdir/extensions/AdminLinks:
-    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/AdminLinks
   workdir/extensions/Babel:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Babel
   workdir/extensions/BetaFeatures:
