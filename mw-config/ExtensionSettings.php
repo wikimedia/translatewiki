@@ -18,6 +18,7 @@ wfLoadExtensions( [
 	'OATHAuth',
 	'Renameuser',
 	'ReplaceText',
+	'Scribunto',
 	'SyntaxHighlight_GeSHi',
 	'TemplateSandbox',
 	'TemplateStyles',
