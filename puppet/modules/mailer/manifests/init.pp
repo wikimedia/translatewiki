@@ -19,6 +19,7 @@ class mailer (
     manage_aliases  => false,
     manage_mailname => false,
     myorigin        => $domain,
+    mydestination   => "${domain}, localhost",
     smtp_listen     => 'all',
   }
 
