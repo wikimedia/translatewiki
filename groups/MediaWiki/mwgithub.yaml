@@ -1357,6 +1357,12 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-skins-Citizen/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - skinname-citizen
+    - citizen.css
+    - citizen.js
+
 ---
 BASIC:
   id: mwgithub-blockasn
