@@ -1585,6 +1585,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-MediaWikiAuth/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - mwa-extensionname
+
 ---
 BASIC:
   id: mwgithub-starcitizen-tabberneue
