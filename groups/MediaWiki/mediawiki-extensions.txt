@@ -2625,6 +2625,8 @@ optional = group-pusher.css, group-pusher.js
 optional = group-bulkpusher.css, group-bulkpusher.js
 optional = group-filepusher.css, group-filepusher.js
 
+Push All
+
 Push To Watch
 ignored = action-pushtowatch
 
