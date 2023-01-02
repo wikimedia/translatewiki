@@ -2317,6 +2317,9 @@ file = ORES/i18n/%CODE%.json
 aliasfile = ORES/ORES.alias.php
 ignored = ores-reverted-letter
 
+Our World In Data
+descmsg = owid-desc
+
 Page Assessments - API
 id = ext-pageassessments-api
 file = PageAssessments/i18n/api/%CODE%.json
