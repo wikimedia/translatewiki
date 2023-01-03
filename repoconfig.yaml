@@ -294,6 +294,7 @@ kiwix:
       url|export: git@github.com:kiwix/kiwix-desktop.git
     kiwix-serve:
       type: github
+      branch: main
       pull-branch: translatewiki
       url: https://github.com/kiwix/libkiwix.git
       url|export: git@github.com:kiwix/libkiwix.git
