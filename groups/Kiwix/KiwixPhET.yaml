@@ -1,0 +1,23 @@
+---
+BASIC:
+  id: kiwix-phet
+  label: PhET Interactive Simulations
+  icon: wiki://Kiwix_icon.svg
+  description: "{{Special:MyLanguage/Kiwix:phet-zim-description/en}}"
+  namespace: NS_KIWIX
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/openzim/phet/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/kiwix-phet/res/js/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: phet-
+  patterns:
+    - "*"

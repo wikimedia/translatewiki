@@ -299,6 +299,12 @@ kiwix:
       pull-branch: translatewiki
       url: https://github.com/kiwix/libkiwix.git
       url|export: git@github.com:kiwix/libkiwix.git
+    kiwix-phet:
+      type: github
+      branch: main
+      pull-branch: translatewiki
+      url: https://github.com/openzim/phet.git
+      url|export: git@github.com:openzim/phet.git
 
 lib.reviews:
   group: lib.reviews
