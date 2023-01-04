@@ -1083,6 +1083,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/PDFEmbed/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - pdfembed
+
 ---
 BASIC:
   id: mwgithub-removepii
