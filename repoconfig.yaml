@@ -289,6 +289,7 @@ kiwix:
       url|export: git@github.com:kiwix/kiwix-android.git
     kiwix-desktop:
       type: github
+      branch: main
       pull-branch: translatewiki
       url: https://github.com/kiwix/kiwix-desktop.git
       url|export: git@github.com:kiwix/kiwix-desktop.git
