@@ -531,7 +531,6 @@ imgmultigoto
 imgmultigo
 filehist-nothumb
 rcshowhidepatr
-listfiles
 discussiontools-replylink
 discussiontools-replywidget-cancel
 discussiontools-replywidget-reply
