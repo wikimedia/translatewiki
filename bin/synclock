@@ -25,7 +25,7 @@ fi
 SECONDS=0
 if flock --wait $TIMEOUT $FD; then
 	echo "Waited $SECONDS seconds to acquire the lock"
-	echo "${USER-unknown} started running $(basename "$0") at $(date -uIseconds)" > "$LOCKFILE"
+	echo "${USER-unknown} started running $(basename -- "$0") at $(date -uIseconds)" > "$LOCKFILE"
 else
 	echo "Failed to obtain a lock within $SECONDS seconds"
 	exit 1
