@@ -9,6 +9,7 @@
  *
  */
 
+$wgTranslateLanguageFallbacks['aae'] = [ 'sq', 'aln', 'it', 'scn', 'roa-tara' ];
 $wgTranslateLanguageFallbacks['acf'] = 'fr';
 $wgTranslateLanguageFallbacks['acm'] = 'ar';
 $wgTranslateLanguageFallbacks['af'] = 'nl';
