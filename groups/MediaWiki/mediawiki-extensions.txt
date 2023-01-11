@@ -991,6 +991,7 @@ Debug Mode
 
 Debug Templates
 aliasfile = DebugTemplates/DebugTemplates.alias.php
+optional = debugtemplates
 
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
