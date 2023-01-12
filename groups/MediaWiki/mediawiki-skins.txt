@@ -87,6 +87,7 @@ optional = monobook.css, monobook.js, monobook-action-addsection
 Nimbus
 ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 ignored = nimbus-specialpages, nimbus-specialpages-url
+optional = skinname-nimbus
 
 Nostalgia
 optional = nostalgia.css, nostalgia.js
@@ -124,3 +125,4 @@ WikimediaApiPortal
 optional = wikimediaapiportal-skin-site-name-main, wikimediaapiportal-skin-site-name-sub
 
 WPtouch
+ignored = skinname-wptouch
