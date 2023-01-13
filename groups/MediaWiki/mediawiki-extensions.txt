@@ -11,6 +11,7 @@
 # Semantic Breadcrumb Links
 # Semantic Cite
 # Semantic Compound Queries
+# Semantic Drilldown
 # Semantic External Query Lookup
 # Semantic Extra Special Properties
 # Semantic Glossary
@@ -2831,9 +2832,6 @@ descmsg = sacl-desc
 Semantic Bundle
 
 Semantic Dependency
-
-Semantic Drilldown
-aliasfile = SemanticDrilldown/languages/SD_Aliases.php
 
 # Semantic Forms Inputs // Read only
 

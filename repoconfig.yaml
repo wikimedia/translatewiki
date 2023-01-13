@@ -685,6 +685,10 @@ mwgithub:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticCompoundQueries.git
       url|export: git@github.com:SemanticMediaWiki/SemanticCompoundQueries.git
+    mwgithub/SemanticMediaWiki/SemanticDrilldown:
+      type: github
+      url: https://github.com/SemanticMediaWiki/SemanticDrilldown.git
+      url|export: git@github.com:SemanticMediaWiki/SemanticDrilldown.git
     mwgithub/SemanticMediaWiki/SemanticExternalQueryLookup:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticExternalQueryLookup.git

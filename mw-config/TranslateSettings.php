@@ -91,6 +91,7 @@ $wgTranslateGroupAliases['ext-flaggedrevs-0-all'] = 'ext-flaggedrevs';
 $wgTranslateGroupAliases['ext-flow-0-all'] = 'ext-flow';
 $wgTranslateGroupAliases['ext-installer'] = 'mediawiki-installer';
 $wgTranslateGroupAliases['ext-semantic-0-all'] = 'ext-semantic';
+$wgTranslateGroupAliases['ext-semanticdrilldown'] = 'mwgithub-semanticdrilldown';
 $wgTranslateGroupAliases['ext-semantictasks'] = 'mwgithub-semantictasks';
 $wgTranslateGroupAliases['ext-translate-0-all'] = 'ext-translate';
 $wgTranslateGroupAliases['ext-universallanguageselector-0-all'] = 'ext-universallanguageselector';

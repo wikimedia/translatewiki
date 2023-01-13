@@ -649,6 +649,21 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SummaryCards/i18n/%CODE%.json"
 ---
 BASIC:
+  id: mwgithub-semanticdrilldown
+  label: Semantic Drilldown
+  description: "{{Special:MyLanguage/MediaWiki:semanticdrilldown-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/SemanticDrilldown/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticDrilldown/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-semanticscribunto
   label: Semantic Scribunto
   description: "{{Special:MyLanguage/MediaWiki:smw-scribunto-desc/en}}"
