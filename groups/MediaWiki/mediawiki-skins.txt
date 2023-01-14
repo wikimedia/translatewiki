@@ -92,6 +92,8 @@ optional = skinname-nimbus
 Nostalgia
 optional = nostalgia.css, nostalgia.js
 
+Pivot
+
 Poncho
 
 Refreshed
