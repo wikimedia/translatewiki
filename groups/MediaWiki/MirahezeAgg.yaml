@@ -24,6 +24,7 @@ GROUPS:
   - mwgithub-mirahezemagic-recaptcha-api
   - mwgithub-pdfembed
   - mwgithub-removepii
+  - mwgithub-rottenlinks
   - mwgithub-spritesheet
   - mwgithub-wikidiscover
   - mwgithub-youtube

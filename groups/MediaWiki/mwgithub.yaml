@@ -1105,6 +1105,22 @@ FILES:
 
 ---
 BASIC:
+  id: mwgithub-rottenlinks
+  label: RottenLinks
+  description: "{{Special:MyLanguage/MediaWiki:rottenlinks-desc/en}}"
+  support:
+    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: rottenlinks
+      description: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/RottenLinks/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-spritesheet
   label: SpriteSheet
   description: "{{Special:MyLanguage/MediaWiki:spritesheet_description/en}}"

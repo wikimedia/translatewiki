@@ -581,6 +581,10 @@ mwgithub:
       type: github
       url: https://github.com/miraheze/RemovePII.git
       url|export: git@github.com:miraheze/RemovePII.git
+    mwgithub/miraheze/RottenLinks:
+      type: github
+      url: https://github.com/miraheze/RottenLinks.git
+      url|export: git@github.com:miraheze/RottenLinks.git
     mwgithub/miraheze/SpriteSheet:
       type: github
       url: https://github.com/miraheze/SpriteSheet.git
