@@ -3739,7 +3739,6 @@ optional = sitesupport-url
 optional = grouppage-coder
 optional = shared-repo-name-shared
 optional = grouppage-editinterface
-optional = group-wmf-ops-monitoring, group-wmf-ops-monitoring-member, grouppage-wmf-ops-monitoring
 optional = wikimedia-mobile-frontend-terms-url, wikibase-repo-name
 optional = interlanguage-link-dmoz, interlanguage-link-citizendium, interlanguage-link-sitename-citizendium
 optional = wikibase-page-schema-publisher-name
