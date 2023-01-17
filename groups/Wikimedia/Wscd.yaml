@@ -21,6 +21,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/wscd/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - wscd-tbl-page-info
+
 VALIDATORS:
   - id: MediaWikiParameter
     insertable: true
