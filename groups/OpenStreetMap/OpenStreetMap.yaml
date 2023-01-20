@@ -77,6 +77,7 @@ TAGS:
     - browse.relation_member.entry
     - browse.relation_member.entry_html
     - editor.id.name
+    - errors.contact.contact_url
     - changeset.changeset.id
     - geocoder.search_osm_nominatim.prefix_format
     - geocoder.search osm nominatim.prefix other
