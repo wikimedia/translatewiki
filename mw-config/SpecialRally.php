@@ -159,7 +159,7 @@ if ( !class_exists( 'SpecialRally500' ) ) {
 							$products['Wikimedia Mobile apps']++;
 						}
 
-						$messageData = TranslateUtils::figureMessage( $row->rc_title );
+						$messageData = Utilities::figureMessage( $row->rc_title );
 						// Language totals
 						if ( isset( $languages[$messageData[1]] ) ) {
 							$languages[$messageData[1]]++;
