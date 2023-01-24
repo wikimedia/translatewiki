@@ -136,8 +136,6 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/PageForms
   workdir/extensions/ParserFunctions:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions
-  workdir/extensions/PoolCounter:
-    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/PoolCounter
   workdir/extensions/Renameuser:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Renameuser
   workdir/extensions/ReplaceText:

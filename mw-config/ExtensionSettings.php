@@ -199,7 +199,6 @@ $wgGroupPermissions['staff']['mwoauthsuppress'] = true;
 $wgGroupPermissions['staff']['mwoauthviewsuppressed'] = true;
 $wgGroupPermissions['staff']['mwoauthviewprivate'] = true;
 
-wfLoadExtension( 'PoolCounter' );
 $wgPoolCounterConf = [
 	'TranslateFetchTranslators' => [
 		'class' => MediaWiki\PoolCounter\PoolCounterClient::class,
