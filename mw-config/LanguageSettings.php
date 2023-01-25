@@ -54,6 +54,7 @@ $wgExtraLanguageNames['hak-hans'] = '客家语（简体）'; # Hakka Chinese (Si
 $wgExtraLanguageNames['hak-hant'] = '客家語（繁體）'; # Hakka Chinese (Traditional Han script) / Siebrand 2017-05-20
 $wgExtraLanguageNames['hif-deva'] = 'फ़ीजी हिन्दी'; # Fiji Hindi (Devangari script) / Siebrand 2010-08-26
 $wgExtraLanguageNames['hne'] = 'छत्तीसगढ़ी'; # Amir 2011-12-01
+$wgExtraLanguageNames['hno'] = 'ہندکو'; # Hindko / Amir 2023-01-25
 $wgExtraLanguageNames['hoc'] = '𑢹𑣉𑣉'; # Ho language. Amir 2017-07-09
 $wgExtraLanguageNames['igl'] = 'Igala'; # Igala / Amir 2022-12-16
 $wgExtraLanguageNames['ish'] = 'awain'; # Esan / Amir 2022-08-01
