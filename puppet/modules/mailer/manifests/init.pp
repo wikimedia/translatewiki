@@ -14,18 +14,17 @@ class mailer (
   }
 
   class { 'postfix':
-    mta             => true,
-    relayhost       => 'direct',
     manage_aliases  => false,
     manage_mailname => false,
-    myorigin        => $domain,
-    mydestination   => "${domain}, localhost",
     smtp_listen     => 'all',
+    myorigin        => $domain,
   }
 
   postfix::config {
     'mydomain':                    value => $domain;
+    'mydestination':               value => "${domain}, localhost";
     'relay_domains':               value => $domain;
+    'virtual_alias_maps':          value => 'regexp:/etc/postfix/virtual_regexp';
     'header_size_limit':           value => '4096000';
     'smtpd_helo_required':         value => 'yes';
     'smtpd_helo_restrictions':     value => @(HEREDOC/L)
@@ -55,6 +54,16 @@ class mailer (
   }
 
   include ::opendkim;
+
+  # MediaWiki Bounce handler
+  package { 'postfix-pcre':
+    ensure => present,
+  }
+
+  postfix::hash { '/etc/postfix/virtual_regexp':
+    ensure  => present,
+    content => '/wiki-[a-z0-9_.]+-[a-z0-9]+-[a-z0-9]+-[a-z0-9+\/=]+@translatewiki.net/ bouncehandler',
+  }
 
   # set up the default parameters for all firewall rules
   Firewall {

@@ -75,6 +75,7 @@ $wgContentNamespaces[] = NS_MEDIAWIKI;
 $wgContentNamespaces[] = NS_TRANSLATING;
 
 $privESService = [ 'localhost' ];
+$privVERPsecret = 'dummyvalue';
 
 require_once __DIR__ . '/PermissionSettings.php';
 require_once __DIR__ . '/ExtensionSettings.php';

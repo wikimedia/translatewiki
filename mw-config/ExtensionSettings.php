@@ -236,3 +236,8 @@ $wgHooks['LiquidThreadsIsLqtPage'][] = static function ( Title $title, bool &$is
 
 // Linter extensions requires this to produce results.
 $wgParsoidSettings[ 'linting' ] = true;
+
+wfLoadExtension( 'BounceHandler' );
+$wgVERPsecret = $privVERPsecret;
+$wgBounceHandlerUnconfirmUsers = true;
+$wgBounceRecordLimit = 5;

@@ -30,3 +30,6 @@ translatewiki: siebrand@kitano.nl, niklas.laxstrom@gmail.com, apatro@wikimedia.o
 
 # Legacy?
 blockly: siebrand@kitano.nl
+
+# BounceHandler
+bouncehandler: "|curl --interface 127.0.0.1 -d action=bouncehandler -d format=json --data-urlencode email@- https://translatewiki.net/w/api.php"
