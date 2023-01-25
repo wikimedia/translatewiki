@@ -101,6 +101,8 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CleanChanges
   workdir/extensions/DeleteBatch:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/DeleteBatch
+  workdir/extensions/DiscussionTools:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/DiscussionTools
   workdir/extensions/Echo:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo
   workdir/extensions/Elastica:
@@ -115,6 +117,8 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Interwiki
   workdir/extensions/InviteSignup:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/InviteSignup
+  workdir/extensions/Linter:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Linter
   workdir/extensions/LiquidThreads:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/LiquidThreads
   workdir/extensions/LoginNotify:
@@ -157,6 +161,8 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/UserMerge
   workdir/extensions/UserOptionStats:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/UserOptionStats
+  workdir/extensions/VisualEditor:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor
   workdir/extensions/WebChat:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/WebChat
   workdir/extensions/WikiEditor:
