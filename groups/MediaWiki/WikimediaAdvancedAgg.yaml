@@ -81,6 +81,7 @@ GROUPS:
   - ext-score
   - ext-scribunto-user
   - ext-searchextrans # Change-ID: f8cd2d6eb9c20db92e39b038cc8476f311daeda5, Commonswiki
+  - ext-searchvue # https://phabricator.wikimedia.org/T310367
   - ext-securelinkfixer # https://phabricator.wikimedia.org/rOMWCfe4877df3b1362f5115823c26f186f9c8e109233
   - ext-securepoll-user
   - ext-sitematrix-user
