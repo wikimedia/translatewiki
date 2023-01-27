@@ -76,6 +76,7 @@ $wgExtraLanguageNames['lou'] = 'kréyol la lwizyàn'; # Louisiana Creole / Amir 
 $wgExtraLanguageNames['lkt'] = 'Lakȟótiyapi'; # Lakota / 2014-04-08
 $wgExtraLanguageNames['mak'] = 'Mangkasarak'; # Amir 2022-08-20
 $wgExtraLanguageNames['mak-bugi'] = 'ᨆᨀᨔᨑ'; # Amir 2022-08-20
+$wgExtraLanguageNames['mey'] = 'الحسانية'; # Hassaniya 2023-01-27
 $wgExtraLanguageNames['mfe'] = 'Morisyen'; # Robin 2011-10-18
 $wgExtraLanguageNames['mic'] = 'Mi\'kmaq'; # Micmac / Nikerabbit 2012-02-27
 $wgExtraLanguageNames['miq'] = 'Mískitu'; # Miskito / Siebrand 2013-07-02
