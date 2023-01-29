@@ -3148,7 +3148,7 @@ id = ext-thanks-api
 file = Thanks/i18n/api/%CODE%.json
 
 Theme
-optional = theme-name-monobook-stellarbook, theme-name-vector-deepsea
+optional = theme-name-monobook-stellarbook
 
 The Wikipedia Library
 optional = thewikipedialibrary
