@@ -19,7 +19,6 @@ $specialPageAliases['en'] = [
 ];
 
 $wgSpecialPages['Rally500'] = 'SpecialRally500';
-
 use MediaWiki\Extension\Translate\Utilities\Utilities;
 
 if ( !class_exists( 'SpecialRally500' ) ) {
