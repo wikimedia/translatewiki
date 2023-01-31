@@ -56,7 +56,6 @@ $wgExtraLanguageNames['hif-deva'] = 'फ़ीजी हिन्दी'; # Fiji
 $wgExtraLanguageNames['hne'] = 'छत्तीसगढ़ी'; # Amir 2011-12-01
 $wgExtraLanguageNames['hno'] = 'ہندکو'; # Hindko / Amir 2023-01-25
 $wgExtraLanguageNames['hoc'] = '𑢹𑣉𑣉'; # Ho language. Amir 2017-07-09
-$wgExtraLanguageNames['igl'] = 'Igala'; # Igala / Amir 2022-12-16
 $wgExtraLanguageNames['ish'] = 'awain'; # Esan / Amir 2022-08-01
 $wgExtraLanguageNames['izh'] = 'ižoran keel'; # Ingrian / Robin 2012-11-17 / Language classified as not written in Ethnologue. Should be removed.
 $wgExtraLanguageNames['jdt-cyrl'] = 'жугьури'; # Judeo-Tat / Siebrand 2014-06-17
