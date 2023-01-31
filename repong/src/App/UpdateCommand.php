@@ -62,6 +62,8 @@ class UpdateCommand extends Command {
 						$state = trim( $process->getOutput() );
 					} else {
 						$output->writeln( "Unable to synchronize the state for repository: $name" );
+						// Skip processing this repository
+						continue;
 					}
 				}
 
