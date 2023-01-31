@@ -6,9 +6,8 @@ set -o errexit -o nounset -o pipefail
 umask 0002
 
 DIRSCRIPT=$(dirname "$(readlink -f "$0")")
-DIR=/resources/projects
 COMMAND=$1
 PROJECT=$2
 
-cd "$DIR"
-sudo -u "$MAINTUSER" "$DIRSCRIPT/repo$COMMAND" "$PROJECT"
+cd "$AUTOIMPORT_DIR"
+sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repo$COMMAND" "$PROJECT"

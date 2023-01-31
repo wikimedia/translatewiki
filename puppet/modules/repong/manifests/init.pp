@@ -4,36 +4,34 @@
 #
 class repong (
   String $config_dir,
-  String $repo_user,
   String $l10nbot_user,
   String $import_dir,
   String $export_dir,
 ) {
   Exec {
-    require => [ User[ $repo_user ], User[ $l10nbot_user ] ],
+    require => User[ $l10nbot_user ],
   }
 
-  # TODO: Also use l10n-bot for imports?
   exec { "Create import directory ${import_dir}":
     creates => $import_dir,
     command => "mkdir -p ${import_dir}",
     path    => $::path,
   } -> file { $import_dir:
     ensure => 'directory',
-    owner  => $repo_user,
+    owner  => $l10nbot_user,
   }
 
   file { "${import_dir}/repoconfig.yaml":
     ensure => 'link',
     target => "${config_dir}/repoconfig.yaml",
-    owner  => $repo_user,
+    owner  => $l10nbot_user,
   }
 
   file { "${import_dir}/sync.lock":
     ensure  => 'file',
     content => '',
     replace => 'no',
-    owner   => $repo_user,
+    owner   => $l10nbot_user,
     mode    => 'ugo+rw',
   }
 

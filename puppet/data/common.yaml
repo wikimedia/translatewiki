@@ -30,7 +30,6 @@ nginx::devsite::domain: "%{alias('wiki::domain')}"
 
 repong::bin_dir: "%{alias('bin_dir')}"
 repong::config_dir: "%{alias('wiki::config_dir')}"
-repong::repo_user: "%{alias('maintenance_user')}"
 repong::l10nbot_user: "%{alias('l10nbot_user')}"
 repong::import_dir: "%{alias('autoimport_dir')}"
 repong::export_dir: "%{alias('autoexport_dir')}"
