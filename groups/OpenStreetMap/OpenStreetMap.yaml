@@ -91,6 +91,7 @@ TAGS:
     - layouts.license.alt
     - layouts.project_name.h1
     - layouts.project_name.title
+    - notes.show.coordinates_html
     - notifier.message_notification.subject_header
     - oauth2_applications.index.oauth_2
     - printable_name.with_name_html
