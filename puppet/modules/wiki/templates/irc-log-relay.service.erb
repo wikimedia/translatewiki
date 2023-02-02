@@ -5,7 +5,7 @@ After=network.target
 
 [Service]
 User=<%= @maintenance_user %>
-ExecStart=/usr/bin/perl <%= @config_dir %>/irc-relay/bot/relay.pl
+ExecStart=/usr/bin/perl <%= @config_dir %>/relays/irc/relay.pl
 Restart=always
 RestartSec=60
 PrivateDevices=true
