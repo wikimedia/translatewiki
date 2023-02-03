@@ -1053,38 +1053,6 @@ TAGS:
 
 ---
 BASIC:
-  id: mwgithub-mirahezemagic-recaptcha
-  label: MirahezeMagic ReCaptcha
-  description: "{{Special:MyLanguage/MediaWiki:Mirahezemagic-renocaptcha-desc/en}}"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/MirahezeMagic/ReCaptchaNoCaptcha/i18n/%CODE%.json"
-
-MANGLER:
-  class: StringMatcher
-  prefix: mirahezemagic-
-  patterns:
-    - "*"
-
----
-BASIC:
-  id: mwgithub-mirahezemagic-recaptcha-api
-  label: MirahezeMagic ReCaptcha - API
-  description: "{{Special:MyLanguage/MediaWiki:Mirahezemagic-renocaptcha-desc/en}}"
-
-FILES:
-  class: JsonFFS
-  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/MirahezeMagic/ReCaptchaNoCaptcha/i18n/api/%CODE%.json"
-
-MANGLER:
-  class: StringMatcher
-  prefix: mirahezemagic-
-  patterns:
-    - "*"
-
----
-BASIC:
   id: mwgithub-pdfembed
   label: PDFEmbed
   description: "{{Special:MyLanguage/MediaWiki:pdfembed_description/en}}"

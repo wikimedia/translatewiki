@@ -20,8 +20,6 @@ GROUPS:
   - mwgithub-mirahezelanding
   - mwgithub-mirahezemagic-custom
   - mwgithub-mirahezemagic-override
-  - mwgithub-mirahezemagic-recaptcha
-  - mwgithub-mirahezemagic-recaptcha-api
   - mwgithub-pdfembed
   - mwgithub-removepii
   - mwgithub-rottenlinks
