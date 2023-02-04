@@ -1240,6 +1240,13 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/edwardspec/mediawiki-moderation/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - moderation-whois-link-text
+  ignored:
+    - moderation-whois-link-url
+    - tag-moderation-spam
+
 ---
 BASIC:
   id: mwgithub-achievementbadges
