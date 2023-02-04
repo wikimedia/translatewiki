@@ -1369,6 +1369,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/kulttuuri/DiscordNotifications/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - universalomega-discordnotifications-extensionname
+
 ---
 BASIC:
   id: mwgithub-lud
