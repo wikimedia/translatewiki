@@ -19,7 +19,6 @@ TEMPLATE:
       ku-latn: ku
       ms-arab: b+ms+Arab
       nds-nl: b+nds+NL
-      pcm: pcm
       pt-br: pt-rBR
       qqq: qq
       roa-tara: b+roa+tara
@@ -38,6 +37,7 @@ TEMPLATE:
       - ar
       - en
       - hi
+      - pcm
       - pt-br
       - sw
 
