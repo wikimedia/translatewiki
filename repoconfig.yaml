@@ -293,6 +293,12 @@ kiwix:
       pull-branch: translatewiki
       url: https://github.com/kiwix/kiwix-desktop.git
       url|export: git@github.com:kiwix/kiwix-desktop.git
+    kiwix-mwoffliner:
+      type: github
+      branch: main
+      pull-branch: translatewiki
+      url: https://github.com/openzim/mwoffliner.git
+      url|export: git@github.com:openzim/mwoffliner.git
     kiwix-serve:
       type: github
       branch: main

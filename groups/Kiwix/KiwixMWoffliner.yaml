@@ -1,0 +1,37 @@
+---
+BASIC:
+  id: kiwix-mwoffliner
+  label: MWoffliner MediaWiki scraper
+  icon: wiki://Kiwix_icon.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mwoffliner/en}}"
+  namespace: NS_KIWIX
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/openzim/mwoffliner/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/kiwix-mwoffliner/translation/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: mwoffliner-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    params: /\${[a-zA-Z0-9]+}/
+  - id: MatchSet
+    enforce: true
+    include:
+      - mwoffliner-__direction
+    params:
+      values:
+        - ltr
+        - rtl

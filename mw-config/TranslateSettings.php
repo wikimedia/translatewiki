@@ -409,6 +409,7 @@ $wgTranslateSupportUrlNamespace[NS_EOL] = [
 wfAddNamespace( 1244, 'Kiwix' );
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixAndroid.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixDesktop.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixMWoffliner.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixServe.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixPhET.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixAgg.yaml";
