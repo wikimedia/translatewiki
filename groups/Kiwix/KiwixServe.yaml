@@ -9,7 +9,7 @@ BASIC:
 
 FILES:
   class: JsonFFS
-  sourcePattern: "%GROUPROOT%/kiwix-serve/static/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/kiwix-serve/static/skin/i18n/%CODE%.json"
 
 MANGLER:
   class: StringMatcher
