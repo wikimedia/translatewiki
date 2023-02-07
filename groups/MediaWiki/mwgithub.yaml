@@ -198,6 +198,8 @@ TAGS:
     - sci-name
     - sci-referencelist-text
     - sci-specials-citablemetadata-helplink
+    - sci-property-definition
+    - sci-template-definition
 ---
 BASIC:
   id: mwgithub-semanticcompoundqueries
