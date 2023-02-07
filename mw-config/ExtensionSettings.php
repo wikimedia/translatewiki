@@ -218,3 +218,10 @@ wfLoadExtension( 'CodeEditor' );
 $wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEditor extension
 
 wfLoadExtensions( [ 'VisualEditor', 'Linter', 'DiscussionTools', 'LiquidThreads' ] );
+// Disable LiquidThreads on non-existing discussion pages. Users will see the discussion tools UI instead.
+$wgHooks['LiquidThreadsIsLqtPage'][] = static function ( Title $title, bool &$isTalkPage ) {
+	if ( !$title->exists() ) {
+		$isTalkPage = false;
+		return false;
+	}
+};
