@@ -30,7 +30,7 @@ VALIDATORS:
   - id: MatchSet
     enforce: true
     include:
-      - mwoffliner-__direction
+      - mwoffliner-=5F=5Fdirection
     params:
       values:
         - ltr
