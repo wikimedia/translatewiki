@@ -34,11 +34,11 @@ twn-update-database || twn-update-database
 
 echo -e "\n\n\nConfiguring elastic search..."
 cd /home/developer/mediawiki/workdir
-php extensions/Translate/scripts/ttmserver-export.php
+php maintenance/run.php ./extensions/Translate/scripts/ttmserver-export.php
 
 cd /root
 rm -r "$DEB" translatewiki
 
 echo "\n\n\nTo access developer account on the wiki, you need to reset the password with"
-echo "  php /home/developer/mediawiki/workdir/maintenance/changePassword.php --user Developer --password '...'"
+echo "  php /home/developer/mediawiki/workdir/maintenance/run.php changePassword --user Developer --password '...'"
 echo "\n\n\nReboot the machine to ensure all config changes are enabled"

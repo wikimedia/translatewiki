@@ -5,10 +5,10 @@ set -o nounset -o pipefail -o errexit
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Starting reindex ***"
-php "$WORKDIR/extensions/CirrusSearch/maintenance/Metastore.php" --upgrade
-php "$WORKDIR/extensions/CirrusSearch/maintenance/UpdateSearchIndexConfig.php" --startOver
-php "$WORKDIR/extensions/CirrusSearch/maintenance/ForceSearchIndex.php" --skipLinks --indexOnSkip --buildChunks 500 --batch-size=50 | parallel --eta --nice 20 --joblog reindex.log --no-notice
-php "$WORKDIR/extensions/CirrusSearch/maintenance/ForceSearchIndex.php" --skipParse --buildChunks 500 --batch-size=50 | parallel --eta --nice 20 --joblog reindex-2.log --no-notice
+php "$WIKISCRIPT" "$WORKDIR/extensions/CirrusSearch/maintenance/Metastore.php" --upgrade
+php "$WIKISCRIPT" "$WORKDIR/extensions/CirrusSearch/maintenance/UpdateSearchIndexConfig.php" --startOver
+php "$WIKISCRIPT" "$WORKDIR/extensions/CirrusSearch/maintenance/ForceSearchIndex.php" --skipLinks --indexOnSkip --buildChunks 500 --batch-size=50 | parallel --eta --nice 20 --joblog reindex.log --no-notice
+php "$WIKISCRIPT" "$WORKDIR/extensions/CirrusSearch/maintenance/ForceSearchIndex.php" --skipParse --buildChunks 500 --batch-size=50 | parallel --eta --nice 20 --joblog reindex-2.log --no-notice
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Reindex complete ***"

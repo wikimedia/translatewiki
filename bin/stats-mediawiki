@@ -61,6 +61,6 @@ S=$(IFS=,;echo "${SKIPLANGUAGES[*]}")
 
 {
 	echo "{{Translating:Group statistics/Header10}}"
-	php "$WIKIDIR/extensions/Translate/scripts/groupStatistics.php" --skipzero --groups="$G" --skiplanguages="$S" |
+	php "$WIKISCRIPT" "$WIKIDIR/extensions/Translate/scripts/groupStatistics.php" --skipzero --groups="$G" --skiplanguages="$S" |
 		tail -n +12
-} | php "$WIKIDIR/maintenance/edit.php" --user=MaintenanceBot --summary="Updating statistics" Translating:Group_statistics
+} | php "$WIKISCRIPT" edit --user=MaintenanceBot --summary="Updating statistics" Translating:Group_statistics

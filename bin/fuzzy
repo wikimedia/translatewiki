@@ -10,4 +10,4 @@ if [ "$#" -gt "2" ]; then
 	exit
 fi
 
-php "$WIKIDIR/extensions/Translate/scripts/fuzzy.php" --skiplanguages=en,test,qqq "$1" --comment="$2"
+php "$WIKISCRIPT" "$WIKIDIR/extensions/Translate/scripts/fuzzy.php" --skiplanguages=en,test,qqq "$1" --comment="$2"
