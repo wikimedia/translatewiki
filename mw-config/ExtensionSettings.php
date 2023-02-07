@@ -219,4 +219,3 @@ wfLoadExtension( 'CodeEditor' );
 $wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEditor extension
 
 wfLoadExtensions( [ 'VisualEditor', 'Linter', 'DiscussionTools', 'LiquidThreads' ] );
-$wgLqtTalkPages = false;
