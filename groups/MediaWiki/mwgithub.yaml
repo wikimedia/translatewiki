@@ -406,6 +406,7 @@ TAGS:
     - srf_icalendar_link
     - srf_vcard_link
     - srf_bibtex_link
+    - srf-ui-datatables-label-sInfoThousands
     - srf-ui-eventcalendar-format-time
     - srf-ui-eventcalendar-format-time-agenda
     - srf-ui-eventcalendar-format-axis
