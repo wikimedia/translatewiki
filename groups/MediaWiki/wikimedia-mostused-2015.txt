@@ -485,6 +485,14 @@ filehist-comment
 diff-empty
 delete
 youhavenewmessages
+blockedtext-made-by
+blockedtext-reason-comment
+blockedtext-start-time
+blockedtext-expiration-time
+blockedtext-intended-blockee
+blockedtext-contact-blocker-admin
+blockedtext-block-ip
+blockedtext-include-details-queries
 blockedtext
 grouppage-sysop
 group-sysop
