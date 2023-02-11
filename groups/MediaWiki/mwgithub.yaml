@@ -347,7 +347,15 @@ TAGS:
     - smw-datavalue-reference-outputformat
     - smw-property-preferred-title-format
     - smw-format-datatable-infothousands
+    - smw-format-list-other-fields-open
     - smw-format-list-other-fields-close
+    - smw-specials-bytype-helplink
+    - smw-schema-error-violation
+    - smw-admin-supplementary-duplookup-helplink
+    - smw-processingerrorlist-helplink
+    - smw-constrainterrorlist-helplink
+    - smw-admin-helplink
+    - smw-special-pageproperty-helplink
   ignored:
     - smw-title
     - smw_ask_doculink
