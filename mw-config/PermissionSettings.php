@@ -15,6 +15,9 @@ $wgGroupPermissions[ 'user'          ][ 'lqt-split'               ] = false;
 $wgGroupPermissions[ 'user'          ][ 'lqt-merge'               ] = false;
 
 $wgGroupPermissions[ 'autoconfirmed' ][ 'sendemail'               ] = true;
+$wgGroupPermissions[ 'autoconfirmed' ][ 'move'                    ] = true;
+// Maximum of 10 moves per hour
+$wgRateLimits['move']['user'] = [ 10, 3600 ];
 
 $wgGroupPermissions[ 'translator'    ][ 'editinterface'           ] = true;
 $wgGroupPermissions[ 'translator'    ][ 'translate'               ] = true;
