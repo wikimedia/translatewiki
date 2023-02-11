@@ -68,7 +68,6 @@ $wgExtraLanguageNames['kgp'] = 'Kaingáng'; # Siebrand 2008-12-05
 $wgExtraLanguageNames['kip'] = 'शेषी पाङ'; # Amir 2017-08-13
 $wgExtraLanguageNames['knn'] = 'महाराष्ट्रीय कोंकणी'; # Maharashtrian Konkani / 2015-XX-XX
 $wgExtraLanguageNames['ksf'] = 'Bafia'; # Robin 2011-10-21
-$wgExtraLanguageNames['kus'] = 'Kʋsaal'; # Kusaal / Eugene Wang'ombe / 2022-11-05
 $wgExtraLanguageNames['lag'] = 'Kilaangi'; # Rangi / Amir 2017-05-03
 $wgExtraLanguageNames['lad-hebr'] = 'לאדינו'; # Ladino in Hebrew script / Amir 2020-04-17
 $wgExtraLanguageNames['ldn'] = 'Láadan'; # Amir 2023-02-15
