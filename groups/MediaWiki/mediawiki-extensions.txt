@@ -1133,6 +1133,7 @@ aliasfile = Drafts/Drafts.alias.php
 ignored = accesskey-drafts-save
 
 Drawio Editor
+optional = drawioconnector-tag-drawio-title
 
 Dumps On Demand
 aliasfile = DumpsOnDemand/DumpsOnDemand.alias.php
@@ -3486,6 +3487,7 @@ aliasfile = WebChat/WebChat.alias.php
 
 Web DAV
 aliasfile = WebDAV/languages/WebDAV.alias.php
+optional = prefs-webdav
 
 # Web DAV Client Integration // 2019-04-14: Empty repo
 
