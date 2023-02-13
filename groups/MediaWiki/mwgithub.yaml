@@ -1038,6 +1038,7 @@ MANGLER:
 TAGS:
   optional:
     - mirahezemagic-custom-centralauth-groupname
+    - mirahezemagic-custom-miraheze-donatepage
   ignored:
     - mirahezemagic-custom-termsofservicepage
     - mirahezemagic-custom-grouppage-*
