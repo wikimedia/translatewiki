@@ -3470,6 +3470,10 @@ magicfile = VoteNY/includes/VoteNY.i18n.magic.php
 Wanted Pages From NS
 descmsg = wpfromns-desc
 
+Watch Analytics
+aliasfile = WatchAnalytics/WatchAnalytics.alias.php
+magicfile = WatchAnalytics/WatchAnalytics.i18n.magic.php
+
 Watch Subpages
 aliasfile = WatchSubpages/WatchSubpages.alias.php
 ignored = accesskey-watchsubpages-submit
