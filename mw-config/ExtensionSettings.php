@@ -225,3 +225,6 @@ $wgHooks['LiquidThreadsIsLqtPage'][] = static function ( Title $title, bool &$is
 		return false;
 	}
 };
+
+// Linter extensions requires this to produce results.
+$wgParsoidSettings[ 'linting' ] = true;
