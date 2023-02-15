@@ -124,8 +124,6 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/LiquidThreads
   workdir/extensions/LoginNotify:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/LoginNotify
-  workdir/extensions/NewUserMessage:
-    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/NewUserMessage
   workdir/extensions/Nuke:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Nuke
   workdir/extensions/OATHAuth:

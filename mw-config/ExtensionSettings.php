@@ -82,10 +82,6 @@ $wgTranslateTranslationServices['Apertium WMF'] = [
 wfLoadExtension( 'ParserFunctions' );
 $wgPFEnableStringFunctions = true;
 
-wfLoadExtension( 'NewUserMessage' );
-$wgNewUserSuppressRC = true;
-$wgNewUserMinorEdit = false;
-
 wfLoadExtension( 'WebChat' );
 $wgWebChatClient = 'LiberaChat';
 $wgWebChatChannel = '#translatewiki';
