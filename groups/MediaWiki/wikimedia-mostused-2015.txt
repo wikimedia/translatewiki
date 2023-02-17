@@ -124,7 +124,8 @@ permalink
 wikimedia-copyright
 lastmodifiedat
 tagline
-vector-view-view
+skin-view-view
+skin-view-edit
 pagecategories
 and
 upload
@@ -134,7 +135,6 @@ move
 newtitle
 movereason
 mainpage-description
-vector-view-edit
 recentchangeslinked-toolbox
 currentevents
 currentevents-url
@@ -149,6 +149,11 @@ wikibase-linkitem-input-page
 wikibase-linkitem-linkpage
 ext-uls-compact-link-count
 vector-language-button-label
+vector-no-language-button-label
+vector-page-tools-label
+vector-unpin-element-label
+vector-page-tools-general-label
+vector-languages
 mobile-frontend-language-article-heading
 coll-download_as
 wikibase-dataitem
