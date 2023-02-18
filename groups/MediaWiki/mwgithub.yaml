@@ -750,13 +750,14 @@ FILES:
 
 TAGS:
   optional:
+    - pickle-case-full-header
+    - pickle-case-vivid-header
     - pickle-testcase-subpage
     - pickle-testcase-invoke
     - pickle-default-subpage
     - pickle-default-invoke
     - pickle-report-*-keyword
     - pickle-report-*-no-description
-
   ignored:
     - pickle-testspec-subpage
     - pickle-testspec-invoke
