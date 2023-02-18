@@ -1417,6 +1417,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-Debounce/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - debounce-extensionname
+
 ---
 BASIC:
   id: mwgithub-gtag
