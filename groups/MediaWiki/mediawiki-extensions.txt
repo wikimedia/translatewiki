@@ -2582,8 +2582,6 @@ Poll NY
 aliasfile = PollNY/includes/PollNY.alias.php
 descmsg = poll-desc
 
-Pool Counter
-
 Popup Alerts
 
 Popups
