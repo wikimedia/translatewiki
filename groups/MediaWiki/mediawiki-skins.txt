@@ -120,7 +120,7 @@ Vector
 optional = vector.css, vector.js, vector-specialversion-name
 
 webplatform
-ignored = webplatform-bottom-footer
+ignored = webplatform-bottom-footer, webplatform-sitenav
 optional = skinname-webplatform
 
 WikimediaApiPortal

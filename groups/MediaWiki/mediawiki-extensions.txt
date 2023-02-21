@@ -3546,6 +3546,7 @@ ignored = wikilambda-editor-additem, wikilambda-editor-removeitem
 ignored = wikilambda-modeselector-reference, wikilambda-modeselector-literal
 ignored = wikilambda-modeselector-functioncall, wikilambda-modeselector-json
 ignored = wikilambda-modeselector-argref, wikilambda-editor-clearitem
+ignored = wikilambda-updated-implementations-summary
 optional = wikilambda-persistentzobject, wikilambda-zobjectselector-label
 optional = content-model-zobject
 optional = wikilambda-json
