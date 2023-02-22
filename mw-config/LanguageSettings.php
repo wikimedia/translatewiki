@@ -40,7 +40,6 @@ $wgExtraLanguageNames['cop'] = 'ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ'; # Coptic
 $wgExtraLanguageNames['cpx'] = 'Pó-sing-gṳ̂'; # Pu-Xian Min (莆仙語) / 2016-06-22
 $wgExtraLanguageNames['dar'] = 'дарган'; # Dargwa / Amir 2021-04-13
 $wgExtraLanguageNames['ddn'] = 'dendi'; # Dendi / Amir 2023-04-03
-$wgExtraLanguageNames['dga'] = 'Dagaare'; # Dagaare / Eugene Wang'ombe / 2022-11-05
 $wgExtraLanguageNames['efi'] = 'efịk'; # Efik / Amir 2022-03-12
 $wgExtraLanguageNames['elm'] = 'Eleme'; # Eleme / Amir 2020-07-02
 $wgExtraLanguageNames['esu'] = 'Yup\'ik'; # Central Alaskan Yupik / Siebrand 2011-02-14
