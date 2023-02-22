@@ -959,6 +959,9 @@ aliasfile = CreateAPage/CreatePage.alias.php
 descmsg = createpage-desc
 ignored = createplate-Blank
 optional = createpage-template-infobox-format
+optional = apihelp-createapage-upload-example-1
+optional = apihelp-createapage-upload-param-wpPostFix
+optional = apihelp-createapage-upload-param-wpInFix
 
 Create Page
 aliasfile = CreatePage/CreatePage.alias.php
