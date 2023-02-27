@@ -2082,8 +2082,6 @@ id = ext-mobilefrontend-api
 
 Model
 
-Mol Handler
-
 Montserrat Font
 
 MP3 Media Handler
@@ -3055,8 +3053,6 @@ ignored = statcounter-project-id, statcounter-security
 Stick To That Language
 
 StickyTOC
-
-Stl Handler
 
 Stop Forum Spam
 
