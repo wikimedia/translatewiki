@@ -1584,6 +1584,12 @@ id = ext-growthexperiments-helppanel
 file = GrowthExperiments/i18n/help/%CODE%.json
 ignored = growthexperiments-help-panel-suggestededits-tips-vector-visualeditor-copyedit-graphic-calm
 ignored = growthexperiments-help-panel-suggestededits-tips-vector-visualeditor-image-recommendation-onboarding-value
+ignored = growthexperiments-help-panel-postedit-trynewtask-toast-message
+ignored = growthexperiments-help-panel-postedit-trynewtask-try-button-text
+ignored = growthexperiments-help-panel-postedit-trynewtask-nothanks-button-text
+ignored = growthexperiments-help-panel-postedit-trynewtask-header
+ignored = growthexperiments-help-panel-postedit-trynewtask-subheader-tasktype
+ignored = growthexperiments-help-panel-postedit-trynewtask-dontshowagain-checkbox
 
 Growth Experiments - Help Panel API
 id = ext-growthexperiments-helppanel-api
