@@ -654,9 +654,6 @@ file = Cargo/i18n/%CODE%.json
 magicfile = Cargo/Cargo.i18n.magic.php
 aliasfile = Cargo/Cargo.alias.php
 
-Carp
-optional = carp-function-msg, carp-template-msg, carp-template
-
 Category Lockdown
 
 Category Sort Headers
