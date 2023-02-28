@@ -2470,7 +2470,6 @@ optional = pagetriage-del-tags-dba9-label, pagetriage-del-tags-dba9-desc
 optional = pagetriage-del-tags-dbg2-label, pagetriage-del-tags-dbg2-desc
 optional = pagetriage-del-tags-dbg4-label, pagetriage-del-tags-dbg4-desc
 optional = pagetriage-del-tags-dbg5-label, pagetriage-del-tags-dbg5-desc
-optional = pagetriage-del-tags-dbu2-label, pagetriage-del-tags-dbu2-desc
 optional = pagetriage-del-tags-dba10-label, pagetriage-del-tags-dba10-desc
 optional = pagetriage-del-tags-dba2-label, pagetriage-del-tags-dba2-desc
 optional = pagetriage-del-tags-blpprod-label, pagetriage-del-tags-blpprod-desc
