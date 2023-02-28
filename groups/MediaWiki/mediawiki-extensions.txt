@@ -3090,8 +3090,6 @@ descmsg = syntaxhighlight-desc
 Tabs
 ignored = tabs-dropdown-bgcolor
 
-Tabber
-
 TEI
 optional = content-model-tei
 
