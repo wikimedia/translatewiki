@@ -208,9 +208,6 @@ Biblio Plus
 
 # Blackout // Historic for protest to SOPA/PIPA and Internet censorship
 
-Block And Nuke
-aliasfile = BlockAndNuke/BlockAndNuke.alias.php
-
 Block Inactive
 aliasfile = BlockAndNuke/includes/BlockInactive.alias.php
 
