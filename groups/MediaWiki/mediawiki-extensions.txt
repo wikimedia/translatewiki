@@ -2195,9 +2195,6 @@ descmsg = newusernotif-desc
 Newest Pages
 aliasfile = NewestPages/NewestPages.alias.php
 
-News
-descmsg = newsextension-desc
-
 # News Box // New import from Shoutwiki, messages need rewording
 
 News Ticker
