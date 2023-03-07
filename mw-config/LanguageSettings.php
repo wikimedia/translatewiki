@@ -124,6 +124,7 @@ $wgExtraLanguageNames['tly-cyrl'] = 'толыши'; # Talysh (Cyrillic) / Amir 2
 $wgExtraLanguageNames['tok'] = 'toki pona'; # Toki Pona / Samtar 2022-03-08
 $wgExtraLanguageNames['trp'] = 'Kokborok'; # Kokborok
 $wgExtraLanguageNames['tsd'] = 'Τσακωνικά'; # Tsakonian / Siebrand 2009-08-20
+$wgExtraLanguageNames['tsg'] = 'Sinūg'; # Tausug / Jon Harald Søby 2023-03-07
 $wgExtraLanguageNames['ttt'] = 'Tati'; # Tat / Siebrand 2008-04-04
 $wgExtraLanguageNames['twd'] = 'Tweants'; # Twents
 $wgExtraLanguageNames['vai'] = 'ꕙꔤ'; # Vai Amir 2019-04-23
