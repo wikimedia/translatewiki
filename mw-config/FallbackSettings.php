@@ -31,6 +31,7 @@ $wgTranslateLanguageFallbacks['bdr'] = [ 'id', 'ms', 'tl' ];
 $wgTranslateLanguageFallbacks['bfa'] = [ 'din', 'ar' ];
 $wgTranslateLanguageFallbacks['bfq'] = [ 'kn', 'ta' ];
 $wgTranslateLanguageFallbacks['bft'] = 'ur';
+$wgTranslateLanguageFallbacks['bgc'] = 'hi';
 $wgTranslateLanguageFallbacks['bkm'] = 'fr';
 $wgTranslateLanguageFallbacks['bm'] = 'nqo';
 $wgTranslateLanguageFallbacks['bnn'] = [ 'zh-hant' ];

@@ -19,6 +19,7 @@ $wgExtraLanguageNames['bew'] = 'Bahasa Betawi'; # Betawi / Siebrand 2008-07-13
 $wgExtraLanguageNames['bfa'] = 'bari'; # Bari / Amir 2022-12-02
 $wgExtraLanguageNames['bft'] = 'بلتی'; # Balti / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['bfq'] = 'படகா'; # UBadaga / Siebrand 2009-11-19
+$wgExtraLanguageNames['bgc'] = 'हरियाणवी'; # Haryanvi / Amir 2023-03-08
 $wgExtraLanguageNames['bkm'] = 'Itaŋikom'; # Kom / Amir 2021-03-31
 $wgExtraLanguageNames['blc'] = 'ItNuxalkmc'; # Nuxalk / Amir 2020-06-22
 $wgExtraLanguageNames['bnn'] = 'bunun'; # Bunun / Amir 2022-07-20
