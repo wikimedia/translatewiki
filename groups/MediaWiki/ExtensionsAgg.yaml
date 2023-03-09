@@ -84,6 +84,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-campaignevents
+  label: Campaign Events
+  description: '{{Special:MyLanguage/MediaWiki:CampaignEvents-desc/en}}'
+GROUPS:
+  - ext-campaignevents-*
+
+---
+BASIC:
   id: ext-cargo
   label: Cargo
   description: '{{Special:MyLanguage/MediaWiki:Cargo-desc/en}}'

@@ -8,7 +8,6 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
-  - ext-campaignevents # https://phabricator.wikimedia.org/rOMWC8432584daca38dfc2a29d8c7213eb0936db29437
   - ext-capiunto # wikidataclient-test
   - ext-chessbrowser # https://phabricator.wikimedia.org/rOMWCba8b786c7f3a290f0747a6859fd07502eb83108f
   - ext-phonos # https://phabricator.wikimedia.org/rOMWC5b5eed00208ee50837c72154ee9e190435d2ab6f

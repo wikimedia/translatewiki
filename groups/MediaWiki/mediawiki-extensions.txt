@@ -633,9 +633,15 @@ Bread Crumbs
 
 Calendar
 
-Campaign Events
+Campaign Events - Rest API
+id = ext-campaignevents-rest
+file = CampaignEvents/i18n/rest/%CODE%.json
+
+Campaign Events - User interface
+id = ext-campaignevents-user
 aliasfile = CampaignEvents/CampaignEvents.alias.php
 optional = campaignevents-eventpage-header-dates
+file = CampaignEvents/i18n/%CODE%.json
 
 Campaigns
 
