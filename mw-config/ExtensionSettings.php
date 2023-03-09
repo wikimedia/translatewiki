@@ -15,7 +15,6 @@ wfLoadExtensions( [
 	'LoginNotify',
 	'Nuke',
 	'OATHAuth',
-	'Renameuser',
 	'ReplaceText',
 	'Scribunto',
 	'SyntaxHighlight_GeSHi',

@@ -137,8 +137,6 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/PageForms
   workdir/extensions/ParserFunctions:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions
-  workdir/extensions/Renameuser:
-    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Renameuser
   workdir/extensions/ReplaceText:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ReplaceText
   workdir/extensions/Scribunto:
