@@ -241,11 +241,9 @@ intuition:
   export-threshold: 1
   repos:
     intuition:
-      type: github
-      branch: main
-      url: https://github.com/Krinkle/intuition.git
-      pull-branch|export: translatewiki
-      url|export: git@github.com:Krinkle/intuition.git
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/intuition
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/intuition
 
 intuition-tools:
   group: int-*
@@ -269,10 +267,9 @@ intuition-tools:
       url: https://github.com/CurbSafeCharmer/refill.git
       url|export: git@github.com:CurbSafeCharmer/refill.git
     int-web:
-      type: github
-      branch: main
-      url: https://github.com/Krinkle/intuition-web.git
-      url|export: git@github.com:Krinkle/intuition-web.git
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/intuition-web
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/intuition-web
     int-commtech-commons:
       type: github
       url: https://github.com/wikimedia/CommonsNotifier.git
