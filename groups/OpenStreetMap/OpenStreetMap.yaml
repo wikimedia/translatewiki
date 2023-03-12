@@ -98,15 +98,18 @@ TAGS:
     - oauth2_applications.index.oauth_2
     - printable_name.with_name_html
     - printable_name.with_version
+    - site.communities.other_groups.communities_wiki_url
     - site.edit.anon_edits
     - site.edit.anon_edits_html
     - site.export.odbl_url
+    - site.fixthemap.other_concerns.working_group_url
     - site.help.beginners_guide.url
     - site.help.help.url
     - site.help.community.url
     - site.help.welcomemat.url
     - site.help.wiki.url
     - site.any_questions.welcome_mat_url
+    - site.potlatch.download_url
     - site.welcome.rules.imports_url
     - site.welcome.rules.automated_edits_url
     - time.formats.blog
@@ -138,6 +141,8 @@ TAGS:
     - browse.common_details.coordinates_html
     - browse.note.coordinates_html
     - diary_entries.location.coordinates
+    - shared.markdown_help.kramdown_url
+    - shared.markdown_help.kramdown
   ignored:
     - geocoder.search_osm_namefinder.prefix
     - printable_name.with_id
