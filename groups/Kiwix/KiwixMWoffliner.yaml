@@ -35,3 +35,7 @@ VALIDATORS:
       values:
         - ltr
         - rtl
+
+TAGS:
+  optional:
+    - mwoffliner-=5F=5Fdirection
