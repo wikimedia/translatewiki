@@ -45,3 +45,7 @@ MANGLER:
 
 FILES:
   sourcePattern: "%GROUPROOT%/web2cit-server/locales/%CODE%/translation.json"
+
+TAGS:
+  optional:
+    - web2cit-translation-web2cit
