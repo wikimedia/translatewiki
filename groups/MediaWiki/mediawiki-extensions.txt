@@ -683,6 +683,7 @@ aliasfile = CentralAuth/CentralAuth.alias.php
 optional = centralauth-editset-grouplink, centralauth-listusers-item
 optional = centralauth-merge-method-questionmark
 ignored = centralauth-editset-item-ro, centralauth-admin-notblocked, centralauth-welcomecreation-msg
+ignored = centralauth-admin-log-otherwiki
 
 Central Auth - API
 id = ext-centralauth-api
