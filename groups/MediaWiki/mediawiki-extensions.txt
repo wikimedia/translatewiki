@@ -2735,8 +2735,6 @@ RSS
 optional = rss-feed
 ignored = rss-item
 
-RT
-
 S5 Slide Show
 ignored = special-s5SlideShow-intro
 optional = s5slide-name
