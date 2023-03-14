@@ -204,8 +204,6 @@ file = BetaFeatures/i18n/api/%CODE%.json
 
 Biblio Plus
 
-# Blackout // Historic for protest to SOPA/PIPA and Internet censorship
-
 Block Inactive
 aliasfile = BlockAndNuke/includes/BlockInactive.alias.php
 
