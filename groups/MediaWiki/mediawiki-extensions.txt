@@ -187,8 +187,6 @@ Babel - API
 id = ext-babel-api
 file = Babel/i18n/api/%CODE%.json
 
-Base Hooks
-
 Batch User Rights
 aliasfile = BatchUserRights/BatchUserRights.alias.php
 
