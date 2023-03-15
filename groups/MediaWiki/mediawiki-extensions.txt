@@ -621,6 +621,7 @@ id = ext-bouncehandler-user
 file = BounceHandler/i18n/%CODE%.json
 
 Bread Crumbs 2
+ignored = breadcrumbs
 
 # Brickipedia Extra // no message prefix, Brickipedia-specific
 
