@@ -620,7 +620,7 @@ Bounce Handler - User interface
 id = ext-bouncehandler-user
 file = BounceHandler/i18n/%CODE%.json
 
-Bread Crumbs
+Bread Crumbs 2
 
 # Brickipedia Extra // no message prefix, Brickipedia-specific
 
