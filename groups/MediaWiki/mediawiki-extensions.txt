@@ -1269,7 +1269,9 @@ aliasfile = FileImporter/FileImporter.alias.php
 ignored = fileimporter-post-import-revision-annotation
 optional = fileimporter
 
-# File System Image Server // 2018-08-09: Empty repo
+File System Image Server
+descmsg = fsis-desc
+aliasfile = FileSystemImageServer/includes/FileSystemImageServer.alias.php
 
 Filter List Users
 
