@@ -2668,14 +2668,14 @@ Random Pages
 
 Random Selection
 
-ReadingLists - API
+Reading Lists - API
 id = ext-readinglists-api
 file = ReadingLists/i18n/api/%CODE%.json
 
-ReadingLists - User interface
+Reading Lists - User interface
 id = ext-readinglists-user
 file = ReadingLists/i18n/%CODE%.json
-ignored = readinglists-import-app
+ignored = readinglists-import-app, readinglists-import-app-with-link
 
 Real Me
 
