@@ -238,41 +238,14 @@ huggle:
 
 intuition:
   group: tsint-*
+  # Note that wikimedia-tools has auto-merge for labs/tools/.*
+  auto-merge: labs/tools/intuition
   export-threshold: 1
   repos:
     intuition:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/intuition
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/intuition
-
-intuition-tools:
-  group: int-*
-  auto-merge: ^operations/dumps/dcat
-  repos:
-    int-dcatap:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/operations/dumps/dcat
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/dumps/dcat
-    int-orphantalk:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/labs/tools/orphantalk
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/orphantalk
-    int-raun:
-      type: github
-      url: https://github.com/kenrick95/Raun.git
-      url|export: git@github.com:kenrick95/Raun.git
-    int-refill:
-      type: github
-      url: https://github.com/CurbSafeCharmer/refill.git
-      url|export: git@github.com:CurbSafeCharmer/refill.git
-    int-web:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/labs/tools/intuition-web
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/intuition-web
-    int-commtech-commons:
-      type: github
-      url: https://github.com/wikimedia/CommonsNotifier.git
-      url|export: git@github.com:wikimedia/CommonsNotifier.git
 
 kiwix:
   group: kiwix-*
@@ -1169,12 +1142,36 @@ wikimedia-portals:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/portals
 
 wikimedia-tools:
-  group: wikimedia-tools-*
+  group: wikimedia-tools-*,int-*
   # Gerrit query syntax does not allow inline alternatives nor intersections.
   # Given this is also limited by owner, this does not match unwanted repos.
   # https://review.openstack.org/Documentation/user-search.html#project
-  auto-merge: ^labs/tools/.*
+  auto-merge: ^labs/tools/.*|operations/dumps/dcat
   repos:
+    int-dcatap:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/operations/dumps/dcat
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/dumps/dcat
+    int-orphantalk:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/orphantalk
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/orphantalk
+    int-raun:
+      type: github
+      url: https://github.com/kenrick95/Raun.git
+      url|export: git@github.com:kenrick95/Raun.git
+    int-refill:
+      type: github
+      url: https://github.com/CurbSafeCharmer/refill.git
+      url|export: git@github.com:CurbSafeCharmer/refill.git
+    int-web:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/intuition-web
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/intuition-web
+    int-commtech-commons:
+      type: github
+      url: https://github.com/wikimedia/CommonsNotifier.git
+      url|export: git@github.com:wikimedia/CommonsNotifier.git
     wikimedia-tools/bookreader:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/bookreader
