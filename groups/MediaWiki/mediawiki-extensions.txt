@@ -1043,6 +1043,7 @@ optional = discussiontools-replywidget-feedback-link
 optional = discussiontools-signature-prefix
 optional = discussiontools, discussiontools-replywidget-mention-prefix
 optional = discussiontools-notification-subscribed-new-comment-header-compact
+optional = discussiontools-notification-added-topic-header-compact
 
 Display Title
 
