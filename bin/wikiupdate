@@ -17,7 +17,7 @@ sudo -u "$REPOUSER" composer -n -d"$WORKDIR" update
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Rebuilding caches ***"
-sudo -u "$MAINTUSER" nice php "$WIKISCRIPT" rebuildLocalisationCache --threads 6 --quiet
+sudo -u "$MAINTUSER" nice php "$WORKDIR/maintenance/rebuildLocalisationCache.php" --threads 6 --quiet
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: All done ***"
