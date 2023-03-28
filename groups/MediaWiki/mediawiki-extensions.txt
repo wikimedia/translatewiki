@@ -3439,7 +3439,7 @@ id = ext-visualeditor-ve-wmf
 descmsg = visualeditor-desc
 file = VisualEditor/i18n/ve-wmf/%CODE%.json
 optional = visualeditor-help-link
-ignored = visualeditor-feedback-source-link, tag-editcheck-needreference
+ignored = visualeditor-feedback-source-link, tag-editcheck-references
 
 Vote NY
 aliasfile = VoteNY/includes/VoteNY.alias.php
