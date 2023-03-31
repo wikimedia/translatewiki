@@ -396,6 +396,10 @@ descmsg = bs-insertmagic-desc
 Blue Spice Insert Template
 descmsg = bs-insertTemplate-desc
 
+Blue Spice Instance Status
+descmsg = bs-instancestatus-desc
+aliasfile = BlueSpiceInstanceStatus/languages/InstanceStatus.alias.php
+
 Blue Spice Inter Wiki Links
 descmsg = bs-interwikilinks-desc
 aliasfile = BlueSpiceInterWikiLinks/includes/specials/SpecialInterWikiLinks.alias.php
