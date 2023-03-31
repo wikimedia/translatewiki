@@ -925,6 +925,9 @@ Content Translation - API
 id = ext-contenttranslation-api
 file = ContentTranslation/i18n/api/%CODE%.json
 
+Content Stabilization
+aliasfile = ContentStabilization/languages/ContentStabilization.special.alias.php
+
 Contribution Credits
 
 # Contribution Scores // No FOSS license
