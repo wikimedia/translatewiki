@@ -3824,7 +3824,7 @@ Wikistories - User interface
 id = ext-wikistories-user
 file = Wikistories/i18n/%CODE%.json
 aliasfile = Wikistories/Wikistories.alias.special.php
-optional = wikistories-extensionname
+optional = wikistories-extensionname, wikistories-recentchangesflags-letter
 
 Wikistories - API
 id = ext-wikistories-api
