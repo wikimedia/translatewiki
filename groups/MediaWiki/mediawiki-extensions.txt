@@ -914,6 +914,8 @@ aliasfile = ContactPage/ContactPage.alias.php
 
 Container Filter
 
+Content Droplets
+
 Content Transfer
 descmsg = contenttransfer-extension-description
 aliasfile = ContentTransfer/languages/ContentTransfer.alias.php
