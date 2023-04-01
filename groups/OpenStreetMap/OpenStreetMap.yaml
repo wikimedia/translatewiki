@@ -179,10 +179,20 @@ TAGS:
     - geocoder.search_osm_namefinder.prefix
     - printable_name.with_id
     - printable_name.with_name
+    - site.about.community_driven_community_blogs_url
+    - site.about.community_driven_osm_blog_url
+    - site.about.community_driven_osm_foundation_url
+    - site.about.copyright_symbol_html
+    - site.about.legal_1_1_aup_url
+    - site.about.legal_1_1_openstreetmap_foundation_url
+    - site.about.legal_1_1_privacy_policy_url
+    - site.about.legal_1_1_terms_of_use_url
+    - site.about.legal_2_1_contact_the_osmf_url
+    - site.about.legal_2_2_registered_trademarks_url
     - site.edit.anon_edits_link
-    - site.index.license.license_url
-    - site.index.license.project_url
-    - site.help.mailing_lists.url
     - site.help.forums.url
     - site.help.irc.url
+    - site.help.mailing_lists.url
     - site.help.switch2osm.url
+    - site.index.license.license_url
+    - site.index.license.project_url
