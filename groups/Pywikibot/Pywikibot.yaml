@@ -281,6 +281,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/replace/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-replicate_wiki
+  label: Pywikibot Replicate Wiki
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/replicate_wiki/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-revert
   label: Pywikibot Revert
 
