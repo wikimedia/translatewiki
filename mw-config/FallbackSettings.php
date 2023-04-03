@@ -52,6 +52,7 @@ $wgTranslateLanguageFallbacks['cpx'] = [ 'cdo' ];
 $wgTranslateLanguageFallbacks['cs'] = [ 'sk', 'de', 'fr', 'ru', 'pl' ];
 $wgTranslateLanguageFallbacks['da'] = [ 'nn', 'nb', 'sv' ]; # Siebrand 2008-03-23
 $wgTranslateLanguageFallbacks['dar'] = [ 'av', 'ce', 'ru', 'az' ];
+$wgTranslateLanguageFallbacks['ddn'] = [ 'fr', 'fon', 'yo', 'ha' ];
 $wgTranslateLanguageFallbacks['dga'] = [ 'dag', 'fr', 'mos', 'gur' ];
 $wgTranslateLanguageFallbacks['dz'] = [ 'bo', 'hi', 'ne', 'zh-hans' ];
 $wgTranslateLanguageFallbacks['ee'] = [ 'fr', 'ajg', 'fon', 'guw' ];
