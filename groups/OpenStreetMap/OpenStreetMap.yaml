@@ -86,8 +86,13 @@ TAGS:
     - geocoder.search_osm_namefinder.suffix_suburb
     - geocoder.search_osm_nominatim.prefix_other
     - geocoder.search_osm_twain.prefix_other
+    - geocoder.search.title.osm_nominatim_reverse_url
+    - geocoder.search.title.osm_nominatim_url
+    - geocoder.search.title.latlon_url
     - html.dir
+    - javascripts.map.copyright_text
     - javascripts.map.overlays.maplint
+    - javascripts.map.cyclosm_name
     - layouts.intro_3_bytemark
     - layouts.intro_3_ucl
     - layouts.license.alt
@@ -162,6 +167,7 @@ TAGS:
     - user.account.contributor terms.link
     - user.account.gravatar.link
     - user_mailer.gpx_failure.import_failures_url
+    - users.new.privacy_policy_url
     - users.terms.consider_pd_why_url
     - users.terms.declined
     - users.terms_declined_flash.terms_declined_url

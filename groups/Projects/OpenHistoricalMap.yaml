@@ -67,6 +67,7 @@ TAGS:
     - ohm-geocoder.search_osm_namefinder.suffix_suburb
     - ohm-geocoder.search_osm_nominatim.prefix_other
     - ohm-html.dir
+    - ohm-javascripts.map.base.cyclosm
     - ohm-layouts.project_name.h1
     - ohm-layouts.project_name.title
     - ohm-notifier.message_notification.subject
