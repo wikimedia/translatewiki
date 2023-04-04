@@ -3741,6 +3741,7 @@ optional = research-incentive-message, research-incentive-description
 optional = research-incentive-answer-positive, research-incentive-answer-negative
 optional = research-incentive-privacy, research-incentive-confirm-msg
 optional = research-incentive-link
+optional = protect-level-edit-legal, restriction-level-edit-legal
 prefix = wmf- | grouppage-staff, group-staff, group-staff-member
 prefix = wmf- | group-patroller, group-patroller-member, grouppage-patroller
 prefix = wmf- | createacct-captcha-help-url
