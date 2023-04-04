@@ -11,7 +11,6 @@
 
 $wgTranslateLanguageFallbacks['aae'] = [ 'sq', 'aln', 'it', 'scn', 'roa-tara' ];
 $wgTranslateLanguageFallbacks['acf'] = 'fr';
-$wgTranslateLanguageFallbacks['acm'] = 'ar';
 $wgTranslateLanguageFallbacks['af'] = 'nl';
 $wgTranslateLanguageFallbacks['ajg'] = [ 'fr', 'ee', 'fon', 'guw' ];
 $wgTranslateLanguageFallbacks['ak'] = [ 'tw', 'fat' ];
