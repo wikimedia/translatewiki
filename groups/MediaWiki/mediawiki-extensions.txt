@@ -787,11 +787,12 @@ Code Editor
 
 Code Mirror
 
-Code Review
-aliasfile = CodeReview/CodeReview.alias.php
-ignored = code-rev-comment-preview-accesskey, code-rev-submit-accesskey, code-rev-submit-next-accesskey
-ignored = code-rev-id, code-rev-next-accesskey
-optional = group-svnadmins.css, group-svnadmins.js
+# Archived: T309052
+# Code Review
+# aliasfile = CodeReview/CodeReview.alias.php
+# ignored = code-rev-comment-preview-accesskey, code-rev-submit-accesskey, code-rev-submit-next-accesskey
+# ignored = code-rev-id, code-rev-next-accesskey
+# optional = group-svnadmins.css, group-svnadmins.js
 
 Cognate
 
@@ -1247,6 +1248,7 @@ Fan Boxes
 aliasfile = FanBoxes/includes/FanBoxes.alias.php
 optional = userboxes-instructions
 
+# Archived: T325999
 # Incomplete message documentation file - 2014-10-25
 # Farmer
 
@@ -1460,6 +1462,7 @@ file = GlobalBlocking/i18n/%CODE%.json
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
 ignored = globalblocking-expiry-options
 
+# Archived: T157240
 # Global Contribs // no qqq, inconsistent prefix keys, partly identical with Global Contributions
 
 Global Contributions
@@ -1778,6 +1781,7 @@ optional = jsonconfig-license-notice-box-CC0-1.0, jsonconfig-license-url-dl-de-z
 optional = jsonconfig-license-url-dl-de-by-1.0, jsonconfig-license-url-dl-de-by-2.0
 optional = jsonconfig-license-url-GeoNutzV
 
+# Archived: T303132
 # Json Data // Inconsistent prefix
 
 Kartographer - User interface
@@ -2062,8 +2066,9 @@ magicfile = MintyDocs/MintyDocs.i18n.magic.php
 Missed Pages
 aliasfile = MissedPages/MissedPages.i18n.alias.php
 
-Mixed Namespace Search Suggestions
-descmsg = mnss-desc
+# Archived: T323200
+# Mixed Namespace Search Suggestions
+# descmsg = mnss-desc
 
 Mobile App
 
@@ -2269,8 +2274,9 @@ ignored = mwoauth-form-legal
 ignored = mwoauth-oauth-version-1, mwoauth-oauth-version-2, mwoauth-oauth2-error
 optional = oauth, mwoauth-listgrantrights-right-display
 
-OAuth Authentication
-descmsg = oauthauth-desc
+# Archived: T322969
+# OAuth Authentication
+# descmsg = oauthauth-desc
 
 OAuth Rate Limiter
 
@@ -2295,9 +2301,10 @@ OO Js UI Ajax Login
 Open Badges
 aliasfile = OpenBadges/OpenBadges.i18n.alias.php
 
-Open ID
-aliasfile = OpenID/OpenID.alias.php
-optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
+# Archived: T322820
+# Open ID
+# aliasfile = OpenID/OpenID.alias.php
+# optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
 
 Open ID Connect
 aliasfile = OpenIDConnect/i18n/SelectOpenIDConnectIssuer.alias.php
@@ -2525,10 +2532,11 @@ PCR GUI Inserts
 Pdf Handler
 descmsg = pdf-desc
 
-Performance Inspector
-optional = performanceinspector-modules-css-name, performanceinspector-modules-css-label
-optional = performanceinspector-modules-css-column-url, performanceinspector-newpp-value-and-limit
-optional = performanceinspector-newpp-template-time-report-column-percentreal, performanceinspector-newpp-scribunto
+# Archived: T294794
+# Performance Inspector
+# optional = performanceinspector-modules-css-name, performanceinspector-modules-css-label
+# optional = performanceinspector-modules-css-column-url, performanceinspector-newpp-value-and-limit
+# optional = performanceinspector-newpp-template-time-report-column-percentreal, performanceinspector-newpp-scribunto
 
 Petition
 aliasfile = Petition/Petition.alias.php
@@ -3670,7 +3678,8 @@ descmsg = wsu-desc
 optional = wsu-extension-name
 aliasfile = WikibaseStatementUpdater/WikibaseStatementUpdater.alias.php
 
-#Wikidata Entity Suggester / No real extension, Java program
+# Archived: T200010
+# Wikidata Entity Suggester / No real extension, Java program
 
 Wikidata Page Banner
 
