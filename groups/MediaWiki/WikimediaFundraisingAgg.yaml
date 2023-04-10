@@ -10,5 +10,6 @@ BASIC:
 GROUPS:
   - ext-di-gc
   - ext-fundraiserlandingpage # r101409 for donatewiki
+  - ext-fundraisingemailunsubscribe
   - ext-fundraisingtranslateworkflow # 2014-07-14 for Meta
   - ext-landingcheck
