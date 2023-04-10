@@ -1044,6 +1044,7 @@ ignored = discussiontools-emptystate-link-talkpages, discussiontools-emptystate-
 ignored = tag-discussiontools-added-comment, discussiontools-emptystate-link-userpage-anon
 ignored = discussiontools-replywidget-mention-suffix, discussiontools-replywidget-publish-accesskey
 ignored = tag-discussiontools-source, tag-discussiontools-visual
+ignored = discussiontools-comments-before-first-heading-category
 optional = discussiontools-preference-info-link
 optional = discussiontools-preference-discussion-link
 optional = discussiontools-replywidget-feedback-link
