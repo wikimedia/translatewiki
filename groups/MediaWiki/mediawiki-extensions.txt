@@ -2602,6 +2602,8 @@ aliasfile = PreferencesList/PreferencesList.i18n.alias.php
 
 Prezi
 
+Pre To Clip
+
 Private Domains
 aliasfile = PrivateDomains/PrivateDomains.alias.php
 
