@@ -912,6 +912,8 @@ file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/api/%CODE%.json
 Contact Page
 aliasfile = ContactPage/ContactPage.alias.php
 
+Container Filter
+
 Content Transfer
 descmsg = contenttransfer-extension-description
 aliasfile = ContentTransfer/languages/ContentTransfer.alias.php
