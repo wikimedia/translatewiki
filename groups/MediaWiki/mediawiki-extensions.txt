@@ -2805,6 +2805,8 @@ Search Thumbs
 
 Search Vue
 
+Section Anchors
+
 Section Disqus
 
 Secure Auth
