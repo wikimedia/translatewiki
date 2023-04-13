@@ -1109,6 +1109,7 @@ wikimedia-misc-tools:
       type: github
       branch: main
       url: https://github.com/wmde/wikidata-mismatch-finder.git
+      pull-branch: twn
       url|export: git@github.com:wmde/wikidata-mismatch-finder.git
     xtools:
       type: github
