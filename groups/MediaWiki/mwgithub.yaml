@@ -644,6 +644,7 @@ TAGS:
   ignored:
     - wikibase-rdf-name
     - wikibase-rdf-config-intro
+    - wikibase-rdf-property-edit-warning-version
 ---
 BASIC:
   id: mwgithub-summarycards
