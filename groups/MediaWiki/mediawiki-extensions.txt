@@ -3864,7 +3864,7 @@ magicfile = WikiShare/WikiShare.i18n.magic.php
 
 Wikisource
 optional = wikisource-download-chooser-epub, wikisource-download-chooser-mobi, wikisource-download-chooser-pdf
-optional = wikisource-ocr-engine-tesseract, wikisource-ocr-engine-google
+optional = wikisource-ocr-engine-tesseract, wikisource-ocr-engine-google, wikisource-ocr-engine-transkribus
 
 Workflows
 aliasfile = Workflows/languages/SpecialWorkflowOverview.alias.php
