@@ -165,7 +165,7 @@ TAGS:
     - traces.new.help_url
     - user.account.public_editing.enabled_link
     - user.account.contributor terms.link
-    - user.account.gravatar.link
+    - profiles.edit.gravatar.link
     - user_mailer.gpx_failure.import_failures_url
     - users.new.privacy_policy_url
     - users.terms.consider_pd_why_url
