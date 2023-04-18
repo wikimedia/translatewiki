@@ -36,3 +36,7 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgitlab/nonsensopedia/ratepage/i18n/api/%CODE%.json"
+
+TAGS:
+  optional:
+    - ratePage
