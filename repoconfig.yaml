@@ -403,6 +403,10 @@ mwgithub:
       type: github
       url: https://github.com/AlPha5130/mediawiki-extensions-EditCountNeue.git
       url|export: git@github.com:AlPha5130/mediawiki-extensions-EditCountNeue.git
+    mwgithub/Appropedia/extension:
+      type: github
+      url: https://github.com/Appropedia/extension.git
+      url|export: git@github.com:Appropedia/extension.git
     mwgithub/edwardspec/mediawiki-moderation:
       type: github
       branch: translatewiki

@@ -1892,3 +1892,18 @@ BASIC:
 FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/SimpleTooltip/i18n/%CODE%.json"
+---
+BASIC:
+  id: mwgithub-appropedia
+  label: Appropedia
+  description: "{{Special:MyLanguage/MediaWiki:Appropedia-desc/en}}"
+  icon: wiki://Appropedia-logo.svg
+  support:
+    url: https://github.com/Appropedia/extension/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  class: JsonFFS
+  sourcePattern: "%GROUPROOT%/mwgithub/Appropedia/extension/i18n/%CODE%.json"
