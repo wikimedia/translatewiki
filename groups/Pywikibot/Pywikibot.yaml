@@ -1,6 +1,6 @@
 TEMPLATE:
   BASIC:
-    icon: wiki://Pwb_icon.svg
+    icon: wiki://Pywikibot MW gear icon.svg
     description: "{{Special:MyLanguage/Translations:Group descriptions/pywikipedia/en}}"
     namespace: NS_PYWIKIBOT
     class: FileBasedMessageGroup
