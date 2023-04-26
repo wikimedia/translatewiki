@@ -214,11 +214,24 @@ wfLoadExtension( 'CodeEditor' );
 $wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEditor extension
 
 wfLoadExtensions( [ 'VisualEditor', 'Linter', 'DiscussionTools', 'LiquidThreads' ] );
-// Disable LiquidThreads on non-existing discussion pages. Users will see the discussion tools UI instead.
+// LiquidThreads is enabled by default on all talk pages. This hook handler disables it on pages without any threads.
+// This makes manual opt-in/out unnecessary (and impossible), but adds a few additional database queries.
 $wgHooks['LiquidThreadsIsLqtPage'][] = static function ( Title $title, bool &$isTalkPage ) {
 	if ( !$title->exists() ) {
 		$isTalkPage = false;
-		return false;
+	} else {
+		$db = \MediaWiki\MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
+		$query = $db->newSelectQueryBuilder();
+		$isTalkPage = (bool)$query
+			->from( 'thread' )
+			->where( [
+				'thread_article_namespace' => $title->getNamespace(),
+				'thread_article_title' => $title->getDBkey(),
+
+			] )
+			->limit( 1 )
+			->caller( __FILE__ )
+			->fetchRowCount();
 	}
 };
 
