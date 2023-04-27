@@ -2557,7 +2557,7 @@ magicfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.magic.php
 
 Phonos
 id = ext-phonos
-optional = phonos
+optional = phonos, phonos-attribution-icon
 
 Php Highlight
 
