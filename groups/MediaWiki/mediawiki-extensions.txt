@@ -120,6 +120,11 @@ aliasfile = ApprovedRevs/ApprovedRevs.alias.php
 magicfile = ApprovedRevs/ApprovedRevs.i18n.magic.php
 optional = approvedrevs-revision-nav
 
+Array Functions
+magicfile = ArrayFunctions/i18n/ArrayFunctions.i18n.php
+descmsg = af-desc
+optional = af-extensionname
+
 Arrays
 
 Article Creation Workflow
