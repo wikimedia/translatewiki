@@ -2807,6 +2807,8 @@ Scrollable Tables
 
 Search Extra NS
 
+Search Parser Function
+
 Search Stats
 aliasfile = SearchStats/SearchStats.alias.php
 
