@@ -15,9 +15,10 @@ $wgTranslateEnableMessageBundleIntegration = true;
 $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
 $wgTranslateValidationExclusionFile = __DIR__ . "/validation-exclusion-list.php";
 
-$lqtParams = [
-	'lqt_method' => 'talkpage_new_thread',
-	'lqt_subject_field' => 'About [[%MESSAGE%]]',
+$talkParams = [
+	'action' => 'edit',
+	'section' => 'new',
+	'preloadtitle' => 'About [[%MESSAGE%]]',
 ];
 $phabParams = [
 	'title' => '[[%MESSAGE%]] translation issue',
@@ -35,7 +36,7 @@ $gitlabParams = [
 $phabUrl = 'https://phabricator.wikimedia.org/maniphest/task/edit/form/1/';
 $wgTranslateSupportUrl = [
 	'page' => 'Support',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 $wgHooks['Translate:GettextFFS:headerFields'][] = 'efHT';
@@ -238,7 +239,7 @@ wfAddNamespace( 1202, 'FreeCol' );
 $wgTranslateGroupFiles[] = "$GROUPS/FreeCol/FreeCol.yaml";
 $wgTranslateSupportUrlNamespace[NS_FREECOL] = [
 	'page' => 'Translating_talk:FreeCol',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 wfAddNamespace( 1204, 'Nocc' );
@@ -322,7 +323,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/MantisBT/MantisBT.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MantisBT/CodevTT.yaml";
 $wgTranslateSupportUrlNamespace[NS_MANTIS] = [
 	'page' => 'Translating_talk:MantisBT',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 # No longer in use.
@@ -347,7 +348,7 @@ $wgTranslateGroupAliases['out-osm-potlatch2-main'] = 'osm-potlatch2-main';
 $wgTranslateGroupAliases['out-osm-potlatch2-help'] = 'osm-potlatch2-help';
 $wgTranslateSupportUrlNamespace[NS_OSM] = [
 	'page' => 'Translating_talk:OpenStreetMap',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 # No longer in use.
@@ -363,7 +364,7 @@ wfAddNamespace( 1230, 'Mifos' );
 $wgTranslateGroupFiles[] = "$GROUPS/Mifos/Mifos.yaml";
 $wgTranslateSupportUrlNamespace[NS_MIFOS] = [
 	'page' => 'Translating_talk:Mifos',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 # No longer in use.
@@ -381,7 +382,7 @@ $wgNamespaceAliases['Pywikipedia'] = 1238;
 $wgNamespaceAliases['Pywikipedia_talk'] = 1238;
 $wgTranslateSupportUrlNamespace[NS_PYWIKIBOT] = [
 	'page' => 'Translating_talk:Pywikibot',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 wfAddNamespace( 1240, 'Intuition' );
@@ -404,7 +405,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/EOL/EOL.yaml";
 $wgTranslateGroupAliases['out-eol-0-all'] = 'eol';
 $wgTranslateSupportUrlNamespace[NS_EOL] = [
 	'page' => 'Translating_talk:Encyclopedia_of_Life',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 wfAddNamespace( 1244, 'Kiwix' );
@@ -417,7 +418,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixAgg.yaml";
 $wgTranslateGroupAliases['out-kiwix'] = 'kiwix';
 $wgTranslateSupportUrlNamespace[NS_KIWIX] = [
 	'page' => 'Translating_talk:Kiwix',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 # No longer in use.
@@ -440,7 +441,7 @@ wfAddNamespace( 1252, 'Vicuna' );
 $wgTranslateGroupFiles[] = "$GROUPS/Vicuna/Vicuna.yaml";
 $wgTranslateSupportUrlNamespace[NS_VICUNA] = [
 	'page' => 'Translating_talk:Vicuña_Uploader',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 # No longer in use.
@@ -453,7 +454,7 @@ wfAddNamespace( 1258, 'MathJax' );
 $wgTranslateGroupFiles[] = "$GROUPS/MathJax/MathJax.yaml";
 $wgTranslateSupportUrlNamespace[NS_MATHJAX] = [
 	'page' => 'Translating_talk:MathJax',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 wfAddNamespace( 1260, 'NFCRingControl' );
@@ -477,7 +478,7 @@ $wgCapitalLinkOverrides[NS_LIBREVIEWS_TALK] = false;
 $wgTranslateGroupFiles[] = "$GROUPS/lib.reviews/lib.reviews.yaml";
 $wgTranslateSupportUrlNamespace[NS_LIBREVIEWS] = [
 	'page' => 'Translating_talk:lib.reviews',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 wfAddNamespace( 1270, 'Oppia' );
@@ -487,7 +488,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Oppia/Oppia.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Oppia/OppiaAndroid.yaml";
 $wgTranslateSupportUrlNamespace[NS_OPPIA] = [
 	'page' => 'Translating_talk:Oppia',
-	'params' => $lqtParams,
+	'params' => $talkParams,
 ];
 
 wfAddNamespace( 1272, 'Dissemin' );
