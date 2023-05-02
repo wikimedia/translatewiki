@@ -13,7 +13,7 @@ TEMPLATE:
   FILES:
     class: AndroidXmlFFS
     codeMap:
-      be-tarask: b+be+tarask
+      be-tarask: b+be+x+old
       en-gb: en-rGB
       he: iw
       hif-latn: b+hif+Latn
