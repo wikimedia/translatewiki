@@ -1,28 +1,35 @@
 <?php
 declare( strict_types = 1 );
 
-$data = stream_get_contents( STDIN );
 $webhook = getenv( 'SLACK_LOG_WEBHOOK' );
 
 try {
 	if ( !$webhook ) {
 		throw new Exception( 'SLACK_LOG_WEBHOOK is not set' );
 	}
-	$c = curl_init( $webhook );
-	curl_setopt( $c, CURLOPT_RETURNTRANSFER, true );
-	curl_setopt( $c, CURLOPT_SSL_VERIFYPEER, true );
-	curl_setopt( $c, CURLOPT_POST, true );
-	curl_setopt( $c, CURLOPT_FAILONERROR, true );
-	curl_setopt( $c, CURLOPT_POSTFIELDS, [ 'payload' => generateSlackMessage( $data ) ] );
-	curl_exec( $c );
+	$read = [ STDIN ];
+	$write = $except = [];
+	$waitTimeInSeconds = 5;
 
-	if ( curl_errno( $c ) ) {
-		$errorMessage = curl_error( $c );
-	}
-	curl_close( $c );
+	stream_set_blocking( STDIN, false ); // Set STDIN to non-blocking mode
+	while ( true ) {
+		$incomingStream = stream_select( $read, $write, $except, $waitTimeInSeconds );
 
-	if ( isset( $errorMessage ) ) {
-		throw new Exception( $errorMessage );
+		if ( $incomingStream === false ) {
+			// An error occurred, exit the loop
+			throw new RuntimeException( "Error while reading STDIN" );
+		}
+
+		if ( $incomingStream > 0 ) {
+			// There is data to read from STDIN
+			$data = fgets( STDIN );
+
+			if ( $data !== false ) {
+				sendSlackMessage( $webhook, generateSlackMessage( $data ) );
+			}
+		}
+		$read = [ STDIN ];
+
 	}
 } catch ( Exception $e ) {
 	exit( "$e" );
@@ -37,4 +44,26 @@ function generateSlackMessage( string $data ): string {
 		'username' => 'TWN Logger',
 	];
 	return json_encode( $slackMessage );
+}
+
+/**
+ * Send a Slack message via curl
+ */
+function sendSlackMessage( string $webhookUrl, string $payload ): void {
+	$c = curl_init( $webhookUrl );
+	curl_setopt( $c, CURLOPT_RETURNTRANSFER, true );
+	curl_setopt( $c, CURLOPT_SSL_VERIFYPEER, true );
+	curl_setopt( $c, CURLOPT_POST, true );
+	curl_setopt( $c, CURLOPT_FAILONERROR, true );
+	curl_setopt( $c, CURLOPT_POSTFIELDS, [ 'payload' => $payload ] );
+	curl_exec( $c );
+
+	if ( curl_errno( $c ) ) {
+		$errorMessage = curl_error( $c );
+	}
+	curl_close( $c );
+
+	if ( isset( $errorMessage ) ) {
+		throw new Exception( $errorMessage );
+	}
 }
