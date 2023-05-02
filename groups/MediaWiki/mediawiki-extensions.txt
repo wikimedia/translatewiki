@@ -914,6 +914,8 @@ file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/api/%CODE%.json
 
 # Congress Lookup # US centric
 
+# Contact Manager // 2023-05-01: Empty repo
+
 Contact Page
 aliasfile = ContactPage/ContactPage.alias.php
 
@@ -2709,6 +2711,7 @@ Reading Lists - User interface
 id = ext-readinglists-user
 file = ReadingLists/i18n/%CODE%.json
 ignored = readinglists-import-app, readinglists-import-app-with-link
+ignored = readinglists-share-url-text-incomplete
 optional = readinglists-share-url-text
 
 Real Me
