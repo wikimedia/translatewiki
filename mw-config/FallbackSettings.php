@@ -68,6 +68,7 @@ $wgTranslateLanguageFallbacks['fit'] = [ 'fi', 'sv' ]; # Robin 2011-09-27
 $wgTranslateLanguageFallbacks['fon'] = [ 'ajg', 'ee', 'guw', 'yo' ];
 $wgTranslateLanguageFallbacks['fy'] = 'nl';
 $wgTranslateLanguageFallbacks['gaa'] = [ 'tw', 'bci' ];
+$wgTranslateLanguageFallbacks['gbm'] = [ 'hi', 'ne', 'dty' ];
 $wgTranslateLanguageFallbacks['gcf'] = 'fr';
 $wgTranslateLanguageFallbacks['guw'] = [ 'fr', 'fon', 'ajg', 'ee', 'yo' ];
 $wgTranslateLanguageFallbacks['hak-hans'] = [ 'hak-hant', 'hak', 'zh-hans' ];
