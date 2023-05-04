@@ -1,7 +1,7 @@
 <?php
 
 wfLoadSkins( [ 'Vector', 'MonoBook', 'Timeless' ] );
-$wgVectorDefaultSkinVersion = '1';
+$wgDefaultSkin = 'vector-2022';
 
 // Extensions which we don't specify any configuration
 wfLoadExtensions( [
