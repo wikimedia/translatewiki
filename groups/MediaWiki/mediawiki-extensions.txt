@@ -2021,6 +2021,18 @@ ignored = mediamoderation-email-body, mediamoderation-email-subject
 Media Search
 optional = mediasearch-image-size
 
+
+Media Uploader - API
+id = ext-mediauploader-api
+file = MediaUploader/i18n/api/%CODE%.json
+prefix = mediauploader- | apihelp-query+allcampaigns-description, apihelp-query+allcampaigns-summary
+prefix = mediauploader- | apihelp-query+allcampaigns-param-enabledonly, apihelp-query+allcampaigns-param-limit
+prefix = mediauploader- | apihelp-query+allcampaigns-example-1
+
+Media Uploader - License
+id = ext-mediauploader-license
+file = MediaUploader/i18n/license/%CODE%.json
+
 Media Uploader - User interface
 id = ext-mediauploader-user
 file = MediaUploader/i18n/%CODE%.json

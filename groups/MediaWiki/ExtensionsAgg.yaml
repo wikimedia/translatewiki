@@ -399,6 +399,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-mediauploader
+  label: Media Uploader
+  description: '{{Special:MyLanguage/MediaWiki:Mediauploader-desc/en}}'
+
+GROUPS:
+  - ext-mediauploader-*
+---
+BASIC:
   id: ext-newsletter
   label: Newsletter
   description: '{{Special:MyLanguage/Newsletter-extension-desc/en}}'
