@@ -1549,21 +1549,6 @@ TAGS:
 
 ---
 BASIC:
-  id: mwgithub-pageviewinfoga
-  label: PageViewInfoGA
-  description: "{{Special:MyLanguage/MediaWiki:pageviewinfoga-desc/en}}"
-  support:
-    url: https://github.com/femiwiki/PageViewInfoGA/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/PageViewInfoGA/i18n/%CODE%.json"
-
----
-BASIC:
   id: mwgithub-plausible
   label: Plausible
   description: "{{Special:MyLanguage/MediaWiki:ext-plausible-desc/en}}"

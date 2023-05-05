@@ -2550,7 +2550,7 @@ file = PageViewInfo/i18n/%CODE%.json
 descmsg = pvi-desc
 optional = pvi-range
 
-# Page View Info GA // 2023-05-01: "There is no tracking information for the current branch"
+Page View Info GA
 
 Paged Tiff Handler
 descmsg = tiff-desc

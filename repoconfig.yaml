@@ -433,11 +433,6 @@ mwgithub:
       branch: main
       url: https://github.com/femiwiki/FemiwikiSkin.git
       url|export: git@github.com:femiwiki/FemiwikiSkin.git
-    mwgithub/femiwiki/PageViewInfoGA:
-      type: github
-      branch: main
-      url: https://github.com/femiwiki/PageViewInfoGA.git
-      url|export: git@github.com:femiwiki/PageViewInfoGA.git
     mwgithub/femiwiki/Sanctions:
       type: github
       branch: main
