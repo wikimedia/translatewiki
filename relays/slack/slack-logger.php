@@ -40,8 +40,8 @@ try {
  */
 function generateSlackMessage( string $data ): string {
 	$slackMessage = [
-		'text' => $data,
-		'username' => 'TWN Logger',
+		'text' => "```$data```",
+		'username' => 'Translatewiki Logger',
 	];
 	return json_encode( $slackMessage );
 }
