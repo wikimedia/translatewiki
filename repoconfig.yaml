@@ -880,12 +880,12 @@ phabricator:
 
 proveit:
   group: proveit
-  auto-merge: wikipedia/gadgets/ProveIt
+  auto-merge: mediawiki/gadgets/ProveIt
   repos:
     proveit:
       type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/wikipedia/gadgets/ProveIt
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikipedia/gadgets/ProveIt
+      url: https://gerrit.wikimedia.org/r/mediawiki/gadgets/ProveIt
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/gadgets/ProveIt
 
 pywikibot:
   group: out-pywikipedia-*
