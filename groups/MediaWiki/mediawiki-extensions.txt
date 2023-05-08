@@ -1112,7 +1112,6 @@ optional = donate_interface-pm-boletus, donate_interface-pm-directebanking, dona
 optional = donate_interface-pm-enets, donate_interface-pm-giropay, donate_interface-pm-ideal
 optional = donate_interface-pm-nordea, donate_interface-pm-skrill, donate_interface-pm-sofort
 optional = donate_interface-pm-webmoney, donate_interface-pm-westernunion, donate_interface-pm-yandex
-optional = donate_interface-donor-fname-alt, donate_interface-donor-lname-alt, donate_interface-donor-postcode
 optional = donate_interface-donor-fiscal_number-ar, donate_interface-donor-fiscal_number-bo, donate_interface-donor-fiscal_number-br
 optional = donate_interface-donor-fiscal_number-cl, donate_interface-donor-fiscal_number-co, donate_interface-donor-fiscal_number-mx
 optional = donate_interface-donor-fiscal_number-pe, donate_interface-donor-fiscal_number-uy, donate_interface-donor-fiscal_number-in
