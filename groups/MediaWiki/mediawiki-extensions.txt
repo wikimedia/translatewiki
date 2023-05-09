@@ -2411,6 +2411,8 @@ Page Notice
 
 # Page Ownership // 2022-10-23: qqq needs more details then "A label message"
 
+Page Permissions
+
 # Page Popups // No i18n
 
 # Page Port // 2021-05-23 Empty repo
