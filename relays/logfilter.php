@@ -25,7 +25,7 @@ while ( true ) {
 	while ( !feof( $handle ) ) {
 		$count++;
 		$input = fgets( $handle );
-		if ( $input !== false ) {
+		if ( $input !== false && $line === false ) {
 			$line = $input;
 		}
 	}
@@ -34,15 +34,15 @@ while ( true ) {
 	fseek( $handle, 0, SEEK_END );
 
 	if ( $line !== false ) {
-		$prefix = '';
+		$note = '';
 		if ( $count > 2 ) {
 			$count -= 2;
-			$prefix = "($count lines skipped) ";
+			$note = "($count lines skipped) ";
 		}
 		if ( mb_strlen( $line ) > 400 ) {
 			$line = mb_substr( $line, 0, 400 ) . '...';
 		}
-		echo trim( $prefix . $line ) . "\n";
+		echo "$line $note\n";
 	}
 
 	sleep( $count ? 30 : 1 );
