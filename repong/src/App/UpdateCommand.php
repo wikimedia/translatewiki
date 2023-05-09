@@ -78,7 +78,7 @@ class UpdateCommand extends Command {
 			}
 
 			$process = new Process( $command );
-			$process->setTimeout( 300 );
+			$process->setTimeout( 450 );
 			$processes->attach( $process );
 		}
 
