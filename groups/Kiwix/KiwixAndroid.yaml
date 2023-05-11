@@ -46,6 +46,11 @@ TEMPLATE:
       enforce: true
       insertable: true
       params: /%s/
+    - id: Replacement
+      enforce: true
+      params:
+        search: ...
+        replace: …
 
 ---
 BASIC:
