@@ -924,6 +924,10 @@ FILES:
   class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/ImportDump/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - importdump-extensionname
+
 ---
 BASIC:
   id: mwgithub-incidentreporting
