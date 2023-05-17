@@ -19,7 +19,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/signit/i18n/%CODE%.json"
 
 VALIDATORS:

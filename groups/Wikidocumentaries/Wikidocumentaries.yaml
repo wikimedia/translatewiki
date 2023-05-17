@@ -12,6 +12,6 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/Wikidocumentaries/wikidocumentaries-ui/src/store/translation/%CODE%.json"
   nestingSeparator: .

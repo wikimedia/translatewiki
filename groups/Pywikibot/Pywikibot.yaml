@@ -6,7 +6,7 @@ TEMPLATE:
     class: FileBasedMessageGroup
 
   FILES:
-    class: JsonFFS
+    format: Json
     # Pywikibot works on siteinfo lang property, so mapping fallbacked this language code.
     codeMap:
       aeb-latn: aeb

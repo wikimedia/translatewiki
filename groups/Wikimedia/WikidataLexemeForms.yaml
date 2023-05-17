@@ -12,7 +12,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/wikidata-lexeme-forms/i18n/%CODE%.json"
   codeMap:
     aeb-latn: aeb

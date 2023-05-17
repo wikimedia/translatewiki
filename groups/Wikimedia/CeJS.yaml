@@ -11,7 +11,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/cejs/application/locale/resources/i18n/%CODE%.json"
 
 MANGLER:

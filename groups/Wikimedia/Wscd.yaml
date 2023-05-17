@@ -18,7 +18,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/wscd/i18n/%CODE%.json"
 
 TAGS:

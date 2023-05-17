@@ -12,7 +12,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/int-commtech-commons/i18n/%CODE%.json"
 
 VALIDATORS:

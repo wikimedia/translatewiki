@@ -13,5 +13,5 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/proveit/i18n/%CODE%.json"

@@ -8,5 +8,5 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/nfcring-control/www/locales/%CODE%.json"

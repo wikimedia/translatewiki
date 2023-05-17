@@ -6,7 +6,7 @@ TEMPLATE:
     description: "{{Special:MyLanguage/Translations:Group descriptions/wikidata/en}}"
 
   FILES:
-    class: JsonFFS
+    format: Json
 
 ---
 BASIC:

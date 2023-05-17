@@ -13,7 +13,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/wikistats/src/i18n/%CODE%.json"
 
 VALIDATORS:

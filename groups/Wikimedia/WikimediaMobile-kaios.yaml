@@ -36,5 +36,5 @@ MANGLER:
   prefix: wikipedia-kaios-
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/wikipedia-kaios/i18n/%CODE%.json"

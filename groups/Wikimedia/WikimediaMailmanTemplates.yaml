@@ -13,7 +13,7 @@ BASIC:
       description: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/wikimedia-mailman-templates/i18n/%CODE%.json"
   codeMap:
     pt-br: pt_BR

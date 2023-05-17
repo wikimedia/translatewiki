@@ -5,7 +5,7 @@ TEMPLATE:
     namespace: NS_MEDIAWIKI
 
   FILES:
-    class: JsonFFS
+    format: Json
 
   VALIDATORS:
     - id: BraceBalance
@@ -24,7 +24,7 @@ BASIC:
   description: "{{Special:MyLanguage/MediaWiki:RatePage-desc/en}}"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/mwgitlab/nonsensopedia/ratepage/i18n/%CODE%.json"
 
 TAGS:
@@ -37,6 +37,6 @@ BASIC:
   description: "{{Special:MyLanguage/MediaWiki:RatePage-desc/en}}"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/mwgitlab/nonsensopedia/ratepage/i18n/api/%CODE%.json"
 

@@ -5,7 +5,7 @@ TEMPLATE:
     namespace: NS_MEDIAWIKI
 
   FILES:
-    class: JsonFFS
+    format: Json
 
   VALIDATORS:
     - id: BraceBalance
@@ -24,5 +24,5 @@ BASIC:
   description: "{{Special:MyLanguage/MediaWiki:Medik-desc/en}}"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/mwbitbucket/wikiskripta/medik/i18n/%CODE%.json"

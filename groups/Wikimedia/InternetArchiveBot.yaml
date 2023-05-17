@@ -14,7 +14,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/internetarchivebot/app/src/html/i18n/%CODE%.json"
 
 VALIDATORS:

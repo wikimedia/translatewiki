@@ -14,7 +14,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/wikimedia-gadgets/twinkle-core/i18n/%CODE%.json"
 
 VALIDATORS:
