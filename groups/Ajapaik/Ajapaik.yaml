@@ -257,7 +257,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/ajapaik-flutter-app/assets/i18n/%CODE%.json"
 
 MANGLER:
