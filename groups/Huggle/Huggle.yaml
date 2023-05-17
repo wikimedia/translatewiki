@@ -8,7 +8,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: AndroidXmlFFS
+  format: AndroidXml
   sourcePattern: "%GROUPROOT%/huggle/huggle/Localization/%CODE%.xml"
   codeMap:
     nb: "no"

@@ -11,7 +11,7 @@ TEMPLATE:
         body: "\nMessage URL: %MESSAGE_URL%"
 
   FILES:
-    class: AndroidXmlFFS
+    format: AndroidXml
     codeMap:
       be-tarask: b+be+x+old
       en-gb: en-rGB

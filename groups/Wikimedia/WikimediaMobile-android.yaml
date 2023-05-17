@@ -6,7 +6,7 @@ TEMPLATE:
     class: FileBasedMessageGroup
 
   FILES:
-    class: AndroidXmlFFS
+    format: AndroidXml
     codeMap:
       be-tarask: b+be+x+old
       he: iw

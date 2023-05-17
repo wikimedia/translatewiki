@@ -21,7 +21,7 @@ BASIC:
   label: Ajapaik Android app
 
 FILES:
-  class: AndroidXmlFFS
+  format: AndroidXml
   sourcePattern: "%GROUPROOT%/ajapaik/app/src/main/res/values-%CODE%/strings.xml"
   definitionFile: "%GROUPROOT%/ajapaik/app/src/main/res/values/strings.xml"
   codeMap:
