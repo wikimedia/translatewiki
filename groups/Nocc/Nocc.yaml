@@ -61,7 +61,7 @@ BASIC:
   label: NOCC - Site
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   keyAlgorithm: legacy
   definitionFile: "%GROUPROOT%/nocc/htdocs/engine/languages/en.pot"
   sourcePattern: "%GROUPROOT%/nocc/htdocs/engine/languages/%CODE%.po"

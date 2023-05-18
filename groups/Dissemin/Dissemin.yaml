@@ -7,7 +7,7 @@ TEMPLATE:
     codeBrowser: "https://gitlab.com/dissemin/dissemin/-/blob/master/%FILE%#L%LINE%"
 
   FILES:
-    class: GettextFFS
+    format: Gettext
     header: |
       # This file is part of the Dissemin Project
       # This file is distributed under the same license as the Dissemin package.

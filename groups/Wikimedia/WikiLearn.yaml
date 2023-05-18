@@ -10,7 +10,7 @@ TEMPLATE:
         body: "\n\nURL: %MESSAGE_URL%"
 
   FILES:
-    class: GettextFFS
+    format: Gettext
     header: |
       # This file is part of the WikiLearn Project
       # This file is distributed under the same license as the WikiLearn package.

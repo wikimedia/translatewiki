@@ -13,7 +13,7 @@ BASIC:
       description: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   sourcePattern: "%GROUPROOT%/wikimedia-developer-portal/data/locale/%CODE%/LC_MESSAGES/mkdocs.po"
 
   header: |

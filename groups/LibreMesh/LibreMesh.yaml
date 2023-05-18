@@ -35,7 +35,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   definitionFile: "%GROUPROOT%/libremesh/lime-packages/packages/lime-webui/po/lime-webui.pot"
   sourcePattern: "%GROUPROOT%/libremesh/lime-packages/packages/lime-webui/po/%CODE%/lime-webui.po"
 
@@ -53,7 +53,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   definitionFile: "%GROUPROOT%/libremesh/lime-docs/Booklet-01-Networks/01.en.pot"
   sourcePattern: "%GROUPROOT%/libremesh/lime-docs/Booklet-01-Networks/01.%CODE%.po"
 
@@ -71,7 +71,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   definitionFile: "%GROUPROOT%/libremesh/lime-docs/Booklet-02-Planning/02.en.pot"
   sourcePattern: "%GROUPROOT%/libremesh/lime-docs/Booklet-02-Planning/02.%CODE%.po"
 

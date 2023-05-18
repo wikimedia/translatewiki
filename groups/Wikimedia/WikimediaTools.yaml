@@ -103,7 +103,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   sourcePattern: "%GROUPROOT%/wikimedia-tools/isa/isa/translations/%CODE%/LC_MESSAGES/messages.po"
   definitionFile: "%GROUPROOT%/wikimedia-tools/isa/isa/messages.pot"
   header: |

@@ -17,7 +17,7 @@ BASIC:
   namespace: NS_WIKIMEDIA
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   sourcePattern: "%GROUPROOT%/wmcz-tracker/trackersite/locale/%CODE%/LC_MESSAGES/django.po"
   definitionFile: "%GROUPROOT%/wmcz-tracker/trackersite/locale/django.pot"
 
@@ -49,7 +49,7 @@ BASIC:
   namespace: NS_WIKIMEDIA
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   sourcePattern: "%GROUPROOT%/wmcz-tracker/trackersite/locale/%CODE%/LC_MESSAGES/djangojs.po"
   definitionFile: "%GROUPROOT%/wmcz-tracker/trackersite/locale/djangojs.pot"
 

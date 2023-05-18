@@ -8,7 +8,7 @@ BASIC:
   codeBrowser: "https://github.com/jhsoby/commons-wallpaper-gnome-extension/blob/develop/%FILE%#L%LINE%"
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   sourcePattern: "%GROUPROOT%/jhsoby/commons-wallpaper-gnome-extension/locale/%CODE%/LC_MESSAGES/CommonsWallpaper.po"
   definitionFile: "%GROUPROOT%/jhsoby/commons-wallpaper-gnome-extension/locale/CommonsWallpaper.pot"
 

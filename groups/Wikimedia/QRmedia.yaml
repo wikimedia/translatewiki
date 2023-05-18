@@ -7,7 +7,7 @@ BASIC:
   namespace: NS_WIKIMEDIA
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   sourcePattern: "%GROUPROOT%/qrmedia/qrmedia/locale/%CODE%/LC_MESSAGES/django.po"
   definitionFile: "%GROUPROOT%/qrmedia/qrmedia/locale/django.pot"
   header: |

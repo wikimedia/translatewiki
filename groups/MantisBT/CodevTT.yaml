@@ -8,7 +8,7 @@ BASIC:
   codeBrowser: "https://github.com/mantisbt-plugins/codev/blob/master/%FILE%#L%LINE%"
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   sourcePattern: "%GROUPROOT%/codev/i18n/locale/%CODE%/LC_MESSAGES/codev.po"
   definitionFile: "%GROUPROOT%/codev/i18n/locale/codevtt.pot"
   codeMap:

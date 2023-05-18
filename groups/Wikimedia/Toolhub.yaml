@@ -25,7 +25,7 @@ BASIC:
       body: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   sourcePattern: "%GROUPROOT%/toolhub/toolhub/locale/%CODE%/LC_MESSAGES/django.po"
 
 MANGLER:

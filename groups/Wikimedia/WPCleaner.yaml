@@ -8,7 +8,7 @@ BASIC:
   codeBrowser: "https://github.com/WPCleaner/wpcleaner/blob/master/WikipediaCleaner/src/%FILE%#L%LINE%"
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   definitionFile: "%GROUPROOT%/wpcleaner/WikipediaCleaner/src/org/wikipediacleaner/translation/WikiCleaner.pot"
   sourcePattern: "%GROUPROOT%/wpcleaner/WikipediaCleaner/src/org/wikipediacleaner/translation/%CODE%.po"
   codeMap:

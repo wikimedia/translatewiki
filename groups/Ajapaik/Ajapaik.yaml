@@ -191,7 +191,7 @@ BASIC:
   label: Ajapaik Web app
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   sourcePattern: "%GROUPROOT%/ajapaik-web/ajapaik/ajapaik/locale/%CODE%/LC_MESSAGES/django.po"
 
   header: |
@@ -223,7 +223,7 @@ BASIC:
   label: Ajapaik Web app - JavaScript
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   sourcePattern: "%GROUPROOT%/ajapaik-web/ajapaik/ajapaik/locale/%CODE%/LC_MESSAGES/djangojs.po"
 
   header: |

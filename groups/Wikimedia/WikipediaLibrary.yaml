@@ -42,7 +42,7 @@ BASIC:
   codeBrowser: "https://github.com/WikipediaLibrary/TWLight/blob/production/%FILE%#L%LINE%"
 
 FILES:
-  class: GettextFFS
+  format: Gettext
   sourcePattern: "%GROUPROOT%/WikipediaLibrary/TWLight/locale/%CODE%/LC_MESSAGES/django.po"
 
 VALIDATORS:

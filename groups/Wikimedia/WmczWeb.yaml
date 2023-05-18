@@ -4,7 +4,7 @@ TEMPLATE:
     namespace: NS_WIKIMEDIA
 
   FILES:
-    class: GettextFFS
+    format: Gettext
     codeMap:
       cs: cs_CZ
       de: de_DE
