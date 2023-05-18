@@ -6,7 +6,7 @@ TEMPLATE:
     class: FileBasedMessageGroup
 
   FILES:
-    class: JavaFFS
+    format: Java
     codeMap:
       nb: "no"
 

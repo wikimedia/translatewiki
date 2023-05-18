@@ -14,7 +14,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JavaFFS
+  format: Java
   sourcePattern: "%GROUPROOT%/cita/static/chrome/locale/%CODE%/wikicite.properties"
   codeMap:
     en: en-US

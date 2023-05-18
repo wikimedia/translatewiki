@@ -8,7 +8,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: JavaFFS
+  format: Java
   keySeparator: ":"
   sourcePattern: "%GROUPROOT%/fudforum/install/forum_data/thm/default/i18n/%CODE%/msg"
 

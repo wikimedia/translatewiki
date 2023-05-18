@@ -71,7 +71,7 @@ BASIC:
   label: Ajapaik Android App – Play store descriptions
 
 FILES:
-  class: JavaFFS
+  format: Java
   sourcePattern: "%GROUPROOT%/ajapaik/playstore/listings/%CODE%.txt"
   codeMap:
 # Not yet supported in translatewiki.net

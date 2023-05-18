@@ -8,7 +8,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: JavaFFS
+  format: Java
   sourcePattern: "%GROUPROOT%/vicuna/src/main/resources/cuploader/text_utf8/messages_%CODE%.properties"
   definitionFile: "%GROUPROOT%/vicuna/src/main/resources/cuploader/text_utf8/messages.properties"
   codeMap:
