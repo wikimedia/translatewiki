@@ -29,7 +29,7 @@ MANGLER:
   prefix: wikipedia-ios-
 
 FILES:
-  class: AppleFFS
+  format: Apple
   sourcePattern: "%GROUPROOT%/wikipedia-ios/Wikipedia/Localizations/%CODE%.lproj/Localizable.strings"
 
 TAGS:
@@ -47,7 +47,7 @@ MANGLER:
   prefix: wikipedia-ios-meta-
 
 FILES:
-  class: AppleFFS
+  format: Apple
   sourcePattern: "%GROUPROOT%/wikipedia-ios/Wikipedia/Localizations/%CODE%.lproj/InfoPlist.strings"
 
 ---
