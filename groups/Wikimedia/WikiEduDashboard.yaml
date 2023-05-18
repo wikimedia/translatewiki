@@ -7,7 +7,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: YamlFFS
+  format: Yaml
   parseCLDRPlurals: true
   sourcePattern: "%GROUPROOT%/wikiedudashboard/config/locales/%CODE%.yml"
   codeAsRoot: true

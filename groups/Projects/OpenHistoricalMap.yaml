@@ -13,7 +13,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  class: YamlFFS
+  format: Yaml
   parseCLDRPlurals: true
   codeAsRoot: true
   sourcePattern: "%GROUPROOT%/ohm-website/config/locales/%CODE%.yml"

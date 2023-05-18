@@ -6,7 +6,7 @@ TEMPLATE:
     description: "{{Special:MyLanguage/Translations:Group descriptions/eol/en}}"
 
   FILES:
-    class: YamlFFS
+    format: Yaml
     parseCLDRPlurals: true
     codeAsRoot: true
     codeMap:

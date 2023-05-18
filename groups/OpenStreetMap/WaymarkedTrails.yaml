@@ -27,7 +27,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: YamlFFS
+  format: Yaml
   sourcePattern: "%GROUPROOT%/waymarkedtrails-website/src/i18n/%CODE%/messages.yaml"
   definitionFile: "%GROUPROOT%/waymarkedtrails-website/src/i18n/qot/messages.yaml"
   codeMap:
@@ -54,6 +54,6 @@ MANGLER:
     - "*"
 
 FILES:
-  class: YamlFFS
+  format: Yaml
   sourcePattern: "%GROUPROOT%/waymarkedtrails-website/src/i18n/%CODE%/helppages.yaml"
   definitionFile: "%GROUPROOT%/waymarkedtrails-website/src/i18n/qot/helppages.yaml"
