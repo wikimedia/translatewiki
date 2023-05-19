@@ -8,7 +8,6 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
-  - ext-gwtoolset # Being phased out, 2021: T270911
   - ext-liquidthreads
   - ext-ores
   - ext-renameuser # Being phased out, 2015

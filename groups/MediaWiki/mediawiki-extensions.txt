@@ -1643,9 +1643,13 @@ ignored = welcomesurvey-sidebar-editing-link4-text, welcomesurvey-sidebar-editin
 Guided Tour
 optional = guidedtour-tour-test-wikitext-description
 
-GW Toolset
-aliasfile = GWToolset/GWToolset.alias.php
-ignored = gwtoolset-menu, gwtoolset-painted-by, tag-gwtoolset
+# It was used only on Wikimedia Commons. It had zero
+# users in 2023, and it did have many bugs,
+# so it was undeployed. See
+# https://phabricator.wikimedia.org/T270911
+# GW Toolset
+# aliasfile = GWToolset/GWToolset.alias.php
+# ignored = gwtoolset-menu, gwtoolset-painted-by, tag-gwtoolset
 
 HA Welcome
 ignored = welcome-user, welcome-enabled
