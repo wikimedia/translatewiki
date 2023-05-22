@@ -6,7 +6,7 @@ TEMPLATE:
     class: FileBasedMessageGroup
 
   FILES:
-    class: FlatPhpFFS
+    format: FlatPhp
     codeMap:
       aeb:     tunisian_arabic
       af:      afrikaans

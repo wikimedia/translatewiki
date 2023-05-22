@@ -21,7 +21,7 @@ BASIC:
   label: NOCC - Core
 
 FILES:
-  class: FlatPhpFFS
+  format: FlatPhp
   sourcePattern: "%GROUPROOT%/nocc/webmail/lang/%CODE%.php"
   codeMap:
     sr-el: sr

@@ -7,7 +7,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: FlatPhpFFS
+  format: FlatPhp
   sourcePattern: "%GROUPROOT%/wikiblame/wikiblame_inc/%CODE%.php"
 
 VALIDATORS:
