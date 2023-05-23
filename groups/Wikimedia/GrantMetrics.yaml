@@ -13,7 +13,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/grant-metrics/i18n/%CODE%.json"
 
 TAGS:

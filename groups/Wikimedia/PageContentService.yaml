@@ -6,7 +6,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/pagecontentservice/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/pagecontentservice/i18n/%CODE%.json"
 
 TAGS:

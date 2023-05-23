@@ -6,7 +6,7 @@ TEMPLATE:
     description: "{{Special:MyLanguage/Translations:Group descriptions/blockly/en}}"
 
   FILES:
-    format: Json
+    class: JsonFFS
     codeMap:
       sr-ec: sr
       sr-el: sr-latn

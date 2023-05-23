@@ -109,7 +109,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikicore/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/%CODE%.json"
 
 TAGS:
@@ -676,7 +676,7 @@ BASIC:
   description: "{{int:config-desc}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mediawiki/master/includes/installer/i18n/%CODE%.json"
 
 TAGS:
@@ -693,7 +693,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikiexif/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/exif/%CODE%.json"
 
 TAGS:
@@ -743,7 +743,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikiapi/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mediawiki/master/includes/api/i18n/%CODE%.json"
 
 TAGS:
@@ -764,7 +764,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikiapi/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mediawiki/master/includes/Rest/i18n/%CODE%.json"
 
 ---
@@ -775,7 +775,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikimediaparamvalidator/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mediawiki/master/includes/libs/ParamValidator/i18n/%CODE%.json"
 
 TAGS:

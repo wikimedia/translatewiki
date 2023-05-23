@@ -6,7 +6,7 @@ BASIC:
   namespace: NS_WIKIMEDIA
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/whowrotethat/i18n/%CODE%.json"
 
 VALIDATORS:

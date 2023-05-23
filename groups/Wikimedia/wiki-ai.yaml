@@ -27,7 +27,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wiki-ai/wikilabels/wikilabels/i18n/%CODE%.json"
 
 VALIDATORS:
@@ -52,7 +52,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wiki-ai/wikilabels-wikimedia-config/forms/i18n/damaging_and_goodfaith/%CODE%.json"
 
 ---
@@ -71,7 +71,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wiki-ai/wikilabels-wikimedia-config/forms/i18n/draft_notability/%CODE%.json"
 
 ---
@@ -90,7 +90,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wiki-ai/wikilabels-wikimedia-config/forms/i18n/edit_type/%CODE%.json"
 
 ---
@@ -109,5 +109,5 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wiki-ai/wikilabels-wikimedia-config/forms/i18n/wp10/%CODE%.json"

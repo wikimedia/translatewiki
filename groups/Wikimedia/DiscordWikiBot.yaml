@@ -6,7 +6,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/discordwikibot/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/stjohann/DiscordWikiBot/DiscordWikiBot/i18n/%CODE%.json"
 
 MANGLER:

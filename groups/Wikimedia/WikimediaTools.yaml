@@ -13,7 +13,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/bookreader/messages/%CODE%.json"
 
 ---
@@ -31,7 +31,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/commons-mass-description/messages/%CODE%.json"
 
 INSERTABLES:
@@ -51,7 +51,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/guc/i18n/%CODE%.json"
 
 TAGS:
@@ -76,7 +76,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/heritage/i18n/%CODE%.json"
 
 TAGS:
@@ -136,7 +136,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/map-of-monuments/messages/%CODE%.json"
 
 ---
@@ -154,7 +154,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/massmailer/messages/%CODE%.json"
 
 VALIDATORS:
@@ -185,7 +185,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/qrcode-generator/messages/%CODE%.json"
 
 ---
@@ -203,7 +203,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/watch-translations/messages/%CODE%.json"
 
 INSERTABLES:
@@ -224,7 +224,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/weapon-of-mass-description/messages/%CODE%.json"
 
 INSERTABLES:
@@ -245,7 +245,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/wikinity/messages/%CODE%.json"
   codeMap:
     sr-el: sr
@@ -265,7 +265,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikimedia-tools/videocuttool/src/i18n/%CODE%.json"
 
 VALIDATORS:

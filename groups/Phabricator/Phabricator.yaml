@@ -9,7 +9,7 @@ TEMPLATE:
       is to promote these translations to be the "official" ones for Phabricator.
 
   FILES:
-    format: Json
+    class: JsonFFS
 
   VALIDATORS:
     - id: BraceBalance

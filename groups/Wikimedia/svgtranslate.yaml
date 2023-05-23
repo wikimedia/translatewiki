@@ -12,7 +12,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/svgtranslate/i18n/%CODE%.json"
 
 VALIDATORS:

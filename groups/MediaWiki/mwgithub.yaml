@@ -5,7 +5,7 @@ TEMPLATE:
     namespace: NS_MEDIAWIKI
 
   FILES:
-    format: Json
+    class: JsonFFS
 
   VALIDATORS:
     - id: BraceBalance
@@ -29,7 +29,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/oetterer/BootstrapComponents/i18n/%CODE%.json"
 
 TAGS:
@@ -47,7 +47,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/AutomatedValues/i18n/%CODE%.json"
 
 TAGS:
@@ -65,7 +65,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/ExternalContent/i18n/%CODE%.json"
 ---
 BASIC:
@@ -79,7 +79,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/IdGenerator/i18n/%CODE%.json"
 
 TAGS:
@@ -97,7 +97,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/Mermaid/i18n/%CODE%.json"
 ---
 BASIC:
@@ -111,7 +111,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/ModernTimeline/i18n/%CODE%.json"
 
 TAGS:
@@ -129,7 +129,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/Network/i18n/%CODE%.json"
 
 TAGS:
@@ -147,7 +147,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticApprovedRevs/i18n/%CODE%.json"
 
 TAGS:
@@ -165,7 +165,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticBreadcrumbLinks/i18n/%CODE%.json"
 
 TAGS:
@@ -183,7 +183,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticCite/i18n/%CODE%.json"
 
 TAGS:
@@ -213,7 +213,7 @@ BASIC:
   # Has magic file
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticCompoundQueries/i18n/%CODE%.json"
 
 TAGS:
@@ -231,7 +231,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticExternalQueryLookup/i18n/%CODE%.json"
 ---
 BASIC:
@@ -245,7 +245,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticExtraSpecialProperties/i18n/%CODE%.json"
 
 TAGS:
@@ -263,7 +263,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticFormsSelect/i18n/%CODE%.json"
 ---
 BASIC:
@@ -277,7 +277,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticGlossary/i18n/%CODE%.json"
 ---
 BASIC:
@@ -291,7 +291,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticImageCaption/i18n/%CODE%.json"
 
 TAGS:
@@ -309,7 +309,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticInterlanguageLinks/i18n/%CODE%.json"
 
 TAGS:
@@ -327,7 +327,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticMediaWiki/i18n/%CODE%.json"
 
 TAGS:
@@ -380,7 +380,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticMetaTags/i18n/%CODE%.json"
 
 TAGS:
@@ -398,7 +398,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticResultFormats/i18n/%CODE%.json"
 
 TAGS:
@@ -432,7 +432,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticSignup/i18n/%CODE%.json"
 ---
 BASIC:
@@ -446,7 +446,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticWatchlist/i18n/%CODE%.json"
 ---
 BASIC:
@@ -460,7 +460,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticTasks/i18n/%CODE%.json"
 
 TAGS:
@@ -478,7 +478,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/Maps/i18n/%CODE%.json"
 
 TAGS:
@@ -505,7 +505,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/JeroenDeDauw/ParserHooks/i18n/%CODE%.json"
 ---
 BASIC:
@@ -519,7 +519,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/SimpleBatchUpload/i18n/%CODE%.json"
 
 TAGS:
@@ -537,7 +537,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/JeroenDeDauw/SubPageList/i18n/%CODE%.json"
 ---
 BASIC:
@@ -551,7 +551,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/JeroenDeDauw/Validator/i18n/%CODE%.json"
 
 TAGS:
@@ -569,7 +569,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/WhatsNearby/i18n/%CODE%.json"
 ---
 BASIC:
@@ -583,7 +583,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/WikibaseEdtf/i18n/%CODE%.json"
 
 TAGS:
@@ -601,7 +601,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/WikibaseExport/i18n/%CODE%.json"
 
 TAGS:
@@ -619,7 +619,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/WikibaseLocalMedia/i18n/%CODE%.json"
 
 TAGS:
@@ -637,7 +637,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/WikibaseRDF/i18n/%CODE%.json"
 
 TAGS:
@@ -657,7 +657,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SummaryCards/i18n/%CODE%.json"
 ---
 BASIC:
@@ -671,7 +671,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticDrilldown/i18n/%CODE%.json"
 
 ---
@@ -686,7 +686,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticScribunto/i18n/%CODE%.json"
 
 ---
@@ -701,7 +701,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/chameleon/resources/i18n/%CODE%.json"
 
 ---
@@ -716,7 +716,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Nikerabbit/mediawiki-extensions-FinnFrameNet/i18n/%CODE%.json"
 
 ---
@@ -731,7 +731,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/jeblad/BCmath/i18n/%CODE%.json"
 
 ---
@@ -746,7 +746,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/jeblad/Pickle/i18n/%CODE%.json"
 
 TAGS:
@@ -775,7 +775,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/jeblad/Expect/i18n/%CODE%.json"
 
 ---
@@ -790,7 +790,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/jeblad/Katsa/i18n/%CODE%.json"
 
 ---
@@ -805,7 +805,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/jeblad/ModDoc/i18n/%CODE%.json"
 
 ---
@@ -820,7 +820,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Hutchy68/Purge/i18n/%CODE%.json"
 
 MANGLER:
@@ -842,7 +842,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/CreateWiki/i18n/%CODE%.json"
 
 TAGS:
@@ -862,7 +862,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/CustomHeader/i18n/%CODE%.json"
 
 ---
@@ -878,7 +878,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/DataDump/i18n/%CODE%.json"
 
 MANGLER:
@@ -905,7 +905,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/GlobalNewFiles/i18n/%CODE%.json"
 
 ---
@@ -921,7 +921,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/ImportDump/i18n/%CODE%.json"
 
 TAGS:
@@ -941,7 +941,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/IncidentReporting/i18n/%CODE%.json"
 
 ---
@@ -957,7 +957,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/ManageWiki/i18n/%CODE%.json"
 
 ---
@@ -973,7 +973,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/MatomoAnalytics/i18n/%CODE%.json"
 
 MANGLER:
@@ -991,7 +991,7 @@ BASIC:
   description: "{{Special:MyLanguage/MediaWiki:mirahezeerrorpages-desc/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/ErrorPages/i18n/%CODE%.json"
 
 MANGLER:
@@ -1010,7 +1010,7 @@ BASIC:
   description: "{{Special:MyLanguage/MediaWiki:mirahezelanding-desc/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/landing/i18n/%CODE%.json"
 
 TAGS:
@@ -1033,7 +1033,7 @@ BASIC:
   description: "{{Special:MyLanguage/MediaWiki:Mirahezemagic-custom-mirahezemagic-description/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/MirahezeMagic/i18n/miraheze/%CODE%.json"
 
 MANGLER:
@@ -1059,7 +1059,7 @@ BASIC:
   label: MirahezeMagic Override
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/MirahezeMagic/i18n/overrides/%CODE%.json"
 
 TAGS:
@@ -1082,7 +1082,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/PDFEmbed/i18n/%CODE%.json"
 
 TAGS:
@@ -1102,7 +1102,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/RemovePII/i18n/%CODE%.json"
 
 ---
@@ -1118,7 +1118,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/RottenLinks/i18n/%CODE%.json"
 
 ---
@@ -1134,7 +1134,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/SpriteSheet/i18n/%CODE%.json"
 
 ---
@@ -1150,7 +1150,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/WikiDiscover/i18n/%CODE%.json"
 
 ---
@@ -1166,7 +1166,7 @@ BASIC:
       description: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/YouTube/i18n/%CODE%.json"
 
 MANGLER:
@@ -1187,7 +1187,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/lingua-libre/RecordWizard/i18n/%CODE%.json"
 
 TAGS:
@@ -1208,7 +1208,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/lingua-libre/RecordWizard/i18n/api/%CODE%.json"
 
 ---
@@ -1223,7 +1223,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/edwardspec/mediawiki-moderation/i18n/%CODE%.json"
 
 TAGS:
@@ -1245,7 +1245,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/AchievementBadges/i18n/%CODE%.json"
 
 ---
@@ -1260,7 +1260,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/lingua-libre/BlueLL/i18n/%CODE%.json"
 
 TAGS:
@@ -1278,7 +1278,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/FacetedCategory/i18n/%CODE%.json"
 
 ---
@@ -1293,7 +1293,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/FemiwikiSkin/i18n/%CODE%.json"
 
 TAGS:
@@ -1315,7 +1315,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/Sanctions/i18n/%CODE%.json"
 
 TAGS:
@@ -1337,7 +1337,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/UnifiedExtensionForFemiwiki/i18n/%CODE%.json"
 
 ---
@@ -1352,7 +1352,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/kulttuuri/DiscordNotifications/i18n/%CODE%.json"
 
 ---
@@ -1367,7 +1367,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Nikerabbit/mediawiki-extensions-Lud/i18n/%CODE%.json"
 
 ---
@@ -1383,7 +1383,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-skins-Citizen/i18n/%CODE%.json"
 
 TAGS:
@@ -1404,7 +1404,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-BlockASN/i18n/%CODE%.json"
 
 ---
@@ -1419,7 +1419,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-Debounce/i18n/%CODE%.json"
 
 TAGS:
@@ -1438,7 +1438,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-GTag/i18n/%CODE%.json"
 
 TAGS:
@@ -1457,7 +1457,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Halopedia/Onyx/i18n/%CODE%.json"
 
 ---
@@ -1472,7 +1472,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/EDTF/i18n/%CODE%.json"
 
 ---
@@ -1488,7 +1488,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-ShortDescription/i18n/%CODE%.json"
 
 TAGS:
@@ -1515,7 +1515,7 @@ MANGLER:
     - apihelp-query+description-* # Conflicts with WikiBase
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-ShortDescription/i18n/api/%CODE%.json"
 
 ---
@@ -1530,7 +1530,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenWiki/mediawiki-extensions-EmbedVideo/i18n/%CODE%.json"
 
 TAGS:
@@ -1550,7 +1550,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/PageViewInfoGA/i18n/%CODE%.json"
 
 ---
@@ -1565,7 +1565,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/octfx/mediawiki-extension-Plausible/i18n/%CODE%.json"
 
 ---
@@ -1581,7 +1581,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/lakejason0/mediawiki-skins-Lakeus/i18n/%CODE%.json"
 
 ---
@@ -1596,7 +1596,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/DiscordRCFeed/i18n/%CODE%.json"
 
 TAGS:
@@ -1615,7 +1615,7 @@ BASIC:
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-MediaWikiAuth/i18n/%CODE%.json"
 
 TAGS:
@@ -1635,7 +1635,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-TabberNeue/i18n/%CODE%.json"
 
 ---
@@ -1645,7 +1645,7 @@ BASIC:
   description: "{{Special:MyLanguage/MediaWiki:Liberty-desc/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/librewiki/liberty-skin/i18n/%CODE%.json"
 
 TAGS:
@@ -1679,7 +1679,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/AlPha5130/mediawiki-extensions-EditCountNeue/i18n/%CODE%.json"
 
 ---
@@ -1694,7 +1694,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/AlPha5130/mediawiki-extensions-EditCountNeue/i18n/api/%CODE%.json"
 
 MANGLER:
@@ -1715,7 +1715,7 @@ BASIC:
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/AgentIsai/Share/i18n/%CODE%.json"
 
 MANGLER:
@@ -1736,7 +1736,7 @@ BASIC:
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/AutoCreatePage/i18n/%CODE%.json"
 
 ---
@@ -1751,7 +1751,7 @@ BASIC:
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/DiscordNotifications/i18n/%CODE%.json"
 
 MANGLER:
@@ -1776,7 +1776,7 @@ BASIC:
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/DynamicPageList3/i18n/%CODE%.json"
 
 MANGLER:
@@ -1800,7 +1800,7 @@ BASIC:
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/Monaco/i18n/%CODE%.json"
 
 TAGS:
@@ -1828,7 +1828,7 @@ BASIC:
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/Monaco/ContentRightSidebar/i18n/%CODE%.json"
 
 ---
@@ -1843,7 +1843,7 @@ BASIC:
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/PortableInfobox/i18n/%CODE%.json"
 
 ---
@@ -1858,7 +1858,7 @@ BASIC:
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/Preloader/i18n/%CODE%.json"
 
 ---
@@ -1873,7 +1873,7 @@ BASIC:
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/SimpleBlogPage/i18n/%CODE%.json"
 
 MANGLER:
@@ -1894,7 +1894,7 @@ BASIC:
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/SimpleTooltip/i18n/%CODE%.json"
 ---
 BASIC:
@@ -1909,5 +1909,5 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgithub/Appropedia/extension/i18n/%CODE%.json"

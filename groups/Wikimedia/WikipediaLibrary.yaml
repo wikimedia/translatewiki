@@ -77,7 +77,7 @@ BASIC:
   label: Wikipedia Library Card Platform - Partner Descriptions
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/WikipediaLibrary/TWLight/locale/%CODE%/partner_descriptions.json"
 
 VALIDATORS:
@@ -92,5 +92,5 @@ BASIC:
   label: Wikipedia Library Card Platform - Tags
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/WikipediaLibrary/TWLight/locale/%CODE%/tag_names.json"

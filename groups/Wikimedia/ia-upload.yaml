@@ -13,7 +13,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/ia-upload/i18n/%CODE%.json"
 
 INSERTABLES:

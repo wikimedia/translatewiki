@@ -13,7 +13,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/SWViewer/tool-swviewer/i18n/%CODE%.json"
 
 VALIDATORS:

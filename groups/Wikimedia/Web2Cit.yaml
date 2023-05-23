@@ -16,7 +16,7 @@ TEMPLATE:
       - "*"
 
   FILES:
-    format: Json
+    class: JsonFFS
 
   VALIDATORS:
     # Match variables: {{hello.name}}, {{- hello.name}}

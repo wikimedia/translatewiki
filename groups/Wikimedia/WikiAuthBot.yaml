@@ -18,7 +18,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wikiauthbot/Wiki/languages/%CODE%.json"
 
 VALIDATORS:

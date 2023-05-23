@@ -7,7 +7,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mifos/app/global-translations/locale-%CODE%.json"
   definitionFile: "%GROUPROOT%/mifos/app/global-translations/locale-%CODE%.json"
   codeMap:

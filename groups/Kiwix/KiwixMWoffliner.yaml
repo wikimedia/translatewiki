@@ -13,7 +13,7 @@ BASIC:
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/kiwix-mwoffliner/translation/%CODE%.json"
 
 MANGLER:

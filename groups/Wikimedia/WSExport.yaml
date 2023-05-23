@@ -7,7 +7,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/wsexport/i18n/%CODE%.json"
 
 MANGLER:

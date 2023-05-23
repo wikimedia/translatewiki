@@ -12,7 +12,7 @@ MANGLER:
     - "*"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/int-web/messages/%CODE%.json"
 
 TAGS:

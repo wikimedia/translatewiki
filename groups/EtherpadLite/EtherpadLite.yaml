@@ -22,7 +22,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/etherpad-lite/src/locales/%CODE%.json"
 
 VALIDATORS:

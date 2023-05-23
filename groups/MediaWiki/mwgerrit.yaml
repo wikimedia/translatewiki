@@ -5,7 +5,7 @@ TEMPLATE:
     namespace: NS_MEDIAWIKI
 
   FILES:
-    format: Json
+    class: JsonFFS
 
   VALIDATORS:
     - id: BraceBalance
@@ -23,7 +23,7 @@ BASIC:
   description: "{{Special:MyLanguage/MediaWiki:Valueview-desc/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgerrit/data-values/value-view/i18n/%CODE%.json"
 ---
 BASIC:
@@ -32,7 +32,7 @@ BASIC:
   description: "{{Special:MyLanguage/MediaWiki:Visualeditor-desc/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgerrit/oojs/ui/i18n/%CODE%.json"
 
 TAGS:
@@ -45,7 +45,7 @@ BASIC:
   description: "{{Special:MyLanguage/MediaWiki:Visualeditor-desc/en}}"
 
 FILES:
-  format: Json
+  class: JsonFFS
   sourcePattern: "%GROUPROOT%/mwgerrit/VisualEditor/VisualEditor/i18n/%CODE%.json"
 
 TAGS:
