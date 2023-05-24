@@ -13,5 +13,5 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/wikipedia-preview/i18n/%CODE%.json"

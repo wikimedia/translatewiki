@@ -13,7 +13,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/citationhunt/chstrings/%CODE%.json"
 
 VALIDATORS:

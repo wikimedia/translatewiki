@@ -7,7 +7,7 @@ BASIC:
   namespace: NS_LIBREVIEWS
 
 FILES:
-  class: JsonFFS
+  format: Json
   nestingSeparator: /
   parseCLDRPlurals: yes
   sourcePattern: "%GROUPROOT%/lib.reviews/locales/%CODE%.json"

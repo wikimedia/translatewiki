@@ -51,7 +51,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/toolhub/vue/src/assets/locales/i18n/%CODE%.json"
 
 MANGLER:

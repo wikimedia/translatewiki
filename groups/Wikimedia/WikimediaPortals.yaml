@@ -13,7 +13,7 @@ MANGLER:
     - "*"
 
 FILES:
-  class: JsonFFS
+  format: Json
   nestingSeparator: .
   sourcePattern: "%GROUPROOT%/wikimedia-portals/l10n/%CODE%.json"
 

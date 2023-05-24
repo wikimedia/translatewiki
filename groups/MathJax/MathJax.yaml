@@ -42,7 +42,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/%CODE%.json"
   definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/%CODE%.json"
 
@@ -60,7 +60,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/TeX.json"
   definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/TeX.json"
 
@@ -78,7 +78,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/MathMenu.json"
   definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/MathMenu.json"
 
@@ -96,7 +96,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/MathML.json"
   definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/MathML.json"
 
@@ -114,7 +114,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/HelpDialog.json"
   definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/HelpDialog.json"
 
@@ -132,7 +132,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/HTML-CSS.json"
   definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/HTML-CSS.json"
 
@@ -150,7 +150,7 @@ BASIC:
   class: FileBasedMessageGroup
 
 FILES:
-  class: JsonFFS
+  format: Json
   sourcePattern: "%GROUPROOT%/mathjax/JSON/%CODE%/FontWarnings.json"
   definitionFile: "%GROUPROOT%/mathjax/JSON/%CODE%/FontWarnings.json"
 
