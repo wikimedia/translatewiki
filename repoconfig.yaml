@@ -905,9 +905,9 @@ qrmedia:
   group: qrmedia
   repos:
     qrmedia:
-      type: github # same committer name and email as in github
-      url: https://framagit.org/wikimedia-france/qrmedia.git
-      url|export: git@framagit.org:wikimedia-france/qrmedia.git
+      type: gitlab
+      url: https://gitlab.wikimedia.org/repos/wikimedia-france/qrmedia.git
+      url|export: git@gitlab.wikimedia.org:repos/wikimedia-france/qrmedia.git
 
 swviewer:
   group: swviewer
