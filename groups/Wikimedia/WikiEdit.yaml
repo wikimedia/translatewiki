@@ -1,0 +1,21 @@
+BASIC:
+  id: wikiedit
+  label: WikiEdit
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikiedit/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+  support:
+    url: https://www.mediawiki.org/wiki/Talk:WikiEdit
+    params:
+      action: edit
+      section: new
+      preloadtitle: Translation issue with message %MESSAGE%
+      preloadparams: "%MESSAGE_URL%"
+      preload: Translatewiki.net/New_issue_template
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wikiedit/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiLink

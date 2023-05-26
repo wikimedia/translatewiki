@@ -994,6 +994,15 @@ wikidocumentaries:
       url: https://github.com/Wikidocumentaries/wikidocumentaries-ui.git
       url|export: git@github.com:Wikidocumentaries/wikidocumentaries-ui
 
+wikiedit:
+  group: wikiedit
+  auto-merge: mediawiki/gadgets/WikiEdit
+  repos:
+    wikiedit:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/mediawiki/gadgets/WikiEdit
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/gadgets/WikiEdit
+
 wikiedudashboard:
   group: wikiedudashboard
   export-threshold: 1
