@@ -41,6 +41,7 @@ $wgTranslateLanguageFallbacks['bum'] = [ 'fr' ];
 $wgTranslateLanguageFallbacks['bwr'] = [ 'ha', 'kr', 'ar' ];
 $wgTranslateLanguageFallbacks['bxr'] = [ 'mn', 'xal' ];
 $wgTranslateLanguageFallbacks['bzj'] = [ 'jam', 'es' ];
+$wgTranslateLanguageFallbacks['bzs'] = [ 'pt-br', 'pt' ];
 $wgTranslateLanguageFallbacks['cak'] = [ 'es' ];
 $wgTranslateLanguageFallbacks['cja-latn'] = [ 'km' ];
 $wgTranslateLanguageFallbacks['cjm-latn'] = [ 'vi' ];

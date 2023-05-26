@@ -26,6 +26,7 @@ $wgExtraLanguageNames['brx'] = 'बर\''; # Boro / Siebrand 2017-05-20
 $wgExtraLanguageNames['bum'] = 'bulu'; # Bulu / Amir 2022-02-19
 $wgExtraLanguageNames['bwr'] = 'bura'; # Bura / Amir 2022-06-11
 $wgExtraLanguageNames['bzj'] = 'Bileez Kriol'; # Belizean Creole / Amir 2021-03-29
+$wgExtraLanguageNames['bzs'] = 'Língua brasileira de sinais'; # Brazilian Sign Language; the name is intentionally written in Portuguese / Amir 2023-05-26
 $wgExtraLanguageNames['cak'] = 'Kaqchikel'; # Kaqchikel / Nikerabbit 2018-06-15
 $wgExtraLanguageNames['ccp'] = '𑄌𑄋𑄴𑄟𑄳𑄦'; # Chakma / Amir 2019-09-04
 $wgExtraLanguageNames['cja-latn'] = 'Cham Gah Pai'; # Western Cham (Latin script) / 2015-06-XX
