@@ -1902,6 +1902,7 @@ BASIC:
 FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/SimpleTooltip/i18n/%CODE%.json"
+
 ---
 BASIC:
   id: mwgithub-appropedia
@@ -1917,3 +1918,24 @@ BASIC:
 FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/Appropedia/extension/i18n/%CODE%.json"
+
+---
+BASIC:
+  id: mwgithub-mw-discord
+  label: Discord (mw-discord)
+  description: "{{Special:MyLanguage/MediaWiki:Discord-desc/en}}"
+  support:
+    url: https://github.com/jayktaylor/mw-discord/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/jayktaylor/mw-discord/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - discord-userlinks
+    - discord-revisionlinks
+    - discord-size

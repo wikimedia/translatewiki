@@ -456,6 +456,10 @@ mwgithub:
       type: github
       url: https://github.com/Hutchy68/Purge.git
       url|export: git@github.com:Hutchy68/Purge.git
+    mwgithub/jayktaylor/mw-discord:
+      type: github
+      url: https://github.com/jayktaylor/mw-discord.git
+      url|export: git@github.com:jayktaylor/mw-discord.git
     mwgithub/jeblad/BCmath:
       type: github
       url: https://github.com/jeblad/BCmath.git
