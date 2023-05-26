@@ -1545,6 +1545,7 @@ Google Geocode
 Google Login
 aliasfile = GoogleLogin/GoogleLogin.alias.php
 optional = googlelogin-auth-service-name
+optional = tag-googlelogin
 
 Google News Sitemap
 ignored = googlenewssitemap_categorymap
