@@ -1584,6 +1584,12 @@ FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/lakejason0/mediawiki-skins-Lakeus/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - skinname-lakeus
+    - lakeus.css
+    - lakeus.js
+
 ---
 BASIC:
   id: mwgithub-discordrcfeed
