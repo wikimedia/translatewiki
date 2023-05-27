@@ -41,7 +41,6 @@ $wgExtraLanguageNames['cpx'] = '莆仙語 / Pó-sing-gṳ̂'; # Pu-Xian Min (莆
 $wgExtraLanguageNames['cpx-hans'] = '莆仙语（简体）'; # Pu-Xian Min / Putian-Xianyou Min (Simplified Han script) / 2016-06-22 / 2023-03-03
 $wgExtraLanguageNames['cpx-hant'] = '莆仙語（繁體）'; # Pu-Xian Min / Putian-Xianyou Min (Traditional Han script) / 2016-06-22 / 2023-03-03
 $wgExtraLanguageNames['cpx-latn'] = 'Pó-sing-gṳ̂ (Báⁿ-uā-ci̍)'; # # Pu-Xian Min / Putian-Xianyou Min (Latin script) / 2016-06-22 / 2023-03-03
-$wgExtraLanguageNames['crh-ro'] = 'tatarşa'; # Crimean Tatar (Romania) / Amir 2023-05-02
 $wgExtraLanguageNames['dar'] = 'дарган'; # Dargwa / Amir 2021-04-13
 $wgExtraLanguageNames['ddn'] = 'dendi'; # Dendi / Amir 2023-04-03
 $wgExtraLanguageNames['efi'] = 'efịk'; # Efik / Amir 2022-03-12
