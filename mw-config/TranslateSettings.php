@@ -188,6 +188,8 @@ $wgTranslateDisabledTargetLanguages = [
 		'kk-tr' => 'This language code should remain unused. Localise in kk-latn please.',
 		'ks' => 'This language code should remain unused. Localise in ks-arab (Arabic script) or ks-deva (Devanagari script) please.',
 		'ku' => 'This code is for compatibility purposes only. Localise in \'ku-latn\'',
+		'nan-hani' => 'This language code should remain unused. Localise in nan-hans or nan-hant please.',
+		'nan-latn' => 'This language code should remain unused. Localise in nan-latn-pehoeji or nan-latn-tailo please.',
 		'no' => 'This language code should remain unused. Use \'nb\'',
 		'oge' => 'This is a [http://www.sil.org/iso639-3/documentation.asp?id=oge historical language]. It cannot be localised in translatewiki.net.',
 		'roa-rup' => 'This language code should remain unused. Localise in rup nplease.',
