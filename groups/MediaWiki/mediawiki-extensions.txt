@@ -1707,6 +1707,8 @@ Image Map
 descmsg = imagemap_desc
 optional = imagemap_desc_types
 
+Image Map Edit
+
 # Image Metrics // archived per https://phabricator.wikimedia.org/T240799
 
 Image Rating
