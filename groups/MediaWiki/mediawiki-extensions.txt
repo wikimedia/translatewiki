@@ -2731,6 +2731,7 @@ ignored = readinglists-share-url-text-incomplete
 optional = readinglists-share-url-text
 
 Real Me
+ignored = realme-config.json
 
 Reassign Edits
 aliasfile = ReassignEdits/ReassignEdits.alias.php
