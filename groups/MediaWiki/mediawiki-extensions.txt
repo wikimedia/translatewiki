@@ -2076,7 +2076,8 @@ aliasfile = MergeArticles/languages/MergeArticles.alias.php
 Meta Master
 magicfile = MetaMaster/MetaMaster.i18n.magic.php
 
-# Metadata // 2018-07-18: wrong extension prefix
+Metadata
+magicfile = Metadata/Metadata.i18n.php
 
 Mini Invite
 aliasfile = MiniInvite/includes/MiniInvite.alias.php
