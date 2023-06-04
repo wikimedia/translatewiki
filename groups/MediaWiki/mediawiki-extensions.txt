@@ -630,6 +630,9 @@ Bounce Handler - User interface
 id = ext-bouncehandler-user
 file = BounceHandler/i18n/%CODE%.json
 
+Bulk Block
+aliasfile = BulkBlock/BulkBlockAlias.alias.php
+
 Bread Crumbs 2
 ignored = breadcrumbs
 
