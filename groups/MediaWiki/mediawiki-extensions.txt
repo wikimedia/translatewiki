@@ -1162,6 +1162,9 @@ Dynamic Page List Engine
 
 Dynamic Sidebar
 
+# E Image // 2023-06-04: qqq partly identical to en.json
+# aliasfile = EImage/EImage.alias.php
+
 # Easy Wiki // 2022-06-01: Empty repo
 
 Echo - User interface
@@ -1215,6 +1218,8 @@ Email Capture
 # Email Deleted Pages // 2021-12-04: Still the old message scheme
 
 Email Diff
+
+# Emergency Captcha // 2023-06-04: Empty repo
 
 # Encrypted Uploads // 2020-11-27: Waiting for some i18n fixes per Ibf0e9b2d10de7f8f928f62355ecd8768f6315c3d
 
