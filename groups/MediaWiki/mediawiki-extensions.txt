@@ -3520,6 +3520,8 @@ Vue Test
 Wanted Pages From NS
 descmsg = wpfromns-desc
 
+Warn Not Recently Updated
+
 Watch Analytics
 aliasfile = WatchAnalytics/WatchAnalytics.alias.php
 magicfile = WatchAnalytics/WatchAnalytics.i18n.magic.php
