@@ -1696,6 +1696,9 @@ HTML Purifier
 
 HTML Tags
 
+HTML Templates
+magicfile = HTMLTemplates/HTMLTemplates.magic.php
+
 HTMLets
 
 I18n Tags
@@ -1729,7 +1732,7 @@ Import Office Files
 Import Users
 aliasfile = ImportUsers/ImportUsers.alias.php
 
-Incident Reporting
+# Incident Reporting // 2023-06-04: Still (?) dupe with a Github repo
 
 Inline Categorizer
 
