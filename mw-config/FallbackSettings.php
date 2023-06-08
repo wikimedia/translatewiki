@@ -175,6 +175,7 @@ $wgTranslateLanguageFallbacks['sly'] = [ 'id' ];
 $wgTranslateLanguageFallbacks['sma'] = [ 'sv', 'nb', 'se' ];
 $wgTranslateLanguageFallbacks['smj'] = [ 'nb' ];
 $wgTranslateLanguageFallbacks['smn'] = [ 'se', 'sms', 'sma' ];
+$wgTranslateLanguageFallbacks['sms'] = [ 'smn', 'fi', 'se' ];
 $wgTranslateLanguageFallbacks['sro'] = [ 'sc' ];
 $wgTranslateLanguageFallbacks['st'] = [ 'nso', 'tn', 'af' ];
 $wgTranslateLanguageFallbacks['swb'] = 'sw';
