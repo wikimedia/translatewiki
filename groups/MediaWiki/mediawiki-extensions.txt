@@ -632,6 +632,7 @@ file = BounceHandler/i18n/%CODE%.json
 
 Bulk Block
 aliasfile = BulkBlock/BulkBlockAlias.alias.php
+optional = bulkblock
 
 Bread Crumbs 2
 ignored = breadcrumbs
