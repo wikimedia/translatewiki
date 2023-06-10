@@ -2880,6 +2880,7 @@ optional = securepoll-header-url, securepoll-header-id, securepoll-header-trans-
 optional = securepoll-create-option-election_crypt-gpg
 optional = securepoll-stv-result-candidate-elected, securepoll-stv-result-candidate
 optional = securepoll-stv-result-votes-gain, securepoll-stv-result-votes-surplus
+optional = securepoll-vote-result-voted-option-label
 ignored = securepoll-custom-unqualified, securepoll-voter-name-remote, securepoll-voter-name-local
 ignored = securepoll-stv-result-votes-no-change
 
