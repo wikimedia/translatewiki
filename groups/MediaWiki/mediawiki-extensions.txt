@@ -3778,7 +3778,7 @@ file = WikimediaIncubator/i18n/core/%CODE%.json
 descmsg = wminc-desc
 ignored = wminc-error-help, wminc-fs-langselect-langs, wminc-fs-settings-image
 ignored = wminc-infopage-prefill, wminc-manual-url, wminc-infopage-links
-optional = wminc-searchwiki-goto
+optional = wminc-searchwiki-goto, wminc-title-element
 optional = group-test-sysop.css, group-test-sysop.js
 
 Wikimedia Incubator - onwiki
