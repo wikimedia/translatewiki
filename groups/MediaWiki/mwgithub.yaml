@@ -1395,6 +1395,8 @@ TAGS:
     - skinname-citizen
     - citizen.css
     - citizen.js
+  ignored:
+    - citizen-tagline
 
 ---
 BASIC:
