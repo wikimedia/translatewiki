@@ -25,6 +25,10 @@ BASIC:
 FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgerrit/data-values/value-view/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - valueview-expertextender-languageselector-languagetemplate
 ---
 BASIC:
   id: mwgerrit-oojs-ui
