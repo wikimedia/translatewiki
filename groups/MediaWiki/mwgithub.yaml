@@ -1894,6 +1894,10 @@ MANGLER:
   patterns:
     - "*"
 
+TAGS:
+  ignored:
+    - universalomega-blog-create-rules
+    - universalomega-blog-tagcloud-blacklist
 ---
 BASIC:
   id: mwgithub-mediawiki-simpletooltip
