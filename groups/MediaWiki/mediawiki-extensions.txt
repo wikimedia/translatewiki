@@ -883,6 +883,7 @@ id = ext-confirmedit-user
 file = ConfirmEdit/i18n/%CODE%.json
 aliasfile = ConfirmEdit/ConfirmEdit.alias.php
 descmsg = captcha-desc
+optional = captcha-label
 ignored = captcha-ip-whitelist
 
 Confirm Edit - API
