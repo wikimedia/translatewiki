@@ -3785,6 +3785,8 @@ optional = group-test-sysop.css, group-test-sysop.js
 
 Wikimedia Incubator - onwiki
 file = WikimediaIncubator/i18n/onwikimessages/%CODE%.json
+optional = wminc-infopage-language-iso1, wminc-infopage-language-iso3
+optional = wminc-infopage-language-glottolog
 
 Wikimedia Messages
 file = WikimediaMessages/i18n/wikimedia/%CODE%.json
