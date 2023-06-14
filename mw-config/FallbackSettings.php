@@ -90,6 +90,7 @@ $wgTranslateLanguageFallbacks['ike-cans'] = [ 'ale', 'ale-cyrl', 'esu', 'ik', 'i
 $wgTranslateLanguageFallbacks['ike-latn'] = [ 'ale', 'ale-cyrl', 'esu', 'ik', 'ike-cans', 'kl' ];
 $wgTranslateLanguageFallbacks['ish'] = [ 'yo', 'ig', 'ha' ];
 $wgTranslateLanguageFallbacks['jdt-cyrl'] = 'ru';
+$wgTranslateLanguageFallbacks['jje'] = 'ko';
 $wgTranslateLanguageFallbacks['jv'] = 'jv-java';
 $wgTranslateLanguageFallbacks['jv-java'] = [ 'jv', 'id' ];
 $wgTranslateLanguageFallbacks['kac'] = [ 'my' ];
