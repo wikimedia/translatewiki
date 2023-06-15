@@ -177,6 +177,8 @@ filehist
 wikibase-edit
 filehist-thumbtext
 toc
+vector-toc-label
+vector-toc-beginning
 newpages
 globalusage
 shown-title
