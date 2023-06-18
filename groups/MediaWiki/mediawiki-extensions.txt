@@ -652,6 +652,14 @@ Campaign Events - User interface
 id = ext-campaignevents-user
 aliasfile = CampaignEvents/CampaignEvents.alias.php
 optional = campaignevents-eventpage-header-dates
+optional = campaignevents-register-question-age-option-18-24
+optional = campaignevents-register-question-age-option-25-34
+optional = campaignevents-register-question-age-option-35-44
+optional = campaignevents-register-question-age-option-45-54
+optional = campaignevents-register-question-age-option-55-64
+optional = campaignevents-register-question-age-option-65-74
+optional = campaignevents-register-question-age-option-75-84
+optional = campaignevents-register-question-age-option-85-plus
 file = CampaignEvents/i18n/%CODE%.json
 
 Campaigns
