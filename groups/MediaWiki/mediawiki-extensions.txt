@@ -3692,6 +3692,7 @@ optional = wikibase-itemlink, wikibase-itemlink-id-wrapper, wikibase-itemlink-ti
 optional = wikibase-itemlink-userlang-wrapper
 optional = wikibase-mylanguagefallbackchain-verbatim-item
 optional = special-parameterized-description-separator
+optional = wikibase-description-not-applicable
 ignored = wikibase-property-footer
 ignored = wikibase-shortcopyrightwarning-version, wikibase-entitytermsview-entitytermsforlanguagelistview-configure-link
 ignored = wikibase-aliases-separator
