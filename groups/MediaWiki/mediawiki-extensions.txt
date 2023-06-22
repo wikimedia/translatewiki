@@ -772,10 +772,15 @@ Cite - User interface
 id = ext-cite-user
 file = Cite/i18n/%CODE%.json
 optional = cite_references_link_many_format_backlink_labels, cite_references_link_many_and
+optional = cite_reference_backlink_symbol
+optional = cite-wikieditor-help-content-reference-example-ref-id
 ignored = cite_reference_link_prefix, cite_references_link_prefix, cite_references_link_many_sep
 ignored = cite_reference_link_key_with_num, cite_reference_link, cite_reference_link_suffix
 ignored = cite_references_link_one, cite_references_link_many, cite_references_link_many_format
 ignored = cite_references_no_link, cite_references_link_suffix
+ignored = cite-wikieditor-help-content-reference-example-ref-normal, cite-wikieditor-help-content-reference-example-ref-named
+ignored = cite-wikieditor-help-content-reference-example-ref-reuse, cite-wikieditor-help-content-reference-example-reflist
+ignored = cite-wikieditor-help-content-reference-example-ref-result
 
 Cite - VisualEditor
 id = ext-cite-visualeditor
@@ -3599,12 +3604,10 @@ Wiki Article Feeds
 Wiki Category Tag Cloud
 
 Wiki Editor
-optional = wikieditor-toolbar-help-content-rereference-syntax
 optional = wikieditor-toolbar-tool-table-example-text
 ignored = wikieditor-toolbar-help-content-signaturetimestamp-syntax, wikieditor-toolbar-help-content-signature-syntax
 ignored = tag-wikieditor
 ignored = accesskey-wikieditor-realtimepreview
-ignored = wikieditor-toolbar-help-content-showreferences-syntax
 
 Wiki Forum
 ignored = wikiforum-day-definition-new, wikiforum-max-threads-per-page, wikiforum-max-replies-per-page
