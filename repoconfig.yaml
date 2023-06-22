@@ -1135,7 +1135,7 @@ wikimedia-misc-tools:
       url|export: git@github.com:wikimedia-gadgets/twinkle-core.git
     wikilearn:
       type: github
-      branch: master
+      branch: develop
       pull-branch: wm/localization
       url: https://github.com/wikimedia/edx-platform.git
       url|export: git@github.com:wikimedia/edx-platform.git
