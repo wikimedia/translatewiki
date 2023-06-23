@@ -3945,6 +3945,7 @@ WS OAuth
 X Analytics
 
 XenForo Auth
+optional = xenforoauth-auth-service-name
 
 XSL
 magicfile = XSL/XSLExtension.i18n.magic.php
