@@ -3623,6 +3623,7 @@ ignored = wikilambda-modeselector-functioncall, wikilambda-modeselector-json
 ignored = wikilambda-modeselector-argref, wikilambda-editor-clearitem
 ignored = wikilambda-updated-implementations-summary
 ignored = wikilambda-metadata-help-link, wikilambda-users-help-link
+ignored = wikilambda-bootstrapupdatingeditsummary
 optional = wikilambda-persistentzobject, wikilambda-zobjectselector-label
 optional = content-model-zobject
 optional = wikilambda-json
