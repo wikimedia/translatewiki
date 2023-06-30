@@ -149,6 +149,8 @@ TAGS:
     - site.copyright.legal_babble.infringement_2_1_takedown_procedure_url
     - site.copyright.legal_babble.infringement_2_1_online_filing_page_url
     - site.copyright.legal_babble.trademarks_1_1_trademark_policy_url
+    - site.copyright.legal_babble.contributors_rs_rgz_url
+    - site.copyright.legal_babble.contributors_rs_open_data_portal_url
     - time.formats.blog
     # Users may or may not want to translate the OSM wiki too
     - layouts.help_wiki_url
