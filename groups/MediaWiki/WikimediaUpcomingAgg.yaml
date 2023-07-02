@@ -10,7 +10,6 @@ BASIC:
 GROUPS:
   - ext-capiunto # wikidataclient-test
   - ext-chessbrowser # https://phabricator.wikimedia.org/rOMWCba8b786c7f3a290f0747a6859fd07502eb83108f
-  - ext-phonos # https://phabricator.wikimedia.org/rOMWC5b5eed00208ee50837c72154ee9e190435d2ab6f
   - ext-readinglists # Once in prod split into user and api - https://phabricator.wikimedia.org/rOMWC3e86ef7d8bab4cbfcca6be4ea32cd808d8915a63
   - ext-similareditors
   - ext-stopforumspam # https://phabricator.wikimedia.org/rOMWCf3de027936c615d7a310793d85a836350fcdc1df
