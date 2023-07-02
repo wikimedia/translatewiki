@@ -1110,7 +1110,7 @@ file = DonationInterface/amazon_gateway/i18n/%CODE%.json
 id = ext-di-ag
 descmsg = amazon_gateway-desc
 languages = +es-419
-ignored = apihelp-di_amazon_bill-description, apihelp-di_amazon_bill-summary, apihelp-di_amazon_bill-param-amount
+ignored = apihelp-di_amazon_bill-summary, apihelp-di_amazon_bill-param-amount
 ignored = apihelp-di_amazon_bill-param-billingAgreementId, apihelp-di_amazon_bill-param-currency, apihelp-di_amazon_bill-param-orderReferenceId
 ignored = apihelp-di_amazon_bill-param-recurring, apihelp-di_amazon_bill-param-wmf_token
 
