@@ -164,6 +164,8 @@ TAGS:
     - group-bureaucrat.js
     - group-sysop.css
     - group-sysop.js
+    - group-temp.css
+    - group-temp.js
     - group-user.css
     - group-user.js
     - hebrew-calendar-m1
