@@ -3512,7 +3512,7 @@ optional = visualeditor-dialog-media-info-ellipsis, visualeditor-dialog-media-in
 ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
 ignored = visualeditor-wikitext-warning-link, visualeditor-quick-access-characters.json
 ignored = visualeditor-preference-newwikitexteditor-discussion-link, visualeditor-preference-newwikitexteditor-info-link
-ignored = visualeditor-template-tools-definition.json, tag-editcheck-newcontent
+ignored = visualeditor-template-tools-definition.json
 ignored = apihelp-visualeditoredit-param-watchlist
 prefix = visualeditor-override- | tooltip-ca-edit
 
@@ -3531,7 +3531,7 @@ descmsg = visualeditor-desc
 file = VisualEditor/i18n/ve-wmf/%CODE%.json
 optional = visualeditor-help-link
 ignored = visualeditor-feedback-source-link, tag-editcheck-references
-ignored = tag-editcheck-newreference
+ignored = tag-editcheck-newreference, tag-editcheck-newcontent
 
 Vote NY
 aliasfile = VoteNY/includes/VoteNY.alias.php
