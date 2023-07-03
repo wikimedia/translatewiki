@@ -3607,6 +3607,8 @@ Wiki Category Tag Cloud
 Wiki Editor
 optional = wikieditor-toolbar-tool-table-example-text
 ignored = wikieditor-toolbar-help-content-signaturetimestamp-syntax, wikieditor-toolbar-help-content-signature-syntax
+ignored = wikieditor-toolbar-help-content-xlink-example1, wikieditor-toolbar-help-content-xlink-example2
+ignored = wikieditor-toolbar-help-content-xlink-example-url
 ignored = tag-wikieditor
 ignored = accesskey-wikieditor-realtimepreview
 
