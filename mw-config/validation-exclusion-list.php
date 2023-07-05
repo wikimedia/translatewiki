@@ -380,14 +380,6 @@ $validationExclusionList = [
 		]
 	],
 	[
-		'group' => 'ext-renameuser',
-		'check' => 'variable',
-		'message' => [
-			'renameuser-renamed-notice', // Optional GENDER parameter
-			'logentry-renameuser-renameuser-legacier', // Optional GENDER parameter
-		]
-	],
-	[
 		'group' => 'ext-survey',
 		'check' => 'variable',
 		'message' => [

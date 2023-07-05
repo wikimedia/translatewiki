@@ -10,7 +10,6 @@ BASIC:
 GROUPS:
   - ext-liquidthreads
   - ext-ores
-  - ext-renameuser # Being phased out, 2015
   - ext-shorturl # r108172
   - ext-wikimediaundeployedplaceholders # https://gerrit.wikimedia.org/r/c/mediawiki/extensions/WikimediaMessages/+/752150
   - mediawiki-skin-cologneblue
