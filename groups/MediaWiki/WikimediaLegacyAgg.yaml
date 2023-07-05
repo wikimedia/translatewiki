@@ -18,9 +18,9 @@ GROUPS:
   - ext-flaggedrevs-stablepages
   - ext-flaggedrevs-unreviewedpages
   - ext-flaggedrevs-validationstatistics
-  - ext-liquidthreads
-  - ext-ores
-  - ext-shorturl # r108172
+  - ext-liquidthreads # Installed on very few wikis and no longer installed on new ones
+  - ext-ores #  https://www.mediawiki.org/wiki/Topic:Wx1wkmwnerl0pwmj - no longer installed on new wikis
+  - ext-shorturl # No longer installed on new wikis, replaced with UrlShortener
   - ext-wikimediaundeployedplaceholders # https://gerrit.wikimedia.org/r/c/mediawiki/extensions/WikimediaMessages/+/752150
-  - mediawiki-skin-cologneblue
-  - mediawiki-skin-modern
+  - mediawiki-skin-cologneblue # Installed, but not updated and used by very few people
+  - mediawiki-skin-modern # Installed, but not updated and used by very few people
