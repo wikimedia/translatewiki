@@ -8,6 +8,16 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
+  # FlaggedRevs is no longer installed on new Wikimedia wikis
+  - ext-flaggedrevs-flaggedrevs
+  - ext-flaggedrevs-configuredpages
+  - ext-flaggedrevs-pendingchanges
+  - ext-flaggedrevs-qualityoversight
+  - ext-flaggedrevs-revisionreview
+  - ext-flaggedrevs-stabilization
+  - ext-flaggedrevs-stablepages
+  - ext-flaggedrevs-unreviewedpages
+  - ext-flaggedrevs-validationstatistics
   - ext-liquidthreads
   - ext-ores
   - ext-shorturl # r108172
