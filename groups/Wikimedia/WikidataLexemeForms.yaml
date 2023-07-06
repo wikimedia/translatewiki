@@ -30,7 +30,6 @@ FILES:
     sr-ec: sr
     tg-cyrl: tg
     ug-arab: ug
-    zh-hans: zh
 
 VALIDATORS:
   - id: MediaWikiParameter
