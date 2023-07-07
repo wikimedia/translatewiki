@@ -447,7 +447,7 @@ $validationExclusionList = [
 		'group' => 'ext-wikieditor',
 		'check' => 'links',
 		'message' => [
-			'wikieditor-toolbar-help-content-ilink-syntax', // Contains links that are translated
+			'wikieditor-toolbar-help-content-ilink-example', // Contains links that are translated
 			'wikieditor-toolbar-help-content-file-syntax', // Contains links that are translated
 		]
 	],
