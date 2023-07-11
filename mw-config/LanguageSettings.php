@@ -12,7 +12,6 @@ $wgExtraLanguageNames['apc'] = 'شامي'; # Levantine Arabic / Amir 2021-07-11;
 $wgExtraLanguageNames['aro'] = 'Araona'; # Araona / Siebrand 2010-08-25
 $wgExtraLanguageNames['atv'] = 'тÿндÿк алтай'; # Northern Altay / Amir 2020-06-07
 $wgExtraLanguageNames['bas'] = 'ɓasaá'; # Basaa / Amir 2021-03-30
-$wgExtraLanguageNames['bdr'] = 'Bajau Sama'; # Bajau Sama / Amir 2020-12-25
 $wgExtraLanguageNames['bfa'] = 'bari'; # Bari / Amir 2022-12-02
 $wgExtraLanguageNames['bft'] = 'بلتی'; # Balti / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['bfq'] = 'படகா'; # UBadaga / Siebrand 2009-11-19
