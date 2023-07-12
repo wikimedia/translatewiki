@@ -67,5 +67,8 @@ TAGS:
     - wikipedia-android-strings-notifications_tab_filter_unread
     - wikipedia-android-strings-privacy_policy_url
     - wikipedia-android-strings-terms_of_use_url
+    - wikipedia-android-strings-content_license_cc_by_sa
+    - wikipedia-android-strings-cc_by_sa_4_url
     - wikipedia-android-strings-wikidata_description_guide_url
+    - wikipedia-android-strings-cc_0_url
     - wikipedia-android-strings-description_starts_with_article
