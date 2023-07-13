@@ -3600,8 +3600,6 @@ optional = group-widgeteditor.css, group-widgeteditor.js
 WikEd Diff
 descmsg = wiked-diff-desc
 
-Wiki Article Feeds
-
 Wiki Category Tag Cloud
 
 Wiki Editor
