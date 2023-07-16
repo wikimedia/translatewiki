@@ -3813,7 +3813,6 @@ ignored = grouppage-global-sysop, grouppage-new-wikis-importer
 ignored = grouppage-ombuds, grouppage-recursive-export
 ignored = grouppage-steward, grouppage-sysadmin
 ignored = grouppage-wmf-researcher, grouppage-wmf-supportsafety
-ignored = grouppage-founder, grouppage-vrt-permissions
 ignored = wikinews-mobile-license-links, wikinews-mobile-license-links-ccby30
 ignored = wikifunctions-mobile-license-links
 ignored = ipinfo-global-contributions-url, ipinfo-xtools-url
