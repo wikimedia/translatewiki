@@ -22,6 +22,7 @@ $wgExtraLanguageNames['blc'] = 'ItNuxalkmc'; # Nuxalk / Amir 2020-06-22
 $wgExtraLanguageNames['bnn'] = 'bunun'; # Bunun / Amir 2022-07-20
 $wgExtraLanguageNames['bom'] = 'bèrom'; # Berom / Eugene Wang'ombe 2022-12-01
 $wgExtraLanguageNames['brx'] = 'बर\''; # Boro / Siebrand 2017-05-20
+$wgExtraLanguageNames['bug-bugi'] = 'ᨅᨔ ᨕᨘᨁᨗ'; # Buginese (Lontara script) / Amir 2023-07-16
 $wgExtraLanguageNames['bum'] = 'bulu'; # Bulu / Amir 2022-02-19
 $wgExtraLanguageNames['bwr'] = 'bura'; # Bura / Amir 2022-06-11
 $wgExtraLanguageNames['bzj'] = 'Bileez Kriol'; # Belizean Creole / Amir 2021-03-29
