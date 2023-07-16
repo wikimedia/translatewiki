@@ -3106,10 +3106,6 @@ Sports Teams
 aliasfile = SportsTeams/includes/SportsTeams.alias.php
 optional = sportsteams-network-alt-logo
 
-SSL Client Authentication
-aliasfile = SSLClientAuthentication/ClientSSLAuth.alias.php
-descmsg = sslauth-desc
-
 # Staff Edits // Shoutwiki specific extesion
 
 # Staff Powers // Shoutwiki specific extesion
