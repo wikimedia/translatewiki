@@ -210,7 +210,7 @@ file = BetaFeatures/i18n/api/%CODE%.json
 Biblio Plus
 
 Block Inactive
-aliasfile = BlockAndNuke/includes/BlockInactive.alias.php
+aliasfile = BlockInactive/includes/BlockInactive.alias.php
 
 Blog Page
 aliasfile = BlogPage/includes/BlogPage.alias.php
@@ -377,7 +377,7 @@ descmsg = bs-filterabletables-extension-description
 
 Blue Spice Flagged Revs Connector
 descmsg = bs-flaggedrevsconnector-extension-description
-aliasfile = BlueSpiceFlaggedRevsConnector/languagesSpecialQMOverview.alias.php
+aliasfile = BlueSpiceFlaggedRevsConnector/languages/SpecialQMOverview.alias.php
 ignored = bs-flaggedrevsconnector-pipe-separator
 
 Blue Spice Group Manager
@@ -997,6 +997,7 @@ optional = apihelp-createapage-upload-param-wpInFix
 
 Create Page
 aliasfile = CreatePage/CreatePage.alias.php
+magicfile = CreatePage/CreatePage.magic.php
 descmsg = cp-desc
 
 # Create Page Uw // incomplete i18n, message key dupe with CreatePage extension
@@ -2364,7 +2365,6 @@ aliasfile = OpenBadges/OpenBadges.i18n.alias.php
 # optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
 
 Open ID Connect
-aliasfile = OpenIDConnect/i18n/SelectOpenIDConnectIssuer.alias.php
 
 Open Js Cad
 
@@ -3565,7 +3565,6 @@ Web Chat
 aliasfile = WebChat/WebChat.alias.php
 
 Web DAV
-aliasfile = WebDAV/languages/WebDAV.alias.php
 optional = prefs-webdav
 
 # Web DAV Client Integration // 2019-04-14: Empty repo
