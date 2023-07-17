@@ -2908,8 +2908,6 @@ descmsg = sacl-desc
 
 Semantic Bundle
 
-Semantic Dependency
-
 # Semantic Forms Inputs // Read only
 
 Semantic Genealogy
