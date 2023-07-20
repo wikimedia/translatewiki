@@ -734,6 +734,9 @@ FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/jeblad/BCmath/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - bcmath-payload-counter
 ---
 BASIC:
   id: mwgithub-pickle
