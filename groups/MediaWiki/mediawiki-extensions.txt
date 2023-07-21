@@ -3620,7 +3620,6 @@ ignored = wikilambda-bootstrapupdatingeditsummary
 optional = wikilambda-persistentzobject, wikilambda-zobjectselector-label
 optional = content-model-zobject
 optional = wikilambda-json
-optional = wikilambda-zobject-title
 id = ext-wikilambda-user
 file = WikiLambda/i18n/%CODE%.json
 
