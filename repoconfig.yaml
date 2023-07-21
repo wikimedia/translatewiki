@@ -286,6 +286,7 @@ lib.reviews:
   repos:
     lib.reviews:
       type: github
+      branch: main
       url: https://github.com/eloquence/lib.reviews.git
       url|export: git@github.com:eloquence/lib.reviews.git
 
