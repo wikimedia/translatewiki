@@ -102,6 +102,7 @@ $wgExtraLanguageNames['ovd'] = 'övdalsk'; # Övdalian / Siebrand 2017-05-20
 $wgExtraLanguageNames['pap-aw'] = 'Papiamento'; # Aruba Papiamento / Amir 2021-02-25
 $wgExtraLanguageNames['pbb'] = 'Nasa Yuwe'; # Páez / Siebrand 2013-08-08
 $wgExtraLanguageNames['pis'] = 'Pijin'; # Pijin / Siebrand 2011-08-25
+$wgExtraLanguageNames['piu'] = 'Pintupi-Luritja'; # Pijin / Amir 2023-07-22
 $wgExtraLanguageNames['pko'] = 'Pökoot'; # Pökoot
 $wgExtraLanguageNames['pov'] = 'guinensi'; # Guinea-Bissau Creole / Amir 2019-05-17
 $wgExtraLanguageNames['ppl'] = 'Nawat'; # Pipil / Siebrand 2011-08-30
