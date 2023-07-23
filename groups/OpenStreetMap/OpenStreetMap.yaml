@@ -82,7 +82,6 @@ TAGS:
     - errors.contact.contact_url
     - changeset.changeset.id
     - geocoder.search_osm_nominatim.prefix_format
-    - geocoder.search osm nominatim.prefix other
     - geocoder.search_osm_namefinder.suffix_suburb
     - geocoder.search_osm_nominatim.prefix_other
     - geocoder.search_osm_twain.prefix_other
@@ -165,8 +164,6 @@ TAGS:
     - traces.index.wiki_page_url
     - traces.new.visibility_help_url
     - traces.new.help_url
-    - user.account.public_editing.enabled_link
-    - user.account.contributor terms.link
     - profiles.edit.gravatar.link
     - user_mailer.gpx_failure.import_failures_url
     - users.new.privacy_policy_url
