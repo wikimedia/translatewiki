@@ -743,7 +743,7 @@ id = ext-checkuser-user
 file = CheckUser/i18n/%CODE%.json
 aliasfile = CheckUser/CheckUser.alias.php
 ignored = checkuser-toollinks, checkuser-userlinks-ip, checkuser-investigate-compare-toollinks
-ignored = checkuser-cidr-tool-links, logentry-checkuser-private-event-migrated-cu changes-log-event
+ignored = checkuser-cidr-tool-links, logentry-checkuser-private-event-migrated-cu_changes-log-event
 optional = group-checkuser.css, group-checkuser.js
 optional = checkuser-investigate-compare-toollinks-whois
 
