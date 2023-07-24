@@ -220,6 +220,7 @@ require_once __DIR__ . '/ExtensionSettings.php';
 require_once "$EXT/Translate/utils/lc.php";
 require_once __DIR__ . '/TranslateSettings.php';
 require_once __DIR__ . '/nikext.php';
+require_once __DIR__ . '/NewUserMessageJob.php';
 
 /**
  * Dynamic code starts here
@@ -287,4 +288,9 @@ $wgResourceModules['twn.jserrorlog'] = [
 
 $wgHooks['BeforePageDisplay'][] = static function ( $out ) {
 	$out->addModules( 'twn.jserrorlog' );
+};
+
+$wgHooks['Translate:TranslatorSandbox:UserPromoted'][] = static function ( User $user ) {
+	MediaWikiServices::getInstance()
+		->getJobQueueGroup()->push( new NewUserMessageJob( [ 'userId' => $user->getId() ] ) );
 };
