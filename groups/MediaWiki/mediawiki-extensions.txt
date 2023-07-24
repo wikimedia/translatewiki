@@ -3692,6 +3692,7 @@ optional = wikibase-description-not-applicable
 ignored = wikibase-property-footer
 ignored = wikibase-shortcopyrightwarning-version, wikibase-entitytermsview-entitytermsforlanguagelistview-configure-link
 ignored = wikibase-aliases-separator
+ignored = wikibase-description-helppage, wikibase-label-helppage
 
 Wikibase - Repo - API
 file = Wikibase/repo/i18n/api/%CODE%.json
