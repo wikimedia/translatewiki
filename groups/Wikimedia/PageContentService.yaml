@@ -12,6 +12,7 @@ FILES:
 TAGS:
   optional:
     - pagecontentservice-license-footer-name
+    - pagecontentservice-license-footer-name-cc4
 
 VALIDATORS:
   - id: BraceBalance
