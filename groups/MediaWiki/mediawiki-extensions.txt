@@ -3617,7 +3617,6 @@ ignored = wikilambda-modeselector-argref, wikilambda-editor-clearitem
 ignored = wikilambda-updated-implementations-summary
 ignored = wikilambda-metadata-help-link, wikilambda-users-help-link
 ignored = wikilambda-bootstrapupdatingeditsummary
-optional = wikilambda-zobjectselector-label
 optional = wikilambda-json
 id = ext-wikilambda-user
 file = WikiLambda/i18n/%CODE%.json
