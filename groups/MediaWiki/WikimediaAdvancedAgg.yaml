@@ -101,6 +101,7 @@ GROUPS:
   - ext-wikibaselexemecirrussearch
   - ext-wikibasequalityconstraints-user
   - ext-wikidatapagebanner # Iea8b9c1669fa271dcad13f4d5f6de8e8fcafe0d7
+  - ext-wikilambda-user
   - ext-wikilove-user
   - ext-wikihiero
   - ext-wikimediacodeofconduct
