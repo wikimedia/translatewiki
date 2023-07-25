@@ -78,6 +78,12 @@ $wgTranslateTranslationServices['Apertium WMF'] = [
 	'timeout' => 3,
 ];
 
+$wgTranslateTranslationServices['MinT'] = [
+	'type' => 'mint',
+	'host' => 'https://cxserver.wikimedia.org',
+	'timeout' => 3,
+];
+
 wfLoadExtension( 'ParserFunctions' );
 $wgPFEnableStringFunctions = true;
 
