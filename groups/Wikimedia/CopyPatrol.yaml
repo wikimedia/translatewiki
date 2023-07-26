@@ -15,7 +15,7 @@ MANGLER:
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/copypatrol/public_html/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/copypatrol/i18n/%CODE%.json"
 
 VALIDATORS:
   - id: NumericalParameter
