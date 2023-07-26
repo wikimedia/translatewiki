@@ -24,3 +24,5 @@ VALIDATORS:
 TAGS:
   optional:
     - copypatrol-name
+    - copypatrol-footer-commtech
+    - copypatrol-phabricator
