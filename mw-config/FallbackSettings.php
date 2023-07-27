@@ -35,6 +35,7 @@ $wgTranslateLanguageFallbacks['bkm'] = 'fr';
 $wgTranslateLanguageFallbacks['bm'] = 'nqo';
 $wgTranslateLanguageFallbacks['bnn'] = [ 'zh-hant' ];
 $wgTranslateLanguageFallbacks['bo'] = [ 'dz', 'zh-hans' ];
+$wgTranslateLanguageFallbacks['bol'] = [ 'ha' ];
 $wgTranslateLanguageFallbacks['bom'] = [ 'ha', 'ig', 'yo' ];
 $wgTranslateLanguageFallbacks['bug-bugi'] = [ 'bug', 'mak', 'mak-bugi', 'id' ];
 $wgTranslateLanguageFallbacks['bum'] = [ 'fr' ];
