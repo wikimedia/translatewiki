@@ -66,6 +66,7 @@ $wgExtraLanguageNames['jdt-cyrl'] = 'жугьури'; # Judeo-Tat / Siebrand 201
 $wgExtraLanguageNames['jje'] = '제주말'; # Jeju / Amir 2023-06-14
 $wgExtraLanguageNames['jv-java'] = 'ꦗꦮ'; # Javanese (Javanese script) / Amir 2022-10-29
 $wgExtraLanguageNames['kac'] = 'Jinghpaw'; # Jingpho / Siebrand 2014-04-08
+$wgExtraLanguageNames['kai'] = 'Karai-karai'; # Karekare / Amir 2023-07-27
 $wgExtraLanguageNames['kbd-latn'] = 'Qabardjajəbza'; # Kabardian (Latin script) / Siebrand 2010-02-21
 $wgExtraLanguageNames['kck'] = 'tjikalanga'; # Kalanga / Amir 2022-07-18
 $wgExtraLanguageNames['ken'] = 'kɛ́nyáŋ'; # Kenyang / Jon Harald Søby 2022-02-03
