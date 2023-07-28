@@ -72,6 +72,7 @@ TAGS:
     - accounts.edit.contributor terms.link
     - accounts.go_public.find_out_why_html
     - accounts.go_public.find_out_why_url
+    - auth.providers.windowslive
     - browse.navigation.paging.all.next
     - browse.navigation.paging.all.prev
     - browse.navigation.paging.user.next
@@ -84,6 +85,8 @@ TAGS:
     - geocoder.search_osm_nominatim.prefix_format
     - geocoder.search_osm_namefinder.suffix_suburb
     - geocoder.search_osm_nominatim.prefix_other
+    - geocoder.search.title.osm_nominatim
+    - geocoder.search.title.osm nominatim_reverse
     - geocoder.search_osm_twain.prefix_other
     - geocoder.search.title.osm_nominatim_reverse_url
     - geocoder.search.title.osm_nominatim_url
@@ -116,6 +119,7 @@ TAGS:
     - site.potlatch.download_url
     - site.welcome.rules.imports_url
     - site.welcome.rules.automated_edits_url
+    - site.copyright.legal_babble.contributors_es_ign
     - site.copyright.legal_babble.introduction_1_registered_trademark_html
     - site.copyright.legal_babble.introduction_1_odc_odbl_url
     - site.copyright.legal_babble.introduction_1_osm_foundation_url
