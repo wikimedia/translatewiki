@@ -2612,6 +2612,7 @@ PGF TikZ
 Phab Task Graph
 aliasfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.alias.php
 magicfile = PhabTaskGraph/i18n/PhabTaskGraph.i18n.magic.php
+optional = phabtaskgraph
 
 Phonos
 id = ext-phonos
