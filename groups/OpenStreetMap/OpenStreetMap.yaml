@@ -66,7 +66,6 @@ INSERTABLES:
 
 TAGS:
   optional:
-    - html.dir
     - accounts.edit.openid.link
     - accounts.edit.public editing.enabled link
     - accounts.edit.contributor terms.link
