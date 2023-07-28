@@ -85,7 +85,7 @@ TAGS:
     - geocoder.search_osm_namefinder.suffix_suburb
     - geocoder.search_osm_nominatim.prefix_other
     - geocoder.search.title.osm_nominatim
-    - geocoder.search.title.osm nominatim_reverse
+    - geocoder.search.title.osm_nominatim_reverse
     - geocoder.search_osm_twain.prefix_other
     - geocoder.search.title.osm_nominatim_reverse_url
     - geocoder.search.title.osm_nominatim_url
