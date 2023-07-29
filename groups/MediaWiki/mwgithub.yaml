@@ -1144,6 +1144,10 @@ FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/SpriteSheet/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - spritesheet
+
 ---
 BASIC:
   id: mwgithub-wikidiscover
