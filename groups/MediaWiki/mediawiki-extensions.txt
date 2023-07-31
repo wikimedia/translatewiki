@@ -1334,7 +1334,7 @@ optional = group-reviewer.css, group-reviewer.js
 optional = group-autoreview.css, group-autoreview.js
 optional = flaggedrevs
 ignored = revreview-ak-review, accesskey-ca-current, accesskey-ca-stable
-ignored = flaggedrevs-stable-categories, flaggedrevs-diffonly
+ignored = flaggedrevs-stable-categories
 
 Flagged Revisions - API
 id = ext-flaggedrevs-api
