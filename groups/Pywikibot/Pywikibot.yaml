@@ -25,6 +25,7 @@ TEMPLATE:
       tg-cyrl: tg
       tt-cyrl: tt
       ug-arab: ug
+      yue-hant: yue
       zh-hans: zh
 
   VALIDATORS:
