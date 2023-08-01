@@ -135,7 +135,6 @@ TAGS:
     - brackets-start
     - category-header-numerals
     - categoryviewer-pagedlinks
-    # @deprecated. Remove in MediaWiki 1.23.
     - changed
     - cologneblue.css
     - cologneblue.js
@@ -143,7 +142,6 @@ TAGS:
     - comma-separator
     - common.css
     - common.js
-    # @deprecated. Remove in MediaWiki 1.23.
     - content-model-css
     - content-model-javascript
     - content-model-json
