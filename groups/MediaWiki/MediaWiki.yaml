@@ -355,8 +355,11 @@ TAGS:
   ignored:
     - accesskey-blockip-block
     - accesskey-ca-addsection
+    - accesskey-ca-create
+    - accesskey-ca-create-local
     - accesskey-ca-delete
     - accesskey-ca-edit
+    - accesskey-ca-edit-local
     - accesskey-ca-history
     - accesskey-ca-move
     - accesskey-ca-nstab
@@ -375,6 +378,8 @@ TAGS:
     - accesskey-ca-undelete
     - accesskey-ca-unprotect
     - accesskey-ca-unwatch
+    - accesskey-ca-unwatch-expiring
+    - accesskey-ca-unwatch-expiring-hours
     - accesskey-ca-view
     - accesskey-ca-viewsource
     - accesskey-ca-watch
