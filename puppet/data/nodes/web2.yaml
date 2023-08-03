@@ -33,8 +33,8 @@ opendkim::keys:
         dhtcWIgupyPDdDeXhlYKkfK4gg4N8PRvNiWJzijZZb3whZmlbod4giZgyrd9b+gJzcjIY9H
         d+XMHxBEB83W0eUUBSSyu6rrybjYdm1pLaTor001eVOrGk6jXRVVRTSh8odTlTZtls4MGGP
         d5s9S7m4sc4LQzbgaQc7ffJWHDVBqcy3wIDAQAB
-      privatekey: "%{alias('secret_opendkim_privatekey')}" 
-      signingdomains: 
+      privatekey: "%{alias('secret_opendkim_privatekey')}"
+      signingdomains:
           - '*@translatewiki.net'
 
 keyholder::agent:
@@ -121,6 +121,11 @@ users::users:
     groups: [ betawiki, www-shared ]
     purge_ssh_keys: true
     comment: Eugene Wang'ombe
+  jhsoby:
+    uid: 1028
+    groups: [ betawiki, www-shared ]
+    purge_ssh_keys: true
+    comment: Jon Harald Søby
 
 users::ssh_keys:
   ed25519-key-20171129 siebrand@kitano.nl:
@@ -155,4 +160,8 @@ users::ssh_keys:
     user: wangombe
     type: ssh-ed25519
     key: AAAAC3NzaC1lZDI1NTE5AAAAIOOWKWYUehIRyxknPWNchwPrsp2ULPyyO0/todKhOGN/
+  jhsoby@gmail.com:
+    user: jhsoby
+    type: ssh-ed25519
+    key: AAAAC3NzaC1lZDI1NTE5AAAAIJOz6jgZglq817GzRl6i2VLCLArpw1aRRe5ILNj0D1fT
 
