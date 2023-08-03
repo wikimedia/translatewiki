@@ -3496,30 +3496,33 @@ Viki Title Icon
 Vips Scaler
 aliasfile = VipsScaler/VipsScaler.alias.php
 
-VisualEditor (MediaWiki extension)
+Visual Editor (MediaWiki extension)
 id = ext-visualeditor-ve-mw
 descmsg = visualeditor-desc
 file = VisualEditor/i18n/ve-mw/%CODE%.json
 optional = visualeditor-preference-core-discussion-link, visualeditor-preference-core-info-link
 optional = visualeditor-dialog-media-dimensionseparator
 optional = visualeditor-dialog-media-info-ellipsis, visualeditor-dialog-media-info-separator
-ignored = accesskey-ca-ve-edit, accesskey-ca-editsource
+ignored = accesskey-ca-ve-edit, accesskey-ca-ve-edit-local
+ignored = accesskey-ca-editsource, accesskey-ca-editsource-local
+ignored = accesskey-ca-ve-create, accesskey-ca-ve-create-local
+ignored = accesskey-ca-createsource, accesskey-ca-createsource-local
 ignored = visualeditor-wikitext-warning-link, visualeditor-quick-access-characters.json
 ignored = visualeditor-preference-newwikitexteditor-discussion-link, visualeditor-preference-newwikitexteditor-info-link
 ignored = visualeditor-template-tools-definition.json
 ignored = apihelp-visualeditoredit-param-watchlist
 prefix = visualeditor-override- | tooltip-ca-edit
 
-VisualEditor (MediaWiki extension) - API
+Visual Editor (MediaWiki extension) - API
 id = ext-visualeditor-ve-mw-api
 file = VisualEditor/i18n/ve-mw/api/%CODE%.json
 ignored = apihelp-visualeditoredit-param-watchlist
 
-VisualEditor (MediaWiki extension) - Language Variants
+Visual Editor (MediaWiki extension) - Language Variants
 id = ext-visualeditor-ve-mw-languagevariants
 file = VisualEditor/i18n/ve-mw/mwlanguagevariant/%CODE%.json
 
-VisualEditor (WMF)
+Visual Editor (WMF)
 id = ext-visualeditor-ve-wmf
 descmsg = visualeditor-desc
 file = VisualEditor/i18n/ve-wmf/%CODE%.json
