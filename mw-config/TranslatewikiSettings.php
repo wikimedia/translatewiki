@@ -290,6 +290,7 @@ $wgHooks['BeforePageDisplay'][] = static function ( $out ) {
 	$out->addModules( 'twn.jserrorlog' );
 };
 
+$wgJobClasses['NewUserMessageJob'] = NewUserMessageJob::class;
 $wgHooks['Translate:TranslatorSandbox:UserPromoted'][] = static function ( User $user ) {
 	\MediaWiki\MediaWikiServices::getInstance()
 		->getJobQueueGroup()->push( new NewUserMessageJob( [ 'userId' => $user->getId() ] ) );
