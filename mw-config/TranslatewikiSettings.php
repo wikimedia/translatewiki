@@ -291,6 +291,6 @@ $wgHooks['BeforePageDisplay'][] = static function ( $out ) {
 };
 
 $wgHooks['Translate:TranslatorSandbox:UserPromoted'][] = static function ( User $user ) {
-	MediaWikiServices::getInstance()
+	\MediaWiki\MediaWikiServices::getInstance()
 		->getJobQueueGroup()->push( new NewUserMessageJob( [ 'userId' => $user->getId() ] ) );
 };
