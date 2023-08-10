@@ -71,7 +71,7 @@ class NewUserMessageJob extends Job implements GenericParameterJob {
 
 			$text = sprintf( self::TEMPLATE_WELCOME, $name );
 			$signature = self::SYSTEM_USER;
-			$text =	"$text\n\n-- $signature  ~~~~~\n";
+			$text =	"$text\n\n-- [[User:$signature|$signature]]  ~~~~~\n";
 
 			$wikiPage = $this->wikiPageFactory->newFromTitle( $talkPage );
 			$content = ContentHandler::makeContent( $text, $wikiPage->getTitle() );
