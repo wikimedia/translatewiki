@@ -1328,7 +1328,6 @@ file = FlaggedRevs/i18n/flaggedrevs/%CODE%.json
 descmsg = flaggedrevs-desc
 aliasfile = FlaggedRevs/frontend/language/FlaggedRevs.alias.php
 magicfile = FlaggedRevs/frontend/language/FlaggedRevs.i18n.magic.php
-optional = revreview-toggle-show, revreview-toggle-hide
 optional = group-editor.css, group-editor.js
 optional = group-reviewer.css, group-reviewer.js
 optional = group-autoreview.css, group-autoreview.js
