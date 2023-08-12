@@ -1553,6 +1553,19 @@ TAGS:
   optional:
     - embedvideo-video-short-desc
     - embedvideo-audio-short-desc
+    - embedvideo-service-archiveorg
+    - embedvideo-service-bilibili
+    - embedvideo-service-dailymotion
+    - embedvideo-service-kakaotv
+    - embedvideo-service-loom
+    - embedvideo-service-navertv
+    - embedvideo-service-niconico
+    - embedvideo-service-soundcloud
+    - embedvideo-service-sharepoint
+    - embedvideo-service-spotify
+    - embedvideo-service-twitch
+    - embedvideo-service-vimeo
+    - embedvideo-service-youtube
 
 ---
 BASIC:
