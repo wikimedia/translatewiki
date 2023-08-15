@@ -2045,6 +2045,7 @@ file = Math/i18n/api/%CODE%.json
 
 Math Search
 aliasfile = MathSearch/MathSearch.alias.php
+optional = math-lp-*
 
 Media Functions
 
