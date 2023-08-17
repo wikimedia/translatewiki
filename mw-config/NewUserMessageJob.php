@@ -70,8 +70,7 @@ class NewUserMessageJob extends Job implements GenericParameterJob {
 			$editor = $this->fetchEditor();
 
 			$text = sprintf( self::TEMPLATE_WELCOME, $name );
-			$signature = self::SYSTEM_USER;
-			$text =	"$text\n\n-- [[User:$signature|$signature]]  ~~~~~\n";
+			$text =	"$text\n\n-- ~~~~\n";
 
 			$wikiPage = $this->wikiPageFactory->newFromTitle( $talkPage );
 			$content = ContentHandler::makeContent( $text, $wikiPage->getTitle() );
