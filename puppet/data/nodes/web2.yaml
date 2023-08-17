@@ -88,6 +88,7 @@ users::users:
   mah:
     uid: 1006
     comment: Mark Hershberger
+    ensure: absent
   amir:
     uid: 1011
     groups: [ betawiki, www-shared, l10n-bot ]
@@ -160,4 +161,3 @@ users::ssh_keys:
     user: jhsoby
     type: ssh-ed25519
     key: AAAAC3NzaC1lZDI1NTE5AAAAIJOz6jgZglq817GzRl6i2VLCLArpw1aRRe5ILNj0D1fT
-
