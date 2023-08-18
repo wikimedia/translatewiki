@@ -43,7 +43,6 @@ class CommitCommand extends Command {
 		$filter = $input->getOption( 'filter' );
 		$config = $this->getConfig( $project, $variant );
 		$backportBranch = $input->getOption( 'backport-branch' );
-		$message = self::MESSAGE;
 		$base = $this->getBase();
 
 		$processes = new SplObjectStorage();
@@ -51,6 +50,12 @@ class CommitCommand extends Command {
 		foreach ( $config['repos'] as $name => $repo ) {
 			if ( $filter !== null && !fnmatch( $filter, $name ) ) {
 				continue;
+			}
+
+			$message = self::MESSAGE;
+
+			if ( isset( $repo['commit-message-suffix'] ) ) {
+				$message .= ' ' . $repo['commit-message-suffix'];
 			}
 
 			$type = $repo['type'];

@@ -315,6 +315,7 @@ mantis:
       type: github
       url: https://github.com/mantisbt/mantisbt.git
       url|export: git@github.com:mantisbt/mantisbt.git
+      commit-message-suffix: "[skip ci]"
 
 mathjax:
   group: out-mathjax-*
