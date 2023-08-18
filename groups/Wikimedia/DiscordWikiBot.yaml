@@ -18,6 +18,7 @@ MANGLER:
 TAGS:
   optional:
     - discordwikibot-bullet
+    - discordwikibot-comma
     - discordwikibot-separator
 
 VALIDATORS:
@@ -31,3 +32,7 @@ VALIDATORS:
   - id: SmartFormatPlural
     insertable: true
     enforce: true
+
+LANGUAGES:
+  exclude:
+    - en-gb
