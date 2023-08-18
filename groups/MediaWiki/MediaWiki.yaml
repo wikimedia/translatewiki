@@ -78,7 +78,6 @@ TEMPLATE:
         - watchlist-expiry-options
     - id: NotEmpty
 
-
   INSERTABLES:
     - class: MediaWikiInsertablesSuggester
     - class: UrlInsertablesSuggester
@@ -89,6 +88,7 @@ BASIC:
   label: MediaWiki
   meta: yes
   class: AggregateMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawiki/en}}"
 
 GROUPS:
   - core
