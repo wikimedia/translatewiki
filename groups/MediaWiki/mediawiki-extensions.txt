@@ -3882,10 +3882,6 @@ optional = wikimedia-centralauth-uwbr-registration-nodate
 
 Wikimedia Project Names
 file = WikimediaMessages/i18n/wikimediaprojectnames/%CODE%.json
-optional = project-localized-name-group-wikipedia, project-localized-name-group-wiktionary
-optional = project-localized-name-group-wikibooks, project-localized-name-group-wikiquote
-optional = project-localized-name-group-wikivoyage, project-localized-name-group-wikisource
-optional = project-localized-name-group-wikinews, project-localized-name-group-wikiversity
 
 Wikimedia Temporary Messages
 file = WikimediaMessages/i18n/temporary/%CODE%.json
