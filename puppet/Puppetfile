@@ -2,9 +2,9 @@ forge "https://forgeapi.puppetlabs.com"
 
 mod 'camptocamp-systemd', '3.0.0'
 mod 'lvicainne/opendkim', '0.2.9'
-mod 'puppet-elasticsearch', '8.0.2'
-mod 'puppet-elastic_stack', '8.0.0'
-mod 'puppet-kibana', '7.0.0'
+mod 'puppet-elasticsearch', '8.1.0'
+mod 'puppet-elastic_stack', '8.0.2'
+mod 'puppet-kibana', '7.0.1'
 mod 'puppet-letsencrypt', '6.0.0'
 mod 'puppet-postfix', '3.0.0'
 mod 'puppetlabs-firewall', '3.2.0'
