@@ -5,5 +5,5 @@ $CONF = '<%= @config_dir %>';
 $IP = __DIR__;
 
 $wgSecretKey = file_get_contents( "$IP/../secretkey" );
-require_once "$CONF/<%= @mediawiki_config %>";
+require_once "$CONF/mw-config/<%= @mediawiki_config %>";
 require_once "$IP/../CustomSettings.php";
