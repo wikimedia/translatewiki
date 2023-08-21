@@ -85,10 +85,6 @@ users::users:
     uid: 1005
     groups: [ betawiki, www-shared, l10n-bot ]
     comment: Raimond Spekking
-  mah:
-    uid: 1006
-    comment: Mark Hershberger
-    ensure: absent
   amir:
     uid: 1011
     groups: [ betawiki, www-shared, l10n-bot ]
