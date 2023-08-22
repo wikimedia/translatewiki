@@ -30,7 +30,7 @@ class nginx::ssl {
     plugin               => 'webroot',
     manage_cron          => true,
     cron_success_command => 'systemctl reload nginx.service',
-    suppress_cron_output => true,
+    cron_output          => 'suppress',
     domains              => [
       'translatewiki.net',
       'translatewiki.org',
