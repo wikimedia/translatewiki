@@ -5,6 +5,11 @@ map $cookie_env $env {
 	x       x;
 }
 
+map $http_accept $webp {
+    default     "";
+    ~image/webp .webp;
+}
+
 server {
 	listen 80 default_server;
 	listen [2a03:4000:39:55d:5400:a2ff:fe21:b3ea]:80;
@@ -20,8 +25,6 @@ server {
 
 	server_name translatewiki.net;
 	root /www/$host/docroot;
-
-	add_header Referrer-Policy strict-origin-when-cross-origin;
 
 	rewrite ^/$ /$env/index.php;
 	rewrite ^/wiki /$env/index.php;
@@ -56,15 +59,14 @@ server {
 		deny all;
 	}
 
-	location ~* ^/static/mainpage/.*\.jpg$ {
-		expires 2M;
-		if ($http_accept ~ "image/webp") {
-			add_header Vary Accept;
-			rewrite ^ $uri.webp;
-		}
-	}
+    location ~* ^/static/mainpage/.*\.jpg$ {
+        expires 2M;
+        // Note: all other add_header calls are ignored. There is one in ssl.conf that is not mandatory
+        add_header Vary Accept;
+        try_files $uri$webp $uri =404;
+    }
 
-	location ~* \.(png|jpg|jpeg|gif|ico|svg|woff|woff2|eot|ttf|webp)$ {
+	location ~* \.(png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|webp)$ {
 		expires 2M;
 	}
 

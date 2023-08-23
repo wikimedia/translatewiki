@@ -13,8 +13,6 @@ server {
 
 	include includes/ssl-selfsigned.conf;
 
-	add_header Referrer-Policy strict-origin-when-cross-origin;
-
 	location = / {
 		rewrite ^ /w/index.php;
 	}
