@@ -7,6 +7,9 @@ BRANCH=${3:-master}
 COMMIT=${4:-origin/$BRANCH}
 FORGE=${5:-none}
 
+# Avoid getting stuck waiting for user input
+export GIT_TERMINAL_PROMPT=0
+
 # On URL change, start from scratch
 if [ -d "$DIR/.git" ]
 then (

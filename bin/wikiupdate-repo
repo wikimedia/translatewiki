@@ -1,6 +1,9 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
+# Avoid getting stuck waiting for user input
+export GIT_TERMINAL_PROMPT=0
+
 cd "$1"
 if ! OUTPUT=$(git fetch --quiet 2>&1 >&-); then
 	CODE=$?
