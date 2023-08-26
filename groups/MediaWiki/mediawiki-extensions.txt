@@ -3019,7 +3019,6 @@ id = ext-socialprofile-systemgifts
 aliasfile = SocialProfile/SystemGifts/includes/SystemGifts.alias.php
 file = SocialProfile/SystemGifts/i18n/%CODE%.json
 descmsg = systemgifts-desc
-optional = ga-gift-title
 
 Social Profile - User Activity
 id = ext-socialprofile-useractivity
