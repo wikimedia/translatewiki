@@ -3450,6 +3450,7 @@ file = VisualEditor/i18n/ve-wmf/%CODE%.json
 optional = visualeditor-help-link
 ignored = visualeditor-feedback-source-link, tag-editcheck-references
 ignored = tag-editcheck-newreference, tag-editcheck-newcontent
+ignored = tag-editcheck-references-activated
 
 Vote NY
 aliasfile = VoteNY/includes/VoteNY.alias.php
