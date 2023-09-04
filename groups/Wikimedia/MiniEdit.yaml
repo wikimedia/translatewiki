@@ -1,11 +1,11 @@
 BASIC:
   id: wikiedit
-  label: WikiEdit
-  description: "{{Special:MyLanguage/Translations:Group descriptions/wikiedit/en}}"
+  label: MiniEdit
+  description: "{{Special:MyLanguage/Translations:Group descriptions/miniedit/en}}"
   class: FileBasedMessageGroup
   namespace: NS_WIKIMEDIA
   support:
-    url: https://www.mediawiki.org/wiki/Talk:WikiEdit
+    url: https://www.mediawiki.org/wiki/Talk:MiniEdit
     params:
       action: edit
       section: new
@@ -15,7 +15,7 @@ BASIC:
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/wikiedit/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/miniedit/i18n/%CODE%.json"
 
 VALIDATORS:
   - id: MediaWikiLink
