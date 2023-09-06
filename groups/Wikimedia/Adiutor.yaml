@@ -2,6 +2,7 @@
 BASIC:
   id: adiutor
   label: Adiutor
+  icon: wiki://Adiutor_icon.svg
   description: "{{Special:MyLanguage/Translations:Group descriptions/adiutor/en}}"
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
