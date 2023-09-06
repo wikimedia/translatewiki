@@ -159,3 +159,7 @@ MANGLER:
   prefix: fontwarnings-
   patterns:
     - "*"
+
+TAGS:
+  optional:
+    - mathmenu-Option
