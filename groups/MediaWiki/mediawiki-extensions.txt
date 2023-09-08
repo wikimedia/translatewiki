@@ -3685,6 +3685,7 @@ Wikidata.org
 descmsg = wikidata-org-desc
 ignored = wikibase-lexeme-randomlexeme-url
 ignored = wikibase-queryservice-url
+ignored = wikibase-randomitem-url
 
 Wikihiero
 file = wikihiero/i18n/%CODE%.json
