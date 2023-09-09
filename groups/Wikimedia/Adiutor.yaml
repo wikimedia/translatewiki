@@ -31,3 +31,7 @@ VALIDATORS:
     enforce: false
   - id: MediaWikiPlural
   - id: BraceBalance
+
+INSERTABLES:
+  - class: MediaWikiInsertablesSuggester
+  - class: UrlInsertablesSuggester
