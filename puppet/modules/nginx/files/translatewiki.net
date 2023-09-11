@@ -61,7 +61,7 @@ server {
 
     location ~* ^/static/mainpage/.*\.jpg$ {
         expires 2M;
-        // Note: all other add_header calls are ignored. There is one in ssl.conf that is not mandatory
+        # Note: all other add_header calls are ignored. There is one in ssl.conf that is not mandatory
         add_header Vary Accept;
         try_files $uri$webp $uri =404;
     }
