@@ -1216,6 +1216,7 @@ wikimedia-tools:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/heritage
     wikimedia-tools/isa:
       type: wmgerrit
+      branch: main
       url: https://gerrit.wikimedia.org/r/labs/tools/Isa
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/Isa
     wikimedia-tools/map-of-monuments:
