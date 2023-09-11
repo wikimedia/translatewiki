@@ -854,7 +854,7 @@ id = ext-collection-api
 file = Collection/i18n/api/%CODE%.json
 
 Comment Streams
-aliasfile = CommentStreams/includes/CommentStreamsAllComments.alias.php
+aliasfile = CommentStreams/includes/CommentStreams.alias.php
 
 Commentbox
 aliasfile = Commentbox/Commentbox.alias.php
