@@ -6,6 +6,6 @@ set -o errexit -o nounset -o pipefail
 cd "$AUTOIMPORT_DIR/mediawiki/master"
 {
 	echo "{{/Header1}}<pre>"
-	git log --format="format:%ci" --name-only --diff-filter=A languages/i18n/
+	git log --format="format:%ci" --name-only --diff-filter=A languages/i18n/*.json
 	echo "</pre>"
 } | php "$WIKISCRIPT" edit --user=MaintenanceBot --summary="Updating statistics" Translating:MediaWiki/New_languages
