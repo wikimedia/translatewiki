@@ -2839,9 +2839,6 @@ Semantic Bundle
 Semantic Genealogy
 optional = semanticgenealogy-gedcomexport-link
 
-Semantic Image Annotator
-descmsg = sia-description
-
 Semantic Image Input
 descmsg = sii-desc
 
