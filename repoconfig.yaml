@@ -50,6 +50,7 @@ commons-android:
   repos:
     commons-android:
       type: github
+      branch: main
       url: https://github.com/commons-app/apps-android-commons.git
       url|export: git@github.com:commons-app/apps-android-commons.git
 
