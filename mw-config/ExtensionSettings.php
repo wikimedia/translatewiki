@@ -103,7 +103,7 @@ $wgBabelCategoryNames = [
 ];
 $wgBabelMainCategory = 'User_%code%';
 
-# Semantic MediaWiki (installed using composer)
+# Semantic MediaWiki
 
 wfLoadExtension( 'SemanticMediaWiki' );
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
