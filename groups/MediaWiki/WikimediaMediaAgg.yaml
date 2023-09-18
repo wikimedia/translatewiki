@@ -13,7 +13,6 @@ GROUPS:
   - ext-fileexporter # https://phabricator.wikimedia.org/rOMWCed0953cf03e16621029ba7b21b716d448e387de0
   - ext-fileimporter # https://phabricator.wikimedia.org/rOMWCed0953cf03e16621029ba7b21b716d448e387de0
   - ext-imagemap
-  - ext-machinevision-user # https://phabricator.wikimedia.org/T227349
   - ext-mediasearch
   - ext-pdfhandler
   - ext-phonos # https://phabricator.wikimedia.org/rOMWC8a38488adb7a140238ae198c269847f3f94b5e8f
