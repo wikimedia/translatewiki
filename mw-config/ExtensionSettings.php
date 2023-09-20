@@ -108,8 +108,6 @@ $wgBabelMainCategory = 'User_%code%';
 wfLoadExtension( 'SemanticMediaWiki' );
 $smwgNamespaceIndex = 200; # Nike 2010-06-15
 enableSemantics( 'translatewiki.net' );
-$smwgNamespacesWithSemanticLinks[90/*NS_LQT_THREAD*/] = true;
-$smwgNamespacesWithSemanticLinks[92/*NS_LQT_SUMMARY*/] = true;
 $smwgEnabledEditPageHelp = false;
 $smwgQMaxInlineLimit = 2000;
 $smwgQUpperbound = 2000;
