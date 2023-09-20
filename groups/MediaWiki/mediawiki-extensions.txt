@@ -2370,7 +2370,6 @@ Open Js Cad
 
 Open Graph Meta
 magicfile = OpenGraphMeta/OpenGraphMeta.magic.php
-optional = ores-name
 ignored = opengraphmeta-site-name
 
 Open Layers
@@ -2390,6 +2389,7 @@ ORES - User interface
 id = ext-ores-user
 file = ORES/i18n/%CODE%.json
 aliasfile = ORES/ORES.alias.php
+optional = ores-name
 ignored = ores-reverted-letter
 
 Our World In Data
