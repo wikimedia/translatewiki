@@ -3421,7 +3421,6 @@ Visual Editor (MediaWiki extension)
 id = ext-visualeditor-ve-mw
 descmsg = visualeditor-desc
 file = VisualEditor/i18n/ve-mw/%CODE%.json
-optional = visualeditor-preference-core-discussion-link, visualeditor-preference-core-info-link
 optional = visualeditor-dialog-media-dimensionseparator
 optional = visualeditor-dialog-media-info-ellipsis, visualeditor-dialog-media-info-separator
 ignored = accesskey-ca-ve-edit, accesskey-ca-ve-edit-local
@@ -3429,7 +3428,6 @@ ignored = accesskey-ca-editsource, accesskey-ca-editsource-local
 ignored = accesskey-ca-ve-create, accesskey-ca-ve-create-local
 ignored = accesskey-ca-createsource, accesskey-ca-createsource-local
 ignored = visualeditor-wikitext-warning-link, visualeditor-quick-access-characters.json
-ignored = visualeditor-preference-newwikitexteditor-discussion-link, visualeditor-preference-newwikitexteditor-info-link
 ignored = visualeditor-template-tools-definition.json
 ignored = apihelp-visualeditoredit-param-watchlist
 prefix = visualeditor-override- | tooltip-ca-edit
