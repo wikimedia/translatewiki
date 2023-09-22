@@ -1079,6 +1079,7 @@ ignored = discussiontools-replywidget-mention-suffix, discussiontools-replywidge
 ignored = tag-discussiontools-source, tag-discussiontools-visual
 ignored = discussiontools-comments-before-first-heading-category
 ignored = discussiontools-emptystate-link-userpage-temp
+ignored = discussiontools-topicsubscription-action-title
 optional = discussiontools-preference-info-link
 optional = discussiontools-preference-discussion-link
 optional = discussiontools-replywidget-feedback-link
