@@ -1128,9 +1128,8 @@ wikimedia-misc-tools:
       url|export: git@github.com:lucaswerkmeister/tool-lexeme-forms.git
     wikidata-mismatch-finder:
       type: github
-      branch: main
+      branch: development
       url: https://github.com/wmde/wikidata-mismatch-finder.git
-      pull-branch: twn
       url|export: git@github.com:wmde/wikidata-mismatch-finder.git
     xtools:
       type: github
