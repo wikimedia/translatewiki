@@ -1,0 +1,27 @@
+---
+BASIC:
+  id: wikiscore
+  label: WikiScore
+  description: " {{Special:MyLanguage/Wikimedia:wikiscore-index-about-intro/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url:  https://github.com/WikiMovimentoBrasil/wikiscore/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikiscore-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wikiscore/translations/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: false

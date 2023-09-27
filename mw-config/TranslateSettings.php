@@ -304,6 +304,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaTools.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiLearn.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikipediaLibrary.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikipediaPreview.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiScore.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Wikistats.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WPCleaner.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Wscd.yaml";

@@ -1077,7 +1077,7 @@ wikimedia-mailman-templates:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/software/mailman-templates
 
 wikimedia-misc-tools:
-  group: adiutor,anvesha,cejs,citationhunt,global-search,internetarchivebot,pageviews,signit,twinkle-core,video2commons,web2cit-translation-server,wikiauthbot,wikidata-lexeme-forms,wikidata-mismatch-finder,wikilearn-*,wscd,xtools
+  group: adiutor,anvesha,cejs,citationhunt,global-search,internetarchivebot,pageviews,signit,twinkle-core,video2commons,web2cit-translation-server,wikiauthbot,wikidata-lexeme-forms,wikidata-mismatch-finder,wikilearn-*,wikiscore,wscd,xtools
   repos:
     adiutor:
       type: github
@@ -1146,6 +1146,11 @@ wikimedia-misc-tools:
       pull-branch: wm/localization
       url: https://github.com/wikimedia/edx-platform.git
       url|export: git@github.com:wikimedia/edx-platform.git
+    wikiscore:
+      type: github
+      branch: develop
+      url: https://github.com/WikiMovimentoBrasil/wikiscore.git
+      url|export: git@github.com:WikiMovimentoBrasil/wikiscore.git
     wscd:
       type: github
       url: https://github.com/diskdance/wscd.git
