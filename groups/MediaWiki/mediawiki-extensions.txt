@@ -3194,6 +3194,7 @@ optional = timedmedia-derivative-1440p.webm, timedmedia-derivative-desc-1440p.we
 optional = timedmedia-derivative-1440p.vp9.webm, timedmedia-derivative-desc-1440p.vp9.webm
 optional = timedmedia-derivative-360p.mp4, timedmedia-derivative-desc-360p.mp4
 optional = timedmedia-derivative-1440p.mp4, timedmedia-derivative-desc-1440p.mp4
+optional = timedmedia-derivative-m3u8
 optional = timedmedia-resolution-360, timedmedia-resolution-480, timedmedia-resolution-720
 optional = timedmedia-resolution-1080, timedmedia-resolution-1440, timedmedia-resolution-2160
 optional = beta-feature-timedmediahandler-message-videojs, timedmedia-subtitle-language
