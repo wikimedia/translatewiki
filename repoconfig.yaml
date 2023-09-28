@@ -367,7 +367,7 @@ mifos:
       url|export: git@github.com:openMF/community-app.git
 
 miniedit:
-  group: wikiedit
+  group: miniedit
   auto-merge: mediawiki/gadgets/MiniEdit
   repos:
     miniedit:

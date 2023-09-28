@@ -1,5 +1,5 @@
 BASIC:
-  id: wikiedit
+  id: miniedit
   label: MiniEdit
   description: "{{Special:MyLanguage/Translations:Group descriptions/miniedit/en}}"
   class: FileBasedMessageGroup
