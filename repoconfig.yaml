@@ -1238,9 +1238,9 @@ wikimedia-tools:
       url: https://gerrit.wikimedia.org/r/labs/tools/qrcode-generator
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/qrcode-generator
     wikimedia-tools/videocuttool:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/labs/tools/VideoCutTool
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/VideoCutTool
+      type: gitlab
+      url: https://gitlab.wikimedia.org/cloudvps-repos/videocuttool/VideoCutTool
+      url|export: git@gitlab.wikimedia.org:cloudvps-repos/videocuttool/VideoCutTool.git
     wikimedia-tools/watch-translations:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/watch-translations
