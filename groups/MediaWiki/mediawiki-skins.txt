@@ -56,6 +56,7 @@ optional = skinname-gamepress
 Grey Stuff
 
 Gu Max DD
+optional = skinname-gumaxdd
 
 Mask
 ignored = mask-menu-left, mask-menu-right, mask-index-url
