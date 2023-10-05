@@ -411,6 +411,11 @@ mwgithub:
       type: github
       url: https://github.com/AgentIsai/Share.git
       url|export: git@github.com:AgentIsai/Share.git
+    mwgithub/alex4401/mediawiki-extensions-DataMaps:
+      type: github
+      branch: main
+      url: https://github.com/alex4401/mediawiki-extensions-DataMaps
+      url|export: git@github.com:alex4401/mediawiki-extensions-DataMaps.git
     mwgithub/AlPha5130/mediawiki-extensions-EditCountNeue:
       type: github
       url: https://github.com/AlPha5130/mediawiki-extensions-EditCountNeue.git

@@ -55,6 +55,81 @@ TAGS:
     - automated-values-name
 ---
 BASIC:
+    id: mwgithub-datamaps-core
+    label: DataMaps - Core
+    description: "{{Special:MyLanguage/MediaWiki/MediaWiki:Datamap-desc/en}}"
+    support:
+      url: https://github.com/alex4401/mediawiki-extensions-DataMaps/issues/new
+      params:
+        title: Translation issue with message %MESSAGE%
+        body: "\n\nURL: %MESSAGE_URL%"
+        template: bug-report.md
+        labels: 1.+bug
+
+MANGLER:
+  class: StringMatcher
+
+FILES:
+  sourcePattern: "%GROUPROOT%/mwgithub/alex4401/mediawiki-extensions-DataMaps/i18n/core/%CODE%.json"
+
+INSERTABLES:
+  - class: UrlInsertablesSuggester
+  - class: HtmlTagInsertablesSuggester
+
+TAGS:
+  ignored:
+    - datamap-standard-title-prefix
+    - datamap-doc-page-suffix
+    - datamap-doc-page-show
+  optional:
+    - datamap-coordinate-control-text-xy
+    - datamap-coordinate-control-text-yx
+---
+BASIC:
+    id: mwgithub-datamaps-createmap
+    label: DataMaps - Create Maps
+    description: "{{Special:MyLanguage/MediaWiki/MediaWiki:Datamap-desc/en}}"
+    support:
+      url: https://github.com/alex4401/mediawiki-extensions-DataMaps/issues/new
+      params:
+        title: Translation issue with message in %MESSAGE% under Create Maps
+        body: "\n\nURL: %MESSAGE_URL%"
+        template: bug-report.md
+        labels: 1.+bug
+
+MANGLER:
+  class: StringMatcher
+
+FILES:
+  sourcePattern: "%GROUPROOT%/mwgithub/alex4401/mediawiki-extensions-DataMaps/i18n/createmap/%CODE%.json"
+
+INSERTABLES:
+  - class: UrlInsertablesSuggester
+  - class: HtmlTagInsertablesSuggester
+---
+BASIC:
+    id: mwgithub-datamaps-ve
+    label: DataMaps - Visual Editor
+    description: "{{Special:MyLanguage/MediaWiki/MediaWiki:Datamap-desc/en}}"
+    support:
+      url: https://github.com/alex4401/mediawiki-extensions-DataMaps/issues/new
+      params:
+        title: Translation issue with message in VE %MESSAGE%
+        body: "\n\nURL: %MESSAGE_URL%"
+        template: bug-report.md
+        labels: 1.+bug
+
+MANGLER:
+  class: StringMatcher
+
+FILES:
+  sourcePattern: "%GROUPROOT%/mwgithub/alex4401/mediawiki-extensions-DataMaps/i18n/ve/%CODE%.json"
+
+INSERTABLES:
+  - class: UrlInsertablesSuggester
+  - class: HtmlTagInsertablesSuggester
+---
+BASIC:
   id: mwgithub-external-content
   label: External Content
   description: "{{Special:MyLanguage/MediaWiki:External-content-desc/en}}"
