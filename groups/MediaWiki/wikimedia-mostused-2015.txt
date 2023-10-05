@@ -122,6 +122,7 @@ portal-url
 portal
 permalink
 wikimedia-copyright
+mobile-frontend-copyright
 lastmodifiedat
 tagline
 skin-view-view
