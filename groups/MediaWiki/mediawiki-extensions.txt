@@ -2688,6 +2688,8 @@ Random Pages
 
 Random Selection
 
+Read Aloud
+
 Reading Lists - API
 id = ext-readinglists-api
 file = ReadingLists/i18n/api/%CODE%.json
