@@ -1586,6 +1586,8 @@ Google Site Search
 
 Google Tag Manager
 
+Google Translate
+
 GPG Mail
 
 Graph - API
