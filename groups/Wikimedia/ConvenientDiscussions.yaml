@@ -20,11 +20,15 @@ TAGS:
   optional:
     - convenient-discussions-cm-gotoparent
     - convenient-discussions-cm-gotochild
-    - convenient-discussions-cf-autocomplete-commentlinktext
+    - convenient-discussions-cf-autocomplete-commentlinks-text
     - convenient-discussions-cf-help
     - convenient-discussions-cf-help-short
     - convenient-discussions-cm-copylink
+    - convenient-discussions-dot-separator
+    - convenient-discussions-ellipsis
+    - convenient-discussions-script-name-short
     - convenient-discussions-sm-copylink
+    - convenient-discussions-toc-commentcount-new
     - convenient-discussions-user-male-dative
     - convenient-discussions-user-female-dative
     - convenient-discussions-user-unknown-dative
