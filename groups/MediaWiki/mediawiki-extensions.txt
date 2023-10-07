@@ -2063,6 +2063,7 @@ ignored = mediamoderation-email-body, mediamoderation-email-subject
 Media Search
 optional = mediasearch-image-size
 
+Media Spoiler
 
 Media Uploader - API
 id = ext-mediauploader-api
