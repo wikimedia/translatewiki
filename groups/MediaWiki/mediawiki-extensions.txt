@@ -1204,17 +1204,20 @@ Echo - API
 id = ext-echo-api
 file = Echo/i18n/api/%CODE%.json
 
+Edit Account
+aliasfile = EditAccount/EditAccount.alias.php
+
 Edit Similar
 
 Edit Subpages
+
+Edit User
+aliasfile = EditUser/EditUser.alias.php
 
 Editcount
 aliasfile = Editcount/Editcount.alias.php
 
 Editcount Additions
-
-Edit User
-aliasfile = EditUser/EditUser.alias.php
 
 Enhanced Upload
 aliasfile = EnhancedUpload/languages/EnhancedUpload.i18n.alias.php
@@ -2422,6 +2425,8 @@ Page Creation Notif
 descmsg = page-creation-notif-desc
 
 Page Disqus
+
+# Page Encryption // 2023-10-07: missing qqq
 
 Page Exchange
 aliasfile = PageExchange/PageExchange.alias.php
