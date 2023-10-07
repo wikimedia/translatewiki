@@ -808,6 +808,8 @@ Close Wikis
 aliasfile = CloseWikis/CloseWikis.alias.php
 ignored = closewikis-closed
 
+# Cloudflare Purge // 2023-10-07 empty repo
+
 Code Editor
 
 Code Mirror
@@ -1581,6 +1583,8 @@ aliasfile = GoogleNewsSitemap/GoogleNewsSitemap.alias.php
 Google Places
 
 Google Site Search
+
+Google Tag Manager
 
 GPG Mail
 
