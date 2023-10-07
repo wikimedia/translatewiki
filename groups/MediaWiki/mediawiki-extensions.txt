@@ -3097,6 +3097,9 @@ descmsg = syntaxhighlight-desc
 Tabs
 ignored = tabs-dropdown-bgcolor
 
+Talk Below
+magicfile = TalkBelow/TalkBelow.magic.php
+
 TEI
 optional = content-model-tei
 
