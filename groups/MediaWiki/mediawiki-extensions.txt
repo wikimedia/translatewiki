@@ -3722,6 +3722,8 @@ Wikimedia Api Portal OAuth
 
 Wikimedia Badges
 
+Wikimedia Campaign Events
+
 Wikimedia Editor Tasks - User interface
 id = ext-wikimediaeditortasks-user
 file = WikimediaEditorTasks/i18n/%CODE%.json
