@@ -1714,10 +1714,6 @@ aliasfile = HitCounters/HitCounters.i18n.alias.php
 magicfile = HitCounters/HitCounters.i18n.magic.php
 ignored = hitcounters-page-label, popularpages-summary
 
-Hot Cat
-ignored = hotcat-messages-prefix, hotcat-messages-short-catchange
-optional = hotcat-messages-separator
-
 Host Stats
 aliasfile = HostStats/HostStats.alias.php
 ignored = hoststats
