@@ -78,6 +78,7 @@ TAGS:
     - browse.navigation.paging.user.prev
     - browse.relation_member.entry
     - browse.relation_member.entry_html
+    - count.at_least_pattern
     - editor.id.name
     - errors.contact.contact_url
     - changeset.changeset.id
