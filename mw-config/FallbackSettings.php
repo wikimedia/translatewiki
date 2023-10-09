@@ -11,6 +11,7 @@
 
 $wgTranslateLanguageFallbacks['aae'] = [ 'sq', 'aln', 'it', 'scn', 'roa-tara' ];
 $wgTranslateLanguageFallbacks['acf'] = 'fr';
+$wgTranslateLanguageFallbacks['ada'] = [ 'gaa', 'tw', 'fat', 'gpe' ];
 $wgTranslateLanguageFallbacks['af'] = 'nl';
 $wgTranslateLanguageFallbacks['ajg'] = [ 'fr', 'ee', 'fon', 'guw' ];
 $wgTranslateLanguageFallbacks['ale'] = [ 'ale-cyrl', 'ru', 'esu', 'ik', 'ike-cans', 'ike-latn', 'kl' ];
@@ -71,7 +72,7 @@ $wgTranslateLanguageFallbacks['fi'] = [ 'de', 'sv', 'et', 'vro' ];
 $wgTranslateLanguageFallbacks['fit'] = [ 'fi', 'sv' ]; # Robin 2011-09-27
 $wgTranslateLanguageFallbacks['fon'] = [ 'ajg', 'ee', 'guw', 'yo' ];
 $wgTranslateLanguageFallbacks['fy'] = 'nl';
-$wgTranslateLanguageFallbacks['gaa'] = [ 'tw', 'bci' ];
+$wgTranslateLanguageFallbacks['gaa'] = [ 'ada', 'tw', 'fat', 'bci' ];
 $wgTranslateLanguageFallbacks['gbm'] = [ 'hi', 'ne', 'dty' ];
 $wgTranslateLanguageFallbacks['gcf'] = [ 'fr', 'ht' ];
 $wgTranslateLanguageFallbacks['guw'] = [ 'fr', 'fon', 'ajg', 'ee', 'yo' ];
