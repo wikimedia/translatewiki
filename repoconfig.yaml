@@ -737,10 +737,6 @@ mwgithub:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticWatchlist.git
       url|export: git@github.com:SemanticMediaWiki/SemanticWatchlist.git
-    mwgithub/SemanticMediaWiki/SummaryCards:
-      type: github
-      url: https://github.com/SemanticMediaWiki/SummaryCards.git
-      url|export: git@github.com:SemanticMediaWiki/SummaryCards.git
     mwgithub/SemanticMediaWiki/WhatsNearby:
       type: github
       url: https://github.com/SemanticMediaWiki/WhatsNearby.git

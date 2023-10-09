@@ -711,20 +711,7 @@ TAGS:
     - wikibase-rdf-name
     - wikibase-rdf-config-intro
     - wikibase-rdf-property-edit-warning-version
----
-BASIC:
-  id: mwgithub-summarycards
-  label: Summary Cards
-  description: "{{Special:MyLanguage/MediaWiki:suc-desc/en}}"
-  support:
-    url: https://github.com/SemanticMediaWiki/SummaryCards/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
 
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SummaryCards/i18n/%CODE%.json"
 ---
 BASIC:
   id: mwgithub-semanticdrilldown
