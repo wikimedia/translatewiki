@@ -72,6 +72,7 @@ FILES:
 INSERTABLES:
   - class: UrlInsertablesSuggester
   - class: HtmlTagInsertablesSuggester
+  - class: MediaWikiInsertablesSuggester
 
 TAGS:
   ignored:
@@ -100,6 +101,7 @@ FILES:
 INSERTABLES:
   - class: UrlInsertablesSuggester
   - class: HtmlTagInsertablesSuggester
+  - class: MediaWikiInsertablesSuggester
 ---
 BASIC:
     id: mwgithub-datamaps-ve
@@ -119,6 +121,7 @@ FILES:
 INSERTABLES:
   - class: UrlInsertablesSuggester
   - class: HtmlTagInsertablesSuggester
+  - class: MediaWikiInsertablesSuggester
 ---
 BASIC:
   id: mwgithub-external-content
