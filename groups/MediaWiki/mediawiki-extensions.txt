@@ -3079,6 +3079,8 @@ file = StructuredNavigation/i18n/api/%CODE%.json
 Sub Page List 3
 descmsg = spl3-desc
 
+Subnet Calc
+
 Subpage Fun
 
 Subpage Sortkey
