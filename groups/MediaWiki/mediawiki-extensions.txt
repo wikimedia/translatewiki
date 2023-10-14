@@ -736,6 +736,8 @@ optional = changeauthor-rev
 Char Insert
 #magicfile = CharInsert/CharInsert.i18n.magic.php
 
+Checklists
+
 Checkpoint
 
 Check User - User interface
