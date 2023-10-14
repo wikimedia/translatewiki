@@ -98,6 +98,7 @@ Anti Spoof - User interface
 id = ext-antispoof-user
 file = AntiSpoof/i18n/%CODE%.json
 ignored = antispoof-conflict-item, antispoof-bad-char-non-printable
+ignored = antispoof-conflict
 optional = antispoof-bad-char
 
 Anti Spoof - API
