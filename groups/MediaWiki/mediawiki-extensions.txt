@@ -1028,6 +1028,8 @@ optional = dt_filetype_xml, dt_filetype_csv
 
 Date Diff
 
+Date Time Tools
+
 Debug Mode
 
 Debug Templates
