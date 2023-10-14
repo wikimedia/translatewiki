@@ -2614,6 +2614,10 @@ Pre To Clip
 Private Domains
 aliasfile = PrivateDomains/PrivateDomains.alias.php
 
+PrivatePageProtection
+magicfile = PrivatePageProtection/PrivatePageProtection.i18n.magic.php
+descmsg = privatepp-desc
+
 Report Incident
 
 Pronunciation Recording
