@@ -2927,6 +2927,8 @@ Simple SAML php
 
 Simple Sort
 
+Simple Tasks
+
 Site Matrix - User interface
 id = ext-sitematrix-user
 file = SiteMatrix/i18n/%CODE%.json
