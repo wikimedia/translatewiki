@@ -295,3 +295,6 @@ $wgHooks['Translate:TranslatorSandbox:UserPromoted'][] = static function ( User 
 	\MediaWiki\MediaWikiServices::getInstance()
 		->getJobQueueGroup()->push( new NewUserMessageJob( [ 'userId' => $user->getId() ] ) );
 };
+
+// To fix caching issues with SMW after it was removed
+$wgCacheEpoch = '20231016122718';
