@@ -24,7 +24,6 @@ GROUPS:
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-dashiki
   - ext-diff
-  - ext-doublewiki # Wikisource
   - ext-elastica # 2013-09-20 for CirrusSearch, change id: 7acdc7e8c346f00dcce1412f057ea38ad3d3e649
   - ext-entityschema
   - ext-eventbus # 2016-01-21 for MediaWiki.org, change id: 603461016bd9a4cc862f4713fd57358b0cd38f2d
