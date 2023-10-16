@@ -103,16 +103,6 @@ $wgBabelCategoryNames = [
 ];
 $wgBabelMainCategory = 'User_%code%';
 
-# Semantic MediaWiki
-
-wfLoadExtension( 'SemanticMediaWiki' );
-$smwgNamespaceIndex = 200; # Nike 2010-06-15
-enableSemantics( 'translatewiki.net' );
-$smwgEnabledEditPageHelp = false;
-$smwgQMaxInlineLimit = 2000;
-$smwgQUpperbound = 2000;
-$smwgCheckForConstraintErrors = SMW_CONSTRAINT_ERR_CHECK_NONE;
-
 wfLoadExtension( 'PageForms' );
 $sfgRedLinksCheckOnlyLocalProps = true;
 

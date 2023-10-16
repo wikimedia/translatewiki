@@ -141,8 +141,6 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ReplaceText
   workdir/extensions/Scribunto:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Scribunto
-  workdir/extensions/SemanticMediawiki:
-    source: https://github.com/SemanticMediaWiki/SemanticMediaWiki.git
   workdir/extensions/SyntaxHighlight_GeSHi:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/SyntaxHighlight_GeSHi
   workdir/extensions/TemplateSandbox:

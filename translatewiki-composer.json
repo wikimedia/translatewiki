@@ -10,7 +10,6 @@
 				"extensions/CheckUser/composer.json",
 				"extensions/OATHAuth/composer.json",
 				"extensions/Elastica/composer.json",
-				"extensions/SemanticMediaWiki/composer.json",
 				"extensions/SyntaxHighlight_GeSHi/composer.json",
 				"extensions/TemplateStyles/composer.json",
 				"extensions/Translate/composer.json",
