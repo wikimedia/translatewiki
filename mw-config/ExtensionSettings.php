@@ -181,8 +181,8 @@ $wgEchoNotificationIcons['site']['url'] = '/static/logo-square.svg';
 
 wfLoadExtension( 'OAuth' );
 $wgMWOAuthSecureTokenTransfer = true;
-$wgGroupPermissions['sysop']['mwoauthproposeconsumer'] = true;
-$wgGroupPermissions['sysop']['mwoauthupdateownconsumer'] = true;
+$wgGroupPermissions['user']['mwoauthproposeconsumer'] = true; // T330500
+$wgGroupPermissions['user']['mwoauthupdateownconsumer'] = true; // T330500
 $wgGroupPermissions['staff']['mwoauthmanageconsumer'] = true;
 $wgGroupPermissions['staff']['mwoauthsuppress'] = true;
 $wgGroupPermissions['staff']['mwoauthviewsuppressed'] = true;
