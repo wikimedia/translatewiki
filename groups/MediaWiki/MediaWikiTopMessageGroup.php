@@ -14,6 +14,7 @@ class MediaWikiTopMessageGroup extends MessageGroupOld {
 	private $parentGroup;
 	private $file;
 	private $keys;
+	private ?array $tagCache = null;
 
 	public function __construct( $id, $file ) {
 		$this->id = $id;
@@ -69,7 +70,8 @@ class MediaWikiTopMessageGroup extends MessageGroupOld {
 	}
 
 	public function getTags( $type = null ) {
-		return $this->getParentGroup()->getTags( $type );
+		$this->tagCache ??= $this->getParentGroup()->getTags( null );
+		return $type ? $this->tagCache[$type] ?? [] : $this->tagCache;
 	}
 
 	public function getMessage( $key, $code ) {
