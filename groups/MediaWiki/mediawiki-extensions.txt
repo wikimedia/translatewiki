@@ -3710,6 +3710,7 @@ Wikidata Page Banner
 
 Wikidata.org
 descmsg = wikidata-org-desc
+ignored = accesskey-n-wikibase-randomitem
 ignored = wikibase-lexeme-randomlexeme-url
 ignored = wikibase-queryservice-url
 ignored = wikibase-randomitem-url
