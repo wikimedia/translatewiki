@@ -391,7 +391,6 @@ booksources-search-legend
 booksources-search
 templatesused
 passwordreset
-timedmedia-source-file
 allarticles
 wikibase-description-empty
 categories
@@ -418,7 +417,6 @@ rcshowhideanons-show
 inputbox-tryexact
 wikimedia-globalblocking-ipblocked
 wikimedia-globalblocking-ipblocked-xff
-timedmedia-source-audio-file-desc
 wikibase-label-empty
 wm-license-self-multiple-licenses-select
 editing
