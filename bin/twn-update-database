@@ -3,7 +3,7 @@ set -o nounset -o pipefail -o errexit
 
 . /etc/wikisettings
 
-sudo -u "$REPOUSER" php "$WORKDIR/maintenance/run.php" update --quick --skip-optimize
+sudo -u "$REPOUSER" php "$WORKDIR/maintenance/run.php" update --quick
 
 CURRENTTIME=$(date +"%T")
 echo "*** $CURRENTTIME: Updating translator activity ***"
