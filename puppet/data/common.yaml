@@ -103,6 +103,10 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CirrusSearch
   workdir/extensions/CleanChanges:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CleanChanges
+  workdir/extensions/CodeEditor:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeEditor
+  workdir/extensions/CodeMirror:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeMirror
   workdir/extensions/DeleteBatch:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/DeleteBatch
   workdir/extensions/DiscussionTools:

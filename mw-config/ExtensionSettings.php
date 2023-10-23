@@ -206,6 +206,8 @@ wfLoadExtension( 'Maps' );
 wfLoadExtension( 'CodeEditor' );
 $wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEditor extension
 
+wfLoadExtension( 'CodeMirror' );
+
 wfLoadExtensions( [ 'VisualEditor', 'Linter', 'DiscussionTools', 'LiquidThreads' ] );
 // LiquidThreads is enabled by default on all talk pages. This hook handler disables it on pages without any threads.
 // This makes manual opt-in/out unnecessary (and impossible), but adds a few additional database queries.
