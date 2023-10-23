@@ -2566,8 +2566,6 @@ Php Tags
 
 Php Tags Functions
 
-# Php Tags Maps // Message keys prefixed with "multimaps-..."????
-
 Php Tags SMW
 
 Php Tags SPARQL
