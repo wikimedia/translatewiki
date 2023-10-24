@@ -153,6 +153,8 @@ aliasfile = ArticlePlaceholder/ArticlePlaceholder.alias.php
 
 Article To Category 2
 
+At Mentions
+
 Auth_remoteuser
 
 Author Protect
