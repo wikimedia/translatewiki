@@ -73,8 +73,6 @@ Add Messages
 
 Add Personal Urls
 
-Add This
-
 Admin Links
 aliasfile = AdminLinks/AdminLinks.alias.php
 
