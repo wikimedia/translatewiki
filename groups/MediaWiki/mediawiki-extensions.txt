@@ -3320,9 +3320,6 @@ ignored = tweetanew-accesskey
 
 Twitter Cards
 
-Twitter Login
-aliasfile = TwitterLogin/TwitterLogin.alias.php
-
 Twitter Tag
 descmsg = twitter-tag-desc
 
