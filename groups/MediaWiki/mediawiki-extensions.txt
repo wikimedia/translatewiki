@@ -3371,6 +3371,7 @@ optional = group-upwizcampeditors.css, group-upwizcampeditors.js
 optional = mwe-upwiz-license-custom-url
 optional = tag-uploadwizard-flickr
 ignored = accesskey-save-upload-campaign, accesskey-cancel-upload-campaign, mwe-upwiz-flickr-source-template, mwe-upwiz-flickr-author-template, mwe-upwiz-config-allowed-templates
+ignored = mwe-upwiz-source-custom-description
 
 Upload Wizard - API
 id = ext-uploadwizard-api
