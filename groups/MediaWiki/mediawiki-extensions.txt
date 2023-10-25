@@ -1180,8 +1180,6 @@ optional = drawioconnector-tag-drawio-title
 Dumps On Demand
 aliasfile = DumpsOnDemand/DumpsOnDemand.alias.php
 
-Duplicator
-
 #Dynamic Page List / Superseeded by intersection
 
 Dynamic Page List Engine
@@ -1610,8 +1608,6 @@ aliasfile = Graph/Graph.alias.php
 Graph QL
 aliasfile = GraphQL/GraphQL.alias.php
 optional = graphql
-
-Graph Viz
 
 Gravatar
 ignored = gravatar-extensionname
@@ -2375,11 +2371,6 @@ OO Js UI Ajax Login
 
 Open Badges
 aliasfile = OpenBadges/OpenBadges.i18n.alias.php
-
-# Archived: T322820
-# Open ID
-# aliasfile = OpenID/OpenID.alias.php
-# optional = prefs-openid, openid-urls-url, openid-urls-registration-date-time
 
 Open ID Connect
 
@@ -3418,10 +3409,6 @@ User Protect
 
 User Status
 ignored = userstatus-delete-thought-text
-
-User Throttle
-
-# USERNAME // No i18n file
 
 Variables
 
