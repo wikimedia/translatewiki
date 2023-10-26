@@ -122,6 +122,11 @@ INSERTABLES:
   - class: UrlInsertablesSuggester
   - class: HtmlTagInsertablesSuggester
   - class: MediaWikiInsertablesSuggester
+
+TAGS:
+  optional:
+    - datamap-ve-workflow-marker-field-x
+    - datamap-ve-workflow-marker-field-y
 ---
 BASIC:
   id: mwgithub-external-content
