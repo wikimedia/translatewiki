@@ -1250,6 +1250,9 @@ Email Diff
 
 # Encrypted Uploads // 2020-11-27: Waiting for some i18n fixes per Ibf0e9b2d10de7f8f928f62355ecd8768f6315c3d
 
+Enhanced Standard UIs
+descmsg = enhanced-standard-uis-desc
+
 Error Handler
 
 Etherpad Lite
