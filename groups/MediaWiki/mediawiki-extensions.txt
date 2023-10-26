@@ -2747,11 +2747,6 @@ aliasfile = ReplaceText/ReplaceText.i18n.alias.php
 Report
 aliasfile = Report/Report.i18n.alias.php
 
-Revision Comment Supplement
-aliasfile = RevisionCommentSupplement/RevisionCommentSupplement.alias.php
-descmsg = revcs-desc
-optional = revcs-log-supplement
-
 Revision Slider
 optional = revisionslider
 
