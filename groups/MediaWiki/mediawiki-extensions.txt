@@ -3567,17 +3567,6 @@ Wiki Lambda - API
 id = ext-wikilambda-api
 file = WikiLambda/i18n/api/%CODE%.json
 
-Wiki Lexical Data
-file = WikiLexicalData/i18n/lexicaldata/%CODE%.json
-aliasfile = WikiLexicalData/WikiLexicalData.i18n.alias.php
-descmsg = wikidata-desc
-optional = ow_editing_policy_url, ow_URL, prefs-omegawiki, ow-stat-percent
-
-Wiki Lexical Data - Omega Wiki
-file = WikiLexicalData/i18n/omegawiki/%CODE%.json
-id = ext-wikilexicaldata-omegawiki
-descmsg = apiow-desc
-
 Wiki Love - User interface
 id = ext-wikilove-user
 file = WikiLove/i18n/%CODE%.json
