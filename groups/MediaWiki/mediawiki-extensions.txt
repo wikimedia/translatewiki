@@ -3463,6 +3463,8 @@ ignored = visualeditor-feedback-source-link, tag-editcheck-references
 ignored = tag-editcheck-newreference, tag-editcheck-newcontent
 ignored = editcheck-falsepositives-link
 
+Visual Editor Plus
+
 Vote NY
 aliasfile = VoteNY/includes/VoteNY.alias.php
 magicfile = VoteNY/includes/VoteNY.i18n.magic.php
