@@ -71,6 +71,7 @@ descmsg = strapping-desc
 Metrolook
 ignored = metrolook-tiles, metrolook-tiles-second
 optional = metrolook.css, metrolook.js
+optional = metrolook-prefs-talkpage
 
 MinervaNeue
 optional = skinname-minerva, minerva.css, minerva.js
