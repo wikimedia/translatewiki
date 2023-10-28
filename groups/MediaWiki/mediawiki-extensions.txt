@@ -2359,10 +2359,6 @@ aliasfile = OdbcDatabase/OdbcDatabase.alias.php
 
 # Ogg Handler # Deleted on Git. TimedMediaHandler as replacement. I6ad2538fda15d29d780a22796e7c980e94901729
 
-Online Status
-magicfile = OnlineStatus/OnlineStatus.i18n.magic.php
-ignored = onlinestatus-levels
-
 Online Status Bar
 
 Only Recent Recent Changes
