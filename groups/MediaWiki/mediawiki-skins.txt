@@ -4,6 +4,7 @@ Anisa
 ignored = anisa-loggedinas, anisa-notloggedin, content-footer
 prefix = skin-anisa- | content-footer
 optional = skinname-anisa
+optional = anisa-prefs-talkpage
 
 apex
 optional = apex.css, apex.js
@@ -23,6 +24,7 @@ optional = bs-discovery-sidebar-secondary-share-sharebymail-subject
 optional = bs-discovery-sidebar-secondary-share-sharebymail-body
 
 Bouquet
+optional = bouquet-prefs-talkpage
 ignored = bouquet-navigation
 
 # chameleon // 2020-05-22: no i18n file
@@ -37,10 +39,13 @@ optional = skinname-cosmos, cosmos.css, cosmos.js
 optional = cosmos-article-header-categories-more-separator
 
 Desk Mess Mirrored
+optional = deskmessmirrored-prefs-talkpage
 
 Dusk
+optional = dusk-prefs-talkpage
 
 Dusk To Dawn
+optional = dusktodawn-prefs-talkpage
 
 erudite
 file = erudite/i18n/%CODE%.json
@@ -52,13 +57,17 @@ optional = skinname-foreground
 Gamepress
 ignored = gamepress-navigation, gamepress-prefooter-1, gamepress-prefooter-2, gamepress-prefooter-3
 optional = skinname-gamepress
+optional = gamepress-prefs-talkpage
 
 Grey Stuff
+optional = greystuff-prefs-talkpage
 
 Gu Max DD
 optional = skinname-gumaxdd
+optional = gumaxdd-prefs-talkpage
 
 Mask
+optional = mask-prefs-talkpage
 ignored = mask-menu-left, mask-menu-right, mask-index-url
 
 Material
@@ -90,6 +99,7 @@ Nimbus
 ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 ignored = nimbus-specialpages, nimbus-specialpages-url
 optional = skinname-nimbus
+optional = nimbus-prefs-talkpage
 
 Nostalgia
 optional = nostalgia.css, nostalgia.js
@@ -99,16 +109,20 @@ Pivot
 Poncho
 
 Refreshed
+optional = refreshed-prefs-talkpage
 ignored = refreshed-navigation, refreshed-this-wiki-mobile-logo, refreshed-this-wiki-url
 ignored = refreshed-this-wiki-wordmark, refreshed-wiki-dropdown
 ignored = refreshed-icon-logged-in, refreshed-icon-logged-out
 
 Splash
+optional = splash-prefs-talkpage
 ignored = site-banner, global-links-menu, content-footer, splash-personaltools, splash-loggedinas
 
 Tempo
+optional = tempo-prefs-talkpage
 
 Timeless
+optional = timeless-prefs-talkpage
 optional = skinname-timeless, timeless.css, timeless.js
 ignored = timeless-sitetitle
 
@@ -116,6 +130,7 @@ Tuleap Skin
 optional = tlp-main-menu-title
 
 Truglass
+optional = truglass-prefs-talkpage
 ignored = truglass-footertext
 
 Vector
@@ -124,9 +139,11 @@ optional = vector.css, vector.js, vector-specialversion-name
 webplatform
 ignored = webplatform-bottom-footer, webplatform-sitenav
 optional = skinname-webplatform
+optional = webplatform-prefs-talkpage
 
 WikimediaApiPortal
 optional = wikimediaapiportal-skin-site-name-main, wikimediaapiportal-skin-site-name-sub
 
 WPtouch
 ignored = skinname-wptouch
+optional = wptouch-prefs-talkpage
