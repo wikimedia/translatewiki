@@ -1124,12 +1124,6 @@ ignored = apihelp-di_amazon_bill-summary, apihelp-di_amazon_bill-param-amount
 ignored = apihelp-di_amazon_bill-param-billingAgreementId, apihelp-di_amazon_bill-param-currency, apihelp-di_amazon_bill-param-orderReferenceId
 ignored = apihelp-di_amazon_bill-param-recurring, apihelp-di_amazon_bill-param-wmf_token
 
-Donation Interface - Astro Gateway
-file = DonationInterface/astropay_gateway/i18n/%CODE%.json
-id = ext-di-astro
-descmsg = astropay_gateway-desc
-languages = +es-419
-
 Donation Interface - Gateway Common
 id = ext-di-gc
 file = DonationInterface/gateway_common/i18n/interface/%CODE%.json
