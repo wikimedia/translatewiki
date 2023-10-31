@@ -108,12 +108,16 @@ $wgExtensionFunctions[] = static function () use ( $GROUPS ) {
 $wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
 	# TODO: rename when possible
 	$id = 'core-0-mostused';
-	$msgs = "$GROUPS/MediaWiki/wikimedia-mostused-2015.txt";
-	$code = "$GROUPS/MediaWiki/MediaWikiTopMessageGroup.php";
+	$subsetKeysFile = "$GROUPS/MediaWiki/wikimedia-mostused-2015.txt";
+	$subsetKeys = explode( "\n", trim( file_get_contents( $subsetKeysFile ) ) );
 
-	$list[$id] = new MediaWikiTopMessageGroup( $id, $msgs );
-	$deps[] = new FileDependency( realpath( $msgs ) );
-	$deps[] = new FileDependency( realpath( $code ) );
+	$list[$id] = new SubsetMessageGroup(
+		$id,
+		'MediaWiki (most important messages)',
+		'mediawiki',
+		$subsetKeys
+	);
+	$deps[] = new FileDependency( realpath( $subsetKeysFile ) );
 };
 
 $wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
