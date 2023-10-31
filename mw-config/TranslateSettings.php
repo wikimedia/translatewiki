@@ -101,10 +101,6 @@ $wgTranslateGroupAliases['ext-0-wikimedia-main'] = 'wikimedia-main';
 
 $wgTranslateGroupFiles[] = "$GROUPS/PageTranslationAgg.yaml";
 
-$wgExtensionFunctions[] = static function () use ( $GROUPS ) {
-	require_once "$GROUPS/MediaWiki/MediaWikiTopMessageGroup.php";
-};
-
 $wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$autoload ) use ( $GROUPS ) {
 	# TODO: rename when possible
 	$id = 'core-0-mostused';
