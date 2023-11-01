@@ -12,9 +12,9 @@ NAME="non-mediawiki"
 # Needed for list-projects to know which repoconfig.yaml to read
 cd "$AUTOIMPORT_DIR"
 
-php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -v "^mediawiki|^wikilearn" | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
+php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -v ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
 
-if OUTPUT=$(php "$WIKISCRIPT" "$SCRIPT" --name "$NAME" --safe-import --group=* --skipgroup=ext-*,core,mediawiki*)
+if OUTPUT=$(php "$WIKISCRIPT" "$SCRIPT" --name "$NAME" --safe-import --group=* --skipgroup=ext-*,core,mediawiki*,wikilearn*)
 then
 	if [[ ! -z "$OUTPUT" ]]
 	then
