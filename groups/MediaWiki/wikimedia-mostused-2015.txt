@@ -151,6 +151,7 @@ wikibase-linkitem-linkpage
 ext-uls-compact-link-count
 vector-language-button-label
 vector-no-language-button-label
+vector-main-menu-label
 vector-page-tools-label
 vector-unpin-element-label
 vector-page-tools-general-label
