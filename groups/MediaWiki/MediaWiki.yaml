@@ -92,6 +92,7 @@ BASIC:
 
 GROUPS:
   - core
+  - core-0-all
   - ext-0-all
   - mediawiki-installer
   - mediawiki-skin-0-all
@@ -99,7 +100,6 @@ GROUPS:
   - mediawiki-api
   - mediawiki-rest-api
   - wikimedia-paramvalidator
-# Do not add mediawiki-top group here, or we have infinite recursion issues
 
 ---
 BASIC:
