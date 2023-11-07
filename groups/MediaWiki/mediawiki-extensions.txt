@@ -1837,6 +1837,8 @@ optional = jsonconfig-license-url-GeoNutzV
 # Archived: T303132
 # Json Data // Inconsistent prefix
 
+JWTAuth
+
 Kartographer - User interface
 id = ext-kartographer-user
 file = Kartographer/i18n/%CODE%.json
