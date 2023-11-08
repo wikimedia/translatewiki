@@ -162,6 +162,7 @@ wikibase-dataitem
 globalusage-on-wiki
 hidden-categories
 citethispage-link
+urlshortener-toolbox
 coll-print_export
 contactpage
 revisionasof
