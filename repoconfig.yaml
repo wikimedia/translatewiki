@@ -1217,6 +1217,11 @@ wikimedia-tools:
       branch: main
       url: https://gerrit.wikimedia.org/r/labs/tools/Isa
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/Isa
+    wikimedia-tools/luthor:
+      type: gitlab
+      url: https://gitlab.wikimedia.org/toolforge-repos/luthor
+      branch: master
+      url|export: git@gitlab.wikimedia.org:toolforge-repos/luthor.git
     wikimedia-tools/map-of-monuments:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/map-of-monuments
