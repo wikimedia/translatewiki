@@ -14,7 +14,7 @@ cd "$AUTOIMPORT_DIR"
 
 php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -v ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
 
-if OUTPUT=$(php "$WIKISCRIPT" "$SCRIPT" --name "$NAME" --safe-import --group=* --skipgroup=ext-*,core,mediawiki*,wikilearn*)
+if OUTPUT=$(php "$WIKISCRIPT" "$SCRIPT" --name "$NAME" --safe-import --group=* --skipgroup=ext-*,core,mediawiki*)
 then
 	if [[ ! -z "$OUTPUT" ]]
 	then
