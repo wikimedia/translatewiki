@@ -54,15 +54,6 @@ commons-android:
       url: https://github.com/commons-app/apps-android-commons.git
       url|export: git@github.com:commons-app/apps-android-commons.git
 
-commons-wallpaper-gnome:
-  group: commons-wallpaper-gnome
-  repos:
-    jhsoby/commons-wallpaper-gnome-extension:
-      type: github
-      branch: develop
-      url: https://github.com/jhsoby/commons-wallpaper-gnome-extension.git
-      url|export: git@github.com:jhsoby/commons-wallpaper-gnome-extension.git
-
 convenient-discussions:
   group: convenient-discussions
   repos:
