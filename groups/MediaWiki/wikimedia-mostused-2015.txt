@@ -82,6 +82,7 @@ wikimedia-cookiestatement
 mobile-frontend-home-button
 mobile-frontend-random-button
 mobile-frontend-main-menu-login
+mobile-frontend-main-menu-nearby
 mobile-frontend-main-menu-settings
 mobile-frontend-history
 mobile-frontend-view
