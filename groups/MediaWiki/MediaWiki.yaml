@@ -92,7 +92,7 @@ BASIC:
 
 GROUPS:
   - core
-  - core-0-all
+  - core-0-mostused
   - ext-0-all
   - mediawiki-installer
   - mediawiki-skin-0-all
