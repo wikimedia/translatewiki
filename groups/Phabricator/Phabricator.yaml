@@ -635,6 +635,12 @@ FILES:
 MANGLER:
   prefix: phabricator-settings-
 TAGS:
+  optional:
+    - phabricator-settings-0a5ee85414fe08e2
+    - phabricator-settings-2f3d79cce553b9ba
+    - phabricator-settings-a78ad27761617081
+    - phabricator-settings-d89a5ec1140ce5dd
+    - phabricator-settings-da544d1418799d25
   ignored:
     - phabricator-settings-da39a3ee5e6b4b0d
 
