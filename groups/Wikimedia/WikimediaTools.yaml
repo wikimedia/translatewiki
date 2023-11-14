@@ -303,7 +303,7 @@ FILES:
   format: Yaml
   parseCLDRPlurals: true
   codeAsRoot: true
-  sourcePattern: "%GROUPROOT%/wikimedia-tools/luthor/config/locales/%CODE%.yaml"
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/luthor/config/locales/%CODE%.yml"
 
 VALIDATORS:
   - id: InsertableRubyVariable
