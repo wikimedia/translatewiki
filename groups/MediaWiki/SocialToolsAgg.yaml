@@ -23,7 +23,7 @@ GROUPS:
   - ext-randomgameunit
   - ext-sitemetrics
   - ext-sportsteams
-  - ext-userstatus
+  - ext-userstatus-*
   - ext-voteny
   - ext-video
   - ext-wikiforum

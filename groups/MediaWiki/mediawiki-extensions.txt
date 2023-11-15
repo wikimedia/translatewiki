@@ -3399,8 +3399,15 @@ aliasfile = UserPageViewTracker/UserPageViewTracker.alias.php
 
 User Protect
 
-User Status
+User Status - User interface
+id = ext-userstatus-user
+aliasfile = UserStatus/includes/UserStatus.alias.php
+file = UserStatus/i18n/%CODE%.json
 ignored = userstatus-delete-thought-text
+
+User Status - API
+id = ext-userstatus-api
+file = UserStatus/i18n/api/%CODE%.json
 
 Variables
 

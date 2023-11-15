@@ -636,6 +636,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-userstatus
+  label: User Status
+  description: '{{Special:MyLanguage/MediaWiki:Userstatus/en}}'
+
+GROUPS:
+  - ext-userstatus-*
+
+---
+BASIC:
   id: ext-visualeditor
   label: VisualEditor
   description: '{{Special:MyLanguage/Translations:Group descriptions/visualeditor/en}}'
