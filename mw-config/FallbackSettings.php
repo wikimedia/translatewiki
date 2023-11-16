@@ -184,6 +184,7 @@ $wgTranslateLanguageFallbacks['sro'] = [ 'sc' ];
 $wgTranslateLanguageFallbacks['st'] = [ 'nso', 'tn', 'af' ];
 $wgTranslateLanguageFallbacks['swb'] = 'sw';
 $wgTranslateLanguageFallbacks['tdd'] = [ 'zh-hant', 'my', 'mnw', 'th', 'shn', 'nod' ];
+$wgTranslateLanguageFallbacks['tig'] = [ 'ti', 'am' ];
 $wgTranslateLanguageFallbacks['tji'] = 'zh-hans';
 $wgTranslateLanguageFallbacks['tkr'] = 'ru';
 $wgTranslateLanguageFallbacks['tly'] = [ 'tly-cyrl', 'az', 'azb', 'fa', 'ru' ];

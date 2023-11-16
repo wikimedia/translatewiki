@@ -122,6 +122,7 @@ $wgExtraLanguageNames['sly'] = 'Bahasa Selayar'; # A Selayar / Siebrand 2012-01-
 $wgExtraLanguageNames['smj'] = 'julevsámegiella'; # Lule Saami / Nikerabbit 2016-06-22
 $wgExtraLanguageNames['swb'] = 'Shikomoro'; # Comorian
 $wgExtraLanguageNames['sxu'] = 'Säggssch'; # Upper Saxon
+$wgExtraLanguageNames['tig'] = 'ትግራይት‎'; # Tigre / Jon Harald Søby 2023-11-16
 $wgExtraLanguageNames['tji'] = 'pi tsi kha'; # Northern Tujia / 2016-06-22
 $wgExtraLanguageNames['tkr'] = 'ЦӀаӀхна миз'; # Tsakhur / Siebrand 2011-04-26
 $wgExtraLanguageNames['tly-cyrl'] = 'толыши'; # Talysh (Cyrillic) / Amir 2021-12-24
