@@ -1696,6 +1696,15 @@ Hash Tables
 
 Head Script
 
+Header Footer - API
+id = ext-headerfooter-api
+file = HeaderFooter/i18n/api/%CODE%.json
+
+Header Footer - User interface
+id = ext-headerfooter-user
+file = HeaderFooter/i18n/%CODE%.json
+magicfile = HeaderFooter/languages/HeaderFooter.i18n.magic.php
+
 Header Tabs
 ignored = headertabs-edittab-key
 
