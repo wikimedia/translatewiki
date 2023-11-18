@@ -529,15 +529,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: phabricator-phabricator-phragment
-  label: Phabricator (phabricator > phragment)
-FILES:
-  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phragment/%CODE%.json'
-MANGLER:
-  prefix: phabricator-phragment-
-
----
-BASIC:
   id: phabricator-phabricator-phrequent
   label: Phabricator (phabricator > phrequent)
 FILES:
@@ -589,15 +580,6 @@ FILES:
   sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/project/%CODE%.json'
 MANGLER:
   prefix: phabricator-project-
-
----
-BASIC:
-  id: phabricator-phabricator-releeph
-  label: Phabricator (phabricator > releeph)
-FILES:
-  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/releeph/%CODE%.json'
-MANGLER:
-  prefix: phabricator-releeph-
 
 ---
 BASIC:
