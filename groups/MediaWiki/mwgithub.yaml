@@ -1110,6 +1110,8 @@ TAGS:
   optional:
     - mirahezemagic-custom-centralauth-groupname
     - mirahezemagic-custom-miraheze-donatepage
+    - mirahezemagic-custom-extensions-api
+    - mirahezemagic-custom-shared-repo-name-mirahezecommons
   ignored:
     - mirahezemagic-custom-termsofservicepage
     - mirahezemagic-custom-grouppage-*
