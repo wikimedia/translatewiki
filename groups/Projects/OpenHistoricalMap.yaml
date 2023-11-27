@@ -77,6 +77,7 @@ TAGS:
     - ohm-site.edit.anon_edits
     - ohm-site.edit.anon_edits_html
     - ohm-time.formats.blog
+    - ohm-site.help.welcomemat.url
     # Users may or may not want to translate the OSM wiki too
     - ohm-layouts.help_wiki_url
     - ohm-layouts.shop_url
