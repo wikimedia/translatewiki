@@ -828,6 +828,7 @@ Cognate
 
 Cognitive Process Designer
 aliasfile = CognitiveProcessDesigner/languages/CognitiveProcessDesignerSpecialPages.alias.php
+optional = cpd-ve-bpmn-title
 
 Collaboration Kit
 aliasfile = CollaborationKit/CollaborationKit.alias.php
