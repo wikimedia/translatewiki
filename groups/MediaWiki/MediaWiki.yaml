@@ -149,7 +149,6 @@ TAGS:
     - days-abbrev
     - diff-with-additional
     - edittools
-    - edittools-upload
     - ellipsis
     - feed-atom
     - feed-rss
@@ -483,6 +482,7 @@ TAGS:
     - editpage-head-copy-warn
     - editpage-summary
     - editpage-tos-summary
+    - edittools-upload
     - editwatchlist-summary
     - emailsender
     - emailuser-summary
