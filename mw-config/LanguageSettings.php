@@ -42,7 +42,6 @@ $wgExtraLanguageNames['cnh'] = 'Lai holh'; # Haka Chin / Siebrand 2014-08-06
 $wgExtraLanguageNames['cop'] = 'ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ'; # Coptic / Amir 2017-07-27
 $wgExtraLanguageNames['dar'] = 'дарган'; # Dargwa / Amir 2021-04-13
 $wgExtraLanguageNames['ddn'] = 'dendi'; # Dendi / Amir 2023-04-03
-$wgExtraLanguageNames['efi'] = 'efịk'; # Efik / Amir 2022-03-12
 $wgExtraLanguageNames['elm'] = 'Eleme'; # Eleme / Amir 2020-07-02
 $wgExtraLanguageNames['esu'] = 'Yup\'ik'; # Central Alaskan Yupik / Siebrand 2011-02-14
 $wgExtraLanguageNames['fax'] = 'Fala'; # Fala / Nikerabbit 2016-06-22
