@@ -1,0 +1,28 @@
+---
+BASIC:
+  id: kiwix-apple
+  label: Kiwix Apple
+  icon: wiki://Kiwix_icon.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/kiwix-apple/en}}"
+  namespace: NS_KIWIX
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/kiwix/apple/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage URL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: apple-
+  patterns:
+    - "*"
+
+FILES:
+  format: Apple
+  sourcePattern: "%GROUPROOT%/kiwix-apple/Support/%CODE%.lproj/Localizable.strings"
+
+VALIDATORS:
+- id: IosVariable
+  insertable: true
+  enforce: true

@@ -254,6 +254,12 @@ kiwix:
       pull-branch: translatewiki
       url: https://github.com/kiwix/kiwix-desktop.git
       url|export: git@github.com:kiwix/kiwix-desktop.git
+    kiwix-apple:
+      type: github
+      branch: main
+      pull-branch: translatewiki
+      url: https://github.com/kiwix/apple.git
+      url|export: git@git@github.com:kiwix/apple.git
     kiwix-mwoffliner:
       type: github
       branch: main
