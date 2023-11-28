@@ -3461,7 +3461,7 @@ ignored = apihelp-visualeditoredit-param-watchlist
 
 Visual Editor (MediaWiki extension) - Edit check
 id = ext-visualeditor-ve-mw-editcheck
-file = VisualEditor/modules/editcheck/i18n/%CODE%.json
+file = VisualEditor/editcheck/i18n/%CODE%.json
 ignored = editcheck-config.json
 
 Visual Editor (MediaWiki extension) - Language Variants
