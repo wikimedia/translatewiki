@@ -420,7 +420,6 @@ $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixDesktop.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixMWoffliner.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixServe.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixPhET.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixApple.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixAgg.yaml";
 $wgTranslateGroupAliases['out-kiwix'] = 'kiwix';
 $wgTranslateSupportUrlNamespace[NS_KIWIX] = [
