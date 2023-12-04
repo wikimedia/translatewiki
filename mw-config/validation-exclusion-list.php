@@ -22,14 +22,6 @@ $validationExclusionList = [
 		]
 	],
 	[
-		'group' => 'core',
-		'check' => 'plural',
-		'code' => [ 'fr' ],
-		'message' => [
-			'viewcount', // PLURAL not needed in French
-		]
-	],
-	[
 		'group' => 'ext-abusefilter-user',
 		'check' => 'variable',
 		'message' => [
@@ -64,13 +56,6 @@ $validationExclusionList = [
 			'babel-4-n', // Optional GENDER parameter
 			'babel-5-n', // Optional GENDER parameter
 			'babel-N-n', // Optional GENDER parameter
-		]
-	],
-	[
-		'group' => 'ext-call',
-		'check' => 'links',
-		'message' => [
-			'call-text', // Contains links that are translated
 		]
 	],
 	[
@@ -124,44 +109,12 @@ $validationExclusionList = [
 		]
 	],
 	[
-		'group' => 'ext-codereview',
-		'check' => 'variable',
-		'message' => [
-			'code-stats-main', // Optional time parameters
-			'group-svnadmins-member', // Optional GENDER parameter
-		]
-	],
-	[
 		'group' => 'ext-confirmaccount',
 		'check' => 'variable',
 		'message' => [
 			'requestaccount-email-body', // Optional time parameters
 			'confirmaccount-reject', // Optional time parameters
 			'confirmaccount-held', // Optional time parameters
-		]
-	],
-	[
-		'group' => 'ext-configure',
-		'check' => 'variable',
-		'message' => [
-			'configure-condition-description-4', // Optional parameter for PLURAL
-			'configure-edit-old', // Optional time parameters
-			'configure-old-summary-datetime', // Optional time parameters
-			'configure-viewconfig-line', // Optional time parameters
-		]
-	],
-	[
-		'group' => 'ext-configure-settings',
-		'check' => 'links',
-		'message' => [
-			'configure-setting-wgMaxRedirectLinksRetrieved', // Translatable link
-		]
-	],
-	[
-		'group' => 'ext-contributionseditcount',
-		'check' => 'variable',
-		'message' => [
-			'contributionseditcount', // Optional GENDER parameter
 		]
 	],
 	[
@@ -179,13 +132,6 @@ $validationExclusionList = [
 		'check' => 'links',
 		'message' => [
 			'unlockedpages', // Contains links that are translated
-		]
-	],
-	[
-		'group' => 'ext-flagpage',
-		'check' => 'links',
-		'message' => [
-			'flagpage-templatelist', // Contains link in HTML comment
 		]
 	],
 	[
@@ -265,47 +211,10 @@ $validationExclusionList = [
 		]
 	],
 	[
-		'group' => 'ext-livetranslate',
-		'check' => 'variable',
-		'message' => [
-			'group-tmxadmin-member', // Optional GENDER parameter
-		]
-	],
-	[
-		'group' => 'ext-mirrortools',
-		'check' => 'variable',
-		'message' => [
-			'group-MirrorTools-member', // Optional GENDER parameter
-		]
-	],
-	[
 		'group' => 'ext-newusernotification',
 		'check' => 'variable',
 		'message' => [
 			'newusernotifbody', // Optional time parameters
-		]
-	],
-	[
-		'group' => 'ext-onlinestatus',
-		'check' => 'variable',
-		'message' => [
-			'onlinestatus-subtitle-offline', // Optional GENDER parameter
-			'onlinestatus-subtitle-online', // Optional GENDER parameter
-		]
-	],
-	[
-		'group' => 'ext-openstackmanager',
-		'check' => 'plural',
-		'code' => [ 'fr' ],
-		'message' => [
-			'openstackmanager-instancetypelabel', // PLURAL not needed in French
-		]
-	],
-	[
-		'group' => 'ext-patroller',
-		'check' => 'variable',
-		'message' => [
-			'group-patroller-member', // Optional GENDER parameter
 		]
 	],
 	[
@@ -354,21 +263,6 @@ $validationExclusionList = [
 			'sci-metadata-search-intro-oclc', // Contains property links
 			'sci-metadata-search-intro-ol', // Contains property links
 			'sci-metadata-search-intro-viaf', // Contains property links
-		]
-	],
-	[
-		'group' => 'ext-semanticwatchlist',
-		'check' => 'variable',
-		'message' => [
-			'group-swladmins-member', // Optional GENDER parameter
-		]
-	],
-	[
-		'group' => 'ext-qpoll',
-		'check' => 'variable',
-		'message' => [
-			'qp_user_polls_link', // Optional GENDER parameter
-			'qp_user_missing_polls_link', // Optional GENDER parameter
 		]
 	],
 	[
@@ -423,17 +317,16 @@ $validationExclusionList = [
 	],
 	[
 		'group' => 'ext-uploadwizard',
-		'check' => 'variable',
+		'check' => 'links',
 		'message' => [
-			'group-upwizcampeditors-member', // Optional GENDER parameter
+			'mwe-upwiz-source-ownwork-origin-option-others-unknown-warning', // Contains links that are translated
 		]
 	],
 	[
-		'group' => 'ext-whitelistedit',
+		'group' => 'ext-uploadwizard',
 		'check' => 'variable',
 		'message' => [
-			'group-restricted-member', // Optional GENDER parameter
-			'group-manager-member', // Optional GENDER parameter
+			'group-upwizcampeditors-member', // Optional GENDER parameter
 		]
 	],
 	[
@@ -456,16 +349,6 @@ $validationExclusionList = [
 		'check' => 'variable',
 		'message' => [
 			'group-forumadmin-member', // Optional GENDER parameter
-		]
-	],
-	[
-		'group' => 'ext-wikilog',
-		'check' => 'variable',
-		'message' => [
-			'wikilog-comment-note-edited', // Optional parameter $3
-			'wikilog-summary-categories', // Optional PLURAL parameter ($1)
-			'wikilog-summary-footer', // Optional parameters $3, $4, $5, $6
-			'wikilog-summary-footer-single', // Optional parameters $1, $2, $3, $4, $5, $6
 		]
 	],
 	[
