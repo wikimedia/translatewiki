@@ -915,22 +915,6 @@ TAGS:
 
 ---
 BASIC:
-  id: mwgithub-customheader
-  label: CustomHeader
-  description: "{{Special:MyLanguage/MediaWiki:Customheader-desc/en}}"
-  support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
-    params:
-      title: Translation issue with message %MESSAGE
-      projects: extensions
-      description: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/CustomHeader/i18n/%CODE%.json"
-
----
-BASIC:
   id: mwgithub-datadump
   label: DataDump
   description: "{{Special:MyLanguage/MediaWiki:datadump-desc/en}}"

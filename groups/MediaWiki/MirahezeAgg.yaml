@@ -9,7 +9,6 @@ BASIC:
 
 GROUPS:
   - mwgithub-createwiki
-  - mwgithub-customheader
   - mwgithub-datadump
   - mwgithub-globalnewfiles
   - mwgithub-importdump
