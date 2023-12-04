@@ -279,7 +279,6 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/SWViewer.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Toolhub.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Twinkle.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/video2commons.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Web2Cit.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WhoWroteThat.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/wiki-ai.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiAuthBot.yaml";

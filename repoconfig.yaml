@@ -1071,7 +1071,7 @@ wikimedia-mailman-templates:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/software/mailman-templates
 
 wikimedia-misc-tools:
-  group: adiutor,anvesha,cejs,citationhunt,global-search,internetarchivebot,pageviews,signit,twinkle-core,video2commons,web2cit-translation-server,wikiauthbot,wikidata-lexeme-forms,wikidata-mismatch-finder,wikilearn-*,wikiscore,wscd,xtools
+  group: adiutor,anvesha,cejs,citationhunt,global-search,internetarchivebot,pageviews,signit,twinkle-core,video2commons,wikiauthbot,wikidata-lexeme-forms,wikidata-mismatch-finder,wikilearn-*,wikiscore,wscd,xtools
   repos:
     adiutor:
       type: github
@@ -1150,12 +1150,6 @@ wikimedia-misc-tools:
       type: github
       url: https://github.com/diskdance/wscd.git
       url|export: git@github.com:diskdance/wscd.git
-    web2cit-server:
-      type: gitlab
-      branch: main
-      pull-branch: i18n
-      url: https://gitlab.wikimedia.org/diegodlh/w2c-server.git
-      url|export: git@gitlab.wikimedia.org:diegodlh/w2c-server.git
 
 wikimedia-portals:
   group: wikimedia-portals
