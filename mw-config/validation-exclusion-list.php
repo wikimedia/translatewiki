@@ -316,14 +316,14 @@ $validationExclusionList = [
 		]
 	],
 	[
-		'group' => 'ext-uploadwizard',
+		'group' => 'ext-uploadwizard-user',
 		'check' => 'links',
 		'message' => [
 			'mwe-upwiz-source-ownwork-origin-option-others-unknown-warning', // Contains links that are translated
 		]
 	],
 	[
-		'group' => 'ext-uploadwizard',
+		'group' => 'ext-uploadwizard-user',
 		'check' => 'variable',
 		'message' => [
 			'group-upwizcampeditors-member', // Optional GENDER parameter
@@ -352,14 +352,14 @@ $validationExclusionList = [
 		]
 	],
 	[
-		'group' => 'ext-wikimediaincubator',
+		'group' => 'ext-wikimediaincubator-onwiki',
 		'check' => 'links',
 		'message' => [
 			'wminc-code-macrolanguage', // Contains link that can be translated
 		]
 	],
 	[
-		'group' => 'ext-wikimediaincubator',
+		'group' => 'ext-wikimediaincubator-core',
 		'check' => 'variable',
 		'message' => [
 			'group-test-sysop-member', // Optional GENDER parameter
