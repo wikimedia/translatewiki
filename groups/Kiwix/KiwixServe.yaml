@@ -25,3 +25,7 @@ VALIDATORS:
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
+
+TAGS:
+  ignored:
+    - serve-non-translated-text
