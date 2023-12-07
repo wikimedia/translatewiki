@@ -115,7 +115,6 @@ $wgExtraLanguageNames['rej'] = 'Jang'; # Rejang / Amir 2019-05-13
 $wgExtraLanguageNames['rmf'] = 'kaalengo tšimb'; # Romani language spoken in Finland / Nike 2014-03-05
 $wgExtraLanguageNames['rtm'] = 'Faeag Rotuma'; # Rotuman
 $wgExtraLanguageNames['ruq-grek'] = 'Megleno-Romanian (Greek script)'; # Megleno-Romanian (Greek script) / Siebrand 2009-09-23
-$wgExtraLanguageNames['rut'] = 'мыхаӀбишды'; # Rutul / Robin 2012-07-24
 $wgExtraLanguageNames['saz'] = 'ꢱꣃꢬꢵꢯ꣄ꢡ꣄ꢬꢵ'; # Saurashtra / Siebrand 2011-03-17
 $wgExtraLanguageNames['sju'] = 'ubmejesámiengiälla'; # Ume Sámi / Jon Harald Søby 2023-12-22
 $wgExtraLanguageNames['slr'] = 'Salırça'; # Salar / Siebrand 2008-08-18
