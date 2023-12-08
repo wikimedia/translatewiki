@@ -71,5 +71,6 @@ TAGS:
     - visualeditor-dimensionswidget-px
     - visualeditor-dimensionswidget-times
     - visualeditor-languageannotation-description-with-dir
+    - visualeditor-table-selection-dimensions
   ignored:
     - visualeditor-languageannotation-description
