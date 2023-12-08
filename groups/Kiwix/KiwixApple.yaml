@@ -26,3 +26,8 @@ VALIDATORS:
 - id: IosVariable
   insertable: true
   enforce: true
+
+TAGS:
+  optional:
+    - apple-enum.category.ted
+    - apple-enum.category.stackexchange
