@@ -56,9 +56,7 @@ TAGS:
   ignored:
     - website-license_group.labels.*
     - website-locale_codes.*
-    - website-required.mark
-
-
+    - website-simple_form.required.mark
 ---
 BASIC:
   id: eol-devise
