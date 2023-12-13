@@ -493,7 +493,6 @@ listgrouprights-members
 filehist-comment
 diff-empty
 delete
-youhavenewmessages
 blockedtext-made-by
 blockedtext-reason-comment
 blockedtext-start-time
@@ -509,7 +508,6 @@ viewsourceold
 logempty
 filehist-revert
 emailuser
-youhavenewmessagesfromusers
 redirectpagesub
 rc-old-title
 alllogstext
