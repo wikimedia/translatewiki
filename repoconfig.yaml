@@ -244,7 +244,7 @@ kiwix:
   repos:
     kiwix-android:
       type: github
-      branch: develop
+      branch: main
       pull-branch: translatewiki
       url: https://github.com/kiwix/kiwix-android.git
       url|export: git@github.com:kiwix/kiwix-android.git
