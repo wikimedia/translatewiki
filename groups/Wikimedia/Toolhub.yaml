@@ -80,6 +80,7 @@ VALIDATORS:
 
 TAGS:
   optional:
+    - toolhub-js-pipe-separator
     - toolhub-js-metadata-title-short
     - toolhub-js-metadata-title-long
     - toolhub-js-metadata-sitename
