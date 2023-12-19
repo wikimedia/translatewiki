@@ -466,8 +466,6 @@ category-empty
 preview
 search-result-category-size
 create
-newmessageslinkplural
-newmessagesdifflinkplural
 duration-days
 content-model-wikitext
 watchlist
