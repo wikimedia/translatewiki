@@ -73,6 +73,10 @@ Add Messages
 
 Add Personal Urls
 
+Adiutor
+aliasfile = Adiutor/Adiutor.alias.php
+optional = adiutor-title
+
 Admin Links
 aliasfile = AdminLinks/AdminLinks.alias.php
 
