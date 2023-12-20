@@ -84,4 +84,5 @@ TAGS:
     - toolhub-js-metadata-title-short
     - toolhub-js-metadata-title-long
     - toolhub-js-metadata-sitename
+  ignored:
     - toolhub-js-version-number
