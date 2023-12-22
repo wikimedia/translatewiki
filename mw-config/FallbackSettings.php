@@ -176,6 +176,7 @@ $wgTranslateLanguageFallbacks['se'] = [ 'fi', 'sv', 'nb', 'sma' ];
 $wgTranslateLanguageFallbacks['shi'] = [ 'ar', 'fr' ]; # Robin 2011-09-27
 $wgTranslateLanguageFallbacks['shy'] = [ 'fr', 'kab', 'arq', 'ar' ];
 $wgTranslateLanguageFallbacks['sje'] = [ 'smj', 'se', 'sma', 'sv', 'nb', 'nn' ];
+$wgTranslateLanguageFallbacks['sju'] = [ 'sje', 'sma', 'smj', 'se', 'sv', 'nb', 'nn' ];
 $wgTranslateLanguageFallbacks['sli'] = [ 'pl', 'szl' ];
 $wgTranslateLanguageFallbacks['sly'] = [ 'id' ];
 $wgTranslateLanguageFallbacks['sma'] = [ 'sv', 'nb', 'se' ];

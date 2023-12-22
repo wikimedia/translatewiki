@@ -118,6 +118,7 @@ $wgExtraLanguageNames['rtm'] = 'Faeag Rotuma'; # Rotuman
 $wgExtraLanguageNames['ruq-grek'] = 'Megleno-Romanian (Greek script)'; # Megleno-Romanian (Greek script) / Siebrand 2009-09-23
 $wgExtraLanguageNames['rut'] = 'мыхаӀбишды'; # Rutul / Robin 2012-07-24
 $wgExtraLanguageNames['saz'] = 'ꢱꣃꢬꢵꢯ꣄ꢡ꣄ꢬꢵ'; # Saurashtra / Siebrand 2011-03-17
+$wgExtraLanguageNames['sju'] = 'ubmejesámiengiälla'; # Ume Sámi / Jon Harald Søby 2023-12-22
 $wgExtraLanguageNames['slr'] = 'Salırça'; # Salar / Siebrand 2008-08-18
 $wgExtraLanguageNames['sly'] = 'Bahasa Selayar'; # A Selayar / Siebrand 2012-01-09
 $wgExtraLanguageNames['smj'] = 'julevsámegiella'; # Lule Saami / Nikerabbit 2016-06-22
