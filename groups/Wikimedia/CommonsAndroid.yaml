@@ -83,6 +83,7 @@ TAGS:
     - commons-android-strings-license_name_cc_zero
     - commons-android-strings-place_state_wlm
     - commons-android-strings-wlm_campaign_title
+    - commons-android-strings-map_attribution
   ignored:
     - commons-android-strings-beta_opt_in_link
     - commons-android-strings-map_theme_light
