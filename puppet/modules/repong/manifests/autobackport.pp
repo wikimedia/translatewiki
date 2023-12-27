@@ -17,6 +17,7 @@ class repong::autobackport (
   # Using early European mornings when CI has low use
   # LTS; supported till December 2023
   repong::autobackport_mediawiki_timer { 'REL1_35':
+    active => false,
     branch => 'REL1_35',
     when   => 'Mon 06:30:00',
   }
