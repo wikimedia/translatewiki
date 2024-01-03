@@ -75,7 +75,8 @@ Add Personal Urls
 
 Adiutor
 aliasfile = Adiutor/Adiutor.alias.php
-optional = adiutor-title
+optional = adiutor-title, adiutor-beta-feature-title
+optional = prefs-adiutor, tag-adiutor
 
 Admin Links
 aliasfile = AdminLinks/AdminLinks.alias.php
