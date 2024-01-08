@@ -198,7 +198,6 @@ $wgTranslateLanguageFallbacks['trp'] = [ 'bn', 'as', 'brx', 'hi' ];
 $wgTranslateLanguageFallbacks['tru'] = 'arc'; # Robin 2012-02-18
 $wgTranslateLanguageFallbacks['tsd'] = 'el';
 $wgTranslateLanguageFallbacks['tsg'] = [ 'tl', 'ms' ];
-$wgTranslateLanguageFallbacks['ttj'] = [ 'nyo', 'nyn', 'lg', 'sw' ];
 $wgTranslateLanguageFallbacks['tum'] = [ 'ny', 'sw' ];
 $wgTranslateLanguageFallbacks['tw'] = 'fat';
 $wgTranslateLanguageFallbacks['tyv'] = [ 'alt', 'atv', 'kjh' ];
