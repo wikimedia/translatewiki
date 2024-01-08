@@ -1175,6 +1175,9 @@ FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/RottenLinks/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - rottenlinks-extensionname
 ---
 BASIC:
   id: mwgithub-spritesheet
