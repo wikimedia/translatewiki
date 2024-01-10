@@ -1,0 +1,8 @@
+#!/bin/bash
+set -o nounset -o pipefail -o errexit
+
+. /etc/wikisettings
+
+cd "$WORKDIR"
+
+sudo -u "$REPOUSER" git log -1 $(sudo -u "$REPOUSER" git merge-base origin/master HEAD)
