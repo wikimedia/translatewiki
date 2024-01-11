@@ -211,6 +211,13 @@ $validationExclusionList = [
 		]
 	],
 	[
+		'group' => 'mwgithub-mirahezelanding',
+		'check' => 'variable',
+		'message' => [
+			'miraheze-landing-fundraising-sitenotice', // Dollar amounts in message
+		]
+	],
+	[
 		'group' => 'ext-newusernotification',
 		'check' => 'variable',
 		'message' => [
