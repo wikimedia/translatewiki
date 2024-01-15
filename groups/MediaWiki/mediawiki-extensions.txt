@@ -914,6 +914,15 @@ Confirm Edit - API
 id = ext-confirmedit-api
 file = ConfirmEdit/i18n/api/%CODE%.json
 
+Confirm Edit Cloudflare Turnstile - API
+id = ext-confirmeditturnstile-api
+file = ConfirmEdit/Turnstile/i18n/api/%CODE%.json
+
+Confirm Edit Cloudflare Turnstile - User interface
+id = ext-confirmeditturnstile-user
+file = ConfirmEdit/Turnstile/i18n/%CODE%.json
+descmsg = turnstile-desc
+
 Confirm Edit Fancy Captcha - User interface
 id = ext-confirmeditfancycaptcha-user
 file = ConfirmEdit/FancyCaptcha/i18n/%CODE%.json
@@ -935,13 +944,13 @@ Confirm Edit Questy Captcha
 file = ConfirmEdit/QuestyCaptcha/i18n/%CODE%.json
 descmsg = questycaptcha-desc
 
-Confirm Edit ReCaptcha NoCaptcha - User interface
-id = ext-confirmeditrecaptchanocaptcha-user
-file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/%CODE%.json
-
 Confirm Edit ReCaptcha NoCaptcha - API
 id = ext-confirmeditrecaptchanocaptcha-api
 file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/api/%CODE%.json
+
+Confirm Edit ReCaptcha NoCaptcha - User interface
+id = ext-confirmeditrecaptchanocaptcha-user
+file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/%CODE%.json
 
 # Congress Lookup # US centric
 
