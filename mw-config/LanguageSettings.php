@@ -32,6 +32,7 @@ $wgExtraLanguageNames = [
 	'bzs' => 'Língua brasileira de sinais', # Brazilian Sign Language; the name is intentionally written in Portuguese / Amir 2023-05-26
 	'cak' => 'Kaqchikel', # Kaqchikel / Nikerabbit 2018-06-15
 	'ccp' => '𑄌𑄋𑄴𑄟𑄳𑄦', # Chakma / Amir 2019-09-04
+	'chn' => 'chinuk wawa', # Chinook Jargon / Amir 2024-01-16
 	'cja-latn' => 'Cham Gah Pai', # Western Cham (Latin script) / 2015-06-XX
 	'cjm-latn' => 'Cham Gah Pur', # Eastern Cham (Latin script) / Siebrand 2015-05-25
 	'cjy' => '晉語', # Jin Chinese (Jinnish) / 2015-06-XX
