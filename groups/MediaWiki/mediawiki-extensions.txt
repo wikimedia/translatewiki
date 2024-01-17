@@ -1984,8 +1984,6 @@ optional = listings-phone-symbol
 
 # Live Chat // 2021-12-04: missing qqq
 
-Localisation Update
-
 Lock Author
 
 Lock Down English Pages
