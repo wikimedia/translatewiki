@@ -95,7 +95,7 @@ $wgTranslateWorkflowStates = [
 	],
 ];
 
-$wgHooks['Translate:GettextFFS:headerFields'][] = static function ( $specs, $group, $code ) {
+$wgHooks['Translate:GettextFormat:headerFields'][] = static function ( &$specs, $group, $code ) {
 	global $wgSitename, $wgCanonicalServer;
 	$specs['Project-Id-Version'] = $group->getLabel();
 	$specs['Report-Msgid-Bugs-To'] = $wgSitename;

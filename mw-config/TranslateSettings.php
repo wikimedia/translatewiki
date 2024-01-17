@@ -39,16 +39,14 @@ $wgTranslateSupportUrl = [
 	'params' => $talkParams,
 ];
 
-$wgHooks['Translate:GettextFFS:headerFields'][] = 'efHT';
-
-function efHT( $specs, $group, $code ) {
+$wgHooks['Translate:GettextFormat:headerFields'][] = static function ( &$specs, $group, $code ) {
 	global $wgSitename, $wgCanonicalServer;
 	$specs['Project-Id-Version'] = $group->getLabel();
 	$specs['Report-Msgid-Bugs-To'] = $wgSitename;
 	$server = $wgCanonicalServer;
 	$specs['X-Translation-Project'] = "$wgSitename <$server>";
 	return true;
-}
+};
 
 $wgTranslateExtensionDirectory = '/resources/projects/mediawiki-extensions/extensions';
 
