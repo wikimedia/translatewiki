@@ -91,6 +91,7 @@ $wgExtraLanguageNames = [
 	'mww-latn' => 'Hmoob Dawb', # Hmong Daw / Siebrand 2013-12-02
 	'njo' => 'Ao', # Ao Naga
 	'nod-thai' => 'คำเมือง', # Northern Thai / Siebrand 2017-05-20
+	'nup' => 'Nupe', # Nupe / Amir 2024-01-17
 	'nus' => 'Thok Naath', # Nuer / Amir 2021-02-25
 	'nzi' => 'Nzema', # Eugene Wang'ombe / 2022-12-01
 	'oka' => 'n̓səl̓xcin̓', # Okanagan Salish / Amir 2018-04-04

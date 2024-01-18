@@ -141,6 +141,7 @@ $wgTranslateLanguageFallbacks = [
 	'nog' => 'ru',
 	'nqo' => [ 'fr', 'bm' ],
 	'nso' => [ 'st', 'tn', 'af' ],
+	'nup' => [ 'ha', 'yo' ],
 	'nus' => [ 'ar', 'din' ],
 	'ny' => [ 'tum', 'sw' ],
 	'nyn' => [ 'lg', 'sw', 'rw', 'rn', 'rag' ],
