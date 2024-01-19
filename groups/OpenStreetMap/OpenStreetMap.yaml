@@ -164,6 +164,7 @@ TAGS:
     - notifier.gpx_notification.failure.import_failures_url
     - notifier.signup_confirm_plain.the_wiki_url
     - notifier.signup_confirm_plain.wiki_signup_url
+    - oauth2_authorized_applications.index.oauth_2
     - traces.edit.visibility_help_url
     - traces.create.help_url
     - traces.create.visibility_help_url
