@@ -187,6 +187,7 @@ TAGS:
     - shared.markdown_help.kramdown_url
     - shared.markdown_help.kramdown
   ignored:
+    - activerecord.errors.models.user_mute.attributes.subject.format
     - geocoder.search_osm_namefinder.prefix
     - printable_name.with_id
     - printable_name.with_name
