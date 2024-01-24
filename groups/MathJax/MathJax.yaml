@@ -88,6 +88,9 @@ MANGLER:
   patterns:
     - "*"
 
+TAGS:
+  optional:
+    - mathmenu-Option
 ---
 BASIC:
   id: out-mathjax-mathml
@@ -159,7 +162,3 @@ MANGLER:
   prefix: fontwarnings-
   patterns:
     - "*"
-
-TAGS:
-  optional:
-    - mathmenu-Option
