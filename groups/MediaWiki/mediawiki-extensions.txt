@@ -2082,7 +2082,8 @@ optional = math-lp-*
 Media Functions
 
 Media Moderation
-ignored = mediamoderation-email-body, mediamoderation-email-subject
+optional = mediamoderation-email-body-file-line
+optional = mediamoderation-email-body-file-revision-plaintext-url
 
 Media Search
 optional = mediasearch-image-size
