@@ -1872,7 +1872,6 @@ optional = kartographer-error-context
 optional = kartographer.css, kartographer.js
 optional = kartographer-link-acme-mapper
 optional = kartographer-link-apple-maps
-optional = kartographer-link-arctic-io
 optional = kartographer-link-bing-maps
 optional = kartographer-link-blue-marble-navigator
 optional = kartographer-link-geonames
