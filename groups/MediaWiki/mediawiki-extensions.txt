@@ -879,6 +879,7 @@ Common Messages
 
 Commons Metadata
 ignored = commonsmetadata-doc-url
+optional = commonsmetadata-artistcredit-separator
 
 Config Manager
 aliasfile = ConfigManager/languages/ConfigManager.alias.php
