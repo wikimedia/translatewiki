@@ -2084,6 +2084,9 @@ Media Functions
 Media Moderation
 optional = mediamoderation-email-body-file-line
 optional = mediamoderation-email-body-file-revision-plaintext-url
+ignored = mediamoderation-email-subject
+ignored = mediamoderation-email-body-files-missing-timestamp
+ignored = mediamoderation-email-body-intro
 
 Media Search
 optional = mediasearch-image-size
