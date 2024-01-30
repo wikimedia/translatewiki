@@ -88,6 +88,7 @@ $wgTranslateLanguageFallbacks = [
 	'hy' => 'ru',
 	'ia' => [ 'fr', 'it', 'es', 'pt' ],
 	'ibb' => [ 'ig', 'efi', 'ann' ],
+	'igb' => [ 'nup', 'yo', 'ig', 'ha' ],
 	'igl' => [ 'yo', 'ig', 'ha' ],
 	'ik' => [ 'ale', 'ale-cyrl', 'esu', 'ike-cans', 'ike-latn', 'kl' ],
 	'ike-cans' => [ 'ale', 'ale-cyrl', 'esu', 'ik', 'ike-latn', 'kl' ],
