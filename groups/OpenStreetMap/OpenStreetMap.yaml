@@ -66,11 +66,12 @@ INSERTABLES:
 
 TAGS:
   optional:
+    - accounts.edit.contributor terms.link
     - accounts.edit.openid.link
     - accounts.edit.public editing.enabled link
-    - accounts.edit.contributor terms.link
     - accounts.go_public.find_out_why_html
     - accounts.go_public.find_out_why_url
+    - auth.providers.microsoft
     - auth.providers.openid
     - auth.providers.windowslive
     - browse.navigation.paging.all.next
@@ -79,23 +80,24 @@ TAGS:
     - browse.navigation.paging.user.prev
     - browse.relation_member.entry
     - browse.relation_member.entry_html
+    - changeset.changeset.id
     - count.at_least_pattern
     - editor.id.name
     - errors.contact.contact_url
-    - changeset.changeset.id
-    - geocoder.search_osm_nominatim.prefix_format
-    - geocoder.search_osm_namefinder.suffix_suburb
-    - geocoder.search_osm_nominatim.prefix_other
+    - geocoder.search.title.latlon_url
     - geocoder.search.title.osm_nominatim
     - geocoder.search.title.osm_nominatim_reverse
-    - geocoder.search_osm_twain.prefix_other
     - geocoder.search.title.osm_nominatim_reverse_url
     - geocoder.search.title.osm_nominatim_url
-    - geocoder.search.title.latlon_url
+    - geocoder.search_osm_namefinder.suffix_suburb
+    - geocoder.search_osm_nominatim.prefix_format
+    - geocoder.search_osm_nominatim.prefix_other
+    - geocoder.search_osm_twain.prefix_other
     - html.dir
+    - javascripts.map.base.cyclosm
     - javascripts.map.copyright_text
-    - javascripts.map.overlays.maplint
     - javascripts.map.cyclosm_name
+    - javascripts.map.overlays.maplint
     - javascripts.map.tracestrack
     - layouts.intro_3_bytemark
     - layouts.intro_3_ucl
@@ -107,88 +109,92 @@ TAGS:
     - oauth2_applications.index.oauth_2
     - printable_name.with_name_html
     - printable_name.with_version
+    - site.any_questions.welcome_mat_url
     - site.communities.other_groups.communities_wiki_url
+    - site.copyright.legal babble.contributors_nz_cc_by
+    - site.copyright.legal_babble.contributors_2_contributors_page_url
+    - site.copyright.legal_babble.contributors_at_cc_by
+    - site.copyright.legal_babble.contributors_at_cc_by_at_with_amendments_url
+    - site.copyright.legal_babble.contributors_at_cc_by_url
+    - site.copyright.legal_babble.contributors_at_land_vorarlberg_url
+    - site.copyright.legal_babble.contributors_at_stadt_wien_url
+    - site.copyright.legal_babble.contributors_au_cc_licence_url
+    - site.copyright.legal_babble.contributors_au_geoscape_australia_url
+    - site.copyright.legal_babble.contributors_cz_cc_licence_url
+    - site.copyright.legal_babble.contributors_es_cc_by
+    - site.copyright.legal_babble.contributors_es_cc_by_url
+    - site.copyright.legal_babble.contributors_es_ign
+    - site.copyright.legal_babble.contributors_es_ign_url
+    - site.copyright.legal_babble.contributors_es_scne
+    - site.copyright.legal_babble.contributors_es_scne_url
+    - site.copyright.legal_babble.contributors_fi_nlsfi_license_url
+    - site.copyright.legal_babble.contributors_nl_and
+    - site.copyright.legal_babble.contributors_nl_and_url
+    - site.copyright.legal babble.contributors_nz_cc_by
+    - site.copyright.legal_babble.contributors_nz_cc_by_url
+    - site.copyright.legal_babble.contributors_nz_linz_data_service_url
+    - site.copyright.legal_babble.contributors_rs_open_data_portal_url
+    - site.copyright.legal_babble.contributors_rs_rgz_url
+    - site.copyright.legal_babble.contributors_si_gu_url
+    - site.copyright.legal_babble.contributors_si_mkgp_url
+    - site.copyright.legal_babble.contributors_za_ngi_url
+    - site.copyright.legal_babble.credit_3_attribution_guidelines_url
+    - site.copyright.legal_babble.infringement_2_1_online_filing_page_url
+    - site.copyright.legal_babble.infringement_2_1_takedown_procedure_url
+    - site.copyright.legal_babble.introduction_1_odc_odbl_url
+    - site.copyright.legal_babble.introduction_1_osm_foundation_url
+    - site.copyright.legal_babble.introduction_1_registered_trademark_html
+    - site.copyright.legal_babble.introduction_2_legal_code_url
+    - site.copyright.legal_babble.introduction_3_creative_commons_url
+    - site.copyright.legal_babble.more_1_1_osmf_licence_page_url
+    - site.copyright.legal_babble.more_2_1_api_usage_policy_url
+    - site.copyright.legal_babble.more_2_1_nominatim_usage_policy_url
+    - site.copyright.legal_babble.more_2_1_tile_usage_policy_url
+    - site.copyright.legal_babble.trademarks_1_1_trademark_policy_url
     - site.edit.anon_edits
     - site.edit.anon_edits_html
     - site.export.odbl_url
     - site.fixthemap.other_concerns.working_group_url
     - site.help.beginners_guide.url
-    - site.help.help.url
     - site.help.community.url
+    - site.help.help.url
     - site.help.welcomemat.url
     - site.help.wiki.url
-    - site.any_questions.welcome_mat_url
     - site.potlatch.download_url
-    - site.welcome.rules.imports_url
     - site.welcome.rules.automated_edits_url
-    - site.copyright.legal_babble.contributors_es_ign
-    - site.copyright.legal_babble.introduction_1_registered_trademark_html
-    - site.copyright.legal_babble.introduction_1_odc_odbl_url
-    - site.copyright.legal_babble.introduction_1_osm_foundation_url
-    - site.copyright.legal_babble.introduction_2_legal_code_url
-    - site.copyright.legal_babble.introduction_3_creative_commons_url
-    - site.copyright.legal_babble.credit_3_attribution_guidelines_url
-    - site.copyright.legal_babble.more_1_1_osmf_licence_page_url
-    - site.copyright.legal_babble.more_2_1_api_usage_policy_url
-    - site.copyright.legal_babble.more_2_1_tile_usage_policy_url
-    - site.copyright.legal_babble.more_2_1_nominatim_usage_policy_url
-    - site.copyright.legal_babble.contributors_at_stadt_wien_url
-    - site.copyright.legal_babble.contributors_at_cc_by_url
-    - site.copyright.legal_babble.contributors_at_land_vorarlberg_url
-    - site.copyright.legal_babble.contributors_at_cc_by_at_with_amendments_url
-    - site.copyright.legal_babble.contributors_au_geoscape_australia_url
-    - site.copyright.legal_babble.contributors_au_cc_licence_url
-    - site.copyright.legal_babble.contributors_cz_cc_licence_url
-    - site.copyright.legal_babble.contributors_fi_nlsfi_license_url
-    - site.copyright.legal_babble.contributors_nl_and
-    - site.copyright.legal_babble.contributors_nl_and_url
-    - site.copyright.legal_babble.contributors_nz_linz_data_service_url
-    - site.copyright.legal_babble.contributors_nz_cc_by_url
-    - site.copyright.legal_babble.contributors_si_gu_url
-    - site.copyright.legal_babble.contributors_si_mkgp_url
-    - site.copyright.legal_babble.contributors_es_ign_url
-    - site.copyright.legal_babble.contributors_es_scne_url
-    - site.copyright.legal_babble.contributors_es_scne
-    - site.copyright.legal_babble.contributors_es_cc_by_url
-    - site.copyright.legal_babble.contributors_za_ngi_url
-    - site.copyright.legal_babble.contributors_2_contributors_page_url
-    - site.copyright.legal_babble.infringement_2_1_takedown_procedure_url
-    - site.copyright.legal_babble.infringement_2_1_online_filing_page_url
-    - site.copyright.legal_babble.trademarks_1_1_trademark_policy_url
-    - site.copyright.legal_babble.contributors_rs_rgz_url
-    - site.copyright.legal_babble.contributors_rs_open_data_portal_url
+    - site.welcome.rules.imports_url
     - time.formats.blog
     # Users may or may not want to translate the OSM wiki too
+    - browse.common_details.coordinates_html
+    - browse.note.coordinates_html
+    - diary_entries.location.coordinates
+    - javascripts.map.base.mapquest
+    - layouts.help_url
     - layouts.help_wiki_url
+    - layouts.intro_2_use_url
     - layouts.intro_3_partners_url
+    - layouts.partners_url
     - layouts.shop_url
+    - layouts.wiki_url
     - notifier.gpx_notification.failure.import_failures_url
     - notifier.signup_confirm_plain.the_wiki_url
     - notifier.signup_confirm_plain.wiki_signup_url
     - oauth2_authorized_applications.index.oauth_2
+    - profiles.edit.gravatar.link
     - sessions.new.openid_html
-    - traces.edit.visibility_help_url
+    - shared.markdown_help.kramdown
+    - shared.markdown_help.kramdown_url
     - traces.create.help_url
     - traces.create.visibility_help_url
+    - traces.edit.visibility_help_url
     - traces.index.wiki_page_url
-    - traces.new.visibility_help_url
     - traces.new.help_url
-    - profiles.edit.gravatar.link
-    - user_mailer.gpx_failure.import_failures_url
+    - traces.new.visibility_help_url
     - users.new.privacy_policy_url
     - users.terms.consider_pd_why_url
     - users.terms.declined
     - users.terms_declined_flash.terms_declined_url
-    - layouts.help_url
-    - layouts.wiki_url
-    - javascripts.map.base.mapquest
-    - layouts.partners_url
-    - layouts.intro_2_use_url
-    - browse.common_details.coordinates_html
-    - browse.note.coordinates_html
-    - diary_entries.location.coordinates
-    - shared.markdown_help.kramdown_url
-    - shared.markdown_help.kramdown
+    - user_mailer.gpx_failure.import_failures_url
   ignored:
     - activerecord.errors.models.user_mute.attributes.subject.format
     - geocoder.search_osm_namefinder.prefix
