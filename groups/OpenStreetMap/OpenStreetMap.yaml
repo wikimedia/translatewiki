@@ -71,6 +71,7 @@ TAGS:
     - accounts.edit.contributor terms.link
     - accounts.go_public.find_out_why_html
     - accounts.go_public.find_out_why_url
+    - auth.providers.openid
     - auth.providers.windowslive
     - browse.navigation.paging.all.next
     - browse.navigation.paging.all.prev
