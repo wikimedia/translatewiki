@@ -298,14 +298,6 @@ GROUPS:
 
 ---
 BASIC:
-  id: ext-gettingstarted
-  label: GettingStarted
-  description: '{{Special:MyLanguage/MediaWiki:Gettingstarted-desc/en}}'
-GROUPS:
-  - ext-gettingstarted-*
-
----
-BASIC:
   id: ext-globalblocking
   label: GlobalBlocking
   description: '{{Special:MyLanguage/MediaWiki:Globalblocking-desc/en}}'

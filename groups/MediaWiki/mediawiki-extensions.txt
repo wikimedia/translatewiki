@@ -1492,15 +1492,6 @@ Geo Data - User interface
 id = ext-geodata-user
 file = GeoData/i18n/%CODE%.json
 
-Getting Started - API
-id = ext-gettingstarted-api
-file = GettingStarted/i18n/api/%CODE%.json
-ignored = apihelp-query+gettingstartedgetpages-example-1
-
-Getting Started - User interface
-id = ext-gettingstarted-user
-file = GettingStarted/i18n/%CODE%.json
-
 Git 2 Pages
 
 Git Gadgets
