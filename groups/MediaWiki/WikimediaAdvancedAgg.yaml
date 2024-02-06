@@ -104,6 +104,7 @@ GROUPS:
   - ext-wikilove-user
   - ext-wikihiero
   - ext-wikimediacodeofconduct
+  - ext-wikimediacommonstrings
   - ext-wikimediacontactpagemessages
   - ext-wikimediaeditortasks-user # https://phabricator.wikimedia.org/T218136
   - ext-wikimediaincubator # r89556
