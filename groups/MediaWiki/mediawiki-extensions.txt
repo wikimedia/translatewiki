@@ -3804,6 +3804,9 @@ Wikimedia Code of Conduct
 file = WikimediaMessages/i18n/codeofconduct/%CODE%.json
 ignored = wm-codeofconduct-url, wm-techcodeofconduct-url
 
+Wikimedia Common Strings
+file = WikimediaMessages/i18n/commonstrings/%CODE%.json
+
 Wikimedia Contact Page Messages
 file = WikimediaMessages/i18n/contactpage/%CODE%.json
 ignored = contactpage-pagetext-affcomusergroup, contactpage-pagetext-affcomchapthorg
