@@ -153,6 +153,7 @@ $wgTranslateLanguageFallbacks = [
 	'pap' => [ 'pap-aw', 'nl', 'pt', 'es' ],
 	'pap-aw' => [ 'pap', 'nl', 'pt', 'es' ],
 	'pbb' => 'es',
+	'pey' => [ 'id', 'nl' ],
 	'pnb' => 'pa',
 	'ppl' => 'es',
 	'prg' => [ 'lv', 'lt', 'sgs', 'ltg', 'pl', 'ru' ],
