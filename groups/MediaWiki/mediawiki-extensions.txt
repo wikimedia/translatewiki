@@ -3656,6 +3656,7 @@ id = ext-wikibaselexeme-user
 file = WikibaseLexeme/i18n/%CODE%.json
 aliasfile = WikibaseLexeme/WikibaseLexeme.i18n.alias.php
 ignored = wikibaselexeme-newlexeme-lemma-language-help-link-target
+ignored = wikibase-lexeme-randomlexeme-url
 optional = wikibaselexeme-description, wikibaselexeme-formidformatter-link-title
 optional = wikibaselexeme-formidformatter-separator-grammatical-features
 optional = wikibaselexeme-presentation-lexeme-secondary-label, wikibaselexeme-lexeme-link-title
@@ -3704,7 +3705,6 @@ Wikidata Page Banner
 Wikidata.org
 descmsg = wikidata-org-desc
 ignored = accesskey-n-wikibase-randomitem
-ignored = wikibase-lexeme-randomlexeme-url
 ignored = wikibase-queryservice-url
 ignored = wikibase-randomitem-url
 
