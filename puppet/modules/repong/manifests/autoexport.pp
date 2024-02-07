@@ -6,11 +6,17 @@ class repong::autoexport (
   String $l10nbot_user,
   String $bin_dir
 ) {
-  systemd::timer { 'autoexport.timer':
-    timer_content   => template('repong/autoexport.timer.erb'),
-    service_content => template('repong/autoexport.service.erb'),
-    active          => true,
-    enable          => true,
-    require         => User[ $l10nbot_user ],
+
+  Repong::Autoexport_timer {
+    require => User[ $l10nbot_user ],
+  }
+
+  repong::autoexport_timer { 'autoexport':
+    when => 'Mon,Thu 12:00:00 UTC',
+  }
+
+  repong::autoexport_timer { 'autoexport-mediawiki':
+    command => 'autoexport-mediawiki',
+    when    => 'Mon-Fri 7:00:00 UTC',
   }
 }
