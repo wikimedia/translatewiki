@@ -1219,6 +1219,9 @@ file = Echo/i18n/api/%CODE%.json
 Edit Account
 aliasfile = EditAccount/EditAccount.alias.php
 
+Edit Notify
+aliasfile = EditNotify/EditNotify.i18n.alias.php
+
 Edit Similar
 
 Edit Subpages
