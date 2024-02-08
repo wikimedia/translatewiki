@@ -1,7 +1,7 @@
-# = Type: repong::autoexport_timer
-define repong::autoexport_timer (
+# = Type: repong::autoimport_timer
+define repong::autoimport_timer (
   String $when,
-  String $command      = 'autoexport',
+  String $command      = 'autoimport',
   String $l10nbot_user = lookup('repong::l10nbot_user'),
   String $bin_dir      = lookup('repong::bin_dir'),
   Boolean $active      = true,
@@ -12,8 +12,8 @@ define repong::autoexport_timer (
   };
   systemd::timer { "${name}.timer":
     ensure          => $ensure,
-    timer_content   => template('repong/autoexport.timer.erb'),
-    service_content => template('repong/autoexport.service.erb'),
+    timer_content   => template('repong/autoimport.timer.erb'),
+    service_content => template('repong/autoimport.service.erb'),
     active          => $active,
     enable          => $active,
   }

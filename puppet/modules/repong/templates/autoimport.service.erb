@@ -1,0 +1,11 @@
+# This file is managed by puppet
+[Unit]
+Description=Automatically imports translations
+Requisite=mysql.service
+After=mysql.service
+
+[Service]
+User=<%= @l10nbot_user %>
+ExecStart=<%= @bin_dir %>/<%= @command %>
+ProtectHome=read-only
+ProtectSystem=full

@@ -3,10 +3,8 @@
 # Sets up automated exports using systemd timers
 #
 class repong::autoexport (
-  String $l10nbot_user,
-  String $bin_dir
+  String $l10nbot_user = lookup('repong::l10nbot_user'),
 ) {
-
   Repong::Autoexport_timer {
     require => User[ $l10nbot_user ],
   }

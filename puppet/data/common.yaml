@@ -28,18 +28,11 @@ keyholder::agent: []
 
 nginx::devsite::domain: "%{alias('wiki::domain')}"
 
-repong::bin_dir: "%{alias('bin_dir')}"
+repong::bin_dir: "%{lookup('wiki::config_dir')}/bin"
 repong::config_dir: "%{alias('wiki::config_dir')}"
 repong::l10nbot_user: "%{alias('l10nbot_user')}"
 repong::import_dir: "%{alias('autoimport_dir')}"
 repong::export_dir: "%{alias('autoexport_dir')}"
-repong::lockfile: "%{lookup('repong::import_dir')}/sync.lock"
-
-repong::autoexport::bin_dir: "%{lookup('wiki::config_dir')}/bin"
-repong::autoexport::l10nbot_user: "%{alias('l10nbot_user')}"
-
-repong::autobackport::bin_dir: "%{lookup('wiki::config_dir')}/bin"
-repong::autobackport::l10nbot_user: "%{alias('l10nbot_user')}"
 
 users::bin_dir: "%{lookup('wiki::config_dir')}/bin"
 users::maintenance_user: "%{alias('maintenance_user')}"
@@ -56,7 +49,7 @@ wiki::l10nbot_user: "%{alias('l10nbot_user')}"
 wiki::work_dir: /srv/mediawiki/workdir
 wiki::autoimport_dir: "%{alias('autoimport_dir')}"
 wiki::autoexport_dir: "%{alias('autoexport_dir')}"
-wiki::lockfile: "%{alias('repong::lockfile')}"
+wiki::lockfile: "%{lookup('wiki::autoimport_dir')}/sync.lock"
 
 wiki::docroot::domain: "%{alias('wiki::domain')}"
 wiki::docroot::production_dir: "%{alias('wiki::production_dir')}"

@@ -5,6 +5,7 @@ classes:
   - '::awstats'
   - '::nginx::sites'
   - '::mailer'
+  - '::repong::autoimport'
   - '::repong::autoexport'
   - '::repong::autobackport'
   - '::restic'

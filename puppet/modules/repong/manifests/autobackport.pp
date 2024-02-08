@@ -3,8 +3,8 @@
 # Sets up automated backports using systemd timers
 #
 class repong::autobackport (
-  String $l10nbot_user,
-  String $bin_dir,
+  String $l10nbot_user = lookup('repong::l10nbot_user'),
+  String $bin_dir      = lookup('repong::bin_dir'),
 ) {
   systemd::unit_file { 'autobackport-mediawiki@.service':
     content => template('repong/autobackport-mediawiki@.service.erb'),
@@ -15,7 +15,6 @@ class repong::autobackport (
   }
 
   # Using early European mornings when CI has low use
-
   # LTS; supported till November 2025
   repong::autobackport_mediawiki_timer { 'REL1_39':
     branch => 'REL1_39',
