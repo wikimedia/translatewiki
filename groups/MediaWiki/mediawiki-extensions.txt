@@ -2524,11 +2524,11 @@ Parser Functions
 descmsg = pfunc_desc
 magicfile = ParserFunctions/ParserFunctions.i18n.magic.php
 
-ParserMigration - API
+Parser Migration - API
 id = ext-parsermigration-api
 file = ParserMigration/i18n/api/%CODE%.json
 
-ParserMigration - User interface
+Parser Migration - User interface
 id = ext-parsermigration-user
 file = ParserMigration/i18n/%CODE%.json
 
