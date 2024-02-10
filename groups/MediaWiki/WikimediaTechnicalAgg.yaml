@@ -60,6 +60,7 @@ GROUPS:
   - ext-pageassessments-api
   - ext-pageimages-api
   - ext-pageviewinfo-api
+  - ext-parsermigration-api
   - ext-phonos-api
   - ext-proofreadpage-api
   - ext-propertysuggester-api

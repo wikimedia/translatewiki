@@ -46,6 +46,7 @@ GROUPS:
   - ext-nearbypages
   - ext-newusermessage
   - ext-parserfunctions
+  - ext-parsermigration-user
   - ext-popups # 2014-03-19
   - ext-spamblacklist-interface
   - ext-thanks-user
