@@ -313,3 +313,28 @@ VALIDATORS:
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
+
+---
+BASIC:
+  id: wikimedia-tools-wikicurricula-boilerplate
+  label: Wikidata For Education
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikicurricula-boilerplate/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/wikicurricula-uy/wikicurricula-boilerplate/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      description: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikicurricula-boilerplate-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/wikicurricula-boilerplate/visualization/assets/i18n/%CODE%.json"
+
+---

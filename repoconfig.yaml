@@ -1246,6 +1246,11 @@ wikimedia-tools:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/p/labs/tools/weapon-of-mass-description
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/weapon-of-mass-description
+    wikimedia-tools/wikicurricula-boilerplate:
+      type: github
+      branch: main
+      url: https://github.com/wikicurricula-uy/wikicurricula-boilerplate.git
+      url|export: git@github.com:wikicurricula-uy/wikicurricula-boilerplate.git
     wikimedia-tools/wikinity:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/wikinity
