@@ -90,5 +90,6 @@ GROUPS:
   - ext-wikilambda-api
   - ext-wikilove-api
   - ext-wikimediaapiportaloauth
+  - ext-wikimediacampaignevents-rest
   - ext-wikimediaeditortasks-api
   - ext-wikimediaevents
