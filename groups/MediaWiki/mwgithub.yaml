@@ -1175,6 +1175,10 @@ FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/RequestSSL/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - requestssl-extensionname
+
 ---
 BASIC:
   id: mwgithub-rottenlinks
