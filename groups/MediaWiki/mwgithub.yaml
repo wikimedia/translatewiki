@@ -899,7 +899,7 @@ BASIC:
   label: CreateWiki
   description: "{{Special:MyLanguage/MediaWiki:createwiki-desc/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE%
       projects: createwiki
@@ -919,7 +919,7 @@ BASIC:
   label: DataDump
   description: "{{Special:MyLanguage/MediaWiki:datadump-desc/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE%
       projects: datadump
@@ -946,7 +946,7 @@ BASIC:
   label: GlobalNewFiles
   description: "{{Special:MyLanguage/MediaWiki:globalnewfiles-desc/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE%
       projects: globalnewfiles
@@ -962,7 +962,7 @@ BASIC:
   label: ImportDump
   description: "{{Special:MyLanguage/MediaWiki:importdump-desc/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE%
       projects: importdump
@@ -982,7 +982,7 @@ BASIC:
   label: IncidentReporting
   description: "{{Special:MyLanguage/MediaWiki:Incidentreporting-desc/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE%
       projects: incidentreporting
@@ -998,7 +998,7 @@ BASIC:
   label: ManageWiki
   description: "{{Special:MyLanguage/MediaWiki:managewiki-desc/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE%
       projects: managewiki
@@ -1014,7 +1014,7 @@ BASIC:
   label: MatomoAnalytics
   description: "{{Special:MyLanguage/MediaWiki:Matomoanalytics-desc/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE%
       projects: matomoanalytics
@@ -1125,7 +1125,7 @@ BASIC:
   label: PDFEmbed
   description: "{{Special:MyLanguage/MediaWiki:pdfembed_description/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE
       projects: extensions
@@ -1145,7 +1145,7 @@ BASIC:
   label: RemovePII
   description: "{{Special:MyLanguage/MediaWiki:removepii-desc/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE%
       projects: removepii
@@ -1161,11 +1161,27 @@ TAGS:
 
 ---
 BASIC:
+  id: mwgithub-requestssl
+  label: RequestSSL
+  description: "{{Special:MyLanguage/MediaWiki:requestssl-desc/en}}"
+  support:
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: requestssl
+      description: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/RequestSSL/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-rottenlinks
   label: RottenLinks
   description: "{{Special:MyLanguage/MediaWiki:rottenlinks-desc/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE%
       projects: rottenlinks
@@ -1184,7 +1200,7 @@ BASIC:
   label: SpriteSheet
   description: "{{Special:MyLanguage/MediaWiki:spritesheet_description/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE
       projects: extensions
@@ -1204,7 +1220,7 @@ BASIC:
   label: WikiDiscover
   description: "{{Special:MyLanguage/MediaWiki:Wikidiscover-desc/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE%
       projects: wikidiscover
@@ -1220,7 +1236,7 @@ BASIC:
   label: YouTube (Miraheze)
   description: "{{Special:MyLanguage/MediaWiki:miraheze-youtube-desc/en}}"
   support:
-    url: https://phabricator.miraheze.org/maniphest/task/edit/form/1/
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
     params:
       title: Translation issue with message %MESSAGE%
       projects: extensions
