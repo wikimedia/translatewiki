@@ -270,6 +270,7 @@ FILES:
 
 TAGS:
   optional:
+    - videocuttool-title
     - videocuttool-task-uploaded-wikimedia-commons-footer-cover
     - videocuttool-notifications-error-bug-report
 
