@@ -18,6 +18,7 @@ GROUPS:
   - mwgithub-mirahezeerrorpages
   - mwgithub-mirahezelanding
   - mwgithub-mirahezemagic-custom
+  - mwgithub-mirahezemagic-managewiki
   - mwgithub-mirahezemagic-override
   - mwgithub-pdfembed
   - mwgithub-removepii

@@ -1105,6 +1105,15 @@ TAGS:
 
 ---
 BASIC:
+  id: mwgithub-mirahezemagic-managewiki
+  label: MirahezeMagic ManageWiki
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/MirahezeMagic/i18n/managewiki/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-mirahezemagic-override
   label: MirahezeMagic Override
 
