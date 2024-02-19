@@ -1,6 +1,6 @@
 TEMPLATE:
   BASIC:
-    icon: wiki://Mediawiki-logo.png
+    icon: wiki://MediaWiki-2020-icon.svg
     class: FileBasedMessageGroup
     namespace: NS_MEDIAWIKI
 

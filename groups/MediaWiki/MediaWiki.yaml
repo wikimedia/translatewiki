@@ -1,6 +1,6 @@
 TEMPLATE:
   BASIC:
-    icon: wiki://Mediawiki-logo.png
+    icon: wiki://MediaWiki-2020-icon.svg
     namespace: NS_MEDIAWIKI
 
   VALIDATORS:

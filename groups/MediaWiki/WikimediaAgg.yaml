@@ -1,7 +1,7 @@
 BASIC:
   id: ext-0-wikimedia
   label: Extensions used by Wikimedia
-  icon: wiki://Mediawiki-logo.png
+  icon: wiki://MediaWiki-2020-icon.svg
   meta: yes
   class: AggregateMessageGroup
   description: '{{Special:MyLanguage/Translations:Group descriptions/wikimediaextensions/en}}'

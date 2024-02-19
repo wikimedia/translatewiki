@@ -1,7 +1,7 @@
 BASIC:
   id: ext-socialprofile-0-all
   label: All SocialProfile messages
-  icon: wiki://Mediawiki-logo.png
+  icon: wiki://MediaWiki-2020-icon.svg
   meta: yes
   class: AggregateMessageGroup
   description: '{{int:translate-group-desc-socialprofile}}'

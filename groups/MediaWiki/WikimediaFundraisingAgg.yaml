@@ -1,7 +1,7 @@
 BASIC:
   id: wikimedia-fundraising
   label: Extensions used by Wikimedia - Fundraising
-  icon: wiki://Mediawiki-logo.png
+  icon: wiki://MediaWiki-2020-icon.svg
   meta: yes
   class: AggregateMessageGroup
   description: '{{Special:MyLanguage/Translations:Group descriptions/wikimediaextensions-fundraising/en}}'
