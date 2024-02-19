@@ -57,7 +57,6 @@ $wgExtraLanguageNames = [
 	'hif-deva' => 'फ़ीजी हिन्दी', # Fiji Hindi (Devangari script) / Siebrand 2010-08-26
 	'hne' => 'छत्तीसगढ़ी', # Amir 2011-12-01
 	'hoc' => '𑢹𑣉𑣉', # Ho language. Amir 2017-07-09
-	'ibb' => 'ibibio', # Ibibio / Amir 2023-04-03
 	'igb' => 'Ebira', # Ebira / Amir 2024-01-29
 	'ish' => 'awain', # Esan / Amir 2022-08-01
 	'izh' => 'ižoran keel', # Ingrian / Robin 2012-11-17 / Language classified as not written in Ethnologue. Should be removed.
