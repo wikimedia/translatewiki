@@ -126,7 +126,7 @@ and with sudo permission copy it to /www/translatewiki.net/docroot/mleb folder.
 
 7. Update relevant pages:
 
-[1] MLEB Mediawiki page: https://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle
+[1] MLEB MediaWiki page: https://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle
 [2] Latest MLEB release: https://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle/latest
 
 8. Blog post/Twitter/Facebook etc.

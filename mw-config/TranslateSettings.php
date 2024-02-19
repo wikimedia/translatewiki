@@ -118,7 +118,7 @@ $wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$auto
 	$def = "$GROUPS/MediaWiki/mediawiki-extensions.txt";
 	$path = '%GROUPROOT%/mediawiki-extensions/';
 
-	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
+	$foo = new PremadeMediaWikiExtensionGroups( $def, $path );
 	$foo->register( $list, $deps, $autoload );
 };
 
@@ -126,7 +126,7 @@ $wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$auto
 	$def = "$GROUPS/MediaWiki/mediawiki-skins.txt";
 	$path = '%GROUPROOT%/mediawiki-skins/';
 
-	$foo = new PremadeMediawikiExtensionGroups( $def, $path );
+	$foo = new PremadeMediaWikiExtensionGroups( $def, $path );
 	$foo->setGroupPrefix( 'mediawiki-skin-' );
 	$foo->register( $list, $deps, $autoload );
 };
@@ -228,7 +228,7 @@ $wgTranslateGroupSynchronizationCache = true;
 
 # Namespace 8
 $wgTranslateMessageNamespaces[] = NS_MEDIAWIKI;
-$wgMessagesDirs['MediawikiInstaller'] = "$IP/includes/installer/i18n";
+$wgMessagesDirs['MediaWikiInstaller'] = "$IP/includes/installer/i18n";
 $wgTranslateSupportUrlNamespace[NS_MEDIAWIKI] = [
 	'url' => "$phabUrl?projects=i18n",
 	'params' => $phabParams,
