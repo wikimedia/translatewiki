@@ -317,7 +317,7 @@ INSERTABLES:
 ---
 BASIC:
   id: wikimedia-tools-wikicurricula-boilerplate
-  label: Wikidata For Education
+  label: Wikicurricula
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikicurricula-boilerplate/en}}"
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
