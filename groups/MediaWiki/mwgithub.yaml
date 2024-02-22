@@ -522,6 +522,11 @@ BASIC:
 FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticWatchlist/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - semanticwatchlist-title
+
 ---
 BASIC:
   id: mwgithub-semantictasks
