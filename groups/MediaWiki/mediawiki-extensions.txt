@@ -3796,6 +3796,7 @@ optional = research-incentive-privacy, research-incentive-confirm-msg
 optional = research-incentive-link
 optional = protect-level-edit-legal, restriction-level-edit-legal
 optional = ext-quicksurveys-name
+optional = wikimedia-otherprojects-endowment, wikimedia-otherprojects-enterprise, wikimedia-otherprojects-phabricator
 prefix = wmf- | grouppage-staff, group-staff, group-staff-member
 prefix = wmf- | group-patroller, group-patroller-member, grouppage-patroller
 prefix = wmf- | createacct-captcha-help-url
