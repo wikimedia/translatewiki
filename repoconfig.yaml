@@ -432,11 +432,6 @@ mwgithub:
       branch: main
       url: https://github.com/femiwiki/AchievementBadges.git
       url|export: git@github.com:femiwiki/AchievementBadges.git
-    mwgithub/femiwiki/DiscordRCFeed:
-      type: github
-      branch: main
-      url: https://github.com/femiwiki/DiscordRCFeed.git
-      url|export: git@github.com:femiwiki/DiscordRCFeed.git
     mwgithub/femiwiki/FacetedCategory:
       type: github
       branch: main

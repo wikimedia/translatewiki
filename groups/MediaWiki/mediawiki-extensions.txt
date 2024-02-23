@@ -1082,6 +1082,9 @@ descmsg = disambig-desc
 aliasfile = Disambiguator/Disambiguator.i18n.alias.php
 magicfile = Disambiguator/Disambiguator.i18n.magic.php
 
+Discord RCFeed
+optional = discordrcfeed-emoji-*
+
 Discourse
 magicfile = Discourse/Discourse.i18n.magic.php
 optional = discourse

@@ -1691,25 +1691,6 @@ TAGS:
 
 ---
 BASIC:
-  id: mwgithub-discordrcfeed
-  label: DiscordRCFeed
-  description: "{{Special:MyLanguage/MediaWiki:discordrcfeed-desc/en}}"
-  support:
-    url: https://github.com/femiwiki/DiscordRCFeed/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/DiscordRCFeed/i18n/%CODE%.json"
-
-TAGS:
-  optional:
-    - discordrcfeed-emoji-*
-
----
-BASIC:
   id: mwgithub-mediawiki-auth
   label: MediaWiki Auth
   description: "{{Special:MyLanguage/MediaWiki:mwa-desc/en}}"
