@@ -2284,6 +2284,8 @@ magicfile = Negref/Negref.i18n.magic.php
 Network Auth
 optional = networkauth-name, networkauth-purltext
 
+Network Session
+
 NewSignupPage
 
 New User Actions
