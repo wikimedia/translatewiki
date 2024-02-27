@@ -55,6 +55,20 @@ INSERTABLES:
   - class: UrlInsertablesSuggester
 
 TAGS:
+  optional:
+    - wikimedia-developer-portal-6e3604-Python
+    - wikimedia-developer-portal-ee6209-JavaScript
+    - wikimedia-developer-portal-2c5d5b-Codex
+    - wikimedia-developer-portal-e027e5-Java
+    - wikimedia-developer-portal-4b97a1-Kotlin
+    - wikimedia-developer-portal-c280f4-Scribe
+    - wikimedia-developer-portal-2e0b45-Go
+    - wikimedia-developer-portal-5be999-Blubber
+    - wikimedia-developer-portal-7daf40-PHP
+    - wikimedia-developer-portal-b217e9-Ruby
+    - wikimedia-developer-portal-e2ae20-Rust
+    - wikimedia-developer-portal-b63904-mwbot
+    - wikimedia-developer-portal-112ab0-Swift
   ignored:
     - wikimedia-developer-portal-87840f-!=5B=5D(/assets/book.svg=23only-ligh
     - wikimedia-developer-portal-6cff4d-!=5B=5D(/assets/chemistry.svg=23only
