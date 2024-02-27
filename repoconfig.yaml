@@ -1238,6 +1238,11 @@ wikimedia-tools:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/watch-translations
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/watch-translations
+    wikimedia-tools/wdlocator:
+      type: gitlab
+      url: https://gitlab.wikimedia.org/toolforge-repos/wdlocator
+      branch: main
+      url|export: git@gitlab.wikimedia.org:toolforge-repos/wdlocator
     wikimedia-tools/weapon-of-mass-description:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/p/labs/tools/weapon-of-mass-description
