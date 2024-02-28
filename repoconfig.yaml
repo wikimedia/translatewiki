@@ -1039,6 +1039,7 @@ wikimedia-github:
       url|export: git@github.com:wikimedia/jquery.uls.git
     svgtranslate:
       type: github
+      branch: main
       url: https://github.com/wikimedia/svgtranslate.git
       url|export: git@github.com:wikimedia/svgtranslate.git
     whowrotethat:
