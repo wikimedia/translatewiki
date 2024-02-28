@@ -135,7 +135,6 @@ BASIC:
       title: Translation issue about message %MESSAGE%
       description: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
 
-
 MANGLER:
   class: StringMatcher
   prefix: wdlocator-
