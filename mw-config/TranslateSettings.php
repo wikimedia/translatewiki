@@ -213,6 +213,7 @@ $wgTranslateDisabledTargetLanguages = [
 		'se-fi' => 'This language code should remain unused. Localise in se please.',
 		'se-no' => 'This language code should remain unused. Localise in se please.',
 		'se-se' => 'This language code should remain unused. Localise in se please.',
+		'sh' => 'This language code should remain unused. Localise in sh-cyrl or sh-latn please.',
 		'simple' => 'This language code should remain unused.',
 		'skr' => 'This language code should remain unused. Localise in skr-arab please.',
 		'sr' => 'This language code should remain unused. Localise in sr-ec please.',

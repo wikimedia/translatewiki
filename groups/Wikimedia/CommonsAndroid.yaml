@@ -27,6 +27,8 @@ TEMPLATE:
       pt-br: pt-rBR
       qqq: qq
       roa-tara: b+roa+tara
+      sh-cyrl: b+sh+Cyrl
+      sh-latn: sh
       skr-arab: skr
       sr-ec: sr
       sr-el: b+sr+Latn

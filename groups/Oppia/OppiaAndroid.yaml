@@ -19,10 +19,12 @@ TEMPLATE:
       ku-latn: ku
       ms-arab: b+ms+Arab
       nds-nl: b+nds+NL
+      pcm: pcm-rNG
       pt-br: pt-rBR
       qqq: qq
       roa-tara: b+roa+tara
-      pcm: pcm-rNG
+      sh-cyrl: b+sh+Cyrl
+      sh-latn: sh
       skr-arab: skr
       sr-ec: sr
       sr-el: b+sr+Latn
