@@ -31,7 +31,6 @@ GROUPS:
   - ext-extensiondistributor-user # MediaWiki.org
   - ext-externalguidance # Deployed enwiki https://phabricator.wikimedia.org/rOMWCdb356d5c20d33a5b83e99a97de50749a7cd1cff0
   - ext-featuredfeeds-user # r110030 for all projects
-  - ext-flow-user
   - ext-geodata-user
   - ext-globalblocking-user # Only advanced users except globalblocking-ipblocked*
   - ext-globalcssjs

@@ -18,6 +18,7 @@ GROUPS:
   - ext-flaggedrevs-stablepages
   - ext-flaggedrevs-unreviewedpages
   - ext-flaggedrevs-validationstatistics
+  - ext-flow-user
   - ext-liquidthreads # Installed on very few wikis and no longer installed on new ones
   - ext-listings # T253216
   - ext-machinevision-user # In the process of being removed from Commons: https://phabricator.wikimedia.org/T345187#9174857
