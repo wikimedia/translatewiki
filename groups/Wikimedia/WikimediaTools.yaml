@@ -123,7 +123,7 @@ INSERTABLES:
 
 ---
 BASIC:
-  id: wdlocator
+  id: wikimedia-tools-wdlocator
   label: Wikidata Locator
   description: "{{Special:MyLanguage/Translations:Group descriptions/wdlocator/en}}"
   namespace: NS_WIKIMEDIA
