@@ -1,6 +1,6 @@
 # This file is managed by puppet
 [Unit]
-Description=Processes PHP error log file and relays it to IRC relay
+Description=Process and relay error messages to irc-log-relay
 After=network.target
 
 [Service]
