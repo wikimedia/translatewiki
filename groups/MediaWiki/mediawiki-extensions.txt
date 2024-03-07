@@ -3466,6 +3466,7 @@ ignored = accesskey-ca-createsource, accesskey-ca-createsource-local
 ignored = visualeditor-wikitext-warning-link, visualeditor-quick-access-characters.json
 ignored = visualeditor-template-tools-definition.json
 ignored = apihelp-visualeditoredit-param-watchlist
+ignored = visualeditor-preference-collab-info-link
 prefix = visualeditor-override- | tooltip-ca-edit
 
 Visual Editor (MediaWiki extension) - API
