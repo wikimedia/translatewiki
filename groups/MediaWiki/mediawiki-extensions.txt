@@ -60,6 +60,8 @@ Account Info
 aliasfile = AccountInfo/AccountInfo.alias.php
 ignored=accountinfo-none
 
+Achievement Badges
+
 Acrolinx
 
 Active Abstract
@@ -1305,6 +1307,8 @@ External Guidance
 ExtJS Base
 
 Extra Language Link
+
+Faceted Category
 
 Fan Boxes
 aliasfile = FanBoxes/includes/FanBoxes.alias.php
@@ -2792,6 +2796,9 @@ magicfile = SacredText/SacredText.i18n.magic.php
 
 Safe Delete
 aliasfile = SafeDelete/i18n/SafeDelete.alias.php
+
+Sanctions
+ignored = sanctions-voting-period, sanctions-voting-right-verification-period, sanctions-voting-right-verification-edits, sanctions-max-block-period, sanctions-autoblock
 
 Sandbox Link
 ignored = sandboxlink-editintro-pagename, sandboxlink-preload-pagename

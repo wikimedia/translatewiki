@@ -1330,21 +1330,6 @@ TAGS:
 
 ---
 BASIC:
-  id: mwgithub-achievementbadges
-  label: AchievementBadges
-  description: "{{Special:MyLanguage/MediaWiki:achievementbadges-desc/en}}"
-  support:
-    url: https://github.com/femiwiki/AchievementBadges/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/AchievementBadges/i18n/%CODE%.json"
-
----
-BASIC:
   id: mwgithubskin-bluellskin
   label: Blue LL
   description: "{{Special:MyLanguage/MediaWiki:bluell-desc/en}}"
@@ -1361,20 +1346,6 @@ FILES:
 TAGS:
   ignored:
     - skinname-bluell
----
-BASIC:
-  id: mwgithub-facetedcategory
-  label: FacetedCategory
-  description: "{{Special:MyLanguage/MediaWiki:facetedcategory-desc/en}}"
-  support:
-    url: https://github.com/femiwiki/FacetedCategory/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/FacetedCategory/i18n/%CODE%.json"
 
 ---
 BASIC:
@@ -1398,28 +1369,6 @@ TAGS:
   ignored:
     - skin-femiwiki-xeicon-map.json
 
----
-BASIC:
-  id: mwgithub-sanctions
-  label: Sanctions
-  description: "{{Special:MyLanguage/MediaWiki:sanctions-desc/en}}"
-  support:
-    url: https://github.com/femiwiki/Sanctions/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/femiwiki/Sanctions/i18n/%CODE%.json"
-
-TAGS:
-  ignored:
-    - sanctions-voting-period
-    - sanctions-voting-right-verification-period
-    - sanctions-voting-right-verification-edits
-    - sanctions-max-block-period
-    - sanctions-autoblock
 ---
 BASIC:
   id: mwgithub-unifiedextensionforfemiwiki
