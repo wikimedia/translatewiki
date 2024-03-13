@@ -3300,7 +3300,7 @@ aliasfile = Translate/Translate.alias.php
 magicfile = Translate/Translate.i18n.magic.php
 # aliasfile = Translate/Translate.MyLanguage.alias.php // Disabled due to a conflict with core
 optional = translate-page-paging-links, supportedlanguages-portallink, supportedlanguages-portallink-nocldr
-ignored = supportedlanguages-localsummary, tpt-translation-restricted-no-priority-languages, tpt-translation-restricted
+ignored = supportedlanguages-localsummary
 
 Translate - Page translation
 id = ext-translate-pagetranslation
@@ -3308,6 +3308,7 @@ file = Translate/i18n/pagetranslation/%CODE%.json
 descmsg = tpt-desc
 ignored = translate-edit-tag-warning, pt-movepage-error-placeholder
 ignored = tag-translate-translation-pages
+ignored = tpt-translation-restricted-no-priority-languages, tpt-translation-restricted
 
 Translate - Sandbox
 id = ext-translate-sandbox
