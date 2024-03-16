@@ -3589,12 +3589,9 @@ ignored = wikilambda-systemuser, wikilambda-bootstrapcreationeditsummary
 ignored = wikilambda-editor-additem, wikilambda-editor-removeitem
 ignored = wikilambda-modeselector-reference, wikilambda-modeselector-literal
 ignored = wikilambda-modeselector-functioncall, wikilambda-modeselector-json
-ignored = wikilambda-modeselector-argref, wikilambda-editor-clearitem
-ignored = wikilambda-updated-implementations-summary
-ignored = wikilambda-metadata-help-link, wikilambda-users-help-link
+ignored = wikilambda-editor-clearitem
 ignored = wikilambda-bootstrapupdatingeditsummary
 ignored = wikilambda-migration-edit-comment
-optional = wikilambda-json
 id = ext-wikilambda-user
 file = WikiLambda/i18n/%CODE%.json
 
@@ -3755,6 +3752,7 @@ id = ext-wikimediaeditortasks-api
 file = WikimediaEditorTasks/i18n/api/%CODE%.json
 
 Wikimedia Events
+optional = wikimediaevents-special-wikimediadebug-desc
 
 Wikimedia Incubator - core
 file = WikimediaIncubator/i18n/core/%CODE%.json
