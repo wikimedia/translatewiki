@@ -14,11 +14,15 @@ cd "$AUTOIMPORT_DIR"
 
 php "$DIRSCRIPT/../repong/repong.php" list-projects | grep ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
 
-php "$SCRIPT" --name "$NAME" --group=core,ext-*,mediawiki* --quiet
-
-if [ -f "/resources/caches/translatewiki.net/messagechanges.$NAME.cdb" ]
+if OUTPUT=$(php "$WIKISCRIPT" "$SCRIPT" --name "$NAME" --group=core,ext-*,mediawiki*)
 then
-	"$DIRSCRIPT/udpcast" "Raymond: https://translatewiki.net/wiki/Special:ManageMessageGroups/$NAME"
+	if [[ ! -z "$OUTPUT" ]]
+	then
+		echo "$OUTPUT" | xargs -l "$DIRSCRIPT/udpcast"
+	fi
 else
-	"$DIRSCRIPT/udpcast" "Raymond: No updates"
+	CODE=$?
+	echo "$OUTPUT"
+	"$DIRSCRIPT/udpcast" "Fatal error in autoimport-mediawiki! Please check the logs."
+	exit "$CODE"
 fi

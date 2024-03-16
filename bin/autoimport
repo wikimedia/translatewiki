@@ -23,6 +23,6 @@ then
 else
 	CODE=$?
 	echo "$OUTPUT"
-	"$DIRSCRIPT/udpcast" "Fatal error in autoimport!"
+	"$DIRSCRIPT/udpcast" "Fatal error in autoimport! Please check the logs."
 	exit "$CODE"
 fi
