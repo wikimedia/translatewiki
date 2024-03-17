@@ -3592,6 +3592,10 @@ ignored = wikilambda-modeselector-functioncall, wikilambda-modeselector-json
 ignored = wikilambda-editor-clearitem
 ignored = wikilambda-bootstrapupdatingeditsummary
 ignored = wikilambda-migration-edit-comment
+ignored = wikilambda-updated-implementations-summary
+optional = wikilambda-metadata-help-link
+optional = wikilambda-users-help-link
+
 id = ext-wikilambda-user
 file = WikiLambda/i18n/%CODE%.json
 
