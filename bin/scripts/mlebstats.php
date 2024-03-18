@@ -56,7 +56,7 @@ function getStatsFromFile( $path ) {
 	while ( !$file->eof() ) {
 		$line = $file->current();
 		if ( startsWith( $line, '/mleb/' ) ) {
-			list( $filename, $downloads, $hits, $size ) = explode( ' ', $line );
+			[ $filename, $downloads, $hits, $size ] = explode( ' ', $line );
 			if ( endsWith( $filename, '.tar.bz2' ) ) {
 				$stats[$filename] = $downloads;
 			}
@@ -110,8 +110,8 @@ function printAllTime( $stats ) {
 	echo "---------------------------------\n";
 	$len = count( $combined );
 	for ( $i = 0; $i < $len; $i++ ) {
-		list( $pk, $pv ) = $popular[$i];
-		list( $sk, $sv ) = $sorted[$i];
+		[ $pk, $pv ] = $popular[$i];
+		[ $sk, $sv ] = $sorted[$i];
 
 		printf(
 			"%7s %5d   |   %7s %5d \n",

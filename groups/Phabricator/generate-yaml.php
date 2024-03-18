@@ -6,7 +6,7 @@ sort( $projects );
 $specification = '';
 
 foreach ( $projects as $project ) {
-	list( , $project, $component, ) = explode( '/', $project );
+	[ , $project, $component, ] = explode( '/', $project );
 	$stuff = [
 		'BASIC' => [
 			'id' => "phabricator-$project-$component",

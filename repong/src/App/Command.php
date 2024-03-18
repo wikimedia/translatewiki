@@ -177,7 +177,7 @@ abstract class Command extends SymfonyCommand {
 		$running = [];
 		do {
 			while ( count( $running ) < $this->parallelism ) {
-				list( $ok, $process ) = self::getNextExecutableProcessIndex( $queue );
+				[ $ok, $process ] = self::getNextExecutableProcessIndex( $queue );
 
 				// Check if anything to execute
 				if ( $ok === 'NONE' ) {

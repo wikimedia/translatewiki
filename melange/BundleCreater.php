@@ -255,7 +255,7 @@ TEXT;
 
 		$filename = $this->getReleaseFileName();
 		$contents = file_get_contents( "releases/$filename.$hasher" );
-		list( $hash, /*unused*/ ) = explode( ' ', $contents, 2 );
+		[ $hash, /*unused*/ ] = explode( ' ', $contents, 2 );
 
 		$parts = [];
 		$parts[] = "I would like to announce the release of $name $version";
