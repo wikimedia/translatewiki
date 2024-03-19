@@ -2502,7 +2502,7 @@ Page Triage
 aliasfile = PageTriage/PageTriage.alias.php
 optional = pagetriage-dot-separator
 optional = pagetriage-creation-dateformat, pagetriage-user-creation-dateformat
-ignored = pagetriage-special-contributions, pagetriage-tags-param-date-format
+ignored = pagetriage-special-contributions
 ignored = notification-body-page-triage-note
 
 Page View Info - API
