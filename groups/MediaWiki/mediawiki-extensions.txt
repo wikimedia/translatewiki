@@ -2177,7 +2177,7 @@ id = ext-mobilefrontend-user
 file = MobileFrontend/i18n/%CODE%.json
 descmsg = mobile-frontend-desc
 aliasfile = MobileFrontend/MobileFrontend.alias.php
-optional = mobile.js, mobile.css, mobile-frontend-diffview-comma
+optional = mobile.js, mobile.css
 ignored = mobile-frontend-page-menu-language, mobile-frontend-terms-url
 ignored = mobile-frontend-license-links
 
