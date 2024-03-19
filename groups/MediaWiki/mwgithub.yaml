@@ -1676,6 +1676,28 @@ FILES:
 
 ---
 BASIC:
+  id: mwgithub-themetoggle
+  label: Theme Toggle
+  description: "{{Special:MyLanguage/MediaWiki:themetoggle-desc/en}}"
+  namespace: NS_WIKIMEDIA
+  support:
+    url: https://github.com/alex4401/mediawiki-extensions-ThemeToggle/issues
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: themetoggle-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/alex4401/mediawiki-extensions-ThemeToggle/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithubskin-liberty
   label: Liberty
   description: "{{Special:MyLanguage/MediaWiki:Liberty-desc/en}}"
