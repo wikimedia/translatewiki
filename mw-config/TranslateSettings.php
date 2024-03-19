@@ -290,7 +290,6 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikidataLexemeForms.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikidataMismatchFinder.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiEduDashboard.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaDeveloperPortal.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaGrantsReview.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMailmanTemplates.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-android.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMobile-ios.yaml";

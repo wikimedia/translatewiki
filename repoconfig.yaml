@@ -1052,15 +1052,6 @@ wikimedia-github:
       url: https://github.com/wikimedia/wikimedia-ocr.git
       url|export: git@github.com:wikimedia/wikimedia-ocr.git
 
-wikimedia-grants-review:
-  group: wikimedia-grants-review
-  auto-merge: wikimedia/iegreview
-  repos:
-    wikimedia-grants-review:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/wikimedia/iegreview
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/iegreview
-
 wikimedia-mailman-templates:
   group: wikimedia-mailman-templates
   auto-merge: operations/software/mailman-templates
