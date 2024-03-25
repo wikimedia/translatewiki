@@ -879,6 +879,7 @@ pagecontentservice:
 
 phabricator:
   group: phabricator-*
+  export-threshold: 1
   auto-merge: phabricator/translations
   repos:
     phabricator:
