@@ -1634,9 +1634,6 @@ Groups Sidebar
 Growth Experiments - Confirm Email
 id = ext-growthexperiments-confirmemail
 file = GrowthExperiments/i18n/confirmemail/%CODE%.json
-ignored = communityconfiguration-mentorship-description
-ignored = communityconfiguration-mentorship-gementorshipautomaticeligibility-control-label
-ignored = communityconfiguration-mentorship-gementorshipenabled-control-label
 optional = growthexperiments-recurringcampaign-title, growthexperiments-recurringcampaign-body
 optional = growthexperiments-josacampaign-title, growthexperiments-josacampaign-body
 optional = growthexperiments-glamcampaign-title, growthexperiments-glamcampaign-body
@@ -1690,6 +1687,9 @@ id = ext-growthexperiments-user
 file = GrowthExperiments/i18n/extension/%CODE%.json
 aliasfile = GrowthExperiments/GrowthExperiments.alias.php
 magicfile = GrowthExperiments/GrowthExperiments.i18n.magic.php
+ignored = communityconfiguration-mentorship-description
+ignored = communityconfiguration-mentorship-gementorshipautomaticeligibility-control-label
+ignored = communityconfiguration-mentorship-gementorshipenabled-control-label
 
 Growth Experiments - Welcome Survey
 id = ext-growthexperiments-welcomesurvey
