@@ -1634,6 +1634,9 @@ Groups Sidebar
 Growth Experiments - Confirm Email
 id = ext-growthexperiments-confirmemail
 file = GrowthExperiments/i18n/confirmemail/%CODE%.json
+ignored = communityconfiguration-mentorship-description
+ignored = communityconfiguration-mentorship-gementorshipautomaticeligibility-control-label
+ignored = communityconfiguration-mentorship-gementorshipenabled-control-label
 optional = growthexperiments-recurringcampaign-title, growthexperiments-recurringcampaign-body
 optional = growthexperiments-josacampaign-title, growthexperiments-josacampaign-body
 optional = growthexperiments-glamcampaign-title, growthexperiments-glamcampaign-body
