@@ -49,7 +49,6 @@ GROUPS:
   - ext-jsonconfig-api
   - ext-kartographer-api
   - ext-linter-api
-  - ext-machinevision-api
   - ext-massmessage-api
   - ext-math-api
   - ext-mediamoderation # https://phabricator.wikimedia.org/rOMWC78ef1c798bc0df1ff9518348e939a3ee722cc3e7
