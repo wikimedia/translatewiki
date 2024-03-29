@@ -323,6 +323,13 @@ $validationExclusionList = [
 		]
 	],
 	[
+		'group' => 'ext-translate-core',
+		'check' => 'variable',
+		'message' => [
+			'tux-editor-save-failed', // Optional PLURAL parameter
+		]
+	],
+	[
 		'group' => 'ext-uploadwizard-user',
 		'check' => 'links',
 		'message' => [
