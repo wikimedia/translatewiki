@@ -823,13 +823,6 @@ Code Editor
 
 Code Mirror
 
-# Archived: T309052
-# Code Review
-# aliasfile = CodeReview/CodeReview.alias.php
-# ignored = code-rev-comment-preview-accesskey, code-rev-submit-accesskey, code-rev-submit-next-accesskey
-# ignored = code-rev-id, code-rev-next-accesskey
-# optional = group-svnadmins.css, group-svnadmins.js
-
 Cognate
 
 Cognitive Process Designer
