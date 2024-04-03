@@ -32,6 +32,7 @@ $wgGroupPermissions[ 'bot'           ][ 'skipcaptcha'             ] = true;
 $wgGroupPermissions[ 'bot'           ][ 'move'                    ] = true;
 $wgGroupPermissions[ 'bot'           ][ 'move-subpages'           ] = true;
 $wgGroupPermissions[ 'bot'           ][ 'move-rootuserpages'      ] = true;
+$wgGroupPermissions[ 'bot'           ][ 'noratelimit'             ] = true;
 
 $wgGroupPermissions[ 'sysop'         ][ 'import'                  ] = false;
 $wgGroupPermissions[ 'sysop'         ][ 'importupload'            ] = false;
