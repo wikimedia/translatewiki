@@ -42,7 +42,7 @@ class mariadb {
   $packages = [
     'mysqltuner',
   ]
-  ensure_packages($packages, {
+  stdlib::ensure_packages($packages, {
     ensure => 'present',
   })
 }

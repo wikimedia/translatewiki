@@ -5,19 +5,18 @@ classes:
   - '::awstats'
   - '::nginx::sites'
   - '::mailer'
-  - '::backup'
   - '::repong::autoexport'
   - '::repong::autobackport'
+  - '::restic'
   - '::wiki::irc'
   - '::wiki::stats'
   - '::wiki::slack'
 
-backup::databases:
-  - translatewiki_net
-
 base::mount_device: '46.38.248.210:/voln264518a1'
 
 mailer::domain: translatewiki.net
+# https://github.com/lvicainne/puppet-opendkim/commit/a3b9ccb04d92267832ea853b68101e0d3b910acb
+opendkim::autorestart: true
 opendkim::socket: 'inet:8891@127.0.0.1'
 opendkim::trusted_hosts:
     - '::1'
@@ -44,6 +43,48 @@ keyholder::agent:
   l10n-bot-2023:
     trusted_groups: ['l10n-bot']
     priv_key_path: /root/keyholder/l10n-bot-2023
+
+restic::id: "%{alias('secret_restic_id')}"
+restic::key: "%{alias('secret_restic_key')}"
+restic::repositories:
+  files:
+    enable_backup: true
+    backup_path:
+      - /etc
+      - /home
+      - /root
+      - /srv/mediawiki/workdir
+      - /var/lib/awstats
+      - /var/log
+      - /www
+    backup_timer: "*-*-* 3:13:37"
+    host: s3.eu-central-003.backblazeb2.com
+    bucket: twn-backup-restic/files
+    password: "%{alias('secret_restic_password')}"
+    enable_forget: true
+    forget:
+      keep-last: 10
+      keep-daily: 14
+      keep-weekly: 4
+      keep-monthly: 4
+  database:
+    enable_backup: true
+    backup_pre_cmd:
+      sh -c 'mkdir -p /sql-dump &&
+      find /sql-dump -mindepth 1 -delete &&
+      mydumper -o /sql-dump -L /sql-dump/log -v 3 -e'
+    backup_path:
+      - /sql-dump
+    backup_timer: "*-*-* 2/6:13:37"
+    host: s3.eu-central-003.backblazeb2.com
+    bucket: twn-backup-restic/database
+    password: "%{alias('secret_restic_password')}"
+    enable_forget: true
+    forget:
+      keep-last: 10
+      keep-daily: 14
+      keep-weekly: 4
+      keep-monthly: 4
 
 sysctl::base::values:
   net.ipv4.tcp_window_scaling:

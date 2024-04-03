@@ -10,7 +10,7 @@ class wiki::irc (
     # irc bots
     'libpoe-component-irc-perl',
   ]
-  ensure_packages($packages, {
+  stdlib::ensure_packages($packages, {
     ensure => 'present',
   })
 

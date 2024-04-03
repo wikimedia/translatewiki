@@ -6,7 +6,7 @@ class memcached {
   $packages = [
     'memcached',
   ]
-  ensure_packages($packages, {
+  stdlib::ensure_packages($packages, {
     ensure => 'present',
   })
 

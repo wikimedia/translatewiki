@@ -19,7 +19,7 @@ class php {
     'php7.4-opcache',
     'php7.4-xml',
   ]
-  ensure_packages($packages, {
+  stdlib::ensure_packages($packages, {
     ensure => 'present',
   })
 

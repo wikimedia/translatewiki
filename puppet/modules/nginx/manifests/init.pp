@@ -6,7 +6,7 @@ class nginx {
   $packages = [
     'nginx-full',
   ]
-  ensure_packages($packages, {
+  stdlib::ensure_packages($packages, {
     ensure => 'present',
   })
 
@@ -50,28 +50,28 @@ class nginx {
   firewall { '020 Allow inbound HTTP (v4)':
     dport    => 80,
     proto    => tcp,
-    action   => accept,
-    provider => 'iptables',
+    jump     => accept,
+    protocol => 'IPv4',
   }
 
   firewall { '020 Allow inbound HTTP (v6)':
     dport    => 80,
     proto    => tcp,
-    action   => accept,
-    provider => 'ip6tables',
+    jump     => accept,
+    protocol => 'IPv6',
   }
 
   firewall { '021 Allow inbound HTTPS (v4)':
     dport    => 443,
     proto    => tcp,
-    action   => accept,
-    provider => 'iptables',
+    jump     => accept,
+    protocol => 'IPv4',
   }
 
   firewall { '021 Allow inbound HTTPS (v6)':
     dport    => 443,
     proto    => tcp,
-    action   => accept,
-    provider => 'ip6tables',
+    jump     => accept,
+    protocol => 'IPv6',
   }
 }

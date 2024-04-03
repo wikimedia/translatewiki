@@ -74,14 +74,14 @@ class mailer (
   firewall { '030 Allow inbound SMTP (v4)':
     dport    => 25,
     proto    => tcp,
-    action   => accept,
-    provider => 'iptables',
+    jump     => accept,
+    protocol => 'IPv4',
   }
 
   firewall { '030 Allow inbound SMTP (v6)':
     dport    => 25,
     proto    => tcp,
-    action   => accept,
-    provider => 'ip6tables',
+    jump     => accept,
+    protocol => 'IPv6',
   }
 }

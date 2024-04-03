@@ -1,14 +1,17 @@
 forge "https://forgeapi.puppetlabs.com"
 
-mod 'camptocamp-systemd', '3.0.0'
-mod 'lvicainne/opendkim', '0.2.9'
-mod 'puppet-elasticsearch', '8.1.0'
-mod 'puppet-elastic_stack', '8.0.2'
-mod 'puppet-kibana', '7.0.1'
-mod 'puppet-letsencrypt', '9.2.0'
-mod 'puppet-postfix', '3.1.0'
-mod 'puppetlabs-firewall', '4.1.0'
-mod 'puppetlabs-java', '8.2.0'
+mod 'lvicainne/opendkim',
+    :git => 'https://github.com/lvicainne/puppet-opendkim.git',
+    :tag => 'v0.4.0'
+mod 'puppet-elasticsearch', '9.0.0'
+mod 'puppet-elastic_stack', '9.0.0'
+mod 'puppet-kibana', '8.0.0'
+mod 'puppet-letsencrypt', '11.0.0'
+mod 'puppet-postfix', '4.4.0'
+mod 'puppet-systemd', '6.6.0'
+mod 'puppetlabs-firewall', '8.0.1'
+mod 'puppetlabs-java', '10.1.2'
 mod 'puppetlabs-mount_core', '1.2.0'
-mod 'puppetlabs-mysql', '13.3.0'
+mod 'puppetlabs-mysql', '15.0.0'
+mod 'syseleven-restic', '2.6.1'
 mod 'thias-sysctl', '1.0.7'

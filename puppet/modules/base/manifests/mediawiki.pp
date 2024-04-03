@@ -16,7 +16,7 @@ class base::mediawiki {
     # fonts for phplot
     'fonts-dejavu',
   ]
-  ensure_packages($packages, {
+  stdlib::ensure_packages($packages, {
     ensure => 'present',
   })
 }

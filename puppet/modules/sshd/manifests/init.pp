@@ -6,7 +6,7 @@ class sshd {
   $packages = [
     'mosh', # ssh for bad connections
   ]
-  ensure_packages($packages, {
+  stdlib::ensure_packages($packages, {
     ensure => 'present',
   })
 
@@ -27,16 +27,16 @@ class sshd {
   }
 
   firewall { '009 Allow inbound mosh (v4)':
-    dport    => '60000-61000',
+    dport    => '60000:61000',
     proto    => udp,
-    action   => accept,
-    provider => 'iptables',
+    jump     => accept,
+    protocol => 'IPv4',
   }
 
   firewall { '009 Allow inbound mosh (v6)':
-    dport    => '60000-61000',
+    dport    => '60000:61000',
     proto    => udp,
-    action   => accept,
-    provider => 'ip6tables',
+    jump     => accept,
+    protocol => 'IPv6',
   }
 }

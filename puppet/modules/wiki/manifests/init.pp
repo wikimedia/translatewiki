@@ -57,7 +57,7 @@ class wiki (
     'poolcounter',
     'composer',
   ]
-  ensure_packages($packages, {
+  stdlib::ensure_packages($packages, {
     ensure => 'present',
   })
 }

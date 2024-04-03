@@ -22,9 +22,10 @@ class profile::mwelasticsearch (
   }
 
   class { 'elasticsearch':
-    version     => '7.10.2',
-    oss         => true,
-    jvm_options => [
+    restart_on_change => true,
+    version           => '7.10.2',
+    oss               => true,
+    jvm_options       => [
       "-Xms${memory_limit}",
       "-Xmx${memory_limit}",
     ],

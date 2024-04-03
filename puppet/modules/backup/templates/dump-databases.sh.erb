@@ -1,7 +1,0 @@
-#!/bin/sh
-
-<% @databases.each do |db| -%>
-nice mysqldump --opt --single-transaction \
-	--user=root --password="" <%= db %> \
-	| nice pbzip2 > /root/db-backup-<%= db %>.sql.bz2
-<% end -%>

@@ -6,7 +6,7 @@ class hostname {
   $packages = [
     'libnss-myhostname',
   ]
-  ensure_packages($packages, {
+  stdlib::ensure_packages($packages, {
     ensure => 'present',
   })
 
