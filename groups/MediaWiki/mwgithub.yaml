@@ -1679,7 +1679,7 @@ BASIC:
   id: mwgithub-themetoggle
   label: Theme Toggle
   description: "{{Special:MyLanguage/MediaWiki:themetoggle-desc/en}}"
-  namespace: NS_WIKIMEDIA
+  namespace: NS_MEDIAWIKI
   support:
     url: https://github.com/alex4401/mediawiki-extensions-ThemeToggle/issues
     params:
