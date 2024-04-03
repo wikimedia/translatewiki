@@ -461,10 +461,10 @@ mwgithub:
       type: github
       url: https://github.com/Halopedia/Onyx.git
       url|export: git@github.com:Halopedia/Onyx.git
-    mwgithub/Hutchy68/Purge:
+    mwgithub/AlPha5130/Purge:
       type: github
-      url: https://github.com/Hutchy68/Purge.git
-      url|export: git@github.com:Hutchy68/Purge.git
+      url: https://github.com/AlPha5130/mediawiki-extensions-Purge.git
+      url|export: git@github.com:AlPha5130/mediawiki-extensions-Purge.git
     mwgithub/jayktaylor/mw-discord:
       type: github
       url: https://github.com/jayktaylor/mw-discord.git

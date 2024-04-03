@@ -883,14 +883,14 @@ BASIC:
   label: Purge
   description: "{{Special:MyLanguage/MediaWiki:purge-descriptionmsg/en}}"
   support:
-    url: https://github.com/Hutchy68/Purge/issues/new
+    url: https://github.com/AlPha5130/mediawiki-extensions-Purge/issues/new
     params:
       title: Translation issue with message %MESSAGE%
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/Hutchy68/Purge/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/AlPha5130/Purge/i18n/%CODE%.json"
 
 MANGLER:
   class: StringMatcher
