@@ -1792,6 +1792,8 @@ aliasfile = ImportUsers/ImportUsers.alias.php
 
 Inline Categorizer
 
+Inline Comments
+
 Input Box
 
 Interactive Block Message
