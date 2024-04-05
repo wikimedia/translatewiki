@@ -1265,7 +1265,7 @@ wikipedia-android:
       url|export: git@github.com:wikimedia/apps-android-wikipedia.git
 
 wikipedia-ios:
-  group: out-wikimedia-mobile-wikipedia-ios
+  group: out-wikimedia-mobile-wikipedia-ios*
   repos:
     wikipedia-ios:
       type: github
