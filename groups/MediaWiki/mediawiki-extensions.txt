@@ -2009,15 +2009,6 @@ Loops
 ignored = loops-limitreport-count-unlimited-value
 optional = loops-limitreport-count-limited-value
 
-Machine Vision - User interface
-id = ext-machinevision-user
-file = MachineVision/i18n/%CODE%.json
-aliasfile = MachineVision/MachineVision.alias.php
-
-Machine Vision - API
-id = ext-machinevision-api
-file = MachineVision/i18n/api/%CODE%.json
-
 Mad Lib
 
 Magic No Cache

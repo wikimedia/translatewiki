@@ -374,14 +374,6 @@ GROUPS:
 
 ---
 BASIC:
-  id: ext-machinevision
-  label: Machine Vision
-  description: '{{Special:MyLanguage/MediaWiki:Machinevision-desc/en}}'
-GROUPS:
-  - ext-machinevision-*
-
----
-BASIC:
   id: ext-massmessage
   label: Mass Message
   description: '{{Special:MyLanguage/MediaWiki:Massmessage-desc/en}}'
