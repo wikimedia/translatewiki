@@ -206,6 +206,7 @@ $wgExtraNamespaces[NS_TRANSLATING] = 'Translating';
 $wgExtraNamespaces[NS_TRANSLATING_TALK] = 'Translating_talk';
 
 $wgContentNamespaces[] = NS_MEDIAWIKI;
+$wgVisualEditorAvailableNamespaces['MediaWiki'] = false;
 $wgContentNamespaces[] = NS_TRANSLATING;
 
 $wgNamespacesToBeSearchedDefault[NS_MAIN] = true;
@@ -250,8 +251,8 @@ function wfAddNamespace( int $id, string $name, ?string $constant = null ): void
 	$wgNamespaceProtection[$id] = [ 'translate' ];
 
 	$wgNamespacesToBeSearchedDefault[$id] = true;
-
-	$wgVisualEditorAvailableNamespaces[$id] = false;
+	// https://www.mediawiki.org/wiki/Extension:VisualEditor#Changing_active_namespaces
+	$wgVisualEditorAvailableNamespaces[$name] = false;
 }
 
 require_once __DIR__ . '/ExtensionSettings.php';
