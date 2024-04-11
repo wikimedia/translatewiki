@@ -211,6 +211,8 @@ $wgContentNamespaces[] = NS_TRANSLATING;
 $wgNamespacesToBeSearchedDefault[NS_MAIN] = true;
 $wgNamespacesToBeSearchedDefault[NS_MEDIAWIKI] = true;
 
+$wgVisualEditorAvailableNamespaces[NS_MEDIAWIKI] = false;
+
 $wgNoFollowDomainExceptions = [
 	'laxstrom.name',
 	'ultimategerardm.blogspot.com',
