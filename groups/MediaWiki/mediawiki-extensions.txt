@@ -667,6 +667,7 @@ optional = campaignevents-register-question-age-option-55-64
 optional = campaignevents-register-question-age-option-65-74
 optional = campaignevents-register-question-age-option-75-84
 optional = campaignevents-register-question-age-option-85-plus
+optional = campaignevents-allevents-date-separator
 file = CampaignEvents/i18n/%CODE%.json
 
 Campaigns
@@ -3734,7 +3735,6 @@ file = WikimediaCampaignEvents/i18n/rest/%CODE%.json
 Wikimedia Campaign Events - User interface
 id = ext-wikimediacampaignevents-user
 file = WikimediaCampaignEvents/i18n/%CODE%.json
-optional = campaignevents-allevents-date-separator
 
 Wikimedia Editor Tasks - User interface
 id = ext-wikimediaeditortasks-user
