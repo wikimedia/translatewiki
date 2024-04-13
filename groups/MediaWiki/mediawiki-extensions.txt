@@ -3734,6 +3734,7 @@ file = WikimediaCampaignEvents/i18n/rest/%CODE%.json
 Wikimedia Campaign Events - User interface
 id = ext-wikimediacampaignevents-user
 file = WikimediaCampaignEvents/i18n/%CODE%.json
+optional = campaignevents-allevents-date-separator
 
 Wikimedia Editor Tasks - User interface
 id = ext-wikimediaeditortasks-user
