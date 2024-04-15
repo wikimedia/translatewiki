@@ -1829,6 +1829,8 @@ optional = ipinfo-extensionname
 optional = ipinfo-value-ipversion-ipv4, ipinfo-value-ipversion-ipv6
 optional = ipinfo-property-label-isp, ipinfo-property-label-asn
 
+IPReputation
+
 Josa
 
 JS Bread Crumbs
