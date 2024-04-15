@@ -101,7 +101,12 @@ TAGS:
     - ohm-site.edit.anon_edits_link
     - ohm-site.index.license.license_url
     - ohm-site.index.license.project_url
+    - ohm-site.help.discord.url
+    - ohm-site.help.mailing_list.url
     - ohm-site.help.mailing_lists.url
+    - ohm-site.help.forum.url
     - ohm-site.help.forums.url
     - ohm-site.help.irc.url
+    - ohm-site.help.slack.url
     - ohm-site.help.switch2osm.url
+    - ohm-site.help.wiki.url
