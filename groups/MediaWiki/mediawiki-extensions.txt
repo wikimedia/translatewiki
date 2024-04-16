@@ -935,10 +935,6 @@ Confirm Edit hCaptcha
 file = ConfirmEdit/hCaptcha/i18n/%CODE%.json
 descmsg = hcaptcha-desc
 
-Confirm Edit Math Captcha
-file = ConfirmEdit/MathCaptcha/i18n/%CODE%.json
-descmsg = mathcaptcha-desc
-
 Confirm Edit Questy Captcha
 file = ConfirmEdit/QuestyCaptcha/i18n/%CODE%.json
 descmsg = questycaptcha-desc
