@@ -12,6 +12,9 @@ $wgTranslateNewsletterPreference = true;
 // Enable message bundle integration. See: T286547
 $wgTranslateEnableMessageBundleIntegration = true;
 
+// Enable message group subscriptions. See: T348501
+$wgTranslateEnableMessageGroupSubscription = true;
+
 $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
 $wgTranslateValidationExclusionFile = __DIR__ . "/validation-exclusion-list.php";
 
