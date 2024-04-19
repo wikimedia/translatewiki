@@ -115,15 +115,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: phabricator-phabricator-chatlog
-  label: Phabricator (phabricator > chatlog)
-FILES:
-  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/chatlog/%CODE%.json'
-MANGLER:
-  prefix: phabricator-chatlog-
-
----
-BASIC:
   id: phabricator-phabricator-conduit
   label: Phabricator (phabricator > conduit)
 FILES:
