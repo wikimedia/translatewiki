@@ -49,8 +49,6 @@ TEMPLATE:
         - login-userblocked # Optional GENDER parameter
         - othercontribs # Optional count parameter
         - perfcachedts # Optional time parameters
-        - prefs-memberingroups-type # Optional parameter for group name
-        - prefs-registration-date-time # Optional time parameters
         - protect-expiring # Optional time parameters
         - protect-expiring-local # Optional time parameters
         - rclistfrom # Optional time parameter
@@ -66,6 +64,9 @@ TEMPLATE:
         - userrights-groupsmember-auto # Optional PLURAL parameter
         - userrights-groupsmember-type # Optional parameter for group name
         - userrights-unchangeable-col # Optional PLURAL parameter
+        # mediawiki-preferences
+        - prefs-memberingroups-type # Optional parameter for group name
+        - prefs-registration-date-time # Optional time parameters
     - id: MediaWikiPlural
       exclude:
         # core
@@ -97,6 +98,7 @@ GROUPS:
   - mediawiki-installer
   - mediawiki-skin-0-all
   - mediawiki-exif
+  - mediawiki-preferences
   - mediawiki-api
   - mediawiki-rest-api
   - wikimedia-paramvalidator
@@ -249,8 +251,6 @@ TAGS:
     - passwordpolicies-policy-displaywithflags
     - percent
     - pipe-separator
-    - prefs-memberingroups-type
-    - prefs-registration-date-time
     - print.css
     - protect-summary-desc
     - rc-change-size
@@ -551,9 +551,7 @@ TAGS:
     - pear-mail-error
     - permanentlink-summary
     - php-mail-error
-    - preferences-summary
     - prefixindex-summary
-    - prefs-user-downloaddata-help-message
     - protectpage-summary
     - protectedpages-unknown-reason
     - pubmedurl
@@ -742,6 +740,25 @@ TAGS:
     - exif-model-value
     - exif-software-value
     - exif-software-version-value
+
+---
+BASIC:
+  id: mediawiki-preferences
+  label: MediaWiki core - User preferences
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikipreferences/en}}"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/preferences/%CODE%.json"
+
+TAGS:
+  optional:
+    - prefs-memberingroups-type
+    - prefs-registration-date-time
+  ignored:
+    - preferences-summary
+    - prefs-user-downloaddata-help-message
 
 ---
 BASIC:
