@@ -59,6 +59,7 @@ convenient-discussions:
   repos:
     jwbth/convenient-discussions:
       type: github
+      branch: main
       url: https://github.com/jwbth/convenient-discussions.git
       url|export: git@github.com:jwbth/convenient-discussions.git
 
