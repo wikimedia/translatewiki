@@ -2929,7 +2929,6 @@ descmsg = swmp-desc
 
 Similar Editors
 aliasfile = SimilarEditors/SimilarEditors.alias.php
-ignored = similareditors-survey-freeform-text-label
 
 Simple Changes
 aliasfile = SimpleChanges/SimpleChanges.alias.php
