@@ -164,6 +164,8 @@ globalusage-on-wiki
 hidden-categories
 citethispage-link
 urlshortener-toolbox
+urlshortener-toolbox-qrcode
+urlshortener-qrcode-downloaded
 coll-print_export
 contactpage
 revisionasof
