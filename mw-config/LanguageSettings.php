@@ -10,7 +10,6 @@ $wgExtraLanguageNames = [
 	'ale' => 'unangam tunuu', # Aleut / Amir 2021-12-24
 	'ale-cyrl' => 'унаӈам тунуу', # Aleut (Cyrillic) / Amir 2021-12-24
 	'als' => 'Tosk', # Correct incorrect name from MediaWiki core / Nike 2016-05-04
-	'apc' => 'شامي', # Levantine Arabic / Amir 2021-07-11; moved from ajp to apc on 2023-02-22
 	'apw' => 'Ndee biyáti\'', # Western Apache / Jon Harald Søby 2023-10-25
 	'aro' => 'Araona', # Araona / Siebrand 2010-08-25
 	'atv' => 'тÿндÿк алтай', # Northern Altay / Amir 2020-06-07
