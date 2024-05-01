@@ -94,7 +94,6 @@ $wgExtraLanguageNames = [
 	'mww-latn' => 'Hmoob Dawb', # Hmong Daw / Siebrand 2013-12-02
 	'nan-hani' => '閩南語（漢字）', # Minnan (Han scripts - defaults to Traditional Han) / Winston Sung 2024-03-07
 	'nan-hans' => '闽南语（简化汉字）', # Minnan (Simplified Han script) / Winston Sung 2024-03-07
-	'nan-hant' => '閩南語（傳統漢字）', # Minnan (Traditional Han script) / Winston Sung 2024-03-07
 	'nan-latn' => 'Bân-lâm-gú (Lô-má-jī)', # Minnan (Latin script, multiple romanizations - defaults to Pe̍h-ōe-jī) / Winston Sung 2024-03-07
 	'nan-latn-pehoeji' => 'Bân-lâm-gú (Pe̍h-ōe-jī)', # Minnan (Latin script, Pe̍h-ōe-jī) / Winston Sung 2024-03-07
 	'nan-latn-tailo' => 'Bân-lâm-gú (Tâi-lô)', # Minnan (Latin script, Tâi-lô) / Winston Sung 2024-03-07

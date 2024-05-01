@@ -137,7 +137,6 @@ $wgTranslateLanguageFallbacks = [
 	'mwv' => 'id',
 	'nan' => [ 'nan-latn-pehoeji', 'nan-latn-tailo', 'nan-hant', 'nan-hans', 'zh-hans', 'zh-hant' ],
 	'nan-hans' => [ 'nan-hant', 'nan-latn-pehoeji', 'nan-latn-tailo', 'nan', 'zh-hans', 'zh-hant' ],
-	'nan-hant' => [ 'nan-hans', 'nan-latn-pehoeji', 'nan-latn-tailo', 'nan', 'zh-hant', 'zh-hans' ],
 	'nan-latn-pehoeji' => [ 'nan-latn-tailo', 'nan-hant', 'nan-hans', 'nan', 'zh-hant', 'zh-hans' ],
 	'nan-latn-tailo' => [ 'nan-latn-pehoeji', 'nan-hant', 'nan-hans', 'nan', 'zh-hant', 'zh-hans' ],
 	'nb' => [ 'nn', 'da', 'sv' ], # Siebrand 2008-02-18
