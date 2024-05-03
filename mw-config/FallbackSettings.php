@@ -199,6 +199,7 @@ $wgTranslateLanguageFallbacks = [
 	'st' => [ 'nso', 'tn', 'af' ],
 	'swb' => 'sw',
 	'tdd' => [ 'zh-hant', 'my', 'mnw', 'th', 'shn', 'nod' ],
+	'tg-cyrl' => [ 'ru', 'fa' ],
 	'tig' => [ 'ti', 'am' ],
 	'tji' => 'zh-hans',
 	'tkr' => 'ru',
