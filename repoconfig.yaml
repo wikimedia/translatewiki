@@ -8,10 +8,6 @@
 ajapaik:
   group: ajapaik-*
   repos:
-    ajapaik:
-      type: github
-      url: https://github.com/Ajapaik/ajapaik-android-app.git
-      url|export: git@github.com:Ajapaik/ajapaik-android-app.git
     ajapaik-web:
       type: github
       url: https://github.com/Ajapaik/ajapaik-web.git
