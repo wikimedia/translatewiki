@@ -8,7 +8,7 @@ User=www-data
 Group=www-data
 ExecStart=/usr/bin/php <%= @production_dir %>/maintenance/run.php runJobs --wait --maxjobs=1000 --memory-limit=1G --procs=2
 Restart=always
-RestartSec=5
+RestartSec=1
 ProtectHome=read-only
 ProtectSystem=full
 
