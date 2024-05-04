@@ -491,6 +491,8 @@ TAGS:
     - srf-ui-eventcalendar-format-column-week
     - srf-ui-eventcalendar-format-column-day
     - srf-filtered-firstdayofweek
+    - srf-prolog-link
+    - srf-dataframe-link
   ignored:
     - srf-name
     - srf-ui-datatables-label-sInfoPostFix
