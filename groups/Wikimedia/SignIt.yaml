@@ -30,3 +30,8 @@ VALIDATORS:
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
+
+TAGS:
+  optional:
+    - signit-si-overlay-coreContent-right-wikt-iso
+    - signit-si-overlay-coreContent-right-wikt-section-id
