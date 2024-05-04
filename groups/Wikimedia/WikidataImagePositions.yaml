@@ -1,0 +1,30 @@
+BASIC:
+  id: wikidata-image-positions
+  label: Wikidata Image Positions
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikidata-image-positions/en}}"
+  support:
+    url: https://phabricator.wikimedia.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      description: "\n\nURL: %MESSAGE_URL%"
+      projects: wikidata-image-positions,i18n
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikidata-image-positions-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wikidata-image-positions/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: true
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
