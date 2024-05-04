@@ -350,16 +350,6 @@ mediawiki-skins:
   repos:
     '@generator': php ../groups/MediaWiki/repong-generator.php skins
 
-mifos:
-  group: out-mifos
-  export-threshold: 20
-  repos:
-    mifos:
-      type: github
-      branch: develop
-      url: https://github.com/openMF/community-app.git
-      url|export: git@github.com:openMF/community-app.git
-
 miniedit:
   group: miniedit
   auto-merge: mediawiki/gadgets/MiniEdit

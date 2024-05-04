@@ -369,12 +369,8 @@ wfAddNamespace( 1226, 'Shapado' );
 # No longer in use.
 wfAddNamespace( 1228, 'iHRIS' );
 
+# No longer in use.
 wfAddNamespace( 1230, 'Mifos' );
-$wgTranslateGroupFiles[] = "$GROUPS/Mifos/Mifos.yaml";
-$wgTranslateSupportUrlNamespace[NS_MIFOS] = [
-	'page' => 'Translating_talk:Mifos',
-	'params' => $talkParams,
-];
 
 # No longer in use.
 wfAddNamespace( 1232, 'Wikia' );
