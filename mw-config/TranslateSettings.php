@@ -240,6 +240,11 @@ $wgTranslateDisabledTargetLanguages = [
 	'out' => [
 		'roa-tara' => 'This code is not available for this software.',
 	],
+	'!sandbox' => [
+		'en' => 'The source language is English, so you cannot translate from English to English. Please select another language.',
+		'en-ca' => 'The source language is English, so you cannot translate into an English variety. Please select another language. If you actually want to translate into Canadian English, please send an e-mail to translatewiki@translatewiki.net',
+		'en-gb' => 'The source language is English, so you cannot translate into an English variety. Please select another language. If you actually want to translate into British English, please send an e-mail to translatewiki@translatewiki.net',
+	]
 ];
 
 $wgTranslateGroupSynchronizationCache = true;
