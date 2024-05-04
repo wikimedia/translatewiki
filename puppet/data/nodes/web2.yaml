@@ -64,7 +64,7 @@ profile::mwelasticsearch::memory_limit: '12g'
 users::users:
   siebrand:
     uid: 1000
-    groups: [ betawiki, www-shared, sysadmin ]
+    groups: [ betawiki, www-shared, l10n-bot, sysadmin ]
     purge_ssh_keys: true
     comment: Siebrand Mazeland
   nike:
