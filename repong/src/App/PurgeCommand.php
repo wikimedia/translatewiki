@@ -25,7 +25,7 @@ class PurgeCommand extends Command {
 		);
 	}
 
-	protected function execute( InputInterface $input, OutputInterface $output ) {
+	protected function execute( InputInterface $input, OutputInterface $output ): int {
 		$knownPaths = [];
 		foreach ( array_keys( $this->config ) as $project ) {
 			if ( $project === '@meta' ) {
@@ -48,13 +48,15 @@ class PurgeCommand extends Command {
 		foreach ( self::getUnknownDirectories( $this->getBase(), '', $knownPathsString ) as $path ) {
 			$output->writeln( $path );
 			if ( $really ) {
-				$process = new Process( "rm -rf '$path'" );
+				$process = Process::fromShellCommandline( "rm -rf '$path'" );
 				$process->setWorkingDirectory( $this->getBase() );
 				$processes->attach( $process );
 			}
 		}
 
 		$this->runParallelWithOutput( $processes, $output );
+
+		return 0;
 	}
 
 	private static function getUnknownDirectories(

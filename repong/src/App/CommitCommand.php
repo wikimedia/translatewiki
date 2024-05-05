@@ -36,7 +36,7 @@ class CommitCommand extends Command {
 		);
 	}
 
-	protected function execute( InputInterface $input, OutputInterface $output ) {
+	protected function execute( InputInterface $input, OutputInterface $output ): int {
 		$this->parallelism = min( self::MAX_CONNECTIONS, $this->parallelism );
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
@@ -110,7 +110,7 @@ class CommitCommand extends Command {
 				throw new RuntimeException( "Unknown repo type '$type' for repository: $name" );
 			}
 
-			$process = new Process( $command );
+			$process = Process::fromShellCommandline( $command );
 			$process->setTimeout( 300 );
 			$process->setWorkingDirectory( $base );
 			$processes->attach( $process );
@@ -123,12 +123,14 @@ class CommitCommand extends Command {
 		if ( $mergePattern ) {
 			$command = $this->bindir . "/merge-wmgerrit-patches '$mergePattern'";
 			echo $command . "\n";
-			$mergeProcess = new Process( $command );
+			$mergeProcess = Process::fromShellCommandline( $command );
 			$mergeProcess->setTimeout( 600 );
 			$mergeProcess->mustRun();
 		}
 
 		$this->makePullRequests( $config, $base, $output );
+
+		return 0;
 	}
 
 	private function makePullRequests( array $config, string $base, OutputInterface $output ): void {
@@ -238,7 +240,7 @@ class CommitCommand extends Command {
 
 	/** Check whether there are changes for a pull request (compared to target branch). */
 	private function hasChanges( string $repositoryPath, string $branch ): bool {
-		$process = new Process( "git log origin/$branch..HEAD" );
+		$process = Process::fromShellCommandline( "git log origin/$branch..HEAD" );
 		$process->setWorkingDirectory( $repositoryPath );
 		$process->setTimeout( 5 );
 		$process->run();

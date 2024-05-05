@@ -20,7 +20,7 @@ class UpdateCommand extends Command {
 		$this->addOption( 'filter', null, InputOption::VALUE_REQUIRED );
 	}
 
-	protected function execute( InputInterface $input, OutputInterface $output ) {
+	protected function execute( InputInterface $input, OutputInterface $output ): int {
 		$this->parallelism = min( self::MAX_CONNECTIONS, $this->parallelism );
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
@@ -54,7 +54,7 @@ class UpdateCommand extends Command {
 				// Determine the state to use, if possible
 				$state = "origin/$branch";
 				if ( $syncState ) {
-					$process = new Process( 'git log --pretty="%H" -n 1' );
+					$process = Process::fromShellCommandline( 'git log --pretty="%H" -n 1' );
 					$process->setWorkingDirectory( "$stateDir/$name" );
 					$process->setTimeout( 5 );
 					$process->run();
@@ -77,11 +77,13 @@ class UpdateCommand extends Command {
 				throw new RuntimeException( "Unknown repo type '$genericType' for repository: $name" );
 			}
 
-			$process = new Process( $command );
+			$process = Process::fromShellCommandline( $command );
 			$process->setTimeout( 450 );
 			$processes->attach( $process );
 		}
 
 		$this->runParallelWithOutput( $processes, $output );
+
+		return 0;
 	}
 }

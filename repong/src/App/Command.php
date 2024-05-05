@@ -84,7 +84,7 @@ abstract class Command extends SymfonyCommand {
 		// Step 1: Handle repo generator
 		if ( isset( $config[ 'repos' ][ '@generator' ] ) ) {
 			$generator = $config[ 'repos' ][ '@generator' ];
-			$process = new Process( $generator );
+			$process = Process::fromShellCommandline( $generator );
 			$process->setWorkingDirectory( $this->bindir );
 			$process->setTimeout( 15 );
 			$process->mustRun();

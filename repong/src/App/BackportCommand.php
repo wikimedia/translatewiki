@@ -22,7 +22,7 @@ class BackportCommand extends Command {
 		$this->addOption( 'filter', null, InputOption::VALUE_REQUIRED );
 	}
 
-	protected function execute( InputInterface $input, OutputInterface $output ) {
+	protected function execute( InputInterface $input, OutputInterface $output ): int {
 		$this->parallelism = min( self::MAX_CONNECTIONS, $this->parallelism );
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
@@ -71,9 +71,11 @@ class BackportCommand extends Command {
 
 			$command = "$updateCommand && $backportCommand || $resetCommand";
 
-			$process = new Process( $command );
+			$process = Process::fromShellCommandline( $command );
 			$process->setTimeout( 900 );
 			$processes->attach( $process );
+
+			return 0;
 		}
 
 		$this->runParallelWithOutput( $processes, $output );

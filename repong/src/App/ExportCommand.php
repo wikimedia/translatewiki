@@ -19,7 +19,7 @@ class ExportCommand extends Command {
 		$this->addOption( 'filter', null, InputOption::VALUE_REQUIRED );
 	}
 
-	protected function execute( InputInterface $input, OutputInterface $output ) {
+	protected function execute( InputInterface $input, OutputInterface $output ): int {
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
 		$filter = $input->getOption( 'filter' );
@@ -49,7 +49,7 @@ class ExportCommand extends Command {
 
 		$groupSpec = $filter ?? $config[ 'group' ];
 		$command = "$expander '$groupSpec'";
-		$process = new Process( $command );
+		$process = Process::fromShellCommandline( $command );
 		$process->setTimeout( 10 );
 		$process->mustRun();
 		$groupsOutput = trim( $process->getOutput() );
@@ -62,7 +62,7 @@ class ExportCommand extends Command {
 				$formatter->escape( $config[ 'group' ] )
 			);
 			$output->write( $msg );
-			return;
+			return 0;
 		}
 
 		$groups = explode( "\n", $groupsOutput );
@@ -73,11 +73,13 @@ class ExportCommand extends Command {
 			$jobOptions = $defaultOptions;
 			$jobOptions[ 'group' ] = $group;
 			$command = $this->buildCommandline( $exporter, $jobOptions );
-			$process1 = new Process( $command );
+			$process1 = Process::fromShellCommandline( $command );
 			$process1->setTimeout( 300 );
 			$processes->attach( $process1 );
 		}
 
 		$this->runParallelWithOutput( $processes, $output );
+
+		return 0;
 	}
 }

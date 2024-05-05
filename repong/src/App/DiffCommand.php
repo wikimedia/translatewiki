@@ -20,7 +20,7 @@ class DiffCommand extends Command {
 		$this->addOption( 'filter', null, InputOption::VALUE_REQUIRED );
 	}
 
-	protected function execute( InputInterface $input, OutputInterface $output ) {
+	protected function execute( InputInterface $input, OutputInterface $output ): int {
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
 		$filter = $input->getOption( 'filter' );
@@ -48,12 +48,14 @@ class DiffCommand extends Command {
 				throw new RuntimeException( "Unknown repo type '$type' for repository: $name" );
 			}
 
-			$process = new Process( $command );
+			$process = Process::fromShellCommandline( $command );
 			$process->setTimeout( 10 );
 			$process->setWorkingDirectory( $base );
 			$processes->attach( $process );
 		}
 
 		$this->runParallelWithOutput( $processes, $output );
+
+		return 0;
 	}
 }
