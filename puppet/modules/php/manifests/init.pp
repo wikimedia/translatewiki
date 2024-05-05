@@ -13,6 +13,7 @@ class php {
     'php7.4-dba',
     'php7.4-fpm',
     'php7.4-gd',
+    'php7.4-gmp', # For WebAuthn
     'php7.4-intl',
     'php7.4-mbstring',
     'php7.4-mysql',
