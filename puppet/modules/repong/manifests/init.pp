@@ -55,4 +55,11 @@ class repong (
     content => 'export',
     owner   => $l10nbot_user,
   }
+
+  systemd::timer { 'repong-cleanups.timer':
+    timer_content   => template('repong/repong-cleanups.timer.erb'),
+    service_content => template('repong/repong-cleanups.service.erb'),
+    active          => true,
+    enable          => true,
+  }
 }

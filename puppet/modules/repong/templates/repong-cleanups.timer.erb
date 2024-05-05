@@ -1,0 +1,11 @@
+# This file is managed by puppet
+[Unit]
+Description=Run repong-cleanups on a defined schedule
+
+[Timer]
+OnCalendar=weekly
+AccuracySec=12h
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,14 @@
+#!/bin/bash
+set -o nounset -o pipefail -o errexit
+
+. /etc/wikisettings
+find /resources/caches/$WIKINAME/ -maxdepth 1 -ctime +365 -print0 | xargs -0 -I{} rm -rf -- "{}"
+
+# shellcheck source=bin/synclock
+. "$DIRSCRIPT/synclock"
+
+cd "$AUTOIMPORT_DIR"
+php "$DIRSCRIPT/../repong/repong.php" purge --really
+
+cd "$AUTOEXPORT_DIR"
+php "$DIRSCRIPT/../repong/repong.php" purge --really
