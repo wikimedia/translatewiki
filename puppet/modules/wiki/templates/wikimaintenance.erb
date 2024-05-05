@@ -1,4 +1,3 @@
 # file managed by puppet
 PATH=<%= @config_dir %>/bin:/usr/local/bin:/bin:/usr/bin
 @monthly <%= @maintenance_user %> find /resources/caches/<%= @domain %>/ -maxdepth 1 -ctime +1000 -print0 | xargs -0 -I{} rm -rf -- "{}"
-@weekly <%= @maintenance_user %> nice php <%= @production_dir %>/maintenance/run.php updateSpecialPages -q
