@@ -107,6 +107,7 @@ $wgExtraLanguageNames = [
 	'pap-aw' => 'Papiamento', # Aruba Papiamento / Amir 2021-02-25
 	'pbb' => 'Nasa Yuwe', # Páez / Siebrand 2013-08-08
 	'pey' => 'Petjoh', # Petjoh / Amir 2024-02-07
+	'phr' => 'پوٹھواری', # Pothwari / Amir 2024-05-06
 	'pis' => 'Pijin', # Pijin / Siebrand 2011-08-25
 	'piu' => 'Pintupi-Luritja', # Pijin / Amir 2023-07-22
 	'pko' => 'Pökoot', # Pökoot
