@@ -36,6 +36,13 @@ class wiki (
     enable          => true,
   }
 
+  systemd::timer { 'mw-sitemap.timer':
+    timer_content   => template('wiki/mw-sitemap.timer.erb'),
+    service_content => template('wiki/mw-sitemap.service.erb'),
+    active          => true,
+    enable          => true,
+  }
+
   file { '/etc/systemd/system/mw-jobrunner.service':
     content => template('wiki/mw-jobrunner.service.erb'),
   }
