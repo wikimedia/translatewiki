@@ -1204,10 +1204,12 @@ optional = echo-foreign-wiki-lang, echo-specialpage-pagination-range
 ignored = echo-email-batch-separator, notification-welcome-link, notification-body-mention
 ignored = notification-body-emailuser
 ignored = notification-body-foreign, echo-blacklist, notification-body-reverted
+ignored = notification-header-api-triggered, notification-body-api-triggered
 
 Echo - API
 id = ext-echo-api
 file = Echo/i18n/api/%CODE%.json
+ignored = apihelp-echocreateevent-description
 
 Edit Account
 aliasfile = EditAccount/EditAccount.alias.php
