@@ -1,5 +1,3 @@
 # file managed by puppet
 PATH=<%= @config_dir %>/bin:/usr/local/bin:/bin:/usr/bin
-45 21 * * * <%= @maintenance_user %> stats-mediawiki >> /dev/null 2>&1
 18 22 * * * <%= @l10nbot_user %> stats-newcorelangs >> /dev/null 2>&1
-31 22 * * * <%= @maintenance_user %> twn-wikistats >> /dev/null 2>&1
