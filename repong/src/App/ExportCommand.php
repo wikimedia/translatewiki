@@ -16,11 +16,13 @@ class ExportCommand extends Command {
 		$this->setDescription( 'Updates translation files' );
 		$this->addArgument( 'project', InputArgument::REQUIRED );
 		$this->addOption( 'variant', null, InputOption::VALUE_REQUIRED );
+		$this->addOption( 'filter', null, InputOption::VALUE_REQUIRED );
 	}
 
 	protected function execute( InputInterface $input, OutputInterface $output ) {
 		$project = $input->getArgument( 'project' );
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
+		$filter = $input->getOption( 'filter' );
 		$config = $this->getConfig( $project, $variant );
 		$exporter = $this->config['@meta']['export'];
 		$expander = $this->config['@meta']['expand'];
@@ -45,7 +47,8 @@ class ExportCommand extends Command {
 			$defaultOptions['threshold'] = (int)$config['export-threshold'];
 		}
 
-		$command = "$expander '{$config[ 'group' ]}'";
+		$groupSpec = $filter ?? $config[ 'group' ];
+		$command = "$expander '$groupSpec'";
 		$process = new Process( $command );
 		$process->setTimeout( 10 );
 		$process->mustRun();

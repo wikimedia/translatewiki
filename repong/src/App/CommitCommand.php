@@ -49,6 +49,8 @@ class CommitCommand extends Command {
 
 		foreach ( $config['repos'] as $name => $repo ) {
 			if ( $filter !== null && !fnmatch( $filter, $name ) ) {
+				// Unset so that we also skip pull requests
+				unset( $config['repos'][$name] );
 				continue;
 			}
 

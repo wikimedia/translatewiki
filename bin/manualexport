@@ -1,0 +1,15 @@
+#!/bin/bash
+set -o nounset -o pipefail -o errexit
+
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
+. /etc/wikisettings
+# shellcheck source=bin/synclock
+. "$DIRSCRIPT/synclock"
+
+PROJECT=${1}
+FILTER=${2:-*}
+
+cd "$AUTOEXPORT_DIR"
+sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" update "$PROJECT" --filter "$FILTER" &&
+sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" export "$PROJECT" --filter "$FILTER" &&
+sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" commit "$PROJECT" --filter "$FILTER"
