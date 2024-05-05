@@ -419,26 +419,11 @@ mwgithub:
       branch: translatewiki
       url: https://github.com/edwardspec/mediawiki-moderation.git
       url|export: git@github.com:edwardspec/mediawiki-moderation.git
-    mwgithub/femiwiki/AchievementBadges:
-      type: github
-      branch: main
-      url: https://github.com/femiwiki/AchievementBadges.git
-      url|export: git@github.com:femiwiki/AchievementBadges.git
-    mwgithub/femiwiki/FacetedCategory:
-      type: github
-      branch: main
-      url: https://github.com/femiwiki/FacetedCategory.git
-      url|export: git@github.com:femiwiki/FacetedCategory.git
     mwgithub/femiwiki/FemiwikiSkin:
       type: github
       branch: main
       url: https://github.com/femiwiki/FemiwikiSkin.git
       url|export: git@github.com:femiwiki/FemiwikiSkin.git
-    mwgithub/femiwiki/Sanctions:
-      type: github
-      branch: main
-      url: https://github.com/femiwiki/Sanctions.git
-      url|export: git@github.com:femiwiki/Sanctions.git
     mwgithub/femiwiki/UnifiedExtensionForFemiwiki:
       type: github
       branch: main
