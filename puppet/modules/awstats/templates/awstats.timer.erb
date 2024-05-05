@@ -1,0 +1,11 @@
+# This file is managed by puppet
+[Unit]
+Description=Run awstats processing regularly
+
+[Timer]
+AccuracySec=1m
+OnBootSec=10m
+OnUnitActiveSec=10m
+
+[Install]
+WantedBy=timers.target

@@ -33,4 +33,11 @@ class awstats {
     require => [Package['nginx-full'], Service['fcgiwrap']],
     notify  => Service['nginx'],
   }
+
+  systemd::timer { 'awstats.timer':
+    timer_content   => template('awstats/awstats.timer.erb'),
+    service_content => template('awstats/awstats.service.erb'),
+    active          => true,
+    enable          => true,
+  }
 }
