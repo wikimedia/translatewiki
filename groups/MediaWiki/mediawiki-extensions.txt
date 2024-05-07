@@ -1422,6 +1422,7 @@ ignored = flow-rev-message-closed-topic-irc, flow-rev-message-restored-topic-irc
 ignored = flow-rev-message-edit-post-recentchanges, flow-rev-message-edit-post-contributions
 ignored = flow-rev-message-reply-recentchanges, flow-rev-message-reply-contributions
 ignored = flow-rev-message-new-post-recentchanges, flow-rev-message-new-post-contributions
+ignored = flow-invalid-param-offset-for-newest, flow-invalid-param-offset-id-for-updated
 ignored = notification-body-flow-new-topic-v2, notification-body-flow-post-reply-v2, notification-body-flow-post-edited-v2
 ignored = notification-body-flow-mention
 ignored = notification-body-flow-new-topic-user-talk, notification-body-flow-post-reply-user-talk
