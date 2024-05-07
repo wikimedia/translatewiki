@@ -71,6 +71,7 @@ TAGS:
     - accounts.edit.public editing.enabled link
     - accounts.go_public.find_out_why_html
     - accounts.go_public.find_out_why_url
+    - application.auth_providers.openid_html
     - auth.providers.microsoft
     - auth.providers.openid
     - auth.providers.windowslive
@@ -193,6 +194,8 @@ TAGS:
     - traces.index.wiki_page_url
     - traces.new.help_url
     - traces.new.visibility_help_url
+    - users.new.contributor_terms_url
+    - users.new.consider_pd_url
     - users.new.privacy_policy_url
     - users.terms.consider_pd_why_url
     - users.terms.declined
