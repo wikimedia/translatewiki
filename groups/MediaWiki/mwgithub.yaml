@@ -608,6 +608,29 @@ TAGS:
     - simplebatchupload-name
 ---
 BASIC:
+  id: mwgithub-smartcomments
+  label: SmartComments
+  description: "{{Special:MyLanguage/MediaWiki:sic-desc/en}}"
+  support:
+    url: https://github.com/ArchiXL/SmartComments/issues
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/ArchiXL/SmartComments/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: smart-comments-
+  patterns:
+    - "*"
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+---
+BASIC:
   id: mwgithub-subpagelist
   label: Sub Page List
   description: "{{Special:MyLanguage/MediaWiki:Subpagelist-desc/en}}"
