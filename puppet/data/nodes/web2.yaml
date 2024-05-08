@@ -62,8 +62,9 @@ restic::repositories:
     bucket: twn-backup-restic/files
     password: "%{alias('secret_restic_password')}"
     enable_forget: true
+    prune: true
+    forget_timer: "Sat 01:13:37"
     forget:
-      keep-last: 10
       keep-daily: 14
       keep-weekly: 4
       keep-monthly: 4
@@ -80,6 +81,8 @@ restic::repositories:
     bucket: twn-backup-restic/database
     password: "%{alias('secret_restic_password')}"
     enable_forget: true
+    prune: true
+    forget_timer: "Sun 01:13:37"
     forget:
       keep-last: 10
       keep-daily: 14
