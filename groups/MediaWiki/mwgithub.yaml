@@ -629,6 +629,10 @@ MANGLER:
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
+
+TAGS:
+  optional:
+    - smart-comments-smartcomments
 ---
 BASIC:
   id: mwgithub-subpagelist
