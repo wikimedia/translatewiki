@@ -418,7 +418,7 @@ mwgithub:
       type: github
       branch: master
       url: https://github.com/ArchiXL/SmartComments.git
-      url|export: git@github.com/ArchiXL/SmartComments.git
+      url|export: git@github.com:ArchiXL/SmartComments.git
     mwgithub/edwardspec/mediawiki-moderation:
       type: github
       branch: translatewiki
