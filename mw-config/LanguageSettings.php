@@ -18,7 +18,6 @@ $wgExtraLanguageNames = [
 	'bfa' => 'bari', # Bari / Amir 2022-12-02
 	'bfq' => 'படகா', # UBadaga / Siebrand 2009-11-19
 	'bft' => 'بلتی', # Balti / Nikerabbit 2016-06-22
-	'bgc' => 'हरियाणवी', # Haryanvi / Amir 2023-03-08
 	'bin' => 'Ẹdo', # Edo / Amir 2024-06-30
 	'bkm' => 'Itaŋikom', # Kom / Amir 2021-03-31
 	'blc' => 'ItNuxalkmc', # Nuxalk / Amir 2020-06-22
