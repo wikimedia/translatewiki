@@ -142,7 +142,6 @@ optional = approvedrevs-revision-nav
 Array Functions
 magicfile = ArrayFunctions/i18n/ArrayFunctions.i18n.php
 descmsg = af-desc
-optional = af-extensionname
 
 Arrays
 
@@ -377,7 +376,6 @@ aliasfile = BlueSpiceExtendedFilelist/BlueSpiceExtendedFilelist.alias.php
 
 Blue Spice Extended Search
 descmsg = bs-extsearch-desc
-optional = bs-extsearch-extensionname
 optional = bs-extendedsearch-filter-label-count-only, bs-extendedsearch-privacy-transparency-history-item
 
 Blue Spice Extended Statistics
@@ -1047,7 +1045,6 @@ optional = debugtemplates
 
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
-optional = deletebatch-extensionname
 
 Delete Pages For Good
 
@@ -1618,7 +1615,6 @@ aliasfile = GraphQL/GraphQL.alias.php
 optional = graphql
 
 Gravatar
-ignored = gravatar-extensionname
 
 Group Whitelist
 
@@ -1811,7 +1807,6 @@ file = InviteSignup/i18n/%CODE%.json
 aliasfile = InviteSignup/InviteSignup.alias.php
 
 IP Info
-optional = ipinfo-extensionname
 optional = ipinfo-value-ipversion-ipv4, ipinfo-value-ipversion-ipv6
 optional = ipinfo-property-label-isp, ipinfo-property-label-asn
 
@@ -2214,7 +2209,6 @@ descmsg = mlm-desc
 
 Multi Mail
 aliasfile = MultiMail/MultiMail.alias.php
-optional = multimail-extensionname
 ignored = access-multimail-special-add-email-view-submit
 ignored = access-multimail-special-change-primary-view-confirmation-submit
 ignored = access-multimail-special-delete-view-confirmation-submit
@@ -2570,7 +2564,6 @@ Pluggable Auth
 aliasfile = PluggableAuth/includes/PluggableAuth.alias.php
 
 Pluggable SSO
-optional = pluggablesso-extensionname
 
 Poem
 
@@ -3873,7 +3866,7 @@ Wikistories - User interface
 id = ext-wikistories-user
 file = Wikistories/i18n/%CODE%.json
 aliasfile = Wikistories/Wikistories.alias.special.php
-optional = wikistories-extensionname, wikistories-recentchangesflags-letter
+optional = wikistories-recentchangesflags-letter
 
 Wikistories - API
 id = ext-wikistories-api

@@ -3,7 +3,6 @@ Amethyst
 Anisa
 ignored = anisa-loggedinas, anisa-notloggedin, content-footer
 prefix = skin-anisa- | content-footer
-optional = skinname-anisa
 optional = anisa-prefs-talkpage
 
 apex
@@ -33,7 +32,7 @@ optional = cologneblue.css, cologneblue.js
 Cosmos
 ignored = cosmos-custom-rail-module, cosmos-custom-sticky-rail-module, cosmos-tagline
 ignored = cosmos-navigation
-optional = skinname-cosmos, cosmos.css, cosmos.js
+optional = cosmos.css, cosmos.js
 optional = cosmos-article-header-categories-more-separator
 
 Desk Mess Mirrored
@@ -50,18 +49,15 @@ file = erudite/i18n/%CODE%.json
 ignored = erudite-extracontent-column1, erudite-extracontent-column2, erudite-extracontent-column3
 
 Foreground
-optional = skinname-foreground
 
 Gamepress
 ignored = gamepress-navigation, gamepress-prefooter-1, gamepress-prefooter-2, gamepress-prefooter-3
-optional = skinname-gamepress
 optional = gamepress-prefs-talkpage
 
 Grey Stuff
 optional = greystuff-prefs-talkpage
 
 Gu Max DD
-optional = skinname-gumaxdd
 optional = gumaxdd-prefs-talkpage
 
 Mask
@@ -81,11 +77,11 @@ optional = metrolook.css, metrolook.js
 optional = metrolook-prefs-talkpage
 
 MinervaNeue
-optional = skinname-minerva, minerva.css, minerva.js
+optional = minerva.css, minerva.js
 
 Mirage
 ignored = mirage-navigation, mirage-community-messages
-optional = skinname-mirage, mirage.css, mirage.js
+optional = mirage.css, mirage.js
 
 Modern
 optional = modern.css, modern.js
@@ -97,7 +93,6 @@ optional = monobook-prefs-talkpage
 Nimbus
 ignored = nimbus-advertise-url, nimbus-sidebar, morewikis
 ignored = nimbus-specialpages, nimbus-specialpages-url
-optional = skinname-nimbus
 optional = nimbus-prefs-talkpage
 
 Nostalgia
@@ -122,7 +117,7 @@ optional = tempo-prefs-talkpage
 
 Timeless
 optional = timeless-prefs-talkpage
-optional = skinname-timeless, timeless.css, timeless.js
+optional = timeless.css, timeless.js
 ignored = timeless-sitetitle
 
 Tuleap Skin
@@ -139,12 +134,10 @@ optional = vector.css, vector.js, vector-specialversion-name
 
 webplatform
 ignored = webplatform-bottom-footer, webplatform-sitenav
-optional = skinname-webplatform
 optional = webplatform-prefs-talkpage
 
 WikimediaApiPortal
 optional = wikimediaapiportal-skin-site-name-main, wikimediaapiportal-skin-site-name-sub
 
 WPtouch
-ignored = skinname-wptouch
 optional = wptouch-prefs-talkpage
