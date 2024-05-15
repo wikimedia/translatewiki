@@ -25,3 +25,8 @@ VALIDATORS:
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
+
+TAGS:
+  ignored:
+    - languageunavailableheader
+    - languageunavailablemessage
