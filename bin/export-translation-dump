@@ -1,0 +1,31 @@
+#!/bin/bash
+set -o nounset -o pipefail -o errexit
+. /etc/wikisettings
+
+DUMPDIR="/www/translatewiki.net/docroot/static/translation-dump"
+DUMPFILENAME="translations-"$(date +%Y-%m-%d)".tar.gz"
+INFOFILE=${DUMPDIR}/"info.txt"
+TEMP_DIR=$(mktemp -d)
+
+trap cleanup EXIT
+cleanup() {
+  echo "Cleaning up..."
+  rm -rf "$TEMP_DIR"
+}
+
+mkdir -p "$DUMPDIR"
+
+cd $WIKIDIR
+
+php "$WIKISCRIPT" "$WIKIDIR/extensions/Translate/scripts/expand-groupspec.php" --exportable "*" | \
+	xargs -d"\n" -I GROUPNAME \
+	php "$WIKISCRIPT" "$WIKIDIR/extensions/Translate/scripts/export.php" \
+	--target "$TEMP_DIR" \
+	--group GROUPNAME \
+	--lang "*" \
+	--offline-gettext-format "" \
+	--skip-group-sync-check \
+
+tar -zcvf ${DUMPDIR}/${DUMPFILENAME} ${TEMP_DIR}
+# Place the name of the latest dump file in info.txt
+echo $DUMPFILENAME > $INFOFILE
