@@ -28,5 +28,5 @@ INSERTABLES:
 
 TAGS:
   ignored:
-    - languageunavailableheader
-    - languageunavailablemessage
+    - iabot-languageunavailableheader
+    - iabot-languageunavailablemessage
