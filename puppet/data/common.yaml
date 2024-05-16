@@ -62,7 +62,6 @@ wiki::slack::config_dir: "%{alias('wiki::config_dir')}"
 wiki::slack::maintenance_user: "%{alias('maintenance_user')}"
 
 wiki::stats::config_dir: "%{alias('wiki::config_dir')}"
-wiki::stats::maintenance_user: "%{alias('maintenance_user')}"
 wiki::stats::l10nbot_user: "%{alias('l10nbot_user')}"
 
 wiki::workdir::config_dir: "%{alias('wiki::config_dir')}"

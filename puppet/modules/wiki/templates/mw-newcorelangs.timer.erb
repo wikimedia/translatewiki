@@ -1,0 +1,11 @@
+# This file is managed by puppet
+[Unit]
+Description=Run mw-newcorelangs
+
+[Timer]
+AccuracySec=1h
+OnBootSec=2h
+OnUnitActiveSec=12h
+
+[Install]
+WantedBy=timers.target
