@@ -18,10 +18,6 @@ class wiki (
     content => template('wiki/wikisettings.erb'),
   }
 
-  file { '/etc/cron.d/wikimaintenance':
-    ensure => absent,
-  }
-
   systemd::timer { 'mw-supportedlanguages.timer':
     timer_content   => template('wiki/mw-supportedlanguages.timer.erb'),
     service_content => template('wiki/mw-supportedlanguages.service.erb'),
