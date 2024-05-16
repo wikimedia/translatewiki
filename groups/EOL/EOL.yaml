@@ -57,6 +57,9 @@ TAGS:
     - website-license_group.labels.*
     - website-locale_codes.*
     - website-simple_form.required.mark
+  optional:
+    - website-about.trait_bank.title
+    - website-nav.trait_bank
 ---
 BASIC:
   id: eol-devise
