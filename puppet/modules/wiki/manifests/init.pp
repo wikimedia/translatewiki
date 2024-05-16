@@ -19,7 +19,7 @@ class wiki (
   }
 
   file { '/etc/cron.d/wikimaintenance':
-    content => template('wiki/wikimaintenance.erb'),
+    ensure => absent,
   }
 
   systemd::timer { 'mw-supportedlanguages.timer':
