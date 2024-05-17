@@ -65,6 +65,7 @@ $wgTranslateLanguageFallbacks = [
 	'ee' => [ 'fr', 'ajg', 'fon', 'guw' ],
 	'efi' => [ 'fr', 'ig', 'yo', 'ha' ],
 	'egl' => 'rgn',
+	'ekp' => [ 'ig', 'pcm' ],
 	'es-mx' => 'es',
 	'esu' => [ 'ale', 'ale-cyrl', 'ik', 'ike-cans', 'ike-latn', 'kl' ],
 	'et' => 'fi',

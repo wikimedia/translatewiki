@@ -43,6 +43,7 @@ $wgExtraLanguageNames = [
 	'cop' => 'ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ', # Coptic / Amir 2017-07-27
 	'dar' => 'дарган', # Dargwa / Amir 2021-04-13
 	'ddn' => 'dendi', # Dendi / Amir 2023-04-03
+	'ekp' => 'ẹkpeye', # Ekpeye / Amir 2024-05-17
 	'elm' => 'Eleme', # Eleme / Amir 2020-07-02
 	'esu' => 'Yup\'ik', # Central Alaskan Yupik / Siebrand 2011-02-14
 	'fax' => 'Fala', # Fala / Nikerabbit 2016-06-22
