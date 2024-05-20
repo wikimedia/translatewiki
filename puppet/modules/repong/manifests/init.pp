@@ -7,6 +7,7 @@ class repong (
   String $l10nbot_user,
   String $import_dir,
   String $export_dir,
+  String $bin_dir,
 ) {
   Exec {
     require => User[ $l10nbot_user ],
