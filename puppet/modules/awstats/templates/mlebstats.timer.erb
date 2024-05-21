@@ -1,0 +1,10 @@
+# This file is managed by puppet
+[Unit]
+Description=Run mlebstats on first day of the month
+
+[Timer]
+OnCalendar=*-*-01 06:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

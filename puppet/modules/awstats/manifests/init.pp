@@ -21,11 +21,11 @@ class awstats {
   }
 
   file { '/etc/cron.d/awstats':
-    source  => 'puppet:///modules/awstats/awstats.cron',
+    ensure => absent,
   }
 
   file { '/etc/awstats/awstats.conf.local':
-    source  => 'puppet:///modules/awstats/awstats.conf.local',
+    source => 'puppet:///modules/awstats/awstats.conf.local',
   }
 
   file { '/etc/nginx/sites/stats.translatewiki.net':
@@ -37,6 +37,13 @@ class awstats {
   systemd::timer { 'awstats.timer':
     timer_content   => template('awstats/awstats.timer.erb'),
     service_content => template('awstats/awstats.service.erb'),
+    active          => true,
+    enable          => true,
+  }
+
+  systemd::timer { 'mlebstats.timer':
+    timer_content   => template('awstats/mlebstats.timer.erb'),
+    service_content => template('awstats/mlebstats.service.erb'),
     active          => true,
     enable          => true,
   }

@@ -1,2 +1,0 @@
-# file managed by puppet
-0 6 1 * * root /usr/bin/php /home/betawiki/config/bin/scripts/mlebstats.php /var/lib/awstats nlaxstrom@wikimedia.org,federico@translatewiki.net
