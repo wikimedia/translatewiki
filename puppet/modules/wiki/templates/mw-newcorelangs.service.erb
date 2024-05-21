@@ -6,6 +6,6 @@ After=mysql.service
 
 [Service]
 User=<%= @l10nbot_user %>
-ExecStart=/bin/sh <%= @config_dir %>/bin/stats-newcorelangs
+ExecStart=/bin/bash <%= @config_dir %>/bin/stats-newcorelangs
 ProtectHome=read-only
 ProtectSystem=full
