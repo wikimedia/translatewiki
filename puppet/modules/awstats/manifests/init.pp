@@ -20,10 +20,6 @@ class awstats {
     require => Package['awstats']
   }
 
-  file { '/etc/cron.d/awstats':
-    ensure => absent,
-  }
-
   file { '/etc/awstats/awstats.conf.local':
     source => 'puppet:///modules/awstats/awstats.conf.local',
   }
