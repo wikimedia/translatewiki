@@ -1408,7 +1408,7 @@ Flow - User interface
 id = ext-flow-user
 file = Flow/i18n/%CODE%.json
 aliasfile = Flow/Flow.alias.php
-ignored = flow-hide-usertext, flow-delete-usertext, flow-system-usertext
+ignored = flow-hide-usertext, flow-delete-usertext
 ignored = flow-error-invalid-action, flow-link-board
 ignored = flow-rev-message-edit-post-irc, flow-rev-message-reply-irc, flow-rev-message-new-post-irc
 ignored = flow-rev-message-edit-title-irc, flow-rev-message-create-header-irc, flow-rev-message-edit-header-irc
