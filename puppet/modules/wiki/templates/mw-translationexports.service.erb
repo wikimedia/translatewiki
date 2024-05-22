@@ -1,0 +1,10 @@
+# This file is managed by puppet
+[Unit]
+Description=Export translations in a dump file
+After=network.target
+
+[Service]
+User=<%= @maintenance_user %>
+ExecStart=/bin/bash <%= @bin_dir %>/export-translation-dump
+ProtectHome=read-only
+ProtectSystem=full

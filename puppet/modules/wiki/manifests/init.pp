@@ -13,6 +13,7 @@ class wiki (
   String $autoimport_dir,
   String $autoexport_dir,
   String $lockfile,
+  String $bin_dir,
 ) {
   file { '/etc/wikisettings':
     content => template('wiki/wikisettings.erb'),
@@ -42,6 +43,13 @@ class wiki (
   systemd::timer { 'mw-specialpages.timer':
     timer_content   => template('wiki/mw-specialpages.timer.erb'),
     service_content => template('wiki/mw-specialpages.service.erb'),
+    active          => true,
+    enable          => true,
+  }
+
+  systemd::timer { 'mw-translationexports.timer':
+    timer_content   => template('wiki/mw-translationexports.timer.erb'),
+    service_content => template('wiki/mw-translationexports.service.erb'),
     active          => true,
     enable          => true,
   }

@@ -50,6 +50,7 @@ wiki::work_dir: /srv/mediawiki/workdir
 wiki::autoimport_dir: "%{alias('autoimport_dir')}"
 wiki::autoexport_dir: "%{alias('autoexport_dir')}"
 wiki::lockfile: "%{lookup('wiki::autoimport_dir')}/sync.lock"
+wiki::bin_dir: "%{lookup('wiki::config_dir')}/bin"
 
 wiki::docroot::domain: "%{alias('wiki::domain')}"
 wiki::docroot::production_dir: "%{alias('wiki::production_dir')}"
