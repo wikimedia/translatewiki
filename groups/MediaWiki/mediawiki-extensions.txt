@@ -588,7 +588,6 @@ aliasfile = BlueSpiceUniversalExport/languages/SpecialUniversalExport.alias.php
 
 Blue Spice Usage Tracker
 descmsg = bs-usagetracker-desc
-aliasfile = BlueSpiceUsageTracker/languages/SpecialUsageTracker.alias.php
 
 Blue Spice User Info
 descmsg = bs-userinfo-description
