@@ -29,8 +29,8 @@ blockly:
       url|export: git@github.com:google/blockly.git
     blockly-games:
       type: github
-      url: https://github.com/google/blockly-games.git
-      url|export: git@github.com:google/blockly-games.git
+      url: https://github.com/NeilFraser/blockly-games.git
+      url|export: git@github.com:NeilFraser/blockly-games.git
 
 codev:
   group: codev
