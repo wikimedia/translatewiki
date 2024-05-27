@@ -7,7 +7,7 @@ DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 # shellcheck source=bin/synclock
 . "$DIRSCRIPT/synclock"
 
-find /resources/caches/$WIKINAME/ -maxdepth 1 -ctime +365 -delete
+find /resources/caches/$WIKINAME/ -maxdepth 1 -ctime +365 -type f -delete
 
 cd "$AUTOIMPORT_DIR"
 php "$DIRSCRIPT/../repong/repong.php" purge --really
