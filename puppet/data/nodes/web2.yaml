@@ -83,7 +83,7 @@ restic::repositories:
     password: "%{alias('secret_restic_password')}"
     enable_forget: true
     prune: true
-    forget_timer: "Sun 01:13:37"
+    forget_timer: "Sun 21:13:37"
     forget:
       keep-last: 10
       keep-daily: 14
