@@ -193,6 +193,7 @@ FILES:
   sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/differential/%CODE%.json'
 MANGLER:
   prefix: phabricator-differential-
+TAGS:
   ignored:
     - phabricator-differential-8cbaabee6d1d8f69
 
@@ -510,6 +511,7 @@ FILES:
   sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phortune/%CODE%.json'
 MANGLER:
   prefix: phabricator-phortune-
+TAGS:
   optional:
    - phabricator-phortune-4d08ec58743327ba
    - phabricator-phortune-559ef5544c825815
