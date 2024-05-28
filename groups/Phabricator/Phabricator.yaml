@@ -733,3 +733,12 @@ FILES:
   sourcePattern: '%GROUPROOT%/phabricator/projects/translatewiki/core/%CODE%.json'
 MANGLER:
   prefix: translatewiki-core-
+
+---
+BASIC:
+  id: phabricator-phabricator_ava-core
+  label: Phabricator (phabricator_ava > core)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator_ava/core/%CODE%.json'
+MANGLER:
+  prefix: phabricator_ava-core-
