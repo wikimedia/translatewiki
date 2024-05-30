@@ -4,7 +4,7 @@
 #
 class nginx {
   $packages = [
-    'nginx-full',
+    'nginx',
   ]
   stdlib::ensure_packages($packages, {
     ensure => 'present',
@@ -13,20 +13,16 @@ class nginx {
   service { 'nginx':
     ensure  => running,
     enable  => true,
-    require => Package['nginx-full'],
+    require => Package['nginx'],
   }
 
   File {
-    require => Package['nginx-full'],
+    require => Package['nginx'],
     notify  => Service['nginx'],
   }
 
   file { '/etc/nginx/nginx.conf':
     source => 'puppet:///modules/nginx/nginx.conf',
-  }
-
-  file { '/etc/nginx/mime.types':
-    source => 'puppet:///modules/nginx/mime.types',
   }
 
   file { '/etc/logrotate.d/nginx':

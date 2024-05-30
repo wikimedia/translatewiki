@@ -4,5 +4,5 @@ Defaults        secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/
 %betawiki       ALL = (<%= @maintenance_user %>) NOPASSWD: ALL
 %betawiki       ALL = (<%= @repo_user %>) NOPASSWD: ALL
 %betawiki       ALL = NOPASSWD: /usr/sbin/service mw-jobrunner restart
-%betawiki       ALL = NOPASSWD: /usr/sbin/service php7.4-fpm reload
+%betawiki       ALL = NOPASSWD: /usr/sbin/service php8.2-fpm reload
 %<%= @l10nbot_group %>       ALL = (<%= @l10nbot_user %>) NOPASSWD: ALL

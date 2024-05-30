@@ -16,6 +16,7 @@ class base (
     'colorized-logs', # For execute-and-notify script
     'curl',
     'git',
+    'git-review',
     'htop',
     'iftop',
     'iotop', # IO view
@@ -28,7 +29,6 @@ class base (
     'netcat-openbsd',
     'nfs-common',
     'parallel', # Used for e.g. forceSearchIndex.php
-    'python3-pip', # for git-review
     'screen',
     'unattended-upgrades',
     'unzip',
@@ -37,13 +37,6 @@ class base (
   stdlib::ensure_packages($packages, {
     ensure => 'present',
   })
-
-  # Download git-review from pip, the version in current LTS has annoying bugs
-  package { 'git-review':
-    ensure   => present,
-    provider => pip3,
-    require  => Package['python3-pip'],
-  }
 
   file { '/etc/profile.d/translatewiki.sh':
     content => template('base/translatewiki.sh.erb'),
@@ -67,7 +60,11 @@ class base (
     content => 'LANG="en_US.UTF-8"',
   }
 
-  file { '/etc/systemd/journald.conf':
+  file { '/etc/systemd/journald.conf.d/':
+    ensure => 'directory',
+  }
+
+  file { '/etc/systemd/journald.conf.d/50-override.conf':
     content => "[Journal]\nStorage=persistent\n",
   }
 }

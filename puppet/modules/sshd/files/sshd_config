@@ -2,6 +2,7 @@
 Protocol 2
 PermitRootLogin no
 PasswordAuthentication no
+KbdInteractiveAuthentication no
 PrintMotd no
 UsePAM yes
 AcceptEnv LANG LC_*
