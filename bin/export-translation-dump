@@ -2,7 +2,7 @@
 set -o nounset -o pipefail -o errexit
 . /etc/wikisettings
 
-DUMPDIR="/www/translatewiki.net/docroot/static/translation-dump"
+DUMPDIR="/www/$WIKINAME/docroot/static/translation-dump"
 DUMPFILENAME="translations-"$(date +%Y-%m-%d)".tar.gz"
 INFOFILE=${DUMPDIR}/"info.txt"
 TEMP_DIR=$(mktemp -d)
