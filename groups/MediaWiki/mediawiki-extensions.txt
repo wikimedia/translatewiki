@@ -1033,8 +1033,6 @@ Date Diff
 
 Date Time Tools
 
-Debug Mode
-
 Debug Templates
 aliasfile = DebugTemplates/DebugTemplates.alias.php
 optional = debugtemplates
@@ -1163,8 +1161,6 @@ file = DonationInterface/paypal_ec_gateway/i18n/%CODE%.json
 # aliasfile = DonationInterface/paypal_gateway/paypal_gateway.alias.php
 descmsg = paypal_gateway-desc
 languages = +es-419
-
-Double Wiki
 
 DPL forum
 
@@ -2538,8 +2534,6 @@ Petition
 aliasfile = Petition/Petition.alias.php
 
 Per Page Language
-
-Per Page License
 
 PGF TikZ
 
