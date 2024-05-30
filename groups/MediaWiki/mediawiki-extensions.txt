@@ -1790,10 +1790,6 @@ Input Box
 
 Interactive Block Message
 
-Interlanguage
-file = Interlanguage/i18n/interlanguage/%CODE%.json
-magicfile = Interlanguage/Interlanguage.i18n.magic.php
-
 Intersection
 file = intersection/i18n/%CODE%.json
 
@@ -2007,9 +2003,6 @@ Mad Lib
 
 Magic No Cache
 
-Magic Numbered Headings
-magicfile = MagicNumberedHeadings/MagicNumberedHeadings.i18n.magic.php
-
 Mailgun
 
 Maintenance
@@ -2199,8 +2192,6 @@ aliasfile = MultiBoilerplate/MultiBoilerplate.alias.php
 ignored = multiboilerplate, multiboilerplate-label
 
 Multi Maps
-
-Multimedia Player
 
 Multimedia Viewer
 optional = multimediaviewer-credit
@@ -3357,8 +3348,6 @@ ignored = unusedredirects-text
 
 Update MediaWiki
 aliasfile = UpdateMediaWiki/UpdateMediaWiki.alias.php
-
-Upload Blacklist
 
 Upload Wizard - User interface
 id = ext-uploadwizard-user
