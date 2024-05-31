@@ -157,6 +157,10 @@ FILES:
   sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/core/%CODE%.json'
 MANGLER:
   prefix: phabricator-core-
+TAGS:
+ optional:
+  - phabricator-core-05bb26790a3f5f39
+  - phabricator-core-a57fdeabc3df1cd7
 
 ---
 BASIC:
@@ -322,6 +326,9 @@ FILES:
   sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/herald/%CODE%.json'
 MANGLER:
   prefix: phabricator-herald-
+TAGS:
+ optional:
+  - phabricator-herald-31b379eded664541
 
 ---
 BASIC:
@@ -340,6 +347,9 @@ FILES:
   sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/legalpad/%CODE%.json'
 MANGLER:
   prefix: phabricator-legalpad-
+TAGS:
+  optional:
+   - phabricator-legalpad-557d608ecd7cbc32
 
 ---
 BASIC:
