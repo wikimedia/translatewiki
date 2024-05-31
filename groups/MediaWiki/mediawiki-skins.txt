@@ -135,6 +135,7 @@ optional = truglass-prefs-talkpage
 ignored = truglass-footertext
 
 Vector
+ignored = vector-night-mode-gadget-names
 optional = vector.css, vector.js, vector-specialversion-name
 
 webplatform
