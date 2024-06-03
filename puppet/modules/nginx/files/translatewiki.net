@@ -6,8 +6,8 @@ map $cookie_env $env {
 }
 
 map $http_accept $webp {
-    default     "";
-    ~image/webp .webp;
+	default     "";
+	~image/webp .webp;
 }
 
 server {
@@ -59,15 +59,19 @@ server {
 		deny all;
 	}
 
-    location ~* ^/static/mainpage/.*\.jpg$ {
-        expires 2M;
-        # Note: all other add_header calls are ignored. There is one in ssl.conf that is not mandatory
-        add_header Vary Accept;
-        try_files $uri$webp $uri =404;
-    }
+	location ~* ^/static/mainpage/.*\.jpg$ {
+		expires 2M;
+		# Note: all other add_header calls are ignored. There is one in ssl.conf that is not mandatory
+		add_header Vary Accept;
+		try_files $uri$webp $uri =404;
+	}
 
 	location ~* \.(png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|webp)$ {
 		expires 2M;
+	}
+
+	location /static/translation-dump {
+		autoindex on;
 	}
 
 	error_page 500 502 503 504 /error.html;
