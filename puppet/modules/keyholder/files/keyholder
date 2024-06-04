@@ -36,7 +36,7 @@ is_valid_private_key() {
 
   [ -f "$1" ] || return 1
   # Check that the key is one of RSA, ED25519
-  /usr/bin/ssh-keygen -l -f "$1" | /bin/egrep -q '\((RSA|ED25519)\)$' || return 1
+  /usr/bin/ssh-keygen -l -f "$1" | /bin/grep -E -q '\((RSA|ED25519)\)$' || return 1
   # Temporary change permission of the file to avoid unprotected private file error
   PERM=$(stat -c "%a" "$1")
   chmod 0400 "$1"
