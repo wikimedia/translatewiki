@@ -1736,8 +1736,6 @@ ignored = hoststats
 
 HSTS
 
-Html 2 Wiki
-
 HTML Purifier
 
 HTML Tags
