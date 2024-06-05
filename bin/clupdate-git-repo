@@ -52,4 +52,7 @@ then
 else
 	git config user.name 'translatewiki.net'
 	git config user.email 'l10n-bot@translatewiki.net'
+	git config gpg.format 'ssh'
+	git config commit.gpgsign 'true'
+	git config user.signingkey 'key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG/B9tTMv3xBeENcfU48os66O+W1w9puNIB8nEz3TJ7Q'
 fi
