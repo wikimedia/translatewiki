@@ -156,8 +156,6 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/UniversalLanguageSelector
   workdir/extensions/UserMerge:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/UserMerge
-  workdir/extensions/UserOptionStats:
-    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/UserOptionStats
   workdir/extensions/VisualEditor:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor
   workdir/extensions/WebChat:

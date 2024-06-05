@@ -23,7 +23,6 @@ wfLoadExtensions( [
 	'Thanks',
 	'UniversalLanguageSelector',
 	'UserMerge',
-	'UserOptionStats',
 	'WebAuthn',
 	'WikiEditor',
 ] );
