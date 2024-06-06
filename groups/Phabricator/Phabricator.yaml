@@ -4,9 +4,9 @@ TEMPLATE:
     class: FileBasedMessageGroup
     namespace: NS_PHABRICATOR
     description: >
-      Phabricator is a suite of web-based development collaboration tools. For now these
-      translations are only applied to the Wikimedia installation of Phabricator. The goal
-      is to promote these translations to be the "official" ones for Phabricator.
+      [[Translating:Phabricator|Phabricator]] is a suite of web-based development collaboration tools.
+      For now these translations are only applied to the Wikimedia installation of Phabricator.
+      The goal is to promote these translations to be the "official" ones for Phabricator.
 
   FILES:
     format: Json
