@@ -26,6 +26,8 @@ class UpdateCommand extends Command {
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
 		$filter = $input->getOption( 'filter' );
 		$config = $this->getConfig( $project, $variant );
+		$defaultConfig = $this->getConfig( $project, null );
+		$meta = $this->getConfig( '@meta', $variant );
 		$base = $this->getBase();
 		$bindir = $this->bindir;
 
@@ -44,8 +46,6 @@ class UpdateCommand extends Command {
 				// could be ahead of the state that has been processed in the wiki.
 				// With state synchronization we ensure we do not overwrite any
 				// changes that have been made in the between.
-				$defaultConfig = $this->getConfig( $project, null );
-				$meta = $this->getConfig( '@meta', $variant );
 				$stateDir = $meta[ 'state-directory' ] ?? false;
 				$defaultConfigBranch = $defaultConfig[ 'repos' ][ $name ][ 'branch' ] ?? 'master';
 				$branchCompatible = $branch === $defaultConfigBranch;
