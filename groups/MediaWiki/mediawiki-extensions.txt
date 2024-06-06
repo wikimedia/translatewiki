@@ -3094,6 +3094,8 @@ Syntax Highlight GeSHi
 file = SyntaxHighlight_GeSHi/i18n/%CODE%.json
 descmsg = syntaxhighlight-desc
 
+TableTools
+
 Tabs
 ignored = tabs-dropdown-bgcolor
 
