@@ -3470,6 +3470,8 @@ Vote NY
 aliasfile = VoteNY/includes/VoteNY.alias.php
 magicfile = VoteNY/includes/VoteNY.i18n.magic.php
 
+VueJsPlus
+
 # https://phabricator.wikimedia.org/T315621#8642771
 Vue Test
 
