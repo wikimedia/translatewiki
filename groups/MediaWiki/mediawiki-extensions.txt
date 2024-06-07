@@ -661,7 +661,7 @@ optional = campaignevents-register-question-age-option-55-64
 optional = campaignevents-register-question-age-option-65-74
 optional = campaignevents-register-question-age-option-75-84
 optional = campaignevents-register-question-age-option-85-plus
-optional = campaignevents-allevents-date-separator
+optional = campaignevents-eventslist-date-separator
 file = CampaignEvents/i18n/%CODE%.json
 
 Campaigns
