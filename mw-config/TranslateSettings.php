@@ -148,11 +148,12 @@ $wgHooks['TranslatePostInitGroups'][] = static function ( &$list, &$deps, &$auto
 
 $wgTranslateAuthorExclusionList = [];
 $wgTranslateAuthorExclusionList[] = [ 'exclude', '/^.*;.*;.*Bot$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'exclude', '/^.*;.*;(Abijeet Patro|Andre Engels|Gangleri|Jon Harald Søby|IAlex|M.M.S.|BotMultichill|Nike|Piivaat|Raymond|RobertL|SieBot|Siebrand|SPQRobin|Suradnik13|Verdy p)$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'exclude', '/^.*;.*;(Abijeet Patro|Amire80|Andre Engels|Gangleri|Jon Harald Søby|IAlex|M.M.S.|BotMultichill|Nike|Piivaat|Raymond|RobertL|SieBot|Siebrand|SPQRobin|Suradnik13|Verdy p)$/Ui' ];
 $wgTranslateAuthorExclusionList[] = [ 'exclude', '/^.*;da;(Wegge|Morten)$/Ui' ]; # are both credited under other names
 $wgTranslateAuthorExclusionList[] = [ 'exclude', '/^out-mantis.*;nl;Siebrand$/Ui' ]; # credited under other name
 
 $wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|en-gb|hi);Abijeet Patro$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|ca|he|ht|ru);Amire80$/Ui' ];
 $wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|fr);IAlex$/Ui' ];
 $wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|sma|sv);M.M.S.$/Ui' ];
 $wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|fi);Nike$/Ui' ];
@@ -162,7 +163,7 @@ $wgTranslateAuthorExclusionList[] = [ 'include', '/^out-osm.*;(qqq|de);Raymond$/
 $wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;qqq;RobertL$/Ui' ];
 $wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|nl|nl-informal);Siebrand$/Ui' ];
 $wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|nl|nl-informal|af|la|grc);SPQRobin$/Ui' ];
-$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|nb|no|nn|da|sv|en-gb);Jon Harald Søby$/Ui' ];
+$wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|nb|no|nn|da|se|sv|sw|en-gb);Jon Harald Søby$/Ui' ];
 $wgTranslateAuthorExclusionList[] = [ 'include', '/^.*;(qqq|fr);Verdy p$/Ui' ];
 
 $wgTranslateDisabledTargetLanguages = [
