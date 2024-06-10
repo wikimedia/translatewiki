@@ -88,6 +88,9 @@ Advanced Meta
 
 Advanced Search
 
+AI Editing Assistant
+ignored = aieditingassistant-initialization-command
+
 AJAX Poll
 
 Ajax Show Editors
