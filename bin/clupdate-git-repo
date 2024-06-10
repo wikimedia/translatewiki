@@ -41,6 +41,9 @@ then
 	git config user.email 'l10n-bot@translatewiki.net'
 	git config gitreview.username 'l10n-bot'
 	git config gitreview.remote origin
+	git config gpg.format 'ssh'
+	git config commit.gpgsign 'true'
+	git config user.signingkey 'key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG/B9tTMv3xBeENcfU48os66O+W1w9puNIB8nEz3TJ7Q'
 
 	# Avoid using git review --setup because it uses SCP which does not honor GIT_SSH
 	if [[ ! -e .git/hooks/commit-msg ]];
