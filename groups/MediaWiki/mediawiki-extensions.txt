@@ -831,6 +831,9 @@ Collapsible Sections
 
 Collapsible Vector
 
+Collab Pads
+optional = collabpads-recentchangesflags-letter
+
 Collection - User interface
 id = ext-collection-user
 file = Collection/i18n/%CODE%.json
