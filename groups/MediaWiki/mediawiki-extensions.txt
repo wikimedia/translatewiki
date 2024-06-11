@@ -2308,6 +2308,8 @@ ignored = nukedpl-defaulttext
 Number Format
 descmsg = numberformat_desc
 
+Number Headings
+
 # Number Of Wikis // Shoutwiki centric
 
 Numbertext
