@@ -31,6 +31,9 @@ FILES:
   sourcePattern: '%GROUPROOT%/phabricator/projects/arcanist/core/%CODE%.json'
 MANGLER:
   prefix: arcanist-core-
+TAGS:
+ optional:
+  - arcanist-core-5e600d46ea8aa7ce
 
 ---
 BASIC:
