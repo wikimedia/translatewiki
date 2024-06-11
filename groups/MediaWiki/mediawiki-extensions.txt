@@ -1670,9 +1670,6 @@ id = ext-growthexperiments-user
 file = GrowthExperiments/i18n/extension/%CODE%.json
 aliasfile = GrowthExperiments/GrowthExperiments.alias.php
 magicfile = GrowthExperiments/GrowthExperiments.i18n.magic.php
-ignored = communityconfiguration-mentorship-description
-ignored = communityconfiguration-mentorship-gementorshipautomaticeligibility-control-label
-ignored = communityconfiguration-mentorship-gementorshipenabled-control-label
 
 Growth Experiments - Welcome Survey
 id = ext-growthexperiments-welcomesurvey
