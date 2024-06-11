@@ -74,10 +74,10 @@ class BackportCommand extends Command {
 			$process = Process::fromShellCommandline( $command );
 			$process->setTimeout( 900 );
 			$processes->attach( $process );
-
-			return 0;
 		}
 
 		$this->runParallelWithOutput( $processes, $output );
+
+		return 0;
 	}
 }
