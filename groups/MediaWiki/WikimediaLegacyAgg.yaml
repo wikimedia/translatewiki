@@ -21,7 +21,6 @@ GROUPS:
   - ext-flow-user
   - ext-liquidthreads # Installed on very few wikis and no longer installed on new ones
   - ext-listings # T253216
-  - ext-openstackmanager # Used only on one wiki, and there's a plan to undeploy it: https://phabricator.wikimedia.org/T161553
   - ext-ores #  https://www.mediawiki.org/wiki/Topic:Wx1wkmwnerl0pwmj - no longer installed on new wikis
   - ext-shorturl # No longer installed on new wikis, replaced with UrlShortener
   - ext-wikimediaundeployedplaceholders # https://gerrit.wikimedia.org/r/c/mediawiki/extensions/WikimediaMessages/+/752150
