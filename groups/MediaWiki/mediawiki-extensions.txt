@@ -2222,8 +2222,6 @@ ignored = mwversioninfo.json
 
 My Variables
 
-Namespace HTML
-
 Namespace Paths
 
 # Namespace Popups // No i18n
@@ -2275,10 +2273,6 @@ Newest Pages
 aliasfile = NewestPages/NewestPages.alias.php
 
 # News Box // New import from Shoutwiki, messages need rewording
-
-News Ticker
-aliasfile = NewsTicker/i18n/NewsTicker.alias.php
-magicfile = NewsTicker/i18n/NewsTicker.magic.php
 
 Newsletter - User
 id = ext-newsletter-user
@@ -2894,8 +2888,6 @@ Show Me
 Show Real Usernames
 ignored = sru-realname-inline
 optional = sru-realname-append
-
-Side Bar Menu
 
 Sidebar Donate Box
 
