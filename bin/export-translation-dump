@@ -27,5 +27,15 @@ php "$WIKISCRIPT" "$WIKIDIR/extensions/Translate/scripts/expand-groupspec.php" -
 	--skip-group-sync-check \
 
 tar -zcvf ${DUMPDIR}/${DUMPFILENAME} ${TEMP_DIR}
+
+# Check if there's an existing tarball and delete it
+if [[ -f "$INFOFILE" ]]; then
+  EXISTING_TARBALL=$(cat "$INFOFILE")
+  if [[ -f "${DUMPDIR}/${EXISTING_TARBALL}" ]]; then
+    echo "Deleting existing tarball: ${DUMPDIR}/${EXISTING_TARBALL}"
+    rm -f "${DUMPDIR}/${EXISTING_TARBALL}"
+  fi
+fi
+
 # Place the name of the latest dump file in info.txt
 echo $DUMPFILENAME > $INFOFILE
