@@ -2834,8 +2834,6 @@ Select Tag
 Semantic ACL
 descmsg = sacl-desc
 
-Semantic Bundle
-
 # Semantic Forms Inputs // Read only
 
 Semantic Genealogy
