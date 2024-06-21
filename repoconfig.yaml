@@ -814,6 +814,11 @@ ohm:
       pull-branch: translatewiki
       url: https://github.com/OpenHistoricalMap/ohm-website.git
       url|export: git@github.com:OpenHistoricalMap/ohm-website.git
+    ohm-overpass-turbo:
+      type: github
+      branch: main
+      url: https://github.com/OpenHistoricalMap/overpass-turbo.git
+      url|export: git@github.com:OpenHistoricalMap/overpass-turbo.git
 
 oppia:
   group: oppia,oppia-android-app
