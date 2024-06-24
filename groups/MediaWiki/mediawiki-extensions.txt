@@ -2370,10 +2370,6 @@ ignored = opengraphmeta-site-name
 
 Open Layers
 
-Open Stack Manager
-aliasfile = OpenStackManager/OpenStackManager.alias.php
-optional = prefs-openstack
-
 Orphaned Talk Pages
 aliasfile = OrphanedTalkPages/OrphanedTalkPages.alias.php
 
