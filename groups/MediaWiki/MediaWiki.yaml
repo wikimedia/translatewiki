@@ -95,6 +95,7 @@ GROUPS:
   - core
   - core-0-mostused
   - ext-0-all
+  - mediawiki-codex
   - mediawiki-installer
   - mediawiki-skin-0-all
   - mediawiki-exif
@@ -674,6 +675,17 @@ TAGS:
     - reblock-logentry
     - import-logentry-upload
     - import-logentry-interwiki
+
+---
+BASIC:
+  id: mediawiki-codex
+  label: MediaWiki Codex
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikicodex/en}}"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/codex/%CODE%.json"
 
 ---
 BASIC:
