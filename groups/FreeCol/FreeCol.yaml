@@ -64,6 +64,12 @@ TAGS:
     - model.nation.*.ship.*
     - model.nation.Portuguese.Europe
     - model.nation.Swedish.Europe
+    - model.option.displayScaling.75
+    - model.option.displayScaling.100
+    - model.option.displayScaling.125
+    - model.option.displayScaling.150
+    - model.option.displayScaling.175
+    - model.option.displayScaling.200
     - model.other.region.river.*
     - model.region.default
     - model.unit.nationUnit
