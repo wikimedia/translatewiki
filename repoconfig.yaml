@@ -1052,6 +1052,11 @@ wikimedia-misc-tools:
       type: github
       url: https://github.com/sahajsk21/Anvesha.git
       url|export: git@github.com:sahajsk21/Anvesha.git
+    capacity-exchange:
+      type: github
+      branch: dev
+      url: https://github.com/WikiMovimentoBrasil/capx-frontend.git
+      url|export: git@github.com:WikiMovimentoBrasil/capx-frontend.git
     cejs:
       type: github
       url: https://github.com/kanasimi/CeJS.git

@@ -1,0 +1,22 @@
+---
+BASIC:
+  id: capacity-exchange
+  label: Capacity Exchange
+  description: "{{Special:MyLanguage/Translations:Group descriptions/capacity-exchange/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/WikiMovimentoBrasil/capx-frontend/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: capex-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/capacity-exchange/locales/%CODE%.json"
