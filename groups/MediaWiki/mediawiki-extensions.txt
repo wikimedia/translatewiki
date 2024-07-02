@@ -1961,11 +1961,6 @@ id = ext-liquidthreads-api
 file = LiquidThreads/i18n/api/%CODE%.json
 ignored = apihelp-threadaction-param-operand
 
-Listings
-ignored = listings-fax-symbol, listings-email-symbol
-ignored = listings-tollfree-symbol, listings-position-template
-optional = listings-phone-symbol
-
 # Live Chat // 2021-12-04: missing qqq
 
 Lock Author
