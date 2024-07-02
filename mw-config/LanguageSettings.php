@@ -60,7 +60,6 @@ $wgExtraLanguageNames = [
 	'hke' => 'kihunde', # Amir 2024-07-03
 	'hne' => 'छत्तीसगढ़ी', # Amir 2011-12-01
 	'hoc' => '𑢹𑣉𑣉', # Ho language. Amir 2017-07-09
-	'iba' => 'Jaku Iban', # Iban / Amir 2024-04-16
 	'igb' => 'Ebira', # Ebira / Amir 2024-01-29
 	'ish' => 'awain', # Esan / Amir 2022-08-01
 	'isv-cyrl' => 'меджусловјанскы', # Interslavic / Jon Harald Søby 2024-05-29
