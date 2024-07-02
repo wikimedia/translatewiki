@@ -2115,6 +2115,8 @@ magicfile = MetaMaster/MetaMaster.i18n.magic.php
 Metadata
 magicfile = Metadata/Metadata.i18n.php
 
+Metrics Platform
+
 Mini Invite
 aliasfile = MiniInvite/includes/MiniInvite.alias.php
 descmsg = invite-desc
