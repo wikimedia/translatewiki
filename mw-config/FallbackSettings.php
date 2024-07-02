@@ -100,6 +100,7 @@ $wgTranslateLanguageFallbacks = [
 	'ish' => [ 'bin', 'yo', 'ig', 'ha' ],
 	'isv-cyrl' => 'isv-latn',
 	'isv-latn' => 'isv-cyrl',
+	'jac' => 'es',
 	'jdt-cyrl' => 'ru',
 	'jje' => 'ko',
 	'jv' => 'jv-java',

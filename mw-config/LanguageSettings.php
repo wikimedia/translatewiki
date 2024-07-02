@@ -64,6 +64,7 @@ $wgExtraLanguageNames = [
 	'isv-cyrl' => 'меджусловјанскы', # Interslavic / Jon Harald Søby 2024-05-29
 	'isv-latn' => 'medžuslovjansky', # Interslavic / Jon Harald Søby 2024-05-29
 	'izh' => 'ižoran keel', # Ingrian / Robin 2012-11-17 / Language classified as not written in Ethnologue. Should be removed.
+	'jac' => 'Abꞌxubꞌal Poptiꞌ', # Jakaltek / Amir 2024-07-02
 	'jdt-cyrl' => 'жугьури', # Judeo-Tat / Siebrand 2014-06-17
 	'jje' => '제주말', # Jeju / Amir 2023-06-14
 	'jv-java' => 'ꦗꦮ', # Javanese (Javanese script) / Amir 2022-10-29
