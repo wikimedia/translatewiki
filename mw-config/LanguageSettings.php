@@ -56,6 +56,7 @@ $wgExtraLanguageNames = [
 	'hak-hant' => '客家語（繁體）', # Hakka (Traditional Han script) / Siebrand 2017-05-20
 	'hak-latn' => 'Hak-kâ-ngî (Pha̍k-fa-sṳ)', # Hakka (Latin script) / Winston Sung 2023-07-17
 	'hif-deva' => 'फ़ीजी हिन्दी', # Fiji Hindi (Devangari script) / Siebrand 2010-08-26
+	'hke' => 'kihunde', # Amir 2024-07-03
 	'hne' => 'छत्तीसगढ़ी', # Amir 2011-12-01
 	'hoc' => '𑢹𑣉𑣉', # Ho language. Amir 2017-07-09
 	'iba' => 'Jaku Iban', # Iban / Amir 2024-04-16

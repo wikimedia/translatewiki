@@ -86,6 +86,7 @@ $wgTranslateLanguageFallbacks = [
 	'hak-latn' => [ 'hak-hant', 'hak-hans', 'hak' ],
 	'hi' => 'mr', # Siebrand 2008-03-25
 	'hif-deva' => 'hi', # Siebrand 2008-02-12
+	'hke' => [ 'fr', 'sw', 'kg' ],
 	'hno' => [ 'pnb', 'skr-arab', 'ur', 'pa' ],
 	'hoc' => [ 'or', 'sat', 'hi', 'te' ],
 	'hy' => 'ru',
