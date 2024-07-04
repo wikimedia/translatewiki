@@ -136,6 +136,7 @@ ignored = truglass-footertext
 
 Vector
 ignored = vector-night-mode-gadget-names
+ignored = vector-night-mode-issue-reporting-notice-url
 optional = vector.css, vector.js, vector-specialversion-name
 
 webplatform
