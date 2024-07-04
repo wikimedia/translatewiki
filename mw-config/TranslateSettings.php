@@ -501,11 +501,6 @@ $wgTranslateSupportUrlNamespace[NS_OPPIA] = [
 wfAddNamespace( 1272, 'Dissemin' );
 $wgCapitalLinkOverrides[NS_DISSEMIN] = false;
 $wgCapitalLinkOverrides[NS_DISSEMIN_TALK] = false;
-$wgTranslateGroupFiles[] = "$GROUPS/Dissemin/Dissemin.yaml";
-$wgTranslateSupportUrlNamespace[NS_DISSEMIN] = [
-	'url' => 'https://gitlab.com/dissemin/dissemin/-/issues/new',
-	'params' => $gitlabParams,
-];
 
 wfAddNamespace( 1274, 'Phabricator' );
 $wgCapitalLinkOverrides[NS_PHABRICATOR] = false;

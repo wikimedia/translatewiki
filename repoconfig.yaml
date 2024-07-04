@@ -68,14 +68,6 @@ discordwikibot:
       url: https://github.com/stjohann/DiscordWikiBot.git
       url|export: git@github.com:stjohann/DiscordWikiBot.git
 
-dissemin:
-  group: dissemin-*
-  repos:
-    dissemin:
-      type: github
-      url: https://gitlab.com/dissemin/dissemin.git
-      url|export: git@gitlab.com:dissemin/dissemin.git
-
 eol:
   group: eol-*
   repos:
