@@ -23,6 +23,7 @@ GROUPS:
   - ext-confirmedit-user
   - ext-confirmeditfancycaptcha-user
   - ext-contenttranslation-user
+  - ext-contenttranslation-automatic-translation
   - ext-disambiguator
   - ext-discussiontools-user
   - ext-dismissablesitenotice

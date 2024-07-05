@@ -970,6 +970,11 @@ Content Translation - API
 id = ext-contenttranslation-api
 file = ContentTranslation/i18n/api/%CODE%.json
 
+Content Translation - Automatic Translation
+id = ext-contenttranslation-automatic-translation
+file = ContentTranslation/i18n/minT/%CODE%.json
+desc = automatic-translation-desc
+
 Content Stabilization
 aliasfile = ContentStabilization/languages/ContentStabilization.special.alias.php
 
