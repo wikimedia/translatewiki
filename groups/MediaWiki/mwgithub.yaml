@@ -430,6 +430,7 @@ TAGS:
     - smw-constrainterrorlist-helplink
     - smw-admin-helplink
     - smw-special-pageproperty-helplink
+    - smw-specials-facetedsearch-helplink
   ignored:
     - smw-title
     - smw_ask_doculink
