@@ -20,3 +20,7 @@ MANGLER:
 FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/capacity-exchange/locales/%CODE%.json"
+
+TAGS:
+  optional:
+    - capex-footer-link-github
