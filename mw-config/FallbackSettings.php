@@ -217,6 +217,7 @@ $wgTranslateLanguageFallbacks = [
 	'toi' => [ 'ny', 'tum', 'sn', 'lue' ],
 	'trp' => [ 'bn', 'as', 'brx', 'hi' ],
 	'tru' => 'arc', # Robin 2012-02-18
+	'trw' => [ 'ps', 'ur' ],
 	'tsd' => 'el',
 	'tsg' => [ 'tl', 'ms' ],
 	'tum' => [ 'ny', 'sw' ],
