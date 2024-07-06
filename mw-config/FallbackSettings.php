@@ -12,7 +12,7 @@
 /** @phpcs-require-sorted-array */
 $wgTranslateLanguageFallbacks = [
 	'aae' => [ 'sq', 'aln', 'it', 'scn', 'roa-tara' ],
-	'acf' => 'fr',
+	'acf' => [ 'fr', 'ht', 'gcf' ],
 	'ada' => [ 'gaa', 'tw', 'fat', 'gpe' ],
 	'af' => 'nl',
 	'ajg' => [ 'fr', 'ee', 'fon', 'guw' ],
