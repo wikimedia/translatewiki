@@ -195,13 +195,16 @@ TAGS:
     - traces.index.wiki_page_url
     - traces.new.help_url
     - traces.new.visibility_help_url
-    - users.new.contributor_terms_url
+    - user_mailer.gpx_failure.import_failures_url
+    - users.new.by_signing_up.contributor_terms_url
+    - users.new.by_signing_up.privacy_policy_url
     - users.new.consider_pd_url
+    - users.new.contributor_terms_url
+    - users.new.email_help.privacy_policy_url
     - users.new.privacy_policy_url
+    - users.terms_declined_flash.terms_declined_url
     - users.terms.consider_pd_why_url
     - users.terms.declined
-    - users.terms_declined_flash.terms_declined_url
-    - user_mailer.gpx_failure.import_failures_url
   ignored:
     - activerecord.errors.models.user_mute.attributes.subject.format
     - geocoder.search_osm_namefinder.prefix
