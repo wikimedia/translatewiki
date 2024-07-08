@@ -201,15 +201,6 @@ fudforum:
       url: https://github.com/fudforum/FUDforum.git
       url|export: git@github.com:fudforum/FUDforum.git
 
-gapfinder:
-  group: gapfinder
-  auto-merge: research/recommendation-api
-  repos:
-    recommendation-api:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/research/recommendation-api
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/research/recommendation-api
-
 huggle:
   group: huggle
   repos:
