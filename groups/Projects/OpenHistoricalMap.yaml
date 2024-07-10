@@ -161,7 +161,7 @@ VALIDATORS:
   - id: BraceBalance
 
 TAGS:
-  ignored:
+  optional:
     - ohm-opt-load.title
     - ohm-opt-load.delete_query
     - ohm-opt-load.saved_queries-local
