@@ -16,6 +16,7 @@ $wgTranslateLanguageFallbacks = [
 	'acf' => [ 'fr', 'ht', 'gcf' ],
 	'ada' => [ 'gaa', 'tw', 'fat', 'gpe' ],
 	'af' => 'nl',
+	'aii' => [ 'arc', 'tru', 'ar', 'sv', 'ru' ],
 	'ajg' => [ 'fr', 'ee', 'fon', 'guw' ],
 	'ale' => [ 'ale-cyrl', 'ru', 'esu', 'ik', 'ike-cans', 'ike-latn', 'kl' ],
 	'ale-cyrl' => [ 'ale', 'ru', 'esu', 'ik', 'ike-cans', 'ike-latn', 'kl' ],
