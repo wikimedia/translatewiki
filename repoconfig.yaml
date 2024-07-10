@@ -800,6 +800,7 @@ ohm:
     ohm-overpass-turbo:
       type: github
       branch: main
+      pull-branch: twn
       url: https://github.com/OpenHistoricalMap/overpass-turbo.git
       url|export: git@github.com:OpenHistoricalMap/overpass-turbo.git
 
