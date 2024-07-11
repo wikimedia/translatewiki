@@ -211,6 +211,20 @@ TAGS:
     - network-name
 ---
 BASIC:
+  id: mwgithub-page-approvals
+  label: Page Approvals
+  description: "{{Special:MyLanguage/MediaWiki:Pageapprovals-description/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/PageApprovals/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/PageApprovals/i18n/%CODE%.json"
+---
+BASIC:
   id: mwgithub-semanticapprovedrevs
   label: Semantic Approved Revs
   description: "{{Special:MyLanguage/MediaWiki:Semantic-approvedrevs-desc/en}}"

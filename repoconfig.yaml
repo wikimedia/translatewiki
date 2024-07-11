@@ -594,6 +594,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/Network.git
       url|export: git@github.com:ProfessionalWiki/Network.git
+    mwgithub/ProfessionalWiki/PageApprovals:
+      type: github
+      url: https://github.com/ProfessionalWiki/PageApprovals.git
+      url|export: git@github.com:ProfessionalWiki/PageApprovals.git
     mwgithub/ProfessionalWiki/SimpleBatchUpload:
       type: github
       url: https://github.com/ProfessionalWiki/SimpleBatchUpload.git

@@ -5,6 +5,7 @@
 # Maps
 # Modern Timeline
 # Network
+# Page Approvals
 # Parser Hooks
 # Pickle
 # Semantic Approved Revs
