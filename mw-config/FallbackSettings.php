@@ -116,6 +116,7 @@ $wgTranslateLanguageFallbacks = [
 	'kge-arab' => [ 'kge', 'id' ],
 	'kgp' => [ 'pt', 'pt-br' ],
 	'ki' => 'sw',
+	'kip' => [ 'ne', 'new' ],
 	'kjh' => [ 'alt', 'atv', 'tyv' ],
 	'kl' => [ 'ale', 'ale-cyrl', 'esu', 'ik', 'ike-cans', 'ike-latn' ],
 	'knn' => 'hi',
