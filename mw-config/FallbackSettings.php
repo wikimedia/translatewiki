@@ -126,6 +126,7 @@ $wgTranslateLanguageFallbacks = [
 	'kus' => [ 'dag', 'fr', 'mos', 'gur' ],
 	'lag' => 'sw', # Amir 2017-05-03
 	'lki' => [ 'lrc', 'sdh' ],
+	'lou' => [ 'fr', 'ht', 'acf', 'gcf' ],
 	'lua' => [ 'fr', 'kg', 'sw', 'ln' ],
 	'lue' => [ 'ny', 'tum', 'loz' ],
 	'lus' => [ 'mrh', 'as', 'my' ],
