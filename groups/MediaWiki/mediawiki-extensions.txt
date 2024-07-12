@@ -825,10 +825,6 @@ Cognitive Process Designer
 aliasfile = CognitiveProcessDesigner/languages/CognitiveProcessDesignerSpecialPages.alias.php
 optional = cpd-ve-bpmn-title
 
-Collaboration Kit
-aliasfile = CollaborationKit/CollaborationKit.alias.php
-magicfile = CollaborationKit/CollaborationKit.i18n.magic.php
-
 Collapsible Sections
 
 Collapsible Vector
@@ -1048,8 +1044,6 @@ optional = debugtemplates
 Delete Batch
 aliasfile = DeleteBatch/DeleteBatch.alias.php
 optional = deletebatch-extensionname
-
-Delete Own
 
 Delete Pages For Good
 
@@ -2404,9 +2398,6 @@ Page Authors
 
 Page Checkout
 
-Page Creation Notif
-descmsg = page-creation-notif-desc
-
 Page Disqus
 
 # Page Encryption // 2023-10-07: missing qqq
@@ -3036,8 +3027,6 @@ Stalker Log
 
 Stat Counter
 ignored = statcounter-project-id, statcounter-security
-
-Stick To That Language
 
 StickyTOC
 
