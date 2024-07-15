@@ -869,6 +869,7 @@ ignored = commonsmetadata-doc-url
 optional = commonsmetadata-artistcredit-separator
 
 Community Configuration
+optional = communityconfiguration-editor-validation-error-label-chain-joiner
 
 Config Manager
 aliasfile = ConfigManager/languages/ConfigManager.alias.php
