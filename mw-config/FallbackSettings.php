@@ -142,6 +142,7 @@ $wgTranslateLanguageFallbacks = [
 	'moe' => 'fr',
 	'mos' => [ 'fr', 'dag', 'gur', 'kbp', 'nmz' ],
 	'mrh' => [ 'lus', 'as', 'my' ],
+	'msi' => [ 'ms', 'id' ],
 	'mvf' => [ 'mn', 'zh-hans', 'ru' ],
 	'mwv' => 'id',
 	'nan' => [ 'nan-latn-pehoeji', 'nan-latn-tailo', 'nan-hant', 'nan-hans', 'zh-hans', 'zh-hant' ],
