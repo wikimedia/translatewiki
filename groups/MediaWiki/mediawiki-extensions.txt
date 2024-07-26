@@ -2136,6 +2136,7 @@ aliasfile = MissedPages/MissedPages.i18n.alias.php
 # descmsg = mnss-desc
 
 Mobile App
+ignored = mobileapp-edit-tags-link
 
 Mobile Detect
 
