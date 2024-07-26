@@ -3,7 +3,6 @@
 /** @phpcs-require-sorted-array */
 $wgExtraLanguageNames = [
 	'abr' => 'Abron', # Abron (a.k.a. Brong and Bono) / Amir 2024-07-07
-	'acf' => 'Kwéyòl Sent Lisi', # Saint Lucian Creole French / Siebrand 2012-08-05
 	'ada' => 'Dangme', # Dangme / Amir 2023-10-08
 	'ahr' => 'अहिराणी', # Ahirani / Amir 2012-02-25
 	'aii' => 'ܣܘܪܝܬ', # Assyrian Neo-Aramaic / Amir 2024-07-10
