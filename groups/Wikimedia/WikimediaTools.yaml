@@ -64,6 +64,36 @@ VALIDATORS:
 
 ---
 BASIC:
+  id: wikimedia-tools-feverfew
+  label: Feverfew
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-tools-feverfew/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/plantaest/feverfew/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: feverfew-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/feverfew/feverfew-client/public/locales/%CODE%/core.json"
+  nestingSeparator: .
+
+VALIDATORS:
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    params: /\{(?:[^{}]|\{(?:[^{}]|\{[^{}]*\})*\})*\}/
+
+---
+BASIC:
   id: wikimedia-tools-heritage
   label: Monuments API
   namespace: NS_INTUITION

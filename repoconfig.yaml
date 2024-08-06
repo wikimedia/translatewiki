@@ -1174,6 +1174,12 @@ wikimedia-tools:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/p/labs/tools/commons-mass-description
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/commons-mass-description
+    wikimedia-tools/feverfew:
+      type: github
+      pull-branch: i18n
+      branch: main
+      url: https://github.com/plantaest/feverfew.git
+      url|export: git@github.com:plantaest/feverfew.git
     wikimedia-tools/guc:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/guc
