@@ -103,6 +103,7 @@ $wgExtraLanguageNames = [
 	'nan-latn-pehoeji' => 'Bân-lâm-gú (Pe̍h-ōe-jī)', # Minnan (Latin script, Pe̍h-ōe-jī) / Winston Sung 2024-03-07
 	'nan-latn-tailo' => 'Bân-lâm-gú (Tâi-lô)', # Minnan (Latin script, Tâi-lô) / Winston Sung 2024-03-07
 	'njo' => 'Ao', # Ao Naga
+	'nnh' => 'ngiembɔɔn', # Ngiemboon / Amir 2024-08-07
 	'nod-thai' => 'คำเมือง', # Northern Thai / Siebrand 2017-05-20
 	'nus' => 'Thok Naath', # Nuer / Amir 2021-02-25
 	'nzi' => 'Nzema', # Eugene Wang'ombe / 2022-12-01

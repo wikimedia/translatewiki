@@ -156,6 +156,7 @@ $wgTranslateLanguageFallbacks = [
 	'njo' => [ 'as', 'hi' ],
 	'nmz' => [ 'fr', 'kbp', 'ee' ], # Only for translatewiki. Don't add these as fallback in core.
 	'nn' => [ 'sv', 'da' ], # Siebrand 2008-02-18
+	'nnh' => [ 'fr', 'bas' ],
 	'nod' => [ 'th', 'nod-thai' ], # Amir 2011-11-07
 	'nod-thai' => [ 'th', 'nod' ], # Siebrand 2017-05-20
 	'nog' => 'ru',
