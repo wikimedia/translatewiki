@@ -53,6 +53,7 @@ GROUPS:
   - ext-math-api
   - ext-mediamoderation # https://phabricator.wikimedia.org/rOMWC78ef1c798bc0df1ff9518348e939a3ee722cc3e7
   - ext-mobilefrontend-api
+  - ext-networksession # https://phabricator.wikimedia.org/rOMWCda17f25800c4aee1a9e538b13b9f9d46eea252d3
   - ext-newsletter-api
   - ext-oathauth-api
   - ext-oauthratelimiter # https://phabricator.wikimedia.org/rOMWCbe45f2db4f211660b600ae7c2d066223a50792f9

@@ -13,7 +13,6 @@ GROUPS:
   - ext-communityconfiguration
   - ext-ipreputation # https://phabricator.wikimedia.org/rOMWCeb0d3b75eaa7954cefdd48175491d79729d09a9d
   - ext-metricsplatform # https://phabricator.wikimedia.org/rOMWC0af5892118d4f452bfd3dd3c3e5944cd36dcd137
-  - ext-networksession # https://phabricator.wikimedia.org/rOMWC146167d279f200c00bcd5ff8ff95680fdc694b8e
   - ext-pagenotice # https://phabricator.wikimedia.org/rOMWCd3b399694f2b03af6ee029fb0cf1e3e9939e7a5b:
   - ext-reportincident # https://phabricator.wikimedia.org/rOMWCf594ec5484fac1b992138e573369ffae8bdeba36
   - ext-stopforumspam # Deployed experimentally on several wikis. Move to Advanced when the deployment becomes wider. https://phabricator.wikimedia.org/rOMWCf3de027936c615d7a310793d85a836350fcdc1df
