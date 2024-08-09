@@ -91,6 +91,8 @@ VALIDATORS:
     enforce: true
     insertable: true
     params: /\{(?:[^{}]|\{(?:[^{}]|\{[^{}]*\})*\})*\}/
+    exclude:
+      - feverfew-ui.result.redirectTitle
 
 ---
 BASIC:
