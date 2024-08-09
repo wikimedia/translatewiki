@@ -434,8 +434,6 @@ category-file-count
 pager-older-n
 rcshowhideanons-show
 inputbox-tryexact
-globalblocking-blockedtext-ip
-globalblocking-blockedtext-xff
 wikibase-label-empty
 wm-license-self-multiple-licenses-select
 editing
