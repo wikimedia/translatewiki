@@ -329,6 +329,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/undelete/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-unlink
+  label: Pywikibot Unlink
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/unlink/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-unprotect
   label: Pywikibot Unprotect
 
