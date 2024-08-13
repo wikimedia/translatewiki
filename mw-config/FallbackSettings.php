@@ -66,6 +66,7 @@ $wgTranslateLanguageFallbacks = [
 	'dar' => [ 'av', 'ce', 'ru', 'az' ],
 	'ddn' => [ 'fr', 'fon', 'yo', 'ha' ],
 	'dga' => [ 'dag', 'fr', 'mos', 'gur' ],
+	'dru' => [ 'pwn', 'zh-hant' ],
 	'dz' => [ 'bo', 'hi', 'ne', 'zh-hans' ],
 	'ee' => [ 'fr', 'ajg', 'fon', 'guw' ],
 	'efi' => [ 'fr', 'ig', 'yo', 'ha' ],
