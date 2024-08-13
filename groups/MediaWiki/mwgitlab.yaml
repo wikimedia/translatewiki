@@ -39,4 +39,25 @@ BASIC:
 FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgitlab/nonsensopedia/ratepage/i18n/api/%CODE%.json"
+---
+BASIC:
+  id: mwgitlab-userprofilev2
+  label: UserProfileV2
+  description: "{{Special:MyLanguage/MediaWiki:UserProfileV2-desc/en}}"
+  support:
+    url: https://telepedia.atlassian.net/servicedesk/customer/portal/1/group/1/create/6
+    params:
+      description: "%MESSAGE_URL%"
+      summary: Translation issue with message %MESSAGE%
 
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgitlab/telepedia/userprofilev2/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - UserProfileV2
+  ignored:
+    - userprofilev2-discord-placeholder
+    - userprofilev2-twitter-placeholder
+    - userprofilev2-mastodon-placeholder

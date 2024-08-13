@@ -775,6 +775,11 @@ mwgitlab:
       type: github # same committer name and email as in github
       url: https://gitlab.com/nonsensopedia/extensions/ratepage.git
       url|export: git@gitlab.com:nonsensopedia/extensions/ratepage.git
+    mwgitlab/telepedia/userprofilev2:
+      type: github
+      branch: main
+      url: https://gitlab.com/telepedia/extensions/userprofilev2.git
+      url|export: git@gitlab.com/telepedia/extensions/userprofilev2.git
 
 nfcring-control:
   group: nfcring-control
