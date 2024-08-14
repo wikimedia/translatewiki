@@ -15,6 +15,10 @@ $wgTranslateEnableMessageBundleIntegration = true;
 // Enable message group subscriptions. See: T348501
 $wgTranslateEnableMessageGroupSubscription = true;
 
+// Display page translation setting banner for certain namespaces. See: T360409
+// For testing. Eventually, enable for namespaces where translatable content is more likely
+$wgTranslatePageTranslationBannerNamespaces = [ NS_USER ];
+
 $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
 $wgTranslateValidationExclusionFile = __DIR__ . "/validation-exclusion-list.php";
 
