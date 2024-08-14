@@ -29,3 +29,12 @@ INSERTABLES:
 TAGS:
   ignored:
     - serve-non-translated-text
+  optional:
+    - serve-book-category.gutenberg
+    - serve-book-category.iFixit
+    - serve-book-category.mooc
+    - serve-book-category.phet
+    - serve-book-category.stack_exchange
+    - serve-book-category.ted
+    - serve-book-category.vikidia
+    - serve-book-category.wikihow
