@@ -63,13 +63,14 @@ TAGS:
     - wikipedia-android-strings-intent_share_search_label
     - wikipedia-android-strings-zero_webpage_url
   optional:
+    - wikipedia-android-strings-cc_0_url
+    - wikipedia-android-strings-cc_by_sa_4_url
+    - wikipedia-android-strings-content_license_cc_by_sa
+    - wikipedia-android-strings-description_starts_with_article
     - wikipedia-android-strings-image_recommendations_task_daily_amount
     - wikipedia-android-strings-notifications_tab_filter_unread
     - wikipedia-android-strings-privacy_policy_url
-    - wikipedia-android-strings-terms_of_use_url
-    - wikipedia-android-strings-content_license_cc_by_sa
-    - wikipedia-android-strings-cc_by_sa_4_url
-    - wikipedia-android-strings-wikidata_description_guide_url
-    - wikipedia-android-strings-cc_0_url
-    - wikipedia-android-strings-description_starts_with_article
+    - wikipedia-android-strings-suggested_edits_contribution_type_title
     - wikipedia-android-strings-talk_warn_learn_more_url
+    - wikipedia-android-strings-terms_of_use_url
+    - wikipedia-android-strings-wikidata_description_guide_url
