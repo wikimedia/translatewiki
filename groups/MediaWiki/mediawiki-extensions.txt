@@ -743,8 +743,6 @@ Chart
 
 Checklists
 
-Checkpoint
-
 Check User - User interface
 id = ext-checkuser-user
 file = CheckUser/i18n/%CODE%.json
@@ -940,8 +938,6 @@ file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/api/%CODE%.json
 Confirm Edit ReCaptcha NoCaptcha - User interface
 id = ext-confirmeditrecaptchanocaptcha-user
 file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/%CODE%.json
-
-# Congress Lookup # US centric
 
 # Contact Manager // 2023-05-01: Empty repo
 
@@ -1245,10 +1241,6 @@ Email Authorization
 aliasfile = EmailAuthorization/includes/EmailAuthorization.alias.php
 
 Email Capture
-
-# Email Deleted Pages // 2021-12-04: Still the old message scheme
-
-Email Diff
 
 # Emergency Captcha // 2023-06-04: Empty repo
 
@@ -1990,8 +1982,6 @@ descmsg = loopfunc-desc
 Loops
 ignored = loops-limitreport-count-unlimited-value
 optional = loops-limitreport-count-limited-value
-
-Mad Lib
 
 Magic No Cache
 

@@ -88,13 +88,6 @@ $validationExclusionList = [
 		]
 	],
 	[
-		'group' => 'ext-checkpoint',
-		'check' => 'links',
-		'message' => [
-			'checkpoint-notice', // Contains link parts that may need translation
-		]
-	],
-	[
 		'group' => 'ext-checkuser-user',
 		'check' => 'variable',
 		'message' => [
