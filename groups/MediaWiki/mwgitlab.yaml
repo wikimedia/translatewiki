@@ -57,6 +57,7 @@ FILES:
 TAGS:
   optional:
     - UserProfileV2
+    - prefs-profile
   ignored:
     - userprofilev2-discord-placeholder
     - userprofilev2-twitter-placeholder
