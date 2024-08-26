@@ -677,7 +677,7 @@ GROUPS:
 ---
 BASIC:
   id: ext-wikibasequalityconstraints
-  label: WikibaseQualityConstraints
+  label: Wikibase Quality Constraints
   description: '{{Special:MyLanguage/MediaWiki:Wbqc-desc/en}}'
 
 GROUPS:
@@ -691,6 +691,28 @@ BASIC:
 
 GROUPS:
   - ext-wikibase-repo-*
+
+---
+BASIC:
+  id: ext-wikidata-extensions
+  label: Extensions used by Wikidata
+  description: '{{Special:MyLanguage/Translations:Group descriptions/mediawikiwikidataextensions/en}}'
+
+GROUPS:
+  - ext-wikibase-client-*
+  - ext-wikibase-lib
+  - ext-babel
+  - ext-universallanguageselector
+  - ext-wikidata.org
+  - ext-wikibase-repo-*
+  - ext-wikimediabadges
+  - ext-propertysuggester
+  - ext-wikibasequalityconstraints
+  - ext-wikibaselexeme-*
+  - ext-wikibasecirrussearch
+  - ext-wikibaselexemecirrussearch
+  - ext-cldr
+  - ext-entityschema
 
 ---
 BASIC:
