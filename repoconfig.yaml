@@ -779,7 +779,7 @@ mwgitlab:
       type: github
       branch: main
       url: https://gitlab.com/telepedia/extensions/userprofilev2.git
-      url|export: git@gitlab.com/telepedia/extensions/userprofilev2.git
+      url|export: git@gitlab.com:telepedia/extensions/userprofilev2.git
 
 nfcring-control:
   group: nfcring-control
