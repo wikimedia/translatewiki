@@ -31,7 +31,6 @@ $EXT = "$IP/extensions";
 
 wfLoadExtension( 'CleanChanges' );
 $wgCCUserFilter = true;
-$wgCCTrailerFilter = true;
 $wgStructuredChangeFiltersShowPreference = true;
 $wgCCFiltersOnly = true;
 
@@ -59,6 +58,7 @@ $wgPageTranslationLanguageList = 'sidebar-only';
 $wgTranslatePermissionUrl = 'Special:MainPage';
 $wgTranslateUseSandbox = true;
 $wgTranslateSandboxPromotedGroup = 'translator';
+$wgTranslateCleanChangesTrailerFilter = true;
 
 $wgTranslateTranslationServices['TTMServer'] = [
 	'type' => 'ttmserver',
