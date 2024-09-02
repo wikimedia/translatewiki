@@ -871,6 +871,8 @@ optional = commonsmetadata-artistcredit-separator
 Community Configuration
 optional = communityconfiguration-editor-validation-error-label-chain-joiner
 
+Community Requests
+
 Config Manager
 aliasfile = ConfigManager/languages/ConfigManager.alias.php
 
