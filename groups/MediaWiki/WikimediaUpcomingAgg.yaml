@@ -9,6 +9,7 @@ BASIC:
 
 GROUPS:
   - ext-capiunto # wikidataclient-test
+  - ext-chart # https://phabricator.wikimedia.org/rOMWC87d69e644b112a71bedc948c824400172d2f586c
   - ext-chessbrowser # https://phabricator.wikimedia.org/rOMWCba8b786c7f3a290f0747a6859fd07502eb83108f
   - ext-communityconfiguration
   - ext-ipreputation # https://phabricator.wikimedia.org/rOMWCeb0d3b75eaa7954cefdd48175491d79729d09a9d
