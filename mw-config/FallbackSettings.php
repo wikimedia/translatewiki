@@ -114,6 +114,8 @@ $wgTranslateLanguageFallbacks = [
 	'jv-java' => [ 'jv', 'id' ],
 	'kac' => 'my',
 	'kai' => [ 'bol', 'ha' ],
+	'kaj' => [ 'kcg', 'ha', 'ff', 'yo' ],
+	'kcg' => [ 'kaj', 'ha', 'ff', 'yo' ],
 	'kck' => [ 'sn', 'tn', 've' ],
 	'kge' => 'kge-arab',
 	'kge-arab' => [ 'kge', 'id' ],
@@ -248,4 +250,5 @@ $wgTranslateLanguageFallbacks = [
 	'yrk' => 'ru', # Lcawte 2011-02-07
 	'yrl' => [ 'es', 'pt-br', 'gn' ],
 	'yua' => 'es',
+	'zmi' => [ 'ms', 'min', 'id' ],
 ];

@@ -68,6 +68,7 @@ $wgExtraLanguageNames = [
 	'jje' => '제주말', # Jeju / Amir 2023-06-14
 	'jv-java' => 'ꦗꦮ', # Javanese (Javanese script) / Amir 2022-10-29
 	'kac' => 'Jinghpaw', # Jingpho / Siebrand 2014-04-08
+	'kaj' => 'Jju', # Jju / Amir 2024-09-03
 	'kbd-latn' => 'Qabardjajəbza', # Kabardian (Latin script) / Siebrand 2010-02-21
 	'kck' => 'tjikalanga', # Kalanga / Amir 2022-07-18
 	'ken' => 'kɛ́nyáŋ', # Kenyang / Jon Harald Søby 2022-02-03
@@ -149,4 +150,5 @@ $wgExtraLanguageNames = [
 	'yoi' => '与那国物言', # Yonaguni / Amir 2022-07-16
 	'yrk' => 'Ненэцяʼ вада', # Tundra Nenets / Lcawte 2011-02-07
 	'yua' => 'Maaya T\'aan', # Yucatán Maya / Siebrand 2011-04-09
+	'zmi' => 'Nismilan', # Negeri Sembilan Malay / Amir 2024-09-03
 ];
