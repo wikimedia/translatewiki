@@ -58,7 +58,7 @@ $wgPageTranslationLanguageList = 'sidebar-only';
 $wgTranslatePermissionUrl = 'Special:MainPage';
 $wgTranslateUseSandbox = true;
 $wgTranslateSandboxPromotedGroup = 'translator';
-$wgTranslateCleanChangesTrailerFilter = true;
+$wgTranslateRecentChangesLanguageFilter = true;
 
 $wgTranslateTranslationServices['TTMServer'] = [
 	'type' => 'ttmserver',
