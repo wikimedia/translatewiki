@@ -1237,6 +1237,10 @@ wikimedia-tools:
       branch: main
       url: https://github.com/wikicurricula-uy/wikicurricula-boilerplate.git
       url|export: git@github.com:wikicurricula-uy/wikicurricula-boilerplate.git
+    wikimedia-tools/videowiki:
+      type: github
+      url: https://github.com/wpmed-videowiki/videowiki.git
+      url|export: git@github.com:wpmed-videowiki/videowiki.git
     wikimedia-tools/wikinity:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/wikinity
