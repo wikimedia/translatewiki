@@ -20,6 +20,7 @@ GROUPS:
   - ext-citethispage
   - ext-citoid # 2015-03-16
   - ext-collection-user
+  - ext-communityrequests # meta. https://phabricator.wikimedia.org/rOMWC2b99890cf87fbaf7f17e8e0e43ccc5231cf8c6c6
   - ext-confirmedit-user
   - ext-confirmeditfancycaptcha-user
   - ext-contenttranslation-user
