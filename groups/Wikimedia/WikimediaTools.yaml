@@ -406,7 +406,7 @@ FILES:
 
 ---
 BASIC:
-  id: videowiki
+  id: wikimedia-tools-videowiki
   label: VideoWiki
   description: "{{Special:MyLanguage/Translations:Group descriptions/videowiki/en}}"
   icon: wiki://VideoWiki_Logo_-_Official_transparent_no_text.svg
