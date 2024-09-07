@@ -465,7 +465,6 @@ sp-contributions-newonly
 sp-contributions-uploads
 sp-contributions-talk
 sp-contributions-blocklog
-contribsub2
 broken-file-category
 unwatch
 nolinkshere
