@@ -69,7 +69,6 @@ $wgExtraLanguageNames = [
 	'jv-java' => 'ꦗꦮ', # Javanese (Javanese script) / Amir 2022-10-29
 	'kac' => 'Jinghpaw', # Jingpho / Siebrand 2014-04-08
 	'kaj' => 'Jju', # Jju / Amir 2024-09-03
-	'kbd-latn' => 'Qabardjajəbza', # Kabardian (Latin script) / Siebrand 2010-02-21
 	'kck' => 'tjikalanga', # Kalanga / Amir 2022-07-18
 	'ken' => 'kɛ́nyáŋ', # Kenyang / Jon Harald Søby 2022-02-03
 	'kge-arab' => 'باس كوموريڠ', # Komering (Arabic script) // Jon Harald Søby 2023-11-17
