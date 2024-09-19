@@ -48,6 +48,8 @@ $wgRightsIcon = "";
 
 $wgMaxShellMemory = 1024 * 200;
 
+$wgParserEnableUserLanguage = true;
+
 /**
  * Names
  */
