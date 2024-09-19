@@ -711,6 +711,7 @@ optional = centralauth-editset-grouplink, centralauth-listusers-item
 optional = centralauth-merge-method-questionmark
 ignored = centralauth-editset-item-ro, centralauth-admin-notblocked
 ignored = centralauth-admin-log-otherwiki, globalrenameuser-summary
+ignored = centralauth-admin-info-line
 
 Central Auth - API
 id = ext-centralauth-api
