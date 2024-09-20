@@ -187,6 +187,7 @@ $wgTranslateDisabledTargetLanguages = [
 		# 'got' => 'This is an [http://www.sil.org/iso639-3/documentation.asp?id=got ancient language] without enough information to create a localisation. It cannot be localised in translatewiki.net.',
 		'hif' => 'This language code should remain unused. Localise in hif-latn please.',
 		'ike' => 'This language code should remain unused. Localise in ike-cans or ike-latn please.',
+		'isv' => 'This language code should remain unused. Localise in isv-cyrl or isv-latn please.',
 		'iu' => 'This language code should remain unused. Localise in ike-cans or ike-latn please.',
 		'kbd' => 'This language code should remain unused. Localise in kbd-cyrl please.',
 		'kk' => 'This language code should remain unused. Localise in kk-cyrl please.',

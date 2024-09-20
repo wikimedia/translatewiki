@@ -109,6 +109,7 @@ $wgTranslateLanguageFallbacks = [
 	'ike-cans' => [ 'ale', 'ale-cyrl', 'esu', 'ik', 'ike-latn', 'kl' ],
 	'ike-latn' => [ 'ale', 'ale-cyrl', 'esu', 'ik', 'ike-cans', 'kl' ],
 	'ish' => [ 'bin', 'yo', 'ig', 'ha' ],
+	'isv' => [ 'isv-latn', 'isv-cyrl' ],
 	'isv-cyrl' => 'isv-latn',
 	'isv-latn' => 'isv-cyrl',
 	'jac' => 'es',
