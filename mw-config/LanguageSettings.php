@@ -103,6 +103,7 @@ $wgExtraLanguageNames = [
 	'nan-hani' => '閩南語（漢字）', # Minnan (Han scripts - defaults to Traditional Han) / Winston Sung 2024-03-07
 	'nan-hans' => '闽南语（简化汉字）', # Minnan (Simplified Han script) / Winston Sung 2024-03-07
 	'nan-latn' => 'Bân-lâm-gú (Lô-má-jī)', # Minnan (Latin script, multiple romanizations - defaults to Pe̍h-ōe-jī) / Winston Sung 2024-03-07
+	'naq' => 'Khoekhoegowab', # Khoekhoe (Nama) / Amir 2024-09-24
 	'nd' => 'IsiNdebele seNyakatho', # Northern Ndebele / Amir 2024-09-18
 	'njo' => 'Ao', # Ao Naga
 	'nnh' => 'ngiembɔɔn', # Ngiemboon / Amir 2024-08-07

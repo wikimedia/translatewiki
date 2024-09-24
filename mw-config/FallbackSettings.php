@@ -161,6 +161,7 @@ $wgTranslateLanguageFallbacks = [
 	'nan-hans' => [ 'nan-hant', 'nan-latn-pehoeji', 'nan-latn-tailo', 'nan', 'zh-hans', 'zh-hant' ],
 	'nan-latn-pehoeji' => [ 'nan-hans' ],
 	'nan-latn-tailo' => [ 'nan-hans' ],
+	'naq' => [ 'af', 'de', 'kj', 'ng', 'tn', 'xh', 'zu' ],
 	'nb' => [ 'nn', 'da', 'sv' ], # Siebrand 2008-02-18
 	'nd' => [ 'sn', 'zu', 'ny', 'kck' ],
 	'nds' => [ 'da', 'nl', 'nds-nl', 'pdt' ],
