@@ -90,6 +90,7 @@ mobile-frontend-view-desktop
 mobile-frontend-terms-text
 mobile-frontend-placeholder
 mobile-frontend-language-article-heading
+minerva-page-actions-overflow
 searchsuggest-search
 searchsuggest-containing
 vector-searchsuggest-containing
@@ -107,6 +108,7 @@ jumptosearch
 jumptonavigation
 jumpto
 vector-more-actions
+vector-page-tools-actions-label
 namespaces
 blanknamespace
 navigation
