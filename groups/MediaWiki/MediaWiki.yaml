@@ -632,6 +632,7 @@ TAGS:
     - upload-default-description
     - upload-summary
     - uploadfooter
+    - userlink-with-contribs
     - userlogout-summary
     - userrights-summary
     - version-db-mariadb-url
