@@ -1499,6 +1499,7 @@ id = ext-globalblocking-user
 file = GlobalBlocking/i18n/%CODE%.json
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
 ignored = globalblocking-expiry-options, globalblocking-blockedtext-user
+ignored = globalblocking-globalautoblock-exemptionlist
 optional = globalblocking-blockedtext-ip, globalblocking-blockedtext-xff, globalblocking-blockedtext-range
 
 # Archived: T157240
