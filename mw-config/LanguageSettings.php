@@ -94,6 +94,7 @@ $wgExtraLanguageNames = [
 	'mfe' => 'Morisyen', # Robin 2011-10-18
 	'mic' => 'Mi\'kmaq', # Micmac / Nikerabbit 2012-02-27
 	'miq' => 'Mískitu', # Miskito / Siebrand 2013-07-02
+	'mns' => 'ма̄ньси', # Mansi / Amir 2024-09-27
 	'moe' => 'innu-aimun', # Innu-aimun / Amir 2020-04-16
 	'mrv' => 'Magareva', # Mangareva / Amir 2019-08-28
 	'msi' => 'Bahasa Sabah', # Sabah Malay / Amir 2024-07-17
