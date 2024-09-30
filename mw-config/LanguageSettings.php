@@ -87,7 +87,6 @@ $wgExtraLanguageNames = [
 	'ldn' => 'Láadan', # Amir 2023-02-15
 	'lkt' => 'Lakȟótiyapi', # Lakota / 2014-04-08
 	'lou' => 'Kouri-Vini', # Louisiana Creole / Amir 2020-03-25
-	'lua' => 'Ciluba', # Luba-Kasai / Amir 2024-04-16
 	'lue' => 'Chiluvale', # Chiluvale (Luvale) / Amir 2024-06-30
 	'mak' => 'Mangkasarak', # Amir 2022-08-20
 	'mak-bugi' => 'ᨆᨀᨔᨑ', # Amir 2022-08-20
