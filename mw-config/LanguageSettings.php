@@ -3,6 +3,7 @@
 /** @phpcs-require-sorted-array */
 $wgExtraLanguageNames = [
 	'abr' => 'Abron', # Abron (a.k.a. Brong and Bono) / Amir 2024-07-07
+	'ach' => 'Acoli', # Acholi / Amir 2024-09-30
 	'ada' => 'Dangme', # Dangme / Amir 2023-10-08
 	'ahr' => 'अहिराणी', # Ahirani / Amir 2012-02-25
 	'aii' => 'ܣܘܪܝܬ', # Assyrian Neo-Aramaic / Amir 2024-07-10
@@ -83,6 +84,7 @@ $wgExtraLanguageNames = [
 	'ksf' => 'Bafia', # Robin 2011-10-21
 	'lad-hebr' => 'לאדינו', # Ladino in Hebrew script / Amir 2020-04-17
 	'lag' => 'Kilaangi', # Rangi / Amir 2017-05-03
+	'laj' => 'Lëblaŋo', # Lango / Amir 2024-09-30
 	'ldn' => 'Láadan', # Amir 2023-02-15
 	'lkt' => 'Lakȟótiyapi', # Lakota / 2014-04-08
 	'lou' => 'Kouri-Vini', # Louisiana Creole / Amir 2020-03-25
