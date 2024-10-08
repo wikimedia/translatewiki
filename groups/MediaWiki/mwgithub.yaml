@@ -1454,6 +1454,7 @@ TAGS:
     - skinname-citizen
     - citizen.css
     - citizen.js
+    - citizen-search-poweredby-cirrussearch
   ignored:
     - citizen-tagline
 
