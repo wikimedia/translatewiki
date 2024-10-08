@@ -440,6 +440,7 @@ TAGS:
     - smw-specials-bytype-helplink
     - smw-schema-error-violation
     - smw-admin-supplementary-duplookup-helplink
+    - smw-admin-supplementary-elastic-title
     - smw-processingerrorlist-helplink
     - smw-constrainterrorlist-helplink
     - smw-admin-helplink
