@@ -933,6 +933,7 @@ FILES:
 
 TAGS:
   optional:
+   - createwiki-extensionname
    - createwiki-close-email-sender
 
 ---
