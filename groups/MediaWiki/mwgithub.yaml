@@ -1148,6 +1148,7 @@ FILES:
 TAGS:
   optional:
     - miraheze-centralauth-groupname
+    - miraheze-createwiki-close-email-sender
   ignored:
     - miraheze-privacypage
     - miraheze-grouppage-*
