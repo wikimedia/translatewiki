@@ -149,6 +149,7 @@ $wgTranslateLanguageFallbacks = [
 	'mak' => [ 'mak-bugi', 'bug', 'id' ], # Amir 2022-08-20
 	'mak-bugi' => [ 'mak', 'bug-bugi', 'bug', 'id' ], # Amir 2022-08-20
 	'mey' => [ 'ar', 'ary', 'fr', 'es' ], # Amir 2023-01-27
+	'mfa' => [ 'ms', 'th' ], # Robin 2011-10-18
 	'mfe' => 'fr', # Robin 2011-10-18
 	'miq' => 'es',
 	'mnc' => [ 'mnc-mong', 'zh-hans' ],
