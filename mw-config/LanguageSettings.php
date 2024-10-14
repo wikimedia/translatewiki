@@ -30,6 +30,7 @@ $wgExtraLanguageNames = [
 	'bug-bugi' => 'ᨅᨔ ᨕᨘᨁᨗ', # Buginese (Lontara script) / Amir 2023-07-16
 	'bum' => 'bulu', # Bulu / Amir 2022-02-19
 	'bwr' => 'bura', # Bura / Amir 2022-06-11
+	'byv' => 'Mə̀dʉ̂mbɑ̀', # Medumba / Amir 2024-10-13
 	'bzj' => 'Bileez Kriol', # Belizean Creole / Amir 2021-03-29
 	'bzs' => 'Língua brasileira de sinais', # Brazilian Sign Language; the name is intentionally written in Portuguese / Amir 2023-05-26
 	'cak' => 'Kaqchikel', # Kaqchikel / Nikerabbit 2018-06-15

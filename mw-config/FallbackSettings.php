@@ -51,6 +51,7 @@ $wgTranslateLanguageFallbacks = [
 	'bum' => 'fr',
 	'bwr' => [ 'ha', 'kr', 'ar' ],
 	'bxr' => [ 'mn', 'xal' ],
+	'byv' => [ 'fr', 'nnh', 'dua' ],
 	'bzj' => [ 'jam', 'es' ],
 	'bzs' => [ 'pt-br', 'pt' ],
 	'cak' => 'es',
