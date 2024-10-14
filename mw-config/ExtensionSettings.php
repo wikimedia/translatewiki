@@ -27,8 +27,6 @@ wfLoadExtensions( [
 	'WikiEditor',
 ] );
 
-$EXT = "$IP/extensions";
-
 wfLoadExtension( 'CleanChanges' );
 $wgCCUserFilter = true;
 $wgStructuredChangeFiltersShowPreference = true;
