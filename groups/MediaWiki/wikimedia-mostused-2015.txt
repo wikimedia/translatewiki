@@ -144,6 +144,7 @@ currentevents
 currentevents-url
 search-result-size
 wikibase-editlinks
+wikibase-addlinkstitle
 uls-plang-title-languages
 wikibase-linkitem-addlinks
 wikibase-linkitem-title
