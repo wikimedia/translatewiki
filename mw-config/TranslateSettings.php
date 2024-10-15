@@ -195,6 +195,7 @@ $wgTranslateDisabledTargetLanguages = [
 		'kk-cn' => 'This language code should remain unused. Localise in kk-arab please.',
 		'kk-kz' => 'This language code should remain unused. Localise in kk-cyrl please.',
 		'kk-tr' => 'This language code should remain unused. Localise in kk-latn please.',
+		'kr' => 'This language code should remain unused. Localise in knc please.',
 		'ks' => 'This language code should remain unused. Localise in ks-arab (Arabic script) or ks-deva (Devanagari script) please.',
 		'ku' => 'This code is for compatibility purposes only. Localise in \'ku-latn\'',
 		'mnc-latn' => 'This language code should remain unused. Localise in mnc (Latin script) or mnc-mong (Mongolian script) please.',
