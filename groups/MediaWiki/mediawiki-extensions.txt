@@ -3028,8 +3028,6 @@ Stalker Log
 Stat Counter
 ignored = statcounter-project-id, statcounter-security
 
-StickyTOC
-
 Stop Forum Spam
 
 # String Functions Escaped // No i18n file
