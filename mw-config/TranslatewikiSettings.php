@@ -260,7 +260,6 @@ function wfAddNamespace( int $id, string $name, ?string $constant = null ): void
 
 require_once __DIR__ . '/ExtensionSettings.php';
 require_once __DIR__ . '/TranslateSettings.php';
-require_once __DIR__ . '/nikext.php';
 require_once __DIR__ . '/NewUserMessageJob.php';
 
 /**
