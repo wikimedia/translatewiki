@@ -1499,8 +1499,9 @@ id = ext-globalblocking-user
 file = GlobalBlocking/i18n/%CODE%.json
 aliasfile = GlobalBlocking/GlobalBlocking.alias.php
 ignored = globalblocking-expiry-options, globalblocking-blockedtext-user
-ignored = globalblocking-globalautoblock-exemptionlist
-optional = globalblocking-blockedtext-ip, globalblocking-blockedtext-xff, globalblocking-blockedtext-range
+ignored = globalblocking-globalautoblock-exemptionlist, globalblocking-blockedtext-autoblock-xff
+ignored = globalblocking-blockedtext-autoblock
+ignored = globalblocking-blockedtext-ip, globalblocking-blockedtext-xff, globalblocking-blockedtext-range
 
 # Archived: T157240
 # Global Contribs // no qqq, inconsistent prefix keys, partly identical with Global Contributions
