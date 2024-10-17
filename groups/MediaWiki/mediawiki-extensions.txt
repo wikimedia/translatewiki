@@ -962,8 +962,8 @@ id = ext-contenttranslation-user
 file = ContentTranslation/i18n/%CODE%.json
 descmsg = cx-desc
 aliasfile = ContentTranslation/ContentTranslation.alias.php
-ignored = cx-tools-view-guidelines-link, cx-descriptionpagelink, cx2-descriptionpagelink
-ignored = sx-descriptionpagelink
+ignored = cx-tools-view-guidelines-link, tag-contenttranslation-helppage, tag-contenttranslation-v2-helppage
+ignored = tag-sectiontranslation-helppag
 optional = cx-tools-linter-issues-count, tag-contenttranslation-v2, cx-campaign-newbytranslation-languages
 
 Content Translation - API
