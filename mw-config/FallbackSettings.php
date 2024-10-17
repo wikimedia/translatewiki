@@ -67,6 +67,7 @@ $wgTranslateLanguageFallbacks = [
 	'cjm-latn' => [ 'cja-arab', 'cja-cham', 'cja-latn', 'cjm-arab', 'cjm-cham', 'vi', 'ace', 'ms-arab', 'ms' ],
 	'cjy-hans' => 'zh-hans',
 	'cjy-hant' => 'zh-hant',
+	'cko' => [ 'fr', 'nzi', 'bci', 'tw', 'fat' ],
 	'cnh' => 'my',
 	'cps' => 'tl',
 	'cpx-latn' => [ 'cpx-hant', 'cpx-hans', 'cdo' ],

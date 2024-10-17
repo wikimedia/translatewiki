@@ -49,6 +49,7 @@ $wgExtraLanguageNames = [
 	'cjy' => '晉語', # Jin Chinese (Jinnish) / 2015-06-XX
 	'cjy-hans' => '晋语（简化字）', # Jin Chinese (Simplified Han script) / 2015-06-XX
 	'cjy-hant' => '晉語（正字）', # Jin Chinese (Traditional Han script) / 2015-06-XX
+	'cko' => 'Anufɔ', # Anufo / Amir 2024-10-17
 	'cnh' => 'Lai holh', # Haka Chin / Siebrand 2014-08-06
 	'cnr-cyrl' => 'црногорски', # Montenegrin Cyrillic / Amir 2018-09-04
 	'cnr-latn' => 'crnogorski', # Montenegrin Latin / Amir 2018-09-04
