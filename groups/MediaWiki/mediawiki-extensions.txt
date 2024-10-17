@@ -1502,6 +1502,7 @@ ignored = globalblocking-expiry-options, globalblocking-blockedtext-user
 ignored = globalblocking-globalautoblock-exemptionlist, globalblocking-blockedtext-autoblock-xff
 ignored = globalblocking-blockedtext-autoblock
 ignored = globalblocking-blockedtext-ip, globalblocking-blockedtext-xff, globalblocking-blockedtext-range
+ignored = globalblocking-list-table-cell-expiry
 
 # Archived: T157240
 # Global Contribs // no qqq, inconsistent prefix keys, partly identical with Global Contributions
