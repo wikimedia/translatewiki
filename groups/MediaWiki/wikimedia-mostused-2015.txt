@@ -285,7 +285,6 @@ wm-license-information-date
 contributions
 wm-license-information-source
 wm-license-information-description
-visualeditor-descriptionpagelink
 showpreview
 wm-license-information-author
 watchthis
