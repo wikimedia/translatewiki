@@ -34,6 +34,8 @@ while ( true ) {
 	fseek( $handle, 0, SEEK_END );
 
 	if ( $line !== false ) {
+		// Remove trailing newlines
+		$line = rtrim( $line );
 		$note = '';
 		if ( $count > 2 ) {
 			$count -= 2;
