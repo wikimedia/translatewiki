@@ -3690,6 +3690,10 @@ Wikimedia Api Portal OAuth
 
 Wikimedia Badges
 
+Wikimedia Campaign Events - API
+id = ext-wikimediacampaignevents-api
+file = WikimediaCampaignEvents/i18n/api/%CODE%.json
+
 Wikimedia Campaign Events - Rest API
 id = ext-wikimediacampaignevents-rest
 file = WikimediaCampaignEvents/i18n/rest/%CODE%.json
