@@ -430,6 +430,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixServe.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixPhET.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixApple.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixAgg.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixZimitFrontend.yaml";
 $wgTranslateGroupAliases['out-kiwix'] = 'kiwix';
 $wgTranslateSupportUrlNamespace[NS_KIWIX] = [
 	'page' => 'Translating_talk:Kiwix',
