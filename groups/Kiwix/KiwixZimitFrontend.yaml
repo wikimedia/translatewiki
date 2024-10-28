@@ -14,7 +14,7 @@ BASIC:
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/zimit-frontend/locales/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/kiwix-zimit-frontend/locales/%CODE%.json"
   nestingSeparator: .
 
 MANGLER:
