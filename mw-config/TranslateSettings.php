@@ -15,6 +15,9 @@ $wgTranslateEnableMessageBundleIntegration = true;
 // Enable message group subscriptions. See: T348501
 $wgTranslateEnableMessageGroupSubscription = true;
 
+// Enable message bundle Lua library. See: T369049
+$wgTranslateEnableLuaIntegration = true;
+
 // Display page translation setting banner for certain namespaces. See: T360409
 // For testing. Eventually, enable for namespaces where translatable content is more likely
 $wgTranslatePageTranslationBannerNamespaces = [ NS_USER ];
