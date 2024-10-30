@@ -2295,6 +2295,11 @@ Notebook Viewer
 
 Notes Link
 
+Notify Me
+ignored = notifications-mail-reception-reason
+ignored = notifications-mail-manage-notifications
+ignored = notifications-mail-manage-notifications-link
+
 NS File Repo
 file = NSFileRepo/i18n/nsfilerepo/%CODE%.json
 
