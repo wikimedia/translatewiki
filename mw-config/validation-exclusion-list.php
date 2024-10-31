@@ -557,10 +557,12 @@ $validationExclusionList = [
 			'wm-license-cc-by-sa-3.0-vn-text',
 			'wm-license-cc-by-sa-3.0-za-text',
 			'wm-license-cc-by-sa-4.0-text',
+			'wm-license-cc-by-sa-4.0-3.0-2.5-2.0-1.0-text',
 			'wm-license-cc-sa-1.0-text',
 			'wm-license-cc-sa-1.0-fi-text',
 			'wm-license-cc-sa-1.0-nl-text',
 			'wm-license-cc-sa-2.0-jp-text',
+			'wm-license-cc-zero-text',
 		]
 	],
 	[
