@@ -3266,8 +3266,8 @@ Translate - Core User interface
 id = ext-translate-core
 file = Translate/i18n/core/%CODE%.json
 descmsg = translate-desc
-aliasfile = Translate/Translate.alias.php
-magicfile = Translate/Translate.i18n.magic.php
+aliasfile = Translate/i18n/Translate.alias.php
+magicfile = Translate/i18n/Translate.i18n.magic.php
 # aliasfile = Translate/Translate.MyLanguage.alias.php // Disabled due to a conflict with core
 optional = translate-page-paging-links, supportedlanguages-portallink, supportedlanguages-portallink-nocldr
 ignored = supportedlanguages-localsummary
