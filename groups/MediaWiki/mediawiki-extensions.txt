@@ -2299,6 +2299,7 @@ Notify Me
 ignored = notifications-mail-reception-reason
 ignored = notifications-mail-manage-notifications
 ignored = notifications-mail-manage-notifications-link
+ignored = notifications-mail-greeting
 
 NS File Repo
 file = NSFileRepo/i18n/nsfilerepo/%CODE%.json
