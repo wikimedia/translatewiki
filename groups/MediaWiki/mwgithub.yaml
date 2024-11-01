@@ -1056,6 +1056,9 @@ MANGLER:
     - action-*
     - analytics
 
+TAGS:
+  ignored:
+    - matomoanalytics-count
 ---
 BASIC:
   id: mwgithub-mirahezeerrorpages
