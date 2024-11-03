@@ -2202,6 +2202,7 @@ optional = multimediaviewer-embed-dimensions-separated
 optional = multimediaviewer-attr-html
 optional = multimediaviewer-embed-license-nonfree
 optional = multimediaviewer-text-embed-credit-text-l, multimediaviewer-html-embed-credit-text-l
+optional = multimediaviewer-current-image-number
 ignored = multimediaviewer-embed-dimensions-with-file-format, multimediaviewer-report-issue-url
 
 Multi Language Manager
