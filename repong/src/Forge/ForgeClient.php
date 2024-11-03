@@ -7,6 +7,6 @@ interface ForgeClient {
 	public function createPullRequest(
 		PullRequestSpecifier $pr,
 		string $title,
-		string $body = null
+		?string $body = null
 	): PullRequestResponse;
 }

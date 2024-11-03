@@ -22,7 +22,7 @@ class GithubClient implements ForgeClient {
 	public function createPullRequest(
 		PullRequestSpecifier $pr,
 		string $title,
-		string $body = null
+		?string $body = null
 	): PullRequestResponse {
 		$isNew = true;
 		try {

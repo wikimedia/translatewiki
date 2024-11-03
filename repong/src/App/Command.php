@@ -171,8 +171,8 @@ abstract class Command extends SymfonyCommand {
 
 	protected function runParaller(
 		SplObjectStorage $queue,
-		callable $onStart = null,
-		callable $onEnd = null
+		?callable $onStart = null,
+		?callable $onEnd = null
 	) {
 		$running = [];
 		do {

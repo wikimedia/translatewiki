@@ -1,7 +1,7 @@
 {
 	"require-dev": {
 		"justinrainbow/json-schema": "^5.2",
-		"mediawiki/mediawiki-codesniffer": "44.0.0",
+		"mediawiki/mediawiki-codesniffer": "45.0.0",
 		"php-parallel-lint/php-parallel-lint": "1.4.0",
 		"symfony/yaml": "^5.1"
 	},
