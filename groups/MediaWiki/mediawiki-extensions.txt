@@ -2332,6 +2332,7 @@ id = ext-oathauth-user
 file = OATHAuth/i18n/%CODE%.json
 aliasfile = OATHAuth/OATHAuth.alias.php
 ignored = oathauth-notifications-disable-helplink, oathauth-notifications-enable-helplink
+ignored = oathauth-notifications-recoverycodesleft-helplink
 optional = oath
 
 OATH Auth - API
