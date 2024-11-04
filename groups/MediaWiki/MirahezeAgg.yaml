@@ -24,6 +24,5 @@ GROUPS:
   - mwgithub-removepii
   - mwgithub-requestssl
   - mwgithub-rottenlinks
-  - mwgithub-spritesheet
   - mwgithub-wikidiscover
   - mwgithub-youtube

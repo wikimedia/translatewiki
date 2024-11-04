@@ -1236,26 +1236,7 @@ TAGS:
   optional:
     - rottenlinks-extensionname
 ---
-BASIC:
-  id: mwgithub-spritesheet
-  label: SpriteSheet
-  description: "{{Special:MyLanguage/MediaWiki:spritesheet_description/en}}"
-  support:
-    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
-    params:
-      title: Translation issue with message %MESSAGE
-      projects: extensions
-      description: "\n\nURL: %MESSAGE_URL%"
 
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/SpriteSheet/i18n/%CODE%.json"
-
-TAGS:
-  optional:
-    - spritesheet
-
----
 BASIC:
   id: mwgithub-wikidiscover
   label: WikiDiscover

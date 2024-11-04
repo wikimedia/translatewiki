@@ -540,10 +540,6 @@ mwgithub:
       type: github
       url: https://github.com/miraheze/RottenLinks.git
       url|export: git@github.com:miraheze/RottenLinks.git
-    mwgithub/miraheze/SpriteSheet:
-      type: github
-      url: https://github.com/miraheze/SpriteSheet.git
-      url|export: git@github.com:miraheze/SpriteSheet.git
     mwgithub/miraheze/WikiDiscover:
       type: github
       url: https://github.com/miraheze/WikiDiscover.git
