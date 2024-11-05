@@ -1300,6 +1300,7 @@ wikisource:
   repos:
     ia-upload:
       type: github
+      branch: main
       url: https://github.com/wikisource/ia-upload.git
       url|export: git@github.com:wikisource/ia-upload.git
     wscontest:
