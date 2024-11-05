@@ -190,6 +190,7 @@ $wgTranslateDisabledTargetLanguages = [
 		'gan' => 'This language code should remain unused. Localise in gan-hant or gan-hans please.',
 		'gom' => 'This language code should remain unused. Localise in gom-deva please.',
 		# 'got' => 'This is an [http://www.sil.org/iso639-3/documentation.asp?id=got ancient language] without enough information to create a localisation. It cannot be localised in translatewiki.net.',
+		'hak' => 'This language code should remain unused. Localise in hak-hans, hak-hant or hak-latn please.',
 		'hif' => 'This language code should remain unused. Localise in hif-latn please.',
 		'ike' => 'This language code should remain unused. Localise in ike-cans or ike-latn please.',
 		'isv' => 'This language code should remain unused. Localise in isv-cyrl or isv-latn please.',
