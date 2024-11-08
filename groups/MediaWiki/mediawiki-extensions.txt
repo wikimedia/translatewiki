@@ -1748,6 +1748,7 @@ HTML Tags
 
 HTML Templates
 magicfile = HTMLTemplates/HTMLTemplates.magic.php
+ignored = htmltemplate-doc-create, htmltemplate-doc-missing, htmltemplate-doc-show
 
 HTMLets
 
