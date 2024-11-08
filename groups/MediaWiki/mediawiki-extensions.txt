@@ -2304,10 +2304,10 @@ Notebook Viewer
 Notes Link
 
 Notify Me
-ignored = notifications-mail-reception-reason
-ignored = notifications-mail-manage-notifications
-ignored = notifications-mail-manage-notifications-link
-ignored = notifications-mail-greeting
+ignored = ext-notifyme-mail-greeting, ext-notifyme-mail-reception-reason
+ignored = ext-notifyme-mail-manage-notifications, ext-notifyme-mail-manage-notifications-link
+ignored = ext-notifications-mail-greeting, ext-notifications-mail-reception-reason
+ignored = ext-notifications-mail-manage-notifications, ext-notifications-mail-manage-notifications-link
 
 NS File Repo
 file = NSFileRepo/i18n/nsfilerepo/%CODE%.json
