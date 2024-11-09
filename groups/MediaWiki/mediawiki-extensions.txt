@@ -89,6 +89,12 @@ Advanced Meta
 Advanced Search
 
 AI Editing Assistant
+ignored = aieditingassistant-command-definition-expand
+ignored = aieditingassistant-command-definition-summarize
+ignored = aieditingassistant-command-definition-simplify
+ignored = aieditingassistant-command-definition-paraphrase
+ignored = aieditingassistant-command-definition-check-grammar
+ignored = aieditingassistant-command-definition-remove-redundancy
 ignored = aieditingassistant-initialization-command
 
 AJAX Poll
