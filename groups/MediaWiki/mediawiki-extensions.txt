@@ -96,6 +96,8 @@ ignored = aieditingassistant-command-definition-paraphrase
 ignored = aieditingassistant-command-definition-check-grammar
 ignored = aieditingassistant-command-definition-remove-redundancy
 ignored = aieditingassistant-initialization-command
+optional = aieditingassistant-provider-ollama
+optional = aieditingassistant-provider-openai
 
 AJAX Poll
 
