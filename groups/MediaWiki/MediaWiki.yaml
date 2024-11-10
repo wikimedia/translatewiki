@@ -452,7 +452,7 @@ TAGS:
     - authprovider-confirmlink-request-help
     - autocomment-prefix
     - block-autoblock-exemptionlist
-    - Block-user-label-count-exceeds-limit
+    - block-user-label-count-exceeds-limit
     - blocklist-summary
     - booksources-summary
     - brokenredirects-delete-reason
