@@ -3818,7 +3818,7 @@ optional = contactpage-wikimedia-trademark-wikivoyage
 
 Wikimedia Creative Commons License Texts
 file = WikimediaMessages/i18n/cclicensetexts/%CODE%.json
-optional = wm-license-cc-wiki-link, wm-license-cc-pd-mark-link
+optional = wm-license-cc-wiki-link
 optional = wm-license-cc-pd-mark-wikilink
 
 Wikimedia Interwiki Search Results
