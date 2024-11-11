@@ -133,6 +133,7 @@ TAGS:
     - bitrate-yottabits
     - bitrate-zettabits
     - booksources-isbn
+    - block-user-label-count-exceeds-limit
     - brackets
     - brackets-end
     - brackets-start
@@ -452,7 +453,6 @@ TAGS:
     - authprovider-confirmlink-request-help
     - autocomment-prefix
     - block-autoblock-exemptionlist
-    - block-user-label-count-exceeds-limit
     - blocklist-summary
     - booksources-summary
     - brokenredirects-delete-reason
