@@ -1176,6 +1176,12 @@ file = DonationInterface/paypal_ec_gateway/i18n/%CODE%.json
 descmsg = paypal_gateway-desc
 languages = +es-419
 
+Donation Interface - Email Preferences Forms
+id = ext-di-epf
+file = DonationInterface/email_forms/i18n/%CODE%.json
+languages = +es-419
+optional = emailpreferences-wikimedia-image-alt
+
 DPL forum
 
 Drafts
