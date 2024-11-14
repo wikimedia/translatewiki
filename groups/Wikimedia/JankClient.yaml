@@ -1,0 +1,33 @@
+---
+BASIC:
+  id: jank-client
+  label: Jank Client
+  icon: wiki://Jank-client-logo.png
+  description: "{{Special:MyLanguage/Translations:Group descriptions/jank-client/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/MathMan05/JankClient/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/jank-client/translations/%CODE%.json"
+  nestingSeparator: .
+
+MANGLER:
+  class: StringMatcher
+  prefix: jank-client-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: true
+  - id: MediaWikiPlural
+    enforce: true
+  - id: BraceBalance
+    enforce: true
