@@ -808,6 +808,19 @@ FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mediawiki/master/includes/Rest/i18n/%CODE%.json"
 
+TAGS:
+  ignored:
+    - rest-param-desc-html-input-contentmodel
+    - rest-param-desc-html-input-format
+    - rest-param-desc-html-input-from
+    - rest-param-desc-html-input-language
+    - rest-param-desc-html-input-oldid
+    - rest-param-desc-html-input-title
+    - rest-param-desc-html-output-flavor
+    - rest-param-desc-html-output-stash
+    - rest-param-desc-page-content-redirect
+    - rest-param-desc-page-content-title
+
 ---
 BASIC:
   id: wikimedia-paramvalidator
@@ -822,13 +835,3 @@ FILES:
 TAGS:
   ignored:
     - paramvalidator-param-sensitive
-    - rest-param-desc-html-input-contentmodel
-    - rest-param-desc-html-input-format
-    - rest-param-desc-html-input-from
-    - rest-param-desc-html-input-language
-    - rest-param-desc-html-input-oldid
-    - rest-param-desc-html-input-title
-    - rest-param-desc-html-output-flavor
-    - rest-param-desc-html-output-stash
-    - rest-param-desc-page-content-redirect
-    - rest-param-desc-page-content-title
