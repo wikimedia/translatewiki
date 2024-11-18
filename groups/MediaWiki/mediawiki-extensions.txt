@@ -1,6 +1,7 @@
 # Maintained in GitHub. See mwgithub.yaml for an accurate list.
 # Automated Values
 # External Content
+# Create Page
 # ID Generator
 # Maps
 # Modern Timeline
@@ -1022,12 +1023,7 @@ optional = apihelp-createapage-upload-example-1
 optional = apihelp-createapage-upload-param-wpPostFix
 optional = apihelp-createapage-upload-param-wpInFix
 
-Create Page
-aliasfile = CreatePage/CreatePage.alias.php
-magicfile = CreatePage/CreatePage.magic.php
-descmsg = cp-desc
-
-# Create Page Uw // incomplete i18n, message key dupe with CreatePage extension
+# Create Page Uw // incomplete i18n, message key dupe with CreatePage extension on GitHub
 
 Create Redirect
 aliasfile = CreateRedirect/CreateRedirect.alias.php

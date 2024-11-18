@@ -572,6 +572,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/chameleon.git
       url|export: git@github.com:ProfessionalWiki/chameleon.git
+    mwgithub/ProfessionalWiki/CreatePage:
+      type: github
+      url: https://github.com/ProfessionalWiki/CreatePage.git
+      url|export: git@github.com:ProfessionalWiki/CreatePage.git
     mwgithub/ProfessionalWiki/EDTF:
       type: github
       url: https://github.com/ProfessionalWiki/EDTF.git

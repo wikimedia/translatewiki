@@ -55,6 +55,20 @@ TAGS:
     - automated-values-name
 ---
 BASIC:
+  id: mwgithub-create-page
+  label: Create Page
+  description: "{{Special:MyLanguage/MediaWiki:Cp-desc/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/CreatePage/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/CreatePage/i18n/%CODE%.json"
+---
+BASIC:
     id: mwgithub-datamaps-core
     label: DataMaps - Core
     description: "{{Special:MyLanguage/MediaWiki/MediaWiki:Datamap-desc/en}}"
