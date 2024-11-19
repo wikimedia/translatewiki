@@ -736,6 +736,7 @@ mwgithub:
       url|export: git@github.com:StarCitizenWiki/mediawiki-extensions-EmbedVideo.git
     mwgithub/StarCitizenTools/mediawiki-extensions-ShortDescription:
       type: github
+      branch: main
       url: https://github.com/StarCitizenTools/mediawiki-extensions-ShortDescription.git
       url|export: git@github.com:StarCitizenTools/mediawiki-extensions-ShortDescription.git
     mwgithub/StarCitizenTools/mediawiki-extensions-TabberNeue:
