@@ -163,6 +163,7 @@ $wgExtraLanguageNames = [
 	'wlx' => 'waale', # Wali / Amir 2024-06-30
 	'wsg' => 'గోండి', # Gondi (Adilabad) / Amir 2023-03-03
 	'xmm' => 'Manado', # Manado / Amir 2022-12-06
+	'xon' => 'likpakpaanl', # Likpakpaanl / Amir 2024-11-18
 	'yoi' => '与那国物言', # Yonaguni / Amir 2022-07-16
 	'yrk' => 'Ненэцяʼ вада', # Tundra Nenets / Lcawte 2011-02-07
 	'yua' => 'Maaya T\'aan', # Yucatán Maya / Siebrand 2011-04-09

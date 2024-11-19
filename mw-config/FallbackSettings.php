@@ -268,6 +268,7 @@ $wgTranslateLanguageFallbacks = [
 	'wsg' => [ 'te', 'hi' ],
 	'xal' => [ 'mn', 'bxr' ],
 	'xmm' => [ 'id', 'ms' ],
+	'xon' => [ 'tw', 'fat', 'ha', 'mos' ],
 	'xsy' => 'zh-hant', # Amir 2017-05-03
 	'yoi' => 'ja',
 	'yrk' => 'ru', # Lcawte 2011-02-07
