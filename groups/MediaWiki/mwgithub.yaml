@@ -239,6 +239,24 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/PageApprovals/i18n/%CODE%.json"
 ---
 BASIC:
+  id: mwgithub-persistent-page-identifiers
+  label: Persistent Page Identifiers
+  description: "{{Special:MyLanguage/MediaWiki:Persistentpageidentifiers-description/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/PersistentPageIdentifiers/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/PersistentPageIdentifiers/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - persistentpageidentifiers-name
+---
+BASIC:
   id: mwgithub-semanticapprovedrevs
   label: Semantic Approved Revs
   description: "{{Special:MyLanguage/MediaWiki:Semantic-approvedrevs-desc/en}}"

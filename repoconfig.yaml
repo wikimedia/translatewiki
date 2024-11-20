@@ -604,6 +604,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/PageApprovals.git
       url|export: git@github.com:ProfessionalWiki/PageApprovals.git
+    mwgithub/ProfessionalWiki/PersistentPageIdentifiers:
+      type: github
+      url: https://github.com/ProfessionalWiki/PersistentPageIdentifiers.git
+      url|export: git@github.com:ProfessionalWiki/PersistentPageIdentifiers.git
     mwgithub/ProfessionalWiki/SimpleBatchUpload:
       type: github
       url: https://github.com/ProfessionalWiki/SimpleBatchUpload.git
