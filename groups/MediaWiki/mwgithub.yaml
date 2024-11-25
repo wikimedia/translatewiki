@@ -994,7 +994,7 @@ MANGLER:
 
 TAGS:
   optional:
-    - datadump
+    - datadump-extensionname
 
 ---
 BASIC:
