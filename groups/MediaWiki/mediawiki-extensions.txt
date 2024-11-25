@@ -1095,8 +1095,8 @@ id = ext-discussiontools-api
 Discussion Tools - User interface
 file = DiscussionTools/i18n/%CODE%.json
 id = ext-discussiontools-user
-ignored = tag-discussiontools, discussiontools-replywidget-reply-link
-ignored = discussiontools-replywidget-newtopic-link, tag-discussiontools-source-enhanced
+ignored = tag-discussiontools, tag-discussiontools-reply-helppage
+ignored = tag-discussiontools-newtopic-helppage, tag-discussiontools-source-enhanced
 ignored = discussiontools-replywidget-feedback-link-newtopic
 ignored = discussiontools-emptystate-link-talkpages, discussiontools-emptystate-link-userpage
 ignored = tag-discussiontools-added-comment, discussiontools-emptystate-link-userpage-anon
@@ -3467,7 +3467,10 @@ file = VisualEditor/i18n/ve-wmf/%CODE%.json
 optional = visualeditor-help-link
 ignored = visualeditor-feedback-source-link, tag-editcheck-references
 ignored = tag-editcheck-newreference, tag-editcheck-newcontent
-ignored = editcheck-falsepositives-link
+ignored = tag-editcheck-references-activated-helppage
+ignored = tag-visualeditor-helppage, tag-visualeditor-needcheck-helppage
+ignored = tag-visualeditor-switched-helppage
+
 
 Visual Editor Plus
 
