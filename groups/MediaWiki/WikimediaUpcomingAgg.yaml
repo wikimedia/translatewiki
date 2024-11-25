@@ -12,7 +12,6 @@ GROUPS:
   - ext-chart # https://phabricator.wikimedia.org/rOMWC87d69e644b112a71bedc948c824400172d2f586c
   - ext-chessbrowser # https://phabricator.wikimedia.org/rOMWCba8b786c7f3a290f0747a6859fd07502eb83108f
   - ext-communityconfiguration
-  - ext-ipreputation # https://phabricator.wikimedia.org/rOMWCeb0d3b75eaa7954cefdd48175491d79729d09a9d
   - ext-metricsplatform # https://phabricator.wikimedia.org/rOMWC0af5892118d4f452bfd3dd3c3e5944cd36dcd137
   - ext-pagenotice # https://phabricator.wikimedia.org/rOMWCd3b399694f2b03af6ee029fb0cf1e3e9939e7a5b:
   - ext-reportincident # https://phabricator.wikimedia.org/rOMWCf594ec5484fac1b992138e573369ffae8bdeba36
