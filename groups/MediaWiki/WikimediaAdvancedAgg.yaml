@@ -49,7 +49,6 @@ GROUPS:
   - ext-jsonconfig-user
   - ext-labeledsectiontransclusion
   - ext-linter-user # https://phabricator.wikimedia.org/rOMWC6f05e35639f1854b203fa5cf302d43a41038cc19
-  - ext-ldapauthentication # 2011-12-28: labsconsole.wikimedia.org
   - ext-massmessage-user
   - ext-mobileapp
   - ext-navigationtiming # 2013-03-14: all wikis
