@@ -1050,7 +1050,7 @@ wikimedia-mailman-templates:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/software/mailman-templates
 
 wikimedia-misc-tools:
-  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,global-search,internetarchivebot,jank-client,pageviews,signit,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikidata-mismatch-finder,wikilearn-*,wikiscore,wscd,xtools
+  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,global-search,internetarchivebot,jank-client,pageviews,signit,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikidata-mismatch-finder,wikilearn-*,wikipedia-year-in-review,wikiscore,wscd,xtools
   repos:
     adiutor:
       type: github
@@ -1132,6 +1132,11 @@ wikimedia-misc-tools:
       pull-branch: wm/localization
       url: https://github.com/wikimedia/edx-platform.git
       url|export: git@github.com:wikimedia/edx-platform.git
+    wikipedia-year-in-review:
+      type: github
+      branch: main
+      url: https://github.com/jdlrobson/wikipedia-year-in-review.git
+      url|export: git@github.com:jdlrobson/wikipedia-year-in-review.git
     wikiscore:
       type: github
       branch: develop

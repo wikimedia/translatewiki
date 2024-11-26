@@ -1,0 +1,21 @@
+BASIC:
+  id: wikipedia-year-in-review
+  label: Wikipedia Year in Review
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikipedia-year-in-review/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/jdlrobson/wikipedia-year-in-review/issues
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wikipedia-year-in-review/i18n/%CODE%.php"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: false
+  - id: BraceBalance
