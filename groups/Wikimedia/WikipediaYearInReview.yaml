@@ -10,6 +10,12 @@ BASIC:
       title: Translation issue with message %MESSAGE%
       body: "\n\nURL: %MESSAGE_URL%"
 
+MANGLER:
+  class: StringMatcher
+  prefix: wp-year-in-review-
+  patterns:
+    - "*"
+
 FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/wikipedia-year-in-review/i18n/%CODE%.json"
