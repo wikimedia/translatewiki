@@ -12,7 +12,7 @@ BASIC:
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/wikipedia-year-in-review/i18n/%CODE%.php"
+  sourcePattern: "%GROUPROOT%/wikipedia-year-in-review/i18n/%CODE%.json"
 
 VALIDATORS:
   - id: MediaWikiParameter
