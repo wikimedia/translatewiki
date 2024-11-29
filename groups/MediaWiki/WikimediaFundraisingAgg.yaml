@@ -8,6 +8,7 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
+  - ext-di-epf
   - ext-di-gc
   - ext-fundraiserlandingpage # r101409 for donatewiki
   - ext-fundraisingemailunsubscribe
