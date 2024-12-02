@@ -3470,8 +3470,7 @@ ignored = visualeditor-feedback-source-link, tag-editcheck-references
 ignored = tag-editcheck-newreference, tag-editcheck-newcontent
 ignored = tag-editcheck-references-activated-helppage
 ignored = tag-visualeditor-helppage, tag-visualeditor-needcheck-helppage
-ignored = tag-visualeditor-switched-helppage
-
+ignored = tag-visualeditor-switched-helppage, tag-visualeditor-wikitext-helppage
 
 Visual Editor Plus
 
