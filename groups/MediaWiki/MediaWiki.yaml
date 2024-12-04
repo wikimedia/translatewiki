@@ -152,6 +152,7 @@ TAGS:
     - created
     - days-abbrev
     - diff-with-additional
+    - double-redirect-fixer
     - edittools
     - ellipsis
     - feed-atom
@@ -255,6 +256,7 @@ TAGS:
     - pipe-separator
     - print.css
     - protect-summary-desc
+    - proxyblocker
     - rc-change-size
     - recentchanges-legend-plusminus
     - resetpass_text
@@ -291,6 +293,7 @@ TAGS:
     - undelete-revision-row2
     - unit-pixel
     - unpatrolledletter
+    - usermessage-editor
     - usermessage-template
     - userrights-groupsmember-type
     - userrights-irreversible-marker
