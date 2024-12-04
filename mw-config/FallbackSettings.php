@@ -94,6 +94,7 @@ $wgTranslateLanguageFallbacks = [
 	'fi' => [ 'de', 'sv', 'et', 'vro' ],
 	'fit' => [ 'sv' ], # Robin 2011-09-27
 	'fon' => [ 'ajg', 'ee', 'guw', 'yo' ],
+	'frs' => [ 'de', 'stq', 'frr', 'fy', 'nl', 'nds', 'nds-nl' ],
 	'fvr' => 'ar',
 	'fy' => 'nl',
 	'gaa' => [ 'ada', 'tw', 'fat', 'bci' ],
