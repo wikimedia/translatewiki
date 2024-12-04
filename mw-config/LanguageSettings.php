@@ -55,7 +55,6 @@ $wgExtraLanguageNames = [
 	'cnh' => 'Lai holh', # Haka Chin / Siebrand 2014-08-06
 	'cnr-cyrl' => 'црногорски', # Montenegrin Cyrillic / Amir 2018-09-04
 	'cnr-latn' => 'crnogorski', # Montenegrin Latin / Amir 2018-09-04
-	'cop' => 'ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ', # Coptic / Amir 2017-07-27
 	'dar' => 'дарган', # Dargwa / Amir 2021-04-13
 	'ddn' => 'dendi', # Dendi / Amir 2023-04-03
 	'dru' => 'drekai', # Rukai / Winston Sung 2024-08-13
