@@ -69,7 +69,6 @@ $wgExtraLanguageNames = [
 	'gbz' => 'Dari-e Mazdeyasnā', # Zoroastrian Dari / Siebrand 2011-01-20
 	'gum' => 'Namtrik', # Guambiano / Amir 2017-03-27
 	'hif-deva' => 'फ़ीजी हिन्दी', # Fiji Hindi (Devangari script) / Siebrand 2010-08-26
-	'hke' => 'kihunde', # Amir 2024-07-03
 	'hne' => 'छत्तीसगढ़ी', # Amir 2011-12-01
 	'hoc' => '𑢹𑣉𑣉', # Ho language. Amir 2017-07-09
 	'igb' => 'Ebira', # Ebira / Amir 2024-01-29
