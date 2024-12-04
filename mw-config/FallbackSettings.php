@@ -71,6 +71,7 @@ $wgTranslateLanguageFallbacks = [
 	'cjy-hant' => 'zh-hant',
 	'cko' => [ 'fr', 'nzi', 'bci', 'tw', 'fat' ],
 	'cnh' => 'my',
+	'cop' => [ 'el', 'ar', 'arz' ],
 	'cps' => 'tl',
 	'cpx-latn' => [ 'cpx-hant', 'cpx-hans', 'cdo' ],
 	'crh-ro' => [ 'ro', 'crh-latn' ],
