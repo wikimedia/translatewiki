@@ -1806,11 +1806,7 @@ Interactive Block Message
 Intersection
 file = intersection/i18n/%CODE%.json
 
-Interwiki
-aliasfile = Interwiki/Interwiki.alias.php
-optional = interwiki_url, interwiki-url-label, interwiki-api-label
-ignored = interwiki-defaulturl, logentry-interwiki-interwiki, interwiki-legend
-ignored = interwiki-description
+# Interwiki // 2024-12 integrated into Core: https://gerrit.wikimedia.org/r/c/mediawiki/core/+/998407
 
 Interwiki Extracts
 magicfile = InterwikiExtracts/InterwikiExtracts.magic.php

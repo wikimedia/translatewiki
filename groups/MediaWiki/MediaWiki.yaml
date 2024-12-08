@@ -215,6 +215,9 @@ TAGS:
     - img-lang-opt
     - interlanguage-link-title
     - interlanguage-link-title-nonlang
+    - interwiki-api-label
+    - interwiki_url
+    - interwiki-url-label
     - iranian-calendar-m1
     - iranian-calendar-m10
     - iranian-calendar-m11
@@ -506,6 +509,9 @@ TAGS:
     - import-summary
     - interlanguage-link-title-langonly
     - interlanguage-link-title-nonlangonly
+    - interwiki-defaulturl
+    - interwiki-description
+    - interwiki-legend
     - ipb-default-expiry
     - ipb-default-expiry-ip
     - licenses
@@ -515,6 +521,7 @@ TAGS:
     - listusers-summary
     - logdelete-log-message
     - logdelete-logentry
+    - logentry-interwiki-interwiki
     - logentry-renameuser-renameuser-legaciest
     - loginlanguagelinks
     - loginprompt
