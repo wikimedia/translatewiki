@@ -239,6 +239,41 @@ TAGS:
 
 ---
 BASIC:
+  id: wikimedia-tools-montage
+  label: Montage
+  icon: wiki://Montage_Logo_01.png
+  description: "{{Special:MyLanguage/Translations:Group descriptions/montage/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+  support:
+    url: https://github.com/hatnote/montage/issues
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: montage-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: BraceBalance
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    params: /\{[0-9]+\}/
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/montage/frontend/src/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - montage-montage-title
+
+---
+BASIC:
   id: wikimedia-tools-qrcode-generator
   label: QRCode_Generator
   description: "{{Special:MyLanguage/Wikimedia:qrcode-generator-qrcode-generator-desc/en}}"

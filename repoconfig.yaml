@@ -1228,6 +1228,10 @@ wikimedia-tools:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/massmailer
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/massmailer
+    wikimedia-tools/montage:
+      type: github
+      url: https://github.com/hatnote/montage.git
+      url|export: git@github.com:hatnote/montage.git
     wikimedia-tools/qrcode-generator:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/qrcode-generator
