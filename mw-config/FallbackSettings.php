@@ -220,6 +220,7 @@ $wgTranslateLanguageFallbacks = [
 	'rki' => 'my',
 	'rmc' => [ 'sk', 'cs', 'hu' ],
 	'rmf' => 'fi',
+	'rml' => [ 'rmc', 'rmy', 'ru', 'be', 'be-tarask', 'uk' ],
 	'rn' => [ 'fr', 'rw', 'sw' ],
 	'rsk' => [ 'uk', 'ru', 'rue' ],
 	'rut' => [ 'az', 'lez' ], # Robin 2012-07-24
