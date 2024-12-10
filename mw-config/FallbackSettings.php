@@ -245,6 +245,7 @@ $wgTranslateLanguageFallbacks = [
 	'swb' => 'sw',
 	'tdd' => [ 'zh-hant', 'my', 'mnw', 'th', 'shn', 'nod' ],
 	'tg-cyrl' => [ 'ru', 'fa' ],
+	'thr' => [ 'ne', 'hi', 'awa' ],
 	'ti' => [ 'tig', 'am', 'ar' ],
 	'tig' => [ 'ti', 'am', 'ar' ],
 	'tji' => 'zh-hans',

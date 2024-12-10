@@ -151,6 +151,7 @@ $wgExtraLanguageNames = [
 	'smj' => 'julevsámegiella', # Lule Saami / Nikerabbit 2016-06-22
 	'swb' => 'Shikomoro', # Comorian
 	'sxu' => 'Säggssch', # Upper Saxon
+	'thr' => 'राना थारू', # Rana Tharu / Amir 2024-12-09
 	'tji' => 'bifzivsar', # Northern Tujia / Nemo 2016-06-22; updated by Amir 2024-07-16
 	'tkr' => 'цӀаӀхна миз', # Tsakhur / Siebrand 2011-04-26
 	'toi' => 'Chitonga', # Chitonga / Amir 2024-06-30
