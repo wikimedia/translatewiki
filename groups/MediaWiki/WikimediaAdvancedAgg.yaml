@@ -25,10 +25,7 @@ GROUPS:
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-dashiki
   - ext-diff
-  - ext-elastica # 2013-09-20 for CirrusSearch, change id: 7acdc7e8c346f00dcce1412f057ea38ad3d3e649
   - ext-entityschema
-  - ext-eventbus # 2016-01-21 for MediaWiki.org, change id: 603461016bd9a4cc862f4713fd57358b0cd38f2d
-  - ext-eventlogging # Change-Id: 1fc99b92c1692515295e8c7bb7c757112531c330
   - ext-extensiondistributor-user # MediaWiki.org
   - ext-externalguidance # Deployed enwiki https://phabricator.wikimedia.org/rOMWCdb356d5c20d33a5b83e99a97de50749a7cd1cff0
   - ext-featuredfeeds-user # r110030 for all projects
@@ -73,7 +70,6 @@ GROUPS:
   - ext-scribunto-user
   - ext-searchextrans # Change-ID: f8cd2d6eb9c20db92e39b038cc8476f311daeda5, Commonswiki
   - ext-searchvue # https://phabricator.wikimedia.org/T310367
-  - ext-securelinkfixer # https://phabricator.wikimedia.org/rOMWCfe4877df3b1362f5115823c26f186f9c8e109233
   - ext-securepoll-user
   - ext-sitematrix-user
   - ext-subpagelist3 # r90651
@@ -88,7 +84,6 @@ GROUPS:
   - ext-translate-pagetranslation
   - ext-translate-search
   - ext-translationnotifications # 2012-05-??: meta, mediawiki, wikimania, incubator, and other
-  - ext-trustedxff
   - ext-urlshortener-user # 2018-12-??
   - ext-visualeditor-ve-mw-languagevariants
   - ext-webauthn-user # https://phabricator.wikimedia.org/rOMWC0de5b4d3518e98ad8197908d83ca73cf2898a083
@@ -113,5 +108,4 @@ GROUPS:
   - ext-wikimediamessages
   - ext-wikimediaprojectnames
   - ext-wikisource # https://phabricator.wikimedia.org/rOMWC95910299c0a4fdb2d043b9c191beaefae6d4a751
-  - ext-xanalytics # 2015-02-02 on all wikis
   - mediawiki-skin-timeless
