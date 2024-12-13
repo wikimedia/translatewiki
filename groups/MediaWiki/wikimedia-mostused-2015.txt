@@ -77,6 +77,7 @@ privacypage
 disclaimerpage
 searchbutton
 wikimedia-developers
+wm-codeofconduct
 wikimedia-statslink
 wikimedia-cookiestatement
 mobile-frontend-home-button
@@ -199,6 +200,7 @@ filehist
 wikibase-edit
 filehist-thumbtext
 toc
+vector-anon-user-menu-pages
 vector-toc-label
 vector-toc-beginning
 newpages
@@ -242,6 +244,8 @@ rcshowhideliu
 recentchanges-legend-newpage
 recentchanges-legend-heading
 recentchanges-label-plusminus
+recentchanges-page-added-to-category
+recentchanges-page-removed-from-category
 rcshowhideminor
 rcshowhidemine
 rcshowhideanons
