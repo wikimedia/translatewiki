@@ -124,7 +124,6 @@ sitesupport
 portal-url
 portal
 permalink
-wikimedia-copyright
 mobile-frontend-copyright
 lastmodifiedat
 tagline
@@ -416,7 +415,6 @@ allarticles
 wikibase-description-empty
 categories
 hiddencategories
-wm-license-gfdl-1.2-and-later
 globalusage-more
 previousdiff
 nextdiff
