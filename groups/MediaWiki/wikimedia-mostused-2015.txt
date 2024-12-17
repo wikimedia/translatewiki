@@ -59,6 +59,7 @@ nstab-template
 nstab-help
 nstab-category
 nstab-main
+nstab-mainpage
 mainpage
 mainpage-nstab
 ok
