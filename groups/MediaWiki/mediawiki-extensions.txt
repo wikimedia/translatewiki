@@ -3615,7 +3615,7 @@ Wikibase - Lib
 file = Wikibase/lib/i18n/%CODE%.json
 descmsg = wikibaselib-desc
 optional = version-wikibase
-optional = wikibase-monolingualtext, wikibase-reference-formatter-snak-separator, wikibase-reference-formatter-snak-terminator
+optional = wikibase-reference-formatter-snak-separator, wikibase-reference-formatter-snak-terminator
 optional = wikibase-time-with-calendar
 ignored = wikibase-SortedProperties
 
