@@ -2550,6 +2550,7 @@ optional = phabtaskgraph
 
 Phonos
 id = ext-phonos
+ignored = phonos-button-classes
 optional = phonos, phonos-attribution-icon
 
 Php Highlight
