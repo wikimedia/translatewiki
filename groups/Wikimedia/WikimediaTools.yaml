@@ -334,6 +334,40 @@ INSERTABLES:
 
 ---
 BASIC:
+  id: wikimedia-tools-wikifile-transfer
+  label: Wikifile-transfer
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikifile-transfer/en}}"
+  class: FileBasedMessageGroup
+  namespace: NS_WIKIMEDIA
+  support:
+    url: https://phabricator.wikimedia.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      projects: indic-techcom,i18n
+      description: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikifile-transfer-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    params: /\{\{[a-zA-Z0-9_]+\}\}/
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/wikifile-transfer/frontend/src/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - wikifile-transfer-site-title
+
+---
+BASIC:
   id: wikimedia-tools-wikinity
   label: Wikinity
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikinity/en}}"

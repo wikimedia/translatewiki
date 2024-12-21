@@ -1262,6 +1262,10 @@ wikimedia-tools:
       type: github
       url: https://github.com/wpmed-videowiki/videowiki.git
       url|export: git@github.com:wpmed-videowiki/videowiki.git
+    wikimedia-tools/wikifile-transfer:
+      type: github
+      url: https://github.com/indictechcom/wikifile-transfer.git
+      url|export: git@github.com:indictechcom/wikifile-transfer.git
     wikimedia-tools/wikinity:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/wikinity
