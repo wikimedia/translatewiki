@@ -76,22 +76,26 @@ $wgGrammarForms['fi']['elative']['translatewiki.net'] = 'translatewiki.netistä'
 $wgGrammarForms['fi']['partitive']['translatewiki.net'] = 'translatewiki.netiä';
 
 array_unshift(
-	$wgFooterIcons['poweredby'],
+	$wgFooterIcons,
 	[
-		'url' => 'http://www.netcup.de/',
-		'alt' => 'Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement',
+		'netcup' => [
+			'src' => 'https://translatewiki.net/static/netcup.png',
+			'alt' => 'Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement',
+			'url' => 'https://www.netcup.de/',
+			'height' => '31',
+			'width' => false,
+		]
 	],
 	[
-		'src' => 'https://translatewiki.net/static/spi.svg',
-		'alt' => 'Software in the Public Interest associated project',
-		'url' => 'https://www.spi-inc.org/projects/translatewiki.net/',
-		'height' => '31',
-		'width' => false,
+		'spi' => [
+			'src' => 'https://translatewiki.net/static/spi.svg',
+			'alt' => 'Software in the Public Interest associated project',
+			'url' => 'https://www.spi-inc.org/projects/translatewiki.net/',
+			'height' => '31',
+			'width' => false,
+		]
 	]
- );
-
-// For Vector skin which does not support imageless icons except in the deprecated way.
-$wgFooterIcons['netcup'][] = "<div class='mw_poweredby'><a href=\"http://www.netcup.de/\" title=\"Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement\" target=\"_blank\">Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement</a></div>";
+);
 
 /**
  * Changes list
