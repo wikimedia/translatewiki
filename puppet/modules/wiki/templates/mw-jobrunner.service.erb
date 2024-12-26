@@ -6,7 +6,7 @@ After=mysql.service network.target
 [Service]
 User=www-data
 Group=www-data
-ExecStart=/usr/bin/php <%= @production_dir %>/maintenance/run.php runJobs --wait --maxjobs=1000 --memory-limit=1G --procs=2
+ExecStart=/usr/bin/php <%= @production_dir %>/maintenance/run.php runJobs --wait --maxjobs=1000 --memory-limit=1G --procs=4
 Restart=always
 RestartSec=1
 ProtectHome=read-only
