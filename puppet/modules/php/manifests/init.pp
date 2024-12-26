@@ -4,6 +4,7 @@
 #
 class php {
   $packages = [
+    'php-luasandbox',
     'php-memcached',
     'php-wikidiff2',
     'php-wmerrors',
