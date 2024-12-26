@@ -9,3 +9,4 @@ User=<%= @maintenance_user %>
 ExecStart=/usr/bin/php <%= @production_dir %>/maintenance/run.php <%= @production_dir %>/extensions/Translate/scripts/updateTranslatorActivity.php
 ProtectHome=read-only
 ProtectSystem=full
+Nice=10
