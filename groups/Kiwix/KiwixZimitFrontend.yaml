@@ -28,3 +28,8 @@ VALIDATORS:
     enforce: true
     insertable: true
     params: /\%*{[a-zA-Z0-9_]+\}/
+
+TAGS:
+  optional:
+    - zimit-ui-requestStatus.progressMessage
+
