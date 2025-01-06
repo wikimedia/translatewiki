@@ -150,6 +150,7 @@ $wgTranslateLanguageFallbacks = [
 	'kv' => [ 'koi', 'udm' ],
 	'lag' => 'sw', # Amir 2017-05-03
 	'laj' => [ 'ach', 'lg', 'sw', 'nyn' ],
+	'ljp' => [ 'id', 'kge' ],
 	'lki' => [ 'lrc', 'sdh' ],
 	'lou' => [ 'fr', 'ht', 'acf', 'gcf' ],
 	'lua' => [ 'kg', 'sw', 'ln' ],
