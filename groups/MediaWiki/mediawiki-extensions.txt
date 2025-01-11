@@ -3772,6 +3772,7 @@ ignored = ipinfo-global-contributions-url, ipinfo-xtools-url
 ignored = ipinfo-xtools-url-label, grouppage-founder, grouppage-vrt-permissions
 ignored = wikimedia-babellink-label, wikimedia-styles-exclude
 ignored = sitesupport-url
+ignored = wikinews-mobile-license-links-ccby40, wikinews-mobile-license-links-ccbysa40
 optional = tag-AWB
 optional = grouppage-coder
 optional = shared-repo-name-shared
