@@ -1645,7 +1645,6 @@ optional = growthexperiments-thankyoupage-bullet2, growthexperiments-thankyoupag
 optional = growthexperiments-thankyoubanner-title, growthexperiments-thankyoubanner-body
 optional = growthexperiments-thankyoubanner-body-mobile, growthexperiments-thankyoubanner-bullet1
 optional = growthexperiments-thankyoubanner-bullet2, growthexperiments-thankyoubanner-bullet3
-ignored = growthexperiments-marketingvideocampaign-title-mobile
 
 Growth Experiments - Help Panel
 id = ext-growthexperiments-helppanel
