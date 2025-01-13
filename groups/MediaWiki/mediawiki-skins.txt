@@ -13,10 +13,8 @@ Blue Sky
 optional = bluesky-breadcrumb-pointer
 ignored = bluesky-breadcrumbs-nsmain
 
-Blue Spice Calumma
-optional = notifications-badge-counter-gt-100, bs-calumma-pageinfosentence-item-separator-greater-two
-optional = bluespicecalumma-skin
-ignored = bs-allpages-url, bs-support-url
+# Archived per https://gerrit.wikimedia.org/r/c/mediawiki/skins/BlueSpiceCalumma/+/1109372
+# Blue Spice Calumma
 
 Blue Spice Discovery
 optional = bs-discovery-name
