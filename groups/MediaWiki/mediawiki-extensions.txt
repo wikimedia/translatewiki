@@ -2908,6 +2908,10 @@ descmsg = swmp-desc
 Similar Editors
 aliasfile = SimilarEditors/SimilarEditors.alias.php
 
+Simple Blog Page
+aliasfile = SimpleBlogPage/SimpleBlogPageAliases.php
+ignored = simpleblogpage-entry-blog-root-link
+
 Simple Changes
 aliasfile = SimpleChanges/SimpleChanges.alias.php
 
