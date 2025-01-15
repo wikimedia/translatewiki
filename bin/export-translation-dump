@@ -9,13 +9,15 @@ TEMP_DIR=$(mktemp -d)
 
 trap cleanup EXIT
 cleanup() {
-  echo "Cleaning up..."
+  echo "Cleaning up temporary directory..."
   rm -rf "$TEMP_DIR"
 }
 
 mkdir -p "$DUMPDIR"
 
 cd $WIKIDIR
+
+echo "Starting export..."
 
 php "$WIKISCRIPT" "$WIKIDIR/extensions/Translate/scripts/expand-groupspec.php" --exportable "*" | \
 	xargs -d"\n" -I GROUPNAME \
@@ -26,7 +28,8 @@ php "$WIKISCRIPT" "$WIKIDIR/extensions/Translate/scripts/expand-groupspec.php" -
 	--offline-gettext-format "" \
 	--skip-group-sync-check \
 
-tar -zcvf ${DUMPDIR}/${DUMPFILENAME} ${TEMP_DIR}
+echo "Archiving export..."
+tar -zcf ${DUMPDIR}/${DUMPFILENAME} ${TEMP_DIR}
 
 # Check if there's an existing tarball and delete it
 if [[ -f "$INFOFILE" ]]; then
@@ -39,3 +42,4 @@ fi
 
 # Place the name of the latest dump file in info.txt
 echo $DUMPFILENAME > $INFOFILE
+echo "Export completed successfully."
