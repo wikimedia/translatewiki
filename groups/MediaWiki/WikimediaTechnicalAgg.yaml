@@ -56,6 +56,7 @@ GROUPS:
   - ext-massmessage-api
   - ext-math-api
   - ext-mediamoderation # https://phabricator.wikimedia.org/rOMWC78ef1c798bc0df1ff9518348e939a3ee722cc3e7
+  - ext-metricsplatform # https://phabricator.wikimedia.org/rOMWCaa6d7bce3d6c77ffacc0ac0365fe7761611b109b
   - ext-mobilefrontend-api
   - ext-networksession # https://phabricator.wikimedia.org/rOMWCda17f25800c4aee1a9e538b13b9f9d46eea252d3
   - ext-newsletter-api
