@@ -765,6 +765,7 @@ aliasfile = CheckUser/CheckUser.alias.php
 ignored = checkuser-toollinks, checkuser-userlinks-ip, checkuser-investigate-compare-toollinks
 ignored = checkuser-cidr-tool-links, logentry-checkuser-private-event-migrated-cu_changes-log-event
 ignored = checkuser-clienthints-name-wow64
+ignored = checkuser-global-contributions-anon-tools, checkuser-global-contributions-registered-user-tools
 optional = checkuser-time-range
 optional = group-checkuser.css, group-checkuser.js
 optional = checkuser-investigate-compare-toollinks-whois, checkuser-clienthints-list-item
