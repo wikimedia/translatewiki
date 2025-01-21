@@ -1,0 +1,33 @@
+---
+BASIC:
+  id: ranker
+  label: Ranker
+  description: "{{Special:MyLanguage/Translations:Group descriptions/ranker/en}}"
+  namespace: NS_MEDIAWIKI
+  class: FileBasedMessageGroup
+  support:
+    url: https://phabricator.wikimedia.org/maniphest/task/edit/form/1/
+    params:
+      projects: Tool-ranker, i18n
+      title: Translation issue about message %MESSAGE%
+      description: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: ranker-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/ranker/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: false
+  - id: MediaWikiPlural
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: MediaWikiInsertablesSuggester
