@@ -94,16 +94,16 @@ BASIC:
 GROUPS:
   - core
   - core-0-mostused
-  - ext-0-all
   - mediawiki-codex
-  - mediawiki-installer
-  - mediawiki-skin-0-all
   - mediawiki-datetime
   - mediawiki-exif
   - mediawiki-preferences
   - mediawiki-api
   - mediawiki-rest-api
   - wikimedia-paramvalidator
+  - mediawiki-installer
+  - ext-0-all
+  - mediawiki-skin-0-all
 
 ---
 BASIC:
@@ -151,7 +151,6 @@ TAGS:
     - content-model-javascript
     - content-model-json
     - created
-    - days-abbrev
     - diff-with-additional
     - double-redirect-fixer
     - edittools
@@ -172,65 +171,12 @@ TAGS:
     - group-temp.js
     - group-user.css
     - group-user.js
-    - hebrew-calendar-m1
-    - hebrew-calendar-m1-gen
-    - hebrew-calendar-m10
-    - hebrew-calendar-m10-gen
-    - hebrew-calendar-m11
-    - hebrew-calendar-m11-gen
-    - hebrew-calendar-m12
-    - hebrew-calendar-m12-gen
-    - hebrew-calendar-m2
-    - hebrew-calendar-m2-gen
-    - hebrew-calendar-m3
-    - hebrew-calendar-m3-gen
-    - hebrew-calendar-m4
-    - hebrew-calendar-m4-gen
-    - hebrew-calendar-m5
-    - hebrew-calendar-m5-gen
-    - hebrew-calendar-m6
-    - hebrew-calendar-m6-gen
-    - hebrew-calendar-m6a
-    - hebrew-calendar-m6a-gen
-    - hebrew-calendar-m6b
-    - hebrew-calendar-m6b-gen
-    - hebrew-calendar-m7
-    - hebrew-calendar-m7-gen
-    - hebrew-calendar-m8
-    - hebrew-calendar-m8-gen
-    - hebrew-calendar-m9
-    - hebrew-calendar-m9-gen
-    - hijri-calendar-m1
-    - hijri-calendar-m10
-    - hijri-calendar-m11
-    - hijri-calendar-m12
-    - hijri-calendar-m2
-    - hijri-calendar-m3
-    - hijri-calendar-m4
-    - hijri-calendar-m5
-    - hijri-calendar-m6
-    - hijri-calendar-m7
-    - hijri-calendar-m8
-    - hijri-calendar-m9
-    - hours-abbrev
     - img-lang-opt
     - interlanguage-link-title
     - interlanguage-link-title-nonlang
     - interwiki-api-label
     - interwiki_url
     - interwiki-url-label
-    - iranian-calendar-m1
-    - iranian-calendar-m10
-    - iranian-calendar-m11
-    - iranian-calendar-m12
-    - iranian-calendar-m2
-    - iranian-calendar-m3
-    - iranian-calendar-m4
-    - iranian-calendar-m5
-    - iranian-calendar-m6
-    - iranian-calendar-m7
-    - iranian-calendar-m8
-    - iranian-calendar-m9
     - limitreport-expansiondepth-value
     - limitreport-expensivefunctioncount-value
     - limitreport-ppvisitednodes-value
@@ -242,7 +188,6 @@ TAGS:
     - mediastatistics-nfiles
     - mergehistory-revisionrow
     - metadata-langitem
-    - minutes-abbrev
     - modern.css
     - modern.js
     - mw-widgets-dateinput-placeholder-day
@@ -264,7 +209,6 @@ TAGS:
     - rc-change-size
     - recentchanges-legend-plusminus
     - resetpass_text
-    - seconds-abbrev
     - semicolon-separator
     - shared-repo-name-wikimediacommons
     - size-bytes
@@ -293,7 +237,6 @@ TAGS:
     - skinname-modern
     - sorbs
     - tag-mw-contentmodelchange-helppage
-    - timezone-utc
     - undelete-revision-row2
     - unit-pixel
     - unpatrolledletter
@@ -621,7 +564,6 @@ TAGS:
     - talkpageheader
     - talkpagetext
     - tempuser-helppage
-    - today-at
     - tooltip-ca-view
     - tooltip-p-lang
     - tooltip-p-navigation
@@ -704,20 +646,76 @@ FILES:
 
 ---
 BASIC:
-  id: mediawiki-installer
-  label: Installer
+  id: mediawiki-datetime
+  label: MediaWiki core - Date time
   class: FileBasedMessageGroup
-  description: "{{int:config-desc}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikidatetime/en}}"
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/mediawiki/master/includes/installer/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/datetime/%CODE%.json"
 
 TAGS:
   optional:
-    - config-skins-screenshot
-    - config-type-postgres
-    - config-type-sqlite
+    - days-abbrev
+    - hebrew-calendar-m1
+    - hebrew-calendar-m1-gen
+    - hebrew-calendar-m10
+    - hebrew-calendar-m10-gen
+    - hebrew-calendar-m11
+    - hebrew-calendar-m11-gen
+    - hebrew-calendar-m12
+    - hebrew-calendar-m12-gen
+    - hebrew-calendar-m2
+    - hebrew-calendar-m2-gen
+    - hebrew-calendar-m3
+    - hebrew-calendar-m3-gen
+    - hebrew-calendar-m4
+    - hebrew-calendar-m4-gen
+    - hebrew-calendar-m5
+    - hebrew-calendar-m5-gen
+    - hebrew-calendar-m6
+    - hebrew-calendar-m6-gen
+    - hebrew-calendar-m6a
+    - hebrew-calendar-m6a-gen
+    - hebrew-calendar-m6b
+    - hebrew-calendar-m6b-gen
+    - hebrew-calendar-m7
+    - hebrew-calendar-m7-gen
+    - hebrew-calendar-m8
+    - hebrew-calendar-m8-gen
+    - hebrew-calendar-m9
+    - hebrew-calendar-m9-gen
+    - hijri-calendar-m1
+    - hijri-calendar-m10
+    - hijri-calendar-m11
+    - hijri-calendar-m12
+    - hijri-calendar-m2
+    - hijri-calendar-m3
+    - hijri-calendar-m4
+    - hijri-calendar-m5
+    - hijri-calendar-m6
+    - hijri-calendar-m7
+    - hijri-calendar-m8
+    - hijri-calendar-m9
+    - hours-abbrev
+    - iranian-calendar-m1
+    - iranian-calendar-m10
+    - iranian-calendar-m11
+    - iranian-calendar-m12
+    - iranian-calendar-m2
+    - iranian-calendar-m3
+    - iranian-calendar-m4
+    - iranian-calendar-m5
+    - iranian-calendar-m6
+    - iranian-calendar-m7
+    - iranian-calendar-m8
+    - iranian-calendar-m9
+    - minutes-abbrev
+    - seconds-abbrev
+    - timezone-utc
+  ignored:
+    - today-at
 
 ---
 BASIC:
@@ -766,17 +764,6 @@ TAGS:
     - exif-model-value
     - exif-software-value
     - exif-software-version-value
-
----
-BASIC:
-  id: mediawiki-datetime
-  label: MediaWiki core - Date Time
-  class: FileBasedMessageGroup
-  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikidatetime/en}}"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/datetime/%CODE%.json"
 
 ---
 BASIC:
@@ -843,3 +830,20 @@ FILES:
 TAGS:
   ignored:
     - paramvalidator-param-sensitive
+
+---
+BASIC:
+  id: mediawiki-installer
+  label: Installer
+  class: FileBasedMessageGroup
+  description: "{{int:config-desc}}"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/includes/installer/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - config-skins-screenshot
+    - config-type-postgres
+    - config-type-sqlite
