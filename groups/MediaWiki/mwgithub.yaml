@@ -1151,6 +1151,7 @@ MANGLER:
 
 TAGS:
   optional:
+    - mirahezemagic-custom-mirahezemagic-extensionname
     - mirahezemagic-custom-centralauth-groupname
     - mirahezemagic-custom-miraheze-donatepage
     - mirahezemagic-custom-extensions-api
