@@ -3,6 +3,10 @@
 wfLoadSkins( [ 'Vector', 'MonoBook', 'Timeless' ] );
 $wgDefaultSkin = 'vector-2022';
 
+// Vector 2022 settings
+$wgVectorNightMode['logged_in'] = true;
+$wgVectorNightMode['logged_out'] = true;
+
 // Extensions which we don't specify any configuration
 wfLoadExtensions( [
 	'AbuseFilter',
