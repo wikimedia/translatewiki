@@ -1096,7 +1096,7 @@ wikimedia-misc-tools:
       branch: main
       url: https://gitlab.wikimedia.org/toolforge-repos/ranker.git
       pull-branch: i18n
-      url|export: https://gitlab.wikimedia.org/toolforge-repos/ranker.git
+      url|export: git@gitlab.wikimedia.org:toolforge-repos/ranker.git
     signit:
       type: github
       url: https://github.com/lingua-libre/SignIt.git
