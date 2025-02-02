@@ -2827,17 +2827,16 @@ aliasfile = SecureHTML/SecureHTML.alias.php
 
 Secure Link Fixer
 
-SecurePoll - API
+Secure Poll - API
 id = ext-securepoll-api
 file = SecurePoll/i18n/api/%CODE%.json
 
-SecurePoll - User interface
+Secure Poll - User interface
 id = ext-securepoll-user
 file = SecurePoll/i18n/%CODE%.json
 aliasfile = SecurePoll/SecurePoll.alias.php
 optional = securepoll-header-ip, securepoll-header-xff, securepoll-header-token-match
 optional = securepoll-header-url
-optional = securepoll-create-option-election_crypt-gpg
 optional = securepoll-stv-result-candidate-elected, securepoll-stv-result-candidate
 optional = securepoll-stv-result-votes-gain, securepoll-stv-result-votes-surplus
 optional = securepoll-vote-result-voted-option-label, securepoll-create-option-election_crypt-openssl
