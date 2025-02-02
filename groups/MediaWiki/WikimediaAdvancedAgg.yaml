@@ -22,6 +22,7 @@ GROUPS:
   - ext-codeeditor
   - ext-codemirror
   - ext-cognate # https://phabricator.wikimedia.org/rOMWC20ffc2b65e603e7f533de1aae608704efc413d0d
+  - ext-communityconfiguration # https://phabricator.wikimedia.org/rOMWCc0594f32d6a13e03606635b13e8801eb59ea1895
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-dashiki
   - ext-diff
