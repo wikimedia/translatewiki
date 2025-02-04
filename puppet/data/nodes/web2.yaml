@@ -202,3 +202,7 @@ users::ssh_keys:
     user: jhsoby
     type: ssh-ed25519
     key: AAAAC3NzaC1lZDI1NTE5AAAAIJOz6jgZglq817GzRl6i2VLCLArpw1aRRe5ILNj0D1fT
+  wangombe@003:
+    user: wangombe
+    type: ssh-ed25519
+    key: AAAAC3NzaC1lZDI1NTE5AAAAIOOY1EUkLHKw2ku1eL+qHHSS2rj1Q2mFG2K7tgv5x0Ja
