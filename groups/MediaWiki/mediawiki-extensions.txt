@@ -477,6 +477,8 @@ descmsg = bs-pagesvisited-desc
 Blue Spice Permission Manager
 descmsg = bs-permissionmanager-desc
 aliasfile = BlueSpicePermissionManager/PermissionManager.alias.php
+prefix = bs- | group-editor
+prefix = bs- | group-reviewer
 
 Blue Spice Player
 descmsg = bs-player-extension-description
