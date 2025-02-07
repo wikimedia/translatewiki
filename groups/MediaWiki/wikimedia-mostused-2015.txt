@@ -141,8 +141,6 @@ newtitle
 movereason
 mainpage-description
 recentchangeslinked-toolbox
-currentevents
-currentevents-url
 search-result-size
 wikibase-editlinks
 wikibase-addlinkstitle
