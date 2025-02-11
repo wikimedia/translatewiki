@@ -3,7 +3,7 @@ BASIC:
   id: ranker
   label: Ranker
   description: "{{Special:MyLanguage/Translations:Group descriptions/ranker/en}}"
-  namespace: NS_MEDIAWIKI
+  namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
   support:
     url: https://phabricator.wikimedia.org/maniphest/task/edit/form/1/
