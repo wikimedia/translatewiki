@@ -98,6 +98,7 @@ GROUPS:
   - mediawiki-codex
   - mediawiki-installer
   - mediawiki-skin-0-all
+  - mediawiki-datetime
   - mediawiki-exif
   - mediawiki-preferences
   - mediawiki-api
@@ -765,6 +766,17 @@ TAGS:
     - exif-model-value
     - exif-software-value
     - exif-software-version-value
+
+---
+BASIC:
+  id: mediawiki-datetime
+  label: MediaWiki core - Date Time
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikidatetime/en}}"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/datetime/%CODE%.json"
 
 ---
 BASIC:
