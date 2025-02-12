@@ -265,6 +265,7 @@ viewprevnext
 template-semiprotected
 viewsource
 skin-action-viewsource
+skin-action-addsection
 search-nonefound
 wm-license-cc-conditions-share_alike-header
 browse
@@ -565,7 +566,11 @@ discussiontools-replywidget-cancel
 discussiontools-replywidget-reply
 discussiontools-replywidget-mode-source
 discussiontools-replywidget-mode-visual
+discussiontools-replywidget-newtopic
+discussiontools-newtopic-placeholder-title
+discussiontools-newtopic-missing-title
 discussiontools-replywidget-placeholder-reply
+discussiontools-replywidget-placeholder-newtopic
 discussiontools-topicsubscription-notify-subscribed-body
 discussiontools-topicsubscription-notify-subscribed-title
 discussiontools-topicsubscription-notify-unsubscribed-body
