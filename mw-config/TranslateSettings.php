@@ -180,6 +180,7 @@ $wgTranslateDisabledTargetLanguages = [
 		'bbc' => 'This language code should remain unused. Localise in bbc-latn please.',
 		'bh' => 'This code is for compatibility purposes only. Localise in \'bho\'',
 		'be-x-old' => 'This code is for compatibility purposes only. Localise in \'be-tarask\'',
+		'cdo' => 'This language code should remain unused. Localise in cdo-hant, cdo-hans or cdo-latn please.',
 		'cdo-hani' => 'This language code should remain unused. Localise in cdo-hant or cdo-hans please.',
 		'cjy' => 'This language code should remain unused. Localise in cjy-hant please.',
 		'cpx' => 'This language code should remain unused. Localise in cpx-hans, cpx-hant or cpx-latn please.',
