@@ -18,6 +18,8 @@ $wgGroupPermissions[ 'autoconfirmed' ][ 'sendemail'               ] = true;
 $wgGroupPermissions[ 'autoconfirmed' ][ 'move'                    ] = true;
 // Maximum of 10 moves per hour
 $wgRateLimits['move']['user'] = [ 10, 3600 ];
+// Increase limit for newbies from the default of 8 edits/minute
+$wgRateLimits['edit']['newbie'] = [ 32, 3600 ]; // T386335
 
 $wgGroupPermissions[ 'translator'    ][ 'editinterface'           ] = true;
 $wgGroupPermissions[ 'translator'    ][ 'translate'               ] = true;
