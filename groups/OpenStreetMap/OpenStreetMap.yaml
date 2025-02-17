@@ -109,6 +109,7 @@ TAGS:
     - layouts.project_name.h1
     - layouts.project_name.title
     - notes.show.coordinates_html
+    - notes.new.counter_warning_forum_link.url
     - notifier.message_notification.subject_header
     - oauth2_applications.index.oauth_2
     - printable_name.with_name_html
