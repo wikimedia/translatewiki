@@ -264,21 +264,9 @@ file = BlueSpiceFoundation/i18n/credits/%CODE%.json
 aliasfile = BlueSpiceFoundation/languages/BlueSpice.Credits.alias.php
 id = ext-bs-credits
 
-Blue Spice - Deferred
-id = ext-bs-deferred
-file = BlueSpiceFoundation/i18n/deferred/%CODE%.json
-
 Blue Spice - Diagnostics
 file = BlueSpiceFoundation/i18n/diagnostics/%CODE%.json
 id = ext-bs-diagnostics
-
-Blue Spice - ExtJS
-file = BlueSpiceFoundation/i18n/extjs/%CODE%.json
-id = ext-bs-extjs
-
-Blue Spice - ExtJS - Portal
-file = BlueSpiceFoundation/i18n/extjs-portal/%CODE%.json
-id = ext-bs-extjs-portal
 
 Blue Spice - Filerepo
 file = BlueSpiceFoundation/i18n/filerepo/%CODE%.json
