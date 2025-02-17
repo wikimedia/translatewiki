@@ -9,7 +9,6 @@
 		<exclude name="MediaWiki.Commenting.PropertyDocumentation.MissingDocumentationPrivate" />
 		<exclude name="MediaWiki.Commenting.PropertyDocumentation.MissingDocumentationProtected" />
 		<exclude name="MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName" />
-		<exclude name="MediaWiki.NamingConventions.PrefixedGlobalFunctions.allowedPrefix" />
 		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment" />
 		<exclude name="PSR12.Properties.ConstantVisibility.NotFound" />
 	</rule>
@@ -32,10 +31,7 @@
 	<rule ref="Generic.PHP.NoSilencedErrors.Discouraged">
 		<severity>0</severity>
 	</rule>
-	<rule ref="MediaWiki.NamingConventions.PrefixedGlobalFunctions.wfPrefix">
-		<severity>0</severity>
-	</rule>
-	<rule ref="MediaWiki.NamingConventions.ValidGlobalName.wgPrefix">
+	<rule ref="MediaWiki.NamingConventions.PrefixedGlobalFunctions.allowedPrefix">
 		<severity>0</severity>
 	</rule>
 	<file>.</file>
