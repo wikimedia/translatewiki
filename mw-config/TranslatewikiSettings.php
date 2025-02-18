@@ -131,7 +131,7 @@ $wgPasswordPolicy['policies']['default']['MinimalPasswordLength'] = [
 	'value' => 6,
 	'suggestChangeOnLogin' => false
 ];
-$wgAutoConfirmAge = 3600 * 24 * 14;
+$wgAutoConfirmAge = 3600 * 24 * 4;
 $wgAutoblockExpiry = 3600 * 24 * 14; // 2 weeks of rest from vandals reusing IPs
 
 $wgEnotifUserTalk = true;
