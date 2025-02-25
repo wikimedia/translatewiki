@@ -1200,12 +1200,10 @@ id = ext-echo-interface
 aliasfile = Echo/Echo.alias.php
 optional = echo-badge-count
 optional = echo-email-batch-bullet
-optional = notification-body-edit-user-talk-with-section
 optional = echo-foreign-wiki-lang, echo-specialpage-pagination-range
-ignored = echo-email-batch-separator, notification-welcome-link, notification-body-mention
-ignored = notification-body-emailuser
-ignored = notification-body-foreign, echo-blacklist, notification-body-reverted
-ignored = notification-header-api-triggered, notification-body-api-triggered
+ignored = echo-email-batch-separator, notification-welcome-link
+ignored = echo-blacklist
+ignored = notification-header-api-triggered
 
 Echo - API
 id = ext-echo-api
@@ -3321,6 +3319,7 @@ id = ext-universallanguageselector-api
 file = UniversalLanguageSelector/i18n/api/%CODE%.json
 
 Unlinked Wikibase
+optional = Unlinkedwikibase
 magicfile = UnlinkedWikibase.i18n.magic.php
 
 Unused Redirects
