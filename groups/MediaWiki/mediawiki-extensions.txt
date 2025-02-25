@@ -3319,7 +3319,7 @@ id = ext-universallanguageselector-api
 file = UniversalLanguageSelector/i18n/api/%CODE%.json
 
 Unlinked Wikibase
-optional = Unlinkedwikibase
+optional = unlinkedwikibase
 magicfile = UnlinkedWikibase.i18n.magic.php
 
 Unused Redirects
