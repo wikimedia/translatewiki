@@ -3562,6 +3562,10 @@ Wiki Lambda - API
 id = ext-wikilambda-api
 file = WikiLambda/i18n/api/%CODE%.json
 
+Wiki Lambda - Editing
+id = ext-wikilambda-ve
+file = WikiLambda/i18n/ve/%CODE%.json
+
 Wiki Love - User interface
 id = ext-wikilove-user
 file = WikiLove/i18n/%CODE%.json

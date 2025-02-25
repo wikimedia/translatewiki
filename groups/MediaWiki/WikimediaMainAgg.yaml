@@ -70,6 +70,7 @@ GROUPS:
   - ext-wikibase-repo-interface # change-id: 5f4c990f3a102f8ae51e4d7bd3f6cf15550a2bf4
   - ext-wikidata.org
   - ext-wikieditor
+  - ext-wikilambda-ve
   - ext-wikimediabadges
   - ext-wikimedialicensetexts # commons.wikimedia.org
   - ext-wikimediaoverrides
