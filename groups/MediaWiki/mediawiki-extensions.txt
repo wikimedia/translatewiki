@@ -3320,6 +3320,9 @@ Universal Language Selector - API
 id = ext-universallanguageselector-api
 file = UniversalLanguageSelector/i18n/api/%CODE%.json
 
+Unlinked Wikibase
+magicfile = UnlinkedWikibase.i18n.magic.php
+
 Unused Redirects
 aliasfile = UnusedRedirects/UnusedRedirects.alias.php
 ignored = unusedredirects-text
