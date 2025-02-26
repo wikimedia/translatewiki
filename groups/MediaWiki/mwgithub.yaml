@@ -738,6 +738,20 @@ TAGS:
     - wikibase-export-name
 ---
 BASIC:
+  id: mwgithub-wikibasefacetedsearch
+  label: Wikibase Faceted Search
+  description: "{{Special:MyLanguage/MediaWiki:Wikibasefacetedsearch-description/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/WikibaseFacetedSearch/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/WikibaseFacetedSearch/i18n/%CODE%.json"
+---
+BASIC:
   id: mwgithub-wikibaselocalmedia
   label: Wikibase Local Media
   description: "{{Special:MyLanguage/MediaWiki:Wblm-desc/en}}"

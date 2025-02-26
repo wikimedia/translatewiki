@@ -602,6 +602,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/WikibaseExport.git
       url|export: git@github.com:ProfessionalWiki/WikibaseExport.git
+    mwgithub/ProfessionalWiki/WikibaseFacetedSearch:
+      type: github
+      url: https://github.com/ProfessionalWiki/WikibaseFacetedSearch.git
+      url|export: git@github.com:ProfessionalWiki/WikibaseFacetedSearch.git
     mwgithub/ProfessionalWiki/WikibaseLocalMedia:
       type: github
       url: https://github.com/ProfessionalWiki/WikibaseLocalMedia.git

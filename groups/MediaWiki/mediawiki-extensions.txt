@@ -32,6 +32,7 @@
 # Validator
 # Wikibase EDFT
 # Wikibase Export
+# Wikibase Faceted Search
 # Wikibase Local Media
 # Wikibase RDF
 
