@@ -2133,7 +2133,6 @@ aliasfile = MissedPages/MissedPages.i18n.alias.php
 # descmsg = mnss-desc
 
 Mobile App
-ignored = mobileapp-edit-tags-link
 ignored = tag-app-suggestededit-helppage, tag-app-undo-helppage
 ignored = tag-app-rollback-helppage, tag-app-description-add-helppage
 ignored = tag-app-description-change-helppage, tag-app-description-translate-helppage
