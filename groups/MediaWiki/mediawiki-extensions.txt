@@ -2134,6 +2134,15 @@ aliasfile = MissedPages/MissedPages.i18n.alias.php
 
 Mobile App
 ignored = mobileapp-edit-tags-link
+ignored = tag-app-suggestededit-helppage, tag-app-undo-helppage
+ignored = tag-app-rollback-helppage, tag-app-description-add-helppage
+ignored = tag-app-description-change-helppage, tag-app-description-translate-helppage
+ignored = tag-app-section-source-helppage, tag-app-full-source-helppage
+ignored = tag-app-select-source-helppage, tag-app-talk-source-helppage
+ignored = tag-app-talk-reply-helppage, tag-app-talk-topic-helppage
+ignored = tag-app-image-caption-add-helppage, tag-app-image-caption-translate-helppage
+ignored = tag-app-image-tag-add-helppage, tag-app-image-add-top-helppage
+ignored = tag-app-image-add-infobox-helppage
 
 Mobile Detect
 
