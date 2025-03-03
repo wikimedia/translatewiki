@@ -978,9 +978,9 @@ wikiedudashboard:
       url: https://github.com/WikiEducationFoundation/WikiEduDashboard.git
       url|export: git@github.com:WikiEducationFoundation/WikiEduDashboard.git
 
-wikimedia-developer-portal:
+wikimedia-misc-projects:
   always-export-languages: en-gb
-  group: wikimedia-developer-portal
+  group: wikimedia-developer-portal,internetarchivebot
   auto-merge: wikimedia/developer-portal
   repos:
     wikimedia-developer-portal:
@@ -988,6 +988,10 @@ wikimedia-developer-portal:
       branch: main
       url: https://gerrit.wikimedia.org/r/wikimedia/developer-portal/
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/developer-portal
+    internetarchivebot:
+      type: github
+      url: https://github.com/internetarchive/internetarchivebot.git
+      url|export: git@github.com:internetarchive/internetarchivebot.git
 
 wikimedia-github:
   group: copypatrol,grant-metrics,interaction-timeline,jquery-uls,svgtranslate,whowrotethat,wikimedia-ocr
@@ -1033,7 +1037,7 @@ wikimedia-mailman-templates:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/software/mailman-templates
 
 wikimedia-misc-tools:
-  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,global-search,internetarchivebot,jank-client,pageviews,ranker,signit,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikidata-mismatch-finder,wikilearn-*,wikipedia-year-in-review,wikiscore,wscd,xtools
+  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,global-search,jank-client,pageviews,ranker,signit,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikidata-mismatch-finder,wikilearn-*,wikipedia-year-in-review,wikiscore,wscd,xtools
   repos:
     adiutor:
       type: github
@@ -1061,10 +1065,6 @@ wikimedia-misc-tools:
       type: github
       url: https://github.com/wikimedia/tools-global-search.git
       url|export: git@github.com:wikimedia/tools-global-search.git
-    internetarchivebot:
-      type: github
-      url: https://github.com/internetarchive/internetarchivebot.git
-      url|export: git@github.com:internetarchive/internetarchivebot.git
     jank-client:
       type: github
       branch: main
