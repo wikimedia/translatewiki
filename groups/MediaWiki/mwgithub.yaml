@@ -1806,27 +1806,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: mwgithub-mediawiki-share
-  label: Share
-  description: "{{Special:MyLanguage/MediaWiki:agentisai-share-desc/en}}"
-  support:
-    url: https://github.com/AgentIsai/Share/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\nMessage definition: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/AgentIsai/Share/i18n/%CODE%.json"
-
-MANGLER:
-  class: StringMatcher
-  prefix: agentisai-
-  patterns:
-    - "*"
-
----
-BASIC:
   id: mwgithub-mediawiki-autocreatepage
   label: AutoCreatePage
   description: "{{Special:MyLanguage/MediaWiki:Autocreatepage-desc/en}}"

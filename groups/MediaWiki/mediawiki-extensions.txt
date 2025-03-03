@@ -2880,7 +2880,7 @@ Send Grid
 
 Sentry
 
-# Share // some qqq need more details then "i18n counterpart of message in extension.json"
+Share
 
 # Shared Help Pages / very ShoutWiki-specific
 
