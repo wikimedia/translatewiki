@@ -3797,6 +3797,7 @@ prefix = wmf- | createacct-captcha-help-url
 prefix = wmf- | search-interwiki-custom
 prefix = wmf- | wikibase-page-schema-publisher-name, wikibase-page-schema-publisher-logo-url, wikibase-page-schema-author-name
 prefix = wmf- | readinglists-import-app, readinglists-list-empty-message, readinglists-import-app-with-link
+prefix = wmf- | group-event-organizer, group-event-organizer-member, grouppage-event-organizer
 
 Wikimedia Code of Conduct
 file = WikimediaMessages/i18n/codeofconduct/%CODE%.json
