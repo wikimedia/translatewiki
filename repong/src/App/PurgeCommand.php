@@ -50,6 +50,7 @@ class PurgeCommand extends Command {
 			if ( $really ) {
 				$process = Process::fromShellCommandline( "rm -rf '$path'" );
 				$process->setWorkingDirectory( $this->getBase() );
+				$process->setTimeout( 300 );
 				$processes->attach( $process );
 			}
 		}
