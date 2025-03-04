@@ -948,17 +948,18 @@ wikiblame:
 
 wikidata:
   group: wikidata-*,cita
-  auto-merge: ^wikidata/query/gui|wikidata/query-builder
+  auto-merge: wikidata/query-builder
   repos:
     cita:
       type: github
       pull-branch: i18n
       url: https://github.com/diegodlh/zotero-cita.git
       url|export: git@github.com:diegodlh/zotero-cita.git
-    wikidata/query/gui:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/wikidata/query/gui
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikidata/query/gui
+    wikidata-query-gui:
+      type: gitlab
+      url: https://gitlab.wikimedia.org/repos/wmde/wikidata-query-gui.git
+      branch: main
+      url|export: git@gitlab.wikimedia.org:repos/wmde/wikidata-query-gui.git
     wikidata/query/builder:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/wikidata/query-builder

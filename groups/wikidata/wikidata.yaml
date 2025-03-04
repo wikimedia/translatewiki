@@ -25,7 +25,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikidata-query-gui/en}}"
 
 FILES:
-  sourcePattern: "%GROUPROOT%/wikidata/query/gui/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/wikidata-query-gui/i18n/%CODE%.json"
 
 VALIDATORS:
   - id: NumericalParameter
