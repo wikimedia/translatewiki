@@ -876,6 +876,7 @@ ignored = commonsmetadata-doc-url
 optional = commonsmetadata-artistcredit-separator
 
 Community Configuration
+ignored = tag-community configuration-helppage
 optional = communityconfiguration-editor-validation-error-label-chain-joiner
 
 Community Requests
