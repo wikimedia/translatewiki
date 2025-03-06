@@ -563,9 +563,9 @@ mwgithub:
       url: https://github.com/ProfessionalWiki/EDTF.git
       url|export: git@github.com:ProfessionalWiki/EDTF.git
     mwgithub/ProfessionalWiki/ExternalContent:
-        type: github
-        url: https://github.com/ProfessionalWiki/ExternalContent.git
-        url|export: git@github.com:ProfessionalWiki/ExternalContent.git
+      type: github
+      url: https://github.com/ProfessionalWiki/ExternalContent.git
+      url|export: git@github.com:ProfessionalWiki/ExternalContent.git
     mwgithub/ProfessionalWiki/IdGenerator:
       type: github
       url: https://github.com/ProfessionalWiki/IdGenerator.git
@@ -769,7 +769,7 @@ mwgitlab:
   group: mwgitlab-*,mwgitlabskin-*
   repos:
     mwgitlab/nonsensopedia/ratepage:
-      type: github # same committer name and email as in github
+      type: github
       url: https://gitlab.com/nonsensopedia/extensions/ratepage.git
       url|export: git@gitlab.com:nonsensopedia/extensions/ratepage.git
     mwgitlab/telepedia/userprofilev2:
@@ -886,10 +886,10 @@ qrmedia:
 swviewer:
   group: swviewer
   repos:
-   SWViewer/tool-swviewer:
-     type: github
-     url: https://github.com/SWViewer/tool-swviewer.git
-     url|export: git@github.com:SWViewer/tool-swviewer.git
+    SWViewer/tool-swviewer:
+      type: github
+      url: https://github.com/SWViewer/tool-swviewer.git
+      url|export: git@github.com:SWViewer/tool-swviewer.git
 
 toolhub:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
