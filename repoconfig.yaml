@@ -441,10 +441,6 @@ mwgithub:
       type: github
       url: https://github.com/JeroenDeDauw/SubPageList.git
       url|export: git@github.com:JeroenDeDauw/SubPageList.git
-    mwgithub/JeroenDeDauw/Validator:
-      type: github
-      url: https://github.com/JeroenDeDauw/Validator.git
-      url|export: git@github.com:JeroenDeDauw/Validator.git
     mwgithub/kulttuuri/DiscordNotifications:
       type: github
       url: https://github.com/kulttuuri/DiscordNotifications.git
