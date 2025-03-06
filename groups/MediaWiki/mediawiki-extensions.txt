@@ -969,7 +969,7 @@ file = ContentTranslation/i18n/%CODE%.json
 descmsg = cx-desc
 aliasfile = ContentTranslation/ContentTranslation.alias.php
 ignored = cx-tools-view-guidelines-link, tag-contenttranslation-helppage, tag-contenttranslation-v2-helppage
-ignored = tag-sectiontranslation-helppage
+ignored = tag-sectiontranslation-helppage, tag-contenttranslation-high-unmodified-mt-text-helppage
 optional = cx-tools-linter-issues-count, tag-contenttranslation-v2, cx-campaign-newbytranslation-languages
 
 Content Translation - API
