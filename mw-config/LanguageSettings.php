@@ -103,6 +103,7 @@ $wgExtraLanguageNames = [
 	'miq' => 'Mískitu', # Miskito / Siebrand 2013-07-02
 	'mns' => 'ма̄ньси', # Mansi / Amir 2024-09-27
 	'moe' => 'innu-aimun', # Innu-aimun / Amir 2020-04-16
+	'mrt' => 'Margi', # Marghi / Tolu 2025-03-06
 	'mrv' => 'Magareva', # Mangareva / Amir 2019-08-28
 	'msi' => 'Bahasa Sabah', # Sabah Malay / Amir 2024-07-17
 	'mvf' => 'ᠮᠣᠩᠭᠣᠯ', # Southern Mongolian / Amir 2020-04-17
