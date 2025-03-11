@@ -1541,6 +1541,10 @@ FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/Halopedia/Onyx/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - onyx-prefs-talkpage
+
 ---
 BASIC:
   id: mwgithub-edtf
