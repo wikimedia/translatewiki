@@ -68,8 +68,6 @@ Achievement Badges
 
 Acrolinx
 
-Active Abstract
-
 Ad Manager
 aliasfile = AdManager/AdManager.alias.php
 
