@@ -79,6 +79,7 @@ optional = metrolook-prefs-talkpage
 MinervaNeue
 ignored = skin-minerva-donate-banner-message, skin-minerva-donate-banner-subtitle
 ignored = skin-minerva-donate-banner-gif, skin-minerva-donate-banner-url
+ignored = skin-minerva-donate-banner-reduced-motion
 optional = skinname-minerva, minerva.css, minerva.js
 
 Mirage
