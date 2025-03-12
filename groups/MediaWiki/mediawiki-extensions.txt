@@ -2909,6 +2909,7 @@ aliasfile = SimilarEditors/SimilarEditors.alias.php
 Simple Blog Page
 aliasfile = SimpleBlogPage/SimpleBlogPageAliases.php
 prefix = simpleblogage- | right-createblogpost, action-createblogpost
+ignored = simpleblogpage-entry-blog-root-link
 
 Simple Changes
 aliasfile = SimpleChanges/SimpleChanges.alias.php
