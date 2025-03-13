@@ -3851,6 +3851,7 @@ ignored = wikimedia-sidebar, wikimedia-oathauth-notifications-disable-helplink
 ignored = wikimedia-globalblocking-blockedtext-user
 ignored = wikimedia-globalblocking-blockedtext-autoblock, wikimedia-globalblocking-blockedtext-autoblock-xff
 ignored = wikimedia-skin-minerva-donate-banner-gif, wikimedia-skin-minerva-donate-banner-url
+ignored = wikimedia-skin-minerva-donate-banner-reduced-motion
 optional = wikimedia-centralauth-uwbr-registration-nodate
 
 # Wikimedia Overrides No Translate // Per name: no translate
