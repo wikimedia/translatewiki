@@ -3701,6 +3701,7 @@ descmsg = wikidata-org-desc
 ignored = accesskey-n-wikibase-randomitem
 ignored = wikibase-queryservice-url
 ignored = wikibase-randomitem-url
+ignored = tag-data-bridge-helppage
 
 Wikihiero
 file = wikihiero/i18n/%CODE%.json
