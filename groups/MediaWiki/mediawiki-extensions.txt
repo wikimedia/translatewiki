@@ -3738,6 +3738,7 @@ file = WikimediaEditorTasks/i18n/api/%CODE%.json
 
 Wikimedia Events
 optional = wikimediaevents-special-wikimediadebug-desc
+ignored = tag-cross-wiki-upload-helppage
 
 Wikimedia Incubator - core
 file = WikimediaIncubator/i18n/core/%CODE%.json
