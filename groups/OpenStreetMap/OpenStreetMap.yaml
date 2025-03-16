@@ -73,6 +73,8 @@ TAGS:
     - accounts.edit.public editing.enabled link
     - accounts.go_public.find_out_why_html
     - accounts.go_public.find_out_why_url
+    - accounts.show.openid.link
+    - accounts.show.contributor_terms.link
     - application.auth_disabled_link
     - application.auth_providers.openid_html
     - auth.providers.microsoft
@@ -110,6 +112,7 @@ TAGS:
     - layouts.project_name.title
     - notes.show.coordinates_html
     - notes.new.counter_warning_forum_link.url
+    - notes.new.counter_warning_guide_link.url
     - notifier.message_notification.subject_header
     - oauth2_applications.index.oauth_2
     - printable_name.with_name_html
@@ -167,7 +170,11 @@ TAGS:
     - site.help.help.url
     - site.help.welcomemat.url
     - site.help.wiki.url
+    - site.not_public_flash.anon_edits_link
     - site.potlatch.download_url
+    - site.search.providers.fossgis_osrm
+    - site.search.providers.fossgis_valhalla
+    - site.search.providers.graphhopper
     - site.welcome.rules.automated_edits_url
     - site.welcome.rules.imports_url
     - time.formats.blog
