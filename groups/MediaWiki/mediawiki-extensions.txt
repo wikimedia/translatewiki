@@ -2666,7 +2666,6 @@ Quick Response
 Quick Search Lookup
 
 Quiz
-descmsg = quiz_desc
 
 Quiz Game
 aliasfile = QuizGame/includes/QuizGame.alias.php
