@@ -68,14 +68,11 @@ INSERTABLES:
 
 TAGS:
   optional:
-    - accounts.edit.contributor terms.link
     - accounts.edit.openid.link
-    - accounts.edit.public editing.enabled link
     - accounts.go_public.find_out_why_html
     - accounts.go_public.find_out_why_url
     - accounts.show.openid.link
     - accounts.show.contributor_terms.link
-    - application.auth_disabled_link
     - application.auth_providers.openid_html
     - auth.providers.microsoft
     - auth.providers.openid
@@ -119,7 +116,6 @@ TAGS:
     - printable_name.with_version
     - site.any_questions.welcome_mat_url
     - site.communities.other_groups.communities_wiki_url
-    - site.copyright.legal babble.contributors_nz_cc_by
     - site.copyright.legal_babble.contributors_2_contributors_page_url
     - site.copyright.legal_babble.contributors_at_cc_by
     - site.copyright.legal_babble.contributors_at_cc_by_at_with_amendments_url
@@ -140,7 +136,7 @@ TAGS:
     - site.copyright.legal_babble.contributors_hr_open_data_portal_url
     - site.copyright.legal_babble.contributors_nl_and
     - site.copyright.legal_babble.contributors_nl_and_url
-    - site.copyright.legal babble.contributors_nz_cc_by
+    - site.copyright.legal_babble.contributors_nz_cc_by
     - site.copyright.legal_babble.contributors_nz_cc_by_url
     - site.copyright.legal_babble.contributors_nz_linz_data_service_url
     - site.copyright.legal_babble.contributors_rs_open_data_portal_url
