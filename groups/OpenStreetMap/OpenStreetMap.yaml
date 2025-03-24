@@ -71,7 +71,7 @@ TAGS:
     - accounts.edit.openid.link
     - accounts.go_public.find_out_why_html
     - accounts.go_public.find_out_why_url
-    - accounts.show.contributor_terms.link
+    - accounts.show.contributor terms.link
     - accounts.show.openid.link
     - application.auth_providers.openid_html
     - auth.providers.microsoft
