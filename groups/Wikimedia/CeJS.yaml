@@ -20,6 +20,10 @@ MANGLER:
   patterns:
     - "*"
 
+TAGS:
+  ignored:
+    - cejs-untranslated-message-count
+
 VALIDATORS:
   - id: InsertableRegex
     insertable: true
