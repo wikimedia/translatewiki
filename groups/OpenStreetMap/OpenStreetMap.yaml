@@ -66,6 +66,13 @@ INSERTABLES:
   - class: RegexInsertablesSuggester
     params: '/&#?\w+;/'
 
+# Note:
+# 1. Keep the keys within the "optional" and "ignored" sections
+#    in alphabetical order.
+# 2. The original English messages and keys are stored in a yml file.
+#    If there is a space in the key in that yml file, use a space
+#    here, too. If there is an underscore (_) there, use an underscore here.
+#    See https://phabricator.wikimedia.org/T331812
 TAGS:
   optional:
     - accounts.edit.openid.link
