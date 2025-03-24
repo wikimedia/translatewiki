@@ -71,49 +71,69 @@ TAGS:
     - accounts.edit.openid.link
     - accounts.go_public.find_out_why_html
     - accounts.go_public.find_out_why_url
-    - accounts.show.openid.link
     - accounts.show.contributor_terms.link
+    - accounts.show.openid.link
     - application.auth_providers.openid_html
     - auth.providers.microsoft
     - auth.providers.openid
     - auth.providers.windowslive
+    - browse.common_details.coordinates_html
     - browse.navigation.paging.all.next
     - browse.navigation.paging.all.prev
     - browse.navigation.paging.user.next
     - browse.navigation.paging.user.prev
+    - browse.note.coordinates_html
     - browse.relation_member.entry
     - browse.relation_member.entry_html
     - changeset.changeset.id
     - count.at_least_pattern
+    - diary_entries.location.coordinates
     - editor.id.name
     - errors.contact.contact_url
+    - geocoder.search_osm_namefinder.suffix_suburb
+    - geocoder.search_osm_nominatim.prefix_format
+    - geocoder.search_osm_nominatim.prefix_other
+    - geocoder.search_osm_twain.prefix_other
     - geocoder.search.title.latlon_url
     - geocoder.search.title.osm_nominatim
     - geocoder.search.title.osm_nominatim_reverse
     - geocoder.search.title.osm_nominatim_reverse_url
     - geocoder.search.title.osm_nominatim_url
-    - geocoder.search_osm_namefinder.suffix_suburb
-    - geocoder.search_osm_nominatim.prefix_format
-    - geocoder.search_osm_nominatim.prefix_other
-    - geocoder.search_osm_twain.prefix_other
     - html.dir
     - javascripts.map.base.cyclosm
+    - javascripts.map.base.mapquest
     - javascripts.map.copyright_text
     - javascripts.map.cyclosm_name
     - javascripts.map.overlays.maplint
     - javascripts.map.tracestrack
+    - layouts.help_url
+    - layouts.help_wiki_url
+    - layouts.intro_2_use_url
     - layouts.intro_3_bytemark
+    - layouts.intro_3_partners_url
     - layouts.intro_3_ucl
     - layouts.license.alt
+    - layouts.partners_url
     - layouts.project_name.h1
     - layouts.project_name.title
-    - notes.show.coordinates_html
+    - layouts.shop_url
+    - layouts.wiki_url
     - notes.new.counter_warning_forum_link.url
     - notes.new.counter_warning_guide_link.url
+    - notes.show.coordinates_html
+    - notifier.gpx_notification.failure.import_failures_url
     - notifier.message_notification.subject_header
+    - notifier.signup_confirm_plain.the_wiki_url
+    - notifier.signup_confirm_plain.wiki_signup_url
     - oauth2_applications.index.oauth_2
+    - oauth2_authorized_applications.index.oauth_2
+    - printable_name.current_and_old_links_html
     - printable_name.with_name_html
     - printable_name.with_version
+    - profiles.edit.gravatar.link
+    - sessions.new.openid_html
+    - shared.markdown_help.kramdown
+    - shared.markdown_help.kramdown_url
     - site.any_questions.welcome_mat_url
     - site.communities.other_groups.communities_wiki_url
     - site.copyright.legal_babble.contributors_2_contributors_page_url
@@ -174,27 +194,6 @@ TAGS:
     - site.welcome.rules.automated_edits_url
     - site.welcome.rules.imports_url
     - time.formats.blog
-    # Users may or may not want to translate the OSM wiki too
-    - browse.common_details.coordinates_html
-    - browse.note.coordinates_html
-    - diary_entries.location.coordinates
-    - javascripts.map.base.mapquest
-    - layouts.help_url
-    - layouts.help_wiki_url
-    - layouts.intro_2_use_url
-    - layouts.intro_3_partners_url
-    - layouts.partners_url
-    - layouts.shop_url
-    - layouts.wiki_url
-    - notifier.gpx_notification.failure.import_failures_url
-    - notifier.signup_confirm_plain.the_wiki_url
-    - notifier.signup_confirm_plain.wiki_signup_url
-    - oauth2_authorized_applications.index.oauth_2
-    - printable_name.current_and_old_links_html
-    - profiles.edit.gravatar.link
-    - sessions.new.openid_html
-    - shared.markdown_help.kramdown
-    - shared.markdown_help.kramdown_url
     - traces.create.help_url
     - traces.create.visibility_help_url
     - traces.edit.visibility_help_url
