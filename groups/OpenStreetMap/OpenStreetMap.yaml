@@ -78,8 +78,10 @@ TAGS:
     - accounts.edit.openid.link
     - accounts.go_public.find_out_why_html
     - accounts.go_public.find_out_why_url
+    - accounts.pd_declarations.show.consider_pd_why_url
     - accounts.show.contributor terms.link
     - accounts.show.openid.link
+    - accounts.terms.terms_declined_flash.terms_declined_url
     - application.auth_providers.openid_html
     - auth.providers.microsoft
     - auth.providers.openid
