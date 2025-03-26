@@ -186,8 +186,6 @@ TAGS:
     - site.copyright.legal_babble.more_2_1_nominatim_usage_policy_url
     - site.copyright.legal_babble.more_2_1_tile_usage_policy_url
     - site.copyright.legal_babble.trademarks_1_1_trademark_policy_url
-    - site.edit.anon_edits
-    - site.edit.anon_edits_html
     - site.export.odbl_url
     - site.fixthemap.other_concerns.working_group_url
     - site.help.beginners_guide.url
@@ -195,6 +193,7 @@ TAGS:
     - site.help.help.url
     - site.help.welcomemat.url
     - site.help.wiki.url
+    - site.not_public_flash.anon_edits_html
     - site.not_public_flash.anon_edits_link
     - site.potlatch.download_url
     - site.search.providers.fossgis_osrm
