@@ -122,7 +122,7 @@ TAGS:
     - layouts.intro_3_partners_url
     - layouts.intro_3_ucl
     - layouts.license.alt
-    - layouts.partners_url
+    - layouts.partners_fastly
     - layouts.project_name.h1
     - layouts.project_name.title
     - layouts.shop_url
