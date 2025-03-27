@@ -123,7 +123,6 @@ $wgExtraLanguageNames = [
 	'oka' => 'n̓səl̓xcin̓', # Okanagan Salish / Amir 2018-04-04
 	'osi' => 'Using', # Osing / Amir 2019-08-31
 	'ovd' => 'övdalsk', # Övdalian / Siebrand 2017-05-20
-	'pap-aw' => 'Papiamento', # Aruba Papiamento / Amir 2021-02-25
 	'pbb' => 'Nasa Yuwe', # Páez / Siebrand 2013-08-08
 	'pey' => 'Petjoh', # Petjoh / Amir 2024-02-07
 	'phr' => 'پوٹھواری', # Pothwari / Amir 2024-05-06
