@@ -11,16 +11,13 @@ TEMPLATE:
       exclude:
         # core
         - activeusers-count # Optional GENDER parameter
-        - autoblockedtext # Optional GENDER parameter
         - blocked-notice-logextract # Optional GENDER parameter
-        - blockedtext # Optional GENDER parameter
         - blocklog-showlog # Optional GENDER parameter
         - blocklog-showsuppresslog # Optional GENDER parameter
         - confirmemail_body # Optional time parameters
         - confirmemail_body_changed # Optional time parameters
         - confirmemail_body_set # Optional time parameters
         - currentrev-asof # Optional time parameters
-        - diff-multi-manyusers
         - filehist-thumbtext # Optional time parameters
         - group-autoconfirmed-member # Optional GENDER parameter
         - group-bot-member # Optional GENDER parameter
@@ -51,7 +48,6 @@ TEMPLATE:
         - perfcachedts # Optional time parameters
         - protect-expiring # Optional time parameters
         - protect-expiring-local # Optional time parameters
-        - rclistfrom # Optional time parameter
         - rcnotefrom # Optional time parameters
         - revision-info # Optional time parameters
         - revisionasof # Optional time parameters
