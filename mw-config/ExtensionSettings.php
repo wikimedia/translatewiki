@@ -14,7 +14,6 @@ wfLoadExtensions( [
 	'Interwiki',
 	'LoginNotify',
 	'Nuke',
-	'OATHAuth',
 	'ReplaceText',
 	'Scribunto',
 	'SyntaxHighlight_GeSHi',
@@ -185,6 +184,12 @@ $wgGroupPermissions['staff']['mwoauthmanageconsumer'] = true;
 $wgGroupPermissions['staff']['mwoauthsuppress'] = true;
 $wgGroupPermissions['staff']['mwoauthviewsuppressed'] = true;
 $wgGroupPermissions['staff']['mwoauthviewprivate'] = true;
+
+wfLoadExtension( 'OATHAuth' );
+$wgOATHRequiredForGroups[] = 'interface-admin';
+$wgOATHRequiredForGroups[] = 'sysop';
+$wgOATHRequiredForGroups[] = 'bureaucrat';
+$wgOATHRequiredForGroups[] = 'staff';
 
 $wgPoolCounterConf = [
 	'TranslateFetchTranslators' => [
