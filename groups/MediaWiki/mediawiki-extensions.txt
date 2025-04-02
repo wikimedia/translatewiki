@@ -171,6 +171,8 @@ aliasfile = ArticlePlaceholder/ArticlePlaceholder.alias.php
 
 # Article Ratings // incosistent prefix 2017-11-05
 
+Article Summaries
+
 Article To Category 2
 
 At Mentions
