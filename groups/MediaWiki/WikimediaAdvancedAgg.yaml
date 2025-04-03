@@ -26,6 +26,7 @@ GROUPS:
   - ext-contactpage # on nl.wp and wikimediafoundation.org
   - ext-dashiki
   - ext-diff
+  - ext-emailauth
   - ext-entityschema
   - ext-extensiondistributor-user # MediaWiki.org
   - ext-externalguidance # Deployed enwiki https://phabricator.wikimedia.org/rOMWCdb356d5c20d33a5b83e99a97de50749a7cd1cff0
