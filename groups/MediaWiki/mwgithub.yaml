@@ -1282,6 +1282,9 @@ FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/WikiDiscover/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - wikidiscover-extensionname
 ---
 BASIC:
   id: mwgithub-youtube
