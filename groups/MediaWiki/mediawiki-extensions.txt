@@ -2525,6 +2525,9 @@ optional = passwordlesslogin
 
 PCR GUI Inserts
 
+PDFCreator
+aliasfile = PDFCreator/languages/SpecialPDFTemplatesOverview.alias.php
+
 Pdf Handler
 descmsg = pdf-desc
 
