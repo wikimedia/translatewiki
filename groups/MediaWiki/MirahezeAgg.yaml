@@ -15,6 +15,7 @@ GROUPS:
   - mwgithub-incidentreporting
   - mwgithub-managewiki
   - mwgithub-matomoanalytics
+  - mwgithub-miraheze-discordnotifications
   - mwgithub-mirahezeerrorpages
   - mwgithub-mirahezelanding
   - mwgithub-mirahezemagic-custom

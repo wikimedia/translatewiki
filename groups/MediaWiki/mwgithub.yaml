@@ -994,6 +994,31 @@ TAGS:
 
 ---
 BASIC:
+  id: mwgithub-miraheze-discordnotifications
+  label: DiscordNotifications (Miraheze)
+  description: "{{Special:MyLanguage/MediaWiki:miraheze-discordnotifications-desc/en}}"
+  support:
+    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\nMessage definition: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/DiscordNotifications/i18n/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: miraheze-
+  patterns:
+    - "*"
+
+TAGS:
+  optional:
+    - miraheze-discordnotifications-extensionname
+
+---
+BASIC:
   id: mwgithub-globalnewfiles
   label: GlobalNewFiles
   description: "{{Special:MyLanguage/MediaWiki:globalnewfiles-desc/en}}"
@@ -1821,31 +1846,6 @@ BASIC:
 FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/AutoCreatePage/i18n/%CODE%.json"
-
----
-BASIC:
-  id: mwgithub-mediawiki-universalomega-discordnotifications
-  label: DiscordNotifications (Universal-Omega)
-  description: "{{Special:MyLanguage/MediaWiki:universalomega-discordnotifications-desc/en}}"
-  support:
-    url: https://github.com/Universal-Omega/DiscordNotifications/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\nMessage definition: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/DiscordNotifications/i18n/%CODE%.json"
-
-MANGLER:
-  class: StringMatcher
-  prefix: universalomega-
-  patterns:
-    - "*"
-
-TAGS:
-  optional:
-    - universalomega-discordnotifications-extensionname
 
 ---
 BASIC:

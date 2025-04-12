@@ -460,66 +460,87 @@ mwgithub:
       url|export: git@github.com:lingua-libre/RecordWizard.git
     mwgithub/miraheze/CreateWiki:
       type: github
+      branch: main
       url: https://github.com/miraheze/CreateWiki.git
       url|export: git@github.com:miraheze/CreateWiki.git
     mwgithub/miraheze/DataDump:
       type: github
+      branch: main
       url: https://github.com/miraheze/DataDump.git
       url|export: git@github.com:miraheze/DataDump.git
+    mwgithub/miraheze/DiscordNotifications:
+      type: github
+      branch: main
+      url: https://github.com/miraheze/DiscordNotifications.git
+      url|export: git@github.com:miraheze/DiscordNotifications.git
     mwgithub/miraheze/ErrorPages:
       type: github
+      branch: main
       url: https://github.com/miraheze/ErrorPages.git
       url|export: git@github.com:miraheze/ErrorPages.git
     mwgithub/miraheze/GlobalNewFiles:
       type: github
+      branch: main
       url: https://github.com/miraheze/GlobalNewFiles.git
       url|export: git@github.com:miraheze/GlobalNewFiles.git
     mwgithub/miraheze/ImportDump:
       type: github
+      branch: main
       url: https://github.com/miraheze/ImportDump.git
       url|export: git@github.com:miraheze/ImportDump.git
     mwgithub/miraheze/IncidentReporting:
       type: github
+      branch: main
       url: https://github.com/miraheze/IncidentReporting.git
       url|export: git@github.com:miraheze/IncidentReporting.git
     mwgithub/miraheze/landing:
       type: github
+      branch: main
       url: https://github.com/miraheze/landing.git
       url|export: git@github.com:miraheze/landing.git
     mwgithub/miraheze/ManageWiki:
       type: github
+      branch: main
       url: https://github.com/miraheze/ManageWiki.git
       url|export: git@github.com:miraheze/ManageWiki.git
     mwgithub/miraheze/MatomoAnalytics:
       type: github
+      branch: main
       url: https://github.com/miraheze/MatomoAnalytics.git
       url|export: git@github.com:miraheze/MatomoAnalytics.git
     mwgithub/miraheze/MirahezeMagic:
       type: github
+      branch: main
       url: https://github.com/miraheze/MirahezeMagic.git
       url|export: git@github.com:miraheze/MirahezeMagic.git
     mwgithub/miraheze/PDFEmbed:
       type: github
+      branch: main
       url: https://github.com/miraheze/PDFEmbed.git
       url|export: git@github.com:miraheze/PDFEmbed.git
     mwgithub/miraheze/RemovePII:
       type: github
+      branch: main
       url: https://github.com/miraheze/RemovePII.git
       url|export: git@github.com:miraheze/RemovePII.git
     mwgithub/miraheze/RequestSSL:
       type: github
+      branch: main
       url: https://github.com/miraheze/RequestSSL.git
       url|export: git@github.com:miraheze/RequestSSL.git
     mwgithub/miraheze/RottenLinks:
       type: github
+      branch: main
       url: https://github.com/miraheze/RottenLinks.git
       url|export: git@github.com:miraheze/RottenLinks.git
     mwgithub/miraheze/WikiDiscover:
       type: github
+      branch: main
       url: https://github.com/miraheze/WikiDiscover.git
       url|export: git@github.com:miraheze/WikiDiscover.git
     mwgithub/miraheze/YouTube:
       type: github
+      branch: main
       url: https://github.com/miraheze/YouTube.git
       url|export: git@github.com:miraheze/YouTube.git
     mwgithub/Nikerabbit/mediawiki-extensions-FinnFrameNet:
@@ -724,34 +745,37 @@ mwgithub:
       url|export: git@github.com:StarCitizenTools/mediawiki-extensions-TabberNeue.git
     mwgithub/Universal-Omega/AutoCreatePage:
       type: github
+      branch: main
       url: https://github.com/Universal-Omega/AutoCreatePage.git
       url|export: git@github.com:Universal-Omega/AutoCreatePage.git
-    mwgithub/Universal-Omega/DiscordNotifications:
-      type: github
-      url: https://github.com/Universal-Omega/DiscordNotifications.git
-      url|export: git@github.com:Universal-Omega/DiscordNotifications.git
     mwgithub/Universal-Omega/DynamicPageList3:
       type: github
+      branch: main
       url: https://github.com/Universal-Omega/DynamicPageList3.git
       url|export: git@github.com:Universal-Omega/DynamicPageList3.git
     mwgithub/Universal-Omega/Monaco:
       type: github
+      branch: main
       url: https://github.com/Universal-Omega/Monaco.git
       url|export: git@github.com:Universal-Omega/Monaco.git
     mwgithub/Universal-Omega/PortableInfobox:
       type: github
+      branch: main
       url: https://github.com/Universal-Omega/PortableInfobox.git
       url|export: git@github.com:Universal-Omega/PortableInfobox.git
     mwgithub/Universal-Omega/Preloader:
       type: github
+      branch: main
       url: https://github.com/Universal-Omega/Preloader.git
       url|export: git@github.com:Universal-Omega/Preloader.git
     mwgithub/Universal-Omega/SimpleBlogPage:
       type: github
+      branch: main
       url: https://github.com/Universal-Omega/SimpleBlogPage.git
       url|export: git@github.com:Universal-Omega/SimpleBlogPage.git
     mwgithub/Universal-Omega/SimpleTooltip:
       type: github
+      branch: main
       url: https://github.com/Universal-Omega/SimpleTooltip.git
       url|export: git@github.com:Universal-Omega/SimpleTooltip.git
 
