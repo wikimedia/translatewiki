@@ -1932,7 +1932,7 @@ Link_Attributes
 descmsg = linkattributes-desc
 
 Link Filter
-optional = linkfilter-url
+optional = linkfilter-url, linkfilter-home-date
 optional = group-linkadmin.css, group-linkadmin.js
 aliasfile = LinkFilter/includes/LinkFilter.alias.php
 
