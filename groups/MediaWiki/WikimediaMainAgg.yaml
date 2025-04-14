@@ -23,6 +23,7 @@ GROUPS:
   - ext-communityrequests # meta. https://phabricator.wikimedia.org/rOMWC2b99890cf87fbaf7f17e8e0e43ccc5231cf8c6c6
   - ext-confirmedit-user
   - ext-confirmeditfancycaptcha-user
+  - ext-confirmedithcaptcha
   - ext-contenttranslation-user
   - ext-contenttranslation-automatic-translation
   - ext-disambiguator
