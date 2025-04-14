@@ -208,6 +208,7 @@ $wgTranslateDisabledTargetLanguages = [
 		'mnc-latn' => 'This language code should remain unused. Localise in mnc (Latin script) or mnc-mong (Mongolian script) please.',
 		'nan' => 'This language code should remain unused. Localise in nan-hans, nan-hant, nan-latn-pehoeji or nan-latn-tailo please.',
 		'nan-hani' => 'This language code should remain unused. Localise in nan-hans or nan-hant please.',
+		'nan-hntl' => 'This language code should remain unused. Localise in nan-hntl-pehoeji or nan-hntl-tailo please.',
 		'nan-latn' => 'This language code should remain unused. Localise in nan-latn-pehoeji or nan-latn-tailo please.',
 		'no' => 'This language code should remain unused. Use \'nb\'',
 		'oge' => 'This is a [http://www.sil.org/iso639-3/documentation.asp?id=oge historical language]. It cannot be localised in translatewiki.net.',
