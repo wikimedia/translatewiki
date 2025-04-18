@@ -964,7 +964,6 @@ wikiblame:
 
 wikidata:
   group: wikidata-*,cita
-  auto-merge: wikidata/query-builder
   repos:
     cita:
       type: github
@@ -976,10 +975,10 @@ wikidata:
       url: https://gitlab.wikimedia.org/repos/wmde/wikidata-query-gui.git
       branch: main
       url|export: git@gitlab.wikimedia.org:repos/wmde/wikidata-query-gui.git
-    wikidata/query/builder:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/wikidata/query-builder
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikidata/query-builder
+    wikidata-query-builder:
+      type: gitlab
+      url: https://gitlab.wikimedia.org/repos/wmde/wikidata-query-builder.git
+      url|export: git@gitlab.wikimedia.org:repos/wmde/wikidata-query-builder.git
 
 wikidocumentaries:
   group: wikidocumentaries

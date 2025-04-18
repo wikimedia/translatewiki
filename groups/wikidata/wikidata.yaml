@@ -38,7 +38,7 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikidata-query-builder/en}}"
 
 FILES:
-  sourcePattern: "%GROUPROOT%/wikidata/query/builder/public/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/wikidata-query-builder/public/i18n/%CODE%.json"
 
 VALIDATORS:
   - id: NumericalParameter
