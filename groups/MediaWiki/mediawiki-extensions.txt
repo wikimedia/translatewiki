@@ -192,6 +192,7 @@ Auto Gallery
 
 Auto Moderator
 ignored = communityconfiguration-automoderator-automoderatorfalsepositivepagetitle-placeholder
+ignored = communityconfiguration-multilingualconfig-automoderatormultilingualconfigfalsepositivepagetitle-placeholder
 
 # Automatic Board Welcome // 2017-10-27: Archived (T179196)
 
