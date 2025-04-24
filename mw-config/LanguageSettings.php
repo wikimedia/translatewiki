@@ -133,6 +133,7 @@ $wgExtraLanguageNames = [
 	'pov' => 'guinensi', # Guinea-Bissau Creole / Amir 2019-05-17
 	'ppl' => 'Nawat', # Pipil / Siebrand 2011-08-30
 	'prs' => 'دری', # Dari
+	'pzh' => 'Pazeh', # Pazeh / ToluAyo 2025-04-24
 	'qqq' => 'Message documentation', # No linguistic content. Used for documenting messages
 	'qwh' => 'anqash qichwa', # Amir 2018-03-04
 	'rag' => 'Lologooli', # Logooli / Amir 2021-11-15
