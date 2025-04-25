@@ -217,6 +217,7 @@ $wgTranslateLanguageFallbacks = [
 	'pt' => [ 'es', 'gl' ], # [[Thread:Support/wgTranslateLanguageFallbacks for Portuguese]]
 	'pt-br' => [ 'es', 'gl' ],
 	'pwn' => [ 'ami', 'tay', 'xsy', 'szy', 'trv' ],
+	'pzh' => [ 'zh-hant' ], # ToluAyo 2025-04-25
 	'qwh' => [ 'qu', 'es' ],
 	'rag' => [ 'sw', 'nyn', 'rw', 'rn', 'lg' ],
 	'rcf' => 'fr',
