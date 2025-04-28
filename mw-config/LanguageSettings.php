@@ -29,7 +29,6 @@ $wgExtraLanguageNames = [
 	'bol' => 'bòo pìkkà', # Bole / Jon Harald Søby 2023-07-27
 	'bom' => 'bèrom', # Berom / Eugene Wang'ombe 2022-12-01
 	'brx' => 'बर\'', # Boro / Siebrand 2017-05-20
-	'bug-bugi' => 'ᨅᨔ ᨕᨘᨁᨗ', # Buginese (Lontara script) / Amir 2023-07-16
 	'bum' => 'bulu', # Bulu / Amir 2022-02-19
 	'bwr' => 'bura', # Bura / Amir 2022-06-11
 	'byv' => 'Mə̀dʉ̂mbɑ̀', # Medumba / Amir 2024-10-13

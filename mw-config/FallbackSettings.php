@@ -49,7 +49,6 @@ $wgTranslateLanguageFallbacks = [
 	'bo' => [ 'dz', 'zh-hans' ],
 	'bol' => [ 'kai', 'ha' ],
 	'bom' => [ 'ha', 'ig', 'yo' ],
-	'bug-bugi' => [ 'bug', 'mak', 'mak-bugi', 'id' ],
 	'bum' => 'fr',
 	'bwr' => [ 'ha', 'kr', 'ar' ],
 	'bxr' => [ 'mn', 'xal' ],
