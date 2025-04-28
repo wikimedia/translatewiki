@@ -3812,6 +3812,7 @@ optional = research-incentive-privacy, research-incentive-confirm-msg
 optional = research-incentive-link
 optional = protect-level-edit-legal, restriction-level-edit-legal
 optional = ext-quicksurveys-name
+optional = ext-quicksurveys-patrollertools-external-survey-link
 optional = wikimedia-otherprojects-endowment, wikimedia-otherprojects-enterprise, wikimedia-otherprojects-phabricator
 optional = wikibase-otherprojects-wikitech
 optional = wikibase-sitelinks-sitename-foundationwiki, wikibase-sitelinks-sitename-specieswiki
