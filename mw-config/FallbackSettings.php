@@ -231,6 +231,7 @@ $wgTranslateLanguageFallbacks = [
 	'rut' => [ 'az', 'lez' ], # Robin 2012-07-24
 	'rw' => [ 'fr', 'rn', 'sw' ],
 	'ryu' => 'ja',
+	'sas' => [ 'id' ],
 	'sat' => [ 'or', 'hoc', 'hi', 'as' ],
 	'saz' => 'gu',
 	'sc' => [ 'sro', 'it' ],
