@@ -1085,6 +1085,10 @@ FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mwgithub/miraheze/ManageWiki/i18n/%CODE%.json"
 
+TAGS:
+  optional:
+    - managewiki-extension-name
+    - managewiki-extensionname
 ---
 BASIC:
   id: mwgithub-matomoanalytics
