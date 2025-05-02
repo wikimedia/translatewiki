@@ -39,6 +39,7 @@ TEMPLATE:
     include:
       - ar
       - en
+      - es
       - hi
       - pcm
       - pt-br
