@@ -1247,6 +1247,7 @@ aliasfile = ElectronPdfService/ElectronPdfService.i18n.alias.php
 descmsg = electronPdfService-desc
 
 Email Auth
+ignored = emailauth-email-help-url
 
 Email Authorization
 aliasfile = EmailAuthorization/includes/EmailAuthorization.alias.php
