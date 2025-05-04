@@ -3886,6 +3886,7 @@ ignored = graph-disabled
 
 Wikimedia Undeployed Placeholders
 file = WikimediaMessages/i18n/undeployedplaceholders/%CODE%.json
+ignored = wikimedia-graph-disabled
 
 Wikispeech - User interface
 id = ext-wikispeech-user
