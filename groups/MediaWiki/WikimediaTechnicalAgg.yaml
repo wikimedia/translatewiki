@@ -49,7 +49,7 @@ GROUPS:
   - ext-growthexperiments-homepage-api
   - ext-growthexperiments-mentorship-api # https://phabricator.wikimedia.org/rOMWC0208fc2b71863c91c3e767373d4bea1a2eaf178d
   - ext-growthexperiments-newcomertasks-api
-  - ext-ipreputation https://phabricator.wikimedia.org/rOMWCa1a05da84d5da9dcc7e074c65736456d7d3e3e5a
+  - ext-ipreputation # https://phabricator.wikimedia.org/rOMWCa1a05da84d5da9dcc7e074c65736456d7d3e3e5a
   - ext-jsonconfig-api
   - ext-kartographer-api
   - ext-linter-api
