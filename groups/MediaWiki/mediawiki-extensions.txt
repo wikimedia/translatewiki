@@ -1143,6 +1143,7 @@ ignored = donate_interface-big-amount-display, donate_interface-medium-amount-di
 ignored = donate_interface-small-amount-display, donate_interface-big-amount-value
 ignored = donate_interface-medium-amount-value, donate_interface-small-amount-value
 optional = donate_interface-currency-display, donate_interface-pm-alipay, donate_interface-pm-bpay
+optional = donate_interface-bank-name-netbanking
 optional = donate_interface-pm-boletus, donate_interface-pm-directebanking, donate_interface-pm-eps
 optional = donate_interface-pm-enets, donate_interface-pm-giropay, donate_interface-pm-ideal
 optional = donate_interface-pm-nordea, donate_interface-pm-skrill, donate_interface-pm-sofort
