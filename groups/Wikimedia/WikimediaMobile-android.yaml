@@ -65,6 +65,8 @@ TAGS:
   ignored:
     - wikipedia-android-strings-intent_share_search_label
     - wikipedia-android-strings-zero_webpage_url
+    - wikipedia-android-strings-description_edit_description_learn_more_url
+    - wikipedia-android-strings-description_edit_image_caption_learn_more_url
   optional:
     - wikipedia-android-strings-cc_0_url
     - wikipedia-android-strings-cc_by_sa_4_url
