@@ -1058,7 +1058,7 @@ wikimedia-mailman-templates:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/software/mailman-templates
 
 wikimedia-misc-tools:
-  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,global-search,jank-client,pageviews,ranker,signit,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikidata-mismatch-finder,wikilearn-*,wikipedia-year-in-review,wikiscore,wscd,xtools
+  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,global-search,jank-client,pageviews,quickstatements3,ranker,signit,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikidata-mismatch-finder,wikilearn-*,wikipedia-year-in-review,wikiscore,wscd,xtools
   repos:
     adiutor:
       type: github
@@ -1095,6 +1095,11 @@ wikimedia-misc-tools:
       type: github
       url: https://github.com/MusikAnimal/pageviews.git
       url|export: git@github.com:MusikAnimal/pageviews.git
+    quickstatements3:
+      type: github
+      branch: main
+      url: https://github.com/wikimediabrasil/quickstatements3.git
+      url|export: git@github.com:wikimediabrasil/quickstatements3.git
     ranker:
       type: gitlab
       branch: main

@@ -1,0 +1,28 @@
+BASIC:
+  id: quickstatements3
+  label: "QuickStatements 3.0"
+  icon: wiki://QS3.0_-_Icon.svg
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/quickstatements3/en}}"
+  support:
+    url: https://github.com/wikimediabrasil/quickstatements3/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/quickstatements3/translations/%CODE%.json"
+
+MANGLER:
+  class: StringMatcher
+  prefix: quickstatements3-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
