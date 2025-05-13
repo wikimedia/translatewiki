@@ -390,11 +390,13 @@ mwgithub:
     mwgithub/femiwiki/FemiwikiSkin:
       type: github
       branch: main
+      pull-branch: translatewiki
       url: https://github.com/femiwiki/FemiwikiSkin.git
       url|export: git@github.com:femiwiki/FemiwikiSkin.git
     mwgithub/femiwiki/UnifiedExtensionForFemiwiki:
       type: github
       branch: main
+      pull-branch: translatewiki
       url: https://github.com/femiwiki/UnifiedExtensionForFemiwiki.git
       url|export: git@github.com:femiwiki/UnifiedExtensionForFemiwiki.git
     mwgithub/Halopedia/Onyx:
