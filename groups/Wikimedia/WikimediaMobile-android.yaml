@@ -67,6 +67,8 @@ TAGS:
     - wikipedia-android-strings-zero_webpage_url
     - wikipedia-android-strings-description_edit_description_learn_more_url
     - wikipedia-android-strings-description_edit_image_caption_learn_more_url
+    - wikipedia-android-strings-android_app_edit_help_url
+    - wikipedia-android-strings-suggested_edits_image_tags_help_url
   optional:
     - wikipedia-android-strings-cc_0_url
     - wikipedia-android-strings-cc_by_sa_4_url
