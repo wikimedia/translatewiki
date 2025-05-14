@@ -1211,6 +1211,11 @@ wikimedia-tools:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/p/labs/tools/commons-mass-description
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/commons-mass-description
+    wikimedia-tools/campwiz-frontend:
+      type: github
+      branch: main
+      url: https://github.com/nokibsarkar/campwiz-frontend.git
+      url|export: git@github.com:nokibsarkar/campwiz-frontend.git
     wikimedia-tools/feverfew:
       type: github
       pull-branch: i18n

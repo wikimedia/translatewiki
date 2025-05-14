@@ -18,6 +18,52 @@ FILES:
 
 ---
 BASIC:
+  id: wikimedia-tools-campwiz-frontend
+  label: "CampWiz NXT"
+  icon: wiki://Campwiz_Logo.svg
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-tools-campwiz-frontend/en}}"
+  support:
+    url: https://github.com/nokibsarkar/campwiz-frontend/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wikimedia-tools/campwiz-frontend/i18n/locales/%CODE%/translation.json"
+  nestingSeparator: .
+
+MANGLER:
+  class: StringMatcher
+  prefix: campwiz-frontend-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: BraceBalance
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    # Example test string: <21>{{link}}</21>
+    # Match information:
+    # - Match 1: <1>{{link}}</1>
+    # - Group pre: <1>
+    # - Group num: 1
+    # - Group 3: {{link}}
+    # - Group post: </1>
+    params: ~(?P<pre><(?P<num>\d+)>)(.*?)(?P<post></(?P=num)>)~
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /{{[a-z]+}}/
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+---
+BASIC:
   id: wikimedia-tools-commons-mass-description
   label: Commons Mass Description
   description: "{{Special:MyLanguage/Translations:Group descriptions/wikimedia-commons-mass-description/en}}"
