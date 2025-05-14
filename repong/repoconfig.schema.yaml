@@ -71,7 +71,11 @@ definitions:
           - svn
       no-state-sync:
         type: boolean
+      commit-message-prefix:
+        type: string
       commit-message-suffix:
+        type: string
+      pr-title-prefix:
         type: string
     patternProperties:
       "^url(\\|[a-z]+)?$":

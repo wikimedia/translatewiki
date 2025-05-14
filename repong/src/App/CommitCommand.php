@@ -56,6 +56,9 @@ class CommitCommand extends Command {
 
 			$message = self::MESSAGE;
 
+			if ( isset( $repo['commit-message-prefix'] ) ) {
+				$message = $repo['commit-message-prefix'] . ' ' . $message;
+			}
 			if ( isset( $repo['commit-message-suffix'] ) ) {
 				$message .= ' ' . $repo['commit-message-suffix'];
 			}
@@ -164,13 +167,17 @@ class CommitCommand extends Command {
 		string $name
 	): void {
 		$pr = $this->getPullRequestSpecifier( $repo );
+		$title = self::MESSAGE;
+		if ( isset( $repo['pr-title-prefix'] ) ) {
+			$title = $repo['pr-title-prefix'] . ' ' . $title;
+		}
 		// Delay constructing clients until they are needed. It may be that pull requests
 		// are not used with all forges, so trying to construct it may fail due to a lack
 		// of a token. The forge factory also handles caching of clients, so we only log
 		// in once (if applicable) per forge site.
 		$domain = $this->getDomainFromForgeUrl( $repo['url'] );
 		$client = $factory->getForgeClient( $repo['type'], $domain );
-		$response = $client->createPullRequest( $pr, self::MESSAGE, self::PR_MESSAGE );
+		$response = $client->createPullRequest( $pr, $title, self::PR_MESSAGE );
 
 		if ( $response->isNew() ) {
 			$output->writeln( "$name: Opened a new pull request." );
