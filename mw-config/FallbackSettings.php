@@ -222,6 +222,7 @@ $wgTranslateLanguageFallbacks = [
 	'pwn' => [ 'ami', 'tay', 'xsy', 'szy', 'trv' ],
 	'pzh' => [ 'zh-hant' ], # ToluAyo 2025-04-25
 	'qwh' => [ 'qu', 'es' ],
+	'qxp' => [ 'qu', 'es' ], # ToluAyo 2025-05-14
 	'rag' => [ 'sw', 'nyn', 'rw', 'rn', 'lg' ],
 	'rcf' => [ 'fr' ],
 	'rif' => [ 'ar', 'fr' ], # Robin 2011-09-30

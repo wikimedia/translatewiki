@@ -136,6 +136,7 @@ $wgExtraLanguageNames = [
 	'pzh' => 'Pazeh', # Pazeh / ToluAyo 2025-04-24
 	'qqq' => 'Message documentation', # No linguistic content. Used for documenting messages
 	'qwh' => 'anqash qichwa', # Amir 2018-03-04
+	'qxp' => 'Punu qhichwa', # ToluAyo 2025-05-14
 	'rag' => 'Lologooli', # Logooli / Amir 2021-11-15
 	'rap' => 'arero rapa nui', # Rapa Nui / Siebrand 2009-11-13
 	'rcf' => 'Kreol Réyoné', # Réunion Creole French / 2014-04-08
