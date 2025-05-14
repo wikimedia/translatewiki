@@ -799,7 +799,7 @@ ignored = cite-wikieditor-help-content-reference-example-ref-result
 Cite - VisualEditor
 id = ext-cite-visualeditor
 file = Cite/modules/ve-cite/i18n/%CODE%.json
-ignored = visualeditor-cite-tool-definition.json, cite-tool-definition.json
+ignored = cite-tool-definition.json
 
 Cite Drawer
 
