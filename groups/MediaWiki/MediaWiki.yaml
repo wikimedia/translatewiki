@@ -409,7 +409,6 @@ TAGS:
     - changepassword-summary
     - comparepages-summary
     - contributions-summary
-    - copyright
     - copyright-footer-history
     - copyupload-allowed-domains
     - createaccount-hook-abort
@@ -444,7 +443,6 @@ TAGS:
     - filedelete-reason-dropdown-suppress
     - helplogin-url
     - helppage
-    - history_copyright
     - import-summary
     - interlanguage-link-title-langonly
     - interlanguage-link-title-nonlangonly
