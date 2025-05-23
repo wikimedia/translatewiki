@@ -3118,6 +3118,7 @@ Template Data - User interface
 id = ext-templatedata-user
 file = TemplateData/i18n/%CODE%.json
 ignored = templatedata-helplink-target, templatedata-doc-subpage
+ignored = templatedata-excluded-subpages
 
 Template Data - API
 id = ext-templatedata-api
