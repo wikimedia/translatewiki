@@ -77,57 +77,57 @@ INSERTABLES:
 
 TAGS:
   optional:
+    - ohm-browse.common_details.coordinates_html
+    - ohm-browse.note.coordinates_html
     - ohm-browse.relation_member.entry
     - ohm-browse.relation_member.entry_html
     - ohm-changesets.changesets.id
-    - ohm-geocoder.search_osm_nominatim.prefix_format
+    - ohm-diary_entries.location.coordinates
     - ohm-geocoder.search osm nominatim.prefix other
     - ohm-geocoder.search_osm_namefinder.suffix_suburb
+    - ohm-geocoder.search_osm_nominatim.prefix_format
     - ohm-geocoder.search_osm_nominatim.prefix_other
     - ohm-html.dir
     - ohm-javascripts.map.base.cyclosm
+    - ohm-layouts.help_url
+    # Users may or may not want to translate the OSM wiki too
+    - ohm-layouts.help_wiki_url
     - ohm-layouts.project_name.h1
     - ohm-layouts.project_name.title
+    - ohm-layouts.shop_url
+    - ohm-layouts.wiki_url
     - ohm-notifier.message_notification.subject
     - ohm-oauth2_applications.index.oauth_2
     - ohm-printable_name.with_name_html
     - ohm-printable_name.with_version
     - ohm-site.edit.anon_edits
     - ohm-site.edit.anon_edits_html
-    - ohm-time.formats.blog
     - ohm-site.help.welcomemat.url
-    # Users may or may not want to translate the OSM wiki too
-    - ohm-layouts.help_wiki_url
-    - ohm-layouts.shop_url
+    - ohm-time.formats.blog
     - ohm-traces.edit.visibility_help_url
     - ohm-traces.new.help_url
     - ohm-traces.new.visibility_help_url
-    - ohm-user.account.public_editing.enabled_link
     - ohm-user.account.contributor terms.link
     - ohm-user.account.gravatar.link
+    - ohm-user.account.public_editing.enabled_link
     - ohm-user.new.terms declined url
     - ohm-user.terms.consider_pd_why_url
     - ohm-user.terms.declined
-    - ohm-layouts.help_url
-    - ohm-layouts.wiki_url
-    - ohm-browse.common_details.coordinates_html
-    - ohm-browse.note.coordinates_html
-    - ohm-diary_entries.location.coordinates
   ignored:
     - ohm-printable_name.with_id
     - ohm-printable_name.with_name
     - ohm-site.edit.anon_edits_link
-    - ohm-site.index.license.license_url
-    - ohm-site.index.license.project_url
     - ohm-site.help.discord.url
-    - ohm-site.help.mailing_list.url
-    - ohm-site.help.mailing_lists.url
     - ohm-site.help.forum.url
     - ohm-site.help.forums.url
     - ohm-site.help.irc.url
+    - ohm-site.help.mailing_list.url
+    - ohm-site.help.mailing_lists.url
     - ohm-site.help.slack.url
     - ohm-site.help.switch2osm.url
     - ohm-site.help.wiki.url
+    - ohm-site.index.license.license_url
+    - ohm-site.index.license.project_url
 
 ---
 BASIC:
@@ -164,65 +164,65 @@ VALIDATORS:
 
 TAGS:
   optional:
-    - ohm-opt-load.title
-    - ohm-opt-load.delete_query
-    - ohm-opt-load.saved_queries-local
-    - ohm-opt-load.examples
-    - ohm-opt-load.no_saved_query
-    - ohm-opt-export.section.data
-    - ohm-opt-export.generic_download_copy
-    - ohm-opt-export.raw_interpreter
-    - ohm-opt-export.save_geoJSON_gist
-    - ohm-opt-export.section.query
+    - ohm-opt-data_stats.lag
+    - ohm-opt-data_stats.lag_areas
+    - ohm-opt-data_stats.request_duration
+    - ohm-opt-dialog.cancel
+    - ohm-opt-dialog.close
+    - ohm-opt-dialog.delete
+    - ohm-opt-dialog.done
+    - ohm-opt-dialog.save
+    - ohm-opt-dialog.save-local
+    - ohm-opt-error.nominatim.expl
     - ohm-opt-export.format_text
     - ohm-opt-export.format_text_raw
     - ohm-opt-export.format_text_umap
-    - ohm-opt-export.to_xml
-    - ohm-opt-export.to_ql
-    - ohm-opt-export.geoJSON.title
+    - ohm-opt-export.generic_download_copy
     - ohm-opt-export.geoJSON.expl
-    - ohm-opt-export.map_view.title
-    - ohm-opt-export.map_view.permalink
+    - ohm-opt-export.geoJSON.title
+    - ohm-opt-export.map_view.bounds
     - ohm-opt-export.map_view.center
     - ohm-opt-export.map_view.center_expl
-    - ohm-opt-export.map_view.bounds
-    - ohm-opt-help.title
-    - ohm-opt-help.section.introduction
-    - ohm-opt-help.section.queries
-    - ohm-opt-help.intro.shortcuts
-    - ohm-opt-help.intro.shortcuts.bbox
-    - ohm-opt-help.intro.shortcuts.center
-    - ohm-opt-help.intro.shortcuts.date
-    - ohm-opt-help.intro.shortcuts.custom
-    - ohm-opt-help.section.ide
-    - ohm-opt-help.ide.share.title
-    - ohm-opt-help.section.about
-    - ohm-opt-help.about.maintained
+    - ohm-opt-export.map_view.permalink
+    - ohm-opt-export.map_view.title
+    - ohm-opt-export.raw_interpreter
+    - ohm-opt-export.save_geoJSON_gist
+    - ohm-opt-export.section.data
+    - ohm-opt-export.section.query
+    - ohm-opt-export.to_ql
+    - ohm-opt-export.to_xml
     - ohm-opt-help.about.feedback.title
-    - ohm-opt-help.about.source.title
+    - ohm-opt-help.about.maintained
     - ohm-opt-help.about.source
-    - ohm-opt-help.section.attribution
+    - ohm-opt-help.about.source.title
     - ohm-opt-help.attr.data_sources
+    - ohm-opt-help.attr.leaflet
     - ohm-opt-help.attr.mining
     - ohm-opt-help.attr.search
     - ohm-opt-help.attr.software
-    - ohm-opt-help.attr.leaflet
-    - ohm-opt-dialog.cancel
-    - ohm-opt-dialog.save
-    - ohm-opt-dialog.save-local
-    - ohm-opt-dialog.delete
-    - ohm-opt-dialog.close
-    - ohm-opt-dialog.done
-    - ohm-opt-error.nominatim.expl
-    - ohm-opt-warning.browser.title
+    - ohm-opt-help.ide.share.title
+    - ohm-opt-help.intro.shortcuts
+    - ohm-opt-help.intro.shortcuts.bbox
+    - ohm-opt-help.intro.shortcuts.center
+    - ohm-opt-help.intro.shortcuts.custom
+    - ohm-opt-help.intro.shortcuts.date
+    - ohm-opt-help.section.about
+    - ohm-opt-help.section.attribution
+    - ohm-opt-help.section.ide
+    - ohm-opt-help.section.introduction
+    - ohm-opt-help.section.queries
+    - ohm-opt-help.title
+    - ohm-opt-load.delete_query
+    - ohm-opt-load.examples
+    - ohm-opt-load.no_saved_query
+    - ohm-opt-load.saved_queries-local
+    - ohm-opt-load.title
+    - ohm-opt-popup.metadata
+    - ohm-opt-popup.tags
     - ohm-opt-warning.browser.expl.2
-    - ohm-opt-warning.incomplete.title
+    - ohm-opt-warning.browser.title
     - ohm-opt-warning.incomplete.expl.2
     - ohm-opt-warning.incomplete.not_again
     - ohm-opt-warning.incomplete.remote.expl.2
+    - ohm-opt-warning.incomplete.title
     - ohm-opt-warning.share.long
-    - ohm-opt-data_stats.request_duration
-    - ohm-opt-data_stats.lag
-    - ohm-opt-data_stats.lag_areas
-    - ohm-opt-popup.tags
-    - ohm-opt-popup.metadata
