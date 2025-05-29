@@ -138,6 +138,7 @@ $wgExtraLanguageNames = [
 	'qwh' => 'anqash qichwa', # Amir 2018-03-04
 	'qxp' => 'Punu qhichwa', # ToluAyo 2025-05-14
 	'rag' => 'Lologooli', # Logooli / Amir 2021-11-15
+	'raj' => 'राजस्थानी', # Rajasthani / ToluAyo 2024-05-29
 	'rap' => 'arero rapa nui', # Rapa Nui / Siebrand 2009-11-13
 	'rcf' => 'Kreol Réyoné', # Réunion Creole French / 2014-04-08
 	'rej' => 'Jang', # Rejang / Amir 2019-05-13
