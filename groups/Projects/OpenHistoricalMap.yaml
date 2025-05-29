@@ -82,6 +82,8 @@ TAGS:
     - ohm-browse.relation_member.entry
     - ohm-browse.relation_member.entry_html
     - ohm-changesets.changesets.id
+    - ohm-changesets.index.feed.cc0
+    - ohm-changesets.index.feed.cc0_url
     - ohm-diary_entries.location.coordinates
     - ohm-geocoder.search osm nominatim.prefix other
     - ohm-geocoder.search_osm_namefinder.suffix_suburb
@@ -100,6 +102,8 @@ TAGS:
     - ohm-oauth2_applications.index.oauth_2
     - ohm-printable_name.with_name_html
     - ohm-printable_name.with_version
+    - ohm-site.about.contribute_1_bluesky
+    - ohm-site.about.contribute_1_mastodon
     - ohm-site.edit.anon_edits
     - ohm-site.edit.anon_edits_html
     - ohm-site.help.welcomemat.url
