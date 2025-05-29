@@ -3908,7 +3908,7 @@ ignored = wikimedia-sidebar, wikimedia-oathauth-notifications-disable-helplink
 ignored = wikimedia-globalblocking-blockedtext-user
 ignored = wikimedia-globalblocking-blockedtext-autoblock, wikimedia-globalblocking-blockedtext-autoblock-xff
 ignored = wikimedia-skin-minerva-donate-banner-gif, wikimedia-skin-minerva-donate-banner-url
-ignored = wikimedia-skin-minerva-donate-banner-reduced-motion
+ignored = wikimedia-skin-minerva-donate-banner-reduced-motion, wikimedia-pvi-month-count-value
 ignored = wikimedia-vector-night-mode-issue-reporting-notice-url
 optional = wikimedia-centralauth-uwbr-registration-nodate
 
