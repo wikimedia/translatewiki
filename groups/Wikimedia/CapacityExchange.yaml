@@ -6,7 +6,7 @@ BASIC:
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
   support:
-    url: https://github.com/WikiMovimentoBrasil/capx-frontend/issues/new
+    url: https://github.com/wikimediabrasil/capx-frontend/issues/new
     params:
       title: Translation issue with message %MESSAGE%
       body: "\n\nURL: %MESSAGE_URL%"
