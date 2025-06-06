@@ -141,7 +141,8 @@ optional = approvedrevs-revision-nav
 Array Functions
 magicfile = ArrayFunctions/i18n/ArrayFunctions.i18n.php
 descmsg = af-desc
-optional = af-smw-result-printer-name
+ignored = af-limitreport-unlimited-upper-bound
+optional = af-smw-result-printer-name, limitreport-afrangesize-value
 
 Arrays
 
