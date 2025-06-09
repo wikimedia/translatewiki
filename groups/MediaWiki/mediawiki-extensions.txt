@@ -3643,6 +3643,8 @@ optional = version-wikibase
 optional = wikibase-reference-formatter-snak-separator, wikibase-reference-formatter-snak-terminator
 optional = wikibase-time-with-calendar
 ignored = wikibase-SortedProperties
+ignored = wikibase-itemlink, wikibase-itemlink-title
+optional = wikibase-itemlink-id-wrapper, wikibase-itemlink-userlang-wrapper
 
 Wikibase - Repo - User interface
 file = Wikibase/repo/i18n/%CODE%.json
