@@ -564,3 +564,4 @@ wfAddNamespace( 1286, 'CovidRatio' );
 
 wfAddNamespace( 1288, 'Projects' );
 $wgTranslateGroupFiles[] = "$GROUPS/Projects/OpenHistoricalMap.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Projects/Civiform.yaml";
