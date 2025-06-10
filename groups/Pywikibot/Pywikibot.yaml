@@ -197,10 +197,6 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/interwiki/%CODE%.json"
-
-TAGS:
-  optional:
-    - interwiki-comma
 ---
 BASIC:
   id: out-pywikipedia-interwikidata
@@ -310,10 +306,6 @@ BASIC:
 
 FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/template/%CODE%.json"
-
-TAGS:
-  optional:
-    - template-comma
 ---
 BASIC:
   id: out-pywikipedia-transferbot
