@@ -1177,7 +1177,7 @@ Donation Interface - Email Preferences Forms
 id = ext-di-epf
 file = DonationInterface/email_forms/i18n/%CODE%.json
 languages = +es-419
-optional = emailpreferences-wikimedia-image-alt
+optional = emailpreferences-wikimedia-image-alt, donorportal-endowment
 
 DPL forum
 
