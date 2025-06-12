@@ -100,6 +100,7 @@ GROUPS:
   - mediawiki-installer
   - ext-0-all
   - mediawiki-skin-0-all
+  - mediawiki-botpasswords
 
 ---
 BASIC:
@@ -636,6 +637,17 @@ BASIC:
 FILES:
   format: Json
   sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/codex/%CODE%.json"
+
+---
+BASIC:
+  id: mediawiki-botpasswords
+  label: MediaWiki core - Bot passwords
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikibotpasswords/en}}"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/botpasswords/%CODE%.json"
 
 ---
 BASIC:
