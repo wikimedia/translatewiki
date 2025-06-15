@@ -151,13 +151,6 @@ $validationExclusionList = [
 		]
 	],
 	[
-		'group' => 'ext-flaggedrevs-qualityoversight',
-		'check' => 'variable',
-		'message' => [
-			'qualityoversight-list', // Parameter $1 only used when required for plural
-		]
-	],
-	[
 		'group' => 'ext-flaggedrevs-stabilization',
 		'check' => 'variable',
 		'message' => [
