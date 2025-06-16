@@ -314,7 +314,6 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WmczWeb.yaml";
 $wgTranslateGroupAliases['out-wikiblame'] = 'wikiblame';
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikidataImagePositions.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikidataLexemeForms.yaml";
-$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikidataMismatchFinder.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiEduDashboard.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaDeveloperPortal.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikimediaMailmanTemplates.yaml";
