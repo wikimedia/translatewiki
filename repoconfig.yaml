@@ -296,7 +296,7 @@ mediawiki:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
   no-export-languages: test,aeb,ais,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   export-threshold: 13
-  group: core,mediawiki-codex,mediawiki-datetime,mediawiki-preferences,mediawiki-api,mediawiki-rest-api,mediawiki-exif,wikimedia-paramvalidator,mediawiki-installer
+  group: core,mediawiki-codex,mediawiki-datetime,mediawiki-preferences,mediawiki-api,mediawiki-rest-api,mediawiki-exif,wikimedia-paramvalidator,mediawiki-installer, mediawiki-botpasswords
   auto-merge: mediawiki/core
   repos:
     mediawiki/master:
