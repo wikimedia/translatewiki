@@ -412,7 +412,6 @@ TAGS:
     - contributions-summary
     - copyright-footer-history
     - copyupload-allowed-domains
-    - createaccount-hook-abort
     - createacct-benefit-head1
     - createacct-benefit-head2
     - createacct-benefit-head3
@@ -427,7 +426,6 @@ TAGS:
     - deletedcontributions-summary
     - deletereason-dropdown-suppress
     - diff-form-summary
-    - disambiguations-summary
     - doubleredirects-summary
     - edithelppage
     - editnotice-notext
@@ -454,11 +452,8 @@ TAGS:
     - ipb-default-expiry-ip
     - licenses
     - linksearch-summary
-    - listgrouprights-link
     - listredirects-summary
     - listusers-summary
-    - logdelete-log-message
-    - logdelete-logentry
     - logentry-interwiki-interwiki
     - logentry-renameuser-renameuser-legaciest
     - loginlanguagelinks
@@ -478,7 +473,6 @@ TAGS:
     - mostlinkedcategories-summary
     - mostlinkedtemplates-summary
     - mostrevisions-summary
-    - move-redirect-suppressed
     - move-redirect-text
     - movepage-summary
     - newarticletextanon
@@ -516,7 +510,6 @@ TAGS:
     - recentchanges-legend-unpatrolled
     - recentchangestext
     - redirect-text
-    - redirectexternal-summary
     - renameuser-summary
     - resettokens-summary
     - restriction-blank
@@ -528,7 +521,6 @@ TAGS:
     - search-interwiki-custom
     - search-summary
     - searchmenu-new-nocreate
-    - section-symbol
     - shareddescriptionfollows
     - shortpages-summary
     - sidebar
@@ -548,8 +540,6 @@ TAGS:
     - statistics-files-desc
     - statistics-footer
     - statistics-summary
-    - suppressedarticle
-    - suppressedarticle
     - tags-edit-logentry-explanation
     - tags-edit-revision-explanation
     - tags-summary
@@ -803,7 +793,6 @@ TAGS:
     - api-help-flags
     - api-help-help-urls
     - api-help-no-extended-description
-    - api-help-param-type-password
     - apierror-stashexception
     - apihelp-main-paramvalue-errorformat-html
     - apihelp-main-summary
