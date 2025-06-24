@@ -30,6 +30,7 @@ $wgTranslateLanguageFallbacks = [
 	'aro' => [ 'es' ],
 	'as' => [ 'bn' ],
 	'atv' => [ 'alt', 'kjh', 'tyv', 'ru' ], # Amir 2020-06-06
+	'ayh' => [ 'ar' ],
 	'ba' => [ 'tt-cyrl', 'ru' ],
 	'ban' => [ 'ban-bali', 'jv' ],
 	'ban-bali' => [ 'id', 'jv' ],

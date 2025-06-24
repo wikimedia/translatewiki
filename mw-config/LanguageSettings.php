@@ -15,6 +15,7 @@ $wgExtraLanguageNames = [
 	'apw' => 'Ndee biyáti\'', # Western Apache / Jon Harald Søby 2023-10-25
 	'aro' => 'Araona', # Araona / Siebrand 2010-08-25
 	'atv' => 'тÿндÿк алтай', # Northern Altay / Amir 2020-06-07
+	'ayh' => 'الحضرمية', # Hadhrami Arabic / Amir 2025-06-24
 	'bas' => 'ɓasaá', # Basaa / Amir 2021-03-30
 	'bax' => 'Shüpamom', # Bamum / Amir 2024-11-13
 	'bax-bamu' => 'ꚶꛉ꛰꛲ꚫꛦꚳ', # Bamum (Bamum script) / Amir 2024-11-13
