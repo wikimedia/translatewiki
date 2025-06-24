@@ -288,6 +288,5 @@ $wgTranslateLanguageFallbacks = [
 	'yoi' => [ 'ja' ],
 	'yrk' => [ 'ru' ], # Lcawte 2011-02-07
 	'yrl' => [ 'es', 'pt-br', 'gn' ],
-	'yua' => [ 'es' ],
 	'zmi' => [ 'ms', 'min', 'id' ],
 ];
