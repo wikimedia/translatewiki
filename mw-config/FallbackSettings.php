@@ -115,7 +115,6 @@ $wgTranslateLanguageFallbacks = [
 	'hke' => [ 'sw', 'kg' ],
 	'hno' => [ 'pnb', 'skr-arab', 'ur', 'pa' ],
 	'hoc' => [ 'hoc-latn', 'or', 'sat', 'hi', 'te' ],
-	'hoc-latn' => [ 'hoc', 'or', 'sat', 'hi', 'te' ],
 	'hy' => [ 'ru' ],
 	'ia' => [ 'fr', 'it', 'es', 'pt' ],
 	'iba' => [ 'id' ],
