@@ -3591,6 +3591,7 @@ ignored = wikilambda-functioncall-error-bad-output, wikilambda-functioncall-erro
 ignored = wikilambda-functioncall-error-unclear, wikilambda-functioncall-error-invalid-zobject
 ignored = wikilambda-functioncall-error-nonfunction, wikilambda-functioncall-error-nonstringinput
 ignored = wikilambda-functioncall-error-nonstringoutput
+ignored = wikilambda-deleted-unknown-summary, wikilambda-deleted-implementations-summary, wikilambda-deleted-testers-summary
 optional = wikilambda-metadata-help-link
 optional = wikilambda-users-help-link
 id = ext-wikilambda-user
