@@ -11,6 +11,7 @@ TEMPLATE:
     codeMap:
       be-tarask: b+be+tarask
       en-gb: en-rGB
+      es-419: b+es+419
       he: iw
       hif-latn: b+hif+Latn
       id: in
@@ -39,7 +40,7 @@ TEMPLATE:
     include:
       - ar
       - en
-      - es
+      - es-419
       - hi
       - pcm
       - pt-br

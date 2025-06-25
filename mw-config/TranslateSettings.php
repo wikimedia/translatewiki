@@ -247,6 +247,9 @@ $wgTranslateDisabledTargetLanguages = [
 		'en' => 'The source language is English, so you cannot translate from English to English. Please select another language.',
 		'en-ca' => 'The source language is English, so you cannot translate into an English variety. Please select another language. If you actually want to translate into Canadian English, please send an e-mail to translatewiki@translatewiki.net',
 		'en-gb' => 'The source language is English, so you cannot translate into an English variety. Please select another language. If you actually want to translate into British English, please send an e-mail to translatewiki@translatewiki.net',
+	],
+	'oppia-android-app' => [
+		'es' => 'This code is not used in Oppia Android App. Use \'es-419\'.',
 	]
 ];
 
