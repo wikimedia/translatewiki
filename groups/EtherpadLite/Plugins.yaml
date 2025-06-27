@@ -16,14 +16,6 @@ TEMPLATE:
 
 ---
 BASIC:
-  id: etherpad-lite-plugin-ep_adminpads2
-  label: Etherpad lite plugin Administrate pads
-
-FILES:
-  sourcePattern: "%GROUPROOT%/ether/ep_adminpads2/locales/%CODE%.json"
-
----
-BASIC:
   id: etherpad-lite-plugin-ep_markdown
   label: Etherpad lite plugin Markdown
 
