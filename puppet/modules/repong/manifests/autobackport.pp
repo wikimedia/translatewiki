@@ -21,13 +21,6 @@ class repong::autobackport (
     when   => 'Mon 05:30:00 UTC',
   }
 
-  # supported till June 2025
-  repong::autobackport_mediawiki_timer { 'REL1_42':
-    active => false,
-    branch => 'REL1_42',
-    when   => 'Thu 05:30:00 UTC',
-  }
-
   # LTS; supported till December 2027
   repong::autobackport_mediawiki_timer { 'REL1_43':
     branch => 'REL1_43',
