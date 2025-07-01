@@ -796,7 +796,7 @@ ignored = cite_reference_link
 ignored = cite_references_link_one, cite_references_link_many, cite_references_link_many_format
 ignored = cite-wikieditor-help-content-reference-example-ref-normal, cite-wikieditor-help-content-reference-example-ref-named
 ignored = cite-wikieditor-help-content-reference-example-ref-reuse, cite-wikieditor-help-content-reference-example-reflist
-ignored = cite-wikieditor-help-content-reference-example-ref-result
+ignored = cite-wikieditor-help-content-reference-example-ref-result, cite-wikieditor-help-content-reference-example-ref-details
 
 Cite - VisualEditor
 id = ext-cite-visualeditor
