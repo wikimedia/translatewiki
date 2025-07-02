@@ -57,7 +57,6 @@ $wgExtraLanguageNames = [
 	'crg' => 'Michif', # Michif / ToluAyo 2025-05-06
 	'dar' => 'дарган', # Dargwa / Amir 2021-04-13
 	'ddn' => 'dendi', # Dendi / Amir 2023-04-03
-	'dlg' => 'долган тыла', # Dolgan / Srishti 2025-06-04
 	'dru' => 'drekai', # Rukai / Winston Sung 2024-08-13
 	'ekp' => 'ẹkpeye', # Ekpeye / Amir 2024-05-17
 	'elm' => 'Eleme', # Eleme / Amir 2020-07-02
