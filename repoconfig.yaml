@@ -1053,7 +1053,7 @@ wikimedia-mailman-templates:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/software/mailman-templates
 
 wikimedia-misc-tools:
-  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,global-search,jank-client,pageviews,quickstatements3,ranker,signit,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikilearn-*,wikipedia-year-in-review,wikiscore,wscd,xtools
+  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,global-search,instant-diffs,jank-client,pageviews,quickstatements3,ranker,signit,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikilearn-*,wikipedia-year-in-review,wikiscore,wscd,xtools
   repos:
     adiutor:
       type: github
@@ -1081,6 +1081,11 @@ wikimedia-misc-tools:
       type: github
       url: https://github.com/wikimedia/tools-global-search.git
       url|export: git@github.com:wikimedia/tools-global-search.git
+    instant-diffs:
+      type: github
+      branch: main
+      url: https://github.com/SerDIDG/instant-diffs.git
+      url|export: git@github.com:SerDIDG/instant-diffs.git
     jank-client:
       type: github
       branch: main

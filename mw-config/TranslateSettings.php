@@ -290,6 +290,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/GrantMetrics.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/JankClient.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ia-upload.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/InstantDiffs.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/InteractionTimeline.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/InternetArchiveBot.yaml";
 $wgTranslateGroupAliases['out-jquery-uls'] = 'jquery-uls';

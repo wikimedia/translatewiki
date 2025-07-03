@@ -1,0 +1,33 @@
+---
+BASIC:
+  id: instant-diffs
+  label: Instant Diffs
+  icon: wiki://File:Instant_Diffs_logo.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/instant-diffs/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/SerDIDG/instant-diffs/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: instant-diffs-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/instant-diffs/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: false
+  - id: MediaWikiLink
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: MediaWikiInsertablesSuggester
