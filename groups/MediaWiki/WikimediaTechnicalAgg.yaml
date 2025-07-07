@@ -88,7 +88,6 @@ GROUPS:
   - ext-uploadwizard-api
   - ext-urlshortener-api
   - ext-visualeditor-ve-mw-api
-  - ext-vuetest # https://phabricator.wikimedia.org/T315621#8642771
   - ext-webauthn-api
   - ext-wikibase-client-api
   - ext-wikibase-repo-api
