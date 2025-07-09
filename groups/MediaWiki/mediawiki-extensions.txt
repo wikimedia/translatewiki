@@ -915,7 +915,7 @@ file = ConfirmEdit/i18n/%CODE%.json
 aliasfile = ConfirmEdit/ConfirmEdit.alias.php
 descmsg = captcha-desc
 optional = captcha-label
-ignored = captcha-ip-whitelist
+ignored = captcha-ip-whitelist, captcha-name
 
 Confirm Edit - API
 id = ext-confirmedit-api
@@ -929,11 +929,13 @@ Confirm Edit Cloudflare Turnstile - User interface
 id = ext-confirmeditturnstile-user
 file = ConfirmEdit/Turnstile/i18n/%CODE%.json
 descmsg = turnstile-desc
+ignored = turnstile-name
 
 Confirm Edit Fancy Captcha - User interface
 id = ext-confirmeditfancycaptcha-user
 file = ConfirmEdit/FancyCaptcha/i18n/%CODE%.json
 descmsg = fancycaptcha-desc
+ignored = fancycaptcha-name
 
 Confirm Edit Fancy Captcha - API
 id = ext-confirmeditfancycaptcha-api
@@ -942,10 +944,12 @@ file = ConfirmEdit/FancyCaptcha/i18n/api/%CODE%.json
 Confirm Edit hCaptcha
 file = ConfirmEdit/hCaptcha/i18n/%CODE%.json
 descmsg = hcaptcha-desc
+ignored = hcaptcha-name
 
 Confirm Edit Questy Captcha
 file = ConfirmEdit/QuestyCaptcha/i18n/%CODE%.json
 descmsg = questycaptcha-desc
+ignored = questycaptcha-name
 
 Confirm Edit ReCaptcha NoCaptcha - API
 id = ext-confirmeditrecaptchanocaptcha-api
@@ -954,6 +958,8 @@ file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/api/%CODE%.json
 Confirm Edit ReCaptcha NoCaptcha - User interface
 id = ext-confirmeditrecaptchanocaptcha-user
 file = ConfirmEdit/ReCaptchaNoCaptcha/i18n/%CODE%.json
+descmsg = renocaptcha-desc
+ignored = renocaptcha-name
 
 # Contact Manager // 2023-05-01: Empty repo
 
