@@ -2561,20 +2561,6 @@ optional = phonos, phonos-attribution-icon
 
 Php Highlight
 
-Php Tags
-
-Php Tags Functions
-
-Php Tags SMW
-
-Php Tags SPARQL
-
-Php Tags Storage
-
-Php Tags Widgets
-
-Php Tags Wiki
-
 Picture Game
 aliasfile = PictureGame/includes/PictureGame.alias.php
 
