@@ -885,6 +885,7 @@ ignored = tag-community_configuration-helppage
 optional = communityconfiguration-editor-validation-error-label-chain-joiner
 
 Community Requests
+ignored = grouppage-community-wishlist-manager
 
 Config Manager
 aliasfile = ConfigManager/languages/ConfigManager.alias.php
