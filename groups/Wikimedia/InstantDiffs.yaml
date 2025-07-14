@@ -2,7 +2,7 @@
 BASIC:
   id: instant-diffs
   label: Instant Diffs
-  icon: wiki://File:Instant_Diffs_logo.svg
+  icon: wiki://Instant_Diffs_logo.svg
   description: "{{Special:MyLanguage/Translations:Group descriptions/instant-diffs/en}}"
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
