@@ -308,6 +308,13 @@ FILES:
   sourcePattern: "%GROUPROOT%/pywikibot/template/%CODE%.json"
 ---
 BASIC:
+  id: out-pywikipedia-tracking_param_remover
+  label: Pywikibot Tracking Parameter Remover
+
+FILES:
+  sourcePattern: "%GROUPROOT%/pywikibot/tracking_param_remover/%CODE%.json"
+---
+BASIC:
   id: out-pywikipedia-transferbot
   label: Pywikibot Transferbot
 
