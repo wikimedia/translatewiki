@@ -1278,6 +1278,21 @@ TAGS:
 
 ---
 BASIC:
+  id: mwgithub-robloxapi
+  label: RobloxAPI
+  description: "{{Special:MyLanguage/Mediawiki:robloxapi-desc/en}}"
+  support:
+    url: https://github.com/Roblox-Indie-Wikis/mediawiki-extensions-RobloxAPI/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/Roblox-Indie-Wikis/mediawiki-extensions-RobloxAPI/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-rottenlinks
   label: RottenLinks
   description: "{{Special:MyLanguage/MediaWiki:rottenlinks-desc/en}}"

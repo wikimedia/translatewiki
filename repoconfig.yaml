@@ -624,6 +624,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/WikibaseRDF.git
       url|export: git@github.com:ProfessionalWiki/WikibaseRDF.git
+    mwgithub/Roblox-Indie-Wikis/mediawiki-extensions-RobloxAPI:
+      type: github
+      url: https://github.com/Roblox-Indie-Wikis/mediawiki-extensions-RobloxAPI.git
+      url|export: git@github.com:Roblox-Indie-Wikis/mediawiki-extensions-RobloxAPI.git
     mwgithub/SemanticMediaWiki/Mermaid:
       type: github
       url: https://github.com/SemanticMediaWiki/Mermaid.git
