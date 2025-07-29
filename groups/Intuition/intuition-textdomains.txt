@@ -11,9 +11,6 @@ Cvn Overlay
 General
 optional = colon-separator, dateformat, parentheses, comma-separator, word-separator
 
-GetWikiAPI
-ignored = title
-
 Grep
 
 Intuition - Core

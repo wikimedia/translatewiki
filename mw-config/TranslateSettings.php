@@ -420,6 +420,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Intuition/orphantalk.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/raun.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/refill.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/web.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Intuition/wikinfo.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Intuition/commtech-commons.yaml";
 $wgNamespaceAliases['Toolserver'] = 1240;
 $wgNamespaceAliases['Toolserver_talk'] = 1240;

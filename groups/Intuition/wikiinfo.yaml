@@ -1,0 +1,24 @@
+---
+BASIC:
+  id: int-wikiinfo
+  label: Wiki Info
+  namespace: NS_INTUITION
+  class: FileBasedMessageGroup
+
+MANGLER:
+  class: StringMatcher
+  prefix: getwikiapi-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/int-wikiinfo/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - getwikiapi-title
+
+VALIDATORS:
+  - id: NumericalParameter
+    insertable: true

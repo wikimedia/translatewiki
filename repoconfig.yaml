@@ -1193,6 +1193,10 @@ wikimedia-tools:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/intuition-web
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/intuition-web
+    int-wikiinfo:
+      type: wmgerrit
+      url: https://gerrit.wikimedia.org/r/labs/tools/wikiinfo
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/tools/wikiinfo
     int-commtech-commons:
       type: github
       url: https://github.com/wikimedia/CommonsNotifier.git
