@@ -7,7 +7,7 @@ mod 'lvicainne/opendkim',
 #mod 'puppet-elastic_stack', '9.0.0'
 #mod 'puppet-kibana', '8.0.0'
 mod 'puppet-letsencrypt', '11.0.0'
-mod 'puppet-postfix', '4.4.0'
+mod 'puppet-postfix', '5.1.0'
 mod 'puppet-systemd', '6.6.0'
 mod 'puppetlabs-firewall', '8.0.1'
 mod 'puppetlabs-java', '11.0.0'

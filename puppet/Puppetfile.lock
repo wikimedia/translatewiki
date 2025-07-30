@@ -1,7 +1,7 @@
 FORGE
   remote: https://forgeapi.puppetlabs.com
   specs:
-    puppet-alternatives (5.1.0)
+    puppet-alternatives (6.0.0)
     puppet-archive (7.1.0)
       puppetlabs-stdlib (>= 4.18.0, < 10.0.0)
     puppet-epel (5.0.0)
@@ -9,8 +9,8 @@ FORGE
       puppet-epel (>= 3.0.1, < 6.0.0)
       puppetlabs-inifile (>= 2.5.0, < 7.0.0)
       puppetlabs-stdlib (>= 4.13.1, < 10.0.0)
-    puppet-postfix (4.4.0)
-      puppet-alternatives (>= 2.0.0, < 6.0.0)
+    puppet-postfix (5.1.0)
+      puppet-alternatives (>= 2.0.0, < 7.0.0)
       puppetlabs-mailalias_core (>= 1.0.5, < 2.0.0)
       puppetlabs-stdlib (>= 4.13.0, < 10.0.0)
     puppet-systemd (6.6.0)
@@ -47,7 +47,7 @@ GIT
 DEPENDENCIES
   lvicainne-opendkim (>= 0)
   puppet-letsencrypt (= 11.0.0)
-  puppet-postfix (= 4.4.0)
+  puppet-postfix (= 5.1.0)
   puppet-systemd (= 6.6.0)
   puppetlabs-firewall (= 8.0.1)
   puppetlabs-java (= 11.0.0)
