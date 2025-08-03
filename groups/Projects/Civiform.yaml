@@ -22,7 +22,6 @@ FILES:
   format: Java
   sourcePattern: "%GROUPROOT%/civiform/server/conf/i18n/messages.%CODE%"
   definitionFile: "%GROUPROOT%/civiform/server/conf/i18n/messages"
-  nestingSeparator: .
   codeMap:
     zh-hant: zh-TW
 
