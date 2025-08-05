@@ -346,9 +346,3 @@ $wgCacheEpoch = '20231016122718';
 // To avoid breaking the website. See https://gerrit.wikimedia.org/r/c/mediawiki/core/+/1168254
 // TODO: Keep until the default has changed to avoid missing writes to the new.
 $wgCategoryLinksSchemaMigrationStage = SCHEMA_COMPAT_WRITE_BOTH | SCHEMA_COMPAT_READ_OLD;
-
-// Temporary increase for Wikimania
-$wgAccountCreationThrottle = [ [
-	'count' => 100,
-	'seconds' => 86400,
-] ];
