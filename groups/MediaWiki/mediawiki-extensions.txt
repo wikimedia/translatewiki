@@ -762,7 +762,7 @@ ignored = checkuser-global-contributions-ip-range-tools, checkuser-ip-auto-revea
 optional = checkuser-time-range
 optional = group-checkuser.css, group-checkuser.js
 optional = checkuser-investigate-compare-toollinks-whois, checkuser-clienthints-list-item
-optional = checkuser-userinfocard-new-articles-exceeds-max-to-display
+optional = checkuser-userinfocard-count-exceeds-max-to-display
 
 Check User - API
 id = ext-checkuser-api
