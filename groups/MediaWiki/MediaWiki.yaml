@@ -88,19 +88,41 @@ BASIC:
   description: "{{Special:MyLanguage/Translations:Group descriptions/mediawiki/en}}"
 
 GROUPS:
-  - core
   - core-0-mostused
-  - mediawiki-codex
-  - mediawiki-datetime
-  - mediawiki-exif
-  - mediawiki-preferences
-  - mediawiki-api
-  - mediawiki-rest-api
-  - wikimedia-paramvalidator
-  - mediawiki-installer
+  - mediawiki-core-user
+  - mediawiki-core-technical
   - ext-0-all
   - mediawiki-skin-0-all
+
+---
+BASIC:
+  id: mediawiki-core-user
+  label: MediaWiki core - User interface
+  meta: yes
+  class: AggregateMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawiki/en}}"
+
+GROUPS:
+  - core
+  - mediawiki-codex
+  - mediawiki-datetime
+  - mediawiki-preferences
+  - mediawiki-exif
+
+---
+BASIC:
+  id: mediawiki-core-technical
+  label: MediaWiki core - Technical
+  meta: yes
+  class: AggregateMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawiki/en}}"
+
+GROUPS:
+  - mediawiki-api
   - mediawiki-botpasswords
+  - mediawiki-installer
+  - mediawiki-rest-api
+  - wikimedia-paramvalidator
 
 ---
 BASIC:
