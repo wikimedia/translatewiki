@@ -1,20 +1,20 @@
 ---
 BASIC:
   id: jank-client
-  label: Jank Client
+  label: Fermi
   icon: wiki://Jank-client-logo.png
-  description: "{{Special:MyLanguage/Translations:Group descriptions/jank-client/en}}"
+  description: "{{Special:MyLanguage/Translations:Group descriptions/fermi/en}}"
   namespace: NS_WIKIMEDIA
   class: FileBasedMessageGroup
   support:
-    url: https://github.com/MathMan05/JankClient/issues/new
+    url: https://github.com/MathMan05/Fermi/issues/new
     params:
       title: Translation issue with message %MESSAGE%
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/jank-client/translations/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/fermi/translations/%CODE%.json"
   nestingSeparator: .
 
 MANGLER:
