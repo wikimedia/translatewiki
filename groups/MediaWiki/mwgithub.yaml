@@ -437,6 +437,27 @@ TAGS:
     - sil-name
 ---
 BASIC:
+  id: mwgithub-semanticknowledgegraph
+  label: Knowledge Graph
+  description: "{{Special:MyLanguage/MediaWiki:knowledgegraph-desc/en}}"
+  support:
+    url: https://github.com/SemanticMediaWiki/KnowledgeGraph/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/KnowledgeGraph/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - knowledge-graph-name
+  ignored:
+    - apihelp-knowledgegraph-load-nodes-example-1
+    - apihelp-knowledgegraph-load-nodes-param-pageids
+---
+BASIC:
   id: mwgithub-semanticmediawiki
   label: Semantic MediaWiki
   description: "{{Special:MyLanguage/MediaWiki:Smw-desc/en}}"

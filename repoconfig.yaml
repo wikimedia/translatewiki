@@ -685,6 +685,11 @@ mwgithub:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticInterlanguageLinks.git
       url|export: git@github.com:SemanticMediaWiki/SemanticInterlanguageLinks.git
+    mwgithub/SemanticMediaWiki/KnowledgeGraph:
+      type: github
+      branch: main
+      url: https://github.com/SemanticMediaWiki/KnowledgeGraph.git
+      url|export: git@github.com:SemanticMediaWiki/KnowledgeGraph.git
     mwgithub/SemanticMediaWiki/SemanticMediaWiki:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticMediaWiki.git
