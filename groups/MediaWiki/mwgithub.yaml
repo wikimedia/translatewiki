@@ -73,7 +73,7 @@ BASIC:
     label: DataMaps - Core
     description: "{{Special:MyLanguage/MediaWiki/MediaWiki:Datamap-desc/en}}"
     support:
-      url: https://github.com/alex4401/mediawiki-extensions-DataMaps/issues/new
+      url: https://github.com/wiki-gg-oss/mediawiki-extensions-DataMaps/issues/new
       params:
         title: Translation issue with message %MESSAGE%
         body: "\n\nURL: %MESSAGE_URL%"
@@ -81,7 +81,7 @@ BASIC:
         labels: 1.+bug
 
 FILES:
-  sourcePattern: "%GROUPROOT%/mwgithub/alex4401/mediawiki-extensions-DataMaps/i18n/core/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/wiki-gg-oss/mediawiki-extensions-DataMaps/i18n/core/%CODE%.json"
 
 INSERTABLES:
   - class: UrlInsertablesSuggester
@@ -102,7 +102,7 @@ BASIC:
     label: DataMaps - Create Maps
     description: "{{Special:MyLanguage/MediaWiki/MediaWiki:Datamap-desc/en}}"
     support:
-      url: https://github.com/alex4401/mediawiki-extensions-DataMaps/issues/new
+      url: https://github.com/wiki-gg-oss/mediawiki-extensions-DataMaps/issues/new
       params:
         title: Translation issue with message in %MESSAGE% under Create Maps
         body: "\n\nURL: %MESSAGE_URL%"
@@ -110,7 +110,7 @@ BASIC:
         labels: 1.+bug
 
 FILES:
-  sourcePattern: "%GROUPROOT%/mwgithub/alex4401/mediawiki-extensions-DataMaps/i18n/createmap/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/wiki-gg-oss/mediawiki-extensions-DataMaps/i18n/createmap/%CODE%.json"
 
 INSERTABLES:
   - class: UrlInsertablesSuggester
@@ -122,7 +122,7 @@ BASIC:
     label: DataMaps - Visual Editor
     description: "{{Special:MyLanguage/MediaWiki/MediaWiki:Datamap-desc/en}}"
     support:
-      url: https://github.com/alex4401/mediawiki-extensions-DataMaps/issues/new
+      url: https://github.com/wiki-gg-oss/mediawiki-extensions-DataMaps/issues/new
       params:
         title: Translation issue with message in VE %MESSAGE%
         body: "\n\nURL: %MESSAGE_URL%"
@@ -130,7 +130,7 @@ BASIC:
         labels: 1.+bug
 
 FILES:
-  sourcePattern: "%GROUPROOT%/mwgithub/alex4401/mediawiki-extensions-DataMaps/i18n/ve/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/wiki-gg-oss/mediawiki-extensions-DataMaps/i18n/ve/%CODE%.json"
 
 INSERTABLES:
   - class: UrlInsertablesSuggester

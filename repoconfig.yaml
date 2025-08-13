@@ -367,11 +367,11 @@ mwgithub:
   no-export-languages: test,aeb,ais,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   group: mwgithub-*,mwgithubskin-*
   repos:
-    mwgithub/alex4401/mediawiki-extensions-DataMaps:
+    mwgithub/wiki-gg-oss/mediawiki-extensions-DataMaps:
       type: github
       branch: main
-      url: https://github.com/alex4401/mediawiki-extensions-DataMaps
-      url|export: git@github.com:alex4401/mediawiki-extensions-DataMaps.git
+      url: https://github.com/wiki-gg-oss/mediawiki-extensions-DataMaps
+      url|export: git@github.com:wiki-gg-oss/mediawiki-extensions-DataMaps.git
     mwgithub/alex4401/mediawiki-extensions-ThemeToggle:
       type: github
       branch: main
