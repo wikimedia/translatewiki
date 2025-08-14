@@ -1353,10 +1353,10 @@ wikisource:
       url: https://github.com/wikisource/wscontest.git
       url|export: git@github.com:wikisource/wscontest.git
     wsexport:
-      type: github
+      type: gitlab
       branch: main
-      url: https://github.com/wikimedia/ws-export.git
-      url|export: git@github.com:wikimedia/ws-export.git
+      url: https://gitlab.wikimedia.org/toolforge-repos/wsexport.git
+      url|export: git@gitlab.wikimedia.org:toolforge-repos/wsexport.git
 
 wikistats:
   group: wikistats
