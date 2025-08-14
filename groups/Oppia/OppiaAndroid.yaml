@@ -40,6 +40,7 @@ TEMPLATE:
     include:
       - ar
       - en
+      - es # Enabled here but disabled via wgTranslateDisabledTargetLanguages to display "reason" properly
       - es-419
       - hi
       - pcm
