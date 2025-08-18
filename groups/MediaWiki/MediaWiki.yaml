@@ -147,6 +147,7 @@ TAGS:
     - content-model-css
     - content-model-javascript
     - content-model-json
+    - content-model-vue
     - created
     - diff-with-additional
     - double-redirect-fixer
