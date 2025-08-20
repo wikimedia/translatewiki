@@ -77,6 +77,8 @@ Add Messages
 
 Add Personal Urls
 
+Adhoc Translation
+
 Adiutor
 aliasfile = Adiutor/Adiutor.alias.php
 optional = adiutor-title, adiutor-beta-feature-title
@@ -422,6 +424,10 @@ descmsg = bs-interwikilinks-desc
 aliasfile = BlueSpiceInterWikiLinks/includes/specials/SpecialInterWikiLinks.alias.php
 optional = bs-interwikilinks-headerurl, bs-interwikilinks-labelurl
 
+Blue Spice Matomo Connector
+descmsg = bs-matomoconnector-extension-description
+aliasfile = BlueSpiceMatomoConnector/languages/SpecialOptOut.alias.php
+
 Blue Spice Multi Upload
 descmsg = bs-multiupload-desc
 
@@ -570,6 +576,11 @@ descmsg = bs-subpagetree-desc
 Blue Spice Tag Cloud
 descmsg = bs-tagcloud-desc
 
+Blue Spice Translation Transfer
+descmsg = bs-translationtransfer-desc
+aliasfile = BlueSpiceTranslationTransfer/languages/TranslationTransfer.alias.php
+magicfile = BlueSpiceTranslationTransfer/languages/TranslationTransfer.magic.i18n.php
+
 Blue Spice UE Module Book PDF
 descmsg = bs-uemodulebookpdf-extension-description
 
@@ -625,6 +636,10 @@ Blue Spice Wiki Explorer
 descmsg = bs-wikiexplorer-extension-description
 optional = wikiexplorer
 aliasfile = BlueSpiceWikiExplorer/languages/SpecialWikiExplorer.alias.php
+
+Blue Spice Wiki Farm
+descmsg = wikifarm-desc
+aliasfile = BlueSpiceWikiFarm/languages/SpecialPage.alias.php
 
 # Boiler Plate excluded per T156569
 
@@ -970,6 +985,9 @@ aliasfile = ContactPage/ContactPage.alias.php
 Container Filter
 
 Content Droplets
+
+Content Provisioning
+aliasfile = ContentProvisioning/languages/SpecialContentProvisioning.alias.php
 
 Content Transfer
 descmsg = contenttransfer-extension-description
@@ -3403,6 +3421,8 @@ User Page Edit Protection
 
 User Page View Tracker
 aliasfile = UserPageViewTracker/UserPageViewTracker.alias.php
+
+User Profile
 
 User Protect
 
