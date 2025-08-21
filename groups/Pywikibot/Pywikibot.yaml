@@ -11,6 +11,7 @@ TEMPLATE:
     codeMap:
       aeb-latn: aeb
       bbc-latn: bbc
+      cdo-latn: cdo
       gan-hant: gan
       gom-latn: gom
       hak-hant: hak
@@ -47,6 +48,7 @@ TEMPLATE:
       - gan
       - gom
       - gom-deva
+      - hak-hans
       - hif
       - iu
       - kbd
