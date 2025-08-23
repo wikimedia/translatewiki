@@ -2528,6 +2528,7 @@ file = ParserMigration/i18n/api/%CODE%.json
 Parser Migration - User interface
 id = ext-parsermigration-user
 file = ParserMigration/i18n/%CODE%.json
+optional = parsermigration-reportbug-feedback-title
 
 Passwordless Login
 optional = passwordlesslogin
