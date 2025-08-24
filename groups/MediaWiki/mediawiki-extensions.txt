@@ -3478,6 +3478,7 @@ ignored = tag-editcheck-references-activated-helppage
 ignored = tag-visualeditor-helppage, tag-visualeditor-needcheck-helppage
 ignored = tag-visualeditor-switched-helppage, tag-visualeditor-wikitext-helppage
 ignored = tag-editcheck-references-shown-helppage, tag-editcheck-tone
+ignored = tag-editcheck-tone-shown-helppage
 
 Visual Editor Plus
 
