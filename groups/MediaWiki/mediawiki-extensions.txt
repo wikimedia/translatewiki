@@ -180,7 +180,15 @@ Article Meta Description
 Article Placeholder
 aliasfile = ArticlePlaceholder/ArticlePlaceholder.alias.php
 
-# Article Ratings // incosistent prefix 2017-11-05
+ArticleRatings
+id = ext-articleratings
+aliasfile = ArticleRatings/ArticleRatings.alias.php
+descmsg = articleratings-desc
+ignored = articleratings-ratings
+
+ArticleRatings - API
+id = ext-articleratings-api
+file = ArticleRatings/i18n/api/%CODE%.json
 
 Article To Category 2
 
