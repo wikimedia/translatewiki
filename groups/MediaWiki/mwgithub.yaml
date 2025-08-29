@@ -257,6 +257,24 @@ TAGS:
     - persistentpageidentifiers-name
 ---
 BASIC:
+  id: mwgithub-rules
+  label: Rules
+  description: "{{Special:MyLanguage/MediaWiki:Rules-description/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/Rules/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/Rules/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - rules-message
+---
+BASIC:
   id: mwgithub-semanticapprovedrevs
   label: Semantic Approved Revs
   description: "{{Special:MyLanguage/MediaWiki:Semantic-approvedrevs-desc/en}}"

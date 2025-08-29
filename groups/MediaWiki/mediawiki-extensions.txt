@@ -10,6 +10,7 @@
 # Parser Hooks
 # Pickle
 # Persistent Page Identifiers
+# Rules
 # Semantic Approved Revs
 # Semantic Breadcrumb Links
 # Semantic Cite
