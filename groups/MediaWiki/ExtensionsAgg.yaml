@@ -164,6 +164,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-communityrequests
+  label: Community Requests
+  description: '{{Special:MyLanguage/MediaWiki:Communityrequests-desc/en}}'
+
+GROUPS:
+  - ext-communityrequests-*
+
+---
+BASIC:
   id: ext-confirmedit
   label: Confirm Edit
   description: '{{Special:MyLanguage/MediaWiki:Captcha-desc/en}}'

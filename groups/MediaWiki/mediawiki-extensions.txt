@@ -900,12 +900,18 @@ Community Configuration
 ignored = tag-community_configuration-helppage
 optional = communityconfiguration-editor-validation-error-label-chain-joiner
 
-Community Requests
+Community Requests - User interface
+id = ext-communityrequests-user
+file = CommunityRequests/i18n/%CODE%.json
 ignored = grouppage-community-wishlist-manager
 ignored = communityrequests-category
 ignored = communityrequests-errors-category
 ignored = communityrequests-wish-category
 ignored = communityrequests-focus-area-category
+
+Community Requests - API
+id = ext-communityrequests-api
+file = CommunityRequests/i18n/api/%CODE%.json
 
 Config Manager
 aliasfile = ConfigManager/languages/ConfigManager.alias.php

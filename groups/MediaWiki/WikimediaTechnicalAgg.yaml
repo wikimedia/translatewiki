@@ -9,8 +9,8 @@ BASIC:
 
 GROUPS:
   - mediawiki-api
-  - mediawiki-skin-wikimediaapiportal
   - mediawiki-rest-api
+  - mediawiki-skin-wikimediaapiportal
   - wikimedia-paramvalidator
   - ext-abusefilter-api
   - ext-antispoof-api
@@ -22,9 +22,10 @@ GROUPS:
   - ext-categorytree-api
   - ext-centralauth-api
   - ext-centralnotice-api
-  - ext-collection-api
   - ext-checkuser-api
   - ext-cirrussearch-api
+  - ext-collection-api
+  - ext-communityrequests-api
   - ext-confirmedit-api
   - ext-confirmeditfancycaptcha-api
   - ext-contenttranslation-api
@@ -38,13 +39,13 @@ GROUPS:
   - ext-extensiondistributor-api
   - ext-featuredfeeds-api
   - ext-flaggedrevs-api
+  - ext-flow-api
   - ext-gadgets-api
   - ext-geodata-api
   - ext-globalblocking-api
+  - ext-globalpreferences-api
   - ext-globalusage-api
   - ext-graph-api
-  - ext-flow-api
-  - ext-globalpreferences-api
   - ext-growthexperiments-helppanel-api
   - ext-growthexperiments-homepage-api
   - ext-growthexperiments-mentorship-api # https://phabricator.wikimedia.org/rOMWC0208fc2b71863c91c3e767373d4bea1a2eaf178d
