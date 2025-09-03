@@ -7,7 +7,7 @@ BASIC:
   namespace: NS_KIWIX
   class: FileBasedMessageGroup
   support:
-    url: https://github.com/kiwix/apple/issues/new
+    url: https://github.com/kiwix/kiwix-apple/issues/new
     params:
       title: Translation issue with message %MESSAGE%
       body: "\nMessage URL: %MESSAGE_URL%"
