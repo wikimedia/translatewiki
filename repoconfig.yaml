@@ -1080,8 +1080,8 @@ wikimedia-misc-tools:
     adiutor:
       type: github
       branch: main
-      url: https://github.com/Vikipolimer/Adiutor.git
-      url|export: git@github.com:Vikipolimer/Adiutor.git
+      url: https://github.com/wikimedia-gadgets/Adiutor.git
+      url|export: git@github.com:wikimedia-gadgets/Adiutor.git
     anvesha:
       type: github
       url: https://github.com/sahajsk21/Anvesha.git
