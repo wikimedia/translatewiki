@@ -8,10 +8,6 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
-  - mediawiki-api
-  - mediawiki-rest-api
-  - mediawiki-skin-wikimediaapiportal
-  - wikimedia-paramvalidator
   - ext-abusefilter-api
   - ext-antispoof-api
   - ext-apifeatureusage # 2015-05-19 6251bf51beb00a6bfd57a46eb485d5c5eef188a7
@@ -101,3 +97,4 @@ GROUPS:
   - ext-wikimediaeditortasks-api
   - ext-wikimediaevents
   - ext-xanalytics # 2015-02-02 on all wikis
+  - mediawiki-skin-wikimediaapiportal
