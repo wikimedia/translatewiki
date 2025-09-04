@@ -1223,7 +1223,7 @@ aliasfile = Drafts/Drafts.alias.php
 ignored = accesskey-drafts-save
 
 Drawio Editor
-optional = drawioconnector-tag-drawio-title, drawio-tag-title
+optional = drawioeditor-tag-title
 
 Dumps On Demand
 aliasfile = DumpsOnDemand/DumpsOnDemand.alias.php
