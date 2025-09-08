@@ -1,0 +1,23 @@
+---
+BASIC:
+  id: wiki-infographics
+  label: Wiki Infographics
+  icon: File:Wiki infographics.png
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wiki-infographics/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/wikimediabrasil/wiki_infographics/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wiki-infographics-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wiki-infographics/translations/%CODE%.json"
