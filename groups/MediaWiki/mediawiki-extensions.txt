@@ -822,6 +822,7 @@ Cite - VisualEditor
 id = ext-cite-visualeditor
 file = Cite/modules/ve-cite/i18n/%CODE%.json
 ignored = cite-tool-definition.json
+ignored = cite-ve-dialog-subreference-help-dialog-link
 
 Cite Drawer
 
