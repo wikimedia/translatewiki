@@ -1044,6 +1044,9 @@ Contributors
 aliasfile = Contributors/Contributors.alias.php
 magicfile = Contributors/Contributors.magic.php
 
+Cookie Consent
+descmsg = cookieconsent-desc
+
 Cookie Warning
 descmsg = cookiewarning-desc
 ignored = cookiewarning-more-link
