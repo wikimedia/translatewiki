@@ -709,20 +709,6 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/JeroenDeDauw/SubPageList/i18n/%CODE%.json"
 ---
 BASIC:
-  id: mwgithub-whatsnearby
-  label: What's Nearby
-  description: "{{Special:MyLanguage/MediaWiki:Wnby-desc/en}}"
-  support:
-    url: https://github.com/SemanticMediaWiki/WhatsNearby/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/WhatsNearby/i18n/%CODE%.json"
----
-BASIC:
   id: mwgithub-wikibaseedtf
   label: Wikibase EDTF
   description: "{{Special:MyLanguage/MediaWiki:Wbedtf-desc/en}}"

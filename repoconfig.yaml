@@ -722,10 +722,6 @@ mwgithub:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticWatchlist.git
       url|export: git@github.com:SemanticMediaWiki/SemanticWatchlist.git
-    mwgithub/SemanticMediaWiki/WhatsNearby:
-      type: github
-      url: https://github.com/SemanticMediaWiki/WhatsNearby.git
-      url|export: git@github.com:SemanticMediaWiki/WhatsNearby.git
     mwgithub/SkizNet/mediawiki-BlockASN:
       type: github
       url: https://github.com/SkizNet/mediawiki-BlockASN.git
