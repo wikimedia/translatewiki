@@ -1814,6 +1814,9 @@ magicfile = I18nTags/I18nTags.magic.php
 
 Iframe Page
 
+ImageFilter
+magicfile = ImageFilter/ImageFilter.i18n.magic.php
+
 Image Map
 descmsg = imagemap_desc
 optional = imagemap_desc_types
