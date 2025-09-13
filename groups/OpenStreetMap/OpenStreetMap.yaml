@@ -96,6 +96,8 @@ TAGS:
     - javascripts.map.base.cyclosm
     - javascripts.map.copyright_text
     - javascripts.map.cyclosm_name
+    - javascripts.map.maptiler_name
+    - javascripts.map.openmaptiles_name
     - javascripts.map.tracestrack
     - layouts.partners_fastly
     - layouts.project_name.h1
@@ -108,8 +110,18 @@ TAGS:
     - printable_name.current_and_old_links_html
     - printable_name.with_name_html
     - profiles.edit.gravatar.link
+    - profiles.images.show.gravatar.link
     - shared.markdown_help.kramdown
     - shared.markdown_help.kramdown_url
+    - site.about_section.community_driven_community_blogs_url
+    - site.about_section.community_driven_osm_blog_url
+    - site.about_section.community_driven_osm_foundation_url
+    - site.about_section.legal_1_1_aup_url
+    - site.about_section.legal_1_1_openstreetmap_foundation_url
+    - site.about_section.legal_1_1_privacy_policy_url
+    - site.about_section.legal_1_1_terms_of_use_url
+    - site.about_section.legal_2_1_contact_the_osmf_url
+    - site.about_section.legal_2_2_registered_trademarks_url
     - site.any_questions.welcome_mat_url
     - site.communities.other_groups.communities_wiki_url
     - site.copyright.legal_babble.contributors_2_contributors_page_url
@@ -141,6 +153,9 @@ TAGS:
     - site.copyright.legal_babble.contributors_si_mkgp_url
     - site.copyright.legal_babble.contributors_za_ngi_url
     - site.copyright.legal_babble.credit_3_attribution_guidelines_url
+    - site.copyright.legal_babble.credit_3_v2025_attribution_guidelines_url
+    - site.copyright.legal_babble.credit_3_v2025_licensing_requirements_url
+    - site.copyright.legal_babble.credit_3_v2025_requirements_on_how_displayed_url
     - site.copyright.legal_babble.infringement_2_1_online_filing_page_url
     - site.copyright.legal_babble.infringement_2_1_takedown_procedure_url
     - site.copyright.legal_babble.introduction_1_odc_odbl_url
@@ -148,10 +163,23 @@ TAGS:
     - site.copyright.legal_babble.introduction_1_registered_trademark_html
     - site.copyright.legal_babble.introduction_2_legal_code_url
     - site.copyright.legal_babble.introduction_3_creative_commons_url
+    - site.copyright.legal_babble.lead_2_learn_more_about_osm_url
+    - site.copyright.legal_babble.lead_2_making_donation_url
+    - site.copyright.legal_babble.lead_2_osm_blog_url
+    - site.copyright.legal_babble.lead_2_osm_foundation_url
+    - site.copyright.legal_babble.lead_2_weeklyosm
+    - site.copyright.legal_babble.lead_2_weeklyosm_url
+    - site.copyright.legal_babble.licensing_1_odc_odbl_url
+    - site.copyright.legal_babble.licensing_1_osm_foundation_url
+    - site.copyright.legal_babble.licensing_2_legal_code_url
+    - site.copyright.legal_babble.licensing_4_osmf_license_page_url
     - site.copyright.legal_babble.more_1_1_osmf_licence_page_url
     - site.copyright.legal_babble.more_2_1_api_usage_policy_url
     - site.copyright.legal_babble.more_2_1_nominatim_usage_policy_url
     - site.copyright.legal_babble.more_2_1_tile_usage_policy_url
+    - site.copyright.legal_babble.services_1_api_usage_policy_url
+    - site.copyright.legal_babble.services_1_nominatim_usage_policy_url
+    - site.copyright.legal_babble.services_1_tile_usage_policy_url
     - site.copyright.legal_babble.trademarks_1_1_trademark_policy_url
     - site.export.odbl_url
     - site.fixthemap.other_concerns.working_group_url
