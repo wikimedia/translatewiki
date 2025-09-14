@@ -2536,7 +2536,6 @@ id = ext-pageviewinfo-user
 file = PageViewInfo/i18n/%CODE%.json
 descmsg = pvi-desc
 ignored = pvi-month-count-value
-optional = pvi-range
 
 Page View Info GA
 
