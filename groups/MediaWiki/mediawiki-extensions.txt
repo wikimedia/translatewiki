@@ -3934,7 +3934,7 @@ Wikispeech - User interface
 id = ext-wikispeech-user
 file = Wikispeech/i18n/%CODE%.json
 optional = wikispeech, prefs-wikispeech
-ignored = grouppage-wikispeech-edit-lexicon
+ignored = grouppage-wikispeech-edit-lexicon, wikispeech-testlisten-ssml
 aliasfile = Wikispeech/Wikispeech.alias.php
 
 Wikispeech - API
