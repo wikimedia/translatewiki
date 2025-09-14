@@ -12,6 +12,7 @@ GROUPS:
   - ext-capiunto # wikidataclient-test
   - ext-chart # https://phabricator.wikimedia.org/rOMWC87d69e644b112a71bedc948c824400172d2f586c
   - ext-chessbrowser # https://phabricator.wikimedia.org/rOMWCba8b786c7f3a290f0747a6859fd07502eb83108f
+  - ext-communityrequests # https://phabricator.wikimedia.org/rOMWCbcd094bf9f0fed06bede5cd28d03bfe9e5fa2c18
   - ext-pagenotice # https://phabricator.wikimedia.org/rOMWCd3b399694f2b03af6ee029fb0cf1e3e9939e7a5b:
   - ext-reportincident # https://phabricator.wikimedia.org/rOMWCf594ec5484fac1b992138e573369ffae8bdeba36
   - ext-stopforumspam # Deployed experimentally on several wikis. Move to Advanced when the deployment becomes wider. https://phabricator.wikimedia.org/rOMWCf3de027936c615d7a310793d85a836350fcdc1df
