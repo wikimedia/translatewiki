@@ -1071,7 +1071,7 @@ wikimedia-mailman-templates:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/software/mailman-templates
 
 wikimedia-misc-tools:
-  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,fermi,global-search,instant-diffs,pageviews,quickstatements3,ranker,signit,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikilearn-*,wikipedia-year-in-review,wikiscore,wiki-infographics,wscd,xtools
+  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,fermi,global-search,instant-diffs,pageviews,quickstatements3,ranker,script-manager,signit,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikilearn-*,wikipedia-year-in-review,wikiscore,wiki-infographics,wscd,xtools
   repos:
     adiutor:
       type: github
@@ -1124,6 +1124,11 @@ wikimedia-misc-tools:
       url: https://gitlab.wikimedia.org/toolforge-repos/ranker.git
       pull-branch: twn
       url|export: git@gitlab.wikimedia.org:toolforge-repos/ranker.git
+    script-manager:
+      type: gitlab
+      url: https://gitlab.wikimedia.org/iniquity/script-manager.git
+      branch: main
+      url|export: git@gitlab.wikimedia.org:iniquity/script-manager.git
     signit:
       type: github
       url: https://github.com/lingua-libre/SignIt.git

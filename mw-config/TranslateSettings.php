@@ -305,6 +305,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ProveIt.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/QRmedia.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/QuickStatements3.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Ranker.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ScriptManager.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/SignIt.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/svgtranslate.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/SWViewer.yaml";
