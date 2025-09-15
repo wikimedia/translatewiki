@@ -1823,7 +1823,7 @@ MANGLER:
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/alex4401/mediawiki-extensions-ThemeToggle/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/wiki-gg-oss/mediawiki-extensions-ThemeToggle/i18n/%CODE%.json"
 
 TAGS:
   ignored:
