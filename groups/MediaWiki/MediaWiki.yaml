@@ -106,6 +106,7 @@ GROUPS:
   - core
   - mediawiki-codex
   - mediawiki-datetime
+  - mediawiki-interwiki
   - mediawiki-languageconverter
   - mediawiki-preferences
   - mediawiki-exif
@@ -195,9 +196,6 @@ TAGS:
     - img-lang-opt
     - interlanguage-link-title
     - interlanguage-link-title-nonlang
-    - interwiki-api-label
-    - interwiki_url
-    - interwiki-url-label
     - limitreport-expansiondepth-value
     - limitreport-expensivefunctioncount-value
     - limitreport-ppvisitednodes-value
@@ -364,6 +362,23 @@ TAGS:
     - variantname-zh-my
     - variantname-zh-sg
     - variantname-zh-tw
+
+---
+BASIC:
+  id: mediawiki-interwiki
+  label: MediaWiki core - Interwiki
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikiinterwiki/en}}"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/interwiki/%CODE%.json"
+
+TAGS:
+  optional:
+    - interwiki-api-label
+    - interwiki_url
+    - interwiki-url-label
 
 ---
 BASIC:
