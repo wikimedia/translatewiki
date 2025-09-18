@@ -69,6 +69,9 @@ TAGS:
     - wikipedia-android-strings-suggested_edits_image_tags_help_url
     - wikipedia-android-strings-zero_webpage_url
   optional:
+    - wikipedia-android-strings-about_contributors
+    - wikipedia-android-strings-android_app_faq_url
+    - wikipedia-android-strings-android_app_request_an_account_url
     - wikipedia-android-strings-cc_0_url
     - wikipedia-android-strings-cc_by_sa_4_url
     - wikipedia-android-strings-content_license_cc_by_sa
@@ -76,6 +79,7 @@ TAGS:
     - wikipedia-android-strings-image_recommendations_task_daily_amount
     - wikipedia-android-strings-insert_media_advanced_settings_image_size_custom_px
     - wikipedia-android-strings-notifications_tab_filter_unread
+    - wikipedia-android-strings-offline_reading_and_data_url
     - wikipedia-android-strings-patroller_tasks_filters_automated_contributions_bot
     - wikipedia-android-strings-privacy_policy_url
     - wikipedia-android-strings-size_gb
