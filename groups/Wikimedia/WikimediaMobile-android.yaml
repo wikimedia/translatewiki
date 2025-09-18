@@ -62,26 +62,26 @@ FILES:
 
 TAGS:
   ignored:
-    - wikipedia-android-strings-intent_share_search_label
-    - wikipedia-android-strings-zero_webpage_url
+    - wikipedia-android-strings-android_app_edit_help_url
     - wikipedia-android-strings-description_edit_description_learn_more_url
     - wikipedia-android-strings-description_edit_image_caption_learn_more_url
-    - wikipedia-android-strings-android_app_edit_help_url
+    - wikipedia-android-strings-intent_share_search_label
     - wikipedia-android-strings-suggested_edits_image_tags_help_url
+    - wikipedia-android-strings-zero_webpage_url
   optional:
     - wikipedia-android-strings-cc_0_url
     - wikipedia-android-strings-cc_by_sa_4_url
     - wikipedia-android-strings-content_license_cc_by_sa
     - wikipedia-android-strings-description_starts_with_article
     - wikipedia-android-strings-image_recommendations_task_daily_amount
+    - wikipedia-android-strings-insert_media_advanced_settings_image_size_custom_px
     - wikipedia-android-strings-notifications_tab_filter_unread
+    - wikipedia-android-strings-patroller_tasks_filters_automated_contributions_bot
     - wikipedia-android-strings-privacy_policy_url
+    - wikipedia-android-strings-size_gb
+    - wikipedia-android-strings-size_mb
     - wikipedia-android-strings-suggested_edits_contribution_type_title
     - wikipedia-android-strings-talk_warn_learn_more_url
     - wikipedia-android-strings-terms_of_use_url
-    - wikipedia-android-strings-wikidata_description_guide_url
-    - wikipedia-android-strings-size_gb
-    - wikipedia-android-strings-size_mb
-    - wikipedia-android-strings-insert_media_advanced_settings_image_size_custom_px
     - wikipedia-android-strings-watchlist_filter_automated_contributions_bot
-    - wikipedia-android-strings-patroller_tasks_filters_automated_contributions_bot
+    - wikipedia-android-strings-wikidata_description_guide_url
