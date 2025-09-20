@@ -69,7 +69,6 @@ TAGS:
     - wikipedia-android-strings-suggested_edits_image_tags_help_url
     - wikipedia-android-strings-zero_webpage_url
   optional:
-    - wikipedia-android-strings-about_contributors
     - wikipedia-android-strings-android_app_faq_url
     - wikipedia-android-strings-android_app_request_an_account_url
     - wikipedia-android-strings-cc_0_url
