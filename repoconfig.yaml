@@ -1098,7 +1098,7 @@ wikimedia-misc-tools:
     cite-unseen:
       type: gitlab
       branch: main
-      url: https://gitlab.wikimedia.org:kevinpayravi/cite-unseen.git
+      url: https://gitlab.wikimedia.org/kevinpayravi/cite-unseen.git
       url|export: git@gitlab.wikimedia.org:kevinpayravi/cite-unseen.git
     fermi:
       type: github
