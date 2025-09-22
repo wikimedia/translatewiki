@@ -544,11 +544,6 @@ mwgithub:
       branch: main
       url: https://github.com/miraheze/WikiDiscover.git
       url|export: git@github.com:miraheze/WikiDiscover.git
-    mwgithub/miraheze/YouTube:
-      type: github
-      branch: main
-      url: https://github.com/miraheze/YouTube.git
-      url|export: git@github.com:miraheze/YouTube.git
     mwgithub/Nikerabbit/mediawiki-extensions-FinnFrameNet:
       type: github
       url: https://github.com/Nikerabbit/mediawiki-extensions-FinnFrameNet.git

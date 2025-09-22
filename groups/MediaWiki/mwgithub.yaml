@@ -1355,27 +1355,6 @@ FILES:
 TAGS:
   optional:
     - wikidiscover-extensionname
----
-BASIC:
-  id: mwgithub-youtube
-  label: YouTube (Miraheze)
-  description: "{{Special:MyLanguage/MediaWiki:miraheze-youtube-desc/en}}"
-  support:
-    url: https://issue-tracker.miraheze.org/maniphest/task/edit/form/1/
-    params:
-      title: Translation issue with message %MESSAGE%
-      projects: extensions
-      description: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/miraheze/YouTube/i18n/%CODE%.json"
-
-MANGLER:
-  class: StringMatcher
-  prefix: miraheze-
-  patterns:
-    - "*"
 
 ---
 BASIC:
