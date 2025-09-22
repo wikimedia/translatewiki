@@ -1080,8 +1080,8 @@ wikimedia-misc-tools:
       url|export: git@github.com:wikimedia-gadgets/Adiutor.git
     anvesha:
       type: github
-      url: https://github.com/sahajsk21/Anvesha.git
-      url|export: git@github.com:sahajsk21/Anvesha.git
+      url: https://github.com/sahajk21/Anvesha.git
+      url|export: git@github.com:sahajk21/Anvesha.git
     capacity-exchange:
       type: github
       branch: dev
