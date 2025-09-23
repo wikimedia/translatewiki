@@ -1093,6 +1093,7 @@ wikimedia-misc-tools:
     cite-unseen:
       type: gitlab
       branch: main
+      pull-branch: i18n
       url: https://gitlab.wikimedia.org/kevinpayravi/cite-unseen.git
       url|export: git@gitlab.wikimedia.org:kevinpayravi/cite-unseen.git
     fermi:
