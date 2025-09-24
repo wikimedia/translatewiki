@@ -74,6 +74,7 @@ $wgExtraLanguageNames = [
 	'ish' => 'awain', # Esan / Amir 2022-08-01
 	'isv' => 'medžuslovjansky / меджусловјанскы', # Interslavic / Jon Harald Søby 2024-09-20
 	'izh' => 'ižoran keel', # Ingrian / Robin 2012-11-17
+	'jab' => 'Hyamꞌ', # Hyam / ToluAyo 2025-09-24
 	'jac' => 'Abꞌxubꞌal Poptiꞌ', # Jakaltek / Amir 2024-07-02
 	'jdt-cyrl' => 'жугьури', # Judeo-Tat / Siebrand 2014-06-17
 	'jje' => '제주말', # Jeju / Amir 2023-06-14
