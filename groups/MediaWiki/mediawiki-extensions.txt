@@ -2882,7 +2882,7 @@ optional = securepoll-stv-result-candidate-elected, securepoll-stv-result-candid
 optional = securepoll-stv-result-votes-gain, securepoll-stv-result-votes-surplus
 optional = securepoll-vote-result-voted-option-label, securepoll-create-option-election_crypt-openssl
 ignored = securepoll-custom-unqualified, securepoll-voter-name-remote, securepoll-voter-name-local
-ignored = securepoll-stv-result-votes-no-change
+ignored = securepoll-stv-result-votes-no-change, securepoll-stv-result-election-blt-header
 
 Select Category
 
