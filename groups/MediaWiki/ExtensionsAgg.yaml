@@ -333,14 +333,6 @@ GROUPS:
 
 ---
 BASIC:
-  id: ext-graph
-  label: Graph
-  description: '{{Special:MyLanguage/MediaWiki:Graph-desc/en}}'
-GROUPS:
-  - ext-graph-*
-
----
-BASIC:
   id: ext-headerfooter
   label: HeaderFooter
   description: '{{Special:MyLanguage/MediaWiki:Headerfooter-desc/en}}'

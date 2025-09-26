@@ -1658,15 +1658,6 @@ Google Translate
 
 GPG Mail
 
-Graph - API
-id = ext-graph-api
-file = Graph/i18n/api/%CODE%.json
-
-Graph - User interface
-id = ext-graph-user
-file = Graph/i18n/%CODE%.json
-aliasfile = Graph/Graph.alias.php
-
 Graph QL
 aliasfile = GraphQL/GraphQL.alias.php
 optional = graphql
