@@ -35,7 +35,6 @@ GROUPS:
   - ext-globalblocking-user # Only advanced users except globalblocking-blockedtext*
   - ext-globalcssjs
   - ext-googlenewssitemap # r87149 for wikinews
-  - ext-graph-user # Deployed everywhere
   - ext-growthexperiments-confirmemail
   - ext-growthexperiments-user # https://phabricator.wikimedia.org/rOMWC4404977a5f10c4e0d6651b1f2dc76b93c0b2eeb6
   - ext-guidedtour # 2013-01-31 for 15 projects

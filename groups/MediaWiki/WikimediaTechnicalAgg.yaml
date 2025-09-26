@@ -41,7 +41,6 @@ GROUPS:
   - ext-globalblocking-api
   - ext-globalpreferences-api
   - ext-globalusage-api
-  - ext-graph-api
   - ext-growthexperiments-helppanel-api
   - ext-growthexperiments-homepage-api
   - ext-growthexperiments-mentorship-api # https://phabricator.wikimedia.org/rOMWC0208fc2b71863c91c3e767373d4bea1a2eaf178d
