@@ -106,6 +106,7 @@ GROUPS:
   - core
   - mediawiki-codex
   - mediawiki-datetime
+  - mediawiki-languageconverter
   - mediawiki-preferences
   - mediawiki-exif
 
@@ -265,6 +266,49 @@ TAGS:
     - userrights-groupsmember-type
     - userrights-irreversible-marker
     - userrights-no-shorten-expiry-marker
+    - version-api
+    - version-entrypoints-articlepath
+    - version-entrypoints-scriptpath
+    - version-version
+    - video-dims
+    - widthheight
+    - word-separator
+
+---
+BASIC:
+  id: mediawiki-codex
+  label: MediaWiki Codex
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikicodex/en}}"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/codex/%CODE%.json"
+
+---
+BASIC:
+  id: mediawiki-botpasswords
+  label: MediaWiki core - Bot passwords
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikibotpasswords/en}}"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/botpasswords/%CODE%.json"
+
+---
+BASIC:
+  id: mediawiki-languageconverter
+  label: MediaWiki Languageconverter
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikilanguageconverter/en}}"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/languageconverter/%CODE%.json"
+
+TAGS:
+  optional:
     - variantname-crh
     - variantname-crh-cyrl
     - variantname-crh-latn
@@ -320,35 +364,6 @@ TAGS:
     - variantname-zh-my
     - variantname-zh-sg
     - variantname-zh-tw
-    - version-api
-    - version-entrypoints-articlepath
-    - version-entrypoints-scriptpath
-    - version-version
-    - video-dims
-    - widthheight
-    - word-separator
-
----
-BASIC:
-  id: mediawiki-codex
-  label: MediaWiki Codex
-  class: FileBasedMessageGroup
-  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikicodex/en}}"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/codex/%CODE%.json"
-
----
-BASIC:
-  id: mediawiki-botpasswords
-  label: MediaWiki core - Bot passwords
-  class: FileBasedMessageGroup
-  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikibotpasswords/en}}"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/botpasswords/%CODE%.json"
 
 ---
 BASIC:
