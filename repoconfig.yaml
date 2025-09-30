@@ -1023,7 +1023,7 @@ wikimedia-misc-projects:
       url|export: git@github.com:internetarchive/internetarchivebot.git
 
 wikimedia-github:
-  group: copypatrol,grant-metrics,interaction-timeline,jquery-uls,svgtranslate,whowrotethat,wikimedia-ocr
+  group: copypatrol,grant-metrics,interaction-timeline,jquery-uls,whowrotethat,wikimedia-ocr
   repos:
     copypatrol:
       type: github
@@ -1041,11 +1041,6 @@ wikimedia-github:
       type: github
       url: https://github.com/wikimedia/jquery.uls.git
       url|export: git@github.com:wikimedia/jquery.uls.git
-    svgtranslate:
-      type: github
-      branch: main
-      url: https://github.com/wikimedia/svgtranslate.git
-      url|export: git@github.com:wikimedia/svgtranslate.git
     whowrotethat:
       type: github
       url: https://github.com/wikimedia/WhoWroteThat.git
@@ -1066,7 +1061,7 @@ wikimedia-mailman-templates:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/software/mailman-templates
 
 wikimedia-misc-tools:
-  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,cite-unseen,fermi,global-search,instant-diffs,pageviews,quickstatements3,ranker,script-manager,signit,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikilearn-*,wikipedia-year-in-review,wikiscore,wiki-infographics,wscd,xtools
+  group: adiutor,anvesha,capacity-exchange,cejs,citationhunt,cite-unseen,fermi,global-search,instant-diffs,pageviews,quickstatements3,ranker,script-manager,signit,svgtranslate,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikilearn-*,wikipedia-year-in-review,wikiscore,wiki-infographics,wscd,xtools
   repos:
     adiutor:
       type: github
@@ -1134,6 +1129,11 @@ wikimedia-misc-tools:
       type: github
       url: https://github.com/lingua-libre/SignIt.git
       url|export: git@github.com:lingua-libre/SignIt.git
+    svgtranslate:
+      type: gitlab
+      branch: main
+      url: https://gitlab.wikimedia.org/toolforge-repos/svgtranslate.git
+      url|export: git@gitlab.wikimedia.org:toolforge-repos/svgtranslate.git
     video2commons:
       type: github
       url: https://github.com/toolforge/video2commons.git
