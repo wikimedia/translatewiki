@@ -9,7 +9,7 @@ BASIC:
 
 GROUPS:
   - ext-di-epf
-  - ext-di-gc
+  - ext-donationinterface-gateways
   - ext-fundraiserlandingpage # r101409 for donatewiki
   - ext-fundraisingemailunsubscribe
   - ext-fundraisingtranslateworkflow # 2014-07-14 for Meta

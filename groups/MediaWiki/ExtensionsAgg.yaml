@@ -200,6 +200,29 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-donationinterface
+  label: Donation Interface
+  description: '{{Special:MyLanguage/MediaWiki:Donate_interface-desc/en}}'
+
+GROUPS:
+  - ext-di-epf
+  - ext-donationinterface-gateways
+  - ext-di-gc-api
+
+---
+BASIC:
+  id: ext-donationinterface-gateways
+  label: Donation Interface - Gateways
+  description: '{{Special:MyLanguage/MediaWiki:Donate_interface-desc/en}}'
+
+GROUPS:
+  - ext-di-gc
+  - ext-di-adyen
+  - ext-di-ag
+  - ext-di-ppg
+
+---
+BASIC:
   id: ext-discussiontools
   label: Discussion Tools
   description: '{{Special:MyLanguage/MediaWiki:Discussiontools-desc/en}}'
