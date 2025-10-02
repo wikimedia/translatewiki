@@ -64,6 +64,7 @@ GROUPS:
   - ext-universallanguageselector-user # change-id: b78d96d69d820c13ed262d5558d8c6e0ba5a6b2a
   - ext-uploadwizard-user
   - ext-visualeditor-ve-mw
+  - ext-visualeditor-ve-mw-editcheck
   - ext-visualeditor-ve-wmf
   - mwgerrit-visualeditor-ve
   - ext-wikibase-client-interface # change-id: 5f4c990f3a102f8ae51e4d7bd3f6cf15550a2bf4
