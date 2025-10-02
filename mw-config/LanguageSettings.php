@@ -2,7 +2,6 @@
 
 /** @phpcs-require-sorted-array */
 $wgExtraLanguageNames = [
-	'abr' => 'Abron', # Abron (a.k.a. Brong and Bono) / Amir 2024-07-07
 	'ach' => 'Acoli', # Acholi / Amir 2024-09-30
 	'ada' => 'Dangme', # Dangme / Amir 2023-10-08
 	'ahr' => 'अहिराणी', # Ahirani / Amir 2012-02-25
