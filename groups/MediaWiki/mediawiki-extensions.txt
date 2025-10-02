@@ -581,6 +581,7 @@ Blue Spice Translation Transfer
 descmsg = bs-translationtransfer-desc
 aliasfile = BlueSpiceTranslationTransfer/languages/TranslationTransfer.alias.php
 magicfile = BlueSpiceTranslationTransfer/languages/TranslationTransfer.magic.i18n.php
+optional = bs-translation-transfer-ui-transfer-preview-html
 
 Blue Spice UE Module Book PDF
 descmsg = bs-uemodulebookpdf-extension-description
