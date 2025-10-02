@@ -1807,6 +1807,7 @@ Iframe Page
 
 ImageFilter
 magicfile = ImageFilter/ImageFilter.i18n.magic.php
+optional = imagefilter-extname
 
 Image Map
 descmsg = imagemap_desc
