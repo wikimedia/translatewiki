@@ -1178,8 +1178,8 @@ wikimedia-misc-tools:
     wikiscore:
       type: github
       branch: develop
-      url: https://github.com/WikiMovimentoBrasil/wikiscore.git
-      url|export: git@github.com:WikiMovimentoBrasil/wikiscore.git
+      url: https://github.com/wikimediabrasil/wikiscore.git
+      url|export: git@github.com:wikimediabrasil/wikiscore.git
     wscd:
       type: github
       url: https://github.com/diskdance/wscd.git
