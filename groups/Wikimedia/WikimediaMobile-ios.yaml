@@ -44,6 +44,14 @@ TAGS:
     - wikipedia-ios-nearby-distance-label-meters
     - wikipedia-ios-insert-media-image-size-settings-px-unit-name
     - wikipedia-ios-notifications-center-language-project-name-format
+    - wikipedia-ios-percentile-0.01
+    - wikipedia-ios-percentile-1
+    - wikipedia-ios-percentile-5
+    - wikipedia-ios-percentile-10
+    - wikipedia-ios-percentile-20
+    - wikipedia-ios-percentile-30
+    - wikipedia-ios-percentile-40
+    - wikipedia-ios-percentile-50
 
 ---
 BASIC:
