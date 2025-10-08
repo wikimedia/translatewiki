@@ -250,6 +250,9 @@ $wgTranslateDisabledTargetLanguages = [
 	],
 	'oppia-android-app' => [
 		'es' => 'This code is not used in Oppia Android App. Use \'es-419\'.',
+	],
+	'kiwix-android' => [
+		'es-formal' => 'This code is not available for this software.',
 	]
 ];
 
