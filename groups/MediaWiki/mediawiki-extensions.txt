@@ -979,7 +979,7 @@ id = ext-confirmeditfancycaptcha-api
 file = ConfirmEdit/FancyCaptcha/i18n/api/%CODE%.json
 
 Confirm Edit hCaptcha
-file = ConfirmEdit/hCaptcha/i18n/%CODE%.json
+file = ConfirmEdit/i18n/hCaptcha/%CODE%.json
 descmsg = hcaptcha-desc
 ignored = hcaptcha-name
 
