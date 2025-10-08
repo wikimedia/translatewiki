@@ -1105,6 +1105,11 @@ wikimedia-misc-tools:
       branch: main
       url: https://github.com/SerDIDG/instant-diffs.git
       url|export: git@github.com:SerDIDG/instant-diffs.git
+    lingua-libre:
+      type: gitlab
+      branch: main
+      url: https://gitlab.wikimedia.org/repos/wikimedia-france/lingua-libre/lingua-libre.git
+      url|export: git@gitlab.wikimedia.org:repos/wikimedia-france/lingua-libre/lingua-libre.git
     pageviews:
       type: github
       url: https://github.com/MusikAnimal/pageviews.git
