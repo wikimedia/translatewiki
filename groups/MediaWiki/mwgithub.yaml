@@ -1283,7 +1283,7 @@ TAGS:
 
 ---
 BASIC:
-  id: mwgithub-requestssl
+  id: mwgithub-requestcustomdomain
   label: RequestCustomDomain
   description: "{{Special:MyLanguage/MediaWiki:requestcustomdomain-desc/en}}"
   support:

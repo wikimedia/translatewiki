@@ -23,6 +23,6 @@ GROUPS:
   - mwgithub-mirahezemagic-override
   - mwgithub-pdfembed
   - mwgithub-removepii
-  - mwgithub-requestssl
+  - mwgithub-requestcustomdomain
   - mwgithub-rottenlinks
   - mwgithub-wikidiscover
