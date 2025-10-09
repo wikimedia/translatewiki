@@ -3531,6 +3531,10 @@ VueJsPlus
 # https://phabricator.wikimedia.org/T315621#8642771
 Vue Test
 
+Wanda
+aliasfile = Wanda/Wanda_Aliases.php
+optional = wanda
+
 Wanted Pages From NS
 descmsg = wpfromns-desc
 
