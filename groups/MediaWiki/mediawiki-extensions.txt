@@ -140,6 +140,7 @@ Approved Revs
 aliasfile = ApprovedRevs/ApprovedRevs.alias.php
 magicfile = ApprovedRevs/ApprovedRevs.i18n.magic.php
 optional = approvedrevs-revision-nav
+ignored = apihelp-approvedrev-example-1
 
 Array Functions
 magicfile = ArrayFunctions/i18n/ArrayFunctions.i18n.php
