@@ -529,11 +529,11 @@ mwgithub:
       branch: main
       url: https://github.com/miraheze/RemovePII.git
       url|export: git@github.com:miraheze/RemovePII.git
-    mwgithub/miraheze/RequestSSL:
+    mwgithub/miraheze/RequestCustomDomain:
       type: github
       branch: main
-      url: https://github.com/miraheze/RequestSSL.git
-      url|export: git@github.com:miraheze/RequestSSL.git
+      url: https://github.com/miraheze/RequestCustomDomain.git
+      url|export: git@github.com:miraheze/RequestCustomDomain.git
     mwgithub/miraheze/RottenLinks:
       type: github
       branch: main
