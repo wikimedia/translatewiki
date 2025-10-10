@@ -1,0 +1,31 @@
+---
+BASIC:
+  id: wikisource-reader
+  label: Wikisource Reader app
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikisource-reader/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  icon: File:Wikisource-logo.svg
+  support:
+    url: https://phabricator.wikimedia.org/maniphest/task/edit/form/1/
+    params:
+      projects: wikisource_reader_app
+      title: Translation issue about message %MESSAGE%
+      description: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
+
+FILES:
+  format: AndroidXml
+  sourcePattern: "%GROUPROOT%/wikisource-reader/app/src/main/res/values-%CODE%/strings.xml"
+  definitionFile: "%GROUPROOT%/wikisource-reader/app/src/main/res/values/strings.xml"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikisource-reader-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: Printf
+    insertable: true
+  - id: UnicodePlural
+    enforce: true

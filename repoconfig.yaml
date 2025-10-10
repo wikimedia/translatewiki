@@ -1160,6 +1160,11 @@ wikimedia-misc-tools:
       branch: main
       url: https://github.com/wikimediabrasil/wiki_infographics.git
       url|export: git@github.com:wikimediabrasil/wiki_infographics.git
+    wikisource-reader:
+      type: github
+      branch: main
+      url: https://github.com/cis-india/Wikisource-Reader.git
+      url|export: git@github.com:cis-india/Wikisource-Reader.git
     xtools:
       type: github
       branch: main

@@ -327,6 +327,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/video2commons.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WhoWroteThat.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/wiki-ai.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikiBlame.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WikisourceReader.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WmczTracker.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/WmczWeb.yaml";
 $wgTranslateGroupAliases['out-wikiblame'] = 'wikiblame';
