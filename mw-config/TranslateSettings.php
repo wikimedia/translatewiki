@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/FallbackSettings.php';
+require_once __DIR__ . '/AssistantLanguageSettings.php';
 require_once __DIR__ . '/LanguageSettings.php';
 
 $GROUPS = '/home/betawiki/config/groups';

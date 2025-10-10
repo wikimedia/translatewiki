@@ -1,11 +1,16 @@
 <?php
-/** Local translatewiki fallback settings.
+/** Local translatewiki assistant language settings.
  *
  * Adding a value here makes the languages in it appear by default
  * as "assistant languages" to people who translate to the language listed
  * as the key and who have the default value in the assistant language
- * preferecnce. This value is added to the existing fallback language value
- * as defined in core MediaWiki.
+ * preferecnce.
+ *
+ * Despite the name of the config variable, this should not be confused
+ * with MediaWiki core's fallback langugages. The threshold to add an
+ * assistant language in this file is very low, unlike for MessagesXxx.php
+ * files in MediaWiki core. The values listed in this file will be
+ * combined with any fallback languages defined in MediaWiki core.
  *
  */
 
