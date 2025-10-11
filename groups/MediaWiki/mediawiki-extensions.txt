@@ -3589,7 +3589,13 @@ Widgets
 magicfile = Widgets/Widgets.i18n.magic.php
 optional = group-widgeteditor.css, group-widgeteditor.js
 
-# Wigo3 // 2020-08-13: inconsistent prefix and no FOSS license
+Wigo3
+magicfile = Wigo3/wigo3.i18n.magic.php
+ignored = wigo-bestof-tooltipseparator
+
+Wigo3 - API
+id = ext-wigo3-api
+file = Wigo3/i18n/api/%CODE%.json
 
 WikEd Diff
 descmsg = wiked-diff-desc
