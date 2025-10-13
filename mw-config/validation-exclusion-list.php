@@ -26,36 +26,14 @@ $validationExclusionList = [
 		'check' => 'variable',
 		'message' => [
 			'abusefilter-edit-lastmod-text', // Optional username parameter for GENDER, optional time parameters
-			'abusefilter-reautoconfirm-none', // Optional username parameter for GENDER
 		]
 	],
 	[
 		'group' => 'ext-articlefeedbackv5',
 		'check' => 'variable',
 		'message' => [
-			'articlefeedbackv5-activity-item-request', // Optional GENDER parameter
-			'articlefeedbackv5-activity-item-clear-flags', // Optional GENDER parameter
-		]
-	],
-	[
-		'group' => 'ext-babel-user',
-		'check' => 'variable',
-		'message' => [
-			'babel', // Optional GENDER parameter
-			'babel-0', // Optional GENDER parameter
-			'babel-1', // Optional GENDER parameter
-			'babel-2', // Optional GENDER parameter
-			'babel-3', // Optional GENDER parameter
-			'babel-4', // Optional GENDER parameter
-			'babel-5', // Optional GENDER parameter
-			'babel-N', // Optional GENDER parameter
-			'babel-0-n', // Optional GENDER parameter
-			'babel-1-n', // Optional GENDER parameter
-			'babel-2-n', // Optional GENDER parameter
-			'babel-3-n', // Optional GENDER parameter
-			'babel-4-n', // Optional GENDER parameter
-			'babel-5-n', // Optional GENDER parameter
-			'babel-N-n', // Optional GENDER parameter
+			'articlefeedbackv5-activity-item-request', // Optional time parameter
+			'articlefeedbackv5-activity-item-clear-flags', // Optional time parameter
 		]
 	],
 	[
@@ -69,29 +47,7 @@ $validationExclusionList = [
 		'group' => 'ext-categorytree-user',
 		'check' => 'variable',
 		'message' => [
-			'Categorytree-member-counts', // Optional counts: $4, and $5
-		]
-	],
-	[
-		'group' => 'ext-centralauth-user',
-		'check' => 'links',
-		'message' => [
-			'centralauth-readmore-text', // Contains link to page that may be available in a translated version
-			'centralauth-finish-problems', // Contains link to page that may be available in a translated version
-		]
-	],
-	[
-		'group' => 'ext-centralauth-user',
-		'check' => 'variable',
-		'message' => [
-			'centralauth-centralautologin-logged-in', // Optional GENDER parameter
-		]
-	],
-	[
-		'group' => 'ext-checkuser-user',
-		'check' => 'variable',
-		'message' => [
-			'group-checkuser-member', // Optional GENDER parameter
+			'categorytree-member-counts', // Optional counts: $4, and $5
 		]
 	],
 	[
@@ -114,26 +70,9 @@ $validationExclusionList = [
 		'group' => 'ext-echo-interface',
 		'check' => 'variable',
 		'message' => [
-			'notification-header-mention-failure-too-many', // GENDER parameter not needed e.g. in uk
 			'notification-header-user-rights-add-and-remove', // Optional PLURAL parameters $3, $5
 			'notification-header-user-rights-add-only', // Optional PLURAL parameter $3
 			'notification-header-user-rights-remove-only', // Optional PLURAL parameter $3
-		]
-	],
-	[
-		'group' => 'ext-editsubpages',
-		'check' => 'links',
-		'message' => [
-			'unlockedpages', // Contains links that are translated
-		]
-	],
-	[
-		'group' => 'ext-flaggedrevs-flaggedrevs',
-		'check' => 'variable',
-		'message' => [
-			'group-editor-member', // Optional GENDER parameter
-			'group-reviewer-member', // Optional GENDER parameter
-			'group-autoreview-member', // Optional GENDER parameter
 		]
 	],
 	[
@@ -179,13 +118,6 @@ $validationExclusionList = [
 		]
 	],
 	[
-		'group' => 'ext-linkfilter',
-		'check' => 'variable',
-		'message' => [
-			'group-linkadmin-member', // Optional GENDER parameter
-		]
-	],
-	[
 		'group' => 'ext-liquidthreads',
 		'check' => 'variable',
 		'message' => [
@@ -208,15 +140,6 @@ $validationExclusionList = [
 		'check' => 'variable',
 		'message' => [
 			'newusernotifbody', // Optional time parameters
-		]
-	],
-	[
-		'group' => 'ext-push',
-		'check' => 'variable',
-		'message' => [
-			'group-pusher-member', // Optional GENDER parameter
-			'group-bulkpusher-member', // Optional GENDER parameter
-			'group-filepusher-member', // Optional GENDER parameter
 		]
 	],
 	[
@@ -267,73 +190,10 @@ $validationExclusionList = [
 		]
 	],
 	[
-		'group' => 'ext-survey',
-		'check' => 'variable',
-		'message' => [
-			'group-surveyadmin-member', // Optional GENDER parameter
-			'group-surveysubmit-member', // Optional GENDER parameter
-		]
-	],
-	[
-		'group' => 'ext-timedmediahandler-user',
-		'check' => 'links',
-		'message' => [
-			'timedmedia-subtitle-new-desc', // Contains links that are translated
-		]
-	],
-	[
-		'group' => 'ext-titleblacklist',
-		'check' => 'variable',
-		'code' => [
-			'gan', 'gan-hans', 'gan-hant', 'gn', 'hak', 'hu', 'ja',
-			'ka', 'kk-arab', 'kk-cyrl', 'kk-latn', 'ko', 'lzh', 'mn', 'ms', 'sah', 'sq',
-			'tet', 'th', 'wuu', 'xmf', 'yue', 'zh', 'zh-classical', 'zh-cn', 'zh-hans',
-			'zh-hant', 'zh-hk', 'zh-sg', 'zh-tw', 'zh-yue'
-		],
-		'message' => [
-			'titleblacklist-invalid', // Param only used in plural
-		]
-	],
-	[
-		'group' => 'ext-translate-core',
-		'check' => 'links',
-		'message' => [
-			'supportedlanguages-summary', // Contains links that are translated
-		]
-	],
-	[
-		'group' => 'ext-translate-core',
-		'check' => 'plural',
-		'message' => [
-			'translate-checks-plural-dupe', // Message explaining the check.
-		]
-	],
-	[
 		'group' => 'ext-translate-core',
 		'check' => 'variable',
 		'message' => [
 			'tux-editor-save-failed', // Optional PLURAL parameter
-		]
-	],
-	[
-		'group' => 'ext-uploadwizard-user',
-		'check' => 'links',
-		'message' => [
-			'mwe-upwiz-source-ownwork-origin-option-others-unknown-warning', // Contains links that are translated
-		]
-	],
-	[
-		'group' => 'ext-uploadwizard-user',
-		'check' => 'variable',
-		'message' => [
-			'group-upwizcampeditors-member', // Optional GENDER parameter
-		]
-	],
-	[
-		'group' => 'ext-widgets',
-		'check' => 'variable',
-		'message' => [
-			'group-widgeteditor-member', // Optional GENDER parameter
 		]
 	],
 	[
@@ -342,13 +202,6 @@ $validationExclusionList = [
 		'message' => [
 			'wikieditor-toolbar-help-content-ilink-example', // Contains links that are translated
 			'wikieditor-toolbar-help-content-file-syntax', // Contains links that are translated
-		]
-	],
-	[
-		'group' => 'ext-wikiforum',
-		'check' => 'variable',
-		'message' => [
-			'group-forumadmin-member', // Optional GENDER parameter
 		]
 	],
 	[
@@ -563,13 +416,6 @@ $validationExclusionList = [
 		'check' => 'links',
 		'message' => [
 			'wminc-code-macrolanguage', // Contains link that can be translated
-		]
-	],
-	[
-		'group' => 'ext-wikimediaincubator-core',
-		'check' => 'variable',
-		'message' => [
-			'group-test-sysop-member', // Optional GENDER parameter
 		]
 	],
 	[
