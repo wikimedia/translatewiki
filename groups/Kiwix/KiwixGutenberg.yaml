@@ -1,0 +1,29 @@
+---
+BASIC:
+  id: kiwix-gutenberg
+  label: Gutenberg scraper
+  description: "{{Special:MyLanguage/Translations:Group descriptions/kiwix/en}}"
+  namespace: NS_KIWIX
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/openzim/gutenberg/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/kiwix-gutenberg/locales/%CODE%.json"
+  nestingSeparator: .
+
+MANGLER:
+  class: StringMatcher
+  prefix: kiwix-gutenberg-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: InsertableRegex
+    enforce: true
+    insertable: true
+    params: /{{[a-zA-Z_0-9]+}}/

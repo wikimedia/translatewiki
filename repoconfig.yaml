@@ -245,6 +245,12 @@ kiwix:
       pull-branch: translatewiki
       url: https://github.com/kiwix/kiwix-apple.git
       url|export: git@github.com:kiwix/kiwix-apple.git
+    kiwix-gutenberg:
+      type: github
+      branch: main
+      pull-branch: translatewiki
+      url: https://github.com/openzim/gutenberg.git
+      url|export: git@github.com:openzim/gutenberg.git
     kiwix-mwoffliner:
       type: github
       branch: main
