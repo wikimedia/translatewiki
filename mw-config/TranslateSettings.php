@@ -236,9 +236,11 @@ $wgTranslateDisabledTargetLanguages = [
 		'zh-yue' => 'This language code should remain unused. Localise in yue please.',
 	],
 	'core' => [
+		'de-formal' => 'This language code should remain unused. Translate into \'de\' and use the {{#FORMAL:}} syntax instead.',
 		'es-mx' => 'This code is not used in MediaWiki. Use \'es\'.',
 	],
 	'ext' => [
+		'de-formal' => 'This language code should remain unused. Translate into \'de\' and use the {{#FORMAL:}} syntax instead.',
 		'es-mx' => 'This code is not used in MediaWiki. Use \'es\'.',
 	],
 	'out' => [
