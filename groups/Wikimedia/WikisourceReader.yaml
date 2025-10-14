@@ -29,3 +29,11 @@ VALIDATORS:
     insertable: true
   - id: UnicodePlural
     enforce: true
+
+TAGS:
+  optional:
+    - wikisource-reader-org name
+  ignored:
+    - wikisource-reader-app name
+    - wikisource-reader-material you setting
+    - wikisource-reader-org website
