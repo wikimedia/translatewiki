@@ -33,6 +33,7 @@ VALIDATORS:
 TAGS:
   optional:
     - wikisource-reader-org_name
+    - wikisource-reader-zero
   ignored:
     - wikisource-reader-app_name
     - wikisource-reader-material_you_setting
