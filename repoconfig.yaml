@@ -282,8 +282,8 @@ lib.reviews:
     lib.reviews:
       type: github
       branch: main
-      url: https://github.com/eloquence/lib.reviews.git
-      url|export: git@github.com:eloquence/lib.reviews.git
+      url: https://github.com/permacommons/lib.reviews.git
+      url|export: git@github.com:permacommons/lib.reviews.git
 
 mantis:
   group: out-mantis*
