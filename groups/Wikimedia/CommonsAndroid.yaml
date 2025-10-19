@@ -75,6 +75,7 @@ FILES:
 
 TAGS:
   optional:
+    - commons-android-strings-contributions_subtitle
     - commons-android-strings-hello_world
     - commons-android-strings-bullet_point
     - commons-android-strings-license_name_cc0
