@@ -3930,6 +3930,7 @@ ignored = wikimedia-globalblocking-blockedtext-autoblock, wikimedia-globalblocki
 ignored = wikimedia-skin-minerva-donate-banner-gif, wikimedia-skin-minerva-donate-banner-url
 ignored = wikimedia-skin-minerva-donate-banner-reduced-motion, wikimedia-pvi-month-count-value
 ignored = wikimedia-vector-night-mode-issue-reporting-notice-url
+ignored = wikimedia-checkuser-temporary-accounts-onboarding-dialog-ip-reveal-step-content
 optional = wikimedia-centralauth-uwbr-registration-nodate
 
 # Wikimedia Overrides No Translate // Per name: no translate
