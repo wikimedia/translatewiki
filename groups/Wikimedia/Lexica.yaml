@@ -1,0 +1,32 @@
+---
+BASIC:
+  id: lexica-frontend
+  label: Lexica
+  icon: File:Lexica_Icon.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/lexica-frontend/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://phabricator.wikimedia.org/maniphest/task/edit/form/1/
+    params:
+      projects: Tool-lexica-tool, i18n
+      title: Translation issue about message %MESSAGE%
+      description: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: lexica-frontend-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/lexica-frontend/src/locale/%CODE%.json"
+  nestingSeparator: .
+
+VALIDATORS:
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /{{[a-z0-9]+}}/
+

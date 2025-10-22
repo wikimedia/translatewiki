@@ -304,6 +304,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ia-upload.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/InstantDiffs.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/InteractionTimeline.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/InternetArchiveBot.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Lexica.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/LinguaLibre.yaml";
 $wgTranslateGroupAliases['out-jquery-uls'] = 'jquery-uls';
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/MiniEdit.yaml";
