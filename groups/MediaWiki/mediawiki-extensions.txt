@@ -3538,7 +3538,7 @@ Vue Test
 
 Wanda
 aliasfile = Wanda/Wanda_Aliases.php
-optional = wanda
+optional = wanda, wanda-name
 
 Wanted Pages From NS
 descmsg = wpfromns-desc
