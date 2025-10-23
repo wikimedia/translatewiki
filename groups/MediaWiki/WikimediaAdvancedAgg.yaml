@@ -59,7 +59,7 @@ GROUPS:
   - ext-poem
   - ext-proofreadpage-user # Wikisource
   - ext-propertysuggester-user # https://phabricator.wikimedia.org/rOMWC8612a69333853901fa04dcc377ce58d0879782d0
-  - ext-quicksurveys # 2016, some wiki
+  - ext-quicksurveys
   - ext-quiz
   - ext-readinglists-user # Deployed everywhere, but most features are disabled; move to Main once they are enabled. https://phabricator.wikimedia.org/rOMWCf9582378355829349affb468ee8dbef77dbeffe9
   - ext-realme # https://phabricator.wikimedia.org/rOMWC209bdaf2e054914ec93ba79ef7b07c74aefcd860
