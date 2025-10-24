@@ -224,6 +224,9 @@ $wgNoFollowDomainExceptions = [
 	'ultimategerardm.blogspot.com',
 ];
 
+// Enable edit recovery. Can be removed when it is made a default MW feature (T342726)
+$wgEnableEditRecovery = true;
+
 /**
  * Helper function for adding namespace for message groups.
  *
