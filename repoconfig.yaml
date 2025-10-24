@@ -295,7 +295,7 @@ mathjax:
 
 mediawiki:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
+  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   export-threshold: 13
   group: core,mediawiki-codex,mediawiki-datetime,mediawiki-interwiki,mediawiki-preferences,mediawiki-api,mediawiki-rest-api,mediawiki-exif,mediawiki-languageconverter,wikimedia-paramvalidator,mediawiki-installer,mediawiki-botpasswords
   auto-merge: mediawiki/core
@@ -307,7 +307,7 @@ mediawiki:
 
 mediawiki-extensions:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
+  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   export-threshold: 0
   group: ext-*
   auto-merge: ^mediawiki/extensions/.*
@@ -316,7 +316,7 @@ mediawiki-extensions:
 
 mediawiki-skins:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
+  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   export-threshold: 0
   group: mediawiki-skin-*
   auto-merge: ^mediawiki/skins/.*
@@ -334,7 +334,7 @@ miniedit:
 
 mwbitbucket:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
+  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   group: mwbitbucket-*,mwbitbucketskin-*
   repos:
     mwbitbucket/wikiskripta/medik:
@@ -361,7 +361,7 @@ mwgerrit:
 
 mwgithub:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
+  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   group: mwgithub-*,mwgithubskin-*
   repos:
     mwgithub/wiki-gg-oss/mediawiki-extensions-DataMaps:
@@ -783,7 +783,7 @@ mwgithub:
 
 mwgitlab:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
+  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
   group: mwgitlab-*,mwgitlabskin-*
   repos:
     mwgitlab/nonsensopedia/ratepage:
@@ -920,7 +920,7 @@ swviewer:
 
 toolhub:
   always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,dk,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady,qqq
+  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady,qqq
   group: toolhub-*
   auto-merge: wikimedia/toolhub
   repos:
