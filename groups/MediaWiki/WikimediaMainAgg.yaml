@@ -51,7 +51,6 @@ GROUPS:
   - ext-parserfunctions
   - ext-parsermigration-user
   - ext-popups # 2014-03-19
-  - ext-readerexperiments # https://phabricator.wikimedia.org/rOMWCc398fa918d53c47e580f47b2508e1533db08f3a8
   - ext-spamblacklist-interface
   - ext-thanks-user
   - ext-thewikipedialibrary # https://phabricator.wikimedia.org/rOMWCe66bd53b54ee29423affcba768b7a3cf1a81714a
