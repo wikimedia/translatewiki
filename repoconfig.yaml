@@ -810,6 +810,15 @@ mwgitlab:
       url: https://gitlab.com/telepedia/extensions/userprofilev2.git
       url|export: git@gitlab.com:telepedia/extensions/userprofilev2.git
 
+nemo-web:
+  group: nemo-web
+  repos:
+    nemo-web:
+      type: github
+      branch: main
+      url: https://github.com/knowsys/nemo-web.git
+      url|export: git@github.com:knowsys/nemo-web.git
+
 nfcring-control:
   group: nfcring-control
   repos:

@@ -1,0 +1,25 @@
+---
+BASIC:
+  id: nemo-web
+  label: Nemo Web (the TypeScript front-end for Nemo)
+  description: "{{Special:MyLanguage/Translations:Group descriptions/nemo-web/en}}"
+  icon: wiki://nemo-logo-rusty-bright.svg
+  namespace: NS_PROJECTS
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/knowsys/nemo-web/issues
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: nemo-web-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/nemo-web/src/i18n/%CODE%.json"
+  estingSeparator: .
+
