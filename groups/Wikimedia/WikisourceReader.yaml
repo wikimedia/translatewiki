@@ -17,6 +17,31 @@ FILES:
   format: AndroidXml
   sourcePattern: "%GROUPROOT%/wikisource-reader/app/src/main/res/values-%CODE%/strings.xml"
   definitionFile: "%GROUPROOT%/wikisource-reader/app/src/main/res/values/strings.xml"
+  codeMap:
+    be-tarask: b+be+x+old
+    he: iw
+    hif-latn: b+hif+Latn
+    id: in
+    isv-latn: b+isv+Latn
+    kk-cyrl: b+kk+Cyrl
+    ko-kp: ko-rKP
+    ku-latn: ku
+    ms-arab: b+ms+Arab
+    nds-nl: b+nds+NL
+    pt-br: pt-rBR
+    qqq: qq
+    roa-tara: b+roa+tara
+    sh-cyrl: b+sh+Cyrl
+    sh-latn: sh
+    skr-arab: skr
+    sr-ec: sr
+    sr-el: b+sr+Latn
+    tg-cyrl: b+tg+Cyrl
+    tt-cyrl: b+tt+Cyrl
+    ug-arab: ug
+    yi: ji
+    zh-hans: zh
+    zh-hant: zh-rTW
 
 MANGLER:
   class: StringMatcher
