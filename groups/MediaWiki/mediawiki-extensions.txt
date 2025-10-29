@@ -3951,7 +3951,7 @@ ignored = wikimedia-graph-disabled
 Wikispeech - User interface
 id = ext-wikispeech-user
 file = Wikispeech/i18n/%CODE%.json
-optional = wikispeech, prefs-wikispeech
+optional = wikispeech
 ignored = grouppage-wikispeech-edit-lexicon, wikispeech-testlisten-ssml
 aliasfile = Wikispeech/Wikispeech.alias.php
 
