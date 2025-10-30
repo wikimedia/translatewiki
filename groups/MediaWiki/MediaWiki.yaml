@@ -74,6 +74,7 @@ GROUPS:
   - mediawiki-interwiki
   - mediawiki-languageconverter
   - mediawiki-preferences
+  - mediawiki-userrights
   - mediawiki-exif
 
 ---
@@ -165,9 +166,6 @@ TAGS:
     - limitreport-expensivefunctioncount-value
     - limitreport-ppvisitednodes-value
     - limitreport-unstrip-depth-value
-    - listgrants-grant-display
-    - listgrouprights-right-display
-    - listgrouprights-right-revoked
     - mediastatistics-header-3d
     - mediastatistics-nfiles
     - mergehistory-revisionrow
@@ -226,10 +224,6 @@ TAGS:
     - unpatrolledletter
     - usermessage-editor
     - usermessage-template
-    - userrights-groupsmember-type
-    - userrights-irreversible-marker
-    - userrights-no-shorten-expiry-marker
-    - userrights-unable-to-change-row
     - version-api
     - version-entrypoints-articlepath
     - version-entrypoints-scriptpath
@@ -485,6 +479,27 @@ TAGS:
   ignored:
     - preferences-summary
     - prefs-user-downloaddata-help-message
+
+---
+BASIC:
+  id: mediawiki-userrights
+  label: MediaWiki core - User rights
+  class: FileBasedMessageGroup
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikiuserrights/en}}"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mediawiki/master/languages/i18n/userrights/%CODE%.json"
+
+TAGS:
+  optional:
+    - userrights-groupsmember-type
+    - userrights-irreversible-marker
+    - userrights-no-shorten-expiry-marker
+    - userrights-unable-to-change-row
+    - listgrants-grant-display
+    - listgrouprights-right-display
+    - listgrouprights-right-revoked
 
 ---
 BASIC:
