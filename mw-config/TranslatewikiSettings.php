@@ -345,3 +345,7 @@ $wgHooks['Translate:TranslatorSandbox:UserPromoted'][] = static function ( User 
 
 // To fix caching issues with SMW after it was removed
 $wgCacheEpoch = '20231016122718';
+
+// See: https://gerrit.wikimedia.org/r/c/mediawiki/extensions/OAuth/+/1198691
+$wgMWOAuthSharedUserIDs = true;
+$wgMWOAuthSharedUserSource = 'local';
