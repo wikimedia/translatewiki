@@ -540,7 +540,7 @@ BASIC:
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/mediawiki/master/includes/installer/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mediawiki/master/includes/Installer/i18n/%CODE%.json"
 
 TAGS:
   optional:
