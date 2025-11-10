@@ -33,15 +33,6 @@ blockly:
       url: https://github.com/NeilFraser/blockly-games.git
       url|export: git@github.com:NeilFraser/blockly-games.git
 
-civiform:
-  group: civiform
-  repos:
-    civiform:
-      type: github
-      branch: main
-      url: https://github.com/civiform/civiform-messages.git
-      url|export: git@github.com:civiform/civiform-messages.git
-
 codev:
   group: codev
   repos:
