@@ -148,6 +148,7 @@ $wgExtraLanguageNames = [
 	'rml-cyrl' => 'романы', # Baltic Romani (Cyrillic) / Amir 2024-12-09
 	'rtm' => 'Faeag Rotuma', # Rotuman
 	'saz' => 'ꢱꣃꢬꢵꢯ꣄ꢡ꣄ꢬꢵ', # Saurashtra / Siebrand 2011-03-17
+	'sgh' => 'Xuɣ̌nůni', # Shughni / ToluAyo 2025-11-11
 	'sju' => 'ubmejesámiengiälla', # Ume Sámi / Jon Harald Søby 2023-12-22
 	'slr' => 'Salırça', # Salar / Siebrand 2008-08-18
 	'sly' => 'Bahasa Selayar', # A Selayar / Siebrand 2012-01-09
