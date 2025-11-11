@@ -15,6 +15,6 @@ class repong::autoexport (
 
   repong::autoexport_timer { 'autoexport-mediawiki':
     command => 'autoexport-mediawiki',
-    when    => 'Mon-Fri 7:00:00 UTC',
+    when    => 'Mon-Fri 7:30:00 UTC',
   }
 }
