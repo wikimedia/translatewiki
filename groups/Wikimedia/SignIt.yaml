@@ -1,7 +1,7 @@
 ---
 BASIC:
   id: signit
-  label: Lingua Libre SignIt
+  label: SignIt
   description: "{{Special:MyLanguage/Translations:Group descriptions/signit/en}}"
   icon: wiki://Signit-64.png
   namespace: NS_WIKIMEDIA
