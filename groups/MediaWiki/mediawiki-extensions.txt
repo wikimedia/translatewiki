@@ -3858,6 +3858,7 @@ ignored = ipinfo-xtools-url-label, grouppage-founder, grouppage-vrt-permissions
 ignored = wikimedia-babellink-label, wikimedia-styles-exclude
 ignored = sitesupport-url, tag-AWB-helppage
 ignored = wikinews-mobile-license-links-ccby40, wikinews-mobile-license-links-ccbysa40
+ignored = wikimedia-legal-safety-contacts-url
 optional = tag-AWB
 optional = grouppage-coder
 optional = shared-repo-name-shared
