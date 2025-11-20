@@ -785,6 +785,7 @@ ignored = checkuser-suggestedinvestigations-risk-signals-popover-body-dev-signal
 ignored = checkuser-suggestedinvestigations-signal-dev-signal-1
 ignored = checkuser-suggestedinvestigations-signal-dev-signal-2
 ignored = checkuser-temporary-accounts-onboarding-dialog-ip-reveal-step-content
+ignored = checkuser-suggestedinvestigations-user
 optional = checkuser-time-range
 optional = group-checkuser.css, group-checkuser.js
 optional = checkuser-investigate-compare-toollinks-whois, checkuser-clienthints-list-item
