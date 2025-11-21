@@ -766,15 +766,6 @@ GROUPS:
   - ext-wikimediaincubator-*
 ---
 BASIC:
-  id: ext-wikimediaeditortasks
-  label: Wikimedia Editor Tasks
-  description: '{{Special:MyLanguage/MediaWiki:Wikimediaeditortasks-desc/en}}'
-
-GROUPS:
-  - ext-wikimediaeditortasks-*
-
----
-BASIC:
   id: ext-wikispeech
   label: Wikispeech
   description: '{{Special:MyLanguage/MediaWiki:Wikispeech-desc/en}}'

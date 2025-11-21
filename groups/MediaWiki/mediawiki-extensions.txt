@@ -3804,14 +3804,6 @@ Wikimedia Campaign Events - User interface
 id = ext-wikimediacampaignevents-user
 file = WikimediaCampaignEvents/i18n/%CODE%.json
 
-Wikimedia Editor Tasks - User interface
-id = ext-wikimediaeditortasks-user
-file = WikimediaEditorTasks/i18n/%CODE%.json
-
-Wikimedia Editor Tasks - API
-id = ext-wikimediaeditortasks-api
-file = WikimediaEditorTasks/i18n/api/%CODE%.json
-
 Wikimedia Events
 optional = wikimediaevents-special-wikimediadebug-desc
 ignored = tag-cross-wiki-upload-helppage

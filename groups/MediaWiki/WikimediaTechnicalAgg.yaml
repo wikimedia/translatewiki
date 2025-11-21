@@ -93,7 +93,6 @@ GROUPS:
   - ext-wikilove-api
   - ext-wikimediaapiportaloauth
   - ext-wikimediacampaignevents-rest
-  - ext-wikimediaeditortasks-api
   - ext-wikimediaevents
   - ext-xanalytics # 2015-02-02 on all wikis
   - mediawiki-skin-wikimediaapiportal
