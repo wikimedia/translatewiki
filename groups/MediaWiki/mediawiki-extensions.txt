@@ -3542,6 +3542,10 @@ Wanda
 aliasfile = Wanda/Wanda_Aliases.php
 optional = wanda, wanda-name
 
+Wanda Score
+aliasfile = WandaScore/WandaScore.aliases.php
+optional = wandascore
+
 Wanted Pages From NS
 descmsg = wpfromns-desc
 
