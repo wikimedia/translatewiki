@@ -90,7 +90,7 @@ Modern
 optional = modern.css, modern.js
 
 Monaco
-ignored = monaco-dynamic-links-write-article-url
+ignored = dynamic-links-write-article-url
 ignored = monaco-sidebar
 ignored = monaco-toolbox
 
