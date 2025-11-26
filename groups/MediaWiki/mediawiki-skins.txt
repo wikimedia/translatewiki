@@ -89,6 +89,11 @@ optional = mirage.css, mirage.js
 Modern
 optional = modern.css, modern.js
 
+Monaco
+ignored = monaco-dynamic-links-write-article-url
+ignored = monaco-sidebar
+ignored = monaco-toolbox
+
 MonoBook
 optional = monobook.css, monobook.js, monobook-action-addsection
 optional = monobook-prefs-talkpage

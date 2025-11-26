@@ -1899,34 +1899,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: mwgithub-mediawiki-monaco
-  label: Monaco
-  description: "{{Special:MyLanguage/MediaWiki:Monaco-desc/en}}"
-  support:
-    url: https://github.com/Universal-Omega/Monaco/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\nMessage definition: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/Monaco/i18n/%CODE%.json"
-
-TAGS:
-  ignored:
-    - monaco-dynamic-links-write-article-url
-    - monaco-sidebar
-    - monaco-toolbox
-
-MANGLER:
-  class: StringMatcher
-  prefix: monaco-
-  patterns:
-    - dynamic-links
-    - dynamic-links-*
-
----
-BASIC:
   id: mwgithub-mediawiki-monaco-contentrightsidebar
   label: Monaco - ContentRightSidebar
   description: "{{Special:MyLanguage/MediaWiki:Monacocontentrightsidebar-desc/en}}"

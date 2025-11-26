@@ -760,11 +760,6 @@ mwgithub:
       branch: main
       url: https://github.com/Universal-Omega/DynamicPageList3.git
       url|export: git@github.com:Universal-Omega/DynamicPageList3.git
-    mwgithub/Universal-Omega/Monaco:
-      type: github
-      branch: main
-      url: https://github.com/Universal-Omega/Monaco.git
-      url|export: git@github.com:Universal-Omega/Monaco.git
     mwgithub/Universal-Omega/PortableInfobox:
       type: github
       branch: main
