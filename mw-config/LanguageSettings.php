@@ -26,7 +26,6 @@ $wgExtraLanguageNames = [
 	'bkm' => 'Itaŋikom', # Kom / Amir 2021-03-31
 	'blc' => 'ItNuxalkmc', # Nuxalk / Amir 2020-06-22
 	'bnn' => 'bunun', # Bunun / Amir 2022-07-20
-	'bol' => 'bòo pìkkà', # Bole / Jon Harald Søby 2023-07-27
 	'bom' => 'bèrom', # Berom / Eugene Wang'ombe 2022-12-01
 	'brx' => 'बर\'', # Boro / Siebrand 2017-05-20
 	'bum' => 'bulu', # Bulu / Amir 2022-02-19
