@@ -1,0 +1,29 @@
+---
+BASIC:
+  id: broomstick
+  label: Broomstick
+  icon: File://Broomstick_Icon.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/broomstick/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/wikicollabs/broomstick/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: broomstick-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/broomstick/src/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: true
+  - id: BraceBalance
