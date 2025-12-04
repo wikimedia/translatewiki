@@ -3561,6 +3561,8 @@ Wanda Score
 aliasfile = WandaScore/WandaScore.aliases.php
 optional = wandascore
 
+Wanda Scribe
+
 Wanted Pages From NS
 descmsg = wpfromns-desc
 

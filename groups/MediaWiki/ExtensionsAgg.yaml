@@ -681,6 +681,14 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-wanda
+  label: Wanda
+  description: '{{Special:MyLanguage/MediaWiki:Wanda-desc/en}}'
+GROUPS:
+  - ext-wanda-*
+
+---
+BASIC:
   id: ext-webauthn
   label: WebAuthn
   description: '{{Special:MyLanguage/MediaWiki:Webauthn-desc/en}}'
