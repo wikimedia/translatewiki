@@ -181,6 +181,7 @@ $wgEchoBundleEmailInterval = 14400;
 $wgEchoNotificationIcons['site']['url'] = '/static/logo-square.svg';
 
 wfLoadExtension( 'OAuth' );
+$wgVirtualDomainsMapping['virtual-oauth'] = [ 'db' => $wgMWOAuthCentralWiki ];
 $wgMWOAuthSecureTokenTransfer = true;
 $wgGroupPermissions['user']['mwoauthproposeconsumer'] = true; // T330500
 $wgGroupPermissions['user']['mwoauthupdateownconsumer'] = true; // T330500
