@@ -2585,16 +2585,29 @@ aliasfile = PDFCreator/languages/SpecialPDFTemplatesOverview.alias.php
 Pdf Handler
 descmsg = pdf-desc
 
+Per Page Language
+
 # Archived: T294794
 # Performance Inspector
 # optional = performanceinspector-modules-css-name, performanceinspector-modules-css-label
 # optional = performanceinspector-modules-css-column-url, performanceinspector-newpp-value-and-limit
 # optional = performanceinspector-newpp-template-time-report-column-percentreal, performanceinspector-newpp-scribunto
 
+Personal Dashboard
+descmsg = personal-dashboard-desc
+aliasfile = PersonalDashboard/PersonalDashboard.i18n.alias.php
+
+Personal Dashboard - Policies Guidelines
+file = PersonalDashboard/i18n/ext.personalDashboard.policiesGuidelines/%CODE%.json
+
+Personal Dashboard - Risky Article Edits
+file = PersonalDashboard/i18n/ext.personalDashboard.riskyArticleEdits/%CODE%.json
+
+Personal Dashboard - Risky Article Edits Mobile
+file = PersonalDashboard/i18n/ext.personalDashboard.riskyArticleEdits.mobile/%CODE%.json
+
 Petition
 aliasfile = Petition/Petition.alias.php
-
-Per Page Language
 
 PGF TikZ
 

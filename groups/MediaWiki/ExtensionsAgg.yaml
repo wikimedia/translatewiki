@@ -479,6 +479,13 @@ BASIC:
 GROUPS:
   - ext-parsermigration-*
 
+---BASIC:
+  id: ext-personaldashboard
+  label: Personal Dashboard
+  description: '{{Special:MyLanguage/MediaWiki:Personal-dashboard-desc/en}}'
+GROUPS:
+  - ext-personaldashboard-*
+
 ---
 BASIC:
   id: ext-proofreadpage
