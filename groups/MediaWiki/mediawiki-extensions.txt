@@ -2282,6 +2282,8 @@ ignored = access-multimail-special-change-primary-view-confirmation-submit
 ignored = access-multimail-special-delete-view-confirmation-submit
 ignored = access-multimail-special-request-confirmation-code-view-submit
 
+Multi Title
+
 MW Version Info
 ignored = mwversioninfo.json
 
