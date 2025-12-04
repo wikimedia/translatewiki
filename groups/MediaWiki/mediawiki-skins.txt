@@ -94,6 +94,9 @@ ignored = dynamic-links-write-article-url
 ignored = monaco-sidebar
 ignored = monaco-toolbox
 
+Monaco - ContentRightSidebar
+file = Monaco/ContentRightSidebar/i18n/%CODE%.json
+
 MonoBook
 optional = monobook.css, monobook.js, monobook-action-addsection
 optional = monobook-prefs-talkpage
