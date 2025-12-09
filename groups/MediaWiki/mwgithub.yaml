@@ -1899,21 +1899,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: mwgithub-mediawiki-monaco-contentrightsidebar
-  label: Monaco - ContentRightSidebar
-  description: "{{Special:MyLanguage/MediaWiki:Monacocontentrightsidebar-desc/en}}"
-  support:
-    url: https://github.com/Universal-Omega/Monaco/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\nMessage definition: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/Monaco/ContentRightSidebar/i18n/%CODE%.json"
-
----
-BASIC:
   id: mwgithub-mediawiki-portableinfobox
   label: PortableInfobox
   description: "{{Special:MyLanguage/MediaWiki:Portable-infobox-desc/en}}"
