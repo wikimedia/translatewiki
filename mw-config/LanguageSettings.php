@@ -131,7 +131,6 @@ $wgExtraLanguageNames = [
 	'piu' => 'Pintupi-Luritja', # Pintupi-Luritja / Amir 2023-07-22
 	'pko' => 'Pökoot', # Pökoot
 	'pov' => 'guinensi', # Guinea-Bissau Creole / Amir 2019-05-17
-	'ppl' => 'Nawat', # Pipil / Siebrand 2011-08-30
 	'prs' => 'دری', # Dari
 	'pzh' => 'Pazeh', # Pazeh / ToluAyo 2025-04-24
 	'qqq' => 'Message documentation', # No linguistic content. Used for documenting messages
