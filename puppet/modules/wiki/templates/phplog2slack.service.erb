@@ -1,18 +1,18 @@
 # This file is managed by puppet
 [Unit]
-Description=Slack relay for PHP error log
-After=network.target
+Description=Process and relay error messages to slack-relay
+After=network.target slack-relay.service
+Requires=slack-relay.service
 
 [Service]
 User=<%= @maintenance_user %>
-ExecStart=/bin/sh <%= @config_dir %>/relays/slack/slackpipe.sh
+ExecStart=/bin/sh -c 'php <%= @config_dir %>/relays/logfilter.php > /run/slack-relay/pipe'
 Restart=always
 RestartSec=60
 PrivateDevices=true
 PrivateTmp=true
 ProtectHome=read-only
 ProtectSystem=full
-Environment="SLACK_LOG_WEBHOOK=<%= @slack_webhook_url %>"
 
 [Install]
 WantedBy=multi-user.target

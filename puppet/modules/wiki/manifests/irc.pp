@@ -53,7 +53,7 @@ class wiki::irc (
   }
 
   file { '/etc/systemd/system/phplog2irc.service':
-    source => 'puppet:///modules/wiki/phplog2irc.service',
+    content => template('wiki/phplog2irc.service.erb'),
   }
 
   service { 'phplog2irc':

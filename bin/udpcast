@@ -1,7 +1,6 @@
 #!/bin/sh
 set -o nounset -o errexit
 
-DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 WHO=${SUDO_USER-${USER-}}
-
-php "${DIRSCRIPT}/scripts/snedUdpMessage.php" --host=127.0.0.1 --port=8966 --quiet=1 "[$WHO]" "$@"
+echo "[$WHO]" "$@" | nc -u -q 0 127.0.0.1 8966
+echo "[$WHO]" "$@" > /run/slack-relay/pipe

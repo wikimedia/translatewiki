@@ -1,12 +1,12 @@
 # This file is managed by puppet
 [Unit]
 Description=Process and relay error messages to irc-log-relay
-After=network.target
+After=network.target irc-log-relay.service
+Requires=irc-log-relay.service
 
 [Service]
-User=betawiki
-Group=betawiki
-ExecStart=/bin/sh /home/betawiki/config/relays/irc/rakkauspipe.sh
+User=<%= @maintenance_user %>
+ExecStart=/bin/sh -c 'php <%= @config_dir %>/relays/logfilter.php | nc -u 127.0.0.1 8966'
 Restart=always
 RestartSec=60
 PrivateDevices=true

@@ -7,11 +7,7 @@
  * @file
  */
 
-if ( isset( $_SERVER['argv'][1] ) ) {
-	$file = $_SERVER['argv'][1];
-} else {
-	exit( "OMG\n" );
-}
+$file = $_SERVER['argv'][1] ?? '/www/translatewiki.net/logs/error_php';
 
 if ( !is_readable( $file ) ) {
 	exit( "OMG\n" );

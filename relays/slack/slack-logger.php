@@ -1,34 +1,43 @@
 <?php
 declare( strict_types = 1 );
 
-$webhook = getenv( 'SLACK_LOG_WEBHOOK' );
+$webhook = getenv( 'SLACK_WEBHOOK' );
+$runtimeDir = getenv( 'RUNTIME_DIRECTORY' );
+$pipePath = "$runtimeDir/pipe";
 
 try {
 	if ( !$webhook ) {
-		throw new Exception( 'SLACK_LOG_WEBHOOK is not set' );
+		throw new Exception( 'SLACK_WEBHOOK is not set' );
 	}
-	$read = [ STDIN ];
+
+	// Open the named pipe for reading in non-blocking mode
+	$pipe = fopen( $pipePath, 'r+' ); // r+ prevents blocking when no writers
+	if ( !$pipe ) {
+		throw new RuntimeException( "Failed to open named pipe at $pipePath" );
+	}
+	stream_set_blocking( $pipe, false );
+
+	$read = [ $pipe ];
 	$write = $except = [];
 	$waitTimeInSeconds = 5;
 
-	stream_set_blocking( STDIN, false ); // Set STDIN to non-blocking mode
 	while ( true ) {
 		$incomingStream = stream_select( $read, $write, $except, $waitTimeInSeconds );
 
 		if ( $incomingStream === false ) {
 			// An error occurred, exit the loop
-			throw new RuntimeException( "Error while reading STDIN" );
+			throw new RuntimeException( 'Error while reading from named pipe' );
 		}
 
 		if ( $incomingStream > 0 ) {
-			// There is data to read from STDIN
-			$data = fgets( STDIN );
+			// There is data to read from the pipe
+			$data = fgets( $pipe );
 
 			if ( $data !== false ) {
 				sendSlackMessage( $webhook, generateSlackMessage( $data ) );
 			}
 		}
-		$read = [ STDIN ];
+		$read = [ $pipe ];
 
 	}
 } catch ( Exception $e ) {
@@ -48,6 +57,7 @@ function generateSlackMessage( string $data ): string {
 
 /**
  * Send a Slack message via curl
+ * @throws Exception
  */
 function sendSlackMessage( string $webhookUrl, string $payload ): void {
 	$c = curl_init( $webhookUrl );

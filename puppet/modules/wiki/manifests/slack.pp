@@ -9,17 +9,41 @@ class wiki::slack (
 ) {
 
   file { '/etc/systemd/system/slack-log-relay.service':
-    content => template('wiki/slack-log-relay.service.erb'),
-    notify  => [
-      Service['slack-log-relay']
-    ]
+    ensure => absent,
   }
 
   service { 'slack-log-relay':
+    ensure => stopped,
+    enable => false,
+  }
+
+  file { '/etc/systemd/system/slack-relay.service':
+    content => template('wiki/slack-relay.service.erb'),
+    notify  => [
+      Service['slack-relay']
+    ]
+  }
+
+  service { 'slack-relay':
     ensure  => running,
     enable  => true,
     require => [
-      File['/etc/systemd/system/slack-log-relay.service'],
+      File['/etc/systemd/system/slack-relay.service'],
+    ]
+  }
+
+  file { '/etc/systemd/system/phplog2slack.service':
+    content => template('wiki/phplog2slack.service.erb'),
+    notify  => [
+      Service['phplog2slack']
+    ]
+  }
+
+  service { 'phplog2slack':
+    ensure  => running,
+    enable  => true,
+    require => [
+      File['/etc/systemd/system/phplog2slack.service'],
     ]
   }
 }

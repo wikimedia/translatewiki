@@ -1,0 +1,20 @@
+# This file is managed by puppet
+[Unit]
+Description=Slack relay service
+After=network.target
+
+[Service]
+User=<%= @maintenance_user %>
+ExecStartPre=/usr/bin/mkfifo -m 0666 ${RUNTIME_DIRECTORY}/pipe
+ExecStart=/usr/bin/php <%= @config_dir %>/relays/slack/slack-logger.php
+Restart=always
+RestartSec=60
+PrivateDevices=true
+PrivateTmp=true
+ProtectHome=read-only
+ProtectSystem=full
+Environment="SLACK_WEBHOOK=<%= @slack_webhook_url %>"
+RuntimeDirectory=slack-relay
+
+[Install]
+WantedBy=multi-user.target
