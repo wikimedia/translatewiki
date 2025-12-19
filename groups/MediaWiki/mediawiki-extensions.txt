@@ -3714,6 +3714,7 @@ ignored = wikilambda-functioncall-metadata-implementation-how-chosen-link
 ignored = wikilambda-deleted-unknown-summary, wikilambda-deleted-implementations-summary, wikilambda-deleted-testers-summary
 ignored = wikilambda-metadata-help-link
 ignored = wikilambda-users-help-link
+ignored = wikilambda-editor-howto-implementation-link
 id = ext-wikilambda-user
 file = WikiLambda/i18n/%CODE%.json
 
