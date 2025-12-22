@@ -2957,8 +2957,6 @@ Share
 
 # Shared Help Pages / very ShoutWiki-specific
 
-Shibboleth
-
 Short Url
 aliasfile = ShortUrl/ShortUrl.alias.php
 
