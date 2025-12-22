@@ -1625,8 +1625,6 @@ ignored = googleadsense
 
 google Analytics
 
-Google Analytics Metrics
-
 Google Analytics Top Pages
 aliasfile = GoogleAnalyticsTopPages/GoogleAnalyticsTopPages.alias.php
 
@@ -2869,9 +2867,6 @@ S5 Slide Show
 ignored = special-s5SlideShow-intro
 optional = s5slide-name
 
-Sacred Text
-magicfile = SacredText/SacredText.i18n.magic.php
-
 Safe Delete
 aliasfile = SafeDelete/i18n/SafeDelete.alias.php
 
@@ -3156,8 +3151,6 @@ Standard Dialogs
 
 Standard Wikitext
 
-Stalker Log
-
 Stat Counter
 ignored = statcounter-project-id, statcounter-security
 
@@ -3406,14 +3399,7 @@ aliasfile = TuleapIntegration/includes/TuleapIntegration.alias.php
 
 Tuleap Wiki Farm
 
-Tweet A New
-magicfile = TweetANew/TweetANew.i18n.magic.php
-ignored = tweetanew-accesskey
-
 Twitter Cards
-
-Twitter Tag
-descmsg = twitter-tag-desc
 
 Twn Main Page
 aliasfile = TwnMainPage/MainPage.alias.php
