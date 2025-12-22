@@ -1351,8 +1351,6 @@ External Guidance
 
 # External Link Confirm // 2020-09-30 Empty repo
 
-ExtJS Base
-
 Extra Language Link
 
 Faceted Category
@@ -1382,8 +1380,6 @@ id = ext-featuredfeeds-api
 file = FeaturedFeeds/i18n/api/%CODE%.json
 
 # Figures // no i18n file
-
-File Annotations
 
 File Exporter
 optional = fileexporter
@@ -1827,9 +1823,6 @@ Image Suggestions
 
 # Image Tagging // Archived, https://gerrit.wikimedia.org/r/#/c/387107/
 
-Image Tweaks
-ignored = imagetweaks-beta-preference-info-link, imagetweaks-beta-preference-disc-link
-
 Import Articles
 
 Import Free Images
@@ -2217,8 +2210,6 @@ Mobile Frontend - API
 file = MobileFrontend/i18n/api/%CODE%.json
 id = ext-mobilefrontend-api
 
-Model
-
 Montserrat Font
 
 MP3 Media Handler
@@ -2311,9 +2302,6 @@ descmsg = ncbitaxonomylookup-desc
 Nearby Pages
 descmsg = nearby-pages-desc
 aliasfile = NearbyPages/NearbyPages.alias.php
-
-Negref
-magicfile = Negref/Negref.i18n.magic.php
 
 Network Auth
 optional = networkauth-name, networkauth-purltext
@@ -2523,8 +2511,6 @@ Page Permissions
 Page Schemas
 aliasfile = PageSchemas/PageSchemas.i18n.alias.php
 descmsg = ps-desc
-
-Page Tools
 
 Page Triage
 aliasfile = PageTriage/PageTriage.alias.php
@@ -2979,8 +2965,6 @@ optional = swb_browse_more
 
 Send Grid
 
-Sentry
-
 Share
 
 # Shared Help Pages / very ShoutWiki-specific
@@ -3043,8 +3027,6 @@ aliasfile = SiteSettings/SiteSettings.alias.php
 Skin Per Namespace
 
 Skin Per Page
-
-Slimbox Thumbs
 
 Smite Spam
 aliasfile = SmiteSpam/SmiteSpam.alias.php
@@ -3411,9 +3393,6 @@ descmsg = twocolconflict-desc
 ignored = twocolconflict-split-saved-at
 
 # UI Feedback # incomplete qqq
-
-UI Lang Code
-magicfile = UILangCode/UILangCode.i18n.magic.php
 
 Un Captcha
 
