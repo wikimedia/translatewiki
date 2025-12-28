@@ -61,7 +61,6 @@ function sendSlackMessage( string $webhookUrl, string $payload ): void {
 	if ( curl_errno( $c ) ) {
 		$errorMessage = curl_error( $c );
 	}
-	curl_close( $c );
 
 	if ( isset( $errorMessage ) ) {
 		throw new Exception( $errorMessage );
