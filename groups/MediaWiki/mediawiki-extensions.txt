@@ -1656,10 +1656,6 @@ Google Translate
 
 GPG Mail
 
-Graph QL
-aliasfile = GraphQL/GraphQL.alias.php
-optional = graphql
-
 Gravatar
 
 Group Whitelist
@@ -2738,8 +2734,6 @@ ignored = action-pushtowatch
 # PwnedPasswords // No i18n files and no FOSS license
 
 Quantcast
-
-# Quick GV // inconsistent prefixes
 
 Quick Instant Commons
 
