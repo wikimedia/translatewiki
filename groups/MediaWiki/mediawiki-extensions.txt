@@ -176,8 +176,6 @@ aliasfile = ArticlePlaceholder/ArticlePlaceholder.alias.php
 
 # Article Ratings // incosistent prefix 2017-11-05
 
-Article Summaries
-
 Article To Category 2
 
 At Mentions
@@ -2287,11 +2285,6 @@ descmsg = nsrels-desc
 
 Namespace Sidebar
 
-Natural Language List
-descmsg = nll-desc
-ignored = nll-itemoutput
-optional = nll-separator
-
 Navigation Timing
 
 NaylorAMS
@@ -3559,9 +3552,6 @@ aliasfile = VoteNY/includes/VoteNY.alias.php
 magicfile = VoteNY/includes/VoteNY.i18n.magic.php
 
 VueJsPlus
-
-# https://phabricator.wikimedia.org/T315621#8642771
-Vue Test
 
 Wanda
 aliasfile = Wanda/Wanda_Aliases.php
