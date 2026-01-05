@@ -270,6 +270,7 @@ $wgTranslateLanguageFallbacks = [
 	'thr' => [ 'ne', 'hi', 'awa' ],
 	'ti' => [ 'tig', 'am', 'ar' ],
 	'tig' => [ 'ti', 'am', 'ar' ],
+	'tiv' => [ 'ig', 'efi', 'bom', 'ha', 'yo', 'ff' ],
 	'tji' => [ 'zh-hans' ],
 	'tkr' => [ 'ru' ],
 	'tly' => [ 'tly-cyrl', 'az', 'azb', 'fa', 'ru' ],
