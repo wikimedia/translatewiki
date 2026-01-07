@@ -1860,6 +1860,10 @@ optional = ipinfo-property-label-asn
 
 IPReputation
 
+Issue Tracker Links
+optional = issuetrackerlinks-type-label-github
+optional = issuetrackerlinks-type-label-gitlab
+
 Josa
 
 JS Bread Crumbs
@@ -2628,6 +2632,8 @@ Preferences List
 aliasfile = PreferencesList/PreferencesList.i18n.alias.php
 
 Prezi
+
+Preview Links
 
 Pre To Clip
 
@@ -3686,6 +3692,10 @@ id = ext-wikilove-api
 file = WikiLove/i18n/api/%CODE%.json
 
 Wiki Loves Monuments
+
+Wiki RAG
+magicfile = WikiRAG.i18n.magic.php
+ignored = wikirag-prompt-analyzer
 
 Wiki SEO
 descmsg = wiki-seo-desc
