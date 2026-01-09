@@ -91,6 +91,7 @@ aliasfile = AdminLinks/AdminLinks.alias.php
 Advanced Meta
 
 Advanced Search
+ignored = advancedsearch-unit-pixel
 
 AI Editing Assistant
 ignored = aieditingassistant-command-definition-expand
