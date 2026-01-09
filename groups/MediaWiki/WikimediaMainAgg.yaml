@@ -14,6 +14,7 @@ GROUPS:
   - ext-betafeatures-user
   - ext-campaigns # 2013-06-13: all projects
   - ext-categorytree-user
+  - ext-chart
   - ext-cirrussearch-user # Change id 500b9c9d66fa7f410394d5665ea3abc3a184bf50
   - ext-cite-user
   - ext-cite-visualeditor
