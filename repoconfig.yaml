@@ -1086,6 +1086,12 @@ wikimedia-misc-tools:
       type: github
       url: https://github.com/eggpi/citationhunt.git
       url|export: git@github.com:eggpi/citationhunt.git
+    cite-forge:
+      type: github
+      branch: main
+      pull-branch: i18n
+      url: https://github.com/QZGao/CiteForge.git
+      url|export: git@github.com:QZGao/CiteForge.git
     cite-unseen:
       type: gitlab
       branch: main

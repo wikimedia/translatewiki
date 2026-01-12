@@ -1,0 +1,36 @@
+---
+BASIC:
+  id: cite-forge
+  label: Cite Forge
+  description: "{{Special:MyLanguage/Translations:Group descriptions/cite-forge/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://meta.wikimedia.org/wiki/Talk:Cite_Forge
+    params:
+      action: edit
+      section: new
+      preloadtitle: Translation issue with message %MESSAGE%
+      preloadparams: "%MESSAGE_URL%"
+      preload: Translatewiki.net/New_issue_template
+
+MANGLER:
+  class: StringMatcher
+  prefix: cite-forge-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/cite-forge/src/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: true
+  - id: BraceBalance
+
+TAGS:
+  optional:
+    - cite-forge-ui.panel.copyOptions.rTemplate
+    - cite-forge-ui.panel.copyOptions.refTag

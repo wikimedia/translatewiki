@@ -274,6 +274,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Broomstick.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CapacityExchange.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CeJS.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CitationHunt.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CiteForge.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CiteUnseen.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CommonsAndroid.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ConvenientDiscussions.yaml";
