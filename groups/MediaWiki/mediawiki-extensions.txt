@@ -3202,6 +3202,8 @@ optional = templatestyles
 
 Template Wizard
 
+Test Kitchen
+
 Test Language Name Grammar
 aliasfile = TestLanguageNameGrammar/TestLanguageNameGrammar.alias.php
 
