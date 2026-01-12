@@ -14,5 +14,6 @@ GROUPS:
   - ext-readerexperiments # https://phabricator.wikimedia.org/rOMWCc398fa918d53c47e580f47b2508e1533db08f3a8
   - ext-reportincident # https://phabricator.wikimedia.org/rOMWCf594ec5484fac1b992138e573369ffae8bdeba36
   - ext-stopforumspam # Deployed experimentally on several wikis. Move to Advanced when the deployment becomes wider. https://phabricator.wikimedia.org/rOMWCf3de027936c615d7a310793d85a836350fcdc1df
+  - ext-testkitchen # https://phabricator.wikimedia.org/rOMWCbdda3794a4424933e66247a89214fe8b2998c2ca 
   - ext-wikilambda-ve # Planned to be enabled on client wikis. Move to Advanced or Main when the deployment becomes wider.
   - ext-wikistories # Deployed only on one wiki in beta. Move to Advanced when the deployment becomes wider. https://phabricator.wikimedia.org/rOMWC88ac6b94ff5acfbcd6a539e21b7454b6a38eaaba
