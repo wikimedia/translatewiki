@@ -1863,6 +1863,7 @@ IPReputation
 Issue Tracker Links
 optional = issuetrackerlinks-type-label-github
 optional = issuetrackerlinks-type-label-gitlab
+optional = issuetrackerlinks-type-label-jira
 
 Josa
 
