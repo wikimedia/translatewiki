@@ -15,7 +15,6 @@ wfLoadExtensions( [
 	'Elastica',
 	'Gadgets',
 	'I18nTags',
-	'Interwiki',
 	'LoginNotify',
 	'Nuke',
 	'ReplaceText',
