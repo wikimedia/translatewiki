@@ -136,6 +136,7 @@ $wgTranslateLanguageFallbacks = [
 	'isv-latn' => [ 'isv-cyrl' ],
 	'jab' => [ 'ha', 'pcm' ],
 	'jac' => [ 'es' ],
+	'jax' => [ 'id' ],
 	'jdt-cyrl' => [ 'ru' ],
 	'jje' => [ 'ko' ],
 	'jv' => [ 'jv-java' ],
