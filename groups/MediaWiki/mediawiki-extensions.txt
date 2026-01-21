@@ -3833,6 +3833,8 @@ Wikimedia Campaign Events - User interface
 id = ext-wikimediacampaignevents-user
 file = WikimediaCampaignEvents/i18n/%CODE%.json
 
+Wikimedia Customizations
+
 Wikimedia Events
 optional = wikimediaevents-special-wikimediadebug-desc
 ignored = tag-cross-wiki-upload-helppage

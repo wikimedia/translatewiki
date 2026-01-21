@@ -765,6 +765,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-wikimediacustomizations
+  label: Wikimedia Customizations
+  description: '{{Special:MyLanguage/MediaWiki:Wikimediacustomizations-desc/en}}'
+
+GROUPS:
+  - ext-wikimediacustomizations-*
+
+---
+BASIC:
   id: ext-wikilove
   label: Wiki Love
   description: '{{Special:MyLanguage/MediaWiki:Wikilove-desc/en}}'

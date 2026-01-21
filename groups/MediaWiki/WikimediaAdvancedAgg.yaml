@@ -102,6 +102,7 @@ GROUPS:
   - ext-wikimediacodeofconduct
   - ext-wikimediacommonstrings
   - ext-wikimediacontactpagemessages
+  - ext-wikimediacustomizations # T415096
   - ext-wikimediaincubator # r89556
   - ext-wikimediaincubatorinfopage
   - ext-wikimediainterwikisearchresults
