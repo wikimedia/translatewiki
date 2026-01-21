@@ -974,8 +974,13 @@ wikiblame:
       url|export: git@github.com:FlominatorTM/wikiblame.git
 
 wikidata:
-  group: wikidata-*
+  group: wikidata-*,cita
   repos:
+    cita:
+      type: github
+      pull-branch: i18n
+      url: https://github.com/zotero-cita/zotero-cita.git
+      url|export: git@github.com:zotero-cita/zotero-cita.git
     wikidata-query-gui:
       type: gitlab
       url: https://gitlab.wikimedia.org/repos/wmde/wikidata-query-gui.git
