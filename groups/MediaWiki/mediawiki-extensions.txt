@@ -3580,11 +3580,11 @@ ignored = accesskey-watchsubpages-submit
 
 Web Authn - User interface
 id = ext-webauthn-user
-file = WebAuthn/i18n/%CODE%.json
+file = OATHAuth/i18n/webauthn/%CODE%.json
 
 Web Authn - API
 id = ext-webauthn-api
-file = WebAuthn/i18n/api/%CODE%.json
+file = OATHAuth/i18n/webauthn/api/%CODE%.json
 
 Web Chat
 aliasfile = WebChat/WebChat.alias.php
