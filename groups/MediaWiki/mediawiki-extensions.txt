@@ -3527,7 +3527,7 @@ Visual Editor (MediaWiki extension) - Edit check
 id = ext-visualeditor-ve-mw-editcheck
 file = VisualEditor/editcheck/i18n/%CODE%.json
 ignored = editcheck-config.json, editcheck-tone-descriptionlink
-ignored = editcheck-tone-footerlink, editcheck-copyvio-descriptionlink
+ignored = editcheck-tone-footerlink, editcheck-copyvio-descriptionlink, editcheck-preference-suggestions-info-link, editcheck-preference-suggestions-discussion-link
 
 Visual Editor (MediaWiki extension) - Language Variants
 id = ext-visualeditor-ve-mw-languagevariants
