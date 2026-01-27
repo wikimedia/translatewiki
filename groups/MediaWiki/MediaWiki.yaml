@@ -229,6 +229,7 @@ TAGS:
     - userrights-groupsmember-type
     - userrights-irreversible-marker
     - userrights-no-shorten-expiry-marker
+    - userrights-unable-to-change-row
     - version-api
     - version-entrypoints-articlepath
     - version-entrypoints-scriptpath
