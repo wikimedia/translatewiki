@@ -2580,10 +2580,10 @@ Per Page Language
 # optional = performanceinspector-modules-css-column-url, performanceinspector-newpp-value-and-limit
 # optional = performanceinspector-newpp-template-time-report-column-percentreal, performanceinspector-newpp-scribunto
 
-Personal Dashboard
-id = ext-personaldashboard
+Personal Dashboard - Main
+id = ext-personaldashboard-main
 descmsg = personal-dashboard-desc
-aliasfile = PersonalDashboard/PersonalDashboard.i18n.alias.php
+file = PersonalDashboard/i18n/main/%CODE%.json
 
 Personal Dashboard - Common
 id = ext-personaldashboard-common
