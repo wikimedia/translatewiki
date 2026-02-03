@@ -2581,16 +2581,38 @@ Per Page Language
 # optional = performanceinspector-newpp-template-time-report-column-percentreal, performanceinspector-newpp-scribunto
 
 Personal Dashboard
+id = ext-personaldashboard
 descmsg = personal-dashboard-desc
 aliasfile = PersonalDashboard/PersonalDashboard.i18n.alias.php
 
+Personal Dashboard - Common
+id = ext-personaldashboard-common
+descmsg = personal-dashboard-desc
+file = PersonalDashboard/i18n/ext.personalDashboard.common/%CODE%.json
+
+Personal Dashboard - Impact
+id = ext-personaldashboard-impact
+descmsg = personal-dashboard-desc
+file = PersonalDashboard/i18n/ext.personalDashboard.impact/%CODE%.json
+
+Personal Dashboard - Onboarding
+id = ext-personaldashboard-onboarding
+descmsg = personal-dashboard-desc
+file = PersonalDashboard/i18n/ext.personalDashboard.onboarding/%CODE%.json
+
 Personal Dashboard - Policies Guidelines
+id = ext-personaldashboard-policies-guidelines
+descmsg = personal-dashboard-desc
 file = PersonalDashboard/i18n/ext.personalDashboard.policiesGuidelines/%CODE%.json
 
 Personal Dashboard - Risky Article Edits
+id = ext-personaldashboard-risky-article-edits
+descmsg = personal-dashboard-desc
 file = PersonalDashboard/i18n/ext.personalDashboard.riskyArticleEdits/%CODE%.json
 
 Personal Dashboard - Risky Article Edits Mobile
+id = ext-personaldashboard-risky-article-edits-mobile
+descmsg = personal-dashboard-desc
 file = PersonalDashboard/i18n/ext.personalDashboard.riskyArticleEdits.mobile/%CODE%.json
 
 Petition

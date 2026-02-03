@@ -9,8 +9,15 @@ BASIC:
 
 GROUPS:
   - ext-chessbrowser # https://phabricator.wikimedia.org/rOMWCba8b786c7f3a290f0747a6859fd07502eb83108f
-  - ext-personaldashboard # https://phabricator.wikimedia.org/rOMWC19c724ebe0e487cb47e6892f01d58b9960c45b96
   - ext-pagenotice # https://phabricator.wikimedia.org/rOMWCd3b399694f2b03af6ee029fb0cf1e3e9939e7a5b:
+
+  - ext-personaldashboard # https://phabricator.wikimedia.org/rOMWC19c724ebe0e487cb47e6892f01d58b9960c45b96
+  - ext-personaldashboard-common
+  - ext-personaldashboard-impact
+  - ext-personaldashboard-onboarding
+  - ext-personaldashboard-policies-guidelines
+  - ext-personaldashboard-risky-article-edits
+
   - ext-readerexperiments # https://phabricator.wikimedia.org/rOMWCc398fa918d53c47e580f47b2508e1533db08f3a8
   - ext-reportincident # https://phabricator.wikimedia.org/rOMWCf594ec5484fac1b992138e573369ffae8bdeba36
   - ext-stopforumspam # Deployed experimentally on several wikis. Move to Advanced when the deployment becomes wider. https://phabricator.wikimedia.org/rOMWCf3de027936c615d7a310793d85a836350fcdc1df
