@@ -858,7 +858,13 @@ ignored = closewikis-closed
 
 Code Editor
 
-Code Mirror
+Code Mirror - User interface
+id = ext-codemirror-user
+file = CodeMirror/i18n/%CODE%.json
+
+Code Mirror - API
+id = ext-codemirror-user
+file = CodeMirror/i18n/api/%CODE%.json
 
 Cognate
 

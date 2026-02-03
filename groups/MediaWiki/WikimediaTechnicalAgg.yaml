@@ -20,6 +20,7 @@ GROUPS:
   - ext-centralnotice-api
   - ext-checkuser-api
   - ext-cirrussearch-api
+  - ext-codemirror-api
   - ext-collection-api
   - ext-communityrequests-api
   - ext-confirmedit-api

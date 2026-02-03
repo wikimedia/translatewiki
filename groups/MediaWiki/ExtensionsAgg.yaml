@@ -155,6 +155,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-codemirror
+  label: Code Mirror
+  description: '{{Special:MyLanguage/MediaWiki:Codemirror-desc/en}}'
+
+GROUPS:
+  - ext-codemirror-*
+
+---
+BASIC:
   id: ext-collection
   label: Collection
   description: '{{Special:MyLanguage/MediaWiki:Coll-desc/en}}'
