@@ -1876,17 +1876,17 @@ FILES:
 ---
 BASIC:
   id: mwgithub-mediawiki-dynamicpagelist3
-  label: DynamicPageList3
+  label: DynamicPageList4
   description: "{{Special:MyLanguage/MediaWiki:Dynamicpagelist3-dpl-desc/en}}"
   support:
-    url: https://github.com/Universal-Omega/DynamicPageList3/issues/new
+    url: https://github.com/Universal-Omega/DynamicPageList4/issues/new
     params:
       title: Translation issue with message %MESSAGE%
       body: "\nMessage definition: %MESSAGE_URL%"
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/DynamicPageList3/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/DynamicPageList4/i18n/%CODE%.json"
 
 MANGLER:
   class: StringMatcher

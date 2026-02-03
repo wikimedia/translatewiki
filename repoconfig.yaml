@@ -755,11 +755,11 @@ mwgithub:
       branch: main
       url: https://github.com/Universal-Omega/AutoCreatePage.git
       url|export: git@github.com:Universal-Omega/AutoCreatePage.git
-    mwgithub/Universal-Omega/DynamicPageList3:
+    mwgithub/Universal-Omega/DynamicPageList4:
       type: github
       branch: main
-      url: https://github.com/Universal-Omega/DynamicPageList3.git
-      url|export: git@github.com:Universal-Omega/DynamicPageList3.git
+      url: https://github.com/Universal-Omega/DynamicPageList4.git
+      url|export: git@github.com:Universal-Omega/DynamicPageList4.git
     mwgithub/Universal-Omega/PortableInfobox:
       type: github
       branch: main
