@@ -151,6 +151,7 @@ $wgExtraLanguageNames = [
 	'slr' => 'Salırça', # Salar / Siebrand 2008-08-18
 	'sly' => 'Bahasa Selayar', # A Selayar / Siebrand 2012-01-09
 	'smj' => 'julevsámegiella', # Lule Saami / Nikerabbit 2016-06-22
+	'ssy' => 'Saaho', # Saho / ToluAyo 2026-02-05
 	'swb' => 'Shikomoro', # Comorian
 	'sxu' => 'Säggssch', # Upper Saxon
 	'thr' => 'राना थारू', # Rana Tharu / Amir 2024-12-09
