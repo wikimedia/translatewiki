@@ -88,6 +88,8 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Babel
   workdir/extensions/BetaFeatures:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/BetaFeatures
+  workdir/extensions/CategoryTree:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CategoryTree
   workdir/extensions/CharInsert:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CharInsert
   workdir/extensions/CheckUser:
@@ -136,6 +138,8 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/PageForms
   workdir/extensions/ParserFunctions:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions
+  workdir/extensions/RealMe:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/RealMe
   workdir/extensions/ReplaceText:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ReplaceText
   workdir/extensions/Scribunto:

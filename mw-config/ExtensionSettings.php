@@ -10,6 +10,7 @@ $wgVectorNightMode['logged_out'] = true;
 // Extensions which we don't specify any configuration
 wfLoadExtensions( [
 	'AbuseFilter',
+	'CategoryTree',
 	'CharInsert',
 	'cldr',
 	'Elastica',
@@ -17,6 +18,7 @@ wfLoadExtensions( [
 	'I18nTags',
 	'LoginNotify',
 	'Nuke',
+	'RealMe',
 	'ReplaceText',
 	'Scribunto',
 	'SyntaxHighlight_GeSHi',
