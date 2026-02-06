@@ -53,6 +53,13 @@ definitions:
             properties:
               "@generator":
                 type: string
+  readUrl:
+    type: string
+    pattern: "^(https?://|git://).+"
+
+  exportUrl:
+    type: string
+    pattern: "^(ssh://|svn\\+ssh://|[^@\\s]+@[^:\\s]+:).+"
 
   repository:
     type: object
@@ -69,6 +76,10 @@ definitions:
           - gitlab
           - git
           - svn
+      url:
+        $ref: "#/definitions/readUrl"
+      "url|export":
+        $ref: "#/definitions/exportUrl"
       no-state-sync:
         type: boolean
       commit-message-prefix:
