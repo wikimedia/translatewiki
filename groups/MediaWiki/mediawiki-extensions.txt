@@ -2387,6 +2387,9 @@ file = OATHAuth/i18n/%CODE%.json
 aliasfile = OATHAuth/OATHAuth.alias.php
 ignored = oathauth-notifications-disable-helplink, oathauth-notifications-enable-helplink
 ignored = oathauth-notifications-recoverycodesleft-helplink
+ignored = oathauth-notifications-recoverycodes-generated-for-user-helplink
+ignored = oathauth-notifications-recoverycodes-generated-for-user-contacturl
+ignored = oathauth-recover-email-text-site-admin-contact
 optional = oath
 
 OATH Auth - API
