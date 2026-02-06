@@ -160,8 +160,6 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor
   workdir/extensions/WebChat:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/WebChat
-  workdir/extensions/WebAuthn:
-    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/WebAuthn
   workdir/extensions/WikiEditor:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiEditor
   workdir/extensions/cldr:

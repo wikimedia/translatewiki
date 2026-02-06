@@ -12,8 +12,7 @@
 				"extensions/Maps/composer.json",
 				"extensions/SyntaxHighlight_GeSHi/composer.json",
 				"extensions/TemplateStyles/composer.json",
-				"extensions/Translate/composer.json",
-				"extensions/WebAuthn/composer.json"
+				"extensions/Translate/composer.json"
 			]
 		}
 	}
