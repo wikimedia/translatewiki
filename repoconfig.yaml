@@ -787,11 +787,11 @@ mwgitlab:
   group: mwgitlab-*,mwgitlabskin-*
   repos:
     mwgitlab/nonsensopedia/ratepage:
-      type: github
+      type: gitlab
       url: https://gitlab.com/nonsensopedia/extensions/ratepage.git
       url|export: git@gitlab.com:nonsensopedia/extensions/ratepage.git
     mwgitlab/telepedia/userprofilev2:
-      type: github
+      type: gitlab
       branch: main
       url: https://gitlab.com/telepedia/extensions/userprofilev2.git
       url|export: git@gitlab.com:telepedia/extensions/userprofilev2.git
