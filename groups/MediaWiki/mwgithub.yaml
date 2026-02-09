@@ -699,14 +699,14 @@ BASIC:
   label: Sub Page List
   description: "{{Special:MyLanguage/MediaWiki:Subpagelist-desc/en}}"
   support:
-    url: https://github.com/JeroenDeDauw/SubPageList/issues/new
+    url: https://github.com/ProfessionalWiki/SubPageList/issues/new
     params:
       title: Translation issue with message %MESSAGE%
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/JeroenDeDauw/SubPageList/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/SubPageList/i18n/%CODE%.json"
 ---
 BASIC:
   id: mwgithub-wikibaseedtf

@@ -438,8 +438,8 @@ mwgithub:
       url|export: git@github.com:JeroenDeDauw/ParserHooks.git
     mwgithub/JeroenDeDauw/SubPageList:
       type: github
-      url: https://github.com/JeroenDeDauw/SubPageList.git
-      url|export: git@github.com:JeroenDeDauw/SubPageList.git
+      url: https://github.com/ProfessionalWiki/SubPageList.git
+      url|export: git@github.com:ProfessionalWiki/SubPageList.git
     mwgithub/kulttuuri/DiscordNotifications:
       type: github
       url: https://github.com/kulttuuri/DiscordNotifications.git
