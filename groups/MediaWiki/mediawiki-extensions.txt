@@ -3868,7 +3868,7 @@ descmsg = wikimediacustomizations-desc
 
 Wikimedia Customizations - Attribution
 id = ext-wikimediacustomizations-attribution
-file = WikimediaCustomizations/18n/attribution/%CODE%.json
+file = WikimediaCustomizations/i18n/attribution/%CODE%.json
 descmsg = wikimediacustomizations-attribution-rest-module-v0-beta-desc
 
 Wikimedia Events
