@@ -1864,7 +1864,7 @@ IP Info
 optional = ipinfo-value-ipversion-ipv4, ipinfo-value-ipversion-ipv6
 optional = ipinfo-property-label-asn
 
-IPReputation
+IP Reputation
 
 Issue Tracker Links
 optional = issuetrackerlinks-type-label-github
@@ -3861,7 +3861,15 @@ Wikimedia Campaign Events - User interface
 id = ext-wikimediacampaignevents-user
 file = WikimediaCampaignEvents/i18n/%CODE%.json
 
-Wikimedia Customizations
+Wikimedia Customizations - Main
+id = ext-wikimediacustomizations-main
+file = WikimediaCustomizations/i18n/%CODE%.json
+descmsg = wikimediacustomizations-desc
+
+Wikimedia Customizations - Attribution
+id = ext-wikimediacustomizations-attribution
+file = WikimediaCustomizations/18n/attribution/%CODE%.json
+descmsg = wikimediacustomizations-attribution-rest-module-v0-beta-desc
 
 Wikimedia Events
 optional = wikimediaevents-special-wikimediadebug-desc
