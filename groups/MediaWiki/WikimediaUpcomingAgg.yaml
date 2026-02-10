@@ -9,6 +9,7 @@ BASIC:
 
 GROUPS:
   - ext-chessbrowser # https://phabricator.wikimedia.org/rOMWCba8b786c7f3a290f0747a6859fd07502eb83108f
+  - ext-multititle # https://phabricator.wikimedia.org/rOMWCc037439e4675063c7844ddf36cd207ac33528a4b
   - ext-pagenotice # https://phabricator.wikimedia.org/rOMWCd3b399694f2b03af6ee029fb0cf1e3e9939e7a5b:
   - ext-personaldashboard # https://phabricator.wikimedia.org/rOMWC19c724ebe0e487cb47e6892f01d58b9960c45b96
   - ext-readerexperiments # https://phabricator.wikimedia.org/rOMWCc398fa918d53c47e580f47b2508e1533db08f3a8
