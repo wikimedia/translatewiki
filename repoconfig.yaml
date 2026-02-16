@@ -436,7 +436,7 @@ mwgithub:
       type: github
       url: https://github.com/JeroenDeDauw/ParserHooks.git
       url|export: git@github.com:JeroenDeDauw/ParserHooks.git
-    mwgithub/JeroenDeDauw/SubPageList:
+    mwgithub/ProfessionalWiki/SubPageList:
       type: github
       url: https://github.com/ProfessionalWiki/SubPageList.git
       url|export: git@github.com:ProfessionalWiki/SubPageList.git
