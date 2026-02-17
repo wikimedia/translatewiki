@@ -699,14 +699,6 @@ GROUPS:
 
 ---
 BASIC:
-  id: ext-webauthn
-  label: WebAuthn
-  description: '{{Special:MyLanguage/MediaWiki:Webauthn-desc/en}}'
-GROUPS:
-  - ext-webauthn-*
-
----
-BASIC:
   id: ext-wikibase-client
   label: Wikibase Client
   description: '{{Special:MyLanguage/MediaWiki:Wikibase-client-desc/en}}'

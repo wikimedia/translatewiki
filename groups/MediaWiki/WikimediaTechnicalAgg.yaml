@@ -85,7 +85,6 @@ GROUPS:
   - ext-uploadwizard-api
   - ext-urlshortener-api
   - ext-visualeditor-ve-mw-api
-  - ext-webauthn-api
   - ext-wikibase-client-api
   - ext-wikibase-repo-api
   - ext-wikibaselexeme-api
