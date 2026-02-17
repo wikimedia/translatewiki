@@ -108,4 +108,5 @@ GROUPS:
   - ext-wikimediamessages
   - ext-wikimediaprojectnames
   - ext-wikisource # https://phabricator.wikimedia.org/rOMWC95910299c0a4fdb2d043b9c191beaefae6d4a751
+  - ext-wp25eastereggs # https://phabricator.wikimedia.org/rOMWC3177ff36017cf67760af505ac55ae7386d96d19a
   - mediawiki-skin-timeless
