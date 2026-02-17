@@ -41,7 +41,6 @@ GROUPS:
   - ext-guidedtour # 2013-01-31 for 15 projects
   - ext-imagesuggestions # https://phabricator.wikimedia.org/rOMWCbfbe922ebd2dac987cb9712ddffabef3b4e08824
   - ext-intersection # aka DPL aka DynamicPageList
-  - ext-interwikisorting # https://phabricator.wikimedia.org/rOMWCdd2a7f08ba44692418fc4b13a467f574f46e2396
   - ext-ipinfo
   - ext-josa
   - ext-jsonconfig-user
