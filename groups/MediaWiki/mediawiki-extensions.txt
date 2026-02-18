@@ -170,8 +170,6 @@ ignored=articlefeedbackv5-noteflyover-uninappropriate-description, articlefeedba
 ignored=articlefeedbackv5-noteflyover-unoversight-description, articlefeedbackv5-noteflyover-unoversight-help-link, articlefeedbackv5-noteflyover-unrequest-description, articlefeedbackv5-noteflyover-unrequest-help-link
 ignored=articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-noteflyover-unresolve-help-link, articlefeedbackv5-special-filter-label-after, articlefeedbackv5-special-sort-label-after
 
-Article Guidance
-
 Article Meta Description
 
 Article Placeholder
