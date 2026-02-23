@@ -9,6 +9,7 @@ FORGE=${5:-none}
 
 # Avoid getting stuck waiting for user input
 export GIT_TERMINAL_PROMPT=0
+export GIT_HTTP_USER_AGENT="translatewiki.net RepoNg (translatewiki@translatewiki.net)"
 
 # On URL change, start from scratch
 if [ -d "$DIR/.git" ]
