@@ -2813,6 +2813,8 @@ Read Aloud
 
 Reader Experiments
 ignored = readerexperiments-imagebrowsing-image-alt-text
+optional = readerexperiments-sharehighlight-background-wikipedia, readerexperiments-sharehighlight-quote-format
+optional = readerexperiments-sharehighlight-branding
 
 Reading Lists - API
 id = ext-readinglists-api
