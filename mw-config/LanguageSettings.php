@@ -77,6 +77,7 @@ $wgExtraLanguageNames = [
 	'jax' => 'Jambi', # Jambi Malay / Jon Harald Søby 2026-01-20
 	'jdt-cyrl' => 'жугьури', # Judeo-Tat / Siebrand 2014-06-17
 	'jje' => '제주말', # Jeju / Amir 2023-06-14
+	'juk' => 'Nene Wapan', # Wapan / ToluAyo 2026-02-23
 	'kac' => 'Jinghpaw', # Jingpho / Siebrand 2014-04-08
 	'kck' => 'tjikalanga', # Kalanga / Amir 2022-07-18
 	'ken' => 'kɛ́nyáŋ', # Kenyang / Jon Harald Søby 2022-02-03
