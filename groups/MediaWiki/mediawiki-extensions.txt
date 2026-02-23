@@ -3964,11 +3964,6 @@ Wikimedia Contact Page Messages
 file = WikimediaMessages/i18n/contactpage/%CODE%.json
 ignored = contactpage-pagetext-affcomusergroup, contactpage-pagetext-affcomchapthorg
 ignored = contactpage-legend-affcomusergroup
-optional = contactpage-wikimedia-trademark-foundation, contactpage-wikimedia-trademark-commons, contactpage-wikimedia-trademark-incubator
-optional = contactpage-wikimedia-trademark-mediawiki, contactpage-wikimedia-trademark-wikiquote, contactpage-wikimedia-trademark-wikibooks
-optional = contactpage-wikimedia-trademark-wikimania, contactpage-wikimedia-trademark-wikinews, contactpage-wikimedia-trademark-wikisource
-optional = contactpage-wikimedia-trademark-wikispecies, contactpage-wikimedia-trademark-wikiversity, contactpage-wikimedia-trademark-wiktionary
-optional = contactpage-wikimedia-trademark-wikivoyage
 
 Wikimedia Creative Commons License Texts
 file = WikimediaMessages/i18n/cclicensetexts/%CODE%.json
