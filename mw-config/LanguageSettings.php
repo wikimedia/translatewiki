@@ -172,6 +172,6 @@ $wgExtraLanguageNames = [
 	'xmm' => 'Manado', # Manado / Amir 2022-12-06
 	'xon' => 'likpakpaanl', # Likpakpaanl / Amir 2024-11-18
 	'yoi' => '与那国物言', # Yonaguni / Amir 2022-07-16
-	'yrk' => 'Ненэцяʼ вада', # Tundra Nenets / Lcawte 2011-02-07
+	'yrk' => 'ненэцяʼ вада', # Tundra Nenets / Lcawte 2011-02-07
 	'zmi' => 'Nismilan', # Negeri Sembilan Malay / Amir 2024-09-03
 ];
