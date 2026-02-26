@@ -6,5 +6,4 @@ ControlPath /tmp/l10n-bot-%C
 ControlPersist 60
 HashKnownHosts no
 IdentitiesOnly yes
-IdentityFile /etc/keyholder.d/l10n_bot.pub
 IdentityFile /etc/keyholder.d/l10n_bot_2023.pub

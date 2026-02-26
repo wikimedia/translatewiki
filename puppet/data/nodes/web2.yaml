@@ -38,9 +38,6 @@ opendkim::keys:
           - '*@translatewiki.net'
 
 keyholder::agent:
-  l10n-bot:
-    trusted_groups: ['l10n-bot']
-    priv_key_path: /root/keyholder/l10n-bot
   l10n-bot-2023:
     trusted_groups: ['l10n-bot']
     priv_key_path: /root/keyholder/l10n-bot-2023

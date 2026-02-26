@@ -18,7 +18,7 @@ Then copy setup-environment.sh to the server and run it:
 
 == Manual configuration required for production ==
 * Copy/create the following files for keyholder:
-  /root/keyholder/l10n-bot
-  /root/keyholder/l10n-bot.pub
+  /root/keyholder/l10n-bot-2023
+  /root/keyholder/l10n-bot-2023.pub
 * Add accounts for stats.translatewiki.net to /etc/webauth
 * Put backup keys in /root/.ssh/
