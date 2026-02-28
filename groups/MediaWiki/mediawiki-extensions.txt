@@ -867,7 +867,7 @@ id = ext-codemirror-user
 file = CodeMirror/i18n/%CODE%.json
 
 Code Mirror - API
-id = ext-codemirror-user
+id = ext-codemirror-api
 file = CodeMirror/i18n/api/%CODE%.json
 
 Cognate
