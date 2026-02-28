@@ -49,6 +49,8 @@ Abuse Filter - User interface
 id = ext-abusefilter-user
 file = AbuseFilter/i18n/%CODE%.json
 optional = abusefilter-edit-builder-op-bool-xor
+ignored = abusefilter-edit-action-warn-help, abusefilter-edit-action-disallow-help, abusefilter-edit-action-blockautopromote-help, abusefilter-edit-action-degroup-help
+ignored = abusefilter-edit-action-block-help, abusefilter-edit-action-throttle-help, abusefilter-edit-action-rangeblock-help, abusefilter-edit-action-tag-help
 aliasfile = AbuseFilter/AbuseFilter.alias.php
 
 Abuse Filter - API
