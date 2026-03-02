@@ -863,7 +863,7 @@ ignored = closewikis-closed
 Code Editor
 
 Code Mirror - User interface
-id = ext-codemirror-user
+id = ext-codemirror-user2
 file = CodeMirror/i18n/%CODE%.json
 
 Code Mirror - API
