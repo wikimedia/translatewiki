@@ -10,15 +10,21 @@ TEMPLATE:
     format: AndroidXml
     codeMap:
       be-tarask: b+be+tarask
+      cdo-hant: b+cdo+Hant
+      cdo-latn: cdo
       en-gb: en-rGB
       es-419: b+es+419
       he: iw
       hif-latn: b+hif+Latn
       id: in
       kk-cyrl: b+kk+Cyrl
+      ks-arab: ks
       ko-kp: ko-rKP
       ku-latn: ku
       ms-arab: b+ms+Arab
+      nan-hant: b+nan+Hant
+      nan-latn-pehoeji: nan
+      nan-latn-tailo: b+nan+Latn+tailo
       nds-nl: b+nds+NL
       pcm: pcm-rNG
       pt-br: pt-rBR
@@ -32,9 +38,12 @@ TEMPLATE:
       tg-cyrl: b+tg+Cyrl
       tt-cyrl: b+tt+Cyrl
       ug-arab: ug
+      wuu-hans: wuu
       yi: ji
+      yue-hant: yue
       zh-hans: zh
       zh-hant: zh-rTW
+      zh-hk: zh-rHK
 
   LANGUAGES:
     include:
