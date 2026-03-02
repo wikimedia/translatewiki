@@ -3712,6 +3712,11 @@ ignored = wikilambda-editor-howto-implementation-link
 id = ext-wikilambda-user
 file = WikiLambda/i18n/%CODE%.json
 
+Wiki Lambda - Abstract Wikipedia
+id = ext-wikilambda-abstract
+file = WikiLambda/i18n/abstract/%CODE%.json
+ignored = abstractwiki-suggested-functions.json
+
 Wiki Lambda - API
 id = ext-wikilambda-api
 file = WikiLambda/i18n/api/%CODE%.json
