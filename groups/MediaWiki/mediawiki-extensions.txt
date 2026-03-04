@@ -173,6 +173,7 @@ ignored=articlefeedbackv5-noteflyover-unoversight-description, articlefeedbackv5
 ignored=articlefeedbackv5-noteflyover-unresolve-description, articlefeedbackv5-noteflyover-unresolve-help-link, articlefeedbackv5-special-filter-label-after, articlefeedbackv5-special-sort-label-after
 
 Article Guidance
+ignored=tag-articleguidance-helppage
 
 Article Meta Description
 
