@@ -20,8 +20,7 @@ GROUPS:
   - ext-flaggedrevs-validationstatistics
   - ext-flow-user
   - ext-liquidthreads # Installed on very few wikis and no longer installed on new ones
-  - ext-metricsplatform
-  - ext-ores # https://www.mediawiki.org/wiki/Extension_talk:ORES#Deploying_to_more_wikis - no longer installed on new wikis
+  - ext-ores #  https://www.mediawiki.org/wiki/Extension_talk:ORES#Deploying_to_more_wikis - no longer installed on new wikis
   - ext-shorturl # No longer installed on new wikis, replaced with UrlShortener
   - ext-wikimediaundeployedplaceholders # https://gerrit.wikimedia.org/r/c/mediawiki/extensions/WikimediaMessages/+/752150
   - ext-wikistories # https://www.mediawiki.org/wiki/Talk:Wikistories_for_Wikipedia#Is_further_deployment_planned? - no longer installed on new wikis
