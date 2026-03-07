@@ -1626,9 +1626,6 @@ descmsg = gur-desc
 Global Watchlist
 aliasfile = GlobalWatchlist/GlobalWatchlist.alias.php
 
-Google AdSense
-ignored = googleadsense
-
 google Analytics
 
 Google Analytics Top Pages
@@ -2158,8 +2155,6 @@ ignored = chat-smileys, chat-mod-image
 optional = logentry-chat-send, chat.css, chat.js
 
 MediaWiki Farm
-
-# Memento // "timegate-..." message prefix
 
 Menu Editor
 ignored = menueditor-ui-menu-raw-text-help
@@ -2969,9 +2964,6 @@ descmsg = sacl-desc
 Semantic Genealogy
 optional = semanticgenealogy-gedcomexport-link
 
-Semantic Image Input
-descmsg = sii-desc
-
 Semantic Internal Objects
 magicfile = SemanticInternalObjects/SemanticInternalObjects.i18n.magic.php
 
@@ -2982,8 +2974,6 @@ Semantic Rating
 
 Semantic REST API
 descmsg = semantic-rest-api-desc
-
-Semantic Sifter
 
 # Semantic Title // See T229418, T229425
 
@@ -3012,8 +3002,6 @@ Show Me
 Show Real Usernames
 ignored = sru-realname-inline
 optional = sru-realname-append
-
-Sidebar Donate Box
 
 #Signup API / Disabled for the time of review: https://gerrit.wikimedia.org/r/#/c/7999/
 
