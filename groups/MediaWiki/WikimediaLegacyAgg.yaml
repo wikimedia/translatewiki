@@ -8,6 +8,7 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
+  - ext-articleplaceholder # https://www.mediawiki.org/wiki/Extension_talk:ArticlePlaceholder#Deploying_to_more_wikis - no longer installed on new wikis
   # FlaggedRevs is no longer installed on new Wikimedia wikis
   - ext-flaggedrevs-flaggedrevs
   - ext-flaggedrevs-configuredpages
