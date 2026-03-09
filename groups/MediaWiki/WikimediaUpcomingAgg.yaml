@@ -17,4 +17,3 @@ GROUPS:
   - ext-stopforumspam # Deployed experimentally on several wikis. Move to Advanced when the deployment becomes wider. https://phabricator.wikimedia.org/rOMWCf3de027936c615d7a310793d85a836350fcdc1df
   - ext-testkitchen # https://phabricator.wikimedia.org/rOMWCbdda3794a4424933e66247a89214fe8b2998c2ca
   - ext-wikilambda-abstract # Planned for deployment
-  - ext-wikistories # Deployed only on one wiki in beta. Move to Advanced when the deployment becomes wider. https://phabricator.wikimedia.org/rOMWC88ac6b94ff5acfbcd6a539e21b7454b6a38eaaba
