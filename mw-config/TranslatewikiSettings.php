@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\RCFeed\UDPRCFeedEngine;
+
 /**
  * Performance etc.
  */
@@ -108,6 +110,7 @@ $wgRCLinkLimits = [ 100, 500 ];
 $wgRCLinkDays = [ 1, 7, 30 ];
 
 $wgRCFeeds['irc'] = [
+	'class' => UDPRCFeedEngine::class,
 	'formatter' => 'IRCColourfulRCFeedFormatter',
 	'uri' => $privIRCService,
 	'add_interwiki_prefix' => false,
