@@ -3554,7 +3554,7 @@ ignored = editcheck-config.json, editcheck-tone-descriptionlink
 ignored = editcheck-tone-footerlink, editcheck-copyvio-descriptionlink, editcheck-preference-suggestions-info-link, editcheck-preference-suggestions-discussion-link
 ignored = editcheck-external-link-descriptionlink, editcheck-external-link-convertlink, editcheck-duplicate-link-descriptionlink
 ignored = editcheck-disambiguation-descriptionlink, editcheck-headinglevels-descriptionlink, editcheck-image-caption-descriptionlink
-ignored = editcheck-convertreference-descriptionlink
+ignored = editcheck-convertreference-descriptionlink, editcheck-double-bold-descriptionlink
 
 Visual Editor (MediaWiki extension) - Language Variants
 id = ext-visualeditor-ve-mw-languagevariants
