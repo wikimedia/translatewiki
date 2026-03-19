@@ -1178,10 +1178,10 @@ wikimedia-misc-tools:
       url: https://github.com/cis-india/Wikisource-Reader.git
       url|export: git@github.com:cis-india/Wikisource-Reader.git
     xtools:
-      type: github
+      type: wmgerrit
       branch: main
-      url: https://github.com/x-tools/xtools.git
-      url|export: git@github.com:x-tools/xtools.git
+      url: https://gerrit.wikimedia.org/r/labs/xtools
+      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/labs/xtools
     wikimedia-gadgets/twinkle-core:
       type: github
       url: https://github.com/wikimedia-gadgets/twinkle-core.git
