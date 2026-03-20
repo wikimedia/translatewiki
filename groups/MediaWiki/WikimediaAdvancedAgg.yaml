@@ -55,6 +55,7 @@ GROUPS:
   - ext-pageassessments-user
   - ext-pageimages-user
   - ext-pageviewinfo-user # https://phabricator.wikimedia.org/rOMWC295d9c12dacc1310557945ef00f2a50859ed1fcb
+  - ext-personaldashboard # https://phabricator.wikimedia.org/rOMWC701c4ccc5748a36fab7d8a8664f0e93fc8b3c22c
   - ext-poem
   - ext-proofreadpage-user # Wikisource
   - ext-propertysuggester-user # https://phabricator.wikimedia.org/rOMWC8612a69333853901fa04dcc377ce58d0879782d0
