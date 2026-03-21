@@ -692,6 +692,7 @@ optional = campaignevents-register-question-age-option-75-84
 optional = campaignevents-register-question-age-option-85-plus
 optional = campaignevents-eventslist-date-separator
 optional = campaignevents-contributions-summary-delta-separator
+optional = campaignevents-goal-progress-numeric
 file = CampaignEvents/i18n/%CODE%.json
 
 Campaigns
