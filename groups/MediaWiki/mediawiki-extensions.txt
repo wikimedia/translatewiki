@@ -791,6 +791,7 @@ ignored = checkuser-suggestedinvestigations-signal-dev-signal-1
 ignored = checkuser-suggestedinvestigations-signal-dev-signal-2
 ignored = checkuser-temporary-accounts-onboarding-dialog-ip-reveal-step-content
 ignored = checkuser-suggestedinvestigations-user, checkuser-investigateblock-hardblock-label
+ignored = checkuser-investigateblock-expiry-default, checkuser-investigateblock-expiry-ip
 optional = checkuser-time-range
 optional = group-checkuser.css, group-checkuser.js
 optional = checkuser-investigate-compare-toollinks-whois, checkuser-clienthints-list-item
