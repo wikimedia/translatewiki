@@ -850,6 +850,7 @@ osm:
   repos:
     osm:
       type: github
+      pull-branch: translatewiki
       url: https://github.com/openstreetmap/openstreetmap-website.git
       url|export: git@github.com:openstreetmap/openstreetmap-website.git
 
