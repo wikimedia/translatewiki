@@ -793,6 +793,7 @@ ignored = checkuser-temporary-accounts-onboarding-dialog-ip-reveal-step-content
 ignored = checkuser-suggestedinvestigations-user, checkuser-investigateblock-hardblock-label
 ignored = checkuser-investigateblock-expiry-default, checkuser-investigateblock-expiry-ip
 ignored = checkuser-related-tas-target
+ignored = checkuser-clienthints-name-is-browser, checkuser-clienthints-name-ja3n, checkuser-clienthints-name-ja4h
 optional = checkuser-time-range
 optional = group-checkuser.css, group-checkuser.js
 optional = checkuser-investigate-compare-toollinks-whois, checkuser-clienthints-list-item
