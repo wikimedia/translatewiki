@@ -3560,6 +3560,7 @@ ignored = editcheck-tone-footerlink, editcheck-copyvio-descriptionlink, editchec
 ignored = editcheck-external-link-descriptionlink, editcheck-external-link-convertlink, editcheck-duplicate-link-descriptionlink
 ignored = editcheck-disambiguation-descriptionlink, editcheck-headinglevel-descriptionlink, editcheck-image-caption-descriptionlink
 ignored = editcheck-convertreference-descriptionlink, editcheck-double-bold-descriptionlink
+optional = editcheck-toolbar-suggestions-count
 
 Visual Editor (MediaWiki extension) - Language Variants
 id = ext-visualeditor-ve-mw-languagevariants
