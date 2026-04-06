@@ -760,11 +760,6 @@ mwgithub:
       branch: main
       url: https://github.com/Universal-Omega/Preloader.git
       url|export: git@github.com:Universal-Omega/Preloader.git
-    mwgithub/Universal-Omega/SimpleBlogPage:
-      type: github
-      branch: main
-      url: https://github.com/Universal-Omega/SimpleBlogPage.git
-      url|export: git@github.com:Universal-Omega/SimpleBlogPage.git
     mwgithub/Universal-Omega/SimpleTooltip:
       type: github
       branch: main

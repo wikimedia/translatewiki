@@ -1929,31 +1929,6 @@ FILES:
 
 ---
 BASIC:
-  id: mwgithub-mediawiki-simpleblogpage
-  label: SimpleBlogPage
-  description: "{{Special:MyLanguage/MediaWiki:universalomega-simpleblogpage-desc/en}}"
-  support:
-    url: https://github.com/Universal-Omega/SimpleBlogPage/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\nMessage definition: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/SimpleBlogPage/i18n/%CODE%.json"
-
-MANGLER:
-  class: StringMatcher
-  prefix: universalomega-
-  patterns:
-    - "*"
-
-TAGS:
-  ignored:
-    - universalomega-blog-create-rules
-    - universalomega-blog-tagcloud-blacklist
----
-BASIC:
   id: mwgithub-mediawiki-simpletooltip
   label: SimpleTooltip
   description: "{{Special:MyLanguage/MediaWiki:Simpletooltip-desc/en}}"
