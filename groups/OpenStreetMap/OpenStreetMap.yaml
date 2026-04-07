@@ -62,7 +62,7 @@ VALIDATORS:
   - id: NotSupported
     enforce: true
     params:
-      regex: '/\{\{GENDER:[^}]*\}\}'
+      regex: '/\{\{GENDER:[^}]*\}\}/'
       display: '{{GENDER:...}}'
 
 INSERTABLES:
