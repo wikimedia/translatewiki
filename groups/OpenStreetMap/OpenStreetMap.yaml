@@ -59,6 +59,11 @@ VALIDATORS:
         - rtl
   - id: UnicodePlural
     enforce: true
+  - id: NotSupported
+    enforce: true
+    params:
+      regex: '/\{\{GENDER:[^}]*\}\}'
+      display: '{{GENDER:...}}'
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
