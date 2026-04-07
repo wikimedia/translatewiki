@@ -33,7 +33,7 @@ BASIC:
   label: Blockly Core
 
 FILES:
-  sourcePattern: "%GROUPROOT%/blockly/msg/json/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/blockly/packages/blockly/msg/json/%CODE%.json"
 
 TAGS:
   optional:

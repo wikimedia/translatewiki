@@ -23,8 +23,8 @@ blockly:
   repos:
     blockly:
       type: github
-      branch: develop
-      branch|export: translatewiki
+      branch: main
+      pull-branch: translatewiki
       url: https://github.com/RaspberryPiFoundation/blockly.git
       url|export: git@github.com:RaspberryPiFoundation/blockly.git
     blockly-games:
