@@ -841,7 +841,7 @@ oppia:
 
 osm:
   no-export-languages: en,qqq
-  group: out-osm-*,osm-*
+  group: out-osm-*
   repos:
     osm:
       type: github

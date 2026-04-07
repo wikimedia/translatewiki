@@ -1,49 +1,31 @@
-TEMPLATE:
-  BASIC:
-    icon: wiki://Openstreetmap_logo.svg
-    namespace: NS_OSM
-    class: FileBasedMessageGroup
-
-  FILES:
-    format: Yaml
-    parseCLDRPlurals: true
-    codeAsRoot: true
-    codeMap:
-      be-tarask: be-Tarask
-      en-gb: en-GB
-      es-mx: es-MX
-      ku-latn: ku-Latn
-      pt-br: pt
-      pt: pt-PT
-      sh-cyrl: sh-Cyrl
-      sh-latn: sh
-      sr-ec: sr
-      sr-el: sr-Latn
-      tt-cyrl: tt
-      zh-hans: zh-CN
-      zh-hant: zh-TW
-      zh-hk: zh-HK
-
----
-BASIC:
-  id: out-osm-0-all
-  label: OpenStreetMap
-  description: "{{Special:MyLanguage/Translations:Group descriptions/openstreetmap/en}}"
-  meta: yes
-  class: AggregateMessageGroup
-
-GROUPS:
-  - out-osm-*
-  - osm-*
-
----
 BASIC:
   id: out-osm-site
   label: OpenStreetMap - Website
   description: "{{Special:MyLanguage/Translations:Group descriptions/osm-site/en}}"
+  icon: wiki://Openstreetmap_logo.svg
+  namespace: NS_OSM
+  class: FileBasedMessageGroup
 
 FILES:
   sourcePattern: "%GROUPROOT%/osm/config/locales/%CODE%.yml"
+  format: Yaml
+  parseCLDRPlurals: true
+  codeAsRoot: true
+  codeMap:
+    be-tarask: be-Tarask
+    en-gb: en-GB
+    es-mx: es-MX
+    ku-latn: ku-Latn
+    pt-br: pt
+    pt: pt-PT
+    sh-cyrl: sh-Cyrl
+    sh-latn: sh
+    sr-ec: sr
+    sr-el: sr-Latn
+    tt-cyrl: tt
+    zh-hans: zh-CN
+    zh-hant: zh-TW
+    zh-hk: zh-HK
 
 VALIDATORS:
   - id: InsertableRubyVariable
