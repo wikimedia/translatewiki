@@ -429,13 +429,8 @@ $wgTranslateSupportUrlNamespace[NS_INTUITION] = [
 	'params' => $phabParams,
 ];
 
+# No longer in use.
 wfAddNamespace( 1242, 'EOL' );
-$wgTranslateGroupFiles[] = "$GROUPS/EOL/EOL.yaml";
-$wgTranslateGroupAliases['out-eol-0-all'] = 'eol';
-$wgTranslateSupportUrlNamespace[NS_EOL] = [
-	'page' => 'Translating_talk:Encyclopedia_of_Life',
-	'params' => $talkParams,
-];
 
 wfAddNamespace( 1244, 'Kiwix' );
 $wgTranslateGroupFiles[] = "$GROUPS/Kiwix/KiwixAndroid.yaml";
