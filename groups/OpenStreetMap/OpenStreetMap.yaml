@@ -1,6 +1,6 @@
 BASIC:
   id: out-osm-site
-  label: OpenStreetMap - Website
+  label: OpenStreetMap website
   description: "{{Special:MyLanguage/Translations:Group descriptions/osm-site/en}}"
   icon: wiki://Openstreetmap_logo.svg
   namespace: NS_OSM
@@ -109,6 +109,9 @@ TAGS:
     - site.about_section.legal_1_1_terms_of_use_url
     - site.about_section.legal_2_1_contact_the_osmf_url
     - site.about_section.legal_2_2_registered_trademarks_url
+    - site.about_section.legal_attribution_example_film_url
+    - site.about_section.legal_attribution_example_tv_url
+    - site.about_section.legal_attribution_guidelines_url
     - site.any_questions.welcome_mat_url
     - site.communities.other_groups.communities_wiki_url
     - site.copyright.legal_babble.contributors_2_contributors_page_url

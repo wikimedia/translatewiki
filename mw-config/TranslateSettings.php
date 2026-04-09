@@ -382,6 +382,7 @@ $wgTranslateSupportUrlNamespace[NS_OSM] = [
 	'page' => 'Translating_talk:OpenStreetMap',
 	'params' => $talkParams,
 ];
+$wgTranslateGroupAliases['out-osm-0-all'] = 'out-osm-site';
 
 # No longer in use.
 wfAddNamespace( 1224, 'WikiReader' );
