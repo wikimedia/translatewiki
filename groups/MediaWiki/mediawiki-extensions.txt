@@ -3591,14 +3591,17 @@ magicfile = VoteNY/includes/VoteNY.i18n.magic.php
 VueJsPlus
 
 Wanda
+id = ext-wanda-base
 aliasfile = Wanda/Wanda_Aliases.php
 optional = wanda, wanda-name
 
 Wanda Score
+id = ext-wanda-score
 aliasfile = WandaScore/WandaScore.aliases.php
 optional = wandascore
 
 Wanda Scribe
+id = ext-wanda-scribe
 
 Wanted Pages From NS
 descmsg = wpfromns-desc
