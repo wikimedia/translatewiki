@@ -304,6 +304,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ScriptManager.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/SignIt.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/svgtranslate.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/SWViewer.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/StarterKit.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Toolhub.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Twinkle.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/video2commons.yaml";
