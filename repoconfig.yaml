@@ -1180,6 +1180,10 @@ wikimedia-misc-tools:
       branch: develop
       url: https://github.com/wikimediabrasil/wikiscore.git
       url|export: git@github.com:wikimediabrasil/wikiscore.git
+    wikivoyage-listing-editor:
+      type: github
+      url: https://github.com/jdlrobson/Gadget-Workshop.git
+      url|export: git@github.com:jdlrobson/Gadget-Workshop.git
     wscd:
       type: github
       url: https://github.com/diskdance/wscd.git

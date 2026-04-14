@@ -1,0 +1,30 @@
+---
+BASIC:
+  id: wikivoyage-listing-editor
+  label: Wikivoyage Listing Editor
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wikivoyage-listing-editor/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/jdlrobson/Gadget-Workshop/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikivoyage-listing-editor-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wikivoyage-listing-editor/GadgetListingEditor/src/i18n/%CODE%.json"
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+TAGS:
+  optional:
+    - wikivoyage-listing-editor-intlCurrenciesTitle
+    - wikivoyage-listing-editor-natlCurrencyTitle
