@@ -355,10 +355,10 @@ mwgithub:
       branch: main
       url: https://github.com/wiki-gg-oss/mediawiki-extensions-ThemeToggle.git
       url|export: git@github.com:wiki-gg-oss/mediawiki-extensions-ThemeToggle.git
-    mwgithub/AlPha5130/mediawiki-extensions-EditCountNeue:
+    mwgithub/NekoCharm01/mediawiki-extensions-EditCountNeue:
       type: github
-      url: https://github.com/AlPha5130/mediawiki-extensions-EditCountNeue.git
-      url|export: git@github.com:AlPha5130/mediawiki-extensions-EditCountNeue.git
+      url: https://github.com/NekoCharm01/mediawiki-extensions-EditCountNeue.git
+      url|export: git@github.com:NekoCharm01/mediawiki-extensions-EditCountNeue.git
     mwgithub/Appropedia/extension:
       type: github
       branch: main

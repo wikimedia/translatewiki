@@ -1828,14 +1828,14 @@ BASIC:
   label: EditCountNeue
   description: "{{Special:MyLanguage/MediaWiki:Editcount-desc/en}}"
   support:
-    url: https://github.com/AlPha5130/mediawiki-extensions-EditCountNeue/issues/new
+    url: https://github.com/NekoCharm01/mediawiki-extensions-EditCountNeue/issues/new
     params:
       title: Translation issue with message %MESSAGE%
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/AlPha5130/mediawiki-extensions-EditCountNeue/i18n/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/NekoCharm01/mediawiki-extensions-EditCountNeue/i18n/%CODE%.json"
 
 ---
 BASIC:
@@ -1843,14 +1843,14 @@ BASIC:
   label: EditCountNeue - API
   description: "{{Special:MyLanguage/MediaWiki:Editcount-desc/en}}"
   support:
-    url: https://github.com/AlPha5130/mediawiki-extensions-EditCountNeue/issues/new
+    url: https://github.com/NekoCharm01/mediawiki-extensions-EditCountNeue/issues/new
     params:
       title: Translation issue with API message %MESSAGE%
       body: "\n\nURL: %MESSAGE_URL%"
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/AlPha5130/mediawiki-extensions-EditCountNeue/i18n/api/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/mwgithub/NekoCharm01/mediawiki-extensions-EditCountNeue/i18n/api/%CODE%.json"
 
 MANGLER:
   class: StringMatcher
