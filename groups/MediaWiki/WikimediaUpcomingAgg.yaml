@@ -8,6 +8,7 @@ BASIC:
   namespace: NS_MEDIAWIKI
 
 GROUPS:
+  - ext-articleguidance # https://phabricator.wikimedia.org/rOMWC2828f3fe8849553c756df6ff2bda290de99ad68b
   - ext-chessbrowser # https://phabricator.wikimedia.org/rOMWCba8b786c7f3a290f0747a6859fd07502eb83108f
   - ext-multititle # https://phabricator.wikimedia.org/rOMWCc037439e4675063c7844ddf36cd207ac33528a4b
   - ext-pagenotice # https://phabricator.wikimedia.org/rOMWCd3b399694f2b03af6ee029fb0cf1e3e9939e7a5b:
