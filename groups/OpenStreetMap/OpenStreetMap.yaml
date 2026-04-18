@@ -194,6 +194,7 @@ TAGS:
     - users.new.by_signing_up.contributor_terms_url
     - users.new.by_signing_up.privacy_policy_url
     - users.new.email_help.privacy_policy_url
+    - webgl_error_panes.show.read_more_about_webgl_url
   ignored:
     - activerecord.errors.models.user_mute.attributes.subject.format
     - printable_name.version
