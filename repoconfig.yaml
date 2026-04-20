@@ -74,8 +74,8 @@ etherpad-lite:
     etherpad-lite:
       type: github
       branch: develop
-      url: https://github.com/ether/etherpad-lite.git
-      url|export: git@github.com:ether/etherpad-lite.git
+      url: https://github.com/ether/etherpad.git
+      url|export: git@github.com:ether/etherpad.git
     ether/ep_align:
       type: github
       branch: main
