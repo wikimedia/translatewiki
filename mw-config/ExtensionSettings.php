@@ -25,10 +25,12 @@ wfLoadExtensions( [
 	'TemplateSandbox',
 	'TemplateStyles',
 	'Thanks',
-	'UniversalLanguageSelector',
 	'UserMerge',
 	'WikiEditor',
 ] );
+
+wfLoadExtension( 'UniversalLanguageSelector' );
+$wgULSLanguageSelectorV2Enabled = true;
 
 wfLoadExtension( 'CleanChanges' );
 $wgCCUserFilter = true;
