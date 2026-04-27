@@ -112,14 +112,6 @@ FILES:
 
 ---
 BASIC:
-  id: etherpad-lite-plugin-ep_guest
-  label: Etherpad lite plugin Guest
-
-FILES:
-  sourcePattern: "%GROUPROOT%/ether/ep_guest/locales/%CODE%.json"
-
----
-BASIC:
   id: etherpad-lite-plugin-ep_what_have_i_missed
   label: Etherpad lite plugin What have I missed
 
