@@ -193,10 +193,18 @@ $wgGroupPermissions['staff']['mwoauthviewsuppressed'] = true;
 $wgGroupPermissions['staff']['mwoauthviewprivate'] = true;
 
 wfLoadExtension( 'OATHAuth' );
-$wgOATHRequiredForGroups[] = 'interface-admin';
-$wgOATHRequiredForGroups[] = 'sysop';
-$wgOATHRequiredForGroups[] = 'bureaucrat';
-$wgOATHRequiredForGroups[] = 'staff';
+$wgRestrictedGroups['interface-admin'] = [
+	'memberConditions' => [ 'oath.has_2fa' ],
+];
+$wgRestrictedGroups['sysop'] = [
+	'memberConditions' => [ 'oath.has_2fa' ],
+];
+$wgRestrictedGroups['bureaucrat'] = [
+	'memberConditions' => [ 'oath.has_2fa' ],
+];
+$wgRestrictedGroups['staff'] = [
+	'memberConditions' => [ 'oath.has_2fa' ],
+];
 
 $wgPoolCounterConf = [
 	'TranslateFetchTranslators' => [
