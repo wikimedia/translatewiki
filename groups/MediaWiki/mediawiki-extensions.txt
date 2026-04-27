@@ -2395,10 +2395,6 @@ ignored = oathauth-notifications-recoverycodes-generated-for-user-contacturl
 ignored = oathauth-recover-email-text-site-admin-contact
 optional = oath
 
-OATH Auth - API
-id = ext-oathauth-api
-file = OATHAuth/i18n/api/%CODE%.json
-
 OAuth
 aliasfile = OAuth/MWOAuth.alias.php
 descmsg = mwoauth-desc
