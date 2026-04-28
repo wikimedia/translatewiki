@@ -4103,9 +4103,6 @@ file = Wikistories/i18n/api/%CODE%.json
 
 Windows Azure Storage
 
-Wiki Share
-magicfile = WikiShare/WikiShare.i18n.magic.php
-
 Wikisource
 optional = wikisource-download-chooser-epub, wikisource-download-chooser-mobi, wikisource-download-chooser-pdf
 optional = wikisource-ocr-engine-tesseract, wikisource-ocr-engine-google, wikisource-ocr-engine-transkribus
