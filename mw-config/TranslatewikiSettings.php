@@ -279,14 +279,15 @@ require_once __DIR__ . '/NewUserMessageJob.php';
 // Make it clear to see when canary is in use
 $script = $_SERVER['SCRIPT_NAME'] ?? '';
 if ( substr( $script, 0, 3 ) === '/x/' ) {
-		$wgHooks['SiteNoticeAfter'][] = static function ( &$siteNotice ) {
-				$siteNotice .= '<div dir="ltr">You are using canary!</div>';
-		};
+	$wgHooks['SiteNoticeAfter'][] = static function ( &$siteNotice ) {
+		$siteNotice .= '<div dir="ltr">You are using canary!</div>';
+	};
 
-		$wgHooks['OutputPageBodyAttributes'][] = static function ( $out, $skin, &$attrs ) {
-				$add = 'background: repeating-linear-gradient( -55deg, #f6ba52, #f6ba52 10px, #ffd180 10px, #ffd180 20px );';
-				$attrs['style'] = ( $attrs['style'] ?? '' ) . $add;
-		};
+	$wgHooks['OutputPageBodyAttributes'][] = static function ( $out, $skin, &$attrs ) {
+		$add = 'background: repeating-linear-gradient( -55deg, #f6ba52, #f6ba52 10px, #ffd180 10px, #ffd180 20px );' .
+			'margin-inline: 20px;';
+		$attrs['style'] = ( $attrs['style'] ?? '' ) . $add;
+	};
 }
 
 $wgMainPageIsDomainRoot = true;
