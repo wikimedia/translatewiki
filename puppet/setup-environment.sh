@@ -2,7 +2,7 @@
 set -o nounset -o pipefail -o errexit
 
 HOSTNAME=${1:-dev.translatewiki.net}
-DEB=puppet7-release-bullseye.deb
+DEB=puppet7-release-bookworm.deb
 
 echo -e "\n\n\nInstalling puppet..."
 cd /root
