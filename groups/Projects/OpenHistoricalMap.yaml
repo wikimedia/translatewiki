@@ -78,6 +78,7 @@ INSERTABLES:
 
 TAGS:
   optional:
+    - ohm-auth.providers.apple
     - ohm-browse.common_details.coordinates_html
     - ohm-browse.note.coordinates_html
     - ohm-browse.relation_member.entry
@@ -85,13 +86,23 @@ TAGS:
     - ohm-changesets.changesets.id
     - ohm-changesets.index.feed.cc0
     - ohm-changesets.index.feed.cc0_url
+    - ohm-date.formats.brief
+    - ohm-date.formats.range
     - ohm-diary_entries.location.coordinates
-    - ohm-geocoder.search osm nominatim.prefix other
     - ohm-geocoder.search_osm_namefinder.suffix_suburb
     - ohm-geocoder.search_osm_nominatim.prefix_format
     - ohm-geocoder.search_osm_nominatim.prefix_other
+    - ohm-geocoder.search_osm_nominatim.suffix_format
     - ohm-html.dir
+    - ohm-javascripts.element.wikipedia
     - ohm-javascripts.map.base.cyclosm
+    - ohm-javascripts.map.base.openmaptiles_osm
+    - ohm-javascripts.map.base.shortbread
+    - ohm-javascripts.map.copyright_text
+    - ohm-javascripts.map.cyclosm_name
+    - ohm-javascripts.map.maptiler_name
+    - ohm-javascripts.map.openmaptiles_name
+    - ohm-javascripts.query.suffix_format
     - ohm-layouts.help_url
     # Users may or may not want to translate the OSM wiki too
     - ohm-layouts.help_wiki_url
@@ -99,34 +110,53 @@ TAGS:
     - ohm-layouts.project_name.title
     - ohm-layouts.shop_url
     - ohm-layouts.wiki_url
+    - ohm-printable_name.with_date_html
     - ohm-notifier.message_notification.subject
     - ohm-oauth2_applications.index.oauth_2
     - ohm-printable_name.with_name_html
     - ohm-printable_name.with_version
     - ohm-site.about.contribute_1_bluesky
     - ohm-site.about.contribute_1_mastodon
+    - ohm-site.about_section.contribute_1_bluesky
+    - ohm-site.about_section.contribute_1_mastodon
+    - ohm-site.about_section.contribute_1_wiki_url
+    - ohm-site.about_section.open_data_1_1_reuse_url
+    - ohm-site.about_section.legal_1_group_url
     - ohm-site.any_questions.welcome_mat_url
+    - ohm-site.copyright.legal_babble.contributors_anr_communes_project
     - ohm-site.copyright.legal_babble.credit_3_project
     - ohm-site.edit.anon_edits
     - ohm-site.edit.anon_edits_html
+    - ohm-site.fixthemap.other_concerns.contact_url
+    - ohm-site.help.discord.title
     - ohm-site.help.welcomemat.url
+    - ohm-site.search.providers.fossgis_osrm
+    - ohm-site.search.providers.fossgis_valhalla
+    - ohm-site.search.providers.graphhopper
     - ohm-time.formats.blog
     - ohm-traces.edit.visibility_help_url
     - ohm-traces.new.help_url
     - ohm-traces.new.visibility_help_url
-    - ohm-user.account.contributor terms.link
+    - ohm-user.account.contributor_terms.link
     - ohm-user.account.gravatar.link
     - ohm-user.account.public_editing.enabled_link
-    - ohm-user.new.terms declined url
+    - ohm-user.new.terms_declined_url
     - ohm-user.terms.consider_pd_why_url
     - ohm-user.terms.declined
   ignored:
+    - ohm-geocoder.search.title.latlon_url
+    - ohm-geocoder.search.title.osm_nominatim_url
+    - ohm-geocoder.search.title.osm_nominatim_reverse_url
+    - ohm-notes.new.counter_warning_forum_link.url
     - ohm-printable_name.with_id
     - ohm-printable_name.with_name
+    - ohm-site.copyright.legal_babble.contributors_anr_communes_campop_url
     - ohm-site.edit.anon_edits_link
+    - ohm-site.help.community.url
     - ohm-site.help.discord.url
     - ohm-site.help.forum.url
     - ohm-site.help.forums.url
+    - ohm-site.help.github.url
     - ohm-site.help.irc.url
     - ohm-site.help.mailing_list.url
     - ohm-site.help.mailing_lists.url
@@ -135,6 +165,7 @@ TAGS:
     - ohm-site.help.wiki.url
     - ohm-site.index.license.license_url
     - ohm-site.index.license.project_url
+    - ohm-site.potlatch.download_url
 
 ---
 BASIC:
