@@ -1001,7 +1001,7 @@ wikimedia-misc-projects:
       url|export: git@github.com:internetarchive/internetarchivebot.git
 
 wikimedia-github:
-  group: copypatrol,grant-metrics,interaction-timeline,jquery-uls,whowrotethat,wikimedia-ocr
+  group: copypatrol,grant-metrics,interaction-timeline,jquery-uls,whowrotethat
   repos:
     copypatrol:
       type: github
@@ -1023,11 +1023,6 @@ wikimedia-github:
       type: github
       url: https://github.com/wikimedia/WhoWroteThat.git
       url|export: git@github.com:wikimedia/WhoWroteThat.git
-    WikimediaOCR:
-      type: github
-      branch: main
-      url: https://github.com/wikimedia/wikimedia-ocr.git
-      url|export: git@github.com:wikimedia/wikimedia-ocr.git
 
 wikimedia-mailman-templates:
   group: wikimedia-mailman-templates
@@ -1039,7 +1034,7 @@ wikimedia-mailman-templates:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/software/mailman-templates
 
 wikimedia-misc-tools:
-  group: adiutor,anvesha,broomstick,capacity-exchange,cejs,citationhunt,cite-forge,cite-unseen,fermi,global-search,instant-diffs,lexica-frontend,lingua-libre,lingua-libre-org,pageviews,quickstatements3,ranker,script-manager,signit,starterkit,svgtranslate,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikilearn-*,wikipedia-year-in-review,wikiscore,wikisource-reader,wiki-infographics,wikivoyage-listing-editor,wscd
+  group: adiutor,anvesha,broomstick,capacity-exchange,cejs,citationhunt,cite-forge,cite-unseen,fermi,global-search,instant-diffs,lexica-frontend,lingua-libre,lingua-libre-org,wikimedia-ocr,pageviews,quickstatements3,ranker,script-manager,signit,starterkit,svgtranslate,twinkle-core,video2commons,wikidata-image-positions,wikidata-lexeme-forms,wikilearn-*,wikipedia-year-in-review,wikiscore,wikisource-reader,wiki-infographics,wikivoyage-listing-editor,wscd
   repos:
     adiutor:
       type: github
@@ -1109,6 +1104,11 @@ wikimedia-misc-tools:
       branch: main
       url: https://gitlab.wikimedia.org/repos/wikimedia-france/lingua-libre/lingualibre.org.git
       url|export: git@gitlab.wikimedia.org:repos/wikimedia-france/lingua-libre/lingualibre.org.git
+    WikimediaOCR:
+      type: gitlab
+      branch: main
+      url: https://gitlab.wikimedia.org/toolforge-repos/ocr.git
+      url|export: git@gitlab.wikimedia.org:toolforge-repos/ocr.git
     pageviews:
       type: github
       url: https://github.com/MusikAnimal/pageviews.git
