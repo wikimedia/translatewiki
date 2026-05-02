@@ -284,6 +284,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/global-search.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/GrantMetrics.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Fermi.yaml";
 $wgTranslateGroupAliases['jank-client'] = 'fermi';
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Hiruwiki.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/jquery.uls.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ia-upload.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/InstantDiffs.yaml";
