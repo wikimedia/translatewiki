@@ -2075,10 +2075,6 @@ Map Sources
 aliasfile = MapSources/MapSources.i18n.alias.php
 magicfile = MapSources/MapSources.i18n.magic.php
 
-Mark As Helpful
-ignored = right-markashelpful-view, right-markashelpful-admin
-ignored = action-markashelpful-view, action-markashelpful-admin
-
 Mass Edit Regex
 aliasfile = MassEditRegex/MassEditRegex.alias.php
 
