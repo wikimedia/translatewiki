@@ -195,6 +195,7 @@ hiruwiki:
   repos:
     hiruwiki:
       type: github
+      branch: main
       url: https://github.com/ItsNyoty/Hiruwiki.git
       url|export: git@github.com:ItsNyoty/Hiruwiki.git
 
