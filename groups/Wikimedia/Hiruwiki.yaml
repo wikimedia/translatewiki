@@ -1,0 +1,27 @@
+BASIC:
+  id: hiruwiki
+  label: Hiruwiki
+  description: "{{Special:MyLanguage/Translations:Group descriptions/hiruwiki/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+
+FILES:
+  format: Yaml
+  sourcePattern: "%GROUPROOT%/hiruwiki/locale/%CODE%.yaml"
+  codeAsRoot: true
+
+MANGLER:
+  class: StringMatcher
+  prefix: hiruwiki-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-zA-Z0-9_]+\}/
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
