@@ -26,5 +26,15 @@ INSERTABLES:
 
 TAGS:
   optional:
+    - wikivoyage-listing-editor-alt
     - wikivoyage-listing-editor-intlCurrenciesTitle
     - wikivoyage-listing-editor-natlCurrencyTitle
+    - wikivoyage-listing-editor-helpPage
+    - wikivoyage-listing-editor-placeholder-fax
+    - wikivoyage-listing-editor-placeholder-lastedit
+    - wikivoyage-listing-editor-placeholder-lat
+    - wikivoyage-listing-editor-placeholder-long
+    - wikivoyage-listing-editor-placeholder-phone
+    - wikivoyage-listing-editor-placeholder-tollfree
+    - wikivoyage-listing-editor-placeholder-url
+    - wikivoyage-listing-editor-refresh
