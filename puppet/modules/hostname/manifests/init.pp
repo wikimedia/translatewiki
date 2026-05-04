@@ -10,7 +10,7 @@ class hostname {
     ensure => 'present',
   })
 
-  $hostname = $::ipaddress ? {
+  $hostname = $facts['networking']['ip'] ? {
     '152.89.106.205' => 'web2.translatewiki.net',
     default          => 'unknown.tranlatewiki.net',
   }

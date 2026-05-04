@@ -82,7 +82,7 @@ class keyholder($require_encrypted_keys='yes') {
     # The `keyholder-agent` service is responsible for running
     # the ssh-agent instance that will hold shared key(s).
     file { '/etc/systemd/system/keyholder-agent.service':
-        content  => template('keyholder/initscripts/keyholder-agent.systemd.erb')
+        content => template('keyholder/initscripts/keyholder-agent.systemd.erb')
     }
 
     service { 'keyholder-agent':
@@ -99,7 +99,7 @@ class keyholder($require_encrypted_keys='yes') {
     # that acts as an intermediary between users in the trusted group
     # and the backend ssh-agent that holds the shared key(s).
     file { '/etc/systemd/system/keyholder-proxy.service':
-        content  => template('keyholder/initscripts/keyholder-proxy.systemd.erb')
+        content => template('keyholder/initscripts/keyholder-proxy.systemd.erb')
     }
 
     service { 'keyholder-proxy':

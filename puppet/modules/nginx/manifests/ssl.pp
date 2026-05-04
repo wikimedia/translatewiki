@@ -15,11 +15,11 @@ class nginx::ssl {
   }
 
   file { '/etc/nginx/includes/ssl.conf':
-    source  => 'puppet:///modules/nginx/ssl.conf',
+    source => 'puppet:///modules/nginx/ssl.conf',
   }
 
   file { '/etc/nginx/includes/ssl-certbot.conf':
-    source  => 'puppet:///modules/nginx/ssl-certbot.conf',
+    source => 'puppet:///modules/nginx/ssl-certbot.conf',
   }
 
   class { '::letsencrypt':

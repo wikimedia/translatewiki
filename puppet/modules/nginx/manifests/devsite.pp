@@ -12,7 +12,7 @@ class nginx::devsite (
   }
 
   file { $certdir:
-    ensure  => 'directory',
+    ensure => 'directory',
   }
 
   file { '/etc/ssl/certs/dhparam.pem':
@@ -53,7 +53,7 @@ class nginx::devsite (
     command => $command,
     cwd     => $certdir,
     creates => [ "${certdir}/${domain}.key", "${certdir}/${domain}.crt", ],
-    path    => $::path,
+    path    => $facts['path'],
     notify  => Service[ 'nginx' ],
   }
 }

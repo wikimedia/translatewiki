@@ -24,7 +24,7 @@ class wiki::workdir (
   exec { "Create ${deployment_dir}":
     creates => $deployment_dir,
     command => "mkdir -p ${deployment_dir}",
-    path    => $::path,
+    path    => $facts['path'],
   } -> file { $deployment_dir:
     ensure => 'directory',
     owner  => $deployment_owner,
@@ -88,7 +88,7 @@ class wiki::workdir (
     cwd     => $deployment_dir,
     user    => $deployment_owner,
     creates => "${deployment_dir}/secretkey",
-    path    => $::path,
+    path    => $facts['path'],
   }
 
   file { "${workdir}/composer.local.json":
@@ -103,7 +103,7 @@ class wiki::workdir (
     cwd         => $workdir,
     user        => $deployment_owner,
     creates     => "${workdir}/vendor",
-    path        => $::path,
+    path        => $facts['path'],
     environment => [ "HOME=/home/${deployment_owner}" ],
     require     => [ Package[ 'composer' ], Vcsrepo[$workdir] ],
   }
@@ -118,12 +118,12 @@ class wiki::workdir (
     cwd     => $workdir,
     creates => "${workdir}/LocalSettings.php",
     require => Exec['Initial composer install'],
-    path    => $::path,
+    path    => $facts['path'],
   } ~> exec { 'Remove auto-generated LocalSettings.php':
     refreshonly => true,
     command     => 'rm LocalSettings.php',
     cwd         => $workdir,
-    path        => $::path,
+    path        => $facts['path'],
   }
 
   file { "${workdir}/LocalSettings.php":

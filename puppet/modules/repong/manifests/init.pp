@@ -16,7 +16,7 @@ class repong (
   exec { "Create import directory ${import_dir}":
     creates => $import_dir,
     command => "mkdir -p ${import_dir}",
-    path    => $::path,
+    path    => $facts['path'],
   } -> file { $import_dir:
     ensure => 'directory',
     owner  => $l10nbot_user,
@@ -39,7 +39,7 @@ class repong (
   exec { "Create export directory ${export_dir}":
     creates => $export_dir,
     command => "mkdir -p ${export_dir}",
-    path    => $::path,
+    path    => $facts['path'],
   } -> file { $export_dir:
     ensure => 'directory',
     owner  => $l10nbot_user,
