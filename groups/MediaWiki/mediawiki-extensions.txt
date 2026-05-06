@@ -180,11 +180,12 @@ Article Meta Description
 Article Placeholder
 aliasfile = ArticlePlaceholder/ArticlePlaceholder.alias.php
 
-ArticleRatings
+Article Ratings
 id = ext-articleratings
 aliasfile = ArticleRatings/ArticleRatings.alias.php
 descmsg = articleratings-desc
 ignored = articleratings-ratings
+prefix = articleratings- | group-reviewer, group-reviewer-member
 
 ArticleRatings - API
 id = ext-articleratings-api
