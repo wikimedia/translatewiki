@@ -3365,6 +3365,7 @@ optional = videojs-seek-forward
 optional = videojs-seek-backward
 optional = videojs-step-forward
 optional = videojs-step-backward
+optional = timedmedia-derivative-mpd, timedmedia-derivative-desc-mpd
 
 Timed Media Handler - API
 file = TimedMediaHandler/i18n/api/%CODE%.json
