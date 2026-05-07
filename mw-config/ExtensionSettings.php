@@ -32,11 +32,6 @@ wfLoadExtensions( [
 wfLoadExtension( 'UniversalLanguageSelector' );
 $wgULSLanguageSelectorV2Enabled = true;
 
-wfLoadExtension( 'CleanChanges' );
-$wgCCUserFilter = true;
-$wgStructuredChangeFiltersShowPreference = true;
-$wgCCFiltersOnly = true;
-
 wfLoadExtension( 'CirrusSearch' );
 $wgSearchType = 'CirrusSearch';
 $wgAdvancedSearchHighlighting = true;

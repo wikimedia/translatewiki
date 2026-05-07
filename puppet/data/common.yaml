@@ -97,8 +97,6 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CheckUser
   workdir/extensions/CirrusSearch:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CirrusSearch
-  workdir/extensions/CleanChanges:
-    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CleanChanges
   workdir/extensions/CodeEditor:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeEditor
   workdir/extensions/CodeMirror:
