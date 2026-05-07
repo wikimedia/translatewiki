@@ -735,6 +735,11 @@ mwgithub:
       branch: main
       url: https://github.com/StarCitizenTools/mediawiki-extensions-TabberNeue.git
       url|export: git@github.com:StarCitizenTools/mediawiki-extensions-TabberNeue.git
+    mwgithub/StarCitizenTools/mediawiki-extensions-Thumbro:
+      type: github
+      branch: main
+      url: https://github.com/StarCitizenTools/mediawiki-extensions-Thumbro.git
+      url|export: git@github.com:StarCitizenTools/mediawiki-extensions-Thumbro.git
     mwgithub/Universal-Omega/AutoCreatePage:
       type: github
       branch: main

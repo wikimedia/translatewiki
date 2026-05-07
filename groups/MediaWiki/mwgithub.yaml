@@ -1770,6 +1770,21 @@ FILES:
 
 ---
 BASIC:
+  id: mwgithub-starcitizen-thumbro
+  label: Thumbro
+  description: "{{Special:MyLanguage/MediaWiki:thumbro-desc/en}}"
+  support:
+    url: https://github.com/StarCitizenTools/mediawiki-extensions-Thumbro/issues
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/StarCitizenTools/mediawiki-extensions-Thumbro/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-themetoggle
   label: Theme Toggle
   description: "{{Special:MyLanguage/MediaWiki:themetoggle-desc/en}}"
