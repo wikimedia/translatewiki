@@ -32,7 +32,7 @@ class CommitCommand extends Command {
 			null,
 			InputOption::VALUE_REQUIRED,
 			'Override the default export branch for translation backports. ' .
-				'This can make a mess if you accidentally push wrong content to wrong branch'
+				'This can make a mess if you accidentally push the wrong content to the wrong branch'
 		);
 	}
 
@@ -78,9 +78,9 @@ class CommitCommand extends Command {
 						);
 					}
 
-					// This will use the default/source branch to base the commit on, and then push
-					// to a different remote branch. This is useful when for example, the project
-					// uses a pull-request model to review the commit.
+					// This will use the default/source branch as a base for the commit, and then push
+					// to a different remote branch. This is useful when, for example, the project
+					// uses a pull-request model for review.
 					//
 					// Subsequent commits will automatically re-create the branch (if it was merged
 					// since), or force-update the existing branch (and associated pull request).

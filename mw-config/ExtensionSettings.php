@@ -7,7 +7,7 @@ $wgDefaultSkin = 'vector-2022';
 $wgVectorNightMode['logged_in'] = true;
 $wgVectorNightMode['logged_out'] = true;
 
-// Extensions which we don't specify any configuration
+// Extensions for which we don't specify any configuration
 wfLoadExtensions( [
 	'AbuseFilter',
 	'CategoryTree',
@@ -248,7 +248,7 @@ $wgHooks['LiquidThreadsIsLqtPage'][] = static function ( \MediaWiki\Title\Title 
 	}
 };
 
-// Linter extensions requires this to produce results.
+// Linter extension requires this to produce results.
 $wgParsoidSettings[ 'linting' ] = true;
 
 wfLoadExtension( 'BounceHandler' );

@@ -29,7 +29,7 @@ abstract class Command extends SymfonyCommand {
 			throw new RuntimeException( "Cannot find configuration: $configFile" );
 		}
 
-		// FIXME: This project should be self contained
+		// FIXME: This project should be self-contained
 		$binpath = __DIR__ . '/../../../bin';
 		$this->bindir = realpath( __DIR__ . '/../../../bin' );
 		if ( $this->bindir === false ) {
@@ -140,7 +140,7 @@ abstract class Command extends SymfonyCommand {
 	}
 
 	protected function runParallelWithOutput( SplObjectStorage $processes, OutputInterface $output ) {
-		$this->runParaller(
+		$this->runParallel(
 			$processes,
 			static function ( $process ) use ( $output ) {
 				$output->writeln( $process->getCommandLine(), OutputInterface::VERBOSITY_VERBOSE );
@@ -169,7 +169,7 @@ abstract class Command extends SymfonyCommand {
 		);
 	}
 
-	protected function runParaller(
+	protected function runParallel(
 		SplObjectStorage $queue,
 		?callable $onStart = null,
 		?callable $onEnd = null

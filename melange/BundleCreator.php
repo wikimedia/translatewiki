@@ -6,7 +6,7 @@
  * @file
  */
 
-class BundleCreater {
+class BundleCreator {
 	protected $conf;
 	protected $dir;
 

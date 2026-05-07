@@ -15,15 +15,15 @@
 	</rule>
 
 	<rule ref="MediaWiki.Usage.ForbiddenFunctions.exec">
-		<exclude-pattern>*/melange/BundleCreater\.php</exclude-pattern>
+		<exclude-pattern>*/melange/BundleCreator\.php</exclude-pattern>
 		<exclude-pattern>*/validate-bash\.php</exclude-pattern>
 	</rule>
 	<rule ref="MediaWiki.Usage.ForbiddenFunctions.escapeshellarg">
-		<exclude-pattern>*/melange/BundleCreater\.php</exclude-pattern>
+		<exclude-pattern>*/melange/BundleCreator\.php</exclude-pattern>
 		<exclude-pattern>*/validate-bash\.php</exclude-pattern>
 	</rule>
 	<rule ref="MediaWiki.Usage.ForbiddenFunctions.passthru">
-		<exclude-pattern>*/melange/BundleCreater\.php</exclude-pattern>
+		<exclude-pattern>*/melange/BundleCreator\.php</exclude-pattern>
 	</rule>
 
 	<rule ref="Generic.Files.LineLength.TooLong">

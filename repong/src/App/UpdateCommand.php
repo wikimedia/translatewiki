@@ -42,10 +42,10 @@ class UpdateCommand extends Command {
 
 			if ( $genericType === 'git' ) {
 				// Check if we can use state synchronization for this repo.
-				// Without state synchronization, the repository we make commits
+				// Without state synchronization, the repository we make commits on
 				// could be ahead of the state that has been processed in the wiki.
-				// With state synchronization we ensure we do not overwrite any
-				// changes that have been made in the between.
+				// With state synchronization, we ensure we do not overwrite any
+				// changes that have been made in the meantime.
 				$stateDir = $meta[ 'state-directory' ] ?? false;
 				$defaultConfigBranch = $defaultConfig[ 'repos' ][ $name ][ 'branch' ] ?? 'master';
 				$branchCompatible = $branch === $defaultConfigBranch;

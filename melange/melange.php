@@ -7,9 +7,9 @@ if ( isset( $argv[1] ) ) {
 	$cmd = str_replace( '-', '_', $argv[1] );
 }
 
-require 'BundleCreater.php';
+require 'BundleCreator.php';
 
-$bundler = new BundleCreater( $conf, getcwd() );
+$bundler = new BundleCreator( $conf, getcwd() );
 if ( method_exists( $bundler, $cmd ) ) {
 	$bundler->$cmd();
 } else {

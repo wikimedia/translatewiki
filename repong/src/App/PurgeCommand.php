@@ -40,7 +40,7 @@ class PurgeCommand extends Command {
 		$really = $input->getOption( 'really' );
 
 		if ( !$really ) {
-			$output->writeln( 'Following directories would be deleted: (add --really to delete)' );
+			$output->writeln( 'The following directories would be deleted (add --really to delete):' );
 		}
 
 		$processes = new SplObjectStorage();
@@ -63,8 +63,8 @@ class PurgeCommand extends Command {
 	private static function getUnknownDirectories(
 		string $base, string $sub, string $knownPathsString
 	): Traversable {
-		// This code assumes project directories are not nested, e.g. B must not be under A/B
-		// within a project. This checks subdirectories if necessary.
+		// This code assumes project directories are not nested (e.g., B must not be under A/B).
+		// This checks subdirectories where necessary.
 		//
 		// Example:
 		// Project Apple uses single directory. Project Banana has multiple repositories like
