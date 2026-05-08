@@ -37,6 +37,9 @@ TAGS:
     - convenient-discussions-user-unknown-genitive
     - convenient-discussions-navpanel-newcomments-names
     - convenient-discussions-bullet
+    - convenient-discussions-key-ctrl
+    - convenient-discussions-key-shift
+    - convenient-discussions-key-enter
 
 VALIDATORS:
   - id: BraceBalance
