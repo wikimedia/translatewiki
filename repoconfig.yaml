@@ -417,10 +417,6 @@ mwgithub:
       type: github
       url: https://github.com/jeblad/Pickle.git
       url|export: git@github.com:jeblad/Pickle.git
-    mwgithub/JeroenDeDauw/ParserHooks:
-      type: github
-      url: https://github.com/JeroenDeDauw/ParserHooks.git
-      url|export: git@github.com:JeroenDeDauw/ParserHooks.git
     mwgithub/ProfessionalWiki/SubPageList:
       type: github
       url: https://github.com/ProfessionalWiki/SubPageList.git
