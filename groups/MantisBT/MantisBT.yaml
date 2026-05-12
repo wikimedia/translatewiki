@@ -68,6 +68,7 @@ TEMPLATE:
       pt:      portuguese_standard
       ro:      romanian
       ru:      russian
+      sh-latn: serbo-croatian_latin
       shi:     tachelhit
       sk:      slovak
       skr-arab: saraiki
