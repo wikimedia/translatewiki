@@ -794,6 +794,8 @@ optional = pref-chatintegration-slack-url
 optional = pref-chatintegration-zoom-url
 ignored = chatintegration-channel-label
 
+Chat Integration
+
 Checklists
 
 Check User - User interface
