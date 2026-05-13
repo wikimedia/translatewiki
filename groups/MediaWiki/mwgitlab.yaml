@@ -62,3 +62,17 @@ TAGS:
     - userprofilev2-discord-placeholder
     - userprofilev2-twitter-placeholder
     - userprofilev2-mastodon-placeholder
+
+---
+BASIC:
+  id: mwgitlab-recent-activity
+  label: RecentActivity
+  description: "{{Special:MyLanguage/MediaWiki:Recentactivity-desc/en}}"
+  class: FileBasedMessageGroup
+  support:
+    url: https://gitlab.com/lucamauri/RecentActivity/-/boards
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgitlab/lucamauri/recent-activity/i18n/%CODE%.json"
+

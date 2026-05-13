@@ -776,6 +776,11 @@ mwgitlab:
       branch: main
       url: https://gitlab.com/telepedia/extensions/userprofilev2.git
       url|export: git@gitlab.com:telepedia/extensions/userprofilev2.git
+    mwgitlab/lucamauri/recent-activity:
+      type: gitlab
+      branch: main
+      url: https://gitlab.com/lucamauri/RecentActivity.git
+      url|export: git@gitlab.com:lucamauri/RecentActivity.git
 
 nemo-web:
   group: nemo-web
