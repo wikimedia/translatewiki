@@ -782,6 +782,18 @@ Char Insert
 
 Chart
 
+Chat Bot
+optional = chatintegration-client-ms-teams
+optional = chatintegration-client-slack
+optional = chatintegration-tag-attr-url-label
+optional = pref-chatintegration-googlemeet-url
+optional = pref-chatintegration-matrix-url
+optional = pref-chatintegration-msteams-ur
+optional = pref-chatintegration-rocketchat-url
+optional = pref-chatintegration-slack-url
+optional = pref-chatintegration-zoom-url
+ignored = chatintegration-channel-label
+
 Checklists
 
 Check User - User interface
