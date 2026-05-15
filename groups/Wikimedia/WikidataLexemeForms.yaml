@@ -34,6 +34,7 @@ VALIDATORS:
     insertable: true
     enforce: false
   - id: MediaWikiPlural
+  - id: BraceBalance
 
 INSERTABLES:
   - class: HtmlTagInsertablesSuggester
