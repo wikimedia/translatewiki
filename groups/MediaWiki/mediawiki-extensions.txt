@@ -2134,6 +2134,8 @@ ignored = mediamoderation-email-body-intro
 
 Media Search
 optional = mediasearch-image-size
+ignored = mediasearch-preference-mediasearch-label
+ignored = mediasearch-preference-specialsearch-label
 
 Media Spoiler
 
