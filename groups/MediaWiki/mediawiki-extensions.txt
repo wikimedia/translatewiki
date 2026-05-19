@@ -2277,7 +2277,7 @@ optional = multimediaviewer-attr-html
 optional = multimediaviewer-embed-license-nonfree
 optional = multimediaviewer-text-embed-credit-text-l, multimediaviewer-html-embed-credit-text-l
 optional = multimediaviewer-current-image-number
-ignored = multimediaviewer-embed-dimensions-with-file-format, multimediaviewer-report-issue-url
+ignored = multimediaviewer-embed-dimensions-with-file-format
 
 Multi Language Manager
 aliasfile = MultiLanguageManager/MultiLanguageManager.alias.php
@@ -2403,6 +2403,7 @@ ignored = oathauth-notifications-recoverycodesleft-helplink
 ignored = oathauth-notifications-recoverycodes-generated-for-user-helplink
 ignored = oathauth-notifications-recoverycodes-generated-for-user-contacturl
 ignored = oathauth-recover-email-text-site-admin-contact
+ignored = oathauth-notifications-twofactor-required-helplink
 optional = oath
 
 OAuth
@@ -3612,6 +3613,7 @@ ignored = editcheck-tone-footerlink, editcheck-copyvio-descriptionlink, editchec
 ignored = editcheck-external-link-descriptionlink, editcheck-external-link-convertlink, editcheck-duplicate-link-descriptionlink
 ignored = editcheck-disambiguation-descriptionlink, editcheck-headinglevel-descriptionlink, editcheck-image-caption-descriptionlink
 ignored = editcheck-convertreference-descriptionlink, editcheck-double-bold-descriptionlink
+ignored = editcheck-suggestedlink-descriptionlink
 optional = editcheck-toolbar-suggestions-count
 
 Visual Editor (MediaWiki extension) - Language Variants
