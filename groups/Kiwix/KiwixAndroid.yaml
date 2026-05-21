@@ -80,8 +80,8 @@ FILES:
 ---
 BASIC:
   id: kiwix-android-custom
-  label: Kiwix Android (custom)
+  label: Kiwix Android (branded)
 
 FILES:
-  definitionFile: "%GROUPROOT%/kiwix-android/custom/src/main/res/values/strings.xml"
-  sourcePattern: "%GROUPROOT%/kiwix-android/custom/src/main/res/values-%CODE%/strings.xml"
+  definitionFile: "%GROUPROOT%/kiwix-android/branded/src/main/res/values/strings.xml"
+  sourcePattern: "%GROUPROOT%/kiwix-android/branded/src/main/res/values-%CODE%/strings.xml"
