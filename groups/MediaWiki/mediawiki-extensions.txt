@@ -2774,6 +2774,7 @@ ignored = communityconfiguration-reportincident-reportincident_nonemergency_disr
 ignored = reportincident-nonemergency-directreport-submitsuccess-header
 ignored = reportincident-nonemergency-directreport-submitsuccess-next-header
 ignored = reportincident-nonemergency-directreport-inputempty-error
+ignored = reportincident-dialog-harassment-type-hate-or-discrimination
 
 Pronunciation Recording
 
