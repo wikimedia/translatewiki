@@ -5,19 +5,6 @@
   expand: php /srv/mediawiki/targets/production/extensions/Translate/scripts/expand-groupspec.php --exportable
   state-directory|export: /resources/projects
 
-ajapaik:
-  group: ajapaik-*
-  repos:
-    ajapaik-web:
-      type: github
-      url: https://github.com/Ajapaik/ajapaik-web.git
-      url|export: git@github.com:Ajapaik/ajapaik-web.git
-    ajapaik-flutter-app:
-      type: github
-      branch: imageview
-      url: https://github.com/Ajapaik/ajapaik_flutter_app.git
-      url|export: git@github.com:Ajapaik/ajapaik_flutter_app.git
-
 blockly:
   group: out-blockly*
   repos:
