@@ -535,7 +535,6 @@ $wgTranslateGroupFiles[] = "$GROUPS/Phabricator/Phabricator.yaml";
 wfAddNamespace( 1276, 'Ajapaik' );
 $wgCapitalLinkOverrides[NS_AJAPAIK] = false;
 $wgCapitalLinkOverrides[NS_AJAPAIK] = false;
-$wgTranslateGroupFiles[] = "$GROUPS/Ajapaik/Ajapaik.yaml";
 
 # No longer in use
 wfAddNamespace( 1278, 'LibreMesh' );
