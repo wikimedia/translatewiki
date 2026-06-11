@@ -2888,11 +2888,11 @@ aliasfile = ReassignEdits/ReassignEdits.alias.php
 Redirect Manager - API
 id = ext-redirectmanager-api
 file = RedirectManager/i18n/api/%CODE%.json
-ignored = redirectmanager-patterns.json
 
 Redirect Manager - User Interface
 id = ext-redirectmanager-user
 file = RedirectManager/i18n/%CODE%.json
+ignored = redirectmanager-patterns.json
 
 Refresh Special
 aliasfile = RefreshSpecial/RefreshSpecial.alias.php
