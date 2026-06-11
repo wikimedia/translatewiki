@@ -20,4 +20,5 @@ MANGLER:
 
 FILES:
   format: Json
+  parseCLDRPlurals: true
   sourcePattern: "%GROUPROOT%/cite-unseen/i18n/%CODE%.json"
