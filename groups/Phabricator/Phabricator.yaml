@@ -244,6 +244,15 @@ MANGLER:
 
 ---
 BASIC:
+  id: phabricator-phabricator-extensions
+  label: Phabricator (phabricator > extensions)
+FILES:
+  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/extensions/%CODE%.json'
+MANGLER:
+  prefix: phabricator-extensions-
+
+---
+BASIC:
   id: phabricator-phabricator-fact
   label: Phabricator (phabricator > fact)
 FILES:
@@ -287,14 +296,6 @@ FILES:
 MANGLER:
   prefix: phabricator-flag-
 
----
-BASIC:
-  id: phabricator-phabricator-fund
-  label: Phabricator (phabricator > fund)
-FILES:
-  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/fund/%CODE%.json'
-MANGLER:
-  prefix: phabricator-fund-
 
 ---
 BASIC:
@@ -518,18 +519,6 @@ FILES:
 MANGLER:
   prefix: phabricator-pholio-
 
----
-BASIC:
-  id: phabricator-phabricator-phortune
-  label: Phabricator (phabricator > phortune)
-FILES:
-  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/phortune/%CODE%.json'
-MANGLER:
-  prefix: phabricator-phortune-
-TAGS:
-  optional:
-   - phabricator-phortune-4d08ec58743327ba
-   - phabricator-phortune-559ef5544c825815
 
 ---
 BASIC:
@@ -666,14 +655,6 @@ FILES:
 MANGLER:
   prefix: phabricator-subscriptions-
 
----
-BASIC:
-  id: phabricator-phabricator-support
-  label: Phabricator (phabricator > support)
-FILES:
-  sourcePattern: '%GROUPROOT%/phabricator/projects/phabricator/support/%CODE%.json'
-MANGLER:
-  prefix: phabricator-support-
 
 ---
 BASIC:
