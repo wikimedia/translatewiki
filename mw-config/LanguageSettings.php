@@ -164,6 +164,7 @@ $wgExtraLanguageNames = [
 	'trw' => 'توروالی', # Torwali / Amir 2024-07-06
 	'tsd' => 'Τσακωνικά', # Tsakonian / Siebrand 2009-08-20
 	'tsg' => 'Sinūg', # Tausug / Jon Harald Søby 2023-03-07
+	'tsw' => 'Tsishingini', # Shingini / ToluAyo 2026-06-11
 	'ttt' => 'Tati', # Tat / Siebrand 2008-04-04
 	'twd' => 'Tweants', # Twents
 	'vai' => 'ꕙꔤ', # Vai Amir 2019-04-23
