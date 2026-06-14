@@ -717,6 +717,7 @@ id = ext-cargo-user
 file = Cargo/i18n/%CODE%.json
 magicfile = Cargo/Cargo.i18n.magic.php
 aliasfile = Cargo/Cargo.alias.php
+ignored = cargo-drilldown-gallerycaption
 
 Category Lockdown
 
@@ -793,6 +794,8 @@ optional = pref-chatintegration-rocketchat-url
 optional = pref-chatintegration-slack-url
 optional = pref-chatintegration-zoom-url
 ignored = chatintegration-channel-label
+ignored = chatbot-prompts-contextualize
+ignored = chatbot-prompts-main
 
 Chat Integration
 
@@ -2776,6 +2779,10 @@ ignored = reportincident-nonemergency-directreport-submitsuccess-header
 ignored = reportincident-nonemergency-directreport-submitsuccess-next-header
 ignored = reportincident-nonemergency-directreport-inputempty-error
 ignored = reportincident-dialog-harassment-type-hate-or-discrimination
+ignored = reportincident-notification-link-to-comment-prefix
+ignored = reportincident-notification-link-to-topic-prefix
+ignored = reportincident-notification-link-to-page-prefix
+
 
 Pronunciation Recording
 
