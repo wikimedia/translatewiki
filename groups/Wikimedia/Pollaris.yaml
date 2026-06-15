@@ -1,0 +1,77 @@
+TEMPLATE:
+  BASIC:
+    description: "{{Special:MyLanguage/Translations:Group descriptions/pollaris/en}}"
+    namespace: NS_WIKIMEDIA
+    class: FileBasedMessageGroup
+    support:
+      url: https://github.com/danielyepezgarces/pollaris/issues
+      params:
+        title: Translation issue with message %MESSAGE%
+        body: "\n\nURL: %MESSAGE_URL%"
+
+  VALIDATORS:
+    - id: BraceBalance
+    - id: MediaWikiPlural
+    # {limit}, {poll_name}
+    - id: InsertableRegex
+      insertable: true
+      enforce: true
+      params: /{[a-zA-Z_]+}/
+    # __number__, __date__
+    - id: InsertableRegex
+      insertable: true
+      enforce: true
+      params: /%[A-Za-z1-9]%?/
+
+  MANGLER:
+    class: StringMatcher
+    prefix: pollaris-
+    patterns:
+      - "*"
+
+  codeMap:
+    cs: cs_CZ
+    de: de_DE
+    en: en_GB
+    es: es_ES
+    fr: fr_FR
+    it: it_IT
+    ja: ja_JP
+    nb: nb_NO
+    nl: nl_NL
+    nn: nn_NO
+    pl: pl_PL
+    pt-br: pt_BR
+    pt: pt_PT
+    sv: sv_SE
+    vi: vi_VN
+    zh-hans: zh_CN
+    zh-hant: zh_TW
+
+---
+BASIC:
+  id: pollaris
+  label: Pollaris
+  meta: yes
+  class: AggregateMessageGroup
+
+GROUPS:
+  - pollaris-*
+
+---
+BASIC:
+  id: pollaris-portal
+  label: Pollaris - Portal
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/pollaris/translatewiki/messages.%CODE%.json"
+
+---
+BASIC:
+  id: pollaris-validations
+  label: Pollaris - Validations
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/pollaris/translatewiki/validators.%CODE%.json"
