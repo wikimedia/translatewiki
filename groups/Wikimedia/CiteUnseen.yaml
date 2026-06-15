@@ -20,5 +20,6 @@ MANGLER:
 
 FILES:
   format: Json
+  nestingSeparator: "@"
   parseCLDRPlurals: true
   sourcePattern: "%GROUPROOT%/cite-unseen/i18n/%CODE%.json"
