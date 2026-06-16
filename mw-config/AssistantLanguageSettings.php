@@ -254,6 +254,7 @@ $wgTranslateLanguageFallbacks = [
 	'sc' => [ 'sro', 'it' ],
 	'sd' => [ 'sd-deva', 'sd-sind', 'ur', 'skr-arab', 'pnb' ],
 	'sd-deva' => [ 'sd', 'sd-sind', 'hi' ],
+	'sd-sind' => [ 'hi', 'sd', 'sd-deva', 'ur' ],
 	'se' => [ 'fi', 'sv', 'nb', 'sma', 'smj', 'sju', 'smn' ], # Jon Harald 2024-01-12
 	'shi' => [ 'ar', 'shi-latn' ], # Robin 2011-09-27
 	'shy' => [ 'fr', 'kab', 'arq', 'ar' ],

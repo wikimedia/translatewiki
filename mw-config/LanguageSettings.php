@@ -148,6 +148,7 @@ $wgExtraLanguageNames = [
 	'rtm' => 'Faeag Rotuma', # Rotuman
 	'saz' => 'ꢱꣃꢬꢵꢯ꣄ꢡ꣄ꢬꢵ', # Saurashtra / Siebrand 2011-03-17
 	'sd-deva' => 'सिंधी (देवनागरी)', # Sindhi (Devanagari)
+	'sd-sind' => '𑋝𑋡𑋟𑋐𑋢 (𑊻𑋩𑋣𑋏𑋠𑋔𑋠𑋏𑋢)', # Sindhi (Khudabadi) / 2026-06-16
 	'sgh' => 'Xuɣ̌nůni', # Shughni / ToluAyo 2025-11-11
 	'sju' => 'ubmejesámiengiälla', # Ume Sámi / Jon Harald Søby 2023-12-22
 	'slr' => 'Salırça', # Salar / Siebrand 2008-08-18
