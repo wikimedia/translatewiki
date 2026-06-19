@@ -3053,9 +3053,6 @@ Share
 
 # Shared Help Pages / very ShoutWiki-specific
 
-Short Url
-aliasfile = ShortUrl/ShortUrl.alias.php
-
 #Shout Wiki Ads / very ShoutWiki-specific
 
 #Shout Wiki API / very ShoutWiki-specific
