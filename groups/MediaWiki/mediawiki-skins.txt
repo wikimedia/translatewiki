@@ -147,8 +147,5 @@ webplatform
 ignored = webplatform-bottom-footer, webplatform-sitenav
 optional = webplatform-prefs-talkpage
 
-WikimediaApiPortal
-optional = wikimediaapiportal-skin-site-name-main, wikimediaapiportal-skin-site-name-sub
-
 WPtouch
 optional = wptouch-prefs-talkpage

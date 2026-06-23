@@ -90,8 +90,6 @@ GROUPS:
   - ext-wikibasequalityconstraints-api
   - ext-wikilambda-api
   - ext-wikilove-api
-  - ext-wikimediaapiportaloauth
   - ext-wikimediacampaignevents-rest
   - ext-wikimediaevents
   - ext-xanalytics # 2015-02-02 on all wikis
-  - mediawiki-skin-wikimediaapiportal
