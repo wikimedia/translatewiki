@@ -184,6 +184,7 @@ $wgTranslateLanguageFallbacks = [
 	'mnc' => [ 'mnc-mong', 'zh-hans' ],
 	'mnc-mong' => [ 'mnc', 'zh-hans' ],
 	'mns' => [ 'ru', 'hu', 'fi', 'et' ],
+	'mnw' => [ 'my', 'th' ],
 	'moe' => [ 'fr' ],
 	'mos' => [ 'fr', 'dag', 'gur', 'kbp', 'nmz' ],
 	'mrh' => [ 'lus', 'as', 'my' ],
