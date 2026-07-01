@@ -166,6 +166,8 @@ TAGS:
  optional:
   - phabricator-core-05bb26790a3f5f39
   - phabricator-core-a57fdeabc3df1cd7
+ ignored:
+  - phabricator-core-da39a3ee5e6b4b0d
 
 ---
 BASIC:
