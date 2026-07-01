@@ -156,6 +156,7 @@ users::users:
     purge_ssh_keys: true
     comment: Nik Gkountas
   wangombe:
+    ensure: absent
     uid: 1027
     groups: [ betawiki, www-shared ]
     purge_ssh_keys: true
@@ -192,6 +193,7 @@ users::ssh_keys:
     type: ssh-rsa
     key: AAAAB3NzaC1yc2EAAAADAQABAAACAQDQP7ypeUDpsP20wEmbfXqCPK+p0HFj44fPoAYT+ahnMuQCrP/1z65P7Vxp4sCar3DGnLuNzysddmtMgF0l6dmo47JpdTph+s+YnBcbtpm8LVAcfZZ1nFQDnbzkG8S20XUyC0HU9Xu0ehvhfIdfw5cu+hv1WEKpFj/UmmWJABsnMg8HXQtUKSThDDnGzUGdnm7q/yCQvnE+VZKVfA/fGJaHjoIp7GHCL8w4oOdCRdklkUB2NrqUlLKV2pg6POymHOFaW8cKBJdH0iaZANuOWuCcOzZpMYv6FNRAiTyrmuLQIANV0pYoEoEJ2qRRRRwxsvfQHGUCbyVghPs7e3kypqmFc+mGvrvv52o7oI+F0V2f5PM8CxA0waroVOjWIy1eq7GKMEFjxO9rBO6ILY6unMuSUevvHIc/2l3881h8gH1S5poiO34cNusJNJbcDI0v9cPbVmjOvP/cTNI1eIElydODr9XxKvc8pFZwtsZ2cZ529NLWfMxhQKnvtTqHBvCvpJe2HBEHeiHJh7GP05Ll0NKWVwM04onT+iLaViGBYxT+W25o5xtqyj51Sy04+Z13K0/M4avmJrf1f1+x7T3SAmujgDuajdotLDzjySjLFQyJPkvFUAG6P7/zy0lDd8LaLgYgtClz5qIfICISZAswaGqkRYMZ3pagqeY+vBWgnw4aTw==
   ewangombe-ctr@wikimedia.org:
+    ensure: absent
     user: wangombe
     type: ssh-ed25519
     key: AAAAC3NzaC1lZDI1NTE5AAAAIOOWKWYUehIRyxknPWNchwPrsp2ULPyyO0/todKhOGN/
@@ -200,6 +202,7 @@ users::ssh_keys:
     type: ssh-ed25519
     key: AAAAC3NzaC1lZDI1NTE5AAAAIJOz6jgZglq817GzRl6i2VLCLArpw1aRRe5ILNj0D1fT
   wangombe@003:
+    ensure: absent
     user: wangombe
     type: ssh-ed25519
     key: AAAAC3NzaC1lZDI1NTE5AAAAIOOY1EUkLHKw2ku1eL+qHHSS2rj1Q2mFG2K7tgv5x0Ja
