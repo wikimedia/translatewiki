@@ -30,7 +30,8 @@ class mariadb {
         log-error => undef
       },
       client      => {
-        default-character-set => 'utf8'
+        default-character-set => 'utf8',
+        ssl                   => '0',
       }
     }
   }
