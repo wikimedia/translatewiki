@@ -84,6 +84,7 @@ $wgExtraLanguageNames = [
 	'kge-arab' => 'كوموريڠ', # Komering (Arabic script) // Jon Harald Søby 2023-11-17
 	'kgp' => 'Kaingáng', # Siebrand 2008-12-05
 	'kip' => 'शेषी पाङ', # Amir 2017-08-13
+	'kix' => 'Khiamniungan', # RohitReddyA 2026-07-03
 	'knn' => 'महाराष्ट्रीय कोंकणी', # Maharashtrian Konkani / 2015-XX-XX
 	'ksf' => 'Bafia', # Robin 2011-10-21
 	'lad-hebr' => 'לאדינו', # Ladino in Hebrew script / Amir 2020-04-17
