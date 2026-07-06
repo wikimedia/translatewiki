@@ -3933,6 +3933,8 @@ optional = wikihiero-help-link
 #Wikilog Feed
 #file = WikiLog/i18n/wlfeed/%CODE%.json
 
+Wikimedia Anti Abuse
+
 Wikimedia Badges
 
 Wikimedia Campaign Events - API
