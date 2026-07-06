@@ -1,0 +1,29 @@
+---
+BASIC:
+  id: code2code-search
+  label: MediaWiki Code2Code Search
+  description: "{{Special:MyLanguage/Translations:Group descriptions/code2code-search/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/ftosoni/mediawiki-code2code-search/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: code2code-search-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/code2code-search/frontend/i18n/%CODE%.json"
+
+TAGS:
+  ignored:
+    - code2code-search-placeholder
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
