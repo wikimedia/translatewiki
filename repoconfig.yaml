@@ -882,7 +882,7 @@ qrmedia:
     qrmedia:
       type: gitlab
       url: https://gitlab.wikimedia.org/repos/wikimedia-france/qrmedia.git
-      url|export: git@gitlab.wikimedia.org:repos/wikimedia-france/qrmedia.git
+      url|export: git@gitlab-ssh.wikimedia.org:repos/wikimedia-france/qrmedia.git
 
 swviewer:
   group: swviewer
@@ -955,11 +955,11 @@ wikidata:
       type: gitlab
       url: https://gitlab.wikimedia.org/repos/wmde/wikidata-query-gui.git
       branch: main
-      url|export: git@gitlab.wikimedia.org:repos/wmde/wikidata-query-gui.git
+      url|export: git@gitlab-ssh.wikimedia.org:repos/wmde/wikidata-query-gui.git
     wikidata-query-builder:
       type: gitlab
       url: https://gitlab.wikimedia.org/repos/wmde/wikidata-query-builder.git
-      url|export: git@gitlab.wikimedia.org:repos/wmde/wikidata-query-builder.git
+      url|export: git@gitlab-ssh.wikimedia.org:repos/wmde/wikidata-query-builder.git
 
 wikidocumentaries:
   group: wikidocumentaries
@@ -1067,7 +1067,7 @@ wikimedia-misc-tools:
       branch: main
       pull-branch: i18n
       url: https://gitlab.wikimedia.org/kevinpayravi/cite-unseen.git
-      url|export: git@gitlab.wikimedia.org:kevinpayravi/cite-unseen.git
+      url|export: git@gitlab-ssh.wikimedia.org:kevinpayravi/cite-unseen.git
     fermi:
       type: github
       branch: main
@@ -1091,17 +1091,17 @@ wikimedia-misc-tools:
       type: gitlab
       branch: main
       url: https://gitlab.wikimedia.org/repos/wikimedia-france/lingua-libre/lingua-libre.git
-      url|export: git@gitlab.wikimedia.org:repos/wikimedia-france/lingua-libre/lingua-libre.git
+      url|export: git@gitlab-ssh.wikimedia.org:repos/wikimedia-france/lingua-libre/lingua-libre.git
     lingua-libre-org:
       type: gitlab
       branch: main
       url: https://gitlab.wikimedia.org/repos/wikimedia-france/lingua-libre/lingualibre.org.git
-      url|export: git@gitlab.wikimedia.org:repos/wikimedia-france/lingua-libre/lingualibre.org.git
+      url|export: git@gitlab-ssh.wikimedia.org:repos/wikimedia-france/lingua-libre/lingualibre.org.git
     WikimediaOCR:
       type: gitlab
       branch: main
       url: https://gitlab.wikimedia.org/toolforge-repos/ocr.git
-      url|export: git@gitlab.wikimedia.org:toolforge-repos/ocr.git
+      url|export: git@gitlab-ssh.wikimedia.org:toolforge-repos/ocr.git
     pageviews:
       type: github
       url: https://github.com/MusikAnimal/pageviews.git
@@ -1116,12 +1116,12 @@ wikimedia-misc-tools:
       branch: main
       url: https://gitlab.wikimedia.org/toolforge-repos/ranker.git
       pull-branch: twn
-      url|export: git@gitlab.wikimedia.org:toolforge-repos/ranker.git
+      url|export: git@gitlab-ssh.wikimedia.org:toolforge-repos/ranker.git
     script-manager:
       type: gitlab
       url: https://gitlab.wikimedia.org/iniquity/script-manager.git
       branch: main
-      url|export: git@gitlab.wikimedia.org:iniquity/script-manager.git
+      url|export: git@gitlab-ssh.wikimedia.org:iniquity/script-manager.git
     signit:
       type: github
       url: https://github.com/lingua-libre/SignIt.git
@@ -1130,12 +1130,12 @@ wikimedia-misc-tools:
       type: gitlab
       url: https://gitlab.wikimedia.org/repos/lpl/starterkit-v1.git
       branch: main
-      url|export: git@gitlab.wikimedia.org:repos/lpl/starterkit-v1.git
+      url|export: git@gitlab-ssh.wikimedia.org:repos/lpl/starterkit-v1.git
     svgtranslate:
       type: gitlab
       branch: main
       url: https://gitlab.wikimedia.org/toolforge-repos/svgtranslate.git
-      url|export: git@gitlab.wikimedia.org:toolforge-repos/svgtranslate.git
+      url|export: git@gitlab-ssh.wikimedia.org:toolforge-repos/svgtranslate.git
     video2commons:
       type: github
       url: https://github.com/toolforge/video2commons.git
@@ -1145,18 +1145,18 @@ wikimedia-misc-tools:
       branch: main
       url: https://gitlab.wikimedia.org/toolforge-repos/wd-image-positions.git
       pull-branch: twn
-      url|export: git@gitlab.wikimedia.org:toolforge-repos/wd-image-positions.git
+      url|export: git@gitlab-ssh.wikimedia.org:toolforge-repos/wd-image-positions.git
     wikidata-lexeme-forms:
       type: gitlab
       branch: main
       url: https://gitlab.wikimedia.org/toolforge-repos/lexeme-forms.git
       pull-branch: twn
-      url|export: git@gitlab.wikimedia.org:toolforge-repos/lexeme-forms.git
+      url|export: git@gitlab-ssh.wikimedia.org:toolforge-repos/lexeme-forms.git
     wiki-infographics:
       type: github
       branch: main
       url: https://github.com/wikimediabrasil/wiki_infographics.git
-      url|export: git@github.com:wikimediabrasil/wiki_infographics.git
+      url|export: git@gitlab-ssh.com:wikimediabrasil/wiki_infographics.git
     wikisource-reader:
       type: github
       branch: main
@@ -1272,7 +1272,7 @@ wikimedia-tools:
       type: gitlab
       url: https://gitlab.wikimedia.org/toolforge-repos/luthor
       branch: master
-      url|export: git@gitlab.wikimedia.org:toolforge-repos/luthor.git
+      url|export: git@gitlab-ssh.wikimedia.org:toolforge-repos/luthor.git
     wikimedia-tools/map-of-monuments:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/map-of-monuments
@@ -1292,7 +1292,7 @@ wikimedia-tools:
     wikimedia-tools/videocuttool:
       type: gitlab
       url: https://gitlab.wikimedia.org/cloudvps-repos/videocuttool/VideoCutTool
-      url|export: git@gitlab.wikimedia.org:cloudvps-repos/videocuttool/VideoCutTool.git
+      url|export: git@gitlab-ssh.wikimedia.org:cloudvps-repos/videocuttool/VideoCutTool.git
     wikimedia-tools/watch-translations:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/labs/tools/watch-translations
@@ -1301,7 +1301,7 @@ wikimedia-tools:
       type: gitlab
       url: https://gitlab.wikimedia.org/toolforge-repos/wdlocator.git
       branch: main
-      url|export: git@gitlab.wikimedia.org:toolforge-repos/wdlocator.git
+      url|export: git@gitlab-ssh.wikimedia.org:toolforge-repos/wdlocator.git
     wikimedia-tools/weapon-of-mass-description:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/p/labs/tools/weapon-of-mass-description
@@ -1383,7 +1383,7 @@ wikisource:
       type: gitlab
       branch: main
       url: https://gitlab.wikimedia.org/toolforge-repos/wsexport.git
-      url|export: git@gitlab.wikimedia.org:toolforge-repos/wsexport.git
+      url|export: git@gitlab-ssh.wikimedia.org:toolforge-repos/wsexport.git
 
 wikistats:
   group: wikistats
