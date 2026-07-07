@@ -29,24 +29,26 @@ TEMPLATE:
     patterns:
       - "*"
 
-  codeMap:
-    cs: cs_CZ
-    de: de_DE
-    en: en_GB
-    es: es_ES
-    fr: fr_FR
-    it: it_IT
-    ja: ja_JP
-    nb: nb_NO
-    nl: nl_NL
-    nn: nn_NO
-    pl: pl_PL
-    pt-br: pt_BR
-    pt: pt_PT
-    sv: sv_SE
-    vi: vi_VN
-    zh-hans: zh_CN
-    zh-hant: zh_TW
+  FILES:
+    format: Json
+    codeMap:
+      cs: cs_CZ
+      de: de_DE
+      en: en_GB
+      es: es_ES
+      fr: fr_FR
+      it: it_IT
+      ja: ja_JP
+      nb: nb_NO
+      nl: nl_NL
+      nn: nn_NO
+      pl: pl_PL
+      pt-br: pt_BR
+      pt: pt_PT
+      sv: sv_SE
+      vi: vi_VN
+      zh-hans: zh_CN
+      zh-hant: zh_TW
 
 ---
 BASIC:
@@ -64,7 +66,6 @@ BASIC:
   label: Pollaris - Portal
 
 FILES:
-  format: Json
   sourcePattern: "%GROUPROOT%/pollaris/translatewiki/messages.%CODE%.json"
 
 ---
@@ -73,5 +74,4 @@ BASIC:
   label: Pollaris - Validations
 
 FILES:
-  format: Json
   sourcePattern: "%GROUPROOT%/pollaris/translatewiki/validators.%CODE%.json"
