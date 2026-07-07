@@ -177,15 +177,6 @@ huggle:
       url: https://github.com/huggle/huggle3-qt-lx.git
       url|export: git@github.com:huggle/huggle3-qt-lx.git
 
-hiruwiki:
-  group: hiruwiki
-  repos:
-    hiruwiki:
-      type: github
-      branch: main
-      url: https://github.com/ItsNyoty/Hiruwiki.git
-      url|export: git@github.com:ItsNyoty/Hiruwiki.git
-
 intuition:
   group: tsint-*
   # Note that wikimedia-tools has auto-merge for labs/tools/.*
