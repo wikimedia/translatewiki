@@ -3,14 +3,14 @@ forge "https://forgeapi.puppetlabs.com"
 mod 'lvicainne/opendkim',
     :git => 'https://github.com/lvicainne/puppet-opendkim.git',
     :tag => 'v0.4.0'
-#mod 'puppet-elasticsearch', '9.0.0'
-#mod 'puppet-elastic_stack', '9.0.0'
-#mod 'puppet-kibana', '8.0.0'
 mod 'puppet-letsencrypt', '11.0.0'
+# Latest release (1.1.0) requires puppet-systemd < 6.0.0; master allows < 9.0.0
+mod 'puppet-opensearch',
+    :git => 'https://github.com/voxpupuli/puppet-opensearch.git',
+    :ref => '45a1c34a9fb3932992926494cfc46880e5efe25f'
 mod 'puppet-postfix', '5.1.0'
 mod 'puppet-systemd', '6.6.0'
 mod 'puppetlabs-firewall', '8.0.1'
-mod 'puppetlabs-java', '11.0.0'
 mod 'puppetlabs-mount_core', '1.2.0'
 mod 'puppetlabs-mysql', '15.0.0'
 mod 'syseleven-restic', '2.6.1'

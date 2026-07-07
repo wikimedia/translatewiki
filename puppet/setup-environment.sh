@@ -32,7 +32,7 @@ twn-update-all
 # Fails halfway the first time due to checkuser
 twn-update-database || twn-update-database
 
-echo -e "\n\n\nConfiguring elastic search..."
+echo -e "\n\n\nConfiguring OpenSearch..."
 cd /home/developer/mediawiki/workdir
 php maintenance/run.php ./extensions/Translate/scripts/ttmserver-export.php
 

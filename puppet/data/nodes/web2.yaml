@@ -101,7 +101,7 @@ sysctl::base::values:
   net.ipv4.tcp_notsent_lowat:
     value: '16384'
 
-profile::mwelasticsearch::memory_limit: '12g'
+profile::mwopensearch::memory_limit: '12g'
 
 users::users:
   siebrand:

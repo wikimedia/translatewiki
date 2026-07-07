@@ -13,8 +13,7 @@ classes:
   - '::nginx'
   - '::mariadb'
   - '::memcached'
-# puppet java module does not support Debian 13
-#  - '::profile::mwelasticsearch'
+  - '::profile::mwopensearch'
   - '::wiki'
   - '::wiki::docroot'
 
