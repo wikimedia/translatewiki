@@ -12,17 +12,25 @@ NAME="non-mediawiki"
 # Needed for list-projects to know which repoconfig.yaml to read
 cd "$AUTOIMPORT_DIR"
 
-php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -v ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
+set +o errexit
 
-if OUTPUT=$(php "$WIKISCRIPT" "$SCRIPT" --name "$NAME" --safe-import --group=* --skipgroup=ext-*,core,mediawiki*)
+# Note that repo update command uses parallelization. In the worst case we have 4*4 processes running at the same time
+php "$DIRSCRIPT/../repong/repong.php" list-projects | grep -v ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update
+UPDATE_CODE=$?
+
+OUTPUT=$(php "$WIKISCRIPT" "$SCRIPT" --name "$NAME" --safe-import --group=* --skipgroup=ext-*,core,mediawiki*)
+IMPORT_CODE=$?
+
+set -o errexit
+
+if [[ -n "$OUTPUT" ]]
 then
-	if [[ ! -z "$OUTPUT" ]]
-	then
-		echo "$OUTPUT" | xargs -l "$DIRSCRIPT/udpcast"
-	fi
-else
-	CODE=$?
 	echo "$OUTPUT"
-	"$DIRSCRIPT/udpcast" "Fatal error in autoimport! Please check the logs."
-	exit "$CODE"
+	echo "$OUTPUT" | xargs -l "$DIRSCRIPT/udpcast"
+fi
+
+if (( UPDATE_CODE || IMPORT_CODE ))
+then
+	"$DIRSCRIPT/udpcast" "Errors in autoimport. Please check the logs."
+	exit 1
 fi

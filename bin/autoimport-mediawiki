@@ -12,17 +12,25 @@ NAME=mediawiki
 # Needed for list-projects to know which repoconfig.yaml to read
 cd "$AUTOIMPORT_DIR"
 
-php "$DIRSCRIPT/../repong/repong.php" list-projects | grep ^mediawiki | xargs -n1 -P4 "$DIRSCRIPT/repo" update || :
+set +o errexit
 
-if OUTPUT=$(php "$WIKISCRIPT" "$SCRIPT" --name "$NAME" --group=core,ext-*,mediawiki*)
+# Note that repo update command uses parallelization
+php "$DIRSCRIPT/../repong/repong.php" list-projects | grep ^mediawiki | xargs -n1 "$DIRSCRIPT/repo" update
+UPDATE_CODE=$?
+
+OUTPUT=$(php "$WIKISCRIPT" "$SCRIPT" --name "$NAME" --group=core,ext-*,mediawiki*)
+IMPORT_CODE=$?
+
+set -o errexit
+
+if [[ -n "$OUTPUT" ]]
 then
-	if [[ ! -z "$OUTPUT" ]]
-	then
-		echo "$OUTPUT" | xargs -l "$DIRSCRIPT/udpcast"
-	fi
-else
-	CODE=$?
 	echo "$OUTPUT"
-	"$DIRSCRIPT/udpcast" "Fatal error in autoimport-mediawiki! Please check the logs."
-	exit "$CODE"
+	echo "$OUTPUT" | xargs -l "$DIRSCRIPT/udpcast"
+fi
+
+if (( UPDATE_CODE || IMPORT_CODE ))
+then
+	"$DIRSCRIPT/udpcast" "Errors in autoimport-mediawiki. Please check the logs."
+	exit 1
 fi
