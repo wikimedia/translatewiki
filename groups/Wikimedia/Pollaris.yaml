@@ -12,17 +12,12 @@ TEMPLATE:
   VALIDATORS:
     - id: BraceBalance
     - id: MediaWikiPlural
-    # {limit}, {poll_name}
-    - id: InsertableRegex
       insertable: true
       enforce: true
-      params: /{[a-zA-Z_]+}/
-    # __number__, __date__
-    - id: InsertableRegex
+    - id: MediaWikiParameter
       insertable: true
       enforce: true
-      params: /%[A-Za-z1-9]%?/
-
+      
   MANGLER:
     class: StringMatcher
     prefix: pollaris-
