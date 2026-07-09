@@ -59,7 +59,6 @@ $wgExtraLanguageNames = [
 	'elm' => 'Eleme', # Eleme / Amir 2020-07-02
 	'esu' => 'Yup\'ik', # Central Alaskan Yupik / Siebrand 2011-02-14
 	'fax' => 'Fala', # Fala / Nikerabbit 2016-06-22
-	'frs' => 'Oostfräisk', # East Frisian Low Saxon / Amir 2024-12-03
 	'gah' => 'Alekano', # Alekano / Siebrand 2010-10-08
 	'gbm' => 'गढ़वळि', # Garhwali / Amir 2020-03-14
 	'gbz' => 'Dari-e Mazdeyasnā', # Zoroastrian Dari / Siebrand 2011-01-20
