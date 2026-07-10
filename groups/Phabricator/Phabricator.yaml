@@ -17,6 +17,8 @@ TEMPLATE:
     - id: MediaWikiParameter
       insertable: true
       enforce: false
+    - id: NotEmpty
+      enforce: true
 
   MANGLER:
     class: StringMatcher
