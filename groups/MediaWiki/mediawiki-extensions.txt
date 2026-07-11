@@ -3558,6 +3558,7 @@ User Option Stats
 aliasfile = UserOptionStats/UserOptionStats.alias.php
 
 User Page Edit Protection
+prefix = UserPageEditProtection- | right-editalluserpages, action-editalluserpages
 
 User Page View Tracker
 aliasfile = UserPageViewTracker/UserPageViewTracker.alias.php
