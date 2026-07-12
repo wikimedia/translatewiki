@@ -1062,8 +1062,8 @@ wikimedia-misc-tools:
     fermi:
       type: github
       branch: main
-      url: https://github.com/MathMan05/Fermi.git
-      url|export: git@github.com:MathMan05/Fermi.git
+      url: https://codeberg.org/MelodyChat/Fermi.git
+      url|export: git@codeberg.org::MelodyChat/Fermi.git
     global-search:
       type: github
       url: https://github.com/wikimedia/tools-global-search.git
