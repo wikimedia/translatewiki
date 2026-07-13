@@ -83,8 +83,8 @@ array_unshift(
 	[
 		'netcup' => [
 			'src' => 'https://translatewiki.net/static/netcup.png',
-			'alt' => 'Powered by netcup - netcup.de – Webhosting, vServer, Servermanagement',
-			'url' => 'https://www.netcup.de/',
+			'alt' => 'netcup.com – Web hosting, servers, domains, e-mails, security, management services',
+			'url' => 'https://www.netcup.com',
 			'height' => '31',
 			'width' => false,
 		]
