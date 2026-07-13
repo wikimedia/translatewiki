@@ -12,12 +12,10 @@ TEMPLATE:
   VALIDATORS:
     - id: BraceBalance
     - id: MediaWikiPlural
-      insertable: true
-      enforce: true
     - id: MediaWikiParameter
       insertable: true
       enforce: true
-      
+
   MANGLER:
     class: StringMatcher
     prefix: pollaris-
