@@ -663,6 +663,21 @@ TAGS:
 
 ---
 BASIC:
+  id: mwgithub-nativemarkdown
+  label: NativeMarkdown
+  description: "{{Special:MyLanguage/MediaWiki:nativemarkdown-description/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/NativeMarkdown/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/NativeMarkdown/i18n/%CODE%.json"
+
+---
+BASIC:
   id: mwgithub-simplebatchupload
   label: SimpleBatchUpload
   description: "{{Special:MyLanguage/MediaWiki:Simplebatchupload-desc/en}}"

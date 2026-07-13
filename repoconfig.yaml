@@ -557,6 +557,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/ModernTimeline.git
       url|export: git@github.com:ProfessionalWiki/ModernTimeline.git
+    mwgithub/ProfessionalWiki/NativeMarkdown:
+      type: github
+      url: https://github.com/ProfessionalWiki/NativeMarkdown.git
+      url|export: git@github.com:ProfessionalWiki/NativeMarkdown.git
     mwgithub/ProfessionalWiki/Network:
       type: github
       url: https://github.com/ProfessionalWiki/Network.git
