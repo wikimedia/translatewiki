@@ -3937,6 +3937,7 @@ optional = wikihiero-help-link
 #file = WikiLog/i18n/wlfeed/%CODE%.json
 
 Wikimedia Anti Abuse
+ignored = tag-mw-private-personal-info-helppage, tag-mw-private-personal-info-false-positive-helppage
 
 Wikimedia Badges
 
