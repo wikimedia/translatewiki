@@ -8,12 +8,15 @@ classes:
   - '::repong::autoimport'
   - '::repong::autoexport'
   - '::repong::autobackport'
+  - '::profile::mydumper'
   - '::restic'
   - '::wiki::irc'
   - '::wiki::stats'
   - '::wiki::slack'
 
 base::mount_device: '46.38.248.210:/voln264518a1'
+
+mariadb::innodb_buffer_pool_size: '20G'
 
 mailer::domain: translatewiki.net
 # https://github.com/lvicainne/puppet-opendkim/commit/a3b9ccb04d92267832ea853b68101e0d3b910acb

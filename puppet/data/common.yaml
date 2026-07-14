@@ -90,6 +90,8 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/Babel
   workdir/extensions/BetaFeatures:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/BetaFeatures
+  workdir/extensions/BounceHandler:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/BounceHandler
   workdir/extensions/CategoryTree:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/CategoryTree
   workdir/extensions/CharInsert:

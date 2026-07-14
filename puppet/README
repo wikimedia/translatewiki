@@ -1,6 +1,6 @@
 == Bootstrap process ==
 
-Start with a feshly installed, minimal Debian 10 (Buster):
+Start with a freshly installed, minimal Debian 13 (Trixie):
 
   apt update
   apt upgrade
@@ -17,8 +17,13 @@ Then copy setup-environment.sh to the server and run it:
 
 
 == Manual configuration required for production ==
+* Copy the hiera-eyaml keypair from the previous server:
+  /root/secrets/puppet-hiera-eyaml/private_key.pkcs7.pem
+  /root/secrets/puppet-hiera-eyaml/public_key.pkcs7.pem
 * Copy/create the following files for keyholder:
   /root/keyholder/l10n-bot-2023
   /root/keyholder/l10n-bot-2023.pub
+* Copy the SMTP relay credentials used by postfix:
+  /root/postfix/sasl_passwd
 * Add accounts for stats.translatewiki.net to /etc/webauth
 * Put backup keys in /root/.ssh/

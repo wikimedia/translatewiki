@@ -32,11 +32,12 @@ FORGE
     puppetlabs-mysql (15.0.0)
       puppetlabs-stdlib (>= 9.0.0, < 10.0.0)
     puppetlabs-stdlib (9.6.0)
-    syseleven-restic (2.6.1)
+    puppetlabs-vcsrepo (7.0.0)
+    syseleven-restic (2.8.1)
       puppet-systemd (>= 3.10.0)
       puppetlabs-concat (>= 7.4.0)
       puppetlabs-stdlib (>= 8.2.0)
-    thias-sysctl (1.0.7)
+    thias-sysctl (1.0.8)
 
 GIT
   remote: https://github.com/lvicainne/puppet-opendkim.git
@@ -68,6 +69,7 @@ DEPENDENCIES
   puppetlabs-firewall (= 8.0.1)
   puppetlabs-mount_core (= 1.2.0)
   puppetlabs-mysql (= 15.0.0)
-  syseleven-restic (= 2.6.1)
-  thias-sysctl (= 1.0.7)
+  puppetlabs-vcsrepo (= 7.0.0)
+  syseleven-restic (= 2.8.1)
+  thias-sysctl (= 1.0.8)
 

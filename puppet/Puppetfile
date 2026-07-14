@@ -13,5 +13,8 @@ mod 'puppet-systemd', '6.6.0'
 mod 'puppetlabs-firewall', '8.0.1'
 mod 'puppetlabs-mount_core', '1.2.0'
 mod 'puppetlabs-mysql', '15.0.0'
-mod 'syseleven-restic', '2.6.1'
-mod 'thias-sysctl', '1.0.7'
+# Used by wiki::workdir; was previously only present via $basemodulepath
+mod 'puppetlabs-vcsrepo', '7.0.0'
+# No release declares Puppet 8 support; verified it uses nothing Puppet 8 removed
+mod 'syseleven-restic', '2.8.1'
+mod 'thias-sysctl', '1.0.8'

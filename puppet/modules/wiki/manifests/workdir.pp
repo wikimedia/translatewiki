@@ -21,6 +21,15 @@ class wiki::workdir (
     require => [ User[ $deployment_owner ], Group[ $deployment_group ] ],
   }
 
+  # Debian 13 creates homes with mode 0700 (login.defs HOME_MODE); www-data
+  # (jobrunner, php-fpm) must be able to traverse into the deployment dir
+  file { "/home/${deployment_owner}":
+    ensure  => directory,
+    owner   => $deployment_owner,
+    mode    => '0751',
+    require => User[ $deployment_owner ],
+  }
+
   exec { "Create ${deployment_dir}":
     creates => $deployment_dir,
     command => "mkdir -p ${deployment_dir}",
@@ -64,12 +73,19 @@ class wiki::workdir (
   }
 
   $repos.each |$name, $cfg| {
+    # Nested repos must wait for the core clone, or they create the
+    # directory first and the core clone fails on a non-empty path
+    $repo_require = $name ? {
+      'workdir' => [ User[ $deployment_owner ], Group[ $deployment_group ] ],
+      default   => [ User[ $deployment_owner ], Group[ $deployment_group ], Vcsrepo[$workdir] ],
+    }
     vcsrepo {
       default:
         ensure   => present,
         provider => 'git',
         owner    => $deployment_owner,
-        group    => $deployment_group;
+        group    => $deployment_group,
+        require  => $repo_require;
       "${deployment_dir}/${name}":
         * => $cfg,
     }
@@ -92,10 +108,11 @@ class wiki::workdir (
   }
 
   file { "${workdir}/composer.local.json":
-    ensure => 'link',
-    target => "${config_dir}/translatewiki-composer.json",
-    owner  => $deployment_owner,
-    group  => $deployment_group,
+    ensure  => 'link',
+    target  => "${config_dir}/translatewiki-composer.json",
+    owner   => $deployment_owner,
+    group   => $deployment_group,
+    require => Vcsrepo[$workdir],
   }
 
   exec { 'Initial composer install':
@@ -108,16 +125,33 @@ class wiki::workdir (
     require     => [ Package[ 'composer' ], Vcsrepo[$workdir] ],
   }
 
+  # Create the wiki DB user; the installer's MysqlCreateUserTask skips
+  # CREATE USER when its wikiuser test connection matches MariaDB's
+  # anonymous account (empty password), and its GRANT then fails because
+  # the default sql_mode (NO_AUTO_CREATE_USER) forbids implicit creation
+  mysql_user { 'wikiuser@localhost':
+    ensure => present,
+  }
+  mysql_grant { 'wikiuser@localhost/wiki.*':
+    ensure     => present,
+    user       => 'wikiuser@localhost',
+    table      => 'wiki.*',
+    privileges => ['ALL'],
+    require    => Mysql_user['wikiuser@localhost'],
+  }
+
+  # Throwaway password (reset after setup); MediaWiki rejects passwords that
+  # match the user name or are shorter than 10 characters
   $install_cmd = @(COMMAND/L)
     php maintenance/install.php --dbname=wiki --dbuser=wikiuser --installdbuser=root \
-    --pass developer X Developer
+    --pass change-this-password X Developer
     |-COMMAND
 
   exec { 'Install MediaWiki':
     command => $install_cmd,
     cwd     => $workdir,
     creates => "${workdir}/LocalSettings.php",
-    require => Exec['Initial composer install'],
+    require => [ Exec['Initial composer install'], Mysql_grant['wikiuser@localhost/wiki.*'] ],
     path    => $facts['path'],
   } ~> exec { 'Remove auto-generated LocalSettings.php':
     refreshonly => true,

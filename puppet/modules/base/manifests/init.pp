@@ -23,8 +23,6 @@ class base (
     'iperf', # Network performance
     'jnettop', # Network view
     'make',
-    'mlocate',
-    'mydumper',
     'nano',
     'netcat-openbsd',
     'nfs-common',

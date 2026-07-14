@@ -2,14 +2,11 @@
 set -o nounset -o pipefail -o errexit
 
 HOSTNAME=${1:-dev.translatewiki.net}
-DEB=puppet7-release-bookworm.deb
 
 echo -e "\n\n\nInstalling puppet..."
 cd /root
-wget "https://apt.puppetlabs.com/$DEB" -O "$DEB"
-dpkg -i "$DEB"
 apt update
-apt install -y git puppet-agent make librarian-puppet
+apt install -y git puppet-agent make librarian-puppet hiera-eyaml
 
 # Update PATHs
 . /etc/profile
@@ -37,7 +34,7 @@ cd /home/developer/mediawiki/workdir
 php maintenance/run.php ./extensions/Translate/scripts/ttmserver-export.php
 
 cd /root
-rm -r "$DEB" translatewiki
+rm -r translatewiki
 
 echo "\n\n\nTo access developer account on the wiki, you need to reset the password with"
 echo "  php /home/developer/mediawiki/workdir/maintenance/run.php changePassword --user Developer --password '...'"

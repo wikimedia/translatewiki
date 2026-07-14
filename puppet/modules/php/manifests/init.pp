@@ -4,11 +4,6 @@
 #
 class php {
   $packages = [
-    'php-luasandbox',
-    'php-memcached',
-    'php-wikidiff2',
-    'php-wmerrors',
-    'php-yaml',
     'php8.4-cli',
     'php8.4-curl',
     'php8.4-dba',
@@ -23,6 +18,20 @@ class php {
   ]
   stdlib::ensure_packages($packages, {
     ensure => 'present',
+  })
+
+  # These depend on the php meta package; install a SAPI first so apt does
+  # not pick libapache2-mod-php (and apache2) to satisfy it
+  $extension_packages = [
+    'php-luasandbox',
+    'php-memcached',
+    'php-wikidiff2',
+    'php-wmerrors',
+    'php-yaml',
+  ]
+  stdlib::ensure_packages($extension_packages, {
+    ensure  => 'present',
+    require => [ Package['php8.4-fpm'], Package['php8.4-cli'] ],
   })
 
   file { '/etc/php/8.4/fpm/pool.d/www.conf':

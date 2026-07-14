@@ -1,14 +1,12 @@
 source 'https://rubygems.org'
 
-# Loaded by puppet but not declared by it, and not shipped by Ruby here
-gem 'base64'
-gem 'getoptlong'
-gem 'racc'
-gem 'syslog'
+# Match the Ruby shipped with Debian 13
+ruby '~> 3.3.0'
 
+gem 'sync'
 gem 'rake'
-# Match the puppet-agent major installed by puppet/setup-environment.sh
-gem 'puppet', ENV['PUPPET_GEM_VERSION'] || '~> 7.0'
-gem 'puppet-lint'
-gem 'puppet-syntax'
+gem 'xmlrpc'
+gem 'puppet', ENV['PUPPET_GEM_VERSION'] || '~> 8.0'
 gem 'puppetlabs_spec_helper'
+gem 'racc'
+

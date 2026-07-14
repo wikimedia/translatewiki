@@ -1,5 +1,5 @@
 .PHONY: test testpp checkheaders apply
-PUPPET=/opt/puppetlabs/bin/puppet
+PUPPET=/usr/bin/puppet
 
 test: testpp checkheaders lint
 
