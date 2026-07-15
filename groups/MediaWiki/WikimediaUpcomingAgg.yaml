@@ -15,3 +15,4 @@ GROUPS:
   - ext-reportincident # https://phabricator.wikimedia.org/rOMWCf594ec5484fac1b992138e573369ffae8bdeba36
   - ext-testkitchen # https://phabricator.wikimedia.org/rOMWCbdda3794a4424933e66247a89214fe8b2998c2ca
   - ext-wikilambda-abstract # Planned for deployment
+  - ext-wikimediaantiabuse  # https://phabricator.wikimedia.org/rOMWC6216f778b16cd08dc23aa981b938cf536747f4b9
