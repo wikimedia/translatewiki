@@ -3,6 +3,7 @@ classes:
   - '::base::firewall::pre'
   - '::base::firewall::post'
   - '::base'
+  - '::base::monitoring'
   - '::base::vcs'
   - '::keyholder'
   - '::sshd'
@@ -24,6 +25,7 @@ autoexport_dir: /scratch/exports
 
 base::maintenance_user: "%{alias('maintenance_user')}"
 base::bin_dir: "%{lookup('wiki::config_dir')}/bin"
+base::monitoring::bin_dir: "%{lookup('wiki::config_dir')}/bin"
 
 keyholder::agent: []
 

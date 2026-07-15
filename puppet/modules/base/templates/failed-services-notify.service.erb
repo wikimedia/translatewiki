@@ -1,0 +1,9 @@
+# This file is managed by puppet
+[Unit]
+Description=Notify about failed systemd services
+
+[Service]
+ExecStart=/bin/bash <%= @bin_dir %>/failed-services-notify
+ProtectHome=read-only
+ProtectSystem=full
+Nice=10

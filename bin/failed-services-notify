@@ -1,0 +1,15 @@
+#!/bin/bash
+set -o nounset -o pipefail
+
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
+
+mapfile -t services < <(
+	systemctl list-units --state=failed --type=service --plain --no-legend --no-pager |
+	awk '{ print $1 }'
+)
+
+count=${#services[@]}
+
+if [ "$count" -gt 0 ]; then
+	"$DIRSCRIPT/udpcast" "WARNING: $count failed systemd service(s): ${services[*]}"
+fi

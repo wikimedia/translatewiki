@@ -1,0 +1,11 @@
+# This file is managed by puppet
+[Unit]
+Description=Hourly check for failed systemd services
+
+[Timer]
+OnCalendar=hourly
+AccuracySec=5m
+Persistent=true
+
+[Install]
+WantedBy=timers.target
