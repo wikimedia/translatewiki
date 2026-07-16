@@ -169,6 +169,7 @@ $wgExtraLanguageNames = [
 	'tsw' => 'Tsishingini', # Shingini / ToluAyo 2026-06-11
 	'ttt' => 'Tati', # Tat / Siebrand 2008-04-04
 	'twd' => 'Tweants', # Twents
+	'uzs' => 'اۉزبېکچه', # Southern Uzbek / Srishakatux 2026-07-16
 	'vai' => 'ꕙꔤ', # Vai Amir 2019-04-23
 	'wsg' => 'గోండి', # Gondi (Adilabad) / Amir 2023-03-03
 	'xmm' => 'Manado', # Manado / Amir 2022-12-06
