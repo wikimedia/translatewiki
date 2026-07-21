@@ -14,6 +14,7 @@ class mariadb {
         innodb_buffer_pool_size      => '20G',
         innodb_file_per_table        => '1',
         innodb_log_file_size         => '2G',
+        innodb_snapshot_isolation    => '0',
         thread_pool_size             => '16',
         key_buffer_size              => '16M',
         query_cache_size             => '0',
