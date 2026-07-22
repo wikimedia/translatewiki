@@ -14,7 +14,7 @@ BASIC:
 
 MANGLER:
   class: StringMatcher
-  prefix: croptoo2l-
+  prefix: croptool2-
   patterns:
     - "*"
 
