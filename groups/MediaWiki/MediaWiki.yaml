@@ -54,28 +54,9 @@ BASIC:
 
 GROUPS:
   - core-0-mostused
-  - mediawiki-core-user
-  - mediawiki-core-technical
+  - mediawiki-core-agg
   - ext-0-all
   - mediawiki-skin-0-all
-
----
-BASIC:
-  id: mediawiki-core-user
-  label: MediaWiki core - User interface
-  meta: yes
-  class: AggregateMessageGroup
-  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawiki/en}}"
-
-GROUPS:
-  - core
-  - mediawiki-codex
-  - mediawiki-datetime
-  - mediawiki-interwiki
-  - mediawiki-languageconverter
-  - mediawiki-preferences
-  - mediawiki-userrights
-  - mediawiki-exif
 
 ---
 BASIC:

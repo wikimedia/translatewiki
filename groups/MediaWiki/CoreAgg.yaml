@@ -1,0 +1,23 @@
+TEMPLATE:
+  BASIC:
+    icon: wiki://MediaWiki-2020-icon.svg
+    meta: yes
+    namespace: NS_MEDIAWIKI
+    class: AggregateMessageGroup
+
+---
+BASIC:
+  id: mediawiki-core-agg
+  label: MediaWiki core (aggregate)
+  description: "{{Special:MyLanguage/Translations:Group descriptions/mediawikicore/en}}"
+
+GROUPS:
+  - core
+  - mediawiki-codex
+  - mediawiki-core-technical
+  - mediawiki-datetime
+  - mediawiki-exif
+  - mediawiki-interwiki
+  - mediawiki-languageconverter
+  - mediawiki-preferences
+  - mediawiki-userrights
