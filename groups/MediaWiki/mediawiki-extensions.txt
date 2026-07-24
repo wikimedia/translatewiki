@@ -2912,8 +2912,6 @@ aliasfile = RefreshSpecial/RefreshSpecial.alias.php
 Regex Block
 aliasfile = RegexBlock/RegexBlock.alias.php
 
-Regex Fun
-
 Regex Functions
 magicfile = RegexFunctions/RegexFunctions.i18n.magic.php
 
