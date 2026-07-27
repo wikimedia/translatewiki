@@ -90,6 +90,7 @@ GROUPS:
   - ext-wikibasequalityconstraints-api
   - ext-wikilambda-api
   - ext-wikilove-api
+  - ext-wikimediaantiabuse  # https://phabricator.wikimedia.org/rOMWC221eae11bac48d41697f0a949e5dcf9347615f3c
   - ext-wikimediacampaignevents-rest
   - ext-wikimediaevents
   - ext-xanalytics # 2015-02-02 on all wikis
