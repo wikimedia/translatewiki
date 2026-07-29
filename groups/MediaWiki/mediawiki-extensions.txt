@@ -2605,6 +2605,11 @@ id = ext-personaldashboard-main
 descmsg = personal-dashboard-desc
 file = PersonalDashboard/i18n/main/%CODE%.json
 
+Personal Dashboard - Active Discussions
+id = ext-personaldashboard-active-discussions
+descmsg = personal-dashboard-desc
+file = PersonalDashboard/i18n/ext.personalDashboard.activeDiscussions/%CODE%.json
+
 Personal Dashboard - Common
 id = ext-personaldashboard-common
 descmsg = personal-dashboard-desc
