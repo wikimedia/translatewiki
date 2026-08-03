@@ -1,0 +1,29 @@
+---
+BASIC:
+  id: flickr2commons
+  label: Flickr-to-Commons
+  description: "{{Special:MyLanguage/Translations:Group descriptions/flickr2commons/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://codeberg.org/magnusmanske/flickr2commons/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: flickr2commons-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/flickr2commons/public_html/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: true
+  - id: BraceBalance
+    enforce: true
