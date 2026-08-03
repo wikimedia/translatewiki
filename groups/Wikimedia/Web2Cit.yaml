@@ -1,0 +1,34 @@
+---
+BASIC:
+  id: web2cit-translation-server
+  label: Web2Cit translation server
+  description: "{{Special:MyLanguage/Translations:Group descriptions/web2cit/en}}"
+  namespace: NS_WIKIMEDIA
+  icon: wiki://Web2Cit_logo_simple.svg
+  class: FileBasedMessageGroup
+  support:
+    url: https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?projects=web2cit,i18n
+    params:
+      title: Translation issue with message [[%MESSAGE%]]
+      body: "\n\n----\n\nMessage URL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: web2cit-translation-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/web2cit-server/locales/%CODE%/translation.json"
+
+VALIDATORS:
+  # Match variables: {{hello.name}}, {{- hello.name}}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{\{(- )?[\w\.]+\}\}/
+
+TAGS:
+  optional:
+    - web2cit-translation-web2cit
