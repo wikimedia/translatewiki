@@ -71,6 +71,7 @@ $wgExtraLanguageNames = [
 	'ish' => 'awain', # Esan / Amir 2022-08-01
 	'isv' => 'medžuslovjansky / меджусловјанскы', # Interslavic / Jon Harald Søby 2024-09-20
 	'izh' => 'ižoran keel', # Ingrian / Robin 2012-11-17
+	'izr' => 'Izere', # Izere / ToluAyo 2026-08-05
 	'jab' => 'Hyam', # Hyam / ToluAyo 2025-09-24
 	'jac' => 'Abꞌxubꞌal Poptiꞌ', # Jakaltek / Amir 2024-07-02
 	'jax' => 'Jambi', # Jambi Malay / Jon Harald Søby 2026-01-20
