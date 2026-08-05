@@ -1,8 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'sync'
-gem 'rake'
-gem 'xmlrpc'
-gem 'puppet', ENV['PUPPET_GEM_VERSION'] || '~> 4.10.9'
-gem 'puppetlabs_spec_helper'
+# Loaded by puppet but not declared by it, and not shipped by Ruby here
+gem 'base64'
+gem 'getoptlong'
+gem 'racc'
+gem 'syslog'
 
+gem 'rake'
+# Match the puppet-agent major installed by puppet/setup-environment.sh
+gem 'puppet', ENV['PUPPET_GEM_VERSION'] || '~> 7.0'
+gem 'puppet-lint'
+gem 'puppet-syntax'
+gem 'puppetlabs_spec_helper'
