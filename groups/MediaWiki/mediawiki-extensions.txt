@@ -1253,6 +1253,7 @@ optional = donate_interface-donation-description
 optional = donate_interface-donor-fiscal_number-za
 optional = donate_interface-submit-button-variant-01A, donate_interface-bt-upi_id
 optional = donate_interface-bank-name-netbanking
+optional = combowiki-method-paypal, combowiki-method-applepay, combowiki-method-ach
 
 Donation Interface - Gateway Common - API
 id = ext-di-gc-api
