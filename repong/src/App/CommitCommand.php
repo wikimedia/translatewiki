@@ -42,6 +42,12 @@ class CommitCommand extends Command {
 		$variant = $input->getOption( 'variant' ) ?: $this->defaultVariant;
 		$filter = $input->getOption( 'filter' );
 		$config = $this->getConfig( $project, $variant );
+		// Same config without the variant applied, so 'url' stays the plain read (https) URL
+		// rather than 'url|export' (e.g. ssh). Pull/merge requests must be created against the
+		// read URL's domain, since the write URL host may not serve the forge's HTTPS API
+		// (e.g. gitlab-ssh.wikimedia.org). Fetched up front so a failure here aborts before
+		// anything is pushed.
+		$readConfig = $this->getConfig( $project );
 		$backportBranch = $input->getOption( 'backport-branch' );
 		$base = $this->getBase();
 
@@ -131,12 +137,17 @@ class CommitCommand extends Command {
 			$mergeProcess->mustRun();
 		}
 
-		$this->makePullRequests( $config, $base, $output );
+		$this->makePullRequests( $config, $readConfig, $base, $output );
 
 		return 0;
 	}
 
-	private function makePullRequests( array $config, string $base, OutputInterface $output ): void {
+	private function makePullRequests(
+		array $config,
+		array $readConfig,
+		string $base,
+		OutputInterface $output
+	): void {
 		$factory = new ForgeFactory();
 
 		foreach ( $config['repos'] as $name => $repo ) {
@@ -151,7 +162,8 @@ class CommitCommand extends Command {
 					continue;
 				}
 
-				$this->makePullRequest( $repo, $factory, $output, $name );
+				$readUrl = $readConfig['repos'][$name]['url'];
+				$this->makePullRequest( $repo, $readUrl, $factory, $output, $name );
 			} catch ( Exception $e ) {
 				$formatter = $output->getFormatter();
 				$errorMessage = $formatter->escape( $e->getMessage() );
@@ -162,11 +174,12 @@ class CommitCommand extends Command {
 
 	private function makePullRequest(
 		$repo,
+		string $readUrl,
 		ForgeFactory $factory,
 		OutputInterface $output,
 		string $name
 	): void {
-		$pr = $this->getPullRequestSpecifier( $repo );
+		$pr = $this->getPullRequestSpecifier( $repo, $readUrl );
 		$title = self::MESSAGE;
 		if ( isset( $repo['pr-title-prefix'] ) ) {
 			$title = $repo['pr-title-prefix'] . ' ' . $title;
@@ -175,7 +188,7 @@ class CommitCommand extends Command {
 		// are not used with all forges, so trying to construct it may fail due to a lack
 		// of a token. The forge factory also handles caching of clients, so we only log
 		// in once (if applicable) per forge site.
-		$domain = $this->getDomainFromForgeUrl( $repo['url'] );
+		$domain = $this->getDomainFromForgeUrl( $readUrl );
 		$client = $factory->getForgeClient( $repo['type'], $domain );
 		$response = $client->createPullRequest( $pr, $title, self::PR_MESSAGE );
 
@@ -212,8 +225,8 @@ class CommitCommand extends Command {
 		return $duration;
 	}
 
-	private function getPullRequestSpecifier( array $config ): PullRequestSpecifier {
-		$repo = $this->getOwnerAndRepoFromForgeUrl( $config['url'] );
+	private function getPullRequestSpecifier( array $config, string $readUrl ): PullRequestSpecifier {
+		$repo = $this->getOwnerAndRepoFromForgeUrl( $readUrl );
 		return new PullRequestSpecifier(
 			$repo['owner'],
 			$repo['repo'],
