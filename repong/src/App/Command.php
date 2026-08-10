@@ -131,7 +131,14 @@ abstract class Command extends SymfonyCommand {
 	protected function buildCommandline( $command, $options ): string {
 		$str = $command;
 		foreach ( $options as $key => $value ) {
-			if ( $value !== null ) {
+			if ( $value === null || $value === false ) {
+				continue;
+			}
+
+			if ( $value === true ) {
+				// Boolean flags take no value; passing one warns in MediaWiki maintenance scripts
+				$str .= " --$key";
+			} else {
 				$str .= " --$key='$value'";
 			}
 		}
