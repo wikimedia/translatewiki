@@ -1996,3 +1996,22 @@ TAGS:
     - discord-size
     - discord-blocktimeformat
     - discord-timestampformat
+
+---
+BASIC:
+  id: mwgithub-crawlerprotection
+  label: CrawlerProtection
+  description: "{{Special:MyLanguage/MediaWiki:Crawlerprotection-desc/en}}"
+  support:
+    url: https://github.com/mywikis/CrawlerProtection/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/mywikis/CrawlerProtection/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - crawlerprotection-rawdenial-teapot
