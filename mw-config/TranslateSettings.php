@@ -280,6 +280,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Code2CodeSearch.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CommonsAndroid.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ConvenientDiscussions.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CopyPatrol.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Copyvios.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/CropTool2.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/DiscordWikiBot.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Flickr2Commons.yaml";
