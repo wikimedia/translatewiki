@@ -2622,15 +2622,15 @@ id = ext-personaldashboard-policies-guidelines
 descmsg = personal-dashboard-desc
 file = PersonalDashboard/i18n/ext.personalDashboard.policiesGuidelines/%CODE%.json
 
-Personal Dashboard - Risky Article Edits
-id = ext-personaldashboard-risky-article-edits
+Personal Dashboard - Review Changes
+id = ext-personaldashboard-review-changes
 descmsg = personal-dashboard-desc
-file = PersonalDashboard/i18n/ext.personalDashboard.riskyArticleEdits/%CODE%.json
+file = PersonalDashboard/i18n/ext.personalDashboard.reviewChanges/%CODE%.json
 
-Personal Dashboard - Risky Article Edits Mobile
-id = ext-personaldashboard-risky-article-edits-mobile
+Personal Dashboard - Review Changes Mobile
+id = ext-personaldashboard-review-changes-mobile
 descmsg = personal-dashboard-desc
-file = PersonalDashboard/i18n/ext.personalDashboard.riskyArticleEdits.mobile/%CODE%.json
+file = PersonalDashboard/i18n/ext.personalDashboard.reviewChanges.mobile/%CODE%.json
 
 Petition
 aliasfile = Petition/Petition.alias.php
