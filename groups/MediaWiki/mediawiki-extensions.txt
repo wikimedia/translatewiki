@@ -3929,9 +3929,15 @@ optional = wikihiero-help-link
 #Wikilog Feed
 #file = WikiLog/i18n/wlfeed/%CODE%.json
 
-Wikimedia Anti Abuse
+Wikimedia Anti Abuse - User interface
+id = ext-wikimediaantiabuse-user
+file = WikimediaAntiAbuse/i18n/%CODE%.json
 ignored = tag-mw-private-personal-info-helppage, tag-mw-private-personal-info-false-positive-helppage
 ignored = tag-mw-private-personal-info-no-further-action-helppage
+
+Wikimedia Anti Abuse - API
+id = ext-wikimediaantiabuse-api
+file = WikimediaAntiAbuse/i18n/api/%CODE%.json
 
 Wikimedia Badges
 

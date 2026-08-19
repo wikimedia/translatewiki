@@ -97,6 +97,7 @@ GROUPS:
   - ext-wikilambda-ve # Enabled on several client wikis
   - ext-wikilove-user
   - ext-wikihiero
+  - ext-wikimediaantiabuse-user # https://phabricator.wikimedia.org/rOMWC221eae11bac48d41697f0a949e5dcf9347615f3c
   - ext-wikimediacampaignevents-user
   - ext-wikimediacodeofconduct
   - ext-wikimediacommonstrings

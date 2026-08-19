@@ -765,6 +765,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-wikimediaantiabuse
+  label: Wikimedia Anti Abuse
+  description: '{{Special:MyLanguage/MediaWiki:WikimediaAntiAbuse-desc/en}}'
+
+GROUPS:
+  - ext-wikimediaantiabuse-*
+
+---
+BASIC:
   id: ext-wikimediacustomizations
   label: Wikimedia Customizations
   description: '{{Special:MyLanguage/MediaWiki:Wikimediacustomizations-desc/en}}'
