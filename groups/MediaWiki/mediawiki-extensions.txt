@@ -3931,6 +3931,7 @@ optional = wikihiero-help-link
 
 Wikimedia Anti Abuse
 ignored = tag-mw-private-personal-info-helppage, tag-mw-private-personal-info-false-positive-helppage
+ignored = tag-mw-private-personal-info-no-further-action-helppage
 
 Wikimedia Badges
 
