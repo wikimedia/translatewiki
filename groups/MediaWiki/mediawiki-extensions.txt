@@ -4126,9 +4126,6 @@ Workflows
 aliasfile = Workflows/languages/SpecialWorkflowOverview.alias.php
 ignored = workflows-notification-aborted-web
 
-WP25 Easter Eggs
-ignored = wp25eastereggs-enable-learn-more-link-url
-
 WS OAuth
 
 X Analytics
