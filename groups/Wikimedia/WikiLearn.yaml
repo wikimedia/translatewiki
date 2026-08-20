@@ -10,11 +10,19 @@ TEMPLATE:
         body: "\n\nURL: %MESSAGE_URL%"
 
   FILES:
-    format: Gettext
-    header: |
-      # This file is part of the WikiLearn Project
-      # This file is distributed under the same license as the WikiLearn package.
-      #
+    # The repository is shared with upstream Open edX, which uses Django/
+    # Transifex locale names for the directories that already exist.
+    codeMap:
+      af: af_ZA
+      ary: ar_MA
+      es: es_ES
+      es-419: es_419
+      it: it_IT
+      pt: pt_PT
+      pt-br: pt_BR
+      tr: tr_TR
+      zh-hans: zh_CN
+      zh-hk: zh_HK
 
 ---
 BASIC:
@@ -28,8 +36,8 @@ GROUPS:
 
 ---
 BASIC:
-  id: wikilearn-django
-  label: WikiLearn - Backend
+  id: wikilearn-edx-platform
+  label: WikiLearn - edx-platform
 
 VALIDATORS:
   # Variables like %(platform_name)s
@@ -53,34 +61,287 @@ INSERTABLES:
 
 MANGLER:
   class: StringMatcher
-  prefix: wikilearn-backend-
+  prefix: wikilearn-edx-platform-
   patterns:
     - "*"
 
 FILES:
-  sourcePattern: "%GROUPROOT%/wikilearn/conf/locale/%CODE%/LC_MESSAGES/wm-django.po"
-
-TAGS:
-  optional:
-    - wikilearn-backend-6b6390-LinkedIn
-    - wikilearn-backend-98a532-Youtube
-    - wikilearn-backend-4af264-Reddit
-    - wikilearn-backend-af069f-Tumblr
-    - wikilearn-backend-5392c9-Twitter
-    - wikilearn-backend-ea9708-CC-by-sa_4.0
-  ignored:
-    - wikilearn-backend-5cfb39-=25(subject)s
+  format: Gettext
+  header: |
+    # This file is part of the WikiLearn Project
+    # This file is distributed under the same license as the WikiLearn package.
+    #
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/edx-platform/conf/locale/%CODE%/LC_MESSAGES/django.po"
 
 ---
 BASIC:
-  id: wikilearn-js
-  label: WikiLearn - Frontend
+  id: wikilearn-features-django
+  label: WikiLearn - Features (backend)
+
+VALIDATORS:
+  # Variables like %(platform_name)s
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  # Variables like {username}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-z0-9_]+\}/
+  - id: GettextNewline
+    enforce: true
+  - id: GettextPlural
+    enforce: true
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
 
 MANGLER:
   class: StringMatcher
-  prefix: wikilearn-frontend-
+  prefix: wikilearn-features-django-
   patterns:
     - "*"
 
 FILES:
-  sourcePattern: "%GROUPROOT%/wikilearn/conf/locale/%CODE%/LC_MESSAGES/wm-djangojs.po"
+  format: Gettext
+  header: |
+    # This file is part of the WikiLearn Project
+    # This file is distributed under the same license as the WikiLearn package.
+    #
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/openedx-wikilearn-features/openedx_wikilearn_features/conf/locale/%CODE%/LC_MESSAGES/django.po"
+
+---
+BASIC:
+  id: wikilearn-features-js
+  label: WikiLearn - Features (frontend)
+
+VALIDATORS:
+  # Variables like %(platform_name)s
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  # Variables like {username}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-z0-9_]+\}/
+  - id: GettextNewline
+    enforce: true
+  - id: GettextPlural
+    enforce: true
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-features-js-
+  patterns:
+    - "*"
+
+FILES:
+  format: Gettext
+  header: |
+    # This file is part of the WikiLearn Project
+    # This file is distributed under the same license as the WikiLearn package.
+    #
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/openedx-wikilearn-features/openedx_wikilearn_features/conf/locale/%CODE%/LC_MESSAGES/djangojs.po"
+
+---
+BASIC:
+  id: wikilearn-tutor-indigo-django
+  label: WikiLearn - Indigo theme (backend)
+
+VALIDATORS:
+  # Variables like %(platform_name)s
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  # Variables like {username}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-z0-9_]+\}/
+  - id: GettextNewline
+    enforce: true
+  - id: GettextPlural
+    enforce: true
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-tutor-indigo-django-
+  patterns:
+    - "*"
+
+FILES:
+  format: Gettext
+  header: |
+    # This file is part of the WikiLearn Project
+    # This file is distributed under the same license as the WikiLearn package.
+    #
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/tutor-indigo-wikilearn/conf/locale/%CODE%/LC_MESSAGES/django.po"
+
+---
+BASIC:
+  id: wikilearn-tutor-indigo-js
+  label: WikiLearn - Indigo theme (frontend)
+
+VALIDATORS:
+  # Variables like %(platform_name)s
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  # Variables like {username}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-z0-9_]+\}/
+  - id: GettextNewline
+    enforce: true
+  - id: GettextPlural
+    enforce: true
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-tutor-indigo-js-
+  patterns:
+    - "*"
+
+FILES:
+  format: Gettext
+  header: |
+    # This file is part of the WikiLearn Project
+    # This file is distributed under the same license as the WikiLearn package.
+    #
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/tutor-indigo-wikilearn/conf/locale/%CODE%/LC_MESSAGES/djangojs.po"
+
+---
+BASIC:
+  id: wikilearn-account
+  label: WikiLearn - Account
+
+VALIDATORS:
+  # Variables like {link}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-zA-Z0-9_]+\}/
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-account-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  definitionFile: "%GROUPROOT%/wikilearn/translations-custom/frontend-app-account/src/i18n/transifex_input.json"
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/frontend-app-account/src/i18n/messages/%CODE%.json"
+
+---
+BASIC:
+  id: wikilearn-course-authoring
+  label: WikiLearn - Course authoring
+
+VALIDATORS:
+  # Variables like {link}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-zA-Z0-9_]+\}/
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-course-authoring-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  definitionFile: "%GROUPROOT%/wikilearn/translations-custom/frontend-app-course-authoring/src/i18n/transifex_input.json"
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/frontend-app-course-authoring/src/i18n/messages/%CODE%.json"
+
+TAGS:
+  optional:
+    - wikilearn-course-authoring-authoring.videoeditor.license.creativeCommons.shareAlike.text
+    - wikilearn-course-authoring-course-authoring.schedule-section.creativeCommons.shareAlike.text
+
+---
+BASIC:
+  id: wikilearn-learning
+  label: WikiLearn - Learning
+
+VALIDATORS:
+  # Variables like {link}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-zA-Z0-9_]+\}/
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-learning-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  definitionFile: "%GROUPROOT%/wikilearn/translations-custom/frontend-app-learning/src/i18n/transifex_input.json"
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/frontend-app-learning/src/i18n/messages/%CODE%.json"
+
+TAGS:
+  optional:
+    - wikilearn-learning-learn.course.license.creativeCommons.shareAlike.text
+
+---
+BASIC:
+  id: wikilearn-messenger
+  label: WikiLearn - Messenger
+
+VALIDATORS:
+  # Variables like {link}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-zA-Z0-9_]+\}/
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-messenger-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  definitionFile: "%GROUPROOT%/wikilearn/translations-custom/frontend-app-messenger/src/i18n/transifex_input.json"
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/frontend-app-messenger/src/i18n/messages/%CODE%.json"

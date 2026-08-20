@@ -1207,10 +1207,10 @@ wikimedia-misc-tools:
       url|export: git@github.com:wikimedia-gadgets/twinkle-core.git
     wikilearn:
       type: github
-      branch: develop
+      branch: release/teak
       pull-branch: wm/localization
-      url: https://github.com/wikimedia/edx-platform.git
-      url|export: git@github.com:wikimedia/edx-platform.git
+      url: https://github.com/wikimedia/openedx-translations.git
+      url|export: git@github.com:wikimedia/openedx-translations.git
     wikipedia-year-in-review:
       type: github
       branch: main
