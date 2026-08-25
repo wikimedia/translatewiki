@@ -30,7 +30,6 @@ wfLoadExtensions( [
 ] );
 
 wfLoadExtension( 'UniversalLanguageSelector' );
-$wgULSLanguageSelectorV2Enabled = true;
 
 wfLoadExtension( 'CirrusSearch' );
 $wgSearchType = 'CirrusSearch';
