@@ -71,7 +71,7 @@ restic::repositories:
     backup_pre_cmd:
       sh -c 'mkdir -p /sql-dump &&
       find /sql-dump -mindepth 1 -delete &&
-      mydumper -o /sql-dump -L /sql-dump/log -v 3 -e'
+      mydumper -o /sql-dump -L /sql-dump/log -v 3 --trx-consistency-only'
     backup_path:
       - /sql-dump
     backup_timer: "*-*-* 2/6:13:37"
