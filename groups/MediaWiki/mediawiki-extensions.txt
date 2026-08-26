@@ -878,7 +878,13 @@ ignored = citethispage-summary, accesskey-citethispage
 Citoid
 ignored = citoid-template-type-map.json
 
-cldr
+cldr - Core
+id = ext-cldr-core
+file = cldr/i18n/%CODE%.json
+
+cldr - Language Names
+id = ext-cldr-languagenames
+file = cldr/i18n/LanguageNames/%CODE%.json
 
 Clean Changes
 

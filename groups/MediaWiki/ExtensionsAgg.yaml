@@ -154,6 +154,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-cldr
+  label: cldr
+  description: '{{Special:MyLanguage/MediaWiki:Cldr-desc/en}}'
+
+GROUPS:
+  - ext-cldr-*
+
+---
+BASIC:
   id: ext-codemirror
   label: Code Mirror
   description: '{{Special:MyLanguage/MediaWiki:Codemirror-desc/en}}'
