@@ -12,6 +12,7 @@ class users::aliases {
   exec { 'newaliases':
     path        => ['/usr/bin', '/usr/sbin'],
     subscribe   => File['/etc/aliases'],
-    refreshonly => true
+    refreshonly => true,
+    logoutput   => 'on_failure',
   }
 }

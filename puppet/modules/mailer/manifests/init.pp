@@ -59,6 +59,11 @@ class mailer (
     'non_smtpd_milters':            value => '$smtpd_milters';
   }
 
+  # newaliases reads main.cf, so it must not run while it is still being
+  # rewritten; the exec lives in users::aliases, always applied alongside
+  Class['postfix'] -> Exec['newaliases']
+  Postfix::Config <| |> -> Exec['newaliases']
+
   postfix::hash { '/etc/postfix/sasl_passwd':
     ensure => 'present',
     source => '/root/postfix/sasl_passwd',
