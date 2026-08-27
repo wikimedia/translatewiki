@@ -2,7 +2,9 @@
 #
 # Provides hostname
 #
-class hostname {
+class hostname (
+  Stdlib::Fqdn $fqdn,
+) {
   $packages = [
     'libnss-myhostname',
   ]
@@ -10,13 +12,8 @@ class hostname {
     ensure => 'present',
   })
 
-  $hostname = $facts['networking']['ip'] ? {
-    '152.89.106.205' => 'web2.translatewiki.net',
-    default          => 'unknown.tranlatewiki.net',
-  }
-
   file { '/etc/hostname':
     ensure  => file,
-    content => $hostname,
+    content => $fqdn,
   }
 }

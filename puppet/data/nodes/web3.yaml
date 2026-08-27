@@ -1,22 +1,26 @@
 classes:
   - '::users::aliases'
   - '::hostname'
-  - '::kitanonl'
-  - '::awstats'
-  - '::nginx::sites'
   - '::mailer'
-  - '::repong::autoimport'
-  - '::repong::autoexport'
-  - '::repong::autobackport'
   - '::profile::mydumper'
-  - '::restic'
-  - '::wiki::irc'
-  - '::wiki::stats'
-  - '::wiki::slack'
 
-hostname::fqdn: web2.translatewiki.net
+# Enable at cutover, once DNS points at web3. These either need the live
+# domains resolving here (certbot) or would run in parallel with web2:
+#  - '::kitanonl'          # nginx site, needs TLS certs
+#  - '::awstats'           # nginx site, needs TLS certs
+#  - '::nginx::sites'      # pulls in nginx::ssl -> certbot for live domains
+#  - '::restic'            # would write to web2's backup buckets
+#  - '::repong::autoimport'
+#  - '::repong::autoexport'
+#  - '::repong::autobackport'
+#  - '::wiki::irc'
+#  - '::wiki::slack'
+#  - '::wiki::stats'
 
-base::mount_device: '46.38.248.210:/voln264518a1'
+hostname::fqdn: web3.translatewiki.net
+
+# No base::mount_device: this server has enough internal disk, so /scratch is
+# a local directory instead of an NFS mount
 
 mariadb::innodb_buffer_pool_size: '20G'
 
@@ -42,10 +46,11 @@ opendkim::keys:
       signingdomains:
           - '*@translatewiki.net'
 
-keyholder::agent:
-  l10n-bot-2023:
-    trusted_groups: ['l10n-bot']
-    priv_key_path: /root/keyholder/l10n-bot-2023
+# Enable at cutover, once /root/keyholder/l10n-bot-2023{,.pub} are copied over
+# keyholder::agent:
+#   l10n-bot-2023:
+#     trusted_groups: ['l10n-bot']
+#     priv_key_path: /root/keyholder/l10n-bot-2023
 
 restic::id: "%{alias('secret_restic_id')}"
 restic::key: "%{alias('secret_restic_key')}"
@@ -142,7 +147,7 @@ users::users:
     groups: [ betawiki ]
     comment: Kartik Mistry
   l10n-bot:
-    # To match gid of l10n-bot
+    # Same number as the gid of the l10n-bot group; the primary group is users
     uid: 1021
     system: true
     # www-shared is needed so that export.php can write to MediaWiki log files on disk
