@@ -2893,6 +2893,8 @@ ignored = realme-config.json
 Reassign Edits
 aliasfile = ReassignEdits/ReassignEdits.alias.php
 
+Recent Page Stats
+
 # Recoin // 2018-05-15: Empty repo
 
 Redirect Manager - API
