@@ -34,45 +34,44 @@ BASIC:
 GROUPS:
   - wikilearn-*
 
-# Disabled temporarily to reduce log spam as the po files are not properly formatted
-#---
-#BASIC:
-#  id: wikilearn-edx-platform
-#  label: WikiLearn - edx-platform
-#
-#VALIDATORS:
-#  # Variables like %(platform_name)s
-#  - id: InsertableRegex
-#    insertable: true
-#    enforce: true
-#    params: /%\([a-z0-9_]+\)[sd]/
-#  # Variables like {username}
-#  - id: InsertableRegex
-#    insertable: true
-#    enforce: true
-#    params: /\{[a-z0-9_]+\}/
-#  - id: GettextNewline
-#    enforce: true
-#  - id: GettextPlural
-#    enforce: true
-#  - id: BraceBalance
-#
-#INSERTABLES:
-#  - class: HtmlTagInsertablesSuggester
-#
-#MANGLER:
-#  class: StringMatcher
-#  prefix: wikilearn-edx-platform-
-#  patterns:
-#    - "*"
-#
-#FILES:
-#  format: Gettext
-#  header: |
-#    # This file is part of the WikiLearn Project
-#    # This file is distributed under the same license as the WikiLearn package.
-#    #
-#  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/edx-platform/conf/locale/%CODE%/LC_MESSAGES/django.po"
+---
+BASIC:
+  id: wikilearn-edx-platform
+  label: WikiLearn - edx-platform
+
+VALIDATORS:
+  # Variables like %(platform_name)s
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  # Variables like {username}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-z0-9_]+\}/
+  - id: GettextNewline
+    enforce: true
+  - id: GettextPlural
+    enforce: true
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-edx-platform-
+  patterns:
+    - "*"
+
+FILES:
+  format: Gettext
+  header: |
+    # This file is part of the WikiLearn Project
+    # This file is distributed under the same license as the WikiLearn package.
+    #
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/edx-platform/conf/locale/%CODE%/LC_MESSAGES/django.po"
 
 ---
 BASIC:
@@ -113,89 +112,84 @@ FILES:
     #
   sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/openedx-wikilearn-features/openedx_wikilearn_features/conf/locale/%CODE%/LC_MESSAGES/django.po"
 
-# Disabled temporarily to reduce log spam as the po files are not properly formatted
-#---
-#BASIC:
-#  id: wikilearn-features-js
-#  label: WikiLearn - Features (frontend)
-#
-#VALIDATORS:
-#  # Variables like %(platform_name)s
-#  - id: InsertableRegex
-#    insertable: true
-#    enforce: true
-#    params: /%\([a-z0-9_]+\)[sd]/
-#  # Variables like {username}
-#  - id: InsertableRegex
-#    insertable: true
-#    enforce: true
-#    params: /\{[a-z0-9_]+\}/
-#  - id: GettextNewline
-#    enforce: true
-#  - id: GettextPlural
-#    enforce: true
-#  - id: BraceBalance
-#
-#INSERTABLES:
-#  - class: HtmlTagInsertablesSuggester
-#
-#MANGLER:
-#  class: StringMatcher
-#  prefix: wikilearn-features-js-
-#  patterns:
-#    - "*"
-#
-#FILES:
-#  format: Gettext
-#  header: |
-#    # This file is part of the WikiLearn Project
-#    # This file is distributed under the same license as the WikiLearn package.
-#    #
-#  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/openedx-wikilearn-features/openedx_wikilearn_features/conf/locale/%CODE%/LC_MESSAGES/djangojs.po"
+---
+BASIC:
+  id: wikilearn-features-js
+  label: WikiLearn - Features (frontend)
 
-# Disabled until the source file gets a usable Plural-Forms header.
-# It still carries the xgettext placeholder
-# "nplurals=INTEGER; plural=EXPRESSION;", which Translate cannot parse.
-# Bug: T431665
-#---
-#BASIC:
-#  id: wikilearn-tutor-indigo-django
-#  label: WikiLearn - Indigo theme (backend)
-#
-#VALIDATORS:
-#  # Variables like %(platform_name)s
-#  - id: InsertableRegex
-#    insertable: true
-#    enforce: true
-#    params: /%\([a-z0-9_]+\)[sd]/
-#  # Variables like {username}
-#  - id: InsertableRegex
-#    insertable: true
-#    enforce: true
-#    params: /\{[a-z0-9_]+\}/
-#  - id: GettextNewline
-#    enforce: true
-#  - id: GettextPlural
-#    enforce: true
-#  - id: BraceBalance
-#
-#INSERTABLES:
-#  - class: HtmlTagInsertablesSuggester
-#
-#MANGLER:
-#  class: StringMatcher
-#  prefix: wikilearn-tutor-indigo-django-
-#  patterns:
-#    - "*"
-#
-#FILES:
-#  format: Gettext
-#  header: |
-#    # This file is part of the WikiLearn Project
-#    # This file is distributed under the same license as the WikiLearn package.
-#    #
-#  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/tutor-indigo-wikilearn/conf/locale/%CODE%/LC_MESSAGES/django.po"
-#
+VALIDATORS:
+  # Variables like %(platform_name)s
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  # Variables like {username}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-z0-9_]+\}/
+  - id: GettextNewline
+    enforce: true
+  - id: GettextPlural
+    enforce: true
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-features-js-
+  patterns:
+    - "*"
+
+FILES:
+  format: Gettext
+  header: |
+    # This file is part of the WikiLearn Project
+    # This file is distributed under the same license as the WikiLearn package.
+    #
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/openedx-wikilearn-features/openedx_wikilearn_features/conf/locale/%CODE%/LC_MESSAGES/djangojs.po"
+
+---
+BASIC:
+  id: wikilearn-tutor-indigo-django
+  label: WikiLearn - Indigo theme (backend)
+
+VALIDATORS:
+  # Variables like %(platform_name)s
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /%\([a-z0-9_]+\)[sd]/
+  # Variables like {username}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[a-z0-9_]+\}/
+  - id: GettextNewline
+    enforce: true
+  - id: GettextPlural
+    enforce: true
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
+
+MANGLER:
+  class: StringMatcher
+  prefix: wikilearn-tutor-indigo-django-
+  patterns:
+    - "*"
+
+FILES:
+  format: Gettext
+  header: |
+    # This file is part of the WikiLearn Project
+    # This file is distributed under the same license as the WikiLearn package.
+    #
+  sourcePattern: "%GROUPROOT%/wikilearn/translations-custom/tutor-indigo-wikilearn/conf/locale/%CODE%/LC_MESSAGES/django.po"
+
 ---
 BASIC:
   id: wikilearn-tutor-indigo-js
