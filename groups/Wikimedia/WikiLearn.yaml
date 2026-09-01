@@ -40,11 +40,9 @@ BASIC:
   label: WikiLearn - edx-platform
 
 VALIDATORS:
-  # Variables like %(platform_name)s
-  - id: InsertableRegex
+  - id: PythonInterpolation
     insertable: true
     enforce: true
-    params: /%\([a-z0-9_]+\)[sd]/
   # Variables like {username}
   - id: InsertableRegex
     insertable: true
@@ -79,11 +77,9 @@ BASIC:
   label: WikiLearn - Features (backend)
 
 VALIDATORS:
-  # Variables like %(platform_name)s
-  - id: InsertableRegex
+  - id: PythonInterpolation
     insertable: true
     enforce: true
-    params: /%\([a-z0-9_]+\)[sd]/
   # Variables like {username}
   - id: InsertableRegex
     insertable: true
@@ -118,11 +114,9 @@ BASIC:
   label: WikiLearn - Features (frontend)
 
 VALIDATORS:
-  # Variables like %(platform_name)s
-  - id: InsertableRegex
+  - id: PythonInterpolation
     insertable: true
     enforce: true
-    params: /%\([a-z0-9_]+\)[sd]/
   # Variables like {username}
   - id: InsertableRegex
     insertable: true
@@ -157,11 +151,9 @@ BASIC:
   label: WikiLearn - Indigo theme (backend)
 
 VALIDATORS:
-  # Variables like %(platform_name)s
-  - id: InsertableRegex
+  - id: PythonInterpolation
     insertable: true
     enforce: true
-    params: /%\([a-z0-9_]+\)[sd]/
   # Variables like {username}
   - id: InsertableRegex
     insertable: true
@@ -196,11 +188,9 @@ BASIC:
   label: WikiLearn - Indigo theme (frontend)
 
 VALIDATORS:
-  # Variables like %(platform_name)s
-  - id: InsertableRegex
+  - id: PythonInterpolation
     insertable: true
     enforce: true
-    params: /%\([a-z0-9_]+\)[sd]/
   # Variables like {username}
   - id: InsertableRegex
     insertable: true

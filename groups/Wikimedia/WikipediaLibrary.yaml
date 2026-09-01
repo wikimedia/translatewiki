@@ -50,11 +50,9 @@ VALIDATORS:
   - id: InsertableRegex
     insertable: true
     params: /\{[^|} ]+\}/
-  # Variables: %(parent_url)s
-  - id: InsertableRegex
+  - id: PythonInterpolation
     insertable: true
     enforce: true
-    params: /%\([^)]+\)s/
   - id: GettextPlural
     enforce: true
 

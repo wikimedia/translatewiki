@@ -28,14 +28,9 @@ MANGLER:
     - "*"
 
 VALIDATORS:
-  - id: InsertableRegex
+  - id: PythonInterpolation
     insertable: true
     enforce: true
-    params: /%\([a-z0-9_]+\)[sd]/
-  - id: InsertableRegex
-    insertable: true
-    enforce: true
-    params: /%[sd]/
   - id: GettextNewline
     enforce: true
   - id: GettextPlural
@@ -60,14 +55,9 @@ MANGLER:
     - "*"
 
 VALIDATORS:
-  - id: InsertableRegex
+  - id: PythonInterpolation
     insertable: true
     enforce: true
-    params: /%\([a-z0-9_]+\)[sd]/
-  - id: InsertableRegex
-    insertable: true
-    enforce: true
-    params: /%[sd]/
   - id: GettextNewline
     enforce: true
   - id: GettextPlural
