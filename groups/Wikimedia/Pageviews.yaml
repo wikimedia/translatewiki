@@ -14,14 +14,21 @@ MANGLER:
 
 FILES:
   format: Json
-  sourcePattern: "%GROUPROOT%/pageviews/messages/%CODE%.json"
+  sourcePattern: "%GROUPROOT%/pageviews/i18n/%CODE%.json"
 
 TAGS:
   optional:
     - pageviews-csv
     - pageviews-json
     - pageviews-png
-    - pageviews-comma-character
+    - pageviews-comma-separator
+    - pageviews-wikibooks
+    - pageviews-wikinews
+    - pageviews-wikipedia
+    - pageviews-wikisource
+    - pageviews-wikiversity
+    - pageviews-wikivoyage
+    - pageviews-wiktionary
 
 VALIDATORS:
   - id: BraceBalance

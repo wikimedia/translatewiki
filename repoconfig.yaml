@@ -1131,9 +1131,10 @@ wikimedia-misc-tools:
       url: https://gitlab.wikimedia.org/toolforge-repos/ocr.git
       url|export: git@gitlab-ssh.wikimedia.org:toolforge-repos/ocr.git
     pageviews:
-      type: github
-      url: https://github.com/MusikAnimal/pageviews.git
-      url|export: git@github.com:MusikAnimal/pageviews.git
+      type: gitlab
+      branch: main
+      url: https://gitlab.wikimedia.org/repos/data-engineering/pageviews.git
+      url|export: git@gitlab-ssh.wikimedia.org:repos/data-engineering/pageviews.git
     pollaris:
       type: github
       url: https://github.com/danielyepezgarces/pollaris.git
