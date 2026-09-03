@@ -3072,9 +3072,6 @@ optional = sru-realname-append
 Sign Writing MediaWiki Plugin
 descmsg = swmp-desc
 
-Similar Editors
-aliasfile = SimilarEditors/SimilarEditors.alias.php
-
 Simple Blog Page
 aliasfile = SimpleBlogPage/SimpleBlogPageAliases.php
 prefix = simpleblogage- | right-createblogpost, action-createblogpost
