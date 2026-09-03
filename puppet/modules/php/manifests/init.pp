@@ -42,4 +42,15 @@ class php {
     require => Package['php8.4-fpm'],
     notify  => Service['php-fpm'],
   }
+
+  file { '/etc/php/8.4/fpm/conf.d/50-opcache.ini':
+    source  => 'puppet:///modules/php/opcache.ini',
+    require => [Package['php8.4-fpm'], Package['php8.4-opcache']],
+    notify  => Service['php-fpm'],
+  }
+
+  file { '/etc/php/8.4/cli/conf.d/50-opcache.ini':
+    source  => 'puppet:///modules/php/opcache.ini',
+    require => [Package['php8.4-cli'], Package['php8.4-opcache']],
+  }
 }
