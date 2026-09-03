@@ -18,8 +18,9 @@ server {
 }
 
 server {
-	listen 443 ssl default_server deferred http2;
-	listen [::]:443 default_server deferred ssl http2;
+	listen 443 ssl default_server deferred;
+	listen [::]:443 default_server deferred ssl;
+	http2 on;
 
 	include includes/ssl-certbot.conf;
 
