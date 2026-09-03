@@ -25,6 +25,10 @@ class nginx {
     source => 'puppet:///modules/nginx/nginx.conf',
   }
 
+  file { '/etc/nginx/sites':
+    ensure => 'directory',
+  }
+
   file { '/etc/logrotate.d/nginx':
     source => 'puppet:///modules/nginx/logrotate'
   }
