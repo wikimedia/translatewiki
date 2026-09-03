@@ -62,6 +62,7 @@ $wgExtraLanguageNames = [
 	'gah' => 'Alekano', # Alekano / Siebrand 2010-10-08
 	'gbm' => 'गढ़वळि', # Garhwali / Amir 2020-03-14
 	'gbz' => 'Dari-e Mazdeyasnā', # Zoroastrian Dari / Siebrand 2011-01-20
+	'gdo' => 'гъибдилӀи мицци', # Godoberi / ToluAyo 2026-09-03
 	'gum' => 'Namtrik', # Guambiano / Amir 2017-03-27
 	'hav' => 'Kihavu', # Havu / ToluAyo 2025-04-02
 	'hif-deva' => 'फ़ीजी हिन्दी', # Fiji Hindi (Devangari script) / Siebrand 2010-08-26

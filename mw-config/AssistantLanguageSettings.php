@@ -111,6 +111,7 @@ $wgTranslateLanguageFallbacks = [
 	'gaa' => [ 'ada', 'tw', 'fat', 'bci' ],
 	'gbm' => [ 'hi', 'ne', 'dty' ],
 	'gcf' => [ 'acf', 'gcr', 'ht' ],
+	'gdo' => [ 'ru', 'av' ], # ToluAyo 2026-09-03
 	'guw' => [ 'fr', 'fon', 'ajg', 'ee', 'yo' ],
 	'hak-hans' => [ 'hak-hant', 'hak', 'hak-latn', 'zh-hans' ],
 	'hak-hant' => [ 'hak-hans', 'hak', 'hak-latn', 'zh-hant' ],
