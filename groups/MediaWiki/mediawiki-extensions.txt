@@ -3943,7 +3943,7 @@ id = ext-wikimediaantiabuse-user
 file = WikimediaAntiAbuse/i18n/%CODE%.json
 ignored = tag-mw-private-personal-info-helppage, tag-mw-private-personal-info-false-positive-helppage
 ignored = tag-mw-private-personal-info-no-further-action-helppage, tag-mw-private-vandalism-helppage
-
+ignored = tag-mw-private-vandalism-no-further-action-helppage, tag-mw-private-vandalism-false-positive-helppage
 Wikimedia Anti Abuse - API
 id = ext-wikimediaantiabuse-api
 file = WikimediaAntiAbuse/i18n/api/%CODE%.json
