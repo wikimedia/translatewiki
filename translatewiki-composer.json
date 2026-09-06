@@ -8,6 +8,7 @@
 				"extensions/AbuseFilter/composer.json",
 				"extensions/CheckUser/composer.json",
 				"extensions/OATHAuth/composer.json",
+				"extensions/OAuth/composer.json",
 				"extensions/Elastica/composer.json",
 				"extensions/Maps/composer.json",
 				"extensions/SyntaxHighlight_GeSHi/composer.json",
