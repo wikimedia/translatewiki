@@ -2237,12 +2237,12 @@ file = MobileFrontend/i18n/api/%CODE%.json
 id = ext-mobilefrontend-api
 
 Moderator Toolkit - main
-id = moderatortoolkit-main
+id = ext-moderatortoolkit-main
 file = ModeratorToolkit/i18n/%CODE%.json
 descmsg = moderator-toolkit-desc
 
 Moderator Toolkit - Policies Guidelines
-id = moderatortoolkit-policiesguidelines
+id = ext-moderatortoolkit-policiesguidelines
 file = ModeratorToolkit/i18n/ext.moderatorToolkit.policiesGuidelines/%CODE%.json
 
 Montserrat Font
