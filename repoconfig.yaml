@@ -514,6 +514,11 @@ mwgithub:
       branch: main
       url: https://github.com/mywikis/CrawlerProtection.git
       url|export: git@github.com:mywikis/CrawlerProtection.git
+    mwgithub/mywikis/NamespaceManager:
+      type: github
+      branch: main
+      url: https://github.com/mywikis/NamespaceManager.git
+      url|export: git@github.com:mywikis/NamespaceManager.git
     mwgithub/Nikerabbit/mediawiki-extensions-FinnFrameNet:
       type: github
       url: https://github.com/Nikerabbit/mediawiki-extensions-FinnFrameNet.git

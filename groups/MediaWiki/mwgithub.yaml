@@ -2015,3 +2015,18 @@ FILES:
 TAGS:
   optional:
     - crawlerprotection-rawdenial-teapot
+
+---
+BASIC:
+  id: mwgithub-namespacemanager
+  label: NamespaceManager
+  description: "{{Special:MyLanguage/MediaWiki:Namespacemanager-desc/en}}"
+  support:
+    url: https://github.com/mywikis/NamespaceManager/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/mywikis/NamespaceManager/i18n/%CODE%.json"
