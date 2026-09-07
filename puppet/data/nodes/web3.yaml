@@ -3,11 +3,12 @@ classes:
   - '::hostname'
   - '::mailer'
   - '::profile::mydumper'
+  - '::kitanonl'
+  - '::awstats'
 
 # Enable at cutover, once DNS points at web3. These either need the live
 # domains resolving here (certbot) or would run in parallel with web2:
-#  - '::kitanonl'          # nginx site, needs TLS certs
-#  - '::awstats'           # nginx site, needs TLS certs
+
 #  - '::nginx::sites'      # pulls in nginx::ssl -> certbot for live domains
 #  - '::restic'            # would write to web2's backup buckets
 #  - '::repong::autoimport'
