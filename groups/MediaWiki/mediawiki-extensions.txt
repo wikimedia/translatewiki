@@ -2236,6 +2236,15 @@ Mobile Frontend - API
 file = MobileFrontend/i18n/api/%CODE%.json
 id = ext-mobilefrontend-api
 
+Moderator Toolkit - main
+id = moderatortoolkit-main
+file = ModeratorToolkit/18n/%CODE%.json
+descmsg = moderator-toolkit-desc
+
+Moderator Toolkit - Policies Guidelines
+id = moderatortoolkit-policiesguidelines
+file = ModeratorToolkit/18n/ext.moderatorToolkit.policiesGuidelines/%CODE%.json
+
 Montserrat Font
 
 MP3 Media Handler
