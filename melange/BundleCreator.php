@@ -124,7 +124,6 @@ TEXT;
 		$branch = str_replace( '$1', $version, $this->conf['common']['branchname'] );
 		$tag = str_replace( '$1', $version, $this->conf['common']['tagname'] );
 		$date = date( 'Y-m-d' );
-		$extra = str_replace( '$1', $version, $this->conf['common']['versionextra'] );
 
 		foreach ( $this->conf['extensions'] as $ext => $checkout ) {
 			chdir( "{$this->dir}/extensions/$ext" );
@@ -147,20 +146,6 @@ TEXT;
 
 			$relnotefile = "{$this->dir}/extensions/$ext/RELEASE-NOTES";
 			file_put_contents( $relnotefile, $notes );
-
-			// Patch version
-			$setupfile = "{$this->dir}/extensions/$ext/extension.json";
-			if ( !file_exists( $setupfile ) ) {
-				echo "$setupfile does not exist - skipping\n";
-			} else {
-				$json = file_get_contents( $setupfile );
-				$contents = json_decode( $json, true );
-				$contents['version'] ??= '';
-				$contents['version'] = trim( $contents['version'] . " $extra" );
-				# This will cause some dirty diffs (mainly tabs to spaces, formatting)
-				$json = json_encode( $contents, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES );
-				file_put_contents( $setupfile, $json );
-			}
 
 			$msg = escapeshellarg( "$name $version" );
 
