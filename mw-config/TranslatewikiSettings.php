@@ -290,6 +290,31 @@ if ( substr( $script, 0, 3 ) === '/x/' ) {
 	};
 }
 
+// Same idea for a server that is not production yet. The marker file lives in
+// /etc; deleting the file turns this off without a config change.
+if ( file_exists( '/etc/twn-testing' ) ) {
+	$twnTestingLabel = trim( (string)@file_get_contents( '/etc/twn-testing' ) );
+	if ( $twnTestingLabel === '' ) {
+		$twnTestingLabel = gethostname() ?: 'a test server';
+	}
+
+	// A test wiki runs on a copy of the real database, so notifications would
+	// reach real addresses. System mail from the host is unaffected.
+	$wgEnableEmail = false;
+	$wgEnableUserEmail = false;
+
+	$wgHooks['SiteNoticeAfter'][] = static function ( &$siteNotice ) use ( $twnTestingLabel ) {
+		$siteNotice .= '<div dir="ltr">You are using ' .
+			htmlspecialchars( $twnTestingLabel ) . '!</div>';
+	};
+
+	$wgHooks['OutputPageBodyAttributes'][] = static function ( $out, $skin, &$attrs ) {
+		$add = 'background: repeating-linear-gradient( -55deg, #4fb3ad, #4fb3ad 10px, #9fdad6 10px, #9fdad6 20px );' .
+			'margin-inline: 20px;';
+		$attrs['style'] = ( $attrs['style'] ?? '' ) . $add;
+	};
+}
+
 $wgMainPageIsDomainRoot = true;
 
 $wgExtensionFunctions[] = static function () {
