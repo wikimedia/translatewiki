@@ -69,6 +69,13 @@ class wiki (
     require => Package['poolcounter'],
   }
 
+  file { '/etc/default/poolcounter':
+    ensure  => file,
+    content => "# Managed by puppet\nARGS=\"-l 127.0.0.1\"\n",
+    require => Package['poolcounter'],
+    notify  => Service['poolcounter'],
+  }
+
   $packages = [
     # needed for svg images
     'librsvg2-bin',
