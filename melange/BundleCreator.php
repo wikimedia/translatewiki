@@ -208,7 +208,12 @@ TEXT;
 
 		// XXX: generalize
 		if ( $piggyurl ) {
-			$json = file_get_contents( $piggyurl );
+			$context = stream_context_create( [
+				'http' => [
+					'user_agent' => 'translatewiki.net Melange (translatewiki@translatewiki.net)',
+				],
+			] );
+			$json = file_get_contents( $piggyurl, false, $context );
 			$data = json_decode( $json, true );
 			$data = $data['query']['pages'][0]['revisions'][0]['content'];
 			$data = preg_replace( '~<noinclude>.*?</noinclude>\s*~s', '', $data );
