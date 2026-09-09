@@ -196,3 +196,7 @@ users::ssh_keys:
     user: jhsoby
     type: ssh-ed25519
     key: AAAAC3NzaC1lZDI1NTE5AAAAIJOz6jgZglq817GzRl6i2VLCLArpw1aRRe5ILNj0D1fT
+  raimond.spekking@gmail.com:
+    user: raymond
+    type: ssh-rsa
+    key: AAAAB3NzaC1yc2EAAAABJQAAAIEAnU4X+OFa66vObrEgYqxQqYTK3STNgNORxYeznNXsnC+nBRLIcrPnwiC1GBfRNewNMdlkeMf1DVgyAM2yA+/GnjfULsT9AMT+/K6tlivWO6XwpmZyUepTHKroeaJQFSdhkjfTa1FkucIW5AOPEt0bqFEoBCigkB2QzlkhRh9bPEk=
