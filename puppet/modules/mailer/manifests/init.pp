@@ -57,6 +57,17 @@ class mailer (
     'recipient_canonical_classes':  value => 'envelope_recipient,header_recipient';
     'smtpd_milters':                value => 'inet:localhost:8891';
     'non_smtpd_milters':            value => '$smtpd_milters';
+    # Outbound TLS (client - sending to Gmail / external MTAs)
+    'smtp_tls_security_level':      value => 'may';
+    'smtp_tls_CApath':              value => '/etc/ssl/certs';
+    'smtp_tls_loglevel':            value => '1';
+
+    # Inbound TLS (server - receiving email)
+    'smtpd_tls_security_level':     value => 'may';
+    'smtpd_tls_cert_file':          value => '/etc/letsencrypt/live/translatewiki.net/fullchain.pem';
+    'smtpd_tls_key_file':           value => '/etc/letsencrypt/live/translatewiki.net/privkey.pem';
+    'smtpd_tls_auth_only':          value => 'yes';
+    'smtpd_tls_loglevel':           value => '1';
   }
 
   # newaliases reads main.cf, so it must not run while it is still being
