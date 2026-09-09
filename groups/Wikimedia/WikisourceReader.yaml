@@ -19,6 +19,7 @@ FILES:
   definitionFile: "%GROUPROOT%/wikisource-reader/app/src/main/res/values/strings.xml"
   codeMap:
     be-tarask: b+be+x+old
+    cbk-zam: b+cbk+zam
     he: iw
     hif-latn: b+hif+Latn
     id: in
