@@ -74,10 +74,7 @@ restic::repositories:
       keep-monthly: 4
   database:
     enable_backup: true
-    backup_pre_cmd:
-      sh -c 'mkdir -p /sql-dump &&
-      find /sql-dump -mindepth 1 -delete &&
-      mydumper -o /sql-dump -L /sql-dump/log -v 3 --trx-consistency-only'
+    backup_pre_cmd: mydumper -o /sql-dump -v 3 -B translatewiki_net --trx-tables=0 --clear
     backup_path:
       - /sql-dump
     backup_timer: "*-*-* 2/6:13:37"
