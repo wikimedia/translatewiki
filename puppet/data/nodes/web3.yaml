@@ -5,18 +5,14 @@ classes:
   - '::profile::mydumper'
   - '::kitanonl'
   - '::awstats'
-
-# Enable at cutover, once DNS points at web3. These either need the live
-# domains resolving here (certbot) or would run in parallel with web2:
-
-#  - '::nginx::sites'      # pulls in nginx::ssl -> certbot for live domains
-#  - '::restic'            # would write to web2's backup buckets
-#  - '::repong::autoimport'
+  - '::nginx::sites'
+  - '::restic'
+  - '::repong::autoimport'
 #  - '::repong::autoexport'
 #  - '::repong::autobackport'
-#  - '::wiki::irc'
-#  - '::wiki::slack'
-#  - '::wiki::stats'
+  - '::wiki::irc'
+  - '::wiki::slack'
+  - '::wiki::stats'
 
 hostname::fqdn: web3.translatewiki.net
 
@@ -47,11 +43,10 @@ opendkim::keys:
       signingdomains:
           - '*@translatewiki.net'
 
-# Enable at cutover, once /root/keyholder/l10n-bot-2023{,.pub} are copied over
-# keyholder::agent:
-#   l10n-bot-2023:
-#     trusted_groups: ['l10n-bot']
-#     priv_key_path: /root/keyholder/l10n-bot-2023
+keyholder::agent:
+  l10n-bot-2023:
+    trusted_groups: ['l10n-bot']
+    priv_key_path: /root/keyholder/l10n-bot-2023
 
 restic::id: "%{alias('secret_restic_id')}"
 restic::key: "%{alias('secret_restic_key')}"
