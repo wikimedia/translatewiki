@@ -12,6 +12,8 @@ server {
 	listen [::]:443 ssl;
 	http2 on;
 
+	include includes/ssl-certbot.conf;
+
 	server_name .kitano.nl;
 	root /www/kitano.nl;
 	index index.html;
