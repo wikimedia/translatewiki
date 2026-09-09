@@ -215,10 +215,23 @@ $wgCheckUserLogLogins = true;
 
 wfLoadExtension( 'Maps' );
 
-wfLoadExtension( 'CodeEditor' );
 $wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEditor extension
 
 wfLoadExtension( 'CodeMirror' );
+$wgCodeMirrorEnabledModes['javascript'] = true;
+$wgCodeMirrorEnabledModes['json'] = true;
+$wgCodeMirrorEnabledModes['jsonc'] = true;
+$wgCodeMirrorEnabledModes['css'] = true;
+$wgCodeMirrorEnabledModes['lua'] = true;
+$wgCodeMirrorEnabledModes['vue'] = true;
+// AbuseFilter
+$wgAbuseFilterUseCodeMirror = true;
+// Gadgets
+$wgGadgetsDefinitionsUseCodeMirror = true;
+// Scribunto
+$wgScribuntoUseCodeMirror = true;
+// TemplateStyles
+$wgTemplateStylesUseCodeMirror = true;
 
 wfLoadExtensions( [ 'VisualEditor', 'Linter', 'DiscussionTools', 'LiquidThreads' ] );
 // LiquidThreads is enabled by default on all talk pages. This hook handler disables it on pages without any threads.
