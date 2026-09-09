@@ -1,6 +1,6 @@
 # Don't add IPs here
-git.code.sf.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPAa5MFfMaXyT3Trf/Av/laAvIhUzZJUnvPZAd9AC6bKWAhVl+A3s2+M6SlhF/Tn/W0akN03GyNviBtqJKtx0RU=
-svn.code.sf.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPAa5MFfMaXyT3Trf/Av/laAvIhUzZJUnvPZAd9AC6bKWAhVl+A3s2+M6SlhF/Tn/W0akN03GyNviBtqJKtx0RU=
+git.code.sf.net ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGObtXLh/mZom0pXjE5Mu211O+JvtzolqdNKVA+XJ466
+svn.code.sf.net ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGObtXLh/mZom0pXjE5Mu211O+JvtzolqdNKVA+XJ466
 git-ssh.wikimedia.org ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJJQs/ByE2oE32pdGxLmPfwUGGfCkGNMtt2BbabYCCyquLI1woLE4apVno5GSvNotKRpcMN6VbRdwatvT/yFUIw=
 [gerrit.wikimedia.org]:29418 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFp+VIoTbE8Js9fwRCUy9KnSAewDQa2f6Dwi77R7IqS7
 github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
