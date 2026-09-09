@@ -24,11 +24,15 @@ autoexport_dir: /scratch/exports
 
 base::maintenance_user: "%{alias('maintenance_user')}"
 base::bin_dir: "%{lookup('wiki::config_dir')}/bin"
+base::domain: "%{alias('wiki::domain')}"
 base::monitoring::bin_dir: "%{lookup('wiki::config_dir')}/bin"
 
 keyholder::agent: []
 
 nginx::devsite::domain: "%{alias('wiki::domain')}"
+
+repong::autoimport::domain: "%{alias('wiki::domain')}"
+repong::autoimport::translate_cache_dir: "/resources/caches/%{lookup('wiki::domain')}"
 
 repong::bin_dir: "%{lookup('wiki::config_dir')}/bin"
 repong::config_dir: "%{alias('wiki::config_dir')}"

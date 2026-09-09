@@ -5,6 +5,7 @@
 class base (
   String $maintenance_user,
   String $bin_dir,
+  String $domain,
   Optional[String] $mount_device = undef,
 ) {
   $packages = [
@@ -38,6 +39,14 @@ class base (
 
   file { '/etc/profile.d/translatewiki.sh':
     content => template('base/translatewiki.sh.erb'),
+  }
+
+  file { '/etc/motd':
+    ensure  => file,
+    owner   => 'root',
+    group   => 'root',
+    mode    => '0644',
+    content => template('base/motd.erb'),
   }
 
   file { '/scratch':

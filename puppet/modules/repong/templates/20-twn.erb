@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+BASE_CDB_DIR="<%= @translate_cache_dir %>"
+NON_MW_CDB="${BASE_CDB_DIR}/messagechanges.non-mediawiki.cdb"
+MW_CDB="${BASE_CDB_DIR}/messagechanges.mediawiki.cdb"
+
+if [[ -f "$NON_MW_CDB" ]]; then
+  echo "🔗 There are incoming changes to process: https://<%= @domain %>/wiki/Special:ManageMessageGroups/non-mediawiki"
+fi
+if [[ -f "$MW_CDB" ]]; then
+  echo "🔗 There are incoming changes to process: https://<%= @domain %>/wiki/Special:ManageMessageGroups/mediawiki"
+fi

@@ -22,6 +22,7 @@ users::users:
 
 wiki::config_dir: /home/developer/translatewiki
 wiki::domain: dev.translatewiki.net
+repong::autoimport::translate_cache_dir: "/resources/caches/%{lookup('wiki::domain')}/groups"
 wiki::repo_user: developer
 wiki::production_dir: /home/developer/mediawiki/workdir
 wiki::work_dir: /home/developer/mediawiki/workdir
