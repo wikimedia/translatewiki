@@ -30,7 +30,10 @@ codev:
 
 commons-android:
   group: commons-android-*
-  no-export-languages: ksh,zh,en
+  no-export-languages:
+    - en
+    - ksh
+    - zh
   repos:
     commons-android:
       type: github
@@ -1096,7 +1099,9 @@ oppia:
       url|export: git@github.com:oppia/oppia-android.git
 
 osm:
-  no-export-languages: en,qqq
+  no-export-languages:
+    - en
+    - qqq
   group: out-osm-*
   repos:
     osm:
