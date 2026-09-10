@@ -23,6 +23,8 @@ class mailer (
   postfix::config {
     'mydomain':                     value => $domain;
     'mydestination':                value => "${domain}, localhost";
+    'append_dot_mydomain':          value => 'no';
+    'smtp_helo_name':               value => "mail.${domain}";
     'relay_domains':                value => $domain;
     'virtual_alias_maps':           value => 'regexp:/etc/postfix/virtual_regexp';
     'header_size_limit':            value => '4096000';
