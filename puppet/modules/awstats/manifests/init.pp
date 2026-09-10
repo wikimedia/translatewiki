@@ -2,7 +2,9 @@
 #
 # Provides some stats for us.
 #
-class awstats {
+class awstats (
+  Optional[String] $webauth = undef,
+) {
   include fcgiwrap
 
   package { 'awstats':
@@ -22,6 +24,16 @@ class awstats {
 
   file { '/etc/awstats/awstats.conf.local':
     source => 'puppet:///modules/awstats/awstats.conf.local',
+  }
+
+  # Basic auth accounts for stats.translatewiki.net, read by the nginx workers
+  if $webauth {
+    file { '/etc/webauth':
+      content => Sensitive($webauth),
+      owner   => 'root',
+      group   => 'www-data',
+      mode    => '0640',
+    }
   }
 
   file { '/etc/nginx/sites/stats.translatewiki.net':

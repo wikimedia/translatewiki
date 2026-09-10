@@ -25,5 +25,6 @@ Then copy setup-environment.sh to the server and run it:
   /root/keyholder/l10n-bot-2023.pub
 * Copy the SMTP relay credentials used by postfix:
   /root/postfix/sasl_passwd
-* Add accounts for stats.translatewiki.net to /etc/webauth
+* Copy the node eyaml file, which holds the stats.translatewiki.net basic auth
+  accounts (secret_webauth) and the repong forge tokens (secret_forge_tokens)
 * Put backup keys in /root/.ssh/

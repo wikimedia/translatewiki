@@ -43,6 +43,10 @@ opendkim::keys:
       signingdomains:
           - '*@translatewiki.net'
 
+awstats::webauth: "%{alias('secret_webauth')}"
+
+repong::forge_tokens: "%{alias('secret_forge_tokens')}"
+
 keyholder::agent:
   l10n-bot-2023:
     trusted_groups: ['l10n-bot']

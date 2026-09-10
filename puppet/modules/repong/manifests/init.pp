@@ -8,6 +8,7 @@ class repong (
   String $import_dir,
   String $export_dir,
   String $bin_dir,
+  Hash[String, String] $forge_tokens = {},
 ) {
   Exec {
     require => User[ $l10nbot_user ],
@@ -55,6 +56,26 @@ class repong (
     ensure  => 'file',
     content => 'export',
     owner   => $l10nbot_user,
+  }
+
+  unless empty($forge_tokens) {
+    file { '/etc/l10n-bot':
+      ensure => 'directory',
+      owner  => 'root',
+      group  => $l10nbot_user,
+      mode   => '0750',
+    }
+
+    $env_content = $forge_tokens.map |$name, $token| {
+      "export ${name}=${token}\n"
+    }.join('')
+
+    file { '/etc/l10n-bot/env':
+      content => Sensitive($env_content),
+      owner   => 'root',
+      group   => $l10nbot_user,
+      mode    => '0640',
+    }
   }
 
   systemd::timer { 'repong-cleanups.timer':
