@@ -1,0 +1,32 @@
+---
+BASIC:
+  id: dustpan
+  label: Dustpan
+  description: "{{Special:MyLanguage/Translations:Group descriptions/dustpan/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/wikicollabs/dustpan/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: dustpan-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/dustpan/src/i18n/%CODE%.json"
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: true
+  - id: MediaWikiPlural
+  - id: BraceBalance
+
+INSERTABLES:
+  - class: MediaWikiInsertablesSuggester
