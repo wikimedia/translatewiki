@@ -16,9 +16,6 @@ classes:
 
 hostname::fqdn: web3.translatewiki.net
 
-# No base::mount_device: this server has enough internal disk, so /scratch is
-# a local directory instead of an NFS mount
-
 mariadb::innodb_buffer_pool_size: '20G'
 
 mailer::domain: translatewiki.net

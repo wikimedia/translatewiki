@@ -11,7 +11,6 @@ mod 'puppet-opensearch',
 mod 'puppet-postfix', '5.1.0'
 mod 'puppet-systemd', '6.6.0'
 mod 'puppetlabs-firewall', '8.0.1'
-mod 'puppetlabs-mount_core', '1.2.0'
 mod 'puppetlabs-mysql', '15.0.0'
 # Used by wiki::workdir; was previously only present via $basemodulepath
 mod 'puppetlabs-vcsrepo', '7.0.0'

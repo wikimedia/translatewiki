@@ -6,7 +6,6 @@ class base (
   String $maintenance_user,
   String $bin_dir,
   String $domain,
-  Optional[String] $mount_device = undef,
 ) {
   $packages = [
     # Basic packages
@@ -26,7 +25,6 @@ class base (
     'make',
     'nano',
     'netcat-openbsd',
-    'nfs-common',
     'parallel', # Used for e.g. forceSearchIndex.php
     'screen',
     'unattended-upgrades',
@@ -51,16 +49,6 @@ class base (
 
   file { '/scratch':
     ensure => directory,
-  }
-
-  if $mount_device {
-    mount { '/scratch':
-      ensure  => 'mounted',
-      device  => $mount_device,
-      fstype  => 'nfs',
-      options => 'rw',
-      require => File['/scratch'],
-    }
   }
 
   file { '/etc/default/locale':

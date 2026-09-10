@@ -13,7 +13,7 @@ Then copy setup-environment.sh to the server and run it:
   # For development
   ./setup-environment.sh dev.translatewiki.net
   # For production
-  ./setup-environment.sh web2.translatewiki.net
+  ./setup-environment.sh web3.translatewiki.net
 
 
 == Manual configuration required for production ==
