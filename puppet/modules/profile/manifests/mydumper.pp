@@ -4,11 +4,16 @@
 # Not in Debian 13, so it comes from the upstream repository:
 # https://mydumper.github.io/mydumper/docs/html/installing.html
 #
+# The signing key is kept here rather than fetched from the keyserver, which
+# returns the armor headers in a different order on every request and so made
+# puppet rewrite the file and refresh apt on every run.
+# Fingerprint: 1D357EA7D10C9320371BDD0279EA15C0E82E34BA
+#
 class profile::mydumper {
   include ::apt
 
   apt::keyring { 'mydumper.asc':
-    source => 'https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x1D357EA7D10C9320371BDD0279EA15C0E82E34BA&exact=on',
+    source => 'puppet:///modules/profile/mydumper.asc',
   }
 
   apt::source { 'mydumper':
