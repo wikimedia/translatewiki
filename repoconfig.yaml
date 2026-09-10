@@ -276,10 +276,70 @@ mathjax:
       url|export: git@github.com:mathjax/MathJax-i18n.git
 
 mediawiki:
-  always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
+  always-export-languages:
+    - en-ca
+    - en-gb
+    - es-formal
+    - de-formal
+    - de-at
+    - de-ch
+    - hu-formal
+    - nl-informal
+    - pap-aw
+    - zh-hk
+  no-export-languages:
+    - test
+    - aeb
+    - ais
+    - be-x-old
+    - crh
+    - en
+    - fiu-vro
+    - gan
+    - gom
+    - hif
+    - kbd
+    - kk
+    - kk-cn
+    - iu
+    - kk-kz
+    - kk-tr
+    - ku
+    - ku-arab
+    - no
+    - ruq
+    - simple
+    - sr
+    - tg
+    - tp
+    - tt
+    - ug
+    - zh
+    - zh-classical
+    - zh-cn
+    - zh-sg
+    - zh-min-nan
+    - zh-mo
+    - zh-my
+    - zh-tw
+    - zh-yue
+    - bbc
+    - ady
   export-threshold: 13
-  group: core,mediawiki-codex,mediawiki-datetime,mediawiki-interwiki,mediawiki-preferences,mediawiki-api,mediawiki-rest-api,mediawiki-exif,mediawiki-languageconverter,wikimedia-paramvalidator,mediawiki-installer,mediawiki-botpasswords,mediawiki-userrights
+  group:
+    - core
+    - mediawiki-codex
+    - mediawiki-datetime
+    - mediawiki-interwiki
+    - mediawiki-preferences
+    - mediawiki-api
+    - mediawiki-rest-api
+    - mediawiki-exif
+    - mediawiki-languageconverter
+    - wikimedia-paramvalidator
+    - mediawiki-installer
+    - mediawiki-botpasswords
+    - mediawiki-userrights
   auto-merge: mediawiki/core
   repos:
     mediawiki/master:
@@ -288,8 +348,55 @@ mediawiki:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/mediawiki/core
 
 mediawiki-extensions:
-  always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
+  always-export-languages:
+    - en-ca
+    - en-gb
+    - es-formal
+    - de-formal
+    - de-at
+    - de-ch
+    - hu-formal
+    - nl-informal
+    - pap-aw
+    - zh-hk
+  no-export-languages:
+    - test
+    - aeb
+    - ais
+    - be-x-old
+    - crh
+    - en
+    - fiu-vro
+    - gan
+    - gom
+    - hif
+    - kbd
+    - kk
+    - kk-cn
+    - iu
+    - kk-kz
+    - kk-tr
+    - ku
+    - ku-arab
+    - no
+    - ruq
+    - simple
+    - sr
+    - tg
+    - tp
+    - tt
+    - ug
+    - zh
+    - zh-classical
+    - zh-cn
+    - zh-sg
+    - zh-min-nan
+    - zh-mo
+    - zh-my
+    - zh-tw
+    - zh-yue
+    - bbc
+    - ady
   export-threshold: 0
   group: ext-*
   auto-merge: ^mediawiki/extensions/.*
@@ -297,8 +404,55 @@ mediawiki-extensions:
     '@generator': php ../groups/MediaWiki/repong-generator.php extensions
 
 mediawiki-skins:
-  always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
+  always-export-languages:
+    - en-ca
+    - en-gb
+    - es-formal
+    - de-formal
+    - de-at
+    - de-ch
+    - hu-formal
+    - nl-informal
+    - pap-aw
+    - zh-hk
+  no-export-languages:
+    - test
+    - aeb
+    - ais
+    - be-x-old
+    - crh
+    - en
+    - fiu-vro
+    - gan
+    - gom
+    - hif
+    - kbd
+    - kk
+    - kk-cn
+    - iu
+    - kk-kz
+    - kk-tr
+    - ku
+    - ku-arab
+    - no
+    - ruq
+    - simple
+    - sr
+    - tg
+    - tp
+    - tt
+    - ug
+    - zh
+    - zh-classical
+    - zh-cn
+    - zh-sg
+    - zh-min-nan
+    - zh-mo
+    - zh-my
+    - zh-tw
+    - zh-yue
+    - bbc
+    - ady
   export-threshold: 0
   group: mediawiki-skin-*
   auto-merge: ^mediawiki/skins/.*
@@ -332,9 +486,58 @@ mwgerrit:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/VisualEditor/VisualEditor
 
 mwgithub:
-  always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
-  group: mwgithub-*,mwgithubskin-*
+  always-export-languages:
+    - en-ca
+    - en-gb
+    - es-formal
+    - de-formal
+    - de-at
+    - de-ch
+    - hu-formal
+    - nl-informal
+    - pap-aw
+    - zh-hk
+  no-export-languages:
+    - test
+    - aeb
+    - ais
+    - be-x-old
+    - crh
+    - en
+    - fiu-vro
+    - gan
+    - gom
+    - hif
+    - kbd
+    - kk
+    - kk-cn
+    - iu
+    - kk-kz
+    - kk-tr
+    - ku
+    - ku-arab
+    - no
+    - ruq
+    - simple
+    - sr
+    - tg
+    - tp
+    - tt
+    - ug
+    - zh
+    - zh-classical
+    - zh-cn
+    - zh-sg
+    - zh-min-nan
+    - zh-mo
+    - zh-my
+    - zh-tw
+    - zh-yue
+    - bbc
+    - ady
+  group:
+    - mwgithub-*
+    - mwgithubskin-*
   repos:
     mwgithub/wiki-gg-oss/mediawiki-extensions-DataMaps:
       type: github
@@ -764,9 +967,58 @@ mwgithub:
       url|export: git@github.com:Universal-Omega/SimpleTooltip.git
 
 mwgitlab:
-  always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady
-  group: mwgitlab-*,mwgitlabskin-*
+  always-export-languages:
+    - en-ca
+    - en-gb
+    - es-formal
+    - de-formal
+    - de-at
+    - de-ch
+    - hu-formal
+    - nl-informal
+    - pap-aw
+    - zh-hk
+  no-export-languages:
+    - test
+    - aeb
+    - ais
+    - be-x-old
+    - crh
+    - en
+    - fiu-vro
+    - gan
+    - gom
+    - hif
+    - kbd
+    - kk
+    - kk-cn
+    - iu
+    - kk-kz
+    - kk-tr
+    - ku
+    - ku-arab
+    - no
+    - ruq
+    - simple
+    - sr
+    - tg
+    - tp
+    - tt
+    - ug
+    - zh
+    - zh-classical
+    - zh-cn
+    - zh-sg
+    - zh-min-nan
+    - zh-mo
+    - zh-my
+    - zh-tw
+    - zh-yue
+    - bbc
+    - ady
+  group:
+    - mwgitlab-*
+    - mwgitlabskin-*
   repos:
     mwgitlab/nonsensopedia/ratepage:
       type: gitlab
@@ -825,7 +1077,9 @@ ohm:
       url|export: git@github.com:OpenHistoricalMap/overpass-turbo.git
 
 oppia:
-  group: oppia,oppia-android-app
+  group:
+    - oppia
+    - oppia-android-app
   export-threshold: 90
   repos:
     oppia:
@@ -907,8 +1161,56 @@ swviewer:
       url|export: git@github.com:SWViewer/tool-swviewer.git
 
 toolhub:
-  always-export-languages: en-ca,en-gb,es-formal,de-formal,de-at,de-ch,hu-formal,nl-informal,pap-aw,zh-hk
-  no-export-languages: test,aeb,ais,be-x-old,crh,en,fiu-vro,gan,gom,hif,kbd,kk,kk-cn,iu,kk-kz,kk-tr,ku,ku-arab,no,ruq,simple,sr,tg,tp,tt,ug,zh,zh-classical,zh-cn,zh-sg,zh-min-nan,zh-mo,zh-my,zh-tw,zh-yue,bbc,ady,qqq
+  always-export-languages:
+    - en-ca
+    - en-gb
+    - es-formal
+    - de-formal
+    - de-at
+    - de-ch
+    - hu-formal
+    - nl-informal
+    - pap-aw
+    - zh-hk
+  no-export-languages:
+    - test
+    - aeb
+    - ais
+    - be-x-old
+    - crh
+    - en
+    - fiu-vro
+    - gan
+    - gom
+    - hif
+    - kbd
+    - kk
+    - kk-cn
+    - iu
+    - kk-kz
+    - kk-tr
+    - ku
+    - ku-arab
+    - no
+    - ruq
+    - simple
+    - sr
+    - tg
+    - tp
+    - tt
+    - ug
+    - zh
+    - zh-classical
+    - zh-cn
+    - zh-sg
+    - zh-min-nan
+    - zh-mo
+    - zh-my
+    - zh-tw
+    - zh-yue
+    - bbc
+    - ady
+    - qqq
   group: toolhub-*
   auto-merge: wikimedia/toolhub
   repos:
@@ -958,7 +1260,9 @@ wikiblame:
       url|export: git@github.com:FlominatorTM/wikiblame.git
 
 wikidata:
-  group: wikidata-*,cita
+  group:
+    - wikidata-*
+    - cita
   repos:
     cita:
       type: github
@@ -994,7 +1298,9 @@ wikiedudashboard:
 
 wikimedia-misc-projects:
   always-export-languages: en-gb
-  group: wikimedia-developer-portal,internetarchivebot
+  group:
+    - wikimedia-developer-portal
+    - internetarchivebot
   auto-merge: wikimedia/developer-portal
   repos:
     wikimedia-developer-portal:
@@ -1008,7 +1314,12 @@ wikimedia-misc-projects:
       url|export: git@github.com:internetarchive/internetarchivebot.git
 
 wikimedia-github:
-  group: copypatrol,grant-metrics,interaction-timeline,jquery-uls,whowrotethat
+  group:
+    - copypatrol
+    - grant-metrics
+    - interaction-timeline
+    - jquery-uls
+    - whowrotethat
   repos:
     copypatrol:
       type: github
@@ -1041,7 +1352,48 @@ wikimedia-mailman-templates:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/operations/software/mailman-templates
 
 wikimedia-misc-tools:
-  group: adiutor,anvesha,broomstick,capacity-exchange,cejs,citationhunt,cite-forge,cite-unseen,code2code-search,copyvios,croptool2,dustpan,fermi,flickr2commons,global-search,instant-diffs,lexica-frontend,lingua-libre,lingua-libre-org,wikimedia-ocr,pageviews,pollaris-*,quickstatements3,ranker,script-manager,signit,starterkit,svgtranslate,twinkle-core,video2commons,web2cit-translation-server,wikidata-image-positions,wikidata-lexeme-forms,wikilearn-*,wikipedia-year-in-review,wikinewsie,wikiscore,wikisource-reader,wiki-infographics,wikivoyage-listing-editor,wscd
+  group:
+    - adiutor
+    - anvesha
+    - broomstick
+    - capacity-exchange
+    - cejs
+    - citationhunt
+    - cite-forge
+    - cite-unseen
+    - code2code-search
+    - copyvios
+    - croptool2
+    - dustpan
+    - fermi
+    - flickr2commons
+    - global-search
+    - instant-diffs
+    - lexica-frontend
+    - lingua-libre
+    - lingua-libre-org
+    - wikimedia-ocr
+    - pageviews
+    - pollaris-*
+    - quickstatements3
+    - ranker
+    - script-manager
+    - signit
+    - starterkit
+    - svgtranslate
+    - twinkle-core
+    - video2commons
+    - web2cit-translation-server
+    - wikidata-image-positions
+    - wikidata-lexeme-forms
+    - wikilearn-*
+    - wikipedia-year-in-review
+    - wikinewsie
+    - wikiscore
+    - wikisource-reader
+    - wiki-infographics
+    - wikivoyage-listing-editor
+    - wscd
   repos:
     adiutor:
       type: github
@@ -1257,7 +1609,10 @@ wikimedia-portals:
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/wikimedia/portals
 
 wikimedia-tools:
-  group: wikimedia-tools-*,int-*,xtools
+  group:
+    - wikimedia-tools-*
+    - int-*
+    - xtools
   # Gerrit query syntax does not allow inline alternatives nor intersections.
   # Given this is also limited by owner, this does not match unwanted repos.
   # https://review.openstack.org/Documentation/user-search.html#project
@@ -1423,7 +1778,10 @@ wikipedia-preview:
       url|export: git@github.com:wikimedia/wikipedia-preview.git
 
 wikisource:
-  group: wscontest,ia-upload,wsexport
+  group:
+    - wscontest
+    - ia-upload
+    - wsexport
   repos:
     ia-upload:
       type: github

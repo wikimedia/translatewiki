@@ -125,7 +125,15 @@ abstract class Command extends SymfonyCommand {
 			return $new;
 		};
 
-		return $replacer( $config );
+		$config = $replacer( $config );
+
+		foreach ( [ 'group', 'no-export-languages', 'always-export-languages' ] as $field ) {
+			if ( isset( $config[ $field ] ) && is_array( $config[ $field ] ) ) {
+				$config[ $field ] = implode( ',', $config[ $field ] );
+			}
+		}
+
+		return $config;
 	}
 
 	protected function buildCommandline( $command, $options ): string {
@@ -138,6 +146,9 @@ abstract class Command extends SymfonyCommand {
 			if ( $value === true ) {
 				// Boolean flags take no value; passing one warns in MediaWiki maintenance scripts
 				$str .= " --$key";
+			} elseif ( is_array( $value ) ) {
+				$valStr = implode( ',', $value );
+				$str .= " --$key='$valStr'";
 			} else {
 				$str .= " --$key='$value'";
 			}

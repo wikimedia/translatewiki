@@ -21,7 +21,7 @@ foreach ( $config as $key => $value ) {
 
 	echo "sudo -u l10n-bot repomulti update {$key}\n";
 
-	$group = $value['group'];
+	$group = is_array( $value['group'] ) ? implode( ',', $value['group'] ) : $value['group'];
 	echo "sudo -u l10n-bot php /srv/mediawiki/targets/production/extensions/Translate/scripts/export-rename-language.php --group='{$group}' --target=. --source-language {$sourceLanguage} --target-language {$targetLanguage}\n";
 
 	echo "sudo -u l10n-bot repomulti status {$key}\n";

@@ -28,17 +28,29 @@ definitions:
     additionalProperties: false
     properties:
       group:
-        type: string
+        oneOf:
+          - type: string
+          - type: array
+            items:
+              type: string
       auto-merge:
         type: string
       no-export-languages:
-        type: string
+        oneOf:
+          - type: string
+          - type: array
+            items:
+              type: string
       export-threshold:
         type: number
         minimum: 0
         maximum: 100
       always-export-languages:
-        type: string
+        oneOf:
+          - type: string
+          - type: array
+            items:
+              type: string
       repos:
         type: object
         oneOf:
