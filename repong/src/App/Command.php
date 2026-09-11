@@ -248,6 +248,7 @@ abstract class Command extends SymfonyCommand {
 
 	protected function getGenericRepositoryType( string $type ): string {
 		$map = [
+			'forgejo' => 'git',
 			'github' => 'git',
 			'gitlab' => 'git',
 			'wmgerrit' => 'git',

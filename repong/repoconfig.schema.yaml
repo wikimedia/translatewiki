@@ -83,6 +83,7 @@ definitions:
       type:
         type: string
         enum:
+          - forgejo
           - github
           - wmgerrit
           - gitlab

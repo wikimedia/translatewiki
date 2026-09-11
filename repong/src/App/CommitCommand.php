@@ -11,6 +11,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Process\Process;
+use Translatewiki\RepoNg\Forge\AgitSubmission;
 use Translatewiki\RepoNg\Forge\ForgeFactory;
 use Translatewiki\RepoNg\Forge\PullRequestSpecifier;
 
@@ -75,7 +76,9 @@ class CommitCommand extends Command {
 			if ( $genericType === 'git' ) {
 				$branch = $backportBranch ?? $repo['branch'] ?? 'master';
 
-				if ( $type === 'wmgerrit' ) {
+				if ( AgitSubmission::isEnabled( $repo ) ) {
+					$push = AgitSubmission::getPushCommand( $repo, $backportBranch );
+				} elseif ( $type === 'wmgerrit' ) {
 					$push = "git review -r origin -t L10n '$branch'";
 				} elseif ( $repo['push-branch'] ?? $repo['pull-branch'] ?? false ) {
 					if ( $backportBranch !== null ) {
@@ -151,7 +154,7 @@ class CommitCommand extends Command {
 		$factory = new ForgeFactory();
 
 		foreach ( $config['repos'] as $name => $repo ) {
-			if ( !( $repo['pull-branch'] ?? false ) ) {
+			if ( !( $repo['pull-branch'] ?? false ) || AgitSubmission::isEnabled( $repo ) ) {
 				continue;
 			}
 
