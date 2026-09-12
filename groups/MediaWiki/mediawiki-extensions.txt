@@ -903,6 +903,7 @@ Code Mirror - User interface
 id = ext-codemirror-user2
 file = CodeMirror/i18n/%CODE%.json
 ignored = codemirror-theme-github, codemirror-theme-gruvbox
+ignored = codemirror-theme-pygments
 optional = codemirror-theme-material, codemirror-theme-tokyo-night
 
 Code Mirror - API
