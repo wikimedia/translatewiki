@@ -4,7 +4,7 @@
 		"test": "grunt test"
 	},
 	"devDependencies": {
-		"eslint-config-wikimedia": "0.32.5",
+		"eslint-config-wikimedia": "0.32.6",
 		"grunt": "1.6.3",
 		"grunt-eslint": "24.3.0"
 	}
