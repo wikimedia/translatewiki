@@ -1,5 +1,5 @@
 {
-	"license": "GPL-2.0-only",
+	"license": "proprietary",
 	"require-dev": {
 		"justinrainbow/json-schema": "^5.2 || ^6.6.4",
 		"mediawiki/mediawiki-codesniffer": "52.0.0",
