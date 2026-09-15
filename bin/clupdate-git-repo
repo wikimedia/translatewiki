@@ -1,6 +1,9 @@
 #!/bin/bash
 set -o nounset -o pipefail -o errexit
 
+DIRSCRIPT=$(dirname "$(readlink -f "$0")")
+GERRIT_COMMIT_MSG_HOOK="$DIRSCRIPT/data/gerrit-commit-msg-hook.sh"
+
 URL=$1
 DIR=$2
 BRANCH=${3:-master}
@@ -46,12 +49,14 @@ then
 	git config commit.gpgsign 'true'
 	git config user.signingkey 'key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG/B9tTMv3xBeENcfU48os66O+W1w9puNIB8nEz3TJ7Q'
 
-	# Avoid using git review --setup because it uses SCP which does not honor GIT_SSH
-	if [[ ! -e .git/hooks/commit-msg ]];
-	then
-		mkdir -p .git/hooks
-		curl -Lo .git/hooks/commit-msg https://gerrit.wikimedia.org/r/tools/hooks/commit-msg
-		chmod +x .git/hooks/commit-msg
+	mkdir -p .git/hooks
+	HOOK_TARGET=$(readlink -f "$GERRIT_COMMIT_MSG_HOOK")
+	HOOK_LINK=$(readlink .git/hooks/commit-msg || :)
+
+	if [ ! -L .git/hooks/commit-msg ] || [ "$HOOK_LINK" != "$HOOK_TARGET" ]; then
+		rm -f .git/hooks/commit-msg .git/hooks/commit-msg.new
+		ln -s "$HOOK_TARGET" .git/hooks/commit-msg.new
+		mv -T .git/hooks/commit-msg.new .git/hooks/commit-msg
 	fi
 else
 	git config user.name 'translatewiki.net'
