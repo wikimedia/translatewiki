@@ -588,6 +588,7 @@ mwgithub:
       url|export: git@github.com:AlPha5130/mediawiki-extensions-Purge.git
     mwgithub/jayktaylor/mw-discord:
       type: github
+      branch: main
       url: https://github.com/jayktaylor/mw-discord.git
       url|export: git@github.com:jayktaylor/mw-discord.git
     mwgithub/jeblad/BCmath:
