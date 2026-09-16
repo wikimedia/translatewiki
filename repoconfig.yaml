@@ -1370,6 +1370,7 @@ wikimedia-misc-tools:
     - code2code-search
     - copyvios
     - croptool2
+    - dcw-certificate-portal
     - dustpan
     - fermi
     - flickr2commons
@@ -1455,6 +1456,12 @@ wikimedia-misc-tools:
       branch: main
       url: https://github.com/wpmed/croptool2.git
       url|export: git@github.com:wpmed/croptool2.git
+    dcw-certificate-portal:
+      type: github
+      branch: main
+      pull-branch: translatewiki
+      url: https://github.com/Deoband-Community-Wikimedia/dcw-certificate-portal.git
+      url|export: git@github.com:Deoband-Community-Wikimedia/dcw-certificate-portal.git
     dustpan:
       type: github
       branch: main

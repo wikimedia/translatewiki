@@ -1,0 +1,32 @@
+---
+BASIC:
+  id: dcw-certificate-portal
+  label: DCW Certificate Portal
+  icon: wiki://Deoband Community Wikimedia logo.svg
+  description: "{{Special:MyLanguage/Translations:Group descriptions/dcw-certificate-portal/en}}"
+  namespace: NS_PROJECTS
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/Deoband-Community-Wikimedia/dcw-certificate-portal/issues
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: dcw-certificate-portal-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/dcw-certificate-portal/i18n/%CODE%.json"
+
+VALIDATORS:
+  # {org}, {partners}, {name}, {event}, {id}, {year}
+  - id: InsertableRegex
+    insertable: true
+    enforce: true
+    params: /\{[A-Za-z_]+\}/
+  - id: BraceBalance
+    enforce: true

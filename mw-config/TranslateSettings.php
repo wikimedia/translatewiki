@@ -570,5 +570,6 @@ wfAddNamespace( 1284, 'BitmarkInc' );
 wfAddNamespace( 1286, 'CovidRatio' );
 
 wfAddNamespace( 1288, 'Projects' );
+$wgTranslateGroupFiles[] = "$GROUPS/Projects/DCWCertificatePortal.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Projects/OpenHistoricalMap.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Projects/NemoWeb.yaml";
