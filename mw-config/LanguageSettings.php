@@ -87,6 +87,7 @@ $wgExtraLanguageNames = [
 	'kip' => 'शेषी पाङ', # Amir 2017-08-13
 	'kix' => 'Khiamniungan', # RohitReddyA 2026-07-03
 	'knn' => 'महाराष्ट्रीय कोंकणी', # Maharashtrian Konkani / 2015-XX-XX
+	'kqr' => 'Kimaragang', # Kimaragang / ToluAyo 2026-09-16
 	'ksf' => 'Bafia', # Robin 2011-10-21
 	'lad-hebr' => 'לאדינו', # Ladino in Hebrew script / Amir 2020-04-17
 	'lag' => 'Kilaangi', # Rangi / Amir 2017-05-03
