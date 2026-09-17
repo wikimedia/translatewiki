@@ -46,6 +46,15 @@ GROUPS:
 
 ---
 BASIC:
+  id: ext-articleguidance
+  label: Article Guidance
+  description: '{{Special:MyLanguage/MediaWiki:Articleguidance-desc/en}}'
+
+GROUPS:
+  - ext-articleguidance-*
+
+---
+BASIC:
   id: ext-babel
   label: Babel
   description: '{{Special:MyLanguage/MediaWiki:Babel-desc/en}}'
