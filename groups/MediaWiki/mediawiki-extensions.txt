@@ -3978,6 +3978,7 @@ Wikimedia Customizations - Main
 id = ext-wikimediacustomizations-main
 file = WikimediaCustomizations/i18n/%CODE%.json
 descmsg = wikimediacustomizations-desc
+ignored = wc-donor-account-creation-dialog-learn-url
 
 Wikimedia Customizations - Attribution
 id = ext-wikimediacustomizations-attribution
