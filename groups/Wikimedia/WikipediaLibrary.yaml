@@ -53,6 +53,8 @@ VALIDATORS:
   - id: PythonInterpolation
     insertable: true
     enforce: true
+  - id: PythonNamedParameter
+    enforce: true
   - id: GettextPlural
     enforce: true
 
