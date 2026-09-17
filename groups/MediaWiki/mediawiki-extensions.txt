@@ -3624,6 +3624,7 @@ ignored = visualeditor-wikitext-warning-link, visualeditor-quick-access-characte
 ignored = visualeditor-template-tools-definition.json
 ignored = apihelp-visualeditoredit-param-watchlist, visualeditor-template-sandbox-subpage
 ignored = visualeditor-preference-collab-info-link, visualeditor-preference-collab-discussion-link
+ignored = visualeditor-sourceswitch-popup-wtlink
 prefix = visualeditor-override- | tooltip-ca-edit
 
 Visual Editor (MediaWiki extension) - API
