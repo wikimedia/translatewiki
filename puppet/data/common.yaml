@@ -142,6 +142,8 @@ wiki::workdir::repos:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/PageForms
   workdir/extensions/ParserFunctions:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions
+  workdir/extensions/QuickInstantCommons:
+    source: https://gerrit.wikimedia.org/r/mediawiki/extensions/QuickInstantCommons
   workdir/extensions/RealMe:
     source: https://gerrit.wikimedia.org/r/mediawiki/extensions/RealMe
   workdir/extensions/ReplaceText:

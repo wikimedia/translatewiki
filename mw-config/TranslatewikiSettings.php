@@ -124,7 +124,6 @@ $wgCategoryCollation = 'uca-default';
  * Ajax spicy etc
  */
 $wgUseAutomaticEditSummaries = false;
-$wgUseInstantCommons = true;
 
 /**
  * User (account) settings

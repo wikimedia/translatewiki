@@ -18,6 +18,7 @@ wfLoadExtensions( [
 	'I18nTags',
 	'LoginNotify',
 	'Nuke',
+	'QuickInstantCommons',
 	'RealMe',
 	'ReplaceText',
 	'Scribunto',

@@ -57,7 +57,6 @@ $wgMiserMode = true;
 $wgRCMaxAge = 5 * 365 * 24 * 3600; // 5 years
 $wgCategoryCollation = 'uca-default';
 $wgUseAutomaticEditSummaries = false;
-$wgUseInstantCommons = true;
 $wgAllowUserJs = true;
 $wgAllowUserCss = true;
 $wgPageLanguageUseDB = true;
