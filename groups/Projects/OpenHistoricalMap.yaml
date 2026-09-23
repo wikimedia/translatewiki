@@ -36,7 +36,7 @@ FILES:
   format: Yaml
   parseCLDRPlurals: true
   codeAsRoot: true
-  sourcePattern: "%GROUPROOT%/ohm-website/config/locales/%CODE%.yml"
+  sourcePattern: "%GROUPROOT%/ohm-website/config/locales/overrides/%CODE%.yml"
   codeMap:
     be-tarask: be-Tarask
     en-gb: en-GB
