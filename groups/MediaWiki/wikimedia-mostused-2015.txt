@@ -95,7 +95,6 @@ mobile-frontend-language-article-heading
 minerva-page-actions-overflow
 searchsuggest-search
 searchsuggest-containing
-vector-searchsuggest-containing
 pt-login
 pt-createaccount
 edit
@@ -199,13 +198,11 @@ filehist
 wikibase-edit
 filehist-thumbtext
 toc
-vector-anon-user-menu-pages
 vector-toc-label
 vector-toc-beginning
 newpages
 globalusage
 shown-title
-template-protected
 metadata
 rollbacklink
 redirectedfrom
@@ -262,7 +259,6 @@ prevn
 nextn
 metadata-help
 viewprevnext
-template-semiprotected
 viewsource
 skin-action-viewsource
 skin-action-addsection
@@ -366,7 +362,6 @@ whatlinkshere-prev
 whatlinkshere-next
 linkshere
 rev-delundel
-file-nohires
 redirectto
 fancycaptcha-reload-text
 badtitletext
@@ -383,11 +378,6 @@ createacct-yourpasswordagain-ph
 createacct-yourpasswordagain
 createacct-submit
 createacct-email-ph
-createacct-emailoptional
-createacct-benefit-heading
-createacct-benefit-body3
-createacct-benefit-body2
-createacct-benefit-body1
 year
 monthsall
 month
