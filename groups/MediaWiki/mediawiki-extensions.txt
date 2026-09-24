@@ -3639,7 +3639,6 @@ Visual Editor (MediaWiki extension) - API
 id = ext-visualeditor-ve-mw-api
 file = VisualEditor/i18n/ve-mw/api/%CODE%.json
 ignored = apihelp-visualeditoredit-param-watchlist
-ignored = editcheck-sourceveri-footerlink
 
 Visual Editor (MediaWiki extension) - Edit check
 id = ext-visualeditor-ve-mw-editcheck
@@ -3650,6 +3649,7 @@ ignored = editcheck-external-link-descriptionlink, editcheck-external-link-conve
 ignored = editcheck-disambiguation-descriptionlink, editcheck-headinglevel-descriptionlink, editcheck-image-caption-descriptionlink
 ignored = editcheck-convertreference-descriptionlink, editcheck-double-bold-descriptionlink
 ignored = editcheck-suggestedlink-descriptionlink, editcheck-copyvio-llm-policylink
+ignored = editcheck-sourceveri-footerlink
 optional = editcheck-toolbar-suggestions-count
 
 Visual Editor (MediaWiki extension) - Language Variants
