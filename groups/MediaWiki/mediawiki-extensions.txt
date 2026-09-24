@@ -3639,6 +3639,7 @@ Visual Editor (MediaWiki extension) - API
 id = ext-visualeditor-ve-mw-api
 file = VisualEditor/i18n/ve-mw/api/%CODE%.json
 ignored = apihelp-visualeditoredit-param-watchlist
+ignored = editcheck-sourceveri-footerlink
 
 Visual Editor (MediaWiki extension) - Edit check
 id = ext-visualeditor-ve-mw-editcheck
