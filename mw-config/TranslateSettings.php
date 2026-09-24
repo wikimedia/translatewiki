@@ -299,6 +299,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/InternetArchiveBot.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Lexica.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/LinguaLibre.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/LinguaLibreOrg.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/LinkCount.yaml";
 $wgTranslateGroupAliases['out-jquery-uls'] = 'jquery-uls';
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/MiniEdit.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/PageContentService.yaml";

@@ -1379,6 +1379,7 @@ wikimedia-misc-tools:
     - lexica-frontend
     - lingua-libre
     - lingua-libre-org
+    - linkcount
     - wikimedia-ocr
     - pageviews
     - pollaris-*
@@ -1500,6 +1501,10 @@ wikimedia-misc-tools:
       branch: main
       url: https://gitlab.wikimedia.org/repos/wikimedia-france/lingua-libre/lingualibre.org.git
       url|export: git@gitlab-ssh.wikimedia.org:repos/wikimedia-france/lingua-libre/lingualibre.org.git
+    linkcount:
+      type: github
+      url: https://github.com/BrandonXLF/linkcount.git
+      url|export: git@github.com:BrandonXLF/linkcount.git
     WikimediaOCR:
       type: gitlab
       branch: main
