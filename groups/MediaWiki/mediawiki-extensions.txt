@@ -3672,6 +3672,7 @@ ignored = tag-editcheck-paste-shown-helppage
 ignored = visualeditor-suggestionfeedback-link
 ignored = visualeditor-suggestion-link
 ignored = tag-editcheck-llm-paste
+ignored = tag-editcheck-llm-paste-shown-helppage
 
 Visual Editor Plus
 
