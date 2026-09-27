@@ -3207,6 +3207,7 @@ ignored = spamdifftool-top-level-domains
 
 Spam Regex
 aliasfile = SpamRegex/SpamRegex.alias.php
+ignored = spamregex-summary-hit, spamregex-move-with-match
 
 Spark
 
