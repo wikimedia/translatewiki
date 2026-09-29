@@ -6,10 +6,20 @@ DIRSCRIPT=$(dirname "$(readlink -f "$0")")
 # shellcheck source=bin/synclock
 . "$DIRSCRIPT/synclock"
 
+# E.g. mediawiki-extensions
 PROJECT=${1}
-FILTER=${2:-*}
+# E.g. mediawiki-extensions/Inbox (uses fnmatch)
+REPOFILTER=${2:-*}
+# E.g. ext-inbox (uses fnmatch, comma separated list)
+EXPORTFILTER=()
+if [ "$#" -ge 3 ]; then
+	GROUPFILTER=$3
+	echo "WARNING: Export filtering is not restricted by project or repository." >&2
+	echo "WARNING: Group filter '$GROUPFILTER' may export unintended groups." >&2
+	EXPORTFILTER=( --filter "$GROUPFILTER" )
+fi
 
 cd "$AUTOEXPORT_DIR"
-sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" update "$PROJECT" --filter "$FILTER" &&
-sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" export "$PROJECT" --filter "$FILTER" &&
-sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" commit "$PROJECT" --filter "$FILTER"
+sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" update "$PROJECT" --filter "$REPOFILTER" &&
+sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" export "$PROJECT" "${EXPORTFILTER[@]}" &&
+sudo -u "$L10NBOTUSER" "$DIRSCRIPT/repomulti" commit "$PROJECT" --filter "$REPOFILTER"
