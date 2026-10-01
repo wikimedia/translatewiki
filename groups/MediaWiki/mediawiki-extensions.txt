@@ -176,7 +176,7 @@ Article Guidance - User interface
 id = ext-articleguidance-user
 file = ArticleGuidance/i18n/%CODE%.json
 ignored=tag-articleguidance-helppage, articleguidance-type-item-description
-optional = articleguidance-custom-label-note
+optional = articleguidance-duplicate-item
 
 Article Guidance - API
 id = ext-articleguidance-api
