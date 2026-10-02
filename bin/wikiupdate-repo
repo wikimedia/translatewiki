@@ -3,6 +3,8 @@ set -o nounset -o pipefail -o errexit
 
 # Avoid getting stuck waiting for user input
 export GIT_TERMINAL_PROMPT=0
+# Identify ourselves to Gerrit to avoid CDN rate limits (HTTP 429)
+export GIT_HTTP_USER_AGENT="translatewiki.net MediaWiki updater (translatewiki@translatewiki.net)"
 
 cd "$1"
 if ! OUTPUT=$(git fetch --quiet 2>&1 >&-); then
