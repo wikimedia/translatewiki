@@ -1400,6 +1400,7 @@ wikimedia-misc-tools:
     - wikiscore
     - wikisource-reader
     - wiki-infographics
+    - wiki-say-it
     - wikivoyage-listing-editor
     - wscd
   repos:
@@ -1577,6 +1578,11 @@ wikimedia-misc-tools:
       branch: main
       url: https://github.com/wikimediabrasil/wiki_infographics.git
       url|export: git@github.com:wikimediabrasil/wiki_infographics.git
+    wiki-say-it:
+      type: github
+      branch: main
+      url: https://github.com/abartov/wikisayit.git
+      url|export: git@github.com:abartov/wikisayit.git
     wikisource-reader:
       type: github
       branch: main

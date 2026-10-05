@@ -1,0 +1,34 @@
+---
+BASIC:
+  id: wiki-say-it
+  label: Wiki-Say-It!
+  description: "{{Special:MyLanguage/Translations:Group descriptions/wiki-say-it/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/abartov/wikisayit/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: AndroidXml
+  sourcePattern: "%GROUPROOT%/wiki-say-it/app/src/main/res/values-%CODE%/strings.xml"
+  definitionFile: "%GROUPROOT%/wiki-say-it/app/src/main/res/values/strings.xml"
+  codeMapAlgorithm: android
+  codeMap:
+    qqq: qq
+
+MANGLER:
+  class: StringMatcher
+  prefix: wiki-say-it-
+  patterns:
+    - "*"
+
+VALIDATORS:
+  - id: Printf
+    insertable: true
+    enforce: true
+  - id: PrintfIndexedParameter
+  - id: UnicodePlural
+    enforce: true
