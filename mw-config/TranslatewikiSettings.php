@@ -331,19 +331,21 @@ $wgExtensionFunctions[] = static function () {
 
 $wgHooks['LanguageGetNamespaces'][] = static function ( &$list ) {
 	global $wgTranslateMessageNamespaces;
-	$msgs = array_flip( $wgTranslateMessageNamespaces );
-	natcasesort( $list );
-	$basic = $extra = [];
+
+	$msgs = array_flip(
+		array_diff( $wgTranslateMessageNamespaces, [ NS_MEDIAWIKI ] )
+	);
+
+	$extra = [];
 	foreach ( $list as $key => $text ) {
-		if ( !isset( $msgs[$key - $key % 2] ) ) {
-			$basic[$key] = $text;
-		} else {
+		if ( $key >= 0 && isset( $msgs[$key - $key % 2] ) ) {
 			$extra[$key] = $text;
+			unset( $list[$key] );
 		}
 	}
 
-	$list = $basic + $extra;
-	return true;
+	natcasesort( $extra );
+	$list += $extra;
 };
 
 $wgHooks['GetPreferences'][] = static function ( User $user, array &$preferences ) {
