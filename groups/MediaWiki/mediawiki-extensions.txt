@@ -4027,7 +4027,6 @@ ignored = grouppage-staff, grouppage-wmf-officeit, grouppage-global-flow-create
 ignored = ext-quicksurveys-performance-internal-survey-description
 ignored = ext-quicksurveys-automoderator-patroller-workstream-external-survey-link
 ignored = wikibase-page-schema-publisher-logo-url
-ignored = right-banner-protect, protect-level-banner-protect, restriction-level-banner-protect
 ignored = grouppage-abusefilter-helper, wikimedia-statslink-url
 ignored = grouppage-abusefilter-maintainer, grouppage-docseditor
 ignored = grouppage-apihighlimits-requestor, grouppage-captcha-exempt
