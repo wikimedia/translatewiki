@@ -21,8 +21,6 @@ class nginx::devsite (
   }
 
   $dirs = [
-    '/etc/nginx',
-    '/etc/nginx/sites',
     '/etc/nginx/includes',
   ]
   ensure_resource('file', $dirs, {
