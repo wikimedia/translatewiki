@@ -1858,6 +1858,8 @@ Image Suggestions
 
 # Image Tagging // Archived, https://gerrit.wikimedia.org/r/#/c/387107/
 
+Impact Module
+
 Import Articles
 
 Import Free Images
