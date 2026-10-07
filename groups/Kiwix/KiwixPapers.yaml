@@ -3,7 +3,7 @@
 # The project was renamed from "Gutenberg" to "Papers"
 # See https://phabricator.wikimedia.org/T439226
 BASIC:
-  id: kiwix-gutenberg
+  id: kiwix-papers
   label: Papers scraper
   description: "{{Special:MyLanguage/Translations:Group descriptions/kiwix/en}}"
   namespace: NS_KIWIX
@@ -26,6 +26,7 @@ MANGLER:
     - "*"
 
 VALIDATORS:
+  # Matches placeholders like {name}, {collection}, {bookCount}, {item}, {title}
   - id: InsertableRegex
     enforce: true
     insertable: true
