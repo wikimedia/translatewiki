@@ -870,6 +870,9 @@ ignored = cite_references_link_one, cite_references_link_many, cite_references_l
 ignored = cite-wikieditor-help-content-reference-example-ref-normal, cite-wikieditor-help-content-reference-example-ref-named
 ignored = cite-wikieditor-help-content-reference-example-ref-reuse, cite-wikieditor-help-content-reference-example-reflist
 ignored = cite-wikieditor-help-content-reference-example-ref-result, cite-wikieditor-help-content-reference-example-ref-details
+ignored = communityconfiguration-cite-visualeditor-autonames-enable-label
+ignored = communityconfiguration-cite-visualeditor-autonames-enable-control-label
+ignored = communityconfiguration-cite-visualeditor-autonames-info-text
 
 Cite - VisualEditor
 id = ext-cite-visualeditor
