@@ -69,6 +69,8 @@ restic::repositories:
     enable_forget: true
     prune: true
     forget_timer: "Sat 01:13:37"
+    # Retain one files backup history across server migrations.
+    forget_flags: '--group-by paths'
     forget:
       keep-daily: 14
       keep-weekly: 4
@@ -85,6 +87,8 @@ restic::repositories:
     enable_forget: true
     prune: true
     forget_timer: "Sun 21:13:37"
+    # Retain one database backup history across server migrations.
+    forget_flags: '--group-by paths'
     forget:
       keep-last: 10
       keep-daily: 14
