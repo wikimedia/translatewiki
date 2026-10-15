@@ -68,6 +68,8 @@ TAGS:
     - accounts.show.contributor terms.link
     - accounts.show.openid.link
     - accounts.terms.terms_declined_flash.terms_declined_url
+    - application.markdown_help.kramdown
+    - application.markdown_help.kramdown_url
     - auth.providers.microsoft
     - auth.providers.openid
     - browse.common_details.coordinates_html
@@ -98,8 +100,6 @@ TAGS:
     - printable_name.with_name_html
     - profiles.edit.gravatar.link
     - profiles.images.show.gravatar.link
-    - shared.markdown_help.kramdown
-    - shared.markdown_help.kramdown_url
     - site.about_section.community_driven_community_blogs_url
     - site.about_section.community_driven_osm_blog_url
     - site.about_section.community_driven_osm_foundation_url
