@@ -83,6 +83,7 @@ TAGS:
     - geocoder.search.title.osm_nominatim_reverse
     - html.dir
     - javascripts.map.base.cyclosm
+    - javascripts.map.base.openmaptiles_osm
     - javascripts.map.copyright_text
     - javascripts.map.cyclosm_name
     - javascripts.map.maptiler_name
