@@ -181,6 +181,7 @@ $wgTranslateLanguageFallbacks = [
 	'mey' => [ 'ar', 'ary', 'fr', 'es' ], # Amir 2023-01-27
 	'mfa' => [ 'ms', 'th' ], # Robin 2011-10-18
 	'mfe' => [ 'fr' ], # Robin 2011-10-18
+	'mfq' => [ 'fr', 'ee', 'kbp' ],
 	'mhr' => [ 'mrj' ],
 	'miq' => [ 'es' ],
 	'mnc' => [ 'mnc-mong', 'zh-hans' ],

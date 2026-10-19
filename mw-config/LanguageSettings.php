@@ -103,6 +103,7 @@ $wgExtraLanguageNames = [
 	'mey' => 'الحسانية', # Hassaniya 2023-01-27
 	'mfa' => 'Klate-Ttaning', # Amir 2024-10-09
 	'mfe' => 'Morisyen', # Robin 2011-10-18
+	'mfq' => 'Muaba', # Amir 2026-10-19
 	'mic' => 'Mi\'kmaq', # Micmac / Nikerabbit 2012-02-27
 	'miq' => 'Mískitu', # Miskito / Siebrand 2013-07-02
 	'mns' => 'ма̄ньси', # Mansi / Amir 2024-09-27
