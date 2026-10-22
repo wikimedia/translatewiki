@@ -21,6 +21,48 @@ $wgTranslateEnableLuaIntegration = true;
 $wgTranslateCacheDirectory = "/resources/caches/translatewiki.net";
 $wgTranslateValidationExclusionFile = __DIR__ . "/validation-exclusion-list.php";
 
+// Skip PLURAL translations whose plural forms differ in older branches; they would show the wrong form
+$pluralFormsSegment = '(?:[^{}|]|\{\{[^{}]*\}\})*';
+$pluralWithAtLeastForms = static fn ( int $count ): string =>
+	"/\{\{\s*PLURAL\s*:$pluralFormsSegment(?:\|$pluralFormsSegment){{$count},}\}\}/i";
+$preCldr48Branches = [ 'REL1_43', 'REL1_45', 'REL1_46', 'REL1_47' ];
+$wgTranslateBackportExclusionRules = [
+	// CLDR 48 added 'many' (and 'two' for sat); includes languages that fall back to fr, es, it, pt or ca
+	'T384157-plural-3-forms' => [
+		'branches' => $preCldr48Branches,
+		'languages' => [
+			'aae', 'abr', 'arn', 'atj', 'avk', 'ay', 'bci', 'ca', 'cbk-zam', 'co', 'dua', 'egl', 'eml',
+			'es', 'es-formal', 'ext', 'fon', 'fr', 'frc', 'frp', 'gcf', 'gcr', 'gn', 'guc', 'hke', 'ht',
+			'it', 'kbp', 'lad', 'lld', 'lua', 'mwl', 'nap', 'nrm', 'oc', 'pcd', 'pms', 'ppl', 'pt', 'pt-br',
+			'qu', 'qug', 'rgn', 'roa-tara', 'sat', 'scn', 'sdc', 'shy-latn', 'sro', 'tet', 'ty', 'vec',
+			'vmw', 'wls', 'yua',
+		],
+		'content' => $pluralWithAtLeastForms( 3 ),
+	],
+	// CLDR 48 added 'zero' as the first form
+	'T384157-plural-2-forms' => [
+		'branches' => $preCldr48Branches,
+		'languages' => [ 'cv', 'kw' ],
+		'content' => $pluralWithAtLeastForms( 2 ),
+	],
+	'T384157-plural-sgs' => [
+		'branches' => $preCldr48Branches,
+		'languages' => [ 'sgs' ],
+		'content' => $pluralWithAtLeastForms( 5 ),
+	],
+	// mt and hoc plural rules changed after REL1_43 was branched; not related to CLDR 48
+	'T384157-plural-mt-rel1-43' => [
+		'branches' => [ 'REL1_43' ],
+		'languages' => [ 'mt' ],
+		'content' => $pluralWithAtLeastForms( 3 ),
+	],
+	'T384157-plural-hoc-rel1-43' => [
+		'branches' => [ 'REL1_43' ],
+		'languages' => [ 'hoc', 'hoc-latn' ],
+		'content' => $pluralWithAtLeastForms( 2 ),
+	],
+];
+
 $talkParams = [
 	'action' => 'edit',
 	'section' => 'new',

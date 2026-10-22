@@ -63,6 +63,7 @@ class BackportCommand extends Command {
 					'filter-path' => "$name/",
 					'group' => $config['group'],
 					'never-export-languages' => $config['no-export-languages'] ?? null,
+					'target-branch' => $backportBranch,
 				]
 			);
 
