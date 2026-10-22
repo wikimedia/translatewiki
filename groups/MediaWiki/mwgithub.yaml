@@ -585,20 +585,6 @@ TAGS:
     - srf-ui-datatables-label-sInfoPostFix
 ---
 BASIC:
-  id: mwgithub-semanticsignup
-  label: Semantic Signup
-  description: "{{Special:MyLanguage/MediaWiki:Ses-desc/en}}"
-  support:
-    url: https://github.com/SemanticMediaWiki/SemanticSignup/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/SemanticMediaWiki/SemanticSignup/i18n/%CODE%.json"
----
-BASIC:
   id: mwgithub-semanticwatchlist
   label: Semantic Watchlist
   description: "{{Special:MyLanguage/MediaWiki:Semanticwatchlist-desc/en}}"

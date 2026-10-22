@@ -25,7 +25,6 @@
 # Semantic MediaWiki
 # Semantic Meta Tags
 # Semantic Result Formats
-# Semantic Signup
 # Semantic Tasks
 # Semantic Watchlist
 # SimpleBatchUpload
