@@ -3657,7 +3657,7 @@ ignored = editcheck-external-link-descriptionlink, editcheck-external-link-conve
 ignored = editcheck-disambiguation-descriptionlink, editcheck-headinglevel-descriptionlink, editcheck-image-caption-descriptionlink
 ignored = editcheck-convertreference-descriptionlink, editcheck-double-bold-descriptionlink
 ignored = editcheck-suggestedlink-descriptionlink, editcheck-copyvio-llm-policylink
-ignored = editcheck-sourceveri-footerlink
+ignored = editcheck-sourceveri-footerlink, editcheck-leadlength-descriptionlink
 optional = editcheck-toolbar-suggestions-count
 
 Visual Editor (MediaWiki extension) - Language Variants
