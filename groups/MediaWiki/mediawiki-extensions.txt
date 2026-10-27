@@ -835,6 +835,7 @@ optional = checkuser-temporary-account-bucketcount-min
 optional = checkuser-temporary-account-bucketcount-range
 optional = checkuser-temporary-account-bucketcount-max
 optional = checkuser-suggestedinvestigations-status-reason-with-performer
+optional = checkuser-userinfocard-sharedblocked-count-incomplete
 
 Check User - API
 id = ext-checkuser-api
