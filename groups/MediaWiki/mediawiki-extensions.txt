@@ -4008,6 +4008,11 @@ id = ext-wikimediacustomizations-attribution
 file = WikimediaCustomizations/i18n/attribution/%CODE%.json
 descmsg = wikimediacustomizations-attribution-rest-module-v0-beta-desc
 
+Wikimedia Customizations - ShareCard
+id = ext-wikimediacustomizations-sharecard
+file = WikimediaCustomizations/i18n/sharecard/%CODE%.json
+optional = wikimediacustomizations-sharecard-share-title
+
 Wikimedia Events
 optional = wikimediaevents-special-wikimediadebug-desc
 ignored = tag-cross-wiki-upload-helppage
