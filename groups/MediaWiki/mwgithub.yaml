@@ -175,6 +175,24 @@ TAGS:
     - id-generator-name
 ---
 BASIC:
+  id: mwgithub-member-access
+  label: Member Access
+  description: "{{Special:MyLanguage/MediaWiki:Memberaccess-description/en}}"
+  support:
+    url: https://github.com/ProfessionalWiki/MemberAccess/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/MemberAccess/i18n/%CODE%.json"
+
+TAGS:
+  optional:
+    - memberaccess-auth-code-placeholder
+---
+BASIC:
   id: mwgithub-mermaid
   label: Mermaid
   description: "{{Special:MyLanguage/MediaWiki:Mermaid-desc/en}}"

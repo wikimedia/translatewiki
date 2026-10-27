@@ -770,6 +770,10 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/Maps.git
       url|export: git@github.com:ProfessionalWiki/Maps.git
+    mwgithub/ProfessionalWiki/MemberAccess:
+      type: github
+      url: https://github.com/ProfessionalWiki/MemberAccess.git
+      url|export: git@github.com:ProfessionalWiki/MemberAccess.git
     mwgithub/ProfessionalWiki/ModernTimeline:
       type: github
       url: https://github.com/ProfessionalWiki/ModernTimeline.git
