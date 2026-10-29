@@ -3977,6 +3977,8 @@ file = WikimediaAntiAbuse/i18n/%CODE%.json
 ignored = tag-mw-private-personal-info-helppage, tag-mw-private-personal-info-false-positive-helppage
 ignored = tag-mw-private-personal-info-no-further-action-helppage, tag-mw-private-vandalism-helppage
 ignored = tag-mw-private-vandalism-no-further-action-helppage, tag-mw-private-vandalism-false-positive-helppage
+ignored = tag-mw-private-link-spam-helppage, tag-mw-private-link-spam-false-positive-helppage
+ignored = tag-mw-private-link-spam-no-further-action-helppage
 optional = wikimediaantiabuse-special-abuse-review-tab-count-capped
 
 Wikimedia Anti Abuse - API
