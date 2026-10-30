@@ -4010,6 +4010,10 @@ id = ext-wikimediacustomizations-attribution
 file = WikimediaCustomizations/i18n/attribution/%CODE%.json
 descmsg = wikimediacustomizations-attribution-rest-module-v0-beta-desc
 
+Wikimedia Customizations - REST Sandbox
+id = ext-wikimediacustomizations-restsandbox
+file = WikimediaCustomizations/i18n/restsandbox/%CODE%.json
+
 Wikimedia Customizations - ShareCard
 id = ext-wikimediacustomizations-sharecard
 file = WikimediaCustomizations/i18n/sharecard/%CODE%.json
