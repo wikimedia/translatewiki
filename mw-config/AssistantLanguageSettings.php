@@ -274,6 +274,7 @@ $wgTranslateLanguageFallbacks = [
 	'so' => [ 'ar', 'it' ],
 	'sro' => [ 'sc' ],
 	'st' => [ 'nso', 'tn', 'af' ],
+	'su' => [ 'id' ],
 	'swb' => [ 'sw' ],
 	'tdd' => [ 'zh-hant', 'my', 'mnw', 'th', 'shn', 'nod' ],
 	'tg-cyrl' => [ 'ru', 'fa' ],
