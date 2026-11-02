@@ -1319,7 +1319,6 @@ wikimedia-github:
   group:
     - copypatrol
     - grant-metrics
-    - interaction-timeline
     - jquery-uls
     - whowrotethat
   repos:
@@ -1331,10 +1330,6 @@ wikimedia-github:
       type: github
       url: https://github.com/wikimedia/eventmetrics.git
       url|export: git@github.com:wikimedia/eventmetrics.git
-    interaction-timeline:
-      type: github
-      url: https://github.com/wikimedia/interactiontimeline.git
-      url|export: git@github.com:wikimedia/InteractionTimeline.git
     jquery.uls:
       type: github
       url: https://github.com/wikimedia/jquery.uls.git
