@@ -2921,7 +2921,7 @@ file = ReadingLists/i18n/%CODE%.json
 ignored = readinglists-import-app, readinglists-import-app-with-link
 ignored = readinglists-share-url-text-incomplete
 ignored = readinglists-betafeature-quicksurvey-answer-positive-cue, readinglists-betafeature-quicksurvey-answer-negative-cue
-optional = readinglists-share-url-text
+optional = readinglists-share-url-text, readinglists-truncated-title
 
 Real Me
 ignored = realme-config.json
