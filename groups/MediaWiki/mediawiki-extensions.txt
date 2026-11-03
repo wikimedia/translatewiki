@@ -4019,6 +4019,20 @@ Wikimedia Customizations - ShareCard
 id = ext-wikimediacustomizations-sharecard
 file = WikimediaCustomizations/i18n/sharecard/%CODE%.json
 optional = wikimediacustomizations-sharecard-share-title
+optional = wikimediacustomizations-sharecard-license-cc-by-1.0
+optional = wikimediacustomizations-sharecard-license-cc-sa-1.0
+optional = wikimediacustomizations-sharecard-license-cc-by-sa-1.0
+optional = wikimediacustomizations-sharecard-license-cc-by-2.0
+optional = wikimediacustomizations-sharecard-license-cc-by-sa-2.0
+optional = wikimediacustomizations-sharecard-license-cc-by-2.1
+optional = wikimediacustomizations-sharecard-license-cc-by-sa-2.1
+optional = wikimediacustomizations-sharecard-license-cc-by-2.5
+optional = wikimediacustomizations-sharecard-license-cc-by-sa-2.5
+optional = wikimediacustomizations-sharecard-license-cc-by-3.0
+optional = wikimediacustomizations-sharecard-license-cc-by-sa-3.0
+optional = wikimediacustomizations-sharecard-license-cc-by-4.0
+optional = wikimediacustomizations-sharecard-license-cc-by-sa-4.0
+optional = wikimediacustomizations-sharecard-license-cc0
 
 Wikimedia Events
 optional = wikimediaevents-special-wikimediadebug-desc
