@@ -27,12 +27,6 @@ $pluralWithAtLeastForms = static fn ( int $count ): string =>
 	"/\{\{\s*PLURAL\s*:$pluralFormsSegment(?:\|$pluralFormsSegment){{$count},}\}\}/i";
 $preCldr48Branches = [ 'REL1_43', 'REL1_45', 'REL1_46', 'REL1_47' ];
 $wgTranslateBackportExclusionRules = [
-	// Temporary test for T437232 (2026-11-03): skip fr on REL1_43. Remove after the REL1_43 run.
-	'T437232-test' => [
-		'branches' => [ 'REL1_43' ],
-		'languages' => [ 'fr' ],
-		'content' => $pluralWithAtLeastForms( 2 ),
-	],
 	// CLDR 48 added 'many' (and 'two' for sat); includes languages that fall back to fr, es, it, pt or ca
 	'T384157-plural-3-forms' => [
 		'branches' => $preCldr48Branches,
