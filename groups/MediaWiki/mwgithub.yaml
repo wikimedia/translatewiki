@@ -1880,21 +1880,6 @@ MANGLER:
 
 ---
 BASIC:
-  id: mwgithub-mediawiki-autocreatepage
-  label: AutoCreatePage
-  description: "{{Special:MyLanguage/MediaWiki:Autocreatepage-desc/en}}"
-  support:
-    url: https://github.com/Universal-Omega/AutoCreatePage/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\nMessage definition: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/Universal-Omega/AutoCreatePage/i18n/%CODE%.json"
-
----
-BASIC:
   id: mwgithub-mediawiki-dynamicpagelist3
   label: DynamicPageList4
   description: "{{Special:MyLanguage/MediaWiki:Dynamicpagelist3-dpl-desc/en}}"
