@@ -919,6 +919,10 @@ file = CodeMirror/i18n/%CODE%.json
 ignored = codemirror-theme-github, codemirror-theme-gruvbox
 ignored = codemirror-theme-pygments
 optional = codemirror-theme-material, codemirror-theme-tokyo-night
+optional = codemirror-prefs-lint-wikilint, codemirror-prefs-lint-parsoid
+optional = codemirror-prefs-lint-eslint, codemirror-prefs-lint-peast
+optional = codemirror-prefs-lint-stylelint, codemirror-prefs-lint-templatestyles
+optional = codemirror-prefs-lint-luacheck, codemirror-prefs-lint-scribunto
 
 Code Mirror - API
 id = ext-codemirror-api
