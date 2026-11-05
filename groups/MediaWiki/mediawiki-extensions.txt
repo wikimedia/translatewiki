@@ -1728,7 +1728,6 @@ file = GrowthExperiments/i18n/confirmemail/%CODE%.json
 Growth Experiments - Help Panel
 id = ext-growthexperiments-helppanel
 file = GrowthExperiments/i18n/help/%CODE%.json
-ignored = growthexperiments-help-panel-suggestededits-tips-vector-visualeditor-copyedit-graphic-calm
 ignored = growthexperiments-help-panel-suggestededits-tips-vector-visualeditor-image-recommendation-onboarding-value
 
 Growth Experiments - Help Panel API
@@ -1756,7 +1755,6 @@ file = GrowthExperiments/i18n/homepage/api/%CODE%.json
 Growth Experiments - Mentorship
 id = ext-growthexperiments-mentorship
 file = GrowthExperiments/i18n/mentorship/%CODE%.json
-optional =  growthexperiments-mentor-dashboard-personalized-praise-settings-positive-message-placeholder
 
 Growth Experiments - Mentorship API
 id = ext-growthexperiments-mentorship-api
