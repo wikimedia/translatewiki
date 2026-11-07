@@ -26,7 +26,6 @@ class php {
     'php-luasandbox',
     'php-memcached',
     'php-wikidiff2',
-    'php-wmerrors',
     'php-yaml',
   ]
   stdlib::ensure_packages($extension_packages, {
@@ -44,12 +43,6 @@ class php {
     ensure => running,
     enable => true,
     name   => 'php8.4-fpm.service',
-  }
-
-  file { '/etc/php/8.4/fpm/conf.d/50-wmerrors.ini':
-    source  => 'puppet:///modules/php/wmerrors.ini',
-    require => Package['php8.4-fpm'],
-    notify  => Service['php-fpm'],
   }
 
   file { '/etc/php/8.4/fpm/conf.d/50-opcache.ini':
