@@ -1,6 +1,7 @@
 classes:
   - '::nginx::devsite'
   - '::wiki::workdir'
+  - '::wiki::slack_sink'
 
 users::users:
   developer:
