@@ -4074,6 +4074,7 @@ ignored = grouppage-u4c-member, grouppage-local-bot
 ignored = grouppage-wmf-researcher, grouppage-wmf-supportsafety
 ignored = grouppage-global-abusefilter-helper, grouppage-global-abusefilter-maintainer
 ignored = grouppage-wmf-antiabuse-restricted, grouppage-wmf-legal
+ignored = grouppage-psi-volunteer-testers
 ignored = wikinews-mobile-license-links, wikinews-mobile-license-links-ccby30
 ignored = wikifunctions-mobile-license-links
 ignored = ipinfo-global-contributions-url, ipinfo-xtools-url
