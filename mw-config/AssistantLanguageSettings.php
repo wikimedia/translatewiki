@@ -52,6 +52,7 @@ $wgTranslateLanguageFallbacks = [
 	'bgc-arab' => [ 'bgc', 'pnb', 'skr-arab', 'ur', 'hi' ],
 	'bgn' => [ 'bcc', 'ur', 'ps' ], # Amir 2023-07-31
 	'bin' => [ 'ish', 'yo' ],
+	'bjj' => [ 'hi' ], # ToluAyo 2026-11-17
 	'bkm' => [ 'fr' ],
 	'bm' => [ 'nqo' ],
 	'bnn' => [ 'zh-hant' ],

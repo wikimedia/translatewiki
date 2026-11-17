@@ -23,6 +23,7 @@ $wgExtraLanguageNames = [
 	'bft' => 'بلتی', # Balti / Nikerabbit 2016-06-22
 	'bgc-arab' => 'ہریانوی', # Haryanvi (Arabic script) / Amir 2024-09-01
 	'bin' => 'Ẹdo', # Edo / Amir 2024-06-30
+	'bjj' => 'कन्नौजी', # Kannauji / ToluAyo 2026-11-17
 	'bkm' => 'Itaŋikom', # Kom / Amir 2021-03-31
 	'blc' => 'ItNuxalkmc', # Nuxalk / Amir 2020-06-22
 	'bnn' => 'bunun', # Bunun / Amir 2022-07-20
