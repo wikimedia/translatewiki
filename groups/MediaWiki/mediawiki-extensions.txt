@@ -664,6 +664,7 @@ aliasfile = BlueSpiceWikiExplorer/languages/SpecialWikiExplorer.alias.php
 Blue Spice Wiki Farm
 descmsg = wikifarm-desc
 aliasfile = BlueSpiceWikiFarm/languages/SpecialPage.alias.php
+ignored = wikifarm-main-wiki-name
 
 # Boiler Plate excluded per T156569
 
@@ -828,6 +829,7 @@ ignored = checkuser-suggestedinvestigations-user, checkuser-investigateblock-har
 ignored = checkuser-investigateblock-expiry-default, checkuser-investigateblock-expiry-ip
 ignored = checkuser-related-tas-target
 ignored = checkuser-clienthints-name-is-browser, checkuser-clienthints-name-ja3n, checkuser-clienthints-name-ja4h
+ignored = checkuser-clienthints-name-api-user-agent
 optional = checkuser-time-range
 optional = group-checkuser.css, group-checkuser.js
 optional = checkuser-investigate-compare-toollinks-whois, checkuser-clienthints-list-item
