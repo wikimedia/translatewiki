@@ -2678,6 +2678,11 @@ id = ext-personaldashboard-main
 descmsg = personal-dashboard-desc
 file = PersonalDashboard/i18n/main/%CODE%.json
 
+Personal Dashboard - API
+id = ext-personaldashboard-api
+descmsg = personal-dashboard-desc
+file = PersonalDashboard/i18n/api/%CODE%.json
+
 Personal Dashboard - Common
 id = ext-personaldashboard-common
 descmsg = personal-dashboard-desc
