@@ -17,7 +17,12 @@ GROUPS:
   - ext-centralauth-user
   - ext-centralnotice-user
   - ext-charinsert
+  - ext-checkuser-globalcontributions
+  - ext-checkuser-investigate
+  - ext-checkuser-suggestedinvestigations
+  - ext-checkuser-tempaccount
   - ext-checkuser-user
+  - ext-checkuser-userinfocard
   - ext-cldr
   - ext-codeeditor
   - ext-codemirror

@@ -814,36 +814,60 @@ Check User - User interface
 id = ext-checkuser-user
 file = CheckUser/i18n/%CODE%.json
 aliasfile = CheckUser/CheckUser.alias.php
-ignored = checkuser-toollinks, checkuser-userlinks-ip, checkuser-investigate-compare-toollinks
+ignored = checkuser-toollinks, checkuser-userlinks-ip
 ignored = checkuser-cidr-tool-links, logentry-checkuser-private-event-migrated-cu_changes-log-event
 ignored = checkuser-clienthints-name-wow64
-ignored = checkuser-global-contributions-anon-tools, checkuser-global-contributions-registered-user-tools
-ignored = checkuser-global-contributions-ip-range-tools, checkuser-ip-auto-reveal-on-dialog-select-duration
-ignored = checkuser-temporary-accounts-onboarding-dialog-ip-reveal-preference-checkbox-text
-ignored = checkuser-suggestedinvestigations-risk-signals-popover-body-dev-signal-1
-ignored = checkuser-suggestedinvestigations-risk-signals-popover-body-dev-signal-2
-ignored = checkuser-suggestedinvestigations-signal-dev-signal-1
-ignored = checkuser-suggestedinvestigations-signal-dev-signal-2
-ignored = checkuser-temporary-accounts-onboarding-dialog-ip-reveal-step-content
-ignored = checkuser-suggestedinvestigations-user, checkuser-investigateblock-hardblock-label
-ignored = checkuser-investigateblock-expiry-default, checkuser-investigateblock-expiry-ip
-ignored = checkuser-related-tas-target
 ignored = checkuser-clienthints-name-is-browser, checkuser-clienthints-name-ja3n, checkuser-clienthints-name-ja4h
 ignored = checkuser-clienthints-name-api-user-agent
 optional = checkuser-time-range
 optional = group-checkuser.css, group-checkuser.js
-optional = checkuser-investigate-compare-toollinks-whois, checkuser-clienthints-list-item
-optional = checkuser-userinfocard-count-exceeds-max-to-display
-optional = checkuser-temporary-account-bucketcount-min
-optional = checkuser-temporary-account-bucketcount-range
-optional = checkuser-temporary-account-bucketcount-max
-optional = checkuser-suggestedinvestigations-status-reason-with-performer
-optional = checkuser-userinfocard-abusereview-flag-count
-optional = checkuser-userinfocard-sharedblocked-count-incomplete
+optional = checkuser-clienthints-list-item
 
 Check User - API
 id = ext-checkuser-api
 file = CheckUser/i18n/api/%CODE%.json
+
+Check User - Global contributions
+id = ext-checkuser-globalcontributions
+file = CheckUser/i18n/globalcontributions/%CODE%.json
+ignored = checkuser-global-contributions-anon-tools, checkuser-global-contributions-registered-user-tools
+ignored = checkuser-global-contributions-ip-range-tools
+
+Check User - Investigate
+id = ext-checkuser-investigate
+file = CheckUser/i18n/investigate/%CODE%.json
+ignored = checkuser-investigate-compare-toollinks
+ignored = checkuser-investigateblock-hardblock-label
+ignored = checkuser-investigateblock-expiry-default, checkuser-investigateblock-expiry-ip
+optional = checkuser-investigate-compare-toollinks-whois
+
+Check User - Suggested investigations
+id = ext-checkuser-suggestedinvestigations
+file = CheckUser/i18n/suggestedinvestigations/%CODE%.json
+ignored = checkuser-suggestedinvestigations-risk-signals-popover-body-dev-signal-1
+ignored = checkuser-suggestedinvestigations-risk-signals-popover-body-dev-signal-2
+ignored = checkuser-suggestedinvestigations-signal-dev-signal-1
+ignored = checkuser-suggestedinvestigations-signal-dev-signal-2
+ignored = checkuser-suggestedinvestigations-user
+optional = checkuser-suggestedinvestigations-status-reason-with-performer
+
+Check User - Temporary accounts
+id = ext-checkuser-tempaccount
+file = CheckUser/i18n/tempaccount/%CODE%.json
+ignored = checkuser-ip-auto-reveal-on-dialog-select-duration
+ignored = checkuser-temporary-accounts-onboarding-dialog-ip-reveal-preference-checkbox-text
+ignored = checkuser-temporary-accounts-onboarding-dialog-ip-reveal-step-content
+ignored = checkuser-related-tas-target
+optional = checkuser-temporary-account-bucketcount-min
+optional = checkuser-temporary-account-bucketcount-range
+optional = checkuser-temporary-account-bucketcount-max
+
+Check User - User Info Card
+id = ext-checkuser-userinfocard
+file = CheckUser/i18n/userinfocard/%CODE%.json
+optional = checkuser-userinfocard-count-exceeds-max-to-display
+optional = checkuser-userinfocard-abusereview-flag-count
+optional = checkuser-userinfocard-sharedblocked-count-incomplete
 
 Chess Browser
 optional = chessbrowser-first-rank, chessbrowser-second-rank, chessbrowser-third-rank, chessbrowser-fourth-rank
