@@ -1145,14 +1145,6 @@ pywikibot:
       url: https://gerrit.wikimedia.org/r/pywikibot/i18n
       url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/pywikibot/i18n
 
-qrmedia:
-  group: qrmedia
-  repos:
-    qrmedia:
-      type: gitlab
-      url: https://gitlab.wikimedia.org/repos/wikimedia-france/qrmedia.git
-      url|export: git@gitlab-ssh.wikimedia.org:repos/wikimedia-france/qrmedia.git
-
 swviewer:
   group: swviewer
   repos:
