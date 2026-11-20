@@ -1355,6 +1355,7 @@ wikimedia-misc-tools:
     - dcw-certificate-portal
     - dustpan
     - fermi
+    - findsmith
     - flickr2commons
     - global-search
     - instant-diffs
@@ -1457,6 +1458,11 @@ wikimedia-misc-tools:
       branch: main
       url: https://codeberg.org/MelodyChat/Fermi.git
       url|export: git@codeberg.org:MelodyChat/Fermi.git
+    findsmith:
+      type: gitlab
+      branch: main
+      url: https://gitlab.wikimedia.org/toolforge-repos/findsmith.git
+      url|export: git@gitlab-ssh.wikimedia.org:toolforge-repos/findsmith.git
     flickr2commons:
       type: git
       url: https://codeberg.org/magnusmanske/flickr2commons.git
