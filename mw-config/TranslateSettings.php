@@ -346,6 +346,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/MiniEdit.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/PageContentService.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Pageviews.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Pollaris.yaml";
+$wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Proto.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/ProveIt.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/QuickStatements3.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/Wikimedia/Ranker.yaml";

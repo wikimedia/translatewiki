@@ -1365,6 +1365,7 @@ wikimedia-misc-tools:
     - wikimedia-ocr
     - pageviews
     - pollaris-*
+    - proto
     - quickstatements3
     - ranker
     - script-manager
@@ -1503,6 +1504,11 @@ wikimedia-misc-tools:
       url: https://github.com/danielyepezgarces/pollaris.git
       branch: main
       url|export: git@github.com:danielyepezgarces/pollaris.git
+    wiki-polis:
+      type: github
+      branch: main
+      url: https://github.com/lgelauff/wiki-polis.git
+      url|export: git@github.com:lgelauff/wiki-polis.git
     quickstatements3:
       type: github
       branch: main

@@ -1,0 +1,74 @@
+---
+BASIC:
+  id: proto
+  label: Proto
+  description: "{{Special:MyLanguage/Translations:Group descriptions/proto/en}}"
+  namespace: NS_WIKIMEDIA
+  class: FileBasedMessageGroup
+  support:
+    url: https://github.com/lgelauff/wiki-polis/issues/new
+    params:
+      title: Translation issue with message %MESSAGE%
+      body: "\n\nURL: %MESSAGE_URL%"
+
+MANGLER:
+  class: StringMatcher
+  prefix: wiki-polis-
+  patterns:
+    - "*"
+
+FILES:
+  format: Json
+  sourcePattern: "%GROUPROOT%/wiki-polis/v2/i18n/%CODE%.json"
+  codeMap:
+    en-gb: en-GB
+
+# Admin console and help pages are held back until their content settles
+TAGS:
+  ignored:
+    - wiki-polis-admin-*
+    - wiki-polis-adminconv-*
+    - wiki-polis-featured-*
+    - wiki-polis-stmts-*
+    - wiki-polis-guidance-*
+    - wiki-polis-precond-*
+    - wiki-polis-participants-*
+    - wiki-polis-rec-*
+    - wiki-polis-invites-*
+    - wiki-polis-flags-*
+    - wiki-polis-phase-route-*
+    - wiki-polis-base-admin-badge
+    - wiki-polis-flash-already-banned
+    - wiki-polis-flash-banned
+    - wiki-polis-flash-import-no-result
+    - wiki-polis-flash-import-no-valid-rows
+    - wiki-polis-flash-import-rejected-invalid
+    - wiki-polis-flash-import-rejected-rows
+    - wiki-polis-flash-import-row-error
+    - wiki-polis-flash-last-featured-hide
+    - wiki-polis-flash-last-featured-remove
+    - wiki-polis-flash-load-statements-failed
+    - wiki-polis-flash-meta-marked
+    - wiki-polis-flash-meta-unmarked
+    - wiki-polis-flash-moderation-failed
+    - wiki-polis-flash-modsettings-failed
+    - wiki-polis-flash-move-sync-failed
+    - wiki-polis-flash-moved-to
+    - wiki-polis-flash-phases-saved-sync-failed
+    - wiki-polis-flash-seed-added
+    - wiki-polis-flash-seed-added-corrected
+    - wiki-polis-flash-seed-added-meta-failed
+    - wiki-polis-flash-seed-added-no-link
+    - wiki-polis-flash-unbanned
+
+VALIDATORS:
+  - id: MediaWikiParameter
+    insertable: true
+    enforce: true
+  - id: MediaWikiPlural
+    enforce: true
+  - id: BraceBalance
+    enforce: true
+
+INSERTABLES:
+  - class: HtmlTagInsertablesSuggester
