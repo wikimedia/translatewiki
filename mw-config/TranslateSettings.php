@@ -535,12 +535,8 @@ wfAddNamespace( 1254, 'FUEL' );
 wfAddNamespace( 1256, 'Blockly' );
 $wgTranslateGroupFiles[] = "$GROUPS/Blockly/Blockly.yaml";
 
+# No longer in use.
 wfAddNamespace( 1258, 'MathJax' );
-$wgTranslateGroupFiles[] = "$GROUPS/MathJax/MathJax.yaml";
-$wgTranslateSupportUrlNamespace[NS_MATHJAX] = [
-	'page' => 'Translating_talk:MathJax',
-	'params' => $talkParams,
-];
 
 wfAddNamespace( 1260, 'NFCRingControl' );
 $wgTranslateGroupFiles[] = "$GROUPS/NFCRingControl/NFCRingControl.yaml";
