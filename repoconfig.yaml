@@ -270,14 +270,6 @@ mantis:
       url|export: git@github.com:mantisbt/mantisbt.git
       commit-message-suffix: "[skip ci]"
 
-mathjax:
-  group: out-mathjax-*
-  repos:
-    mathjax:
-      type: github
-      url: https://github.com/mathjax/MathJax-i18n.git
-      url|export: git@github.com:mathjax/MathJax-i18n.git
-
 mediawiki:
   always-export-languages:
     - en-ca
