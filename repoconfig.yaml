@@ -887,10 +887,6 @@ mwgithub:
       type: github
       url: https://github.com/SemanticMediaWiki/SemanticWatchlist.git
       url|export: git@github.com:SemanticMediaWiki/SemanticWatchlist.git
-    mwgithub/SkizNet/mediawiki-BlockASN:
-      type: github
-      url: https://github.com/SkizNet/mediawiki-BlockASN.git
-      url|export: git@github.com:SkizNet/mediawiki-BlockASN.git
     mwgithub/SkizNet/mediawiki-Debounce:
       type: github
       url: https://github.com/SkizNet/mediawiki-Debounce.git

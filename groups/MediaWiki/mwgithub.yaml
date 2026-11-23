@@ -1500,21 +1500,6 @@ TAGS:
 
 ---
 BASIC:
-  id: mwgithub-blockasn
-  label: BlockASN
-  description: "{{Special:MyLanguage/MediaWiki:blockasn-desc/en}}"
-  support:
-    url: https://github.com/SkizNet/mediawiki-BlockASN/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/SkizNet/mediawiki-BlockASN/i18n/%CODE%.json"
-
----
-BASIC:
   id: mwgithub-debounce
   label: Debounce
   description: "{{Special:MyLanguage/MediaWiki:debounce-desc/en}}"
