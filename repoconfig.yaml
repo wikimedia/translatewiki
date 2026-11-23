@@ -750,10 +750,6 @@ mwgithub:
       type: github
       url: https://github.com/ProfessionalWiki/ExternalContent.git
       url|export: git@github.com:ProfessionalWiki/ExternalContent.git
-    mwgithub/ProfessionalWiki/IdGenerator:
-      type: github
-      url: https://github.com/ProfessionalWiki/IdGenerator.git
-      url|export: git@github.com:ProfessionalWiki/IdGenerator.git
     mwgithub/ProfessionalWiki/Maps:
       type: github
       url: https://github.com/ProfessionalWiki/Maps.git

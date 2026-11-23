@@ -143,24 +143,6 @@ FILES:
   sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/ExternalContent/i18n/%CODE%.json"
 ---
 BASIC:
-  id: mwgithub-id-generator
-  label: ID Generator
-  description: "{{Special:MyLanguage/MediaWiki:Id-generator-desc/en}}"
-  support:
-    url: https://github.com/ProfessionalWiki/IdGenerator/issues/new
-    params:
-      title: Translation issue with message %MESSAGE%
-      body: "\n\nURL: %MESSAGE_URL%"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgithub/ProfessionalWiki/IdGenerator/i18n/%CODE%.json"
-
-TAGS:
-  ignored:
-    - id-generator-name
----
-BASIC:
   id: mwgithub-member-access
   label: Member Access
   description: "{{Special:MyLanguage/MediaWiki:Memberaccess-description/en}}"
