@@ -2939,6 +2939,7 @@ Reader Experiments
 ignored = readerexperiments-imagebrowsing-image-alt-text
 ignored = readerexperiments-semanticsearch-preference-semanticsearch-label
 ignored = readerexperiments-semanticsearch-preference-specialsearch-label
+optional = readerexperiments-readaloud-playback-speed-button-label
 
 Reading Lists - API
 id = ext-readinglists-api
