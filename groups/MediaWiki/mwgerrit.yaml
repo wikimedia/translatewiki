@@ -18,19 +18,6 @@ TEMPLATE:
     - class: MediaWikiInsertablesSuggester
 ---
 BASIC:
-  id: mwgerrit-valueview
-  label: Value View
-  description: "{{Special:MyLanguage/MediaWiki:Valueview-desc/en}}"
-
-FILES:
-  format: Json
-  sourcePattern: "%GROUPROOT%/mwgerrit/data-values/value-view/i18n/%CODE%.json"
-
-TAGS:
-  optional:
-    - valueview-expertextender-languageselector-languagetemplate
----
-BASIC:
   id: mwgerrit-oojs-ui
   label: OOjs UI (via VisualEditor)
   description: "{{Special:MyLanguage/MediaWiki:Visualeditor-desc/en}}"

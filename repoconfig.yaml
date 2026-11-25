@@ -465,12 +465,8 @@ miniedit:
 
 mwgerrit:
   group: mwgerrit-*
-  auto-merge: ^data-values/value-view|oojs/ui|VisualEditor/VisualEditor
+  auto-merge: ^oojs/ui|VisualEditor/VisualEditor
   repos:
-    mwgerrit/data-values/value-view:
-      type: wmgerrit
-      url: https://gerrit.wikimedia.org/r/data-values/value-view
-      url|export: ssh://l10n-bot@gerrit.wikimedia.org:29418/data-values/value-view
     mwgerrit/oojs/ui:
       type: wmgerrit
       url: https://gerrit.wikimedia.org/r/oojs/ui

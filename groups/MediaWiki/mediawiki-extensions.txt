@@ -3923,6 +3923,11 @@ ignored = wikibase-description-helppage, wikibase-label-helppage
 Wikibase - Repo - API
 file = Wikibase/repo/i18n/api/%CODE%.json
 
+Wikibase - Value View
+file = Wikibase/view/packages/wikibase-data-values-value-view/i18n/%CODE%.json
+desc = {{Special:MyLanguage/MediaWiki:Valueview-desc/en}}
+optional = valueview-expertextender-languageselector-languagetemplate
+
 Wikibase Cirrus Search
 descmsg = wikibasecirrus-desc
 aliasfile = WikibaseCirrusSearch/WikibaseCirrusSearch.alias.php

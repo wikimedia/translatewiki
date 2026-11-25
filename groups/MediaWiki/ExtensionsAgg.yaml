@@ -772,6 +772,7 @@ GROUPS:
   - ext-universallanguageselector
   - ext-wikidata.org
   - ext-wikibase-repo-*
+  - ext-wikibase-valueview
   - ext-wikimediabadges
   - ext-propertysuggester
   - ext-wikibasequalityconstraints

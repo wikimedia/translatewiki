@@ -118,6 +118,7 @@ $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwgithub.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/mwgitlab.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/MediaWiki.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/MirahezeAgg.yaml";
+$wgTranslateGroupAliases['mwgerrit-valueview'] = 'ext-wikibase-valueview';
 $wgTranslateGroupAliases['mwgithub-requestssl'] = 'mwgithub-requestcustomdomain';
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaMainAgg.yaml";
 $wgTranslateGroupFiles[] = "$GROUPS/MediaWiki/WikimediaAdvancedAgg.yaml";
