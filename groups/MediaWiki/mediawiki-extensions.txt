@@ -3927,6 +3927,7 @@ Wikibase - Value View
 file = Wikibase/view/packages/wikibase-data-values-value-view/i18n/%CODE%.json
 desc = {{Special:MyLanguage/MediaWiki:Valueview-desc/en}}
 optional = valueview-expertextender-languageselector-languagetemplate
+optional = valueview-expert-globecoordinateinput-precisionlabel-tenthousandth-of-arcsecond
 
 Wikibase Cirrus Search
 descmsg = wikibasecirrus-desc
